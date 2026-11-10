@@ -43,7 +43,7 @@
     {% endfor %}
     </div>
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
-    {% if missing %}<p class="muted" style="font-size:.8rem;margin:10px 0 0">পাওয়া যায়নি: {% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+    {% if missing %}<div class="notfound" role="note"><span class="ic" aria-hidden="true">!</span><div><b>{{ missing|length|bn }}টি স্টোরে পাওয়া যায়নি</b><br>{% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</div></div>{% endif %}
   </section>
 
   <section class="card">

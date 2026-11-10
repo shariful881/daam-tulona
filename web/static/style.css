@@ -1,14 +1,14 @@
 /* দামতুলনা — মোবাইল-ফার্স্ট এক কলাম ডিজাইন */
 :root{
   --bg:#eef2f1; --surface:#ffffff; --ink:#12302c; --muted:#5b706c; --line:#d6e0dd;
-  --accent:#c97a12; --accent-soft:#fbefdc; --best:#1d7a52; --best-soft:#e2f3ea; --na:#98a6a3; --warn:#b4472f;
+  --accent:#c97a12; --accent-soft:#fbefdc; --best:#1d7a52; --best-soft:#e2f3ea; --na:#98a6a3; --warn:#b4472f; --warn-soft:#fbe9e4;
   --shadow:0 -6px 20px rgba(18,48,44,.10);
   --body:"Hind Siliguri","Noto Sans Bengali",system-ui,sans-serif;
   --mono:"JetBrains Mono",ui-monospace,monospace;
 }
 @media (prefers-color-scheme:dark){:root{
   --bg:#0e1716; --surface:#17221f; --ink:#e3ece9; --muted:#93a6a2; --line:#2a3936;
-  --accent:#efa947; --accent-soft:#3a2c17; --best:#4fc88f; --best-soft:#173126; --na:#5f706c; --warn:#e7826b;
+  --accent:#efa947; --accent-soft:#3a2c17; --best:#4fc88f; --best-soft:#173126; --na:#5f706c; --warn:#e7826b; --warn-soft:#3a1f18;
   --shadow:0 -6px 20px rgba(0,0,0,.4); color-scheme:dark}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -144,3 +144,6 @@ body.cmp-on main.col{padding-bottom:calc(60px + env(safe-area-inset-bottom))}
 body.cmp-on main.has-buy{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
 main.col>*{min-width:0}
 .cmpwrap{max-width:100%}
+.notfound{display:flex;gap:10px;align-items:flex-start;margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--warn-soft);color:var(--ink);font-size:.82rem;line-height:1.45}
+.notfound b{color:var(--warn)}
+.notfound .ic{flex:0 0 22px;height:22px;border-radius:50%;background:var(--warn);color:var(--surface);display:grid;place-items:center;font-weight:700;font-size:.8rem;margin-top:1px}
