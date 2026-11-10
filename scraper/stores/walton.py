@@ -20,7 +20,7 @@ def parse_list(html: str) -> tuple[list[dict], bool]:
             continue
         prices = [parse_price(re.sub(r"Tk\.?|BDT", "", p.get_text())) for p in card.select(".price-area p, .price-area span")]
         prices = [p for p in prices if p]
-        items.append({"model": a.get_text(" ", strip=True), "url": a["href"].split("?")[0],
+        items.append({"model": re.sub(r"\s*\((INVERTER|INV)\)\s*", " ", a.get_text(" ", strip=True), flags=re.I).strip(), "url": a["href"].split("?")[0],
                       "price": min(prices) if prices else None, "regular": max(prices) if len(prices) > 1 else None,
                       "image": (card.select_one("img") or {}).get("src")})
     nxt = bool(soup.select(".pagination a"))
@@ -60,7 +60,7 @@ def make_name(model: str, spec: dict, kind: str) -> str:
 
 def scrape(url: str, max_pages: int = 5, delay: float = 5, limit=None) -> list[dict]:
     specs = brand_specs.load("walton")
-    kind = "Freezer" if "freezer" in url else "Refrigerator"
+    kind = "Freezer" if url.rstrip("/").endswith("/freezer") else "Refrigerator"
     results, new = [], 0
     for page in range(1, max_pages + 1):
         rows, nxt = parse_list(fetch(f"{url}?limit=100" + (f"&page={page}" if page > 1 else ""), delay))
