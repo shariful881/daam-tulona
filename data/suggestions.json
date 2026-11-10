@@ -1,5 +1,124 @@
 [
  {
+  "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop",
+  "b": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-inch-fhd-laptop",
+  "score": 1.0,
+  "a_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6\" FHD Laptop",
+  "b_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6 Inch FHD Laptop"
+ },
+ {
+  "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop-2",
+  "b": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-inch-fhd-laptop",
+  "score": 1.0,
+  "a_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6\" FHD Laptop",
+  "b_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6 Inch FHD Laptop"
+ },
+ {
+  "a": "macbook-air-m5-chip-13-inch",
+  "b": "macbook-air-m5-chip-13-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Air M5 Chip 13-inch",
+  "b_name": "MacBook Air M5 Chip 13-inch"
+ },
+ {
+  "a": "macbook-air-m5-chip-13-inch-10-core-cpu-10-core-gpu",
+  "b": "macbook-air-m5-chip-13-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Air M5 Chip 13-inch (10-core CPU, 10-core GPU)",
+  "b_name": "MacBook Air M5 Chip 13-inch"
+ },
+ {
+  "a": "macbook-pro-m5-chip-14-inch",
+  "b": "macbook-pro-m5-chip-14-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Pro M5 Chip 14-inch",
+  "b_name": "MacBook Pro M5 Chip 14-inch"
+ },
+ {
+  "a": "macbook-pro-m5-pro-chip-14-inch-15-core-cpu-16-core-gpu",
+  "b": "macbook-pro-m5-chip-14-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Pro M5 Pro Chip 14-inch (15-core CPU, 16-core GPU)",
+  "b_name": "MacBook Pro M5 Chip 14-inch"
+ },
+ {
+  "a": "macbook-pro-m5-max-chip-16-inch",
+  "b": "macbook-pro-m5-max-chip-16-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Pro M5 Max Chip 16-inch",
+  "b_name": "MacBook Pro M5 Max Chip 16-inch"
+ },
+ {
+  "a": "macbook-pro-m5-max-chip-16-inch-40-core-gpu",
+  "b": "macbook-pro-m5-max-chip-16-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Pro M5 Max Chip 16-inch (40 core GPU)",
+  "b_name": "MacBook Pro M5 Max Chip 16-inch"
+ },
+ {
+  "a": "macbook-pro-m5-pro-chip-14-inch-18-core-cpu-20-core-gpu",
+  "b": "macbook-pro-m5-chip-14-inch-2",
+  "score": 1.0,
+  "a_name": "MacBook Pro M5 Pro Chip 14-inch (18-core CPU, 20-core GPU)",
+  "b_name": "MacBook Pro M5 Chip 14-inch"
+ },
+ {
+  "a": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc",
+  "b": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc-2",
+  "score": 1.0,
+  "a_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27\" FHD All-in-One Desktop PC",
+  "b_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27\" FHD All-in-One Desktop PC"
+ },
+ {
+  "a": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc",
+  "b": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-inch-fhd-all-in-one-desktop-pc",
+  "score": 1.0,
+  "a_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27\" FHD All-in-One Desktop PC",
+  "b_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27 inch FHD All-in-One Desktop PC"
+ },
+ {
+  "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc",
+  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
+  "score": 1.0,
+  "a_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc",
+  "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+ },
+ {
+  "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-with-ram-ssd",
+  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
+  "score": 1.0,
+  "a_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini PC With RAM & SSD",
+  "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc"
+ },
+ {
   "a": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics",
   "b": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics-2",
   "score": 1.0,
@@ -28,13 +147,6 @@
   "b_name": "AMD Ryzen 5 5600 Processor"
  },
  {
-  "a": "amd-ryzen-5-8500g-processor-with-radeon-graphics",
-  "b": "amd-ryzen-5-8500g-processor-with-radeon-graphics-2",
-  "score": 1.0,
-  "a_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics",
-  "b_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics"
- },
- {
   "a": "amd-ryzen-5-5600g-processor-with-radeon-graphics",
   "b": "amd-ryzen-5-5600g-radeon-graphics-processor",
   "score": 1.0,
@@ -49,13 +161,6 @@
   "b_name": "AMD RYZEN 5 5600G RADEON GRAPHICS PROCESSOR"
  },
  {
-  "a": "intel-pentium-gold-g6400-10th-gen-coffee-lake-processor",
-  "b": "intel-pentium-gold-g6400-10th-gen-coffee-lake-processor-bundle",
-  "score": 1.0,
-  "a_name": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
-  "b_name": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor (BUNDLE)"
- },
- {
   "a": "intel-core-i3-12100-12th-gen-alder-lake-processor",
   "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
   "score": 1.0,
@@ -68,6 +173,34 @@
   "score": 1.0,
   "a_name": "Intel Core i3-12100 12th Gen Alder Lake Processor (Tray)",
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
+ },
+ {
+  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card-2",
+  "score": 1.0,
+  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card"
+ },
+ {
+  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card-3",
+  "score": 1.0,
+  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card"
+ },
+ {
+  "a": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card-2",
+  "score": 1.0,
+  "a_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card"
+ },
+ {
+  "a": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card-3",
+  "score": 1.0,
+  "a_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card"
  },
  {
   "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
@@ -210,6 +343,20 @@
   "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
  },
  {
+  "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware",
+  "b": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware-2",
+  "score": 1.0,
+  "a_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)",
+  "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
+ },
+ {
+  "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd",
+  "b": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware-2",
+  "score": 1.0,
+  "a_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD",
+  "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
+ },
+ {
   "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
   "b": "netac-sa500-128gb-2-5-sataiii-ssd",
   "score": 1.0,
@@ -301,1102 +448,955 @@
   "b_name": "OCPC MFL-300 1 TB M.2 NVME SSD"
  },
  {
-  "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-nvme-m-2-ssd-with-dram-cache",
-  "b": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd-with-dram-cache",
+  "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2-years-warranty",
+  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2",
+  "score": 1.0,
+  "a_name": "Toshiba S300 2TB 5400RPM 3.5\" Surveillance Hard Drive (2 Years Warranty)",
+  "b_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive"
+ },
+ {
+  "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive",
+  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2",
+  "score": 1.0,
+  "a_name": "Toshiba S300 2TB 5400rpm 3.5\" Surveillance Hard Drive",
+  "b_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive"
+ },
+ {
+  "a": "seagate-skyhawk-6tb-3-5-surveillance-hdd",
+  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "score": 1.0,
+  "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD",
+  "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD"
+ },
+ {
+  "a": "seagate-skyhawk-6tb-3-5-surveillance-internal-hdd",
+  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "score": 1.0,
+  "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance Internal HDD",
+  "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD"
+ },
+ {
+  "a": "toshiba-1tb-sata-laptop-hard-disk",
+  "b": "toshiba-1tb-sata-laptop-hard-disk-2",
+  "score": 1.0,
+  "a_name": "Toshiba 1TB Sata Laptop Hard Disk",
+  "b_name": "Toshiba 1TB Sata Laptop Hard Disk"
+ },
+ {
+  "a": "toshiba-1tb-sata-laptop-hard-disk",
+  "b": "toshiba-1tb-sata-hard-disk",
+  "score": 1.0,
+  "a_name": "Toshiba 1TB Sata Laptop Hard Disk",
+  "b_name": "TOSHIBA 1TB SATA HARD DISK"
+ },
+ {
+  "a": "acer-v950b-mid-tower-atx-gaming-casing",
+  "b": "acer-v950b-mid-tower-atx-gaming-casing-2",
+  "score": 1.0,
+  "a_name": "Acer V950B Mid-Tower ATX Gaming Casing",
+  "b_name": "Acer V950B Mid-Tower ATX Gaming Casing"
+ },
+ {
+  "a": "acer-v950b-mid-tower-atx-gaming-casing",
+  "b": "acer-v950b-mid-tower-atx-gaming-casing-3",
+  "score": 1.0,
+  "a_name": "Acer V950B Mid-Tower ATX Gaming Casing",
+  "b_name": "Acer V950B Mid-Tower ATX Gaming Casing"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
+ },
+ {
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+ },
+ {
+  "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white",
+  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
+  "score": 1.0,
+  "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)",
+  "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
+ },
+ {
+  "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-carbon",
+  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
+  "score": 1.0,
+  "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (Carbon)",
+  "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
+ },
+ {
+  "a": "rode-videomic-pro-compact-directional-on-camera-microphone",
+  "b": "rode-videomic-pro-compact-directional-on-camera-microphone-3",
+  "score": 1.0,
+  "a_name": "RODE VideoMic Pro Compact Directional On-camera Microphone",
+  "b_name": "Rode VideoMic Pro Compact Directional On-camera Microphone"
+ },
+ {
+  "a": "rode-videomic-pro-compact-directional-on-camera-microphone-2",
+  "b": "rode-videomic-pro-compact-directional-on-camera-microphone-3",
+  "score": 1.0,
+  "a_name": "RODE VideoMic Pro+Compact Directional On-camera Microphone",
+  "b_name": "Rode VideoMic Pro Compact Directional On-camera Microphone"
+ },
+ {
+  "a": "maono-wave-t1-mini-wireless-microphone",
+  "b": "maono-wave-t1-mini-wireless-microphone-ios-type-c",
+  "score": 1.0,
+  "a_name": "Maono Wave T1 Mini Wireless Microphone",
+  "b_name": "Maono Wave T1 Mini Wireless Microphone (iOS, TYPE C)"
+ },
+ {
+  "a": "maono-wave-t1-mini-wireless-microphone",
+  "b": "maono-wave-t1-mini-wireless-microphone-type-c",
+  "score": 1.0,
+  "a_name": "Maono Wave T1 Mini Wireless Microphone",
+  "b_name": "Maono Wave T1 Mini Wireless Microphone (Type C)"
+ },
+ {
+  "a": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive",
+  "b": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-3",
+  "score": 1.0,
+  "a_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
+  "b_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive"
+ },
+ {
+  "a": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-2",
+  "b": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-3",
+  "score": 1.0,
+  "a_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
+  "b_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive"
+ },
+ {
+  "a": "sandisk-ultra-dual-drive-go-usb-type-c-128gb-pen-drive",
+  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
+  "score": 1.0,
+  "a_name": "SanDisk Ultra Dual Drive Go USB Type-C 128GB Pen Drive",
+  "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
+ },
+ {
+  "a": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive",
+  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
+  "score": 1.0,
+  "a_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive",
+  "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
+ },
+ {
+  "a": "samsung-galaxy-watch-8",
+  "b": "samsung-galaxy-watch-8-2",
+  "score": 1.0,
+  "a_name": "Samsung Galaxy Watch 8",
+  "b_name": "Samsung Galaxy Watch 8"
+ },
+ {
+  "a": "samsung-galaxy-watch-8",
+  "b": "samsung-galaxy-watch-8-3",
+  "score": 1.0,
+  "a_name": "Samsung Galaxy Watch 8",
+  "b_name": "Samsung Galaxy Watch 8"
+ },
+ {
+  "a": "oraimo-spacebuds-neo",
+  "b": "oraimo-spacebuds-neo-3",
+  "score": 1.0,
+  "a_name": "Oraimo SpaceBuds Neo+",
+  "b_name": "Oraimo SpaceBuds Neo"
+ },
+ {
+  "a": "oraimo-spacebuds-neo",
+  "b": "oraimo-spacebuds-neo-4",
+  "score": 1.0,
+  "a_name": "Oraimo SpaceBuds Neo+",
+  "b_name": "Oraimo SpaceBuds Neo+"
+ },
+ {
+  "a": "oraimo-spacebuds-neo-2",
+  "b": "oraimo-spacebuds-neo-3",
+  "score": 1.0,
+  "a_name": "Oraimo SpaceBuds Neo",
+  "b_name": "Oraimo SpaceBuds Neo"
+ },
+ {
+  "a": "oraimo-spacebuds-neo-2",
+  "b": "oraimo-spacebuds-neo-4",
+  "score": 1.0,
+  "a_name": "Oraimo SpaceBuds Neo",
+  "b_name": "Oraimo SpaceBuds Neo+"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-black",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-purple",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Purple)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-white",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (white)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-black",
+  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (Black)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-black",
+  "b": "logitech-g333-in-ear-gaming-earphone-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (Black)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-purple",
+  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (Purple)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-purple",
+  "b": "logitech-g333-in-ear-gaming-earphone-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (Purple)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-white",
+  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (white)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone-white",
+  "b": "logitech-g333-in-ear-gaming-earphone-2",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone (white)",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+ },
+ {
+  "a": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank",
+  "b": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-3",
+  "score": 1.0,
+  "a_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank",
+  "b_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank"
+ },
+ {
+  "a": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-2",
+  "b": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-3",
+  "score": 1.0,
+  "a_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank",
+  "b_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank"
+ },
+ {
+  "a": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller",
+  "b": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-2",
+  "score": 1.0,
+  "a_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller",
+  "b_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller"
+ },
+ {
+  "a": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-global-version",
+  "b": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-2",
+  "score": 1.0,
+  "a_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller (Global Version)",
+  "b_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller"
+ },
+ {
+  "a": "sony-playstation-5-pro",
+  "b": "sony-playstation-5-pro-us-edition",
+  "score": 1.0,
+  "a_name": "Sony PlayStation 5 Pro",
+  "b_name": "Sony PlayStation 5 Pro (US Edition)"
+ },
+ {
+  "a": "sony-playstation-5-pro",
+  "b": "sony-playstation-5-pro-uk-edition",
+  "score": 1.0,
+  "a_name": "Sony PlayStation 5 Pro",
+  "b_name": "Sony PlayStation 5 Pro (UK Edition)"
+ },
+ {
+  "a": "cougar-armor-one-gaming-chair",
+  "b": "cougar-armor-one-gaming-chair-2",
+  "score": 1.0,
+  "a_name": "Cougar ARMOR ONE gaming chair",
+  "b_name": "Cougar Armor One Gaming Chair"
+ },
+ {
+  "a": "cougar-armor-one-gaming-chair",
+  "b": "cougar-armor-one-gaming-chair-black",
+  "score": 1.0,
+  "a_name": "Cougar ARMOR ONE gaming chair",
+  "b_name": "Cougar ARMOR ONE gaming chair (Black)"
+ },
+ {
+  "a": "fantech-gc-182-alpha-gaming-chair",
+  "b": "fantech-alpha-gc-182-gaming-chair",
+  "score": 1.0,
+  "a_name": "Fantech GC-182 Alpha Gaming Chair",
+  "b_name": "Fantech Alpha GC-182 Gaming Chair"
+ },
+ {
+  "a": "fantech-gc-182-alpha-gaming-chair-blue",
+  "b": "fantech-alpha-gc-182-gaming-chair",
+  "score": 1.0,
+  "a_name": "Fantech GC-182 Alpha Gaming Chair (Blue)",
+  "b_name": "Fantech Alpha GC-182 Gaming Chair"
+ },
+ {
+  "a": "fantech-gc-182-alpha-gaming-chair-sakura",
+  "b": "fantech-alpha-gc-182-gaming-chair",
+  "score": 1.0,
+  "a_name": "Fantech GC-182 Alpha Gaming Chair (Sakura)",
+  "b_name": "Fantech Alpha GC-182 Gaming Chair"
+ },
+ {
+  "a": "fantech-gc-182-alpha-gaming-chair-white",
+  "b": "fantech-alpha-gc-182-gaming-chair",
+  "score": 1.0,
+  "a_name": "Fantech GC-182 Alpha Gaming Chair (white)",
+  "b_name": "Fantech Alpha GC-182 Gaming Chair"
+ },
+ {
+  "a": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router",
+  "b": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router-2",
+  "score": 1.0,
+  "a_name": "Tenda TX12 Pro v2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+  "b_name": "Tenda TX12 Pro V2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
+ },
+ {
+  "a": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router",
+  "b": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router-3",
+  "score": 1.0,
+  "a_name": "Tenda TX12 Pro v2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+  "b_name": "Tenda TX12 Pro V2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
+ },
+ {
+  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-1-pack",
+  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (1 Pack)",
+  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
+ },
+ {
+  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-3-pack",
+  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (3 Pack)",
+  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
+ },
+ {
+  "a": "cudy-m1800-ax1800-dual-band-mesh-router-3-pack",
+  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (3 Pack)",
+  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
+ },
+ {
+  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
+  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
+  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
+ },
+ {
+  "a": "cudy-m1800-ax1800-dual-band-mesh-router-1-pack",
+  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (1 Pack)",
+  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack",
+  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)",
+  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
+ },
+ {
+  "a": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack",
+  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
+  "score": 1.0,
+  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)",
+  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
+ },
+ {
+  "a": "netis-wf2409e-300mbps-wireless-n-router",
+  "b": "netis-wf2409e-300mbps-wireless-n-router-2",
+  "score": 1.0,
+  "a_name": "Netis WF2409E 300Mbps Wireless N Router",
+  "b_name": "Netis WF2409E 300Mbps Wireless N Router"
+ },
+ {
+  "a": "netis-wf2409e-300mbps-wireless-n-router",
+  "b": "netis-wireless-n-router-wf2409e-300mbps",
+  "score": 1.0,
+  "a_name": "Netis WF2409E 300Mbps Wireless N Router",
+  "b_name": "Netis Wireless N Router WF2409E 300Mbps"
+ },
+ {
+  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-without-case",
+  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
+  "score": 1.0,
+  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (Without Case)",
+  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
+ },
+ {
+  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-with-case",
+  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
+  "score": 1.0,
+  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (With Case)",
+  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
+ },
+ {
+  "a": "epson-ecotank-l130-single-function-inktank-printer-official",
+  "b": "epson-ecotank-l130-single-function-inktank-printer",
+  "score": 1.0,
+  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Official)",
+  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
+ },
+ {
+  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-unofficial",
+  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
+  "score": 1.0,
+  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Unofficial)",
+  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
+ },
+ {
+  "a": "epson-ecotank-l130-single-function-inktank-printer-unofficial",
+  "b": "epson-ecotank-l130-single-function-inktank-printer",
+  "score": 1.0,
+  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Unofficial)",
+  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
+ },
+ {
+  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-official",
+  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
+  "score": 1.0,
+  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Official)",
+  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
+ },
+ {
+  "a": "epson-work-force-ds-530ii-sheetfed-scanner",
+  "b": "epson-work-force-ds-530ii-sheetfed-scanner-2",
+  "score": 1.0,
+  "a_name": "EPSON Work Force DS-530II Sheetfed Scanner",
+  "b_name": "EPSON Work Force DS-530II Sheetfed Scanner"
+ },
+ {
+  "a": "epson-work-force-ds-530ii-sheetfed-scanner",
+  "b": "epson-work-force-ds-530ii-sheetfed-scanner-3",
+  "score": 1.0,
+  "a_name": "EPSON Work Force DS-530II Sheetfed Scanner",
+  "b_name": "EPSON Work Force DS-530II Sheetfed Scanner"
+ },
+ {
+  "a": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network",
+  "b": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network-2",
+  "score": 1.0,
+  "a_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network",
+  "b_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network"
+ },
+ {
+  "a": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network",
+  "b": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network-3",
+  "score": 1.0,
+  "a_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network",
+  "b_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network"
+ },
+ {
+  "a": "power-pac-1200va-offline-ups-plastic-body",
+  "b": "power-pac-1200va-offline-ups",
+  "score": 1.0,
+  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
+  "b_name": "Power Pac 1200VA Offline UPS"
+ },
+ {
+  "a": "power-pac-1200va-offline-ups-plastic-body",
+  "b": "power-pac-1200va-offline-ups-metal-body",
+  "score": 1.0,
+  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
+  "b_name": "Power Pac 1200VA Offline UPS (Metal Body)"
+ },
+ {
+  "a": "eset-internet-security-3-user-for-1-year",
+  "b": "eset-1-user-3-years-internet-security",
+  "score": 1.0,
+  "a_name": "ESET Internet Security 3 User for 1 Year",
+  "b_name": "ESET 1 User 3 Years Internet Security"
+ },
+ {
+  "a": "eset-internet-security-3-user-for-1-year",
+  "b": "eset-internet-security-3-user-1-year",
+  "score": 1.0,
+  "a_name": "ESET Internet Security 3 User for 1 Year",
+  "b_name": "ESET Internet Security 3 User 1 Year"
+ },
+ {
+  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case",
+  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
+  "score": 1.0,
+  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
+  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
+ },
+ {
+  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-2",
+  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
+  "score": 1.0,
+  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
+  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
+ },
+ {
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
+ },
+ {
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+ },
+ {
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+ },
+ {
+  "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair",
+  "b": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-2",
+  "score": 1.0,
+  "a_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair",
+  "b_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair"
+ },
+ {
+  "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair",
+  "b": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-red",
+  "score": 1.0,
+  "a_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair",
+  "b_name": "MeeTion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair (Red)"
+ },
+ {
+  "a": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-3k-oled-touch-lapto-2",
+  "b": "hp-omnibook-ultra-flip-x360-14-fh0104tu-intel-core-ultra-7-256v-14-inch-3k-oled",
+  "score": 0.93,
+  "a_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14\" 3K OLED Touch Laptop",
+  "b_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Intel Core Ultra 7 256V 14 Inch 3K OLED Touch Laptop"
+ },
+ {
+  "a": "hp-omnibook-ultra-flip-x360-14-fh0103tu-core-ultra-7-256v-14-inch-3k-oled-touch",
+  "b": "hp-omnibook-ultra-flip-x360-14-fh0103tu-intel-core-ultra-7-256v-14-inch-3k-oled",
+  "score": 0.93,
+  "a_name": "HP OmniBook Ultra Flip x360 14-fh0103TU Core Ultra 7 256V 14-inch 3K OLED Touch Laptop",
+  "b_name": "HP OmniBook Ultra Flip x360 14-fh0103TU Intel Core Ultra 7 256V 14 Inch 3K OLED Touch Laptop"
+ },
+ {
+  "a": "colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-16gb-v-gddr7-graphics-card",
+  "b": "colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-16-gb-v-graphics-card",
+  "score": 0.93,
+  "a_name": "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 16GB-V GDDR7 Graphics Card",
+  "b_name": "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 16 GB-V Graphics Card"
+ },
+ {
+  "a": "lenovo-thinkcentre-neo-50t-gen-6-intel-core-ultra-3-205-16gb-ram-512gb-ssd-tower",
+  "b": "lenovo-thinkcentre-neo-50t-gen-6-intel-core-ultra-3-205-16gb-ram-512gb-ssd-brand",
+  "score": 0.93,
+  "a_name": "Lenovo ThinkCentre Neo 50t Gen 6 Intel Core Ultra 3 205 16GB RAM 512GB SSD Tower Brand PC",
+  "b_name": "Lenovo ThinkCentre neo 50t Gen 6 Intel Core Ultra 3 205 16GB RAM 512GB SSD Brand PC"
+ },
+ {
+  "a": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-3k-oled-touch-lapto-2",
+  "b": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-inch-oled-touch-lap",
+  "score": 0.92,
+  "a_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14\" 3K OLED Touch Laptop",
+  "b_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14-inch OLED Touch Laptop"
+ },
+ {
+  "a": "walton-unify-bs22f-core-i3-12th-gen-16gb-21-5-fhd-all-in-one-pc",
+  "b": "walton-unify-bs22f-core-i3-12th-gen-16gb-ram-21-5-fhd-ips-all-in-one-pc",
+  "score": 0.92,
+  "a_name": "Walton UNIFY BS22F Core i3 12th Gen 16GB 21.5\" FHD All-in-One PC",
+  "b_name": "Walton UNIFY BS22F Core i3 12th Gen 16GB RAM 21.5\" FHD IPS All-in-One PC"
+ },
+ {
+  "a": "msi-geforce-rtx-5060-ti-8g-shadow-2x-oc-plus-8gb-gddr7-graphics-card",
+  "b": "msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-graphics-card",
+  "score": 0.92,
+  "a_name": "MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS 8GB GDDR7 Graphics Card",
+  "b_name": "MSI GeForce RTX 5060 Ti SHADOW 2X OC PLUS 8GB GDDR7 Graphics Card"
+ },
+ {
+  "a": "msi-geforce-rtx-5060-ti-8g-ventus-2x-oc-plus-8gb-gddr7-graphics-card",
+  "b": "msi-geforce-rtx-5060-ti-ventus-2x-oc-plus-8gb-gddr7-graphics-card",
+  "score": 0.92,
+  "a_name": "MSI GeForce RTX 5060 Ti 8G VENTUS 2X OC PLUS 8GB GDDR7 Graphics Card",
+  "b_name": "MSI GeForce RTX 5060 TI VENTUS 2X OC PLUS 8GB GDDR7 Graphics Card"
+ },
+ {
+  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-sff-16g-gddr7-graphics-card",
+  "score": 0.92,
+  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC ICE SFF 16G GDDR7 Graphics Card"
+ },
+ {
+  "a": "gamdias-aura-gp450-pro-450w-80-plus-white-certified-atx-power-supply",
+  "b": "gamdias-aura-gp450-pro-450w-80-plus-white-atx-power-supply",
+  "score": 0.92,
+  "a_name": "Gamdias AURA GP450 PRO 450W 80 Plus White Certified ATX Power Supply",
+  "b_name": "Gamdias AURA GP450 PRO 450W 80 Plus White ATX Power Supply"
+ },
+ {
+  "a": "asus-rog-ryujin-iii-360-argb-aio-3-5-lcd-display-liquid-cpu-cooler-white",
+  "b": "asus-rog-ryujin-iii-360-argb-aio-3-5-inch-lcd-display-liquid-cpu-cooler",
+  "score": 0.92,
+  "a_name": "Asus ROG RYUJIN III 360 ARGB AIO 3.5\" LCD Display Liquid CPU Cooler White",
+  "b_name": "Asus ROG RYUJIN III 360 ARGB AIO 3.5 INCH LCD Display Liquid CPU Cooler"
+ },
+ {
+  "a": "lg-32gp850-b-32-ultragear-165hz-g-sync-qhd-nano-ips-gaming-monitor",
+  "b": "lg-32gp850-b-32-inch-ultragear-qhd-165hz-g-sync-ips-gaming-monitor",
+  "score": 0.92,
+  "a_name": "LG 32GP850-B 32\" UltraGear 165Hz G-SYNC QHD Nano IPS Gaming Monitor",
+  "b_name": "LG 32GP850-B 32 Inch Ultragear QHD 165HZ G-Sync IPS Gaming Monitor"
+ },
+ {
+  "a": "xtreme-k502c-rgb-backlit-usb-wired-gaming-keyboard-mouse-mouse-pad-headphone-bla",
+  "b": "xtreme-k502c-rgb-backlit-usb-bangla-combo-black-keyboard-mouse-headphone-mouse-p",
+  "score": 0.92,
+  "a_name": "Xtreme K502C RGB Backlit USB Wired Gaming Keyboard, Mouse, Mouse Pad & Headphone Black Combo with Bangla",
+  "b_name": "XTREME K502C RGB BACKLIT USB-BANGLA COMBO BLACK KEYBOARD, MOUSE, HEADPHONE & MOUSE PAD"
+ },
+ {
+  "a": "baseus-qpow-pro-digital-display-22-5w-10000mah-type-c-power-bank",
+  "b": "baseus-qpow-pro-10000mah-22-5w-digital-display-power-bank-with-type-c-cable",
+  "score": 0.92,
+  "a_name": "Baseus Qpow Pro Digital Display 22.5W 10000mAh Type-C Power Bank",
+  "b_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Power Bank with Type-C Cable"
+ },
+ {
+  "a": "anker-zolo-20000mah-45w-power-bank-with-dual-built-in-type-c-cable",
+  "b": "anker-zolo-a110m-45w-power-bank-with-built-in-dual-type-c-cable-20000mah",
+  "score": 0.92,
+  "a_name": "Anker Zolo 20000mAh 45W Power Bank with Dual Built-in Type-C Cable",
+  "b_name": "Anker Zolo A110M 45W Power Bank with Built-in Dual Type-C Cable - 20000mah"
+ },
+ {
+  "a": "tenda-rx9-pro-ax3000-dual-band-gigabit-wi-fi-6-router",
+  "b": "tenda-rx9-pro-ax3000-3000mbps-dual-band-gigabit-wi-fi-6-router",
+  "score": 0.92,
+  "a_name": "Tenda RX9 Pro AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+  "b_name": "Tenda RX9 Pro AX3000 3000mbps Dual Band Gigabit Wi-Fi 6 Router"
+ },
+ {
+  "a": "tp-link-archer-ax53-ax3000-dual-band-gigabit-wi-fi-router",
+  "b": "tp-link-archer-ax53-ax3000-dual-band-gigabit-wi-fi-6-router",
+  "score": 0.92,
+  "a_name": "TP-Link Archer AX53 AX3000 Dual Band Gigabit Wi-Fi Router",
+  "b_name": "TP-Link Archer AX53 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
+ },
+ {
+  "a": "tp-link-tl-r470t-5-port-multi-wan-load-balance-broadband-router",
+  "b": "tp-link-tl-r470t-plus-5-port-multi-wan-load-balance-broadband-router",
+  "score": 0.92,
+  "a_name": "TP-Link TL-R470T+ 5-Port Multi Wan Load Balance Broadband Router",
+  "b_name": "TP-Link TL-R470T Plus 5-Port Multi Wan Load Balance Broadband Router"
+ },
+ {
+  "a": "dahua-dh-hac-hdw1209tlqp-a-led-hac-hdw1209clqp-a-led-2m-color-hdcvi-dome-camera",
+  "b": "dahua-dh-hac-hdw1209tlqp-a-led-2m-color-hdcvi-dome-camera",
+  "score": 0.92,
+  "a_name": "Dahua DH-HAC-HDW1209TLQP-A-LED/HAC-HDW1209CLQP-A-LED 2M Color HDCVI Dome Camera",
+  "b_name": "Dahua DH-HAC-HDW1209TLQP-A-LED 2M Color HDCVI Dome Camera"
+ },
+ {
+  "a": "xiaomi-wanbo-mozart-1-900-lumens-smart-android-portable-led-projector",
+  "b": "xiaomi-wanbo-mozart-1-pro-900-lumens-smart-android-portable-led-projector",
+  "score": 0.92,
+  "a_name": "Xiaomi Wanbo Mozart 1 900 Lumens Smart Android Portable LED Projector",
+  "b_name": "Xiaomi Wanbo Mozart 1 Pro 900 Lumens Smart Android Portable LED Projector"
+ },
+ {
+  "a": "sony-vario-tessar-t-fe-16-35mm-f-4-za-oss-camera-lens",
+  "b": "sony-vario-tessar-t-fe-16-35mm-f-4-za-oss-lens",
+  "score": 0.92,
+  "a_name": "Sony Vario-Tessar T FE 16-35mm f/4 ZA OSS Camera Lens",
+  "b_name": "Sony Vario-Tessar T FE 16-35mm f/4 ZA OSS Lens"
+ },
+ {
+  "a": "sigma-16mm-f-1-4-dc-dn-contemporary-camera-lens-for-sony-e-mount",
+  "b": "sigma-16mm-f-1-4-dc-dn-contemporary-lens-for-sony-e-mount",
+  "score": 0.92,
+  "a_name": "Sigma 16mm f/1.4 DC DN Contemporary Camera Lens for Sony E-mount",
+  "b_name": "Sigma 16mm f/1.4 DC DN Contemporary Lens for Sony E Mount"
+ },
+ {
+  "a": "lenovo-thinkpad-e14-gen-7-core-ultra-5-225h-14-wuxga-laptop",
+  "b": "lenovo-thinkpad-e14-gen-7-intel-core-ultra-5-225h-14-inch-wuxga-laptop",
   "score": 0.91,
-  "a_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 NVMe M.2 SSD With DRAM Cache",
-  "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD With DRAM Cache"
+  "a_name": "Lenovo ThinkPad E14 Gen 7 Core Ultra 5 225H 14\" WUXGA Laptop",
+  "b_name": "Lenovo ThinkPad E14 Gen 7 Intel Core Ultra 5 225H 14 Inch WUXGA Laptop"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
-  "score": 0.9,
-  "a_name": "TEAM T-Force DELTA TUF Gaming RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+  "a": "lenovo-ideapad-slim-3-15irh10-core-i5-13th-gen-15-3-wuxga-laptop-with-freedos",
+  "b": "lenovo-ideapad-slim-3-15irh10-core-i5-13th-gen-15-3-wuxga-laptop",
+  "score": 0.91,
+  "a_name": "Lenovo IdeaPad Slim 3 15IRH10 Core i5 13th Gen 15.3\" WUXGA Laptop With FreeDOS",
+  "b_name": "Lenovo IdeaPad Slim 3 15IRH10 Core i5 13th Gen 15.3\" WUXGA Laptop"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 0.9,
-  "a_name": "TEAM T-Force DELTA TUF Gaming RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+  "a": "lenovo-thinkpad-e14-gen-7-core-ultra-5-225u-14-wuxga-laptop",
+  "b": "lenovo-thinkpad-e14-gen-7-intel-core-ultra-5-225u-14-inch-wuxga-laptop",
+  "score": 0.91,
+  "a_name": "Lenovo ThinkPad E14 Gen 7 Core Ultra 5 225U 14\" WUXGA Laptop",
+  "b_name": "Lenovo ThinkPad E14 Gen 7 Intel Core Ultra 5 225U 14 Inch WUXGA Laptop"
  },
  {
-  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.9,
-  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+  "a": "dell-ec24250-intel-core-7-150u-23-8-fhd-display-all-in-one-pc",
+  "b": "dell-ec24250-intel-core-7-150u-23-8-inch-fhd-all-in-one-pc",
+  "score": 0.91,
+  "a_name": "Dell EC24250 Intel Core 7 150U 23.8\" FHD Display All-in-One PC",
+  "b_name": "Dell EC24250 Intel Core 7 150U 23.8-inch FHD All-in-One PC"
  },
  {
-  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.9,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+  "a": "asus-prime-h510m-e-csm-intel-11th-and-10th-gen-micro-atx-motherboard",
+  "b": "asus-prime-h510m-e-intel-10th-and-11th-gen-micro-atx-motherboard",
+  "score": 0.91,
+  "a_name": "Asus Prime H510M-E/CSM Intel 11th and 10th Gen Micro ATX Motherboard",
+  "b_name": "Asus Prime H510M-E Intel 10th and 11th Gen Micro ATX Motherboard"
  },
  {
-  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-1-3v-gaming-ram-white",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.9,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 1.3V Gaming RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+  "a": "msi-geforce-rtx-5060-8g-shadow-2x-oc-8gb-gddr7-graphics-card",
+  "b": "msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-graphics-card",
+  "score": 0.91,
+  "a_name": "MSI GeForce RTX 5060 8G SHADOW 2X OC 8GB GDDR7 Graphics Card",
+  "b_name": "MSI GeForce RTX 5060 SHADOW 2X OC 8GB GDDR7 Graphics Card"
  },
  {
-  "a": "team-t-force-vulcan-z-8gb-ddr4-3200mhz-desktop-gaming-ram",
-  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
-  "score": 0.89,
-  "a_name": "Team T-Force Vulcan Z 8GB DDR4 3200MHz Desktop Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
+  "a": "msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-graphics-card",
+  "b": "msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-graphics-card",
+  "score": 0.91,
+  "a_name": "MSI GeForce RTX 5060 8G VENTUS 2X OC 8GB GDDR7 Graphics Card",
+  "b_name": "MSI GeForce RTX 5060 VENTUS 2X OC 8GB GDDR7 Graphics Card"
  },
  {
-  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.89,
-  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+  "a": "msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-gddr7-graphics-card",
+  "b": "msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-graphics-card",
+  "score": 0.91,
+  "a_name": "MSI GeForce RTX 5070 12G VENTUS 2X OC 12GB GDDR7 Graphics Card",
+  "b_name": "MSI GeForce RTX 5070 12G VENTUS 2X OC 12GB Graphics Card"
  },
  {
-  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.89,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+  "a": "powercolor-hellhound-spectral-white-amd-radeon-rx-9060-xt-16gb-gddr6-graphics-ca",
+  "b": "powercolor-hellhound-spectral-white-amd-radeon-rx-9060-xt-16gb-graphics-card",
+  "score": 0.91,
+  "a_name": "PowerColor Hellhound Spectral White AMD Radeon RX 9060 XT 16GB GDDR6 Graphics Card",
+  "b_name": "PowerColor Hellhound Spectral White AMD Radeon RX 9060 XT 16GB Graphics Card"
  },
  {
-  "a": "team-t-force-delta-rgb-white-16gb-6000mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.89,
-  "a_name": "TEAM T-FORCE DELTA RGB White 16GB 6000MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+  "a": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card",
+  "b": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-white-graphics-card",
+  "score": 0.91,
+  "a_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card",
+  "b_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition White Graphics Card"
  },
  {
-  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.89,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "kingston-fury-renegade-g5-2tb-pcie-5-0-nvme-m-2-ssd",
-  "b": "kingston-fury-renegade-g5-2tb-pcie-5-0-nvme-m-2-ssd-with-dram",
-  "score": 0.89,
-  "a_name": "Kingston FURY Renegade G5 2TB PCIe 5.0 NVMe M.2 SSD",
-  "b_name": "Kingston FURY Renegade G5 2TB PCIe 5.0 NVMe M.2 SSD With DRAM"
- },
- {
-  "a": "team-t-create-expert-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "team-t-create-expert-8gb-ddr4-3200mhz-cl16-desktop-ram",
-  "score": 0.88,
-  "a_name": "Team T-CREATE EXPERT 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Team T-CREATE EXPERT 8GB DDR4 3200MHz CL16 Desktop RAM"
- },
- {
-  "a": "aitc-kingsman-vertex-rgb-16gb-ddr5-7200mhz-gaming-desktop-ram",
-  "b": "aitc-kingsman-vertex-rgb-ddr5-16gb-7200bus-cl34-gaming-ram",
-  "score": 0.88,
-  "a_name": "AITC Kingsman Vertex RGB 16GB DDR5 7200MHz Gaming Desktop RAM",
-  "b_name": "AITC Kingsman Vertex RGB DDR5 16GB 7200Bus CL34 Gaming Ram"
- },
- {
-  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram-white",
-  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
-  "score": 0.88,
-  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM White",
-  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
- },
- {
-  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-cl36-desktop-ram",
-  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
-  "score": 0.88,
-  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 CL36 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-512gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-ultra-512gb-m-2-nvme-pcie-ssd",
-  "score": 0.88,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 512GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 512GB M.2 NVME PCIE SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-1tb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-ultra-1tb-m-2-nvme-pcie-ssd",
-  "score": 0.88,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 1TB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 1TB M.2 NVME PCIE SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-pcie-ssd",
-  "score": 0.88,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME PCIE SSD"
- },
- {
-  "a": "corsair-mp600-gs-500gb-pcie-gen4-nvme-m-2-ssd",
-  "b": "corsair-mp600-gs-500gb-pcie-gen4-x4-nvme-m-2-ssd",
-  "score": 0.88,
-  "a_name": "Corsair MP600 GS 500GB PCIe Gen4 NVMe M.2 SSD",
-  "b_name": "Corsair MP600 GS 500GB PCIe Gen4 x4 NVMe M.2 SSD"
- },
- {
-  "a": "amd-ryzen-5-2400g-desktop-processor-with-radeon-rx-vega-11-graphics",
-  "b": "amd-ryzen-5-2400g-processor-with-vega-11-graphics",
-  "score": 0.86,
-  "a_name": "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
-  "b_name": "AMD Ryzen 5 2400G Processor with Vega 11 Graphics"
- },
- {
-  "a": "intel-13th-gen-core-i5-13500-raptor-lake-processor",
-  "b": "intel-core-i5-13500-raptor-lake-processor-with-pc-build",
-  "score": 0.86,
-  "a_name": "Intel 13th Gen Core i5 13500 Raptor Lake Processor",
-  "b_name": "Intel Core i5 13500 Raptor Lake Processor (With PC Build)"
- },
- {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
-  "b": "ocpc-x3-rgb-ddr4-8gb-3200mhz-black-desktop-ram",
-  "score": 0.86,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM",
-  "b_name": "OCPC X3 RGB DDR4 8GB 3200MHz BLACK Desktop RAM"
- },
- {
-  "a": "ocpc-xt-ii-ddr5-4800mhz-8gb-desktop-ram",
-  "b": "ocpc-xt-ii-8gb-ddr5-4800mhz-cl40-desktop-ram",
-  "score": 0.86,
-  "a_name": "OCPC XT II DDR5 4800MHz 8GB Desktop RAM",
-  "b_name": "OCPC XT II 8GB DDR5 4800Mhz CL40 Desktop Ram"
- },
- {
-  "a": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-gaming-desktop-ram",
-  "b": "aitc-kingsman-8gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
-  "score": 0.86,
-  "a_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Gaming Desktop RAM",
-  "b_name": "AITC Kingsman 8GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
- },
- {
-  "a": "team-delta-rgb-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "team-delta-rgb-black-8gb-3200-mhz-ddr4-ram",
-  "score": 0.86,
-  "a_name": "Team Delta RGB 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "TEAM DELTA RGB BLACK 8GB 3200 MHz DDR4 RAM"
- },
- {
-  "a": "g-skill-trident-z-16gb-ddr4-3200mhz-rgb-desktop-ram",
-  "b": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "G.Skill Trident Z 16GB DDR4 3200MHz RGB Desktop RAM",
-  "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "g-skill-trident-z-royal-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "G.Skill Trident Z Royal 16GB DDR4 3200MHz Desktop RAM",
-  "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "g-skill-trident-z-16gb-ddr4-3200mhz-heatsink-desktop-ram",
-  "b": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "G.Skill Trident Z 16GB DDR4 3200MHz Heatsink Desktop RAM",
-  "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
-  "score": 0.86,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
-  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
- },
- {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
-  "score": 0.86,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
-  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
- },
- {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
-  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
-  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
- },
- {
-  "a": "kingston-fury-beast-16gb-6000mhz-ddr5-desktop-ram",
-  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "Kingston FURY Beast 16GB 6000Mhz DDR5 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-16gb-ddr4-dram-3200mhz-ram",
-  "b": "corsair-vengeance-lpx-16gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.86,
-  "a_name": "Corsair Vengeance LPX 16GB DDR4 DRAM 3200MHz RAM",
-  "b_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "lexar-thor-16gb-ddr5-6000mhz-cl32-desktop-ram",
-  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
-  "score": 0.86,
-  "a_name": "Lexar THOR 16GB DDR5 6000MHz CL32 Desktop RAM",
-  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
- },
- {
-  "a": "colorful-battle-ax-ddr4-8gb-3200mhz-desktop-ram",
-  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
-  "score": 0.86,
-  "a_name": "Colorful Battle-AX DDR4 8GB 3200MHz Desktop RAM",
-  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
- },
- {
-  "a": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
-  "b": "aitc-kingsman-km600-ultra-1tb-m-2-nvme-pcie-ssd",
-  "score": 0.86,
-  "a_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 1TB M.2 NVME PCIE SSD"
- },
- {
-  "a": "kingston-fury-renegade-4tb-pcie-4-0-nvme-m-2-ssd",
-  "b": "kingston-fury-renegade-4tb-m-2-2280-pcie-nvme-internal-ssd",
-  "score": 0.86,
-  "a_name": "Kingston FURY Renegade 4TB PCIe 4.0 NVMe M.2 SSD",
-  "b_name": "Kingston FURY Renegade 4TB M.2 2280 PCIe NVMe Internal SSD"
- },
- {
-  "a": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
-  "b": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-pcie-ssd",
-  "score": 0.86,
-  "a_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME PCIE SSD"
- },
- {
-  "a": "pny-xlr8-8gb-rgb-ddr4-3200mhz-white-desktop-ram",
-  "b": "pny-8gb-xlr8-gaming-rgb-ddr4-3200mhz-desktop-memory-module",
-  "score": 0.86,
-  "a_name": "PNY XLR8 8GB RGB DDR4 3200MHz White Desktop Ram",
-  "b_name": "PNY 8GB XLR8 GAMING RGB DDR4 3200MHz DESKTOP MEMORY MODULE"
- },
- {
-  "a": "apacer-nox-16gb-ddr4-3200mhz-rgb-aura2-dimm-ram",
-  "b": "apacer-nox-16gb-ddr4-3200mhz-desktop-rgb-ram",
-  "score": 0.86,
-  "a_name": "Apacer NOX 16GB DDR4 3200MHz RGB AURA2 DIMM Ram",
-  "b_name": "Apacer NOX 16GB DDR4 3200MHz Desktop RGB RAM"
- },
- {
-  "a": "gigabyte-gen4-4000e-ssd-1tb-m-2-pcie-nvme",
-  "b": "gigabyte-gen4-4000e-1tb-m-2-2280-pcie-nvme-ssd-g440e1tb",
-  "score": 0.86,
-  "a_name": "GIGABYTE Gen4 4000E SSD 1TB M.2 PCIe NVMe",
-  "b_name": "GIGABYTE Gen4 4000E 1TB M.2 2280 PCIe NVMe SSD # G440E1TB"
- },
- {
-  "a": "intel-core-ultra-5-245k-desktop-processor",
-  "b": "intel-core-ultra-5-245k-15th-gen-desktop-processor",
-  "score": 0.83,
-  "a_name": "Intel Core Ultra 5 245K Desktop Processor",
-  "b_name": "Intel Core Ultra 5 245K 15th Gen Desktop Processor"
- },
- {
-  "a": "intel-core-ultra-5-245kf-desktop-processor",
-  "b": "intel-core-ultra-5-245kf-15th-gen-desktop-processor",
-  "score": 0.83,
-  "a_name": "Intel Core Ultra 5 245KF Desktop Processor",
-  "b_name": "Intel Core Ultra 5 245KF 15th Gen Desktop Processor"
- },
- {
-  "a": "intel-core-ultra-7-265k-desktop-processor",
-  "b": "intel-core-ultra-7-265k-15th-gen-desktop-processor",
-  "score": 0.83,
-  "a_name": "Intel Core Ultra 7 265K Desktop Processor",
-  "b_name": "Intel Core Ultra 7 265K 15th gen Desktop Processor"
- },
- {
-  "a": "netac-shadow-iii-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow III 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "netac-shadow-red-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow Red 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "netac-shadow-yellow-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow Yellow 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "netac-shadow-ii-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow II 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "aitc-kingsman-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "aitc-kingsman-8gb-ddr4-3200mhz-desktop-ram-with-heatsink",
-  "score": 0.83,
-  "a_name": "AITC KINGSMAN 8GB DDR4 3200MHZ DESKTOP RAM",
-  "b_name": "AITC KINGSMAN 8GB DDR4 3200MHZ Desktop Ram With Heatsink"
- },
- {
-  "a": "netac-shadow-yellow-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow Yellow 16GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "netac-shadow-iii-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow III 16GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "netac-shadow-ii-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
-  "score": 0.83,
-  "a_name": "Netac Shadow II 16GB DDR4 3200MHz Desktop RAM",
-  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
- },
- {
-  "a": "aitc-kingsman-master-16gb-ddr5-6000mhz-gaming-desktop-ram",
-  "b": "aitc-master-ddr5-16gb-6000mhz-desktop-gaming-ram",
-  "score": 0.83,
-  "a_name": "AITC Kingsman MASTER 16GB DDR5 6000MHz Gaming Desktop RAM",
-  "b_name": "AITC MASTER DDR5 16GB 6000MHZ Desktop Gaming RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "corsair-vengeance-16gb-ddr4-3200mhz-memory-module",
-  "score": 0.83,
-  "a_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram",
-  "b_name": "CORSAIR VENGEANCE 16GB DDR4 3200MHZ MEMORY MODULE"
- },
- {
-  "a": "corsair-vengeance-32gb-ddr5-5200mhz-c40-ram",
-  "b": "corsair-vengeance-32gb-2x16gb-ddr5-5200mhz-ram",
-  "score": 0.83,
-  "a_name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
-  "b_name": "Corsair Vengeance 32GB (2x16GB) DDR5 5200MHz Ram"
- },
- {
-  "a": "transcend-4gb-jm-ddr4-3200mhz-so-dimm-laptop-ram",
-  "b": "transcend-jetram-4gb-jm-ddr4-3200mhz-so-dimm-laptop-ram",
-  "score": 0.83,
-  "a_name": "Transcend 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM",
-  "b_name": "Transcend JetRAM 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM"
- },
- {
-  "a": "transcend-jetram-4gb-ddr4-3200mhz-laptop-ram-jm3200hsd-4g",
-  "b": "transcend-jetram-4gb-jm-ddr4-3200mhz-so-dimm-laptop-ram",
-  "score": 0.83,
-  "a_name": "Transcend JetRAM 4GB DDR4 3200MHz Laptop RAM (JM3200HSD-4G)",
-  "b_name": "Transcend JetRAM 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM"
- },
- {
-  "a": "g-skill-ripjaws-4gb-ddr4-l-2400mhz-so-dimm-laptop-ram",
-  "b": "g-skill-ripjaws-so-dimm-4gb-2400mhz-ddr4-laptop-ram",
-  "score": 0.83,
-  "a_name": "G.Skill Ripjaws 4GB DDR4-L 2400MHz SO-DIMM Laptop RAM",
-  "b_name": "G.Skill Ripjaws SO-DIMM 4GB 2400MHz DDR4 Laptop Ram"
- },
- {
-  "a": "g-skill-ripjaws-8gb-ddr3-1600mhz-so-dimm-laptop-ram",
-  "b": "g-skill-ripjaws-8gb-ddr3-l-1600mhz-laptop-ram",
-  "score": 0.83,
-  "a_name": "G.Skill Ripjaws 8GB DDR3 1600MHz SO-DIMM Laptop RAM",
-  "b_name": "G.Skill Ripjaws 8GB DDR3-L 1600MHz Laptop RAM"
- },
- {
-  "a": "twinmos-h2-ultra-256gb-sata-iii-ssd",
-  "b": "twinmos-h2-ultra-256gb-ssd-sata",
-  "score": 0.83,
-  "a_name": "TwinMOS H2 Ultra 256GB SATA III SSD",
-  "b_name": "TwinMOS H2 Ultra 256GB SSD SATA"
- },
- {
-  "a": "kingston-nv3-500gb-m-2-pcie-gen-4-0-nvme-ssd",
-  "b": "kingston-nv3-500gb-pcie-gen-4-0-nvme-ssd",
-  "score": 0.83,
-  "a_name": "Kingston NV3 500GB M.2 PCIe Gen 4.0 NVMe SSD",
-  "b_name": "Kingston NV3 500GB PCIe Gen 4.0 NVMe SSD"
- },
- {
-  "a": "western-digital-black-sn750-500gb-pcie-nvme-m-2-ssd",
-  "b": "western-digital-black-sn750-500gb-nvme-m-2-ssd",
-  "score": 0.83,
-  "a_name": "Western Digital Black SN750 500GB PCIe NVMe M.2 SSD",
-  "b_name": "Western Digital Black SN750 500GB NVMe M.2 SSD"
- },
- {
-  "a": "western-digital-green-sn350-500gb-m-2-nvme-gen3-ssd",
-  "b": "western-digital-green-sn350-500gb-m-2-2280-internal-ssd",
-  "score": 0.83,
-  "a_name": "Western Digital Green SN350 500GB M.2 NVMe Gen3 SSD",
-  "b_name": "Western Digital Green SN350 500GB M.2 2280 Internal SSD"
- },
- {
-  "a": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
-  "b": "aitc-kingsman-km600-1tb-m-2-2280-nvme-ssd",
-  "score": 0.83,
-  "a_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD",
-  "b_name": "AITC Kingsman KM600 1TB M.2 2280 NVMe SSD"
- },
- {
-  "a": "kingston-kc3000-2tb-pcie-4-0-nvme-m-2-ssd",
-  "b": "kingston-kc3000-2tb-pcie-4-0-nvme-solid-state-drive",
-  "score": 0.83,
-  "a_name": "Kingston KC3000 2TB PCIe 4.0 NVMe M.2 SSD",
-  "b_name": "KINGSTON KC3000 2TB PCIe 4.0 NVME SOLID STATE DRIVE"
- },
- {
-  "a": "transcend-110s-512gb-m-2-2280-m-key-pcie-gen3x4-ssd",
-  "b": "transcend-110s-512gb-m-2-pcie-ssd",
-  "score": 0.83,
-  "a_name": "Transcend 110S 512GB M.2 2280 (M-Key) PCIe Gen3x4 SSD",
-  "b_name": "TRANSCEND 110S 512GB M.2 PCIE SSD"
- },
- {
-  "a": "apacer-nox-16gb-ddr4-3200mhz-black-desktop-ram",
-  "b": "apacer-nox-16gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.83,
-  "a_name": "Apacer NOX 16GB DDR4 3200MHz Black Desktop Ram",
-  "b_name": "Apacer NOX 16GB DDR4 3200MHz Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram-black-kit",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.82,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM Black Kit",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-2-x-16gb-6000mhz-ddr5-gaming-ram-white-for-amd-expo",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.82,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB (2 x 16GB) 6000MHz DDR5 Gaming RAM White for AMD EXPO",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd",
-  "b": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd-with-dram-cache",
-  "score": 0.82,
-  "a_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD",
-  "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD With DRAM Cache"
- },
- {
-  "a": "netac-z9-2tb-usb-3-2-gen-2-type-c-portable-ssd",
-  "b": "netac-z9-2tb-usb-3-2-gen-2-type-c-black-portable-external-ssd",
-  "score": 0.82,
-  "a_name": "Netac Z9 2TB USB 3.2 Gen 2 Type-C Portable SSD",
-  "b_name": "Netac Z9 2TB USB 3.2 Gen 2 Type-C Black Portable External SSD"
- },
- {
-  "a": "amd-ryzen-5-8400f-processor",
-  "b": "amd-ryzen-5-8400f-am5-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 5 8400F Processor",
-  "b_name": "AMD Ryzen 5 8400F AM5 Processor"
- },
- {
-  "a": "amd-ryzen-5-8500g-processor-with-radeon-graphics",
-  "b": "amd-ryzen-5-8500g-am5-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics",
-  "b_name": "AMD Ryzen 5 8500G AM5 Processor"
- },
- {
-  "a": "amd-ryzen-5-9600x-am5-desktop-gaming-processor",
-  "b": "amd-ryzen-5-9600x-gaming-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 5 9600X AM5 Desktop Gaming Processor",
-  "b_name": "AMD Ryzen 5 9600X Gaming Processor"
- },
- {
-  "a": "amd-ryzen-7-9700x-am5-desktop-gaming-processor",
-  "b": "amd-ryzen-7-9700x-gaming-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 7 9700X AM5 Desktop Gaming Processor",
-  "b_name": "AMD Ryzen 7 9700X Gaming Processor"
- },
- {
-  "a": "amd-ryzen-7-9800x3d-gaming-processor",
-  "b": "amd-ryzen-7-9800x3d-am5-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 7 9800X3D Gaming Processor",
-  "b_name": "AMD Ryzen 7 9800X3D AM5 Processor"
- },
- {
-  "a": "amd-ryzen-5-8500g-processor-with-radeon-graphics-2",
-  "b": "amd-ryzen-5-8500g-am5-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics",
-  "b_name": "AMD Ryzen 5 8500G AM5 Processor"
- },
- {
-  "a": "amd-ryzen-7-pro-4700g-processor-with-radeon-graphics",
-  "b": "amd-ryzen-7-4700g-processor-with-radeon-graphics",
-  "score": 0.8,
-  "a_name": "AMD RYZEN 7 PRO 4700G PROCESSOR WITH RADEON GRAPHICS",
-  "b_name": "AMD Ryzen 7 4700G Processor with Radeon Graphics"
- },
- {
-  "a": "team-t-force-vulcan-z-8gb-ddr4-3200mhz-cl16-gaming-ram",
-  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
-  "score": 0.8,
-  "a_name": "Team T-Force Vulcan Z 8GB DDR4 3200MHz CL16 Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
-  "score": 0.8,
-  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 0.8,
-  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
-  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
-  "score": 0.8,
-  "a_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "lexar-8gb-ddr4-3200-mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
-  "score": 0.8,
-  "a_name": "Lexar 8GB DDR4 3200 Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
- },
- {
-  "a": "adata-premier-8gb-ddr3-1600-mhz-desktop-ram",
-  "b": "adata-8gb-ddr3-1600-mhz-ram",
-  "score": 0.8,
-  "a_name": "ADATA PREMIER 8GB DDR3 1600 MHZ DESKTOP RAM",
-  "b_name": "Adata 8GB DDR3 1600 Mhz Ram"
- },
- {
-  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram-black-kit",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM Black Kit",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl30-desktop-ram-white",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.8,
-  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL30 Desktop RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
- },
- {
-  "a": "team-t-force-delta-tuf-gaming-alliance-rgb-16gb-6000mhz-ddr5-desktop-ram",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA TUF Gaming Alliance RGB 16GB 6000MHz DDR5 Desktop RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-cl30-gaming-desktop-ram",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz CL30 Gaming Desktop RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-16gbx2-7000mhz-ddr5-gaming-ram-white",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2) 7000MHz DDR5 Gaming RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-t-force-delta-rgb-white-32gb-16gbx2-7600mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB White 32GB (16GBx2) 7600MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-16gbx2-7800mhz-ddr5-gaming-ram-white",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2) 7800MHz DDR5 Gaming RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-1-35v-gaming-ram",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 1.35V Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-t-force-delta-rgb-white-32gb-16gbx2-7200mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.8,
-  "a_name": "TEAM T-FORCE DELTA RGB White 32GB (16GBx2) 7200MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "team-elite-8gb-3200mhz-laptop-ram",
-  "b": "team-elite-8gb-3200mhz-ddr4-laptop-ram",
-  "score": 0.8,
-  "a_name": "TEAM ELITE 8GB 3200MHz Laptop RAM",
-  "b_name": "TEAM ELITE 8GB 3200MHz DDR4 LAPTOP RAM"
- },
- {
-  "a": "team-elite-8gb-2666mhz-laptop-ram",
-  "b": "team-elite-8gb-2666mhz-ddr4-laptop-ram",
-  "score": 0.8,
-  "a_name": "TEAM ELITE 8GB 2666MHz Laptop RAM",
-  "b_name": "TEAM ELITE 8GB 2666MHz DDR4 LAPTOP RAM"
- },
- {
-  "a": "team-elite-16gb-3200mhz-laptop-ram",
-  "b": "team-elite-16gb-3200mhz-ddr4-laptop-ram",
-  "score": 0.8,
-  "a_name": "TEAM ELITE 16GB 3200MHz Laptop RAM",
-  "b_name": "TEAM ELITE 16GB 3200MHz DDR4 Laptop RAM"
- },
- {
-  "a": "crucial-4gb-single-ddr4-2666mhz-laptop-ram",
-  "b": "crucial-4gb-ddr4-2666-mhz-sodimml-ram-lifetime-warranty",
-  "score": 0.8,
-  "a_name": "Crucial 4GB Single DDR4 2666MHz Laptop RAM",
-  "b_name": "Crucial 4GB DDR4 2666 MHz SODIMML Ram Lifetime Warranty"
- },
- {
-  "a": "g-skill-ripjaws-4gb-ddr3-1600mhz-so-dimm-laptop-ram",
-  "b": "g-skill-so-dimm-4gb-ddr3-1600mhz-laptop-ram",
-  "score": 0.8,
-  "a_name": "G.Skill Ripjaws 4GB DDR3 1600MHz SO-DIMM Laptop RAM",
-  "b_name": "G.Skill SO-DIMM 4GB DDR3 1600Mhz Laptop Ram"
- },
- {
-  "a": "transcend-8gb-ddr4-2666mhz-bus-so-dimm-laptop-ram",
-  "b": "transcend-jetram-8gb-ddr4-2666mhz-laptop-ram-jm2666hsb-8g",
-  "score": 0.8,
-  "a_name": "Transcend 8GB DDR4 2666MHz Bus SO-DIMM Laptop RAM",
-  "b_name": "Transcend JetRAM 8GB DDR4 2666MHz Laptop Ram (JM2666HSB-8G)"
- },
- {
-  "a": "crucial-16gb-single-ddr4-2666mhz-laptop-ram",
-  "b": "crucial-16gb-ddr4-2666-sodimm-ct16g4sfra266",
-  "score": 0.8,
-  "a_name": "Crucial 16GB Single DDR4 2666MHz Laptop RAM",
-  "b_name": "Crucial 16GB DDR4-2666 SODIMM CT16G4SFRA266"
- },
- {
-  "a": "g-skill-ripjaws-8gb-2666mhz-laptop-ram",
-  "b": "g-skill-ripjaws-so-dimm-8gb-2666mhz-ddr4l-laptop-ram",
-  "score": 0.8,
-  "a_name": "G.Skill RipJaws 8GB 2666MHz Laptop RAM",
-  "b_name": "G.Skill Ripjaws SO-DIMM 8GB 2666MHz DDR4L Laptop Ram"
- },
- {
-  "a": "netac-n535n-128gb-m-2-2280-ssd",
-  "b": "netac-n535n-128gb-m-2-2280-sataiii-ssd",
-  "score": 0.8,
-  "a_name": "Netac N535N 128GB M.2 2280 SSD",
-  "b_name": "Netac N535N 128GB M.2 2280 SATAIII SSD"
- },
- {
-  "a": "netac-n535n-256gb-m-2-2280-ssd",
-  "b": "netac-n535n-256gb-m-2-2280-sataiii-ssd",
-  "score": 0.8,
-  "a_name": "Netac N535N 256GB M.2 2280 SSD",
-  "b_name": "Netac N535N 256GB M.2 2280 SATAIII SSD"
- },
- {
-  "a": "biostar-m760-256gb-gen3-m-2-nvme-ssd",
-  "b": "biostar-m760-256gb-m-2-nvme-ssd",
-  "score": 0.8,
-  "a_name": "Biostar M760 256GB Gen3 M.2 NVMe SSD",
-  "b_name": "Biostar M760 256GB M.2 NVMe SSD"
- },
- {
-  "a": "netac-n535n-512gb-m-2-2280-ssd",
-  "b": "netac-n535n-512gb-m-2-2280-sataiii-ssd",
-  "score": 0.8,
-  "a_name": "Netac N535N 512GB M.2 2280 SSD",
-  "b_name": "Netac N535N 512GB M.2 2280 SATAIII SSD"
- },
- {
-  "a": "netac-n535n-1tb-m-2-2280-sataiii-ssd",
-  "b": "netac-n535n-1tb-m-2-2280-ssd",
-  "score": 0.8,
-  "a_name": "Netac N535N 1TB M.2 2280 SATAIII SSD",
-  "b_name": "Netac N535N 1TB M.2 2280 SSD"
- },
- {
-  "a": "crucial-16gb-ddr4-2666mhz-u-dimm-desktop-ram",
-  "b": "crucial-16gb-ddr4-2666mhz-udimm-ram-for-desktop",
-  "score": 0.8,
-  "a_name": "Crucial 16GB DDR4 2666MHz U-DIMM Desktop RAM",
-  "b_name": "Crucial 16GB DDR4 2666MHz UDIMM Ram For Desktop"
- },
- {
-  "a": "apacer-as2280p4-256gb-m-2-2280-pcie-ssd",
-  "b": "apacer-as2280p4-m-2-nvme-256gb-ssd",
-  "score": 0.8,
-  "a_name": "Apacer AS2280P4 256GB M.2 2280 PCIe SSD",
-  "b_name": "Apacer AS2280P4 M.2 NVMe 256GB SSD"
- },
- {
-  "a": "intel-core-ultra-5-225-arrow-lake-processor",
-  "b": "intel-core-ultra-5-225-10-core-10-threads-arrow-lake-processor",
-  "score": 0.78,
-  "a_name": "Intel Core Ultra 5 225 Arrow Lake Processor",
-  "b_name": "Intel Core Ultra 5 225 10 Core 10 Threads Arrow Lake Processor"
- },
- {
-  "a": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
-  "b": "team-vulcan-z-red-8gb-ddr4-3200mhz-gaming-ram",
-  "score": 0.78,
-  "a_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM",
-  "b_name": "Team Vulcan Z RED 8GB DDR4 3200MHz Gaming RAM"
- },
- {
-  "a": "g-skill-trident-z-royal-16gb-ddr4-3600mhz-desktop-ram",
-  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
-  "score": 0.78,
-  "a_name": "G.Skill Trident Z Royal 16GB DDR4 3600MHz Desktop RAM",
-  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
- },
- {
-  "a": "g-skill-trident-z5-neo-rgb-16gb-ddr5-6000mhz-desktop-ram",
-  "b": "g-skill-trident-z5-royal-rgb-16gb-ddr5-6000mhz-desktop-ram",
-  "score": 0.78,
-  "a_name": "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz Desktop RAM",
-  "b_name": "G.Skill Trident Z5 Royal RGB 16GB DDR5 6000Mhz Desktop RAM"
- },
- {
-  "a": "adata-xpg-spectrix-d35g-8gb-ddr4-3200mhz-rgb-gaming-desktop-ram",
-  "b": "adata-xpg-spectrix-d50-8gb-ddr4-3200mhz-rgb-gaming-ram",
-  "score": 0.78,
-  "a_name": "Adata XPG Spectrix D35G 8GB DDR4 3200MHz RGB Gaming Desktop RAM",
-  "b_name": "Adata XPG SPECTRIX D50 8GB DDR4 3200MHz RGB Gaming RAM"
- },
- {
-  "a": "adata-xpg-spectrix-d60g-rgb-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "adata-xpg-spectrix-d50-8gb-ddr4-3200mhz-rgb-gaming-ram",
-  "score": 0.78,
-  "a_name": "ADATA XPG SPECTRIX D60G RGB 8GB DDR4 3200MHZ DESKTOP RAM",
-  "b_name": "Adata XPG SPECTRIX D50 8GB DDR4 3200MHz RGB Gaming RAM"
- },
- {
-  "a": "corsair-dominator-platinum-rgb-16gb-2x8gb-ddr4-3600mhz-c18-ram-kit",
-  "b": "corsair-dominator-platinum-rgb-16gb-2-x-8gb-ddr4-3600mhz-desktop-ram",
-  "score": 0.78,
-  "a_name": "Corsair DOMINATOR PLATINUM RGB 16GB (2x8GB) DDR4 3600MHz C18 RAM Kit",
-  "b_name": "CORSAIR DOMINATOR PLATINUM RGB 16GB (2 X 8GB) DDR4 3600MHZ DESKTOP RAM"
- },
- {
-  "a": "team-t-force-delta-rgb-16gb-6400mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
-  "score": 0.78,
-  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6400MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
- },
- {
-  "a": "colorful-battle-ax-16gb-ddr4-3200mhz-u-dimm-desktop-ram-white",
-  "b": "colorful-battle-ax-ddr4-16gb-3200-mhz-heatsink-desktop-ram-white",
-  "score": 0.78,
-  "a_name": "Colorful Battle-AX 16GB DDR4 3200MHz U-DIMM Desktop RAM White",
-  "b_name": "Colorful Battle-AX DDR4 16GB 3200 MHz Heatsink Desktop RAM White"
- },
- {
-  "a": "pny-xlr8-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
-  "b": "pny-xlr8-gaming-epic-x-rgb-16gb-ddr4-3200mhz-white-desktop-ram",
-  "score": 0.78,
-  "a_name": "PNY XLR8 RGB 16GB DDR4 3200MHz Desktop RAM White",
-  "b_name": "PNY XLR8 Gaming EPIC-X RGB 16GB DDR4 3200MHz White Desktop RAM"
- },
- {
-  "a": "intel-core-i3-12100t-12th-gen-alder-lake-processor",
-  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
-  "score": 0.75,
-  "a_name": "Intel Core i3 12100T 12th Gen Alder Lake Processor",
-  "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
- },
- {
-  "a": "intel-core-i3-12100f-12th-gen-alder-lake-processor",
-  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
-  "score": 0.75,
-  "a_name": "Intel Core i3-12100F 12th Gen Alder Lake Processor",
-  "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
- },
- {
-  "a": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "aitc-kingsman-8gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
-  "score": 0.75,
-  "a_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Desktop RAM Black",
-  "b_name": "AITC Kingsman 8GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
- },
- {
-  "a": "team-delta-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-delta-rgb-black-8gb-3200-mhz-ddr4-ram",
-  "score": 0.75,
-  "a_name": "Team Delta RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
-  "b_name": "TEAM DELTA RGB BLACK 8GB 3200 MHz DDR4 RAM"
- },
- {
-  "a": "kingston-fury-beast-rgb-8gb-3600mhz-ddr4-desktop-ram",
-  "b": "kingston-fury-beast-8gb-ddr4-3600mhz-black-desktop-ram",
-  "score": 0.75,
-  "a_name": "Kingston FURY Beast RGB 8GB 3600MHz DDR4 Desktop RAM",
-  "b_name": "Kingston FURY Beast 8GB DDR4 3600MHZ Black Desktop RAM"
- },
- {
-  "a": "aitc-kingsman-innovator-16gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "aitc-kingsman-16-gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
-  "score": 0.75,
-  "a_name": "AITC Kingsman Innovator 16GB DDR4 3200MHz Desktop RAM Black",
-  "b_name": "AITC Kingsman 16 GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
- },
- {
-  "a": "kingston-fury-beast-16gb-3600mhz-ddr4-desktop-ram",
-  "b": "kingston-fury-beast-16gb-8gbx2-3600mhz-ddr4-rgb-desktop-ram-kit",
-  "score": 0.75,
-  "a_name": "Kingston FURY Beast 16GB 3600MHz DDR4 Desktop RAM",
-  "b_name": "Kingston Fury Beast 16GB (8GBx2) 3600Mhz DDR4 RGB Desktop RAM Kit"
- },
- {
-  "a": "kingston-fury-renegade-16gb-ddr5-6000mhz-rgb-desktop-ram",
-  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
-  "score": 0.75,
-  "a_name": "Kingston FURY Renegade 16GB DDR5 6000MHz RGB Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
- },
- {
-  "a": "lexar-thor-rgb-16gb-ddr5-6000mhz-cl32-desktop-ram",
-  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
-  "score": 0.75,
-  "a_name": "Lexar THOR RGB 16GB DDR5 6000MHz CL32 Desktop RAM",
-  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
- },
- {
-  "a": "lexar-thor-oc-16gb-6000mhz-ddr5-cl36-desktop-ram",
-  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
-  "score": 0.75,
-  "a_name": "Lexar THOR OC 16GB 6000Mhz DDR5 CL36 Desktop RAM",
-  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
- },
- {
-  "a": "colorful-battle-ax-8gb-ddr4-3200mhz-u-dimm-desktop-ram",
-  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
-  "score": 0.75,
-  "a_name": "Colorful Battle-AX 8GB DDR4 3200MHz U-DIMM Desktop RAM",
-  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
- },
- {
-  "a": "colorful-battle-ax-ddr4-8gb-3200mhz-desktop-ram-white",
-  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
-  "score": 0.75,
-  "a_name": "Colorful Battle-AX DDR4 8GB 3200MHz Desktop RAM White",
-  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
- },
- {
-  "a": "pny-xlr8-gaming-rgb-16gb-ddr5-6000mhz-cl36-desktop-ram",
-  "b": "pny-xlr8-mako-16gb-ddr5-6000mhz-rgb-gaming-ram-white",
-  "score": 0.75,
-  "a_name": "PNY XLR8 Gaming RGB 16GB DDR5 6000MHz CL36 Desktop RAM",
-  "b_name": "PNY XLR8 MAKO 16GB DDR5 6000MHz RGB Gaming RAM (White)"
- },
- {
-  "a": "oscoo-warrior-e500-32gb-ddr5-5600mhz-cl36-desktop-ram",
-  "b": "oscoo-warrior-e500-32gb-ddr5-5600mhz-black",
-  "score": 0.75,
-  "a_name": "OSCOO Warrior E500 32GB DDR5 5600MHz CL36 Desktop RAM",
-  "b_name": "Oscoo Warrior E500 32GB DDR5 5600MHz Black"
- },
- {
-  "a": "oscoo-warrior-e500-32gb-ddr5-5200mhz-cl36-desktop-ram",
-  "b": "oscoo-warrior-e500-32gb-ddr5-5200mhz-black",
-  "score": 0.75,
-  "a_name": "OSCOO Warrior E500 32GB DDR5 5200MHz CL36 Desktop RAM",
-  "b_name": "Oscoo Warrior E500 32GB DDR5 5200MHz Black"
- },
- {
-  "a": "aitc-kingsman-kp800-1tb-pcie-gen4-m-2-nvme-ssd",
-  "b": "aitc-kingsman-ke680-1tb-gen4-m-2-nvme-pcie-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KP800 1TB PCIe Gen4 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KE680 1TB GEN4 M.2 NVME PCIE SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-1tb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 1TB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD"
- },
- {
-  "a": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd-with-dram-cache",
-  "b": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd",
-  "score": 0.75,
-  "a_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD With DRAM Cache",
-  "b_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD"
- },
- {
-  "a": "gigabyte-256gb-m-2-2280-nvme-ssd",
-  "b": "gigabyte-256gb-nvme-m-2-ssd-g3nvmev2256g",
-  "score": 0.75,
-  "a_name": "GIGABYTE 256GB M.2 2280 NVMe SSD",
-  "b_name": "Gigabyte 256GB NVMe M.2 SSD # G3NVMEV2256G"
- },
- {
-  "a": "team-t-force-delta-rgb-black-16gb-7200mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.73,
-  "a_name": "TEAM T-FORCE DELTA RGB Black 16GB 7200MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
- },
- {
-  "a": "team-t-force-delta-rgb-white-16gb-6000mhz-ddr5-gaming-ram",
-  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "score": 0.73,
-  "a_name": "TEAM T-FORCE DELTA RGB White 16GB 6000MHz DDR5 Gaming RAM",
-  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-2-x-16gb-6000mhz-ddr5-gaming-ram-for-amd-expo",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "score": 0.73,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB (2 x 16GB) 6000MHz DDR5 Gaming RAM for AMD EXPO",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-nvme-m-2-ssd-with-dram-cache",
-  "b": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd",
-  "score": 0.73,
-  "a_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 NVMe M.2 SSD With DRAM Cache",
-  "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD"
- },
- {
-  "a": "amd-ryzen-threadripper-pro-9995wx-processor-tray-box",
-  "b": "amd-ryzen-threadripper-pro-9995wx-96-core-processor",
-  "score": 0.71,
-  "a_name": "AMD Ryzen Threadripper PRO 9995WX Processor (Tray Box)",
-  "b_name": "AMD Ryzen Threadripper PRO 9995WX 96 Core Processor"
- },
- {
-  "a": "intel-pentium-gold-g6400-10th-gen-coffee-lake-processor",
-  "b": "intel-pentium-gold-g6400-10th-processor-4m-cache-4-00-ghz",
-  "score": 0.71,
-  "a_name": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
-  "b_name": "Intel Pentium Gold G6400 10th Processor (4M Cache, 4.00 GHz)"
- },
- {
-  "a": "intel-core-i3-10105-10th-gen-comet-lake-processor",
-  "b": "intel-core-i3-10105-10th-gen-processor",
-  "score": 0.71,
-  "a_name": "Intel Core i3 10105 10th Gen Comet Lake Processor",
-  "b_name": "Intel Core I3-10105 10th Gen Processor"
- },
- {
-  "a": "intel-11th-gen-core-i5-11400-rocket-lake-processor",
-  "b": "intel-core-i5-11400-11th-gen-processor",
-  "score": 0.71,
-  "a_name": "Intel 11th Gen Core i5-11400 Rocket Lake Processor",
-  "b_name": "INTEL CORE I5-11400 11TH GEN PROCESSOR"
- },
- {
-  "a": "intel-11th-gen-core-i5-11500-rocket-lake-processor",
-  "b": "intel-core-i5-11500-11th-gen-processor-bundle",
-  "score": 0.71,
-  "a_name": "Intel 11th Gen Core i5-11500 Rocket Lake Processor",
-  "b_name": "INTEL CORE I5-11500 11TH GEN PROCESSOR (BUNDLE)"
- },
- {
-  "a": "intel-core-i5-14400-14th-gen-raptor-lake-processor",
-  "b": "intel-14th-core-i5-14400-processor",
-  "score": 0.71,
-  "a_name": "Intel Core i5 14400 14th Gen Raptor Lake Processor",
-  "b_name": "Intel 14th Core i5-14400 Processor"
- },
- {
-  "a": "intel-core-ultra-5-245k-arrow-lake-processor",
-  "b": "intel-core-ultra-5-245k-desktop-processor",
-  "score": 0.71,
-  "a_name": "Intel Core Ultra 5 245K Arrow Lake Processor",
-  "b_name": "Intel Core Ultra 5 245K Desktop Processor"
- },
- {
-  "a": "intel-11th-gen-core-i7-11700-rocket-lake-processor",
-  "b": "intel-core-i7-11700-11th-gen-processor",
-  "score": 0.71,
-  "a_name": "Intel 11th Gen Core i7-11700 Rocket Lake Processor",
-  "b_name": "Intel Core i7-11700 11th Gen Processor"
- },
- {
-  "a": "intel-core-i5-14500-14th-gen-raptor-lake-processor",
-  "b": "intel-14th-core-i5-14500-processor",
-  "score": 0.71,
-  "a_name": "Intel Core i5 14500 14th Gen Raptor Lake Processor",
-  "b_name": "Intel 14th Core i5 14500 Processor"
- },
- {
-  "a": "intel-core-i5-14600k-14th-gen-raptor-lake-processor",
-  "b": "intel-14th-gen-core-i5-14600k-desktop-processor",
-  "score": 0.71,
-  "a_name": "Intel Core i5 14600K 14th Gen Raptor Lake Processor",
-  "b_name": "Intel 14th Gen Core i5 14600K Desktop Processor"
- },
- {
-  "a": "intel-core-ultra-7-265k-arrow-lake-processor",
-  "b": "intel-core-ultra-7-265k-desktop-processor",
-  "score": 0.71,
-  "a_name": "Intel Core Ultra 7 265K Arrow Lake Processor",
-  "b_name": "Intel Core Ultra 7 265K Desktop Processor"
+  "a": "gigabyte-geforce-rtx-5060-ti-windforce-max-oc-16g-gddr7-graphics-card",
+  "b": "gigabyte-geforce-rtx-5060-ti-windforce-max-16g-gddr7-graphics-card",
+  "score": 0.91,
+  "a_name": "Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC 16G GDDR7 Graphics Card",
+  "b_name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX 16G GDDR7 Graphics Card"
  }
 ]

@@ -1,45 +1,85 @@
 {
- "date": "2026-11-10",
- "scraped_at": "2026-11-10T23:57+06:00",
+ "date": "2026-11-11",
+ "scraped_at": "2026-11-11T02:30+06:00",
  "stores": {
   "startech": {
    "enabled": true,
    "items": 32002,
    "errors": [],
-   "seconds": 1802
+   "seconds": 1766
   },
   "ultratech": {
    "enabled": true,
-   "items": 120,
+   "items": 349,
    "errors": [
+    "laptop: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/laptop)",
+    "gaming-pc: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/gaming-pc)",
+    "all-in-one-pc: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/all-in-one-pc)",
+    "desktop-pc: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/desktop)",
+    "processor: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/processor?page=2)",
+    "motherboard: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/motherboard?page=2)",
     "desktop-ram: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/ram?page=2)",
-    "ssd: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/ssd?page=2)"
+    "laptop-ram: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/laptop-ram)",
+    "portable-ssd: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/portable-ssd)",
+    "ssd: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/ssd?page=2)",
+    "portable-hdd: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/portable-hdd)",
+    "hdd: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/hdd)",
+    "power-supply: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/power-supply)",
+    "casing: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/casing?page=2)",
+    "cpu-cooler: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/cpu-cooler?page=2)",
+    "casing-fan: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/casing-fan)",
+    "laptop-accessories: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/laptop-accessories)",
+    "monitor-arm: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/monitor-arm?page=2)",
+    "mouse: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/mouse?page=2)",
+    "mouse-pad: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/mouse-pad?page=2)",
+    "webcam: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/webcam?page=2)",
+    "microphone: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/microphone?page=2)",
+    "speaker: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/speaker?page=2)",
+    "pen-drive: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/pen-drive?page=2)",
+    "thermal-paste: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/thermal-paste?page=2)",
+    "gamepad: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/gamepad?page=2)",
+    "gaming-chair: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/gaming-chair?page=2)",
+    "router: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/router?page=2)",
+    "online-ups: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/online-ups?page=2)",
+    "ups: স্টোর ব্লক করেছে (503 https://www.ultratech.com.bd/ups?page=2)"
    ],
-   "seconds": 172
+   "seconds": 1430
   },
   "pchouse": {
    "enabled": true,
-   "items": 443,
+   "items": 3090,
    "errors": [],
-   "seconds": 152
+   "seconds": 1112
   },
   "creatus": {
    "enabled": true,
-   "items": 553,
+   "items": 4032,
    "errors": [],
-   "seconds": 625
+   "seconds": 1417
   },
   "smartbd": {
    "enabled": true,
-   "items": 157,
+   "items": 1516,
    "errors": [],
-   "seconds": 55
+   "seconds": 610
   },
   "fourstar": {
    "enabled": true,
-   "items": 40,
+   "items": 439,
    "errors": [],
-   "seconds": 35
+   "seconds": 525
+  },
+  "walton": {
+   "enabled": true,
+   "items": 251,
+   "errors": [],
+   "seconds": 106
+  },
+  "minister": {
+   "enabled": true,
+   "items": 118,
+   "errors": [],
+   "seconds": 696
   },
   "ryans": {
    "enabled": false,
@@ -56,6 +96,26 @@
     "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
    ],
    "seconds": 0
+  },
+  "diamu": {
+   "enabled": true,
+   "items": 1162,
+   "errors": [
+    "smartphone: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/mobile/page/4/",
+    "tablet: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/laptop-and-tablet/tablet/page/4/",
+    "headphone: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/electronic-accessories/audio/headphone/page/4/",
+    "speaker: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/electronic-accessories/audio/speakers/page/4/",
+    "cable: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/gadgets-and-accessories/cable/page/4/",
+    "earphone: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/gadgets-and-accessories/earphones/page/4/",
+    "power-bank: HTTPError: 404 Client Error: Not Found for url: https://diamu.com.bd/product-category/gadgets-and-accessories/power-bank/page/5/"
+   ],
+   "seconds": 571
+  },
+  "applegadgets": {
+   "enabled": true,
+   "items": 396,
+   "errors": [],
+   "seconds": 129
   }
  }
 }
