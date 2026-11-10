@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="card">
+    <h1>অ্যাডমিন: আজকের রিপোর্ট</h1>
+    <p class="muted" style="margin:0;font-size:.88rem">সংগ্রহের সময়: {{ health.scraped_at }}। এই পেজ Google-এ দেখাবে না।</p>
+  </section>
+
+  <section class="card">
+    <h2>স্টোরের অবস্থা</h2>
+    <div class="scroll"><table>
+      <tr><th>স্টোর</th><th>অফার</th><th>সময়</th><th>সমস্যা</th></tr>
+      {% for sid, h in health.stores.items() %}
+      <tr><td><b>{{ stores[sid].name }}</b>{% if not h.enabled %}<br><span class="badge gray">বন্ধ</span>{% endif %}</td><td>{{ h['items'] }}</td><td>{{ h.seconds }}s</td>
+        <td>{% if h.errors %}{% for e in h.errors %}<div style="color:var(--warn)">{{ e }}</div>{% endfor %}{% else %}<span style="color:var(--best)">ঠিক আছে</span>{% endif %}</td></tr>
+      {% endfor %}
+    </table></div>
+  </section>
+
+  <section class="card">
+    <h2>সংখ্যা</h2>
+    <dl>
+      <div><dt>মোট প্রোডাক্ট</dt><dd>{{ stats.total }}</dd></div>
+      <div><dt>একাধিক স্টোরে মিলেছে</dt><dd>{{ stats.multi }}</dd></div>
+      <div><dt>আজ নতুন</dt><dd>{{ stats.new }}</dd></div>
+      <div><dt>সম্ভাব্য মিল (যাচাই বাকি)</dt><dd>{{ suggestions|length }}</dd></div>
+    </dl>
+  </section>
+
+  <section class="card">
+    <h2>সম্ভাব্য মিল <span class="sub">· একই প্রোডাক্ট মনে হলে জোড়া লাগান</span></h2>
+    <p class="muted" style="font-size:.85rem;margin-top:0">একই হলে <code>data/manual_matches.json</code> ফাইলের <code>merge</code>-এ যোগ করুন, অথবা Claude-কে বলুন "এই দুইটা মিলিয়ে দাও"।</p>
+    <div class="rows">
+    {% for s in suggestions[:60] %}
+      <div class="row"><div style="min-width:0"><div class="n">{{ s.a_name }}</div><div class="n" style="font-weight:400">{{ s.b_name }}</div>
+        <div class="w"><code>{{ s.a }}</code> ↔ <code>{{ s.b }}</code></div></div><div class="p">{{ (s.score*100)|int }}%</div></div>
+    {% else %}<p class="muted" style="margin:0">কিছু নেই।</p>{% endfor %}
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>আজ নতুন যোগ হওয়া</h2>
+    <div class="rows">
+    {% for it in fresh %}
+      <a class="row" href="{{ base }}/p/{{ it.id }}/"><div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ it.cat_name }}</div></div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% else %}—{% endif %}</div></a>
+    {% else %}<p class="muted" style="margin:0">আজ নতুন কিছু নেই।</p>{% endfor %}
+    </div>
+  </section>
+{% endblock %}

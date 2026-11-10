@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › {{ cat.name_bn }}</nav>
+  <section class="card">
+    <h1>বাংলাদেশে {{ cat.name_bn }} দাম</h1>
+    <p class="muted" style="margin:0;font-size:.9rem">{{ items|length }}টি প্রোডাক্ট, {{ store_count }}টি স্টোরের দাম মিলিয়ে। সবচেয়ে কম দাম প্রথমে।</p>
+    {% if facets %}
+    <div class="chips" style="margin-top:12px" id="chips">
+      <button class="chip" aria-pressed="true" data-f="">সব</button>
+      {% for f in facets %}<button class="chip" aria-pressed="false" data-f="{{ f }}">{{ f }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="ctrl">
+      <label><input type="checkbox" id="multi"> শুধু একাধিক স্টোরে আছে</label>
+      <label><input type="checkbox" id="stock" checked> শুধু স্টকে আছে</label>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="rows" id="list">
+    {% for it in items %}
+      <a class="row" href="{{ base }}/p/{{ it.id }}/" data-f="{{ it.facets }}" data-multi="{{ 1 if it.store_count > 1 else 0 }}" data-stock="{{ 1 if it.best else 0 }}">
+        <div style="min-width:0"><div class="n">{{ it.name }}</div>
+          <div class="w">{% if it.best %}{{ stores[it.best.store].name }}{% else %}স্টকে নেই{% endif %}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count }} স্টোর</span>{% endif %}</div></div>
+        <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% else %}—{% endif %}</div>{% if it.saving %}<div class="d lo">{{ it.saving | taka }} পার্থক্য</div>{% endif %}</div>
+      </a>
+    {% endfor %}
+    </div>
+    <p class="muted" id="empty" hidden style="margin:8px 0 0;font-size:.9rem">এই ফিল্টারে কিছু নেই। উপরের টিক তুলে দেখুন।</p>
+  </section>
+{% endblock %}
+{% block after %}
+<script>
+(function(){
+  var f="", rows=[].slice.call(document.querySelectorAll('#list .row'));
+  function draw(){
+    var m=document.getElementById('multi').checked, s=document.getElementById('stock').checked, n=0;
+    rows.forEach(function(r){
+      var ok=(!f||(' '+r.dataset.f+' ').indexOf(' '+f+' ')>-1)&&(!m||r.dataset.multi==='1')&&(!s||r.dataset.stock==='1');
+      r.hidden=!ok; if(ok)n++;
+    });
+    document.getElementById('empty').hidden=n>0;
+  }
+  var chips=document.getElementById('chips');
+  if(chips)chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;f=b.dataset.f;
+    [].forEach.call(chips.children,function(c){c.setAttribute('aria-pressed',c===b)});draw();});
+  document.getElementById('multi').addEventListener('change',draw);
+  document.getElementById('stock').addEventListener('change',draw);
+  draw();
+})();
+</script>
+{% endblock %}

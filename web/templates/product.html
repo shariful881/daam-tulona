@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block head %}
+<script type="application/ld+json">{{ jsonld | safe }}</script>
+{% endblock %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a> › {{ p.brand }}</nav>
+
+  <section class="card">
+    <div class="head">
+      <div class="thumb" aria-hidden="true">{{ icon | safe }}</div>
+      <div style="min-width:0">
+        <div class="brand">{{ p.brand }}</div>
+        <h1>{{ p.name }}</h1>
+        <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}</div>
+      </div>
+    </div>
+    <div class="low">
+      {% if best %}
+      <div><div class="l">সর্বনিম্ন দাম</div><div class="price">{{ best.price | taka }}</div></div>
+      <div class="s">{{ stores[best.store].name }}-এ<br>{{ live_count }}টি স্টোরে স্টকে আছে</div>
+      {% else %}
+      <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">এখন কোথাও স্টকে নেই</div></div>
+      {% endif %}
+    </div>
+    {% if saving %}<span class="save">সঠিক স্টোর বাছলে {{ saving | taka }} সাশ্রয়</span>{% endif %}
+    <div class="upd">শেষ আপডেট: {{ updated }}</div>
+  </section>
+
+  <section class="card">
+    <h2>কোন স্টোরে কত দাম</h2>
+    <div class="stores">
+    {% for row in store_rows %}
+      {% if row.offer %}
+      <a class="st{% if row.is_best %} best{% endif %}" href="{{ row.offer.url }}" target="_blank" rel="nofollow noopener">
+        <span class="av">{{ stores[row.store].short }}</span>
+        <span><span class="nm">{{ stores[row.store].name }}</span><br>
+          <span class="stt {{ row.cls }}">{{ row.label }}</span></span>
+        <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
+      </a>
+      {% else %}
+      <div class="st none">
+        <span class="av">{{ stores[row.store].short }}</span>
+        <span><span class="nm">{{ stores[row.store].name }}</span><br><span class="stt">এই স্টোরে পাওয়া যায়নি</span></span>
+        <span class="pr"><b>—</b></span>
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </section>
+
+  {% if spark %}
+  <section class="card">
+    <h2>দামের ইতিহাস <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
+    {{ spark | safe }}
+  </section>
+  {% endif %}
+
+  {% if alts %}
+  <section class="card">
+    <h2>একই ধরনের অন্য প্রোডাক্ট</h2>
+    <div class="rows">
+    {% for a in alts %}
+      <a class="row" href="{{ base }}/p/{{ a.id }}/">
+        <div style="min-width:0"><div class="n">{{ a.name }}</div><div class="w">{{ stores[a.store].name }}</div></div>
+        <div><div class="p">{{ a.price | taka }}</div>{% if best %}{% set d = a.price - best.price %}<div class="d {% if d < 0 %}lo{% endif %}">{% if d < 0 %}{{ (-d) | taka }} কম{% elif d > 0 %}{{ d | taka }} বেশি{% else %}একই দাম{% endif %}</div>{% endif %}</div>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="card">
+    <details open><summary>স্পেসিফিকেশন</summary>
+      <dl>
+        <div><dt>ব্র্যান্ড</dt><dd>{{ p.brand }}</dd></div>
+        {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
+        <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
+      </dl>
+    </details>
+    <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
+  </section>
+
+  <section class="card">
+    <h2>সাধারণ প্রশ্ন</h2>
+    {% for q, a in faq %}<details><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
+  </section>
+{% endblock %}
+{% block after %}
+{% if best %}
+<div class="buy"><div class="col">
+  <div class="bp"><b>{{ best.price | taka }}</b><span>সর্বনিম্ন · {{ stores[best.store].name }}</span></div>
+  <a class="btn" href="{{ best.url }}" target="_blank" rel="nofollow noopener">স্টোরে কিনুন</a>
+</div></div>
+{% endif %}
+{% endblock %}

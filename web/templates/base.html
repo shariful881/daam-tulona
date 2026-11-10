@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap">
+<link rel="stylesheet" href="{{ base }}/static/style.css?v={{ build_id }}">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="hdr"><div class="col">
+  <a class="logo" href="{{ base }}/">দাম<span>তুলনা</span></a>
+  <form action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0">
+    <input class="search" type="search" name="q" placeholder="প্রোডাক্ট খুঁজুন…" aria-label="প্রোডাক্ট খুঁজুন">
+  </form>
+</div></header>
+<main class="col{% if buy %} has-buy{% endif %}">
+{% block content %}{% endblock %}
+  <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
+</main>
+{% block after %}{% endblock %}
+</body>
+</html>

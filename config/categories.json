@@ -1,0 +1,49 @@
+{
+  "_নোট": "নতুন ক্যাটাগরি যোগ করতে এখানে একটা ব্লক কপি করে স্টোরের ক্যাটাগরি লিংক বসান। max_pages = সর্বোচ্চ কয় পাতা তোলা হবে।",
+  "categories": [
+    {
+      "slug": "laptop-ram",
+      "name_bn": "ল্যাপটপ র‍্যাম",
+      "name_en": "Laptop RAM",
+      "group": "computer",
+      "stores": {
+        "startech": {"url": "https://www.startech.com.bd/component/laptop-ram", "max_pages": 6},
+        "ultratech": {"url": "https://www.ultratech.com.bd/laptop-ram", "max_pages": 3},
+        "fourstar": {"url": "https://fourstarit.com.bd/c/laptop-ram"}
+      }
+    },
+    {
+      "slug": "desktop-ram",
+      "name_bn": "ডেস্কটপ র‍্যাম",
+      "name_en": "Desktop RAM",
+      "group": "computer",
+      "stores": {
+        "startech": {"url": "https://www.startech.com.bd/component/ram", "max_pages": 10},
+        "ultratech": {"url": "https://www.ultratech.com.bd/ram", "max_pages": 5},
+        "fourstar": {"url": "https://fourstarit.com.bd/c/ram"}
+      }
+    },
+    {
+      "slug": "ssd",
+      "name_bn": "এসএসডি",
+      "name_en": "SSD",
+      "group": "computer",
+      "stores": {
+        "startech": {"url": "https://www.startech.com.bd/ssd", "max_pages": 12},
+        "ultratech": {"url": "https://www.ultratech.com.bd/ssd", "max_pages": 6},
+        "fourstar": {"url": "https://fourstarit.com.bd/c/ssd"}
+      }
+    },
+    {
+      "slug": "processor",
+      "name_bn": "প্রসেসর",
+      "name_en": "Processor",
+      "group": "computer",
+      "stores": {
+        "startech": {"url": "https://www.startech.com.bd/component/processor", "max_pages": 6},
+        "ultratech": {"url": "https://www.ultratech.com.bd/processor", "max_pages": 4},
+        "fourstar": {"url": "https://fourstarit.com.bd/c/processor-price-in-bd"}
+      }
+    }
+  ]
+}

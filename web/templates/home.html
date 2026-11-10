@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="card">
+    <h1>কম্পিউটার পার্টসের দাম, সব স্টোর এক জায়গায়</h1>
+    <p class="muted" style="margin:0;font-size:.92rem">{{ total }}টি প্রোডাক্টের দাম {{ store_names }} থেকে প্রতিদিন মিলিয়ে দেখানো হয়। কোথায় সবচেয়ে কম দাম, এক নজরে দেখুন।</p>
+  </section>
+
+  <div class="cats">
+  {% for c in cats %}
+    <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><b>{{ c.name_bn }}</b><span>{{ c.count }}টি প্রোডাক্ট</span><span>শুরু {{ c.min | taka }} থেকে</span></a>
+  {% endfor %}
+  </div>
+
+  {% if deals %}
+  <section class="card">
+    <h2>দোকানভেদে সবচেয়ে বেশি দামের পার্থক্য</h2>
+    <div class="rows">
+    {% for it in deals %}
+      <a class="row" href="{{ base }}/p/{{ it.id }}/">
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
+        <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">{{ it.saving | taka }} সাশ্রয়</div></div>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if fresh %}
+  <section class="card">
+    <h2>নতুন যোগ হয়েছে</h2>
+    <div class="rows">
+    {% for it in fresh %}
+      <a class="row" href="{{ base }}/p/{{ it.id }}/">
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ it.cat_name }}</div></div>
+        <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% else %}—{% endif %}</div></div>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endblock %}

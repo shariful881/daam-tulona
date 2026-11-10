@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="card">
+    <h1>খুঁজুন</h1>
+    <input class="search" style="max-width:none;width:100%;font-size:1rem;padding:10px 14px" id="q" type="search" placeholder="যেমন: Samsung 8GB, Ryzen 5, 1TB SSD" aria-label="খুঁজুন" autofocus>
+  </section>
+  <section class="card"><div id="results" class="rows"></div><p class="muted" id="none" hidden style="margin:0">কিছু পাওয়া যায়নি।</p></section>
+{% endblock %}
+{% block after %}
+<script>
+(function(){
+  var data=[], q=document.getElementById('q'), out=document.getElementById('results'), none=document.getElementById('none');
+  var base="{{ base }}";
+  function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function taka(n){return '৳'+n.toLocaleString('en-IN')}
+  function draw(){
+    var t=q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if(!t.length){out.innerHTML='';none.hidden=true;return}
+    var hits=data.filter(function(d){var n=d.s;return t.every(function(w){return n.indexOf(w)>-1})}).slice(0,60);
+    out.innerHTML=hits.map(function(d){return '<a class="row" href="'+base+'/p/'+d.id+'/"><div style="min-width:0"><div class="n">'+esc(d.n)+'</div><div class="w">'+esc(d.c)+(d.k>1?'<span class="badge">'+d.k+' স্টোর</span>':'')+'</div></div><div><div class="p">'+(d.p?taka(d.p):'—')+'</div></div></a>'}).join('');
+    none.hidden=hits.length>0;
+  }
+  var params=new URLSearchParams(location.search); if(params.get('q'))q.value=params.get('q');
+  fetch(base+'/search.json').then(function(r){return r.json()}).then(function(j){data=j;draw()});
+  q.addEventListener('input',draw);
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,81 @@
+"""সব স্টোরের স্ক্র্যাপারের জন্য সাধারণ কাজ: ভদ্রভাবে পেজ আনা, robots.txt মানা, দাম পড়া।"""
+import re
+import time
+import urllib.robotparser
+from urllib.parse import urlparse
+
+import requests
+
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; DaamTulonaBot/1.0; "
+    "+https://github.com/shariful881/daam-tulona)"
+)
+
+_session = requests.Session()
+_session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en,bn;q=0.8"})
+_robots: dict[str, urllib.robotparser.RobotFileParser] = {}
+_last_hit: dict[str, float] = {}
+
+
+class Blocked(Exception):
+    """স্টোর রিকোয়েস্ট আটকে দিয়েছে (403/429 বা বট-যাচাই পেজ)।"""
+
+
+def _robots_for(url: str) -> urllib.robotparser.RobotFileParser:
+    host = urlparse(url).netloc
+    if host not in _robots:
+        rp = urllib.robotparser.RobotFileParser()
+        try:
+            r = _session.get(f"https://{host}/robots.txt", timeout=30)
+            rp.parse(r.text.splitlines() if r.ok else [])
+        except requests.RequestException:
+            rp.parse([])
+        _robots[host] = rp
+    return _robots[host]
+
+
+def allowed(url: str) -> bool:
+    return _robots_for(url).can_fetch(USER_AGENT, url)
+
+
+def fetch(url: str, delay: float) -> str:
+    """robots.txt মেনে, স্টোরভিত্তিক বিরতি রেখে পেজ আনে।"""
+    if not allowed(url):
+        raise PermissionError(f"robots.txt অনুমতি দেয় না: {url}")
+    host = urlparse(url).netloc
+    wait = _last_hit.get(host, 0) + delay - time.time()
+    if wait > 0:
+        time.sleep(wait)
+    r = _session.get(url, timeout=45)
+    _last_hit[host] = time.time()
+    if r.status_code in (403, 429, 503) or "Just a moment..." in r.text[:3000]:
+        raise Blocked(f"{r.status_code} {url}")
+    r.raise_for_status()
+    return r.text
+
+
+def parse_price(text: str | None) -> int | None:
+    """'7,200৳' বা '৳ 7200' থেকে 7200। শূন্য বা খালি হলে None।"""
+    if not text:
+        return None
+    digits = re.sub(r"[^\d]", "", text.split(".")[0])
+    if not digits:
+        return None
+    value = int(digits)
+    return value if value > 0 else None
+
+
+def offer(name, url, price, regular=None, in_stock=True, status="ok", image=None, brand=None):
+    """সব স্টোরের ফলাফল একই আকারে।"""
+    if regular is not None and price is not None and regular <= price:
+        regular = None
+    return {
+        "name": " ".join(name.split()),
+        "url": url,
+        "price": price,
+        "regular": regular,
+        "in_stock": bool(in_stock and price),
+        "status": status if price else ("no_price" if status == "ok" else status),
+        "image": image,
+        "brand": brand,
+    }
