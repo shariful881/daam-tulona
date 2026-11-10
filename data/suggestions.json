@@ -1,194 +1,5 @@
 [
  {
-  "a": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram",
-  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
-  "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
- },
- {
-  "a": "lexar-8gb-ddr4-3200mhz-laptop-ram",
-  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar 8GB DDR4 3200MHz Laptop RAM",
-  "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
- },
- {
-  "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
-  "b": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
-  "score": 1.0,
-  "a_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM",
-  "b_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
- },
- {
-  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
-  "score": 1.0,
-  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8-gb-ddr4-3200-bus-gaming-ram",
-  "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8 GB DDR4 3200 BUS Gaming RAM"
- },
- {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
- },
- {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "lexar-thor-8-gb-ddr4-3200-bus-gaming-ram",
-  "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM",
-  "b_name": "Lexar THOR 8 GB DDR4 3200 BUS Gaming RAM"
- },
- {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
- },
- {
-  "a": "lexar-thor-8-gb-ddr4-3200-bus-gaming-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar THOR 8 GB DDR4 3200 BUS Gaming RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-3",
-  "score": 1.0,
-  "a_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-128gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "netac-n535s-120gb-2-5-inch-sataiii-ssd",
-  "b": "netac-n535s-120gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac N535S 120GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac N535S 120GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "netac-sa500-120gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-120gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 120GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "miphi-mp100-256gb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "MiPhi MP100 256GB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-on900-512gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "oscoo-on900-512gb-gen3-m-2-nvme-pcie-ssd",
-  "score": 1.0,
-  "a_name": "OSCOO ON900 512GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "OSCOO ON900 512GB Gen3 M.2 NVME PCIE SSD"
- },
- {
-  "a": "miphi-mp100-512gb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "MiPhi MP100 512GB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "miphi-mp100-1tb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
-  "score": 1.0,
-  "a_name": "MiPhi MP100 1TB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd",
-  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
-  "score": 1.0,
-  "a_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
-  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
- },
- {
-  "a": "corsair-force-series-gen-4-pcie-mp600-1tb-nvme-m-2-internal-ssd",
-  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
-  "score": 1.0,
-  "a_name": "CORSAIR FORCE SERIES GEN.4 PCIE MP600 1TB NVME M.2 INTERNAL SSD",
-  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
- },
- {
-  "a": "netac-sa500-240gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-240gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac SA500 240GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 240GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "netac-n535s-240gb-2-5-inch-sataiii-ssd",
-  "b": "netac-n535s-240gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac N535S 240GB 2.5 Inch SATAIII SSD",
-  "b_name": "Netac N535S 240GB 2.5\" SATAIII SSD"
- },
- {
   "a": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics",
   "b": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics-2",
   "score": 1.0,
@@ -252,13 +63,6 @@
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
  },
  {
-  "a": "intel-10th-gen-core-i7-10700-processor",
-  "b": "intel-core-i7-10700-10th-gen-processor",
-  "score": 1.0,
-  "a_name": "Intel 10th Gen Core i7-10700 Processor",
-  "b_name": "Intel Core i7 10700 10th Gen Processor"
- },
- {
   "a": "intel-core-i3-12100-12th-gen-alder-lake-processor-tray",
   "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
   "score": 1.0,
@@ -266,11 +70,242 @@
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 0.9,
-  "a_name": "TEAM T-Force DELTA TUF Gaming RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
+  "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
+  "b": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
+  "score": 1.0,
+  "a_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM",
+  "b_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
+ },
+ {
+  "a": "aitc-kingsman-rgb-8gb-ddr4-3600mhz-gaming-desktop-ram",
+  "b": "aitc-kingsman-8gb-ddr4-3600mhz-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "AITC Kingsman RGB 8GB DDR4 3600MHz Gaming Desktop RAM",
+  "b_name": "AITC KINGSMAN 8GB DDR4 3600MHz RGB Desktop Ram"
+ },
+ {
+  "a": "aitc-kingsman-rgb-8gb-ddr4-3600mhz-gaming-desktop-ram",
+  "b": "aitc-kingsman-rgb-ddr4-8gb-3600mhz-gaming-ram",
+  "score": 1.0,
+  "a_name": "AITC Kingsman RGB 8GB DDR4 3600MHz Gaming Desktop RAM",
+  "b_name": "AiTC Kingsman RGB DDR4 8GB 3600mhz Gaming Ram"
+ },
+ {
+  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
+  "score": 1.0,
+  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
   "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
+  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
+  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM",
+  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+ },
+ {
+  "a": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram",
+  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
+  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
+ },
+ {
+  "a": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram",
+  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-3",
+  "score": 1.0,
+  "a_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
+  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
+ },
+ {
+  "a": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram-2",
+  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM",
+  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
+ },
+ {
+  "a": "g-skill-trident-z-royal-elite-rgb-16gb-8gbx2-ddr4-3600mhz-desktop-ram",
+  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z Royal Elite RGB 16GB (8GBx2) DDR4 3600MHz Desktop RAM",
+  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
+ },
+ {
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
+ },
+ {
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
+ },
+ {
+  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-16gbx2-6000mhz-ddr5-gaming-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2) 6000MHz DDR5 Gaming RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram",
+  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
+  "score": 1.0,
+  "a_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
+  "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
+ },
+ {
+  "a": "lexar-8gb-ddr4-3200mhz-laptop-ram",
+  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
+  "score": 1.0,
+  "a_name": "Lexar 8GB DDR4 3200MHz Laptop RAM",
+  "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
+ },
+ {
+  "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
+  "b": "netac-sa500-128gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "netac-n535s-120gb-2-5-inch-sataiii-ssd",
+  "b": "netac-n535s-120gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac N535S 120GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac N535S 120GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "netac-sa500-120gb-2-5-inch-sataiii-ssd",
+  "b": "netac-sa500-120gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac SA500 120GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD"
+ },
+ {
+  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
+ },
+ {
+  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD"
+ },
+ {
+  "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD"
+ },
+ {
+  "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd",
+  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
+  "score": 1.0,
+  "a_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
+  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
+ },
+ {
+  "a": "corsair-force-series-gen-4-pcie-mp600-1tb-nvme-m-2-internal-ssd",
+  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
+  "score": 1.0,
+  "a_name": "CORSAIR FORCE SERIES GEN.4 PCIE MP600 1TB NVME M.2 INTERNAL SSD",
+  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
+ },
+ {
+  "a": "netac-sa500-240gb-2-5-inch-sataiii-ssd",
+  "b": "netac-sa500-240gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac SA500 240GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac SA500 240GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "netac-n535s-240gb-2-5-inch-sataiii-ssd",
+  "b": "netac-n535s-240gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac N535S 240GB 2.5 Inch SATAIII SSD",
+  "b_name": "Netac N535S 240GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
+  "b": "ocpc-mfl-300-1tb-m-2-nvme-ssd-2",
+  "score": 1.0,
+  "a_name": "OCPC MFL-300 1TB M.2 NVMe SSD",
+  "b_name": "OCPC MFL-300 1TB M.2 NVMe SSD"
+ },
+ {
+  "a": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
+  "b": "ocpc-mfl-300-1-tb-m-2-nvme-ssd",
+  "score": 1.0,
+  "a_name": "OCPC MFL-300 1TB M.2 NVMe SSD",
+  "b_name": "OCPC MFL-300 1 TB M.2 NVME SSD"
+ },
+ {
+  "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-nvme-m-2-ssd-with-dram-cache",
+  "b": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd-with-dram-cache",
+  "score": 0.91,
+  "a_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 NVMe M.2 SSD With DRAM Cache",
+  "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD With DRAM Cache"
  },
  {
   "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
@@ -280,25 +315,74 @@
   "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
  },
  {
+  "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
+  "score": 0.9,
+  "a_name": "TEAM T-Force DELTA TUF Gaming RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 0.9,
+  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 0.9,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-1-3v-gaming-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.9,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 1.3V Gaming RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
   "a": "team-t-force-vulcan-z-8gb-ddr4-3200mhz-desktop-gaming-ram",
-  "b": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
+  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
   "score": 0.89,
   "a_name": "Team T-Force Vulcan Z 8GB DDR4 3200MHz Desktop Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM"
+  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
  },
  {
-  "a": "team-t-force-vulcan-red-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "b": "team-t-force-vulcan-16gb-6000mhz-ddr5-cl38-desktop-ram",
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
   "score": 0.89,
-  "a_name": "Team T-Force VULCAN RED 16GB DDR5 6000MHz CL38 Desktop RAM",
-  "b_name": "Team T-Force VULCAN 16GB 6000MHz DDR5 CL38 Desktop RAM"
+  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
  },
  {
-  "a": "team-t-force-vulcan-16gb-ddr5-6000mhz-cl38-1-25v-desktop-ram",
-  "b": "team-t-force-vulcan-16gb-6000mhz-ddr5-cl38-desktop-ram",
+  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
   "score": 0.89,
-  "a_name": "Team T-Force VULCAN 16GB DDR5 6000MHz CL38 1.25V Desktop RAM",
-  "b_name": "Team T-Force VULCAN 16GB 6000MHz DDR5 CL38 Desktop RAM"
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-16gb-6000mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 0.89,
+  "a_name": "TEAM T-FORCE DELTA RGB White 16GB 6000MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.89,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "kingston-fury-renegade-g5-2tb-pcie-5-0-nvme-m-2-ssd",
+  "b": "kingston-fury-renegade-g5-2tb-pcie-5-0-nvme-m-2-ssd-with-dram",
+  "score": 0.89,
+  "a_name": "Kingston FURY Renegade G5 2TB PCIe 5.0 NVMe M.2 SSD",
+  "b_name": "Kingston FURY Renegade G5 2TB PCIe 5.0 NVMe M.2 SSD With DRAM"
  },
  {
   "a": "team-t-create-expert-8gb-ddr4-3200mhz-desktop-ram",
@@ -308,39 +392,67 @@
   "b_name": "Team T-CREATE EXPERT 8GB DDR4 3200MHz CL16 Desktop RAM"
  },
  {
-  "a": "corsair-vengeance-rgb-8gb-ddr5-6000mhz-cl36-desktop-ram",
-  "b": "corsair-vengeance-rgb-rs-8gb-ddr5-6000mhz-cl36-desktop-ram",
+  "a": "aitc-kingsman-vertex-rgb-16gb-ddr5-7200mhz-gaming-desktop-ram",
+  "b": "aitc-kingsman-vertex-rgb-ddr5-16gb-7200bus-cl34-gaming-ram",
   "score": 0.88,
-  "a_name": "Corsair VENGEANCE RGB 8GB DDR5 6000MHz CL36 Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB RS 8GB DDR5 6000MHz CL36 Desktop RAM"
+  "a_name": "AITC Kingsman Vertex RGB 16GB DDR5 7200MHz Gaming Desktop RAM",
+  "b_name": "AITC Kingsman Vertex RGB DDR5 16GB 7200Bus CL34 Gaming Ram"
  },
  {
-  "a": "corsair-dominator-platinum-rgb-8gb-ddr4-3600mhz-c18-ram",
-  "b": "corsair-dominator-platinum-rgb-8gb-3600mhz-ddr4-ram",
+  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram-white",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
   "score": 0.88,
-  "a_name": "Corsair DOMINATOR PLATINUM RGB 8GB DDR4 3600MHz C18 RAM",
-  "b_name": "Corsair Dominator Platinum RGB 8GB 3600MHz DDR4 RAM"
+  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM White",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
  },
  {
-  "a": "kingston-fury-beast-8gb-3200mhz-ddr4-special-edition-rgb-desktop-ram",
-  "b": "kingston-fury-beast-rgb-8gb-3200mhz-ddr4-desktop-ram",
+  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-cl36-desktop-ram",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
   "score": 0.88,
-  "a_name": "Kingston FURY Beast 8GB 3200MHz DDR4 Special Edition RGB Desktop RAM",
-  "b_name": "Kingston FURY Beast RGB 8GB 3200MHz DDR4 Desktop RAM"
+  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 CL36 Desktop RAM",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
  },
  {
-  "a": "adata-xpg-8gb-d35g-ddr4-3200-bus-rgb-gaming-ram",
-  "b": "adata-xpg-spectrix-d35g-8gb-ddr4-3200mhz-rgb-gaming-desktop-ram",
+  "a": "aitc-kingsman-km600-ultra-512gb-pcie-gen3-m-2-nvme-ssd",
+  "b": "aitc-kingsman-km600-ultra-512gb-m-2-nvme-pcie-ssd",
   "score": 0.88,
-  "a_name": "ADATA XPG 8GB D35G DDR4 3200 BUS RGB Gaming RAM",
-  "b_name": "Adata XPG Spectrix D35G 8GB DDR4 3200MHz RGB Gaming Desktop RAM"
+  "a_name": "AITC KINGSMAN KM600 ULTRA 512GB PCIe Gen3 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KM600 ULTRA 512GB M.2 NVME PCIE SSD"
  },
  {
-  "a": "team-t-force-vulcan-16gb-6000mhz-ddr5-desktop-ram",
-  "b": "team-t-force-vulcan-16gb-6000mhz-ddr5-cl38-desktop-ram",
+  "a": "aitc-kingsman-km600-ultra-1tb-pcie-gen3-m-2-nvme-ssd",
+  "b": "aitc-kingsman-km600-ultra-1tb-m-2-nvme-pcie-ssd",
   "score": 0.88,
-  "a_name": "Team T-Force VULCAN 16GB 6000MHz DDR5 Desktop RAM",
-  "b_name": "Team T-Force VULCAN 16GB 6000MHz DDR5 CL38 Desktop RAM"
+  "a_name": "AITC KINGSMAN KM600 ULTRA 1TB PCIe Gen3 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KM600 ULTRA 1TB M.2 NVME PCIE SSD"
+ },
+ {
+  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
+  "b": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-pcie-ssd",
+  "score": 0.88,
+  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME PCIE SSD"
+ },
+ {
+  "a": "corsair-mp600-gs-500gb-pcie-gen4-nvme-m-2-ssd",
+  "b": "corsair-mp600-gs-500gb-pcie-gen4-x4-nvme-m-2-ssd",
+  "score": 0.88,
+  "a_name": "Corsair MP600 GS 500GB PCIe Gen4 NVMe M.2 SSD",
+  "b_name": "Corsair MP600 GS 500GB PCIe Gen4 x4 NVMe M.2 SSD"
+ },
+ {
+  "a": "amd-ryzen-5-2400g-desktop-processor-with-radeon-rx-vega-11-graphics",
+  "b": "amd-ryzen-5-2400g-processor-with-vega-11-graphics",
+  "score": 0.86,
+  "a_name": "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
+  "b_name": "AMD Ryzen 5 2400G Processor with Vega 11 Graphics"
+ },
+ {
+  "a": "intel-13th-gen-core-i5-13500-raptor-lake-processor",
+  "b": "intel-core-i5-13500-raptor-lake-processor-with-pc-build",
+  "score": 0.86,
+  "a_name": "Intel 13th Gen Core i5 13500 Raptor Lake Processor",
+  "b_name": "Intel Core i5 13500 Raptor Lake Processor (With PC Build)"
  },
  {
   "a": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
@@ -350,39 +462,25 @@
   "b_name": "OCPC X3 RGB DDR4 8GB 3200MHz BLACK Desktop RAM"
  },
  {
-  "a": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-gaming-desktop-ram",
+  "a": "ocpc-xt-ii-ddr5-4800mhz-8gb-desktop-ram",
+  "b": "ocpc-xt-ii-8gb-ddr5-4800mhz-cl40-desktop-ram",
   "score": 0.86,
-  "a_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Desktop RAM Black",
-  "b_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Gaming Desktop RAM"
+  "a_name": "OCPC XT II DDR5 4800MHz 8GB Desktop RAM",
+  "b_name": "OCPC XT II 8GB DDR5 4800Mhz CL40 Desktop Ram"
  },
  {
-  "a": "team-delta-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-delta-rgb-8gb-ddr4-3200mhz-desktop-ram",
+  "a": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-gaming-desktop-ram",
+  "b": "aitc-kingsman-8gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
   "score": 0.86,
-  "a_name": "Team Delta RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
-  "b_name": "Team Delta RGB 8GB DDR4 3200MHz Desktop RAM"
+  "a_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Gaming Desktop RAM",
+  "b_name": "AITC Kingsman 8GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
  },
  {
-  "a": "corsair-vengeance-8gb-ddr5-5600mhz-cl40-desktop-ram",
-  "b": "corsair-vengeance-rgb-8gb-ddr5-5600mhz-cl40-desktop-ram",
+  "a": "team-delta-rgb-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "team-delta-rgb-black-8gb-3200-mhz-ddr4-ram",
   "score": 0.86,
-  "a_name": "Corsair VENGEANCE 8GB DDR5 5600MHz CL40 Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 8GB DDR5 5600MHz CL40 Desktop RAM"
- },
- {
-  "a": "kingston-fury-beast-8gb-ddr5-5600mhz-cl36-desktop-ram",
-  "b": "kingston-fury-beast-8gb-ddr5-5600mhz-desktop-ram",
-  "score": 0.86,
-  "a_name": "Kingston FURY Beast 8GB DDR5 5600Mhz CL36 Desktop RAM",
-  "b_name": "Kingston FURY Beast 8GB DDR5 5600Mhz Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-16gb-ddr4-2666mhz-c19-ram",
-  "b": "g-skill-ripjaws-v-16gb-2666mhz-ddr4-ram",
-  "score": 0.86,
-  "a_name": "G.Skill Ripjaws V 16GB DDR4 2666MHz C19 RAM",
-  "b_name": "G.SKILL RIPJAWS-V 16GB 2666MHZ DDR4 RAM"
+  "a_name": "Team Delta RGB 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "TEAM DELTA RGB BLACK 8GB 3200 MHz DDR4 RAM"
  },
  {
   "a": "g-skill-trident-z-16gb-ddr4-3200mhz-rgb-desktop-ram",
@@ -392,39 +490,46 @@
   "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
  },
  {
-  "a": "g-skill-ripjaws-v-16gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-16gb-ddr4-2400mhz-red-desktop-ram",
-  "score": 0.86,
-  "a_name": "G.Skill Ripjaws V 16GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.Skill Ripjaws V 16GB DDR4 2400MHz Red Desktop RAM"
- },
- {
-  "a": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram",
+  "a": "g-skill-trident-z-royal-16gb-ddr4-3200mhz-desktop-ram",
   "b": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram-2",
   "score": 0.86,
-  "a_name": "G.SKILL TRIDENT Z 16GB DDR4 3200MHZ DESKTOP RAM.",
+  "a_name": "G.Skill Trident Z Royal 16GB DDR4 3200MHz Desktop RAM",
   "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
  },
  {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
-  "b": "ocpc-x3-rgb-ddr4-16gb-3200mhz-black-desktop-ram",
+  "a": "g-skill-trident-z-16gb-ddr4-3200mhz-heatsink-desktop-ram",
+  "b": "g-skill-trident-z-16gb-ddr4-3200mhz-desktop-ram-2",
   "score": 0.86,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
-  "b_name": "OCPC X3 RGB DDR4 16GB 3200MHz Black Desktop RAM"
+  "a_name": "G.Skill Trident Z 16GB DDR4 3200MHz Heatsink Desktop RAM",
+  "b_name": "G.Skill Trident Z 16GB DDR4 3200Mhz Desktop Ram"
  },
  {
-  "a": "kingston-fury-beast-16gb-3200mhz-ddr4-desktop-ram",
-  "b": "kingston-fury-beast-16gb-3200mhz-ddr4-cl16-desktop-ram",
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
   "score": 0.86,
-  "a_name": "Kingston FURY Beast 16GB 3200MHz DDR4 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 3200MHz DDR4 CL16 Desktop RAM"
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
-  "a": "kingston-fury-beast-16gb-5600mhz-ddr5-desktop-ram",
-  "b": "kingston-fury-beast-16gb-5600mhz-ddr5-rgb-desktop-ram",
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
   "score": 0.86,
-  "a_name": "Kingston FURY Beast 16GB 5600Mhz DDR5 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 5600MHz DDR5 RGB Desktop RAM"
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
+ },
+ {
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-white",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-2",
+  "score": 0.86,
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "kingston-fury-beast-16gb-6000mhz-ddr5-desktop-ram",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "score": 0.86,
+  "a_name": "Kingston FURY Beast 16GB 6000Mhz DDR5 Desktop RAM",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
  },
  {
   "a": "corsair-vengeance-lpx-16gb-ddr4-dram-3200mhz-ram",
@@ -434,53 +539,39 @@
   "b_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram"
  },
  {
-  "a": "corsair-vengeance-16gb-ddr5-5200mhz-c40-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5200mhz-cl40-desktop-ram",
+  "a": "lexar-thor-16gb-ddr5-6000mhz-cl32-desktop-ram",
+  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
   "score": 0.86,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 5200MHz C40 RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5200MHz CL40 Desktop RAM"
+  "a_name": "Lexar THOR 16GB DDR5 6000MHz CL32 Desktop RAM",
+  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
  },
  {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-cl40-desktop-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-ram",
+  "a": "colorful-battle-ax-ddr4-8gb-3200mhz-desktop-ram",
+  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
   "score": 0.86,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz CL40 Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz RAM"
+  "a_name": "Colorful Battle-AX DDR4 8GB 3200MHz Desktop RAM",
+  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
  },
  {
-  "a": "ocpc-xtl-200-128gb-sata-iii-ssd",
-  "b": "ocpc-xtl-200-128gb-2-5-inch-sata-iii-ssd",
+  "a": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
+  "b": "aitc-kingsman-km600-ultra-1tb-m-2-nvme-pcie-ssd",
   "score": 0.86,
-  "a_name": "OCPC XTL-200 128GB SATA III SSD",
-  "b_name": "OCPC XTL-200 128GB 2.5 inch SATA III SSD"
+  "a_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD",
+  "b_name": "AITC KINGSMAN KM600 ULTRA 1TB M.2 NVME PCIE SSD"
  },
  {
-  "a": "ocpc-xtl-200-256gb-sata-iii-ssd",
-  "b": "ocpc-xtl-200-256gb-2-5-sata-iii-ssd",
+  "a": "kingston-fury-renegade-4tb-pcie-4-0-nvme-m-2-ssd",
+  "b": "kingston-fury-renegade-4tb-m-2-2280-pcie-nvme-internal-ssd",
   "score": 0.86,
-  "a_name": "OCPC XTL-200 256GB SATA III SSD",
-  "b_name": "OCPC XTL-200 256GB 2.5\" SATA III SSD"
+  "a_name": "Kingston FURY Renegade 4TB PCIe 4.0 NVMe M.2 SSD",
+  "b_name": "Kingston FURY Renegade 4TB M.2 2280 PCIe NVMe Internal SSD"
  },
  {
-  "a": "ocpc-xtl-200-512gb-sata-iii-ssd",
-  "b": "ocpc-xtl-200-512gb-2-5-sata-iii-ssd",
+  "a": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
+  "b": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-pcie-ssd",
   "score": 0.86,
-  "a_name": "OCPC XTL-200 512GB SATA III SSD",
-  "b_name": "OCPC XTL-200 512GB 2.5\" SATA III SSD"
- },
- {
-  "a": "memory-ghost-on901-512gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "memory-ghost-on901-512gb-pcie-gen3-x4-nvme-m-2-2280-internal-ssd",
-  "score": 0.86,
-  "a_name": "Memory Ghost ON901 512GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "Memory Ghost ON901 512GB PCIe Gen3 x4 NVMe M.2 2280 Internal SSD"
- },
- {
-  "a": "amd-ryzen-5-2400g-desktop-processor-with-radeon-rx-vega-11-graphics",
-  "b": "amd-ryzen-5-2400g-processor-with-vega-11-graphics",
-  "score": 0.86,
-  "a_name": "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
-  "b_name": "AMD Ryzen 5 2400G Processor with Vega 11 Graphics"
+  "a_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD",
+  "b_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME PCIE SSD"
  },
  {
   "a": "pny-xlr8-8gb-rgb-ddr4-3200mhz-white-desktop-ram",
@@ -497,11 +588,109 @@
   "b_name": "Apacer NOX 16GB DDR4 3200MHz Desktop RGB RAM"
  },
  {
-  "a": "addlink-s90-lite-512gb-m-2-pcie-gen4-nvme-ssd",
-  "b": "addlink-s90-lite-512gb-m-2-2280-pcie-nvme-ssd",
+  "a": "gigabyte-gen4-4000e-ssd-1tb-m-2-pcie-nvme",
+  "b": "gigabyte-gen4-4000e-1tb-m-2-2280-pcie-nvme-ssd-g440e1tb",
   "score": 0.86,
-  "a_name": "Addlink S90 Lite 512GB M.2 PCIe GEN4 NVMe SSD",
-  "b_name": "Addlink S90 Lite 512GB M.2 2280 PCIe NVMe SSD"
+  "a_name": "GIGABYTE Gen4 4000E SSD 1TB M.2 PCIe NVMe",
+  "b_name": "GIGABYTE Gen4 4000E 1TB M.2 2280 PCIe NVMe SSD # G440E1TB"
+ },
+ {
+  "a": "intel-core-ultra-5-245k-desktop-processor",
+  "b": "intel-core-ultra-5-245k-15th-gen-desktop-processor",
+  "score": 0.83,
+  "a_name": "Intel Core Ultra 5 245K Desktop Processor",
+  "b_name": "Intel Core Ultra 5 245K 15th Gen Desktop Processor"
+ },
+ {
+  "a": "intel-core-ultra-5-245kf-desktop-processor",
+  "b": "intel-core-ultra-5-245kf-15th-gen-desktop-processor",
+  "score": 0.83,
+  "a_name": "Intel Core Ultra 5 245KF Desktop Processor",
+  "b_name": "Intel Core Ultra 5 245KF 15th Gen Desktop Processor"
+ },
+ {
+  "a": "intel-core-ultra-7-265k-desktop-processor",
+  "b": "intel-core-ultra-7-265k-15th-gen-desktop-processor",
+  "score": 0.83,
+  "a_name": "Intel Core Ultra 7 265K Desktop Processor",
+  "b_name": "Intel Core Ultra 7 265K 15th gen Desktop Processor"
+ },
+ {
+  "a": "netac-shadow-iii-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow III 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "netac-shadow-red-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow Red 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "netac-shadow-yellow-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow Yellow 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "netac-shadow-ii-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-8gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow II 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 8GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "aitc-kingsman-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "aitc-kingsman-8gb-ddr4-3200mhz-desktop-ram-with-heatsink",
+  "score": 0.83,
+  "a_name": "AITC KINGSMAN 8GB DDR4 3200MHZ DESKTOP RAM",
+  "b_name": "AITC KINGSMAN 8GB DDR4 3200MHZ Desktop Ram With Heatsink"
+ },
+ {
+  "a": "netac-shadow-yellow-16gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow Yellow 16GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "netac-shadow-iii-16gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow III 16GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "netac-shadow-ii-16gb-ddr4-3200mhz-desktop-ram",
+  "b": "netac-shadow-16gb-ddr4-3200mhz-desktop-ram-yellow",
+  "score": 0.83,
+  "a_name": "Netac Shadow II 16GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Netac Shadow 16GB DDR4 3200MHz Desktop RAM (Yellow)"
+ },
+ {
+  "a": "aitc-kingsman-master-16gb-ddr5-6000mhz-gaming-desktop-ram",
+  "b": "aitc-master-ddr5-16gb-6000mhz-desktop-gaming-ram",
+  "score": 0.83,
+  "a_name": "AITC Kingsman MASTER 16GB DDR5 6000MHz Gaming Desktop RAM",
+  "b_name": "AITC MASTER DDR5 16GB 6000MHZ Desktop Gaming RAM"
+ },
+ {
+  "a": "corsair-vengeance-lpx-16gb-ddr4-3200mhz-desktop-ram",
+  "b": "corsair-vengeance-16gb-ddr4-3200mhz-memory-module",
+  "score": 0.83,
+  "a_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram",
+  "b_name": "CORSAIR VENGEANCE 16GB DDR4 3200MHZ MEMORY MODULE"
+ },
+ {
+  "a": "corsair-vengeance-32gb-ddr5-5200mhz-c40-ram",
+  "b": "corsair-vengeance-32gb-2x16gb-ddr5-5200mhz-ram",
+  "score": 0.83,
+  "a_name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
+  "b_name": "Corsair Vengeance 32GB (2x16GB) DDR5 5200MHz Ram"
  },
  {
   "a": "transcend-4gb-jm-ddr4-3200mhz-so-dimm-laptop-ram",
@@ -518,46 +707,18 @@
   "b_name": "Transcend JetRAM 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM"
  },
  {
-  "a": "corsair-vengeance-16gb-ddr5-6000mhz-cl36-desktop-ram",
-  "b": "corsair-vengeance-16gb-ddr5-6000mhz-desktop-ram",
+  "a": "g-skill-ripjaws-4gb-ddr4-l-2400mhz-so-dimm-laptop-ram",
+  "b": "g-skill-ripjaws-so-dimm-4gb-2400mhz-ddr4-laptop-ram",
   "score": 0.83,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 6000MHz CL36 Desktop RAM",
-  "b_name": "Corsair VENGEANCE 16GB DDR5 6000MHz Desktop RAM"
+  "a_name": "G.Skill Ripjaws 4GB DDR4-L 2400MHz SO-DIMM Laptop RAM",
+  "b_name": "G.Skill Ripjaws SO-DIMM 4GB 2400MHz DDR4 Laptop Ram"
  },
  {
-  "a": "corsair-vengeance-16gb-ddr5-6000mhz-cl38-desktop-ram",
-  "b": "corsair-vengeance-16gb-ddr5-6000mhz-desktop-ram",
+  "a": "g-skill-ripjaws-8gb-ddr3-1600mhz-so-dimm-laptop-ram",
+  "b": "g-skill-ripjaws-8gb-ddr3-l-1600mhz-laptop-ram",
   "score": 0.83,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 6000MHz CL38 Desktop RAM",
-  "b_name": "Corsair VENGEANCE 16GB DDR5 6000MHz Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "corsair-vengeance-16gb-ddr4-3200mhz-memory-module",
-  "score": 0.83,
-  "a_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram",
-  "b_name": "CORSAIR VENGEANCE 16GB DDR4 3200MHZ MEMORY MODULE"
- },
- {
-  "a": "corsair-vengeance-32gb-ddr5-6000mhz-desktop-ram",
-  "b": "corsair-vengeance-32gb-ddr5-6000mhz-cl40-desktop-ram",
-  "score": 0.83,
-  "a_name": "Corsair VENGEANCE 32GB DDR5 6000MHz Desktop RAM",
-  "b_name": "Corsair VENGEANCE 32GB DDR5 6000MHz CL40 Desktop RAM"
- },
- {
-  "a": "netac-nv2000-256gb-m-2-2280-pcie-3x4-nvme-ssd",
-  "b": "netac-nv2000-256gb-m-2-nvme-pcie-2280-ssd",
-  "score": 0.83,
-  "a_name": "Netac NV2000 256GB M.2 2280 PCIe 3x4 NVMe SSD",
-  "b_name": "Netac NV2000 256GB M.2 NVMe PCIe 2280 SSD"
- },
- {
-  "a": "oscoo-on901-256gb-pcie-nvme-m-2-ssd",
-  "b": "oscoo-on901-256gb-m-2-2280-nvme-pcie-gen3x4-ssd",
-  "score": 0.83,
-  "a_name": "OSCOO ON901 256GB PCIe NVMe M.2 SSD",
-  "b_name": "Oscoo ON901 256GB M.2 2280 NVMe PCIe Gen3x4 SSD"
+  "a_name": "G.Skill Ripjaws 8GB DDR3 1600MHz SO-DIMM Laptop RAM",
+  "b_name": "G.Skill Ripjaws 8GB DDR3-L 1600MHz Laptop RAM"
  },
  {
   "a": "twinmos-h2-ultra-256gb-sata-iii-ssd",
@@ -567,18 +728,11 @@
   "b_name": "TwinMOS H2 Ultra 256GB SSD SATA"
  },
  {
-  "a": "oscoo-on901-512gb-pcie-nvme-m-2-ssd",
-  "b": "oscoo-on901-512gb-m-2-2280-pcie-gen3x4-internal-ssd",
+  "a": "kingston-nv3-500gb-m-2-pcie-gen-4-0-nvme-ssd",
+  "b": "kingston-nv3-500gb-pcie-gen-4-0-nvme-ssd",
   "score": 0.83,
-  "a_name": "OSCOO ON901 512GB PCIe NVMe M.2 SSD",
-  "b_name": "Oscoo ON901 512GB M.2 2280 PCIe Gen3x4 Internal SSD"
- },
- {
-  "a": "netac-n950e-pro-500gb-m-2-nvme-pcie-2280-ssd",
-  "b": "netac-n950e-pro-500gb-m-2-2280-nvme-ssd",
-  "score": 0.83,
-  "a_name": "Netac N950E Pro 500GB M.2 NVMe PCIe 2280 SSD",
-  "b_name": "Netac N950E Pro 500GB M.2 2280 NVMe SSD"
+  "a_name": "Kingston NV3 500GB M.2 PCIe Gen 4.0 NVMe SSD",
+  "b_name": "Kingston NV3 500GB PCIe Gen 4.0 NVMe SSD"
  },
  {
   "a": "western-digital-black-sn750-500gb-pcie-nvme-m-2-ssd",
@@ -595,11 +749,25 @@
   "b_name": "Western Digital Green SN350 500GB M.2 2280 Internal SSD"
  },
  {
-  "a": "apacer-nox-8gb-ddr4-3200mhz-black-desktop-ram",
-  "b": "apacer-nox-8gb-ddr4-3200mhz-desktop-ram",
+  "a": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
+  "b": "aitc-kingsman-km600-1tb-m-2-2280-nvme-ssd",
   "score": 0.83,
-  "a_name": "Apacer NOX 8GB DDR4 3200MHz Black Desktop Ram",
-  "b_name": "Apacer NOX 8GB DDR4 3200MHz Desktop RAM"
+  "a_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD",
+  "b_name": "AITC Kingsman KM600 1TB M.2 2280 NVMe SSD"
+ },
+ {
+  "a": "kingston-kc3000-2tb-pcie-4-0-nvme-m-2-ssd",
+  "b": "kingston-kc3000-2tb-pcie-4-0-nvme-solid-state-drive",
+  "score": 0.83,
+  "a_name": "Kingston KC3000 2TB PCIe 4.0 NVMe M.2 SSD",
+  "b_name": "KINGSTON KC3000 2TB PCIe 4.0 NVME SOLID STATE DRIVE"
+ },
+ {
+  "a": "transcend-110s-512gb-m-2-2280-m-key-pcie-gen3x4-ssd",
+  "b": "transcend-110s-512gb-m-2-pcie-ssd",
+  "score": 0.83,
+  "a_name": "Transcend 110S 512GB M.2 2280 (M-Key) PCIe Gen3x4 SSD",
+  "b_name": "TRANSCEND 110S 512GB M.2 PCIE SSD"
  },
  {
   "a": "apacer-nox-16gb-ddr4-3200mhz-black-desktop-ram",
@@ -609,11 +777,25 @@
   "b_name": "Apacer NOX 16GB DDR4 3200MHz Desktop RAM"
  },
  {
-  "a": "apacer-as350-1tb-2-5-inch-7mm-sataiii-ssd",
-  "b": "apacer-as350-2-5-sataiii-1tb-ssd",
-  "score": 0.83,
-  "a_name": "Apacer AS350 1TB 2.5-inch 7mm SATAIII SSD",
-  "b_name": "Apacer AS350 2.5″ SATAIII 1TB SSD"
+  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram-black-kit",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 0.82,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM Black Kit",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-2-x-16gb-6000mhz-ddr5-gaming-ram-white-for-amd-expo",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.82,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB (2 x 16GB) 6000MHz DDR5 Gaming RAM White for AMD EXPO",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd",
+  "b": "corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m-2-ssd-with-dram-cache",
+  "score": 0.82,
+  "a_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD",
+  "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD With DRAM Cache"
  },
  {
   "a": "netac-z9-2tb-usb-3-2-gen-2-type-c-portable-ssd",
@@ -621,6 +803,181 @@
   "score": 0.82,
   "a_name": "Netac Z9 2TB USB 3.2 Gen 2 Type-C Portable SSD",
   "b_name": "Netac Z9 2TB USB 3.2 Gen 2 Type-C Black Portable External SSD"
+ },
+ {
+  "a": "amd-ryzen-5-8400f-processor",
+  "b": "amd-ryzen-5-8400f-am5-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 5 8400F Processor",
+  "b_name": "AMD Ryzen 5 8400F AM5 Processor"
+ },
+ {
+  "a": "amd-ryzen-5-8500g-processor-with-radeon-graphics",
+  "b": "amd-ryzen-5-8500g-am5-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics",
+  "b_name": "AMD Ryzen 5 8500G AM5 Processor"
+ },
+ {
+  "a": "amd-ryzen-5-9600x-am5-desktop-gaming-processor",
+  "b": "amd-ryzen-5-9600x-gaming-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 5 9600X AM5 Desktop Gaming Processor",
+  "b_name": "AMD Ryzen 5 9600X Gaming Processor"
+ },
+ {
+  "a": "amd-ryzen-7-9700x-am5-desktop-gaming-processor",
+  "b": "amd-ryzen-7-9700x-gaming-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 7 9700X AM5 Desktop Gaming Processor",
+  "b_name": "AMD Ryzen 7 9700X Gaming Processor"
+ },
+ {
+  "a": "amd-ryzen-7-9800x3d-gaming-processor",
+  "b": "amd-ryzen-7-9800x3d-am5-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 7 9800X3D Gaming Processor",
+  "b_name": "AMD Ryzen 7 9800X3D AM5 Processor"
+ },
+ {
+  "a": "amd-ryzen-5-8500g-processor-with-radeon-graphics-2",
+  "b": "amd-ryzen-5-8500g-am5-processor",
+  "score": 0.8,
+  "a_name": "AMD Ryzen 5 8500G Processor with Radeon Graphics",
+  "b_name": "AMD Ryzen 5 8500G AM5 Processor"
+ },
+ {
+  "a": "amd-ryzen-7-pro-4700g-processor-with-radeon-graphics",
+  "b": "amd-ryzen-7-4700g-processor-with-radeon-graphics",
+  "score": 0.8,
+  "a_name": "AMD RYZEN 7 PRO 4700G PROCESSOR WITH RADEON GRAPHICS",
+  "b_name": "AMD Ryzen 7 4700G Processor with Radeon Graphics"
+ },
+ {
+  "a": "team-t-force-vulcan-z-8gb-ddr4-3200mhz-cl16-gaming-ram",
+  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
+  "score": 0.8,
+  "a_name": "Team T-Force Vulcan Z 8GB DDR4 3200MHz CL16 Gaming RAM",
+  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
+  "score": 0.8,
+  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
+  "score": 0.8,
+  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
+  "b": "team-t-force-vulcan-z-gray-8gb-3200mhz-ddr4-gaming-desktop-ram",
+  "score": 0.8,
+  "a_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM",
+  "b_name": "Team T-Force VULCAN Z Gray 8GB 3200MHz DDR4 Gaming Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+ },
+ {
+  "a": "lexar-8gb-ddr4-3200-mhz-udimm-desktop-ram",
+  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "score": 0.8,
+  "a_name": "Lexar 8GB DDR4 3200 Mhz UDIMM Desktop RAM",
+  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+ },
+ {
+  "a": "adata-premier-8gb-ddr3-1600-mhz-desktop-ram",
+  "b": "adata-8gb-ddr3-1600-mhz-ram",
+  "score": 0.8,
+  "a_name": "ADATA PREMIER 8GB DDR3 1600 MHZ DESKTOP RAM",
+  "b_name": "Adata 8GB DDR3 1600 Mhz Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram-black-kit",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM Black Kit",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl30-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 0.8,
+  "a_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL30 Desktop RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-tuf-gaming-alliance-rgb-16gb-6000mhz-ddr5-desktop-ram",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA TUF Gaming Alliance RGB 16GB 6000MHz DDR5 Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-cl30-gaming-desktop-ram",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz CL30 Gaming Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-16gbx2-7000mhz-ddr5-gaming-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2) 7000MHz DDR5 Gaming RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-32gb-16gbx2-7600mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB White 32GB (16GBx2) 7600MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-16gbx2-7800mhz-ddr5-gaming-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2) 7800MHz DDR5 Gaming RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-1-35v-gaming-ram",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 1.35V Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-32gb-16gbx2-7200mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.8,
+  "a_name": "TEAM T-FORCE DELTA RGB White 32GB (16GBx2) 7200MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
  },
  {
   "a": "team-elite-8gb-3200mhz-laptop-ram",
@@ -637,11 +994,25 @@
   "b_name": "TEAM ELITE 8GB 2666MHz DDR4 LAPTOP RAM"
  },
  {
+  "a": "team-elite-16gb-3200mhz-laptop-ram",
+  "b": "team-elite-16gb-3200mhz-ddr4-laptop-ram",
+  "score": 0.8,
+  "a_name": "TEAM ELITE 16GB 3200MHz Laptop RAM",
+  "b_name": "TEAM ELITE 16GB 3200MHz DDR4 Laptop RAM"
+ },
+ {
   "a": "crucial-4gb-single-ddr4-2666mhz-laptop-ram",
   "b": "crucial-4gb-ddr4-2666-mhz-sodimml-ram-lifetime-warranty",
   "score": 0.8,
   "a_name": "Crucial 4GB Single DDR4 2666MHz Laptop RAM",
   "b_name": "Crucial 4GB DDR4 2666 MHz SODIMML Ram Lifetime Warranty"
+ },
+ {
+  "a": "g-skill-ripjaws-4gb-ddr3-1600mhz-so-dimm-laptop-ram",
+  "b": "g-skill-so-dimm-4gb-ddr3-1600mhz-laptop-ram",
+  "score": 0.8,
+  "a_name": "G.Skill Ripjaws 4GB DDR3 1600MHz SO-DIMM Laptop RAM",
+  "b_name": "G.Skill SO-DIMM 4GB DDR3 1600Mhz Laptop Ram"
  },
  {
   "a": "transcend-8gb-ddr4-2666mhz-bus-so-dimm-laptop-ram",
@@ -658,67 +1029,11 @@
   "b_name": "Crucial 16GB DDR4-2666 SODIMM CT16G4SFRA266"
  },
  {
-  "a": "team-t-force-vulcan-z-8gb-ddr4-3200mhz-cl16-gaming-ram",
-  "b": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
+  "a": "g-skill-ripjaws-8gb-2666mhz-laptop-ram",
+  "b": "g-skill-ripjaws-so-dimm-8gb-2666mhz-ddr4l-laptop-ram",
   "score": 0.8,
-  "a_name": "Team T-Force Vulcan Z 8GB DDR4 3200MHz CL16 Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM"
- },
- {
-  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
-  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
-  "score": 0.8,
-  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
-  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
- },
- {
-  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
-  "score": 0.8,
-  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
-  "score": 0.8,
-  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
- },
- {
-  "a": "lexar-8gb-ddr4-3200-mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8-gb-ddr4-3200-bus-gaming-ram",
-  "score": 0.8,
-  "a_name": "Lexar 8GB DDR4 3200 Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8 GB DDR4 3200 BUS Gaming RAM"
- },
- {
-  "a": "lexar-8gb-ddr4-3200-mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
-  "score": 0.8,
-  "a_name": "Lexar 8GB DDR4 3200 Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
- },
- {
-  "a": "v-color-manta-xfinity-rgb-8gb-ddr5-6000mhz-cl36-desktop-ram",
-  "b": "v-color-manta-xsky-rgb-8gb-ddr5-6000mhz-cl36-desktop-ram",
-  "score": 0.8,
-  "a_name": "V-Color Manta XFinity RGB 8GB DDR5 6000MHz CL36 Desktop RAM",
-  "b_name": "V-Color Manta XSky RGB 8GB DDR5 6000MHz CL36 Desktop RAM"
- },
- {
-  "a": "v-color-manta-xfinity-rgb-8gb-ddr5-6000mhz-cl30-desktop-ram",
-  "b": "v-color-manta-xsky-rgb-8gb-ddr5-6000mhz-cl30-desktop-ram",
-  "score": 0.8,
-  "a_name": "V-Color Manta XFinity RGB 8GB DDR5 6000MHz CL30 Desktop RAM",
-  "b_name": "V-Color Manta XSky RGB 8GB DDR5 6000MHz CL30 Desktop RAM"
- },
- {
-  "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-128gb-2-5-inch-ssd",
-  "score": 0.8,
-  "a_name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 128GB 2.5 Inch SSD"
+  "a_name": "G.Skill RipJaws 8GB 2666MHz Laptop RAM",
+  "b_name": "G.Skill Ripjaws SO-DIMM 8GB 2666MHz DDR4L Laptop Ram"
  },
  {
   "a": "netac-n535n-128gb-m-2-2280-ssd",
@@ -728,18 +1043,18 @@
   "b_name": "Netac N535N 128GB M.2 2280 SATAIII SSD"
  },
  {
-  "a": "netac-sa500-128gb-2-5-inch-ssd",
-  "b": "netac-sa500-128gb-2-5-sataiii-ssd",
-  "score": 0.8,
-  "a_name": "Netac SA500 128GB 2.5 Inch SSD",
-  "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
- },
- {
   "a": "netac-n535n-256gb-m-2-2280-ssd",
   "b": "netac-n535n-256gb-m-2-2280-sataiii-ssd",
   "score": 0.8,
   "a_name": "Netac N535N 256GB M.2 2280 SSD",
   "b_name": "Netac N535N 256GB M.2 2280 SATAIII SSD"
+ },
+ {
+  "a": "biostar-m760-256gb-gen3-m-2-nvme-ssd",
+  "b": "biostar-m760-256gb-m-2-nvme-ssd",
+  "score": 0.8,
+  "a_name": "Biostar M760 256GB Gen3 M.2 NVMe SSD",
+  "b_name": "Biostar M760 256GB M.2 NVMe SSD"
  },
  {
   "a": "netac-n535n-512gb-m-2-2280-ssd",
@@ -756,39 +1071,11 @@
   "b_name": "Netac N535N 1TB M.2 2280 SSD"
  },
  {
-  "a": "amd-ryzen-5-8400f-processor",
-  "b": "amd-ryzen-5-8400f-am5-processor",
+  "a": "crucial-16gb-ddr4-2666mhz-u-dimm-desktop-ram",
+  "b": "crucial-16gb-ddr4-2666mhz-udimm-ram-for-desktop",
   "score": 0.8,
-  "a_name": "AMD Ryzen 5 8400F Processor",
-  "b_name": "AMD Ryzen 5 8400F AM5 Processor"
- },
- {
-  "a": "amd-ryzen-5-9600x-am5-desktop-gaming-processor",
-  "b": "amd-ryzen-5-9600x-gaming-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 5 9600X AM5 Desktop Gaming Processor",
-  "b_name": "AMD Ryzen 5 9600X Gaming Processor"
- },
- {
-  "a": "amd-ryzen-7-9800x3d-gaming-processor",
-  "b": "amd-ryzen-7-9800x3d-am5-processor",
-  "score": 0.8,
-  "a_name": "AMD Ryzen 7 9800X3D Gaming Processor",
-  "b_name": "AMD Ryzen 7 9800X3D AM5 Processor"
- },
- {
-  "a": "amd-ryzen-7-pro-4700g-processor-with-radeon-graphics",
-  "b": "amd-ryzen-7-4700g-processor-with-radeon-graphics",
-  "score": 0.8,
-  "a_name": "AMD RYZEN 7 PRO 4700G PROCESSOR WITH RADEON GRAPHICS",
-  "b_name": "AMD Ryzen 7 4700G Processor with Radeon Graphics"
- },
- {
-  "a": "apacer-as350-128gb-sataiii-ssd",
-  "b": "apacer-as350-2-5-sataiii-128gb-ssd",
-  "score": 0.8,
-  "a_name": "Apacer AS350 128GB SATAIII SSD",
-  "b_name": "Apacer AS350 2.5″ SATAIII 128GB SSD"
+  "a_name": "Crucial 16GB DDR4 2666MHz U-DIMM Desktop RAM",
+  "b_name": "Crucial 16GB DDR4 2666MHz UDIMM Ram For Desktop"
  },
  {
   "a": "apacer-as2280p4-256gb-m-2-2280-pcie-ssd",
@@ -798,25 +1085,18 @@
   "b_name": "Apacer AS2280P4 M.2 NVMe 256GB SSD"
  },
  {
-  "a": "crucial-16gb-ddr4-2666mhz-u-dimm-desktop-ram",
-  "b": "crucial-16gb-ddr4-2666mhz-udimm-ram-for-desktop",
-  "score": 0.8,
-  "a_name": "Crucial 16GB DDR4 2666MHz U-DIMM Desktop RAM",
-  "b_name": "Crucial 16GB DDR4 2666MHz UDIMM Ram For Desktop"
+  "a": "intel-core-ultra-5-225-arrow-lake-processor",
+  "b": "intel-core-ultra-5-225-10-core-10-threads-arrow-lake-processor",
+  "score": 0.78,
+  "a_name": "Intel Core Ultra 5 225 Arrow Lake Processor",
+  "b_name": "Intel Core Ultra 5 225 10 Core 10 Threads Arrow Lake Processor"
  },
  {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-red-heatsink-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2400-mhz-red-heatsink-desktop-ram",
+  "a": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
+  "b": "team-vulcan-z-red-8gb-ddr4-3200mhz-gaming-ram",
   "score": 0.78,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 2666MHz Red Heatsink Desktop RAM",
-  "b_name": "G.Skill Ripjaws V 8GB DDR4 2400 MHz Red Heatsink Desktop RAM"
- },
- {
-  "a": "team-vulcan-z-red-8gb-ddr4-3200mhz-gaming-ram",
-  "b": "team-t-force-vulcan-z-red-8gb-ddr4-3200mhz-desktop-gaming-ram",
-  "score": 0.78,
-  "a_name": "Team Vulcan Z RED 8GB DDR4 3200MHz Gaming RAM",
-  "b_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM"
+  "a_name": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM",
+  "b_name": "Team Vulcan Z RED 8GB DDR4 3200MHz Gaming RAM"
  },
  {
   "a": "g-skill-trident-z-royal-16gb-ddr4-3600mhz-desktop-ram",
@@ -826,6 +1106,27 @@
   "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
  },
  {
+  "a": "g-skill-trident-z5-neo-rgb-16gb-ddr5-6000mhz-desktop-ram",
+  "b": "g-skill-trident-z5-royal-rgb-16gb-ddr5-6000mhz-desktop-ram",
+  "score": 0.78,
+  "a_name": "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz Desktop RAM",
+  "b_name": "G.Skill Trident Z5 Royal RGB 16GB DDR5 6000Mhz Desktop RAM"
+ },
+ {
+  "a": "adata-xpg-spectrix-d35g-8gb-ddr4-3200mhz-rgb-gaming-desktop-ram",
+  "b": "adata-xpg-spectrix-d50-8gb-ddr4-3200mhz-rgb-gaming-ram",
+  "score": 0.78,
+  "a_name": "Adata XPG Spectrix D35G 8GB DDR4 3200MHz RGB Gaming Desktop RAM",
+  "b_name": "Adata XPG SPECTRIX D50 8GB DDR4 3200MHz RGB Gaming RAM"
+ },
+ {
+  "a": "adata-xpg-spectrix-d60g-rgb-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "adata-xpg-spectrix-d50-8gb-ddr4-3200mhz-rgb-gaming-ram",
+  "score": 0.78,
+  "a_name": "ADATA XPG SPECTRIX D60G RGB 8GB DDR4 3200MHZ DESKTOP RAM",
+  "b_name": "Adata XPG SPECTRIX D50 8GB DDR4 3200MHz RGB Gaming RAM"
+ },
+ {
   "a": "corsair-dominator-platinum-rgb-16gb-2x8gb-ddr4-3600mhz-c18-ram-kit",
   "b": "corsair-dominator-platinum-rgb-16gb-2-x-8gb-ddr4-3600mhz-desktop-ram",
   "score": 0.78,
@@ -833,172 +1134,25 @@
   "b_name": "CORSAIR DOMINATOR PLATINUM RGB 16GB (2 X 8GB) DDR4 3600MHZ DESKTOP RAM"
  },
  {
-  "a": "colorful-battle-ax-8gb-ddr4-3200mhz-u-dimm-desktop-ram-white",
-  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-white",
+  "a": "team-t-force-delta-rgb-16gb-6400mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
   "score": 0.78,
-  "a_name": "Colorful Battle-AX 8GB DDR4 3200MHz U-DIMM Desktop RAM White",
-  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM White"
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB 6400MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
  },
  {
-  "a": "intel-core-ultra-5-225-arrow-lake-processor",
-  "b": "intel-core-ultra-5-225-10-core-10-threads-arrow-lake-processor",
+  "a": "colorful-battle-ax-16gb-ddr4-3200mhz-u-dimm-desktop-ram-white",
+  "b": "colorful-battle-ax-ddr4-16gb-3200-mhz-heatsink-desktop-ram-white",
   "score": 0.78,
-  "a_name": "Intel Core Ultra 5 225 Arrow Lake Processor",
-  "b_name": "Intel Core Ultra 5 225 10 Core 10 Threads Arrow Lake Processor"
+  "a_name": "Colorful Battle-AX 16GB DDR4 3200MHz U-DIMM Desktop RAM White",
+  "b_name": "Colorful Battle-AX DDR4 16GB 3200 MHz Heatsink Desktop RAM White"
  },
  {
-  "a": "corsair-mp600-gs-500gb-m-2-pcie-gen-4-0-nvme-ssd",
-  "b": "corsair-mp600-gs-500gb-m-2-2280-pcie-gen-4-0-x-4-nvme-ssd",
+  "a": "pny-xlr8-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
+  "b": "pny-xlr8-gaming-epic-x-rgb-16gb-ddr4-3200mhz-white-desktop-ram",
   "score": 0.78,
-  "a_name": "Corsair MP600 GS 500GB M.2 PCIe Gen 4.0 NVMe SSD",
-  "b_name": "CORSAIR MP600 GS 500GB M.2 2280 PCIE GEN 4.0 X 4 NVME SSD"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-red-heatsink-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-desktop-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 2666MHz Red Heatsink Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 8GB DDR4 2666MHZ DESKTOP RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2400-mhz-red-heatsink-desktop-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.Skill Ripjaws V 8GB DDR4 2400 MHz Red Heatsink Desktop RAM"
- },
- {
-  "a": "team-delta-rgb-8gb-ddr5-5600mhz-gaming-desktop-ram-white",
-  "b": "team-delta-rgb-8gb-ddr5-6000mhz-gaming-desktop-ram-white",
-  "score": 0.75,
-  "a_name": "TEAM Delta RGB 8GB DDR5 5600MHz Gaming Desktop RAM White",
-  "b_name": "TEAM Delta RGB 8GB DDR5 6000MHz Gaming Desktop RAM WHITE"
- },
- {
-  "a": "corsair-dominator-platinum-rgb-8gb-3200mhz-ddr4-ram",
-  "b": "corsair-dominator-platinum-rgb-8gb-3600mhz-ddr4-ram",
-  "score": 0.75,
-  "a_name": "Corsair Dominator Platinum RGB 8GB 3200MHz DDR4 RAM",
-  "b_name": "Corsair Dominator Platinum RGB 8GB 3600MHz DDR4 RAM"
- },
- {
-  "a": "g-skill-ripjaws-s5-16gb-ddr5-5200mhz-cl40-desktop-ram-black",
-  "b": "g-skill-ripjaws-s5-5200mhz-16gb-ddr5-desktop-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws S5 16GB DDR5 5200MHz CL40 Desktop RAM Black",
-  "b_name": "G.SKILL Ripjaws S5 5200MHz 16GB DDR5 Desktop Ram"
- },
- {
-  "a": "g-skill-ripjaws-s5-16gb-ddr5-5200mhz-cl40-desktop-ram-white",
-  "b": "g-skill-ripjaws-s5-5200mhz-16gb-ddr5-desktop-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws S5 16GB DDR5 5200MHz CL40 Desktop RAM White",
-  "b_name": "G.SKILL Ripjaws S5 5200MHz 16GB DDR5 Desktop Ram"
- },
- {
-  "a": "g-skill-ripjaws-s5-16gb-ddr5-5200mhz-cl36-desktop-ram-white",
-  "b": "g-skill-ripjaws-s5-5200mhz-16gb-ddr5-desktop-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws S5 16GB DDR5 5200MHz CL36 Desktop RAM White",
-  "b_name": "G.SKILL Ripjaws S5 5200MHz 16GB DDR5 Desktop Ram"
- },
- {
-  "a": "g-skill-ripjaws-v-16gb-ddr4-2666mhz-red-heatsink-desktop-ram",
-  "b": "g-skill-ripjaws-v-16gb-2666mhz-ddr4-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws V 16GB DDR4 2666MHz Red Heatsink Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 16GB 2666MHZ DDR4 RAM"
- },
- {
-  "a": "kingston-fury-beast-rgb-16gb-3200mhz-ddr4-desktop-ram",
-  "b": "kingston-fury-beast-16gb-3200mhz-ddr4-cl16-desktop-ram",
-  "score": 0.75,
-  "a_name": "Kingston FURY Beast RGB 16GB 3200MHz DDR4 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 3200MHz DDR4 CL16 Desktop RAM"
- },
- {
-  "a": "kingston-fury-beast-16gb-3600mhz-ddr4-desktop-ram",
-  "b": "kingston-fury-beast-16gb-8gbx2-3600mhz-ddr4-rgb-desktop-ram-kit",
-  "score": 0.75,
-  "a_name": "Kingston FURY Beast 16GB 3600MHz DDR4 Desktop RAM",
-  "b_name": "Kingston Fury Beast 16GB (8GBx2) 3600Mhz DDR4 RGB Desktop RAM Kit"
- },
- {
-  "a": "kingston-fury-beast-16gb-6000mhz-ddr5-desktop-ram",
-  "b": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram-white",
-  "score": 0.75,
-  "a_name": "Kingston FURY Beast 16GB 6000Mhz DDR5 Desktop RAM",
-  "b_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM White"
- },
- {
-  "a": "adata-xpg-gammix-d30-8gb-3200mhz-ddr4-gaming-ram",
-  "b": "adata-xpg-gammix-d20-8gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.75,
-  "a_name": "ADATA XPG GAMMIX D30 8GB 3200MHz DDR4 Gaming RAM",
-  "b_name": "ADATA XPG GAMMIX D20 8GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-cl40-desktop-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5200mhz-cl40-desktop-ram",
-  "score": 0.75,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz CL40 Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5200MHz CL40 Desktop RAM"
- },
- {
-  "a": "colorful-battle-ax-16gb-ddr4-3200mhz-u-dimm-desktop-ram",
-  "b": "colorful-battle-ax-ddr4-16gb-3200-mhz-heatsink-desktop-ram",
-  "score": 0.75,
-  "a_name": "Colorful Battle-AX 16GB DDR4 3200MHz U-DIMM Desktop RAM",
-  "b_name": "Colorful Battle-AX DDR4 16GB 3200 MHz Heatsink Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-4gb-ddr4-2666mhz-red-heatsink-desktop-ram",
-  "b": "g-skill-ripjaws-v-4gb-2666mhz-ddr4-ram",
-  "score": 0.75,
-  "a_name": "G.Skill Ripjaws V 4GB DDR4 2666MHz Red Heatsink Desktop RAM",
-  "b_name": "G.Skill Ripjaws-V 4GB 2666MHz DDR4 RAM"
- },
- {
-  "a": "colorful-battle-ax-8gb-ddr4-3200mhz-u-dimm-desktop-ram",
-  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram",
-  "score": 0.75,
-  "a_name": "Colorful Battle-AX 8GB DDR4 3200MHz U-DIMM Desktop RAM",
-  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-512gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-ultra-512gb-m-2-nvme-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 512GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 512GB M.2 NVME SSD"
- },
- {
-  "a": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd-with-dram-cache",
-  "b": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd",
-  "score": 0.75,
-  "a_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD With DRAM Cache",
-  "b_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD"
- },
- {
-  "a": "lexar-nm610-pro-500gb-m-2-2280-pcie-gen-3x4-nvme-ssd",
-  "b": "lexar-nm610-pro-500gb-pcie-gen3x4-m-2-nvme-ssd",
-  "score": 0.75,
-  "a_name": "Lexar NM610 PRO 500GB M.2 2280 PCIe Gen 3x4 NVMe SSD",
-  "b_name": "Lexar NM610 Pro 500gb PCIe Gen3x4 M.2 NVME SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
-  "score": 0.75,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD"
+  "a_name": "PNY XLR8 RGB 16GB DDR4 3200MHz Desktop RAM White",
+  "b_name": "PNY XLR8 Gaming EPIC-X RGB 16GB DDR4 3200MHz White Desktop RAM"
  },
  {
   "a": "intel-core-i3-12100t-12th-gen-alder-lake-processor",
@@ -1008,20 +1162,6 @@
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
  },
  {
-  "a": "intel-13th-gen-core-i7-13700kf-raptor-lake-processor",
-  "b": "intel-core-i7-13700k-13th-gen-raptor-lake-processor",
-  "score": 0.75,
-  "a_name": "Intel 13th Gen Core i7 13700KF Raptor Lake Processor",
-  "b_name": "INTEL CORE I7-13700K 13TH GEN RAPTOR LAKE PROCESSOR"
- },
- {
-  "a": "intel-13th-gen-core-i7-13700kf-raptor-lake-processor",
-  "b": "intel-13th-gen-core-i7-13700-raptor-lake-processor",
-  "score": 0.75,
-  "a_name": "Intel 13th Gen Core i7 13700KF Raptor Lake Processor",
-  "b_name": "Intel 13th Gen Core i7 13700 Raptor Lake Processor"
- },
- {
   "a": "intel-core-i3-12100f-12th-gen-alder-lake-processor",
   "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
   "score": 0.75,
@@ -1029,11 +1169,123 @@
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
  },
  {
-  "a": "intel-core-i7-13700k-13th-gen-raptor-lake-processor",
-  "b": "intel-13th-gen-core-i7-13700-raptor-lake-processor",
+  "a": "aitc-kingsman-innovator-8gb-ddr4-3200mhz-desktop-ram-black",
+  "b": "aitc-kingsman-8gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
   "score": 0.75,
-  "a_name": "INTEL CORE I7-13700K 13TH GEN RAPTOR LAKE PROCESSOR",
-  "b_name": "Intel 13th Gen Core i7 13700 Raptor Lake Processor"
+  "a_name": "AITC Kingsman Innovator 8GB DDR4 3200MHz Desktop RAM Black",
+  "b_name": "AITC Kingsman 8GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
+ },
+ {
+  "a": "team-delta-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
+  "b": "team-delta-rgb-black-8gb-3200-mhz-ddr4-ram",
+  "score": 0.75,
+  "a_name": "Team Delta RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
+  "b_name": "TEAM DELTA RGB BLACK 8GB 3200 MHz DDR4 RAM"
+ },
+ {
+  "a": "kingston-fury-beast-rgb-8gb-3600mhz-ddr4-desktop-ram",
+  "b": "kingston-fury-beast-8gb-ddr4-3600mhz-black-desktop-ram",
+  "score": 0.75,
+  "a_name": "Kingston FURY Beast RGB 8GB 3600MHz DDR4 Desktop RAM",
+  "b_name": "Kingston FURY Beast 8GB DDR4 3600MHZ Black Desktop RAM"
+ },
+ {
+  "a": "aitc-kingsman-innovator-16gb-ddr4-3200mhz-desktop-ram-black",
+  "b": "aitc-kingsman-16-gb-ddr4-3200mhz-innovator-desktop-ram-with-heatsink",
+  "score": 0.75,
+  "a_name": "AITC Kingsman Innovator 16GB DDR4 3200MHz Desktop RAM Black",
+  "b_name": "AITC Kingsman 16 GB DDR4 3200Mhz Innovator Desktop Ram With Heatsink"
+ },
+ {
+  "a": "kingston-fury-beast-16gb-3600mhz-ddr4-desktop-ram",
+  "b": "kingston-fury-beast-16gb-8gbx2-3600mhz-ddr4-rgb-desktop-ram-kit",
+  "score": 0.75,
+  "a_name": "Kingston FURY Beast 16GB 3600MHz DDR4 Desktop RAM",
+  "b_name": "Kingston Fury Beast 16GB (8GBx2) 3600Mhz DDR4 RGB Desktop RAM Kit"
+ },
+ {
+  "a": "kingston-fury-renegade-16gb-ddr5-6000mhz-rgb-desktop-ram",
+  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "score": 0.75,
+  "a_name": "Kingston FURY Renegade 16GB DDR5 6000MHz RGB Desktop RAM",
+  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-rgb-16gb-ddr5-6000mhz-cl32-desktop-ram",
+  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
+  "score": 0.75,
+  "a_name": "Lexar THOR RGB 16GB DDR5 6000MHz CL32 Desktop RAM",
+  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-oc-16gb-6000mhz-ddr5-cl36-desktop-ram",
+  "b": "lexar-thor-oc-16gb-6000mhz-ddr5-cl32-desktop-ram",
+  "score": 0.75,
+  "a_name": "Lexar THOR OC 16GB 6000Mhz DDR5 CL36 Desktop RAM",
+  "b_name": "LEXAR THOR OC 16GB 6000MHZ DDR5 CL32 Desktop RAM"
+ },
+ {
+  "a": "colorful-battle-ax-8gb-ddr4-3200mhz-u-dimm-desktop-ram",
+  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
+  "score": 0.75,
+  "a_name": "Colorful Battle-AX 8GB DDR4 3200MHz U-DIMM Desktop RAM",
+  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
+ },
+ {
+  "a": "colorful-battle-ax-ddr4-8gb-3200mhz-desktop-ram-white",
+  "b": "colorful-battle-ax-ddr4-8gb-3200-mhz-heatsink-desktop-ram-2",
+  "score": 0.75,
+  "a_name": "Colorful Battle-AX DDR4 8GB 3200MHz Desktop RAM White",
+  "b_name": "Colorful Battle-AX DDR4 8GB 3200 MHz Heatsink Desktop RAM"
+ },
+ {
+  "a": "pny-xlr8-gaming-rgb-16gb-ddr5-6000mhz-cl36-desktop-ram",
+  "b": "pny-xlr8-mako-16gb-ddr5-6000mhz-rgb-gaming-ram-white",
+  "score": 0.75,
+  "a_name": "PNY XLR8 Gaming RGB 16GB DDR5 6000MHz CL36 Desktop RAM",
+  "b_name": "PNY XLR8 MAKO 16GB DDR5 6000MHz RGB Gaming RAM (White)"
+ },
+ {
+  "a": "oscoo-warrior-e500-32gb-ddr5-5600mhz-cl36-desktop-ram",
+  "b": "oscoo-warrior-e500-32gb-ddr5-5600mhz-black",
+  "score": 0.75,
+  "a_name": "OSCOO Warrior E500 32GB DDR5 5600MHz CL36 Desktop RAM",
+  "b_name": "Oscoo Warrior E500 32GB DDR5 5600MHz Black"
+ },
+ {
+  "a": "oscoo-warrior-e500-32gb-ddr5-5200mhz-cl36-desktop-ram",
+  "b": "oscoo-warrior-e500-32gb-ddr5-5200mhz-black",
+  "score": 0.75,
+  "a_name": "OSCOO Warrior E500 32GB DDR5 5200MHz CL36 Desktop RAM",
+  "b_name": "Oscoo Warrior E500 32GB DDR5 5200MHz Black"
+ },
+ {
+  "a": "aitc-kingsman-kp800-1tb-pcie-gen4-m-2-nvme-ssd",
+  "b": "aitc-kingsman-ke680-1tb-gen4-m-2-nvme-pcie-ssd",
+  "score": 0.75,
+  "a_name": "AITC KINGSMAN KP800 1TB PCIe Gen4 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KE680 1TB GEN4 M.2 NVME PCIE SSD"
+ },
+ {
+  "a": "aitc-kingsman-km600-ultra-1tb-pcie-gen3-m-2-nvme-ssd",
+  "b": "aitc-kingsman-km600-1tb-m-2-nvme-pcie-ssd",
+  "score": 0.75,
+  "a_name": "AITC KINGSMAN KM600 ULTRA 1TB PCIe Gen3 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KM600 1TB M.2 NVMe PCIe SSD"
+ },
+ {
+  "a": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd-with-dram-cache",
+  "b": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd",
+  "score": 0.75,
+  "a_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD With DRAM Cache",
+  "b_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD"
+ },
+ {
+  "a": "aitc-kingsman-km600-ultra-256gb-pcie-gen3-m-2-nvme-ssd",
+  "b": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
+  "score": 0.75,
+  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB PCIe Gen3 M.2 NVMe SSD",
+  "b_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD"
  },
  {
   "a": "gigabyte-256gb-m-2-2280-nvme-ssd",
@@ -1043,18 +1295,25 @@
   "b_name": "Gigabyte 256GB NVMe M.2 SSD # G3NVMEV2256G"
  },
  {
-  "a": "apacer-as2280p4-512gb-nvme-ssd",
-  "b": "apacer-as2280p4-m-2-nvme-512gb-ssd",
-  "score": 0.75,
-  "a_name": "Apacer AS2280P4 512GB NVME SSD",
-  "b_name": "Apacer AS2280P4 M.2 NVMe 512GB SSD"
+  "a": "team-t-force-delta-rgb-black-16gb-7200mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 0.73,
+  "a_name": "TEAM T-FORCE DELTA RGB Black 16GB 7200MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-rgb-8gb-3200mhz-ddr4-cl16-desktop-ram",
-  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "a": "team-t-force-delta-rgb-white-16gb-6000mhz-ddr5-gaming-ram",
+  "b": "team-t-force-delta-rgb-black-16gb-ddr5-6000mhz-cl38-desktop-ram",
   "score": 0.73,
-  "a_name": "TEAM T-Force DELTA TUF Gaming RGB 8GB 3200MHz DDR4 CL16 Desktop RAM",
-  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+  "a_name": "TEAM T-FORCE DELTA RGB White 16GB 6000MHz DDR5 Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB BLACK 16GB DDR5 6000MHz CL38 Desktop Ram"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-2-x-16gb-6000mhz-ddr5-gaming-ram-for-amd-expo",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "score": 0.73,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB (2 x 16GB) 6000MHz DDR5 Gaming RAM for AMD EXPO",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
  },
  {
   "a": "corsair-mp600-pro-nh-1tb-pcie-gen4-nvme-m-2-ssd-with-dram-cache",
@@ -1064,312 +1323,11 @@
   "b_name": "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD"
  },
  {
-  "a": "aitc-kingsman-rgb-8gb-ddr4-3600mhz-gaming-desktop-ram",
-  "b": "aitc-rapidiez-8gb-ddr4-3600mhz-rgb-desktop-ram",
+  "a": "amd-ryzen-threadripper-pro-9995wx-processor-tray-box",
+  "b": "amd-ryzen-threadripper-pro-9995wx-96-core-processor",
   "score": 0.71,
-  "a_name": "AITC Kingsman RGB 8GB DDR4 3600MHz Gaming Desktop RAM",
-  "b_name": "AITC RAPiDiEZ 8GB DDR4 3600MHZ RGB Desktop Ram"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-3400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 3400MHz Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 8GB DDR4 2666MHZ DESKTOP RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-3400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 3400MHz Desktop RAM",
-  "b_name": "G.Skill RIPJAWS-V 8GB DDR4 3200MHz Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-3600mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 3600MHz Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 8GB DDR4 2666MHZ DESKTOP RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-3600mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 3600MHz Desktop RAM",
-  "b_name": "G.Skill RIPJAWS-V 8GB DDR4 3200MHz Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-2666mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 8GB DDR4 2666MHZ DESKTOP RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-8gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 8GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.Skill RIPJAWS-V 8GB DDR4 3200MHz Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "g-skill-ripjaws-8gb-ddr4-3200mhz-c22-laptop-ram-2",
-  "score": 0.71,
-  "a_name": "G.Skill RIPJAWS-V 8GB DDR4 3200MHz Desktop RAM",
-  "b_name": "G.Skill Ripjaws 8GB DDR4 3200MHz C22 Laptop RAM"
- },
- {
-  "a": "team-vulcan-red-8gb-ddr5-6000mhz-gaming-desktop-ram",
-  "b": "team-vulcan-red-8gb-ddr5-5200mhz-gaming-desktop-ram",
-  "score": 0.71,
-  "a_name": "TEAM VULCAN RED 8GB DDR5 6000MHz Gaming Desktop RAM",
-  "b_name": "TEAM VULCAN RED 8GB DDR5 5200MHz Gaming Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-ddr4-2400mhz-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-2",
-  "score": 0.71,
-  "a_name": "Corsair Vengeance LPX 8GB DDR4 2400MHz RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-ddr4-2400mhz-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-3",
-  "score": 0.71,
-  "a_name": "Corsair Vengeance LPX 8GB DDR4 2400MHz RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-ddr4-3600mhz-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-2",
-  "score": 0.71,
-  "a_name": "CORSAIR VENGEANCE LPX 8GB DDR4 3600MHz RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-8gb-ddr4-3600mhz-ram",
-  "b": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram-3",
-  "score": 0.71,
-  "a_name": "CORSAIR VENGEANCE LPX 8GB DDR4 3600MHz RAM",
-  "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-16gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-16gb-ddr4-3600mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 16GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.Skill Ripjaws V 16GB DDR4 3600Mhz Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-16gb-ddr4-3600mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-16gb-2666mhz-ddr4-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 16GB DDR4 3600Mhz Desktop RAM",
-  "b_name": "G.SKILL RIPJAWS-V 16GB 2666MHZ DDR4 RAM"
- },
- {
-  "a": "aitc-kingsman-master-16gb-ddr5-6000mhz-gaming-desktop-ram",
-  "b": "aitc-kingsman-gaming-ddr5-16gb-6000mhz-desktop-heatsink-ram",
-  "score": 0.71,
-  "a_name": "AITC Kingsman MASTER 16GB DDR5 6000MHz Gaming Desktop RAM",
-  "b_name": "AITC Kingsman Gaming DDR5 16GB 6000MHz Desktop Heatsink Ram"
- },
- {
-  "a": "aitc-kingsman-ksd4-16gb-ddr4-3200mhz-desktop-ram",
-  "b": "aitc-kingsman-16gb-ddr4-3200mhz-rgb-desktop-ram",
-  "score": 0.71,
-  "a_name": "AITC KINGSMAN KSD4 16GB DDR4 3200MHZ DESKTOP RAM",
-  "b_name": "AITC KINGSMAN 16GB DDR4 3200MHz RGB Desktop Ram"
- },
- {
-  "a": "corsair-vengeance-lpx-16gb-ddr4-dram-3200mhz-ram",
-  "b": "corsair-vengeance-16gb-ddr4-3200mhz-memory-module",
-  "score": 0.71,
-  "a_name": "Corsair Vengeance LPX 16GB DDR4 DRAM 3200MHz RAM",
-  "b_name": "CORSAIR VENGEANCE 16GB DDR4 3200MHZ MEMORY MODULE"
- },
- {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-7200mhz-desktop-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 7200MHz Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz RAM"
- },
- {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-7200mhz-desktop-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-6600mhz-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 7200MHz Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 6600MHz RAM"
- },
- {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-6000mhz-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 6000MHz RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz RAM"
- },
- {
-  "a": "corsair-vengeance-rgb-rs-16gb-ddr4-3200mhz-ram",
-  "b": "corsair-vengeance-16gb-ddr4-3200mhz-memory-module",
-  "score": 0.71,
-  "a_name": "CORSAIR VENGEANCE RGB RS 16GB DDR4 3200MHz RAM",
-  "b_name": "CORSAIR VENGEANCE 16GB DDR4 3200MHZ MEMORY MODULE"
- },
- {
-  "a": "corsair-vengeance-16gb-ddr5-5600mhz-ram-white",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM White",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz RAM"
- },
- {
-  "a": "corsair-vengeance-16gb-ddr5-5200mhz-c40-ram",
-  "b": "corsair-vengeance-16gb-2x8gb-ddr5-5200mhz-ram-kit",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 5200MHz C40 RAM",
-  "b_name": "Corsair VENGEANCE 16GB (2x8GB) DDR5 5200MHz RAM Kit"
- },
- {
-  "a": "corsair-vengeance-lpx-16gb-ddr4-3600mhz-ram",
-  "b": "corsair-vengeance-lpx-16gb-ddr4-3200mhz-desktop-ram",
-  "score": 0.71,
-  "a_name": "CORSAIR VENGEANCE LPX 16GB DDR4 3600MHz RAM",
-  "b_name": "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram"
- },
- {
-  "a": "corsair-vengeance-rgb-16gb-ddr5-5600mhz-ram",
-  "b": "corsair-vengeance-rgb-16gb-ddr5-6600mhz-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE RGB 16GB DDR5 5600MHz RAM",
-  "b_name": "Corsair VENGEANCE RGB 16GB DDR5 6600MHz RAM"
- },
- {
-  "a": "lexar-ares-32gb-16x2-5600mhz-ddr5-rgb-gaming-desktop-ram",
-  "b": "lexar-ares-32gb-16x2-6000mhz-ddr5-rgb-gaming-desktop-ram",
-  "score": 0.71,
-  "a_name": "Lexar ARES 32GB (16x2) 5600Mhz DDR5 RGB Gaming Desktop Ram",
-  "b_name": "Lexar ARES 32GB (16x2) 6000Mhz DDR5 RGB Gaming Desktop RAM"
- },
- {
-  "a": "corsair-vengeance-32gb-ddr5-6000mhz-desktop-ram",
-  "b": "corsair-vengeance-rgb-32gb-ddr5-6000mhz-cl40-desktop-ram",
-  "score": 0.71,
-  "a_name": "Corsair VENGEANCE 32GB DDR5 6000MHz Desktop RAM",
-  "b_name": "Corsair VENGEANCE RGB 32GB DDR5 6000MHz CL40 Desktop RAM"
- },
- {
-  "a": "g-skill-ripjaws-v-4gb-ddr4-2400mhz-desktop-ram",
-  "b": "g-skill-ripjaws-v-4gb-2666mhz-ddr4-ram",
-  "score": 0.71,
-  "a_name": "G.Skill Ripjaws V 4GB DDR4 2400MHz Desktop RAM",
-  "b_name": "G.Skill Ripjaws-V 4GB 2666MHz DDR4 RAM"
- },
- {
-  "a": "corsair-vengeance-lpx-4gb-1x4gb-ddr4-dram-2400mhz",
-  "b": "corsair-vengeance-4gb-ddr4-2400mhz-memory-module",
-  "score": 0.71,
-  "a_name": "Corsair Vengeance LPX 4GB (1x4GB) DDR4 DRAM 2400MHz",
-  "b_name": "CORSAIR VENGEANCE 4GB DDR4 2400MHZ MEMORY MODULE"
- },
- {
-  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os003-256gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS003 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os003-256gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS003 256GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-on1000-256gb-m-2-2280-nvme-pcie-gen4x4-internal-ssd",
-  "b": "oscoo-on1000-256gb-m-2-2280-nvme-pcie-gen4-0-ssd",
-  "score": 0.71,
-  "a_name": "Oscoo ON1000 256GB M.2 2280 NVMe PCIe Gen4x4 Internal SSD",
-  "b_name": "OSCOO ON1000 256GB M.2 2280 NVMe PCIe Gen4.0 SSD"
- },
- {
-  "a": "ocpc-mfl-300-256gb-m-2-nvme-ssd",
-  "b": "ocpc-mfl-300-256gb-m-2-2280-pcie-gen3x4-ssd",
-  "score": 0.71,
-  "a_name": "OCPC MFL-300 256GB M.2 NVMe SSD",
-  "b_name": "OCPC MFL-300 256GB M.2 2280 PCIe Gen3x4 SSD"
- },
- {
-  "a": "memory-ghost-on900-256gb-pcie-gen3-m-2-nvme-ssd",
-  "b": "memory-ghost-on900-256gb-pcie-gen3-x4-nvme-ssd",
-  "score": 0.71,
-  "a_name": "Memory Ghost ON900 256GB PCIe Gen3 M.2 NVMe SSD",
-  "b_name": "Memory Ghost ON900 256GB PCIe Gen3 x4 NVMe SSD"
- },
- {
-  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os001-512gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS001 512GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os003-512gb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS003 512GB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
-  "b": "oscoo-os001-1tb-2-5-inch-sata-iii-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS001 1TB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "oscoo-on1000-1tb-pcie-4-0-nvme-m-2-ssd",
-  "b": "oscoo-on1000-1tb-m-2-2280-nvme-pcie-gen4-0-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO ON1000 1TB PCIe 4.0 NVMe M.2 SSD",
-  "b_name": "OSCOO ON1000 1TB M.2 2280 NVMe PCIe Gen4.0 SSD"
- },
- {
-  "a": "oscoo-on1000-1tb-pcie-4-0-nvme-m-2-ssd",
-  "b": "oscoo-on1000pro-1tb-pcie-4-0-nvme-m-2-ssd",
-  "score": 0.71,
-  "a_name": "OSCOO ON1000 1TB PCIe 4.0 NVMe M.2 SSD",
-  "b_name": "OSCOO ON1000Pro 1TB PCIe 4.0 NVMe M.2 SSD"
- },
- {
-  "a": "kingston-nv2-1tb-m-2-pcie-gen-4-0-nvme-ssd",
-  "b": "kingston-kc3000-1tb-pcie-4-0-nvme-m-2-ssd",
-  "score": 0.71,
-  "a_name": "Kingston NV2 1TB M.2 PCIe Gen 4.0 NVMe SSD",
-  "b_name": "Kingston KC3000 1TB PCIe 4.0 NVMe M.2 SSD"
- },
- {
-  "a": "aitc-kingsman-km600-ultra-256gb-m-2-nvme-ssd",
-  "b": "aitc-kingsman-km600-256gb-m-2-nvme-pcie-ssd",
-  "score": 0.71,
-  "a_name": "AITC KINGSMAN KM600 ULTRA 256GB M.2 NVME SSD",
-  "b_name": "AITC KINGSMAN KM600 256GB m.2 NVMe PCIe SSD"
+  "a_name": "AMD Ryzen Threadripper PRO 9995WX Processor (Tray Box)",
+  "b_name": "AMD Ryzen Threadripper PRO 9995WX 96 Core Processor"
  },
  {
   "a": "intel-pentium-gold-g6400-10th-gen-coffee-lake-processor",
@@ -1398,5 +1356,47 @@
   "score": 0.71,
   "a_name": "Intel 11th Gen Core i5-11500 Rocket Lake Processor",
   "b_name": "INTEL CORE I5-11500 11TH GEN PROCESSOR (BUNDLE)"
+ },
+ {
+  "a": "intel-core-i5-14400-14th-gen-raptor-lake-processor",
+  "b": "intel-14th-core-i5-14400-processor",
+  "score": 0.71,
+  "a_name": "Intel Core i5 14400 14th Gen Raptor Lake Processor",
+  "b_name": "Intel 14th Core i5-14400 Processor"
+ },
+ {
+  "a": "intel-core-ultra-5-245k-arrow-lake-processor",
+  "b": "intel-core-ultra-5-245k-desktop-processor",
+  "score": 0.71,
+  "a_name": "Intel Core Ultra 5 245K Arrow Lake Processor",
+  "b_name": "Intel Core Ultra 5 245K Desktop Processor"
+ },
+ {
+  "a": "intel-11th-gen-core-i7-11700-rocket-lake-processor",
+  "b": "intel-core-i7-11700-11th-gen-processor",
+  "score": 0.71,
+  "a_name": "Intel 11th Gen Core i7-11700 Rocket Lake Processor",
+  "b_name": "Intel Core i7-11700 11th Gen Processor"
+ },
+ {
+  "a": "intel-core-i5-14500-14th-gen-raptor-lake-processor",
+  "b": "intel-14th-core-i5-14500-processor",
+  "score": 0.71,
+  "a_name": "Intel Core i5 14500 14th Gen Raptor Lake Processor",
+  "b_name": "Intel 14th Core i5 14500 Processor"
+ },
+ {
+  "a": "intel-core-i5-14600k-14th-gen-raptor-lake-processor",
+  "b": "intel-14th-gen-core-i5-14600k-desktop-processor",
+  "score": 0.71,
+  "a_name": "Intel Core i5 14600K 14th Gen Raptor Lake Processor",
+  "b_name": "Intel 14th Gen Core i5 14600K Desktop Processor"
+ },
+ {
+  "a": "intel-core-ultra-7-265k-arrow-lake-processor",
+  "b": "intel-core-ultra-7-265k-desktop-processor",
+  "score": 0.71,
+  "a_name": "Intel Core Ultra 7 265K Arrow Lake Processor",
+  "b_name": "Intel Core Ultra 7 265K Desktop Processor"
  }
 ]
