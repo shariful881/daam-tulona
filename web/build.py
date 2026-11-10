@@ -237,6 +237,51 @@ def make_house_for(ads):
     return house_for
 
 
+def build_size_pages(items, products, details, write):
+    """সাইজ অনুযায়ী ব্র্যান্ড তুলনা (যেমন ১০০-১৫০ লিটার ফ্রিজে কোন ব্র্যান্ডের দাম কত)।"""
+    f = ROOT / "config/size_compare.json"
+    if not f.exists():
+        return []
+    made = []
+    for slug, conf in json.loads(f.read_text())["pages"].items():
+        rx = re.compile(conf["regex"], re.I)
+        types = {k: re.compile(v, re.I) for k, v in conf.get("types", {}).items()}
+        rows = [it for it in items.values() if it["category"] == conf["category"]]
+        # ব্র্যান্ডের বানান এক করা (SAMSUNG/Samsung)
+        spell = Counter(it["brand"] for it in rows)
+        canon = {}
+        for b_, _ in spell.most_common():
+            canon.setdefault(b_.lower(), b_ if not b_.isupper() or len(b_) <= 3 else b_.title())
+        models = []
+        for it in rows:
+            m = rx.search(it["name"])
+            if not m:
+                continue
+            cap = float(m.group(1))
+            cap = int(cap) if cap == int(cap) else cap
+            det = details.get(it["id"], {})
+            models.append({"id": it["id"], "n": it["name"], "b": canon[it["brand"].lower()], "s": cap,
+                           "t": [k for k, r in types.items() if r.search(it["name"])],
+                           "p": (it["best"] or {}).get("price"), "ap": it["any_price"],
+                           "st": (it["best"] or {}).get("store"), "w": warranty_bn(det.get("warranty"))})
+        if not models:
+            continue
+        sizes = Counter(m["s"] for m in models)
+        brands_by_size = defaultdict(set)
+        for m in models:
+            brands_by_size[m["s"]].add(m["b"])
+        exact = [{"s": sz, "n": sizes[sz], "b": len(brands_by_size[sz])} for sz in sorted(sizes)]
+        priced = [m["p"] for m in models if m["p"]]
+        write(f"size/{slug}", "size.html", conf=conf, slug=slug, models_json=json.dumps(models, ensure_ascii=False, separators=(",", ":")),
+              ranges=conf["ranges"], exact=exact, total=len(models), brand_count=len({m["b"] for m in models}),
+              lo=min(priced) if priced else None, hi=max(priced) if priced else None,
+              title=f"{conf['title']}ের দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা",
+              description=f"{len({m['b'] for m in models})}টি ব্র্যান্ডের {len(models)}টি {conf['title']}ের দাম {conf['unit']} অনুযায়ী তুলনা। কোন সাইজে কোন ব্র্যান্ড সবচেয়ে কম দামে।",
+              canonical=f"{SITE_URL}/size/{slug}/" if SITE_URL else None)
+        made.append({"slug": slug, "category": conf["category"], "title": conf["title"], "unit": conf["unit"], "total": len(models)})
+    return made
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -294,7 +339,10 @@ def main():
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
               "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
               "going_note": ads.get("going_note", True), "contact": ads.get("contact", {}),
-              "house_for": make_house_for(ads)}
+              "house_for": make_house_for(ads),
+              "size_links": {c["category"]: (k, c["title"], c["unit"]) for k, c in
+                             (json.loads((ROOT / "config/size_compare.json").read_text())["pages"].items()
+                              if (ROOT / "config/size_compare.json").exists() else [])}}
 
     # অ্যাডমিন থেকে মিলানো/লুকানো প্রোডাক্ট সাথে সাথে কার্যকর (পরের দামের রানেও matcher একই কাজ করে)
     mm_file = DATA / "manual_matches.json"
@@ -448,6 +496,7 @@ def main():
                             "top": [l["name_bn"] for l in sorted(leaf_cards, key=lambda l: -l["count"])[:3]]})
 
     vals = list(items.values())
+    size_pages = build_size_pages(items, products, details, write)
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []

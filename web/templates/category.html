@@ -11,6 +11,9 @@
       {% for b in brands %}<button class="chip" aria-pressed="false" data-f="{{ b }}">{{ b }}</button>{% endfor %}
     </div>
     {% endif %}
+    {% if size_links.get(cat.slug) %}{% set sl = size_links[cat.slug] %}
+    <a class="sizecta" href="{{ base }}/size/{{ sl[0] }}/"><b>{{ sl[2] }} অনুযায়ী ব্র্যান্ড তুলনা</b><span>কোন সাইজে কোন ব্র্যান্ডের {{ sl[1] }} কত টাকা, এক পাতায় ›</span></a>
+    {% endif %}
     <div class="ctrl">
       <label><input type="checkbox" id="multi"> শুধু একাধিক স্টোরে আছে</label>
       <label><input type="checkbox" id="stock"> শুধু স্টকে আছে</label>

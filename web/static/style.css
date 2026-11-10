@@ -219,3 +219,28 @@ body.go-on{overflow:hidden}
 .av.logo{overflow:hidden;box-sizing:border-box}
 .av.logo img{max-width:100%;max-height:26px;width:auto;height:auto}
 .stores.nf .av.logo img{max-height:20px}
+/* সাইজ অনুযায়ী ব্র্যান্ড তুলনা */
+.sz-lbl{display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin:14px 0 6px}
+.sz-sel{width:100%;min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:500 .92rem var(--body);padding:8px 10px}
+.szbars{display:grid;gap:8px}
+.szbar{display:grid;grid-template-columns:minmax(70px,96px) minmax(0,1fr) auto;gap:8px;align-items:center;font-size:.86rem}
+.szbar .bn{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.szbar .tr{height:12px;border-radius:6px;background:var(--bg);overflow:hidden}
+.szbar .tr span{display:block;height:100%;border-radius:6px;background:var(--na)}
+.szbar.top .tr span{background:var(--best)}
+.szbar b{font:700 .85rem var(--mono)}
+.szbar.top b{color:var(--best)}
+.szbrands{display:grid;gap:14px}
+.szh{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.szh h3{margin:0;font-size:1.1rem}
+.szh .save{margin:0 0 0 6px;vertical-align:2px}
+.szbest{display:grid;gap:2px;margin-top:10px;padding:10px 12px;border-radius:12px;background:var(--best-soft);color:var(--ink)}
+.szbest .l{font-size:.72rem;font-weight:700;color:var(--best)}
+.szbest .n{font-weight:600;font-size:.92rem;line-height:1.35}
+.szbest .m{font-size:.82rem;color:var(--muted)}
+.szbest .m b{font:700 1rem var(--mono);color:var(--best)}
+.szdl{margin:8px 0 0}
+.szb details{margin-top:6px}
+.sizecta{display:grid;gap:2px;margin-top:12px;padding:10px 12px;border-radius:12px;border:1px solid var(--best);background:var(--best-soft);color:var(--ink)}
+.sizecta b{font-size:.92rem}
+.sizecta span{font-size:.8rem;color:var(--muted)}

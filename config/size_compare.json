@@ -1,0 +1,51 @@
+{
+  "_নোট": "সাইজ অনুযায়ী ব্র্যান্ড তুলনার পাতা। category = কোন ক্যাটাগরির প্রোডাক্ট, regex = নাম থেকে সাইজ বের করার নিয়ম, ranges = সাইজের ভাগ।",
+  "pages": {
+    "fridge": {
+      "category": "fridge",
+      "title": "ফ্রিজ",
+      "unit": "লিটার",
+      "regex": "(\\d{2,4}(?:\\.\\d)?)\\s*-?\\s*(?:L|Ltr|Liter|Litre|Liters|Litres)s?\\b",
+      "ranges": [
+        [
+          0,
+          100
+        ],
+        [
+          100,
+          150
+        ],
+        [
+          150,
+          200
+        ],
+        [
+          200,
+          250
+        ],
+        [
+          250,
+          300
+        ],
+        [
+          300,
+          400
+        ],
+        [
+          400,
+          2000
+        ]
+      ],
+      "types": {
+        "ইনভার্টার": "inverter|\\binv\\b",
+        "নন-ফ্রস্ট": "no[n-]?\\s*-?frost|frost\\s*free|nofrost",
+        "ডাইরেক্ট কুল": "direct\\s*cool",
+        "গ্লাস ডোর": "glass\\s*door|\\bgd\\b",
+        "সাইড বাই সাইড": "side\\s*by\\s*side",
+        "বটম মাউন্ট": "bottom\\s*mount",
+        "মিনি": "\\bmini\\b",
+        "ডিপ ফ্রিজ": "deep\\s*freez|chest\\s*freez"
+      }
+    }
+  }
+}
