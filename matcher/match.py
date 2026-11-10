@@ -153,16 +153,22 @@ def main():
             if s in failed and s not in offers.get(redirect.get(pid, pid), {}):
                 offers[redirect.get(pid, pid)][s] = o | {"stale": True}
 
-    # দামের ইতিহাস (আজকের পুরনো সারি থাকলে বদলে দাও)
+    # দামের ইতিহাস: শুধু দাম বা স্টক বদলালে নতুন সারি (ফাইল ছোট রাখতে)
     hist_path = DATA / "history.csv"
-    rows = []
+    rows, last = [], {}
     if hist_path.exists():
         with hist_path.open() as f:
-            rows = [r for r in csv.DictReader(f) if r["date"] != today]
+            for r in csv.DictReader(f):
+                if r["date"] == today:
+                    continue
+                rows.append(r)
+                last[(r["product"], r["store"])] = (int(r["price"]), int(r["in_stock"]))
     for pid, stores in offers.items():
         for s, o in stores.items():
             if o.get("price") and not o.get("stale"):
-                rows.append({"date": today, "product": pid, "store": s, "price": o["price"], "in_stock": int(o["in_stock"])})
+                state = (o["price"], int(o["in_stock"]))
+                if last.get((pid, s)) != state:
+                    rows.append({"date": today, "product": pid, "store": s, "price": state[0], "in_stock": state[1]})
     with hist_path.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["date", "product", "store", "price", "in_stock"])
         w.writeheader()

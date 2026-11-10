@@ -113,3 +113,10 @@ th{color:var(--muted);font-weight:600;font-size:.75rem}
 code{font-family:var(--mono);font-size:.78rem;background:var(--bg);padding:1px 5px;border-radius:4px;word-break:break-all}
 #results{display:grid}
 [hidden]{display:none!important}
+.tag.warr{background:var(--best-soft);color:var(--best);font-weight:600}
+.warr-txt{color:var(--best)}
+.feat{margin:0;padding-left:1.1em;display:grid;gap:3px;font-size:.92rem}
+.pager{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.pager a,.pager span{min-width:40px;min-height:40px;display:grid;place-items:center;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-weight:600;padding:0 10px}
+.pager span{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cat small{font-size:.74rem;color:var(--muted)}

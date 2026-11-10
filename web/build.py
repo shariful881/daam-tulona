@@ -6,10 +6,11 @@
 import csv
 import json
 import os
+import re
 import shutil
 import time
-from collections import defaultdict
-from datetime import datetime
+from collections import Counter, defaultdict
+from datetime import date, timedelta
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -19,22 +20,36 @@ DATA = ROOT / "data"
 DIST = ROOT / "dist"
 BASE = os.environ.get("BASE_URL", "").rstrip("/")
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
+PER_PAGE = 48
 
 SPEC_NAMES = {"capacity": "ক্যাপাসিটি", "type": "টাইপ", "speed": "বাস স্পিড", "form": "ফর্ম ফ্যাক্টর",
               "interface": "ইন্টারফেস", "brand_cpu": "প্রসেসর ব্র্যান্ড", "model": "মডেল"}
+SECTION_BN = {"key features": "মূল বৈশিষ্ট্য", "warranty information": "ওয়ারেন্টি", "physical specification": "শারীরিক বৈশিষ্ট্য",
+              "physical dimension": "আকার", "display": "ডিসপ্লে", "processor": "প্রসেসর", "memory": "মেমরি", "storage": "স্টোরেজ",
+              "camera": "ক্যামেরা", "battery": "ব্যাটারি", "connectivity": "কানেক্টিভিটি", "graphics": "গ্রাফিক্স",
+              "keyboard & touchpad": "কিবোর্ড ও টাচপ্যাড", "audio": "অডিও", "network": "নেটওয়ার্ক", "power": "পাওয়ার",
+              "general": "সাধারণ", "basic information": "সাধারণ তথ্য", "ports & slots": "পোর্ট ও স্লট", "operating system": "অপারেটিং সিস্টেম"}
 STATUS = {"ok": ("স্টকে আছে", "ok"), "out": ("স্টক আউট", "out"), "pre": ("প্রি-অর্ডার", "out"),
           "upcoming": ("শীঘ্রই আসছে", "out"), "no_price": ("দাম জানতে কল করুন", "")}
 BN_MONTHS = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
+BN_DIGITS = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 
 ICONS = {
     "ram": '<svg viewBox="0 0 120 60"><rect x="2" y="6" width="116" height="40" rx="2" fill="#2f6d62"/><g fill="#1b1f1e"><rect x="10" y="12" width="18" height="24" rx="1"/><rect x="34" y="12" width="18" height="24" rx="1"/><rect x="68" y="12" width="18" height="24" rx="1"/><rect x="92" y="12" width="18" height="24" rx="1"/></g><rect x="4" y="46" width="54" height="8" fill="#c99a3a"/><rect x="62" y="46" width="54" height="8" fill="#c99a3a"/></svg>',
-    "ssd": '<svg viewBox="0 0 120 50"><rect x="2" y="8" width="104" height="34" rx="3" fill="#2f6d62"/><rect x="106" y="14" width="12" height="22" fill="#c99a3a"/><rect x="14" y="15" width="30" height="20" rx="1" fill="#1b1f1e"/><rect x="52" y="15" width="30" height="20" rx="1" fill="#1b1f1e"/><circle cx="8" cy="25" r="3" fill="#eef2f1"/></svg>',
-    "processor": '<svg viewBox="0 0 80 80"><rect x="10" y="10" width="60" height="60" rx="4" fill="#2f6d62"/><rect x="22" y="22" width="36" height="36" rx="2" fill="#c99a3a"/><g stroke="#5b706c" stroke-width="3"><path d="M20 2v8M32 2v8M44 2v8M56 2v8M20 70v8M32 70v8M44 70v8M56 70v8M2 20h8M2 32h8M2 44h8M2 56h8M70 20h8M70 32h8M70 44h8M70 56h8"/></g></svg>',
+    "chip": '<svg viewBox="0 0 80 80"><rect x="10" y="10" width="60" height="60" rx="4" fill="#2f6d62"/><rect x="22" y="22" width="36" height="36" rx="2" fill="#c99a3a"/><g stroke="#5b706c" stroke-width="3"><path d="M20 2v8M32 2v8M44 2v8M56 2v8M20 70v8M32 70v8M44 70v8M56 70v8M2 20h8M2 32h8M2 44h8M2 56h8M70 20h8M70 32h8M70 44h8M70 56h8"/></g></svg>',
+    "box": '<svg viewBox="0 0 120 80"><rect x="10" y="12" width="100" height="56" rx="6" fill="#2f6d62"/><rect x="22" y="24" width="50" height="8" rx="2" fill="#c99a3a"/><rect x="22" y="38" width="30" height="6" rx="2" fill="#eef2f1" opacity=".6"/><circle cx="92" cy="40" r="10" fill="#c99a3a"/></svg>',
+    "phone": '<svg viewBox="0 0 60 100"><rect x="8" y="4" width="44" height="92" rx="8" fill="#2f6d62"/><rect x="13" y="14" width="34" height="66" rx="2" fill="#c99a3a"/><circle cx="30" cy="88" r="3" fill="#eef2f1"/></svg>',
+    "screen": '<svg viewBox="0 0 120 90"><rect x="6" y="6" width="108" height="64" rx="4" fill="#2f6d62"/><rect x="12" y="12" width="96" height="52" fill="#c99a3a"/><rect x="52" y="70" width="16" height="10" fill="#5b706c"/><rect x="36" y="80" width="48" height="5" rx="2" fill="#5b706c"/></svg>',
 }
+GROUP_ICON = {"computer-parts": "chip", "mobile-tablet": "phone", "monitor": "screen", "laptop-desktop": "screen"}
 
 
 def taka(n):
     return "৳" + f"{int(n):,}" if n is not None else "—"
+
+
+def bn_num(n):
+    return f"{int(n):,}".translate(BN_DIGITS)
 
 
 def bn_date(d: str) -> str:
@@ -42,19 +57,39 @@ def bn_date(d: str) -> str:
     return f"{int(day)} {BN_MONTHS[int(m) - 1]} {y}"
 
 
-def icon_for(cat):
-    return ICONS["ram"] if "ram" in cat else ICONS.get(cat, ICONS["ssd"])
+def icon_for(leaf, group):
+    if "ram" in leaf:
+        return ICONS["ram"]
+    return ICONS[GROUP_ICON.get(group, "box")]
 
 
-def sparkline(points: list[tuple[str, int]]) -> str:
-    if len(points) < 2:
+def sparkline(changes: list[tuple[str, int]], today: str) -> str:
+    """দাম বদলের তারিখগুলো থেকে প্রতিদিনের ধারা বানিয়ে শেষ ৯০ দিনের চার্ট।"""
+    if not changes:
+        return ""
+    end = date.fromisoformat(today)
+    start = max(date.fromisoformat(changes[0][0]), end - timedelta(days=90))
+    pts, i, cur = [], 0, None
+    d = start
+    ch = dict(changes)
+    keys = sorted(ch)
+    for k in keys:
+        if k <= start.isoformat():
+            cur = ch[k]
+    while d <= end:
+        ds = d.isoformat()
+        if ds in ch:
+            cur = ch[ds]
+        if cur is not None:
+            pts.append((ds, cur))
+        d += timedelta(days=1)
+    if len(pts) < 3 or len({v for _, v in pts}) < 2:
         return ""
     w, h, pad = 320, 90, 18
-    vals = [v for _, v in points]
+    vals = [v for _, v in pts]
     lo, hi = min(vals), max(vals)
-    span = max(1, hi - lo)
-    xs = [pad + i * (w - 2 * pad) / (len(points) - 1) for i in range(len(points))]
-    ys = [h - pad - (v - lo) * (h - 2 * pad) / span for v in vals]
+    xs = [pad + i * (w - 2 * pad) / (len(pts) - 1) for i in range(len(pts))]
+    ys = [h - pad - (v - lo) * (h - 2 * pad) / (hi - lo) for v in vals]
     line = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
     area = f"{xs[0]:.1f},{h - pad} " + line + f" {xs[-1]:.1f},{h - pad}"
     return (f'<svg class="spark" viewBox="0 0 {w} {h}" role="img" aria-label="দামের ইতিহাস">'
@@ -62,32 +97,71 @@ def sparkline(points: list[tuple[str, int]]) -> str:
             f'<polyline points="{line}" fill="none" stroke="var(--best)" stroke-width="2"/>'
             f'<circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="3.5" fill="var(--best)"/>'
             f'<text x="{pad}" y="12">{taka(hi)}</text><text x="{pad}" y="{h - 3}">{taka(lo)}</text>'
-            f'<text x="{w - pad}" y="{h - 3}" text-anchor="end">{bn_date(points[-1][0])}</text></svg>')
+            f'<text x="{w - pad}" y="{h - 3}" text-anchor="end">{bn_date(pts[-1][0])}</text></svg>')
 
 
-def blurb(p, cat):
-    s = p["specs"]
-    if "ram" in p["category"]:
-        bits = " ".join(x for x in [s.get("capacity"), s.get("type"), s.get("speed")] if x)
-        where = "ল্যাপটপের" if p["category"] == "laptop-ram" else "ডেস্কটপের"
-        return (f"{p['brand']}-এর {bits} {where} জন্য র‍্যাম। কেনার আগে আপনার {where[:-2]} কোন টাইপ ও স্পিড সাপোর্ট করে দেখে নিন। "
-                f"একই স্পিডের দুইটা স্টিক লাগালে ডুয়াল চ্যানেলে বেশি পারফরম্যান্স পাওয়া যায়।")
-    if p["category"] == "ssd":
-        return (f"{p['brand']}-এর {s.get('capacity', '')} {s.get('interface', '')} এসএসডি। পুরনো হার্ডডিস্কের জায়গায় এসএসডি দিলে "
-                f"কম্পিউটার চালু হওয়া আর সফটওয়্যার খোলা অনেক দ্রুত হয়। মাদারবোর্ডে কোন স্লট (M.2 বা SATA) আছে আগে দেখে নিন।")
-    if p["category"] == "processor":
-        return (f"{p['name']}। প্রসেসর কেনার আগে মাদারবোর্ডের সকেট আর চিপসেট মিলিয়ে নিন। বক্সে কুলার আছে কিনা স্টোরে জিজ্ঞেস করুন।")
-    return p["name"]
+def warranty_bn(w: str | None) -> str | None:
+    if not w:
+        return None
+    s = w.strip()
+    m = re.search(r"(\d+)\s*(year|month|day)s?", s, re.I)
+    if re.search(r"life\s*time", s, re.I):
+        return "লাইফটাইম ওয়ারেন্টি"
+    if m:
+        unit = {"year": "বছর", "month": "মাস", "day": "দিন"}[m.group(2).lower()]
+        rest = re.sub(r"\d+\s*(year|month|day)s?\s*(warranty)?", "", s, flags=re.I).strip(" ,.-()")
+        return f"{bn_num(m.group(1))} {unit} ওয়ারেন্টি" + (f" ({rest})" if rest else "")
+    if re.search(r"no\s+warranty", s, re.I):
+        return "ওয়ারেন্টি নেই"
+    return s
+
+
+def section_bn(name):
+    return SECTION_BN.get(name.lower(), name)
+
+
+def blurb(p, leaf, det):
+    name = p["name"]
+    feats = det.get("key_features", [])[:4] if det else []
+    parts = [f"{name} একটি {leaf['name_bn']}।"]
+    if feats:
+        parts.append("মূল বৈশিষ্ট্য: " + "; ".join(feats) + "।")
+    w = warranty_bn(det.get("warranty")) if det else None
+    if w:
+        parts.append(f"বিক্রেতার তথ্য অনুযায়ী ওয়ারেন্টি: {w}।")
+    hint = {
+        "laptop-ram": "কেনার আগে আপনার ল্যাপটপ কোন টাইপ ও স্পিডের র‍্যাম সাপোর্ট করে দেখে নিন।",
+        "desktop-ram": "মাদারবোর্ড কোন টাইপ (DDR4/DDR5) সাপোর্ট করে আগে মিলিয়ে নিন।",
+        "ssd": "মাদারবোর্ড বা ল্যাপটপে M.2 না SATA স্লট আছে আগে দেখে নিন।",
+        "processor": "মাদারবোর্ডের সকেট ও চিপসেট মিলিয়ে নিন।",
+        "smartphone": "অফিসিয়াল ও আনঅফিসিয়াল ফোনের ওয়ারেন্টি আলাদা, কেনার সময় নিশ্চিত হয়ে নিন।",
+    }.get(leaf["slug"])
+    if hint:
+        parts.append(hint)
+    parts.append("নিচে বিভিন্ন স্টোরের দাম পাশাপাশি দেওয়া আছে, যাতে কম দামে কোথায় পাওয়া যায় এক নজরে দেখতে পারেন।")
+    return " ".join(parts)
+
+
+def load_details():
+    out = {}
+    base = DATA / "details"
+    if base.exists():
+        for f in base.glob("*/*.json"):
+            out[f.stem] = json.loads(f.read_text())
+    return out
 
 
 def main():
     t0 = time.time()
     stores = json.loads((ROOT / "config/stores.json").read_text())["stores"]
-    cats = {c["slug"]: c for c in json.loads((ROOT / "config/categories.json").read_text())["categories"]}
+    tax = json.loads((ROOT / "config/taxonomy.json").read_text())
+    leaves = {l["slug"]: l for g in tax["groups"] for l in g["leaves"]}
+    group_of = {l["slug"]: g for g in tax["groups"] for l in g["leaves"]}
     products = json.loads((DATA / "products.json").read_text())
     offers = json.loads((DATA / "offers.json").read_text())
     health = json.loads((DATA / "health.json").read_text())
     suggestions = json.loads((DATA / "suggestions.json").read_text()) if (DATA / "suggestions.json").exists() else []
+    details = load_details()
     today = health["date"]
     updated = bn_date(today) + ", " + health["scraped_at"][11:16]
     enabled = [s for s, v in stores.items() if v["enabled"]]
@@ -101,21 +175,25 @@ def main():
 
     env = Environment(loader=FileSystemLoader(ROOT / "web/templates"), autoescape=select_autoescape(["html"]))
     env.filters["taka"] = taka
+    env.filters["bn"] = bn_num
     common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES}
 
-    # প্রতিটা প্রোডাক্টের সারাংশ
     items = {}
     for pid, so in offers.items():
         p = products.get(pid)
-        if not p or p["category"] not in cats:
+        if not p or p["category"] not in leaves:
             continue
+        det = details.get(pid, {})
         live = sorted(((s, o) for s, o in so.items() if o.get("in_stock") and o.get("price")), key=lambda x: x[1]["price"])
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
-        saving = live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0
-        f = [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")]
-        items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": cats[p["category"]]["name_bn"],
-                      "best": best, "saving": saving, "store_count": len([o for o in so.values() if o.get("price")]),
-                      "live_count": len(live), "facets": " ".join(x for x in f if x), "created": p["created"], "specs": p["specs"]}
+        any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
+        brand = det.get("brand") or p["brand"]
+        items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
+                      "group": group_of[p["category"]]["slug"], "brand": brand, "best": best, "any_price": any_price,
+                      "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
+                      "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live),
+                      "created": p["created"], "specs": p["specs"],
+                      "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x)}
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -130,14 +208,16 @@ def main():
         if not ctx.get("noindex"):
             urls.append(f"{SITE_URL}/{path + '/' if path else ''}")
 
-    # প্রোডাক্ট পেজ
     by_cat = defaultdict(list)
     for it in items.values():
         by_cat[it["category"]].append(it)
+    product_tpl = env.get_template("product.html")
+
     for pid, it in items.items():
-        p, cat, so = products[pid], cats[it["category"]], offers[pid]
+        p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
+        det = details.get(pid, {})
         rows = []
-        for s in enabled + [s for s in so if s not in enabled]:
+        for s in enabled:
             o = so.get(s)
             label, cls = STATUS.get(o["status"], ("", "")) if o else ("", "")
             if o and o.get("stale"):
@@ -145,67 +225,106 @@ def main():
             rows.append({"store": s, "offer": o, "label": label, "cls": cls,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0)})
         rows.sort(key=lambda r: (r["offer"] is None, not (r["offer"] and r["offer"]["in_stock"]), (r["offer"] or {}).get("price") or 10**9))
-        alts = [a for a in by_cat[it["category"]] if a["id"] != pid and a["best"]
+        same = [a for a in by_cat[it["category"]] if a["id"] != pid and a["best"]
                 and all(a["specs"].get(k) == it["specs"].get(k) for k in ("capacity", "type", "form", "interface", "brand_cpu") if it["specs"].get(k))]
+        ref = (it["best"] or {}).get("price") or it["any_price"]
+        if ref and not any(it["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")):
+            same = [a for a in same if 0.7 * ref <= a["best"]["price"] <= 1.3 * ref]
         alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"]}
-                for a in sorted(alts, key=lambda a: a["best"]["price"])[:6]]
-        pts = sorted((d, min(v)) for d, v in history[pid].items())[-90:]
+                for a in sorted(same, key=lambda a: abs(a["best"]["price"] - (ref or 0)))[:6]]
+        changes = sorted((d, min(v)) for d, v in history[pid].items())
         best = it["best"]
+        warranty = warranty_bn(det.get("warranty"))
+        spec_sections = [(section_bn(sec), rows_) for sec, rows_ in det.get("specs", {}).items()
+                         if "warranty" not in sec.lower()]
         faq = [
             (f"{p['name']} এর দাম কত?",
              f"আজকের হিসাবে সর্বনিম্ন দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ।" if best
              else "এই মুহূর্তে আমাদের তালিকার কোনো স্টোরে এটা স্টকে নেই।"),
+            ("এর ওয়ারেন্টি কত দিনের?",
+             f"বিক্রেতার পাতায় লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড ও শর্ত মিলিয়ে নিন।" if warranty
+             else "ওয়ারেন্টির তথ্য এখনো যোগ হয়নি। কেনার আগে স্টোরে জিজ্ঞেস করে নিন।"),
             ("এই দাম কখন আপডেট হয়?", "প্রতিদিন রাতে সব স্টোর থেকে দাম নতুন করে সংগ্রহ করা হয়।"),
-            ("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন। স্টোরের নামে চাপ দিলে তাদের পেজে যাবেন।"),
+            ("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"),
         ]
-        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "brand": {"@type": "Brand", "name": p["brand"]},
-                  "category": cat["name_en"]}
+        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"],
+                  "brand": {"@type": "Brand", "name": it["brand"]}, "category": leaf["name_en"]}
+        if det.get("mpn"):
+            jsonld["mpn"] = det["mpn"]
         priced = [o for o in so.values() if o.get("price") and o.get("in_stock")]
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
-        write(f"p/{pid}", "product.html", p=p, cat=cat, best=best, saving=it["saving"], live_count=it["live_count"],
-              store_rows=rows, alts=alts, spark=sparkline(pts), icon=icon_for(it["category"]), blurb=blurb(p, cat), faq=faq,
-              jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
-              title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
-              description=f"{p['name']} এর দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""),
-              canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None)
+        out = DIST / f"p/{pid}/index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(product_tpl.render(
+            **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections,
+            best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
+            spark=sparkline(changes, today), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
+            jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
+            title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
+            description=f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")
+                        + (f" {warranty}।" if warranty else ""),
+            canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
+        urls.append(f"{SITE_URL}/p/{pid}/")
 
-    # ক্যাটাগরি পেজ
-    cat_cards = []
-    for slug, cat in cats.items():
-        lst = sorted(by_cat.get(slug, []), key=lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0)))
-        facets = sorted({f for i in lst for f in i["facets"].split() if f}, key=lambda x: (len(x), x))[:14]
-        write(f"c/{slug}", "category.html", cat=cat, items=lst, facets=facets, store_count=len(enabled),
-              title=f"{cat['name_bn']} দাম বাংলাদেশে | {cat['name_en']} Price in BD",
-              description=f"{len(lst)}টি {cat['name_bn']} এর দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন।",
-              canonical=f"{SITE_URL}/c/{slug}/" if SITE_URL else None)
-        priced = [i["best"]["price"] for i in lst if i["best"]]
-        if lst:
-            cat_cards.append({"slug": slug, "name_bn": cat["name_bn"], "count": len(lst), "min": min(priced) if priced else None})
+    # ক্যাটাগরি পেজ (পাতায় ভাগ করা)
+    group_cards = []
+    for g in tax["groups"]:
+        leaf_cards = []
+        for leaf in g["leaves"]:
+            lst = sorted(by_cat.get(leaf["slug"], []), key=lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0)))
+            if not lst:
+                continue
+            brands = [b for b, _ in Counter(i["brand"] for i in lst).most_common(12)]
+            pages = max(1, -(-len(lst) // PER_PAGE))
+            for n in range(1, pages + 1):
+                chunk = lst[(n - 1) * PER_PAGE:n * PER_PAGE]
+                write(f"c/{leaf['slug']}" + (f"/{n}" if n > 1 else ""), "category.html", cat=leaf, group=g, items=chunk,
+                      total=len(lst), page=n, pages=pages, brands=brands, store_count=len(enabled),
+                      title=f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
+                      description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
+                      canonical=f"{SITE_URL}/c/{leaf['slug']}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
+            priced = [i["best"]["price"] for i in lst if i["best"]]
+            leaf_cards.append({"slug": leaf["slug"], "name_bn": leaf["name_bn"], "count": len(lst),
+                               "min": min(priced) if priced else None,
+                               "multi": sum(1 for i in lst if i["store_count"] > 1)})
+        if not leaf_cards:
+            continue
+        gitems = [i for l in leaf_cards for i in by_cat[l["slug"]]]
+        deals = sorted([i for i in gitems if i["saving"] > 0], key=lambda i: -i["saving"])[:8]
+        write(f"g/{g['slug']}", "group.html", group=g, leaves=leaf_cards, deals=deals, total=len(gitems),
+              title=f"{g['name_bn']} দাম বাংলাদেশে | দামতুলনা",
+              description=f"{g['name_bn']}: {len(leaf_cards)}টি ক্যাটাগরিতে {len(gitems)}টি প্রোডাক্টের দাম তুলনা।",
+              canonical=f"{SITE_URL}/g/{g['slug']}/" if SITE_URL else None)
+        group_cards.append({"slug": g["slug"], "name_bn": g["name_bn"], "count": len(gitems), "leaves": len(leaf_cards),
+                            "top": [l["name_bn"] for l in sorted(leaf_cards, key=lambda l: -l["count"])[:3]]})
 
     vals = list(items.values())
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
-    fresh = fresh_all[:10] if len(fresh_all) < len(vals) else []
-    write("", "home.html", cats=cat_cards, deals=deals, fresh=fresh, total=len(vals),
-          store_names=", ".join(stores[s]["name"] for s in enabled),
-          title="দামতুলনা | কম্পিউটার পার্টসের দাম তুলনা বাংলাদেশে",
-          description=f"র‍্যাম, এসএসডি, প্রসেসরের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
+    fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
+    write("", "home.html", groups=group_cards, deals=deals, fresh=fresh, total=len(vals),
+          multi=sum(1 for i in vals if i["store_count"] > 1),
+          store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
+          title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
+          description=f"{len(vals)}টি প্রোডাক্টের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
           canonical=f"{SITE_URL}/" if SITE_URL else None)
     write("search", "search.html", title="খুঁজুন | দামতুলনা", description="প্রোডাক্ট খুঁজুন", noindex=True)
-    stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all)}
+    stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all),
+             "details": sum(1 for pid in items if pid in details)}
     write("admin", "admin.html", health=health, stats=stats, suggestions=suggestions, fresh=fresh_all[:150],
           title="অ্যাডমিন | দামতুলনা", description="", noindex=True)
 
-    search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "p": (i["best"] or {}).get("price"), "k": i["store_count"],
-               "s": (i["name"] + " " + i["cat_name"]).lower()} for i in vals]
+    search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
+              for i in vals]
     (DIST / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
+    # sitemap ৫০,০০০ লিংকের মধ্যে থাকলে একটা ফাইলেই চলে
     (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                      + "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
-    (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nSitemap: {SITE_URL}/sitemap.xml\n")
+                                      + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls[:50000]) + "</urlset>\n")
+    (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nDisallow: {BASE}/search/\nSitemap: {SITE_URL}/sitemap.xml\n")
     (DIST / ".nojekyll").write_text("")
-    print(f"{len(urls)}টি পেজ তৈরি হয়েছে, {time.time() - t0:.1f} সেকেন্ডে")
+    print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")
 
 
 if __name__ == "__main__":

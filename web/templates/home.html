@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
   <section class="card">
-    <h1>কম্পিউটার পার্টসের দাম, সব স্টোর এক জায়গায়</h1>
-    <p class="muted" style="margin:0;font-size:.92rem">{{ total }}টি প্রোডাক্টের দাম {{ store_names }} থেকে প্রতিদিন মিলিয়ে দেখানো হয়। কোথায় সবচেয়ে কম দাম, এক নজরে দেখুন।</p>
+    <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
+    <p class="muted" style="margin:0;font-size:.92rem">{{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
   </section>
 
   <div class="cats">
-  {% for c in cats %}
-    <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><b>{{ c.name_bn }}</b><span>{{ c.count }}টি প্রোডাক্ট</span><span>শুরু {{ c.min | taka }} থেকে</span></a>
+  {% for g in groups %}
+    <a class="cat" href="{{ base }}/g/{{ g.slug }}/"><b>{{ g.name_bn }}</b><span>{{ g.count|bn }}টি প্রোডাক্ট</span><small>{{ g.top|join(", ") }}</small></a>
   {% endfor %}
   </div>
 

@@ -3,15 +3,15 @@
 <script type="application/ld+json">{{ jsonld | safe }}</script>
 {% endblock %}
 {% block content %}
-  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a> › {{ p.brand }}</nav>
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a></nav>
 
   <section class="card">
     <div class="head">
       <div class="thumb" aria-hidden="true">{{ icon | safe }}</div>
       <div style="min-width:0">
-        <div class="brand">{{ p.brand }}</div>
+        <div class="brand">{{ it.brand }}</div>
         <h1>{{ p.name }}</h1>
-        <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}</div>
+        <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
       </div>
     </div>
     <div class="low">
@@ -65,14 +65,37 @@
   </section>
   {% endif %}
 
+  {% if det.key_features or warranty %}
   <section class="card">
+    <h2>এক নজরে</h2>
+    {% if det.key_features %}<ul class="feat">{% for f in det.key_features %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+    <dl style="margin-top:8px">
+      {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
+      {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
+      {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
+      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+    </dl>
+    {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
+  </section>
+  {% endif %}
+
+  <section class="card">
+    {% if spec_sections %}
+      {% for sec, rows in spec_sections %}
+      <details {% if loop.first %}open{% endif %}><summary>{{ sec }}</summary>
+        <dl>{% for k, v in rows.items() %}<div><dt>{{ k }}</dt><dd style="white-space:pre-line">{{ v }}</dd></div>{% endfor %}</dl>
+      </details>
+      {% endfor %}
+    {% else %}
     <details open><summary>স্পেসিফিকেশন</summary>
       <dl>
-        <div><dt>ব্র্যান্ড</dt><dd>{{ p.brand }}</dd></div>
+        <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
         {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
         <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
       </dl>
+      <p class="muted" style="font-size:.8rem">বিস্তারিত স্পেসিফিকেশন শীঘ্রই যোগ হবে।</p>
     </details>
+    {% endif %}
     <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
   </section>
 

@@ -47,10 +47,11 @@ def parse_page(html: str) -> tuple[list[dict], bool]:
     return items, has_next
 
 
-def scrape(url: str, max_pages: int = 5, delay: float = 3) -> list[dict]:
+def scrape(url: str, max_pages: int = 5, delay: float = 3, limit: int | None = None) -> list[dict]:
     results = []
     for page in range(1, max_pages + 1):
-        page_url = url if page == 1 else f"{url}?page={page}"
+        params = ([f"limit={limit}"] if limit else []) + ([f"page={page}"] if page > 1 else [])
+        page_url = url + ("?" + "&".join(params) if params else "")
         items, has_next = parse_page(fetch(page_url, delay))
         results.extend(items)
         if not has_next or not items:

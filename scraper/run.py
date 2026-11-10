@@ -18,7 +18,11 @@ BD = timezone(timedelta(hours=6))
 
 def main() -> int:
     stores = json.loads((ROOT / "config/stores.json").read_text())["stores"]
-    cats = json.loads((ROOT / "config/categories.json").read_text())["categories"]
+    tax = ROOT / "config/taxonomy.json"
+    if tax.exists():  # নতুন কাঠামো: সব গ্রুপের সব পাতা
+        cats = [leaf for g in json.loads(tax.read_text())["groups"] for leaf in g["leaves"]]
+    else:
+        cats = json.loads((ROOT / "config/categories.json").read_text())["categories"]
     today = datetime.now(BD).strftime("%Y-%m-%d")
     out = {"date": today, "scraped_at": datetime.now(BD).isoformat(timespec="minutes"), "offers": [], "health": {}}
 
@@ -35,7 +39,10 @@ def main() -> int:
             if not conf:
                 continue
             try:
-                items = module.scrape(conf["url"], conf.get("max_pages", 1), store["delay"])
+                extra = {"limit": conf["limit"]} if conf.get("limit") else {}
+                items = []
+                for src in conf.get("sources") or [conf]:
+                    items += module.scrape(src["url"], src.get("max_pages", 1), store["delay"], **extra)
             except Blocked as e:
                 health["errors"].append(f"{cat['slug']}: স্টোর ব্লক করেছে ({e})")
                 continue
@@ -52,6 +59,17 @@ def main() -> int:
             health["items"] += len(items)
             print(f"{store_id:10} {cat['slug']:12} {len(items):4} টি", flush=True)
         health["seconds"] = round(time.time() - t0)
+
+    # একই প্রোডাক্ট একাধিক ক্যাটাগরি পাতায় এলে প্রথমটা রাখা, বাকিগুলো 'also'-তে
+    seen, uniq = {}, []
+    for o in out["offers"]:
+        k = (o["store"], o["url"])
+        if k in seen:
+            seen[k].setdefault("also", []).append(o["category"])
+        else:
+            seen[k] = o
+            uniq.append(o)
+    out["offers"] = uniq
 
     raw_dir = ROOT / "data/raw"
     raw_dir.mkdir(parents=True, exist_ok=True)

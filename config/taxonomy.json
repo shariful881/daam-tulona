@@ -1,0 +1,3811 @@
+{
+ "_নোট": "স্বয়ংক্রিয়ভাবে তৈরি (tools/build_taxonomy.py) — হাতে এডিট করবেন না। বদল করুন config/taxonomy_spec.json-এ।",
+ "groups": [
+  {
+   "slug": "mobile-tablet",
+   "name_bn": "মোবাইল ও ট্যাবলেট",
+   "name_en": "Mobile & Tablet",
+   "leaves": [
+    {
+     "slug": "feature-phone",
+     "name_bn": "ফিচার ফোন",
+     "name_en": "Feature Phone",
+     "group": "mobile-tablet",
+     "count": 49,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/feature-phone",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "smartphone",
+     "name_bn": "স্মার্টফোন",
+     "name_en": "Smartphone",
+     "group": "mobile-tablet",
+     "count": 133,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/apple-iphone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/samsung-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/google-pixel-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/xiaomi-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/realme-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/vivo-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/oppo-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/honor-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/huawei-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/oneplus-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/tecno-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/infinix-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/helio-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/zte-mobile-phone",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/htc-mobile-phone",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mobile-accessories",
+     "name_bn": "মোবাইল এক্সেসরিজ",
+     "name_en": "Mobile Accessories",
+     "group": "mobile-tablet",
+     "count": 695,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/mobile-phone-accessories",
+         "max_pages": 9
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "graphics-tablet",
+     "name_bn": "গ্রাফিক্স ট্যাবলেট",
+     "name_en": "Graphics Tablet",
+     "group": "mobile-tablet",
+     "count": 91,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/graphics-tablet",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "stylus-pen",
+     "name_bn": "স্টাইলাস পেন",
+     "name_en": "Stylus Pen",
+     "group": "mobile-tablet",
+     "count": 52,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/tablet-pc/stylus",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "tablet-accessories",
+     "name_bn": "ট্যাবলেট এক্সেসরিজ",
+     "name_en": "Tablet Accessories",
+     "group": "mobile-tablet",
+     "count": 20,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/tablet-accessories",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "tablet",
+     "name_bn": "ট্যাবলেট",
+     "name_en": "Tablet",
+     "group": "mobile-tablet",
+     "count": 123,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/apple-ipad",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/tablet-pc/lenovo-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/samsung-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/honor-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/xiaomi-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/huion-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/walton-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/tablet-pc/huawei-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/chuwi-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/amazon-tablet-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/pixel-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/oneplus-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/teclast-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/zte-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/infinix-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/remarkable-tablet",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/tecno-tablet",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "laptop-desktop",
+   "name_bn": "ল্যাপটপ ও ডেস্কটপ",
+   "name_en": "Laptop & Desktop",
+   "leaves": [
+    {
+     "slug": "gaming-laptop",
+     "name_bn": "গেমিং ল্যাপটপ",
+     "name_en": "Gaming Laptop",
+     "group": "laptop-desktop",
+     "count": 240,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-laptop",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-laptop",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ultrabook",
+     "name_bn": "প্রিমিয়াম আল্ট্রাবুক",
+     "name_en": "Premium Ultrabook",
+     "group": "laptop-desktop",
+     "count": 72,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/laptop-notebook/ultrabook",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "laptop",
+     "name_bn": "ল্যাপটপ",
+     "name_en": "Laptop",
+     "group": "laptop-desktop",
+     "count": 547,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/laptop-notebook/laptop",
+         "max_pages": 8
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "laptop-bag",
+     "name_bn": "ল্যাপটপ ব্যাগ",
+     "name_en": "Laptop Bag",
+     "group": "laptop-desktop",
+     "count": 54,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/laptop-bag-backpack",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gaming-pc",
+     "name_bn": "গেমিং পিসি",
+     "name_en": "Gaming PC",
+     "group": "laptop-desktop",
+     "count": 82,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/desktops/gaming-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/desktops/gaming-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ai-pc",
+     "name_bn": "এআই পিসি",
+     "name_en": "AI PC",
+     "group": "laptop-desktop",
+     "count": 17,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ai-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "brand-pc",
+     "name_bn": "ব্র্যান্ড পিসি",
+     "name_en": "Brand PC",
+     "group": "laptop-desktop",
+     "count": 44,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/desktops/brand-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "all-in-one-pc",
+     "name_bn": "অল-ইন-ওয়ান পিসি",
+     "name_en": "All-in-One PC",
+     "group": "laptop-desktop",
+     "count": 60,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/desktops/all-in-one-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mini-pc",
+     "name_bn": "মিনি পিসি",
+     "name_en": "Mini PC",
+     "group": "laptop-desktop",
+     "count": 18,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/desktops/portable-mini-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mac-desktop",
+     "name_bn": "ম্যাক ডেস্কটপ",
+     "name_en": "Mac Desktop",
+     "group": "laptop-desktop",
+     "count": 12,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/apple-mac-mini",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/apple-imac",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/apple-mac-studio",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/apple-mac-pro",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "desktop-pc",
+     "name_bn": "ডেস্কটপ পিসি",
+     "name_en": "Desktop PC",
+     "group": "laptop-desktop",
+     "count": 54,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/desktops/star-pc",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/special-pc",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "computer-parts",
+   "name_bn": "কম্পিউটার পার্টস",
+   "name_en": "Computer Parts",
+   "leaves": [
+    {
+     "slug": "processor",
+     "name_bn": "প্রসেসর",
+     "name_en": "Processor",
+     "group": "computer-parts",
+     "count": 139,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/processor",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/processor",
+       "max_pages": 4
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/processor-price-in-bd"
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/processor",
+       "max_pages": 6
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/processor",
+       "max_pages": 6
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/processor/",
+       "max_pages": 4
+      }
+     }
+    },
+    {
+     "slug": "motherboard",
+     "name_bn": "মাদারবোর্ড",
+     "name_en": "Motherboard",
+     "group": "computer-parts",
+     "count": 523,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/motherboard",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "graphics-card",
+     "name_bn": "গ্রাফিক্স কার্ড",
+     "name_en": "Graphics Card",
+     "group": "computer-parts",
+     "count": 507,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/graphics-card",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "desktop-ram",
+     "name_bn": "ডেস্কটপ র‍্যাম",
+     "name_en": "Desktop RAM",
+     "group": "computer-parts",
+     "count": 441,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/ram",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/ram",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/ram"
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/desktop-ram",
+       "max_pages": 8
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/desktop-ram",
+       "max_pages": 8
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/ram/",
+       "max_pages": 6,
+       "filter": "desktop"
+      }
+     }
+    },
+    {
+     "slug": "laptop-ram",
+     "name_bn": "ল্যাপটপ র‍্যাম",
+     "name_en": "Laptop RAM",
+     "group": "computer-parts",
+     "count": 100,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/laptop-ram",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/laptop-ram",
+       "max_pages": 3
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/laptop-ram"
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/laptop-ram",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/laptop-ram",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/ram/",
+       "max_pages": 6,
+       "filter": "laptop"
+      }
+     }
+    },
+    {
+     "slug": "portable-ssd",
+     "name_bn": "পোর্টেবল এসএসডি",
+     "name_en": "Portable SSD",
+     "group": "computer-parts",
+     "count": 127,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/portable-ssd",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ssd",
+     "name_bn": "এসএসডি",
+     "name_en": "SSD",
+     "group": "computer-parts",
+     "count": 412,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ssd",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/ssd",
+       "max_pages": 6
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/ssd"
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/internal-ssd",
+       "max_pages": 10
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/ssd",
+       "max_pages": 10
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/ssd/",
+       "max_pages": 5
+      }
+     }
+    },
+    {
+     "slug": "portable-hdd",
+     "name_bn": "পোর্টেবল হার্ডডিস্ক",
+     "name_en": "Portable HDD",
+     "group": "computer-parts",
+     "count": 82,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/portable-hard-disk-drive",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "hdd",
+     "name_bn": "হার্ডডিস্ক",
+     "name_en": "Hard Disk",
+     "group": "computer-parts",
+     "count": 111,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/hard-disk-drive",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "power-supply",
+     "name_bn": "পাওয়ার সাপ্লাই",
+     "name_en": "Power Supply",
+     "group": "computer-parts",
+     "count": 320,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/power-supply",
+         "max_pages": 5
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "casing",
+     "name_bn": "কেসিং",
+     "name_en": "Casing",
+     "group": "computer-parts",
+     "count": 607,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/casing",
+         "max_pages": 8
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "liquid-cooler",
+     "name_bn": "লিকুইড কুলার",
+     "name_en": "Liquid Cooler",
+     "group": "computer-parts",
+     "count": 28,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/water-or-liquid-cooling",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "cpu-cooler",
+     "name_bn": "সিপিইউ কুলার",
+     "name_en": "CPU Cooler",
+     "group": "computer-parts",
+     "count": 518,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/CPU-Cooler",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "casing-fan",
+     "name_bn": "কেসিং ফ্যান",
+     "name_en": "Casing Fan",
+     "group": "computer-parts",
+     "count": 179,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/casing-cooler",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "optical-drive",
+     "name_bn": "অপটিক্যাল ড্রাইভ",
+     "name_en": "Optical Drive",
+     "group": "computer-parts",
+     "count": 18,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/component/optical-hdd",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gpu-holder",
+     "name_bn": "জিপিইউ হোল্ডার",
+     "name_en": "GPU Holder",
+     "group": "computer-parts",
+     "count": 25,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/vertical-graphics-card-holder",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "laptop-accessories",
+     "name_bn": "ল্যাপটপ পার্টস ও এক্সেসরিজ",
+     "name_en": "Laptop Accessories",
+     "group": "computer-parts",
+     "count": 1093,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/laptop-notebook/laptop-accessories",
+         "max_pages": 14
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "monitor",
+   "name_bn": "মনিটর",
+   "name_en": "Monitor",
+   "leaves": [
+    {
+     "slug": "monitor-arm",
+     "name_bn": "মনিটর আর্ম",
+     "name_en": "Monitor Arm",
+     "group": "monitor",
+     "count": 37,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/monitor-arm",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gaming-monitor",
+     "name_bn": "গেমিং মনিটর",
+     "name_en": "Gaming Monitor",
+     "group": "monitor",
+     "count": 984,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-monitor",
+         "max_pages": 7
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-monitor",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "portable-monitor",
+     "name_bn": "পোর্টেবল মনিটর",
+     "name_en": "Portable Monitor",
+     "group": "monitor",
+     "count": 34,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/portable-monitor",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "monitor-all",
+     "name_bn": "মনিটর",
+     "name_en": "Monitor",
+     "group": "monitor",
+     "count": 986,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/monitor",
+         "max_pages": 12
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "accessories",
+   "name_bn": "কম্পিউটার এক্সেসরিজ",
+   "name_en": "Computer Accessories",
+   "leaves": [
+    {
+     "slug": "keyboard",
+     "name_bn": "কিবোর্ড",
+     "name_en": "Keyboard",
+     "group": "accessories",
+     "count": 1595,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/keyboards",
+         "max_pages": 12
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-keyboard",
+         "max_pages": 8
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mouse",
+     "name_bn": "মাউস",
+     "name_en": "Mouse",
+     "group": "accessories",
+     "count": 1380,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/mouse",
+         "max_pages": 11
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-mouse",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mouse-pad",
+     "name_bn": "মাউস প্যাড",
+     "name_en": "Mouse Pad",
+     "group": "accessories",
+     "count": 346,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/mouse-pad",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-mouse-pad",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "headphone",
+     "name_bn": "হেডফোন",
+     "name_en": "Headphone",
+     "group": "accessories",
+     "count": 1174,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/headphone",
+         "max_pages": 10
+        },
+        {
+         "url": "https://www.startech.com.bd/gaming-headphone",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "bluetooth-headphone",
+     "name_bn": "ব্লুটুথ হেডফোন",
+     "name_en": "Bluetooth Headphone",
+     "group": "accessories",
+     "count": 241,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/bluetooth-headphone",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "webcam",
+     "name_bn": "ওয়েবক্যাম",
+     "name_en": "Webcam",
+     "group": "accessories",
+     "count": 45,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/webcam",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "microphone",
+     "name_bn": "মাইক্রোফোন",
+     "name_en": "Microphone",
+     "group": "accessories",
+     "count": 386,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/microphone",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "speaker",
+     "name_bn": "স্পিকার ও হোম থিয়েটার",
+     "name_en": "Speaker",
+     "group": "accessories",
+     "count": 409,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/speaker-and-home-theater",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "bluetooth-speaker",
+     "name_bn": "ব্লুটুথ স্পিকার",
+     "name_en": "Bluetooth Speaker",
+     "group": "accessories",
+     "count": 546,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/bluetooth-speaker",
+         "max_pages": 8
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "soundbar",
+     "name_bn": "সাউন্ডবার",
+     "name_en": "Soundbar",
+     "group": "accessories",
+     "count": 88,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/soundbar",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "pen-drive",
+     "name_bn": "পেন ড্রাইভ",
+     "name_en": "Pen Drive",
+     "group": "accessories",
+     "count": 208,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/pen-drive",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "memory-card",
+     "name_bn": "মেমরি কার্ড",
+     "name_en": "Memory Card",
+     "group": "accessories",
+     "count": 147,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/memory-card",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "card-reader",
+     "name_bn": "কার্ড রিডার",
+     "name_en": "Card Reader",
+     "group": "accessories",
+     "count": 41,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/card-reader",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "hub-dock",
+     "name_bn": "হাব ও ডক",
+     "name_en": "Hub & Dock",
+     "group": "accessories",
+     "count": 392,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/hub-and-dock",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "cable",
+     "name_bn": "ক্যাবল",
+     "name_en": "Cable",
+     "group": "accessories",
+     "count": 619,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/cable",
+         "max_pages": 8
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "converter",
+     "name_bn": "কনভার্টার",
+     "name_en": "Converter",
+     "group": "accessories",
+     "count": 298,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/converter",
+         "max_pages": 5
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "enclosure",
+     "name_bn": "এইচডিডি-এসএসডি এনক্লোজার",
+     "name_en": "HDD/SSD Enclosure",
+     "group": "accessories",
+     "count": 93,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/enclosure",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "capture-card",
+     "name_bn": "ক্যাপচার কার্ড",
+     "name_en": "Capture Card",
+     "group": "accessories",
+     "count": 15,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/capture-card",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "power-strip",
+     "name_bn": "পাওয়ার স্ট্রিপ",
+     "name_en": "Power Strip",
+     "group": "accessories",
+     "count": 78,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/power-strip",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "bluetooth-adapter",
+     "name_bn": "ব্লুটুথ অ্যাডাপ্টার",
+     "name_en": "Bluetooth Adapter",
+     "group": "accessories",
+     "count": 57,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/bluetooth-adapter",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "thermal-paste",
+     "name_bn": "থার্মাল পেস্ট",
+     "name_en": "Thermal Paste",
+     "group": "accessories",
+     "count": 55,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/thermal-paste",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "presenter",
+     "name_bn": "প্রেজেন্টার",
+     "name_en": "Presenter",
+     "group": "accessories",
+     "count": 24,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/presenter",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "voice-recorder",
+     "name_bn": "ভয়েস রেকর্ডার",
+     "name_en": "Voice Recorder",
+     "group": "accessories",
+     "count": 22,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/accessories/digital-voice-recorder",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "monitor-light-bar",
+     "name_bn": "মনিটর লাইট বার",
+     "name_en": "Monitor Light Bar",
+     "group": "accessories",
+     "count": 4,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/monitor-light-bar",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "headphone-stand",
+     "name_bn": "হেডফোন স্ট্যান্ড",
+     "name_en": "Headphone Stand",
+     "group": "accessories",
+     "count": 14,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/headphone-stand",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "wrist-rest",
+     "name_bn": "রিস্ট রেস্ট",
+     "name_en": "Wrist Rest",
+     "group": "accessories",
+     "count": 8,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/wrist-rest",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gadget",
+   "name_bn": "গ্যাজেট ও স্মার্ট ডিভাইস",
+   "name_en": "Gadgets",
+   "leaves": [
+    {
+     "slug": "smart-watch",
+     "name_bn": "স্মার্ট ওয়াচ",
+     "name_en": "Smart Watch",
+     "group": "gadget",
+     "count": 1365,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gadget/smart-watch",
+         "max_pages": 7
+        },
+        {
+         "url": "https://www.startech.com.bd/gadget/smart-watch",
+         "max_pages": 7
+        },
+        {
+         "url": "https://www.startech.com.bd/gadget/smart-watch",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "smart-band",
+     "name_bn": "স্মার্ট ব্যান্ড",
+     "name_en": "Smart Band",
+     "group": "gadget",
+     "count": 26,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/smart-band",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "smart-ring",
+     "name_bn": "স্মার্ট রিং",
+     "name_en": "Smart Ring",
+     "group": "gadget",
+     "count": 7,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/smart-ring",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "smart-glasses",
+     "name_bn": "স্মার্ট গ্লাস",
+     "name_en": "Smart Glasses",
+     "group": "gadget",
+     "count": 18,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/smart-glasses",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "earbuds",
+     "name_bn": "ইয়ারবাড",
+     "name_en": "Earbuds",
+     "group": "gadget",
+     "count": 1420,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/earbuds",
+         "max_pages": 9
+        },
+        {
+         "url": "https://www.startech.com.bd/earbuds",
+         "max_pages": 9
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "neckband",
+     "name_bn": "নেকব্যান্ড",
+     "name_en": "Neckband",
+     "group": "gadget",
+     "count": 248,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/neckband",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/neckband",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "earphone",
+     "name_bn": "ইয়ারফোন",
+     "name_en": "Earphone",
+     "group": "gadget",
+     "count": 161,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/earphone",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "power-bank",
+     "name_bn": "পাওয়ার ব্যাংক",
+     "name_en": "Power Bank",
+     "group": "gadget",
+     "count": 499,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/power-bank",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "car-charger",
+     "name_bn": "কার চার্জার",
+     "name_en": "Car Charger",
+     "group": "gadget",
+     "count": 51,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/car-charger",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "tv-box",
+     "name_bn": "টিভি বক্স",
+     "name_en": "TV Box",
+     "group": "gadget",
+     "count": 11,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/tv-box",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "drone",
+     "name_bn": "ড্রোন",
+     "name_en": "Drone",
+     "group": "gadget",
+     "count": 75,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/drone",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gimbal",
+     "name_bn": "গিম্বাল",
+     "name_en": "Gimbal",
+     "group": "gadget",
+     "count": 120,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gimbal",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/gimbal",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "studio-equipment",
+     "name_bn": "স্টুডিও সরঞ্জাম",
+     "name_en": "Studio Equipment",
+     "group": "gadget",
+     "count": 135,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/studio-equipment",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "power-tools",
+     "name_bn": "পাওয়ার টুলস",
+     "name_en": "Power Tools",
+     "group": "gadget",
+     "count": 94,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/power-tools",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "radio",
+     "name_bn": "রেডিও",
+     "name_en": "Radio",
+     "group": "gadget",
+     "count": 2,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/radio",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gaming",
+   "name_bn": "গেমিং",
+   "name_en": "Gaming",
+   "leaves": [
+    {
+     "slug": "gaming-console",
+     "name_bn": "গেমিং কনসোল",
+     "name_en": "Gaming Console",
+     "group": "gaming",
+     "count": 46,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-console",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gamepad",
+     "name_bn": "গেমপ্যাড",
+     "name_en": "Gamepad",
+     "group": "gaming",
+     "count": 166,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/game-pad",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gaming-chair",
+     "name_bn": "গেমিং চেয়ার",
+     "name_en": "Gaming Chair",
+     "group": "gaming",
+     "count": 57,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-chair",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "gaming-desk",
+     "name_bn": "গেমিং ডেস্ক",
+     "name_en": "Gaming Desk",
+     "group": "gaming",
+     "count": 7,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-desk",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "racing-wheel",
+     "name_bn": "রেসিং হুইল",
+     "name_en": "Racing Wheel",
+     "group": "gaming",
+     "count": 11,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/racing-wheel",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "vr",
+     "name_bn": "ভিআর হেডসেট",
+     "name_en": "VR",
+     "group": "gaming",
+     "count": 20,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/vr",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "games",
+     "name_bn": "গেমস",
+     "name_en": "Games",
+     "group": "gaming",
+     "count": 52,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ps4-n-x-box-one-games",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "networking",
+   "name_bn": "নেটওয়ার্কিং",
+   "name_en": "Networking",
+   "leaves": [
+    {
+     "slug": "gaming-router",
+     "name_bn": "গেমিং রাউটার",
+     "name_en": "Gaming Router",
+     "group": "networking",
+     "count": 29,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/gaming-router",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "router",
+     "name_bn": "রাউটার",
+     "name_en": "Router",
+     "group": "networking",
+     "count": 370,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/networking/router",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "pocket-router",
+     "name_bn": "পকেট রাউটার",
+     "name_en": "Pocket Router",
+     "group": "networking",
+     "count": 14,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/pocket-router",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "starlink",
+     "name_bn": "স্টারলিংক",
+     "name_en": "Starlink",
+     "group": "networking",
+     "count": 21,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/starlink",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "range-extender",
+     "name_bn": "ওয়াইফাই রেঞ্জ এক্সটেন্ডার",
+     "name_en": "WiFi Range Extender",
+     "group": "networking",
+     "count": 35,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/wifi-extender",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "access-point",
+     "name_bn": "অ্যাক্সেস পয়েন্ট",
+     "name_en": "Access Point",
+     "group": "networking",
+     "count": 150,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/access-point",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "wifi-adapter",
+     "name_bn": "ওয়াইফাই অ্যাডাপ্টার",
+     "name_en": "WiFi Adapter",
+     "group": "networking",
+     "count": 55,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/wifi-adapter",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "network-switch",
+     "name_bn": "নেটওয়ার্ক সুইচ",
+     "name_en": "Network Switch",
+     "group": "networking",
+     "count": 471,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/networking/network-switch",
+         "max_pages": 7
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "firewall",
+     "name_bn": "ফায়ারওয়াল",
+     "name_en": "Firewall",
+     "group": "networking",
+     "count": 13,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/firewall",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "onu-olt",
+     "name_bn": "ওএনইউ ও ওএলটি",
+     "name_en": "ONU & OLT",
+     "group": "networking",
+     "count": 57,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/onu",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/olt",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "lan-card",
+     "name_bn": "ল্যান কার্ড",
+     "name_en": "LAN Card",
+     "group": "networking",
+     "count": 38,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/lan-card",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "poe-injector",
+     "name_bn": "পিওই ইনজেক্টর",
+     "name_en": "PoE Injector",
+     "group": "networking",
+     "count": 8,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/poe-injector",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "network-cable",
+     "name_bn": "নেটওয়ার্ক ক্যাবল ও প্যাচ কর্ড",
+     "name_en": "Network Cable",
+     "group": "networking",
+     "count": 394,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/networking-cable",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/patch-cord",
+         "max_pages": 5
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "network-parts",
+     "name_bn": "নেটওয়ার্ক যন্ত্রাংশ",
+     "name_en": "Network Parts",
+     "group": "networking",
+     "count": 174,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/media-converter",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/network-transceivers",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/cable-connector",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/modular-jack",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/faceplate",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/patch-panel",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "network-tools",
+     "name_bn": "নেটওয়ার্ক টুলস",
+     "name_en": "Network Tools",
+     "group": "networking",
+     "count": 44,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/crimping-tool",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/splicer-machine",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/cable-tester",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "security",
+   "name_bn": "নিরাপত্তা ও সিসিটিভি",
+   "name_en": "Security & CCTV",
+   "leaves": [
+    {
+     "slug": "wifi-camera",
+     "name_bn": "ওয়াইফাই ক্যামেরা",
+     "name_en": "WiFi Camera",
+     "group": "security",
+     "count": 156,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/wifi-camera",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ip-camera",
+     "name_bn": "আইপি ক্যামেরা",
+     "name_en": "IP Camera",
+     "group": "security",
+     "count": 255,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/ip-camera",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "cc-camera",
+     "name_bn": "সিসি ক্যামেরা",
+     "name_en": "CC Camera",
+     "group": "security",
+     "count": 136,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/cc-camera",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ptz-camera",
+     "name_bn": "পিটিজেড ক্যামেরা",
+     "name_en": "PTZ Camera",
+     "group": "security",
+     "count": 32,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/ptz-camera",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "solar-camera",
+     "name_bn": "সোলার ক্যামেরা",
+     "name_en": "Solar Camera",
+     "group": "security",
+     "count": 11,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/solar-camera",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "camera-package",
+     "name_bn": "সিসিটিভি প্যাকেজ",
+     "name_en": "CCTV Package",
+     "group": "security",
+     "count": 26,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/cc-camera-package",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/ip-camera-package",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "dvr-nvr",
+     "name_bn": "ডিভিআর, এনভিআর ও এক্সভিআর",
+     "name_en": "DVR/NVR/XVR",
+     "group": "security",
+     "count": 190,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/dvr",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/nvr",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/xvr",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "cctv-accessories",
+     "name_bn": "সিসিটিভি এক্সেসরিজ",
+     "name_en": "CCTV Accessories",
+     "group": "security",
+     "count": 12,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/Security-Camera/cc-camera-accessories",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "door-lock",
+     "name_bn": "স্মার্ট ডোর লক",
+     "name_en": "Door Lock",
+     "group": "security",
+     "count": 57,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/door-lock",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "door-bell",
+     "name_bn": "স্মার্ট ডোর বেল",
+     "name_en": "Smart Door Bell",
+     "group": "security",
+     "count": 18,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/door-bell",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "access-control",
+     "name_bn": "অ্যাক্সেস কন্ট্রোল",
+     "name_en": "Access Control",
+     "group": "security",
+     "count": 151,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/access-control",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/entrance-control",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "digital-locker",
+     "name_bn": "ডিজিটাল লকার",
+     "name_en": "Digital Locker",
+     "group": "security",
+     "count": 34,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/digital-locker",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "kvm-switch",
+     "name_bn": "কেভিএম সুইচ",
+     "name_en": "KVM Switch",
+     "group": "security",
+     "count": 11,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/kvm-switch",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "office",
+   "name_bn": "অফিস সামগ্রী",
+   "name_en": "Office Equipment",
+   "leaves": [
+    {
+     "slug": "laser-printer",
+     "name_bn": "লেজার প্রিন্টার",
+     "name_en": "Laser Printer",
+     "group": "office",
+     "count": 172,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/laser-printer",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "printer",
+     "name_bn": "প্রিন্টার",
+     "name_en": "Printer",
+     "group": "office",
+     "count": 367,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/printer",
+         "max_pages": 5
+        },
+        {
+         "url": "https://www.startech.com.bd/large-format-printer",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "special-printer",
+     "name_bn": "পিওএস, লেবেল ও আইডি কার্ড প্রিন্টার",
+     "name_en": "POS/Label/ID Printer",
+     "group": "office",
+     "count": 182,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/pos-printer",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/label-printer",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/id-card-printer",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "printer-supplies",
+     "name_bn": "টোনার, কার্টিজ ও কালি",
+     "name_en": "Toner & Ink",
+     "group": "office",
+     "count": 623,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/toner",
+         "max_pages": 6
+        },
+        {
+         "url": "https://www.startech.com.bd/cartridge",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/ink-bottle",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/ribbon",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/printer-drum",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/printer-paper",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "scanner",
+     "name_bn": "স্ক্যানার",
+     "name_en": "Scanner",
+     "group": "office",
+     "count": 172,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/Scanner",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/office-equipment/Barcode-Scanner",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "photocopier",
+     "name_bn": "ফটোকপিয়ার",
+     "name_en": "Photocopier",
+     "group": "office",
+     "count": 86,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/photocopier",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "projector",
+     "name_bn": "প্রজেক্টর",
+     "name_en": "Projector",
+     "group": "office",
+     "count": 209,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/projector",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "display-solution",
+     "name_bn": "ইন্টারঅ্যাক্টিভ প্যানেল ও সাইনেজ",
+     "name_en": "Display Solution",
+     "group": "office",
+     "count": 194,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/interactive-flat-panel",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/video-wall",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/office-equipment/signage",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/kiosk",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "conference",
+     "name_bn": "কনফারেন্স ও পিএ সিস্টেম",
+     "name_en": "Conference & PA",
+     "group": "office",
+     "count": 151,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/conference-systems",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/pa-system",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "telephone",
+     "name_bn": "টেলিফোন, আইপি ফোন ও প্যাবক্স",
+     "name_en": "Telephone",
+     "group": "office",
+     "count": 173,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/telephone-set",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/office-equipment/ip-phone",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/ip-pabx-system",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "money-counter",
+     "name_bn": "টাকা গণনার মেশিন",
+     "name_en": "Money Counter",
+     "group": "office",
+     "count": 56,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/money-counting-machine",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/cash-drawer",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "office-machine",
+     "name_bn": "শ্রেডার, ল্যামিনেটর ও বাইন্ডিং",
+     "name_en": "Office Machines",
+     "group": "office",
+     "count": 55,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/office-equipment/paper-shredder",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/office-equipment/laminating-machine",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/binding-machine",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "calculator",
+     "name_bn": "ক্যালকুলেটর",
+     "name_en": "Calculator",
+     "group": "office",
+     "count": 100,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/calculator",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/calculator",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "name_bn": "ক্যামেরা",
+   "name_en": "Camera",
+   "leaves": [
+    {
+     "slug": "action-camera",
+     "name_bn": "অ্যাকশন ক্যামেরা",
+     "name_en": "Action Camera",
+     "group": "camera",
+     "count": 96,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/camera/action-camera",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "dslr-mirrorless",
+     "name_bn": "ডিএসএলআর ও মিররলেস",
+     "name_en": "DSLR & Mirrorless",
+     "group": "camera",
+     "count": 82,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/dslr-camera",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/mirrorless-camera",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "digital-camera",
+     "name_bn": "ডিজিটাল ও ভিডিও ক্যামেরা",
+     "name_en": "Digital & Video Camera",
+     "group": "camera",
+     "count": 30,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/camera/digital-camera",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/camera/video-camera",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/camera/Handycam",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/instant-camera",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "dash-cam",
+     "name_bn": "ড্যাশ ক্যাম ও বডি ক্যাম",
+     "name_en": "Dash Cam",
+     "group": "camera",
+     "count": 36,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/dash-cam",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/body-camera",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "camera-lens",
+     "name_bn": "ক্যামেরা লেন্স",
+     "name_en": "Camera Lens",
+     "group": "camera",
+     "count": 179,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/camera/camera-lenses",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "camera-accessories",
+     "name_bn": "ট্রাইপড ও ক্যামেরা এক্সেসরিজ",
+     "name_en": "Camera Accessories",
+     "group": "camera",
+     "count": 554,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/camera/camera-tripod",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/camera-accessories",
+         "max_pages": 6
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "power",
+   "name_bn": "পাওয়ার ও সোলার",
+   "name_en": "Power & Solar",
+   "leaves": [
+    {
+     "slug": "online-ups",
+     "name_bn": "অনলাইন ইউপিএস",
+     "name_en": "Online UPS",
+     "group": "power",
+     "count": 106,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/online-ups",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "mini-ups",
+     "name_bn": "মিনি ইউপিএস",
+     "name_en": "Mini UPS",
+     "group": "power",
+     "count": 61,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/mini-ups",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ups",
+     "name_bn": "ইউপিএস",
+     "name_en": "UPS",
+     "group": "power",
+     "count": 76,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ups",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ips",
+     "name_bn": "আইপিএস",
+     "name_en": "IPS",
+     "group": "power",
+     "count": 33,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ips",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "power-station",
+     "name_bn": "পোর্টেবল পাওয়ার স্টেশন",
+     "name_en": "Power Station",
+     "group": "power",
+     "count": 41,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/portable-power-station",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "battery",
+     "name_bn": "ইউপিএস ও সোলার ব্যাটারি",
+     "name_en": "Battery",
+     "group": "power",
+     "count": 84,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/ups-battery",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/solar-battery",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "solar",
+     "name_bn": "সোলার প্যানেল, ইনভার্টার ও প্যাকেজ",
+     "name_en": "Solar",
+     "group": "power",
+     "count": 81,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/solar-panel",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/inverter",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/solar-package",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "voltage-stabilizer",
+     "name_bn": "ভোল্টেজ স্ট্যাবিলাইজার",
+     "name_en": "AVR",
+     "group": "power",
+     "count": 18,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/automatic-voltage-regulator",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "generator",
+     "name_bn": "জেনারেটর",
+     "name_en": "Generator",
+     "group": "power",
+     "count": 25,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/generator",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "server",
+   "name_bn": "সার্ভার ও স্টোরেজ",
+   "name_en": "Server & Storage",
+   "leaves": [
+    {
+     "slug": "server",
+     "name_bn": "সার্ভার",
+     "name_en": "Server",
+     "group": "server",
+     "count": 54,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/server-networking/server",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/gpu-server",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "workstation",
+     "name_bn": "ওয়ার্কস্টেশন",
+     "name_en": "Workstation",
+     "group": "server",
+     "count": 36,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/server-networking/workstation",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "nas-san",
+     "name_bn": "এনএএস, স্যান ও ড্যাস স্টোরেজ",
+     "name_en": "NAS/SAN Storage",
+     "group": "server",
+     "count": 75,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/nas-storage",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/san-storage",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/das-storage",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "server-parts",
+     "name_bn": "সার্ভার পার্টস",
+     "name_en": "Server Parts",
+     "group": "server",
+     "count": 91,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/server-hdd",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/server-hdd-bay",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/server-ram",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/server-ssd",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/server-power-supply",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/server-processor",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "server-rack",
+     "name_bn": "সার্ভার র‍্যাক",
+     "name_en": "Server Rack",
+     "group": "server",
+     "count": 78,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/server-rack",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "software",
+   "name_bn": "সফটওয়্যার",
+   "name_en": "Software",
+   "leaves": [
+    {
+     "slug": "os-office",
+     "name_bn": "অপারেটিং সিস্টেম ও অফিস",
+     "name_en": "OS & Office",
+     "group": "software",
+     "count": 22,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/operating-system",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/office-application",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "antivirus",
+     "name_bn": "অ্যান্টিভাইরাস",
+     "name_en": "Antivirus",
+     "group": "software",
+     "count": 15,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/software/antivirus",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "other-software",
+     "name_bn": "অন্যান্য সফটওয়্যার",
+     "name_en": "Other Software",
+     "group": "software",
+     "count": 54,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/bangla-typing-software",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/software/adobe",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/software/vmware",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/software/autodesk",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/anydesk-software",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/database-server-solution",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/mail-server-solution",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/cloud-solution",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "appliance",
+   "name_bn": "হোম অ্যাপ্লায়েন্স",
+   "name_en": "Home Appliance",
+   "leaves": [
+    {
+     "slug": "tv",
+     "name_bn": "টিভি",
+     "name_en": "TV",
+     "group": "appliance",
+     "count": 197,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/television-startech",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "ac",
+     "name_bn": "এসি",
+     "name_en": "AC",
+     "group": "appliance",
+     "count": 192,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/air-conditioner",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "fridge",
+     "name_bn": "ফ্রিজ",
+     "name_en": "Refrigerator",
+     "group": "appliance",
+     "count": 220,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/refrigerator",
+         "max_pages": 4
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "washing-machine",
+     "name_bn": "ওয়াশিং মেশিন",
+     "name_en": "Washing Machine",
+     "group": "appliance",
+     "count": 92,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/washing-machine",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/dishwasher",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "oven",
+     "name_bn": "ওভেন",
+     "name_en": "Oven",
+     "group": "appliance",
+     "count": 51,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/oven",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "air-fryer",
+     "name_bn": "এয়ার ফ্রায়ার",
+     "name_en": "Air Fryer",
+     "group": "appliance",
+     "count": 33,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/air-fryer",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "cooker",
+     "name_bn": "রাইস ও প্রেসার কুকার",
+     "name_en": "Cooker",
+     "group": "appliance",
+     "count": 62,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/cooker",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/electric-cooker",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "induction-stove",
+     "name_bn": "ইন্ডাকশন ও গ্যাস চুলা",
+     "name_en": "Stove",
+     "group": "appliance",
+     "count": 36,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/induction-cooker",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/gas-stove",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/kitchen-hood",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "blender",
+     "name_bn": "ব্লেন্ডার, জুসার ও টোস্টার",
+     "name_en": "Blender & Juicer",
+     "group": "appliance",
+     "count": 107,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/blender",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/juicer",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/toaster",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/coffee-maker",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/electric-kettle",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "fan-cooler",
+     "name_bn": "ফ্যান ও এয়ার কুলার",
+     "name_en": "Fan & Cooler",
+     "group": "appliance",
+     "count": 241,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/fan",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.startech.com.bd/air-cooler",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/air-curtain",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/mini-fan",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "geyser-heater",
+     "name_bn": "গিজার ও রুম হিটার",
+     "name_en": "Geyser & Heater",
+     "group": "appliance",
+     "count": 59,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/geyser-water-heater",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/room-heater",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "water-air-purifier",
+     "name_bn": "পানি ও বাতাস পরিশোধক",
+     "name_en": "Purifier",
+     "group": "appliance",
+     "count": 54,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/water-purifier",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/air-purifier",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/dehumidifier",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "vacuum-cleaner",
+     "name_bn": "ভ্যাকুয়াম ক্লিনার",
+     "name_en": "Vacuum Cleaner",
+     "group": "appliance",
+     "count": 57,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/vacuum-cleaner",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "iron",
+     "name_bn": "ইস্ত্রি",
+     "name_en": "Iron",
+     "group": "appliance",
+     "count": 16,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/iron",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "sewing-machine",
+     "name_bn": "সেলাই মেশিন",
+     "name_en": "Sewing Machine",
+     "group": "appliance",
+     "count": 16,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/sewing-machine",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "light",
+     "name_bn": "লাইট",
+     "name_en": "Light",
+     "group": "appliance",
+     "count": 70,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/light",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/table-lamp",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/torch-light",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "lifestyle",
+   "name_bn": "লাইফস্টাইল ও স্বাস্থ্য",
+   "name_en": "Lifestyle & Health",
+   "leaves": [
+    {
+     "slug": "grooming",
+     "name_bn": "ট্রিমার ও হেয়ার কেয়ার",
+     "name_en": "Grooming",
+     "group": "lifestyle",
+     "count": 280,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/trimmer",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.startech.com.bd/hair-dryer",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/hair-straightener",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/electric-toothbrush",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "health-device",
+     "name_bn": "স্বাস্থ্য সরঞ্জাম",
+     "name_en": "Health Devices",
+     "group": "lifestyle",
+     "count": 73,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/blood-pressure-monitor",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/pulse-oximeter",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/glucometer",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/nebulizer-machine",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/thermometer",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/weight-scale",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/massage-gun",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "treadmill",
+     "name_bn": "ট্রেডমিল",
+     "name_en": "Treadmill",
+     "group": "lifestyle",
+     "count": 8,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/treadmill",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "wrist-watch",
+     "name_bn": "হাতঘড়ি",
+     "name_en": "Wrist Watch",
+     "group": "lifestyle",
+     "count": 147,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/analog-watch",
+         "max_pages": 3
+        }
+       ],
+       "limit": 90
+      }
+     }
+    },
+    {
+     "slug": "lifestyle-other",
+     "name_bn": "অন্যান্য",
+     "name_en": "Others",
+     "group": "lifestyle",
+     "count": 52,
+     "stores": {
+      "startech": {
+       "sources": [
+        {
+         "url": "https://www.startech.com.bd/binocular",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/mosquito-bat",
+         "max_pages": 2
+        },
+        {
+         "url": "https://www.startech.com.bd/gps-tracker",
+         "max_pages": 2
+        }
+       ],
+       "limit": 90
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

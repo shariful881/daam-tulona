@@ -1,0 +1,1623 @@
+{
+ "_নোট": "দামতুলনার নিজস্ব ক্যাটাগরি কাঠামো। sources = Star Tech-এর কোন পাতা থেকে প্রোডাক্ট আসবে ('মূল' বা 'মূল/সাব')। একই প্রোডাক্ট একাধিক জায়গায় থাকলে উপরের ক্যাটাগরিতে যাবে, তাই নির্দিষ্ট ক্যাটাগরি আগে, সাধারণটা পরে।",
+ "groups": [
+  {
+   "slug": "mobile-tablet",
+   "bn": "মোবাইল ও ট্যাবলেট",
+   "en": "Mobile & Tablet",
+   "leaves": [
+    {
+     "slug": "feature-phone",
+     "bn": "ফিচার ফোন",
+     "en": "Feature Phone",
+     "sources": [
+      "Phone/Feature Phone"
+     ]
+    },
+    {
+     "slug": "smartphone",
+     "bn": "স্মার্টফোন",
+     "en": "Smartphone",
+     "sources": [
+      "Phone/iPhone",
+      "Phone/Samsung",
+      "Phone/Google",
+      "Phone/Redmi",
+      "Phone/Realme",
+      "Phone/Vivo",
+      "Phone/OPPO",
+      "Phone/HONOR",
+      "Phone/HUAWEI",
+      "Phone/OnePlus",
+      "Phone/TECNO",
+      "Phone/Infinix",
+      "Phone/Helio",
+      "Phone/ZTE",
+      "Phone/HTC"
+     ]
+    },
+    {
+     "slug": "mobile-accessories",
+     "bn": "মোবাইল এক্সেসরিজ",
+     "en": "Mobile Accessories",
+     "sources": [
+      "Phone/Mobile Accessories"
+     ]
+    },
+    {
+     "slug": "graphics-tablet",
+     "bn": "গ্রাফিক্স ট্যাবলেট",
+     "en": "Graphics Tablet",
+     "sources": [
+      "Tablet/Graphics Tablet"
+     ]
+    },
+    {
+     "slug": "stylus-pen",
+     "bn": "স্টাইলাস পেন",
+     "en": "Stylus Pen",
+     "sources": [
+      "Tablet/Stylus Pen"
+     ]
+    },
+    {
+     "slug": "tablet-accessories",
+     "bn": "ট্যাবলেট এক্সেসরিজ",
+     "en": "Tablet Accessories",
+     "sources": [
+      "Tablet/Tablet Accessories"
+     ]
+    },
+    {
+     "slug": "tablet",
+     "bn": "ট্যাবলেট",
+     "en": "Tablet",
+     "sources": [
+      "Tablet/iPad",
+      "Tablet/Lenovo",
+      "Tablet/Samsung",
+      "Tablet/HONOR",
+      "Tablet/Xiaomi",
+      "Tablet/Huion",
+      "Tablet/Walton",
+      "Tablet/HUAWEI",
+      "Tablet/Chuwi",
+      "Tablet/Amazon",
+      "Tablet/Google",
+      "Tablet/OnePlus",
+      "Tablet/Teclast",
+      "Tablet/ZTE",
+      "Tablet/Infinix",
+      "Tablet/reMarkable",
+      "Tablet/Tecno"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "laptop-desktop",
+   "bn": "ল্যাপটপ ও ডেস্কটপ",
+   "en": "Laptop & Desktop",
+   "leaves": [
+    {
+     "slug": "gaming-laptop",
+     "bn": "গেমিং ল্যাপটপ",
+     "en": "Gaming Laptop",
+     "sources": [
+      "Laptop/Gaming Laptop",
+      "Gaming/Gaming Laptop"
+     ]
+    },
+    {
+     "slug": "ultrabook",
+     "bn": "প্রিমিয়াম আল্ট্রাবুক",
+     "en": "Premium Ultrabook",
+     "sources": [
+      "Laptop/Premium Ultrabook"
+     ]
+    },
+    {
+     "slug": "laptop",
+     "bn": "ল্যাপটপ",
+     "en": "Laptop",
+     "sources": [
+      "Laptop/All Laptop"
+     ]
+    },
+    {
+     "slug": "laptop-bag",
+     "bn": "ল্যাপটপ ব্যাগ",
+     "en": "Laptop Bag",
+     "sources": [
+      "Laptop/Laptop Bag"
+     ]
+    },
+    {
+     "slug": "gaming-pc",
+     "bn": "গেমিং পিসি",
+     "en": "Gaming PC",
+     "sources": [
+      "Desktop/Gaming PC",
+      "Gaming/Gaming PC"
+     ]
+    },
+    {
+     "slug": "ai-pc",
+     "bn": "এআই পিসি",
+     "en": "AI PC",
+     "sources": [
+      "Desktop/AI PC"
+     ]
+    },
+    {
+     "slug": "brand-pc",
+     "bn": "ব্র্যান্ড পিসি",
+     "en": "Brand PC",
+     "sources": [
+      "Desktop/Brand PC"
+     ]
+    },
+    {
+     "slug": "all-in-one-pc",
+     "bn": "অল-ইন-ওয়ান পিসি",
+     "en": "All-in-One PC",
+     "sources": [
+      "Desktop/All-in-One PC"
+     ]
+    },
+    {
+     "slug": "mini-pc",
+     "bn": "মিনি পিসি",
+     "en": "Mini PC",
+     "sources": [
+      "Desktop/Portable Mini PC"
+     ]
+    },
+    {
+     "slug": "mac-desktop",
+     "bn": "ম্যাক ডেস্কটপ",
+     "en": "Mac Desktop",
+     "sources": [
+      "Desktop/Apple Mac Mini",
+      "Desktop/Apple iMac",
+      "Desktop/Apple Mac Studio",
+      "Desktop/Apple Mac Pro"
+     ]
+    },
+    {
+     "slug": "desktop-pc",
+     "bn": "ডেস্কটপ পিসি",
+     "en": "Desktop PC",
+     "sources": [
+      "Desktop/Star PC",
+      "Desktop/Desktop Offer"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "computer-parts",
+   "bn": "কম্পিউটার পার্টস",
+   "en": "Computer Parts",
+   "leaves": [
+    {
+     "slug": "processor",
+     "bn": "প্রসেসর",
+     "en": "Processor",
+     "sources": [
+      "Component/Processor"
+     ]
+    },
+    {
+     "slug": "motherboard",
+     "bn": "মাদারবোর্ড",
+     "en": "Motherboard",
+     "sources": [
+      "Component/Motherboard"
+     ]
+    },
+    {
+     "slug": "graphics-card",
+     "bn": "গ্রাফিক্স কার্ড",
+     "en": "Graphics Card",
+     "sources": [
+      "Component/Graphics Card"
+     ]
+    },
+    {
+     "slug": "desktop-ram",
+     "bn": "ডেস্কটপ র‍্যাম",
+     "en": "Desktop RAM",
+     "sources": [
+      "Component/RAM (Desktop)"
+     ]
+    },
+    {
+     "slug": "laptop-ram",
+     "bn": "ল্যাপটপ র‍্যাম",
+     "en": "Laptop RAM",
+     "sources": [
+      "Component/RAM (Laptop)"
+     ]
+    },
+    {
+     "slug": "portable-ssd",
+     "bn": "পোর্টেবল এসএসডি",
+     "en": "Portable SSD",
+     "sources": [
+      "Component/Portable SSD"
+     ]
+    },
+    {
+     "slug": "ssd",
+     "bn": "এসএসডি",
+     "en": "SSD",
+     "sources": [
+      "Component/SSD"
+     ]
+    },
+    {
+     "slug": "portable-hdd",
+     "bn": "পোর্টেবল হার্ডডিস্ক",
+     "en": "Portable HDD",
+     "sources": [
+      "Component/Portable Hard Disk Drive"
+     ]
+    },
+    {
+     "slug": "hdd",
+     "bn": "হার্ডডিস্ক",
+     "en": "Hard Disk",
+     "sources": [
+      "Component/Hard Disk Drive"
+     ]
+    },
+    {
+     "slug": "power-supply",
+     "bn": "পাওয়ার সাপ্লাই",
+     "en": "Power Supply",
+     "sources": [
+      "Component/Power Supply"
+     ]
+    },
+    {
+     "slug": "casing",
+     "bn": "কেসিং",
+     "en": "Casing",
+     "sources": [
+      "Component/Casing"
+     ]
+    },
+    {
+     "slug": "liquid-cooler",
+     "bn": "লিকুইড কুলার",
+     "en": "Liquid Cooler",
+     "sources": [
+      "Component/Water / Liquid Cooling"
+     ]
+    },
+    {
+     "slug": "cpu-cooler",
+     "bn": "সিপিইউ কুলার",
+     "en": "CPU Cooler",
+     "sources": [
+      "Component/CPU Cooler"
+     ]
+    },
+    {
+     "slug": "casing-fan",
+     "bn": "কেসিং ফ্যান",
+     "en": "Casing Fan",
+     "sources": [
+      "Component/Casing Cooler"
+     ]
+    },
+    {
+     "slug": "optical-drive",
+     "bn": "অপটিক্যাল ড্রাইভ",
+     "en": "Optical Drive",
+     "sources": [
+      "Component/Optical Disk Drive"
+     ]
+    },
+    {
+     "slug": "gpu-holder",
+     "bn": "জিপিইউ হোল্ডার",
+     "en": "GPU Holder",
+     "sources": [
+      "Component/Vertical GPU Holder"
+     ]
+    },
+    {
+     "slug": "laptop-accessories",
+     "bn": "ল্যাপটপ পার্টস ও এক্সেসরিজ",
+     "en": "Laptop Accessories",
+     "sources": [
+      "Laptop/Laptop Accessories"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "monitor",
+   "bn": "মনিটর",
+   "en": "Monitor",
+   "leaves": [
+    {
+     "slug": "monitor-arm",
+     "bn": "মনিটর আর্ম",
+     "en": "Monitor Arm",
+     "sources": [
+      "Monitor/Monitor Arm"
+     ]
+    },
+    {
+     "slug": "gaming-monitor",
+     "bn": "গেমিং মনিটর",
+     "en": "Gaming Monitor",
+     "sources": [
+      "Monitor/Gaming Monitor",
+      "Gaming/Gaming Monitor"
+     ]
+    },
+    {
+     "slug": "portable-monitor",
+     "bn": "পোর্টেবল মনিটর",
+     "en": "Portable Monitor",
+     "sources": [
+      "Monitor/Portable Monitor"
+     ]
+    },
+    {
+     "slug": "monitor-all",
+     "bn": "মনিটর",
+     "en": "Monitor",
+     "sources": [
+      "Monitor"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "accessories",
+   "bn": "কম্পিউটার এক্সেসরিজ",
+   "en": "Computer Accessories",
+   "leaves": [
+    {
+     "slug": "keyboard",
+     "bn": "কিবোর্ড",
+     "en": "Keyboard",
+     "sources": [
+      "Accessories/Keyboard",
+      "Gaming/Keyboard"
+     ]
+    },
+    {
+     "slug": "mouse",
+     "bn": "মাউস",
+     "en": "Mouse",
+     "sources": [
+      "Accessories/Mouse",
+      "Gaming/Mouse"
+     ]
+    },
+    {
+     "slug": "mouse-pad",
+     "bn": "মাউস প্যাড",
+     "en": "Mouse Pad",
+     "sources": [
+      "Accessories/Mouse Pad",
+      "Gaming/Mouse Pad"
+     ]
+    },
+    {
+     "slug": "headphone",
+     "bn": "হেডফোন",
+     "en": "Headphone",
+     "sources": [
+      "Accessories/Headphone",
+      "Gaming/Headphone"
+     ]
+    },
+    {
+     "slug": "bluetooth-headphone",
+     "bn": "ব্লুটুথ হেডফোন",
+     "en": "Bluetooth Headphone",
+     "sources": [
+      "Accessories/Bluetooth Headphone"
+     ]
+    },
+    {
+     "slug": "webcam",
+     "bn": "ওয়েবক্যাম",
+     "en": "Webcam",
+     "sources": [
+      "Accessories/Webcam"
+     ]
+    },
+    {
+     "slug": "microphone",
+     "bn": "মাইক্রোফোন",
+     "en": "Microphone",
+     "sources": [
+      "Accessories/Microphone"
+     ]
+    },
+    {
+     "slug": "speaker",
+     "bn": "স্পিকার ও হোম থিয়েটার",
+     "en": "Speaker",
+     "sources": [
+      "Accessories/Speaker & Home Theater"
+     ]
+    },
+    {
+     "slug": "bluetooth-speaker",
+     "bn": "ব্লুটুথ স্পিকার",
+     "en": "Bluetooth Speaker",
+     "sources": [
+      "Accessories/Bluetooth Speakers"
+     ]
+    },
+    {
+     "slug": "soundbar",
+     "bn": "সাউন্ডবার",
+     "en": "Soundbar",
+     "sources": [
+      "Accessories/Soundbar"
+     ]
+    },
+    {
+     "slug": "pen-drive",
+     "bn": "পেন ড্রাইভ",
+     "en": "Pen Drive",
+     "sources": [
+      "Accessories/Pen Drive"
+     ]
+    },
+    {
+     "slug": "memory-card",
+     "bn": "মেমরি কার্ড",
+     "en": "Memory Card",
+     "sources": [
+      "Accessories/Memory Card"
+     ]
+    },
+    {
+     "slug": "card-reader",
+     "bn": "কার্ড রিডার",
+     "en": "Card Reader",
+     "sources": [
+      "Accessories/Card Reader"
+     ]
+    },
+    {
+     "slug": "hub-dock",
+     "bn": "হাব ও ডক",
+     "en": "Hub & Dock",
+     "sources": [
+      "Accessories/Hubs & Docks"
+     ]
+    },
+    {
+     "slug": "cable",
+     "bn": "ক্যাবল",
+     "en": "Cable",
+     "sources": [
+      "Accessories/Cable"
+     ]
+    },
+    {
+     "slug": "converter",
+     "bn": "কনভার্টার",
+     "en": "Converter",
+     "sources": [
+      "Accessories/Converter"
+     ]
+    },
+    {
+     "slug": "enclosure",
+     "bn": "এইচডিডি-এসএসডি এনক্লোজার",
+     "en": "HDD/SSD Enclosure",
+     "sources": [
+      "Accessories/HDD-SSD Enclosure"
+     ]
+    },
+    {
+     "slug": "capture-card",
+     "bn": "ক্যাপচার কার্ড",
+     "en": "Capture Card",
+     "sources": [
+      "Accessories/Capture Card"
+     ]
+    },
+    {
+     "slug": "power-strip",
+     "bn": "পাওয়ার স্ট্রিপ",
+     "en": "Power Strip",
+     "sources": [
+      "Accessories/Power Strip"
+     ]
+    },
+    {
+     "slug": "bluetooth-adapter",
+     "bn": "ব্লুটুথ অ্যাডাপ্টার",
+     "en": "Bluetooth Adapter",
+     "sources": [
+      "Accessories/Bluetooth Adapter"
+     ]
+    },
+    {
+     "slug": "thermal-paste",
+     "bn": "থার্মাল পেস্ট",
+     "en": "Thermal Paste",
+     "sources": [
+      "Accessories/Thermal Paste"
+     ]
+    },
+    {
+     "slug": "presenter",
+     "bn": "প্রেজেন্টার",
+     "en": "Presenter",
+     "sources": [
+      "Accessories/Presenter"
+     ]
+    },
+    {
+     "slug": "voice-recorder",
+     "bn": "ভয়েস রেকর্ডার",
+     "en": "Voice Recorder",
+     "sources": [
+      "Accessories/Digital Voice Recorder"
+     ]
+    },
+    {
+     "slug": "monitor-light-bar",
+     "bn": "মনিটর লাইট বার",
+     "en": "Monitor Light Bar",
+     "sources": [
+      "Accessories/Monitor Light Bar"
+     ]
+    },
+    {
+     "slug": "headphone-stand",
+     "bn": "হেডফোন স্ট্যান্ড",
+     "en": "Headphone Stand",
+     "sources": [
+      "Accessories/Headphone Stand"
+     ]
+    },
+    {
+     "slug": "wrist-rest",
+     "bn": "রিস্ট রেস্ট",
+     "en": "Wrist Rest",
+     "sources": [
+      "Accessories/Wrist Rest"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "gadget",
+   "bn": "গ্যাজেট ও স্মার্ট ডিভাইস",
+   "en": "Gadgets",
+   "leaves": [
+    {
+     "slug": "smart-watch",
+     "bn": "স্মার্ট ওয়াচ",
+     "en": "Smart Watch",
+     "sources": [
+      "Gadget/Smart Watch",
+      "Lifestyle/Smart Watch",
+      "Accessories/Watch"
+     ]
+    },
+    {
+     "slug": "smart-band",
+     "bn": "স্মার্ট ব্যান্ড",
+     "en": "Smart Band",
+     "sources": [
+      "Gadget/Smart Band"
+     ]
+    },
+    {
+     "slug": "smart-ring",
+     "bn": "স্মার্ট রিং",
+     "en": "Smart Ring",
+     "sources": [
+      "Gadget/Smart Ring"
+     ]
+    },
+    {
+     "slug": "smart-glasses",
+     "bn": "স্মার্ট গ্লাস",
+     "en": "Smart Glasses",
+     "sources": [
+      "Gadget/Smart Glasses"
+     ]
+    },
+    {
+     "slug": "earbuds",
+     "bn": "ইয়ারবাড",
+     "en": "Earbuds",
+     "sources": [
+      "Gadget/Earbuds",
+      "Lifestyle/Earbuds"
+     ]
+    },
+    {
+     "slug": "neckband",
+     "bn": "নেকব্যান্ড",
+     "en": "Neckband",
+     "sources": [
+      "Gadget/Neckband",
+      "Lifestyle/Neckband"
+     ]
+    },
+    {
+     "slug": "earphone",
+     "bn": "ইয়ারফোন",
+     "en": "Earphone",
+     "sources": [
+      "Gadget/Earphone"
+     ]
+    },
+    {
+     "slug": "power-bank",
+     "bn": "পাওয়ার ব্যাংক",
+     "en": "Power Bank",
+     "sources": [
+      "Gadget/Power Bank"
+     ]
+    },
+    {
+     "slug": "car-charger",
+     "bn": "কার চার্জার",
+     "en": "Car Charger",
+     "sources": [
+      "Gadget/Car Charger"
+     ]
+    },
+    {
+     "slug": "tv-box",
+     "bn": "টিভি বক্স",
+     "en": "TV Box",
+     "sources": [
+      "Gadget/TV Box"
+     ]
+    },
+    {
+     "slug": "drone",
+     "bn": "ড্রোন",
+     "en": "Drone",
+     "sources": [
+      "Gadget/Drones"
+     ]
+    },
+    {
+     "slug": "gimbal",
+     "bn": "গিম্বাল",
+     "en": "Gimbal",
+     "sources": [
+      "Gadget/Gimbal",
+      "Camera/Gimbal"
+     ]
+    },
+    {
+     "slug": "studio-equipment",
+     "bn": "স্টুডিও সরঞ্জাম",
+     "en": "Studio Equipment",
+     "sources": [
+      "Gadget/Studio Equipment"
+     ]
+    },
+    {
+     "slug": "power-tools",
+     "bn": "পাওয়ার টুলস",
+     "en": "Power Tools",
+     "sources": [
+      "Gadget/Power Tools"
+     ]
+    },
+    {
+     "slug": "radio",
+     "bn": "রেডিও",
+     "en": "Radio",
+     "sources": [
+      "Gadget/Radio"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "gaming",
+   "bn": "গেমিং",
+   "en": "Gaming",
+   "leaves": [
+    {
+     "slug": "gaming-console",
+     "bn": "গেমিং কনসোল",
+     "en": "Gaming Console",
+     "sources": [
+      "Gaming/Gaming Console"
+     ]
+    },
+    {
+     "slug": "gamepad",
+     "bn": "গেমপ্যাড",
+     "en": "Gamepad",
+     "sources": [
+      "Gaming/Gamepad"
+     ]
+    },
+    {
+     "slug": "gaming-chair",
+     "bn": "গেমিং চেয়ার",
+     "en": "Gaming Chair",
+     "sources": [
+      "Gaming/Gaming Chair"
+     ]
+    },
+    {
+     "slug": "gaming-desk",
+     "bn": "গেমিং ডেস্ক",
+     "en": "Gaming Desk",
+     "sources": [
+      "Gaming/Gaming Desk"
+     ]
+    },
+    {
+     "slug": "racing-wheel",
+     "bn": "রেসিং হুইল",
+     "en": "Racing Wheel",
+     "sources": [
+      "Gaming/Racing Wheel"
+     ]
+    },
+    {
+     "slug": "vr",
+     "bn": "ভিআর হেডসেট",
+     "en": "VR",
+     "sources": [
+      "Gaming/VR"
+     ]
+    },
+    {
+     "slug": "games",
+     "bn": "গেমস",
+     "en": "Games",
+     "sources": [
+      "Gaming/Games"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "networking",
+   "bn": "নেটওয়ার্কিং",
+   "en": "Networking",
+   "leaves": [
+    {
+     "slug": "gaming-router",
+     "bn": "গেমিং রাউটার",
+     "en": "Gaming Router",
+     "sources": [
+      "Gaming/Gaming Router"
+     ]
+    },
+    {
+     "slug": "router",
+     "bn": "রাউটার",
+     "en": "Router",
+     "sources": [
+      "Networking/Router"
+     ]
+    },
+    {
+     "slug": "pocket-router",
+     "bn": "পকেট রাউটার",
+     "en": "Pocket Router",
+     "sources": [
+      "Networking/Pocket Router"
+     ]
+    },
+    {
+     "slug": "starlink",
+     "bn": "স্টারলিংক",
+     "en": "Starlink",
+     "sources": [
+      "Networking/Starlink"
+     ]
+    },
+    {
+     "slug": "range-extender",
+     "bn": "ওয়াইফাই রেঞ্জ এক্সটেন্ডার",
+     "en": "WiFi Range Extender",
+     "sources": [
+      "Networking/WiFi Range Extender"
+     ]
+    },
+    {
+     "slug": "access-point",
+     "bn": "অ্যাক্সেস পয়েন্ট",
+     "en": "Access Point",
+     "sources": [
+      "Networking/Access Point"
+     ]
+    },
+    {
+     "slug": "wifi-adapter",
+     "bn": "ওয়াইফাই অ্যাডাপ্টার",
+     "en": "WiFi Adapter",
+     "sources": [
+      "Networking/WiFi Adapter"
+     ]
+    },
+    {
+     "slug": "network-switch",
+     "bn": "নেটওয়ার্ক সুইচ",
+     "en": "Network Switch",
+     "sources": [
+      "Networking/Network Switch"
+     ]
+    },
+    {
+     "slug": "firewall",
+     "bn": "ফায়ারওয়াল",
+     "en": "Firewall",
+     "sources": [
+      "Networking/Firewall"
+     ]
+    },
+    {
+     "slug": "onu-olt",
+     "bn": "ওএনইউ ও ওএলটি",
+     "en": "ONU & OLT",
+     "sources": [
+      "Networking/ONU",
+      "Networking/OLT"
+     ]
+    },
+    {
+     "slug": "lan-card",
+     "bn": "ল্যান কার্ড",
+     "en": "LAN Card",
+     "sources": [
+      "Networking/LAN Card"
+     ]
+    },
+    {
+     "slug": "poe-injector",
+     "bn": "পিওই ইনজেক্টর",
+     "en": "PoE Injector",
+     "sources": [
+      "Networking/PoE Injector"
+     ]
+    },
+    {
+     "slug": "network-cable",
+     "bn": "নেটওয়ার্ক ক্যাবল ও প্যাচ কর্ড",
+     "en": "Network Cable",
+     "sources": [
+      "Networking/Networking Cable",
+      "Networking/Patch Cord"
+     ]
+    },
+    {
+     "slug": "network-parts",
+     "bn": "নেটওয়ার্ক যন্ত্রাংশ",
+     "en": "Network Parts",
+     "sources": [
+      "Networking/Media Converter",
+      "Networking/Network Transceivers",
+      "Networking/Connector",
+      "Networking/Modular Jack",
+      "Networking/Faceplate",
+      "Networking/Patch Panel"
+     ]
+    },
+    {
+     "slug": "network-tools",
+     "bn": "নেটওয়ার্ক টুলস",
+     "en": "Network Tools",
+     "sources": [
+      "Networking/Crimping Tool",
+      "Networking/Splicer Machine",
+      "Networking/Cable Tester"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "security",
+   "bn": "নিরাপত্তা ও সিসিটিভি",
+   "en": "Security & CCTV",
+   "leaves": [
+    {
+     "slug": "wifi-camera",
+     "bn": "ওয়াইফাই ক্যামেরা",
+     "en": "WiFi Camera",
+     "sources": [
+      "Security/Portable WiFi Camera"
+     ]
+    },
+    {
+     "slug": "ip-camera",
+     "bn": "আইপি ক্যামেরা",
+     "en": "IP Camera",
+     "sources": [
+      "Security/IP Camera"
+     ]
+    },
+    {
+     "slug": "cc-camera",
+     "bn": "সিসি ক্যামেরা",
+     "en": "CC Camera",
+     "sources": [
+      "Security/CC Camera"
+     ]
+    },
+    {
+     "slug": "ptz-camera",
+     "bn": "পিটিজেড ক্যামেরা",
+     "en": "PTZ Camera",
+     "sources": [
+      "Security/PTZ Camera"
+     ]
+    },
+    {
+     "slug": "solar-camera",
+     "bn": "সোলার ক্যামেরা",
+     "en": "Solar Camera",
+     "sources": [
+      "Security/Solar Camera"
+     ]
+    },
+    {
+     "slug": "camera-package",
+     "bn": "সিসিটিভি প্যাকেজ",
+     "en": "CCTV Package",
+     "sources": [
+      "Security/CC Camera Package",
+      "Security/IP Camera Package"
+     ]
+    },
+    {
+     "slug": "dvr-nvr",
+     "bn": "ডিভিআর, এনভিআর ও এক্সভিআর",
+     "en": "DVR/NVR/XVR",
+     "sources": [
+      "Security/DVR",
+      "Security/NVR",
+      "Security/XVR"
+     ]
+    },
+    {
+     "slug": "cctv-accessories",
+     "bn": "সিসিটিভি এক্সেসরিজ",
+     "en": "CCTV Accessories",
+     "sources": [
+      "Security/CC Camera Accessories"
+     ]
+    },
+    {
+     "slug": "door-lock",
+     "bn": "স্মার্ট ডোর লক",
+     "en": "Door Lock",
+     "sources": [
+      "Security/Door Lock"
+     ]
+    },
+    {
+     "slug": "door-bell",
+     "bn": "স্মার্ট ডোর বেল",
+     "en": "Smart Door Bell",
+     "sources": [
+      "Security/Smart Door Bell"
+     ]
+    },
+    {
+     "slug": "access-control",
+     "bn": "অ্যাক্সেস কন্ট্রোল",
+     "en": "Access Control",
+     "sources": [
+      "Security/Access Control",
+      "Security/Entrance Control"
+     ]
+    },
+    {
+     "slug": "digital-locker",
+     "bn": "ডিজিটাল লকার",
+     "en": "Digital Locker",
+     "sources": [
+      "Security/Digital Locker & Vault"
+     ]
+    },
+    {
+     "slug": "kvm-switch",
+     "bn": "কেভিএম সুইচ",
+     "en": "KVM Switch",
+     "sources": [
+      "Security/KVM Switch"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "office",
+   "bn": "অফিস সামগ্রী",
+   "en": "Office Equipment",
+   "leaves": [
+    {
+     "slug": "laser-printer",
+     "bn": "লেজার প্রিন্টার",
+     "en": "Laser Printer",
+     "sources": [
+      "Office Equipment/Laser Printer"
+     ]
+    },
+    {
+     "slug": "printer",
+     "bn": "প্রিন্টার",
+     "en": "Printer",
+     "sources": [
+      "Office Equipment/Printer",
+      "Office Equipment/Large Format Printer"
+     ]
+    },
+    {
+     "slug": "special-printer",
+     "bn": "পিওএস, লেবেল ও আইডি কার্ড প্রিন্টার",
+     "en": "POS/Label/ID Printer",
+     "sources": [
+      "Office Equipment/POS Printer",
+      "Office Equipment/Label Printer",
+      "Office Equipment/ID Card Printer"
+     ]
+    },
+    {
+     "slug": "printer-supplies",
+     "bn": "টোনার, কার্টিজ ও কালি",
+     "en": "Toner & Ink",
+     "sources": [
+      "Office Equipment/Toner",
+      "Office Equipment/Cartridge",
+      "Office Equipment/Ink Bottle",
+      "Office Equipment/Ribbon",
+      "Office Equipment/Printer Drum",
+      "Office Equipment/Printer Paper"
+     ]
+    },
+    {
+     "slug": "scanner",
+     "bn": "স্ক্যানার",
+     "en": "Scanner",
+     "sources": [
+      "Office Equipment/Scanner",
+      "Office Equipment/Barcode Scanner"
+     ]
+    },
+    {
+     "slug": "photocopier",
+     "bn": "ফটোকপিয়ার",
+     "en": "Photocopier",
+     "sources": [
+      "Office Equipment/Photocopier"
+     ]
+    },
+    {
+     "slug": "projector",
+     "bn": "প্রজেক্টর",
+     "en": "Projector",
+     "sources": [
+      "Office Equipment/Projector"
+     ]
+    },
+    {
+     "slug": "display-solution",
+     "bn": "ইন্টারঅ্যাক্টিভ প্যানেল ও সাইনেজ",
+     "en": "Display Solution",
+     "sources": [
+      "Office Equipment/Interactive Flat Panel",
+      "Office Equipment/Video Wall",
+      "Office Equipment/Signage",
+      "Office Equipment/Kiosk"
+     ]
+    },
+    {
+     "slug": "conference",
+     "bn": "কনফারেন্স ও পিএ সিস্টেম",
+     "en": "Conference & PA",
+     "sources": [
+      "Office Equipment/Conference System",
+      "Office Equipment/PA System"
+     ]
+    },
+    {
+     "slug": "telephone",
+     "bn": "টেলিফোন, আইপি ফোন ও প্যাবক্স",
+     "en": "Telephone",
+     "sources": [
+      "Office Equipment/Telephone Set",
+      "Office Equipment/IP Phone",
+      "Office Equipment/PABX System"
+     ]
+    },
+    {
+     "slug": "money-counter",
+     "bn": "টাকা গণনার মেশিন",
+     "en": "Money Counter",
+     "sources": [
+      "Office Equipment/Money Counting Machine",
+      "Office Equipment/Cash Drawer"
+     ]
+    },
+    {
+     "slug": "office-machine",
+     "bn": "শ্রেডার, ল্যামিনেটর ও বাইন্ডিং",
+     "en": "Office Machines",
+     "sources": [
+      "Office Equipment/Paper Shredder",
+      "Office Equipment/Laminating Machine",
+      "Office Equipment/Binding Machine"
+     ]
+    },
+    {
+     "slug": "calculator",
+     "bn": "ক্যালকুলেটর",
+     "en": "Calculator",
+     "sources": [
+      "Office Equipment/Calculator",
+      "Gadget/Calculator"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "bn": "ক্যামেরা",
+   "en": "Camera",
+   "leaves": [
+    {
+     "slug": "action-camera",
+     "bn": "অ্যাকশন ক্যামেরা",
+     "en": "Action Camera",
+     "sources": [
+      "Camera/Action Camera"
+     ]
+    },
+    {
+     "slug": "dslr-mirrorless",
+     "bn": "ডিএসএলআর ও মিররলেস",
+     "en": "DSLR & Mirrorless",
+     "sources": [
+      "Camera/DSLR",
+      "Camera/Mirrorless Camera"
+     ]
+    },
+    {
+     "slug": "digital-camera",
+     "bn": "ডিজিটাল ও ভিডিও ক্যামেরা",
+     "en": "Digital & Video Camera",
+     "sources": [
+      "Camera/Digital Camera",
+      "Camera/Video Camera",
+      "Camera/Handycam",
+      "Camera/Instant Camera"
+     ]
+    },
+    {
+     "slug": "dash-cam",
+     "bn": "ড্যাশ ক্যাম ও বডি ক্যাম",
+     "en": "Dash Cam",
+     "sources": [
+      "Camera/Dash Cam",
+      "Camera/Body Camera"
+     ]
+    },
+    {
+     "slug": "camera-lens",
+     "bn": "ক্যামেরা লেন্স",
+     "en": "Camera Lens",
+     "sources": [
+      "Camera/Camera Lenses"
+     ]
+    },
+    {
+     "slug": "camera-accessories",
+     "bn": "ট্রাইপড ও ক্যামেরা এক্সেসরিজ",
+     "en": "Camera Accessories",
+     "sources": [
+      "Camera/Camera Tripod",
+      "Camera/Camera Accessories"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "power",
+   "bn": "পাওয়ার ও সোলার",
+   "en": "Power & Solar",
+   "leaves": [
+    {
+     "slug": "online-ups",
+     "bn": "অনলাইন ইউপিএস",
+     "en": "Online UPS",
+     "sources": [
+      "Power/Online UPS"
+     ]
+    },
+    {
+     "slug": "mini-ups",
+     "bn": "মিনি ইউপিএস",
+     "en": "Mini UPS",
+     "sources": [
+      "Power/Mini UPS"
+     ]
+    },
+    {
+     "slug": "ups",
+     "bn": "ইউপিএস",
+     "en": "UPS",
+     "sources": [
+      "Power/UPS"
+     ]
+    },
+    {
+     "slug": "ips",
+     "bn": "আইপিএস",
+     "en": "IPS",
+     "sources": [
+      "Power/IPS"
+     ]
+    },
+    {
+     "slug": "power-station",
+     "bn": "পোর্টেবল পাওয়ার স্টেশন",
+     "en": "Power Station",
+     "sources": [
+      "Power/Portable Power Station"
+     ]
+    },
+    {
+     "slug": "battery",
+     "bn": "ইউপিএস ও সোলার ব্যাটারি",
+     "en": "Battery",
+     "sources": [
+      "Power/UPS Battery",
+      "Power/Solar Battery"
+     ]
+    },
+    {
+     "slug": "solar",
+     "bn": "সোলার প্যানেল, ইনভার্টার ও প্যাকেজ",
+     "en": "Solar",
+     "sources": [
+      "Power/Solar Panel",
+      "Power/Solar Inverter",
+      "Power/Solar Package"
+     ]
+    },
+    {
+     "slug": "voltage-stabilizer",
+     "bn": "ভোল্টেজ স্ট্যাবিলাইজার",
+     "en": "AVR",
+     "sources": [
+      "Power/Automatic Voltage Regulator"
+     ]
+    },
+    {
+     "slug": "generator",
+     "bn": "জেনারেটর",
+     "en": "Generator",
+     "sources": [
+      "Power/Generator"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "server",
+   "bn": "সার্ভার ও স্টোরেজ",
+   "en": "Server & Storage",
+   "leaves": [
+    {
+     "slug": "server",
+     "bn": "সার্ভার",
+     "en": "Server",
+     "sources": [
+      "Server & Storage/Server",
+      "Server & Storage/GPU Server"
+     ]
+    },
+    {
+     "slug": "workstation",
+     "bn": "ওয়ার্কস্টেশন",
+     "en": "Workstation",
+     "sources": [
+      "Server & Storage/Workstation"
+     ]
+    },
+    {
+     "slug": "nas-san",
+     "bn": "এনএএস, স্যান ও ড্যাস স্টোরেজ",
+     "en": "NAS/SAN Storage",
+     "sources": [
+      "Server & Storage/NAS Storage",
+      "Server & Storage/SAN Storage",
+      "Server & Storage/DAS Storage"
+     ]
+    },
+    {
+     "slug": "server-parts",
+     "bn": "সার্ভার পার্টস",
+     "en": "Server Parts",
+     "sources": [
+      "Server & Storage/Server HDD",
+      "Server & Storage/Server HDD Bay",
+      "Server & Storage/Server RAM",
+      "Server & Storage/Server SSD",
+      "Server & Storage/Server Power Supply",
+      "Server & Storage/Server Processor"
+     ]
+    },
+    {
+     "slug": "server-rack",
+     "bn": "সার্ভার র‍্যাক",
+     "en": "Server Rack",
+     "sources": [
+      "Server & Storage/Server Rack"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "software",
+   "bn": "সফটওয়্যার",
+   "en": "Software",
+   "leaves": [
+    {
+     "slug": "os-office",
+     "bn": "অপারেটিং সিস্টেম ও অফিস",
+     "en": "OS & Office",
+     "sources": [
+      "Software/Operating System",
+      "Software/Office Application"
+     ]
+    },
+    {
+     "slug": "antivirus",
+     "bn": "অ্যান্টিভাইরাস",
+     "en": "Antivirus",
+     "sources": [
+      "Software/Antivirus"
+     ]
+    },
+    {
+     "slug": "other-software",
+     "bn": "অন্যান্য সফটওয়্যার",
+     "en": "Other Software",
+     "sources": [
+      "Software/Bangla Typing Software",
+      "Software/Adobe",
+      "Software/VMware",
+      "Software/AutoDesk",
+      "Software/AnyDesk",
+      "Software/Database Server Solution",
+      "Software/Mail Server Solution",
+      "Software/Cloud Solutions"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "appliance",
+   "bn": "হোম অ্যাপ্লায়েন্স",
+   "en": "Home Appliance",
+   "leaves": [
+    {
+     "slug": "tv",
+     "bn": "টিভি",
+     "en": "TV",
+     "sources": [
+      "Appliance/TV"
+     ]
+    },
+    {
+     "slug": "ac",
+     "bn": "এসি",
+     "en": "AC",
+     "sources": [
+      "Appliance/AC"
+     ]
+    },
+    {
+     "slug": "fridge",
+     "bn": "ফ্রিজ",
+     "en": "Refrigerator",
+     "sources": [
+      "Appliance/Fridge"
+     ]
+    },
+    {
+     "slug": "washing-machine",
+     "bn": "ওয়াশিং মেশিন",
+     "en": "Washing Machine",
+     "sources": [
+      "Appliance/Washing Machine",
+      "Appliance/Dishwasher"
+     ]
+    },
+    {
+     "slug": "oven",
+     "bn": "ওভেন",
+     "en": "Oven",
+     "sources": [
+      "Appliance/Oven"
+     ]
+    },
+    {
+     "slug": "air-fryer",
+     "bn": "এয়ার ফ্রায়ার",
+     "en": "Air Fryer",
+     "sources": [
+      "Appliance/Air Fryer"
+     ]
+    },
+    {
+     "slug": "cooker",
+     "bn": "রাইস ও প্রেসার কুকার",
+     "en": "Cooker",
+     "sources": [
+      "Appliance/Cooker",
+      "Appliance/Electric Cooker"
+     ]
+    },
+    {
+     "slug": "induction-stove",
+     "bn": "ইন্ডাকশন ও গ্যাস চুলা",
+     "en": "Stove",
+     "sources": [
+      "Appliance/Induction Cooker",
+      "Appliance/Gas Stove",
+      "Appliance/Kitchen Hood"
+     ]
+    },
+    {
+     "slug": "blender",
+     "bn": "ব্লেন্ডার, জুসার ও টোস্টার",
+     "en": "Blender & Juicer",
+     "sources": [
+      "Appliance/Blender & Grinder",
+      "Appliance/Juicer",
+      "Appliance/Toaster",
+      "Appliance/Coffee Maker",
+      "Appliance/Electric Kettle"
+     ]
+    },
+    {
+     "slug": "fan-cooler",
+     "bn": "ফ্যান ও এয়ার কুলার",
+     "en": "Fan & Cooler",
+     "sources": [
+      "Appliance/Fan",
+      "Appliance/Air Cooler",
+      "Appliance/Air Curtain",
+      "Lifestyle/Mini Fan"
+     ]
+    },
+    {
+     "slug": "geyser-heater",
+     "bn": "গিজার ও রুম হিটার",
+     "en": "Geyser & Heater",
+     "sources": [
+      "Appliance/Geyser",
+      "Appliance/Room Heater"
+     ]
+    },
+    {
+     "slug": "water-air-purifier",
+     "bn": "পানি ও বাতাস পরিশোধক",
+     "en": "Purifier",
+     "sources": [
+      "Appliance/Water Purifier",
+      "Appliance/Air Purifier",
+      "Appliance/Dehumidifier"
+     ]
+    },
+    {
+     "slug": "vacuum-cleaner",
+     "bn": "ভ্যাকুয়াম ক্লিনার",
+     "en": "Vacuum Cleaner",
+     "sources": [
+      "Appliance/Vacuum Cleaner"
+     ]
+    },
+    {
+     "slug": "iron",
+     "bn": "ইস্ত্রি",
+     "en": "Iron",
+     "sources": [
+      "Appliance/Iron"
+     ]
+    },
+    {
+     "slug": "sewing-machine",
+     "bn": "সেলাই মেশিন",
+     "en": "Sewing Machine",
+     "sources": [
+      "Appliance/Sewing Machine"
+     ]
+    },
+    {
+     "slug": "light",
+     "bn": "লাইট",
+     "en": "Light",
+     "sources": [
+      "Appliance/Light",
+      "Lifestyle/Table Lamp",
+      "Lifestyle/Torch Light"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lifestyle",
+   "bn": "লাইফস্টাইল ও স্বাস্থ্য",
+   "en": "Lifestyle & Health",
+   "leaves": [
+    {
+     "slug": "grooming",
+     "bn": "ট্রিমার ও হেয়ার কেয়ার",
+     "en": "Grooming",
+     "sources": [
+      "Lifestyle/Trimmer",
+      "Lifestyle/Hair Dryer",
+      "Lifestyle/Hair Straightener",
+      "Lifestyle/Electric Toothbrush"
+     ]
+    },
+    {
+     "slug": "health-device",
+     "bn": "স্বাস্থ্য সরঞ্জাম",
+     "en": "Health Devices",
+     "sources": [
+      "Lifestyle/Blood Pressure Monitor",
+      "Lifestyle/Pulse Oximeter",
+      "Lifestyle/Glucometer",
+      "Lifestyle/Nebulizer Machine",
+      "Lifestyle/Thermometer",
+      "Lifestyle/Weight Scale",
+      "Lifestyle/Massage Gun"
+     ]
+    },
+    {
+     "slug": "treadmill",
+     "bn": "ট্রেডমিল",
+     "en": "Treadmill",
+     "sources": [
+      "Lifestyle/Treadmill"
+     ]
+    },
+    {
+     "slug": "wrist-watch",
+     "bn": "হাতঘড়ি",
+     "en": "Wrist Watch",
+     "sources": [
+      "Lifestyle/Wrist Watch"
+     ]
+    },
+    {
+     "slug": "lifestyle-other",
+     "bn": "অন্যান্য",
+     "en": "Others",
+     "sources": [
+      "Lifestyle/Binocular",
+      "Lifestyle/Mosquito Bat",
+      "Lifestyle/GPS Tracker"
+     ]
+    }
+   ]
+  }
+ ]
+}

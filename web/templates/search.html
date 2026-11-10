@@ -16,7 +16,7 @@
   function draw(){
     var t=q.value.toLowerCase().split(/\s+/).filter(Boolean);
     if(!t.length){out.innerHTML='';none.hidden=true;return}
-    var hits=data.filter(function(d){var n=d.s;return t.every(function(w){return n.indexOf(w)>-1})}).slice(0,60);
+    var hits=data.filter(function(d){var n=d.s||(d.s=(d.n+' '+d.c).toLowerCase());return t.every(function(w){return n.indexOf(w)>-1})}).slice(0,60);
     out.innerHTML=hits.map(function(d){return '<a class="row" href="'+base+'/p/'+d.id+'/"><div style="min-width:0"><div class="n">'+esc(d.n)+'</div><div class="w">'+esc(d.c)+(d.k>1?'<span class="badge">'+d.k+' স্টোর</span>':'')+'</div></div><div><div class="p">'+(d.p?taka(d.p):'—')+'</div></div></a>'}).join('');
     none.hidden=hits.length>0;
   }
