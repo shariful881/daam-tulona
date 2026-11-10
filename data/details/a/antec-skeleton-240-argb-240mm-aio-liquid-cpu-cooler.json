@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-One Liquid Cooler",
+   "Fan Speed": "800 ± 200 ~ 2000 ± 10% RPM",
+   "Fan Airflow": "72.29 CFM (max.)",
+   "Noise": "≤32 dB(A)",
+   "Air Pressure": "3.28 mmH₂O (max.)",
+   "Connector": "Fan: 4pin, ARGB: 3pin",
+   "Material": "Aluminum, Polycarbonate"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator: 277 x 120 x 27 mm\nFan: 120 x 120 x 25 mm\nHead: 67.5 x 66 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X / 1200 / 1700 / 1851 / 20XX",
+   "AMD": "AM3 / AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 2800±10% RPM",
+  "3x 120mm ARGB PWM Radiator Fans",
+  "Suspended Spiral Pump Head Design",
+  "Compatible with Intel and AMD"
+ ],
+ "price": 8300,
+ "regular": 9130,
+ "status": "In Stock",
+ "code": "48888",
+ "brand": "Antec",
+ "model": "Skeleton 240",
+ "warranty": "3 Years",
+ "name": "Antec Skeleton 240 ARGB 240mm AIO Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec Skeleton 240 ARGB 240mm AIO Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-11T01:05+06:00",
+ "source": "https://www.startech.com.bd/antec-skeleton-240-argb-cpu-cooler"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "4GB",
+   "Resolution": "4K@60Hz",
+   "Core Clock": "Base Clock: 1291 MHz\nBoost Clock: 1392 MHz",
+   "Memory Clock": "7Gbps",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "128-Bit",
+   "CUDA Cores": "768"
+  },
+  "Interface": {
+   "Display Port": "1 x DispayPort",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "250W",
+   "Consumption": "75W"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 4096MB GDDR5, CUDA Core: 768",
+  "Base Clock: 1291 MHz, Boost Clock: 1392 MHz",
+  "Memory Clock: 7Gbps, Bus Standard: PCI Express 3.0",
+  "Interface: 1 x DVI, 1 x HDMI, 1x DisplayPort"
+ ],
+ "price": 24500,
+ "regular": 26950,
+ "status": "In Stock",
+ "code": "48632",
+ "brand": "AFOX",
+ "model": "GTX 1050 Ti",
+ "warranty": "02 Years",
+ "name": "AFOX NVIDIA GeForce GTX 1050 Ti 4GB GDDR5 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX NVIDIA GeForce GTX 1050 Ti 4GB GDDR5 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-gtx-1050-ti-4gb-graphics-card"
+}

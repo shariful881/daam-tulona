@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "Up to 5.1GHz",
+   "Cache": "Total L1 Cache: 384KB\nTotal L2 Cache: 6MB\nTotal L3 Cache: 32MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4x1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.8GHz Up to 5.1GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 32MB",
+  "Socket: AM5"
+ ],
+ "price": 1750020000,
+ "regular": 20070,
+ "status": "In Stock",
+ "code": "28626",
+ "brand": "AMD",
+ "model": "Ryzen 5 7600 (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 5 7600 Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 7600 Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-7600-processor"
+}

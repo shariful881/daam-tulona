@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.2GHz",
+   "Maximum Turbo Frequency": "Up to 5.7GHz",
+   "Cache": "Total L1 Cache: 1MB\nTotal L2 Cache: 16MB\nTotal L3 Cache: 128MB",
+   "Cores": "16",
+   "Threads": "32",
+   "Default TDP": "120W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128GB",
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4x1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.2GHz Up to 5.7GHz",
+  "Cores: 16, Threads: 32",
+  "L3 Cache: 128MB",
+  "CPU Socket: AM5"
+ ],
+ "price": 4850051500,
+ "regular": 52410,
+ "status": "In Stock",
+ "code": "31172",
+ "brand": "AMD",
+ "model": "Ryzen 9 7950X3D (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 9 7950X3D Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 7950X3D Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-7950x3d-processor"
+}

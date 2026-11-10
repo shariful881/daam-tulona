@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "600±200~2000±10% RPM",
+   "Air Flow": "57.93 CFM (max.)",
+   "Air Pressure": "2.11 mmH₂O (max.)",
+   "Noise (dBA)": "17.02~31.24 dB(A)",
+   "Bearing Type": "Hydraulic Bearing",
+   "LED Type": "Addressable RGB",
+   "Input Current": "Rated Current\nFAN : ≤ 0.21 A | LED : ≤ 0.58 A",
+   "Operating Voltage/Power Range": "Fan Rated Voltage\nFAN: DC 12 V | LED: DC 5 V\nOperation Voltage\nFAN: DC 6.0-13.8 V | LED: DC 4.5-5.5 V"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Size": "120X120X25mm",
+   "Connector": "FAN: 4-pin PWM | LED: 3-pin"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "01-Year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Type: PWM Fan",
+  "Bearing Type: Hydraulic Bearing",
+  "LED Type: Addressable RGB",
+  "Fan Speed: 600±200~2000±10% RPM"
+ ],
+ "status": "Out Of Stock",
+ "code": "26335",
+ "brand": "Antec",
+ "model": "Fusion 120",
+ "warranty": "01-Year warranty",
+ "name": "Antec Fusion 120 ARGB Case Fan White (5 in 1 Pack)",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Antec",
+  "Antec Fusion 120 ARGB Case Fan White (5 in 1 Pack)"
+ ],
+ "fetched": "2026-11-11T01:03+06:00",
+ "source": "https://www.startech.com.bd/antec-fusion-120-argb-case-fan-white"
+}

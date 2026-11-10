@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Power": "Rated Voltage: DC 12V\nRated Current: 5A",
+   "Connectivity": "Supported Chassis Type: E-AT, ATX, Micro ATX(Conditional)\nSupported Graphics Cards: Max. 3 slots wide\nPCI Slot Number: Min. 4 PCI slots required",
+   "Others": "Cable Length: 190 mm\nPCle Standard: PCle 5.0 x 16\nCompatibility: PCle 5.0 and older\nLED Type: 3-Pin 5V ARGB Connectors"
+  },
+  "Physical Description": {
+   "Color": "Black ARGB",
+   "Weight": "Net Weight: 0.94 kg\nGross Weight: 1.13 kg",
+   "Dimensions": "284.1 (L) × 145(W) x 133.1 (H) mm (close)\n337.6(L) × 178(W) x 195.6(H) mm (open)"
+  },
+  "Manufacturing Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Supported Chassis Type: E-AT, ATX, Micro ATX (Conditional)",
+  "Supported Graphics Cards: Max. 3 slots wide",
+  "Riser Cable Length: 190mm PCI-E 5.0 Riser Cable",
+  "LED Type: 3-Pin 5V ARGB Connectors"
+ ],
+ "status": "Up Coming",
+ "code": "46413",
+ "brand": "Antec",
+ "mpn": "AT-ARCVB-BK190-A-PCIE5",
+ "model": "SHIFT ARGB",
+ "warranty": "No Warranty",
+ "name": "Antec SHIFT ARGB Vertical GPU Bracket With PCI-E 5.0 Riser Cable",
+ "breadcrumb": [
+  "Component",
+  "Vertical GPU Holder",
+  "Antec SHIFT ARGB Vertical GPU Bracket With PCI-E 5.0 Riser Cable"
+ ],
+ "fetched": "2026-11-11T01:05+06:00",
+ "source": "https://www.startech.com.bd/antec-shift-argb-gpu-bracket"
+}

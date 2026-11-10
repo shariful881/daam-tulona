@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "Up to 4.7GHz",
+   "Cache": "Total L2 Cache: 4MB\nTotal L3 Cache: 32MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "105W",
+   "Supported Technologies": "AMD \"Zen 3\" Core Architecture\nAMD StoreMI Technology\nAMD Ryzen Master Utility\nAMD Ryzen VR-Ready Premium",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 3200MHz",
+   "Type": "DDR4"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "3.8GHz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.8GHz Up to 4.7GHz",
+  "L2 Cache: 4MB, L3 Cache: 32MB",
+  "Cores: 8, Threads: 16",
+  "Socket: AM4"
+ ],
+ "price": 23800,
+ "regular": 26000,
+ "status": "In Stock",
+ "code": "15077",
+ "brand": "AMD",
+ "model": "Ryzen 7 5800X (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 5800X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 5800X Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-5800x-processor"
+}

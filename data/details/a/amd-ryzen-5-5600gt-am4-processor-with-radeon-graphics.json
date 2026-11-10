@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Maximum Turbo Frequency": "4.6GHz",
+   "Cache": "Total L2 Cache: 3MB\nTotal L3 Cache: 16MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128GB",
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.6GHz; Up to 4.6GHz",
+  "L2 Cache: 3MB; L3 Cache: 16MB",
+  "6 Cores & 12 Threads",
+  "CPU Socket: AM4"
+ ],
+ "price": 1790018500,
+ "regular": 19500,
+ "status": "In Stock",
+ "code": "37788",
+ "brand": "AMD",
+ "model": "Ryzen 5 5600GT (Tray Box)",
+ "warranty": "03 Years Warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 5600GT AM4 Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 5600GT AM4 Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-5600gt-processor"
+}

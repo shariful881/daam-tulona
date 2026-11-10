@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "1350 rpm",
+   "Air Flow": "53 cfm | 90.1 m³/h",
+   "Air Pressure": "Static Pressure: 1.00 mmH2O",
+   "Noise (dBA)": "0.3 Sone",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Input Current": "0.12 A"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Materials": "Plastic, Rubber, PCB",
+   "Size": "120 x 120 x 25mm",
+   "Weight": "107 g",
+   "Connector": "3-Pin Connector"
+  },
+  "Others": {
+   "Others": "Operating Ambient Temperature: 0—40 °C\nTypical Voltage: 12 V DC\nStarting Voltage: 2.7 V\nControl Type: Fixed Speed"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "06-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Connector: 3-Pin",
+  "Airflow: 53 cfm | 90.1 m³/h",
+  "Speed: 1350 rpm",
+  "Bearing: Fluid Dynamic Bearing (FDB)"
+ ],
+ "price": 900,
+ "regular": 990,
+ "status": "In Stock",
+ "code": "40073",
+ "brand": "ARCTIC",
+ "model": "F12",
+ "warranty": "06-year Warranty",
+ "name": "Arctic F12 120 mm Casing Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "ARCTIC",
+  "Arctic F12 120 mm Casing Fan"
+ ],
+ "fetched": "2026-11-11T01:08+06:00",
+ "source": "https://www.startech.com.bd/arctic-f12-casing-fan"
+}

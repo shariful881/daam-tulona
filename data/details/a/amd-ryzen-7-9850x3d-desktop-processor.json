@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.7 GHz",
+   "Maximum Turbo Frequency": "Up to 5.6 GHz",
+   "Cache": "L1 Cache: 640 KB\nL2 Cache: 8 MB\nL3 Cache: 96 MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "120W",
+   "Supported Technologies": "AMD EXPO Technology\nPrecision Boost 2\nUnlocked for Overclocking\nNative USB 3.2 Gen 2 (10Gbps): 4\nNative USB 2.0 (480Mbps): 1\nPCI Express Version: PCIe 5.0\nNative PCIe Lanes (Total/Usable): 28 , 24\nSupporting Chipsets:\nA620 , X670E , X670 , B650E , B650 , X870E , X870 , B840 , B850",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "2x1R\tDDR5-5600\n2x2R\tDDR5-5600\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.7GHz Up to 5.6GHz",
+  "Cores: 8, Threads: 16",
+  "L1 Cache: 640 KB, L2 Cache: 8 MB, L3 Cache: 96 MB",
+  "CPU Socket: AM5"
+ ],
+ "status": "Out Of Stock",
+ "code": "47956",
+ "brand": "AMD",
+ "model": "RYZEN 7 9850X3D",
+ "warranty": "03 years warranty",
+ "name": "AMD RYZEN 7 9850X3D Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD RYZEN 7 9850X3D Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-9850x3d-processor"
+}

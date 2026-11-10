@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "8GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL16-18-18",
+   "Others": "HeatSink"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Black",
+   "Pin": "288 pin UDIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB, Type: DDR4",
+  "Frequency: 3200 MHz",
+  "Form Factor: 288-Pin UDIMM",
+  "Voltage & Cas Latency: 1.35V/CL16"
+ ],
+ "price": 78008600,
+ "regular": 9460,
+ "status": "In Stock",
+ "code": "53591",
+ "brand": "Addlink",
+ "mpn": "AG8GB32C16S4UB",
+ "model": "Spider S4",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Addlink Spider S4 8GB DDR4 3200MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Addlink",
+  "Addlink Spider S4 8GB DDR4 3200MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/addlink-spider-s4-8gb-3200mhz-ram"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7GHz",
+   "Maximum Turbo Frequency": "Up to 4.7 GHz",
+   "Cache": "L1 Cache: 384 KB\nL2 Cache: 6 MB\nL3 Cache: 32 MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies\nZen 4 Architecture"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "Max 128GB",
+   "Maximum Speed": "2x1R\tDDR5-5200\n2x2R\tDDR5-5200\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.7GHz up to 4.7 GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 32MB",
+  "Socket: AM5"
+ ],
+ "status": "Out Of Stock",
+ "code": "39868",
+ "brand": "AMD",
+ "model": "Ryzen 5 7400F (Tray Box)",
+ "warranty": "3 years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 7400F Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 7400F Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-7400f-processor"
+}

@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "NVIDIA Geforce GT 610",
+   "Size": "2GB",
+   "Resolution": "D-Sub Max Resolution: 2048 x 1536\nDVI Max Resolution: 2560 x 1600",
+   "Core Clock": "Base Clock : 810 MHz",
+   "Memory Clock": "1333 MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-Bit"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI",
+   "D-Sub": "1 x VGA",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 2048MB GDDR3",
+  "Engine Clock: 810 MHz, Memory Clock: 1333 MHz",
+  "Resolution: 2560 x 1600",
+  "Interface: 1 x DVI, 1 x HDMI, 1 x D-Sub"
+ ],
+ "price": 5500,
+ "regular": 5970,
+ "status": "In Stock",
+ "code": "48621",
+ "brand": "AFOX",
+ "model": "GT 610",
+ "warranty": "02 Years",
+ "name": "AFOX NVIDIA GeForce GT 610 2GB GDDR3 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX NVIDIA GeForce GT 610 2GB GDDR3 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-gt-610-2gb-graphics-card"
+}

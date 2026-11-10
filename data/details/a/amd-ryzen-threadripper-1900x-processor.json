@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8 GHz",
+   "Maximum Turbo Frequency": "Up to 4 GHz",
+   "Cache": "L1 Cache: 768 KB\nL2 Cache: 4 MB\nL3 Cache: 16 MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "180W",
+   "Supported Technologies": "14nm",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 2667 MT/s",
+   "Type": "DDR4"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "N/A"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Base 3.8 GHz to Max Turbo 4GHz",
+  "Cache- 768KB L1, 4MB L2, 16MB L3",
+  "Cores-8 & Threads-16",
+  "AMD Ryzen VR-Ready Premium"
+ ],
+ "status": "Out Of Stock",
+ "code": "6746",
+ "brand": "AMD",
+ "model": "Ryzen Threadripper 1900X (Tray Box)",
+ "warranty": "3 Years Warranty",
+ "name": "AMD Ryzen Threadripper 1900X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen Threadripper 1900X Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-threadripper-1900x"
+}

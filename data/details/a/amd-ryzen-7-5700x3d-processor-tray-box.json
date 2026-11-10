@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.0GHz",
+   "Maximum Turbo Frequency": "Up to 4.1GHz",
+   "Cache": "L1 Cache: 512KB\nL2 Cache: 4MB\nL3 Cache: 96MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "105W",
+   "Supported Technologies": "AMD StoreMI Technology\nAMD \"Zen 3\" Core Architecture\nAMD Ryzen™ Master Utility\nAMD Ryzen™ VR-Ready Premium",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128GB",
+   "Maximum Speed": "2x1R: DDR4-3200\n2x2R: DDR4-3200\n4x1R: DDR4-2933\n4x2R: DDR4-2667",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "N/A"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.0GHz up to 4.1GHz",
+  "Cache: L1: 512KB, L2: 4MB, L3: 96MB",
+  "CPU Cores: 8, Threads: 16",
+  "CPU Socket: AM4"
+ ],
+ "price": 3390038700,
+ "regular": 38500,
+ "status": "In Stock",
+ "code": "34168",
+ "brand": "AMD",
+ "model": "Ryzen 7 5700X3D (Tray Box)",
+ "warranty": "3 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 5700X3D Processor (Tray Box)",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 5700X3D Processor (Tray Box)"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-5700x3d-processor"
+}

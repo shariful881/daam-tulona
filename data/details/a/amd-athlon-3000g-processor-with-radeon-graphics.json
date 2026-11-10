@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Cache": "Total L1 Cache: 192KB\nTotal L2 Cache: 1MB\nTotal L3 Cache: 4MB",
+   "Cores": "2",
+   "Threads": "4",
+   "Default TDP": "35W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2667MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon Vega 3 Graphics",
+   "Base Frequency": "1100 MHz",
+   "Core Count": "3"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz",
+  "Cache: L2: 1MB, L3: 4MB",
+  "Cores-2 & Threads-4",
+  "Memory Speed: 2667MHz"
+ ],
+ "status": "Out Of Stock",
+ "code": "13593",
+ "brand": "AMD",
+ "model": "Athlon 3000G (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Athlon 3000G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Athlon 3000G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-athlon-3000g-processor"
+}

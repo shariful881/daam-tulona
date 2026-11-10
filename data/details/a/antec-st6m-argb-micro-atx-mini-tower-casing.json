@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mini Tower",
+   "Front Panel": "Mesh Front Panel",
+   "Tempered  Glass Panel": "N/A",
+   "Motherboard Support": "Micro-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic",
+   "Weight": "1.69 kg",
+   "Dimensions": "285 x 160 x 380mm (DWH)",
+   "Expansion Slots": "4",
+   "Fan Support": "Front: 3x 90mm\nRear: 1x 80mm/ 90mm",
+   "Pre- Installed Fans": "3 x 90mm ARGB fans at the front +\n1 x 90mm fan at the rear",
+   "Drive Bays": "3.5\": 1\n2.5\": 1",
+   "I/O Port": "Power, Reset, USB3.0 x 1, USB2.0 x 1, Mic/ HD-Audio"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 145mm",
+   "Maximum Graphics Card Length": "≤ 245mm",
+   "Maximum PSU Length": "≤ 245mm (Include cable)"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Micro-ATX, ITX",
+  "Solid Side Panel With Side Vent, Mesh Front Panel",
+  "Pre-Install Fans: 3x 90mm ARGB in Front, 1x 80mm in Rear",
+  "I/O Ports: 1x USB3.0, 1x USB2.0, 1x Mic/ HD-Audio"
+ ],
+ "price": 24502500,
+ "regular": 2750,
+ "status": "In Stock",
+ "code": "48767",
+ "brand": "Antec",
+ "model": "ST6M ARGB",
+ "warranty": "No Warranty",
+ "name": "Antec ST6M ARGB Micro-ATX Mini Tower Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec ST6M ARGB Micro-ATX Mini Tower Casing"
+ ],
+ "fetched": "2026-11-11T01:06+06:00",
+ "source": "https://www.startech.com.bd/antec-st6m-argb-casing"
+}

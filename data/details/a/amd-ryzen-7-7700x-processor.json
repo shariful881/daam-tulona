@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.5GHz",
+   "Maximum Turbo Frequency": "Up to 5.4GHz",
+   "Cache": "Total L1 Cache: 512KB\nTotal L2 Cache: 8MB\nTotal L3 Cache: 32MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "105W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "DDR5-5200MHz, DDR5-3600MHz",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.5GHz Up to 5.4GHz",
+  "Cores: 8, Threads: 16",
+  "L2 Cache: 8MB, L3 Cache: 32MB",
+  "Socket: AM5"
+ ],
+ "price": 2300025300,
+ "regular": 25600,
+ "status": "In Stock",
+ "code": "24216",
+ "brand": "AMD",
+ "model": "Ryzen 7 7700X (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 7 7700X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 7700X Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-7700x-processor"
+}

@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7GHz",
+   "Maximum Turbo Frequency": "Up to 4.8GHz",
+   "Cache": "Total L2 Cache: 6MB\nTotal L3 Cache: 64MB",
+   "Cores": "12",
+   "Threads": "24",
+   "Default TDP": "105W",
+   "Supported Technologies": "AMD \"Zen 3\" Core Architecture\nAMD StoreMI Technology\nAMD Ryzen Master Utility\nAMD Ryzen VR-Ready Premium",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 3200MHz",
+   "Type": "DDR4"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "3.7GHz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years Warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 3.7GHz Up to 4.8GHz",
+  "L2 Cache: 6MB, L3 Cache: 64MB",
+  "Cores: 12, Threads: 24",
+  "Up to 3200MHz DDR4"
+ ],
+ "price": 3590038000,
+ "regular": 39000,
+ "status": "In Stock",
+ "code": "15078",
+ "brand": "AMD",
+ "model": "Ryzen 9 5900X (Tray Box)",
+ "warranty": "03 years Warranty",
+ "name": "AMD Ryzen 9 5900X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 5900X Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-5900x-processor"
+}

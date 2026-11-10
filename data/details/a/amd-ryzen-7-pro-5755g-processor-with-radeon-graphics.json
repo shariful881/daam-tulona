@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "Up to 4.6GHz",
+   "Cache": "Total L2 Cache: 4MB\nTotal L3 Cache: 16MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "65W",
+   "Supported Technologies": "Display Port: Yes\nHDMI: Yes"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "TSMC 7nm FinFET",
+   "Maximum Speed": "Up to 3200 MT/s",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon Graphics",
+   "Base Frequency": "2000 MHz",
+   "Core Count": "8"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: Base: 3.8GHz Boost: up to 4.6GHz",
+  "Cache: L2: 4MB, L3: 16MB; TDP: 65W",
+  "CPU Cores-8 ; Threads-16",
+  "CPU Socket: AM4"
+ ],
+ "price": 2150022500,
+ "regular": 23440,
+ "status": "In Stock",
+ "code": "50691",
+ "brand": "AMD",
+ "model": "Ryzen 7 PRO 5755G (Tray Box)",
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 PRO 5755G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 PRO 5755G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-pro-5755g-processor"
+}

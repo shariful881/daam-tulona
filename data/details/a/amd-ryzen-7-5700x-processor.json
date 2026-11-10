@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.4GHz",
+   "Maximum Turbo Frequency": "4.6GHz",
+   "Cache": "Total L1 Cache: 512KB\nTotal L2 Cache: 4MB\nTotal L3 Cache: 32MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "65W",
+   "cTDP": "45-65W",
+   "Supported Technologies": "Display Port: Yes\nHDMI: Yes",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "N/A"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Speed: 3.4GHz Up to 4.6GHz",
+  "L2 Cache: 4MB, L3 Cache: 32MB",
+  "Cores: 8, Threads: 16",
+  "Up to 3200MHz DDR4"
+ ],
+ "price": 1650018500,
+ "regular": 18200,
+ "status": "In Stock",
+ "code": "22326",
+ "brand": "AMD",
+ "model": "Ryzen 7 5700X (Tray Box)",
+ "warranty": "03 Years",
+ "name": "AMD Ryzen 7 5700X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 5700X Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-5700x-processor"
+}

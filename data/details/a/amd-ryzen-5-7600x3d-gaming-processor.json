@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.1GHz",
+   "Maximum Turbo Frequency": "Up to 4.7GHz",
+   "Cache": "L1 Cache: 384 KB\nL2 Cache: 6 MB\nL3 Cache: 96 MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "2x1R\tDDR5-5200\n2x2R\tDDR5-5200\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.1GHz Up to 4.7GHz",
+  "Cores: 6, Threads: 12",
+  "L1 Cache: 384 KB, L2 Cache: 6 MB, L3 Cache: 96MB",
+  "CPU Socket: AM5"
+ ],
+ "status": "Out Of Stock",
+ "code": "38732",
+ "brand": "AMD",
+ "model": "Ryzen 5 7600X3D (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 7600X3D Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 7600X3D Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-7600x3d-processor"
+}

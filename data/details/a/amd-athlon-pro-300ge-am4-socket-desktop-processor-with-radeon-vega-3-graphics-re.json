@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.4GHz",
+   "Cache": "Total L1 Cache 192KB\nTotal L2 Cache 1MB\nTotal L3 Cache 4MB",
+   "Cores": "CPU Cores 2\nGPU Cores 3\nCompute Cores: 5 (2 CPU + 3 GPU)",
+   "Threads": "4",
+   "Default TDP": "35W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2667MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "1100 MHz",
+   "Core Count": "3"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Base Clock Speed 3.4GHz",
+  "Package AM4",
+  "PCI Express PCIe 3.0"
+ ],
+ "price": 34994200,
+ "regular": 4000,
+ "status": "In Stock",
+ "code": "13313",
+ "brand": "AMD",
+ "model": "Athlon PRO 300GE (Tray Box)",
+ "warranty": "3 Years",
+ "name": "AMD Athlon PRO 300GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics (Rebox)",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Athlon PRO 300GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics (Rebox)"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-athlon-pro-300ge-processor"
+}

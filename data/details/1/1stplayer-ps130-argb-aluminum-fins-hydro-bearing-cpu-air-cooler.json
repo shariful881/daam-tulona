@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "AirCooler",
+   "Fan Speed": "500 - 1600 RPM",
+   "Fan Airflow": "77.97 CMF",
+   "Noise": "32.3 dBA MAX",
+   "Air Pressure": "1.77 mm-H20",
+   "Connector": "Fan Connector: 4 pin (PWM) + 3 pin (ARGB)",
+   "Material": "Aluminum fins",
+   "Others": "RATED CURRENT : 0.20 A MAX\nRATED VOLTAGE: 12 V\nNUMBER OF HEAT PIPES: D6 x 2 + D8 x 2\nFAN BEARING TYPE: Hydro bearing\nTDP: 220 W\nFAN MTTF: 30,000 hours"
+  },
+  "Physical Specification": {
+   "Dimension": "130 x 90 x 157 mm\nFAN DIMENSIONS (L x W x H)130 x 130 x 30 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA 115x / 1200 / 1700",
+   "AMD": "AMD AM5 / AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Heat Sink Material: Aluminum fins",
+  "Supported CPU: Intel LGA 115x / 1200 / 1700, AMD AM5 / AM4",
+  "Fan Speed: 500 - 1600 RPM",
+  "Fan Connector: 4 pin (PWM) + 3 pin (ARGB)"
+ ],
+ "status": "Out Of Stock",
+ "code": "38851",
+ "brand": "1STPLAYER",
+ "model": "PS130",
+ "warranty": "05 Years",
+ "name": "1STPLAYER PS130 ARGB Aluminum Fins Hydro Bearing CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "1STPLAYER",
+  "1STPLAYER PS130 ARGB Aluminum Fins Hydro Bearing CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T00:50+06:00",
+ "source": "https://www.startech.com.bd/1stplayer-ps130-argb-cpu-air-cooler"
+}

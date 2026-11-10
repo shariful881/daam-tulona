@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "4K@60Hz",
+   "Core Clock": "Base Clock: 1500 MHz\nBoost Clock: 1770 MHz",
+   "Memory Clock": "12 Gbps",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "192-Bit",
+   "CUDA Cores": "1536"
+  },
+  "Interface": {
+   "Display Port": "1 x DispayPort",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 6144MB GDDR6, CUDA Core: 1536",
+  "Base Clock: 1500 MHz, Boost Clock: 1770 MHz",
+  "Memory Clock: 12Gbps, Bus Standard: PCI Express 3.0",
+  "Interface: 1 x DVI, 1 x HDMI, 1x DisplayPort"
+ ],
+ "price": 33000,
+ "regular": 36000,
+ "status": "In Stock",
+ "code": "48633",
+ "brand": "AFOX",
+ "model": "Geforce GTX 1660Ti 6GB GDDR6 ATX Dual Fan",
+ "warranty": "02 Years",
+ "name": "AFOX Geforce GTX 1660Ti 6GB GDDR6 ATX Dual Fan Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX Geforce GTX 1660Ti 6GB GDDR6 ATX Dual Fan Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-geforce-gtx-1660ti-6gb-gddr6-atx-dual-fan-gpu"
+}

@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7GHz",
+   "Maximum Turbo Frequency": "4.2GHz",
+   "Cache": "Total L2 Cache: 3MB\nTotal L3 Cache: 8MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "cTDP": "45-65W",
+   "Supported Technologies": "Display Port: Yes\nHDMI: Yes"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon Graphics",
+   "Base Frequency": "1900 MHz",
+   "Core Count": "7"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.7GHz up to 4.2GHz",
+  "Cache: L2: 3MB, L3: 8MB",
+  "Cores-6 & Threads-12",
+  "Memory Speed: Up to 3200MHz"
+ ],
+ "status": "Up Coming",
+ "code": "17040",
+ "brand": "AMD",
+ "model": "Ryzen 5 4600G (Tray Box)",
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 4600G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 4600G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-4600g-processor"
+}

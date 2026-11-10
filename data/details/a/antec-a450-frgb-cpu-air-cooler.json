@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooling\nPWM FRGB Fan",
+   "Fan Speed": "800-1600 RPM ± 10%",
+   "Fan Airflow": "62 CFM max.",
+   "Noise": "26dB(A) max.",
+   "Air Pressure": "1.98mmH2O max.",
+   "Connector": "Fan: 4 pin",
+   "Others": "Lifespan: 30000 hrs\nRated Voltage: 12VDC\nHeat Sink Material: 4 Heat Pipes, Aluminum Fins\nPower Consumption: 3W\nTDP: 180W"
+  },
+  "Physical Specification": {
+   "Dimension": "120 x 73 x 148mm (DWH)",
+   "Weight": "0.583 kg"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1156 / 1155 / 1151 / 1150 / 775 / 1700 / 1851 (Core Ultra 5 under TDP 180W)",
+   "AMD": "AM4/AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 800-1600 RPM ± 10%",
+  "Airflow: 62 CFM max.",
+  "Noise: 26dB(A) max.",
+  "Supports both Intel and AMD"
+ ],
+ "price": 1900,
+ "regular": 2090,
+ "status": "In Stock",
+ "code": "51540",
+ "brand": "Antec",
+ "model": "A450 FRGB",
+ "warranty": "1 year warranty",
+ "name": "Antec A450 FRGB CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec A450 FRGB CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T01:00+06:00",
+ "source": "https://www.startech.com.bd/antec-a450-frgb-cpu-air-cooler"
+}

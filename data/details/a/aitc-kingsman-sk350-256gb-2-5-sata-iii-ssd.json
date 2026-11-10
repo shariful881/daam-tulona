@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA III (6 Gbps)",
+   "Sequential R/W": "Read Speed: 560MB/s (Max)\nWrite Speed:\t520MB/s (Max)",
+   "MTBF": "1,000,000 hours",
+   "Others": "Operating Voltage：DC5V ± 10%"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 560MB/s (Max), Write: 520MB/s (Max)"
+ ],
+ "status": "Out Of Stock",
+ "code": "41697",
+ "brand": "AITC",
+ "mpn": "KSSK350S256250",
+ "model": "SK350",
+ "warranty": "05 Years",
+ "name": "AITC KINGSMAN SK350 256GB 2.5\" SATA III SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "AITC",
+  "AITC KINGSMAN SK350 256GB 2.5\" SATA III SSD"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/aitc-kingsman-sk350-256gb-sata-ssd"
+}

@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "2GB",
+   "Resolution": "(2560 x 1600) Max",
+   "Core Clock": "Engine Clock: 800 MHz",
+   "Memory Clock": "3.40Gbps",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "128-Bit"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI",
+   "D-Sub": "1 x D-Sub (VGA)",
+   "DVI": "1 x DVI"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 2GB GDDR5",
+  "Engine Clock: 800 MHz",
+  "Resolution: 2560 x 1600",
+  "Port: 1 x DVI, 1 x VGA, 1 x HDMI"
+ ],
+ "price": 9700,
+ "regular": 10500,
+ "status": "In Stock",
+ "code": "51801",
+ "brand": "AFOX",
+ "mpn": "AFR7350-2048D5H4/AFR7350-2048D5H4-V3",
+ "model": "Radeon R7 350",
+ "warranty": "02 Years Warranty",
+ "name": "AFOX Radeon R7 350 2GB GDDR5 Single Fan Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX Radeon R7 350 2GB GDDR5 Single Fan Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-radeon-r7-350-2gb-graphics-card"
+}

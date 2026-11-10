@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Cache": "Total L2 Cache: 4MB\nTotal L3 Cache: 32MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.4GHz",
+  "Cache: L2: 4MB, L3: 32MB",
+  "Cores-8 & Threads-16",
+  "Memory Speed: 3200MHz"
+ ],
+ "status": "Out Of Stock",
+ "code": "10168",
+ "brand": "AMD",
+ "model": "Ryzen 7 3700X",
+ "warranty": "03 years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 3700X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 3700X Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-3700x-processor"
+}

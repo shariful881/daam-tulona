@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Cache": "Total L2 Cache: 3MB\nTotal L3 Cache: 32MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "3.6GHz",
+   "Max Dynamic Frequency": "4.2GHz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.2GHz",
+  "Cache: L2: 3MB, L3: 32MB",
+  "Cores-6 & Threads-12",
+  "Memory Speed: 3200MHz"
+ ],
+ "status": "Out Of Stock",
+ "code": "10171",
+ "brand": "AMD",
+ "model": "Ryzen 5 3600 (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 3600 Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 3600 Processor"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-3600-processor"
+}

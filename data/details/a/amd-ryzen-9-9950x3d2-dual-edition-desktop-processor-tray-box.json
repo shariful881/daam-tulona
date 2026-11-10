@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.3 GHz",
+   "Maximum Turbo Frequency": "Up to 5.6 GHz",
+   "Cache": "Total L1 Cache: 1280KB\nTotal L2 Cache: 16MB\nTotal L3 Cache: 192MB",
+   "Cores": "16",
+   "Threads": "32",
+   "Default TDP": "200W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies\nPrecision Boost 2",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256 GB",
+   "Maximum Speed": "2x1R\tDDR5-5600\n2x2R\tDDR5-5600\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: Base: 4.3GHz, Boost: Up to 5.6GHz",
+  "Cores: 16; Threads: 32",
+  "Cache: L1 : 1280KB; L2 : 16MB; L3 : 192MB",
+  "CPU Socket: AM5"
+ ],
+ "price": 115000127000,
+ "regular": 126500,
+ "status": "In Stock",
+ "code": "53838",
+ "brand": "AMD",
+ "model": "Ryzen 9 9950X3D2 (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 9 9950X3D2 Dual Edition Desktop Processor (Tray Box)",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 9950X3D2 Dual Edition Desktop Processor (Tray Box)"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-9950x3d2-processor"
+}

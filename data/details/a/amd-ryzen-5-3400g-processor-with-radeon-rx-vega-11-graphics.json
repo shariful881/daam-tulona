@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7GHz",
+   "Maximum Turbo Frequency": "4.2GHz",
+   "Cache": "Total L2 Cache: 2MB\nTotal L3 Cache: 4MB",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2933MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon RX Vega 11 Graphics",
+   "Base Frequency": "1400 MHz",
+   "Core Count": "11"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.7GHz up to 4.2GHz",
+  "Cache: L2: 2MB, L3: 4MB",
+  "Cores-4 & Threads-8",
+  "Memory Speed: Up to 2933MHz"
+ ],
+ "price": 69007490,
+ "regular": 7490,
+ "status": "In Stock",
+ "code": "10293",
+ "brand": "AMD",
+ "model": "Ryzen 5 3400G (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 3400G Processor with Radeon RX Vega 11 Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 3400G Processor with Radeon RX Vega 11 Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-3400g-processor"
+}

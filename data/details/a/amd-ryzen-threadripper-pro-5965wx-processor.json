@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "Up to 4.5GHz",
+   "Cache": "L1 Cache: 1.5MB\nL2 Cache: 12MB\nL3 Cache: 128MB",
+   "Cores": "24",
+   "Threads": "48",
+   "Default TDP": "280W",
+   "Supported Technologies": "AMD \"Zen 3\" Core Architecture"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "8"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Discrete Graphics Card Required"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.8GHz up to 4.5GHz",
+  "Cache: L2: 12MB, L3: 128MB",
+  "Cores: 24, Threads: 48",
+  "CPU Socket: sWRX8"
+ ],
+ "status": "Pre Order",
+ "code": "29002",
+ "brand": "AMD",
+ "model": "Ryzen Threadripper PRO 5965WX",
+ "warranty": "03 years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen Threadripper PRO 5965WX Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen Threadripper PRO 5965WX Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-threadripper-pro-5965wx-processor"
+}

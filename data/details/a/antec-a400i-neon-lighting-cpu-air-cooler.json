@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "PWM RGB LED Fan",
+   "Fan Speed": "800-1800 RPM (PWM) ± 10%",
+   "Fan Airflow": "72 CFM max.",
+   "Noise": "20-36db (A)",
+   "Air Pressure": "2.1mmH2o (Max)",
+   "Connector": "Fan: 4 pin",
+   "Material": "4 Heat Pipes, Aluminum Fins",
+   "Others": "Rated Voltage: 12VDC"
+  },
+  "Physical Specification": {
+   "Dimension": "Product: 128 x 76 x 155mm (DWH)\nFan: 120 x 120 x 25mm\nHeat Pipe: Φ6mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1151 / 1150 / 1155 / 1156 /1366 / 2011 / LGA1200 / LGA1700",
+   "AMD": "AM4/AM3+ / AM3 / AM2+ /AM2 / FM2+ / FM2 / FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Speed: 800-1800 RPM (PWM) Â± 10%",
+  "Airflow: 72 CFM max.",
+  "Noise: 20-36db (A)",
+  "Supports both Intel & AMD"
+ ],
+ "status": "Out Of Stock",
+ "code": "22369",
+ "brand": "Antec",
+ "model": "A400i",
+ "warranty": "1 year",
+ "name": "Antec A400i Neon Lighting CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec A400i Neon Lighting CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T01:00+06:00",
+ "source": "https://www.startech.com.bd/antec-a400i-neon-lighting-cpu-air-cooler"
+}

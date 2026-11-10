@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Platinum",
+   "Fan Size": "135mm FDB Silent Fan",
+   "Lighting Effect": "N/A",
+   "Others": "Active PFC\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO\nRegulatory: cTUVus / TUV / CB / RCM / CE / FCC /\nBSMI / 3C / UKCA / ICES\nATX 3.1 & PCIe 5.1 Compatible\nHigh-Quality Japanese Capacitors\nPhaseWave Design\nZero RPM Manager"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "50Hz-60Hz",
+   "Current": "15A"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "2200W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4) pin MB",
+   "CPU": "3 x 8(4+4)pin CPU",
+   "PCI-E": "2 x 16(12+4)pin PCIE 5.1 12V-2x6\n2 x 12V-2x6 (2x8pin to 12+4pin)\n4 x 8(6+2)pin PCI-E",
+   "SATA": "18 x SATA",
+   "Molex": "3 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "12 Years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 2200W, Full Modular",
+  "Certification: 80 Plus Platinum, 135mm FDB Silent Fan",
+  "ATX 3.1 & PCIe 5.1 Compatible, High-Quality Japanese Capacitors",
+  "Protections: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO"
+ ],
+ "status": "Up Coming",
+ "code": "52166",
+ "brand": "Antec",
+ "model": "Signature 2200 Platinum ATX3.1",
+ "warranty": "12 Years",
+ "name": "Antec Signature 2200 Platinum ATX3.1 2200W 80+ Platinum Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec Signature 2200 Platinum ATX3.1 2200W 80+ Platinum Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:05+06:00",
+ "source": "https://www.startech.com.bd/antec-signature-2200-platinum-atx3-1-2200w-power-supply"
+}

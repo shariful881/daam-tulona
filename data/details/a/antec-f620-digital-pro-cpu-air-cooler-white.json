@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Air Cooling\nPWM Fan",
+   "Fan Speed": "600~1800 ± 10% RPM",
+   "Fan Airflow": "24~70 ± 10% CFM",
+   "Noise": "14~27.6 ± 10% dB(A)",
+   "Air Pressure": "1.12~2.22mmH₂O ± 10%",
+   "Connector": "4-Pin PWM",
+   "Material": "Heat Sink:  Aluminum + Copper Heat Pipe",
+   "Others": "Lifespan: 40000 hrs\nRated Voltage: 12VDC\nPower Consumption: 4.56W\nTDP: 255W"
+  },
+  "Physical Specification": {
+   "Dimension": "120 x 136 x 157mm (DWH)",
+   "Weight": "1047g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 115X / 1200 / 1366 / 1700 / 1851 / 20XX",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 600~1800 ± 10% RPM",
+  "Airflow: 24~70 ± 10% CFM",
+  "Noise: 14~27.6 ± 10% dB(A)",
+  "Supports both Intel and AMD"
+ ],
+ "price": 6000,
+ "regular": 6580,
+ "status": "In Stock",
+ "code": "51551",
+ "brand": "Antec",
+ "model": "F620 Digital Pro White",
+ "warranty": "1 year warranty",
+ "name": "Antec F620 Digital Pro CPU Air Cooler White",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec F620 Digital Pro CPU Air Cooler White"
+ ],
+ "fetched": "2026-11-11T01:02+06:00",
+ "source": "https://www.startech.com.bd/antec-f620-digital-pro-white-cpu-cooler"
+}

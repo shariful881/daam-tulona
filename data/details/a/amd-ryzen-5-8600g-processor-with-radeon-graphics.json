@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.3GHz",
+   "Maximum Turbo Frequency": "Up to 5.0GHz",
+   "Cache": "L2 Cache: 6MB\nL3 Cache: 16MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4x1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon 760M",
+   "Base Frequency": "2800 MHz",
+   "Core Count": "8"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.3GHz up to 5.0GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 16MB",
+  "Socket: AM5"
+ ],
+ "price": 1790019300,
+ "regular": 19690,
+ "status": "In Stock",
+ "code": "33926",
+ "brand": "AMD",
+ "model": "Ryzen 5 8600G (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 8600G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 8600G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-8600g-processor"
+}

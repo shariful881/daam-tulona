@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Platinum",
+   "Fan Size": "120mm FDB Silent Fan",
+   "Lighting Effect": "N/A",
+   "Others": "Active PFC\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO\nRegulatory: cTUVus / TUV / CB / RCM / CE / FCC /\nBSMI / 3C / UKCA / ICES\nATX 3.1 & PCIe 5.1 Compatible\nHigh-Quality Japanese Capacitors\nPhaseWave Design\nZero RPM Manager"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "50Hz-60Hz",
+   "Current": "15A-7.5A"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "1000W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4) pin MB",
+   "CPU": "2 x 8(4+4) pin CPU",
+   "PCI-E": "1 x 16(12+4) pin PCIE 5.1 12V-2x6\n3 x 8(6+2) Pin PCI-E",
+   "SATA": "9 x SATA",
+   "Molex": "3 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1000W, Full Modular",
+  "Certification: 80 Plus Platinum, 120mm FDB Silent Fan",
+  "ATX 3.1 & PCIe 5.1 Compatible, High-Quality Japanese Capacitors",
+  "Protections: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO"
+ ],
+ "price": 19500,
+ "regular": 21450,
+ "status": "In Stock",
+ "code": "51547",
+ "brand": "Antec",
+ "model": "NE1000 PLATINUM ATX3.1",
+ "warranty": "10 Years",
+ "name": "Antec NE1000 PLATINUM ATX3.1 1000W 80+ Platinum ATX 3.1 & PCIE 5.1 Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec NE1000 PLATINUM ATX3.1 1000W 80+ Platinum ATX 3.1 & PCIE 5.1 Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-ne1000-platinum-atx3-1-1000w-power-supply"
+}

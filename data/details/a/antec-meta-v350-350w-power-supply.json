@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "350 Watt",
+   "Fan Size": "120 mm"
+  },
+  "Input": {
+   "Voltage": "100VAC - 240VAC",
+   "Frequency Range": "47-63Hz",
+   "Current": "4A"
+  },
+  "Output": {
+   "Total Power": "350W",
+   "AC Input": "230VAC 4A 47-63Hz",
+   "DC Output": "+3.3V, +5V, +12V, -12V, +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "24-pin M/B Connectors x1",
+   "CPU": "8(4+4)pin CPU Connectors x1",
+   "PCI-E": "8(6+2)pin PCI-E Connectors x1",
+   "SATA": "SATA Connectors x3",
+   "Molex": "Molex Connectors x2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years replacement warranty including Burn Cases"
+  }
+ },
+ "key_features": [
+  "Produces less noise and less heat",
+  "Industrial grade protections",
+  "120mm Silent Fan",
+  "Thermal Manager"
+ ],
+ "price": 23993200,
+ "regular": 3340,
+ "status": "In Stock",
+ "code": "27626",
+ "brand": "Antec",
+ "model": "META V350",
+ "warranty": "3 Years replacement warranty including Burn Cases",
+ "name": "Antec META V350 350W Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec META V350 350W Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-meta-v350-power-supply"
+}

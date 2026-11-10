@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "400±100~2000±150 RPM",
+   "Air Flow": "9.33~64.02 CFM",
+   "Air Pressure": "0.09~2.45 mmH₂O",
+   "Noise (dBA)": "18.8~26.9 dB(A)",
+   "Lifespan": "50,000 hours / 25℃",
+   "Bearing Type": "FDB",
+   "LED Type": "ARGB",
+   "Input Current": "FAN: 0.15 (MAX:0.20) A | LED: 0.30A(MAX)",
+   "Operating Voltage/Power Range": "DC 7-13.8 V"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120 x 120 x 25 mm",
+   "Connector": "FAN: 4-pin PWM | LED: 3-pin"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Type: ARGB PWM FDB",
+  "Fan Speed: 450±100~1500±150 RPM",
+  "Lifespan: 50,000 hours / 25℃",
+  "Connector: FAN: 4-pin PWM | LED: 3-pin"
+ ],
+ "status": "Out Of Stock",
+ "code": "41299",
+ "brand": "Antec",
+ "model": "Tranquil 120 ARGB",
+ "warranty": "01 year warranty",
+ "name": "Antec Tranquil 120 ARGB 3-in-1 Casing Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Antec",
+  "Antec Tranquil 120 ARGB 3-in-1 Casing Fan"
+ ],
+ "fetched": "2026-11-11T01:06+06:00",
+ "source": "https://www.startech.com.bd/antec-tranquil-120-argb-casing-fan"
+}

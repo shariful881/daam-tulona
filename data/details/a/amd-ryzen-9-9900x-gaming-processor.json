@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.4 GHz",
+   "Maximum Turbo Frequency": "Up to 5.6 GHz",
+   "Cache": "L1 Cache: 960 KB\nL2 Cache: 12 MB\nL3 Cache: 64 MB",
+   "Cores": "12",
+   "Threads": "24",
+   "Default TDP": "120W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Master Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "2x1R\tDDR5-5600\n2x2R\tDDR5-5600\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Base Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.4GHz Up to 5.6GHz",
+  "Cores: 12, Threads: 24",
+  "L1 Cache: 960KB, L2 Cache: 12MB, L3 Cache: 64MB",
+  "CPU Socket: AM5"
+ ],
+ "price": 4100042000,
+ "regular": 45500,
+ "status": "In Stock",
+ "code": "38004",
+ "brand": "AMD",
+ "model": "Ryzen 9 9900X (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 9 9900X Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 9900X Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-9900x-gaming-processor"
+}

@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Maximum Turbo Frequency": "4.0GHz",
+   "Cache": "Total L2 Cache: 2MB\nTotal L3 Cache: 4MB",
+   "Cores": "4",
+   "Threads": "4",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2933MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon RX Vega 8 Graphics",
+   "Base Frequency": "1250 MHz",
+   "Core Count": "8"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)."
+  }
+ },
+ "key_features": [
+  "Speed: 3.6 GHz up to 4.0 GHz",
+  "Cores-4 & Threads-4",
+  "Memory Speed: Up to 2933MHz",
+  "Radeon Vega 8 Graphics"
+ ],
+ "price": 65007100,
+ "regular": 7150,
+ "status": "In Stock",
+ "code": "10295",
+ "brand": "AMD",
+ "model": "Ryzen 3 3200G",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler).",
+ "name": "AMD Ryzen 3 3200G Processor with Radeon RX Vega 8 Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 3 3200G Processor with Radeon RX Vega 8 Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-3-3200g"
+}

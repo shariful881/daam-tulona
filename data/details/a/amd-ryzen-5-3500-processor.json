@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6 GHz",
+   "Maximum Turbo Frequency": "4.1 GHz",
+   "Cache": "Cache (L2+L3): 16 MB",
+   "Cores": "6",
+   "Threads": "6",
+   "Default TDP": "65W"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.1GHz",
+  "Cache (L2+L3): 16 MB",
+  "Cores-6 & Threads-6",
+  "Memory Speed: 3200MHz"
+ ],
+ "status": "Out Of Stock",
+ "code": "11601",
+ "brand": "AMD",
+ "model": "RYZEN 5 3500",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD RYZEN 5 3500 Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD RYZEN 5 3500 Processor"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-3500-pocessor"
+}

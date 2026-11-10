@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "PCIe Gen4x4 NVMe1.4 (M-Key)",
+   "Sequential R/W": "Sequential Read: 7500MB/s (Max)\nSequential Write: 6500MB/s (Max)",
+   "MTBF": ">1,000,000 hours",
+   "Others": "Operating Voltage: DC3.3V ± 5%\nHMB Technology"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB M.2 NVMe PCIe",
+  "Sequential Read: 7500MB/s (Max.)",
+  "Sequential Write: 6500MB/s (Max.)",
+  "MTBF: >1,000,000 hours"
+ ],
+ "status": "Up Coming",
+ "code": "41729",
+ "brand": "AITC",
+ "mpn": "KSKP800M1TB228",
+ "model": "KP800",
+ "warranty": "05 years warranty",
+ "name": "AITC KINGSMAN KP800 1TB PCIe Gen4 M.2 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "AITC",
+  "AITC KINGSMAN KP800 1TB PCIe Gen4 M.2 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T00:55+06:00",
+ "source": "https://www.startech.com.bd/aitc-kingsman-kp800-1tb-gen4-ssd"
+}

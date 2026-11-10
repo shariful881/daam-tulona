@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "PCIe Gen3x4 NVMe1.3 (M-Key)",
+   "Sequential R/W": "Sequential Read: 3300MB/s (Max.)\nSequential Write: 3000MB/s (Max.)",
+   "MTBF": ">1,000,000 hours",
+   "Others": "Operating Voltage: DC3.3V ± 5%\nHMB Technology"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB M.2 NVMe PCIe",
+  "Sequential Read: 3300MB/s (Max.)",
+  "Sequential Write: 3000MB/s (Max.)",
+  "MTBF: >1,000,000 hours"
+ ],
+ "price": 1180011900,
+ "regular": 13090,
+ "status": "In Stock",
+ "code": "41727",
+ "brand": "AITC",
+ "mpn": "KSKM600UM512228",
+ "model": "KM600 ULTRA",
+ "warranty": "05 years warranty",
+ "name": "AITC KINGSMAN KM600 ULTRA 512GB PCIe Gen3 M.2 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "AITC",
+  "AITC KINGSMAN KM600 ULTRA 512GB PCIe Gen3 M.2 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T00:55+06:00",
+ "source": "https://www.startech.com.bd/aitc-kingsman-km600-ultra-512gb-ssd"
+}

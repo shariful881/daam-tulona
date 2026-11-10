@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Maximum Turbo Frequency": "Up to 4.2GHz",
+   "Cache": "Total L2 Cache: 3MB\nTotal L3 Cache: 16MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "cTDP": "45-65W",
+   "Supported Technologies": "Display Port: Yes\nHDMI: Yes"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz; Up to 4.2GHz",
+  "L2 Cache: 3MB, L3 Cache: 16MB",
+  "Cores: 6, Threads: 12",
+  "Up to 3200MHz DDR4"
+ ],
+ "price": 1020011000,
+ "regular": 11610,
+ "status": "In Stock",
+ "code": "22330",
+ "brand": "AMD",
+ "model": "Ryzen 5 5500 (Tray Box)",
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 5500 Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 5500 Processor"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-5500-processor"
+}

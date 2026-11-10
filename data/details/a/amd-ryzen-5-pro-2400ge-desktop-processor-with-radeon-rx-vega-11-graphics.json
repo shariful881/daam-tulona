@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.2 GHz",
+   "Maximum Turbo Frequency": "3.8GHz",
+   "Cache": "Total L2 Cache 2MB ,\nTotal L3 Cache 4MB",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "35W",
+   "Supported Technologies": "AMD VR Ready Processors\nAMD Ryzen™ Master Utility\nDirectX® 12 Technology"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 2933 MT/s",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon™ Vega 11 Processor Graphics",
+   "Base Frequency": "1250 MHz",
+   "Core Count": "11"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.2GHz Up To 3.8GHz",
+  "Cache: L1 384KB L2 2MB L3 4MB",
+  "Cores-4 & Threads-8",
+  "Powerful Radeon Vega graphics"
+ ],
+ "price": 59006500,
+ "regular": 6620,
+ "status": "In Stock",
+ "code": "52768",
+ "brand": "AMD",
+ "model": "Ryzen 5 Pro 2400GE (Tray Box)",
+ "warranty": "03 Years Warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 Pro 2400GE Desktop Processor with Radeon RX Vega 11 Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 Pro 2400GE Desktop Processor with Radeon RX Vega 11 Graphics"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-pro-2400ge-processor"
+}

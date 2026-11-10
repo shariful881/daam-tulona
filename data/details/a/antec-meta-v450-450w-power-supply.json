@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "450 Watt",
+   "Fan Size": "120 mm"
+  },
+  "Input": {
+   "Voltage": "100VAC - 240VAC",
+   "Frequency Range": "47-63Hz",
+   "Current": "4A"
+  },
+  "Output": {
+   "Total Power": "450W",
+   "AC Input": "230VAC 4A 47-63Hz",
+   "DC Output": "+3.3V, +5V, +12V, -12V, +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "24-pin M/B Connectors x1",
+   "CPU": "8(4+4)pin CPU Connectors x1",
+   "PCI-E": "8(6+2)pin PCI-E Connectors x2",
+   "SATA": "SATA Connectors x5",
+   "Molex": "Molex Connectors x2",
+   "Floppy": "FDD Connectors x1"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years replacement warranty including Burn Cases"
+  }
+ },
+ "key_features": [
+  "Produces less noise and less heat",
+  "Industrial grade protections",
+  "120mm Silent Fan",
+  "Thermal Manager"
+ ],
+ "status": "Out Of Stock",
+ "code": "27627",
+ "brand": "Antec",
+ "model": "META V450",
+ "warranty": "3 Years replacement warranty including Burn Cases",
+ "name": "Antec META V450 450W Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec META V450 450W Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-meta-v450-power-supply"
+}

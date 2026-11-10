@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.9 GHz",
+   "Maximum Turbo Frequency": "Up to 5.4 GHz",
+   "Cache": "L1 Cache: 480 KB\nL2 Cache: 6 MB\nL3 Cache: 32 MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192GB",
+   "Maximum Speed": "2x1R\tDDR5-5600\n2x2R\tDDR5-5600\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.9 GHz Up to 5.4 GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 32MB",
+  "CPU Socket: AM5"
+ ],
+ "price": 2120022000,
+ "regular": 23300,
+ "status": "In Stock",
+ "code": "37147",
+ "brand": "AMD",
+ "model": "Ryzen 5 9600X (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 5 9600X AM5 Desktop Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 9600X AM5 Desktop Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-9600x-gaming-processor"
+}

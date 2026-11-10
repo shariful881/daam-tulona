@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.2GHz",
+   "Maximum Turbo Frequency": "Up to 5.1GHz",
+   "Cache": "L2 Cache: 8MB\nL3 Cache: 16MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4X1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon 780M",
+   "Max Dynamic Frequency": "2900 MHz",
+   "Core Count": "12"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.2GHz Up to 5.1GHz",
+  "Cores: 8, Threads: 16",
+  "L2 Cache: 8MB, L3 Cache: 16MB",
+  "Socket: AM5"
+ ],
+ "price": 2699927500,
+ "regular": 29700,
+ "status": "In Stock",
+ "code": "33923",
+ "brand": "AMD",
+ "model": "Ryzen 7 8700G (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 8700G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 8700G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-8700g-processor"
+}

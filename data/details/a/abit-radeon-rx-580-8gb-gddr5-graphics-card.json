@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "8GB",
+   "Core Clock": "1244Mhz",
+   "Memory Clock": "1750Mhz",
+   "Stream Processors": "2048",
+   "Others": "Memory Bandwidth: 14Gbps"
+  },
+  "Interface": {
+   "Display Port": "2 x DP",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "8Pin",
+   "Recommended PSU": "550W",
+   "Consumption": "150W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR5",
+  "Core Clock: 1244Mhz",
+  "Memory Clock: 1750Mhz",
+  "Interface: 2x DisplayPort, 1x HDMI"
+ ],
+ "price": 1670017500,
+ "regular": 18500,
+ "status": "In Stock",
+ "code": "52503",
+ "brand": "Abit",
+ "model": "Radeon RX 580",
+ "warranty": "3 years",
+ "name": "Abit Radeon RX 580 8GB GDDR5 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Abit",
+  "Abit Radeon RX 580 8GB GDDR5 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:52+06:00",
+ "source": "https://www.startech.com.bd/abit-radeon-rx-580-8gb-graphics-card"
+}

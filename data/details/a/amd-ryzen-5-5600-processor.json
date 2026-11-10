@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Maximum Turbo Frequency": "Up to 4.4GHz",
+   "Cache": "Total L1 Cache: 384KB\nTotal L2 Cache: 3MB\nTotal L3 Cache: 32MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "cTDP": "65W",
+   "Supported Technologies": "AMD \"Zen 3\" Core Architecture\nAMD StoreMI Technology\nAMD Ryzen Master Utility\nAMD Ryzen VR-Ready Premium"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 3200MHz",
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz up to 4.4GHz",
+  "Cache: L2: 3MB, L3: 32MB; Cores-6 & Threads-12",
+  "Memory Speed: DDR4 Up to 3200MHz",
+  "AMD ZEN 3 Architecture"
+ ],
+ "price": 1210013000,
+ "regular": 13640,
+ "status": "In Stock",
+ "code": "23200",
+ "brand": "AMD",
+ "model": "Ryzen 5 5600 (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 5600 Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 5600 Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-5600-processor"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.4 GHz",
+   "Maximum Turbo Frequency": "Up to 5.6GHz",
+   "Cache": "Total L1 Cache: 768KB\nTotal L2 Cache: 12MB\nTotal L3 Cache: 128MB",
+   "Cores": "12",
+   "Threads": "24",
+   "Default TDP": "120W",
+   "Supported Technologies": "AMD EXPO Technology\nCPU Boost Technology",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128GB",
+   "Maximum Speed": "2x1R\tDDR5-5200\n2x2R\tDDR5-5200\n4x1R\tDDR5-3600\n4x2R\tDDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.4GHz Up to 5.6GHz",
+  "Cores: 12, Threads: 24",
+  "L1 Cache: 768KB, L2 Cache: 12MB, L3 Cache: 128MB",
+  "CPU Socket: AM5"
+ ],
+ "status": "Out Of Stock",
+ "code": "36354",
+ "brand": "AMD",
+ "model": "Ryzen 9 7900X3D (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 9 7900X3D Gaming Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 7900X3D Gaming Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-7900x3d-gaming-processor"
+}

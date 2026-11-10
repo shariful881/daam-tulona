@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.5GHz",
+   "Maximum Turbo Frequency": "Up to 5.7GHz",
+   "Cache": "Total L1 Cache: 1MB\nTotal L2 Cache: 16MB\nTotal L3 Cache: 64MB",
+   "Cores": "16",
+   "Threads": "32",
+   "Default TDP": "170W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "5200MHz",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.5GHz Up to 5.7GHz",
+  "Cores: 16, Threads: 32",
+  "L2 Cache: 16MB, L3 Cache: 64MB",
+  "Socket: AM5"
+ ],
+ "price": 4490048500,
+ "regular": 49000,
+ "status": "In Stock",
+ "code": "24212",
+ "brand": "AMD",
+ "model": "Ryzen 9 7950X (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen 9 7950X Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 9 7950X Processor"
+ ],
+ "fetched": "2026-11-11T00:59+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-9-7950x-processor"
+}

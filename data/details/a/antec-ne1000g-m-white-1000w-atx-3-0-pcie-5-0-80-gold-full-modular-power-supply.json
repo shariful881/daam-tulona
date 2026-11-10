@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS GOLD",
+   "Fan Size": "120mm FDB Silent Fan",
+   "Others": "PFC: Active PFC\nATX 3.0 & PCIe 5.0 Compatible\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO\nRegulatory: cTUVus / TUV / CB / RCM / CE /\nFCC / BIS / BSMI / KC / UKCA / ICES"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "60Hz-50Hz",
+   "Current": "12A-6A"
+  },
+  "Output": {
+   "Modular Type": "Full-modular",
+   "Total Power": "1000W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24 (20+4) pin MB",
+   "CPU": "2 x 8 (4+4) pin CPU",
+   "PCI-E": "1 x 16(12+4)pin PCIE 5.1 12V-2x6\n4 x 8(6+2) Pin PCI-E",
+   "SATA": "12 x SATA",
+   "Molex": "4 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Total Output Capacity: 1000W",
+  "Certifications: 80 Plus Gold, 120mm FDB Silent Fan",
+  "Type: ATX 12V 3.0, ATX 3.0 & PCIe 5.0 Compatible",
+  "Protection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO"
+ ],
+ "status": "Out Of Stock",
+ "code": "42859",
+ "brand": "Antec",
+ "model": "NE1000G M White 1000W ATX 3.0",
+ "warranty": "10 Years",
+ "name": "Antec NE1000G M White 1000W ATX 3.0 & PCIE 5.0 80+ Gold Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec NE1000G M White 1000W ATX 3.0 & PCIE 5.0 80+ Gold Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-ne1000g-m-white-1000w-atx-3-1-power-supply"
+}

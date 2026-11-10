@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "Mesh Panel",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "ATX, M-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic + Tempered Glass",
+   "Weight": "5.43 Kg",
+   "Dimensions": "400 x 200 x 449mm (DWH)",
+   "Front Ports": "2 x USB 2.0, 1 x USB 3.0, HD-AUDIO",
+   "Expansion Slots": "7",
+   "Radiator Support": "Front: 120 / 240 / 360mm",
+   "Fan Support": "Front: 3 x 120mm\nTop: 2 x 120mm\nRear: 1 x 120mm",
+   "Pre- Installed Fans": "3 x 120mm ARGB 3-Pin fans in the front\n1 x 120mm ARGB 3-Pin fan at the rear",
+   "Drive Bays": "3.5\" /2.5\": 2/1\n2.5\": 2"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 160mm",
+   "Maximum Graphics Card Length": "≤ 345mm (When the fan is installed in the front)\n≤ 320mm (When the fan is installed at the rear)\n≤ 290mm (when a 360mm radiator is installed in the front)",
+   "Maximum PSU Length": "(Include cable) ≤ 165mm (with HDD)\n(Include cable) ≤ 205mm (with HDD moves to the left)\n(Include cable) ≤ 345mm (without HDD)"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Mainboard Support: ATX, Micro-ATX, ITX",
+  "4mm Tempered Glass, Top & Bottom Dust Filter",
+  "Pre-installed Fans: 4x 120mm ARGB Fans",
+  "I/O Ports: 2 x USB 2.0, 1 x USB 3.0, HD-AUDIO"
+ ],
+ "status": "Up Coming",
+ "code": "51559",
+ "brand": "Antec",
+ "model": "AX65 ARGB",
+ "warranty": "No Warranty",
+ "name": "Antec AX65 ARGB ATX Mid Tower Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec AX65 ARGB ATX Mid Tower Gaming Casing"
+ ],
+ "fetched": "2026-11-11T01:00+06:00",
+ "source": "https://www.startech.com.bd/antec-ax65-argb-mid-tower-casing"
+}

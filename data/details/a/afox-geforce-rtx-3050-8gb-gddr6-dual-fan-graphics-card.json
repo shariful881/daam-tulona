@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680×4320@120Hz",
+   "Core Clock": "Base Clock: 1552 MHz\nBoost Clock: 1777 MHz",
+   "Memory Clock": "14.0Gbps",
+   "BUS Type": "PCI Express 4.0",
+   "Memory Interface": "128-Bit",
+   "CUDA Cores": "2560"
+  },
+  "Interface": {
+   "Display Port": "1 x DispayPort",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Consumption": "130W"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: GDDR6 8GB, CUDA Core: 2560",
+  "Base Clock: 1552 MHz, Boost Clock: 1777 MHz",
+  "Memory Clock: 14Gbps, Bus Standard: PCI Express 4.0",
+  "Interface: 1 x DVI, 1 x HDMI, 1x DisplayPort"
+ ],
+ "status": "Out Of Stock",
+ "code": "51270",
+ "brand": "AFOX",
+ "mpn": "AF3050-8GD6H5",
+ "model": "AFOX RTX 3050 8 GB GDDR6 Dual Fan",
+ "warranty": "02 Years",
+ "name": "AFOX Geforce RTX 3050 8GB GDDR6 Dual Fan Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX Geforce RTX 3050 8GB GDDR6 Dual Fan Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-geforce-rtx-3050-8gb-gddr6-dual-fan-graphics-card"
+}

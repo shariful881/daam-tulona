@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "4GB",
+   "Resolution": "Max 2560 x 1600",
+   "Core Clock": "Base Clock: 1020 MHz",
+   "Memory Clock": "5400 MHz",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "128-Bit"
+  },
+  "Interface": {
+   "Display Port": "1 x DispayPort",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300W",
+   "Consumption": "60W"
+  },
+  "Physical Specifications": {
+   "Dimensions": "113×190×42 mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 4096MB GDDR5",
+  "Base Clock: 1020 MHz, Memory Clock: 5400 MHz",
+  "Bus Standard: PCI Express 3.0",
+  "Interface: 1 x DVI, 1 x HDMI, 1x DisplayPort"
+ ],
+ "price": 18000,
+ "regular": 19800,
+ "status": "In Stock",
+ "code": "48631",
+ "brand": "AFOX",
+ "model": "GTX 750 Ti",
+ "warranty": "02 Years",
+ "name": "AFOX NVIDIA GeForce GTX 750 Ti 4GB GDDR5 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX NVIDIA GeForce GTX 750 Ti 4GB GDDR5 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-gtx-750-ti-4gb-graphics-card"
+}

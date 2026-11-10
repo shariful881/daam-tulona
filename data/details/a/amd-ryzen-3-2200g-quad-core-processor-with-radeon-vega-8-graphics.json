@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Maximum Turbo Frequency": "3.7GHz",
+   "Cache": "Total L2 Cache 2MB ,\nTotal L3 Cache 4MB",
+   "Cores": "4",
+   "Threads": "4",
+   "Default TDP": "65W",
+   "cTDP": "46-65W",
+   "Supported Technologies": "AMD SenseMI Technology ,\nAMD Ryzen™ Master Utility ,\nEnmotus FuzeDrive™ for AMD Ryzen™ ,\nRadeon™ Software ,\nRadeon™ FreeSync Technology"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon™ Vega 8 Processor Graphics",
+   "Base Frequency": "1100 MHz",
+   "Core Count": "8"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz Up to 3.7GHz",
+  "Cache: L1 384KB, L2 2MB L3 4MB",
+  "Cores-4 & Threads-4",
+  "Powerful Radeon Vega graphics"
+ ],
+ "price": 39994300,
+ "regular": 4500,
+ "status": "In Stock",
+ "code": "7217",
+ "brand": "AMD",
+ "model": "Ryzen 3 2200G",
+ "warranty": "03 years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 3 2200G Quad-Core Processor With Radeon Vega 8 Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 3 2200G Quad-Core Processor With Radeon Vega 8 Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-3-2200g-processor"
+}

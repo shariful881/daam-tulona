@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen5x4 NVMe 2.0 (M-Key)",
+   "Sequential R/W": "Sequential Read: 14000MB/s (Max)\nSequential Write: 13000MB/s (Max)",
+   "MTBF": ">1,000,000 hours",
+   "Others": "External DRAM Buffer\n4K LDPC + RAID ECC\nEnd-to-End Data Path Protection\nAdvanced Thermal Throttling and Power Management\nIdeal for Gaming PCs, Content Creation Workstations, AI Training Servers\nSMART and TRIM commands\n100% HW & SW Tested"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB, Form Factor: M.2 2280",
+  "Interface: PCIe Gen5x4 NVMe 2.0 (M-Key)",
+  "Sequential Read: 14000MB/s (Max)",
+  "Sequential Write: 13000MB/s (Max)"
+ ],
+ "status": "Out Of Stock",
+ "code": "46746",
+ "brand": "AITC",
+ "mpn": "KSS1KM2TB228",
+ "model": "S1000",
+ "warranty": "05 years warranty",
+ "name": "AITC KINGSMAN S1000 2TB M.2 2280 PCIe Gen5x4 NVMe 2.0 SSD With DRAM & Heatshink",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "AITC",
+  "AITC KINGSMAN S1000 2TB M.2 2280 PCIe Gen5x4 NVMe 2.0 SSD With DRAM & Heatshink"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/aitc-kingsman-s1000-2tb-ssd"
+}

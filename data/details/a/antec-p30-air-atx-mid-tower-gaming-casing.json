@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "Metal Mesh",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "ATX, Micro-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic + Wood + Tempered Glass",
+   "Weight": "6.85 Kg",
+   "Dimensions": "478 x 222 x 465mm (DWH)",
+   "Expansion Slots": "7",
+   "Radiator Support": "Front: 120 / 140 / 240mm\nTop: 120 / 240 / 360mm\nRear: 120mm (Length≤160mm)",
+   "Fan Support": "Front: 2 x 120mm / 2 x 140mm\nTop: 3 x 120mm / 2 x 140mm\nPower Supply Shroud: 2 x 120mm\nRear: 1 x 120mm",
+   "Pre- Installed Fans": "2 x 140mm PWM Fans at the front + 2 x 120mm PWM Reverse Fans on the PSU Shroud+ 1 x 120mm PWM Fan at the rear",
+   "Drive Bays": "3.5\" / 2.5': 2 / 1\n2.5\": 1",
+   "I/O Port": "Power, Reset, USB3.0 x 2, Type-C 3.2 Gen 2 (10Gbps) x 1, Headphone/Mic Combo Jack",
+   "Others": "Dust Filter: Top / Bottom"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤175mm",
+   "Maximum Graphics Card Length": "≤405mm",
+   "Maximum PSU Length": "(Cable included) ≤270mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: ATX, Micro-ATX, ITX",
+  "Metal Mesh Front Panel, 4mm Tempered Glass Side Panel",
+  "Pre-Install Fans: 2x 140mm, 2x 120mm Reverse, 1x 120mm",
+  "I/O Panel: 2x USB3.0, 1x Type-C, 1x Headphone/Mic Combo Jack"
+ ],
+ "price": 7400,
+ "regular": 8100,
+ "status": "In Stock",
+ "code": "48945",
+ "brand": "Antec",
+ "model": "P30 AIR",
+ "warranty": "No Warranty",
+ "name": "Antec P30 AIR ATX Mid Tower Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec P30 AIR ATX Mid Tower Gaming Casing"
+ ],
+ "fetched": "2026-11-11T01:05+06:00",
+ "source": "https://www.startech.com.bd/antec-p30-air-casing"
+}

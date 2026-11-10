@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Maximum Turbo Frequency": "3.9GHz",
+   "Cache": "Total L2 Cache 2MB ,\nTotal L3 Cache 4MB",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "65W",
+   "cTDP": "46-65W",
+   "Supported Technologies": "AMD SenseMI Technology,\nAMD Ryzen™ Master Utility,\nEnmotus FuzeDrive™ for AMD Ryzen™,\nRadeon™ Software,\nRadeon™ FreeSync Technology"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon™ Vega 11 Processor Graphics",
+   "Base Frequency": "1250 MHz",
+   "Core Count": "11"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz Up To 3.9GHz",
+  "Cache: L1 384KB L2 2MB L3 4MB",
+  "Cores-4 & Threads-8",
+  "Powerful Radeon Vega graphics"
+ ],
+ "price": 59006300,
+ "regular": 6490,
+ "status": "In Stock",
+ "code": "7219",
+ "brand": "AMD",
+ "model": "Ryzen 5 2400G (Tray Box)",
+ "warranty": "03 Years Warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-2400g-processor"
+}

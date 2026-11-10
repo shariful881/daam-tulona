@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "850W",
+   "Certification": "80 Plus Gold",
+   "Fan Size": "120mm FDB Silent Fan"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "60Hz-50Hz",
+   "Current": "10A-5A"
+  },
+  "Output": {
+   "Modular Type": "Full-Modular"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4)pin",
+   "CPU": "2 x 8(4+4)pin CPU",
+   "PCI-E": "4 x 8(6+2) Pin PCI-E",
+   "SATA": "12 x SATA",
+   "Molex": "4 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 850W",
+  "Type: ATX 12V 3.0",
+  "Fan: 120mm FDB Silent Fan",
+  "Certifications: 80 Plus Gold Certified"
+ ],
+ "status": "Out Of Stock",
+ "code": "31215",
+ "brand": "Antec",
+ "model": "NE850G M",
+ "warranty": "10 years",
+ "name": "Antec NE850G M 850W ATX 3.0 Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec NE850G M 850W ATX 3.0 Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-ne850g-m-power-supply"
+}

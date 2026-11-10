@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "PCIe Gen3x4 NVMe 1.4",
+   "Sequential R/W": "Seq. Read Speed: Up to 3000MB/s\nSeq. Write Speed: Up to 1000MB/s",
+   "MTBF": "1.5 Million Hours"
+  },
+  "Physical Specification": {
+   "Dimension": "80 x 22 x 3.5 mm (LxWxH)",
+   "Weight": "8.2g",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃ to 70℃",
+   "Storage Temperature": "-40℃ to 85℃",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 256GB, 3D NAND Flash",
+  "From Factor: M.2 2280, Interface: NVMe PCIe Gen 3 x4",
+  "Seq. Read/ Write Speed: Up to 3000MB/s/ 1000MB/s",
+  "Supports S.M.A.R.T./TRIM"
+ ],
+ "price": 62006500,
+ "regular": 7150,
+ "status": "In Stock",
+ "code": "49062",
+ "brand": "Addlink",
+ "model": "S70 Lite",
+ "warranty": "5 Years Warranty",
+ "name": "Addlink S70 Lite 256GB M.2 2280 NVMe PCIe Gen 3 x4 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Addlink",
+  "Addlink S70 Lite 256GB M.2 2280 NVMe PCIe Gen 3 x4 SSD"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/addlink-s70-lite-256gb-nvme-ssd"
+}

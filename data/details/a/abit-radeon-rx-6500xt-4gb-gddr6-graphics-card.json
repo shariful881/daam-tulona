@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "4GB",
+   "Core Clock": "2610 Mhz",
+   "Memory Interface": "64 bit",
+   "Stream Processors": "1024",
+   "Others": "Memory Speed: 16Gbps"
+  },
+  "Interface": {
+   "Display Port": "1 x DP",
+   "HDMI": "1 x HDMI"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 4GB GDDR6",
+  "Stream Processor: 1024",
+  "Interface Type: PCI-E 4.0",
+  "Interface: 1x DisplayPort, 1x HDMI"
+ ],
+ "price": 1970021000,
+ "regular": 22000,
+ "status": "In Stock",
+ "code": "52505",
+ "brand": "Abit",
+ "model": "Radeon RX 6500XT",
+ "warranty": "3 years",
+ "name": "Abit Radeon RX 6500XT 4GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Abit",
+  "Abit Radeon RX 6500XT 4GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:52+06:00",
+ "source": "https://www.startech.com.bd/abit-radeon-rx-6500xt-4gb-graphics-card"
+}

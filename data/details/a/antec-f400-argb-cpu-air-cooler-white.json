@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooling\nPWM ARGB Fan",
+   "Fan Speed": "600~1700 ± 10% RPM",
+   "Fan Airflow": "24~63 ± 10% CFM",
+   "Noise": "14~26 ± 10% dB(A)",
+   "Air Pressure": "1.12~2.04mmH₂O ± 10%",
+   "Connector": "Fan: 4pin | ARGB: 3pin",
+   "Material": "Heat Sink:  Aluminum + Copper Heat Pipe",
+   "Others": "Lifespan: 30000 hrs\nRated Voltage: 12VDC\nPower Consumption: 2.04W\nTDP: 205W"
+  },
+  "Physical Specification": {
+   "Dimension": "120 x 90 x 157mm (DWH)",
+   "Weight": "555g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X / 1200 / 1366 / 1700 / 1851 / 20XX",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 600~1700 ± 10% RPM",
+  "Airflow: 24~63 ± 10% CFM",
+  "Noise: 14~26 ± 10% dB(A)",
+  "Supports both Intel and AMD"
+ ],
+ "price": 3100,
+ "regular": 3400,
+ "status": "In Stock",
+ "code": "51543",
+ "brand": "Antec",
+ "model": "F400 ARGB White",
+ "warranty": "1 year warranty",
+ "name": "Antec F400 ARGB CPU Air Cooler White",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec F400 ARGB CPU Air Cooler White"
+ ],
+ "fetched": "2026-11-11T01:02+06:00",
+ "source": "https://www.startech.com.bd/antec-f400-argb-white-cpu-cooler"
+}

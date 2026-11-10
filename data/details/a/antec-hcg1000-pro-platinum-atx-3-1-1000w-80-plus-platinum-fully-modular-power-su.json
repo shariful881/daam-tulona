@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Platinum",
+   "Fan Size": "135mm FDB Silent Fan",
+   "Lighting Effect": "N/A",
+   "Others": "PFC: Active PFC\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO\nOperation Temperature: 0~40°C\nRegulatory: cTUVus/TUV/CB/RCM/CE/FCC/BIS/BSMI/KC/UKCA/ICES/CCC"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "60Hz-50Hz",
+   "Current": "13A-6.5A"
+  },
+  "Output": {
+   "Modular Type": "Full-Modular",
+   "Total Power": "1000W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4)pin MB",
+   "CPU": "2 x 8(4+4)pin CPU",
+   "PCI-E": "1 x 16(12+4)pin PCIE 5.1 12VHPWR\n3 x 8(6+2) Pin PCI-E",
+   "SATA": "14 x SATA",
+   "Molex": "3 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years replacement warranty including Burn Cases"
+  }
+ },
+ "key_features": [
+  "Form Factor: ATX 12V 3.1, PCIe 5.1 Compatibility",
+  "Certification:\t80 Plus Platinum, Capacity: 1000W",
+  "100% High-Quality JP Capacitors",
+  "Full Modular Cable Management"
+ ],
+ "status": "Out Of Stock",
+ "code": "38767",
+ "brand": "Antec",
+ "model": "HCG1000 PRO Platinum ATX 3.1",
+ "warranty": "10 Years replacement warranty including Burn Cases",
+ "name": "Antec HCG1000 PRO Platinum ATX 3.1 1000W 80 Plus Platinum Fully Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec HCG1000 PRO Platinum ATX 3.1 1000W 80 Plus Platinum Fully Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:03+06:00",
+ "source": "https://www.startech.com.bd/antec-hcg1000-pro-platinum-atx-3-1-1000w-power-supply"
+}

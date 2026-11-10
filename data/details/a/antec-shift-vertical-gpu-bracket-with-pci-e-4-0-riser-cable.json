@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Power": "Rated Voltage: DC 12V\nRated Current: 5A",
+   "Connectivity": "Supported Chassis Type: E-ATX, ATX, Micro-ATX (Conditional)\nSupported Graphics Cards: Max. 3 slots wide\nPCI Slot Number: Min. 4 PCI slots required",
+   "Others": "Cable Length: 19 cm\nPCIe Standard: PCIe 4.0 x 16\nCompatibility: PCIe 4.0 and older"
+  },
+  "Physical Description": {
+   "Color": "Black",
+   "Weight": "1010g",
+   "Dimensions": "Open: 33.7 x 17.8 x 19.5 cm\nClosed: 28.4 x 14.5 x 13.3 cm"
+  },
+  "Manufacturing Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "53mm Horizontally and 33mm Towards the Side Panel",
+  "Riser Cable Length: 190mm PCI-E 4.0 Riser Cable",
+  "54mm Adjustable Range to Bottom, Supported Max. 3 Slots GPU",
+  "Supported Casing Type: E-ATX, ATX, Micro ATX (Conditional)"
+ ],
+ "status": "Out Of Stock",
+ "code": "40434",
+ "brand": "Antec",
+ "mpn": "AT-ARCVB-BK190-PCIE4-RTX40",
+ "model": "SHIFT",
+ "warranty": "No Warranty",
+ "name": "Antec SHIFT Vertical GPU Bracket With PCI-E 4.0 Riser Cable",
+ "breadcrumb": [
+  "Component",
+  "Vertical GPU Holder",
+  "Antec SHIFT Vertical GPU Bracket With PCI-E 4.0 Riser Cable"
+ ],
+ "fetched": "2026-11-11T01:05+06:00",
+ "source": "https://www.startech.com.bd/antec-shift-vertical-gpu-bracket"
+}

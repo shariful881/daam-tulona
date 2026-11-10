@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800 ± 10％ ~ 1500 ± 10％ RPM",
+   "Air Flow": "37.2 CFM",
+   "Air Pressure": "1.03 mmH₂O",
+   "Noise (dBA)": "27.5 dB(A)",
+   "Lifespan": "30,000 / hrs 25°C",
+   "Bearing Type": "Hydraulic Bearing",
+   "LED Type": "ARGB",
+   "Input Current": "Fan : 0.13 ± 10%A / ARGB : 0.80 ± 10%A",
+   "Operating Voltage/Power Range": "Fan : DC 6 ~ 13.2V / ARGB : DC 4.5 ~ 5.2V"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120 * 120 * 25 mm",
+   "Connector": "Fan: 4-pin PWM | ARGB : 3-pin"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Type: ARGB PWM Fan",
+  "Fan Speed: 800 ± 10％ ~ 1500 ± 10％ RPM",
+  "Lifespan: 30,000 / hrs 25°C",
+  "Connector: Fan: 4-pin PWM, ARGB: 3-pin"
+ ],
+ "status": "Out Of Stock",
+ "code": "46892",
+ "brand": "Antec",
+ "model": "Vision 120R ARGB",
+ "warranty": "01 year warranty",
+ "name": "Antec Vision 120R ARGB 120mm 3 IN 1 Reverse Casing Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Antec",
+  "Antec Vision 120R ARGB 120mm 3 IN 1 Reverse Casing Fan"
+ ],
+ "fetched": "2026-11-11T01:06+06:00",
+ "source": "https://www.startech.com.bd/antec-vision-120r-argb-reverse-casing-fan"
+}

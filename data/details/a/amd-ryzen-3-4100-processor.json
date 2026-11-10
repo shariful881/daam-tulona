@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "4.0GHz",
+   "Cache": "L1 Cache: 256KB\nL2 Cache: 2MB\nL3 Cache: 4MB",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "65W",
+   "cTDP": "46-65W",
+   "Supported Technologies": "AMD SenseMI Technology\nAMD Ryzen Master Utility\nEnmotus FuzeDrive for AMD Ryzen\nRadeon Software\nRadeon FreeSync Technology\nAMD StoreMI Technology\nAMD \"Zen 2\" Core Architecture\nAMD Ryzen VR-Ready Premium"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.8GHz; Up to 4.0GHz",
+  "L1 Cache: 256KB; L2 Cache: 2MB; L3 Cache: 4MB",
+  "4 Cores & 8 Threads",
+  "CPU Socket: AM4"
+ ],
+ "price": 870010000,
+ "regular": 10700,
+ "status": "In Stock",
+ "code": "22855",
+ "brand": "AMD",
+ "model": "Ryzen 3 4100 (Tray Box)",
+ "warranty": "03 years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 3 4100 Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 3 4100 Processor"
+ ],
+ "fetched": "2026-11-11T00:56+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-3-4100-processor"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Gold",
+   "Fan Size": "120mm Silent Fan",
+   "Lighting Effect": "N/A",
+   "Others": "120mm Silent Fan\nActive PFC\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO\nRegulatory: TUV / CB / CE / KC / UKCA / RCM / cTUVus\n/ FCC / ICES / BSMI / 3C / BIS\nATX 3.1 & PCIe 5.1 Compatible\nHIGH-QUALITY BRAIDED CABLE\nPhaseWave Design"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "50Hz-60Hz",
+   "Current": "10A Max"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "750W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4)pin MB",
+   "CPU": "2 x 8(4+4)pin CPU\n1 x 16(12+4)pin PCIE 5.1 12V-2x6",
+   "PCI-E": "4 x 8(6+2) Pin PCI-E",
+   "SATA": "8 x SATA",
+   "Molex": "4 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 750W, Full Modular",
+  "Certification: 80 Plus Gold, 120mm Silent Fan",
+  "ATX 3.1 & PCIe 5.1 Compatible, High-Quality Braided Cable",
+  "Protections: OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO"
+ ],
+ "status": "Out Of Stock",
+ "code": "48883",
+ "brand": "Antec",
+ "model": "GSK750 V2",
+ "warranty": "10 Years",
+ "name": "Antec GSK750 V2 750W 80+ Gold ATX 3.1 & PCIE 5.1 Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec GSK750 V2 750W 80+ Gold ATX 3.1 & PCIE 5.1 Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:03+06:00",
+ "source": "https://www.startech.com.bd/antec-gsk750-v2-750w-power-supply"
+}

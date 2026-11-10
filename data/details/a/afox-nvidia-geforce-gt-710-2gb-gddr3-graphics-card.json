@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "NVIDIA Geforce GT 710",
+   "Size": "2GB",
+   "Resolution": "D-Sub Max Resolution: 2048 x1536\nDVI Max Resolution: 1280 x 1024",
+   "Core Clock": "Base Clock : 954 MHz",
+   "Memory Clock": "1600 MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-Bit"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI",
+   "D-Sub": "1 x VGA",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 2048MB GDDR3",
+  "Base Clock: 954 MHz, Memory Clock: 1600 MHz",
+  "Resolution: 2048 x1536",
+  "Interface: 1 x DVI, 1 x HDMI, 1 x D-Sub"
+ ],
+ "price": 6500,
+ "regular": 7050,
+ "status": "In Stock",
+ "code": "48625",
+ "brand": "AFOX",
+ "mpn": "AF710-2048D3L1",
+ "model": "GT 710",
+ "warranty": "02 Years",
+ "name": "AFOX NVIDIA GeForce GT 710 2GB GDDR3 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX NVIDIA GeForce GT 710 2GB GDDR3 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-gt-710-2gb-graphics-card"
+}

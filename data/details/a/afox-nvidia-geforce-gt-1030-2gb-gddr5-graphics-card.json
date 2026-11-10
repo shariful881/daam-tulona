@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "NVIDIA Geforce GT 710",
+   "Size": "4GB",
+   "Resolution": "4K@60Hz",
+   "Core Clock": "Base Clock: 1228MHz\nBoost Clock: 1468MHz",
+   "Memory Clock": "6000MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-Bit",
+   "CUDA Cores": "384"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 2048MB GDDR5",
+  "Base Clock: 1228MHz , Boost Clock: 1468MHz",
+  "Resolution: 4K@60Hz, CUDA Cores: 384",
+  "Interface: 1 x DVI, 1 x HDMI"
+ ],
+ "price": 1150014000,
+ "regular": 12650,
+ "status": "In Stock",
+ "code": "48628",
+ "brand": "AFOX",
+ "model": "GT 1030",
+ "warranty": "02 Years",
+ "name": "AFOX NVIDIA GeForce GT 1030 2GB GDDR5 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "AFOX",
+  "AFOX NVIDIA GeForce GT 1030 2GB GDDR5 Graphics Card"
+ ],
+ "fetched": "2026-11-11T00:54+06:00",
+ "source": "https://www.startech.com.bd/afox-gt-1030-2gb-graphics-card"
+}

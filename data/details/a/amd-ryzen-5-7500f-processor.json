@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7GHz",
+   "Maximum Turbo Frequency": "Up to 5.0GHz",
+   "Cache": "L1 Cache: 384KB\nL2 Cache: 6MB\nL3 Cache: 32MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "Max 128GB",
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4x1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.7GHz up to 5.0GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 32MB",
+  "Socket: AM5"
+ ],
+ "price": 1370014500,
+ "regular": 15300,
+ "status": "In Stock",
+ "code": "30809",
+ "brand": "AMD",
+ "model": "Ryzen 5 7500F (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 7500F Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 7500F Processor"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-7500f-processor"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.5 GHz",
+   "Maximum Turbo Frequency": "Up to 5.1 GHz",
+   "Cache": "L1 Cache: 6144 KB\nL2 Cache: 96 MB\nL3 Cache: 384 MB",
+   "Cores": "96",
+   "Threads": "192",
+   "Default TDP": "350W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Precision Boost 2\nSupported Chipsets: WRX90, TRX50, Pro 695",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 5200 MT/s",
+   "Type": "DDR5\nSupported Subtype; RDIMM\nECC Support",
+   "Max Number of Channels": "8"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Base Clock: 2.5 GHz: Boost Clock: Up to 5.1 GHz",
+  "No of Cores: 96, No of Threads: 192",
+  "L2 Cache: 96MB, L3 Cache: 384MB",
+  "CPU Socket: sTR5; Default TDP: 350W"
+ ],
+ "status": "Pre Order",
+ "code": "54139",
+ "brand": "AMD",
+ "model": "Ryzen Threadripper PRO 7995WX",
+ "warranty": "03 years warranty",
+ "name": "AMD Ryzen Threadripper PRO 7995WX Processor (Tray Box)",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen Threadripper PRO 7995WX Processor (Tray Box)"
+ ],
+ "fetched": "2026-11-11T01:00+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-threadripper-pro-7995wx-processor"
+}

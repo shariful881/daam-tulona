@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Air Cooling\nPWM ARGB Fan",
+   "Fan Speed": "600~1700 ± 10% RPM",
+   "Fan Airflow": "24~63 ± 10% CFM",
+   "Noise": "14~26 ± 10% dB(A)",
+   "Air Pressure": "1.12~2.04mmH₂O ± 10%",
+   "Connector": "Fan: 4pin | ARGB: 3pin",
+   "Material": "Heat Sink:  Aluminum + Copper Heat Pipe",
+   "Others": "Lifespan: 40000 hrs\nRated Voltage: 12VDC\nPower Consumption: 2.04W\nTDP: 220W"
+  },
+  "Physical Specification": {
+   "Dimension": "120 x 95 x 154mm (DWH)",
+   "Weight": "650g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 115X / 1200 / 1366 / 1700 / 1851 / 20XX",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 600~1700 ± 10% RPM",
+  "Airflow: 24~63 ± 10% CFM",
+  "Noise: 14~26 ± 10% dB(A)",
+  "Supports both Intel and AMD"
+ ],
+ "price": 3800,
+ "regular": 4180,
+ "status": "In Stock",
+ "code": "51544",
+ "brand": "Antec",
+ "model": "F600 ARGB",
+ "warranty": "1 year warranty",
+ "name": "Antec F600 ARGB CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Antec",
+  "Antec F600 ARGB CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T01:02+06:00",
+ "source": "https://www.startech.com.bd/antec-f600-argb-cpu-cooler"
+}

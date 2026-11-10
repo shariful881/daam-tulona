@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Gold",
+   "Fan Size": "120mm Silent Fan",
+   "Lighting Effect": "N/A",
+   "Others": "PFC: Active PFC\nPower Good Signal: 100-150ms\nProtection: OCP, OVP, UVP, SCP, OPP, OTP, NLO\nRegulatory: CB / CE / BIS\nFan: 120mm Silent Fan"
+  },
+  "Input": {
+   "Voltage": "200V-230VAC",
+   "Frequency Range": "50Hz",
+   "Current": "4A Max"
+  },
+  "Output": {
+   "Modular Type": "Semi-Modular",
+   "Total Power": "650W"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4)pin MB",
+   "CPU": "2 x 8(4+4)pin EPS 12V",
+   "PCI-E": "4 x 8(6+2) Pin PCI-E",
+   "SATA": "8 x SATA",
+   "Molex": "3 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "6 Years replacement warranty including Burn Cases"
+  }
+ },
+ "key_features": [
+  "Certification:\t80 Plus Gold , Capacity: 650W",
+  "Type: ATX 12V 2.53, 120mm Silent Fan",
+  "Active Power Factor Correction (APFC)",
+  "Industrial Grade Protections: OCP/UVP/OVP/OPP/SCP/OTP/NLO"
+ ],
+ "price": 7300,
+ "regular": 8000,
+ "status": "In Stock",
+ "code": "39109",
+ "brand": "Antec",
+ "model": "G650",
+ "warranty": "6 Years replacement warranty including Burn Cases",
+ "name": "Antec G650 650W 80 Plus Gold Semi Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec G650 650W 80 Plus Gold Semi Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:03+06:00",
+ "source": "https://www.startech.com.bd/antec-g650-650w-80-plus-gold-power-supply"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.2GHz",
+   "Maximum Turbo Frequency": "Up to 5.0GHz",
+   "Cache": "Total L1 Cache: 512KB\nTotal L2 Cache: 8MB\nTotal L3 Cache: 96MB",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "120W",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "2x1R: DDR5-5200\n2x2R: DDR5-5200\n4x1R: DDR5-3600\n4x2R: DDR5-3600",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.2GHz Up to 5.0GHz",
+  "Cores: 8, Threads: 16",
+  "L1 Cache: 512KB, L2 Cache: 8MB, L3 Cache: 96MB",
+  "Socket: AM5"
+ ],
+ "price": 3140034000,
+ "regular": 34500,
+ "status": "In Stock",
+ "code": "27897",
+ "brand": "AMD",
+ "model": "Ryzen 7 7800X3D (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 7 7800X3D Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 7 7800X3D Processor"
+ ],
+ "fetched": "2026-11-11T00:58+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-7-7800x3d-processor"
+}

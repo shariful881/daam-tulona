@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "1000W",
+   "Certification": "80 Plus Gold",
+   "Fan Size": "120mm FDB Silent Fan"
+  },
+  "Input": {
+   "Voltage": "100V-240V",
+   "Frequency Range": "60Hz-50Hz",
+   "Current": "12A-6A"
+  },
+  "Output": {
+   "Modular Type": "Full-Modular"
+  },
+  "Connector": {
+   "Main Power": "1 x 24(20+4)pin",
+   "CPU": "2 x 8(4+4)pin",
+   "PCI-E": "4 x 8(6+2) Pin",
+   "SATA": "12 x SATA",
+   "Molex": "4 x Molex"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1000W",
+  "ATX 3.1 & PCIe 5.1 Compatible",
+  "Fan: 120mm FDB Silent Fan",
+  "Certification: 80 Plus Gold Certified"
+ ],
+ "status": "Out Of Stock",
+ "code": "31218",
+ "brand": "Antec",
+ "model": "NE1000G M",
+ "warranty": "10 years",
+ "name": "Antec NE1000G M Black 1000W ATX 3.1 & PCIE 5.1 Full Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Antec",
+  "Antec NE1000G M Black 1000W ATX 3.1 & PCIE 5.1 Full Modular Power Supply"
+ ],
+ "fetched": "2026-11-11T01:04+06:00",
+ "source": "https://www.startech.com.bd/antec-ne1000g-m-power-supply"
+}

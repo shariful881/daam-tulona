@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "750-1900 ± 10% RPM",
+   "Fan Airflow": "57.56 CFM",
+   "Noise": "38.21dB @ 1000 mm",
+   "Air Pressure": "2.48 mm-H₂O",
+   "Connector": "4-pin (PWM)",
+   "Material": "Heat Pipe: Copper",
+   "Others": "Fan Life Span: 30,000/hrs @ 25℃\nFan Bearing: Hydraulic Bearing\nNO. of POLE: 4 (Poles)\nFan Rated Voltage: DC 12V\nFan Rated Current: 0.17 A ± 10%\nFan Rated Power: 2.04 W ± 10%\nFan Leaves: 9\nCable Length: 500 mm ± 10 mm\nTDP: 275"
+  },
+  "Physical Specification": {
+   "Dimension": "Fan Dimensions: 120 x 120 x 25 mm\nHeat Pipe Dimensions: 6 x Ø6 mm\nCPU Cooler Height: 160 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel 1851 / 1700 / 1200 / 115x",
+   "AMD": "AMD AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 750-1900 ± 10% RPM",
+  "Fan Max Airflow: 57.56 CFM",
+  "Fan Bearing: Hydraulic Bearing",
+  "Fan Life Span: 30,000/hrs @ 25℃"
+ ],
+ "status": "Out Of Stock",
+ "code": "45194",
+ "brand": "1STPLAYER",
+ "mpn": "CY12D-BK",
+ "model": "CY12D Black",
+ "warranty": "5 Years",
+ "name": "1STPLAYER CRYO CY12D Black Dual Tower Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "1STPLAYER",
+  "1STPLAYER CRYO CY12D Black Dual Tower Air CPU Cooler"
+ ],
+ "fetched": "2026-11-11T00:48+06:00",
+ "source": "https://www.startech.com.bd/1stplayer-cryo-cy12d-black-cpu-cooler"
+}

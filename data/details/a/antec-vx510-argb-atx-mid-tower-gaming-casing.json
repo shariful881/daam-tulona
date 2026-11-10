@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "Mesh Panel",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "ATX, M-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic + Tempered Glass",
+   "Weight": "5.82kg",
+   "Dimensions": "376 x 220 x 460mm (DWH)",
+   "Expansion Slots": "7",
+   "Radiator Support": "Front: 120/ 240mm\nTop: 120/ 240mm\nRear: 120mm",
+   "Fan Support": "Front: 3 x 120mm / 3 x 140mm\nTop: 2 x 120mm /2 x 140mm\nRear: 1 x 120mm / 1 x 140mm",
+   "Pre- Installed Fans": "3 × 120mm ARGB fans at the front +\n1 x 120mm ARGB fan at the rear",
+   "Drive Bays": "3.5\" /2.5\": 2/1",
+   "I/O Port": "Power, LED Control Button, 1x USB 2.0, 1x USB 3.0, 1x Headphone/Mic Combo"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 175mm",
+   "Maximum Graphics Card Length": "≤ 325mm",
+   "Maximum PSU Length": "(Cable excluded): 150mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Mainboard Support: ATX, Micro-ATX, ITX",
+  "Tempered Glass Side Panel, Top & Bottom Dust Filter",
+  "Pre-Install Fans: 4x 120mm ARGB Fans",
+  "I/O Ports: 1x USB 2.0, 1x USB 3.0, 1x Headphone/Mic Combo"
+ ],
+ "price": 3900,
+ "regular": 4290,
+ "status": "In Stock",
+ "code": "51550",
+ "brand": "Antec",
+ "model": "VX510 ARGB",
+ "warranty": "No Warranty",
+ "name": "Antec VX510 ARGB ATX Mid Tower Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec VX510 ARGB ATX Mid Tower Gaming Casing"
+ ],
+ "fetched": "2026-11-11T01:06+06:00",
+ "source": "https://www.startech.com.bd/antec-vx510-argb-gaming-casing"
+}

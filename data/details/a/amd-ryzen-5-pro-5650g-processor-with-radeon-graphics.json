@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.9GHz",
+   "Maximum Turbo Frequency": "4.4GHz",
+   "Cache": "Total L2 Cache: 3MB\nTotal L3 Cache: 16MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W",
+   "Supported Technologies": "Display Port: Yes\nHDMI: Yes"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Radeon Graphics",
+   "Base Frequency": "1900 MHz",
+   "Core Count": "7"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.9GHz up to 4.4GHz",
+  "Cache: L2: 3MB, L3: 16MB",
+  "Cores-6 & Threads-12",
+  "CPU Socket: AM4"
+ ],
+ "price": 1720018500,
+ "regular": 19250,
+ "status": "In Stock",
+ "code": "23963",
+ "brand": "AMD",
+ "model": "Ryzen 5 PRO 5650G",
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "name": "AMD Ryzen 5 PRO 5650G Processor with Radeon Graphics",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "AMD",
+  "AMD Ryzen 5 PRO 5650G Processor with Radeon Graphics"
+ ],
+ "fetched": "2026-11-11T00:57+06:00",
+ "source": "https://www.startech.com.bd/amd-ryzen-5-pro-5650g-processor"
+}

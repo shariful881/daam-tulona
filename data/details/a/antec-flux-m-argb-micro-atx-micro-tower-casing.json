@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Micro Tower",
+   "Front Panel": "Mesh Panel",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "Micro-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic + Tempered Glass",
+   "Weight": "6.35 Kg",
+   "Dimensions": "459 x 247 x 365mm (DWH)",
+   "Expansion Slots": "5",
+   "Radiator Support": "Top: 120 / 240 / 360mm\nRear: 120mm",
+   "Fan Support": "Front: 2 x 120mm\nTop: 3 x 120mm\nBottom: 3 x 120mm\nRear: 1 x 120mm",
+   "Pre- Installed Fans": "2 X 120mm ARGB PWM fans at the front + 3 x 120mm PWM reverse fans at the bottom + 1 x 120mm ARGB PWM fan at the rear",
+   "Drive Bays": "3.5\" / 2.5\": 2 / 2",
+   "I/O Port": "Power, Reset , USB3.0 x 1, Type-C 3.2 Gen 2 (10 Gbps) x 1, Headphone/Mic Combo Jack"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 175mm",
+   "Maximum Graphics Card Length": "≤ 405mm",
+   "Maximum PSU Length": "(Cable not included) ≤160mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Micro-ATX, ITX",
+  "Tempered Glass Side Panel, Built-in GPU Bracket",
+  "Pre-Install Fans: 3 X 120mm ARGB, 3 x 120mm Reverse",
+  "I/O Ports: 1x USB3.0, 1x Type-C, 1x Headphone/Mic Combo"
+ ],
+ "price": 57006100,
+ "regular": 6670,
+ "status": "In Stock",
+ "code": "48770",
+ "brand": "Antec",
+ "model": "Flux M",
+ "warranty": "No Warranty",
+ "name": "Antec Flux M ARGB Micro-ATX Micro Tower Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec Flux M ARGB Micro-ATX Micro Tower Casing"
+ ],
+ "fetched": "2026-11-11T01:03+06:00",
+ "source": "https://www.startech.com.bd/antec-flux-m-argb-casing"
+}
