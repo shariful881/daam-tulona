@@ -95,6 +95,10 @@
         }
        ],
        "limit": 90
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/phones-and-tabs/smartphones/",
+       "max_pages": 5
       }
      }
     },
@@ -131,6 +135,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/graphics-tablet",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/graphics-tablet",
+       "max_pages": 1
       }
      }
     },
@@ -249,6 +261,18 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/tablet",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/tablet-pc",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/phones-and-tabs/tablets/",
+       "max_pages": 5
       }
      }
     }
@@ -278,6 +302,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gaming-laptop",
+       "max_pages": 5
       }
      }
     },
@@ -314,6 +342,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/laptop",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/laptops",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/laptop",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/laptop/",
+       "max_pages": 5
       }
      }
     },
@@ -332,6 +376,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/backpacks",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/laptop-bag",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/backpack/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/laptop-bag",
+       "max_pages": 1
       }
      }
     },
@@ -354,6 +414,18 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/gaming-pc",
+       "max_pages": 3
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gaming-pc",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/desktop/gaming-pc/",
+       "max_pages": 5
       }
      }
     },
@@ -408,6 +480,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/all-in-one-pc",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/all-in-one",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/all-in-one-pc",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/desktop/all-in-one/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/all-in-one-pc",
+       "max_pages": 1
       }
      }
     },
@@ -426,6 +518,10 @@
         }
        ],
        "limit": 90
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/mini-pc",
+       "max_pages": 1
       }
      }
     },
@@ -478,6 +574,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/desktop",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/desktop-pc",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/desktop",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/desktop/",
+       "max_pages": 5
       }
      }
     }
@@ -540,6 +652,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/motherboard",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/motherboard",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/motherboard",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/motherboard/",
+       "max_pages": 5
       }
      }
     },
@@ -558,6 +686,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/graphics-card",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/graphics-card",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/graphics-card",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/graphics-card/",
+       "max_pages": 5
       }
      }
     },
@@ -652,6 +796,18 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/portable-ssd",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/portable-ssd",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/portable-ssd",
+       "max_pages": 5
       }
      }
     },
@@ -707,6 +863,14 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/portable-hdd",
+       "max_pages": 3
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/portable-hard-disk",
+       "max_pages": 5
       }
      }
     },
@@ -725,6 +889,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/hdd",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/internal-hard-disk",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/hard-disk-drive",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/hard-disk-drive/",
+       "max_pages": 5
       }
      }
     },
@@ -743,6 +923,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/power-supply",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/power-supply",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/power-supply",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/power-supply/",
+       "max_pages": 5
       }
      }
     },
@@ -761,6 +957,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/casing",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/casing",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/casing",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/casing/",
+       "max_pages": 5
       }
      }
     },
@@ -797,6 +1009,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/cpu-cooler",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/cpu-cooler",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/cpu-cooler",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-components/cpu-cooler/",
+       "max_pages": 5
       }
      }
     },
@@ -815,6 +1043,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/casing-fan",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/casing-fan",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/cooling-fan",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/casing-fan",
+       "max_pages": 1
       }
      }
     },
@@ -833,6 +1077,10 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/dvd-writer",
+       "max_pages": 5
       }
      }
     },
@@ -869,6 +1117,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/laptop-accessories",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/laptop-accessories",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/laptop-accessories",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/laptop-accessories",
+       "max_pages": 1
       }
      }
     }
@@ -894,6 +1158,18 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/monitor-arm",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/monitor-arm",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/monitor-stand",
+       "max_pages": 5
       }
      }
     },
@@ -916,6 +1192,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gaming-monitor",
+       "max_pages": 5
       }
      }
     },
@@ -952,6 +1232,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/monitor",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/monitor",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/monitor",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/monitors/",
+       "max_pages": 5
       }
      }
     }
@@ -981,6 +1277,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/keyboard",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/keyboard",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/keyboard",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/keyboards/",
+       "max_pages": 5
       }
      }
     },
@@ -1003,6 +1315,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/mouse",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/mouse",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/mouse",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/mouse/",
+       "max_pages": 5
       }
      }
     },
@@ -1025,6 +1353,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/mouse-pad",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/mouse-pad",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/mouse-pad",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/mouse-pad/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/mouse-pad",
+       "max_pages": 1
       }
      }
     },
@@ -1047,6 +1395,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/headphone",
+       "max_pages": 3
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/headphone",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/headsets/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/headphone",
+       "max_pages": 1
       }
      }
     },
@@ -1083,6 +1447,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/webcam",
+       "max_pages": 3
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/webcam",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/webcam/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/webcam",
+       "max_pages": 1
       }
      }
     },
@@ -1101,6 +1481,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/microphone",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/microphone",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/microphone",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/microphone",
+       "max_pages": 1
       }
      }
     },
@@ -1119,6 +1515,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/speaker",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/speakers",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/speaker",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/speakers/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/speaker",
+       "max_pages": 1
       }
      }
     },
@@ -1137,6 +1553,18 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/Bluetooth-Speakers",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/bluetooth-speaker",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/bluetooth-speakers",
+       "max_pages": 1
       }
      }
     },
@@ -1155,6 +1583,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/soundbar",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/soundbar",
+       "max_pages": 1
       }
      }
     },
@@ -1173,6 +1609,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/pen-drive",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/pen-drive",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/pen-drive",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/pen-drive/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/pen-drive",
+       "max_pages": 1
       }
      }
     },
@@ -1191,6 +1647,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/memory-card",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/memory-card",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/memory-card",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/memory-card/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/memory-card",
+       "max_pages": 1
       }
      }
     },
@@ -1209,6 +1685,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/card-reader",
+       "max_pages": 5
       }
      }
     },
@@ -1227,6 +1707,10 @@
         }
        ],
        "limit": 90
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/usb-hub/",
+       "max_pages": 5
       }
      }
     },
@@ -1245,6 +1729,14 @@
         }
        ],
        "limit": 90
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/cables/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/cable",
+       "max_pages": 1
       }
      }
     },
@@ -1263,6 +1755,10 @@
         }
        ],
        "limit": 90
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/converter",
+       "max_pages": 1
       }
      }
     },
@@ -1281,6 +1777,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/enclosure",
+       "max_pages": 5
       }
      }
     },
@@ -1299,6 +1799,14 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/capture-card",
+       "max_pages": 3
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/capture-card",
+       "max_pages": 5
       }
      }
     },
@@ -1317,6 +1825,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/power-strip",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/power-strip",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/power-strip/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/power-strip",
+       "max_pages": 1
       }
      }
     },
@@ -1353,6 +1877,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/thermal-paste",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/thermal-paste",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/thermal-paste",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/thermal-paste",
+       "max_pages": 1
       }
      }
     },
@@ -1476,6 +2016,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/smart-watch",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/smart-watches",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/smart-watch",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/gadgets/hifuture-in-bangladesh/smart-watch/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/smart-watch",
+       "max_pages": 1
       }
      }
     },
@@ -1552,6 +2112,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/earbud",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/earbuds",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/earbuds",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/gadgets/hifuture-in-bangladesh/earbuds/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/earbud",
+       "max_pages": 1
       }
      }
     },
@@ -1574,6 +2154,10 @@
         }
        ],
        "limit": 90
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/neckband",
+       "max_pages": 1
       }
      }
     },
@@ -1592,6 +2176,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/earphone",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/earphone",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/earphone",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/earphone",
+       "max_pages": 1
       }
      }
     },
@@ -1610,6 +2210,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/power-bank",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/power-bank",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/power-bank",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/power-bank",
+       "max_pages": 1
       }
      }
     },
@@ -1664,6 +2280,18 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/drone",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/drones",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/drone",
+       "max_pages": 1
       }
      }
     },
@@ -1686,6 +2314,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gimbal",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/gimbal",
+       "max_pages": 1
       }
      }
     },
@@ -1765,6 +2401,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/gaming-console",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/gaming-console",
+       "max_pages": 1
       }
      }
     },
@@ -1783,6 +2427,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/gamepad",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/gamepad",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gamepad",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/gamepad",
+       "max_pages": 1
       }
      }
     },
@@ -1801,6 +2461,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/gaming-chair",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/gaming-chair",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/gaming-chair",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/gaming-chair/",
+       "max_pages": 5
       }
      }
     },
@@ -1916,6 +2592,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/router",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/router",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/router",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/networking-products/routers/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/router",
+       "max_pages": 1
       }
      }
     },
@@ -1934,6 +2630,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/pocket-router",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/pocket-router",
+       "max_pages": 1
       }
      }
     },
@@ -1988,6 +2692,10 @@
         }
        ],
        "limit": 90
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/access-point",
+       "max_pages": 1
       }
      }
     },
@@ -2006,6 +2714,10 @@
         }
        ],
        "limit": 90
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/wifi-adapter",
+       "max_pages": 1
       }
      }
     },
@@ -2024,6 +2736,18 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/network-switch",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/network-switch",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/network-switch",
+       "max_pages": 5
       }
      }
     },
@@ -2082,6 +2806,22 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/lan-card",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/lan-card",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/lan-card",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/lan-card",
+       "max_pages": 1
       }
      }
     },
@@ -2211,6 +2951,10 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/wifi-camera",
+       "max_pages": 5
       }
      }
     },
@@ -2229,6 +2973,18 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/ip-camera",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/ip-camera",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/ip-camera",
+       "max_pages": 1
       }
      }
     },
@@ -2247,6 +3003,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/cc-camera",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/cc-camera",
+       "max_pages": 1
       }
      }
     },
@@ -2331,6 +3095,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/dvr-nvr",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/nvr",
+       "max_pages": 1
       }
      }
     },
@@ -2468,6 +3240,10 @@
         }
        ],
        "limit": 90
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/printers/laser-printers/",
+       "max_pages": 5
       }
      }
     },
@@ -2490,6 +3266,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/printers",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/printer",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/printers/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/printer",
+       "max_pages": 1
       }
      }
     },
@@ -2554,6 +3346,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/toner",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/toner",
+       "max_pages": 1
       }
      }
     },
@@ -2576,6 +3376,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/scanner",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/scanner",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/scanners/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/scanner",
+       "max_pages": 1
       }
      }
     },
@@ -2594,6 +3410,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/photocopier",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/photocopier",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/photocopiers/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/photocopier",
+       "max_pages": 1
       }
      }
     },
@@ -2612,6 +3444,22 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/projectors",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/projector",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/office-equipment/projectors/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/projector",
+       "max_pages": 1
       }
      }
     },
@@ -2690,6 +3538,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/ip-phone",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/ip-phone",
+       "max_pages": 1
       }
      }
     },
@@ -2760,6 +3616,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/calculator",
+       "max_pages": 5
       }
      }
     }
@@ -2785,6 +3645,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/action-camera",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/action-camera",
+       "max_pages": 1
       }
      }
     },
@@ -2877,6 +3745,10 @@
         }
        ],
        "limit": 90
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/camera/camera-lens/",
+       "max_pages": 5
       }
      }
     },
@@ -2924,6 +3796,14 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/online-ups",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/online-ups",
+       "max_pages": 5
       }
      }
     },
@@ -2960,6 +3840,26 @@
         }
        ],
        "limit": 90
+      },
+      "ultratech": {
+       "url": "https://www.ultratech.com.bd/ups",
+       "max_pages": 3
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/ups",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/ups",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/computer-accessories/ups/",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/ups",
+       "max_pages": 1
       }
      }
     },
@@ -3062,6 +3962,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/stabilizer",
+       "max_pages": 5
       }
      }
     },
@@ -3109,6 +4013,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/server",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/servers/",
+       "max_pages": 5
       }
      }
     },
@@ -3238,6 +4150,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/operating-system",
+       "max_pages": 5
+      },
+      "smartbd": {
+       "url": "https://smartbd.com/product-category/software/microsoft/operating-system/",
+       "max_pages": 5
       }
      }
     },
@@ -3256,6 +4176,10 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/antivirus",
+       "max_pages": 5
       }
      }
     },
@@ -3327,6 +4251,14 @@
         }
        ],
        "limit": 90
+      },
+      "pchouse": {
+       "url": "https://www.pchouse.com.bd/television",
+       "max_pages": 5
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/television",
+       "max_pages": 5
       }
      }
     },
@@ -3345,6 +4277,14 @@
         }
        ],
        "limit": 90
+      },
+      "creatus": {
+       "url": "https://www.creatus.com.bd/ac",
+       "max_pages": 5
+      },
+      "fourstar": {
+       "url": "https://fourstarit.com.bd/c/air-conditioner",
+       "max_pages": 1
       }
      }
     },

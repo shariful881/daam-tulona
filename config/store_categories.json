@@ -1,0 +1,1025 @@
+{
+ "_নোট": "অন্য স্টোরগুলোর ক্যাটাগরি পাতা → আমাদের ক্যাটাগরি। categories.json-এ একই ক্যাটাগরি থাকলে সেটাই আগে।",
+ "ultratech": {
+  "laptop": {
+   "url": "https://www.ultratech.com.bd/laptop",
+   "max_pages": 3
+  },
+  "laptop-accessories": {
+   "url": "https://www.ultratech.com.bd/laptop-accessories",
+   "max_pages": 3
+  },
+  "processor": {
+   "url": "https://www.ultratech.com.bd/processor",
+   "max_pages": 3
+  },
+  "cpu-cooler": {
+   "url": "https://www.ultratech.com.bd/cpu-cooler",
+   "max_pages": 3
+  },
+  "motherboard": {
+   "url": "https://www.ultratech.com.bd/motherboard",
+   "max_pages": 3
+  },
+  "graphics-card": {
+   "url": "https://www.ultratech.com.bd/graphics-card",
+   "max_pages": 3
+  },
+  "desktop-ram": {
+   "url": "https://www.ultratech.com.bd/ram",
+   "max_pages": 3
+  },
+  "laptop-ram": {
+   "url": "https://www.ultratech.com.bd/laptop-ram",
+   "max_pages": 3
+  },
+  "power-supply": {
+   "url": "https://www.ultratech.com.bd/power-supply",
+   "max_pages": 3
+  },
+  "hdd": {
+   "url": "https://www.ultratech.com.bd/hdd",
+   "max_pages": 3
+  },
+  "portable-hdd": {
+   "url": "https://www.ultratech.com.bd/portable-hdd",
+   "max_pages": 3
+  },
+  "ssd": {
+   "url": "https://www.ultratech.com.bd/ssd",
+   "max_pages": 3
+  },
+  "portable-ssd": {
+   "url": "https://www.ultratech.com.bd/portable-ssd",
+   "max_pages": 3
+  },
+  "casing": {
+   "url": "https://www.ultratech.com.bd/casing",
+   "max_pages": 3
+  },
+  "casing-fan": {
+   "url": "https://www.ultratech.com.bd/casing-fan",
+   "max_pages": 3
+  },
+  "desktop-pc": {
+   "url": "https://www.ultratech.com.bd/desktop",
+   "max_pages": 3
+  },
+  "all-in-one-pc": {
+   "url": "https://www.ultratech.com.bd/all-in-one-pc",
+   "max_pages": 3
+  },
+  "gaming-pc": {
+   "url": "https://www.ultratech.com.bd/gaming-pc",
+   "max_pages": 3
+  },
+  "monitor-all": {
+   "url": "https://www.ultratech.com.bd/monitor",
+   "max_pages": 3
+  },
+  "monitor-arm": {
+   "url": "https://www.ultratech.com.bd/monitor-arm",
+   "max_pages": 3
+  },
+  "keyboard": {
+   "url": "https://www.ultratech.com.bd/keyboard",
+   "max_pages": 3
+  },
+  "mouse": {
+   "url": "https://www.ultratech.com.bd/mouse",
+   "max_pages": 3
+  },
+  "headphone": {
+   "url": "https://www.ultratech.com.bd/headphone",
+   "max_pages": 3
+  },
+  "speaker": {
+   "url": "https://www.ultratech.com.bd/speaker",
+   "max_pages": 3
+  },
+  "mouse-pad": {
+   "url": "https://www.ultratech.com.bd/mouse-pad",
+   "max_pages": 3
+  },
+  "webcam": {
+   "url": "https://www.ultratech.com.bd/webcam",
+   "max_pages": 3
+  },
+  "earphone": {
+   "url": "https://www.ultratech.com.bd/earphone",
+   "max_pages": 3
+  },
+  "microphone": {
+   "url": "https://www.ultratech.com.bd/microphone",
+   "max_pages": 3
+  },
+  "pen-drive": {
+   "url": "https://www.ultratech.com.bd/pen-drive",
+   "max_pages": 3
+  },
+  "thermal-paste": {
+   "url": "https://www.ultratech.com.bd/thermal-paste",
+   "max_pages": 3
+  },
+  "earbuds": {
+   "url": "https://www.ultratech.com.bd/earbud",
+   "max_pages": 3
+  },
+  "smart-watch": {
+   "url": "https://www.ultratech.com.bd/smart-watch",
+   "max_pages": 3
+  },
+  "capture-card": {
+   "url": "https://www.ultratech.com.bd/capture-card",
+   "max_pages": 3
+  },
+  "memory-card": {
+   "url": "https://www.ultratech.com.bd/memory-card",
+   "max_pages": 3
+  },
+  "lan-card": {
+   "url": "https://www.ultratech.com.bd/lan-card",
+   "max_pages": 3
+  },
+  "power-bank": {
+   "url": "https://www.ultratech.com.bd/power-bank",
+   "max_pages": 3
+  },
+  "ups": {
+   "url": "https://www.ultratech.com.bd/ups",
+   "max_pages": 3
+  },
+  "online-ups": {
+   "url": "https://www.ultratech.com.bd/online-ups",
+   "max_pages": 3
+  },
+  "router": {
+   "url": "https://www.ultratech.com.bd/router",
+   "max_pages": 3
+  },
+  "network-switch": {
+   "url": "https://www.ultratech.com.bd/network-switch",
+   "max_pages": 3
+  },
+  "gaming-chair": {
+   "url": "https://www.ultratech.com.bd/gaming-chair",
+   "max_pages": 3
+  },
+  "gamepad": {
+   "url": "https://www.ultratech.com.bd/gamepad",
+   "max_pages": 3
+  }
+ },
+ "pchouse": {
+  "desktop-pc": {
+   "url": "https://www.pchouse.com.bd/desktop-pc",
+   "max_pages": 5
+  },
+  "all-in-one-pc": {
+   "url": "https://www.pchouse.com.bd/all-in-one",
+   "max_pages": 5
+  },
+  "laptop": {
+   "url": "https://www.pchouse.com.bd/laptops",
+   "max_pages": 5
+  },
+  "laptop-accessories": {
+   "url": "https://www.pchouse.com.bd/laptop-accessories",
+   "max_pages": 5
+  },
+  "optical-drive": {
+   "url": "https://www.pchouse.com.bd/dvd-writer",
+   "max_pages": 5
+  },
+  "laptop-ram": {
+   "url": "https://www.pchouse.com.bd/laptop-ram",
+   "max_pages": 5
+  },
+  "laptop-bag": {
+   "url": "https://www.pchouse.com.bd/backpacks",
+   "max_pages": 5
+  },
+  "monitor-all": {
+   "url": "https://www.pchouse.com.bd/monitor",
+   "max_pages": 5
+  },
+  "monitor-arm": {
+   "url": "https://www.pchouse.com.bd/monitor-arm",
+   "max_pages": 5
+  },
+  "motherboard": {
+   "url": "https://www.pchouse.com.bd/motherboard",
+   "max_pages": 5
+  },
+  "processor": {
+   "url": "https://www.pchouse.com.bd/processor",
+   "max_pages": 5
+  },
+  "graphics-card": {
+   "url": "https://www.pchouse.com.bd/graphics-card",
+   "max_pages": 5
+  },
+  "power-supply": {
+   "url": "https://www.pchouse.com.bd/power-supply",
+   "max_pages": 5
+  },
+  "desktop-ram": {
+   "url": "https://www.pchouse.com.bd/desktop-ram",
+   "max_pages": 5
+  },
+  "ssd": {
+   "url": "https://www.pchouse.com.bd/internal-ssd",
+   "max_pages": 5
+  },
+  "hdd": {
+   "url": "https://www.pchouse.com.bd/internal-hard-disk",
+   "max_pages": 5
+  },
+  "cpu-cooler": {
+   "url": "https://www.pchouse.com.bd/cpu-cooler",
+   "max_pages": 5
+  },
+  "casing": {
+   "url": "https://www.pchouse.com.bd/casing",
+   "max_pages": 5
+  },
+  "portable-ssd": {
+   "url": "https://www.pchouse.com.bd/portable-ssd",
+   "max_pages": 5
+  },
+  "ups": {
+   "url": "https://www.pchouse.com.bd/ups",
+   "max_pages": 5
+  },
+  "online-ups": {
+   "url": "https://www.pchouse.com.bd/online-ups",
+   "max_pages": 5
+  },
+  "casing-fan": {
+   "url": "https://www.pchouse.com.bd/casing-fan",
+   "max_pages": 5
+  },
+  "thermal-paste": {
+   "url": "https://www.pchouse.com.bd/thermal-paste",
+   "max_pages": 5
+  },
+  "tablet": {
+   "url": "https://www.pchouse.com.bd/tablet",
+   "max_pages": 5
+  },
+  "graphics-tablet": {
+   "url": "https://www.pchouse.com.bd/graphics-tablet",
+   "max_pages": 5
+  },
+  "mouse": {
+   "url": "https://www.pchouse.com.bd/mouse",
+   "max_pages": 5
+  },
+  "keyboard": {
+   "url": "https://www.pchouse.com.bd/keyboard",
+   "max_pages": 5
+  },
+  "pen-drive": {
+   "url": "https://www.pchouse.com.bd/pen-drive",
+   "max_pages": 5
+  },
+  "memory-card": {
+   "url": "https://www.pchouse.com.bd/memory-card",
+   "max_pages": 5
+  },
+  "power-strip": {
+   "url": "https://www.pchouse.com.bd/power-strip",
+   "max_pages": 5
+  },
+  "mouse-pad": {
+   "url": "https://www.pchouse.com.bd/mouse-pad",
+   "max_pages": 5
+  },
+  "gaming-chair": {
+   "url": "https://www.pchouse.com.bd/gaming-chair",
+   "max_pages": 5
+  },
+  "gaming-console": {
+   "url": "https://www.pchouse.com.bd/gaming-console",
+   "max_pages": 5
+  },
+  "gamepad": {
+   "url": "https://www.pchouse.com.bd/gamepad",
+   "max_pages": 5
+  },
+  "action-camera": {
+   "url": "https://www.pchouse.com.bd/action-camera",
+   "max_pages": 5
+  },
+  "ip-camera": {
+   "url": "https://www.pchouse.com.bd/ip-camera",
+   "max_pages": 5
+  },
+  "earphone": {
+   "url": "https://www.pchouse.com.bd/earphone",
+   "max_pages": 5
+  },
+  "smart-watch": {
+   "url": "https://www.pchouse.com.bd/smart-watches",
+   "max_pages": 5
+  },
+  "earbuds": {
+   "url": "https://www.pchouse.com.bd/earbuds",
+   "max_pages": 5
+  },
+  "microphone": {
+   "url": "https://www.pchouse.com.bd/microphone",
+   "max_pages": 5
+  },
+  "speaker": {
+   "url": "https://www.pchouse.com.bd/speakers",
+   "max_pages": 5
+  },
+  "bluetooth-speaker": {
+   "url": "https://www.pchouse.com.bd/Bluetooth-Speakers",
+   "max_pages": 5
+  },
+  "drone": {
+   "url": "https://www.pchouse.com.bd/drone",
+   "max_pages": 5
+  },
+  "power-bank": {
+   "url": "https://www.pchouse.com.bd/power-bank",
+   "max_pages": 5
+  },
+  "printer": {
+   "url": "https://www.pchouse.com.bd/printers",
+   "max_pages": 5
+  },
+  "scanner": {
+   "url": "https://www.pchouse.com.bd/scanner",
+   "max_pages": 5
+  },
+  "wifi-camera": {
+   "url": "https://www.pchouse.com.bd/wifi-camera",
+   "max_pages": 5
+  },
+  "printer-supplies": {
+   "url": "https://www.pchouse.com.bd/toner",
+   "max_pages": 5
+  },
+  "photocopier": {
+   "url": "https://www.pchouse.com.bd/photocopier",
+   "max_pages": 5
+  },
+  "router": {
+   "url": "https://www.pchouse.com.bd/router",
+   "max_pages": 5
+  },
+  "pocket-router": {
+   "url": "https://www.pchouse.com.bd/pocket-router",
+   "max_pages": 5
+  },
+  "network-switch": {
+   "url": "https://www.pchouse.com.bd/network-switch",
+   "max_pages": 5
+  },
+  "lan-card": {
+   "url": "https://www.pchouse.com.bd/lan-card",
+   "max_pages": 5
+  },
+  "projector": {
+   "url": "https://www.pchouse.com.bd/projectors",
+   "max_pages": 5
+  },
+  "tv": {
+   "url": "https://www.pchouse.com.bd/television",
+   "max_pages": 5
+  }
+ },
+ "creatus": {
+  "desktop-pc": {
+   "url": "https://www.creatus.com.bd/desktop",
+   "max_pages": 5
+  },
+  "all-in-one-pc": {
+   "url": "https://www.creatus.com.bd/all-in-one-pc",
+   "max_pages": 5
+  },
+  "gaming-pc": {
+   "url": "https://www.creatus.com.bd/gaming-pc",
+   "max_pages": 5
+  },
+  "processor": {
+   "url": "https://www.creatus.com.bd/processor",
+   "max_pages": 5
+  },
+  "cpu-cooler": {
+   "url": "https://www.creatus.com.bd/cpu-cooler",
+   "max_pages": 5
+  },
+  "motherboard": {
+   "url": "https://www.creatus.com.bd/motherboard",
+   "max_pages": 5
+  },
+  "graphics-card": {
+   "url": "https://www.creatus.com.bd/graphics-card",
+   "max_pages": 5
+  },
+  "desktop-ram": {
+   "url": "https://www.creatus.com.bd/desktop-ram",
+   "max_pages": 5
+  },
+  "laptop-ram": {
+   "url": "https://www.creatus.com.bd/laptop-ram",
+   "max_pages": 5
+  },
+  "power-supply": {
+   "url": "https://www.creatus.com.bd/power-supply",
+   "max_pages": 5
+  },
+  "hdd": {
+   "url": "https://www.creatus.com.bd/hard-disk-drive",
+   "max_pages": 5
+  },
+  "ssd": {
+   "url": "https://www.creatus.com.bd/ssd",
+   "max_pages": 5
+  },
+  "portable-ssd": {
+   "url": "https://www.creatus.com.bd/portable-ssd",
+   "max_pages": 5
+  },
+  "casing": {
+   "url": "https://www.creatus.com.bd/casing",
+   "max_pages": 5
+  },
+  "voltage-stabilizer": {
+   "url": "https://www.creatus.com.bd/stabilizer",
+   "max_pages": 5
+  },
+  "laptop": {
+   "url": "https://www.creatus.com.bd/laptop",
+   "max_pages": 5
+  },
+  "gaming-laptop": {
+   "url": "https://www.creatus.com.bd/gaming-laptop",
+   "max_pages": 5
+  },
+  "monitor-all": {
+   "url": "https://www.creatus.com.bd/monitor",
+   "max_pages": 5
+  },
+  "gaming-monitor": {
+   "url": "https://www.creatus.com.bd/gaming-monitor",
+   "max_pages": 5
+  },
+  "cc-camera": {
+   "url": "https://www.creatus.com.bd/cc-camera",
+   "max_pages": 5
+  },
+  "dvr-nvr": {
+   "url": "https://www.creatus.com.bd/dvr-nvr",
+   "max_pages": 5
+  },
+  "ip-camera": {
+   "url": "https://www.creatus.com.bd/ip-camera",
+   "max_pages": 5
+  },
+  "monitor-arm": {
+   "url": "https://www.creatus.com.bd/monitor-stand",
+   "max_pages": 5
+  },
+  "soundbar": {
+   "url": "https://www.creatus.com.bd/soundbar",
+   "max_pages": 5
+  },
+  "ac": {
+   "url": "https://www.creatus.com.bd/ac",
+   "max_pages": 5
+  },
+  "bluetooth-speaker": {
+   "url": "https://www.creatus.com.bd/bluetooth-speaker",
+   "max_pages": 5
+  },
+  "capture-card": {
+   "url": "https://www.creatus.com.bd/capture-card",
+   "max_pages": 5
+  },
+  "casing-fan": {
+   "url": "https://www.creatus.com.bd/cooling-fan",
+   "max_pages": 5
+  },
+  "earbuds": {
+   "url": "https://www.creatus.com.bd/earbuds",
+   "max_pages": 5
+  },
+  "earphone": {
+   "url": "https://www.creatus.com.bd/earphone",
+   "max_pages": 5
+  },
+  "enclosure": {
+   "url": "https://www.creatus.com.bd/enclosure",
+   "max_pages": 5
+  },
+  "headphone": {
+   "url": "https://www.creatus.com.bd/headphone",
+   "max_pages": 5
+  },
+  "keyboard": {
+   "url": "https://www.creatus.com.bd/keyboard",
+   "max_pages": 5
+  },
+  "laptop-accessories": {
+   "url": "https://www.creatus.com.bd/laptop-accessories",
+   "max_pages": 5
+  },
+  "laptop-bag": {
+   "url": "https://www.creatus.com.bd/laptop-bag",
+   "max_pages": 5
+  },
+  "memory-card": {
+   "url": "https://www.creatus.com.bd/memory-card",
+   "max_pages": 5
+  },
+  "microphone": {
+   "url": "https://www.creatus.com.bd/microphone",
+   "max_pages": 5
+  },
+  "mouse": {
+   "url": "https://www.creatus.com.bd/mouse",
+   "max_pages": 5
+  },
+  "mouse-pad": {
+   "url": "https://www.creatus.com.bd/mouse-pad",
+   "max_pages": 5
+  },
+  "pen-drive": {
+   "url": "https://www.creatus.com.bd/pen-drive",
+   "max_pages": 5
+  },
+  "portable-hdd": {
+   "url": "https://www.creatus.com.bd/portable-hard-disk",
+   "max_pages": 5
+  },
+  "power-bank": {
+   "url": "https://www.creatus.com.bd/power-bank",
+   "max_pages": 5
+  },
+  "power-strip": {
+   "url": "https://www.creatus.com.bd/power-strip",
+   "max_pages": 5
+  },
+  "speaker": {
+   "url": "https://www.creatus.com.bd/speaker",
+   "max_pages": 5
+  },
+  "tablet": {
+   "url": "https://www.creatus.com.bd/tablet-pc",
+   "max_pages": 5
+  },
+  "thermal-paste": {
+   "url": "https://www.creatus.com.bd/thermal-paste",
+   "max_pages": 5
+  },
+  "webcam": {
+   "url": "https://www.creatus.com.bd/webcam",
+   "max_pages": 5
+  },
+  "card-reader": {
+   "url": "https://www.creatus.com.bd/card-reader",
+   "max_pages": 5
+  },
+  "telephone": {
+   "url": "https://www.creatus.com.bd/ip-phone",
+   "max_pages": 5
+  },
+  "photocopier": {
+   "url": "https://www.creatus.com.bd/photocopier",
+   "max_pages": 5
+  },
+  "printer": {
+   "url": "https://www.creatus.com.bd/printer",
+   "max_pages": 5
+  },
+  "projector": {
+   "url": "https://www.creatus.com.bd/projector",
+   "max_pages": 5
+  },
+  "scanner": {
+   "url": "https://www.creatus.com.bd/scanner",
+   "max_pages": 5
+  },
+  "ups": {
+   "url": "https://www.creatus.com.bd/ups",
+   "max_pages": 5
+  },
+  "lan-card": {
+   "url": "https://www.creatus.com.bd/lan-card",
+   "max_pages": 5
+  },
+  "network-switch": {
+   "url": "https://www.creatus.com.bd/network-switch",
+   "max_pages": 5
+  },
+  "router": {
+   "url": "https://www.creatus.com.bd/router",
+   "max_pages": 5
+  },
+  "server": {
+   "url": "https://www.creatus.com.bd/server",
+   "max_pages": 5
+  },
+  "antivirus": {
+   "url": "https://www.creatus.com.bd/antivirus",
+   "max_pages": 5
+  },
+  "os-office": {
+   "url": "https://www.creatus.com.bd/operating-system",
+   "max_pages": 5
+  },
+  "calculator": {
+   "url": "https://www.creatus.com.bd/calculator",
+   "max_pages": 5
+  },
+  "drone": {
+   "url": "https://www.creatus.com.bd/drones",
+   "max_pages": 5
+  },
+  "gimbal": {
+   "url": "https://www.creatus.com.bd/gimbal",
+   "max_pages": 5
+  },
+  "smart-watch": {
+   "url": "https://www.creatus.com.bd/smart-watch",
+   "max_pages": 5
+  },
+  "gamepad": {
+   "url": "https://www.creatus.com.bd/gamepad",
+   "max_pages": 5
+  },
+  "gaming-chair": {
+   "url": "https://www.creatus.com.bd/gaming-chair",
+   "max_pages": 5
+  },
+  "tv": {
+   "url": "https://www.creatus.com.bd/television",
+   "max_pages": 5
+  }
+ },
+ "smartbd": {
+  "laptop": {
+   "url": "https://smartbd.com/product-category/laptop/",
+   "max_pages": 5
+  },
+  "desktop-pc": {
+   "url": "https://smartbd.com/product-category/desktop/",
+   "max_pages": 5
+  },
+  "all-in-one-pc": {
+   "url": "https://smartbd.com/product-category/desktop/all-in-one/",
+   "max_pages": 5
+  },
+  "gaming-pc": {
+   "url": "https://smartbd.com/product-category/desktop/gaming-pc/",
+   "max_pages": 5
+  },
+  "casing": {
+   "url": "https://smartbd.com/product-category/computer-components/casing/",
+   "max_pages": 5
+  },
+  "graphics-card": {
+   "url": "https://smartbd.com/product-category/computer-components/graphics-card/",
+   "max_pages": 5
+  },
+  "hdd": {
+   "url": "https://smartbd.com/product-category/computer-components/hard-disk-drive/",
+   "max_pages": 5
+  },
+  "desktop-ram": {
+   "url": "https://smartbd.com/product-category/computer-components/ram/",
+   "max_pages": 5
+  },
+  "processor": {
+   "url": "https://smartbd.com/product-category/computer-components/processor/",
+   "max_pages": 5
+  },
+  "power-supply": {
+   "url": "https://smartbd.com/product-category/computer-components/power-supply/",
+   "max_pages": 5
+  },
+  "ssd": {
+   "url": "https://smartbd.com/product-category/computer-components/ssd/",
+   "max_pages": 5
+  },
+  "motherboard": {
+   "url": "https://smartbd.com/product-category/computer-components/motherboard/",
+   "max_pages": 5
+  },
+  "cpu-cooler": {
+   "url": "https://smartbd.com/product-category/computer-components/cpu-cooler/",
+   "max_pages": 5
+  },
+  "speaker": {
+   "url": "https://smartbd.com/product-category/computer-accessories/speakers/",
+   "max_pages": 5
+  },
+  "pen-drive": {
+   "url": "https://smartbd.com/product-category/computer-accessories/pen-drive/",
+   "max_pages": 5
+  },
+  "memory-card": {
+   "url": "https://smartbd.com/product-category/computer-accessories/memory-card/",
+   "max_pages": 5
+  },
+  "headphone": {
+   "url": "https://smartbd.com/product-category/office-equipment/headsets/",
+   "max_pages": 5
+  },
+  "keyboard": {
+   "url": "https://smartbd.com/product-category/computer-accessories/keyboards/",
+   "max_pages": 5
+  },
+  "mouse": {
+   "url": "https://smartbd.com/product-category/computer-accessories/mouse/",
+   "max_pages": 5
+  },
+  "mouse-pad": {
+   "url": "https://smartbd.com/product-category/computer-accessories/mouse-pad/",
+   "max_pages": 5
+  },
+  "laptop-bag": {
+   "url": "https://smartbd.com/product-category/computer-accessories/backpack/",
+   "max_pages": 5
+  },
+  "hub-dock": {
+   "url": "https://smartbd.com/product-category/computer-accessories/usb-hub/",
+   "max_pages": 5
+  },
+  "gaming-chair": {
+   "url": "https://smartbd.com/product-category/computer-accessories/gaming-chair/",
+   "max_pages": 5
+  },
+  "power-strip": {
+   "url": "https://smartbd.com/product-category/computer-accessories/power-strip/",
+   "max_pages": 5
+  },
+  "ups": {
+   "url": "https://smartbd.com/product-category/computer-accessories/ups/",
+   "max_pages": 5
+  },
+  "webcam": {
+   "url": "https://smartbd.com/product-category/computer-accessories/webcam/",
+   "max_pages": 5
+  },
+  "monitor-all": {
+   "url": "https://smartbd.com/product-category/monitors/",
+   "max_pages": 5
+  },
+  "os-office": {
+   "url": "https://smartbd.com/product-category/software/microsoft/operating-system/",
+   "max_pages": 5
+  },
+  "router": {
+   "url": "https://smartbd.com/product-category/networking-products/routers/",
+   "max_pages": 5
+  },
+  "smartphone": {
+   "url": "https://smartbd.com/product-category/phones-and-tabs/smartphones/",
+   "max_pages": 5
+  },
+  "tablet": {
+   "url": "https://smartbd.com/product-category/phones-and-tabs/tablets/",
+   "max_pages": 5
+  },
+  "printer": {
+   "url": "https://smartbd.com/product-category/office-equipment/printers/",
+   "max_pages": 5
+  },
+  "laser-printer": {
+   "url": "https://smartbd.com/product-category/office-equipment/printers/laser-printers/",
+   "max_pages": 5
+  },
+  "photocopier": {
+   "url": "https://smartbd.com/product-category/office-equipment/photocopiers/",
+   "max_pages": 5
+  },
+  "scanner": {
+   "url": "https://smartbd.com/product-category/office-equipment/scanners/",
+   "max_pages": 5
+  },
+  "projector": {
+   "url": "https://smartbd.com/product-category/office-equipment/projectors/",
+   "max_pages": 5
+  },
+  "camera-lens": {
+   "url": "https://smartbd.com/product-category/camera/camera-lens/",
+   "max_pages": 5
+  },
+  "smart-watch": {
+   "url": "https://smartbd.com/product-category/gadgets/hifuture-in-bangladesh/smart-watch/",
+   "max_pages": 5
+  },
+  "earbuds": {
+   "url": "https://smartbd.com/product-category/gadgets/hifuture-in-bangladesh/earbuds/",
+   "max_pages": 5
+  },
+  "cable": {
+   "url": "https://smartbd.com/product-category/cables/",
+   "max_pages": 5
+  },
+  "server": {
+   "url": "https://smartbd.com/product-category/servers/",
+   "max_pages": 5
+  }
+ },
+ "fourstar": {
+  "laptop-bag": {
+   "url": "https://fourstarit.com.bd/c/laptop-bag",
+   "max_pages": 1
+  },
+  "laptop-accessories": {
+   "url": "https://fourstarit.com.bd/c/laptop-accessories",
+   "max_pages": 1
+  },
+  "all-in-one-pc": {
+   "url": "https://fourstarit.com.bd/c/all-in-one-pc",
+   "max_pages": 1
+  },
+  "mini-pc": {
+   "url": "https://fourstarit.com.bd/c/mini-pc",
+   "max_pages": 1
+  },
+  "desktop-ram": {
+   "url": "https://fourstarit.com.bd/c/ram",
+   "max_pages": 1
+  },
+  "laptop-ram": {
+   "url": "https://fourstarit.com.bd/c/laptop-ram",
+   "max_pages": 1
+  },
+  "ssd": {
+   "url": "https://fourstarit.com.bd/c/ssd",
+   "max_pages": 1
+  },
+  "casing-fan": {
+   "url": "https://fourstarit.com.bd/c/casing-fan",
+   "max_pages": 1
+  },
+  "headphone": {
+   "url": "https://fourstarit.com.bd/c/headphone",
+   "max_pages": 1
+  },
+  "mouse-pad": {
+   "url": "https://fourstarit.com.bd/c/mouse-pad",
+   "max_pages": 1
+  },
+  "speaker": {
+   "url": "https://fourstarit.com.bd/c/speaker",
+   "max_pages": 1
+  },
+  "bluetooth-speaker": {
+   "url": "https://fourstarit.com.bd/c/bluetooth-speakers",
+   "max_pages": 1
+  },
+  "webcam": {
+   "url": "https://fourstarit.com.bd/c/webcam",
+   "max_pages": 1
+  },
+  "soundbar": {
+   "url": "https://fourstarit.com.bd/c/soundbar",
+   "max_pages": 1
+  },
+  "cable": {
+   "url": "https://fourstarit.com.bd/c/cable",
+   "max_pages": 1
+  },
+  "converter": {
+   "url": "https://fourstarit.com.bd/c/converter",
+   "max_pages": 1
+  },
+  "microphone": {
+   "url": "https://fourstarit.com.bd/c/microphone",
+   "max_pages": 1
+  },
+  "memory-card": {
+   "url": "https://fourstarit.com.bd/c/memory-card",
+   "max_pages": 1
+  },
+  "pen-drive": {
+   "url": "https://fourstarit.com.bd/c/pen-drive",
+   "max_pages": 1
+  },
+  "thermal-paste": {
+   "url": "https://fourstarit.com.bd/c/thermal-paste",
+   "max_pages": 1
+  },
+  "power-strip": {
+   "url": "https://fourstarit.com.bd/c/power-strip",
+   "max_pages": 1
+  },
+  "graphics-tablet": {
+   "url": "https://fourstarit.com.bd/c/graphics-tablet",
+   "max_pages": 1
+  },
+  "action-camera": {
+   "url": "https://fourstarit.com.bd/c/action-camera",
+   "max_pages": 1
+  },
+  "printer": {
+   "url": "https://fourstarit.com.bd/c/printer",
+   "max_pages": 1
+  },
+  "scanner": {
+   "url": "https://fourstarit.com.bd/c/scanner",
+   "max_pages": 1
+  },
+  "projector": {
+   "url": "https://fourstarit.com.bd/c/projector",
+   "max_pages": 1
+  },
+  "photocopier": {
+   "url": "https://fourstarit.com.bd/c/photocopier",
+   "max_pages": 1
+  },
+  "printer-supplies": {
+   "url": "https://fourstarit.com.bd/c/toner",
+   "max_pages": 1
+  },
+  "telephone": {
+   "url": "https://fourstarit.com.bd/c/ip-phone",
+   "max_pages": 1
+  },
+  "router": {
+   "url": "https://fourstarit.com.bd/c/router",
+   "max_pages": 1
+  },
+  "wifi-adapter": {
+   "url": "https://fourstarit.com.bd/c/wifi-adapter",
+   "max_pages": 1
+  },
+  "pocket-router": {
+   "url": "https://fourstarit.com.bd/c/pocket-router",
+   "max_pages": 1
+  },
+  "access-point": {
+   "url": "https://fourstarit.com.bd/c/access-point",
+   "max_pages": 1
+  },
+  "lan-card": {
+   "url": "https://fourstarit.com.bd/c/lan-card",
+   "max_pages": 1
+  },
+  "cc-camera": {
+   "url": "https://fourstarit.com.bd/c/cc-camera",
+   "max_pages": 1
+  },
+  "ip-camera": {
+   "url": "https://fourstarit.com.bd/c/ip-camera",
+   "max_pages": 1
+  },
+  "dvr-nvr": {
+   "url": "https://fourstarit.com.bd/c/nvr",
+   "max_pages": 1
+  },
+  "drone": {
+   "url": "https://fourstarit.com.bd/c/drone",
+   "max_pages": 1
+  },
+  "earbuds": {
+   "url": "https://fourstarit.com.bd/c/earbud",
+   "max_pages": 1
+  },
+  "neckband": {
+   "url": "https://fourstarit.com.bd/c/neckband",
+   "max_pages": 1
+  },
+  "earphone": {
+   "url": "https://fourstarit.com.bd/c/earphone",
+   "max_pages": 1
+  },
+  "smart-watch": {
+   "url": "https://fourstarit.com.bd/c/smart-watch",
+   "max_pages": 1
+  },
+  "power-bank": {
+   "url": "https://fourstarit.com.bd/c/power-bank",
+   "max_pages": 1
+  },
+  "gimbal": {
+   "url": "https://fourstarit.com.bd/c/gimbal",
+   "max_pages": 1
+  },
+  "gamepad": {
+   "url": "https://fourstarit.com.bd/c/gamepad",
+   "max_pages": 1
+  },
+  "gaming-console": {
+   "url": "https://fourstarit.com.bd/c/gaming-console",
+   "max_pages": 1
+  },
+  "ups": {
+   "url": "https://fourstarit.com.bd/c/ups",
+   "max_pages": 1
+  },
+  "ac": {
+   "url": "https://fourstarit.com.bd/c/air-conditioner",
+   "max_pages": 1
+  }
+ }
+}

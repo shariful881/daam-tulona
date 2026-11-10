@@ -14,6 +14,8 @@ def main():
     cat = json.loads((ROOT / "data/catalog/startech.json").read_text())
     legacy = json.loads((ROOT / "config/categories.json").read_text())["categories"]
     legacy = {c["slug"]: c for c in legacy}
+    ef = ROOT / "config/store_categories.json"
+    extra = json.loads(ef.read_text()) if ef.exists() else {}
 
     src = {}
     for top in cat["categories"]:
@@ -36,6 +38,9 @@ def main():
             for sid, conf in legacy.get(l["slug"], {}).get("stores", {}).items():
                 if sid != "startech":
                     stores[sid] = conf
+            for sid, cats in extra.items():  # config/store_categories.json (অন্য স্টোরের ক্যাটাগরি)
+                if not sid.startswith("_") and l["slug"] in cats and sid not in stores:
+                    stores[sid] = cats[l["slug"]]
             leaves.append({"slug": l["slug"], "name_bn": l["bn"], "name_en": l["en"], "group": g["slug"],
                            "count": sum(src[r][1] for r in l["sources"]), "stores": stores})
         if leaves:
