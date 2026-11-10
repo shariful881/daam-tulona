@@ -21,6 +21,10 @@
         }
        ],
        "limit": 90
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/mobile/feature-phone/",
+       "max_pages": 5
       }
      }
     },
@@ -99,6 +103,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/phones-and-tabs/smartphones/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/mobile/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/mobile-phone",
+       "max_pages": 1
       }
      }
     },
@@ -273,6 +285,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/phones-and-tabs/tablets/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/laptop-and-tablet/tablet/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/tablet",
+       "max_pages": 1
       }
      }
     }
@@ -358,6 +378,10 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/laptop/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/laptop-and-tablet/laptop/",
+       "max_pages": 5
       }
      }
     },
@@ -392,6 +416,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/laptop-bag",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/fashion-and-lifestyle/backpack/",
+       "max_pages": 5
       }
      }
     },
@@ -500,6 +528,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/all-in-one-pc",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/all-in-one-pc/",
+       "max_pages": 5
       }
      }
     },
@@ -845,6 +877,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/ssd/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/computer-accessories/storage-devices/ssd/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/ssd",
+       "max_pages": 1
       }
      }
     },
@@ -1196,6 +1236,10 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/gaming-monitor",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gaming/gaming-monitor/",
+       "max_pages": 5
       }
      }
     },
@@ -1248,6 +1292,10 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/monitors/",
        "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/monitor",
+       "max_pages": 1
       }
      }
     }
@@ -1293,6 +1341,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-accessories/keyboards/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/music/music-instruments/keys-and-midi/keyboard/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/keyboards",
+       "max_pages": 1
       }
      }
     },
@@ -1331,6 +1387,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-accessories/mouse/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/computer-accessories/mouse/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/mouse",
+       "max_pages": 1
       }
      }
     },
@@ -1411,6 +1475,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/headphone",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/audio/headphone/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/headphone",
+       "max_pages": 1
       }
      }
     },
@@ -1463,6 +1535,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/webcam",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/webcam/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/webcam",
+       "max_pages": 1
       }
      }
     },
@@ -1496,6 +1576,14 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/microphone",
+       "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/music/studio-and-recording/microphones/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/microphone",
        "max_pages": 1
       }
      }
@@ -1535,6 +1623,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/speaker",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/audio/speakers/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/speakers",
+       "max_pages": 1
       }
      }
     },
@@ -1565,6 +1661,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/bluetooth-speakers",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/bluetooth-speaker/",
+       "max_pages": 5
       }
      }
     },
@@ -1629,6 +1729,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/pen-drive",
        "max_pages": 1
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/pen-drive",
+       "max_pages": 1
       }
      }
     },
@@ -1667,6 +1771,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/memory-card",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/computer-accessories/storage-devices/memory-card/",
+       "max_pages": 5
       }
      }
     },
@@ -1711,6 +1819,10 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-accessories/usb-hub/",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/hub/",
+       "max_pages": 5
       }
      }
     },
@@ -1736,6 +1848,14 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/cable",
+       "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/cable/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/cable",
        "max_pages": 1
       }
      }
@@ -1841,6 +1961,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/power-strip",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/power-and-accessories/power-strips/",
+       "max_pages": 5
       }
      }
     },
@@ -2036,6 +2160,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/smart-watch",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/smartwatch/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/smart-watch",
+       "max_pages": 1
       }
      }
     },
@@ -2132,6 +2264,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/earbud",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/bluetooth-headphones/earbuds/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/earbuds",
+       "max_pages": 1
       }
      }
     },
@@ -2157,6 +2297,10 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/neckband",
+       "max_pages": 1
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/neckband",
        "max_pages": 1
       }
      }
@@ -2192,6 +2336,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/earphone",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/earphones/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/earphone",
+       "max_pages": 1
       }
      }
     },
@@ -2225,6 +2377,14 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/power-bank",
+       "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/power-bank/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/power-bank",
        "max_pages": 1
       }
      }
@@ -2292,6 +2452,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/drone",
        "max_pages": 1
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/drone",
+       "max_pages": 1
       }
      }
     },
@@ -2321,6 +2485,10 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/gimbal",
+       "max_pages": 1
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/gimbal",
        "max_pages": 1
       }
      }
@@ -2409,6 +2577,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/gaming-console",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/gaming/gaming-console/",
+       "max_pages": 5
       }
      }
     },
@@ -2611,6 +2783,14 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/router",
+       "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/network-components/wifi-router/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/router",
        "max_pages": 1
       }
      }
@@ -2955,6 +3135,10 @@
       "pchouse": {
        "url": "https://www.pchouse.com.bd/wifi-camera",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/network-components/wifi-camera/",
+       "max_pages": 5
       }
      }
     },
@@ -3282,6 +3466,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/printer",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/printer/",
+       "max_pages": 5
       }
      }
     },
@@ -3392,6 +3580,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/scanner",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/scanner/",
+       "max_pages": 5
       }
      }
     },
@@ -3460,6 +3652,10 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/projector",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/projector/",
+       "max_pages": 5
       }
      }
     },
@@ -3653,6 +3849,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/action-camera",
        "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/camera/action-camera/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/action-camera",
+       "max_pages": 1
       }
      }
     },
@@ -3675,6 +3879,10 @@
         }
        ],
        "limit": 90
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/camera/digital-camera/dslr-camera/",
+       "max_pages": 5
       }
      }
     },
@@ -3748,6 +3956,10 @@
       },
       "smartbd": {
        "url": "https://smartbd.com/product-category/camera/camera-lens/",
+       "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/electronic-accessories/camera/camera-accessories/lenses/",
        "max_pages": 5
       }
      }
@@ -4259,6 +4471,14 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/television",
        "max_pages": 5
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/home-appliances/television/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/tv",
+       "max_pages": 1
       }
      }
     },
@@ -4284,6 +4504,14 @@
       },
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/air-conditioner",
+       "max_pages": 1
+      },
+      "diamu": {
+       "url": "https://diamu.com.bd/product-category/home-appliances/large-appliances/air-conditioners/",
+       "max_pages": 5
+      },
+      "applegadgets": {
+       "url": "https://www.applegadgetsbd.com/category/air-conditioner",
        "max_pages": 1
       }
      }

@@ -75,6 +75,20 @@
       "enabled": false,
       "delay": 5,
       "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+    },
+    "diamu": {
+      "name": "Diamu",
+      "short": "DM",
+      "home": "https://diamu.com.bd",
+      "enabled": true,
+      "delay": 5
+    },
+    "applegadgets": {
+      "name": "Apple Gadgets",
+      "short": "AG",
+      "home": "https://www.applegadgetsbd.com",
+      "enabled": true,
+      "delay": 5
     }
   }
 }
