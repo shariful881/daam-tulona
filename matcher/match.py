@@ -150,9 +150,12 @@ def main():
 
     # আজ যে স্টোর ব্যর্থ হয়েছে, তার আগের দাম রেখে দাও (পুরনো চিহ্নসহ)
     failed = {s for s, h in raw["health"].items() if h["enabled"] and h["items"] == 0}
+    # কিছু ক্যাটাগরি ব্যর্থ হলে (ব্লক/সার্ভার ভুল) শুধু সেই ক্যাটাগরির আগের দাম রাখো
+    part = {s: set(h.get("failed_cats") or []) for s, h in raw["health"].items()}
     for pid, stores in old_offers.items():
+        cat = (products.get(redirect.get(pid, pid)) or {}).get("category")
         for s, o in stores.items():
-            if s in failed and s not in offers.get(redirect.get(pid, pid), {}):
+            if (s in failed or cat in part.get(s, ())) and s not in offers.get(redirect.get(pid, pid), {}):
                 offers[redirect.get(pid, pid)][s] = o | {"stale": True}
 
     # দামের ইতিহাস: শুধু দাম বা স্টক বদলালে নতুন সারি (ফাইল ছোট রাখতে)

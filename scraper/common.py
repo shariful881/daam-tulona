@@ -93,3 +93,18 @@ def offer(name, url, price, regular=None, in_stock=True, status="ok", image=None
         "image": image,
         "brand": brand,
     }
+
+
+def fetch_page(url: str, delay: float, page: int, results: list):
+    """পাতা-ধরে-ধরে তোলার জন্য: শেষ পাতার পরে 404 এলে None (থামো); মাঝপথে ব্লক হলে
+    আগের পাতাগুলোর প্রোডাক্ট হারায় না, Blocked-এর সাথে partial হিসেবে যায়।"""
+    try:
+        return fetch(url, delay)
+    except requests.HTTPError as e:
+        if page > 1 and e.response is not None and e.response.status_code == 404:
+            return None
+        e.partial = results
+        raise
+    except Exception as e:
+        e.partial = results
+        raise

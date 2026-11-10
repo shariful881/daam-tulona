@@ -1,7 +1,7 @@
 """UltraTech (ultratech.com.bd) — OpenCart ক্যাটাগরি পেজ। robots.txt-এ Crawl-Delay 20 সেকেন্ড।"""
 from bs4 import BeautifulSoup
 
-from scraper.common import fetch, offer, parse_price
+from scraper.common import fetch, offer, parse_price, fetch_page
 
 
 def parse_page(html: str) -> tuple[list[dict], bool]:
@@ -44,7 +44,10 @@ def scrape(url: str, max_pages: int = 3, delay: float = 20) -> list[dict]:
     results = []
     for page in range(1, max_pages + 1):
         page_url = url if page == 1 else f"{url}?page={page}"
-        items, has_next = parse_page(fetch(page_url, delay))
+        html = fetch_page(page_url, delay, page, results)
+        if html is None:
+            break
+        items, has_next = parse_page(html)
         results.extend(items)
         if not items or not has_next:
             break

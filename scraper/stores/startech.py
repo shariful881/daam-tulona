@@ -1,7 +1,7 @@
 """Star Tech (startech.com.bd) — ক্যাটাগরি পেজের প্রোডাক্ট কার্ড থেকে দাম তোলে।"""
 from bs4 import BeautifulSoup
 
-from scraper.common import fetch, offer, parse_price
+from scraper.common import fetch, offer, parse_price, fetch_page
 
 STATUS_WORDS = {
     "out of stock": "out",
@@ -52,7 +52,10 @@ def scrape(url: str, max_pages: int = 5, delay: float = 3, limit: int | None = N
     for page in range(1, max_pages + 1):
         params = ([f"limit={limit}"] if limit else []) + ([f"page={page}"] if page > 1 else [])
         page_url = url + ("?" + "&".join(params) if params else "")
-        items, has_next = parse_page(fetch(page_url, delay))
+        html = fetch_page(page_url, delay, page, results)
+        if html is None:
+            break
+        items, has_next = parse_page(html)
         results.extend(items)
         if not has_next or not items:
             break

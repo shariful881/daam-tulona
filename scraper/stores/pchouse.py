@@ -1,7 +1,7 @@
 """PC House (pchouse.com.bd) — ক্যাটাগরি পেজের প্রোডাক্ট কার্ড থেকে দাম তোলে।"""
 from bs4 import BeautifulSoup
 
-from scraper.common import fetch, offer, parse_price
+from scraper.common import fetch, offer, parse_price, fetch_page
 
 STATUS_WORDS = {"out of stock": "out", "pre order": "pre", "up coming": "upcoming", "upcoming": "upcoming", "call for price": "no_price"}
 
@@ -37,7 +37,10 @@ def parse_page(html: str) -> tuple[list[dict], bool]:
 def scrape(url: str, max_pages: int = 5, delay: float = 5) -> list[dict]:
     results = []
     for page in range(1, max_pages + 1):
-        items, has_next = parse_page(fetch(url if page == 1 else f"{url}?page={page}", delay))
+        html = fetch_page(url if page == 1 else f"{url}?page={page}", delay, page, results)
+        if html is None:
+            break
+        items, has_next = parse_page(html)
         results.extend(items)
         if not items or not has_next:
             break

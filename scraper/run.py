@@ -27,7 +27,7 @@ def main() -> int:
     out = {"date": today, "scraped_at": datetime.now(BD).isoformat(timespec="minutes"), "offers": [], "health": {}}
 
     for store_id, store in stores.items():
-        health = {"enabled": store["enabled"], "items": 0, "errors": [], "seconds": 0}
+        health = {"enabled": store["enabled"], "items": 0, "errors": [], "seconds": 0, "failed_cats": []}
         out["health"][store_id] = health
         if not store["enabled"]:
             health["errors"].append(store.get("disabled_reason", "বন্ধ"))
@@ -38,17 +38,21 @@ def main() -> int:
             conf = cat["stores"].get(store_id)
             if not conf:
                 continue
+            extra = {"limit": conf["limit"]} if conf.get("limit") else {}
+            items, blocked = [], False
             try:
-                extra = {"limit": conf["limit"]} if conf.get("limit") else {}
-                items = []
                 for src in conf.get("sources") or [conf]:
                     items += module.scrape(src["url"], src.get("max_pages", 1), store["delay"], **extra)
-            except Blocked as e:
-                health["errors"].append(f"{cat['slug']}: স্টোর ব্লক করেছে ({e})")
-                continue
-            except Exception as e:  # একটা ক্যাটাগরি ভাঙলে বাকিগুলো চলবে
+            except Blocked as e:  # স্টোর না বললে আজ আর ওই স্টোরে যাই না
+                items += getattr(e, "partial", None) or []
+                health["errors"].append(f"{cat['slug']}: স্টোর ব্লক করেছে ({e}); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ")
+                blocked = True
+                mine = [c["slug"] for c in cats if c["stores"].get(store_id)]
+                health["failed_cats"] += mine[mine.index(cat["slug"]):]  # এটা আর বাকিগুলো
+            except Exception as e:  # একটা ক্যাটাগরি ভাঙলে বাকিগুলো চলবে; আগের পাতাগুলো রাখা হয়
+                items += getattr(e, "partial", None) or []
                 health["errors"].append(f"{cat['slug']}: {type(e).__name__}: {e}")
-                continue
+                health["failed_cats"].append(cat["slug"])
             if conf.get("filter"):  # একই পাতায় ল্যাপটপ ও ডেস্কটপ মেশানো থাকলে নাম দেখে ভাগ
                 pat = re.compile(r"so-?dimm|laptop|notebook", re.I)
                 items = [i for i in items if bool(pat.search(i["name"])) == (conf["filter"] == "laptop")]
@@ -58,6 +62,8 @@ def main() -> int:
             out["offers"].extend(items)
             health["items"] += len(items)
             print(f"{store_id:10} {cat['slug']:12} {len(items):4} টি", flush=True)
+            if blocked:
+                break
         health["seconds"] = round(time.time() - t0)
 
     # একই প্রোডাক্ট একাধিক ক্যাটাগরি পাতায় এলে প্রথমটা রাখা, বাকিগুলো 'also'-তে

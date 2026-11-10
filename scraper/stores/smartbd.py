@@ -1,7 +1,7 @@
 """Smart Technologies (smartbd.com) — WooCommerce ক্যাটাগরি পেজ। পরের পাতা /page/2/ আকারে।"""
 from bs4 import BeautifulSoup
 
-from scraper.common import fetch, offer, parse_price
+from scraper.common import fetch, offer, parse_price, fetch_page
 
 
 def parse_page(html: str) -> tuple[list[dict], bool]:
@@ -35,7 +35,10 @@ def scrape(url: str, max_pages: int = 5, delay: float = 5) -> list[dict]:
     base = url.rstrip("/") + "/"
     results = []
     for page in range(1, max_pages + 1):
-        items, has_next = parse_page(fetch(base if page == 1 else f"{base}page/{page}/", delay))
+        html = fetch_page(base if page == 1 else f"{base}page/{page}/", delay, page, results)
+        if html is None:
+            break
+        items, has_next = parse_page(html)
         results.extend(items)
         if not items or not has_next:
             break
