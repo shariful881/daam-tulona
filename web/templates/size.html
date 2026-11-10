@@ -87,7 +87,7 @@
     document.getElementById("brands").innerHTML=brands.map(function(b,i){
       var c=b.ms[0];
       return '<section class="card szb"><div class="szh"><h3>'+esc(b.b)+(i===0&&b.lo&&brands.length>1?' <span class="save">সবচেয়ে কম</span>':'')+'</h3><span class="muted">'+bn(b.ms.length)+'টি মডেল</span></div>'+
-        '<a class="szbest" href="'+base+'/p/'+c.id+'/"><span class="l">সবচেয়ে কম দামের মডেল</span><span class="n">'+esc(c.n)+'</span>'+
+        '<a class="szbest'+(c.i&&c.i.length?' wi':'')+'" href="'+base+'/p/'+c.id+'/">'+(c.i&&c.i.length?'<span class="si" data-img><img src="'+esc(c.i[0])+'" alt="" loading="lazy" data-alts="'+esc(JSON.stringify(c.i.slice(1).map(function(u){return[u]})))+'" onerror="dtImgErr(this)"></span>':'')+'<span class="l">সবচেয়ে কম দামের মডেল</span><span class="n">'+esc(c.n)+'</span>'+
           '<span class="m"><b>'+tk(price(c))+'</b> · '+bn(c.s)+' '+unit+(c.st?' · '+esc(stores[c.st]||c.st):'')+(c.w?' · '+esc(c.w):'')+'</span></a>'+
         '<dl class="szdl"><div><dt>দামের রেঞ্জ</dt><dd>'+(b.lo?tk(b.lo)+(b.hi!==b.lo?" – "+tk(b.hi):""):"—")+'</dd></div><div><dt>সাইজ</dt><dd>'+b.sizes.map(bn).join(", ")+' '+unit+'</dd></div></dl>'+
         (b.ms.length>1?'<details><summary>সব '+bn(b.ms.length)+'টি মডেল দেখুন</summary><div class="rows">'+b.ms.map(function(m){

@@ -38,7 +38,8 @@ def parse_product(html: str) -> dict:
     m = re.search(r"Cooling Type\s*([A-Za-z -]+?)\s+(?:Door|Dimension|Compressor)", text)
     cool = m.group(1).strip() if m else None
     m = re.search(r"Compressor Guarant\w*\s*(\d+\s*Years?)", text, re.I)
-    return {"name": title.get_text(" ", strip=True) if title else None, "capacity": cap,
+    og = soup.select_one('meta[property="og:image"]')
+    return {"name": title.get_text(" ", strip=True) if title else None, "capacity": cap, "image": og.get("content") if og else None,
             "price": prices.get("finalPrice"), "regular": prices.get("oldPrice"),
             "in_stock": bool(stock and "in stock" in stock.get_text().lower()),
             "type": ("No-Frost" if cool and "non" in cool.lower() else ("Direct Cool" if cool else None)),
@@ -79,6 +80,7 @@ def scrape(url: str, max_pages: int = 1, delay: float = 5, limit=None) -> list[d
         if not is_fridge:
             continue
         results.append(offer(name=make_name(p), url=u, price=p["price"], regular=p["regular"] if p["regular"] != p["price"] else None,
-                             in_stock=p["in_stock"] and bool(p["price"]), status="ok" if p["in_stock"] else "out", brand="Minister"))
+                             in_stock=p["in_stock"] and bool(p["price"]), status="ok" if p["in_stock"] else "out", brand="Minister",
+                             image=p.get("image")))
     brand_specs.save("minister", known)
     return results

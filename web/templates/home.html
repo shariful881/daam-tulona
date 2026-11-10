@@ -26,7 +26,8 @@
     <h2>দোকানভেদে সবচেয়ে বেশি দামের পার্থক্য</h2>
     <div class="rows">
     {% for it in deals %}
-      <a class="row" href="{{ base }}/p/{{ it.id }}/">
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
+        <span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
         <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">{{ it.saving | taka }} সাশ্রয়</div></div>
       </a>
@@ -40,7 +41,8 @@
     <h2>নতুন যোগ হয়েছে</h2>
     <div class="rows">
     {% for it in fresh %}
-      <a class="row" href="{{ base }}/p/{{ it.id }}/">
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
+        <span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ it.cat_name }}</div></div>
         <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% else %}—{% endif %}</div></div>
       </a>

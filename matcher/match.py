@@ -145,7 +145,8 @@ def main():
             continue
         cur = offers[pid].get(o["store"])
         if cur is None or (o["price"] or 10**9) < (cur["price"] or 10**9):
-            offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today}
+            offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today} \
+                | ({"img": o["image"]} if o.get("image") else {})
 
     # আজ যে স্টোর ব্যর্থ হয়েছে, তার আগের দাম রেখে দাও (পুরনো চিহ্নসহ)
     failed = {s for s, h in raw["health"].items() if h["enabled"] and h["items"] == 0}

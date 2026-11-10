@@ -8,7 +8,13 @@
 
   <section class="card">
     <div class="head">
-      <div class="thumb" aria-hidden="true">{{ icon | safe }}</div>
+      <div class="thumbcol">
+        <div class="thumb{% if gallery %} has-img{% endif %}" data-img>
+          <span class="ico" aria-hidden="true">{{ icon | safe }}</span>
+          {% if gallery %}<button type="button" class="pimg" data-gal="0" aria-label="ছবি বড় করে দেখুন"><img src="{{ gallery[0].u }}" alt="{{ p.name }}" width="96" height="96" decoding="async" data-alts="{{ gallery[1:] | galts }}" onerror="dtImgErr(this)"></button>{% endif %}
+        </div>
+        {% if gallery %}<a class="credit" href="{{ gallery[0].h }}" target="_blank" rel="nofollow noopener">ছবি: {{ gallery[0].n }}</a>{% endif %}
+      </div>
       <div style="min-width:0">
         <div class="brand">{{ it.brand }}</div>
         <h1>{{ p.name }}</h1>
@@ -127,6 +133,7 @@
   </section>
 {% endblock %}
 {% block after %}
+{% if gallery %}<script type="application/json" id="galdata">{{ gallery | tojson }}</script><script src="{{ base }}/static/gallery.js?v={{ build_id }}" defer></script>{% endif %}
 {% if best %}
 <div class="buy"><div class="col">
   <div class="bp"><b>{{ best.price | taka }}</b><span>সর্বনিম্ন · {{ stores[best.store].name }}</span></div>

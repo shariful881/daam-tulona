@@ -237,6 +237,7 @@
             return '<section class="aitem' + (s.enabled ? "" : " off") + '" data-id="' + id + '">' +
               '<div class="ahead"><span class="alogo' + (s.logo_dark ? " dark" : "") + '">' + (lg ? '<img src="' + esc(lg) + '" alt="">' : esc(s.short)) + "</span><b>" + esc(s.name) + '</b><small class="muted">' + bn(hx.items || 0) + " অফার</small></div>" +
               tog("enabled", "দাম তোলা চালু", s.enabled) +
+              tog("images", "এই স্টোরের ছবি সাইটে দেখানো", s.images !== false) +
               '<div class="agrid">' + fld("name", "নাম", s.name) + fld("short", "সংক্ষিপ্ত নাম (লোগো না থাকলে)", s.short, "text", "", ' maxlength="3"') + "</div>" +
               fld("delay", "দুই পাতার মাঝে অপেক্ষা (সেকেন্ড)", s.delay, "number", "স্টোরের robots.txt যা বলে তার কম দেবেন না, নইলে স্টোর ব্লক করতে পারে।", ' min="1" max="60"') +
               tog("logo_dark", "লোগোর পেছনে কালো রঙ (সাদা লোগোর জন্য)", !!s.logo_dark) +

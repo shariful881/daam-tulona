@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap">
 <link rel="stylesheet" href="{{ base }}/static/style.css?v={{ build_id }}">
 {% if adsense.client and not noads %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense.client }}" crossorigin="anonymous"></script>{% endif %}
+<script>function dtImgErr(i){try{var a=JSON.parse(i.getAttribute("data-alts")||"[]"),n=a.shift();i.setAttribute("data-alts",JSON.stringify(a));if(n){i.src=n[0];var c=i.closest("[data-img]");c=c&&c.parentNode.querySelector(".credit");if(c&&n[1]){c.textContent="ছবি: "+n[1];c.href=n[2]}}else{var w=i.closest("[data-img]");if(w){w.classList.add("noimg");var c2=w.parentNode.querySelector(".credit");if(c2)c2.remove()}i.remove()}}catch(e){}}</script>
 {% block head %}{% endblock %}
 </head>
 <body>

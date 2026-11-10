@@ -274,7 +274,8 @@ def build_size_pages(items, products, details, write, offers=None):
             models.append({"id": it["id"], "n": it["name"], "b": canon[it["brand"].lower()], "s": cap,
                            "t": [k for k, r in types.items() if r.search(it["name"])],
                            "p": (it["best"] or {}).get("price"), "ap": it["any_price"],
-                           "st": (it["best"] or {}).get("store"), "w": warranty_bn(det.get("warranty"))})
+                           "st": (it["best"] or {}).get("store"), "w": warranty_bn(det.get("warranty")),
+                           "i": [u for u, _ in it["imgs"][:2]]})
         if not models:
             continue
         unit_slug = conf.get("unit_slug", "size")
@@ -331,6 +332,29 @@ def build_size_pages(items, products, details, write, offers=None):
     return made
 
 
+def image_list(pid, so, products, stores):
+    """প্রোডাক্টের ছবির বিকল্প তালিকা [(url, store)], ক্রম: কোম্পানির নিজের সাইট → স্টকে থাকা স্টোর → বাকিরা।
+    ছবি আমাদের সার্ভারে রাখা হয় না; স্টোরের ঠিকানা থেকেই দেখানো হয়, না খুললে ব্রাউজার পরেরটা চেষ্টা করে।"""
+    out = []
+    order = sorted(so.items(), key=lambda kv: (stores.get(kv[0], {}).get("kind") != "brand", not kv[1].get("in_stock")))
+    for sid, o in order:
+        st = stores.get(sid, {})
+        if o.get("img") and st.get("images", True) and o["img"] not in [u for u, _ in out]:
+            out.append((o["img"], sid))
+    si = (products.get(pid) or {}).get("store_image")
+    if si and si not in [u for u, _ in out]:
+        host = re.sub(r"^https?://(www\.)?", "", si).split("/")[0]
+        sid = next((k for k, v in stores.items() if host and host in v.get("home", "")), None)
+        if sid and stores[sid].get("images", True):
+            out.append((si, sid))
+    return out[:4]
+
+
+def big_image(url):
+    """বড় করে দেখানোর জন্য বড় সাইজের ঠিকানা (জানা নিয়ম থাকলে); না খুললে ব্রাউজার ছোটটাই দেখায়।"""
+    return re.sub(r"-(228x228|200x200|250x250|364x364)\.(webp|jpg|png)$", r"-500x500.\2", url)
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -384,6 +408,8 @@ def main():
     env = Environment(loader=FileSystemLoader(ROOT / "web/templates"), autoescape=select_autoescape(["html"]))
     env.filters["taka"] = taka
     env.filters["bn"] = bn_num
+    env.filters["galts"] = lambda g: json.dumps([[x["u"], x["n"], x["h"]] for x in g], ensure_ascii=False)
+    env.filters["alts_simple"] = lambda l: json.dumps([[u] for u, _ in l])
     common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
               "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
@@ -417,17 +443,18 @@ def main():
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
         brand = det.get("brand") or p["brand"]
+        imgs = image_list(pid, so, products, stores)
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
                       "group": group_of[p["category"]]["slug"], "brand": brand, "best": best, "any_price": any_price,
                       "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
                       "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live),
-                      "created": p["created"], "specs": p["specs"],
+                      "created": p["created"], "specs": p["specs"], "imgs": imgs,
                       "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x)}
 
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors"):
         if (ROOT / "web/static" / d).exists():
@@ -488,6 +515,8 @@ def main():
                   "brand": {"@type": "Brand", "name": it["brand"]}, "category": leaf["name_en"]}
         if det.get("mpn"):
             jsonld["mpn"] = det["mpn"]
+        if it["imgs"]:
+            jsonld["image"] = [u for u, _ in it["imgs"][:3]]
         priced = [o for o in so.values() if o.get("price") and o.get("in_stock")]
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
@@ -503,6 +532,8 @@ def main():
         out.write_text(product_tpl.render(
             **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections,
             best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
+            gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
+                     for u, sid in it["imgs"]],
             spark=sparkline(changes, today), hist_start=bn_date(changes[0][0]) if changes else None,
             hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
             hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
