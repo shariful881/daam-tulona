@@ -6,7 +6,7 @@ on:
     inputs:
       limit:
         description: "কতগুলো প্রোডাক্ট"
-        default: "1500"
+        default: "600"
 
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: স্পেক ও ওয়ারেন্টি সংগ্রহ
         env:
-          ENRICH_LIMIT: ${{ github.event.inputs.limit || '1500' }}
+          ENRICH_LIMIT: ${{ github.event.inputs.limit || '600' }}
         run: python -m tools.enrich
       - name: সেভ
         run: |

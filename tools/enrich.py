@@ -1,6 +1,7 @@
 """প্রোডাক্টের বিস্তারিত তথ্য (স্পেক, ওয়ারেন্টি, মডেল) Star Tech-এর প্রোডাক্ট পাতা থেকে সংগ্রহ।
 
-প্রতি রানে সর্বোচ্চ ENRICH_LIMIT টা (ডিফল্ট ১৫০০), প্রথমে যেগুলোর তথ্য নেই, তারপর ৬০ দিনের পুরনোগুলো।
+প্রতি রানে সর্বোচ্চ ENRICH_LIMIT টা, প্রথমে যেগুলোর তথ্য নেই (একাধিক স্টোরে থাকা ও স্টকে থাকাগুলো আগে), তারপর ৬০ দিনের পুরনোগুলো।
+Star Tech 403 দিলে সাথে সাথে থামে, পরের দিন আবার চলে।
 ফল: data/details/<আইডির প্রথম অক্ষর>/<আইডি>.json
 
 চালানো: python -m tools.enrich
@@ -19,6 +20,7 @@ DATA = ROOT / "data"
 BD = timezone(timedelta(hours=6))
 LIMIT = int(os.environ.get("ENRICH_LIMIT", "1500"))
 MAX_MINUTES = int(os.environ.get("ENRICH_MINUTES", "150"))
+DELAY = float(os.environ.get("ENRICH_DELAY", "8"))  # Star Tech দ্রুত অনেক পাতা খুললে 403 দেয়, তাই ধীরে
 PRIORITY = ["computer-parts", "laptop-desktop", "mobile-tablet", "monitor", "accessories", "gadget", "networking"]
 
 
@@ -46,17 +48,18 @@ def main():
                 continue
         g = group_of.get(products[pid]["category"], "")
         rank = PRIORITY.index(g) if g in PRIORITY else len(PRIORITY)
-        todo.append((age is not None, rank, pid, st["url"]))
+        multi = sum(1 for o in so.values() if o.get("price")) > 1  # একাধিক স্টোরে আছে এমনগুলো আগে (তুলনার পাতায় বেশি কাজে লাগে)
+        todo.append((age is not None, not multi, not st.get("in_stock"), rank, pid, st["url"]))
     todo.sort()
     print(f"বাকি: {len(todo)} | এই রানে: {min(LIMIT, len(todo))}", flush=True)
 
     t0, done, failed = time.time(), 0, 0
-    for _, _, pid, url in todo[:LIMIT]:
+    for *_, pid, url in todo[:LIMIT]:
         if time.time() - t0 > MAX_MINUTES * 60:
             print("সময় শেষ, বাকিগুলো পরের রানে")
             break
         try:
-            d = parse(fetch(url, 3))
+            d = parse(fetch(url, DELAY))
         except Blocked as e:
             print("ব্লক:", e)
             break
