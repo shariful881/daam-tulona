@@ -1,0 +1,458 @@
+{
+ "laptop": {
+  "n": 24,
+  "err": null,
+  "sec": 2,
+  "sample": [
+   "ASUS Vivobook 15 X1504VA Core i3 1315U 8GB RAM 512GB SSD 15.6 Inch FHD Quiet Blue Laptop",
+   "Deepcool N200 Laptop Cooler",
+   "Meetion CP2020 Gaming Laptop Cooling Pad"
+  ],
+  "priced": 22
+ },
+ "gaming-pc": {
+  "n": 19,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "PC Build with AMD Ryzen 5 3400G Processor with Radeon RX Vega 11 Graphics",
+   "PC Build with AMD Ryzen 5 PRO 5650GE Processor with Radeon Graphics",
+   "PC Build with AMD Ryzen 5 8500G Processor with Radeon Graphics"
+  ],
+  "priced": 5
+ },
+ "all-in-one-pc": {
+  "n": 3,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Walton UNIFY S24 (WAOS242101) 23.8 INCH FHD LED Display Monitor All in One PC",
+   "WALTON UNIFY S24 WAOS24124M 23.8 INCH FHD IPS Monitor All In One PC",
+   "Lenovo Ideacentre A340 23.8 Inch FHD Display core i5 10th Gen 4gb Ram 1tb HDD All In Pc"
+  ],
+  "priced": 2
+ },
+ "desktop-pc": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Budget PC Intel Core i5-4570 4th Gen Processor",
+   "Budget PC Intel Core i5 6400 6th Gen Processor",
+   "Budget PC AMD Athlon PRO 300GE Processor"
+  ],
+  "priced": 11
+ },
+ "processor": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Intel Core i3 3220 Processor (Bulk)",
+   "AMD Athlon 3000G Processor with Radeon Graphics",
+   "AMD Athlon PRO 300GE Processor with Radeon Graphics"
+  ],
+  "priced": 24
+ },
+ "motherboard": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Esonic Intel H61FHL DDR3 Motherboard",
+   "Esonic Intel H81DA1 DDR3 Motherboard",
+   "Esonic Intel H110DA1 DDR4 Motherboard"
+  ],
+  "priced": 24
+ },
+ "graphics-card": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Peladn GeForce KaiTian GT 730 4GB DDR3 Graphics Card",
+   "Palit GeForce GT 730 2GB DDR3 Graphics Card",
+   "Palit GeForce GT 1030 2GB DDR4 Graphics Card"
+  ],
+  "priced": 23
+ },
+ "desktop-ram": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Kingston HyperX FURY 8GB 1600MHz DDR3 CL10 DIMM Ram",
+   "G.Skill NT-Series 4GB 1600MHz DDR3 RAM",
+   "G.Skill NT-Series 4GB DDR4 2400Mhz Desktop RAM"
+  ],
+  "priced": 24
+ },
+ "laptop-ram": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "KingSpec DDR3 4GB 1600 MHz LAPTOP RAM",
+   "Adata 4GB DDR4 2666MHz Laptop RAM",
+   "Transcend JetRAM 4GB DDR4 3200MHz Laptop RAM (JM3200HSD-4G)"
+  ],
+  "priced": 0
+ },
+ "portable-ssd": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Netac Z Slim 128GB USB 3.2 Gen 2 Type-C Silver Portable External SSD",
+   "Netac Z7S 120GB Portable External SSD",
+   "Netac Z9 128GB USB 3.2 Gen 2 Type-C Black Portable External SSD"
+  ],
+  "priced": 24
+ },
+ "ssd": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "ADATA XPG Mars 980 Blade 4TB M.2 Gen5 x4 SSD",
+   "KingFast F10 128GB SATA III SSD",
+   "Kingspec P3 128GB 2.5 inch SATA III SSD"
+  ],
+  "priced": 22
+ },
+ "portable-hdd": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Western Digital 1TB My Passport Portable HDD",
+   "Western Digital 2TB My Passport Portable HDD",
+   "Transcend J25M3 1TB USB 3.1 Portable Hard Disk"
+  ],
+  "priced": 7
+ },
+ "hdd": {
+  "n": 24,
+  "err": null,
+  "sec": 23,
+  "sample": [
+   "Samsung 500GB Desktop Internal HDD (refurbished )",
+   "Toshiba P300 1TB Desktop Hard Drive (refurbished )",
+   "Toshiba 2TB Desktop Hard Disk (refurbished)"
+  ],
+  "priced": 6
+ },
+ "power-supply": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Value-Top T200B Real 200W ATX Power Supply",
+   "PC Power PS-S-200 200W ATX Non Modular Black Power Supply",
+   "PC Power 230W Power Supply"
+  ],
+  "priced": 24
+ },
+ "casing": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "OVO J618 W RGB Micro Mesh Gaming Case (White)",
+   "OVO J618 B RGB Micro Mesh Gaming Casing (Black)",
+   "FSP CMT160 ATX Mid Tower Casing"
+  ],
+  "priced": 24
+ },
+ "cpu-cooler": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Deepcool CK-11509 CPU Cooler",
+   "Value-Top CL100 CPU COOLER with 8cm Red Blades Fan",
+   "PCCOOLER Q100V2 CPU Cooler"
+  ],
+  "priced": 24
+ },
+ "casing-fan": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Deepcool XFAN 80 Case Cooling Fan",
+   "Value-Top 1298ARGB 12CM Ring Light ARGB SINGLE Fan (BLACK Color)",
+   "Value-Top W1298ARGB 12CM Ring Light ARGB SINGLE Fan (White Color)"
+  ],
+  "priced": 24
+ },
+ "laptop-accessories": {
+  "n": 3,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "REDRAGON INGRID GCP511 LAPTOP COOLER",
+   "Aula F61 Laptop Holder Stand",
+   "Aula F63 Laptop Stand"
+  ],
+  "priced": 1
+ },
+ "monitor-arm": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "ZENO S01 14-27 Inch LCD, LED & PLASMA TV Wall Mount Bracket",
+   "Kaloc KLC-H1 Mounting Extension VESA Adapter for 17\"-27\" Non Vesa Monitors",
+   "Kaloc KLC-DS200 Single Gas Spring Monitor Desk Mount Stand"
+  ],
+  "priced": 24
+ },
+ "monitor-all": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "MSI PRO MP251W E14A 24.5 Inch 144Hz FHD IPS Monitor White",
+   "MSI PRO MP275PG E14 27 Inch 144Hz FHD IPS Monitor",
+   "MSI PRO MAX 271QPHW E14 27 Inch 144Hz WQHD IPS USB-C Monitor White"
+  ],
+  "priced": 16
+ },
+ "keyboard": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Value-Top VT-900U USB Keyboard",
+   "Value-Top VT-2920U USB Swappable Keyboard",
+   "iMICE K-818 USB Wired Keyboard"
+  ],
+  "priced": 24
+ },
+ "mouse": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "T-Wolf V1 7 Color RGB Backlit RGB Gaming Mouse",
+   "Meetion MT-M361 USB Wired Office Desktop Mouse",
+   "MEETION MT-M360 USB WIRED MOUSE"
+  ],
+  "priced": 23
+ },
+ "mouse-pad": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Fantech Sven MP25 Gaming Mouse Pad",
+   "Micropack GM-01 Athene RGB Gaming Mouse",
+   "HP MP7035 Gaming Mouse Pad (Large)"
+  ],
+  "priced": 21
+ },
+ "headphone": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "GEARUP G9 MAGNETIC NECKBAND",
+   "G7 SPORTS BLUETOOTH NECKBAND WITH MAGNETIC HEADSETS",
+   "Meetion HP003 3.5MM TELEPHONY HEADSET"
+  ],
+  "priced": 21
+ },
+ "webcam": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "GearUP K450 2K 4.0MP HD USB Webcam with Built-in Mic",
+   "Revenger Z05 1080P Webcam",
+   "HAVIT HV-N5086 Camera and Webcam"
+  ],
+  "priced": 23
+ },
+ "microphone": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Havit H207d Wired Stand Microphone",
+   "Universal K8i Wireless Portable Lavalier Microphone For IPhone & Lighting Devices",
+   "Boya BY-M1 Microphone (Original)"
+  ],
+  "priced": 23
+ },
+ "speaker": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Perfect D7 Mini Multimedia Speaker with Mini USB 2.0",
+   "KISONLI S-555 USB MULTIMEDIA SPEAKER",
+   "Havit HV-SK473 USB 2.0 Speaker"
+  ],
+  "priced": 24
+ },
+ "pen-drive": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Transcend JetFlash 700 64GB USB 3.1 Gen 1 Flash Drive",
+   "SanDisk iXpand 256 GB Pen Drive",
+   "KINGSTON DT72 128GB MOBILE DISK DRIVE"
+  ],
+  "priced": 0
+ },
+ "memory-card": {
+  "n": 9,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Transcend 300S 32GB UHS-I SDHC Memory Card",
+   "Kingston Canvas Select Plus 64GB UHS-I MicroSDXC Memory Card",
+   "Transcend 300S-A 64GB UHS-I microSDXC Memory Card with SD Adapter"
+  ],
+  "priced": 0
+ },
+ "capture-card": {
+  "n": 4,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Corsair Elgato HD60S+ Game Capture Card",
+   "Corsair Elgato HD60S Usb Interface HD Game Capture",
+   "Corsair Elgato HD60 X External Capture Card"
+  ],
+  "priced": 0
+ },
+ "thermal-paste": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Deepcool Z3 Thermal Paste",
+   "Ocypus Gamma ET20 Thermal Paste",
+   "Deepcool Z5 CPU Cooling Thermal Paste"
+  ],
+  "priced": 18
+ },
+ "smart-watch": {
+  "n": 2,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Hoco Y27 Smart Watch",
+   "Havit M9026 Waterproof Full Round Smart Watch"
+  ],
+  "priced": 2
+ },
+ "earbuds": {
+  "n": 23,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Hoco ES67 Bluetooth Wireless Neckband",
+   "Awei G83BL Wireless Neckband",
+   "Hoco DES56 Wireless Bluetooth Earbuds"
+  ],
+  "priced": 22
+ },
+ "earphone": {
+  "n": 16,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Hoco M83 Type-C Wired Earphone",
+   "Baseus Encok H17 3.5mm Lateral in-ear Wired Earphone",
+   "Hoco ES67 Bluetooth Wireless Neckband"
+  ],
+  "priced": 7
+ },
+ "power-bank": {
+  "n": 0,
+  "err": null,
+  "sec": 21,
+  "sample": [],
+  "priced": 0
+ },
+ "gamepad": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Havit HV-G69 USB With Vibration Gamepad",
+   "HAVIT HV-G92 Gamepad",
+   "Redragon Saturn G807 Wired Gamepad"
+  ],
+  "priced": 23
+ },
+ "gaming-chair": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "DELUX DC-R01 Gaming Chair (Blue)",
+   "DELUX DC-R103 Gaming Chair (Black&Red)",
+   "DELUX DC-R103 Gaming Chair (Black&Blue)"
+  ],
+  "priced": 14
+ },
+ "router": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Mercusys MW302R 300mbps 2 Antenna Multi-Mode Wireless N Router",
+   "Mercusys MW306R 300 Mbps Multi-Mode Wireless N Router",
+   "Tenda N301 Wireless N300 Easy Setup Router"
+  ],
+  "priced": 22
+ },
+ "network-switch": {
+  "n": 5,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "UNV NSW2010-6T-POE-IN 4-PORT 10/100 POE SWITCH WITH ETHERNET UPLINK PORT",
+   "UNIVIEW NSW2010 -10T- POE -IN 8PoE+ 2Port PoE Switch",
+   "D-Link DGS-1024C 24-Port 10/100/1000Base Unmanaged Switch"
+  ],
+  "priced": 5
+ },
+ "lan-card": {
+  "n": 2,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Tenda W311MI AX300 Wi-Fi 6 Wireless Nano USB Adapter",
+   "TP-Link TL-WN823N 300Mbps Wireless USB LAN Card"
+  ],
+  "priced": 2
+ },
+ "online-ups": {
+  "n": 24,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Digital X 1000VA Online UPS",
+   "Marsriva MR-US1K Energy Efficient 1kVA Online UPS",
+   "IDEAL-9201LB 1KVA/900W True Double Conversion Online UPS"
+  ],
+  "priced": 23
+ },
+ "ups": {
+  "n": 24,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "PC Power PCMU1018P 8800mAh Mini DC UPS",
+   "PC Power PCMU1018 8800 mAh Mini DC UPS",
+   "WGP Mini UPS- Router + ONU Backup Up To 8 Hours (5V, 9V, 12V Output)"
+  ],
+  "priced": 23
+ }
+}
