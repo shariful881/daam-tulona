@@ -203,7 +203,7 @@
       '</div>' +
       '<section class="card"><h2>কাজ চালান</h2><div class="aacts">' +
         '<div class="aact"><div><b>দাম আপডেট এখনই</b><small>সব স্টোর থেকে দাম তুলে সাইট আপডেট। ১-২ ঘণ্টা লাগে। এমনিতে প্রতি রাতে ২:১৭-এ নিজে চলে।</small></div><button class="abtn" data-run="daily.yml">চালান</button></div>' +
-        '<div class="aact"><div><b>স্পেক ও ওয়ারেন্টি সংগ্রহ</b><small>কতগুলো প্রোডাক্টের (দিনে ২৫০০ পর্যন্ত ভালো)</small><input type="number" id="dlimit" value="1500" min="50" max="5000" aria-label="প্রোডাক্টের সংখ্যা"></div><button class="abtn" data-run="details.yml">চালান</button></div>' +
+        '<div class="aact"><div><b>স্পেক ও ওয়ারেন্টি সংগ্রহ</b><small>কতগুলো প্রোডাক্টের (দিনে ৬০০-এর বেশি দিলে Star Tech আটকে দিতে পারে)</small><input type="number" id="dlimit" value="600" min="50" max="5000" aria-label="প্রোডাক্টের সংখ্যা"></div><button class="abtn" data-run="details.yml">চালান</button></div>' +
         '<div class="aact"><div><b>সাইট আবার প্রকাশ</b><small>দাম না তুলে বর্তমান ডাটা দিয়ে ২ মিনিটে সাইট আপডেট</small></div><button class="abtn" data-run="deploy-now.yml">চালান</button></div>' +
         '<div class="aact"><div><b>স্টোরের লোগো আবার আনা</b><small>স্টোরের ওয়েবসাইট থেকে লোগো খুঁজে আনে</small></div><button class="abtn ghost" data-run="logos.yml">চালান</button></div>' +
       '</div></section>' +
@@ -217,7 +217,7 @@
         a.fresh.slice(0, 10).map(function (f) { return '<a class="row" href="' + BASE + "/p/" + f.id + '/" target="_blank"><div style="min-width:0"><div class="n">' + esc(f.n) + '</div><div class="w">' + esc(f.c) + "</div></div></a>"; }).join("") + "</div></section>" : "");
     p.addEventListener("click", function (e) {
       var b = e.target.closest("[data-run]"); if (!b || !need()) return;
-      var inputs = b.dataset.run === "details.yml" ? { limit: String($("#dlimit").value || 1500) } : {};
+      var inputs = b.dataset.run === "details.yml" ? { limit: String($("#dlimit").value || 600) } : {};
       b.disabled = true;
       dispatch(b.dataset.run, inputs).then(function () { toast("চালু হয়েছে। নিচের তালিকায় অগ্রগতি দেখা যাবে।"); setTimeout(loadRuns, 3000); },
         function (e) { toast("চালু হয়নি: " + e.message, true); }).then(function () { setTimeout(function () { b.disabled = false; }, 5000); });
