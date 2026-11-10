@@ -188,3 +188,21 @@ main.col>*{min-width:0}
 .ad.house .hb.wa{background:#1fa855;color:#fff}
 .ad.house .hmore{font-size:.78rem;color:var(--muted);text-align:center;text-decoration:underline}
 @media (min-width:640px){.ad.house{grid-template-columns:minmax(0,1fr) auto;align-items:center}.ad.house .hbtns{grid-template-columns:auto auto}.ad.house .hb{padding:0 16px}.ad.house .hmore{grid-column:1/-1;text-align:left}}
+/* স্টোরে যাওয়ার আগের বার্তা (৫ সেকেন্ড, কোনো বিজ্ঞাপন নয়) */
+.gobox{position:fixed;inset:0;z-index:40;background:rgba(10,20,18,.55);display:grid;place-items:end center;padding:12px;padding-bottom:calc(12px + env(safe-area-inset-bottom))}
+@media (min-width:640px){.gobox{place-items:center}}
+.gocard{width:100%;max-width:440px;background:var(--surface);color:var(--ink);border-radius:18px;padding:20px 18px 16px;box-shadow:0 12px 40px rgba(0,0,0,.3);display:grid;gap:10px;animation:goin .2s ease-out}
+@keyframes goin{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+.gocard h2{margin:0;font-size:1.12rem;line-height:1.35}
+.gocard p{margin:0;font-size:.9rem;line-height:1.55;color:var(--ink)}
+.gocard .gotip{font-size:.8rem;color:var(--muted)}
+.goic{width:44px;height:44px;border-radius:12px;background:var(--best-soft);color:var(--best);display:grid;place-items:center}
+.goic svg{width:24px;height:24px}
+.gobar{height:6px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:4px}
+.gobar span{display:block;height:100%;width:0;background:var(--best);transition:width linear}
+.goact{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.gocount{font-weight:600;font-size:.9rem;color:var(--muted)}
+.gocancel{background:none;border:1px solid var(--line);border-radius:10px;min-height:44px;padding:0 16px;font:600 .88rem var(--body);color:var(--ink);cursor:pointer}
+.gogo{flex:1;justify-content:center;background:var(--best);color:#fff}
+body.go-on{overflow:hidden}
+@media (prefers-reduced-motion:reduce){.gocard{animation:none}.gobar span{transition:none}}
