@@ -1,0 +1,708 @@
+{
+ "tablet": {
+  "n": 20,
+  "err": null,
+  "sec": 2,
+  "sample": [
+   "XP-Pen Star-G430S Ultra-Thin Digital Drawing Graphics Tablet",
+   "Huion H430P Graphics Tablet",
+   "XP-Pen Star-G640 Ultrathin Digital Drawing Graphics Tablet"
+  ],
+  "priced": 20
+ },
+ "gaming-laptop": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HP Victus 15-FA2013DX 13th Gen i5 144Hz RTX 3050 Gaming Laptop",
+   "ASUS TUF Gaming F16 FX607VB Core 5 210H RTX 3050A 4GB Graphics 16 Inch WUXGA Gaming Laptop",
+   "ASUS TUF Gaming A15 FA506NCG Ryzen 7 7445HS RTX 3050 4GB Graphics 15.6 inch FHD 144Hz Laptop"
+  ],
+  "priced": 18
+ },
+ "laptop": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Asus Vivobook Go 15 E1504TA Intel N150 15.6-inch FHD Laptop",
+   "Smart Flairedge Core i5 13th Gen 15.6 Inch FHD Laptop",
+   "HP 255R G10 AMD Ryzen 5 7535U 15.6-inch FHD IPS Laptop"
+  ],
+  "priced": 20
+ },
+ "laptop-bag": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Eset Backpack for Laptop",
+   "Redragon GB-94 TARDIS 2 Gaming Backpack",
+   "Laptop Pouch bag for 12 inch Notebook"
+  ],
+  "priced": 18
+ },
+ "gaming-pc": {
+  "n": 16,
+  "err": null,
+  "sec": 8,
+  "sample": [
+   "AMD Ryzen 5 5600G 6 Core 12 Thread AM4 Processor Desktop PC",
+   "Intel 11th Gen Core i5-11400F Rocket Lake Processor",
+   "Gaming PC with Intel Core Ultra 5 245K Arrow Lake Processor"
+  ],
+  "priced": 13
+ },
+ "all-in-one-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Walton UNIFY S22 WAO221010 PRO 21.5 inch Full HD Core i3 10th Gen All In One PC",
+   "ASUS VIVO AIO V222GAK CELERON DUAL CORE 21.5 INCH FHD DISPLAY ALL-IN-ONE PC",
+   "Walton UNIFY S22 WAO2210402 21.5 inch Full HD Core i5 10th Gen All In One PC"
+  ],
+  "priced": 20
+ },
+ "desktop-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ASUS PN41 INTEL CELERON 2.0GHZ MINI PC",
+   "ASUS NUC 14 Essential (Barebone) Intel N97 Portable Mini PC",
+   "Lenovo IdeaCentre 3 AMD Athlon Silver 3050U 4GB RAM 1TB HDD Brand PC"
+  ],
+  "priced": 20
+ },
+ "processor": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "AMD Ryzen 3 2200G Quad-Core Processor With Radeon Vega 8 Graphics",
+   "AMD Athlon 3000G Processor with Radeon Graphics",
+   "AMD Ryzen 5 2400G Processor with Radeon RX Vega 11 Graphics"
+  ],
+  "priced": 20
+ },
+ "motherboard": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Esonic H61FHL Motherboard",
+   "XENTHRA XN-H81M-VH Intel 4th Gen High-Performance Micro-ATX Motherboard",
+   "Starex ST-H61 Motherboard"
+  ],
+  "priced": 20
+ },
+ "graphics-card": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "GIGABYTE Intel Arc A310 WINDFORCE 4GB GDDR6 Graphics Card",
+   "Unika Radeon RX 580 BLIZZARDS 8GD5 V2 Graphics Card",
+   "PELADN RX 580 8G 256Bit Dual Fans Gaming Graphics Card"
+  ],
+  "priced": 20
+ },
+ "desktop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Adata 4GB DDR3 1333MHz Desktop Ram",
+   "OCPC VS 8GB DDR3 1600MHz Desktop RAM",
+   "DATO 8GB DDR4 3200MHz Desktop RAM"
+  ],
+  "priced": 20
+ },
+ "laptop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "SP DDR4 3200 BUS 8GB LAPTOP RAM (SP008GBSFU320X02) LIFETIME WARRANTY",
+   "TEAM ELITE 8GB 3200MHz Laptop RAM",
+   "Hikvision S1 8GB DDR4 3200Mhz SO DIMM Laptop RAM"
+  ],
+  "priced": 13
+ },
+ "portable-ssd": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HP P500 250GB TYPE-C PORTABLE SSD",
+   "Kingston SXS2000 500GB USB 3.2 Portable SSD",
+   "TEAM PD20 ECO Mini 1TB Type-C Portable SSD"
+  ],
+  "priced": 6
+ },
+ "ssd": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "OCPC AZZ-100 Black M.2 SSD Enclosure",
+   "OCPC AZZ-100 M.2 NVMe SSD Enclosure",
+   "OCPC AZZ-200 M.2 NVMe PCIe SATA SSD Enclosure"
+  ],
+  "priced": 20
+ },
+ "portable-hdd": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Transcend 25H3 1TB USB 3.1 External HDD",
+   "Transcend StoreJet J25C3N 1TB Portable HDD",
+   "Transcend J25M3 2TB USB 3.0 Portable Hard Disk"
+  ],
+  "priced": 5
+ },
+ "hdd": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Toshiba P300 1TB Desktop PC Internal Hard Drive",
+   "WESTERN DIGITAL 1TB 64MB CACHE 3.5-INCH BLUE DESKTOP HARD DRIVE",
+   "WESTERN DIGITAL WD10PURX 1TB PURPLE DESKTOP HDD"
+  ],
+  "priced": 17
+ },
+ "power-supply": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "PC Power VT-S200B PLUS 200W Power Supply",
+   "Value-Top VT-S200B Real 200W Black PSU",
+   "Xtreme XPS450R 200W ATX Power Supply"
+  ],
+  "priced": 20
+ },
+ "casing": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "GIGABYTE C103 GLASS GLOBAL Mid Tower Casing",
+   "Antec ST10M Micro-ATX Mini Tower Casing",
+   "Xtreme 951 ATX Casing without Power Supply"
+  ],
+  "priced": 19
+ },
+ "cpu-cooler": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Cooler Master A93 Aluminum Heatsink Socket LGA775 Air CPU Cooler",
+   "Deepcool GAMMA ARCHER Cpu Air Cooler",
+   "Acer Gadget AC1267ARGB 12cm Large Airflow Silent ARGB Fan (Black & White)"
+  ],
+  "priced": 20
+ },
+ "casing-fan": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Deepcool FH-04 FAN HUB Case Fan",
+   "Deepcool RF 120 B Case Fan",
+   "Deepcool RF 120 W Case Fan"
+  ],
+  "priced": 15
+ },
+ "laptop-accessories": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Deepcool WIND PAL MINI Black 15.6 inch Notebook Cooler",
+   "Deepcool M3 Laptop Cooler Pad",
+   "UGREEN LP451 Foldable Laptop Stand Grey"
+  ],
+  "priced": 11
+ },
+ "monitor-arm": {
+  "n": 12,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Kaloc KLC-H1 Mounting Extension VESA Adapter for 17 Inch-27 Inch Non Vesa Monitors",
+   "Kaloc KLC-DS200 17-32 Inch Adjustable Single Monitor Arm",
+   "KALOC DS110/B 17-35 inch Single Monitor Stand"
+  ],
+  "priced": 10
+ },
+ "gaming-monitor": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "GIGABYTE G25F2 24.5 Inch FHD Gaming Monitor",
+   "VIEWSONIC VX2458-C-MHD 24 INCH 144 HZ FREESYNC CURVED GAMING MONITOR",
+   "GIGABYTE GS27F 27 Inch IPS 165Hz Gaming Monitor"
+  ],
+  "priced": 17
+ },
+ "monitor-all": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ESONIC ES1701 17\" Square LED Monitor",
+   "Starex NB 19 inch Wide Led Monitor",
+   "Enter E-MO-A01 19-inch HD LED Backlit Gaming Monitor"
+  ],
+  "priced": 20
+ },
+ "keyboard": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Value-Top VT-2920U USB Swappable Keyboard",
+   "Black Cat BC-K1317 Mini USB Keyboard With Bangla",
+   "Havit KB271 USB Exquisite Keyboard with Bangla"
+  ],
+  "priced": 20
+ },
+ "mouse": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Meetion MT M360 USB Wired Mouse",
+   "Walton WMS025WN Mouse",
+   "Walton WMS018WN Mouse"
+  ],
+  "priced": 20
+ },
+ "mouse-pad": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Havit HV-MP838 Gaming Mouse Pad",
+   "Havit HV-MP839 Gaming Mouse Pad",
+   "HAVIT Gaming Mousepad MP837"
+  ],
+  "priced": 20
+ },
+ "headphone": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Xtreme S-811 Multimedia Headphone",
+   "HAVIT HV-H2198d 3.5mm Headphone Black",
+   "Havit HV-H2116D 3.5mm Stereo Headphone (Dual Port)"
+  ],
+  "priced": 20
+ },
+ "webcam": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Astrum WM720 HD USB Webcam With Mic",
+   "Havit HV-ND97 720P Webcam",
+   "Micropack MWB-15 Pro FHD 2MP Stream Webcam"
+  ],
+  "priced": 20
+ },
+ "microphone": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Boya BY-M1 Omnidirectional Lavalier Microphone",
+   "Redragon GM99 STIX USB Microphone",
+   "Boya BY-M1DM Dual Omni Directional Lavalier Microphone"
+  ],
+  "priced": 20
+ },
+ "speaker": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Havit SK704 2:0 USB Speaker",
+   "Havit HV-SK473 USB 2.0 Speaker",
+   "T-WOLF S1 RGB 2:0 Wired Black Gaming Speaker"
+  ],
+  "priced": 20
+ },
+ "bluetooth-speaker": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Havit M19 USB Gaming Desktop Speaker",
+   "Rapoo A100 Bluetooth Mini Speaker",
+   "Havit SK838BT Portable Bluetooth Speaker"
+  ],
+  "priced": 20
+ },
+ "soundbar": {
+  "n": 3,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Value Top VT500 Wooden-Black Bluetooth Soundbar",
+   "EDIFIER B700 DOLBY ATMOS SOUNDBAR SYSTEM",
+   "Xtreme Harmony 5:1 Multimedia Soundbar with Remote"
+  ],
+  "priced": 2
+ },
+ "pen-drive": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Kingston DataTraveler Exodia 64GB USB 3.2 Pen Drive",
+   "Kingston DataTraveler Exodia Onyx 64GB USB 3.2 Gen 1 Black Pen Drive #DTXON/64GB",
+   "Smart Rapid Lex 128GB USB 3.1 Pen Drive"
+  ],
+  "priced": 5
+ },
+ "memory-card": {
+  "n": 4,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Kingston Canvas Select Plus 64GB UHS-I MicroSDXC Memory Card",
+   "Kingston Canvas Select Plus 128GB UHS-I MicroSDXC Memory Card",
+   "Sandisk SDSDUNC-032G-AN6IN Ultra SDHC Memory Card 32GB Class 10-UHS-I"
+  ],
+  "priced": 2
+ },
+ "card-reader": {
+  "n": 1,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "UGREEN CM304 Multifunction Card Reader ( 80191)"
+  ],
+  "priced": 1
+ },
+ "enclosure": {
+  "n": 15,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Orico M95SS Laptop Hard Drive Caddy for Optical Drive",
+   "Orico 2588US3 2.5\" SATA HDD/SSD USB 3.0 Enclosure Black",
+   "Orico 2569S3 2.5\" USB 3.0 SATA HDD/SSD Enclosure Black"
+  ],
+  "priced": 11
+ },
+ "capture-card": {
+  "n": 7,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Second Hard Disk Drive CADDY-Secondary CD-ROM Storage for Laptop",
+   "Avermedia Live Gamer HD 2 GC570 PCI-Express Internal Game Capture Card",
+   "Elgato Game capture Neo Capture Card"
+  ],
+  "priced": 6
+ },
+ "power-strip": {
+  "n": 5,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Nano MBS-405 5 Port 3 Pin Power Strip White",
+   "Huntkey SZM401 4 Port Socket 2Core Cable Power Strip",
+   "Deli ET403 Universal Hole Extension Cord 2 Pin 4 Port 3 Meter Power Strip"
+  ],
+  "priced": 3
+ },
+ "thermal-paste": {
+  "n": 12,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Gamdias XC3 2g Thermal Paste",
+   "Gamdias XC5 4g High-Performance Thermal Paste",
+   "Arctic MX-4 Premium Performance Spatula Thermal Paste"
+  ],
+  "priced": 8
+ },
+ "smart-watch": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Havit HV-M9006 Smart Bracelet Watch",
+   "Baseus BS-W502 Rib Horizontal and Vertical Mobile Holder with Wireless Charging",
+   "Oryx Hype Bluetooth Calling Smartwatch"
+  ],
+  "priced": 20
+ },
+ "earbuds": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "New M145 ear hook OWS semi-in-ear open",
+   "HiFuture ColorBuds3 Comfort TWS Earbuds",
+   "HiFuture OlymBuds3 Comfort Fit TWS Earbuds"
+  ],
+  "priced": 17
+ },
+ "earphone": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Redragon E300 Bomber Elite Gaming Earphone",
+   "Dareu EH728 Pro Gaming Earbuds",
+   "Edifier GM180 Plus Type-C Semi-in-Ear Gaming Earphone"
+  ],
+  "priced": 6
+ },
+ "power-bank": {
+  "n": 4,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Powerbank 1130 mAh Blue",
+   "Powerbank 11 300 mAh Violet with Fox",
+   "UGREEN 20000mAh PD 20W Portable Charger Power Bank (20542)"
+  ],
+  "priced": 4
+ },
+ "drone": {
+  "n": 11,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller",
+   "DJI Neo Motion Fly More Combo Drone",
+   "DJI MINI 4 PRO Fly More Combo Plus + DJI RC2 (Global Version)"
+  ],
+  "priced": 8
+ },
+ "gimbal": {
+  "n": 7,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Zhiyun Smooth-XS 2-Axis Gimbal for Smartphone",
+   "Zhiyun Crane-M2 Smartphone and Camera Handheld Stabilizer Gimbal",
+   "FeiyuTech VLOG Pocket 3-Axis Handheld Smartphone Gimbal"
+  ],
+  "priced": 3
+ },
+ "gamepad": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Redragon Saturn G807 Wired Gamepad",
+   "Fantech GP12 Revolver Gaming Controller",
+   "Onikuma C1 Dual-Mode Wireless Gaming Controller Gemepad with Hall Effect Trigger and Stick"
+  ],
+  "priced": 20
+ },
+ "gaming-chair": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "DELUX DC-R103 Gaming Chair",
+   "Havit HV-GC932 Gamenote Gaming Chair Blue",
+   "DELUX DC-R01 Gaming Chair"
+  ],
+  "priced": 20
+ },
+ "router": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Mercusys MW305R 300Mbps Wireless N Router",
+   "Tenda N301 Wireless N300 Easy Setup Router",
+   "Wavlink WL-WN529K2 300Mbps Smart Wi-Fi Router"
+  ],
+  "priced": 20
+ },
+ "network-switch": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Netis ST3105c 5 Port Fast Ethernet Switch",
+   "Netis ST3116P 16 Port Fast Ethernet Switch",
+   "Cudy FS1006P 6-Port 10/100M PoE+ Switch"
+  ],
+  "priced": 17
+ },
+ "lan-card": {
+  "n": 2,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "TP Link TL WN823N 300Mbps Wireless USB LAN Card",
+   "Mercusys MU6H AC650 Single Antenna High Gain Wireless Dual Band USB Lan Card"
+  ],
+  "priced": 1
+ },
+ "ip-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Dahua HAC-B1A21 2MP HDCVI IR Eyeball Camera",
+   "Dahua HAC-B1A21P 2MP HDCVI IR Bullet Camera",
+   "Hikvision DS-2CE56D0T- IP/ECO 2MP Fixed Turret Camera"
+  ],
+  "priced": 20
+ },
+ "cc-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 8,
+  "sample": [
+   "Hikvision DS-2CE56C0T-IRPF HD 720p Indoor IR Turret Camera",
+   "Hikvision DS-2CE56C0T-IRF 1MP HD IR Fixed Turret Camera",
+   "Hikvision DS-2CE16C0T-IRF 1MP Fixed Mini Bullet Camera"
+  ],
+  "priced": 20
+ },
+ "dvr-nvr": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/dvr-nvr",
+  "sec": 15,
+  "sample": [],
+  "priced": 0
+ },
+ "printer": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "HP GT52 Cyan Original Ink Bottle",
+   "HP GT52 Magenta Original Ink Bottle",
+   "HP GT52 Yellow Original Ink Bottle"
+  ],
+  "priced": 20
+ },
+ "scanner": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/scanner",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "photocopier": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Toshiba e-Studio 2523A A3 Multifunction Digital Photocopier",
+   "Toshiba e-Studio 2323AM Duplex Copier",
+   "Sharp AR-7024 Multifunctional Photocopier"
+  ],
+  "priced": 11
+ },
+ "projector": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Projector Ceiling Mount Kit 2 Feet",
+   "Projector Ceiling Mount Kit 3 Feet",
+   "Optoma X400LVe XGA 4000 Lumens Professional Projector"
+  ],
+  "priced": 20
+ },
+ "telephone": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/ip-phone",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "calculator": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/calculator",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "ups": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Marsriva KP1 EC 18W 8000mAh Mini DC UPS",
+   "MARSRIVA KP4 10000mAh Smart Mini DC UPS for Router",
+   "MARSRIVA KP3 10000mAh Smart Mini DC UPS for Router"
+  ],
+  "priced": 20
+ },
+ "voltage-stabilizer": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/stabilizer",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "server": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/server",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "os-office": {
+  "n": 0,
+  "err": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.creatus.com.bd/operating-system",
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "antivirus": {
+  "n": 20,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Bitdefender Mobile Security 1 Device 1 Year",
+   "Bitdefender Internet Security 1 User",
+   "ESET Mobile Security for Android 2015"
+  ],
+  "priced": 20
+ },
+ "tv": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Starex 24NB 24\" Wide LED Television",
+   "Smart 24 inch HD Basic LED TV",
+   "WALTON WD24L22 24 INCH LED BASIC HD TV"
+  ],
+  "priced": 20
+ },
+ "ac": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Gree 1.5 Ton Lomo Split Non-Inverter AC",
+   "Midea MSM-12CRN 12000 BTU 1 TON Split Type AC",
+   "HAIER HSU-12 TURBOCOOL 1 TON NON-INVERTER AC"
+  ],
+  "priced": 20
+ }
+}
