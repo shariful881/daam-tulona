@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-10",
+ "scraped_at": "2026-11-10T22:56+06:00",
+ "stores": {
+  "startech": {
+   "enabled": true,
+   "items": 660,
+   "errors": [],
+   "seconds": 108
+  },
+  "ultratech": {
+   "enabled": true,
+   "items": 384,
+   "errors": [],
+   "seconds": 322
+  },
+  "fourstar": {
+   "enabled": true,
+   "items": 40,
+   "errors": [],
+   "seconds": 35
+  },
+  "ryans": {
+   "enabled": false,
+   "items": 0,
+   "errors": [
+    "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+   ],
+   "seconds": 0
+  },
+  "techland": {
+   "enabled": false,
+   "items": 0,
+   "errors": [
+    "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+   ],
+   "seconds": 0
+  }
+ }
+}
