@@ -24,6 +24,8 @@ jobs:
           get tl_cat.html "https://www.techlandbd.com/laptop-ram"
           get tl_prod.html https://www.techlandbd.com/lexar-8gb-ddr4-3200mhz-laptop-ram
           ls -la out
+          echo '=====RY ROBOTS'; cat out/ry_robots.txt; echo '=====ST ROBOTS'; cat out/st_robots.txt
+          echo '=====RY 403'; head -c 1500 out/ry_cat.html; echo; echo '=====TL 403'; head -c 1500 out/tl_cat.html; echo
       - uses: actions/upload-artifact@v4
         with:
           name: probe
