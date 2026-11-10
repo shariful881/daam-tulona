@@ -25,6 +25,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # অপেক্ষায় থাকা রানও সর্বশেষ ডাটা ও কোড নিয়ে বানাবে
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
