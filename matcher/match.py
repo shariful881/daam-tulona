@@ -71,7 +71,8 @@ def specs(name: str, category: str) -> dict:
         out["brand_cpu"] = "AMD" if ("amd" in n or "ryzen" in n or "athlon" in n) else ("Intel" if ("intel" in n or "core" in n) else None)
         m = re.search(r"(ryzen\s?\d\s?\d{4}\w*|i[3579][\s-]?\d{4,5}\w*|ultra\s?\d\s?\d{3}\w*|athlon\s?\w+|pentium\s?\w+|celeron\s?\w+)", n)
         if m:
-            out["model"] = m.group(1).upper().replace("RYZEN", "Ryzen").replace("ULTRA", "Ultra")
+            mdl = m.group(1).upper().replace("RYZEN", "Ryzen").replace("ULTRA", "Ultra").replace("ATHLON", "Athlon")
+            out["model"] = re.sub(r"^I([3579])", r"i\1", mdl)
     return {k: v for k, v in out.items() if v}
 
 
