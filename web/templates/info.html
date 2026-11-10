@@ -32,10 +32,11 @@
     <h2>যোগাযোগ</h2>
 {% endif %}
 {% if page != "about" %}
-    {% if contact.email or contact.phone or contact.facebook %}
+    {% if contact.email or contact.phone or contact.whatsapp or contact.facebook %}
     <ul>
       {% if contact.email %}<li>ইমেইল: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>{% endif %}
-      {% if contact.phone %}<li>ফোন: <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a></li>{% endif %}
+      {% if contact.phone %}<li>ফোন: <a href="tel:+88{{ contact.phone }}">{{ contact.phone }}</a></li>{% endif %}
+      {% if contact.whatsapp %}<li>হোয়াটসঅ্যাপ: <a href="https://wa.me/88{{ contact.whatsapp }}" target="_blank" rel="noopener">{{ contact.whatsapp }}</a></li>{% endif %}
       {% if contact.facebook %}<li>ফেসবুক: <a href="{{ contact.facebook }}" target="_blank" rel="noopener">পেজে মেসেজ দিন</a></li>{% endif %}
     </ul>
     {% else %}
