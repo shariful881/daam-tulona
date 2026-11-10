@@ -16,7 +16,7 @@
         {% if gallery %}<a class="credit" href="{{ gallery[0].h }}" target="_blank" rel="nofollow noopener">ছবি: {{ gallery[0].n }}</a>{% endif %}
       </div>
       <div style="min-width:0">
-        <div class="brand">{{ it.brand }}</div>
+        <div class="brand">{% if it.bslug in brand_set %}<a href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}</a>{% else %}{{ it.brand }}{% endif %}</div>
         <h1>{{ p.name }}</h1>
         <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
       </div>

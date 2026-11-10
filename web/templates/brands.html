@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% from "_brandlogo.html" import blogo with context %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › সব ব্র্যান্ড</nav>
+  <section class="card">
+    <h1>সব ব্র্যান্ড</h1>
+    <p class="muted" style="margin:0;font-size:.9rem">{{ total|bn }}টি ব্র্যান্ডের প্রোডাক্ট ও দাম। ব্র্যান্ডে চাপ দিলে তাদের সব প্রোডাক্ট ক্যাটাগরি অনুযায়ী দেখবেন।</p>
+    <div class="af" style="margin-top:12px"><input class="search" style="max-width:none;width:100%" type="search" id="bq" placeholder="ব্র্যান্ড খুঁজুন… (যেমন Samsung)" aria-label="ব্র্যান্ড খুঁজুন"></div>
+    <div class="rows" id="bres"></div>
+  </section>
+
+  <section class="card">
+    <h2>জনপ্রিয় ব্র্যান্ড</h2>
+    <div class="bgrid">{% for b in popular %}<a class="bcard" href="{{ base }}/brand/{{ b.slug }}/">{{ blogo(b.slug, b.name) }}<b>{{ b.name }}</b><span>{{ b.count|bn }}টি প্রোডাক্ট</span></a>{% endfor %}</div>
+  </section>
+
+  <section class="card">
+    <h2>A–Z</h2>
+    <nav class="azbar">{% for l, _ in letters %}<a href="#l-{{ l }}">{{ l }}</a>{% endfor %}</nav>
+    {% for l, bs in letters %}
+    <h3 class="azh" id="l-{{ l }}">{{ l }}</h3>
+    <div class="azlist">{% for b in bs %}<a href="{{ base }}/brand/{{ b.slug }}/">{{ b.name }} <small>{{ b.count|bn }}</small></a>{% endfor %}</div>
+    {% endfor %}
+  </section>
+{% endblock %}
+{% block after %}
+<script>
+(function(){
+  var B={{ cards_json|safe }}, base="{{ base }}", q=document.getElementById("bq"), out=document.getElementById("bres");
+  function bn(n){return String(n).replace(/\d/g,function(d){return "০১২৩৪৫৬৭৮৯"[d]})}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  q.addEventListener("input",function(){var t=q.value.toLowerCase().trim();if(!t){out.innerHTML="";return}
+    var h=B.filter(function(b){return b.n.toLowerCase().indexOf(t)>-1}).slice(0,10);
+    out.innerHTML=h.map(function(b){return '<a class="row" href="'+base+'/brand/'+b.s+'/"><div class="n">'+esc(b.n)+'</div><div class="w">'+bn(b.k)+'টি প্রোডাক্ট</div></a>'}).join("")||'<p class="muted" style="margin:6px 0 0;font-size:.85rem">পাওয়া যায়নি।</p>'});
+})();
+</script>
+{% endblock %}

@@ -281,3 +281,30 @@ body.go-on{overflow:hidden}
 .szbest .si{grid-row:span 3;width:56px;height:56px;border-radius:8px;background:#fff;overflow:hidden;display:grid;place-items:center}
 .szbest .si img{width:100%;height:100%;object-fit:contain}
 .szbest .si.noimg{background:var(--bg)}
+/* ব্র্যান্ড */
+.blogo{flex:0 0 auto;width:44px;height:44px;border-radius:12px;background:var(--accent-soft);color:var(--ink);display:grid;place-items:center;font:700 .9rem var(--body);overflow:hidden;border:1px solid var(--line)}
+.blogo img{width:100%;height:100%;object-fit:contain;background:#fff;padding:3px}
+.blogo.lg{width:72px;height:72px;font-size:1.3rem;border-radius:16px}
+.bhead{display:flex;gap:12px;align-items:center}
+.bhead h1{margin:0}
+.babout{font-size:.9rem;line-height:1.6;margin:12px 0 0}
+.blinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.blinks a{min-height:36px;display:inline-flex;align-items:center;padding:0 12px;border:1px solid var(--line);border-radius:999px;font-size:.84rem;background:var(--bg)}
+.astats.bst{margin-top:12px}
+.astats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.astats{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.astat{background:var(--bg);border-radius:12px;padding:10px 12px}
+.astat b{display:block;font:700 1.1rem var(--mono)}
+.astat span{font-size:.76rem;color:var(--muted)}
+.bgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.bgrid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.bcard{display:grid;justify-items:center;gap:4px;padding:10px 6px;border:1px solid var(--line);border-radius:12px;text-align:center;min-width:0}
+.bcard b{font-size:.84rem;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bcard span{font-size:.7rem;color:var(--muted)}
+.azbar{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
+.azbar a{min-width:32px;min-height:32px;display:grid;place-items:center;border-radius:8px;background:var(--bg);font-weight:700;font-size:.82rem}
+.azh{margin:14px 0 6px;font-size:1rem;scroll-margin-top:70px}
+.azlist{display:flex;flex-wrap:wrap;gap:6px}
+.azlist a{min-height:34px;display:inline-flex;align-items:center;gap:5px;padding:0 10px;border:1px solid var(--line);border-radius:999px;font-size:.84rem}
+.azlist small{color:var(--muted);font-size:.7rem}
+.brand a{color:inherit;text-decoration:underline;text-decoration-color:var(--line)}

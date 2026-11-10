@@ -1,0 +1,1 @@
+{% macro blogo(slug, name, size="") %}{% set l = brand_logo(slug) %}<span class="blogo{{ ' ' ~ size if size }}">{% if l %}<img src="{{ l }}" alt="{{ name }}" loading="lazy" onerror="this.parentNode.textContent='{{ name[:2]|upper }}'">{% else %}{{ name[:2]|upper }}{% endif %}</span>{% endmacro %}

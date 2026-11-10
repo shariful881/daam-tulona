@@ -1,0 +1,347 @@
+{
+  "_নোট": "ব্র্যান্ড পাতা। multiword: দুই শব্দের ব্র্যান্ড; generic: যে শব্দ ব্র্যান্ড নয়; aliases: ভিন্ন বানান/নাম → মূল ব্র্যান্ডের slug; info: পরিচিতি, লিংক, লোগো (অ্যাডমিন প্যানেল থেকে বদলায়)।",
+  "min_products": 5,
+  "multiword": [
+    "Cooler Master",
+    "Western Digital",
+    "Silicon Power",
+    "Golden Field",
+    "Thermal Grizzly",
+    "Audio Technica",
+    "PC Power",
+    "Power Guard",
+    "Power Print",
+    "Power Pac",
+    "Royal Kludge",
+    "Digital X",
+    "Value-Top",
+    "Smart Life"
+  ],
+  "generic": [
+    "laptop",
+    "paper",
+    "others",
+    "other",
+    "generic",
+    "original",
+    "new",
+    "universal",
+    "brand",
+    "no"
+  ],
+  "aliases": {
+    "teamgroup": "team",
+    "macbook": "apple",
+    "ipad": "apple",
+    "iphone": "apple",
+    "playstation": "sony",
+    "xbox": "microsoft",
+    "smartlife": "smart-life"
+  },
+  "info": {
+    "asus": {
+      "tagline": "তাইওয়ানের কম্পিউটার হার্ডওয়্যার কোম্পানি",
+      "about": "ল্যাপটপ, মাদারবোর্ড, গ্রাফিক্স কার্ড, মনিটর আর রাউটার বানায়। গেমিংয়ের জন্য এদের ROG সিরিজ জনপ্রিয়।",
+      "website": "https://www.asus.com"
+    },
+    "ugreen": {
+      "tagline": "চীনের অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "চার্জার, ক্যাবল, ইউএসবি হাব, পাওয়ার ব্যাংক আর কম্পিউটার অ্যাক্সেসরিজের জন্য পরিচিত।",
+      "website": "https://www.ugreen.com"
+    },
+    "hp": {
+      "tagline": "যুক্তরাষ্ট্রের কম্পিউটার ও প্রিন্টার কোম্পানি",
+      "about": "ল্যাপটপ, ডেস্কটপ, প্রিন্টার আর কালি-টোনার বানায়।",
+      "website": "https://www.hp.com"
+    },
+    "msi": {
+      "tagline": "তাইওয়ানের কম্পিউটার হার্ডওয়্যার কোম্পানি",
+      "about": "গেমিং ল্যাপটপ, মাদারবোর্ড, গ্রাফিক্স কার্ড আর মনিটরের জন্য পরিচিত।",
+      "website": "https://www.msi.com"
+    },
+    "corsair": {
+      "tagline": "যুক্তরাষ্ট্রের গেমিং হার্ডওয়্যার ব্র্যান্ড",
+      "about": "র‍্যাম, পাওয়ার সাপ্লাই, কেসিং, কুলার আর গেমিং কিবোর্ড-মাউস বানায়।",
+      "website": "https://www.corsair.com"
+    },
+    "gigabyte": {
+      "tagline": "তাইওয়ানের কম্পিউটার হার্ডওয়্যার কোম্পানি",
+      "about": "মাদারবোর্ড, গ্রাফিক্স কার্ড, ল্যাপটপ আর মনিটর বানায়। AORUS এদের গেমিং সিরিজ।",
+      "website": "https://www.gigabyte.com"
+    },
+    "vention": {
+      "tagline": "চীনের ক্যাবল ও অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "এইচডিএমআই, ইউএসবি, নেটওয়ার্ক ক্যাবল আর অ্যাডাপ্টার বানায়।",
+      "website": "https://ventiontech.com"
+    },
+    "deepcool": {
+      "tagline": "চীনের কম্পিউটার কুলিং ব্র্যান্ড",
+      "about": "সিপিইউ কুলার, কেসিং ফ্যান, লিকুইড কুলার, কেসিং আর পাওয়ার সাপ্লাই বানায়।",
+      "website": "https://www.deepcool.com"
+    },
+    "hikvision": {
+      "tagline": "চীনের নিরাপত্তা ক্যামেরা নির্মাতা",
+      "about": "সিসিটিভি ক্যামেরা, ডিভিআর/এনভিআর আর নিরাপত্তা সরঞ্জাম বানায়। এদের Hiksemi ব্র্যান্ডে স্টোরেজও আছে।",
+      "website": "https://www.hikvision.com"
+    },
+    "tp-link": {
+      "tagline": "নেটওয়ার্কিং ব্র্যান্ড",
+      "about": "ওয়াইফাই রাউটার, সুইচ, নেটওয়ার্ক অ্যাডাপ্টার আর Tapo স্মার্ট ক্যামেরা বানায়।",
+      "website": "https://www.tp-link.com"
+    },
+    "lenovo": {
+      "tagline": "চীনের কম্পিউটার কোম্পানি",
+      "about": "ল্যাপটপ, ডেস্কটপ, ট্যাবলেট আর মনিটর বানায়। ThinkPad, IdeaPad আর Legion এদের পরিচিত সিরিজ।",
+      "website": "https://www.lenovo.com"
+    },
+    "dahua": {
+      "tagline": "চীনের নিরাপত্তা ক্যামেরা নির্মাতা",
+      "about": "সিসিটিভি ক্যামেরা, রেকর্ডার আর নিরাপত্তা সরঞ্জাম বানায়।",
+      "website": "https://www.dahuasecurity.com"
+    },
+    "xiaomi": {
+      "tagline": "চীনের ইলেকট্রনিক্স কোম্পানি",
+      "about": "স্মার্টফোন (Redmi, POCO), স্মার্ট টিভি, স্মার্টওয়াচ আর ঘরের নানা গ্যাজেট বানায়।",
+      "website": "https://www.mi.com"
+    },
+    "sony": {
+      "tagline": "জাপানের ইলেকট্রনিক্স কোম্পানি",
+      "about": "টিভি, হেডফোন, ক্যামেরা আর PlayStation গেম কনসোল বানায়।",
+      "website": "https://www.sony.com"
+    },
+    "samsung": {
+      "tagline": "দক্ষিণ কোরিয়ার ইলেকট্রনিক্স কোম্পানি",
+      "about": "স্মার্টফোন, টিভি, ফ্রিজ, ওয়াশিং মেশিন, মনিটর আর এসএসডি বানায়।",
+      "website": "https://www.samsung.com"
+    },
+    "team": {
+      "tagline": "তাইওয়ানের মেমরি ব্র্যান্ড (TEAMGROUP)",
+      "about": "র‍্যাম, এসএসডি আর পেনড্রাইভ বানায়। T-FORCE এদের গেমিং সিরিজ।",
+      "website": "https://www.teamgroupinc.com"
+    },
+    "baseus": {
+      "tagline": "চীনের মোবাইল অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "চার্জার, পাওয়ার ব্যাংক, ক্যাবল, ইয়ারবাড আর গাড়ির অ্যাক্সেসরিজ বানায়।",
+      "website": "https://www.baseus.com"
+    },
+    "canon": {
+      "tagline": "জাপানের ক্যামেরা ও প্রিন্টার কোম্পানি",
+      "about": "ক্যামেরা, লেন্স, প্রিন্টার আর স্ক্যানার বানায়।",
+      "website": "https://global.canon"
+    },
+    "transcend": {
+      "tagline": "তাইওয়ানের মেমরি ও স্টোরেজ ব্র্যান্ড",
+      "about": "র‍্যাম, এসএসডি, মেমরি কার্ড আর পোর্টেবল হার্ডডিস্ক বানায়।",
+      "website": "https://www.transcend-info.com"
+    },
+    "casio": {
+      "tagline": "জাপানের ইলেকট্রনিক্স কোম্পানি",
+      "about": "হাতঘড়ি (G-Shock), ক্যালকুলেটর আর ইলেকট্রনিক কিবোর্ড বানায়।",
+      "website": "https://www.casio.com"
+    },
+    "redragon": {
+      "tagline": "চীনের গেমিং অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "গেমিং কিবোর্ড, মাউস, হেডসেট আর চেয়ার বানায়, তুলনামূলক কম দামে।",
+      "website": "https://www.redragonzone.com"
+    },
+    "a4tech": {
+      "tagline": "তাইওয়ানের কম্পিউটার অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "কিবোর্ড, মাউস আর ওয়েবক্যাম বানায়। Bloody এদের গেমিং সিরিজ।",
+      "website": "https://www.a4tech.com"
+    },
+    "philips": {
+      "tagline": "নেদারল্যান্ডসের ইলেকট্রনিক্স ব্র্যান্ড",
+      "about": "লাইট, ঘরের যন্ত্রপাতি, ব্যক্তিগত যত্নের পণ্য আর মনিটর পাওয়া যায় এই নামে।",
+      "website": "https://www.philips.com"
+    },
+    "amd": {
+      "tagline": "যুক্তরাষ্ট্রের প্রসেসর ও গ্রাফিক্স চিপ নির্মাতা",
+      "about": "Ryzen প্রসেসর আর Radeon গ্রাফিক্স কার্ডের চিপ বানায়।",
+      "website": "https://www.amd.com"
+    },
+    "oraimo": {
+      "tagline": "মোবাইল অ্যাক্সেসরিজ ব্র্যান্ড (Transsion গ্রুপ)",
+      "about": "চার্জার, ইয়ারবাড, পাওয়ার ব্যাংক আর স্মার্টওয়াচ বানায়।",
+      "website": "https://www.oraimo.com"
+    },
+    "dell": {
+      "tagline": "যুক্তরাষ্ট্রের কম্পিউটার কোম্পানি",
+      "about": "ল্যাপটপ, ডেস্কটপ, মনিটর আর সার্ভার বানায়। Alienware এদের গেমিং সিরিজ।",
+      "website": "https://www.dell.com"
+    },
+    "logitech": {
+      "tagline": "সুইজারল্যান্ডের কম্পিউটার অ্যাক্সেসরিজ কোম্পানি",
+      "about": "মাউস, কিবোর্ড, ওয়েবক্যাম, হেডসেট আর স্পিকার বানায়।",
+      "website": "https://www.logitech.com"
+    },
+    "epson": {
+      "tagline": "জাপানের প্রিন্টার ও প্রজেক্টর কোম্পানি",
+      "about": "কালির ট্যাংকসহ প্রিন্টার (EcoTank), প্রজেক্টর আর স্ক্যানার বানায়।",
+      "website": "https://www.epson.com"
+    },
+    "edifier": {
+      "tagline": "চীনের অডিও ব্র্যান্ড",
+      "about": "স্পিকার, হেডফোন আর ইয়ারবাড বানায়।",
+      "website": "https://www.edifier.com"
+    },
+    "cooler-master": {
+      "tagline": "তাইওয়ানের কম্পিউটার হার্ডওয়্যার ব্র্যান্ড",
+      "about": "কেসিং, সিপিইউ কুলার, পাওয়ার সাপ্লাই আর গেমিং অ্যাক্সেসরিজ বানায়।",
+      "website": "https://www.coolermaster.com"
+    },
+    "gamdias": {
+      "tagline": "তাইওয়ানের গেমিং হার্ডওয়্যার ব্র্যান্ড",
+      "about": "কেসিং, কুলার, পাওয়ার সাপ্লাই আর গেমিং অ্যাক্সেসরিজ বানায়।",
+      "website": "https://www.gamdias.com"
+    },
+    "anker": {
+      "tagline": "চীনের চার্জিং ও অ্যাক্সেসরিজ ব্র্যান্ড",
+      "about": "চার্জার, পাওয়ার ব্যাংক, ক্যাবল আর Soundcore অডিও পণ্য বানায়।",
+      "website": "https://www.anker.com"
+    },
+    "jbl": {
+      "tagline": "যুক্তরাষ্ট্রের অডিও ব্র্যান্ড (Harman)",
+      "about": "ব্লুটুথ স্পিকার, হেডফোন আর ইয়ারবাড বানায়।",
+      "website": "https://www.jbl.com"
+    },
+    "apple": {
+      "tagline": "যুক্তরাষ্ট্রের প্রযুক্তি কোম্পানি",
+      "about": "iPhone, iPad, MacBook, Apple Watch আর AirPods বানায়।",
+      "website": "https://www.apple.com"
+    },
+    "intel": {
+      "tagline": "যুক্তরাষ্ট্রের প্রসেসর নির্মাতা",
+      "about": "Core আর Core Ultra প্রসেসর, নেটওয়ার্ক কার্ড আর গ্রাফিক্স চিপ বানায়।",
+      "website": "https://www.intel.com"
+    },
+    "haier": {
+      "tagline": "চীনের ঘরের যন্ত্রপাতি নির্মাতা",
+      "about": "ফ্রিজ, এসি, ওয়াশিং মেশিন আর টিভি বানায়।",
+      "website": "https://www.haier.com"
+    },
+    "antec": {
+      "tagline": "কম্পিউটার কেসিং ও পাওয়ার সাপ্লাই ব্র্যান্ড",
+      "about": "কেসিং, পাওয়ার সাপ্লাই আর কুলার বানায়।",
+      "website": "https://www.antec.com"
+    },
+    "netac": {
+      "tagline": "চীনের স্টোরেজ ব্র্যান্ড",
+      "about": "এসএসডি, পেনড্রাইভ, মেমরি কার্ড আর র‍্যাম বানায়।",
+      "website": "https://www.netac.com"
+    },
+    "viewsonic": {
+      "tagline": "যুক্তরাষ্ট্রের ডিসপ্লে ব্র্যান্ড",
+      "about": "মনিটর, প্রজেক্টর আর ইন্টারঅ্যাকটিভ ডিসপ্লে বানায়।",
+      "website": "https://www.viewsonic.com"
+    },
+    "brother": {
+      "tagline": "জাপানের প্রিন্টার কোম্পানি",
+      "about": "লেজার ও কালির প্রিন্টার, লেবেল প্রিন্টার আর সেলাই মেশিন বানায়।",
+      "website": "https://global.brother"
+    },
+    "benq": {
+      "tagline": "তাইওয়ানের ডিসপ্লে ব্র্যান্ড",
+      "about": "মনিটর আর প্রজেক্টর বানায়। Zowie এদের গেমিং সিরিজ।",
+      "website": "https://www.benq.com"
+    },
+    "dji": {
+      "tagline": "চীনের ড্রোন ও ক্যামেরা নির্মাতা",
+      "about": "ড্রোন, গিম্বাল, অ্যাকশন ক্যামেরা আর ওয়্যারলেস মাইক্রোফোন বানায়।",
+      "website": "https://www.dji.com"
+    },
+    "zkteco": {
+      "tagline": "চীনের নিরাপত্তা ও হাজিরা যন্ত্র নির্মাতা",
+      "about": "ফিঙ্গারপ্রিন্ট ও ফেস হাজিরা মেশিন আর অ্যাক্সেস কন্ট্রোল বানায়।",
+      "website": "https://www.zkteco.com"
+    },
+    "seagate": {
+      "tagline": "হার্ডডিস্ক নির্মাতা",
+      "about": "ইন্টারনাল ও পোর্টেবল হার্ডডিস্ক আর এসএসডি বানায়।",
+      "website": "https://www.seagate.com"
+    },
+    "g-skill": {
+      "tagline": "তাইওয়ানের র‍্যাম ব্র্যান্ড",
+      "about": "উচ্চ গতির ডেস্কটপ ও ল্যাপটপ র‍্যাম বানায়। Trident Z আর Ripjaws এদের পরিচিত সিরিজ।",
+      "website": "https://www.gskill.com"
+    },
+    "lg": {
+      "tagline": "দক্ষিণ কোরিয়ার ইলেকট্রনিক্স কোম্পানি",
+      "about": "টিভি, মনিটর, ফ্রিজ, এসি আর ওয়াশিং মেশিন বানায়।",
+      "website": "https://www.lg.com"
+    },
+    "tenda": {
+      "tagline": "চীনের নেটওয়ার্কিং ব্র্যান্ড",
+      "about": "ওয়াইফাই রাউটার, সুইচ আর নেটওয়ার্ক অ্যাডাপ্টার বানায়।",
+      "website": "https://www.tendacn.com"
+    },
+    "grandstream": {
+      "tagline": "যুক্তরাষ্ট্রের যোগাযোগ যন্ত্র নির্মাতা",
+      "about": "আইপি ফোন, ভিডিও কনফারেন্স যন্ত্র আর নেটওয়ার্কিং সরঞ্জাম বানায়।",
+      "website": "https://www.grandstream.com"
+    },
+    "sandisk": {
+      "tagline": "যুক্তরাষ্ট্রের স্টোরেজ ব্র্যান্ড",
+      "about": "মেমরি কার্ড, পেনড্রাইভ আর এসএসডি বানায়।",
+      "website": "https://www.sandisk.com"
+    },
+    "adata": {
+      "tagline": "তাইওয়ানের মেমরি ও স্টোরেজ ব্র্যান্ড",
+      "about": "র‍্যাম, এসএসডি আর পোর্টেবল স্টোরেজ বানায়। XPG এদের গেমিং সিরিজ।",
+      "website": "https://www.adata.com"
+    },
+    "apacer": {
+      "tagline": "তাইওয়ানের মেমরি ব্র্যান্ড",
+      "about": "র‍্যাম, এসএসডি আর পেনড্রাইভ বানায়।",
+      "website": "https://www.apacer.com"
+    },
+    "kingston": {
+      "tagline": "যুক্তরাষ্ট্রের মেমরি ব্র্যান্ড",
+      "about": "র‍্যাম, এসএসডি, মেমরি কার্ড আর পেনড্রাইভ বানায়। Fury এদের গেমিং সিরিজ।",
+      "website": "https://www.kingston.com"
+    },
+    "microsoft": {
+      "tagline": "যুক্তরাষ্ট্রের প্রযুক্তি কোম্পানি",
+      "about": "Windows, Office সফটওয়্যার, Surface ডিভাইস আর Xbox বানায়।",
+      "website": "https://www.microsoft.com"
+    },
+    "lexar": {
+      "tagline": "মেমরি ও স্টোরেজ ব্র্যান্ড",
+      "about": "মেমরি কার্ড, এসএসডি, পেনড্রাইভ আর র‍্যাম বানায়।",
+      "website": "https://www.lexar.com"
+    },
+    "razer": {
+      "tagline": "গেমিং হার্ডওয়্যার ব্র্যান্ড",
+      "about": "গেমিং মাউস, কিবোর্ড, হেডসেট আর গেমিং ল্যাপটপ বানায়।",
+      "website": "https://www.razer.com"
+    },
+    "western-digital": {
+      "tagline": "যুক্তরাষ্ট্রের স্টোরেজ নির্মাতা",
+      "about": "হার্ডডিস্ক আর এসএসডি বানায়। WD Blue, Black আর Purple এদের পরিচিত সিরিজ।",
+      "website": "https://www.westerndigital.com"
+    },
+    "walton": {
+      "tagline": "বাংলাদেশের ইলেকট্রনিক্স ও ঘরের যন্ত্রপাতি নির্মাতা",
+      "about": "ফ্রিজ, টিভি, এসি, ওয়াশিং মেশিন, ফ্যান, মোবাইল আর ল্যাপটপ দেশেই বানায়। এখানে দেখানো দাম Walton-এর অফিসিয়াল সাইটের।",
+      "website": "https://waltonbd.com"
+    },
+    "minister": {
+      "tagline": "বাংলাদেশের ঘরের যন্ত্রপাতি নির্মাতা",
+      "about": "ফ্রিজ, ডিপ ফ্রিজ, টিভি আর এসি দেশেই বানায়। এখানে দেখানো দাম Minister-এর অফিসিয়াল সাইটের।",
+      "website": "https://ministerbd.com"
+    },
+    "uniview": {
+      "tagline": "চীনের নিরাপত্তা ক্যামেরা নির্মাতা",
+      "about": "আইপি ক্যামেরা, রেকর্ডার আর ভিডিও নজরদারি সরঞ্জাম বানায়।",
+      "website": "https://www.uniview.com"
+    },
+    "hisense": {
+      "tagline": "চীনের ইলেকট্রনিক্স কোম্পানি",
+      "about": "টিভি, ফ্রিজ, এসি আর ওয়াশিং মেশিন বানায়।",
+      "website": "https://www.hisense.com"
+    },
+    "toshiba": {
+      "tagline": "জাপানের ইলেকট্রনিক্স কোম্পানি",
+      "about": "হার্ডডিস্ক, টিভি আর ঘরের যন্ত্রপাতি পাওয়া যায় এই নামে।"
+    }
+  }
+}

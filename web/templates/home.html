@@ -19,6 +19,13 @@
   </section>
   {% endif %}
 
+  {% if top_brands %}
+  <section class="card">
+    <h2>জনপ্রিয় ব্র্যান্ড <span class="sub">· <a href="{{ base }}/brand/" style="text-decoration:underline">সব {{ brand_total|bn }}টি ব্র্যান্ড</a></span></h2>
+    <div class="azlist">{% for b in top_brands %}<a href="{{ base }}/brand/{{ b.slug }}/">{{ b.name }} <small>{{ b.count|bn }}</small></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
   {{ slot("home", None, "home") }}
 
   {% if deals %}

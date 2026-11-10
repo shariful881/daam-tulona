@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "_brandlogo.html" import blogo with context %}
+{% from "_ad.html" import slot with context %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/brand/">ব্র্যান্ড</a> › <a href="{{ base }}/brand/{{ bslug }}/">{{ bname }}</a> › {{ cat.name_bn }}</nav>
+  <section class="card">
+    <div class="bhead">{{ blogo(bslug, bname) }}<h1 style="margin:0">{{ bname }} {{ cat.name_bn }} দাম বাংলাদেশে</h1></div>
+    <p class="muted" style="margin:8px 0 0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট, সবচেয়ে কম দাম প্রথমে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %} <a href="{{ base }}/c/{{ cat.slug }}/" style="text-decoration:underline">সব ব্র্যান্ডের {{ cat.name_bn }}</a>{% if size_links.get(cat.slug) %} · <a href="{{ base }}/size/{{ size_links[cat.slug][0] }}/" style="text-decoration:underline">সাইজ অনুযায়ী তুলনা</a>{% endif %}</p>
+    <div class="ctrl"><label><input type="checkbox" id="stock"> শুধু স্টকে আছে</label></div>
+  </section>
+  <section class="card">
+    <div class="rows" id="list">
+    {% for it in items %}
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/" data-stock="{{ 1 if it.best else 0 }}"><span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div>
+          <div class="w">{% if it.best %}{{ stores[it.best.store].name }}{% else %}এখন স্টকে নেই{% endif %}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
+        <div><div class="p">{% if it.best %}{{ it.best.price|taka }}{% elif it.any_price %}<span class="muted">{{ it.any_price|taka }}</span>{% else %}—{% endif %}</div>{% if it.saving %}<div class="d lo">{{ it.saving|taka }} পার্থক্য</div>{% endif %}</div>
+      </a>
+      {% if loop.index == 12 and not loop.last %}{{ slot("category", cat.slug, bslug ~ cat.slug ~ page) }}{% endif %}
+    {% endfor %}
+    </div>
+  </section>
+  {% if pages > 1 %}
+  <nav class="pager" aria-label="পাতা">{% for n in range(1, pages + 1) %}{% if n == page %}<span>{{ n|bn }}</span>{% else %}<a href="{{ base }}/brand/{{ bslug }}/{{ cat.slug }}/{% if n > 1 %}{{ n }}/{% endif %}">{{ n|bn }}</a>{% endif %}{% endfor %}</nav>
+  {% endif %}
+{% endblock %}
+{% block after %}
+<script>document.getElementById("stock").addEventListener("change",function(){var on=this.checked;[].forEach.call(document.querySelectorAll("#list .row"),function(r){r.hidden=on&&r.dataset.stock!=="1"})});</script>
+{% endblock %}

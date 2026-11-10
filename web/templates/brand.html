@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% from "_brandlogo.html" import blogo with context %}
+{% from "_ad.html" import slot with context %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/brand/">ব্র্যান্ড</a> › {{ bname }}</nav>
+  <section class="card">
+    <div class="bhead">{{ blogo(bslug, bname, "lg") }}<div style="min-width:0"><h1>{{ bname }}</h1>
+      {% if info.tagline %}<p class="muted" style="margin:2px 0 0;font-size:.88rem">{{ info.tagline }}</p>{% endif %}</div></div>
+    {% if info.about %}<p class="babout">{{ info.about }}</p>{% else %}<p class="babout muted">{{ bname }}-এর {{ stats.count|bn }}টি প্রোডাক্টের দাম আমাদের তালিকায় আছে, {{ stats.cats|bn }}টি ক্যাটাগরিতে। নিচে ক্যাটাগরি বাছুন।</p>{% endif %}
+    {% set links = [("website","ওয়েবসাইট"),("facebook","ফেসবুক"),("youtube","ইউটিউব"),("instagram","ইনস্টাগ্রাম"),("linkedin","লিংকডইন")] %}
+    {% if links|selectattr(0, "in", info)|list %}
+    <div class="blinks">{% for k, label in links if info.get(k) %}<a href="{{ info[k] }}" target="_blank" rel="nofollow noopener">{{ label }} ↗</a>{% endfor %}</div>
+    {% endif %}
+    {% if info.distributor or info.support %}
+    <dl style="margin-top:10px">
+      {% if info.distributor %}<div><dt>বাংলাদেশে পরিবেশক</dt><dd>{{ info.distributor }}</dd></div>{% endif %}
+      {% if info.support %}<div><dt>সার্ভিস / হেল্পলাইন</dt><dd>{{ info.support }}</dd></div>{% endif %}
+    </dl>
+    {% endif %}
+    <div class="astats bst">
+      <div class="astat"><b>{{ stats.count|bn }}</b><span>প্রোডাক্ট</span></div>
+      <div class="astat"><b>{{ stats.cats|bn }}</b><span>ক্যাটাগরি</span></div>
+      <div class="astat"><b>{{ stats.live|bn }}</b><span>এখন স্টকে</span></div>
+      <div class="astat"><b>{% if stats.min %}{{ stats.min|taka }}{% else %}—{% endif %}</b><span>শুরুর দাম</span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>{{ bname }}-এর ক্যাটাগরি</h2>
+    <div class="rows">
+    {% for c in cats if c.page %}
+      <a class="row" href="{{ base }}/brand/{{ bslug }}/{{ c.slug }}/"><div style="min-width:0"><div class="n">{{ bname }} {{ c.name_bn }}</div><div class="w">{{ c.count|bn }}টি প্রোডাক্ট</div></div><div class="p">{% if c.min %}<small class="muted" style="font-weight:400">শুরু</small> {{ c.min|taka }}{% else %}—{% endif %}</div></a>
+    {% endfor %}
+    </div>
+  </section>
+
+  {{ slot("group", None, "brand-" ~ bslug) }}
+
+  {% for c in cats if not c.page %}
+  {% if loop.first %}<section class="card"><h2>অন্যান্য</h2><div class="rows">{% endif %}
+    {% for it in c.few %}
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/"><span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ c.name_bn }}</div></div><div class="p">{% if it.best %}{{ it.best.price|taka }}{% else %}—{% endif %}</div></a>
+    {% endfor %}
+  {% if loop.last %}</div></section>{% endif %}
+  {% endfor %}
+
+  {% if deals %}
+  <section class="card">
+    <h2>দোকানভেদে সবচেয়ে বেশি দামের পার্থক্য</h2>
+    <div class="rows">
+    {% for it in deals %}
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/"><span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
+        <div><div class="p">{{ it.best.price|taka }}</div><div class="d lo">{{ it.saving|taka }} সাশ্রয়</div></div></a>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endblock %}

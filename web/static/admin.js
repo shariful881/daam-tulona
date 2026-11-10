@@ -471,6 +471,87 @@
     });
   };
 
+  /* ---------- ব্র্যান্ড ---------- */
+  VIEWS.brands = function (p) {
+    return getJSON("config/brands.json").then(function (d) {
+      var bc = clone(d); bc.info = bc.info || {}; bc.aliases = bc.aliases || {}; bc.generic = bc.generic || [];
+      var list = S.admin.brands, min = S.admin.brand_min || 5, cur = null, pending = null;
+      var FIELDS = [["name", "দেখানো নাম", "text", "ফাঁকা রাখলে নিজে থেকে"], ["tagline", "এক লাইনের পরিচয়", "text", "যেমন: দক্ষিণ কোরিয়ার ইলেকট্রনিক্স কোম্পানি"],
+        ["about", "পরিচিতি (২-৪ লাইন)", "textarea", "নিজের ভাষায় লিখুন, অন্য সাইট থেকে কপি নয়"], ["website", "অফিসিয়াল ওয়েবসাইট", "url", ""],
+        ["facebook", "ফেসবুক পেজ", "url", "শুধু অফিসিয়াল (ভেরিফায়েড) পেজ"], ["youtube", "ইউটিউব", "url", ""], ["instagram", "ইনস্টাগ্রাম", "url", ""],
+        ["linkedin", "লিংকডইন", "url", ""], ["distributor", "বাংলাদেশে পরিবেশক", "text", "যেমন: Smart Technologies (BD) Ltd."],
+        ["support", "সার্ভিস সেন্টার / হেল্পলাইন", "text", "ফোন নম্বর বা ঠিকানা"], ["logo", "লোগোর লিংক", "url", "অফিসিয়াল সাইটের লোগোর ঠিকানা, অথবা নিচে আপলোড"]];
+      function listHTML(q) {
+        q = (q || "").toLowerCase();
+        var hits = list.filter(function (b) { return !q || (b.n + " " + b.s + " " + b.v.join(" ")).toLowerCase().indexOf(q) > -1; }).slice(0, 60);
+        return hits.map(function (b) {
+          var has = bc.info[b.s] && Object.keys(bc.info[b.s]).length;
+          return '<div class="apair" data-b="' + esc(b.s) + '"><div class="nm"><b>' + esc(b.n) + "</b> <span>· " + bn(b.k) + "টি প্রোডাক্ট" + (b.k < min ? " · পাতা নেই (" + bn(min) + "টির কম)" : "") +
+            (has ? " · ✓ তথ্য আছে" : "") + (b.v.length > 1 ? "<br>বানান: " + b.v.map(esc).join(", ") : "") + '</span></div>' +
+            '<div class="bt"><button type="button" class="abtn" data-edit="' + esc(b.s) + '">সম্পাদনা</button>' +
+            (b.k >= min ? '<a class="abtn ghost" style="display:inline-flex;align-items:center" target="_blank" href="' + BASE + "/brand/" + esc(b.s) + '/">দেখুন</a>' : "") + "</div></div>";
+        }).join("") || '<p class="aempty">পাওয়া যায়নি।</p>';
+      }
+      function editHTML(slug) {
+        var b = list.filter(function (x) { return x.s === slug; })[0] || { s: slug, n: slug, k: 0, v: [] }, inf = bc.info[slug] || {};
+        var al = Object.keys(bc.aliases).filter(function (k) { return bc.aliases[k] === slug; }).join(", ");
+        return '<section class="card" data-ed="' + esc(slug) + '"><button type="button" class="abtn ghost" id="bback">‹ সব ব্র্যান্ড</button>' +
+          '<h2 style="margin-top:10px">' + esc(b.n) + ' <span class="sub">· ' + bn(b.k) + "টি প্রোডাক্ট</span></h2>" +
+          FIELDS.map(function (f) { return fld(f[0], f[1], inf[f[0]] || "", f[2], f[3]); }).join("") +
+          '<div class="af"><span class="lbl">লোগো আপলোড</span><input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" id="blogo"><small>বর্গাকার বা চওড়া, ২০০KB-এর কম। আপলোড করলে উপরের লিংকের বদলে এটা দেখাবে।</small></div>' +
+          '<div class="af"><label>এই নামগুলোও একই ব্র্যান্ড</label><input type="text" id="balias" value="' + esc(al) + '"><small>কমা দিয়ে আলাদা করুন, যেমন: teamgroup, team-group। ওই নামের প্রোডাক্টগুলো এই ব্র্যান্ডে যোগ হবে।</small></div>' +
+          '<div class="anote warn" style="margin-top:8px">এটা আসলে কোনো ব্র্যান্ড নয় (যেমন "Laptop", "Paper")? <button type="button" class="abtn warn" id="bnot" style="margin-left:6px">ব্র্যান্ড তালিকা থেকে বাদ দিন</button></div></section>';
+      }
+      function draw() {
+        if (cur) { p.innerHTML = editHTML(cur); return; }
+        p.innerHTML = '<section class="card"><h2>ব্র্যান্ড</h2><p class="muted" style="margin:0;font-size:.84rem">' + bn(list.length) + "টি ব্র্যান্ড, এর মধ্যে " +
+          bn(list.filter(function (b) { return b.k >= min; }).length) + "টির নিজের পাতা আছে (অন্তত " + bn(min) + "টি প্রোডাক্ট)। পরিচিতি, অফিসিয়াল লিংক আর লোগো যোগ করুন, ভুল বানান এক করুন।</p>" +
+          '<div class="af"><input type="search" id="bq" placeholder="ব্র্যান্ড খুঁজুন…"></div><div id="blist">' + listHTML("") + "</div></section>";
+        $("#bq").addEventListener("input", function () { $("#blist").innerHTML = listHTML(this.value); });
+      }
+      draw();
+      p.addEventListener("click", function (e) {
+        var t = e.target;
+        if (t.dataset && t.dataset.edit) { cur = t.dataset.edit; draw(); window.scrollTo(0, 0); }
+        else if (t.id === "bback") { cur = null; draw(); }
+        else if (t.id === "bnot" && cur && confirm("এটা ব্র্যান্ড তালিকা থেকে বাদ যাবে, এর প্রোডাক্টগুলো কোনো ব্র্যান্ড ছাড়া দেখাবে। ঠিক আছে?")) {
+          var b = list.filter(function (x) { return x.s === cur; })[0];
+          (b ? b.v : [cur]).forEach(function (v) { var k = v.toLowerCase(); if (bc.generic.indexOf(k) < 0) bc.generic.push(k); });
+          markDirty("brands"); cur = null; draw(); toast("সেভ করলে কার্যকর হবে");
+        }
+      });
+      bindDirty(p, "brands", function (el) {
+        if (el.id === "bq") return false;
+        if (!cur) return false;
+        if (el.id === "balias") {
+          Object.keys(bc.aliases).forEach(function (k) { if (bc.aliases[k] === cur) delete bc.aliases[k]; });
+          el.value.split(",").map(function (x) { return x.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); })
+            .filter(Boolean).forEach(function (k) { if (k !== cur) bc.aliases[k] = cur; });
+          return;
+        }
+        if (!el.dataset.k) return false;
+        var inf = bc.info[cur] = bc.info[cur] || {};
+        if (el.value.trim()) inf[el.dataset.k] = el.value.trim(); else delete inf[el.dataset.k];
+        if (!Object.keys(inf).length) delete bc.info[cur];
+      });
+      p.addEventListener("change", function (e) {
+        if (e.target.id !== "blogo" || !e.target.files[0] || !cur) return;
+        var f = e.target.files[0];
+        if (f.size > 200000) { toast("ছবিটা অনেক বড় (২০০KB-এর কম দিন)", true); e.target.value = ""; return; }
+        pending = { slug: cur, file: f }; markDirty("brands");
+      });
+      savers.brands = function () {
+        var chain = Promise.resolve();
+        if (pending) {
+          var pd = pending, ext = (pd.file.name.split(".").pop() || "png").toLowerCase().replace("jpeg", "jpg"), name = pd.slug + "." + ext;
+          chain = fileB64(pd.file).then(function (b64) { return putRaw("web/static/brands/" + name, b64, pd.slug + "-এর লোগো"); })
+            .then(function () { bc.info[pd.slug] = bc.info[pd.slug] || {}; bc.info[pd.slug].logo = name; pending = null; });
+        }
+        return chain.then(function () { return putJSON("config/brands.json", bc, "ব্র্যান্ডের তথ্য"); });
+      };
+    });
+  };
+
   /* ---------- প্রোডাক্ট: লুকানো ও মিলানো ---------- */
   VIEWS.products = function (p) {
     var idx = S.search ? Promise.resolve(S.search) : fetch(BASE + "/search.json").then(function (r) { return r.json(); }).then(function (j) { S.search = j; return j; });

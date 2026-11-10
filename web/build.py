@@ -355,6 +355,105 @@ def big_image(url):
     return re.sub(r"-(228x228|200x200|250x250|364x364)\.(webp|jpg|png)$", r"-500x500.\2", url)
 
 
+def brand_slug(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+class Brands:
+    """ব্র্যান্ডের নাম পরিষ্কার করা: 'Laptop'/'Paper'-এর মতো সাধারণ শব্দ বাদ, দুই শব্দের ব্র্যান্ড (Cooler Master),
+    ভিন্ন বানান এক করা (ASUS/Asus), আর config/brands.json-এর aliases।"""
+
+    def __init__(self):
+        f = ROOT / "config/brands.json"
+        self.conf = json.loads(f.read_text()) if f.exists() else {}
+        self.multi = sorted(self.conf.get("multiword", []), key=len, reverse=True)
+        self.generic = set(self.conf.get("generic", []))
+        self.aliases = self.conf.get("aliases", {})
+        self.info = self.conf.get("info", {})
+        self.spell = defaultdict(Counter)
+
+    def of(self, name: str, raw: str | None) -> str | None:
+        low = name.lower()
+        for m in self.multi:
+            if low.startswith(m.lower() + " ") or low.startswith(m.lower().replace(" ", "-") + " "):
+                raw = m
+                break
+        raw = (raw or name.split()[0]).strip()
+        if not raw or raw.lower() in self.generic or re.fullmatch(r"[\d\W]+", raw):
+            return None
+        slug = brand_slug(raw)
+        slug = self.aliases.get(slug, slug)
+        self.spell[slug][raw] += 1
+        return slug
+
+    def display(self, slug: str) -> str:
+        if self.info.get(slug, {}).get("name"):
+            return self.info[slug]["name"]
+        c = self.spell.get(slug)
+        if not c:
+            return slug
+        # সবচেয়ে বেশি ব্যবহৃত বানান; সব বড় হাতের হলে আর ৪ অক্ষরের বেশি হলে প্রথম অক্ষর বড়
+        best = c.most_common(1)[0][0]
+        mixed = [b for b, _ in c.most_common() if not b.isupper()]
+        return best if not best.isupper() or len(best) <= 4 or not mixed else mixed[0]
+
+
+def build_brand_pages(items, leaves, group_of, BR, write):
+    """প্রতিটা ব্র্যান্ডের পাতা (/brand/<slug>/), ব্র্যান্ড+ক্যাটাগরি পাতা (/brand/<slug>/<cat>/), আর সব ব্র্যান্ডের তালিকা।"""
+    minp = BR.conf.get("min_products", 5)
+    by = defaultdict(list)
+    for it in items.values():
+        if it["bslug"]:
+            by[it["bslug"]].append(it)
+    cards = []
+    order = lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0))
+    for slug, lst in by.items():
+        if len(lst) < minp:
+            continue
+        name, info = BR.display(slug), BR.info.get(slug, {})
+        cats = defaultdict(list)
+        for it in lst:
+            cats[it["category"]].append(it)
+        cat_cards = []
+        for c, cl in sorted(cats.items(), key=lambda x: -len(x[1])):
+            cl.sort(key=order)
+            priced = [i["best"]["price"] for i in cl if i["best"]]
+            has_page = len(cl) >= 3
+            cat_cards.append({"slug": c, "name_bn": leaves[c]["name_bn"], "name_en": leaves[c].get("name_en", ""), "count": len(cl),
+                              "min": min(priced) if priced else None, "page": has_page, "few": cl[:6] if not has_page else []})
+            if has_page:
+                pages = max(1, -(-len(cl) // PER_PAGE))
+                for n in range(1, pages + 1):
+                    write(f"brand/{slug}/{c}" + (f"/{n}" if n > 1 else ""), "brand_cat.html", bname=name, bslug=slug, cat=leaves[c],
+                          items=cl[(n - 1) * PER_PAGE:n * PER_PAGE], total=len(cl), page=n, pages=pages, info=info,
+                          title=f"{name} {leaves[c]['name_bn']} দাম বাংলাদেশে | {name} {leaves[c].get('name_en', '')} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
+                          description=f"{name}-এর {len(cl)}টি {leaves[c]['name_bn']}-এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।"
+                                      + (f" শুরু {taka(min(priced))} থেকে।" if priced else ""),
+                          canonical=f"{SITE_URL}/brand/{slug}/{c}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
+        priced = [i["best"]["price"] for i in lst if i["best"]]
+        deals = sorted([i for i in lst if i["saving"] > 0], key=lambda i: -i["saving"])[:6]
+        stats = {"count": len(lst), "cats": len(cats), "min": min(priced) if priced else None, "max": max(priced) if priced else None,
+                 "live": sum(1 for i in lst if i["best"]), "multi": sum(1 for i in lst if i["store_count"] > 1)}
+        write(f"brand/{slug}", "brand.html", bname=name, bslug=slug, info=info, stats=stats, cats=cat_cards, deals=deals,
+              title=f"{name} প্রোডাক্টের দাম বাংলাদেশে | {name} Price in BD | দামতুলনা",
+              description=(info.get("about", "")[:120] + " " if info.get("about") else "")
+                          + f"{name}-এর {len(lst)}টি প্রোডাক্টের দাম {len(cats)}টি ক্যাটাগরিতে।",
+              canonical=f"{SITE_URL}/brand/{slug}/" if SITE_URL else None)
+        top = [c["name_bn"] for c in cat_cards[:3]]
+        cards.append({"slug": slug, "name": name, "count": len(lst), "top": top, "logo": info.get("logo"),
+                      "letter": (name[:1].upper() if name[:1].isalpha() else "#")})
+    cards.sort(key=lambda c: c["name"].lower())
+    letters = defaultdict(list)
+    for c in cards:
+        letters[c["letter"]].append(c)
+    popular = sorted(cards, key=lambda c: -c["count"])[:24]
+    write("brand", "brands.html", popular=popular, letters=sorted(letters.items()), total=len(cards),
+          cards_json=json.dumps([{"s": c["slug"], "n": c["name"], "k": c["count"]} for c in cards], ensure_ascii=False, separators=(",", ":")),
+          title="সব ব্র্যান্ড | কোন ব্র্যান্ডের কী প্রোডাক্ট, কত দাম | দামতুলনা",
+          description=f"{len(cards)}টি ব্র্যান্ডের প্রোডাক্ট ও দাম এক জায়গায়।", canonical=f"{SITE_URL}/brand/" if SITE_URL else None)
+    return sorted(cards, key=lambda c: -c["count"])
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -433,6 +532,7 @@ def main():
     for pid in mm.get("ignore", []):
         offers.pop(pid, None)
 
+    BR = Brands()
     items = {}
     for pid, so in offers.items():
         p = products.get(pid)
@@ -442,21 +542,27 @@ def main():
         live = sorted(((s, o) for s, o in so.items() if o.get("in_stock") and o.get("price")), key=lambda x: x[1]["price"])
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
-        brand = det.get("brand") or p["brand"]
+        bslug = BR.of(p["name"], det.get("brand") if det.get("brand") not in (None, "", "Others") else p["brand"])
+        brand = bslug or ""
         imgs = image_list(pid, so, products, stores)
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
-                      "group": group_of[p["category"]]["slug"], "brand": brand, "best": best, "any_price": any_price,
+                      "group": group_of[p["category"]]["slug"], "brand": brand, "bslug": bslug, "best": best, "any_price": any_price,
                       "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
                       "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live),
                       "created": p["created"], "specs": p["specs"], "imgs": imgs,
                       "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x)}
 
+    for it in items.values():  # ব্র্যান্ডের প্রদর্শনী নাম (সব বানান গোনা হয়ে গেলে)
+        it["brand"] = BR.display(it["bslug"]) if it["bslug"] else ""
+    common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
+                           if c_ >= BR.conf.get("min_products", 5)}
+    common["brand_logo"] = lambda b_: (lambda l: (l if l.startswith("http") else f"{BASE}/static/brands/{l}") if l else None)(BR.info.get(b_, {}).get("logo"))
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
     for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
-    for d in ("logos", "sponsors"):
+    for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     urls = []
@@ -511,8 +617,9 @@ def main():
             ("এই দাম কখন আপডেট হয়?", "প্রতিদিন রাতে সব স্টোর থেকে দাম নতুন করে সংগ্রহ করা হয়।"),
             ("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"),
         ]
-        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"],
-                  "brand": {"@type": "Brand", "name": it["brand"]}, "category": leaf["name_en"]}
+        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "category": leaf["name_en"]}
+        if it["brand"]:
+            jsonld["brand"] = {"@type": "Brand", "name": it["brand"]}
         if det.get("mpn"):
             jsonld["mpn"] = det["mpn"]
         if it["imgs"]:
@@ -552,7 +659,7 @@ def main():
             lst = sorted(by_cat.get(leaf["slug"], []), key=lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0)))
             if not lst:
                 continue
-            brands = [b for b, _ in Counter(i["brand"] for i in lst).most_common(12)]
+            brands = [b for b, _ in Counter(i["brand"] for i in lst if i["brand"]).most_common(12)]
             pages = max(1, -(-len(lst) // PER_PAGE))
             for n in range(1, pages + 1):
                 chunk = lst[(n - 1) * PER_PAGE:n * PER_PAGE]
@@ -578,10 +685,11 @@ def main():
 
     vals = list(items.values())
     size_pages = build_size_pages(items, products, details, write, offers)
+    brand_pages = build_brand_pages(items, leaves, group_of, BR, write)
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
-    write("", "home.html", groups=group_cards, size_pages=size_pages, deals=deals, fresh=fresh, total=len(vals),
+    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, fresh=fresh, total=len(vals),
           multi=sum(1 for i in vals if i["store_count"] > 1),
           store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
@@ -607,7 +715,11 @@ def main():
     raw_count = Counter(p["category"] for p in products.values())
     for c in all_cats:
         c["count"] = cat_count.get(c["slug"], 0) or raw_count.get(c["slug"], 0)
-    admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats,
+    bcount = Counter(i["bslug"] for i in vals if i["bslug"])
+    admin_brands = [{"s": b_, "n": BR.display(b_), "k": k_, "v": [x for x, _ in BR.spell[b_].most_common(5)]}
+                    for b_, k_ in bcount.most_common()]
+    admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats, "brands": admin_brands,
+             "brand_min": BR.conf.get("min_products", 5),
              "suggestions": [x for x in suggestions if not ({x["a"], x["b"]} <= done)][:300],
              "fresh": [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in fresh_all[:100]]}
     (DIST / "admin").mkdir(exist_ok=True)
