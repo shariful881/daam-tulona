@@ -1,0 +1,599 @@
+{
+ "graphics-tablet": {
+  "n": 16,
+  "err": null,
+  "sec": 2,
+  "sample": [
+   "Huion HS64 Battery-Free Pen Tablet",
+   "Huion Inspiroy 2 M H951P Graphics Tablet",
+   "Huion Inspiroy 2 S H641P Graphics Tablet"
+  ],
+  "priced": 16
+ },
+ "tablet": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "TECLAST T50 Plus 11inch 8GB 128GB LTE Android Tablet",
+   "Veikk A30 Digital Drawing Graphic Tablet",
+   "Veikk Creator A50 Graphics Drawing Tablet"
+  ],
+  "priced": 16
+ },
+ "laptop": {
+  "n": 16,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Acer TravelLite TL14-52M Core i5 13th Gen 8GB RAM 512GB Storage 14 Inch FHD Laptop",
+   "ASUS Vivobook 15 X1504VA-BQ4172 Core 5 120U 8GB RAM 512GB SSD 15.6\" FHD Laptop",
+   "ASUS Vivobook 15 X1504VA-BQ4173 Core 7-150U 8GB 512GB 15.6 inch FHD Laptop"
+  ],
+  "priced": 16
+ },
+ "laptop-bag": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Arctic Hunter B00346 15.6 Inch Laptop Backpack",
+   "Arctic Hunter B00388 15.6 Inch Laptop Backpack",
+   "Asus ROG BP1501G 15.6 inch Laptop Gaming Backpack"
+  ],
+  "priced": 16
+ },
+ "all-in-one-pc": {
+  "n": 11,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "AOC AIO Noble A33 Intel Core i5 7400 16GB RAM 512GB SSD 23.8 Inch FHD Display All in One PC",
+   "Asus PN40 Celeron Dual Core Mini PC With Touch Monitor",
+   "Walton UNIFY BS22F Core i3 12th Gen 16GB RAM 21.5\" FHD IPS All-in-One PC"
+  ],
+  "priced": 10
+ },
+ "desktop-pc": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "AMD Athlon 300GE Desktop PC with 8GB DDR4 RAM & 256GB NVMe SSD",
+   "AMD Ryzen 5 7600 Gaming PC Super Combo Deal",
+   "AMD Ryzen 5 8400F RTX 5050 8GB Budget Gaming PC"
+  ],
+  "priced": 16
+ },
+ "processor": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
+   "AMD Ryzen 5 5500 Processor",
+   "AMD Ryzen 7 5700X Processor"
+  ],
+  "priced": 16
+ },
+ "motherboard": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "MSI A520M-A Pro AM4 AMD Micro-ATX Motherboard",
+   "MSI MAG Z790 TOMAHAWK WIFI 12th and 13th Gen ATX Motherboard",
+   "ASRock X870 Steel Legend WiFi 7 AMD Ryzen Socket AM5 ATX Motherboard"
+  ],
+  "priced": 16
+ },
+ "graphics-card": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+   "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+   "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card - White"
+  ],
+  "priced": 16
+ },
+ "desktop-ram": {
+  "n": 16,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Corsair Vengeance LPX 16GB DDR4 3200Mhz Desktop Ram",
+   "Corsair Vengeance LPX 8GB DDR4 3200Mhz Desktop Ram",
+   "Corsair VENGEANCE RGB 16GB DDR5 6000MHz RAM"
+  ],
+  "priced": 16
+ },
+ "laptop-ram": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "G.Skill Ripjaws 16GB DDR4 2666MHz SO-DIMM Laptop RAM",
+   "G.Skill RipJaws 4GB 2666MHz Laptop RAM",
+   "G.Skill Ripjaws 4GB DDR3 1600MHz SO-DIMM Laptop RAM"
+  ],
+  "priced": 16
+ },
+ "portable-ssd": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Transcend ESD270C 2TB USB 3.1 Gen 2 Type-C External SSD",
+   "Transcend ESD270C 500GB USB 3.1 Gen 2 Type-C External SSD (Black)",
+   "Lexar Air SL260 Portable SSD 1TB USB 3.2 Gen 1 External SSD"
+  ],
+  "priced": 16
+ },
+ "ssd": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Colorful CN600 128gb M.2 Nvme SSD",
+   "Corsair MP600 PRO NH 1TB PCIe Gen4 x4 NVMe M.2 SSD",
+   "CORSAIR MP600 PRO XT 1TB M.2 NVMe PCIe Gen 4 X4 SSD"
+  ],
+  "priced": 16
+ },
+ "hdd": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Seagate SkyHawk AI 8TB 3.5 Inch SATA 7200RPM Surveillance HDD",
+   "Seagate Barracuda 2TB 3.5 Inch SATA 5400RPM Desktop HDD",
+   "Seagate Barracuda 6TB 3.5 Inch Desktop HDD"
+  ],
+  "priced": 16
+ },
+ "power-supply": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "1STPLAYER NGDP ATX 3.1 GOLD 750W Full Modular Power Supply",
+   "1STPLAYER NGDP ATX 3.1 PLATINUM 1000W Full Modular Power Supply",
+   "1ST PLAYER PS-300FK Non Modular POWER SUPPLY"
+  ],
+  "priced": 16
+ },
+ "casing": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Carbono CG02XZ M-ATX Mid Tower Gaming Case (Black)",
+   "NZXT H510 Elite Compact ATX Mid Tower Case",
+   "1st player BS-3 ATX Mid Tower Gaming Case without Fan"
+  ],
+  "priced": 16
+ },
+ "cpu-cooler": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "1STPLAYER TS2 360 THUNDERSTORM ARGB CPU Liquid Cooler",
+   "Arctic Liquid Freezer II 240 A-RGB Multi-Compatible All-in-One CPU Cooler",
+   "Arctic Liquid Freezer II 280 A-RGB Multi-Compatible CPU Cooler"
+  ],
+  "priced": 16
+ },
+ "casing-fan": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Gamdias AEOLUS M2-1205R Casing Cooling Fan",
+   "Maxgreen M19-12CM ARGB 120mm 1x Casing Fan",
+   "NZXT F120 RGB DUO 120mm RGB Casing Fan-Triple Pack Black"
+  ],
+  "priced": 16
+ },
+ "optical-drive": {
+  "n": 0,
+  "err": null,
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "laptop-accessories": {
+  "n": 11,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "14 inch Keyboard for Laptop & Notebook",
+   "15 inch Keyboard for Laptop & Notebook",
+   "Apple 45W MagSafe 1 Power Adapter for Apple Macbook (A Grade)"
+  ],
+  "priced": 11
+ },
+ "monitor-arm": {
+  "n": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Arctic Z1 Basic Monitor Desk Mount Stand",
+   "Kaloc KLC V28 17- 26\" Double ARM Monitor/TV Desktop Mount Stand",
+   "Kaloc KLC-DS200 17-32 Inch Adjustable Single Monitor Arm"
+  ],
+  "priced": 12
+ },
+ "monitor-all": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Lenovo Legion R27qe Gen2 27\" 2K QHD 200Hz Gaming Monitor",
+   "MSI PRO MP223 21.45 inch Full HD Business Monitor",
+   "TITAN ARMY P2710R2 27 Inch WQHD 200Hz 1ms FAST IPS Gaming Monitor"
+  ],
+  "priced": 16
+ },
+ "keyboard": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "FANTECH MAXFIT81 MK910 BAREBONE (SPACE)",
+   "Logitech MK240 NANO Mouse and Keyboard Combo (white)",
+   "Montech MK105FR MKey Freedom RGB Wired Gaming Keyboard"
+  ],
+  "priced": 16
+ },
+ "mouse": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "A4tech Bloody R72 Ultra Duo Dual Mode Wireless Gaming Mouse",
+   "A4TECH FB35C Fstyler Dual Mode Recharegable Bluetooth & 2.4G Wireless Mouse",
+   "A4TECH FB35CS FStyler Bluetooth Mouse"
+  ],
+  "priced": 16
+ },
+ "mouse-pad": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Micropack GP-800 Apollo RGB Black Gaming Mouse Pad",
+   "DeepCool GM800 Gaming Mouse Pad",
+   "Deepcool GM810 Gaming Mouse Pad"
+  ],
+  "priced": 16
+ },
+ "microphone": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Boya BOYALINK 3 AI-Powered Button Wireless Microphone System",
+   "BOYA BY-BM2021 Super-Cardioid shotgun Mic",
+   "BOYA mini 2-02 Wireless Microphone System (TX-2, RX-1, With Case)"
+  ],
+  "priced": 16
+ },
+ "speaker": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Ikarao Xtreme Break X1 All-in-One Portable Karaoke Speaker with Wireless Microphone",
+   "XTREME BOLT 2:1 SPEAKER",
+   "Anker Soundcore Select 4 Go Portable Bluetooth Wireless Speaker"
+  ],
+  "priced": 16
+ },
+ "bluetooth-speaker": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "F&D F380 X 2.1 Channel Multimedia Bluetooth Speakers",
+   "F&D A521X 2.1 Channel Multimedia Bluetooth Speakers",
+   "F&D F210X 2.1 Multimedia Bluetooth Speaker"
+  ],
+  "priced": 16
+ },
+ "pen-drive": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Adata UC310 64GB USB 3.2 Pen Drive",
+   "Dahua U156 128GB USB 3.2 Pen Drive",
+   "Eaget ET-i66 128GB Lightning Pen Drive"
+  ],
+  "priced": 16
+ },
+ "memory-card": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "SanDisk Extreme PRO 128GB 200mbps SDXC UHS-I Memory Card (SDSDXXD-128G-GN4IN)",
+   "SanDisk Extreme PRO SD UHS-I Memory Card 128GB",
+   "SanDisk Extreme PRO SD UHS-I Memory Card 256GB"
+  ],
+  "priced": 16
+ },
+ "power-strip": {
+  "n": 16,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Deli ET404 Universal Hole Extension Cord 4 Port 2 Pin Power Strip",
+   "Deli CT703ES 3 Pin 4 Port 3 Meter Power Strip with Surge Protection",
+   "Deli E18338 3 Port White 2 Pin Power Strip"
+  ],
+  "priced": 16
+ },
+ "thermal-paste": {
+  "n": 3,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "CORSAIR TM30 Performance Thermal Paste",
+   "CORSAIR XTM50 HIGH PERFORMANCE THERMAL PASTE",
+   "THERMALTAKE TG-7 THERMAL PASTE"
+  ],
+  "priced": 3
+ },
+ "smart-watch": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Amazfit T-Rex 3 Pro Smart Watch",
+   "Black Shark A3 BT Calling Smart Watch",
+   "Black Shark S1 1.43\" AMOLED Bluetooth Calling Smart Watch"
+  ],
+  "priced": 16
+ },
+ "earbuds": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Amazon Echo Buds 2nd Gen",
+   "Anker Soundcore P40i ANC TWS Earbuds",
+   "Anker Soundcore R50i NC TWS Earbuds"
+  ],
+  "priced": 16
+ },
+ "earphone": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Baseus Bowie U2 Pro Neckband Noise-Cancellation Wireless Earphone",
+   "FONENG BL34 Bluetooth Earphone Neckband",
+   "FONENG T52 In-Ear Wired Earphone 3.5mm"
+  ],
+  "priced": 16
+ },
+ "power-bank": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Anker A1654 MagGo 10000mAh Qi2 Certified Power Bank with Smart Display",
+   "Awei P10K 10000mah 22.5W Fast Charging Digital Display Power Bank",
+   "Awei P139K 10000mAh 15W Magnetic Wireless Power Bank"
+  ],
+  "priced": 16
+ },
+ "drone": {
+  "n": 14,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "DJI Mini 4 Pro Drone With Mini to the Max Combo",
+   "DJI Mini 5 Pro Fly More Combo With RC-N3",
+   "DJI Neo Fly More Combo Drone with DJI RC-N3 Remote Controller"
+  ],
+  "priced": 10
+ },
+ "gaming-console": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ASUS ROG Xbox Ally X Gaming Console",
+   "Gamemt Jelly Mini E5 Handheld Gaming Console",
+   "REMAX FCP-13 10000mAh Power Bank with Gaming Console"
+  ],
+  "priced": 16
+ },
+ "gamepad": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Fantech EOS PRO WGP15 Multiplatform Tri-Mode Wireless Gamepad",
+   "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad",
+   "Fantech Revolver III WGP12S Wireless Controller"
+  ],
+  "priced": 16
+ },
+ "gaming-chair": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "GIGABYTE AORUS AGC310 Gaming Chair",
+   "Corsair T3 Rush Gaming Chair Charcoal",
+   "Corsair T3 Rush Gaming Chair Gray/Charcoal"
+  ],
+  "priced": 16
+ },
+ "router": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "5G LTE Wireless Modem Wifi Pro",
+   "Asus RT-BE58U BE3600 Mbps 2.5G Dual-Band Wi-Fi 7 Gaming Router",
+   "Cudy LT400 Outdoor 4G Cat4 N300 Wi-Fi Outdoor Router"
+  ],
+  "priced": 16
+ },
+ "pocket-router": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "4g lte Wifi Modem Router",
+   "5G LTE Wireless Modem Wifi Pro",
+   "JioFi LTE Advanced Mobile Hotspot Pocket Router"
+  ],
+  "priced": 16
+ },
+ "network-switch": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "D-Link DES-1005A 5-Port 10/100 Switch",
+   "Cisco SF300-24 24-port 10/100 Managed Switch with Gigabit Uplinks",
+   "Cisco SF300-48 48-port 10/100 Managed Switch with Gigabit Uplinks"
+  ],
+  "priced": 16
+ },
+ "lan-card": {
+  "n": 10,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "TP-Link UB400 Bluetooth 4.0 Nano USB Adapter",
+   "TP-Link TG-3468 Network Adapter",
+   "TP-Link Archer T2U AC600 Dual Band Nano USB LAN Card Adapter"
+  ],
+  "priced": 2
+ },
+ "wifi-camera": {
+  "n": 0,
+  "err": null,
+  "sec": 5,
+  "sample": [],
+  "priced": 0
+ },
+ "ip-camera": {
+  "n": 16,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Dahua DH-IPC-HDW1230T2-S5 2MP Dome IP Camera",
+   "Dahua Imou Ranger RC 3MP Indoor Portable Wi-Fi Camera",
+   "EZVIZ CS-H6c Pro 3MP Pan & Tilt Smart Portable WiFi Camera"
+  ],
+  "priced": 16
+ },
+ "printer": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HP LaserJet Pro 4003dn Single Function Mono Laser Printer",
+   "Brother DCP-T420W Multi-Function Color Inktank Printer with Wifi",
+   "Brother DCP-T520W Multifunction Color Inktank Printer with Wireless and Mobile Printing"
+  ],
+  "priced": 16
+ },
+ "printer-supplies": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Canon EP-308 Toner (Black)",
+   "Canon EP-319 Toner (Black)",
+   "Canon EP-325 Black Laser Toner"
+  ],
+  "priced": 16
+ },
+ "scanner": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Epson DS-870 Color Duplex Document Scanner",
+   "Canon CanoScan LiDE 300 Scanner",
+   "Canon DR-C240 Document Scanner"
+  ],
+  "priced": 16
+ },
+ "photocopier": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Sharp AR-7024 Multifunctional Photocopier",
+   "Canon imageRUNNER 2006N Digital photocopier",
+   "Canon imageRUNNER ADVANCE DX 4745i Multifunction Photocopier"
+  ],
+  "priced": 16
+ },
+ "projector": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Blisbond Mirror 4K Gimbal Projector",
+   "Magcubic HY310 260 ANSI Mini Android Projector",
+   "Magcubic HY310X 420 ANSI 4K Mini Android Projector"
+  ],
+  "priced": 16
+ },
+ "action-camera": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "AUSEK AT-M40R 5K WATERPROOF ACTION CAMERA",
+   "Ausek AT-M82TR 6k WiFi Waterproof Action Camera",
+   "DJI Osmo Action 4 Adventure Combo 4K Waterproof Action Camera"
+  ],
+  "priced": 16
+ },
+ "online-ups": {
+  "n": 15,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "APOLLO 650VA 300W UPS",
+   "Apollo 2300HS 3KVA Standard Backup Online UPS",
+   "MaxGreen MGO-W6KS 6KVA Standard Backup High-Frequency Online UPS"
+  ],
+  "priced": 8
+ },
+ "ups": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "MaxGreen MG-LI-KSP 650VA Offline UPS",
+   "MaxGreen MG-LI-KSP 850VA Offline UPS",
+   "MaxGreen MG1200VA-Gold 1200VA Offline UPS"
+  ],
+  "priced": 16
+ },
+ "tv": {
+  "n": 16,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HAIER H32K66GH 32 INCH BEZEL LESS HD GOOGLE ANDROID 11 SMART TV",
+   "Haier H32K800X 32-Inch Bezel-Less LED Google TV",
+   "HAIER H55S6UG PRO 55 INCH UHD ANDROID 11 SMART TELEVISION"
+  ],
+  "priced": 16
+ }
+}
