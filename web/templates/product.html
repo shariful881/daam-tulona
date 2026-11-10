@@ -44,7 +44,19 @@
     {% endfor %}
     </div>
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
-    {% if missing %}<div class="notfound" role="note"><span class="ic" aria-hidden="true">!</span><div><b>{{ missing|length|bn }}টি স্টোরে পাওয়া যায়নি</b><br>{% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</div></div>{% endif %}
+    {% if missing %}
+    <h3 class="nfh"><span class="ic" aria-hidden="true">!</span>যেসব স্টোরে পাওয়া যায়নি <span class="sub">· {{ missing|length|bn }}টি</span></h3>
+    <div class="stores nf">
+    {% for s in missing %}
+      <div class="st none">
+        <span class="av{% if stores[s].logo %} logo{% endif %}{% if stores[s].logo_dark %} dark{% endif %}">{% if stores[s].logo %}<img src="{{ base }}/static/{{ stores[s].logo }}" alt="{{ stores[s].name }}" loading="lazy">{% else %}{{ stores[s].short }}{% endif %}</span>
+        <span class="nm">{{ stores[s].name }}</span>
+        <span class="nfl">পাওয়া যায়নি</span>
+      </div>
+    {% endfor %}
+    </div>
+    <p class="nfnote">এই স্টোরগুলোর তালিকায় আজ এই প্রোডাক্টটা খুঁজে পাওয়া যায়নি। স্টক এলে বা মিল পাওয়া গেলে উপরে যোগ হবে।</p>
+    {% endif %}
   </section>
 
   {{ slot("product", cat.slug, it.id) }}
