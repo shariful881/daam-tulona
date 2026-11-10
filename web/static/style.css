@@ -149,3 +149,6 @@ main.col>*{min-width:0}
 .notfound .ic{flex:0 0 22px;height:22px;border-radius:50%;background:var(--warn);color:var(--surface);display:grid;place-items:center;font-weight:700;font-size:.8rem;margin-top:1px}
 .seen{font-size:.7rem;color:var(--muted)}
 .seen.old{color:var(--warn);font-weight:600}
+.st{grid-template-columns:auto minmax(0,1fr) auto}
+.av.logo{width:64px;height:36px;background:#fff;border:1px solid var(--line);padding:4px}
+.av.logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}

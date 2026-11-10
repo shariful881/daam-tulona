@@ -188,6 +188,10 @@ def load_details():
 def main():
     t0 = time.time()
     stores = json.loads((ROOT / "config/stores.json").read_text())["stores"]
+    logos_file = ROOT / "web/static/logos/logos.json"
+    logos = json.loads(logos_file.read_text()) if logos_file.exists() else {}
+    for sid, st in stores.items():
+        st["logo"] = logos.get(sid)
     tax = json.loads((ROOT / "config/taxonomy.json").read_text())
     leaves = {l["slug"]: l for g in tax["groups"] for l in g["leaves"]}
     group_of = {l["slug"]: g for g in tax["groups"] for l in g["leaves"]}
@@ -235,6 +239,8 @@ def main():
     (DIST / "static").mkdir(parents=True)
     for f in ("style.css", "compare.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
+    if (ROOT / "web/static/logos").exists():
+        shutil.copytree(ROOT / "web/static/logos", DIST / "static/logos")
     urls = []
 
     def write(path, template, **ctx):
