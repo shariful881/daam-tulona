@@ -63,3 +63,5 @@ jobs:
           path: dist
       - id: deploy
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000   # সাইট বড় হয়েছে (প্রায় ৩০ হাজার পাতা), প্রকাশে বেশি সময় লাগতে পারে
