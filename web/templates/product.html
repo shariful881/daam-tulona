@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_ad.html" import slot with context %}
 {% block head %}
 <script type="application/ld+json">{{ jsonld | safe }}</script>
 {% endblock %}
@@ -33,9 +34,9 @@
     <div class="stores">
     {% for row in store_rows if row.offer %}
       {% if row.offer %}
-      <a class="st{% if row.is_best %} best{% endif %}" href="{{ row.offer.url }}" target="_blank" rel="nofollow noopener">
+      <a class="st{% if row.is_best %} best{% endif %}{% if row.featured %} feat{% endif %}" href="{{ go_url(row.store, row.offer.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[row.store].name }}"{% if row.fresh %} data-seen="{{ row.fresh }}"{% endif %}>
         <span class="av{% if stores[row.store].logo %} logo{% endif %}{% if stores[row.store].logo_dark %} dark{% endif %}">{% if stores[row.store].logo %}<img src="{{ base }}/static/{{ stores[row.store].logo }}" alt="{{ stores[row.store].name }}" loading="lazy">{% else %}{{ stores[row.store].short }}{% endif %}</span>
-        <span><span class="nm">{{ stores[row.store].name }}</span><br>
+        <span><span class="nm">{{ stores[row.store].name }}</span>{% if row.featured %}<span class="spn">স্পন্সরড</span>{% endif %}<br>
           <span class="stt {{ row.cls }}">{{ row.label }}</span>{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
@@ -45,6 +46,8 @@
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
     {% if missing %}<div class="notfound" role="note"><span class="ic" aria-hidden="true">!</span><div><b>{{ missing|length|bn }}টি স্টোরে পাওয়া যায়নি</b><br>{% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</div></div>{% endif %}
   </section>
+
+  {{ slot("product", cat.slug, it.id) }}
 
   <section class="card">
     <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
@@ -104,6 +107,8 @@
     <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
   </section>
 
+  {{ slot("product_bottom", cat.slug, it.id) }}
+
   <section class="card">
     <h2>সাধারণ প্রশ্ন</h2>
     {% for q, a in faq %}<details><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
@@ -113,7 +118,7 @@
 {% if best %}
 <div class="buy"><div class="col">
   <div class="bp"><b>{{ best.price | taka }}</b><span>সর্বনিম্ন · {{ stores[best.store].name }}</span></div>
-  <a class="btn" href="{{ best.url }}" target="_blank" rel="nofollow noopener">স্টোরে কিনুন</a>
+  <a class="btn" href="{{ go_url(best.store, best.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[best.store].name }}">স্টোরে কিনুন</a>
 </div></div>
 {% endif %}
 {% endblock %}

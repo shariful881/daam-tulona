@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_ad.html" import slot with context %}
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › {{ group.name_bn }}</nav>
   <section class="card">
@@ -11,6 +12,8 @@
     <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><b>{{ c.name_bn }}</b><span>{{ c.count|bn }}টি প্রোডাক্ট</span>{% if c.min %}<span>শুরু {{ c.min | taka }} থেকে</span>{% endif %}{% if c.multi %}<small>{{ c.multi|bn }}টির দাম একাধিক স্টোরে</small>{% endif %}</a>
   {% endfor %}
   </div>
+
+  {{ slot("group", None, group.slug) }}
 
   {% if deals %}
   <section class="card">

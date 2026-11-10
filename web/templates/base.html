@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap">
 <link rel="stylesheet" href="{{ base }}/static/style.css?v={{ build_id }}">
+{% if adsense.client and not noads %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense.client }}" crossorigin="anonymous"></script>{% endif %}
 {% block head %}{% endblock %}
 </head>
 <body>
@@ -25,10 +26,12 @@
 <main class="col{% if buy %} has-buy{% endif %}">
 {% block content %}{% endblock %}
   <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
+  <nav class="footnav"><a href="{{ base }}/about/">আমাদের সম্পর্কে</a><a href="{{ base }}/advertise/">বিজ্ঞাপন দিন</a><a href="{{ base }}/privacy/">প্রাইভেসি নীতি</a></nav>
 </main>
 {% block after %}{% endblock %}
 <div class="cmpbar" id="cmpbar" hidden><div class="col"><span id="cmpcount"></span><button type="button" class="link" id="cmpclear">মুছুন</button><a class="btn sm" id="cmpgo" href="{{ base }}/compare/">তুলনা করুন</a></div></div>
 <script>window.DT_BASE="{{ base }}";</script>
 <script src="{{ base }}/static/compare.js?v={{ build_id }}" defer></script>
+{% if going_note %}<script src="{{ base }}/static/go.js?v={{ build_id }}" defer></script>{% endif %}
 </body>
 </html>

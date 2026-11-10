@@ -1,0 +1,48 @@
+{
+  "_নোট": "বিজ্ঞাপন ও আয়ের সেটিং। ফাঁকা রাখলে সাইটে কিছু দেখাবে না। বিস্তারিত README-র 'বিজ্ঞাপন ও আয়' অংশে।",
+
+  "adsense": {
+    "client": "",
+    "slots": {
+      "product": "",
+      "product_bottom": "",
+      "category": "",
+      "group": "",
+      "home": ""
+    }
+  },
+
+  "sponsors": [
+    {
+      "id": "example",
+      "active": false,
+      "where": ["product", "category", "group", "home"],
+      "categories": [],
+      "title": "এখানে আপনার ব্র্যান্ডের বিজ্ঞাপন",
+      "text": "কম্পিউটার ও মোবাইল ক্রেতাদের কাছে সরাসরি পৌঁছান।",
+      "image": "",
+      "url": "",
+      "button": "বিস্তারিত",
+      "until": "2099-12-31"
+    }
+  ],
+
+  "featured_stores": {
+    "_উদাহরণ": {"until": "2026-12-31"}
+  },
+
+  "links": {
+    "utm": "utm_source=daamtulona&utm_medium=referral&utm_campaign=price_compare",
+    "affiliate": {
+      "startech": ""
+    }
+  },
+
+  "going_note": true,
+
+  "contact": {
+    "email": "",
+    "phone": "",
+    "facebook": ""
+  }
+}

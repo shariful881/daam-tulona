@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_ad.html" import slot with context %}
 {% block content %}
   <section class="card">
     <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
@@ -10,6 +11,8 @@
     <a class="cat" href="{{ base }}/g/{{ g.slug }}/"><b>{{ g.name_bn }}</b><span>{{ g.count|bn }}টি প্রোডাক্ট</span><small>{{ g.top|join(", ") }}</small></a>
   {% endfor %}
   </div>
+
+  {{ slot("home", None, "home") }}
 
   {% if deals %}
   <section class="card">

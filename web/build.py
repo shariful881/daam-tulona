@@ -9,9 +9,11 @@ import os
 import re
 import shutil
 import time
+import zlib
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -176,6 +178,48 @@ def blurb(p, leaf, det):
     return " ".join(parts)
 
 
+def load_ads(today: str) -> dict:
+    """config/ads.json পড়ে: মেয়াদ শেষ হওয়া স্পন্সর ও ফিচার্ড স্টোর বাদ দেয়।"""
+    f = ROOT / "config/ads.json"
+    ads = json.loads(f.read_text()) if f.exists() else {}
+    ads.setdefault("adsense", {}).setdefault("slots", {})
+    ads["sponsors"] = [s for s in ads.get("sponsors", [])
+                       if s.get("active") and s.get("until", "9999") >= today and (s.get("url") or s.get("image"))]
+    ads["featured_stores"] = {k: v for k, v in ads.get("featured_stores", {}).items()
+                              if not k.startswith("_") and (v or {}).get("until", "9999") >= today}
+    ads.setdefault("links", {})
+    return ads
+
+
+def make_go_url(ads):
+    utm = ads["links"].get("utm", "")
+    aff = ads["links"].get("affiliate", {})
+
+    def go_url(store: str, url: str) -> str:
+        """স্টোরের লিংকে অ্যাফিলিয়েট ও utm যোগ করা, যাতে স্টোর বুঝতে পারে ক্রেতা দামতুলনা থেকে এসেছে।"""
+        if not url:
+            return url
+        extra = "&".join(x for x in (aff.get(store, "").lstrip("?&"), utm) if x)
+        if not extra:
+            return url
+        parts = urlsplit(url)
+        q = parts.query + ("&" if parts.query else "") + extra
+        return urlunsplit((parts.scheme, parts.netloc, parts.path, q, parts.fragment))
+    return go_url
+
+
+def make_sponsor_for(ads):
+    sponsors = ads["sponsors"]
+
+    def sponsor_for(where: str, cat: str | None = None, key: str = ""):
+        """এই জায়গার জন্য একটা স্পন্সর (একাধিক থাকলে পাতা ভেদে ঘুরিয়ে)।"""
+        ok = [s for s in sponsors if where in s.get("where", []) and (not s.get("categories") or cat in s["categories"])]
+        if not ok:
+            return None
+        return ok[zlib.crc32(f"{where}:{key}".encode()) % len(ok)]
+    return sponsor_for
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -203,6 +247,10 @@ def main():
     today = health["date"]
     updated = bn_date(today) + ", " + health["scraped_at"][11:16]
     enabled = [s for s, v in stores.items() if v["enabled"]]
+    ads = load_ads(today)
+    for sid in ads["featured_stores"]:
+        if sid in stores:
+            stores[sid]["featured"] = True
 
     # প্রতিটা প্রোডাক্ট → স্টোর → [(তারিখ, দাম বা None)] (শুধু বদলের দিনগুলো)
     history = defaultdict(lambda: defaultdict(list))
@@ -215,7 +263,9 @@ def main():
     env.filters["taka"] = taka
     env.filters["bn"] = bn_num
     common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
-              "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False)}
+              "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
+              "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
+              "going_note": ads.get("going_note", True), "contact": ads.get("contact", {})}
 
     items = {}
     for pid, so in offers.items():
@@ -237,10 +287,11 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js"):
+    for f in ("style.css", "compare.js", "go.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
-    if (ROOT / "web/static/logos").exists():
-        shutil.copytree(ROOT / "web/static/logos", DIST / "static/logos")
+    for d in ("logos", "sponsors"):
+        if (ROOT / "web/static" / d).exists():
+            shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     urls = []
 
     def write(path, template, **ctx):
@@ -266,8 +317,10 @@ def main():
             fresh = (None if age is None else "আজ যাচাই করা" if age == 0 else "গতকাল যাচাই করা" if age == 1
                      else f"{bn_num(age)} দিন আগে যাচাই করা")
             rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2),
-                         "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0)})
-        rows.sort(key=lambda r: (r["offer"] is None, not (r["offer"] and r["offer"]["in_stock"]), (r["offer"] or {}).get("price") or 10**9))
+                         "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),
+                         "featured": bool(o and o.get("in_stock") and stores[s].get("featured"))})
+        # স্পন্সরড স্টোর (স্টকে থাকলে) উপরে, "স্পন্সরড" লেখাসহ; বাকিরা দাম অনুযায়ী
+        rows.sort(key=lambda r: (not r["featured"], r["offer"] is None, not (r["offer"] and r["offer"]["in_stock"]), (r["offer"] or {}).get("price") or 10**9))
         same = [a for a in by_cat[it["category"]] if a["id"] != pid and a["best"]
                 and all(a["specs"].get(k) == it["specs"].get(k) for k in ("capacity", "type", "form", "interface", "brand_cpu") if it["specs"].get(k))]
         ref = (it["best"] or {}).get("price") or it["any_price"]
@@ -364,10 +417,19 @@ def main():
     write("compare", "compare.html", title="তুলনা করুন | দামতুলনা", description="প্রোডাক্ট পাশাপাশি তুলনা", noindex=True,
           section_bn=SECTION_BN)
     write("search", "search.html", title="খুঁজুন | দামতুলনা", description="প্রোডাক্ট খুঁজুন", noindex=True)
+    for slug, title, desc in (("about", "আমাদের সম্পর্কে", "দামতুলনা কী, দাম কোথা থেকে আসে, কীভাবে আয় হয়।"),
+                              ("advertise", "বিজ্ঞাপন দিন", "দামতুলনায় ব্র্যান্ড বা স্টোরের বিজ্ঞাপন দেওয়ার নিয়ম।"),
+                              ("privacy", "প্রাইভেসি নীতি", "দামতুলনা কোন তথ্য রাখে, কুকি ও বিজ্ঞাপন সংক্রান্ত নীতি।")):
+        write(slug, "info.html", page=slug, heading=title, store_names=", ".join(stores[s]["name"] for s in enabled),
+              title=f"{title} | দামতুলনা", description=desc, canonical=f"{SITE_URL}/{slug}/" if SITE_URL else None)
+    client = ads["adsense"].get("client", "")
+    if client:
+        # ads.txt ডোমেইনের মূলে থাকতে হয়; নিজের ডোমেইন যুক্ত হলে কাজ করবে
+        (DIST / "ads.txt").write_text(f"google.com, {client.replace('ca-pub-', 'pub-')}, DIRECT, f08c47fec0942fa0\n")
     stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all),
              "details": sum(1 for pid in items if pid in details)}
     write("admin", "admin.html", health=health, stats=stats, suggestions=suggestions, fresh=fresh_all[:150],
-          title="অ্যাডমিন | দামতুলনা", description="", noindex=True)
+          title="অ্যাডমিন | দামতুলনা", description="", noindex=True, noads=True)
 
     search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
               for i in vals]

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_ad.html" import slot with context %}
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › {{ cat.name_bn }}</nav>
   <section class="card">
@@ -24,6 +25,7 @@
           <div class="w">{% if it.best %}{{ stores[it.best.store].name }}{% else %}এখন স্টকে নেই{% endif %}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
         <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% elif it.any_price %}<span class="muted">{{ it.any_price | taka }}</span>{% else %}—{% endif %}</div>{% if it.saving %}<div class="d lo">{{ it.saving | taka }} পার্থক্য</div>{% endif %}</div>
       </a>
+      {% if loop.index == 12 and not loop.last %}{{ slot("category", cat.slug, cat.slug ~ page) }}{% endif %}
     {% endfor %}
     </div>
     <p class="muted" id="empty" hidden style="margin:8px 0 0;font-size:.9rem">এই পাতায় এমন কিছু নেই। ফিল্টার বদলে বা পরের পাতায় দেখুন।</p>

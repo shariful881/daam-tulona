@@ -1,0 +1,20 @@
+{# বিজ্ঞাপনের জায়গা। আগে সরাসরি স্পন্সর, না থাকলে অ্যাডসেন্স, কিছুই না থাকলে ফাঁকা (কোনো খালি বাক্স দেখায় না)। #}
+{% macro slot(where, cat=None, key="") %}
+{% set sp = sponsor_for(where, cat, key) %}
+{% if sp %}
+  <aside class="ad sponsor" aria-label="স্পন্সরড">
+    <span class="adl">স্পন্সরড</span>
+    <a href="{{ sp.url or '#' }}" target="_blank" rel="sponsored noopener" class="sp">
+      {% if sp.image %}<img src="{{ base }}/static/sponsors/{{ sp.image }}" alt="{{ sp.title }}" loading="lazy">{% endif %}
+      {% if sp.title or sp.text %}<span class="sptxt">{% if sp.title %}<b>{{ sp.title }}</b>{% endif %}{% if sp.text %}<span>{{ sp.text }}</span>{% endif %}</span>{% endif %}
+      {% if sp.button and sp.url %}<span class="spbtn">{{ sp.button }} ›</span>{% endif %}
+    </a>
+  </aside>
+{% elif adsense.client and adsense.slots.get(where) %}
+  <aside class="ad" aria-label="বিজ্ঞাপন">
+    <span class="adl">বিজ্ঞাপন</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="{{ adsense.client }}" data-ad-slot="{{ adsense.slots[where] }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </aside>
+{% endif %}
+{% endmacro %}
