@@ -220,6 +220,23 @@ def make_sponsor_for(ads):
     return sponsor_for
 
 
+def make_house_for(ads):
+    h = ads.get("house_ad") or {}
+    c = ads.get("contact") or {}
+    texts = h.get("texts") or []
+    if not h.get("active") or not texts or not (c.get("phone") or c.get("whatsapp")):
+        return lambda where, key="": None
+    from urllib.parse import quote
+    wa = f"https://wa.me/88{c['whatsapp']}?text={quote(h.get('whatsapp_message', ''))}" if c.get("whatsapp") else None
+    tel = f"tel:+88{c['phone']}" if c.get("phone") else None
+
+    def house_for(where: str, key: str = ""):
+        """নিজের 'বিজ্ঞাপন দিন' ব্যানার; লেখা পাতা ও জায়গা ভেদে বদলায়।"""
+        t = texts[zlib.crc32(f"{where}:{key}".encode()) % len(texts)]
+        return {"title": t[0], "text": t[1], "wa": wa, "tel": tel, "phone": c.get("phone") or c.get("whatsapp")}
+    return house_for
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -265,7 +282,8 @@ def main():
     common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
               "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
-              "going_note": ads.get("going_note", True), "contact": ads.get("contact", {})}
+              "going_note": ads.get("going_note", True), "contact": ads.get("contact", {}),
+              "house_for": make_house_for(ads)}
 
     items = {}
     for pid, so in offers.items():
