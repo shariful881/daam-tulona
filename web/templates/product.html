@@ -36,7 +36,7 @@
       <a class="st{% if row.is_best %} best{% endif %}" href="{{ row.offer.url }}" target="_blank" rel="nofollow noopener">
         <span class="av">{{ stores[row.store].short }}</span>
         <span><span class="nm">{{ stores[row.store].name }}</span><br>
-          <span class="stt {{ row.cls }}">{{ row.label }}</span></span>
+          <span class="stt {{ row.cls }}">{{ row.label }}</span>{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
       {% endif %}

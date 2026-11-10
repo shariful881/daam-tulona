@@ -256,9 +256,10 @@ def main():
         for s in enabled:
             o = so.get(s)
             label, cls = STATUS.get(o["status"], ("", "")) if o else ("", "")
-            if o and o.get("stale"):
-                label += " (আগের দাম)"
-            rows.append({"store": s, "offer": o, "label": label, "cls": cls,
+            age = (date.fromisoformat(today) - date.fromisoformat(o["seen"])).days if o and o.get("seen") else None
+            fresh = (None if age is None else "আজ যাচাই করা" if age == 0 else "গতকাল যাচাই করা" if age == 1
+                     else f"{bn_num(age)} দিন আগে যাচাই করা")
+            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2),
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0)})
         rows.sort(key=lambda r: (r["offer"] is None, not (r["offer"] and r["offer"]["in_stock"]), (r["offer"] or {}).get("price") or 10**9))
         same = [a for a in by_cat[it["category"]] if a["id"] != pid and a["best"]

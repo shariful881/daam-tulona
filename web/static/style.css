@@ -147,3 +147,5 @@ main.col>*{min-width:0}
 .notfound{display:flex;gap:10px;align-items:flex-start;margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--warn-soft);color:var(--ink);font-size:.82rem;line-height:1.45}
 .notfound b{color:var(--warn)}
 .notfound .ic{flex:0 0 22px;height:22px;border-radius:50%;background:var(--warn);color:var(--surface);display:grid;place-items:center;font-weight:700;font-size:.8rem;margin-top:1px}
+.seen{font-size:.7rem;color:var(--muted)}
+.seen.old{color:var(--warn);font-weight:600}
