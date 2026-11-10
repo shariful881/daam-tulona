@@ -1,0 +1,372 @@
+{
+ "feature-phone": {
+  "n": 1,
+  "err": null,
+  "sec": 2,
+  "sample": [
+   "Nokia 150 (2023)"
+  ],
+  "priced": 1
+ },
+ "smartphone": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Samsung Galaxy M17e 5G",
+   "Samsung Galaxy A27 5G",
+   "Honor 600s 5G"
+  ],
+  "priced": 34
+ },
+ "tablet": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Amazon Fire HD 10 Kids 13th Gen (Ages 3-7)",
+   "Boox Note Air 5C 10.3″ Color E-Ink Tablet",
+   "Boox Go 10.3 (Gen II) Lumi ePaper eReader"
+  ],
+  "priced": 36
+ },
+ "laptop": {
+  "n": 8,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "MacBook Air M4 15.3-Inch 10 Core CPU 10 Core GPU",
+   "MacBook Air M3 15-Inch 8 Core CPU 10 Core GPU",
+   "Apple MacBook Pro M5 Pro 14-inch 15-Core CPU 16-Core GPU"
+  ],
+  "priced": 8
+ },
+ "laptop-bag": {
+  "n": 28,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "DJI RS4 Waterproof Carry Soft Bag",
+   "OZUKO 9812 Sling Crossbody Travel Chest Bag",
+   "OZUKO 9585 Anti-theft Crossbody Bag"
+  ],
+  "priced": 27
+ },
+ "all-in-one-pc": {
+  "n": 15,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Apple Mac Mini M6",
+   "Apple Mac Mini M5 Pro",
+   "Apple 27-inch 5K Retina Studio Display"
+  ],
+  "priced": 13
+ },
+ "ssd": {
+  "n": 3,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Hkvision 16gb 3200 mhz DDR4 RAM with Heatsink",
+   "Hikvision Internal SSD 128GB 3D NANO /SATA III6 Gb/s, Up",
+   "ADATA SU650 480GB-SSD"
+  ],
+  "priced": 3
+ },
+ "gaming-monitor": {
+  "n": 8,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Xiaomi A22i 22-inch VA Panel Full HD Gaming Monitor",
+   "Xiaomi G Pro 27 2k 180Hz 27 inch Mini LED Gaming Monitor",
+   "Xiaomi Redmi G34WQ Curved Gaming Monitor"
+  ],
+  "priced": 8
+ },
+ "keyboard": {
+  "n": 36,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Yamaha PSR-I300 Portable Keyboard",
+   "Roland E-X50 61-key Arranger Keyboard",
+   "Yamaha PSR-I500 Keyboard"
+  ],
+  "priced": 36
+ },
+ "mouse": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Logitech MX Master 4 High-performance Wireless Mouse",
+   "Baseus K01A Wireless Tri-Mode Keyboard",
+   "Xiaomi MiiiW M18 Transformable Elite Mouse 2.4Ghz"
+  ],
+  "priced": 36
+ },
+ "headphone": {
+  "n": 36,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Hoco W68 Calma ANC Bluetooth Headphone",
+   "Hoco W113 Dynamic Gaming Headphones",
+   "Hoco W118 Extreme USB + AUX Gaming Headphones"
+  ],
+  "priced": 36
+ },
+ "webcam": {
+  "n": 22,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "UGREEN CM678 USB Full HD Web Camera",
+   "A4TECH PK-910H 1080p Full-HD WebCam",
+   "Poly Studio P5 Professional Webcam"
+  ],
+  "priced": 22
+ },
+ "microphone": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Acefast R6 Wireless Lavalier Microphone",
+   "Acefast R7 Wireless Lavalier Microphone",
+   "Weida WD-122 Microphone Stand"
+  ],
+  "priced": 36
+ },
+ "speaker": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Turbosound iQ10 2500W Powered 10″ Loudspeaker",
+   "Xiaomi 3.1-inch Soundbar",
+   "Oraimo SpaceBox 8W FM Wireless Speaker"
+  ],
+  "priced": 36
+ },
+ "bluetooth-speaker": {
+  "n": 36,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "CMF Speaker M",
+   "CMF Speaker S",
+   "Acefast K12 Pro 30W Portable Bluetooth Speaker"
+  ],
+  "priced": 36
+ },
+ "memory-card": {
+  "n": 1,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Sandisk Extreme Pro 256GB MicroSDXC Memory Card With Adapter"
+  ],
+  "priced": 1
+ },
+ "hub-dock": {
+  "n": 31,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Ugreen Mac Mini M4 Docking Station with Stand DP Hub",
+   "USAMS US-SJ463 Type-C to 2 USB Ports & amp ; Micro SD Mini HUB",
+   "USAMS US-SJ627 4in1 Multifunctional Type-C HUB"
+  ],
+  "priced": 31
+ },
+ "cable": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Hoco X123 Victory 3-in-1 Charging Cable",
+   "Baseus Type-C DAC L54 Male to 3.5mm Female Adapter",
+   "WiWU LT07 Lightning to lightning Audio Adapter – 3.5mm"
+  ],
+  "priced": 36
+ },
+ "power-strip": {
+  "n": 28,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "LDNIO SC3317 3 AC Outlets Portable Extension Power Socket",
+   "LDNIO SC4 13-in-1 GaN Charging Station 65W Power Strip",
+   "LDNIO SC3 GaN 100W PD Desktop Power Strip"
+  ],
+  "priced": 28
+ },
+ "smart-watch": {
+  "n": 36,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Apple Watch Ultra 4",
+   "Google Fitbit EDGE",
+   "Huawei Watch GT 7 Pro"
+  ],
+  "priced": 35
+ },
+ "earbuds": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Hoco EQ29 Rhyme True Wireless BT Headset",
+   "JBL Soundgear Clips Open-ear Headphones",
+   "Nothing Ear (3a) Earbuds"
+  ],
+  "priced": 36
+ },
+ "earphone": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Plextone RX3 Pro Extended Mic Gaming Headset",
+   "Joyroom JR-EW02 3.5MM Wired Series In-Ear Wired Earbuds",
+   "Joyroom JR-EC07 Type-C Series Half In-Ear Wired Earphones"
+  ],
+  "priced": 36
+ },
+ "power-bank": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Acefast M21 PD65W 20000mAh Fast Charger Power Bank",
+   "Acefast M29 22.5W 20000mAh Fast Charge Power Bank",
+   "Acefast M34 PD45W 20000mAh Fast Charge Power Bank"
+  ],
+  "priced": 36
+ },
+ "gaming-console": {
+  "n": 13,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "Lenovo G02 Handheld Game Console",
+   "Retro J36 Ultra Pocket Game Box Game Console",
+   "Sony PlayStation5 Pro"
+  ],
+  "priced": 13
+ },
+ "router": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "SKE POE-830P-LFP 20,000mAh Mini DC UPS",
+   "SKE POE-632E Smart Mini DC UPS",
+   "Dahua AX30 AX3000 Wireless Router"
+  ],
+  "priced": 36
+ },
+ "wifi-camera": {
+  "n": 6,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Xiaomi Smart Camera C700 4K Security Cam",
+   "Tp-Link Tapo C212 Pan/Tilt Home Security Wi-Fi Camera",
+   "Xiaomi C500 Pro Smart Camera"
+  ],
+  "priced": 6
+ },
+ "printer": {
+  "n": 9,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Brother HL-B2100D Single Function Mono Laser Printer",
+   "Brother MFC-J3540DW Multifunction Inkjet Printer",
+   "Brother HL-T4000DW A3 Ink Tank Printer"
+  ],
+  "priced": 9
+ },
+ "scanner": {
+  "n": 3,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Canon CanoScan Lide 400 Flatbed Scanner",
+   "Epson Perfection V39 II Photo and Document Flatbed Scanner",
+   "Canon CanoScan LIDE 300 Flatbed Scanner"
+  ],
+  "priced": 3
+ },
+ "projector": {
+  "n": 9,
+  "err": null,
+  "sec": 21,
+  "sample": [
+   "AUN A005 Home Cinema Android Projector",
+   "Havit PJ202 1080P HD Smart Projector",
+   "Hoco DT7 1080P Android Smart Projector"
+  ],
+  "priced": 9
+ },
+ "action-camera": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "DJI Osmo 360 II",
+   "Insta360 X6 8K Action Camera",
+   "DJI Osmo Pocket 4P"
+  ],
+  "priced": 36
+ },
+ "dslr-mirrorless": {
+  "n": 3,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Canon EOS R50 Mirrorless Camera with 18-45mm Lens",
+   "Canon EOS 2000D DSLR Camera with 18-55mm IS III Lens",
+   "Canon EOS 250D Camera and EF-S 18-55mm Lens"
+  ],
+  "priced": 3
+ },
+ "camera-lens": {
+  "n": 36,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Viltrox AF 85mm f/1.4 Pro Z Lens",
+   "Canon EF 50mm f/1.8 STM Lens",
+   "Sony Vario-Tessar T FE 16-35mm f/4 ZA OSS Lens"
+  ],
+  "priced": 36
+ },
+ "tv": {
+  "n": 29,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Samsung Vision AI 55 Inch Class OLED S90F 4K Smart TV",
+   "Sony BRAVIA 9 K75XR90 4K HDR Smart QLED Mini-LED TV",
+   "Vision 32″ LED TV E50S Google TV"
+  ],
+  "priced": 29
+ },
+ "ac": {
+  "n": 6,
+  "err": null,
+  "sec": 22,
+  "sample": [
+   "Gree GS-24XZNA3V-Zeno-Split -2.0 TON Inverter Air Conditioner",
+   "Gree Split Type GS-18XZNA3V 1.5 TON-Inverter Air Conditioner",
+   "Vision AC Split Type Non-Inverter – VSN-24K410 4D Ultra 2 Ton"
+  ],
+  "priced": 6
+ }
+}
