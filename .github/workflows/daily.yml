@@ -30,17 +30,19 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: প্রথম রান কিনা দেখা
+        run: echo "SCRAPE=$([ '${{ github.event_name }}' != 'push' ] || [ ! -f data/offers.json ] && echo 1 || echo 0)" >> $GITHUB_ENV
 
       - name: স্টোর থেকে দাম তোলা
-        if: github.event_name != 'push' || hashFiles('data/offers.json') == ''
+        if: env.SCRAPE == '1'
         run: python -m scraper.run || echo "কিছু স্টোর ব্যর্থ — আগের ডাটা দিয়ে চলবে"
 
       - name: প্রোডাক্ট মেলানো ও ইতিহাস
-        if: github.event_name != 'push' || hashFiles('data/offers.json') == ''
+        if: env.SCRAPE == '1'
         run: python -m matcher.match
 
       - name: ডাটা রিপোতে সেভ
-        if: github.event_name != 'push' || hashFiles('data/offers.json') == ''
+        if: env.SCRAPE == '1'
         run: |
           git config user.name "daam-tulona-bot"
           git config user.email "actions@users.noreply.github.com"
