@@ -1,0 +1,457 @@
+{
+ "smartphone": {
+  "n": 0,
+  "err": null,
+  "sec": 3,
+  "sample": [],
+  "priced": 0
+ },
+ "tablet": {
+  "n": 4,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Lenovo Tab K11 Gen 2 Tablet",
+   "Honor Pad 8 Blue Hour 6GB RAM 128GB SSD",
+   "Huawei MatePad T 10s"
+  ],
+  "priced": 4
+ },
+ "laptop": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Lenovo IdeaPad 1 15AMN7 (82VG00QAIN) AMD Ryzen 5 7520U 15.6 Inch FHD IPS Laptop",
+   "Acer Aspire 3 A325-45 (UN.344SI.01B) Intel Celeron N4500 15.6 Inch HD Laptop",
+   "Acer Aspire Lite AL15-53 Intel Core i3 1315U 15.6 Inch FHD Laptop"
+  ],
+  "priced": 19
+ },
+ "laptop-bag": {
+  "n": 4,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Targus TBB565GL-74 15.6″ Intellect Laptop Backpack",
+   "TARGUS TSB883-72 15.6 INCH BACKPACK",
+   "Targus TSS930GL-80 City Gear"
+  ],
+  "priced": 4
+ },
+ "gaming-pc": {
+  "n": 3,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Gigabyte AORUS PRIME 3 AP351 AMD Ryzen 5 9500F 16GB RAM 1TB SSD Brand PC",
+   "Gigabyte AORUS PRIME 5 AP55100 AMD Ryzen 7 9700X 32GB RAM 2TB SSD Brand PC",
+   "Gigabyte AORUS PRIME 3 AP35103 AMD Ryzen 5 9500F 32GB RAM 1TB SSD Brand PC"
+  ],
+  "priced": 3
+ },
+ "all-in-one-pc": {
+  "n": 17,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Dell EC24250 Core 7 150U 1TB SSD 23.8 Inch FHD Touch All-in-One PC",
+   "Dell EC24250 Core i5 1334U 512GB SSD 23.8 Inch FHD All-in-One PC",
+   "Dell EC24250 Core 3 100U 512GB SSD 23.8 Inch FHD All-in-One PC"
+  ],
+  "priced": 13
+ },
+ "desktop-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Apple Mac Studio M5 Max Chip 32 Core GPU 36GB RAM 512GB SSD | MHL64",
+   "Apple Mac Mini M6 Chip 12 Core GPU 24GB RAM 512GB SSD Silver | MHQM4",
+   "Apple Mac Mini M6 Chip 12 Core GPU 16GB RAM 512GB SSD Silver | MHQL4"
+  ],
+  "priced": 13
+ },
+ "processor": {
+  "n": 8,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Intel Core I3-10105 10th Gen Processor",
+   "Intel Core I3-10100 10th Gen Processor",
+   "Intel Core I5-10400 10th Gen Processor"
+  ],
+  "priced": 8
+ },
+ "motherboard": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "GIGABYTE INTEL B760M D3HP WIFI6 DDR5 LGA1700 Motherboard",
+   "GIGABYTE INTEL B760M A E WF6E GEN5 LGA1700 Motherboard",
+   "GIGABYTE INTEL Z790 D AX DDR5 LGA1700 Motherboard"
+  ],
+  "priced": 20
+ },
+ "graphics-card": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "GIGABYTE Radeon RX 9070 GRE GAMING OC 12G GDDR6 Graphics Card",
+   "GIGABYTE Radeon RX 9070 GAMING 16G GDDR6 Graphics Card",
+   "GIGABYTE Radeon RX 9060 XT GAMING 16G GDDR6 Graphics Card"
+  ],
+  "priced": 15
+ },
+ "desktop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "TwinMOS 16GB DDR5 5600MHz SODIMM Laptop RAM",
+   "Apacer NOX 16GB DDR5 6000MHz RGB Desktop RAM",
+   "SMART RAPTOR 16GB DDR4 3200MHz Desktop RAM HS Black"
+  ],
+  "priced": 11
+ },
+ "laptop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 0,
+  "sample": [
+   "TwinMOS 16GB DDR5 5600MHz SODIMM Laptop RAM",
+   "Apacer NOX 16GB DDR5 6000MHz RGB Desktop RAM",
+   "SMART RAPTOR 16GB DDR4 3200MHz Desktop RAM HS Black"
+  ],
+  "priced": 11
+ },
+ "ssd": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "GIGABYTE AORUS 7000E 2TB NVMe Gen4 M.2 SSD",
+   "Apacer AS2280Q4L 1TB M.2 PCIe Gen4 x4 SSD",
+   "GIGABYTE AORUS 7000E 1TB NVMe Gen4 M.2 SSD"
+  ],
+  "priced": 15
+ },
+ "hdd": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Toshiba S300 AI 20TB Surveillance Hard Drive (MG11ACA20TE-V)",
+   "Toshiba S300 AI 16TB Surveillance Hard Drive (MG11ACA16TE-V)",
+   "Toshiba Canvio Basics 2TB Portable External Hard Drive (HDTB520AK3AA)"
+  ],
+  "priced": 18
+ },
+ "power-supply": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "XTREME XPS200B REAL 200W 20+4PIN 650MM LONG CABLE BLACK POWER SUPPLY",
+   "XTREME XWF450 WHITE FUSION REAL 450W NON-MODULAR POWER SUPPLY",
+   "SMART XV550 VOLTFORCE 550W 80 PLUS BRONZE NON-MODULAR POWER SUPPLY"
+  ],
+  "priced": 14
+ },
+ "casing": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "XTREME HJ1802 BLACK COMPUTER CASE WITH POWER SUPPLY",
+   "XTREME HJ1801 BLACK COMPUTER CASE WITH POWER SUPPLY",
+   "XTREME 2609 MINI BLACK OFFICE COMPUTER CASE WITH POWER SUPPLY"
+  ],
+  "priced": 18
+ },
+ "cpu-cooler": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "GIGABYTE AORUS WATERFORCE 240 All-in-one Liquid CPU Cooler",
+   "SMART HYPER COOL 4H 180W ARGB CPU Cooler",
+   "XTREME XJOGOS XJC100A 90W Black Air CPU Cooler"
+  ],
+  "priced": 10
+ },
+ "monitor-all": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Dell SE2426H 23.8 Inch 144Hz FHD IPS Eye Care Monitor",
+   "Dell SE2225HM 22 Inch FHD 100Hz VA Monitor",
+   "Dell SE2726H 27 Inch 144Hz FHD IPS Eye Care Monitor"
+  ],
+  "priced": 20
+ },
+ "keyboard": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Logitech G316 X 98 Mechanical Gaming Keyboard",
+   "Logitech G515 TKL Wired ten keyless Gaming Keyboard",
+   "Logitech G512 Carbon Lightsync RGB Mechanical Gaming Keyboard"
+  ],
+  "priced": 20
+ },
+ "mouse": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Logitech G403 Hero Gaming Lightsync RGB Mouse",
+   "Logitech G502 HERO High Performance RGB Gaming Black Mouse",
+   "Logitech G309 Lightspeed Wireless Gaming Black Mouse"
+  ],
+  "priced": 20
+ },
+ "mouse-pad": {
+  "n": 8,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad Extended (CN)",
+   "Logitech Studio Series Mouse Pad",
+   "Logitech Studio Series Mouse Pad"
+  ],
+  "priced": 7
+ },
+ "headphone": {
+  "n": 14,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Logitech G435 LIGHTSPEED Wireless & Bluetooth Gaming Blue Headset",
+   "Logitech G435 LIGHTSPEED Wireless & Bluetooth Gaming Off White Headset",
+   "Logitech G435 LIGHTSPEED Wireless & Bluetooth Gaming Black Headset"
+  ],
+  "priced": 14
+ },
+ "webcam": {
+  "n": 13,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Logitech MX Brio 705 Ultra HD 4K Webcam",
+   "Logitech C930e Full HD Video Conferencing Webcam",
+   "Logitech C925e Full HD Video Conferencing Webcam"
+  ],
+  "priced": 13
+ },
+ "speaker": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Xtreme Thunder 80W 2.0 Multimedia Party Speaker With Remote",
+   "Xtreme Spark 55W 2.1 Multimedia Speaker With Remote",
+   "Xtreme Goal 35W 2.1 Multimedia Speaker With Remote"
+  ],
+  "priced": 20
+ },
+ "pen-drive": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Apacer AH270 ECO 128GB USB 3.2 Gen1 Flash Drive, Jelly Mint",
+   "Apacer AH270 ECO 64GB USB 3.2 Gen1 Flash Drive, Jelly Mint",
+   "Apacer AH25C 64GB, USB 3.2 Gen 1 Flash Drive, Classical Bronze (AP64GAH25CJ-1)"
+  ],
+  "priced": 17
+ },
+ "memory-card": {
+  "n": 10,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Smart Eagle Eye 32GB Micro SDXC UHS-I U3 Class10 Memory Card with Adapter",
+   "Apacer 256GB microSDXC UHS-I U3, V30, R100 (AP256GMCSX10U8-R)",
+   "Apacer 64GB microSDXC UHS-I U1, Class10, R100, NO Adapter (AP64GMCSX10UB-RA)"
+  ],
+  "priced": 7
+ },
+ "hub-dock": {
+  "n": 6,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "XTREME XH90C 4-IN-ONE 3 USB 3 +1 TYPE C PORT USB HUB",
+   "TWINMOS 4 PORT SQUARE USB 3.0 HUB",
+   "TWINMOS 10 PORT USB 2.0 HIGH PROFESSIONAL HUB"
+  ],
+  "priced": 6
+ },
+ "cable": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "ZKTeco XL600-C-B-L 305M Cat6 UTP Cable Black",
+   "XTREME XUTP6 NET CORE INDOOR CAT6 UTP CCA WHITE NETWORKING CABLE",
+   "XTREME XUTP6 NET CORE INDOOR CAT6 UTP CCA GREY NETWORKING CABLE"
+  ],
+  "priced": 20
+ },
+ "power-strip": {
+  "n": 9,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Huntkey DMC502 5 Port Copper Bar Universal Power Strip",
+   "Huntkey SZN601 6 Port Copper Bar Universal Power Strip",
+   "Huntkey SZN507 4 Port Copper Bar Universal Power Strip"
+  ],
+  "priced": 9
+ },
+ "smart-watch": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HiFuture ACTIVE Smart Watch Silver",
+   "HiFuture ACTIVE Smart Watch Red",
+   "HiFuture ACTIVE-2 Smart Watch Silver"
+  ],
+  "priced": 20
+ },
+ "earbuds": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HiFuture OlymBuds3 Comfort Fit TWS White Earbuds",
+   "HiFuture OlymBuds3 Comfort Fit TWS Black Earbuds",
+   "HiFuture SonicAir Trendy ENC TWS Champagne Gold Earbuds"
+  ],
+  "priced": 20
+ },
+ "gaming-chair": {
+  "n": 1,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Gigabyte Aorus AGC310 Gaming Chair"
+  ],
+  "priced": 1
+ },
+ "router": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Netis Neme X30S (3-Pack) AX3000 Superior Whole Home Mesh Wi-Fi 6 System",
+   "Netis Neme X30S (2-Pack) AX3000 Superior Whole Home Mesh Wi-Fi 6 System",
+   "Netis Neme X30S (1-Pack) AX3000 Superior Whole Home Mesh Wi-Fi 6 System"
+  ],
+  "priced": 17
+ },
+ "laser-printer": {
+  "n": 11,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HP Smart Tank 750 All-in-One Printer # 6UU47A",
+   "HP Smart Tank 670 All-in-One Printer # 6UU48A",
+   "HP Smart Tank 580 Multi function Color Ink Printer #1F3Y2A"
+  ],
+  "priced": 7
+ },
+ "printer": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HP 26A Black Original LaserJet Toner Cartridge",
+   "HP Smart Tank 750 All-in-One Printer # 6UU47A",
+   "HP Smart Tank 670 All-in-One Printer # 6UU48A"
+  ],
+  "priced": 13
+ },
+ "scanner": {
+  "n": 17,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HP ScanJet Pro 2600 f1 Scanner # 20G05A",
+   "Canon L24ei Scanner",
+   "Canon L36ei Scanner"
+  ],
+  "priced": 7
+ },
+ "photocopier": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Canon imageRUNNER C3326i A3 Multifunction Color Laser Photocopier",
+   "Canon imageRUNNER C3322L A3 Multifunction Color Laser Photocopier",
+   "Canon imageRUNNER 2945i A3 Multifunctional Monochrome Laser Photocopier"
+  ],
+  "priced": 0
+ },
+ "projector": {
+  "n": 20,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Epson EB-E12 3600 Lumens XGA 3LCD Business Projector",
+   "Epson EB-W55 4000 Lumens 3LCD WXGA Business Projector",
+   "Epson EB-W53 4000 Lumens 3LCD WXGA Business Projector"
+  ],
+  "priced": 9
+ },
+ "camera-lens": {
+  "n": 9,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Sony E 10-18mm F4 OSS Lens",
+   "Sony Sonnar T FE 55mm F1.8 ZA Lens",
+   "Sony Vario-Tessar T* FE 24-70mm F4 ZA OSS Lens"
+  ],
+  "priced": 8
+ },
+ "ups": {
+  "n": 18,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "XTREME XUP83-20 18W Max 20000mAH MINI DC UPS",
+   "XTREME XUP63-10.4 17W Max 10400mAH MINI DC UPS",
+   "XTREME XUP63-8.8 17W Max 8800mAH MINI DC UPS"
+  ],
+  "priced": 16
+ },
+ "server": {
+  "n": 17,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "HPE DL380 Generation12 Intel Xeon 48 Core 2U Rack Server",
+   "HPE ProLiant DL380 Generation10 Plus Intel Xeon 32-core 2U Rack server",
+   "HPE DL380 Generation12 Intel Xeon 32 Core 2U Rack Server"
+  ],
+  "priced": 11
+ },
+ "os-office": {
+  "n": 2,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Microsoft Windows 11 Pro 64-Bit DVD – OEM (FQC-10528)",
+   "Microsoft Windows 10 Pro 64-Bit DVD – OEM (FQC-08929)"
+  ],
+  "priced": 2
+ }
+}
