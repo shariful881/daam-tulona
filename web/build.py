@@ -191,7 +191,7 @@ def main():
     write("", "home.html", cats=cat_cards, deals=deals, fresh=fresh, total=len(vals),
           store_names=", ".join(stores[s]["name"] for s in enabled),
           title="দামতুলনা | কম্পিউটার পার্টসের দাম তুলনা বাংলাদেশে",
-          description="র‍্যাম, এসএসডি, প্রসেসরের দাম Star Tech, UltraTech, Four Star IT সহ বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
+          description=f"র‍্যাম, এসএসডি, প্রসেসরের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
           canonical=f"{SITE_URL}/" if SITE_URL else None)
     write("search", "search.html", title="খুঁজুন | দামতুলনা", description="প্রোডাক্ট খুঁজুন", noindex=True)
     stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all)}

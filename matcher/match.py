@@ -21,13 +21,14 @@ STOP = {
     "laptop", "desktop", "ram", "memory", "module", "sodimm", "udimm", "dimm", "so", "mhz", "bus",
     "notebook", "for", "with", "the", "and", "internal", "solid", "state", "drive", "processor",
     "cpu", "bd", "price", "in", "single", "retail", "pc", "pcs", "ssd", "nvme", "m2", "m",
-    "2280", "gaming", "series", "gen", "only", "tray", "box", "desktop's",
+    "2280", "gaming", "series", "gen", "only", "tray", "box", "desktop's", "lifetime", "warranty",
+    "year", "years", "new", "edition", "graphics", "with", "radeon", "inch",
 }
 BRAND_ALIAS = {"g.skill": "gskill", "g skill": "gskill", "western digital": "wd", "teamgroup": "team"}
 
 
 def normalize(name: str) -> str:
-    s = name.lower()
+    s = re.sub(r"\([^)]*\)", " ", name.lower())  # বন্ধনীর ভেতরের কোড/ওয়ারেন্টি বাদ
     for a, b in BRAND_ALIAS.items():
         s = s.replace(a, b)
     s = re.sub(r"so[\s-]?dimm", " sodimm ", s)
@@ -102,7 +103,13 @@ def main():
             redirect[pid] = m["keep"]
     ignored = set(manual.get("ignore", []))
 
-    key_to_id = {p["key"]: pid for pid, p in products.items()}
+    # নিয়ম বদলালে পুরনো প্রোডাক্টের key নতুন নিয়মে আবার হিসাব করা
+    for pid, p in products.items():
+        if "#" not in p["key"]:
+            p["key"] = p["category"] + "|" + " ".join(sorted(set(tokens(p["name"]))))
+    key_to_id = {}
+    for pid, p in sorted(products.items(), key=lambda x: x[1]["created"]):
+        key_to_id.setdefault(p["key"], pid)
     url_to_id = {}
     for pid, stores in old_offers.items():
         for o in stores.values():

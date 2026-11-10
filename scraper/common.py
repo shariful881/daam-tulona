@@ -15,6 +15,7 @@ _session = requests.Session()
 _session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en,bn;q=0.8"})
 _robots: dict[str, urllib.robotparser.RobotFileParser] = {}
 _last_hit: dict[str, float] = {}
+_cache: dict[str, str] = {}
 
 
 class Blocked(Exception):
@@ -40,6 +41,8 @@ def allowed(url: str) -> bool:
 
 def fetch(url: str, delay: float) -> str:
     """robots.txt মেনে, স্টোরভিত্তিক বিরতি রেখে পেজ আনে।"""
+    if url in _cache:
+        return _cache[url]
     if not allowed(url):
         raise PermissionError(f"robots.txt অনুমতি দেয় না: {url}")
     host = urlparse(url).netloc
@@ -51,6 +54,7 @@ def fetch(url: str, delay: float) -> str:
     if r.status_code in (403, 429, 503) or "Just a moment..." in r.text[:3000]:
         raise Blocked(f"{r.status_code} {url}")
     r.raise_for_status()
+    _cache[url] = r.text
     return r.text
 
 

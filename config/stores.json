@@ -1,12 +1,63 @@
 {
   "_নোট": "enabled: false মানে স্টোরটা এখন তোলা হচ্ছে না। delay = দুই রিকোয়েস্টের মাঝে কত সেকেন্ড অপেক্ষা (স্টোরের robots.txt অনুযায়ী)।",
   "stores": {
-    "startech": {"name": "Star Tech", "short": "ST", "home": "https://www.startech.com.bd", "enabled": true, "delay": 3},
-    "ultratech": {"name": "UltraTech", "short": "UT", "home": "https://www.ultratech.com.bd", "enabled": true, "delay": 20},
-    "fourstar": {"name": "Four Star IT", "short": "FS", "home": "https://fourstarit.com.bd", "enabled": true, "delay": 10},
-    "ryans": {"name": "Ryans", "short": "RY", "home": "https://www.ryans.com", "enabled": false, "delay": 5,
-      "disabled_reason": "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"},
-    "techland": {"name": "TechLand BD", "short": "TL", "home": "https://www.techlandbd.com", "enabled": false, "delay": 5,
-      "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"}
+    "startech": {
+      "name": "Star Tech",
+      "short": "ST",
+      "home": "https://www.startech.com.bd",
+      "enabled": true,
+      "delay": 3
+    },
+    "ultratech": {
+      "name": "UltraTech",
+      "short": "UT",
+      "home": "https://www.ultratech.com.bd",
+      "enabled": true,
+      "delay": 20
+    },
+    "pchouse": {
+      "name": "PC House",
+      "short": "PH",
+      "home": "https://www.pchouse.com.bd",
+      "enabled": true,
+      "delay": 5
+    },
+    "creatus": {
+      "name": "Creatus",
+      "short": "CR",
+      "home": "https://www.creatus.com.bd",
+      "enabled": true,
+      "delay": 5
+    },
+    "smartbd": {
+      "name": "Smart Technologies",
+      "short": "SM",
+      "home": "https://smartbd.com",
+      "enabled": true,
+      "delay": 5
+    },
+    "fourstar": {
+      "name": "Four Star IT",
+      "short": "FS",
+      "home": "https://fourstarit.com.bd",
+      "enabled": true,
+      "delay": 10
+    },
+    "ryans": {
+      "name": "Ryans",
+      "short": "RY",
+      "home": "https://www.ryans.com",
+      "enabled": false,
+      "delay": 5,
+      "disabled_reason": "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+    },
+    "techland": {
+      "name": "TechLand BD",
+      "short": "TL",
+      "home": "https://www.techlandbd.com",
+      "enabled": false,
+      "delay": 5,
+      "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+    }
   }
 }

@@ -4,6 +4,7 @@
 """
 import importlib
 import json
+import re
 import sys
 import time
 from datetime import datetime, timezone, timedelta
@@ -41,6 +42,9 @@ def main() -> int:
             except Exception as e:  # একটা ক্যাটাগরি ভাঙলে বাকিগুলো চলবে
                 health["errors"].append(f"{cat['slug']}: {type(e).__name__}: {e}")
                 continue
+            if conf.get("filter"):  # একই পাতায় ল্যাপটপ ও ডেস্কটপ মেশানো থাকলে নাম দেখে ভাগ
+                pat = re.compile(r"so-?dimm|laptop|notebook", re.I)
+                items = [i for i in items if bool(pat.search(i["name"])) == (conf["filter"] == "laptop")]
             for it in items:
                 it["store"] = store_id
                 it["category"] = cat["slug"]

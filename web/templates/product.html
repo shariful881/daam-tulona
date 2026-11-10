@@ -29,7 +29,7 @@
   <section class="card">
     <h2>কোন স্টোরে কত দাম</h2>
     <div class="stores">
-    {% for row in store_rows %}
+    {% for row in store_rows if row.offer %}
       {% if row.offer %}
       <a class="st{% if row.is_best %} best{% endif %}" href="{{ row.offer.url }}" target="_blank" rel="nofollow noopener">
         <span class="av">{{ stores[row.store].short }}</span>
@@ -37,15 +37,11 @@
           <span class="stt {{ row.cls }}">{{ row.label }}</span></span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
-      {% else %}
-      <div class="st none">
-        <span class="av">{{ stores[row.store].short }}</span>
-        <span><span class="nm">{{ stores[row.store].name }}</span><br><span class="stt">এই স্টোরে পাওয়া যায়নি</span></span>
-        <span class="pr"><b>—</b></span>
-      </div>
       {% endif %}
     {% endfor %}
     </div>
+    {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
+    {% if missing %}<p class="muted" style="font-size:.8rem;margin:10px 0 0">পাওয়া যায়নি: {% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
   </section>
 
   {% if spark %}
