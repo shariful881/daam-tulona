@@ -83,11 +83,13 @@ def sparkline(changes: list[tuple[str, int]], today: str) -> str:
         if cur is not None:
             pts.append((ds, cur))
         d += timedelta(days=1)
-    if len(pts) < 3 or len({v for _, v in pts}) < 2:
+    if len(pts) < 2:
         return ""
     w, h, pad = 320, 90, 18
     vals = [v for _, v in pts]
     lo, hi = min(vals), max(vals)
+    if hi == lo:  # দাম অপরিবর্তিত: মাঝখানে সমান রেখা
+        lo, hi = lo - 1, hi + 1
     xs = [pad + i * (w - 2 * pad) / (len(pts) - 1) for i in range(len(pts))]
     ys = [h - pad - (v - lo) * (h - 2 * pad) / (hi - lo) for v in vals]
     line = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
@@ -96,8 +98,40 @@ def sparkline(changes: list[tuple[str, int]], today: str) -> str:
             f'<polygon points="{area}" fill="var(--best-soft)"/>'
             f'<polyline points="{line}" fill="none" stroke="var(--best)" stroke-width="2"/>'
             f'<circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="3.5" fill="var(--best)"/>'
-            f'<text x="{pad}" y="12">{taka(hi)}</text><text x="{pad}" y="{h - 3}">{taka(lo)}</text>'
+            f'<text x="{pad}" y="12">{taka(max(vals))}</text><text x="{pad}" y="{h - 3}">{taka(min(vals))}</text>'
             f'<text x="{w - pad}" y="{h - 3}" text-anchor="end">{bn_date(pts[-1][0])}</text></svg>')
+
+
+def daily_min(per_store: dict, today: str) -> list[tuple[str, int]]:
+    """প্রতিটা স্টোরের শেষ জানা দাম দিন ধরে টেনে নিয়ে, প্রতিদিনের সর্বনিম্ন স্টকে-থাকা দাম।"""
+    if not per_store:
+        return []
+    start = min(d for ch in per_store.values() for d, _ in ch)
+    end = date.fromisoformat(today)
+    series, d = [], max(date.fromisoformat(start), end - timedelta(days=120))
+    state = {}
+    for sid, ch in per_store.items():
+        for ds, v in sorted(ch):
+            if ds <= d.isoformat():
+                state[sid] = v
+    idx = {sid: dict(ch) for sid, ch in per_store.items()}
+    while d <= end:
+        ds = d.isoformat()
+        for sid, m in idx.items():
+            if ds in m:
+                state[sid] = m[ds]
+        live = [v for v in state.values() if v]
+        if live:
+            series.append((ds, min(live)))
+        d += timedelta(days=1)
+    # চার্ট শুধু বদলের বিন্দু চায়; একই দাম পরপর থাকলে বাদ
+    out = []
+    for ds, v in series:
+        if not out or out[-1][1] != v:
+            out.append((ds, v))
+    if series and out[-1][0] != series[-1][0]:
+        out.append(series[-1])
+    return out
 
 
 def warranty_bn(w: str | None) -> str | None:
@@ -166,12 +200,12 @@ def main():
     updated = bn_date(today) + ", " + health["scraped_at"][11:16]
     enabled = [s for s, v in stores.items() if v["enabled"]]
 
+    # প্রতিটা প্রোডাক্ট → স্টোর → [(তারিখ, দাম বা None)] (শুধু বদলের দিনগুলো)
     history = defaultdict(lambda: defaultdict(list))
     if (DATA / "history.csv").exists():
         with (DATA / "history.csv").open() as f:
             for r in csv.DictReader(f):
-                if r["in_stock"] == "1":
-                    history[r["product"]][r["date"]].append(int(r["price"]))
+                history[r["product"]][r["store"]].append((r["date"], int(r["price"]) if r["in_stock"] == "1" else None))
 
     env = Environment(loader=FileSystemLoader(ROOT / "web/templates"), autoescape=select_autoescape(["html"]))
     env.filters["taka"] = taka
@@ -232,7 +266,7 @@ def main():
             same = [a for a in same if 0.7 * ref <= a["best"]["price"] <= 1.3 * ref]
         alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"]}
                 for a in sorted(same, key=lambda a: abs(a["best"]["price"] - (ref or 0)))[:6]]
-        changes = sorted((d, min(v)) for d, v in history[pid].items())
+        changes = daily_min(history.get(pid, {}), today)
         best = it["best"]
         warranty = warranty_bn(det.get("warranty"))
         spec_sections = [(section_bn(sec), rows_) for sec, rows_ in det.get("specs", {}).items()
@@ -260,7 +294,9 @@ def main():
         out.write_text(product_tpl.render(
             **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections,
             best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
-            spark=sparkline(changes, today), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
+            spark=sparkline(changes, today), hist_start=bn_date(changes[0][0]) if changes else None,
+            hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
+            hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
             title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
             description=f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")

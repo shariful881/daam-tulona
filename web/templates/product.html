@@ -44,12 +44,15 @@
     {% if missing %}<p class="muted" style="font-size:.8rem;margin:10px 0 0">পাওয়া যায়নি: {% for s in missing %}{{ stores[s].name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
   </section>
 
-  {% if spark %}
   <section class="card">
-    <h2>দামের ইতিহাস <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
-    {{ spark | safe }}
+    <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
+    {% if spark %}
+      {{ spark | safe }}
+      <p class="muted" style="font-size:.8rem;margin:6px 0 0">{{ hist_start }} থেকে: সর্বনিম্ন {{ hist_lo | taka }}, সর্বোচ্চ {{ hist_hi | taka }}{% if hist_lo == hist_hi %} (দাম বদলায়নি){% endif %}</p>
+    {% else %}
+      <p class="muted" style="font-size:.88rem;margin:0">এই প্রোডাক্টের দাম {% if hist_start %}{{ hist_start }} {% endif %}থেকে প্রতিদিন জমা হচ্ছে। আগামীকাল থেকে এখানে দামের ওঠানামার চার্ট দেখা যাবে।</p>
+    {% endif %}
   </section>
-  {% endif %}
 
   {% if alts %}
   <section class="card">
