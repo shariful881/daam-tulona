@@ -49,7 +49,14 @@ def fetch(url: str, delay: float) -> str:
     wait = _last_hit.get(host, 0) + delay - time.time()
     if wait > 0:
         time.sleep(wait)
-    r = _session.get(url, timeout=45)
+    for attempt in range(3):  # ধীর সার্ভারের জন্য আবার চেষ্টা
+        try:
+            r = _session.get(url, timeout=(20, 90))
+            break
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt == 2:
+                raise
+            time.sleep(15 * (attempt + 1))
     _last_hit[host] = time.time()
     if r.status_code in (403, 429, 503) or "Just a moment..." in r.text[:3000]:
         raise Blocked(f"{r.status_code} {url}")
