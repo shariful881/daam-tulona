@@ -1,0 +1,521 @@
+{
+ "graphics-tablet": {
+  "n": 10,
+  "err": null,
+  "sec": 3,
+  "sample": [
+   "Huion 420/H420 Professional Graphics Drawing Tablet",
+   "Huion H430P Graphics Tablet",
+   "XP-Pen Star-G430S Ultra-Thin Digital Drawing Graphics Tablet"
+  ],
+  "priced": 10
+ },
+ "laptop-bag": {
+  "n": 9,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "ASUS AP4600 Professional Backpack",
+   "ASUS Nereus Backpack for 16-inch Laptop",
+   "ASUS AP1602 Backpack"
+  ],
+  "priced": 9
+ },
+ "all-in-one-pc": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "dHP R240 Core i5 4th Gen 8GB Ram 256GB SSD 23.8 Inch Full HD All-in-One PC",
+   "QBITS Atlas R3 AMD Ryzen 5 3500U 8GB RAM 256GB SSD 24-Inch Full HD All-in-One PC",
+   "dHP E270 Core i5 7200U 16GB Ram 512GB SSD 27 Inch Full HD All-in-One PC"
+  ],
+  "priced": 10
+ },
+ "mini-pc": {
+  "n": 9,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Asus NUC 14 Essential Intel N97 Portable Mini PC",
+   "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc",
+   "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+  ],
+  "priced": 9
+ },
+ "processor": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "AMD Athlon PRO 300GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics (Rebox)",
+   "AMD Ryzen 5 2400G Desktop Processor with Radeon RX Vega 11 Graphics",
+   "Intel Pentium Gold G6405 Coffee Lake Processor"
+  ],
+  "priced": 10
+ },
+ "desktop-ram": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "OCPC VS 8GB DDR3 1600MHz Desktop RAM",
+   "G.SKILL Value 8GB DDR3 1600Mhz Desktop RAM",
+   "G.Skill Ripjaws 8GB DDR4 3200MHz C22 Laptop RAM"
+  ],
+  "priced": 10
+ },
+ "laptop-ram": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Netac Basic SO DDR3L 1600MHz 4GB Laptop RAM",
+   "Lexar 4GB DDR4 3200MHz SODIMM Laptop RAM",
+   "G.Skill Ripjaws 4GB DDR3 1600MHz SO-DIMM Laptop RAM"
+  ],
+  "priced": 10
+ },
+ "ssd": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Netac SA500 120GB 2.5\" SATAIII SSD",
+   "Netac N535S 120GB 2.5\" SATAIII SSD",
+   "Netac SA500 128GB 2.5\" SATAIII SSD"
+  ],
+  "priced": 10
+ },
+ "casing-fan": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "PC Power CFX 120MM ARGB Case Fan White",
+   "Deepcool XFAN 120 Case Cooling Fan",
+   "Deepcool RF 120 R Red LED Case Fan"
+  ],
+  "priced": 10
+ },
+ "laptop-accessories": {
+  "n": 8,
+  "err": null,
+  "sec": 26,
+  "sample": [
+   "BWOO BO-ZJ144 Adjustable Phone Stand",
+   "Redragon Ingrid GCP511 Triple Fan RGB Laptop Cooling Pad",
+   "Asus AD45-00C 45W Original Laptop Charger Adapter"
+  ],
+  "priced": 8
+ },
+ "mouse-pad": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Havit HV-MP837 Gaming Mouse Pad",
+   "Havit HV-MP838 Gaming Mouse Pad",
+   "Havit HV-MP846 Gaming Mouse Pad"
+  ],
+  "priced": 10
+ },
+ "headphone": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Havit H202D Stereo Wired Headphone With Mic",
+   "HAVIT HV-H2178D 3.5mm Wired Headphone",
+   "Havit 2218D 3.5mm Single Port Headphone"
+  ],
+  "priced": 10
+ },
+ "webcam": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "A4tech PK-825P 720P HD Webcam",
+   "Rapoo C200 720P HD Webcam",
+   "Logitech C270 HD Webcam"
+  ],
+  "priced": 10
+ },
+ "microphone": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Havit MC361 Clip Microphone",
+   "Boya BY-EA2L USB Sound Adapter",
+   "Hoco L15 Type-C Crystal Lavalier Wireless Digital Microphone"
+  ],
+  "priced": 10
+ },
+ "speaker": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Havit SK704 2:0 USB Speaker",
+   "T-WOLF S2 Dual Wired Speaker",
+   "Havit SK715 2.0 USB Stereo Speaker"
+  ],
+  "priced": 10
+ },
+ "bluetooth-speaker": {
+  "n": 10,
+  "err": null,
+  "sec": 27,
+  "sample": [
+   "Blisbond FA02 10W RGB Bluetooth Speaker",
+   "Micropack GS-11 RGB Black Bluetooth Gaming Speaker",
+   "Havit Sf112BT 2.1 Bluetooth Speaker"
+  ],
+  "priced": 10
+ },
+ "soundbar": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Sony HT-S100F Integrated Tweeter and Bluetooth Sound Bar",
+   "F&D HT-330 Soundbar Bluetooth Speaker",
+   "F&D T-300X 2:1 Bluetooth TV Soundbar"
+  ],
+  "priced": 10
+ },
+ "pen-drive": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Smart X4 Premier SM12 64GB USB 3.1 Flash Drive",
+   "Smart X4 Premier SM12 32GB USB 3.1 Pen Drive",
+   "Smart Lock Head 32GB USB 3.2 Pen Drive"
+  ],
+  "priced": 10
+ },
+ "memory-card": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Apacer R100 MicroSDHC/SDXC UHS-1 U1 V10 A1 32GB Memory Card with Adapter",
+   "Dahua ST2-64-S1 64GB MicroSD Memory Card",
+   "Dahua C100 64GB UHS-I Class 10 microSDXC Memory Card"
+  ],
+  "priced": 10
+ },
+ "cable": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Micropack MC-C100 2M Type C Cable",
+   "Oraimo RobustLine USB Male to Micro USB Charging Cable 1 Meter Black",
+   "Yison Celebrat CB-09M 1 Meter Micro USB Cable White"
+  ],
+  "priced": 9
+ },
+ "converter": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Ugreen AV162 Cannon XLR Male to 6.5mm Female Converter",
+   "VENTION AIOB0 HDMI 90 Degree Male to Female Adapter",
+   "Ugreen AV162 6.5mm Female to Cannon XLR Male Converter"
+  ],
+  "priced": 10
+ },
+ "power-strip": {
+  "n": 0,
+  "err": "ChunkedEncodingError: Response ended prematurely",
+  "sec": 11,
+  "sample": [],
+  "priced": 0
+ },
+ "thermal-paste": {
+  "n": 10,
+  "err": null,
+  "sec": 1,
+  "sample": [
+   "Corsair TM30 Performance Thermal Paste",
+   "Deepcool Z5 Thermal Paste",
+   "DeepCool EK720-XS-1.0 High Performance Thermal Pad"
+  ],
+  "priced": 10
+ },
+ "smart-watch": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "COLMI P73 Smart Watch",
+   "COLMI P71 Smart Watch",
+   "Oraimo Watch 5 Lite OSW-804 Bluetooth Calling Smart Watch"
+  ],
+  "priced": 10
+ },
+ "earbuds": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Hoco EQ33 True Wireless Bluetooth Earbuds",
+   "Hoco EW77 TWS Bluetooth Wireless Earbuds",
+   "Hoco EQ24 Estrella TWS Bluetooth Wireless Earbuds"
+  ],
+  "priced": 10
+ },
+ "neckband": {
+  "n": 7,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Oraimo Necklace Neo OEB-310 Wireless Neckband Earphone",
+   "Oraimo Necklace Lite OEB-311 Bluetooth Neckband Earphone",
+   "BWOO BO-BW900 Wireless Neckband"
+  ],
+  "priced": 7
+ },
+ "earphone": {
+  "n": 6,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Oraimo OEP-320S Conch 2 Neo Wired Earphone",
+   "Oraimo Halo Lite Wired Earphone",
+   "Oraimo Conch 2C Type-C Wired Earphone"
+  ],
+  "priced": 6
+ },
+ "power-bank": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Baseus Qpow BS-P1001L 10000mAh 15W Power Bank with Lightning Cable",
+   "Awei P10K 10000mah 22.5W Fast Charging Digital Display Power Bank",
+   "Baseus Qpow BS-P1001C 10000mAh 15W Power Bank with Type-C Cable"
+  ],
+  "priced": 10
+ },
+ "drone": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "DK U2 ProS 4K Toy Drone",
+   "E99 Pro 2 4K Dual Camera WiFi Mini Toy Drone",
+   "DK W1 Pro Folding 4K Toy Drone"
+  ],
+  "priced": 10
+ },
+ "gimbal": {
+  "n": 0,
+  "err": null,
+  "sec": 11,
+  "sample": [],
+  "priced": 0
+ },
+ "gaming-console": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Sony PlayStation 5 DualSense Charging Station",
+   "Sony PlayStation 5 DualSense Wireless Controller Starlight Blue",
+   "Sony PlayStation 5 DualSense Wireless Controller Galactic Purple"
+  ],
+  "priced": 10
+ },
+ "gamepad": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Redragon Ephemera G713 Hall Effect Wired Gaming Controller",
+   "Redragon Saturn G807 Wired Gamepad",
+   "Redragon RIFT G710 Wired Gamepad"
+  ],
+  "priced": 10
+ },
+ "router": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Mercusys MW325R 300Mbps Wifi Router",
+   "Mercusys MW325R 300Mbps 4-Antenna Single-Band Wi-Fi Router",
+   "Tenda N301 Wireless N300 Easy Setup Router"
+  ],
+  "priced": 10
+ },
+ "pocket-router": {
+  "n": 0,
+  "err": null,
+  "sec": 11,
+  "sample": [],
+  "priced": 0
+ },
+ "access-point": {
+  "n": 0,
+  "err": null,
+  "sec": 11,
+  "sample": [],
+  "priced": 0
+ },
+ "wifi-adapter": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Mercusys MW150US N150 Nano USB WiFi Adapter",
+   "Tenda W311MI AX300 Nano USB WiFi Adapter",
+   "Yuanxin X-D2501 USB2.0 to RJ45 100Mbps Ethernet Adapter"
+  ],
+  "priced": 10
+ },
+ "lan-card": {
+  "n": 0,
+  "err": null,
+  "sec": 11,
+  "sample": [],
+  "priced": 0
+ },
+ "ip-camera": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "TP-Link VIGI C320I 2MP IP Camera",
+   "TP-Link VIGI C220I 2MP IP Camera",
+   "TP-Link VIGI C430I 3MP IR Turret Camera"
+  ],
+  "priced": 10
+ },
+ "cc-camera": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Imou Ranger Mini 3MP 2K Wi-Fi 6 Smart Pan Tilt Portable Security Camera",
+   "Imou Ranger 2 Pro 3MP 2K QHD Dual-Band Wi-Fi 6 Smart Pan Tilt Security Camera",
+   "Uniview IPC2122LB-SF40-A 2MP Mini Bullet Camera"
+  ],
+  "priced": 10
+ },
+ "dvr-nvr": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Hikvision DS-7104NI-Q1/M 4 Channel Mini 1U NVR",
+   "Dahua NVR1104HS-S3/H 4 Channel Network Video Recorder (NVR)",
+   "Uniview NVR301-04S 4 Channel NVR"
+  ],
+  "priced": 10
+ },
+ "printer": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Canon Pixma MG2570S Inkjet Multifunction Printer",
+   "Canon Pixma IP 2770 Inkjet Printer with Original PG 810 & PG 811 Ink",
+   "Canon Pixma TS207 Single Function Color Inkjet Printer"
+  ],
+  "priced": 10
+ },
+ "printer-supplies": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Power Print TN-85 HP 85A /36A/35A/78A Toner",
+   "Power Print TN-79A Toner",
+   "Power Print TN-107A Toner Without Chip"
+  ],
+  "priced": 10
+ },
+ "scanner": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Plustek OpticSlim 2610 Plus A4 Flatbed Scanner",
+   "Canon CanoScan LiDE 300 Flatbed Scanner",
+   "Epson Perfection V39 II Photo and Document Flatbed Scanner"
+  ],
+  "priced": 10
+ },
+ "photocopier": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Toshiba MR-3032 Automatic Document Feeder (RADF)",
+   "Toshiba e-Studio 2523A A3 Multifunction Digital Photocopier",
+   "Toshiba MR-3033C Automatic Document Feeder (RADF)"
+  ],
+  "priced": 10
+ },
+ "projector": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Magcubic HY320 Mini 300 ANSI 4K Portable Projector",
+   "Cheerlux C8 1800 Lumens Mini LCD Projector",
+   "Magcubic HY310 Mini with Built in Speaker 4K Android Projector"
+  ],
+  "priced": 10
+ },
+ "telephone": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "DINSTAR C60UP Entry Level IP Phone with POE & Without Adapter",
+   "Grandstream GRP2601 2-Line 2-SIP Carrier-Grade IP Phone with Adapter",
+   "Grandstream GXP1610P IP Phone With PoE"
+  ],
+  "priced": 10
+ },
+ "action-camera": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "DJI Osmo Action 4 Standard Combo 4K Action Camera",
+   "DJI Osmo Action 4 Adventure Combo 4K Action Camera",
+   "DJI Osmo Nano 4K Wearable Action Camera"
+  ],
+  "priced": 10
+ },
+ "ups": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Digital X 650VA Offline UPS",
+   "KSTAR 650VA Offline UPS",
+   "Power Pac 650VA Offline UPS"
+  ],
+  "priced": 10
+ },
+ "ac": {
+  "n": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Xiaomi Viomi A2 1 Ton Non-Inverter AC",
+   "Haier 1 Ton TurboAqua FIX Pro Non-Inverter AC",
+   "Haier 1 Ton CleanCool Pro Inverter AC"
+  ],
+  "priced": 10
+ }
+}
