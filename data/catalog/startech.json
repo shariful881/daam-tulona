@@ -1,0 +1,1807 @@
+{
+ "store": "Star Tech",
+ "checked_at": "2026-11-10T23:51+06:00",
+ "categories": [
+  {
+   "name": "Appliance",
+   "url": "https://www.startech.com.bd/appliance",
+   "total": 1330,
+   "subcategories": [
+    {
+     "name": "TV",
+     "url": "https://www.startech.com.bd/television-startech",
+     "total": 197
+    },
+    {
+     "name": "AC",
+     "url": "https://www.startech.com.bd/air-conditioner",
+     "total": 192
+    },
+    {
+     "name": "Geyser",
+     "url": "https://www.startech.com.bd/geyser-water-heater",
+     "total": 50
+    },
+    {
+     "name": "Room Heater",
+     "url": "https://www.startech.com.bd/room-heater",
+     "total": 9
+    },
+    {
+     "name": "Air Fryer",
+     "url": "https://www.startech.com.bd/air-fryer",
+     "total": 33
+    },
+    {
+     "name": "Washing Machine",
+     "url": "https://www.startech.com.bd/washing-machine",
+     "total": 84
+    },
+    {
+     "name": "Fridge",
+     "url": "https://www.startech.com.bd/refrigerator",
+     "total": 220
+    },
+    {
+     "name": "Light",
+     "url": "https://www.startech.com.bd/light",
+     "total": 40
+    },
+    {
+     "name": "Air Purifier",
+     "url": "https://www.startech.com.bd/air-purifier",
+     "total": 39
+    },
+    {
+     "name": "Coffee Maker",
+     "url": "https://www.startech.com.bd/coffee-maker",
+     "total": 33
+    },
+    {
+     "name": "Fan",
+     "url": "https://www.startech.com.bd/fan",
+     "total": 141
+    },
+    {
+     "name": "Dishwasher",
+     "url": "https://www.startech.com.bd/dishwasher",
+     "total": 8
+    },
+    {
+     "name": "Vacuum Cleaner",
+     "url": "https://www.startech.com.bd/vacuum-cleaner",
+     "total": 57
+    },
+    {
+     "name": "Dehumidifier",
+     "url": "https://www.startech.com.bd/dehumidifier",
+     "total": 6
+    },
+    {
+     "name": "Electric Cooker",
+     "url": "https://www.startech.com.bd/electric-cooker",
+     "total": 21
+    },
+    {
+     "name": "Induction Cooker",
+     "url": "https://www.startech.com.bd/induction-cooker",
+     "total": 12
+    },
+    {
+     "name": "Oven",
+     "url": "https://www.startech.com.bd/oven",
+     "total": 51
+    },
+    {
+     "name": "Blender & Grinder",
+     "url": "https://www.startech.com.bd/blender",
+     "total": 55
+    },
+    {
+     "name": "Cooker",
+     "url": "https://www.startech.com.bd/cooker",
+     "total": 41
+    },
+    {
+     "name": "Kitchen Hood",
+     "url": "https://www.startech.com.bd/kitchen-hood",
+     "total": 16
+    },
+    {
+     "name": "Juicer",
+     "url": "https://www.startech.com.bd/juicer",
+     "total": 3
+    },
+    {
+     "name": "Toaster",
+     "url": "https://www.startech.com.bd/toaster",
+     "total": 2
+    },
+    {
+     "name": "Sewing Machine",
+     "url": "https://www.startech.com.bd/sewing-machine",
+     "total": 16
+    },
+    {
+     "name": "Iron",
+     "url": "https://www.startech.com.bd/iron",
+     "total": 16
+    },
+    {
+     "name": "Electric Kettle",
+     "url": "https://www.startech.com.bd/electric-kettle",
+     "total": 14
+    },
+    {
+     "name": "Air Cooler",
+     "url": "https://www.startech.com.bd/air-cooler",
+     "total": 8
+    },
+    {
+     "name": "Air Curtain",
+     "url": "https://www.startech.com.bd/air-curtain",
+     "total": 2
+    },
+    {
+     "name": "Gas Stove",
+     "url": "https://www.startech.com.bd/gas-stove",
+     "total": 8
+    },
+    {
+     "name": "Water Purifier",
+     "url": "https://www.startech.com.bd/water-purifier",
+     "total": 9
+    }
+   ]
+  },
+  {
+   "name": "Desktop",
+   "url": "https://www.startech.com.bd/desktops",
+   "total": 183,
+   "subcategories": [
+    {
+     "name": "AI PC",
+     "url": "https://www.startech.com.bd/ai-pc",
+     "total": 17
+    },
+    {
+     "name": "Desktop Offer",
+     "url": "https://www.startech.com.bd/special-pc",
+     "total": 40
+    },
+    {
+     "name": "Star PC",
+     "url": "https://www.startech.com.bd/desktops/star-pc",
+     "total": 14
+    },
+    {
+     "name": "Gaming PC",
+     "url": "https://www.startech.com.bd/desktops/gaming-pc",
+     "total": 41
+    },
+    {
+     "name": "Brand PC",
+     "url": "https://www.startech.com.bd/desktops/brand-pc",
+     "total": 44
+    },
+    {
+     "name": "All-in-One PC",
+     "url": "https://www.startech.com.bd/desktops/all-in-one-pc",
+     "total": 60
+    },
+    {
+     "name": "Portable Mini PC",
+     "url": "https://www.startech.com.bd/desktops/portable-mini-pc",
+     "total": 18
+    },
+    {
+     "name": "Apple Mac Mini",
+     "url": "https://www.startech.com.bd/apple-mac-mini",
+     "total": 5
+    },
+    {
+     "name": "Apple iMac",
+     "url": "https://www.startech.com.bd/apple-imac",
+     "total": 5
+    },
+    {
+     "name": "Apple Mac Studio",
+     "url": "https://www.startech.com.bd/apple-mac-studio",
+     "total": 1
+    },
+    {
+     "name": "Apple Mac Pro",
+     "url": "https://www.startech.com.bd/apple-mac-pro",
+     "total": 1
+    }
+   ]
+  },
+  {
+   "name": "Laptop",
+   "url": "https://www.startech.com.bd/laptop-notebook",
+   "total": 547,
+   "subcategories": [
+    {
+     "name": "All Laptop",
+     "url": "https://www.startech.com.bd/laptop-notebook/laptop",
+     "total": 547
+    },
+    {
+     "name": "Gaming Laptop",
+     "url": "https://www.startech.com.bd/gaming-laptop",
+     "total": 120
+    },
+    {
+     "name": "Premium Ultrabook",
+     "url": "https://www.startech.com.bd/laptop-notebook/ultrabook",
+     "total": 72
+    },
+    {
+     "name": "Laptop Bag",
+     "url": "https://www.startech.com.bd/laptop-bag-backpack",
+     "total": 54
+    },
+    {
+     "name": "Laptop Accessories",
+     "url": "https://www.startech.com.bd/laptop-notebook/laptop-accessories",
+     "total": 1093
+    }
+   ]
+  },
+  {
+   "name": "Component",
+   "url": "https://www.startech.com.bd/component",
+   "total": 4143,
+   "subcategories": [
+    {
+     "name": "Processor",
+     "url": "https://www.startech.com.bd/component/processor",
+     "total": 139
+    },
+    {
+     "name": "CPU Cooler",
+     "url": "https://www.startech.com.bd/component/CPU-Cooler",
+     "total": 518
+    },
+    {
+     "name": "Motherboard",
+     "url": "https://www.startech.com.bd/component/motherboard",
+     "total": 523
+    },
+    {
+     "name": "Graphics Card",
+     "url": "https://www.startech.com.bd/component/graphics-card",
+     "total": 507
+    },
+    {
+     "name": "RAM (Desktop)",
+     "url": "https://www.startech.com.bd/component/ram",
+     "total": 441
+    },
+    {
+     "name": "RAM (Laptop)",
+     "url": "https://www.startech.com.bd/component/laptop-ram",
+     "total": 100
+    },
+    {
+     "name": "Power Supply",
+     "url": "https://www.startech.com.bd/component/power-supply",
+     "total": 320
+    },
+    {
+     "name": "Hard Disk Drive",
+     "url": "https://www.startech.com.bd/component/hard-disk-drive",
+     "total": 111
+    },
+    {
+     "name": "Portable Hard Disk Drive",
+     "url": "https://www.startech.com.bd/portable-hard-disk-drive",
+     "total": 82
+    },
+    {
+     "name": "SSD",
+     "url": "https://www.startech.com.bd/ssd",
+     "total": 412
+    },
+    {
+     "name": "Portable SSD",
+     "url": "https://www.startech.com.bd/portable-ssd",
+     "total": 127
+    },
+    {
+     "name": "Casing",
+     "url": "https://www.startech.com.bd/component/casing",
+     "total": 607
+    },
+    {
+     "name": "Casing Cooler",
+     "url": "https://www.startech.com.bd/component/casing-cooler",
+     "total": 179
+    },
+    {
+     "name": "Optical Disk Drive",
+     "url": "https://www.startech.com.bd/component/optical-hdd",
+     "total": 18
+    },
+    {
+     "name": "Vertical GPU Holder",
+     "url": "https://www.startech.com.bd/vertical-graphics-card-holder",
+     "total": 25
+    },
+    {
+     "name": "Water / Liquid Cooling",
+     "url": "https://www.startech.com.bd/water-or-liquid-cooling",
+     "total": 28
+    }
+   ]
+  },
+  {
+   "name": "Monitor",
+   "url": "https://www.startech.com.bd/monitor",
+   "total": 986,
+   "subcategories": [
+    {
+     "name": "MSI",
+     "url": "https://www.startech.com.bd/msi-monitor",
+     "total": 90
+    },
+    {
+     "name": "AOC",
+     "url": "https://www.startech.com.bd/aoc-monitor",
+     "total": 50
+    },
+    {
+     "name": "Asus",
+     "url": "https://www.startech.com.bd/asus-monitor",
+     "total": 121
+    },
+    {
+     "name": "Lenovo",
+     "url": "https://www.startech.com.bd/lenovo-monitor",
+     "total": 37
+    },
+    {
+     "name": "LG",
+     "url": "https://www.startech.com.bd/lg-monitor",
+     "total": 64
+    },
+    {
+     "name": "HP",
+     "url": "https://www.startech.com.bd/hp-monitor",
+     "total": 43
+    },
+    {
+     "name": "Dell",
+     "url": "https://www.startech.com.bd/dell-monitor",
+     "total": 24
+    },
+    {
+     "name": "Gigabyte",
+     "url": "https://www.startech.com.bd/gigabyte-monitor",
+     "total": 37
+    },
+    {
+     "name": "BenQ",
+     "url": "https://www.startech.com.bd/benq-monitor",
+     "total": 64
+    },
+    {
+     "name": "Koorui",
+     "url": "https://www.startech.com.bd/koorui-monitor",
+     "total": 19
+    },
+    {
+     "name": "Acer",
+     "url": "https://www.startech.com.bd/acer-monitor",
+     "total": 17
+    },
+    {
+     "name": "Viewsonic",
+     "url": "https://www.startech.com.bd/viewsonic-monitor",
+     "total": 72
+    },
+    {
+     "name": "Samsung",
+     "url": "https://www.startech.com.bd/samsung-monitor",
+     "total": 18
+    },
+    {
+     "name": "Philips",
+     "url": "https://www.startech.com.bd/philips-monitor",
+     "total": 34
+    },
+    {
+     "name": "GEESUU",
+     "url": "https://www.startech.com.bd/geesuu-monitor",
+     "total": 10
+    },
+    {
+     "name": "KTC",
+     "url": "https://www.startech.com.bd/ktc-monitor",
+     "total": 6
+    },
+    {
+     "name": "ThundeRobot",
+     "url": "https://www.startech.com.bd/thuderobot-monitor",
+     "total": 31
+    },
+    {
+     "name": "Corsair",
+     "url": "https://www.startech.com.bd/corsair-monitor",
+     "total": 5
+    },
+    {
+     "name": "Arzopa",
+     "url": "https://www.startech.com.bd/arzopa-monitor",
+     "total": 20
+    },
+    {
+     "name": "Fopo",
+     "url": "https://www.startech.com.bd/fopo-monitor",
+     "total": 4
+    },
+    {
+     "name": "Dahua",
+     "url": "https://www.startech.com.bd/dahua-monitor",
+     "total": 71
+    },
+    {
+     "name": "AIWA",
+     "url": "https://www.startech.com.bd/aiwa-monitor",
+     "total": 8
+    },
+    {
+     "name": "Hikvision",
+     "url": "https://www.startech.com.bd/hikvision-monitor",
+     "total": 3
+    },
+    {
+     "name": "Eurovision",
+     "url": "https://www.startech.com.bd/eurovision-monitor",
+     "total": 12
+    },
+    {
+     "name": "PC Power",
+     "url": "https://www.startech.com.bd/pc-power-monitor",
+     "total": 25
+    },
+    {
+     "name": "Value-Top",
+     "url": "https://www.startech.com.bd/value-top-monitor",
+     "total": 7
+    },
+    {
+     "name": "Titan Army",
+     "url": "https://www.startech.com.bd/titan-army-monitor",
+     "total": 13
+    },
+    {
+     "name": "Xiaomi",
+     "url": "https://www.startech.com.bd/xiaomi-monitor",
+     "total": 29
+    },
+    {
+     "name": "Walton",
+     "url": "https://www.startech.com.bd/walton-monitor",
+     "total": 15
+    },
+    {
+     "name": "Gigasonic",
+     "url": "https://www.startech.com.bd/gigasonic-monitor",
+     "total": 11
+    },
+    {
+     "name": "Alimoto",
+     "url": "https://www.startech.com.bd/alimoto-monitor",
+     "total": 1
+    },
+    {
+     "name": "Gaming Monitor",
+     "url": "https://www.startech.com.bd/gaming-monitor",
+     "total": 492
+    },
+    {
+     "name": "Curved Monitor",
+     "url": "https://www.startech.com.bd/curved-monitor",
+     "total": 78
+    },
+    {
+     "name": "Touch Monitor",
+     "url": "https://www.startech.com.bd/touch-screen-monitor",
+     "total": 13
+    },
+    {
+     "name": "4K Monitor",
+     "url": "https://www.startech.com.bd/4k-monitor",
+     "total": 98
+    },
+    {
+     "name": "Portable Monitor",
+     "url": "https://www.startech.com.bd/portable-monitor",
+     "total": 34
+    },
+    {
+     "name": "Monitor Arm",
+     "url": "https://www.startech.com.bd/monitor-arm",
+     "total": 37
+    }
+   ]
+  },
+  {
+   "name": "Power",
+   "url": "https://www.startech.com.bd/power",
+   "total": 441,
+   "subcategories": [
+    {
+     "name": "UPS",
+     "url": "https://www.startech.com.bd/ups",
+     "total": 76
+    },
+    {
+     "name": "Online UPS",
+     "url": "https://www.startech.com.bd/online-ups",
+     "total": 106
+    },
+    {
+     "name": "Mini UPS",
+     "url": "https://www.startech.com.bd/mini-ups",
+     "total": 61
+    },
+    {
+     "name": "Portable Power Station",
+     "url": "https://www.startech.com.bd/portable-power-station",
+     "total": 41
+    },
+    {
+     "name": "IPS",
+     "url": "https://www.startech.com.bd/ips",
+     "total": 33
+    },
+    {
+     "name": "UPS Battery",
+     "url": "https://www.startech.com.bd/ups-battery",
+     "total": 57
+    },
+    {
+     "name": "Automatic Voltage Regulator",
+     "url": "https://www.startech.com.bd/automatic-voltage-regulator",
+     "total": 18
+    },
+    {
+     "name": "Solar Inverter",
+     "url": "https://www.startech.com.bd/inverter",
+     "total": 54
+    },
+    {
+     "name": "Solar Panel",
+     "url": "https://www.startech.com.bd/solar-panel",
+     "total": 21
+    },
+    {
+     "name": "Solar Battery",
+     "url": "https://www.startech.com.bd/solar-battery",
+     "total": 27
+    },
+    {
+     "name": "Solar Package",
+     "url": "https://www.startech.com.bd/solar-package",
+     "total": 6
+    },
+    {
+     "name": "Generator",
+     "url": "https://www.startech.com.bd/generator",
+     "total": 25
+    }
+   ]
+  },
+  {
+   "name": "Phone",
+   "url": "https://www.startech.com.bd/mobile-phone",
+   "total": 133,
+   "subcategories": [
+    {
+     "name": "Feature Phone",
+     "url": "https://www.startech.com.bd/feature-phone",
+     "total": 49
+    },
+    {
+     "name": "iPhone",
+     "url": "https://www.startech.com.bd/apple-iphone",
+     "total": 10
+    },
+    {
+     "name": "Samsung",
+     "url": "https://www.startech.com.bd/samsung-mobile-phone",
+     "total": 14
+    },
+    {
+     "name": "Google",
+     "url": "https://www.startech.com.bd/google-pixel-phone",
+     "total": 12
+    },
+    {
+     "name": "Redmi",
+     "url": "https://www.startech.com.bd/xiaomi-mobile-phone",
+     "total": 10
+    },
+    {
+     "name": "Realme",
+     "url": "https://www.startech.com.bd/realme-mobile-phone",
+     "total": 15
+    },
+    {
+     "name": "Vivo",
+     "url": "https://www.startech.com.bd/vivo-mobile-phone",
+     "total": 10
+    },
+    {
+     "name": "OPPO",
+     "url": "https://www.startech.com.bd/oppo-mobile-phone",
+     "total": 6
+    },
+    {
+     "name": "HONOR",
+     "url": "https://www.startech.com.bd/honor-mobile-phone",
+     "total": 13
+    },
+    {
+     "name": "HUAWEI",
+     "url": "https://www.startech.com.bd/huawei-mobile-phone",
+     "total": 1
+    },
+    {
+     "name": "OnePlus",
+     "url": "https://www.startech.com.bd/oneplus-mobile-phone",
+     "total": 7
+    },
+    {
+     "name": "TECNO",
+     "url": "https://www.startech.com.bd/tecno-mobile-phone",
+     "total": 12
+    },
+    {
+     "name": "Infinix",
+     "url": "https://www.startech.com.bd/infinix-mobile-phone",
+     "total": 8
+    },
+    {
+     "name": "Helio",
+     "url": "https://www.startech.com.bd/helio-mobile-phone",
+     "total": 7
+    },
+    {
+     "name": "ZTE",
+     "url": "https://www.startech.com.bd/zte-mobile-phone",
+     "total": 7
+    },
+    {
+     "name": "HTC",
+     "url": "https://www.startech.com.bd/htc-mobile-phone",
+     "total": 1
+    },
+    {
+     "name": "Mobile Accessories",
+     "url": "https://www.startech.com.bd/mobile-phone-accessories",
+     "total": 695
+    }
+   ]
+  },
+  {
+   "name": "Tablet",
+   "url": "https://www.startech.com.bd/tablet-pc",
+   "total": 126,
+   "subcategories": [
+    {
+     "name": "Graphics Tablet",
+     "url": "https://www.startech.com.bd/graphics-tablet",
+     "total": 91
+    },
+    {
+     "name": "iPad",
+     "url": "https://www.startech.com.bd/apple-ipad",
+     "total": 14
+    },
+    {
+     "name": "Lenovo",
+     "url": "https://www.startech.com.bd/tablet-pc/lenovo-tablet-pc",
+     "total": 17
+    },
+    {
+     "name": "Samsung",
+     "url": "https://www.startech.com.bd/samsung-tablet",
+     "total": 25
+    },
+    {
+     "name": "HONOR",
+     "url": "https://www.startech.com.bd/honor-tablet-pc",
+     "total": 10
+    },
+    {
+     "name": "Xiaomi",
+     "url": "https://www.startech.com.bd/xiaomi-tablet-pc",
+     "total": 13
+    },
+    {
+     "name": "Huion",
+     "url": "https://www.startech.com.bd/huion-tablet",
+     "total": 1
+    },
+    {
+     "name": "Walton",
+     "url": "https://www.startech.com.bd/walton-tablet-pc",
+     "total": 4
+    },
+    {
+     "name": "HUAWEI",
+     "url": "https://www.startech.com.bd/tablet-pc/huawei-tablet-pc",
+     "total": 3
+    },
+    {
+     "name": "Chuwi",
+     "url": "https://www.startech.com.bd/chuwi-tablet-pc",
+     "total": 1
+    },
+    {
+     "name": "Amazon",
+     "url": "https://www.startech.com.bd/amazon-tablet-pc",
+     "total": 8
+    },
+    {
+     "name": "Google",
+     "url": "https://www.startech.com.bd/pixel-tablet",
+     "total": 1
+    },
+    {
+     "name": "OnePlus",
+     "url": "https://www.startech.com.bd/oneplus-tablet",
+     "total": 3
+    },
+    {
+     "name": "Teclast",
+     "url": "https://www.startech.com.bd/teclast-tablet",
+     "total": 17
+    },
+    {
+     "name": "ZTE",
+     "url": "https://www.startech.com.bd/zte-tablet",
+     "total": 1
+    },
+    {
+     "name": "Infinix",
+     "url": "https://www.startech.com.bd/infinix-tablet",
+     "total": 1
+    },
+    {
+     "name": "reMarkable",
+     "url": "https://www.startech.com.bd/remarkable-tablet",
+     "total": 1
+    },
+    {
+     "name": "Tecno",
+     "url": "https://www.startech.com.bd/tecno-tablet",
+     "total": 3
+    },
+    {
+     "name": "Stylus Pen",
+     "url": "https://www.startech.com.bd/tablet-pc/stylus",
+     "total": 52
+    },
+    {
+     "name": "Tablet Accessories",
+     "url": "https://www.startech.com.bd/tablet-accessories",
+     "total": 20
+    }
+   ]
+  },
+  {
+   "name": "Office Equipment",
+   "url": "https://www.startech.com.bd/office-equipment",
+   "total": 2196,
+   "subcategories": [
+    {
+     "name": "Projector",
+     "url": "https://www.startech.com.bd/projector",
+     "total": 209
+    },
+    {
+     "name": "Conference System",
+     "url": "https://www.startech.com.bd/office-equipment/conference-systems",
+     "total": 117
+    },
+    {
+     "name": "PA System",
+     "url": "https://www.startech.com.bd/pa-system",
+     "total": 34
+    },
+    {
+     "name": "Interactive Flat Panel",
+     "url": "https://www.startech.com.bd/interactive-flat-panel",
+     "total": 160
+    },
+    {
+     "name": "Video Wall",
+     "url": "https://www.startech.com.bd/video-wall",
+     "total": 1
+    },
+    {
+     "name": "Signage",
+     "url": "https://www.startech.com.bd/office-equipment/signage",
+     "total": 21
+    },
+    {
+     "name": "Kiosk",
+     "url": "https://www.startech.com.bd/kiosk",
+     "total": 12
+    },
+    {
+     "name": "Printer",
+     "url": "https://www.startech.com.bd/printer",
+     "total": 329
+    },
+    {
+     "name": "Laser Printer",
+     "url": "https://www.startech.com.bd/laser-printer",
+     "total": 172
+    },
+    {
+     "name": "Large Format Printer",
+     "url": "https://www.startech.com.bd/large-format-printer",
+     "total": 38
+    },
+    {
+     "name": "ID Card Printer",
+     "url": "https://www.startech.com.bd/id-card-printer",
+     "total": 11
+    },
+    {
+     "name": "POS Printer",
+     "url": "https://www.startech.com.bd/pos-printer",
+     "total": 103
+    },
+    {
+     "name": "Label Printer",
+     "url": "https://www.startech.com.bd/label-printer",
+     "total": 68
+    },
+    {
+     "name": "Photocopier",
+     "url": "https://www.startech.com.bd/photocopier",
+     "total": 86
+    },
+    {
+     "name": "Toner",
+     "url": "https://www.startech.com.bd/office-equipment/toner",
+     "total": 437
+    },
+    {
+     "name": "Cartridge",
+     "url": "https://www.startech.com.bd/cartridge",
+     "total": 60
+    },
+    {
+     "name": "Ink Bottle",
+     "url": "https://www.startech.com.bd/ink-bottle",
+     "total": 68
+    },
+    {
+     "name": "Printer Paper",
+     "url": "https://www.startech.com.bd/printer-paper",
+     "total": 33
+    },
+    {
+     "name": "Ribbon",
+     "url": "https://www.startech.com.bd/ribbon",
+     "total": 11
+    },
+    {
+     "name": "Printer Drum",
+     "url": "https://www.startech.com.bd/printer-drum",
+     "total": 14
+    },
+    {
+     "name": "Scanner",
+     "url": "https://www.startech.com.bd/office-equipment/Scanner",
+     "total": 86
+    },
+    {
+     "name": "Barcode Scanner",
+     "url": "https://www.startech.com.bd/office-equipment/Barcode-Scanner",
+     "total": 86
+    },
+    {
+     "name": "Cash Drawer",
+     "url": "https://www.startech.com.bd/cash-drawer",
+     "total": 19
+    },
+    {
+     "name": "Telephone Set",
+     "url": "https://www.startech.com.bd/office-equipment/telephone-set",
+     "total": 17
+    },
+    {
+     "name": "IP Phone",
+     "url": "https://www.startech.com.bd/office-equipment/ip-phone",
+     "total": 120
+    },
+    {
+     "name": "PABX System",
+     "url": "https://www.startech.com.bd/ip-pabx-system",
+     "total": 36
+    },
+    {
+     "name": "Money Counting Machine",
+     "url": "https://www.startech.com.bd/office-equipment/money-counting-machine",
+     "total": 37
+    },
+    {
+     "name": "Paper Shredder",
+     "url": "https://www.startech.com.bd/office-equipment/paper-shredder",
+     "total": 32
+    },
+    {
+     "name": "Laminating Machine",
+     "url": "https://www.startech.com.bd/office-equipment/laminating-machine",
+     "total": 16
+    },
+    {
+     "name": "Binding Machine",
+     "url": "https://www.startech.com.bd/binding-machine",
+     "total": 7
+    },
+    {
+     "name": "Calculator",
+     "url": "https://www.startech.com.bd/calculator",
+     "total": 50
+    }
+   ]
+  },
+  {
+   "name": "Camera",
+   "url": "https://www.startech.com.bd/camera",
+   "total": 250,
+   "subcategories": [
+    {
+     "name": "Action Camera",
+     "url": "https://www.startech.com.bd/camera/action-camera",
+     "total": 96
+    },
+    {
+     "name": "DSLR",
+     "url": "https://www.startech.com.bd/dslr-camera",
+     "total": 14
+    },
+    {
+     "name": "Mirrorless Camera",
+     "url": "https://www.startech.com.bd/mirrorless-camera",
+     "total": 68
+    },
+    {
+     "name": "Digital Camera",
+     "url": "https://www.startech.com.bd/camera/digital-camera",
+     "total": 7
+    },
+    {
+     "name": "Video Camera",
+     "url": "https://www.startech.com.bd/camera/video-camera",
+     "total": 14
+    },
+    {
+     "name": "Handycam",
+     "url": "https://www.startech.com.bd/camera/Handycam",
+     "total": 3
+    },
+    {
+     "name": "Dash Cam",
+     "url": "https://www.startech.com.bd/dash-cam",
+     "total": 12
+    },
+    {
+     "name": "Instant Camera",
+     "url": "https://www.startech.com.bd/instant-camera",
+     "total": 6
+    },
+    {
+     "name": "Body Camera",
+     "url": "https://www.startech.com.bd/body-camera",
+     "total": 24
+    },
+    {
+     "name": "Camera Lenses",
+     "url": "https://www.startech.com.bd/camera/camera-lenses",
+     "total": 179
+    },
+    {
+     "name": "Camera Tripod",
+     "url": "https://www.startech.com.bd/camera/camera-tripod",
+     "total": 105
+    },
+    {
+     "name": "Camera Accessories",
+     "url": "https://www.startech.com.bd/camera-accessories",
+     "total": 449
+    },
+    {
+     "name": "Gimbal",
+     "url": "https://www.startech.com.bd/gimbal",
+     "total": 60
+    }
+   ]
+  },
+  {
+   "name": "Security",
+   "url": "https://www.startech.com.bd/Security-Camera",
+   "total": 1066,
+   "subcategories": [
+    {
+     "name": "Portable WiFi Camera",
+     "url": "https://www.startech.com.bd/wifi-camera",
+     "total": 156
+    },
+    {
+     "name": "IP Camera",
+     "url": "https://www.startech.com.bd/Security-Camera/ip-camera",
+     "total": 255
+    },
+    {
+     "name": "CC Camera",
+     "url": "https://www.startech.com.bd/Security-Camera/cc-camera",
+     "total": 136
+    },
+    {
+     "name": "PTZ Camera",
+     "url": "https://www.startech.com.bd/Security-Camera/ptz-camera",
+     "total": 32
+    },
+    {
+     "name": "Solar Camera",
+     "url": "https://www.startech.com.bd/solar-camera",
+     "total": 11
+    },
+    {
+     "name": "CC Camera Package",
+     "url": "https://www.startech.com.bd/cc-camera-package",
+     "total": 13
+    },
+    {
+     "name": "IP Camera Package",
+     "url": "https://www.startech.com.bd/ip-camera-package",
+     "total": 13
+    },
+    {
+     "name": "DVR",
+     "url": "https://www.startech.com.bd/Security-Camera/dvr",
+     "total": 41
+    },
+    {
+     "name": "NVR",
+     "url": "https://www.startech.com.bd/Security-Camera/nvr",
+     "total": 119
+    },
+    {
+     "name": "XVR",
+     "url": "https://www.startech.com.bd/Security-Camera/xvr",
+     "total": 30
+    },
+    {
+     "name": "CC Camera Accessories",
+     "url": "https://www.startech.com.bd/Security-Camera/cc-camera-accessories",
+     "total": 12
+    },
+    {
+     "name": "Door Lock",
+     "url": "https://www.startech.com.bd/door-lock",
+     "total": 57
+    },
+    {
+     "name": "Smart Door Bell",
+     "url": "https://www.startech.com.bd/door-bell",
+     "total": 18
+    },
+    {
+     "name": "Access Control",
+     "url": "https://www.startech.com.bd/access-control",
+     "total": 118
+    },
+    {
+     "name": "Entrance Control",
+     "url": "https://www.startech.com.bd/entrance-control",
+     "total": 33
+    },
+    {
+     "name": "Digital Locker & Vault",
+     "url": "https://www.startech.com.bd/digital-locker",
+     "total": 34
+    },
+    {
+     "name": "KVM Switch",
+     "url": "https://www.startech.com.bd/kvm-switch",
+     "total": 11
+    }
+   ]
+  },
+  {
+   "name": "Networking",
+   "url": "https://www.startech.com.bd/networking",
+   "total": 1824,
+   "subcategories": [
+    {
+     "name": "Starlink",
+     "url": "https://www.startech.com.bd/starlink",
+     "total": 21
+    },
+    {
+     "name": "Router",
+     "url": "https://www.startech.com.bd/networking/router",
+     "total": 370
+    },
+    {
+     "name": "Pocket Router",
+     "url": "https://www.startech.com.bd/pocket-router",
+     "total": 14
+    },
+    {
+     "name": "WiFi Range Extender",
+     "url": "https://www.startech.com.bd/wifi-extender",
+     "total": 35
+    },
+    {
+     "name": "Access Point",
+     "url": "https://www.startech.com.bd/access-point",
+     "total": 150
+    },
+    {
+     "name": "WiFi Adapter",
+     "url": "https://www.startech.com.bd/wifi-adapter",
+     "total": 55
+    },
+    {
+     "name": "Network Switch",
+     "url": "https://www.startech.com.bd/networking/network-switch",
+     "total": 471
+    },
+    {
+     "name": "Firewall",
+     "url": "https://www.startech.com.bd/firewall",
+     "total": 13
+    },
+    {
+     "name": "ONU",
+     "url": "https://www.startech.com.bd/onu",
+     "total": 29
+    },
+    {
+     "name": "OLT",
+     "url": "https://www.startech.com.bd/olt",
+     "total": 28
+    },
+    {
+     "name": "Media Converter",
+     "url": "https://www.startech.com.bd/media-converter",
+     "total": 11
+    },
+    {
+     "name": "Network Transceivers",
+     "url": "https://www.startech.com.bd/network-transceivers",
+     "total": 37
+    },
+    {
+     "name": "Networking Cable",
+     "url": "https://www.startech.com.bd/networking-cable",
+     "total": 115
+    },
+    {
+     "name": "Patch Cord",
+     "url": "https://www.startech.com.bd/patch-cord",
+     "total": 279
+    },
+    {
+     "name": "Connector",
+     "url": "https://www.startech.com.bd/cable-connector",
+     "total": 40
+    },
+    {
+     "name": "Modular Jack",
+     "url": "https://www.startech.com.bd/modular-jack",
+     "total": 29
+    },
+    {
+     "name": "Faceplate",
+     "url": "https://www.startech.com.bd/faceplate",
+     "total": 19
+    },
+    {
+     "name": "Patch Panel",
+     "url": "https://www.startech.com.bd/patch-panel",
+     "total": 38
+    },
+    {
+     "name": "LAN Card",
+     "url": "https://www.startech.com.bd/lan-card",
+     "total": 38
+    },
+    {
+     "name": "PoE Injector",
+     "url": "https://www.startech.com.bd/poe-injector",
+     "total": 8
+    },
+    {
+     "name": "Crimping Tool",
+     "url": "https://www.startech.com.bd/crimping-tool",
+     "total": 23
+    },
+    {
+     "name": "Splicer Machine",
+     "url": "https://www.startech.com.bd/splicer-machine",
+     "total": 8
+    },
+    {
+     "name": "Cable Tester",
+     "url": "https://www.startech.com.bd/cable-tester",
+     "total": 13
+    }
+   ]
+  },
+  {
+   "name": "Software",
+   "url": "https://www.startech.com.bd/software",
+   "total": 91,
+   "subcategories": [
+    {
+     "name": "Operating System",
+     "url": "https://www.startech.com.bd/operating-system",
+     "total": 13
+    },
+    {
+     "name": "Office Application",
+     "url": "https://www.startech.com.bd/office-application",
+     "total": 9
+    },
+    {
+     "name": "Database Server Solution",
+     "url": "https://www.startech.com.bd/database-server-solution",
+     "total": 3
+    },
+    {
+     "name": "Mail Server Solution",
+     "url": "https://www.startech.com.bd/mail-server-solution",
+     "total": 4
+    },
+    {
+     "name": "Cloud Solutions",
+     "url": "https://www.startech.com.bd/cloud-solution",
+     "total": 13
+    },
+    {
+     "name": "Antivirus",
+     "url": "https://www.startech.com.bd/software/antivirus",
+     "total": 15
+    },
+    {
+     "name": "Bangla Typing Software",
+     "url": "https://www.startech.com.bd/bangla-typing-software",
+     "total": 2
+    },
+    {
+     "name": "Adobe",
+     "url": "https://www.startech.com.bd/software/adobe",
+     "total": 19
+    },
+    {
+     "name": "VMware",
+     "url": "https://www.startech.com.bd/software/vmware",
+     "total": 1
+    },
+    {
+     "name": "AutoDesk",
+     "url": "https://www.startech.com.bd/software/autodesk",
+     "total": 9
+    },
+    {
+     "name": "AnyDesk",
+     "url": "https://www.startech.com.bd/anydesk-software",
+     "total": 3
+    }
+   ]
+  },
+  {
+   "name": "Server & Storage",
+   "url": "https://www.startech.com.bd/server-networking",
+   "total": 302,
+   "subcategories": [
+    {
+     "name": "Server",
+     "url": "https://www.startech.com.bd/server-networking/server",
+     "total": 38
+    },
+    {
+     "name": "GPU Server",
+     "url": "https://www.startech.com.bd/gpu-server",
+     "total": 16
+    },
+    {
+     "name": "Server Rack",
+     "url": "https://www.startech.com.bd/server-rack",
+     "total": 78
+    },
+    {
+     "name": "Workstation",
+     "url": "https://www.startech.com.bd/server-networking/workstation",
+     "total": 36
+    },
+    {
+     "name": "NAS Storage",
+     "url": "https://www.startech.com.bd/nas-storage",
+     "total": 53
+    },
+    {
+     "name": "SAN Storage",
+     "url": "https://www.startech.com.bd/san-storage",
+     "total": 20
+    },
+    {
+     "name": "DAS Storage",
+     "url": "https://www.startech.com.bd/das-storage",
+     "total": 2
+    },
+    {
+     "name": "Server HDD",
+     "url": "https://www.startech.com.bd/server-hdd",
+     "total": 44
+    },
+    {
+     "name": "Server HDD Bay",
+     "url": "https://www.startech.com.bd/server-hdd-bay",
+     "total": 2
+    },
+    {
+     "name": "Server RAM",
+     "url": "https://www.startech.com.bd/server-ram",
+     "total": 10
+    },
+    {
+     "name": "Server SSD",
+     "url": "https://www.startech.com.bd/server-ssd",
+     "total": 17
+    },
+    {
+     "name": "Server Power Supply",
+     "url": "https://www.startech.com.bd/server-power-supply",
+     "total": 1
+    },
+    {
+     "name": "Server Processor",
+     "url": "https://www.startech.com.bd/server-processor",
+     "total": 17
+    }
+   ]
+  },
+  {
+   "name": "Accessories",
+   "url": "https://www.startech.com.bd/accessories",
+   "total": 6091,
+   "subcategories": [
+    {
+     "name": "Watch",
+     "url": "https://www.startech.com.bd/gadget/smart-watch",
+     "total": 455
+    },
+    {
+     "name": "Keyboard",
+     "url": "https://www.startech.com.bd/accessories/keyboards",
+     "total": 986
+    },
+    {
+     "name": "Mouse",
+     "url": "https://www.startech.com.bd/accessories/mouse",
+     "total": 893
+    },
+    {
+     "name": "Headphone",
+     "url": "https://www.startech.com.bd/accessories/headphone",
+     "total": 791
+    },
+    {
+     "name": "Bluetooth Headphone",
+     "url": "https://www.startech.com.bd/bluetooth-headphone",
+     "total": 241
+    },
+    {
+     "name": "Mouse Pad",
+     "url": "https://www.startech.com.bd/accessories/mouse-pad",
+     "total": 198
+    },
+    {
+     "name": "Wrist Rest",
+     "url": "https://www.startech.com.bd/wrist-rest",
+     "total": 8
+    },
+    {
+     "name": "Headphone Stand",
+     "url": "https://www.startech.com.bd/headphone-stand",
+     "total": 14
+    },
+    {
+     "name": "Speaker & Home Theater",
+     "url": "https://www.startech.com.bd/accessories/speaker-and-home-theater",
+     "total": 409
+    },
+    {
+     "name": "Bluetooth Speakers",
+     "url": "https://www.startech.com.bd/accessories/bluetooth-speaker",
+     "total": 546
+    },
+    {
+     "name": "Soundbar",
+     "url": "https://www.startech.com.bd/soundbar",
+     "total": 88
+    },
+    {
+     "name": "Webcam",
+     "url": "https://www.startech.com.bd/accessories/webcam",
+     "total": 45
+    },
+    {
+     "name": "Cable",
+     "url": "https://www.startech.com.bd/cable",
+     "total": 619
+    },
+    {
+     "name": "Converter",
+     "url": "https://www.startech.com.bd/converter",
+     "total": 298
+    },
+    {
+     "name": "Card Reader",
+     "url": "https://www.startech.com.bd/card-reader",
+     "total": 41
+    },
+    {
+     "name": "Hubs & Docks",
+     "url": "https://www.startech.com.bd/hub-and-dock",
+     "total": 392
+    },
+    {
+     "name": "Microphone",
+     "url": "https://www.startech.com.bd/accessories/microphone",
+     "total": 386
+    },
+    {
+     "name": "Digital Voice Recorder",
+     "url": "https://www.startech.com.bd/accessories/digital-voice-recorder",
+     "total": 22
+    },
+    {
+     "name": "Presenter",
+     "url": "https://www.startech.com.bd/presenter",
+     "total": 24
+    },
+    {
+     "name": "Memory Card",
+     "url": "https://www.startech.com.bd/memory-card",
+     "total": 147
+    },
+    {
+     "name": "Capture Card",
+     "url": "https://www.startech.com.bd/capture-card",
+     "total": 15
+    },
+    {
+     "name": "Pen Drive",
+     "url": "https://www.startech.com.bd/pen-drive",
+     "total": 208
+    },
+    {
+     "name": "Thermal Paste",
+     "url": "https://www.startech.com.bd/thermal-paste",
+     "total": 55
+    },
+    {
+     "name": "HDD-SSD Enclosure",
+     "url": "https://www.startech.com.bd/accessories/enclosure",
+     "total": 93
+    },
+    {
+     "name": "Power Strip",
+     "url": "https://www.startech.com.bd/power-strip",
+     "total": 78
+    },
+    {
+     "name": "Bluetooth Adapter",
+     "url": "https://www.startech.com.bd/bluetooth-adapter",
+     "total": 57
+    },
+    {
+     "name": "Monitor Light Bar",
+     "url": "https://www.startech.com.bd/monitor-light-bar",
+     "total": 4
+    }
+   ]
+  },
+  {
+   "name": "Gadget",
+   "url": "https://www.startech.com.bd/gadget",
+   "total": 2778,
+   "subcategories": [
+    {
+     "name": "Smart Watch",
+     "url": "https://www.startech.com.bd/gadget/smart-watch",
+     "total": 455
+    },
+    {
+     "name": "Smart Band",
+     "url": "https://www.startech.com.bd/smart-band",
+     "total": 26
+    },
+    {
+     "name": "Earphone",
+     "url": "https://www.startech.com.bd/earphone",
+     "total": 161
+    },
+    {
+     "name": "Earbuds",
+     "url": "https://www.startech.com.bd/earbuds",
+     "total": 710
+    },
+    {
+     "name": "Neckband",
+     "url": "https://www.startech.com.bd/neckband",
+     "total": 124
+    },
+    {
+     "name": "Smart Ring",
+     "url": "https://www.startech.com.bd/smart-ring",
+     "total": 7
+    },
+    {
+     "name": "Smart Glasses",
+     "url": "https://www.startech.com.bd/smart-glasses",
+     "total": 18
+    },
+    {
+     "name": "Power Bank",
+     "url": "https://www.startech.com.bd/power-bank",
+     "total": 499
+    },
+    {
+     "name": "Car Charger",
+     "url": "https://www.startech.com.bd/car-charger",
+     "total": 51
+    },
+    {
+     "name": "TV Box",
+     "url": "https://www.startech.com.bd/tv-box",
+     "total": 11
+    },
+    {
+     "name": "Studio Equipment",
+     "url": "https://www.startech.com.bd/studio-equipment",
+     "total": 135
+    },
+    {
+     "name": "Drones",
+     "url": "https://www.startech.com.bd/drone",
+     "total": 75
+    },
+    {
+     "name": "Gimbal",
+     "url": "https://www.startech.com.bd/gimbal",
+     "total": 60
+    },
+    {
+     "name": "Calculator",
+     "url": "https://www.startech.com.bd/calculator",
+     "total": 50
+    },
+    {
+     "name": "Power Tools",
+     "url": "https://www.startech.com.bd/power-tools",
+     "total": 94
+    },
+    {
+     "name": "Radio",
+     "url": "https://www.startech.com.bd/radio",
+     "total": 2
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "url": "https://www.startech.com.bd/gaming",
+   "total": 1535,
+   "subcategories": [
+    {
+     "name": "Gaming Chair",
+     "url": "https://www.startech.com.bd/gaming-chair",
+     "total": 57
+    },
+    {
+     "name": "Gaming Desk",
+     "url": "https://www.startech.com.bd/gaming-desk",
+     "total": 7
+    },
+    {
+     "name": "Gaming Console",
+     "url": "https://www.startech.com.bd/gaming-console",
+     "total": 46
+    },
+    {
+     "name": "Gaming PC",
+     "url": "https://www.startech.com.bd/desktops/gaming-pc",
+     "total": 41
+    },
+    {
+     "name": "Gaming Laptop",
+     "url": "https://www.startech.com.bd/gaming-laptop",
+     "total": 120
+    },
+    {
+     "name": "Gaming Monitor",
+     "url": "https://www.startech.com.bd/gaming-monitor",
+     "total": 492
+    },
+    {
+     "name": "Keyboard",
+     "url": "https://www.startech.com.bd/gaming-keyboard",
+     "total": 609
+    },
+    {
+     "name": "Mouse",
+     "url": "https://www.startech.com.bd/gaming-mouse",
+     "total": 487
+    },
+    {
+     "name": "Headphone",
+     "url": "https://www.startech.com.bd/gaming-headphone",
+     "total": 383
+    },
+    {
+     "name": "Mouse Pad",
+     "url": "https://www.startech.com.bd/gaming-mouse-pad",
+     "total": 148
+    },
+    {
+     "name": "Gamepad",
+     "url": "https://www.startech.com.bd/game-pad",
+     "total": 166
+    },
+    {
+     "name": "Racing Wheel",
+     "url": "https://www.startech.com.bd/racing-wheel",
+     "total": 11
+    },
+    {
+     "name": "VR",
+     "url": "https://www.startech.com.bd/vr",
+     "total": 20
+    },
+    {
+     "name": "Games",
+     "url": "https://www.startech.com.bd/ps4-n-x-box-one-games",
+     "total": 52
+    },
+    {
+     "name": "Gaming Router",
+     "url": "https://www.startech.com.bd/gaming-router",
+     "total": 29
+    }
+   ]
+  },
+  {
+   "name": "Lifestyle",
+   "url": "https://www.startech.com.bd/lifestyle",
+   "total": 457,
+   "subcategories": [
+    {
+     "name": "Trimmer",
+     "url": "https://www.startech.com.bd/trimmer",
+     "total": 182
+    },
+    {
+     "name": "Hair Dryer",
+     "url": "https://www.startech.com.bd/hair-dryer",
+     "total": 49
+    },
+    {
+     "name": "Hair Straightener",
+     "url": "https://www.startech.com.bd/hair-straightener",
+     "total": 45
+    },
+    {
+     "name": "Mini Fan",
+     "url": "https://www.startech.com.bd/mini-fan",
+     "total": 90
+    },
+    {
+     "name": "Binocular",
+     "url": "https://www.startech.com.bd/binocular",
+     "total": 2
+    },
+    {
+     "name": "Massage Gun",
+     "url": "https://www.startech.com.bd/massage-gun",
+     "total": 27
+    },
+    {
+     "name": "Blood Pressure Monitor",
+     "url": "https://www.startech.com.bd/blood-pressure-monitor",
+     "total": 16
+    },
+    {
+     "name": "Weight Scale",
+     "url": "https://www.startech.com.bd/weight-scale",
+     "total": 11
+    },
+    {
+     "name": "Table Lamp",
+     "url": "https://www.startech.com.bd/table-lamp",
+     "total": 9
+    },
+    {
+     "name": "Torch Light",
+     "url": "https://www.startech.com.bd/torch-light",
+     "total": 21
+    },
+    {
+     "name": "Mosquito Bat",
+     "url": "https://www.startech.com.bd/mosquito-bat",
+     "total": 20
+    },
+    {
+     "name": "Electric Toothbrush",
+     "url": "https://www.startech.com.bd/electric-toothbrush",
+     "total": 4
+    },
+    {
+     "name": "GPS Tracker",
+     "url": "https://www.startech.com.bd/gps-tracker",
+     "total": 30
+    },
+    {
+     "name": "Wrist Watch",
+     "url": "https://www.startech.com.bd/analog-watch",
+     "total": 147
+    },
+    {
+     "name": "Smart Watch",
+     "url": "https://www.startech.com.bd/gadget/smart-watch",
+     "total": 455
+    },
+    {
+     "name": "Earbuds",
+     "url": "https://www.startech.com.bd/earbuds",
+     "total": 710
+    },
+    {
+     "name": "Neckband",
+     "url": "https://www.startech.com.bd/neckband",
+     "total": 124
+    },
+    {
+     "name": "Pulse Oximeter",
+     "url": "https://www.startech.com.bd/pulse-oximeter",
+     "total": 2
+    },
+    {
+     "name": "Glucometer",
+     "url": "https://www.startech.com.bd/glucometer",
+     "total": 11
+    },
+    {
+     "name": "Nebulizer Machine",
+     "url": "https://www.startech.com.bd/nebulizer-machine",
+     "total": 1
+    },
+    {
+     "name": "Thermometer",
+     "url": "https://www.startech.com.bd/thermometer",
+     "total": 5
+    },
+    {
+     "name": "Treadmill",
+     "url": "https://www.startech.com.bd/treadmill",
+     "total": 8
+    }
+   ]
+  }
+ ]
+}
