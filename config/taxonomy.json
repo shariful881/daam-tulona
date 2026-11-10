@@ -100,10 +100,6 @@
        ],
        "limit": 90
       },
-      "smartbd": {
-       "url": "https://smartbd.com/product-category/phones-and-tabs/smartphones/",
-       "max_pages": 5
-      },
       "diamu": {
        "url": "https://diamu.com.bd/product-category/mobile/",
        "max_pages": 5
@@ -1117,10 +1113,6 @@
         }
        ],
        "limit": 90
-      },
-      "pchouse": {
-       "url": "https://www.pchouse.com.bd/dvd-writer",
-       "max_pages": 5
       }
      }
     },
@@ -2364,8 +2356,16 @@
        "limit": 90
       },
       "ultratech": {
-       "url": "https://www.ultratech.com.bd/power-bank",
-       "max_pages": 3
+       "sources": [
+        {
+         "url": "https://www.ultratech.com.bd/havit-power-bank",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ultratech.com.bd/micropack-power-bank",
+         "max_pages": 3
+        }
+       ]
       },
       "pchouse": {
        "url": "https://www.pchouse.com.bd/power-bank",
@@ -2482,10 +2482,6 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/gimbal",
        "max_pages": 5
-      },
-      "fourstar": {
-       "url": "https://fourstarit.com.bd/c/gimbal",
-       "max_pages": 1
       },
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/gimbal",
@@ -2814,10 +2810,6 @@
       "pchouse": {
        "url": "https://www.pchouse.com.bd/pocket-router",
        "max_pages": 5
-      },
-      "fourstar": {
-       "url": "https://fourstarit.com.bd/c/pocket-router",
-       "max_pages": 1
       }
      }
     },
@@ -2872,10 +2864,6 @@
         }
        ],
        "limit": 90
-      },
-      "fourstar": {
-       "url": "https://fourstarit.com.bd/c/access-point",
-       "max_pages": 1
       }
      }
     },
@@ -2998,10 +2986,6 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/lan-card",
        "max_pages": 5
-      },
-      "fourstar": {
-       "url": "https://fourstarit.com.bd/c/lan-card",
-       "max_pages": 1
       }
      }
     },
@@ -3131,10 +3115,6 @@
         }
        ],
        "limit": 90
-      },
-      "pchouse": {
-       "url": "https://www.pchouse.com.bd/wifi-camera",
-       "max_pages": 5
       },
       "diamu": {
        "url": "https://diamu.com.bd/product-category/network-components/wifi-camera/",

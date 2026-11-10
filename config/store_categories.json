@@ -142,8 +142,16 @@
    "max_pages": 3
   },
   "power-bank": {
-   "url": "https://www.ultratech.com.bd/power-bank",
-   "max_pages": 3
+   "sources": [
+    {
+     "url": "https://www.ultratech.com.bd/havit-power-bank",
+     "max_pages": 3
+    },
+    {
+     "url": "https://www.ultratech.com.bd/micropack-power-bank",
+     "max_pages": 3
+    }
+   ]
   },
   "ups": {
    "url": "https://www.ultratech.com.bd/ups",
@@ -185,10 +193,6 @@
   },
   "laptop-accessories": {
    "url": "https://www.pchouse.com.bd/laptop-accessories",
-   "max_pages": 5
-  },
-  "optical-drive": {
-   "url": "https://www.pchouse.com.bd/dvd-writer",
    "max_pages": 5
   },
   "laptop-ram": {
@@ -353,10 +357,6 @@
   },
   "scanner": {
    "url": "https://www.pchouse.com.bd/scanner",
-   "max_pages": 5
-  },
-  "wifi-camera": {
-   "url": "https://www.pchouse.com.bd/wifi-camera",
    "max_pages": 5
   },
   "printer-supplies": {
@@ -779,10 +779,6 @@
    "url": "https://smartbd.com/product-category/networking-products/routers/",
    "max_pages": 5
   },
-  "smartphone": {
-   "url": "https://smartbd.com/product-category/phones-and-tabs/smartphones/",
-   "max_pages": 5
-  },
   "tablet": {
    "url": "https://smartbd.com/product-category/phones-and-tabs/tablets/",
    "max_pages": 5
@@ -953,18 +949,6 @@
    "url": "https://fourstarit.com.bd/c/wifi-adapter",
    "max_pages": 1
   },
-  "pocket-router": {
-   "url": "https://fourstarit.com.bd/c/pocket-router",
-   "max_pages": 1
-  },
-  "access-point": {
-   "url": "https://fourstarit.com.bd/c/access-point",
-   "max_pages": 1
-  },
-  "lan-card": {
-   "url": "https://fourstarit.com.bd/c/lan-card",
-   "max_pages": 1
-  },
   "cc-camera": {
    "url": "https://fourstarit.com.bd/c/cc-camera",
    "max_pages": 1
@@ -999,10 +983,6 @@
   },
   "power-bank": {
    "url": "https://fourstarit.com.bd/c/power-bank",
-   "max_pages": 1
-  },
-  "gimbal": {
-   "url": "https://fourstarit.com.bd/c/gimbal",
    "max_pages": 1
   },
   "gamepad": {

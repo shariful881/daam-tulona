@@ -49,11 +49,14 @@ def fetch(url: str, delay: float) -> str:
     wait = _last_hit.get(host, 0) + delay - time.time()
     if wait > 0:
         time.sleep(wait)
-    for attempt in range(3):  # ধীর সার্ভারের জন্য আবার চেষ্টা
+    for attempt in range(3):  # ধীর সার্ভার বা সাময়িক 502/504-এর জন্য আবার চেষ্টা
         try:
             r = _session.get(url, timeout=(20, 90))
+            if r.status_code in (500, 502, 504) and attempt < 2:
+                time.sleep(30 * (attempt + 1))
+                continue
             break
-        except (requests.Timeout, requests.ConnectionError):
+        except (requests.Timeout, requests.ConnectionError, requests.exceptions.ChunkedEncodingError):
             if attempt == 2:
                 raise
             time.sleep(15 * (attempt + 1))
