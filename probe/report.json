@@ -1,0 +1,255 @@
+{
+ "smartphone": {
+  "n": 18,
+  "err": null,
+  "sec": 2,
+  "sample": [
+   "iPhone 18 Pro Max",
+   "iPhone 18 Pro",
+   "iPhone Duo"
+  ],
+  "priced": 18
+ },
+ "tablet": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Xiaomi Smart Focus Pen Pro",
+   "Honor Pad 10 - Official",
+   "WiWU Pencil C Pro Digital Led Indicator"
+  ],
+  "priced": 18
+ },
+ "ssd": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "TEAM T-FORCE VULCAN Z 1TB SATA III 2.5 Inch Internal SSD",
+   "Hiksemi Wave P Series M.2 NVMe PCIe Gen3x4 SSD",
+   "Transcend 250H M.2 2280 NVMe PCIe Gen4x4 SSD"
+  ],
+  "priced": 18
+ },
+ "monitor-all": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Arzopa A1 15.6\" FHD IPS Portable Monitor",
+   "Koorui G2511P 24.5 Inch IPS FHD 200Hz Gaming Monitor",
+   "KOORUI E2411K IPS FHD 24-inch 144Hz Gaming Monitor"
+  ],
+  "priced": 18
+ },
+ "keyboard": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "A4TECH KRS-82BD Multimedia Wired Keyboard with Bangla",
+   "Keychron B6 Pro Ultra Slim Wireless Keyboard",
+   "AJAZZ AK820 Pro Tri Mode Mechanical Keyboard"
+  ],
+  "priced": 18
+ },
+ "mouse": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Logitech MK220 Wireless Keyboard & Mouse Combo",
+   "T-WOLF X3 Tri-mode Lightweight Wireless Gaming Mouse",
+   "Logitech M90 Wired USB Mouse"
+  ],
+  "priced": 18
+ },
+ "headphone": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Anker Soundcore Q20i Hybrid Active Noise Cancelling Headphones",
+   "JBL Tune 780NC Wireless Over Ear ANC Headphones",
+   "JBL Tune 730BT Wireless Over Ear Headphones"
+  ],
+  "priced": 18
+ },
+ "webcam": {
+  "n": 15,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Logitech 960-001561 MX Brio Ultra HD 4K Webcam",
+   "Logitech C922 Pro Full HD Stream Webcam",
+   "Logitech C920 Pro Full HD Webcam"
+  ],
+  "priced": 15
+ },
+ "microphone": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Haylou GX1 Professional Live Microphone",
+   "Boya BY-M1 Omni Directional Lavalier Microphone",
+   "Xiaomi MIJIA K Song Microphone Karaoke Bluetooth Microphone"
+  ],
+  "priced": 17
+ },
+ "speaker": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "JBL Charge 6 Portable Wireless Speaker with Powerbank",
+   "JBL CLIP 5 Ultra-portable Waterproof Speaker",
+   "JBL Flip 7 Portable Wireless Speaker"
+  ],
+  "priced": 18
+ },
+ "pen-drive": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "ADATA UC310 ECO Green USB 3.2 Pen Drive",
+   "PNY Turbo Attache R 64GB USB 3.2 Pen Drive",
+   "OSCOO CU002 128GB USB 3.1 Type-C OTG & Pen Drive"
+  ],
+  "priced": 18
+ },
+ "cable": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Apple USB-C 60W Charge Cable - 1m",
+   "Apple USB-C to Lightning Cable - 1m",
+   "Anker 322 USB-C to Lightning Braided Cable"
+  ],
+  "priced": 18
+ },
+ "smart-watch": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Apple Watch Series 12",
+   "Apple Watch Ultra 4",
+   "Amazfit Pop 3R BT Calling Smart Watch"
+  ],
+  "priced": 18
+ },
+ "earbuds": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Oraimo SpaceArc x Burna Boy OPN-675 Open-Ear Wireless Earbuds",
+   "Wavefun Star Wireless Earbuds",
+   "Amazon Echo Buds 2nd Gen"
+  ],
+  "priced": 18
+ },
+ "neckband": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "OnePlus Bullets Wireless Z2 ANC",
+   "OnePlus Bullets Wireless Z3",
+   "QCY TuneArc N1 Wireless Earphone"
+  ],
+  "priced": 18
+ },
+ "earphone": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Baseus Encok CZ11 Type-C Wired Earphone",
+   "Baseus Encok H18 Wired Earphone",
+   "FONENG Wired EP200 3.5mm Earphone"
+  ],
+  "priced": 18
+ },
+ "power-bank": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "QCY PB20A 45W PD Fast Charge Power Bank - 20000mAh",
+   "Baseus Adaman Metal Digital Display Quick Charge Power Bank 22.5W",
+   "Anker A1664 MagGo Qi2 Ultra Slim Power Bank - 10000mAh"
+  ],
+  "priced": 18
+ },
+ "drone": {
+  "n": 3,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "DJI Air 3S Fly More Combo With DJI RC 2 Remote Controller",
+   "DJI Mavic 3 Fly More Combo",
+   "DJI Air 2S Fly More Combo"
+  ],
+  "priced": 3
+ },
+ "gimbal": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Zhiyun Smooth X2 Gimbal Stabilizer",
+   "WiWU ZM-902 Foldable Laptop Stand",
+   "DJI Osmo Mobile 7 Smartphone Gimbal"
+  ],
+  "priced": 18
+ },
+ "router": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "OLAX MT85 SIM-Supported Portable Router",
+   "Jio MF680s SIM Supported 4G LTE WiFi Pocket Router",
+   "Mi Wi-Fi Range Extender/Amplifier Pro R03"
+  ],
+  "priced": 18
+ },
+ "action-camera": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Blisbond GO 3 4K Thumb Action Camera",
+   "SJCAM SJ20 Dual Lens WiFi Action Camera",
+   "SJCAM SJ6 Ultra Action Camera"
+  ],
+  "priced": 18
+ },
+ "tv": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Samsung 55Q7F 55-Inch QLED 4K Vision AI Smart TV",
+   "TCL 65C6KS 65\"Premium QD-Mini LED TV",
+   "Sony BRAVIA 2 K-65S20M2 65-Inch Smart 4K LED TV"
+  ],
+  "priced": 18
+ },
+ "ac": {
+  "n": 18,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Hisense AS-18TW4RGSKB02DU Smart Compact Inverter Air Conditioner - 1.5 Ton",
+   "Gree GS-18XCOA3V Cosmo Split Inverter Air Conditioner - 1.5 Ton",
+   "Hisense AS18CW4RXSKF00AU Non-Inverter Air Conditioner - 1.5 Ton"
+  ],
+  "priced": 18
+ }
+}
