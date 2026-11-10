@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "scraped_at": "2026-11-10T22:56+06:00",
+ "scraped_at": "2026-11-10T23:20+06:00",
  "stores": {
   "startech": {
    "enabled": true,
@@ -12,13 +12,36 @@
    "enabled": true,
    "items": 384,
    "errors": [],
-   "seconds": 322
+   "seconds": 324
+  },
+  "pchouse": {
+   "enabled": true,
+   "items": 443,
+   "errors": [],
+   "seconds": 150
+  },
+  "creatus": {
+   "enabled": true,
+   "items": 0,
+   "errors": [
+    "laptop-ram: ReadTimeout: HTTPSConnectionPool(host='www.creatus.com.bd', port=443): Read timed out. (read timeout=45)",
+    "desktop-ram: ReadTimeout: HTTPSConnectionPool(host='www.creatus.com.bd', port=443): Read timed out. (read timeout=45)",
+    "ssd: ReadTimeout: HTTPSConnectionPool(host='www.creatus.com.bd', port=443): Read timed out. (read timeout=45)",
+    "processor: ReadTimeout: HTTPSConnectionPool(host='www.creatus.com.bd', port=443): Read timed out. (read timeout=45)"
+   ],
+   "seconds": 230
+  },
+  "smartbd": {
+   "enabled": true,
+   "items": 157,
+   "errors": [],
+   "seconds": 55
   },
   "fourstar": {
    "enabled": true,
    "items": 40,
    "errors": [],
-   "seconds": 35
+   "seconds": 37
   },
   "ryans": {
    "enabled": false,
