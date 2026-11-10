@@ -1,131 +1,157 @@
 {
-  "_নোট": "নতুন ক্যাটাগরি যোগ করতে এখানে একটা ব্লক কপি করে স্টোরের ক্যাটাগরি লিংক বসান। max_pages = সর্বোচ্চ কয় পাতা তোলা হবে।",
-  "categories": [
-    {
-      "slug": "laptop-ram",
-      "name_bn": "ল্যাপটপ র‍্যাম",
-      "name_en": "Laptop RAM",
-      "group": "computer",
-      "stores": {
-        "startech": {
-          "url": "https://www.startech.com.bd/component/laptop-ram",
-          "max_pages": 6
-        },
-        "ultratech": {
-          "url": "https://www.ultratech.com.bd/laptop-ram",
-          "max_pages": 3
-        },
-        "fourstar": {
-          "url": "https://fourstarit.com.bd/c/laptop-ram"
-        },
-        "pchouse": {
-          "url": "https://www.pchouse.com.bd/laptop-ram",
-          "max_pages": 5
-        },
-        "creatus": {
-          "url": "https://www.creatus.com.bd/laptop-ram",
-          "max_pages": 5
-        },
-        "smartbd": {
-          "url": "https://smartbd.com/product-category/computer-components/ram/",
-          "max_pages": 6,
-          "filter": "laptop"
-        }
-      }
+ "_নোট": "নতুন ক্যাটাগরি যোগ করতে এখানে একটা ব্লক কপি করে স্টোরের ক্যাটাগরি লিংক বসান। max_pages = সর্বোচ্চ কয় পাতা তোলা হবে।",
+ "categories": [
+  {
+   "slug": "laptop-ram",
+   "name_bn": "ল্যাপটপ র‍্যাম",
+   "name_en": "Laptop RAM",
+   "group": "computer",
+   "stores": {
+    "startech": {
+     "url": "https://www.startech.com.bd/component/laptop-ram",
+     "max_pages": 6
     },
-    {
-      "slug": "desktop-ram",
-      "name_bn": "ডেস্কটপ র‍্যাম",
-      "name_en": "Desktop RAM",
-      "group": "computer",
-      "stores": {
-        "startech": {
-          "url": "https://www.startech.com.bd/component/ram",
-          "max_pages": 10
-        },
-        "ultratech": {
-          "url": "https://www.ultratech.com.bd/ram",
-          "max_pages": 5
-        },
-        "fourstar": {
-          "url": "https://fourstarit.com.bd/c/ram"
-        },
-        "pchouse": {
-          "url": "https://www.pchouse.com.bd/desktop-ram",
-          "max_pages": 8
-        },
-        "creatus": {
-          "url": "https://www.creatus.com.bd/desktop-ram",
-          "max_pages": 8
-        },
-        "smartbd": {
-          "url": "https://smartbd.com/product-category/computer-components/ram/",
-          "max_pages": 6,
-          "filter": "desktop"
-        }
-      }
+    "ultratech": {
+     "url": "https://www.ultratech.com.bd/laptop-ram",
+     "max_pages": 3
     },
-    {
-      "slug": "ssd",
-      "name_bn": "এসএসডি",
-      "name_en": "SSD",
-      "group": "computer",
-      "stores": {
-        "startech": {
-          "url": "https://www.startech.com.bd/ssd",
-          "max_pages": 12
-        },
-        "ultratech": {
-          "url": "https://www.ultratech.com.bd/ssd",
-          "max_pages": 6
-        },
-        "fourstar": {
-          "url": "https://fourstarit.com.bd/c/ssd"
-        },
-        "pchouse": {
-          "url": "https://www.pchouse.com.bd/internal-ssd",
-          "max_pages": 10
-        },
-        "creatus": {
-          "url": "https://www.creatus.com.bd/ssd",
-          "max_pages": 10
-        },
-        "smartbd": {
-          "url": "https://smartbd.com/product-category/computer-components/ssd/",
-          "max_pages": 5
-        }
-      }
+    "fourstar": {
+     "url": "https://fourstarit.com.bd/c/laptop-ram"
     },
-    {
-      "slug": "processor",
-      "name_bn": "প্রসেসর",
-      "name_en": "Processor",
-      "group": "computer",
-      "stores": {
-        "startech": {
-          "url": "https://www.startech.com.bd/component/processor",
-          "max_pages": 6
-        },
-        "ultratech": {
-          "url": "https://www.ultratech.com.bd/processor",
-          "max_pages": 4
-        },
-        "fourstar": {
-          "url": "https://fourstarit.com.bd/c/processor-price-in-bd"
-        },
-        "pchouse": {
-          "url": "https://www.pchouse.com.bd/processor",
-          "max_pages": 6
-        },
-        "creatus": {
-          "url": "https://www.creatus.com.bd/processor",
-          "max_pages": 6
-        },
-        "smartbd": {
-          "url": "https://smartbd.com/product-category/computer-components/processor/",
-          "max_pages": 4
-        }
-      }
+    "pchouse": {
+     "url": "https://www.pchouse.com.bd/laptop-ram",
+     "max_pages": 5
+    },
+    "creatus": {
+     "url": "https://www.creatus.com.bd/laptop-ram",
+     "max_pages": 5
+    },
+    "smartbd": {
+     "url": "https://smartbd.com/product-category/computer-components/ram/",
+     "max_pages": 6,
+     "filter": "laptop"
     }
-  ]
+   }
+  },
+  {
+   "slug": "desktop-ram",
+   "name_bn": "ডেস্কটপ র‍্যাম",
+   "name_en": "Desktop RAM",
+   "group": "computer",
+   "stores": {
+    "startech": {
+     "url": "https://www.startech.com.bd/component/ram",
+     "max_pages": 10
+    },
+    "ultratech": {
+     "url": "https://www.ultratech.com.bd/ram",
+     "max_pages": 5
+    },
+    "fourstar": {
+     "url": "https://fourstarit.com.bd/c/ram"
+    },
+    "pchouse": {
+     "url": "https://www.pchouse.com.bd/desktop-ram",
+     "max_pages": 8
+    },
+    "creatus": {
+     "url": "https://www.creatus.com.bd/desktop-ram",
+     "max_pages": 8
+    },
+    "smartbd": {
+     "url": "https://smartbd.com/product-category/computer-components/ram/",
+     "max_pages": 6,
+     "filter": "desktop"
+    }
+   }
+  },
+  {
+   "slug": "ssd",
+   "name_bn": "এসএসডি",
+   "name_en": "SSD",
+   "group": "computer",
+   "stores": {
+    "startech": {
+     "url": "https://www.startech.com.bd/ssd",
+     "max_pages": 12
+    },
+    "ultratech": {
+     "url": "https://www.ultratech.com.bd/ssd",
+     "max_pages": 6
+    },
+    "fourstar": {
+     "url": "https://fourstarit.com.bd/c/ssd"
+    },
+    "pchouse": {
+     "url": "https://www.pchouse.com.bd/internal-ssd",
+     "max_pages": 10
+    },
+    "creatus": {
+     "url": "https://www.creatus.com.bd/ssd",
+     "max_pages": 10
+    },
+    "smartbd": {
+     "url": "https://smartbd.com/product-category/computer-components/ssd/",
+     "max_pages": 5
+    }
+   }
+  },
+  {
+   "slug": "processor",
+   "name_bn": "প্রসেসর",
+   "name_en": "Processor",
+   "group": "computer",
+   "stores": {
+    "startech": {
+     "url": "https://www.startech.com.bd/component/processor",
+     "max_pages": 6
+    },
+    "ultratech": {
+     "url": "https://www.ultratech.com.bd/processor",
+     "max_pages": 4
+    },
+    "fourstar": {
+     "url": "https://fourstarit.com.bd/c/processor-price-in-bd"
+    },
+    "pchouse": {
+     "url": "https://www.pchouse.com.bd/processor",
+     "max_pages": 6
+    },
+    "creatus": {
+     "url": "https://www.creatus.com.bd/processor",
+     "max_pages": 6
+    },
+    "smartbd": {
+     "url": "https://smartbd.com/product-category/computer-components/processor/",
+     "max_pages": 4
+    }
+   }
+  },
+  {
+   "slug": "fridge",
+   "name_bn": "ফ্রিজ",
+   "stores": {
+    "walton": {
+     "sources": [
+      {
+       "url": "https://waltonbd.com/refrigerator-freezer/no-frost-refrigerator",
+       "max_pages": 3
+      },
+      {
+       "url": "https://waltonbd.com/refrigerator-freezer/direct-cool-refrigerator",
+       "max_pages": 3
+      },
+      {
+       "url": "https://waltonbd.com/refrigerator-freezer/freezer",
+       "max_pages": 3
+      }
+     ]
+    },
+    "minister": {
+     "url": "https://ministerbd.com/sitemap.xml",
+     "max_pages": 1
+    }
+   }
+  }
+ ]
 }

@@ -3363,6 +3363,26 @@
         }
        ],
        "limit": 90
+      },
+      "walton": {
+       "sources": [
+        {
+         "url": "https://waltonbd.com/refrigerator-freezer/no-frost-refrigerator",
+         "max_pages": 3
+        },
+        {
+         "url": "https://waltonbd.com/refrigerator-freezer/direct-cool-refrigerator",
+         "max_pages": 3
+        },
+        {
+         "url": "https://waltonbd.com/refrigerator-freezer/freezer",
+         "max_pages": 3
+        }
+       ]
+      },
+      "minister": {
+       "url": "https://ministerbd.com/sitemap.xml",
+       "max_pages": 1
       }
      }
     },

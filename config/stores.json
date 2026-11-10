@@ -44,6 +44,22 @@
       "enabled": true,
       "delay": 10
     },
+    "walton": {
+      "name": "Walton",
+      "short": "WA",
+      "home": "https://waltonbd.com",
+      "enabled": true,
+      "delay": 5,
+      "kind": "brand"
+    },
+    "minister": {
+      "name": "Minister",
+      "short": "MI",
+      "home": "https://ministerbd.com",
+      "enabled": true,
+      "delay": 5,
+      "kind": "brand"
+    },
     "ryans": {
       "name": "Ryans",
       "short": "RY",

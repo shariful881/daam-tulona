@@ -237,7 +237,7 @@ def make_house_for(ads):
     return house_for
 
 
-def build_size_pages(items, products, details, write):
+def build_size_pages(items, products, details, write, offers=None):
     """সাইজ অনুযায়ী ব্র্যান্ড তুলনা (যেমন ১০০-১৫০ লিটার ফ্রিজে কোন ব্র্যান্ডের দাম কত)।"""
     f = ROOT / "config/size_compare.json"
     if not f.exists():
@@ -252,6 +252,9 @@ def build_size_pages(items, products, details, write):
         canon = {}
         for b_, _ in spell.most_common():
             canon.setdefault(b_.lower(), b_ if not b_.isupper() or len(b_) <= 3 else b_.title())
+        bspec = {}  # ব্র্যান্ডের নিজস্ব সাইট থেকে পাওয়া স্পেক (url ধরে)
+        for bf in (DATA / "brand_specs").glob("*.json") if (DATA / "brand_specs").exists() else []:
+            bspec.update(json.loads(bf.read_text()))
         models = []
         for it in rows:
             m = rx.search(it["name"])
@@ -260,6 +263,12 @@ def build_size_pages(items, products, details, write):
             cap = float(m.group(1))
             cap = int(cap) if cap == int(cap) else cap
             det = details.get(it["id"], {})
+            if not det.get("warranty") and offers:
+                for o in (offers.get(it["id"]) or {}).values():
+                    w = (bspec.get(o.get("url")) or {}).get("warranty")
+                    if w:
+                        det = {"warranty": w}
+                        break
             models.append({"id": it["id"], "n": it["name"], "b": canon[it["brand"].lower()], "s": cap,
                            "t": [k for k, r in types.items() if r.search(it["name"])],
                            "p": (it["best"] or {}).get("price"), "ap": it["any_price"],
@@ -401,7 +410,8 @@ def main():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
         det = details.get(pid, {})
         rows = []
-        for s in enabled:
+        covered = set(leaf.get("stores", {})) | set(so)  # যে স্টোর এই ক্যাটাগরি বিক্রিই করে না, তাকে "পাওয়া যায়নি"-তে দেখানো নয়
+        for s in [x for x in enabled if x in covered]:
             o = so.get(s)
             label, cls = STATUS.get(o["status"], ("", "")) if o else ("", "")
             age = (date.fromisoformat(today) - date.fromisoformat(o["seen"])).days if o and o.get("seen") else None
@@ -496,7 +506,7 @@ def main():
                             "top": [l["name_bn"] for l in sorted(leaf_cards, key=lambda l: -l["count"])[:3]]})
 
     vals = list(items.values())
-    size_pages = build_size_pages(items, products, details, write)
+    size_pages = build_size_pages(items, products, details, write, offers)
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
