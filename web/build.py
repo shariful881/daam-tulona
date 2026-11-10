@@ -254,6 +254,17 @@ def main():
     for sid, st in stores.items():
         st["logo"] = logos.get(sid)
     tax = json.loads((ROOT / "config/taxonomy.json").read_text())
+    # অ্যাডমিন প্যানেল থেকে: ক্যাটাগরির নাম বদল ও লুকানো
+    co_file = ROOT / "config/category_overrides.json"
+    co = json.loads(co_file.read_text()) if co_file.exists() else {}
+    all_cats = []
+    for g in tax["groups"]:
+        g["name_bn"] = co.get("groups", {}).get(g["slug"]) or g["name_bn"]
+        for l in g["leaves"]:
+            l["name_bn"] = co.get("names", {}).get(l["slug"]) or l["name_bn"]
+            all_cats.append({"group": g["slug"], "group_bn": g["name_bn"], "slug": l["slug"], "name_bn": l["name_bn"],
+                             "en": l.get("name_en", ""), "hidden": l["slug"] in co.get("hidden", [])})
+        g["leaves"] = [l for l in g["leaves"] if l["slug"] not in co.get("hidden", [])]
     leaves = {l["slug"]: l for g in tax["groups"] for l in g["leaves"]}
     group_of = {l["slug"]: g for g in tax["groups"] for l in g["leaves"]}
     products = json.loads((DATA / "products.json").read_text())
@@ -285,6 +296,20 @@ def main():
               "going_note": ads.get("going_note", True), "contact": ads.get("contact", {}),
               "house_for": make_house_for(ads)}
 
+    # অ্যাডমিন থেকে মিলানো/লুকানো প্রোডাক্ট সাথে সাথে কার্যকর (পরের দামের রানেও matcher একই কাজ করে)
+    mm_file = DATA / "manual_matches.json"
+    mm = json.loads(mm_file.read_text()) if mm_file.exists() else {}
+    for m in mm.get("merge", []):
+        keep = m.get("keep")
+        for other in m.get("merge", []):
+            if keep in offers and other in offers and other != keep:
+                for st, o in offers.pop(other).items():
+                    if st not in offers[keep] or (o.get("price") and o.get("in_stock") and
+                                                  (not offers[keep][st].get("in_stock") or o["price"] < (offers[keep][st].get("price") or 10**9))):
+                        offers[keep][st] = o
+    for pid in mm.get("ignore", []):
+        offers.pop(pid, None)
+
     items = {}
     for pid, so in offers.items():
         p = products.get(pid)
@@ -305,7 +330,7 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors"):
         if (ROOT / "web/static" / d).exists():
@@ -446,8 +471,19 @@ def main():
         (DIST / "ads.txt").write_text(f"google.com, {client.replace('ca-pub-', 'pub-')}, DIRECT, f08c47fec0942fa0\n")
     stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all),
              "details": sum(1 for pid in items if pid in details)}
-    write("admin", "admin.html", health=health, stats=stats, suggestions=suggestions, fresh=fresh_all[:150],
-          title="অ্যাডমিন | দামতুলনা", description="", noindex=True, noads=True)
+    manual = json.loads((DATA / "manual_matches.json").read_text()) if (DATA / "manual_matches.json").exists() else {}
+    done = {m["keep"] for m in manual.get("merge", [])} | {x for m in manual.get("merge", []) for x in m.get("merge", [])}
+    cat_count = Counter(i["category"] for i in vals)
+    raw_count = Counter(p["category"] for p in products.values())
+    for c in all_cats:
+        c["count"] = cat_count.get(c["slug"], 0) or raw_count.get(c["slug"], 0)
+    admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats,
+             "suggestions": [x for x in suggestions if not ({x["a"], x["b"]} <= done)][:300],
+             "fresh": [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in fresh_all[:100]]}
+    (DIST / "admin").mkdir(exist_ok=True)
+    (DIST / "admin/admin.json").write_text(json.dumps(admin, ensure_ascii=False, separators=(",", ":")))
+    write("admin", "admin.html", title="অ্যাডমিন প্যানেল | দামতুলনা", description="", noindex=True, noads=True,
+          repo=os.environ.get("GITHUB_REPOSITORY", "shariful881/daam-tulona"))
 
     search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
               for i in vals]
