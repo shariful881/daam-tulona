@@ -45,7 +45,8 @@
         "বটম মাউন্ট": "bottom\\s*mount",
         "মিনি": "\\bmini\\b",
         "ডিপ ফ্রিজ": "deep\\s*freez|chest\\s*freez"
-      }
+      },
+      "unit_slug": "liter"
     }
   }
 }

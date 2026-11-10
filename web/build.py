@@ -277,18 +277,55 @@ def build_size_pages(items, products, details, write, offers=None):
                            "st": (it["best"] or {}).get("store"), "w": warranty_bn(det.get("warranty"))})
         if not models:
             continue
-        sizes = Counter(m["s"] for m in models)
-        brands_by_size = defaultdict(set)
-        for m in models:
-            brands_by_size[m["s"]].add(m["b"])
-        exact = [{"s": sz, "n": sizes[sz], "b": len(brands_by_size[sz])} for sz in sorted(sizes)]
-        priced = [m["p"] for m in models if m["p"]]
-        write(f"size/{slug}", "size.html", conf=conf, slug=slug, models_json=json.dumps(models, ensure_ascii=False, separators=(",", ":")),
-              ranges=conf["ranges"], exact=exact, total=len(models), brand_count=len({m["b"] for m in models}),
-              lo=min(priced) if priced else None, hi=max(priced) if priced else None,
-              title=f"{conf['title']}ের দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা",
-              description=f"{len({m['b'] for m in models})}টি ব্র্যান্ডের {len(models)}টি {conf['title']}ের দাম {conf['unit']} অনুযায়ী তুলনা। কোন সাইজে কোন ব্র্যান্ড সবচেয়ে কম দামে।",
-              canonical=f"{SITE_URL}/size/{slug}/" if SITE_URL else None)
+        unit_slug = conf.get("unit_slug", "size")
+
+        def num(x):
+            return str(int(x)) if float(x) == int(x) else str(x)
+
+        ranges = []
+        for r in conf["ranges"]:
+            r = r if isinstance(r, dict) else {"lo": r[0], "hi": r[1]}
+            lo, hi = r["lo"], r["hi"]
+            label = r.get("label") or (f"{num(hi)}-এর কম" if lo == 0 else f"{num(lo)}+" if hi >= 1000 else f"{num(lo)}–{num(hi)}")
+            label = label.translate(BN_DIGITS)
+            rslug = r.get("slug") or (f"under-{num(hi)}-{unit_slug}" if lo == 0 else f"{num(lo)}-plus-{unit_slug}" if hi >= 1000
+                                      else f"{num(lo)}-{num(hi)}-{unit_slug}")
+            sub = [m for m in models if lo <= m["s"] < hi]
+            pr = [m["p"] for m in sub if m["p"]]
+            ranges.append({"lo": lo, "hi": hi, "label": label, "slug": rslug, "n": len(sub),
+                           "b": len({m["b"] for m in sub}), "min": min(pr) if pr else None, "models": sub})
+
+        def page(path, subset, rng):
+            sizes = Counter(m["s"] for m in subset)
+            bys = defaultdict(set)
+            for m in subset:
+                bys[m["s"]].add(m["b"])
+            exact = [{"s": sz, "n": sizes[sz], "b": len(bys[sz])} for sz in sorted(sizes)]
+            priced = [m["p"] for m in subset if m["p"]]
+            # প্রথমবার দেখানোর জন্য ব্র্যান্ডভিত্তিক সর্বনিম্ন দাম (স্টকে থাকা), পাতার HTML-এই থাকে
+            bmin = {}
+            for m in subset:
+                if m["p"] and (m["b"] not in bmin or m["p"] < bmin[m["b"]]):
+                    bmin[m["b"]] = m["p"]
+            bars = sorted(bmin.items(), key=lambda x: x[1])
+            nb = len({m["b"] for m in subset})
+            what = f"{rng['label']} {conf['unit']} {conf['title']}" if rng else conf["title"]
+            write(path, "size.html", conf=conf, slug=slug, rng=rng, ranges=ranges, exact=exact,
+                  models_json=json.dumps(subset, ensure_ascii=False, separators=(",", ":")),
+                  total=len(subset), brand_count=nb, lo=min(priced) if priced else None, hi=max(priced) if priced else None,
+                  bars=bars, bar_max=max(bmin.values()) if bmin else 1,
+                  title=(f"{what}ের দাম বাংলাদেশে | কোন ব্র্যান্ড কত টাকা | দামতুলনা" if rng
+                         else f"{conf['title']}ের দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা"),
+                  description=f"{what}: {nb}টি ব্র্যান্ডের {len(subset)}টি মডেলের দাম পাশাপাশি।"
+                              + (f" শুরু {taka(min(priced))} থেকে।" if priced else "") + " কোন ব্র্যান্ড সবচেয়ে কম দামে, এক নজরে।",
+                  canonical=f"{SITE_URL}/{path}/" if SITE_URL else None)
+
+        page(f"size/{slug}", models, None)
+        for r in ranges:
+            if r["n"]:
+                page(f"size/{slug}/{r['slug']}", r["models"], r)
+        for r in ranges:
+            r.pop("models")
         made.append({"slug": slug, "category": conf["category"], "title": conf["title"], "unit": conf["unit"], "total": len(models)})
     return made
 

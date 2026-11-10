@@ -244,3 +244,7 @@ body.go-on{overflow:hidden}
 .sizecta{display:grid;gap:2px;margin-top:12px;padding:10px 12px;border-radius:12px;border:1px solid var(--best);background:var(--best-soft);color:var(--ink)}
 .sizecta b{font-size:.92rem}
 .sizecta span{font-size:.8rem;color:var(--muted)}
+.chips.szr a.chip{display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.chips.szr a.chip small{font-size:.7rem;color:var(--muted)}
+.chips.szr a.chip[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chips.szr a.chip[aria-current="page"] small{color:var(--bg);opacity:.75}

@@ -1,15 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
-  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/c/{{ conf.category }}/">{{ conf.title }}</a> › সাইজ অনুযায়ী তুলনা</nav>
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/c/{{ conf.category }}/">{{ conf.title }}</a> › {% if rng %}<a href="{{ base }}/size/{{ slug }}/">সাইজ অনুযায়ী</a> › {{ rng.label }} {{ conf.unit }}{% else %}সাইজ অনুযায়ী তুলনা{% endif %}</nav>
   <section class="card">
+    {% if rng %}
+    <h1>{{ rng.label }} {{ conf.unit }} {{ conf.title }}ের দাম: কোন ব্র্যান্ড কত টাকা</h1>
+    {% else %}
     <h1>{{ conf.title }}ের দাম: {{ conf.unit }} অনুযায়ী ব্র্যান্ড তুলনা</h1>
-    <p class="muted" style="margin:0;font-size:.9rem">{{ brand_count|bn }}টি ব্র্যান্ডের {{ total|bn }}টি মডেল{% if lo %}, দাম {{ lo|taka }} থেকে {{ hi|taka }}{% endif %}। সাইজ বাছুন, দেখুন কোন ব্র্যান্ড কত টাকায় দিচ্ছে।</p>
+    {% endif %}
+    <p class="muted" style="margin:0;font-size:.9rem">{{ brand_count|bn }}টি ব্র্যান্ডের {{ total|bn }}টি মডেল{% if lo %}, দাম {{ lo|taka }} থেকে {{ hi|taka }}{% endif %}। {% if rng %}নিচে প্রতিটা ব্র্যান্ডের সবচেয়ে কম দামের মডেল।{% else %}সাইজ বাছুন, দেখুন কোন ব্র্যান্ড কত টাকায় দিচ্ছে।{% endif %}</p>
 
-    <div class="sz-lbl">সাইজের রেঞ্জ</div>
-    <div class="chips" id="rng">
-      <button class="chip" aria-pressed="true" data-r="">সব</button>
-      {% for r in ranges %}<button class="chip" aria-pressed="false" data-r="{{ r[0] }}-{{ r[1] }}">{% if r[0] == 0 %}{{ r[1]|bn }}-এর কম{% elif r[1] >= 1000 %}{{ r[0]|bn }}+{% else %}{{ r[0]|bn }}–{{ r[1]|bn }}{% endif %}</button>{% endfor %}
-    </div>
+    <div class="sz-lbl">সাইজ ({{ conf.unit }})</div>
+    <nav class="chips szr" aria-label="সাইজ">
+      <a class="chip" href="{{ base }}/size/{{ slug }}/"{% if not rng %} aria-current="page"{% endif %}>সব</a>
+      {% for r in ranges if r.n %}<a class="chip" href="{{ base }}/size/{{ slug }}/{{ r.slug }}/"{% if rng and rng.slug == r.slug %} aria-current="page"{% endif %}>{{ r.label }}<small>{{ r.n|bn }}</small></a>{% endfor %}
+    </nav>
 
     <label class="sz-lbl" for="exact">নির্দিষ্ট সাইজ</label>
     <select id="exact" class="sz-sel">
@@ -27,10 +31,21 @@
   <section class="card" id="sumcard">
     <h2 id="sumh">কোন ব্র্যান্ডে সবচেয়ে কম দাম</h2>
     <p class="muted" id="sumtxt" style="margin:0 0 10px;font-size:.88rem"></p>
-    <div class="szbars" id="bars"></div>
+    <div class="szbars" id="bars">{% for b, p in bars %}<div class="szbar{% if loop.first %} top{% endif %}"><span class="bn">{{ b }}</span><span class="tr"><span style="width:{{ [6, (p / bar_max * 100)|round|int]|max }}%"></span></span><b>{{ p|taka }}</b></div>{% endfor %}</div>
   </section>
 
   <div id="brands" class="szbrands"></div>
+
+  {% if not rng %}
+  <section class="card">
+    <h2>সাইজ অনুযায়ী {{ conf.title }}</h2>
+    <div class="rows">
+    {% for r in ranges if r.n %}
+      <a class="row" href="{{ base }}/size/{{ slug }}/{{ r.slug }}/"><div style="min-width:0"><div class="n">{{ r.label }} {{ conf.unit }} {{ conf.title }}</div><div class="w">{{ r.b|bn }}টি ব্র্যান্ড, {{ r.n|bn }}টি মডেল</div></div><div class="p">{% if r.min %}<small class="muted" style="font-weight:400">শুরু</small> {{ r.min|taka }}{% else %}—{% endif %}</div></a>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   <section class="card">
     <h2>জেনে রাখুন</h2>
@@ -41,7 +56,7 @@
 <script>
 (function(){
   var M={{ models_json|safe }}, stores={{ stores_json|safe }}, base="{{ base }}", unit="{{ conf.unit }}";
-  var st={r:"",s:"",t:[],stock:true};
+  var st={s:"",t:[],stock:true}, rlabel={{ ((rng.label ~ " " ~ conf.unit) if rng else "সব সাইজ")|tojson }};
   function bn(n){return String(n).replace(/\d/g,function(d){return "০১২৩৪৫৬৭৮৯"[d]})}
   function tk(n){return n?"৳"+Number(n).toLocaleString("en-IN"):"—"}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
@@ -49,7 +64,6 @@
   function pick(){
     return M.filter(function(m){
       if(st.s&&String(m.s)!==st.s)return false;
-      if(!st.s&&st.r){var a=st.r.split("-");if(m.s<+a[0]||m.s>=+a[1])return false}
       for(var i=0;i<st.t.length;i++)if(m.t.indexOf(st.t[i])<0)return false;
       if(st.stock&&!m.p)return false;
       return true;
@@ -64,7 +78,7 @@
       return {b:b,ms:ms,lo:ps.length?Math.min.apply(null,ps):null,hi:ps.length?Math.max.apply(null,ps):null,
         sizes:Array.from(new Set(ms.map(function(m){return m.s}))).sort(function(a,b){return a-b})};
     }).sort(function(x,y){return (x.lo||1e12)-(y.lo||1e12)});
-    var label=st.s?bn(st.s)+" "+unit:(st.r?document.querySelector('#rng [data-r="'+st.r+'"]').textContent+" "+unit:"সব সাইজ");
+    var label=st.s?bn(st.s)+" "+unit:rlabel;
     document.getElementById("sumh").textContent=label+": কোন ব্র্যান্ডে সবচেয়ে কম দাম";
     document.getElementById("sumtxt").textContent=list.length?(bn(brands.length)+"টি ব্র্যান্ডের "+bn(list.length)+"টি মডেল"+(st.stock?" স্টকে আছে":"")+"। বার যত ছোট, শুরুর দাম তত কম।"):"এই বাছাইয়ে কোনো মডেল নেই। রেঞ্জ বা ধরন বদলে দেখুন"+(st.stock?", অথবা \"শুধু স্টকে আছে\" বন্ধ করুন":"")+"।";
     var max=Math.max.apply(null,brands.map(function(b){return b.lo||0}).concat([1]));
@@ -79,19 +93,16 @@
         (b.ms.length>1?'<details><summary>সব '+bn(b.ms.length)+'টি মডেল দেখুন</summary><div class="rows">'+b.ms.map(function(m){
           return '<a class="row" href="'+base+'/p/'+m.id+'/"><div style="min-width:0"><div class="n">'+esc(m.n)+'</div><div class="w">'+bn(m.s)+' '+unit+(m.t.length?' · '+m.t.join(", "):'')+(m.st?' · '+esc(stores[m.st]||m.st):'')+'</div></div><div class="p">'+(m.p?tk(m.p):'<span class="muted">'+(m.ap?tk(m.ap):'—')+'</span>')+'</div></a>'}).join("")+'</div></details>':'')+
         '</section>'}).join("");
-    var q=[];if(st.r&&!st.s)q.push("r="+st.r);if(st.s)q.push("s="+st.s);if(st.t.length)q.push("t="+encodeURIComponent(st.t.join(",")));if(!st.stock)q.push("all=1");
+    var q=[];if(st.s)q.push("s="+st.s);if(st.t.length)q.push("t="+encodeURIComponent(st.t.join(",")));if(!st.stock)q.push("all=1");
     try{history.replaceState(null,"",q.length?"?"+q.join("&"):location.pathname)}catch(e){}
   }
-  var rng=document.getElementById("rng"),ex=document.getElementById("exact"),typ=document.getElementById("typ");
-  function setR(r){st.r=r;[].forEach.call(rng.children,function(c){c.setAttribute("aria-pressed",c.dataset.r===r)})}
-  rng.addEventListener("click",function(e){var b=e.target.closest(".chip");if(!b)return;setR(b.dataset.r);st.s="";ex.value="";draw()});
-  ex.addEventListener("change",function(){st.s=ex.value;if(st.s)setR("");else setR(st.r);draw()});
+  var ex=document.getElementById("exact"),typ=document.getElementById("typ");
+  ex.addEventListener("change",function(){st.s=ex.value;draw()});
   if(typ)typ.addEventListener("click",function(e){var b=e.target.closest(".chip");if(!b)return;var on=b.getAttribute("aria-pressed")!=="true";b.setAttribute("aria-pressed",on);
     st.t=[].filter.call(typ.children,function(c){return c.getAttribute("aria-pressed")==="true"}).map(function(c){return c.dataset.t});draw()});
   document.getElementById("stock").addEventListener("change",function(){st.stock=this.checked;draw()});
   // ঠিকানা থেকে আগের বাছাই
   var u=new URLSearchParams(location.search);
-  if(u.get("r")&&rng.querySelector('[data-r="'+u.get("r")+'"]'))setR(u.get("r"));
   if(u.get("s")){ex.value=u.get("s");st.s=ex.value}
   if(u.get("t")&&typ){st.t=u.get("t").split(",");[].forEach.call(typ.children,function(c){c.setAttribute("aria-pressed",st.t.indexOf(c.dataset.t)>-1)})}
   if(u.get("all")){st.stock=false;document.getElementById("stock").checked=false}
