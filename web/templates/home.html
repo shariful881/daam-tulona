@@ -12,6 +12,13 @@
   {% endfor %}
   </div>
 
+  {% if size_pages %}
+  <section class="card">
+    <h2>সাইজ অনুযায়ী দাম <span class="sub">· কোন ব্র্যান্ড কত টাকা</span></h2>
+    <div class="szhub">{% for s in size_pages %}<a href="{{ base }}/size/{{ s.slug }}/"><b>{{ s.title }}</b><span>{{ s.unit }} অনুযায়ী · {{ s.total|bn }}টি মডেল</span></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
   {{ slot("home", None, "home") }}
 
   {% if deals %}

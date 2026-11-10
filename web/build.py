@@ -310,12 +310,13 @@ def build_size_pages(items, products, details, write, offers=None):
             bars = sorted(bmin.items(), key=lambda x: x[1])
             nb = len({m["b"] for m in subset})
             what = f"{rng['label']} {conf['unit']} {conf['title']}" if rng else conf["title"]
+            of = conf.get("title_of") or conf["title"] + "ের"
             write(path, "size.html", conf=conf, slug=slug, rng=rng, ranges=ranges, exact=exact,
                   models_json=json.dumps(subset, ensure_ascii=False, separators=(",", ":")),
                   total=len(subset), brand_count=nb, lo=min(priced) if priced else None, hi=max(priced) if priced else None,
                   bars=bars, bar_max=max(bmin.values()) if bmin else 1,
-                  title=(f"{what}ের দাম বাংলাদেশে | কোন ব্র্যান্ড কত টাকা | দামতুলনা" if rng
-                         else f"{conf['title']}ের দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা"),
+                  title=(f"{rng['label']} {conf['unit']} {of} দাম বাংলাদেশে | কোন ব্র্যান্ড কত টাকা | দামতুলনা" if rng
+                         else f"{of} দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা"),
                   description=f"{what}: {nb}টি ব্র্যান্ডের {len(subset)}টি মডেলের দাম পাশাপাশি।"
                               + (f" শুরু {taka(min(priced))} থেকে।" if priced else "") + " কোন ব্র্যান্ড সবচেয়ে কম দামে, এক নজরে।",
                   canonical=f"{SITE_URL}/{path}/" if SITE_URL else None)
@@ -549,7 +550,7 @@ def main():
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
-    write("", "home.html", groups=group_cards, deals=deals, fresh=fresh, total=len(vals),
+    write("", "home.html", groups=group_cards, size_pages=size_pages, deals=deals, fresh=fresh, total=len(vals),
           multi=sum(1 for i in vals if i["store_count"] > 1),
           store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",

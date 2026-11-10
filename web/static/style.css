@@ -248,3 +248,8 @@ body.go-on{overflow:hidden}
 .chips.szr a.chip small{font-size:.7rem;color:var(--muted)}
 .chips.szr a.chip[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .chips.szr a.chip[aria-current="page"] small{color:var(--bg);opacity:.75}
+.szhub{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.szhub{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.szhub a{display:grid;gap:2px;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink)}
+.szhub b{font-size:1rem}
+.szhub span{font-size:.76rem;color:var(--muted)}

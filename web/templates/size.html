@@ -3,9 +3,9 @@
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/c/{{ conf.category }}/">{{ conf.title }}</a> › {% if rng %}<a href="{{ base }}/size/{{ slug }}/">সাইজ অনুযায়ী</a> › {{ rng.label }} {{ conf.unit }}{% else %}সাইজ অনুযায়ী তুলনা{% endif %}</nav>
   <section class="card">
     {% if rng %}
-    <h1>{{ rng.label }} {{ conf.unit }} {{ conf.title }}ের দাম: কোন ব্র্যান্ড কত টাকা</h1>
+    <h1>{{ rng.label }} {{ conf.unit }} {{ conf.title_of or (conf.title ~ 'ের') }} দাম: কোন ব্র্যান্ড কত টাকা</h1>
     {% else %}
-    <h1>{{ conf.title }}ের দাম: {{ conf.unit }} অনুযায়ী ব্র্যান্ড তুলনা</h1>
+    <h1>{{ conf.title_of or (conf.title ~ 'ের') }} দাম: {{ conf.unit }} অনুযায়ী ব্র্যান্ড তুলনা</h1>
     {% endif %}
     <p class="muted" style="margin:0;font-size:.9rem">{{ brand_count|bn }}টি ব্র্যান্ডের {{ total|bn }}টি মডেল{% if lo %}, দাম {{ lo|taka }} থেকে {{ hi|taka }}{% endif %}। {% if rng %}নিচে প্রতিটা ব্র্যান্ডের সবচেয়ে কম দামের মডেল।{% else %}সাইজ বাছুন, দেখুন কোন ব্র্যান্ড কত টাকায় দিচ্ছে।{% endif %}</p>
 
@@ -49,7 +49,7 @@
 
   <section class="card">
     <h2>জেনে রাখুন</h2>
-    <p class="muted" style="margin:0;font-size:.86rem;line-height:1.6">একেক ব্র্যান্ডের মডেল আলাদা, তাই এখানে একই সাইজে কোন ব্র্যান্ড কত টাকায় দিচ্ছে সেটা দেখানো হয়েছে। সংখ্যাটা কয়টা মডেল বাজারে পাওয়া যাচ্ছে তার হিসাব, কোনটা কত বিক্রি হয় তার নয়। {{ conf.title }} কেনার আগে কম্প্রেসরের ওয়ারেন্টি, বিদ্যুৎ খরচ (ইনভার্টার কিনা) আর বাসার কাছে সার্ভিস সেন্টার আছে কিনা দেখে নিন।</p>
+    <p class="muted" style="margin:0;font-size:.86rem;line-height:1.6">একেক ব্র্যান্ডের মডেল আলাদা, তাই এখানে একই সাইজে কোন ব্র্যান্ড কত টাকায় দিচ্ছে সেটা দেখানো হয়েছে। সংখ্যাটা কয়টা মডেল বাজারে পাওয়া যাচ্ছে তার হিসাব, কোনটা কত বিক্রি হয় তার নয়। {{ conf.tip }}</p>
   </section>
 {% endblock %}
 {% block after %}
