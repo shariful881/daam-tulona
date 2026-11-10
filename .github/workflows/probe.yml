@@ -1,0 +1,30 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch sample pages
+        run: |
+          mkdir -p out
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          get(){ curl -sSL -A "$UA" --max-time 40 -o "out/$1" -w "$1 %{http_code} %{size_download}\n" "$2" || echo "$1 FAIL"; }
+          get st_robots.txt https://www.startech.com.bd/robots.txt
+          get st_cat.html "https://www.startech.com.bd/component/laptop-ram"
+          get st_cat_p2.html "https://www.startech.com.bd/component/laptop-ram?page=2"
+          get st_prod.html https://www.startech.com.bd/samsung-8gb-ddr4-3200mhz-laptop-ram
+          get ry_robots.txt https://www.ryans.com/robots.txt
+          get ry_home.html https://www.ryans.com/
+          get ry_sitemap.xml https://www.ryans.com/sitemap.xml
+          get ry_cat.html "https://www.ryans.com/category/laptop-ram"
+          get ry_cat2.html "https://www.ryans.com/category/computer-desktop-component"
+          get tl_robots.txt https://www.techlandbd.com/robots.txt
+          get tl_home.html https://www.techlandbd.com/
+          get tl_sitemap.xml https://www.techlandbd.com/sitemap.xml
+          get tl_cat.html "https://www.techlandbd.com/laptop-ram"
+          get tl_prod.html https://www.techlandbd.com/lexar-8gb-ddr4-3200mhz-laptop-ram
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe
+          path: out
