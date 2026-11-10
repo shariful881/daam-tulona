@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › তুলনা</nav>
+  <section class="card" id="cmpapp">
+    <h1>প্রোডাক্ট তুলনা</h1>
+    <p class="muted" id="cmpintro" style="margin:0;font-size:.9rem">একই ক্যাটাগরির সর্বোচ্চ ৪টি প্রোডাক্ট পাশাপাশি দেখুন। যেখানে পার্থক্য আছে, সেই সারি রঙিন।</p>
+    <div style="margin-top:12px;position:relative">
+      <input class="search" style="max-width:none;width:100%" id="addq" type="search" placeholder="তুলনায় আরেকটা প্রোডাক্ট যোগ করুন…" aria-label="প্রোডাক্ট খুঁজে যোগ করুন">
+      <div class="rows" id="addres" style="margin-top:6px"></div>
+    </div>
+    <label class="ctrl"><input type="checkbox" id="onlydiff"> শুধু পার্থক্যগুলো দেখান</label>
+  </section>
+
+  <div id="cmpout"></div>
+{% endblock %}
+{% block after %}
+<script>
+(function(){
+  var base="{{ base }}", stores={{ stores_json | safe }};
+  var out=document.getElementById('cmpout'), onlyDiff=document.getElementById('onlydiff');
+  var data=[], index=null;
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function taka(n){return n?'৳'+Number(n).toLocaleString('en-IN'):'—'}
+  function ids(){var q=new URLSearchParams(location.search).get('ids');
+    if(q)return q.split(',').filter(Boolean).slice(0,4);
+    var l=(window.DTCompare?DTCompare.load():[]);return l.map(function(x){return x.id})}
+  function sync(){
+    var list=data.map(function(d){return {id:d.id,cat:d.c,name:d.n}});
+    if(window.DTCompare)DTCompare.save(list);
+    history.replaceState(null,'','?ids='+data.map(function(d){return d.id}).join(','));
+  }
+  function load(){
+    var list=ids();
+    if(!list.length){out.innerHTML='<section class="card"><p class="muted" style="margin:0">তুলনার তালিকা খালি। কোনো প্রোডাক্ট পেজে গিয়ে "তুলনায় যোগ করুন" চাপুন, অথবা উপরে খুঁজে যোগ করুন।</p></section>';return}
+    Promise.all(list.map(function(id){return fetch(base+'/d/'+id+'.json').then(function(r){return r.ok?r.json():null}).catch(function(){return null})}))
+      .then(function(r){data=r.filter(Boolean);sync();draw()});
+  }
+  function row(label,vals,cls){
+    var diff=vals.length>1&&vals.some(function(v){return v!==vals[0]});
+    if(onlyDiff.checked&&!diff&&cls!=='keep')return '';
+    return '<tr class="'+(diff?'diff':'')+'"><td>'+esc(label)+'</td>'+vals.map(function(v){return '<td>'+(v===''?'<span class="muted">—</span>':v)+'</td>'}).join('')+'</tr>';
+  }
+  function draw(){
+    if(!data.length){load();return}
+    var cat=data[0].cn, h='';
+    var mins=data.map(function(d){return d.best?d.best.price:null}).filter(Boolean), lo=Math.min.apply(null,mins);
+    h+='<tr><td>প্রোডাক্ট</td>'+data.map(function(d,i){return '<td><a class="pname" href="'+base+'/p/'+d.id+'/">'+esc(d.n)+'</a><br><button class="rm" data-i="'+i+'">সরান ✕</button></td>'}).join('')+'</tr>';
+    h+=row('সর্বনিম্ন দাম',data.map(function(d){return d.best?'<span class="'+(d.best.price===lo&&data.length>1?'lo':'')+'">'+taka(d.best.price)+'</span><br><small class="muted">'+esc(stores[d.best.store])+'</small>':'স্টকে নেই'}),'keep');
+    h+=row('স্টোর সংখ্যা',data.map(function(d){return String(Object.keys(d.o).length)}),'keep');
+    h+=row('ওয়ারেন্টি',data.map(function(d){return esc(d.w||'')}));
+    h+=row('ব্র্যান্ড',data.map(function(d){return esc(d.b)}));
+    h+=row('মডেল',data.map(function(d){return esc(d.m||'')}));
+    // সব স্পেক অংশ ও সারি একত্র করা
+    var secs=[],seen={};
+    data.forEach(function(d){Object.keys(d.sp||{}).forEach(function(s){if(/warranty/i.test(s))return;
+      if(!seen[s]){seen[s]={};secs.push([s,[]])}
+      var keys=secs.filter(function(x){return x[0]===s})[0][1];
+      Object.keys(d.sp[s]).forEach(function(k){if(!seen[s][k]){seen[s][k]=1;keys.push(k)}})})});
+    var secBn={{ section_bn | tojson }};
+    secs.forEach(function(sec){
+      var body=sec[1].map(function(k){return row(k,data.map(function(d){return esc(((d.sp||{})[sec[0]]||{})[k]||'')}))}).join('');
+      if(body)h+='<tr class="sec"><td colspan="'+(data.length+1)+'">'+esc(secBn[sec[0].toLowerCase()]||sec[0])+'</td></tr>'+body;
+    });
+    var note=data.length<2?'<p class="muted" style="font-size:.85rem;margin:8px 0 0">তুলনার জন্য আরেকটা প্রোডাক্ট যোগ করুন।</p>':'';
+    var thin=data.some(function(d){return !d.m&&!d.w})?'<p class="muted" style="font-size:.8rem;margin:8px 0 0">কিছু প্রোডাক্টের বিস্তারিত স্পেক এখনো সংগ্রহ চলছে, কয়েক দিনের মধ্যে যোগ হবে।</p>':'';
+    out.innerHTML='<section class="card"><h2>'+esc(cat)+' তুলনা</h2><div class="cmpwrap"><table class="cmptbl">'+h+'</table></div>'+note+thin+'</section>';
+  }
+  out.addEventListener('click',function(e){var b=e.target.closest('.rm');if(!b)return;data.splice(+b.dataset.i,1);sync();
+    if(data.length)draw();else load();});
+  onlyDiff.addEventListener('change',draw);
+  // খুঁজে যোগ করা (একই ক্যাটাগরি)
+  var q=document.getElementById('addq'), res=document.getElementById('addres');
+  q.addEventListener('focus',function(){if(!index)fetch(base+'/search.json').then(function(r){return r.json()}).then(function(j){index=j})});
+  q.addEventListener('input',function(){
+    var t=q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if(!t.length||!index){res.innerHTML='';return}
+    var cat=data.length?data[0].c:null, have=data.map(function(d){return d.id});
+    var hits=index.filter(function(d){var n=(d.n+' '+d.c).toLowerCase();return (!cat||d.g===cat)&&have.indexOf(d.id)<0&&t.every(function(w){return n.indexOf(w)>-1})}).slice(0,8);
+    res.innerHTML=hits.map(function(d){return '<button type="button" class="row" style="width:100%;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;font:inherit;color:inherit;cursor:pointer" data-add="'+d.id+'"><div style="min-width:0"><div class="n">'+esc(d.n)+'</div><div class="w">'+esc(d.c)+'</div></div><div class="p">'+taka(d.p)+'</div></button>'}).join('')
+      ||'<p class="muted" style="margin:0;font-size:.85rem">'+(cat?'এই ক্যাটাগরিতে মিলছে না।':'কিছু পাওয়া যায়নি।')+'</p>';
+  });
+  res.addEventListener('click',function(e){var b=e.target.closest('[data-add]');if(!b)return;
+    if(data.length>=4){res.innerHTML='<p class="muted" style="margin:0;font-size:.85rem">সর্বোচ্চ ৪টি। একটা সরিয়ে আবার যোগ করুন।</p>';return}
+    fetch(base+'/d/'+b.dataset.add+'.json').then(function(r){return r.json()}).then(function(d){data.push(d);sync();draw();q.value='';res.innerHTML=''});
+  });
+  load();
+})();
+</script>
+{% endblock %}

@@ -24,6 +24,8 @@
     </div>
     {% if saving %}<span class="save">সঠিক স্টোর বাছলে {{ saving | taka }} সাশ্রয়</span>{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
+    <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
+    <p class="cmpmsg muted" hidden></p>
   </section>
 
   <section class="card">

@@ -210,7 +210,8 @@ def main():
     env = Environment(loader=FileSystemLoader(ROOT / "web/templates"), autoescape=select_autoescape(["html"]))
     env.filters["taka"] = taka
     env.filters["bn"] = bn_num
-    common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES}
+    common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
+              "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False)}
 
     items = {}
     for pid, so in offers.items():
@@ -232,7 +233,8 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    shutil.copy(ROOT / "web/static/style.css", DIST / "static/style.css")
+    for f in ("style.css", "compare.js"):
+        shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     urls = []
 
     def write(path, template, **ctx):
@@ -289,6 +291,12 @@ def main():
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
+        cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
+               "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": det.get("key_features", [])[:6],
+               "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
+               "sp": det.get("specs") or {"মূল তথ্য": {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()}}}
+        (DIST / "d").mkdir(exist_ok=True)
+        (DIST / f"d/{pid}.json").write_text(json.dumps(cmp, ensure_ascii=False, separators=(",", ":")))
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(
@@ -346,13 +354,15 @@ def main():
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
           description=f"{len(vals)}টি প্রোডাক্টের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
           canonical=f"{SITE_URL}/" if SITE_URL else None)
+    write("compare", "compare.html", title="তুলনা করুন | দামতুলনা", description="প্রোডাক্ট পাশাপাশি তুলনা", noindex=True,
+          section_bn=SECTION_BN)
     write("search", "search.html", title="খুঁজুন | দামতুলনা", description="প্রোডাক্ট খুঁজুন", noindex=True)
     stats = {"total": len(vals), "multi": sum(1 for i in vals if i["store_count"] > 1), "new": len(fresh_all),
              "details": sum(1 for pid in items if pid in details)}
     write("admin", "admin.html", health=health, stats=stats, suggestions=suggestions, fresh=fresh_all[:150],
           title="অ্যাডমিন | দামতুলনা", description="", noindex=True)
 
-    search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
+    search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
               for i in vals]
     (DIST / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
     # sitemap ৫০,০০০ লিংকের মধ্যে থাকলে একটা ফাইলেই চলে

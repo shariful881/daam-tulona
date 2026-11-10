@@ -27,5 +27,8 @@
   <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
 </main>
 {% block after %}{% endblock %}
+<div class="cmpbar" id="cmpbar" hidden><div class="col"><span id="cmpcount"></span><button type="button" class="link" id="cmpclear">মুছুন</button><a class="btn sm" id="cmpgo" href="{{ base }}/compare/">তুলনা করুন</a></div></div>
+<script>window.DT_BASE="{{ base }}";</script>
+<script src="{{ base }}/static/compare.js?v={{ build_id }}" defer></script>
 </body>
 </html>
