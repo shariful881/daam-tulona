@@ -146,6 +146,8 @@ def warranty_bn(w: str | None) -> str | None:
     if m:
         unit = {"year": "বছর", "month": "মাস", "day": "দিন"}[m.group(2).lower()]
         rest = re.sub(r"\d+\s*(year|month|day)s?\s*(warranty)?", "", s, flags=re.I).strip(" ,.-()")
+        if rest.lower() == "compressor":
+            return f"কম্প্রেসরে {bn_num(m.group(1))} {unit} ওয়ারেন্টি"
         return f"{bn_num(m.group(1))} {unit} ওয়ারেন্টি" + (f" ({rest})" if rest else "")
     if re.search(r"no\s+warranty", s, re.I):
         return "ওয়ারেন্টি নেই"
