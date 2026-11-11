@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 2.0",
+   "LED": "Status",
+   "Dimensions ( W x D x H )": "26.8 × 15.7 × 7.5 mm (1.06 × 0.62 × 0.30 in)",
+   "Antenna": "2× Dual-Band Antennas",
+   "Wireless Standards": "IEEE 802.11a/b/g/n/ac/ax",
+   "Signal Rate": "5 GHz:\n11ax: Up to 1201 Mbps(dynamic)\n11ac: Up to 867 Mbps(dynamic)\n11n: Up to 300 Mbps(dynamic)\n11a: Up to 54 Mbps(dynamic)",
+   "Reception Sensitivity": "5 GHz:\n11ax HE80 MCS0: -90 dBm\n11ax HE80 MCS11: -59 dBm\n11a 54Mbps: -77 dBm\n11ac VHT80 MCS0: -92dBm",
+   "Wireless Modes": "Infrastructure mode",
+   "Wireless Security": "WEP, WPA/WPA2/WPA3, WPA-PSK/WPA2-PSK",
+   "Transmission Power": "5 GHz: 10dBm(FCC)\n2.4 GHz : 10dBm(FCC)",
+   "Certification": "FCC, CE",
+   "Package Content": "AX1800 Nano Wi-Fi 6 Wireless USB Adapter TX20U Nano\nQuick Installation Guide",
+   "System Requirements": "Supported operating systems include Windows 10, 11",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:38+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-tx20u-nano/",
+ "brand_site": "TP-Link"
+}

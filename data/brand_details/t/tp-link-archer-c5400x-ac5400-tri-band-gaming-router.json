@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Speeds": "AC5400\n5 GHz: 2167 Mbps (802.11ac)\n5 GHz: 2167 Mbps (802.11ac)\n2.4 GHz: 1000 Mbps (802.11n)",
+   "WiFi Range": "4 Bedroom Houses\n8× Detachable High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "High\nTri-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router ModeAccess Point Mode",
+   "Network Security": "SPI FirewallAccess ControlIP & MAC BindingApplication Layer Gateway\nHomeCare™ Antivirus\nMalicious Site CheckerPort Intrusion Prevention\nInfected Device Isolation\nNotification and Log",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "VPN Server": "OpenVPN\nPPTP",
+   "WiFi Encryption": "WEP\nWPA\nWPA2\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "1.8 GHz 64 Bit Quad-Core CPU",
+   "Ethernet Ports": "1× Gigabit WAN Port\n8× Gigabit LAN Ports\nStatic Link Aggregation (LAG) available with 2× LAN ports",
+   "USB Support": "2× USB 3.0 Ports\nSupported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\nSupported Functions:\nApple Time Machine",
+   "Power": "12 V ⎓ 5 A",
+   "Buttons": "Wi-Fi On/Off Button\nPower On/Off Button\nLED On/Off Button\nWPS Button\nReset Button",
+   "Protocols": "IPv4\nIPv6",
+   "Service Kits": "HomeCare™",
+   "Parental Controls": "HomeCare™ Parental Controls\nCustom Profiles\nContent Filtering\nApp Block\nURL Filtering",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "GeForce NOW™ QoS\nQoS by Device\nHomeCare™ QoS\nQoS by Application",
+   "Cloud Service": "Auto Firmware Upgrade\nOTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
+   "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "FCC, CE",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing",
+   "Dimensions (W×D×H)": "11.3 × 11.3 × 7.2 in\n(288 × 288 × 184 mm)",
+   "Package Content": "Wi-Fi Router Archer C5400X\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:41+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c5400x/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt Z790-CREATOR WIFI",
+   "CPU": "Supports Intel® Turbo Boost Technology 2.0\nand Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.",
+   "Chipset": "Intel\n®\nZ790 Chipset",
+   "Memory": "4 x DIMM, Max. 192GB, DDR5\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nOptiMem II",
+   "Graphics": "1 x HDMI® port**\n2 x Intel® Thunderbolt™ 4 ports (USB\nType-C®) support DisplayPort*** and Thunderbolt™ video outputs****\n** Support 4K@60Hz as specified in HDMI 2.1.\n*** Support 8K@60Hz as specified in DisplayPort 1.4.",
+   "Expansion Slots": "Intel® Core™ Processors (14th & 13th & 12th Gen)*\n2 x PCIe 5.0 x16 slots (support x16 or x8/x8 modes)\nIntel® Z790 Chipset**\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n- To ensure compatibility of the device installed, please refer to",
+   "Storage": "Total supports 4 x M.2 slots and 8 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nIntel® Z790 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)",
+   "Ethernet": "1 x Marvell\n®\nAQtion 10Gb Ethernet\n1 x Intel\n®",
+   "Wireless & Bluetooth": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth® v5.3**\n* WiFi 6E 6GHz regulatory may vary between countries.",
+   "USB": "Rear USB (Total 8 ports)\n2 x Thunderbolt\n™\n4 port(s) (2 x USB Type-C\n®",
+   "Audio": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)",
+   "Back Panel I/O Ports": "2 x Thunderbolt™ 4 USB Type-C\n®\nport(s)\n6 x USB 3.2 Gen 2 port(s) (6 x Type-A)\n2 x DisplayPort (Input only)",
+   "Internal I/O Connectors": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin CPU OPT Fan header(s)\n1 x 4-pin AIO Pump header(s)\n5 x 4-pin Chassis Fan header(s)",
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards\n- LANGuard",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 4 with AI Cooling II",
+   "BIOS": "256 Mb",
+   "Manageability": "WOL by PME, PXE",
+   "Operating System": "Windows\n®\n11 64-bit, Windows\n®\n10 64-bit",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers",
+   "Accessories": "Keyboards"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt Z790-CREATOR WIFI",
+ "fetched": "2026-11-11T10:54+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/proart/proart-z790-creator-wifi/techspec/",
+ "brand_site": "ASUS"
+}

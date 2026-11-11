@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "8 10/100/1000Mbps RJ45 Ports",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)",
+   "Fan Quantity": "1",
+   "Physical Security Lock": "No",
+   "Power Supply": "100-240VAC, 50/60Hz",
+   "Packet Forwarding Rate": "11.904 Mpps",
+   "PoE Ports (RJ45)": "Standard: 802.3af/at compliantPoE+ Ports: 8 Ports\nPower Supply: 153W",
+   "Mac Address Table": "4K",
+   "Buffer Size": "1.5Mbits",
+   "Jumbo Frame": "16 KB",
+   "Switching Capacity": "16Gbps",
+   "Dimensions ( W x D x H )": "11.6*7.1*1.7 in. (294*180*44 mm)",
+   "Mounting": "Desktop/Rack Mountable",
+   "Max. Power Consumption": "8.57W(220V/50Hz. no PD connected)\n173.65W(110V/60Hz. with 153W PD connected)",
+   "Max. Heat Dissipation": "29.22BTU/h(no PD connected)\n592.15BTU/h(with 153W PD connected)",
+   "Advanced Features": "Compatible With IEEE 802.3af/at Compliant PDs\nPriority Function\nMac Address Auto-Learning And Auto-Aging\nIEEE802.3x Flow Control For Full-Duplex Mode And Backpressure For Half-Duplex Mode",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "TL-SG1008MP, Power Cord, Installation Guide, Rackmount Kit, Rubber Feet",
+   "Environment": "Operating Temperature: 0℃~50℃ (32℉~122℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:43+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sg1008mp/",
+ "brand_site": "TP-Link"
+}

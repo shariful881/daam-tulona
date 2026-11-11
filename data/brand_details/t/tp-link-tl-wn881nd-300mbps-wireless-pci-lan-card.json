@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "PCI Express(x1)",
+   "Dimensions ( W x D x H )": "4.8 x 3.1 x 0.8in. (120.8 x 78.5 x 21.5mm)",
+   "Antenna": "Detachable Omni Directional (RP-SMA)",
+   "Antenna Gain": "2dBi",
+   "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Frequency": "2.400-2.4835GHz",
+   "Signal Rate": "11n: Up to 300Mbps(dynamic)\n11g: Up to 54Mbps(dynamic)\n11b: Up to 11Mbps(dynamic)",
+   "Reception Sensitivity": "270M: -68dBm@10% PER\n130M: -68dBm@10% PER\n108M: -73dBm@10% PER\n54M: -73dBm@10% PER\n11M: -89dBm@8% PER",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM",
+   "Transmission Power": "<20dBm(EIRP)",
+   "Certification": "FCC, RoHS",
+   "Package Content": "Wireless Adapter\n2x Detachable Omni directional antenna\nResource CD\nQuick Installation Guide",
+   "System Requirements": "Windows 10/8.1/8/7，Linux",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:44+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/pci-adapter/tl-wn881nd/",
+ "brand_site": "TP-Link"
+}

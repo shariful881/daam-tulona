@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i/802.3u/ 802.3ab/802.3x",
+   "Interface": "8× 10/100/1000Mbps, Auto-Negotiation, Auto-MDI/MDIX Ports",
+   "Fan Quantity": "Fanless",
+   "External Power Supply": "External Power Adapter (Output: 5VDC / 0.6A)",
+   "Dimensions ( W x D x H )": "5.0 × 2.6 × 0.9 in.\n(127 × 66.5 × 23 mm)",
+   "Max. Power Consumption": "2.7W",
+   "Max. Heat Dissipation": "13.3 BTU/h",
+   "Packet Buffer Memory": "1.5 Mb",
+   "Jumbo Frame": "16 KB",
+   "Switching Capacity": "16 Gbps",
+   "Packet Forwarding Rate": "11.9 Mpps",
+   "MAC Address Table": "4K",
+   "Advanced Features": "Green Technology802.3X Flow Control\nBack Pressure",
+   "Transmission Method": "Store and Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "8-Port 10/100/1000Mbps Desktop Switch\nPower Adapter\nInstallation Guide",
+   "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)\nStorage Temperature: -40℃~60℃ (-40℉~140℉)\nOperating Humidity: 10% ~ 90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:42+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/8-port-switch/ls1008g/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "WiFi Speeds": "AX5400\n5 GHz: 4804 Mbps (802.11ax, HE160)\n2.4 GHz: 574 Mbps (802.11ax)",
+   "WiFi Range": "3 Bedroom Houses\n6× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway\nHomeShield Security",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "VPN Server": "• OpenVPN\n• PPTP\n• L2TP",
+   "VPN Client": "• OpenVPN\n• PPTP\n• L2TP",
+   "WiFi Encryption": "WPA\nWPA2\nWPA3\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "1 GHz Dual-Core CPU",
+   "Ethernet Ports": "• 1× 2.5 Gigabit WAN/LAN Port\n• 1× Gigabit WAN/LAN Port\n• 3× Gigabit LAN Ports",
+   "USB Support": "1× USB 3.0 Port\nSupported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\nSupported Functions:\nApple Time Machine",
+   "Power": "12 V ⎓ 2.5 A",
+   "Buttons": "Wi-Fi On/Off Button\nPower On/Off Button\nLED On/Off Button\nWPS Button\nReset Button",
+   "Protocols": "IPv4\nIPv6",
+   "Service Kits": "HomeShield\nLearn More>",
+   "OneMesh™": "OneMesh™ Supported\nLearn More>\nAll OneMesh Products>",
+   "Parental Controls": "HomeShield Parental Controls\nCustom Profiles\nProfessional Content Filter Library\nFamily Time\nBedtime",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "Cloud Service": "Auto Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP\nVirtual Server",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
+   "Certifications": "FCC, CE",
+   "WiFi Reception Sensitivity": "2.4GHz:11ac VHT20 MCS0:-94.5dBm\n11ac VHT20 MCS8:-72.5dBm\n11ac VHT40 MCS0:-92.5dBm\n11ac VHT40 MCS9:-69.5dBm\n11ax HE20 MCS0:-95dBm",
+   "Dimensions (W×D×H)": "10.7 × 5.8 × 1.9 in\n(272.5 × 147.2 × 49.2 mm)",
+   "Package Content": "Wi-Fi Router Archer AX72\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:41+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax72-pro/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "PRIME Z790-A WIFI",
+   "CPU": "Intel\n®\nSocket LGA1700 for Intel\n®\nCore™ 14",
+   "Chipset": "Intel\n®\nZ790 Chipset",
+   "Memory": "Dual Channel Memory Architecture\nSupports Intel\n®\nExtreme Memory Profile (XMP)\nOptiMem II",
+   "Graphics": "1 x DisplayPort**\n1 x HDMI\n®\nport***\n* Graphics specifications may vary between CPU types. Please refer to",
+   "Expansion Slots": "Intel\n®\nCore™ Processors (14\nth\n& 13",
+   "Storage": "Total supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel\n®\nCore™ Processors (14\nth",
+   "Ethernet": "1 x Intel\n®\n2.5Gb Ethernet\nASUS LANGuard",
+   "Wireless & Bluetooth": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth\n®",
+   "USB": "Rear USB (Total 8 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C\n®\n)\n3 x USB 3.2 Gen 2 ports (2 x Type-A, 1 x USB Type-C",
+   "Audio": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)",
+   "Back Panel I/O Ports": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C\n®\n)\n3 x USB 3.2 Gen 2 ports (2 x Type-A, 1 x Type-C\n®",
+   "Internal I/O Connectors": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers",
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards\n- LANGuard\n- Overvoltage Protection",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Accessories": "Cables\n2 x SATA 6Gb/s cables\nMiscellaneous\n1 x ASUS Wi-Fi moving antenna\n1 x Q-connector",
+   "Operating System": "Windows\n®\n11, Windows\n®\n10 64-bit",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers"
+  }
+ },
+ "key_features": [],
+ "model": "PRIME Z790-A WIFI",
+ "fetched": "2026-11-11T10:54+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z790-a-wifi/techspec/",
+ "brand_site": "ASUS"
+}

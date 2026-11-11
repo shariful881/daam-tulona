@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt B650-CREATOR",
+   "News & Updates": "Socket AM5",
+   "CPU": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.",
+   "Chipset": "AMD B650",
+   "Memory": "Dual Channel Memory Architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nOptiMem II\n** Non-ECC, Un-buffered DDR5 Memroy supports On-Die ECC function.",
+   "Graphics": "1 x HDMI\nTM\nport**\n1 x USB Type-C\n®",
+   "Expansion Slots": "AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots (support x16 or x8/x8 modes)**\nAMD B650 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)***\n1 x PCIe 4.0 x1 slot",
+   "Storage": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors",
+   "Ethernet": "1 x Realtek 2.5Gb Ethernet\n1 x Realtek 1Gb Ethernet\nASUS LANGuard",
+   "Wireless & Bluetooth": "M.2 slot only (Key E, PCIe)*\n*Wi-Fi module is sold separately.",
+   "USB": "Rear USB (Total 7 ports)\n1 x USB 3.2 Gen 2 port (1 x USB Type-C\n®\n, shared with DisplayPort graphic output )\n4 x USB 3.2 Gen 2 ports (3 x Type-A + 1 x USB Type-C",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance",
+   "Back Panel I/O Ports": "1 x USB 3.2 Gen 2 port (1 x USB Type-C\n®\n, shared with DisplayPort graphic output )\n4 x USB 3.2 Gen 2 ports (3 x Type-A + 1 x USB Type-C\n®",
+   "Internal I/O Connectors": "I/O ConnectorsFan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers",
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards\n- LANGuard",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Accessories": "Cables\n1 x DisplayPort cable\n2 x SATA 6Gb/s cables\nMiscellaneous\n1 x Q-connector",
+   "Operating System": "Windows\n®\n11 64-bit, Windows\n®\n10 64-bit",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt B650-CREATOR",
+ "fetched": "2026-11-11T10:53+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/proart/proart-b650-creator/techspec/",
+ "brand_site": "ASUS"
+}

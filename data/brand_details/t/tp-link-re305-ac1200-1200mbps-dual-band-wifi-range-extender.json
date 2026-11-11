@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specifications": {
+   "Working Modes": "Range Extender/Access Point",
+   "Plug Type": "EU, UK, US",
+   "Interface": "1 x 10/100Mbps Ethernet Port (RJ45)",
+   "Button": "WPS Button, Reset Button",
+   "Input Power": "100-240V~50/60Hz",
+   "Max. Power Consumption": "7.3W（max power consumption）",
+   "Dimensions ( W x D x H )": "3.1 x 3.0 x 3.0 in. (80 x 78 x 77mm)",
+   "Antenna": "2 External Antennas",
+   "Wireless Standards": "IEEE 802.11a/n/ac 5GHz, IEEE 802.11b/g/n 2.4GHz",
+   "Frequency": "2.4GHz and 5GHz",
+   "Signal Rate": "300Mbps at 2.4GHz, 867Mbps at 5GHz",
+   "Reception Sensitivity": "5GHz：\n11a 6Mbps:-91dBm\n11a 54Mbps: -74dBm\n11ac HT20 mcs8: -68dBm\n11ac HT40 mcs9: -63dBm",
+   "Wireless Functions": "Enable/Disable Wireless Radio\nDFS (the latest firmware and hardware version is required)\nAccess Control\nLED Control\nPower Schedule",
+   "Wireless Security": "64/128-bit WEP\nWPA-PSK / WPA2-PSK",
+   "Transmission Power": "2.4G<17dBm， 5G<17dBm",
+   "Certification": "CE, FCC, RoHS",
+   "Package Content": "AC1200 Wi-Fi Range Extender RE305\nQuick Installation Guide",
+   "Box Dimensions (W X D X H)": "6.15 x 4 x 3.7 in. (156.5 x 101.5 x 95mm)",
+   "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)\nStorage Temperature: -40°C~70°C (-40°F~158°F)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  },
+  "Perfect Location at a Glimpse": {
+   "Blue": "Good\nconnection",
+   "Red": "Too far away\nfrom the router"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:42+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/range-extender/re305/",
+ "brand_site": "TP-Link"
+}

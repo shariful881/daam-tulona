@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "PSU Wattage": {
+   "Part No.": "CP-9020220",
+   "AC Input": "100-240V",
+   "Input Current": "10A-5A",
+   "Frequency": "47~63Hz",
+   "Total Power": "650W"
+  },
+  "Tech Specs": {
+   "EPS12V Version": "2.92",
+   "PATA Connector": "4",
+   "SATA Connector": "6",
+   "Fan Bearing Technology": "Rifle",
+   "Modular": "Semi",
+   "Cable Type": "Low-Profile, All Black",
+   "Zero RPM Mode": "No",
+   "PSU Form Factor": "ATX",
+   "Single Multiple 12V Rail Toggl": "No",
+   "Multi GPU Ready": "No",
+   "Fan Size MM": "120mm",
+   "Continuous Power W": "650 Watts",
+   "ATX Connector": "1",
+   "Continuous Output Rated Temp C": "40°C",
+   "ATX12V Version": "v2.4",
+   "MTBF Hours": "100,000 hours",
+   "Warranty": "5 Year",
+   "Weight": "2kg"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:39+06:00",
+ "source": "https://www.corsair.com/us/en/p/psu/cp-9020221-na/cx-m-series-cx650m-650-watt-80-plus-bronze-semi-modular-atx-psu-cp-9020221-na",
+ "brand_site": "Corsair"
+}

@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Tech Specs": {
+   "Memory Size": "16GB (2 x 8GB)",
+   "Tested Latency": "40",
+   "Tested Speed": "5200 MT/s",
+   "Tested Voltage": "1.25V",
+   "SPD Voltage": "1.1V",
+   "Speed Rating": "PC5-41600 (DDR5-5200)",
+   "SPD Speed": "4800MHz",
+   "SPD Latency": "40",
+   "Performance Profile": "AMD EXPO & Intel XMP",
+   "Package Memory Format": "UDIMM",
+   "Memory Series": "VENGEANCE RGB DDR5",
+   "Lighting": "RGB",
+   "Weight": "0kg",
+   "Heat Spreader": "Aluminum",
+   "Fan Included": "No",
+   "Memory Color": "GREY",
+   "Memory Compatibility": "AMD 600 Series,AMD 800 Series,Intel 600 Series,Intel 700 Series",
+   "Memory Detail Compatibility": "AMD 600 Series, AMD 800 Series, Intel 600 Series, Intel 700 Series",
+   "Memory Type": "DDR5",
+   "PMIC Type": "Overclock PMIC"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:39+06:00",
+ "source": "https://www.corsair.com/us/en/p/memory/cmh16gx5m2b5200z40/vengeance-rgb-16gb-2x8gb-ddr5-dram-5200mt-s-c40-amd-expo-memory-kit-cmh16gx5m2b5200z40",
+ "brand_site": "Corsair"
+}

@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "PCI Express",
+   "Dimensions ( W x D x H )": "4.76 × 3.09 × 0.85 in (120.8 × 78.5 × 21.5 mm)",
+   "Antenna": "1 Detachable External Antenna",
+   "Wireless Standards": "IEEE 802.11b/g/n 2.4 GHz, IEEE 802.11a/n/ac 5 GHz",
+   "Signal Rate": "5 GHz:\n11ac: Up to 433 Mbps(dynamic)\n11n: Up to 200 Mbps(dynamic)\n11a: Up to 54 Mbps(dynamic)\n2.4 GHz:",
+   "Reception Sensitivity": "5GHz:\n11ac HT80:-59.0dBm\n11n HT40:-68.0dBm\n11a 54Mbps:-73.0dBm\n11a 6Mbps:-90.0dBm",
+   "Wireless Modes": "Infrastructure mode",
+   "Wireless Security": "WEP, WPA/WPA2/WPA3, WPA-PSK/WPA2-PSK/WPA3-SAE",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM",
+   "Transmission Power": "5GHz:18dBm(FCC)/23dBm(CE)(EIRP)\n2.4GHz:18dBm(FCC)/20dBm(CE)(EIRP)",
+   "Certification": "FCC, CE",
+   "Package Content": "AC600 Wireless Dual Band PCI Express Adapter\nArcher T2E\nLow-Profile Bracket\nQuick Installation Guide\nResource CD",
+   "System Requirements": "Windows 10",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:41+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/pci-adapter/archer-t2e/",
+ "brand_site": "TP-Link"
+}

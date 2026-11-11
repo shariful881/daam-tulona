@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 2.0",
+   "LED": "Status",
+   "Weight": "0.07 ounces / 2.1 grams (Without packaging)",
+   "Dimensions ( W x D x H )": "0.73x0.59x0.28in.(18.6x15x7.1mm)",
+   "Antenna": "Internal antenna",
+   "Wireless Standards": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n",
+   "Frequency": "2.400-2.4835GHz",
+   "Signal Rate": "11b: Up to 11Mbps (dynamic)\n11g: Up to 54Mbps (dynamic)\n11n: Up to 150Mbps (dynamic)",
+   "Reception Sensitivity": "130M: -68dBm@10% PER\n108M: -68dBm@10% PER\n54M: -68dBm@10% PER\n11M: -85dBm@8% PER\n6M: -88dBm@10% PER",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Supports 64/128 WEP, WPA/WPA2, WPA-PSK/WPA2-PSK (TKIP/AES), supports IEEE 802.1X",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM",
+   "Transmission Power": "<20dBm",
+   "Certification": "CE, FCC, IC",
+   "Package Content": "150Mbps wireless N Nano USB adapter TL-WN725N\nResource CD\nQuick Installation Guide",
+   "System Requirements": "Windows 10/8.1/8/7/XP, Mac OS X, Linux",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:40+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/",
+ "brand_site": "TP-Link"
+}

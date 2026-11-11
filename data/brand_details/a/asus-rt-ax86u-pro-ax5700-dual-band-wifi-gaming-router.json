@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AX86U Pro",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
+   "Product Segment": "AX5700 ultimate AX performance : 861+4804 Mbps",
+   "WiFi Data Rate": "WiFi 6 (802.11ax) (5GHz) : up to 4804 Mbps\nWiFi 6 (802.11ax) (2.4GHz) : up to 861 Mbps\nWiFi 5 (802.11ac) (1024QAM) : up to 4333 Mbps\nWiFi 4 (802.11n) (1024QAM) : up to 750 Mbps\nWiFi 4 (802.11n) : up to 450 Mbps",
+   "Antenna": "External antenna x 3\nInternal PCB antenna x 1",
+   "Transmit / Receive": "5GHz 4x4\n2.4GHz 3x3",
+   "Processor": "2.0GHz quad-core processor",
+   "Memory": "256 MB Flash and 1 GB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "2.4 GHz / 5 GHz",
+   "Operating Mode": "Wireless router mode,Access point mode,Media bridge mode,Repeater mode,AiMesh node mode",
+   "I/O Ports": "RJ45 for 10/100/1000 BaseT for WAN x 1\nRJ45 for 10/100/1000 BaseT for LAN x 4\nFive (5) 10/100/1000 Mbps Gigabit Ethernet ports + one (1)\n2.5G/1Gbps multi-Gig port (configurable)\n-- LAN: 4xGbE (2x port aggregation LAN)",
+   "Buttons": "WPS Button, Reset Button, Power Switch, LED on/off Button",
+   "LED Indicator": "Power x 1\n2.4GHz x 1\n5GHz x 1\n2.5G Port x 1\nWAN x 1",
+   "Power Supply": "19 V with max. 2.37 A current / 19.5 V with max. 2.31 A current or\n12 V with max.3 A current / 19.5 V with max. 2.31 A current",
+   "Package Content": "RT-AX86U Pro WiFi router\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
+   "Product Weight (g)": "814.5 g",
+   "Product Dimensions": "242 x 100 x 325 (with antenna)\n242 x 100 x 164 (without antenna)",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Game Boost / Acceleration, Mobile Game Mode, Gear Accelerator",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers",
+   "Accessories": "Keyboards"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AX86U Pro",
+ "fetched": "2026-11-11T10:55+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/techspec/",
+ "brand_site": "ASUS"
+}

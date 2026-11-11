@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i, IEEE 802.3u, IEEE 802.3x",
+   "Interface": "24 10/100Mbps RJ45 Ports (Auto Negotiation/Auto MDI/MDIX)",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\n100BASE-TX: UTP category 5, 5e or above cable (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "Power Supply": "External Power Adapter(Output: 9VDC/0.6A)",
+   "Max. Power Consumption": "Maximum: 3.2W",
+   "Dimensions ( W x D x H )": "11.6*7.1*1.7 in. (294*180*44 mm)",
+   "Mounting": "Rack Mountable",
+   "Max. Heat Dissipation": "10.88BTU/h",
+   "Switching Capacity": "4.8Gbps",
+   "Packet Forwarding Rate": "3.57Mpps",
+   "MAC Address Table": "8K",
+   "Buffer Memory": "2Mb",
+   "Green Technology": "Innovative energy-efficient technology saves power up to 75%",
+   "Transmission Method": "Store-and-Forward",
+   "Certification": "FCC,  RoHS",
+   "Package Content": "24-Port 10/100Mbps Desktop/Rackmount Switch\nPower Cord\nInstallation Guide\nRackmount Kit\nRubber Feet",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:43+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sf1024d/",
+ "brand_site": "TP-Link"
+}

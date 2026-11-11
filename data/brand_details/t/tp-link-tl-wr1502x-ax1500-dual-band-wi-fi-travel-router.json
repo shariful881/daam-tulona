@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Speeds": "AX1500\n5 GHz: 1201 Mbps (802.11ax)\n2.4 GHz: 300 Mbps (802.11n)",
+   "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation",
+   "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode\nUSB Tethering Mode\n3G/4G USB Modem Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "VPN Server": "• OpenVPN Server\n• PPTP VPN Server\n• L2TP VPN Server\n• Wireguard VPN Server",
+   "VPN Client": "• Open VPN Client\n• PPTP VPN Client\n• L2TP VPN Client\n• Wireguard VPN Client",
+   "WiFi Encryption": "WPA2-PSK\nWPA3-Personal\nWPA/WPA2-Enterprise",
+   "Ethernet Ports": "1× Gigabit WAN Port\n1× Gigabit LAN Port",
+   "USB Support": "1× USB 2.0 Port",
+   "Power": "12V/1.5A，External DC power adapter\nNo built-in battery",
+   "Buttons": "WPS/Reset ButtonMode Switch",
+   "Protocols": "IPv4\nIPv6",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "DHCP": "DHCP Server\nDHCP Client List\nAddress Reservation",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
+   "Certifications": "FCC, CE",
+   "WiFi Transmission Power": "CE: <20dBm(2.4 GHz)<23dBm(5.15 GHz~5.25 GHz)FCC:<30dBm(2.4 GHz & 5.15 GHz~5.825 GHz)",
+   "WiFi Reception Sensitivity": "11ax HE40M MCS11:-60dBm\n11ax HE80M MCS11:-59dBm",
+   "Dimensions (W×D×H)": "4.09 × 3.54 × 1.10 in\n(104 × 90 × 28 mm)",
+   "Package Content": "TL-WR1502X\nPower Adapter\nRJ45 Ethernet Cable\nUSB Cable\nQuick Installation Guide"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:44+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/tl-wr1502x/",
+ "brand_site": "TP-Link"
+}

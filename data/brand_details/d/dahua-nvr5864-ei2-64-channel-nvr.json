@@ -1,0 +1,94 @@
+{
+ "specs": {
+  "System": {
+   "Main Processor": "Industrial-grade processor",
+   "Operating System": "Embedded Linux",
+   "Operating Interface": "Web, Local GUI"
+  },
+  "AI": {
+   "AI by Recorder": "Face detection; face recognition; video metadata\n(human, motor vehicles, and non-motor vehicles);\nperimeter protection; SMD Plus; AcuPick; WizSeek; Text-Defined Alarm",
+   "AcuPick Performance of AI by Recorder (Number of Channels)": "4 channels",
+   "AcuPick Performance of AI by Camera (Number of Channels)": "All channels (32 targets/s)"
+  },
+  "WizSeek": {
+   "Performance": "2. Modeling capability: up to 345,600 targets per day"
+  },
+  "Perimeter Protection": {
+   "Perimeter Performance AI by Recorder (Number of Channels)": "8 channels, 10 IVS rules for each channel",
+   "Perimeter Performance of AI by Camera (Number of Channels)": "All channels (32 targets/s)"
+  },
+  "Face Detection": {
+   "Face Attributes": "Gender; age group; glasses; expressions; face mask; beard"
+  },
+  "SMD": {
+   "SMD by Camera": "All channels (64 targets/s)"
+  },
+  "Video Metadata": {
+   "Metadata Performance of AI by Recorder (Number of Channels)": "4 channels, 22 attributes extraction.",
+   "Metadata Performance of AI by Camera (Number of Channels)": "All channels (16 targets/s)",
+   "People Attributes": "Top color, top type, bottom color, bottom type, hat, bag, age, gender and umbrella",
+   "Non-motor Vehicle Attributes": "Vehicle model, vehicle color, number of persons, helmet"
+  },
+  "Vehicle License Plate Comparison": {
+   "ANPR by Camera (Number of Channels)": "All channels (8 targets/s)",
+   "License Plate Database Capacity": "1. Create up to 20,000 plate numbers.\n2. Blocklist and allowlist"
+  },
+  "Audio and Video": {
+   "Access Channel": "64 channels",
+   "Network Bandwidth": "AI disabled: 448 Mbps incoming, 448 Mbps recording and 448 Mbps outgoing\nAI enabled: 200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing",
+   "Resolution": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF",
+   "Video Output": "2 VGA, 2 HDMI\nVGA: 1920 × 1080, 1280 × 1024, 1280 × 720\nHDMI: 7680×4320, 3840 × 2160, 1920 × 1080, 1280 × 1024, 1280 × 720\nHeterogeneous video source output for HDMI1 and HDMI2\nSimultaneous video source output for VGA1 and HDMI1",
+   "Multi-screen Display": "Main Screen: 1/4/8/9/16/25/36/64\nSub Screen: 1/4/8/9/16",
+   "Third-party Camera Access": "ONVIF; Panasonic; Sony; Axis; Arecont; Pelco; Canon; Hanwha"
+  },
+  "Compression Standard": {
+   "Video Compression": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG",
+   "Audio Compression": "G.711a; G.711u; PCM; G726"
+  },
+  "Network": {
+   "Mobile Phone Access": "iOS; Android",
+   "Interoperability": "ONVIF 25.12 (Profile T; Profile S; Profile G; Profile M);\nCGI; SDK",
+   "Browser": "Chrome; IE; Safari; Edge; Firefox",
+   "Network Mode": "Multi-address; load balance; fault tolerance; link aggregation"
+  },
+  "Recording Playback": {
+   "Multi-channel Playback": "Up to 16 channels",
+   "Record Mode": "General, motion detection; intelligent; alarm; POS",
+   "Backup Method": "USB device and network"
+  },
+  "Storage": {
+   "Disk Group": "Yes"
+  },
+  "Port": {
+   "Audio Input": "1-channel RCA",
+   "Audio Output": "2-channel RCA",
+   "Alarm Input": "16 channels",
+   "Alarm Output": "8 channels (1-channel 12 V 1 A output）",
+   "Disk Interface": "8 SATA ports, each disk can contain up to 26 TB.\nThis limit varies depending on the environment\ntemperature.",
+   "eSATA": "1",
+   "RS-232": "1",
+   "RS-485": "1",
+   "RS-422": "1",
+   "USB": "4 (2 front USB 2.0 port, 2 rear USB 3.0 port)",
+   "HDMI": "2",
+   "VGA": "2",
+   "Network Port": "2 (10/100/1000 Mbps Ethernet port, RJ-45)"
+  },
+  "General": {
+   "Power Supply": "100–240 VAC, 50/60 Hz",
+   "Power Consumption": "Total output of NVR is ≤ 13 W (without HDD)",
+   "Net Weight": "6.27 kg (13.82 lb)",
+   "Gross Weight": "8.75 kg (19.29 lb)",
+   "Product Dimensions": "440.0 mm × 458.4 mm × 94.9 mm (17.32\" × 18.05\" × 3.73\") (W × D × H)",
+   "Packaging Dimensions": "570.0 mm × 570.0 mm × 226.0 mm (22.44\" × 22.44\" × 8.90\") (W × D × H)",
+   "Operating Temperature": "–10 °C to +55 °C (+14 °F to +131 °F)",
+   "Storage Temperature": "–20 °C to +60 °C (–4 °F to +140 °F)",
+   "Operating Humidity": "10%–93% (RH), non-condensing",
+   "Certifications": "CE-LVD: EN 62368-1:2014"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:46+06:00",
+ "source": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei2-series/nvr5864-ei2",
+ "brand_site": "Dahua"
+}

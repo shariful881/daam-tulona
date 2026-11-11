@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, 802.1p, 802.3bz",
+   "Interface": "8× 100Mbps/1Gbps/2.5Gbp Ports, Auto-Negotiation, Auto-MDI/MDIX",
+   "Fan Quantity": "Fanless",
+   "External Power Supply": "External Power Adapter (Output: 12 VDC / 1.0 A)",
+   "LED": "• System Power: 1\n• Link/Act Indicators: 8, 1 indicator per port built into each RJ-45 port",
+   "Dimensions ( W x D x H )": "8.9×5.2×1.4 in (226×131×35 mm)",
+   "Max. Power Consumption": "8.45 W",
+   "Max. Heat Dissipation": "28.83 BTU/h",
+   "Jumbo Frame": "12 KB",
+   "Switching Capacity": "40 Gbps",
+   "Packet Forwarding Rate": "29.8 Mpps",
+   "MAC Address Table": "4 K",
+   "Advanced Features": "• 802.3X Flow Control\n• 802.1p/DSCP QoS",
+   "Transmission Method": "Store and Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "• 8-Port 2.5G Multi-Gigabit Desktop Switch TL-SG108-M2\n• Power Adapter\n• Installation Guide\n• Rubber Feet",
+   "Environment": "• Operating Temperature: 0–40 °C (32–104 °F)\n• Storage Temperature: -40–70 °C (-40–158 °F)\n• Operating Humidity: 10–90% RH non-condensing\n• Storage Humidity: 5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:43+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sg108-m2/",
+ "brand_site": "TP-Link"
+}

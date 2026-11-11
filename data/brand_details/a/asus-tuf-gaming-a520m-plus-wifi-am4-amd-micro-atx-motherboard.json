@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF GAMING A520M-PLUS WIFI",
+   "CPU": "*Refer to www.asus.com for CPU support list.",
+   "Memory": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB,\nDual Channel Memory Architecture\n*ECC Memory (ECC mode) support varies by CPU.",
+   "Graphics": "1 x D-Sub\n1 x DisplayPort 1.2,\n1 x DisplayPort 1.2\n1 x HDMI\nTM",
+   "Expansion Slots": "1 x PCIe 3.0 x16 (x16 mode),\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD A520 Chipset\n2 x PCIe 3.0 x1 slots",
+   "Storage": "M.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD A520 Chipset\n4 x SATA 6Gb/s ports\nSupport RAID 0, 1, 10",
+   "Ethernet": "TUF LANGuard\n1 x Realtek 1Gb Ethernet,\n1 x Realtek 1Gb Ethernet\nTUF LANGuard",
+   "Wireless & Bluetooth": "Realtek Wi-Fi 5 8821CE\n1x1 Wi-Fi 5 (802.11 a/b/g/n/ac) with MU-MIMO\nSupports dual frequency band 2.4/5GHz\nSupports channel bandwidth: HT20/HT40/HT80\nBluetooth v5.0",
+   "USB": "Rear USB:Total 6 ports,\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 3 USB 2.0 ports",
+   "Audio": "ALC887/897,\nRealtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC*\n- Supports : Jack detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features",
+   "Back Panel I/O Ports": "4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x DisplayPort\n1 x HDMI port\n1 x D-Sub",
+   "Internal I/O Connectors": "Fan and cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector",
+   "Special Features": "Y,\nASUS TUF PROTECTION\n- DIGI+ VRM\n- ESD Guards\n- TUF LANGuard",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\nAI Suite 3",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Accessories": "Cables\n2 x SATA 6Gb/s cables\nMiscellaneous\n1 x I/O Shield\n1 x M.2 SSD screw package",
+   "Operating System": "Windows 10 64bit,\nWindows\n®\n10 64-bit",
+   "Form Factor": "microATX",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers"
+  }
+ },
+ "key_features": [],
+ "model": "TUF GAMING A520M-PLUS WIFI",
+ "fetched": "2026-11-11T10:55+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-a520m-plus-wifi/techspec/",
+ "brand_site": "ASUS"
+}

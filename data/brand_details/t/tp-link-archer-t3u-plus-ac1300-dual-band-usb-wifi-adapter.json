@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 3.0",
+   "LED": "Status",
+   "Dimensions ( W x D x H )": "2.28 × 0.71 × 6.83 in (57.8 × 18 × 173.4 mm)",
+   "Antenna": "1 External High Gain Antenna",
+   "Wireless Standards": "IEEE 802.11b/g/n 2.4 GHz, IEEE 802.11a/n/ac 5 GHz",
+   "Signal Rate": "5 GHz:\n11ac: Up to 867 Mbps(dynamic)\n11n: Up to 300 Mbps(dynamic)\n11a: Up to 54 Mbps(dynamic)\n2.4 GHz:",
+   "Reception Sensitivity": "5 GHz:\n11ac VHT80: -62dBm\n11ac VHT40: -64dBm\n11ac VHT20: -68dBm\n11n HT40: -71dBm",
+   "Wireless Modes": "Infrastructure mode",
+   "Wireless Security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+   "Transmission Power": "5 GHz: 20dBm(FCC) / 20dBm(CE) (EIRP)\n2.4 GHz : 18dBm(FCC) / 18dBm(CE) (EIRP)",
+   "Certification": "FCC, CE",
+   "Package Content": "AC1300 High Gain Wireless Dual Band USB Adapter\nQuick Installation Guide\nResource CD",
+   "System Requirements": "Windows 11/10/8.1/8/7 (32/64 bit)",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T10:42+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t3u-plus/",
+ "brand_site": "TP-Link"
+}

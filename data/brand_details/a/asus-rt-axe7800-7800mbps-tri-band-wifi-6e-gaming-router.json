@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AXE7800",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6E (802.11ax)\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)",
+   "Product Segment": "AXE7800 ultimate AX performance : 574+4804+2402 Mbps",
+   "WiFi Data Rate": "WiFi 6E (802.11ax) (6GHz) : up to 2402 Mbps\nWiFi 6 (802.11ax) (5GHz) : up to 4804 Mbps\nWiFi 6 (802.11ax) (2.4GHz) : up to 574 Mbps\nWiFi 5 (802.11ac) (1024QAM) : up to 2167 Mbps\nWiFi 5 (802.11ac) : up to 500 Mbps",
+   "Antenna": "External antenna x 6 (non-detachable)",
+   "Transmit / Receive": "6GHz 2x2\n5GHz 4x4\n2.4GHz 2x2",
+   "Processor": "1.7GHz quad-core processor",
+   "Memory": "256 MB Flash and 512 MB DDR4 RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "Tri-band Wi-Fi: 2.4 GHz / 5 GHz / 6 GHz",
+   "Operating Mode": "Router(AiMesh router), AiMesh node, Access point, Repeater, Media bridge",
+   "I/O Ports": "RJ45 for 2.5 Gigabits BaseT for WAN/LAN x 1,\nRJ45 for Gigabits BaseT for WAN/LAN x 1,\nRJ45 for Gigabits BaseT for LAN x 3,\nUSB 3.2 Gen 1 Port x 1,",
+   "Buttons": "Power on/off switch\nReset Button\nWPS Button",
+   "LED Indicator": "Power x 1\n2.4GHz x 1\n5GHz x 1\n6HGz x 1\n2.5G WAN/LAN1 x 1",
+   "Power Supply": "AC Input : 110V~240V(50~60Hz)\nDC Output: 12 V with max. 3.0 A current",
+   "Package Content": "RT-AXE7800 WiFi Router\nRJ-45 Cable\nPower Adapter\nQuick Start Guide\nWarranty Card",
+   "Product Weight (g)": "1033g",
+   "Product Dimensions": "243*223*155 mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Laptops": "For Home",
+   "Handhelds": "Gaming Handhelds",
+   "Displays / Desktops": "Monitors",
+   "Motherboards / Components": "Motherboards",
+   "Networking / IoT / Servers": "Routers",
+   "Accessories": "Keyboards"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AXE7800",
+ "fetched": "2026-11-11T10:55+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-axe7800/techspec/",
+ "brand_site": "ASUS"
+}
