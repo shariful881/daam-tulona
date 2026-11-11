@@ -119,7 +119,20 @@ def best_match(name, index_rows):
     words = words_of(name)
     scored = []
     for url, chunks, parts in index_rows:
-        code_score = float(sum(len(c) for c in codes if c in chunks))  # শুধু পুরো কোডের হুবহু মিল
+        hit = [c for c in codes if c in chunks and not (c[0].isdigit() and len(c) < 4)]  # শুধু পুরো কোডের হুবহু মিল
+        if not hit:
+            continue
+        # নামের লম্বা আসল মডেল কোড (FA506NCG, XVR1B04H) পাতায় নেই, মিলেছে শুধু ছোট সিরিজ কোড (A15) -> সিরিজের সাধারণ পাতা, বাদ
+        longest = max(codes, key=len)
+        if len(longest) >= 6 and longest not in hit and max(len(c) for c in hit) < len(longest):
+            continue
+        # ক্যাপাসিটি না মিললে (1TB বনাম 2TB-র পাতা) বাদ
+        caps_url = set(re.findall(r"(?<![a-z0-9])(\d+(?:gb|tb))(?![a-z0-9])", url.lower().replace("-", " ")))
+        caps_name = set(re.findall(r"(\d+)\s?(gb|tb)\b", name.lower()))
+        caps_name = {a + b for a, b in caps_name}
+        if caps_url and caps_name and not (caps_url & caps_name):
+            continue
+        code_score = float(sum(len(c) for c in hit))
         if code_score < 3:
             continue
         scored.append((code_score + 0.3 * len(words & parts), code_score, url))
