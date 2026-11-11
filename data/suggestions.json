@@ -1,17 +1,31 @@
 [
  {
-  "a": "huion-hs611-graphics-drawing-tablet-2",
-  "b": "huion-hs611-graphics-drawing-tablet-3",
+  "a": "xp-pen-star-03-v2-drawing-graphics-tablet-2",
+  "b": "xp-pen-star-03-v2-drawing-graphics-tablet",
   "score": 1.0,
-  "a_name": "Huion HS611 Graphics Drawing Tablet",
-  "b_name": "Huion HS611 Graphics Drawing Tablet"
+  "a_name": "XP-Pen Star 03 V2 Drawing Graphics Tablet",
+  "b_name": "XP-Pen Star 03 V2 Drawing Graphics Tablet"
  },
  {
-  "a": "huion-hs611-graphics-drawing-tablet-2",
-  "b": "huion-graphics-drawing-tablet-hs611",
+  "a": "xp-pen-star-03-v2-graphics-drawing-tablet",
+  "b": "xp-pen-star-03-v2-drawing-graphics-tablet",
   "score": 1.0,
-  "a_name": "Huion HS611 Graphics Drawing Tablet",
-  "b_name": "Huion Graphics Drawing Tablet HS611"
+  "a_name": "XP-PEN STAR 03 V2 GRAPHICS DRAWING TABLET",
+  "b_name": "XP-Pen Star 03 V2 Drawing Graphics Tablet"
+ },
+ {
+  "a": "teclast-t60plus-lte-mt6769-6gb-128gb-12-inch-2k-display-android-tablet",
+  "b": "teclast-t60plus-lte-mt6769-6gb-128gb-12-2k-display-android-tablet",
+  "score": 1.0,
+  "a_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12 inch 2k Display Android Tablet",
+  "b_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12\" 2k Display Android Tablet"
+ },
+ {
+  "a": "teclast-t60plus-lte-mt6769-6gb-128gb-12-inch-2k-display-android-tablet",
+  "b": "teclast-t60plus-lte-mt6769-6gb-128gb-12-2k-display-android-tablet-folio-case-key",
+  "score": 1.0,
+  "a_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12 inch 2k Display Android Tablet",
+  "b_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12\" 2k Display Android Tablet (Folio Case & Keyboard)"
  },
  {
   "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop",
@@ -28,55 +42,6 @@
   "b_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6 Inch FHD Laptop"
  },
  {
-  "a": "macbook-air-m5-chip-13-inch",
-  "b": "macbook-air-m5-chip-13-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Air M5 Chip 13-inch",
-  "b_name": "MacBook Air M5 Chip 13-inch"
- },
- {
-  "a": "macbook-air-m5-chip-13-inch-10-core-cpu-10-core-gpu",
-  "b": "macbook-air-m5-chip-13-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Air M5 Chip 13-inch (10-core CPU, 10-core GPU)",
-  "b_name": "MacBook Air M5 Chip 13-inch"
- },
- {
-  "a": "macbook-pro-m5-chip-14-inch",
-  "b": "macbook-pro-m5-chip-14-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Pro M5 Chip 14-inch",
-  "b_name": "MacBook Pro M5 Chip 14-inch"
- },
- {
-  "a": "macbook-pro-m5-pro-chip-14-inch-15-core-cpu-16-core-gpu",
-  "b": "macbook-pro-m5-chip-14-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Pro M5 Pro Chip 14-inch (15-core CPU, 16-core GPU)",
-  "b_name": "MacBook Pro M5 Chip 14-inch"
- },
- {
-  "a": "macbook-pro-m5-max-chip-16-inch",
-  "b": "macbook-pro-m5-max-chip-16-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Pro M5 Max Chip 16-inch",
-  "b_name": "MacBook Pro M5 Max Chip 16-inch"
- },
- {
-  "a": "macbook-pro-m5-max-chip-16-inch-40-core-gpu",
-  "b": "macbook-pro-m5-max-chip-16-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Pro M5 Max Chip 16-inch (40 core GPU)",
-  "b_name": "MacBook Pro M5 Max Chip 16-inch"
- },
- {
-  "a": "macbook-pro-m5-pro-chip-14-inch-18-core-cpu-20-core-gpu",
-  "b": "macbook-pro-m5-chip-14-inch-2",
-  "score": 1.0,
-  "a_name": "MacBook Pro M5 Pro Chip 14-inch (18-core CPU, 20-core GPU)",
-  "b_name": "MacBook Pro M5 Chip 14-inch"
- },
- {
   "a": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc",
   "b": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc-2",
   "score": 1.0,
@@ -91,6 +56,34 @@
   "b_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27 inch FHD All-in-One Desktop PC"
  },
  {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+ },
+ {
+  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "score": 1.0,
+  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
+  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+ },
+ {
   "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc",
   "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
   "score": 1.0,
@@ -98,39 +91,39 @@
   "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc"
  },
  {
-  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
+  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-with-ram-ssd",
   "score": 1.0,
-  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
-  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+  "a_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc",
+  "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini PC With RAM & SSD"
  },
  {
-  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "a": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-am5-socket-processor-oem-tray-f",
+  "b": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-gaming-am5-socket-processor",
   "score": 1.0,
-  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
-  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+  "a_name": "AMD Ryzen 5 7600 3.8GHz-5.1GHz 6 Core 38MB Cache AM5 Socket Processor - (OEM/Tray) (Fan Not Included)",
+  "b_name": "AMD RYZEN 5 7600 3.8GHZ-5.1GHZ 6 CORE 38MB CACHE GAMING AM5 Socket PROCESSOR"
  },
  {
-  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "a": "amd-ryzen-5-5600g-radeon-graphics-processor",
+  "b": "amd-ryzen-5-5600g-processor-with-radeon-graphics",
   "score": 1.0,
-  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
-  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
+  "a_name": "AMD RYZEN 5 5600G RADEON GRAPHICS PROCESSOR",
+  "b_name": "AMD Ryzen 5 5600G Processor with Radeon Graphics"
  },
  {
-  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
+  "a": "amd-ryzen-5-5600g-radeon-graphics-processor",
+  "b": "amd-ryzen-5-5600g-processor-with-radeon-graphics-tray-box",
   "score": 1.0,
-  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
-  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
+  "a_name": "AMD RYZEN 5 5600G RADEON GRAPHICS PROCESSOR",
+  "b_name": "AMD Ryzen 5 5600G Processor with Radeon Graphics (Tray Box)"
  },
  {
-  "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
+  "a": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-am5-socket-processor",
+  "b": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-gaming-am5-socket-processor",
   "score": 1.0,
-  "a_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini PC With RAM & SSD",
-  "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc"
+  "a_name": "AMD Ryzen 5 7600 3.8GHz-5.1GHz 6 Core 38MB Cache AM5 Socket Processor",
+  "b_name": "AMD RYZEN 5 7600 3.8GHZ-5.1GHZ 6 CORE 38MB CACHE GAMING AM5 Socket PROCESSOR"
  },
  {
   "a": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics",
@@ -147,11 +140,11 @@
   "b_name": "AMD Ryzen 5 3400G Processor with Radeon RX Vega 11 Graphics (Tray)"
  },
  {
-  "a": "amd-ryzen-5-5600-processor",
-  "b": "amd-ryzen-5-5600-desktop-processor",
+  "a": "amd-ryzen-5-5600-desktop-processor",
+  "b": "amd-ryzen-5-5600-processor",
   "score": 1.0,
-  "a_name": "AMD Ryzen 5 5600 Processor",
-  "b_name": "AMD RYZEN 5 5600 DESKTOP PROCESSOR"
+  "a_name": "AMD RYZEN 5 5600 DESKTOP PROCESSOR",
+  "b_name": "AMD Ryzen 5 5600 Processor"
  },
  {
   "a": "amd-ryzen-5-5600-processor",
@@ -161,123 +154,221 @@
   "b_name": "AMD Ryzen 5 5600 Processor"
  },
  {
-  "a": "amd-ryzen-5-5600g-processor-with-radeon-graphics",
-  "b": "amd-ryzen-5-5600g-radeon-graphics-processor",
+  "a": "intel-10th-gen-comet-lake-core-i3-10105-processor-oem-tray",
+  "b": "intel-core-i3-10105-10th-gen-comet-lake-processor",
   "score": 1.0,
-  "a_name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
-  "b_name": "AMD RYZEN 5 5600G RADEON GRAPHICS PROCESSOR"
+  "a_name": "Intel 10th Gen Comet Lake Core i3 10105 Processor -(OEM/Tray)",
+  "b_name": "Intel Core i3 10105 10th Gen Comet Lake Processor"
  },
  {
-  "a": "amd-ryzen-5-5600g-processor-with-radeon-graphics-tray-box",
-  "b": "amd-ryzen-5-5600g-radeon-graphics-processor",
-  "score": 1.0,
-  "a_name": "AMD Ryzen 5 5600G Processor with Radeon Graphics (Tray Box)",
-  "b_name": "AMD RYZEN 5 5600G RADEON GRAPHICS PROCESSOR"
- },
- {
-  "a": "intel-core-i3-12100-12th-gen-alder-lake-processor",
-  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
+  "a": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
+  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor",
   "score": 1.0,
   "a_name": "Intel Core i3-12100 12th Gen Alder Lake Processor",
   "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
  },
  {
-  "a": "intel-core-i3-12100-12th-gen-alder-lake-processor-tray",
-  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
+  "a": "intel-core-i3-12100-12th-gen-alder-lake-processor-2",
+  "b": "intel-core-i3-12100-12th-gen-alder-lake-processor-tray",
   "score": 1.0,
-  "a_name": "Intel Core i3-12100 12th Gen Alder Lake Processor (Tray)",
-  "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor"
+  "a_name": "Intel Core i3-12100 12th Gen Alder Lake Processor",
+  "b_name": "Intel Core i3-12100 12th Gen Alder Lake Processor (Tray)"
  },
  {
-  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card-2",
+  "a": "intel-12th-gen-alder-lake-core-i5-12400f-processor-without-gpu-oem-tray",
+  "b": "intel-12th-gen-core-i5-12400f-alder-lake-processor",
   "score": 1.0,
-  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12400F Processor (Without GPU-OEM/Tray)",
+  "b_name": "Intel 12th Gen Core i5-12400F Alder Lake Processor"
  },
  {
-  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card-3",
+  "a": "intel-11th-gen-rocket-lake-core-i5-11400-processor-oem-tray",
+  "b": "intel-11th-gen-core-i5-11400-rocket-lake-processor",
   "score": 1.0,
-  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card"
+  "a_name": "Intel 11th Gen Rocket Lake Core i5 11400 Processor - (OEM/Tray)",
+  "b_name": "Intel 11th Gen Core i5-11400 Rocket Lake Processor"
  },
  {
-  "a": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card-2",
+  "a": "intel-12th-gen-alder-lake-core-i5-12400-processor-oem-tray",
+  "b": "intel-12th-gen-core-i5-12400-alder-lake-processor",
   "score": 1.0,
-  "a_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12400 Processor (OEM/Tray)",
+  "b_name": "Intel 12th Gen Core i5-12400 Alder Lake Processor"
  },
  {
-  "a": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5090-gaming-oc-32g-gddr7-graphics-card-3",
+  "a": "intel-11th-gen-rocket-lake-core-i9-11900k-desktop-processor-fan-not-included",
+  "b": "intel-core-i9-11900k-11th-gen-rocket-lake-processor",
   "score": 1.0,
-  "a_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7 Graphics Card"
+  "a_name": "Intel 11th Gen Rocket Lake Core i9 11900K Desktop Processor- (Fan Not Included)",
+  "b_name": "Intel Core i9 11900K 11th Gen Rocket Lake Processor"
  },
  {
-  "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
-  "b": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
+  "a": "intel-12th-gen-alder-lake-core-i9-12900k-processor-oem-tray-fan-not-included",
+  "b": "intel-12th-gen-core-i9-12900k-alder-lake-processor",
   "score": 1.0,
-  "a_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM",
-  "b_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
+  "a_name": "Intel 12th Gen Alder Lake Core i9 12900K Processor - (OEM/Tray) (Fan Not Included)",
+  "b_name": "Intel 12th Gen Core i9-12900K Alder Lake Processor"
  },
  {
-  "a": "aitc-kingsman-rgb-8gb-ddr4-3600mhz-gaming-desktop-ram",
-  "b": "aitc-kingsman-8gb-ddr4-3600mhz-rgb-desktop-ram",
+  "a": "intel-11th-gen-rocket-lake-core-i9-11900k-processor-oem-tray-fan-not-included",
+  "b": "intel-core-i9-11900k-11th-gen-rocket-lake-processor",
   "score": 1.0,
-  "a_name": "AITC Kingsman RGB 8GB DDR4 3600MHz Gaming Desktop RAM",
-  "b_name": "AITC KINGSMAN 8GB DDR4 3600MHz RGB Desktop Ram"
+  "a_name": "Intel 11th Gen Rocket Lake Core i9 11900K Processor - (OEM/Tray) (Fan Not Included)",
+  "b_name": "Intel Core i9 11900K 11th Gen Rocket Lake Processor"
  },
  {
-  "a": "aitc-kingsman-rgb-8gb-ddr4-3600mhz-gaming-desktop-ram",
-  "b": "aitc-kingsman-rgb-ddr4-8gb-3600mhz-gaming-ram",
+  "a": "intel-11th-gen-rocket-lake-core-i5-11400-desktop-processor",
+  "b": "intel-11th-gen-core-i5-11400-rocket-lake-processor",
   "score": 1.0,
-  "a_name": "AITC Kingsman RGB 8GB DDR4 3600MHz Gaming Desktop RAM",
-  "b_name": "AiTC Kingsman RGB DDR4 8GB 3600mhz Gaming Ram"
+  "a_name": "Intel 11th Gen Rocket Lake Core i5 11400 Desktop Processor",
+  "b_name": "Intel 11th Gen Core i5-11400 Rocket Lake Processor"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
+  "a": "intel-10th-gen-comet-lake-core-i3-10105-processor",
+  "b": "intel-core-i3-10105-10th-gen-comet-lake-processor",
   "score": 1.0,
-  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+  "a_name": "Intel 10th Gen Comet Lake Core i3 10105 Processor",
+  "b_name": "Intel Core i3 10105 10th Gen Comet Lake Processor"
  },
  {
-  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
-  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
+  "a": "intel-12th-gen-alder-lake-core-i5-12600k-processor-fan-not-included",
+  "b": "intel-12th-gen-core-i5-12600k-alder-lake-processor",
   "score": 1.0,
-  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
-  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12600K Processor - (Fan Not Included)",
+  "b_name": "Intel 12th Gen Core i5-12600K Alder Lake Processor"
  },
  {
-  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
-  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "a": "intel-12th-gen-alder-lake-core-i9-12900k-processor-fan-not-included",
+  "b": "intel-12th-gen-core-i9-12900k-alder-lake-processor",
   "score": 1.0,
-  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+  "a_name": "Intel 12th Gen Alder Lake Core i9 12900K Processor (Fan Not Included)",
+  "b_name": "Intel 12th Gen Core i9-12900K Alder Lake Processor"
  },
  {
-  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
-  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "a": "intel-12th-gen-alder-lake-core-i5-12400-desktop-processor",
+  "b": "intel-12th-gen-core-i5-12400-alder-lake-processor",
   "score": 1.0,
-  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
-  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12400 Desktop Processor",
+  "b_name": "Intel 12th Gen Core i5-12400 Alder Lake Processor"
  },
  {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "a": "intel-12th-gen-alder-lake-core-i5-12400f-desktop-processor-without-gpu",
+  "b": "intel-12th-gen-core-i5-12400f-alder-lake-processor",
   "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12400F Desktop Processor (Without GPU)",
+  "b_name": "Intel 12th Gen Core i5-12400F Alder Lake Processor"
  },
  {
-  "a": "lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "a": "intel-12th-gen-alder-lake-core-i5-12600k-processor-oem-tray-fan-not-included",
+  "b": "intel-12th-gen-core-i5-12600k-alder-lake-processor",
   "score": 1.0,
-  "a_name": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM",
-  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+  "a_name": "Intel 12th Gen Alder Lake Core i5 12600K Processor - (OEM/Tray) (Fan Not Included)",
+  "b_name": "Intel 12th Gen Core i5-12600K Alder Lake Processor"
+ },
+ {
+  "a": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card-white",
+  "b": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card (White)",
+  "b_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card"
+ },
+ {
+  "a": "asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-white",
+  "b": "asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card (White)",
+  "b_name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-2",
+  "b": "asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card",
+  "b_name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card-2",
+  "b": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card",
+  "b_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card"
+ },
+ {
+  "a": "zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-edition-16gb-gddr7-graphics-card",
+  "b": "zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-16gb-gddr7-graphics-card",
+  "score": 1.0,
+  "a_name": "Zotac Gaming GeForce RTX 5060 Ti Twin Edge OC Edition 16GB GDDR7 Graphics Card",
+  "b_name": "ZOTAC GAMING GeForce RTX 5060 Ti Twin Edge OC 16GB GDDR7 Graphics Card"
+ },
+ {
+  "a": "zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-16gb-gddr7-graphics-card-2",
+  "b": "zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-16gb-gddr7-graphics-card",
+  "score": 1.0,
+  "a_name": "ZOTAC GAMING GeForce RTX 5060 Ti Twin Edge OC 16GB GDDR7 Graphics Card",
+  "b_name": "ZOTAC GAMING GeForce RTX 5060 Ti Twin Edge OC 16GB GDDR7 Graphics Card"
+ },
+ {
+  "a": "asus-dual-radeon-rx-6500-xt-v2-4gb-gddr6-oc-edition-graphics-card",
+  "b": "asus-dual-radeon-rx-6500-xt-v2-oc-edition-4gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual Radeon RX 6500 XT V2 4GB GDDR6 OC Edition Graphics Card",
+  "b_name": "ASUS Dual Radeon RX 6500 XT V2 OC Edition 4GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "asus-dual-radeon-rx-6500-xt-v2-oc-edition-4gb-gddr6-graphics-card-2",
+  "b": "asus-dual-radeon-rx-6500-xt-v2-oc-edition-4gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "ASUS Dual Radeon RX 6500 XT V2 OC Edition 4GB GDDR6 Graphics Card",
+  "b_name": "ASUS Dual Radeon RX 6500 XT V2 OC Edition 4GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-graphics-card-2",
+  "b": "sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "Sapphire NITRO+ AMD Radeon RX 9060 XT Gaming OC 16GB GDDR6 Graphics Card",
+  "b_name": "Sapphire NITRO+ AMD Radeon RX 9060 XT Gaming OC 16GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-graphics-card-3",
+  "b": "sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-graphics-card",
+  "score": 1.0,
+  "a_name": "Sapphire NITRO+ AMD Radeon RX 9060 XT Gaming OC 16GB GDDR6 Graphics Card",
+  "b_name": "Sapphire NITRO+ AMD Radeon RX 9060 XT Gaming OC 16GB GDDR6 Graphics Card"
+ },
+ {
+  "a": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-white",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-black",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
+  "b": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM"
+ },
+ {
+  "a": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram-2",
+  "b": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram"
+ },
+ {
+  "a": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram-3",
+  "b": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram",
+  "b_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram"
  },
  {
   "a": "corsair-vengeance-lpx-8gb-3200mhz-ddr4-desktop-ram",
@@ -294,32 +385,116 @@
   "b_name": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM"
  },
  {
-  "a": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram-2",
-  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-2",
   "score": 1.0,
-  "a_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM",
-  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
+  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
  },
  {
-  "a": "g-skill-trident-z-royal-elite-rgb-16gb-8gbx2-ddr4-3600mhz-desktop-ram",
-  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "a": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram",
+  "b": "team-t-force-delta-tuf-gaming-8gb-3200mhz-ddr4-rgb-desktop-ram-3",
   "score": 1.0,
-  "a_name": "G.Skill Trident Z Royal Elite RGB 16GB (8GBx2) DDR4 3600MHz Desktop RAM",
-  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
+  "a_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM",
+  "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
  },
  {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
+  "score": 1.0,
+  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "b": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
+  "score": 1.0,
+  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM"
+ },
+ {
+  "a": "kingston-fury-beast-rgb-8gb-ddr4-3200mhz-desktop-ram",
+  "b": "kingston-fury-beast-rgb-8gb-3200mhz-ddr4-desktop-ram",
+  "score": 1.0,
+  "a_name": "Kingston Fury Beast RGB 8GB DDR4 3200MHz Desktop RAM",
+  "b_name": "Kingston FURY Beast RGB 8GB 3200MHz DDR4 Desktop RAM"
+ },
+ {
+  "a": "kingston-fury-beast-rgb-8gb-3200mhz-ddr4-ram",
+  "b": "kingston-fury-beast-rgb-8gb-3200mhz-ddr4-desktop-ram",
+  "score": 1.0,
+  "a_name": "Kingston Fury Beast RGB 8GB 3200mhz DDR4 RAM",
+  "b_name": "Kingston FURY Beast RGB 8GB 3200MHz DDR4 Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
   "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
   "score": 1.0,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
   "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
-  "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
   "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
   "score": 1.0,
-  "a_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM",
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
   "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
+ },
+ {
+  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
+  "b": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
+  "score": 1.0,
+  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
+  "b_name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM"
  },
  {
   "a": "ocpc-x3-rgb-ddr4-3200mhz-16gb-desktop-ram",
@@ -336,18 +511,179 @@
   "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
  },
  {
-  "a": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram",
-  "b": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "a": "kingston-fury-beast-16gb-6000mhz-ddr5-rgb-desktop-ram-2",
+  "b": "kingston-fury-beast-rgb-16gb-6000mhz-ddr5-desktop-ram",
   "score": 1.0,
-  "a_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM",
-  "b_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM"
+  "a_name": "Kingston FURY Beast 16GB 6000MHz DDR5 RGB Desktop RAM",
+  "b_name": "Kingston FURY Beast RGB 16GB 6000Mhz DDR5 Desktop RAM"
  },
  {
-  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
-  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "a": "corsair-vengeance-rgb-rs-16gb-2-x-8gb-ddr4-3600mhz-desktop-ram",
+  "b": "corsair-vengeance-rgb-rs-16gb-ddr4-3600mhz-ram",
   "score": 1.0,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
+  "a_name": "CORSAIR Vengeance RGB RS 16GB (2 x 8GB) DDR4 3600Mhz Desktop Ram",
+  "b_name": "CORSAIR VENGEANCE RGB RS 16GB DDR4 3600MHz RAM"
+ },
+ {
+  "a": "corsair-vengeance-16gb-ddr5-5600mhz-ram-2",
+  "b": "corsair-vengeance-16gb-ddr5-5600mhz-ram",
+  "score": 1.0,
+  "a_name": "CORSAIR VENGEANCE 16GB DDR5 5600MHZ RAM",
+  "b_name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM"
+ },
+ {
+  "a": "corsair-vengeance-16gb-ddr5-5600mhz-ram-white-2",
+  "b": "corsair-vengeance-16gb-ddr5-5600mhz-ram",
+  "score": 1.0,
+  "a_name": "CORSAIR VENGEANCE 16GB DDR5 5600MHZ RAM (WHITE)",
+  "b_name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM"
+ },
+ {
+  "a": "corsair-vengeance-rgb-rs-16gb-1-x-16gb-ddr4-3600mhz-desktop-ram",
+  "b": "corsair-vengeance-rgb-rs-16gb-ddr4-3600mhz-ram",
+  "score": 1.0,
+  "a_name": "CORSAIR VENGEANCE RGB RS 16GB (1 x 16GB) DDR4 3600MHz DESKTOP RAM",
+  "b_name": "CORSAIR VENGEANCE RGB RS 16GB DDR4 3600MHz RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-2x8gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB (2x8GB) 6000MHz DDR5 Gaming Desktop RAM (White)",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram-black",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (Black)",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram-black",
+  "b": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (Black)",
+  "b_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-2x8gb-6000mhz-ddr5-gaming-desktop-ram-black",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-gaming-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB (2x8GB) 6000MHz DDR5 Gaming Desktop RAM (Black)",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-16gb-6000mhz-ddr5-cl38-gaming-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (White)",
+  "b_name": "TEAM T-FORCE DELTA RGB 16GB 6000MHz DDR5 CL38 Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (White)",
+  "b_name": "Team T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM"
+ },
+ {
+  "a": "team-delta-rgb-16gb-ddr5-6200mhz-gaming-desktop-ram-2",
+  "b": "team-delta-16gb-6200mhz-ddr5-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM Delta RGB 16GB DDR5 6200MHz Gaming Desktop RAM",
+  "b_name": "Team DELTA 16GB 6200MHz DDR5 RGB Desktop RAM"
+ },
+ {
+  "a": "team-delta-rgb-16gb-ddr5-6200mhz-gaming-desktop-ram-2",
+  "b": "team-delta-rgb-16gb-ddr5-6200mhz-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM Delta RGB 16GB DDR5 6200MHz Gaming Desktop RAM",
+  "b_name": "TEAM Delta RGB 16GB DDR5 6200MHz Gaming Desktop RAM"
+ },
+ {
+  "a": "team-delta-16gb-2x8gb-ddr5-5200mhz-rgb-gaming-desktop-ram",
+  "b": "team-delta-rgb-16gb-ddr5-5200mhz-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM Delta 16GB(2x8GB) DDR5 5200MHz RGB Gaming Desktop RAM",
+  "b_name": "TEAM Delta RGB 16GB DDR5 5200MHz Gaming Desktop RAM"
+ },
+ {
+  "a": "team-delta-rgb-16gb-ddr5-5200mhz-gaming-desktop-ram-2",
+  "b": "team-delta-rgb-16gb-ddr5-5200mhz-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM DELTA RGB 16GB DDR5 5200MHZ GAMING DESKTOP RAM",
+  "b_name": "TEAM Delta RGB 16GB DDR5 5200MHz Gaming Desktop RAM"
+ },
+ {
+  "a": "team-delta-rgb-16gb-ddr5-6400mhz-white-desktop-ram",
+  "b": "team-delta-16gb-6400mhz-ddr5-rgb-white-desktop-gaming-ram",
+  "score": 1.0,
+  "a_name": "Team Delta RGB 16GB DDR5 6400MHz White Desktop RAM",
+  "b_name": "Team DELTA 16GB 6400MHz DDR5 RGB White Desktop Gaming RAM"
+ },
+ {
+  "a": "team-delta-rgb-16gb-ddr5-6400mhz-white-desktop-ram",
+  "b": "team-delta-rgb-16gb-ddr5-6400mhz-gaming-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "Team Delta RGB 16GB DDR5 6400MHz White Desktop RAM",
+  "b_name": "TEAM Delta RGB 16GB DDR5 6400MHz Gaming Desktop RAM White"
+ },
+ {
+  "a": "g-skill-trident-z-neo-8-x-2-16gb-3600mhz-rgb-ddr4-ram",
+  "b": "g-skill-trident-z-neo-16gb-ddr4-3600mhz-rgb-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.SKILL TRIDENT-Z NEO ( 8 X 2 ) 16GB 3600MHZ RGB DDR4 RAM",
+  "b_name": "G.Skill Trident Z Neo 16GB DDR4 3600MHz RGB Gaming Desktop RAM"
+ },
+ {
+  "a": "g-skill-trident-z-neo-8-x-2-16gb-3600mhz-rgb-ddr4-ram",
+  "b": "g-skill-trident-z-neo-8gbx2-16gb-3600mhz-rgb-ddr4-ram",
+  "score": 1.0,
+  "a_name": "G.SKILL TRIDENT-Z NEO ( 8 X 2 ) 16GB 3600MHZ RGB DDR4 RAM",
+  "b_name": "G.Skill Trident-Z NEO (8GBx2) 16GB 3600MHz RGB DDR4 RAM"
+ },
+ {
+  "a": "g-skill-trident-z-neo-16gb-3600mhz-rgb-ram-2",
+  "b": "g-skill-trident-z-neo-16gb-3600mhz-rgb-ram",
+  "score": 1.0,
+  "a_name": "G.SKILL Trident Z Neo 16GB 3600MHz RGB Ram",
+  "b_name": "G.SKILL Trident Z Neo 16GB 3600MHz RGB Ram"
+ },
+ {
+  "a": "g-skill-trident-z-neo-16gb-3600mhz-rgb-ram-3",
+  "b": "g-skill-trident-z-neo-16gb-3600mhz-rgb-ram",
+  "score": 1.0,
+  "a_name": "G.SKILL Trident Z Neo 16GB 3600MHz RGB Ram",
+  "b_name": "G.SKILL Trident Z Neo 16GB 3600MHz RGB Ram"
+ },
+ {
+  "a": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "b": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram-2",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM",
+  "b_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM"
+ },
+ {
+  "a": "g-skill-trident-z-royal-elite-16gb-8gbx2-ddr4-3600mhz-rgb-desktop-ram",
+  "b": "g-skill-trident-z-royal-elite-rgb-16gb-8gbx2-ddr4-3600mhz-desktop-ram",
+  "score": 1.0,
+  "a_name": "G.Skill Trident Z Royal Elite 16GB (8GBx2) DDR4 3600MHz RGB Desktop RAM",
+  "b_name": "G.Skill Trident Z Royal Elite RGB 16GB (8GBx2) DDR4 3600MHz Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-desktop-ram-black",
+  "b": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Desktop RAM (Black)",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM"
+ },
+ {
+  "a": "team-t-force-delta-32gb-6000mhz-ddr5-rgb-gaming-desktop-ram",
+  "b": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA 32GB 6000MHz DDR5 RGB Gaming Desktop RAM",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM"
  },
  {
   "a": "team-t-force-delta-rgb-32gb-16gbx2-6000mhz-ddr5-gaming-ram-white",
@@ -357,25 +693,109 @@
   "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
  },
  {
-  "a": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram",
-  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
+  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White"
+ },
+ {
+  "a": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram-2",
+  "b": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM",
+  "b_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM"
+ },
+ {
+  "a": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram-3",
+  "b": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram",
+  "score": 1.0,
+  "a_name": "KINGSTON FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM",
+  "b_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "b": "lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
+  "score": 1.0,
+  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
+  "b_name": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM"
+ },
+ {
+  "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
+  "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
+  "score": 1.0,
+  "a_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
+  "b_name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM"
+ },
+ {
+  "a": "apacer-notebook-8gb-ddr4-2400mhz-laptop-ram",
+  "b": "apacer-8gb-2400mhz-ddr4-sodimm-laptop-ram",
+  "score": 1.0,
+  "a_name": "APACER Notebook 8GB DDR4 2400MHz Laptop RAM",
+  "b_name": "Apacer 8GB 2400Mhz DDR4 SODIMM Laptop RAM"
+ },
+ {
+  "a": "apacer-8gb-ddr4-2400mhz-sodimm-laptop-ram",
+  "b": "apacer-8gb-2400mhz-ddr4-sodimm-laptop-ram",
+  "score": 1.0,
+  "a_name": "APACER 8GB DDR4 2400MHz SODIMM Laptop RAM",
+  "b_name": "Apacer 8GB 2400Mhz DDR4 SODIMM Laptop RAM"
+ },
+ {
+  "a": "patriot-signature-line-16gb-ddr4l-3200mhz-laptop-ram",
+  "b": "patriot-signature-line-16gb-ddr4-3200mhz-sodimm-laptop-memory-psd416g32002s",
+  "score": 1.0,
+  "a_name": "Patriot Signature Line 16GB DDR4L 3200MHz Laptop RAM",
+  "b_name": "Patriot Signature Line 16GB DDR4 3200MHz SODIMM LAPTOP MEMORY (PSD416G32002S)"
+ },
+ {
+  "a": "patriot-signature-line-16gb-ddr4-3200mhz-sodimm-laptop-ram",
+  "b": "patriot-signature-line-16gb-ddr4-3200mhz-sodimm-laptop-memory-psd416g32002s",
+  "score": 1.0,
+  "a_name": "Patriot Signature Line 16GB DDR4 3200MHz SODIMM Laptop RAM",
+  "b_name": "Patriot Signature Line 16GB DDR4 3200MHz SODIMM LAPTOP MEMORY (PSD416G32002S)"
+ },
+ {
+  "a": "transcend-jetram-16gb-ddr5l-4800mhz-so-dimm-laptop-ram-jm4800ase-16g",
+  "b": "transcend-jetram-jm4800ase-16g-16gb-ddr5l-4800mhz-laptop-ram",
+  "score": 1.0,
+  "a_name": "Transcend JetRAM 16GB DDR5L 4800MHz SO-DIMM Laptop RAM #JM4800ASE-16G",
+  "b_name": "Transcend JetRAM JM4800ASE-16G 16GB DDR5L 4800MHz Laptop RAM"
+ },
+ {
+  "a": "transcend-jetram-16gb-ddr5l-4800mhz-so-dimm-laptop-ram-jm4800ase-16g-tray",
+  "b": "transcend-jetram-jm4800ase-16g-16gb-ddr5l-4800mhz-laptop-ram",
+  "score": 1.0,
+  "a_name": "Transcend JetRAM 16GB DDR5L 4800MHz SO-DIMM Laptop RAM #JM4800ASE-16G (Tray)",
+  "b_name": "Transcend JetRAM JM4800ASE-16G 16GB DDR5L 4800MHz Laptop RAM"
+ },
+ {
+  "a": "adata-16gb-ddr4l-2666mhz-laptop-ram",
+  "b": "adata-16-gb-ddr4-2666mhz-laptop-ram",
+  "score": 1.0,
+  "a_name": "ADATA 16GB DDR4L 2666MHz Laptop RAM",
+  "b_name": "Adata 16 GB DDR4 2666MHz Laptop RAM"
+ },
+ {
+  "a": "adata-16gb-ddr4l-2666-mhz-laptop-ram",
+  "b": "adata-16-gb-ddr4-2666mhz-laptop-ram",
+  "score": 1.0,
+  "a_name": "ADATA 16GB DDR4L 2666 MHz Laptop RAM",
+  "b_name": "Adata 16 GB DDR4 2666MHz Laptop RAM"
+ },
+ {
+  "a": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
+  "b": "lexar-8gb-ddr4-3200mhz-laptop-ram",
+  "score": 1.0,
+  "a_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
+  "b_name": "Lexar 8GB DDR4 3200MHz Laptop RAM"
+ },
+ {
+  "a": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
+  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram",
   "score": 1.0,
   "a_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
   "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
- },
- {
-  "a": "lexar-8gb-ddr4-3200mhz-laptop-ram",
-  "b": "lexar-8gb-ddr4-3200mhz-sodimm-laptop-ram-2",
-  "score": 1.0,
-  "a_name": "Lexar 8GB DDR4 3200MHz Laptop RAM",
-  "b_name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM"
- },
- {
-  "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware",
-  "b": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware-2",
-  "score": 1.0,
-  "a_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)",
-  "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
  },
  {
   "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd",
@@ -385,11 +805,11 @@
   "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
  },
  {
-  "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-128gb-2-5-sataiii-ssd",
+  "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware",
+  "b": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware-2",
   "score": 1.0,
-  "a_name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
+  "a_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)",
+  "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
  },
  {
   "a": "netac-n535s-120gb-2-5-inch-sataiii-ssd",
@@ -406,88 +826,53 @@
   "b_name": "Netac SA500 120GB 2.5\" SATAIII SSD"
  },
  {
-  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
+  "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
+  "b": "netac-sa500-128gb-2-5-sataiii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD"
+  "a_name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
  },
  {
-  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
+  "a": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
+  "b": "oscoo-os002-256gb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
+  "a_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD",
+  "b_name": "OSCOO OS002 256GB 2.5'' SATA III SSD"
  },
  {
-  "a": "miphi-mp100-256gb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
+  "a": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
+  "b": "oscoo-os001-256gb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 256GB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD"
+  "a_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD",
+  "b_name": "OSCOO OS001 256GB 2.5'' SATA III SSD"
  },
  {
-  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
+  "a": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
+  "b": "miphi-mp100-256gb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD"
+  "a_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD",
+  "b_name": "MiPhi MP100 256GB 2.5'' SATA III SSD"
  },
  {
-  "a": "miphi-mp100-512gb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
+  "a": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
+  "b": "oscoo-os002-512gb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 512GB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD"
+  "a_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD",
+  "b_name": "OSCOO OS002 512GB 2.5'' SATA III SSD"
  },
  {
-  "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
-  "b": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
+  "a": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
+  "b": "miphi-mp100-512gb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
-  "b_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD"
+  "a_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD",
+  "b_name": "MiPhi MP100 512GB 2.5'' SATA III SSD"
  },
  {
-  "a": "miphi-mp100-1tb-2-5-sata-iii-ssd",
-  "b": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
+  "a": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
+  "b": "oscoo-os002-1tb-2-5-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 1TB 2.5'' SATA III SSD",
-  "b_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD"
- },
- {
-  "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd",
-  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
-  "score": 1.0,
-  "a_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
-  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
- },
- {
-  "a": "corsair-force-series-gen-4-pcie-mp600-1tb-nvme-m-2-internal-ssd",
-  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
-  "score": 1.0,
-  "a_name": "CORSAIR FORCE SERIES GEN.4 PCIE MP600 1TB NVME M.2 INTERNAL SSD",
-  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
- },
- {
-  "a": "netac-sa500-240gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-240gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac SA500 240GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 240GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "netac-n535s-240gb-2-5-inch-sataiii-ssd",
-  "b": "netac-n535s-240gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac N535S 240GB 2.5 Inch SATAIII SSD",
-  "b_name": "Netac N535S 240GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
-  "b": "ocpc-mfl-300-1tb-m-2-nvme-ssd-2",
-  "score": 1.0,
-  "a_name": "OCPC MFL-300 1TB M.2 NVMe SSD",
-  "b_name": "OCPC MFL-300 1TB M.2 NVMe SSD"
+  "a_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD",
+  "b_name": "OSCOO OS002 1TB 2.5'' SATA III SSD"
  },
  {
   "a": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
@@ -497,11 +882,32 @@
   "b_name": "OCPC MFL-300 1 TB M.2 NVME SSD"
  },
  {
-  "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2-years-warranty",
-  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2",
+  "a": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
+  "b": "ocpc-mfl-300-1tb-m-2-nvme-ssd-2",
   "score": 1.0,
-  "a_name": "Toshiba S300 2TB 5400RPM 3.5\" Surveillance Hard Drive (2 Years Warranty)",
-  "b_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive"
+  "a_name": "OCPC MFL-300 1TB M.2 NVMe SSD",
+  "b_name": "OCPC MFL-300 1TB M.2 NVMe SSD"
+ },
+ {
+  "a": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
+  "b": "miphi-mp100-1tb-2-5-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD",
+  "b_name": "MiPhi MP100 1TB 2.5'' SATA III SSD"
+ },
+ {
+  "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd",
+  "b": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
+  "score": 1.0,
+  "a_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
+  "b_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD"
+ },
+ {
+  "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd-2",
+  "b": "corsair-force-series-gen-4-pcie-mp600-1tb-nvme-m-2-internal-ssd",
+  "score": 1.0,
+  "a_name": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
+  "b_name": "CORSAIR FORCE SERIES GEN.4 PCIE MP600 1TB NVME M.2 INTERNAL SSD"
  },
  {
   "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive",
@@ -511,18 +917,32 @@
   "b_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive"
  },
  {
-  "a": "seagate-skyhawk-6tb-3-5-surveillance-hdd",
-  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2",
+  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2-years-warranty",
+  "score": 1.0,
+  "a_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive",
+  "b_name": "Toshiba S300 2TB 5400RPM 3.5\" Surveillance Hard Drive (2 Years Warranty)"
+ },
+ {
+  "a": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd",
   "score": 1.0,
   "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD",
   "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD"
  },
  {
-  "a": "seagate-skyhawk-6tb-3-5-surveillance-internal-hdd",
-  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "a": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
+  "b": "seagate-skyhawk-6tb-3-5-surveillance-internal-hdd",
   "score": 1.0,
-  "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance Internal HDD",
-  "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD"
+  "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD",
+  "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance Internal HDD"
+ },
+ {
+  "a": "toshiba-1tb-sata-hard-disk",
+  "b": "toshiba-1tb-sata-laptop-hard-disk",
+  "score": 1.0,
+  "a_name": "TOSHIBA 1TB SATA HARD DISK",
+  "b_name": "Toshiba 1TB Sata Laptop Hard Disk"
  },
  {
   "a": "toshiba-1tb-sata-laptop-hard-disk",
@@ -532,11 +952,46 @@
   "b_name": "Toshiba 1TB Sata Laptop Hard Disk"
  },
  {
-  "a": "toshiba-1tb-sata-laptop-hard-disk",
-  "b": "toshiba-1tb-sata-hard-disk",
+  "a": "t-wolf-ice-cooler-x5-argb-m-atx-mid-tower-gaming-casing-white-2",
+  "b": "t-wolf-ice-cooler-x5-argb-m-atx-mid-tower-gaming-casing",
   "score": 1.0,
-  "a_name": "Toshiba 1TB Sata Laptop Hard Disk",
-  "b_name": "TOSHIBA 1TB SATA HARD DISK"
+  "a_name": "T-Wolf Ice Cooler X5 ARGB M-ATX Mid Tower Gaming Casing (White)",
+  "b_name": "T-Wolf Ice Cooler X5 ARGB M-ATX Mid Tower Gaming Casing"
+ },
+ {
+  "a": "t-wolf-ice-cooler-x5-argb-m-atx-mid-tower-gaming-casing-2",
+  "b": "t-wolf-ice-cooler-x5-argb-m-atx-mid-tower-gaming-casing",
+  "score": 1.0,
+  "a_name": "T-Wolf Ice Cooler X5 ARGB M-ATX Mid Tower Gaming Casing",
+  "b_name": "T-Wolf Ice Cooler X5 ARGB M-ATX Mid Tower Gaming Casing"
+ },
+ {
+  "a": "t-wolf-city-ranger-x7-argb-mid-tower-atx-gaming-casing-white-2",
+  "b": "t-wolf-city-ranger-x7-argb-mid-tower-atx-gaming-casing",
+  "score": 1.0,
+  "a_name": "T-Wolf City Ranger X7 ARGB Mid-Tower ATX Gaming Casing (White)",
+  "b_name": "T-Wolf City Ranger X7 ARGB Mid-Tower ATX Gaming Casing"
+ },
+ {
+  "a": "t-wolf-city-ranger-x7-argb-mid-tower-atx-gaming-casing-2",
+  "b": "t-wolf-city-ranger-x7-argb-mid-tower-atx-gaming-casing",
+  "score": 1.0,
+  "a_name": "T-Wolf City Ranger X7 ARGB Mid-Tower ATX Gaming Casing",
+  "b_name": "T-Wolf City Ranger X7 ARGB Mid-Tower ATX Gaming Casing"
+ },
+ {
+  "a": "t-wolf-xplender-x5-bh-argb-m-atx-portable-casing-white-2",
+  "b": "t-wolf-xplender-x5-bh-argb-m-atx-portable-casing",
+  "score": 1.0,
+  "a_name": "T-Wolf XPLENDER X5 BH ARGB M-ATX Portable Casing (White)",
+  "b_name": "T-Wolf XPLENDER X5 BH ARGB M-ATX Portable Casing"
+ },
+ {
+  "a": "t-wolf-xplender-x5-bh-argb-m-atx-portable-casing-black",
+  "b": "t-wolf-xplender-x5-bh-argb-m-atx-portable-casing",
+  "score": 1.0,
+  "a_name": "T-Wolf XPLENDER X5 BH ARGB M-ATX Portable Casing (Black)",
+  "b_name": "T-Wolf XPLENDER X5 BH ARGB M-ATX Portable Casing"
  },
  {
   "a": "acer-v950b-mid-tower-atx-gaming-casing",
@@ -553,25 +1008,144 @@
   "b_name": "Acer V950B Mid-Tower ATX Gaming Casing"
  },
  {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "a": "gamdias-talos-e3-cg-argb-atx-mid-tower-gaming-casing-white",
+  "b": "gamdias-talos-e3-cg-argb-atx-mid-tower-gaming-casing",
   "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+  "a_name": "Gamdias TALOS E3 CG ARGB ATX Mid-Tower Gaming Casing (White)",
+  "b_name": "Gamdias TALOS E3 CG ARGB ATX Mid-Tower Gaming Casing"
  },
  {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "a": "gamdias-talos-e3-cg-argb-atx-mid-tower-gaming-casing-black",
+  "b": "gamdias-talos-e3-cg-argb-atx-mid-tower-gaming-casing",
   "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
+  "a_name": "Gamdias TALOS E3 CG ARGB ATX Mid-Tower Gaming Casing (Black)",
+  "b_name": "Gamdias TALOS E3 CG ARGB ATX Mid-Tower Gaming Casing"
  },
  {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "a": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-black",
+  "b": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
   "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
+  "a_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (Black)",
+  "b_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing"
+ },
+ {
+  "a": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-white",
+  "b": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
+  "score": 1.0,
+  "a_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (White)",
+  "b_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing"
+ },
+ {
+  "a": "deepcool-ag400-g2-argb-single-tower-cpu-cooler-white",
+  "b": "deepcool-ag400-g2-argb-single-tower-cpu-cooler",
+  "score": 1.0,
+  "a_name": "DeepCool AG400 G2 ARGB Single Tower CPU Cooler(White)",
+  "b_name": "DeepCool AG400 G2 ARGB Single Tower CPU Cooler"
+ },
+ {
+  "a": "deepcool-ag400-g2-argb-single-tower-cpu-cooler-black",
+  "b": "deepcool-ag400-g2-argb-single-tower-cpu-cooler",
+  "score": 1.0,
+  "a_name": "DeepCool AG400 G2 ARGB Single Tower CPU Cooler(Black)",
+  "b_name": "DeepCool AG400 G2 ARGB Single Tower CPU Cooler"
+ },
+ {
+  "a": "deepcool-ak620-digital-se-argb-dual-tower-air-cpu-cooler-black",
+  "b": "deepcool-ak620-digital-se-argb-dual-tower-air-cpu-cooler",
+  "score": 1.0,
+  "a_name": "DeepCool AK620 DIGITAL SE ARGB Dual Tower Air CPU Cooler (Black)",
+  "b_name": "DeepCool AK620 DIGITAL SE ARGB Dual Tower Air CPU Cooler"
+ },
+ {
+  "a": "deepcool-ak620-digital-se-argb-dual-tower-air-cpu-cooler-white",
+  "b": "deepcool-ak620-digital-se-argb-dual-tower-air-cpu-cooler",
+  "score": 1.0,
+  "a_name": "DeepCool AK620 DIGITAL SE ARGB Dual Tower Air CPU Cooler (White)",
+  "b_name": "DeepCool AK620 DIGITAL SE ARGB Dual Tower Air CPU Cooler"
+ },
+ {
+  "a": "arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler-white-2",
+  "b": "arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler",
+  "score": 1.0,
+  "a_name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler (White)",
+  "b_name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler"
+ },
+ {
+  "a": "arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler-black",
+  "b": "arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler",
+  "score": 1.0,
+  "a_name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler (Black)",
+  "b_name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler"
+ },
+ {
+  "a": "msi-mpg-coreliquid-p13-360-aio-argb-2-1-ips-display-cpu-liquid-cooler-black",
+  "b": "msi-mpg-coreliquid-p13-360-aio-argb-liquid-cpu-cooler-with-2-1-ips-display",
+  "score": 1.0,
+  "a_name": "MSI MPG CORELIQUID P13 360 AIO ARGB 2.1’’ IPS Display CPU Liquid Cooler (Black)",
+  "b_name": "MSI MPG CORELIQUID P13 360 AIO ARGB Liquid CPU Cooler With 2.1\" IPS Display"
+ },
+ {
+  "a": "msi-mpg-coreliquid-p13-360-aio-argb-2-1-ips-display-cpu-liquid-cooler-white",
+  "b": "msi-mpg-coreliquid-p13-360-aio-argb-liquid-cpu-cooler-with-2-1-ips-display",
+  "score": 1.0,
+  "a_name": "MSI MPG CORELIQUID P13 360 AIO ARGB 2.1’’ IPS Display CPU Liquid Cooler (White)",
+  "b_name": "MSI MPG CORELIQUID P13 360 AIO ARGB Liquid CPU Cooler With 2.1\" IPS Display"
+ },
+ {
+  "a": "antec-skeleton-360-argb-aio-liquid-cpu-cooler-white",
+  "b": "antec-skeleton-360-argb-aio-liquid-cpu-cooler",
+  "score": 1.0,
+  "a_name": "Antec Skeleton 360 ARGB AIO Liquid CPU Cooler (White)",
+  "b_name": "Antec Skeleton 360 ARGB AIO Liquid CPU Cooler"
+ },
+ {
+  "a": "antec-skeleton-360-argb-aio-liquid-cpu-cooler-black",
+  "b": "antec-skeleton-360-argb-aio-liquid-cpu-cooler",
+  "score": 1.0,
+  "a_name": "Antec Skeleton 360 ARGB AIO Liquid CPU Cooler (Black)",
+  "b_name": "Antec Skeleton 360 ARGB AIO Liquid CPU Cooler"
+ },
+ {
+  "a": "deepcool-ft12-120mm-case-fan-black",
+  "b": "deepcool-ft12-120mm-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FT12 120mm Case Fan (Black)",
+  "b_name": "DeepCool FT12 120mm Case Fan"
+ },
+ {
+  "a": "deepcool-ft12-120mm-case-fan-white",
+  "b": "deepcool-ft12-120mm-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FT12 120mm Case Fan (White)",
+  "b_name": "DeepCool FT12 120mm Case Fan"
+ },
+ {
+  "a": "deepcool-fl12-3-in-1-argb-120mm-case-fan-black",
+  "b": "deepcool-fl12-3-in-1-argb-120mm-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FL12 3 IN 1 ARGB 120mm Case Fan (Black)",
+  "b_name": "DeepCool FL12 3 IN 1 ARGB 120mm Case Fan"
+ },
+ {
+  "a": "deepcool-fl12-3-in-1-argb-120mm-case-fan-white",
+  "b": "deepcool-fl12-3-in-1-argb-120mm-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FL12 3 IN 1 ARGB 120mm Case Fan (White)",
+  "b_name": "DeepCool FL12 3 IN 1 ARGB 120mm Case Fan"
+ },
+ {
+  "a": "deepcool-fl12r-120mm-argb-case-fan-2",
+  "b": "deepcool-fl12r-120mm-argb-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FL12R 120mm ARGB Case Fan",
+  "b_name": "DeepCool FL12R 120mm ARGB Case Fan"
+ },
+ {
+  "a": "deepcool-fl12r-120mm-argb-case-fan-white",
+  "b": "deepcool-fl12r-120mm-argb-case-fan",
+  "score": 1.0,
+  "a_name": "DeepCool FL12R 120mm ARGB Case Fan (White)",
+  "b_name": "DeepCool FL12R 120mm ARGB Case Fan"
  },
  {
   "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
@@ -582,20 +1156,13 @@
  },
  {
   "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
   "score": 1.0,
   "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
   "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
-  "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
- },
- {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
   "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
   "score": 1.0,
   "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
@@ -609,794 +1176,227 @@
   "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
-  "score": 1.0,
-  "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
-  "b_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (EXTENDED)"
- },
- {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium",
-  "score": 1.0,
-  "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
-  "b_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (MEDIUM)"
- },
- {
-  "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white",
-  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
-  "score": 1.0,
-  "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)",
-  "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
- },
- {
-  "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-carbon",
-  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
-  "score": 1.0,
-  "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (Carbon)",
-  "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
- },
- {
-  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-red",
-  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
-  "score": 1.0,
-  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Red)",
-  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
- },
- {
-  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-gun-metal",
-  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
-  "score": 1.0,
-  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Gun Metal)",
-  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
- },
- {
-  "a": "rode-videomic-pro-compact-directional-on-camera-microphone",
-  "b": "rode-videomic-pro-compact-directional-on-camera-microphone-3",
-  "score": 1.0,
-  "a_name": "RODE VideoMic Pro Compact Directional On-camera Microphone",
-  "b_name": "Rode VideoMic Pro Compact Directional On-camera Microphone"
- },
- {
-  "a": "rode-videomic-pro-compact-directional-on-camera-microphone-2",
-  "b": "rode-videomic-pro-compact-directional-on-camera-microphone-3",
-  "score": 1.0,
-  "a_name": "RODE VideoMic Pro+Compact Directional On-camera Microphone",
-  "b_name": "Rode VideoMic Pro Compact Directional On-camera Microphone"
- },
- {
-  "a": "maono-wave-t1-mini-wireless-microphone",
-  "b": "maono-wave-t1-mini-wireless-microphone-ios-type-c",
-  "score": 1.0,
-  "a_name": "Maono Wave T1 Mini Wireless Microphone",
-  "b_name": "Maono Wave T1 Mini Wireless Microphone (iOS, TYPE C)"
- },
- {
-  "a": "maono-wave-t1-mini-wireless-microphone",
-  "b": "maono-wave-t1-mini-wireless-microphone-type-c",
-  "score": 1.0,
-  "a_name": "Maono Wave T1 Mini Wireless Microphone",
-  "b_name": "Maono Wave T1 Mini Wireless Microphone (Type C)"
- },
- {
-  "a": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive",
-  "b": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-3",
-  "score": 1.0,
-  "a_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
-  "b_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive"
- },
- {
-  "a": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-2",
-  "b": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-3",
-  "score": 1.0,
-  "a_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
-  "b_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive"
- },
- {
-  "a": "sandisk-ultra-dual-drive-go-usb-type-c-128gb-pen-drive",
-  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
-  "score": 1.0,
-  "a_name": "SanDisk Ultra Dual Drive Go USB Type-C 128GB Pen Drive",
-  "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
- },
- {
-  "a": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive",
-  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
-  "score": 1.0,
-  "a_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive",
-  "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
- },
- {
-  "a": "samsung-galaxy-watch-8",
-  "b": "samsung-galaxy-watch-8-2",
-  "score": 1.0,
-  "a_name": "Samsung Galaxy Watch 8",
-  "b_name": "Samsung Galaxy Watch 8"
- },
- {
-  "a": "samsung-galaxy-watch-8",
-  "b": "samsung-galaxy-watch-8-3",
-  "score": 1.0,
-  "a_name": "Samsung Galaxy Watch 8",
-  "b_name": "Samsung Galaxy Watch 8"
- },
- {
-  "a": "oraimo-spacebuds-neo",
-  "b": "oraimo-spacebuds-neo-3",
-  "score": 1.0,
-  "a_name": "Oraimo SpaceBuds Neo+",
-  "b_name": "Oraimo SpaceBuds Neo"
- },
- {
-  "a": "oraimo-spacebuds-neo",
-  "b": "oraimo-spacebuds-neo-4",
-  "score": 1.0,
-  "a_name": "Oraimo SpaceBuds Neo+",
-  "b_name": "Oraimo SpaceBuds Neo+"
- },
- {
-  "a": "oraimo-spacebuds-neo-2",
-  "b": "oraimo-spacebuds-neo-3",
-  "score": 1.0,
-  "a_name": "Oraimo SpaceBuds Neo",
-  "b_name": "Oraimo SpaceBuds Neo"
- },
- {
-  "a": "oraimo-spacebuds-neo-2",
-  "b": "oraimo-spacebuds-neo-4",
-  "score": 1.0,
-  "a_name": "Oraimo SpaceBuds Neo",
-  "b_name": "Oraimo SpaceBuds Neo+"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone",
-  "b": "logitech-g333-in-ear-gaming-earphone-black",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone",
-  "b": "logitech-g333-in-ear-gaming-earphone-purple",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Purple)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone",
-  "b": "logitech-g333-in-ear-gaming-earphone-white",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (white)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone",
-  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone",
-  "b": "logitech-g333-in-ear-gaming-earphone-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-black",
-  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (Black)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-black",
-  "b": "logitech-g333-in-ear-gaming-earphone-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (Black)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-purple",
-  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (Purple)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-purple",
-  "b": "logitech-g333-in-ear-gaming-earphone-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (Purple)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-white",
-  "b": "logitech-g333-in-ear-gaming-earphone-black-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (white)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone (Black)"
- },
- {
-  "a": "logitech-g333-in-ear-gaming-earphone-white",
-  "b": "logitech-g333-in-ear-gaming-earphone-2",
-  "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (white)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
- },
- {
-  "a": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank",
-  "b": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-3",
-  "score": 1.0,
-  "a_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank",
-  "b_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank"
- },
- {
-  "a": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-2",
-  "b": "vention-fhpb0-20000mah-22-5w-fast-charging-power-bank-3",
-  "score": 1.0,
-  "a_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank",
-  "b_name": "Vention FHPB0 20000mAh 22.5W Fast Charging Power Bank"
- },
- {
-  "a": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller",
-  "b": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-2",
-  "score": 1.0,
-  "a_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller",
-  "b_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller"
- },
- {
-  "a": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-global-version",
-  "b": "dji-mini-3-drone-fly-more-combo-with-dji-rc-remote-controller-2",
-  "score": 1.0,
-  "a_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller (Global Version)",
-  "b_name": "DJI Mini 3 Drone Fly More Combo with DJI RC Remote Controller"
- },
- {
-  "a": "sony-playstation-5-pro",
-  "b": "sony-playstation-5-pro-us-edition",
-  "score": 1.0,
-  "a_name": "Sony PlayStation 5 Pro",
-  "b_name": "Sony PlayStation 5 Pro (US Edition)"
- },
- {
-  "a": "sony-playstation-5-pro",
-  "b": "sony-playstation-5-pro-uk-edition",
-  "score": 1.0,
-  "a_name": "Sony PlayStation 5 Pro",
-  "b_name": "Sony PlayStation 5 Pro (UK Edition)"
- },
- {
-  "a": "cougar-armor-one-gaming-chair",
-  "b": "cougar-armor-one-gaming-chair-2",
-  "score": 1.0,
-  "a_name": "Cougar ARMOR ONE gaming chair",
-  "b_name": "Cougar Armor One Gaming Chair"
- },
- {
-  "a": "cougar-armor-one-gaming-chair",
-  "b": "cougar-armor-one-gaming-chair-black",
-  "score": 1.0,
-  "a_name": "Cougar ARMOR ONE gaming chair",
-  "b_name": "Cougar ARMOR ONE gaming chair (Black)"
- },
- {
-  "a": "corsair-tc60-fabric-gaming-chair-black-2",
-  "b": "corsair-tc60-fabric-gaming-chair",
-  "score": 1.0,
-  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
-  "b_name": "Corsair TC60 Fabric Gaming Chair"
- },
- {
-  "a": "corsair-tc60-fabric-gaming-chair-black-2",
-  "b": "corsair-tc60-fabric-gaming-chair-black",
-  "score": 1.0,
-  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
-  "b_name": "Corsair TC60 Fabric Gaming Chair (Black)"
- },
- {
-  "a": "corsair-tc60-fabric-gaming-chair-black-2",
-  "b": "corsair-tc60-fabric-gaming-chair-grey",
-  "score": 1.0,
-  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
-  "b_name": "Corsair TC60 Fabric Gaming Chair (Grey)"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-blue",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (Blue)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-sakura",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (Sakura)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-white",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (white)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router",
-  "b": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router-2",
-  "score": 1.0,
-  "a_name": "Tenda TX12 Pro v2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
-  "b_name": "Tenda TX12 Pro V2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
- },
- {
-  "a": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router",
-  "b": "tenda-tx12-pro-v2-0-ax3000-dual-band-gigabit-wi-fi-6-router-3",
-  "score": 1.0,
-  "a_name": "Tenda TX12 Pro v2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
-  "b_name": "Tenda TX12 Pro V2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
- },
- {
-  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-1-pack",
-  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (1 Pack)",
-  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
- },
- {
-  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-3-pack",
-  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (3 Pack)",
-  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
- },
- {
-  "a": "cudy-m1800-ax1800-dual-band-mesh-router-3-pack",
-  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (3 Pack)",
-  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-1-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)"
- },
- {
-  "a": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack",
-  "b": "cudy-m3000-ax3000-2-5g-dual-band-wi-fi-6-mesh-router-3-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
-  "b_name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (3 Pack)"
- },
- {
-  "a": "cudy-m1800-ax1800-dual-band-mesh-router-1-pack",
-  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (1 Pack)",
-  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack",
-  "b": "cudy-m1300-ac1200-dual-band-gigabit-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)",
-  "b_name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)"
- },
- {
-  "a": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack",
-  "b": "cudy-m1800-ax1800-dual-band-mesh-router-2-pack-2",
-  "score": 1.0,
-  "a_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)",
-  "b_name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)"
- },
- {
-  "a": "netis-wf2409e-300mbps-wireless-n-router",
-  "b": "netis-wf2409e-300mbps-wireless-n-router-2",
-  "score": 1.0,
-  "a_name": "Netis WF2409E 300Mbps Wireless N Router",
-  "b_name": "Netis WF2409E 300Mbps Wireless N Router"
- },
- {
-  "a": "netis-wf2409e-300mbps-wireless-n-router",
-  "b": "netis-wireless-n-router-wf2409e-300mbps",
-  "score": 1.0,
-  "a_name": "Netis WF2409E 300Mbps Wireless N Router",
-  "b_name": "Netis Wireless N Router WF2409E 300Mbps"
- },
- {
-  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-without-case",
-  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
-  "score": 1.0,
-  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (Without Case)",
-  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
- },
- {
-  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-with-case",
-  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
-  "score": 1.0,
-  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (With Case)",
-  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
- },
- {
-  "a": "epson-ecotank-l130-single-function-inktank-printer-official",
-  "b": "epson-ecotank-l130-single-function-inktank-printer",
-  "score": 1.0,
-  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Official)",
-  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
- },
- {
-  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-unofficial",
-  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
-  "score": 1.0,
-  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Unofficial)",
-  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
- },
- {
-  "a": "epson-ecotank-l130-single-function-inktank-printer-unofficial",
-  "b": "epson-ecotank-l130-single-function-inktank-printer",
-  "score": 1.0,
-  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Unofficial)",
-  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
- },
- {
-  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-official",
-  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
-  "score": 1.0,
-  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Official)",
-  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
- },
- {
-  "a": "epson-work-force-ds-530ii-sheetfed-scanner",
-  "b": "epson-work-force-ds-530ii-sheetfed-scanner-2",
-  "score": 1.0,
-  "a_name": "EPSON Work Force DS-530II Sheetfed Scanner",
-  "b_name": "EPSON Work Force DS-530II Sheetfed Scanner"
- },
- {
-  "a": "epson-work-force-ds-530ii-sheetfed-scanner",
-  "b": "epson-work-force-ds-530ii-sheetfed-scanner-3",
-  "score": 1.0,
-  "a_name": "EPSON Work Force DS-530II Sheetfed Scanner",
-  "b_name": "EPSON Work Force DS-530II Sheetfed Scanner"
- },
- {
-  "a": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network",
-  "b": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network-2",
-  "score": 1.0,
-  "a_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network",
-  "b_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network"
- },
- {
-  "a": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network",
-  "b": "sharp-ar-6031n-digital-photocopier-with-duplex-and-network-3",
-  "score": 1.0,
-  "a_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network",
-  "b_name": "Sharp AR 6031N Digital Photocopier with Duplex and Network"
- },
- {
-  "a": "power-pac-1200va-offline-ups-plastic-body",
-  "b": "power-pac-1200va-offline-ups",
-  "score": 1.0,
-  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
-  "b_name": "Power Pac 1200VA Offline UPS"
- },
- {
-  "a": "power-pac-1200va-offline-ups-plastic-body",
-  "b": "power-pac-1200va-offline-ups-metal-body",
-  "score": 1.0,
-  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
-  "b_name": "Power Pac 1200VA Offline UPS (Metal Body)"
- },
- {
-  "a": "eset-internet-security-3-user-for-1-year",
-  "b": "eset-1-user-3-years-internet-security",
-  "score": 1.0,
-  "a_name": "ESET Internet Security 3 User for 1 Year",
-  "b_name": "ESET 1 User 3 Years Internet Security"
- },
- {
-  "a": "eset-internet-security-3-user-for-1-year",
-  "b": "eset-internet-security-3-user-1-year",
-  "score": 1.0,
-  "a_name": "ESET Internet Security 3 User for 1 Year",
-  "b_name": "ESET Internet Security 3 User 1 Year"
- },
- {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
- },
- {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
- },
- {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "score": 1.0,
+  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
+  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
+  "a": "arctic-p12-pro-a-rgb-120mm-reverse-casing-fan-3-pack",
+  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro A-RGB 120mm Reverse Casing Fan (3 Pack)",
+  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
+  "a": "arctic-p12-pro-a-rgb-120mm-reverse-casing-fan-3-pack",
+  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro A-RGB 120mm Reverse Casing Fan (3 Pack)",
+  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
+  "a": "arctic-p12-pro-a-rgb-reverse-120mm-casing-fan",
+  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro A-RGB Reverse 120mm Casing Fan",
+  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
+  "a": "arctic-p12-pro-a-rgb-reverse-120mm-casing-fan",
+  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro A-RGB Reverse 120mm Casing Fan",
+  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
+  "a": "cooler-master-masterfan-mf120-halo-case-fan-white-2",
+  "b": "cooler-master-masterfan-mf120-halo-case-fan",
+  "score": 1.0,
+  "a_name": "Cooler Master MASTERFAN MF120 HALO² Case Fan (White)",
+  "b_name": "Cooler Master MasterFan MF120 HALO² Case Fan"
  },
  {
-  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
-  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
-  "score": 1.0,
-  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
-  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
+  "a": "cooler-master-masterfan-mf120-halo-case-fan-2",
+  "b": "cooler-master-masterfan-mf120-halo-case-fan",
+  "score": 1.0,
+  "a_name": "Cooler Master MASTERFAN MF120 HALO² Case Fan",
+  "b_name": "Cooler Master MasterFan MF120 HALO² Case Fan"
  },
  {
-  "a": "delux-dc-r103-gaming-chair-black-red",
-  "b": "delux-dc-r103-gaming-chair",
-  "score": 1.0,
-  "a_name": "DELUX DC-R103 Gaming Chair (Black&Red)",
-  "b_name": "DELUX DC-R103 Gaming Chair"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
+  "score": 1.0,
+  "a_name": "LIAN LI BORA DIGITAL 120MM RGB COOLING FAN (SILVER)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)"
  },
  {
-  "a": "delux-dc-r103-gaming-chair-black-blue",
-  "b": "delux-dc-r103-gaming-chair",
-  "score": 1.0,
-  "a_name": "DELUX DC-R103 Gaming Chair (Black&Blue)",
-  "b_name": "DELUX DC-R103 Gaming Chair"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
+  "score": 1.0,
+  "a_name": "LIAN LI BORA DIGITAL 120MM RGB COOLING FAN (SILVER)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)"
  },
  {
-  "a": "redragon-c211-gaming-chair-black-red-2",
-  "b": "redragon-c211-gaming-chair-black-red",
-  "score": 1.0,
-  "a_name": "Redragon C211 Gaming Chair (Black-Red)",
-  "b_name": "Redragon C211 Gaming Chair (Black-Red)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "LIAN LI BORA DIGITAL 120MM RGB COOLING FAN (SILVER)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
  },
  {
-  "a": "redragon-c211-gaming-chair-black-red-2",
-  "b": "redragon-c211-gaming-chair-white",
-  "score": 1.0,
-  "a_name": "Redragon C211 Gaming Chair (Black-Red)",
-  "b_name": "Redragon C211 Gaming Chair (White)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)"
  },
  {
-  "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair",
-  "b": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-2",
-  "score": 1.0,
-  "a_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair",
-  "b_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)"
  },
  {
-  "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair",
-  "b": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-red",
-  "score": 1.0,
-  "a_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair",
-  "b_name": "MeeTion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair (Red)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair-red",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair-yellow",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey-2",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair-orange",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair-red-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
+  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "score": 1.0,
+  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
+  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-orange-2",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan-no-warranty",
+  "b": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan",
+  "score": 1.0,
+  "a_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan (No Warranty)",
+  "b_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-orange",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan-3-year",
+  "b": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan",
+  "score": 1.0,
+  "a_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan (3 Year)",
+  "b_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-red-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-red-switch-saturn-stellar-edition",
+  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
+  "score": 1.0,
+  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Red Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
+  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-switch-saturn-stellar-editio",
+  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
+  "score": 1.0,
+  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
+  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-orange",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-black",
+  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
+  "score": 1.0,
+  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Black)",
+  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-red-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-beige",
+  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
+  "score": 1.0,
+  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Beige)",
+  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a": "t-wolf-t60-60-wired-rgb-gaming-mechanical-keyboard-white-blue",
+  "b": "t-wolf-t60-60-wired-rgb-mechanical-gaming-keyboard",
+  "score": 1.0,
+  "a_name": "T-Wolf T60 60% Wired RGB Gaming Mechanical Keyboard (White & Blue)",
+  "b_name": "T-Wolf T60 60% Wired RGB Mechanical Gaming Keyboard"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-orange",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a": "t-wolf-t60-60-wired-rgb-gaming-mechanical-keyboard",
+  "b": "t-wolf-t60-60-wired-rgb-mechanical-gaming-keyboard",
+  "score": 1.0,
+  "a_name": "T-Wolf T60 60% Wired RGB Gaming Mechanical Keyboard",
+  "b_name": "T-Wolf T60 60% Wired RGB Mechanical Gaming Keyboard"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-red-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
+  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-red-switch",
+  "score": 1.0,
+  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
+  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Red Switch)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
-  "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
+  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-blue-switch",
+  "score": 1.0,
+  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
+  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Blue Switch)"
  },
  {
-  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case",
-  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
-  "score": 1.0,
-  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
-  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
+  "a": "pc-power-k87-rgb-wired-gaming-keyboard-with-bangla-white",
+  "b": "pc-power-k87-rgb-wired-gaming-keyboard-with-bangla",
+  "score": 1.0,
+  "a_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla (White)",
+  "b_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla"
  }
 ]
