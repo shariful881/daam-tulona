@@ -1,0 +1,39 @@
+name: brand-details
+# ব্র্যান্ডের নিজের সাইট থেকে বিবরণ। এখন শুধু হাতে চালানো যায় (লাইভ করার পর সময়সূচি যোগ হবে)।
+on:
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "যেমন: --dry  অথবা  asus tp-link  অথবা  --reindex"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brand-details
+  cancel-in-progress: false
+
+jobs:
+  brand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: ব্র্যান্ডের সাইট থেকে বিবরণ
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+        run: python -m tools.brand_details $ARGS
+      - name: সেভ
+        run: |
+          git config user.name "daam-tulona-bot"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p data/brand_index data/brand_details
+          git add data/brand_index data/brand_details
+          git diff --cached --quiet || git commit -m "ব্র্যান্ডের বিবরণ $(TZ=Asia/Dhaka date +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 10; done
