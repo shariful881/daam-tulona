@@ -138,9 +138,10 @@ def check_file(slug, name):
 
 def save_from(slug, url, trusted):
     """একটা ঠিকানা থেকে লোগো নামিয়ে যাচাই করে রাখা; ফেরত ফাইলের নাম বা None"""
+    why = lambda w: print(f"    ছবি বাদ ({w}): {url[:90]}") or None
     try:
         if not allowed(url):
-            return None
+            return why("robots.txt")
         r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
         if not r.ok or len(r.content) < 200:
             return None
@@ -148,7 +149,7 @@ def save_from(slug, url, trusted):
             return None  # সাইটের svg সাধারণত CSS থেকে রং পায়, আলাদা করলে সাদা/ফাঁকা দেখায়
         im = Image.open(io.BytesIO(r.content)).convert("RGBA")
         if im.width < 48 or im.height < 20 or not visible(im):
-            return None
+            return why(f"ছোট বা অদৃশ্য {im.width}x{im.height}") if trusted else None
         if im.width / im.height > (11 if trusted else 7):
             return None  # ব্যানার (উইকিপিডিয়ার চওড়া লেখা-লোগো চলবে)
         if not trusted and not re.search(r"logo|icon", url, re.I):
