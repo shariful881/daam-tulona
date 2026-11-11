@@ -26,6 +26,7 @@ BD = timezone(timedelta(hours=6))
 CONF = json.loads((ROOT / "config/brand_sources.json").read_text())["brands"]
 MAX_MINUTES = int(os.environ.get("BRAND_MINUTES", "120"))
 REFRESH_DAYS = 120
+REFETCH = "--refetch" in sys.argv
 LOC = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>")
 
 
@@ -178,7 +179,7 @@ def plan(brand, conf, products, offers, index):
         op = out_path(pid)
         if op.exists():
             try:
-                if (today - datetime.fromisoformat(json.loads(op.read_text())["fetched"]).date()).days < REFRESH_DAYS:
+                if not REFETCH and (today - datetime.fromisoformat(json.loads(op.read_text())["fetched"]).date()).days < REFRESH_DAYS:
                     continue
             except Exception:
                 pass

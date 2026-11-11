@@ -207,8 +207,8 @@ monitor = [
     F("refresh", "রিফ্রেশ রেট", [r"> *refresh rate"], n=r"\b(\d{2,3})\s?hz\b", f="{}Hz"),
     F("response", "রেসপন্স টাইম", [r"> *response time"]),
     F("brightness", "ব্রাইটনেস", [r"> *brightness"]),
-    F("ports", "পোর্ট", [r"> *(hdmi|display ?port|vga|d-sub|usb|ports?|input)"], m=3),
-    F("hdr", "HDR / কালার", [r"> *(hdr|color gamut|colou?r)"], m=1, x=[r"colou?r\(?s?\)?$"]),
+    F("ports", "পোর্ট", [r"> *(i/?o )?ports?$", r"> *(hdmi|display ?port|vga|d-sub|usb)"], m=3, x=[r"frequency"]),
+    F("hdr", "HDR / কালার", [r"> *(hdr|color gamut|colou?r space|colou?r gamut|srgb|dci)"], m=1),
     F("speaker", "স্পিকার", [r"> *speakers?"]),
     WARRANTY,
 ]

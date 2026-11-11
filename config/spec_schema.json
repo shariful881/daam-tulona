@@ -1372,18 +1372,19 @@
     "id": "ports",
     "bn": "পোর্ট",
     "k": [
-     "> *(hdmi|display ?port|vga|d-sub|usb|ports?|input)"
+     "> *(i/?o )?ports?$",
+     "> *(hdmi|display ?port|vga|d-sub|usb)"
     ],
-    "m": 3
+    "m": 3,
+    "x": [
+     "frequency"
+    ]
    },
    {
     "id": "hdr",
     "bn": "HDR / কালার",
     "k": [
-     "> *(hdr|color gamut|colou?r)"
-    ],
-    "x": [
-     "colou?r\\(?s?\\)?$"
+     "> *(hdr|color gamut|colou?r space|colou?r gamut|srgb|dci)"
     ]
    },
    {

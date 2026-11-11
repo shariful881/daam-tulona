@@ -52,7 +52,7 @@ def key_specs(category, name, det_specs=None, feats=None, brand_spec=None, key_b
     for sec, kv in (det_specs or {}).items():
         for k, v in (kv or {}).items():
             if v not in (None, ""):
-                rows.append((f"{sec} > {k}".lower(), k, v))
+                rows.append((re.sub(r"\s*\([^)]*\)", "", f"{sec} > {k}").lower(), k, v))  # "Panel Size (inch)" -> "panel size"
     loose = []
     for k, v in feature_pairs(feats):
         if k is None:

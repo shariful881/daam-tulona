@@ -17,6 +17,7 @@ from urllib.parse import urlsplit, urlunsplit
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from scraper.details_generic import normalize_specs
 from web.keyspecs import key_specs
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -637,6 +638,8 @@ def main():
         feats = det.get("key_features") or p.get("features") or []
         bsp = next((BSPEC[o["url"]] for o in so.values() if o.get("url") in BSPEC), None)
         bdet = brand_details.get(pid) or {}  # ব্র্যান্ডের নিজের সাইটের বিবরণ সবচেয়ে নির্ভরযোগ্য, তাই আগে
+        if bdet.get("specs"):
+            bdet = dict(bdet, specs=normalize_specs(bdet["specs"]))
         all_specs = dict(bdet.get("specs") or {})
         for sec_, rows_ in (det.get("specs") or {}).items():
             all_specs[sec_ + " (স্টোর)" if sec_ in all_specs else sec_] = rows_

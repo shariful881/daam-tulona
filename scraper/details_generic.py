@@ -129,8 +129,12 @@ def parse_brand(html: str, brand: str = "") -> dict:
     def add(sec, k, v):
         k = " ".join((k or "").split()).strip(" :")
         # লম্বা ব্যাখ্যার লাইন (বিপণনের লেখা) বাদ, সর্বোচ্চ ৫ লাইন
-        v = "\n".join([ln.strip() for ln in (v or "").splitlines() if ln.strip() and len(ln.strip()) <= 90][:5])
-        if not k or not v or len(k) > 60 or k[0].isdigit() or len(v) > 400 or k.lower() == v.lower() or JUNK_KEY.match(k):
+        lines = [ln.strip() for ln in (v or "").splitlines() if ln.strip()]
+        if len(lines) >= 2 and sum(1 for ln in lines if KV.match(ln) or " : " in ln) >= len(lines) * 0.6:
+            v = "\n".join(ln for ln in lines if len(ln) <= 200)[:3000]  # "কী : মান" সাজানো ঘর: পুরোটা রাখা
+        else:
+            v = "\n".join([ln for ln in lines if len(ln) <= 90][:5])
+        if not k or not v or len(k) > 60 or k[0].isdigit() or len(v) > 3000 or k.lower() == v.lower() or JUNK_KEY.match(k):
             return
         specs.setdefault(sec or "Specification", {}).setdefault(k, v)
 
@@ -172,9 +176,41 @@ def parse_brand(html: str, brand: str = "") -> dict:
             for ap in (obj.get("additionalProperty") or []) if isinstance(obj, dict) else []:
                 if isinstance(ap, dict):
                     add("Specification", ap.get("name"), str(ap.get("value") or ""))
-    out = {"specs": {s_: r for s_, r in specs.items() if r}, "key_features": []}
+    if brand == "asus" and specs.get("Specification") and soup.select(".rowTableTitle"):
+        specs = {"Specification": {k: v for k, v in specs["Specification"].items()}}
+    out = {"specs": normalize_specs({s_: r for s_, r in specs.items() if r}), "key_features": []}
     for r in out["specs"].values():
         for k, v in r.items():
             if k.lower() in ("model", "model number", "model name", "part number") and "model" not in out:
                 out["model"] = v.split("\n")[0][:80]
+    return out
+
+
+KV_LINE = re.compile(r"^\s*([^:]{2,50}?)\s*:\s*(.+)$")
+NAV_JUNK = {"laptops", "handhelds", "displays / desktops", "motherboards / components", "networking / iot / servers",
+            "accessories", "phones", "mobile / handhelds", "business"}
+
+
+def normalize_specs(specs: dict) -> dict:
+    """'Display' -> 'Panel Size (inch) : 27\nAspect Ratio : 16:9' এর মতো ঘর ভেঙে আলাদা সারি (অংশের নাম = ঘরের নাম)।
+    সাইটের মেনুর সারি (Laptops: For Home) বাদ।"""
+    out = {}
+    for sec, rows in (specs or {}).items():
+        for k, v in rows.items():
+            if k.strip().lower() in NAV_JUNK:
+                continue
+            lines = [ln for ln in str(v).split("\n") if ln.strip()]
+            kv = [KV_LINE.match(ln) for ln in lines]
+            if len(lines) >= 2 and sum(1 for m in kv if m) >= len(lines) - 1:
+                sub = out.setdefault(k if sec in ("Specification", "Tech Specs", "Specifications") else f"{sec} › {k}", {})
+                for ln, m in zip(lines, kv):
+                    if m:
+                        sub[m.group(1).strip()] = m.group(2).strip()
+                    elif sub:
+                        last = list(sub)[-1]
+                        sub[last] += "\n" + ln.strip()
+            elif len(lines) == 1 and kv[0] and len(k) > 2 and kv[0].group(1).strip().lower() == k.strip().lower():
+                out.setdefault(sec, {})[k] = kv[0].group(2).strip()
+            else:
+                out.setdefault(sec, {})[k] = v
     return out
