@@ -14,6 +14,7 @@
   <div id="cmpout"></div>
 {% endblock %}
 {% block after %}
+<script src="{{ base }}/static/search.js?v={{ build_id }}"></script>
 <script>
 (function(){
   var base="{{ base }}", stores={{ stores_json | safe }};
@@ -70,14 +71,16 @@
   onlyDiff.addEventListener('change',draw);
   // খুঁজে যোগ করা (একই ক্যাটাগরি)
   var q=document.getElementById('addq'), res=document.getElementById('addres');
-  q.addEventListener('focus',function(){if(!index)fetch(base+'/search.json').then(function(r){return r.json()}).then(function(j){index=j})});
+  var qseq=0;
   q.addEventListener('input',function(){
-    var t=q.value.toLowerCase().split(/\s+/).filter(Boolean);
-    if(!t.length||!index){res.innerHTML='';return}
+    var v=q.value.trim(), my=++qseq;
+    if(!v){res.innerHTML='';return}
     var cat=data.length?data[0].c:null, have=data.map(function(d){return d.id});
-    var hits=index.filter(function(d){var n=(d.n+' '+d.c).toLowerCase();return (!cat||d.g===cat)&&have.indexOf(d.id)<0&&t.every(function(w){return n.indexOf(w)>-1})}).slice(0,8);
+    DTSearch(v,{limit:8,filter:function(d){return (!cat||d.g===cat)&&have.indexOf(d.id)<0}}).then(function(hits){
+    if(my!==qseq)return;
     res.innerHTML=hits.map(function(d){return '<button type="button" class="row" style="width:100%;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;font:inherit;color:inherit;cursor:pointer" data-add="'+d.id+'"><div style="min-width:0"><div class="n">'+esc(d.n)+'</div><div class="w">'+esc(d.c)+'</div></div><div class="p">'+taka(d.p)+'</div></button>'}).join('')
       ||'<p class="muted" style="margin:0;font-size:.85rem">'+(cat?'এই ক্যাটাগরিতে মিলছে না।':'কিছু পাওয়া যায়নি।')+'</p>';
+    });
   });
   res.addEventListener('click',function(e){var b=e.target.closest('[data-add]');if(!b)return;
     if(data.length>=4){res.innerHTML='<p class="muted" style="margin:0;font-size:.85rem">সর্বোচ্চ ৪টি। একটা সরিয়ে আবার যোগ করুন।</p>';return}

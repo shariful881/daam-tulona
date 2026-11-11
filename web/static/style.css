@@ -359,7 +359,7 @@ body.fp-on::after{content:"";position:fixed;inset:0;background:rgba(10,20,18,.5)
 .fgo{flex:1;justify-content:center;border:0;cursor:pointer;font-family:var(--body)}
 .fstat{margin:0 0 6px;font-size:.84rem;color:var(--muted)}
 .fload{display:block;width:100%;margin-top:12px;min-height:46px;border:1px solid var(--line);background:var(--surface);border-radius:12px;font:600 .92rem var(--body);color:var(--ink);cursor:pointer}
-#list.busy{opacity:.5;transition:opacity .15s}
+#list.busy,#results.busy{opacity:.5;transition:opacity .15s}
 
 /* ক্যাটাগরি আইকন (Tabler Icons, MIT) */
 .ci{width:1em;height:1em;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;color:var(--c,var(--accent))}

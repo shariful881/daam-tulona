@@ -588,6 +588,13 @@
                   }).join("") + "</div></div>";
               }).join("") + "</section>";
           })() +
+          (function () {
+            var am = S.admin.auto_merges || [];
+            if (!am.length) return "";
+            return '<section class="card"><h2>স্বয়ংক্রিয় মিল <span class="sub">· ' + bn(am.length) + "টি</span></h2>" +
+              '<p class="muted" style="margin:0;font-size:.84rem">মডেল নম্বর, ব্র্যান্ড আর ক্যাপাসিটি এক হওয়ায় এগুলো নিজে থেকে এক পাতায় জোড়া লাগানো হয়েছে। ভুল হলে <b>আলাদা</b> চাপুন, পরের আপডেটে আলাদা হয়ে যাবে।</p>' +
+              '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…"></div><div id="amres"></div></section>';
+          })() +
           '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(sug.length) + "টি</span></h2>" +
             '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ হলে "আলাদা" চাপুন।</p>' +
             sug.slice(0, 80).map(function (s) {
@@ -596,6 +603,18 @@
                 '<div class="bt">' + (done ? '<span class="muted" style="font-size:.82rem">✓ মিলানো হয়েছে</span> <button type="button" class="abtn ghost" data-unmerge="' + esc(s.a) + "|" + esc(s.b) + '">বাতিল</button>'
                   : '<button type="button" class="abtn ok" data-merge="' + esc(s.a) + "|" + esc(s.b) + '">একই, মিলান</button><button type="button" class="abtn ghost" data-notsame="' + esc(pairKey(s.a, s.b)) + '">আলাদা</button>') + "</div></div>";
             }).join("") + "</section>";
+        var amq = $("#amq");
+        function drawAm() {
+          var am = S.admin.auto_merges || [], w = (amq.value || "").toLowerCase();
+          var rows = am.filter(function (x) { return !w || (x[1] + " " + x[3]).toLowerCase().indexOf(w) > -1; }).slice(0, 40);
+          $("#amres").innerHTML = rows.map(function (x) {
+            var k = pairKey(x[0], x[2]), no = mm.not_same.indexOf(k) > -1;
+            return '<div class="apair' + (no ? " done" : "") + '"><div class="nm">' + esc(x[1]) + "<br><span>↕ একই পাতায়</span><br>" + esc(x[3]) + "</div>" +
+              '<div class="bt">' + (no ? '<span class="muted" style="font-size:.82rem">✓ আলাদা করা হবে</span>' : '<button type="button" class="abtn ghost" data-notsame="' + esc(k) + '">আলাদা</button>') +
+              '<a class="abtn ghost" style="display:inline-flex;align-items:center" href="' + BASE + "/p/" + esc(x[2]) + '/" target="_blank">দেখুন</a></div></div>';
+          }).join("");
+        }
+        if (amq) { amq.addEventListener("input", drawAm); drawAm(); }
         $("#pq").addEventListener("input", function () {
           var t = this.value.toLowerCase().split(/\s+/).filter(Boolean), out = $("#pres");
           if (!t.length) { out.innerHTML = ""; return; }

@@ -19,6 +19,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from web.keyspecs import key_specs
 from web.facets import facets_for, facet_defs
+from web.automatch import auto_merges
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -117,6 +118,19 @@ def category_filters(lst):
             opts = sorted(vals, key=lambda k: num[k])
             out.append({"id": d["id"], "name": d["name"], "opts": [[k, vals[k]] for k in opts]})
     return out
+
+
+SPLIT_RX = re.compile(r"[\s\-_/,()\[\]+|:;\"'.!?&*#@]+")
+
+
+def search_tokens(text):
+    """search.js-এর tokens()-এর সাথে হুবহু মিলতে হবে।"""
+    return [t for t in SPLIT_RX.split(text.lower()) if t]
+
+
+def shard_key(tok):
+    """শব্দের প্রথম ২ অক্ষরের কোডপয়েন্ট (ফাইলের নাম), search.js-এর key()-এর মতো।"""
+    return "_".join(format(ord(c), "x") for c in tok[:2])
 
 
 def taka(n):
@@ -629,6 +643,17 @@ def main():
         if pid_ in offers:
             offers[pid_].pop(st_, None)
     price_ok = set(mm.get("price_ok", []))  # অ্যাডমিন: "দাম ঠিক আছে" (pid|store)
+    # স্বয়ংক্রিয় মিল (মডেল নম্বর দিয়ে); পুরনো লিংক নতুন পাতায় রিডাইরেক্ট হবে
+    amap = auto_merges(products, offers, mm.get("not_same", []))
+    for old, keep in amap.items():
+        if old in offers and keep in offers:
+            for st_, o_ in offers.pop(old).items():
+                offers[keep].setdefault(st_, o_)
+            for st_, ch_ in history.pop(old, {}).items():
+                history[keep][st_].extend(ch_)
+            if old in details and keep not in details:
+                details[keep] = details[old]
+    amap = {k: v for k, v in amap.items() if k not in offers}
 
     BR = Brands()
     items = {}
@@ -680,12 +705,18 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     urls = []
+    for old, keep in amap.items():  # মিলে যাওয়া পুরনো প্রোডাক্টের লিংক যেন ভেঙে না যায়
+        (DIST / f"p/{old}").mkdir(parents=True, exist_ok=True)
+        (DIST / f"p/{old}/index.html").write_text(
+            f'<!doctype html><meta charset="utf-8"><title>সরানো হয়েছে</title><meta name="robots" content="noindex">'
+            f'<link rel="canonical" href="{SITE_URL}/p/{keep}/"><meta http-equiv="refresh" content="0; url={BASE}/p/{keep}/">'
+            f'<a href="{BASE}/p/{keep}/">নতুন পাতায় যান</a>')
 
     def write(path, template, **ctx):
         out = DIST / path / "index.html" if path else DIST / "index.html"
@@ -892,6 +923,8 @@ def main():
     admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
              "suggestions": [x for x in suggestions if not ({x["a"], x["b"]} <= done)][:300],
+             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])
+                             if o_ in products and k_ in products][:1500],
              "price_checks": sorted(({"id": i["id"], "n": i["name"], "c": i["cat_name"],
                                       "o": [[s_, stores[s_]["name"], o_["price"], s_ in i["sus"]]
                                             for s_, o_ in sorted(offers[i["id"]].items(), key=lambda x: x[1].get("price") or 0)
@@ -906,6 +939,25 @@ def main():
     search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
               for i in vals]
     (DIST / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
+    # হালকা সার্চ: শব্দের প্রথম ২ অক্ষর ধরে ছোট ছোট ইনডেক্স ফাইল (s/p/) আর ৫০০টা করে প্রোডাক্টের টুকরো (s/d/)।
+    # একটা খোঁজে সাধারণত ২-৩টা ছোট ফাইল নামে, পুরো তালিকা নয়। (search.json থাকছে শুধু অ্যাডমিনের জন্য)
+    # ক্রম: একই ক্যাটাগরির প্রোডাক্ট পাশাপাশি (একটা খোঁজের ফল কম টুকরোয় থাকে), প্রতিটায় নিজের র‍্যাঙ্ক (বেশি স্টোর = আগে)
+    rank = {i["id"]: r_ for r_, i in enumerate(sorted(vals, key=lambda i: (-i["live_count"], -i["store_count"], i["best"] is None, i["name"].lower())))}
+    ranked = sorted(vals, key=lambda i: (i["category"], rank[i["id"]]))
+    sdir = DIST / "s"
+    (sdir / "d").mkdir(parents=True, exist_ok=True)
+    (sdir / "p").mkdir(parents=True, exist_ok=True)
+    for k in range(0, len(ranked), 200):
+        (sdir / f"d/{k // 200}.json").write_text(json.dumps(
+            [[i["id"], i["name"], i["cat_name"], i["category"], (i["best"] or {}).get("price"), i["store_count"], rank[i["id"]]]
+             for i in ranked[k:k + 200]], ensure_ascii=False, separators=(",", ":")))
+    post = defaultdict(lambda: defaultdict(list))
+    for n_, i in enumerate(ranked):
+        for tok in set(search_tokens(f"{i['name']} {i['cat_name']} {i['brand']}")):
+            if len(tok) >= 2:
+                post[shard_key(tok)][tok].append(n_)
+    for key, toks in post.items():
+        (sdir / f"p/{key}.json").write_text(json.dumps(toks, ensure_ascii=False, separators=(",", ":")))
     # সাইটম্যাপ: পাতা আর প্রোডাক্ট আলাদা ফাইলে, প্রোডাক্ট ২০,০০০ করে ভাগ (একটা ফাইলের সীমা ৫০,০০০);
     # প্রতিটা লিংকে শেষ দাম বদলের তারিখ (lastmod), যাতে Google বদলানো পাতা আগে দেখে
     head = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
