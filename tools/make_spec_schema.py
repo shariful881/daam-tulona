@@ -427,7 +427,7 @@ cam = [  # আইপি, সিসি, ওয়াইফাই ক্যাম�
 dvr = [
     F("channels", "চ্যানেল", [r"> *(channels?|video input)"], n=r"\b(\d{1,2})[\s-]?(?:ch|channel)", f="{} চ্যানেল"),
     F("resolution", "রেকর্ড রেজোলিউশন", [r"> *(recording )?resolution"], m=1),
-    F("hdd", "হার্ডডিস্ক স্লট", [r"> *(hdd|sata|storage)"]),
+    F("hdd", "হার্ডডিস্ক স্লট", [r"> *(hdd|sata)( bays?| slots?| interface)?$", r"> *storage( bays?| slots?| capacity| interface)?$"], x=[r"temperature"]),
     F("output", "আউটপুট", [r"> *(video output|hdmi|vga)"], m=2),
     F("poe", "PoE", [r"> *poe"]),
     WARRANTY,

@@ -98,6 +98,15 @@ def codes_of(name):
     return out
 
 
+VARIANT = {"wifi", "ii", "iii", "pro", "plus", "max", "ultra", "lite", "mini", "elite", "prime", "ti", "super", "oc",
+           "d4", "d5", "csm", "se", "slim", "neo", "rgb", "argb", "v2", "v3", "x3d", "evo", "duo", "air", "wireless"}
+
+
+PAGE_OK = {"case", "asus", "tplink", "tp", "link", "dahua", "corsair", "series", "display", "w", "b", "white", "black", "gaming",
+           "monitor", "router", "mouse", "keyboard", "headset", "camera", "kit"}
+WEAK_VARIANT = {"wifi", "wireless", "rgb", "argb", "air"}
+
+
 def words_of(name):
     return {w for w in re.findall(r"[a-z]{3,}", name.lower())}
 
@@ -131,6 +140,15 @@ def best_match(name, index_rows):
         caps_name = set(re.findall(r"(\d+)\s?(gb|tb)\b", name.lower()))
         caps_name = {a + b for a, b in caps_name}
         if caps_url and caps_name and not (caps_url & caps_name):
+            continue
+        # মডেলের বাড়তি অংশ (WIFI, II, PRO, PLUS…) দুই দিকে একই হতে হবে: A520M-PLUS II ≠ A520M-PLUS WIFI-র পাতা
+        last = [t for t in re.split(r"[^a-z0-9]+", url.lower().rstrip("/").replace("/techspec", "").rsplit("/", 1)[-1]) if t]
+        name_t = set(re.findall(r"[a-z0-9]+", name.lower()))
+        page_v, name_v = {t for t in last if t in VARIANT}, {t for t in name_t if t in VARIANT}
+        if (page_v - name_v) or ((name_v - page_v) - WEAK_VARIANT):  # নামের "WiFi"/"RGB" প্রায়ই শুধু বর্ণনা
+            continue
+        # ছোট মডেল-ঠিকানায় (tapo-c230, tl-sg108-m2) এমন শব্দ থাকলে যা নামে নেই -> অন্য প্রোডাক্ট লাইন/সংস্করণ
+        if len(last) <= 5 and any(len(t) > 1 and t not in name_t and t not in PAGE_OK and not any(t in c for c in hit) for t in last):
             continue
         code_score = float(sum(len(c) for c in hit))
         if code_score < 3:

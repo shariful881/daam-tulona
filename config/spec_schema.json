@@ -2951,7 +2951,11 @@
     "id": "hdd",
     "bn": "হার্ডডিস্ক স্লট",
     "k": [
-     "> *(hdd|sata|storage)"
+     "> *(hdd|sata)( bays?| slots?| interface)?$",
+     "> *storage( bays?| slots?| capacity| interface)?$"
+    ],
+    "x": [
+     "temperature"
     ]
    },
    {
