@@ -1,15 +1,27 @@
-/* "দাম কমলে জানান" ফর্ম: নাম + মোবাইল নম্বর + (ইচ্ছা হলে) টার্গেট দাম।
-   লিডের ঠিকানা (Google Sheet-এর Apps Script) সেট থাকলে সেখানে জমা হয়;
-   না থাকলে সাইটের WhatsApp নম্বরে একই তথ্য দিয়ে মেসেজ খোলে, যাতে কোনো লিড হারায় না। */
+/* "দাম কমলে জানান" ফর্ম: শুধু নাম আর মোবাইল নম্বর।
+   - একই প্রোডাক্টে একটা নম্বর একবারই জমা হয় (এই ফোনে মনে রাখা হয়); অন্য প্রোডাক্টের জন্য আবার দেওয়া যায়।
+   - নাম/নম্বর একবার দিলে পরের প্রোডাক্টে আগে থেকে ভরা থাকে।
+   - Google Sheet-এ প্রতিটা নম্বর একটাই সারি; নতুন প্রোডাক্ট এলে সেই সারিতেই ক্যাটাগরি ও প্রোডাক্টের নাম যোগ হয় (Apps Script দেখুন: অ্যাডমিন → সেটিং)।
+   - Sheet-এর ঠিকানা না থাকলে সাইটের WhatsApp নম্বরে মেসেজ খোলে, যাতে লিড হারায় না। */
 (function () {
   var box = document.getElementById("alertbox"), btn = document.getElementById("alertbtn");
   if (!box || !btn) return;
   var cfg = window.DT_LEAD || {}, form = box.querySelector("form"), msg = box.querySelector(".almsg");
+  var KEY = "dt_alert_" + cfg.id, ME = "dt_alert_me";
   function bn(s) { return String(s).replace(/\d/g, function (d) { return "০১২৩৪৫৬৭৮৯"[d]; }); }
   function en(s) { return String(s).replace(/[০-৯]/g, function (d) { return "০১২৩৪৫৬৭৮৯".indexOf(d); }); }
+  function get(k) { try { return localStorage.getItem(k); } catch (x) { return null; } }
+  function put(k, v) { try { localStorage.setItem(k, v); } catch (x) {} }
+  function already(phone) {
+    form.hidden = true; msg.className = "almsg ok";
+    msg.textContent = "এই প্রোডাক্টের জন্য " + bn(phone) + " নম্বরটা আগেই জমা আছে। দাম কমলে জানাব।";
+  }
+  try { var me = JSON.parse(get(ME) || "{}"); if (me.name) form.elements.name.value = me.name; if (me.phone) form.elements.phone.value = me.phone; } catch (x) {}
+
   btn.addEventListener("click", function () {
     box.hidden = !box.hidden; btn.setAttribute("aria-expanded", String(!box.hidden));
-    if (!box.hidden) form.elements.name.focus();
+    if (!box.hidden && get(KEY)) { already(get(KEY)); return; }
+    if (!box.hidden) (form.elements.name.value ? form.elements.phone : form.elements.name).focus();
   });
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -17,28 +29,26 @@
     msg.textContent = ""; msg.className = "almsg";
     var name = form.elements.name.value.trim();
     var phone = en(form.elements.phone.value).replace(/[\s\-()]/g, "").replace(/^\+?88/, "");
-    var target = en(form.elements.target.value).replace(/[^\d]/g, "");
     if (name.length < 2) { msg.textContent = "আপনার নাম লিখুন।"; msg.className = "almsg err"; return; }
     if (!/^01[3-9]\d{8}$/.test(phone)) { msg.textContent = "সঠিক মোবাইল নম্বর দিন (যেমন ০১৭১২৩৪৫৬৭৮)।"; msg.className = "almsg err"; return; }
-    if (!form.elements.ok.checked) { msg.textContent = "জানানোর জন্য সম্মতির ঘরে টিক দিন।"; msg.className = "almsg err"; return; }
-    var d = { name: name, phone: phone, target: target ? +target : "", product: cfg.product, url: location.origin + location.pathname,
-              price: cfg.price || "", store: cfg.store || "", category: cfg.category || "", time: new Date().toISOString() };
+    if (get(KEY) === phone) { already(phone); return; }
+    var d = { name: name, phone: phone, product: cfg.product, category: cfg.category || "", url: location.origin + location.pathname,
+              price: cfg.price || "", time: new Date().toISOString() };
     var sub = form.querySelector("button[type=submit]"); sub.disabled = true;
     var done = function () {
-      form.hidden = true;
-      msg.className = "almsg ok";
-      msg.textContent = "ধন্যবাদ, " + name + "! " + (target ? "দাম ৳" + bn(Number(target).toLocaleString("en-US")) + " বা তার কম হলে" : "দাম কমলে") + " আমরা " + bn(phone) + " নম্বরে জানাব।";
-      try { localStorage.setItem("dt_alert_" + cfg.id, "1"); } catch (x) {}
+      put(KEY, phone); put(ME, JSON.stringify({ name: name, phone: phone }));
+      form.hidden = true; msg.className = "almsg ok";
+      msg.textContent = "ধন্যবাদ, " + name + "! দাম কমলে " + bn(phone) + " নম্বরে জানাব।";
+      btn.classList.add("on");
     };
     if (cfg.endpoint) {
       fetch(cfg.endpoint, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(d) })
         .then(done, function () { sub.disabled = false; msg.className = "almsg err"; msg.textContent = "পাঠানো যায়নি, ইন্টারনেট দেখে আবার চেষ্টা করুন।"; });
     } else if (cfg.wa) {
-      var t = "দাম কমলে জানাবেন\nপ্রোডাক্ট: " + d.product + "\nএখনকার দাম: " + (d.price ? "৳" + d.price : "-") + "\nটার্গেট দাম: " + (d.target ? "৳" + d.target : "যেকোনো কমা") +
-              "\nনাম: " + name + "\nমোবাইল: " + phone + "\n" + d.url;
+      var t = "দাম কমলে জানাবেন\nনাম: " + name + "\nমোবাইল: " + phone + "\nক্যাটাগরি: " + d.category + "\nপ্রোডাক্ট: " + d.product + "\n" + d.url;
       window.open("https://wa.me/88" + String(cfg.wa).replace(/\D/g, "").replace(/^88/, "") + "?text=" + encodeURIComponent(t), "_blank", "noopener");
       done();
     }
   });
-  try { if (localStorage.getItem("dt_alert_" + cfg.id)) btn.classList.add("on"); } catch (x) {}
+  if (get(KEY)) btn.classList.add("on");
 })();
