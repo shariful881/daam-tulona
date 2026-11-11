@@ -75,6 +75,26 @@ def auto_merges(products, offers, not_same=()):
                     continue
                 if compatible(products[a]["name"], products[b]["name"]):
                     par[find(a)] = find(b)
+    # হুবহু একই নাম, একই ক্যাটাগরি, ভিন্ন স্টোর = একই প্রোডাক্ট (মডেল কোড সিরিজ-নাম হলেও)।
+    # দুইটারই দাম থাকলে ফারাক ৩৫%-এর বেশি হলে মেলানো হয় না (যেমন একই নামের দুই রকম পিসি বিল্ড)।
+    by_name = defaultdict(list)
+    for pid in offers:
+        p = products.get(pid)
+        if p:
+            by_name[(p["category"], " ".join(re.sub(r"[^\w.]+", " ", p["name"].lower()).split()))].append(pid)
+
+    def low(x):
+        ps = [o.get("price") for o in offers[x].values() if o.get("price")]
+        return min(ps) if ps else None
+    for ids in by_name.values():
+        for i, a in enumerate(ids):
+            for b in ids[i + 1:]:
+                if "|".join(sorted((a, b))) in blocked or set(offers[a]) & set(offers[b]):
+                    continue
+                la, lb = low(a), low(b)
+                if la and lb and max(la, lb) > 1.35 * min(la, lb):
+                    continue
+                par[find(a)] = find(b)
     groups = defaultdict(list)
     for x in list(par):
         groups[find(x)].append(x)

@@ -543,7 +543,7 @@ def build_brand_pages(items, leaves, group_of, BR, write):
                     write(f"brand/{slug}/{c}" + (f"/{n}" if n > 1 else ""), "brand_cat.html", bname=name, bslug=slug, cat=leaves[c],
                           items=cl[(n - 1) * PER_PAGE:n * PER_PAGE], total=len(cl), page=n, pages=pages, info=info,
                           title=f"{name} {leaves[c]['name_bn']} দাম বাংলাদেশে | {name} {leaves[c].get('name_en', '')} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
-                          description=f"{name}-এর {len(cl)}টি {leaves[c]['name_bn']}-এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।"
+                          description=f"{name}-এর {len(cl)}টি {leaves[c]['name_bn']}-এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" পাতা {n}।" if n > 1 else "")
                                       + (f" শুরু {taka(min(priced))} থেকে।" if priced else ""),
                           canonical=f"{SITE_URL}/brand/{slug}/{c}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
         priced = [i["best"]["price"] for i in lst if i["best"]]
@@ -838,10 +838,16 @@ def main():
     (DIST / "static").mkdir(parents=True)
     for f in ("style.css", "home.js", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js", "pcbuilder.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
-    for d in ("logos", "sponsors", "brands"):
+    for d in ("logos", "sponsors", "brands", "fonts"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     urls = []
+    # SEO: কত স্টোরে দাম থাকলে প্রোডাক্ট পাতা Google-এ দেখানো (index) হবে। কম হলে পাতা থাকে
+    # (সার্চ, দাম-কমলে-জানান কাজ করে) কিন্তু noindex আর sitemap-এর বাইরে। config/seo.json-এ বদলানো যায়।
+    _seo = ROOT / "config/seo.json"
+    seo_cfg = json.loads(_seo.read_text()) if _seo.exists() else {}
+    min_stores = int(seo_cfg.get("index_min_stores", 2))
+    n_indexable = 0
     for old, keep in amap.items():  # মিলে যাওয়া পুরনো প্রোডাক্টের লিংক যেন ভেঙে না যায়
         (DIST / f"p/{old}").mkdir(parents=True, exist_ok=True)
         (DIST / f"p/{old}/index.html").write_text(
@@ -944,6 +950,8 @@ def main():
             ("এই দাম কখন আপডেট হয়?", "প্রতিদিন রাতে সব স্টোর থেকে দাম নতুন করে সংগ্রহ করা হয়।"),
             ("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"),
         ]
+        indexable = it["store_count"] >= min_stores
+        short_name = re.sub(r"\s*#\w+$", "", p["name"])  # শেষের স্টোর-কোড (#75982B) title-এ দরকার নেই
         jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "category": leaf["name_en"]}
         if it["brand"]:
             jsonld["brand"] = {"@type": "Brand", "name": it["brand"]}
@@ -955,6 +963,8 @@ def main():
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
+        else:
+            jsonld = None  # দাম ছাড়া Product schema Google-এর কাছে অসম্পূর্ণ (offers লাগে), তাই বাদ
         cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
                "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": feats[:6],
                "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
@@ -975,14 +985,19 @@ def main():
             low30=window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None,
             hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
             hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
-            jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
+            jsonld=json.dumps(jsonld, ensure_ascii=False) if jsonld else None, buy=bool(best), noindex=not indexable,
             og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
-            title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
-            description=f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")
+            title=f"{short_name} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
+            description=(f"{short_name} ({leaf['name_bn']}) এর দাম {it['store_count']}টি স্টোরে মিলিয়ে দেখুন।" if it["store_count"] > 1
+                         else f"{short_name} ({leaf['name_bn']}): দাম, স্পেক ও স্টক।")
+                        + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")
+                        + (" " + ", ".join(list(p["specs"].values())[:3]) + "।" if p["specs"] else "")
                         + (f" {warranty}।" if warranty else ""),
             canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
-        urls.append(f"{SITE_URL}/p/{pid}/")
+        if indexable:
+            urls.append(f"{SITE_URL}/p/{pid}/")
+            n_indexable += 1
 
     budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
     store_cards = build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
@@ -1026,7 +1041,7 @@ def main():
                       total=len(lst), page=n, pages=pages, brands=brands, store_count=len(enabled),
                       fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
                       title=f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
-                      description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
+                      description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" পাতা {n}।" if n > 1 else ""),
                       canonical=f"{SITE_URL}/c/{leaf['slug']}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
             priced = [i["best"]["price"] for i in lst if i["best"]]
             leaf_cards.append({"slug": leaf["slug"], "name_bn": leaf["name_bn"], "count": len(lst),
@@ -1233,7 +1248,7 @@ def main():
          "url": f"{SITE_URL}/p/{d_['id']}/", "stores": d_["live_count"]} for d_ in drops_top], ensure_ascii=False))
     (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nDisallow: {BASE}/search/\nSitemap: {SITE_URL}/sitemap.xml\n")
     (DIST / ".nojekyll").write_text("")
-    print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")
+    print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, Google-এর জন্য {n_indexable}টি প্রোডাক্ট পাতা, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")
 
 
 if __name__ == "__main__":

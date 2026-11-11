@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_ad.html" import slot with context %}
 {% block head %}
-<script type="application/ld+json">{{ jsonld | safe }}</script>
+{% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
 {% endblock %}
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a></nav>
@@ -13,7 +13,7 @@
       <div class="thumbcol">
         <div class="thumb{% if gallery %} has-img{% endif %}" data-img>
           <span class="ico" aria-hidden="true">{{ cicon(cat.slug) }}</span>
-          {% if gallery %}<button type="button" class="pimg" data-gal="0" aria-label="ছবি বড় করে দেখুন"><img src="{{ gallery[0].u }}" alt="{{ p.name }}" width="96" height="96" decoding="async" data-alts="{{ gallery[1:] | galts }}" onerror="dtImgErr(this)"></button>{% endif %}
+          {% if gallery %}<button type="button" class="pimg" data-gal="0" aria-label="ছবি বড় করে দেখুন"><img src="{{ gallery[0].u }}" alt="{{ p.name }}" width="96" height="96" fetchpriority="high" data-alts="{{ gallery[1:] | galts }}" onerror="dtImgErr(this)"></button>{% endif %}
         </div>
         {% if gallery %}<a class="credit" href="{{ gallery[0].h }}" target="_blank" rel="nofollow noopener">ছবি: {{ gallery[0].n }}</a>{% endif %}
       </div>
