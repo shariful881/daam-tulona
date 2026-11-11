@@ -447,10 +447,10 @@ def image_list(pid, so, products, stores):
     order = sorted(so.items(), key=lambda kv: (stores.get(kv[0], {}).get("kind") != "brand", not kv[1].get("in_stock")))
     for sid, o in order:
         st = stores.get(sid, {})
-        if o.get("img") and st.get("images", True) and o["img"] not in [u for u, _ in out]:
+        if (o.get("img") or "").startswith("http") and st.get("images", True) and o["img"] not in [u for u, _ in out]:
             out.append((o["img"], sid))
     si = (products.get(pid) or {}).get("store_image")
-    if si and si not in [u for u, _ in out]:
+    if si and si.startswith("http") and si not in [u for u, _ in out]:  # data:… = স্টোরের ফাঁকা লেজি-লোড ছবি, আসল নয়
         host = re.sub(r"^https?://(www\.)?", "", si).split("/")[0]
         sid = next((k for k, v in stores.items() if host and host in v.get("home", "")), None)
         if sid and stores[sid].get("images", True):

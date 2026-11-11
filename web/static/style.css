@@ -507,6 +507,8 @@ body.fp-on::after{content:"";position:fixed;inset:0;background:rgba(10,20,18,.5)
 .ihd .cic{width:44px;height:44px}
 .ihd .cic .ci{padding:9px}
 .rimg>*{grid-area:1/1}
+.rimg img{position:relative;z-index:1}
+.rimg:has(img)>.ci{display:none}
 .rimg>.ci{width:56%;height:56%;stroke-width:1.6;opacity:.7}
 .thumb .ico .ci{width:56%;height:56%;stroke-width:1.4;opacity:.75}
 .gnav a{display:inline-flex;align-items:center;gap:6px}
