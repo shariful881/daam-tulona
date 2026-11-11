@@ -152,12 +152,20 @@ def icon_for(leaf, group):
     return ICONS[GROUP_ICON.get(group, "box")]
 
 
-def sparkline(changes: list[tuple[str, int]], today: str) -> str:
-    """দাম বদলের তারিখগুলো থেকে প্রতিদিনের ধারা বানিয়ে শেষ ৯০ দিনের চার্ট।"""
+def window_min(changes, today, days):
+    """গত `days` দিনে সর্বনিম্ন দৈনিক দাম (শুরুর দিনে যে দাম চলছিল সেটাও ধরে)।"""
+    cut = (date.fromisoformat(today) - timedelta(days=days)).isoformat()
+    before = [v for d, v in changes if d <= cut]
+    vals = [v for d, v in changes if d > cut] + before[-1:]
+    return min(vals) if vals else None
+
+
+def sparkline(changes: list[tuple[str, int]], today: str, days: int = 90) -> str:
+    """দাম বদলের তারিখগুলো থেকে প্রতিদিনের ধারা বানিয়ে শেষ `days` দিনের চার্ট।"""
     if not changes:
         return ""
     end = date.fromisoformat(today)
-    start = max(date.fromisoformat(changes[0][0]), end - timedelta(days=90))
+    start = max(date.fromisoformat(changes[0][0]), end - timedelta(days=days))
     pts, i, cur = [], 0, None
     d = start
     ch = dict(changes)
@@ -197,7 +205,7 @@ def daily_min(per_store: dict, today: str) -> list[tuple[str, int]]:
         return []
     start = min(d for ch in per_store.values() for d, _ in ch)
     end = date.fromisoformat(today)
-    series, d = [], max(date.fromisoformat(start), end - timedelta(days=120))
+    series, d = [], max(date.fromisoformat(start), end - timedelta(days=370))
     state = {}
     for sid, ch in per_store.items():
         for ds, v in sorted(ch):
@@ -541,6 +549,65 @@ def build_brand_pages(items, leaves, group_of, BR, write):
     return sorted(cards, key=lambda c: -c["count"])
 
 
+def bn_amount(n):
+    """২০০০০ → ২০ হাজার, ১০০০০০ → ১ লাখ, ১৫০০ → ১,৫০০"""
+    if n >= 100000 and n % 100000 == 0:
+        return f"{bn_num(n // 100000)} লাখ"
+    if n >= 100000 and n % 10000 == 0:
+        return f"{(n / 100000):g} লাখ".translate(BN_DIGITS)
+    if n % 1000 == 0:
+        return f"{bn_num(n // 1000)} হাজার"
+    return bn_num(n)
+
+
+def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL):
+    """config/budget_pages.json থেকে "৳X-এর মধ্যে সেরা" পেজ। ফেরত: (হাবের তালিকা, {ক্যাটাগরি: [(টাকা, slug)]})"""
+    f = ROOT / "config/budget_pages.json"
+    if not f.exists():
+        return [], {}
+    conf = json.loads(f.read_text()).get("pages", {})
+    by_cat = defaultdict(list)
+    for it in items.values():
+        if it["best"] and not it["sus"]:
+            by_cat[it["category"]].append(it)
+    month = f"{BN_MONTHS[int(today[5:7]) - 1]} {today[:4]}".translate(BN_DIGITS)
+    hub, links = [], {}
+    for cat, amounts in conf.items():
+        leaf = leaves.get(cat)
+        if not leaf:
+            continue
+        made = []
+        for amt in sorted(amounts):
+            pool = [i for i in by_cat.get(cat, []) if amt * 0.4 <= i["best"]["price"] <= amt]
+            if len(pool) < 5:
+                continue
+            # বেশি দোকানে বিক্রি = বেশি চলে এমন মডেল; বাজেটের কাছাকাছি দাম = সাধারণত ভালো কনফিগারেশন
+            ranked = sorted(pool, key=lambda i: -(min(i["live_count"], 5) * 2 + 3 * i["best"]["price"] / amt))[:20]
+            made.append((amt, f"{cat}-under-{amt}", pool, ranked))
+        if not made:
+            continue
+        links[cat] = [(amt, slug) for amt, slug, _, _ in made]
+        grp = group_of[cat]
+        for amt, slug, pool, ranked in made:
+            words = bn_amount(amt)
+            title = f"{words} টাকার মধ্যে সেরা {leaf['name_bn']} ({month})"
+            ld = {"@context": "https://schema.org", "@type": "ItemList", "name": title, "itemListElement": [
+                {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{i['id']}/", "name": i["name"]} for k, i in enumerate(ranked)]}
+            write(f"best/{slug}", "best.html", cat=leaf, group=grp, amt=amt, words=words, month=month, ranked=ranked,
+                  pool_n=len(pool), cheapest=min(pool, key=lambda i: i["best"]["price"]), siblings=links[cat],
+                  itemlist=json.dumps(ld, ensure_ascii=False),
+                  crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{cat}/"), (f"{words} টাকার মধ্যে", f"best/{slug}/")),
+                  title=title + " | দামতুলনা",
+                  description=f"{words} টাকার মধ্যে আজ স্টকে থাকা {len(pool)}টি {leaf['name_bn']} থেকে বাছাই করা {len(ranked)}টি, দোকানভেদে আজকের দামসহ।",
+                  canonical=f"{SITE_URL}/best/{slug}/" if SITE_URL else None)
+        hub.append({"cat": leaf, "links": links[cat]})
+    if hub:
+        write("best", "best_hub.html", hub=hub, month=month, title="বাজেট অনুযায়ী সেরা প্রোডাক্ট | দামতুলনা",
+              description="বাজেট অনুযায়ী সেরা ফোন, ল্যাপটপ, মনিটর, টিভি, ফ্রিজ ও আরও অনেক কিছু, প্রতিদিনের দামসহ।",
+              crumbs=crumbs_ld(("হোম", ""), ("বাজেট অনুযায়ী সেরা", "best/")), canonical=f"{SITE_URL}/best/" if SITE_URL else None)
+    return hub, links
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -823,6 +890,9 @@ def main():
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],
             spark=sparkline(changes, today), hist_start=bn_date(changes[0][0]) if changes else None,
+            sparks=[(lab, sparkline(changes, today, d_)) for lab, d_ in (("৩০ দিন", 30), ("৯০ দিন", 90), ("১ বছর", 365))]
+                   if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days > 30 else [],
+            low30=window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None,
             hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
             hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
@@ -833,6 +903,9 @@ def main():
                         + (f" {warranty}।" if warranty else ""),
             canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
         urls.append(f"{SITE_URL}/p/{pid}/")
+
+    budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
+    common["budget_links"] = budget_links
 
     # ক্যাটাগরি পেজ (পাতায় ভাগ করা)
     group_cards = []
@@ -889,7 +962,7 @@ def main():
     # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
     drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
                        key=lambda d_: (-(d_["store_count"] > 1), -d_["drop"]))[:10]
-    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals),
+    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["store_count"] > 1),

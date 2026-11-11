@@ -315,6 +315,43 @@ dl.kf>div:last-child{border-bottom:0}
 dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
 dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}
 
+/* বাজেট অনুযায়ী সেরা */
+.budl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:12px;font-size:.82rem}
+.budl span{color:var(--muted);font-weight:600}
+.budl a{border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--bg);font-weight:600}
+.bteaser{display:grid;gap:10px}
+.bteaser>div{display:grid;gap:6px}
+.bteaser .ihd{gap:8px;font-size:.95rem}
+.bteaser .cic{width:32px;height:32px}
+.bteaser .cic .ci{padding:7px}
+.bt-links{display:flex;flex-wrap:wrap;gap:6px}
+.bt-links a{border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:.82rem;font-weight:600;background:var(--bg)}
+.bestl{list-style:none;margin:0;padding:0;display:grid}
+.bestl>li{border-bottom:1px solid var(--line)}
+.bestl>li:last-child{border-bottom:0}
+.bestl>li.bad{padding:10px 0}
+.bitem{display:grid;grid-template-columns:22px 64px minmax(0,1fr);gap:4px 10px;align-items:center;padding:12px 0}
+.bno{font:700 .95rem var(--mono);color:var(--muted);align-self:center;grid-row:span 2}
+.bitem .rimg{width:64px;height:64px;grid-row:span 2}
+.bmid{display:grid;gap:4px;min-width:0}
+.bmid .n{font-size:.93rem;line-height:1.35}
+.bmid .w{font-size:.76rem;color:var(--muted)}
+.bpr{grid-column:3;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.bpr .price{font-size:1.1rem;color:var(--best)}
+.bpr small{font-size:.74rem}
+.bestl>li:first-child .bno{color:var(--accent)}
+.bhub{display:grid;gap:14px}
+
+/* দামের ইতিহাস: সময় বাছাই, ৩০ দিনের ব্যাজ */
+.hrange{display:grid;grid-template-columns:repeat(3,auto) 1fr;gap:6px;align-items:center}
+.hrange input{position:absolute;opacity:0;pointer-events:none}
+.hrange label{border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.8rem;font-weight:600;cursor:pointer;color:var(--muted)}
+.hrange input:checked+label{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.hrange input:focus-visible+label{outline:2px solid var(--accent);outline-offset:2px}
+.hsv{grid-column:1/-1;display:none;margin-top:6px}
+#hr1:checked~.hsv1,#hr2:checked~.hsv2,#hr3:checked~.hsv3{display:block}
+.save.hi30{color:var(--warn);background:var(--warn-soft)}
+
 /* সন্দেহজনক দাম */
 .stt.chk{color:var(--warn);font-weight:600}
 .chknote{margin:10px 0 0;padding:9px 12px;border-radius:10px;background:var(--warn-soft);font-size:.8rem;line-height:1.5;color:var(--ink)}
@@ -543,4 +580,15 @@ main.col>.foot,main.col>.footnav{order:99}
   .fpanel .freset{flex:1;min-height:40px}
   .cbody .plist{grid-template-columns:repeat(3,minmax(0,1fr))!important}
   .fchip:hover,.fck:hover span{color:var(--accent)}
+}
+
+@media (min-width:1024px){
+  .bitem{grid-template-columns:30px 88px minmax(0,1fr) auto;gap:6px 16px;padding:16px 4px}
+  .bitem .rimg{width:88px;height:88px;grid-row:auto}
+  .bpr{grid-column:auto;flex-direction:column;align-items:flex-end;gap:2px}
+  .bpr .price{font-size:1.3rem}
+  .bitem:hover .n{color:var(--accent)}
+  .bhub{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+  .bteaser{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 24px}
+  .hlinks a{padding:8px 11px}
 }

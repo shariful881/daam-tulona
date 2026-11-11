@@ -36,6 +36,7 @@
       {% endif %}
     </div>
     {% if saving %}<span class="save">সঠিক স্টোর বাছলে {{ saving | taka }} সাশ্রয়</span>{% endif %}
+    {% if best and low30 %}{% if best.price <= low30 %}<span class="save low30">▼ গত ৩০ দিনে সবচেয়ে কম দাম</span>{% elif best.price > low30 * 1.03 %}<span class="save hi30">গত ৩০ দিনে সর্বনিম্ন ছিল {{ low30 | taka }}</span>{% endif %}{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
     <p class="cmpmsg muted" hidden></p>
@@ -61,7 +62,10 @@
 
   <section class="card o5">
     <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
-    {% if spark %}
+    {% if sparks %}
+      <div class="hrange" role="tablist" aria-label="সময়">{% for lab, sv in sparks %}<input type="radio" name="hr" id="hr{{ loop.index }}"{% if loop.index == 2 %} checked{% endif %}><label for="hr{{ loop.index }}">{{ lab }}</label>{% endfor %}
+      {% for lab, sv in sparks %}<div class="hsv hsv{{ loop.index }}">{{ sv | safe }}</div>{% endfor %}</div>
+    {% elif spark %}
       {{ spark | safe }}
       <p class="muted" style="font-size:.8rem;margin:6px 0 0">{{ hist_start }} থেকে: সর্বনিম্ন {{ hist_lo | taka }}, সর্বোচ্চ {{ hist_hi | taka }}{% if hist_lo == hist_hi %} (দাম বদলায়নি){% endif %}</p>
     {% else %}

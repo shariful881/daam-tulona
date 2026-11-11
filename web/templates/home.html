@@ -30,6 +30,13 @@
   {% endif %}
   </div>
 
+  {% if budget_hub %}
+  <section class="card">
+    <h2>বাজেট অনুযায়ী সেরা <span class="sub">· <a href="{{ base }}/best/" style="text-decoration:underline">সব দেখুন</a></span></h2>
+    <div class="bteaser">{% for h in budget_hub[:6] %}<div><span class="ihd"><span class="cic">{{ cicon(h.cat.slug) }}</span><b>{{ h.cat.name_bn }}</b></span><span class="bt-links">{% for a, sl in h.links[:4] %}<a href="{{ base }}/best/{{ sl }}/">{{ a | taka }}</a>{% endfor %}</span></div>{% endfor %}</div>
+  </section>
+  {% endif %}
+
   {{ slot("home", None, "home") }}
 
   <div class="duo">
