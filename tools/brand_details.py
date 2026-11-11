@@ -79,21 +79,22 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
+SPEEDISH = re.compile(r"^(\d+(gb|tb|mb|hz|w|mm|cm|mah|mp|k|p|th|nd|rd|st|g|v|a|x|in|inch|ms|fps|mbps|gbps|ghz|mhz|ch|rpm|cfm|l|wh|va|kg)"
+                      r"|(ddr|lpddr|gddr|pcie|gen|usb|wifi|rtx|gtx|rx|i|r|ryzen|core|wi|bt|cat|hdmi|dp|ipx|ip|cl|lga|am|ultra)\d{0,2}"
+                      r"|(ax|ac|be|axe|n)\d{3,5})$")  # AX3000/AC1200 গতির শ্রেণি, মডেল নয়
+VENDOR_PREFIX = re.compile(r"^(dhi|dh|tl|ds)(?=[a-z]{2,}\d)")
+
+
 def codes_of(name):
-    """নাম থেকে মডেল কোড: অক্ষর+সংখ্যা মেশানো শব্দ (AX73, B3605CVA, XVR5108HS-4KL-X, HX1200i)।"""
+    """নামের মডেল কোড, পুরোটা (A520M-R -> a520mr; ভাঙা অংশ নয়, তাহলে A520M-A-র পাতার সাথে ভুল মিল হতো)।"""
     out = set()
     for tok in re.split(r"[\s(),/|+]+", name):
-        t = tok.strip(".-_\"'")
-        n = norm(t)
-        if len(n) >= 3 and re.search(r"\d", n) and re.search(r"[a-z]", n) \
-                and not re.fullmatch(r"\d+(gb|tb|mb|hz|w|mm|cm|mah|mp|k|p|th|nd|rd|st|g|v|a|x|in|inch|ms|fps|mbps|gbps|ghz|mhz|ch|rpm|cfm|l)", n) \
-                and not re.fullmatch(r"(ddr|lpddr|gddr|pcie|gen|usb|wifi|rtx|gtx|rx|i|r|ryzen|core|wi|bt|cat|hdmi|dp|ax|ac|be|ipx|ip)\d{0,2}", n):
+        n = norm(tok.strip(".-_\"'"))
+        if len(n) >= 3 and re.search(r"\d", n) and re.search(r"[a-z]", n) and not SPEEDISH.match(n):
             out.add(n)
-        if "-" in t:  # TL-SF1005D -> sf1005d ; DH-XVR5108HS -> xvr5108hs
-            for part in t.split("-"):
-                pn = norm(part)
-                if len(pn) >= 4 and re.search(r"\d", pn) and re.search(r"[a-z]", pn):
-                    out.add(pn)
+            v = VENDOR_PREFIX.sub("", n)  # DH-XVR5108HS -> xvr5108hs
+            if v != n and len(v) >= 4:
+                out.add(v)
     return out
 
 
@@ -118,15 +119,8 @@ def best_match(name, index_rows):
     words = words_of(name)
     scored = []
     for url, chunks, parts in index_rows:
-        code_score = 0.0
-        for c in codes:
-            if c in chunks:
-                code_score += len(c)
-            else:
-                # পাতার কোড নামের কোডের শুরু (B3605 বনাম B3605CVA) বা শেষ (XVR5108HS বনাম DHXVR5108HS)
-                part = max((len(s) for s in chunks if len(s) >= 5 and re.search(r"\d", s) and (c.startswith(s) or c.endswith(s))), default=0)
-                code_score += part * 0.6
-        if code_score < 4:
+        code_score = float(sum(len(c) for c in codes if c in chunks))  # শুধু পুরো কোডের হুবহু মিল
+        if code_score < 3:
             continue
         scored.append((code_score + 0.3 * len(words & parts), code_score, url))
     if not scored:
