@@ -39,8 +39,54 @@ def socials(home, html):
     return found
 
 
-def save_logo(slug, home, html):
-    for url in candidates(home, html):
+WIKI = "https://en.wikipedia.org/api/rest_v1/page/summary/"
+WIKI_TITLE = {"tp-link": "TP-Link", "hp": "HP Inc.", "lg": "LG Electronics", "amd": "AMD", "jbl": "JBL", "dji": "DJI", "benq": "BenQ",
+              "a4tech": "A4Tech", "g-skill": "G.Skill", "western-digital": "Western Digital", "cooler-master": "Cooler Master",
+              "zkteco": "ZKTeco", "msi": "Micro-Star International", "apple": "Apple Inc.", "samsung": "Samsung Electronics",
+              "canon": "Canon Inc.", "epson": "Seiko Epson", "walton": "Walton Group", "sony": "Sony", "team": "Team Group",
+              "adata": "ADATA", "uniview": "Uniview", "hikvision": "Hikvision", "dahua": "Dahua Technology", "haier": "Haier",
+              "hisense": "Hisense", "sandisk": "SanDisk", "viewsonic": "ViewSonic", "gigabyte": "Gigabyte Technology",
+              "corsair": "Corsair Gaming", "kingston": "Kingston Technology", "transcend": "Transcend Information",
+              "brother": "Brother Industries", "tenda": "Tenda (company)", "lexar": "Lexar", "razer": "Razer Inc.", "seagate": "Seagate Technology"}
+
+
+def wiki_logo(name):
+    """উইকিপিডিয়ার কোম্পানি পাতার লোগো (ফাইলের নামে 'logo' থাকলে) — সবচেয়ে নির্ভরযোগ্য উৎস।"""
+    for title in (name, f"{name} (company)", f"{name} Inc.", f"{name} Corporation"):
+        try:
+            if not allowed(WIKI + title):
+                return None
+            r = requests.get(WIKI + requests.utils.quote(title.replace(" ", "_")), headers={"User-Agent": USER_AGENT}, timeout=30)
+            if not r.ok:
+                continue
+            d = r.json()
+            if d.get("type") == "disambiguation":
+                continue
+            img = (d.get("originalimage") or {}).get("source") or ""
+            if "logo" in img.lower() or "wordmark" in img.lower():
+                return img
+        except Exception:
+            continue
+    return None
+
+
+def visible(im):
+    """সাদা বা প্রায় স্বচ্ছ লোগো সাদা কার্ডে দেখা যায় না -> বাদ"""
+    px = [p for p in im.convert("RGBA").resize((64, 64)).getdata() if p[3] > 60]
+    if len(px) < 40:
+        return False
+    dark = sum(1 for r, g, b, a in px if (r + g + b) / 3 < 200)
+    return dark / len(px) > 0.08
+
+
+def save_logo(slug, home, html, name=""):
+    urls = []
+    w = wiki_logo(name or slug)
+    if w:
+        urls.append(w)
+    soup = BeautifulSoup(html, "html.parser")  # বড় apple-touch-icon (ব্র্যান্ডের নিজস্ব চিহ্ন), তারপর হেডারের লোগো
+    urls += [urljoin(home, l["href"]) for l in soup.find_all("link", rel=lambda r: r and "apple-touch-icon" in " ".join(r).lower()) if l.get("href")]
+    for url in list(dict.fromkeys(urls + candidates(home, html))):
         try:
             if not allowed(url):
                 continue
@@ -50,11 +96,15 @@ def save_logo(slug, home, html):
             if url.lower().split("?")[0].endswith(".svg") or b"<svg" in r.content[:600]:
                 if len(r.content) > 200_000:
                     continue
+                if "wikipedia" not in url and "wikimedia" not in url:
+                    continue  # সাইটের svg প্রায়ই CSS-এ রং পায়, আলাদা করলে সাদা/ফাঁকা দেখায়
                 (OUT / f"{slug}.svg").write_bytes(r.content)
                 return f"{slug}.svg"
             im = Image.open(io.BytesIO(r.content)).convert("RGBA")
-            if im.width < 48 or im.height < 20:
+            if im.width < 48 or im.height < 20 or not visible(im):
                 continue
+            if im.width / im.height > 6 or ("logo" not in url.lower() and "icon" not in url.lower() and "wiki" not in url):
+                continue  # ব্যানার/স্ক্রিনশট নয়
             im.thumbnail((256, 256))
             im.save(OUT / f"{slug}.png", optimize=True)
             return f"{slug}.png"
@@ -77,10 +127,13 @@ def main(only):
         try:
             html = fetch(home + "/", 3, cache=False)
         except Exception as e:
-            print(f"{slug:14} হোমপেজ খোলেনি ({type(e).__name__})", flush=True)
-            continue
+            print(f"{slug:14} হোমপেজ খোলেনি ({type(e).__name__}), শুধু উইকিপিডিয়া", flush=True)
+            html = ""
         m = meta.get(slug, {})
-        logo = save_logo(slug, home + "/", html)
+        for old_ in OUT.glob(f"{slug}.*"):
+            old_.unlink()
+        m.pop("logo", None)
+        logo = save_logo(slug, home + "/", html, WIKI_TITLE.get(slug) or inf.get("name") or slug.replace("-", " ").title())
         if logo:
             m["logo"] = logo
         m.update(socials(home + "/", html))
