@@ -315,10 +315,21 @@ dl.kf>div:last-child{border-bottom:0}
 dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
 dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}
 /* প্রোডাক্ট পাতায় ব্র্যান্ড পরিচিতি */
-.bcard{text-align:left;justify-items:stretch}
-.bcard .bc-head{justify-content:flex-start;display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit}
+.bcard{text-align:left;justify-items:stretch;display:grid;gap:14px}
+.bcard .bc-head{display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit;justify-content:flex-start}
 .bcard .bc-t{display:grid;gap:2px;min-width:0}
-.bcard .bc-n{font-weight:700;font-size:1.05rem}
+.bcard .bc-k{font-size:.72rem;letter-spacing:.04em;color:var(--muted)}
+.bcard .bc-n{font-weight:700;font-size:1.15rem;line-height:1.25}
 .bcard .bc-tag{color:var(--muted);font-size:.84rem}
-.bcard .bc-about{margin:10px 0 12px;font-size:.9rem;line-height:1.6}
+.bcard .bc-about{margin:12px 0 0;font-size:.9rem;line-height:1.65}
+.bcard .bc-side{display:grid;gap:10px;align-content:start}
 .bcard .bc-btn{display:block;text-align:center}
+.bcard .bc-links{display:flex;flex-wrap:wrap;gap:8px}
+.bcard .bc-l{flex:1 1 0;min-width:92px;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:6px 10px;border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;font-size:.84rem;background:var(--surface)}
+.bcard .bc-l svg{width:17px;height:17px;fill:currentColor;flex:0 0 auto}
+.bcard .bc-facebook svg{fill:#1877f2}.bcard .bc-youtube svg{fill:#ff0033}.bcard .bc-instagram svg{fill:#d62976}
+.bcard .bc-l:hover{border-color:var(--accent)}
+@media (min-width:760px){
+  .bcard{grid-template-columns:minmax(0,1fr) 260px;align-items:center;gap:24px}
+  .bcard .bc-links .bc-l{flex-basis:calc(50% - 4px)}
+}
