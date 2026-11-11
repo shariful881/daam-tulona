@@ -4,6 +4,7 @@
 (GitHub Pages-এ রিপোর নামের সাব-ফোল্ডারে থাকে, তাই BASE_URL লাগে। নিজের ডোমেইনে BASE_URL ফাঁকা রাখুন।)
 """
 import csv
+import math
 import json
 import os
 import re
@@ -21,6 +22,7 @@ from scraper.details_generic import normalize_specs
 from web.keyspecs import key_specs
 from web.facets import facets_for, facet_defs
 from web.automatch import auto_merges
+from web import market
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -655,6 +657,7 @@ def build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, 
     write("store", "stores.html", cards=cards, title="বাংলাদেশের কম্পিউটার ও ইলেকট্রনিক্স দোকান | দামতুলনা",
           description="দামতুলনায় যেসব দোকানের দাম মেলানো হয়: হটলাইন, শোরুম, ডেলিভারি, EMI আর কোথায় কী সস্তা।",
           crumbs=crumbs_ld(("হোম", ""), ("স্টোর", "store/")), canonical=f"{SITE_URL}/store/" if SITE_URL else None)
+    return cards
 
 
 def load_details(folder="details"):
@@ -833,7 +836,7 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js", "pcbuilder.js"):
+    for f in ("style.css", "home.js", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js", "pcbuilder.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
@@ -982,7 +985,7 @@ def main():
         urls.append(f"{SITE_URL}/p/{pid}/")
 
     budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
-    build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
+    store_cards = build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
     # পিসি বিল্ডার (যেসব ক্যাটাগরিতে প্রোডাক্ট আছে শুধু সেগুলো)
     pc_slots = [{"key": k, "name": n, "cats": [c for c in cs if by_cat.get(c)], "req": rq} for k, n, cs, rq in (
         ("cpu", "প্রসেসর", ["processor"], True), ("mb", "মাদারবোর্ড", ["motherboard"], True), ("ram", "র‍্যাম", ["desktop-ram"], True),
@@ -1050,7 +1053,87 @@ def main():
     # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
     drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
                        key=lambda d_: (-(d_["store_count"] > 1), -d_["drop"]))[:10]
-    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals), budget_hub=budget_hub,
+    # ===== হোম: বাজারের অবস্থা (web/market.py) =====
+    M = market.compute(history, items, offers, set(enabled), today)
+    _st = health.get("scraped_at") or ""
+    _hh, _mm = (int(_st[11:13]), _st[14:16]) if len(_st) >= 16 else (0, "00")
+    _part = "রাত" if _hh < 4 else "ভোর" if _hh < 6 else "সকাল" if _hh < 12 else "দুপুর" if _hh < 15 else "বিকাল" if _hh < 18 else "সন্ধ্যা" if _hh < 20 else "রাত"
+    upd_time = f"{_part} {bn_num((_hh - 1) % 12 + 1)}:{_mm.translate(BN_DIGITS)}"
+    n_prices = sum((health["stores"].get(s_) or {}).get("items", 0) for s_ in enabled)
+    tab_of = lambda it_: market.TAB_OF_GROUP.get(it_["group"], "other")
+    mv = None
+    if M.get("ready"):
+        mv = {k: {t: ([m for m in M["movers"][k] if t == "all" or m["tab"] == t][:10]) for t, _ in market.TABS} for k in ("dn", "up")}
+    # সূচকের গ্রাফ (৩ দিনের বেশি ডাটা হলে)
+    idx_svg = None
+    if M.get("ready") and len(M["series"]) >= 3:
+        ivals = [v for _, v in M["series"]]
+        w_, h_, pl, pr, pt, pb = 320, 130, 34, 10, 10, 22
+        lo, hi = min(ivals) - .4, max(ivals) + .3
+        X = lambda k: pl + k * (w_ - pl - pr) / (len(ivals) - 1)
+        Y = lambda v: pt + (h_ - pt - pb) * (1 - (v - lo) / ((hi - lo) or 1))
+        pts = " ".join(f"{X(k):.1f},{Y(v):.1f}" for k, v in enumerate(ivals))
+        step = max(0.5, round((hi - lo) / 3 * 2) / 2)
+        g0 = math.ceil(lo / step) * step
+        grid = "".join(f'<line x1="{pl}" x2="{w_-pr}" y1="{Y(g):.1f}" y2="{Y(g):.1f}" stroke="var(--line)"/>'
+                       f'<text x="{pl-6}" y="{Y(g)+3:.1f}" text-anchor="end">{f"{g:g}".translate(BN_DIGITS)}</text>'
+                       for g in [g0 + i * step for i in range(6)] if g <= hi)
+        xl = "".join(f'<text x="{X(k):.1f}" y="{h_-6}" text-anchor="middle">{bn_num(int(d[8:]))}</text>' for k, (d, _) in enumerate(M["series"]))
+        col = "var(--best)" if ivals[-1] <= ivals[0] else "var(--warn)"
+        idx_svg = Markup(f'<svg class="ixc" viewBox="0 0 {w_} {h_}" role="img" aria-label="বাজার সূচক, শেষ {bn_num(len(ivals))} দিন">{grid}{xl}'
+                         f'<polygon points="{X(0):.1f},{h_-pb} {pts} {X(len(ivals)-1):.1f},{h_-pb}" fill="{col}" opacity=".1"/>'
+                         f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="2.2" stroke-linejoin="round"/>'
+                         f'<circle cx="{X(len(ivals)-1):.1f}" cy="{Y(ivals[-1]):.1f}" r="4" fill="{col}"/></svg>')
+    # হিটম্যাপ: প্রোডাক্ট বেশি এমন ১৫টা ক্যাটাগরি; রং = গত ৭ দিনের বদল
+    def hcol(p):
+        if p is None or abs(p) < .15:
+            return "background:var(--bg)"
+        a = min(abs(p) / 3.5, 1)
+        return (f"background:color-mix(in srgb,{'var(--best)' if p < 0 else 'var(--warn)'} {int(14 + a * 58)}%,var(--surface));"
+                + ("color:#fff" if a > .55 else ""))
+    heat = [{"slug": c_, "name": leaves[c_]["name_bn"], "count": len(by_cat[c_]), "pct": (M.get("cat_week") or {}).get(c_),
+             "style": f"flex:{len(by_cat[c_])} 1 {max(90, min(260, len(by_cat[c_]) // 4))}px;" + hcol((M.get("cat_week") or {}).get(c_))}
+            for c_ in sorted(by_cat, key=lambda c_: -len(by_cat[c_]))[:15]]
+    # দোকানের খবর
+    sn_rows = []
+    for c_ in sorted(store_cards, key=lambda c_: -c_["st"]["live"]):
+        n_ = (M.get("store_news") or {}).get(c_["id"], Counter())
+        sn_rows.append({"id": c_["id"], "name": c_["name"], "logo": c_["logo"] if c_["id"] != "walton" else None, "dark": c_["dark"],
+                        "short": stores[c_["id"]].get("short") or c_["name"][:2], "checked": (health["stores"].get(c_["id"]) or {}).get("items", 0),
+                        "dn": n_["dn"], "up": n_["up"], "oos": n_["oos"], "new": n_["new"], "share": c_["st"]["share"]})
+    # চলমান লাইন: ক্যাটাগরির আজকের বদল + সবচেয়ে বেশি কমা/বাড়া প্রোডাক্ট
+    ticker = []
+    if M.get("ready"):
+        cts = sorted(((v, k) for k, v in M["cat_today"].items() if abs(v) >= 0.1), key=lambda x: x[0])
+        for v, k in cts[:8] + cts[-6:][::-1] if len(cts) > 14 else cts:
+            ticker.append({"href": f"c/{k}/", "label": leaves[k]["name_bn"], "pct": abs(v), "up": v > 0, "cat": True})
+        for m in M["movers"]["dn"][:8]:
+            ticker.append({"href": f"p/{m['it']['id']}/", "label": m["it"]["name"], "price": m["new"], "pct": m["pct"], "up": False})
+        for m in M["movers"]["up"][:4]:
+            ticker.append({"href": f"p/{m['it']['id']}/", "label": m["it"]["name"], "price": m["new"], "pct": m["pct"], "up": True})
+    # সংখ্যায় দামতুলনা
+    gl = sorted(((g["slug"], g["name_bn"], sum(len(by_cat[l["slug"]]) for l in g["leaves"])) for g in tax["groups"]), key=lambda x: -x[2])
+    gl = [x for x in gl if x[2]]
+    leaves_n = [(g["name_bn"], sum(1 for l in g["leaves"] if by_cat.get(l["slug"]))) for g in tax["groups"]]
+    leaves_n = sorted([x for x in leaves_n if x[1]], key=lambda x: -x[1])
+    st_live = sorted(((c_["name"], c_["st"]["live"]) for c_ in store_cards), key=lambda x: -x[1])
+    nstat = {"segs": gl, "seg_total": sum(x[2] for x in gl), "leaves": leaves_n, "leaf_total": sum(x[1] for x in leaves_n),
+             "brands": [(b_["name"], b_["count"]) for b_ in brand_pages[:5]], "brand_total": len(brand_pages), "stores": st_live[:6]}
+    # নতুন প্রোডাক্ট: যে দোকান আজই প্রথম যোগ হয়েছে তার সব প্রোডাক্ট "নতুন" নয়
+    store_first = {}
+    for ss_ in history.values():
+        for s_, ch_ in ss_.items():
+            if ch_:
+                d0_ = min(d_ for d_, _ in ch_)
+                store_first[s_] = min(store_first.get(s_, d0_), d0_)
+    new_list = [i for i in fresh_all if i["best"] and store_first.get(i["best"]["store"], today) < today]
+    new_list = sorted(new_list, key=lambda i: (not i["imgs"], -i["live_count"], -i["best"]["price"]))[:10]
+    logo_brands = sorted(brand_pages[:40], key=lambda b_: (not common["brand_logo"](b_["slug"]), -b_["count"]))[:12]
+    summ = market.summary_text(M, leaves, len(enabled), n_prices).translate(BN_DIGITS)
+    home_ctx = dict(M=M, mv=mv, tabs=market.TABS, idx_svg=idx_svg, heat=heat, sn_rows=sn_rows, ticker=ticker, nstat=nstat,
+                    new_list=new_list, logo_brands=logo_brands, summ=summ, upd_time=upd_time, n_prices=n_prices,
+                    scraped_at=_st, today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
+    write("", "home.html", groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["store_count"] > 1),

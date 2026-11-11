@@ -1,11 +1,104 @@
 {% extends "base.html" %}
 {% from "_ad.html" import slot with context %}
+{% macro pimg(it, size=44) %}<span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="{{ size }}" height="{{ size }}" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>{% endmacro %}
+{% macro pct(v) %}{{ ("%g" % v) | replace("0","০") | replace("1","১") | replace("2","২") | replace("3","৩") | replace("4","৪") | replace("5","৫") | replace("6","৬") | replace("7","৭") | replace("8","৮") | replace("9","৯") }}{% endmacro %}
+{% macro savatar(r) %}<span class="av{% if r.logo %} logo{% endif %}{% if r.dark %} dark{% endif %}">{% if r.logo %}<img src="{{ base }}/static/{{ r.logo }}" alt="">{% else %}{{ r.short }}{% endif %}</span>{% endmacro %}
+{% macro mvrows(lst, down, dup=False) %}{% for m in lst %}<a class="trow" href="{{ base }}/p/{{ m.it.id }}/"{% if dup %} aria-hidden="true" tabindex="-1"{% endif %}><span class="tno">{{ loop.index|bn }}</span>{{ pimg(m.it) }}<span class="tmid"><span class="n">{{ m.it.name }}</span><span class="w">{{ m.it.cat_name }} · {{ stores[m.store].name }}</span></span><span class="tpr"><span class="tpct{% if not down %} up{% endif %}">{{ "▼" if down else "▲" }} {{ m.pct|bn }}%</span><b class="price">{{ m.new | taka }}</b><s>{{ m.old | taka }}</s></span></a>{% endfor %}{% endmacro %}
+{% macro mvpanes(k, down) %}{% for t, lab in tabs %}{% set sub = mv[k][t] %}<div class="mvpane" data-t="{{ t }}"{% if t != "all" %} hidden{% endif %}>
+  {% if sub|length < 3 %}<div class="mvempty"><b>আজ {{ "" if t == "all" else lab ~ "-এ " }}বাজার স্থির</b><span>উল্লেখযোগ্য দাম {{ "কমেনি" if down else "বাড়েনি" }}। বদল কম হলে আমরা জোর করে তালিকা ভরাই না।</span></div>
+  {% elif sub|length < 5 %}<div class="tlist">{{ mvrows(sub, down) }}</div>
+  {% else %}<div class="mvview"><div class="tlist mvtrack">{{ mvrows(sub, down) }}{{ mvrows(sub, down, True) }}</div></div>{% endif %}
+</div>{% endfor %}{% endmacro %}
+
+{% block top %}
+{% if ticker %}
+<div class="tkbar" id="tkbar" role="region" aria-label="আজকের দাম বদল"><div class="col tkin"><span class="tklive"><i></i>লাইভ</span>
+  <div class="tkview"><div class="tktrack">{% for r in range(2) %}{% for t in ticker %}<a class="tki {{ 'up' if t.up else 'dn' }}" href="{{ base }}/{{ t.href }}"{% if r %} aria-hidden="true" tabindex="-1"{% endif %}>{% if t.cat %}<b>{{ t.label }}</b>{% else %}{{ t.label | truncate(38, True, "…") }} <b>{{ t.price | taka }}</b>{% endif %} {{ "▲" if t.up else "▼" }} {{ pct(t.pct) }}%</a>{% endfor %}{% if not r %}<span class="tkgap" aria-hidden="true"></span>{% endif %}{% endfor %}</div></div>
+  <button type="button" class="tkx" id="tkx" aria-label="দাম আপডেটের লাইন লুকান" title="লুকান">✕</button></div></div>
+<div class="col tkopen-w"><button type="button" class="tkopen" id="tkopen" hidden>▼ আজকের দাম বদল দেখুন</button></div>
+{% endif %}
+{% endblock %}
+
 {% block content %}
   <section class="card hero">
     <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
     <p class="muted" style="margin:0;font-size:.92rem">{{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
+    <p class="todaysum">আজ {{ store_count|bn }}টি দোকানের <b>{{ n_prices|bn }}টি</b> দাম যাচাই{% if M.ready %} · <b class="g">{{ M.n_dn|bn }}টির দাম কমেছে</b> · <b class="r">{{ M.n_up|bn }}টির বেড়েছে</b>{% endif %}{% if new_count %} · <b>{{ new_count|bn }}টি নতুন প্রোডাক্ট</b>{% endif %}</p>
     <form class="dk hsearch" action="{{ base }}/search/" method="get" role="search"><input type="search" name="q" placeholder="যেমন: Samsung 8GB RAM, Ryzen 5, 1TB SSD" aria-label="প্রোডাক্ট খুঁজুন"><button type="submit">খুঁজুন</button></form>
-    <div class="dk hstats"><div><b>{{ total|bn }}</b><span>প্রোডাক্ট</span></div><div><b>{{ store_count|bn }}</b><span>স্টোর</span></div><div><b>{{ multi|bn }}</b><span>একাধিক স্টোরে দাম</span></div></div>
+  </section>
+
+  <section class="mkt">
+    <div class="card mk-main">
+      <div class="mk-top"><span class="mk-lab">ইলেকট্রনিক্স বাজার আজ</span><span class="lv" title="প্রতিদিন নতুন দাম এলেই আপডেট হয়"><i></i>লাইভ <small data-since="{{ scraped_at }}">· {{ upd_time }}</small></span></div>
+      {% if M.ready %}
+      <div class="mk-idx"><span class="mk-name">দামতুলনা সূচক <details class="ixi"><summary aria-label="সূচক কী?">i</summary><span class="ixp"><b>সূচক কী?</b> {{ M.first[8:]|int|bn }} তারিখের বাজারের দাম ধরা হয়েছে ১০০। আজ {{ pct(M.index) }} মানে, একই প্রোডাক্টগুলো গড়ে তখনকার চেয়ে {{ pct((100 - M.index)|abs|round(1)) }}% {{ "সস্তা" if M.index <= 100 else "দামি" }}। ১০০-এর নিচে = ক্রেতার জন্য ভালো সময়। হিসাবে শুধু সেই প্রোডাক্ট ধরা হয় যা আগের দিন ও আজ দুই দিনই স্টকে ছিল, আর একই দোকানের নিজের দাম বদল।</span></details></span>
+        <b class="mk-val">{{ pct(M.index) }}</b>
+        <span class="mk-chg {{ 'dn' if M.chg < 0 else 'up' if M.chg > 0 else '' }}">{{ "▼" if M.chg < 0 else "▲" if M.chg > 0 else "•" }} {{ pct(M.chg|abs|round(2)) }}% <small>গতকালের তুলনায়</small></span></div>
+      <p class="mk-say">{% set wk = M.cat_week %}বাজার আজ {{ "প্রায় স্থির" if M.chg|abs < 0.05 else ("সামান্য নেমেছে" if M.chg > -0.5 else "নেমেছে") if M.chg < 0 else ("সামান্য বেড়েছে" if M.chg < 0.5 else "বেড়েছে") }}। {{ M.n_cmp|bn }}টি প্রোডাক্টের দাম দুই দিন মিলিয়ে দেখা হয়েছে।</p>
+      {% set tot = M.n_dn + M.n_eq + M.n_up %}
+      <div class="mk-breadth" aria-label="প্রোডাক্টের দাম কমল, একই রইল, বাড়ল"><span class="b-dn" style="flex:{{ [M.n_dn / tot, 0.01 if M.n_dn else 0]|max }}"></span><span class="b-eq" style="flex:{{ M.n_eq / tot }}"></span><span class="b-up" style="flex:{{ [M.n_up / tot, 0.01 if M.n_up else 0]|max }}"></span></div>
+      <div class="mk-leg"><span class="dn">▼ কমল <b>{{ M.n_dn|bn }}</b></span><span>একই <b>{{ M.n_eq|bn }}</b></span><span class="up">▲ বাড়ল <b>{{ M.n_up|bn }}</b></span></div>
+      <p class="mk-note">সবুজ = দাম কমেছে (ক্রেতার জন্য ভালো), লাল = দাম বেড়েছে</p>
+      {% else %}
+      <div class="mk-wait"><b>বাজারের হিসাব শুরু হচ্ছে</b><p>{{ M.first[8:]|int|bn if M.first else "আজ" }} তারিখ থেকে প্রতিদিনের দাম জমা হচ্ছে। একই দোকানের একই প্রোডাক্টের দাম দুই দিন মিলিয়ে বাজারের সূচক, কোন প্রোডাক্টে কত কমল আর কোথায় বাড়ল তা এখানে দেখাবে। পরের দামের আপডেটের পর থেকে সংখ্যা আসবে।</p></div>
+      {% endif %}
+    </div>
+    <div class="card mk-chart"><div class="mk-top"><span class="mk-lab">সূচকের গ্রাফ</span><span class="updt">আপডেট: {{ upd_time }}</span></div>
+      {% if idx_svg %}{{ idx_svg }}<p class="mk-note">১০০ = হিসাব শুরুর দিন। একই প্রোডাক্টগুলোর দাম দিনে দিনে মিলিয়ে হিসাব।</p>
+      {% else %}<div class="mk-wait sm"><b>গ্রাফ আসবে কয়েক দিনের মধ্যে</b><p>অন্তত ৩ দিনের দাম জমলে এখানে বাজার ওঠানামার গ্রাফ দেখা যাবে।</p></div>{% endif %}
+    </div>
+  </section>
+
+  <section class="card rv" id="recent" hidden><h2>আপনি শেষবার যা দেখেছিলেন</h2><p class="rvsub">তখন থেকে দাম কত বদলাল। লগইন লাগে না, শুধু এই ফোন/ব্রাউজারে মনে থাকে। <button type="button" class="rvclr" id="rvclr">মুছুন</button></p><div class="rvl" id="rvl"></div></section>
+
+  {% if mv %}
+  <section class="mvwrap">
+    <div class="mvtabs" role="tablist" aria-label="ক্যাটাগরি বাছুন">{% for t, lab in tabs %}<button type="button" role="tab" data-t="{{ t }}" aria-selected="{{ 'true' if t == 'all' else 'false' }}">{{ lab }}</button>{% endfor %}</div>
+    <div class="duo movers">
+      <section class="card topdrop"><h2><span class="hot">▼</span> আজ সবচেয়ে বেশি কমেছে <small class="mvn">টপ ১০</small> <span class="updt">আপডেট: {{ upd_time }}</span></h2>{{ mvpanes("dn", True) }}</section>
+      <section class="card toprise"><h2><span class="hot up">▲</span> আজ সবচেয়ে বেশি বেড়েছে <small class="mvn">টপ ১০</small> <span class="updt">আপডেট: {{ upd_time }}</span></h2>{{ mvpanes("up", False) }}</section>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="card"><div class="hm-head"><h2>ক্যাটাগরি হিটম্যাপ <span class="updt">গত ৭ দিনের বদল</span></h2>
+    <span class="hm-key"><i class="g"></i>দাম কমছে <i class="r"></i>দাম বাড়ছে · টাইল যত বড়, প্রোডাক্ট তত বেশি</span></div>
+    <div class="hm">{% for h in heat %}<a class="hm-t" href="{{ base }}/c/{{ h.slug }}/" style="{{ h.style }}"><b>{{ h.name }}</b><span>{% if h.pct is none %}—{% else %}{{ "▲" if h.pct > 0 else "▼" if h.pct < 0 else "•" }} {{ pct(h.pct|abs) }}%{% endif %}</span><small>{{ h.count|bn }}টি</small></a>{% endfor %}</div>
+    {% if not M.ready %}<p class="mk-note">দামের বদল জমলে টাইলগুলো সবুজ/লাল হবে। এখন শুধু প্রোডাক্ট সংখ্যা দেখাচ্ছে।</p>{% endif %}
+  </section>
+
+  <section class="card"><h2>দোকানের খবর <span class="sub">· আজ কে কী বদলাল</span></h2>
+    <div class="snh"><span></span><span>দোকান</span><span>আজকের বদল</span><span>সস্তা</span></div>
+    <div class="snl">{% for r in sn_rows %}<a class="snr" href="{{ base }}/store/{{ r.id }}/">{{ savatar(r) }}<span class="sn-n"><b>{{ r.name }}</b><small>{{ upd_time }} · {{ r.checked|bn }}টি দাম যাচাই</small></span>
+      <span class="sn-c">{% if M.ready %}<span class="dn">▼ {{ r.dn|bn }}</span><span class="up">▲ {{ r.up|bn }}</span><span class="oos">স্টক শেষ {{ r.oos|bn }}</span>{% if r.new %}<span class="oos">নতুন {{ r.new|bn }}</span>{% endif %}{% else %}<span class="oos">বদলের হিসাব শুরু হচ্ছে</span>{% endif %}</span>
+      <span class="sn-w">{% if r.share is not none %}{{ r.share|bn }}%<small>তুলনায় সস্তা</small>{% else %}—{% endif %}</span></a>{% endfor %}</div>
+  </section>
+
+  <section class="card shr"><div class="shr-txt"><h2>আজকের বাজার, এক ছবিতে</h2>
+    <p>বন্ধুদের সাথে আজকের দামের খবর শেয়ার করুন। কেনার আগে সবাই এক জায়গায় দাম মিলিয়ে নিতে পারবে।</p>
+    <div class="shr-btn"><a class="btn" href="https://www.facebook.com/sharer/sharer.php?u={{ (canonical or 'https://shariful881.github.io/daam-tulona/') | urlencode }}" target="_blank" rel="noopener">ফেসবুকে শেয়ার</a>
+      <a class="btn ghost" href="https://wa.me/?text={{ ('আজকের ইলেকট্রনিক্সের দাম মিলিয়ে দেখুন: ' ~ (canonical or 'https://shariful881.github.io/daam-tulona/')) | urlencode }}" target="_blank" rel="noopener">হোয়াটসঅ্যাপে পাঠান</a></div></div>
+    <div class="shimg" role="img" aria-label="আজকের বাজারের সারাংশ"><div class="shi-top"><b>দামতুলনা</b><span>{{ today_bn }}</span></div>
+      {% if M.ready %}<div class="shi-mid"><small>ইলেকট্রনিক্স বাজার সূচক</small><b>{{ pct(M.index) }}</b><span>{{ "▼" if M.chg < 0 else "▲" if M.chg > 0 else "•" }} {{ pct(M.chg|abs|round(2)) }}%</span></div>
+      <div class="shi-br"><span style="flex:{{ M.n_dn or 0 }}"></span><span style="flex:{{ M.n_eq or 1 }}"></span><span style="flex:{{ M.n_up or 0 }}"></span></div>
+      {% if mv and mv.dn.all %}<p class="shi-h">আজ সবচেয়ে বেশি কমেছে</p><ol>{% for m in mv.dn.all[:3] %}<li><span>{{ m.it.name }}</span><b>▼ {{ m.pct|bn }}%</b></li>{% endfor %}</ol>{% endif %}
+      {% else %}<div class="shi-mid"><small>আজ যাচাই করা দাম</small><b>{{ n_prices|bn }}</b><span>{{ store_count|bn }}টি দোকান</span></div>
+      <p class="shi-h">{{ total|bn }}টি প্রোডাক্ট · {{ multi|bn }}টির দাম একাধিক দোকানে</p>{% endif %}
+      <div class="shi-ft">shariful881.github.io/daam-tulona</div></div>
+  </section>
+
+  <section class="card nstat" id="nstat"><div class="ns-head"><h2>সংখ্যায় দামতুলনা</h2><span class="sub">প্রতিদিন হালনাগাদ হয়</span><button type="button" class="nsre" id="nsreplay">↻ আবার দেখুন</button></div>
+    <div class="ns-grid">
+      <div class="ns-card"><span class="ns-lab">মোট প্রোডাক্ট</span><b class="ns-num" data-count="{{ total }}">{{ total|bn }}</b><span class="ns-cap">{{ multi|bn }}টির দাম একাধিক দোকানে পাশাপাশি</span>
+        <div class="stack" aria-hidden="true">{% for s, n, v in nstat.segs %}<span class="seg k{{ loop.index0 % 12 }}" style="--w:{{ '%.2f' % (100 * v / nstat.seg_total) }}%" title="{{ n }}: {{ v|bn }}টি"></span>{% endfor %}</div>
+        <div class="legend">{% for s, n, v in nstat.segs[:6] %}<span class="lg"><i class="k{{ loop.index0 % 12 }}"></i>{{ n }} <b>{{ v|bn }}</b></span>{% endfor %}</div></div>
+      <div class="ns-card"><span class="ns-lab">ক্যাটাগরি</span><b class="ns-num" data-count="{{ nstat.leaf_total }}">{{ nstat.leaf_total|bn }}</b><span class="ns-cap">{{ nstat.leaves|length|bn }}টি বড় বিভাগে সাজানো</span>
+        {% set mx = nstat.leaves[0][1] %}<div class="vchart" aria-hidden="true">{% for n, v in nstat.leaves %}<span class="vcol k{{ loop.index0 % 12 }}" style="--h:{{ '%.1f' % (100 * v / mx) }}%" title="{{ n }}: {{ v|bn }}টি ক্যাটাগরি"><b>{{ v|bn }}</b></span>{% endfor %}</div></div>
+      <div class="ns-card"><span class="ns-lab">কোম্পানি / ব্র্যান্ড</span><b class="ns-num" data-count="{{ nstat.brand_total }}">{{ nstat.brand_total|bn }}</b><span class="ns-cap">সবচেয়ে বেশি প্রোডাক্ট যাদের</span>
+        <div class="hbars">{% set bm = nstat.brands[0][1] %}{% for n, v in nstat.brands %}<div class="hb"><span class="hbl">{{ n }}</span><span class="hbt"><i class="k{{ loop.index0 + 3 }}" style="--w:{{ '%.1f' % (100 * v / bm) }}%"></i></span><b data-count="{{ v }}">{{ v|bn }}</b></div>{% endfor %}</div></div>
+      <div class="ns-card"><span class="ns-lab">স্টোর</span><b class="ns-num" data-count="{{ store_count }}">{{ store_count|bn }}</b><span class="ns-cap">কোন দোকানে কত প্রোডাক্ট স্টকে</span>
+        <div class="hbars">{% set sm = nstat.stores[0][1] %}{% for n, v in nstat.stores %}<div class="hb"><span class="hbl">{{ n }}</span><span class="hbt"><i class="k{{ (loop.index0 + 6) % 12 }}" style="--w:{{ '%.1f' % (100 * v / sm) }}%"></i></span><b data-count="{{ v }}">{{ v|bn }}</b></div>{% endfor %}</div></div>
+    </div>
   </section>
 
   <div class="cats">
@@ -14,42 +107,27 @@
   {% endfor %}
   </div>
 
-  <div class="duo">
-  {% if size_pages %}
-  <section class="card">
-    <h2>সাইজ অনুযায়ী দাম <span class="sub">· কোন ব্র্যান্ড কত টাকা</span></h2>
-    <div class="szhub">{% for s in size_pages %}<a href="{{ base }}/size/{{ s.slug }}/"><b>{{ s.title }}</b><span>{{ s.unit }} অনুযায়ী · {{ s.total|bn }}টি মডেল</span></a>{% endfor %}</div>
-  </section>
-  {% endif %}
-
-  {% if top_brands %}
-  <section class="card">
-    <h2>জনপ্রিয় ব্র্যান্ড <span class="sub">· <a href="{{ base }}/brand/" style="text-decoration:underline">সব {{ brand_total|bn }}টি ব্র্যান্ড</a></span></h2>
-    <div class="azlist">{% for b in top_brands %}<a href="{{ base }}/brand/{{ b.slug }}/">{{ b.name }} <small>{{ b.count|bn }}</small></a>{% endfor %}</div>
-  </section>
-  {% endif %}
-  </div>
-
-  <a class="card pccta" href="{{ base }}/pc-builder/"><span class="cic">{{ cicon("computer-parts", True) }}</span><span><b>পিসি বিল্ডার</b><span>পার্টস বাছুন, সব দোকানের দাম মিলিয়ে মোট খরচ আর সকেট/র‍্যাম মানানসই কিনা দেখুন</span></span><span class="pccta-go">শুরু করুন ›</span></a>
-
-  {% if budget_hub %}
-  <section class="card">
-    <h2>বাজেট অনুযায়ী সেরা <span class="sub">· <a href="{{ base }}/best/" style="text-decoration:underline">সব দেখুন</a></span></h2>
-    <div class="bteaser">{% for h in budget_hub[:6] %}<div><span class="ihd"><span class="cic">{{ cicon(h.cat.slug) }}</span><b>{{ h.cat.name_bn }}</b></span><span class="bt-links">{% for a, sl in h.links[:4] %}<a href="{{ base }}/best/{{ sl }}/">{{ a | taka }}</a>{% endfor %}</span></div>{% endfor %}</div>
+  {% if new_list %}
+  <section class="card"><h2>নতুন যোগ হয়েছে <span class="sub">· আজ</span></h2>
+    <div class="nscroll">{% for i in new_list %}<a class="ncard" href="{{ base }}/p/{{ i.id }}/">{{ pimg(i, 64) }}<span class="nn">{{ i.name }}</span><span class="nw">{{ i.cat_name }} · {{ stores[i.best.store].name }}</span><b class="price">{{ i.best.price | taka }}</b></a>{% endfor %}</div>
   </section>
   {% endif %}
 
   {{ slot("home", None, "home") }}
 
   <div class="duo">
-
+  {% if budget_hub %}
+  <section class="card">
+    <h2>বাজেট অনুযায়ী সেরা <span class="sub">· <a href="{{ base }}/best/" style="text-decoration:underline">সব দেখুন</a></span></h2>
+    <div class="bteaser">{% for h in budget_hub[:6] %}<div><span class="ihd"><span class="cic">{{ cicon(h.cat.slug) }}</span><b>{{ h.cat.name_bn }}</b></span><span class="bt-links">{% for a, sl in h.links[:4] %}<a href="{{ base }}/best/{{ sl }}/">{{ a | taka }}</a>{% endfor %}</span></div>{% endfor %}</div>
+  </section>
+  {% endif %}
   {% if deals %}
   <section class="card">
     <h2>দোকানভেদে সবচেয়ে বেশি দামের পার্থক্য</h2>
     <div class="rows">
     {% for it in deals %}
-      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
-        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">{{ pimg(it) }}
         <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
         <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">{{ it.saving | taka }} সাশ্রয়</div></div>
       </a>
@@ -57,33 +135,23 @@
     </div>
   </section>
   {% endif %}
+  </div>
 
-  {% if drops %}
-  <section class="card">
-    <h2>আজ দাম কমেছে <span class="sub">· গতকালের তুলনায়</span></h2>
-    <div class="rows">
-    {% for it in drops %}
-      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
-        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
-        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ stores[it.best.store].name }}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
-        <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">▼ {{ it.drop | taka }} কমেছে</div></div>
-      </a>
-    {% endfor %}
-    </div>
-  </section>
-  {% elif popular %}
-  <section class="card">
-    <h2>সবচেয়ে বেশি দোকানে পাওয়া যায় <span class="sub">· দাম মিলিয়ে কেনার সেরা সুযোগ</span></h2>
-    <div class="rows">
-    {% for it in popular %}
-      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
-        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
-        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ<span class="badge">{{ it.live_count|bn }} স্টোর</span></div></div>
-        <div><div class="p">{{ it.best.price | taka }}</div>{% if it.saving %}<div class="d lo">{{ it.saving | taka }} পার্থক্য</div>{% endif %}</div>
-      </a>
-    {% endfor %}
-    </div>
+  <a class="card pccta" href="{{ base }}/pc-builder/"><span class="cic">{{ cicon("computer-parts", True) }}</span><span><b>পিসি বিল্ডার</b><span>পার্টস বাছুন, সব দোকানের দাম মিলিয়ে মোট খরচ আর সকেট/র‍্যাম মানানসই কিনা দেখুন</span></span><span class="pccta-go">শুরু করুন ›</span></a>
+
+  {% if logo_brands %}
+  <section class="card"><h2>টপ ব্র্যান্ড <span class="sub">· <a href="{{ base }}/brand/" style="text-decoration:underline">সব {{ brand_total|bn }}টি ব্র্যান্ড</a></span></h2>
+    <div class="bgrid2">{% for b in logo_brands %}{% set lg = brand_logo(b.slug) %}<a class="bcard2" href="{{ base }}/brand/{{ b.slug }}/"><span class="bl">{% if lg %}<img src="{{ lg }}" alt="" loading="lazy">{% else %}{{ b.name[:2] }}{% endif %}</span><b>{{ b.name }}</b><span>{{ b.count|bn }}টি প্রোডাক্ট</span></a>{% endfor %}</div>
   </section>
   {% endif %}
-  </div>
+
+  {% if size_pages %}
+  <section class="card">
+    <h2>সাইজ অনুযায়ী দাম <span class="sub">· কোন ব্র্যান্ড কত টাকা</span></h2>
+    <div class="szhub">{% for s in size_pages %}<a href="{{ base }}/size/{{ s.slug }}/"><b>{{ s.title }}</b><span>{{ s.unit }} অনুযায়ী · {{ s.total|bn }}টি মডেল</span></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
+  <section class="card summ"><h2>আজকের ইলেকট্রনিক্স বাজার: {{ today_bn }}</h2><p>{{ summ }}</p></section>
 {% endblock %}
+{% block after %}<script src="{{ base }}/static/home.js?v={{ build_id }}" defer></script>{% endblock %}
