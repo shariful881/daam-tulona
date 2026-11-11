@@ -823,7 +823,7 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js", "pcbuilder.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
@@ -961,6 +961,16 @@ def main():
 
     budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
     build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
+    # পিসি বিল্ডার (যেসব ক্যাটাগরিতে প্রোডাক্ট আছে শুধু সেগুলো)
+    pc_slots = [{"key": k, "name": n, "cats": [c for c in cs if by_cat.get(c)], "req": rq} for k, n, cs, rq in (
+        ("cpu", "প্রসেসর", ["processor"], True), ("mb", "মাদারবোর্ড", ["motherboard"], True), ("ram", "র‍্যাম", ["desktop-ram"], True),
+        ("ssd", "স্টোরেজ (SSD)", ["ssd"], True), ("gpu", "গ্রাফিক্স কার্ড", ["graphics-card"], False), ("psu", "পাওয়ার সাপ্লাই", ["power-supply"], True),
+        ("case", "কেসিং", ["casing"], True), ("cooler", "সিপিইউ কুলার", ["cpu-cooler", "liquid-cooler"], False),
+        ("monitor", "মনিটর", ["monitor-all", "gaming-monitor"], False))]
+    pc_slots = [x for x in pc_slots if x["cats"]]
+    write("pc-builder", "pcbuilder.html", slots=pc_slots, title="পিসি বিল্ডার: সব দোকানের দাম মিলিয়ে পিসি বানান | দামতুলনা",
+          description="প্রসেসর, মাদারবোর্ড, র‍্যাম, গ্রাফিক্স কার্ড বাছুন; Star Tech, PC House-সহ সব দোকানের দাম মিলিয়ে মোট খরচ, আর সকেট/র‍্যাম/পাওয়ার মানানসই কিনা দেখুন।",
+          crumbs=crumbs_ld(("হোম", ""), ("পিসি বিল্ডার", "pc-builder/")), canonical=f"{SITE_URL}/pc-builder/" if SITE_URL else None)
     common["budget_links"] = budget_links
 
     # ক্যাটাগরি পেজ (পাতায় ভাগ করা)

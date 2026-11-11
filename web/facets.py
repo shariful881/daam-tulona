@@ -212,6 +212,81 @@ def five_g(text, specs):
     return ("5G", 2) if re.search(r"\b5G\b", text) else None
 
 
+SOCKET_ORDER = ["LGA1150", "LGA1151", "LGA1200", "LGA1700", "LGA1851", "AM4", "AM5"]
+CHIPSET = {"AM4": "A320 B350 B450 X370 X470 A520 B550 X570", "AM5": "A620 B650 X670 B840 B850 X870",
+           "LGA1700": "H610 B660 H670 Z690 B760 H770 Z790", "LGA1851": "H810 B860 Z890",
+           "LGA1200": "H410 B460 H470 Z490 H510 B560 Z590", "LGA1151": "H110 B150 H170 Z170 B250 H270 Z270 H310 B360 B365 H370 Z370 Z390",
+           "LGA1150": "H81 B85 H87 H97 Z87 Z97"}
+
+
+def _sk(v):
+    return (v, SOCKET_ORDER.index(v) if v in SOCKET_ORDER else 99) if v else None
+
+
+def mb_socket(text, specs):
+    u = text.upper()
+    m = re.search(r"\b(AM4|AM5|LGA\s?1700|LGA\s?1851|LGA\s?1200|LGA\s?1151|LGA\s?1150)\b", u)
+    if m:
+        return _sk(m.group(1).replace(" ", ""))
+    m = re.search(r"\b([ABHXZ]\d{2,3})[EMIT]?\b", u)
+    if m:
+        for k, v in CHIPSET.items():
+            if m.group(1) in v.split():
+                return _sk(k)
+    return None
+
+
+def cpu_socket(text, specs):
+    u = text.upper()
+    m = re.search(r"\b(AM4|AM5|LGA\s?1700|LGA\s?1851|LGA\s?1200|LGA\s?1151)\b", u)
+    if m:
+        return _sk(m.group(1).replace(" ", ""))
+    m = re.search(r"RYZEN\s*[3579]\s*(?:PRO\s*)?(\d{4})", u)
+    if m:
+        return _sk("AM4" if int(m.group(1)[0]) <= 5 else "AM5")
+    if re.search(r"ATHLON\s*(?:PRO\s*)?(3000G|200GE|300GE|220GE|240GE|320GE)", u):
+        return _sk("AM4")
+    if re.search(r"ULTRA\s*[3579]\s*2\d{2}", u):
+        return _sk("LGA1851")
+    m = re.search(r"\bI[3579][\s-]*(\d{4,5})", u)
+    gen = None
+    if m:
+        gen = int(m.group(1)[:2]) if len(m.group(1)) == 5 else int(m.group(1)[0])
+    else:
+        g = re.search(r"\b(\d{1,2})(?:TH)\s*GEN", u)
+        gen = int(g.group(1)) if g else None
+    if gen:
+        return _sk("LGA1700" if gen in (12, 13, 14) else "LGA1200" if gen in (10, 11) else "LGA1151" if gen in (6, 7, 8, 9) else None)
+    return None
+
+
+def mb_ddr(text, specs):
+    u = text.upper()
+    if "DDR5" in u:
+        return "DDR5", 5
+    if "DDR4" in u or re.search(r"\bD4\b", u):
+        return "DDR4", 4
+    sk = mb_socket(text, specs)
+    if sk and sk[0] == "AM5":  # AM5 শুধু DDR5
+        return "DDR5", 5
+    if sk and sk[0] in ("AM4", "LGA1200", "LGA1151"):
+        return "DDR4", 4
+    return None
+
+
+def form_factor(text, specs):
+    u = text.upper()
+    if re.search(r"MINI[\s-]?ITX|\bITX\b", u):
+        return "Mini-ITX", 1
+    if re.search(r"MICRO[\s-]?ATX|\bM-?ATX\b|\b[ABHXZ]\d{3}M\b", u):
+        return "Micro-ATX", 2
+    if re.search(r"E-?ATX", u):
+        return "E-ATX", 4
+    if re.search(r"\bATX\b", u):
+        return "ATX", 3
+    return None
+
+
 CAP = ("cap", "ক্যাপাসিটি", capacity)
 SIZE_TV = ("size", "স্ক্রিন সাইজ", screen(19, 100))
 SIZE_MON = ("size", "স্ক্রিন সাইজ", screen(13, 57))
@@ -224,7 +299,8 @@ CATS = {
     "ssd": [CAP, ("iface", "ইন্টারফেস", ssd_iface)],
     "portable-ssd": [CAP], "hdd": [CAP], "portable-hdd": [CAP], "pen-drive": [CAP], "memory-card": [CAP],
     "graphics-card": [("gpu", "চিপসেট", gpu), ("vram", "মেমোরি", capacity)],
-    "processor": [("brand", "ব্র্যান্ড", cpu_brand), ("fam", "সিরিজ", cpu_family), ("gen", "জেনারেশন", cpu_gen)],
+    "processor": [("brand", "ব্র্যান্ড", cpu_brand), ("sk", "সকেট", cpu_socket), ("fam", "সিরিজ", cpu_family), ("gen", "জেনারেশন", cpu_gen)],
+    "motherboard": [("sk", "সকেট", mb_socket), ("mt", "মেমোরি", mb_ddr), ("ff", "সাইজ", form_factor)],
     # "pt" (অফিসিয়াল/আনঅফিসিয়াল) build.py বসায় স্টোরের তথ্য থেকে, এখানে শুধু নাম
     "smartphone": [("pt", "ধরন", lambda t, s: None), ("net", "নেটওয়ার্ক", five_g)],
     "tablet": [("pt", "ধরন", lambda t, s: None), ("ram", "RAM", phone_ram), ("rom", "স্টোরেজ", phone_storage)],

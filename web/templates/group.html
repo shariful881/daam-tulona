@@ -7,6 +7,7 @@
     <p class="muted" style="margin:0;font-size:.9rem">{{ leaves|length|bn }}টি ক্যাটাগরিতে {{ total|bn }}টি প্রোডাক্টের দাম।</p>
   </section>
 
+  {% if group.slug == "computer-parts" %}<a class="card pccta" href="{{ base }}/pc-builder/"><span class="cic">{{ cicon("computer-parts", True) }}</span><span><b>পিসি বিল্ডার</b><span>পার্টস বাছুন, সব দোকানের দাম মিলিয়ে মোট খরচ দেখুন</span></span><span class="pccta-go">শুরু করুন ›</span></a>{% endif %}
   <div class="cats">
   {% for c in leaves %}
     <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><span class="cic">{{ cicon(c.slug) }}</span><b>{{ c.name_bn }}</b><span>{{ c.count|bn }}টি প্রোডাক্ট</span>{% if c.min %}<span>শুরু {{ c.min | taka }} থেকে</span>{% endif %}{% if c.multi %}<small>{{ c.multi|bn }}টির দাম একাধিক স্টোরে</small>{% endif %}</a>

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › পিসি বিল্ডার</nav>
+  <section class="card">
+    <h1 class="ihd"><span class="cic">{{ cicon("computer-parts", True) }}</span>পিসি বিল্ডার: সব দোকানের দাম মিলিয়ে</h1>
+    <p class="muted" style="margin:0;font-size:.92rem">পার্টস বাছুন, আমরা দেখাব প্রতিটা কোন দোকানে সবচেয়ে কম, মোট কত পড়বে, আর এক দোকান থেকে সব কিনলে কোথায় সস্তা। সকেট, র‍্যামের ধরন আর পাওয়ার সাপ্লাই মানানসই কিনা সেটাও দেখাই।</p>
+  </section>
+
+  <div class="pcb">
+    <section class="card pcslots" id="pcslots">
+      {% for s in slots %}
+      <div class="pcs" data-slot="{{ s.key }}">
+        <span class="cic">{{ cicon(s.cats[0]) }}</span>
+        <div class="pcs-b">
+          <div class="pcs-h"><b>{{ s.name }}</b>{% if not s.req %}<small>ঐচ্ছিক</small>{% endif %}</div>
+          <div class="pcs-v" data-v><span class="muted">এখনো বাছা হয়নি</span></div>
+        </div>
+        <button type="button" class="pcs-pick" data-pick="{{ s.key }}">বাছুন</button>
+      </div>
+      {% endfor %}
+    </section>
+
+    <aside class="pcsum">
+      <section class="card">
+        <h2>মোট খরচ</h2>
+        <div id="pctotal"><p class="muted" style="margin:0;font-size:.88rem">পার্টস বাছলে এখানে মোট দাম দেখাবে।</p></div>
+      </section>
+      <section class="card" id="pcchecks" hidden>
+        <h2>মানানসই কিনা</h2>
+        <ul class="pcchk" id="pcchk"></ul>
+        <p class="muted" style="font-size:.74rem;margin:8px 0 0">প্রোডাক্টের নাম থেকে আন্দাজ করা। কেনার আগে দোকানে নিশ্চিত হয়ে নিন।</p>
+      </section>
+      <section class="card">
+        <div class="pcact">
+          <button type="button" class="btn" id="pcshare">লিংক কপি করুন</button>
+          <button type="button" class="freset" id="pcclear">সব মুছুন</button>
+        </div>
+        <p class="almsg" id="pcmsg" role="status"></p>
+      </section>
+    </aside>
+  </div>
+
+  <div class="pcmodal" id="pcmodal" hidden role="dialog" aria-modal="true" aria-labelledby="pcmtitle">
+    <div class="pcm">
+      <div class="fhead"><b id="pcmtitle"></b><button type="button" class="fx" id="pcmclose" aria-label="বন্ধ করুন">✕</button></div>
+      <div class="pcm-tools">
+        <input type="search" id="pcq" placeholder="নাম লিখে খুঁজুন…" aria-label="খুঁজুন">
+        <label class="fck" id="pcfitw"><input type="checkbox" id="pcfit" checked> <span id="pcfitl">শুধু মানানসই</span></label>
+        <label class="fck"><input type="checkbox" id="pcstock" checked> <span>শুধু স্টকে আছে</span></label>
+      </div>
+      <div class="pcm-list rows" id="pclist"></div>
+    </div>
+  </div>
+{% endblock %}
+{% block after %}
+<script>window.DT_PCB={{ slots | tojson }};window.DT_STORES={{ stores_json | safe }};</script>
+<script src="{{ base }}/static/pcbuilder.js?v={{ build_id }}" defer></script>
+{% endblock %}
