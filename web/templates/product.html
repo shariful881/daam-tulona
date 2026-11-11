@@ -203,6 +203,7 @@
   </div>
 {% endblock %}
 {% block after %}
+<script>/* হোমের "শেষবার যা দেখেছিলেন"-এর জন্য এই ফোনে মনে রাখা */try{(function(){var k="dt_seen",l=JSON.parse(localStorage.getItem(k)||"[]"),me={{ {"i": it.id, "n": p.name, "c": it.category, "p": best.price if best else None, "m": (it.imgs[0][0] if it.imgs else None)} | tojson }};me.t=Date.now();l=l.filter(function(x){return x.i!==me.i});l.unshift(me);localStorage.setItem(k,JSON.stringify(l.slice(0,12)))})()}catch(e){}</script>
 {% if lead_cfg.endpoint or lead_cfg.wa %}<script>window.DT_LEAD={{ {"id": it.id, "product": p.name, "price": best.price if best else "", "store": stores[best.store].name if best else "", "category": cat.name_bn, "endpoint": lead_cfg.endpoint, "wa": lead_cfg.wa} | tojson }};</script>
 <script src="{{ base }}/static/alert.js?v={{ build_id }}" defer></script>{% endif %}
 {% if gallery %}<script type="application/json" id="galdata">{{ gallery | tojson }}</script><script src="{{ base }}/static/gallery.js?v={{ build_id }}" defer></script>{% endif %}

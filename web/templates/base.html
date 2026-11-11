@@ -34,6 +34,7 @@
 </div>
 {% if nav_groups %}<nav class="gnav" aria-label="ক্যাটাগরি"><div class="col">{% for slug, name in nav_groups %}<a href="{{ base }}/g/{{ slug }}/"{% if group is defined and group and group.slug == slug %} aria-current="true"{% endif %}>{{ cicon(slug, True) }}{{ name }}</a>{% endfor %}</div></nav>{% endif %}
 </header>
+{% block top %}{% endblock %}
 <main class="col{% if buy %} has-buy{% endif %}">
 {% block content %}{% endblock %}
   <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
