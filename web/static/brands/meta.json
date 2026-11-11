@@ -3,40 +3,36 @@
   "logo": "asus.png"
  },
  "ugreen": {
-  "logo": "ugreen.svg",
   "facebook": "https://www.facebook.com/UgreenGlobal",
   "instagram": "https://www.instagram.com/ugreen_official"
  },
  "hp": {
-  "logo": "hp.png",
   "linkedin": "https://www.linkedin.com/company/hp",
   "instagram": "https://www.instagram.com/hp"
  },
  "corsair": {
-  "logo": "corsair.png",
   "facebook": "https://www.facebook.com/Corsair",
   "instagram": "https://www.instagram.com/corsair",
-  "youtube": "https://www.youtube.com/user/CorsairMemoryInc"
+  "youtube": "https://www.youtube.com/user/CorsairMemoryInc",
+  "logo": "corsair.png"
  },
  "vention": {
-  "logo": "vention.png",
   "facebook": "https://www.facebook.com/VentionTechOfficial",
   "instagram": "https://www.instagram.com/vention.official",
   "youtube": "https://www.youtube.com/@ventionofficial",
   "linkedin": "https://www.linkedin.com/company/ventiontechnology"
  },
  "deepcool": {
-  "logo": "deepcool.svg",
   "facebook": "https://www.facebook.com/deepcoolglobal",
   "linkedin": "https://www.linkedin.com/company/deepcool"
  },
  "hikvision": {},
  "tp-link": {
-  "logo": "tp-link.png",
-  "facebook": "https://www.facebook.com/TPLINKUS",
-  "instagram": "https://www.instagram.com/tplinkus",
-  "youtube": "https://www.youtube.com/user/TPLINKTECH",
-  "linkedin": "https://www.linkedin.com/company/tp-link"
+  "facebook": "https://www.facebook.com/TPLINKUK",
+  "instagram": "https://www.instagram.com/tplinkuk",
+  "youtube": "https://www.youtube.com/@tp-linkuk",
+  "linkedin": "https://www.linkedin.com/company/tp-link",
+  "logo": "tp-link.png"
  },
  "lenovo": {
   "facebook": "https://www.facebook.com/lenovo",
@@ -44,10 +40,10 @@
   "instagram": "https://www.instagram.com/lenovo"
  },
  "dahua": {
-  "logo": "dahua.png",
   "facebook": "https://www.facebook.com/DahuaHQ",
   "linkedin": "https://www.linkedin.com/company/2845844",
-  "youtube": "https://www.youtube.com/user/DahuaTechnology"
+  "youtube": "https://www.youtube.com/user/DahuaTechnology",
+  "logo": "dahua.png"
  },
  "xiaomi": {
   "logo": "xiaomi.png"
@@ -57,29 +53,28 @@
   "instagram": "https://www.instagram.com/samsungmobileusa"
  },
  "team": {
-  "logo": "team.png",
   "facebook": "https://www.facebook.com/teamgroupinc",
   "instagram": "https://www.instagram.com/teamgroupinc",
   "youtube": "https://www.youtube.com/c/teamgroupinctforce"
  },
  "baseus": {
-  "logo": "baseus.png",
   "facebook": "https://www.facebook.com/Baseus.fans",
   "instagram": "https://www.instagram.com/baseus_global",
-  "youtube": "https://www.youtube.com/c/Baseusofficial"
+  "youtube": "https://www.youtube.com/c/Baseusofficial",
+  "logo": "baseus.png"
  },
  "canon": {
-  "logo": "canon.svg"
+  "logo": "canon.png"
  },
  "redragon": {
-  "logo": "redragon.png",
   "facebook": "https://www.facebook.com/profile.php",
   "instagram": "https://www.instagram.com/redragon_offical",
   "youtube": "https://www.youtube.com/@redragon_channel",
-  "linkedin": "https://www.linkedin.com/company/redragon-zone"
+  "linkedin": "https://www.linkedin.com/company/redragon-zone",
+  "logo": "redragon.png"
  },
  "a4tech": {
-  "logo": "a4tech.svg"
+  "logo": "a4tech.png"
  },
  "philips": {
   "linkedin": "https://www.linkedin.com/company/philips",
@@ -90,134 +85,124 @@
   "logo": "oraimo.png"
  },
  "dell": {
-  "logo": "dell.png",
   "linkedin": "https://www.linkedin.com/company/delltechnologies",
-  "instagram": "https://www.instagram.com/delltech"
+  "instagram": "https://www.instagram.com/delltech",
+  "logo": "dell.png"
  },
  "logitech": {
-  "logo": "logitech.png",
   "instagram": "http://instagram.com/logitech",
-  "facebook": "http://www.facebook.com/Logitech"
+  "facebook": "http://www.facebook.com/Logitech",
+  "logo": "logitech.png"
  },
- "epson": {
-  "logo": "epson.png"
- },
+ "epson": {},
  "edifier": {
-  "logo": "edifier.png",
   "facebook": "https://www.facebook.com/edifiernorthamerica",
   "instagram": "https://www.instagram.com/edifiernorthamerica",
-  "youtube": "https://www.youtube.com/@EdifierNorthAmerica"
+  "youtube": "https://www.youtube.com/@EdifierNorthAmerica",
+  "logo": "edifier.png"
  },
  "cooler-master": {
-  "logo": "cooler-master.png",
   "facebook": "https://www.facebook.com/coolermaster",
-  "instagram": "https://www.instagram.com/coolermaster"
+  "instagram": "https://www.instagram.com/coolermaster",
+  "logo": "cooler-master.png"
  },
  "gamdias": {
-  "logo": "gamdias.png",
   "facebook": "https://www.facebook.com/GAMDIASGAMING",
   "instagram": "https://www.instagram.com/gamdias",
   "linkedin": "https://tw.linkedin.com/company/gamdiastechnology",
-  "youtube": "https://www.youtube.com/user/GamdiasTechnology"
+  "youtube": "https://www.youtube.com/user/GamdiasTechnology",
+  "logo": "gamdias.png"
  },
  "anker": {
-  "logo": "anker.png",
   "facebook": "https://www.facebook.com/Anker.fans",
-  "youtube": "https://www.youtube.com/user/AnkerOceanwing"
+  "youtube": "https://www.youtube.com/user/AnkerOceanwing",
+  "logo": "anker.png"
  },
  "apple": {
   "logo": "apple.png"
  },
  "intel": {
-  "logo": "intel.png",
   "facebook": "https://www.facebook.com/Intel",
   "linkedin": "https://www.linkedin.com/company/intel-corporation",
   "instagram": "https://www.instagram.com/intel",
-  "youtube": "https://www.youtube.com/user/channelintel"
+  "youtube": "https://www.youtube.com/user/channelintel",
+  "logo": "intel.png"
  },
  "haier": {},
  "antec": {
-  "logo": "antec.png",
   "facebook": "https://www.facebook.com/AntecInc",
   "instagram": "https://www.instagram.com/antec",
-  "youtube": "https://www.youtube.com/user/watchAntecTV"
+  "youtube": "https://www.youtube.com/user/watchAntecTV",
+  "logo": "antec.png"
  },
  "netac": {},
  "viewsonic": {
-  "logo": "viewsonic.svg",
   "facebook": "https://www.facebook.com/ViewSonicCorp",
   "youtube": "https://www.youtube.com/c/ViewSonicUS",
   "linkedin": "https://www.linkedin.com/company/viewsonic",
-  "instagram": "https://www.instagram.com/viewsonic"
+  "instagram": "https://www.instagram.com/viewsonic",
+  "logo": "viewsonic.png"
  },
- "brother": {
-  "logo": "brother.png"
- },
+ "brother": {},
  "benq": {
-  "logo": "benq.svg",
   "facebook": "https://www.facebook.com/benqnorthamericausandca",
   "instagram": "https://www.instagram.com/benqnorthamerica",
   "youtube": "https://www.youtube.com/user/BenQGlobal",
-  "linkedin": "https://www.linkedin.com/company/benq-america"
+  "linkedin": "https://www.linkedin.com/company/benq-america",
+  "logo": "benq.png"
  },
  "dji": {
-  "logo": "dji.svg",
   "facebook": "https://www.facebook.com/DJI",
   "youtube": "https://www.youtube.com/user/djiinnovations",
-  "instagram": "https://www.instagram.com/DJIglobal"
+  "instagram": "https://www.instagram.com/DJIglobal",
+  "logo": "dji.png"
  },
  "zkteco": {
   "linkedin": "https://www.linkedin.com/company/zktecoltd",
   "facebook": "https://www.facebook.com/zktecoelectronic"
  },
  "seagate": {
-  "logo": "seagate.svg",
   "facebook": "https://www.facebook.com/seagate",
   "linkedin": "http://www.linkedin.com/company/2868",
   "youtube": "http://www.youtube.com/user/SeagateTechnology",
   "instagram": "https://www.instagram.com/seagate"
  },
  "lg": {
-  "logo": "lg.svg",
   "facebook": "https://www.facebook.com/LGUSA",
   "instagram": "https://www.instagram.com/lgusa",
-  "linkedin": "https://www.linkedin.com/company/lg-electronics-north-america"
+  "linkedin": "https://www.linkedin.com/company/lg-electronics-north-america",
+  "logo": "lg.png"
  },
  "tenda": {
   "logo": "tenda.png"
  },
  "grandstream": {
-  "logo": "grandstream.png",
   "facebook": "http://www.facebook.com/GrandstreamNetworksInc",
   "linkedin": "http://www.linkedin.com/company/grandstream-networks",
   "youtube": "http://www.youtube.com/user/GrandstreamNetworks"
  },
  "sandisk": {
-  "logo": "sandisk.svg",
   "instagram": "https://www.instagram.com/sandisk",
   "facebook": "https://www.facebook.com/sandisk",
-  "linkedin": "https://www.linkedin.com/company/sandisk"
+  "linkedin": "https://www.linkedin.com/company/sandisk",
+  "logo": "sandisk.png"
  },
- "adata": {
-  "logo": "adata.svg"
- },
+ "adata": {},
  "apacer": {
-  "logo": "apacer.svg"
+  "logo": "apacer.png"
  },
  "microsoft": {
-  "logo": "microsoft.png",
   "facebook": "https://www.facebook.com/Microsoft",
-  "linkedin": "https://www.linkedin.com/company/microsoft"
+  "linkedin": "https://www.linkedin.com/company/microsoft",
+  "logo": "microsoft.png"
  },
  "lexar": {
-  "logo": "lexar.svg",
   "youtube": "https://www.youtube.com/@lexarmemory",
-  "instagram": "https://www.instagram.com/lexarmemory",
-  "facebook": "https://www.facebook.com/lexarmemory",
+  "instagram": "https://www.instagram.com/lexarmemory_eu",
+  "facebook": "https://www.facebook.com/LexarMemoryEurope",
   "linkedin": "https://www.linkedin.com/company/lexarmemory"
  },
  "razer": {
-  "logo": "razer.svg",
   "facebook": "https://www.facebook.com/razer",
   "instagram": "https://www.instagram.com/razer"
  },
@@ -227,27 +212,37 @@
   "youtube": "https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A"
  },
  "walton": {
-  "logo": "walton.svg",
   "facebook": "https://www.facebook.com/Waltonbd",
   "youtube": "https://www.youtube.com/user/WaltonHil",
   "instagram": "https://www.instagram.com/walton.refrigerator",
   "linkedin": "https://www.linkedin.com/company/walon-group"
  },
  "minister": {
-  "logo": "minister.png",
   "facebook": "https://www.facebook.com/Minister.Bangladesh",
   "instagram": "https://www.instagram.com/ministerbangladesh",
   "linkedin": "https://www.linkedin.com/company/minister-hi-tech-park",
-  "youtube": "https://www.youtube.com/@Minister-Group"
+  "youtube": "https://www.youtube.com/@Minister-Group",
+  "logo": "minister.png"
  },
  "uniview": {
-  "logo": "uniview.svg",
   "facebook": "https://www.facebook.com/UniviewHQ",
   "youtube": "https://www.youtube.com/channel/UCqx937gPiCrFIzXFKQfC5FA",
   "linkedin": "https://www.linkedin.com/company/zhejiang-uniview-technologies-co-ltd",
-  "instagram": "https://www.instagram.com/univiewglobal"
+  "instagram": "https://www.instagram.com/univiewglobal",
+  "logo": "uniview.png"
  },
  "hisense": {
   "logo": "hisense.png"
- }
+ },
+ "msi": {},
+ "gigabyte": {},
+ "sony": {},
+ "transcend": {},
+ "casio": {},
+ "amd": {},
+ "jbl": {
+  "logo": "jbl.png"
+ },
+ "g-skill": {},
+ "kingston": {}
 }
