@@ -26,7 +26,9 @@
   "facebook": "https://www.facebook.com/VentionTechOfficial",
   "instagram": "https://www.instagram.com/vention.official",
   "youtube": "https://www.youtube.com/@ventionofficial",
-  "linkedin": "https://www.linkedin.com/company/ventiontechnology"
+  "linkedin": "https://www.linkedin.com/company/ventiontechnology",
+  "logo": "vention.png",
+  "logo_src": "উইকিপিডিয়া"
  },
  "deepcool": {
   "facebook": "https://www.facebook.com/deepcoolglobal",
@@ -34,7 +36,10 @@
   "logo": "deepcool.png",
   "logo_src": "উইকিপিডিয়া"
  },
- "hikvision": {},
+ "hikvision": {
+  "logo": "hikvision.png",
+  "logo_src": "উইকিপিডিয়া"
+ },
  "tp-link": {
   "facebook": "https://www.facebook.com/TPLINKUS",
   "instagram": "https://www.instagram.com/tplinkus",
@@ -88,7 +93,6 @@
   "instagram": "https://www.instagram.com/redragon_offical",
   "youtube": "https://www.youtube.com/@redragon_channel",
   "linkedin": "https://www.linkedin.com/company/redragon-zone",
-  "logo": "redragon.png",
   "logo_src": "অফিসিয়াল সাইট"
  },
  "a4tech": {
@@ -307,7 +311,10 @@
   "logo": "msi.png",
   "logo_src": "উইকিপিডিয়া"
  },
- "gigabyte": {},
+ "gigabyte": {
+  "logo": "gigabyte.png",
+  "logo_src": "উইকিপিডিয়া"
+ },
  "sony": {
   "logo": "sony.png",
   "logo_src": "উইকিপিডিয়া"
@@ -336,5 +343,9 @@
   "logo": "kingston.png",
   "logo_src": "উইকিপিডিয়া"
  },
- "toshiba": {}
+ "toshiba": {
+  "logo": "toshiba.png",
+  "logo_src": "উইকিপিডিয়া",
+  "linkedin": "https://www.linkedin.com/company/toshiba-corporation"
+ }
 }
