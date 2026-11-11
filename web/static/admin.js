@@ -686,7 +686,7 @@
       function editor(id) {
         var x = byId[id]; if (!x) return "";
         var have = mp[id] || {};
-        return '<section class="card" id="med"><h2>' + esc(x.n) + '</h2><p class="muted" style="margin:0 0 8px;font-size:.82rem">' + esc(x.c) + (isFinite(+x.p) && +x.p > 0 ? " · এখন সাইটে সর্বনিম্ন ৳" + bn(Number(x.p).toLocaleString("en-US")) : "") +
+        return '<section class="card" id="med"><h2>' + esc(x.n) + '</h2><p class="muted" style="margin:0 0 8px;font-size:.82rem">' + esc(x.c) + (isFinite(+x.p) && +x.p > 0 ? " · এখন সাইটে সর্বনিম্ন ৳" + bn(+x.p) : "") +
           ' · <a href="' + BASE + "/p/" + id + '/" target="_blank" style="text-decoration:underline">পাতাটা দেখুন</a></p>' +
           MS.map(function (sid) {
             var m = have[sid] || {};
@@ -721,7 +721,7 @@
       }
       function row(e) {
         var d = days(e.m.date), x = byId[e.id] || { n: e.id };
-        return '<div class="apair"><div class="nm">' + esc(x.n) + '<br><small class="muted">' + esc(st[e.sid] ? st[e.sid].name : e.sid) + " · ৳" + bn(Number(e.m.price).toLocaleString("en-US")) + " · " +
+        return '<div class="apair"><div class="nm">' + esc(x.n) + '<br><small class="muted">' + esc(st[e.sid] ? st[e.sid].name : e.sid) + " · ৳" + bn(+e.m.price) + " · " +
           (d >= 14 ? '<b style="color:var(--warn)">' + bn(d) + " দিন, সাইটে দেখাচ্ছে না</b>" : bn(d) + " দিন আগে") + '</small></div><div class="bt"><button type="button" class="abtn ghost" data-pick="' + esc(e.id) + '">হালনাগাদ</button></div></div>';
       }
       draw();
