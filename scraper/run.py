@@ -4,6 +4,7 @@
 """
 import importlib
 import json
+import os
 import re
 import sys
 import threading
@@ -15,6 +16,9 @@ from scraper.common import Blocked
 
 ROOT = Path(__file__).resolve().parent.parent
 BD = timezone(timedelta(hours=6))
+
+
+STORE_MINUTES = int(os.environ.get("STORE_MINUTES", "240"))  # প্রতিটা স্টোরের সর্বোচ্চ সময় (daily.yml-এর সীমা ৩৩০ মিনিট)
 
 
 def main() -> int:
@@ -36,10 +40,15 @@ def main() -> int:
             return
         module = importlib.import_module(f"scraper.stores.{store_id}")
         t0 = time.time()
+        mine = [c["slug"] for c in cats if c["stores"].get(store_id)]
         for cat in cats:
             conf = cat["stores"].get(store_id)
             if not conf:
                 continue
+            if time.time() - t0 > STORE_MINUTES * 60:  # বড় স্টোর সময়ের মধ্যে শেষ না হলে বাকিগুলোর আগের দাম থাকে
+                health["errors"].append(f"সময় শেষ ({STORE_MINUTES} মিনিট): বাকি ক্যাটাগরির আগের দাম রাখা হলো")
+                health["failed_cats"] += mine[mine.index(cat["slug"]):]
+                break
             extra = {"limit": conf["limit"]} if conf.get("limit") else {}
             items, blocked = [], False
             try:
@@ -49,7 +58,6 @@ def main() -> int:
                 items += getattr(e, "partial", None) or []
                 health["errors"].append(f"{cat['slug']}: স্টোর ব্লক করেছে ({e}); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ")
                 blocked = True
-                mine = [c["slug"] for c in cats if c["stores"].get(store_id)]
                 health["failed_cats"] += mine[mine.index(cat["slug"]):]  # এটা আর বাকিগুলো
             except Exception as e:  # একটা ক্যাটাগরি ভাঙলে বাকিগুলো চলবে; আগের পাতাগুলো রাখা হয়
                 items += getattr(e, "partial", None) or []
