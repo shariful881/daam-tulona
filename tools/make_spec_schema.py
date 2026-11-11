@@ -599,7 +599,7 @@ PROFILES = {
     "flash": (flash, ["pen-drive", "memory-card"]),
     "power_bank": (power_bank, ["power-bank"]),
     "watch": (watch, ["smart-watch", "smart-band", "smart-ring"]),
-    "router": (router, ["router", "gaming-router", "pocket-router", "range-extender", "access-point", "wifi-adapter", "starlink"]),
+    "router": (router, ["router", "gaming-router", "pocket-router", "range-extender", "access-point", "wifi-adapter", "lan-card", "starlink"]),
     "switch": (switch, ["network-switch", "poe-injector"]),
     "cam": (cam, ["wifi-camera", "ip-camera", "cc-camera", "ptz-camera", "solar-camera", "camera-package", "dash-cam"]),
     "dvr": (dvr, ["dvr-nvr"]),

@@ -4035,6 +4035,7 @@
   "range-extender": "router",
   "access-point": "router",
   "wifi-adapter": "router",
+  "lan-card": "router",
   "starlink": "router",
   "network-switch": "switch",
   "poe-injector": "switch",

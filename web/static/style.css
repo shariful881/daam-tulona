@@ -332,3 +332,19 @@ dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap
 @media (min-width:760px){
   .bcard{grid-template-columns:minmax(0,1fr) 260px;align-items:center;gap:24px}
 }
+
+/* প্রোডাক্ট পাতা: কম্পিউটারে দুই কলাম — বাঁয়ে দাম ও তুলনা, ডানে "এক নজরে" আর ব্র্যান্ড (স্ক্রল করলেও দেখা যায়) */
+.pside{display:grid;gap:14px;align-content:start;min-width:0}
+.side-only{display:none}
+@media (min-width:1024px){
+  body.wide .col{max-width:1160px}
+  body.wide main.col{grid-template-columns:minmax(0,1fr) 370px;column-gap:22px;align-items:start}
+  body.wide main.col>*{grid-column:1;min-width:0}
+  body.wide main.col>.pside{grid-column:2;grid-row:2/span 40;position:sticky;top:76px;max-height:calc(100vh - 170px);overflow:auto;scrollbar-width:thin}
+  body.wide .side-only{display:block}
+  body.wide .main-only{display:none}
+  body.wide .pside .bcard{grid-template-columns:1fr;gap:12px}
+  body.wide .pside .bcard .bc-about{font-size:.86rem}
+  body.wide .crumb{grid-column:1/-1}
+  body.wide .spark{max-width:560px}
+}

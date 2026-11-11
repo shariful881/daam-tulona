@@ -17,7 +17,7 @@
 <script>function dtImgErr(i){try{var a=JSON.parse(i.getAttribute("data-alts")||"[]"),n=a.shift();i.setAttribute("data-alts",JSON.stringify(a));if(n){i.src=n[0];var c=i.closest("[data-img]");c=c&&c.parentNode.querySelector(".credit");if(c&&n[1]){c.textContent="ছবি: "+n[1];c.href=n[2]}}else{var w=i.closest("[data-img]");if(w){w.classList.add("noimg");var c2=w.parentNode.querySelector(".credit");if(c2)c2.remove()}i.remove()}}catch(e){}}</script>
 {% block head %}{% endblock %}
 </head>
-<body>
+<body{% if wide %} class="wide"{% endif %}>
 <header class="hdr"><div class="col">
   <a class="logo" href="{{ base }}/">দাম<span>তুলনা</span></a>
   <form action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0">

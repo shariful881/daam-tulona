@@ -78,6 +78,8 @@ def key_specs(category, name, det_specs=None, feats=None, brand_spec=None, key_b
                            for x in vals):
                     vals.append(cv)
         val = " · ".join(vals)
+        if re.fullmatch(r"\d+(\.\d+)?", val) and f.get("f", "{}") != "{}":
+            val = f["f"].format(val)  # শুধু সংখ্যা এলে একক যোগ: 27 -> 27 ইঞ্চি
         if not val and brand_spec and f.get("b") and brand_spec.get(f["b"]) not in (None, ""):
             bv = brand_spec[f["b"]]
             val = ("হ্যাঁ" if bv else "না") if isinstance(bv, bool) else f.get("bf", "{}").format(clean(bv))
