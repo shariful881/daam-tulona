@@ -2,28 +2,72 @@
  "specs": {
   "Specification": {
    "Model": "TUF Gaming VG279Q3R",
-   "Display": "Panel Size (inch) : 27\nAspect Ratio : 16:9\nDisplay Viewing Area (H x V) : 597.888 x 336.312 mm\nDisplay Surface : Anti-Glare\nBacklight Type : LED",
-   "Features": "Trace Free Technology : Yes\nGameVisual : Yes\nColor Temp. Selection : Yes (4 modes)\nGamePlus : Yes\nHDCP : Yes, 2.2",
    "Audio": "Speaker : Yes(2Wx2)",
    "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
-   "Signal Frequency": "Digital Signal Frequency : DisplayPort: 250~250 KHz(H) / 48~180 Hz (V)\nHDMI: 30~225 KHz (H) / 48~180 Hz (V)",
-   "Power Consumption": "Power Consumption : <21W\nPower Saving Mode : <0.5W\nPower Off Mode : <0.3W\nVoltage : 100-240V, 50/60Hz",
-   "Mechanical Design": "Tilt : Yes (+22° ~ -5°)\nHeight Adjustment : No\nVESA Wall Mounting : 75x75mm\nKensington Lock : Yes",
-   "Dimensions (Esti.)(vary by regions)": "Phys. Dimension (W x H x D) : 61.5 x 42.8 x 21.3 cm (24.21\" x 16.85\" x 8.39\")\nPhys. Dimension without Stand (W x H x D) : 61.5 x 36.4 x 3.8 cm (24.21\" x 14.33\" x 1.50\")\nBox Dimension (W x H x D) : 69.2 x 43.5 x 14.4 cm (27.24\" x 17.13\" x 5.67\")",
-   "Weight (Esti.)(vary by regions)": "Net Weight : 4.3 kg (9.48 lbs)\nNet Weight without Stand : 3.3 kg (7.28 lbs)\nGross Weight : 5.4 kg (11.90 lbs)",
    "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nPower adapter\nL-shaped Screwdriver",
-   "Certificate": "FSC MIX\nAMD FreeSync\nVESA AdaptiveSync Display 180Hz\nTÜV Low Blue Light\nTÜV Flicker-free",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Certificate": "FSC MIX\nAMD FreeSync\nVESA AdaptiveSync Display 180Hz\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "597.888 x 336.312 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "Fast IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.311mm",
+   "Resolution": "1920x1080",
+   "Color Space (sRGB)": "100%",
+   "Brightness (Typ.)": "250cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "16.7M",
+   "Response Time": "1ms(GTG)",
+   "Refresh Rate (Max)": "180Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.2",
+   "Extreme Low Motion Blur": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "DisplayWidget": "Yes, DisplayWidget Center",
+   "Low Blue Light": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "DisplayPort: 250~250 KHz(H) / 48~180 Hz (V)",
+   "HDMI": "30~225 KHz (H) / 48~180 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<21W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+22° ~ -5°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "75x75mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.5 x 42.8 x 21.3 cm (24.21\" x 16.85\" x 8.39\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.5 x 36.4 x 3.8 cm (24.21\" x 14.33\" x 1.50\")",
+   "Box Dimension (W x H x D)": "69.2 x 43.5 x 14.4 cm (27.24\" x 17.13\" x 5.67\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "4.3 kg (9.48 lbs)",
+   "Net Weight without Stand": "3.3 kg (7.28 lbs)",
+   "Gross Weight": "5.4 kg (11.90 lbs)"
   }
  },
  "key_features": [],
  "model": "TUF Gaming VG279Q3R",
- "fetched": "2026-11-11T10:48+06:00",
+ "fetched": "2026-11-11T11:13+06:00",
  "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg279q3r/techspec/",
  "brand_site": "ASUS"
 }

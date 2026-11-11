@@ -1,7 +1,10 @@
 {
  "specs": {
+  "Key Specs › WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
   "Key Specs": {
-   "WiFi Speeds": "AC1200 :\n5 GHz: 867 Mbps (802.11ac)\n2.4 GHz: 300 Mbps (802.11n)",
    "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nCover more area with more antennas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "Medium\nDual-Band\nDistribute devices to different bands for optimal performance\n2×2 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
@@ -13,7 +16,6 @@
   },
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC1200\n5 GHz: 867 Mbps (802.11ac)\n2.4 GHz: 300 Mbps (802.11n)",
    "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\nMU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
@@ -36,9 +38,18 @@
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDHCP  Server\nIP address assignment (DHCP)",
    "Certifications": "FCC, CE",
    "WiFi Transmission Power": "CE EIRP:<20dBm(2.4GHz)<23dBm(5GHz)\nFCC:\n<30dBm(2.4GHz & 5GHz)",
-   "WiFi Reception Sensitivity": "5GHz:\n11a 6Mbps:-93dBm；\n11a 54Mbps:-78dBm；\n11ac HT20 mcs8:69dBm;\n11ac HT40 mcs9:-66dBm;",
    "Dimensions (W×D×H)": "4.5 × 4.2 × 1.0 in\n(115 × 106.7 × 24.3 mm)",
    "Package Content": "Wi-Fi Router Archer C54\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "WiFi Reception Sensitivity": {
+   "11a 6Mbps": "-93dBm；",
+   "11a 54Mbps": "-78dBm；",
+   "11ac HT20 mcs8": "69dBm;",
+   "11ac HT40 mcs9": "-66dBm;"
   },
   "Versatile Management": {
    "Parental Controls": "Block content",
@@ -47,7 +58,7 @@
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:38+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c54/",
  "brand_site": "TP-Link"
 }

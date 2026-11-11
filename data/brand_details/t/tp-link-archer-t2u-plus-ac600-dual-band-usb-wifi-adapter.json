@@ -13,12 +13,17 @@
    "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM",
    "Certification": "FCC, CE",
    "Package Content": "AC600 High Gain Wireless Dual Band USB Adapter Archer T2U Plus\nQuick Installation Guide\nResource CD",
-   "System Requirements": "Windows11/10/8.1/8/7/XP, Mac OS X 10.9-10.14",
-   "Environment": "Operating Temperature: 0°C~40°C (32°F ~104°F)\nStorage Temperature: -40°C~70°C (-40°F ~158°F)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "System Requirements": "Windows11/10/8.1/8/7/XP, Mac OS X 10.9-10.14"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F ~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F ~158°F)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:38+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t2u-plus/",
  "brand_site": "TP-Link"
 }

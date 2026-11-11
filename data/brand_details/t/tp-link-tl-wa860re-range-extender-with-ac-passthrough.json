@@ -12,8 +12,6 @@
    "Antenna": "2 * external",
    "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
    "Frequency": "2.4~2.4835GHz",
-   "Signal Rate": "11n: Up to 300Mbps (dynamic)\n11g: Up to 54Mbps (dynamic)\n11b: Up to 11Mbps (dynamic)",
-   "Reception Sensitivity": "270M: -69dBm@10% PER\n130M: -69dBm@10% PER\n108M: -69dBm@10% PER\n54M: -69dBm@10% PER\n11M: -86Bm@8% PER",
    "Wireless Modes": "Range Extender",
    "Wireless Functions": "WMM (Wi-Fi Multimedia)\nWireless MAC Address Filtering\nWireless Statistic\nDomain Login Function",
    "Wireless Security": "64/128/152-bit WEP\nWPA-PSK / WPA2-PSK",
@@ -22,10 +20,22 @@
    "Certification": "RoHS",
    "Package Content": "300Mbps Wi-Fi Range Extender with AC Passthrough TL-WA860RE\nRJ-45 Ethernet Cable\nQuick Installation Guide",
    "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)"
+  },
+  "Signal Rate": {
+   "11n": "Up to 300Mbps (dynamic)",
+   "11g": "Up to 54Mbps (dynamic)",
+   "11b": "Up to 11Mbps (dynamic)"
+  },
+  "Reception Sensitivity": {
+   "270M": "-69dBm@10% PER",
+   "130M": "-69dBm@10% PER",
+   "108M": "-69dBm@10% PER",
+   "54M": "-69dBm@10% PER",
+   "11M": "-86Bm@8% PER"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:12+06:00",
  "source": "https://www.tp-link.com/us/home-networking/range-extender/tl-wa860re/",
  "brand_site": "TP-Link"
 }

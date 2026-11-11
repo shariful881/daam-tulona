@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC5400\n5 GHz: 2167 Mbps (802.11ac)\n5 GHz: 2167 Mbps (802.11ac)\n2.4 GHz: 1000 Mbps (802.11n)",
    "WiFi Range": "4 Bedroom Houses\n8× Detachable High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "High\nTri-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router ModeAccess Point Mode",
@@ -28,13 +27,22 @@
    "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
    "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
    "Certifications": "FCC, CE",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing",
    "Dimensions (W×D×H)": "11.3 × 11.3 × 7.2 in\n(288 × 288 × 184 mm)",
    "Package Content": "Wi-Fi Router Archer C5400X\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "2167 Mbps (802.11ac)",
+   "2.4 GHz": "1000 Mbps (802.11n)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:41+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c5400x/",
  "brand_site": "TP-Link"
 }

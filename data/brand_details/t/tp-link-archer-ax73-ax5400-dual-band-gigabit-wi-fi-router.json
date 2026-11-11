@@ -5,7 +5,6 @@
   },
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
-   "WiFi Speeds": "AX5400\n5 GHz: 4804 Mbps (802.11ax, HE160)\n2.4 GHz: 574 Mbps (802.11ax)",
    "WiFi Range": "3 Bedroom Houses\n6× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -33,16 +32,26 @@
    "Management Features": "Tether App\nWebpage",
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
    "Certifications": "FCC, CE",
-   "WiFi Reception Sensitivity": "2.4GHz:11ac VHT20 MCS0:-94.5dBm\n11ac VHT20 MCS8:-72.5dBm\n11ac VHT40 MCS0:-92.5dBm\n11ac VHT40 MCS9:-69.5dBm\n11ax HE20 MCS0:-95dBm",
    "Dimensions (W×D×H)": "10.7 × 5.8 × 1.9 in\n(272.5 × 147.2 × 49.2 mm)",
    "Package Content": "Wi-Fi Router Archer AX73\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "4804 Mbps (802.11ax, HE160)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "WiFi Reception Sensitivity": {
+   "2.4GHz": "11ac VHT20 MCS0:-94.5dBm",
+   "11ac VHT20 MCS8": "-72.5dBm",
+   "11ac VHT40 MCS0": "-92.5dBm",
+   "11ac VHT40 MCS9": "-69.5dBm",
+   "11ax HE20 MCS0": "-95dBm"
   },
   "Reviews & Awards": {
    "Awards": "Business Insider\n2021, United States"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:38+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax73/",
  "brand_site": "TP-Link"
 }

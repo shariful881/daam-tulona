@@ -4,12 +4,16 @@
    "Standards and Protocols": "Bluetooth 5.4",
    "Dimensions ( W x D x H )": "0.58 × 0.27 × 0.74 in (14.8 × 6.8 × 18.9 mm)",
    "Package Content": "Bluetooth 5.4 Nano USB Adapter UB500\nQuick Installation Guide",
-   "System Requirements": "Supported operating systems include Win 11/10/8.1/7",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "System Requirements": "Supported operating systems include Win 11/10/8.1/7"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:13+06:00",
  "source": "https://www.tp-link.com/us/home-networking/usb-adapter/ub500/",
  "brand_site": "TP-Link"
 }

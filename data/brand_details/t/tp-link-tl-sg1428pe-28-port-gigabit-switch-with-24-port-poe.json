@@ -6,7 +6,6 @@
    "Fan Quantity": "2 Fans",
    "Physical Security Lock": "Yes",
    "Power Supply": "100-240V AC, 50/60 Hz",
-   "PoE Ports (RJ45)": "Standard: 802.3at/802.3af compliant\nPoE+ Ports: 24 Ports\nPower Supply: 250 W",
    "Dimensions ( W x D x H )": "17.3 × 8.7 × 1.73 in\n(440 × 220 × 44 mm)",
    "Mounting": "19\" 1U rack mountable",
    "Max. Power Consumption": "27 W (no power device connected)\n304.7 W (with 250W power device connected)",
@@ -22,12 +21,22 @@
    "Management Features": "Web-Based GUI\nEasy Smart Configuration Utility",
    "Transmission Method": "Store-And-Forward",
    "Certification": "CE, FCC",
-   "Package Content": "TL-SG1428PE\nPower Cord\nInstallation Guide\nRackmount Kit\nRubber Feet",
-   "Environment": "Operating Temperature: 0°C~50°C (32°F~122°F)\nStorage Temperature: -40°C~70°C (-40°F~158°F)\nOperating Humidity: 10% ~ 90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "Package Content": "TL-SG1428PE\nPower Cord\nInstallation Guide\nRackmount Kit\nRubber Feet"
+  },
+  "PoE Ports (RJ45)": {
+   "Standard": "802.3at/802.3af compliant",
+   "PoE+ Ports": "24 Ports",
+   "Power Supply": "250 W"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~50°C (32°F~122°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10% ~ 90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:12+06:00",
  "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sg1428pe/",
  "brand_site": "TP-Link"
 }

@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Image Sensor": "1/2.7“ Progressive Scan CMOS Sensor",
-   "Lens": "Focal Length: 1.18 mm\nAperture: F1.8\nField of View: 180° (Diagonal), 172° (Horizontal), 144° (Vertical)",
    "Night Vision": "850 nm IR LED (30ft / 10 m)",
    "Lighting": "Built-in Spotlights",
    "Interface & Button": "1× RESET Button\n1× Doorbell Button",
@@ -34,12 +33,20 @@
    "Storage Temperature": "-40°F ~ 140°F",
    "Operating Humidity": "10%~90% RH, Non-condensing",
    "Storage Humidity": "5%~90% RH, Non-condensing",
-   "Dimensions ( W x D x H )": "Doorbell Dimensions: 3.35 × 1.67 × 1.28 in (85 × 42.5 × 32.5 mm)\nChime Dimensions: 2.87 × 1.71 × 1.85 in (73 × 43.5 × 46.9 mm)",
    "Package Content": "Tapo D130  Video Doorbell Wired\nTapo Doorbell Chime\nMounting Bracket\nHorizontal Mounting Wedge\nVertical Mounting Wedge"
+  },
+  "Lens": {
+   "Focal Length": "1.18 mm",
+   "Aperture": "F1.8",
+   "Field of View": "180° (Diagonal), 172° (Horizontal), 144° (Vertical)"
+  },
+  "Dimensions ( W x D x H )": {
+   "Doorbell Dimensions": "3.35 × 1.67 × 1.28 in (85 × 42.5 × 32.5 mm)",
+   "Chime Dimensions": "2.87 × 1.71 × 1.85 in (73 × 43.5 × 46.9 mm)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:42+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.tp-link.com/us/smart-home/smart-doorbell/tapo-d130/",
  "brand_site": "TP-Link"
 }

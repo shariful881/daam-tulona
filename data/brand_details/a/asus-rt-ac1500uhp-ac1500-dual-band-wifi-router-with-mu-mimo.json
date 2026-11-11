@@ -3,7 +3,6 @@
   "Specification": {
    "Model": "RT-AC1500UHP",
    "Network Standard": "IPv6\nIPv4\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g",
-   "WiFi Data Rate": "WiFi 5 (802.11ac) : up to 867 Mbps\nWiFi 4 (802.11n) : up to 600 Mbps\n802.11g : up to 54 Mbps\n802.11b : up to 11 Mbps\n802.11a : up to 54 Mbps",
    "Antenna": "External antenna x 4",
    "Transmit / Receive": "5GHz 2x2\n2.4GHz 4x4\nMIMO technology",
    "Memory": "16 MB Flash, 128 MB RAM",
@@ -13,22 +12,27 @@
    "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4\nUSB 2.0 x 1",
    "Buttons": "WPS Button, Reset Button, Power Button",
    "LED Indicator": "Power x 1\nWi-Fi x 2\nWAN x 1\nUSB x 1\nLAN x 4",
-   "Power Supply": "AC Input : 100V~240V(50~60Hz)\nDC Output : 12 V with max. 1.5 A current",
    "Package Content": "RT-AC1500UHP Gigabit Wi-Fi Router\nRJ-45 Cable\nQuick Start Guide\nPower Adapter\nWarranty Card",
    "Product Weight (g)": "348 g",
    "Product Dimensions": "192x125  x 30 ~ mm (WxDxH) (Without Bezel)",
    "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
-   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log",
-   "Laptops": "For Home",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "WiFi 6",
-   "Accessories": "Keyboards"
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 4 (802.11n)": "up to 600 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "100V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 1.5 A current"
   }
  },
  "key_features": [],
  "model": "RT-AC1500UHP",
- "fetched": "2026-11-11T10:54+06:00",
+ "fetched": "2026-11-11T11:21+06:00",
  "source": "https://www.asus.com/bd/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac1500uhp/techspec/",
  "brand_site": "ASUS"
 }

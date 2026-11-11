@@ -4,14 +4,12 @@
    "Processor": "560MHz CPU, MIPS 74Kc",
    "Memory": "64MB DDR2 RAM,8MB Flash",
    "Interface": "1 10/100Mbps Shielded Ethernet Port (LAN/POE)\n1 Reset Button",
-   "Power Supply": "Passive Power over Ethernet via LAN (+4,5pins; -7,8pins)\nVoltage range: 16-27VDC",
    "Max. Power Consumption": "8.8 W",
    "Dimensions ( W x D x H )": "14.4 x 11.0 x 8.1 in",
    "Antenna Gain": "23dBi",
    "Antenna Beamwidth": "9°(Azimuth), 7°(Elevation)",
    "Protection": "15KV ESD Protection\n6KV Lightning Protection",
    "Enclosure": "Material: Outdoor PC stabilized plasticWeatherproof: IP65 water and dust proof design",
-   "Network Configuration": "WAN: Static/Dynamic/PPPoE/L2TP/PPTP\nLAN: Static/Dynamic/DHCP\nForwarding: ALG/UPnP/Virtual Server/Port Trigger\nSecurity: SPI Firewall/ Ping Forbidden/DoS Protection\nAccess Control",
    "Wireless Configurations": "Pharos MAXtream TDMA Technology\nSelectable Channel Width: 5/10/20/40MHz\nAuto Channel Selection\nTransmit Power Control\nDynamic Frequency Selection(DFS)",
    "Management Features": "Discovery and Remote Management via Pharos Control application\nHTTP/HTTPS Web-based management\nSystem log\nSNMP Agent(v2c)\nPing Watch Dog",
    "System Tools": "Indicators:Signal Strength/Noise/Transmit CCQ/CPU/Memory\nMonitors: Throughput/Stations/Interfaces/ARP/Routes/WAN/DHCP\nSpectrum Analyzer\nSpeed Test\nPing",
@@ -29,12 +27,24 @@
    "Output": "24VDC, 0.5A Max\n+4, 5pins; -7, 8pins. (Support up to 60m Power over Ethernet)",
    "Efficiency": ">84.29%",
    "Certifications": "CE/FCC",
-   "Certification": "FCC",
-   "Environment": "Storage Humidity: 5%~95% non-condensing"
+   "Certification": "FCC"
+  },
+  "Power Supply": {
+   "Voltage range": "16-27VDC"
+  },
+  "Network Configuration": {
+   "WAN": "Static/Dynamic/PPPoE/L2TP/PPTP",
+   "LAN": "Static/Dynamic/DHCP",
+   "Forwarding": "ALG/UPnP/Virtual Server/Port Trigger",
+   "Security": "SPI Firewall/ Ping Forbidden/DoS Protection\nAccess Control"
+  },
+  "Environment": {
+   "Operating Temperature": "-40℃~70℃ (-40℉~158℉)Storage Temperature: -40℃~70℃ (-40℉~158℉)Operating Humidity: 10%~90% non-condensing",
+   "Storage Humidity": "5%~95% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:42+06:00",
+ "fetched": "2026-11-11T11:10+06:00",
  "source": "https://www.tp-link.com/us/business-networking/outdoor-radio/cpe610/",
  "brand_site": "TP-Link"
 }

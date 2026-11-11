@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHzIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC1900\n5 GHz: 1300 Mbps (802.11ac)2.4 GHz: 600 Mbps (802.11n)",
    "WiFi Range": "3 Bedroom Houses\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\n3×3 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -29,10 +28,13 @@
    "WiFi Transmission Power": "FCC:\n<30dBm(2.4GHz & 5GHz)",
    "Dimensions (W×D×H)": "8.5 × 4.6 × 1.26 in\n(215 × 117 × 32 mm)",
    "Package Content": "Wi-Fi Router Archer C80\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1300 Mbps (802.11ac)2.4 GHz: 600 Mbps (802.11n)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:37+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c80/",
  "brand_site": "TP-Link"
 }

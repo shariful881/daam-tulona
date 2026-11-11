@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AX1500\n5 GHz: 1201 Mbps (802.11ax)\n2.4 GHz: 300 Mbps (802.11n)",
    "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation",
    "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode\nUSB Tethering Mode\n3G/4G USB Modem Mode",
    "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
@@ -24,13 +23,20 @@
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
    "Certifications": "FCC, CE",
    "WiFi Transmission Power": "CE: <20dBm(2.4 GHz)<23dBm(5.15 GHz~5.25 GHz)FCC:<30dBm(2.4 GHz & 5.15 GHz~5.825 GHz)",
-   "WiFi Reception Sensitivity": "11ax HE40M MCS11:-60dBm\n11ax HE80M MCS11:-59dBm",
    "Dimensions (W×D×H)": "4.09 × 3.54 × 1.10 in\n(104 × 90 × 28 mm)",
    "Package Content": "TL-WR1502X\nPower Adapter\nRJ45 Ethernet Cable\nUSB Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1201 Mbps (802.11ax)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "WiFi Reception Sensitivity": {
+   "11ax HE40M MCS11": "-60dBm",
+   "11ax HE80M MCS11": "-59dBm"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:13+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/tl-wr1502x/",
  "brand_site": "TP-Link"
 }

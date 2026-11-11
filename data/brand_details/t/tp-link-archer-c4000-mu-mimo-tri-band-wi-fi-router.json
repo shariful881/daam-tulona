@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHzIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC4000\n5 GHz: 1625 Mbps (802.11ac)5 GHz: 1625 Mbps (802.11ac)2.4 GHz: 750 Mbps (802.11n)",
    "WiFi Range": "4 Bedroom Houses\n6× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "High\nTri-Band\nAllocate devices to different bands for optimal performance\n3×3 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -28,11 +27,24 @@
    "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
    "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
    "Certifications": "FCC, CE",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing",
    "WiFi Transmission Power": "CE:\n<20dBm(2.4GHz)\n<23dBm(5.15GHz~5.35GHz)\n<30dBm(5.47GHz~5.725GHz)\nFCC:",
-   "WiFi Reception Sensitivity": "5 GHz_1:\n11a 6Mbps：-96dBm, 11a 54Mbps:-78dBm\n11ac VHT20_MCS0:-95dBm, 11ac VHT20_MCS11:-65dBm\n11ac VHT40_MCS0:-93dBm, 11ac VHT40_MCS11:-62dBm\n11ac VHT80_MCS0:-90dBm, 11ac VHT80_MCS11:-59dBm",
    "Dimensions (W×D×H)": "7.9 × 7.9 × 1.5 in\n(200.7 × 200.7 × 38.1 mm)",
    "Package Content": "Wi-Fi Router Archer C4000\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1625 Mbps (802.11ac)5 GHz: 1625 Mbps (802.11ac)2.4 GHz: 750 Mbps (802.11n)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  },
+  "WiFi Reception Sensitivity": {
+   "11a 6Mbps：-96dBm, 11a 54Mbps": "-78dBm",
+   "11ac VHT20_MCS0": "-95dBm, 11ac VHT20_MCS11:-65dBm",
+   "11ac VHT40_MCS0": "-93dBm, 11ac VHT40_MCS11:-62dBm",
+   "11ac VHT80_MCS0": "-90dBm, 11ac VHT80_MCS11:-59dBm"
   },
   "Easy Setup and Management": {
    "Guest Network": "Keep your main network secure by creating a separate network for guests and visitors",
@@ -42,7 +54,7 @@
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:41+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c4000/",
  "brand_site": "TP-Link"
 }

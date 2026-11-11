@@ -7,7 +7,6 @@
    "Physical Security Lock": "Yes",
    "Power Supply": "100-240 VAC, 50/60 Hz",
    "Packet Forwarding Rate": "6.5472 Mpps",
-   "PoE Ports (RJ45)": "Standard: 802.3at/802.3af compliant\nPoE Ports: Port 1 – Port 24\nPoE Power Budget: 250 W",
    "Mac Address Table": "8 K",
    "Jumbo Frame": "10 KB",
    "Switching Capacity": "8.8 Gbps",
@@ -17,12 +16,22 @@
    "Advanced Features": "Compatible With IEEE 802.3at/af Compliant PDs\nExtend Mode (Up to 250m PoE power supply and data transmission)\nPriority Mode\nIsolation Mode\nPD Detection",
    "Transmission Method": "Store-And-Forward",
    "Certification": "FCC",
-   "Package Content": "TL-SL1226P\nPower Cable\nInstallation Guide\nTwo mounting brackets and the fittings",
-   "Environment": "Operating Temperature: 0–50 °C (32–122 °F)\nStorage Temperature: -40–70 °C (-40–158 °F)\nOperating Humidity: 10–90% non-condensing\nStorage Humidity: 5–90% non-condensing"
+   "Package Content": "TL-SL1226P\nPower Cable\nInstallation Guide\nTwo mounting brackets and the fittings"
+  },
+  "PoE Ports (RJ45)": {
+   "Standard": "802.3at/802.3af compliant",
+   "PoE Ports": "Port 1 – Port 24",
+   "PoE Power Budget": "250 W"
+  },
+  "Environment": {
+   "Operating Temperature": "0–50 °C (32–122 °F)",
+   "Storage Temperature": "-40–70 °C (-40–158 °F)",
+   "Operating Humidity": "10–90% non-condensing",
+   "Storage Humidity": "5–90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:12+06:00",
  "source": "https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sl1226p/",
  "brand_site": "TP-Link"
 }

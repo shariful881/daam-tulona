@@ -4,7 +4,6 @@
    "Model": "RT-BE58U",
    "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)",
    "Product Segment": "BE3600 ultimate BE performance : 688+2882 Mbps",
-   "WiFi Data Rate": "WiFi 7 (802.11be) (5GHz): up to 2882 Mbps\nWiFi 7 (802.11be) (2.4GHz): up to 688 Mbps\n802.11g : up to 54 Mbps\n802.11b : up to 11 Mbps\n802.11a : up to 54 Mbps",
    "Antenna": "External antenna x 4",
    "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2",
    "Processor": "2.0 GHz quad-core processor",
@@ -15,24 +14,28 @@
    "I/O Ports": "1x 2.5G for WAN/LAN,\n1x 1G for WAN/LAN,\n3 x 1G LAN,\nUSB 3.2 Gen 1 x 1",
    "Buttons": "WPS Button, Reset Button, Power Button",
    "LED Indicator": "Power x 1\nWAN x 1\nLAN x 1\n2.4GHz WiFi x 1\n5GHz WiFi x 1",
-   "Power Supply": "AC Input : 100V~240V (50~60Hz)\nDC Output : 12 V with max. 2 A current",
    "Package Content": "RT-BE58U\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
    "Product Weight (g)": "461g",
    "Product Dimensions": "238 x 147 x 193 mm",
    "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
    "Parental Control": "Time Scheduling, Safe Browsing, Customized Internet Schedule",
-   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (5GHz)": "up to 2882 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 688 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "100V~240V (50~60Hz)",
+   "DC Output": "12 V with max. 2 A current"
   }
  },
  "key_features": [],
  "model": "RT-BE58U",
- "fetched": "2026-11-11T10:45+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.asus.com/us/networking-iot-servers/wifi-7/all-series/rt-be58u/techspec/",
  "brand_site": "ASUS"
 }

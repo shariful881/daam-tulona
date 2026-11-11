@@ -4,7 +4,6 @@
    "Model": "RT-AX86U Pro",
    "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
    "Product Segment": "AX5700 ultimate AX performance : 861+4804 Mbps",
-   "WiFi Data Rate": "WiFi 6 (802.11ax) (5GHz) : up to 4804 Mbps\nWiFi 6 (802.11ax) (2.4GHz) : up to 861 Mbps\nWiFi 5 (802.11ac) (1024QAM) : up to 4333 Mbps\nWiFi 4 (802.11n) (1024QAM) : up to 750 Mbps\nWiFi 4 (802.11n) : up to 450 Mbps",
    "Antenna": "External antenna x 3\nInternal PCB antenna x 1",
    "Transmit / Receive": "5GHz 4x4\n2.4GHz 3x3",
    "Processor": "2.0GHz quad-core processor",
@@ -20,18 +19,22 @@
    "Product Weight (g)": "814.5 g",
    "Product Dimensions": "242 x 100 x 325 (with antenna)\n242 x 100 x 164 (without antenna)",
    "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
-   "Game": "Game Boost / Acceleration, Mobile Game Mode, Gear Accelerator",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Game": "Game Boost / Acceleration, Mobile Game Mode, Gear Accelerator"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 4804 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 861 Mbps",
+   "WiFi 5 (802.11ac) (1024QAM)": "up to 4333 Mbps",
+   "WiFi 4 (802.11n) (1024QAM)": "up to 750 Mbps",
+   "WiFi 4 (802.11n)": "up to 450 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
   }
  },
  "key_features": [],
  "model": "RT-AX86U Pro",
- "fetched": "2026-11-11T10:55+06:00",
+ "fetched": "2026-11-11T11:22+06:00",
  "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/techspec/",
  "brand_site": "ASUS"
 }

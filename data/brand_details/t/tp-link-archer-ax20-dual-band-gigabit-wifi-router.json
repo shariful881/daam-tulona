@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
-   "WiFi Speeds": "AX1800\n5 GHz: 1201 Mbps (802.11ax)\n2.4 GHz: 574 Mbps (802.11ax)",
    "WiFi Range": "2-3 Bedroom Houses\n4× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -26,15 +25,24 @@
    "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
    "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
    "Certifications": "FCC, CE",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing",
    "WiFi Transmission Power": "CE:\n<20dBm(2.4 GHz)\n<23dBm(5.15 GHz~5.25 GHz)\nFCC:\n<30dBm(2.4 GHz & 5.15 GHz~5.825 GHz)",
    "WiFi Reception Sensitivity": "EU Version\n5G\n11a 6Mbps: -96dbm\n11a 54Mbps:-75dbm\n11ac VHT20_MCS0: -95dbm",
    "Dimensions (W×D×H)": "10.2 × 5.3 ×1.5 in\n(260.2 × 135.0 × 38.6 mm)",
    "Package Content": "Wi-Fi Router Archer AX23\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1201 Mbps (802.11ax)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:41+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax20/",
  "brand_site": "TP-Link"
 }

@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
-   "WiFi Speeds": "AX6600\n5 GHz: 4804 Mbps (802.11ax, HE160)\n5 GHz: 1201 Mbps (802.11ax)\n2.4 GHz: 574 Mbps (802.11ax)",
    "WiFi Range": "4 Bedroom Houses\n8× Detachable High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "Very High\nTri-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -31,15 +30,29 @@
    "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
    "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
    "Certifications": "FCC, CE",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing",
    "WiFi Transmission Power": "CE:\n<20dBm(2.4GHz)\n<23dBm(5.15GHz~5.35GHz)\n<30dBm(5.47GHz~5.725GHz)\nFCC:",
-   "WiFi Reception Sensitivity": "5 GHz-1:\n11a 6Mbps:-93dBm, 11a 54Mbps:-76dBm\n11ac VHT20 MCS0:-92dBm, 11ac VHT20 MCS8:-69dBm\n11ac VHT40 MCS0:-90dBm, 11ac VHT40 MCS9:-65dBm\n11ac VHT80 MCS0:-87dBm, 11ac VHT80 MCS9:-62dBm",
    "Dimensions (W×D×H)": "8.3 × 8.3 × 2.0 in\n(212 × 212 × 51.8 mm)",
    "Package Content": "Wi-Fi Router Archer GX90\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1201 Mbps (802.11ax)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  },
+  "WiFi Reception Sensitivity": {
+   "11a 6Mbps": "-93dBm, 11a 54Mbps:-76dBm",
+   "11ac VHT20 MCS0": "-92dBm, 11ac VHT20 MCS8:-69dBm",
+   "11ac VHT40 MCS0": "-90dBm, 11ac VHT40 MCS9:-65dBm",
+   "11ac VHT80 MCS0": "-87dBm, 11ac VHT80 MCS9:-62dBm"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:41+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-gx90/",
  "brand_site": "TP-Link"
 }

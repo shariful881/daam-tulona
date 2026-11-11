@@ -6,7 +6,6 @@
    "Fan Quantity": "2 Fans",
    "Physical Security Lock": "Yes",
    "Power Supply": "100–240V AC, 50/60 Hz",
-   "PoE Ports (RJ45)": "• Standard: 802.3at/802.3af compliant\n• PoE Ports: Ports 1–16\n• PoE Power Budget: 250 W",
    "Dimensions ( W x D x H )": "17.3 × 7.1 × 1.7 in\n(440 × 180 × 44 mm)",
    "Max. Power Consumption": "• 15.0 W (no PD connected)\n• 285.8 W (with 250 W PD connected)",
    "Max. Heat Dissipation": "• 51.1 BTU/h (no PD connected)\n• 974.6 BTU/h (with 250 W PD connected)",
@@ -17,12 +16,22 @@
    "Advanced Features": "• Mac Address Auto-Learning And Auto-Aging\n• IEEE802.3x Flow Control",
    "Transmission Method": "Store-And-Forward",
    "Certification": "CE, FCC",
-   "Package Content": "• TL-SL1218MP\n• Power Cable\n• Installation Guide\n• Two mounting brackets and the fittings",
-   "Environment": "• Operating Temperature: 0–50 °C (32–122 °F)\n• Storage Temperature: -40–70 °C (-40–158 °F)\n• Operating Humidity: 10–90% RH non-condensing\n• Storage Humidity: 5–90% RH non-condensing"
+   "Package Content": "• TL-SL1218MP\n• Power Cable\n• Installation Guide\n• Two mounting brackets and the fittings"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3at/802.3af compliant",
+   "• PoE Ports": "Ports 1–16",
+   "• PoE Power Budget": "250 W"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–50 °C (32–122 °F)",
+   "• Storage Temperature": "-40–70 °C (-40–158 °F)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:40+06:00",
+ "fetched": "2026-11-11T11:08+06:00",
  "source": "https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sl1218mp/",
  "brand_site": "TP-Link"
 }

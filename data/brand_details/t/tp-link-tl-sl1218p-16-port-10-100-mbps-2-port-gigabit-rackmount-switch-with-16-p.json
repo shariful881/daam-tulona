@@ -6,7 +6,6 @@
    "Fan Quantity": "2 Fans",
    "Physical Security Lock": "Yes",
    "Power Supply": "100–240V AC, 50/60 Hz",
-   "PoE Ports (RJ45)": "• Standard: 802.3at/802.3af compliant\n• PoE Ports: Ports 1–16\n• PoE Power Budget: 150 W",
    "Dimensions ( W x D x H )": "17.3 × 7.1 × 1.7 in\n(440 × 180 × 44 mm)",
    "Max. Power Consumption": "• 12.7 W (no power device connected)\n• 172.8 W (with 150W power devices connected)",
    "Max. Heat Dissipation": "• 43.3 BTU/h (no power device connected)\n• 589.3 BTU/h (with 150W power devices connected)",
@@ -18,10 +17,15 @@
    "Transmission Method": "Store-And-Forward",
    "Certification": "CE, FCC",
    "Package Content": "• TL-SL1218P\n• Power Cable\n• Installation Guide\n• Two mounting brackets"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3at/802.3af compliant",
+   "• PoE Ports": "Ports 1–16",
+   "• PoE Power Budget": "150 W"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:12+06:00",
  "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sl1218p/",
  "brand_site": "TP-Link"
 }

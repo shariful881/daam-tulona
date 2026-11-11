@@ -7,7 +7,6 @@
    "Power Supply": "Passive Power over Ethernet via LAN0 (+4,5pins; -7,8pins)",
    "Max. Power Consumption": "10.5 Watts Max",
    "Dimensions ( W x D x H )": "8.8 x 3.1 x 2.4 in",
-   "Antenna": "Built-in 13dBi 2 x 2 Dual-polarized Directional Antenna\nBeam Width: 45° (H-Plane) / 30° (E-Plane)",
    "Protection": "15KV ESD Protection\n6KV Lightning Protection",
    "Enclosure": "Outdoor ASA stabilized plastic material",
    "Wireless Configurations": "Pharos MAXtream TDMA Technology",
@@ -29,12 +28,20 @@
    "Certifications": "CE/FCC",
    "Certification": "FCC, RoHS, IPX5",
    "Package Content": "Outdoor Wireless CPE",
-   "System Requirements": "Google Chrome, Safari, and Firefox browsers for web GUI management",
-   "Environment": "Operating Temperature: -30°C~70°C (-22℉~158℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~95% non-condensing"
+   "System Requirements": "Google Chrome, Safari, and Firefox browsers for web GUI management"
+  },
+  "Antenna": {
+   "Beam Width": "45° (H-Plane) / 30° (E-Plane)"
+  },
+  "Environment": {
+   "Operating Temperature": "-30°C~70°C (-22℉~158℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~95% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:42+06:00",
+ "fetched": "2026-11-11T11:10+06:00",
  "source": "https://www.tp-link.com/us/business-networking/pharos-cpe/cpe510/",
  "brand_site": "TP-Link"
 }

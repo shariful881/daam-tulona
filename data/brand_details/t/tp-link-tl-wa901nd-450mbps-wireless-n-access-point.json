@@ -9,8 +9,6 @@
    "Dimensions ( W x D x H )": "7.67*5.12*1.43 in.( 194.82*129.93*36.2mm)",
    "Antenna": "3*5dBi Detachable Omni Directional (RP-SMA)",
    "Frequency": "2.4-2.4835GHz",
-   "Signal Rate": "11n: Up to 450Mbps(dynamic)\n11g: Up to 54Mbps(dynamic)\n11b: Up to 11Mbps(dynamic)",
-   "Reception Sensitivity": "270M: -68dBm@10% PER\n130M: -68dBm@10% PER\n108M: -68dBm@10% PER\n54M: -68dBm@10% PER\n11M: -85dBm@8% PER",
    "Wireless Modes": "Access Point /Repeater (Range Extender)/ Bridge with AP/ Client/Multi-SSID/",
    "Wireless Functions": "Enable/Disable Wireless Radio;\nWMM (Wi-Fi Multimedia)\nWireless MAC Address Filtering\nWireless Statistic\nDomain Login Function",
    "Wireless Security": "64/128/152-bit WEP / WPA / WPA2,WPA-PSK / WPA2-PSK",
@@ -23,10 +21,22 @@
    "Package Content": "Wireless Access Point TL-WA901ND\n3 Detachable Omni Directional Antennas\nPower Supply Unit\nPoE Power Injector\nResource CD",
    "System Requirements": "Microsoft Windows XP, Vista, Windows 7, 8, 10",
    "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)"
+  },
+  "Signal Rate": {
+   "11n": "Up to 450Mbps(dynamic)",
+   "11g": "Up to 54Mbps(dynamic)",
+   "11b": "Up to 11Mbps(dynamic)"
+  },
+  "Reception Sensitivity": {
+   "270M": "-68dBm@10% PER",
+   "130M": "-68dBm@10% PER",
+   "108M": "-68dBm@10% PER",
+   "54M": "-68dBm@10% PER",
+   "11M": "-85dBm@8% PER"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:40+06:00",
+ "fetched": "2026-11-11T11:08+06:00",
  "source": "https://www.tp-link.com/us/home-networking/access-point/tl-wa901nd/",
  "brand_site": "TP-Link"
 }

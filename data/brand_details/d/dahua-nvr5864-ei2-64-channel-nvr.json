@@ -35,11 +35,17 @@
   },
   "Audio and Video": {
    "Access Channel": "64 channels",
-   "Network Bandwidth": "AI disabled: 448 Mbps incoming, 448 Mbps recording and 448 Mbps outgoing\nAI enabled: 200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing",
    "Resolution": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF",
    "Video Output": "2 VGA, 2 HDMI\nVGA: 1920 × 1080, 1280 × 1024, 1280 × 720\nHDMI: 7680×4320, 3840 × 2160, 1920 × 1080, 1280 × 1024, 1280 × 720\nHeterogeneous video source output for HDMI1 and HDMI2\nSimultaneous video source output for VGA1 and HDMI1",
-   "Multi-screen Display": "Main Screen: 1/4/8/9/16/25/36/64\nSub Screen: 1/4/8/9/16",
    "Third-party Camera Access": "ONVIF; Panasonic; Sony; Axis; Arecont; Pelco; Canon; Hanwha"
+  },
+  "Audio and Video › Network Bandwidth": {
+   "AI disabled": "448 Mbps incoming, 448 Mbps recording and 448 Mbps outgoing",
+   "AI enabled": "200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing"
+  },
+  "Audio and Video › Multi-screen Display": {
+   "Main Screen": "1/4/8/9/16/25/36/64",
+   "Sub Screen": "1/4/8/9/16"
   },
   "Compression Standard": {
    "Video Compression": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG",
@@ -83,12 +89,15 @@
    "Packaging Dimensions": "570.0 mm × 570.0 mm × 226.0 mm (22.44\" × 22.44\" × 8.90\") (W × D × H)",
    "Operating Temperature": "–10 °C to +55 °C (+14 °F to +131 °F)",
    "Storage Temperature": "–20 °C to +60 °C (–4 °F to +140 °F)",
-   "Operating Humidity": "10%–93% (RH), non-condensing",
-   "Certifications": "CE-LVD: EN 62368-1:2014"
+   "Operating Humidity": "10%–93% (RH), non-condensing"
+  },
+  "General › Certifications": {
+   "CE-EMC": "EN 55032:2015+A1:2020; EN IEC 61000-3-2:2019+A1:2021; EN 61000-3-3:2013+A1:2019+A2:2021; EN 55035:2017+A11:2020; EN 50130-4:2011+A1:2014",
+   "CE-LVD": "EN 62368-1:2014"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:46+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei2-series/nvr5864-ei2",
  "brand_site": "Dahua"
 }

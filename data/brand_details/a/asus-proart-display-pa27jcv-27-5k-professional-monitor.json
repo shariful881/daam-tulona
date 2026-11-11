@@ -2,28 +2,66 @@
  "specs": {
   "Specification": {
    "Model": "ProArt Display PA27JCV",
-   "Display": "Panel Size (inch) : 27\nPixels Per Inch (PPI) : 218\nAspect Ratio : 16:9\nDisplay Viewing Area (H x V) : 596.74 x 335.66 mm\nDisplay Surface : AGLR (Anti-Glare, Low-Reflection)",
-   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRec.709",
+   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRec.709\nDICOM\nRec.2020\nDCI-P3\nAdobe RGB\nsRGB\nNative\nColor Temp. Selection : Yes (9300K, 6500K, 5500K, 5000K, DCI-P3, M Model)\nColor Adjustment : RGB Tuning (Gain / Offset)\nGamma Adjustment : Yes (Support Gamma 1.8/2.0/2.2/2.4/2.6)\nAuto Rotation:Yes, supported by DisplayWidget Center\nColor Accuracy : △E< 2\nProArt Palette : Yes\nQuickFit Plus : Yes\nPIP / PBP Technology : Yes\nHDCP : Yes, 2.2\nVRR Technology : Yes (Adaptive-Sync)\nProArt Chroma Tune : Yes\nDisplayWidget : Yes, DisplayWidget Center\nLow Blue Light : Yes\nKVM Switch : Yes\nASUS Power Sync : Yes",
    "Audio": "Speaker : Yes(2Wx2)",
    "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.4 x 1\nHDMI(v2.1) x 1 (FRL)\nUSB Hub : 1x USB 3.2 Gen 1 Type-C\n3x USB 3.2 Gen 1 Type-A",
    "Signal Frequency": "Digital Signal Frequency : 15~135 KHz (H) / 48~60 Hz (V)",
-   "Power Consumption": "Power Consumption : 31.04w\nPower Saving Mode : < 0.5W\nPower Off Mode : 0W (hard switch)\nVoltage : 100-240V, 50/60Hz",
-   "Mechanical Design": "Tilt : Yes (+23° ~ -5°)\nSwivel : Yes (+30° ~ -30°)\nPivot : Yes (+90° ~ -90°)\nHeight Adjustment : 0~130mm\nAmbient Light Sensor : Yes",
-   "Dimensions (Esti.)(vary by regions)": "Phys. Dimension (W x H x D) : 61.22 x 53.81 x 21.50 cm (24.10\" x 21.19\" x 8.46\")\nBox Dimension (W x H x D) : 69.10 x 42.70 x 13.80 cm (27.20\" x 16.81\" x 5.43\")",
-   "Weight (Esti.)(vary by regions)": "Net Weight : 5.91 kg (13.03 lbs)\nNet Weight without Stand : 4.14 kg (9.13 lbs)\nGross Weight : 8.73 kg (19.25 lbs)",
    "Accessories (varies by region)": "Welcome Card\nWarranty Card\nUSB-C cable\nQuick start guide\nPower cord",
-   "Certificate": "Mac Compliance\nFSC MIX\nCalman Verified\nVESA MediaSync Display\nVESA DisplayHDR 500",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Certificate": "Mac Compliance\nFSC MIX\nCalman Verified\nVESA MediaSync Display\nVESA DisplayHDR 500"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Pixels Per Inch (PPI)": "218",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.74 x 335.66 mm",
+   "Display Surface": "AGLR (Anti-Glare, Low-Reflection)",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.116mm",
+   "Resolution": "5120x2880",
+   "Color Space (sRGB)": "100%",
+   "Color Space (Adobe RGB)": "95%",
+   "Color Space (DCI-P3)": "99%",
+   "Brightness (HDR, Peak)": "500 cd/㎡",
+   "Brightness (Typ.)": "400cd/㎡",
+   "Contrast Ratio (Max)": "3000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes",
+   "LCD ZBD Warranty": "Yes(3 yr)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "31.04w",
+   "Power Saving Mode": "< 0.5W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Swivel": "Yes (+30° ~ -30°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~130mm",
+   "Ambient Light Sensor": "Yes",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.22 x 53.81 x 21.50 cm (24.10\" x 21.19\" x 8.46\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.22 x 36.29 x 4.41 cm (24.10\" x 14.29\" x 1.74\")",
+   "Box Dimension (W x H x D)": "69.10 x 42.70 x 13.80 cm (27.20\" x 16.81\" x 5.43\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "5.91 kg (13.03 lbs)",
+   "Net Weight without Stand": "4.14 kg (9.13 lbs)",
+   "Gross Weight": "8.73 kg (19.25 lbs)"
   }
  },
  "key_features": [],
  "model": "ProArt Display PA27JCV",
- "fetched": "2026-11-11T10:43+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-5k-pa27jcv/techspec/",
  "brand_site": "ASUS"
 }

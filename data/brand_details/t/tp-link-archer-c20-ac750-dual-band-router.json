@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC750\n5 GHz: 433 Mbps (802.11ac)\n2.4 GHz: 300 Mbps (802.11n)",
    "WiFi Range": "2 Bedroom Houses\n3× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas",
    "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance",
    "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
@@ -30,10 +29,14 @@
    "WiFi Reception Sensitivity": "11n HT40 MCS7: -71dBm",
    "Dimensions (W×D×H)": "9.1 × 5.7 × 1.4 in\n(230 × 144 × 35 mm)",
    "Package Content": "Wi-Fi Router Archer C20\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "433 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:37+06:00",
+ "fetched": "2026-11-11T11:05+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c20/",
  "brand_site": "TP-Link"
 }

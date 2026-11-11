@@ -6,7 +6,6 @@
    "Fan Quantity": "2",
    "Physical Security Lock": "Yes",
    "Power Supply": "100–240 VAC, 50/60 Hz",
-   "PoE Ports (RJ45)": "• Standard: 802.3at/802.3af compliant\n• PoE Ports: Ports 1–16\n• PoE Power Budget: 250 W",
    "Dimensions ( W x D x H )": "17.3 × 7.1 × 1.73 in.\n(440 × 180 × 44 mm)",
    "Mounting": "19\" 1U rack mountable",
    "Max. Power Consumption": "• 21.4 W (no power device connected)\n• 286.6 W (with 250 W power devices connected)",
@@ -17,12 +16,22 @@
    "Packet Forwarding Rate": "26.78 Mbps",
    "MAC Address Table": "8K",
    "Certification": "CE, FCC",
-   "Package Content": "• TL-SG1218MP\n• Installation Guide\n• Power Cord\n• Rackmount Kit\n• Rubber Feet",
-   "Environment": "• Operating Temperature: 0–50 °C (32–122 °F)\n• Storage Temperature: -40–70 °C (-40–158 °F)\n• Operating Humidity: 10–90% RH non-condensing\n• Storage Humidity: 5–90% RH non-condensing"
+   "Package Content": "• TL-SG1218MP\n• Installation Guide\n• Power Cord\n• Rackmount Kit\n• Rubber Feet"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3at/802.3af compliant",
+   "• PoE Ports": "Ports 1–16",
+   "• PoE Power Budget": "250 W"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–50 °C (32–122 °F)",
+   "• Storage Temperature": "-40–70 °C (-40–158 °F)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:40+06:00",
+ "fetched": "2026-11-11T11:08+06:00",
  "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sg1218mp/",
  "brand_site": "TP-Link"
 }

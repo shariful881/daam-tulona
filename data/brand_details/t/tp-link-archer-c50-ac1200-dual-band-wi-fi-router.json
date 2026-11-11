@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
-   "WiFi Speeds": "AC1200\n5 GHz: 867 Mbps (802.11ac)\n2.4 GHz: 300 Mbps (802.11n)",
    "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\n2×2 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
    "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
@@ -39,16 +38,30 @@
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
    "Certifications": "FCC, CE, RoHS",
    "WiFi Transmission Power": "CE EIRP:<20dBm(2.4GHz)<23dBm(5GHz)FCC:<30dBm(2.4GHz & 5GHz)",
-   "WiFi Reception Sensitivity": "5GHz:11a 54M: -73dBm11ac VHT20 MCS8: -68dBm11ac VHT40 MCS9: -64dBm\n11ac VHT80 MCS9: -60dBm\n2.4GHz:\n11g 54M: -76dBm\n11n HT20 MCS7: -74dBm",
    "Dimensions (W×D×H)": "9.1 × 5.7 × 1.5 in\n(229.9 × 144.2 × 36.9 mm)",
    "Package Content": "Wi-Fi Router Archer C50\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide",
    "Certification": "CE, FCC",
-   "System Requirements": "Microsoft Windows 10/8.1/8/7/Vista/XP/2000/NT/98SE, MAC OS, NetWare, UNIX or Linux",
-   "Environment": "Operating Temperature: 0℃–40℃ (32℉–104℉)\nStorage Temperature: -40℃–60℃ (-40℉–140℉)\nOperating Humidity: 10%–90% non-condensing\nStorage Humidity: 5%–90% non-condensing"
+   "System Requirements": "Microsoft Windows 10/8.1/8/7/Vista/XP/2000/NT/98SE, MAC OS, NetWare, UNIX or Linux"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "WiFi Reception Sensitivity": {
+   "5GHz": "11a 54M: -73dBm11ac VHT20 MCS8: -68dBm11ac VHT40 MCS9: -64dBm",
+   "11ac VHT80 MCS9": "-60dBm\n2.4GHz:",
+   "11g 54M": "-76dBm",
+   "11n HT20 MCS7": "-74dBm"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃–40℃ (32℉–104℉)",
+   "Storage Temperature": "-40℃–60℃ (-40℉–140℉)",
+   "Operating Humidity": "10%–90% non-condensing",
+   "Storage Humidity": "5%–90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:37+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c50/",
  "brand_site": "TP-Link"
 }

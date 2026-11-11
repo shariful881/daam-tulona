@@ -5,7 +5,6 @@
    "Model Name": "RT-AX92U(2-PK)",
    "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
    "Product Segment": "AX6100 ultimate AX performance : 400 Mbps+ 867 Mbps+ 4804 Mbps",
-   "WiFi Data Rate": "WiFi 5 (802.11ac) : up to 433 Mbps\nWiFi 4 (802.11n) TurboQAM : up to 150 Mbps\nWiFi 4 (802.11n) : up to 150 Mbps",
    "Antenna": "External antenna x 4, Internal antenna X 2",
    "Transmit / Receive": "5GHz-2 4x4\n5GHz 2x2\n2.4GHz 2x2",
    "Processor": "1.8 GHz dual-core processor",
@@ -16,25 +15,27 @@
    "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4\nUSB 2.0 x 1\nUSB 3.0 x 1",
    "Buttons": "WPS Button, Reset Button, Power Button",
    "LED Indicator": "Power x 1\nWi-Fi x 3\nWAN x 1\nLAN x 1",
-   "Power Supply": "AC Input : 110V~240V(50~60Hz)\nDC Output : 19 V with max. 1.75 A current",
    "Package Content": "‧RJ-45 Cable x1\n‧Power Adapter x2\n‧QSG x1",
    "Product Weight (g)": "651",
    "Product Dimensions": "155 x 155 x 52.6",
    "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
    "Game": "Game Boost / Acceleration, WTFast",
    "Router APP": "APP: ASUS Router APP",
-   "Administration": "Configuration Backup and Restore, Diagnosis Tools, Feedback System, System Log",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Administration": "Configuration Backup and Restore, Diagnosis Tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 5 (802.11ac)": "up to 433 Mbps",
+   "WiFi 4 (802.11n) TurboQAM": "up to 150 Mbps",
+   "WiFi 4 (802.11n)": "up to 150 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 1.75 A current"
   }
  },
  "key_features": [],
  "model": "AiMesh AX6100 WiFi System (RT-AX92U 2 Pack)",
- "fetched": "2026-11-11T10:51+06:00",
+ "fetched": "2026-11-11T11:19+06:00",
  "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/aimesh-wifi-routers-and-systems/aimesh-ax6100-wifi-system-rt-ax92u-2-pack/techspec/",
  "brand_site": "ASUS"
 }

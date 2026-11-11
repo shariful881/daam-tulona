@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
-   "WiFi Speeds": "AX3000\n5 GHz: 2402 Mbps (802.11ax, HE160)\n2.4 GHz: 574 Mbps (802.11ax)",
    "WiFi Range": "3 Bedroom Houses\n4× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
    "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\nOFDMA\nSimultaneously communicates with multiple Wi-Fi 6 clients",
    "Working Modes": "Router Mode\nAccess Point Mode",
@@ -32,13 +31,22 @@
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
    "Certifications": "FCC, CE",
    "Environment": "Operating Temperature: 0℃~40℃ (32℉ ~104℉)Operating Humidity: 10%~90% non-condensing",
-   "WiFi Reception Sensitivity": "11ax HE20_MCS0:-96dBm, 11ax HE20_MCS11:-66dBm\n11ax HE40_MCS0:-93dBm, 11ax HE40_MCS11:-63dBm\n11ax HE80_MCS0:-91dBm, 11ax HE80_MCS11:-61dBm\n11ax HE160_MCS0:-87dBm, 11ax HE160_MCS11:-58dBm\n2.4GHz:",
    "Dimensions (W×D×H)": "10.2 × 5.3 × 1.5 in\n(261.1 × 134.5 × 41.0 mm)",
    "Package Content": "Wi-Fi Router Archer AX55\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "2402 Mbps (802.11ax, HE160)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "WiFi Reception Sensitivity": {
+   "11ax HE20_MCS0": "-96dBm, 11ax HE20_MCS11:-66dBm",
+   "11ax HE40_MCS0": "-93dBm, 11ax HE40_MCS11:-63dBm",
+   "11ax HE80_MCS0": "-91dBm, 11ax HE80_MCS11:-61dBm",
+   "11ax HE160_MCS0": "-87dBm, 11ax HE160_MCS11:-58dBm\n2.4GHz:"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:41+06:00",
+ "fetched": "2026-11-11T11:09+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax55/",
  "brand_site": "TP-Link"
 }

@@ -2,11 +2,9 @@
  "specs": {
   "Specifications": {
    "Image Sensor": "1/2.7” Progressive Scan CMOS Starlight Sensor",
-   "Lens": "Focal Length: 4.0 mm\nAperture: F1.6\nField of View: 105.3° (Diagonal), 88.0°(Horizontal), 46°(Vertical)",
    "Night Vision": "850 nm IR LED (98 ft / 29.9 m)Starlight Color Night Vision",
    "Lighting": "2× Built-in Spotlights",
    "Interface & Button": "1× Ethernet Port1× RESET Button\n1× MicroSD Card Slot (Up to 512GB)",
-   "Pan/Tilt Range": "Pan Mechanical Range: 340° (360° Pan Coverage)\nTilt Mechanical Range: 90° (135.5° Tilt Coverage)",
    "Maximum Resolution": "3K 5MP (2880 × 1620 px)",
    "Frame Rate": "15/20/25/30 fps (Default 15 fps)",
    "Digital Zoom": "12x",
@@ -41,10 +39,19 @@
    "Dimensions ( W x D x H )": "4.9 × 4.8 × 3.5 in (123.8 × 123 × 90 mm)",
    "Package Content": "Tapo C530WS Camera\nPower Adapter\nMounting Anchors\nMounting Screws\nBracket Screws",
    "Certifications": "CE, FCC, RCM"
+  },
+  "Lens": {
+   "Focal Length": "4.0 mm",
+   "Aperture": "F1.6",
+   "Field of View": "105.3° (Diagonal), 88.0°(Horizontal), 46°(Vertical)"
+  },
+  "Pan/Tilt Range": {
+   "Pan Mechanical Range": "340° (360° Pan Coverage)",
+   "Tilt Mechanical Range": "90° (135.5° Tilt Coverage)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:42+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c530ws/",
  "brand_site": "TP-Link"
 }

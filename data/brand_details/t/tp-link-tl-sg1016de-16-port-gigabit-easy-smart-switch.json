@@ -21,12 +21,17 @@
    "Transmission Method": "Store-And-Forward",
    "Certification": "FCC, CE",
    "Package Content": "TL-SG1016DE\nPower Cord\nInstallation Guide\nResource CD\nRackmount Kit",
-   "System Requirements": "Microsoft® Windows® for Easy Smart Utility",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)\nStorage Temperature: -40℃~70℃ (-40℉~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "System Requirements": "Microsoft® Windows® for Easy Smart Utility"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:43+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg1016de/",
  "brand_site": "TP-Link"
 }

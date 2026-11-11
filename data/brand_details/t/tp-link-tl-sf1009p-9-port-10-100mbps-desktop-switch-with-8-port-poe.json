@@ -1,12 +1,14 @@
 {
  "specs": {
+  "Network Media": {
+   "• 10BASE-T": "UTP category 3, 4, 5 cable (maximum 100m)• EIA/TIA-568 100Ω STP (maximum 100m)",
+   "• 100BASE-TX": "UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)"
+  },
   "Specifications": {
-   "Network Media": "• 10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)• EIA/TIA-568 100Ω STP (maximum 100m)\n• 100BASE-TX: UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)",
    "Fan Quantity": "Fanless",
    "Physical Security Lock": "Yes",
    "External Power Supply": "External Power Adapter (Output: 53.5VDC / 1.3A)",
    "Packet Forwarding Rate": "1.3392 Mpps",
-   "PoE Ports (RJ45)": "• Standard: 802.3 af/at compliant\n• PoE Ports: Ports 1–8\n• Power Supply: 65 W",
    "Mac Address Table": "2K",
    "Jumbo Frame": "2 KB",
    "Switching Capacity": "1.8 Gbps",
@@ -16,12 +18,22 @@
    "Advanced Features": "• Mac Address Auto-Learning and Auto-Aging\n• IEEE802.3x Flow Control For Full-Duplex Mode And Backpressure for Half-Duplex Mode",
    "Transmission Method": "Store-And-Forward",
    "Certification": "FCC, CE",
-   "Package Content": "• TL-SF1009P\n• Power Adapter\n• Installation Guide",
-   "Environment": "• Operating Temperature: 0–40 ℃ (32–104 ℉)\n• Storage Temperature: -40–70 ℃ (-40–158 ℉)\n• Operating Humidity: 10–90% RH non-condensing\n• Storage Humidity: 5–90% RH non-condensing"
+   "Package Content": "• TL-SF1009P\n• Power Adapter\n• Installation Guide"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3 af/at compliant",
+   "• PoE Ports": "Ports 1–8",
+   "• Power Supply": "65 W"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–40 ℃ (32–104 ℉)",
+   "• Storage Temperature": "-40–70 ℃ (-40–158 ℉)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:43+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sf1009p/",
  "brand_site": "TP-Link"
 }

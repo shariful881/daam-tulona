@@ -30,11 +30,18 @@
   },
   "Audio and Video": {
    "Access Channel": "16 channels",
-   "Network Bandwidth": "AI disabled: 384 Mbps incoming, 384 Mbps recording and 384 Mbps outgoing\nAI enabled: 200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing",
    "Resolution": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF",
+   "Decoding Capability": "AI enabled: 1-channel 32 MP@25 fps; 1-channel 24 MP@25 fps; 2-channel 16 MP@30 fps; 4-channel 12 MP@30 fps; 6-channel 8 MP@30 fps; 8-channel 6 MP@30 fps; 8-channel 5 MP@30 fps; 12-channel 4 MP@30 fps",
    "Video Output": "1 VGA, 1 HDMI\nVGA: 1920 × 1080, 1280 × 1024, 1280 × 720\nHDMI: 7680 × 4320, 3840 × 2160, 1920 × 1080, 1280 × 1024, 1280 × 720\nHeterogeneous video source output for HDMI and VGA",
-   "Multi-screen Display": "Main screen: 1/4/8/9/16\nSub screen: 1/4/8/9/16",
    "Third-party Camera Access": "ONVIF; Panasonic; Sony; Axis; Arecont; Pelco; Canon; Hanwha"
+  },
+  "Audio and Video › Network Bandwidth": {
+   "AI disabled": "384 Mbps incoming, 384 Mbps recording and 384 Mbps outgoing",
+   "AI enabled": "200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing"
+  },
+  "Audio and Video › Multi-screen Display": {
+   "Main screen": "1/4/8/9/16",
+   "Sub screen": "1/4/8/9/16"
   },
   "Compression Standard": {
    "Video Compression": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG",
@@ -74,12 +81,16 @@
    "Packaging Dimensions": "433.0 mm × 141.0 mm × 366.0 mm (17.04\" × 5.55\" × 14.41\") (W × D × H)",
    "Operating Temperature": "–10 °C to +55 °C (+14 °F to +131 °F)",
    "Storage Temperature": "–20 °C to +60 °C (–4 °F to +140 °F)",
-   "Operating Humidity": "10%–93% (RH), non-condensing",
-   "Certifications": "FCC: 47 CFR FCC Part15, SubpartB, Class A\nCE-LVD: EN 62368-1:2014"
+   "Operating Humidity": "10%–93% (RH), non-condensing"
+  },
+  "General › Certifications": {
+   "FCC": "47 CFR FCC Part15, SubpartB, Class A",
+   "CE-EMC": "EN 55032:2015+A1:2020; EN IEC 61000-3-2:2019+A1:2021; EN 61000-3-3:2013+A1:2019+A2:2021; EN 55035:2017+A11:2020; EN 50130-4:2011+A1:2014",
+   "CE-LVD": "EN 62368-1:2014"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:54+06:00",
+ "fetched": "2026-11-11T11:19+06:00",
  "source": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei-series/nvr5216-ei",
  "brand_site": "Dahua"
 }

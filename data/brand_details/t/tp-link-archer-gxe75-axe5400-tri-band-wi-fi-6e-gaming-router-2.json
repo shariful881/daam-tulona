@@ -1,7 +1,11 @@
 {
  "specs": {
+  "WiFi Speeds": {
+   "• 6 GHz": "2402 Mbps (802.11ax)",
+   "• 5 GHz": "2402 Mbps (802.11ax)",
+   "• 2.4 GHz": "574 Mbps (802.11ax)"
+  },
   "Specifications": {
-   "WiFi Speeds": "AXE5400\n• 6 GHz: 2402 Mbps (802.11ax)\n• 5 GHz: 2402 Mbps (802.11ax)\n• 2.4 GHz: 574 Mbps (802.11ax)",
    "Working Modes": "• Router Mode\n• Access Point Mode",
    "Advanced Features": "• 4K-QAM\n• EasyMesh-Compatible\n• Works with Alexa and Google Assistant\n• IoT Network",
    "Network Security": "• SPI Firewall\n• Access Control\n• IP & MAC Binding\n• Application Layer Gateway\n•",
@@ -26,7 +30,7 @@
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:38+06:00",
+ "fetched": "2026-11-11T11:06+06:00",
  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-gxe75/",
  "brand_site": "TP-Link"
 }

@@ -10,12 +10,17 @@
    "Advanced Features": "Green Technology\n802.3X Flow Control, Back Pressure",
    "Transmission Method": "Store and Forward",
    "Certification": "FCC",
-   "Package Content": "5-Port 10/100Mbps Desktop Switch\nPower Adapter\nInstallation Guide",
-   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉);\nStorage Temperature: -40℃~60℃ (-40℉~140℉);\nOperating Humidity: 10%~90% non-condensing;\nStorage Humidity: 5%~90% non-condensing"
+   "Package Content": "5-Port 10/100Mbps Desktop Switch\nPower Adapter\nInstallation Guide"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉);",
+   "Storage Temperature": "-40℃~60℃ (-40℉~140℉);",
+   "Operating Humidity": "10%~90% non-condensing;",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:39+06:00",
+ "fetched": "2026-11-11T11:07+06:00",
  "source": "https://www.tp-link.com/us/home-networking/5-port-switch/tl-sf1005d/",
  "brand_site": "TP-Link"
 }

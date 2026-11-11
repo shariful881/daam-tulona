@@ -12,18 +12,28 @@
    "Wireless Standards": "IEEE 802.11a/n/ac 5GHz, IEEE 802.11b/g/n 2.4GHz",
    "Frequency": "2.4GHz & 5GHz",
    "Signal Rate": "300Mbps at 2.4GHz, 433Mbps at 5GHz",
-   "Reception Sensitivity": "5G:\n390M: -60dBm\n29.3M: -83dBm\n180M: -64dBm\n13.5M: -87dBm",
    "Wireless Functions": "Enable/Disable Wireless Radio\nDFS (the latest firmware and hardware version is required)\nAccess Control\nLED Control\nPower Schedule",
    "Wireless Security": "64/128/152-bit WEP\nWPA-PSK / WPA2-PSK",
    "Transmission Power": "< 20 dBm (EIRP)",
    "Mesh Technology": "OneMesh",
    "Certification": "CE, FCC",
-   "Package Content": "AC750 Wi-Fi Range Extender RE200\nQuick Installation Guide",
-   "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)\nStorage Temperature: -40°C~70°C (-40°F~158°F)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "Package Content": "AC750 Wi-Fi Range Extender RE200\nQuick Installation Guide"
+  },
+  "Reception Sensitivity": {
+   "390M": "-60dBm",
+   "29.3M": "-83dBm",
+   "180M": "-64dBm",
+   "13.5M": "-87dBm"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:42+06:00",
+ "fetched": "2026-11-11T11:10+06:00",
  "source": "https://www.tp-link.com/us/home-networking/range-extender/re200/",
  "brand_site": "TP-Link"
 }

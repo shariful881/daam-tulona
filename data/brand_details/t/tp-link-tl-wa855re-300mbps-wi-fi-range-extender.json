@@ -11,20 +11,35 @@
    "Antenna": "2 x external",
    "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
    "Frequency": "2.4~2.4835GHz",
-   "Signal Rate": "11n: Up to 300Mbps (dynamic)\n11g: Up to 54Mbps (dynamic)\n11b: Up to 11Mbps (dynamic)",
-   "Reception Sensitivity": "270M: <-68dBm@10% PER\n130M: <-68dBm@10% PER\n108M: <-68dBm@10% PER\n54M: <-68dBm@10% PER\n11M: <-68dBm@8% PER",
    "Wireless Modes": "Range Extender/Access Point",
    "Wireless Functions": "Wireless MAC Address Filtering\nDomain Login Function\nTransmit Power Control",
    "Wireless Security": "64/128/152-bit WEP\nWPA-PSK / WPA2-PSK",
    "Transmission Power": "< 20 dBm (EIRP)",
    "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDHCP Server\nIP address assignment (DHCP)",
    "Certification": "FCC",
-   "Package Content": "300Mbps Wi-Fi Range Extender TL-WA855REQuick Installation Guide",
-   "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)\nStorage Temperature: -40°C~70°C (-40°F~158°F)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "Package Content": "300Mbps Wi-Fi Range Extender TL-WA855REQuick Installation Guide"
+  },
+  "Signal Rate": {
+   "11n": "Up to 300Mbps (dynamic)",
+   "11g": "Up to 54Mbps (dynamic)",
+   "11b": "Up to 11Mbps (dynamic)"
+  },
+  "Reception Sensitivity": {
+   "270M": "<-68dBm@10% PER",
+   "130M": "<-68dBm@10% PER",
+   "108M": "<-68dBm@10% PER",
+   "54M": "<-68dBm@10% PER",
+   "11M": "<-68dBm@8% PER"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:40+06:00",
+ "fetched": "2026-11-11T11:08+06:00",
  "source": "https://www.tp-link.com/us/home-networking/range-extender/tl-wa855re/",
  "brand_site": "TP-Link"
 }

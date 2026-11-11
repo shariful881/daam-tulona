@@ -4,7 +4,6 @@
    "Model": "RT-AC68U",
    "Network Standard": "IPv6\nIPv4\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g",
    "Product Segment": "AC1900 ultimate AC performance : 600+1300 Mbps",
-   "WiFi Data Rate": "WiFi 5 (802.11ac) : up to 1300 Mbps\nWiFi 4 (802.11n) TurboQAM : up to 600 Mbps\nWiFi 4 (802.11n) : up to 450 Mbps\n802.11g : up to 54 Mbps\n802.11b : up to 11 Mbps",
    "Antenna": "External antenna x 3",
    "Transmit / Receive": "5GHz 3x3\n2.4GHz 3x3\nMIMO technology",
    "Memory": "128 MB Flash, 256 MB RAM",
@@ -13,24 +12,30 @@
    "I/O Ports": "USB 2.0 x 1\nUSB 3.0 x 1",
    "Buttons": "WPS Button, Reset Button, Power Button, WiFi on/off Button",
    "LED Indicator": "Power x 1\nWiFi x 2\nLAN x 4",
-   "Power Supply": "AC Input : 110V~240V(50~60Hz)\nDC Output : 12 V with max. 2.5 A current",
    "Package Content": "1 x RT-AC68U Wireless-AC1900 Dual Band Gigabit Router\n1 x RJ-45 cable\n1 x Power adapter\n1 x QSG\n1 x Warranty card",
    "Product Weight (g)": "835 g\n640g",
    "Product Dimensions": "220 x 160 x 83.3\n220 x 160 x 83 ~ mm (WxDxH)",
    "Remark": "RT-AC68U V3 do not support Facebook WiFi function",
    "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
-   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Guest Network": "\"The Guest Network provides Internet connection for guests but restricts access to your local network.\", • Maximum Guest Network Rule : 6\n2.4GHz x3, 5GHz x3, Guest Network Connection Time Limit, Guest Network Encryption : Open system, WPA/WPA2-Personal",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 5 (802.11ac)": "up to 1300 Mbps",
+   "WiFi 4 (802.11n) TurboQAM": "up to 600 Mbps",
+   "WiFi 4 (802.11n)": "up to 450 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 2.5 A current"
   }
  },
  "key_features": [],
  "model": "RT-AC68U",
- "fetched": "2026-11-11T10:54+06:00",
+ "fetched": "2026-11-11T11:21+06:00",
  "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rtac68u/techspec/",
  "brand_site": "ASUS"
 }

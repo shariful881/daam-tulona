@@ -2,7 +2,6 @@
  "specs": {
   "Specifications": {
    "Image Sensor": "1/3” Progressive Scan CMOS Sensor",
-   "Lens": "Focal Length: 1.18 mm\nAperture: F1.8\nField of View: 160° (Diagonal),135° (Horizontal), 109° (Vertical)",
    "Night Vision": "850 nm IR LED (25 ft / 7.6 m)\nFull-Color Night Vision",
    "Lighting": "Built-in Spotlights",
    "Interface & Button": "1× RESET Button\n1× Doorbell Button\n1× Anti-Theft Button",
@@ -16,14 +15,12 @@
    "Audio Communication": "Two-Way Audio with Noise Cancellation",
    "Local Storage": "MicroSD Card Slot on Camera  (Up to 512 GB)",
    "Cloud Storage": "Tapo Care Cloud Storage Services (Subscription required)",
-   "Sensor": "Single PIR Motion Sensor\nMotion Detection Range: 25 ft",
    "AI Detection": "Person Detection",
    "Activity Zones": "Yes",
    "Output Notification": "System Notification\nSystem Notification with Snapshot (Tapo Care Services)",
    "Network Connectivity": "Connect via Wi-Fi",
    "Wireless Connectivity": "IEEE 802.11b/g/n, 2.4 GHz Wi-Fi",
    "Security": "On-Device Machine Learning\n128-bit AES Encryption with SSL/TLS\nWPA/WPA2-PSK",
-   "Power Source": "5200 mAh Built-in Rechargeable Lithium-ion Battery\nOptional Solar Panel: Tapo A201 (Sold separately)",
    "Input Voltage": "Doorbell Battery Pack Adapter Input: 100-240 V, 50/60 Hz",
    "Output Voltage": "Doorbell Battery Pack Adapter Output: 5.0 V, 1.0 A",
    "Smart Integration": "Google Assistant, Amazon Alexa",
@@ -34,13 +31,31 @@
    "Storage Temperature": "-40°F ~ 140°F",
    "Operating Humidity": "10%~90% RH, Non-condensing",
    "Storage Humidity": "0~90% RH, Non-condensing",
-   "Dimensions ( W x D x H )": "Doorbell Dimensions: 5.91 × 1.97 × 1.52 in (150 × 50 × 38.4 mm)\nChime Dimensions:\nUS/JP Version: 2.87×1.85×1.71 in (73×46.9×43.5 mm)\nEU Version: 2.87 × 2.15 × 1.89 in (73×54.6×48 mm)\nUK Version: 2.87×2.45×1.71 in (73×62.3×43.5 mm)",
    "Package Content": "Tapo D210 Video Doorbell × 1\nTapo Doorbell Chime  × 1\nMounting Bracket  × 1\nHorizontal Mounting Wedge  × 1\nMounting Template × 1",
    "Certifications": "CE, RCM, R-NZ, FCC, EAC, Triman, UKCA"
+  },
+  "Lens": {
+   "Focal Length": "1.18 mm",
+   "Aperture": "F1.8",
+   "Field of View": "160° (Diagonal),135° (Horizontal), 109° (Vertical)"
+  },
+  "Sensor": {
+   "Motion Detection Range": "25 ft"
+  },
+  "Power Source": {
+   "Optional Solar Panel": "Tapo A201 (Sold separately)"
+  },
+  "Dimensions ( W x D x H )": {
+   "Doorbell Dimensions": "5.91 × 1.97 × 1.52 in (150 × 50 × 38.4 mm)\nChime Dimensions:",
+   "US/JP Version": "2.87×1.85×1.71 in (73×46.9×43.5 mm)",
+   "EU Version": "2.87 × 2.15 × 1.89 in (73×54.6×48 mm)",
+   "UK Version": "2.87×2.45×1.71 in (73×62.3×43.5 mm)",
+   "KR Version": "2.87×2.46×1.71 in (73×62.4×43.5mm)",
+   "AU Version": "2.87×2.01×1.71 in (73×51×43.5 mm)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:43+06:00",
+ "fetched": "2026-11-11T11:11+06:00",
  "source": "https://www.tp-link.com/us/smart-home/smart-doorbell/tapo-d210/",
  "brand_site": "TP-Link"
 }

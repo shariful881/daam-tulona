@@ -13,7 +13,6 @@
    "Human Detection": "Yes",
    "Pet Detection": "Yes",
    "Video Compression": "H.265",
-   "Video Frame Rate": "Main stream: 2880 × 1620@15 fps\nsub stream: 640 × 360@15 fps",
    "Video Bit Rate": "H.265: 768 kbps–4096 kbps",
    "Day/Night": "Auto(ICR)/Color/B/W",
    "Motion Detection": "Yes",
@@ -30,16 +29,23 @@
    "Privacy Mode": "Yes",
    "Certifications": "CE",
    "Power Supply": "5 VDC",
-   "Power Consumption": "Basic: 2.5 W;\nMax.: 5.4 W (pulling stream+ IR + PT rotation)",
    "Operating Temperature": "–10 °C to +45 °C (–4 °F to +113 °F)",
    "Operating Humidity": "≤95% (RH), non-condensing",
    "Casing Material": "Plastic",
    "Product Dimensions": "Φ80.9 mm × 125.7mm (3.19\" × Φ4.95\")",
    "Net Weight": "233 g (0.51 lb)"
+  },
+  "Video Frame Rate": {
+   "Main stream": "2880 × 1620@15 fps",
+   "sub stream": "640 × 360@15 fps\n*The values above are the max. frame rates of each stream; for multiple streams, the values will be subjected to the total encoding capacity."
+  },
+  "Power Consumption": {
+   "Basic": "2.5 W;",
+   "Max.": "5.4 W (pulling stream+ IR + PT rotation)"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:51+06:00",
+ "fetched": "2026-11-11T11:16+06:00",
  "source": "https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/h5d-5f",
  "brand_site": "Dahua"
 }

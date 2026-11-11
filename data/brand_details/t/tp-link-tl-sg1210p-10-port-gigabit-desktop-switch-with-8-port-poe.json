@@ -7,7 +7,6 @@
    "Physical Security Lock": "Yes",
    "Power Supply": "External Power Adapter(Output: 53.5VDC / 1.31A)",
    "Packet Forwarding Rate": "14.88 Mpps",
-   "PoE Ports (RJ45)": "Standard: 802.3at/802.3af compliant\nPoE Ports: Port1- Port 8\nPoE Power Budget: 63W",
    "Mac Address Table": "4K",
    "Jumbo Frame": "16 KB",
    "Switching Capacity": "20 Gbps",
@@ -17,12 +16,22 @@
    "Advanced Features": "Compatible With IEEE 802.3af/at Compliant PDs\nEEE802.3x Flow Control\n802.1p/DSCP QoS\nIGMP Snooping\nExtend Mode Button (Ports 1–4, Up to 250 m PoE power supply and data transmission)",
    "Transmission Method": "Store-And-Forward",
    "Certification": "CE, FCC",
-   "Package Content": "TL-SG1210P, Power Adapter, Installation Guide",
-   "Environment": "Operating Temperature: 0°C~40°C (32°F~104°F)\nStorage Temperature: -40°C~70°C (-40°F~158°F)\nOperating Humidity: 10% ~ 90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+   "Package Content": "TL-SG1210P, Power Adapter, Installation Guide"
+  },
+  "PoE Ports (RJ45)": {
+   "Standard": "802.3at/802.3af compliant",
+   "PoE Ports": "Port1- Port 8",
+   "PoE Power Budget": "63W"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10% ~ 90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
   }
  },
  "key_features": [],
- "fetched": "2026-11-11T10:43+06:00",
+ "fetched": "2026-11-11T11:12+06:00",
  "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sg1210p/",
  "brand_site": "TP-Link"
 }

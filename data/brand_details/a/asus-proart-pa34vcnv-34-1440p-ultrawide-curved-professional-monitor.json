@@ -2,28 +2,64 @@
  "specs": {
   "Specification": {
    "Model": "ProArt Display PA34VCNV",
-   "Display": "Panel Size (inch) : 34.1\nAspect Ratio : 21:9\nDisplay Viewing Area (H x V) : 799.8 x 334.8 mm\nDisplay Surface : Anti-Glare\nBacklight Type : LED",
-   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRec.709",
+   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRec.709\nDICOM\nDCI-P3\nsRGB\nNative\nColor Adjustment : RGB Tuning (Gain / Offset)\nGamma Adjustment : Yes (Support Gamma 1.8/2.0/2.2/2.4/2.6)\nColor Accuracy : △E< 2\nProArt Palette : Yes\nQuickFit Plus : Yes\nPIP / PBP Technology : Yes\nHDCP : Yes, 2.2\nVRR Technology : Yes (Adaptive-Sync)\nLow Blue Light : Yes (Hardware Solution)",
    "Audio": "Speaker : Yes(2Wx2)",
    "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.4 x 2 (Daisy Chain)\nHDMI(v2.0) x 2\nUSB Hub : 1x USB 3.2 Gen 1 Type-C\n2x USB 3.2 Gen 1 Type-A",
-   "Signal Frequency": "Digital Signal Frequency : HDMI: 15~135 KHz (H) / 48~60 Hz (V)\nUSB-C, DisplayPort: 135~135 KHz (H) / 48~60 Hz (V)",
-   "Power Consumption": "Power Consumption : 26.9 W\nPower Saving Mode : <0.5 W\nPower Off Mode : 0W (hard switch)\nVoltage : 100-240V, 50/60Hz",
-   "Mechanical Design": "Tilt : Yes (+23° ~ -5°)\nSwivel : Yes (+15° ~ -15°)\nHeight Adjustment : 0~130mm\nVESA Wall Mounting : 100x100mm\nKensington Lock : Yes",
-   "Dimensions (Esti.)(vary by regions)": "Phys. Dimension (W x H x D) : 81.72 x 56.92 x 24.00 cm (32.17\" x 22.41\" x 9.45\")\nBox Dimension (W x H x D) : 108.00 x 19.00 x 52.00 cm (42.52\" x 7.48\" x 20.47\")",
-   "Weight (Esti.)(vary by regions)": "Net Weight : 10.8 kg (23.81 lbs)\nNet Weight without Stand : 7.8 kg (17.20 lbs)\nGross Weight : 16.3 kg (35.94 lbs)",
    "Accessories (varies by region)": "Welcome Card\nWarranty Card\nUSB-C cable\nQuick start guide\nPower cord",
-   "Certificate": "Mac Compliance\nCalman Verified\nTÜV Low Blue Light (Hardware Solution)\nTÜV Flicker-free\nTCO Certified",
-   "Laptops": "For Home",
-   "Handhelds": "Gaming Handhelds",
-   "Displays / Desktops": "Monitors",
-   "Motherboards / Components": "Motherboards",
-   "Networking / IoT / Servers": "Routers",
-   "Accessories": "Keyboards"
+   "Certificate": "Mac Compliance\nCalman Verified\nTÜV Low Blue Light (Hardware Solution)\nTÜV Flicker-free\nTCO Certified"
+  },
+  "Display": {
+   "Panel Size (inch)": "34.1",
+   "Aspect Ratio": "21:9",
+   "Display Viewing Area (H x V)": "799.8 x 334.8 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Curvature": "3800R",
+   "Pixel Pitch": "0.2325mm",
+   "Resolution": "3440x1440",
+   "Color Space (sRGB)": "100%",
+   "Brightness (Typ.)": "300cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes",
+   "LCD ZBD Warranty": "Yes(3 yr)"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 15~135 KHz (H) / 48~60 Hz (V)",
+   "USB-C, DisplayPort": "135~135 KHz (H) / 48~60 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "26.9 W",
+   "Power Saving Mode": "<0.5 W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Swivel": "Yes (+15° ~ -15°)",
+   "Height Adjustment": "0~130mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "81.72 x 56.92 x 24.00 cm (32.17\" x 22.41\" x 9.45\")",
+   "Phys. Dimension without Stand (W x H x D)": "81.72 x 36.97 x 9.17 cm (32.17\" x 14.56\" x 3.61\")",
+   "Box Dimension (W x H x D)": "108.00 x 19.00 x 52.00 cm (42.52\" x 7.48\" x 20.47\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "10.8 kg (23.81 lbs)",
+   "Net Weight without Stand": "7.8 kg (17.20 lbs)",
+   "Gross Weight": "16.3 kg (35.94 lbs)"
   }
  },
  "key_features": [],
  "model": "ProArt Display PA34VCNV",
- "fetched": "2026-11-11T10:44+06:00",
+ "fetched": "2026-11-11T11:10+06:00",
  "source": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa34vcnv/techspec/",
  "brand_site": "ASUS"
 }
