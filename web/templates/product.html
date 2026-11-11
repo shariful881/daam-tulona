@@ -116,12 +116,12 @@
       {% endfor %}
     {% else %}
     <details open><summary>স্পেসিফিকেশন</summary>
-      <dl>
+      {% if not feat_rows %}<dl>
         <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
         {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
         <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
-      </dl>
-      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে মূল ফিচার দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
+      </dl>{% endif %}
+      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে এই ধরনের প্রোডাক্টের দরকারি তথ্যগুলো দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
     </details>
     {% endif %}
     <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>

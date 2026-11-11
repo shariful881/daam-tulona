@@ -1,0 +1,4081 @@
+{
+ "_নোট": "স্বয়ংক্রিয়ভাবে তৈরি (tools/make_spec_schema.py)। প্রোডাক্টের ধরন অনুযায়ী 'এক নজরে' কোন তথ্য দেখাবে।",
+ "profiles": {
+  "laptop": [
+   {
+    "id": "processor",
+    "bn": "প্রসেসর",
+    "k": [
+     "> *processor( model)?$",
+     "> *cpu$",
+     "^processor > *(processor )?(brand|model|generation)"
+    ],
+    "m": 2,
+    "n": "\\b((?:intel )?core\\s?(?:ultra\\s?)?[3579i](?:[\\s-]?\\d{3,5}\\w*)?|ryzen\\s?\\d(?:\\s?(?:pro\\s?)?\\d{3,4}\\w*)?|celeron\\s?\\w*\\d\\w*|pentium\\s?(?:silver|gold)?\\s?\\w*\\d\\w*|apple m\\d(?:\\s?(?:pro|max))?|snapdragon\\s?x?\\s?\\w*)",
+    "f": "{}"
+   },
+   {
+    "id": "ram",
+    "bn": "র‍্যাম",
+    "k": [
+     "> *ram$",
+     "^memory > *(ram|capacity)$",
+     "> *(installed )?memory$",
+     "> *ram (type|capacity)",
+     "^memory > *(type|bus speed)$"
+    ],
+    "m": 2,
+    "x": [
+     "slot",
+     "max"
+    ],
+    "n": "\\b(\\d{1,2}\\s?gb)(?:\\s?(?:ddr\\d\\w*|lpddr\\d\\w*|unified|ram))",
+    "f": "{} RAM"
+   },
+   {
+    "id": "storage",
+    "bn": "স্টোরেজ",
+    "k": [
+     "> *storage$",
+     "^storage > *(storage )?(type|capacity)$",
+     "> *ssd$",
+     "> *hdd$"
+    ],
+    "m": 2,
+    "x": [
+     "slot",
+     "upgrade"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb)\\s?(?:nvme\\s?|m\\.2\\s?|pcie\\s?)*(?:ssd|hdd|emmc))",
+    "f": "{}"
+   },
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "> *display$",
+     "> *screen$",
+     "^display > *(display )?(size|type|resolution)$"
+    ],
+    "m": 3,
+    "x": [
+     "camera",
+     "webcam",
+     "port",
+     "output"
+    ],
+    "n": "(\\d{2,3}(?:\\.\\d)?)\\s?(?:\\\"|”|''|’’|-?inch\\b|ইঞ্চি)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "graphics",
+    "bn": "গ্রাফিক্স",
+    "k": [
+     "> *graphics?( model| card| chipset)?$",
+     "> *gpu$",
+     "^graphics > *(graphics )?memory$"
+    ],
+    "m": 2,
+    "n": "\\b((?:rtx|gtx|rx)\\s?\\d{3,4}\\w*(?:\\s?ti)?)",
+    "f": "{}"
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(usb|type-?c|thunderbolt|hdmi)",
+     "> *ports?$",
+     "> *i/?o ports?"
+    ],
+    "m": 4,
+    "x": [
+     "optical"
+    ]
+   },
+   {
+    "id": "network",
+    "bn": "ওয়াইফাই/ব্লুটুথ",
+    "k": [
+     "> *wi-?fi",
+     "> *wlan",
+     "> *bluetooth"
+    ],
+    "m": 2
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery( capacity| type)?$",
+     "> *battery life"
+    ],
+    "m": 2
+   },
+   {
+    "id": "os",
+    "bn": "অপারেটিং সিস্টেম",
+    "k": [
+     "> *(operating system|os)$"
+    ]
+   },
+   {
+    "id": "keyboard",
+    "bn": "কিবোর্ড",
+    "k": [
+     "> *keyboard( type)?$",
+     "> *backlit"
+    ]
+   },
+   {
+    "id": "weight",
+    "bn": "ওজন",
+    "k": [
+     "> *(net )?weight"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "desktop": [
+   {
+    "id": "processor",
+    "bn": "প্রসেসর",
+    "k": [
+     "> *processor( model)?$",
+     "> *cpu$",
+     "^processor > *(processor )?(brand|model|generation)"
+    ],
+    "m": 2,
+    "n": "\\b((?:intel )?core\\s?(?:ultra\\s?)?[3579i](?:[\\s-]?\\d{3,5}\\w*)?|ryzen\\s?\\d(?:\\s?(?:pro\\s?)?\\d{3,4}\\w*)?|celeron\\s?\\w*\\d\\w*|pentium\\s?(?:silver|gold)?\\s?\\w*\\d\\w*|apple m\\d(?:\\s?(?:pro|max))?|snapdragon\\s?x?\\s?\\w*)",
+    "f": "{}"
+   },
+   {
+    "id": "ram",
+    "bn": "র‍্যাম",
+    "k": [
+     "> *ram$",
+     "^memory > *(ram|capacity)$",
+     "> *(installed )?memory$",
+     "> *ram (type|capacity)",
+     "^memory > *(type|bus speed)$"
+    ],
+    "m": 2,
+    "x": [
+     "slot",
+     "max"
+    ],
+    "n": "\\b(\\d{1,2}\\s?gb)(?:\\s?(?:ddr\\d\\w*|lpddr\\d\\w*|unified|ram))",
+    "f": "{} RAM"
+   },
+   {
+    "id": "storage",
+    "bn": "স্টোরেজ",
+    "k": [
+     "> *storage$",
+     "^storage > *(storage )?(type|capacity)$",
+     "> *ssd$",
+     "> *hdd$"
+    ],
+    "m": 2,
+    "x": [
+     "slot",
+     "upgrade"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb)\\s?(?:nvme\\s?|m\\.2\\s?|pcie\\s?)*(?:ssd|hdd|emmc))",
+    "f": "{}"
+   },
+   {
+    "id": "graphics",
+    "bn": "গ্রাফিক্স",
+    "k": [
+     "> *graphics?( model| card| chipset)?$",
+     "> *gpu$",
+     "^graphics > *(graphics )?memory$"
+    ],
+    "m": 2,
+    "n": "\\b((?:rtx|gtx|rx)\\s?\\d{3,4}\\w*(?:\\s?ti)?)",
+    "f": "{}"
+   },
+   {
+    "id": "motherboard",
+    "bn": "মাদারবোর্ড",
+    "k": [
+     "> *motherboard$",
+     "> *chipset$"
+    ]
+   },
+   {
+    "id": "psu",
+    "bn": "পাওয়ার সাপ্লাই",
+    "k": [
+     "> *(power supply|psu)$"
+    ]
+   },
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "> *display$",
+     "> *screen$",
+     "^display > *(display )?(size|type|resolution)$"
+    ],
+    "m": 3,
+    "x": [
+     "camera",
+     "webcam",
+     "port",
+     "output"
+    ],
+    "n": "(\\d{2,3}(?:\\.\\d)?)\\s?(?:\\\"|”|''|’’|-?inch\\b|ইঞ্চি)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(usb|type-?c|thunderbolt|hdmi)",
+     "> *ports?$",
+     "> *i/?o ports?"
+    ],
+    "m": 4,
+    "x": [
+     "optical"
+    ]
+   },
+   {
+    "id": "network",
+    "bn": "ওয়াইফাই/ব্লুটুথ",
+    "k": [
+     "> *wi-?fi",
+     "> *wlan",
+     "> *bluetooth"
+    ],
+    "m": 2
+   },
+   {
+    "id": "os",
+    "bn": "অপারেটিং সিস্টেম",
+    "k": [
+     "> *(operating system|os)$"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "phone": [
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "^display > *(size|type|resolution)$",
+     "> *display( size| type)?$",
+     "> *screen( size)?$"
+    ],
+    "m": 3,
+    "x": [
+     "camera"
+    ],
+    "n": "(\\d\\.\\d{1,2})\\s?(?:\\\"|inch)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "chipset",
+    "bn": "প্রসেসর/চিপসেট",
+    "k": [
+     "> *chipset$",
+     "> *processor$",
+     "> *cpu$",
+     "^(processor|platform) > *(chipset|cpu)$"
+    ],
+    "n": "\\b(snapdragon\\s?[\\w+ ]{1,12}|dimensity\\s?\\d{3,4}\\w*|helio\\s?\\w\\d{2,3}|exynos\\s?\\d{3,4}|unisoc\\s?\\w+|a1\\d\\s?(?:pro|bionic)?)",
+    "f": "{}"
+   },
+   {
+    "id": "ram",
+    "bn": "র‍্যাম",
+    "k": [
+     "> *ram$",
+     "^memory > *ram"
+    ],
+    "n": "\\b(\\d{1,2})(?:\\s?gb)?\\s?[/+]\\s?\\d{2,4}\\s?(?:gb|tb)|\\b(\\d{1,2})\\s?gb\\s?ram",
+    "f": "{}GB"
+   },
+   {
+    "id": "storage",
+    "bn": "স্টোরেজ",
+    "k": [
+     "> *(internal )?storage$",
+     "> *rom$",
+     "^memory > *(internal|storage)"
+    ],
+    "n": "[/+]\\s?(\\d{2,4}\\s?(?:gb|tb))",
+    "f": "{}"
+   },
+   {
+    "id": "camera",
+    "bn": "পেছনের ক্যামেরা",
+    "k": [
+     "> *(rear|back|main|primary) camera",
+     "> *cameras?$",
+     "^(main|rear|back) camera > *(resolution|camera|triple|dual|quad|single)"
+    ]
+   },
+   {
+    "id": "selfie",
+    "bn": "সামনের ক্যামেরা",
+    "k": [
+     "> *(front|selfie|secondary) camera",
+     "^(selfie|front) camera > *(resolution|camera|single)"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery( capacity| type)?$",
+     "^battery > *(type|capacity)"
+    ],
+    "n": "(\\d{4,5}\\s?mah)",
+    "f": "{}"
+   },
+   {
+    "id": "charging",
+    "bn": "চার্জিং",
+    "k": [
+     "> *(fast )?charging",
+     "^battery > *charging"
+    ]
+   },
+   {
+    "id": "network",
+    "bn": "নেটওয়ার্ক",
+    "k": [
+     "> *network( type| technology)?$",
+     "> *5g",
+     "> *sim( card)?$"
+    ],
+    "m": 2,
+    "n": "\\b(5g|4g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "os",
+    "bn": "অপারেটিং সিস্টেম",
+    "k": [
+     "> *(operating system|os)$"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "feature_phone": [
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "^display > *(size|type|resolution)$",
+     "> *display( size| type)?$",
+     "> *screen( size)?$"
+    ],
+    "m": 3,
+    "x": [
+     "camera"
+    ],
+    "n": "(\\d\\.\\d{1,2})\\s?(?:\\\"|inch)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "sim",
+    "bn": "সিম",
+    "k": [
+     "> *sim"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery( capacity| type)?$",
+     "^battery > *(type|capacity)"
+    ],
+    "n": "(\\d{4,5}\\s?mah)",
+    "f": "{}"
+   },
+   {
+    "id": "camera",
+    "bn": "পেছনের ক্যামেরা",
+    "k": [
+     "> *(rear|back|main|primary) camera",
+     "> *cameras?$",
+     "^(main|rear|back) camera > *(resolution|camera|triple|dual|quad|single)"
+    ]
+   },
+   {
+    "id": "memory",
+    "bn": "মেমরি",
+    "k": [
+     "> *(memory|storage)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "processor": [
+   {
+    "id": "socket",
+    "bn": "সকেট",
+    "k": [
+     "> *(cpu )?socket",
+     "^supported sockets"
+    ]
+   },
+   {
+    "id": "cores",
+    "bn": "কোর / থ্রেড",
+    "k": [
+     "> *(no\\.? of |total )?cores?( count)?$",
+     "> *threads?$",
+     "> *core\\s?/\\s?thread"
+    ],
+    "m": 2
+   },
+   {
+    "id": "base",
+    "bn": "বেস ক্লক",
+    "k": [
+     "> *base (clock|frequency|speed)",
+     "> *(clock )?speed$",
+     "> *processor base"
+    ]
+   },
+   {
+    "id": "boost",
+    "bn": "সর্বোচ্চ ক্লক",
+    "k": [
+     "> *(max(imum)?|boost|turbo).*(clock|frequency|speed)"
+    ]
+   },
+   {
+    "id": "cache",
+    "bn": "ক্যাশ",
+    "k": [
+     "> *(total )?(l3 |smart )?cache",
+     "> *l2 cache"
+    ]
+   },
+   {
+    "id": "tdp",
+    "bn": "TDP (বিদ্যুৎ)",
+    "k": [
+     "> *(default |max )?tdp",
+     "> *thermal design"
+    ]
+   },
+   {
+    "id": "igpu",
+    "bn": "বিল্ট-ইন গ্রাফিক্স",
+    "k": [
+     "> *(processor |integrated )?graphics"
+    ]
+   },
+   {
+    "id": "memory",
+    "bn": "র‍্যাম সাপোর্ট",
+    "k": [
+     "> *memory (type|speed|support)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "cooler",
+    "bn": "কুলার সাথে",
+    "k": [
+     "> *cpu cooler"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "motherboard": [
+   {
+    "id": "socket",
+    "bn": "সকেট",
+    "k": [
+     "> *(cpu )?socket",
+     "> *supported cpu"
+    ],
+    "n": "\\b(lga\\s?\\d{4}|am[45])\\b",
+    "f": "{}"
+   },
+   {
+    "id": "chipset",
+    "bn": "চিপসেট",
+    "k": [
+     "> *chipset$"
+    ],
+    "n": "\\b([abhxzq]\\d{3}\\w?)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "form",
+    "bn": "সাইজ (ফর্ম ফ্যাক্টর)",
+    "k": [
+     "> *form factor",
+     "> *size$"
+    ],
+    "n": "\\b(micro[\\s-]?atx|m-?atx|mini[\\s-]?itx|e-?atx|atx)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "memory",
+    "bn": "র‍্যাম সাপোর্ট",
+    "k": [
+     "> *memory( type| slots?| support)?$",
+     "> *(max|maximum) memory",
+     "> *dimm"
+    ],
+    "m": 2,
+    "n": "\\b(ddr\\d)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "m2",
+    "bn": "M.2 স্লট",
+    "k": [
+     "> *m\\.?2"
+    ],
+    "m": 2
+   },
+   {
+    "id": "pcie",
+    "bn": "PCIe স্লট",
+    "k": [
+     "> *(pci-?e|expansion slots?)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "network",
+    "bn": "ল্যান / ওয়াইফাই",
+    "k": [
+     "> *(lan|ethernet|wi-?fi|wireless)"
+    ],
+    "m": 2,
+    "n": "\\b(wifi\\s?\\d\\w*|wi-fi)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "ports",
+    "bn": "পেছনের পোর্ট",
+    "k": [
+     "> *(rear|back) (panel|i/?o)",
+     "> *usb"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "gpu": [
+   {
+    "id": "gpu",
+    "bn": "জিপিইউ",
+    "k": [
+     "> *(graphics engine|chipset|gpu)$"
+    ],
+    "n": "\\b((?:rtx|gtx|rx|arc)\\s?[a-z]?\\d{3,4}\\w*(?:\\s?(?:ti|super|xt|xtx))?)",
+    "f": "{}"
+   },
+   {
+    "id": "vram",
+    "bn": "ভিডিও মেমরি",
+    "k": [
+     "> *video memory$",
+     "> *memory (size|type)$",
+     "^video memory specifications > *(size|type)",
+     "> *(size|type)$"
+    ],
+    "m": 2,
+    "x": [
+     "bus",
+     "display"
+    ],
+    "n": "\\b(\\d{1,2}\\s?gb)(?:\\s?g?ddr\\d\\w*)?",
+    "f": "{}"
+   },
+   {
+    "id": "bus",
+    "bn": "মেমরি বাস",
+    "k": [
+     "> *memory (interface|bus)"
+    ]
+   },
+   {
+    "id": "clock",
+    "bn": "ক্লক স্পিড",
+    "k": [
+     "> *(core|engine|boost|base|gpu) clock"
+    ],
+    "m": 2
+   },
+   {
+    "id": "cores",
+    "bn": "CUDA / স্ট্রিম কোর",
+    "k": [
+     "> *(cuda cores|stream processors?)"
+    ]
+   },
+   {
+    "id": "ports",
+    "bn": "ডিসপ্লে পোর্ট",
+    "k": [
+     "> *(hdmi|display ?port|dvi|d-sub)"
+    ],
+    "m": 3
+   },
+   {
+    "id": "psu",
+    "bn": "সুপারিশকৃত PSU",
+    "k": [
+     "> *recommended (psu|power)",
+     "> *(power )?consumption"
+    ]
+   },
+   {
+    "id": "connector",
+    "bn": "পাওয়ার কানেক্টর",
+    "k": [
+     "> *(power )?connectors?$"
+    ]
+   },
+   {
+    "id": "size",
+    "bn": "দৈর্ঘ্য / আকার",
+    "k": [
+     "> *(dimensions?|card length)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "ram": [
+   {
+    "id": "capacity",
+    "bn": "ক্যাপাসিটি",
+    "k": [
+     "> *(memory )?capacity$"
+    ],
+    "n": "\\b(\\d{1,3}\\s?gb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "type",
+    "bn": "টাইপ",
+    "k": [
+     "> *(memory )?type$"
+    ],
+    "n": "\\b(l?pddr\\d\\w?|ddr\\d\\w?)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "speed",
+    "bn": "স্পিড (বাস)",
+    "k": [
+     "> *(memory )?(frequency|speed|bus)"
+    ],
+    "n": "\\b(\\d{4})\\s?(?:mhz|bus|mt/s)?\\b",
+    "f": "{}MHz"
+   },
+   {
+    "id": "latency",
+    "bn": "ল্যাটেন্সি",
+    "k": [
+     "> *(cas )?latency",
+     "> *voltage & cas"
+    ]
+   },
+   {
+    "id": "voltage",
+    "bn": "ভোল্টেজ",
+    "k": [
+     "> *(operating )?voltage$"
+    ]
+   },
+   {
+    "id": "form",
+    "bn": "ফর্ম",
+    "k": [
+     "> *form factor",
+     "> *pin$"
+    ],
+    "m": 2
+   },
+   {
+    "id": "heatsink",
+    "bn": "হিটসিংক / RGB",
+    "k": [
+     "> *heat ?sink",
+     "> *(rgb|lighting)"
+    ],
+    "m": 2,
+    "n": "\\b(rgb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "ssd": [
+   {
+    "id": "capacity",
+    "bn": "ক্যাপাসিটি",
+    "k": [
+     "> *(storage |memory )?capacity$",
+     "> *storage$"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb))\\b",
+    "f": "{}"
+   },
+   {
+    "id": "interface",
+    "bn": "ইন্টারফেস",
+    "k": [
+     "> *interface( type)?$"
+    ],
+    "n": "\\b(pcie\\s?(?:gen\\s?)?\\d(?:\\.\\d)?(?:\\s?x\\d)?|nvme|sata\\s?(?:iii|3)?|usb\\s?\\d(?:\\.\\d)?\\w*)",
+    "f": "{}"
+   },
+   {
+    "id": "form",
+    "bn": "ফর্ম ফ্যাক্টর",
+    "k": [
+     "> *fr?om factor"
+    ],
+    "n": "\\b(m\\.2\\s?\\d{4}|m\\.2|2\\.5\\\")",
+    "f": "{}"
+   },
+   {
+    "id": "read",
+    "bn": "রিড স্পিড",
+    "k": [
+     "> *(sequential |seq\\.? )?read( speed)?$",
+     "> *sequential r/w",
+     "> *seq\\.? read/ ?write"
+    ]
+   },
+   {
+    "id": "write",
+    "bn": "রাইট স্পিড",
+    "k": [
+     "> *(sequential |seq\\.? )?write( speed)?$"
+    ]
+   },
+   {
+    "id": "flash",
+    "bn": "ফ্ল্যাশ টাইপ",
+    "k": [
+     "> *(flash|nand)( type)?$"
+    ]
+   },
+   {
+    "id": "endurance",
+    "bn": "টেকসইতা (TBW/MTBF)",
+    "k": [
+     "> *(tbw|mtbf|endurance)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "transfer",
+    "bn": "ট্রান্সফার স্পিড",
+    "k": [
+     "> *(transfer|data transfer) (rate|speed)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "hdd": [
+   {
+    "id": "capacity",
+    "bn": "ক্যাপাসিটি",
+    "k": [
+     "> *(storage |memory )?capacity$",
+     "> *storage$"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb))\\b",
+    "f": "{}"
+   },
+   {
+    "id": "interface",
+    "bn": "ইন্টারফেস",
+    "k": [
+     "> *interface( type)?$"
+    ],
+    "n": "\\b(sata\\s?(?:iii|3)?|usb\\s?\\d(?:\\.\\d)?\\w*|type-?c)",
+    "f": "{}"
+   },
+   {
+    "id": "rpm",
+    "bn": "RPM",
+    "k": [
+     "> *(rpm|rotational speed|spindle)"
+    ],
+    "n": "\\b(\\d{4})\\s?rpm",
+    "f": "{} RPM"
+   },
+   {
+    "id": "cache",
+    "bn": "ক্যাশ",
+    "k": [
+     "> *(cache|buffer)"
+    ],
+    "n": "\\b(\\d{2,3}\\s?mb)\\s?cache",
+    "f": "{}"
+   },
+   {
+    "id": "form",
+    "bn": "সাইজ",
+    "k": [
+     "> *form factor"
+    ],
+    "n": "(3\\.5|2\\.5)\\s?(?:\\\"|inch)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "transfer",
+    "bn": "ট্রান্সফার স্পিড",
+    "k": [
+     "> *(transfer|data transfer) (rate|speed)",
+     "> *read"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "psu": [
+   {
+    "id": "watt",
+    "bn": "ক্ষমতা (ওয়াট)",
+    "k": [
+     "> *(total |continuous |rated )?(power|output capacity|wattage)$",
+     "> *total output"
+    ],
+    "n": "\\b(\\d{3,4})\\s?w(?:att)?\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "cert",
+    "bn": "এফিসিয়েন্সি সার্টিফিকেশন",
+    "k": [
+     "> *certifications?$",
+     "> *80 ?plus"
+    ],
+    "n": "(80\\s?\\+?\\s?(?:plus)?\\s?(?:bronze|silver|gold|platinum|titanium|white))",
+    "f": "{}"
+   },
+   {
+    "id": "modular",
+    "bn": "মডুলার",
+    "k": [
+     "> *modular"
+    ],
+    "n": "\\b((?:fully|semi|full)[\\s-]?modular|non[\\s-]?modular)",
+    "f": "{}"
+   },
+   {
+    "id": "fan",
+    "bn": "ফ্যান সাইজ",
+    "k": [
+     "> *fan size"
+    ]
+   },
+   {
+    "id": "pcie",
+    "bn": "PCIe কানেক্টর",
+    "k": [
+     "> *pci-?e"
+    ]
+   },
+   {
+    "id": "protection",
+    "bn": "সুরক্ষা",
+    "k": [
+     "> *protections?"
+    ]
+   },
+   {
+    "id": "form",
+    "bn": "ফর্ম ফ্যাক্টর",
+    "k": [
+     "> *form factor",
+     "> *type$"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "casing": [
+   {
+    "id": "type",
+    "bn": "কেসিং ধরন",
+    "k": [
+     "> *(case |chassis )?type$",
+     "> *form factor$"
+    ],
+    "n": "\\b(mid[\\s-]?tower|full[\\s-]?tower|mini[\\s-]?tower|micro[\\s-]?atx|mini[\\s-]?itx)",
+    "f": "{}"
+   },
+   {
+    "id": "mb",
+    "bn": "মাদারবোর্ড সাপোর্ট",
+    "k": [
+     "> *(motherboard|mainboard) support"
+    ]
+   },
+   {
+    "id": "fans",
+    "bn": "আগে থেকে লাগানো ফ্যান",
+    "k": [
+     "> *pre-? ?install(ed)? fans?"
+    ]
+   },
+   {
+    "id": "fan_support",
+    "bn": "ফ্যান সাপোর্ট",
+    "k": [
+     "> *fans? support"
+    ]
+   },
+   {
+    "id": "radiator",
+    "bn": "রেডিয়েটর সাপোর্ট",
+    "k": [
+     "> *radiator"
+    ]
+   },
+   {
+    "id": "gpu_len",
+    "bn": "সর্বোচ্চ গ্রাফিক্স কার্ড",
+    "k": [
+     "> *maximum graphics card",
+     "> *vga (length|clearance)"
+    ]
+   },
+   {
+    "id": "cooler_h",
+    "bn": "সর্বোচ্চ কুলার উচ্চতা",
+    "k": [
+     "> *maximum cpu cooler",
+     "> *cpu cooler (height|clearance)"
+    ]
+   },
+   {
+    "id": "panel",
+    "bn": "সাইড প্যানেল",
+    "k": [
+     "> *(side panel|tempered\\s+glass)"
+    ]
+   },
+   {
+    "id": "ports",
+    "bn": "সামনের পোর্ট",
+    "k": [
+     "> *front (ports?|i/?o)",
+     "> *i/?o (ports?|panel)",
+     "> *ports$"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "cooler": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(liquid|aio|air)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "socket",
+    "bn": "সকেট সাপোর্ট",
+    "k": [
+     "> *(support(ed)? sockets?|socket)",
+     "^supported sockets > *(intel|amd)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "radiator",
+    "bn": "রেডিয়েটর",
+    "k": [
+     "> *radiator"
+    ],
+    "n": "\\b(120|240|280|360|420)\\s?mm",
+    "f": "{}mm"
+   },
+   {
+    "id": "fan",
+    "bn": "ফ্যান সাইজ / স্পিড",
+    "k": [
+     "> *fan (size|speed)",
+     "> *speed$"
+    ],
+    "m": 2
+   },
+   {
+    "id": "airflow",
+    "bn": "এয়ারফ্লো",
+    "k": [
+     "> *(fan )?(max )?air ?flow"
+    ]
+   },
+   {
+    "id": "noise",
+    "bn": "শব্দ",
+    "k": [
+     "> *noise"
+    ]
+   },
+   {
+    "id": "tdp",
+    "bn": "TDP",
+    "k": [
+     "> *tdp"
+    ]
+   },
+   {
+    "id": "light",
+    "bn": "লাইটিং",
+    "k": [
+     "> *(led|lighting|rgb)"
+    ],
+    "n": "\\b(a?rgb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "fan": [
+   {
+    "id": "size",
+    "bn": "সাইজ",
+    "k": [
+     "> *(fan )?size$"
+    ],
+    "n": "\\b(120|140|92|80|200)\\s?mm",
+    "f": "{}mm"
+   },
+   {
+    "id": "speed",
+    "bn": "স্পিড",
+    "k": [
+     "> *(fan )?speed"
+    ]
+   },
+   {
+    "id": "airflow",
+    "bn": "এয়ারফ্লো",
+    "k": [
+     "> *air ?flow"
+    ]
+   },
+   {
+    "id": "noise",
+    "bn": "শব্দ",
+    "k": [
+     "> *noise"
+    ]
+   },
+   {
+    "id": "connector",
+    "bn": "কানেক্টর",
+    "k": [
+     "> *connector"
+    ]
+   },
+   {
+    "id": "light",
+    "bn": "লাইটিং",
+    "k": [
+     "> *(led|lighting)"
+    ],
+    "n": "\\b(a?rgb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "pack",
+    "bn": "প্যাকে কয়টা",
+    "k": [
+     "> *(quantity|pack)"
+    ],
+    "n": "\\b(\\d)\\s?(?:in\\s?1|pcs|pack)",
+    "f": "{}টা"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "monitor": [
+   {
+    "id": "size",
+    "bn": "স্ক্রিন সাইজ",
+    "k": [
+     "> *(display |screen |panel )?size$"
+    ],
+    "x": [
+     "pixel"
+    ],
+    "n": "(\\d{2,3}(?:\\.\\d)?)\\s?(?:\\\"|”|''|’’|-?inch\\b|ইঞ্চি)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(max(imum)? |native )?resolution$"
+    ],
+    "n": "\\b(fhd|qhd|uhd|4k|2k|wqhd|\\d{3,4}\\s?x\\s?\\d{3,4})\\b",
+    "f": "{}"
+   },
+   {
+    "id": "panel",
+    "bn": "প্যানেল",
+    "k": [
+     "> *panel( type)?$",
+     "> *display type$"
+    ],
+    "n": "\\b(ips|va|tn|oled|qd-?oled)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "refresh",
+    "bn": "রিফ্রেশ রেট",
+    "k": [
+     "> *refresh rate"
+    ],
+    "n": "\\b(\\d{2,3})\\s?hz\\b",
+    "f": "{}Hz"
+   },
+   {
+    "id": "response",
+    "bn": "রেসপন্স টাইম",
+    "k": [
+     "> *response time"
+    ]
+   },
+   {
+    "id": "brightness",
+    "bn": "ব্রাইটনেস",
+    "k": [
+     "> *brightness"
+    ]
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(hdmi|display ?port|vga|d-sub|usb|ports?|input)"
+    ],
+    "m": 3
+   },
+   {
+    "id": "hdr",
+    "bn": "HDR / কালার",
+    "k": [
+     "> *(hdr|color gamut|colou?r)"
+    ],
+    "x": [
+     "colou?r\\(?s?\\)?$"
+    ]
+   },
+   {
+    "id": "speaker",
+    "bn": "স্পিকার",
+    "k": [
+     "> *speakers?"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "tv": [
+   {
+    "id": "size",
+    "bn": "স্ক্রিন সাইজ",
+    "k": [
+     "> *(display |screen )?size$"
+    ],
+    "n": "(\\d{2,3}(?:\\.\\d)?)\\s?(?:\\\"|”|''|’’|-?inch\\b|ইঞ্চি)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "type",
+    "bn": "ডিসপ্লে ধরন",
+    "k": [
+     "> *(display|panel|screen) type",
+     "> *display technology"
+    ],
+    "n": "\\b(qled|oled|neo qled|mini ?led|nanocell|led|lcd)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *resolution"
+    ],
+    "n": "\\b(4k|uhd|fhd|full hd|hd ready|8k|hd)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "smart",
+    "bn": "স্মার্ট / অপারেটিং সিস্টেম",
+    "k": [
+     "> *(operating system|os|platform|smart (tv|feature))"
+    ],
+    "n": "\\b(google tv|android tv|android|webos|tizen|vidaa|smart)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "refresh",
+    "bn": "রিফ্রেশ রেট",
+    "k": [
+     "> *refresh rate",
+     "> *motion"
+    ]
+   },
+   {
+    "id": "hdr",
+    "bn": "HDR",
+    "k": [
+     "> *hdr"
+    ]
+   },
+   {
+    "id": "sound",
+    "bn": "সাউন্ড",
+    "k": [
+     "> *(sound|audio|speaker)( output| power)?"
+    ]
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(hdmi|usb)( ports?)?"
+    ],
+    "m": 2
+   },
+   {
+    "id": "wireless",
+    "bn": "ওয়াইফাই / ব্লুটুথ",
+    "k": [
+     "> *(wi-?fi|bluetooth|wireless)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ খরচ",
+    "k": [
+     "> *power consumption"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "ac": [
+   {
+    "id": "ton",
+    "bn": "ক্ষমতা (টন)",
+    "k": [
+     "> *(capacity|ton)$"
+    ],
+    "n": "(\\d(?:\\.\\d)?)\\s?ton",
+    "f": "{} টন"
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(split|window|portable|cassette|ceiling)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "inverter",
+    "bn": "ইনভার্টার",
+    "k": [
+     "> *inverter"
+    ],
+    "n": "\\b(inverter|non[\\s-]?inverter)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "btu",
+    "bn": "কুলিং ক্ষমতা (BTU)",
+    "k": [
+     "> *(cooling capacity|btu)"
+    ],
+    "n": "\\b(\\d{4,5})\\s?btu",
+    "f": "{} BTU"
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ খরচ",
+    "k": [
+     "> *(power consumption|rated power|input power)"
+    ]
+   },
+   {
+    "id": "coverage",
+    "bn": "কত বড় ঘরের জন্য",
+    "k": [
+     "> *(room size|coverage|area)"
+    ]
+   },
+   {
+    "id": "refrigerant",
+    "bn": "রেফ্রিজারেন্ট গ্যাস",
+    "k": [
+     "> *(refrigerant|gas)"
+    ],
+    "n": "\\b(r-?32|r-?410a?|r-?22)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "feature",
+    "bn": "বিশেষ ফিচার",
+    "k": [
+     "> *(special |key )?features?$",
+     "> *(wifi|smart)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *compressor",
+     "> *warranty"
+    ],
+    "m": 2
+   }
+  ],
+  "fridge": [
+   {
+    "id": "volume",
+    "bn": "মোট ক্ষমতা",
+    "k": [
+     "> *(gross )?(volume|capacity)"
+    ],
+    "n": "(\\d{2,4})\\s?(?:l|ltr|liter|litre)\\b",
+    "f": "{} লিটার",
+    "b": "capacity",
+    "bf": "{} লিটার"
+   },
+   {
+    "id": "net",
+    "bn": "ব্যবহারযোগ্য ক্ষমতা",
+    "k": [
+     "> *net (volume|capacity)"
+    ],
+    "b": "net",
+    "bf": "{} লিটার"
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(type|cooling (type|system))$"
+    ],
+    "n": "\\b(no[\\s-]?frost|direct[\\s-]?cool|frost[\\s-]?free|side[\\s-]?by[\\s-]?side|deep freezer|chest freezer)\\b",
+    "f": "{}",
+    "b": "type",
+    "bf": "{}"
+   },
+   {
+    "id": "inverter",
+    "bn": "ইনভার্টার",
+    "k": [
+     "> *inverter"
+    ],
+    "n": "\\b(inverter)\\b",
+    "f": "{}",
+    "b": "inverter",
+    "bf": "{}"
+   },
+   {
+    "id": "doors",
+    "bn": "দরজা",
+    "k": [
+     "> *(door|no\\.? of doors?)"
+    ],
+    "n": "\\b(single|double|triple|four|side by side)[\\s-]?door",
+    "f": "{} door"
+   },
+   {
+    "id": "energy",
+    "bn": "বিদ্যুৎ খরচ / রেটিং",
+    "k": [
+     "> *(energy|power consumption|star rating)"
+    ]
+   },
+   {
+    "id": "refrigerant",
+    "bn": "রেফ্রিজারেন্ট গ্যাস",
+    "k": [
+     "> *(refrigerant|gas)"
+    ],
+    "n": "\\b(r-?600a|r-?134a)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "color",
+    "bn": "রং / ডিজাইন",
+    "k": [
+     "> *(colou?r|design|finish)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "কম্প্রেসর ওয়ারেন্টি",
+    "k": [
+     "> *compressor",
+     "> *warranty"
+    ],
+    "m": 2,
+    "b": "warranty",
+    "bf": "{}"
+   }
+  ],
+  "washer": [
+   {
+    "id": "kg",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *(washing )?capacity"
+    ],
+    "n": "(\\d{1,2}(?:\\.\\d)?)\\s?kg",
+    "f": "{} কেজি"
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(front[\\s-]?load(?:ing)?|top[\\s-]?load(?:ing)?|semi[\\s-]?auto(?:matic)?|fully[\\s-]?auto(?:matic)?|twin tub)",
+    "f": "{}"
+   },
+   {
+    "id": "rpm",
+    "bn": "স্পিন স্পিড",
+    "k": [
+     "> *(spin speed|rpm)"
+    ],
+    "n": "\\b(\\d{3,4})\\s?rpm",
+    "f": "{} RPM"
+   },
+   {
+    "id": "inverter",
+    "bn": "ইনভার্টার মোটর",
+    "k": [
+     "> *(inverter|motor)"
+    ],
+    "n": "\\b(inverter|direct drive)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "programs",
+    "bn": "ওয়াশ প্রোগ্রাম",
+    "k": [
+     "> *(wash )?programs?"
+    ]
+   },
+   {
+    "id": "dryer",
+    "bn": "ড্রায়ার",
+    "k": [
+     "> *dry"
+    ]
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ খরচ",
+    "k": [
+     "> *power"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "kitchen": [
+   {
+    "id": "capacity",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *capacity$",
+     "> *volume$"
+    ],
+    "n": "(\\d{1,3}(?:\\.\\d)?)\\s?(?:l|ltr|liter|litre)\\b",
+    "f": "{} লিটার"
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(convection|grill|solo|microwave|electric|gas|digital|manual|instant)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ (ওয়াট)",
+    "k": [
+     "> *(power|wattage|rated power)( consumption)?$"
+    ],
+    "n": "\\b(\\d{3,4})\\s?w(?:att)?\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "temp",
+    "bn": "তাপমাত্রা",
+    "k": [
+     "> *temperature"
+    ]
+   },
+   {
+    "id": "modes",
+    "bn": "মোড / অটো মেনু",
+    "k": [
+     "> *(modes?|auto ?menu|programs?|functions?|speed settings?)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "jar",
+    "bn": "জার / উপাদান",
+    "k": [
+     "> *(jars?|material|blade)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "fan_cooler": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(ceiling|table|stand|wall|pedestal|rechargeable|exhaust|air cooler|tower)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "size",
+    "bn": "সাইজ",
+    "k": [
+     "> *(size|sweep|blade)"
+    ],
+    "n": "(\\d{2})\\s?(?:\\\"|inch|”)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ (ওয়াট)",
+    "k": [
+     "> *(power|wattage)"
+    ],
+    "n": "\\b(\\d{2,3})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি ব্যাকআপ",
+    "k": [
+     "> *(battery|backup)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "speed",
+    "bn": "স্পিড",
+    "k": [
+     "> *(speed|rpm)"
+    ]
+   },
+   {
+    "id": "tank",
+    "bn": "পানির ট্যাংক",
+    "k": [
+     "> *(tank|water)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "purifier": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(ro|uv|uf|air purifier|water purifier|filter)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "stages",
+    "bn": "ফিল্টার ধাপ",
+    "k": [
+     "> *(filter|stage|filtration)"
+    ],
+    "m": 2,
+    "n": "(\\d{1,2})\\s?stage",
+    "f": "{} ধাপ"
+   },
+   {
+    "id": "capacity",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *(capacity|tank|storage)"
+    ],
+    "n": "(\\d{1,2})\\s?(?:l|ltr|liter)\\b",
+    "f": "{} লিটার"
+   },
+   {
+    "id": "coverage",
+    "bn": "কত বড় ঘর",
+    "k": [
+     "> *(coverage|room size|cadr)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "power",
+    "bn": "বিদ্যুৎ",
+    "k": [
+     "> *power"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "vacuum": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(robot|handheld|cordless|canister|upright|wet|dry)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "power",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *(power|wattage)$"
+    ],
+    "n": "\\b(\\d{3,4})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "suction",
+    "bn": "সাকশন",
+    "k": [
+     "> *suction"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *(battery|run ?time)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "dust",
+    "bn": "ডাস্ট বক্স",
+    "k": [
+     "> *(dust|bin)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "keyboard": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(keyboard )?type$"
+    ],
+    "n": "\\b(mechanical|membrane|optical|magnetic)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "switch",
+    "bn": "সুইচ",
+    "k": [
+     "> *switch( type)?"
+    ],
+    "n": "\\b((?:red|blue|brown|black|yellow|silver)\\s?switch)",
+    "f": "{}"
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "layout",
+    "bn": "লেআউট / কী",
+    "k": [
+     "> *(layout|keys?|number of keys)"
+    ],
+    "n": "\\b(tkl|60%|65%|75%|96%|full[\\s-]?size)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "light",
+    "bn": "ব্যাকলাইট",
+    "k": [
+     "> *(backlight|lighting|led|rgb)"
+    ],
+    "n": "\\b(rgb|backlit)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery",
+     "> *play ?(back)? ?time",
+     "> *(music|working) time"
+    ],
+    "m": 2,
+    "n": "(\\d{3,5}\\s?mah)",
+    "f": "{}"
+   },
+   {
+    "id": "bangla",
+    "bn": "বাংলা লেখা",
+    "k": [
+     "> *bangla"
+    ],
+    "n": "\\b(bangla)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "mouse": [
+   {
+    "id": "dpi",
+    "bn": "DPI",
+    "k": [
+     "> *(max )?dpi",
+     "> *resolution$"
+    ],
+    "n": "\\b(\\d{3,5})\\s?dpi",
+    "f": "{} DPI"
+   },
+   {
+    "id": "sensor",
+    "bn": "সেন্সর",
+    "k": [
+     "> *sensor"
+    ]
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "buttons",
+    "bn": "বাটন",
+    "k": [
+     "> *(buttons?|number of buttons)"
+    ]
+   },
+   {
+    "id": "weight",
+    "bn": "ওজন",
+    "k": [
+     "> *weight"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery",
+     "> *play ?(back)? ?time",
+     "> *(music|working) time"
+    ],
+    "m": 2,
+    "n": "(\\d{3,5}\\s?mah)",
+    "f": "{}"
+   },
+   {
+    "id": "light",
+    "bn": "লাইটিং",
+    "k": [
+     "> *(lighting|rgb|led)"
+    ],
+    "n": "\\b(rgb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "audio": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(type|form factor|wearing (style|type))$"
+    ],
+    "n": "\\b(over[\\s-]?ear|on[\\s-]?ear|in[\\s-]?ear|tws|neckband|open[\\s-]?ear)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "bt",
+    "bn": "ব্লুটুথ ভার্সন",
+    "k": [
+     "> *bluetooth( version)?$",
+     "> *version$"
+    ],
+    "n": "\\b(?:bt|bluetooth)\\s?v?(5\\.\\d)",
+    "f": "Bluetooth {}"
+   },
+   {
+    "id": "driver",
+    "bn": "ড্রাইভার",
+    "k": [
+     "> *driver( size| unit)?"
+    ],
+    "n": "\\b(\\d{1,2}(?:\\.\\d)?)\\s?mm",
+    "f": "{}mm"
+   },
+   {
+    "id": "anc",
+    "bn": "নয়েজ ক্যান্সেলেশন",
+    "k": [
+     "> *(anc|noise (cancel|reduction))"
+    ],
+    "m": 2,
+    "n": "\\b(anc|enc|noise cancell?ing)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি / প্লেটাইম",
+    "k": [
+     "> *battery",
+     "> *play ?(back)? ?time",
+     "> *(music|talk|working) time",
+     "> *standby"
+    ],
+    "m": 2
+   },
+   {
+    "id": "charging",
+    "bn": "চার্জিং",
+    "k": [
+     "> *(charging|charge time|fast charg)"
+    ]
+   },
+   {
+    "id": "mic",
+    "bn": "মাইক্রোফোন",
+    "k": [
+     "> *mic(rophone)?"
+    ]
+   },
+   {
+    "id": "water",
+    "bn": "পানি প্রতিরোধ",
+    "k": [
+     "> *(water|ip ?rating|waterproof)"
+    ],
+    "n": "\\b(ipx?\\d)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "speaker": [
+   {
+    "id": "power",
+    "bn": "আউটপুট পাওয়ার",
+    "k": [
+     "> *(output|rms|total)( power)?$",
+     "> *power output",
+     "> *output power"
+    ],
+    "n": "\\b(\\d{1,4})\\s?w(?:att)?\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "channel",
+    "bn": "চ্যানেল",
+    "k": [
+     "> *channels?"
+    ],
+    "n": "\\b(2\\.0|2\\.1|5\\.1|7\\.1|3\\.1)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *(battery|play ?time)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "freq",
+    "bn": "ফ্রিকোয়েন্সি রেসপন্স",
+    "k": [
+     "> *frequency"
+    ]
+   },
+   {
+    "id": "water",
+    "bn": "পানি প্রতিরোধ",
+    "k": [
+     "> *(waterproof|ip ?rating)"
+    ],
+    "n": "\\b(ipx?\\d)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "webcam": [
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(video )?resolution",
+     "> *video"
+    ],
+    "n": "\\b(4k|2k|1080p|720p|1440p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "fps",
+    "bn": "ফ্রেম রেট",
+    "k": [
+     "> *(frame rate|fps)"
+    ],
+    "n": "\\b(\\d{2})\\s?fps",
+    "f": "{} FPS"
+   },
+   {
+    "id": "focus",
+    "bn": "ফোকাস",
+    "k": [
+     "> *focus"
+    ]
+   },
+   {
+    "id": "mic",
+    "bn": "মাইক্রোফোন",
+    "k": [
+     "> *mic"
+    ]
+   },
+   {
+    "id": "fov",
+    "bn": "দেখার কোণ",
+    "k": [
+     "> *(field of view|fov|angle)"
+    ]
+   },
+   {
+    "id": "connector",
+    "bn": "কানেক্টর",
+    "k": [
+     "> *(connect|interface)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "mic": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(condenser|dynamic|lavalier|wireless|usb)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "pattern",
+    "bn": "পোলার প্যাটার্ন",
+    "k": [
+     "> *polar"
+    ]
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "freq",
+    "bn": "ফ্রিকোয়েন্সি রেসপন্স",
+    "k": [
+     "> *frequency"
+    ]
+   },
+   {
+    "id": "sample",
+    "bn": "স্যাম্পল রেট",
+    "k": [
+     "> *(sample|bit) (rate|depth)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "flash": [
+   {
+    "id": "capacity",
+    "bn": "ক্যাপাসিটি",
+    "k": [
+     "> *(storage |memory )?capacity$",
+     "> *storage$"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb))\\b",
+    "f": "{}"
+   },
+   {
+    "id": "interface",
+    "bn": "ইন্টারফেস",
+    "k": [
+     "> *interface"
+    ],
+    "n": "\\b(usb\\s?\\d(?:\\.\\d)?\\w*|type-?c|otg)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "read",
+    "bn": "রিড স্পিড",
+    "k": [
+     "> *read"
+    ]
+   },
+   {
+    "id": "write",
+    "bn": "রাইট স্পিড",
+    "k": [
+     "> *write"
+    ]
+   },
+   {
+    "id": "class",
+    "bn": "ক্লাস",
+    "k": [
+     "> *(class|speed class|uhs)"
+    ],
+    "n": "\\b(class\\s?10|u[13]|v30|a[12])\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "power_bank": [
+   {
+    "id": "mah",
+    "bn": "ক্যাপাসিটি",
+    "k": [
+     "> *(battery )?capacity"
+    ],
+    "n": "(\\d{4,5})\\s?mah",
+    "f": "{} mAh"
+   },
+   {
+    "id": "output",
+    "bn": "সর্বোচ্চ আউটপুট",
+    "k": [
+     "> *(max |total )?output",
+     "> *fast charging"
+    ],
+    "n": "\\b(\\d{2,3})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(ports?|usb|type-?c)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "input",
+    "bn": "ইনপুট (চার্জ নেওয়া)",
+    "k": [
+     "> *input"
+    ]
+   },
+   {
+    "id": "wireless",
+    "bn": "ওয়্যারলেস চার্জিং",
+    "k": [
+     "> *(wireless|magsafe|magnetic)"
+    ],
+    "n": "\\b(magsafe|wireless|magnetic)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "> *(display|indicator)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে",
+    "k": [
+     "> *(display|screen)( size| type)?$"
+    ],
+    "m": 2,
+    "n": "(\\d\\.\\d{1,2})\\s?(?:\\\"|inch)",
+    "f": "{} ইঞ্চি"
+   },
+   {
+    "id": "calling",
+    "bn": "কলিং",
+    "k": [
+     "> *(calling|bluetooth call)"
+    ],
+    "n": "\\b(bluetooth calling|calling)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery",
+     "> *(standby|usage) time"
+    ],
+    "m": 2
+   },
+   {
+    "id": "health",
+    "bn": "স্বাস্থ্য সেন্সর",
+    "k": [
+     "> *(sensor|health|heart rate|spo2)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "water",
+    "bn": "পানি প্রতিরোধ",
+    "k": [
+     "> *(water|ip ?rating|atm)"
+    ],
+    "n": "\\b(ip6\\d|5\\s?atm)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "compat",
+    "bn": "যে ফোনে চলে",
+    "k": [
+     "> *(compatib|support(ed)? (os|system))"
+    ]
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "router": [
+   {
+    "id": "standard",
+    "bn": "ওয়াইফাই স্ট্যান্ডার্ড",
+    "k": [
+     "> *(wi-?fi )?standards?",
+     "> *wireless standard"
+    ],
+    "n": "\\b(wi-?fi\\s?7|wi-?fi\\s?6e?|wi-?fi\\s?5|ax\\d{3,5}|ac\\d{3,4}|be\\d{4,5}|n300)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "speed",
+    "bn": "গতি",
+    "k": [
+     "> *(wireless |wi-?fi )?(speed|data rate)"
+    ],
+    "n": "\\b(\\d{3,5})\\s?mbps",
+    "f": "{} Mbps"
+   },
+   {
+    "id": "band",
+    "bn": "ব্যান্ড",
+    "k": [
+     "> *(frequency|band)"
+    ],
+    "n": "\\b(dual[\\s-]?band|tri[\\s-]?band|single[\\s-]?band)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(ports?|interface|lan|wan|ethernet)"
+    ],
+    "m": 2,
+    "x": [
+     "standard"
+    ]
+   },
+   {
+    "id": "antenna",
+    "bn": "অ্যান্টেনা",
+    "k": [
+     "> *antenna"
+    ]
+   },
+   {
+    "id": "coverage",
+    "bn": "কভারেজ",
+    "k": [
+     "> *(coverage|range)"
+    ]
+   },
+   {
+    "id": "mesh",
+    "bn": "মেশ / বিশেষ",
+    "k": [
+     "> *(mesh|easymesh|features?)$"
+    ],
+    "n": "\\b(mesh)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "switch": [
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(ports?|interface)"
+    ],
+    "m": 2,
+    "n": "\\b(\\d{1,2})[\\s-]?port",
+    "f": "{} পোর্ট"
+   },
+   {
+    "id": "speed",
+    "bn": "গতি",
+    "k": [
+     "> *(speed|data rate|switching capacity)"
+    ],
+    "n": "\\b(gigabit|10/100|2\\.5g|10g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "poe",
+    "bn": "PoE",
+    "k": [
+     "> *poe"
+    ],
+    "n": "\\b(poe\\+?)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "managed",
+    "bn": "ম্যানেজড",
+    "k": [
+     "> *(managed|management)"
+    ],
+    "n": "\\b((?:un)?managed|smart)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "form",
+    "bn": "ডেস্কটপ / র‍্যাক",
+    "k": [
+     "> *(mounting|form|desktop|rack)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "cam": [
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(resolution|megapixel|image sensor)"
+    ],
+    "n": "\\b(\\d{1,2}(?:\\.\\d)?\\s?(?:mp|megapixel)|4k|1080p|2k)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "lens",
+    "bn": "লেন্স",
+    "k": [
+     "> *lens"
+    ]
+   },
+   {
+    "id": "night",
+    "bn": "রাতের দৃশ্য",
+    "k": [
+     "> *(night|ir |ir range|infrared|color ?vu|full color)"
+    ],
+    "m": 2,
+    "n": "\\b(color night|full color|ir)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "audio",
+    "bn": "অডিও",
+    "k": [
+     "> *(audio|two-?way|mic)"
+    ]
+   },
+   {
+    "id": "storage",
+    "bn": "রেকর্ডিং / স্টোরেজ",
+    "k": [
+     "> *(storage|sd card|micro ?sd)"
+    ]
+   },
+   {
+    "id": "ptz",
+    "bn": "ঘোরানো (PTZ)",
+    "k": [
+     "> *(ptz|pan|tilt|rotation)"
+    ],
+    "m": 2,
+    "n": "\\b(ptz|360)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "conn",
+    "bn": "কানেকশন",
+    "k": [
+     "> *(connectivity|network|wi-?fi|poe)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "weather",
+    "bn": "বাইরে ব্যবহার",
+    "k": [
+     "> *(weather|ip ?rating|waterproof)"
+    ],
+    "n": "\\b(ip6\\d)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "dvr": [
+   {
+    "id": "channels",
+    "bn": "চ্যানেল",
+    "k": [
+     "> *(channels?|video input)"
+    ],
+    "n": "\\b(\\d{1,2})[\\s-]?(?:ch|channel)",
+    "f": "{} চ্যানেল"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেকর্ড রেজোলিউশন",
+    "k": [
+     "> *(recording )?resolution"
+    ]
+   },
+   {
+    "id": "hdd",
+    "bn": "হার্ডডিস্ক স্লট",
+    "k": [
+     "> *(hdd|sata|storage)"
+    ]
+   },
+   {
+    "id": "output",
+    "bn": "আউটপুট",
+    "k": [
+     "> *(video output|hdmi|vga)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "poe",
+    "bn": "PoE",
+    "k": [
+     "> *poe"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "printer": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(printer )?type$",
+     "> *print technology"
+    ],
+    "n": "\\b(laser|ink ?tank|inkjet|dot matrix|thermal|label)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "func",
+    "bn": "কাজ",
+    "k": [
+     "> *(functions?|print, scan|all[\\s-]?in[\\s-]?one)"
+    ],
+    "n": "\\b(all[\\s-]?in[\\s-]?one|multifunction|mfp)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "color",
+    "bn": "রঙিন / সাদাকালো",
+    "k": [
+     "> *(colou?r|mono|print colou?r)"
+    ],
+    "x": [
+     "colou?r\\(?s?\\)?$"
+    ],
+    "n": "\\b(colou?r|mono(?:chrome)?)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "speed",
+    "bn": "প্রিন্ট স্পিড",
+    "k": [
+     "> *(print )?speed"
+    ],
+    "n": "\\b(\\d{1,3})\\s?ppm",
+    "f": "{} পাতা/মিনিট"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(print )?resolution"
+    ]
+   },
+   {
+    "id": "duplex",
+    "bn": "দুই পাশে প্রিন্ট",
+    "k": [
+     "> *duplex"
+    ],
+    "n": "\\b(duplex)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "conn",
+    "bn": "কানেকশন",
+    "k": [
+     "> *(connectivity|interface|wi-?fi|network)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "cartridge",
+    "bn": "কার্টিজ / টোনার",
+    "k": [
+     "> *(cartridge|toner|ink)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "scanner": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(scanner )?type$"
+    ],
+    "n": "\\b(flatbed|sheet[\\s-]?fed|document|portable|barcode)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(optical )?resolution"
+    ]
+   },
+   {
+    "id": "speed",
+    "bn": "স্পিড",
+    "k": [
+     "> *(scan )?speed"
+    ]
+   },
+   {
+    "id": "adf",
+    "bn": "অটো ফিডার",
+    "k": [
+     "> *(adf|feeder)"
+    ]
+   },
+   {
+    "id": "conn",
+    "bn": "কানেকশন",
+    "k": [
+     "> *(connectivity|interface)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "projector": [
+   {
+    "id": "lumens",
+    "bn": "ব্রাইটনেস",
+    "k": [
+     "> *(brightness|lumens?)"
+    ],
+    "n": "\\b(\\d{3,5})\\s?(?:ansi\\s?)?lumens?",
+    "f": "{} লুমেন"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(native )?resolution"
+    ],
+    "n": "\\b(4k|1080p|fhd|wxga|xga|svga|720p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "contrast",
+    "bn": "কনট্রাস্ট",
+    "k": [
+     "> *contrast"
+    ]
+   },
+   {
+    "id": "tech",
+    "bn": "প্রযুক্তি",
+    "k": [
+     "> *(display technology|technology|type)$"
+    ],
+    "n": "\\b(dlp|lcd|laser|led)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "lamp",
+    "bn": "ল্যাম্পের আয়ু",
+    "k": [
+     "> *(lamp|light source) life"
+    ]
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(hdmi|vga|usb|ports?|input)"
+    ],
+    "m": 3
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "ups": [
+   {
+    "id": "va",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *(capacity|power rating|va|output power)"
+    ],
+    "m": 2,
+    "n": "\\b(\\d{3,5})\\s?va\\b",
+    "f": "{} VA"
+   },
+   {
+    "id": "backup",
+    "bn": "ব্যাকআপ",
+    "k": [
+     "> *(backup|back up|runtime)"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery"
+    ],
+    "m": 2
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(type|topology|technology)$"
+    ],
+    "n": "\\b(online|offline|line[\\s-]?interactive|mini|dc)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "output",
+    "bn": "আউটপুট",
+    "k": [
+     "> *(output|outlet|waveform)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "input",
+    "bn": "ইনপুট ভোল্টেজ",
+    "k": [
+     "> *input"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "stabilizer": [
+   {
+    "id": "capacity",
+    "bn": "ক্ষমতা",
+    "k": [
+     "> *(capacity|rating|power)"
+    ],
+    "n": "\\b(\\d{3,5})\\s?(?:va|w)\\b",
+    "f": "{} VA"
+   },
+   {
+    "id": "input",
+    "bn": "ইনপুট রেঞ্জ",
+    "k": [
+     "> *input"
+    ]
+   },
+   {
+    "id": "output",
+    "bn": "আউটপুট",
+    "k": [
+     "> *output"
+    ]
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(servo|relay|digital|automatic)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "power_station": [
+   {
+    "id": "capacity",
+    "bn": "ব্যাটারি ক্ষমতা",
+    "k": [
+     "> *(battery )?capacity"
+    ],
+    "n": "\\b(\\d{3,5})\\s?wh\\b",
+    "f": "{} Wh"
+   },
+   {
+    "id": "output",
+    "bn": "আউটপুট",
+    "k": [
+     "> *(ac )?output",
+     "> *rated power"
+    ],
+    "m": 2,
+    "n": "\\b(\\d{3,4})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(ports?|outlets?|usb)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "charging",
+    "bn": "চার্জ নেওয়া",
+    "k": [
+     "> *(charging|input|solar)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারির ধরন",
+    "k": [
+     "> *(battery type|cell|chemistry)"
+    ],
+    "n": "\\b(lifepo4|lithium)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "camera": [
+   {
+    "id": "sensor",
+    "bn": "সেন্সর",
+    "k": [
+     "> *(sensor|image sensor)( type| size)?$"
+    ],
+    "m": 2,
+    "n": "\\b(full[\\s-]?frame|aps-?c|micro four thirds)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "mp",
+    "bn": "মেগাপিক্সেল",
+    "k": [
+     "> *(effective )?(pixels|megapixels?|resolution)$"
+    ],
+    "n": "\\b(\\d{2,3}(?:\\.\\d)?)\\s?mp\\b",
+    "f": "{} MP"
+   },
+   {
+    "id": "video",
+    "bn": "ভিডিও",
+    "k": [
+     "> *(video|movie)( resolution| recording)?"
+    ],
+    "n": "\\b(8k|6k|4k|5\\.3k|2\\.7k|1080p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "lens",
+    "bn": "লেন্স",
+    "k": [
+     "> *(lens|mount|focal length)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "iso",
+    "bn": "ISO",
+    "k": [
+     "> *iso"
+    ]
+   },
+   {
+    "id": "screen",
+    "bn": "স্ক্রিন",
+    "k": [
+     "> *(screen|lcd|monitor|viewfinder)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery"
+    ]
+   },
+   {
+    "id": "stabil",
+    "bn": "স্ট্যাবিলাইজেশন",
+    "k": [
+     "> *(stabili[sz]ation|ibis)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "console": [
+   {
+    "id": "storage",
+    "bn": "স্টোরেজ",
+    "k": [
+     "> *storage"
+    ],
+    "n": "\\b(\\d+\\s?(?:gb|tb))\\b",
+    "f": "{}"
+   },
+   {
+    "id": "edition",
+    "bn": "এডিশন",
+    "k": [
+     "> *(edition|model|version)"
+    ],
+    "n": "\\b(digital|disc|slim|pro|oled|lite|standard)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(resolution|output)"
+    ],
+    "n": "\\b(4k|8k|1080p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "controller",
+    "bn": "কন্ট্রোলার",
+    "k": [
+     "> *(controller|in the box)"
+    ]
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "gamepad": [
+   {
+    "id": "platform",
+    "bn": "যেটাতে চলে",
+    "k": [
+     "> *(compatib|platform|support)"
+    ],
+    "m": 2,
+    "n": "\\b(ps5|ps4|xbox|pc|android|switch)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "connectivity",
+    "bn": "কানেকশন",
+    "k": [
+     "> *connectivity$",
+     "> *connection( type)?$",
+     "> *wireless( technology)?$"
+    ],
+    "m": 2,
+    "n": "\\b(wireless|bluetooth|wired|2\\.4\\s?g)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি",
+    "k": [
+     "> *battery",
+     "> *play ?(back)? ?time",
+     "> *(music|working) time"
+    ],
+    "m": 2,
+    "n": "(\\d{3,5}\\s?mah)",
+    "f": "{}"
+   },
+   {
+    "id": "vibration",
+    "bn": "ভাইব্রেশন",
+    "k": [
+     "> *(vibration|rumble|motor)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "chair": [
+   {
+    "id": "material",
+    "bn": "উপাদান",
+    "k": [
+     "> *(material|upholstery|cover)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "recline",
+    "bn": "হেলানো",
+    "k": [
+     "> *(recline|backrest|tilt)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "armrest",
+    "bn": "হাতল",
+    "k": [
+     "> *arm ?rest"
+    ]
+   },
+   {
+    "id": "load",
+    "bn": "সর্বোচ্চ ওজন",
+    "k": [
+     "> *(max(imum)? (load|weight)|load capacity|weight capacity)"
+    ]
+   },
+   {
+    "id": "size",
+    "bn": "আকার",
+    "k": [
+     "> *(dimensions?|size|height)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "light": [
+   {
+    "id": "watt",
+    "bn": "ওয়াট",
+    "k": [
+     "> *(power|wattage)"
+    ],
+    "n": "\\b(\\d{1,3})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *type$"
+    ],
+    "n": "\\b(led|bulb|tube|panel|strip|rechargeable|emergency|solar)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "color",
+    "bn": "আলোর রং",
+    "k": [
+     "> *(colou?r temperature|light colou?r)"
+    ]
+   },
+   {
+    "id": "battery",
+    "bn": "ব্যাটারি ব্যাকআপ",
+    "k": [
+     "> *(battery|backup)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "drone": [
+   {
+    "id": "camera",
+    "bn": "ক্যামেরা",
+    "k": [
+     "> *(camera|video resolution|sensor)"
+    ],
+    "m": 2,
+    "n": "\\b(8k|6k|4k|2\\.7k|1080p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "flight",
+    "bn": "ওড়ার সময়",
+    "k": [
+     "> *(flight time|max(imum)? flight)"
+    ]
+   },
+   {
+    "id": "range",
+    "bn": "রেঞ্জ",
+    "k": [
+     "> *(range|transmission)"
+    ]
+   },
+   {
+    "id": "weight",
+    "bn": "ওজন",
+    "k": [
+     "> *(takeoff )?weight"
+    ]
+   },
+   {
+    "id": "gimbal",
+    "bn": "গিম্বল",
+    "k": [
+     "> *gimbal"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "tv_box": [
+   {
+    "id": "os",
+    "bn": "অপারেটিং সিস্টেম",
+    "k": [
+     "> *(operating system|os)"
+    ],
+    "n": "\\b(android tv|google tv|android\\s?\\d{1,2})\\b",
+    "f": "{}"
+   },
+   {
+    "id": "ram",
+    "bn": "র‍্যাম / স্টোরেজ",
+    "k": [
+     "> *(ram|storage|rom|memory)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "resolution",
+    "bn": "রেজোলিউশন",
+    "k": [
+     "> *(resolution|output)"
+    ],
+    "n": "\\b(4k|8k|1080p)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "conn",
+    "bn": "কানেকশন",
+    "k": [
+     "> *(wi-?fi|bluetooth|connectivity)"
+    ],
+    "m": 2
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "hub": [
+   {
+    "id": "ports",
+    "bn": "পোর্ট",
+    "k": [
+     "> *(ports?|interface|output)"
+    ],
+    "m": 3,
+    "n": "\\b(\\d{1,2})[\\s-]?in[\\s-]?1",
+    "f": "{}-in-1"
+   },
+   {
+    "id": "input",
+    "bn": "কানেক্টর",
+    "k": [
+     "> *(input|connector|host)"
+    ],
+    "n": "\\b(type-?c|usb[\\s-]?c|usb\\s?3\\.\\d|usb\\s?2\\.0)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "speed",
+    "bn": "ডাটা স্পিড",
+    "k": [
+     "> *(data |transfer )?(speed|rate)"
+    ]
+   },
+   {
+    "id": "pd",
+    "bn": "চার্জিং (PD)",
+    "k": [
+     "> *(power delivery|pd|charging)"
+    ],
+    "n": "\\b(\\d{2,3})\\s?w\\b",
+    "f": "{}W PD"
+   },
+   {
+    "id": "display",
+    "bn": "ডিসপ্লে আউটপুট",
+    "k": [
+     "> *(hdmi|display|resolution)"
+    ]
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ],
+  "cable": [
+   {
+    "id": "type",
+    "bn": "ধরন",
+    "k": [
+     "> *(type|connector)"
+    ],
+    "m": 2,
+    "n": "\\b(type-?c to (?:type-?c|lightning|usb)|usb to (?:type-?c|lightning|micro)|hdmi|displayport|lightning|micro usb|vga|cat\\s?\\d\\w?|aux)\\b",
+    "f": "{}"
+   },
+   {
+    "id": "length",
+    "bn": "দৈর্ঘ্য",
+    "k": [
+     "> *(cable )?length"
+    ],
+    "n": "\\b(\\d+(?:\\.\\d)?)\\s?(?:m|meter|ft)\\b",
+    "f": "{} মিটার"
+   },
+   {
+    "id": "speed",
+    "bn": "স্পিড / চার্জিং",
+    "k": [
+     "> *(speed|data|charging|power|resolution)"
+    ],
+    "m": 2,
+    "n": "\\b(\\d{2,3})\\s?w\\b",
+    "f": "{}W"
+   },
+   {
+    "id": "features",
+    "bn": "অন্যান্য ফিচার",
+    "k": [
+     "^ *> *(key |other |special |main )?features?$",
+     "> *highlights?$"
+    ]
+   },
+   {
+    "id": "warranty",
+    "bn": "ওয়ারেন্টি",
+    "k": [
+     "> *(manufacturing )?warranty$",
+     "^warranty"
+    ]
+   }
+  ]
+ },
+ "generic": [
+  {
+   "id": "type",
+   "bn": "ধরন",
+   "k": [
+    "> *type$"
+   ]
+  },
+  {
+   "id": "size",
+   "bn": "সাইজ",
+   "k": [
+    "> *(size|dimensions?)$"
+   ]
+  },
+  {
+   "id": "material",
+   "bn": "উপাদান",
+   "k": [
+    "> *material"
+   ]
+  },
+  {
+   "id": "compat",
+   "bn": "যেটার সাথে চলে",
+   "k": [
+    "> *(compatib|support)"
+   ]
+  },
+  {
+   "id": "color",
+   "bn": "রং",
+   "k": [
+    "> *colou?r\\(?s?\\)?$"
+   ]
+  },
+  {
+   "id": "features",
+   "bn": "অন্যান্য ফিচার",
+   "k": [
+    "^ *> *(key |other |special |main )?features?$",
+    "> *highlights?$"
+   ]
+  },
+  {
+   "id": "warranty",
+   "bn": "ওয়ারেন্টি",
+   "k": [
+    "> *(manufacturing )?warranty$",
+    "^warranty"
+   ]
+  }
+ ],
+ "category_profile": {
+  "laptop": "laptop",
+  "gaming-laptop": "laptop",
+  "ultrabook": "laptop",
+  "ai-pc": "laptop",
+  "gaming-pc": "desktop",
+  "brand-pc": "desktop",
+  "all-in-one-pc": "desktop",
+  "mini-pc": "desktop",
+  "mac-desktop": "desktop",
+  "desktop-pc": "desktop",
+  "workstation": "desktop",
+  "server": "desktop",
+  "smartphone": "phone",
+  "tablet": "phone",
+  "feature-phone": "feature_phone",
+  "processor": "processor",
+  "motherboard": "motherboard",
+  "graphics-card": "gpu",
+  "desktop-ram": "ram",
+  "laptop-ram": "ram",
+  "ssd": "ssd",
+  "portable-ssd": "ssd",
+  "hdd": "hdd",
+  "portable-hdd": "hdd",
+  "power-supply": "psu",
+  "casing": "casing",
+  "cpu-cooler": "cooler",
+  "liquid-cooler": "cooler",
+  "casing-fan": "fan",
+  "monitor-all": "monitor",
+  "gaming-monitor": "monitor",
+  "portable-monitor": "monitor",
+  "tv": "tv",
+  "ac": "ac",
+  "fridge": "fridge",
+  "washing-machine": "washer",
+  "oven": "kitchen",
+  "air-fryer": "kitchen",
+  "cooker": "kitchen",
+  "induction-stove": "kitchen",
+  "blender": "kitchen",
+  "geyser-heater": "kitchen",
+  "iron": "kitchen",
+  "sewing-machine": "kitchen",
+  "fan-cooler": "fan_cooler",
+  "water-air-purifier": "purifier",
+  "vacuum-cleaner": "vacuum",
+  "keyboard": "keyboard",
+  "mouse": "mouse",
+  "headphone": "audio",
+  "bluetooth-headphone": "audio",
+  "earbuds": "audio",
+  "neckband": "audio",
+  "earphone": "audio",
+  "speaker": "speaker",
+  "bluetooth-speaker": "speaker",
+  "soundbar": "speaker",
+  "webcam": "webcam",
+  "microphone": "mic",
+  "pen-drive": "flash",
+  "memory-card": "flash",
+  "power-bank": "power_bank",
+  "smart-watch": "watch",
+  "smart-band": "watch",
+  "smart-ring": "watch",
+  "router": "router",
+  "gaming-router": "router",
+  "pocket-router": "router",
+  "range-extender": "router",
+  "access-point": "router",
+  "wifi-adapter": "router",
+  "starlink": "router",
+  "network-switch": "switch",
+  "poe-injector": "switch",
+  "wifi-camera": "cam",
+  "ip-camera": "cam",
+  "cc-camera": "cam",
+  "ptz-camera": "cam",
+  "solar-camera": "cam",
+  "camera-package": "cam",
+  "dash-cam": "cam",
+  "dvr-nvr": "dvr",
+  "laser-printer": "printer",
+  "printer": "printer",
+  "special-printer": "printer",
+  "photocopier": "printer",
+  "scanner": "scanner",
+  "projector": "projector",
+  "online-ups": "ups",
+  "mini-ups": "ups",
+  "ups": "ups",
+  "ips": "ups",
+  "voltage-stabilizer": "stabilizer",
+  "power-station": "power_station",
+  "solar": "power_station",
+  "generator": "power_station",
+  "battery": "power_station",
+  "dslr-mirrorless": "camera",
+  "digital-camera": "camera",
+  "action-camera": "camera",
+  "gaming-console": "console",
+  "vr": "console",
+  "gamepad": "gamepad",
+  "racing-wheel": "gamepad",
+  "gaming-chair": "chair",
+  "gaming-desk": "chair",
+  "light": "light",
+  "monitor-light-bar": "light",
+  "drone": "drone",
+  "gimbal": "drone",
+  "tv-box": "tv_box",
+  "hub-dock": "hub",
+  "converter": "hub",
+  "card-reader": "hub",
+  "enclosure": "hub",
+  "capture-card": "hub",
+  "cable": "cable",
+  "network-cable": "cable"
+ }
+}

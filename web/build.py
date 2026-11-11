@@ -17,6 +17,8 @@ from urllib.parse import urlsplit, urlunsplit
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from web.keyspecs import key_specs
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DIST = ROOT / "dist"
@@ -37,18 +39,6 @@ FEAT_BN = {"processor": "প্রসেসর", "ram": "র‍্যাম", "s
            "smart features": "স্মার্ট ফিচার", "sound": "সাউন্ড", "audio": "অডিও", "voltage": "ভোল্টেজ", "socket": "সকেট",
            "form factor": "ফর্ম ফ্যাক্টর", "cores": "কোর", "cache": "ক্যাশ", "network": "নেটওয়ার্ক", "wifi": "ওয়াইফাই"}
 
-
-def split_features(feats):
-    """'RAM: 8GB DDR4, Storage: 256GB SSD' -> [('র‍্যাম','8GB DDR4'), ('স্টোরেজ','256GB SSD')]; কোলন না থাকলে আলাদা লাইনে।"""
-    rows, extra = [], []
-    for f in feats or []:
-        for part in re.split(r",\s*(?=[A-Za-z][\w /&().-]{1,28}:)", f):
-            k, sep, v = part.partition(":")
-            if sep and v.strip() and len(k) <= 30:
-                rows.append((FEAT_BN.get(k.strip().lower(), k.strip()), v.strip()))
-            elif part.strip():
-                extra.append(part.strip())
-    return rows, extra
 
 
 SPEC_NAMES = {"capacity": "ক্যাপাসিটি", "type": "টাইপ", "speed": "বাস স্পিড", "form": "ফর্ম ফ্যাক্টর",
@@ -605,6 +595,9 @@ def main():
     for it in items.values():
         by_cat[it["category"]].append(it)
     product_tpl = env.get_template("product.html")
+    BSPEC = {}  # Walton/Minister-এর নিজস্ব স্পেক, url ধরে
+    for bf in sorted((DATA / "brand_specs").glob("*.json")) if (DATA / "brand_specs").exists() else []:
+        BSPEC.update(json.loads(bf.read_text()))
 
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
@@ -633,7 +626,8 @@ def main():
         best = it["best"]
         warranty = warranty_bn(det.get("warranty"))
         feats = det.get("key_features") or p.get("features") or []
-        feat_rows, feat_extra = split_features(feats)
+        bsp = next((BSPEC[o["url"]] for o in so.values() if o.get("url") in BSPEC), None)
+        feat_rows, feat_extra = key_specs(it["category"], p["name"], det.get("specs"), feats, bsp, FEAT_BN)
         spec_sections = [(section_bn(sec), rows_) for sec, rows_ in det.get("specs", {}).items()
                          if "warranty" not in sec.lower()]
         faq = [
@@ -660,7 +654,7 @@ def main():
         cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
                "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": feats[:6],
                "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
-               "sp": det.get("specs") or {"মূল তথ্য": {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()} | dict(feat_rows)}}
+               "sp": det.get("specs") or {"মূল তথ্য": dict(feat_rows) or {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()}}}
         (DIST / "d").mkdir(exist_ok=True)
         (DIST / f"d/{pid}.json").write_text(json.dumps(cmp, ensure_ascii=False, separators=(",", ":")))
         out = DIST / f"p/{pid}/index.html"
