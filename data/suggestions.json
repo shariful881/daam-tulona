@@ -1,5 +1,19 @@
 [
  {
+  "a": "huion-hs611-graphics-drawing-tablet-2",
+  "b": "huion-hs611-graphics-drawing-tablet-3",
+  "score": 1.0,
+  "a_name": "Huion HS611 Graphics Drawing Tablet",
+  "b_name": "Huion HS611 Graphics Drawing Tablet"
+ },
+ {
+  "a": "huion-hs611-graphics-drawing-tablet-2",
+  "b": "huion-graphics-drawing-tablet-hs611",
+  "score": 1.0,
+  "a_name": "Huion HS611 Graphics Drawing Tablet",
+  "b_name": "Huion Graphics Drawing Tablet HS611"
+ },
+ {
   "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop",
   "b": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-inch-fhd-laptop",
   "score": 1.0,
@@ -238,6 +252,20 @@
   "b_name": "Team T-Force Delta TUF Gaming 8GB 3200MHz DDR4 RGB Desktop RAM"
  },
  {
+  "a": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram-2",
+  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "score": 1.0,
+  "a_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+ },
+ {
+  "a": "team-t-force-delta-rgb-white-8gb-3200mhz-ddr4-desktop-gaming-ram",
+  "b": "team-t-force-delta-8gb-3200mhz-ddr4-rgb-white-desktop-gaming-ram",
+  "score": 1.0,
+  "a_name": "TEAM T-FORCE DELTA RGB WHITE 8GB 3200MHz DDR4 Desktop Gaming RAM",
+  "b_name": "Team T-Force Delta 8GB 3200MHz DDR4 RGB White Desktop Gaming RAM"
+ },
+ {
   "a": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
   "b": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram-2",
   "score": 1.0,
@@ -392,6 +420,13 @@
   "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
  },
  {
+  "a": "miphi-mp100-256gb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "MiPhi MP100 256GB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD"
+ },
+ {
   "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
   "b": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
@@ -399,11 +434,25 @@
   "b_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD"
  },
  {
+  "a": "miphi-mp100-512gb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "MiPhi MP100 512GB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD"
+ },
+ {
   "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
   "b": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
   "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
   "b_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD"
+ },
+ {
+  "a": "miphi-mp100-1tb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
+  "score": 1.0,
+  "a_name": "MiPhi MP100 1TB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD"
  },
  {
   "a": "corsair-force-mp600-1tb-gen-4-pcie-nvme-m-2-ssd",
@@ -560,6 +609,20 @@
   "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
+  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
+  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
+  "score": 1.0,
+  "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
+  "b_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (EXTENDED)"
+ },
+ {
+  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
+  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium",
+  "score": 1.0,
+  "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
+  "b_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (MEDIUM)"
+ },
+ {
   "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white",
   "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
   "score": 1.0,
@@ -572,6 +635,20 @@
   "score": 1.0,
   "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (Carbon)",
   "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
+ },
+ {
+  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-red",
+  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
+  "score": 1.0,
+  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Red)",
+  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
+ },
+ {
+  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-gun-metal",
+  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
+  "score": 1.0,
+  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Gun Metal)",
+  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
  },
  {
   "a": "rode-videomic-pro-compact-directional-on-camera-microphone",
@@ -803,6 +880,27 @@
   "score": 1.0,
   "a_name": "Cougar ARMOR ONE gaming chair",
   "b_name": "Cougar ARMOR ONE gaming chair (Black)"
+ },
+ {
+  "a": "corsair-tc60-fabric-gaming-chair-black-2",
+  "b": "corsair-tc60-fabric-gaming-chair",
+  "score": 1.0,
+  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
+  "b_name": "Corsair TC60 Fabric Gaming Chair"
+ },
+ {
+  "a": "corsair-tc60-fabric-gaming-chair-black-2",
+  "b": "corsair-tc60-fabric-gaming-chair-black",
+  "score": 1.0,
+  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
+  "b_name": "Corsair TC60 Fabric Gaming Chair (Black)"
+ },
+ {
+  "a": "corsair-tc60-fabric-gaming-chair-black-2",
+  "b": "corsair-tc60-fabric-gaming-chair-grey",
+  "score": 1.0,
+  "a_name": "CORSAIR TC60 FABRIC Gaming Chair (Black)",
+  "b_name": "Corsair TC60 Fabric Gaming Chair (Grey)"
  },
  {
   "a": "fantech-gc-182-alpha-gaming-chair",
@@ -1064,95 +1162,116 @@
   "b_name": "ESET Internet Security 3 User 1 Year"
  },
  {
-  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case",
-  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
   "score": 1.0,
-  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
-  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
  },
  {
-  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-2",
-  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
   "score": 1.0,
-  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
-  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
  },
  {
-  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-black",
-  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
   "score": 1.0,
-  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Black)",
-  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
  },
  {
-  "a": "lian-li-bora-digital-120mm-rgb-cooling-fan-grey",
-  "b": "lian-li-bora-digital-120mm-rgb-cooling-fan-silver",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
   "score": 1.0,
-  "a_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Grey)",
-  "b_name": "Lian Li Bora Digital 120mm RGB Cooling Fan (Silver)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (GRAFFITI)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-orange",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-red-2",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-orange",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-black-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (BLACK)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-red-2",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-graffiti",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Graffiti)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-red",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-black",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Black)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-orange",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-dragon",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (Dragon)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-red-2",
+  "a": "easysmx-bayard-9124-tri-mode-wireless-controller-white-2",
+  "b": "easysmx-bayard-9124-tri-mode-wireless-controller-white",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
+  "a_name": "EASYSMX BAYARD 9124 TRI-MODE WIRELESS CONTROLLER (WHITE)",
+  "b_name": "EasySMX Bayard 9124 Tri-Mode Wireless Controller (White)"
  },
  {
-  "a": "evolur-ld001-gaming-chair-yellow",
-  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "a": "delux-dc-r103-gaming-chair-black-red",
+  "b": "delux-dc-r103-gaming-chair",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
-  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
+  "a_name": "DELUX DC-R103 Gaming Chair (Black&Red)",
+  "b_name": "DELUX DC-R103 Gaming Chair"
+ },
+ {
+  "a": "delux-dc-r103-gaming-chair-black-blue",
+  "b": "delux-dc-r103-gaming-chair",
+  "score": 1.0,
+  "a_name": "DELUX DC-R103 Gaming Chair (Black&Blue)",
+  "b_name": "DELUX DC-R103 Gaming Chair"
+ },
+ {
+  "a": "redragon-c211-gaming-chair-black-red-2",
+  "b": "redragon-c211-gaming-chair-black-red",
+  "score": 1.0,
+  "a_name": "Redragon C211 Gaming Chair (Black-Red)",
+  "b_name": "Redragon C211 Gaming Chair (Black-Red)"
+ },
+ {
+  "a": "redragon-c211-gaming-chair-black-red-2",
+  "b": "redragon-c211-gaming-chair-white",
+  "score": 1.0,
+  "a_name": "Redragon C211 Gaming Chair (Black-Red)",
+  "b_name": "Redragon C211 Gaming Chair (White)"
  },
  {
   "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair",
@@ -1169,234 +1288,115 @@
   "b_name": "MeeTion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair (Red)"
  },
  {
-  "a": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-3k-oled-touch-lapto-2",
-  "b": "hp-omnibook-ultra-flip-x360-14-fh0104tu-intel-core-ultra-7-256v-14-inch-3k-oled",
-  "score": 0.93,
-  "a_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14\" 3K OLED Touch Laptop",
-  "b_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Intel Core Ultra 7 256V 14 Inch 3K OLED Touch Laptop"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair"
  },
  {
-  "a": "hp-omnibook-ultra-flip-x360-14-fh0103tu-core-ultra-7-256v-14-inch-3k-oled-touch",
-  "b": "hp-omnibook-ultra-flip-x360-14-fh0103tu-intel-core-ultra-7-256v-14-inch-3k-oled",
-  "score": 0.93,
-  "a_name": "HP OmniBook Ultra Flip x360 14-fh0103TU Core Ultra 7 256V 14-inch 3K OLED Touch Laptop",
-  "b_name": "HP OmniBook Ultra Flip x360 14-fh0103TU Intel Core Ultra 7 256V 14 Inch 3K OLED Touch Laptop"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair-red",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
  },
  {
-  "a": "colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-16gb-v-gddr7-graphics-card",
-  "b": "colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-16-gb-v-graphics-card",
-  "score": 0.93,
-  "a_name": "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 16GB-V GDDR7 Graphics Card",
-  "b_name": "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 16 GB-V Graphics Card"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair-yellow",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
  },
  {
-  "a": "lenovo-thinkcentre-neo-50t-gen-6-intel-core-ultra-3-205-16gb-ram-512gb-ssd-tower",
-  "b": "lenovo-thinkcentre-neo-50t-gen-6-intel-core-ultra-3-205-16gb-ram-512gb-ssd-brand",
-  "score": 0.93,
-  "a_name": "Lenovo ThinkCentre Neo 50t Gen 6 Intel Core Ultra 3 205 16GB RAM 512GB SSD Tower Brand PC",
-  "b_name": "Lenovo ThinkCentre neo 50t Gen 6 Intel Core Ultra 3 205 16GB RAM 512GB SSD Brand PC"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
  },
  {
-  "a": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-3k-oled-touch-lapto-2",
-  "b": "hp-omnibook-ultra-flip-x360-14-fh0104tu-core-ultra-7-256v-14-inch-oled-touch-lap",
-  "score": 0.92,
-  "a_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14\" 3K OLED Touch Laptop",
-  "b_name": "HP OmniBook Ultra Flip x360 14-fh0104TU Core Ultra 7 256V 14-inch OLED Touch Laptop"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
  },
  {
-  "a": "walton-unify-bs22f-core-i3-12th-gen-16gb-21-5-fhd-all-in-one-pc",
-  "b": "walton-unify-bs22f-core-i3-12th-gen-16gb-ram-21-5-fhd-ips-all-in-one-pc",
-  "score": 0.92,
-  "a_name": "Walton UNIFY BS22F Core i3 12th Gen 16GB 21.5\" FHD All-in-One PC",
-  "b_name": "Walton UNIFY BS22F Core i3 12th Gen 16GB RAM 21.5\" FHD IPS All-in-One PC"
+  "a": "evolur-ld001-gaming-chair-orange-2",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Orange)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
  },
  {
-  "a": "msi-geforce-rtx-5060-ti-8g-shadow-2x-oc-plus-8gb-gddr7-graphics-card",
-  "b": "msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-graphics-card",
-  "score": 0.92,
-  "a_name": "MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS 8GB GDDR7 Graphics Card",
-  "b_name": "MSI GeForce RTX 5060 Ti SHADOW 2X OC PLUS 8GB GDDR7 Graphics Card"
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
  },
  {
-  "a": "msi-geforce-rtx-5060-ti-8g-ventus-2x-oc-plus-8gb-gddr7-graphics-card",
-  "b": "msi-geforce-rtx-5060-ti-ventus-2x-oc-plus-8gb-gddr7-graphics-card",
-  "score": 0.92,
-  "a_name": "MSI GeForce RTX 5060 Ti 8G VENTUS 2X OC PLUS 8GB GDDR7 Graphics Card",
-  "b_name": "MSI GeForce RTX 5060 TI VENTUS 2X OC PLUS 8GB GDDR7 Graphics Card"
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
  },
  {
-  "a": "gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-sff-16g-gddr7-graphics-card",
-  "score": 0.92,
-  "a_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC ICE SFF 16G GDDR7 Graphics Card"
+  "a": "evolur-ld001-gaming-chair",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
  },
  {
-  "a": "gamdias-aura-gp450-pro-450w-80-plus-white-certified-atx-power-supply",
-  "b": "gamdias-aura-gp450-pro-450w-80-plus-white-atx-power-supply",
-  "score": 0.92,
-  "a_name": "Gamdias AURA GP450 PRO 450W 80 Plus White Certified ATX Power Supply",
-  "b_name": "Gamdias AURA GP450 PRO 450W 80 Plus White ATX Power Supply"
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
  },
  {
-  "a": "asus-rog-ryujin-iii-360-argb-aio-3-5-lcd-display-liquid-cpu-cooler-white",
-  "b": "asus-rog-ryujin-iii-360-argb-aio-3-5-inch-lcd-display-liquid-cpu-cooler",
-  "score": 0.92,
-  "a_name": "Asus ROG RYUJIN III 360 ARGB AIO 3.5\" LCD Display Liquid CPU Cooler White",
-  "b_name": "Asus ROG RYUJIN III 360 ARGB AIO 3.5 INCH LCD Display Liquid CPU Cooler"
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
  },
  {
-  "a": "lg-32gp850-b-32-ultragear-165hz-g-sync-qhd-nano-ips-gaming-monitor",
-  "b": "lg-32gp850-b-32-inch-ultragear-qhd-165hz-g-sync-ips-gaming-monitor",
-  "score": 0.92,
-  "a_name": "LG 32GP850-B 32\" UltraGear 165Hz G-SYNC QHD Nano IPS Gaming Monitor",
-  "b_name": "LG 32GP850-B 32 Inch Ultragear QHD 165HZ G-Sync IPS Gaming Monitor"
+  "a": "evolur-ld001-gaming-chair-red",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Red)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
  },
  {
-  "a": "xtreme-k502c-rgb-backlit-usb-wired-gaming-keyboard-mouse-mouse-pad-headphone-bla",
-  "b": "xtreme-k502c-rgb-backlit-usb-bangla-combo-black-keyboard-mouse-headphone-mouse-p",
-  "score": 0.92,
-  "a_name": "Xtreme K502C RGB Backlit USB Wired Gaming Keyboard, Mouse, Mouse Pad & Headphone Black Combo with Bangla",
-  "b_name": "XTREME K502C RGB BACKLIT USB-BANGLA COMBO BLACK KEYBOARD, MOUSE, HEADPHONE & MOUSE PAD"
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-orange",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
  },
  {
-  "a": "baseus-qpow-pro-digital-display-22-5w-10000mah-type-c-power-bank",
-  "b": "baseus-qpow-pro-10000mah-22-5w-digital-display-power-bank-with-type-c-cable",
-  "score": 0.92,
-  "a_name": "Baseus Qpow Pro Digital Display 22.5W 10000mAh Type-C Power Bank",
-  "b_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Power Bank with Type-C Cable"
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-red-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Red)"
  },
  {
-  "a": "anker-zolo-20000mah-45w-power-bank-with-dual-built-in-type-c-cable",
-  "b": "anker-zolo-a110m-45w-power-bank-with-built-in-dual-type-c-cable-20000mah",
-  "score": 0.92,
-  "a_name": "Anker Zolo 20000mAh 45W Power Bank with Dual Built-in Type-C Cable",
-  "b_name": "Anker Zolo A110M 45W Power Bank with Built-in Dual Type-C Cable - 20000mah"
+  "a": "evolur-ld001-gaming-chair-yellow",
+  "b": "evolur-ld001-gaming-chair-yellow-2",
+  "score": 1.0,
+  "a_name": "EVOLUR LD001 Gaming Chair (Yellow)",
+  "b_name": "EVOLUR LD001 Gaming Chair (Yellow)"
  },
  {
-  "a": "tenda-rx9-pro-ax3000-dual-band-gigabit-wi-fi-6-router",
-  "b": "tenda-rx9-pro-ax3000-3000mbps-dual-band-gigabit-wi-fi-6-router",
-  "score": 0.92,
-  "a_name": "Tenda RX9 Pro AX3000 Dual Band Gigabit Wi-Fi 6 Router",
-  "b_name": "Tenda RX9 Pro AX3000 3000mbps Dual Band Gigabit Wi-Fi 6 Router"
- },
- {
-  "a": "tp-link-archer-ax53-ax3000-dual-band-gigabit-wi-fi-router",
-  "b": "tp-link-archer-ax53-ax3000-dual-band-gigabit-wi-fi-6-router",
-  "score": 0.92,
-  "a_name": "TP-Link Archer AX53 AX3000 Dual Band Gigabit Wi-Fi Router",
-  "b_name": "TP-Link Archer AX53 AX3000 Dual Band Gigabit Wi-Fi 6 Router"
- },
- {
-  "a": "tp-link-tl-r470t-5-port-multi-wan-load-balance-broadband-router",
-  "b": "tp-link-tl-r470t-plus-5-port-multi-wan-load-balance-broadband-router",
-  "score": 0.92,
-  "a_name": "TP-Link TL-R470T+ 5-Port Multi Wan Load Balance Broadband Router",
-  "b_name": "TP-Link TL-R470T Plus 5-Port Multi Wan Load Balance Broadband Router"
- },
- {
-  "a": "dahua-dh-hac-hdw1209tlqp-a-led-hac-hdw1209clqp-a-led-2m-color-hdcvi-dome-camera",
-  "b": "dahua-dh-hac-hdw1209tlqp-a-led-2m-color-hdcvi-dome-camera",
-  "score": 0.92,
-  "a_name": "Dahua DH-HAC-HDW1209TLQP-A-LED/HAC-HDW1209CLQP-A-LED 2M Color HDCVI Dome Camera",
-  "b_name": "Dahua DH-HAC-HDW1209TLQP-A-LED 2M Color HDCVI Dome Camera"
- },
- {
-  "a": "xiaomi-wanbo-mozart-1-900-lumens-smart-android-portable-led-projector",
-  "b": "xiaomi-wanbo-mozart-1-pro-900-lumens-smart-android-portable-led-projector",
-  "score": 0.92,
-  "a_name": "Xiaomi Wanbo Mozart 1 900 Lumens Smart Android Portable LED Projector",
-  "b_name": "Xiaomi Wanbo Mozart 1 Pro 900 Lumens Smart Android Portable LED Projector"
- },
- {
-  "a": "sony-vario-tessar-t-fe-16-35mm-f-4-za-oss-camera-lens",
-  "b": "sony-vario-tessar-t-fe-16-35mm-f-4-za-oss-lens",
-  "score": 0.92,
-  "a_name": "Sony Vario-Tessar T FE 16-35mm f/4 ZA OSS Camera Lens",
-  "b_name": "Sony Vario-Tessar T FE 16-35mm f/4 ZA OSS Lens"
- },
- {
-  "a": "sigma-16mm-f-1-4-dc-dn-contemporary-camera-lens-for-sony-e-mount",
-  "b": "sigma-16mm-f-1-4-dc-dn-contemporary-lens-for-sony-e-mount",
-  "score": 0.92,
-  "a_name": "Sigma 16mm f/1.4 DC DN Contemporary Camera Lens for Sony E-mount",
-  "b_name": "Sigma 16mm f/1.4 DC DN Contemporary Lens for Sony E Mount"
- },
- {
-  "a": "lenovo-thinkpad-e14-gen-7-core-ultra-5-225h-14-wuxga-laptop",
-  "b": "lenovo-thinkpad-e14-gen-7-intel-core-ultra-5-225h-14-inch-wuxga-laptop",
-  "score": 0.91,
-  "a_name": "Lenovo ThinkPad E14 Gen 7 Core Ultra 5 225H 14\" WUXGA Laptop",
-  "b_name": "Lenovo ThinkPad E14 Gen 7 Intel Core Ultra 5 225H 14 Inch WUXGA Laptop"
- },
- {
-  "a": "lenovo-ideapad-slim-3-15irh10-core-i5-13th-gen-15-3-wuxga-laptop-with-freedos",
-  "b": "lenovo-ideapad-slim-3-15irh10-core-i5-13th-gen-15-3-wuxga-laptop",
-  "score": 0.91,
-  "a_name": "Lenovo IdeaPad Slim 3 15IRH10 Core i5 13th Gen 15.3\" WUXGA Laptop With FreeDOS",
-  "b_name": "Lenovo IdeaPad Slim 3 15IRH10 Core i5 13th Gen 15.3\" WUXGA Laptop"
- },
- {
-  "a": "lenovo-thinkpad-e14-gen-7-core-ultra-5-225u-14-wuxga-laptop",
-  "b": "lenovo-thinkpad-e14-gen-7-intel-core-ultra-5-225u-14-inch-wuxga-laptop",
-  "score": 0.91,
-  "a_name": "Lenovo ThinkPad E14 Gen 7 Core Ultra 5 225U 14\" WUXGA Laptop",
-  "b_name": "Lenovo ThinkPad E14 Gen 7 Intel Core Ultra 5 225U 14 Inch WUXGA Laptop"
- },
- {
-  "a": "dell-ec24250-intel-core-7-150u-23-8-fhd-display-all-in-one-pc",
-  "b": "dell-ec24250-intel-core-7-150u-23-8-inch-fhd-all-in-one-pc",
-  "score": 0.91,
-  "a_name": "Dell EC24250 Intel Core 7 150U 23.8\" FHD Display All-in-One PC",
-  "b_name": "Dell EC24250 Intel Core 7 150U 23.8-inch FHD All-in-One PC"
- },
- {
-  "a": "asus-prime-h510m-e-csm-intel-11th-and-10th-gen-micro-atx-motherboard",
-  "b": "asus-prime-h510m-e-intel-10th-and-11th-gen-micro-atx-motherboard",
-  "score": 0.91,
-  "a_name": "Asus Prime H510M-E/CSM Intel 11th and 10th Gen Micro ATX Motherboard",
-  "b_name": "Asus Prime H510M-E Intel 10th and 11th Gen Micro ATX Motherboard"
- },
- {
-  "a": "msi-geforce-rtx-5060-8g-shadow-2x-oc-8gb-gddr7-graphics-card",
-  "b": "msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-graphics-card",
-  "score": 0.91,
-  "a_name": "MSI GeForce RTX 5060 8G SHADOW 2X OC 8GB GDDR7 Graphics Card",
-  "b_name": "MSI GeForce RTX 5060 SHADOW 2X OC 8GB GDDR7 Graphics Card"
- },
- {
-  "a": "msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-graphics-card",
-  "b": "msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-graphics-card",
-  "score": 0.91,
-  "a_name": "MSI GeForce RTX 5060 8G VENTUS 2X OC 8GB GDDR7 Graphics Card",
-  "b_name": "MSI GeForce RTX 5060 VENTUS 2X OC 8GB GDDR7 Graphics Card"
- },
- {
-  "a": "msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-gddr7-graphics-card",
-  "b": "msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-graphics-card",
-  "score": 0.91,
-  "a_name": "MSI GeForce RTX 5070 12G VENTUS 2X OC 12GB GDDR7 Graphics Card",
-  "b_name": "MSI GeForce RTX 5070 12G VENTUS 2X OC 12GB Graphics Card"
- },
- {
-  "a": "powercolor-hellhound-spectral-white-amd-radeon-rx-9060-xt-16gb-gddr6-graphics-ca",
-  "b": "powercolor-hellhound-spectral-white-amd-radeon-rx-9060-xt-16gb-graphics-card",
-  "score": 0.91,
-  "a_name": "PowerColor Hellhound Spectral White AMD Radeon RX 9060 XT 16GB GDDR6 Graphics Card",
-  "b_name": "PowerColor Hellhound Spectral White AMD Radeon RX 9060 XT 16GB Graphics Card"
- },
- {
-  "a": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card",
-  "b": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-white-graphics-card",
-  "score": 0.91,
-  "a_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card",
-  "b_name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition White Graphics Card"
- },
- {
-  "a": "gigabyte-geforce-rtx-5060-ti-windforce-max-oc-16g-gddr7-graphics-card",
-  "b": "gigabyte-geforce-rtx-5060-ti-windforce-max-16g-gddr7-graphics-card",
-  "score": 0.91,
-  "a_name": "Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC 16G GDDR7 Graphics Card",
-  "b_name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX 16G GDDR7 Graphics Card"
+  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case",
+  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
+  "score": 1.0,
+  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
+  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
  }
 ]
