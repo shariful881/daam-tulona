@@ -13,7 +13,7 @@
 {% block top %}
 {% if ticker %}
 <div class="tkbar" id="tkbar" role="region" aria-label="আজকের দাম বদল"><div class="col tkin"><span class="tklive"><i></i>লাইভ</span>
-  <div class="tkview"><div class="tktrack">{% for r in range(2) %}{% for t in ticker %}<a class="tki {{ 'up' if t.up else 'dn' }}" href="{{ base }}/{{ t.href }}"{% if r %} aria-hidden="true" tabindex="-1"{% endif %}>{% if t.cat %}<b>{{ t.label }}</b>{% else %}{{ t.label | truncate(38, True, "…") }} <b>{{ t.price | taka }}</b>{% endif %} {{ "▲" if t.up else "▼" }} {{ pct(t.pct) }}%</a>{% endfor %}{% if not r %}<span class="tkgap" aria-hidden="true"></span>{% endif %}{% endfor %}</div></div>
+  <div class="tkview"><div class="tktrack">{% for r in range(2) %}{% for t in ticker %}<a class="tki {{ 'info' if (t.info or t.new) else 'up' if t.up else 'dn' }}" href="{{ base }}/{{ t.href }}"{% if r %} aria-hidden="true" tabindex="-1"{% endif %}>{% if t.info %}<b>{{ t.label }}</b>{% elif t.note %}{% if t.new %}<span class="tkn">নতুন</span> {% endif %}{{ t.label | truncate(38, True, "…") }} <b>{{ t.price | taka }}</b>{% if t.deal %} · {{ t.note }}{% endif %}{% elif t.cat %}<b>{{ t.label }}</b> {{ "▲" if t.up else "▼" }} {{ pct(t.pct) }}%{% else %}{{ t.label | truncate(38, True, "…") }} <b>{{ t.price | taka }}</b> {{ "▲" if t.up else "▼" }} {{ pct(t.pct) }}%{% endif %}</a>{% endfor %}{% if not r %}<span class="tkgap" aria-hidden="true"></span>{% endif %}{% endfor %}</div></div>
   <button type="button" class="tkx" id="tkx" aria-label="দাম আপডেটের লাইন লুকান" title="লুকান">✕</button></div></div>
 <div class="col tkopen-w"><button type="button" class="tkopen" id="tkopen" hidden>▼ আজকের দাম বদল দেখুন</button></div>
 {% endif %}

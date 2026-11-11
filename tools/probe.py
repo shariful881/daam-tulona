@@ -45,7 +45,7 @@ def main(urls):
                            title=(re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) or [None, ""])[1].strip()[:150],
                            cloudflare=("cf-ray" in r.headers) and ("Just a moment" in h or r.status_code in (403, 503)),
                            server=r.headers.get("server"))
-                (OUT / f"{i:02d}.html").write_text(h[:600000])
+                (OUT / f"{i:02d}.html").write_text(h if "<urlset" in h[:3000] or "<sitemapindex" in h[:3000] else h[:600000])  # sitemap পুরোটা
                 row["file"] = f"{i:02d}.html"
             except Exception as e:
                 row["error"] = str(e)[:300]
