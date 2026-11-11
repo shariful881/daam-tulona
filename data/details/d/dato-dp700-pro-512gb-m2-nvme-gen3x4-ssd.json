@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "PCIe Gen3*4 / NVMe 1.3",
+   "Sequential R/W": "Max sequential read speed 3100MB/s\nMax sequential write speed 3000MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "45°C to 85°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "80 mm x 22 mm x 3.8 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "DP700 PRO"
+  }
+ },
+ "key_features": [],
+ "model": "DP700 PRO",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T10:09+06:00",
+ "source": "https://www.creatus.com.bd/dato-dp700-pro-512gb-m-2-nvme-ssd",
+ "store": "creatus"
+}

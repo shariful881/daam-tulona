@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Temperature": {
+   "Operating Temperature": "0°C ~ +70°C",
+   "Storage Temperature": "-45°C ~ +85°C",
+   "Shock resistance": "1500G"
+  },
+  "Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5\"",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III",
+   "Sequential Write Speed": "Up to 400 MB/s",
+   "Sequential Read Speed": "Up to 500 MB/s",
+   "MTBF": "1,000,000 hours"
+  },
+  "Physical Specification": {
+   "Dimension (L x W x H)": "100 x 70 x 7 mm",
+   "Weight": "100g"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "SL500 256GB"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Form Factor: 2.5\"",
+  "Flash Type: 3D NAND",
+  "Interface: SATA III"
+ ],
+ "model": "SL500 256GB",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.creatus.com.bd/colorful-sl500-256gb-ssd",
+ "store": "creatus"
+}

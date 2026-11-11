@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Core Clock": "OC mode: up to 3330 MHz (Boost Clock) / up to 2760 MHz (Game Clock) | Default mode: up to 3310 MHz (Boost Clock) / up to 2740 MHz (Game Clock)",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "CUDA Cores": "N/A",
+   "Memory Bandwidth": "N/A",
+   "Memory Interface": "128-bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x Native DisplayPort 2.1a",
+   "HDMI": "1x Native HDMI 2.1b",
+   "DVI Port": "N/A",
+   "HDCP": "HDCP 2.3",
+   "D-Sub": "N/A"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W",
+   "Power Consumption": "N/A"
+  },
+  "Display Option": {
+   "Multi Display": "4",
+   "Multi Display Capability": "Yes"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "N/A",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "304 x 126 x 50mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Manufacturing Warranty"
+  },
+  "Image": {
+   "Model": "PRIME-RX9060XT-O16G"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Max. 3330 MHz (OC), Max. 3310 MHz (Default)",
+  "Memory Speed: 20 Gbps, 2048 Stream Processors",
+  "Output Ports: 1x Native HDMI 2.1b, 3x Native DisplayPort 2.1a"
+ ],
+ "model": "PRIME-RX9060XT-O16G",
+ "warranty": "3 Years Manufacturing Warranty",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-radeon-rx-9060-xt-16gb-gddr6-oc-edition-graphics-card",
+ "store": "creatus"
+}

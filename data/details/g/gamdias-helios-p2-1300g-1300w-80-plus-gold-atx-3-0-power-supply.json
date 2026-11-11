@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Certification": "80 PLUS Gold",
+   "CPU": "1 (4+4 Pin) / 1 (8Pin)",
+   "Efficiency (Approx.)": "92% efficiency",
+   "Fan Size": "135mm dual ball bearing silent fan",
+   "Modular Type": "Fully Modular",
+   "Molex": "4 (4 Pin)",
+   "Floppy": "1 (4 Pin)\n12VHPWR: 1 (12+4 Pin)"
+  },
+  "Features": {
+   "Others": "ATX 3.0 & PCIe Gen 5.0 Ready\nPower Factor Correction: APFC with PF value of 0.99\n100% Industrial-grade Japanese Capacitors\nNative 12VHPWR Cable\nFull DC-DC, LLC Resonant Circuit Design\nHeavy-duty Protection: OVP/UVP/OPP/SCP/OCP/OTP"
+  },
+  "Output": {
+   "Total Power": "1300W",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb",
+   "Peak Power": "1690W"
+  },
+  "Connectors": {
+   "Main Power": "1 (24 Pin)",
+   "SATA": "12 (5 Pin)",
+   "AC Input": "100-240V~ / 15-8A / 50-60Hz"
+  },
+  "Input": {
+   "Current": "15-8A",
+   "Frequency Range": "50-60Hz",
+   "Voltage": "100-240V"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Total Output Power: 1300 Watt",
+  "Form Factor: ATX 3.0, Fully Modular",
+  "Certification: 80 PLUS Gold Certified"
+ ],
+ "warranty": "10 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.pchouse.com.bd/gamdias-helios-p2-1300g-1300w-80-plus-gold-atx-3.0-power-supply",
+ "store": "pchouse"
+}

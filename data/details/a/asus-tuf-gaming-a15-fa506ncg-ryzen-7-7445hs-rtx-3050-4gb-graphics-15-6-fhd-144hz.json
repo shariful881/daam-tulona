@@ -1,0 +1,109 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 7 7445HS",
+   "Generation": "7000 Series",
+   "Processor Frequency": "Up to 4.7GHz",
+   "Processor Core": "6-Cores",
+   "Processor Thread": "12-Threads",
+   "CPU Cache": "22MB"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "Value IPS-level",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "144Hz",
+   "Display Features": "16:9, Anti-glare display, sRGB:62.5%, Adobe:47.34%, Adaptive-Sync, Optimus, Anti-glare display"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Removable": "Yes",
+   "Bus Speed": "5600Mhz",
+   "Total RAM Slot": "2",
+   "Max RAM Capacity": "up to 64GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "Yes",
+   "Supported SSD Type": "2x M.2 slots (support either SATA or NVMe)\nM.2 SSD Support List:\nM.2 512GB G4x4 PCIe SSD\nM.2 1TB G4x4 PCIe SSD",
+   "Storage Upgrade": "M.2 NVMe PCIe 4.0 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050 Laptop GPU, Up to 1675MHz at 60W (75W with Dynamic Boost)",
+   "Graphics Memory": "4GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "1-Zone RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "720P HD camera",
+   "Speaker": "2-speaker system",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "AI noise-canceling technology\nDTS Audio Processing\nHi-Res certification (for headphones)"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 2.1 TMDS",
+   "USB 3 Port": "3x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C with support for DisplayPort (data speed up to 10Gbps)",
+   "Headphone & Microphone Port": "1 x 3.5 mm combo audio jack"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x RJ45 10/100/1000 Mbps LAN port",
+   "WiFi": "Wi-Fi 6(802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Power": {
+   "Battery Type": "3S1P, 3-cell Li-ion",
+   "Battery Capacity": "48WHrs",
+   "Adapter Type": "ø6.0, 180W AC Adapter, Output: 20V DC, 9A, 180W, Input: 100~240V AC, 50/60Hz universal"
+  },
+  "Physical Specification": {
+   "Color": "Graphite Black",
+   "Dimensions": "35.9 x 25.6 x 2.28 ~ 2.45 cm (14.13\" x 10.08\" x 0.90\" ~ 0.96\")",
+   "Weight": "2.30 Kg (5.07 lbs)"
+  },
+  "Warranty": {
+   "Warranty Details": "02 years International Limited Warranty (Battery 1 year)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 7445HS (22MB Cache, Up to 4.7GHz)",
+  "RAM: 8GB DDR5-5600, Storage: 512GB PCIe 4.0 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 3050 4GB GDDR6, Up to 1675MHz",
+  "Features: RGB Backlit Keyboard, Wi-Fi 6, Type-C, 144Hz Display"
+ ],
+ "price": 128000134800,
+ "regular": 143000,
+ "status": "In Stock",
+ "code": "46645",
+ "brand": "Asus",
+ "mpn": "FA506NCG-HN223W",
+ "model": "TUF Gaming A15 FA506NCG",
+ "warranty": "02 years International Limited Warranty (Battery 1 year)",
+ "name": "ASUS TUF Gaming A15 FA506NCG Ryzen 7 7445HS RTX 3050 4GB Graphics 15.6\" FHD 144Hz Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "Gaming Laptop",
+  "Asus",
+  "ASUS TUF Gaming A15 FA506NCG Ryzen 7 7445HS RTX 3050 4GB Graphics 15.6\" FHD 144Hz Laptop"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-a15-fa506ncg-laptop",
+ "store": "startech"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.00 GHz",
+   "Cache": "36 MB",
+   "Cores": "24",
+   "Default TDP": "125W",
+   "Maximum Turbo Frequency": "5.80 GHz",
+   "Threads": "32"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.65 GHz",
+   "Processor Graphics": "Intel UHD Graphics 770"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160 @ 60Hz",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Type": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.00 GHz up to 5.80 GHz",
+  "Cache: 36 MB Intel Smart Cache",
+  "CPU Cores: 24, CPU Threads: 32",
+  "Socket: LGA1700"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-13th-gen-core-i9-13900k-processor",
+ "store": "pchouse"
+}

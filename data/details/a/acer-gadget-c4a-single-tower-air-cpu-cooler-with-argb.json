@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler (Single Tower)",
+   "Noise": "20-36 dBA",
+   "Air Pressure": "Not specified (Max Airflow: 76.5 CFM)",
+   "Bearing Type": "Hydraulic / Rifle Bearing (Standard for Class)",
+   "Connectors": "4-Pin PWM Fan Connector & 3-Pin ARGB LED Connector",
+   "LED Type": "Addressable RGB (ARGB)",
+   "LED Number": "Built-in ARGB Lighting",
+   "Material": "Aluminium Heatsink with Copper Heat Pipes",
+   "Speed": "800-2300 RPM ±10%",
+   "Current": "Not specified",
+   "Power Consumption": "TDP: 210W",
+   "Voltage": "12V DC (Standard Fan Rating)"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X / 1200 / 1700 / 1851 / 1366",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "Gadget C4A"
+  }
+ },
+ "key_features": [],
+ "model": "Gadget C4A",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.creatus.com.bd/acer-gadget-c4a-single-tower-air-cpu-cooler-with-argb",
+ "store": "creatus"
+}

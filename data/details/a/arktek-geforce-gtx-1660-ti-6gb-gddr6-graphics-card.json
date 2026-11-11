@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680 x 4320 @60HZ Max",
+   "Core Clock": "1500~1770MHz",
+   "Memory Clock": "12Gbps",
+   "BUS Type": "PCI Express Gen3",
+   "Memory Interface": "192-bit",
+   "Stream Processors": "1536SP"
+  },
+  "Interface": {
+   "Display Port": "1 x DP",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "450W",
+   "Consumption": "Power Consumption: 120W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 1500 ~ 1770 MHz",
+  "Stream Processors: 1536SP",
+  "Memory Clock: 12Gbps",
+  "Display Outputs: 1 x DP 1 x HDMI 1 x DVI"
+ ],
+ "price": 2899929500,
+ "regular": 30950,
+ "status": "In Stock",
+ "code": "47975",
+ "brand": "ARKTEK",
+ "model": "NVIDIA Geforce GTX 1660 Ti",
+ "warranty": "2 Years",
+ "name": "ARKTEK GeForce GTX 1660 Ti 6GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ARKTEK",
+  "ARKTEK GeForce GTX 1660 Ti 6GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.startech.com.bd/arktek-geforce-gtx-1660ti-6gb-graphics-card",
+ "store": "startech"
+}

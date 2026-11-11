@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 4.0 NVMe",
+   "Sequential R/W": "Maximum Read Transfer Rate: 6,000MB/s\nMaximum Write Transfer Rate: 4,000MB/s",
+   "MTBF": "2,000,000 hours",
+   "TBW": "320TB",
+   "Others": "3D NAND Technology"
+  },
+  "Physical Specification": {
+   "Dimension": "22mm x 80mm x 2.2mm",
+   "Weight": "7g (all capacities)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-40°C~85°C",
+   "Vibration Resistance": "Vibration operating: 2.17G (7-800 Hz)\nVibration non-operating: 10G (10-1000Hz)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe 4.0 x4 NVMe",
+  "Storage Capacity: 1TB",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 6,000/4,000MB/s"
+ ],
+ "price": 2190022500,
+ "regular": 24750,
+ "status": "In Stock",
+ "code": "37953",
+ "brand": "Kingston",
+ "mpn": "SNV3S/1000G",
+ "model": "NV3",
+ "warranty": "03-Year Warranty",
+ "name": "Kingston NV3 1TB M.2 PCIe Gen 4.0 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Kingston",
+  "Kingston NV3 1TB M.2 PCIe Gen 4.0 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/kingston-nv3-1tb-nvme-ssd",
+ "store": "startech"
+}

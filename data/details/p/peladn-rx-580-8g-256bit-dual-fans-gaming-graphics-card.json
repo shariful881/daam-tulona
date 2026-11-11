@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "I/O Specifications": "3DP+HDMI",
+   "Memory Size": "8GB",
+   "Memory Type": "GDDR5",
+   "CUDA Cores (Nvidia)": "2048",
+   "Core Clock": "1244MHz",
+   "Memory Clock": "7000MHz",
+   "Memory Bus (Bit)": "256bit",
+   "Power Consumption": "150W",
+   "Power Connector (Pin)": "6 Pin",
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.6",
+   "Dimensions": "226×114×44mm",
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "PELADN RX 580 8G"
+  }
+ },
+ "key_features": [
+  "Graphics Ram Size: 8G",
+  "Graphics Ram: GDDR5",
+  "Core Frequency: 1244MHz",
+  "Memory Clock Speed: 7000MHz"
+ ],
+ "model": "PELADN RX 580 8G",
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.creatus.com.bd/peladn-rx-580-8g-gaming-graphics-card",
+ "store": "creatus"
+}

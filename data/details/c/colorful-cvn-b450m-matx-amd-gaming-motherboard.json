@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Socket AM4 And Ryzen Series CPUs",
+   "Chipset": "AMD B450",
+   "Form Factor": "190 X 215 Mm MATX"
+  },
+  "Memory": {
+   "Slots": "1 X PCI Express3.0X16 Slot 1 X M.2\n4 X SATA3.0 6Gb/S Ports 6 X USB Ports\nOn The Back Panel 4 X SATA DVI Port X 1 HDMI Port X 1"
+  },
+  "Supported Memory": {
+   "RAM Type": "DDR4",
+   "RAM Bus": "1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 /",
+   "RAM Max": "Up To 128 GB",
+   "RAM Slot": "4 X DDR4 Slots"
+  },
+  "LAN Port (s)": {
+   "LAN Chipset": "Realtek RTL8111H 1000M LAN",
+   "LAN Speed": "10/100/1000Mbps"
+  },
+  "Audio": {
+   "Audio Chipset": "Realtek ALC662 Codec",
+   "Audio Channel": "7.1 Channel",
+   "Video Chipset": "Integrated Graphics Processor"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "CVN B450M GAMING V14"
+  },
+  "Product List": {
+   "Colorful (Ryzen) Motherboard List Price in BD": "Price"
+  }
+ },
+ "key_features": [
+  "AMD Ryzen Compatibility: Engineered to support AMD Socket AM4 and Ryzen series CPUs, ensuring seamless integration and optimal performance.",
+  "Integrated Graphics Support: Inclusion of an integrated graphics processor for systems without a dedicated GPU, ensuring basic display functionality.",
+  "Gaming-Optimized Design: Features tailored for gaming, including multi-GPU support and overclocking capabilities for enhanced gaming performance.",
+  "User-Friendly BIOS: Intuitive BIOS interface allowing for easy customization and optimization of system settings for enhanced performance."
+ ],
+ "model": "CVN B450M GAMING V14",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T10:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-cvn-b450m-matx-amd-gaming-motherboard",
+ "store": "creatus"
+}

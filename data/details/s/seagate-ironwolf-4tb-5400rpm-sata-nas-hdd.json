@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "4TB",
+   "Interface": "SATA 6.0Gb/s",
+   "Disk Type": "SATA NAS HDD",
+   "RPM": "5400RPM",
+   "Read/Write Speed": "202MB/s",
+   "Data Transfer Speed": "202MB/s"
+  },
+  "Others": {
+   "Load/Unload Cycles": "600,000",
+   "MTBF": "1,000,000"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 4TB Storage",
+  "Interface: SATA 6Gb/s",
+  "RPM: 5400 RPM",
+  "Transfer Rate: 202MB/s"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.pchouse.com.bd/seagate-ironwolf-4tb-5400rpm-sata-nas-hdd",
+ "store": "pchouse"
+}

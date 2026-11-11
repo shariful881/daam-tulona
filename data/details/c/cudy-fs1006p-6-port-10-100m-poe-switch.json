@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Port": {
+   "POE port output": "DC 52V",
+   "PoE port": "1-4",
+   "PoE output-port": "Max 30W"
+  },
+  "Data Transmission Rate": {
+   "MAC Address Table": "1K MAC address table"
+  },
+  "Environment": {
+   "Others": "Interface: 6x10/100Mbps RJ45 port"
+  },
+  "Power Supply": {
+   "Power supply": "65W",
+   "Power Pin": "Power over spare pairs 1/2(+), 3/6 (-)"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year"
+  },
+  "Image": {
+   "Model": "FS1006P"
+  },
+  "Product List": {
+   "Best CUDY Network Switch Price List in Bangladesh": "Price",
+   "Cudy FS1010P 8 Port PoE+ Unmanaged Switch": "3,150৳\n3,300৳"
+  }
+ },
+ "key_features": [],
+ "model": "FS1006P",
+ "warranty": "01-Year",
+ "fetched": "2026-11-11T09:36+06:00",
+ "source": "https://www.creatus.com.bd/cudy-fs1006p-6-port-10100m-poe-switch",
+ "store": "creatus"
+}

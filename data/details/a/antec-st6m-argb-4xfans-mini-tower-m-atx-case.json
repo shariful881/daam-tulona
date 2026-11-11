@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Case Type": {
+   "Tempered Glass Panel": "N/A",
+   "Front Panel": "Mesh Front Panel",
+   "Motherboard Support": "Micro-ATX, ITX",
+   "Material": "Steel + Plastic",
+   "Side Panel": "Solid Side Panel with Side Vent",
+   "Others": "Mini Tower"
+  },
+  "Additional Feature": {
+   "Compatible Liquid Coolers": "N/A",
+   "PSU": "Maximum PSU Length: ≤ 245mm (including cable)"
+  },
+  "External Features": {
+   "Expansion Slots": "4",
+   "Radiator Support": "N/A",
+   "Fan Support": "Front: 3x 90mm; Rear: 1x 80mm / 90mm",
+   "Pre- Installed Fans": "3 x 90mm ARGB fans at the front + 1 x 90mm fan at the rear",
+   "Drive Bays": "3.5\": 1; 2.5\": 1",
+   "I/O Port": "Power, Reset, USB 3.0 x 1, USB 2.0 x 1, Mic/HD-Audio",
+   "Color(s)": "Black",
+   "Dimensions": "285 x 160 x 380mm (DWH)",
+   "Weight": "1.69 kg"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 145mm",
+   "Maximum Graphics Card Length": "≤ 245mm",
+   "Maximum PSU Length": "≤ 245mm (including cable)"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  },
+  "Image": {
+   "Model": "ST6M ARGB"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Micro-ATX, ITX",
+  "Pre-Install Fans: 3x 90mm ARGB in Front, 1x 80mm in Rear",
+  "I/O Ports: 1x USB3.0, 1x USB2.0, 1x Mic/ HD-Audio"
+ ],
+ "model": "ST6M ARGB",
+ "warranty": "No Warranty",
+ "fetched": "2026-11-11T09:56+06:00",
+ "source": "https://www.creatus.com.bd/antec-st6m-argb-casing",
+ "store": "creatus"
+}

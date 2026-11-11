@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "Engine Clock(STD/Silent): up to 1920MHz(Game), up to 2600MHz(Boost)",
+   "BUS Type": "PCIE 5.0 x16",
+   "Memory Interface": "128-bit",
+   "Stream Processors": "1024 Units",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nAMD RDNA 4 Architecture\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "1 x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "One 8-pin PCI Express Power connector",
+   "Recommended PSU": "450W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "200mm*100mm*39mm\n220mm*120mm*40mm(with bracket)",
+   "Others": "Slot: 2"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 1920MHz (Game) / 2600MHz (Boost)",
+  "Memory Speed: 18.0 Gbps, Memory Interface: 128-bit",
+  "Stream Processors: 1024 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 1 x HDMI 2.1b，2 x DisplayPort 2.1a"
+ ],
+ "price": 4570046200,
+ "regular": 49910,
+ "status": "In Stock",
+ "code": "52640",
+ "brand": "PowerColor",
+ "mpn": "RX9050 8G-A",
+ "model": "Reaper AMD Radeon RX 9050 8GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Reaper AMD Radeon RX 9050 8GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Reaper AMD Radeon RX 9050 8GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.startech.com.bd/powercolor-reaper-amd-radeon-rx-9050-8gb-graphics-card",
+ "store": "startech"
+}

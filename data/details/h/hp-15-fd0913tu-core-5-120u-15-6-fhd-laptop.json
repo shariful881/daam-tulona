@@ -1,0 +1,90 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 5-120u",
+   "Processor Frequency": "Up to 5 GHz with Intel Turbo Boost Technology",
+   "Processor Core": "10",
+   "Processor Thread": "12",
+   "CPU Cache": "12 MB L3 cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6-Inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Touch Screen": "N/A",
+   "Display Features": "micro-edge, anti-glare, 250 nits, 62.5% sRGB"
+  },
+  "Memory": {
+   "RAM": "16GB (2 x 8GB)",
+   "RAM Type": "DDR5",
+   "Removable": "Yes",
+   "Total RAM Slot": "2"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe M.2 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris X Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size keyboard",
+   "TouchPad": "HP Imagepad; Precision Touchpad support",
+   "Keyboard Features": "Full-size, soft gray keyboard with numeric keypad"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 1080p FHD camera with temporal noise reduction",
+   "Speaker": "Dual speakers",
+   "Microphone": "integrated dual array digital microphones",
+   "Audio Features": "Mic mute key"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Realtek Wi-Fi 6 (2×2)",
+   "Bluetooth": "Bluetooth 5.4 Wireless Card"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "1x USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Physical Specification": {
+   "Color": "Moonlight Blue",
+   "Dimensions": "35.98 x 23.6 x 1.86 cm",
+   "Weight": "1.59 kg"
+  },
+  "Power": {
+   "Battery Type": "3-cell, Li-ion polymer",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "45 W Smart AC power adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5-120u (12MB L3 Cache, Up to 5 GHz)",
+  "RAM: 16GB DDR5, Storage: 512GB PCIe NVMe M.2 SSD",
+  "Display: 15.6\" FHD (1920 x 1080), anti-glare, 250 nits, 62.5% sRGB",
+  "Features: Privacy Shutter, Type-C, Wi-Fi 6"
+ ],
+ "warranty": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 ",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.pchouse.com.bd/hp-15-fd0913tu-core-5-120u-15-6-inch-fhd-laptop",
+ "store": "pchouse"
+}

@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 &\n8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD X870E",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "ATX",
+   "Audio": "Realtek ALC1220P 7.1 Surround Sound\nHigh Definition Audio CODEC"
+  },
+  "Expansion Slots": {
+   "M.2 Socket": "Supports 4 x M.2"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to 8000+MT/s(OC) with Ryzen™\n9000 & 8000 & 7000 Series Processors\nDual channel memory architecture\nSupports AMD Extended Profiles for\nOverclocking (EXPO™)\nSupports DIMM Fit / DIMM Fit Pro\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "256GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "LAN Port (s)": "1 x Realtek 5Gb Ethernet\nASUS LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology*\nRyzen™ 9000 Series Processors: RAID\n0/1/5/10\nRyzen™ 8000 Series Processors: RAID 0/1\nRyzen™ 7000 Series Processors: RAID 0/1/10\n* Specifications vary by CPU types."
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Socket AM5 for AMD Ryzen 9000/8000 & 7000 Series Processors",
+  "Supported Memory: 4 x DDR5 DIMM, up to 8000+MT/s(OC), Max. 256GB",
+  "Graphics : 1 x HDMI , 2x USB4 (up to 40Gbps transfer rate)",
+  "Features: 1 x Realtek 5Gb Ethernet, Wi-Fi 7, Bluetooth V5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:45+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-strix-x870e-h-gaming-wifi7-motherboard",
+ "store": "pchouse"
+}

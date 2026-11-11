@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Sheet-feed Scanner",
+   "Interface": "USB 3.0",
+   "Resolution": "600 x 600 dpi",
+   "Speed": "Up to 40 ppm/80 ipm"
+  },
+  "General Information": {
+   "Dimensions": "300 x 172 x 154 mm"
+  },
+  "Specification": {
+   "Duty Cycle (Daily)": "4000 Pages",
+   "Max. Scan Paper Size ADF": "8.5 x 122 Inch",
+   "Scan Drivers Included": "HP WIA scan driver, HP TWAIN scan driver (32-bit and 64-bit), HP Scan, HP Scanner Tools Utility, OpenText ISIS",
+   "Scan Technology": "CMOS CIS (Contact Image Sensor)",
+   "Sheet Capacity (ADF)": "50 Sheets"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Weight": "2.7 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year (Without Adapter) (Box Mandatory While Claiming)\nShow Additional Information"
+  },
+  "Image": {
+   "Model": "ScanJet Pro 3000 s4"
+  }
+ },
+ "key_features": [],
+ "model": "ScanJet Pro 3000 s4",
+ "warranty": "1 Year (Without Adapter) (Box Mandatory While Claiming)",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.creatus.com.bd/hp-scanjet-pro-3000-s4-sheet-feed-scanner",
+ "store": "creatus"
+}

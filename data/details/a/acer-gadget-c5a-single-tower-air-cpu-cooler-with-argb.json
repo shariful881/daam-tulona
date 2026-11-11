@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Single Tower Air CPU Cooler",
+   "Noise": "20-36 dBA",
+   "Air Pressure": "Max Airflow: 76.5 CFM",
+   "Bearing Type": "Hydraulic / Rifle Bearing (Standard class)",
+   "Connectors": "4-Pin PWM (Fan) / 3-Pin 5V ARGB (LED)",
+   "LED Type": "Addressable RGB (ARGB)",
+   "LED Number": "Standard ARGB Fan Integration",
+   "Material": "Aluminum Fins / Copper Heat Pipes",
+   "Speed": "800 - 2300 RPM ± 10%",
+   "Power Consumption": "TDP Support: up to 230W",
+   "Voltage": "12V (Fan) / 5V (ARGB)"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X / 1200 / 1700 / 1851 / 1366",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "Gadget C5A"
+  }
+ },
+ "key_features": [],
+ "model": "Gadget C5A",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.creatus.com.bd/acer-gadget-c5a-air-cpu-cooler",
+ "store": "creatus"
+}

@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5\" SATAIII (6Gb/s)"
+  },
+  "Sequential R/W": {
+   "Max sequential read speed": "545MB/s",
+   "Max sequential write speed": "435MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "100 mm x 69 mm x 7 mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-45°C to 85°C"
+  },
+  "Warranty": {
+   "Warranty Details": "3 years limited warranty"
+  }
+ },
+ "key_features": [
+  "Max sequential read speed:545MB/s",
+  "Form factor:2.5\" SATAIII (6Gb/s)",
+  "Capacity:256GB",
+  "Max sequential write speed:435MB/s"
+ ],
+ "warranty": "3 years limited warranty",
+ "fetched": "2026-11-11T09:24+06:00",
+ "source": "https://fourstarit.com.bd/p/dato-ds700-256gb-25-sata-ssd",
+ "store": "fourstar"
+}

@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Battery/ Battery Capacity": "10000mAh / 3.7V（37Wh)",
+   "Interface": "2 x USB Type A port\n1 x USB Type-C\n1x Type-C Cable (Built in)"
+  },
+  "Output Interface": {
+   "USB-C": "5V/3A (15W max)",
+   "USB-A 1": "5V/3A (15W max)",
+   "USB-2 1": "5V/3A (15W max)",
+   "Total Output": "5V/3A (15W max)"
+  },
+  "Physical Specification": {
+   "Color": "Purple",
+   "Dimensions": "105*67*25mm",
+   "Weight": "203g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 Month Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 10000mAh/3.7V (37Wh)",
+  "Interface: 2 x USB, 1x Type-C",
+  "Output: 15W Max"
+ ],
+ "warranty": "3 Month Warranty",
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://fourstarit.com.bd/p/baseus-qpow-bs-p1001c-10000mah-power-bank",
+ "store": "fourstar"
+}

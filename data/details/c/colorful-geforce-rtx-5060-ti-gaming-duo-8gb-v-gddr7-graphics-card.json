@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Core Clock": "Base: 2407Mhz；Boost: 2572Mhz",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "4608"
+  },
+  "Others": {
+   "NV technology Support": "DLSS 4/Reflex/Studio",
+   "Memory Bandwidth": "448GB/s"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DP2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "600W",
+   "Power Consumption": "8"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "200 x 120 x 40mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5060 Ti Gaming DUO 8GB-V"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, CUDA Cores: 3840",
+  "Core Clock: Base: 2407 Mhz; Boost: 2572 MHz",
+  "Memory Clock: 28 Gbps, Memory Bus Width: 128 bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "model": "GeForce RTX 5060 Ti Gaming DUO 8GB-V",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.creatus.com.bd/colorful-geforce-rtx-5060-ti-gaming-duo-8gb-v-graphics-card",
+ "store": "creatus"
+}

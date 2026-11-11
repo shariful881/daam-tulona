@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "12th Gen"
+  },
+  "Basic Information": {
+   "Base Frequency": "3.00 GHz",
+   "Maximum Turbo Frequency": "4.60 GHz",
+   "Cache": "18 MB Intel Smart Cache",
+   "Cores": "6",
+   "TDP": "Default TDP: 65W",
+   "Threads": "12",
+   "Series": "Core i5"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s Up to DDR4 3200 MT/s"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Core Count": "32",
+   "Max Dynamic Frequency": "1.45 GHz"
+  },
+  "Max Resolution": {
+   "HDMI": "4096 x 2160 @ 60Hz",
+   "DP": "7680 x 4320 @ 60Hz eDP - Integrated Flat Panel: 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  },
+  "Image": {
+   "Model": "i5-12500"
+  },
+  "Product List": {
+   "Best Intel Processor Price List In Bangladesh": "Price",
+   "Intel 12th Gen Core i5 12400 Alder Lake Processor": "17,799৳\n21,000৳",
+   "Intel Core i5-13400 Raptor Lake Processor": "27,300৳\n29,900৳",
+   "Intel Core i5 14500 14th Gen Raptor Lake Processor": "28,199৳\n31,100৳",
+   "Intel Core i7-12700K 12th Gen Processor": "31,500৳\n33,500৳"
+  }
+ },
+ "key_features": [
+  "CPU Cores: 6 Threads: 12",
+  "Cache: 18 MB Intel Smart Cache",
+  "Clock Speed: 3 GHz P-Core",
+  "Graphics: Intel UHD Graphics 770"
+ ],
+ "model": "i5-12500",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.creatus.com.bd/intel-12th-gen-core-i5-12500-alder-lake-processor",
+ "store": "creatus"
+}

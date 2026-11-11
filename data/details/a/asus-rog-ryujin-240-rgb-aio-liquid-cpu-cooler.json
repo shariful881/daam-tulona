@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one liquid CPU cooler",
+   "Noise": "Fan: 29.7 dB(A)",
+   "Connector": "PWM/ DC"
+  },
+  "Fan Speed": {
+   "Water Block Fan Speed": "4,800 RPM +/- 10%",
+   "Fan Speed": "450 - 2000 RPM +/- 10%"
+  },
+  "Fan Airflow": {
+   "Fan": "71.6 CFM / 121.8 m3h",
+   "Water Block": "19.41 CFM"
+  },
+  "Air Pressure": {
+   "Fan": "3.94 mmH2O",
+   "Water Block": "3.23 mmH2O"
+  },
+  "Material": {
+   "Block Material (CPU Plate)": "Copper",
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Others": {
+   "Display": "1.77\" Full Color OLED",
+   "AURA Sync Support": "Yes"
+  },
+  "Dimension": {
+   "Water block dimension": "100 x 100 x 70 mm",
+   "Fan Dimension": "120 x 120 x 25 mm",
+   "Tube Length": "380 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1150, 1151, 1152, 1155, 1156, 1200, 1366, 2011, 2011-3, 2066",
+   "AMD": "AM4, TR4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:44+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-ryujin-240-rgb-aio-liquid-cpu-cooler",
+ "store": "pchouse"
+}

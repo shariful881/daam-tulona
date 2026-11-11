@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "16GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "16-20-20"
+  },
+  "Physical dimension": {
+   "Dimension": "133.35mm x 34.1mm x 7.2mm"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Frequency: 3200MHz; CAS Latency: 16-20-20",
+  "Voltage: 1.35V; Form Factor: UDIMM",
+  "Operating Temperature : 0°C to 85°C",
+  "Dimensions: 133.35mm x 34.1mm x 7.2mm"
+ ],
+ "price": 1599916600,
+ "regular": 18100,
+ "status": "In Stock",
+ "code": "21450",
+ "brand": "Kingston",
+ "mpn": "KF432C16BB1/16",
+ "model": "FURY Beast",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Kingston FURY Beast 16GB 3200MHz DDR4 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Kingston",
+  "Kingston FURY Beast 16GB 3200MHz DDR4 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/kingston-fury-beast-16gb-3200mhz-ddr4-desktop-ram",
+ "store": "startech"
+}

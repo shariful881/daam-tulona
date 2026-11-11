@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "Gigabyte B760 GAMING X AX",
+   "Supported CPU": "LGA1700 socket: Support for the 13th and 12th Generation Intel Core, Pentium Gold and Celeron Processors"
+  },
+  "L3 cache varies with CPU": {
+   "Chipset": "Intel B760 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash"
+  },
+  "Use of licensed AMI UEFI BIOS": {
+   "Form Factor": "ATX Form Factor; 30.5cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU: 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16 (PCIEX16)\n* For optimum performance, if only one PCI Express graphics card is to be installed, be sure to install it in the PCIEX16 slot."
+  },
+  "Graphics:": {
+   "Graphics": "Integrated Graphics Processor-Intel HD Graphics support:"
+  },
+  "Connector & Ports:": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x DisplayPort",
+   "USB (s)": "Chipset:"
+  },
+  "Chipset+2 USB 2.0 Hubs:": {
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+   "Wireless Communication module": "AMD Wi-Fi 6E RZ608 (MT7921K) (PCB rev. 1.0)"
+  },
+  "Bluetooth 5.3": {
+   "Supported Storage": "CPU:"
+  },
+  "4 x SATA 6Gb/s connectors": {
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Audio": "6 x audio jacks",
+   "Internal I/O Ports": "1 x 24-pin ATX main power connector"
+  },
+  "1 x Clear CMOS jumper": {
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0 module only)"
+  },
+  "Memory:": {
+   "Type": "DDR5",
+   "Slots": "4",
+   "Supported Memory": "Support for DDR5 7600(O.C.) /7400(O.C.) /7200(O.C.) /7000(O.C.) /6800(O.C.) /6600(O.C.) / 6400(O.C.) / 6200(O.C.) / 6000(O.C.) / 5800(O.C.) / 5600(O.C.) / 5400(O.C.) / 5200(O.C.) / 4800 / 4000 MT/s memory modules"
+  },
+  "Dual channel memory architecture": {
+   "Maximum Memory": "192GB"
+  },
+  "Others:": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)"
+  },
+  "Support for Q-Flash Plus": {
+   "Bundled Software": "Norton Internet Security (OEM version)"
+  },
+  "Warranty Info": {
+   "Years": "3 Year"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [],
+ "model": "Gigabyte B760 GAMING X AX",
+ "fetched": "2026-11-11T09:38+06:00",
+ "source": "https://smartbd.com/product/gigabyte-intel-chipset-b760-gaming-x-ax-13th-and-12th-gen-atx-motherboard/",
+ "store": "smartbd"
+}

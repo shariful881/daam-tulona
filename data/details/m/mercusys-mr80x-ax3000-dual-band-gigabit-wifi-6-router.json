@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "4× 5 dBi Fixed Omni-Directional Antennas",
+   "Data Rate": "2402 Mbps (5 GHz) + 574 Mbps (2.4 GHz)",
+   "Interface": "1× Gigabit WAN Port + 3× Gigabit LAN Ports",
+   "Power Mode": "Operating Temperature: 0°C~40°C (32°F~104°F)",
+   "Button": "Reset/WPS Button",
+   "Frequency": "2.4 GHz < 20dBm (EIRP), 5 GHz < 23dBm (Band 1, Band 2), 5 GHz < 30dBm (Band 3)",
+   "Wireless": "Enable/Disable Wireless Radio, WMM",
+   "Network Standard": "802.11ax/ac/a/b/g/n",
+   "Encryption": "WEP, WPA/WPA2-Personal, WPA2/WPA3-Personal",
+   "Ports": "1× Gigabit WAN + 3× Gigabit LAN",
+   "Operating System Support": "Windows, macOS, Linux and other operating systems supporting standard WiFi/Ethernet networking"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  },
+  "Image": {
+   "Model": "MR80X"
+  }
+ },
+ "key_features": [
+  "Antenna Type: 4× 5 dBi Fixed Omni-Directional Antennas",
+  "WiFi Speeds: 2402 Mbps (5 GHz) + 574 Mbps (2.4 GHz)",
+  "Interfaces: 1× Gigabit WAN Port + 3× Gigabit LAN Ports"
+ ],
+ "model": "MR80X",
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-11T09:37+06:00",
+ "source": "https://www.creatus.com.bd/mercusys-mr80x-ax3000-dual-band-gigabit-wifi-6-router",
+ "store": "creatus"
+}

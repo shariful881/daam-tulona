@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "500~2100 RPM±10%",
+   "Type": "Air CPU Cooler",
+   "Noise": "≤31.6 dB(A)",
+   "Air Pressure": "2.53 mmAq",
+   "Connectors": "4-pin PWM"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Cooling System": {
+   "Fan Airflow": "75.89 CFM"
+  },
+  "Physical Specification": {
+   "Weight": "1040 g"
+  },
+  "Dimensions": {
+   "Product Dimensions": "127×117×158 mm",
+   "Heatsink Dimensions": "127×90×158 mm",
+   "Fan Dimensions": "120×120×25 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "01 year"
+  },
+  "Image": {
+   "Model": "AG400 DIGITAL"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 500~2100 RPM±10%",
+  "Fan Airflow: 75.89 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "model": "AG400 DIGITAL",
+ "warranty": "01 year",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.creatus.com.bd/deepcool-ag400-digital-cpu-cooler",
+ "store": "creatus"
+}

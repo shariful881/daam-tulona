@@ -1,0 +1,71 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8 Inch",
+   "Display Type": "LED",
+   "Resolution": "FHD (1920x1080)",
+   "Pixel pitch(MM)": "0.249mm x 0.241mm",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178°/ 178°",
+   "Brightness": "250cd/㎡",
+   "Contrast Ratio": "4000:1",
+   "Refresh Rate": "120Hz",
+   "Color Support": "1073.7M (10 bit)",
+   "Color Gamut": "(sRGB) : 99%",
+   "Response Time": "1ms MPRT",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "Yes, 1.4"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI(v1.4) x 1",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Height Adjustment": "N/A",
+   "Vesa Wall Mount": "100x100mm"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Dimension": {
+   "Phys. Dimension (W x H x D)": "53.8 x 38.0 x 21.0 cm (21.18\" x 14.96\" x 8.27\")",
+   "Box Dimension (W x H x D)": "61.2 x 40.4 x 14.0 cm (24.09\" x 15.91\" x 5.51\")"
+  },
+  "Weight": {
+   "Net Weight": "2.69 kg (5.93 lbs)",
+   "Net Weight without Stand": "2.22 kg (4.89 lbs)",
+   "Gross Weight": "4.76 kg (10.49 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "25 W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 120Hz, 1ms MPRT",
+  "Ports: 1x HDMI, 1x VGA, 1x Earphone Jack",
+  "Features: Adaptive-Sync, Low Blue Light, Flicker Free, Eye Care Plus"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.pchouse.com.bd/asus-vz249hg-monitor",
+ "store": "pchouse"
+}

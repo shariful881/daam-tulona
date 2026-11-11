@@ -1,0 +1,104 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Ryzen 3 7320U",
+   "Generation": "7000 Series",
+   "Processor Frequency": "Up to 4.1GHz",
+   "Processor Core": "4",
+   "Processor Thread": "8"
+  },
+  "CPU Cache": {
+   "L2 Cache": "2MB",
+   "L3 Cache": "4MB"
+  },
+  "Memory": {
+   "Bus Speed": "5500MHz",
+   "Ram": "16GB Soldered",
+   "Ram Type": "LDDR5",
+   "Removable": "N/A"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "up to 1TB M.2 2242 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon 610M",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Features": "Non-backlit, English",
+   "Keyboard Type": "Standard",
+   "TouchPad": "Buttonless Mylar surface multi-touch touchpad, supports Precision TouchPad (PTP), 69 x 104 mm (2.72 x 4.09 inches)"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD 720p",
+   "Speaker": "1.5W x2",
+   "Microphone": "2x Array Microphone",
+   "Audio Features": "Audio Chip: High Definition (HD) Audio\nStereo speakers, Dolby Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 3 Port": "1x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (support data transfer only)",
+   "Headphone & Microphone Port": "1 x Headphone/ Microphone Port Combo"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6, 802.11ax 2x2",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0 Enabled"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6\"",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "250nits Anti-glare\nScreen-to-Body Ratio: 87% AAR (active area ratio)",
+   "Touch Screen": "N/A"
+  },
+  "Connectivity": {
+   "LAN": "N/A"
+  },
+  "Power": {
+   "Battery Capacity": "42Whr",
+   "Adapter Type": "65W Round Tip (3-pin)"
+  },
+  "Physical Specification": {
+   "Color": "Cloud Grey",
+   "Weight": "Starting at 1.58 kg (3.48 lbs)",
+   "Dimensions": "360.2 x 236 x 17.9 mm (14.18 x 9.29 x 0.70 inches)"
+  },
+  "Body Material": {
+   "Case Material": "PC-ABS (Top), PC-ABS (Bottom)",
+   "Surface Treatment": "IMR (In-Mold Decoration by Roller)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years warranty ( Battery adapter 1 year)"
+  },
+  "Image": {
+   "Model": "Lenovo IdeaPad 1 15AMN7"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 3 7320U (4C / 8T, 2.4 / 4.1GHz, 2MB L2 / 4MB L3)",
+  "RAM: 16GB LPDDR5-5500, Storage: 512GB M.2 2242 PCIe 4.0x4 NVMe SSD",
+  "Display: 15.6\" FHD (1920x1080) IPS 250nits Anti-glare",
+  "Features: Privacy Shutter, Type-C, Wi-Fi 6, Bluetooth 5.2"
+ ],
+ "model": "Lenovo IdeaPad 1 15AMN7",
+ "warranty": "2 years warranty ( Battery adapter 1 year)",
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideapad-1-15amn7-ryzen-3-7320u-156-inch-laptop",
+ "store": "creatus"
+}

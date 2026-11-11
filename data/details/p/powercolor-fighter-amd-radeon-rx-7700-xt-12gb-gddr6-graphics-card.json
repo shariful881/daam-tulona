@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2226MHz(Game)\nup to 2584MHz(Boost)",
+   "BUS Type": "PCIE 4.0",
+   "Memory Interface": "192-bit",
+   "Stream Processors": "3456",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nRadeon Anti-Lag\nAMD RDNA 3 Architecture with Hardware Raytracing\nAMD FidelityFX Super Resolution 3 technology\nOptimized for Windows 11"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "750W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "290mm*111mm*50mm\n303mm*128mm*50mm (with bracket)",
+   "Others": "Slot: 2.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2226 MHz (Game) / 2584 MHz (Boost)",
+  "Memory Speed: 18 Gbps, Memory Interface: 192-bit",
+  "Stream Processors: 3456 Units, AMD RDNA 3 Architecture",
+  "Output Ports: 1 x HDMI 2.1, 3 x DisplayPort 2.1"
+ ],
+ "price": 8080085000,
+ "regular": 87670,
+ "status": "In Stock",
+ "code": "42753",
+ "brand": "PowerColor",
+ "mpn": "RX7700XT 12G-F/OC",
+ "model": "Fighter AMD Radeon RX 7700 XT 12GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Fighter AMD Radeon RX 7700 XT 12GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Fighter AMD Radeon RX 7700 XT 12GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.startech.com.bd/powercolor-fighter-amd-radeon-rx-7700-xt-12gb-gddr6-graphics-card",
+ "store": "startech"
+}

@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "4096",
+   "Others": "HDCP Support 2.3, OC Mode and Default Mode supported"
+  },
+  "Core Clock": {
+   "OC Mode": "Boost Clock up to 3030 MHz / Game Clock up to 2480 MHz",
+   "Default Mode": "Boost Clock up to 3010 MHz / Game Clock up to 2460 MHz"
+  },
+  "Interface": {
+   "Display Port": "3 x Native DisplayPort 2.1a",
+   "HDMI": "1 x Native HDMI 2.1b",
+   "HDCP": "Yes (2.3)"
+  },
+  "Power Specifications": {
+   "Connectors": "3 x 8-pin",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "Supports up to 4 Displays"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Others": "2.5 Slot Design\nAdvanced Cooling Technology\nASUS GPU Tweak III Software Support\nNo NVLink / CrossFire Support\nIncludes Thank You Card and Speedsetup Manual"
+  },
+  "Warranty": {
+   "Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR6, PCI Express 5.0",
+  "Engine Clock: Max. 3030 MHz (OC Mode), 3010 MHz (Default Mode)",
+  "Memory Speed: 20 Gbps, Stream Processors: 4096",
+  "Output Ports: 1x Native HDMI 2.1b, 3x Native DisplayPort 2.1a"
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.pchouse.com.bd/asus-prime-radeon-rx-9070-xt-oc-edition-16gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

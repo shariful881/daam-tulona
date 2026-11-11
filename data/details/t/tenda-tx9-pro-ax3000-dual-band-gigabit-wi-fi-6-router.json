@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "Simultaneous dual-band 2.4",
+   "Interface": "1x 10/100/1000Mbps WAN port\n3x 10/100/1000Mbps LAN ports",
+   "Wireless": "IEEE 802.11ac/a/n/ax 5GHz\nIEEE 802.11b/g/n/ax 2.4GHz",
+   "Button": "1x WPS/Reset button",
+   "Others": "SSID Broadcast: Enable/Disable\nTransmission Power: high, medium, low\nBeamforming\nMU-MIMO\nWireless Router Mode\nAP Mode"
+  },
+  "Power Mode": {
+   "Input": "AC 100-240V~50/60Hz 0.6A",
+   "Output": "DC 12V⎓1.5A"
+  },
+  "Router Features": {
+   "Antenna": "4x 6dBi external antennas",
+   "Data Rate": "5GHz: Up to 2402Mbps\n2.4GHz: Up to 574Mbps",
+   "Encryption": "WPA-PSK,WPA2-PSK, WPA/WPA2-PSK\nWPA3-SAE/WPA2-PSK\nWireless Security: Enable/Disable\nWPS(WiFi Protected Set-up) fast encryption"
+  },
+  "Connector & Ports": {
+   "Network Standard": "IEEE802.3, IEEE802.3u,IEEE802.3ab"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "272.44 x 162.85 x 43.71mm",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Year",
+ "fetched": "2026-11-11T09:29+06:00",
+ "source": "https://www.pchouse.com.bd/tenda-tx9-pro-ax3000-dual-band-gigabit-wi-fi-6-router",
+ "store": "pchouse"
+}

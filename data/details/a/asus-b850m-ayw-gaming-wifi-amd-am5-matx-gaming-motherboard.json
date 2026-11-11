@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B850 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)\nAMD B850 Chipset\n1 x PCIe 4.0 x16 slot (support x4 mode)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\nSupports 4K@60Hz as specified in HDMI 2.1."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)",
+   "Wireless Communication module": "Wi-Fi 6\n1x1 Wi-Fi 6 (802.11ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.3\nThe Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications."
+  },
+  "RAID": {
+   "Ryzen 9000 Series Processors": "RAID 0/1/5/10",
+   "Ryzen 8000 Series Processors": "RAID 0/1",
+   "Ryzen 7000 Series Processors": "RAID 0/1/10"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Socket: AMD Socket AM5",
+  "Memory: Supports up to 2 x DIMM slots, max. 128GB, DDR5",
+  "Storage: Supports 2 x M.2 slots and 4 x SATA 6Gb/s ports"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.pchouse.com.bd/asus-b850m-ayw-gaming-wifi-motherboard",
+ "store": "pchouse"
+}

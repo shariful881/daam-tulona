@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "1200VA",
+   "Frequency": "60Hz",
+   "Noise Level": "EMI/RFI full time suppression",
+   "Battery": "2 PCS Lead-Acid maintenance-free",
+   "Alarm": "On Battery, Battery Low and Overload"
+  },
+  "Input Features": {
+   "Frequency": "50Hz or 60Hz",
+   "Voltage Range": "100/110/120/220/230/240VAC Nominal -25%+25%"
+  },
+  "Output Features": {
+   "Backup Time": "10-30 minutes depending on load connected",
+   "Type of Wave": "PWM Simulated Sine wave",
+   "Transfer Time": "2ms typical; 5ms maximum"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Load Capacity: 1200VA",
+  "Transfer Time: 2ms typical; 5ms maximum",
+  "Waveform: PWM Simulated Sine wave"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://fourstarit.com.bd/p/apollo-1120f1120-ups-1221",
+ "store": "fourstar"
+}

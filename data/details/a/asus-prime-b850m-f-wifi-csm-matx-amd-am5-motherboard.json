@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B850 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD B850 Chipset\n1 x PCIe 4.0 x1 slot\nM.2 Socket: 2 x M.2 slots (Key M)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port**\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\n** Supports 4K@60Hz as specified in HDMI 2.1."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet\nASUS LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology*\nRyzen 9000 Series Processors: RAID 0/1/5/10\nRyzen 8000 Series Processors: RAID 0/1\nRyzen 7000 Series Processors: RAID 0/1/10\n* Specifications vary by CPU types.",
+   "Audio": "3 x Audio jacks",
+   "Wireless Communication module": "Wi-Fi 6\n1x1 Wi-Fi 6 (802.11ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.3"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-prime-b850m-f-wifi-csm-matx-amd-am5-motherboard",
+ "store": "pchouse"
+}

@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.60 GHz",
+   "Maximum Turbo Frequency": "4.40 GHz",
+   "Cache": "12MB",
+   "Cores": "6",
+   "TDP": "Default TDP: 125W",
+   "Threads": "12"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "350 MHz",
+   "Processor Graphics": "Intel UHD Graphics 730",
+   "Core Count": "24",
+   "Max Dynamic Frequency": "1.30 GHz"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096x2160@60Hz",
+   "Max Resolution (DP)": "5120 x 3200 @60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years (No Warranty for Fan or Cooler)"
+  },
+  "Image": {
+   "Model": "Core i5-11400"
+  },
+  "Product List": {
+   "Best Intel Processor Price List In Bangladesh": "Price",
+   "Intel 12th Gen Core i5 12400 Alder Lake Processor": "17,799৳\n21,000৳",
+   "Intel Core i5-13400 Raptor Lake Processor": "27,300৳\n29,900৳",
+   "Intel Core i5 14500 14th Gen Raptor Lake Processor": "28,199৳\n31,100৳",
+   "Intel Core i7-12700K 12th Gen Processor": "31,500৳\n33,500৳"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2.60 GHz Up to 4.40 GHz",
+  "Cache: 12 MB, Socket: LGA 1200",
+  "CPU Cores: 6, CPU Threads: 12",
+  "Graphics: Intel UHD Graphics 730"
+ ],
+ "model": "Core i5-11400",
+ "warranty": "3 Years (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.creatus.com.bd/intel-core-i5-11400-11th-gen-processor",
+ "store": "creatus"
+}

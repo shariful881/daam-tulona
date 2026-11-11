@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA III 6Gb/s",
+   "Sequential R/W": "Read: Up to 530MB/s Max\nWrite: 470MB/s",
+   "MTBF": "1,000,000 hours",
+   "Others": "Humidity: 0°C ~ 55°C / 5% ~ 95% RH,non-condensing\nVibration: 20G (non-operating)"
+  },
+  "Physical Specification": {
+   "Dimension": "100(L) x 69.9(W) x 7(H) mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ 70°C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "ECC function enhances efficiency",
+  "Advanced SLC Caching technology",
+  "Shock and drop resistant for safe use"
+ ],
+ "price": 1090011200,
+ "regular": 11830,
+ "status": "In Stock",
+ "code": "17947",
+ "brand": "Team",
+ "mpn": "T253X6512G0C101",
+ "model": "CX2",
+ "warranty": "03 years warranty",
+ "name": "TEAM CX2 2.5\" SATA 512GB SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "TEAM",
+  "TEAM CX2 2.5\" SATA 512GB SSD"
+ ],
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.startech.com.bd/team-cx2-512gb-ssd",
+ "store": "startech"
+}

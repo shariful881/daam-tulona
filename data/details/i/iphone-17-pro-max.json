@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Specification": {
+   "Platform": "OS: iOS 26 | Chipset: Apple A19 Pro | CPU: Hexa-core",
+   "Model": "iPhone 17 Pro Max",
+   "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+   "Dimensions": "163.4 x 78 x 8.8 mm",
+   "Weight": "233 g",
+   "SIM": "Nano-SIM + eSIM + eSIM (max 2 at a time; International) | eSIM + eSIM (8 or more, max 2 at a time; USA) | Nano-SIM + Nano-SIM (China)",
+   "Display Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)",
+   "Display Size": "6.9 inches",
+   "Display Resolution": "1320 x 2868 pixels",
+   "Protection": "Ceramic Shield 2, Mohs level 5 | Anti-reflective coating",
+   "Memory": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM",
+   "Main Camera": "48 MP (wide) | 48 MP (periscope telephoto) | | 48 MP (ultrawide) | TOF 3D LiDAR scanner (depth) | Video: up to 4K",
+   "Selfie Camera": "18 MP (Ultrawide) | Video: up to 4K",
+   "Sound": "Stereo Speakers",
+   "Battery Info": "Li-Ion 4832 mAh - Nano SIM model | Li-Ion 5088 mAh - eSIM only model | Wired, PD2.0 | 25W wireless (MagSafe) | 15W wireless (MagSafe) - China only | 25W wireless (Qi2) | 4.5W reverse wired",
+   "Connectivity": "Wi-Fi: Wi-Fi 802.11 a/b/g/n/ac/6e/7 | Bluetooth: 6.0, A2DP, LE | NFC: Yes",
+   "Sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer | Ultra Wideband (UWB) support (gen2 chip) | Emergency SOS, Messages and Find My via satellite"
+  }
+ },
+ "key_features": [
+  "International: Nano-SIM + eSIM (or 2 eSIMs, max 2 active)",
+  "USA: eSIM only (you can store 8+ but use 2 at a time)",
+  "China: Dual Nano-SIM"
+ ],
+ "model": "iPhone 17 Pro Max",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.applegadgetsbd.com/product/iphone-17-pro-max",
+ "store": "applegadgets"
+}

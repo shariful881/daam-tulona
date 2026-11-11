@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Cache": "Total L1 Cache: 384KB",
+   "Cores": "6",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "Up to 4.4GHz",
+   "Threads": "12"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 3200MHz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz up to 4.4GHz",
+  "Cache: L2: 3MB, L3: 32MB; Cores-6 & Threads-12",
+  "Memory Speed: DDR4 Up to 3200MHz"
+ ],
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-5600-processor",
+ "store": "pchouse"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Socket AM4 Support AMD Ryzen™ 3rd Gen (Matisse/ Renoir)\nAnd Ryzen™ 4th Gen (Vermeer/ Cezanne) Processors\nSupport For Future AMD Ryzen Processors With BIOS Update",
+   "Chipset": "AMD B550"
+  },
+  "Graphics": {
+   "Graphics": "By CPU Model\nSupports DX12\nSupports HDCP"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 X HDMI Port",
+   "External I/O Ports": "2 X WIFI Antenna Port\n1 X PS/2 Keyboard / Mouse\n1 X HDMI Port\n1 X LAN Port\n4 X USB 3.2 (Gen1) Port\n2 X USB 2.0 Port\n3 X Audio Jack\n1 X USB 3.2 (Gen2) Type-C Port\n1 X USB 3.2 (Gen2) Port"
+  },
+  "Main Features": {
+   "Audio": "Realtek RTL8111H\n10/ 100/ 1000 Mb/S Auto Negotiation, Half / Full Duplex Capability"
+  },
+  "Others": {
+   "Special Features": "VIVID LED DJ\nBIO-FLASHER\nA.I FAN\nLED ROCK ZONE"
+  },
+  "Physical Specification": {
+   "Dimensions": "24.4cm X 24.4cm ( W X L )",
+   "USB": "1 X USB 3.2 (Gen2) Type-C Port (1 On Rear I/O)\n1 X USB 3.2 (Gen2) Port (1 On Rear I/O)\n6 X USB 3.2 (Gen1) Port (4 On Rear I/Os And 2 Via Internal Headers)\n6 X USB 2.0 Port (2 On Rear I/Os And 4 Via Internal Headers)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "B550MXC PRO"
+  }
+ },
+ "key_features": [
+  "Chipset: AMD B550",
+  "CPU SUPPORT: Socket AM4",
+  "STORAGE: 4 x SATA III (6Gb/s)",
+  "AUDIO CODEC: Realtek ALC897"
+ ],
+ "model": "B550MXC PRO",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:59+06:00",
+ "source": "https://www.creatus.com.bd/biostar-b550mxc-pro-amd-motherboard",
+ "store": "creatus"
+}

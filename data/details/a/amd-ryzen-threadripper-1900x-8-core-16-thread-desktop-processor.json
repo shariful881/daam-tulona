@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8 GHz",
+   "Maximum Turbo Frequency": "Up to 4 GHz",
+   "Cores": "8",
+   "Threads": "16",
+   "Default TDP": "180W",
+   "Supported Technologies": "14nm",
+   "CPU Cooler": "Not Included"
+  },
+  "Cache": {
+   "L1 Cache": "768 KB",
+   "L2 Cache": "4 MB",
+   "L3 Cache": "16 MB"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 2667 MT/s",
+   "Type": "DDR4"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "N/A"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://fourstarit.com.bd/p/amd-ryzen-threadripper-1900x-8-core16-thread-desktop-processor",
+ "store": "fourstar"
+}

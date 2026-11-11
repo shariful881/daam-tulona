@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3x4 NVMe1.4 (M-Key)",
+   "MTBF": ">1,000,000 hours",
+   "TBW": "300TB"
+  },
+  "Sequential R/W": {
+   "Read": "Max. 3300MB/s",
+   "Write": "Max. 3000MB/s"
+  },
+  "Storage": {
+   "NAND Flash": "3D TLC"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Operating Voltage": "DC3.3V ± 5%"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "KM600 ULTRA 512GB"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3x4 NVMe1.4",
+  "Form Factor: M.2 2280",
+  "Capacity: 512GB",
+  "MTBF: >1,000,000 hours"
+ ],
+ "model": "KM600 ULTRA 512GB",
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:53+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-km600-ultra-512gb-ssd",
+ "store": "creatus"
+}

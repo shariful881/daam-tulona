@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "1TB",
+   "Sequential R/W": "7,000/6,000MB/s",
+   "MTBF": "1,800,000 hours",
+   "Interface Type": "PCIe 4.0 NVMe",
+   "Form Factor": "M.2 2280"
+  },
+  "Vibration": {
+   "Vibration operating": "2.17G peak (7-800Hz)",
+   "Vibration non-operating": "20G Peak (20-1000Hz)"
+  },
+  "Physical Specifications": {
+   "Dimension": "80mm x 22mm x 2.21mm (512GB-1024GB)",
+   "Weight": "512GB-1024GB – 7g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-40°C~85°C"
+  },
+  "Warranty Information": {
+   "Warranty": "05-Year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "05-Year Warranty",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-kc3000-nvme-1tb-ssd",
+ "store": "pchouse"
+}

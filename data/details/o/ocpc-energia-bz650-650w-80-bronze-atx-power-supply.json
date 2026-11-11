@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 Plus Bronze",
+   "Continuous Power": "650 Watts",
+   "Fan Size": "120mm"
+  },
+  "Others": {
+   "Compliance Standard": "ATX",
+   "PF Correction": "APFC",
+   "Fan Bearing Technology": "Hydraulic",
+   "Cable Type": "Flat Black Cable",
+   "MTBF": "100,000 hours"
+  },
+  "Input": {
+   "Voltage": "110-240V"
+  },
+  "Output": {
+   "Modular Type": "Non-Moduler",
+   "Total Power": "650W",
+   "AC Input": "100V - 240 V"
+  },
+  "Connector": {
+   "Main Power": "20+4 Pin",
+   "PCI-E": "2",
+   "CPU": "2x EPS 4+4 Pin",
+   "SATA": "4",
+   "Floppy": "2"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Warranty"
+  },
+  "Image": {
+   "Model": "ENERGIA BZ650"
+  }
+ },
+ "key_features": [
+  "Output Power: 650W",
+  "Modular: Non-Modular",
+  "Form Factor: ATX",
+  "Fan Size: 120mm"
+ ],
+ "model": "ENERGIA BZ650",
+ "warranty": "5 Years Warranty",
+ "fetched": "2026-11-11T09:12+06:00",
+ "source": "https://www.creatus.com.bd/ocpc-energia-bz650-power-supply",
+ "store": "creatus"
+}

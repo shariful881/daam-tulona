@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Hardware Features": {
+   "Antenna": "Built in 2dBi Antenna",
+   "Dimensions (L x W x H )": "20x15x8mm",
+   "Interface": "USB2.0",
+   "Weight": "3g"
+  },
+  "Wireless Features": {
+   "Data Rate": "11b: 1/2/5.5/11Mbps;\n11g: /9/12/18/24/36/48/54Mbps;\n11n: 200Mbps;\n11ac: 433Mbps",
+   "Frequency": "2.412~2.4835GHz, 5.180~5.825GHz",
+   "Standards": "IEEE802.11a, IEEE802.11b, IEEE802.11g, IEEE802.11n, IEEE802.11ac",
+   "System Requirements": "Windows XP / Vista / 7 / 8 / 8.1 / 10; Don’t support free drive; MacOS10.6~MacOS10.15;",
+   "Wireless Security": "WPA-PSK/WPA2-PSK; WPA/WPA2; WEP"
+  },
+  "Warranty": {
+   "Warranty Details": "1 Year"
+  }
+ },
+ "key_features": [
+  "Wireless Standard: IEEE 802.11ac/a/b/g/n",
+  "Interface: USB 2.0",
+  "Frequency Bands: 2.4GHz & 5GHz (Dual Band)",
+  "Maximum Speed: 2.4GHz: Up to 200Mbps 5GHz: Up to 433Mbps",
+  "Antenna: Internal",
+  "Security Protocols: WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+  "Supported Operating Systems: Windows 11/10/8.1/8/7, Linux, macOS"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://fourstarit.com.bd/p/cudy-wu650-ac650-dual-band-nano-usb-wifi-adapter",
+ "store": "fourstar"
+}

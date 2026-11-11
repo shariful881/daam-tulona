@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Core Clock": "OC mode\nBoost Clock: Up to 3250 MHz\nGame Clock: Up to 2640 MHz\nDefault mode\nBoost Clock: Up to 3230 MHz\nGame Clock: Up to 2620 MHz",
+   "Memory Clock": "20 Gbps Effective",
+   "BUS Type": "128 bit",
+   "Memory Interface": "PCI-Express 5.0",
+   "Stream Processors": "2048"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "1 x HDMI 2.1b",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin Power Connector",
+   "Recommended PSU": "550W Power Supply",
+   "Consumption": "170W Typical Board Power"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate"
+  },
+  "Physical Specifications": {
+   "Dimensions": "202 x 120 x 49mm",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 3250 MHz, Game Clock: Up to 2640 MHz",
+  "Memory: 16GB/128 bit GDDR6, Memory Clock: 20 Gbps Effective",
+  "Stream Processors: 2048, AMD RDNA 4 Architecture",
+  "Output Ports: 1x HDMI, 2x DisplayPort 2.1a"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-radeon-rx-9060-xt-16gb-white-edition-graphics-card",
+ "store": "pchouse"
+}

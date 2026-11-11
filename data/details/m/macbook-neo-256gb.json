@@ -1,0 +1,100 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Apple",
+   "Processor Model": "A18 Pro chip",
+   "Processor Core": "6‑core CPU with 2 performance cores and 4 efficiency cores",
+   "NPU": "16-core Neural Engine\n60GB/s memory bandwidth"
+  },
+  "Chipset": {
+   "Chipset Model": "Apple A18 Pro chip"
+  },
+  "Display": {
+   "Display Size": "13.0-inch (diagonal)",
+   "Display Type": "Liquid Retina display\nLED-backlit display with IPS technology",
+   "Display Resolution": "2408-by-1506 native resolution at 219 pixels per inch",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Display Features": "500 nits brightness\nSupport for 1 billion colors\nsRGB color"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "Unified memory",
+   "Removable": "Non-Removable"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "256GB"
+  },
+  "Graphics": {
+   "Graphics Model": "5‑core GPU\nProRes encode and decode engine\nAV1 decode",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Magic Keyboard",
+   "Keyboard Features": "78 (ANSI) or 79 (ISO) keys including 12 full-height function keys",
+   "TouchPad": "Multi-Touch trackpad for precise cursor control and support for gestures"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FaceTime HD camera",
+   "Speaker": "Dual-speaker sound system",
+   "Microphone": "Dual-mic array with directional beamforming",
+   "Audio Features": "Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers\nVoice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "USB Type-C / Thunderbolt Port": "One USB 3 (USB-C) port with support for: Charging, DisplayPort, USB 3 (up to 10Gb/s)\nOne USB 2 (USB-C) port with support for: Charging, USB 2 (up to 480Mb/s)",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6E (802.11ax)",
+   "Bluetooth": "Bluetooth 6"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Power": {
+   "Battery Type": "lithium‑ion battery",
+   "Battery Capacity": "36.5‑watt",
+   "Backup Time (Approx)": "Up to 16 hours video streaming\nUp to 11 hours wireless web",
+   "Adapter Type": "20W USB-C Power Adapter"
+  },
+  "Physical Specification": {
+   "Dimensions": "Height: 0.50 inch (1.27 cm)\nWidth: 11.71 inches (29.75 cm)\nDepth: 8.12 inches (20.64 cm)",
+   "Weight": "2.7 pounds (1.23 kg)",
+   "Body Material": "MacBook Neo is made with 60% recycled content, including:\n90% recycled aluminum\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled copper in multiple printed circuit boards\n80% recycled steel in the battery tray, keyboard link bars, and speaker"
+  },
+  "Warranty": {
+   "Warranty Details": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Processor: Apple A18 Pro chip with 6‑core CPU, 5‑core GPU, 16‑core Neural Engine",
+  "RAM: 8GB Unified Memory, Storage: 256GB SSD",
+  "Display: 13-inch Liquid Retina display, LED-backlit display with IPS (2408 x 1506)",
+  "Features: Magic Keyboard with Touch ID, Wi-Fi 6E, Bluetooth 6"
+ ],
+ "price": 9300099000,
+ "regular": 104500,
+ "status": "In Stock",
+ "code": "48374",
+ "brand": "Apple",
+ "mpn": "MHFA4",
+ "model": "MacBook Neo",
+ "warranty": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days.",
+ "name": "MacBook Neo 256GB",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "MacBook",
+  "MacBook Neo 256GB"
+ ],
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.startech.com.bd/macbook-neo",
+ "store": "startech"
+}

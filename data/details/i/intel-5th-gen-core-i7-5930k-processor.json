@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.50 GHz",
+   "Maximum Turbo Frequency": "3.70 GHz",
+   "Cache": "15 MB Intel Smart Cache",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "140 W",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "64 GB",
+   "Maximum Speed": "68 GB/s",
+   "Type": "DDR4 1600/1866/2133",
+   "Max Number of Channels": "4"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "1 Month Warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: up to 3.70 GHz",
+  "Cache: 15MB Intel Smart Cache",
+  "Cores: 6, Threads: 12",
+  "Socket: LGA2011"
+ ],
+ "warranty": "1 Month Warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://fourstarit.com.bd/p/intel-5th-gen-core-i7-5930k-processor",
+ "store": "fourstar"
+}

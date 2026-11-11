@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Data Rate": "5GHz: Up to 867Mbps; 2.4GHz: Up to 300Mbps",
+   "Antenna": "4 × External Fixed Antennas",
+   "Button": "WPS/Wi-Fi Button, Power On/Off Button, Reset Button",
+   "Frequency": "2.4GHz & 5GHz",
+   "Network Standard": "IEEE 802.11ac/n/a 5GHz; IEEE 802.11n/g/b 2.4GHz",
+   "Encryption": "WPA/WPA2, 64/128-bit WEP",
+   "Ports": "1 × 10/100Mbps WAN, 4 × 10/100Mbps LAN",
+   "Interface": "1 × WAN + 4 × LAN",
+   "Wireless": "AC1200 Dual Band Wi-Fi",
+   "Others": "2×2 MU-MIMO, Beamforming, QoS, Guest Network, Parental Controls, IPv4/IPv6, TP-Link Tether App Support"
+  },
+  "Power Source": {
+   "Power Mode": "External Power Adapter"
+  },
+  "Physical Dimension": {
+   "Dimension": "230 × 144 × 35 mm",
+   "Weight": "Approx. 0.4 kg",
+   "Color": "Black"
+  }
+ },
+ "key_features": [
+  "Wi-Fi Standard: Wi-Fi 5 / IEEE 802.11ac",
+  "Wireless Speed: AC1200",
+  "Dual-Band: 2.4GHz + 5GHz"
+ ],
+ "fetched": "2026-11-11T09:29+06:00",
+ "source": "https://www.pchouse.com.bd/tp-link-archer-c50-ac1200-dual-band-wi-fi-router",
+ "store": "pchouse"
+}

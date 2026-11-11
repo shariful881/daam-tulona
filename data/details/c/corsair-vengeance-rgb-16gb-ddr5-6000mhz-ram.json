@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "SPD Voltage: 1.1V\nTested Voltage: 1.40V",
+   "Latency": "36-44-44-96",
+   "Others": "Performance Profile: XMP 3.0\nPackage Memory Format: DIMM\nMemory Compatibility: Intel 600 Series, Intel 700 Series"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: DDR5 6000MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.40V/C36"
+ ],
+ "price": 3499936000,
+ "regular": 37870,
+ "status": "In Stock",
+ "code": "31048",
+ "brand": "Corsair",
+ "mpn": "CMH32GX5M2E6000C36/CMH32GX5M2E6000Z36",
+ "model": "VENGEANCE RGB",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE RGB 16GB DDR5 6000MHz RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE RGB 16GB DDR5 6000MHz RAM"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-rgb-16gb-ddr5-6000mhz-ram",
+ "store": "startech"
+}

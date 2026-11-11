@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Cache": "30 MB Intel Smart Cache",
+   "Type": "DDR5"
+  },
+  "Basic Information": {
+   "Base Frequency": "300 MHz",
+   "Cores": "18 (Performance cores: 6, Efficient cores: 12)",
+   "Threads": "18"
+  },
+  "Memory Specifications": {
+   "Core Count": "4",
+   "Max Number of Channels": "2",
+   "Maximum Size": "256 GB",
+   "Maximum Speed": "Up To DDR5 7200 MT/s"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2304 @ 60Hz (HDMI 2.1 TMDS), 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel Graphics",
+   "Max Dynamic Frequency": "1.9 GHz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "Core Ultra 5 250K Plus (Tray Box)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.3 GHz up to 5.3 GHz",
+  "Cache: 30 MB, Socket: LGA1851",
+  "CPU Cores: 18, CPU Threads: 18"
+ ],
+ "model": "Core Ultra 5 250K Plus (Tray Box)",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.creatus.com.bd/intel-core-ultra-5-250k-plus-arrow-lake-processor",
+ "store": "creatus"
+}

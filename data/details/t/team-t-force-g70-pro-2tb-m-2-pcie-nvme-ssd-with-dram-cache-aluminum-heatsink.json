@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Interface": "PCIe Gen4x4 with NVMe",
+   "Sequential R/W": "up to 7,400/6,800 MB/s",
+   "MTBF": "3,000,000 hours",
+   "TBW": "1480TBW"
+  },
+  "Physical Specification": {
+   "Dimension": "80.0(L) x 22.0(W) x 8.7(H) mm (with Aluminum heat sink)",
+   "Weight": "54g (with Aluminum heat sink)",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G/0.5ms",
+   "Vibration Resistance": "80Hz~2,000Hz/20G"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5-year limited warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "Interface: PCIe Gen4x4 with NVMe",
+  "Read/Write: up to 7,400/6,800 MB/s",
+  "Supports the latest NVMe 1.4 standard"
+ ],
+ "price": 57800,
+ "regular": 62610,
+ "status": "In Stock",
+ "code": "47112",
+ "brand": "Team",
+ "mpn": "TM8FFH002T0C128",
+ "model": "T-FORCE G70 PRO",
+ "warranty": "5-year limited warranty",
+ "name": "Team T-FORCE G70 PRO 2TB M.2 PCIe NVMe SSD With DRAM Cache & Aluminum Heatsink",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "TEAM",
+  "Team T-FORCE G70 PRO 2TB M.2 PCIe NVMe SSD With DRAM Cache & Aluminum Heatsink"
+ ],
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.startech.com.bd/team-t-force-g70-pro-2tb-nvme-ssd",
+ "store": "startech"
+}

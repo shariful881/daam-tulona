@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "4K at 480Hz or 8K at 120Hz with DSC",
+   "Core Clock": "Clock Speed: 2.30 GHz, Boost Speed: 2.62 GHz",
+   "Memory Clock": "30 Gb/s",
+   "BUS Type": "PCI Express 5.0 x16",
+   "CUDA Cores": "10,752",
+   "Memory Bandwidth": "Up to 960 GB/s",
+   "Memory Interface": "256-bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DisplayPort 2.1a",
+   "HDMI": "1x HDMI 2.1b",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "PCIe 5.0 16-pin power connector",
+   "Recommended PSU": "850W or higher",
+   "Power Consumption": "Approx. 350W - 450W (depending on workload)"
+  },
+  "Display Option": {
+   "Multi Display": "Yes",
+   "Multi Display Capability": "Up to 4 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "12.94\" x 5.42\" x 2.35\"; 3 Slot"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years Manufacturing Warranty"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5080"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 5080",
+ "warranty": "03 Years Manufacturing Warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.creatus.com.bd/pny-geforce-rtx-5080-16gb-argb-epic-x-rgb-overclocked-triple-fan-graphics-card",
+ "store": "creatus"
+}

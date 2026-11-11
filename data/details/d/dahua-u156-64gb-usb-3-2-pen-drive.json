@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Battery": {
+   "Voltage": "5V"
+  },
+  "Key Features": {
+   "Capacity": "64GB",
+   "Interface": "USB 3.2"
+  },
+  "Pendrive": {
+   "Operating Temperature": "0°C To +60°C",
+   "Read Speed": "Up To 110Mbps",
+   "Storage Temperature": "-20°C To +70°C",
+   "Write Speed": "Up To 45Mbps"
+  },
+  "Connectivity": {
+   "Connector": "USB Type-A",
+   "USB": "Gen 1"
+  },
+  "Others": {
+   "Other Features": "Shockproof"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "41.1mm × 14.8mm × 6.7mm",
+   "Color": "Metal Grey",
+   "Weight": "8gm (Net)"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Interface: USB 3.2 Gen 1",
+  "Capacity: 64GB",
+  "Data Transfer Rate: 30 MB/s–110 MB/s",
+  "Operating System: Windows 7/8/10; macOS10.5+; Linux 2.4.x+"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-u156-64gb-usb-32-pen-drive",
+ "store": "pchouse"
+}

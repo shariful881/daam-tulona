@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "Gigabyte A520M DS3H",
+   "Supported CPU": "AMD Ryzen 5000/4000G Series & AMD Ryzen 3rd Generation Processors",
+   "Chipset": "AMD A520",
+   "BIOS": "1 x 128 Mbit flash"
+  },
+  "Use of licensed AMI UEFI BIOS": {
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm",
+   "Audio": "Realtek ALC887 codec"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:"
+  },
+  "Chipset:": {
+   "M.2 Socket": "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280 SATA and PCIe 3.0 x4/x2 SSD support)",
+   "LAN Port (s)": "Realtek GbE LAN chip (1000 Mbit/100 Mbit)",
+   "Supported Storage": "CPU:"
+  },
+  "Graphics:": {
+   "Graphics": "1 x DisplayPort, supporting a maximum resolution of 5120×2880@60 Hz",
+   "Max Shared Memory": "16 GB"
+  },
+  "Connector & Ports:": {
+   "HDMI": "1 x HDMI port, supporting a maximum resolution of 4096×2160@60 Hz",
+   "Display Port (s)": "1 x DisplayPort, supporting a maximum resolution of 5120×2880@60 Hz",
+   "DVI-D (s)": "1 x DVI-D port, supporting a maximum resolution of 1920×1200@60 Hz",
+   "USB (s)": "CPU:"
+  },
+  "Support for RAID 0, RAID 1, and RAID 10": {
+   "Audio": "Realtek ALC887 codec"
+  },
+  "2/4/5.1/7.1-channel": {
+   "Internal I/O Ports": "1 x 24-pin ATX main power connector"
+  },
+  "1 x Clear CMOS jumper": {
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module (TPM) header (2×6 pin, for the GC-TPM2.0_S module only)"
+  },
+  "Memory:": {
+   "Type": "Dual-Channel Architecture",
+   "Slots": "4 x DDR4 DIMM",
+   "Supported Memory": "3rd Gen AMD Ryzen Processors:",
+   "Maximum Memory": "128 GB (32 GB single DIMM capacity)"
+  },
+  "Others:": {
+   "Special Features": "Support for APP Center"
+  },
+  "Support for Q-Flash Plus": {
+   "Bundled Software": "Support for Windows 10 64-bit"
+  },
+  "Warranty Info": {
+   "Years": "3 Year"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [],
+ "model": "Gigabyte A520M DS3H",
+ "fetched": "2026-11-11T09:23+06:00",
+ "source": "https://smartbd.com/product/gigabyte-amd-chipset-a520m-ds3h-micro-atx-amd-am4-motherboard/",
+ "store": "smartbd"
+}

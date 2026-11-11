@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR",
+   "BUS Type": "256-bit",
+   "CUDA Cores": "8960",
+   "Memory Interface": "28 Gbps",
+   "Others": "Interface: PCI Express Gen 5"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2497 MHz (MSI Center)",
+   "Boost": "2482 MHz"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin x 1",
+   "Recommended PSU": "750 W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6",
+   "HDCP Support": "Yes"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI x 1 (As specified in HDMI 2.1b: up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR)",
+   "Display Port": "DisplayPort x 3 (v2.1a)"
+  },
+  "Physical Specification": {
+   "Dimension": "288 x 112 x 50 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "RTX 5070 Ti 16G VENTUS 3X OC"
+  }
+ },
+ "key_features": [],
+ "model": "RTX 5070 Ti 16G VENTUS 3X OC",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+ "store": "creatus"
+}

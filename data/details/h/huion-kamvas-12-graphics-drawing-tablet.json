@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "General": {
+   "Model": "Kamvas 12",
+   "Type": "Display Graphics Tablet"
+  },
+  "Display Details": {
+   "Screen Size": "11.6inch (Diagonal)",
+   "Accuracy": "±0.3mm (Center) ±2mm (Corner)",
+   "Color Gamut": "120% sRGB",
+   "Color Option": "16.7M (8bit)",
+   "Contrast Ratio": "1000:1",
+   "Pressure Sensitivity": "8192 Levels",
+   "Resolution": "1920 x 1080 (16:9)",
+   "Response Time": "25ms",
+   "Viewing Angle": "85°/85°(H)/85°/85°(V) (Typ.)(CR＞10)",
+   "Brightness": "200cd/m2 (Max.)",
+   "Dimensions": "330.25 x 197 x 11.8mm"
+  },
+  "Features": {
+   "Active area": "256.32 x 144.18 mm",
+   "Reading Height": "10mm",
+   "Tilt": "±60°",
+   "Technology": "Battery-Free Electromagnetic Resonance",
+   "Weight": "735g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Panel Size: 11.6inch (Diagonal)",
+  "Resolution: 1920 x 1080 (16:9), Response Time: 25ms",
+  "Contrast Ratio:1000:1, Brightness: 200cd/m2 (Max.)",
+  "Pen Technology: Battery-Free Electromagnetic Resonance"
+ ],
+ "model": "Kamvas 12",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/huion-kamvas-12-graphics-tablet",
+ "store": "pchouse"
+}

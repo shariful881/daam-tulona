@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.50 GHz",
+   "Maximum Turbo Frequency": "4.40 GHz",
+   "Cache": "18 MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256GB",
+   "Type": "DDR4 / DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 730"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2.50 GHz Up to 4.40 GHz",
+  "Cache: 18MB, Socket: LGA1700",
+  "CPU Cores: 6, CPU Threads: 12",
+  "Graphic: Intel UHD Graphics 730"
+ ],
+ "price": 1740019000,
+ "regular": 19300,
+ "status": "In Stock",
+ "code": "19531",
+ "brand": "INTEL",
+ "model": "Core i5-12400 (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "Intel 12th Gen Core i5-12400 Alder Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 12th Gen Core i5-12400 Alder Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.startech.com.bd/intel-12th-gen-core-i5-12400-alder-lake-processor",
+ "store": "startech"
+}

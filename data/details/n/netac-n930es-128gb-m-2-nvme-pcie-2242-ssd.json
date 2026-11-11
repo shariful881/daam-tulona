@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "128GB",
+   "Form Factor": "M.2 2242",
+   "Interface": "PCIe Gen3×2",
+   "MTBF": "1,500,000 Hours"
+  },
+  "Sequential R/W": {
+   "Seq. Read Speed": "Up to 970MB/s",
+   "Seq. Write Speed": "Up to 635MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "22*42mm",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃-70℃",
+   "Storage Temperature": "-40℃-85℃",
+   "Shock resistance": "1500G duration 0.5ms, Half Sine Wave"
+  },
+  "Warranty": {
+   "Warranty Details": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB",
+  "Form Factor: M.2 2242",
+  "Flash Type: 3D NAND Flash",
+  "Interface: PCIe Gen3x2",
+  "Sequential R/W: 970MB/s read & 635MB/s write"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://fourstarit.com.bd/p/netac-n930es-128gb-m2-nvme-pcie-2242-ssd",
+ "store": "fourstar"
+}

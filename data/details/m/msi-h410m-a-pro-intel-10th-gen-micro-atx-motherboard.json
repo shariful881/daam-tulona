@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 10th Gen Intel Core and Pentium Gold / Celeron processors for LGA 1200 socket",
+   "Chipset": "Intel H410",
+   "Form Factor": "Mirco-ATX Form Factor: 9.3 in. x 7.5 in. (23.6 cm x 19.0 cm)"
+  },
+  "Memory": {
+   "Slots": "Number of Memory Slots: 2 x DIMM\nExpansion Slots\n1x PCIe 3.0 x16 slot (From CPU)\n1x PCIe 3.0 x1 slot (From PCH)",
+   "Supported Memory": "Memory Type:\nDual Channel Memory Architecture\nDDR4\nSupported Memory:\nIntel Core i7/ i9\n-Supports up to DDR4 2933 MHz\nIntel Core i5 and below\n-Supports up to DDR4 2666 MHz\nSupports non-ECC, un-buffered memory\nSupports Intel Extreme Memory Profile (XMP)",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1x DVI-D port, supports a maximum resolution of 1920x1200 @60Hz\n1x HDMI 1.4 port, supports a maximum resolution of 4096x2160 @30Hz"
+  },
+  "Connector & Ports": {
+   "USB (s)": "USB Ports:\n1x HDMI 1.4 port, supports a maximum resolution of 4096x2160 @30Hz\n1x DVI-D port, supports a maximum resolution of 1920x1200 @60Hz",
+   "Supported Storage": "Intel H410 Chipset\n4x SATA 6Gb/s ports\n1x M.2 slot (Key M)\n-M2_1 supports up to PCIe 3.0 x4 and SATA 6Gb/s, 2242/ 2260/ 2280 storage devices",
+   "Audio": "Realtek ALC892 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "MSI H410M A Pro"
+  },
+  "Product List": {
+   "MSI PRO B760M-P DDR5 mATX Motherboard": "15,000৳\n15,500৳",
+   "MSI Z790 GAMING PLUS WIFI DDR5 ATX Motherboard": "35,700৳\n38,900৳",
+   "MSI MAG B760M MORTAR II DDR5 mATX Motherboard": "21,500৳\n23,000৳",
+   "MSI B760M BOMBER WIFI DDR5 mATX Motherboard": "18,000৳\n18,500৳"
+  }
+ },
+ "key_features": [],
+ "model": "MSI H410M A Pro",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.creatus.com.bd/msi-h410m-a-pro-intel-10th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 5.0 NVMe",
+   "Sequential R/W": "Maximum Read Transfer Rate: 14200MB/s\nMaximum Write Transfer Rate: 11000MB/s",
+   "MTBF": "2,000,000 hours",
+   "TBW": "1000TB",
+   "Others": "3D TLC\nSilicon Motion SM2508 Controller\nDDR4 DRAM Cache"
+  },
+  "Physical Specification": {
+   "Dimension": "80mm x 22mm x 2.21mm",
+   "Weight": "7g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-40°C~85°C",
+   "Vibration Resistance": "Vibration operating: 2.17G (7-800 Hz)\nVibration non-operating: 20G peak (20-1000Hz)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 1TB",
+  "Interface: PCIe 5.0 x4 NVMe",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 14,200/11,000MB/s"
+ ],
+ "price": 4450045500,
+ "regular": 48900,
+ "status": "In Stock",
+ "code": "42697",
+ "brand": "Kingston",
+ "mpn": "SFYR2S/1TB",
+ "model": "FURY Renegade G5",
+ "warranty": "05-Year Warranty",
+ "name": "Kingston FURY Renegade G5 1TB PCIe 5.0 NVMe M.2 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Kingston",
+  "Kingston FURY Renegade G5 1TB PCIe 5.0 NVMe M.2 SSD"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/kingston-fury-renegade-g5-1tb-pcie-5-ssd",
+ "store": "startech"
+}

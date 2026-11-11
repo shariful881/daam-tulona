@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1700 for Intel Core 14th & 13th Gen Processors, Intel Core™ 12th Gen, Pentium Gold and Celeron Processors*\nSupports up to Intel 65W CPU\nSupports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0**",
+   "Chipset": "Intel H610 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9 inch x 7.7 inch (22.6 cm x 19.5 cm )",
+   "Audio": "3 x Audio jacks"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel Core Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel H610 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "Total supports 1 x M.2 slot and 4 x SATA 6Gb/s ports\nIntel® H610 Chipset\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n4 x SATA 6Gb/s ports"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "DDR5 5600/5400/5200/5000/4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration",
+   "Maximum Memory": "Max. 96GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort**\n1 x VGA port\n1 x HDMITM port***\n* Graphics specifications may vary between CPU types."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "Display Port (s)": "1 x Display port",
+   "USB (s)": "Rear USB (Total 4 ports)\n2 x USB 3.2 Gen 1(5G) ports (2 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 6 ports)\n1 x USB 3.2 Gen 1(5G) header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet",
+   "Supported Storage": "1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Connectivitys": {
+   "VGA": "1 x VGA"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-Slot\n- Q-LED Core\nASUS Thermal Solution\n- Aluminum heatsink design",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\nEPU\nDIGI+ VRM\nPC Cleaner\nASUS CPU-Z\nNorton 360 for Deluxe (60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "PRIME H610M-R"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+  "Supported Memory: 2 x DIMM, Max. 96GB, DDR5 5600",
+  "Graphics Output: 1x HDMI, 1x VGA, 1x DP",
+  "Features: 1x M.2 slot, 1x Realtek 1Gb Ethernet"
+ ],
+ "model": "PRIME H610M-R",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-h610m-r-ddr5-lga1700-matx-motherboard",
+ "store": "creatus"
+}

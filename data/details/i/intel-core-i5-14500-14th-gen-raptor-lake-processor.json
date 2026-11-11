@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.7 GHz",
+   "Maximum Turbo Frequency": "5.0 GHz",
+   "Cache": "24 MB Intel Smart Cache\nL2 Cache: 11.5 MB",
+   "Cores": "14",
+   "Threads": "20",
+   "Default TDP": "154 W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Max Dynamic Frequency": "1.55 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4096 x 2160 @ 60Hz\nMax Resolution (DP): 7680 x 4320 @ 60Hz\nMax Resolution (eDP - Integrated Flat Panel): 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years Warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.7 GHz up to 5.0 GHz",
+  "Cache: 24 MB, Socket: LGA1700",
+  "CPU Cores: 14, CPU Threads: 20",
+  "Graphics: Intel UHD Graphics 770"
+ ],
+ "price": 2730029000,
+ "regular": 30000,
+ "status": "In Stock",
+ "code": "33381",
+ "brand": "INTEL",
+ "model": "Core i5 14500 (Tray Box)",
+ "warranty": "3 Years Warranty (No Warranty for Fan or Cooler)",
+ "name": "Intel Core i5 14500 14th Gen Raptor Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 14th Gen Processor"
+ ],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.startech.com.bd/intel-core-i5-14500-14th-gen-processor",
+ "store": "startech"
+}

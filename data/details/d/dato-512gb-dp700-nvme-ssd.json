@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "2.5\" SATAIII (6Gb/s)"
+  },
+  "Sequential R/W": {
+   "Max sequential read speed": "545MB/s",
+   "Max sequential write speed": "435MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-45°C to 85°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "100 mm x 69 mm x 7 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years limited warranty"
+  },
+  "Image": {
+   "Model": "512GB DP700"
+  }
+ },
+ "key_features": [
+  "Capacity:512GB",
+  "Form factor:2.5\" SATAIII (6Gb/s)",
+  "Max sequential read speed:545MB/s",
+  "Max sequential write speed:435MB/s"
+ ],
+ "model": "512GB DP700",
+ "warranty": "3 years limited warranty",
+ "fetched": "2026-11-11T10:08+06:00",
+ "source": "https://www.creatus.com.bd/dato-512gb-dp700-nvme-ssd",
+ "store": "creatus"
+}

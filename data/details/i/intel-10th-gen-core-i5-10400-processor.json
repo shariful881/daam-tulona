@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Essentials": {
+   "Product Collection": "10th Generation Intel® Core™ i5 Processors",
+   "Code Name": "Products formerly Comet Lake",
+   "Vertical Segment": "Desktop",
+   "Processor Number": "i5-10400",
+   "Launch Date": "Q2’20",
+   "Lithography": "14 nm",
+   "Use Conditions": "PC/Client/Tablet"
+  },
+  "CPU Specifications": {
+   "Total Cores": "6",
+   "Total Threads": "12",
+   "Max Turbo Frequency": "4.30 GHz",
+   "Intel® Turbo Boost Technology 2.0 Frequency‡": "4.30 GHz",
+   "Processor Base Frequency": "2.90 GHz",
+   "Cache": "12 MB Intel® Smart Cache",
+   "Bus Speed": "8 GT/s",
+   "TDP": "65 W"
+  },
+  "Supplemental Information": {
+   "Embedded Options Available": "No"
+  },
+  "Memory Specifications": {
+   "Max Memory Size (dependent on memory type)": "128 GB",
+   "Memory Types": "DDR4-2666",
+   "Max # of Memory Channels": "2",
+   "Max Memory Bandwidth": "41.6 GB/s",
+   "ECC Memory Supported   ‡": "No"
+  },
+  "Processor Graphics": {
+   "Processor Graphics ‡": "Intel® UHD Graphics 630",
+   "Graphics Base Frequency": "350 MHz",
+   "Graphics Max Dynamic Frequency": "1.10 GHz",
+   "Graphics Video Max Memory": "64 GB",
+   "4K Support": "Yes |  at 60Hz",
+   "Max Resolution (HDMI)‡": "4096 x 2160@30Hz",
+   "Max Resolution (DP)‡": "4096 x 2304@60Hz",
+   "Max Resolution (eDP – Integrated Flat Panel)‡": "4096 x 2304@60Hz",
+   "DirectX* Support": "12",
+   "OpenGL* Support": "4.5",
+   "Intel® Quick Sync Video": "Yes",
+   "Intel® InTru™ 3D Technology": "Yes",
+   "Intel® Clear Video HD Technology": "Yes",
+   "Intel® Clear Video Technology": "Yes",
+   "# of Displays Supported ‡": "3",
+   "Device ID": "0x9BC8 / 0x9BC5"
+  },
+  "Expansion Options": {
+   "Scalability": "1S Only",
+   "PCI Express Revision": "3",
+   "PCI Express Configurations ‡": "Up to 1×16 |  2×8 |  1×8+2×4",
+   "Max # of PCI Express Lanes": "16"
+  },
+  "Package Specifications": {
+   "Sockets Supported": "FCLGA1200",
+   "Max CPU Configuration": "1",
+   "Thermal Solution Specification": "PCG 2015C",
+   "TJUNCTION": "100°C",
+   "Package Size": "37.5mm x 37.5mm"
+  },
+  "Advanced Technologies": {
+   "Intel® Optane™ Memory Supported ‡": "Yes",
+   "Intel® Thermal Velocity Boost": "No",
+   "Intel® Turbo Boost Max Technology 3.0 ‡": "No",
+   "Intel® Turbo Boost Technology ‡": "2",
+   "Intel vPro® Platform Eligibility ‡": "No",
+   "Intel® Hyper-Threading Technology ‡": "Yes",
+   "Intel® Virtualization Technology (VT-x) ‡": "Yes",
+   "Intel® VT-x with Extended Page Tables (EPT) ‡": "Yes",
+   "Intel® Transactional Synchronization Extensions": "No",
+   "Intel® 64 ‡": "Yes",
+   "Instruction Set": "64-bit",
+   "Instruction Set Extensions": "Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2",
+   "Idle States": "Yes",
+   "Enhanced Intel SpeedStep® Technology": "Yes",
+   "Thermal Monitoring Technologies": "Yes",
+   "Intel® Identity Protection Technology ‡": "Yes",
+   "Intel® Stable Image Platform Program (SIPP)": "No"
+  },
+  "Security & Reliability": {
+   "Intel® AES New Instructions": "Yes",
+   "Secure Key": "Yes",
+   "Intel® Software Guard Extensions (Intel® SGX)": "Yes with Intel® ME",
+   "Intel® OS Guard": "Yes",
+   "Intel® Trusted Execution Technology ‡": "No",
+   "Execute Disable Bit ‡": "Yes",
+   "Intel® Boot Guard": "Yes"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://smartbd.com/product/intel-core-i5-10400-10th-gen-processor/",
+ "store": "smartbd"
+}

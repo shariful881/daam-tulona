@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6 GHz",
+   "Cache": "Cache L2 Cache: 3 MB",
+   "Cores": "6",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "4.1 GHz",
+   "Model": "Ryzen 5 3500X",
+   "Threads": "6"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.1GHz",
+  "Cache (L2+L3): 35 MB",
+  "Memory Speed: 3200MHz"
+ ],
+ "model": "Ryzen 5 3500X",
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-3500x-processor",
+ "store": "pchouse"
+}

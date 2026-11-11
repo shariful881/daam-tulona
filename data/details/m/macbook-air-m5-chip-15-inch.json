@@ -1,0 +1,86 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Apple",
+   "Processor Model": "M5 chip",
+   "Processor Core": "10-core CPU with 4 super cores and 6 efficiency cores"
+  },
+  "Chipset": {
+   "Chipset": "Apple M5"
+  },
+  "Display": {
+   "Display Size": "15.3-inch",
+   "Display Type": "Liquid Retina display",
+   "Display Resolution": "2880 x1864",
+   "Touch Screen": "No",
+   "Display Features": "2880-by-1864 native resolution at 224 pixels per inch\n500 nits brightness\nSupport for 1 billion colors\nWide color (P3)\nTrue Tone technology",
+   "Refresh Rate": "60 Hz"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "Unified memory",
+   "Removable": "Non-Removable"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "512GB/ 1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "10‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Magic Keyboard",
+   "TouchPad": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures",
+   "Keyboard Features": "78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FaceTime HD camera",
+   "Speaker": "Four-speaker sound system",
+   "Microphone": "Three-mic array",
+   "Audio Features": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be)",
+   "Bluetooth": "Bluetooth 6"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "USB Type-C / Thunderbolt Port": "2 x Thunderbolt 4 (USB Type-C)",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Touch ID"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Dimensions": {
+   "Height": "0.45 inch (1.15 cm)",
+   "Width": "13.40 inches (34.04 cm)",
+   "Depth": "9.35 inches (23.76 cm)"
+  },
+  "Physical Specification": {
+   "Weight": "3.3 pounds (1.51 kg)"
+  },
+  "Power": {
+   "Battery Type": "Lithium‑polymer",
+   "Battery Capacity": "66.5 Wh",
+   "Adapter Type": "40W USB-C Power Adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Processor: Apple M5 chip with 10‑core CPU, 10‑core GPU, 16‑core Neural Engine",
+  "RAM: 16GB Unified Memory, Storage: 512GB/ 1TB SSD",
+  "Display: 15.3-inch Liquid Retina display (2880 x1864) with True Tone",
+  "Features: Backlit Magic Keyboard with Touch ID"
+ ],
+ "warranty": "1 Year international warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/apple-macbook-air-m5-15-inch",
+ "store": "pchouse"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32GB",
+   "Type": "DDR5",
+   "Frequency": "5600MHz",
+   "Latency": "C40"
+  },
+  "Operating voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.25V"
+  },
+  "Others": {
+   "Performance Profile": "XMP 3.0",
+   "Package Memory Format": "DIMM"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "VENGEANCE DDR5"
+  }
+ },
+ "key_features": [
+  "Type: DDR5 high-performance memory module",
+  "Capacity: Large 32GB for demanding workloads",
+  "Frequency: Ultra-fast 5600MHz data speed",
+  "Voltage: 1.1V SPD, 1.25V tested for efficiency",
+  "Latency: Optimized C40 CAS latency",
+  "Overclocking Support: Intel XMP 3.0 ready",
+  "Build Quality: Durable aluminum heat spreader",
+  "Form Factor: Standard 288-pin DIMM format",
+  "Application: Ideal for gaming and productivity",
+  "Warranty: Backed by Corsair lifetime warranty"
+ ],
+ "model": "VENGEANCE DDR5",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T10:07+06:00",
+ "source": "https://www.creatus.com.bd/corsair-vengeance-32gb-ddr5-5600mhz-c40-ram",
+ "store": "creatus"
+}

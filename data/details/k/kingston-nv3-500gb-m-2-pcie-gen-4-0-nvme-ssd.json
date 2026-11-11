@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 4.0 NVMe",
+   "Sequential R/W": "Maximum Read Transfer Rate: 5,000MB/s\nMaximum Write Transfer Rate: 3,000MB/s",
+   "MTBF": "2,000,000 hours",
+   "TBW": "160TB",
+   "Others": "3D NAND Technology"
+  },
+  "Physical Specification": {
+   "Dimension": "22mm x 80mm x 2.2mm",
+   "Weight": "7g (all capacities)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-40°C~85°C",
+   "Vibration Resistance": "Vibration operating: 2.17G (7-800 Hz)\nVibration non-operating: 10G (10-1000Hz)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe 4.0 x4 NVMe",
+  "Storage Capacity: 500GB",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 5,000/3,00MB/s"
+ ],
+ "price": 1370015500,
+ "regular": 15600,
+ "status": "In Stock",
+ "code": "37954",
+ "brand": "Kingston",
+ "model": "NV3",
+ "warranty": "03-Year Warranty",
+ "name": "Kingston NV3 500GB M.2 PCIe Gen 4.0 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Kingston",
+  "Kingston NV3 500GB M.2 PCIe Gen 4.0 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.startech.com.bd/kingston-nv3-500gb-nvme-ssd",
+ "store": "startech"
+}

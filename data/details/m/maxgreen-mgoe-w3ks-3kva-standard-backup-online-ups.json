@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "3000VA",
+   "Load Capacity": "2700 Watt",
+   "Input Voltage": "115~300VAC ± 5VAC",
+   "Output Voltage": "220/230/240vac ±2% (inverter output)",
+   "Frequency (Battery Mode)": "50Hz±1% (battery mode)",
+   "Battery": "72VDC(12V9Ah) / 96VDC(12V7.5Ah)"
+  },
+  "Input Features": {
+   "Frequency": "50±2% (Line mode)",
+   "Power Factor": "0.8",
+   "Voltage Range": "115~300VAC ± 5%VAC"
+  },
+  "Output Features": {
+   "Voltage Range": "220/230/240vac ±1% (Inverter output)",
+   "Type of Wave": "Pure Sine wave",
+   "Backup Time": "15-30min",
+   "Transfer Time": "00"
+  }
+ },
+ "key_features": [
+  "Capacity: 3000VA",
+  "Ranged Voltage: 220/230/240Vac",
+  "Frequency: 50Hz",
+  "Input Voltage: 115~300VAC ± 5VAC"
+ ],
+ "fetched": "2026-11-11T09:34+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mgoe-w3ks-3kva-standard-backup-online-ups",
+ "store": "pchouse"
+}

@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6X",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "OC mode : 2670 MHz\nDefault mode : 2640 MHz (boost)",
+   "Memory Clock": "21 Gbps",
+   "BUS Type": "PCI Express 4.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8448"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 1.4a",
+   "HDMI": "2x Native HDMI 2.1",
+   "HDCP": "HDCP  2.3"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "12 x 5.43 x 2.55 inch\n305 x 138 x 65 mm",
+   "Others": "3.25 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "OC mode: 2670 MHz",
+  "Default mode: 2640 MHz (boost)",
+  "Memory: 16GB GDDR6X",
+  "Output: 2x HDMI 2.1, 3x DisplayPort 1.4a"
+ ],
+ "price": 151000166000,
+ "regular": 164920,
+ "status": "In Stock",
+ "code": "37663",
+ "brand": "Asus",
+ "mpn": "TUF-RTX4070TIS-O16G-BTF-WHITE",
+ "model": "TUF Gaming GeForce RTX 4070 Ti SUPER BTF White OC Edition",
+ "warranty": "3 years",
+ "name": "ASUS TUF Gaming GeForce RTX 4070 Ti SUPER BTF White OC Edition 16GB GDDR6X Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS TUF Gaming GeForce RTX 4070 Ti SUPER BTF White OC Edition 16GB GDDR6X Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-geforce-rtx-4070-ti-super-btf-white-oc-edition-16gb-graphics-card",
+ "store": "startech"
+}

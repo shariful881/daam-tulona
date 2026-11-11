@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256 GB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA III 6Gbps",
+   "Flash Type": "3D NAND Flash Technology",
+   "MTBF": "1,000,000 hours"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "560MB/s (Maximum)",
+   "Sequential Write": "520MB/s (Maximum)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Operating Voltage": "DC5V ± 10%"
+  },
+  "Warranty Information": {
+   "Warranty": "4 years"
+  },
+  "Image": {
+   "Model": "SK350"
+  }
+ },
+ "key_features": [
+  "Type: SATA SSD",
+  "Capacity: 256GB",
+  "Interface: SATA III 6Gbps",
+  "MTBF: 1,000,000 Hours"
+ ],
+ "model": "SK350",
+ "warranty": "4 years",
+ "fetched": "2026-11-11T09:53+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-sk350-256gb-sata-ssd",
+ "store": "creatus"
+}

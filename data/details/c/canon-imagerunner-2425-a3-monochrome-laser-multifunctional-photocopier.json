@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Product Description": {
+   "Features": "General Specification",
+   "Model": "iR2425",
+   "Country of Origin": "Japan",
+   "Country of Manufacture": "Korea",
+   "Type": "Desktop",
+   "Copy /Print Speed": "25 ppm in A4",
+   "Maximum Original Size": "A3",
+   "Control panel": "7 inch TFT LCD WVGA colour touch panel",
+   "First Copy Time (A4)": "Approx. 7.4 seconds or less",
+   "Warm-up Time": "12 Seconds or Less",
+   "Memory": "Standard: 2.0GB RAM; eMMC: 30GB",
+   "Multiple Copies Prints": "Up to 9,999 Copies",
+   "Resolution (dpi)": "600 x 600 dpi",
+   "magnification": "25% – 400% (1% Increments)\nPreset reduction/enlargement: 25%, 50%, 61%, 70%, 81%, 86%, 100%, 115%, 122%, 141%, 200%, 400%",
+   "Duplex": "Built in",
+   "Document Feeder": "Optional 50 sheets capacity",
+   "Interface Connection": "Standard: 1000Base-T/100Base-TX/10Base-T, Wireless LAN (IEEE 802.11 b/g/n), Standard: USB 2.0 (Host) x3, USB 2.0 (Device) x1",
+   "Scan Method": "Push scan, Pull scan, Scan to Network, Scan to memory media (USB Memory Key), Scan to Mobile Devices",
+   "Mobile Applications": "Canon PRINT Business,\nAirPrintTM, Mopria® and Canon Print Service",
+   "Toner Yield": "10,200 pages in A4 (6% Coverage)",
+   "Drum Yield": "71,600 pages in A4",
+   "Power Supply": "220-240V 50/60Hz 2.7A",
+   "Power Consumption": "Maximum: Approximately 1,500W",
+   "Warranty": "One-year free service"
+  },
+  "Standard Paper Capacity": {
+   "Standard": "330 sheets",
+   "Maximum": "580 sheets"
+  },
+  "Send Destination": {
+   "Standard": "E-mail/Internet FAX (SMTP), SMB3.0, FTP WebDAV",
+   "Optional": "Super G3 FAX"
+  },
+  "Communication protocol": {
+   "File": "FTP (TCP/IP), SMB (TCP/IP), WebDAV",
+   "Email/iFax": "SMTP(send), POP3(receive)"
+  },
+  "Weight": {
+   "With Platen Cover-AA1": "Approx. 34.9kg including toner",
+   "With DADF-AZ2": "Approx. 39.9kg including toner"
+  }
+ },
+ "key_features": [],
+ "model": "iR2425",
+ "warranty": "One-year free service",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://smartbd.com/product/canon-imagerunner-2425-a3-monochrome-laser-multifunctional-photocopier/",
+ "store": "smartbd"
+}

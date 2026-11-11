@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B850 Chipset",
+   "BIOS": "64MB (512Mb) Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD B850 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)***\n2 x PCIe 4.0 x1 slots",
+   "M.2 Socket": "Total supports 3 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort**\n1 x HDMI port***"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology\nRyzen 9000 & 8000 & 7000 Series Processors: RAID 0/1/5/10",
+   "Display Port (s)": "1 x DisplayPort 1.4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/8000 & 7000 Series Processors for AM5 Socket",
+  "Supported Memory: 4 x DIMM, Max. 256GB, DDR5 Up to 9000+MT/s(OC)",
+  "Graphics Output: 1 x HDMI port, 1 x DisplayPort",
+  "Features: Realtek 2.5Gb Ethernet, WiFi7, Bluetooth 5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:46+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-b850-pro-wifi7-w-neo-motherboard",
+ "store": "pchouse"
+}

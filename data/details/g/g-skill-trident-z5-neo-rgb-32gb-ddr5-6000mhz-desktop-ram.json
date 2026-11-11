@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32GB",
+   "Type": "DDR5",
+   "Frequency": "6000Mhz",
+   "Latency": "32-38-38-96"
+  },
+  "Operating voltage": {
+   "Tested Voltage (XMP/EXPO)": "1.40V",
+   "SPD Voltage (Default)": "1.10V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime warranty"
+  },
+  "Image": {
+   "Model": "Trident Z5 Neo RGB"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB",
+  "Type: DDR5 6000Mhz",
+  "Latency: 32-38-38-96",
+  "Voltage: 1.40V"
+ ],
+ "model": "Trident Z5 Neo RGB",
+ "warranty": "Lifetime warranty",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.creatus.com.bd/g-skill-trident-z5-neo-rgb-32gb-ddr5-6000mhz-desktop-ram",
+ "store": "creatus"
+}

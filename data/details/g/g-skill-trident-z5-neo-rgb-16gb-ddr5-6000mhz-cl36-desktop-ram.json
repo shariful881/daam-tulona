@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000Mhz",
+   "Operating voltage": "Tested Voltage (XMP/EXPO): 1.35V\nSPD Voltage (Default): 1.10V",
+   "Latency": "CL36-36-36-96"
+  },
+  "Physical dimension": {
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Type: DDR5 6000Mhz",
+  "Latency: CL36-36-36-96",
+  "Voltage: 1.35V"
+ ],
+ "price": 35000,
+ "regular": 38500,
+ "status": "In Stock",
+ "code": "50567",
+ "brand": "G.SKILL",
+ "mpn": "F5-6000J3636F16GX2-TZ5NR",
+ "model": "Trident Z5 Neo",
+ "warranty": "Lifetime warranty",
+ "name": "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz CL36 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "G.Skill",
+  "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz CL36 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.startech.com.bd/gskill-trident-z5-neo-rgb-16gb-ddr5-6000mhz-cl36-ram",
+ "store": "startech"
+}

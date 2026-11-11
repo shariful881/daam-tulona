@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Memory Clock": "30 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "CUDA Cores": "10752",
+   "Memory Interface": "256-bit"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "850W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6",
+   "HDCP Support": "HDCP 2.3"
+  },
+  "Connectivity": {
+   "HDMI": "1x Native HDMI 2.1b",
+   "Display Port": "3x Native DisplayPort 2.1a"
+  },
+  "Physical Specification": {
+   "Dimension": "306 x 126 x 50 mm\n12 x 5 x 2 inch"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "PRIME-RTX5080-O16G"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, CUDA Core: 10752",
+  "Memory Speed: 30 Gbps, Memory Interface: 256-bit",
+  "Bus Standard: PCI Express 5.0, Resolution: Max 7680 x 4320",
+  "Output Ports: 1x Native HDMI 2.1b, 3x Native DisplayPort 2.1a"
+ ],
+ "model": "PRIME-RTX5080-O16G",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+ "store": "creatus"
+}

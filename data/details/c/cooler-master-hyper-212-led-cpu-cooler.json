@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "600-1600 RPM ± 10%",
+   "Fan Airflow": "66.3 CFM ± 10%",
+   "Noise": "Fan Noise Level: 9 - 31 dBA",
+   "Air Pressure": "1.7 mmH2O ± 10%",
+   "Connector": "4-Pin (PWM)",
+   "Material": "Aluminum Fins",
+   "Others": "Fan MTTF: 40,000 Hours"
+  },
+  "Dimension": {
+   "Dimensions": "120 x 108 x 163 mm",
+   "Heat Sink Dimensions": "120 x 60 x 160 mm"
+  },
+  "Physical Specification": {
+   "Weight": "Heat Sink Weight: 468g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066, LGA2011-v3, LGA2011, LGA1366, LGA1200, LGA1156, LGA1155, LGA1151, LGA1150, LGA775",
+   "AMD": "AM4, AM3+, AM3, AM2+, FM2+, FM2, FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:48+06:00",
+ "source": "https://www.pchouse.com.bd/cooler-master-hyper-212-cpu-cooler",
+ "store": "pchouse"
+}

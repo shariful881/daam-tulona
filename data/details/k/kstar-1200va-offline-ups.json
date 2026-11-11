@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "1200VA",
+   "Input Voltage": "230V",
+   "Output Voltage": "230 (+/-10%)",
+   "Frequency": "50 Hz",
+   "Load Capacity": "600W"
+  },
+  "Battery": {
+   "AC Voltage Regulation": "220+/-10%(Battery mode)",
+   "Frequency Range": "50 Hz ±1 Hz(Battery mode)"
+  },
+  "Input Features": {
+   "Frequency": "230V"
+  },
+  "Output Features": {
+   "Voltage Range": "230 (+/-10%)",
+   "Type of Wave": "Simulated Sine Wave",
+   "Transfer Time": "Typical 4-8ms, 13ms max"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "01-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Input Voltage: 230V",
+  "Capacity: 1200VA",
+  "Frequency: 50 Hz"
+ ],
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-11T09:22+06:00",
+ "source": "https://fourstarit.com.bd/p/kstar-1200va-offline-ups",
+ "store": "fourstar"
+}

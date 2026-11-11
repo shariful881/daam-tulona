@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe4.0",
+   "Flash Type": "96-layer 3D TLC",
+   "MTBF": "2 million hours",
+   "Sequential R/W": "Read: 7400MB/s, Write: 6400MB/s",
+   "TBW": "750 TBW"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "GM7000"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Form Factor: M.2 2280",
+  "Read Speed (Max.): 7400MB/s",
+  "Write Speed (Max.): 6400MB/s"
+ ],
+ "model": "GM7000",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:50+06:00",
+ "source": "https://www.creatus.com.bd/acer-predator-gm7000-1tb-pcie-ssd",
+ "store": "creatus"
+}

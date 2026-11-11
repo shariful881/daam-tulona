@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Sequential R/W": {
+   "Read Speed": "1500 MB/s",
+   "Write Speed": "530 MB/s"
+  },
+  "Basic Information": {
+   "Capacity": "128GB",
+   "Form Factor": "M.2 2280"
+  },
+  "Main Features": {
+   "Flash Type": "3D NAND"
+  },
+  "Physical Specification": {
+   "Weight": "170 g",
+   "Dimensions": "4 x 7 x 0.5 cm",
+   "Interface": "M.2 NVME"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "CN600"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB",
+  "Interface: M.2 NVME",
+  "NAND Flash: 3D NAND",
+  "Read: 1500MB/s, Write: 530MB/s"
+ ],
+ "model": "CN600",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-cn600-128gb-m2-ssd",
+ "store": "creatus"
+}

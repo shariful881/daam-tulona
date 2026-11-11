@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "32GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "Tested Voltage: 1.35V"
+  },
+  "Latency": {
+   "Tested Latency": "40-40-40-77",
+   "SPD Latency": "40-40-40-77"
+  },
+  "Others": {
+   "Memory Format": "UDIMM",
+   "Memory Compatibility": "AMD 600 Series, AMD 800 Series, Intel 600 Series, Intel 700 Series, Intel 800 Series",
+   "Color": "GREY"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "RAM Size: 32GB, Speed: 6000MHz",
+  "Latency: 40-40-40-77",
+  "Performance Profile: EXPO & XMP"
+ ],
+ "warranty": "Product Lifetime Warranty",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-vengeance-32gb-ddr5-6000mhz-ram",
+ "store": "pchouse"
+}

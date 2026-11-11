@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "General": {
+   "Chipset": "GeForce RTX 3060",
+   "Part No": "GV-N3060WF2OC-12GD",
+   "Model": "Gigabyte GeForce RTX 3060 WINDFORCE OC 12G"
+  },
+  "Graphics Card": {
+   "Graphics Processing": "GeForce RTX 3060",
+   "CUDA Cores": "3584",
+   "Memory Clock": "15000 MHz",
+   "Memory Size": "12 GB",
+   "Memory Type": "GDDR6",
+   "Card Bus:": "PCI-E 4.0 x 16",
+   "Memory Bus": "192 bit",
+   "Digital max resolution": "7680×4320",
+   "Multi-view": "4",
+   "Card size": "L=198 W=121 H=39 mm",
+   "PCB Form": "ATX",
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6",
+   "Recommended PSU": "550W",
+   "Power Connectors:": "8 pin*1",
+   "Output": "DisplayPort 1.4a *2 | HDMI 2.1 *2"
+  },
+  "Others": {
+   "Warranty": "2 Years"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "88 01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [],
+ "mpn": "GV-N3060WF2OC-12GD",
+ "model": "Gigabyte GeForce RTX 3060 WINDFORCE OC 12G",
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://smartbd.com/product/gigabyte-nvidia-gv-n3060wf2oc-12gd-graphics-card/",
+ "store": "smartbd"
+}

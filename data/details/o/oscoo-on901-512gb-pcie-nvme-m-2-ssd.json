@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen3.0*4",
+   "Flash Type": "3D NAND Flash",
+   "Sequential R/W": "Up to 3500MB/s Read, 3000MB/s Write",
+   "TBW": "284 TBW",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T\nLow-profile graphene aluminum heat spreader"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Physical Specification": {
+   "Dimensions": "80x22x3.5mm"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years"
+  },
+  "Image": {
+   "Model": "ON901"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB, Form Factor M.2",
+  "Interface: NVMe PCIe Gen3.0 x4",
+  "Read Speed: Up to 3500MB/s",
+  "Write Speed: Up to 3000MB/s"
+ ],
+ "model": "ON901",
+ "warranty": "05 Years",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.creatus.com.bd/oscoo-on901-512gb-pcie-nvme-m2-ssd",
+ "store": "creatus"
+}

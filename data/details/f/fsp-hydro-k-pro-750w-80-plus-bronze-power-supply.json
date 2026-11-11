@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Certification": "80 Plus® rating, Hydro K PRO series delivers over 88% high efficiency",
+   "Efficiency (Approx.)": "≧ 88%",
+   "Fan Size": "120mm",
+   "Continuous Power": "750Watt",
+   "Lighting Effect": "No"
+  },
+  "Output": {
+   "Total Power": "750W",
+   "DC Output": "DC Output +3.3V, +5V, +12V, -12V, +5Vsb"
+  },
+  "Connectors": {
+   "PCI-E": "2",
+   "SATA": "5",
+   "AC Input": "200-240Vac~ 4A 50-60Hz"
+  },
+  "Input": {
+   "Current": "4A",
+   "Frequency Range": "50-60Hz",
+   "Voltage": "200-240V"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Rated Output Power: 750W",
+  "Fan Type: HYB Fan, 120mm",
+  "Form Factor: ATX"
+ ],
+ "warranty": "05 years warranty",
+ "fetched": "2026-11-11T09:52+06:00",
+ "source": "https://www.pchouse.com.bd/fsp-hydro-k-pro-750w-power-supply",
+ "store": "pchouse"
+}

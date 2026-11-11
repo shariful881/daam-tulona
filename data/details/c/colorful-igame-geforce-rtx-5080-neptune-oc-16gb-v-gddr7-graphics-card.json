@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Max 7680 x 4320",
+   "Core Clock": "Core Clock Base: 2295Mhz；Boost:2617Mhz\nOne-Key OC Base：2295Mhz；Boost:2695Mhz",
+   "Memory Clock": "30 Gbps",
+   "BUS Type": "PCI-E 5.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "10752",
+   "Others": "Memory Bandwidth: 960GB/s\n360mm Radiator"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "2x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Consumption": "400W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "Card：282.2*145*40.5mm\nCooler：394*119.2*53.2mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Memory Clock: 30 Gbps, Memory Bus: 256 bit",
+  "Core Clock Base: 2295Mhz; Boost:2617Mhz",
+  "One-Key OC Base: 2295Mhz; Boost:2695Mhz",
+  "Output Ports: 1x HDMI 2.1b, 3x DisplayPort 2.1b"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.pchouse.com.bd/colorful-igame-geforce-rtx-5080-neptune-oc-graphics-card",
+ "store": "pchouse"
+}

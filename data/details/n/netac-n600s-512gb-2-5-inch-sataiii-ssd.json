@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "2.5-inch",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "SATAIII",
+   "Sequential R/W": "Read Speed: Up to 560MB/s\nWrite Speed: Up to 490MB/s",
+   "Others": "Voltage: 5V"
+  },
+  "Physical Specification": {
+   "Dimension": "100mm*70mm*7mm",
+   "Weight": "54g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃-70℃",
+   "Storage Temperature": "-40℃-85℃"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB, Form Factor: 2.5-inch",
+  "Interface: SATAIII 6Gb/s",
+  "Read Speed: Up to 560MB/s",
+  "Write Speed: Up to 490MB/s"
+ ],
+ "price": 86509100,
+ "regular": 9500,
+ "status": "In Stock",
+ "code": "33196",
+ "brand": "Netac",
+ "mpn": "NT01N600S-512G-S3X",
+ "model": "N600S",
+ "warranty": "3 Years",
+ "name": "Netac N600S 512GB 2.5-inch SATAIII SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac N600S 512GB 2.5-inch SATAIII SSD"
+ ],
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.startech.com.bd/netac-n600s-512gb-2-5-inch-sataiii-ssd",
+ "store": "startech"
+}

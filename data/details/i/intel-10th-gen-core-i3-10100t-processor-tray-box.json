@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.00 GHz",
+   "Maximum Turbo Frequency": "3.80 GHz",
+   "Cache": "6 MB SmartCache",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "35 W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "41.6 GB/s",
+   "Type": "DDR4-2666",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 630",
+   "Base Frequency": "350 MHz",
+   "Max Dynamic Frequency": "1.10 GHz",
+   "Max Video Memory": "64 GB",
+   "Max Resolution": "4K Support: at 60Hz\nMax Resolution (HDMI): 4096 x 2160@30Hz\nMax Resolution (DP): 4096 x 2304@60Hz\nMax Resolution (eDP - Integrated Flat Panel): 4096 x 2304@60Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.00 GHz up to 3.80 GHz",
+  "Cores: 4, Threads: 8",
+  "Cache: 6 MB Intel Smart Cache",
+  "Sockets Supported: FCLGA1200"
+ ],
+ "price": 93009900,
+ "regular": 9980,
+ "status": "In Stock",
+ "code": "31472",
+ "brand": "INTEL",
+ "model": "Intel Core i3 10100T",
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "name": "Intel 10th Gen Core i3 10100T Processor (Tray Box)",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 10th Gen Core i3 10100T Processor (Tray Box)"
+ ],
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.startech.com.bd/intel-10th-gen-core-i3-10100t-processor",
+ "store": "startech"
+}

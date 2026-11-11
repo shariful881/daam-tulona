@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.10 GHz",
+   "Maximum Turbo Frequency": "4.80 GHz",
+   "Cache": "25MB",
+   "Cores": "12",
+   "Threads": "20",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256GB",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.50 GHz",
+   "Max Resolution": "HDMI: 4096 x 2160 @ 60Hz\nDP: 7680 x 4320 @ 60Hz\neDP - Integrated Flat Panel: 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2.10 GHz Up to 4.80 GHz",
+  "Cache: 25MB, Socket: LGA1700",
+  "CPU Cores: 12, CPU Threads: 20",
+  "GPU: Intel UHD Graphics 770"
+ ],
+ "price": 3240035000,
+ "regular": 35150,
+ "status": "In Stock",
+ "code": "19501",
+ "brand": "INTEL",
+ "model": "Core i7-12700 (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "Intel 12th Gen Core i7-12700 Alder Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 12th Gen Core i7-12700 Alder Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.startech.com.bd/intel-12th-gen-core-i7-12700-alder-lake-processor",
+ "store": "startech"
+}

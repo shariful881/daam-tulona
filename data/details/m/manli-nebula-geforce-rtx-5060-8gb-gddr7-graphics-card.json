@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Base / Boost Clock: 2280/2497MHz",
+   "Memory Clock": "28.0Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "3840",
+   "Others": "DLSS 4 delivers Multi Frame Generation and enhanced Ray Reconstruction\nMemory Bandwidth: Up to 448 GB/s\nCooling Design: Heatsink with Twin Cooler"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Consumption": "145W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "211 x 120 x 41mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, Memory Clock: 28 Gbps",
+  "Core Clock: Base: 2280 MHz; Boost: 2497 MHz",
+  "CUDA Cores: 3840, Memory Bandwidth: Up to 448 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "price": 65000,
+ "regular": 66900,
+ "status": "In Stock",
+ "code": "43610",
+ "brand": "Manli",
+ "mpn": "M-N506N/D78G-M2659",
+ "model": "Nebula GeForce RTX 5060",
+ "warranty": "3 Years (For warranty Full Box Required)",
+ "name": "Manli Nebula GeForce RTX 5060 8GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Manli",
+  "Manli Nebula GeForce RTX 5060 8GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.startech.com.bd/manli-nebula-geforce-rtx-5060-graphics-card",
+ "store": "startech"
+}

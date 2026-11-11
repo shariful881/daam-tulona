@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.2 GHz",
+   "Maximum Turbo Frequency": "5.4 GHz",
+   "Cache": "33 MB Intel Smart Cache\nL2 Cache: 28 MB",
+   "Cores": "20",
+   "Threads": "28"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "89.6 GB/s",
+   "Type": "DDR5 Up to 5600 MHz\nDDR4 Up to 3200 MHz"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 GHz",
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Max Dynamic Frequency": "1.65 GHz"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160 @ 60Hz",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty (No Warranty for Fan or Cooler)"
+  },
+  "Image": {
+   "Model": "Core i7 14700"
+  }
+ },
+ "key_features": [],
+ "model": "Core i7 14700",
+ "warranty": "3 Years Warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.creatus.com.bd/intel-core-i7-14700-14th-gen-raptor-lake-processor",
+ "store": "creatus"
+}

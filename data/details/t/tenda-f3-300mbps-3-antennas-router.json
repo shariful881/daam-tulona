@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Specification:": {
+   "LED": "SYS, Wi-Fi, LAN (1-3), WAN, T, WPS",
+   "Wireless Speed": "300Mbps over 2.4GHz band",
+   "Button": "1*WPS/RESET",
+   "Antenna Type": "3x5dBi external undetachable antennas",
+   "Wireless Standards": "IEEE802.11/b/g/n",
+   "Frequency": "2.4GHz"
+  },
+  "Wireless Security": {
+   "WPA Algorithm": "AES, TKIP, TKIP&AES II",
+   "Wireless Access Control": "MAC Address Filtering II"
+  }
+ },
+ "key_features": [
+  "Power Consumption: 1.9W at no load and 3.3W at full-load",
+  "Buttons: 1 x WPS/reset",
+  "Interface: 1 x 10/100M auto-negotiation WAN port, 3 x 10/100M auto-negotiation LAN ports",
+  "Safety: WPA AES, TKIP, TKIP and AES",
+  "Wireless Access Control: MAC address filtering"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://diamu.com.bd/product/tenda-f3-300mbps-router-3-antennas/",
+ "store": "diamu"
+}

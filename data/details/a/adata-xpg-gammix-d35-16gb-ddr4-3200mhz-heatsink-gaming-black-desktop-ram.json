@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Operating voltage": "1.35V",
+   "Latency": "CL 16-20-20"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Size": "16GB",
+   "Type": "DDR4"
+  },
+  "Physical Specification": {
+   "Pin": "288 Pin",
+   "Weight": "29.27 gm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  },
+  "Image": {
+   "Model": "XPG Gammix D35"
+  }
+ },
+ "key_features": [
+  "Capacity (GB/TB): 16GB",
+  "RAM Type: DDR4",
+  "Bus Speed(MHz): 3200MHz",
+  "CAS Latency: CL 16-20-20"
+ ],
+ "model": "XPG Gammix D35",
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-11T09:50+06:00",
+ "source": "https://www.creatus.com.bd/adata-xpg-gammix-d35-16gb-3200mhz-ram",
+ "store": "creatus"
+}

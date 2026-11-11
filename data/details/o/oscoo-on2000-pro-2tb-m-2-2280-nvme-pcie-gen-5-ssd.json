@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "PCIe Gen5.0 x4, NVMe 2.0",
+   "Sequential R/W": "Max. 14000MB/s/ 13000MB/s",
+   "MTBF": "1.5 Million Hours",
+   "TBW": "1400TBW"
+  },
+  "Others": {
+   "Encryption": "TCG Opal 2.0, AES 128/256-bit Encryption",
+   "IOPS 4k Random Read/Write (Max.)": "2100K | 1800K"
+  },
+  "Physical Specification": {
+   "Dimension": "80(L) x 22(W) x 3.45(H)mm",
+   "Weight": "8g",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C",
+   "Shock resistance": "1500G/0.5 ms",
+   "Vibration Resistance": "10HZ ~ 2000HZ/20G"
+  },
+  "Warranty": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB, Form Factor: M.2 2280",
+  "Interface: PCIe Gen5.0 x4, NVMe 2.0",
+  "Sequential Read Speed: Max. 14200MB/s",
+  "Sequential Write Speed: Max. 13500MB/s"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-on2000-pro-2tb-ssd",
+ "store": "pchouse"
+}

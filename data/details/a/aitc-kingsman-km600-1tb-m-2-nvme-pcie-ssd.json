@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2",
+   "Flash Type": "64-layer 3D NAND flash memory"
+  },
+  "64-layer 3D NAND flash memory": {
+   "Interface": "NVMe PCIe",
+   "Others": "Operating Voltage: DC3.3V ± 5%"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "2500MB/s (Max.)",
+   "Sequential Write": "1800MB/s (Max.)"
+  },
+  "Physical Specification": {
+   "Dimension": "22 x 80 x 3.5 mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C - 70°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "04 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB M.2 NVMe PCIe",
+  "Sequential Read: 3300MB/s (Max.)",
+  "Sequential Write: 3000MB/s (Max.)",
+  "MTBF: >1,000,000 hours"
+ ],
+ "warranty": "04 years warranty",
+ "fetched": "2026-11-11T09:39+06:00",
+ "source": "https://www.pchouse.com.bd/aitc-kingsman-km600-1tb-nvme-pcie-ssd",
+ "store": "pchouse"
+}

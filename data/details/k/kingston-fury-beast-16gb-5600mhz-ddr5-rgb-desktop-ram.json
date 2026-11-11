@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB"
+  },
+  "Frequency": {
+   "Latency": "36-38-38"
+  },
+  "General Information": {
+   "Bus Speed": "5600MHz",
+   "Color": "Black",
+   "Memory Type": "DDR5"
+  },
+  "Physical dimension": {
+   "Dimension": "133.35 mm x 42.23 mm x 7.11 mm"
+  },
+  "Heat Sink Color": {
+   "Pin": "288-pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "Kingston 16GB 5600MHz RGB"
+  }
+ },
+ "key_features": [
+  "Frequency: 5600MHz",
+  "Operating voltage: 1.25 V",
+  "Type: Pin 288",
+  "Cas Latency: CL40-40-40"
+ ],
+ "model": "Kingston 16GB 5600MHz RGB",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.creatus.com.bd/kingston-16gb-5600mhz-ddr5-rgb-ram",
+ "store": "creatus"
+}

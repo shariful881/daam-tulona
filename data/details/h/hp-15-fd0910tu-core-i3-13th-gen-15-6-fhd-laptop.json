@@ -1,0 +1,108 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i3 processor",
+   "Generation": "13th Generation",
+   "Processor Frequency": "up to 4.5 GHz",
+   "Processor Core": "6",
+   "Processor Thread": "8",
+   "CPU Cache": "L3 cache : 10 MB"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6-Inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 62.5% sRGB"
+  },
+  "Memory": {
+   "RAM": "8GB (1 x 8GB)",
+   "RAM Type": "DDR4",
+   "Removable": "Yes",
+   "Bus Speed": "up to 3200 MT/s"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe M.2 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size keyboard",
+   "Keyboard Features": "Full-size, soft gray keyboard with numeric keypad",
+   "TouchPad": "HP Imagepad; Precision Touchpad support"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 1080p FHD camera with temporal noise reduction",
+   "Speaker": "Dual speakers",
+   "Microphone": "integrated dual array digital microphones",
+   "Audio Features": "Mic mute key"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "1x USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Realtek Wi-Fi 6 (2×2)",
+   "Bluetooth": "Bluetooth 5.4 Wireless Card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Power": {
+   "Battery Type": "3-cell, Li-ion polymer",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "45W Smart AC power adapter"
+  },
+  "Physical Specification": {
+   "Color": "Moonlight Blue",
+   "Dimensions": "35.98 x 23.6 x 1.86 cm",
+   "Weight": "1.59 kg",
+   "Body Material": "Ocean-bound plastic in speaker enclosure(s)\nKeyboard keycaps and scissors contain post-consumer recycled plastic"
+  },
+  "Other Features": {
+   "Other Features": "Mic mute key"
+  },
+  "Warranty": {
+   "Warranty Details": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-1315U (10MB L3 Cache, Up to 4.5 GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB PCIe NVMe M.2 SSD",
+  "Display: 15.6\" FHD (1920 x 1080), anti-glare, 250 nits, 62.5% sRGB",
+  "Features: Privacy Shutter, Type-C, Wi-Fi 6, Ultra Slim"
+ ],
+ "price": 7950082500,
+ "regular": 88750,
+ "status": "In Stock",
+ "code": "53205",
+ "brand": "HP",
+ "mpn": "D36TXPA",
+ "model": "15-fd0910TU",
+ "warranty": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year).",
+ "name": "HP 15-fd0910TU Core i3 13th Gen 15.6\" FHD Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "HP",
+  "HP 15-fd0910TU Core i3 13th Gen 15.6\" FHD Laptop"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://www.startech.com.bd/hp-15-fd0910tu-core-i3-15-inch-laptop",
+ "store": "startech"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.0 GHz",
+   "Maximum Turbo Frequency": "Up to 5.4 GHz",
+   "Cache": "L1: 2560 KB, L2: 32 MB, L3: 128 MB",
+   "Cores": "32",
+   "TDP": "350W",
+   "Threads": "64",
+   "Supported Technologies": "AMD EXPO, Precision Boost 2, Precision Boost Overdrive, Curve Optimizer, AMD-V, AVX512, Secure Boot, Firmware TPM"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "4",
+   "Maximum Size": "Depends on motherboard support (typically up to 2TB+ with RDIMM on TRX50 platform)",
+   "Maximum Speed": "Up to 6400 MT/s",
+   "Type": "DDR5 (ECC RDIMM)"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "No integrated graphics (Discrete GPU required)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "Ryzen Threadripper 9970X"
+  }
+ },
+ "key_features": [
+  "Speed: 4.0 GHz base, up to 5.4 GHz boost",
+  "Cache: L1: 2560 KB, L2: 32 MB, L3: 128 MB",
+  "Cores: 32 & Threads: 64",
+  "Memory Speed: Up to 6400 MT/s DDR5 with ECC support"
+ ],
+ "model": "Ryzen Threadripper 9970X",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-threadripper-9970x-64-core-processor",
+ "store": "creatus"
+}

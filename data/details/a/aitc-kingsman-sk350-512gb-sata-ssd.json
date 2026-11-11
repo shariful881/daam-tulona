@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA III (6 Gbps)",
+   "MTBF": "1,000,000 hours",
+   "Others": "Operating Voltage：DC5V ± 10%"
+  },
+  "Sequential R/W": {
+   "Read Speed": "560MB/s (Max)",
+   "Write Speed": "520MB/s (Max)"
+  },
+  "Main Features": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "05 Years"
+  },
+  "Image": {
+   "Model": "KINGSMAN SK350"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 560MB/s (Max), Write: 520MB/s (Max)"
+ ],
+ "model": "KINGSMAN SK350",
+ "warranty": "05 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-sk350-512gb-sata-ssd",
+ "store": "creatus"
+}

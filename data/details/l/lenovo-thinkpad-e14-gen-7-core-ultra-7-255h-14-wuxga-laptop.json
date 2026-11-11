@@ -1,0 +1,106 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Core Ultra 7 255H",
+   "Generation": "Core Ultra Series 2",
+   "Processor Frequency": "Up to 5.1GHz",
+   "Processor Core": "16 Cores (6P + 8E + 2LPE)",
+   "Processor Thread": "16 Threads",
+   "CPU Cache": "24MB Intel Smart Cache",
+   "NPU": "Intel AI Boost NPU (Up to 96 TOPS Combined AI Performance)"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "64GB",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 SO-DIMM Slots",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "M.2 PCIe 4.0 x4 NVMe Opal 2.0 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes, Up to Two M.2 SSDs",
+   "Supported SSD Type": "M.2 2242 PCIe 4.0 x4 & M.2 2280 PCIe 4.0 x4 NVMe SSD",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Spill-Resistant Keyboard",
+   "Keyboard Features": "6-row Spill-Resistant Keyboard, Multimedia Fn Keys, Unified Communications Controls",
+   "TouchPad": "Precision Multi-touch Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD 1080p + IR Hybrid Camera with Privacy Shutter",
+   "Speaker": "2 × 2W Stereo Speakers",
+   "Microphone": "Dual-Microphone Array with Smart Noise Cancellation",
+   "Audio Features": "Dolby Atmos, Audio by HARMAN, HD Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "No",
+   "HDMI Port": "1 × HDMI 2.1 (Up to 4K@60Hz)",
+   "USB 3 Port": "2 × USB-A (USB 3.2 Gen 1 & Gen 2)",
+   "USB Type-C / Thunderbolt Port": "1 × USB-C 3.2 Gen 2x2, 1 × Thunderbolt 4 / USB4",
+   "Headphone & Microphone Port": "1 × 3.5mm Audio Combo Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Intel Wi-Fi 6E AX211 (802.11ax 2×2)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "Kensington Security Slot",
+   "Fingerprint Sensor": "No",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "14-inch",
+   "Display Type": "IPS Anti-Glare",
+   "Display Resolution": "WUXGA (1920 × 1200)",
+   "Display Features": "300 nits, Anti-Glare, 45% NTSC, 60Hz",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Brightness": "300 nits",
+   "Response Time": "N/A"
+  },
+  "Power": {
+   "Battery Type": "Li-Polymer",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W USB-C AC Adapter",
+   "Backup Time (Approx)": "Up to 10 Hours"
+  },
+  "Physical Specification": {
+   "Weight": "1.42kg",
+   "Colors": "Black",
+   "Body Material": "Aluminum (Top), PC-ABS (Bottom)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "ThinkPad E14 Gen 7"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 7 255H (16 Cores, 16 Threads, Up to 5.1GHz, 24MB Cache)",
+  "Memory & Storage: 16GB DDR5 5600MHz RAM, 512GB PCIe Gen4 NVMe SSD",
+  "Display: 14-inch WUXGA (1920×1200) IPS Anti-Glare Display, 300 nits",
+  "Features: Wi-Fi 6E, Thunderbolt 4, Dolby Atmos, MIL-STD-810H Certified"
+ ],
+ "model": "ThinkPad E14 Gen 7",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkpad-e14-gen-7-laptop",
+ "store": "creatus"
+}

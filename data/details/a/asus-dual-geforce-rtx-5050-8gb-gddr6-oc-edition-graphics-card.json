@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "Digital Max Resolution: 7680 x 4320",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "2560",
+   "Others": "AI Performance: 421 TOPs"
+  },
+  "Core Clock": {
+   "OC mode": "2677MHz",
+   "Default mode": "2647MHz (Boost Clock)"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "203 x 120.2 x 40 mm\n7.99 x 4.73 x 1.58 inches",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2647 MHz (Boost Clock), 2677 MHz (OC Mode)",
+  "Memory: 8GB GDDR6; Speed: 20 Gbps",
+  "CUDA Core: 2560, AI Performance: 421 TOPs",
+  "Output: 1x HDMI 2.1b, 3x DisplayPort 2.1b"
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-geforce-rtx-5050-8gb-oc-edition-graphics-card",
+ "store": "pchouse"
+}

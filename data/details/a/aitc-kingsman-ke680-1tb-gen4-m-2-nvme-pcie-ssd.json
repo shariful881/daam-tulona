@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "M.2 PCIe Gen4x4 NVMe2.0 (M-Key)",
+   "MTBF": ">1,500,000 hours",
+   "Sequential R/W": "Sequential Read：7400MB/s (Max)\nSequential Write：6600MB/s (Max)"
+  },
+  "Display Features": {
+   "Others Features": "TWB：700TB"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  },
+  "Image": {
+   "Model": "KE680"
+  }
+ },
+ "key_features": [],
+ "model": "KE680",
+ "warranty": "5 years",
+ "fetched": "2026-11-11T09:52+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-ke680-1tb-gen4-m2-nvme-pcie-ssd",
+ "store": "creatus"
+}

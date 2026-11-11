@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5 GHz",
+   "Cache": "24 MB",
+   "Cores": "14",
+   "Default TDP": "125W",
+   "Maximum Turbo Frequency": "5.3 GHz",
+   "Threads": "20"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.55 GHz",
+   "Processor Graphics": "Intel UHD Graphics 770"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160 @ 60Hz",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s",
+   "Maximum Speed": "192 GB"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.5 GHz up to 5.3 GHz",
+  "Cache: 24 MB, Socket: LGA1700",
+  "CPU Cores: 14, CPU Threads: 20",
+  "Graphics: Intel UHD Graphics 770"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-14th-gen-core-i5-14600k-raptor-lake-processor",
+ "store": "pchouse"
+}

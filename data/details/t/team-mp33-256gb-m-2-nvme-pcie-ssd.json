@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Shock resistance": "1,500G/0.5ms",
+   "Capacity": "256GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 3.0 x4 with NVMe 1.3",
+   "MTBF": "1,500,000 hours",
+   "Flash Type": "3D flash memory"
+  },
+  "Sequential R/W": {
+   "Read": "up to 1,600 MB/s",
+   "Write": "up to 1,000 MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C"
+  },
+  "Physical Specification": {
+   "Weight": "6g",
+   "Dimensions": "80(L) x 22(W) x 3.8(H) mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Warranty"
+  },
+  "Image": {
+   "Model": "Team MP33 256GB M.2"
+  }
+ },
+ "key_features": [],
+ "model": "Team MP33 256GB M.2",
+ "warranty": "5 Years Warranty",
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.creatus.com.bd/team-mp33-256gb-m-2-pcie-ssd",
+ "store": "creatus"
+}

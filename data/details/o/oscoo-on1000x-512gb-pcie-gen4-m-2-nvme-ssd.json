@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2282",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "NVMe PCIe Gen4.0*4",
+   "Sequential R/W": "Up to 5200MB/s Read, 4700MB/s Write",
+   "TBW": "325 TBW",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T\nLow profile graphene aluminum heat spreader"
+  },
+  "Physical Specification": {
+   "Dimension": "80x22x2mm",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB, Form Factor M.2 2282",
+  "Interface: NVMe PCIe Gen4.0x4",
+  "Read Speed: Up to 7400MB/s",
+  "Write Speed: Up to 6400MB/s"
+ ],
+ "warranty": "05 Years",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-on1000x-512gb",
+ "store": "pchouse"
+}

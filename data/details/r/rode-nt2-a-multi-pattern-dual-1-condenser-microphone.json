@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "RODE NT2-A Specifications": {
+   "Acoustic Principle": "Pressure Gradient",
+   "Active Electronics": "JFET impedance converter with bipolar output buffer",
+   "Capsule": "1.00″",
+   "Polar Pattern": "Multi-Pattern",
+   "Address Type": "Side",
+   "Frequency Range": "20Hz – 20kHz",
+   "Output Impedance": "200Ω",
+   "Maximum SPL": "147dBSPL",
+   "Maximum Output Level": "16.0mV (@ 1kHz, 1% THD into 1KΩ load)",
+   "Sensitivity": "-36.0dB re 1 Volt/Pascal (16.00mV @ 94 dB SPL) +/- 2 dB @ 1kHz",
+   "Equivalent Noise Level (A-weighted)": "7dBA",
+   "Power Options": "P24, P28",
+   "Weight": "860.00g",
+   "Dimensions": "209.00mmH x 55.00mmW x 55.00mmD",
+   "Output": "XLR"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://diamu.com.bd/product/rode-nt2-a-multi-pattern-dual-1-condenser-microphone/",
+ "store": "diamu"
+}

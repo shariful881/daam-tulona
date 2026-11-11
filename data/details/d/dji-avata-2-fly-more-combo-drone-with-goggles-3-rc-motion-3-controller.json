@@ -1,0 +1,89 @@
+{
+ "specs": {
+  "Aircraft": {
+   "Diagonal Size (Propellers Excluded)": "185×212×64 mm (L×W×H)",
+   "Hover Accuracy Range": "Vertical:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)\nHorizontal:\n±0.3 m (with vision positioning)\n±1.5 m (with GNSS positioning)",
+   "Max Angular Speed": "±0.01°",
+   "Max Ascent Speed": "‌6 m/s (Normal mode)\n9 m/s (Sport mode)",
+   "Max Descent Speed": "‌6 m/s (Normal mode)\n9 m/s (Sport mode)",
+   "Max Flight Time": "Approx. 23 mins",
+   "Max Service Ceiling Above Sea Level": "5000 m",
+   "Max Speed": "8 m/s (Normal mode)\n‌16 m/s (Sport mode)\n27 m/s (Manual mode)",
+   "Max Wind Speed Resistance": "10.7 m/s (Level 5)",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Satellite Positioning Systems": "GPS + Galileo + BeiDou",
+   "Weight (Battery & Propellers Included)": "Approx. 470 g (battery included)"
+  },
+  "App / Live View": {
+   "Live View Quality": "1080p@30/50/60/100fps"
+  },
+  "Electronic Shutter Speed": {
+   "Video": "1/8000-1/30 s",
+   "Photo": "1/8000-1/50 s"
+  },
+  "Camera": {
+   "Image Size": "4000×2256 (16∶9)\n4000×3000 (4∶3)",
+   "ISO Range": "100-25600 (Auto)\n100-25600 (Manual)",
+   "Max Video Bitrate": "130 Mbps",
+   "Photo": "Photo Formats: JPEG",
+   "Sensor": "‌1/1.3-inch image sensor\nEffective Pixels: 12 MP",
+   "Still Photography Modes": "Single Shot",
+   "Supported File Systems": "exFAT",
+   "Supported SD Cards": "microSD (up to 512 GB)",
+   "Video": "4K (4∶3): 3840×2880@30/50/60fps\n4K (16∶9): 3840×2160@30/50/60fps\n2.7K (4∶3): 2688×2016@30/50/60fps\n2.7K (16∶9): 2688×1512@30/50/120fps\n1080p (4∶3): 1440×1080@30/50/120fps\n1080p (16∶9): 1920×1080@30/50/120fps",
+   "Video Recording Modes": "Video Format: MP4 (H.264/H.265)"
+  },
+  "Intelligent Flight Battery": {
+   "Battery Type": "Li-ion",
+   "Capacity": "2150 mAh",
+   "Charging Temperature Range": "5° to 40° C (41° to 104° F)",
+   "Energy": "31.7\n[email protected]",
+   "Max Charging Power": "With Charging Hub (60W max charging power):\nFrom 0 to 100%: approx. 45 min‌\nFrom 10 to 90%: approx. 30 min‌‌\nDirectly Charging the Drone (30 W max charging power):‌\nFrom 0 to 100%: approx. 88 min‌\nFrom 10 to 90%: approx. 60 min‌‌‌‌",
+   "Net Weight": "Approx. 145 g"
+  },
+  "Voltage": {
+   "Standard Voltage": "14.76 V",
+   "Max Charging Voltge": "17 V"
+  },
+  "Remote Controller": {
+   "Operating Frequency": "2.400-2.4835 GHz",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Transmitter Power (EIRP)": "2.400 GHz:\n＜26 dBm (FCC)\n＜20 dBm (CE/SRRC/MIC)"
+  },
+  "Display Details": {
+   "Screen Size": "0.49 inch",
+   "Refresh rate": "Up to 100 Hz"
+  },
+  "Others": {
+   "Color Mode": "Standard, D-Log M",
+   "Camera FOV": "Supports normal mode, wide-angle mode, and ultra-wide-angle mode.",
+   "EIS": "Supports RockSteady 3.0+ and HorizonSteady",
+   "Max Operating Time": "Approx. 10 hours",
+   "Charging Time": "2 hours",
+   "Charging Type": "5 V, 2 A",
+   "Weight": "Approx. 240 g",
+   "Dimensions": "165×119×62 mm (L×W×H)"
+  },
+  "Gimbal": {
+   "Controllable Range": "Tilt: -80° to +65°",
+   "Stabilization": "Single-axis mechanical gimbal (tilt)"
+  },
+  "Lens": {
+   "Format Equivalent": "12 mm",
+   "Aperture": "f/2.8",
+   "Focus": "0.6 m to ∞"
+  },
+  "Dimensions": {
+   "With antennas folded": "170×109×112 mm (L×W×H)",
+   "With antennas unfolded": "205×109×112 mm (L×W×H)"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-11T09:27+06:00",
+ "source": "https://www.pchouse.com.bd/dji-avata-2-fly-more-combo-drone-with-goggles-3-rc-motion-3-controller",
+ "store": "pchouse"
+}

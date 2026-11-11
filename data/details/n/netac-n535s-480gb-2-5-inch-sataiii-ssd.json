@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "480GB",
+   "Form Factor": "2.5\"",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "SATA III",
+   "Sequential R/W": "Read Speed  560MB/s\nWrite Speed  520MB/s",
+   "Others": "TRIM, S.M.A.R.T, LDPC ECC"
+  },
+  "Physical Specification": {
+   "Dimension": "100 x 70 x 7 mm",
+   "Weight": "54 g"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Read Speed: 560MB/s",
+  "Write Speed: 520MB/s",
+  "Interface: SATA III",
+  "Form Factor: 2.5\""
+ ],
+ "price": 72007500,
+ "regular": 7920,
+ "status": "In Stock",
+ "code": "16462",
+ "brand": "Netac",
+ "mpn": "NT01N535S-480G-S3X",
+ "model": "N535S",
+ "warranty": "3 years warranty",
+ "name": "Netac N535S 480GB 2.5-inch SATAIII SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac N535S 480GB 2.5-inch SATAIII SSD"
+ ],
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.startech.com.bd/netac-n535s-480gb-ssd",
+ "store": "startech"
+}

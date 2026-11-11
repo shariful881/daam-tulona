@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 X 4320",
+   "Core Clock": "Base：2407Mhz；Boost:2572Mhz\nOne-Key OC Base：2407Mhz；Boost:2632Mhz",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "4608"
+  },
+  "Others": {
+   "Memory Bandwidth": "672GB/s",
+   "NV technology Support": "DLSS 4/Reflex/Studio"
+  },
+  "Interface": {
+   "Display Port": "3x DP2.1b",
+   "HDMI": "1x HDMI2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "600W",
+   "Consumption": "180W"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "231*120*48.9mm"
+  },
+  "Warranty": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, CUDA Cores: 4608",
+  "Core Clock: Base: 2407 MHz; Boost: 2572 MHz",
+  "One-Key OC: Base: 2407 MHz, Boost: 2632 MHz",
+  "Display Outputs: 3x DisplayPort 2.1b, 1x HDMI 2.1b"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:47+06:00",
+ "source": "https://www.pchouse.com.bd/colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-16-gb-v-graphics-card",
+ "store": "pchouse"
+}

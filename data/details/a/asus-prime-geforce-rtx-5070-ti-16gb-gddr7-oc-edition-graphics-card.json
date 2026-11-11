@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "OC mode: 2527 MHz\nDefault mode: 2497 MHz  (Boost clock)",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8960",
+   "Others": "AI Performance\n1432 TOPs"
+  },
+  "Interface": {
+   "Display Port": "3 x Native DisplayPort 2.1b",
+   "HDMI": "1 x Native HDMI 2.1b",
+   "HDCP": "HDCP  2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "304 x 126 x 50 mm\n12 x 5 x 2 inch",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-years Warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2527MHz (OC) ; Boost: 2497MHz",
+  "Memory Size: 16GB GDDR7, Speed: 28 Gbps",
+  "CUDA Cores: 8960, AI Performance: 1432 TOPs",
+  "Interface: Native DP 2.1b x3, Native HDMI 2.1b x1"
+ ],
+ "price": 185900192000,
+ "regular": 203000,
+ "status": "In Stock",
+ "code": "41353",
+ "brand": "Asus",
+ "mpn": "PRIME-RTX5070TI-O16G",
+ "model": "PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition",
+ "warranty": "03-years Warranty",
+ "name": "ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.startech.com.bd/asus-prime-geforce-rtx-5070-ti-16gb-oc-edition-graphics-card",
+ "store": "startech"
+}

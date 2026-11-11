@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7‎680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128 bit",
+   "Memory Interface": "PCI Express Gen 5 x16 (uses x8)",
+   "CUDA Cores": "4608"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2617 MHz (MSI Center)",
+   "Boost": "2602 MHz"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort 2.1b x 3",
+   "HDMI": "HDMI 2.1b x 1"
+  },
+  "Power Specifications": {
+   "Connectors": "8 pin x 1",
+   "Recommended PSU": "600 W",
+   "Consumption": "180 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "306 x 121 x 44 mm",
+   "Others": "793 g / 1162 g"
+  },
+  "Warranty": {
+   "Warranty": "3 years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5",
+  "CUDA Cores: 4608 Units, Memory Speed: 28 Gbps",
+  "Core Clocks: Extreme: 2617 MHz, Boost: 2602 MHz",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-5060-ti-8g-ventus-3x-oc-8gb-graphics-card",
+ "store": "pchouse"
+}

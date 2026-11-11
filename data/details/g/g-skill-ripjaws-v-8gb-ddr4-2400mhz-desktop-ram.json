@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "2400MHz"
+  },
+  "Output": {
+   "Voltage": "1.20v"
+  },
+  "Others": {
+   "Others": "Intel XMP 2.0 (Extreme Memory Profile) Ready"
+  },
+  "Physical Specifications": {
+   "Number-of-Pin": "15-15-15-35-2N",
+   "Memory Platform": "Dual Channel Kit"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Speed: 2400Mhz",
+  "Latency: 15-15-15-35",
+  "Voltage: 1.20V"
+ ],
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-11T09:53+06:00",
+ "source": "https://www.pchouse.com.bd/gskill-ddr-4-8gb-2400bus-f4-2400c15d-16gvr-ram",
+ "store": "pchouse"
+}

@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 7000 Series/ 8000 Series Desktop Processors",
+   "Chipset": "AMD B650",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ 7000 Series/ 8000 Series Desktop Processors\n2 x PCIe 4.0 x16 slots (support x16 or x8/x8 modes)\nAMD B650 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n1 x PCIe 4.0 x1 slot\n* Please check the PCIe bifurcation table in support site (https://www.asus.com/support/FAQ/1037507/).\n** Specifications vary by CPU types.\n*** PCIEX16_3 shares bandwidth with M.2_3 slot. When M.2_3 runs at PCIe x4 mode, PCIEX16_3 will be disabled.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.\nAMD Ryzen 7000 Series Desktop Processors\n2 x PCIe 4.0 x16 slots (support x16 or x8/x8 modes)\nAMD B650 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n1 x PCIe 4.0 x1 slot",
+   "M.2 Socket": "3 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "7600+(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 ECC & Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports AMD Extended Profiles for Overclocking (EXPO)\nOptiMem II",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMITM port**\n1 x USB Type-C port supports DisplayPort output***\n* Graphics specifications may vary between CPU types.\n** Supports 4K@60Hz as specified in HDMI 2.1.\n*** Support max. 8K@60Hz as specified in DisplayPort 1.4. DisplayPort resolution support depends on graphic cards’ resolution.\n1 x HDMI port**\n1 x USB Type-C port supports DisplayPort output***\n* Graphics specifications may vary between CPU types.\n** Supports 4K@60Hz as specified in HDMI 2.1.\n*** Support max. 8K@60Hz as specified in DisplayPort 1.4. DisplayPort resolution support depends on graphic cards’ resolution."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "Display Port (s)": "1 x USB Type-C, shared with DisplayPort graphic output",
+   "USB (s)": "Rear USB (Total 7 ports)\n1 x USB 3.2 Gen 2 port (1 x USB Type-C, shared with DisplayPort graphic output )\n4 x USB 3.2 Gen 2 ports (3 x Type-A + 1 x USB Type-C)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C® with up to 60W PD/QC4+)\n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\n1 x Realtek 1Gb Ethernet\nASUS LANGuard",
+   "Supported Storage": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nAMD Ryzen 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4/x2 mode)**\nAMD B650 Chipset\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)***\n4 x SATA 6Gb/s ports\n*AMD RAIDXpert2 Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** Specifications vary by CPU types.\n*** M.2_3 slot shares bandwidth with PCIEX16_3. When PCIEX16_3 runs at PCIe x4 mode, M.2_3 will be disabled.\nTotal supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nAMD B650 Chipset\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)**\n4 x SATA 6Gb/s ports\n** M.2_3 slot shares bandwidth with PCIEX16_3. When PCIEX16_3 runs at PCIe x4 mode, M.2_3 will be disabled.",
+   "RAID": "AMD RAIDXpert2 Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.",
+   "Audio": "5 x Audio jacks",
+   "Internal I/O Ports": "Internal I/O Connectors\nI/O ConnectorsFan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\n1 x 6-pin PCIe Power connector\nStorage related\n3 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C)\n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x M.2 slot (Key E)\n1 x 20-5 pin System Panel header\n1 x Thermal Sensor header\n1 x Thunderbolt (USB4) header\nBack Panel I/O Ports\n1 x USB 3.2 Gen 2 port (1 x USB Type-C, shared with DisplayPort graphic output )\n4 x USB 3.2 Gen 2 ports (3 x Type-A + 1 x USB Type-C)\n2 x USB 2.0 ports (2 x Type-A)\n1 x DisplayPort (Input only)\n1 x HDMI® port\n1 x Realtek 2.5Gb Ethernet\n1 x Realtek 1Gb Ethernet\n5 x Audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack  button"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards\n- LANGuard\n- Overvoltage Protection\n- Safeslot\n- Stainless-Steel Back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- Q-Connector\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsinks\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- ProCool\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- Aura RGB header\n- Addressable Gen 2 headers\nBespoke Motherboard Design & Business Focused Features\n- 24/7 Reliability\n- Overcurrent Protection\nFront Panel USB 3.2 Gen 2x2 with Quick Charge 4+ Support\n- Support: up to 60W charging*\n- Output: 5/9/15/20V max. 3A, PPS:3.3–21V max. 3A\n- Compatible with QC 4.0/3.0/2.0, PD3.0 and PPS\n* To support 60W, please install the power cable to the 6-pin PCIe Graphics Card connector or else only 27W can be supported.",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4\n- Power Saving\n- Two-Way AI Noise Cancellation\nAI Suite 3\n- TurboV EVO\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z\nIT Management software supported\n- ASUS Control Center Express(ACCE)\nCreationFirst\nNorton Anti-virus software (Free Trial version)\nProArt Creator Hub\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Socket AM5 for AMD Ryzen 9000/8000 & 7000 Series",
+  "Supported Memory: 4 x DIMM slots, Max. 192GB, DDR5 8000+(OC)",
+  "Graphics Output: 1 x HDMI , 2x USB4 (40Gbps)",
+  "Features: 1 x Marvell AQtion 10Gb Ethernet,  1 x Intel 2.5Gb Ethernet, Wi-Fi 7, Bluetooth v5.4"
+ ],
+ "price": 78500,
+ "regular": 84200,
+ "status": "In Stock",
+ "code": "37929",
+ "brand": "Asus",
+ "model": "ProArt X870E-CREATOR WiFi",
+ "warranty": "3 Years",
+ "name": "ASUS ProArt X870E-CREATOR WiFi AM5 DDR5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "ASUS ProArt X870E-CREATOR WiFi AM5 DDR5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.startech.com.bd/asus-proart-x870e-creator-wifi-motherboard",
+ "store": "startech"
+}

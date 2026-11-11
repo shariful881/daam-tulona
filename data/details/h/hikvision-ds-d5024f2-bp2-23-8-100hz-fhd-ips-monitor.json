@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Product Description": {
+   "Code Name": "DS-D5024F2-BP2"
+  },
+  "Display": {
+   "Screen Size": "23.8 inch",
+   "Active Display Area": "527.04 (H) mm × 296.46 (V) mm",
+   "Resolution": "1920 × 1080",
+   "Backlight": "E-LED",
+   "Pixel Pitch": "0.2745 (H) mm × 0.2745 (V) mm",
+   "Brightness": "250 cd/m²",
+   "Viewing Angle": "178° (H)/178° (V)",
+   "Color Depth": "16.78 M",
+   "Contrast Ratio": "1000:1",
+   "Response Time": "14 ms",
+   "Refresh Rate": "Typ. 60 Hz, Max. 100 Hz",
+   "Haze": "Haze 25%, 3H",
+   "Reliability": "7 × 16 H",
+   "Color Gamut": "72% NTSC"
+  },
+  "Interface": {
+   "Video & Audio Input": "HDMI 1.4 × 1, VGA × 1",
+   "Video & Audio Output": "Audio Out × 1",
+   "HDMI": "HDMI 1.4 digital signal input interface",
+   "Audio Out": "3.5 mm Audio output interface",
+   "VGA": "VGA analog signal input interface",
+   "DC": "DC 12 V 2.0 A input interface",
+   "Warrenty": "3 year"
+  },
+  "Power": {
+   "Power Supply": "DC 12 V, 2.0 A",
+   "Power Consumption": "≤ 24 W",
+   "Standby Consumption": "≤ 0.5 W"
+  },
+  "Working Environment": {
+   "Working Temperature": "0 °C to 40 °C (32 °F to 104 °F)",
+   "Working Humidity": "20% RH to 90% RH (Non-Condensing)",
+   "Storage Temperature": "-20 °C to 60 °C (-4 °F to 140 °F)",
+   "Storage Humidity": "10% RH to 90% RH (Non-Condensing)"
+  },
+  "General": {
+   "VESA": "75 mm × 75 mm (4 – M4 × 6 mm)",
+   "Bezel Width": "2.0 mm (top/left/right), 23.55 mm (bottom)",
+   "Product Dimensions (W × H × D)": "With base: 539.7 (W) mm × 399.9 (H) mm × 164.72(D) mm\n21.25 (W) inch × 15.74 (H) inch × 6.49 (D) inch\nWithout base: 539.7 (W) mm × 327.33 (H) mm × 43.5 (D) mm\n21.25 (W) inch × 12.89 (H) inch × 1.71 (D) inch",
+   "Package Dimensions (W × H × D)": "652 (W) mm × 445 (H) mm × 116 (D) mm\n25.67 (W) inch × 17.52 (H) inch × 4.57 (D) inch",
+   "Net Weight": "2.32 ± 0.5 kg (5.11 ± 1.10 lb)",
+   "Gross Weight": "3.74± 0.5 kg (8.25 ± 1.10 lb)",
+   "Packing List": "Monitor × 1, Base component × 1, Power adapter (12 V, 2 A) × 1, HDMI cable (1.5 m) ×\n1, User manual × 1, Multilingual manual × 1",
+   "Remarks": "The base is included by default.\nThe product appearance and parameters in this specification may vary from your\nactual device. Please consult our local sales staff for further information"
+  }
+ },
+ "key_features": [
+  "Display Size: 23.8 inch",
+  "Resulation: FHD (1920 x 1080)",
+  "Ports: VGA×1, HDMI×1",
+  "Features: Low Blue Light, VESA wall mount"
+ ],
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://smartbd.com/product/hikvision-ds-d5024f2-bp2-23-8-inch-100hz-fhd-ips-monitor/",
+ "store": "smartbd"
+}

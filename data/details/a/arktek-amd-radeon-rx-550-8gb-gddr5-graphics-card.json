@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "8GB",
+   "Resolution": "3840 x 2160@120Hz Pixel DisplayPort Resolution 2560 x 1600@60Hz Pixel Dual Link DVI Resolution 3840 x 2160 @60Hz HDMI Resolution",
+   "Core Clock": "1287MHz",
+   "Memory Clock": "7000MHz",
+   "BUS Type": "PCI Express Gen3",
+   "Memory Interface": "128-Bit",
+   "Stream Processors": "640SP"
+  },
+  "Interface": {
+   "Display Port": "1 x DP",
+   "HDMI": "1 x HDMI",
+   "DVI": "1 x DVI"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "400W",
+   "Consumption": "35W"
+  },
+  "Display Option": {
+   "Multi Display": "AMD Eyefinity Technology\n“wrap around” multi-display capabilities."
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.5"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 1287MHz",
+  "Stream Processors: 640SP",
+  "Memory Clock: 7000MHz",
+  "Display Outputs: 1 x HDMI, 1 x DVI, 1 x Display Port"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/arktek-rx550-8gb-graphics-card",
+ "store": "pchouse"
+}

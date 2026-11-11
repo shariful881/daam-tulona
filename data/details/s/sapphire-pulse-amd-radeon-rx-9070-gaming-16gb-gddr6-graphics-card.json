@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "20 Gbps Effective",
+   "BUS Type": "256 bit",
+   "Memory Interface": "PCI-Express 5.0 x16",
+   "Stream Processors": "3584"
+  },
+  "Core Clock": {
+   "Boost Clock": "Up to 2520 MHz",
+   "Game Clock": "Up to 2070 MHz"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "2 x HDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8-pin Power Connector",
+   "Recommended PSU": "Minimum 650 Watt Power Supply",
+   "Consumption": "220W Typical Board Power"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate"
+  },
+  "Physical Specifications": {
+   "Dimensions": "280(L)X 120.25(W)X 51.5 (H)mm",
+   "Others": "2.5 slot, ATX"
+  },
+  "Warranty": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR6, PCI Express 5.0 x16",
+  "Boost Clock: Up to 2520 MHz, Game Clock: Up to 2070 MHz",
+  "Stream Processors: 3584, AMD RDNA 4 Architecture",
+  "Display Outputs: 2x HDMI, 2x DisplayPort 2.1a"
+ ],
+ "warranty": "2 years",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.pchouse.com.bd/sapphire-pulse-amd-radeon-rx-9070-16gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

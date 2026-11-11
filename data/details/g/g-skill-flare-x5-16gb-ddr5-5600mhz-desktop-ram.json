@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "5600MHz",
+   "Latency": "36-36-36-89"
+  },
+  "Operating voltage": {
+   "Tested Voltage": "1.20V",
+   "SPD Voltage": "1.10V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Memory Type: DDR5",
+  "Frequency: 5600MHz",
+  "Cas Latency: 36-36-36-89 / 1.20V"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.pchouse.com.bd/g.skill-flare-x5-16gb-ddr5-5600mhz-ram",
+ "store": "pchouse"
+}

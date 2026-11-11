@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.7 GHz",
+   "Maximum Turbo Frequency": "Up to 5.2 GHz",
+   "Type": "DDR5",
+   "Cores": "8",
+   "TDP": "120W",
+   "Threads": "16",
+   "Supported Technologies": "AMD EXPO Technology\nPrecision Boost Overdrive\nUnlocked for Overclocking"
+  },
+  "Cache": {
+   "L1 Cache": "640 KB",
+   "L2 Cache": "8 MB",
+   "L3 Cache": "96 MB"
+  },
+  "Memory Specifications": {
+   "Core Count": "2",
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "2x1R DDR5-5600\n2x2R DDR5-5600\n4x1R DDR5-3600\n4x2R DDR5-3600"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  },
+  "Image": {
+   "Model": "Ryzen 7 9800X3D"
+  }
+ },
+ "key_features": [],
+ "model": "Ryzen 7 9800X3D",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-7-9800x3d-processor",
+ "store": "creatus"
+}

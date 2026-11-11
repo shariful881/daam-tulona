@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.20 GHz",
+   "Maximum Turbo Frequency": "6.00 GHz",
+   "Cache": "36 MB",
+   "Cores": "24",
+   "Threads": "32",
+   "Default TDP": "125W",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "89.6 GB/s",
+   "Type": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.20 GHz up to 6.00 GHz",
+  "Cache: 36 MB Intel Smart Cache",
+  "CPU Cores: 24, CPU Threads: 32",
+  "Socket: LGA1700"
+ ],
+ "price": 5200056500,
+ "regular": 57800,
+ "status": "In Stock",
+ "code": "31706",
+ "brand": "INTEL",
+ "model": "Core i9 14900KF (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "Intel Core i9 14900KF 14th Gen Raptor Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 14th Gen Processor"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/intel-14th-gen-core-i9-14900kf-processor",
+ "store": "startech"
+}

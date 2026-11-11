@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "B760M H DDR4",
+   "Supported CPU": "12th/13th Gen Intel Processors (LGA1700)",
+   "Chipset": "Intel B760 Express Chipset",
+   "BIOS": "1 x 128 Mbit flash"
+  },
+  "Use of licensed AMI UEFI BIOS": {
+   "Form Factor": "Micro ATX Form Factor; 23.0cm x 21.5cm",
+   "Audio": "Realtek Audio CODEC"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:"
+  },
+  "Graphics:": {
+   "Graphics": "Integrated Graphics Processor-Intel HD Graphics support:"
+  },
+  "Connector & Ports:": {
+   "HDMI": "1x HDMI",
+   "D-Sub (s)": "1x D-Sub",
+   "USB (s)": "Chipset:",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps)",
+   "Network & Connectivity": "LAN Chipset: Realtek GbE LAN chip"
+  },
+  "Bluetooth: No": {
+   "Supported Storage": "CPU:"
+  },
+  "– 4 x SATA 6Gb/s connectors": {
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Internal I/O Ports": "1 x 24-pin ATX main power connector"
+  },
+  "1 x Clear CMOS jumper": {
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0 module only)"
+  },
+  "Memory:": {
+   "Type": "DDR4",
+   "Slots": "2",
+   "Supported Memory": "Support for DDR4 3200/3000/2933/2666/2400/2133 MT/s memory modules"
+  },
+  "Dual channel memory architecture": {
+   "Maximum Memory": "up to 64GB (32 GB single DIMM capacity) of system memory"
+  },
+  "Others:": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)"
+  },
+  "Support for Q-Flash": {
+   "Bundled Software": "Norton Internet Security (OEM version)"
+  },
+  "Warranty Info": {
+   "Years": "3 Years"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [],
+ "model": "B760M H DDR4",
+ "fetched": "2026-11-11T09:39+06:00",
+ "source": "https://smartbd.com/product/gigabyte-intel-chipset-b760m-h-ddr4-motherboard/",
+ "store": "smartbd"
+}

@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12 GB",
+   "Resolution": "7‎680 x 4320 @60Hz",
+   "Core Clock": "1792 MHz (Reference Card: 1777 MHz)",
+   "Memory Clock": "15000 MHz",
+   "BUS Type": "192 bit",
+   "Memory Interface": "PCI-E 4.0 x 16",
+   "CUDA Cores": "3584"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort 1.4a x 2",
+   "HDMI": "HDMI 2.1 x 2"
+  },
+  "Power Specifications": {
+   "Connectors": "8‎ pin x 1",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "L=198 W=121 H=39 mm",
+   "Others": "PCB Form: ATX"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Core Clock: 1792 MHz (Reference Card: 1777 MHz)",
+  "CUDA Cores: 3584",
+  "Memory Clock: 15000 MHz",
+  "Output: DisplayPort 1.4a x2, HDMI 2.1 x2"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-geforce-rtx-3060-windforce-oc-12gb-graphics-card",
+ "store": "pchouse"
+}

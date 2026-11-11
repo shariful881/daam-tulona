@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Fan Bearing: Double Ball Bearing"
+  },
+  "Key Feature": {
+   "Certification": "80 Plus Titanium",
+   "CPU": "EPS (4+4 pin) x2",
+   "Efficiency (Approx.)": "Up to 94%",
+   "Fan Size": "135 mm",
+   "Modular Type": "Fully Modular"
+  },
+  "Output": {
+   "Total Power": "1600W",
+   "Peak Power": "Power Excursion: 3840W (*up to 240% of the PSU's rated power for 100μs)"
+  },
+  "Connectors": {
+   "Main Power": "ATX (24 pin) x1",
+   "PCI-E": "PCI-E 5.1 (16 pin) x2 (600W)",
+   "SATA": "SATA (15) x8"
+  },
+  "Input": {
+   "Frequency Range": "50-60Hz",
+   "Voltage": "100~240 VAC"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1600W",
+  "Modular: Full modular design",
+  "Efficiency Rating: 80 PLUS Titanium (up to 94%)"
+ ],
+ "warranty": "10 Years",
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.pchouse.com.bd/msi-meg-ai1600t-pcie5-1600w-power-supply",
+ "store": "pchouse"
+}

@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "General Information": {
+   "Color": "Black",
+   "Dimensions": "Dimensions (HxWxD) (mm)\n379.5x489.4x191.4\nDimensions (HxWxD) (inch)\n14.9x19.3x7.5\nDimensions (HxWxD) (w/o Base) (mm)\n291.5x489.4x53.3\nDimensions (HxWxD) (w/o Base) (inch)\n11.5x19.3x2.1"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI (v1.4)"
+  },
+  "Display Features": {
+   "Display Size": "21.5 inch",
+   "Display Type": "LED backlight",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920x1080)",
+   "Display Surface": "Matte",
+   "Viewing Angle": "178°/178°",
+   "Aspect Ratio": "16:9",
+   "Color Gamut": "72% NTSC",
+   "Response Time": "5ms"
+  },
+  "External Features": {
+   "Weight": "Net Weight (kg)\n2.56"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Audio Features": {
+   "Speaker Details": "2Wx2",
+   "Speaker (Built In)": "Yes"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "VGA": "1 x VGA"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5˚ - 20˚",
+   "Vesa Wall Mount": "100x100 mm"
+  },
+  "Power": {
+   "Voltage": "100 - 240V"
+  },
+  "Power Consumption": {
+   "Power Consumption (normal)": "15 W",
+   "Power Consumption (max)": "24 W",
+   "Power Consumption (sleep mode)": "<0.5 W"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Years Warranty"
+  },
+  "Image": {
+   "Model": "GW2291"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920x1080)",
+  "Display: 21.5\", IPS, 100Hz, 5ms (GTG)",
+  "Ports: 1x HDMI (v1.4), 1x VGA",
+  "Features: Built in Speaker, Flicker-free, Low Blue Light Plus"
+ ],
+ "model": "GW2291",
+ "warranty": "3-Years Warranty",
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.creatus.com.bd/benq-gw2291-21-5-inch-100hz-fhd-ips-monitor",
+ "store": "creatus"
+}

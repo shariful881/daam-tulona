@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5, support for: AMD Ryzen 7000 / Ryzen 8000 / Ryzen 9000 Series Processors",
+   "Chipset": "AMD A620",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 23.0cm x 22.5cm",
+   "Audio": "Realtek® Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "6400(OC)/6200(OC)/6000(OC)/5600(OC)/5200/4800/4400 MT/s memory modules\nDual channel memory architecture\nSupport for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules\nSupport for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory modules",
+   "Maximum Memory": "supporting up to 96 GB (48 GB single DIMM capacity) of system memory"
+  },
+  "Graphics": {
+   "Graphics": "supporting a maximum resolution of 3840x2160@144 Hz\n* Support for DisplayPort 1.4 version.\nsupporting a maximum resolution of 4096x2160@60 Hz\n* Support for HDMI 2.1 version and HDCP 2.3.\n** Support for native HDMI 2.1 TMDS compatible ports."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "Display Port (s)": "1 x DisplayPort",
+   "USB (s)": "CPU:\n2 x USB 3.2 Gen 1 ports on the back panel\n1 x USB 2.0/1.1 port on the back panel\nChipset:\n2 x USB 3.2 Gen 1 ports available through the internal USB header\n7 x USB 2.0/1.1 ports (3 ports on the back panel, 4 ports available through the internal USB headers)",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)",
+   "RAID": "RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices\nRAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only)",
+   "Audio": "3 x audio jacks"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "A620M H"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000 / 8000 / 7000 Series Processors for Socket AM5",
+  "Supported Memory: 2 x DDR5 6400(OC) Max. 96GB",
+  "Graphics Output: 2 x DisplayPort, 1 x HDMI port",
+  "Features: 1 x DisplayPort, 1 x HDMI"
+ ],
+ "model": "A620M H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-a620m-h-motherboard",
+ "store": "creatus"
+}

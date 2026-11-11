@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air cooler",
+   "Fan Speed": "Fan Speed: 500~1850 RPM±10%",
+   "Fan Airflow": "66.47 CFM",
+   "Noise": "≤29 dB(A)",
+   "Air Pressure": "2.04 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Dimension": {
+   "Product Dimensions": "127×97×155 mm",
+   "Heatsink Dimensions": "120×45×152 mm",
+   "Fan Dimensions": "120×120×25 mm"
+  },
+  "Physical Specification": {
+   "Weight": "661 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 year"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 500~1850 RPM±10%",
+  "Fan Airflow: 66.47 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "warranty": "03 year",
+ "fetched": "2026-11-11T09:51+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ak400-cpu-cooler",
+ "store": "pchouse"
+}

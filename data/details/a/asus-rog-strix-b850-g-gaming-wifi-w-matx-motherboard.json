@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B850",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot\nAMD Ryzen™ 8000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports PCIe 4.0 x8/x4 mode)\n*Specifications vary by CPU types.",
+   "M.2 Socket": "4 x M.2"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to 8000+MT/s (OC) with Ryzen™ Supports up to 8000+MT/s(OC) with Ryzen™ 9000 & 8000 & 7000 Series Processors\nECC and Non-ECC Un-buffered DIMM\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "256GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "LAN Port (s)": "1 x Intel 2.5Gb Ethernet\nASUS LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology*\nRyzen™ 9000 Series Processors: RAID 0/1/5/10\nRyzen™ 8000 Series Processors: RAID 0/1\nRyzen™ 7000 Series Processors: RAID 0/1/10\n*Specifications vary by CPU types.",
+   "Audio": "2 x Audio jacks",
+   "Display Port (s)": "1x DisplayPort 1.4",
+   "Wireless Communication module": "Bluetooth\nWi-Fi 7\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 160MHz bandwidth, up to 2.9Gbps transfer rate.\nBluetooth v5.4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Socket AM5 for AMD Ryzen 9000, 8000 & 7000 Series",
+  "Supported RAM: 4x DDR5, up to 256GB, 8000+ MT/s (OC)",
+  "Graphics Output: 1x HDMI, 1x Display Port",
+  "Features: Intel2.5Gb Ethernet, Wi-Fi 7, Bluetooth 5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:44+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-strix-b850-g-motherboard",
+ "store": "pchouse"
+}

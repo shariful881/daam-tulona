@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "8‎5% at typical load",
+   "Certification": "80 PLUS Bronze",
+   "Fan Size": "1‎20 mm Hydraulic Bearing (HYB) Fan"
+  },
+  "Input": {
+   "Voltage": "1‎00-240 Vac (full range)",
+   "Frequency Range": "6‎0-50 Hz",
+   "Current": "8‎-4 A"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "4‎50W"
+  },
+  "Connector": {
+   "Main Power": "ATX/MB 20+4 Pin x 1 : 550mm*1",
+   "CPU": "CPU/EPS 4+4 Pin x 1 : 600mm*1",
+   "PCI-E": "PCI-e 6+2 Pin x 2 : 550mm+150mm*1",
+   "SATA": "SATA x 6 : 500mm+120mm+120mm*2",
+   "Floppy": "4 Pin Peripheral x 3 + 4-Pin floppy x 1 : 500mm + 120mm + 120mm + 120mm *1"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "OVP/OPP/SCP/UVP/OCP/OTP protection",
+  "80 PLUS Bronze certified",
+  "Reliable flat cable",
+  "Single +12V rail"
+ ],
+ "price": 4200,
+ "regular": 4560,
+ "status": "In Stock",
+ "code": "14387",
+ "brand": "GIGABYTE",
+ "mpn": "GP-P450B/PSU 450W/80+B",
+ "model": "Gigabyte P450B",
+ "warranty": "03 Years",
+ "name": "Gigabyte P450B 450W 80 Plus Bronze Certified Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Gigabyte",
+  "Gigabyte P450B 450W 80 Plus Bronze Certified Power Supply"
+ ],
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.startech.com.bd/gigabyte-p450b-power-supply",
+ "store": "startech"
+}

@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.40 GHz",
+   "Maximum Turbo Frequency": "4.50 GHz",
+   "Cache": "12 MB Intel Smart Cache",
+   "Cores": "4",
+   "Threads": "8"
+  },
+  "TDP": {
+   "Default TDP": "60 W",
+   "cTDP": "89 W"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "89.6 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Processor Graphics": "Intel UHD Graphics 730",
+   "Core Count": "24",
+   "Max Dynamic Frequency": "1.50 GHz"
+  },
+  "Max Resolution": {
+   "HDMI": "4096 x 2160 @ 60Hz",
+   "DP": "7680 x 4320 @ 60Hz",
+   "eDP - Integrated Flat Panel": "5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Core i3-13100"
+  },
+  "Product List": {
+   "Best Intel Processor Price List in Bangladesh": "Price",
+   "Intel 12th Gen Core i5 12400 Alder Lake Processor": "17,799৳\n21,000৳",
+   "Intel Core i5-13400 Raptor Lake Processor": "27,300৳\n29,900৳",
+   "Intel Core i5 14500 14th Gen Raptor Lake Processor": "28,199৳\n31,100৳",
+   "Intel Core i7-12700K 12th Gen Processor": "31,500৳\n33,500৳"
+  }
+ },
+ "key_features": [
+  "CPU Cores: 6 Threads: 8",
+  "Cache: 12 MB Intel Smart Cache",
+  "Clock Speeds: Up To 3.4GHz",
+  "Graphics: Intel UHD Graphics 730"
+ ],
+ "model": "Core i3-13100",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.creatus.com.bd/intel-13th-gen-core-i3-13100-raptor-lake-processor",
+ "store": "creatus"
+}

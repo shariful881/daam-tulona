@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core Ultra Processors",
+   "Chipset": "Intel B860 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC"
+  },
+  "Other Features": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:"
+  },
+  "Memory": {
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Support for DDR5 9200(O.C) / 8800(O.C) / 8600(O.C) / 8400(O.C) / 8266(O.C) / 8200(O.C) / 8000(O.C) / 7950(O.C) / 7900(O.C) / 7800(O.C) / 7600(O.C.) / 7400(O.C.) / 7200(O.C.) / 7000(O.C.) / 6800(O.C.) / 6600(O.C.) / 6400 / 5600 MT/s memory modules",
+   "Maximum Memory": "Up to 256 GB (64 GB single DIMM capacity)"
+  },
+  "General": {
+   "Type": "DDR5"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor-Intel® HD Graphics support:"
+  },
+  "Connector & Ports": {
+   "HDMI": "2 x HDMI",
+   "Display Port": "1 x DisplayPort",
+   "Wireless Communication module": "Intel® Wi-Fi 6E AX211 (PCB rev. 1.0)",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+   "USB (s)": "CPU:",
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Supported Storage": "CPU:",
+   "Internal I/O Ports": "1 x 24-pin ATX main power connector",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only)"
+  },
+  "Audio Features": {
+   "Audio": "1 x front panel audio header"
+  },
+  "Others": {
+   "Bundled Software": "Norton Internet Security (OEM version)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Intel Core Ultra Processors (Series 2), LGA 1851 Socket",
+  "Supported RAM: 4x DDR5, Max 256GB,Supports Up to 9200(O.C)",
+  "Graphics Output: 2x HDMI, 1x DisplayPort",
+  "Features: 3x M.2, Intel Wi-Fi 6E, Bluetooth 5.3"
+ ],
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b860m-aorus-elite-wifi6e-lga1851-micro-atx-motherboard",
+ "store": "pchouse"
+}

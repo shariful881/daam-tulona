@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "Intel® Turbo Boost Max Technology 3.0 Frequency: 5.5 GHz\nPerformance-core Max Turbo Frequency: 5.4 GHz\nEfficient-core Max Turbo Frequency: 4.7 GHz",
+   "Maximum Turbo Frequency": "Performance-core Base Frequency: 3.7 GHz\nEfficient-core Base Frequency: 3.2 GHz",
+   "Cache": "36 MB Intel Smart Cache",
+   "Cores": "24 (Performance cores: 8, Efficient cores: 16)",
+   "Threads": "24",
+   "Default TDP": "Base: 125W",
+   "cTDP": "Maximum Turbo: 250W",
+   "Supported Technologies": "Intel Speed Shift Technology\nIntel Turbo Boost Technology  2.0\nIntel Volume Management Device (VMD)\nNPU: Intel AI Boost",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256 GB",
+   "Maximum Speed": "Up To DDR5 7200 MT/s",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel Graphics",
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "2 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4096 x 2304 @ 60Hz (HDMI 2.1 TMDS), 7680 x 4320 @ 60Hz (HDMI 2.1 FRL)\nMax Resolution (DP): 7680 x 4320 @ 60Hz",
+   "Core Count": "4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years Warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.7 GHz up to 5.5 GHz",
+  "Cache: 36 MB, Socket: LGA1851",
+  "CPU Cores: 24, CPU Threads: 24",
+  "NPU: Intel AI Boost"
+ ],
+ "price": 3840041000,
+ "regular": 41770,
+ "status": "In Stock",
+ "code": "48787",
+ "brand": "INTEL",
+ "model": "Core Ultra 7 270K Plus (Tray Box)",
+ "warranty": "03 years Warranty",
+ "name": "Intel Core Ultra 7 270K Plus Arrow Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel Core Ultra 7 270K Plus Arrow Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/intel-core-ultra-7-270k-plus-processor",
+ "store": "startech"
+}

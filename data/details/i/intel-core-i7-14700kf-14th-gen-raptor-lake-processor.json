@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.4 GHz",
+   "Cache": "33 MB",
+   "Cores": "20",
+   "Default TDP": "125W",
+   "Maximum Turbo Frequency": "5.6 GHz",
+   "Threads": "28"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "TYPE": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.4 GHz up to 5.6 GHz",
+  "Cache: 33 MB Intel Smart Cache",
+  "CPU Cores: 20, CPU Threads: 28",
+  "Socket: LGA1700"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-14th-gen-core-i7-14700kf-raptor-lake-processor",
+ "store": "pchouse"
+}

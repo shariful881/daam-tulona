@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5, support for: AMD Ryzen 8000/ 7000 Series Processors",
+   "Chipset": "AMD B650",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "ATX Form Factor; 30.5cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\n* You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings."
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express x16 slot (PCIEX16), integrated in the CPU:\n- AMD Ryzen 7000 Series Processors support PCIe 4.0 x16 mode\n- AMD Ryzen 8000 Series-Phoenix 1 Processors support PCIe 4.0 x8 mode\n- AMD Ryzen 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4 mode\n* The PCIEX16 slot can only support a graphics card or an NVMe SSD. If only one graphics card is to be installed, be sure to install it in the PCIEX16 slot.\n2 x PCI Express x16 slots (PCIEX1_1/PCIEX1_2), integrated in the CPU, supporting PCIe 3.0 and running at x1\n* The PCIEX1_1 and PCIEX1_2 slots become unavailable when an AMD Ryzen™ 8000 Series-Phoenix 2 processor is used.\n1 x PCI Express x16 slot (PCIEX1_3), integrated in the Chipset, supporting PCIe 3.0 and running at x1"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 DIMMs",
+   "Supported Memory": "7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800/ 4400 MT/s memory modules\nDual channel memory architecture\nSupport for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules\nSupport for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory modules\n(The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to \"Memory Support List\" on GIGABYTE's website for more information.)",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor with AMD Radeon™ Graphics support:\n- 1 x DisplayPort, supporting a maximum resolution of 3840x2160@144 Hz\n* Support for DisplayPort 1.4 version.\n- 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz\n* Support for HDMI 2.1 version and HDCP 2.3.\n** Support for native HDMI 2.1 TMDS compatible ports.\n(Graphics specifications may vary depending on CPU support.)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1 x DisplayPorts",
+   "USB (s)": "CPU:\n- 2 x USB 3.2 Gen 2 Type-A ports (red) on the back panel\n- 1 x USB Type-C port on the back panel, with USB 3.2 Gen 1 support\nCPU+USB 2.0 Hub:\n- 4 x USB 2.0/1.1 ports on the back panel\nChipset:\n- 2 x USB 3.2 Gen 1 ports available through the internal USB header\n- 1 x USB Type-C port with USB 3.2 Gen 1 support, available through the internal USB header\n- 4 x USB 2.0/1.1 ports (2 ports on the back panel, 2 ports available through the internal USB header)\nChipset+USB 2.0 Hub:\n- 4 x USB 2.0/1.1 ports available through the internal USB headers",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)",
+   "Wireless Communication module": "Realtek Wi-Fi 6E RTL8852CE\n- WIFI a, b, g, n, ac, ax, supporting 2.4/5/6 GHz carrier frequency bands\n- BLUETOOTH 5.3\n- Support for 11ax 160MHz wireless standard\n(Actual data rate may vary depending on environment and equipment.)",
+   "Supported Storage": "1 x M.2 connector (M2A_CPU), integrated in the CPU, supporting Socket 3, M key, type 25110/22110/2580/2280 SSDs:\n- AMD Ryzen 7000 Series Processors support PCIe 5.0 x4/x2 SSDs\n- AMD Ryzen 8000 Series-Phoenix 1 Processors support PCIe 4.0 x4/x2 SSDs\n- AMD Ryzen 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4/x2 SSDs\n1 x M.2 connector (M2P_CPU), integrated in the CPU, supporting Socket 3, M key, type 22110/2280 SSDs:\n- AMD Ryzen 7000 Series Processors support PCIe 4.0 x2 SSDs\n- AMD Ryzen 8000 Series-Phoenix 1 Processors support PCIe 4.0 x2 SSDs\n- AMD Ryzen 8000 Series-Phoenix 2 Processors support PCIe 4.0 x2 SSDs\n1 x M.2 connector (M2C_SB), integrated in the Chipset, supporting Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support)\n4 x SATA 6Gb/s connectors",
+   "RAID": "RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices\nRAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+   "Audio": "3 x Audio jacks",
+   "Internal I/O Ports": "Internal I/O Connectors\n1 x 24-pin ATX main power connector\n1 x 8-pin ATX 12V power connector\n1 x CPU fan header\n1 x CPU fan/water cooling pump header\n2 x system fan headers\n1 x system fan/water cooling pump header\n3 x addressable RGB Gen2 LED strip headers\n1 x RGB LED strip header\n3 x M.2 Socket 3 connectors\n4 x SATA 6Gb/s connectors\n1 x front panel header\n1 x front panel audio header\n1 x USB Type-C header, with USB 3.2 Gen 1 support\n1 x USB 3.2 Gen 1 header\n3 x USB 2.0/1.1 headers\n1 x Q-Flash Plus button\n1 x serial port header j\n1 x Clear CMOS jumper\nBack Panel Connectors\n1 x DisplayPort\n1 x HDMI port\n1 x PS/2 keyboard/mouse port\n2 x SMA antenna connectors (2T2R)\n1 x USB Type-C port, with USB 3.2 Gen 1 support\n2 x USB 3.2 Gen 2 Type-A ports (red)\n6 x USB 2.0/1.1 ports\n1 x RJ-45 port\n3 x audio jacks",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only)"
+  },
+  "Others": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)\n* Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.\nSupport for Q-Flash\nSupport for Q-Flash Plus",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, up to 192GB, 7600(OC)",
+  "Graphics Output: 1x Display Port, 1 x HDMI",
+  "Features: Realtek GbE LAN chip & Realtek Wi-Fi 6E RTL8852CE"
+ ],
+ "price": 2550026500,
+ "regular": 27670,
+ "status": "In Stock",
+ "code": "35829",
+ "brand": "GIGABYTE",
+ "model": "B650 EAGLE AX",
+ "warranty": "3 Years",
+ "name": "GIGABYTE B650 EAGLE AX DDR5 AM5 Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "GIGABYTE (AMD)",
+  "GIGABYTE B650 EAGLE AX DDR5 AM5 Motherboard"
+ ],
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.startech.com.bd/gigabyte-b650-eagle-ax-motherboard",
+ "store": "startech"
+}

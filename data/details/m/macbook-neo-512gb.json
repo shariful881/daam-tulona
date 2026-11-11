@@ -1,0 +1,91 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Apple",
+   "Processor Model": "A18 Pro chip",
+   "Processor Core": "6‑core CPU with 2 performance cores and 4 efficiency cores"
+  },
+  "Chipset": {
+   "Chipset": "Apple A18 Pro chip"
+  },
+  "Display": {
+   "Display Size": "13.0-inch (diagonal)",
+   "Display Type": "Liquid Retina display\nLED-backlit display with IPS technology",
+   "Display Resolution": "2408-by-1506 native resolution at 219 pixels per inch",
+   "Touch Screen": "No",
+   "Display Features": "500 nits brightness\nSupport for 1 billion colors\nsRGB color",
+   "Refresh Rate": "60Hz"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "Unified memory",
+   "Removable": "Non-Removable"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "5‑core GPU\nProRes encode and decode engine\nAV1 decode",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Magic Keyboard",
+   "TouchPad": "Multi-Touch trackpad for precise cursor control and support for gestures",
+   "Keyboard Features": "78 (ANSI) or 79 (ISO) keys including 12 full-height function keys"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FaceTime HD camera",
+   "Speaker": "Dual-speaker sound system",
+   "Microphone": "Dual-mic array with directional beamforming",
+   "Audio Features": "Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers\nVoice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6E (802.11ax)",
+   "Bluetooth": "Bluetooth 6"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "USB Type-C / Thunderbolt Port": {
+   "One USB 3 (USB-C) port with support for": "Charging, DisplayPort, USB 3 (up to 10Gb/s)",
+   "One USB 2 (USB-C) port with support for": "Charging, USB 2 (up to 480Mb/s)"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Dimensions": {
+   "Height": "0.50 inch (1.27 cm)",
+   "Width": "11.71 inches (29.75 cm)",
+   "Depth": "8.12 inches (20.64 cm)"
+  },
+  "Physical Specification": {
+   "Weight": "2.7 pounds (1.23 kg)"
+  },
+  "Power": {
+   "Battery Type": "lithium‑ion battery",
+   "Battery Capacity": "36.5‑watt",
+   "Adapter Type": "20W USB-C Power Adapter",
+   "Backup Time (Approx)": "Up to 16 hours video streaming\nUp to 11 hours wireless web"
+  },
+  "Warranty Details": {
+   "Warranty": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Processor: Apple A18 Pro chip with 6‑core CPU, 5‑core GPU, 16‑core Neural Engine",
+  "RAM: 8GB Unified Memory, Storage: 256GB SSD",
+  "Display: 13-inch Liquid Retina display, LED-backlit display with IPS (2408 x 1506)",
+  "Features: Magic Keyboard with Touch ID, Wi-Fi 6E, Bluetooth 6"
+ ],
+ "warranty": "1 Year international warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/apple-macbook-neo-512gb",
+ "store": "pchouse"
+}

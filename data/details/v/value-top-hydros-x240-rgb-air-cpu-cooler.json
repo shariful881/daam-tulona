@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "800–2600 RPM ±10%",
+   "Fan Airflow": "98 CFM ±10%",
+   "Noise": "36 dBA ±10%",
+   "Connector": "4 PIN + 5V3PIN",
+   "LED Number": "RGB Lighting",
+   "Others": "Heat Pipes: 6 × Φ6 mm\nFastener Type: Screw Column Fastener\nBearing Type: Dynamic Hydraulic Bearing\nMax TDP: 240 W\nRated Voltage: 12 V / 5V\nRated Current: 0.25 A + 0.6 A\nPower Input: 6 W\nNo. of Fans: 2 × 120 mm"
+  },
+  "Physical Specification": {
+   "Dimension": "Product Size: 120 × 121 × 158 mm\nFan Size: 125 × 120 × 28 mm",
+   "Weight": "850 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 115X/1200/1700/1851/1366",
+   "AMD": "FM2 / AM2 / AM3 / AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan speed: 800–2600 RPM ± 10%",
+  "Max Air Flow: 98 CFM ±10%",
+  "Max Noise Level: 36 dBA ±10%",
+  "Supports Intel and AMD CPU, Max TDP: 240W"
+ ],
+ "price": 3030,
+ "regular": 3355,
+ "status": "In Stock",
+ "code": "52079",
+ "brand": "Value-Top",
+ "model": "HYDROS X240",
+ "warranty": "1 Year Warranty",
+ "name": "Value-Top HYDROS X240 RGB Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Value-Top",
+  "Value-Top HYDROS X240 RGB Air CPU Cooler"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/value-top-hydros-x240-cpu-cooler",
+ "store": "startech"
+}

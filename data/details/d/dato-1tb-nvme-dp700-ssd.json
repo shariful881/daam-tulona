@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2",
+   "Sequential R/W": "Max sequential read speed:2500 MB/s\nDATO DP700 1TB PCIe GEN3x4 NVMe SSD"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-45°C to 85°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "100 mm x 69 mm x 7 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years limited warranty"
+  },
+  "Image": {
+   "Model": "1TB DP700"
+  }
+ },
+ "key_features": [
+  "Form factor: M.2",
+  "Operating Temperature:0°C to 70°C",
+  "Max sequential read speed:2500 MB/s",
+  "Max sequential write speed:1700 MB/s"
+ ],
+ "model": "1TB DP700",
+ "warranty": "3 years limited warranty",
+ "fetched": "2026-11-11T10:08+06:00",
+ "source": "https://www.creatus.com.bd/dato-1tb-nvme-dp700-ssd",
+ "store": "creatus"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.1V",
+   "Latency": "CL48",
+   "Others": "Heat Sink: Aluminum heat spreader\nProfile: Intel XMP 3.0 / AMD EXPO\nOperating Temperature: 0˚C ~ 85˚C\nStorage Temperature: -20˚C ~ 65˚C"
+  },
+  "Physical dimension": {
+   "Dimension": "32(H) x 133(L) x 7(W) mm",
+   "Heat Sink Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Memory Type: DDR5",
+  "Speed: 6000Mhz, Aluminum Head Dissipation",
+  "CAS Latency & Voltage: CL48/ 1.1V",
+  "Profile Type: Intel XMP 3.0 and AMD EXPO"
+ ],
+ "price": 31200,
+ "regular": 33850,
+ "status": "In Stock",
+ "code": "51012",
+ "brand": "Team",
+ "mpn": "CTCCD516G6000HC4801",
+ "model": "T-CREATE CLASSIC",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Team T-CREATE CLASSIC 16GB DDR5 6000MHz CL48 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "TEAM",
+  "Team T-CREATE CLASSIC 16GB DDR5 6000MHz CL48 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.startech.com.bd/team-t-create-classic-16gb-ddr5-6000mhz-ram",
+ "store": "startech"
+}

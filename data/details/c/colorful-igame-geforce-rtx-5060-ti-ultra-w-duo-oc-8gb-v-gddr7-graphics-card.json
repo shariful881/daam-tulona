@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Core Clock": "Core Clock\tBase：2407Mhz；Boost:2572Mhz\nOne-Key OC\tBase：2407Mhz；Boost:2632Mhz",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "4608",
+   "Others": "NV technology Support: DLSS 4/Reflex/Studio\nMemory Bandwidth: 448GB/s"
+  },
+  "Interface": {
+   "Display Port": "3x DP2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "600W",
+   "Consumption": "180W"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "231*120*49mm",
+   "Others": "2 slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, CUDA Cores: 4608",
+  "Core Clock: Base: 2407 MHz; Boost: 2572 MHz",
+  "One-Key OC: Base: 2407 MHz; Boost: 2632 MHz",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "status": "Out Of Stock",
+ "code": "44380",
+ "brand": "Colorful",
+ "model": "iGame GeForce RTX 5060 Ti Ultra W DUO OC 8GB-V",
+ "warranty": "3 Years",
+ "name": "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 8GB-V GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Colorful",
+  "Colorful iGame GeForce RTX 5060 Ti Ultra W DUO OC 8GB-V GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.startech.com.bd/colorful-igame-geforce-rtx-5060-ti-ultra-w-duo-oc-8gb-v-graphics-card",
+ "store": "startech"
+}

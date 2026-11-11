@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8960"
+  },
+  "Core Clock": {
+   "OC mode": "2610 MHz",
+   "Default mode": "2588MHz (Boost Clock)"
+  },
+  "Interface": {
+   "Display Port": "2x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "850W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "304 x 126 x 50 mm\n12 x 5 x 2 inch",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Warranty": "03-years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI Express 5.0",
+  "Engine Clock: 2610MHz (OC), CUDA Cores: 8960",
+  "Memory Clock: 28 Gbps, Memory Bus: 256-bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "warranty": "03-years Warranty",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-proart-geforce-rtx-5070-ti-oc-edition-16gb-graphics-card",
+ "store": "pchouse"
+}

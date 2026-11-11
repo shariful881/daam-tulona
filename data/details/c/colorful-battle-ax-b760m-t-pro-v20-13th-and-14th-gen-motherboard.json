@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support The 14th/13th And 12th Generation\nIntel Adapting To The LGA 1700 Slot Of The Motherboard Core TM,\nPentium And Cylon Processor",
+   "Chipset": "Intel B760",
+   "BIOS": "128M UEFI, Supporting Multiple Languages",
+   "Form Factor": "M-ATX\n240mm x 207mm"
+  },
+  "Memory": {
+   "Slots": "1 PCIe 4.0 X16 Slot\n1 PCIe 3.0 X1 Slot"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "RTL8125 2.5G Network Card",
+   "Audio": "5.1 Channel Sound Card",
+   "Internal I/O Ports": "2 M.2 Slots And 4 SATA 6Gb/S Hard Disk Interfaces,\nSupport The Creation Of RAID 0, RAID 1, RAID 5,\nAnd RAID 10 Disk Arrays Using SATA Hard Disk Devices\n- M2_ 1 Slot: Support 2242/2280\nM.2 SSD (PCIe 4.0 X4, CPU Channel)\n- M2_ 2 Slot: Support 2242/2280\nM.2 SSD (PCIe 4.0 X4/Optane, PCH Channel)"
+  },
+  "Others": {
+   "Special Features": "Power Management: Support S3, S4, Network S5 Wake-Up,\nRegular Power On And Power On\nHardware Monitor: CPU Fan Speed Is Controllable,\nSystem Fan Speed Is Controllable\nCPU Temperature Monitoring, System Temperature Monitoring,\nAnd Each Group Of Voltage Monitoring"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years Warranty"
+  },
+  "Image": {
+   "Model": "BATTLE-AX B760M-T PRO V20"
+  },
+  "Product List": {
+   "Colorful (Intel) Motherboard List Price in BD": "Price",
+   "Colorful CVN B760I FROZEN WIFI V20 ITX Motherboard": "19,900৳\n22,500৳"
+  }
+ },
+ "key_features": [
+  "Dual-Generation CPU Support: Compatible with 13th and 14th Gen Intel processors for versatile performance options.",
+  "DDR4 Memory Support: Two DDR4 memory sockets supporting up to 64GB for enhanced multitasking capabilities.",
+  "PCIe 4.0 x16 Slot: High-speed data transfer rates for seamless gaming and demanding applications.",
+  "M-ATX Form Factor: Compact size with powerful capabilities for diverse system builds.",
+  "Optimized Power Delivery: Ensures stable and efficient power distribution for enhanced performance.",
+  "Comprehensive I/O Ports: External interfaces for diverse peripheral connectivity needs.",
+  "SATA 6Gb/s Interfaces: Support for high-speed data storage devices for faster access to data.",
+  "M.2 Slots: Two M.2 slots accommodating PCIe 4.0 x4 SSDs for rapid data transfer.",
+  "RAID Support: Capability to create RAID 0, 1, 5, and 10 disk arrays using SATA HDDs.",
+  "Integrated Cooling Support: Headers for CPU fan, system fans, and water cooling pumps for temperature control.",
+  "BIOS Features: 128M UEFI BIOS supporting multiple languages for easy setup and customization.",
+  "Hardware Monitoring: Comprehensive monitoring of CPU temperature, system temperature, and voltage levels."
+ ],
+ "model": "BATTLE-AX B760M-T PRO V20",
+ "warranty": "03 Years Warranty",
+ "fetched": "2026-11-11T10:03+06:00",
+ "source": "https://www.creatus.com.bd/colorful-battle-ax-b760m-t-pro-v20-13th-and-14th-gen-motherboard",
+ "store": "creatus"
+}

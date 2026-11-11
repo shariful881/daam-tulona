@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "Boost: 1807 MHz",
+   "Memory Clock": "14 Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "2560 Units",
+   "Memory Interface": "PCI Express Gen 4.0 x8"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "DisplayPort x 3 (v1.4a)",
+   "HDMI": "HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1)",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "8-pin x1",
+   "Recommended PSU": "550 W",
+   "Power Consumption": "130 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 API",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Weight": "661 g",
+   "Dimensions": "235 x 124 x 42 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 3050 VENTUS 2X XS 8G OC"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 3050 VENTUS 2X XS 8G OC",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-3050-ventus-2x-xs-8gb-oc-gddr6-graphics-card",
+ "store": "creatus"
+}

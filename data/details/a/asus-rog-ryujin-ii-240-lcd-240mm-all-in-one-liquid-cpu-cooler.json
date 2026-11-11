@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one liquid CPU cooler",
+   "Fan Speed": "450 - 2000 RPM +/- 10%",
+   "Fan Airflow": "19.41 CFM",
+   "Noise": "29.7 dB(A)",
+   "Air Pressure": "3.23 mmH2O",
+   "Connector": "PWM/DC",
+   "Others": "Display: 3.5\" Full Color LCD"
+  },
+  "Material": {
+   "Block Material (CPU Plate)": "Copper",
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Dimension": {
+   "Water block dimension": "78.15 x 87.5 x 81 mm",
+   "Radiator Dimension": "121 x 394 x 27mm",
+   "Tube Length": "380 mm",
+   "Fan Dimension": "120 x 120 x 25 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700, 1200, 115x",
+   "AMD": "AM5, AM4, TR4"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Display: 3.5\" Full Color LCD",
+  "Fan: 2x Fan Slots (120mm), Speed: 450–2000 RPM",
+  "Pump: 7th gen Asetek pump, Speed: 840–2800 RPM",
+  "Compatibility: Intel: LGA 1700, 1200, 115x AMD: AM5, AM4, TR4"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:44+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-ryujin-ii-240-cpu-cooler",
+ "store": "pchouse"
+}

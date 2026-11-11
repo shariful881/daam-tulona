@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "up to 4K 480Hz or 8K 165Hz with DSC",
+   "Core Clock": "2542 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "192-bit",
+   "Memory Interface": "PCI Express 5.0 x16",
+   "CUDA Cores": "6144"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1b with UHBR203 x DisplayPort 2.1b with UHBR20\n(up to 4K 480Hz or 8K 165Hz with DSC)",
+   "HDMI": "1 x HDMI Connector\n(Supports 4K 120Hz HDR, 8K 60Hz HDR, and Variable Refresh Rate as specified in the HDMI 2.1b Specification)",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 12v-2x6 power input",
+   "Recommended PSU": "650W",
+   "Consumption": "250W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Others": "Supported OSWindows 11 / Windows 10 64-bit (v1809 November 2018 or later)\nSlot Size: 2 slot\nCooling: IceStorm 3.0\nPowered by the NVIDIA Blackwell architecture and DLSS 4\nNVIDIA SFF-Ready Enthusiast GeForce Card\nCompact dual-fan form factor\nIceStorm 2.0 Cooling\nBladeLink Fans\nFREEZE Fan Stop\nMetal Backplate\nPower Safety Light\nAll-new FireStorm Utility"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "Total warranty: 5 years (3-year standard warranty + 2-years will be extended after online registration by the customer within 28 days of Purchase)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, PCI Express 5.0 x16",
+  "Engine Clock: 2542 MHz, CUDA Cores: 6144",
+  "Memory Clock: 28 Gbps, Memory Bus: 192-bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "price": 119900140000,
+ "regular": 132000,
+ "status": "In Stock",
+ "code": "42227",
+ "brand": "ZOTAC",
+ "mpn": "ZT-B50700H-10P",
+ "model": "GAMING GeForce RTX 5070 Twin Edge OC",
+ "warranty": "Total warranty: 5 years (3-year standard warranty + 2-years will be extended after online registration by the customer within 28 days of Purchase)",
+ "name": "ZOTAC GAMING GeForce RTX 5070 Twin Edge OC 12GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ZOTAC",
+  "ZOTAC GAMING GeForce RTX 5070 Twin Edge OC 12GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/zotac-gaming-geforce-rtx-5070-twin-edge-oc-graphics-card",
+ "store": "startech"
+}

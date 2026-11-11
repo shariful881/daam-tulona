@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "Not specified"
+  },
+  "Basic Information": {
+   "Supported CPU": "11th and 10th Gen Intel Processors\nIntel LGA 1200 socket",
+   "Chipset": "Intel H510",
+   "BIOS": "Not specified",
+   "Form Factor": "Micro-ATX (mATX)",
+   "Audio": "Not specified"
+  },
+  "Expansion Slots": {
+   "PCI": "PCIe 4.0",
+   "M.2 Socket": "LGA 1200"
+  },
+  "Memory": {
+   "Supported Memory": "Not specified"
+  },
+  "Connector & Ports": {
+   "Front USB": "Micro ATX",
+   "LAN Port (s)": "Intel 1 Gb Ethernet",
+   "Wireless Communication module": "Not specified",
+   "Supported Storage": "32Gbps M.2 slot",
+   "RAID": "Robust power design\nComprehensive cooling solutions\nIntelligent tuning options\n5X Protection III\nPCH heatsink\nFan Xpert\nHybrid fan headers",
+   "Audio": "Fan Xpert software\nUEFI BIOS",
+   "Internal I/O Ports": "Hybrid fan headers\nPCH heatsink"
+  },
+  "Others": {
+   "Special Features": "Not specified",
+   "Bundled Software": "32Gbps M.2 slot"
+  },
+  "Physical Specification": {
+   "USB": "USB 3.2 Gen 1"
+  },
+  "Warranty Information": {
+   "Warranty": "Not specified"
+  },
+  "Image": {
+   "Model": "Asus Prime H510M-K"
+  }
+ },
+ "key_features": [],
+ "model": "Asus Prime H510M-K",
+ "warranty": "Not specified",
+ "fetched": "2026-11-11T09:59+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-h510m-k-intel-10th-and-11th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

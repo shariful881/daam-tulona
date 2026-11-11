@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "B550M K",
+   "Supported CPU": "AMD Socket AM4, support for: AMD Ryzen 5000 Series/ Ryzen 5000 G-Series/ Ryzen 4000 G-Series and Ryzen 3000 Series Processors",
+   "Chipset": "AMD B550",
+   "BIOS": "1 x 128 Mbit flash"
+  },
+  "Use of licensed AMI UEFI BIOS": {
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express x16 slot, integrated in the CPU:"
+  },
+  "Graphics:": {
+   "Graphics": "Integrated Graphics Processor:"
+  },
+  "Connector & Ports:": {
+   "HDMI": "1 x HDMI port, supporting a maximum resolution of 4096×2160@60 Hz",
+   "Display Port (s)": "1 x DisplayPort, supporting a maximum resolution of 5120×2880@60 Hz",
+   "USB (s)": "CPU:"
+  },
+  "Chipset:": {
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps)",
+   "Network & Connectivity": "LAN Chipset: Realtek GbE LAN"
+  },
+  "WiFi: No": {
+   "Supported Storage": "Storage Interface: 6.0Gb/s"
+  },
+  "M.2/SSD Expansion Slot: 2": {
+   "RAID": "0, 1, 10",
+   "Audio": "Audio Chipset: Realtek Audio CODEC"
+  },
+  "Audio Channel: 2/4/5.1/7.1": {
+   "Internal I/O Ports": "USB Port: 4 x USB 2.0/1.1, 4 x USB 3.2 Gen 1"
+  },
+  "COM Port: No": {
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module (TPM) header (2×6 pin, for the GC-TPM2.0_S module only)"
+  },
+  "Memory:": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Support for DDR4 4733(O.C.) / 4600(O.C.) / 4400(O.C.) / 4266(O.C.) / 4133(O.C.) / 4000(O.C.) / 3866(O.C.) / 3733(O.C.) / 3600(O.C.) / 3466(O.C) / 3400(O.C.) / 3200 / 2933 / 2667 / 2400 / 2133 MHz memory modules"
+  },
+  "Dual channel memory architecture": {
+   "Maximum Memory": "128 GB"
+  },
+  "Others:": {
+   "Special Features": "Support for APP Center"
+  },
+  "Support for Xpress Install": {
+   "Bundled Software": "Norton Internet Security (OEM version)"
+  },
+  "Warranty Info": {
+   "Years": "3 Years"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [
+  "Chipset : AMD B550",
+  "Supported CPU: Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
+  "Supported RAM: 4x DDR4, Max 128GB 4733(OC)",
+  "Graphics Output: 1x HDMI, 1x DisplayPort"
+ ],
+ "model": "B550M K",
+ "fetched": "2026-11-11T09:24+06:00",
+ "source": "https://smartbd.com/product/gigabyte-amd-chipset-b550m-k-amd-am4-micro-atx-motherboard/",
+ "store": "smartbd"
+}

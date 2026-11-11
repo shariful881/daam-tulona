@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Chipset": "AMD B450",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 21.5cm"
+  },
+  "Expansion Slots": {
+   "M.2 Socket": "1 x M.2 connector"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Dual channel memory architecture\nSupport for DDR4 2933/2667/2400/2133 MT/s memory modules\nSupport for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode)\nSupport for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules\nSupport for Extreme Memory Profile (XMP) memory modules",
+   "Maximum Memory": "128 GB (32 GB single DIMM capacity) of system memory"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "Chipset:\n2 x USB 3.1 Gen 1 ports available through the internal USB header\n6 x USB 2.0/1.1 ports (4 ports on the back panel, 4 ports available through the internal USB headers)\nCPU:\n4 x USB 3.1 Gen 1 ports on the back panel",
+   "LAN Port (s)": "Realtek GbE LAN chip (10/100/1000 Mbit)",
+   "Supported Storage": "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280/22110 SATA and PCIe x4/x2* SSD support)\n* Actual support may vary by CPU.\n* Supports only M.2 SATA SSDs when using an AMD Athlon-series/ 7th Gen. A-series or Athlon X4 APU.\n4 x SATA 6Gb/s connectors",
+   "RAID": "Support for RAID 0, RAID 1, and RAID 10",
+   "Audio": "3 x audio jacks",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module (TPM) header (2x10 pin, for the GC-TPM2.0 module only)"
+  },
+  "Others": {
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 5000/ 5000 G/ 4000 G/3rd/ 2nd/1st Gen Processors for Socket AM4",
+  "Supported RAM: 4 x DDR4, up to 128GB, 2933MT/s",
+  "Graphics Output: 1 x HDMI port, Onboard 16GB",
+  "Features: 1 x M.2 Slot, Realtek GbE LAN"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b450m-ds3h-v3-ddr4-motherboard",
+ "store": "pchouse"
+}

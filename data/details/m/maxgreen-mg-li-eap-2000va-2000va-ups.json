@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "2000VA",
+   "Frequency": "50 Hz",
+   "Load Capacity": "1230W",
+   "Input Voltage": "220Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "50Hz ± 1Hz (Bat Mode)",
+   "Alarm": "Battery mode Sounding every 10 seconds\nLow battery Sounding every second\nOverload Sounding every 0.5 seconds\nBattery Replacement Alarm Sounding every 2 seconds\nFault Continuously sounding",
+   "Battery": "Internal maintenance-free lead-acid battery (12V/9Ah*2)",
+   "Indications": "Line Mode - Green lighting, Battery Mode - Yellow Lighting,Fault - Red Lighting.",
+   "Noise Level": "Less than 40dB"
+  },
+  "Input Features": {
+   "Voltage Range": "162-268 VAC"
+  },
+  "Output Features": {
+   "Backup Time": "15-30 Minutes",
+   "Type of Wave": "Simulated Sine Wave (Bat Mode)",
+   "Transfer Time": "Typical 2-6ms"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  },
+  "Image": {
+   "Model": "MG-LI-EAP-2000VA"
+  }
+ },
+ "key_features": [
+  "Capacity: 2050VA/1230W",
+  "Battery: 12V/9Ah*2",
+  "Input Voltage: 220Vac",
+  "Frequency (Battery Mode): 50Hz ± 1Hz (Bat Mode)"
+ ],
+ "model": "MG-LI-EAP-2000VA",
+ "warranty": "1 year",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.creatus.com.bd/maxgreen-mg-li-eap-2000va-2000va-ups",
+ "store": "creatus"
+}

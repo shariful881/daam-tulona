@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Others": {
+   "PFC Type": "A-PFC/180-264Vac",
+   "Topological Structure": "Two-transistor Forward",
+   "Multiple Protections": "OVP, SCP, OPP",
+   "CPU Connector": "4+4P",
+   "PCI-Connector": "(6+2-6+2)P*1",
+   "Hard Desk Interface": "4SATA, 2HDD"
+  },
+  "Output": {
+   "Total Power": "600W"
+  },
+  "Connectors": {
+   "Main Power": "Complies with Intel ATX12V V2.31"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "No Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/huntkey-cp6000-600w-power-supply",
+ "store": "pchouse"
+}

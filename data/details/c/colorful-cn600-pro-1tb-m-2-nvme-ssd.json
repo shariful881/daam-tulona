@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface": "M.2 NVME",
+   "Flash Type": "3D NAND"
+  },
+  "Sequential R/W": {
+   "Read Speed": "3400MB/s",
+   "Write Speed": "3100MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "CN600 PRO"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "NAND Flash: 3D NAND",
+  "Interface: M.2 NVMe PCIE 3.0",
+  "Read: 3400MB/s, Write: 3100MB/s"
+ ],
+ "model": "CN600 PRO",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-cn600-pro-1tb-m-2-nvme-ssd",
+ "store": "creatus"
+}

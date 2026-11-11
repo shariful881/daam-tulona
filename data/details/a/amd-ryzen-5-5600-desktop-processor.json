@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Cores": "6",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "4.4GHz",
+   "Model": "Ryzen 5 5600",
+   "Supported Technologies": "HDMI: Yes",
+   "Threads": "12"
+  },
+  "Cache": {
+   "L1 Cache": "384KB",
+   "L2 Cache": "3MB",
+   "L3 Cache": "32MB"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "3200MHz"
+  },
+  "General": {
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz up to 4.4GHz",
+  "Cache: L2: 3MB, L3: 32MB; Cores-6 & Threads-12",
+  "Memory Speed: DDR4 Up to 3200MHz"
+ ],
+ "model": "Ryzen 5 5600",
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-5600-desktop-processor",
+ "store": "pchouse"
+}

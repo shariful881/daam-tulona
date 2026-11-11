@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM4 for AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+   "Chipset": "AMD B550 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX Form Factor\n9.6 inch x 8.7 inch ( 24.4 cm x 22.1 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD B550 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "2 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "5100(OC)/4866(OC)/4600(OC)/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)/3200/3000/2933/2800/2666/2400/2133, Un-buffered Memory\nDual Channel Memory Architecture\nECC memory (ECC mode) support varies by CPU.",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort\n1 x HDMI™ port\nGraphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\nSupports max. 4K@60Hz as specified in DisplayPort 1.4.\nSupports 4K@60Hz as specified in HDMI 2.1."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet",
+   "RAID": "AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10.",
+   "Audio": "3 x Audio jacks",
+   "Display Port (s)": "1 x DisplayPort",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design\nAura Sync\n- Addressable Gen 2 headers"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 5000/4000/3000 Series Processors for Socket AM4",
+  "Supported RAM: 2 x DDR4 DIMM slots, Max. 64GB, Up to 5100 Mhz (OC)",
+  "Graphics Output: 1 x DisplayPort, 1 x HDMI",
+  "Features: 2 x M.2 slots, Realtek 1Gb Ethernet"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-prime-b550m-k-argb-motherboard",
+ "store": "pchouse"
+}

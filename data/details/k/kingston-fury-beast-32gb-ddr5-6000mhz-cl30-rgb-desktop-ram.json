@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.4V",
+   "Latency": "CL30-36-36"
+  },
+  "Physical dimension": {
+   "Dimension": "133.35 mm x 34.9 mm x 6.62 mm",
+   "Pin": "288-pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Frequency: 6000MHz",
+  "Cas Latency: CL30-36-36",
+  "Operating voltage: 1.4 V"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-ram",
+ "store": "pchouse"
+}

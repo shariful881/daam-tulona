@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 4.0 x4",
+   "Flash Type": "3D TLC NAND",
+   "MTBF": "1,500,000 hours",
+   "Sequential R/W": "SSD Max Sequential Read CDM Up to 4800MB/s\nSSD Max Sequential Write CDM Up to 3500MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +65°C",
+   "Storage Temperature": "-40°C to +85°C",
+   "Shock resistance": "1500 G",
+   "Vibration Resistance": "20Hz~80Hz/1.52mm, 80Hz~2000Hz/20G"
+  },
+  "Other Features": {
+   "Storage Humidity": "93% RH (40° C)",
+   "Encryption": "AES 256-bit Encryption",
+   "Endurance": "300TBW"
+  },
+  "Physical Specification": {
+   "Weight": "0.03kg"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years"
+  },
+  "Image": {
+   "Model": "MP600 GS"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to Up to 4800MB/s",
+  "Sequential Write: Up to 3500MB/s"
+ ],
+ "model": "MP600 GS",
+ "warranty": "05 years",
+ "fetched": "2026-11-11T10:06+06:00",
+ "source": "https://www.creatus.com.bd/corsair-mp600-gs-500gb-pcie-gen4-x4-nvme-m2-ssd",
+ "store": "creatus"
+}

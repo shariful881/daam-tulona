@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800-1600 RPM (PWM) ± 10%",
+   "Type": "PWM ARGB LED Fan",
+   "Noise": "20-36db (A)",
+   "Air Pressure": "2.11 mmH₂O (max.)",
+   "Material": "4 Heat Pipes, Aluminum Fins",
+   "Others": "Rated Voltage: 12VDC"
+  },
+  "Connectors": {
+   "Fan": "4 pin",
+   "ARGB": "3pin (Synchronizable with M/B)"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA 2066 / 2011-V3 / 1366 / 1151 / 1150 / 1155 / 1156 / 1700",
+   "AMD": "AMD AM4/AM3+ / AM3 / AM2+ /AM2 / FM2+ / FM2 / FM1"
+  },
+  "Cooling System": {
+   "Fan Airflow": "77 CFM max."
+  },
+  "Dimensions": {
+   "Fan": "120 x 120 x 25mm",
+   "Heat Pipe": "Φ6mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  },
+  "Image": {
+   "Model": "FrigusAir 400 ARGB"
+  },
+  "Product List": {
+   "Best Antec CPU Cooler Price List In BD": "Price",
+   "Antec A40 Pro CPU Cooler": "2,250৳\n2,600৳",
+   "Antec A400 RGB CPU Cooler": "3,200৳\n3,900৳",
+   "Antec A400i Neon Lighting CPU Air Cooler": "2,700৳"
+  }
+ },
+ "key_features": [
+  "Type: PWM ARGB LED Fan",
+  "Fan Airflow: 77 CFM max.",
+  "Air Pressure: 2.11 mmH₂O (max.)",
+  "Fan Speed: 800-1600 RPM (PWM) ± 10%"
+ ],
+ "model": "FrigusAir 400 ARGB",
+ "warranty": "3 year",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.creatus.com.bd/antec-frigusair-400-argb-cpu-air-cooler",
+ "store": "creatus"
+}

@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "6000MHz",
+   "Latency": "CL36-44-44-96"
+  },
+  "Operating voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.35V"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime warranty"
+  }
+ },
+ "key_features": [
+  "Memory Size: 8GB",
+  "Memory Speed: 6000MHz",
+  "CAS Latency: 36-44-44-96"
+ ],
+ "warranty": "Product Lifetime warranty",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-vengeance-rgb-8gb-ddr5-6000mhz-ram",
+ "store": "pchouse"
+}

@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Display Port": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "20 Gbps Effective",
+   "BUS Type": "256 bit"
+  },
+  "Core Clock": {
+   "Boost Clock": "Up to 3010 MHz",
+   "Game Clock": "Up to 2460 MHz"
+  },
+  "Memory Bandwidth": {
+   "Memory Interface": "PCI-Express 5.0 x16",
+   "Stream Processors": "4096"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8-pin Power Connector",
+   "Recommended PSU": "Minimum 750 Watt Power Supply",
+   "Power Consumption": "317W Typical Board Power"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate"
+  },
+  "Connectivity": {
+   "HDMI": "2 x HDMI",
+   "Display Port": "2 x DisplayPort 2.1a"
+  },
+  "Physical Specification": {
+   "Dimension": "320(L)X 120.25(W)X 61.6 (H)mm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years Warranty"
+  },
+  "Image": {
+   "Model": "Pure RX 9070 XT"
+  }
+ },
+ "key_features": [],
+ "model": "Pure RX 9070 XT",
+ "warranty": "2 years Warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.creatus.com.bd/sapphire-pure-amd-radeon-rx-9070-xt-16gb-gddr6-graphics-card",
+ "store": "creatus"
+}

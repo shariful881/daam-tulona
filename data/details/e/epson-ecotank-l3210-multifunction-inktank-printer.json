@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi Function Color Ink Printer",
+   "Output Color": "Color and Black & White"
+  },
+  "Copy": {
+   "Copy Resolution": "600 x 600 dpi\nA4, Letter",
+   "Copy Speed": "7ipm (Black), 1.7ipm (Colour)"
+  },
+  "Scan": {
+   "Scan Type": "Flatbed color image scanner\n11sec (Black), 32sec (Colour)",
+   "Scan Resolution": "600 x 1200 dpi",
+   "Maximum Scan Size": "Scanner Bit Depth (Color):\n48-bit input, 24-bit output\nScanner Bit Depth (Grayscale):\n16-bit input, 8-bit output\nScanner Bit Depth (Black & White):\n16-bit input, 1-bit output",
+   "Duplex Scan": "Manual"
+  },
+  "Print": {
+   "Technology": "Inkjet",
+   "Print Speed": "(Black)- 33ppm\n(Color)- 15ppm",
+   "Print Resolution": "5760 x 1440 dpi",
+   "First Print Out Time": "10sec (Color), 16sec (Black)",
+   "Duty Cycle up to (Yield)": "1,500 pages (monthly)",
+   "Duplex": "Manual"
+  },
+  "Paper Information": {
+   "Paper Size": "Legal (8.5 x 14.0 Inch), Indian-Legal (215 x 345 mm), 8.5 x 13 inch, Letter, A4, 16K (195 x 270 mm), B5, A5, B6, A6, Hagaki (100 x 148 mm), 5 x 7 inch, 5 x 8 inch, 4 x 6 inch, Envelopes: 10, DL, C6",
+   "Paper Weight": "80 g/m2",
+   "Input Capacity": "Up to 100 sheets of Plain Paper (80 g/m2)\nUp to 20 sheets of Premium Glossy Photo Paper",
+   "Output Capacity": "Up to 30 sheets of Plain Paper (80 g/m2)\nUp to 20 sheets of Premium Glossy Photo Paper"
+  },
+  "Physical Specs": {
+   "Dimension": "375 x 347 x 179mm",
+   "Weight": "3.9 kg"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB",
+   "Power Consumption": "AC 220-240 V, Power Consumption: 14.0 W (Operating), 0.4 W (Sleep), 0.2 W (Power off), 4.0 W (Standby)"
+  },
+  "Support": {
+   "Software": "Windows XP / XP Professional / Vista / 7 / 8 / 8.1 / 10, Windows Server 2003 / 2008 / 2012 / 2016 / 2019 Mac OS X 10.6.8 or later"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming.\n(1 year or 30,000 pages which comes first)"
+  },
+  "Image": {
+   "Model": "EcoTank L3210"
+  }
+ },
+ "key_features": [
+  "Ultra-low-cost printing: Save up to 90% on printing costs",
+  "Up to 3 years of ink included: Includes 8,100 pages in black and white and 6,500 in colour",
+  "High-yield replacement ink bottles: Up to 66 cartridges worth of ink from a single set of ink bottles",
+  "Multifunction printer: Print, copy & scan and border less photo printing."
+ ],
+ "model": "EcoTank L3210",
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.creatus.com.bd/epson-ecotank-l3210-multifunction-inktank-printer",
+ "store": "creatus"
+}

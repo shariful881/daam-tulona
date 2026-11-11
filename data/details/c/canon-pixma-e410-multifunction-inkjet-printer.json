@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Print": {
+   "Technology": "Photo Printer",
+   "Print Resolution": "4800 (horizontal) x 600 (vertical) dpi"
+  },
+  "Print Speed": {
+   "Document": "B/W: ESAT / Simplex Approx. 8.0 ipm"
+  },
+  "Input Capacity": {
+   "Plain Paper": "A4, A5, B5, Letter = 60, Legal = 10",
+   "Photo Paper Plus Glossy II (PP-201)": "4 x 6\" = 20, 5 x 7\" = 10",
+   "Envelope": "European DL / US Com. #10=5",
+   "Glossy Photo Paper (GP-508)": "4 x 6\" = 20",
+   "Canon Oce Red Label Paper (WOP111)": "A4 = 60",
+   "Canon Oce Office Colour Paper (SAT213)": "A4 = 50"
+  },
+  "Paper Information": {
+   "Paper Size": "A4, A5, B5, Letter, Legal, 4 x 6\", 5 x 7\", Envelopes (DL, COM10), Custom size (width 101.6 - 215.9 mm, length 152.4 - 676 mm)"
+  },
+  "Scan": {
+   "Maximum Scan Size": "A4 / Letter (216 x 297 mm)"
+  },
+  "Physical Specifications": {
+   "Color": "Black",
+   "Dimension": "Approx. 426 x 306 x 145 mm",
+   "Weight": "Approx. 3.4 kg"
+  },
+  "Support": {
+   "Software": "Windows 10 / 8.1 / 7 SP1, macOS 10.12*5 or later"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Print Speed: Mono 9.1 ipm, Color 5.0 ipm",
+  "Resolution: 4,800 x 1,200 dpi",
+  "Connectivity: USB 2.0",
+  "Duty Cycle: Up to 3,000 pages/month"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://fourstarit.com.bd/p/canon-pixma-e410-multifunction-inkjet-printer",
+ "store": "fourstar"
+}

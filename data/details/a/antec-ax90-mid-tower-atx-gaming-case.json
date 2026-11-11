@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Case Features": {
+   "Case Type": "Mid Tower",
+   "Color": "Black",
+   "Dimension": "473 x 210 x 486mm(DWH)",
+   "Drive Bays": "3.5\" /2.5\": 2 / 1\n2.5\": 2",
+   "Expansion Slots": "7",
+   "Front Ports": "Power,Reset, LED Control Button, 2 x USB 2.0, 1 x USB 3.0 , MIC / HD-AUDIO",
+   "Material": "Steel + Plastic",
+   "Maximum CPU Cooler Height": "≤ 160mm",
+   "Maximum Graphics Card Length": "≤ 385mm",
+   "Maximum PSU Length": "(Include cable) ≤ 220mm(with HDD)\n(Include cable) ≤ 410mm(without HDD)",
+   "Motherboard Support": "ATX, Micro-ATX, ITX",
+   "Pre- Installed Fans": "3 x 120mm ARGB fans in front + 1x 120mm ARGB fan in rear",
+   "Side Panel": "4MM Tempered glass"
+  },
+  "Fan Support": {
+   "Front": "3 x 120mm / 3 x 140mm",
+   "Top": "3 x 120mm / 2 x 140mm",
+   "Power supply": "2 x 120mm",
+   "Side": "2 x 120mm",
+   "Rear": "1 x 120mm"
+  },
+  "Radiator Support": {
+   "Front": "120 / 140 / 240 / 280 / 360mm",
+   "Top": "120 / 140 / 240 / 280 / 360mm",
+   "Side": "120 / 240mm",
+   "Rear": "120mm"
+  },
+  "Weight": {
+   "Net Weight": "6.77 Kgs",
+   "Gross Weight": "7.93 Kgs"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Mainboard Support: ATX, Micro-ATX, ITX",
+  "Form Factor: Mid Tower",
+  "Side Panel: 4MM Tempered Glass"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-11T09:41+06:00",
+ "source": "https://www.pchouse.com.bd/antec-ax90-mid-tower-gaming-case",
+ "store": "pchouse"
+}

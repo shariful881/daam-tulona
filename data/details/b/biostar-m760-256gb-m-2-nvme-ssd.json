@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2280 M.2",
+   "Interface": "PCI-E Gen3 x4",
+   "Operating Temperature": "0~70°C",
+   "Sequential R/W": "2800MB/s\n1150MB/s"
+  },
+  "Basic Information": {
+   "Others": "Operation Systems Windows/Linux/Mac"
+  },
+  "General Information": {
+   "Dimensions": "22 x 80 x 3.5 mm"
+  },
+  "Main Features": {
+   "Operating Voltage": "DC 3.3V"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "M760"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Read Speed: 2800MB/s",
+  "Write Speed: 1150MB/s",
+  "Form Factor: 2280 M.2"
+ ],
+ "model": "M760",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:59+06:00",
+ "source": "https://www.creatus.com.bd/biostar-m760-256gb-m2-nvme-ssd",
+ "store": "creatus"
+}

@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface": "Type-C 3.2 Gen 2",
+   "Sequential R/W": "Read Speeds up to 1050 MB/s\nWrite Speeds up to 1000 MB/s",
+   "Others": "Bus Powered\nLexar DataShield 256-Bit AES Encryption\nEnhanced Heat Dissipation\nDrop Resistant up to 6.6'"
+  },
+  "Physical Specification": {
+   "Dimension": "100.6mm x 50mm x 10.5mm",
+   "Weight": "45g",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 50°C (32°F to 122°F)",
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 1TB, up to 6.6' Drop Resistant",
+  "Interface: Type-C 3.2 Gen 2, Enhanced Heat Dissipation",
+  "Read Speeds: up to 1050 MB/s, Write Speeds: up to 1000 MB/s"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-sl300-1tb-portable-ssd",
+ "store": "pchouse"
+}

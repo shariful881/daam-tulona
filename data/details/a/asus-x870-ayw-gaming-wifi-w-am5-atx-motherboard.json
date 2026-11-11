@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD X870 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOSc",
+   "Form Factor": "ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)\nAMD X870 Chipset\n2 x PCIe 4.0 x16 slots (support x1 mode)\n1 x PCIe 3.0 x16 slot (supports x1 mode)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to 8000+MT/s(OC) with Ryzen 9000 & 8000 & 7000 Series Processors\nECC and Non-ECC, Un-buffered DIMM\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO)\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "256GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)",
+   "Wireless Communication module": "Wi-Fi 6\n1x1 Wi-Fi 6 (802.11ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.2"
+  },
+  "RAID": {
+   "Ryzen 9000 Series Processors": "RAID 0/1/5/10",
+   "Ryzen 8000 Series Processors": "RAID 0/1",
+   "Ryzen 7000 Series Processors": "RAID 0/1/10"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/8000 & 7000 Series Processors for AM5 Socket",
+  "Supported Memory: 4 x DIMM, Max. 256GB, DDR5 Up to 8000+MT/s(OC)",
+  "Graphics Output: 1 x HDMI port, 2x USB 4 (Type-C up to 40Gbps Data Transfer)",
+  "Features: Realtek 2.5Gb Ethernet, Realtek 7.1 High Definition Surround Sound"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.pchouse.com.bd/asus-x870-ayw-gaming-wifi-w-motherboard",
+ "store": "pchouse"
+}

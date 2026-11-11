@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7‎680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "256 bit",
+   "CUDA Cores": "8960",
+   "Memory Interface": "PCI-E 5.0"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2497 MHz (MSI Center)",
+   "Boost": "2482 MHz"
+  },
+  "Power Specifications": {
+   "Connectors": "16 pin x 1",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "303 x 121 x 49 mm",
+   "Weight": "994 g (Card) / 1474 g (Package)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5070 Ti 16G SHADOW 3X OC"
+  }
+ },
+ "key_features": [
+  "Core Clock: 2497 MHz ; Boost: 2482 MHz",
+  "Memory Clock: 28 Gbps",
+  "CUDA Cores: 8960",
+  "Output: DP 2.1b x3, HDMI 2.1b x1"
+ ],
+ "model": "GeForce RTX 5070 Ti 16G SHADOW 3X OC",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-5070-ti-16g-shadow-3x-oc-16gb-gddr7-graphics-card",
+ "store": "creatus"
+}

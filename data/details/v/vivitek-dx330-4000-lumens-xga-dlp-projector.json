@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Lamp Details": {
+   "Lamp Life": "5,000 hrs(Normal) 6,000 hrs (Eco) 15,000 hrs (Long Eco)",
+   "Type": "Laser"
+  },
+  "Projection Features": {
+   "Aspect Ratio": "4:3",
+   "Brightness": "4,000 Lumens",
+   "Contrast Ratio": "30,000:1 (Full On/Off)",
+   "Display Type": "DLP"
+  },
+  "Resolution": {
+   "Native Resolution": "XGA (1024 x 768)",
+   "Maximum Resolution": "WUXGA (1,920 x 1,200)"
+  },
+  "External Features": {
+   "Color(s)": "White",
+   "Dimensions": "313 x 236 x 120mm (12.3” x 9.3” x 4.7\")",
+   "Weight": "2.6kg (5.7lbs)"
+  },
+  "Audio Features": {
+   "Built-in Speaker": "10W"
+  },
+  "Connectivity": {
+   "Interface": "HDMI v1.4b (x1), Composite Video, VGA-In (x1), Audio-In (Mini-Jack), Audio-Out (Mini-Jack), RS232,\nUSB 5V/1.5A (and Service)",
+   "Others": "Noise Level: 31/27 dB (Normal/Eco. Mode)"
+  },
+  "Power": {
+   "Power Supply": "AC 100-240V, 50/60Hz",
+   "Power Consumption": "240W (Normal Mode), 200W (Eco. Mode), <0.5W (Standby Mode)"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Years"
+  },
+  "Image": {
+   "Model": "DX330 4000 Lumens"
+  }
+ },
+ "key_features": [
+  "Display Technology: DLP",
+  "Resolution: WUXGA (1,920 x 1,200) Max",
+  "Brightness: 4000 lumens"
+ ],
+ "model": "DX330 4000 Lumens",
+ "warranty": "02 Years",
+ "fetched": "2026-11-11T09:45+06:00",
+ "source": "https://www.creatus.com.bd/vivitek-dx330-4000-lumens-projector",
+ "store": "creatus"
+}

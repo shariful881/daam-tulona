@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Core Clock": "Base: 2280Mhz；Boost: 2497Mhz",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "3840"
+  },
+  "Others": {
+   "NV technology Support": "DLSS 4/Reflex/Studio",
+   "Memory Bandwidth": "448GB/s"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DP2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "550W",
+   "Power Consumption": "145W"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "300x120x40.4mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5060 Gaming 8GB-V"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 5060 Gaming 8GB-V",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T10:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-geforce-rtx-5060-gaming-8gb-v-graphics-card",
+ "store": "creatus"
+}

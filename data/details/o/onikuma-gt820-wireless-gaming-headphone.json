@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Technical Specification": {
+   "Connectivity": "Wireless",
+   "Frequency Range": "20 Hz – 20 KHz",
+   "Impedance": "32Ω",
+   "Sensitivity": "108dB ± 3dB",
+   "Battery Life": "60H playtime at 50% volume"
+  },
+  "Microphone": {
+   "Microphone Size": "4*1.3mm",
+   "Sensitivity": "-42dB ± 3dB"
+  },
+  "Others": {
+   "Chipset": "JL7006F4",
+   "Wireless Distance": "≥ 15M",
+   "Charging Time": "2.5 hours"
+  },
+  "Power": {
+   "Battery Capacity": "500mAh"
+  },
+  "Physical Specification": {
+   "Driver Diameter": "32mm",
+   "Colors": "White, Grey"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "01 Year Warranty"
+  },
+  "Image": {
+   "Model": "GT820"
+  }
+ },
+ "key_features": [
+  "Driver Diameter: 32mm",
+  "Connectivity: Wireless",
+  "Battery Life: 60 hours (at 50% volume)"
+ ],
+ "model": "GT820",
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-11T09:30+06:00",
+ "source": "https://www.creatus.com.bd/onikuma-gt820-gaming-headphone",
+ "store": "creatus"
+}

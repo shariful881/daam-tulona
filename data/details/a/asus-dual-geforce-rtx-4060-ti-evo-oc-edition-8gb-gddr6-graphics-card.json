@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320",
+   "Memory Clock": "18 Gbps",
+   "BUS Type": "PCI Express 4.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "4352",
+   "Others": "AI Performance: 357"
+  },
+  "Core Clock": {
+   "OC mode": "2595 MHz",
+   "Default mode": "2565 MHz (Boost)"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 1.4a",
+   "HDMI": "1x Native HDMI 2.1",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "650W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "227.2 x 123.24 x 49.6 mm",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "OC mode: 2595 MHz",
+  "Default mode: 2565 MHz (Boost)",
+  "Memory: 8GB GDDR6",
+  "Output: 1x HDMI 2.1, 3x DisplayPort 1.4a"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-geforce-rtx-4060-ti-evo-oc-edition-8gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

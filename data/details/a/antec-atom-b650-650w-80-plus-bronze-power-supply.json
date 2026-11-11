@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "650 Watt",
+   "Fan Size": "120 mm"
+  },
+  "Input": {
+   "Voltage": "200VAC - 240VAC",
+   "Frequency Range": "50Hz",
+   "Current": "6.3A"
+  },
+  "Output": {
+   "Total Power": "650W",
+   "DC Output": "+3.3V, +5V, +12V, -12V, +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "1x 24-pin Main Connector",
+   "PCI-E": "2x 8(6+2)pin PCI-E",
+   "CPU": "1x 8(4+4)pin EPS12V",
+   "SATA": "5x SATA",
+   "Molex": "3x Molex"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Years"
+  },
+  "Image": {
+   "Model": "ATOM B650"
+  },
+  "Product List": {
+   "Antec Power Supply Price List in BD": "Price",
+   "Antec META V550 550W Power Supply": "3,450৳\n3,800৳",
+   "Antec META V450 450W Power Supply": "3,100৳\n3,700৳",
+   "Antec META V350 350W Power Supply": "2,800৳\n3,100৳",
+   "Antec ATOM B750 750W 80 Plus Bronze Power Supply": "7,100৳\n7,810৳",
+   "Antec ATOM B550 550W 80 Plus Bronze Power Supply": "5,000৳\n5,830৳"
+  }
+ },
+ "key_features": [
+  "Wide Input Voltage Range: Supports input voltages from 200VAC to 240VAC.",
+  "Frequency Range of 50Hz: Compatible with various power sources.",
+  "Multiple Output Connectors: Includes a 24-pin main connector for versatile compatibility.",
+  "Dedicated CPU Power Connector: 8(4+4)pin EPS12V for CPU power delivery.",
+  "PCI-E Connectors: Two 8(6+2)pin PCI-E connectors for graphics cards.",
+  "SATA Connectors: Provides five connectors for SATA devices.",
+  "Molex Connectors: Includes three connectors for peripheral devices.",
+  "Stable and Consistent Power: Essential for high-performance computing.",
+  "Optimized Cooling Efficiency: Prevents overheating during extended use.",
+  "Longevity Assured: Backed by a substantial 5-year warranty.",
+  "Reliable and Durable Build: Ensures lasting performance and reliability for various computing needs."
+ ],
+ "model": "ATOM B650",
+ "warranty": "6 Years",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.creatus.com.bd/antec-atom-b650-650w-80-plus-bronze-power-supply",
+ "store": "creatus"
+}

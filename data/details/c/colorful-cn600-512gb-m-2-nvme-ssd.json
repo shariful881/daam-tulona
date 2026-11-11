@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Flash Type": "3D NAND",
+   "Interface": "PCIE3.0"
+  },
+  "Sequential R/W": {
+   "Read Speed": "1800 MB/s",
+   "Write Speed": "1500 MB/s"
+  },
+  "Warranty": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: PCIe3.0",
+  "NAND Flash: 3D NAND",
+  "Read: 1800MB/s, Write: 1500MB/s"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.pchouse.com.bd/colorful-cn600-512gb-m.2-nvme-ssd",
+ "store": "pchouse"
+}

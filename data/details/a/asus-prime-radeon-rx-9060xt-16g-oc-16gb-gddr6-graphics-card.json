@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "2625MHz (OC)",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "PCI Express 4.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "3584",
+   "Others": "Factory Overclocked Version"
+  },
+  "Interface": {
+   "Display Port": "3x DP 1.4",
+   "HDMI": "1 x Native HDMI 2.1b",
+   "HDCP": "Supported"
+  },
+  "Power Specifications": {
+   "Connectors": "3 x 8-pin",
+   "Recommended PSU": "650W",
+   "Consumption": "250W"
+  },
+  "Display Option": {
+   "Multi Display": "Yes, supports multiple monitors"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "280 x 115 x 40 mm",
+   "Others": "Dual-fan cooling design, RGB lighting"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR6, PCI Express 5.0",
+  "Engine Clock: Max. 3330 MHz (OC), Max. 3310 MHz (Default)",
+  "Memory Speed: 20 Gbps, Stream Processors: 2048",
+  "Output Ports: 1x Native HDMI 2.1b, 2x Native DisplayPort 2.1a"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-prime-radeon-rx-9060-xt-16gb-oc-graphics-card",
+ "store": "pchouse"
+}

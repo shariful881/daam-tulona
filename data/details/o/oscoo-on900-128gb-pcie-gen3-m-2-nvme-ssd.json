@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Functions": "TRIM, NCQ and S.M.A.R.T"
+  },
+  "Key Features": {
+   "Capacity": "128GB",
+   "Interface": "NVMe PCIe Gen3.0*4",
+   "NAND Flash": "3D TLC"
+  },
+  "Features": {
+   "Dimension": "80*22*3.5mm",
+   "Compatibility": "Windows 10, Windows 8.1, Windows 8, Windows 7 (SP1),",
+   "Others": "Total Bytes Written (TBW): 76 TBW"
+  },
+  "Main Features": {
+   "Read Speed": "Up to 3500MB/s",
+   "Write Speed": "Up to 3000MB/s"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0˚C ~ 70˚C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40˚C ~ 85˚C"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe PCIe Gen3.0x4",
+  "Capacities: 128GB",
+  "Read: Up to 3500MB/s",
+  "Write: Up to 3000MB/s"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-on900-128gb",
+ "store": "pchouse"
+}

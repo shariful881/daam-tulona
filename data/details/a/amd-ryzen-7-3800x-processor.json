@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.9GHz",
+   "Cores": "6",
+   "Default TDP": "105W",
+   "Maximum Turbo Frequency": "4.5GHz",
+   "Model": "Ryzen 7 3800X",
+   "Threads": "18"
+  },
+  "Cache": {
+   "Total L2 Cache": "4MB",
+   "Total L3 Cache": "32MB"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "3200MHz",
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Speed: 3.9GHz up to 4.5GHz",
+  "Cache: L2: 4MB, L3: 32MB",
+  "Memory Speed: 3200MHz"
+ ],
+ "model": "Ryzen 7 3800X",
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-7-3800x-processor",
+ "store": "pchouse"
+}

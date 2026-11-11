@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Specifications": {
+   "Element": "Externally-polarized (DC bias) condenser",
+   "Polar Pattern": "Cardioid, Omnidirectional, Figure-of-Eight, Multi-Pattern",
+   "Frequency Response": "20 – 20,000 Hz",
+   "Low Frequency Roll Off": "80 Hz, 12 dB/octave",
+   "Open Circuit Sensitivity": "-42 dB (7.9 mV) re 1V at 1 Pa",
+   "Maximum Input Sound Level": "149 dB SPL, 1 kHz at 1% T.H.D.; 159 dB SPL, with 10 dB pad (nominal)",
+   "Dynamic Range": "136 dB, 1 kHz at Max SPL",
+   "Signal-to-Noise Ratio": "77 dB, 1 kHz at 1 Pa",
+   "Phantom Power Requirements": "11-52V DC, 4.7 mA typical",
+   "Weight": "412g",
+   "Dimensions": "170.0 mm (6.69″) long, 52.0 mm (2.05″) maximum body diameter",
+   "Output Connector": "Integral 3-pin XLRM-type",
+   "Accessories Included": "AT8458 shock mount for 5/8″-27 threaded stands; 5/8″-27 to 3/8″-16 threaded adapter; soft protective pouch"
+  }
+ },
+ "key_features": [
+  "Three switchable polar patterns: omni, cardioid, figure-of-eight"
+ ],
+ "fetched": "2026-11-11T09:31+06:00",
+ "source": "https://diamu.com.bd/product/audio-technica-at-2050/",
+ "store": "diamu"
+}

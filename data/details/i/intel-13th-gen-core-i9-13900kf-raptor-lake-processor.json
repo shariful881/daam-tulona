@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.00 GHz",
+   "Maximum Turbo Frequency": "5.80 GHz",
+   "Cache": "36M",
+   "Cores": "24",
+   "Threads": "32",
+   "Default TDP": "125W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Type": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s",
+   "Max Number of Channels": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.00 GHz GHz up to 5.80 GHz",
+  "Cache: 36 MB Intel Smart Cache",
+  "CPU Cores: 24, CPU Threads: 32",
+  "Socket: LGA1700"
+ ],
+ "status": "Out Of Stock",
+ "code": "24883",
+ "brand": "INTEL",
+ "mpn": "Limited Stock",
+ "model": "Core i9 13900KF (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "Intel 13th Gen Core i9 13900KF Raptor Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 13th Gen Core i9 13900KF Raptor Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.startech.com.bd/intel-13th-gen-core-i9-13900kf-processor",
+ "store": "startech"
+}

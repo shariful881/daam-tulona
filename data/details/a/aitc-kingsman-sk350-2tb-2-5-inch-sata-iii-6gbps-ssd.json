@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA III 6Gbps",
+   "Operating voltage": "DC5V ± 10%",
+   "Flash Type": "3D NAND",
+   "MTBF": "1,000,000 hours"
+  },
+  "Sequential R/W": {
+   "Read": "560MB/s (Max)",
+   "Write": "520MB/s (Max)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "KINGSMAN SK350"
+  }
+ },
+ "key_features": [
+  "Interface: SATA III 6Gbps",
+  "Form Factor: 2.5-inch",
+  "MTBF: 1,000,000 hours",
+  "Operating Voltage: DC5V ± 10%"
+ ],
+ "model": "KINGSMAN SK350",
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:53+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-sk350-2tb-ssd",
+ "store": "creatus"
+}

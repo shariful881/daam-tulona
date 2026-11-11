@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "CPU": "1 (4+4 Pin)"
+  },
+  "Key Feature": {
+   "Certification": "80 PLUS Bronze",
+   "Efficiency (Approx.)": "85% Efficiency",
+   "Fan Size": "120mm hydraulic bearing fan",
+   "Modular Type": "Non Modular",
+   "Molex": "3 (4 Pin)"
+  },
+  "Others": {
+   "Type": "ATX12V v2.4",
+   "Power Factor Correction": "APFC with PF value of 0.99",
+   "Protection": "OVP / UVP / OPP / OCP / SCP"
+  },
+  "Output": {
+   "Total Power": "750W",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb"
+  },
+  "Connectors": {
+   "Main Power": "1 (20+4 Pin)",
+   "PCI-E": "4 (6+2 Pin)",
+   "SATA": "5 (5 Pin)",
+   "AC Input": "100-240V / 5.5-11A / 47-63Hz"
+  },
+  "Input": {
+   "Current": "5.5-11A",
+   "Frequency Range": "47-63Hz",
+   "Voltage": "100-240V"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Total Output Power: 750 Watt",
+  "Power Supply Type: ATX12V v2.4",
+  "Certification: 80 PLUS Bronze Certified",
+  "Cooling System: 120mm Hydraulic Bearing Fan"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.pchouse.com.bd/gamdias-helios-m1-750b-750w-80-plus-bronze-power-supply-1",
+ "store": "pchouse"
+}

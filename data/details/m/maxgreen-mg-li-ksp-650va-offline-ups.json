@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "650VA",
+   "Load Capacity": "390W",
+   "Input Voltage": "220Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "50Hz + - 1Hz (Output), 50 Hz (Input)",
+   "Noise Level": "Less than 40dB",
+   "Battery": "1 x 12V & 7Ah",
+   "Alarm": "Battery mode- Sounding every 10 seconds\nLow battery- Sounding every 10 seconds\nOverload -Sounding every 10 seconds\nBattery Replacement -Alarm Sounding every 10 seconds\nFault- Continuously sounding",
+   "Indications": "Line Mode Green lighting, Battery Mode Yellow Lighting, Fault Red Lighting"
+  },
+  "Input Features": {
+   "Frequency": "50/60 Hz"
+  },
+  "Power Factor": {
+   "Voltage Range": "220Vac"
+  },
+  "Output Features": {
+   "Voltage Range": "220Vac",
+   "Type of Wave": "Simulated Sine Wave (Bat Mode)",
+   "Transfer Time": "2-6ms Typical"
+  }
+ },
+ "key_features": [
+  "Capacity: 650VA",
+  "Battery type: 1x 12V 7Ah",
+  "Input Voltage: 220Vac",
+  "Output Voltage: 220Vac"
+ ],
+ "fetched": "2026-11-11T09:33+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mg-li-ksp-650va-offline-ups",
+ "store": "pchouse"
+}

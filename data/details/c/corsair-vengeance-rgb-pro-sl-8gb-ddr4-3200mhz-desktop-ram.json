@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "8GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "Tested Voltage 1.35",
+   "Latency": "Tested Latency 16-20-20-38"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Heat Spreader Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime warranty"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR4",
+  "Memory Size: 8GB",
+  "Number of Pins: 288 Pin",
+  "Tested Latency: 16-20-20-38"
+ ],
+ "price": 9500,
+ "regular": 10310,
+ "status": "In Stock",
+ "code": "51332",
+ "brand": "Corsair",
+ "mpn": "CMH16GX4M2E3200C16W",
+ "model": "VENGEANCE RGB PRO SL 8GB",
+ "warranty": "Product Lifetime warranty",
+ "name": "CORSAIR Vengeance RGB PRO SL 8GB DDR4 3200MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "CORSAIR Vengeance RGB PRO SL 8GB DDR4 3200MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-rgb-pro-sl-8gb-ddr4-3200mhz-ram",
+ "store": "startech"
+}

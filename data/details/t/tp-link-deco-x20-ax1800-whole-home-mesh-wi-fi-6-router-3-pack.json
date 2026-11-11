@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "Wi-Fi Speeds": "AX1800\n5 GHz: 1201 Mbps (802.11ax)\n2.4 GHz: 574 Mbps (802.11ax)",
+   "Wi-Fi Capacity": "High\nDual-Band\nDistribute devices to different bands for optimal performance\nMU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients\nOFDMA\nSimultaneously communicates with multiple Wi-Fi 6 clients\n4 Streams\nMore than enough bandwidth for connected devices",
+   "Working Modes": "Router Mode\nAccess Point Mode"
+  },
+  "Hardware": {
+   "Processor": "1 GHz Quad-Core CPU",
+   "Ethernet Ports": "2× Gigabit Ports\n*Per Deco Unit\nSupports WAN/LAN auto-sensing",
+   "Buttons": "Reset Button",
+   "Power": "12 V ⎓ 1.2 A"
+  },
+  "Security": {
+   "Wi-Fi Encryption": "WPA-Personal\nWPA2-Personal\nWPA3-Personal",
+   "Network Security": "SPI Firewall\nAccess Control\\Malicious Site Checker\nPort Intrusion Prevention\nInfected Device Isolation\nNotification and Log",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network"
+  },
+  "Software": {
+   "Protocols": "IPv4\nIPv6",
+   "Service Kits": "Homecare™",
+   "Parental Controls": "Homecare™ Parental Controls\nCustom Profiles\nContent Filtering\nURL Filtering\nTime Limit\nTime Schedule (Bed Time)\nLog Insight\nUsage Monitor\nMonthly Reports",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPOE\nPPTP\nL2TP",
+   "Quality of Service": "Homecare™ QoS\nQoS by Device\nQoS by Application",
+   "Cloud Service": "OTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link",
+   "Management": "Deco App"
+  },
+  "Physicals": {
+   "Dimensions (W×D×H)": "4.33 × 4.33 × 4.99 in\n(110 × 110 × 114 mm)",
+   "Package Contents": "Deco X20 (3-pack)\n3 Deco X20 Units\n1 RJ45 Ethernet Cable\n3 Power Adapters\n1 Quick Installation Guide\nDeco X20 (2-pack)\n2 Deco X20 Units\n1 RJ45 Ethernet Cable\n2 Power Adapters\n1 Quick Installation Guide\nDeco X20 (1-pack)\n1 Deco X20 Unit\n1 RJ45 Ethernet Cable\n1 Power Adapter\n1 Quick Installation Guide"
+  },
+  "Others": {
+   "System Requirements": "Android 4.4 or later\niOS 9.0 or later",
+   "Certifications": "CE, FCC, IC, RoHS, RCM, JPA, JRF, VCCI"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-deco-x20-ax1800-whole-home-mesh-wi-fi-6-router-3-pack/",
+ "store": "diamu"
+}

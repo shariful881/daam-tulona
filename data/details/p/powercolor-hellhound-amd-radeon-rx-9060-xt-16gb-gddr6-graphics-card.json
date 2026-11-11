@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Processor": {
+   "Chipset": "RX 9060"
+  },
+  "General Information": {
+   "BUS Type": "PCIE 5.0 x16",
+   "DirectX": "12",
+   "Memory Bus (Bit)": "128-bit",
+   "Memory Size": "16GB",
+   "Memory Type": "GDDR6",
+   "Model": "Hellhound AMD Radeon RX 9060 XT",
+   "OpenGL": "4.6",
+   "Recommended Power Supply": "550W",
+   "Other": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nAMD RDNA 4 Architecture\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2"
+  },
+  "Memory Clock": {
+   "Engine Clock(OC)": "up to 2740MHz(Game), up to 3310MHz(Boost)",
+   "Engine Clock(STD/Silent)": "up to 2620MHz(Game), up to 3230MHz(Boost)"
+  },
+  "Memory": {
+   "Slots": "2"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI 2.1b"
+  },
+  "Ports & Slots": {
+   "Ports": "2 x DisplayPort 2.1a"
+  },
+  "Design": {
+   "Colors": "Black"
+  },
+  "Video Memory Specifications": {
+   "Stream Processors": "2048"
+  },
+  "Display": {
+   "Resolution": "7680×4320"
+  },
+  "Physical dimension": {
+   "Dimension": "310mm*100mm*40mm\n330mm*120mm*40mm (with bracket)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "Hellhound AMD Radeon RX 9060 XT"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2740 MHz (Game) / 3310 MHz (Boost)",
+  "Memory Speed: 20 Gbps,Memory Interface: 128-bit",
+  "Stream Processors: 2048 Units",
+  "Size: 16GB"
+ ],
+ "model": "Hellhound AMD Radeon RX 9060 XT",
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.creatus.com.bd/powercolor-hellhound-amd-radeon-rx-9060-xt-16gb-gddr6-graphics-card",
+ "store": "creatus"
+}

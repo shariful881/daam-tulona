@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680×4320",
+   "Core Clock": "Boost Clock: Up to 3290 MHz\nGame Clock: Up to 2700 MHz",
+   "Memory Clock": "20 Gbps Effective",
+   "BUS Type": "128 bit",
+   "Memory Interface": "PCI-Express 5.0 x16",
+   "Stream Processors": "2048",
+   "Others": "AMD RDNA 4 Architecture\nCompute Units: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)\nInfinity Cache: 32MB\nRay Accelerators: 32\nAI Accelerator: 64\nBIOS Support\nUEFI\nGame Index\n1080P ULTRA\nSapphire Features\nHoneywell PTM7950 Thermal Interface Material (TIM)\nAeroCurve Fan Blade\nFree Flow\nFrameDefense\nIntegrated Cooling Module\nDual-X Cooling Technology\nHigh TG Copper PCB\nOptimized Composite Heatpipes\nMetal Backplate\nSleeve Bearing Fans\n9-Phase Digital Power Design\nFuse Protection\nIntelligent Fan Control\nPrecision Fan Control\nTriXX Supported\nTriXX Boost\nAMD Features\nAMD RDNA 4 Architecture\n32 Compute Units (3rd Gen RT + 2nd Gen AI Accelerators)\nAMD HYPR-RX with AFMF 2\nAMD FidelityFX Super Resolution 4 with AI Upscaling\nDisplayPort 2.1a\nAMD Radiance Display Engine\nAMD Fluid Motion Frames 2 technology\nAMD Radeon Anti-Lag 2 technology\nAV1 Encode/Decode\nAMD FidelityFX technologies\nMicrosoft DirectX 12 Ultimate\nAMD Noise Suppression\nAMD Freesync technology\nAMD Infinity Cache\n8 GB of GDDR6 on 128-bit Memory Bus\nAMD smart technologies\nAMD Software: Adrenalin Edition application\nCooler Type\nDual-X Cooling\nAeroCurve Fan Blade\nFree Flow\nIntegrated Cooling Module\nHigh TG Copper PCB\nOptimized Composite Heatpipes\nSleeve Bearing"
+  },
+  "Interface": {
+   "Display Port": "1x DisplayPort 2.1a",
+   "HDMI": "2 x HDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin Power Connector",
+   "Recommended PSU": "Minimum 450 Watt Power Supply",
+   "Consumption": "170W Typical Board Power"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate"
+  },
+  "Physical Specifications": {
+   "Dimensions": "244(L)X 124(W)X 46.1 (H)mm",
+   "Others": "2.3 slot, ATX"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 3290 MHz, Game Clock: Up to 2700 MHz",
+  "Memory: 8GB/128 bit GDDR6, Memory Clock: 20 Gbps Effective",
+  "Stream Processors: 2048, AMD RDNA 4 Architecture",
+  "Output Ports: 2x HDMI, 1x DisplayPort 2.1a"
+ ],
+ "price": 66900,
+ "regular": 72590,
+ "status": "In Stock",
+ "code": "44070",
+ "brand": "Sapphire",
+ "mpn": "11350-04-20G",
+ "model": "Pulse AMD Radeon RX 9060 XT Gaming OC",
+ "warranty": "2 years",
+ "name": "Sapphire Pulse AMD Radeon RX 9060 XT Gaming OC 8GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Sapphire",
+  "Sapphire Pulse AMD Radeon RX 9060 XT Gaming OC 8GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.startech.com.bd/sapphire-pulse-amd-radeon-rx-9060-xt-gaming-oc-8gb-graphics-card",
+ "store": "startech"
+}

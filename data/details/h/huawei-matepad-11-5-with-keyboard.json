@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Display Type": "TFT LCD (IPS), up to 120 Hz refresh rate",
+   "Size": "11.5 inches",
+   "Resolution": "2200 × 1440 pixels, 229 PPI",
+   "Processor": "Qualcomm Snapdragon 7 Gen 1 Mobile Platform\n1 ×\n[email protected]\nGHz + 3 ×\n[email protected]\nGHz + 4 ×\n[email protected]\nGHz\nAdreno 644",
+   "RAM": "8GB",
+   "Storage": "128GB",
+   "Operating System": "HarmonyOS 3.1",
+   "Audio": "LDAC HD Audio"
+  },
+  "Physical Spec": {
+   "SIM": "N/A"
+  },
+  "Camera": {
+   "Rear": "13 MP (f/1.8 aperture, AF)",
+   "Front": "8 MP (f/2.0 aperture, FF)",
+   "Video": "Up to 3840 x 2160 pixels"
+  },
+  "Battery": {
+   "Capacity": "7700 mAh (typical)",
+   "Charging": "10V/2.25A charger"
+  },
+  "Special Features": {
+   "Bluetooth": "Bluetooth 5.2, supports BLE, SBC, AAC, and LDAC HD Audio.",
+   "Sensors": "Ambient light sensor\nCompass\nGravity sensor\nGyroscope\nHall sensor",
+   "USB": "Type-C, USB 2.0",
+   "WLAN": "Yes"
+  },
+  "Warranty": {
+   "Warranty": "01 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 11.5\" TFT LCD (1440 x 2200) , 120hz",
+  "Processor: Qualcomm Snapdragon 7 Gen 1",
+  "RAM: 8GB Ram, Storage 128GB",
+  "Camera:13MP Back & 8MP Front"
+ ],
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/huawei-matepad-11-5",
+ "store": "pchouse"
+}

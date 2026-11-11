@@ -1,0 +1,92 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 3 30",
+   "Processor Frequency": "Up to 4.1GHz",
+   "Processor Core": "4",
+   "Processor Thread": "5"
+  },
+  "CPU Cache": {
+   "L2 Cache": "2MB",
+   "L3 Cache": "4MB"
+  },
+  "Chipset": {
+   "Chipset": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920×1080)",
+   "Display Features": "Brightness: 300nits\nAnti-glare"
+  },
+  "Memory": {
+   "RAM": "8GB Soldered",
+   "RAM Type": "LPDDR5",
+   "Removable": "N/A",
+   "Bus Speed": "5500MHz",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Storage Capacity": "512GB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon 610M Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Non-Backlit, English (EU)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "HD 720p with Privacy Shutter",
+   "Speaker": "1.5W x2 Stereo",
+   "Microphone": "2x Array",
+   "Audio Features": "Dolby Audio"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6, 11ax 2x2",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Ports & Slots": {
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort 1.2)",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Physical Specification": {
+   "Color": "Arctic Grey",
+   "Dimensions": "359.3 x 235 x 17.9 mm (14.15 x 9.25 x 0.70 inches)",
+   "Weight": "Starting at 1.62 kg (3.57 lbs)",
+   "Body Material": "PC-ABS (Top), PC-ABS (Bottom)"
+  },
+  "Power": {
+   "Battery Type": "Integrated",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W round tip (3-pin)"
+  },
+  "Other Features": {
+   "Other Features": "MIL-STD-810H military test passed (21 test items)"
+  },
+  "Warranty Details": {
+   "Warranty": "2 years Warranty (Battery 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 3 30 (4C / 8T, 2.4 / 4.1GHz, 2MB L2 / 4MB L3)",
+  "Ram: 8GB LPDDR5-5500, Storage: 512GB M.2 2242 PCIe 4.0x4 NVMe SSD",
+  "Display: 15.6\" FHD (1920x1080) IPS 300nits Anti-glare",
+  "Features: Privacy Shutter, Wi-Fi 6, Type-C, Military Grade"
+ ],
+ "warranty": "2 years Warranty (Battery 1 year).",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-ideapad-slim-3-15amn8-ryzen-3-30-laptop",
+ "store": "pchouse"
+}

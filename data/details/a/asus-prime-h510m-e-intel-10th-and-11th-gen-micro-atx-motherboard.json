@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "Not specified",
+   "Connectors": "24-pin Main Power connector, 1 x 8-pin +12V Power connector, 1 x RGB header, Clear CMOS header, 1 x COM Port header, Front Panel Audio header (AAFP), 1 x S/PDIF Out header, Speaker header, 1 x 10-1 pin System Panel header, 1 x SPI TPM header (14-1pin)"
+  },
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1200 for 11th Gen Intel Core Processors & 10th Gen Intel Core, Pentium Gold and Celeron Processors - Supports Intel 14 nm CPU - Supports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0",
+   "Chipset": "H510 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "microATX: 22.6cm x 21.1cm",
+   "Audio": "Realtek ALC897/ 887 7.1 Surround Sound High Definition Audio CODEC - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking - Supports up to 24-Bit/192 kHz playback - Audio Features: Audio Shielding, Premium Japanese audio capacitors, Dedicated audio PCB layers"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel 11th & 10th Gen Processors: 1 x PCIe 4.0/ 3.0 x16 slot (Intel 11th Gen processors support PCIe 4.0 x16, Intel 10th Gen processors support PCIe 3.0 x16) - H510 Chipset: 2 x PCIe 3.0 x1 slots",
+   "M.2 Socket": "Supports 1 x M.2 slot and 4 x SATA 6Gb/s ports - Intel H510 Chipset M.2 slot (Key M), type 2242/ 2260/ 2280 (supports PCIe 3.0 x4 & SATA modes)"
+  },
+  "Memory": {
+   "Slots": "1 x PCIe 4.0/ 3.0 x16 slot - 2 x PCIe 3.0 x1 slots - 2 x DIMM",
+   "Supported Memory": "DDR4 3200(OC)/ 2933/ 2800/ 2666/ 2400/ 2133 MHz Non-ECC, Un-buffered Memory - Dual Channel Memory Architecture - Supports Intel Extreme Memory Profile (XMP)",
+   "Maximum Memory": "64GB (32 GB single DIMM capacity)"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort 1.4 - 1 x D-Sub - 1 x HDMI 1.4/ 2.0"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI 2.0",
+   "Display Port (s)": "DisplayPort 1.4",
+   "USB (s)": "Rear USB: Total 4 ports (2 x USB 3.2 Gen 1 ports (2 x Type-A), 2 x USB 2.0 ports (2 x Type-A)) - Front USB: Total 6 ports (1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports, 2 x USB 2.0 headers support additional 4 USB 2.0 ports)",
+   "Front USB": "Total 6 ports - 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports - 2 x USB 2.0 headers support additional 4 USB 2.0 ports",
+   "LAN Port (s)": "1 x Intel I219-V 1Gb Ethernet",
+   "Wireless Communication module": "Not specified",
+   "Supported Storage": "Supports 1 x M.2 slot and 4 x SATA 6Gb/s ports - H510 Chipset M.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes) - 4 x SATA 6Gb/s ports",
+   "RAID": "Not specified"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Not specified"
+  },
+  "Others": {
+   "Special Features": "Supports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0 - Supports Intel Extreme Memory Profile (XMP) - Audio Shielding - Premium Japanese audio capacitors - Dedicated audio PCB layers - 1 x RGB header",
+   "Bundled Software": "Not specified"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Asus Prime H510M-E"
+  }
+ },
+ "key_features": [],
+ "model": "Asus Prime H510M-E",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:58+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-h510m-e-intel-10th-and-11th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

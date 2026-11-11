@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "3 x 5dBi external omnidirectional antennas",
+   "Data Rate": "750Mbps (300Mbps @2.4GHz + 433Mbps @5GHz)",
+   "Power Mode": "Input: AC 100-240V, 50/60Hz; Output: DC 12V, 1A",
+   "Network Standard": "IEEE 802.11ac/a/n (5GHz), IEEE 802.11b/g/n (2.4GHz)",
+   "Encryption": "WPA/WPA2, WPS, Parental Control, Firewall (Ping/Flood Attack Defense)",
+   "Operating System Support": "IPv4 & IPv6 support with PPPoE, Dynamic IP & Static IP connections\nSupports Router, AP & Universal Repeater (Client+AP, WISP) modes"
+  },
+  "Basic Information": {
+   "Others": "MU-MIMO, Beamforming, Bandwidth Control, Tenda WiFi App, VPN Support"
+  },
+  "General Information": {
+   "Dimensions": "185.6 x 118.4 x 31.2mm",
+   "Frequency": "Dual-core 1GHz CPU with 64MB RAM for smooth performance"
+  },
+  "Ports & Slots": {
+   "Ports": "4 x 10/100Mbps LAN/WAN ports"
+  },
+  "Physical Specification": {
+   "Color": "white"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "AC3 AC750"
+  }
+ },
+ "key_features": [
+  "Antenna Type: 3 x 5dBi external omnidirectional antennas",
+  "Data Rate: 750Mbps (300Mbps @2.4GHz + 433Mbps @5GHz)",
+  "Ports: 4 x 10/100Mbps LAN/WAN ports"
+ ],
+ "model": "AC3 AC750",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-11T09:37+06:00",
+ "source": "https://www.creatus.com.bd/tenda-ac3-ac750-dual-band-wi-fi-router",
+ "store": "creatus"
+}

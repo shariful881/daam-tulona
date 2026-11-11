@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support the 14th/13th and 12th generation Intel adapting to the LGA 1700\nslot of the motherboard  Core TM, Pentium  And Cylon  processor",
+   "Chipset": "Intel B760",
+   "BIOS": "128M UEFI, supporting multiple languages",
+   "Form Factor": "M-ATX\n240mm x 207mm",
+   "Audio": "5.1 Channel sound card"
+  },
+  "Expansion Slots": {
+   "PCI": "1 PCIe 4.0 x16 slot\n1 PCIe 3.0 x1 slot"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2",
+   "Supported Memory": "support DDR4-4800 (OC)/4600 (OC)/4400 (OC)/4266 (OC)/4000 (OC)/3733 (OC)/3600 (OC)/3466\n(OC)/3200/3000/2933/2800/2666/2400/2133MHz of memory\nsupport Intel ® Extreme Memory Profile (XMP) memory\ntechnology\nsupports dual channel memory technology",
+   "Maximum Memory": "64 GB"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "RTL8125 2.5G network card",
+   "Internal I/O Ports": "2 M.2 slots and 4 SATA 6Gb/s hard disk interfaces, Support the\ncreation of RAID 0, RAID 1, RAID 5, and RAID 10 disk arrays using SATA hard disk devices\n- M2_ 1 slot: support 2242/2280 M.2 SSD (PCIe 4.0 x4, CPU channel)\n- M2_ 2 slot: support 2242/2280 M.2 SSD (PCIe 4.0 x4/Optane, PCH channel)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "BATTLE AX B760M T PRO V20"
+  },
+  "Product List": {
+   "Best Colorful (Intel) Motherboard Price List In BD": "Price",
+   "Colorful CVN B760I FROZEN WIFI V20 ITX Motherboard": "19,900৳\n22,500৳"
+  }
+ },
+ "key_features": [
+  "Chipset: Intel B760",
+  "Form Factor: M-ATX",
+  "Audio: 5.1 Channel Sound Card",
+  "LAN: RTL8125 2.5G Network Card"
+ ],
+ "model": "BATTLE AX B760M T PRO V20",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T10:03+06:00",
+ "source": "https://www.creatus.com.bd/colorful-battle-ax-b760m-t-pro-v20-motherboard",
+ "store": "creatus"
+}

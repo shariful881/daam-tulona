@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen series processors that fit the AMD AM4 slot of the motherboard",
+   "Chipset": "AMD B450",
+   "BIOS": "128M UEFI, support multiple languages",
+   "Form Factor": "M-ATX\n197mm x 240mm",
+   "Audio": "5.1-Channel High Definition audio CODEC"
+  },
+  "Expansion Slots": {
+   "PCI": "1×PCIe 4.0 x16 slot\n1×PCIe 3.0 x4 slot"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR4 Memory Technology",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "Support DDR4-3600(OC)/3200/2933/2666/2400MHz memory\nSupport Extreme Memory Profile (XMP) memory technology\nSupports dual channel memory technology",
+   "Maximum Memory": "32GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1×HDMI 1.4 interface, Supports up to 4K 30Hz resolution",
+   "LAN Port (s)": "RTL8125 2.5Gbit LAN",
+   "Supported Storage": "1 M.2 slots and 4 SATA 6Gb/s hard disk interfaces,\nand supports creating RAID 0,\nRAID 1, RAID 10 disk arrays using SATA hard disk devices\n- M.2_1 slot: supports 2242/2260/2280 M.2 SSD\n(PCIe 4.0 x4/SATA, CPU channel)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "BATTLE-AX B550M-T PRO V14"
+  },
+  "Product List": {
+   "Colorful (Ryzen) Motherboard List Price in BD": "Price",
+   "COLORFUL CVN B450M MATX AMD GAMING MOTHERBOARD": "11,400৳\n12,000৳"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Ryzen processors are compatible with the AM4 motherboard socket",
+  "Supported Memory: 2 x DDR4 3600(OC) Max. 32GB",
+  "Graphics Output: 1 x HDMI, 1×HDMI 1.4",
+  "Features: RTL8125 2.5Gbit LAN"
+ ],
+ "model": "BATTLE-AX B550M-T PRO V14",
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-battle-ax-b550m-t-pro-v14-am4-matx-motherboard",
+ "store": "creatus"
+}

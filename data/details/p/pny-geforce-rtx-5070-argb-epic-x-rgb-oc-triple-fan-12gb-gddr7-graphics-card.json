@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Size": "12GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC3",
+   "Core Clock": "Base: 2.16 GHz",
+   "BUS Type": "PCI Express 5.0 x16",
+   "CUDA Cores": "8960",
+   "Memory Interface": "192-bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "One 16-pin (One 16-pin to Two 8-pin)"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5070 Ti Epic-X ARGB OC Triple Fan"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, PCI-Express 5.0 x16",
+  "Core Clock: 2.16 GHz",
+  "CUDA Cores: 8960, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "model": "GeForce RTX 5070 Ti Epic-X ARGB OC Triple Fan",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.creatus.com.bd/pny-geforce-rtx-5070-epic-x-argb-oc-triple-fan-graphic-card",
+ "store": "creatus"
+}

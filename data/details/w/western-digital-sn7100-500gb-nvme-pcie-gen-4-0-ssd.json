@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "TLC 3D NAND",
+   "Interface": "NVMe PCIe Gen4 x4"
+  },
+  "Sequential R/W": {
+   "Sequential Read Performance": "6800MB/s",
+   "Sequential Write Performance": "5800MB/s"
+  },
+  "Others": {
+   "Random Read": "760K IOPS",
+   "Random Write": "1200K IOPS"
+  },
+  "Physical Specification": {
+   "Dimension": "(L x W x H): 3.15\" x 0.87\" x 0.04\"",
+   "Weight": "5.8gms",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 85°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Warranty": {
+   "Warranty": "05 years Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe PCIe Gen4 x4",
+  "Form Factor: M.2 2280",
+  "Sequential Read: 6800 MB/s",
+  "Sequential Write: 5800 MB/s"
+ ],
+ "warranty": "05 years Warranty",
+ "fetched": "2026-11-11T09:12+06:00",
+ "source": "https://www.pchouse.com.bd/western-digital-sn7100-500gb-nvme-pcie-gen-ssd",
+ "store": "pchouse"
+}

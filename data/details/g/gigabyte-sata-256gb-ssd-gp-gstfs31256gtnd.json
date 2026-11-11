@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Features": {
+   "Interface": "SATA 6.0Gb/s",
+   "Form Factor": "2.5-inch internal SSD",
+   "Total Capacity": "256GB",
+   "NAND": "3D NAND Flash",
+   "Sequential Read speed": "up to 520 MB/s",
+   "Sequential Write speed": "up to 500 MB/s",
+   "Random Read IOPS": "up to 80k",
+   "Random Write IOPS": "up to 85k",
+   "Mean time between failure": "2M hours"
+  },
+  "Physical Specification": {
+   "Power Consumption (Active)": "Average: R : 2240mW; W : 2610mW",
+   "Power Consumption (Idle)": "170mW",
+   "Temperature (Operating)": "0°C to 70°C",
+   "Temperature (Storage)": "(-40°C to 85°C)",
+   "Dimensions": "69.85 x 7 x 100 mm"
+  },
+  "Warranty": {
+   "Warranty": "Limited 3-years Warranty"
+  },
+  "Contact Information": {
+   "Name": "Tangim Chowdhury",
+   "Phone Number": "88 01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Form Factor: 2.5-inch internal SSD",
+  "Interface: SATA 6.0Gb/s"
+ ],
+ "warranty": "Limited 3-years Warranty",
+ "fetched": "2026-11-11T09:45+06:00",
+ "source": "https://smartbd.com/product/gigabyte-sata-256gb-ssd-gp-gstfs31256gtnd/",
+ "store": "smartbd"
+}

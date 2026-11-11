@@ -1,0 +1,91 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "22 inch",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel pitch(MM)": "0.249 mm (H) x 0.241 mm (V)",
+   "Display Surface": "Anti-Glare, Hard Coating (3H)",
+   "Viewing Angle": "178º horizontal, 178º vertical",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/m² (typ)",
+   "Refresh Rate": "100Hz",
+   "Response Time": "4ms (Typical GTG)",
+   "Curvature": "Flat"
+  },
+  "Contrast Ratio": {
+   "Static Contrast Ratio": "1,000:1 (typ)",
+   "Dynamic Contrast Ratio": "50M:1"
+  },
+  "Color Support": {
+   "Colors": "16.7M",
+   "Color Space Support": "8 bit (6 bit + FRC)"
+  },
+  "Color Gamut": {
+   "NTSC": "72% size (Typ)",
+   "sRGB": "104% size (Typ)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes"
+  },
+  "Free Sync Support": {
+   "Low Blue Light": "Yes"
+  },
+  "Hdcp": {
+   "Color Temperature Selection": "32°F to 104°F (0°C to 40°C)"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "Audio Jack": "3.5MM Audio Out x 1",
+   "HDMI": "HDMI 1.4: 1"
+  },
+  "USB Type-C": {
+   "VGA": "VGA: 1"
+  },
+  "Swivel": {
+   "Tilt": "-5º / 20º"
+  },
+  "Height Adjustment": {
+   "Security Locker": "Kensington Lock Slot",
+   "Vesa Wall Mount": "100 x 100 mm"
+  },
+  "Adapter Type": {
+   "Type": "Internal Power Supply",
+   "Voltage": "AC 100-240V"
+  },
+  "Power Consumption": {
+   "Consumption (typical)": "17W",
+   "Consumption (max)": "21.3W"
+  },
+  "Others": {
+   "Eco Mode (Conserve)": "13W",
+   "Eco Mode (optimized)": "15W",
+   "Stand-by": "0.3W"
+  },
+  "Weight": {
+   "Net (lbs)": "6",
+   "Net Without Stand (lbs)": "5.3",
+   "Gross (lbs)": "8.4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "VA2214-H"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 4ms",
+  "Ports: 1x VGA, 1x HDMI 1.4, 1x 3.5mm Audio Out",
+  "Features: Low Blue Light, Flicker Free, VESA Mount"
+ ],
+ "model": "VA2214-H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:22+06:00",
+ "source": "https://www.creatus.com.bd/viewsonic-va2214-h-monitor",
+ "store": "creatus"
+}

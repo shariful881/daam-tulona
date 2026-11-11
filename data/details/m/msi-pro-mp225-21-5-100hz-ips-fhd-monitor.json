@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "21.5 inch",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "Full HD (1920 x 1080)",
+   "Pixel pitch(MM)": "0.24795(H) x 0.24795V)",
+   "Display Surface": "Anti-glare",
+   "Viewing Angle": "178°(H) / 178°(V)",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/m2",
+   "Contrast Ratio": "1300:1",
+   "Refresh Rate": "100Hz",
+   "Color Support": "16.7M",
+   "Response Time": "1ms (MPRT) / 4ms (GTG)",
+   "Curvature": "Flat"
+  },
+  "Color Gamut": {
+   "COLOR BIT": "8 bits (6 bits + FRC)",
+   "sRGB": "107.39% (CIE 1976)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Free Sync Support": "Adaptive Sync",
+   "Low Blue Light": "Yes"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "HDMI": "1x HDMI TM 1.4b",
+   "VGA": "1x D-Sub (VGA)"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5° ~ 20°",
+   "Security Locker": "Kensington Lock",
+   "Vesa Wall Mount": "75 x 75 mm"
+  },
+  "Power": {
+   "Type": "External Adaptor 12V 2A",
+   "Voltage": "Power Input : 100~240V , 50/60Hz"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PRO MP225"
+  }
+ },
+ "key_features": [
+  "Display: IPS, 100Hz, 1ms",
+  "Resolution: FHD (1920 x 1080)",
+  "Ports: 1x HDMI, 1x VGA, 1x Audio Out",
+  "Features: Anti-Flicker Technology, EYE-Q Check"
+ ],
+ "model": "PRO MP225",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-mp225-100hz-ips-fhd-monitor",
+ "store": "creatus"
+}

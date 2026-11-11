@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "Up to 7680 x 4320",
+   "Core Clock": "OC Mode: 2572MHz, Default Boost: 2542MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "192-bit",
+   "CUDA Cores": "6144",
+   "Stream Processors": "6144",
+   "Others": "1000 TOPs"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1x 16-pin",
+   "Recommended PSU": "750W",
+   "Consumption": "Not specified, estimated ~350W typical"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate (assumed latest RTX support)",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "249 x 126 x 50.6 mm",
+   "Others": "2.53 Slots"
+  },
+  "Warranty": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "OC Mode: 2572MHz; Default : 2542MHz (Boost)",
+  "Memory: 12GB GDDR7",
+  "CUDA Core: 6144",
+  "Output: 1x HDMI 2.1b, 3x DisplayPort 2.1b"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/asus-geforce-rtx-5070-dual-oc-12gb-gddr7",
+ "store": "pchouse"
+}

@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5”",
+   "Interface": "SATA III (6Gb/s)",
+   "Sequential R/W": "sequential read up to 520MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "69.85mm x 100.2mm x 7mm",
+   "Weight": "34g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C (32°F to 158°F)",
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)",
+   "Shock resistance": "Shock Resistant: 1500G, duration 0.5ms, Half Sine Wave\nVibration Resistant: 10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis(X,Y,Z)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Shock and Vibration Resistant",
+  "Easy Set Up",
+  "Faster Startup",
+  "Energy Efficient"
+ ],
+ "price": 6400,
+ "regular": 6890,
+ "status": "In Stock",
+ "code": "14824",
+ "brand": "Lexar",
+ "mpn": "LNS100-256RB",
+ "model": "Lexar NS100 256GB",
+ "warranty": "3 Years",
+ "name": "Lexar NS100 256GB 2.5 inch Gray SATA III SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Lexar",
+  "Lexar NS100 256GB 2.5 inch Gray SATA III SSD"
+ ],
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.startech.com.bd/lexar-ns100-256gb-ssd",
+ "store": "startech"
+}

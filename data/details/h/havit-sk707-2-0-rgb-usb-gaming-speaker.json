@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Main Spec": {
+   "Frequency Response": "30Hz~15KH",
+   "Input Sensitivity": "≥80dB",
+   "Power": "DC 5V",
+   "Wired": "yes"
+  },
+  "Output": {
+   "Output Power": "3W x 2"
+  },
+  "Connectivity": {
+   "Jack": "USB",
+   "USB": "yes",
+   "Input Connector": "Wired"
+  },
+  "Others": {
+   "Others": "Resistance: 4 ohm x 2"
+  },
+  "Physical Specification": {
+   "Dimension": "89 x 89 x 114mm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Frequency response: 30Hz~15KH",
+  "Input sensibility: 80dB",
+  "Output power: 3W x 2"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.pchouse.com.bd/havit-sk707-usb-gaming-speaker",
+ "store": "pchouse"
+}

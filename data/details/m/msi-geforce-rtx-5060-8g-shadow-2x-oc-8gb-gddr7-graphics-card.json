@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Size": "8GB",
+   "Resolution": "7‎680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128 bit",
+   "CUDA Cores": "3840 Units",
+   "Memory Interface": "PCI Express Gen 5 x16 (uses x8)"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2535 MHz (MSI Center)",
+   "Boost": "2527 MHz"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "DisplayPort 2.1b x 3",
+   "HDMI": "HDMI 2.1b x 1"
+  },
+  "Power Specifications": {
+   "Connectors": "8-pin x 1",
+   "Recommended PSU": "550 W",
+   "Power Consumption": "145 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specification": {
+   "Weight": "493 g / 814 g"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5060 8G SHADOW 2X OC"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5",
+  "CUDA Cores: 3840 Units, Memory Speed: 28 Gbps",
+  "Core Clocks: Extreme: 2535 MHz, Boost: 2527 MHz",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "model": "GeForce RTX 5060 8G SHADOW 2X OC",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-5060-8g-shadow-2x-oc-graphics-card",
+ "store": "creatus"
+}

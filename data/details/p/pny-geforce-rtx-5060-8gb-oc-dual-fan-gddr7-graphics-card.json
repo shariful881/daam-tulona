@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC",
+   "BUS Type": "PCI-Express 5.0 x8",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "3840",
+   "Others": "NVIDIA DLSS 4"
+  },
+  "Core Clock": {
+   "Clock Speed": "2280 MHz",
+   "Boost Speed": "2535 MHz"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550 Watts",
+   "Consumption": "145 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "280 x 120 x 40mm\n7.87\" x 4.72\" x 1.57\"; 2 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5.0 x8",
+  "Graphics Clock: 2280 MHz, Boost Clock: 2535 MHz",
+  "CUDA Cores: 3840, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.pchouse.com.bd/pny-geforce-rtx-5060-8gb-oc-dual-fan-pcie-graphics-card",
+ "store": "pchouse"
+}

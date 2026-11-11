@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC",
+   "Core Clock": "Clock Speed: 2317 MHz\nBoost Speed: 2572 MHz",
+   "BUS Type": "PCI-Express 5.0 x8",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "2560",
+   "Others": "NVIDIA DLSS 4\nMemory Bandwidth (GB/sec): Up to 320"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550 Watts",
+   "Consumption": "130 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "147 x 125 x 40 mm\n5.8” x 4.9” x 1.6”; 2 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR6, PCI Express 5.0 x8",
+  "Clock Speed: 2317 MHz, Boost Clock: 2572 MHz",
+  "CUDA Cores: 2560, Memory Speed: 20 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "price": 55900,
+ "regular": 60000,
+ "status": "In Stock",
+ "code": "49454",
+ "brand": "PNY",
+ "mpn": "VCG50508DFXPB1",
+ "model": "GeForce RTX 5050 8GB Dual Fan",
+ "warranty": "3 Years Warranty",
+ "name": "PNY GeForce RTX 5050 8GB Dual Fan GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PNY",
+  "PNY GeForce RTX 5050 8GB Dual Fan GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.startech.com.bd/pny-geforce-rtx-5050-8gb-dual-fan-graphics-card",
+ "store": "startech"
+}

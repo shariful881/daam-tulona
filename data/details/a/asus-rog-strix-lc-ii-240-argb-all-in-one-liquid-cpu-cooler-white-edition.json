@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800 - 2500 RPM +/- 10%",
+   "Fan Airflow": "80.95 CFM / 137.5 m3h",
+   "Noise": "37.6 dB(A)",
+   "Air Pressure": "5.0 mmH2O"
+  },
+  "Material": {
+   "Block Material (CPU Plate)": "Copper",
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Others": {
+   "Pump Solution": "7th gen Asetek pump",
+   "Motor Speed": "840 - 2,800 +/- 300 RPM",
+   "Power": "12V DC, 0.3A",
+   "AURA Sync Support": "Yes"
+  },
+  "Dimension": {
+   "Water block dimension": "80 x 80 x 45 mm",
+   "Fan-Dimension": "120 x 120 x 25 mm",
+   "Tube Length": "380 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700, 1200, 115x, 2011, 2011-3, 2066",
+   "AMD": "AMD: AM4, TR4"
+  },
+  "Warranty Information": {
+   "Warranty": "06 Year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "06 Year Warranty",
+ "fetched": "2026-11-11T09:45+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-strix-lc-ii-240-argb-liquid-cpu-cooler",
+ "store": "pchouse"
+}

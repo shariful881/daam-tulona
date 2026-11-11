@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 4.0 x4 with NVMe",
+   "MTBF": "1,600,000 Hours",
+   "Sequential R/W": "Read up to 7,400 MB/s ; Write up to 6,500 MB/s",
+   "TBW": "1,450TBW"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 80˚C",
+   "Shock resistance": "500 G, 2 m/sec"
+  },
+  "Physical Specification": {
+   "Weight": "7g",
+   "Dimensions": "80(L) x 22(W) x 3.7(H) mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Warranty"
+  },
+  "Image": {
+   "Model": "MP44"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: PCI Express 4.0 x4",
+  "Form Factor: M.2 2280",
+  "R/W Speed: up to 7400/6500MB/s"
+ ],
+ "model": "MP44",
+ "warranty": "5 Years Warranty",
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.creatus.com.bd/team-mp44-1tb-nvme-ssd",
+ "store": "creatus"
+}

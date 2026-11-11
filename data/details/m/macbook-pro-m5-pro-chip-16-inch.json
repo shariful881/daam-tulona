@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Apple",
+   "Processor Model": "M5 Pro chip",
+   "Processor Core": "18-core CPU with 6 super cores and 12 performance cores",
+   "NPU": "16-core Neural Engine\n307GB/s memory bandwidth"
+  },
+  "Chipset": {
+   "Chipset Model": "Apple M5 Pro"
+  },
+  "Display": {
+   "Display Size": "16.2-inch",
+   "Display Type": "Liquid Retina XDR Display",
+   "Display Resolution": "3456×2234",
+   "Touch Screen": "No",
+   "Refresh Rate": "ProMotion technology for adaptive refresh rates up to 120Hz\nFixed refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz",
+   "Display Features": "XDR (Extreme Dynamic Range)\n1,000,000:1 contrast ratio\nXDR brightness: 1000 nits sustained full-screen, 1600 nits peak2 (HDR content only)\nSDR brightness: up to 1000 nits (outdoor)\nColor\n1 billion colors\nWide color (P3)\nTrue Tone technology"
+  },
+  "Memory": {
+   "RAM": "24GB/64GB",
+   "RAM Type": "Unified memory",
+   "Removable": "Non-Removable"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "16-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing",
+   "Graphics Memory": "Shared"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Magic Keyboard",
+   "Keyboard Features": "78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted‑T arrangement\nTouch ID\nAmbient light sensor",
+   "TouchPad": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+  },
+  "Camera & Audio": {
+   "WebCam": "12MP Center Stage camera with support for Desk View\n1080p HD video recording\nAdvanced image signal processor with computational video",
+   "Speaker": "High-fidelity six-speaker sound system with force-cancelling woofers",
+   "Microphone": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming\n3.5 mm headphone jack with advanced support for high-impedance headphones",
+   "Audio Features": "Wide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers\nSpatial Audio with dynamic head tracking when using AirPods (3rd generation), AirPods 4, AirPods Pro, AirPods Pro 2, and AirPods Max"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1x SDXC card slot",
+   "HDMI Port": "1x HDMI",
+   "USB Type-C / Thunderbolt Port": "3 x Thunderbolt 5 (USB-C)/ USB 4",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be)",
+   "Bluetooth": "Bluetooth 6.0"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Touch ID"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Power": {
+   "Battery Type": "Lithium‑polymer",
+   "Battery Capacity": "100 Wh",
+   "Adapter Type": "140W USB-C Power Adapter (MagSafe 3)"
+  },
+  "Physical Specification": {
+   "Color": "Space Black, Silver",
+   "Dimensions": "Height: 0.66 inch (1.68 cm)\nWidth: 14.01 inches (35.57 cm)\nDepth: 9.77 inches (24.81 cm)",
+   "Weight": "4.7 pounds (2.14 kg)"
+  },
+  "Warranty": {
+   "Warranty Details": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Processor: Apple M5 Pro chip with 18-core CPU, 20-core GPU, 16-core Neural Engine",
+  "RAM: 24GB/64GB, Storage: 1TB SSD",
+  "Display: 16.2\" Liquid Retina XDR display (3024x1964)",
+  "Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 7, Bluetooth 6"
+ ],
+ "price": 425000,
+ "regular": 462000,
+ "status": "In Stock",
+ "code": "48363",
+ "brand": "Apple",
+ "mpn": "MGEA4",
+ "model": "MacBook Pro M5 Pro",
+ "warranty": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days.",
+ "name": "MacBook Pro M5 Pro Chip 16-inch",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "MacBook",
+  "MacBook Pro M5 Pro Chip 16-inch"
+ ],
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.startech.com.bd/apple-macbook-pro-m5-pro-16-inch",
+ "store": "startech"
+}

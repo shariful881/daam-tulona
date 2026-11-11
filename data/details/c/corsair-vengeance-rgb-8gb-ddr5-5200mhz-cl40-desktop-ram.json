@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "5200MHz",
+   "Latency": "40-40-40-77"
+  },
+  "Operating voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.25V"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Anodized Aluminum Black",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Size: 8GB",
+  "Memory Speed: 5200MHz",
+  "Latency: 40-40-40-77"
+ ],
+ "warranty": "Product Lifetime Warranty",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.pchouse.com.bd/Corsair-VENGEANCE-RGB-8GB-DDR5-5200MHz-Desktop-RAM",
+ "store": "pchouse"
+}

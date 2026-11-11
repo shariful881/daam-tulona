@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Main Features": {
+   "Type": "Network Switch",
+   "Interface": "24x 10/100/1000 Ethernet ports\n4x 1G SFP uplinks\n1 x USB mini-B port\n1 x USB-A port for storage and Bluetooth console",
+   "Port": "24-port",
+   "Data Transmission Rate": "Forwarding Bandwidth 28Gbps\nSwitching Bandwidth 56Gbps\nData forwarding rate 41.67 Mpps with 64-byte L3 packets",
+   "MAC Address Table": "16K Unicast MAC address"
+  },
+  "Hardware Features": {
+   "LED": "Per-port status\nlink integrity\nDisabled & Activity\nSystem status",
+   "Dimensions (L x W x H)": "17.5 x 9.45 x 1.73 inch"
+  },
+  "Power Supply": {
+   "Power Unit": "110V=50.8W 220V=52.1W",
+   "PoE Power": "382W"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Catalyst 1000 Series C1000-24T-4G-L"
+  }
+ },
+ "key_features": [],
+ "model": "Catalyst 1000 Series C1000-24T-4G-L",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:36+06:00",
+ "source": "https://www.creatus.com.bd/cisco-catalyst-c1000-24t-4g-l-24-port-network-switch",
+ "store": "creatus"
+}

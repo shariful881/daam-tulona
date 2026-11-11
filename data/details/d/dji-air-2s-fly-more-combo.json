@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Specification": {
+   "Charging": "Input: 100-240V @50/60 Hz with 1.3 A, Output: 13.2 V⎓2.82 A via Charging Port and 5 V⎓2 A via USB Port(s)",
+   "Model": "Air 2S Fly More Combo",
+   "Gimbal": "Stabilization: 3-axis (-135° to 45° Tilt, -45° to 45° Roll, -100° to 100° Pan), Max Controllable Speed (Tilt): 100°/s, Angular Vibration Range: ±0.01°",
+   "Battery Info": "Capacity: 3750 mAh / 3500 mAh, Charging Voltage: 12.6 V / 13.2 V, Type: Li-Po 3S, Weight: 198 g, Max Charging Power: 38 W",
+   "Sensing System": "Precision: 0.38-23.8 m / 0.37-23.4 m (Forward / Backward), Effective Forward or Backward Sensing Speed: ≤15 m/s or ≤12 m/s",
+   "Video Transmission": "Transmission System: O3, 2.4 GHz/5.8 GHz Auto-Switching (compatible with OcuSync 2.0), 4-Antenna 2T4R, Max Transmission Distance: 12 km",
+   "Remote Controller": "Controller: DJI RC-N1, DJI Smart Controller: Supported, Battery Life:: 6 hours (4 Hours with a Mobile), Supported Mobile Connectors: (Lightning, Micro USB, USB-C), Max Supported Mobile Size: 180×86×10 mm"
+  },
+  "Aircraft": {
+   "Takeoff Weight": "595 g, Dimensions: 180×97×77 mm (Folded) / 183×253×77 mm (Unfolded)",
+   "Max Ascent / Descent Speed": "6 m/s (S/N Mode), Max Flight Speed: 19 m/s, Max Wind Speed Resistance: 10.7 m/s, Max Pitch Angle: 35° , Max Angular Velocity: 250°/s",
+   "Max Service Ceiling": "5000 m, Max Flight Time: 31 minutes, Max Flight Distance: 18.5 km, Max Operating Temperature: 40°C (32° to 104°F), Frequency: 2.4 GHz &/or 5.8 GHz, Max Vertical / Horizontal Hover Accuracy: ± 0.1 m",
+   "Propeller": "(Quick release, low noise, folding), Aircraft Arms: Foldable",
+   "GNSS": "GPS+GLONASS+GALILEO, Compass: Single Compass",
+   "Internal Storage": "8 GB"
+  }
+ },
+ "key_features": [],
+ "model": "Air 2S Fly More Combo",
+ "fetched": "2026-11-11T09:34+06:00",
+ "source": "https://www.applegadgetsbd.com/product/dji-air-2s-fly-more-combo",
+ "store": "applegadgets"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core 5 Processor 210H Processor, cTDP 25W",
+   "RAM": "2 x SO-DIMM, Up to DDR5 5600, 48GBx2 (Support)",
+   "Graphics Card": "Integrated, Intel Graphics",
+   "Storage": "1 x M.2 2280 PCIe Gen4x4, supports 128GB~8TB NVMe SSD (Support)",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 7 BE202,\nBluetooth 5.4\nIntel Ethernet Controller I226-V, 2.5G",
+   "Operating System": "FreeDOS"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front & Side I/O\n1 x USB 3.2 Gen2x2 Type-C\n2 x USB 3.2 Gen2 Type-A\n1 x Kensington Lock (Side)\nBack I/O\n2 x HDMI 2.1 TMDS Compatible (4K@60Hz)\n2 x Thunderbolt 4 ports (incl. DP 2.1 and USB4)\n1 x USB 3.2 Gen2 Type-A\n1 x USB 2.0 Type-A\n1 x RJ45 LAN\n1 x DC-in"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "117 x 112 x 37 mm",
+   "Weight": "502g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 Processor 210H Processor, cTDP 25W",
+  "RAM: 2 x SO-DIMM, Up to DDR5 5600, 48GBx2 (Support)",
+  "Storage: 1 x M.2 2280 PCIe Gen4x4, 128GB~8TB NVMe SSD (Support)",
+  "WLAN: Intel Wi-Fi 7 BE202, Bluetooth 5.4, LAN: Intel Ethernet Controller I226-LM, 2.5G"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-nuc-15-pro-core-5-210h-portable-mini-pc",
+ "store": "fourstar"
+}

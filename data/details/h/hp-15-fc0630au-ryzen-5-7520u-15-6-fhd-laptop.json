@@ -1,0 +1,91 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 7520U",
+   "Processor Frequency": "up to 4.3 GHz max boost clock",
+   "Generation": "7000 Series",
+   "Processor Core": "4",
+   "Processor Thread": "8",
+   "CPU Cache": "4 MB L3 cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6-Inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Touch Screen": "N/A",
+   "Display Features": "micro-edge, anti-glare, 250 nits, 45% NTSC"
+  },
+  "Memory": {
+   "RAM": "8GB (On Board)",
+   "RAM Type": "LPDDR5",
+   "Bus Speed": "5500 MHz",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe M.2 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size, backlit, soft gray keyboard with numeric keypad",
+   "TouchPad": "HP Imagepad; Precision Touchpad support"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones",
+   "Speaker": "Dual speakers",
+   "Microphone": "Dual-array digital microphones",
+   "Audio Features": "Mic mute key"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Realtek Wi-Fi 6 (2x2)",
+   "Bluetooth": "Bluetooth 5.4 wireless card"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "1x USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Camera Privacy Shutter": "Camera privacy shutter",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Moonlight blue cover, natural silver base and keyboard frame",
+   "Dimensions": "35.98 x 23.6 x 1.86 cm",
+   "Weight": "1.59 kg"
+  },
+  "Power": {
+   "Battery Type": "Li-ion polymer",
+   "Battery Capacity": "3-cell, 41 Wh",
+   "Adapter Type": "45 W Smart AC power adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7520U (up to 4.3 GHz, 4 MB L3 cache)",
+  "RAM: 8GB LPDDR5 5500Mhz, Storage: 512GB PCIe NVMe M.2 SSD",
+  "Display: 15.6\" FHD (1920 x 1080), Anti-glare, 250 nits, 45% NTSC",
+  "Features: Privacy Shutter, Backlit Keyboard, Type-C, Wi-Fi 6"
+ ],
+ "warranty": "2 years Limited Warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 ",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.pchouse.com.bd/hp-15-fc0630au-ryzen-5-7520u-laptop",
+ "store": "pchouse"
+}

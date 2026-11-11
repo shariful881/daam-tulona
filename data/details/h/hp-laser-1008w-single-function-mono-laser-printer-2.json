@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print Only",
+   "Printer Type": "Single Function Mono laser Printer",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Duplex": "Manual"
+  },
+  "Print Speed": {
+   "Print Speed (Black)": "20ppm",
+   "Print Speed (Color)": "No"
+  },
+  "Print Resolution": {
+   "Print Resolution (Pixel)": "1200 x 1200dpi",
+   "Printer Resolution (Black)": "600 x 600dpi",
+   "Printer Resolution (Color)": "No"
+  },
+  "Duty Cycle up to (Yield)": {
+   "Duty Cycle up to (Yield)": "10000 Pages",
+   "Monthly Print Capacity": "10000 Pages"
+  },
+  "Paper Information": {
+   "ADF": "No",
+   "Paper Size": "Legal, Letter, A4, A5, A5(LEF), B5 (JIS), Oficio, Envelope (DL, C5)",
+   "Paper Type": "Plain, Thick, Thin, Cotton, Color, Preprinted, Recycled, Labels, CardStock, Bond, Archive, Envelope",
+   "Paper Weight": "60 - 163 g/m2",
+   "Input Capacity": "150 Sheets",
+   "Output Capacity": "100 Sheets"
+  },
+  "Physical Specs": {
+   "Color": "White",
+   "Dimension": "331 x 178 x 215mm",
+   "Weight": "4.18 kg"
+  },
+  "Technical Specs": {
+   "Processor": "400MHz",
+   "Memory": "64MB",
+   "Connectivity": "USB, WiFi",
+   "Power Consumption": "Power Source/ Power Consumption: 320W"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "HP 166A (up to 1500 pages)\nHP 166A Black Toner (1500 Pages)",
+   "Software": "Windows 11 (64-bit), Windows 10, Windows 7 (32-bit or 64-bit)"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year"
+  },
+  "Image": {
+   "Model": "Laser 1008w"
+  }
+ },
+ "key_features": [],
+ "model": "Laser 1008w",
+ "warranty": "1-year",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.creatus.com.bd/hp-laser-1008w-laser-printer",
+ "store": "creatus"
+}

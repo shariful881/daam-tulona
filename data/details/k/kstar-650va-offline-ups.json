@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "650VA",
+   "Input Voltage": "230Vac",
+   "Output Voltage": "230 (+/-10%)",
+   "Frequency": "50 Hz ±1 Hz"
+  },
+  "Battery": {
+   "AC Voltage Regulation": "230+/-10%(Battery mode)",
+   "Frequency Range": "50 Hz ±1 Hz(Battery mode)"
+  },
+  "Input Features": {
+   "Frequency": "40 Hz (auto sensing)”}”>>40 Hz (auto sensing)",
+   "Voltage Range": "140 – 300 Vac"
+  },
+  "Output Features": {
+   "Backup Time": "Max. 12 Min(Standard)",
+   "Voltage Range": "230 (+/-10%)",
+   "Type of Wave": "Simulated Sine Wave",
+   "Transfer Time": "Typical 4-8ms, 13ms max"
+  },
+  "Physical Specification": {
+   "Dimension": "301 x 101 x142.5\nWeight\nApprox. 4.3"
+  }
+ },
+ "key_features": [
+  "Input Voltage: 230V",
+  "Capacity: 650VA",
+  "Frequency: 50 Hz"
+ ],
+ "fetched": "2026-11-11T09:22+06:00",
+ "source": "https://fourstarit.com.bd/p/kstar-650va-offline-ups",
+ "store": "fourstar"
+}

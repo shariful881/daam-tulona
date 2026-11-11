@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12 GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Boost Clock Speed: 1807 MHz",
+   "Memory Clock": "15 Gb/s",
+   "BUS Type": "192-Bit",
+   "CUDA Cores": "3584 CUDA Cores",
+   "Memory Interface": "PCI Express 4.0 x16"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-Pin",
+   "Recommended PSU": "550 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "124.00 x 235.00mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "RTX 3060 VENTUS 2X OC"
+  }
+ },
+ "key_features": [
+  "Ampere technology: ray tracing and NVIDIA DLSS support in compatible games.",
+  "Easy to install: one 8-pin connector, a 550W PSU recommendation and a compact body.",
+  "Up to 4 monitors: three DisplayPort and one HDMI 2.1 output."
+ ],
+ "model": "RTX 3060 VENTUS 2X OC",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-3060-ventus-2x-oc-12gb-graphics-card",
+ "store": "creatus"
+}

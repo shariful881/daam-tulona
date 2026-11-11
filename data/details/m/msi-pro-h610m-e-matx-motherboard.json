@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support Intel Core 14th/ 13th/ 12th Gen Processors, Intel Pentium Gold and Celeron Processors\nLGA 1700",
+   "Chipset": "Intel H610 Chipset",
+   "Form Factor": "mATX\n200mmx236.16mm",
+   "Audio": "Realtek ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 4.0 supports up to (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to (From Chipset)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2",
+   "Supported Memory": "Memory Support DDR5 5600 MHz (by JEDEC & POR)\nSupports Intel XMP 3.0 OC\nSupports Dual-Controller Dual-Channel mode\nSupports non-ECC, un-buffered memory",
+   "Maximum Memory": "96GB"
+  },
+  "Graphics": {
+   "Graphics": "Support HDMI 1.4 with HDR, maximum resolution of 4K 30Hz\nSupport VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz\nAvailable only on processors featuring integrated graphics. Graphics specifications may vary depending on the CPU installed."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 1.4 with HDR port",
+   "VGA (s)": "1x VGA",
+   "USB (s)": "4x USB 2.0 (Rear)\n4x USB 2.0 (Front)\n2x USB 3.2 Gen1 Type A (Rear)\n2x USB 3.2 Gen1 Type A (Front)",
+   "LAN Port (s)": "Realtek RTL8111H Gigabit LAN",
+   "Supported Storage": "1x M.2\nM.2_1 Source (From Chipset) supports up to PCIe 3.0 x4 / SATA mode, supports 2280/2260/2242 devices\n4x SATA 6G\nSATA5 will be unavailable when installing M.2 SATA SSD in the M2_1 slot.",
+   "Audio": "1x Front panel audio connector",
+   "Internal I/O Ports": "1x Power Connector(ATX_PWR)\n1x Power Connector(CPU_PWR)\n1x CPU Fan\n2x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x Com Port (JCOM)\n1x RGB LED connector(JRGB)\n4x USB 2.0 ports\n2x USB 3.2 Gen1 Type A ports",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)"
+  },
+  "Others": {
+   "Special Features": "1x 4-pin RGB LED connector\n4x EZ Debug LED"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 2x DDR5, Max 96GB",
+  "Graphics Output: 1x HDMI, 1x VGA",
+  "Features: 1x M.2 slot, Realtek RTL8111H Gigabit LAN"
+ ],
+ "price": 990010800,
+ "regular": 11390,
+ "status": "In Stock",
+ "code": "33468",
+ "brand": "MSI",
+ "model": "PRO H610M-E",
+ "warranty": "3 years",
+ "name": "MSI PRO H610M-E mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (Intel)",
+  "MSI PRO H610M-E mATX Motherboard"
+ ],
+ "fetched": "2026-11-11T09:12+06:00",
+ "source": "https://www.startech.com.bd/msi-pro-h610m-e-motherboard",
+ "store": "startech"
+}

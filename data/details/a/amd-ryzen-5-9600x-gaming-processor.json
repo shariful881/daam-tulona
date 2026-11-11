@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.9GHz",
+   "Cores": "6",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "Up to 5.4GHz",
+   "Operating System": "Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit",
+   "Supported Technologies": "AMD EXPO™ Technology\nAMD Ryzen™ Technologies",
+   "Threads": "12",
+   "Chipset": "A620 , X670E , X670 , B650E , B650 , X870E , X870"
+  },
+  "Cache": {
+   "Total L1 Cache": "384KB",
+   "Total L2 Cache": "6MB",
+   "Total L3 Cache": "32MB"
+  },
+  "Graphics Specifications": {
+   "Core Count": "2",
+   "Max Dynamic Frequency": "2200 MHz",
+   "Processor Graphics": "AMD Radeon™ Graphics"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "Max Memory Speed\n2x1R DDR5-5600\n2x2R DDR5-5600\n4x1R DDR5-3600\n4x2R DDR5-3600"
+  },
+  "TYPE": {
+   "System Memory Type": "DDR5",
+   "System Memory Subtype": "UDIMM"
+  },
+  "USB": {
+   "Native USB 3.2 Gen 2 (10Gbps) Ports": "4",
+   "Native USB 2.0 (480Mbps) Ports": "1"
+  },
+  "Memory": {
+   "Maximum Memory": "192 GB"
+  },
+  "Connectors": {
+   "PCI-E": "PCIe® 5.0"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "95°C"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.9 GHz Up to 5.4 GHz",
+  "Cores: 6, Threads: 12",
+  "L2 Cache: 6MB, L3 Cache: 32MB",
+  "CPU Socket: AM5"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-9600x-gaming-processor",
+ "store": "pchouse"
+}

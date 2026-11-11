@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Dual-tower Cooler",
+   "Fan Speed": "300~1850 RPM±10%",
+   "Fan Airflow": "67.88 CFM",
+   "Noise": "≤29.4 dB(A)",
+   "Air Pressure": "2.04 mmAq",
+   "Connector": "4-pin PWM",
+   "Others": "LED Type: Addressable RGB LED\nLED Connector: 3-pin(+5V-D-G)\nLED Rated Voltage: 5 VDC\nLED Power Consumption: 1.05 W"
+  },
+  "Physical Specification": {
+   "Dimension": "Product Dimensions: 129×136×157 mm\nHeatsink Dimensions: 127×110×157 mm\nFan Dimensions: 120×120×25 mm",
+   "Weight": "1300 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 300~1850 RPM±10%",
+  "Fan Air Pressure: 2.04 mmAq",
+  "Fan Connector: 4-pin PWM"
+ ],
+ "price": 5850,
+ "regular": 6350,
+ "status": "In Stock",
+ "code": "30860",
+ "brand": "Deepcool",
+ "mpn": "R-AG620-WHANMN-G-2",
+ "model": "AG620 WH ARGB",
+ "warranty": "1 Year",
+ "name": "DeepCool AG620 WH ARGB Dual-Tower 120mm CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AG620 WH ARGB Dual-Tower 120mm CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ag620-wh-argb-dual-tower-cpu-cooler",
+ "store": "startech"
+}

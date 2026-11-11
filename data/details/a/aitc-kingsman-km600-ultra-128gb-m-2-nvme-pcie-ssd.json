@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3x4 NVMe1.4 (M-Key)",
+   "MTBF": ">1,000,000 hours",
+   "TBW": "75TB"
+  },
+  "Sequential R/W": {
+   "Read": "Max. 3300MB/s",
+   "Write": "Max. 3000MB/s"
+  },
+  "Storage": {
+   "NAND Flash": "3D TLC",
+   "Storage Capacity": "128GB"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Operating Voltage": "Operating Voltage: DC3.3V ± 5%"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "KM600 ULTRA 128GB"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3x4 NVMe1.4",
+  "Form Factor: M.2 2280",
+  "Capacity: 128GB",
+  "MTBF: >1,000,000 hours"
+ ],
+ "model": "KM600 ULTRA 128GB",
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:52+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-km600-ultra-128gb-ssd",
+ "store": "creatus"
+}

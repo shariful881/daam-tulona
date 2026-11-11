@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Product Description": {
+   "Capacity": "1500VA"
+  },
+  "Input": {
+   "Voltage Range": "140 ~ 300V ±5%",
+   "Frequency": "50Hz/60Hz (Auto-sensing)",
+   "Phase": "Single + GND"
+  },
+  "Output": {
+   "Voltage Range": "230VAC +12% -14%",
+   "Battery Mode": "230VAC +10% -10%",
+   "Frequency": "50Hz ±1% (Battery mode)",
+   "Waveform": "Simulated sine wave (Battery mode)"
+  },
+  "Sine wave (AC mode)": {
+   "Transfer Time": "2ms typical"
+  },
+  "Battery": {
+   "Type": "12V/10AH – 2pc",
+   "Backup Time": "Up to 40 mins depending on load",
+   "Recharge Time": "2 – 4 hours recover to 90% capacity"
+  },
+  "Protection / Monitoring": {
+   "Short Circuit Protection": "Yes (Line mode & battery mode)",
+   "Surge Protection": "Yes",
+   "Alarm": "Audible & visual",
+   "UPS Protection": "Load auto sensing and abnormal protection",
+   "Overload Protection": "Line mode : 110 – 120% 5 mins & shutdown"
+  },
+  ">120% shutdown immediately": {
+   "Intelligent Battery": "Prevent overcharging of battery",
+   "Management": "Protect battery and prolong battery life"
+  },
+  "Interface": {
+   "RJ45 Ports": "Modem/Fax Protection",
+   "USB Connector*": "AC fault, battery low, shutdown UPS"
+  },
+  "General": {
+   "Software": "Support Windows® 2000/ 2003/ XP/ Vista/ 2008/ 7, Linux, Unix, and Mac",
+   "Noise Level": "<40dB",
+   "Temperature": "0°C – 40°C",
+   "Humidity": "0 – 90%",
+   "Power Factor": "Up to 0.7",
+   "Built-in AVR": "TRUE Full AVR (3 steps)"
+  },
+  "Physical": {
+   "Dimension (D x W x H)": "320 x 130 x 182mm",
+   "Weight": "10.4kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://smartbd.com/product/prolink-1500va-offline-ups/",
+ "store": "smartbd"
+}

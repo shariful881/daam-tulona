@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "120 GB",
+   "Form Factor": "2.5 Inch",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III 6Gb/s",
+   "Sequential R/W": "Max. Sequential Read (MB/s): 500\nMax. Sequential Write (MB/s): 400",
+   "MTBF": "1,500,000 hours",
+   "TBW": "60"
+  },
+  "Physical Specification": {
+   "Dimension": "Length:100.0mm\nWidth: 69.85mm\nHeight: 7.0mm",
+   "Weight": "46 gm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-45°C ~ 85°C",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB",
+  "Interface: SATA III, 6.0 GB/s",
+  "Form Factor: 2.5 inch",
+  "Read: 500 MB/s, Write: 400 MB/s"
+ ],
+ "price": 3400,
+ "regular": 3800,
+ "status": "In Stock",
+ "code": "25980",
+ "brand": "Netac",
+ "mpn": "NT01SA500-128G-S3X",
+ "model": "SA500",
+ "warranty": "03-Year Warranty",
+ "name": "Netac SA500 128GB 2.5-inch SATAIII SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac SA500 128GB 2.5-inch SATAIII SSD"
+ ],
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.startech.com.bd/netac-sa500-128-gb-ssd",
+ "store": "startech"
+}

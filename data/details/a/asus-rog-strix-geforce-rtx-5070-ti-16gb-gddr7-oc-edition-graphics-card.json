@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Core Clock": {
+   "OC mode": "2625MHz",
+   "Default mode": "2602MHz (Boost Clock)"
+  },
+  "Basic Information": {
+   "Type": "GDDR7",
+   "Resolution": "7680 x 4320",
+   "Others": "AURA SYNC: ARGB"
+  },
+  "General Information": {
+   "HDCP": "HDCP 2.3",
+   "MULTI DISPLAY": "4",
+   "OpenGL": "4.6"
+  },
+  "Ports & Slots": {
+   "Display Port": "3 x Native DisplayPort 2.1b",
+   "HDMI Port": "2 x Native HDMI 2.1b"
+  },
+  "Video Memory Specifications": {
+   "Size": "16GB",
+   "BUS Type": "PCI Express 5.0",
+   "CUDA Cores": "8960",
+   "Memory Interface": "256-bit"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "850W"
+  },
+  "Physical Specification": {
+   "Dimensions": "332 x 147.3 x 64 mm\n13.07 x 5.79 x 2.519 inch\nOthers: 3.2 Slot"
+  },
+  "Warranty Information": {
+   "Warranty": "03-years Warranty"
+  },
+  "Image": {
+   "Model": "RTX 5070"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2602MHz (Boost Clock), 2625MHz (OC Mode)",
+  "Memory: 16GB GDDR7",
+  "Output: 2x HDMI 2.1b, 3x DisplayPort 2.1a"
+ ],
+ "model": "RTX 5070",
+ "warranty": "03-years Warranty",
+ "fetched": "2026-11-11T09:59+06:00",
+ "source": "https://www.creatus.com.bd/asus-rog-strix-geforce-rtx-5070-ti-graphics-card",
+ "store": "creatus"
+}

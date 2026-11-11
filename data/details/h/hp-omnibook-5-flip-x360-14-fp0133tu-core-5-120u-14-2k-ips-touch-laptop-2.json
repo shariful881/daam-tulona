@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 5 120U",
+   "Processor Frequency": "up to 5.0 GHz with Intel Turbo Boost Technology",
+   "Processor Core": "10",
+   "Processor Thread": "12",
+   "CPU Cache": "12MB L3 cache"
+  },
+  "Memory": {
+   "Bus Speed": "5200 MT/s",
+   "Ram": "16GB (Onboard)",
+   "Ram Type": "LPDDR5",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Standard Keyboard",
+   "Keyboard Features": "Full-size, darker atmospheric blue opaque keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital microphones",
+   "Speaker": "Dual speakers",
+   "Microphone": "Integrated dual array Digital Microphones",
+   "Audio Features": "HP Audio Boost"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 2 Port": "1 x USB Type-A ports, 10 Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "2 x USB Type-C, 10Gbps signaling rate (USB Power Delivery 3.1, DisplayPort 1.4a, HP Sleep and Charge) 8",
+   "Headphone & Microphone Port": "1 x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "Lan": "N/A",
+   "WiFi": "Realtek Wi-Fi 6 ( (2x2)",
+   "Bluetooth": "Bluetooth 5.4 wireless card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home Single Language"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel Integrated SoC"
+  },
+  "Display": {
+   "Display Size": "14\"",
+   "Display Type": "IPS",
+   "Display Resolution": "2K (1920 x 1200)",
+   "Display Features": "multitouch-enabled, edge-to-edge glass, micro-edge, 300 nits, 62.5% sRGB, 89% Screen-to-body ratio",
+   "Touch Screen": "Yes",
+   "Refresh Rate": "60hz"
+  },
+  "Power": {
+   "Battery Type": "4-cell, Li-ion polymer",
+   "Battery Capacity": "68 Wh",
+   "Adapter Type": "45 W USB Type-C power adapter"
+  },
+  "Physical Specification": {
+   "Color": "Sky blue",
+   "Weight": "1.62 kg",
+   "Dimensions": "31.3 x 21.99 x 1.84 cm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Limited Warranty (Terms & condition Apply As Per HP)"
+  },
+  "Image": {
+   "Model": "HP OmniBook 5 Flip x360 14-fp0133TU"
+  }
+ },
+ "key_features": [
+  "Processor: Core 5 120U (12M L3 Cache, up to 5.0 GHz)",
+  "RAM: 16GB LPDDR5 5200MT/s, Storage: 1TB PCIe Gen4 NVMe M.2 SSD",
+  "Display: 14\" 2K (1920 x 1200), IPS, Touch, 300 nits, 62.5% sRGB",
+  "Features: Privacy Shutter, Wi-Fi 6, Type-C"
+ ],
+ "model": "HP OmniBook 5 Flip x360 14-fp0133TU",
+ "warranty": "3 years Limited Warranty (Terms & condition Apply As Per HP)",
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.creatus.com.bd/hp-omnibook-5-flip-x360-14-fp0133tu",
+ "store": "creatus"
+}

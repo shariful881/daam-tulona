@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16Gb",
+   "Resolution": "Max Resolution 7680 x 4320",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "4608"
+  },
+  "Core Clock": {
+   "OC mode": "2632MHz",
+   "Default mode": "2602MHz (Boost Clock"
+  },
+  "Interface": {
+   "Display Port": "Yes x 3 (Native DisplayPort 2.1b)",
+   "HDMI": "Yes x 1 (Native HDMI 2.1b)",
+   "HDCP": "HDCP Support Yes (2.3)"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Physical Specifications": {
+   "Dimensions": "229 x 120 x 50mm"
+  },
+  "Warranty": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition",
+ "store": "pchouse"
+}

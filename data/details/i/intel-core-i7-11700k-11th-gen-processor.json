@@ -1,0 +1,102 @@
+{
+ "specs": {
+  "Essentials": {
+   "Product Collection": "11th Generation Intel® Core™ i7 Processors",
+   "Code Name": "Products formerly Rocket Lake",
+   "Vertical Segment": "Desktop",
+   "Processor Number": "i7-11700K",
+   "Launch Date": "Q1’21",
+   "Lithography": "14 nm",
+   "Use Conditions": "PC/Client/Tablet"
+  },
+  "CPU Specifications": {
+   "Total Cores": "8",
+   "Total Threads": "16",
+   "Max Turbo Frequency": "5.00 GHz",
+   "Intel® Turbo Boost Max Technology 3.0 Frequency ‡": "5.00 GHz",
+   "Intel® Turbo Boost Technology 2.0 Frequency‡": "4.90 GHz",
+   "Processor Base Frequency": "3.60 GHz",
+   "Cache": "16 MB Intel® Smart Cache",
+   "Bus Speed": "8 GT/s",
+   "TDP": "125 W",
+   "Configurable TDP-down Frequency": "3.10 GHz",
+   "Configurable TDP-down": "95 W"
+  },
+  "Supplemental Information": {
+   "Embedded Options Available": "No"
+  },
+  "Memory Specifications": {
+   "Max Memory Size (dependent on memory type)": "128 GB",
+   "Memory Types": "DDR4-3200",
+   "Max # of Memory Channels": "2",
+   "Max Memory Bandwidth": "50 GB/s",
+   "ECC Memory Supported   ‡": "No"
+  },
+  "Processor Graphics": {
+   "Processor Graphics ‡": "Intel® UHD Graphics 750",
+   "Graphics Base Frequency": "350 MHz",
+   "Graphics Max Dynamic Frequency": "1.30 GHz",
+   "Graphics Video Max Memory": "64 GB",
+   "Execution Units": "32",
+   "4K Support": "Yes |  at 60Hz",
+   "Max Resolution (HDMI)‡": "4096×2160@60Hz",
+   "Max Resolution (DP)‡": "5120 x 3200 @60Hz",
+   "Max Resolution (eDP – Integrated Flat Panel)‡": "5120 x 3200 @60Hz",
+   "DirectX* Support": "12.1",
+   "OpenGL* Support": "4.5",
+   "Intel® Quick Sync Video": "Yes",
+   "Intel® InTru™ 3D Technology": "Yes",
+   "Intel® Clear Video HD Technology": "Yes",
+   "Intel® Clear Video Technology": "Yes",
+   "# of Displays Supported ‡": "3",
+   "Device ID": "0x4C8A",
+   "OpenCL* Support": "3"
+  },
+  "Expansion Options": {
+   "Scalability": "1S Only",
+   "PCI Express Revision": "4",
+   "PCI Express Configurations ‡": "Up to 1×16+1×4 |  2×8+1×4 |  1×8+3×4",
+   "Max # of PCI Express Lanes": "20"
+  },
+  "Package Specifications": {
+   "Sockets Supported": "FCLGA1200",
+   "Max CPU Configuration": "1",
+   "Thermal Solution Specification": "PCG 2019A",
+   "TJUNCTION": "100°C",
+   "Package Size": "37.5 mm x 37.5 mm"
+  },
+  "Advanced Technologies": {
+   "Intel® Gaussian & Neural Accelerator": "2",
+   "Intel® Deep Learning Boost (Intel® DL Boost)": "Yes",
+   "Intel® Optane™ Memory Supported ‡": "Yes",
+   "Intel® Thermal Velocity Boost": "No",
+   "Intel® Turbo Boost Max Technology 3.0 ‡": "Yes",
+   "Intel® Turbo Boost Technology ‡": "2",
+   "Intel vPro® Platform Eligibility ‡": "Yes",
+   "Intel® Hyper-Threading Technology ‡": "Yes",
+   "Intel® Virtualization Technology (VT-x) ‡": "Yes",
+   "Intel® VT-x with Extended Page Tables (EPT) ‡": "Yes",
+   "Intel® 64 ‡": "Yes",
+   "Instruction Set": "64-bit",
+   "Instruction Set Extensions": "Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2 |  Intel® AVX-512",
+   "Idle States": "Yes",
+   "Enhanced Intel SpeedStep® Technology": "Yes",
+   "Thermal Monitoring Technologies": "Yes",
+   "Intel® Identity Protection Technology ‡": "Yes",
+   "Intel® Stable Image Platform Program (SIPP)": "Yes"
+  },
+  "Security & Reliability": {
+   "Intel® AES New Instructions": "Yes",
+   "Secure Key": "Yes",
+   "Intel® Software Guard Extensions (Intel® SGX)": "No",
+   "Intel® OS Guard": "Yes",
+   "Intel® Trusted Execution Technology ‡": "Yes",
+   "Execute Disable Bit ‡": "Yes",
+   "Intel® Boot Guard": "Yes"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T09:48+06:00",
+ "source": "https://smartbd.com/product/intel-core-i7-11700k-11th-gen-processor/",
+ "store": "smartbd"
+}

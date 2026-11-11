@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Size": "120x60x125mm",
+   "Noise": "22.6 dBA (+10%)",
+   "MTBF": "30,000 hours",
+   "Bearing Type": "Hydraulic",
+   "Speed": "2000 RPM (+10%)",
+   "Current": "0.23A",
+   "Voltage": "DC 12V"
+  },
+  "Cooling System": {
+   "Fan Airflow": "43.67 CFM"
+  },
+  "Physical Specification": {
+   "Weight": "248g"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "ACL-B003"
+  }
+ },
+ "key_features": [
+  "Bearing : Hydraulic",
+  "Rated Voltage : DC 12V",
+  "Rated Current : 0.23A",
+  "Air Flow : 43.67 CFM"
+ ],
+ "model": "ACL-B003",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:52+06:00",
+ "source": "https://www.creatus.com.bd/aitc-kingsman-acl-b003-cpu-cooler",
+ "store": "creatus"
+}

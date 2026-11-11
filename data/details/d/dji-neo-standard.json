@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Aircraft": {
+   "Weight (Battery & Propellers Included)": "Approx. 135 g",
+   "Diagonal Size (Propellers Excluded)": "130×157×48.5 mm (L×W×H)",
+   "Max Ascent Speed": "0.5 m/s (Cine mode)\n2 m/s (Normal mode)\n3 m/s (Sport mode)",
+   "Max Descent Speed": "0.5 m/s (Cine mode)\n2 m/s (Normal mode)\n2 m/s (Sport mode)",
+   "Max Flight Time": "Approx. 18 mins (approx. 17 mins with the Propeller Guards)*\nEach battery allows the drone to perform at least 20 palm takeoff and landing for shoots in succession",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Satellite Positioning Systems": "GPS + Galileo + BeiDou",
+   "Hover Accuracy Range": "Vertical:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)\nHorizontal:\n±0.3 m (with vision positioning)\n±1.5 m (with GNSS positioning)\nOthers\nInternal Storage: 22 GB\nClass: C0 (EU)"
+  },
+  "Gimbal": {
+   "Stabilization": "Single-axis mechanical gimbal (tilt)",
+   "Controllable Range": "Tilt: -90° to 60°",
+   "Max Controllable Angular Speed": "100°/s",
+   "Angular Vibration Range": "±0.01°"
+  },
+  "Vision System": {
+   "Operating Environment": "Surface with Clear Patterns at >15 lux"
+  },
+  "Camera": {
+   "Photo": "JPEG/DNG (RAW)",
+   "Sensor": "1/2-inch image sensor",
+   "ISO Range": "100-6400 (Auto)\n100-6400 (Manual)",
+   "Image Size": "12 MP Photo\n4000×3000 (4∶3)\n4000×2256 (16∶9)",
+   "Still Photography Modes": "Single/Timed Shot"
+  },
+  "Lens": {
+   "FOV": "117.6°",
+   "Format Equivalent": "14 mm",
+   "Aperture": "f/2.8",
+   "Focus": "0.6 m to ∞"
+  },
+  "Electronic Shutter Speed": {
+   "Video": "1/8000-1/30 s",
+   "Photo": "1/8000-1/10 s"
+  },
+  "Intelligent Flight Battery": {
+   "Capacity": "2600 mAh",
+   "Voltage": "5 V, 2 A",
+   "Battery Type": "Li-ion",
+   "Net Weight": "82.5 g",
+   "Charging Temperature Range": "5° to 40° C (41° to 104° F)"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "1 Year DJI Warranty (Warranty will be void if the product has been physically damaged). Estimated Warranty Claim Duration 60 Days, It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Ultra-Light 135g Design: Compact, foldable, and light enough to bypass standard registration rules in most areas.",
+  "Palm Takeoff & Landing: Launch and land smoothly from the palm of your hand without relying on flat ground.",
+  "RockSteady & HorizonBalancing EIS: Corrects horizon tilt up to ±45° and absorbs flight vibrations for smooth footage.",
+  "Intelligent AI Framing: Select QuickShots (Dronie, Circle, Rocket, Spotlight, Follow) for automated cinematic shots.",
+  "Full Propeller Guard Protection: Encloses blades completely to protect surrounding objects, people, and the drone itself."
+ ],
+ "warranty": "1 Year DJI Warranty (Warranty will be void if the product has been physically da",
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://fourstarit.com.bd/p/dji-neo-standard-4k-camera-drone",
+ "store": "fourstar"
+}

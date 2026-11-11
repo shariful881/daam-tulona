@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket sTR5 for Ryzen Threadripper PRO 9000 & 7000 WX-Series*",
+   "Chipset": "AMD WRX90 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS(text-based)",
+   "Form Factor": "EEB",
+   "Audio": "Realtek ALC1220P Surround Sound High Definition Audio CODEC*"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ Threadripper™ PRO 9000 & 7000 WX-Series Processors*\n6 x PCIe 5.0 x16 slots\n1 x PCIe 5.0 x16 slot (x8 mode)",
+   "M.2 Socket": "4 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "8 x DIMM",
+   "Supported Memory": "Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet (Dedicated management LAN for AST2600)\n1 x Intel® dual 10Gb Ethernet",
+   "RAID": "AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1/5/10.",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Threadripper PRO 9000 & 7000 WX-Series (sTR5)",
+  "Supported RAM: 8x DIMM, DDR5, 8 Channel Memory Architecture",
+  "Storage: 4 x M.2, 2 x SlimSAS, 4 x SATA 6Gb/s"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-pro-ws-wrx90e-sage-se-eeb-motherboard",
+ "store": "pchouse"
+}

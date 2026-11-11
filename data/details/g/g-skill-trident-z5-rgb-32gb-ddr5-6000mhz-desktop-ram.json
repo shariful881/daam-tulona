@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "32GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "Tested Voltage: 1.40V\nSPD Voltage: 1.10V",
+   "Latency": "32-38-38-96"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR5, Tested Speed: 6000MHz",
+  "Tested Latency: 32-38-38-96",
+  "Tested Voltage: 1.40V",
+  "Unbuffered, Non-ECC"
+ ],
+ "price": 72000,
+ "regular": 79200,
+ "status": "In Stock",
+ "code": "27418",
+ "brand": "G.SKILL",
+ "mpn": "F5-6000J3238G32GX2-TZ5RK",
+ "model": "Trident Z5 RGB",
+ "warranty": "Lifetime Warranty",
+ "name": "G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "G.Skill",
+  "G.Skill Trident Z5 RGB 32GB DDR5 6000MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.startech.com.bd/g-skill-trident-z5-rgb-32gb-ddr5-6000mhz-ram",
+ "store": "startech"
+}

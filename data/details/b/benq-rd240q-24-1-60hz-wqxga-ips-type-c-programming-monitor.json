@@ -1,0 +1,82 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "24.1 inch",
+   "Display Type": "LED backlight",
+   "Panel Type": "IPS",
+   "Resolution": "WQXGA  (2560x1600)",
+   "Pixels Per Inch (PPI)": "125ppi",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:10",
+   "Viewing Angle": "178°/178°",
+   "Brightness": "Brightness (typ.): 300 nits",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "60 Hz",
+   "Color Support": "1.07 billion",
+   "Color Gamut": "95% P3",
+   "Response Time": "5ms (GTG)",
+   "HDR": "HDR10",
+   "Curvature": "Flat",
+   "Others Features": "Gamma: 1.8 - 2.6\nBrightness Intelligence Gen2 (B.I. Gen2): Yes\nColor Weakness: Yes\nePaper: Yes\nEye Reminder: Yes\nNight Hours Protection: Yes\nCertification:\nEye Comfort 2.0\nEyeSafe 2.0\nFlicker-free\nLow Blue light (Hardware Solution)\nLow Blue light (Software Solution)"
+  },
+  "Video Features": {
+   "Color Temperature Selection": "Bluish, Normal, Reddish, User Define",
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "2.2"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes",
+   "Speaker Details": "2Wx2"
+  },
+  "Connectivity": {
+   "Display Port": "1x DisplayPort1.4",
+   "HDMI": "1xHDMI2.0",
+   "USB Port(s)": "3xUSB 3.2 Gen 1, 5 Gbps, power charging 4.5W",
+   "USB Type-C": "1xUSB Type-C",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5˚ - 20˚",
+   "Swivel": "15˚/ 15˚",
+   "Pivot": "90˚",
+   "Height Adjustment": "110 mm",
+   "Vesa Wall Mount": "100x100 mm"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "Dimensions (HxWxD) (mm)\n412.1 - 522.1x533.6x228.6\nDimensions (HxWxD) (inch)\n16.2 - 20.6x21.0x9.0\nDimensions (HxWxD) (Landscape) (mm)\n522.1x533.6x228.6\nDimensions (HxWxD) (Landscape) (inch)\n20.6x21.0x9.0\nDimensions (HxWxD) (Pivot) (mm)\n620.8x355.6x228.6\nDimensions (HxWxD) (Pivot) (inch)\n24.4x14.0x9.0\nDimensions (HxWxD) (w/o Base) (mm)\n355.6x533.6x71.3\nDimensions (HxWxD) (w/o Base) (inch)\n14.0x21.0x2.8",
+   "Weight": "Net Weight (kg)\n7.6\nNet Weight (lb)\n16.8\nNet Weight (w/o Base) (kg)\n5.0\nNet Weight (w/o Base) (lb)\n11.0"
+  },
+  "Power": {
+   "Power Consumption": "Power Consumption (normal): 20 W\nPower Consumption (max): 178W\nPower Consumption (sleep mode): <0.5 W",
+   "Voltage": "100 - 240V",
+   "Others": "Power Supply: Built-in"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty (No Warranty For Internal Dust)"
+  }
+ },
+ "key_features": [
+  "Resolution: WQXGA (2560x1600)",
+  "Display: 24.1 inch,  IPS, 60Hz, 5ms (GTG)",
+  "Ports: 1xHDMI2.0, 1x DisplayPort1.4, 1xUSB Type-C, 3xUSB 3.2",
+  "Features: 2Wx2 In-built Speaker, Flicker-free, Low Blue Light"
+ ],
+ "price": 5399955500,
+ "regular": 61050,
+ "status": "In Stock",
+ "code": "39276",
+ "brand": "BenQ",
+ "model": "RD240Q",
+ "warranty": "3 Year Warranty (No Warranty For Internal Dust)",
+ "name": "BenQ RD240Q 24.1\" 60Hz WQXGA IPS Type-C Programming Monitor",
+ "breadcrumb": [
+  "Monitor",
+  "BenQ",
+  "BenQ RD240Q 24.1\" 60Hz WQXGA IPS Type-C Programming Monitor"
+ ],
+ "fetched": "2026-11-11T09:23+06:00",
+ "source": "https://www.startech.com.bd/benq-rd240q-wqxga-type-c-programming-monitor",
+ "store": "startech"
+}

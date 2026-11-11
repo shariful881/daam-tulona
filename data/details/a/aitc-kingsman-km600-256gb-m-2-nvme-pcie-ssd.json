@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "256GB",
+   "Sequential Read": "2500MB/s (Maximum)",
+   "Sequential Write": "1800MB/s (Maximum)"
+  },
+  "Physical Specifications": {
+   "Dimension": "22x80x3.5mm"
+  },
+  "Temperature": {
+   "Operating Voltage": "DC3.3V ± 5%",
+   "Temperature": "0°C - 70°C"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB M.2 NVMe PCIe",
+  "Sequential Read: 2500MB/s (Max.)",
+  "Sequential Write: 1800MB/s (Max.)",
+  "Operating Voltage: DC3.3V ± 5%"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/kingsman-256gb-m2-nvme-pcie-ssd",
+ "store": "pchouse"
+}

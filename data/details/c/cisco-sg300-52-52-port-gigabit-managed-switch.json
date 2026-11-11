@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Image": {
+   "Model": "Model-2197"
+  }
+ },
+ "key_features": [
+  "Operating Temperature: 32 F",
+  "MTBF: 206,000 hour(s)",
+  "Voltage Required: AC 120/230 V ( 50/60 Hz )",
+  "Depth: 10.1 inches",
+  "Maxiumum Storage Temperature: 158 F",
+  "Device Type: Switch - 52 ports - L3 - managed",
+  "Maximum Operating Temperature: 104 F",
+  "Power Over Ethernet (PoE): n/a",
+  "Weight: 8.6 lbs",
+  "Humidity Operating Range: 10-90% (non-condensing)",
+  "Rack-Mount 23 in. (58.4 cm) EIA: Included",
+  "Routing Protocol: Static IPv4 routing"
+ ],
+ "model": "Model-2197",
+ "fetched": "2026-11-11T09:47+06:00",
+ "source": "https://www.creatus.com.bd/cisco-sg300-52-52-port-gigabit-managed-switch",
+ "store": "creatus"
+}

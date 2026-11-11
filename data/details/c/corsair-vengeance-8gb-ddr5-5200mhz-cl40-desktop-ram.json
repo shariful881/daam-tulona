@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "5200MHz",
+   "Operating voltage": "SPD Voltage: 1.1V\nTested Voltage: 1.25V",
+   "Latency": "40-40-40-77"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Anodized Aluminum Black",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Size: 8GB",
+  "Memory Speed: 5200MHz",
+  "Latency: 40-40-40-77",
+  "Compatible with Intel 600, 700 Series CPU's"
+ ],
+ "price": 17700,
+ "regular": 19320,
+ "status": "In Stock",
+ "code": "51257",
+ "brand": "Corsair",
+ "mpn": "CMK8GX5M1B5200C40",
+ "model": "VENGEANCE DDR5",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE 8GB DDR5 5200MHz CL40 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE 8GB DDR5 5200MHz CL40 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-8gb-ddr5-5200mhz-cl40-ram",
+ "store": "startech"
+}

@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "Portable",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type-C",
+   "Sequential R/W": "Up to 1050/950 MB/s",
+   "Others": "256-bit Advanced Encryption Standards (AES)\nOperating systems, including Windows, macOS, iOS, iPadOS, and Android\nRestore, data encryption, cloud backup, and disk locking functions"
+  },
+  "Physical Specification": {
+   "Dimension": "64.1 mm x 19.7 mm x 9.5 mm (2.52\" x 0.78\" x 0.37\")",
+   "Weight": "23 g (0.81 oz)",
+   "Color": "Dark Grayish Brown"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Flash Type: 3D NAND flash",
+  "Read Speed (Max.): 1050MB/s",
+  "Write Speed (Max.): 950 MB/s",
+  "Interface: USB Type-C"
+ ],
+ "price": 27000,
+ "regular": 29300,
+ "status": "In Stock",
+ "code": "39943",
+ "brand": "Transcend",
+ "mpn": "TS1TESD330C",
+ "model": "ESD330C",
+ "warranty": "5 Years",
+ "name": "Transcend ESD330C 1TB Type-C Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD330C 1TB Type-C Portable SSD"
+ ],
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd330c-1tb-type-c-portable-ssd",
+ "store": "startech"
+}

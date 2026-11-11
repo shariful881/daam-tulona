@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.50 GHz",
+   "Maximum Turbo Frequency": "4.60 GHz",
+   "Cache": "20 MB",
+   "Cores": "10",
+   "Threads": "16",
+   "Default TDP": "65W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 730",
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.55 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4096 x 2160 @ 60Hz\nMax Resolution (DP): 7680 x 4320 @ 60Hz\nMax Resolution (eDP - Integrated Flat Panel): 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2.50 GHz up to 4.60 GHz",
+  "Cache: 20 MB, Socket: LGA1700",
+  "CPU Cores: 10, CPU Threads: 16",
+  "Graphics: Intel UHD Graphics 730"
+ ],
+ "price": 1900023500,
+ "regular": 20620,
+ "status": "In Stock",
+ "code": "26209",
+ "brand": "INTEL",
+ "model": "Core i5 13400 (Tray Box)",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "name": "Intel 13th Gen Core i5 13400 Raptor Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 13th Gen Core i5 13400 Raptor Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.startech.com.bd/intel-13th-gen-core-i5-13400-processor",
+ "store": "startech"
+}

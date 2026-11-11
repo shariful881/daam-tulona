@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Technology": {
+   "Scanner type": "Flatbed Scanner",
+   "Light Source": "ReadyScan LED technology"
+  },
+  "Connectivity": {
+   "Network Interface Panel / Unit": "Optional",
+   "Ethernet settings": "10BASE-T / 100BASE-TX / 1000BASE-T / Full-duplex / Half-duplex",
+   "Protocol support": "TCP/IP, DHCP, DNS, SNMP, SLP",
+   "Push scan features": "Yes (with Document Capture Suite)",
+   "Panel Lock with password": "Yes (with Document Capture Suite)"
+  },
+  "Basic Information": {
+   "Interface": "USB 2.0 Type B, Wired Network (optional)",
+   "Resolution": "600 DPI x 600 DPI (Horizontal x Vertical)",
+   "VOLTAGE": "AC 100 V - 240 V, 50 Hz - 60 Hz"
+  },
+  "Speed": {
+   "Monochrome": "4 s/page - Color: 4 s/page measured with size: A3 , resolution: 200 / 300 dpi, Monochrome: 0.4 ms/row -",
+   "Color": "0.4 ms/row measured with size: A3 , resolution: 200 / 300 dpi"
+  },
+  "Physical Specification": {
+   "Size": "A3, A4, A5, A6, B5, Letter, Legal, Executive",
+   "Weight": "14.8 kg",
+   "Dimensions": "640‎ x 468 x 156 mm (Width x Depth x Height)",
+   "Colors": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "DS-50000"
+  }
+ },
+ "key_features": [
+  "Versatile Scanning: Perfect for oversized and delicate documents.",
+  "High Precision: Ensures accurate color and text reproduction.",
+  "Flatbed Design: Handles items sheet-fed scanners cannot process.",
+  "Professional Use: Trusted by corporates, libraries, and institutions.",
+  "Reliable Build: Designed for long-term heavy-duty use."
+ ],
+ "model": "DS-50000",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:41+06:00",
+ "source": "https://www.creatus.com.bd/epson-workforce-ds-50000-scanner",
+ "store": "creatus"
+}

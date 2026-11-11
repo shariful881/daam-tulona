@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air cooler",
+   "Fan Speed": "500~1850 RPM±10%",
+   "Fan Airflow": "68.99 CFM",
+   "Noise": "≤28 dB(A)",
+   "Air Pressure": "2.19 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Physical Specification": {
+   "Dimension": "Product: 127×117×160 mm(L×W×H)\nHeatsink: 127×92×156 mm(L×W×H)\nHeatpipe: Ø6 mm×5 pcs\nFan: 120×120×25 mm(L×W×H)",
+   "Weight": "1291 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 year"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~1850 RPM±10%",
+  "Five advanced heat pipes",
+  "120mm FDB fan",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 6100,
+ "regular": 6490,
+ "status": "In Stock",
+ "code": "32682",
+ "brand": "Deepcool",
+ "model": "AK500 Digital",
+ "warranty": "03 year",
+ "name": "DeepCool AK500 Digital CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AK500 Digital CPU Cooler"
+ ],
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ak500-digital-cpu-cooler",
+ "store": "startech"
+}

@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Printer": {
+   "Function Type": "Print Only",
+   "Input Capacity": "50Sheet",
+   "Output Capacity": "30Sheet",
+   "Paper Size": "A4, A5, A6, B5, C6 (Envelope), DL (Envelope), No. 10 (Envelope),\nLetter, 9 x 13 cm, 10 x 15 cm, 13 x 18 cm, 16:9, User defined, Legal (8.5 x 14.0 Inch)",
+   "Print Resolution": "5760 x 1440dpi",
+   "Duplex Printing": "Manual",
+   "Paper Type": "Plain Paper, Envelopes,",
+   "Print Speed": "(Black)27ppm",
+   "Printer type": "Single Function Color INK Printer",
+   "software support": "Windows 7, 8, 8.1, Vista, XP, Mac OS X 10.6.8 or later",
+   "Duty Cycle up to (Yield)": "15000 Pages"
+  },
+  "Toner/ Cartridge/ Refill": {
+   "Dye Based, Black": "T6641(4,000 pages), Cyan : T6642(6,500 pages),",
+   "Magenta": "T6643(6,500 pages), Yellow : T6644(6,500 pages)"
+  },
+  "Features": {
+   "Technology": "Inkjet"
+  },
+  "Connectivity": {
+   "Connectivity": "USB"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "482 x 222 x 130mm",
+   "Color": "Black",
+   "Weight": "2.70Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:31+06:00",
+ "source": "https://www.pchouse.com.bd/epson-ecotank-l130-single-function-inktank-printer",
+ "store": "pchouse"
+}

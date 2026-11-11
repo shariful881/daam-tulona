@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "80Plus Platinum",
+   "Certification": "Lambda A++ Certification",
+   "Fan Size": "135mm Axial-tech fan with PWM control"
+  },
+  "Input": {
+   "Voltage": "100 - 240V",
+   "Frequency Range": "50Hz-60Hz",
+   "Current": "54-0.3A"
+  },
+  "Output": {
+   "Modular Type": "Fully modular",
+   "Total Power": "1200",
+   "Peak Power": "25A 25A 100A 0.3A 3A",
+   "AC Input": "100-240Vac",
+   "DC Output": "+3.3V +5V +12V -12V +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "MB 24/20-pin x 1",
+   "CPU": "CPU 4+4-pin x 2",
+   "PCI-E": "PCI-E 16-pin x 1\nPCI-E 6+2-pin x 8",
+   "SATA": "SATA x 12",
+   "Molex": "PERIPHERAL x 6"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "80 Plus Platinum certification for energy efficiency",
+  "Built with 100% Japanese capacitors",
+  "OLED Power Display",
+  "IP5X dust-resistance"
+ ],
+ "price": 62500,
+ "regular": 68700,
+ "status": "In Stock",
+ "code": "28210",
+ "brand": "Asus",
+ "model": "THOR 1200P2",
+ "warranty": "10 Years",
+ "name": "ASUS ROG THOR 1200P2 GAMING 80 Plus Platinum 1200W Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Asus",
+  "ASUS ROG THOR 1200P2 GAMING 80 Plus Platinum 1200W Power Supply"
+ ],
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-thor-1200-p2-gaming-80-plus-platinum-1200w-power-supply",
+ "store": "startech"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "512GB",
+   "Flash Type": "3D NAND",
+   "MTBF": "1,500,000 hours",
+   "Interface Type": "SATA III 6Gb/s",
+   "Form Factor": "2.5 Inch",
+   "TBW": "240"
+  },
+  "Sequential R/W": {
+   "Max. Sequential Read (MB/s)": "520",
+   "Max. Sequential Write (MB/s)": "450"
+  },
+  "Dimension": {
+   "Length": "100.0mm",
+   "Width": "69.85mm",
+   "Height": "7.0mm"
+  },
+  "Physical Specifications": {
+   "Weight": "46 gm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-45°C ~ 85°C",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty Information": {
+   "Warranty": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: SATA III, 6.0 GB/s",
+  "Form Factor: 2.5 inch",
+  "Read: 520 MB/s, Write: 450 MB/s"
+ ],
+ "warranty": "03-Year Warranty",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.pchouse.com.bd/netac-sa500-512-gb-ssd",
+ "store": "pchouse"
+}

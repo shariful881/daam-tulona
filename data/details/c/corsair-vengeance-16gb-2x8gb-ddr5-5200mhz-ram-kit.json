@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR5"
+  },
+  "Key Feature": {
+   "Frequency": "5200MHz"
+  },
+  "Key Features": {
+   "Capacity": "16GB (2x8GB)",
+   "Latency": "40-40-40-77"
+  },
+  "Features": {
+   "Others": "Intel XMP 3.0"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Anodized Aluminum Black"
+  },
+  "Physical Specifications": {
+   "PIN": "288"
+  },
+  "Operating Voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.25V"
+  },
+  "Warranty Information": {
+   "Warranty": "Life Time"
+  }
+ },
+ "key_features": [
+  "Capacity:16GB (2x8GB) Dual-Channel Kit",
+  "Memory Type: DDR5 UDIMM",
+  "Speed: 5200 MT/s (PC5-41600)",
+  "Performance Profiles: AMD EXPO & Intel XMP 3.0"
+ ],
+ "warranty": "Life Time",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-vengeance-16gb-ddr5-5200mhz-ram-kit",
+ "store": "pchouse"
+}

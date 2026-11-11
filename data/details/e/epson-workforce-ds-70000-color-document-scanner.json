@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Specification": {
+   "ADF Capacity": "200 Sheets",
+   "Duplex Scan": "Automatic",
+   "Duty Cycle (Daily)": "8,000 Pages",
+   "Max Scan Paper Size (ADF)": "11.7 × 100 Inch",
+   "Max Scan Size": "Legal",
+   "Model": "Epson WorkForce DS-70000",
+   "Paper Weight": "35–128 g/m², Less Than 4 × 6 Inch: 60–190 g/m²",
+   "Scan Drivers Included": "TWAIN & ISIS Drivers",
+   "Scanning Speed (B & W)": "200 dpi: Up to 70 ppm / 140 ipm (ADF), 300 dpi: Up to 50 ppm / 100 ipm (ADF), 600 dpi: Up to 25 ppm / 50 ipm (ADF)",
+   "Scanning Speed (Color)": "200 dpi: Up to 70 ppm / 140 ipm (ADF), 300 dpi: Up to 50 ppm / 100 ipm (ADF), 600 dpi: Up to 12 ppm / 24 ipm (ADF)"
+  },
+  "Physical Attribute": {
+   "Weight": "26.85 kg"
+  },
+  "Physical Specification": {
+   "Dimensions": "640.08 × 287.02 × 469.9 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year (Without Adapter, Box Mandatory While Claiming)"
+  },
+  "Image": {
+   "Model": "WorkForce DS-70000"
+  }
+ },
+ "key_features": [
+  "Scan Speed: Up to 70 ppm/140 ipm",
+  "Maximum Resolution: 600 dpi",
+  "Daily Duty Cycle: 8000 Pages"
+ ],
+ "model": "Epson WorkForce DS-70000",
+ "warranty": "1 Year (Without Adapter, Box Mandatory While Claiming)",
+ "fetched": "2026-11-11T09:41+06:00",
+ "source": "https://www.creatus.com.bd/epson-workforce-ds-70000-document-scanner",
+ "store": "creatus"
+}

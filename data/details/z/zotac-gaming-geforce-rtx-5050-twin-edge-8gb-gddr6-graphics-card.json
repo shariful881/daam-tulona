@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "GDDR6"
+  },
+  "Main Features": {
+   "Size": "8GB",
+   "Resolution": "up to 4K 480Hz or 8K 165Hz with DSC"
+  },
+  "Video Memory Specifications": {
+   "Core Clock": "2572 MHz",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "2560",
+   "Memory Interface": "PCI Express 5.0 x8"
+  },
+  "Warranty Informaion": {
+   "Warranty": "5 years warranty. (3-year standard warranty + 2-years will be extended after online registration by the customer within 28 days of Purchase)."
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin power input",
+   "Recommended PSU": "550W",
+   "Power Consumption": "130W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimat",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimension": "220.5mm x 120.25mm x 41.6mm / 8.7\" x 4.7\" x 1.6\"",
+   "Others": "Powered by the NVIDIA Blackwell architecture and DLSS 4\n8-Pin PCIe power connector\nSFF-Ready Graphics Card\nCompact dual-fan form factor\nBladeLink Fans\nMetal Backplate\nSlot Size: 2\nSupported OS: Windows 11 / Windows 10 64-bit (v1809 November 2018 or later)"
+  },
+  "Image": {
+   "Model": "GAMING GeForce RTX 5050 Twin Edge"
+  }
+ },
+ "key_features": [
+  "GPU Architecture: NVIDIA Blackwell architecture and DLSS 4",
+  "Memory: 8GB GDDR6, 128-bit, high-speed performance",
+  "Cooling System: IceStorm 2.0 dual-fan with wide heatsink",
+  "Design: Compact Twin Edge form factor for SFF builds"
+ ],
+ "model": "GAMING GeForce RTX 5050 Twin Edge",
+ "warranty": "5 years warranty. (3-year standard warranty + 2-years will be extended after onl",
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.creatus.com.bd/zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-graphics-card",
+ "store": "creatus"
+}

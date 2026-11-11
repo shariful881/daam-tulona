@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7‎680 x 4320",
+   "Core Clock": "Extreme Performance: 2617 MHz (MSI Center)\nBoost: 2602 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128 bit",
+   "Memory Interface": "PCI Express Gen 5 x16 (uses x8)",
+   "CUDA Cores": "4608"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort x 3 (v2.1b)",
+   "HDMI": "HDMI x 1 (As specified in HDMI 2.1b: up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR)",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "8-pin x1",
+   "Recommended PSU": "600 W",
+   "Consumption": "180 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "227 x 126 x 41 mm",
+   "Others": "600 g / 862 g (Card / Package)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express Gen 5 x16",
+  "Core Clocks: Extreme: 2617 MHz, Boost: 2602 MHz",
+  "CUDA Cores: 4608 Units, Memory Speed: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "price": 7290074900,
+ "regular": 80000,
+ "status": "In Stock",
+ "code": "48097",
+ "brand": "MSI",
+ "mpn": "G506T8V2CWP",
+ "model": "GeForce RTX 5060 Ti 8G VENTUS 2X OC WHITE PLUS",
+ "warranty": "3 years Warranty",
+ "name": "MSI GeForce RTX 5060 Ti 8G VENTUS 2X OC WHITE PLUS 8GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "MSI",
+  "MSI GeForce RTX 5060 Ti 8G VENTUS 2X OC WHITE PLUS 8GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:12+06:00",
+ "source": "https://www.startech.com.bd/msi-geforce-rtx-5060-ti-8g-ventus-2x-oc-white-plus-gpu",
+ "store": "startech"
+}

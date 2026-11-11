@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5 GHz",
+   "Cache": "20 MB Intel Smart Cache",
+   "Cores": "10",
+   "Default TDP": "148 W",
+   "Maximum Turbo Frequency": "4.7 GHz",
+   "Threads": "16"
+  },
+  "Graphics Specifications": {
+   "Max Dynamic Frequency": "1.55 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4096 x 2160 @ 60Hz",
+   "Processor Graphics": "Intel UHD Graphics 730"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "TYPE": "Up to DDR5 4800 MT/s"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.5 GHz up to 4.7 GHz",
+  "Cache: 20 MB, Socket: LGA1700",
+  "CPU Cores: 10, CPU Threads: 16",
+  "Graphics: Intel UHD Graphics 730"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-i5-14400-14th-gen-raptor-lake-processor",
+ "store": "pchouse"
+}

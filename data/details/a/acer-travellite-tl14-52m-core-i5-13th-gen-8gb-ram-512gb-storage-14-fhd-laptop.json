@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "BASIC Information": {
+   "OS": "Free DOS"
+  },
+  "Basic Information": {
+   "Display": "Display Size: 14 Inch",
+   "Graphics": "Graphics Model: Intel UHD Graphics",
+   "Memory": "RAM: 8GB",
+   "Processor": "Processor Brand: Intel",
+   "Storage": "Storage Type: PCIe Gen4 M.2 NVMe"
+  },
+  "Key Features": {
+   "Network Standard": "LAN: 1x Gigabit Lan"
+  },
+  "Laptop and Tablet": {
+   "Ports & Slots": "Card Reader: SD Card",
+   "Camera & Audio": "WebCam: HD 720p",
+   "Security": "Fingerprint Sensor: Yes"
+  },
+  "Input Devices": {
+   "Keyboard": "Keyboard Type: Backlit Keyboard"
+  },
+  "Connectivity": {
+   "Power": "Battery Type: 4 Cell Li-Ion"
+  },
+  "Physical Specifications": {
+   "Physical Specs": "Dimensions:"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty (01-year Battery & Adapter)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-1335U (12 MB Cache, 3.40 GHz up to 4.60 GHz)",
+  "RAM: 8GB 3200MHz, Storage: 512GB Gen4 SSD",
+  "Display: 14\" IPS FHD ((1920 x 1080))",
+  "Features: Fingerprint, Backlit Keyboard, Type-C"
+ ],
+ "warranty": "3 Year Warranty (01-year Battery & Adapter)",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.pchouse.com.bd/acer-travellite-tl14-52m-laptop",
+ "store": "pchouse"
+}

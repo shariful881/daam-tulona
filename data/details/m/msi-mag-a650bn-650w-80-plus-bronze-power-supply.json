@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "650W",
+   "Efficiency (Approx.)": "85%",
+   "Certification": "80 Plus Bronze",
+   "Fan Size": "120mm",
+   "Others": "PFC TYPE Active PFC\nPROTECTION OCP / OVP / OPP / OTP / SCP"
+  },
+  "Input": {
+   "Voltage": "100-240Vac",
+   "Frequency Range": "50Hz ~ 60Hz",
+   "Current": "115Vac/8.0A max. 230Vac/4.0A max."
+  },
+  "Output": {
+   "Modular Type": "Non-modular",
+   "Total Power": "650W",
+   "Peak Power": "650W",
+   "AC Input": "INPUT VOLTAGE 100-240Vac\nINPUT CURRENT 115Vac/8.0A max. 230Vac/4.0A max.\nINPUT FREQUENCY 50Hz ~ 60Hz\nEFFICIENCY Up to 85% (80 Plus Bronze)"
+  },
+  "Connector": {
+   "Main Power": "650W"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "120mm Low Noise Fan",
+  "Active PFC design",
+  "80 Plus Bronze Certified",
+  "OCP, OVP, OPP, OTP, SCP protection"
+ ],
+ "price": 6599,
+ "regular": 6840,
+ "status": "In Stock",
+ "code": "19190",
+ "brand": "MSI",
+ "model": "A650BN",
+ "warranty": "05 Years",
+ "name": "MSI MAG A650BN 650W 80 Plus Bronze Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "MSI",
+  "MSI MAG A650BN 650W 80 Plus Bronze Power Supply"
+ ],
+ "fetched": "2026-11-11T09:12+06:00",
+ "source": "https://www.startech.com.bd/msi-mag-a650bn-80-plus-bronze-power-supply",
+ "store": "startech"
+}

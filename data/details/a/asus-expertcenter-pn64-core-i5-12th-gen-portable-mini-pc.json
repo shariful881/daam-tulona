@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i5-12500H: P-core: 4C, up to 4.50 GHz / E-core: 8C, up to 3.30GHz (35W)",
+   "RAM": "2 x DDR5 4800MHz - 7200HZ (Supported)",
+   "Graphics Card": "Intel Iris Xe Graphics",
+   "Storage": "1 x 6Gb/s SATA connector for 2.5” 1TB HDD/SSD* (Supported)\n1 x M.2 2280 PCIe Gen3 slot for 256GB - 1TB SSD* NVMe only (Supported)",
+   "Power Supply": "19.5Vdc/19Vdc, 3.33A/3.42A 65W Power Adapter",
+   "Network & Wireless Connectivity": "2.5G LAN\nSupports Wake on LAN / PXE / Auto Power on / RTC Wake\n2x2 Intel Wi-Fi 6(802.11ax) module",
+   "Operating System": "Supports Windows11 64bit, Windows11 Pro 64bit, Linux"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Graphics Output:\n1 x Displayport(TYPE-C); 2 x HDMI 2.0;\n1 x Displayport++ (default configurable port)\nUSB :\nUSB 3.2(G2)*3 ports\nUSB 3.2(G2) TypeC*1\nUSB 3.2(G2) TypeC*1(DP output+PD power input@rear)"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "120 x 130 x58 mm (0.9L)",
+   "Weight": "0.75 kg"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-12500H Processor, 35W TDP",
+  "RAM: 2 x DDR5 4800MHz - 7200HZ (Supported)",
+  "Storage: 1 x 6Gb/s SATA, 1 x M.2 2280 PCIe Gen3 Slot",
+  "Graphics: Integrated, Intel Iris Xe Graphic"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-expertcenter-pn64-core-i5-12500h-mini-pc",
+ "store": "fourstar"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD X870E",
+   "BIOS": "2 x 256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "E-ATX"
+  },
+  "Expansion Slots": {
+   "M.2 Socket": "Supports up to 5 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMITM port**\n2 x USB4 (40Gbps) ports support USB Type-C display outputs***"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI 2.1",
+   "USB (s)": "2 x USB4 (40Gbps) ports support USB Type-C® display outputs*",
+   "LAN Port (s)": "1 x Realtek 5Gb Ethernet\n1 x Marvell AQtion 10Gb Ethernet\nASUS LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology*\nRyzen 9000 Series Processors: RAID 0/1/5/10\nRyzen 8000 Series Processors: RAID 0/1\nRyzen 7000 Series Processors: RAID 0/1/10\n* Specifications vary by CPU types.",
+   "Audio": "2 x LED-illuminated audio jacks",
+   "Wireless Communication module": "Wi-Fi 7*\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 320MHz bandwidth, up to 6.5Gbps transfer rate.\nBluetooth® v5.4***"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4 x DDR5, up to 256GB, 9000+MT/s (OC)",
+  "Graphics Output: 1x HDMI, 2x USB4",
+  "Features: 1 x 10Gb LAN, 1x5Gb LAN, Wi-Fi 7, Bluetooth 5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-crosshair-x870e-extreme-motherboard",
+ "store": "pchouse"
+}

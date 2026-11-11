@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.4V",
+   "Latency": "30-36-36"
+  },
+  "Physical dimension": {
+   "Dimension": "133.35 mm x 42.23 mm x 7.11 mm",
+   "Pin": "288-Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Memory Type: DDR5",
+  "Tested Speed: 6000MHz",
+  "Tested Voltage: 1.4V",
+  "Tested Latency: CL30-36-36"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-beast-rgb-16gb-6000mhz-ddr5-expo-ram",
+ "store": "pchouse"
+}

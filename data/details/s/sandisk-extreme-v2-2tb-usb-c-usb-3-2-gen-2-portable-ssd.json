@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "E61"
+  },
+  "Key Features": {
+   "Capacity(GB)": "2 TB",
+   "Sequential R/W": "Up to 1050MB/s read and 1000MB/s write speed",
+   "Flash Type": "USB 3.2 Gen 2",
+   "Sequential Read": "Up to 1050MB/s read",
+   "Sequential Write": "1000MB/s write speed",
+   "Internal or External": "External"
+  },
+  "Physical Specifications": {
+   "Color": "Black",
+   "Dimension": "3.97 x 2.07 x 0.38 in. 100.80 x 52.55 x 9.60 mm",
+   "Weight": "0.11 lb (52.00 g)"
+  },
+  "Temperature": {
+   "Shock resistance": "Yesup to 1500G"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  }
+ },
+ "key_features": [
+  "Capacity: 2 TB",
+  "Interface: USB 3.2 Gen 2",
+  "Read/write speed: 1050MB/s & 1000MB/s"
+ ],
+ "model": "E61",
+ "warranty": "2 Year",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.pchouse.com.bd/sandisk-extreme-v2-2tb-usb-c-usb-3.2-gen-2-portable-ssd",
+ "store": "pchouse"
+}

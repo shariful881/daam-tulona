@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.5 GHz",
+   "Maximum Turbo Frequency": "Up to 5.4 GHz",
+   "Cache": "L2: 96MB, L3: 384MB",
+   "Cores": "96",
+   "TDP": "350W",
+   "Threads": "192",
+   "Supported Technologies": "AMD EXPO, AMD PRO Technologies, Precision Boost 2, Precision Boost Overdrive, Curve Optimizer, AMD Memory Guard, AMD Secure Processor, AMD-V, AVX-512"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "8",
+   "Maximum Size": "Depends on motherboard, supports large RDIMM DDR5 kits",
+   "Maximum Speed": "Up to 6400 MT/s",
+   "Type": "DDR5 RDIMM ECC"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "No integrated graphics (Discrete GPU required)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "Ryzen Threadripper PRO 9995WX"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2.5GHz Base, Up to 5.4GHz Boost",
+  "Cores: 96, Threads: 192",
+  "L2 Cache: 96MB, L3 Cache: 384MB",
+  "Socket: sTR5"
+ ],
+ "model": "Ryzen Threadripper PRO 9995WX",
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-threadripper-pro-9995wx-processor",
+ "store": "creatus"
+}

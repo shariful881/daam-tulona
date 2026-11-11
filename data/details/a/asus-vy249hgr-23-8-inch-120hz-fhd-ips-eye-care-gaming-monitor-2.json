@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "23.8 inch",
+   "Pixels Per Inch (PPI)": "0.2745mm",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920x1080)"
+  },
+  "Pixel pitch(MM)": {
+   "Display Surface": "Non-Glare",
+   "Viewing Angle": "178°/ 178°",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250cd/㎡",
+   "Contrast Ratio": "1500:1",
+   "Refresh Rate": "120Hz",
+   "Color Support": "16.7M"
+  },
+  "Color Gamut": {
+   "Response Time": "1ms MPRT"
+  },
+  "Hdr": {
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes"
+  },
+  "Free Sync Support": {
+   "Low Blue Light": "Yes",
+   "HDCP": "Yes, 1.4",
+   "Color Temperature Selection": "Yes(4 modes)"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI(v1.4) x 1",
+   "VGA": "VGA x 1"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Security Locker": "Kensington Lock",
+   "Vesa Wall Mount": "100x100mm"
+  },
+  "Physical Specification": {
+   "Dimensions": "Phys. Dimension (W x H x D) : 54.1 x 39.5 x 18.5 cm (21.30\" x 15.55\" x 7.28\")\nPhys. Dimension without Stand (W x H x D) : 54.1 x 32.3 x 4.8 cm (21.30\" x 12.72\" x 1.89\")"
+  },
+  "Power": {
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<20W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Weight": {
+   "Net Weight": "3.4 kg (7.50 lbs)",
+   "Net Weight without Stand": "2.9 kg (6.39 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "VY249HGR"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 120Hz, 1ms MPRT",
+  "Ports: 1 x HDMI(v1.4), 1x VGA,1x Earphone Jack",
+  "Features: Low Blue Light, Flicker Free, Adaptive Sync"
+ ],
+ "model": "VY249HGR",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.creatus.com.bd/asus-vy249hgr-23-8-inch-120hz-fhd-ips-eye-care-gaming-monitor",
+ "store": "creatus"
+}

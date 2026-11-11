@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Display": {
+   "Panel Size": "18.5-inch",
+   "Screen Dimensions (H x V)": "409.8 x 230.4 mm",
+   "Panel Type": "TN",
+   "Backlight": "WLED",
+   "Aspect Ratio": "16:09",
+   "Resolution": "1366 x 768",
+   "Pixel Pitch (H x V)": "0.300 x 0.300 mm",
+   "Viewing Angle (H x V @ CR 10:1)": "600:1",
+   "Viewing angle (typical) (vertical/horizontal)": "90° / 65°",
+   "Response Time (typical)": "5ms",
+   "Contrast Ratio (typical)": "600:01:00",
+   "Brightness (typical)": "200 cd/m2",
+   "Color Gamut NTSC (CIE 1931)": "72%",
+   "Color Support": "16.7 Million"
+  },
+  "Connectivity": {
+   "Video Input Signals": "HDMI + VGA"
+  },
+  "Dimensions": {
+   "Size Packed (D x H x W) (mm/inch)": "122 x 345 x 516 mm /"
+  },
+  "4.80 x 13.58 x 20.31 inches": {
+   "Size Unpacked w/stand (D x H x W) (mm/inch)": "179.88 x 344.66 x 448.4 mm /"
+  },
+  "7.08 x 13.57 x 17.65 inches": {
+   "Weight Packed (kg/lb)": "3.38 kg / 7.44 lbs.",
+   "Weight Unpacked (kg/lb)": "2.36 kg / 5.20 lbs.",
+   "Weight (Monitor Head Only) (kg/lb)": "2.04 kg / 4.50 lbs."
+  },
+  "Mechanical": {
+   "Tilt Angle": "-5° / 22°",
+   "VESA Mount Capability": "438 mm (17.24 inches)",
+   "Kensington™ Lock Slot": "Yes",
+   "Cable Management": "Yes",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: 1366 x 768",
+  "Display: TN, 60Hz, 5ms",
+  "Ports: HDMI, VGA",
+  "Features: ‎VESA Mount"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://smartbd.com/product/lenovo-d19-10-18-5-inch-hd-hdmi-vga-monitor/",
+ "store": "smartbd"
+}

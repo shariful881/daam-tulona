@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "PCI Express Gen 5",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "4608"
+  },
+  "Core Clock": {
+   "Boost Clock": "2602MHz",
+   "Base Clock": "2407MHz"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1x PCIe 8-pin cables",
+   "Recommended PSU": "650W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Dimensions": {
+   "Length": "250mm",
+   "Height": "116mm",
+   "Width": "41mm"
+  },
+  "Warranty": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI Express Gen 5",
+  "Base Clock: 2407MHz, Boost Clock: 2602MHz",
+  "CUDA Cores: 4608, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/inno3d-geforce-rtx-5060-ti-16gb-x3-oc-graphics-card",
+ "store": "pchouse"
+}

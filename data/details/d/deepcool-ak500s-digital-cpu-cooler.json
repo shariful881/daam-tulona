@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "500~1850 RPM",
+   "Fan Airflow": "68.99 CFM",
+   "Noise": "28 dBA",
+   "Air Pressure": "1.2 mmAq",
+   "Connector": "3-Pin, 4-Pin, 9-Pin"
+  },
+  "Physical Specification": {
+   "Dimension": "CPU Cooler Length x Width: 4.7 x 2.4\" / 120.0 x 60.0 mm",
+   "Weight": "904 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1150, LGA 1151, LGA 1155, LGA 1200, LGA 1700",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Fan Size: 120mm",
+  "Fan Speed: 500~1850 RPM",
+  "Fan Airflow: 68.99 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:51+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ak500s-digital-cpu-cooler",
+ "store": "pchouse"
+}

@@ -1,0 +1,85 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core Ultra 5 125H",
+   "Processor Frequency": "up to 4.5 GHz",
+   "Processor Core": "14",
+   "Processor Thread": "18",
+   "CPU Cache": "18"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920 x 1200)",
+   "Display Features": "anti-glare, 300 nits, 45% NTSC"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600MHz",
+   "Total RAM Slot": "2"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Arc Graphics",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "HP Premium Keyboard",
+   "TouchPad": "Yes",
+   "Keyboard Features": "Spill-resistant, Backlit keyboard"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FHD camera",
+   "Speaker": "Dual stereo speakers",
+   "Microphone": "Dual-array microphones",
+   "Audio Features": "Audio by Poly Studio"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x RJ45",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate (1 charging, 1 power)",
+   "USB Type-C / Thunderbolt Port": "2 USB Type-C 20Gbps signaling rate (USB Power Delivery, DisplayPort 1.4)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Camera Privacy Shutter": "Yes"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Physical Specification": {
+   "Color": "Pike silver",
+   "Dimensions": "35.94 x 25.11 x 1.09 cm (front); 35.94 x 25.11 x 1.7 cm (rear)",
+   "Weight": "Starting at 1.74 kg",
+   "Body Material": "aluminum"
+  },
+  "Power": {
+   "Battery Type": "HP Long Life 3-cell Li-ion",
+   "Battery Capacity": "56 Wh",
+   "Adapter Type": "65 W USB Type-C"
+  },
+  "Warranty Details": {
+   "Warranty": "3 year warranty (Terms & Conditions Apply As Per HP)."
+  }
+ },
+ "key_features": [
+  "Processor: Core Ultra 5-125H (up to 4.5 GHz, 18 MB L3 cache)",
+  "RAM: 8 GB DDR5 5600MHz, Storage: 512GB PCIe SSD",
+  "Display: 16\" WUXZA (1920 x 1200) IPS",
+  "Features: Type-C, Fingerprint, Backlit Keyboard, Wi-Fi 6E"
+ ],
+ "warranty": "3 year warranty (Terms & Conditions Apply As Per HP).",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.pchouse.com.bd/hp-probook-460-g11-core-ultra-5-wuxga-laptop",
+ "store": "pchouse"
+}

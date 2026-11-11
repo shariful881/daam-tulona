@@ -1,0 +1,84 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Energy Saving Rating": "10.5 Wh"
+  },
+  "Aircraft": {
+   "Hover Accuracy Range": "Vertical:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)\nHorizontal:\n±0.3 m (with vision positioning)\n±1.5 m (with GNSS positioning)",
+   "Max Ascent Speed": "0.5 m/s (Cine mode)\n2 m/s (Normal mode)\n3 m/s (Sport mode)C",
+   "Max Descent Speed": "0.5 m/s (Cine mode)\n2 m/s (Normal mode)\n2 m/s (Sport mode)",
+   "Max Flight Time": "Approx. 18 mins (approx. 17 mins with the Propeller Guards)\nEach battery allows the drone to perform at least 20 palm takeoff and landing for shoots in succession",
+   "Operating Temperature Range": "DJI RC-N3 Remote Controller: -10° to 40° C (14° to 104° F)",
+   "Satellite Positioning Systems": "GPS + Galileo + BeiDou",
+   "Weight (Battery & Propellers Included)": "Approx. 135 g",
+   "Diagonal Size (Propellers Excluded)": "130×157×48.5 mm (L×W×H)"
+  },
+  "Others": {
+   "Charging Temperature": "5° to 40° C (41° to 104° F)",
+   "Charging Time": "2 hours",
+   "Charging Type": "5 V, 2 A"
+  },
+  "Gimbal": {
+   "Angular Vibration Range": "±0.01°",
+   "Controllable Range": "Tilt: -90° to 60°",
+   "Max Controllable Angular Speed": "100°/s",
+   "Stabilization": "Single-axis mechanical gimbal (tilt)"
+  },
+  "Intelligent Flight Battery": {
+   "Battery Type": "Li-ion",
+   "Capacity": "1435 mAh",
+   "Charging Temperature Range": "5° to 40° C (41° to 104° F)",
+   "Net Weight": "Approx. 45 g"
+  },
+  "Voltage": {
+   "Nominal Voltage": "7.3 V",
+   "Max Charging Voltage": "8.6 V"
+  },
+  "Remote Controller": {
+   "Transmitter Power (EIRP)": "2.4 GHz:\n＜33 dBm (FCC)\n< 20 dBm (CE/SRRC/MIC)\n5.1 GHz:\n< 23 dBm (CE)\n5.8 GHz:\n< 14 dBm (CE)\n< 30 dBm (SRRC)",
+   "Operating Frequency": "2.400-2.4835 GHz\n5.170-5.250 GHz\n5.725-5.850 GHz"
+  },
+  "Max Transmission Distance": {
+   "Strong Interference (urban landscape)": "Approx. 1.5-3 km",
+   "Low Interference (suburb/seaside)": "Approx. 6-10 km"
+  },
+  "Battery": {
+   "Rated Power": "DJI 65W Portable Charger\nUSB Power Delivery charger"
+  },
+  "Power": {
+   "Battery Capacity": "2600 mAh"
+  },
+  "Electronic Shutter Speed": {
+   "Video": "1/8000-1/30 s",
+   "Photo": "1/8000-1/10 s"
+  },
+  "Camera": {
+   "Image Size": "12 MP Photo\n4000×3000 (4∶3)\n4000×2256 (16∶9)",
+   "ISO Range": "100-6400 (Auto)\n100-6400 (Manual)",
+   "Max Video Bitrate": "75Mbps",
+   "Photo": "JPEG",
+   "Sensor": "1/2-inch image sensor",
+   "Still Photography Modes": "Single/Timed Shot",
+   "Supported File Systems": "exFAT",
+   "Supported SD Cards": "Does not support storage expansion with an external SD card"
+  },
+  "Lens": {
+   "FOV": "117.6°",
+   "Format Equivalent": "14 mm",
+   "Aperture": "f/2.8",
+   "Focus": "0.6 m to ∞"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year DJI Warranty. (Warranty will be void if the product has been physically damaged.)"
+  },
+  "Image": {
+   "Model": "Neo Motion Fly More Combo"
+  }
+ },
+ "key_features": [],
+ "model": "Neo Motion Fly More Combo",
+ "warranty": "1 Year DJI Warranty. (Warranty will be void if the product has been physically d",
+ "fetched": "2026-11-11T09:33+06:00",
+ "source": "https://www.creatus.com.bd/dji-neo-motion-fly-more-combo-drone",
+ "store": "creatus"
+}

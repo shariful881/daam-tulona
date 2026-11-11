@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680 x 4320 @60Hz",
+   "Core Clock": "1290~1392MHz",
+   "Memory Clock": "14Gbps",
+   "BUS Type": "PCI Express Gen3",
+   "Memory Interface": "192-bit",
+   "Stream Processors": "1408SP"
+  },
+  "Interface": {
+   "Display Port": "1 x DP",
+   "HDMI": "1 x HDMI",
+   "DVI": "Yes x 1 (Native) (DVI-D)",
+   "HDCP": "1 x DVI"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "450W",
+   "Consumption": "Power Consumption: 125W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.6"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 1530~1785MHz",
+  "Stream Processors: 1408SP",
+  "Memory Clock: 14Gbps",
+  "Display Outputs: 1 x DP 1 x HDMI 1 x DVI"
+ ],
+ "price": 27500,
+ "regular": 29700,
+ "status": "In Stock",
+ "code": "24749",
+ "brand": "ARKTEK",
+ "mpn": "AKN1660SD6S6GH1",
+ "model": "NVIDIA Geforce GTX1660 Super",
+ "warranty": "2 Years",
+ "name": "ARKTEK GTX 1660 Super 6GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ARKTEK",
+  "ARKTEK GTX 1660 Super 6GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.startech.com.bd/arktek-gtx-1660-super-6gb-graphics-card",
+ "store": "startech"
+}

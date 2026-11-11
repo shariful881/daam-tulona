@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "Performance-core Base Frequency: 3.3 GHz\nEfficient-core Base Frequency: 2.7 GHz",
+   "Maximum Turbo Frequency": "Performance-core Max Turbo Frequency: 4.9 GHz\nEfficient-core Max Turbo Frequency: 4.4 GHz",
+   "Cache": "20 MB Intel Smart Cache",
+   "Cores": "10 (Performance cores: 6, Efficient cores: 4)",
+   "Threads": "10",
+   "Default TDP": "Base Power: 65W",
+   "cTDP": "Turbo Power: 121W",
+   "Supported Technologies": "Intel Gaussian & Neural Accelerator: 3.5\nIntel Thread Director\nIntel Speed Shift Technology\nIntel Turbo Boost Technology: 2.0\nEnhanced Intel SpeedStep Technology\nThermal Monitoring Technologies\nIntel Volume Management Device (VMD)\nNPU: Intel AI Boost"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256 GB",
+   "Maximum Speed": "Up to DDR5 6400 MT/s",
+   "Type": "DDR5",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel Graphics",
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.8 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4K @ 60Hz (HDMI 2.1 TMDS) 8K @ 60Hz (HDMI2.1 FRL)\nMax Resolution (DP): 8K @ 60Hz",
+   "Core Count": "2"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.3 GHz up to 4.9 GHz",
+  "Cache: 20 MB, Socket: LGA1851",
+  "CPU Cores: 10, CPU Threads: 10",
+  "NPU: Intel AI Boost"
+ ],
+ "price": 2250024200,
+ "regular": 25000,
+ "status": "In Stock",
+ "code": "44354",
+ "brand": "INTEL",
+ "model": "Core Ultra 5 225 (Tray Box)",
+ "warranty": "3 Year Warranty",
+ "name": "Intel Core Ultra 5 225 Arrow Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel Core Ultra 5 225 Arrow Lake Processor"
+ ],
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://www.startech.com.bd/intel-core-ultra-5-225-processor",
+ "store": "startech"
+}

@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Memory Size": "12GB",
+   "Memory Type": "GDDR6X",
+   "Memory Bus (Bit)": "PCI Express 4.0",
+   "CUDA Cores (Nvidia)": "5888",
+   "Others": "AURA SYNC: ARGB",
+   "Resolution": "7680 x 4320",
+   "Memory Clock": "21 Gbps",
+   "Memory Interface": "192-bit"
+  },
+  "Core Clock": {
+   "OC mode": "2580 MHz",
+   "Default mode": "2550 MHz(Boost)"
+  },
+  "Display Details": {
+   "Dimensions": "301 x 139 x 63 mm"
+  },
+  "Features": {
+   "Others": "3.25 Slot"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 1.4a",
+   "HDMI": "1x Native HDMI 2.1",
+   "HDCP": "HDCP 2.3"
+  },
+  "Connectivity": {
+   "Connectors": "1 x 8-pin"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Recommended PSU": "650W"
+  },
+  "Warranty Information": {
+   "Warranty": "03-years Warranty"
+  }
+ },
+ "key_features": [
+  "OC Mode: 2580 MHz",
+  "Default Mode: 2550 MHz(Boost)",
+  "Memory: 12GB GDDR6X",
+  "Output: 1x HDMI 2.1, 3x DisplayPort 1.4a"
+ ],
+ "warranty": "03-years Warranty",
+ "fetched": "2026-11-11T09:46+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-geforce-rtx-4070-12gb-gddr6x-oc-edition-graphics-card",
+ "store": "pchouse"
+}

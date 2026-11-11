@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.70 GHz",
+   "Maximum Turbo Frequency": "4.40 GHz",
+   "Cache": "6 MB Smart Cache",
+   "Cores": "4",
+   "Threads": "8",
+   "Default TDP": "65 W"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "2666MHz",
+   "Type": "DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 630",
+   "Base Frequency": "3.70 GHz",
+   "Max Dynamic Frequency": "Graphics Max Dynamic Frequency 1.10 GHz"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160@30Hz",
+   "Max Resolution (DP)": "4096 x 2304@60Hz"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [],
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://fourstarit.com.bd/p/intel-core-i3-10105-10th-gen-comet-lake-processor",
+ "store": "fourstar"
+}

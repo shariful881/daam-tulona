@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32GB",
+   "Type": "DDR5",
+   "Latency": "C36"
+  },
+  "Others": {
+   "Performance Profile": "XMP 3.0",
+   "Package Memory Format": "DIMM",
+   "Memory Compatibility": "Intel 600 Series, Intel 700 Series"
+  },
+  "Main Features": {
+   "Frequency": "6000MHz"
+  },
+  "Operating Voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.35V"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "VENGEANCE RGB"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB",
+  "Frequency: DDR5 6000MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.25V/C36"
+ ],
+ "model": "VENGEANCE RGB",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T10:07+06:00",
+ "source": "https://www.creatus.com.bd/corsair-vengeance-rgb-32gb-ddr5-6000mhz-c36-ram-kit",
+ "store": "creatus"
+}

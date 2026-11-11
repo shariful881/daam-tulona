@@ -1,0 +1,111 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 5625U",
+   "Processor Frequency": "Up to 4.3GHz",
+   "Processor Core": "6",
+   "Processor Thread": "12",
+   "CPU Cache": "L1 Cache: 256KB\nL2 Cache: 3MB\nL3 Cache: 16MB"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920×1080)",
+   "Touch Screen": "No",
+   "Display Features": "300nits Anti-glare"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR4",
+   "Removable": "not upgradable",
+   "Bus Speed": "3200MHz",
+   "Total RAM Slot": "1",
+   "Max RAM Capacity": "16GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Storage Capacity": "512GB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Non-Backlit, English (EU)",
+   "Keyboard Features": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 69 x 104 mm (2.72 x 4.09 inches)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p Webcam",
+   "Speaker": "1.5W x2 Stereo",
+   "Microphone": "2x Array",
+   "Audio Features": "Dolby Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort 1.2)",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6, 11ax 2x2",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "FW TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11"
+  },
+  "Power": {
+   "Battery Type": "Integrated",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W round tip (3-pin)"
+  },
+  "Physical Specification": {
+   "Color": "Abyss Blue",
+   "Dimensions": "359.3 x 235 x 17.9 mm (14.15 x 9.25 x 0.70 inches)",
+   "Weight": "Starting at 1.62 kg (3.57 lbs)",
+   "Body Material": "PC-ABS (Top), PC-ABS (Bottom)"
+  },
+  "Other Features": {
+   "Other Features": "MIL-STD-810H military test passed (21 test items)"
+  },
+  "Warranty": {
+   "Warranty Details": "2 years Warranty (Battery 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor:  AMD Ryzen 5 5625U (6C / 12T, 2.3 / 4.3GHz, 3MB L2 / 16MB L3)",
+  "Ram: 16GB DDR4, Storage: 512GB SSD",
+  "Display: 15.6\" FHD (1920x1080) IPS 300nits Anti-glare",
+  "Features: Mil-Std-810h Military Grade, Wi-Fi 6, BT5.2"
+ ],
+ "price": 8200084000,
+ "regular": 90060,
+ "status": "In Stock",
+ "code": "43539",
+ "brand": "Lenovo",
+ "mpn": "82XM014HLK",
+ "model": "IdeaPad Slim 3 15ABR8",
+ "warranty": "2 years Warranty (Battery 1 year).",
+ "name": "Lenovo IdeaPad Slim 3 15ABR8 Ryzen 5 5625U Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "Lenovo",
+  "Lenovo IdeaPad Slim 3 15ABR8 Ryzen 5 5625U Laptop"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://www.startech.com.bd/lenovo-ideapad-slim-3-15abr8-5625u-laptop",
+ "store": "startech"
+}

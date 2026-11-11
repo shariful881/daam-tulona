@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "CUDA Cores": "4608",
+   "Memory Interface": "128-bit",
+   "Others": "AI Performance: 767 TOPs"
+  },
+  "Core Clock": {
+   "OC mode": "2632MHz",
+   "Default mode": "2602MHz (Boost Clock)"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "229 x 120 x 50mm",
+   "Others": "2.5 Slot"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year warranty"
+  },
+  "Image": {
+   "Model": "DUAL RTX 5060 TI O16G WHITE"
+  }
+ },
+ "key_features": [],
+ "model": "DUAL RTX 5060 TI O16G WHITE",
+ "warranty": "3-Year warranty",
+ "fetched": "2026-11-11T09:58+06:00",
+ "source": "https://www.creatus.com.bd/asus-dual-geforce-rtx-5060-ti-16gb-oc-edition-white-graphics-card",
+ "store": "creatus"
+}

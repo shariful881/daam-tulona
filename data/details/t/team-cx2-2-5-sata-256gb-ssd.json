@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5-inch",
+   "Interface": "SATA Rev. 3.0 (6Gb/s)",
+   "MTBF": "1,000,000 hours"
+  },
+  "Sequential R/W": {
+   "Read": "Up to 520MB/s Max",
+   "Write": "Up to 430MB/s Max"
+  },
+  "Physical Specification": {
+   "Dimension": "100(L) x 69.9(W) x 7(H) mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ 70°C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G"
+  },
+  "Warranty": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.pchouse.com.bd/team-cx2-256gb-ssd",
+ "store": "pchouse"
+}

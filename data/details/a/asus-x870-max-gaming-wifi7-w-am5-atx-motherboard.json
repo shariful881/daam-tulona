@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD X870 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOSc",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)\nAMD X870 Chipset\n2 x PCIe 4.0 x16 slots (support x1 mode)\n1 x PCIe 3.0 x16 slot (supports x1 mode)",
+   "M.2 Socket": "MD Ryzen 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD Ryzen 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4/x2 mode)\nAMD X870 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to 8000+MT/s(OC) with Ryzen 9000 & 8000 & 7000 Series Processors\nECC and Non-ECC, Un-buffered DIMM\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO)\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port\n2 x USB4 (40Gbps) ports support USB Type-C display outputs\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\n** Supports 4K@60Hz as specified in HDMI 2.1.\n*** Supports max. 4K@60Hz as specified in DisplayPort 1.4a.\n*** VGA resolution support depends on processors' or graphic cards' resolution."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "USB (s)": "Rear USB (Total 10 ports)\n2 x USB4 (40Gbps) ports (2 x USB Type-C)\n1 x USB 10Gbps port (1 x Type-A)\n3 x USB 5Gbps ports (3 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 20Gbps connector (supports USB Type-C)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\n* USB Type-C power delivery output: max. 5V/3A",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet",
+   "Wireless Communication module": "Wi-Fi 7\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band\nSupports Wi-Fi 7 160MHz bandwidth, up to 2.9Gbps transfer rate.\nBluetooth v5.4\n* Wi-Fi features may vary depending on the operating system.\nFor Windows 11, Wi-Fi 7 will require 24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only supports Wi-Fi 6E.",
+   "Supported Storage": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4/x2 mode)\nAMD X870 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* 2 x USB4 (40Gbps) ports share bandwidth with M.2_2 slot. The M.2_2 slot will be disabled when either of the two USB4® (40Gbps) ports is running. You can enter the BIOS to adjust the default Settings as required.\n* The PCIEX16(G3) slot shares bandwidth with the SATA6G_3 and SATA6G_4 ports. Both SATA ports will be disabled when the PCIEX16(G3) slot is running. You can enter the BIOS to adjust the default Settings as required.\n** Specifications vary by CPU types.",
+   "RAID": "AMD RAIDXpert2 Technology\nRyzen 9000 Series Processors: RAID 0/1/5/10\nRyzen 8000 Series Processors: RAID 0/1\nRyzen 7000 Series Processors: RAID 0/1/10\n* Specifications vary by CPU types.",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback",
+   "Internal I/O Ports": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connectors\nStorage Related\n3 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 20Gbps connector (supports USB Type-C®)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable RGB Gen 2 headers\n1 x Clear CMOS header\n1 x Chassis Intrusion header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1 pin)\n1 x 10-1 pin System Panel header",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- LANGuard\n- Overvoltage protection\n- SafeSlot\n- Stainless-steel back I/O\nASUS Q-Design\n- PCIe Slot Q-Release\n- Q-Antenna\n- Q-Dashboard\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- Flexible M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- ProCool\n- Pre-mounted I/O shield\n- SafeSlot\nAura Sync\n- Addressable RGB Gen 2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 with AI Cooling II\nASUS AI Advisor\nASUS DriverHub\nASUS GlideX\nTurboV Core\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/8000 & 7000 Series Processors for AM5 Socket",
+  "Supported Memory: 4 x DIMM, Max. 256GB, DDR5 Up to  8000+MT/s(OC)",
+  "Graphics Output: 1 x HDMI port, 2x USB 4 (Type-C up to 40Gbps Data Transfer)",
+  "Features: Realtek 2.5Gb Ethernet, Realtek 7.1 High Definition Surround Sound"
+ ],
+ "price": 44500,
+ "regular": 47630,
+ "status": "In Stock",
+ "code": "43194",
+ "brand": "Asus",
+ "model": "X870 MAX GAMING WIFI7 W",
+ "warranty": "3 Years",
+ "name": "Asus X870 MAX GAMING WIFI7 W AM5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus X870 MAX GAMING WIFI7 W AM5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.startech.com.bd/asus-x870-max-gaming-wifi7-w-motherboard",
+ "store": "startech"
+}

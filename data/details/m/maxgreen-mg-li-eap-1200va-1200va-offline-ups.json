@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "UPS & IPS Feature": {
+   "Backup Time": "15-30 Depends On Load",
+   "Battery": "Maintenance-Free Lead-Acid Battery,",
+   "Capacity": "1200VA/720 W",
+   "Frequency": "50HZ",
+   "Noise Level": "<40db @ 1 Meter",
+   "Output Voltage Range": "140-290",
+   "Transfer Time": "2 To 6 Ms",
+   "Type of Wave": "Simulated Sine Wave"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year"
+  }
+ },
+ "key_features": [
+  "Capacity: 1200VA",
+  "Input Voltage: 220/230 V",
+  "Backup time: 20-30 minutes (Depends on load)",
+  "Battery: 2 x 7 Ah"
+ ],
+ "warranty": "01 Year",
+ "fetched": "2026-11-11T09:33+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mg-li-eap-1200va-offline-ups",
+ "store": "pchouse"
+}

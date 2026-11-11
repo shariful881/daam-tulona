@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air cooler",
+   "Fan Speed": "500~1850 RPM±10%",
+   "Fan Airflow": "68.99 CFM",
+   "Noise": "≤31.5 dB(A)",
+   "Air Pressure": "2.19 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Dimension": {
+   "Heatsink": "127×90×158 mm(L×W×H)",
+   "Heatpipe": "Ø6 mm×5 pcs",
+   "Fan": "120×120×25 mm(L×W×H)"
+  },
+  "Physical Specification": {
+   "Weight": "1040 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "03 year",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ak500-wh-high-performance-single-tower-cpu-cooler",
+ "store": "pchouse"
+}

@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Product Description": {
+   "Storage": "16TB",
+   "Form Factor": "3.5-inch",
+   "Interface": "SATA 6.0 Gbit/s",
+   "Rotational Speed": "7,200 rpm",
+   "Buffer / Cache Size": "1024 MB (1GB)",
+   "Camera Streams Supported": "Up to 64 HD cameras",
+   "AI Streams Supported": "Up to 32 AI streams",
+   "Workload Rating": "550 TB/year",
+   "MTTF / MTBF": "Up to 2.5 million hours",
+   "Limited Warranty": "3 years",
+   "Operation Design": "24/7 nonstop operation"
+  }
+ },
+ "key_features": [
+  "Storage: 16TB",
+  "RPM: 7200 RPM",
+  "Interface: SATA 6Gb/s",
+  "Type: SATA Enterprise HDD"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:50+06:00",
+ "source": "https://smartbd.com/product/toshiba-s300-ai-16tb-surveillance-hard-drive-mg11aca16te-v/",
+ "store": "smartbd"
+}

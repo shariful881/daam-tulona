@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "19 Inch",
+   "Display Type": "LED",
+   "Panel Type": "TN",
+   "Resolution": "HD (1,366 x 768)",
+   "Viewing Angle": "90°/65°",
+   "Aspect Ratio": "16:9",
+   "Contrast Ratio": "600:1(Typical)",
+   "Refresh Rate": "Max 60Hz",
+   "Color Support": "Max 16.7M",
+   "Color Gamut": "72%",
+   "Response Time": "5 (GTG)",
+   "Curvature": "Flat"
+  },
+  "Brightness": {
+   "Brightness (Typical)": "250cd/㎡",
+   "Brightness (Min)": "200 cd/㎡"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "Color Temperature Selection": "10~40 ℃"
+  },
+  "Connectivity": {
+   "HDMI": "1x HDMI 1.4",
+   "D-Sub": "1x D-Sub"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5.0° (±2.0°) ~21.0° (±2.0°)",
+   "Vesa Wall Mount": "75 x 75"
+  },
+  "Power": {
+   "Type": "External Adaptor",
+   "Voltage": "AC 100~240V",
+   "Power Consumption": "12W"
+  },
+  "Weight": {
+   "Set Weight with Stand": "2.1 kg",
+   "Set Weight without Stand": "3.0 kg"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Dimensions": {
+   "Set Dimension with Stand (WxHxD)": "539.5 x 44.07 cm x 34.06 cm x 17.99 cm",
+   "Set Dimension without Stand (WxHxD)": "44.07 cm x 26.92 cm x 3.00 cm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "LS19A330NHW"
+  }
+ },
+ "key_features": [
+  "Resolution: HD (1,366 x 768)",
+  "Display: TN, 60Hz, 5ms GTG",
+  "Ports: VGA, HDMI",
+  "Features: Eye saver Mode, Flicker Free"
+ ],
+ "model": "LS19A330NHW",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.creatus.com.bd/samsung-ls19a330nhw-19-inch-led-monitor",
+ "store": "creatus"
+}

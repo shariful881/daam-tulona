@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4 GHz",
+   "Maximum Turbo Frequency": "5.3 GHz",
+   "Cores": "32",
+   "TDP": "350W",
+   "Threads": "64",
+   "Supported Technologies": "AES Support,\nPrecision Boost 2"
+  },
+  "Cache": {
+   "L1 Cache": "2MB",
+   "L2 Cache": "32MB",
+   "L3 Cache": "128MB"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "Up to 5200 MT/s",
+   "Type": "DDR5"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Discrete Graphics Card Required"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Ryzen Threadripper 7970X"
+  }
+ },
+ "key_features": [],
+ "model": "Ryzen Threadripper 7970X",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-threadripper-7970x-str5-processor",
+ "store": "creatus"
+}

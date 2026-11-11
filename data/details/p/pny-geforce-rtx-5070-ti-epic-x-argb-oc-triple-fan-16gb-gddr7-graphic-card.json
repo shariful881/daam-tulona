@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC3",
+   "Core Clock": "Clock Speed: 2295 MHz\nBoost Speed: 2640 MHz",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8960"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin power connector"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "2.93\" x 5.42\" x 2.35\"; 3 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI-Express 5.0 x16",
+  "Core Clock: 2295 MHz, Boost Clock: 2640 MHz",
+  "CUDA Cores: 8960, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "price": 189900220000,
+ "regular": 208800,
+ "status": "In Stock",
+ "code": "42235",
+ "brand": "PNY",
+ "mpn": "VCG5070T16TFXXPB1-O",
+ "model": "GeForce RTX 5070 Ti Epic-X ARGB OC Triple Fan",
+ "warranty": "3 Years",
+ "name": "PNY GeForce RTX 5070 Ti Epic-X ARGB OC Triple Fan 16GB GDDR7 Graphic Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PNY",
+  "PNY GeForce RTX 5070 Ti Epic-X ARGB OC Triple Fan 16GB GDDR7 Graphic Card"
+ ],
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.startech.com.bd/pny-geforce-rtx-5070-ti-epic-x-argb-oc-triple-fan-graphic-card",
+ "store": "startech"
+}

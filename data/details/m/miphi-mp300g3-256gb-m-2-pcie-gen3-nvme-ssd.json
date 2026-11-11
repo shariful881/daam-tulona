@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC",
+   "Interface": "PCIe Gen 3.0 x 4 NVMe 1.4",
+   "TBW": "150 TB",
+   "Others": "4K Random Read: 400K IOPS\n4K Random Write: 600K IOPS\nOperating Temperature: 0°C to 85°C"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "3300MB/s",
+   "Sequential Write": "1700MB/s"
+  },
+  "Warranty": {
+   "Warranty": "5 Years Limited Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: PCIe Gen 3.0 x 4 NVMe 1.4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 3300MB/s / 1700MB/s"
+ ],
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/miphi-mp300g3-256gb-m.2-pcie-gen3-nvme-ssd",
+ "store": "pchouse"
+}

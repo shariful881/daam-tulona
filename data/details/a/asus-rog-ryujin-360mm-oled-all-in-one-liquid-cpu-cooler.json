@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one liquid CPU cooler",
+   "Fan Speed": "2200 RPM",
+   "Fan Airflow": "70.07 CFM",
+   "Noise": "36.45 dBA",
+   "Air Pressure": "3.88 mmH2O",
+   "Connector": "PWM/DC",
+   "Others": "Display: 3.5\" Full Color LCD"
+  },
+  "Material": {
+   "Block Material (CPU Plate)": "Copper",
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Dimension": {
+   "Dimension (Heat Sink/Radiator)": "399.5 x 120 x 30mm",
+   "Waterblock Dimensions": "89 x 91 x 101mm",
+   "Fan Dimensions": "120 x 120 x 25mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700, LGA1200, LGA115x",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Years"
+  }
+ },
+ "key_features": [
+  "Number of Fans: 3",
+  "Fan Size (Height): 120mm",
+  "Fan Speed: 2200 RPM",
+  "Supported Socket: Intel: LGA1700, LGA1200, LGA115x; AMD: AM5, AM4"
+ ],
+ "warranty": "6 Years",
+ "fetched": "2026-11-11T09:44+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-ryujin-360-aio-cpu-cooler",
+ "store": "pchouse"
+}

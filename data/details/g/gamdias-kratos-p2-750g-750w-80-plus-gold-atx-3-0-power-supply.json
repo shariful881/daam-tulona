@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Certification": "80 PLUS Gold",
+   "CPU": "2 (4+4 Pin)",
+   "Efficiency (Approx.)": "90% efficiency",
+   "Fan Size": "120mm hydraulic bearing fan",
+   "Modular Type": "Fully Modular",
+   "Molex": "3 (4 Pin)",
+   "Floppy": "12VHPWR: 1 (12+4 Pin)",
+   "Lighting Effect": "30 Neon-Flex RGB"
+  },
+  "Features": {
+   "Others": "ATX 3.0 & PCIe Gen 5.0 Ready"
+  },
+  "Output": {
+   "Total Power": "750W",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb"
+  },
+  "Connectors": {
+   "Main Power": "1 (24 Pin)",
+   "PCI-E": "4 (6+2 Pin)",
+   "SATA": "6 (5 Pin)",
+   "AC Input": "100-240V~ / 11-5.5A / 47-63Hz"
+  },
+  "Input": {
+   "Current": "11-5.5A",
+   "Frequency Range": "47-63Hz",
+   "Voltage": "100-240V"
+  },
+  "Warranty Information": {
+   "Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Total Output Power: 750 Watt",
+  "Form Factor: ATX 3.0, Fully Modular",
+  "Certification: 80 PLUS Gold Certified"
+ ],
+ "warranty": "10 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.pchouse.com.bd/gamdias-kratos-p2-750g-750w-80-plus-gold-atx-3.0-power-supply",
+ "store": "pchouse"
+}

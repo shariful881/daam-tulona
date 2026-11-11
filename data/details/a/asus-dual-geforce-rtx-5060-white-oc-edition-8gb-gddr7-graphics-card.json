@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Core Clock": "OC mode: 2565MHz\nDefault mode: 2535MHz (Boost Clock)",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "3840",
+   "Others": "AI Performance: 614 TOPs"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP  2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "228 x 123 x 50 mm\n8.98 x 4.84 x 1.97 inches",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5.0",
+  "Engine Clock: 2565MHz (OC), 2535MHz (Boost Clock)",
+  "Memory Speed: 28 Gbps, CUDA Cores: 3840",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "status": "Out Of Stock",
+ "code": "45820",
+ "brand": "Asus",
+ "mpn": "DUAL-RTX5060-O8G-WHITE",
+ "model": "Dual GeForce RTX 5060 White OC Edition 8GB GDDR7",
+ "warranty": "3 years warranty",
+ "name": "ASUS Dual GeForce RTX 5060 White OC Edition 8GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS Dual GeForce RTX 5060 White OC Edition 8GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.startech.com.bd/asus-dual-geforce-rtx-5060-white-oc-edition-8gb-gddr7-graphics-card",
+ "store": "startech"
+}

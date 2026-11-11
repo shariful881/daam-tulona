@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "4GB",
+   "Resolution": "Digital Max Resolution:7680x4320",
+   "Core Clock": "GPU Boost Clock : 1392 MHz GPU Base Clock : 1290 MHz",
+   "Memory Clock": "7008 MHz",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "768"
+  },
+  "Interface": {
+   "Display Port": "Yes x 1 (DisplayPort 1.4)",
+   "HDMI": "Yes x 1 (Native) (HDMI 2.0b)",
+   "DVI": "Yes x 1 (Native) (DVI-D)",
+   "HDCP": "Yes (2.2)"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300W"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.5"
+  },
+  "Physical Specifications": {
+   "Dimensions": "19.2 x 11.1 x3.7 Centimeter"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:43+06:00",
+ "source": "https://www.pchouse.com.bd/asus-phoenix-geforce-gtx-1050-ti-4gb-gddr5",
+ "store": "pchouse"
+}

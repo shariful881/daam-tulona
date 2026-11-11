@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "Max 7680 x 4320",
+   "Core Clock": "Core Clock Base：2325Mhz；Boost:2512Mhz\nOne-Key OC Base：2325Mhz；Boost:2557Mhz",
+   "Memory Clock": "28Gbps",
+   "Memory Interface": "192-bit",
+   "CUDA Cores": "6144"
+  },
+  "Others": {
+   "Memory Bandwidth": "672GB/s",
+   "NV technology Support": "DLSS 4/Reflex/Studio"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "650W"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "300.5x120x50mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Memory Clock: 28Gbps, Memory Bus: 192bit",
+  "Core Clock Base: 2325Mhz; Boost: 2512Mhz",
+  "One-Key OC Base: 2325Mhz; Boost: 2557Mhz",
+  "Output Ports: 1x HDMI 2.1b, 3x DisplayPort 2.1b"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:48+06:00",
+ "source": "https://www.pchouse.com.bd/colorful-igame-geforce-rtx-5070-ultra-w-oc-graphics-card",
+ "store": "pchouse"
+}

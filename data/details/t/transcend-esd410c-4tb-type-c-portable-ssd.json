@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "4TB",
+   "Form Factor": "Portable",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type-C",
+   "Sequential R/W": "Up to 2,000 MB/s",
+   "Others": "3-meter drop and meets IPX5 standard\nIPX5 rating and MIL-STD-810G US military drop-test compliance"
+  },
+  "Physical Specification": {
+   "Dimension": "79 mm x 42 mm x 14.5 mm",
+   "Weight": "65 g (2.3 oz)",
+   "Color": "Dark Blue"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 4TB, Flash Type: 3D NAND flash",
+  "R/W Speed: Up To 2,000 MB/S",
+  "Interface: USB 20Gbps Type-C",
+  "Portable & Rugged Design, Password Protection"
+ ],
+ "price": 155500,
+ "regular": 171050,
+ "status": "In Stock",
+ "code": "41453",
+ "brand": "Transcend",
+ "mpn": "TS4TESD410C",
+ "model": "ESD410C",
+ "warranty": "5 Years",
+ "name": "Transcend ESD410C 4TB Type-C Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD410C 4TB Type-C Portable SSD"
+ ],
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd410c-4tb-portable-ssd",
+ "store": "startech"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B850",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX",
+   "Audio": "Realtek ALC1220P 7.1 Surround Sound High Definition Audio CODEC"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD B850 Chipset\n1 x PCIe 4.0 x1 slot",
+   "M.2 Socket": "3 x M.2"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "max. 256GB, DDR5\nSupports up to 8000+MT/s (OC) with Ryzen™ 9000 & 8000 & 7000 Series Processors, ECC and Non-ECC Un-buffered DIMM*\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort*\n1 x HDMI port**\n* Supports max. 8K@60Hz as specified in DisplayPort 1.4.\n** Supports 4K@60Hz as specified in HDMI 2.1."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard",
+   "RAID": "AMD RAIDXpert2 Technology\nRyzen™ 9000 Series Processors: RAID 0/1/5/10\nRyzen™ 8000 Series Processors: RAID 0/1\nRyzen™ 7000 Series Processors: RAID 0/1/10",
+   "Audio": "5 x Audio jacks",
+   "Display Port (s)": "1x DisplayPort",
+   "Wireless Communication module": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.3"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Socket AM5 for AMD Ryzen 9000, 8000 & 7000 Series",
+  "Supported RAM: 4x DDR5, up to 256GB, 8000+ MT/s (OC)",
+  "Graphics Output: 1x HDMI, 1x Display Port",
+  "Features: Realtek 2.5Gb Ethernet, Wi-Fi 6E, Bluetooth 5.3"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:46+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-b850m-plus-wifi-ddr5-motherboard",
+ "store": "pchouse"
+}

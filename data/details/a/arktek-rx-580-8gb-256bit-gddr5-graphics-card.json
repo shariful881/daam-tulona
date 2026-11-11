@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "8GB",
+   "Resolution": "3840 x 2160@120Hz Pixel\nDisplayPort Resolution 2560 x 1600@60Hz\nPixel Dual Link DVI\nResolution 3840 x 2160 @60Hz HDMI Resolution",
+   "Core Clock": "1168~1244MHz",
+   "Memory Clock": "7000MHz",
+   "Memory Interface": "256-Bit",
+   "Stream Processors": "2048SP"
+  },
+  "Interface": {
+   "Display Port": "3 x DP",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "550W",
+   "Recommended PSU": "125W"
+  },
+  "Display Option": {
+   "Multi Display": "AMD Eyefinity Technology\n“wrap around” multi-display capabilities."
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.4"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR5",
+  "Engine Clock: 1257~1340 MHz True Clock",
+  "Resolution: 3840 x 2160@120Hz",
+  "Interface: 3 x DP, 1 x HDMI"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/arktek-rx-580-8gb-256bit-gddr5-graphics-card",
+ "store": "pchouse"
+}

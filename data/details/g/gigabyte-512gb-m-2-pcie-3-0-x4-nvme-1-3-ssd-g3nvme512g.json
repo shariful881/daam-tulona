@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND Flash",
+   "Interface": "PCI-Express 3.0 x4, NVMe 1.3",
+   "MTBF": "1.5M hours",
+   "Max. Operating Power": "Read : 3.2W; Write : 3.2W"
+  },
+  "Sequential R/W": {
+   "Sequential Read speed": "Up to 1900 MB/s",
+   "Sequential Write speed": "Up to 1200 MB/s",
+   "Power Consumption (Idle, PS3)": "35mW",
+   "Power Consumption(PS4, L1.2)": "5mW"
+  },
+  "Physical Specification": {
+   "Dimension": "80 x 22 x 2.3 mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Form Factor: M.2 2280, Total Capacity: 512GB",
+  "Interface: PCI-Express 3.0 x4, NVMe 1.3",
+  "Sequential Read Speed : up to 1900MB/s",
+  "Sequential Write speed : up to 1200MB/s"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://smartbd.com/product/gigabyte-512gb-m-2-pcie-3-0-x4-nvme-1-3-ssd/",
+ "store": "smartbd"
+}

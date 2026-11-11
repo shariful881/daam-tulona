@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Maximum Turbo Frequency": "5.0GHz",
+   "Cores": "6",
+   "Threads": "12",
+   "CPU Socket": "AM5",
+   "Others": "Processor Speed: 5.0GHz"
+  },
+  "Cache": {
+   "L2 Cache": "6MB",
+   "L3 Cache": "16MB"
+  },
+  "GRAPHICS PROCESSING UNIT (GPU)": {
+   "Graphics Frequency": "2800 MHz",
+   "Processor Graphics": "AMD Radeon 740M"
+  },
+  "General Information": {
+   "Memory Type": "DDR5"
+  },
+  "Memory": {
+   "Bus Speed": "2x1R DDR5-5200\n2x2R DDR5-5200\n4X1R DDR5-3600\n4x2R DDR5-3600"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "256 GB"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Ryzen 5 8500G"
+  },
+  "Product List": {
+   "Best AMD Processor Price List In BD": "Price",
+   "AMD Ryzen 7 7700 Gaming Processor": "19,011৳\n24,000৳",
+   "AMD Ryzen 7 7700X Processor": "22,500৳\n25,900৳",
+   "AMD Ryzen 5 7600 Gaming Processor": "16,799৳\n21,000৳",
+   "AMD Ryzen 5 8600G Processor with Radeon Graphics": "17,400৳\n21,900৳",
+   "Amd Ryzen 5 5600X Processor": "13,000৳\n15,100৳",
+   "AMD Ryzen 7 5700G Processor with Radeon Graphics": "19,011৳\n26,800৳",
+   "AMD Ryzen 7 7800X3D Gaming Processor": "31,000৳\n35,000৳",
+   "AMD Ryzen 7 8700G Processor with Radeon Graphics": "26,599৳\n39,000৳",
+   "AMD Ryzen 5 5500 Processor": "9,900৳\n13,800৳"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.5 GHz Up to 5 GHz",
+  "Cache: L2 Cache6 MB, L3 Cache16 MB",
+  "Memory Size: 256 GB",
+  "Socket: AM5 & DDR5"
+ ],
+ "model": "Ryzen 5 8500G",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-5-8500g-am5-processor-with-full-pc",
+ "store": "creatus"
+}

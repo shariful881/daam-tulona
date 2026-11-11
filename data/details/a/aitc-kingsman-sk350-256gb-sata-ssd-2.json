@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Power": {
+   "Operating Temperature": "0°C – 70°C"
+  },
+  "Key Features": {
+   "Capacity": "256GB",
+   "Sequential Read": "560MB/s (Max)",
+   "Interface": "SATA III 6Gbps",
+   "Sequential Write": "520MB/s (Max)",
+   "MTBF": "1,000,000 hours",
+   "Origin": "Taiwan",
+   "Form Factor": "2.5-inch"
+  },
+  "Temperature": {
+   "Operating Voltage": "DC5V ± 10%"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 560MB/s (Max), Write: 520MB/s (Max)"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:40+06:00",
+ "source": "https://www.pchouse.com.bd/aitc-kingsman-sk350-256gb-sata-ssd",
+ "store": "pchouse"
+}

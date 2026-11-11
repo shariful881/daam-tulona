@@ -1,0 +1,115 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 7520U",
+   "Generation": "7000 Series",
+   "Processor Frequency": "2.80GHz-4.30GHz",
+   "Processor Core": "4",
+   "Processor Thread": "8",
+   "CPU Cache": "6MB"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD SoC platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920x1080)",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Display Features": "Brightness: 300nits\nSurface: Anti-glare\nColor Gamut: 45% NTSC"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "LPDDR5",
+   "Removable": "No",
+   "Bus Speed": "5500MHz"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 2242 PCIe Gen4"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon 610M",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Non-Backlight Keyboard",
+   "Keyboard Features": "English (EU)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p HD",
+   "Speaker": "1.5W x2, Stereo speakers",
+   "Microphone": "Dual-microphone array with noise-cancelling",
+   "Audio Features": "High Definition (HD) Audio\nRealtek ALC3287 codec\nDolby Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 2 Port": "1x USB 2.0",
+   "USB 3 Port": "1x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1",
+   "Headphone & Microphone Port": "1x 3.5mm Headphone / microphone combo jack"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x RJ-45",
+   "WiFi": "Wi-Fi 6, 802.11ax 2x2",
+   "Bluetooth": "Bluetooth 5.3 M.2 card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Locker Slot": "Kensington Nano Security Slot",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Free DOS"
+  },
+  "Power": {
+   "Battery Type": "3 Cell",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W"
+  },
+  "Physical Specification": {
+   "Color": "Arctic Gray",
+   "Dimensions": "359 x 236 x 19.9 mm (14.13 x 9.29 x 0.78 inches)",
+   "Weight": "1.63kg",
+   "Body Material": "PC-ABS"
+  },
+  "Other Features": {
+   "Other Features": "MIL Grade 810H"
+  },
+  "Warranty": {
+   "Warranty Details": "2 Years Limited Warranty (1 year for Battery and Adapter, Terms & conditions Apply As Per Lenovo)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7520U (6MB Cache, Up to 4.3GHz)",
+  "RAM: 16GB LPDDR5, SSD: 512GB M.2 NVMe PCIe Gen4 TLC",
+  "Display: 15.6\" FHD (1920 x 1080) IPS 300nits Anti-glare",
+  "Features: Wi-Fi 6, Privacy Camera Shutter, Military-grade"
+ ],
+ "price": 91500,
+ "regular": 98190,
+ "status": "In Stock",
+ "code": "52024",
+ "brand": "Lenovo",
+ "mpn": "83CQA00HLK",
+ "model": "V15 G4",
+ "warranty": "2 Years Limited Warranty (1 year for Battery and Adapter, Terms & conditions Apply As Per Lenovo)",
+ "name": "Lenovo V15 G4 Ryzen 5 7520U 15.6\" IPS FHD Business Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "Lenovo",
+  "Lenovo V15 G4 Ryzen 5 7520U 15.6\" IPS FHD Business Laptop"
+ ],
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.startech.com.bd/lenovo-v15-g4-ryzen-5-15-inch-laptop",
+ "store": "startech"
+}

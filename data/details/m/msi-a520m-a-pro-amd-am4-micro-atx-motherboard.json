@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Ryzen 5000/4000G Series & AMD Ryzen 3rd Generation Processors",
+   "Chipset": "AMD B520",
+   "Form Factor": "Micro-ATX Form Factor\n9.3 in. x 7.9 in. (23.6 cm x 20 cm)"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe 3.0 x1 slot\n1x PCIe x16 slot",
+   "M.2 Socket": "1x M.2 slot (Key M) (from AMD Processor)\nSupports PCIe 3.0\nSupports SATA 6Gb/s\nSupports 2242/ 2260/ 2280 storage devices"
+  },
+  "Memory": {
+   "Type": "Dual-channel memory architecture",
+   "Slots": "2x DDR4 memory slots",
+   "Supported Memory": "Supports DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\nSupports DDR4 2667/ 2800 /2933 /3000 /3066 /3200 /3466 /3600/ 3733 /3866 /4000 /4133 /4266 /4400/ 4600+ MHz by A-XMP OC MODE\n1DPC 1R max speed 4600 MHz\n1DPC 2R max speed 3866 MHz\nSupports non-ECC UDIMM memory\nSupports ECC UDIMM memory (non-ECC mode)\nSupports un-buffered memory",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI 2.1 port, supports a maximum resolution of 4096x2160 @60Hz\n1x DVI-D port, supports a maximum resolution of 1920x1200@60Hz",
+   "Max Shared Memory": "16GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1 port, maximum resolution of 4096x2160 @60Hz",
+   "DVI-D (s)": "1x DVI-D port, maximum resolution of 1920x1200@60Hz",
+   "USB (s)": "AMD A520 Chipset\n2x USB 3.2 Gen 1 5Gbps ports are available through the internal USB 3.2 Gen 1 5Gbps connector\n6x USB 2.0 ports (2 Type-A ports on the back panel, 4 ports through the internal USB 2.0 connectors)\nAMD Processor\n4x USB 3.2 Gen 1 5Gbps Type-A ports on the back panel",
+   "LAN Port (s)": "1x Realtek RTL8111H Gigabit LAN controller",
+   "Supported Storage": "AMD A520 Chipset\n4x SATA 6Gb/s ports\n1x M.2 slot (Key M) (from AMD Processor)\nSupports PCIe 3.0\nSupports SATA 6Gb/s\nSupports 2242/ 2260/ 2280 storage devices",
+   "Audio": "Realtek ALC892 Codec\n7.1-Channel High Definition Audio",
+   "Internal I/O Ports": "1x 24-pin ATX main power connector\n1x 4-pin ATX 12V power connector\n4x SATA 6Gb/s connectors\n1x M.2 slots (M-Key)\n1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n1x 4-pin CPU fan connector\n1x 4-pin system fan connectors\n1x Front panel audio connector\n2x System panel connectors\n1x Chassis Intrusion connector\n1x Clear CMOS jumper",
+   "TPM (Trusted Platform Module )": "1xTPM module connector"
+  },
+  "Others": {
+   "Special Features": "RAID:\nSupports RAID 0, RAID 1 and RAID 10 for SATA storage devices\nSupports RAID 0 and RAID 1 for M.2 NVMe storage devices"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 3000/ 4000G / 5000 Series for Socket AM4",
+  "Supported RAM: 2x DDR4, up to 4600MHz (OC), Max. 64GB",
+  "Graphics Output: 1x HDMI 2.1, 1x DVI-D",
+  "Features: 1x M.2, Realtek RTL8111H Gigabit LAN"
+ ],
+ "price": 75008300,
+ "regular": 8360,
+ "status": "In Stock",
+ "code": "14048",
+ "brand": "MSI",
+ "model": "A520M-A Pro",
+ "warranty": "03 Years Warranty",
+ "name": "MSI A520M-A Pro AMD AM4 Micro-ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (AMD)",
+  "MSI A520M-A Pro AMD AM4 Micro-ATX Motherboard"
+ ],
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.startech.com.bd/msi-a520m-a-pro-motherboard",
+ "store": "startech"
+}

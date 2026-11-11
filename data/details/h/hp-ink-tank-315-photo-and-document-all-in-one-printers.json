@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Printer": {
+   "Color Output": "Color",
+   "INK": "HP GT53 Black, HP GT52 Cyan, HP GT52 Yellow, HP GT51 Magenta",
+   "Input Capacity": "60Sheet",
+   "Monthly Print Volume": "400 to 800",
+   "Output Capacity": "25Sheet",
+   "Paper Size": "Print Paper Size: A4, B5, A6, DL envelope",
+   "Print Resolution": "4800 x 1200dpi (C)",
+   "SUPPORTED OS": "Windows 7, 8, 8.1, 10, XP, Vista, Server 2008, 2008 R2 and higher, 2012, 2012 R2, 2016, OS X\nv10.10 Yosemite, OS X v10.11 El Capitan, macOS Sierra v10.12",
+   "Duplex Printing": "Manual",
+   "Duty-Cycle": "1,000 Pages",
+   "First-Print-Out Time": "14sec (B), 18sec (C)",
+   "Paper Type": "Plain Paper, HP Photo Papers, HP Matte Brochure or Professional Paper, HP Matte Presentation\nPaper, HP Glossy Brochure or Professional Paper, Photo Inkjet Papers, Matte Inkjet Papers, Glossy Inkjet Papers",
+   "Paper Weight": "A4: 60 to 90 g/m²; HP envelopes: 75 to 90 g/m²; HP cards: up to 200 g/m²; HP 10 x 15 cm photo paper:up to 300 g/m²",
+   "Print Speed": "Print speed (black, draft, Letter): Up to 5 ppm",
+   "Print Technology": "HP Thermal Inkjet",
+   "Connectivity": "USB: Yes",
+   "Scan": "Scan Type:       Contact Image Sensor (CIS)",
+   "Copy": "Copy Speed: 7cpm (B), 2cpm (C)"
+  },
+  "Warranty Information": {
+   "Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "First Printout Time: Black-14 sec| Color- 18 sec",
+  "Resolution: Up to 4800 x 1200 dpi colour",
+  "Print Technology: HP Thermal Inkjet",
+  "Duplex Printing: Manual (driver support provided)",
+  "Sizes: Media sizes supported A4,B5,A6,DL envelope",
+  "Media sizes: custom 76.2 x 127 to 215 x 355 mm",
+  "Types: Plain Paper, HP Photo Papers, HP Matte Brochure or"
+ ],
+ "warranty": "01 year warranty",
+ "fetched": "2026-11-11T09:33+06:00",
+ "source": "https://www.pchouse.com.bd/hp-ink-tank-315-printer",
+ "store": "pchouse"
+}

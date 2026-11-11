@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "1477 MHz (Reference Card: 1470 MHz)",
+   "Memory Clock": "14000 MHz",
+   "BUS Type": "96 bit",
+   "Memory Interface": "PCI-E 4.0",
+   "CUDA Cores": "2304"
+  },
+  "Interface": {
+   "Display Port": "DP1.4a x2",
+   "HDMI": "HDMI 2.1 x2"
+  },
+  "Power Specifications": {
+   "Connectors": "8 pin x1",
+   "Recommended PSU": "300W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "L=191 W=111 H=36 mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 6GB GDDR6, PCI Express 4.0",
+  "CUDA Cores: 2304 Units, Memory Clock: 14000 MHz",
+  "Core Clocks: 1477 MHz (Reference Card: 1470 MHz)",
+  "Display Outputs: 2x DisplayPort 1.4a, 2 x HDMI 2.1"
+ ],
+ "price": 39000,
+ "regular": 41000,
+ "status": "In Stock",
+ "code": "48532",
+ "brand": "GIGABYTE",
+ "mpn": "GV-N3050WF2OCV2-6GD",
+ "model": "GeForce RTX 3050 WINDFORCE OC V2 6G",
+ "warranty": "3 Years",
+ "name": "GIGABYTE GeForce RTX 3050 WINDFORCE OC V2 6GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "GIGABYTE",
+  "GIGABYTE GeForce RTX 3050 WINDFORCE OC V2 6GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.startech.com.bd/gigabyte-geforce-rtx-3050-windforce-oc-v2-6gb-graphics-card",
+ "store": "startech"
+}

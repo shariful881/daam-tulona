@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi-Function Colour Ink Printer",
+   "Output Color": "Color and Black & White"
+  },
+  "Print": {
+   "Technology": "Inkjet (Piezoelectric)",
+   "Print Speed": "Black: 11ipm(ISO), 33ppm(Draft); Color: 6ipm(ISO), 15ppm(Draft)",
+   "Print Resolution": "5760 x 1440 dpi (Mono & Color)",
+   "First Print Out Time": "10sec (Mono), 16sec (Color)",
+   "Duty Cycle up to (Yield)": "Black: 4,500 Pages, Color: 7,500 Pages per bottle",
+   "Duplex": "Manual"
+  },
+  "Paper Information": {
+   "Paper Size": "A4, Letter, 8.5 x 13 Inch, A6, B5, B6, C6, DL, Envelopes",
+   "Paper Type": "Plain Paper, Premium Glossy Photo Paper, Envelopes",
+   "Input Capacity": "100 Sheets (Plain Paper), 20 Sheets (Premium Glossy Photo Paper)",
+   "Output Capacity": "30 Sheets (Plain Paper), 20 Sheets (Premium Glossy Photo Paper)"
+  },
+  "Physical Specs": {
+   "Color": "Black",
+   "Dimension": "361 x 162 x 317mm",
+   "Weight": "3.9 kg"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB, WiFi",
+   "Power Consumption": "Rated Voltage: AC 220-240 V, 50-60 Hz, 12.0W (Operating), 0.7W (Sleep), 0.2W (Power Off), 4.5W (Standby)"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "Ink Support: Black (4,500 Pages, 003), Cyan (7,500 Pages, 003), Magenta (7,500 Pages, 003), Yellow (7,500 Pages, 003)",
+   "Software": "Windows XP/Vista/7/8/8.1/10, Windows Server 2003-2019, Mac OS X 10.6.8 or later"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, Adapter/Power Cable with no warranty, Box Mandatory While Claiming"
+  },
+  "Image": {
+   "Model": "EcoTank L3350"
+  }
+ },
+ "key_features": [],
+ "model": "EcoTank L3350",
+ "warranty": "1-year Limited warranty, Adapter/Power Cable with no warranty, Box Mandatory Whi",
+ "fetched": "2026-11-11T09:41+06:00",
+ "source": "https://www.creatus.com.bd/epson-ecotank-l3350-a4-wifi-multifunction-inktank-printer",
+ "store": "creatus"
+}

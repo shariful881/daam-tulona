@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Air Cooler",
+   "Fan Speed": "300~1850 RPM±10%",
+   "Fan Airflow": "67.88 CFM",
+   "Noise": "≤29.4 dB(A)",
+   "Air Pressure": "2.04 mmAq",
+   "Connector": "4-pin PWM",
+   "Material": "Hydro Bearing"
+  },
+  "Dimension": {
+   "Product Dimensions": "125×95×155 mm(L×W×H)Heatsink Dimensions: 120×93×150 mm(L×W×H)",
+   "Heatpipe": "Ø6 mm×5 pcs",
+   "Fan Dimensions": "120×120×25 mm(L×W×H)"
+  },
+  "Physical Specification": {
+   "Weight": "861 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 300~1850 RPM±10%",
+  "Fan Airflow: 67.88 CFM",
+  "Fan Air Pressure: 2.04 mmAq"
+ ],
+ "warranty": "01-Year",
+ "fetched": "2026-11-11T09:50+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ag500-120mm-single-tower-cpu-cooler",
+ "store": "pchouse"
+}

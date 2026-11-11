@@ -1,0 +1,78 @@
+{
+ "specs": {
+  "Essentials": {
+   "Product Collection": "Intel® NUC Kit with 11th Generation Intel® Core™ Processors",
+   "Code Name": "Products formerly Tiger Canyon",
+   "Launch Date": "Q1’21",
+   "Expected Discontinuance": "1H’24",
+   "Supported Operating Systems": "Windows 10, 64-bit*, Windows 10 IoT Enterprise*, Red Hat Linux*, Ubuntu 20.04 LTS*",
+   "Board Number": "NUC11TNBi3",
+   "Board Form Factor": "UCFF (4″ x 4″)",
+   "Socket": "Soldered-down BGA",
+   "Internal Drive Form Factor": "M.2 and 2.5″ Drive",
+   "# of Internal Drives Supported": "3",
+   "Lithography": "10 nm SuperFin",
+   "TDP": "15 W",
+   "DC Input Voltage Supported": "12-24 VDC",
+   "Processor Included": "Intel® Core™ i3-1115G4 Processor (6M Cache, up to 4.10 GHz)",
+   "# of Cores": "2",
+   "# of Threads": "4",
+   "Max Turbo Frequency": "4.10 GHz",
+   "Recommended Customer Price": "$316.24 – $318.70"
+  },
+  "Supplemental Information": {
+   "Embedded Options Available": "No"
+  },
+  "Memory & Storage": {
+   "Max Memory Size (dependent on memory type)": "64 GB",
+   "Memory Types": "DDR4-3200 1.2V SO-DIMMs",
+   "Max # of Memory Channels": "2",
+   "Max # of DIMMs": "2",
+   "ECC Memory Supported ‡": "No"
+  },
+  "Processor Graphics": {
+   "Integrated Graphics ‡": "Yes",
+   "Graphics Output": "Dual HDMI 2.0b w/HDMI CEC, Dual DP 1.4a via Type C",
+   "# of Displays Supported ‡": "4"
+  },
+  "Expansion Options": {
+   "PCI Express Revision": "Gen 4 (m.2 22×80 slot); Gen 3 (otherwise)",
+   "PCI Express Configurations ‡": "PCIe x4 Gen 4: M.2 22×80 (key M) PCIe x1 Gen 3: M.2 22×42 (key B) PCIe x1: M.2 22×30 (key E)",
+   "M.2 Card Slot (wireless)": "22×30 (E)",
+   "M.2 Card Slot (storage)": "22×80 NVMe (M); 22×42 SATA (B)"
+  },
+  "I/O Specifications": {
+   "# of USB Ports": "4",
+   "USB Configuration": "Front: 2x USB 3.2 Rear: 2x USB 4 (type C), 1x USB 3.2, 1x USB 2.0 Internal: 1x USB 3.2 on m.2 22×42 (pins), 2x USB 2.0 (headers)",
+   "Total # of SATA Ports": "1",
+   "Serial Port via Internal Header": "Yes",
+   "Integrated LAN": "Intel® Ethernet Controller i225-LM",
+   "Integrated Wireless‡": "Intel® Wi-Fi 6 AX201",
+   "Integrated Bluetooth": "Yes",
+   "Additional Headers": "Front_panel (PWR, RST, 5V, 5Vsby, 3.3Vsby); Internal 2×2 power connector",
+   "# of Thunderbolt™ Ports": "1x Thunderbolt™ 4, 1x Thunderbolt™ 3"
+  },
+  "Package Specifications": {
+   "Chassis Dimensions": "117 x 112 x 54 [mm] (LxWxH)"
+  },
+  "Advanced Technologies": {
+   "Intel® Optane™ Memory Supported ‡": "No",
+   "Intel® ME Firmware Version": "15",
+   "Intel® Virtualization Technology (VT-x) ‡": "Yes",
+   "Intel® Platform Trust Technology (Intel® PTT)": "Yes"
+  },
+  "Security & Reliability": {
+   "Intel® AES New Instructions": "Yes"
+  }
+ },
+ "key_features": [
+  "Product Collection: Intel NUC Kit with 11th Generation Intel® Core Processors",
+  "Supported Operating Systems: Windows 10, 64-bit*, Windows 10 IoT Enterprise*, Red Hat Linux*, Ubuntu 20.04 LTS*",
+  "Board Number: NUC11TNBi3",
+  "Socket: Soldered-down BGA",
+  "Form Factor: M.2 and 2.5″ Drive"
+ ],
+ "fetched": "2026-11-11T09:48+06:00",
+ "source": "https://smartbd.com/product/intel-nuc-11-pro-kit-nuc11tnhi3/",
+ "store": "smartbd"
+}

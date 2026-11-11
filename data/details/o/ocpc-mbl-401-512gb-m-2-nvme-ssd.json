@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen4x4",
+   "Sequential R/W": "Read Speed (Max.) - 7000MB/s\nWrite Speed (Max.) - 2700MB/s",
+   "Others": "High Performance Gen4x4 Interface\nBlack Label Heat Spreader\nHigh Stability\nOS: Windows OS, Linux, Mac OS"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 year"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Form Factor: M.2 2280",
+  "Read Speed (Max): 7000MB/s",
+  "Write Speed (Max): 2700MB/s"
+ ],
+ "price": 14000,
+ "regular": 15400,
+ "status": "In Stock",
+ "code": "37806",
+ "brand": "OCPC",
+ "model": "MBL-401",
+ "warranty": "5 year",
+ "name": "OCPC MBL-401 512GB M.2 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "OCPC",
+  "OCPC MBL-401 512GB M.2 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.startech.com.bd/ocpc-mbl-401-512gb-nvme-ssd",
+ "store": "startech"
+}

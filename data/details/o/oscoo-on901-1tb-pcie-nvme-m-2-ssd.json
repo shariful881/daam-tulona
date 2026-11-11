@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "NVMe PCIe Gen3.0*4",
+   "Sequential R/W": "Up to 3500MB/s Read, 3000MB/s Write",
+   "TBW": "284 TBW",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T\nLow-profile graphene aluminum heat spreader"
+  },
+  "Physical Specification": {
+   "Dimension": "80x22x3.5mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor M.2",
+  "Interface: NVMe PCIe Gen3.0 x4",
+  "Read Speed: Up to 3500MB/s",
+  "Write Speed: Up to 3000MB/s"
+ ],
+ "price": 18500,
+ "regular": 20070,
+ "status": "In Stock",
+ "code": "44282",
+ "brand": "OSCOO",
+ "model": "ON901",
+ "warranty": "05 Years",
+ "name": "OSCOO ON901 1TB PCIe NVMe M.2 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "OSCOO",
+  "OSCOO ON901 1TB PCIe NVMe M.2 SSD"
+ ],
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.startech.com.bd/oscoo-on901-1tb-ssd",
+ "store": "startech"
+}

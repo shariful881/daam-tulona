@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "up to 4K 480Hz or 8K 165Hz with DSC",
+   "Core Clock": "2527 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128-bit",
+   "Memory Interface": "PCI Express 5.0 x8",
+   "CUDA Cores": "3840"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1b with UHBR20\n(up to 4K 480Hz or 8K 165Hz with DSC)",
+   "HDMI": "1 x HDMI Connector\n(Supports 4K 480Hz HDR or 8K 120Hz HDR with DSC, and Gaming VRR as specified in the HDMI 2.1b Specification)",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin power input",
+   "Recommended PSU": "550W",
+   "Consumption": "145W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "220.5mm x 120.25mm x 41.6mm / 8.7\" x 4.7\" x 1.6\"",
+   "Others": "Powered by the NVIDIA Blackwell architecture and DLSS 4\n8-Pin PCIe power connector\nSFF-Ready compact Graphics Card\nMetal Backplate\nBladeLink Fans\nSlot Size: 2\nSupported OS: Windows 11 / Windows 10 64-bit (v1809 November 2018 or later)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 years warranty. (3-year standard warranty + 2-years will be extended after online registration by the customer within 28 days of Purchase)."
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5.0 x8",
+  "Engine Clock: 2527 MHz, Memory Clock: 28 Gbps",
+  "Memory Bus: 512-bit, CUDA Cores: 3840",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "status": "Out Of Stock",
+ "code": "44064",
+ "brand": "ZOTAC",
+ "mpn": "ZT-B50600Q-10M",
+ "model": "GAMING GeForce RTX 5060 Twin Edge OC White Edition",
+ "warranty": "5 years warranty. (3-year standard warranty + 2-years will be extended after online registration by the customer within 28 days of Purchase).",
+ "name": "ZOTAC GAMING GeForce RTX 5060 Twin Edge OC White Edition 8GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ZOTAC",
+  "ZOTAC GAMING GeForce RTX 5060 Twin Edge OC White Edition 8GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/zotac-gaming-geforce-rtx-5060-twin-edge-oc-white-graphics-card",
+ "store": "startech"
+}

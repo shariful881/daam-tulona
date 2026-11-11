@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "PCIe Gen 5.0 x4",
+   "Sequential R/W": "UP TO 12,400MB/sec Sequential Read\nUP TO 11,800MB/sec Sequential Write",
+   "TBW": "1400",
+   "Others": "Heatsink: Black\nEncryption: AES 256-bit Encryption"
+  },
+  "Physical Specification": {
+   "Weight": "0.030kg",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +70°C",
+   "Storage Temperature": "-40°C to +85°C",
+   "Shock resistance": "1,500 G",
+   "Vibration Resistance": "20 Hz~80 Hz/1.52 mm, 80 Hz~2000 Hz/20G"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "06 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 5.0 x4",
+  "Form Factor M.2 2280",
+  "Sequential Read: Up to 12,400 MB/sec",
+  "Sequential Write: Up to 11,800 MB/sec"
+ ],
+ "price": 6300065000,
+ "regular": 71500,
+ "status": "In Stock",
+ "code": "51778",
+ "brand": "Corsair",
+ "mpn": "CSSD-F2000GBMP700PNH",
+ "model": "MP700 PRO",
+ "warranty": "06 years",
+ "name": "Corsair MP700 PRO 2TB PCIe Gen5 NVMe M.2 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Corsair",
+  "Corsair MP700 PRO 2TB PCIe Gen5 NVMe M.2 SSD"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-mp700-pro-2tb-gen5-ssd",
+ "store": "startech"
+}

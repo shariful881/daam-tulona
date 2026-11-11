@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM4, support for: AMD Ryzen 5000\nG-Series Processors/ AMD Ryzen 5000 Series Processors/ AMD Ryzen 4000 G-Series\nProcessors/ AMD Ryzen 3000 and Ryzen\n3000 G-Series Processors",
+   "Chipset": "AMD A520",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 23.3cm x 19.8cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel"
+  },
+  "Memory": {
+   "Slots": "PCI\nCPU: 1 x PCI Express x16 slot,\nsupporting PCIe 3.0 and running at x16\nChipset: 1 x PCI Express x1 slot,\nsupporting PCIe 3.0 and running at x1\nM.2 Socket\n1 x M.2 connector"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor:\n1 x HDMI port, supporting a\nmaximum resolution of 4096x2160@60 Hz\nSupport for HDMI 2.0 version and HDCP 2.2.\nMax Shared Memory\n16 GB"
+  },
+  "Connector & Ports": {
+   "USB (s)": "CPU:\n4 x USB 3.2 Gen 1 ports on the back panel\nChipset:\n2 x USB 3.2 Gen 1 ports available\nthrough the internal USB header\n6 x USB 2.0/1.1 ports\n(2 ports on the back panel,\n4 ports available through\nthe internal USB headers)",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/ 100 Mbps)",
+   "Supported Storage": "CPU:\n1 x M.2 connector\n(Socket 3, M key, type 2280 SATA\nand PCIe 3.0 x4/x2 SSD support)\nChipset:\n4 x SATA 6Gb/s connectors"
+  },
+  "Others": {
+   "Special Features": "Support for APP Center\n* Available applications in APP Center\nmay vary by motherboard model.\nSupported functions of each\napplication may also vary\ndepending on motherboard\nspecifications.\n@BIOS\nEasyTune\nSmart Backup\nSystem Information Viewer\nSupport for Q-Flash\nSupport for Xpress Install",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 5000/ 5000G/4000G/ 3000/3000G Series CPU for AM4 Socket",
+  "Supported RAM: 2 x DDR4, up to 64GB, 5100(O.C.)",
+  "Graphics Output: 1 x HDMI, 1x D-Sub",
+  "Features: 1 x M.2 Slot, Realtek GbE LAN"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-a520m-k-v2-motherboard",
+ "store": "pchouse"
+}

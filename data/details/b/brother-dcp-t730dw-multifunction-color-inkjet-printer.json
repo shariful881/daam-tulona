@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi-function Color Inkjet Printer",
+   "Output Color": "24 bit colour processing"
+  },
+  "Print": {
+   "Technology": "Inkjet",
+   "Print Speed": "Black print speed based on ISO (ppm): 16, Black print speed (max ppm): 27, Maximum color print speed based on ISO (ppm): 15, Color print speed (max ppm): 23",
+   "Print Resolution": "6000 x 1200 dpi",
+   "First Print Out Time": "Less than 15 seconds",
+   "Duty Cycle up to (Yield)": "Up to 2,500 pages",
+   "Duplex": "Auto"
+  },
+  "Paper Information": {
+   "Paper Size": "Letter, A4, Legal, Mexico Legal, India Legal, Folio, Executive, A5, A6, Envelopes (C5, Com-10, DL, Monarch), Photo (4\" x 6\")/(10 x 15 cm), Photo L (3.5\" x 5\")/(9 x 13 cm), Photo 2L (5\" x 7\")/(13 x 18 cm), Index card (5\" x 8\")/(13 x 20 cm)",
+   "Paper Type": "Plain Paper, Inkjet Paper (coated paper), Glossy Paper, Recycled Paper",
+   "Paper Weight": "64 to 300 gsm (depending on tray slot)",
+   "Input Capacity": "Up to 150 sheets of 20 lb (80 g/m²) plain paper",
+   "Output Capacity": "Up to 150 sheets of 20 lb (80 g/m²) plain paper"
+  },
+  "Physical Specs": {
+   "Color": "Black",
+   "Dimension": "390mm (W) x 343mm (D) x 183mm (H)",
+   "Weight": "7.9 kg"
+  },
+  "Technical Specs": {
+   "Memory": "128MB",
+   "Display": "1 line LCD",
+   "Connectivity": "AirPrint, Brother Mobile Connect, Mopria, Wi-Fi Direct, USB 2.0",
+   "Power Consumption": "Copying: Approx. 16 W, Ready: Approx. 2.5 W, Sleep: Approx. 0.6 W, Power Off: Approx. 0.15 W"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "Ink/Refill: BTD100BK (7,500 pages), BTD100C Cyan (5,000 pages), BTD100M Magenta (5,000 pages), BTD100Y Yellow (5,000 pages)",
+   "Software": "Brother Mobile Connect, AirPrint, Mopria, iPrint&Scan Desktop App"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and a Box Mandatory While Claiming (1 year or 30,000 pages which comes first)"
+  },
+  "Image": {
+   "Model": "DCP-T730DW"
+  }
+ },
+ "key_features": [],
+ "model": "DCP-T730DW",
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and a Box Mand",
+ "fetched": "2026-11-11T09:38+06:00",
+ "source": "https://www.creatus.com.bd/brother-dcp-t730dw-multifunction-color-inkjet-printer",
+ "store": "creatus"
+}

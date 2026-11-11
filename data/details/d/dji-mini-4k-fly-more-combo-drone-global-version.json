@@ -1,0 +1,77 @@
+{
+ "specs": {
+  "Aircraft": {
+   "Hover Accuracy Range": "Vertical:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)\nHorizontal:\n±0.3 m (with vision positioning)\n±1.5 m (with GNSS positioning)",
+   "Max Ascent Speed": "5 m/s",
+   "Max Descent Speed": "3.5 m/s",
+   "Max Flight Time": "31 minutes",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Satellite Positioning Systems": "GPS + GLONASS + Galileo",
+   "Others": "Max Control Speed (tilt): 100°/s"
+  },
+  "Gimbal": {
+   "Angular Vibration Range": "±0.01°",
+   "Max Controllable Angular Speed": "Tilt:\n-90° to 0° (default)\n-90° to 20° (extended)",
+   "Stabilization": "3-axis mechanical gimbal (tilt, roll, and pan)"
+  },
+  "Controllable Range": {
+   "Tilt": "-110° to 35°",
+   "Roll": "-35° to 35°",
+   "Pan": "-20° to 20°"
+  },
+  "Intelligent Flight Battery": {
+   "Battery Type": "Li-ion",
+   "Capacity": "2250 mAh",
+   "Charging Temperature Range": "5° to 40° C (41° to 104° F)",
+   "Net Weight": "82.5 g",
+   "Voltage": "7.7 V"
+  },
+  "App / Live View": {
+   "Mobile App": "DJI Fly",
+   "Live View Quality": "1080p/30fps",
+   "Latency": "Aircraft + Remote Controller: Approx. 120 ms"
+  },
+  "Remote Controller": {
+   "Transmitter Power (EIRP)": "2.400-2.4835 GHz:\n< 26 dBm (FCC)\n< 20 dBm (CE/SRRC/MIC)\n5.725-5.850 GHz:\n< 26 dBm (FCC)\n< 23 dBm (SRRC)\n< 14 dBm (CE)"
+  },
+  "Camera": {
+   "Electronic Shutter Speed": "Electronic Shutter: 2-1/8000 s",
+   "Image Size": "4000×3000",
+   "Photo": "JPEG/DNG (RAW)",
+   "Sensor": "1/2.3-inch CMOS, Effective Pixels: 12 MP",
+   "Supported File Systems": "FAT32 (≤ 32 GB)\nexFAT (> 32 GB)",
+   "Video Recording": "Dronie, Helix, Rocket, Circle, and Boomerang",
+   "Video": "MP4 (MPEG-4 AVC/H.264)"
+  },
+  "ISO Range": {
+   "Video": "100-3200",
+   "Photo": "100-3200"
+  },
+  "Lens": {
+   "FOV": "83°",
+   "Format Equivalent": "24 mm",
+   "Aperture": "f/2.8",
+   "Focus": "1 m to ∞"
+  },
+  "Still Photography Modes": {
+   "Single Shot": "12 MP",
+   "Timed": "12 MP",
+   "JPEG": "2/3/5/7/10/15/20/30/60 s",
+   "JPEG + RAW": "5/7/10/15/20/30/60 s",
+   "Automatic Exposure Bracketing (AEB)": "12 MP, 3 frames at 2/3 EV step",
+   "Panorama": "Sphere, 180°, and Wide Angle"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year DJI Warranty. (Warranty will be void if the product has been physically damaged.)"
+  },
+  "Image": {
+   "Model": "Mini 4K Fly More Combo"
+  }
+ },
+ "key_features": [],
+ "model": "Mini 4K Fly More Combo",
+ "warranty": "1 Year DJI Warranty. (Warranty will be void if the product has been physically d",
+ "fetched": "2026-11-11T09:33+06:00",
+ "source": "https://www.creatus.com.bd/dji-mini-4k-fly-more-combo-drone-global-version",
+ "store": "creatus"
+}

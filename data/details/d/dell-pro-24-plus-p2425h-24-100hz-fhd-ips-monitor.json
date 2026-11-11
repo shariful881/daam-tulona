@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "P2425H",
+   "Monitor": "Dell 24 Monitor – P2425H",
+   "Diagonal Viewing Size": "60.47 cm (23.8”)",
+   "PRESET DISPLAY AREA (H X V)": "527.04 mm x 296.46 mm (20.75” x 11.67”)",
+   "Maximum Preset Resolution": "1920 x 1080 at 100 Hz",
+   "Aspect Ratio": "16:09",
+   "Pixel Pitch": "0.2745 mm x 0.2745 mm",
+   "Pixel Per Inch (PPI)": "92.53",
+   "Brightness": "250 cd/m² (typical)",
+   "Color Support": "Color gamut: sRGB 99%",
+   "Color depth": "16.7 million colors",
+   "Contrast Ratio": "1,500: 1 (typical)",
+   "Viewing Angle": "178° vertical / 178° horizontal",
+   "Response Time": "5 ms typical (Fast) (gray to gray)",
+   "Panel Type": "In-Plane Switching Technology (IPS)",
+   "Display Screen Coating": "Anti-Glare",
+   "Backlight Technology": "LED edgelight system",
+   "ComfortView Plus with Flicker-free screen": "Yes",
+   "Dell Display Manager Compatibility": "Yes",
+   "Remote Asset Management": "Yes, via Dell Command I Monitor",
+   "GSA/TAA": "Yes",
+   "Optional Soundbar": "SB521A",
+   "Connectors": "1 x HDMI 1.4 (HDCP 1.4)"
+  },
+  "1 x VGA": {
+   "HDCP Support": "HDMI HDCP 1.4"
+  },
+  "Dp Hdcp 1.4": {
+   "Height adjustable stand": "150 mm",
+   "Tilt": "(-5° to 21°)",
+   "Swivel": "(-45° to 45°)",
+   "Pivot": "(-90° to 90°)",
+   "Flat Panel Mount Interface": "VESA (100 mm x 100 mm)",
+   "AC input voltage/frequency/current": "100 VAC to 240 VAC / 50 Hz or 60 Hz ± 3 Hz / 1.5 A (typical)",
+   "Power Consumption (Operational)": "0.3 W (Off mode)"
+  },
+  "65 W (Max.)": {
+   "Power Consumption Stand by / Sleep": "Less than 0.3W",
+   "Dimensions (with stand) Height": "364.00 mm ~ 496.53 mm (14.33” ~ 19.55”)",
+   "Dimensions (with stand) Width": "538.64 mm (21.21”)",
+   "Dimensions (with stand)Depth": "181.75 mm (7.16”)",
+   "Weight (panel only – for VESA mount/ no cables)": "3.12 kg (6.88 lbs)",
+   "Weight (with packaging)": "6.78 kg (14.95 lbs)",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 5ms GTG (Fast), Anti-glare",
+  "Connectivity: 1x DisplayPort, 1x HDMI, 1x VGA",
+  "Features: Flicker Free, Low Blue Light, TUV Eye Comfort"
+ ],
+ "model": "P2425H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://smartbd.com/product/dell-pro-24-plus-p2425h-24-inch-100hz-fhd-1920x1080-ips-monitor/",
+ "store": "smartbd"
+}

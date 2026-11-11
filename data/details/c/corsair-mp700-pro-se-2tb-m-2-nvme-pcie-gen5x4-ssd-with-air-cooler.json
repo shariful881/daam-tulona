@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "PCIe Gen 5.0 x4",
+   "Sequential R/W": "UP TO 14000MB/sec Sequential Read\nUP TO 12000MB/sec Sequential Write",
+   "TBW": "1400",
+   "Others": "Max Random Read QD32 IOMeter: Up to 1.7M IOPS\nMax Random Write QD32 IOMeter: Up to 1.6M IOPS\nHeatsink: Active Cooler\nSSD Compatibility: M.2 2280 Interface Connector Windows 10, 11, Mac OS X\nEncryption: AES 256-bit Encryption"
+  },
+  "Physical Specification": {
+   "Weight": "0.14kg",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +70°C",
+   "Storage Temperature": "-40°C to +85°C",
+   "Shock resistance": "1,500 G",
+   "Vibration Resistance": "20 Hz~80 Hz/1.52 mm, 80 Hz~2000 Hz/20G"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 5.0 x4",
+  "Form Factor M.2 2280",
+  "Sequential Read: Up to 14000MB/sec",
+  "Sequential Write: Up to 12000MB/sec"
+ ],
+ "price": 6300064000,
+ "regular": 70400,
+ "status": "In Stock",
+ "code": "45119",
+ "brand": "Corsair",
+ "mpn": "F2000GBMP700PROS",
+ "model": "MP700 Pro SE",
+ "warranty": "6 years",
+ "name": "Corsair MP700 Pro SE 2TB M.2 NVMe PCIe Gen5x4 SSD with Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Corsair",
+  "Corsair MP700 Pro SE 2TB M.2 NVMe PCIe Gen5x4 SSD with Air Cooler"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-mp700-pro-se-2tb-ssd",
+ "store": "startech"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Fan Speed": "1300±10%RPM",
+   "Air Flow": "43.56CFM",
+   "Noise": "23.7dB(A)"
+  },
+  "Input Current": {
+   "Rated Current": "0.07±10%A",
+   "Power Input": "0.84W"
+  },
+  "Operating Voltage/Power Range": {
+   "Operating Voltage": "10.8～13.2VDC",
+   "Rated Voltage": "12VDC",
+   "Started Voltage": "7VDC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120X120X25mm"
+  },
+  "Warranty Informations": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Operating voltage: 10.8–13.2VDC",
+  "Rated voltage: 12VDC",
+  "Start voltage: 7VDC"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://fourstarit.com.bd/p/deepcool-xfan-120-case-cooling-fan",
+ "store": "fourstar"
+}

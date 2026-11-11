@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Type": "DDR5",
+   "Frequency": "6000MHz",
+   "Latency": "40-40-40-77"
+  },
+  "Operating voltage": {
+   "Tested Voltage": "1.40V",
+   "SPD Voltage": "1.1V"
+  },
+  "Others": {
+   "Memory Compatibility": "AMD 600 Series",
+   "Performance Profile": "AMD EXPO",
+   "Power Draw": "Overclock PMIC"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Gray",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "DOMINATOR TITANIUM RGB DDR5"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: DDR5 6000MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.40V/C30"
+ ],
+ "model": "DOMINATOR TITANIUM RGB DDR5",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T10:05+06:00",
+ "source": "https://www.creatus.com.bd/corsair-dominator-titanium-rgb-16gb-ddr5-6000mhz-ram",
+ "store": "creatus"
+}

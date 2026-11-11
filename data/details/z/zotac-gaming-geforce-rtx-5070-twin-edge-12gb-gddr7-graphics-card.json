@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "up to 4K 480Hz or 8K 165Hz with DSC",
+   "Core Clock": "2512 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "192-bit",
+   "CUDA Cores": "6144",
+   "Memory Interface": "PCI Express 5.0 x16"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI Connector\n(Supports 4K 120Hz HDR, 8K 60Hz HDR, and Variable Refresh Rate as specified in the HDMI 2.1b Specification)",
+   "HDCP": "2.3",
+   "Display Port": "3 x DisplayPort 2.1b with UHBR203 x DisplayPort 2.1b with UHBR20\n(up to 4K 480Hz or 8K 165Hz with DSC)"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 12v-2x6 power input",
+   "Recommended PSU": "650W",
+   "Consumption": "250W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Warranty Information": {
+   "Warranty": "Total warranty: 5 years (3-year standard warranty + 2-years will be extended after online\nregistration by the customer within 28 days of Purchase)"
+  },
+  "Image": {
+   "Model": "GAMING GeForce RTX 5070 Twin Edge"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, PCI Express 5.0 x16",
+  "Engine Clock: 2512 MHz, CUDA Cores: 6144",
+  "Memory Clock: 28 Gbps, Memory Bus: 192-bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "model": "GAMING GeForce RTX 5070 Twin Edge",
+ "warranty": "Total warranty: 5 years (3-year standard warranty + 2-years will be extended aft",
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.creatus.com.bd/zotac-gaming-geforce-rtx-5070-twin-edge-12gb-graphics-card",
+ "store": "creatus"
+}

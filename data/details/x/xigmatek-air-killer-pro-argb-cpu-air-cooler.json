@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Air Cooler",
+   "Fan Speed": "800-1,800 RPM (PWM) ± 10%",
+   "Fan Airflow": "82.2 CFM(Max)",
+   "Noise": "≤25.3 dBA",
+   "Air Pressure": "2.55 mm-H2O(Max)",
+   "Connector": "4-Pin (PWM)",
+   "Material": "Heat Sink Material: 4pcs Heat Pipes / Aluminum Fins"
+  },
+  "Physical Specification": {
+   "Dimension": "Product Dimensions: 128x76x160mm (LxWxH)\nHeat Sink Dimensions: 128x50x155mm (LxWxH)\nHeat Pipe Dimensions: Ø6 mm\nFan Dimensions: 120 x 120 x 25 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 2066/ 2011-V3/ 2011/ 1700/ 115x/ 1200 Socket",
+   "AMD": "AM4/AM3+/AM3 Socket"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "High-Performance Heat Dissipation & Air Flow",
+  "Reinforced Plastic Steel Backplate",
+  "Silent Operation at 25.3 dBA",
+  "Supports Intel and AMD"
+ ],
+ "price": 3280,
+ "regular": 3560,
+ "status": "In Stock",
+ "code": "21136",
+ "brand": "Xigmatek",
+ "mpn": "EN47895",
+ "model": "AIR-KILLER PRO",
+ "warranty": "1 year",
+ "name": "Xigmatek AIR-KILLER PRO ARGB CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Xigmatek",
+  "Xigmatek AIR-KILLER PRO ARGB CPU Air Cooler"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/xigmatek-air-killer-pro-argb-cpu-air-cooler",
+ "store": "startech"
+}

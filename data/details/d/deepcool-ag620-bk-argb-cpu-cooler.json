@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "300~1850 RPM±10%",
+   "Fan Airflow": "67.88 CFM",
+   "Noise": "≤29.4 dB(A)",
+   "Air Pressure": "2.04 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Dimension": {
+   "Product Dimensions": "129×136×157 mm",
+   "Heatsink Dimensions": "127×110×157 mm",
+   "Fan Dimensions": "120×120×25 mm"
+  },
+  "Physical Specification": {
+   "Weight": "1300 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "01 years"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 300~1850 RPM±10%",
+  "Fan Airflow: 67.88 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "warranty": "01 years",
+ "fetched": "2026-11-11T09:51+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ag620-bk-argb-cpu-cooler",
+ "store": "pchouse"
+}

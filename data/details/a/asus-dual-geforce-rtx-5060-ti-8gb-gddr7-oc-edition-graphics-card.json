@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "4608",
+   "Others": "AI Performance: 767 TOPs"
+  },
+  "Core Clock": {
+   "OC mode": "2632MHz",
+   "Default mode": "2602MHz (Boost Clock)"
+  },
+  "Interface": {
+   "Display Port": "3x Native DisplayPort 2.1b",
+   "HDMI": "1x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "229 x 120 x 50mm",
+   "Others": "2.5 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2602 MHz (Boost Clock), 2632 MHz (OC Mode)",
+  "Memory: 8GB GDDR7; Speed: 28 Gbps",
+  "CUDA Core: 4608, AI Performance: 767 TOPs",
+  "Output: 1x HDMI 2.1b, 3x DisplayPort 2.1b"
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:01+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-geforce-rtx-5060-ti-8gb-oc-edition-graphics-card",
+ "store": "pchouse"
+}

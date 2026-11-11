@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM4, support for:\nAMD Ryzen 5000 G-Series Processors/\nAMD Ryzen 5000 Series Processors/\nAMD Ryzen 4000 G-Series Processors/\nAMD Ryzen 3000 G-Series Processors/\nAMD Ryzen 3000 Series Processors",
+   "Chipset": "AMD B550",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Gbps/10 Mbps)",
+   "Audio": "Realtek® ALC1220 CODEC\n* The back panel line out jack supports DSD audio.\nHigh Definition Audio - 2/4/5.1/7.1-channel"
+  },
+  "Others": {
+   "Special Features": "Support for Windows 11 64-bit\nSupport for Windows 10 64-bit",
+   "Bundled Software": "Norton® Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 year",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b550m-ds3h-r2-motherboard",
+ "store": "pchouse"
+}

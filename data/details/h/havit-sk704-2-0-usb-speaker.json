@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Main Spec": {
+   "Drivers": "50mm",
+   "Frequency Response": "90Hz - 18kHz",
+   "Input Sensitivity": "75dB",
+   "Wired": "yes"
+  },
+  "Output": {
+   "Output Power": "3Watt x 2"
+  },
+  "Connectivity": {
+   "USB": "yes",
+   "Input Connector": "USB wired"
+  },
+  "Others": {
+   "Others": "Resistance: 4 Ohm;"
+  },
+  "Physical Specification": {
+   "Dimension": "72 x 77 x 82.5mm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Output power: 3Watt x 2 (RMS)",
+  "Frequency: 90Hz - 18kHz",
+  "Sensitivity: 75dB",
+  "Driver Unit: 50mm"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.pchouse.com.bd/havit-sk704-usb-speaker",
+ "store": "pchouse"
+}

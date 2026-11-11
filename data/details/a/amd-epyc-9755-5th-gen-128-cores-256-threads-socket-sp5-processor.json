@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.7 GHz",
+   "Maximum Turbo Frequency": "4.1 GHz",
+   "Cache": "512 MB",
+   "Cores": "128",
+   "TDP": "500W (cTDP 450-500W)",
+   "Threads": "256",
+   "Supported Technologies": "AMD Infinity Guard, AMD Infinity Architecture",
+   "CPU Socket": "Socket SP5"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "12",
+   "Maximum Size": "Up to 6400 MT/s (Memory Spec)",
+   "Maximum Speed": "Up to 6400 MT/s",
+   "Type": "DDR5"
+  },
+  "Graphics Specifications": {
+   "Core Count": "128-Core"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "EPYC 9755"
+  }
+ },
+ "key_features": [],
+ "model": "EPYC 9755",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/amd-epyc-9755-5th-gen-processor",
+ "store": "creatus"
+}

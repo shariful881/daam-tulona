@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL36-36-36-96",
+   "Others": "LED Lighting: RGB"
+  },
+  "Physical dimension": {
+   "Dimension": "138mm (L) x 41.7mm (H) x 9mm (W)",
+   "Heat Sink Color": "Black",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Type: DDR5",
+  "Frequency: 6000MHz",
+  "CAS Latency: CL36-36-36-96",
+  "Voltage: 1.35V, Profile: AMD E.X.P.O"
+ ],
+ "price": 3129934500,
+ "regular": 35690,
+ "status": "In Stock",
+ "code": "51302",
+ "brand": "V-Color",
+ "mpn": "TMXSAL1660836KWK",
+ "model": "Manta XSky RGB",
+ "warranty": "Product Lifetime Warranty",
+ "name": "V-Color Manta XSky RGB 16GB DDR5 6000MHz CL36 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "V-Color",
+  "V-Color Manta XSky RGB 16GB DDR5 6000MHz CL36 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:19+06:00",
+ "source": "https://www.startech.com.bd/v-color-manta-xsky-rgb-16gb-ddr5-ram",
+ "store": "startech"
+}

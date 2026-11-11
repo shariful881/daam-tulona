@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1700 for Intel Core 14th & 13th Gen Processors, Intel Core 12th Gen, Pentium Gold and Celeron Processors*\nSupports up to Intel 65W CPU\nSupports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0",
+   "Chipset": "Intel H610 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9 inch x 7.7 inch (22.6 cm x 19.5 cm )",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers"
+  },
+  "General Information": {
+   "Graphics": "1 x VGA port\n1 x HDMITM port**\n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n** Supports 4K@60Hz as specified in HDMITM 2.1."
+  },
+  "Expansion Slots": {
+   "PCI": "Intel Core Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel H610 Chipset\n1 x PCIe 3.0 x1 slot"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "3200MHz/ 3000MHz/ 2933MHz/ 2800MHz/ 2666MHz/ 2400MHz/ 2133MHz Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports Intel Extreme Memory Profile (XMP)\nOptiMem II"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "Rear USB (Total 6 ports)\n2 x USB 3.2 Gen 1(5G) ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 4 ports)\n1 x USB 3.2 Gen 1(5G) header supports additional 2 USB 3.2 Gen 1 ports\n1 x USB 2.0 header supports additional 2 USB 2.0 ports",
+   "Supported Storage": "Total supports 1 x M.2 slot and 4 x SATA 6Gb/s ports\nIntel H610 Chipset\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n4 x SATA 6Gb/s ports",
+   "Audio": "3 x Audio jacks"
+  },
+  "Others": {
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\nEPU\nDIGI+ VRM\nPC Cleaner\nASUS CPU-Z\nNorton 360 for Deluxe (60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years warranty"
+  },
+  "Image": {
+   "Model": "PRIME H610M-CS D4"
+  },
+  "Product List": {
+   "Best Motherboard price list in bd": "Price",
+   "Asus PRIME B760M-K DDR5 mATX Motherboard": "16,799৳\n17,600৳",
+   "ASUS TUF Gaming B660M-E D4 12th Gen Motherboard": "20,200৳\n23,200৳",
+   "Asus H81M-K 4th Gen Motherboard": "9,299৳\n11,000৳",
+   "Asus PRIME B760M-A 14th Gen mATX Motherboard": "19,999৳\n27,100৳",
+   "ASUS PRIME H610I-PLUS LGA1700 Mini-ITX Motherboard": "17,350৳\n17,400৳"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+  "Supported Memory: 2 x DIMM, Max. 64GB, DDR4",
+  "Graphics Output: 1 x VGA, 1 x HDMI",
+  "Features: 1 x Realtek 1Gb Ethernet"
+ ],
+ "model": "PRIME H610M-CS D4",
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:59+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-h610m-cs-d4-motherboard",
+ "store": "creatus"
+}

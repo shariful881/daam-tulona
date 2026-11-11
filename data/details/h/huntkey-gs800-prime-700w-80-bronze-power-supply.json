@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Certification": "80 Plus Bronze(EU)",
+   "Fan Size": "120 mm"
+  },
+  "Features": {
+   "Others": "PFC Type: A-PFC/180V-264V\nTopology Structure: LLC+DC-DC\nHydraulic Bearing Fan\nP(4+4) Length: 70CM\n(20+4)Pin Length: 50CM\nMTBF: ≥50,000 Hours\nSafety Standards: CE, CB\nProtections: SCP, OPP, OVP, UVP, OCP CE\nTopological Structure: LLC + DC - DC"
+  },
+  "Output": {
+   "Total Power": "700W"
+  },
+  "Connectors": {
+   "Main Power": "ATX12V",
+   "PCI-E": "P(6+2)PIN*2",
+   "SATA": "4 Connecters"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 700W",
+  "Energy Rating: 80 Plus Bronze(EU)",
+  "Cooling Fan: 12CM Hydraulic Bearing Fan"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/huntkey-gs800-prime-700w-bronze-power-supply",
+ "store": "pchouse"
+}

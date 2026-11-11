@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "TBD",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "192-bit",
+   "Memory Interface": "PCI Express 5.0",
+   "CUDA Cores": "6144"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "306 x 126 x 50 mm\n12 x 5 x 2 inch"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, CUDA Core: 6144",
+  "Memory Speed: 28 Gbps, Memory Interface: 192-bit",
+  "Bus Standard: PCI Express 5.0, Resolution: Max 7680 x 4320",
+  "Output Ports: 1x Native HDMI 2.1b, 3x Native DisplayPort 2.1a"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.pchouse.com.bd/asus-prime-geforce-rtx-5070-oc-12gb-gddr7",
+ "store": "pchouse"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "4.4 GHz",
+   "Maximum Turbo Frequency": "Up to 5.5 GHz",
+   "Type": "DDR5",
+   "Cores": "12",
+   "TDP": "120W",
+   "Threads": "24",
+   "Supported Technologies": "AMD EXPO Technology\nAMD Ryzen Technologies"
+  },
+  "Cache": {
+   "L1 Cache": "960 KB",
+   "L2 Cache": "12 MB",
+   "L3 Cache": "128 MB"
+  },
+  "Memory Specifications": {
+   "Core Count": "2",
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "2x1R DDR5-5600\n2x2R DDR5-5600\n4x1R DDR5-3600\n4x2R DDR5-3600"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "AMD Radeon Graphics",
+   "Max Dynamic Frequency": "2200 MHz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Ryzen 9 9900X3D"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 4.4GHz Up to 5.5GHz",
+  "Cores: 12; Threads: 24",
+  "Cache: L1: 960KB; L2: 12MB; L3: 128MB",
+  "CPU Socket: AM5"
+ ],
+ "model": "Ryzen 9 9900X3D",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-9-9900x3d-processor",
+ "store": "creatus"
+}

@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen5 x4",
+   "Flash Type": "3D NAND",
+   "MTBF": "2,000,000 hours",
+   "Sequential R/W": "Sequential Read\nUp to 14,000MB/s (PC/Laptop)*, up to 6,500MB/s (PS5)*\nSequential Write\nUp to 13,000MB/s*",
+   "TBW": "2,960TB"
+  },
+  "Specification": {
+   "Controls": "SM2508"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C - 70°C",
+   "Storage Temperature": "-40°C - 85°C",
+   "Shock resistance": "1,500G/0.5ms"
+  },
+  "Physical Specification": {
+   "Weight": "12g / 0.42oz (w/ heatsink)\n8g / 0.28oz (w/o heatsink)"
+  },
+  "Warranty Information": {
+   "Warranty": "5-year limited warranty"
+  },
+  "Image": {
+   "Model": "MARS 980 BLADE"
+  }
+ },
+ "key_features": [],
+ "model": "MARS 980 BLADE",
+ "warranty": "5-year limited warranty",
+ "fetched": "2026-11-11T09:51+06:00",
+ "source": "https://www.creatus.com.bd/adata-xpg-mars-980-blade-2tb-ssd",
+ "store": "creatus"
+}

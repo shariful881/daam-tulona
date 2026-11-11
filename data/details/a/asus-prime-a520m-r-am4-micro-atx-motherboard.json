@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM4 for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000\nSeries/ 3000 G-Series Desktop Processors",
+   "Chipset": "A520",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX Form Factor\n9.3 inch x 7.6 inch ( 23.6 cm x 19.3 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD A520 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "Supports 1 x M.2"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port**\n* Graphics specifications may vary between CPU types"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "USB (s)": "Rear USB (Total 6 ports)\n4 x USB 5Gbps ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 6 ports)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet\nASUS LANGuard",
+   "Supported Storage": "1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)",
+   "Audio": "3 x Audio jacks"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage protection\n- SafeSlot Core\n- Stainless-steel back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design"
+  },
+  "Warranty Information": {
+   "Warranty": "03-Year Warranty"
+  },
+  "Image": {
+   "Model": "PRIME A520M-R"
+  }
+ },
+ "key_features": [
+  "CPU: AMD AM4 Socket for AMD Ryzen 5000 / 4000 / 3000 Series",
+  "Supported RAM: 2 x DIMM ,Max 64GB, Up to 5100(OC)",
+  "Output: 1 x HDMI",
+  "Features: 1 x M.2, 4 x SATA 6Gb/s ports"
+ ],
+ "model": "PRIME A520M-R",
+ "warranty": "03-Year Warranty",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-a520m-r-motherboard",
+ "store": "creatus"
+}

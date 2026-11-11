@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Video Compression:",
+   "Power": "12V DC ± 5%, 5.5mm Coaxial Power Plug",
+   "Image Sensor": "1/2.8” Progressive Scan CMOS",
+   "Lens": "Type: Fixed Focal Lens",
+   "IR Distance": "30m"
+  },
+  "Features": {
+   "Dimension": "115 × 86 × 115 mm",
+   "Interface": "1 RJ45 10/100M Self-Adaptive Ethernet Port",
+   "Others": "Human & Vehicle Classification, Area Intrusion Detection, Line-Crossing Detection, People Detection, Vehicle Detection, Region Entering Detection, Region Exiting Detection, Object Abandoned Detection, Object Removal Detection, Motion Detection, Video Tampering Detection, Exception ( Illegal Login)",
+   "Weight": "0.26 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/2.8” Progressive Scan CMOS",
+  "Resolution: Max. 3 MP (2304 × 1296) at 25/30 fps.",
+  "Lens: 2.8mm, Aperture: F2.2, IR Distance: 45 meters",
+  "Features: PoE, IP67, IK10, DWDR, 3D DNR, Smart Detection"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:35+06:00",
+ "source": "https://www.pchouse.com.bd/tp-link-vigi-c230i-ip-camera",
+ "store": "pchouse"
+}

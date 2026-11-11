@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen series processors that fit the AMD AM4 slot of the motherboard",
+   "Chipset": "AMD B450",
+   "BIOS": "128M UEFI, support multiple languages",
+   "Form Factor": "M-ATX\n230mm x 197mm"
+  },
+  "General Information": {
+   "Supported Storage": "1 M.2 slot and 4 SATA 6Gb/s hard disk interfaces\n- M.2_1 slot: supports 2242/2280 M.2 SSD (PCIe 3.0 x4/SATA, CPU channel)"
+  },
+  "Memory": {
+   "Slots": "2",
+   "Supported Memory": "Support DDR4-\n4000(OC)/3733(OC)/3600(OC)/3466(OC)/3200(OC)/3000(OC)/2933(OC)/2800(OC)\n2666/2400/2133MHz memory\n- Support Extreme Memory Profile (XMP) memory technology",
+   "Maximum Memory": "32 GB"
+  },
+  "Graphics": {
+   "Graphics": "1×HDMI 2.0 interface, Supports up to 4K 60Hz resolution\n1×VGA interface"
+  },
+  "Connector & Ports": {
+   "HDMI": "1×HDMI",
+   "USB (s)": "2×USB 2.0 interfaces\n4×USB 3.2 Gen 1 Type-A interfaces\n1×USB 2.0 pin expandable 2 USB 2.0 Type-A interfaces\n1×USB 3.2 Gen 1 pin expandable 2 USB 3.2 Gen 1 Type-A interfaces\n1×USB live control jumper",
+   "Audio": "1×Front audio pin, 1×Digital audio pin"
+  },
+  "Network & Connectivity": {
+   "Lan": "RTL8111H Gigabit Network Card"
+  },
+  "Audio": {
+   "Audio Features": "Realtek ALC897 high fidelity decoding chip, Support up to 5.1 channels"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  },
+  "Image": {
+   "Model": "BATTLE-AX B450M-K M.2 V14"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Supports AMD Ryzen series AMD AM4",
+  "Supported Memory: 2 DDR4, up to 4000(OC), Max. 32 GB",
+  "Graphics Output: 1×HDMI, 1×HDMI 2.0",
+  "Features: RTL8111H Gigabit Network Card"
+ ],
+ "model": "BATTLE-AX B450M-K M.2 V14",
+ "warranty": "5 years",
+ "fetched": "2026-11-11T10:02+06:00",
+ "source": "https://www.creatus.com.bd/colorful-battle-ax-b450m-k-m.2-v14-amd-b450-2-ddr4-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Certification": "80 PLUS Bronze",
+   "CPU": "EPS 4+4 PIN CONNECTORS x1",
+   "Efficiency (Approx.)": "85% Typically",
+   "Fan Size": "120mm",
+   "Modular Type": "Non-Modular",
+   "Molex": "PERIPHERAL 4-PIN CONNECTORS x3"
+  },
+  "Features": {
+   "Others": "FAN SPEED: 1500 RPM"
+  },
+  "Output": {
+   "Total Power": "550 Watts",
+   "Peak Power": "500 to 750W"
+  },
+  "Connectors": {
+   "Main Power": "ATX 24-PIN CONNECTORS x1",
+   "PCI-E": "PCI-E 6+2 PIN CONNECTORS x2",
+   "SATA": "SATA CONNECTORS x6"
+  },
+  "Input": {
+   "Current": "10-5A",
+   "Frequency Range": "50-60Hz",
+   "Voltage": "200-240VAC"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "ATX VERSION: ATX 12V V2.52",
+  "SERIES: MWE Bronze Series",
+  "DIMENSIONS: 140 x 150 x 86 mm"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:48+06:00",
+ "source": "https://www.pchouse.com.bd/cooler-master-mwe-550w-v2-230v-non-modular-80-plus-bronze-power-supply",
+ "store": "pchouse"
+}

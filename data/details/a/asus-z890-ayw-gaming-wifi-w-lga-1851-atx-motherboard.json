@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core Ultra Processors(Series 2)",
+   "Type": "DDR5",
+   "Chipset": "Intel Z890 Chipset",
+   "BIOS": "256(128+128) Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel® Core™ Ultra Processors(Series 2)*\n1 x PCIe 5.0 x16 slot\nIntel® Z890 Chipset\n2 x PCIe 4.0 x16 slots (supports x4 mode)\n1 x PCIe 4.0 x16 slot (supports x1 mode)"
+  },
+  "Memory": {
+   "Slots": "4 x DIMM slots",
+   "Supported Memory": "Supports up to 9066+MT/s (OC), Non-ECC, Un-buffered ,Clocked Unbuffered DIMM (CUDIMM)*\nDual channel memory architecture\nDIMM Fit\nSupports Intel® Extreme Memory Profile (XMP) memory module\nASUS Enhanced Memory Profile III(AEMPIII)\n* Supported memory types, data rate (speed), and number of DRAM",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort\n1 x USB 20Gbps port (USB Type-C) supports DisplayPort video output\n* Graphics specifications may vary between CPU types"
+  },
+  "Connector & Ports": {
+   "Display Port": "1 x DisplayPort\n1 x USB 20Gbps port (USB Type-C®) supports DisplayPort video output",
+   "Wireless Communication module": "-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.3\n* The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard",
+   "RAID": "Intel® Rapid Storage Technology supports PCIe RAID 0/1/5/10, SATA RAID 0/1/5/10, M.2 slot from CPU only supports RAID 0/1/5.",
+   "Supported Storage": "4 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Intel Core Ultra Processors (Series 2), LGA 1851",
+  "Supported RAM: 4x DDR5, Max 192GB,Supports Up to 9066+MT/s (OC)",
+  "Graphics Output: 1x DisplayPort, 1xUSB Type-C 20Gbps (DisplayPort)",
+  "Features: 4x M.2, Intel Wi-Fi 6, Bluetooth 5.3"
+ ],
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-11T09:02+06:00",
+ "source": "https://www.pchouse.com.bd/asus-z890-ayw-gaming-wifi-w-lga-1851-atx-motherboard",
+ "store": "pchouse"
+}

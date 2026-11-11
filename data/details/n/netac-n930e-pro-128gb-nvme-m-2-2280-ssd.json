@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "128 GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI-E"
+  },
+  "Sequential R/W": {
+   "Read": "975MB/s",
+   "Write": "650MB/s"
+  },
+  "Physical Specification": {
+   "Weight": "200g"
+  },
+  "Warranty": {
+   "Warranty Details": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB",
+  "Interface: PCI-E NVMe",
+  "Sequential Read/Write: Up to 975MB/s / 650MB/s",
+  "Form Factor: M.2 2280",
+  "Weight: 200g"
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://fourstarit.com.bd/p/netac-n930e-pro-128gb-nvme-m2-2280-ssd",
+ "store": "fourstar"
+}

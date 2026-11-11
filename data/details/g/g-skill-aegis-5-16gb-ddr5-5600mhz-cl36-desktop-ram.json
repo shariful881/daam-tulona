@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "Tested Voltage: 1.20V\nSPD Voltage: 1.10V",
+   "Latency": "36-36-36-89",
+   "Others": "Intel XMP 3.0 & AMD EXPO Memory Overclock Profile"
+  },
+  "Physical dimension": {
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Memory Type: DDR5",
+  "Frequency: 5600MHz",
+  "Cas Latency: 36-36-36-89 / 1.20V"
+ ],
+ "price": 3239932500,
+ "regular": 35700,
+ "status": "In Stock",
+ "code": "51780",
+ "brand": "G.SKILL",
+ "mpn": "F5-5600J3636C16GX1-IS",
+ "model": "Aegis 5",
+ "warranty": "Lifetime Warranty",
+ "name": "G-Skill Aegis 5 16GB DDR5 5600MHz CL36 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "G.Skill",
+  "G-Skill Aegis 5 16GB DDR5 5600MHz CL36 Desktop RAM"
+ ],
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.startech.com.bd/g-skill-aegis-5-16gb-ddr5-5600mhz-cl36-ram",
+ "store": "startech"
+}

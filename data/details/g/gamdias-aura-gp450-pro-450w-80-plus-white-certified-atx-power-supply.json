@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Type: ATX12V v2.4"
+  },
+  "Key Feature": {
+   "Certification": "80 PLUS White efficiency",
+   "CPU": "1 (4+4 Pin)",
+   "Efficiency (Approx.)": "approximate 80% efficiency",
+   "Fan Size": "120mm Hydraulic Bearing Fan",
+   "Modular Type": "Non Modular",
+   "Molex": "2 (4 Pin)"
+  },
+  "Output": {
+   "Total Power": "450W",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb"
+  },
+  "Connectors": {
+   "Main Power": "1 (24 Pin)",
+   "PCI-E": "1 (6+2 Pin)",
+   "SATA": "3 (4 Pin)",
+   "AC Input": "180-240V / 4A / 47-63Hz"
+  },
+  "Input": {
+   "Current": "13A / 13A / 27A / 0.5A / 2.5A",
+   "Frequency Range": "47-63Hz",
+   "Voltage": "180-240V / 4A"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Power Output Capacity: 450W, Compact design",
+  "Efficiency: Close to 80 PLUS White efficiency",
+  "Fan Type: 120mm Hydraulic Bearing Fan"
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.pchouse.com.bd/gamdias-aura-gp450-pro-power-supply",
+ "store": "pchouse"
+}

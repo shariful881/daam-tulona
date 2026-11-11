@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Feature": {
+   "CPU": "1 (4+4 Pin)",
+   "Efficiency (Approx.)": "Meet 80 PLUS Bronze efficiency",
+   "Fan Size": "120mm hydraulic bearing fan",
+   "Modular Type": "Non Modular",
+   "Molex": "3 (4 Pin)"
+  },
+  "Features": {
+   "Others": "Type: ATX12V v2.4"
+  },
+  "Output": {
+   "Total Power": "650W",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb"
+  },
+  "Connectors": {
+   "Main Power": "1 (20+4 Pin)",
+   "PCI-E": "2 (6+2 Pin)",
+   "SATA": "5 (5 Pin)",
+   "AC Input": "100-240V / 5-10A / 47-63Hz"
+  },
+  "Input": {
+   "Current": "4-8A",
+   "Frequency Range": "47-63Hz",
+   "Voltage": "100-240V"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Total Output Power: 650 Watt",
+  "Power Supply Type: ATX12V v2.4",
+  "Certification: 80 PLUS Bronze Certified",
+  "Cooling System: 120mm Hydraulic Bearing Fan"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.pchouse.com.bd/gamdias-helios-m1-650b-650w-80-plus-bronze-power-supply",
+ "store": "pchouse"
+}

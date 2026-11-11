@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "250GB",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type: USB Type C to USB Type A/USB Type C to USB Type C\nConnection Interface: USB 3.1 Gen 2",
+   "Sequential R/W": "Read Speed (Max.): up to 520 MB/s\nWrite Speed (Max.): up to 460 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "77 mm x 55.7 mm x 9.6 mm (3.03\" x 2.19\" x 0.38\")",
+   "Weight": "35 g (1.23 oz)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)",
+   "Shock resistance": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Flash Type: 3D NAND flash",
+  "Capacity: 250GB",
+  "Read: up to 520 MB/s",
+  "Write: up to 460 MB/s"
+ ],
+ "price": 7900,
+ "regular": 8630,
+ "status": "In Stock",
+ "code": "20652",
+ "brand": "Transcend",
+ "mpn": "TS250GESD270C",
+ "model": "ESD270C",
+ "warranty": "03 years warranty",
+ "name": "Transcend ESD270C 250GB USB 3.1 Gen 2 Type-C External SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD270C 250GB USB 3.1 Gen 2 Type-C External SSD"
+ ],
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd270c-250gb-usb-type-c-external-ssd",
+ "store": "startech"
+}

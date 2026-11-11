@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.70 GHz",
+   "Cache": "30MB",
+   "Cores": "16",
+   "Default TDP": "125W",
+   "Maximum Turbo Frequency": "5.20 GHz",
+   "Model": "i9-12900K",
+   "Threads": "24"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 770"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "256GB",
+   "Type": "DDR4 / DDR5"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.70 GHz Up to 5.20 GHz",
+  "Cache: 30 MB, Socket: LGA 1700",
+  "CPU Cores: 16, CPU Threads: 24",
+  "GPU name: Intel UHD Graphics 770"
+ ],
+ "model": "i9-12900K",
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-i9-12900k-processor",
+ "store": "pchouse"
+}

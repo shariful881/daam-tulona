@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Core Clock": "Base:1042Mhz; Boost:1470Mhz",
+   "Memory Clock": "14Gbps",
+   "BUS Type": "96bit",
+   "CUDA Cores": "2304"
+  },
+  "Others": {
+   "NV technology Support": "NVIDIA DLSS, NVIDIA G-SYNC, 2nd Gen Ray Tracing Cores",
+   "Slot Number": "2 slot"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "1x DP",
+   "HDMI": "1x HDMI",
+   "DVI Port": "1x DVI"
+  },
+  "Power Specifications": {
+   "Connectors": "3+1",
+   "Recommended PSU": "450W"
+  },
+  "Display Option": {
+   "Multi Display": "3 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specification": {
+   "Others": "2 Slot",
+   "Dimensions": "239.1*114.4*39mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 3050 6GB-V"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 3050 6GB-V",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T10:04+06:00",
+ "source": "https://www.creatus.com.bd/colorful-geforce-rtx-3050-6gb-v-graphics-card",
+ "store": "creatus"
+}

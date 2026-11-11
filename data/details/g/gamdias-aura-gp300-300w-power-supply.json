@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Fan Details": {
+   "Fan": "120mm silent fan",
+   "Total Power": "300W",
+   "Others": "Compatible with ATX12V v2.4\nHeavy-duty protection: (OVP) Over Voltage Protection / (UVP) Under Voltage Protection,\n(OPP) Over Power Protection / (SCP) Short Circuit Protection (OCP) Over Current"
+  },
+  "Connector": {
+   "Main Power": "1 (24 Pin)",
+   "PCI-E": "1 (6+2 Pin)",
+   "CPU": "1 (4+4 Pin)",
+   "SATA": "5x SATA",
+   "Molex": "2x Molex"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "AURA GP300"
+  }
+ },
+ "key_features": [],
+ "model": "AURA GP300",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.creatus.com.bd/gamdias-aura-gp300-power-supply",
+ "store": "creatus"
+}

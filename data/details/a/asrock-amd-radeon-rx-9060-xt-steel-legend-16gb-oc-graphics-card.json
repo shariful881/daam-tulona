@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Up to 3320 MHz",
+   "Memory Clock": "- 20 Gbps",
+   "Memory Interface": "128-bit",
+   "Stream Processors": "2048"
+  },
+  "Interface": {
+   "Display Port": "2x DisplayPort 2.1a",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "1x 8-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Programming Interfaces": {
+   "DirectX": "- 12 Ultimate",
+   "OpenGL": "- 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "298 x 131 x 51 mm, 2.55-slot",
+   "Others": "Net Weight-967 g"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Size : 16GB",
+  "Type: GDDR6",
+  "Resolution: 7680 x 4320",
+  "Memory Interface: 128-bit"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.pchouse.com.bd/asrock-amd-radeon-rx-9060-xt-steel-legend-16gb-oc-graphics-card",
+ "store": "pchouse"
+}

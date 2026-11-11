@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Type": {
+   "Port": "10*10/100Mbps The RJ45 port through consultationa",
+   "Network Standard": "Support IEEE802.3at and IEEE802.3af Standard\nSupport IEEE802.3x full duplex and half duplex ﬂow control"
+  },
+  "Data Transmission Rate": {
+   "Jumbo frame": "1528Bytes",
+   "Packet buffer": "2M bit",
+   "Packet forwarding rate": "1.48Mpps",
+   "Bandwidth": "2M bit"
+  },
+  "MAC Address Table": {
+   "Environment": "Operating Temperature 0°C ~ 40 °C\nStorage Temperature -40 °C ~ 70 °C\nOperating Humidity 10% ~ 90% non-condensing\nStorage Humidity 5% ~ 90% non-condensing\nSurge Protection ±4KV\nMTBF >50000 hour\nElectrostatic standard Contact 4KV, air 6KV",
+   "Others": "Access Method:\n10BASE-T: UTP category 3, 4, 5 cable(≤100m)；100BASE-TX: UTP category 5, 5e cable(≤100m)\nAdvanced Functions: VLAN and CCTV Function"
+  },
+  "Led": {
+   "Power Supply": "100~240V AC， 50/60Hz\nPoE Total: 120W",
+   "Dimensions (L x W x H)": "220*150*44mm",
+   "Weight": ">1kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "FS1010PG"
+  },
+  "Product List": {
+   "Best CUDY Network Switch Price List in Bangladesh": "Price",
+   "Cudy FS1010P 8 Port PoE+ Unmanaged Switch": "3,150৳\n3,300৳",
+   "Cudy FS1006P 6-Port 10/100M PoE+ Switch": "2,150৳"
+  }
+ },
+ "key_features": [
+  "Interface: 10x 10/100Mbps RJ45 Ports",
+  "Packet Forwarding Rate: 1.48Mpps",
+  "Bandwidth: 2M bit",
+  "Key function: CCTV & VLAN"
+ ],
+ "model": "FS1010PG",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:36+06:00",
+ "source": "https://www.creatus.com.bd/cudy-fs1010pg-8-port-poe-switch-with-2-uplink-ports",
+ "store": "creatus"
+}

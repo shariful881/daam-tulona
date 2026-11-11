@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen4x4",
+   "Sequential R/W": "Sequential read up to 6000MB/s, sequential write up to 2500MB/s",
+   "MTBF": "1,500,000 Hours",
+   "TBW": "600TBW"
+  },
+  "Physical Specification": {
+   "Dimension": "80 x 22 x 2.45 mm / 3.15”x0.87”x0.10”",
+   "Weight": "6g / 0.013 lbs"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C (32°F to 158°F)",
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis (X,Y,Z)"
+  },
+  "Warranty": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4x4",
+  "Sequential Read: Up to 6000MB/s",
+  "Sequential Write: Up to 2500MB/s"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-nq780-1-tb-m.2-2280-pcie-gen-4x4-nvme-ssd",
+ "store": "pchouse"
+}

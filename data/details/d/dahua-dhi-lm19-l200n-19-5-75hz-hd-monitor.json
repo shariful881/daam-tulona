@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "19.5\"",
+   "Display Type": "ELED",
+   "Panel Type": "TN",
+   "Resolution": "HD+ (1600 × 900)",
+   "Pixels Per Inch (PPI)": "94.14 PPI",
+   "Pixel pitch(MM)": "0.270 mm × 0.2664 mm",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/㎡(max)",
+   "Contrast Ratio": "600:1",
+   "Refresh Rate": "75Hz",
+   "Color Support": "8 bit",
+   "Color Gamut": "72% NTSC (typ.)",
+   "Response Time": "5ms",
+   "Curvature": "Flat"
+  },
+  "Connectivity": {
+   "VGA": "1 × VGA (1600 × 900@60 Hz)",
+   "HDMI": "1 × HDMI 1.4 (1600 × 900@75 Hz)"
+  },
+  "Mechanical Design": {
+   "Tilt": "–5° ± 2°/22° ± 2°",
+   "Vesa Wall Mount": "100 mm × 100 mm (3.94\" × 3.94\")"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "464.8 mm × 283.5 mm × 48.3 mm",
+   "Weight": "Net Weight ( kg ) 2.1\nGross Weight ( kg ) 3.1"
+  },
+  "Power": {
+   "Type": "DC 12V"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: HD+ (1600×900)",
+  "Display: TN, 75Hz, 5ms",
+  "Ports: 1x HDMI, 1 x VGA",
+  "Features: VESA Wall Mount Support"
+ ],
+ "price": 8200,
+ "regular": 8680,
+ "status": "In Stock",
+ "code": "51189",
+ "brand": "Dahua",
+ "model": "DHI-LM19-L200N",
+ "warranty": "3 Years",
+ "name": "Dahua DHI-LM19-L200N 19.5\" 75Hz HD+ Monitor",
+ "breadcrumb": [
+  "Monitor",
+  "Dahua",
+  "Dahua DHI-LM19-L200N 19.5\" 75Hz HD+ Monitor"
+ ],
+ "fetched": "2026-11-11T09:23+06:00",
+ "source": "https://www.startech.com.bd/dahua-dhi-lm19-l200n-monitor",
+ "store": "startech"
+}

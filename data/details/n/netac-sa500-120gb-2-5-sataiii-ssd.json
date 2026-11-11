@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "120 GB",
+   "Form Factor": "2.5 Inch",
+   "Interface": "SATA III 6Gb/s",
+   "MTBF": "1,500,000 hours"
+  },
+  "Sequential R/W": {
+   "Max. Sequential Read (MB/s)": "500",
+   "Max. Sequential Write (MB/s)": "400"
+  },
+  "Dimension": {
+   "Length": "100.0mm",
+   "Width": "69.85mm",
+   "Height": "7.0mm"
+  },
+  "Physical Specification": {
+   "Weight": "46 gm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-45°C ~ 85°C",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Warranty Details": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 120GB",
+  "Interface: SATA III 6Gb/s",
+  "Sequential Read/Write: Up to 500MB/s / 400MB/s",
+  "Technology: 3D NAND, TRIM Support",
+  "Form Factor: 2.5-inch"
+ ],
+ "warranty": "03-Year Warranty",
+ "fetched": "2026-11-11T09:25+06:00",
+ "source": "https://fourstarit.com.bd/p/netac-sa500-120gb-25-inch-sataiii-ssd",
+ "store": "fourstar"
+}

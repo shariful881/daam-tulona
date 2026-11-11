@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "600~2400RPM ±10%",
+   "Fan Airflow": "41CFM",
+   "Noise": "≤29.5dB(A)",
+   "Air Pressure": "2.2mmH2O",
+   "Connector": "Fan Connector: 4-Pin PWM\nFan LED Connector: 3-Pin",
+   "LED Number": "ARGB",
+   "Others": "Heatpipe: Φ6mm*4\nBearing Type: Hydraulic Bearing\nTDP: 200W\nFan:\nRated Voltage: 12VDC\nFan Rated Current: 0.10A\nFan Power Consumption: 1.2W\nFan LED:\nRated Voltage: 5VDC\nRated Current: 0.25A\nPower Consumption: 1.25W\nColor: White"
+  },
+  "Physical Specification": {
+   "Dimension": "Fan: 100*100*25mm (L×W×H)",
+   "Weight": "410g"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 115X/1200/1700/1851",
+   "AMD": "AMD: AM4/AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 600~2400RPM ±10%, 4 Heat Pipes",
+  "Glyph Display with Unique Dot-Matrix Design",
+  "Fan Air Flow (MAX): 41CFM, Air Pressure (MAX): 2.2mmH2O",
+  "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+ ],
+ "price": 26502800,
+ "regular": 3080,
+ "status": "In Stock",
+ "code": "46845",
+ "brand": "Ocypus",
+ "mpn": "GAMMA-A40-WH1NAWD00X-GL",
+ "model": "Gamma A40 WH ARGB Digital",
+ "warranty": "2 Years Warranty",
+ "name": "Ocypus Gamma A40 WH ARGB Digital Single Tower Air CPU Cooler With Display",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Ocypus",
+  "Ocypus Gamma A40 WH ARGB Digital Single Tower Air CPU Cooler With Display"
+ ],
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.startech.com.bd/ocypus-gamma-a40-wh-argb-digital-cpu-cooler",
+ "store": "startech"
+}

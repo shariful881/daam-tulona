@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model Code": "SM2225U",
+   "Panel": "Description",
+   "Panel Type": "LED Backlight",
+   "Panel Size": "22",
+   "Resolution": "1920 * 1080",
+   "Color Support": "16.7M",
+   "Brightness (cd/m²)": "250",
+   "Contrast Ratio": "1000:01:00",
+   "Refresh Rate": "100Hz",
+   "Response Time (ms)": "OD 5ms",
+   "Viewing Angle (H/V)": "Horizontal 178°, Vertical 178°",
+   "Interface": "Description",
+   "Video Input": "1 * HDMI , 1 * VGA",
+   "VESA": "Description",
+   "VESA（mm）": "75 * 75",
+   "General": "Description",
+   "Input Voltage": "DC 12V , 2A",
+   "Typical power consumption（W）": "< 20 (on)",
+   "Standby power consumption （W）": "< 0.5 (Standby)",
+   "Product Dimensions (W * H * D) (mm)": "492.7 * 284.0 * 41.2",
+   "Package Dimensions (W * H * D) (mm)": "598 * 99 * 366",
+   "Weight（Kg）": "Net Weight : 2.18"
+  },
+  "Gross Weight : 3.12": {
+   "Operation Temperature": "0°C ~ 40 °C",
+   "Operating Humidity": "10% ~ 85% (No Condensation)",
+   "Storage Temperature": "-10°C ~ 50°C",
+   "Storage Humidity": "10% ~ 90% (No Condensation)",
+   "Standard": "1 * Monitor base , 1 * HDMI cable , 1 * Power adapter",
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Display Size: 21.5 Inch",
+  "Resulation: FHD (1920×1080)",
+  "Port: 1 x HDMI, 1 x VGA",
+  "Features: Refresh Rate (100Hz), Response Time (ms) (OD 5ms)"
+ ],
+ "model": "SM2225U",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:07+06:00",
+ "source": "https://smartbd.com/product/smart-sm2225u-21-5-inch-100hz-fhd-monitor/",
+ "store": "smartbd"
+}

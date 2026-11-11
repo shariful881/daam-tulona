@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "500~1850 RPM±10%",
+   "Fan Airflow": "68.99 CFM",
+   "Noise": "≤28 dB(A)",
+   "Air Pressure": "2.19 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Dimension": {
+   "Product Dimensions": "129×138×162 mm",
+   "Heatsink Dimensions": "127×110×157 mm",
+   "Fan Dimensions": "120×120×25 mm"
+  },
+  "Physical Specification": {
+   "Weight": "1486 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066/2011-v3/2011/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 500~1850 RPM±10%",
+  "Fan Airflow: 68.99 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:51+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-ak620-digital-wh-rgb-cpu-cooler",
+ "store": "pchouse"
+}

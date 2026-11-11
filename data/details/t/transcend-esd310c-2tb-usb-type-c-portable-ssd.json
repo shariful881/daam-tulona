@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type: USB Type-A / USB Type-C\nConnection Interface: USB 10Gbps",
+   "Sequential R/W": "Read Speed (Max.): up to 1050 MB/s\nWrite Speed (Max.): up to 950 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "71.3 mm x 20 mm x 7.8 mm (2.81\" x 0.79\" x 0.31\")",
+   "Weight": "11 g (0.39 oz)",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)",
+   "Shock resistance": "Yes"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05-year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "Interface: USB Type-A / USB Type-C",
+  "Flash Type: 3D NAND flash",
+  "Read: up to 1050 MB/s, Write: up to 950 MB/s"
+ ],
+ "price": 51000,
+ "regular": 55120,
+ "status": "In Stock",
+ "code": "30901",
+ "brand": "Transcend",
+ "mpn": "TS2TESD310C",
+ "model": "ESD310C",
+ "warranty": "05-year Warranty",
+ "name": "Transcend ESD310C 2TB USB Type-C Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD310C 2TB USB Type-C Portable SSD"
+ ],
+ "fetched": "2026-11-11T09:18+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd310c-2tb-usb-type-c-portable-ssd",
+ "store": "startech"
+}

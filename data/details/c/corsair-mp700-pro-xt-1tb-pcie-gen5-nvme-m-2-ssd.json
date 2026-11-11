@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC",
+   "Interface": "PCIe Gen 5.0 x4",
+   "Sequential R/W": "UP TO 14900MB/s Sequential Read\nUP TO 14200MB/s Sequential Write",
+   "TBW": "700",
+   "Others": "Voltage: 3.3V, +/- 5%"
+  },
+  "Physical Specification": {
+   "Weight": "0.033kg",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +70°C",
+   "Storage Temperature": "-40°C to +85°C\nStorage Humidity: 93% RH (40° C)",
+   "Shock resistance": "1,500 G",
+   "Vibration Resistance": "20 Hz~80 Hz/1.52 mm, 80 Hz~2000 Hz/20G"
+  },
+  "Warranty": {
+   "Warranty": "06 years"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 1TB,",
+  "Interface: PCIe Gen 5.0 x4; TBW: 700",
+  "Sequential Read: Up to 14900MB/sec",
+  "Sequential Write: Up to 14200MB/sec"
+ ],
+ "warranty": "06 years",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-mp700-pro-xt-1tb-pcie-gen5-nvme-m.2-ssd",
+ "store": "pchouse"
+}

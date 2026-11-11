@@ -1,0 +1,99 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core Ultra 7-255U",
+   "Processor Frequency": "up to 5.20 GHz",
+   "Processor Core": "12",
+   "Processor Thread": "14T",
+   "CPU Cache": "12MB L3 Cache"
+  },
+  "Display": {
+   "Display Size": "14 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920 x 1200)",
+   "Display Features": "anti-glare, 300 nits, low power, 62.5% sRGB"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600MHz",
+   "Total RAM Slot": "2 SODIMM"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "HP Premium Keyboard",
+   "Keyboard Features": "Spill-resistant, Backlit keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FHD camera",
+   "Speaker": "Dual stereo speakers",
+   "Microphone": "Dual-array microphones",
+   "Audio Features": "Poly Studio"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 3 Port": "2 x USB Type-A 5Gbps signaling rate (1 charging, 1 power)",
+   "USB Type-C / Thunderbolt Port": "2 x USB Type-C 20Gbps signaling rate (USB Power Delivery 3.0, DisplayPort 1.4, HP Sleep and Charge)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x RJ45",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Security Locker Slot": "Yes"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Power": {
+   "Battery Type": "HP Long Life 3-cell Li-ion",
+   "Battery Capacity": "56 Wh",
+   "Adapter Type": "HP Smart 65 W External AC Power Adapter"
+  },
+  "Physical Specification": {
+   "Color": "Pike silver aluminum",
+   "Dimensions": "31.86 x 22.43 x 1.09 cm",
+   "Weight": "1.39 kg"
+  },
+  "Warranty": {
+   "Warranty Details": "3 year warranty (Terms & Conditions Apply As Per HP)."
+  }
+ },
+ "key_features": [
+  "Processor: Core Ultra 7-255U (up to 5.20 GHz, 12 MB L3 cache)",
+  "RAM: 8 GB DDR5 5600MHz, Storage: 512GB PCIe SSD",
+  "Display: 14\" WUXGA (1920 x 1200) IPS, 300 nits",
+  "Features: Type-C, Fingerprint, Backlit Keyboard, Wi-Fi 6E"
+ ],
+ "price": 150000,
+ "regular": 157300,
+ "status": "In Stock",
+ "code": "53253",
+ "brand": "HP",
+ "mpn": "D4JD6PT",
+ "model": "ProBook 4 G1i",
+ "warranty": "3 year warranty (Terms & Conditions Apply As Per HP).",
+ "name": "HP ProBook 4 G1i Core Ultra 7 255U 14\" IPS WUXGA Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "HP",
+  "HP ProBook 4 G1i Core Ultra 7 255U 14\" IPS WUXGA Laptop"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://www.startech.com.bd/hp-probook-4-g1i-core-ultra-7-14-inch-laptop",
+ "store": "startech"
+}

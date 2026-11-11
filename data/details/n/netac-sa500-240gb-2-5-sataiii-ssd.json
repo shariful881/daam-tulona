@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "240GB",
+   "Form Factor": "2.5 Inch",
+   "Interface": "SATA III 6Gb/s",
+   "MTBF": "1,500,000 hours"
+  },
+  "Sequential R/W": {
+   "Max. Sequential Read (MB/s)": "520",
+   "Max. Sequential Write (MB/s)": "450"
+  },
+  "Dimension": {
+   "Length": "100.0mm",
+   "Width": "69.85mm",
+   "Height": "7.0mm"
+  },
+  "Physical Specification": {
+   "Weight": "46 gm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-45°C ~ 85°C",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Warranty Details": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 240GB",
+  "Interface: SATA III, 6.0 GB/s",
+  "Form Factor: 2.5 inch",
+  "Read: 520 MB/s, Write: 450 MB/s"
+ ],
+ "warranty": "03-Year Warranty",
+ "fetched": "2026-11-11T09:26+06:00",
+ "source": "https://fourstarit.com.bd/p/netac-sa500-240gb-25-inch-sataiii-ssd",
+ "store": "fourstar"
+}

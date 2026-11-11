@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "General": {
+   "Model": "HS611",
+   "Type": "Drawing Graphics Tablet"
+  },
+  "Display Details": {
+   "Pressure Sensitivity": "8192",
+   "Report Rate": "266PPS",
+   "Resolution": "5080lpi"
+  },
+  "Active area": {
+   "Working Area(PC Mode)": "258.4x161.5mm",
+   "Working Area(Phone Mode)": "90.1 x 161.5mm"
+  },
+  "Features": {
+   "Reading Height": "10mm",
+   "Stylus Pen": "Yes",
+   "Tilt": "60 Degrees",
+   "Compatibility": "Windows 7 or later, macOS 10.12 or later Android.",
+   "Interface": "USB-C",
+   "Technology": "Battery-Free Electromagnetic Resonance Pen",
+   "Others": "Touch Strip\n8 Programmable Press Keys 8 Multimedia Keys\nWeight 550g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [],
+ "model": "HS611",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.pchouse.com.bd/huion-hs611-tablet",
+ "store": "pchouse"
+}

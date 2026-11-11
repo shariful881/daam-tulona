@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Chipset": "Intel H610 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9 inch x 7.7 inch (22.6 cm x 19.5 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel Core Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel H610 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "Supports 1 x M.2 slot and 2 x SATA 6Gb/s ports\nIntel H610 Chipset\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory\nDual channel memory architecture\nSupports Intel Extreme Memory Profile (XMP) memory module",
+   "Maximum Memory": "Max. 64GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port\nSupports 4K@60Hz as specified in HDMI 2.1."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "2 x USB 5Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet",
+   "Supported Storage": "Supports 1 x M.2 slot and 2 x SATA 6Gb/s ports\nIntel® H610 Chipset\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n2 x SATA 6Gb/s ports",
+   "Audio": "3 x Audio jacks"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage protection\n- SafeSlot Core\n- Stainless-steel back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-Slot\n- Q-LED Core\nASUS Thermal Solution\n- Aluminum heatsink design",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\n- EPU\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z\nNorton 360 for Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "PRIME H610M-F D4 R2.0"
+  }
+ },
+ "key_features": [
+  "Graphics Output: 1x HDMI",
+  "Supported Memory: 2 x DIMM, Max. 64GB, DDR4",
+  "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+  "Features: 1x M.2 slot, 1x Realtek 1Gb Ethernet"
+ ],
+ "model": "PRIME H610M-F D4 R2.0",
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:03+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-h610m-f-d4-r2-0-ddr4-lga1700-matx-motherboard",
+ "store": "creatus"
+}

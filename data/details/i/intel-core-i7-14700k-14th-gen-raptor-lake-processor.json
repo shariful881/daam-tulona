@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.4 GHz",
+   "Maximum Turbo Frequency": "5.6 GHz",
+   "Cache": "33 MB",
+   "Cores": "20",
+   "Threads": "28",
+   "Default TDP": "125W",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "192 GB",
+   "Type": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.60 GHz",
+   "Max Resolution": "Max Resolution (HDMI): 4096 x 2160 @ 60Hz\nMax Resolution (DP): 7680 x 4320 @ 60Hz\nMax Resolution (eDP - Integrated Flat Panel): 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.4 GHz up to 5.6 GHz",
+  "Cache: 33 MB, Socket: LGA1700",
+  "CPU Cores: 20, CPU Threads: 28",
+  "Graphics: Intel UHD Graphics 770"
+ ],
+ "price": 4250049000,
+ "regular": 47000,
+ "status": "In Stock",
+ "code": "31702",
+ "brand": "INTEL",
+ "model": "Core i7 14700K (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "Intel Core i7 14700K 14th Gen Raptor Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 14th Gen Processor"
+ ],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.startech.com.bd/intel-14th-gen-core-i7-14700k-processor",
+ "store": "startech"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Main Features": {
+   "Model": "N930E Pro",
+   "Type": "SSD",
+   "External Interface": "NVMe M.2 2280",
+   "Storage Capacity": "256GB"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Package Weight": "0.037 KG"
+  },
+  "Others": {
+   "Nand Flash Type": "TLC",
+   "Sequential Read": "Max. 2100MB/S",
+   "Sequential Write": "Max. 1700MB/S"
+  },
+  "Netac N930E Pro 256GB SSD": {
+   "Warranty": "03 Years Warranty."
+  }
+ },
+ "key_features": [
+  "Interface: PCle Gen 3x4",
+  "Capacity: 256GB",
+  "Read Speed: 2040MB/s",
+  "Write Speed: 1270MB/s"
+ ],
+ "model": "N930E Pro",
+ "warranty": "03 Years Warranty.",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.pchouse.com.bd/netac-n930e-pro-256gb-nvme-ssd",
+ "store": "pchouse"
+}

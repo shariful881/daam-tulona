@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC",
+   "Interface": "PCIe Gen3x4",
+   "Sequential R/W": "Sequential Read & Write Speed: 3000MB/s & 1300MB/s",
+   "MTBF": "1,500,000 Hours"
+  },
+  "Physical Specification": {
+   "Dimension": "80 mm x 22 mm x 2.25 mm / 3.15” x 0.87” x 0.09”",
+   "Weight": "9g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0° C to 70° C (32°F to 158°F)",
+   "Storage Temperature": "-40° C to 85° C (-40°F to 185°F)",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Sequential Read & Write Speed: 3000MB/s & 1300MB/s",
+  "High-speed PCIe Gen3x4 interface",
+  "Form Factor: M.2 2280",
+  "NAND flash 3D TLC"
+ ],
+ "price": 79908800,
+ "regular": 8670,
+ "status": "In Stock",
+ "code": "19035",
+ "brand": "Lexar",
+ "model": "NM620",
+ "warranty": "05 years warranty",
+ "name": "Lexar NM620 256GB M.2 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Lexar",
+  "Lexar NM620 256GB M.2 NVMe SSD"
+ ],
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.startech.com.bd/lexar-nm620-256gb-nvme-ssd",
+ "store": "startech"
+}

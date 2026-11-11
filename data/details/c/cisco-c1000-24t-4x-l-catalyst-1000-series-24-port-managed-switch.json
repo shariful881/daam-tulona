@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Type": {
+   "Device Type": "Switch – 24 ports – Managed",
+   "Enclosure Type": "Rack-mountable",
+   "Subtype": "Gigabit Ethernet"
+  },
+  "Main Features": {
+   "Interface": "24x 10/100/1000 Ethernet ports\n4x 10G SFP+ uplinks",
+   "Port": "24 x 10/100/1000 + 4 x 10 Gigabit SFP+ (uplink)",
+   "Network Standard": "IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.3ae, IEEE 802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP), IEEE 802.3az, Bluetooth 4.0, IEEE 802.1AX",
+   "MAC Address Table": "16K"
+  },
+  "LED": {
+   "Per-port status": "link integrity, disabled, activity",
+   "System status": "system"
+  },
+  "Hardware Features": {
+   "Power Supply": "AC 120/230 V (50 - 60 Hz)",
+   "Dimensions (L x W x H)": "17.5 x 9.45 x 1.73 in"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "C1000-24T-4X-L"
+  }
+ },
+ "key_features": [
+  "Type: 24 ports Managed",
+  "Enclosure Type: Rack-mountable",
+  "Subtype: Gigabit Ethernet",
+  "Ports: 24 x 10/100/1000 + 4 x 10 Gigabit SFP+ (uplink)"
+ ],
+ "model": "C1000-24T-4X-L",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-11T09:36+06:00",
+ "source": "https://www.creatus.com.bd/cisco-c1000-24t-4x-l-24-port-managed-switch",
+ "store": "creatus"
+}

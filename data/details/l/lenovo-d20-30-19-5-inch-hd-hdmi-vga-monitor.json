@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "19.5-inch",
+   "Pixels Per Inch (PPI)": "94",
+   "Display Type": "WLED",
+   "Panel Type": "TN",
+   "Resolution": "1600 x 900",
+   "Pixel pitch(MM)": "0.271 mm x 0.264 mm",
+   "Display Surface": "Anti-Glare",
+   "Viewing Angle": "170° / 160°",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/m²",
+   "Refresh Rate": "60 Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "72% NTSC (CIE 1931)",
+   "Response Time": "2ms (On), 5ms (Off)",
+   "Curvature": "Flat"
+  },
+  "Contrast Ratio": {
+   "Typical": "1000:1",
+   "Dynamic": "3M:1"
+  },
+  "Video Features": {
+   "Flicker Free": "TÜV Flicker Free-certified",
+   "Low Blue Light": "Yes"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI 1.4",
+   "VGA": "1 x VGA"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5° / 22°",
+   "Security Locker": "Yes",
+   "Vesa Wall Mount": "Yes (100 x 100 mm)"
+  },
+  "Power": {
+   "Voltage": "AC 100 to 240 V (50-60 Hz)",
+   "Power Consumption": "12W / 15W"
+  },
+  "Physical Specification": {
+   "Weight": "2.5 kg",
+   "Color": "Black",
+   "Dimensions": "w/ Stand\n180.4 x 351.6 x 464.8 mm\n7.10 x 13.84 x 18.30 inch\nw/o Stand\n48.3 x 283.5 x 464.8 mm\n1.90 x 11.16 x 18.30 inch"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "D20-30"
+  }
+ },
+ "key_features": [
+  "Resolution: 1600 x 900",
+  "Ports: HDMI, VGA",
+  "Vesa Mount: 100 x 100 mm"
+ ],
+ "model": "D20-30",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-d20-30-195-inch-hd-hdmi-vga-monitor",
+ "store": "creatus"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i7-13620H Processor, cTDP 45W",
+   "Graphics Card": "Integrated, Intel Iris Xe Graphics",
+   "Storage": "1 x M.2 2280 PCIe Gen4x4, supports 128GB~8TB NVMe SSD (Support)",
+   "Audio": "Realtek ALC269",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6E (Gig+), Bluetooth 5.2\nIntel Ethernet Controller I226-V, 2.5G",
+   "Operating System": "FreeDOS"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front & Side I/O\n2 x USB 3.2 Gen2 Type-A\n1 x 3.5mm Headset Jack\n1 x Kensington Lock\nBack I/O\n2 x Thunderbolt 4 Type-C w/ DisplayPort 1.4\n1 x USB 3.2 Gen 2 Type-A\n1 x USB 2.0 Type-A\n2 x HDMI 2.1 (TMDS)\n1 x RJ45 LAN\n1 x DC-in"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "117 x 112 x 37 mm",
+   "Weight": "502g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-13620H Processor, cTDP 45W",
+  "RAM: 2 x SO-DIMM, Up to DDR4-3200, 32GB*2 (Support)",
+  "Storage: 1 x M.2 2280 PCIe Gen4x4, 128GB~8TB NVMe SSD (Support)",
+  "WLAN: Intel Wi-Fi 6E (Gig+), Bluetooth 5.2, LAN: Intel Ethernet Controller I226-V, 2.5G"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:28+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-nuc-13-pro-core-i7-13th-gen-portable-mini-pc",
+ "store": "fourstar"
+}

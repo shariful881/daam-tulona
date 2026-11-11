@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Display": {
+   "Interface": "Main Processor\nEmbedded Processor\nInterface\nWeb/operating in local GUI\nMulti-Screen Display\n1 / 4 / 8 /9",
+   "Resolution": "8MP/5MP/4MP/3MP/1080P/720P/D1/CIF",
+   "Decoding Capacity": "1–ch@8MP (30FPS) or 1–ch@5MP (30FPS) or\n2–ch@4MP (30FPS) or 2–ch@3MP (30FPS) or 4–\nch@1080P(30FPS)8–ch@720P(30FPS)"
+  },
+  "Recording": {
+   "Record Mode": "Compression\nVideo: Smart H.265+/H.265/Smart H.264+/H.264\nAudio: PCM/G711A/G711U/G726/AAC\nResolution\n1 VGA/1 HDMI simultaneous video output, maximum resolution 1080P\nRecord Mode\nPriority of record mode: Manual recording > alarm recording > motion detection recording > timed recording"
+  },
+  "Playback And Backup": {
+   "Search Mode": "Sync Playback\nUp to 8 channels playback",
+   "Playback Function": "1. Play, pause, stop, fast forward, fast backward, rewind, play by frame 2. Full screen, backup (cut/file), partially enlarge, audio on/off",
+   "Backup Mode": "USB device"
+  },
+  "Storage": {
+   "Internal HDD": "1 SATA 2.0 port, up to 8 TB for a single HDD. The maximum HDD capacity varies with environment temperature"
+  },
+  "Network": {
+   "Smart Phone": "IDMSS (iOS), GDMSS (Android)"
+  },
+  "Power": {
+   "Power Supply": "DC12V, 1.5A",
+   "Power Consumption": "The total output of NVR is ≤ 10W (without HDD)\nComponent Environment:\nStorage Conditions\nLocal HDD and network"
+  },
+  "Dimensions": {
+   "Product Dimensions": "260 mm×225 mm×47.6 mm (W × L × H)",
+   "Box Dimensions": "87 mm×331 mm×312 mm (W × L × H)"
+  },
+  "Construction": {
+   "Net Weight": "0.81 kg (1.79 lb)",
+   "Gross Weight": "1.38 kg (3.04 lb)"
+  },
+  "Warranty Information": {
+   "Warranty": "01-year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "01-year Warranty",
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://fourstarit.com.bd/p/dahua-nvr1108hs-s3h-8-channel-network-video-recorder-nvr",
+ "store": "fourstar"
+}

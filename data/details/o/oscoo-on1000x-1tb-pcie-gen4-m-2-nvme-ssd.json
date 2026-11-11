@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Sequential R/W": "Up to 7400MB/s Read, 6400MB/s Write",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "NVMe PCIe Gen4.0*4",
+   "Form Factor": "M.2 2282",
+   "TBW": "325 TBW"
+  },
+  "Features": {
+   "Dimension": "80x22x2mm",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C to 70° C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor M.2 2282",
+  "Interface: NVMe PCIe Gen4.0x4",
+  "Read Speed: Up to 7400MB/s",
+  "Write Speed: Up to 6400MB/s"
+ ],
+ "warranty": "05 Years",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-on1000x-1tb",
+ "store": "pchouse"
+}

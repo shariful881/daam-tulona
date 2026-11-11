@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "Engine Clock(STD/Silent): up to 2620MHz (Game), up to 3230MHz (Boost)",
+   "BUS Type": "PCIE 5.0 x16",
+   "Memory Interface": "128-bit",
+   "Stream Processors": "2048 units",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nAMD RDNA 4 Architecture\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2\nHoneywell PTM7950 High-Thermal Conductivity\nDual BIOS (OC / Silent)\nIntelligent Fan Control\nHighly Efficient Ring Blade Fans\nReinforced Metal Backplate\nPremium-Quality PCB Design\nHigh-Efficiency DrMOS Power Module\nTBP Monitoring (12V Source Detection)\nPersonalize ARGB with Keystone software"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "1 x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "One 8-pin PCI Express Power connectors",
+   "Recommended PSU": "500W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "200mm*100mm*39mm\n220mm*120mm*40mm(with bracket)",
+   "Others": "Slot: 2"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2620 MHz (Game) / 3230 MHz (Boost)",
+  "Memory Speed: 20 Gbps, Memory Interface: 128-bit",
+  "Stream Processors: 2048 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 1 x HDMI 2.1b, 2 x DisplayPort 2.1a"
+ ],
+ "price": 80000,
+ "regular": 88000,
+ "status": "In Stock",
+ "code": "43864",
+ "brand": "PowerColor",
+ "mpn": "RX9060XT 16G-A",
+ "model": "Reaper AMD Radeon RX 9060 XT",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Reaper AMD Radeon RX 9060 XT 16GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Reaper AMD Radeon RX 9060 XT 16GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.startech.com.bd/powercolor-reaper-amd-radeon-rx-9060-xt-graphics-card",
+ "store": "startech"
+}

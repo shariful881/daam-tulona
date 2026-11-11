@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Size": "8GB",
+   "Resolution": "7680 × 4320 (8K)",
+   "Core Clock": "Boost: 1244 MHz",
+   "Memory Clock": "7000MHz",
+   "BUS Type": "256-bit",
+   "CUDA Cores": "2048"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "Display Port 2",
+   "HDMI": "HDMI 1"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "550 W"
+  },
+  "Others": {
+   "Connections": "8-pin x 1",
+   "Consumables": "150 W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Type: GDDR5",
+  "Core Clock Boost: 1244 MHz",
+  "CUDA Cores: 2048",
+  "Memory Clock: 7000MHz"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:16+06:00",
+ "source": "https://www.creatus.com.bd/unika-radeon-rx-580-blizzards-8gd5-v2-graphics-card",
+ "store": "creatus"
+}

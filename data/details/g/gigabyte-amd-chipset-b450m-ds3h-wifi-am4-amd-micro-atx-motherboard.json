@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "B450M DS3H WIFI",
+   "Supported CPU": "AM4 Socket: Supports AMD Ryzen 5000 series / Ryzen 5000 G-Series/ 3rd Gen Ryzen/ 2nd Gen Ryzen 1st Gen Ryzen/ 2nd Gen Ryzen with Radeon Vega Graphics/ 1st Gen Ryzen with Radeon Vega Graphics/ Athlon with Radeon Vega Graphics Processors",
+   "Chipset": "AMD B450",
+   "BIOS": "1 x 128 Mbit flash"
+  },
+  "Use of licensed AMI UEFI BIOS": {
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 21.5cm",
+   "Audio": "Realtek Audio CODEC, High Definition Audio 2/4/5.1/7.1-channel"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express x16 slot, running at x16 (PCIEX16)(Note)"
+  },
+  "Graphics:": {
+   "Graphics": "Radeon Vega Graphics/ 1st Gen Ryzen with Radeon Vega Graphics/ Athlon"
+  },
+  "Connector & Ports:": {
+   "HDMI": "1 x HDMI port",
+   "Display Port (s)": "No",
+   "USB (s)": "CPU:"
+  },
+  "Chipset:": {
+   "LAN Port (s)": "Realtek GbE LAN chip (10/100/1000 Mbit)",
+   "Wireless Communication module": "Wi-Fi 802.11 a/b/g/n/ac, supporting 2.4/5 GHz Dual-Band"
+  },
+  "Bluetooth 4.2": {
+   "Supported Storage": "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280/22110 SATA and PCIe x4/x2 SSD support)"
+  },
+  "Support for RAID 0, RAID 1, and RAID 10": {
+   "RAID": "0,1,10",
+   "Audio": "Realtek Audio Codec 7.1",
+   "Internal I/O Ports": "USB Port: 4 x USB 2.0/1.1, 4 x USB 3.1 Gen 1"
+  },
+  "COM Port: No": {
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module (TPM) header (2×6 pin, for the GC-TPM2.0_S module only)"
+  },
+  "Memory:": {
+   "Type": "DDR4",
+   "Slots": "4 x DDR4 DIMM, ECC Un-buffered",
+   "Supported Memory": "Memory MHz: 3600/ 3466/ 3200/ 3000/ 2933/ 2800/ 2667/ 2600/ 2400/ 2133MHz"
+  },
+  "Optane Memory Support: No": {
+   "Maximum Memory": "128GB"
+  },
+  "Others:": {
+   "Special Features": "Voltage detection,Temperature detection, Fan speed detection, Overheating warning, Fan fail warning, Fan speed control, Support for APP Center, EasyTune, Fast Boot, Game Boost, ON/OFF Charge, Smart Backup, System Information Viewer, Support for Q-Flash, Support for Xpress Install",
+   "Bundled Software": "Norton Internet Security (OEM version)\ncFosSpeed"
+  },
+  "Warranty Info": {
+   "Years": "03 years"
+  },
+  "Contact Information": {
+   "Name": "Md.Tangim Chowdhury",
+   "Phone Number": "01730-701983",
+   "Email": "tangim.chowdhury@smartbd.com"
+  }
+ },
+ "key_features": [],
+ "model": "B450M DS3H WIFI",
+ "fetched": "2026-11-11T09:24+06:00",
+ "source": "https://smartbd.com/product/gigabyte-amd-chipset-b450m-ds3h-wifi-am4-amd-micro-atx-motherboard/",
+ "store": "smartbd"
+}

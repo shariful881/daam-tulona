@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n",
+   "Signal Rate": "Up to 300Mbps",
+   "Frequency Range": "2.4-2.4835GHz",
+   "Transmit Power": "20dBm(MAX)",
+   "Wireless Mode": "AP, Repeater, AP+WDS, WDS, Client, Multi-SSID",
+   "Wireless Security": "64/128-bit WEP,\nWPA-PSK/WPA2-PSK (TKIP/AES)\nSSID Broadcast Enable/Disable\nWireless MAC Filtering"
+  },
+  "Hardware": {
+   "Standards": "IEEE 802.3 10Base-T, IEEE 802.3u 100Base-TX",
+   "Interface": "1 * 10/100Mbps Auto MDI/MDIX RJ45 WAN port\n4 * 10/100Mbps Auto MDI/MDIX RJ45 LAN port",
+   "LED": "PWR, WLAN, LAN1-LAN4, WAN, WPS",
+   "Button": "WPS, Default",
+   "Antenna": "2* 5dBi Fixed Antenna",
+   "Power Supply": "DC 9V/500mA (Output)"
+  },
+  "Software": {
+   "WAN Type": "DHCP, Static IP, PPPoE, L2TP, PPTP, Dual Access, WISP",
+   "Port Forwarding": "Virtual Servers, Port Triggering, UPnP, DMZ, FTP Private Port",
+   "QoS": "WMM, Bandwidth Control",
+   "Access Control": "IP/MAC/Domain Filtering",
+   "VPN Pass-through": "PPTP, L2TP, IPSec",
+   "Others": "IPTV, Dynamic DNS, Static Routing, WOL, Backup & Restore, Firmware Upgrade"
+  },
+  "Others": {
+   "Certification": "FCC, CE",
+   "Package": "1* WF2419E\n1* 9V/500mA Power Adapter\n1* Ethernet Cable\n1* Quick Installation Guide (Multilingual)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://smartbd.com/product/netis-wf2419e-300mbps-wireless-n-router/",
+ "store": "smartbd"
+}

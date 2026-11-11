@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "21.45 Inch",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "Full HD (1920x1080)",
+   "Pixel pitch(MM)": "249.3 ×241",
+   "Display Surface": "ANTI-GLARE",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178° H and 178° V",
+   "Brightness": "300 cd/m²",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "100Hz",
+   "Color Support": "16.7M Colors",
+   "Color Gamut": "NTSC 83%",
+   "Response Time": "5ms"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes",
+   "Speaker Details": "2W X 2"
+  },
+  "Connectivity": {
+   "VGA": "1x VGA",
+   "Display Port": "1x DP",
+   "HDMI": "1x HDMI",
+   "USB Type-C": "1x Type-C",
+   "Audio Jack": "Yes",
+   "Others": "DC Power"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5° to 15°",
+   "Vesa Wall Mount": "Yes, 100x100mm"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Power": {
+   "Voltage": "100V ~ 240 V",
+   "Others": "A/C Line frequency range : 50 +/- 3Hz, 60 +/- 3Hz;\nOutput: Power Supply DC 12V,3A; Typical 15W , Stand by: 0.5W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years of service warranty (3 years for Panel & 1 year Adapter)."
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 5ms",
+  "Ports: 1x HDMI, 1x VGA, 1x DP, 1x type-C, 1x DC Power",
+  "Features: Antiglare, LED Backlight, 2x 2W SPEAKER"
+ ],
+ "price": 899910250,
+ "regular": 10200,
+ "status": "In Stock",
+ "code": "32002",
+ "brand": "Walton",
+ "model": "WD215I09",
+ "warranty": "3 years of service warranty (3 years for Panel & 1 year Adapter).",
+ "name": "Walton WD215I09 21.45\" 100Hz FHD IPS Monitor",
+ "breadcrumb": [
+  "Monitor",
+  "Walton",
+  "Walton WD215I09 21.45\" 100Hz FHD IPS Monitor"
+ ],
+ "fetched": "2026-11-11T09:25+06:00",
+ "source": "https://www.startech.com.bd/walton-wd215i09-21-45-inch-monitor",
+ "store": "startech"
+}

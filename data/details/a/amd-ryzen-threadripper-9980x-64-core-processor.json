@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.2 GHz",
+   "Maximum Turbo Frequency": "Up to 5.4 GHz",
+   "Cache": "256MB",
+   "Cores": "64",
+   "TDP": "350W",
+   "Threads": "128",
+   "Supported Technologies": "AMD EXPO, Precision Boost 2, Curve Optimizer, AMD Ryzen Technologies"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "4",
+   "Maximum Size": "Up to motherboard's limit (usually 512GB or more)",
+   "Maximum Speed": "Up to 6400 MT/s",
+   "Type": "DDR5 ECC Registered (RDIMM)"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Not included (Discrete GPU required)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "Ryzen Threadripper 9980X"
+  }
+ },
+ "key_features": [
+  "Speed: 3.2GHz Base, Up to 5.4GHz Boost",
+  "Cache: L2: 64MB, L3: 256MB",
+  "Cores/Threads: 64 Cores & 128 Threads",
+  "Memory Speed: Up to 6400MHz DDR5"
+ ],
+ "model": "Ryzen Threadripper 9980X",
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:55+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-threadripper-9980x-64-core-processor",
+ "store": "creatus"
+}

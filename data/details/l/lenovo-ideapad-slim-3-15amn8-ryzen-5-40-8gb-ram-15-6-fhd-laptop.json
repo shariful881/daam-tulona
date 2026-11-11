@@ -1,0 +1,108 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 40",
+   "Processor Frequency": "Up to 4.3GHz",
+   "Processor Core": "4",
+   "Processor Thread": "8",
+   "CPU Cache": "L2 Cache: 2MB\nL3 Cache: 4MB"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920×1080)",
+   "Display Features": "Brightness: 300nits\nAnti-glare"
+  },
+  "Memory": {
+   "RAM": "8GB Soldered",
+   "RAM Type": "LPDDR5",
+   "Removable": "N/A",
+   "Bus Speed": "5500MHz",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Storage Capacity": "512GB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon 610M Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit, English (EU)",
+   "Keyboard Features": "Buttonless Mylar surface multi-touch touchpad, supports Precision TouchPad (PTP), 69 x 104 mm (2.72 x 4.09 inches)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "HD 720p with Privacy Shutter",
+   "Speaker": "1.5W x2 Stereo",
+   "Microphone": "2x Array",
+   "Audio Features": "Dolby Audio"
+  },
+  "Ports & Slots": {
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort 1.2)",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6, 11ax 2x2",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0 Enabled"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Power": {
+   "Battery Type": "Integrated",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W round tip (3-pin)"
+  },
+  "Physical Specification": {
+   "Color": "Arctic Grey",
+   "Dimensions": "359.3 x 235 x 17.9 mm (14.15 x 9.25 x 0.70 inches)",
+   "Weight": "Starting at 1.62 kg (3.57 lbs)",
+   "Body Material": "PC-ABS (Top), PC-ABS (Bottom)"
+  },
+  "Other Features": {
+   "Other Features": "MIL-STD-810H military test passed (21 test items)"
+  },
+  "Warranty": {
+   "Warranty Details": "2 years Warranty (Battery 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor:  AMD Ryzen 5 40 (4C / 8T, 2.8 / 4.3GHz, 2MB L2 / 4MB L3)",
+  "Ram: 8GB LPDDR5-5500, Storage: 512GB M.2 2242 PCIe 4.0x4 NVMe SSD",
+  "Display: 15.6\" FHD (1920x1080) IPS 300nits Anti-glare",
+  "Features: Privacy Shutter, Wi-Fi 6, Type-C, Military-Grade, Backlit keyboard"
+ ],
+ "price": 89000,
+ "regular": 95700,
+ "status": "In Stock",
+ "code": "54403",
+ "brand": "Lenovo",
+ "mpn": "82XQ01W7LK",
+ "model": "IdeaPad Slim 3 15AMN8",
+ "warranty": "2 years Warranty (Battery 1 year).",
+ "name": "Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 40 8GB RAM 15.6\" FHD Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "Lenovo",
+  "Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 40 8GB RAM 15.6\" FHD Laptop"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://www.startech.com.bd/lenovo-ideapad-slim-3-15amn8-ryzen-5-40-15-inch-laptop",
+ "store": "startech"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Sensor": "Hall Effect for precision and durability"
+  },
+  "Others": {
+   "Joysticks and Triggers": "Hall Effect for precision and durability",
+   "Extra Features": "R4/L4 bumpers, custom button mapping"
+  },
+  "General Information": {
+   "Number of Keys": "14"
+  },
+  "Main Features": {
+   "Polling Rate": "1000Hz",
+   "Connectivity": "Wired + Bluetooth + Wireless 2.4G",
+   "Charging Time": "2 hours for full charge"
+  },
+  "Specification": {
+   "Compatibility": "Windows 10 (1903) and above, Android 9.0 and above"
+  },
+  "Power": {
+   "Battery Capacity": "480mAh Li-ion, rechargeable"
+  },
+  "Physical Specification": {
+   "Color": "Mint, Black,Purple, Green",
+   "Weight": "200 g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Ultimate 2C"
+  }
+ },
+ "key_features": [
+  "Compatibility: Windows 10+, Android 9.0+",
+  "Connectivity: 2.4G, Wired (Windows), Bluetooth (Android)",
+  "Battery: 480mAh Li-ion, up to 32 hours playtime (Bluetooth)"
+ ],
+ "model": "Ultimate 2C",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:38+06:00",
+ "source": "https://www.creatus.com.bd/8bitdo-ultimate-2c-tri-mode-wireless-controller",
+ "store": "creatus"
+}

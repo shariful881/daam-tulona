@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2124MHz(Game)\nup to 2430MHz(Boost)",
+   "BUS Type": "PCIE 4.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "3840",
+   "Others": "Radeon Anti-Lag\nRadeon Boost\nAMD RDNA 3 Architecture with Hardware Raytracing\nAMD FidelityFX Super Resolution 3 technology\nOptimized for Windows 11"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1 (only 2x simultaneous DP2.1 connections can be supported)",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "260mm*109mm*50mm\n274mm*125mm*50mm(with bracket)",
+   "Others": "Slot: 2.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2124MHz (Game)/ 2430MHz (Boost)",
+  "Memory Speed: 19.5 Gbps, Memory Interface: 256-bit",
+  "Stream Processors: 3840 Units, AMD RDNA 3 Architecture",
+  "Output Ports: 1 x HDMI 2.1, 3 x DisplayPort 2.1"
+ ],
+ "price": 8530089000,
+ "regular": 95000,
+ "status": "In Stock",
+ "code": "39648",
+ "brand": "PowerColor",
+ "mpn": "RX7800XT 16G-P",
+ "model": "AMD Radeon RX 7800 XT 16GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor AMD Radeon RX 7800 XT 16GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor AMD Radeon RX 7800 XT 16GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.startech.com.bd/powercolor-amd-radeon-rx-7800-xt-16gb-gddr6-graphics-card",
+ "store": "startech"
+}

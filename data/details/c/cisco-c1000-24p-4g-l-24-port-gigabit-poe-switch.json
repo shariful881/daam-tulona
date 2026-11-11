@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Main Features": {
+   "Interface": "24x 10/100/1000 Ethernet PoE+ ports and 195W PoE budget, 4x 1G SFP\nuplinks",
+   "Network Standard": "802.3af (PoE), 802.3at (PoE+)",
+   "MAC Address Table": "16K"
+  },
+  "Environment": {
+   "Operating temperature Seal level": "-5 to 50 deg C*",
+   "Up to 5,000ft (1500 m)": "-5 to 45 deg C",
+   "Upto 10,000 (3000 m)": "-5 to 40 deg C",
+   "Operating altitude": "10,000 ft (3,000m)",
+   "Operating relative humidity": "5% to 90% at 40C"
+  },
+  "Hardware Features": {
+   "Power Supply": "AC 120/230 V (50/60 Hz)",
+   "Dimensions (L x W x H)": "17.5 x 11.76 x 1.73 inch"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  },
+  "Image": {
+   "Model": "C1000-24P-4G-L"
+  }
+ },
+ "key_features": [],
+ "model": "C1000-24P-4G-L",
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-11T09:36+06:00",
+ "source": "https://www.creatus.com.bd/cisco-c1000-24p-4g-l-24-port-gigabit-poe-switch",
+ "store": "creatus"
+}

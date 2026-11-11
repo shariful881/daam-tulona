@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Size": "32GB",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "CUDA Cores": "21760",
+   "Memory Interface": "512-bit"
+  },
+  "Core Clock": {
+   "Engine Clock": "OC mode: 2580 MHz",
+   "Default mode": "2550 MHz(Boost clock)"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x Native DisplayPort 2.1a",
+   "HDMI": "2x Native HDMI 2.1b",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "1000W"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "TUF Gaming GeForce RTX 5090 32GB GDDR7 OC Edition"
+  }
+ },
+ "key_features": [
+  "Video Memory: 32GB GDDR7, CUDA Core: 21760",
+  "Memory Speed: 28 Gbps, Memory Interface: 512-bit",
+  "Engine Clock: 2550 MHz(Boost clock), OC Mode: 2580 MHz",
+  "Output Ports: 2x Native HDMI 2.1b, 3x Native DisplayPort 2.1a"
+ ],
+ "model": "TUF Gaming GeForce RTX 5090 32GB GDDR7 OC Edition",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-geforce-rtx-5090-32gb-gddr7-oc-edition-graphics-card",
+ "store": "creatus"
+}

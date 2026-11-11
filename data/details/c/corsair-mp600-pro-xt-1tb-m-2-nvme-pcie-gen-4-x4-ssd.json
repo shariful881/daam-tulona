@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 4.0 x4",
+   "Flash Type": "3D TLC NAND",
+   "MTBF": "1,700,000 hours",
+   "Sequential R/W": "Max Sequential Read CDM Up to 7,100MB/s\nMax Sequential Write CDM Up to 5,800MB/s",
+   "TBW": "700"
+  },
+  "Others": {
+   "Storage Humidity": "93% RH (40° C)",
+   "SSD Compatibility": "M.2 2280 Interface Connector Windows 10, Mac OS X"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +70°C",
+   "Storage Temperature": "-40°C to +85°C",
+   "Shock resistance": "1,500 G",
+   "Vibration Resistance": "20 Hz~80 Hz/1.52 mm, 80 Hz~2000 Hz/20G"
+  },
+  "Physical Specification": {
+   "Dimensions": "80mm x 23mm x 15mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  },
+  "Image": {
+   "Model": "MP600 PRO XT 1TB"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to 7,100MB/s",
+  "Sequential Write: Up to 5,800MB/s"
+ ],
+ "model": "MP600 PRO XT 1TB",
+ "warranty": "5 years",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.creatus.com.bd/corsair-mp600-pro-xt-1tb-nvme-pcie-ssd",
+ "store": "creatus"
+}

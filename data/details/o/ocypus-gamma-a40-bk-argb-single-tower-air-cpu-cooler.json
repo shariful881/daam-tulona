@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Connector": {
+   "Fan Connector": "4-Pin PWM",
+   "Fan LED Connector": "3-Pin"
+  },
+  "Key Features": {
+   "Fan Airflow": "41CFM",
+   "Fan Speed": "600~2400RPM ±10%",
+   "Type": "Air CPU Cooler",
+   "Noise": "≤29.5dB(A)",
+   "Air Pressure": "2.2mmH2O",
+   "LED Number": "ARGB"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 115X/1200/1700/1851",
+   "AMD": "AMD: AM4/AM5"
+  },
+  "Basic Information": {
+   "Other Feature": "Heatpipe: Φ6mm*4\nBearing Type: Hydraulic Bearing\nTDP: 200W\nFan Power:\nRated Voltage: 12VDC\nFan Rated Current: 0.10A\nFan Power Consumption: 1.2W\nFan LED Power:\nRated Voltage: 5VDC\nRated Current: 0.25A\nPower Consumption: 1.25W"
+  },
+  "General": {
+   "Dimension": "Fan: 100*100*25mm (L×W×H)"
+  },
+  "External Features": {
+   "Weight": "420g"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  },
+  "Image": {
+   "Model": "Gamma A40 BK ARGB"
+  }
+ },
+ "key_features": [],
+ "model": "Gamma A40 BK ARGB",
+ "warranty": "2 Years Warranty",
+ "fetched": "2026-11-11T09:13+06:00",
+ "source": "https://www.creatus.com.bd/ocypus-gamma-a40-bk-argb-air-cpu-cooler",
+ "store": "creatus"
+}

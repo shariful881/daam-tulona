@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Up to 4K 480Hz or 8K 165Hz with DSC",
+   "Core Clock": "2670 MHz",
+   "Memory Clock": "30 Gbps",
+   "BUS Type": "256-bit",
+   "CUDA Cores": "10752"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 12v-2x6 power input",
+   "Recommended PSU": "850W",
+   "Power Consumption": "360W *High power consumption, please carefully read your PSU manual before installation"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "4.6",
+   "HDCP Support": "2.3"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI Connector\n(Supports 4K 120Hz HDR, 8K 60Hz HDR, and Variable Refresh Rate as specified in the HDMI 2.1b Specification)",
+   "Display Port": "3 x DisplayPort 2.1b with UHBR20\n(up to 4K 480Hz or 8K 165Hz with DSC)"
+  },
+  "Physical Specification": {
+   "Dimension": "332.1mm x 137.5mm x 69.6mm / 13.1\" x 5.4\" x 2.7\""
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years (3+2) (based on online registration)"
+  },
+  "Image": {
+   "Model": "RTX 5080 AMP Extreme INFINITY"
+  }
+ },
+ "key_features": [],
+ "model": "RTX 5080 AMP Extreme INFINITY",
+ "warranty": "5 Years (3+2) (based on online registration)",
+ "fetched": "2026-11-11T09:17+06:00",
+ "source": "https://www.creatus.com.bd/zotac-gaming-geforce-rtx-5080-amp-extreme-infinity-graphics-card",
+ "store": "creatus"
+}

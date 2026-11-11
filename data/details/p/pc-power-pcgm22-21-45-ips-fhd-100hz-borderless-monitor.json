@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "21.5 inch",
+   "Display Type": "LED Backlit Display",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920×1080)",
+   "Pixel pitch(MM)": "0.2493×0.241 mm (H×V) [102PPI]",
+   "Display Surface": "Antiglare",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250nit",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "100Hz (max)",
+   "Color Support": "16.7M",
+   "Color Gamut": "120% sRGB",
+   "Response Time": "5ms GTG",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Audio Features": {
+   "Speaker Details": "2W/4Ω",
+   "Speaker (Built In)": "Yes"
+  },
+  "Dimension": {
+   "with Stand (mm, W x H x D)": "494.4×370.1×138.2mm",
+   "without Stand (mm, W x H x D)": "494.4×284.15×15.36mm"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI×1",
+   "VGA": "VGA×1"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5∘~ 15∘",
+   "Vesa Wall Mount": "Yes"
+  },
+  "Power": {
+   "Type": "DC 12V",
+   "Power Consumption": "24W"
+  },
+  "Weight": {
+   "Net Weight with Stand (kg)": "2.3kg",
+   "Net Weight without Stand (kg)": "2.0kg"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years warranty"
+  },
+  "Image": {
+   "Model": "PCGM22"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920×1080)",
+  "Display: IPS, 100Hz, 5ms GTG",
+  "Ports: 1x HDMI, 1x VGA",
+  "Features: Low Blue Light, Flicker-Free, Built-in Speakers"
+ ],
+ "model": "PCGM22",
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://www.creatus.com.bd/pc-power-pcgm22-2145-inch-ips-fhd-borderless-monitor",
+ "store": "creatus"
+}

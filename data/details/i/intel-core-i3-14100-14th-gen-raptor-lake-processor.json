@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5 GHz",
+   "Maximum Turbo Frequency": "4.7 GHz",
+   "Cache": "12 MB Intel Smart Cache\nL2 Cache: 5 MB",
+   "Cores": "4",
+   "TDP": "110W",
+   "Threads": "8"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 730",
+   "Max Dynamic Frequency": "1.5 GHz",
+   "Max Resolution": "Max Resolution (HDMI)‡ 4096 x 2160 @ 60Hz\nMax Resolution (DP)‡ 7680 x 4320 @ 60Hz\nMax Resolution (eDP - Integrated Flat Panel)‡ 5120 x 3200 @ 120Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty (No Warranty for Fan or Cooler)"
+  },
+  "Image": {
+   "Model": "Core i3 14100 (Tray Box)"
+  }
+ },
+ "key_features": [],
+ "model": "Core i3 14100 (Tray Box)",
+ "warranty": "3 Years Warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:09+06:00",
+ "source": "https://www.creatus.com.bd/intel-core-i3-14100-14th-gen-raptor-lake-processor",
+ "store": "creatus"
+}

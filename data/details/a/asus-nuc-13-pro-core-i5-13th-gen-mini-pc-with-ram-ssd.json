@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i5-13420H Processor, cTDP 45W",
+   "RAM": "8GB 3200Mhz DDR4 Laptop RAM",
+   "Graphics Card": "Integrated, Intel Iris Xe Graphics",
+   "Storage": "256GB NVMe SSD",
+   "Audio": "Realtek ALC269",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6E (Gig+), Bluetooth 5.2\nIntel Ethernet Controller I226-V, 2.5G"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front & Side I/O:\"2 x USB 3.2 Gen2 Type-A\n1 x 3.5mm Headset Jack\n1 x Kensington Lock\"\nBack I/O:\"2 x Thunderbolt 4 Type-C w/ DisplayPort 1.4\n1 x USB 3.2 Gen 2 Type-A\n1 x USB 2.0 Type-A\n2 x HDMI 2.1 (TMDS)\n1 x RJ45 LAN\n1 x DC-in\""
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "117 x 112 x 37 mm",
+   "Weight": "502g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5 13420H Processor, cTDP 45W",
+  "RAM: 8GB DDR4 3200Hz, Storage: 256GB NVME SSD",
+  "Graphics: Intel Iris Xe Graphics",
+  "WLAN: Intel Wi-Fi 6E (Gig+), Bluetooth 5.2"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:28+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-nuc-13-pro-core-i5-13th-gen-mini-pc",
+ "store": "fourstar"
+}

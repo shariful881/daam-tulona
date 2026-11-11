@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "132 x 48 (2.41’’) LCD display",
+   "Keys": "Keys\n4 XML programmable context-sensitive soft keys, 5 (navigation, menu) keys. 8\ndedicated function keys for MESSAGE(with LED indicator), TRANSFER, HEADSET,\nMUTE, SEND/ REDIAL, SPEAKERPHONE, VOL+, VOL",
+   "Protocols/Standards": "SIP RFC3261, TCP/IP/UDP, RTP/RTCP, RTCP-XR, HTTP/HTTPS, ARP, ICMP, DNS(A\nrecord, SRV, NAPTR), DHCP, PPPoE, SSH, TFTP, NTP, STUN, SIMPLE, LLDP, LDAP, TR069, SNMP, 802.1x, TLS, SRTP, IPv6",
+   "Security": "Carrier-Grade Security"
+  },
+  "Telephony Features": {
+   "Number of Lines": "2 lines",
+   "Conferencing": "5-way voice conferencing",
+   "Callers log": "up to 800 records"
+  },
+  "Physical Specification": {
+   "Color": "Grey",
+   "Wall Mounting": "Yes, 1 angle position available (45°), Wall Mountable (*wall mount sold separately)"
+  },
+  "Codec support": {
+   "Others": "Video Codecs\nSupport for G.729A/B, G.711µ/a-law, G.726, G.722(wide-band), G.723,iLBC, OPUS,\nin- band and out-of-band DTMF(in audio, RFC2833, SIP INFO), VAD, AEC, CNG, PLC,\nAGC, AJB"
+  },
+  "Warranty": {
+   "Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 year warranty",
+ "fetched": "2026-11-11T09:21+06:00",
+ "source": "https://fourstarit.com.bd/p/grandstream-grp2601-2-line-2-sip-carrier-grade-ip-phone-with-adapter",
+ "store": "fourstar"
+}

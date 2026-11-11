@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256 GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "NAND Flash",
+   "Interface": "PCI-Express 3.0 x4, NVMe 1.4",
+   "MTBF": "1.5M hours"
+  },
+  "Sequential R/W": {
+   "Sequential Read speed": "Up to 3200 MB/s",
+   "Sequential Write speed": "Up to 1200 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "80 x 22 x 2.3 mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://smartbd.com/product/gigabyte-256gb-nvme-m-2-ssd-g3nvmev2256g/",
+ "store": "smartbd"
+}

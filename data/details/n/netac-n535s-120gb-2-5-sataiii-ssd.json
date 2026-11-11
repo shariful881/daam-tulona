@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "120GB",
+   "Form Factor": "2.5\"",
+   "Interface": "SATA III",
+   "Sequential R/W": "Read Speed 560MB/s\nWrite Speed 520MB/s",
+   "Others": "TRIM, S.M.A.R.T, LDPC ECC"
+  },
+  "Physical Specification": {
+   "Dimension": "100 x 70 x 7 mm",
+   "Weight": "54 g"
+  },
+  "Warranty": {
+   "Warranty Details": "Manufacturing Warranty\n3 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 120GB",
+  "Interface: SATA III",
+  "Sequential Read/Write: Up to 560MB/s / 520MB/s",
+  "Technology: 3D NAND Flash, TRIM, S.M.A.R.T, LDPC ECC",
+  "Form Factor: 2.5-inch"
+ ],
+ "warranty": "Manufacturing Warranty",
+ "fetched": "2026-11-11T09:25+06:00",
+ "source": "https://fourstarit.com.bd/p/netac-n535s-120gb-25-inch-sataiii-ssd",
+ "store": "fourstar"
+}

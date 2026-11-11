@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD AM4 Socket for AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3rd/2nd/1st Gen AMD Ryzen/ 2nd and 1st Gen AMD Ryzen with Radeon Vega Graphics/ Athlon with Radeon Vega Graphics Processors",
+   "Chipset": "AMD B450",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9 inch x 8.7 inch ( 22.6 cm x 22.1 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "3rd/2nd/1st Gen AMD Ryzen Processors\n1 x PCIe 3.0 x16 (x16 mode)\n2nd and 1st Gen AMD Ryzen with Radeon Vega Graphics Processors\n1 x PCIe 3.0 x16 (x8 mode)\nAMD Athlon with Radeon Vega Graphics Processors\n1 x PCIe 3.0 x16 (x4 mode)\nAMD B450 chipset\n2 x PCIe 2.0 x1"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR4 Memory Technology",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "4400(O.C)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/ 3400(O.C.)/3300(O.C.)/3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.) / 2666/2400/2133 MHz Un-buffered Memory",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics in the 2nd and 1st Gen AMD Ryzen with Radeon Vega Graphics/ Athlon with Radeon Vega Graphics Processors\n1 x D-Sub\n1 x DVI-D\n1 x HDMI 2.0b"
+  },
+  "Connector & Ports": {
+   "D-Sub (s)": "1 x D-Sub",
+   "DVI-D (s)": "1 x DVI-D",
+   "HDMI": "1 x HDMI 2.0b",
+   "USB (s)": "Rear USB Port ( Total 6 )\n4 x USB 3.2 Gen 1 port(s)(4 x Type-A)\n2 x USB 2.0 port(s)(2 x Type-A)\nFront USB Port ( Total 6 )\n2 x USB 3.2 Gen 1 port(s)\n4 x USB 2.0 port(s)",
+   "LAN Port (s)": "Realtek RTL8111H\nASUS LANGuard",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "PRIME B450M-K II"
+  }
+ },
+ "key_features": [
+  "CPU: AMD AM4 Socket for AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series",
+  "Supported RAM: 2 x DDR4, Max. 64GB",
+  "Graphics Output: 1x D-Sub, 1x DVI-D, 1x HDMI 2.0b",
+  "Features: 5X Protection III"
+ ],
+ "model": "PRIME B450M-K II",
+ "warranty": "03 years",
+ "fetched": "2026-11-11T09:58+06:00",
+ "source": "https://www.creatus.com.bd/asus-prime-b450m-k-ii-am4-micro-atx-motherboard",
+ "store": "creatus"
+}

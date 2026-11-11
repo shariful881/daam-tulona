@@ -1,0 +1,71 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Thermal Inkjet",
+   "Output Color": "Black & White\nColor"
+  },
+  "Copy": {
+   "Copy Resolution": "Copy Resolution (Pixel): 1200dpi",
+   "Copy Speed": "10cpm (Black), 2cpm (Color)"
+  },
+  "Scan": {
+   "Scan Type": "Flatbed",
+   "Scan Resolution": "Scan Resolution: 1200dpi Pixel",
+   "Maximum Scan Size": "A4"
+  },
+  "Print": {
+   "Technology": "Ink",
+   "Print Speed": "Black - Up to 12ppm (ISO), Up to 22ppm (Draft)\nColor - Up to 5ppm (ISO), Up to 16ppm (Draft)",
+   "First Print Out Time": "14sec (Black), 21sec (Color)",
+   "Duplex": "Manual"
+  },
+  "Print Resolution": {
+   "Print Resolution (Pixel)": "1200 x 1200dpi",
+   "Printer Resolution (Black)": "1200 x 1200dpi",
+   "Printer Resolution (Color)": "4800 x 1200dpi"
+  },
+  "Paper Size": {
+   "Paper Size Minimum": "A6",
+   "Print Paper Size": "A4, B5, A6, DL Envelope, Legal, Letter",
+   "Paper Size Max": "Legal"
+  },
+  "Paper Information": {
+   "Paper Weight": "60 to 90 g/m2 (Plain paper), 75 to 90 g/m2 (Envelope), 200 g/m2 (Card), 300 g/m2 (Photo paper)",
+   "Input Capacity": "100 Sheets",
+   "Output Capacity": "30 Sheets"
+  },
+  "Physical Specs": {
+   "Color": "Grey",
+   "Dimension": "434.66 x 361.53 x 157.26mm",
+   "Weight": "5.03 kg"
+  },
+  "Technical Specs": {
+   "Memory": "64MB"
+  },
+  "Connectivity": {
+   "Interface (Built-in)": "USB, WiFi, Bluetooth",
+   "Networking": "Wi-Fi 802.11b/g/n, 1 Wi-Fi Direct"
+  },
+  "Power Consumption": {
+   "Input voltage": "100 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3 Hz), High voltage: Input",
+   "voltage": "200 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3Hz)"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "HP GT53 90-ml Black Original Ink Bottle 1VV22AA; HP GT53XL 135-ml Black Original Ink Bottle 1VV21AA; HP GT52 Cyan Original Ink Bottle M0H54AA; HP GT52 Magenta Original Ink Bottle M0H55AA; HP GT52 Yellow Original Ink Bottle M0H56AA",
+   "Software": "Windows 11, Windows 10, macOS 10.15 Catalina, macOS 11 Big Sur, macOS 12 Monterey"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years warranty (1-year standard warranty and 1-year additional free warranty by registration)\n(Print Head Warranty 12000 pages)"
+  },
+  "Image": {
+   "Model": "Smart Tank 580"
+  }
+ },
+ "key_features": [],
+ "model": "Smart Tank 580",
+ "warranty": "2 years warranty (1-year standard warranty and 1-year additional free warranty b",
+ "fetched": "2026-11-11T09:42+06:00",
+ "source": "https://www.creatus.com.bd/hp-smart-tank-580-multifunction-wi-fi-all-in-one-color-ink-printer",
+ "store": "creatus"
+}

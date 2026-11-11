@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.8GHz",
+   "Maximum Turbo Frequency": "Up to 5.5GHz",
+   "Cores": "8",
+   "Threads": "16",
+   "Supported Technologies": "AMD EXPO™ Technology\nAMD Ryzen™ Technologies"
+  },
+  "Cache": {
+   "Total L1 Cache": "512KB",
+   "Total L2 Cache": "8MB",
+   "Total L3 Cache": "32MB"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "Max Memory Speed\n2x1R DDR5-5600\n2x2R DDR5-5600\n4x1R DDR5-3600\n4x2R DDR5-3600"
+  },
+  "Type": {
+   "System Memory Type": "DDR5",
+   "System Memory Subtype": "UDIMM"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "3.8GHz",
+   "Processor Graphics": "AMD Radeon™ Graphics",
+   "Core Count": "2",
+   "Max Dynamic Frequency": "2200 MHz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Ryzen 7 9700X"
+  }
+ },
+ "key_features": [
+  "Max. Boost Clock: Up to 5.5GHz",
+  "Cores: 8, Threads: 16",
+  "CPU Socket: AM5",
+  "L2 Cache: 8MB, L3 Cache: 32MB"
+ ],
+ "model": "Ryzen 7 9700X",
+ "warranty": "3 Years",
+ "fetched": "2026-11-11T09:54+06:00",
+ "source": "https://www.creatus.com.bd/amd-ryzen-7-9700x-gaming-processor",
+ "store": "creatus"
+}

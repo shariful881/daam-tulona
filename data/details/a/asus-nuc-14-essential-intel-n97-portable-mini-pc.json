@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Processor N97, cTDP 12W",
+   "RAM": "1 x SO-DIMM, Up to DDR5-4800, 16GB*1 (Support)",
+   "Graphics Card": "Integrated, Intel Graphics",
+   "Storage": "1 x M.2 2280/2242 PCIe Gen3x4, supports 128GB~2TB NVMe or SATA SSD (Support)",
+   "Audio": "Realtek ALC3251",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6E AX211 (Gig+), Bluetooth 5.3\n1 x Realtek Ethernet Controller RTL8125BG-CG, 2.5G",
+   "Operating System": "FreeDOS"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front & Side I/O\n1 x USB 3.2 Gen2 Type-C\n2 x USB 3.2 Gen2 Type-A\n1 x 3.5mm Headset Jack\n1 x Kensington Lock\nBack I/O\n1 x USB 3.2 Gen2 Type-C w/ DisplayPort 1.4\n2 x USB 3.2 Gen 2 Type-A\n1 x USB 2.0 Type-A\n1 x HDMI 2.1 (TMDS)\n1 x DisplayPort 1.4\n1 x RJ45 LAN\n1 x DC-in"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "135mm x 115mm x 36mm",
+   "Weight": "480g (0.48kg)"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Processor N97, cTDP 12W",
+  "RAM: 1 x SO-DIMM, Up to DDR5-4800, 16GB*1 (Support)",
+  "WLAN: Intel Wi-Fi 6E AX211 (Gig+), Bluetooth 5.3"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-11T09:28+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-nuc-14-essential-intel-n97-portable-mini-pc",
+ "store": "fourstar"
+}

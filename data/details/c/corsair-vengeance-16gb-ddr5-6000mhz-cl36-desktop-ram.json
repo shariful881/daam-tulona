@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Type": "DDR5",
+   "Frequency": "6000MHz",
+   "Latency": "36-44-44-96"
+  },
+  "Operating voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.40V"
+  },
+  "Others": {
+   "Performance Profile": "XMP 3.0>br>",
+   "Package Memory Format": "DIMM",
+   "Memory Compatibility": "Intel 600 Series, Intel 700 Series"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "VENGEANCE RGB"
+  }
+ },
+ "key_features": [],
+ "model": "VENGEANCE RGB",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.creatus.com.bd/corsair-vengeance-16gb-desktop-ram",
+ "store": "creatus"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "8GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL16-20-20-40",
+   "Others": "Unbuffered\nNon-ECC"
+  },
+  "Physical dimension": {
+   "Dimension": "Height: 46.9mm / 1.85inch",
+   "Heat Sink Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 8GB",
+  "Memory Type: DDR4",
+  "Memory Frequency: 3200 MHz",
+  "Latency: CL16-20-20-40"
+ ],
+ "price": 8700,
+ "regular": 9440,
+ "status": "In Stock",
+ "code": "33066",
+ "brand": "OCPC",
+ "mpn": "MMX3A8GD432C16W",
+ "model": "X3 RGB DDR4 3200 8GB WHITE",
+ "warranty": "Lifetime",
+ "name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM White",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "OCPC",
+  "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM White"
+ ],
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.startech.com.bd/ocpc-x3-rgb-ddr4-3200mhz-8gb-ram-white",
+ "store": "startech"
+}

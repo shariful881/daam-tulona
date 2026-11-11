@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Socket AM4 And Ryzen Series CPUs",
+   "Chipset": "AMD B450",
+   "BIOS": "128M UEFI",
+   "Form Factor": "203 X 235 Mm MATX"
+  },
+  "Memory": {
+   "Slots": "1*PCI Express 3.0x1 Slots,1*M.2 Slot(Only SATA SSD Is Supported When Using AMD 7th Generation Athlon Processor);",
+   "Supported Memory": "2 DIMM Slots，Support Dual Channel DDR4 3200（OC）/3000（OC）/2800（OC）/2666/2400/2133MHz Memory"
+  },
+  "Graphics": {
+   "Graphics": "1*PCI Express3.0X16 Slot"
+  },
+  "Connector & Ports": {
+   "HDMI": "1*HDMI Port",
+   "USB (s)": "6*USB2.0,4*USB3.0 And 2*USB3.1(Including Headers)",
+   "LAN Port (s)": "Realtek RTL8111H 1000M LAN, Provides 10/100/1000Mb Ethernet",
+   "Supported Storage": "4*SATA3.0 6Gb/S Ports",
+   "Audio": "ALC662 6-Channel Audio Chipset",
+   "Internal I/O Ports": "1*PS2 Port，1*VGA Port,1*DVI Port,1*RJ45 Lan, 3*Audio Ports,"
+  },
+  "Others": {
+   "Special Features": "Support S3, S4, S5 Wake-Up;Support Phone Call Startup, Timing Boot, Network S5 Wake-Up Hardware Monitor: CPU Fan Speed Controlled，SYSTEM Fan Speed Monitoring,CPU Temperature Monitoring，System Temperature Monitoring，And Voltage Monitoring"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Replacement Warranty"
+  },
+  "Image": {
+   "Model": "BATTLE-AX B450M-HD V14"
+  },
+  "Product List": {
+   "Colorful (Ryzen) Motherboard List Price in BD": "Price",
+   "COLORFUL CVN B450M MATX AMD GAMING MOTHERBOARD": "11,400৳\n12,000৳"
+  }
+ },
+ "key_features": [
+  "Chipset: AMD B450 for stable performance.",
+  "Memory: 2 DIMM slots supporting dual-channel DDR4 memory up to 3200MHz (OC).",
+  "Graphics: 1 PCIe 3.0 x16 slot for high-performance GPU support.",
+  "Storage: 4 SATA3.0 6Gb/s ports for ample storage connectivity.",
+  "LAN: Realtek RTL8111H 1000M LAN providing 10/100/1000Mb Ethernet.",
+  "Audio: ALC662 6-channel audio chipset for immersive sound.",
+  "USB Ports: 6 USB 2.0, 4 USB 3.0, and 2 USB 3.1 ports (including headers) for versatile connectivity.",
+  "Form Factor: Micro-ATX (203 x 235mm) for compact builds.",
+  "BIOS: 128M UEFI for efficient system management.",
+  "HDMI Port: 1 HDMI port for high-definition display support.",
+  "Wake-Up Support: S3, S4, S5 wake-up options for varied power states.",
+  "Hardware Monitoring: CPU fan speed control, system temperature, voltage monitoring, etc."
+ ],
+ "model": "BATTLE-AX B450M-HD V14",
+ "warranty": "3 Years Replacement Warranty",
+ "fetched": "2026-11-11T10:02+06:00",
+ "source": "https://www.creatus.com.bd/colorful-battle-ax-b450m-hd-v14-ddr4-ryzen-motherboard",
+ "store": "creatus"
+}

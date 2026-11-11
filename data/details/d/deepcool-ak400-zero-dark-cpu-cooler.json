@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "500~1850 RPM±10%",
+   "Fan Airflow": "66.47 CFM",
+   "Noise": "≤29 dB(A)",
+   "Air Pressure": "2.04 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Physical Specification": {
+   "Dimension": "Product Dimensions: 127×97×155 mm\nHeatsink Dimensions: 120×45×152 mm\nFan Dimensions: 120×120×25 mm",
+   "Weight": "661 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Fan Dimensions: 120×120×25 mm",
+  "Fan Speed: 500~1850 RPM±10%",
+  "Fan Airflow: \t66.47 CFM",
+  "Bearing Type: Fluid Dynamic Bearing"
+ ],
+ "price": 3700,
+ "regular": 4070,
+ "status": "In Stock",
+ "code": "32692",
+ "brand": "Deepcool",
+ "mpn": "R-AK400-BKNNMN-G-2",
+ "model": "AK400 ZERO DARK",
+ "warranty": "03 years",
+ "name": "DeepCool AK400 ZERO DARK CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AK400 ZERO DARK CPU Cooler"
+ ],
+ "fetched": "2026-11-11T09:05+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ak400-zero-dark-cpu-cooler",
+ "store": "startech"
+}

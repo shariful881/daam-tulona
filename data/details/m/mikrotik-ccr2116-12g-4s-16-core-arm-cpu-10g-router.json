@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Frequency": "2000 MHz"
+  },
+  "Key Features": {
+   "Button": "Yes",
+   "Interface": "ARM 64bit",
+   "Ports": "10/100/1000 Ethernet ports 13"
+  },
+  "Power Source": {
+   "Power Mode": "Number of AC inputs: 2"
+  },
+  "Router Features": {
+   "Operating System Support": "RouterOS"
+  },
+  "Warranty Information": {
+   "Warranty": "01-year warranty"
+  }
+ },
+ "key_features": [
+  "Architecture: ARM 64bit",
+  "CPU: AL73400",
+  "Size of RAM: 16 GB",
+  "Storage size: 128 MB",
+  "Operating System: RouterOS (v7 only)"
+ ],
+ "warranty": "01-year warranty",
+ "fetched": "2026-11-11T09:29+06:00",
+ "source": "https://www.pchouse.com.bd/mikrotik-ccr2116-12g-4s-plus-16-core-arm-cpu-10g-router",
+ "store": "pchouse"
+}

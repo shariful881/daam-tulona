@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Noise/Signal": "20dBA"
+  },
+  "Main Spec": {
+   "Frequency Range": "100Hz - 20kHz",
+   "Sensitivity": "-33.0dB re 1 Volt/Pascal (22.00mV @ 94 dB SPL) +/- 2 dB @ 1kHz",
+   "Output Impedance": "JFET impedance converter",
+   "Cable": "3.5mm TRRS",
+   "Polar pattern": "Cardioid"
+  },
+  "Microphone FEATURE": {
+   "Microphone Type": "Directional",
+   "Includes": "Deluxe furry windshield"
+  },
+  "Features": {
+   "Dimension": "80mm (D) x 38mm (H) x 21mm (W)",
+   "Compatibility": "Smartphone: yes",
+   "Weight": "34g"
+  },
+  "Connectivity": {
+   "Connector": "Wired"
+  },
+  "Warranty Information": {
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "No warranty",
+ "fetched": "2026-11-11T09:23+06:00",
+ "source": "https://www.pchouse.com.bd/rode-videomic-me-directional-mic-for-smartphones",
+ "store": "pchouse"
+}

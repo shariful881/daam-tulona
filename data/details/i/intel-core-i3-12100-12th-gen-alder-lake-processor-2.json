@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.30 GHz",
+   "Cache": "12 MB Intel Smart Cache",
+   "Cores": "4",
+   "Maximum Turbo Frequency": "4.30 GHz",
+   "Threads": "8"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Max Dynamic Frequency": "1.40 GHz",
+   "Max Resolution": "Max Resolution (HDMI)‡: 4096 x 2160 @ 60Hz\nMax Resolution (DP)‡: 7680 x 4320 @ 60Hz\nMax Resolution (eDP - Integrated Flat Panel)‡: 5120 x 3200 @ 120Hz"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.30 GHz Up to 4.30 GHz",
+  "Cache: 12MB, Socket: LGA 1700",
+  "CPU Cores: 4, CPU Threads: 8",
+  "Graphic: Intel UHD Graphics 730"
+ ],
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-i3-12100-12th-gen-alder-lake-processor",
+ "store": "pchouse"
+}

@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680x4320",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "128-bit",
+   "Memory Interface": "PCI Express Gen 5 x16 (uses x8)",
+   "CUDA Cores": "2560 Units",
+   "Others": "Powered by the NVIDIA Blackwell architecture and DLSS 4\nTORX Fan 5.0"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2617 MHz (MSI Center)",
+   "Boost": "2602 MHz"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort x 3 (v2.1b)",
+   "HDMI": "HDMI x 1 (As specified in HDMI 2.1b: up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR)",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "8-pin x1",
+   "Recommended PSU": "550 W",
+   "Consumption": "130 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "197 x 120 x 40 mm"
+  },
+  "Warranty": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR6, PCI Express Gen 5 x16",
+  "Core Clock: 2617 MHz, Boost Clock: 2602 MHz",
+  "Memory Speed: 20 Gbps, CUDA Cores: 2560 Units",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-11T09:08+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-5050-8g-shadow-2x-oc-graphics-card",
+ "store": "pchouse"
+}

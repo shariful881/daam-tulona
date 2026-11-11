@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen4 x4",
+   "Sequential R/W": "up to 5,000 / 2,500MB/s",
+   "MTBF": "1,500,000 hours"
+  },
+  "Others": {
+   "Voltage": "DC +3.3V",
+   "Humidity": "RH 90% under 40°C (operational)"
+  },
+  "Physical Specification": {
+   "Dimension": "80(L) x 22(W) x 2.25(H) mm",
+   "Weight": "7g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G/0.5ms",
+   "Vibration Resistance": "80Hz~2,000Hz/20G"
+  },
+  "Warranty": {
+   "Warranty": "5 Years Limited Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 500GB",
+  "Interface: PCIe Gen4 x4",
+  "Voltage: DC +3.3V",
+  "Sequential Read/Write: up to 5,000 / 2,500MB/s"
+ ],
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-11T09:11+06:00",
+ "source": "https://www.pchouse.com.bd/team-mp44l-500gb-m.2-pcie-gen4-nvme-ssd",
+ "store": "pchouse"
+}

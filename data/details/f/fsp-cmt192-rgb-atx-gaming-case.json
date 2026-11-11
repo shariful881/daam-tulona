@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model Name": "CMT192",
+   "Type": "ATX Mid Tower",
+   "Color": "Black",
+   "Materials": "SPCC",
+   "Dimension DxWxH (mm) / (inch)": "350x200x437mm",
+   "Maximum CPU Cooler Height": "160mm",
+   "VGA Card Length": "285mm",
+   "Expansion Slots": "7",
+   "MotherBoard Support": "ATX, Micro ATX, Mini-ITX",
+   "External I/O port": "USB3.0 x 1, USB2.0 x 2, HD Audio",
+   "Power Supply Type": "150mm ATX",
+   "3.5“ HDD": "2 (Share with SSD)",
+   "2.5″ SSD": "1",
+   "Fan Including(pre-install)": "Front: 120mm Fixed RGB x 3"
+  },
+  "Rear: 120mm Fixed RGB x 1": {
+   "Fan&Water Cooler Support": "Front: 120mm x 3 or 140mm x 2"
+  }
+ },
+ "key_features": [
+  "Type: Mid Tower",
+  "Motherboard Support: ATX, Micro ATX, Mini-ITX",
+  "Interface: 1x USB 3.0, 2x USB 2.0",
+  "Fan: Pre-installed 120mm Fixed RGB x 4"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://smartbd.com/product/fsp-cmt192-rgb-atx-gaming-case/",
+ "store": "smartbd"
+}

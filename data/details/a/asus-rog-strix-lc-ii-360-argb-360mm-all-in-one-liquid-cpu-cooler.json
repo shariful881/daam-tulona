@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800 - 2500 RPM +/- 10%",
+   "Fan Airflow": "80.95 CFM / 137.5 m3h",
+   "Noise": "37.6 dB(A)",
+   "Air Pressure": "5.0 mmH2O",
+   "Others": "AURA Sync Support: Yes"
+  },
+  "Material": {
+   "Block Material (CPU Plate)": "Copper",
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Dimension": {
+   "Water block dimention": "80 x 80 x 45 mm",
+   "Radiator Dimension": "121 x 394 x 27mm",
+   "Fan Dimension": "120 x 120 x 25mm"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel: LGA 1700, 1200, 115x, 2011, 2011-3, 2066",
+   "AMD": "AMD: AM4, TR4"
+  },
+  "Warranty Information": {
+   "Warranty": "06-Years"
+  }
+ },
+ "key_features": [
+  "Fan: ROG FAN MODEL 12 ARGB",
+  "Water block dimension: 80 x 80 x 45 mm",
+  "AURA Sync Support: Yes",
+  "Compatible: Intel: LGA 1700, 1200, 115x, 2011, 2011-3, 2066, AMD: AM4, TR4"
+ ],
+ "warranty": "06-Years",
+ "fetched": "2026-11-11T09:45+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-strix-lc-ii-360-argb-cpu-cooler",
+ "store": "pchouse"
+}

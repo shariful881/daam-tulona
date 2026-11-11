@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥90% Under Typical Load(50% Loading)",
+   "Certification": "80 PLUS Gold Certified",
+   "Fan Size": "120mm",
+   "Others": "MTBF: 100,000 Hours"
+  },
+  "Input": {
+   "Frequency Range": "50/60 Hz"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "750 Watt"
+  },
+  "Connector": {
+   "Main Power": "24(20+4)Pin × 1",
+   "CPU": "CPU(4+4)Pin x 1\n12V-2x6(16Pin) x 1",
+   "PCI-E": "PCI-E(6+2)Pin x 1",
+   "SATA": "SATA x 4 + 4Pin Peripheral x 1"
+  },
+  "Warranty Information": {
+   "Warranty": "10-year warranty"
+  }
+ },
+ "key_features": [
+  "Type: ATX12V V3.1",
+  "Fan Size: 120mm",
+  "Efficiency certification: 80Plus Gold",
+  "Topology: Active PFC + Full Bridge SRC LLC + DC to DC"
+ ],
+ "warranty": "10-year warranty",
+ "fetched": "2026-11-11T09:52+06:00",
+ "source": "https://www.pchouse.com.bd/deepcool-pn750m-750w-power-supply",
+ "store": "pchouse"
+}

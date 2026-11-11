@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Processor": {
+   "Cache": "18 MB",
+   "Cores": "6",
+   "Threads": "12",
+   "Base Frequency": "2.50 GHz",
+   "Maximum Turbo Frequency": "4.40 GHz",
+   "TDP": "65W",
+   "Maximum Size": "256GB",
+   "Warrantty": "03 years warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Base Clock Speed: 2.50 GHz Up to 4.40 GHz",
+  "Cache: 18 MB Intel Smart Cache",
+  "CPU Cores: 6, CPU Threads: 12",
+  "Supported Socket: LGA1700"
+ ],
+ "warranty": "03 years warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-11T09:06+06:00",
+ "source": "https://www.pchouse.com.bd/intel-12th-gen-core-i5-12400f-alder-lake-processor",
+ "store": "pchouse"
+}

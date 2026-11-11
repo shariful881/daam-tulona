@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 X 4320",
+   "Core Clock": "Base：2407Mhz；Boost:2572Mhz",
+   "Memory Clock": "28Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "4608",
+   "Others": "Red and Black Color Contrast Design\nMetallic Hollowed Backboard\nAxe Cooling System with Ring-Shaped Fans\nRGB Lighting Effect on the Side\nMemory Bandwidth: 448GB/s\nNV technology Support: DLSS 4/Reflex/Studio\nAuto Stop Technology"
+  },
+  "Interface": {
+   "Display Port": "3x DP2.1b",
+   "HDMI": "1x HDMI2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "8pin",
+   "Recommended PSU": "650W",
+   "Consumption": "180W"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "231*120*48.9mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, Memory Clock: 28Gbps",
+  "Core Clock: Base: 2407 Mhz, Boost: 2572 Mhz",
+  "CUDA Cores: 4608, Memory Bandwidth: 448GB/s",
+  "Display Outputs: 3x DisplayPort 2.1b, 1x HDMI 2.1b"
+ ],
+ "price": 112900118000,
+ "regular": 124000,
+ "status": "In Stock",
+ "code": "47810",
+ "brand": "Colorful",
+ "model": "GeForce RTX 5060 Ti Battle AX NB DUO 16GB-V",
+ "warranty": "3 Years",
+ "name": "Colorful GeForce RTX 5060 Ti Battle AX NB DUO 16GB-V GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Colorful",
+  "Colorful GeForce RTX 5060 Ti Battle AX NB DUO 16GB-V GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:04+06:00",
+ "source": "https://www.startech.com.bd/colorful-geforce-rtx-5060-ti-battle-ax-nb-duo-16gb-v-graphics-card",
+ "store": "startech"
+}

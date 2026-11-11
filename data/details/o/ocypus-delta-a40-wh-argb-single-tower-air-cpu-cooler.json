@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "500~2000±10%RPM",
+   "Fan Airflow": "73CFM",
+   "Noise": "≤29dB(A)",
+   "Air Pressure": "4.3 mmH2O",
+   "Connector": "Fan Connector: 4-Pin PWM\nFan LED Connector: 3-Pin",
+   "LED Number": "ARGB",
+   "Others": "Heatpipe: Φ6mm*4\nBearing Type: Fluid Dynamic Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "125*70.5*156.7mm(L×W×H)",
+   "Weight": "600g"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 115X/1200/1700/1851",
+   "AMD": "AMD: AM4/AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~2000±10%RPM",
+  "Heat Pipes: Φ6mm*4 Heatpipe",
+  "Customizable ARGB Lighting",
+  "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+ ],
+ "price": 28403000,
+ "regular": 3300,
+ "status": "In Stock",
+ "code": "46835",
+ "brand": "Ocypus",
+ "mpn": "Delta-A40-WH1NAWN00X-GL",
+ "model": "Delta A40 WH ARGB",
+ "warranty": "2 Years Warranty",
+ "name": "Ocypus Delta A40 WH ARGB Single Tower Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Ocypus",
+  "Ocypus Delta A40 WH ARGB Single Tower Air CPU Cooler"
+ ],
+ "fetched": "2026-11-11T09:14+06:00",
+ "source": "https://www.startech.com.bd/ocypus-delta-a40-wh-argb-cpu-cooler",
+ "store": "startech"
+}

@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680 × 4320",
+   "Core Clock": "1717 MHz",
+   "Memory Clock": "1750 MHz",
+   "BUS Type": "128bit",
+   "Memory Interface": "PCI Express 4.0",
+   "Stream Processors": "2560"
+  },
+  "Interface": {
+   "Display Port": "3xDisplay Port",
+   "HDMI": "1xHDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "8Pin",
+   "Recommended PSU": "550W",
+   "Consumption": "130W"
+  },
+  "Display Option": {
+   "Multi Display": "Up to 4 monitors"
+  },
+  "Physical Specifications": {
+   "Dimensions": "218*111*43 mm",
+   "Others": "655g"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years Manufacturer Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Clock Speed: 1750MHz",
+  "Memory Bandwidth: 224GB/s",
+  "Two-fan cooling system",
+  "Display Outputs: 1x HDMI, 3x DisplayPort"
+ ],
+ "price": 2350024500,
+ "regular": 25500,
+ "status": "In Stock",
+ "code": "41496",
+ "brand": "PELADN",
+ "model": "RX 5500 8GD6",
+ "warranty": "2 Years Manufacturer Warranty",
+ "name": "PELADN RX 5500 8G GDDR6 Dual Fan Gaming Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PELADN",
+  "PELADN RX 5500 8G GDDR6 Dual Fan Gaming Graphics Card"
+ ],
+ "fetched": "2026-11-11T09:15+06:00",
+ "source": "https://www.startech.com.bd/peladn-rx-5500-8gd6-black-gaming-graphics-card",
+ "store": "startech"
+}

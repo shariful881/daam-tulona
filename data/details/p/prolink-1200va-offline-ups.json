@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "PRO1201SFC/SFCU",
+   "Country of Origin": "Singapore",
+   "Capacity": "1200VA",
+   "Input Voltage": "140V~ 300V",
+   "Output": "220V ±10%",
+   "Phase": "Single Phase ±N",
+   "Transfer Time": "< 2ms",
+   "Technology": "Double Conversation",
+   "Frequency": "50Hz ±1% (Battery mode)",
+   "Battery Capacity": "12V; 8.2Ah x 2",
+   "Wave Form (Inverter)": "Simulated sine wave (Battery mode)",
+   "Back-up Time": "30 Minutes (depending on load) Standard Backup 15 Minutes",
+   "Protection": "Lighting, Transients, Spike, Surge, Sag, Blackout, Brownout, Over Voltage, Under Voltage, Over Load, Short circuit, Battery overcharge, Deep Discharge & noise (RFI) as per international Safety Practices.",
+   "Features": "Generator Compatibility",
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "model": "PRO1201SFC/SFCU",
+ "warranty": "1 Year",
+ "fetched": "2026-11-11T09:10+06:00",
+ "source": "https://smartbd.com/product/prolink-1200va-offline-ups/",
+ "store": "smartbd"
+}

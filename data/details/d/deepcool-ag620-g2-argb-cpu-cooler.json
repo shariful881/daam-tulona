@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler (Dual Tower)",
+   "Noise": "≤28.10 dB(A) / ≤30.93 dB(A)",
+   "Air Pressure": "1.75 mmAq / 2.10 mmAq",
+   "Bearing Type": "Hydro Bearing",
+   "Connectors": "4-pin PWM (Fan), 3-pin 5V ARGB (LED)",
+   "LED Type": "Addressable RGB LED",
+   "LED Number": "N/A",
+   "Material": "Aluminum and Copper",
+   "Speed": "500~2000±10% RPM / 500~2200±10% RPM",
+   "Current": "0.15 A / 0.18 A",
+   "Power Consumption": "1.8 W / 2.16 W (Fan), 1.70 W (LED)",
+   "Voltage": "12 VDC (Fan), 5 VDC (LED)"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851, LGA1700",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "AG620 G2 ARGB"
+  }
+ },
+ "key_features": [],
+ "model": "AG620 G2 ARGB",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-11T10:10+06:00",
+ "source": "https://www.creatus.com.bd/deepcool-ag620-g2-argb-cpu-cooler",
+ "store": "creatus"
+}

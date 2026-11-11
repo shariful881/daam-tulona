@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "PCIe Gen 4.0 x4",
+   "Sequential R/W": "SSD Max Sequential Read CDM Up to 7,000MB/s\nSSD Max Sequential Write CDM Up to 5700MB/s",
+   "MTBF": "1,600,000 Hours"
+  },
+  "Others": {
+   "Vibration": "20Hz~80Hz/1.52mm, 80Hz~2000Hz/20G",
+   "Storage Humidity": "93% RH (40° C)",
+   "Operating Humidity": "90% RH (40° C)",
+   "Encryption": "AES 256-bit Encryption",
+   "Endurance": "700TBW"
+  },
+  "Physical Specification": {
+   "Weight": "0.034kg"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to +70°C",
+   "Storage Temperature": "-40°C to +85°C",
+   "Shock resistance": "1500 G"
+  },
+  "Warranty": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to 7,000MB/s",
+  "Sequential Write: Up to 5700MB/s"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-11T09:49+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-mp600-pro-nh-1tb-pcie-gen4-x4-nvme-m.2-ssd",
+ "store": "pchouse"
+}

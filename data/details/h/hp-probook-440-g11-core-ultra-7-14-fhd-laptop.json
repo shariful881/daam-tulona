@@ -1,0 +1,103 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core Ultra 7 155U",
+   "Processor Frequency": "up to 4.8 GHz",
+   "Processor Core": "12",
+   "Processor Thread": "14T",
+   "CPU Cache": "12MB L3 Cache"
+  },
+  "Display": {
+   "Display Size": "14 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920 x 1200)",
+   "Display Features": "Narrow bezel, anti-glare, 300 nits, 45% NTSC"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600MHz",
+   "Total RAM Slot": "2"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "HP Premium Keyboard",
+   "Keyboard Features": "Spill-resistant, Backlit keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FHD camera",
+   "Speaker": "Dual stereo speakers",
+   "Microphone": "Dual-array microphones"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate (1 charging, 1 power)",
+   "USB Type-C / Thunderbolt Port": "2 USB Type-C 10Gbps signaling rate (USB Power Delivery, DisplayPort 2.1)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x RJ45",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "TPM 2.0 embedded security chip (Common Criteria EAL4+ and FIPS 140-2 Level 2 Certified)"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Power": {
+   "Battery Type": "HP Long Life 3-cell Li-ion",
+   "Battery Capacity": "56 Wh",
+   "Adapter Type": "HP Smart 65 W External AC Power Adapter"
+  },
+  "Physical Specification": {
+   "Color": "Silver",
+   "Dimensions": "31.86 x 22.44 x 1.09 cm (front); 31.86 x 22.43 x 1.7 cm",
+   "Weight": "1.39 kg",
+   "Body Material": "aluminum"
+  },
+  "Other Features": {
+   "Other Features": "Neural Processing Unit: Intel AI Boost"
+  },
+  "Warranty": {
+   "Warranty Details": "3 year warranty (Terms & Conditions Apply As Per HP)."
+  }
+ },
+ "key_features": [
+  "Processor: Core Ultra 7-155U (up to 4.8 GHz, 12 MB L3 cache)",
+  "RAM: 8 GB DDR5 5600MHz, Storage: 512GB PCIe SSD",
+  "Display: 14\" FHD (1920 x 1200) IPS",
+  "Features: Type-C, Fingerprint, Backlit Keyboard, Wi-Fi 6E"
+ ],
+ "price": 145000,
+ "regular": 151800,
+ "status": "In Stock",
+ "code": "42999",
+ "brand": "HP",
+ "mpn": "B7PE2PT",
+ "model": "ProBook 440 G11",
+ "warranty": "3 year warranty (Terms & Conditions Apply As Per HP).",
+ "name": "HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop",
+ "breadcrumb": [
+  "Laptop",
+  "All Laptop",
+  "HP",
+  "HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop"
+ ],
+ "fetched": "2026-11-11T09:20+06:00",
+ "source": "https://www.startech.com.bd/hp-probook-440-g11-core-ultra-7-laptop",
+ "store": "startech"
+}
