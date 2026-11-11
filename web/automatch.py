@@ -18,14 +18,14 @@
 import re
 from collections import Counter, defaultdict
 
-UNIT = re.compile(r"(\d+(?:\.\d+)?)\s*(gb|tb|mah|ltr|litre|liter|l|kg|ton|inch|va|w|hz|lumens?|mp|mm)\b", re.I)
-STRICT = {"gb", "tb", "mah", "l", "kg", "ton", "inch", "va"}
+UNIT = re.compile(r"(\d+(?:\.\d+)?)[\s-]*(gb|tb|mah|ltr|litre|liter|l|kg|ton|inch|va|w|hz|lumens?|mp|mm|pack|pcs|users?)\b", re.I)
+STRICT = {"gb", "tb", "mah", "l", "kg", "ton", "inch", "va", "pack", "user", "users"}
 NORM = {"ltr": "l", "litre": "l", "liter": "l", "lumen": "lumens"}
 GENERIC = re.compile(r"(gen|pcie|usb|ddr|gddr|wifi|wi|ax|ac|be|rtx|gtx|rx|hdmi|ipx?|bt|v)\d", re.I)
 SKIP = re.compile(r"\d+(gb|tb|mb|w|hz|mah|l|kg|va|mm|th|nd|rd|st|gen|mhz|k|p|x|m|cm|ft|v|a|ah|pcs|in1)$", re.I)
 COLORS = {"black", "white", "red", "blue", "green", "pink", "silver", "gold", "grey", "gray", "purple", "yellow",
           "orange", "brown", "beige", "titanium", "graphite", "midnight", "starlight", "cream", "navy", "violet",
-          "lavender", "mint", "rose", "copper", "bronze"}
+          "lavender", "mint", "rose", "copper", "bronze", "cyan", "magenta", "ice", "snow"}
 COLOR_ALIAS = {"gray": "grey"}
 # এক মডেলে র‍্যাম/প্রসেসর/স্টোরেজ ভেদ থাকে, তাই নাম পুরোপুরি মিলতে হয়
 STRICT_CATS = {"gaming-laptop", "ultrabook", "laptop", "gaming-pc", "ai-pc", "brand-pc", "all-in-one-pc", "mini-pc",
@@ -33,9 +33,12 @@ STRICT_CATS = {"gaming-laptop", "ultrabook", "laptop", "gaming-pc", "ai-pc", "br
 STOPWORDS = {"the", "and", "with", "for", "of", "in", "new", "original", "official", "edition", "version", "bd"}
 
 
+INCH = re.compile(r"(\d+(?:\.\d+)?)\s*(?:\"|″|''|”|-inch\b)")
+
+
 def units(name):
     out = defaultdict(set)
-    for n, u in UNIT.findall(name):
+    for n, u in UNIT.findall(INCH.sub(r"\1 inch", name)):
         u = NORM.get(u.lower(), u.lower())
         out[u].add(float(n))
     return out
@@ -51,8 +54,17 @@ def numbers_ok(a, b):
     return not na or not nb or na <= nb or nb <= na
 
 
+CONFLICT = [({"laptop", "notebook", "sodimm", "so-dimm"}, {"desktop", "udimm", "u-dimm"}), ({"tray", "oem", "bulk"}, {"box", "boxed"}),
+            ({"refurbished", "used"}, {"brand-new"})]
+
+
+def word_conflict(a, b):
+    wa, wb = set(re.findall(r"[a-z-]+", a.lower())), set(re.findall(r"[a-z-]+", b.lower()))
+    return any((wa & x and wb & y and not wa & y) or (wa & y and wb & x and not wa & x) for x, y in CONFLICT)
+
+
 def compatible(a, b):
-    if not numbers_ok(a, b):
+    if not numbers_ok(a, b) or word_conflict(a, b):
         return False
     ua, ub = units(a), units(b)
     for u in set(ua) | set(ub):
@@ -111,8 +123,32 @@ FILLER = {"gaming", "wireless", "with", "price", "bd", "original", "official", "
 
 def signature(name):
     """নামের অর্থবহ শব্দের সেট: ক্রম, বড়-ছোট হাতের অক্ষর, রং আর ফালতু শব্দ বাদ; সংখ্যা+একক এক শব্দ।"""
-    n = re.sub(r"(\d+(?:\.\d+)?)\s*(gb|tb|mah|w|hz|inch|mm|l|kg|va|mp)\b", r"\1\2", name.lower())
-    return frozenset(w for w in re.findall(r"[a-z0-9.]+", n) if w.strip(".") and w not in FILLER and w not in COLORS)
+    n = re.sub(r"\b80\s*(\+|plus)", " 80plus ", name.lower())
+    n = re.sub(r"(\d+(?:\.\d+)?)\s*(gb|tb|mah|w|hz|inch|mm|l|kg|va|mp)\b", r"\1\2", n)
+    ws = {w for w in re.findall(r"[a-z0-9.]+", n) if w.strip(".") and w not in FILLER and w not in COLORS}
+    # "850 850W" — খালি সংখ্যাটা একক-সহ সংখ্যার পুনরাবৃত্তি হলে বাদ
+    return frozenset(w for w in ws if not (w.isdigit() and any(x != w and x.startswith(w) and not x[len(w)].isdigit() for x in ws)))
+
+
+VARIANT = {"pro", "max", "plus", "ultra", "mini", "lite", "se", "air", "neo", "prime", "fe", "he", "slim", "nano",
+           "turbo", "elite", "evo", "edge", "fold", "flip", "note", "go", "x", "s", "t", "e", "v2", "v3", "gen2", "ii",
+           "iii", "iv", "anc", "enc", "ti", "super", "ex", "xt", "xtx", "oc", "hd", "fhd", "qhd", "uhd", "4k", "oled", "tkl", "rgb", "argb", "digital"}
+
+
+def _category_words(products, offers):
+    """প্রতিটা ক্যাটাগরির নামে খুব বেশি আসে এমন বর্ণনার শব্দ (মডেল/ভেরিয়েন্ট নয়)।"""
+    by = defaultdict(list)
+    for pid in offers:
+        p = products.get(pid)
+        if p:
+            by[p["category"]].append(signature(p["name"]))
+    out = {}
+    for c, sigs in by.items():
+        if len(sigs) < 20:
+            continue
+        df = Counter(w for sg in sigs for w in sg)
+        out[c] = frozenset(w for w, n in df.items() if n >= 0.08 * len(sigs) and not re.search(r"\d", w) and w not in VARIANT)
+    return out
 
 
 def _score(a, b):
@@ -124,13 +160,17 @@ def match_pairs(products, offers, not_same=(), group_of=None):
     """ফেরত: (নিশ্চিত জোড়া [(score, a, b)], সম্ভাব্য জোড়া [(score, a, b, কারণ)])"""
     blocked = set(not_same)
     group_of = group_of or {}
-    by = defaultdict(list)
+    by, nocap = defaultdict(list), defaultdict(list)
     for pid in offers:
         p = products.get(pid)
         if not p:
             continue
+        su = units(p["name"])
+        cap = tuple(sorted((u, tuple(sorted(v))) for u, v in su.items() if u in STRICT))
         for m in models(p["name"], p.get("brand")):
-            by[m].append(pid)
+            by[(m, cap)].append(pid)  # একই কোডের ভিন্ন ক্যাপাসিটি আলাদা দলে, তাই সিরিজ বড় হলেও মেলে
+            if not cap:
+                nocap[m].append(pid)
     sure, maybe, seen = [], [], set()
     for m, ids in by.items():
         if len(ids) < 2 or len(ids) > 12:  # ১২টার বেশি প্রোডাক্টে থাকা কোড আসলে সিরিজের নাম
@@ -156,7 +196,12 @@ def match_pairs(products, offers, not_same=(), group_of=None):
                 sc = _score(na, nb)
                 same_cat = pa["category"] == pb["category"]
                 if not same_cat:
-                    if group_of.get(pa["category"]) == group_of.get(pb["category"]) and soft_compatible(na, nb) and sc >= 0.35:
+                    same_grp = group_of.get(pa["category"]) == group_of.get(pb["category"])
+                    strict_any = pa["category"] in STRICT_CATS or pb["category"] in STRICT_CATS
+                    hard = {"laptop-ram", "desktop-ram", "processor", "graphics-card", "ssd", "hdd", "portable-ssd", "portable-hdd", "motherboard"}
+                    if same_grp and not strict_any and not ({pa["category"], pb["category"]} & hard) and compatible(na, nb) and sc >= 0.7:
+                        sure.append((sc, a, b))  # দোকানভেদে ক্যাটাগরি আলাদা (neckband / earphone), নাম প্রায় হুবহু
+                    elif same_grp and soft_compatible(na, nb) and sc >= 0.35:
                         maybe.append((sc, a, b, "ভিন্ন ক্যাটাগরি"))
                     continue
                 if pa["category"] in STRICT_CATS:
@@ -169,28 +214,47 @@ def match_pairs(products, offers, not_same=(), group_of=None):
                     sure.append((sc, a, b))
                 elif soft_compatible(na, nb):
                     maybe.append((sc, a, b, "এক নামে সাইজ/ক্যাপাসিটি লেখা নেই"))
-    # মডেল কোড নেই এমন নাম (Galaxy A16, Freezer 36): একই ক্যাটাগরি ও ব্র্যান্ডে অর্থবহ শব্দ হুবহু এক হলে নিশ্চিত,
-    # অনেকটা কাছাকাছি হলে প্রস্তাব
+    # এক নামে ক্যাপাসিটি লেখা নেই (Samsung T7 / Samsung T7 1TB): শুধু প্রস্তাব
+    for (m, cap), ids in by.items():
+        if not cap or not nocap.get(m) or len(nocap[m]) > 6 or len(ids) > 12:
+            continue
+        for a in nocap[m]:
+            for b in ids:
+                key = "|".join(sorted((a, b)))
+                if key in seen or key in blocked or set(offers[a]) & set(offers[b]):
+                    continue
+                pa, pb = products[a], products[b]
+                if pa["category"] != pb["category"] or not same_brand(pa.get("brand"), pb.get("brand")):
+                    continue
+                ca, cb = colors(pa["name"]), colors(pb["name"])
+                if (ca and cb and not (ca & cb)) or not soft_compatible(pa["name"], pb["name"]):
+                    continue
+                seen.add(key)
+                maybe.append((_score(pa["name"], pb["name"]), a, b, "এক নামে সাইজ/ক্যাপাসিটি লেখা নেই"))
+    # মডেল কোড নেই বা ছোট (QCY T13 Pro, Onikuma G67, Amazfit Balance): ক্যাটাগরির সাধারণ বর্ণনার শব্দ (earbuds,
+    # bluetooth, mechanical, keyboard…) বাদ দিলে বাকি "মূল নাম" হুবহু এক হলে নিশ্চিত। একই বিভাগে দোকানভেদে ক্যাটাগরি
+    # আলাদা হলেও (neckband / earphone) চলে।
+    common = _category_words(products, offers)
     bucket = defaultdict(list)
     for pid in offers:
         p = products.get(pid)
         if p:
-            bucket[(p["category"], brand_key(p.get("brand"))[:3])].append(pid)
+            bucket[(group_of.get(p["category"], p["category"]), brand_key(p.get("brand"))[:3])].append(pid)
     for ids in bucket.values():
-        if len(ids) < 2:
+        if len(ids) < 2 or len(ids) > 4000:
             continue
-        sig = {x: signature(products[x]["name"]) for x in ids}
+        core = {x: signature(products[x]["name"]) - common.get(products[x]["category"], frozenset()) for x in ids}
         inv = defaultdict(list)
         for x in ids:
-            for w in sig[x]:
+            for w in core[x]:
                 inv[w].append(x)
         for a in ids:
             pa = products[a]
             cand = Counter()
-            for w in sig[a]:
-                if len(inv[w]) <= 200:
+            for w in core[a]:
+                if len(inv[w]) <= 300:
                     cand.update(inv[w])
-            for b, _n in cand.most_common(20):
+            for b, _n in cand.most_common(25):
                 if b <= a:
                     continue
                 key = "|".join(sorted((a, b)))
@@ -199,18 +263,31 @@ def match_pairs(products, offers, not_same=(), group_of=None):
                 pb = products[b]
                 if set(offers[a]) & set(offers[b]) or not same_brand(pa.get("brand"), pb.get("brand")):
                     continue
-                sa, sb = sig[a], sig[b]
-                j = len(sa & sb) / max(1, len(sa | sb))
-                if j < 0.7:
-                    continue
-                ca, cb = colors(pa["name"]), colors(pb["name"])
+                na, nb = pa["name"], pb["name"]
+                ca, cb = colors(na), colors(nb)
                 if ca and cb and not (ca & cb):
                     continue
+                cmn = common.get(pa["category"], frozenset()) | common.get(pb["category"], frozenset())
+                sa, sb = core[a] - cmn, core[b] - cmn
+                j = len(sa & sb) / max(1, len(sa | sb))
+                if j < 0.5:
+                    continue
                 seen.add(key)
-                if sa == sb and compatible(pa["name"], pb["name"]):
+                strict_cat = pa["category"] in STRICT_CATS or pb["category"] in STRICT_CATS
+                ok = compatible(na, nb)
+                ma, mb = models(na, pa.get("brand")), models(nb, pb.get("brand"))
+                if ma and mb and not (ma & mb):
+                    ok = False  # দুই নামেই মডেল কোড আছে কিন্তু আলাদা (LMB-280U / DM-280U)
+                da, db = {w for w in sa if re.search(r"\d", w)}, {w for w in sb if re.search(r"\d", w)}
+                va, vb = sa & VARIANT, sb & VARIANT
+                if ok and len(sa) >= 2 and sa == sb:
                     sure.append((1.0, a, b))
-                elif soft_compatible(pa["name"], pb["name"]):
-                    maybe.append((j, a, b, "নাম প্রায় এক"))
+                elif (ok and not strict_cat and da and da == db and va == vb
+                      and any(len(w) >= 3 and re.search(r"[a-z]", w) and not SKIP.fullmatch(w) and not GENERIC.match(w) for w in da)
+                      and not (pa["category"] != pb["category"] and j < 0.6)):
+                    sure.append((0.9, a, b))
+                elif soft_compatible(na, nb) and j >= 0.6:
+                    maybe.append((j, a, b, "নাম প্রায় এক" if pa["category"] == pb["category"] else "ভিন্ন ক্যাটাগরি"))
     return sure, maybe
 
 
