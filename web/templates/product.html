@@ -3,6 +3,7 @@
 {% block head %}
 <script type="application/ld+json">{{ jsonld | safe }}</script>
 {% endblock %}
+{% from "_brandlogo.html" import blogo with context %}
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a></nav>
 
@@ -127,6 +128,17 @@
     {% endif %}
     <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
   </section>
+
+  {% if it.bslug in brand_set %}{% set bi = brand_info(it.bslug) %}
+  <section class="card bcard">
+    <a class="bc-head" href="{{ base }}/brand/{{ it.bslug }}/">
+      {{ blogo(it.bslug, it.brand, "lg") }}
+      <span class="bc-t"><span class="bc-n">{{ it.brand }}</span>{% if bi.tagline %}<span class="bc-tag">{{ bi.tagline }}</span>{% endif %}</span>
+    </a>
+    {% if bi.about %}<p class="bc-about">{{ bi.about }}</p>{% endif %}
+    <a class="btn sm bc-btn" href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}-এর সব {{ brand_n(it.bslug)|bn }}টি প্রোডাক্ট ও দাম দেখুন ›</a>
+  </section>
+  {% endif %}
 
   {{ slot("product_bottom", cat.slug, it.id) }}
 

@@ -574,6 +574,9 @@ def main():
         it["brand"] = BR.display(it["bslug"]) if it["bslug"] else ""
     common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
                            if c_ >= BR.conf.get("min_products", 5)}
+    common["brand_info"] = lambda b_: BR.info.get(b_) or {}
+    _bc = Counter(i["bslug"] for i in items.values() if i["bslug"])
+    common["brand_n"] = lambda b_: _bc.get(b_, 0)
     common["brand_logo"] = lambda b_: (lambda l: (l if l.startswith("http") else f"{BASE}/static/brands/{l}") if l else None)(BR.info.get(b_, {}).get("logo"))
     if DIST.exists():
         shutil.rmtree(DIST)
