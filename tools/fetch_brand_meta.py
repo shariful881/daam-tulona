@@ -230,6 +230,13 @@ def main(argv):
             m.update(socials(inf["website"].rstrip("/") + "/", html))
         print(f"{slug:16} লোগো: {m.get('logo', '—'):20} {m.get('logo_src', '')}", flush=True)
     mf.write_text(json.dumps(meta, ensure_ascii=False, indent=1))
+    if only:  # নির্দিষ্ট ব্র্যান্ড চালালে পুরনো রিপোর্টের বাকিগুলো রেখে দাও
+        try:
+            prev = json.loads((OUT / "report.json").read_text())
+            for k in ("ok", "fixed", "missing"):
+                rep[k] = [x for x in prev.get(k, []) if x["slug"] not in only] + rep[k]
+        except Exception:
+            pass
     rep["total"] = len(rep["ok"]) + len(rep["fixed"]) + len(rep["missing"])
     (OUT / "report.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1))
     print(f"মোট {rep['total']} | ঠিক আছে {len(rep['ok'])} | ঠিক করা হলো {len(rep['fixed'])} | পাওয়া যায়নি {len(rep['missing'])}")
