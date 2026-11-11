@@ -75,6 +75,21 @@
   </section>
   {% endif %}
 
+  {% if binfo.about or binfo.tagline %}
+  <section class="card o4 cprof">
+    <h2>কোম্পানি পরিচিতি</h2>
+    <div class="bhead">
+      <span class="blogo">{% if brand_logo(it.bslug) %}<img src="{{ brand_logo(it.bslug) }}" alt="{{ it.brand }}" loading="lazy">{% else %}{{ it.brand[:2] }}{% endif %}</span>
+      <div style="min-width:0"><b class="cpn">{{ it.brand }}</b>{% if binfo.tagline %}<span class="cpt">{{ binfo.tagline }}</span>{% endif %}</div>
+    </div>
+    {% if binfo.about %}<p class="babout">{{ binfo.about }}</p>{% endif %}
+    <div class="blinks">
+      {% if it.bslug in brand_set %}<a href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}-এর সব প্রোডাক্ট{% if bcount %} ({{ bcount|bn }}টি){% endif %} ›</a>{% endif %}
+      {% if binfo.website %}<a href="{{ binfo.website }}" target="_blank" rel="nofollow noopener">অফিসিয়াল ওয়েবসাইট ›</a>{% endif %}
+    </div>
+  </section>
+  {% endif %}
+
   <section class="card o5">
     <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
     {% if sparks %}
@@ -132,7 +147,6 @@
       {% endif %}
     {% endfor %}
     </div>
-    <p class="sabout">স্টোর সম্পর্কে জানুন (হটলাইন, ডেলিভারি, EMI): {% for row in store_rows if row.offer %}<a href="{{ base }}/store/{{ row.store }}/">{{ stores[row.store].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
     {% if it.sus %}<p class="chknote"><b>দাম যাচাই চলছে:</b> চিহ্নিত দামগুলো অন্য স্টোরের তুলনায় অস্বাভাবিক কম বা বেশি। ভুল প্রোডাক্ট মিলে যাওয়া, বুকিং মূল্য বা টাইপিং ভুল হতে পারে, তাই সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে এগুলো ধরা হয়নি।</p>{% endif %}
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
     {% if missing %}
@@ -149,12 +163,34 @@
     <p class="nfnote">এই স্টোরগুলোর তালিকায় আজ এই প্রোডাক্টটা খুঁজে পাওয়া যায়নি। স্টক এলে বা মিল পাওয়া গেলে উপরে যোগ হবে।</p>
     {% endif %}
   </section>
+  {% set srows = store_rows | selectattr("offer") | list %}
+  {% if srows %}
+  <section class="card o2 sprof">
+    <h2>স্টোর পরিচিতি <span class="sub">· কেনার আগে জেনে নিন</span></h2>
+    {% for row in srows %}{% set si = store_info.get(row.store, {}) %}
+    <details{% if loop.first %} open{% endif %}>
+      <summary><span class="av{% if stores[row.store].logo %} logo{% endif %}{% if stores[row.store].logo_dark %} dark{% endif %}">{% if stores[row.store].logo %}<img src="{{ base }}/static/{{ stores[row.store].logo }}" alt="" loading="lazy">{% else %}{{ stores[row.store].short }}{% endif %}</span><span class="spn2"><b>{{ stores[row.store].name }}</b>{% if si.hotline %}<small>{{ si.hotline }}</small>{% endif %}</span></summary>
+      <dl class="kf">
+        {% if si.address %}<div><dt>ঠিকানা</dt><dd>{{ si.address }}</dd></div>{% endif %}
+        {% if si.branches %}<div><dt>শাখা</dt><dd>{{ si.branches }}</dd></div>{% endif %}
+        {% if si.delivery %}<div><dt>ডেলিভারি</dt><dd>{{ si.delivery }}</dd></div>{% endif %}
+        {% if si.emi %}<div><dt>EMI</dt><dd>{{ si.emi }}</dd></div>{% endif %}
+        {% if si.returns %}<div><dt>রিটার্ন</dt><dd>{{ si.returns }}</dd></div>{% endif %}
+      </dl>
+      {% if not (si.address or si.branches or si.delivery or si.emi) %}<p class="muted" style="font-size:.82rem;margin:0 0 8px">এই স্টোরের বিস্তারিত তথ্য এখনো যোগ হয়নি।</p>{% endif %}
+      <a class="sprof-more" href="{{ base }}/store/{{ row.store }}/">{{ stores[row.store].name }}-এর পুরো প্রোফাইল ›</a>
+    </details>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if alts %}
   <section class="card o6">
     <h2>একই ধরনের অন্য প্রোডাক্ট</h2>
     <div class="rows">
     {% for a in alts %}
-      <a class="row" href="{{ base }}/p/{{ a.id }}/">
+      <a class="row wi" href="{{ base }}/p/{{ a.id }}/">
+        <span class="rimg" data-img>{{ cicon(a.category) }}{% if a.imgs %}<img src="{{ a.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ a.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ a.name }}</div><div class="w">{{ stores[a.store].name }}</div></div>
         <div><div class="p">{{ a.price | taka }}</div>{% if best %}{% set d = a.price - best.price %}<div class="d {% if d < 0 %}lo{% endif %}">{% if d < 0 %}{{ (-d) | taka }} কম{% elif d > 0 %}{{ d | taka }} বেশি{% else %}একই দাম{% endif %}</div>{% endif %}</div>
       </a>

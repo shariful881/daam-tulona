@@ -847,12 +847,15 @@ def main():
     for it in items.values():
         by_cat[it["category"]].append(it)
     product_tpl = env.get_template("product.html")
+    bcount_all = Counter(i["bslug"] for i in items.values() if i["bslug"])
     BSPEC = {}  # Walton/Minister-এর নিজস্ব স্পেক, url ধরে
     for bf in sorted((DATA / "brand_specs").glob("*.json")) if (DATA / "brand_specs").exists() else []:
         BSPEC.update(json.loads(bf.read_text()))
 
     # SEO: শেয়ার-ছবি (ফেসবুকে লিংকের সাথে ছবি) আর ব্রেডক্রাম্ব স্কিমা
     common["og_default"] = f"{SITE_URL or BASE}/static/share.jpg"
+    _si = ROOT / "config/store_info.json"
+    common["store_info"] = json.loads(_si.read_text()).get("stores", {}) if _si.exists() else {}
     _lf = ROOT / "config/leads.json"
     common["lead_cfg"] = {"endpoint": (json.loads(_lf.read_text()).get("endpoint") or "") if _lf.exists() else "",
                           "wa": (ads.get("contact") or {}).get("whatsapp") or (ads.get("contact") or {}).get("phone") or ""}
@@ -893,7 +896,7 @@ def main():
         ref = (it["best"] or {}).get("price") or it["any_price"]
         if ref and not any(it["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")):
             same = [a for a in same if 0.7 * ref <= a["best"]["price"] <= 1.3 * ref]
-        alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"]}
+        alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"], "imgs": a["imgs"], "category": a["category"]}
                 for a in sorted(same, key=lambda a: abs(a["best"]["price"] - (ref or 0)))[:6]]
         changes = daily_min({s_: v for s_, v in history.get(pid, {}).items() if s_ not in it["sus"]}, today)
         best = it["best"]
@@ -942,6 +945,7 @@ def main():
         out.write_text(product_tpl.render(
             **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, feat_rows=feat_rows, feat_extra=feat_extra,
             best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
+            binfo=BR.info.get(it["bslug"], {}) if it["bslug"] else {}, bcount=bcount_all.get(it["bslug"], 0),
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],
             spark=sparkline(changes, today), hist_start=bn_date(changes[0][0]) if changes else None,

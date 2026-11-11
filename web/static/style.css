@@ -438,6 +438,23 @@ dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap
 .azlist a .ci{width:16px;height:16px}
 @media (min-width:1024px){.shub{grid-template-columns:repeat(2,minmax(0,1fr))}.scard:hover{border-color:var(--accent)}}
 
+/* প্রোডাক্ট পেজে কোম্পানি ও স্টোর পরিচিতি */
+.cpn{display:block;font-size:1.05rem}
+.cpt{display:block;font-size:.82rem;color:var(--muted)}
+.sprof details{border-top:1px solid var(--line)}
+.sprof details:first-of-type{border-top:0}
+.sprof summary{justify-content:flex-start;gap:10px;padding:10px 0}
+.sprof summary::after{margin-left:auto}
+.sprof summary .av{width:64px;height:34px}
+.spn2{display:grid;min-width:0}
+.spn2 b{font-size:.92rem}
+.spn2 small{font-size:.76rem;color:var(--muted);font-weight:500}
+.sprof dl.kf{margin-bottom:6px;grid-template-columns:minmax(0,1fr)!important}
+.sprof dl.kf>div{grid-template-columns:72px 1fr!important;border-bottom:1px solid var(--line)!important}
+.sprof dl.kf>div:last-child{border-bottom:0!important}
+.sprof dl.kf dd{font-size:.84rem;font-weight:400}
+.sprof-more{display:inline-block;font-size:.82rem;font-weight:600;color:var(--accent);margin:2px 0 12px}
+
 /* ফোনের অফিসিয়াল / আনঅফিসিয়াল */
 .ptl{display:inline-block;margin-left:6px;font-size:.66rem;font-weight:700;border-radius:6px;padding:0 6px;vertical-align:2px}
 .ptl.official{background:var(--best-soft);color:var(--best)}
