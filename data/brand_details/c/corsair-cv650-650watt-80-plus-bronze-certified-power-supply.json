@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "CV650 POWER TABLE": {
+   "Model": "RPS0128",
+   "Part No.": "CP-9020236",
+   "AC Input": "100-240V",
+   "Input Current": "10A-5A",
+   "Frequency": "47~63Hz",
+   "Total Power": "650W"
+  },
+  "Tech Specs": {
+   "SATA Connector": "7",
+   "Fan Bearing Technology": "Sleeve",
+   "Modular": "No",
+   "Cable Type": "Sleeved",
+   "Floppy Connector": "1",
+   "Zero RPM Mode": "No",
+   "PSU Form Factor": "ATX",
+   "Single Multiple 12V Rail Toggl": "No",
+   "Multi GPU Ready": "No",
+   "Fan Size MM": "120mm",
+   "Continuous Power W": "650 Watts",
+   "ATX Connector": "1",
+   "Continuous Output Rated Temp C": "30°C",
+   "ATX12V Version": "v2.31",
+   "MTBF Hours": "100,000 hours",
+   "Warranty": "3 Year",
+   "Weight": "2kg"
+  }
+ },
+ "key_features": [],
+ "model": "RPS0128",
+ "fetched": "2026-11-11T21:28+06:00",
+ "source": "https://www.corsair.com/us/en/p/psu/cp-9020236-na/cv-series-cv650-650-watt-80-plus-bronze-certified-psu-cp-9020236-na",
+ "brand_site": "Corsair"
+}
