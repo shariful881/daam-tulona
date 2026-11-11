@@ -11,7 +11,7 @@
   <section class="card plwrap">
     <div class="rows plist" id="list">
     {% for it in items %}
-      <a class="row wi" href="{{ base }}/p/{{ it.id }}/" data-stock="{{ 1 if it.best else 0 }}"><span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/" data-stock="{{ 1 if it.best else 0 }}"><span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div>
           <div class="w">{% if it.best %}{{ stores[it.best.store].name }}{% else %}এখন স্টকে নেই{% endif %}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
         <div><div class="p">{% if it.best %}{{ it.best.price|taka }}{% elif it.any_price %}<span class="muted">{{ it.any_price|taka }}</span>{% else %}—{% endif %}</div>{% if it.saving %}<div class="d lo">{{ it.saving|taka }} পার্থক্য</div>{% endif %}</div>

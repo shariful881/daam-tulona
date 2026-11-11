@@ -1,0 +1,78 @@
+{
+  "_নোট": "প্রতিটা ক্যাটাগরির আইকন। মান = Tabler Icons-এর নাম (tabler.io/icons)। বদলাতে চাইলে নাম বদলান, তারপর tools/build_icons.py চালান।",
+  "groups": {
+    "mobile-tablet": "device-mobile", "laptop-desktop": "device-laptop", "computer-parts": "cpu",
+    "monitor": "device-desktop", "accessories": "keyboard", "gadget": "device-watch", "gaming": "device-gamepad-2",
+    "networking": "router", "security": "device-cctv", "office": "printer", "camera": "camera",
+    "power": "bolt", "server": "server", "software": "apps", "appliance": "fridge", "lifestyle": "heart-rate-monitor"
+  },
+  "leaves": {
+    "feature-phone": "device-mobile-message", "smartphone": "device-mobile", "mobile-accessories": "device-mobile-charging",
+    "graphics-tablet": "writing", "stylus-pen": "pencil", "tablet-accessories": "device-ipad-horizontal-cog", "tablet": "device-tablet",
+
+    "gaming-laptop": "device-laptop", "ultrabook": "device-laptop", "laptop": "device-laptop", "laptop-bag": "briefcase",
+    "gaming-pc": "device-desktop-bolt", "ai-pc": "ai", "brand-pc": "device-desktop", "all-in-one-pc": "device-imac",
+    "mini-pc": "box-model", "mac-desktop": "device-imac", "desktop-pc": "device-desktop",
+
+    "processor": "cpu", "motherboard": "cpu-2", "graphics-card": "device-desktop-analytics",
+    "desktop-ram": "memory", "laptop-ram": "memory", "portable-ssd": "device-sd-card", "ssd": "device-sd-card",
+    "portable-hdd": "database", "hdd": "database", "power-supply": "plug", "casing": "box",
+    "liquid-cooler": "droplet", "cpu-cooler": "snowflake", "casing-fan": "propeller", "optical-drive": "disc",
+    "gpu-holder": "tool", "laptop-accessories": "device-laptop",
+
+    "monitor-arm": "arrow-autofit-height", "gaming-monitor": "device-desktop", "portable-monitor": "device-tablet",
+    "monitor-all": "device-desktop",
+
+    "keyboard": "keyboard", "mouse": "mouse", "mouse-pad": "rectangle", "headphone": "headphones",
+    "bluetooth-headphone": "headphones", "webcam": "device-computer-camera", "microphone": "microphone",
+    "speaker": "device-speaker", "bluetooth-speaker": "bluetooth", "soundbar": "volume", "pen-drive": "device-usb",
+    "memory-card": "device-sd-card", "card-reader": "id", "hub-dock": "usb", "cable": "plug-connected",
+    "converter": "arrows-exchange", "enclosure": "box", "capture-card": "video", "power-strip": "plug-connected",
+    "bluetooth-adapter": "bluetooth-connected", "thermal-paste": "temperature", "presenter": "presentation",
+    "voice-recorder": "microphone-2", "monitor-light-bar": "bulb", "headphone-stand": "headset", "wrist-rest": "hand-stop",
+
+    "smart-watch": "device-watch", "smart-band": "activity-heartbeat", "smart-ring": "circle-dot",
+    "smart-glasses": "eyeglass", "earbuds": "headphones", "neckband": "headset", "earphone": "headphones",
+    "power-bank": "battery-charging", "car-charger": "car", "tv-box": "device-tv", "drone": "drone",
+    "gimbal": "video", "studio-equipment": "microphone-2", "power-tools": "tool", "radio": "radio",
+
+    "gaming-console": "device-gamepad", "gamepad": "device-gamepad-2", "gaming-chair": "armchair",
+    "gaming-desk": "table", "racing-wheel": "steering-wheel", "vr": "cardboards", "games": "disc",
+
+    "gaming-router": "router", "router": "router", "pocket-router": "wifi", "starlink": "satellite",
+    "range-extender": "wifi", "access-point": "access-point", "wifi-adapter": "antenna", "network-switch": "network",
+    "firewall": "shield-lock", "onu-olt": "affiliate", "lan-card": "network", "poe-injector": "plug-connected",
+    "network-cable": "plug-connected", "network-parts": "puzzle", "network-tools": "tool",
+
+    "wifi-camera": "device-cctv", "ip-camera": "device-cctv", "cc-camera": "device-cctv", "ptz-camera": "camera-rotate",
+    "solar-camera": "solar-panel", "camera-package": "packages", "dvr-nvr": "server-2", "cctv-accessories": "tool",
+    "door-lock": "lock", "door-bell": "bell-ringing", "access-control": "fingerprint", "digital-locker": "lock-square",
+    "kvm-switch": "switch-horizontal",
+
+    "laser-printer": "printer", "printer": "printer", "special-printer": "printer", "printer-supplies": "droplet",
+    "scanner": "scan", "photocopier": "copy", "projector": "device-projector", "display-solution": "presentation",
+    "conference": "users-group", "telephone": "phone", "money-counter": "cash", "office-machine": "building",
+    "calculator": "calculator",
+
+    "action-camera": "camera-bolt", "dslr-mirrorless": "camera", "digital-camera": "camera", "dash-cam": "car",
+    "camera-lens": "aperture", "camera-accessories": "camera-cog",
+
+    "online-ups": "battery-charging-2", "mini-ups": "battery", "ups": "battery-charging", "ips": "battery-automotive",
+    "power-station": "battery-charging-2", "battery": "battery-4", "solar": "solar-panel", "voltage-stabilizer": "gauge",
+    "generator": "engine",
+
+    "server": "server", "workstation": "device-desktop-cog", "nas-san": "database", "server-parts": "cpu",
+    "server-rack": "server-2",
+
+    "os-office": "brand-windows", "antivirus": "shield-check", "other-software": "apps",
+
+    "tv": "device-tv", "ac": "air-conditioning", "fridge": "fridge", "washing-machine": "wash-machine",
+    "oven": "microwave", "air-fryer": "cooker", "cooker": "cooker", "induction-stove": "flame",
+    "blender": "blender", "fan-cooler": "propeller", "geyser-heater": "temperature-plus",
+    "water-air-purifier": "air-balloon", "vacuum-cleaner": "vacuum-cleaner", "iron": "ironing-1",
+    "sewing-machine": "needle-thread", "light": "bulb",
+
+    "grooming": "scissors", "health-device": "heart-rate-monitor", "treadmill": "treadmill",
+    "wrist-watch": "clock", "lifestyle-other": "star"
+  }
+}

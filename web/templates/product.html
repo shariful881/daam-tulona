@@ -12,7 +12,7 @@
     <div class="head">
       <div class="thumbcol">
         <div class="thumb{% if gallery %} has-img{% endif %}" data-img>
-          <span class="ico" aria-hidden="true">{{ icon | safe }}</span>
+          <span class="ico" aria-hidden="true">{{ cicon(cat.slug) }}</span>
           {% if gallery %}<button type="button" class="pimg" data-gal="0" aria-label="ছবি বড় করে দেখুন"><img src="{{ gallery[0].u }}" alt="{{ p.name }}" width="96" height="96" decoding="async" data-alts="{{ gallery[1:] | galts }}" onerror="dtImgErr(this)"></button>{% endif %}
         </div>
         {% if gallery %}<a class="credit" href="{{ gallery[0].h }}" target="_blank" rel="nofollow noopener">ছবি: {{ gallery[0].n }}</a>{% endif %}

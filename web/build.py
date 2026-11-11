@@ -526,7 +526,18 @@ def main():
     env.filters["bn"] = bn_num
     env.filters["galts"] = lambda g: json.dumps([[x["u"], x["n"], x["h"]] for x in g], ensure_ascii=False)
     env.filters["alts_simple"] = lambda l: json.dumps([[u] for u, _ in l])
-    common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
+    # ক্যাটাগরি আইকন (config/category_icons.json → static/cat-icons.svg স্প্রাইট)
+    from markupsafe import Markup
+    _ic_file = ROOT / "config/category_icons.json"
+    _ic = json.loads(_ic_file.read_text()) if _ic_file.exists() else {"groups": {}, "leaves": {}}
+    _sp = ROOT / "web/static/cat-icons.svg"
+    _icv = zlib.crc32(_sp.read_bytes()) if _sp.exists() else 0  # ফাইল বদলালেই কেবল নতুন করে ডাউনলোড
+
+    def cicon(slug, group=False, cls="ci"):
+        name = (_ic["groups"] if group else _ic["leaves"]).get(slug) or _ic["groups"].get(slug) or "box"
+        return Markup(f'<svg class="{cls}" aria-hidden="true"><use href="{BASE}/static/cat-icons.svg?v={_icv}#i-{name}"/></svg>')
+
+    common = {"base": BASE, "cicon": cicon, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
               "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
               "going_note": ads.get("going_note", True), "contact": ads.get("contact", {}),
@@ -577,7 +588,7 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
