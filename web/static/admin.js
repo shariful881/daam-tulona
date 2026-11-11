@@ -206,7 +206,9 @@
         '<div class="aact"><div><b>স্পেক ও ওয়ারেন্টি সংগ্রহ</b><small>কতগুলো প্রোডাক্টের (দিনে ৬০০-এর বেশি দিলে Star Tech আটকে দিতে পারে)</small><input type="number" id="dlimit" value="600" min="50" max="5000" aria-label="প্রোডাক্টের সংখ্যা"></div><button class="abtn" data-run="details.yml">চালান</button></div>' +
         '<div class="aact"><div><b>সাইট আবার প্রকাশ</b><small>দাম না তুলে বর্তমান ডাটা দিয়ে ২ মিনিটে সাইট আপডেট</small></div><button class="abtn" data-run="deploy-now.yml">চালান</button></div>' +
         '<div class="aact"><div><b>স্টোরের লোগো আবার আনা</b><small>স্টোরের ওয়েবসাইট থেকে লোগো খুঁজে আনে</small></div><button class="abtn ghost" data-run="logos.yml">চালান</button></div>' +
+        '<div class="aact"><div><b>ব্র্যান্ডের লোগো পরীক্ষা</b><small>যেসব ব্র্যান্ডের লোগো নেই বা ভাঙা, শুধু সেগুলো আবার খোঁজে। এমনিতে প্রতি মাসের ১ তারিখে নিজে চলে।</small></div><button class="abtn ghost" data-run="brand-meta.yml">চালান</button></div>' +
       '</div></section>' +
+      '<div id="logorep"></div>' +
       '<section class="card"><h2>সাম্প্রতিক কাজ <span class="sub">· নিজে থেকে রিফ্রেশ হয়</span></h2><div class="aruns" id="runs"><p class="aempty">লোড হচ্ছে…</p></div></section>' +
       '<section class="card"><h2>স্টোরের অবস্থা <span class="sub">· শেষ সংগ্রহ ' + esc(h.scraped_at || "") + '</span></h2><div class="ascroll"><table><tr><th>স্টোর</th><th>অফার</th><th>সময়</th><th>অবস্থা</th></tr>' +
         Object.keys(h.stores || {}).map(function (k) { var x = h.stores[k];
@@ -223,6 +225,19 @@
         function (e) { toast("চালু হয়নি: " + e.message, true); }).then(function () { setTimeout(function () { b.disabled = false; }, 5000); });
     });
     loadRuns();
+    // ব্র্যান্ড লোগোর মাসিক পরীক্ষার ফল; সমস্যা থাকলে সতর্কবার্তা
+    fetch(BASE + "/static/brands/report.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (rp) {
+      var box = $("#logorep"); if (!box || !rp) return;
+      var miss = rp.missing || [], fixed = rp.fixed || [], okn = (rp.ok || []).length + fixed.length;
+      var age = Math.round((Date.now() - new Date(rp.date + "T00:00:00+06:00")) / 864e5);
+      box.innerHTML = '<section class="card"><h2>ব্র্যান্ডের লোগো <span class="sub">· শেষ পরীক্ষা ' + esc(rp.date) + "</span></h2>" +
+        (age > 35 ? '<div class="anote warn">⚠ ' + bn(age) + " দিন ধরে লোগো পরীক্ষা হয়নি। উপরের \"ব্র্যান্ডের লোগো পরীক্ষা\" চালান।</div>" : "") +
+        '<p style="margin:0 0 8px;font-size:.9rem">মোট ' + bn(rp.total) + "টি ব্র্যান্ড: <b style=\"color:var(--best)\">" + bn(okn) + "টির লোগো ঠিক আছে</b>" +
+        (fixed.length ? ", এর মধ্যে " + bn(fixed.length) + "টি এবার ঠিক করা হয়েছে" : "") + (miss.length ? ', <b style="color:var(--warn)">' + bn(miss.length) + "টির লোগো নেই</b>" : "") + "।</p>" +
+        (miss.length ? '<div class="anote warn" style="font-size:.84rem">⚠ এই ব্র্যান্ডগুলোর লোগো পাওয়া যায়নি (সাইটে নামের আদ্যক্ষর দেখাচ্ছে): ' +
+          miss.map(function (m) { return "<b>" + esc(m.slug) + "</b>"; }).join(", ") + "। লোগো ফাইল পাঠালে হাতে বসানো যায়।</div>" : "") +
+        "</section>";
+    }).catch(function () {});
     return Promise.resolve();
   };
 

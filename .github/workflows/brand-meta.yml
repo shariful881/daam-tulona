@@ -1,11 +1,13 @@
 name: brand-meta
-# ব্র্যান্ডের অফিসিয়াল সাইট থেকে লোগো ও সোশ্যাল লিংক (হাতে চালানো)
+# ব্র্যান্ডের লোগো ও সোশ্যাল লিংক। প্রতি মাসের ১ তারিখ সকাল ১০:১১-এ পরীক্ষা: ভাঙা/না-থাকা লোগো ঠিক করার চেষ্টা, ফল অ্যাডমিনে
 on:
+  schedule:
+    - cron: "11 4 1 * *"
   workflow_dispatch:
     inputs:
       brands:
-        description: "নির্দিষ্ট ব্র্যান্ড (ফাঁকা = সব)"
-        default: ""
+        description: "--check (শুধু সমস্যাগুলো), --all (সব নতুন করে), বা নির্দিষ্ট ব্র্যান্ডের নাম"
+        default: "--check"
 permissions:
   contents: write
 jobs:
@@ -18,7 +20,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt pillow
       - env:
-          B: ${{ github.event.inputs.brands }}
+          B: ${{ github.event.inputs.brands || '--check' }}
         run: python -m tools.fetch_brand_meta $B
       - name: সেভ
         run: |
