@@ -39,7 +39,7 @@ def allowed(url: str) -> bool:
     return _robots_for(url).can_fetch(USER_AGENT, url)
 
 
-def fetch(url: str, delay: float) -> str:
+def fetch(url: str, delay: float, cache: bool = True) -> str:
     """robots.txt মেনে, স্টোরভিত্তিক বিরতি রেখে পেজ আনে।"""
     if url in _cache:
         return _cache[url]
@@ -64,7 +64,10 @@ def fetch(url: str, delay: float) -> str:
     if r.status_code in (403, 429, 503) or "Just a moment..." in r.text[:3000]:
         raise Blocked(f"{r.status_code} {url}")
     r.raise_for_status()
-    _cache[url] = r.text
+    if (r.encoding or "").lower() in ("iso-8859-1", "latin-1") and "charset" not in r.headers.get("content-type", "").lower():
+        r.encoding = "utf-8"  # charset না বললে requests ভুল করে latin-1 ধরে (×, ″ ভেঙে যায়)
+    if cache:
+        _cache[url] = r.text
     return r.text
 
 
