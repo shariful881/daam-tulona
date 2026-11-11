@@ -533,9 +533,18 @@ def main():
     _sp = ROOT / "web/static/cat-icons.svg"
     _icv = zlib.crc32(_sp.read_bytes()) if _sp.exists() else 0  # ফাইল বদলালেই কেবল নতুন করে ডাউনলোড
 
+    # রং: ১২টা রঙের প্যালেট (style.css-এর .k0–.k11)। প্রতিটা ক্যাটাগরি আলাদা রং, আর একই পাতায় পাশাপাশি
+    # সাব-ক্যাটাগরিগুলোও আলাদা রং পায়।
+    _kc = {}
+    for gi, g in enumerate(tax["groups"]):
+        _kc[("g", g["slug"])] = gi % 12
+        for li, l in enumerate(g["leaves"]):
+            _kc[("l", l["slug"])] = (gi + li) % 12
+
     def cicon(slug, group=False, cls="ci"):
         name = (_ic["groups"] if group else _ic["leaves"]).get(slug) or _ic["groups"].get(slug) or "box"
-        return Markup(f'<svg class="{cls}" aria-hidden="true"><use href="{BASE}/static/cat-icons.svg?v={_icv}#i-{name}"/></svg>')
+        k = _kc.get(("g" if group else "l", slug), 0)
+        return Markup(f'<svg class="{cls} k{k}" aria-hidden="true"><use href="{BASE}/static/cat-icons.svg?v={_icv}#i-{name}"/></svg>')
 
     common = {"base": BASE, "cicon": cicon, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),

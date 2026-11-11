@@ -316,20 +316,28 @@ dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
 dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}
 
 /* ক্যাটাগরি আইকন (Tabler Icons, MIT) */
-.ci{width:1em;height:1em;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.cic{flex:0 0 auto;display:grid;place-items:center;width:38px;height:38px;border-radius:11px;background:var(--accent-soft);color:var(--accent)}
-.cic .ci{width:22px;height:22px}
+.ci{width:1em;height:1em;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;color:var(--c,var(--accent))}
+/* রঙের প্যালেট: হালকা মোডে গাঢ়, ডার্ক মোডে উজ্জ্বল শেড */
+.k0{--c:#2563eb}.k1{--c:#16a34a}.k2{--c:#ea580c}.k3{--c:#9333ea}.k4{--c:#dc2626}.k5{--c:#0d9488}
+.k6{--c:#db2777}.k7{--c:#ca8a04}.k8{--c:#4f46e5}.k9{--c:#0891b2}.k10{--c:#65a30d}.k11{--c:#e11d48}
+@media (prefers-color-scheme:dark){
+.k0{--c:#60a5fa}.k1{--c:#4ade80}.k2{--c:#fb923c}.k3{--c:#c084fc}.k4{--c:#f87171}.k5{--c:#2dd4bf}
+.k6{--c:#f472b6}.k7{--c:#facc15}.k8{--c:#818cf8}.k9{--c:#22d3ee}.k10{--c:#a3e635}.k11{--c:#fb7185}}
+/* রঙিন টাইল: আইকনের নিজের রঙের হালকা পটভূমি */
+.cic{flex:0 0 auto;display:grid;width:38px;height:38px}
+.cic .ci{width:100%;height:100%;padding:8px;border-radius:11px;
+  background:linear-gradient(140deg,color-mix(in srgb,var(--c) 24%,var(--surface)),color-mix(in srgb,var(--c) 9%,var(--surface)));
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c) 22%,transparent);transition:background .15s,color .15s}
 .cat .cic{margin-bottom:8px}
 .ihd{display:flex;align-items:center;gap:10px}
-.ihd .cic{width:42px;height:42px}
-.ihd .cic .ci{width:24px;height:24px}
+.ihd .cic{width:44px;height:44px}
+.ihd .cic .ci{padding:9px}
 .rimg>*{grid-area:1/1}
-.rimg>.ci{width:56%;height:56%;color:var(--na);stroke-width:1.5}
-.thumb .ico .ci{width:56%;height:56%;color:var(--muted);stroke-width:1.4}
+.rimg>.ci{width:56%;height:56%;stroke-width:1.6;opacity:.7}
+.thumb .ico .ci{width:56%;height:56%;stroke-width:1.4;opacity:.75}
 .gnav a{display:inline-flex;align-items:center;gap:6px}
-.gnav .ci{width:17px;height:17px;opacity:.75}
-.gnav a[aria-current] .ci{color:var(--accent);opacity:1}
-@media (hover:hover){.cat:hover .cic{background:var(--accent);color:#1a1205}}
+.gnav .ci{width:18px;height:18px}
+@media (hover:hover){.cat:hover .cic .ci{background:var(--c);color:var(--surface)}}
 
 /* ===================== পিসি / বড় স্ক্রিন =====================
    মোবাইলে নিচের র‍্যাপারগুলো অদৃশ্য (display:contents), তাই মোবাইলের ডিজাইন ও ক্রম আগের মতোই থাকে।
@@ -471,8 +479,9 @@ main.col>.foot,main.col>.footnav{order:99}
 
 
 @media (min-width:1024px){
-  .cat .cic{width:44px;height:44px;margin-bottom:10px}
-  .cat .cic .ci{width:25px;height:25px}
-  .ihd .cic{width:48px;height:48px}
+  .cat .cic{width:46px;height:46px;margin-bottom:10px}
+  .cat .cic .ci{padding:10px}
+  .ihd .cic{width:50px;height:50px}
+  .ihd .cic .ci{padding:11px}
   .plist .rimg>.ci{width:38%;height:38%}
 }
