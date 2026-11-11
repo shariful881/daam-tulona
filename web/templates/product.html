@@ -28,6 +28,9 @@
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price">{{ best.price | taka }}</div></div>
       <div class="s">{{ stores[best.store].name }}-এ<br>{{ live_count }}টি স্টোরে স্টকে আছে</div>
       <a class="btn dkbuy" href="{{ go_url(best.store, best.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[best.store].name }}">{{ stores[best.store].name }}-এ কিনুন ›</a>
+      {% elif it.sus %}
+      <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">দাম যাচাই চলছে</div></div>
+      <div class="s">স্টোরগুলোর দামে অস্বাভাবিক ফারাক,<br>কেনার আগে স্টোরে মিলিয়ে নিন</div>
       {% else %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">এখন কোথাও স্টকে নেই</div></div>
       {% endif %}
@@ -110,6 +113,7 @@
       {% endif %}
     {% endfor %}
     </div>
+    {% if it.sus %}<p class="chknote"><b>দাম যাচাই চলছে:</b> চিহ্নিত দামগুলো অন্য স্টোরের তুলনায় অস্বাভাবিক কম বা বেশি। ভুল প্রোডাক্ট মিলে যাওয়া, বুকিং মূল্য বা টাইপিং ভুল হতে পারে, তাই সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে এগুলো ধরা হয়নি।</p>{% endif %}
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
     {% if missing %}
     <h3 class="nfh"><span class="ic" aria-hidden="true">!</span>যেসব স্টোরে পাওয়া যায়নি <span class="sub">· {{ missing|length|bn }}টি</span></h3>

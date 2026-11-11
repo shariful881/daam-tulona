@@ -49,15 +49,28 @@
   </section>
   {% endif %}
 
-  {% if fresh %}
+  {% if drops %}
   <section class="card">
-    <h2>নতুন যোগ হয়েছে</h2>
+    <h2>আজ দাম কমেছে <span class="sub">· গতকালের তুলনায়</span></h2>
     <div class="rows">
-    {% for it in fresh %}
+    {% for it in drops %}
       <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
         <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
-        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ it.cat_name }}</div></div>
-        <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% else %}—{% endif %}</div></div>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">{{ stores[it.best.store].name }}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
+        <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">▼ {{ it.drop | taka }} কমেছে</div></div>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+  {% elif popular %}
+  <section class="card">
+    <h2>সবচেয়ে বেশি দোকানে পাওয়া যায় <span class="sub">· দাম মিলিয়ে কেনার সেরা সুযোগ</span></h2>
+    <div class="rows">
+    {% for it in popular %}
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
+        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ<span class="badge">{{ it.live_count|bn }} স্টোর</span></div></div>
+        <div><div class="p">{{ it.best.price | taka }}</div>{% if it.saving %}<div class="d lo">{{ it.saving | taka }} পার্থক্য</div>{% endif %}</div>
       </a>
     {% endfor %}
     </div>

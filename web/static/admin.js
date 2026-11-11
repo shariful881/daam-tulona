@@ -562,6 +562,8 @@
       function nm(id) { return byId[id] ? byId[id].n : id; }
       function pairKey(a, b) { return [a, b].sort().join("|"); }
       function merged(a, b) { return mm.merge.some(function (m) { var s = [m.keep].concat(m.merge); return s.indexOf(a) > -1 && s.indexOf(b) > -1; }); }
+      mm.price_ok = mm.price_ok || []; mm.drop_offer = mm.drop_offer || [];
+      function decided(id, st) { var k = id + "|" + st; return mm.price_ok.indexOf(k) > -1 ? "ok" : mm.drop_offer.indexOf(k) > -1 ? "drop" : ""; }
       function draw() {
         var sug = S.admin.suggestions.filter(function (s) { return mm.not_same.indexOf(pairKey(s.a, s.b)) < 0; });
         p.innerHTML =
@@ -570,6 +572,22 @@
             (mm.ignore.length ? '<h3 style="font-size:.9rem;margin:14px 0 4px">লুকানো আছে (' + bn(mm.ignore.length) + ")</h3>" +
               mm.ignore.map(function (id) { return '<div class="apair"><div class="nm">' + esc(nm(id)) + '</div><div class="bt"><button type="button" class="abtn ghost" data-unhide="' + esc(id) + '">ফিরিয়ে আনুন</button></div></div>'; }).join("") : "") +
           "</section>" +
+          (function () {
+            var pc = (S.admin.price_checks || []).filter(function (x) { return x.o.some(function (o) { return o[3] && !decided(x.id, o[0]); }); });
+            if (!pc.length) return "";
+            return '<section class="card"><h2>সন্দেহজনক দাম <span class="sub">· ' + bn(pc.length) + "টি</span></h2>" +
+              '<p class="muted" style="margin:0;font-size:.84rem">এসব প্রোডাক্টে স্টোরগুলোর দামে অস্বাভাবিক ফারাক (দেড় গুণের বেশি)। চিহ্নিত দাম এখন সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে ধরা হচ্ছে না। ' +
+              '<b>দাম ঠিক</b> চাপলে আবার ধরা হবে; <b>মিল ভুল</b> চাপলে ওই স্টোরের দাম এই পাতা থেকে সরে যাবে।</p>' +
+              pc.slice(0, 60).map(function (x) {
+                return '<div class="apair"><div class="nm"><a href="' + BASE + "/p/" + esc(x.id) + '/" target="_blank" style="text-decoration:underline">' + esc(x.n) + "</a><br><span>" + esc(x.c) + "</span>" +
+                  x.o.map(function (o) {
+                    var k = x.id + "|" + o[0], st = decided(x.id, o[0]);
+                    return '<div class="apc' + (o[3] ? " sus" : "") + '"><span>' + esc(o[1]) + " · <b>৳" + Number(o[2]).toLocaleString("en-IN") + "</b></span>" +
+                      (!o[3] ? "" : st ? '<span class="muted" style="font-size:.78rem">' + (st === "ok" ? "✓ দাম ঠিক" : "✓ সরানো হবে") + "</span>"
+                        : '<span><button type="button" class="abtn ok" data-pok="' + esc(k) + '">দাম ঠিক</button><button type="button" class="abtn warn" data-pdrop="' + esc(k) + '">মিল ভুল</button></span>') + "</div>";
+                  }).join("") + "</div></div>";
+              }).join("") + "</section>";
+          })() +
           '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(sug.length) + "টি</span></h2>" +
             '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ হলে "আলাদা" চাপুন।</p>' +
             sug.slice(0, 80).map(function (s) {
@@ -604,6 +622,8 @@
           mm.merge = mm.merge.filter(function (x) { return x.merge.length; });
           draw(); markDirty("products");
         } else if (d.notsame) { mm.not_same.push(d.notsame); draw(); markDirty("products"); }
+        else if (d.pok) { mm.price_ok.push(d.pok); draw(); markDirty("products"); }
+        else if (d.pdrop) { mm.drop_offer.push(d.pdrop); draw(); markDirty("products"); }
       });
       savers.products = function () { return putJSON("data/manual_matches.json", mm, "প্রোডাক্ট মিলানো/লুকানো"); };
     });
