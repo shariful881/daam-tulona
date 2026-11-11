@@ -1,0 +1,83 @@
+{
+  "_নোট": "স্টোর পরিচিতি পেজের তথ্য (/store/<id>/)। ১১ নভেম্বর ২০২৬-এ প্রতিটা স্টোরের নিজের ওয়েবসাইট থেকে নেওয়া (source)। ফাঁকা ঘর পাতায় দেখায় না। নীতি বদলাতে পারে, তাই প্রতিটা নীতির পাশে স্টোরের নিজের পাতার লিংক থাকে।",
+  "stores": {
+    "startech": {
+      "hotline": "16793 (সকাল ৯টা - রাত ৮টা)",
+      "address": "28 Kazi Nazrul Islam Ave, Navana Zohura Square, Dhaka 1000 (হেড অফিস)",
+      "branches": "দেশজুড়ে ২০টির বেশি শোরুম, ১৫টির বেশি সার্ভিস সেন্টার",
+      "delivery": "সাধারণত ১-৩ দিন; ঢাকায় নিজস্ব ডেলিভারি, বাইরে কুরিয়ারে। স্টকে থাকা জিনিস সকাল ১১টার আগে কনফার্ম হলে একই দিনে এক্সপ্রেস ডেলিভারি। কিছু প্রোডাক্টে সারা দেশে ক্যাশ অন ডেলিভারি। ডেলিভারি চার্জ ক্রেতার।",
+      "emi": "৩৯টি ব্যাংকে ০% EMI, সাধারণত ৩/৬/৯/১২ মাস; বেশিরভাগ ব্যাংকে কমপক্ষে ৳৫,০০০। EMI-তে অফারের দাম নয়, সাধারণ দাম প্রযোজ্য।",
+      "links": {"ডেলিভারি নীতি": "https://www.startech.com.bd/online-delivery", "EMI": "https://www.startech.com.bd/emi-terms",
+                "ওয়ারেন্টি নীতি": "https://www.startech.com.bd/warranty-policy", "রিফান্ড নীতি": "https://www.startech.com.bd/refund-policy",
+                "শোরুম খুঁজুন": "https://www.startech.com.bd/information/contact"},
+      "source": "https://www.startech.com.bd"
+    },
+    "ultratech": {
+      "hotline": "ওয়ারেন্টি: 01898883486, সার্ভিস সেন্টার: 01898883487",
+      "address": "Shop 511-512, Level 5, ECS Computer City, Multiplan Centre, New Elephant Road, Dhaka-1205 (মঙ্গলবার বন্ধ)",
+      "branches": "শোরুম ও RMA/সার্ভিস সেন্টার দুটোই মাল্টিপ্ল্যান সেন্টারে",
+      "emi": "২৯টি ব্যাংকে EMI সুবিধা (ওয়েবসাইটে উল্লেখ আছে)",
+      "links": {},
+      "source": "https://www.ultratech.com.bd"
+    },
+    "pchouse": {
+      "hotline": "09617179141 (WhatsApp: 01973167989)",
+      "address": "Shop 1414, Level-14, Multiplan Center, Elephant Road, Dhaka-1205 (হেড অফিস)",
+      "branches": "মাল্টিপ্ল্যান শাখা (লেভেল ২), IDB শাখা (BCS Computer City, আগারগাঁও), সার্ভিস সেন্টার (মাল্টিপ্ল্যান লেভেল ১৪)",
+      "delivery": "ঢাকায় ৩ কর্মদিবসের মধ্যে, ক্যাশ অন ডেলিভারি আছে। ঢাকার বাইরে কুরিয়ারে, বুকিংয়ের জন্য আংশিক বা পুরো টাকা আগে দিতে হয়। চার্জ প্রোডাক্ট ও এলাকাভেদে।",
+      "links": {"ডেলিভারি নীতি": "https://www.pchouse.com.bd/delivery", "ওয়ারেন্টি নীতি": "https://www.pchouse.com.bd/warranty",
+                "যোগাযোগ": "https://www.pchouse.com.bd/information/contact"},
+      "source": "https://www.pchouse.com.bd"
+    },
+    "creatus": {
+      "links": {},
+      "source": "https://www.creatus.com.bd"
+    },
+    "smartbd": {
+      "hotline": "কাস্টমার কেয়ার: 09678100500",
+      "branches": "ঢাকা, চট্টগ্রাম, খুলনা, রাজশাহী, সিলেট, রংপুর ও বরিশাল বিভাগে শাখা",
+      "returns": "৭ দিনের রিটার্ন (ওয়েবসাইটের ব্যানারে উল্লেখ)",
+      "links": {"ঢাকার শাখা": "https://smartbd.com/dhaka-division/", "সার্ভিস সেন্টার (1000fix)": "https://1000fix.com/"},
+      "source": "https://smartbd.com"
+    },
+    "fourstar": {
+      "address": "Multiplan Centre, Level 6, Shop 616-617, 69/71 New Elephant Rd, Katabon, Dhaka-1205",
+      "links": {"পিসি বিল্ডার": "https://fourstarit.com.bd/builders/pc"},
+      "source": "https://storesbd.hp.com/four-star-it---(multiplan-branch)-multiplan-center-katabon-9021/articles"
+    },
+    "walton": {
+      "hotline": "16267 (টোল ফ্রি: 08000016267)",
+      "branches": "দেশজুড়ে Walton Plaza ও সেলস আউটলেট",
+      "emi": "এসি-তে EMI (ওয়েবসাইটে আলাদা পাতা)",
+      "links": {"শোরুম/প্লাজা খুঁজুন": "https://waltonbd.com/sales-outlet", "এসি EMI": "https://waltonbd.com/air-conditioner/ac-emi",
+                "সার্ভিস রিকোয়েস্ট": "https://waltonbd.com/service-request", "যোগাযোগ": "https://waltonbd.com/contact"},
+      "source": "https://waltonbd.com"
+    },
+    "minister": {
+      "hotline": "09606 700 700",
+      "branches": "দেশজুড়ে শোরুম",
+      "delivery": "হোম ডেলিভারি ও ক্যাশ অন ডেলিভারি (ওয়েবসাইটে উল্লেখ)",
+      "emi": "কিস্তিতে কেনার সুযোগ",
+      "links": {"শোরুম খুঁজুন": "https://ministerbd.com/showrooms", "ওয়ারেন্টি": "https://ministerbd.com/warranty.html",
+                "কিস্তি": "https://ministerbd.com/kisti", "যোগাযোগ": "https://ministerbd.com/contact-us"},
+      "source": "https://ministerbd.com"
+    },
+    "diamu": {
+      "hotline": "+8801798740472, +8801302555180 (WhatsApp)",
+      "address": "House-129/A, Road-12A, West Dhanmondi, Dhaka-1209",
+      "links": {"ডেলিভারি": "https://diamu.com.bd/delivery-method-fastest-shipping/", "পেমেন্ট ও EMI": "https://diamu.com.bd/payments/",
+                "রিটার্ন নীতি": "https://diamu.com.bd/return-policy/", "রিফান্ড নীতি": "https://diamu.com.bd/refund-policy/",
+                "যোগাযোগ": "https://diamu.com.bd/contact/"},
+      "source": "https://diamu.com.bd"
+    },
+    "applegadgets": {
+      "hotline": "09678148148 (WhatsApp: +8801711105888)",
+      "branches": "বসুন্ধরা সিটি (২টি) ও যমুনা ফিউচার পার্কসহ একাধিক আউটলেট",
+      "delivery": "ঢাকায় ডেলিভারি চার্জ ৳৬০ (এক্সেসরিজ ক্যাশ অন ডেলিভারিতে ৭২ ঘণ্টার মধ্যে)। ঢাকার বাইরে ডিভাইসে সর্বোচ্চ ৳২২০, এক্সেসরিজে ৳১৩০, আংশিক অগ্রিম দিয়ে। বিকেল ৫টার পরের অর্ডার পরের দিনের হিসাবে।",
+      "links": {"ডেলিভারি নীতি": "https://www.applegadgetsbd.com/page/delivery-terms-and-conditions", "EMI নীতি": "https://www.applegadgetsbd.com/page/emi-policy",
+                "ওয়ারেন্টি নীতি": "https://www.applegadgetsbd.com/page/warranty-policy", "রিটার্ন নীতি": "https://www.applegadgetsbd.com/page/apple-gadgets-return-policy",
+                "রিফান্ড নীতি": "https://www.applegadgetsbd.com/page/refund-policy", "যোগাযোগ": "https://www.applegadgetsbd.com/contact-us"},
+      "source": "https://www.applegadgetsbd.com"
+    }
+  }
+}

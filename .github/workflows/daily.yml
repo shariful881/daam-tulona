@@ -65,3 +65,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           timeout: 1800000   # সাইট বড় হয়েছে (প্রায় ৩০ হাজার পাতা), প্রকাশে বেশি সময় লাগতে পারে
+
+      - name: Telegram চ্যানেলে আজকের দাম কমা (টোকেন সেট থাকলে)
+        if: env.SCRAPE == '1'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ vars.TELEGRAM_CHANNEL }}
+        run: python tools/telegram_post.py dist/drops.json || echo "Telegram পোস্ট হয়নি (সাইটে প্রভাব নেই)"

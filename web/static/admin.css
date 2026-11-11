@@ -79,3 +79,10 @@ body.adm-dirty main.col{padding-bottom:90px}
 .aempty{color:var(--muted);font-size:.86rem;margin:0}
 .ro-badge{display:inline-block;font-size:.72rem;font-weight:700;background:var(--warn-soft);color:var(--warn);border-radius:6px;padding:1px 7px}
 .aact input{width:110px;margin-top:6px;min-height:40px}
+
+/* সন্দেহজনক দাম */
+.apc{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding:4px 0;font-size:.84rem}
+.apc.sus>span:first-child{color:var(--warn)}
+.apc .abtn{margin-left:4px}
+
+.acode{white-space:pre;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px;font:600 .74rem var(--mono);margin:8px 0 0}

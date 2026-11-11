@@ -241,6 +241,10 @@
               '<div class="agrid">' + fld("name", "নাম", s.name) + fld("short", "সংক্ষিপ্ত নাম (লোগো না থাকলে)", s.short, "text", "", ' maxlength="3"') + "</div>" +
               fld("delay", "দুই পাতার মাঝে অপেক্ষা (সেকেন্ড)", s.delay, "number", "স্টোরের robots.txt যা বলে তার কম দেবেন না, নইলে স্টোর ব্লক করতে পারে।", ' min="1" max="60"') +
               tog("logo_dark", "লোগোর পেছনে কালো রঙ (সাদা লোগোর জন্য)", !!s.logo_dark) +
+              '<div class="af"><label>এই স্টোরের মোবাইল/ট্যাবলেট সাধারণত</label><select data-k="phone_type">' +
+                [["", "জানা নেই (লেবেল দেখাবে না)"], ["official", "অফিসিয়াল"], ["unofficial", "আনঅফিসিয়াল"]].map(function (o) {
+                  return '<option value="' + o[0] + '"' + ((s.phone_type || "") === o[0] ? " selected" : "") + ">" + o[1] + "</option>"; }).join("") +
+                "</select><small>প্রোডাক্টের নামে Official/Unofficial লেখা থাকলে সেটাই আগে ধরা হয়; না থাকলে এই সেটিং।</small></div>" +
               '<div class="af"><span class="lbl">লোগো বদলান</span><input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" data-logo="' + id + '"><small>চওড়া লোগো ভালো (যেমন ৩০০×১০০), ২০০KB-এর কম।</small></div>' +
               (hx.errors && hx.errors.length ? '<div class="anote warn" style="font-size:.78rem">' + hx.errors.map(esc).join("<br>") + "</div>" : "") +
               "</section>";
@@ -562,6 +566,8 @@
       function nm(id) { return byId[id] ? byId[id].n : id; }
       function pairKey(a, b) { return [a, b].sort().join("|"); }
       function merged(a, b) { return mm.merge.some(function (m) { var s = [m.keep].concat(m.merge); return s.indexOf(a) > -1 && s.indexOf(b) > -1; }); }
+      mm.price_ok = mm.price_ok || []; mm.drop_offer = mm.drop_offer || [];
+      function decided(id, st) { var k = id + "|" + st; return mm.price_ok.indexOf(k) > -1 ? "ok" : mm.drop_offer.indexOf(k) > -1 ? "drop" : ""; }
       function draw() {
         var sug = S.admin.suggestions.filter(function (s) { return mm.not_same.indexOf(pairKey(s.a, s.b)) < 0; });
         p.innerHTML =
@@ -570,6 +576,29 @@
             (mm.ignore.length ? '<h3 style="font-size:.9rem;margin:14px 0 4px">লুকানো আছে (' + bn(mm.ignore.length) + ")</h3>" +
               mm.ignore.map(function (id) { return '<div class="apair"><div class="nm">' + esc(nm(id)) + '</div><div class="bt"><button type="button" class="abtn ghost" data-unhide="' + esc(id) + '">ফিরিয়ে আনুন</button></div></div>'; }).join("") : "") +
           "</section>" +
+          (function () {
+            var pc = (S.admin.price_checks || []).filter(function (x) { return x.o.some(function (o) { return o[3] && !decided(x.id, o[0]); }); });
+            if (!pc.length) return "";
+            return '<section class="card"><h2>সন্দেহজনক দাম <span class="sub">· ' + bn(pc.length) + "টি</span></h2>" +
+              '<p class="muted" style="margin:0;font-size:.84rem">এসব প্রোডাক্টে স্টোরগুলোর দামে অস্বাভাবিক ফারাক (দেড় গুণের বেশি)। চিহ্নিত দাম এখন সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে ধরা হচ্ছে না। ' +
+              '<b>দাম ঠিক</b> চাপলে আবার ধরা হবে; <b>মিল ভুল</b> চাপলে ওই স্টোরের দাম এই পাতা থেকে সরে যাবে।</p>' +
+              pc.slice(0, 60).map(function (x) {
+                return '<div class="apair"><div class="nm"><a href="' + BASE + "/p/" + esc(x.id) + '/" target="_blank" style="text-decoration:underline">' + esc(x.n) + "</a><br><span>" + esc(x.c) + "</span>" +
+                  x.o.map(function (o) {
+                    var k = x.id + "|" + o[0], st = decided(x.id, o[0]);
+                    return '<div class="apc' + (o[3] ? " sus" : "") + '"><span>' + esc(o[1]) + " · <b>৳" + Number(o[2]).toLocaleString("en-IN") + "</b></span>" +
+                      (!o[3] ? "" : st ? '<span class="muted" style="font-size:.78rem">' + (st === "ok" ? "✓ দাম ঠিক" : "✓ সরানো হবে") + "</span>"
+                        : '<span><button type="button" class="abtn ok" data-pok="' + esc(k) + '">দাম ঠিক</button><button type="button" class="abtn warn" data-pdrop="' + esc(k) + '">মিল ভুল</button></span>') + "</div>";
+                  }).join("") + "</div></div>";
+              }).join("") + "</section>";
+          })() +
+          (function () {
+            var am = S.admin.auto_merges || [];
+            if (!am.length) return "";
+            return '<section class="card"><h2>স্বয়ংক্রিয় মিল <span class="sub">· ' + bn(am.length) + "টি</span></h2>" +
+              '<p class="muted" style="margin:0;font-size:.84rem">মডেল নম্বর, ব্র্যান্ড আর ক্যাপাসিটি এক হওয়ায় এগুলো নিজে থেকে এক পাতায় জোড়া লাগানো হয়েছে। ভুল হলে <b>আলাদা</b> চাপুন, পরের আপডেটে আলাদা হয়ে যাবে।</p>' +
+              '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…"></div><div id="amres"></div></section>';
+          })() +
           '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(sug.length) + "টি</span></h2>" +
             '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ হলে "আলাদা" চাপুন।</p>' +
             sug.slice(0, 80).map(function (s) {
@@ -578,6 +607,18 @@
                 '<div class="bt">' + (done ? '<span class="muted" style="font-size:.82rem">✓ মিলানো হয়েছে</span> <button type="button" class="abtn ghost" data-unmerge="' + esc(s.a) + "|" + esc(s.b) + '">বাতিল</button>'
                   : '<button type="button" class="abtn ok" data-merge="' + esc(s.a) + "|" + esc(s.b) + '">একই, মিলান</button><button type="button" class="abtn ghost" data-notsame="' + esc(pairKey(s.a, s.b)) + '">আলাদা</button>') + "</div></div>";
             }).join("") + "</section>";
+        var amq = $("#amq");
+        function drawAm() {
+          var am = S.admin.auto_merges || [], w = (amq.value || "").toLowerCase();
+          var rows = am.filter(function (x) { return !w || (x[1] + " " + x[3]).toLowerCase().indexOf(w) > -1; }).slice(0, 40);
+          $("#amres").innerHTML = rows.map(function (x) {
+            var k = pairKey(x[0], x[2]), no = mm.not_same.indexOf(k) > -1;
+            return '<div class="apair' + (no ? " done" : "") + '"><div class="nm">' + esc(x[1]) + "<br><span>↕ একই পাতায়</span><br>" + esc(x[3]) + "</div>" +
+              '<div class="bt">' + (no ? '<span class="muted" style="font-size:.82rem">✓ আলাদা করা হবে</span>' : '<button type="button" class="abtn ghost" data-notsame="' + esc(k) + '">আলাদা</button>') +
+              '<a class="abtn ghost" style="display:inline-flex;align-items:center" href="' + BASE + "/p/" + esc(x[2]) + '/" target="_blank">দেখুন</a></div></div>';
+          }).join("");
+        }
+        if (amq) { amq.addEventListener("input", drawAm); drawAm(); }
         $("#pq").addEventListener("input", function () {
           var t = this.value.toLowerCase().split(/\s+/).filter(Boolean), out = $("#pres");
           if (!t.length) { out.innerHTML = ""; return; }
@@ -604,6 +645,8 @@
           mm.merge = mm.merge.filter(function (x) { return x.merge.length; });
           draw(); markDirty("products");
         } else if (d.notsame) { mm.not_same.push(d.notsame); draw(); markDirty("products"); }
+        else if (d.pok) { mm.price_ok.push(d.pok); draw(); markDirty("products"); }
+        else if (d.pdrop) { mm.drop_offer.push(d.pdrop); draw(); markDirty("products"); }
       });
       savers.products = function () { return putJSON("data/manual_matches.json", mm, "প্রোডাক্ট মিলানো/লুকানো"); };
     });
@@ -625,8 +668,24 @@
         "<div><dt>অবস্থা</dt><dd>" + (S.user ? "✅ " + esc(S.user) + " হিসেবে সংযুক্ত" : '<span class="ro-badge">সংযুক্ত নয়</span>') + "</dd></div>" +
         "<div><dt>শেষ ডাটা</dt><dd>" + esc(S.admin.updated) + "</dd></div>" +
       "</dl></section>" +
+      '<section class="card" id="leadcard"><h2>"দাম কমলে জানান" লিড</h2><p class="muted" style="margin:0 0 8px;font-size:.85rem">ক্রেতার নাম, নম্বর আর প্রোডাক্ট কোথায় জমা হবে। ঠিকানা ফাঁকা থাকলে লিড আপনার WhatsApp নম্বরে মেসেজ হয়ে আসে।</p>' +
+        '<div class="af"><label>Google Sheet-এর Apps Script ঠিকানা</label><input type="url" id="leadurl" placeholder="https://script.google.com/macros/s/…/exec"><small>নিচের ধাপ মেনে একবার সেট করলেই হবে।</small></div>' +
+        '<details><summary>Google Sheet কীভাবে যুক্ত করবেন (৫ মিনিট)</summary><div class="anote"><ol>' +
+        '<li>Google Drive-এ একটা নতুন Google Sheet খুলুন (নাম: দামতুলনা লিড)। প্রথম সারিতে লিখুন: সময়, নাম, মোবাইল, প্রোডাক্ট, লিংক, এখনকার দাম, টার্গেট দাম, স্টোর, ক্যাটাগরি, অবস্থা।</li>' +
+        '<li>উপরের মেনু থেকে <b>Extensions → Apps Script</b> খুলুন। যা লেখা আছে মুছে নিচের কোডটা পেস্ট করুন, তারপর সেভ (💾) চাপুন।</li>' +
+        '<li><b>Deploy → New deployment</b> → টাইপ <b>Web app</b> বাছুন → Execute as: <b>Me</b>, Who has access: <b>Anyone</b> → Deploy। Google অনুমতি চাইলে নিজের অ্যাকাউন্ট দিয়ে Allow দিন।</li>' +
+        '<li>যে <b>Web app URL</b> আসবে (…/exec দিয়ে শেষ) সেটা কপি করে উপরের ঘরে পেস্ট করুন, তারপর <b>সেভ করুন</b>।</li></ol>' +
+        '<pre class="acode">function doPost(e) {\n  var s = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];\n  var d = JSON.parse(e.postData.contents);\n  s.appendRow([new Date(), d.name, "\'" + d.phone, d.product, d.url, d.price, d.target, d.store, d.category, "নতুন"]);\n  return ContentService.createTextOutput("ok");\n}</pre></div></details></section>' +
       '<section class="card"><h2>পরিবর্তন কখন সাইটে আসে</h2><p style="margin:0;font-size:.88rem;line-height:1.6">স্টোরের নাম/লোগো, বিজ্ঞাপন, স্পন্সর, ক্যাটাগরি, প্রোডাক্ট লুকানো বা মিলানো সেভ করলে ২-৩ মিনিটে সাইট আপডেট হয়। স্টোর চালু/বন্ধ বা অপেক্ষার সময় পরের দামের রান থেকে কার্যকর হয় (প্রতি রাতে ২:১৭, অথবা ড্যাশবোর্ড থেকে এখনই চালান)।</p></section>';
-    return Promise.resolve();
+    return getJSON("config/leads.json").catch(function () { return { endpoint: "" }; }).then(function (lc) {
+      var cfg = clone(lc), inp = $("#leadurl");
+      inp.value = cfg.endpoint || "";
+      inp.addEventListener("input", function () { cfg.endpoint = inp.value.trim(); markDirty("settings"); });
+      savers.settings = function () {
+        if (cfg.endpoint && !/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(cfg.endpoint)) return Promise.reject(new Error("ঠিকানাটা https://script.google.com/macros/s/…/exec ধরনের হতে হবে"));
+        return putJSON("config/leads.json", cfg, "লিড ফর্মের ঠিকানা");
+      };
+    });
   };
 
   window.addEventListener("hashchange", function () { var t = location.hash.slice(1); if (VIEWS[t] && t !== S.tab && S.admin) show(t); });

@@ -315,6 +315,204 @@ dl.kf>div:last-child{border-bottom:0}
 dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
 dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}
 
+/* বাজেট অনুযায়ী সেরা */
+.budl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:12px;font-size:.82rem}
+.budl span{color:var(--muted);font-weight:600}
+.budl a{border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--bg);font-weight:600}
+.bteaser{display:grid;gap:10px}
+.bteaser>div{display:grid;gap:6px}
+.bteaser .ihd{gap:8px;font-size:.95rem}
+.bteaser .cic{width:32px;height:32px}
+.bteaser .cic .ci{padding:7px}
+.bt-links{display:flex;flex-wrap:wrap;gap:6px}
+.bt-links a{border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:.82rem;font-weight:600;background:var(--bg)}
+.bestl{list-style:none;margin:0;padding:0;display:grid}
+.bestl>li{border-bottom:1px solid var(--line)}
+.bestl>li:last-child{border-bottom:0}
+.bestl>li.bad{padding:10px 0}
+.bitem{display:grid;grid-template-columns:22px 64px minmax(0,1fr);gap:4px 10px;align-items:center;padding:12px 0}
+.bno{font:700 .95rem var(--mono);color:var(--muted);align-self:center;grid-row:span 2}
+.bitem .rimg{width:64px;height:64px;grid-row:span 2}
+.bmid{display:grid;gap:4px;min-width:0}
+.bmid .n{font-size:.93rem;line-height:1.35}
+.bmid .w{font-size:.76rem;color:var(--muted)}
+.bpr{grid-column:3;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.bpr .price{font-size:1.1rem;color:var(--best)}
+.bpr small{font-size:.74rem}
+.bestl>li:first-child .bno{color:var(--accent)}
+.bhub{display:grid;gap:14px}
+
+/* দামের ইতিহাস: সময় বাছাই, ৩০ দিনের ব্যাজ */
+.hrange{display:grid;grid-template-columns:repeat(3,auto) 1fr;gap:6px;align-items:center}
+.hrange input{position:absolute;opacity:0;pointer-events:none}
+.hrange label{border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.8rem;font-weight:600;cursor:pointer;color:var(--muted)}
+.hrange input:checked+label{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.hrange input:focus-visible+label{outline:2px solid var(--accent);outline-offset:2px}
+.hsv{grid-column:1/-1;display:none;margin-top:6px}
+#hr1:checked~.hsv1,#hr2:checked~.hsv2,#hr3:checked~.hsv3{display:block}
+.save.hi30{color:var(--warn);background:var(--warn-soft)}
+
+/* পিসি বিল্ডার */
+.pccta{display:flex;align-items:center;gap:12px;border-color:var(--accent);background:linear-gradient(120deg,var(--accent-soft),var(--surface) 70%)}
+.pccta>span:nth-child(2){display:grid;gap:2px;flex:1;min-width:0}
+.pccta b{font-size:1.02rem}
+.pccta>span:nth-child(2)>span{font-size:.82rem;color:var(--muted)}
+.pccta-go{font-weight:700;color:var(--accent);white-space:nowrap;font-size:.9rem}
+.pcb{display:contents}
+.pcslots{display:grid;gap:0;padding-block:6px}
+.pcs{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.pcs:last-child{border-bottom:0}
+.pcs .cic{width:40px;height:40px}
+.pcs-h{display:flex;gap:6px;align-items:baseline}
+.pcs-h b{font-size:.95rem}
+.pcs-h small{font-size:.7rem;color:var(--muted)}
+.pcs-v{font-size:.84rem;line-height:1.4;min-width:0}
+.pcs-v a{font-weight:600;display:block}
+.pcs-p{display:block;color:var(--best);font:700 .85rem var(--mono);margin-top:2px}
+.pcs-rm{background:none;border:0;padding:0;color:var(--warn);font:600 .76rem var(--body);cursor:pointer;margin-top:2px}
+.pcs-pick{border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;min-height:40px;padding:0 14px;font:600 .86rem var(--body);cursor:pointer}
+.pcs.on .pcs-pick{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.pcsum{display:contents}
+.pctot{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pctot span{font-size:.84rem;color:var(--muted)}
+.pctot .price{font-size:1.7rem;color:var(--best)}
+.pctot.one{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.pctot.one b{font:700 1.15rem var(--mono)}
+.pcby{display:grid;gap:6px;margin-top:10px}
+.pcby div{display:grid;grid-template-columns:auto 1fr auto;gap:8px;font-size:.8rem;align-items:baseline}
+.pcby span{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pcby em{font:700 .82rem var(--mono);font-style:normal}
+.pcsave{font-size:.8rem;margin:6px 0 0;color:var(--best)}
+.pcchk{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.pcchk li{font-size:.85rem;padding-left:24px;position:relative;line-height:1.45}
+.pcchk li::before{position:absolute;left:0;top:0;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:.7rem;font-weight:700;color:#fff}
+.pcchk li.ok::before{content:"✓";background:var(--best)}
+.pcchk li.no::before{content:"✗";background:var(--warn)}
+.pcchk li.q::before{content:"?";background:var(--na)}
+.pcchk li.no{color:var(--warn);font-weight:600}
+.pcact{display:flex;gap:10px}
+.pcact .btn{flex:1;justify-content:center;border:0;cursor:pointer;font-family:var(--body)}
+.pcmodal{position:fixed;inset:0;z-index:50;display:grid;place-items:end center}
+.pcmodal[hidden]{display:none}
+.pcm{width:100%;max-width:720px;max-height:88vh;background:var(--surface);border-radius:18px 18px 0 0;display:flex;flex-direction:column;box-shadow:0 -10px 40px rgba(0,0,0,.3);padding-bottom:env(safe-area-inset-bottom)}
+.pcm-tools{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line)}
+.pcm-tools input[type=search]{flex:1 1 100%;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;background:var(--bg);color:var(--ink)}
+.pcm-list{display:block;overflow-y:auto;padding:0 16px 12px;overscroll-behavior:contain;flex:1 1 auto;min-height:0}
+.pci{width:100%;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;font:inherit;line-height:1.4;color:inherit;cursor:pointer;display:grid;padding:12px 0;gap:4px 12px}
+.pci .w{margin-top:3px}
+.pci:hover .n{color:var(--accent)}
+.pcok{color:var(--best);font-weight:700;font-size:.72rem}
+.pcno{color:var(--warn);font-weight:700;font-size:.72rem}
+#pctotal.busy{opacity:.5}
+
+/* দাম কমলে জানান */
+.alertbtn{margin-top:8px;width:100%;min-height:44px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;font:600 .92rem var(--body);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.alertbtn svg{width:18px;height:18px;color:var(--accent)}
+.alertbtn.on{border-color:var(--best);color:var(--best)}
+.alertbtn[aria-expanded="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.alertbox{margin-top:10px;padding:14px;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.alertbox form{display:grid;gap:10px}
+.alertbox label{display:grid;gap:4px;font-size:.84rem;font-weight:600}
+.alertbox label small{font-weight:400;color:var(--muted)}
+.alertbox input:not([type=checkbox]){border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:.95rem;background:var(--surface);color:var(--ink);min-height:44px}
+.alertbox .alok{display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:.8rem;line-height:1.45}
+.alertbox .alok input{width:18px;height:18px;margin-top:1px;accent-color:var(--best);flex:0 0 auto}
+.alertbox .btn{justify-content:center;border:0;cursor:pointer;font-family:var(--body)}
+.alnote{margin:0;font-size:.82rem;color:var(--muted)}
+.almsg{margin:0;font-size:.86rem}
+.almsg:empty{display:none}
+.almsg.err{color:var(--warn);margin-top:8px}
+.almsg.ok{color:var(--best);font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+
+/* স্টোর পরিচিতি */
+.sabout{margin:10px 0 0;font-size:.78rem;color:var(--muted);line-height:1.6}
+.sabout a{text-decoration:underline;color:var(--ink)}
+.av.slogo{width:96px;height:52px;flex:0 0 auto;border-radius:12px}
+.av.slogo img{max-height:38px}
+.shub{display:grid;gap:12px}
+.scard{display:flex;gap:14px;align-items:center}
+.sbody{display:grid;gap:2px;min-width:0}
+.sbody b{font-size:1.02rem}
+.sbody span{font-size:.8rem;color:var(--muted)}
+.azlist a .ci{width:16px;height:16px}
+@media (min-width:1024px){.shub{grid-template-columns:repeat(2,minmax(0,1fr))}.scard:hover{border-color:var(--accent)}}
+
+/* ফোনের অফিসিয়াল / আনঅফিসিয়াল */
+.ptl{display:inline-block;margin-left:6px;font-size:.66rem;font-weight:700;border-radius:6px;padding:0 6px;vertical-align:2px}
+.ptl.official{background:var(--best-soft);color:var(--best)}
+.ptl.unofficial{background:var(--warn-soft);color:var(--warn)}
+
+/* সন্দেহজনক দাম */
+.stt.chk{color:var(--warn);font-weight:600}
+.chknote{margin:10px 0 0;padding:9px 12px;border-radius:10px;background:var(--warn-soft);font-size:.8rem;line-height:1.5;color:var(--ink)}
+.chknote b{color:var(--warn)}
+
+/* ক্যাটাগরি ফিল্টার ও সাজানো (মোবাইলে নিচ থেকে খোলা প্যানেল, পিসিতে বাঁ পাশে) */
+.ftool{display:flex;gap:8px;margin-top:12px;align-items:stretch}
+.fsort{flex:1;display:flex;align-items:center;gap:6px;min-width:0;border:1px solid var(--line);border-radius:10px;padding-left:12px;background:var(--bg);font-size:.82rem;color:var(--muted)}
+.fsort select{flex:1;min-width:0;border:0;background:none;font:600 .88rem var(--body);color:var(--ink);padding:8px 6px;min-height:42px;border-radius:0}
+.fbtn{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border-radius:10px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);font:600 .9rem var(--body);cursor:pointer}
+.fbtn svg{width:18px;height:18px}
+.fcount{background:var(--accent);color:#1a1205;border-radius:999px;min-width:20px;height:20px;display:inline-grid;place-items:center;font-size:.72rem;padding:0 5px}
+.fapplied{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.fap{border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:3px 11px;font:500 .8rem var(--body);cursor:pointer;min-height:32px}
+.fap span{color:var(--muted);margin-left:2px}
+.fap.clear{background:none;text-decoration:underline;border-color:transparent;color:var(--muted)}
+.cbody{display:contents}
+.fpanel{display:none}
+.fpanel.open{display:flex;flex-direction:column;position:fixed;left:0;right:0;bottom:0;z-index:46;max-height:86vh;background:var(--surface);border-radius:18px 18px 0 0;box-shadow:0 -10px 40px rgba(0,0,0,.25);padding-bottom:env(safe-area-inset-bottom)}
+body.fp-on{overflow:hidden}
+body.fp-on::after{content:"";position:fixed;inset:0;background:rgba(10,20,18,.5);z-index:45}
+.fhead{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}
+.fx{width:40px;height:40px;border:0;background:var(--bg);border-radius:50%;font-size:1rem;cursor:pointer;color:var(--ink)}
+.fscroll{overflow-y:auto;padding:0 16px 8px;flex:1;overscroll-behavior:contain}
+.fgrp{padding:12px 0;border-bottom:1px solid var(--line)}
+.fgrp:last-child{border-bottom:0}
+.fgrp h3{font-size:.9rem;margin:0 0 6px}
+.fpre{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.fchip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 11px;font:500 .8rem var(--body);cursor:pointer;min-height:34px}
+.fchip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.frange{display:flex;align-items:center;gap:6px;color:var(--muted)}
+.frange input{flex:1;min-width:0;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;font-size:.88rem;background:var(--bg);color:var(--ink)}
+.fck{display:flex;align-items:center;gap:9px;min-height:38px;font-size:.88rem;cursor:pointer}
+.fck input{width:18px;height:18px;accent-color:var(--best);flex:0 0 auto;margin:0}
+.fck span{flex:1;min-width:0}
+.fck small{color:var(--muted);font-size:.78rem;font-variant-numeric:tabular-nums}
+.fck.zero{opacity:.4}
+.fopts.long:not(.open) .fck:nth-child(n+9){display:none}
+.fmore{border:0;background:none;color:var(--accent);font:600 .82rem var(--body);padding:6px 0;cursor:pointer}
+.ffoot{display:flex;gap:10px;padding:12px 16px;border-top:1px solid var(--line)}
+.freset{flex:0 0 auto;background:none;border:1px solid var(--line);border-radius:12px;padding:0 16px;font:600 .9rem var(--body);color:var(--ink);min-height:48px;cursor:pointer}
+.fgo{flex:1;justify-content:center;border:0;cursor:pointer;font-family:var(--body)}
+.fstat{margin:0 0 6px;font-size:.84rem;color:var(--muted)}
+.fload{display:block;width:100%;margin-top:12px;min-height:46px;border:1px solid var(--line);background:var(--surface);border-radius:12px;font:600 .92rem var(--body);color:var(--ink);cursor:pointer}
+#list.busy,#results.busy{opacity:.5;transition:opacity .15s}
+
+/* ক্যাটাগরি আইকন (Tabler Icons, MIT) */
+.ci{width:1em;height:1em;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;color:var(--c,var(--accent))}
+/* রঙের প্যালেট: হালকা মোডে গাঢ়, ডার্ক মোডে উজ্জ্বল শেড */
+.k0{--c:#2563eb}.k1{--c:#16a34a}.k2{--c:#ea580c}.k3{--c:#9333ea}.k4{--c:#dc2626}.k5{--c:#0d9488}
+.k6{--c:#db2777}.k7{--c:#ca8a04}.k8{--c:#4f46e5}.k9{--c:#0891b2}.k10{--c:#65a30d}.k11{--c:#e11d48}
+@media (prefers-color-scheme:dark){
+.k0{--c:#60a5fa}.k1{--c:#4ade80}.k2{--c:#fb923c}.k3{--c:#c084fc}.k4{--c:#f87171}.k5{--c:#2dd4bf}
+.k6{--c:#f472b6}.k7{--c:#facc15}.k8{--c:#818cf8}.k9{--c:#22d3ee}.k10{--c:#a3e635}.k11{--c:#fb7185}}
+/* রঙিন টাইল: আইকনের নিজের রঙের হালকা পটভূমি */
+.cic{flex:0 0 auto;display:grid;width:38px;height:38px}
+.cic .ci{width:100%;height:100%;padding:8px;border-radius:11px;
+  background:linear-gradient(140deg,color-mix(in srgb,var(--c) 24%,var(--surface)),color-mix(in srgb,var(--c) 9%,var(--surface)));
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c) 22%,transparent);transition:background .15s,color .15s}
+.cat .cic{margin-bottom:8px}
+.ihd{display:flex;align-items:center;gap:10px}
+.ihd .cic{width:44px;height:44px}
+.ihd .cic .ci{padding:9px}
+.rimg>*{grid-area:1/1}
+.rimg>.ci{width:56%;height:56%;stroke-width:1.6;opacity:.7}
+.thumb .ico .ci{width:56%;height:56%;stroke-width:1.4;opacity:.75}
+.gnav a{display:inline-flex;align-items:center;gap:6px}
+.gnav .ci{width:18px;height:18px}
+@media (hover:hover){.cat:hover .cic .ci{background:var(--c);color:var(--surface)}}
+
 /* ===================== পিসি / বড় স্ক্রিন =====================
    মোবাইলে নিচের র‍্যাপারগুলো অদৃশ্য (display:contents), তাই মোবাইলের ডিজাইন ও ক্রম আগের মতোই থাকে।
    শুধু ১০২৪px-এর বেশি চওড়া স্ক্রিনে আলাদা লেআউট চালু হয়। */
@@ -453,3 +651,49 @@ main.col>.foot,main.col>.footnav{order:99}
   .foot{padding-top:16px;border-top:1px solid var(--line);margin-top:8px}
 }
 
+
+@media (min-width:1024px){
+  .cat .cic{width:46px;height:46px;margin-bottom:10px}
+  .cat .cic .ci{padding:10px}
+  .ihd .cic{width:50px;height:50px}
+  .ihd .cic .ci{padding:11px}
+  .plist .rimg>.ci{width:38%;height:38%}
+}
+
+@media (min-width:1024px){
+  .chead .ftool{max-width:420px}
+  .fbtn{display:none}
+  .cbody{display:grid;grid-template-columns:272px minmax(0,1fr);gap:20px;align-items:start}
+  .cbody>*{min-width:0}
+  .fpanel{display:flex;flex-direction:column;position:sticky;top:140px;max-height:calc(100vh - 160px);background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .fpanel .fx,.fpanel .fgo{display:none}
+  .fpanel .ffoot{padding:10px 16px}
+  .fpanel .freset{flex:1;min-height:40px}
+  .cbody .plist{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  .fchip:hover,.fck:hover span{color:var(--accent)}
+}
+
+@media (min-width:1024px){
+  .bitem{grid-template-columns:30px 88px minmax(0,1fr) auto;gap:6px 16px;padding:16px 4px}
+  .bitem .rimg{width:88px;height:88px;grid-row:auto}
+  .bpr{grid-column:auto;flex-direction:column;align-items:flex-end;gap:2px}
+  .bpr .price{font-size:1.3rem}
+  .bitem:hover .n{color:var(--accent)}
+  .bhub{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+  .bteaser{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 24px}
+  .hlinks a{padding:8px 11px}
+}
+
+@media (min-width:1024px){
+  .phead .alertbtn{width:auto;padding:0 18px;margin-left:8px}
+  .phead .alertbox{max-width:520px}
+}
+
+@media (min-width:1024px){
+  .pcb{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:20px;align-items:start}
+  .pcsum{display:grid;gap:20px;position:sticky;top:140px}
+  .pcs{padding:14px 4px}
+  .pcmodal{place-items:center}
+  .pcm{border-radius:18px;max-height:80vh}
+  .pccta:hover{box-shadow:0 6px 18px rgba(18,48,44,.08)}
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › স্টোর</nav>
+  <section class="card">
+    <h1>যেসব দোকানের দাম মেলানো হয়</h1>
+    <p class="muted" style="margin:0;font-size:.92rem">প্রতিটা দোকানের হটলাইন, শোরুম, ডেলিভারি, EMI, আর কোন জিনিসে কোথায় দাম কম। দাম প্রতিদিন দোকানের ওয়েবসাইট থেকে নেওয়া হয়।</p>
+  </section>
+  <div class="shub">
+  {% for s in cards %}
+    <a class="card scard" href="{{ base }}/store/{{ s.id }}/">
+      <span class="av{% if s.logo %} logo{% endif %}{% if s.dark %} dark{% endif %} slogo">{% if s.logo %}<img src="{{ base }}/static/{{ s.logo }}" alt="{{ s.name }}" loading="lazy">{% else %}{{ s.name[:2] }}{% endif %}</span>
+      <span class="sbody"><b>{{ s.name }}</b>
+        <span>{{ s.st.live|bn }}টি প্রোডাক্ট স্টকে{% if s.st.share is not none %} · {{ s.st.share|bn }}% তুলনায় সবচেয়ে কম দাম{% endif %}</span>
+        {% if s.info.hotline %}<span>হটলাইন: {{ s.info.hotline }}</span>{% endif %}</span>
+    </a>
+  {% endfor %}
+  </div>
+{% endblock %}

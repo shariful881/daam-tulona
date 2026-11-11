@@ -18,6 +18,8 @@ from urllib.parse import urlsplit, urlunsplit
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from web.keyspecs import key_specs
+from web.facets import facets_for, facet_defs
+from web.automatch import auto_merges
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -63,6 +65,87 @@ ICONS = {
 GROUP_ICON = {"computer-parts": "chip", "mobile-tablet": "phone", "monitor": "screen", "laptop-desktop": "screen"}
 
 
+SUSPECT_RATIO = 1.5  # এর বেশি ফারাক হলে দামটা "যাচাই চলছে" (ভুল ম্যাচ বা ভুল দাম হতে পারে)
+
+
+def suspect_stores(live: list) -> set:
+    """স্টকে থাকা দামগুলোর মধ্যে অবাস্তব দাম খোঁজে। live = [(store, offer)] দাম অনুযায়ী সাজানো।
+    ৩+ দোকান: মিডিয়ান থেকে ১.৫ গুণের বেশি দূরের দাম সন্দেহজনক।
+    ২ দোকান: একটা আরেকটার ১.৫ গুণ বা বেশি হলে কোনটা ঠিক বলা যায় না, তাই দুটোই।"""
+    ps = [o["price"] for _, o in live]
+    if len(ps) < 2:
+        return set()
+    if len(ps) == 2:
+        return {s for s, _ in live} if ps[1] >= ps[0] * SUSPECT_RATIO else set()
+    srt = sorted(ps)
+    med = srt[len(srt) // 2] if len(srt) % 2 else (srt[len(srt) // 2 - 1] + srt[len(srt) // 2]) / 2
+    return {s for s, o in live if o["price"] * SUSPECT_RATIO < med or o["price"] > med * SUSPECT_RATIO}
+
+
+PHONE_CATS = {"smartphone", "tablet", "feature-phone"}
+
+
+def phone_type(offer_name, store_conf):
+    """মোবাইল/ট্যাবলেটের অফিসিয়াল-আনঅফিসিয়াল: নামে লেখা থাকলে সেটা, না হলে স্টোরের ডিফল্ট (অ্যাডমিন থেকে)।"""
+    n = (offer_name or "").lower()
+    if re.search(r"\bunofficial\b|\bglobal (?:version|variant)\b|\b(?:cn|china|indian?|uk|us|usa|hk|japan|jp) (?:version|variant)\b", n):
+        return "unofficial"
+    if re.search(r"\bofficial\b", n):
+        return "official"
+    return store_conf.get("phone_type") or None
+
+
+def nice_round(x):
+    """দামের রেঞ্জের জন্য গোল সংখ্যা: ১২,৩৪০ → ১২,০০০ / ১,৮৭০ → ২,০০০"""
+    if x <= 0:
+        return 0
+    mag = 10 ** (len(str(int(x))) - 1)
+    return min((m * mag for m in (1, 1.5, 2, 2.5, 3, 4, 5, 6, 7.5, 8, 10)), key=lambda v: abs(v - x))
+
+
+def price_presets(prices):
+    """তালিকার দামের ভাগ (২০/৪০/৬০/৮০ শতাংশ) থেকে ৪-৫টা গোল রেঞ্জ।"""
+    if len(prices) < 8:
+        return []
+    ps = sorted(prices)
+    cuts = sorted({int(nice_round(ps[int(len(ps) * q)])) for q in (0.2, 0.4, 0.6, 0.8)})
+    edges = [0] + [c for c in cuts if c > 0]
+    out = [[edges[i], edges[i + 1]] for i in range(len(edges) - 1)] + [[edges[-1], None]]
+    return out if len(out) >= 3 else []
+
+
+def category_filters(lst):
+    """ক্যাটাগরির ফিল্টার: যে ফ্যাসেট অন্তত ২৫% প্রোডাক্টে আছে আর ২+ রকম মান, শুধু সেগুলো দেখায়।"""
+    if not lst:
+        return []
+    out = []
+    for d in facet_defs(lst[0]["category"]):
+        vals = Counter()
+        num = {}
+        for i in lst:
+            v = i["fx"].get(d["id"])
+            if v:
+                vals[v[0]] += 1
+                num[v[0]] = v[1]
+        if sum(vals.values()) >= len(lst) * 0.25 and len(vals) >= 2:
+            opts = sorted(vals, key=lambda k: num[k])
+            out.append({"id": d["id"], "name": d["name"], "opts": [[k, vals[k]] for k in opts]})
+    return out
+
+
+SPLIT_RX = re.compile(r"[\s\-_/,()\[\]+|:;\"'.!?&*#@]+")
+
+
+def search_tokens(text):
+    """search.js-এর tokens()-এর সাথে হুবহু মিলতে হবে।"""
+    return [t for t in SPLIT_RX.split(text.lower()) if t]
+
+
+def shard_key(tok):
+    """শব্দের প্রথম ২ অক্ষরের কোডপয়েন্ট (ফাইলের নাম), search.js-এর key()-এর মতো।"""
+    return "_".join(format(ord(c), "x") for c in tok[:2])
+
+
 def taka(n):
     return "৳" + f"{int(n):,}" if n is not None else "—"
 
@@ -82,12 +165,20 @@ def icon_for(leaf, group):
     return ICONS[GROUP_ICON.get(group, "box")]
 
 
-def sparkline(changes: list[tuple[str, int]], today: str) -> str:
-    """দাম বদলের তারিখগুলো থেকে প্রতিদিনের ধারা বানিয়ে শেষ ৯০ দিনের চার্ট।"""
+def window_min(changes, today, days):
+    """গত `days` দিনে সর্বনিম্ন দৈনিক দাম (শুরুর দিনে যে দাম চলছিল সেটাও ধরে)।"""
+    cut = (date.fromisoformat(today) - timedelta(days=days)).isoformat()
+    before = [v for d, v in changes if d <= cut]
+    vals = [v for d, v in changes if d > cut] + before[-1:]
+    return min(vals) if vals else None
+
+
+def sparkline(changes: list[tuple[str, int]], today: str, days: int = 90) -> str:
+    """দাম বদলের তারিখগুলো থেকে প্রতিদিনের ধারা বানিয়ে শেষ `days` দিনের চার্ট।"""
     if not changes:
         return ""
     end = date.fromisoformat(today)
-    start = max(date.fromisoformat(changes[0][0]), end - timedelta(days=90))
+    start = max(date.fromisoformat(changes[0][0]), end - timedelta(days=days))
     pts, i, cur = [], 0, None
     d = start
     ch = dict(changes)
@@ -127,7 +218,7 @@ def daily_min(per_store: dict, today: str) -> list[tuple[str, int]]:
         return []
     start = min(d for ch in per_store.values() for d, _ in ch)
     end = date.fromisoformat(today)
-    series, d = [], max(date.fromisoformat(start), end - timedelta(days=120))
+    series, d = [], max(date.fromisoformat(start), end - timedelta(days=370))
     state = {}
     for sid, ch in per_store.items():
         for ds, v in sorted(ch):
@@ -471,6 +562,95 @@ def build_brand_pages(items, leaves, group_of, BR, write):
     return sorted(cards, key=lambda c: -c["count"])
 
 
+def bn_amount(n):
+    """২০০০০ → ২০ হাজার, ১০০০০০ → ১ লাখ, ১৫০০ → ১,৫০০"""
+    if n >= 100000 and n % 100000 == 0:
+        return f"{bn_num(n // 100000)} লাখ"
+    if n >= 100000 and n % 10000 == 0:
+        return f"{(n / 100000):g} লাখ".translate(BN_DIGITS)
+    if n % 1000 == 0:
+        return f"{bn_num(n // 1000)} হাজার"
+    return bn_num(n)
+
+
+def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL):
+    """config/budget_pages.json থেকে "৳X-এর মধ্যে সেরা" পেজ। ফেরত: (হাবের তালিকা, {ক্যাটাগরি: [(টাকা, slug)]})"""
+    f = ROOT / "config/budget_pages.json"
+    if not f.exists():
+        return [], {}
+    conf = json.loads(f.read_text()).get("pages", {})
+    by_cat = defaultdict(list)
+    for it in items.values():
+        if it["best"] and not it["sus"]:
+            by_cat[it["category"]].append(it)
+    month = f"{BN_MONTHS[int(today[5:7]) - 1]} {today[:4]}".translate(BN_DIGITS)
+    hub, links = [], {}
+    for cat, amounts in conf.items():
+        leaf = leaves.get(cat)
+        if not leaf:
+            continue
+        made = []
+        for amt in sorted(amounts):
+            pool = [i for i in by_cat.get(cat, []) if amt * 0.4 <= i["best"]["price"] <= amt]
+            if len(pool) < 5:
+                continue
+            # বেশি দোকানে বিক্রি = বেশি চলে এমন মডেল; বাজেটের কাছাকাছি দাম = সাধারণত ভালো কনফিগারেশন
+            ranked = sorted(pool, key=lambda i: -(min(i["live_count"], 5) * 2 + 3 * i["best"]["price"] / amt))[:20]
+            made.append((amt, f"{cat}-under-{amt}", pool, ranked))
+        if not made:
+            continue
+        links[cat] = [(amt, slug) for amt, slug, _, _ in made]
+        grp = group_of[cat]
+        for amt, slug, pool, ranked in made:
+            words = bn_amount(amt)
+            title = f"{words} টাকার মধ্যে সেরা {leaf['name_bn']} ({month})"
+            ld = {"@context": "https://schema.org", "@type": "ItemList", "name": title, "itemListElement": [
+                {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{i['id']}/", "name": i["name"]} for k, i in enumerate(ranked)]}
+            write(f"best/{slug}", "best.html", cat=leaf, group=grp, amt=amt, words=words, month=month, ranked=ranked,
+                  pool_n=len(pool), cheapest=min(pool, key=lambda i: i["best"]["price"]), siblings=links[cat],
+                  itemlist=json.dumps(ld, ensure_ascii=False),
+                  crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{cat}/"), (f"{words} টাকার মধ্যে", f"best/{slug}/")),
+                  title=title + " | দামতুলনা",
+                  description=f"{words} টাকার মধ্যে আজ স্টকে থাকা {len(pool)}টি {leaf['name_bn']} থেকে বাছাই করা {len(ranked)}টি, দোকানভেদে আজকের দামসহ।",
+                  canonical=f"{SITE_URL}/best/{slug}/" if SITE_URL else None)
+        hub.append({"cat": leaf, "links": links[cat]})
+    if hub:
+        write("best", "best_hub.html", hub=hub, month=month, title="বাজেট অনুযায়ী সেরা প্রোডাক্ট | দামতুলনা",
+              description="বাজেট অনুযায়ী সেরা ফোন, ল্যাপটপ, মনিটর, টিভি, ফ্রিজ ও আরও অনেক কিছু, প্রতিদিনের দামসহ।",
+              crumbs=crumbs_ld(("হোম", ""), ("বাজেট অনুযায়ী সেরা", "best/")), canonical=f"{SITE_URL}/best/" if SITE_URL else None)
+    return hub, links
+
+
+def build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL):
+    """/store/<id>/: স্টোরের তথ্য (config/store_info.json) + আমাদের ডাটা থেকে কোথায় সস্তা।"""
+    f = ROOT / "config/store_info.json"
+    info = json.loads(f.read_text()).get("stores", {}) if f.exists() else {}
+    cards = []
+    for s_ in enabled:
+        listed = [pid for pid in items if offers.get(pid, {}).get(s_, {}).get("price")]
+        live = [pid for pid in listed if offers[pid][s_].get("in_stock")]
+        contested = [pid for pid in live if items[pid]["live_count"] > 1 and items[pid]["best"]]
+        wins = [pid for pid in contested if items[pid]["best"]["store"] == s_]
+        cat_tot, cat_win = Counter(items[p]["category"] for p in contested), Counter(items[p]["category"] for p in wins)
+        strong = sorted(((c, cat_win[c], n) for c, n in cat_tot.items() if n >= 8 and cat_win[c] / n >= 0.4),
+                        key=lambda x: -x[1] / x[2])[:8]
+        top_cats = Counter(items[p]["category"] for p in live).most_common(10)
+        st = {"listed": len(listed), "live": len(live), "contested": len(contested), "wins": len(wins),
+              "share": round(100 * len(wins) / len(contested)) if contested else None}
+        card = {"id": s_, "name": stores[s_]["name"], "logo": stores[s_].get("logo"), "dark": stores[s_].get("logo_dark"),
+                "home": stores[s_].get("home"), "info": info.get(s_, {}), "st": st,
+                "strong": [(leaves[c], w, n) for c, w, n in strong if c in leaves],
+                "top": [(leaves[c], n) for c, n in top_cats if c in leaves]}
+        cards.append(card)
+        write(f"store/{s_}", "store.html", s=card, title=f"{card['name']}: ঠিকানা, হটলাইন, ডেলিভারি, EMI ও দাম | দামতুলনা",
+              description=f"{card['name']}-এর হটলাইন, শোরুম, ডেলিভারি ও EMI তথ্য, আর কোন কোন প্রোডাক্টে {card['name']}-এ দাম সবচেয়ে কম।",
+              crumbs=crumbs_ld(("হোম", ""), ("স্টোর", "store/"), (card["name"], f"store/{s_}/")),
+              canonical=f"{SITE_URL}/store/{s_}/" if SITE_URL else None)
+    write("store", "stores.html", cards=cards, title="বাংলাদেশের কম্পিউটার ও ইলেকট্রনিক্স দোকান | দামতুলনা",
+          description="দামতুলনায় যেসব দোকানের দাম মেলানো হয়: হটলাইন, শোরুম, ডেলিভারি, EMI আর কোথায় কী সস্তা।",
+          crumbs=crumbs_ld(("হোম", ""), ("স্টোর", "store/")), canonical=f"{SITE_URL}/store/" if SITE_URL else None)
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -526,7 +706,27 @@ def main():
     env.filters["bn"] = bn_num
     env.filters["galts"] = lambda g: json.dumps([[x["u"], x["n"], x["h"]] for x in g], ensure_ascii=False)
     env.filters["alts_simple"] = lambda l: json.dumps([[u] for u, _ in l])
-    common = {"base": BASE, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
+    # ক্যাটাগরি আইকন (config/category_icons.json → static/cat-icons.svg স্প্রাইট)
+    from markupsafe import Markup
+    _ic_file = ROOT / "config/category_icons.json"
+    _ic = json.loads(_ic_file.read_text()) if _ic_file.exists() else {"groups": {}, "leaves": {}}
+    _sp = ROOT / "web/static/cat-icons.svg"
+    _icv = zlib.crc32(_sp.read_bytes()) if _sp.exists() else 0  # ফাইল বদলালেই কেবল নতুন করে ডাউনলোড
+
+    # রং: ১২টা রঙের প্যালেট (style.css-এর .k0–.k11)। প্রতিটা ক্যাটাগরি আলাদা রং, আর একই পাতায় পাশাপাশি
+    # সাব-ক্যাটাগরিগুলোও আলাদা রং পায়।
+    _kc = {}
+    for gi, g in enumerate(tax["groups"]):
+        _kc[("g", g["slug"])] = gi % 12
+        for li, l in enumerate(g["leaves"]):
+            _kc[("l", l["slug"])] = (gi + li) % 12
+
+    def cicon(slug, group=False, cls="ci"):
+        name = (_ic["groups"] if group else _ic["leaves"]).get(slug) or _ic["groups"].get(slug) or "box"
+        k = _kc.get(("g" if group else "l", slug), 0)
+        return Markup(f'<svg class="{cls} k{k}" aria-hidden="true"><use href="{BASE}/static/cat-icons.svg?v={_icv}#i-{name}"/></svg>')
+
+    common = {"base": BASE, "cicon": cicon, "stores": stores, "updated": updated, "build_id": int(t0), "spec_names": SPEC_NAMES,
               "stores_json": json.dumps({k: v["name"] for k, v in stores.items()}, ensure_ascii=False),
               "adsense": ads["adsense"], "sponsor_for": make_sponsor_for(ads), "go_url": make_go_url(ads),
               "going_note": ads.get("going_note", True), "contact": ads.get("contact", {}),
@@ -548,6 +748,22 @@ def main():
                         offers[keep][st] = o
     for pid in mm.get("ignore", []):
         offers.pop(pid, None)
+    for k in mm.get("drop_offer", []):  # অ্যাডমিন: "এই স্টোরের মিল ভুল" (pid|store)
+        pid_, st_ = k.split("|", 1)
+        if pid_ in offers:
+            offers[pid_].pop(st_, None)
+    price_ok = set(mm.get("price_ok", []))  # অ্যাডমিন: "দাম ঠিক আছে" (pid|store)
+    # স্বয়ংক্রিয় মিল (মডেল নম্বর দিয়ে); পুরনো লিংক নতুন পাতায় রিডাইরেক্ট হবে
+    amap = auto_merges(products, offers, mm.get("not_same", []))
+    for old, keep in amap.items():
+        if old in offers and keep in offers:
+            for st_, o_ in offers.pop(old).items():
+                offers[keep].setdefault(st_, o_)
+            for st_, ch_ in history.pop(old, {}).items():
+                history[keep][st_].extend(ch_)
+            if old in details and keep not in details:
+                details[keep] = details[old]
+    amap = {k: v for k, v in amap.items() if k not in offers}
 
     BR = Brands()
     items = {}
@@ -556,7 +772,9 @@ def main():
         if not p or p["category"] not in leaves:
             continue
         det = details.get(pid, {})
-        live = sorted(((s, o) for s, o in so.items() if o.get("in_stock") and o.get("price")), key=lambda x: x[1]["price"])
+        live_all = sorted(((s, o) for s, o in so.items() if o.get("in_stock") and o.get("price")), key=lambda x: x[1]["price"])
+        sus = {s_ for s_ in suspect_stores(live_all) if f"{pid}|{s_}" not in price_ok}
+        live = [x for x in live_all if x[0] not in sus]  # সর্বনিম্ন দাম ও সাশ্রয় শুধু বিশ্বাসযোগ্য দাম থেকে
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
         bslug = BR.of(p["name"], det.get("brand") if det.get("brand") not in (None, "", "Others") else p["brand"])
@@ -565,9 +783,37 @@ def main():
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
                       "group": group_of[p["category"]]["slug"], "brand": brand, "bslug": bslug, "best": best, "any_price": any_price,
                       "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
-                      "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live),
+                      "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live_all), "sus": sorted(sus),
                       "created": p["created"], "specs": p["specs"], "imgs": imgs,
-                      "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x)}
+                      "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x),
+                      "fx": facets_for(p["category"], p["name"], p["specs"], (det.get("key_features") or p.get("features") or []))}
+
+    # একক স্টোরের অবাস্তব দাম (যেমন ফ্রিজ ৳২৪): ক্যাটাগরির সাধারণ দামের ৫%-এর কম হলে "যাচাই চলছে"
+    cat_prices = defaultdict(list)
+    for it in items.values():
+        if it["best"]:
+            cat_prices[it["category"]].append(it["best"]["price"])
+    cat_med = {c_: sorted(v_)[len(v_) // 2] for c_, v_ in cat_prices.items() if len(v_) >= 10}
+    for pid, it in items.items():
+        med = cat_med.get(it["category"])
+        if not med or f"{pid}|{(it['best'] or {}).get('store')}" in price_ok:
+            continue
+        low = {s_ for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price") and o["price"] < med * 0.05
+               and f"{pid}|{s_}" not in price_ok}
+        if low:
+            it["sus"] = sorted(set(it["sus"]) | low)
+            ok_ = sorted(((s_, o) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price") and s_ not in it["sus"]),
+                         key=lambda x: x[1]["price"])
+            it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
+            it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
+
+    for pid, it in items.items():  # ফোনে অফিসিয়াল/আনঅফিসিয়াল ফিল্টার
+        if it["category"] in PHONE_CATS:
+            types = {phone_type(o.get("name"), stores[s_]) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price")}
+            if "official" in types:
+                it["fx"]["pt"] = ["অফিসিয়াল পাওয়া যায়", 1]
+            elif "unofficial" in types:
+                it["fx"]["pt"] = ["শুধু আনঅফিসিয়াল", 2]
 
     for it in items.values():  # ব্র্যান্ডের প্রদর্শনী নাম (সব বানান গোনা হয়ে গেলে)
         it["brand"] = BR.display(it["bslug"]) if it["bslug"] else ""
@@ -577,12 +823,18 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js", "pcbuilder.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     urls = []
+    for old, keep in amap.items():  # মিলে যাওয়া পুরনো প্রোডাক্টের লিংক যেন ভেঙে না যায়
+        (DIST / f"p/{old}").mkdir(parents=True, exist_ok=True)
+        (DIST / f"p/{old}/index.html").write_text(
+            f'<!doctype html><meta charset="utf-8"><title>সরানো হয়েছে</title><meta name="robots" content="noindex">'
+            f'<link rel="canonical" href="{SITE_URL}/p/{keep}/"><meta http-equiv="refresh" content="0; url={BASE}/p/{keep}/">'
+            f'<a href="{BASE}/p/{keep}/">নতুন পাতায় যান</a>')
 
     def write(path, template, **ctx):
         out = DIST / path / "index.html" if path else DIST / "index.html"
@@ -599,6 +851,20 @@ def main():
     for bf in sorted((DATA / "brand_specs").glob("*.json")) if (DATA / "brand_specs").exists() else []:
         BSPEC.update(json.loads(bf.read_text()))
 
+    # SEO: শেয়ার-ছবি (ফেসবুকে লিংকের সাথে ছবি) আর ব্রেডক্রাম্ব স্কিমা
+    common["og_default"] = f"{SITE_URL or BASE}/static/share.jpg"
+    _lf = ROOT / "config/leads.json"
+    common["lead_cfg"] = {"endpoint": (json.loads(_lf.read_text()).get("endpoint") or "") if _lf.exists() else "",
+                          "wa": (ads.get("contact") or {}).get("whatsapp") or (ads.get("contact") or {}).get("phone") or ""}
+
+    def crumbs_ld(*pairs):
+        """[(নাম, path)] থেকে BreadcrumbList JSON-LD (Google ফলাফলে পথ দেখায়)।"""
+        return json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": n, "item": f"{SITE_URL}{BASE if not SITE_URL else ''}/{p_}"}
+            for i, (n, p_) in enumerate(pairs)]}, ensure_ascii=False)
+    lastmod = {}  # url → তারিখ (সাইটম্যাপের জন্য)
+    drops = []    # আজ যেসব প্রোডাক্টের সর্বনিম্ন দাম কমেছে
+
     # পিসির হেডারে ক্যাটাগরি মেনু (যেসব গ্রুপে প্রোডাক্ট আছে)
     _live = {group_of[i["category"]]["slug"] for i in items.values()}
     common["nav_groups"] = [(g["slug"], g["name_bn"]) for g in tax["groups"] if g["slug"] in _live]
@@ -614,7 +880,10 @@ def main():
             age = (date.fromisoformat(today) - date.fromisoformat(o["seen"])).days if o and o.get("seen") else None
             fresh = (None if age is None else "আজ যাচাই করা" if age == 0 else "গতকাল যাচাই করা" if age == 1
                      else f"{bn_num(age)} দিন আগে যাচাই করা")
-            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2),
+            if s in it["sus"]:
+                label, cls = "দাম যাচাই চলছে", "chk"
+            ptype = phone_type(o.get("name"), stores[s]) if o and it["category"] in PHONE_CATS else None
+            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2), "ptype": ptype,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),
                          "featured": bool(o and o.get("in_stock") and stores[s].get("featured"))})
         # স্পন্সরড স্টোর (স্টকে থাকলে) উপরে, "স্পন্সরড" লেখাসহ; বাকিরা দাম অনুযায়ী
@@ -626,8 +895,15 @@ def main():
             same = [a for a in same if 0.7 * ref <= a["best"]["price"] <= 1.3 * ref]
         alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"]}
                 for a in sorted(same, key=lambda a: abs(a["best"]["price"] - (ref or 0)))[:6]]
-        changes = daily_min(history.get(pid, {}), today)
+        changes = daily_min({s_: v for s_, v in history.get(pid, {}).items() if s_ not in it["sus"]}, today)
         best = it["best"]
+        if best:  # আজ দাম কমেছে: একই স্টোর নিজের দাম কমিয়েছে (নতুন স্টোর যোগ হওয়াকে "কমা" ধরা হয় না)
+            hs = sorted(history.get(pid, {}).get(best["store"], []))
+            prev = [v_ for d_, v_ in hs if d_ < today and v_]
+            if hs and hs[-1][0] == today and hs[-1][1] == best["price"] and prev and prev[-1] > best["price"]:
+                drops.append(it | {"old": prev[-1], "drop": prev[-1] - best["price"]})
+        real_changes = [d_ for d_, _ in changes[:-1]] if len(changes) > 1 else []
+        lastmod[f"{SITE_URL}/p/{pid}/"] = max(real_changes + [p["created"]])
         warranty = warranty_bn(det.get("warranty"))
         feats = det.get("key_features") or p.get("features") or []
         bsp = next((BSPEC[o["url"]] for o in so.values() if o.get("url") in BSPEC), None)
@@ -651,7 +927,7 @@ def main():
             jsonld["mpn"] = det["mpn"]
         if it["imgs"]:
             jsonld["image"] = [u for u, _ in it["imgs"][:3]]
-        priced = [o for o in so.values() if o.get("price") and o.get("in_stock")]
+        priced = [o for s_, o in so.items() if o.get("price") and o.get("in_stock") and s_ not in it["sus"]]
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
@@ -669,14 +945,33 @@ def main():
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],
             spark=sparkline(changes, today), hist_start=bn_date(changes[0][0]) if changes else None,
+            sparks=[(lab, sparkline(changes, today, d_)) for lab, d_ in (("৩০ দিন", 30), ("৯০ দিন", 90), ("১ বছর", 365))]
+                   if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days > 30 else [],
+            low30=window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None,
             hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
             hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
+            og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
+            crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
             title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
             description=f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")
                         + (f" {warranty}।" if warranty else ""),
             canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
         urls.append(f"{SITE_URL}/p/{pid}/")
+
+    budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
+    build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
+    # পিসি বিল্ডার (যেসব ক্যাটাগরিতে প্রোডাক্ট আছে শুধু সেগুলো)
+    pc_slots = [{"key": k, "name": n, "cats": [c for c in cs if by_cat.get(c)], "req": rq} for k, n, cs, rq in (
+        ("cpu", "প্রসেসর", ["processor"], True), ("mb", "মাদারবোর্ড", ["motherboard"], True), ("ram", "র‍্যাম", ["desktop-ram"], True),
+        ("ssd", "স্টোরেজ (SSD)", ["ssd"], True), ("gpu", "গ্রাফিক্স কার্ড", ["graphics-card"], False), ("psu", "পাওয়ার সাপ্লাই", ["power-supply"], True),
+        ("case", "কেসিং", ["casing"], True), ("cooler", "সিপিইউ কুলার", ["cpu-cooler", "liquid-cooler"], False),
+        ("monitor", "মনিটর", ["monitor-all", "gaming-monitor"], False))]
+    pc_slots = [x for x in pc_slots if x["cats"]]
+    write("pc-builder", "pcbuilder.html", slots=pc_slots, title="পিসি বিল্ডার: সব দোকানের দাম মিলিয়ে পিসি বানান | দামতুলনা",
+          description="প্রসেসর, মাদারবোর্ড, র‍্যাম, গ্রাফিক্স কার্ড বাছুন; Star Tech, PC House-সহ সব দোকানের দাম মিলিয়ে মোট খরচ, আর সকেট/র‍্যাম/পাওয়ার মানানসই কিনা দেখুন।",
+          crumbs=crumbs_ld(("হোম", ""), ("পিসি বিল্ডার", "pc-builder/")), canonical=f"{SITE_URL}/pc-builder/" if SITE_URL else None)
+    common["budget_links"] = budget_links
 
     # ক্যাটাগরি পেজ (পাতায় ভাগ করা)
     group_cards = []
@@ -687,11 +982,24 @@ def main():
             if not lst:
                 continue
             brands = [b for b, _ in Counter(i["brand"] for i in lst if i["brand"]).most_common(12)]
+            # ফিল্টারের জন্য পুরো ক্যাটাগরির ছোট ডাটা ফাইল (ফিল্টার/সাজানো চাপলে তবেই নামে)
+            fdefs = category_filters(lst)
+            fdata = {"stores": {s_: stores[s_]["name"] for s_ in enabled},
+                     "items": [{"i": i["id"], "n": i["name"], "b": i["brand"], "p": (i["best"] or {}).get("price"), "a": i["any_price"],
+                                "s": (i["best"] or {}).get("store"), "k": i["store_count"], "l": i["live_count"], "v": i["saving"],
+                                "im": [u for u, _ in i["imgs"][:3]], **({"f": {k: v[0] for k, v in i["fx"].items()}} if i["fx"] else {})}
+                               for i in lst]}
+            (DIST / f"c/{leaf['slug']}").mkdir(parents=True, exist_ok=True)
+            (DIST / f"c/{leaf['slug']}/items.json").write_text(json.dumps(fdata, ensure_ascii=False, separators=(",", ":")))
+            presets = price_presets([i["best"]["price"] for i in lst if i["best"]])
+            bcount = Counter(i["brand"] for i in lst if i["brand"])
             pages = max(1, -(-len(lst) // PER_PAGE))
             for n in range(1, pages + 1):
                 chunk = lst[(n - 1) * PER_PAGE:n * PER_PAGE]
                 write(f"c/{leaf['slug']}" + (f"/{n}" if n > 1 else ""), "category.html", cat=leaf, group=g, items=chunk,
+                      crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/")),
                       total=len(lst), page=n, pages=pages, brands=brands, store_count=len(enabled),
+                      fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
                       title=f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
                       description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
                       canonical=f"{SITE_URL}/c/{leaf['slug']}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
@@ -704,6 +1012,7 @@ def main():
         gitems = [i for l in leaf_cards for i in by_cat[l["slug"]]]
         deals = sorted([i for i in gitems if i["saving"] > 0], key=lambda i: -i["saving"])[:8]
         write(f"g/{g['slug']}", "group.html", group=g, leaves=leaf_cards, deals=deals, total=len(gitems),
+              crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/")),
               title=f"{g['name_bn']} দাম বাংলাদেশে | দামতুলনা",
               description=f"{g['name_bn']}: {len(leaf_cards)}টি ক্যাটাগরিতে {len(gitems)}টি প্রোডাক্টের দাম তুলনা।",
               canonical=f"{SITE_URL}/g/{g['slug']}/" if SITE_URL else None)
@@ -716,7 +1025,12 @@ def main():
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
-    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, fresh=fresh, total=len(vals),
+    # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
+    drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
+                       key=lambda d_: (-(d_["store_count"] > 1), -d_["drop"]))[:10]
+    write("", "home.html", groups=group_cards, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals), budget_hub=budget_hub,
+          popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
+                                             key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["store_count"] > 1),
           store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
@@ -748,6 +1062,13 @@ def main():
     admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
              "suggestions": [x for x in suggestions if not ({x["a"], x["b"]} <= done)][:300],
+             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])
+                             if o_ in products and k_ in products][:1500],
+             "price_checks": sorted(({"id": i["id"], "n": i["name"], "c": i["cat_name"],
+                                      "o": [[s_, stores[s_]["name"], o_["price"], s_ in i["sus"]]
+                                            for s_, o_ in sorted(offers[i["id"]].items(), key=lambda x: x[1].get("price") or 0)
+                                            if o_.get("price") and o_.get("in_stock")]}
+                                     for i in vals if i["sus"]), key=lambda x: -(x["o"][-1][2] / max(1, x["o"][0][2])))[:300],
              "fresh": [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in fresh_all[:100]]}
     (DIST / "admin").mkdir(exist_ok=True)
     (DIST / "admin/admin.json").write_text(json.dumps(admin, ensure_ascii=False, separators=(",", ":")))
@@ -757,9 +1078,41 @@ def main():
     search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
               for i in vals]
     (DIST / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")))
-    # sitemap ৫০,০০০ লিংকের মধ্যে থাকলে একটা ফাইলেই চলে
-    (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                      + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls[:50000]) + "</urlset>\n")
+    # হালকা সার্চ: শব্দের প্রথম ২ অক্ষর ধরে ছোট ছোট ইনডেক্স ফাইল (s/p/) আর ৫০০টা করে প্রোডাক্টের টুকরো (s/d/)।
+    # একটা খোঁজে সাধারণত ২-৩টা ছোট ফাইল নামে, পুরো তালিকা নয়। (search.json থাকছে শুধু অ্যাডমিনের জন্য)
+    # ক্রম: একই ক্যাটাগরির প্রোডাক্ট পাশাপাশি (একটা খোঁজের ফল কম টুকরোয় থাকে), প্রতিটায় নিজের র‍্যাঙ্ক (বেশি স্টোর = আগে)
+    rank = {i["id"]: r_ for r_, i in enumerate(sorted(vals, key=lambda i: (-i["live_count"], -i["store_count"], i["best"] is None, i["name"].lower())))}
+    ranked = sorted(vals, key=lambda i: (i["category"], rank[i["id"]]))
+    sdir = DIST / "s"
+    (sdir / "d").mkdir(parents=True, exist_ok=True)
+    (sdir / "p").mkdir(parents=True, exist_ok=True)
+    for k in range(0, len(ranked), 200):
+        (sdir / f"d/{k // 200}.json").write_text(json.dumps(
+            [[i["id"], i["name"], i["cat_name"], i["category"], (i["best"] or {}).get("price"), i["store_count"], rank[i["id"]]]
+             for i in ranked[k:k + 200]], ensure_ascii=False, separators=(",", ":")))
+    post = defaultdict(lambda: defaultdict(list))
+    for n_, i in enumerate(ranked):
+        for tok in set(search_tokens(f"{i['name']} {i['cat_name']} {i['brand']}")):
+            if len(tok) >= 2:
+                post[shard_key(tok)][tok].append(n_)
+    for key, toks in post.items():
+        (sdir / f"p/{key}.json").write_text(json.dumps(toks, ensure_ascii=False, separators=(",", ":")))
+    # সাইটম্যাপ: পাতা আর প্রোডাক্ট আলাদা ফাইলে, প্রোডাক্ট ২০,০০০ করে ভাগ (একটা ফাইলের সীমা ৫০,০০০);
+    # প্রতিটা লিংকে শেষ দাম বদলের তারিখ (lastmod), যাতে Google বদলানো পাতা আগে দেখে
+    head = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    prod_urls = [u for u in urls if "/p/" in u]
+    page_urls = [u for u in urls if "/p/" not in u]
+    parts = [("sitemap-pages.xml", page_urls)] + [(f"sitemap-products-{i // 20000 + 1}.xml", prod_urls[i:i + 20000])
+                                                  for i in range(0, len(prod_urls), 20000)]
+    for fn, lst in parts:
+        (DIST / fn).write_text(head + "".join(f"<url><loc>{u}</loc><lastmod>{lastmod.get(u, today)}</lastmod></url>\n" for u in lst) + "</urlset>\n")
+    (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                      + "".join(f"<sitemap><loc>{SITE_URL}/{fn}</loc><lastmod>{today}</lastmod></sitemap>\n" for fn, _ in parts)
+                                      + "</sitemapindex>\n")
+    # আজকের দাম কমা (Telegram পোস্টের জন্য, tools/telegram_post.py)
+    (DIST / "drops.json").write_text(json.dumps([
+        {"name": d_["name"], "old": d_["old"], "new": d_["best"]["price"], "store": stores[d_["best"]["store"]]["name"],
+         "url": f"{SITE_URL}/p/{d_['id']}/", "stores": d_["live_count"]} for d_ in drops_top], ensure_ascii=False))
     (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nDisallow: {BASE}/search/\nSitemap: {SITE_URL}/sitemap.xml\n")
     (DIST / ".nojekyll").write_text("")
     print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")

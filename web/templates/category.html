@@ -3,28 +3,68 @@
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › {{ cat.name_bn }}</nav>
   <section class="card chead">
-    <h1>বাংলাদেশে {{ cat.name_bn }} দাম</h1>
-    <p class="muted" style="margin:0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট, {{ store_count|bn }}টি স্টোরের দাম মিলিয়ে। সবচেয়ে কম দাম প্রথমে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %}</p>
-    {% if brands|length > 1 %}
-    <div class="chips" style="margin-top:12px" id="chips">
-      <button class="chip" aria-pressed="true" data-f="">সব</button>
-      {% for b in brands %}<button class="chip" aria-pressed="false" data-f="{{ b }}">{{ b }}</button>{% endfor %}
-    </div>
-    {% endif %}
+    <h1 class="ihd"><span class="cic">{{ cicon(cat.slug) }}</span>বাংলাদেশে {{ cat.name_bn }} দাম</h1>
+    <p class="muted" style="margin:0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট, {{ store_count|bn }}টি স্টোরের দাম মিলিয়ে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %}</p>
     {% if size_links.get(cat.slug) %}{% set sl = size_links[cat.slug] %}
     <a class="sizecta" href="{{ base }}/size/{{ sl[0] }}/"><b>{{ sl[2] }} অনুযায়ী ব্র্যান্ড তুলনা</b><span>কোন সাইজে কোন ব্র্যান্ডের {{ sl[1] }} কত টাকা, এক পাতায় ›</span></a>
     {% endif %}
-    <div class="ctrl">
-      <label><input type="checkbox" id="multi"> শুধু একাধিক স্টোরে আছে</label>
-      <label><input type="checkbox" id="stock"> শুধু স্টকে আছে</label>
+    {% if budget_links.get(cat.slug) %}
+    <div class="budl"><span>বাজেট অনুযায়ী সেরা:</span>{% for a, sl in budget_links[cat.slug] %}<a href="{{ base }}/best/{{ sl }}/">{{ a | taka }}</a>{% endfor %}</div>
+    {% endif %}
+    <div class="ftool">
+      <label class="fsort"><span>সাজান</span>
+        <select id="fsort" aria-label="সাজান">
+          <option value="">কম দাম আগে</option>
+          <option value="price_desc">বেশি দাম আগে</option>
+          <option value="stores">বেশি স্টোরে আছে আগে</option>
+          <option value="saving">দামের পার্থক্য বেশি আগে</option>
+          {% for d in fdefs %}<option value="f_{{ d.id }}_desc">{{ d.name }}: বড় আগে</option><option value="f_{{ d.id }}_asc">{{ d.name }}: ছোট আগে</option>{% endfor %}
+        </select>
+      </label>
+      <button type="button" class="fbtn" id="fopen" aria-controls="fpanel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>ফিল্টার<span class="fcount" id="fcount" hidden></span>
+      </button>
     </div>
+    <div class="fapplied" id="fapplied" hidden></div>
   </section>
 
+  <div class="cbody">
+  <aside class="fpanel" id="fpanel" aria-label="ফিল্টার">
+    <div class="fhead"><b>ফিল্টার</b><button type="button" class="fx" id="fclose" aria-label="বন্ধ করুন">✕</button></div>
+    <div class="fscroll">
+      <div class="fgrp">
+        <h3>দাম</h3>
+        {% if presets %}<div class="fpre">{% for lo, hi in presets %}<button type="button" class="fchip" data-pmin="{{ lo or '' }}" data-pmax="{{ hi or '' }}">{% if not lo %}{{ hi|taka }} পর্যন্ত{% elif not hi %}{{ lo|taka }}+{% else %}{{ lo|taka }}–{{ hi|taka }}{% endif %}</button>{% endfor %}</div>{% endif %}
+        <div class="frange"><input type="number" inputmode="numeric" min="0" id="fmin" placeholder="সর্বনিম্ন ৳" aria-label="সর্বনিম্ন দাম"><span>–</span><input type="number" inputmode="numeric" min="0" id="fmax" placeholder="সর্বোচ্চ ৳" aria-label="সর্বোচ্চ দাম"></div>
+      </div>
+      <div class="fgrp">
+        <label class="fck"><input type="checkbox" id="fstock"> শুধু স্টকে আছে</label>
+        <label class="fck"><input type="checkbox" id="fmulti"> শুধু একাধিক স্টোরে আছে</label>
+      </div>
+      {% for d in fdefs %}
+      <div class="fgrp" data-facet="{{ d.id }}">
+        <h3>{{ d.name }}</h3>
+        <div class="fopts{% if d.opts|length > 8 %} long{% endif %}">{% for v, c in d.opts %}<label class="fck"><input type="checkbox" data-fid="{{ d.id }}" value="{{ v }}"> <span>{{ v }}</span><small data-c="{{ c }}">{{ c|bn }}</small></label>{% endfor %}</div>
+        {% if d.opts|length > 8 %}<button type="button" class="fmore">সব দেখুন ({{ d.opts|length|bn }})</button>{% endif %}
+      </div>
+      {% endfor %}
+      {% if all_brands|length > 1 %}
+      <div class="fgrp" data-facet="brand">
+        <h3>ব্র্যান্ড</h3>
+        <div class="fopts{% if all_brands|length > 8 %} long{% endif %}">{% for b, c in all_brands %}<label class="fck"><input type="checkbox" data-fid="brand" value="{{ b }}"> <span>{{ b }}</span><small>{{ c|bn }}</small></label>{% endfor %}</div>
+        {% if all_brands|length > 8 %}<button type="button" class="fmore">সব দেখুন ({{ all_brands|length|bn }})</button>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+    <div class="ffoot"><button type="button" class="freset" id="freset">সব মুছুন</button><button type="button" class="btn fgo" id="fgo">ফল দেখুন</button></div>
+  </aside>
+
   <section class="card plwrap">
+    <p class="fstat" id="fstat" hidden></p>
     <div class="rows plist" id="list">
     {% for it in items %}
-      <a class="row wi" href="{{ base }}/p/{{ it.id }}/" data-f="{{ it.brand }}" data-multi="{{ 1 if it.store_count > 1 else 0 }}" data-stock="{{ 1 if it.best else 0 }}">
-        <span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+      <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
+        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div>
           <div class="w">{% if it.best %}{{ stores[it.best.store].name }}{% else %}এখন স্টকে নেই{% endif %}{% if it.store_count > 1 %}<span class="badge">{{ it.store_count|bn }} স্টোর</span>{% endif %}</div></div>
         <div><div class="p">{% if it.best %}{{ it.best.price | taka }}{% elif it.any_price %}<span class="muted">{{ it.any_price | taka }}</span>{% else %}—{% endif %}</div>{% if it.saving %}<div class="d lo">{{ it.saving | taka }} পার্থক্য</div>{% endif %}</div>
@@ -32,11 +72,13 @@
       {% if loop.index == 12 and not loop.last %}{{ slot("category", cat.slug, cat.slug ~ page) }}{% endif %}
     {% endfor %}
     </div>
-    <p class="muted" id="empty" hidden style="margin:8px 0 0;font-size:.9rem">এই পাতায় এমন কিছু নেই। ফিল্টার বদলে বা পরের পাতায় দেখুন।</p>
+    <p class="muted" id="empty" hidden style="margin:8px 0 0;font-size:.9rem">এই ফিল্টারে কিছু পাওয়া যায়নি। কিছু ফিল্টার সরিয়ে দেখুন।</p>
+    <button type="button" class="fload" id="fload" hidden>আরও দেখুন</button>
   </section>
+  </div>
 
   {% if pages > 1 %}
-  <nav class="pager" aria-label="পাতা">
+  <nav class="pager" id="pager" aria-label="পাতা">
     {% for n in range(1, pages + 1) %}
       {% if n == page %}<span>{{ n|bn }}</span>
       {% elif n <= 3 or n > pages - 2 or (n - page)|abs <= 1 %}<a href="{{ base }}/c/{{ cat.slug }}/{% if n > 1 %}{{ n }}/{% endif %}">{{ n|bn }}</a>
@@ -44,24 +86,9 @@
     {% endfor %}
   </nav>
   {% endif %}
+  <template id="cicon">{{ cicon(cat.slug) }}</template>
 {% endblock %}
 {% block after %}
-<script>
-(function(){
-  var f="", rows=[].slice.call(document.querySelectorAll('#list .row'));
-  function draw(){
-    var m=document.getElementById('multi').checked, s=document.getElementById('stock').checked, n=0;
-    rows.forEach(function(r){
-      var ok=(!f||r.dataset.f===f)&&(!m||r.dataset.multi==='1')&&(!s||r.dataset.stock==='1');
-      r.hidden=!ok; if(ok)n++;
-    });
-    document.getElementById('empty').hidden=n>0;
-  }
-  var chips=document.getElementById('chips');
-  if(chips)chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;f=b.dataset.f;
-    [].forEach.call(chips.children,function(c){c.setAttribute('aria-pressed',c===b)});draw();});
-  document.getElementById('multi').addEventListener('change',draw);
-  document.getElementById('stock').addEventListener('change',draw);
-})();
-</script>
+<script>window.DT_CAT={slug:"{{ cat.slug }}",total:{{ total }}};</script>
+<script src="{{ base }}/static/filters.js?v={{ build_id }}" defer></script>
 {% endblock %}

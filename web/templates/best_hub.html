@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › বাজেট অনুযায়ী সেরা</nav>
+  <section class="card">
+    <h1>বাজেট অনুযায়ী সেরা</h1>
+    <p class="muted" style="margin:0;font-size:.92rem">আপনার বাজেট বাছুন, সেই দামের মধ্যে আজ স্টকে থাকা বাছাই করা মডেল আর দোকানভেদে দাম দেখুন। {{ month }}-এর দাম অনুযায়ী, প্রতিদিন হালনাগাদ।</p>
+  </section>
+  <div class="bhub">
+  {% for h in hub %}
+    <section class="card">
+      <h2 class="ihd" style="font-size:1rem"><span class="cic">{{ cicon(h.cat.slug) }}</span>{{ h.cat.name_bn }}</h2>
+      <div class="chips szr" style="flex-wrap:wrap">{% for a, sl in h.links %}<a class="chip" href="{{ base }}/best/{{ sl }}/">{{ a | taka }}-এর মধ্যে</a>{% endfor %}</div>
+    </section>
+  {% endfor %}
+  </div>
+{% endblock %}

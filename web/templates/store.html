@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/store/">স্টোর</a> › {{ s.name }}</nav>
+  <section class="card">
+    <div class="bhead">
+      <span class="av{% if s.logo %} logo{% endif %}{% if s.dark %} dark{% endif %} slogo">{% if s.logo %}<img src="{{ base }}/static/{{ s.logo }}" alt="{{ s.name }}">{% else %}{{ s.name[:2] }}{% endif %}</span>
+      <div><h1>{{ s.name }}</h1>{% if s.home %}<a class="muted" href="{{ s.home }}" target="_blank" rel="nofollow noopener" style="font-size:.85rem;text-decoration:underline">{{ s.home | replace("https://", "") | replace("www.", "") }} ›</a>{% endif %}</div>
+    </div>
+    <div class="astats bst">
+      <div class="astat"><b>{{ s.st.live|bn }}</b><span>প্রোডাক্ট স্টকে</span></div>
+      {% if s.st.listed != s.st.live %}<div class="astat"><b>{{ s.st.listed|bn }}</b><span>মোট তালিকায়</span></div>{% endif %}
+      {% if s.st.share is not none %}<div class="astat"><b>{{ s.st.share|bn }}%</b><span>তুলনায় সবচেয়ে কম দাম</span></div>
+      <div class="astat"><b>{{ s.st.wins|bn }}</b><span>প্রোডাক্টে সবচেয়ে সস্তা</span></div>{% endif %}
+    </div>
+    {% if s.st.share is not none %}<p class="muted" style="font-size:.8rem;margin:8px 0 0">যেসব প্রোডাক্ট একাধিক দোকানে স্টকে আছে ({{ s.st.contested|bn }}টি), তার {{ s.st.wins|bn }}টিতে আজ {{ s.name }}-এর দাম সবচেয়ে কম।</p>{% endif %}
+  </section>
+
+  {% set i = s.info %}
+  {% if i.hotline or i.address or i.branches or i.delivery or i.emi or i.returns or i.links %}
+  <section class="card">
+    <h2>যোগাযোগ ও কেনার নিয়ম</h2>
+    <dl class="kf">
+      {% if i.hotline %}<div><dt>হটলাইন</dt><dd>{{ i.hotline }}</dd></div>{% endif %}
+      {% if i.address %}<div><dt>ঠিকানা</dt><dd>{{ i.address }}</dd></div>{% endif %}
+      {% if i.branches %}<div><dt>শাখা</dt><dd>{{ i.branches }}</dd></div>{% endif %}
+      {% if i.delivery %}<div><dt>ডেলিভারি</dt><dd>{{ i.delivery }}</dd></div>{% endif %}
+      {% if i.emi %}<div><dt>EMI / কিস্তি</dt><dd>{{ i.emi }}</dd></div>{% endif %}
+      {% if i.returns %}<div><dt>রিটার্ন</dt><dd>{{ i.returns }}</dd></div>{% endif %}
+    </dl>
+    {% if i.links %}<div class="blinks">{% for lab, u in i.links.items() %}<a href="{{ u }}" target="_blank" rel="nofollow noopener">{{ lab }} ›</a>{% endfor %}</div>{% endif %}
+    <p class="muted" style="font-size:.76rem;margin:10px 0 0">তথ্য {{ s.name }}-এর ওয়েবসাইট থেকে নেওয়া{% if i.source %} (<a href="{{ i.source }}" target="_blank" rel="nofollow noopener" style="text-decoration:underline">সূত্র</a>){% endif %}। নীতি বদলাতে পারে, কেনার আগে স্টোরে নিশ্চিত হয়ে নিন।</p>
+  </section>
+  {% else %}
+  <section class="card"><p class="muted" style="margin:0;font-size:.9rem">{{ s.name }}-এর যোগাযোগ ও ডেলিভারির তথ্য এখনো যোগ হয়নি। বিস্তারিত জানতে <a href="{{ s.home }}" target="_blank" rel="nofollow noopener" style="text-decoration:underline">স্টোরের ওয়েবসাইট</a> দেখুন।</p></section>
+  {% endif %}
+
+  {% if s.strong %}
+  <section class="card">
+    <h2>যেসব ক্যাটাগরিতে প্রায়ই সবচেয়ে সস্তা</h2>
+    <div class="rows">{% for c, w, n in s.strong %}<a class="row" href="{{ base }}/c/{{ c.slug }}/"><div style="min-width:0"><div class="n">{{ c.name_bn }}</div><div class="w">একাধিক দোকানে থাকা {{ n|bn }}টির {{ w|bn }}টিতে সবচেয়ে কম দাম</div></div><div class="p">{{ (100 * w / n)|round|int|bn }}%</div></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
+  {% if s.top %}
+  <section class="card">
+    <h2>{{ s.name }}-এ যা বেশি পাওয়া যায়</h2>
+    <div class="azlist">{% for c, n in s.top %}<a href="{{ base }}/c/{{ c.slug }}/">{{ cicon(c.slug) }}{{ c.name_bn }} <small>{{ n|bn }}</small></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+{% endblock %}

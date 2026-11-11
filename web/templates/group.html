@@ -3,13 +3,14 @@
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › {{ group.name_bn }}</nav>
   <section class="card">
-    <h1>{{ group.name_bn }}</h1>
+    <h1 class="ihd"><span class="cic">{{ cicon(group.slug, True) }}</span>{{ group.name_bn }}</h1>
     <p class="muted" style="margin:0;font-size:.9rem">{{ leaves|length|bn }}টি ক্যাটাগরিতে {{ total|bn }}টি প্রোডাক্টের দাম।</p>
   </section>
 
+  {% if group.slug == "computer-parts" %}<a class="card pccta" href="{{ base }}/pc-builder/"><span class="cic">{{ cicon("computer-parts", True) }}</span><span><b>পিসি বিল্ডার</b><span>পার্টস বাছুন, সব দোকানের দাম মিলিয়ে মোট খরচ দেখুন</span></span><span class="pccta-go">শুরু করুন ›</span></a>{% endif %}
   <div class="cats">
   {% for c in leaves %}
-    <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><b>{{ c.name_bn }}</b><span>{{ c.count|bn }}টি প্রোডাক্ট</span>{% if c.min %}<span>শুরু {{ c.min | taka }} থেকে</span>{% endif %}{% if c.multi %}<small>{{ c.multi|bn }}টির দাম একাধিক স্টোরে</small>{% endif %}</a>
+    <a class="cat" href="{{ base }}/c/{{ c.slug }}/"><span class="cic">{{ cicon(c.slug) }}</span><b>{{ c.name_bn }}</b><span>{{ c.count|bn }}টি প্রোডাক্ট</span>{% if c.min %}<span>শুরু {{ c.min | taka }} থেকে</span>{% endif %}{% if c.multi %}<small>{{ c.multi|bn }}টির দাম একাধিক স্টোরে</small>{% endif %}</a>
   {% endfor %}
   </div>
 
@@ -21,7 +22,7 @@
     <div class="rows">
     {% for it in deals %}
       <a class="row wi" href="{{ base }}/p/{{ it.id }}/">
-        <span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+        <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
         <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">{{ it.saving | taka }} সাশ্রয়</div></div>
       </a>
