@@ -241,6 +241,10 @@
               '<div class="agrid">' + fld("name", "নাম", s.name) + fld("short", "সংক্ষিপ্ত নাম (লোগো না থাকলে)", s.short, "text", "", ' maxlength="3"') + "</div>" +
               fld("delay", "দুই পাতার মাঝে অপেক্ষা (সেকেন্ড)", s.delay, "number", "স্টোরের robots.txt যা বলে তার কম দেবেন না, নইলে স্টোর ব্লক করতে পারে।", ' min="1" max="60"') +
               tog("logo_dark", "লোগোর পেছনে কালো রঙ (সাদা লোগোর জন্য)", !!s.logo_dark) +
+              '<div class="af"><label>এই স্টোরের মোবাইল/ট্যাবলেট সাধারণত</label><select data-k="phone_type">' +
+                [["", "জানা নেই (লেবেল দেখাবে না)"], ["official", "অফিসিয়াল"], ["unofficial", "আনঅফিসিয়াল"]].map(function (o) {
+                  return '<option value="' + o[0] + '"' + ((s.phone_type || "") === o[0] ? " selected" : "") + ">" + o[1] + "</option>"; }).join("") +
+                "</select><small>প্রোডাক্টের নামে Official/Unofficial লেখা থাকলে সেটাই আগে ধরা হয়; না থাকলে এই সেটিং।</small></div>" +
               '<div class="af"><span class="lbl">লোগো বদলান</span><input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" data-logo="' + id + '"><small>চওড়া লোগো ভালো (যেমন ৩০০×১০০), ২০০KB-এর কম।</small></div>' +
               (hx.errors && hx.errors.length ? '<div class="anote warn" style="font-size:.78rem">' + hx.errors.map(esc).join("<br>") + "</div>" : "") +
               "</section>";
@@ -664,8 +668,24 @@
         "<div><dt>অবস্থা</dt><dd>" + (S.user ? "✅ " + esc(S.user) + " হিসেবে সংযুক্ত" : '<span class="ro-badge">সংযুক্ত নয়</span>') + "</dd></div>" +
         "<div><dt>শেষ ডাটা</dt><dd>" + esc(S.admin.updated) + "</dd></div>" +
       "</dl></section>" +
+      '<section class="card" id="leadcard"><h2>"দাম কমলে জানান" লিড</h2><p class="muted" style="margin:0 0 8px;font-size:.85rem">ক্রেতার নাম, নম্বর আর প্রোডাক্ট কোথায় জমা হবে। ঠিকানা ফাঁকা থাকলে লিড আপনার WhatsApp নম্বরে মেসেজ হয়ে আসে।</p>' +
+        '<div class="af"><label>Google Sheet-এর Apps Script ঠিকানা</label><input type="url" id="leadurl" placeholder="https://script.google.com/macros/s/…/exec"><small>নিচের ধাপ মেনে একবার সেট করলেই হবে।</small></div>' +
+        '<details><summary>Google Sheet কীভাবে যুক্ত করবেন (৫ মিনিট)</summary><div class="anote"><ol>' +
+        '<li>Google Drive-এ একটা নতুন Google Sheet খুলুন (নাম: দামতুলনা লিড)। প্রথম সারিতে লিখুন: সময়, নাম, মোবাইল, প্রোডাক্ট, লিংক, এখনকার দাম, টার্গেট দাম, স্টোর, ক্যাটাগরি, অবস্থা।</li>' +
+        '<li>উপরের মেনু থেকে <b>Extensions → Apps Script</b> খুলুন। যা লেখা আছে মুছে নিচের কোডটা পেস্ট করুন, তারপর সেভ (💾) চাপুন।</li>' +
+        '<li><b>Deploy → New deployment</b> → টাইপ <b>Web app</b> বাছুন → Execute as: <b>Me</b>, Who has access: <b>Anyone</b> → Deploy। Google অনুমতি চাইলে নিজের অ্যাকাউন্ট দিয়ে Allow দিন।</li>' +
+        '<li>যে <b>Web app URL</b> আসবে (…/exec দিয়ে শেষ) সেটা কপি করে উপরের ঘরে পেস্ট করুন, তারপর <b>সেভ করুন</b>।</li></ol>' +
+        '<pre class="acode">function doPost(e) {\n  var s = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];\n  var d = JSON.parse(e.postData.contents);\n  s.appendRow([new Date(), d.name, "\'" + d.phone, d.product, d.url, d.price, d.target, d.store, d.category, "নতুন"]);\n  return ContentService.createTextOutput("ok");\n}</pre></div></details></section>' +
       '<section class="card"><h2>পরিবর্তন কখন সাইটে আসে</h2><p style="margin:0;font-size:.88rem;line-height:1.6">স্টোরের নাম/লোগো, বিজ্ঞাপন, স্পন্সর, ক্যাটাগরি, প্রোডাক্ট লুকানো বা মিলানো সেভ করলে ২-৩ মিনিটে সাইট আপডেট হয়। স্টোর চালু/বন্ধ বা অপেক্ষার সময় পরের দামের রান থেকে কার্যকর হয় (প্রতি রাতে ২:১৭, অথবা ড্যাশবোর্ড থেকে এখনই চালান)।</p></section>';
-    return Promise.resolve();
+    return getJSON("config/leads.json").catch(function () { return { endpoint: "" }; }).then(function (lc) {
+      var cfg = clone(lc), inp = $("#leadurl");
+      inp.value = cfg.endpoint || "";
+      inp.addEventListener("input", function () { cfg.endpoint = inp.value.trim(); markDirty("settings"); });
+      savers.settings = function () {
+        if (cfg.endpoint && !/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(cfg.endpoint)) return Promise.reject(new Error("ঠিকানাটা https://script.google.com/macros/s/…/exec ধরনের হতে হবে"));
+        return putJSON("config/leads.json", cfg, "লিড ফর্মের ঠিকানা");
+      };
+    });
   };
 
   window.addEventListener("hashchange", function () { var t = location.hash.slice(1); if (VIEWS[t] && t !== S.tab && S.admin) show(t); });

@@ -225,8 +225,10 @@ CATS = {
     "portable-ssd": [CAP], "hdd": [CAP], "portable-hdd": [CAP], "pen-drive": [CAP], "memory-card": [CAP],
     "graphics-card": [("gpu", "চিপসেট", gpu), ("vram", "মেমোরি", capacity)],
     "processor": [("brand", "ব্র্যান্ড", cpu_brand), ("fam", "সিরিজ", cpu_family), ("gen", "জেনারেশন", cpu_gen)],
-    "smartphone": [("net", "নেটওয়ার্ক", five_g)],
-    "tablet": [("ram", "RAM", phone_ram), ("rom", "স্টোরেজ", phone_storage)],
+    # "pt" (অফিসিয়াল/আনঅফিসিয়াল) build.py বসায় স্টোরের তথ্য থেকে, এখানে শুধু নাম
+    "smartphone": [("pt", "ধরন", lambda t, s: None), ("net", "নেটওয়ার্ক", five_g)],
+    "tablet": [("pt", "ধরন", lambda t, s: None), ("ram", "RAM", phone_ram), ("rom", "স্টোরেজ", phone_storage)],
+    "feature-phone": [("pt", "ধরন", lambda t, s: None)],
     "laptop": [("cpu", "প্রসেসর", cpu_family), ("ram", "RAM", laptop_ram), ("ssd", "SSD", laptop_ssd), SIZE_LAP],
     "gaming-laptop": [("gpu", "গ্রাফিক্স", gpu), ("cpu", "প্রসেসর", cpu_family), ("ram", "RAM", laptop_ram), SIZE_LAP],
     "ultrabook": [("cpu", "প্রসেসর", cpu_family), ("ram", "RAM", laptop_ram), ("ssd", "SSD", laptop_ssd), SIZE_LAP],

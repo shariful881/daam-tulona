@@ -352,6 +352,44 @@ dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap
 #hr1:checked~.hsv1,#hr2:checked~.hsv2,#hr3:checked~.hsv3{display:block}
 .save.hi30{color:var(--warn);background:var(--warn-soft)}
 
+/* দাম কমলে জানান */
+.alertbtn{margin-top:8px;width:100%;min-height:44px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;font:600 .92rem var(--body);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.alertbtn svg{width:18px;height:18px;color:var(--accent)}
+.alertbtn.on{border-color:var(--best);color:var(--best)}
+.alertbtn[aria-expanded="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.alertbox{margin-top:10px;padding:14px;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.alertbox form{display:grid;gap:10px}
+.alertbox label{display:grid;gap:4px;font-size:.84rem;font-weight:600}
+.alertbox label small{font-weight:400;color:var(--muted)}
+.alertbox input:not([type=checkbox]){border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:.95rem;background:var(--surface);color:var(--ink);min-height:44px}
+.alertbox .alok{display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:.8rem;line-height:1.45}
+.alertbox .alok input{width:18px;height:18px;margin-top:1px;accent-color:var(--best);flex:0 0 auto}
+.alertbox .btn{justify-content:center;border:0;cursor:pointer;font-family:var(--body)}
+.alnote{margin:0;font-size:.82rem;color:var(--muted)}
+.almsg{margin:0;font-size:.86rem}
+.almsg:empty{display:none}
+.almsg.err{color:var(--warn);margin-top:8px}
+.almsg.ok{color:var(--best);font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+
+/* স্টোর পরিচিতি */
+.sabout{margin:10px 0 0;font-size:.78rem;color:var(--muted);line-height:1.6}
+.sabout a{text-decoration:underline;color:var(--ink)}
+.av.slogo{width:96px;height:52px;flex:0 0 auto;border-radius:12px}
+.av.slogo img{max-height:38px}
+.shub{display:grid;gap:12px}
+.scard{display:flex;gap:14px;align-items:center}
+.sbody{display:grid;gap:2px;min-width:0}
+.sbody b{font-size:1.02rem}
+.sbody span{font-size:.8rem;color:var(--muted)}
+.azlist a .ci{width:16px;height:16px}
+@media (min-width:1024px){.shub{grid-template-columns:repeat(2,minmax(0,1fr))}.scard:hover{border-color:var(--accent)}}
+
+/* ফোনের অফিসিয়াল / আনঅফিসিয়াল */
+.ptl{display:inline-block;margin-left:6px;font-size:.66rem;font-weight:700;border-radius:6px;padding:0 6px;vertical-align:2px}
+.ptl.official{background:var(--best-soft);color:var(--best)}
+.ptl.unofficial{background:var(--warn-soft);color:var(--warn)}
+
 /* সন্দেহজনক দাম */
 .stt.chk{color:var(--warn);font-weight:600}
 .chknote{margin:10px 0 0;padding:9px 12px;border-radius:10px;background:var(--warn-soft);font-size:.8rem;line-height:1.5;color:var(--ink)}
@@ -591,4 +629,9 @@ main.col>.foot,main.col>.footnav{order:99}
   .bhub{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
   .bteaser{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 24px}
   .hlinks a{padding:8px 11px}
+}
+
+@media (min-width:1024px){
+  .phead .alertbtn{width:auto;padding:0 18px;margin-left:8px}
+  .phead .alertbox{max-width:520px}
 }

@@ -82,6 +82,19 @@ def suspect_stores(live: list) -> set:
     return {s for s, o in live if o["price"] * SUSPECT_RATIO < med or o["price"] > med * SUSPECT_RATIO}
 
 
+PHONE_CATS = {"smartphone", "tablet", "feature-phone"}
+
+
+def phone_type(offer_name, store_conf):
+    """মোবাইল/ট্যাবলেটের অফিসিয়াল-আনঅফিসিয়াল: নামে লেখা থাকলে সেটা, না হলে স্টোরের ডিফল্ট (অ্যাডমিন থেকে)।"""
+    n = (offer_name or "").lower()
+    if re.search(r"\bunofficial\b|\bglobal (?:version|variant)\b|\b(?:cn|china|indian?|uk|us|usa|hk|japan|jp) (?:version|variant)\b", n):
+        return "unofficial"
+    if re.search(r"\bofficial\b", n):
+        return "official"
+    return store_conf.get("phone_type") or None
+
+
 def nice_round(x):
     """দামের রেঞ্জের জন্য গোল সংখ্যা: ১২,৩৪০ → ১২,০০০ / ১,৮৭০ → ২,০০০"""
     if x <= 0:
@@ -608,6 +621,36 @@ def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_UR
     return hub, links
 
 
+def build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL):
+    """/store/<id>/: স্টোরের তথ্য (config/store_info.json) + আমাদের ডাটা থেকে কোথায় সস্তা।"""
+    f = ROOT / "config/store_info.json"
+    info = json.loads(f.read_text()).get("stores", {}) if f.exists() else {}
+    cards = []
+    for s_ in enabled:
+        listed = [pid for pid in items if offers.get(pid, {}).get(s_, {}).get("price")]
+        live = [pid for pid in listed if offers[pid][s_].get("in_stock")]
+        contested = [pid for pid in live if items[pid]["live_count"] > 1 and items[pid]["best"]]
+        wins = [pid for pid in contested if items[pid]["best"]["store"] == s_]
+        cat_tot, cat_win = Counter(items[p]["category"] for p in contested), Counter(items[p]["category"] for p in wins)
+        strong = sorted(((c, cat_win[c], n) for c, n in cat_tot.items() if n >= 8 and cat_win[c] / n >= 0.4),
+                        key=lambda x: -x[1] / x[2])[:8]
+        top_cats = Counter(items[p]["category"] for p in live).most_common(10)
+        st = {"listed": len(listed), "live": len(live), "contested": len(contested), "wins": len(wins),
+              "share": round(100 * len(wins) / len(contested)) if contested else None}
+        card = {"id": s_, "name": stores[s_]["name"], "logo": stores[s_].get("logo"), "dark": stores[s_].get("logo_dark"),
+                "home": stores[s_].get("home"), "info": info.get(s_, {}), "st": st,
+                "strong": [(leaves[c], w, n) for c, w, n in strong if c in leaves],
+                "top": [(leaves[c], n) for c, n in top_cats if c in leaves]}
+        cards.append(card)
+        write(f"store/{s_}", "store.html", s=card, title=f"{card['name']}: ঠিকানা, হটলাইন, ডেলিভারি, EMI ও দাম | দামতুলনা",
+              description=f"{card['name']}-এর হটলাইন, শোরুম, ডেলিভারি ও EMI তথ্য, আর কোন কোন প্রোডাক্টে {card['name']}-এ দাম সবচেয়ে কম।",
+              crumbs=crumbs_ld(("হোম", ""), ("স্টোর", "store/"), (card["name"], f"store/{s_}/")),
+              canonical=f"{SITE_URL}/store/{s_}/" if SITE_URL else None)
+    write("store", "stores.html", cards=cards, title="বাংলাদেশের কম্পিউটার ও ইলেকট্রনিক্স দোকান | দামতুলনা",
+          description="দামতুলনায় যেসব দোকানের দাম মেলানো হয়: হটলাইন, শোরুম, ডেলিভারি, EMI আর কোথায় কী সস্তা।",
+          crumbs=crumbs_ld(("হোম", ""), ("স্টোর", "store/")), canonical=f"{SITE_URL}/store/" if SITE_URL else None)
+
+
 def load_details():
     out = {}
     base = DATA / "details"
@@ -764,6 +807,14 @@ def main():
             it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
             it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
 
+    for pid, it in items.items():  # ফোনে অফিসিয়াল/আনঅফিসিয়াল ফিল্টার
+        if it["category"] in PHONE_CATS:
+            types = {phone_type(o.get("name"), stores[s_]) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price")}
+            if "official" in types:
+                it["fx"]["pt"] = ["অফিসিয়াল পাওয়া যায়", 1]
+            elif "unofficial" in types:
+                it["fx"]["pt"] = ["শুধু আনঅফিসিয়াল", 2]
+
     for it in items.values():  # ব্র্যান্ডের প্রদর্শনী নাম (সব বানান গোনা হয়ে গেলে)
         it["brand"] = BR.display(it["bslug"]) if it["bslug"] else ""
     common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
@@ -772,7 +823,7 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js"):
+    for f in ("style.css", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "alert.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
     for d in ("logos", "sponsors", "brands"):
         if (ROOT / "web/static" / d).exists():
@@ -802,6 +853,9 @@ def main():
 
     # SEO: শেয়ার-ছবি (ফেসবুকে লিংকের সাথে ছবি) আর ব্রেডক্রাম্ব স্কিমা
     common["og_default"] = f"{SITE_URL or BASE}/static/share.jpg"
+    _lf = ROOT / "config/leads.json"
+    common["lead_cfg"] = {"endpoint": (json.loads(_lf.read_text()).get("endpoint") or "") if _lf.exists() else "",
+                          "wa": (ads.get("contact") or {}).get("whatsapp") or (ads.get("contact") or {}).get("phone") or ""}
 
     def crumbs_ld(*pairs):
         """[(নাম, path)] থেকে BreadcrumbList JSON-LD (Google ফলাফলে পথ দেখায়)।"""
@@ -828,7 +882,8 @@ def main():
                      else f"{bn_num(age)} দিন আগে যাচাই করা")
             if s in it["sus"]:
                 label, cls = "দাম যাচাই চলছে", "chk"
-            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2),
+            ptype = phone_type(o.get("name"), stores[s]) if o and it["category"] in PHONE_CATS else None
+            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2), "ptype": ptype,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),
                          "featured": bool(o and o.get("in_stock") and stores[s].get("featured"))})
         # স্পন্সরড স্টোর (স্টকে থাকলে) উপরে, "স্পন্সরড" লেখাসহ; বাকিরা দাম অনুযায়ী
@@ -905,6 +960,7 @@ def main():
         urls.append(f"{SITE_URL}/p/{pid}/")
 
     budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
+    build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
     common["budget_links"] = budget_links
 
     # ক্যাটাগরি পেজ (পাতায় ভাগ করা)

@@ -84,3 +84,5 @@ body.adm-dirty main.col{padding-bottom:90px}
 .apc{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding:4px 0;font-size:.84rem}
 .apc.sus>span:first-child{color:var(--warn)}
 .apc .abtn{margin-left:4px}
+
+.acode{white-space:pre;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px;font:600 .74rem var(--mono);margin:8px 0 0}

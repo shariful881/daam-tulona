@@ -40,6 +40,21 @@
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
     <p class="cmpmsg muted" hidden></p>
+    {% if lead_cfg.endpoint or lead_cfg.wa %}
+    <button type="button" class="alertbtn" id="alertbtn" aria-expanded="false" aria-controls="alertbox"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>দাম কমলে জানান</button>
+    <div class="alertbox" id="alertbox" hidden>
+      <form novalidate>
+        <p class="alnote">দাম কমলে আমরা আপনাকে কল, SMS বা WhatsApp-এ জানাব। কোনো টাকা লাগে না।</p>
+        <label>আপনার নাম<input name="name" autocomplete="name" required></label>
+        <label>মোবাইল নম্বর<input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="01XXXXXXXXX" required></label>
+        <label>কত টাকায় নামলে জানাব? <small>(ইচ্ছা হলে)</small><input name="target" inputmode="numeric" placeholder="{% if best %}যেমন {{ ((best.price * 0.95) // 100 * 100)|int }}{% endif %}"></label>
+        <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+        <label class="alok"><input type="checkbox" name="ok"> এই নম্বরে দাম কমার খবর জানাতে সম্মতি দিচ্ছি</label>
+        <button type="submit" class="btn">জানাতে বলুন</button>
+      </form>
+      <p class="almsg" role="status"></p>
+    </div>
+    {% endif %}
   </section>
 
 
@@ -110,13 +125,14 @@
       {% if row.offer %}
       <a class="st{% if row.is_best %} best{% endif %}{% if row.featured %} feat{% endif %}" href="{{ go_url(row.store, row.offer.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[row.store].name }}"{% if row.fresh %} data-seen="{{ row.fresh }}"{% endif %}>
         <span class="av{% if stores[row.store].logo %} logo{% endif %}{% if stores[row.store].logo_dark %} dark{% endif %}">{% if stores[row.store].logo %}<img src="{{ base }}/static/{{ stores[row.store].logo }}" alt="{{ stores[row.store].name }}" loading="lazy">{% else %}{{ stores[row.store].short }}{% endif %}</span>
-        <span><span class="nm">{{ stores[row.store].name }}</span>{% if row.featured %}<span class="spn">স্পন্সরড</span>{% endif %}<br>
+        <span><span class="nm">{{ stores[row.store].name }}</span>{% if row.featured %}<span class="spn">স্পন্সরড</span>{% endif %}{% if row.ptype %}<span class="ptl {{ row.ptype }}">{{ "অফিসিয়াল" if row.ptype == "official" else "আনঅফিসিয়াল" }}</span>{% endif %}<br>
           <span class="stt {{ row.cls }}">{{ row.label }}</span>{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
       {% endif %}
     {% endfor %}
     </div>
+    <p class="sabout">স্টোর সম্পর্কে জানুন (হটলাইন, ডেলিভারি, EMI): {% for row in store_rows if row.offer %}<a href="{{ base }}/store/{{ row.store }}/">{{ stores[row.store].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
     {% if it.sus %}<p class="chknote"><b>দাম যাচাই চলছে:</b> চিহ্নিত দামগুলো অন্য স্টোরের তুলনায় অস্বাভাবিক কম বা বেশি। ভুল প্রোডাক্ট মিলে যাওয়া, বুকিং মূল্য বা টাইপিং ভুল হতে পারে, তাই সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে এগুলো ধরা হয়নি।</p>{% endif %}
     {% set missing = store_rows | rejectattr("offer") | map(attribute="store") | list %}
     {% if missing %}
@@ -150,6 +166,8 @@
   </div>
 {% endblock %}
 {% block after %}
+{% if lead_cfg.endpoint or lead_cfg.wa %}<script>window.DT_LEAD={{ {"id": it.id, "product": p.name, "price": best.price if best else "", "store": stores[best.store].name if best else "", "category": cat.name_bn, "endpoint": lead_cfg.endpoint, "wa": lead_cfg.wa} | tojson }};</script>
+<script src="{{ base }}/static/alert.js?v={{ build_id }}" defer></script>{% endif %}
 {% if gallery %}<script type="application/json" id="galdata">{{ gallery | tojson }}</script><script src="{{ base }}/static/gallery.js?v={{ build_id }}" defer></script>{% endif %}
 {% if best %}
 <div class="buy"><div class="col">
