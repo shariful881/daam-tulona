@@ -1109,6 +1109,10 @@ def main():
     (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + "".join(f"<sitemap><loc>{SITE_URL}/{fn}</loc><lastmod>{today}</lastmod></sitemap>\n" for fn, _ in parts)
                                       + "</sitemapindex>\n")
+    # আজকের দাম কমা (Telegram পোস্টের জন্য, tools/telegram_post.py)
+    (DIST / "drops.json").write_text(json.dumps([
+        {"name": d_["name"], "old": d_["old"], "new": d_["best"]["price"], "store": stores[d_["best"]["store"]]["name"],
+         "url": f"{SITE_URL}/p/{d_['id']}/", "stores": d_["live_count"]} for d_ in drops_top], ensure_ascii=False))
     (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nDisallow: {BASE}/search/\nSitemap: {SITE_URL}/sitemap.xml\n")
     (DIST / ".nojekyll").write_text("")
     print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")
