@@ -151,7 +151,9 @@ def main():
                 | ({"img": o["image"]} if o.get("image") else {})
 
     # আজ যে স্টোর ব্যর্থ হয়েছে, তার আগের দাম রেখে দাও (পুরনো চিহ্নসহ)
-    failed = {s for s, h in raw["health"].items() if h["enabled"] and h["items"] == 0}
+    failed = {s for s, h in raw["health"].items() if h["enabled"] and h["items"] == 0 and not h.get("skipped")}
+    # আজ ইচ্ছা করে চালানো হয়নি (শুধু কিছু স্টোরের রান): আগের দাম হুবহু থাকে, পুরনো চিহ্ন ছাড়া
+    skipped = {s for s, h in raw["health"].items() if h.get("skipped")}
     # কিছু ক্যাটাগরি ব্যর্থ হলে (ব্লক/সার্ভার ভুল) শুধু সেই ক্যাটাগরির আগের দাম রাখো
     part = {s: set(h.get("failed_cats") or []) for s, h in raw["health"].items()}
     for pid, stores in old_offers.items():
@@ -159,6 +161,8 @@ def main():
         for s, o in stores.items():
             if (s in failed or cat in part.get(s, ())) and s not in offers.get(redirect.get(pid, pid), {}):
                 offers[redirect.get(pid, pid)][s] = o | {"stale": True}
+            elif s in skipped and s not in offers.get(redirect.get(pid, pid), {}):
+                offers.setdefault(redirect.get(pid, pid), {})[s] = o
 
     # দামের ইতিহাস: শুধু দাম বা স্টক বদলালে নতুন সারি (ফাইল ছোট রাখতে)
     hist_path = DATA / "history.csv"

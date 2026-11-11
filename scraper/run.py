@@ -5,6 +5,7 @@
 import importlib
 import json
 import os
+import os
 import re
 import sys
 import threading
@@ -31,10 +32,20 @@ def main() -> int:
     today = datetime.now(BD).strftime("%Y-%m-%d")
     out = {"date": today, "scraped_at": datetime.now(BD).isoformat(timespec="minutes"), "offers": [], "health": {}}
 
+    # শুধু কিছু স্টোর চালানো (পরীক্ষা/হাতে চালানো রান): ONLY_STORES=ryans,techland
+    # বাকি স্টোরের আগের দাম যেমন ছিল তেমনই থাকে (matcher 'skipped' দেখে রাখে)
+    only = {x.strip() for x in os.environ.get("ONLY_STORES", "").split(",") if x.strip()}
+    prev_health = {}
+    if only and (ROOT / "data/health.json").exists():
+        prev_health = json.loads((ROOT / "data/health.json").read_text()).get("stores", {})
+
     def run_store(store_id, store, sink):
         """একটা স্টোরের সব ক্যাটাগরি; প্রতিটা স্টোর আলাদা থ্রেডে নিজের গতিতে (ভিন্ন সাইট, তাই একসাথে চালালেও কারও ওপর বাড়তি চাপ নেই)।"""
         health = {"enabled": store["enabled"], "items": 0, "errors": [], "seconds": 0, "failed_cats": []}
         out["health"][store_id] = health
+        if only and store_id not in only:
+            out["health"][store_id] = dict(prev_health.get(store_id) or health, skipped=True)
+            return
         if not store["enabled"]:
             health["errors"].append(store.get("disabled_reason", "বন্ধ"))
             return

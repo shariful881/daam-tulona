@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "17 20 * * *"   # প্রতিদিন বাংলাদেশ সময় রাত ২:১৭
   workflow_dispatch:
+    inputs:
+      stores:
+        description: "শুধু এই স্টোরগুলো (কমা দিয়ে, যেমন ryans,techland); খালি = সব"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -34,6 +39,8 @@ jobs:
 
       - name: স্টোর থেকে দাম তোলা
         if: env.SCRAPE == '1'
+        env:
+          ONLY_STORES: ${{ github.event.inputs.stores }}
         run: python -m scraper.run || echo "কিছু স্টোর ব্যর্থ — আগের ডাটা দিয়ে চলবে"
 
       - name: প্রোডাক্ট মেলানো ও ইতিহাস
