@@ -308,3 +308,9 @@ body.go-on{overflow:hidden}
 .azlist a{min-height:34px;display:inline-flex;align-items:center;gap:5px;padding:0 10px;border:1px solid var(--line);border-radius:999px;font-size:.84rem}
 .azlist small{color:var(--muted);font-size:.7rem}
 .brand a{color:inherit;text-decoration:underline;text-decoration-color:var(--line)}
+/* এক নজরে: মূল ফিচার টেবিল */
+dl.kf{margin:0;display:grid;gap:0}
+dl.kf>div{display:grid;grid-template-columns:minmax(84px,32%) 1fr;gap:10px;padding:7px 0;border-bottom:1px solid var(--line,#e5e7eb)}
+dl.kf>div:last-child{border-bottom:0}
+dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
+dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}

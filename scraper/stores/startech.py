@@ -42,6 +42,8 @@ def parse_page(html: str) -> tuple[list[dict], bool]:
             url=link["href"].split("?")[0],
             price=price, regular=regular, in_stock=in_stock, status=status,
             image=img.get("src") if img else None,
+            # তালিকার কার্ডেই ৪-৫ লাইনের মূল ফিচার থাকে (প্রসেসর, র‍্যাম, ডিসপ্লে…), আলাদা পাতা খুলতে হয় না
+            features=[t for t in (li.get_text(" ", strip=True) for li in card.select(".short-description li")) if t][:8] or None,
         ))
     has_next = any(a.get_text(strip=True).upper() == "NEXT" for a in soup.select("ul.pagination a"))
     return items, has_next

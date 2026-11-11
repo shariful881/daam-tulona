@@ -67,6 +67,21 @@
 
   {{ slot("product", cat.slug, it.id) }}
 
+  {% if feat_rows or feat_extra or warranty %}
+  <section class="card">
+    <h2>এক নজরে</h2>
+    {% if feat_rows %}<dl class="kf">{% for k, v in feat_rows %}<div><dt>{{ k }}</dt><dd>{{ v }}</dd></div>{% endfor %}</dl>{% endif %}
+    {% if feat_extra %}<ul class="feat">{% for f in feat_extra %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+    <dl style="margin-top:8px">
+      {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
+      {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
+      {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
+      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+    </dl>
+    {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
+  </section>
+  {% endif %}
+
   <section class="card">
     <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
     {% if spark %}
@@ -91,19 +106,6 @@
   </section>
   {% endif %}
 
-  {% if det.key_features or warranty %}
-  <section class="card">
-    <h2>এক নজরে</h2>
-    {% if det.key_features %}<ul class="feat">{% for f in det.key_features %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
-    <dl style="margin-top:8px">
-      {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
-      {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
-      {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
-      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
-    </dl>
-    {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
-  </section>
-  {% endif %}
 
   <section class="card">
     {% if spec_sections %}
@@ -119,7 +121,7 @@
         {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
         <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
       </dl>
-      <p class="muted" style="font-size:.8rem">বিস্তারিত স্পেসিফিকেশন শীঘ্রই যোগ হবে।</p>
+      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে মূল ফিচার দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
     </details>
     {% endif %}
     <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>

@@ -24,6 +24,33 @@ BASE = os.environ.get("BASE_URL", "").rstrip("/")
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 PER_PAGE = 48
 
+FEAT_BN = {"processor": "প্রসেসর", "ram": "র‍্যাম", "storage": "স্টোরেজ", "display": "ডিসপ্লে", "screen": "স্ক্রিন",
+           "features": "ফিচার", "feature": "ফিচার", "battery": "ব্যাটারি", "camera": "ক্যামেরা", "graphics": "গ্রাফিক্স",
+           "resolution": "রেজোলিউশন", "screen size": "স্ক্রিন সাইজ", "display size": "স্ক্রিন সাইজ", "panel": "প্যানেল",
+           "panel type": "প্যানেল টাইপ", "refresh rate": "রিফ্রেশ রেট", "ports": "পোর্ট", "port": "পোর্ট",
+           "connectivity": "কানেক্টিভিটি", "connection": "কানেকশন", "capacity": "ক্যাপাসিটি", "type": "টাইপ",
+           "speed": "স্পিড", "color": "রং", "colour": "রং", "weight": "ওজন", "os": "অপারেটিং সিস্টেম",
+           "operating system": "অপারেটিং সিস্টেম", "chipset": "চিপসেট", "memory": "মেমোরি", "interface": "ইন্টারফেস",
+           "power": "পাওয়ার", "output": "আউটপুট", "input": "ইনপুট", "wattage": "ওয়াট", "warranty": "ওয়ারেন্টি",
+           "model": "মডেল", "size": "সাইজ", "sensor": "সেন্সর", "dpi": "DPI", "switch": "সুইচ", "frequency": "ফ্রিকোয়েন্সি",
+           "driver": "ড্রাইভার", "material": "উপাদান", "compatibility": "সাপোর্ট করে", "compressor": "কম্প্রেসর",
+           "smart features": "স্মার্ট ফিচার", "sound": "সাউন্ড", "audio": "অডিও", "voltage": "ভোল্টেজ", "socket": "সকেট",
+           "form factor": "ফর্ম ফ্যাক্টর", "cores": "কোর", "cache": "ক্যাশ", "network": "নেটওয়ার্ক", "wifi": "ওয়াইফাই"}
+
+
+def split_features(feats):
+    """'RAM: 8GB DDR4, Storage: 256GB SSD' -> [('র‍্যাম','8GB DDR4'), ('স্টোরেজ','256GB SSD')]; কোলন না থাকলে আলাদা লাইনে।"""
+    rows, extra = [], []
+    for f in feats or []:
+        for part in re.split(r",\s*(?=[A-Za-z][\w /&().-]{1,28}:)", f):
+            k, sep, v = part.partition(":")
+            if sep and v.strip() and len(k) <= 30:
+                rows.append((FEAT_BN.get(k.strip().lower(), k.strip()), v.strip()))
+            elif part.strip():
+                extra.append(part.strip())
+    return rows, extra
+
+
 SPEC_NAMES = {"capacity": "ক্যাপাসিটি", "type": "টাইপ", "speed": "বাস স্পিড", "form": "ফর্ম ফ্যাক্টর",
               "interface": "ইন্টারফেস", "brand_cpu": "প্রসেসর ব্র্যান্ড", "model": "মডেল"}
 SECTION_BN = {"key features": "মূল বৈশিষ্ট্য", "warranty information": "ওয়ারেন্টি", "physical specification": "শারীরিক বৈশিষ্ট্য",
@@ -605,6 +632,8 @@ def main():
         changes = daily_min(history.get(pid, {}), today)
         best = it["best"]
         warranty = warranty_bn(det.get("warranty"))
+        feats = det.get("key_features") or p.get("features") or []
+        feat_rows, feat_extra = split_features(feats)
         spec_sections = [(section_bn(sec), rows_) for sec, rows_ in det.get("specs", {}).items()
                          if "warranty" not in sec.lower()]
         faq = [
@@ -629,15 +658,15 @@ def main():
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
         cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
-               "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": det.get("key_features", [])[:6],
+               "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": feats[:6],
                "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
-               "sp": det.get("specs") or {"মূল তথ্য": {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()}}}
+               "sp": det.get("specs") or {"মূল তথ্য": {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()} | dict(feat_rows)}}
         (DIST / "d").mkdir(exist_ok=True)
         (DIST / f"d/{pid}.json").write_text(json.dumps(cmp, ensure_ascii=False, separators=(",", ":")))
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(
-            **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections,
+            **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, feat_rows=feat_rows, feat_extra=feat_extra,
             best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],

@@ -79,7 +79,7 @@ def parse_price(text: str | None) -> int | None:
     return value if value > 0 else None
 
 
-def offer(name, url, price, regular=None, in_stock=True, status="ok", image=None, brand=None):
+def offer(name, url, price, regular=None, in_stock=True, status="ok", image=None, brand=None, features=None):
     """সব স্টোরের ফলাফল একই আকারে।"""
     if regular is not None and price is not None and regular <= price:
         regular = None
@@ -92,6 +92,7 @@ def offer(name, url, price, regular=None, in_stock=True, status="ok", image=None
         "status": status if price else ("no_price" if status == "ok" else status),
         "image": image,
         "brand": brand,
+        **({"features": features} if features else {}),
     }
 
 

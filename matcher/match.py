@@ -143,6 +143,8 @@ def main():
         pid = redirect.get(pid, pid)
         if pid in ignored:
             continue
+        if o.get("features") and pid in products:  # তালিকা থেকে পাওয়া মূল ফিচার, প্রতিদিন নতুন করে
+            products[pid]["features"] = o["features"]
         cur = offers[pid].get(o["store"])
         if cur is None or (o["price"] or 10**9) < (cur["price"] or 10**9):
             offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today} \
