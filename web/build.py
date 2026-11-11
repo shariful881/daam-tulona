@@ -19,7 +19,8 @@ from urllib.parse import urlsplit, urlunsplit
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from scraper.details_generic import normalize_specs
-from web.keyspecs import key_specs
+from web.keyspecs import key_specs, schema as spec_schema
+from web import insights as INS
 from web.facets import facets_for, facet_defs
 from web.automatch import auto_merges
 from web import market
@@ -270,6 +271,15 @@ def section_bn(name):
     return SECTION_BN.get(name.lower(), name)
 
 
+HINTS = {
+    "laptop-ram": "কেনার আগে আপনার ল্যাপটপ কোন টাইপ ও স্পিডের র‍্যাম সাপোর্ট করে দেখে নিন।",
+    "desktop-ram": "মাদারবোর্ড কোন টাইপ (DDR4/DDR5) সাপোর্ট করে আগে মিলিয়ে নিন।",
+    "ssd": "মাদারবোর্ড বা ল্যাপটপে M.2 না SATA স্লট আছে আগে দেখে নিন।",
+    "processor": "মাদারবোর্ডের সকেট ও চিপসেট মিলিয়ে নিন।",
+    "smartphone": "অফিসিয়াল ও আনঅফিসিয়াল ফোনের ওয়ারেন্টি আলাদা, কেনার সময় নিশ্চিত হয়ে নিন।",
+}
+
+
 def blurb(p, leaf, det):
     name = p["name"]
     feats = det.get("key_features", [])[:4] if det else []
@@ -279,13 +289,7 @@ def blurb(p, leaf, det):
     w = warranty_bn(det.get("warranty")) if det else None
     if w:
         parts.append(f"বিক্রেতার তথ্য অনুযায়ী ওয়ারেন্টি: {w}।")
-    hint = {
-        "laptop-ram": "কেনার আগে আপনার ল্যাপটপ কোন টাইপ ও স্পিডের র‍্যাম সাপোর্ট করে দেখে নিন।",
-        "desktop-ram": "মাদারবোর্ড কোন টাইপ (DDR4/DDR5) সাপোর্ট করে আগে মিলিয়ে নিন।",
-        "ssd": "মাদারবোর্ড বা ল্যাপটপে M.2 না SATA স্লট আছে আগে দেখে নিন।",
-        "processor": "মাদারবোর্ডের সকেট ও চিপসেট মিলিয়ে নিন।",
-        "smartphone": "অফিসিয়াল ও আনঅফিসিয়াল ফোনের ওয়ারেন্টি আলাদা, কেনার সময় নিশ্চিত হয়ে নিন।",
-    }.get(leaf["slug"])
+    hint = HINTS.get(leaf["slug"])
     if hint:
         parts.append(hint)
     parts.append("নিচে বিভিন্ন স্টোরের দাম পাশাপাশি দেওয়া আছে, যাতে কম দামে কোথায় পাওয়া যায় এক নজরে দেখতে পারেন।")
@@ -904,6 +908,66 @@ def main():
     _live = {group_of[i["category"]]["slug"] for i in items.values()}
     common["nav_groups"] = [(g["slug"], g["name_bn"]) for g in tax["groups"] if g["slug"] in _live]
 
+    _spec_cache = {}
+
+    def specs_for(pid):
+        """এক নজরের সারি (একবার হিসাব, তুলনার আগাম ধাপ আর পাতা দুই জায়গায় কাজে লাগে)"""
+        if pid in _spec_cache:
+            return _spec_cache[pid]
+        p_, it_, so_ = products[pid], items[pid], offers[pid]
+        det_ = details.get(pid, {})
+        feats_ = det_.get("key_features") or p_.get("features") or []
+        bsp_ = next((BSPEC[o["url"]] for o in so_.values() if o.get("url") in BSPEC), None)
+        bdet_ = brand_details.get(pid) or {}
+        if bdet_.get("specs"):
+            bdet_ = dict(bdet_, specs=normalize_specs(bdet_["specs"]))
+        all_ = dict(bdet_.get("specs") or {})
+        for sec_, rows_ in (det_.get("specs") or {}).items():
+            all_[sec_ + " (স্টোর)" if sec_ in all_ else sec_] = rows_
+        fr, fx = key_specs(it_["category"], p_["name"], all_ or None, feats_, bsp_, FEAT_BN)
+        _spec_cache[pid] = (fr, fx, feats_, bsp_, bdet_, all_)
+        return _spec_cache[pid]
+
+    # দামের বিশ্লেষণের আগাম ধাপ: ক্যাটাগরি ধরে আজকের দাম (অবস্থান), আর তুলনার সংখ্যা (একই দামের অন্যগুলো)
+    import bisect
+    cat_profile = spec_schema()[1]
+    live_by_cat, brand_by_cat, peer_pool = {}, {}, {}
+    for c, lst in by_cat.items():
+        live = sorted((i["best"]["price"], i["id"]) for i in lst if i["best"] and not i["sus"])
+        live_by_cat[c] = [x for x, _ in live]
+        bb = defaultdict(list)
+        for pr, i_ in live:
+            if items[i_]["bslug"]:
+                bb[items[i_]["bslug"]].append(i_)
+        brand_by_cat[c] = bb
+        prof = cat_profile.get(c)
+        if prof in INS.COMPARE:
+            pool = []
+            for pr, i_ in live:
+                nums_ = INS.spec_numbers(prof, specs_for(i_)[0], products[i_]["name"])
+                if nums_:
+                    pool.append((pr, i_, nums_))
+            peer_pool[c] = pool
+
+    def insight_for(pid, it, so, leaf, changes):
+        c = it["category"]
+        prof = cat_profile.get(c)
+        price = (it["best"] or {}).get("price")
+        rank = peers = nums = None
+        if price and not it["sus"]:
+            arr = live_by_cat.get(c, [])
+            cheaper = len(arr) - bisect.bisect_right(arr, price)  # এর চেয়ে বেশি দামের কয়টা
+            bl = brand_by_cat.get(c, {}).get(it["bslug"]) or []
+            brank = bl.index(pid) + 1 if pid in bl else 0
+            rank = (cheaper, len(arr), brank, len(bl), it["brand"] if brank else None)
+            if c in peer_pool:
+                nums = INS.spec_numbers(prof, specs_for(pid)[0], products[pid]["name"])
+                lo, hi = INS.peer_band(price)
+                group = [n_ for pr, i_, n_ in peer_pool[c] if lo <= pr <= hi and i_ != pid]
+                peers = (lo, hi, group)
+        return INS.build(pid, it, so, stores, leaf, changes, today, peers=peers, rank=rank, profile=prof, nums=nums,
+                         hint=HINTS.get(leaf["slug"]))
+
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
         det = details.get(pid, {})
@@ -942,15 +1006,10 @@ def main():
         real_changes = [d_ for d_, _ in changes[:-1]] if len(changes) > 1 else []
         lastmod[f"{SITE_URL}/p/{pid}/"] = max(real_changes + [p["created"]])
         warranty = warranty_bn(det.get("warranty"))
-        feats = det.get("key_features") or p.get("features") or []
-        bsp = next((BSPEC[o["url"]] for o in so.values() if o.get("url") in BSPEC), None)
-        bdet = brand_details.get(pid) or {}  # ব্র্যান্ডের নিজের সাইটের বিবরণ সবচেয়ে নির্ভরযোগ্য, তাই আগে
-        if bdet.get("specs"):
-            bdet = dict(bdet, specs=normalize_specs(bdet["specs"]))
-        all_specs = dict(bdet.get("specs") or {})
-        for sec_, rows_ in (det.get("specs") or {}).items():
-            all_specs[sec_ + " (স্টোর)" if sec_ in all_specs else sec_] = rows_
-        feat_rows, feat_extra = key_specs(it["category"], p["name"], all_specs or None, feats, bsp, FEAT_BN)
+        # ব্র্যান্ডের নিজের সাইটের বিবরণ সবচেয়ে নির্ভরযোগ্য, তাই আগে (specs_for-এ)
+        feat_rows, feat_extra, feats, bsp, bdet, all_specs = specs_for(pid)
+        _spec_cache.pop(pid, None)
+        ins_lines, ins_meta, ins_faq = insight_for(pid, it, so, leaf, changes)
         spec_src = bdet if bdet.get("specs") else det
         spec_sections = [(section_bn(sec), rows_) for sec, rows_ in (spec_src.get("specs") or {}).items()
                          if "warranty" not in sec.lower()]
@@ -962,9 +1021,11 @@ def main():
             ("এর ওয়ারেন্টি কত দিনের?",
              f"বিক্রেতার পাতায় লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড ও শর্ত মিলিয়ে নিন।" if warranty
              else "ওয়ারেন্টির তথ্য এখনো যোগ হয়নি। কেনার আগে স্টোরে জিজ্ঞেস করে নিন।"),
-            ("এই দাম কখন আপডেট হয়?", "প্রতিদিন রাতে সব স্টোর থেকে দাম নতুন করে সংগ্রহ করা হয়।"),
-            ("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"),
+        ] + ins_faq + [
+            ("এই দাম কখন আপডেট হয়?", "প্রতিদিন রাতে সব স্টোর থেকে দাম নতুন করে সংগ্রহ করা হয়। এই পাতার সব হিসাব সেই দাম থেকেই।"),
         ]
+        if not ins_faq:
+            faq.append(("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"))
         jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "category": leaf["name_en"]}
         if it["brand"]:
             jsonld["brand"] = {"@type": "Brand", "name": it["brand"]}
@@ -996,11 +1057,13 @@ def main():
             low30=window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None,
             hist_days=(date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1 if changes else 0,
             hist_lo=min((v for _, v in changes), default=None), hist_hi=max((v for _, v in changes), default=None), icon=icon_for(it["category"], grp["slug"]), blurb=blurb(p, leaf, det), faq=faq,
+            insights=ins_lines, ins_date=bn_date(today),
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
             og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
             title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
-            description=f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else "")
+            description=(f"{p['name']}: " + ", ".join(ins_meta) + "।" if ins_meta else
+                         f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""))
                         + (f" {warranty}।" if warranty else ""),
             canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
         urls.append(f"{SITE_URL}/p/{pid}/")

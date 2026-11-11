@@ -55,6 +55,14 @@
   </section>
 
 
+  {% if insights %}
+  <section class="card o2 insight">
+    <h2>দামের বিশ্লেষণ <span class="sub">· {{ ins_date }} পর্যন্ত হিসাব</span></h2>
+    <ul class="ins">{% for kind, t in insights %}<li class="ins-{{ kind }}">{{ t }}</li>{% endfor %}</ul>
+    <p class="insnote">দোকানগুলোর আজকের দাম, আমাদের জমানো দামের ইতিহাস আর একই ক্যাটাগরির অন্য প্রোডাক্ট থেকে প্রতিদিন নিজে থেকে হিসাব করা।</p>
+  </section>
+  {% endif %}
+
   <div class="slotw o3">{{ slot("product", cat.slug, it.id) }}</div>
 
   {% if feat_rows or feat_extra or warranty %}
@@ -123,7 +131,7 @@
       <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে এই ধরনের প্রোডাক্টের দরকারি তথ্যগুলো দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
     </details>
     {% endif %}
-    <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
+    {% if not insights %}<details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>{% endif %}
   </section>
 
   <div class="slotw o8">{{ slot("product_bottom", cat.slug, it.id) }}</div>
