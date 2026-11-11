@@ -1,0 +1,1410 @@
+{
+ "smartphone": {
+  "n": 20,
+  "err": null,
+  "sec": 1,
+  "sample": [
+   "HONOR 600 8GB RAM 256GB ROM 6.57 inch 5G Smartphone - (Orange)",
+   "HONOR 600 8GB RAM 256GB ROM 6.57 inch 5G Smartphone - (Golden White)",
+   "HONOR 600 8GB RAM 256GB ROM 6.57 inch 5G Smartphone - (Black)"
+  ],
+  "priced": 20
+ },
+ "mobile-accessories": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "UGREEN LP886 (45797) Magnetic Cable Organizer 3-Pack",
+   "UGREEN LP247 (80704) Adjustable Portable Stand - White",
+   "UGREEN CP01 (55292) Multifunction Earbuds Cleaner"
+  ],
+  "priced": 20
+ },
+ "graphics-tablet": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "BWOO BO-CK02 BWOO Stylus Pen for Android Device",
+   "BWOO BO-CK01 BWOO Stylus Pen for iPad (2018)",
+   "UGREEN LP707 Smart Stylus Pen for iPad"
+  ],
+  "priced": 20
+ },
+ "tablet": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Lenovo ZAEJ0185IN 4GB RAM 128GB ROM 10.1-inch Tablet with Helio G85 Processor (SIM Supported)",
+   "Lenovo Idea ZAFR1135LK 6GB RAM 128GB SSD 11-inch Tablet",
+   "Lenovo Idea ZAFM0792LK 6GB RAM 128GB ROM 11-inch Display Tablet (SIM Supported)"
+  ],
+  "priced": 20
+ },
+ "gaming-laptop": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "GIGABYTE EAGLE GL6J Ryzen 5 7533HS 16 Inch WUXGA RTX 3050 Gaming Laptop",
+   "ASUS TUF Gaming A16 FA608PP AMD Ryzen 9 8940HX 32GB RAM 512GB SSD 16 Inch Copilot & AI Optimized Gaming Laptop (Jaeger Gray)",
+   "Asus ROG Strix G16 G614PR AMD Ryzen 9 8940HX 32GB RAM 1TB SSD 16 Inch Gaming Laptop (Eclipse Gray)"
+  ],
+  "priced": 20
+ },
+ "laptop": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Acer Aspire 15 AS15-42 Ryzen 5 7430U 16GB RAM 512GB SSD 15.6 Inch FHD IPS Laptop",
+   "Lenovo IdeaPad Slim 3 15IRH10 Core i5 13th Gen 8GB RAM 512GB SSD 15.3 Inch Laptop",
+   "Acer Aspire 15 AS15-42-R7 AMD Ryzen 7 7730U 8GB RAM 512GB SSD 15.6 Inch FHD Laptop"
+  ],
+  "priced": 20
+ },
+ "laptop-bag": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Ugreen LP437 14.9 Inch Laptop Sleeve Bag (Grey)",
+   "BWOO BO-CB46 Polyester Laptop Bag (Black)",
+   "UGREEN LP187 (60985) 13 to 13.9-inch Laptop Sleeve Bag - Gray"
+  ],
+  "priced": 20
+ },
+ "all-in-one-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Value-Top L40B-i512450H 8GB RAM 256GB SSD 23.8 Inch FHD IPS All in One PC",
+   "Value-Top GS40UB-AMD V2748 8GB RAM 256GB SSD 23.8 Inch FHD IPS All in One PC",
+   "Value-Top L41B-AMD V2748 8GB RAM 256GB SSD 23.8 Inch FHD All in One PC"
+  ],
+  "priced": 20
+ },
+ "mini-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Apple Mac Mini M6 Chip 16GB RAM 512GB SSD Silver Mini PC (Mid 2026)",
+   "Apple Mac Mini Mid 2026 Apple M6 Chip 16GB 256GB SSD Mini PC (Silver)",
+   "ASUS NUC 15 Pro Intel Core i3 1315U Black Mini PC (Barebone PC)"
+  ],
+  "priced": 15
+ },
+ "desktop-pc": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Intel Core i5 14400F B760M-E Motherboard 8GB RAM 512GB SSD Gaming PC with RTX 3050",
+   "Intel Core Ultra 5 225 GIGABYTE B860M GAMING WIFI6 16GB RAM 1TB SSD Gaming PC",
+   "AMD Ryzen 9 9900X MSI B850 GAMING PLUS WIFI6E 16GB RAM 1TB SSD Gaming PC"
+  ],
+  "priced": 20
+ },
+ "processor": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "AMD Ryzen 9 9950X3D2 Dual Edition 4nm FinFET Desktop Processor",
+   "AMD Ryzen 5 Pro 2400GE Desktop Processor with Radeon RX Vega 11 Graphics",
+   "Intel Core i3 12100T 12th Gen Alder Lake LGA 1700 Processor"
+  ],
+  "priced": 20
+ },
+ "motherboard": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Gigabyte B450M D3HP AM4 AMD Micro ATX Motherboard",
+   "XENTHRA XN-B450M-VH-PRO AMD AM4 mATX Motherboard",
+   "ESONIC H310M DDR4 Micro ATX Motherboard"
+  ],
+  "priced": 20
+ },
+ "graphics-card": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "GIGABYTE Radeon RX 9070 GRE GAMING OC 12GB GDDR6 Graphics Card",
+   "GIGABYTE Radeon RX 9050 GAMING OC 8GB GDDR6 Graphics Card",
+   "INNO3D GeForce RTX 5060 Ti X3 OC GDDR7 8GB Graphics Card"
+  ],
+  "priced": 20
+ },
+ "desktop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Silicon Power XPOWER Zenith 8GB RGB DDR4 Gaming Desktop RAM",
+   "Corsair VENGEANCE DDR5 16GB 6000MHz CL38 Desktop RAM",
+   "CORSAIR Vengeance RGB 16GB DDR5 6000mhz CL38 Desktop RAM"
+  ],
+  "priced": 20
+ },
+ "laptop-ram": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Neo Forza NFSO512IA4-5600JA10 DDR5 SO-DIMM 12GB 5600MHz CL46 Laptop Ram",
+   "Crucial 16GB DDR5L 5600MHz SO-DIMM CL46 Laptop RAM",
+   "Adata 32GB DDR5 4800MHz CL40 Laptop RAM"
+  ],
+  "priced": 20
+ },
+ "portable-ssd": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ORICO B10PRO 512GB 10Gbps Portable SSD",
+   "ORICO M20 512GB Portable SSD",
+   "ORICO M20 1TB 20Gbps Portable SSD"
+  ],
+  "priced": 20
+ },
+ "ssd": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Silicon Power US75 500GB M.2 NVMe Internal SSD",
+   "KingSpec XF-XXX 2280 XF Series 512GB M.2 NVMe PCIe SSD",
+   "NEO FORZA NFP495PCI50-44H5200 M.2 2280 PCIe GEN4X4 500GB NVMe SSD"
+  ],
+  "priced": 20
+ },
+ "portable-hdd": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Transcend StoreJet 35T3 8TB External Hard Disk Drive",
+   "Transcend StoreJet 25M3C Slim Type-C 4TB Portable Hard Disk Drive",
+   "Transcend StoreJet 25H3 2TB Portable Hard Disk Drive (Purple)"
+  ],
+  "priced": 20
+ },
+ "hdd": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Toshiba S300 AI 16TB Surveillance Hard Drive",
+   "Toshiba S300 MG11ACA20TE-V AI 20TB Surveillance Hard Drive",
+   "TOSHIBA Canvio Gaming X2 4TB USB 3.0 External Hard Disk Drive - Black"
+  ],
+  "priced": 20
+ },
+ "power-supply": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Ocypus BETA P350S 350W Non-Modular ATX Power Supply (Black)",
+   "Ocypus BETA P600S 600W Non-Modular ATX Power Supply (Black)",
+   "Ocypus Delta P650S 650W 80+ BRONZE ATX Power Supply"
+  ],
+  "priced": 20
+ },
+ "casing": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "T-WOLF YORU Mid-Tower ATX ARGB Gaming Casing (White)",
+   "T-WOLF YORU Mid-Tower ATX ARGB Gaming Casing (Black)",
+   "T-WOLF Spector ATX Curved ARGB Gaming Casing with Display (Black)"
+  ],
+  "priced": 20
+ },
+ "cpu-cooler": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "1STPLAYER FrostBite FB12-4 Single Tower CPU AIR Cooler (Black)",
+   "Ocypus Gamma A20 ARGB Air CPU Cooler (White)",
+   "Ocypus Delta A62 SE ARGB Air CPU Cooler (Black)"
+  ],
+  "priced": 20
+ },
+ "casing-fan": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Deepcool FD12 V2 3 in 1 120mm Cooling Fan",
+   "Antec Vision 120R ARGB 120mm 3 IN 1 Reverse Casing Fan",
+   "Corsair iCUE LINK RX140 MAX RGB 140mm Dual Pack Case Fans (White)"
+  ],
+  "priced": 20
+ },
+ "gpu-holder": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Antec RTX50 PCIe 5.0 Riser Cable GPU Vertical Bracket Kit",
+   "Antec AT-HGPUH-ARGB-W DAGGER ARGB GPU Support Bracket",
+   "Antec AT-HGPUH-ARGB-BK DAGGER ARGB GPU Support Bracket"
+  ],
+  "priced": 19
+ },
+ "laptop-accessories": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Super X6 150000RPM Brushless Turbo Jet Blower & Rechargeable Air Duster",
+   "ASUS C41N2402 70Wh Battery for VivoBook 14 Flip TP3407SA",
+   "ASUS ExpertBook L1500CDA B31N1915 Laptop Battery"
+  ],
+  "priced": 20
+ },
+ "monitor-arm": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Kaloc DS200-2 Adjustable Dual Arm Monitor Mount Stand",
+   "Kaloc KLC-DS160 22-40 Inch Single Monitor Arm",
+   "Kaloc KLC-X4 32-65 Inch Wall Mount Stand For TV"
+  ],
+  "priced": 20
+ },
+ "gaming-monitor": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Dahua DHI-LM24-C221P 23.8 Inch 144Hz FHD IPS Monitor",
+   "Eurovision EV-GT2200 21.45 Inch 100Hz FHD Monitor",
+   "Eurovision EV-GT2200A 21.45 Inch 100Hz FHD Monitor"
+  ],
+  "priced": 20
+ },
+ "portable-monitor": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "KTC H15F9 15.6 Inch 60Hz FHD IPS Portable Monitor",
+   "Arzopa Z1C 16.1 Inch IPS FHD Type-C Portable Monitor",
+   "Dahua DHI-PM16-F201PD 15.6 Inch FHD Non-Touch Portable Monitor"
+  ],
+  "priced": 20
+ },
+ "monitor-all": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Dahua DHI-LM24-C221P 23.8 Inch 144Hz FHD IPS Monitor",
+   "KTC M27E6S 27 Inch 2K 240Hz Mini LED QHD IPS Gaming Monitor",
+   "KTC H34S5 34 Inch 2K 180Hz WQHD Curved Gaming Monitor"
+  ],
+  "priced": 20
+ },
+ "keyboard": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Rapoo 9010M Multi-mode Wireless keyboard mouse combo (White)",
+   "Rapoo 9050S Multi-Mode Wireless Keyboard and Mouse Combo (White)",
+   "Zifriend T62 RGB Hot-Swappable Blue Switch Mechanical Gaming Keyboard (White & Light Blue)"
+  ],
+  "priced": 20
+ },
+ "mouse": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Logitech M331 SILENT PLUS Wireless Mouse (Blue)",
+   "Logitech M331 SILENT PLUS Wireless Mouse (Red)",
+   "Havit MS550GT Vertical Wireless Mouse (Black)"
+  ],
+  "priced": 20
+ },
+ "mouse-pad": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Thunderobot M1SE-900E 900 x 400 x 4 mm Gaming Mousepad",
+   "Thunderobot M1SE-470 470x400mm 4mm Thickness Mousepad",
+   "UGREEN LP668 Ergonomic Mouse Pad (Black)"
+  ],
+  "priced": 20
+ },
+ "webcam": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Logitech MX Brio 705 Business Webcam",
+   "UGREEN CM717 (25442) 2K Webcam for PC Ultra HD Camera with Microphone",
+   "FIFINE K438 4K Auto Focus Webcam"
+  ],
+  "priced": 20
+ },
+ "microphone": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Havit MC361 Wired Clip Microphone (Black)",
+   "Yanmai Q18 RGB Cardioid Gaming Microphone",
+   "Yanmai X3R RGB Gaming Microphone"
+  ],
+  "priced": 20
+ },
+ "speaker": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "T-WOLF S6 RGB 3.5mm Audio Mini Speaker",
+   "T-wolf S4 RGB Wired Desktop Speaker (Black)",
+   "T-WOLF S10 Wired Mini Speaker"
+  ],
+  "priced": 20
+ },
+ "bluetooth-speaker": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Digital X Pulse Pro 40W Portable Bluetooth Speaker (Black)",
+   "Digital X Pulse One 20W Portable Bluetooth Speaker (Black)",
+   "Digital X Pulse Go 10W Portable Bluetooth Speaker (Black)"
+  ],
+  "priced": 20
+ },
+ "soundbar": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "LG SQC2 Bluetooth Soundbar with Subwoofer",
+   "JBL Bar 300MK2 5.0 Channel Dolby Atmos Soundbar",
+   "JBL Bar 1300MK2 11.1.4 Channel Soundbar"
+  ],
+  "priced": 20
+ },
+ "pen-drive": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Kingston DTXG2 64GB DataTraveler Exodia USB-A Flash Drive",
+   "Lexar JumpDrive Dual Drive D500 256GB USB 3.2 Type-C Pen Drive",
+   "Lexar Elite Legends Series D500 128GB Solid State Dual Drive USB 3.2 Gen 1 Type C Pen Drive"
+  ],
+  "priced": 20
+ },
+ "memory-card": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "OCPC PRO-X U1 C10 128GB MICROSDXC Memory CARD",
+   "OCPC PRO-X U1 C10 64GB MICROSDXC CARD",
+   "PNY 256GBElite Class 10 U1 microSDXC Memory Card"
+  ],
+  "priced": 20
+ },
+ "card-reader": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Havit HV-C304 USB 3.0 2 Slot Card Reader - Black",
+   "UGREEN CM104 (40752) USB 3.0 Card Reader For TF/SD",
+   "Amalink AL-CR531A 2-in-2 USB 3.0 A+C to SD+TF Card Reader"
+  ],
+  "priced": 20
+ },
+ "hub-dock": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Amalink AL-UCA620 USB 3.2 Gen 2 4-Port 10GB Hub",
+   "Amalink AL-UCA622 2-in-2 USB Hub",
+   "Amalink AL-5202 USB to HDMI Converter"
+  ],
+  "priced": 20
+ },
+ "cable": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Amalink AL-HD383 5 meter 8K HDMI Cable",
+   "Amalink AL-HD383 3 meter 8K HDMI Cable",
+   "Amalink AL-HD383 2 meter 8K HDMI Cable"
+  ],
+  "priced": 20
+ },
+ "converter": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Amalink AL-AC201 USB to Type-C Converter",
+   "UGREEN AV134 (20816) 20cm Male to 2 Female Audio Cable (Black)",
+   "UGREEN US211 (30756) Lightning to 3.5mm Female Audio Black Converter"
+  ],
+  "priced": 20
+ },
+ "enclosure": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "UGREEN CM198 (50857) USB 3 To SATA Hard Drive Docking Station",
+   "UGREEN CM257 (60561) USB 3.0 to SATA Converter",
+   "OSCOO SP2 M.2 NVMe SSD Enclosure"
+  ],
+  "priced": 20
+ },
+ "capture-card": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Elgato Wave XLR Pro Audio Interface With USB-C",
+   "Elgato 4K X Ultra Low Latency Capture Card",
+   "Elgato Stream Deck + XL With 36 Customizable LCD Keys"
+  ],
+  "priced": 20
+ },
+ "power-strip": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Huntkey SZM 401 4-Port Power Strip",
+   "LDNIO SC6 3 AC Universal Outlets 3250W and 4 USB 45W GaN Fast Charging Power Strip",
+   "ORICO OSC-4A4U-UK 4 AC Outlet Surge Protector with 4 USB Charging Port"
+  ],
+  "priced": 20
+ },
+ "bluetooth-adapter": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "UGREEN CM591 USB Bluetooth 5.3 Adapter (90225)",
+   "Vention NAFB0 USB Bluetooth Transmitter Receiver Adapter",
+   "Baseus BA07 5.3 Bluetooth Wireless Receiver Adapter"
+  ],
+  "priced": 20
+ },
+ "thermal-paste": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Thermal Grizzly Duronaut Pro 2g Thermal Paste (Black)",
+   "Thermal Grizzly Aeronaut 3.9g Thermal Paste (Black)",
+   "Thermal Grizzly Aeronaut 1g Thermal Paste (Black)"
+  ],
+  "priced": 20
+ },
+ "presenter": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Logitech Spotlight 2 Advanced Presenter with Haptics",
+   "SMART SEH-AM124S 2.4GHz Wireless Air Mouse with QWERTY Keyboard & Gyroscope",
+   "Vention KQIH0 Wireless PowerPoint Presentation"
+  ],
+  "priced": 20
+ },
+ "monitor-light-bar": {
+  "n": 5,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Thunderobot L1 USB Monitor Light Bar",
+   "Thunderobot L1A Computer Screen LED Monitor USB Light Bar",
+   "BenQ ScreenBar Halo LED Monitor Light"
+  ],
+  "priced": 3
+ },
+ "wrist-rest": {
+  "n": 5,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "AJAZZ Ergonomic Palm Rest 87 Key Design PU Leather Keyboard Palm Rest",
+   "Redragon P023 Wrist Rest Pad",
+   "MSI VIGOR WR01 Wrist Pad"
+  ],
+  "priced": 4
+ },
+ "smart-watch": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Oraimo OSW-823 Watch 6R Calling SmartWatch (Pink)",
+   "KOSPET TANK T3 ULTRA 2 Silicone + Steel Premium Smartwatch (Silver)",
+   "Amazfit Bip 6 BT 1.97 Inch GPS Calling Silver Smart Watch"
+  ],
+  "priced": 20
+ },
+ "smart-ring": {
+  "n": 5,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HiFuture FutureRing 2 Gold Smart Ring",
+   "HiFuture FutureRing 2 Silver Smart Ring",
+   "COLMI R12 Waterproof Bluetooth Smart Ring (Silver)"
+  ],
+  "priced": 5
+ },
+ "earbuds": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Havit TW931 Mini Size ENC Wireless Earbuds with 2 Mic (Black)",
+   "Hifuture Sonicair 4 MIc ENC Bluetooth Wireless Earbuds (Champagne Gold)",
+   "Hifuture Sonicair 4 MIc ENC Bluetooth Wireless Earbuds (White)"
+  ],
+  "priced": 20
+ },
+ "neckband": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "XO BS37 ANC Bluetooth Neckband (Black)",
+   "XO BS33 Bluetooth Wireless Neckband (Black)",
+   "Oraimo Necklace Neo OEB-310 Bluetooth V6.0 Neckband (Mysterious Blue)"
+  ],
+  "priced": 20
+ },
+ "earphone": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "XO EP84 Type-C Wired White Half In-Ear Earphone",
+   "XO EP20 Wired 3.5mm In-Ear Earphone (White)",
+   "XO EP20 Wired 3.5mm In-Ear Earphone (Black)"
+  ],
+  "priced": 20
+ },
+ "power-bank": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "XO PR272C 10000mAh 22.5W Type-C + iP cable Power Bank (Black)",
+   "XO PR282 Wall Plug Portable 10000mAh Power Bank",
+   "XO PR296 10000 mAh Magnetic Wireless Power bank"
+  ],
+  "priced": 20
+ },
+ "tv-box": {
+  "n": 14,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Xiaomi TV Box S 3rd Gen 4K Global Version",
+   "TX80 Pro 16GB RAM 256GB SSD Android TV Box",
+   "TX60 Pro 14K Ultra HD Smart Android TV Box"
+  ],
+  "priced": 13
+ },
+ "drone": {
+  "n": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "DJI Mavic 3 Pro Fly More Combo 4K Drone with Remote Controller",
+   "DJI Air 3S Fly More Combo Lite DJI RC 2",
+   "DJI Air 3 Drone Fly More Combo with RC-N2"
+  ],
+  "priced": 12
+ },
+ "gimbal": {
+  "n": 12,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Insta360 All Purpose Tripod",
+   "Gudsen MOZA Nano SE Selfie Stick Gimbal",
+   "Mi Action Camera Holding Platform"
+  ],
+  "priced": 12
+ },
+ "gaming-console": {
+  "n": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "SJGAM M17 4.3 inch IPS Display 1GB RAM Handheld Gaming Console (Grey)",
+   "ASUS ROG Xbox Ally X RC73XA-NH013W AMD Ryzen AI Z2 Extreme 24GB RAM 1TB SSD 7 Inch FHD Gaming Console",
+   "ASUS ROG Xbox Ally RC73YA-NH004W AMD Ryzen Z2 A 16GB RAM 512GB SSD 7 inch FHD Display Gaming Console"
+  ],
+  "priced": 9
+ },
+ "gamepad": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Corsair NOVABLADE PRO WIRELESS Hall Effect Leverless Game Controller",
+   "ThundeRobot G50 8K Hot-Swappable Gaming Controller",
+   "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (White)"
+  ],
+  "priced": 20
+ },
+ "gaming-chair": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Horizon Throne-VALIANT Premium Ergonomic Gaming Chair (Chocholate & Black)",
+   "Fantech Alpha GC-182 Sakura Ergonomic Gaming Chair",
+   "Thermaltake GK500 Go-Kart Simulator Cockpit Gaming Chair"
+  ],
+  "priced": 20
+ },
+ "gaming-desk": {
+  "n": 12,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "JEDEL Gaming Desk Z Shaped Gaming Desk with RGB Lights & Cup Holder",
+   "FURGLE Y MODEL GAMING TABLE With cup holder & Headphone Hook",
+   "BESMILE Y Shaped Gaming Desk With 2 built-in storage drawers"
+  ],
+  "priced": 12
+ },
+ "vr": {
+  "n": 11,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Pico Neo 3 Link Standalone 6GB RAM 256GB All-in-One VR Headset",
+   "Pico Neo 3 Link Standalone 6GB RAM 128GB All-in-One VR Headset",
+   "PICO 4 All-in-One 128GB VR Headset"
+  ],
+  "priced": 11
+ },
+ "router": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Tenda AX12 Pro AX3000 Dual-Band Gigabit Wi-Fi 6 Router",
+   "ASUS TUF Gaming BE9400 Tri Band Wi-Fi 7 Gaming Router",
+   "TOTOLINK X30 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  ],
+  "priced": 20
+ },
+ "range-extender": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Tenda O3 Wireless Outdoor 5km Point to Point CPE",
+   "Mercusys ME30 AC1200 Wi-Fi Range Extender",
+   "Cudy RE300 N300 Mesh Wi-Fi Range Extender"
+  ],
+  "priced": 19
+ },
+ "access-point": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Cambium XV2-21X Indoor Wi-Fi 6 Access Point (WithOut Adapter)",
+   "Ubiquiti Unifi U7 Pro WiFi 7 Tri Band Access Point (WithOut POE Adapter)",
+   "NETGEAR WAX333 AX3000 Insight Managed Wi-Fi 6 Dual-Band Access Point with Gigabit PoE (3-Pack)"
+  ],
+  "priced": 20
+ },
+ "wifi-adapter": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Amalink AL-UC602 Type-C to 2.5G Ethernet adapter",
+   "Amalink AL-UE65 USB-C/USB 3.0 to 5 G Ethernet Adapter",
+   "XO HUB018 USB-C/USB-A to Ethernet Adapter"
+  ],
+  "priced": 20
+ },
+ "network-switch": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Totolink SG1816P 18-port Gigabit rackmount POE switch",
+   "MERCUSYS MS120GP 20-Port Gigabit Rackmount Switch with 16-Port PoE+",
+   "MERCUSYS MS118CP 16-Port 10/100Mbps PoE Gigabit Rackmount Switch"
+  ],
+  "priced": 20
+ },
+ "onu-olt": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "BDCOM GP1702-1G ONU Single Port",
+   "V-Sol GPON OLT SFP C++++ Optical Module",
+   "Brellet BL-GE6108F 8FE EPON ONU"
+  ],
+  "priced": 20
+ },
+ "lan-card": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Ugreen CM199 Type-C Male to Lan Female Ethernet Adapter",
+   "TP-Link Archer T2E V2 AC600 Wireless Dual Band PCI Express Adapter",
+   "Cudy PE10G 10 Gbps PCI-E Ethernet Adapter"
+  ],
+  "priced": 18
+ },
+ "network-cable": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Solitine SOPC50O-6 5m Cat6 UTP Patch Cable (Orange)",
+   "Solitine SOPC50B-6 5m Cat6 UTP Patch Cable (Blue)",
+   "Solitine SOPC50Y-6 5m Cat6 UTP Patch Cable (Yellow)"
+  ],
+  "priced": 20
+ },
+ "wifi-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Imou Cruiser Triple IPC-S7UP-11M0WED 11MP Triple Lens WiFi Camera",
+   "Imou Bullet 2E Pro 3MP Outdoor Wi-Fi Smart Camera",
+   "EZVIZ CS-CMT Bracket Wall Mount"
+  ],
+  "priced": 20
+ },
+ "ip-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Dahua HAC-PT1200H1-IL-T 2MP Smart Indoor PT Camera",
+   "Dahua HAC-HFW1219X-A-PRO 2MP Lite HDCVI Bullet IP Camera",
+   "Dahua HAC-HDW1219SL-A-PRO 2MP Eyeball IP Camera"
+  ],
+  "priced": 20
+ },
+ "camera-package": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Dahua SD5A432GB-HNR 4MP 32x Starlight IR Network PTZ Camera",
+   "HikVision DS-2CE16D0T-IRPF 2MP Indoor Bullet CC Camera",
+   "Hikvision DS-2CE71H0T-PIRLO 5MP Turret CC Camera"
+  ],
+  "priced": 20
+ },
+ "dvr-nvr": {
+  "n": 40,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Dahua DH-XVR1B16-I/T 16-Channel WizSense DVR with Two-Way Talk",
+   "Dahua DH-XVR1B08-I/T 8-Channel WizSense DVR with Two-Way Talk",
+   "DAHUA DH-XVR1B04-I/T 04 CH 1HDD WizSense XVR"
+  ],
+  "priced": 40
+ },
+ "cctv-accessories": {
+  "n": 3,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Hikvision DS-2FA1201-DL Power Adapter",
+   "Hikvision HKA-A24250-230 Europeanstandard AC adaptor",
+   "Hikvision DS-1602ZJ Stand"
+  ],
+  "priced": 3
+ },
+ "door-lock": {
+  "n": 3,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Meari B1 Smart WiFi Video Doorbell",
+   "ZKTECO TL800 WI-FI SMART DIGITAL VIDEO DOOR LOCK WITH FINGERPRINT BUILT IN DOORBELL & OLED SCREEN",
+   "EZVIZ DL05 Aluminum Alloy Smart Fingerprint Lock"
+  ],
+  "priced": 3
+ },
+ "access-control": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ZKTeco SenseFace 7B AI Based Face Recognition Device",
+   "ZKTeco SenseFace T1 Face Recognition time and attendance terminal",
+   "ZKTeco ProFace X Outdoor & Vandal-resistant Facial Recognition Terminal"
+  ],
+  "priced": 20
+ },
+ "digital-locker": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Deli ET600 Fireproof Digital Safe Box",
+   "Deli ET581 Fireproof Digital Safe Box",
+   "Deli VS4529-BK Fingerprint Safe"
+  ],
+  "priced": 19
+ },
+ "printer": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "HP Color LaserJet Pro 3203dw Single Function Color Laser Printer",
+   "HP Laser MFP 136a Multifunction Laser Printer",
+   "HP DesignJet T850 36-in Large Format Single Function Wireless Plotter Printer"
+  ],
+  "priced": 20
+ },
+ "special-printer": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Rongta RP335-U Thermal Receipt Printer",
+   "Deli ES380PN 3-inch Thermal Receipt Printer",
+   "RONGTA RPW210-UE WRISTBAND BARCODE LABEL POS PRINTER"
+  ],
+  "priced": 20
+ },
+ "printer-supplies": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "HP 3JB06AA Original GT51 COMBO HAED 2-PK",
+   "HP M0H50AA Original Tri-Color Printhead for Smart Tank",
+   "HP Original Printhead for Smart Tank 500/515/520/580/670/750 (Black)"
+  ],
+  "priced": 20
+ },
+ "scanner": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "NETUM SD-2000 A3 A4 USB Document Scanner",
+   "Epson Perfection V850 Pro Color Photo Scanner and A4 Flatbed Film",
+   "Epson DS-1760WN Network Flatbed Document Scanner"
+  ],
+  "priced": 20
+ },
+ "photocopier": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Toshiba e-studio 4528AG Multifunction Photocopier with RADF",
+   "Toshiba e-Studio 3525AC Multifunction Color Photocopier",
+   "Toshiba e-Studio 5525AC Multifunctional A3 Color Photocopier"
+  ],
+  "priced": 20
+ },
+ "projector": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ViewSonic PA700W 4500 ANSI WXGA Business & Education Projector​",
+   "Havit PJ218 Pro 180 ANSI Lumens FHD Wi-Fi Portable Projector",
+   "Havit PJ212 270 ANSI FHD Portable Wi-Fi Projector"
+  ],
+  "priced": 20
+ },
+ "display-solution": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Dahua DHI-LDV55-SAI400L 55 Inch 4K UHD Android Floor Standing Digital Signage Display",
+   "Hikvision DS-D6055UN-D/S 55 Inch 4K UHD Android Floor Standing Digital Signage Display",
+   "Hikvision DS-D6055UT-D/S 55 Inch 4K UHD Touch Floor Standing Digital Signage"
+  ],
+  "priced": 13
+ },
+ "conference": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Logitech Tap IP Meeting Room Conference System",
+   "Logitech Expansion Mic For Group 1 Pair (989-000171)",
+   "Logitech 989-000405 Meetup Expansion Mic Pod"
+  ],
+  "priced": 20
+ },
+ "telephone": {
+  "n": 32,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Panasonic KX-TSC62SXW Corded Telephone Set",
+   "Panasonic KX-TSC60SXB Corded White Landline Phone With Caller ID",
+   "Panasonic KX-TSC60SXB Corded Black Landline Phone With Caller ID"
+  ],
+  "priced": 32
+ },
+ "money-counter": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Deli ET903 General Identification Money Counting Machine",
+   "Safescan s116 Fake Note Detector",
+   "Yumite Al-11 Multifunction Money Fake Detector with MG & Magnifier"
+  ],
+  "priced": 20
+ },
+ "office-machine": {
+  "n": 36,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Deli ET081 26L Level 5 Paper Shredder",
+   "Deli ET048 23L 16 sheets Paper Shredder",
+   "Deli ET016 6 sheets Paper Shredder"
+  ],
+  "priced": 35
+ },
+ "calculator": {
+  "n": 12,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "CASIO HR-8RC-BK Printing Calculator",
+   "Casio HR-150RC Printing Calculator",
+   "Casio DR-120R-BK Priniting Calculator"
+  ],
+  "priced": 12
+ },
+ "action-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "XO XJ03 front rear recorder FHD Car Camera - Black",
+   "Ausek AT-M90TR 5K Waterproof Action Camera",
+   "DJI Osmo Nano 35 MP 4K Action Camera"
+  ],
+  "priced": 20
+ },
+ "dslr-mirrorless": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "CANON EOS 90D 32.5MP WITH 18-55MM STM LENS DSLR CAMERA",
+   "Sony NEW Alpha 7S III Full-frame Interchangeable Lens Mirrorless Digital Camera",
+   "Nikon D7500 with 18-140mm Lens 4K WI-FI Touchscreen DSLR Camera"
+  ],
+  "priced": 20
+ },
+ "digital-camera": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Sony Alpha A6400 Mirrorless 16-50mm Lens Digital Camera",
+   "SONY ZV-1F VLOGGING CAMERA (BLACK)",
+   "SONY A7S III MIRRORLESS 12.1MP 4K CAMERA"
+  ],
+  "priced": 18
+ },
+ "camera-lens": {
+  "n": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "SONY SEL85F18 FE 85MM F1.8 CAMERA LENS",
+   "SONY SEL55F18Z Sonnar FE 55mm CAMERA LENS",
+   "SONY SEL50F18F FE 50mm F1.8 CAMERA LENS"
+  ],
+  "priced": 10
+ },
+ "camera-accessories": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Baseus BS-HA016 Heyo Camera Infrared Camera Detector (Black)",
+   "Baseus BS-HA016 Heyo Camera Infrared Camera Detector (White)",
+   "Havit ST7012 Pro Tripod Stand with 10-inch LED Selfie Ring Light & Phone Holder"
+  ],
+  "priced": 20
+ },
+ "online-ups": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Power Pac 2KVA Online UPS",
+   "Must EH55-H3K8 3KVA/3KW Online UPS",
+   "MUST EH55-H1K2 1KVA Smart High Frequency Online UPS"
+  ],
+  "priced": 20
+ },
+ "mini-ups": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "WGP Optima 302 10500mAh Mini UPS for Wifi Router",
+   "MARSRIVA KP4 Max 20000mAh Mini DC UPS for Router",
+   "MARSRIVA KP4 Smart Mini DC UPS for Router"
+  ],
+  "priced": 20
+ },
+ "ups": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "UNV UPS600-SEA-UK 600VA Offline UPS",
+   "UNV UPS800-SEA-UK 800VA Offline UPS",
+   "Uniview UPS1200-SEA-UK 1200VA 720W UPS"
+  ],
+  "priced": 20
+ },
+ "ips": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Solarstock SS-LPS500C 500W Pure Sine Wave Lithium Solar IPS",
+   "Solarstock SS-LPS1000B 1000W IPS for Large Home with LCD Display",
+   "Solarstock SS-LPS500B 500W Smart Lithium IPS With MPPT & LCD Display"
+  ],
+  "priced": 14
+ },
+ "power-station": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Jackery Explorer 1000 v2 1500W Portable Power Station",
+   "Jackery Explorer 2000 v2 2200W Portable Power Station",
+   "Jackery Explorer 3000 v2 3600W Portable Power Station"
+  ],
+  "priced": 20
+ },
+ "battery": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Hithium HeroEE NeoPower 4 G2 12.8V 314Ah LiFePO₄ Lithium Battery",
+   "Marsriva MR-LFP12-200-LAR 2.56Wh 12.8V / 200Ah Lead Acid Lithium Battery",
+   "KSTAR 6-FM-7 Rechargeable 12V-8.5AH UPS Battery"
+  ],
+  "priced": 20
+ },
+ "solar": {
+  "n": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Jackery SolarSaga 200W Solar Panel",
+   "Jackery SolarSaga 100W Solar Panel",
+   "EcoFlow 125W Portable Solar Panel"
+  ],
+  "priced": 10
+ },
+ "server": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Synology DiskStation DS425+ 4-Bay NAS Server",
+   "Asus ESC4000-E11 Intel Xeon Scalable 5th Gen GPU Server and ASUS ASMB11-iKVM",
+   "Dell PowerEdge T560 2 x Intel Xeon Silver 4510 Tower Server"
+  ],
+  "priced": 4
+ },
+ "workstation": {
+  "n": 17,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "HP Z2 SFF G1i Intel Core Ultra 7 265 16GB RAM 1TB SSD Workstation Desktop PC (Black)",
+   "HP Z4 G5 Intel Xeon W5-2445 32GB RAM 8TB HDD 1TB SSD Workstation",
+   "Lenovo ThinkStation P3 Tower Core i7 13th Gen Workstation"
+  ],
+  "priced": 4
+ },
+ "nas-san": {
+  "n": 25,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Synology DiskStation DS425+ 4-Bay NAS Server",
+   "ORICO CyberData CF500-Pro 5 Bays NAS Storage",
+   "ORICO CyberData CF500 5 Bays NAS Storage"
+  ],
+  "priced": 20
+ },
+ "server-parts": {
+  "n": 57,
+  "err": null,
+  "sec": 13,
+  "sample": [
+   "Western Digital Ultrastar DC HC590 26TB SATA Enterprise HDD",
+   "Western Digital Ultrastar DC HC580 22TB SATA Enterprise HDD",
+   "Seagate SkyHawk AI 32TB 7200RPM SATA III Surveillance HDD"
+  ],
+  "priced": 1
+ },
+ "server-rack": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Safenet SNW6612 12U Wall Mount Network Cabinet with PDU",
+   "Nexakey NX-9U 600 X 450 X 500mm Server Rack",
+   "Nexakey NX-6U 600 X 450 X 350mm Server Rack"
+  ],
+  "priced": 20
+ },
+ "os-office": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "WINDOWS SERVER 2022 - DEVICE CAL",
+   "WINDOWS GGWA - WINDOWS 11 PROFESSIONAL - LEGALIZATION GET GENUINE (CSP PERPETUAL)",
+   "MICROSOFT WINDOWS 11 PROFESSIONAL 64 BIT ENG INTL 1PK DSP OEI DVD"
+  ],
+  "priced": 8
+ },
+ "antivirus": {
+  "n": 27,
+  "err": null,
+  "sec": 18,
+  "sample": [
+   "KASPERSKY STANDARD-3 INTERNET SECURITY 1-USER 1 YEAR",
+   "KASPERSKY PLUS INTERNET SECURITY 1-USER 1 YEAR",
+   "KASPERSKY STANDARD INTERNET SECURITY 1-USER 1 YEAR"
+  ],
+  "priced": 21
+ },
+ "other-software": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "PiHR HR and Payroll Software For 51 - 100 Employees (Package-Mid)",
+   "PiHR HR and Payroll Software For 26 - 50 Employees (Package-Small)",
+   "PiHR HR and Payroll Software For 1 - 25 Employees (Package-Tiny)"
+  ],
+  "priced": 20
+ },
+ "tv": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Haier H43S80GFX 43 Inch QLED FHD Google TV",
+   "JVCO 32GF26K 32 Inch QLED HD Google TV",
+   "JVCO 43GF26K 43 Inch QLED FHD Google Smart TV"
+  ],
+  "priced": 20
+ },
+ "ac": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Walton WSI-KRYSTALINE (PRETO)-18M 1.5 Ton Inverter AC With Bluetooth",
+   "TCL TAC-24CSD/TPH21 2 Ton WiFi Inverter AC",
+   "TCL TAC-12CSD/TPH21 1 Ton Non- Smart Inverter AC"
+  ],
+  "priced": 20
+ },
+ "fridge": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "LG GS-X6354MC 674L Smart Inverter Knock Instaview Refrigerator",
+   "LG 2B392PXBB Ebony Sheen 423L Top Mount Smart Inverter Refrigerator",
+   "Haier HRF-500VBG 518L No Frost Refrigerator"
+  ],
+  "priced": 20
+ },
+ "washing-machine": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Haier HD80-V939S 8 KG Dryer With Sensor Dry",
+   "Haier HW100-BP12357S8 10KG Inverter Front Load Washing Machine",
+   "Haier HWM200-BD2178S8 20 KG Top Load Washing Machine"
+  ],
+  "priced": 20
+ },
+ "oven": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Oraimo OMO-821A InfiWave Nova 27L Microwave Oven",
+   "Samsung MC28H5025VS/D2 28L Convection Microwave Oven",
+   "LG MC2846SL-KD 28L Microwave Oven Convection"
+  ],
+  "priced": 20
+ },
+ "air-fryer": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Miyako AF-6012 7 Liter Digital Control Panel Air Fryer",
+   "Philips Essential HD9252 4.1 Liter Air Fryer",
+   "Miyako AF-5012 6L Touchscreen Air Fryer"
+  ],
+  "priced": 20
+ },
+ "cooker": {
+  "n": 11,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Miyako ASL-3P-280YLD 2.8 Liters 3 Pot Rice Cooker",
+   "Miyako ASL-3P-280-YLD Triple Pot Rice Cooker",
+   "Miyako MCM-P01 1 Ltr Electric Mini Rice Cooker"
+  ],
+  "priced": 8
+ },
+ "blender": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Miyako Blue Bird 750W Multi Purpose Mixer Grinder",
+   "Miyako Red Bull 850 watts 3 IN 1 Electric Blender",
+   "Miyako 3 IN 1 Electric Pink Panther 750W Mixer Blender"
+  ],
+  "priced": 20
+ },
+ "fan-cooler": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Qulik Nexa 56\" Under-Light Ceiling Fan (Dark Wood)",
+   "Qulik Flora 28\" Decorative Silent Ceiling Fan With Remote (Dark Wood)",
+   "Qulik Flora 28\" Decorative Silent Ceiling Fan With Remote (White)"
+  ],
+  "priced": 20
+ },
+ "geyser-heater": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Haier ES45H-Tigris 45 Litre Water Heater Geyser (Horizontal)",
+   "Haier ES35H-Tigris 35Litre Water Heater Geyser (Horizontal)",
+   "Haier ES30V-C2UG 30 Litre Vertical Water Heater Geyser"
+  ],
+  "priced": 20
+ },
+ "water-air-purifier": {
+  "n": 28,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Sharp FP-J40E-W 30 m2 Air Purifier",
+   "Sharp FP-JM30E-B 250 sq. ft. Air Purifier With Mosquito Catcher",
+   "Sharp FP-JM40E-B 30m² Air Purifier with Mosquito Catcher"
+  ],
+  "priced": 22
+ },
+ "vacuum-cleaner": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Oraimo LumaSweep ORV-501A Robot Vacuum Cleaner",
+   "Oraimo CyberVac 2 OSV-201A Cordless Stick Vacuum Cleaner",
+   "Panasonic MC-YL799 21L 2400W Tank Vacuum Cleaner"
+  ],
+  "priced": 20
+ },
+ "iron": {
+  "n": 16,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Panasonic NI-GSE050ATH 2.54L Water Tank Garment Steamer Iron",
+   "Panasonic NI-GSG060 Garment Steamer Iron With 1.5L Water Tank",
+   "Panasonic NI-GSE040PTH Garment Steamer Iron With 2L Water Tank"
+  ],
+  "priced": 14
+ },
+ "grooming": {
+  "n": 20,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "Philips MG1100/16 1000 Series Trimmer For Man Black & Red",
+   "Panasonic ER430 Cordless Black & Silver Nose Trimmer",
+   "Xiaomi Huanxing EC106 Multifunctional Hair Trimmer (Black)"
+  ],
+  "priced": 20
+ },
+ "health-device": {
+  "n": 20,
+  "err": null,
+  "sec": 4,
+  "sample": [
+   "Omron HEM-7121 Digital Blood Pressure Monitor",
+   "Beurer BM-95 Digital Blood Pressure Monitor",
+   "Beurer FT 90 Digital Thermometer (White)"
+  ],
+  "priced": 20
+ }
+}
