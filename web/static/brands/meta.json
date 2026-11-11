@@ -46,7 +46,9 @@
  "lenovo": {
   "facebook": "https://www.facebook.com/lenovo",
   "youtube": "https://www.youtube.com/channel/UCpvg0uZH-oxmCagOWJo9p9g",
-  "instagram": "https://www.instagram.com/lenovo"
+  "instagram": "https://www.instagram.com/lenovo",
+  "logo": "lenovo.png",
+  "logo_src": "উইকিপিডিয়া"
  },
  "dahua": {
   "facebook": "https://www.facebook.com/DahuaHQ",
@@ -61,7 +63,9 @@
  },
  "samsung": {
   "facebook": "https://www.facebook.com/SamsungUS",
-  "instagram": "https://www.instagram.com/samsungmobileusa"
+  "instagram": "https://www.instagram.com/samsungmobileusa",
+  "logo": "samsung.png",
+  "logo_src": "উইকিপিডিয়া"
  },
  "team": {
   "facebook": "https://www.facebook.com/teamgroupinc",
@@ -83,7 +87,9 @@
   "facebook": "https://www.facebook.com/profile.php",
   "instagram": "https://www.instagram.com/redragon_offical",
   "youtube": "https://www.youtube.com/@redragon_channel",
-  "linkedin": "https://www.linkedin.com/company/redragon-zone"
+  "linkedin": "https://www.linkedin.com/company/redragon-zone",
+  "logo": "redragon.png",
+  "logo_src": "অফিসিয়াল সাইট"
  },
  "a4tech": {
   "logo": "a4tech.png",
@@ -92,7 +98,9 @@
  "philips": {
   "linkedin": "https://www.linkedin.com/company/philips",
   "facebook": "https://www.facebook.com/Philips",
-  "instagram": "https://www.instagram.com/philips"
+  "instagram": "https://www.instagram.com/philips",
+  "logo": "philips.png",
+  "logo_src": "উইকিপিডিয়া"
  },
  "oraimo": {
   "logo": "oraimo.png",
@@ -110,7 +118,10 @@
   "logo": "logitech.png",
   "logo_src": "উইকিপিডিয়া"
  },
- "epson": {},
+ "epson": {
+  "logo": "epson.png",
+  "logo_src": "উইকিপিডিয়া"
+ },
  "edifier": {
   "facebook": "https://www.facebook.com/edifiernorthamerica",
   "instagram": "https://www.instagram.com/edifiernorthamerica",
@@ -247,7 +258,9 @@
   "youtube": "https://www.youtube.com/@lexarmemory",
   "instagram": "https://www.instagram.com/lexarmemory",
   "facebook": "https://www.facebook.com/lexarmemory",
-  "linkedin": "https://www.linkedin.com/company/lexarmemory"
+  "linkedin": "https://www.linkedin.com/company/lexarmemory",
+  "logo": "lexar.png",
+  "logo_src": "উইকিপিডিয়া"
  },
  "razer": {
   "facebook": "https://www.facebook.com/razer",
@@ -290,7 +303,10 @@
   "logo": "hisense.png",
   "logo_src": "অফিসিয়াল সাইট"
  },
- "msi": {},
+ "msi": {
+  "logo": "msi.png",
+  "logo_src": "উইকিপিডিয়া"
+ },
  "gigabyte": {},
  "sony": {
   "logo": "sony.png",
@@ -312,7 +328,10 @@
   "logo": "jbl.png",
   "logo_src": "উইকিপিডিয়া"
  },
- "g-skill": {},
+ "g-skill": {
+  "logo": "g-skill.png",
+  "logo_src": "উইকিপিডিয়া"
+ },
  "kingston": {
   "logo": "kingston.png",
   "logo_src": "উইকিপিডিয়া"
