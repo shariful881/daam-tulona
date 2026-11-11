@@ -6,6 +6,7 @@ import importlib
 import json
 import re
 import sys
+import threading
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -26,12 +27,13 @@ def main() -> int:
     today = datetime.now(BD).strftime("%Y-%m-%d")
     out = {"date": today, "scraped_at": datetime.now(BD).isoformat(timespec="minutes"), "offers": [], "health": {}}
 
-    for store_id, store in stores.items():
+    def run_store(store_id, store, sink):
+        """একটা স্টোরের সব ক্যাটাগরি; প্রতিটা স্টোর আলাদা থ্রেডে নিজের গতিতে (ভিন্ন সাইট, তাই একসাথে চালালেও কারও ওপর বাড়তি চাপ নেই)।"""
         health = {"enabled": store["enabled"], "items": 0, "errors": [], "seconds": 0, "failed_cats": []}
         out["health"][store_id] = health
         if not store["enabled"]:
             health["errors"].append(store.get("disabled_reason", "বন্ধ"))
-            continue
+            return
         module = importlib.import_module(f"scraper.stores.{store_id}")
         t0 = time.time()
         for cat in cats:
@@ -59,12 +61,22 @@ def main() -> int:
             for it in items:
                 it["store"] = store_id
                 it["category"] = cat["slug"]
-            out["offers"].extend(items)
+            sink.extend(items)
             health["items"] += len(items)
             print(f"{store_id:10} {cat['slug']:12} {len(items):4} টি", flush=True)
             if blocked:
                 break
         health["seconds"] = round(time.time() - t0)
+
+    sinks = {sid: [] for sid in stores}
+    threads = [threading.Thread(target=run_store, args=(sid, st, sinks[sid]), daemon=True) for sid, st in stores.items()]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    for sid in stores:  # স্টোরের ক্রম ঠিক রেখে (Star Tech আগে), ফল প্রতিবার একই রকম
+        out["offers"].extend(sinks[sid])
+    out["health"] = {sid: out["health"][sid] for sid in stores if sid in out["health"]}
 
     # একই প্রোডাক্ট একাধিক ক্যাটাগরি পাতায় এলে প্রথমটা রাখা, বাকিগুলো 'also'-তে
     seen, uniq = {}, []

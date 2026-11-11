@@ -25,6 +25,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/mobile/feature-phone/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/mobile-phone-feature-phone",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -107,6 +115,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/mobile-phone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/mobile-phone-smart-phone",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/smartphone-and-tablet/smartphone",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -125,6 +149,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/mobile-and-tablet-accessories",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/smartphone-and-tablet/mobile-phone-accessories",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -151,6 +191,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/graphics-tablet",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/graphics-tablet",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/smartphone-and-tablet/shop-graphics-tablet",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -289,6 +345,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/tablet",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/tablet-all",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/smartphone-and-tablet/tablet-pc",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -322,6 +394,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/gaming-laptop",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/all-laptop-gaming",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-laptop-computer/gaming-laptop",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -340,6 +428,14 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/all-laptop-ultra-slim",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -378,6 +474,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/laptop-and-tablet/laptop/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/laptop-all-laptop",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-laptop-computer/brand-laptops",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -416,6 +528,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/fashion-and-lifestyle/backpack/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/accessories-laptop-bag",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -528,6 +648,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/desktop-computer/all-in-one-pc/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-pc-all-in-one-pc",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -550,6 +678,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/mini-pc",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-pc-mini-pc",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -618,6 +754,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/desktop/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-pc",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/computers/desktop-computer",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -662,6 +814,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/processor/",
        "max_pages": 4
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-processor",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/processor",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -696,6 +864,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/motherboard/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-motherboard",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/motherboard",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -730,6 +914,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/graphics-card/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-graphics-card",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/graphics-card",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -768,6 +968,22 @@
        "url": "https://smartbd.com/product-category/computer-components/ram/",
        "max_pages": 6,
        "filter": "desktop"
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-desktop-ram",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/shop-desktop-ram",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -806,6 +1022,14 @@
        "url": "https://smartbd.com/product-category/computer-components/ram/",
        "max_pages": 6,
        "filter": "laptop"
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/laptop-ram",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -836,6 +1060,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/portable-ssd",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/storage-external-ssd",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/external-ssd",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -881,6 +1121,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/ssd",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/internal-ssd",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/solid-state-drive",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -907,6 +1163,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/portable-hard-disk",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/external-hdd",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/portable-hard-disk",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -941,6 +1213,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/hard-disk-drive/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/internal-hdd",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/hard-disk-drive",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -975,6 +1263,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/power-supply/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-power-supply",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/power-supply",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1009,6 +1313,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/casing/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-casing",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/computer-case",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1061,6 +1381,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-components/cpu-cooler/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-cpu-cooler",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/cpu-cooler",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1095,6 +1431,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/casing-fan",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-casing-fan",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/casing-fan",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1113,6 +1465,14 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-optical-device",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -1131,6 +1491,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/pc-components/gpu-vertical-mount",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1165,6 +1533,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/laptop-accessories",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/laptop-cooler",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-laptop-computer/laptop-accessories",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -1202,6 +1586,14 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/monitor-stand",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/monitor-and-display/monitor-holder",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1232,6 +1624,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/gaming/gaming-monitor/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-monitor",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -1250,6 +1650,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/all-monitor-portable-monitor",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/portable-monitor",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1288,6 +1704,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/monitor",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/monitor-all-monitor",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/monitor-and-display/computer-monitor",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -1341,6 +1773,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/keyboards",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-keyboard",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/computer-keyboard",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1387,6 +1835,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/mouse",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-mouse",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/shop-computer-mouse",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1429,6 +1893,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/mouse-pad",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-mouse-pad",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/accessories-mouse-pad",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1475,6 +1955,14 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/headphone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/audio-video-headphone",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -1535,6 +2023,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/webcam",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/camera-webcam",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/brand-webcam",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1577,6 +2081,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/microphone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-microphone",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/microphone",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1623,6 +2143,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/speakers",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/all-speaker",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/tv-home-entertainment/multimedia-speakers",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1657,6 +2193,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/bluetooth-speaker/",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/tv-home-entertainment/portable-speaker",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1683,6 +2227,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/soundbar",
        "max_pages": 1
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/soundbar",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1725,6 +2277,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/pen-drive",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/storage-pen-drive",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/brand-pen-drive",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1767,6 +2335,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/desktop-computer/computer-accessories/storage-devices/memory-card/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/storage-memory-card",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/memory-card-bd",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1789,6 +2373,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/card-reader",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/storage-card-reader",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/card-reader",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1815,6 +2415,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/gadgets-and-accessories/hub/",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/usb-hubs",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1893,6 +2501,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/enclosure",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/storage-hdd-case",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/hdd-ssd-enclosure",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1919,6 +2543,14 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/capture-card",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/capture-card",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -1957,6 +2589,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/electronic-accessories/power-and-accessories/power-strips/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/electrical-power-power-strip",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/power-strip",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2009,6 +2657,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/thermal-paste",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-accessories-thermal-paste",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/thermal-paste",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2027,6 +2691,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/presenter",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2063,6 +2735,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/monitor-and-display/monitor-light",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2099,6 +2779,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/wrist-pad",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -2160,6 +2848,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/smart-watch",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/smartwatch",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/gadget-accessories/smart-watch-gadget/smart-watch",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2196,6 +2900,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/gadget-accessories/smart-watch-gadget/smart-ring",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2264,6 +2976,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/earbuds",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-earbuds",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/headphone-speaker/earbuds",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2294,6 +3022,14 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/neckband",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-neckband",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -2336,6 +3072,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/earphone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-earphone",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/headphone-speaker/earphone",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2386,6 +3138,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/power-bank",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-power-bank",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/power-banks",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2422,6 +3190,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/tv-home-entertainment/tv-box",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2456,6 +3232,14 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/drone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/camera-drone",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -2486,6 +3270,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/gimbal",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-gimbal",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/gadget-accessories/gimbal",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2577,6 +3377,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/gaming/gaming-console/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-component-gaming-console",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/game-zone/gaming-console",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2611,6 +3427,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/gamepad",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-controller-game-pad",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/accessories/gaming-gears-gamepad",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2645,6 +3477,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/computer-accessories/gaming-chair/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-component-gaming-chair",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/game-zone/gaming-chair",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2663,6 +3511,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-component-gaming-desk",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/game-zone/gaming-desk",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2699,6 +3563,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-component-virtual-reality-vr",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/game-zone/vr-headsets",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2742,6 +3622,14 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gaming-network-router",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -2788,6 +3676,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/router",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-network-router",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/shop-routers",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2846,6 +3750,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-range-extender",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/network-extender",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2864,6 +3784,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-access-point",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/access-point-",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2886,6 +3822,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/wifi-adapter",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/lan-card-wifi-adapter",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/wifi-receiver",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2916,6 +3868,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/network-switch",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-network-switch",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/network-switches",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2956,6 +3924,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/optical-network-unit",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -2986,6 +3962,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/lan-card",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-lan-card",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/lan-cards",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3026,6 +4018,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/network-network-cable",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/server-networking/network-cable",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3119,6 +4127,14 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/network-components/wifi-camera/",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/wifi-camera",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3149,6 +4165,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/ip-camera",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/security-camera-panel-ip-camera",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/ip-camera",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3175,6 +4207,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/cc-camera",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/security-camera-panel-cc-camera",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -3233,6 +4273,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/security-system-cctv-package",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/cctv-camera",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3267,6 +4323,34 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/nvr",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/security-system-nvr",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ryans.com/category/security-system-xvr",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ryans.com/category/dvr",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/dvr",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/nvr",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3285,6 +4369,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/cc-camera-accessoriess",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3303,6 +4395,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/digital-door-locks",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3343,6 +4443,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/access-control",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3361,6 +4469,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/security-surveillance/digital-locker-vault",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3408,6 +4524,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/office-equipment/printers/laser-printers/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/document-printer-laser-printer",
+         "max_pages": 3
+        }
+       ]
       }
      }
     },
@@ -3450,6 +4574,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/printer/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/printer-all",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/printer",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3476,6 +4616,26 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/label-printer",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ryans.com/category/card-printer",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/thermal-pos-printer",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3522,6 +4682,14 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/toner",
        "max_pages": 1
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/printer-accessories",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3564,6 +4732,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/scanner/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/office-items-scanner",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/shop-scanner",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3598,6 +4782,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/photocopier",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/office-items-photocopier",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/shop-photocopier",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3636,6 +4836,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/desktop-computer/office-equipment/projector/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/office-items-projector",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/shop-projectors",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3666,6 +4882,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/monitor-and-display/signage",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3688,6 +4912,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/conference-system",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3722,6 +4954,26 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/ip-phone",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/telephone-set",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/telephone",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/office-solution/ip-phone",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3744,6 +4996,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/office-items-money-counting-machine",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/money-counting-machine",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3770,6 +5038,18 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/paper-shredder",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/office-solution/laminating-machine",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3796,6 +5076,22 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/calculator",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/gadget-calculator",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/office-solution/calculator",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -3837,6 +5133,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/action-camera",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/digital-compact-camera-action-camera",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-cameras/action-camera",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3863,6 +5175,26 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/electronic-accessories/camera/digital-camera/dslr-camera/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/dslr-camera",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ryans.com/category/mirrorless-camera",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-cameras/shop-dslr-slr",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3893,6 +5225,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/compact-camera",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-cameras/digital-camera",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3941,6 +5289,22 @@
       "diamu": {
        "url": "https://diamu.com.bd/product-category/electronic-accessories/camera/camera-accessories/lenses/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/camera-dslr-camera-lens",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-cameras/camera-lenses",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -3963,6 +5327,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-cameras/camera-accessories",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -3996,6 +5368,14 @@
       "pchouse": {
        "url": "https://www.pchouse.com.bd/online-ups",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/Online-ups",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4014,6 +5394,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/electrical-power-mini-ups",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/mini-ups",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4052,6 +5448,22 @@
       "fourstar": {
        "url": "https://fourstarit.com.bd/c/ups",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-ups",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/offline-ups",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4070,6 +5482,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/ips-price-in-bd",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4088,6 +5508,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/power-stations",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4110,6 +5538,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-component-ups-battery",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/ups/ups-ups-battery",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4136,6 +5580,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/solar-panel",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4213,6 +5665,22 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/servers/",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-and-server",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/server",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4231,6 +5699,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/desktop-pc-ai-workstation",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/work-station",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4257,6 +5741,18 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/nas-storage",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/san-storage",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4295,6 +5791,22 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/server-hdd",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/server-ram",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/server-ssd",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4313,6 +5825,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/servers-and-workstation/server-cabinet",
+         "max_pages": 4
+        }
+       ]
       }
      }
     }
@@ -4350,6 +5870,14 @@
       "smartbd": {
        "url": "https://smartbd.com/product-category/software/microsoft/operating-system/",
        "max_pages": 5
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-software/msoffice",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4372,6 +5900,34 @@
       "creatus": {
        "url": "https://www.creatus.com.bd/antivirus",
        "max_pages": 5
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/antivirus-and-security",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/shop-software/kaspersky-security",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/shop-software/eset-internet-security",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/shop-software/bitdefender-security-software",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/shop-software/norton-security",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4418,6 +5974,14 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/software",
+         "max_pages": 3
+        }
+       ]
       }
      }
     }
@@ -4459,6 +6023,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/tv",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/appliances-television",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/tv-home-entertainment/television-price",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4493,6 +6073,22 @@
       "applegadgets": {
        "url": "https://www.applegadgetsbd.com/category/air-conditioner",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/appliances-air-conditioner",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/air-conditioner",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4531,6 +6127,26 @@
       "minister": {
        "url": "https://ministerbd.com/sitemap.xml",
        "max_pages": 1
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/fridge-refrigerator",
+         "max_pages": 3
+        },
+        {
+         "url": "https://www.ryans.com/category/fridge-freezer",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/refrigerator",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4553,6 +6169,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/home-care-washing-machine",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/washing-machine",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4571,6 +6203,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/kitchen-appliance-oven",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/oven",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4589,6 +6237,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/kitchen-appliance-fryer",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/air-fryer",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4611,6 +6275,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/cooker",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4671,6 +6343,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/kitchen-appliance-blender",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/blender-and-grinder",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4701,6 +6389,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/appliances-fan",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/fan",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4723,6 +6427,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/water-heaters-geyser",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4749,6 +6461,26 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/water-care-water-purifier",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/air-purifier",
+         "max_pages": 4
+        },
+        {
+         "url": "https://www.techlandbd.com/water-purifier",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4767,6 +6499,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/home-care-vacuum-cleaner",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/vacuum-cleaner",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4785,6 +6533,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/home-appliance/electric-dry-iron",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4829,6 +6585,14 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/appliances-light",
+         "max_pages": 3
+        }
+       ]
       }
      }
     }
@@ -4866,6 +6630,22 @@
         }
        ],
        "limit": 90
+      },
+      "ryans": {
+       "sources": [
+        {
+         "url": "https://www.ryans.com/category/personal-care-shaver--trimmer",
+         "max_pages": 3
+        }
+       ]
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/trimmer",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },
@@ -4908,6 +6688,14 @@
         }
        ],
        "limit": 90
+      },
+      "techland": {
+       "sources": [
+        {
+         "url": "https://www.techlandbd.com/health-monitor",
+         "max_pages": 4
+        }
+       ]
       }
      }
     },

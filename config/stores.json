@@ -63,18 +63,16 @@
       "name": "Ryans",
       "short": "RY",
       "home": "https://www.ryans.com",
-      "enabled": false,
-      "delay": 5,
-      "disabled_reason": "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।",
+      "enabled": true,
+      "delay": 6,
       "manual": true
     },
     "techland": {
       "name": "TechLand BD",
       "short": "TL",
       "home": "https://www.techlandbd.com",
-      "enabled": false,
-      "delay": 5,
-      "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।",
+      "enabled": true,
+      "delay": 6,
       "manual": true
     },
     "diamu": {
