@@ -1,7 +1,5 @@
 {
- "asus": {
-  "logo": "asus.png"
- },
+ "asus": {},
  "ugreen": {
   "facebook": "https://www.facebook.com/UgreenGlobal",
   "instagram": "https://www.instagram.com/ugreen_official"
@@ -70,8 +68,7 @@
   "facebook": "https://www.facebook.com/profile.php",
   "instagram": "https://www.instagram.com/redragon_offical",
   "youtube": "https://www.youtube.com/@redragon_channel",
-  "linkedin": "https://www.linkedin.com/company/redragon-zone",
-  "logo": "redragon.png"
+  "linkedin": "https://www.linkedin.com/company/redragon-zone"
  },
  "a4tech": {
   "logo": "a4tech.png"
@@ -118,30 +115,25 @@
   "youtube": "https://www.youtube.com/user/AnkerOceanwing",
   "logo": "anker.png"
  },
- "apple": {
-  "logo": "apple.png"
- },
+ "apple": {},
  "intel": {
   "facebook": "https://www.facebook.com/Intel",
   "linkedin": "https://www.linkedin.com/company/intel-corporation",
   "instagram": "https://www.instagram.com/intel",
-  "youtube": "https://www.youtube.com/user/channelintel",
-  "logo": "intel.png"
+  "youtube": "https://www.youtube.com/user/channelintel"
  },
  "haier": {},
  "antec": {
   "facebook": "https://www.facebook.com/AntecInc",
   "instagram": "https://www.instagram.com/antec",
-  "youtube": "https://www.youtube.com/user/watchAntecTV",
-  "logo": "antec.png"
+  "youtube": "https://www.youtube.com/user/watchAntecTV"
  },
  "netac": {},
  "viewsonic": {
   "facebook": "https://www.facebook.com/ViewSonicCorp",
   "youtube": "https://www.youtube.com/c/ViewSonicUS",
   "linkedin": "https://www.linkedin.com/company/viewsonic",
-  "instagram": "https://www.instagram.com/viewsonic",
-  "logo": "viewsonic.png"
+  "instagram": "https://www.instagram.com/viewsonic"
  },
  "brother": {},
  "benq": {
@@ -170,8 +162,7 @@
  "lg": {
   "facebook": "https://www.facebook.com/LGUSA",
   "instagram": "https://www.instagram.com/lgusa",
-  "linkedin": "https://www.linkedin.com/company/lg-electronics-north-america",
-  "logo": "lg.png"
+  "linkedin": "https://www.linkedin.com/company/lg-electronics-north-america"
  },
  "tenda": {
   "logo": "tenda.png"
@@ -188,13 +179,10 @@
   "logo": "sandisk.png"
  },
  "adata": {},
- "apacer": {
-  "logo": "apacer.png"
- },
+ "apacer": {},
  "microsoft": {
   "facebook": "https://www.facebook.com/Microsoft",
-  "linkedin": "https://www.linkedin.com/company/microsoft",
-  "logo": "microsoft.png"
+  "linkedin": "https://www.linkedin.com/company/microsoft"
  },
  "lexar": {
   "youtube": "https://www.youtube.com/@lexarmemory",
