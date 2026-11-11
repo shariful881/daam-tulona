@@ -1,0 +1,43 @@
+{
+ "_নোট": "ব্র্যান্ডের নিজের সাইট থেকে শুধু বিবরণ (দাম নয়)। sitemaps থেকে প্রোডাক্ট পাতার তালিকা, url_re মেলে এমন ঠিকানা রাখা হয়; spec_suffix থাকলে বিবরণের পাতা = ঠিকানা + suffix। robots.txt মানা হয়; delay = দুই পাতার মাঝে সেকেন্ড, limit = দিনে সর্বোচ্চ পাতা। Gigabyte, MSI (robots.txt-ই বন্ধ), Hikvision (বট-যাচাই) বাদ।",
+ "brands": {
+  "asus": {
+   "name": "ASUS",
+   "sitemaps": [
+    "https://www.asus.com/sitemap.xml"
+   ],
+   "sitemap_re": "/(bd|us)/sitemap/",
+   "url_re": "^https://www\\.asus\\.com/(bd|us)/.+/techspec/$",
+   "delay": 6,
+   "limit": 400
+  },
+  "tp-link": {
+   "name": "TP-Link",
+   "sitemaps": [
+    "https://www.tp-link.com/us/sitemap.xml"
+   ],
+   "url_re": "^https://www\\.tp-link\\.com/us/(home-networking|business-networking|smart-home|networking|home-security|wifi-range-extender)/[^/]+/[^/]+/$",
+   "delay": 6,
+   "limit": 300
+  },
+  "corsair": {
+   "name": "Corsair",
+   "sitemaps": [
+    "https://www.corsair.com/us-sitemap-products-1.xml",
+    "https://www.corsair.com/us-sitemap-products-2.xml"
+   ],
+   "url_re": "^https://www\\.corsair\\.com/us/en/p/[^/]+/[^/]+/[^/]+$",
+   "delay": 6,
+   "limit": 300
+  },
+  "dahua": {
+   "name": "Dahua",
+   "sitemaps": [
+    "https://www.dahuasecurity.com/en/sitemap.xml"
+   ],
+   "url_re": "^https://www\\.dahuasecurity\\.com/products/[^?#]+/[^/?#]+$",
+   "delay": 100,
+   "limit": 50
+  }
+ }
+}

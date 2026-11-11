@@ -1,0 +1,236 @@
+"""ব্র্যান্ডের নিজের ওয়েবসাইট থেকে প্রোডাক্টের বিবরণ (দাম নয়)।
+
+ধাপ:
+  ১. সূচি: ব্র্যান্ডের sitemap থেকে প্রোডাক্ট পাতার তালিকা -> data/brand_index/<ব্র্যান্ড>.json (সপ্তাহে একবার নতুন করে)
+  ২. মেলানো: আমাদের প্রোডাক্টের নামের মডেল কোড (যেমন AX73, B3605, XVR5108HS) পাতার ঠিকানার সাথে মেলানো;
+     নিশ্চিত মিল না হলে বাদ (ভুল বিবরণের চেয়ে বিবরণ না থাকা ভালো)
+  ৩. আনা: প্রতিটা ব্র্যান্ড আলাদা থ্রেডে, robots.txt মেনে, নিজের বিরতি ও দৈনিক সীমায়
+ফল: data/brand_details/<আইডির প্রথম অক্ষর>/<আইডি>.json  (১২০ দিন পর নতুন করে)
+চালানো: python -m tools.brand_details [--index-only] [--dry]
+"""
+import json
+import os
+import re
+import sys
+import threading
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+from scraper.common import Blocked, fetch
+from scraper.details_generic import parse_brand
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+BD = timezone(timedelta(hours=6))
+CONF = json.loads((ROOT / "config/brand_sources.json").read_text())["brands"]
+MAX_MINUTES = int(os.environ.get("BRAND_MINUTES", "120"))
+REFRESH_DAYS = 120
+LOC = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>")
+
+
+def out_path(pid):
+    return DATA / "brand_details" / pid[:1] / f"{pid}.json"
+
+
+# ---------- ১. সূচি ----------
+def _get(url, delay):
+    return fetch(url, delay, cache=False)
+
+
+def build_index(brand, conf):
+    url_re = re.compile(conf["url_re"])
+    sm_re = re.compile(conf["sitemap_re"]) if conf.get("sitemap_re") else None
+    todo, seen, urls = list(conf["sitemaps"]), set(), set()
+    while todo and len(seen) < 300:
+        sm = todo.pop(0)
+        if sm in seen:
+            continue
+        seen.add(sm)
+        try:
+            xml = _get(sm, conf.get("delay", 6) if len(seen) > 1 else 0)
+        except Exception as e:
+            print(f"  {brand}: sitemap ব্যর্থ {sm} ({type(e).__name__})", flush=True)
+            continue
+        locs = [u.replace("&amp;", "&") for u in LOC.findall(xml)]
+        if "<sitemapindex" in xml[:2000]:
+            todo += [u for u in locs if not sm_re or sm_re.search(u)]
+        else:
+            urls.update(u for u in locs if url_re.match(u))
+    items = sorted(urls)
+    (DATA / "brand_index").mkdir(parents=True, exist_ok=True)
+    (DATA / "brand_index" / f"{brand}.json").write_text(json.dumps(
+        {"built": datetime.now(BD).date().isoformat(), "urls": items}, ensure_ascii=False, indent=0))
+    print(f"{brand}: সূচিতে {len(items)}টা পাতা ({len(seen)}টা sitemap)", flush=True)
+    return items
+
+
+def load_index(brand, conf, force=False):
+    p = DATA / "brand_index" / f"{brand}.json"
+    if p.exists() and not force:
+        d = json.loads(p.read_text())
+        if (datetime.now(BD).date() - datetime.fromisoformat(d["built"]).date()).days < 7 and d["urls"]:
+            return d["urls"]
+    return build_index(brand, conf)
+
+
+# ---------- ২. মেলানো ----------
+def norm(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def codes_of(name):
+    """নাম থেকে মডেল কোড: অক্ষর+সংখ্যা মেশানো শব্দ (AX73, B3605CVA, XVR5108HS-4KL-X, HX1200i)।"""
+    out = set()
+    for tok in re.split(r"[\s(),/|+]+", name):
+        t = tok.strip(".-_\"'")
+        n = norm(t)
+        if len(n) >= 3 and re.search(r"\d", n) and re.search(r"[a-z]", n) \
+                and not re.fullmatch(r"\d+(gb|tb|mb|hz|w|mm|cm|mah|mp|k|p|th|nd|rd|st|g|v|a|x|in|inch|ms|fps|mbps|gbps|ghz|mhz|ch|rpm|cfm|l)", n) \
+                and not re.fullmatch(r"(ddr|lpddr|gddr|pcie|gen|usb|wifi|rtx|gtx|rx|i|r|ryzen|core|wi|bt|cat|hdmi|dp|ax|ac|be|ipx|ip)\d{0,2}", n):
+            out.add(n)
+        if "-" in t:  # TL-SF1005D -> sf1005d ; DH-XVR5108HS -> xvr5108hs
+            for part in t.split("-"):
+                pn = norm(part)
+                if len(pn) >= 4 and re.search(r"\d", pn) and re.search(r"[a-z]", pn):
+                    out.add(pn)
+    return out
+
+
+def words_of(name):
+    return {w for w in re.findall(r"[a-z]{3,}", name.lower())}
+
+
+def slug_chunks(url):
+    path = re.sub(r"^https?://[^/]+", "", url).lower().replace("techspec", "")
+    parts = [p for p in re.split(r"[^a-z0-9]+", path) if p]
+    chunks = set()
+    for i in range(len(parts)):
+        for j in range(i + 1, min(len(parts), i + 5) + 1):
+            chunks.add("".join(parts[i:j]))
+    return chunks, set(parts)
+
+
+def best_match(name, index_rows):
+    codes = codes_of(name)
+    if not codes:
+        return None
+    words = words_of(name)
+    scored = []
+    for url, chunks, parts in index_rows:
+        code_score = 0.0
+        for c in codes:
+            if c in chunks:
+                code_score += len(c)
+            else:
+                # পাতার কোড নামের কোডের শুরু (B3605 বনাম B3605CVA) বা শেষ (XVR5108HS বনাম DHXVR5108HS)
+                part = max((len(s) for s in chunks if len(s) >= 5 and re.search(r"\d", s) and (c.startswith(s) or c.endswith(s))), default=0)
+                code_score += part * 0.6
+        if code_score < 4:
+            continue
+        scored.append((code_score + 0.3 * len(words & parts), code_score, url))
+    if not scored:
+        return None
+    scored.sort(reverse=True)
+    if len(scored) > 1 and scored[1][0] == scored[0][0]:
+        # সমান মিল: ঠিকানার শেষ অংশ ছোট যেটার (মূল মডেল), নয়তো অনিশ্চিত -> বাদ
+        tied = [s for s in scored if s[0] == scored[0][0]]
+        tied.sort(key=lambda s: len(s[2]))
+        if len(tied[0][2]) == len(tied[1][2]):
+            return None
+        return tied[0][2]
+    return scored[0][2]
+
+
+def plan(brand, conf, products, offers, index):
+    rows = [(u,) + slug_chunks(u) for u in index]
+    today = datetime.now(BD).date()
+    jobs = []
+    for pid, so in offers.items():
+        p = products.get(pid)
+        if not p or p["brand"].lower() != brand:
+            continue
+        op = out_path(pid)
+        if op.exists():
+            try:
+                if (today - datetime.fromisoformat(json.loads(op.read_text())["fetched"]).date()).days < REFRESH_DAYS:
+                    continue
+            except Exception:
+                pass
+        url = best_match(p["name"], rows)
+        if url:
+            multi = sum(1 for o in so.values() if o.get("price")) > 1
+            jobs.append((not multi, not any(o.get("in_stock") for o in so.values()), pid, url))
+    jobs.sort()
+    return [(pid, url) for *_, pid, url in jobs]
+
+
+# ---------- ৩. আনা ----------
+def worker(brand, conf, jobs, deadline, stats, lock):
+    done = failed = 0
+    cache = {}  # একই পাতা কয়েকটা প্রোডাক্টের (রং/সাইজ ভেদ) হলে একবারই আনা
+    for pid, url in jobs[:conf.get("limit", 200)]:
+        if time.time() > deadline:
+            break
+        try:
+            if url not in cache:
+                cache[url] = parse_brand(fetch(url, conf.get("delay", 6), cache=False), brand)
+            d = dict(cache[url])
+        except Blocked as e:
+            print(f"{brand}: ব্লক ({e}), আজ এখানেই থামা", flush=True)
+            break
+        except PermissionError:
+            failed += 1
+            continue
+        except Exception:
+            failed += 1
+            if failed >= 20 and done == 0:
+                break
+            continue
+        if not d.get("specs"):
+            failed += 1
+            continue
+        d.update(fetched=datetime.now(BD).isoformat(timespec="minutes"), source=url, brand_site=conf["name"])
+        with lock:
+            op = out_path(pid)
+            op.parent.mkdir(parents=True, exist_ok=True)
+            op.write_text(json.dumps(d, ensure_ascii=False, indent=1))
+        done += 1
+    stats[brand] = (done, failed, len(jobs))
+
+
+def main(argv):
+    products = json.loads((DATA / "products.json").read_text())
+    offers = json.loads((DATA / "offers.json").read_text())
+    only = [a for a in argv if not a.startswith("--")]
+    deadline, stats, lock, threads = time.time() + MAX_MINUTES * 60, {}, threading.Lock(), []
+    plans = {}
+    for brand, conf in CONF.items():
+        if only and brand not in only:
+            continue
+        try:
+            index = load_index(brand, conf, force="--reindex" in argv)
+        except Blocked as e:
+            print(f"{brand}: সূচি আনতে ব্লক ({e})")
+            continue
+        if "--index-only" in argv:
+            continue
+        jobs = plan(brand, conf, products, offers, index)
+        mine = sum(1 for p in products.values() if p["brand"].lower() == brand)
+        print(f"{brand}: আমাদের {mine}টা প্রোডাক্টের মধ্যে {len(jobs)}টা মিলেছে (এই রানে সর্বোচ্চ {conf.get('limit')})", flush=True)
+        plans[brand] = jobs
+        if "--dry" in argv:
+            for pid, url in jobs[:15]:
+                print(f"    {products[pid]['name'][:70]:70} -> {url}")
+            continue
+        t = threading.Thread(target=worker, args=(brand, conf, jobs, deadline, stats, lock), daemon=True)
+        t.start()
+        threads.append(t)
+    for t in threads:
+        t.join()
+    for b, (d, f, n) in stats.items():
+        print(f"{b:10} সম্পন্ন {d} | ব্যর্থ {f} | মিলেছিল {n}")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
