@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["web/**", "config/**", "data/manual_matches.json", ".github/workflows/deploy-now.yml"]
+    paths: ["web/**", "config/**", "data/manual_matches.json", "data/manual_prices.json", ".github/workflows/deploy-now.yml"]
 
 permissions:
   contents: read

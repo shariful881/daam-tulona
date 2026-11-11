@@ -668,6 +668,89 @@
   };
 
   /* ---------- সেটিং ---------- */
+  /* ---------- হাতে দাম: যে দোকান স্বয়ংক্রিয় ভিজিট আটকায়, সেখানে মানুষ নিজে দেখে দাম বসায় ---------- */
+  VIEWS.manual = function (p) {
+    var idx = S.search ? Promise.resolve(S.search) : fetch(BASE + "/search.json").then(function (r) { return r.json(); }).then(function (j) { S.search = j; return j; });
+    return Promise.all([getJSON("data/manual_prices.json").catch(function () { return {}; }), getJSON("config/stores.json"), idx]).then(function (r) {
+      var mp = clone(r[0]), st = r[1].stores, list = r[2], byId = {}, cur = null;
+      var MS = Object.keys(st).filter(function (k) { return st[k].manual; });
+      list.forEach(function (x) { byId[x.id] = x; });
+      var today = new Date(Date.now() + 6 * 3600e3).toISOString().slice(0, 10);
+      function days(d) { return Math.round((new Date(today) - new Date(d)) / 864e5); }
+      function gsearch(sid, name) { return "https://www.google.com/search?q=" + encodeURIComponent("site:" + st[sid].home.replace(/^https?:\/\/(www\.)?/, "") + " " + name); }
+      function entries() {
+        var out = [];
+        Object.keys(mp).forEach(function (id) { if (id[0] === "_") return; Object.keys(mp[id]).forEach(function (sid) { out.push({ id: id, sid: sid, m: mp[id][sid] }); }); });
+        return out.sort(function (a, b) { return a.m.date < b.m.date ? -1 : 1; });
+      }
+      function editor(id) {
+        var x = byId[id]; if (!x) return "";
+        var have = mp[id] || {};
+        return '<section class="card" id="med"><h2>' + esc(x.n) + '</h2><p class="muted" style="margin:0 0 8px;font-size:.82rem">' + esc(x.c) + (isFinite(+x.p) && +x.p > 0 ? " · এখন সাইটে সর্বনিম্ন ৳" + bn(Number(x.p).toLocaleString("en-US")) : "") +
+          ' · <a href="' + BASE + "/p/" + id + '/" target="_blank" style="text-decoration:underline">পাতাটা দেখুন</a></p>' +
+          MS.map(function (sid) {
+            var m = have[sid] || {};
+            return '<div class="aitem" data-sid="' + sid + '"><div class="ahead"><b>' + esc(st[sid].name) + "</b>" + (m.date ? '<small class="muted">' + bn(days(m.date)) + " দিন আগে বসানো</small>" : "") + "</div>" +
+              '<a class="abtn ghost" style="display:inline-flex;align-items:center;margin-bottom:8px" target="_blank" rel="noopener" href="' + gsearch(sid, x.n) + '">' + esc(st[sid].name) + "-এ খুঁজুন ↗</a>" +
+              '<div class="agrid"><div class="af"><label>দাম (৳)</label><input type="number" inputmode="numeric" data-f="price" value="' + esc(m.price || "") + '" placeholder="যেমন 13500"></div>' +
+              '<div class="af"><label>প্রোডাক্ট পাতার লিংক</label><input type="url" data-f="url" value="' + esc(m.url || "") + '" placeholder="' + esc(st[sid].home) + '/…"></div></div>' +
+              '<label class="atog"><input type="checkbox" data-f="in_stock"' + (m.in_stock === false ? "" : " checked") + "> স্টকে আছে</label>" +
+              (m.price ? ' <button type="button" class="abtn ghost" data-del="' + sid + '" style="min-height:32px">মুছুন</button>' : "") + "</div>";
+          }).join("") +
+          '<button type="button" class="abtn" id="mset">এই প্রোডাক্টের দাম রাখুন</button><p class="muted" style="font-size:.8rem;margin:6px 0 0">রাখার পর নিচে "সেভ করুন" চাপলে ২-৩ মিনিটে সাইটে আসবে।</p></section>';
+      }
+      function draw() {
+        var es = entries(), due = es.filter(function (e) { return days(e.m.date) >= 7; });
+        p.innerHTML =
+          '<section class="card"><h2>হাতে দাম</h2><p class="muted" style="margin:0;font-size:.85rem;line-height:1.6">যে দোকানগুলো স্বয়ংক্রিয়ভাবে দাম তুলতে দেয় না (' +
+            MS.map(function (k) { return esc(st[k].name); }).join(", ") + "), সেখানে নিজে দোকানের পাতা খুলে দাম দেখে এখানে বসান। সাইটে লেখা থাকবে \"হাতে যাচাই করা\" আর কত দিন আগে। " +
+            "<b>৭ দিন</b> পরে এখানে হালনাগাদের তালিকায় আসবে, <b>১৪ দিন</b> পেরোলে সাইট থেকে নিজে থেকে সরে যাবে (পুরনো দাম যেন না দেখায়)।</p>" +
+            '<div class="af" style="margin-top:10px"><label for="mq">প্রোডাক্ট খুঁজুন</label><input type="search" id="mq" placeholder="নাম লিখুন, যেমন Archer C6"></div><div class="rows" id="mres"></div></section>' +
+          (cur ? editor(cur) : "") +
+          (due.length ? '<section class="card"><h2>এই সপ্তাহে হালনাগাদ করুন <span class="sub">· ' + bn(due.length) + "টি</span></h2>" +
+            '<div class="anote warn" style="font-size:.82rem">এগুলো ৭ দিনের বেশি পুরনো। দোকানের পাতা দেখে দাম বদলে থাকলে ঠিক করুন, একই থাকলে শুধু "রাখুন" চাপলেই তারিখ নতুন হবে।</div>' +
+            due.map(function (e) { return row(e); }).join("") + "</section>" : "") +
+          '<section class="card"><h2>সব হাতে বসানো দাম <span class="sub">· ' + bn(es.length) + "টি</span></h2>" +
+            (es.length ? es.map(function (e) { return row(e); }).join("") : '<p class="aempty">এখনো কোনো দাম বসানো হয়নি। উপরে প্রোডাক্ট খুঁজে শুরু করুন।</p>') + "</section>";
+        var q = $("#mq");
+        q.addEventListener("input", function () {
+          var t = q.value.trim().toLowerCase(), words = t.split(/\s+/).filter(Boolean);
+          $("#mres").innerHTML = words.length ? list.filter(function (x) { var n = x.n.toLowerCase(); return words.every(function (w) { return n.indexOf(w) > -1; }); }).slice(0, 12).map(function (x) {
+            return '<button type="button" class="row" data-pick="' + esc(x.id) + '" style="text-align:left;width:100%"><div style="min-width:0"><div class="n">' + esc(x.n) + '</div><div class="w">' + esc(x.c) + "</div></div></button>"; }).join("") : "";
+        });
+      }
+      function row(e) {
+        var d = days(e.m.date), x = byId[e.id] || { n: e.id };
+        return '<div class="apair"><div class="nm">' + esc(x.n) + '<br><small class="muted">' + esc(st[e.sid] ? st[e.sid].name : e.sid) + " · ৳" + bn(Number(e.m.price).toLocaleString("en-US")) + " · " +
+          (d >= 14 ? '<b style="color:var(--warn)">' + bn(d) + " দিন, সাইটে দেখাচ্ছে না</b>" : bn(d) + " দিন আগে") + '</small></div><div class="bt"><button type="button" class="abtn ghost" data-pick="' + esc(e.id) + '">হালনাগাদ</button></div></div>';
+      }
+      draw();
+      p.addEventListener("click", function (ev) {
+        var pk = ev.target.closest("[data-pick]");
+        if (pk) { cur = pk.dataset.pick; draw(); var ed = $("#med"); if (ed) ed.scrollIntoView({ behavior: "smooth" }); return; }
+        var del = ev.target.closest("[data-del]");
+        if (del && cur && mp[cur]) { delete mp[cur][del.dataset.del]; if (!Object.keys(mp[cur]).length) delete mp[cur]; markDirty("manual"); draw(); return; }
+        if (ev.target.id === "mset" && cur) {
+          var ok = 0, bad = "";
+          $$("#med [data-sid]").forEach(function (box) {
+            var sid = box.dataset.sid, price = +($("[data-f=price]", box).value || 0), url = $("[data-f=url]", box).value.trim();
+            if (!price) return;
+            if (price < 50 || price > 5000000) { bad = st[sid].name + "-এর দামটা ঠিক মনে হচ্ছে না"; return; }
+            var host = st[sid].home.replace(/^https?:\/\/(www\.)?/, "");
+            if (url && url.indexOf(host) < 0) { bad = st[sid].name + "-এর লিংক ওই দোকানের নয়"; return; }
+            mp[cur] = mp[cur] || {};
+            mp[cur][sid] = { price: price, url: url || st[sid].home, in_stock: $("[data-f=in_stock]", box).checked, date: today };
+            ok++;
+          });
+          if (bad) { toast(bad, true); return; }
+          if (!ok) { toast("অন্তত একটা দোকানের দাম লিখুন", true); return; }
+          markDirty("manual"); toast(bn(ok) + "টি দাম রাখা হলো। নিচে সেভ চাপুন।"); cur = null; draw();
+        }
+      });
+      savers.manual = function () { return putJSON("data/manual_prices.json", mp, "হাতে বসানো দাম"); };
+    });
+  };
+
   VIEWS.settings = function (p) {
     p.innerHTML =
       '<section class="card"><h2>GitHub টোকেন কীভাবে বানাবেন</h2><div class="anote"><ol>' +

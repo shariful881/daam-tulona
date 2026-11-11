@@ -1,5 +1,5 @@
 {
-  "_নোট": "enabled: false মানে স্টোরটা এখন তোলা হচ্ছে না। delay = দুই রিকোয়েস্টের মাঝে কত সেকেন্ড অপেক্ষা (স্টোরের robots.txt অনুযায়ী)।",
+  "_নোট": "enabled: false মানে স্টোরটা এখন তোলা হচ্ছে না। delay = দুই রিকোয়েস্টের মাঝে কত সেকেন্ড অপেক্ষা (স্টোরের robots.txt অনুযায়ী)। manual: true = এই দোকানের দাম অ্যাডমিনের 'হাতে দাম' থেকে বসানো যায় (data/manual_prices.json)।",
   "stores": {
     "startech": {
       "name": "Star Tech",
@@ -65,7 +65,8 @@
       "home": "https://www.ryans.com",
       "enabled": false,
       "delay": 5,
-      "disabled_reason": "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+      "disabled_reason": "Cloudflare-এর বট যাচাই অটোমেটেড ভিজিট আটকে দেয়। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।",
+      "manual": true
     },
     "techland": {
       "name": "TechLand BD",
@@ -73,7 +74,8 @@
       "home": "https://www.techlandbd.com",
       "enabled": false,
       "delay": 5,
-      "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।"
+      "disabled_reason": "Cloudflare অটোমেটেড ভিজিট ব্লক করে। ডাটা ফিড বা অনুমতি পেলে চালু করা যাবে।",
+      "manual": true
     },
     "diamu": {
       "name": "Diamu",
@@ -88,6 +90,24 @@
       "home": "https://www.applegadgetsbd.com",
       "enabled": true,
       "delay": 5
+    },
+    "pickaboo": {
+      "name": "Pickaboo",
+      "short": "PB",
+      "home": "https://www.pickaboo.com",
+      "enabled": false,
+      "delay": 5,
+      "disabled_reason": "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।",
+      "manual": true
+    },
+    "gadgetandgear": {
+      "name": "Gadget & Gear",
+      "short": "GG",
+      "home": "https://gadgetandgear.com",
+      "enabled": false,
+      "delay": 5,
+      "disabled_reason": "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।",
+      "manual": true
     }
   }
 }

@@ -53,6 +53,7 @@ SECTION_BN = {"key features": "মূল বৈশিষ্ট্য", "warranty
               "camera": "ক্যামেরা", "battery": "ব্যাটারি", "connectivity": "কানেক্টিভিটি", "graphics": "গ্রাফিক্স",
               "keyboard & touchpad": "কিবোর্ড ও টাচপ্যাড", "audio": "অডিও", "network": "নেটওয়ার্ক", "power": "পাওয়ার",
               "general": "সাধারণ", "basic information": "সাধারণ তথ্য", "ports & slots": "পোর্ট ও স্লট", "operating system": "অপারেটিং সিস্টেম"}
+MANUAL_MAX_DAYS = 14  # হাতে বসানো দাম এর বেশি পুরনো হলে দেখানো হয় না
 STATUS = {"ok": ("স্টকে আছে", "ok"), "out": ("স্টক আউট", "out"), "pre": ("প্রি-অর্ডার", "out"),
           "upcoming": ("শীঘ্রই আসছে", "out"), "no_price": ("দাম জানতে কল করুন", "")}
 BN_MONTHS = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
@@ -698,7 +699,25 @@ def main():
     brand_details = load_details("brand_details")
     today = health["date"]
     updated = bn_date(today) + ", " + health["scraped_at"][11:16]
-    enabled = [s for s, v in stores.items() if v["enabled"]]
+    # হাতে যাচাই করা দাম (অ্যাডমিন → হাতে দাম): যে দোকান স্বয়ংক্রিয় ভিজিট আটকায়, সেখানে মানুষ দেখে দাম বসায়
+    manual = json.loads((DATA / "manual_prices.json").read_text()) if (DATA / "manual_prices.json").exists() else {}
+    manual_n = 0
+    for mpid, per in manual.items():
+        if mpid.startswith("_") or mpid not in products or not isinstance(per, dict):
+            continue
+        for msid, m in per.items():
+            try:
+                age_m = (date.fromisoformat(today) - date.fromisoformat(m["date"])).days
+            except Exception:
+                continue
+            if msid not in stores or not m.get("price") or age_m > MANUAL_MAX_DAYS or msid in (offers.get(mpid) or {}):
+                continue
+            instock = m.get("in_stock", True)
+            offers.setdefault(mpid, {})[msid] = {"name": products[mpid]["name"], "url": m.get("url") or stores[msid]["home"],
+                                                 "price": int(m["price"]), "regular": None, "in_stock": instock,
+                                                 "status": "ok" if instock else "out", "seen": m["date"], "manual": True}
+            manual_n += 1
+    enabled = [s for s, v in stores.items() if v["enabled"] or (v.get("manual") and manual_n)]
     ads = load_ads(today)
     for sid in ads["featured_stores"]:
         if sid in stores:
@@ -896,10 +915,12 @@ def main():
             age = (date.fromisoformat(today) - date.fromisoformat(o["seen"])).days if o and o.get("seen") else None
             fresh = (None if age is None else "আজ যাচাই করা" if age == 0 else "গতকাল যাচাই করা" if age == 1
                      else f"{bn_num(age)} দিন আগে যাচাই করা")
+            if o and o.get("manual"):  # হাতে দেখে বসানো দাম, সপ্তাহে একবার হালনাগাদ হয়
+                fresh = "হাতে যাচাই করা · " + ("আজ" if age == 0 else "গতকাল" if age == 1 else f"{bn_num(age)} দিন আগে")
             if s in it["sus"]:
                 label, cls = "দাম যাচাই চলছে", "chk"
             ptype = phone_type(o.get("name"), stores[s]) if o and it["category"] in PHONE_CATS else None
-            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= 2), "ptype": ptype,
+            rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= (8 if o and o.get("manual") else 2)), "ptype": ptype,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),
                          "featured": bool(o and o.get("in_stock") and stores[s].get("featured"))})
         # স্পন্সরড স্টোর (স্টকে থাকলে) উপরে, "স্পন্সরড" লেখাসহ; বাকিরা দাম অনুযায়ী
