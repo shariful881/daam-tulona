@@ -114,6 +114,7 @@
         <dl>{% for k, v in rows.items() %}<div><dt>{{ k }}</dt><dd style="white-space:pre-line">{{ v }}</dd></div>{% endfor %}</dl>
       </details>
       {% endfor %}
+      {% if spec_credit %}<p class="muted" style="font-size:.78rem;margin:8px 0 0">তথ্যসূত্র: <a href="{{ spec_credit.url }}" target="_blank" rel="nofollow noopener">{{ spec_credit.name }}-এর অফিসিয়াল ওয়েবসাইট</a>। বাংলাদেশে বিক্রি হওয়া মডেলে সামান্য ভিন্নতা থাকতে পারে।</p>{% endif %}
     {% else %}
     <details open><summary>স্পেসিফিকেশন</summary>
       {% if not feat_rows %}<dl>

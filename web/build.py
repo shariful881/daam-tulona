@@ -471,9 +471,9 @@ def build_brand_pages(items, leaves, group_of, BR, write):
     return sorted(cards, key=lambda c: -c["count"])
 
 
-def load_details():
+def load_details(folder="details"):
     out = {}
-    base = DATA / "details"
+    base = DATA / folder
     if base.exists():
         for f in base.glob("*/*.json"):
             out[f.stem] = json.loads(f.read_text())
@@ -506,6 +506,7 @@ def main():
     health = json.loads((DATA / "health.json").read_text())
     suggestions = json.loads((DATA / "suggestions.json").read_text()) if (DATA / "suggestions.json").exists() else []
     details = load_details()
+    brand_details = load_details("brand_details")
     today = health["date"]
     updated = bn_date(today) + ", " + health["scraped_at"][11:16]
     enabled = [s for s, v in stores.items() if v["enabled"]]
@@ -627,9 +628,15 @@ def main():
         warranty = warranty_bn(det.get("warranty"))
         feats = det.get("key_features") or p.get("features") or []
         bsp = next((BSPEC[o["url"]] for o in so.values() if o.get("url") in BSPEC), None)
-        feat_rows, feat_extra = key_specs(it["category"], p["name"], det.get("specs"), feats, bsp, FEAT_BN)
-        spec_sections = [(section_bn(sec), rows_) for sec, rows_ in det.get("specs", {}).items()
+        bdet = brand_details.get(pid) or {}  # ব্র্যান্ডের নিজের সাইটের বিবরণ সবচেয়ে নির্ভরযোগ্য, তাই আগে
+        all_specs = dict(bdet.get("specs") or {})
+        for sec_, rows_ in (det.get("specs") or {}).items():
+            all_specs[sec_ + " (স্টোর)" if sec_ in all_specs else sec_] = rows_
+        feat_rows, feat_extra = key_specs(it["category"], p["name"], all_specs or None, feats, bsp, FEAT_BN)
+        spec_src = bdet if bdet.get("specs") else det
+        spec_sections = [(section_bn(sec), rows_) for sec, rows_ in (spec_src.get("specs") or {}).items()
                          if "warranty" not in sec.lower()]
+        spec_credit = {"name": bdet["brand_site"], "url": bdet["source"]} if bdet.get("specs") else None
         faq = [
             (f"{p['name']} এর দাম কত?",
              f"আজকের হিসাবে সর্বনিম্ন দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ।" if best
@@ -660,7 +667,7 @@ def main():
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(
-            **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, feat_rows=feat_rows, feat_extra=feat_extra,
+            **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, spec_credit=spec_credit, feat_rows=feat_rows, feat_extra=feat_extra,
             best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],
