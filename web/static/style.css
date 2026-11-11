@@ -716,3 +716,8 @@ main.col>.foot,main.col>.footnav{order:99}
   .pcm{border-radius:18px;max-height:80vh}
   .pccta:hover{box-shadow:0 6px 18px rgba(18,48,44,.08)}
 }
+
+/* কোম্পানি পরিচিতির সোশ্যাল লিংক (ব্র্যান্ডের অফিসিয়াল সাইট থেকে নেওয়া) */
+.blinks a.bsoc{gap:6px}
+.blinks a.bsoc svg{width:16px;height:16px;flex:0 0 auto}
+.blinks a.fb svg{fill:#1877f2}.blinks a.yt svg{fill:#ff0033}.blinks a.ig svg{fill:#d62976}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS RT-BE92U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6E (802.11ax)\nWiFi 6 (802.11ax)",
+   "Product Segment": "BE9700 ultimate BE performance : 1032+2882+5764 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "6GHz 2x2\n5GHz 2x2\n2.4GHz 3x3",
+   "Processor": "2.0GHz quad-core processor",
+   "Memory": "256 MB Flash and 1 GB DDR4 RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160/320 MHz bandwidth",
+   "Operating Frequency": "6 GHz\n5 GHz\n2.4 GHz",
+   "Operating Mode": "Repeater Mode\nMedia Bridge Mode\nAccess Point Mode\nAiMesh Node Mode\nWireless Router Mode",
+   "I/O Ports": "1 x 10Gbps for WAN/LAN\n1 x 2.5Gbps for WAN/LAN\n3 x 2.5 Gbps for LAN\nUSB 3.2 Gen1 x1",
+   "Buttons": "WPS Button, Reset Button, Power Switch",
+   "LED Indicator": "Power x1\nWAN x1\nLAN x1\n2.4GHz x1\n5GHz x1",
+   "Package Content": "RT-BE92U WiFi 7 Tri-band Router\nWall Mount Kit\nRJ-45 cable\nPower Adapter\nQuick Start Guide",
+   "Product Dimensions": "247.18 x 101.59 x 287.47 mm / 9.73 x 4.00 x 11.32 inch",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Security": "AiProtection, VPN, WPA/WPA2/WPA3 Personal\nWPA/WPA2/WPA3 Enterprise",
+   "AiProtection": "AiProtection, • Router Security Assessment, • Malicious Site Blocking, • Two-Way IPS",
+   "WAN": "• IPSec\n• Static IP\n• Automatic IP\n• L2TP\n• PPTP",
+   "USB application": "4G / 5G Auto Mobile Tethering, • ext4\n• ext3\n• ext2\n• vFAT\n• NTFS",
+   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (6GHz)": "up to 5764 Mbps",
+   "WiFi 7 (802.11be) (5GHz)": "up to 2882 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 1032 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 3 A current"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS RT-BE92U",
+ "fetched": "2026-11-11T11:11+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-7/all-series/asus-rt-be92u/techspec/",
+ "brand_site": "ASUS"
+}

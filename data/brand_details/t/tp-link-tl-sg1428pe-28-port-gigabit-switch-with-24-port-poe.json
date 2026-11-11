@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "26 10/100/1000 Mbps RJ45 Ports\n2 Gigabit SFP Ports",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n100BASE-TX: UTP category 5, 5e cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n1000BASE-T: UTP category 5, 5e, 6 or above cable (maximum 100m)",
+   "Fan Quantity": "2 Fans",
+   "Physical Security Lock": "Yes",
+   "Power Supply": "100-240V AC, 50/60 Hz",
+   "Dimensions ( W x D x H )": "17.3 × 8.7 × 1.73 in\n(440 × 220 × 44 mm)",
+   "Mounting": "19\" 1U rack mountable",
+   "Max. Power Consumption": "27 W (no power device connected)\n304.7 W (with 250W power device connected)",
+   "Max. Heat Dissipation": "92.1 BTU/h (no PD connected)\n1,039.0 BTU/h (with 250 W PD connected)",
+   "Packet Buffer Memory": "4.1 Mbit",
+   "Jumbo Frame": "9 KB",
+   "Switching Capacity": "56 Gbps",
+   "Packet Forwarding Rate": "41.7 Mbps",
+   "MAC Address Table": "8K",
+   "Quality of Service": "Support Port-based 802.1p/DSCP prioritySupport 4 priority queuesRate LimitStorm Control",
+   "L2 Features": "IGMP Snooping V1/V2/V3\nStatic Link Aggregation\nPort Mirroring\nCable Diagnostics\nLoop Prevention",
+   "VLAN": "Support up to 32 VLANs simultaneously (out of 4K VLAN IDs)\nMTU/Port/Tag VLAN",
+   "Management Features": "Web-Based GUI\nEasy Smart Configuration Utility",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "TL-SG1428PE\nPower Cord\nInstallation Guide\nRackmount Kit\nRubber Feet"
+  },
+  "PoE Ports (RJ45)": {
+   "Standard": "802.3at/802.3af compliant",
+   "PoE+ Ports": "24 Ports",
+   "Power Supply": "250 W"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~50°C (32°F~122°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10% ~ 90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:12+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sg1428pe/",
+ "brand_site": "TP-Link"
+}

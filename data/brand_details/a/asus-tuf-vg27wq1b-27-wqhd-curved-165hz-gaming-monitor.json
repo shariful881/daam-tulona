@@ -1,0 +1,78 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG27WQ1B",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nDisplayPort cable",
+   "Certificate": "AMD FreeSync Premium\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.736 x 335.664 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "VA",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Curvature": "1500R",
+   "Pixel Pitch": "0.233mm",
+   "Resolution": "2560x1440",
+   "Color Space (sRGB)": "120%",
+   "Color Space (DCI-P3)": "90%",
+   "Brightness (Typ.)": "250cd/㎡",
+   "Contrast Ratio (Typ.)": "3000:1",
+   "Display Colors": "16.7M",
+   "Response Time": "1ms MPRT",
+   "Refresh Rate (Max)": "165Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes",
+   "Extreme Low Motion Blur": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "Low Blue Light": "Yes",
+   "Multiple HDR Mode": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "DisplayPort: 30~185 KHz (H) / 48~165 Hz (V)",
+   "HDMI": "30~185 KHz (H) / 48~144 Hz (V)",
+   "Analog Signal Frequency": "24~82 KHz (H) / 50~75 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<28W*",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.5W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Swivel": "Yes (+16° ~ -16°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "70.98 x 50.71 x 21.38 cm (27.94\" x 19.96\" x 8.42\")",
+   "Phys. Dimension without Stand (W x H x D)": "70.98 x 42.62 x 8.73 cm (27.94\" x 16.78\" x 3.44\")",
+   "Box Dimension (W x H x D)": "81.00 x 59.50 x 22.60 cm (31.89\" x 23.43\" x 8.90\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "7.25 kg (15.98 lbs)",
+   "Net Weight without Stand": "6.18 kg (13.62 lbs)",
+   "Gross Weight": "10.9 kg (24.03 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG27WQ1B",
+ "fetched": "2026-11-11T11:26+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27wq1b/techspec/",
+ "brand_site": "ASUS"
+}

@@ -1,0 +1,80 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG27AQL5A",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.4 x 1 (HBR2)\nHDMI(v2.0) x 2\nUSB Hub : 1x USB 3.2 Gen 1 Type-C (Service Port)\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nL-shaped Screwdriver\nDisplayPort cable",
+   "Certificate": "FSC MIX\nAMD FreeSync Premium\nVESA DisplayHDR 400\nVESA AdaptiveSync Display 210Hz\nTÜV Low Blue Light"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.74 x 335.66 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "Fast IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.233mm",
+   "Resolution": "2560x1440",
+   "Color Space (sRGB)": "130%",
+   "Brightness (HDR, Peak)": "400 cd/㎡",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "1300:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "1ms(GTG), 0.3ms(min.)",
+   "Refresh Rate (Max)": "210Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.2",
+   "Extreme Low Motion Blur": "Yes",
+   "ELMB Sync": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "DisplayWidget": "Yes, DisplayWidget Center",
+   "Low Blue Light": "Yes",
+   "Multiple HDR Mode": "Yes",
+   "ASUS Power Sync": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI:30~233KHz(H) / 48~ 144Hz(V)",
+   "DP": "30~311KHz(H) / 48~210Hz(V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<20.8W*",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Swivel": "Yes (+20° ~ -20°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~130mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes",
+   "1/4\" Tripod Socket": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.50 x 53.40 x 21.50 cm (24.21\" x 21.02\" x 8.46\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.50 x 36.70 x 5.10 cm (24.21\" x 14.45\" x 2.01\")",
+   "Box Dimension (W x H x D)": "81.50 x 47.70 x 17.00 cm (32.09\" x 18.78\" x 6.69\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "6.4 kg (14.11 lbs)",
+   "Net Weight without Stand": "4.1 kg (9.04 lbs)",
+   "Gross Weight": "8.7 kg (19.18 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG27AQL5A",
+ "fetched": "2026-11-11T11:24+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aql5a/techspec/",
+ "brand_site": "ASUS"
+}

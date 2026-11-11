@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHzIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Range": "3 Bedroom Houses\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\n3×3 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "WiFi Encryption": "WPA\nWPA2\nWPA3\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "1.2 GHz CPU",
+   "Ethernet Ports": "1× Gigabit WAN Port4× Gigabit LAN Ports",
+   "Power": "US Version\n12 V ⎓ 1.5 A",
+   "Buttons": "WPS/Wi-Fi ButtonPower On/Off ButtonReset Button",
+   "Protocols": "IPv4IPv6",
+   "OneMesh™": "Learn More>\nAll OneMesh Products>",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "Cloud Service": "OTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
+   "Certifications": "FCC",
+   "WiFi Transmission Power": "FCC:\n<30dBm(2.4GHz & 5GHz)",
+   "Dimensions (W×D×H)": "8.5 × 4.6 × 1.26 in\n(215 × 117 × 32 mm)",
+   "Package Content": "Wi-Fi Router Archer C80\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1300 Mbps (802.11ac)2.4 GHz: 600 Mbps (802.11n)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:06+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c80/",
+ "brand_site": "TP-Link"
+}

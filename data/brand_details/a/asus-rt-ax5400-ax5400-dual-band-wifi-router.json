@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AX5400",
+   "Network Standard": "WiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g\nIEEE 802.11b",
+   "Product Segment": "AX5400 ultimate AX performance : 574+4804 Mbps",
+   "Antenna": "External antenna x 4 (non-detachable)",
+   "Processor": "1.5 GHz tri-core processor",
+   "Memory": "256 MB Flash\n512 MB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "2.4G Hz / 5 GHz",
+   "Operating Mode": "Wireless router mode\nAccess point mode\nMedia bridge mode\nRepeater mode\nAiMesh node mode",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4\nUSB 3.2 Gen 1 x 1",
+   "Buttons": "WPS Button, Reset Button, Power Switch",
+   "LED Indicator": "Power x 1\n2.4G x 1\n5G x 1\nLAN x 4\nWAN x 1",
+   "Package Content": "RT-AX5400 WiFi router\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
+   "Product Weight (g)": "612.4g",
+   "Product Dimensions": "161.05*226.23*160.23mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 4804 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 5 (802.11ac) (1024QAM)": "up to 3466 Mbps",
+   "WiFi 5 (802.11ac)": "up to 400 Mbps",
+   "WiFi 4 (802.11n)": "up to 300 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 1.75 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AX5400",
+ "fetched": "2026-11-11T11:21+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax5400/techspec/",
+ "brand_site": "ASUS"
+}

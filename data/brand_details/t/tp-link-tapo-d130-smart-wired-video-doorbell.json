@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Specifications": {
+   "Image Sensor": "1/2.7“ Progressive Scan CMOS Sensor",
+   "Night Vision": "850 nm IR LED (30ft / 10 m)",
+   "Lighting": "Built-in Spotlights",
+   "Interface & Button": "1× RESET Button\n1× Doorbell Button",
+   "Maximum Resolution": "2K 5MP (2560 × 1920px)",
+   "Frame Rate": "15/20/25/30 fps (Default 15fps)",
+   "Digital Zoom": "16x",
+   "Video Compression": "H.264",
+   "Live View": "Yes",
+   "Image Enhancement": "3DNR\nWDR",
+   "Audio Input & Output": "Built-in Microphone and Speaker",
+   "Audio Communication": "Two-Way Audio with Noise Cancellation",
+   "Local Storage": "MicroSD Card Slot on Camera  (Up to 512 GB)\nGeneral Information about using MicroSD Cards >",
+   "Cloud Storage": "Tapo Care Cloud Storage Services (Subscription required)",
+   "AI Detection": "Motion Detection\nLine-Crossing Detection\nTamper Detection\nPerson Detection\nPet Detection",
+   "Activity Zones": "Yes\n*Only works with Motion Detection.",
+   "Output Notification": "System Notification\nSystem Notification with Snapshot (Tapo Care Services)",
+   "Network Connectivity": "Connect via Wi-Fi",
+   "Wireless Connectivity": "IEEE 802.11b/g/n, 2.4 GHz Wi-Fi",
+   "RTSP": "Yes",
+   "Security": "On-Device Machine Learning\n128-bit AES Encryption with SSL/TLS\nWPA/WPA2-PSK/WPA3",
+   "Power Source": "Hardwired Only",
+   "Input Voltage": "Hardwired:8~24VAC;10VA min",
+   "Certification": "CE, FCC, EAC, UKCA, KC, ETL, IC, IP65",
+   "Smart Integration": "Google Assistant, Amazon Alexa",
+   "Weather Resistance": "IP65",
+   "System Requirements": "Tapo App: iOS 9.0 or higher, Andriod 4.4 or higher",
+   "Mounting Options": "Stick to a Wall\nMount to a Wall",
+   "Operating Temperature": "-4°F ~ 113°F",
+   "Storage Temperature": "-40°F ~ 140°F",
+   "Operating Humidity": "10%~90% RH, Non-condensing",
+   "Storage Humidity": "5%~90% RH, Non-condensing",
+   "Package Content": "Tapo D130  Video Doorbell Wired\nTapo Doorbell Chime\nMounting Bracket\nHorizontal Mounting Wedge\nVertical Mounting Wedge"
+  },
+  "Lens": {
+   "Focal Length": "1.18 mm",
+   "Aperture": "F1.8",
+   "Field of View": "180° (Diagonal), 172° (Horizontal), 144° (Vertical)"
+  },
+  "Dimensions ( W x D x H )": {
+   "Doorbell Dimensions": "3.35 × 1.67 × 1.28 in (85 × 42.5 × 32.5 mm)",
+   "Chime Dimensions": "2.87 × 1.71 × 1.85 in (73 × 43.5 × 46.9 mm)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:11+06:00",
+ "source": "https://www.tp-link.com/us/smart-home/smart-doorbell/tapo-d130/",
+ "brand_site": "TP-Link"
+}

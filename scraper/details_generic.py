@@ -3,6 +3,7 @@
 শুধু তথ্য (স্পেক টেবিল, "কী: মান" ফিচার লাইন) নেওয়া হয়; স্টোরের লেখা বিবরণ বা ছবি নয়।
 ফেরত Star Tech-এর মতো একই আকারে: {"specs": {অংশ: {কী: মান}}, "key_features": [...], "model", "mpn"}
 """
+import json
 import re
 
 from bs4 import BeautifulSoup
@@ -115,4 +116,101 @@ def parse(html: str, store: str = "") -> dict:
             if "warrant" in k.lower() and "warranty" not in out:
                 out["warranty"] = v.split("\n")[0][:80]
     out["specs"] = {s: r for s, r in out["specs"].items() if r}
+    return out
+
+
+def parse_brand(html: str, brand: str = "") -> dict:
+    """ব্র্যান্ডের নিজের সাইটের বিবরণ পাতা: টেবিল, dl তালিকা, ASUS-এর ঘর, JSON-LD — যেটা পাওয়া যায়।"""
+    soup = BeautifulSoup(html, "html.parser")
+    for bad in soup.select("script:not([type='application/ld+json']), style, nav, header, footer, noscript"):
+        bad.decompose()
+    specs = {}
+
+    def add(sec, k, v):
+        k = " ".join((k or "").split()).strip(" :")
+        # লম্বা ব্যাখ্যার লাইন (বিপণনের লেখা) বাদ, সর্বোচ্চ ৫ লাইন
+        lines = [ln.strip() for ln in (v or "").splitlines() if ln.strip()]
+        if len(lines) >= 2 and sum(1 for ln in lines if KV.match(ln) or " : " in ln) >= len(lines) * 0.6:
+            v = "\n".join(ln for ln in lines if len(ln) <= 200)[:3000]  # "কী : মান" সাজানো ঘর: পুরোটা রাখা
+        else:
+            v = "\n".join([ln for ln in lines if len(ln) <= 90][:5])
+        if not k or not v or len(k) > 60 or k[0].isdigit() or len(v) > 3000 or k.lower() == v.lower() or JUNK_KEY.match(k):
+            return
+        specs.setdefault(sec or "Specification", {}).setdefault(k, v)
+
+    def sec_of(el):
+        h = el.find_previous(["h2", "h3", "h4"])
+        t = h.get_text(" ", strip=True) if h else ""
+        return t if 0 < len(t) <= 40 else "Specification"
+
+    # ASUS: শিরোনাম ঘর + মান ঘর
+    for title in soup.select(".rowTableTitle"):
+        box = title.find_parent(class_=re.compile("rowTable___|rowTable$"))
+        vals = box.select("[class*=rowTableItems]") if box else []
+        add("Specification", title.get_text(" ", strip=True), "\n".join(_lines(v) and "\n".join(_lines(v)) for v in vals))
+    # টেবিল (২ ঘর); দুটোই বড় হাতের শিরোনাম হলে বাদ (Corsair-এর পাশাপাশি শিরোনাম সারি)
+    for t in soup.find_all("table"):
+        sec = sec_of(t)
+        for tr in t.find_all("tr"):
+            cells = tr.find_all(["th", "td"])
+            if len(cells) != 2:
+                continue
+            a, b = cells[0].get_text(" ", strip=True), cells[1]
+            if a.isupper() and b.get_text(strip=True).isupper():
+                continue
+            add(sec, a, "\n".join(_lines(b)))
+    # dl: dt/dd জোড়া
+    for dl in soup.find_all("dl"):
+        sec = sec_of(dl)
+        for dt in dl.find_all("dt"):
+            dd = dt.find_next_sibling("dd")
+            if dd:
+                add(sec, dt.get_text(" ", strip=True), "\n".join(_lines(dd)))
+    # JSON-LD additionalProperty
+    for sc in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(sc.string or "")
+        except Exception:
+            continue
+        for obj in data if isinstance(data, list) else [data]:
+            for ap in (obj.get("additionalProperty") or []) if isinstance(obj, dict) else []:
+                if isinstance(ap, dict):
+                    add("Specification", ap.get("name"), str(ap.get("value") or ""))
+    if brand == "asus" and specs.get("Specification") and soup.select(".rowTableTitle"):
+        specs = {"Specification": {k: v for k, v in specs["Specification"].items()}}
+    out = {"specs": normalize_specs({s_: r for s_, r in specs.items() if r}), "key_features": []}
+    for r in out["specs"].values():
+        for k, v in r.items():
+            if k.lower() in ("model", "model number", "model name", "part number") and "model" not in out:
+                out["model"] = v.split("\n")[0][:80]
+    return out
+
+
+KV_LINE = re.compile(r"^\s*([^:]{2,50}?)\s*:\s*(.+)$")
+NAV_JUNK = {"laptops", "handhelds", "displays / desktops", "motherboards / components", "networking / iot / servers",
+            "accessories", "phones", "mobile / handhelds", "business"}
+
+
+def normalize_specs(specs: dict) -> dict:
+    """'Display' -> 'Panel Size (inch) : 27\nAspect Ratio : 16:9' এর মতো ঘর ভেঙে আলাদা সারি (অংশের নাম = ঘরের নাম)।
+    সাইটের মেনুর সারি (Laptops: For Home) বাদ।"""
+    out = {}
+    for sec, rows in (specs or {}).items():
+        for k, v in rows.items():
+            if k.strip().lower() in NAV_JUNK:
+                continue
+            lines = [ln for ln in str(v).split("\n") if ln.strip()]
+            kv = [KV_LINE.match(ln) for ln in lines]
+            if len(lines) >= 2 and sum(1 for m in kv if m) >= len(lines) - 1:
+                sub = out.setdefault(k if sec in ("Specification", "Tech Specs", "Specifications") else f"{sec} › {k}", {})
+                for ln, m in zip(lines, kv):
+                    if m:
+                        sub[m.group(1).strip()] = m.group(2).strip()
+                    elif sub:
+                        last = list(sub)[-1]
+                        sub[last] += "\n" + ln.strip()
+            elif len(lines) == 1 and kv[0] and len(k) > 2 and kv[0].group(1).strip().lower() == k.strip().lower():
+                out.setdefault(sec, {})[k] = kv[0].group(2).strip()
+            else:
+                out.setdefault(sec, {})[k] = v
     return out

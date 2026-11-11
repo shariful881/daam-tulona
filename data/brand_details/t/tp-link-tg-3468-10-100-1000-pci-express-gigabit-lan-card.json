@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, 802.1q, 802.1p, CSMA/CD, TCP/IP",
+   "Interface": "32-bit PCI Express\n1 10/100/1000Mbps RJ45 port",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n100BASE-TX: UTP category 5, 5e cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n1000Base-T: UTP category 5, 5e cable (maximum 100m)",
+   "LED": "Status",
+   "Wireless Standards": "IEEE802.3, IEEE802.3u, IEEE802.3ab, IEEE802.3x",
+   "Data Rates": "10/100/1000Mbps for Half-Duplex mode\n20/200/2000Mbps for Full-Duplex mode",
+   "Dimensions ( W x D x H )": "3.1 × 4.8 × 0.8 in (78.5 × 120.8 × 21.5mm)",
+   "Flow Control": "IEEE 802.3x Flow Control (Full-Duplex)",
+   "Certification": "FCC, RoHS",
+   "Package Content": "Gigabit PCI Express Network Adapter TG-3468\nResource CD\nQuick Installation Guide",
+   "System Requirements": "Windows 11/10/8.1/8/7/XP/Vista (32/64bits)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:07+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/pci-adapter/tg-3468/",
+ "brand_site": "TP-Link"
+}

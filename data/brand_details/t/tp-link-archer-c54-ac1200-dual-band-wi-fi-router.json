@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Key Specs › WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "Key Specs": {
+   "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nCover more area with more antennas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "Medium\nDual-Band\nDistribute devices to different bands for optimal performance\n2×2 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "Parental Control": "URL Filtering\nTime Controls",
+   "Quality of Service": "QoS by Device",
+   "Wi-Fi 5": "IEEE 802.11ac/n/a 5 GHz",
+   "AC1200": "5 GHz: 867 Mbps (802.11ac)",
+   "Medium": "Dual-Band"
+  },
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\nMU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "WiFi Encryption": "WPA\nWPA2\nWPA3\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "Single-Core CPU",
+   "Ethernet Ports": "1× 10/100 Mbps WAN Port\n4× 10/100 Mbps LAN Ports",
+   "Power": "9 V ⎓ 0.85 A",
+   "Buttons": "WPS/Reset Button",
+   "Protocols": "IPv4\nIPv6",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "NO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDHCP  Server\nIP address assignment (DHCP)",
+   "Certifications": "FCC, CE",
+   "WiFi Transmission Power": "CE EIRP:<20dBm(2.4GHz)<23dBm(5GHz)\nFCC:\n<30dBm(2.4GHz & 5GHz)",
+   "Dimensions (W×D×H)": "4.5 × 4.2 × 1.0 in\n(115 × 106.7 × 24.3 mm)",
+   "Package Content": "Wi-Fi Router Archer C54\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "WiFi Reception Sensitivity": {
+   "11a 6Mbps": "-93dBm；",
+   "11a 54Mbps": "-78dBm；",
+   "11ac HT20 mcs8": "69dBm;",
+   "11ac HT40 mcs9": "-66dBm;"
+  },
+  "Versatile Management": {
+   "Parental Controls": "Block content",
+   "Guest Network": "Use a different password",
+   "QoS": "Prioritize devices"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:06+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c54/",
+ "brand_site": "TP-Link"
+}

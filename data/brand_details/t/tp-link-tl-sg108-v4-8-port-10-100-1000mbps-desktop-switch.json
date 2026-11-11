@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i / 802.3u / 802.3ab/ 802.3x /802.1p",
+   "Interface": "8× 10/100/1000Mbps Ports, Auto-Negotiation, Auto-MDI/MDIX",
+   "Fan Quantity": "Fanless",
+   "External Power Supply": "External Power Adapter (Output: 5VDC / 0.6A)",
+   "LED": "System Power\nLink/Act indicators per port built into each RJ-45 port",
+   "Dimensions ( W x D x H )": "6.2 x 4.0 x 1.0 in. (158 x 101 x 25 mm)",
+   "Max. Power Consumption": "3.75 W(220V/50Hz)",
+   "Max. Heat Dissipation": "10.79 BTU/h",
+   "Packet Buffer Memory": "1.5 Mb",
+   "Jumbo Frame": "16 KB",
+   "Packet Forwarding Rate": "11.9 Mpps",
+   "MAC Address Table": "4K",
+   "Advanced Features": "Green Technology\n802.3X Flow Control\n802.1p/DSCP QoS\nIGMP Snooping\nLoop Prevention",
+   "Transmission Method": "Store and Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "8-Port 10/100/1000Mbps Desktop Switch\nPower Adapter\nInstallation Guide"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10% ~ 90%, non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:12+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sg108/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AC88U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g",
+   "Product Segment": "AC3100 ultimate AC performance : 1000+2167 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "5GHz 4x4\n2.4GHz 4x4\nMIMO technology",
+   "Processor": "1.4 GHz dual-core processor",
+   "Memory": "128 MB Flash, 516 MB RAM",
+   "Boosts Speed": "Beamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80 MHz bandwidth",
+   "Operating Frequency": "2.4G Hz / 5 GHz",
+   "Operating Mode": "Accesspoint, AiMeshnode, Mediabridge, Repeater, Router",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1,\nRJ45 for Gigabits BaseT for LAN x 8,\nUSB 3.2 Gen 1 x 1\nUSB 2.0 x 1",
+   "Buttons": "WPS Button, Reset Button, Power Button, Wireless on/off Button, LED on/off Button",
+   "LED Indicator": "Dual color Link/ Act LED",
+   "Product Weight (g)": "110g",
+   "Product Dimensions": "113.33*120.5*21.59 mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Game Boost / Acceleration",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "1024QAM (5GHz)": "up to 2167 Mbps",
+   "1024QAM (2.4GHz)": "up to 1000 Mbps",
+   "WiFi 5 (802.11ac)": "up to 1734 Mbps",
+   "WiFi 4 (802.11n)": "up to 600 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 2.37 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AC88U",
+ "fetched": "2026-11-11T11:10+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac88u/techspec/",
+ "brand_site": "ASUS"
+}

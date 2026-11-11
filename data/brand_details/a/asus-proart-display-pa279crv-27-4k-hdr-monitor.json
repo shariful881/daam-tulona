@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt Display PA279CRV",
+   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRec.709",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.4 x 2 (Daisy Chain)\nHDMI(v2.0) x 2\nUSB Hub : 1x USB 3.2 Gen 1 Type-C\n3x USB 3.2 Gen 1 Type-A",
+   "Signal Frequency": "Digital Signal Frequency : 15 ~ 135 kHz(H) / 48 ~ 60 Hz(V)",
+   "Accessories (varies by region)": "Welcome Card\nWarranty Card\nUSB-C cable\nQuick start guide\nQuick release stand",
+   "Certificate": "Mac Compliance\nCalman Verified\nVESA MediaSync Display\nVESA DisplayHDR 400\nTÜV Low Blue Light (Hardware Solution)"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Pixels Per Inch (PPI)": "163",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.73 x 335.66 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.155mm",
+   "Resolution": "3840x2160",
+   "Color Space (sRGB)": "100%",
+   "Color Space (Adobe RGB)": "99%",
+   "Color Space (DCI-P3)": "99%",
+   "Brightness (HDR, Peak)": "400 cd/㎡",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Max)": "3000:1",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes",
+   "LCD ZBD Warranty": "Yes(3 yr)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "26.14 W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Swivel": "Yes (+30° ~ -30°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~130mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.22 x 53.81 x 21.50 cm (24.10\" x 21.19\" x 8.46\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.22 x 36.29 x 4.41 cm (24.10\" x 14.29\" x 1.74\")",
+   "Box Dimension (W x H x D)": "69.10 x 42.70 x 13.80 cm (27.20\" x 16.81\" x 5.43\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "5.78 kg (12.74 lbs)",
+   "Net Weight without Stand": "4.07 kg (8.97 lbs)",
+   "Gross Weight": "8.69 kg (19.16 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt Display PA279CRV",
+ "fetched": "2026-11-11T11:09+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa279crv/techspec/",
+ "brand_site": "ASUS"
+}

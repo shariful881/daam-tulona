@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt Display PA279CV",
+   "Features": "ProArt Preset : User mode2\nUser mode1\nHDR\nRapid Rendering\nDarkroom",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nUSB Hub : 4x USB 3.2 Gen 1 Type-A\nEarphone Jack : Yes",
+   "Signal Frequency": "Digital Signal Frequency : 29~160 KHz (H) / 40~60 Hz (V)",
+   "Accessories (varies by region)": "Welcome Card\nWarranty Card\nUSB-C cable\nPower cord\nHDMI cable",
+   "Certificate": "Mac Compliance\nCalman Verified\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Pixels Per Inch (PPI)": "163",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.74 x 335.66 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.155mm",
+   "Resolution": "3840x2160",
+   "Color Space (sRGB)": "100%",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes",
+   "LCD ZBD Warranty": "Yes(3 yr)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "< 32W",
+   "Power Saving Mode": "< 0.5W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+35° ~ -5°)",
+   "Swivel": "Yes (+45° ~ -45°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~150mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.40 x 52.35 x 22.78 cm (24.17\" x 20.61\" x 8.97\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.40 x 36.99 x 5.99 cm (24.17\" x 14.56\" x 2.36\")",
+   "Box Dimension (W x H x D)": "68.00 x 51.60 x 16.10 cm (26.77\" x 20.31\" x 6.34\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "8.6 kg (18.96 lbs)",
+   "Net Weight without Stand": "5.7 kg (12.57 lbs)",
+   "Gross Weight": "11.2 kg (24.69 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt Display PA279CV",
+ "fetched": "2026-11-11T11:09+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa279cv/techspec/",
+ "brand_site": "ASUS"
+}

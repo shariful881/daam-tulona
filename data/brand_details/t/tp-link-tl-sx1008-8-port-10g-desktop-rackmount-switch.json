@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, 802.1p, 802.3an, 802.3bz",
+   "Interface": "8× 100Mbps/1Gbps/2.5Gbps/5Gbps/10Gbps Ports, Auto-Negotiation, Auto-MDI/MDIX",
+   "Fan Quantity": "1 smart fan with adjustable speed",
+   "External Power Supply": "100–240 VAC, 50/60 Hz, 0.8A",
+   "Dimensions ( W x D x H )": "11.6×7.1×1.7 in\n(294×180×44 mm)",
+   "Max. Power Consumption": "31.2 W",
+   "Packet Buffer Memory": "2 Mb",
+   "Jumbo Frame": "10 KB",
+   "Switching Capacity": "160 Gbps",
+   "Packet Forwarding Rate": "119.0 Mpps",
+   "MAC Address Table": "32 K",
+   "Advanced Features": "• 802.3X Flow Control• 802.1p/DSCP QoS",
+   "Transmission Method": "Store and Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "• 8-Port 10G Multi-Gigabit Desktop/Rackmount Switch TL-SX1008\n• Power Cord\n• Installation Guide\n• Rackmount Kit\n• Rubber Feet"
+  },
+  "LED": {
+   "• System Power": "1",
+   "• Link/Act Indicators": "8, 1 indicator per port built into each RJ-45 port"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–50 °C (32–122 °F)",
+   "• Storage Temperature": "-40–70 °C (-40–158 °F)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:12+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sx1008/",
+ "brand_site": "TP-Link"
+}

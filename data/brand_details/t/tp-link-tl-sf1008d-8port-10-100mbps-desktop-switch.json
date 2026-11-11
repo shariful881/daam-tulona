@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3, IEEE 802.3u, IEEE 802.3x\nCSMA/CD",
+   "Interface": "8 10/100Mbps Ports, Auto-Negotiation, Auto-MDI/MDIX",
+   "Fan Quantity": "Fanless",
+   "LED": "Power\nPort network activity (on the network module)",
+   "Buffer Size": "768Kb",
+   "Data Rates": "10/100Mbps at Half Duplex ;",
+   "Dimensions ( W x D x H )": "5.3 × 3.1 × 0.9 in.\n(135 × 79 × 23mm)",
+   "Max. Power Consumption": "2W",
+   "Max. Heat Dissipation": "7.0 BTU/h",
+   "Advanced Features": "Green Technology\n802.3X Flow Control, Back Pressure",
+   "Transmission Method": "Store and Forward",
+   "Certification": "FCC",
+   "Package Content": "8-Port 10/100Mbps Desktop Switch"
+  },
+  "External Power Supply": {
+   "(Output": "9VDC / 0.6A)"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F);",
+   "Storage Temperature": "-40℃~60℃ (-40℉~140℉);",
+   "Operating Humidity": "10%~90% non-condensing;",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:07+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/8-port-switch/tl-sf1008d/",
+ "brand_site": "TP-Link"
+}

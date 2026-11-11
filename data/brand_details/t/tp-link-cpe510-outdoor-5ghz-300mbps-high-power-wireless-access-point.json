@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Specifications": {
+   "Processor": "Qualcomm Atheros Enterprise 560MHz CPU, MIPS 74Kc",
+   "Memory": "64MB DDR2 RAM, 8MB Flash",
+   "Interface": "1 10/100Mbps Shielded Ethernet Port (Passive PoE in)\n1 Grounding Terminal\n1 Reset Button",
+   "Power Supply": "Passive Power over Ethernet via LAN0 (+4,5pins; -7,8pins)",
+   "Max. Power Consumption": "10.5 Watts Max",
+   "Dimensions ( W x D x H )": "8.8 x 3.1 x 2.4 in",
+   "Protection": "15KV ESD Protection\n6KV Lightning Protection",
+   "Enclosure": "Outdoor ASA stabilized plastic material",
+   "Wireless Configurations": "Pharos MAXtream TDMA Technology",
+   "Management Features": "Discovery and Remote Management via Pharos Control application\nHTTP/HTTPS Web-based management\nSystem Log\nSNMP Agent(v2c)\nPing Watch Dog",
+   "System Tools": "Wireless Signal Quality Indicators:\nSignal Strength/Noise/Transmit CCQ/CPU/Memory\nMonitors: Throughput/Stations/Interfaces/ARP/Routes/WAN/DHCP\nSpectrum Analyzer\nSpeed Test",
+   "System-level Optimizations": "Optimized IGMP Snooping/Proxy for multicast applications\nHardware watch dog",
+   "Wireless Standards": "IEEE 802.11a/n (with Pharos MAXtream disabled)",
+   "Proprietary Protocol": "TDMA Mode (with Pharos MAXtream enabled)",
+   "Wireless Speeds": "Up to 300Mbps (40MHz,Dynamic)\nUp to 144.4Mbps (20MHz,Dynamic)\nUp to 72.2Mbps (10MHz,Dynamic)\nUp to 36.1Mbps (5MHz,Dynamic)",
+   "Frequency": "5.15~5.85GHz",
+   "Transmission Power": "23dBm/200mw (Adjustable power by 1dBm)",
+   "Dimensions(W x D x H)": "4.3 x 2.2 x 1.3 in",
+   "Interfaces": "1 AC Jack with Earth Ground\n1 10/100Mbps Shielded Ethernet Port (Power + Data)\n1 10/100Mbps Shielded Ethernet Port (Data)",
+   "Button": "Remote Reset Button",
+   "Power Status LEDs": "Green",
+   "Input": "100-240VAC, 50/60Hz",
+   "Output": "24VDC, 1A Max\n+4, 5pins; -7, 8pins. (Support up to 60m Power over Ethernet)",
+   "Efficiency": ">80%",
+   "Certifications": "CE/FCC",
+   "Certification": "FCC, RoHS, IPX5",
+   "Package Content": "Outdoor Wireless CPE",
+   "System Requirements": "Google Chrome, Safari, and Firefox browsers for web GUI management"
+  },
+  "Antenna": {
+   "Beam Width": "45° (H-Plane) / 30° (E-Plane)"
+  },
+  "Environment": {
+   "Operating Temperature": "-30°C~70°C (-22℉~158℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~95% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:10+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/pharos-cpe/cpe510/",
+ "brand_site": "TP-Link"
+}

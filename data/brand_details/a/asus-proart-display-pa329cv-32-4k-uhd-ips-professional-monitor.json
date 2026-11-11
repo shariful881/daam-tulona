@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt Display PA329CV",
+   "Features": "Trace Free Technology : Yes\nProArt Preset : User mode2\nUser mode1\nHDR\nRapid Rendering",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nUSB Hub : 4x USB 3.2 Gen 1 Type-A\nEarphone Jack : Yes",
+   "Signal Frequency": "Digital Signal Frequency : 29~160 KHz (H) / 40~60 Hz (V)",
+   "Accessories (varies by region)": "Welcome Card\nWarranty Card\nUSB-C cable\nQuick start guide\nPower cord",
+   "Certificate": "Mac Compliance\nCalman Verified\nVESA DisplayHDR 400\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "32",
+   "Pixels Per Inch (PPI)": "138",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "708.48 x 398.52 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.1845mm",
+   "Resolution": "3840x2160",
+   "Color Space (sRGB)": "100%",
+   "Brightness (HDR, Peak)": "400 cd/㎡",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes",
+   "LCD ZBD Warranty": "Yes(3 yr)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "32.29 W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.5W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Swivel": "Yes (+30° ~ -30°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~130mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "72.71 x 60.15 x 24.50 cm (28.63\" x 23.68\" x 9.65\")",
+   "Phys. Dimension without Stand (W x H x D)": "72.71 x 42.81 x 6.77 cm (28.63\" x 16.85\" x 2.67\")",
+   "Box Dimension (W x H x D)": "84.00 x 51.60 x 28.00 cm (33.07\" x 20.31\" x 11.02\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "12.6 kg (27.78 lbs)",
+   "Net Weight without Stand": "8.03 kg (17.70 lbs)",
+   "Gross Weight": "17.6 kg (38.80 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt Display PA329CV",
+ "fetched": "2026-11-11T11:20+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa329cv/techspec/",
+ "brand_site": "ASUS"
+}

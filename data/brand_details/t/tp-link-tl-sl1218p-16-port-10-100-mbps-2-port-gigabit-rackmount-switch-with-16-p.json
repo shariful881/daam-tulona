@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "• 16× PoE+ 10/100 Mbps RJ45 Ports\n• 2× 10/100/1000 Mbps RJ45 Ports\n• 1× Combo Gigabit SFP Slot",
+   "Network Media": "• 10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 100BASE-TX: UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 1000BASE-T: UTP category 5, 5e, 6 or above cable (maximum 100m)",
+   "Fan Quantity": "2 Fans",
+   "Physical Security Lock": "Yes",
+   "Power Supply": "100–240V AC, 50/60 Hz",
+   "Dimensions ( W x D x H )": "17.3 × 7.1 × 1.7 in\n(440 × 180 × 44 mm)",
+   "Max. Power Consumption": "• 12.7 W (no power device connected)\n• 172.8 W (with 150W power devices connected)",
+   "Max. Heat Dissipation": "• 43.3 BTU/h (no power device connected)\n• 589.3 BTU/h (with 150W power devices connected)",
+   "Jumbo Frame": "10 KB",
+   "Switching Capacity": "7.2 Gbps",
+   "Packet Forwarding Rate": "5.36 Mpps",
+   "MAC Address Table": "8K",
+   "Advanced Features": "• Mac Address Auto-Learning And Auto-Aging\n• IEEE802.3x Flow Control",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "• TL-SL1218P\n• Power Cable\n• Installation Guide\n• Two mounting brackets"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3at/802.3af compliant",
+   "• PoE Ports": "Ports 1–16",
+   "• PoE Power Budget": "150 W"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:12+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sl1218p/",
+ "brand_site": "TP-Link"
+}

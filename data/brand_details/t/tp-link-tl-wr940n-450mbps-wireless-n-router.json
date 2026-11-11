@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 4\nIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Range": "2 Bedroom Houses\n3× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas",
+   "WiFi Capacity": "Legacy",
+   "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
+   "Guest Network": "1× 2.4 GHz Guest Network",
+   "WiFi Encryption": "WEP\nWPA\nWPA2\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "Single-Core CPU",
+   "Ethernet Ports": "1× 10/100 Mbps WAN Port\n4× 10/100 Mbps LAN Ports",
+   "Buttons": "WPS/Wi-Fi Button\nPower On/Off Button\nReset Button",
+   "Power": "9 V ⎓ 0.6 A",
+   "Protocols": "IPv4\nIPv6",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "NAT Forwarding": "VIrtual Server\nPort Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "NO-IP\nComex\nDynDNS",
+   "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
+   "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "FCC",
+   "WiFi Transmission Power": "FCC:\n<30dBm",
+   "Dimensions (W×D×H)": "9.1 × 5.7 × 1.4 in\n(230 × 144 × 35mm)",
+   "Package Content": "Wi-Fi Router TL-WR940N\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "2.4 GHz": "450 Mbps (802.11n)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  },
+  "WiFi Reception Sensitivity": {
+   "450M": "-68dBm@10% PER216M: -70dBm@10% PER",
+   "130M": "-78dBm@10% PER",
+   "54M": "-74dBm@10% PER",
+   "11M": "-85dBm@8% PER",
+   "6M": "-88dBm@10% PER"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:13+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/tl-wr940n/",
+ "brand_site": "TP-Link"
+}

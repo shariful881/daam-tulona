@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AC5300",
+   "Network Standard": "IPv6\nIPv4\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g",
+   "Antenna": "External antenna x 8",
+   "Transmit / Receive": "5GHz-2 4x4\n5GHz-1 4x4\n2.4GHz 4x4\nMIMO technology",
+   "Memory": "128 MB Flash, 512 MB RAM",
+   "Boosts Speed": "Beamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80 MHz bandwidth",
+   "Operating Frequency": "2.4G Hz / 5 GHz-1 / 5 GHz-2",
+   "Operating Mode": "Accesspoint, AiMeshnode, Mediabridge, Repeater, Router",
+   "I/O Ports": "RJ45 for 10/100/1000 BaseT for WAN x 1, RJ45 for 10/100/1000/Gigabits BaseT for LAN x 4\nUSB 2.0 x 1\nUSB 3.0 x 1",
+   "Buttons": "WPS Button, Reset Button, Power Button, Wireless on/off Button",
+   "LED Indicator": "Power x 1\nWAN x 1\nLAN x 1\nWireless x 2\nWPS x 1",
+   "Package Content": "RT-AC5300 Tri-band Gigabit Router\nRJ-45 Cable\nPower Adapter\nQuick Start Guide\nWarranty Card",
+   "Product Weight (g)": "1880 g",
+   "Product Dimensions": "260 x 260 x 65 ~ mm (WxDxH)",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Game Boost / Acceleration",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "1024QAM (5GHz)": "up to 2167 Mbps",
+   "1024QAM (2.4GHz)": "up to 1000 Mbps",
+   "WiFi 5 (802.11ac)": "up to 1734 Mbps",
+   "WiFi 4 (802.11n)": "up to 600 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 3.42 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AC5300",
+ "fetched": "2026-11-11T11:07+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac5300/techspec/",
+ "brand_site": "ASUS"
+}

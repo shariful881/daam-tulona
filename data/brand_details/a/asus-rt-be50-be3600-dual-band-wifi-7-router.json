@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-BE50",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)",
+   "Product Segment": "BE3600 ultimate BE performance : 688+2882 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2",
+   "Processor": "Quad-core processor",
+   "Memory": "128 MB Flash\n256 MB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "2.4GHz / 5GHz, 5 GHz\n2.4 GHz",
+   "Operating Mode": "Repeater Mode\nMedia Bridge Mode\nAccess Point Mode\nRange Extender Mode\nAiMesh Node Mode",
+   "I/O Ports": "1x 2.5G for WAN,\n3x 1G for LAN,",
+   "Buttons": "WPS Button, Reset Button",
+   "LED Indicator": "Power x 1",
+   "Package Content": "RT-BE50\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
+   "Product Weight (g)": "450g",
+   "Product Dimensions": "261 x 156 x 50 mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Parental Control": "Time Scheduling, Safe Browsing, Customized Internet Schedule",
+   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (5GHz)": "up to 2882 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 688 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "100V~240V (50~60Hz)",
+   "DC Output": "12 V with max. 1.5 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-BE50",
+ "fetched": "2026-11-11T11:10+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-7/all-series/rt-be50/techspec/",
+ "brand_site": "ASUS"
+}

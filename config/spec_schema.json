@@ -1372,18 +1372,19 @@
     "id": "ports",
     "bn": "পোর্ট",
     "k": [
-     "> *(hdmi|display ?port|vga|d-sub|usb|ports?|input)"
+     "> *(i/?o )?ports?$",
+     "> *(hdmi|display ?port|vga|d-sub|usb)"
     ],
-    "m": 3
+    "m": 3,
+    "x": [
+     "frequency"
+    ]
    },
    {
     "id": "hdr",
     "bn": "HDR / কালার",
     "k": [
-     "> *(hdr|color gamut|colou?r)"
-    ],
-    "x": [
-     "colou?r\\(?s?\\)?$"
+     "> *(hdr|color gamut|colou?r space|colou?r gamut|srgb|dci)"
     ]
    },
    {
@@ -2951,7 +2952,11 @@
     "id": "hdd",
     "bn": "হার্ডডিস্ক স্লট",
     "k": [
-     "> *(hdd|sata|storage)"
+     "> *(hdd|sata)( bays?| slots?| interface)?$",
+     "> *storage( bays?| slots?| capacity| interface)?$"
+    ],
+    "x": [
+     "temperature"
     ]
    },
    {
@@ -4030,6 +4035,7 @@
   "range-extender": "router",
   "access-point": "router",
   "wifi-adapter": "router",
+  "lan-card": "router",
   "starlink": "router",
   "network-switch": "switch",
   "poe-injector": "switch",

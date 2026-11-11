@@ -207,8 +207,8 @@ monitor = [
     F("refresh", "রিফ্রেশ রেট", [r"> *refresh rate"], n=r"\b(\d{2,3})\s?hz\b", f="{}Hz"),
     F("response", "রেসপন্স টাইম", [r"> *response time"]),
     F("brightness", "ব্রাইটনেস", [r"> *brightness"]),
-    F("ports", "পোর্ট", [r"> *(hdmi|display ?port|vga|d-sub|usb|ports?|input)"], m=3),
-    F("hdr", "HDR / কালার", [r"> *(hdr|color gamut|colou?r)"], m=1, x=[r"colou?r\(?s?\)?$"]),
+    F("ports", "পোর্ট", [r"> *(i/?o )?ports?$", r"> *(hdmi|display ?port|vga|d-sub|usb)"], m=3, x=[r"frequency"]),
+    F("hdr", "HDR / কালার", [r"> *(hdr|color gamut|colou?r space|colou?r gamut|srgb|dci)"], m=1),
     F("speaker", "স্পিকার", [r"> *speakers?"]),
     WARRANTY,
 ]
@@ -427,7 +427,7 @@ cam = [  # আইপি, সিসি, ওয়াইফাই ক্যাম�
 dvr = [
     F("channels", "চ্যানেল", [r"> *(channels?|video input)"], n=r"\b(\d{1,2})[\s-]?(?:ch|channel)", f="{} চ্যানেল"),
     F("resolution", "রেকর্ড রেজোলিউশন", [r"> *(recording )?resolution"], m=1),
-    F("hdd", "হার্ডডিস্ক স্লট", [r"> *(hdd|sata|storage)"]),
+    F("hdd", "হার্ডডিস্ক স্লট", [r"> *(hdd|sata)( bays?| slots?| interface)?$", r"> *storage( bays?| slots?| capacity| interface)?$"], x=[r"temperature"]),
     F("output", "আউটপুট", [r"> *(video output|hdmi|vga)"], m=2),
     F("poe", "PoE", [r"> *poe"]),
     WARRANTY,
@@ -599,7 +599,7 @@ PROFILES = {
     "flash": (flash, ["pen-drive", "memory-card"]),
     "power_bank": (power_bank, ["power-bank"]),
     "watch": (watch, ["smart-watch", "smart-band", "smart-ring"]),
-    "router": (router, ["router", "gaming-router", "pocket-router", "range-extender", "access-point", "wifi-adapter", "starlink"]),
+    "router": (router, ["router", "gaming-router", "pocket-router", "range-extender", "access-point", "wifi-adapter", "lan-card", "starlink"]),
     "switch": (switch, ["network-switch", "poe-injector"]),
     "cam": (cam, ["wifi-camera", "ip-camera", "cc-camera", "ptz-camera", "solar-camera", "camera-package", "dash-cam"]),
     "dvr": (dvr, ["dvr-nvr"]),

@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ZenScreen MB16NCG",
+   "Audio": "Speaker : No",
+   "I/O Ports": "USB-C x 2 (DP Alt Mode)\nMini HDMI x 1\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "ZenScreen sleeve\nWarranty Card\nUSB-C cable\nQuick start guide\nPower adapter (optional)",
+   "Certificate": "FSC MIX\nAMD FreeSync\nTÜV Low Blue Light\nTÜV Flicker-free\nEnergy Star"
+  },
+  "Display": {
+   "Panel Size (inch)": "16",
+   "Aspect Ratio": "16:10",
+   "Display Viewing Area (H x V)": "344.68 x 215.42mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.135mm",
+   "Resolution": "2560x1600",
+   "Color Space (sRGB)": "100%",
+   "Brightness (Typ.)": "400cd/㎡",
+   "Display Colors": "16.7M",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "155Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "Auto Rotation": "Yes, supported by DisplayWidget Center",
+   "GamePlus": "Yes",
+   "QuickFit": "Yes (Photo/Alighment Grid)",
+   "HDCP": "Yes, 2.3",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "DisplayWidget": "Yes, DisplayWidget Center",
+   "Low Blue Light": "Yes",
+   "Power Pass-through": "Max. 65W"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "USB-C: 30~250KHZ (H) / 48~155Hz(V)",
+   "Mini HDMI": "30~250KHZ (H) / 48~120Hz(V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "≤6.79W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Height Adjustment": "No",
+   "Kensington Lock": "Yes",
+   "1/4\" Tripod Socket": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "35.8 x 24.6 x 1.1 cm (14.09\" x 9.69\" x 0.43\")",
+   "Box Dimension (W x H x D)": "44.3 x 31.8 x 9.0 cm (17.44\" x 12.52\" x 3.54\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "0.90 kg (1.98 lbs)",
+   "Gross Weight": "2.00 kg (4.41 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "ZenScreen MB16NCG",
+ "fetched": "2026-11-11T11:28+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-mb16ncg/techspec/",
+ "brand_site": "ASUS"
+}

@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF GAMING B850M-PLUS WIFI",
+   "News & Updates": "Socket AM5,\nPlease visit our\nGLOBAL website\nto check and download the latest updates.",
+   "CPU": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to\nhttps://www.asus.com/support/download-center/\nfor CPU support list.",
+   "Chipset": "AMD B850 Chipset",
+   "Memory": "4 x DIMM slots, max. 256GB, DDR5\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)\nhttps://www.asus.com/support/download-center/",
+   "Graphics": "1 x DisplayPort**\n1 x HDMI™ port***\n** Supports max. 8K@30Hz as specified in DisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI 2.1.",
+   "Expansion Slots": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD B850 Chipset",
+   "Storage": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors",
+   "Ethernet": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard",
+   "Wireless & Bluetooth": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth\n®",
+   "USB": "Rear USB (Total 12 ports)\n1 x USB 20Gbps port (1 x USB Type-C\n®\n)\n3 x USB 10Gbps ports (3 x Type-A)",
+   "Audio": "Realtek ALC1220P 7.1 Surround Sound High Definition Audio CODEC\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)",
+   "Back Panel I/O Ports": "1 x USB 20Gbps port (1 x USB Type-C\n®\n)\n3 x USB 10Gbps ports (3 x Type-A)\n4 x USB 5Gbps ports (4 x Type-A)",
+   "Internal I/O Connectors": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers",
+   "Special Features": "ASUS TUF PROTECTION\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards\n- TUF LANGuard\n- Overvoltage protection",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Operating System": "Windows 11, Windows 10 64-bit",
+   "Form Factor": "micro-ATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF GAMING B850M-PLUS WIFI",
+ "fetched": "2026-11-11T11:11+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-plus-wifi/techspec/",
+ "brand_site": "ASUS"
+}

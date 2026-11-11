@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i\nIEEE 802.3u\nIEEE 802.3ab\nIEEE 802.3x\nIEEE 802.1q",
+   "Interface": "24 10/100/1000Mbps RJ45 Ports",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "No",
+   "Power Supply": "100-240VAC, 50/60Hz",
+   "Dimensions ( W x D x H )": "11.6 x 7.1 x 1.7 in.\n(294 x 180 x 44 mm)",
+   "Mounting": "Rack Mountable",
+   "Max. Power Consumption": "14.19W (220V/50Hz)",
+   "Max. Heat Dissipation": "48.39 BTU/h",
+   "Packet Buffer Memory": "4.1Mbit",
+   "Jumbo Frame": "10KB",
+   "Switching Capacity": "48Gbps",
+   "Packet Forwarding Rate": "35.7Mpps",
+   "MAC Address Table": "8K",
+   "Quality of Service": "Support Port-based/802.1p/DSCP priority\nSupport 4 priority queues\nRate Limit\nStorm Control",
+   "VLAN": "Supports up to 32 VLANs simultaneously (out of 4K VLAN IDs)\nMTU/Port/Tag VLAN",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "TL-SG1024DE\nPower Cord\nInstallation Guide\nResource CD\nRackmount Kit",
+   "System Requirements": "Microsoft® Windows® for Easy Smart Utility",
+   "Environment": "Operating Temperature: 0℃~40℃ (32℉~104℉)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-11T11:08+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg1024de/",
+ "brand_site": "TP-Link"
+}

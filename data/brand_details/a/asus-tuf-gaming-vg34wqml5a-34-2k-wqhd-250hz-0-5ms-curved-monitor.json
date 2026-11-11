@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG34WQML5A",
+   "Features": "Trace Free Technology : Yes\nGameVisual : Yes\nColor Temp. Selection : Yes (4 modes)\nGamePlus : Yes\nPIP / PBP Technology : Yes\nHDCP : Yes, 2.3\nExtreme Low Motion Blur : Yes\nVRR Technology : Yes (Adaptive-Sync)\nGameFast Input technology : Yes\nShadow Boost : Yes\nDisplayWidget : Yes, DisplayWidget Center\nLow Blue Light : Yes\nASUS Power Sync : Yes\nA.I. Assistant Technology : Dynamic Shadow Boost\nDynamic Crosshair\nAI Visual",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.4 x 2\nHDMI(v2.1) x 2 (FRL)\nUSB Hub : 3x USB 3.2 Gen 1 Type-A\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nUSB Type-B to A cable\nQuick start guide\nPower cord\nL-shaped Screwdriver",
+   "Certificate": "AMD FreeSync Premium\nVESA DisplayHDR 400\nVESA AdaptiveSync Display 250Hz\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "34",
+   "Aspect Ratio": "21:9",
+   "Display Viewing Area (H x V)": "797.22 (H) x 333.72 (V)",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "VA",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Curvature": "1500R",
+   "Pixel Pitch": "0.232mm",
+   "Resolution": "3440x1440",
+   "Color Space (sRGB)": "130%",
+   "Brightness (HDR, Peak)": "400 cd/㎡",
+   "Brightness (Typ.)": "400cd/㎡",
+   "Contrast Ratio (Typ.)": "4000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "1ms(GTG), 0.5ms(min.)",
+   "Refresh Rate (Max)": "250Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 30~255 KHz (H) / 48~250Hz (V)",
+   "DP": "255~255 KHz (H) / 48~250Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<31W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Swivel": "Yes (+10° ~ -10°)",
+   "Height Adjustment": "0~130mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes",
+   "1/4\" Tripod Socket": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "80.78 x 54.06 x 25.00 cm (31.80\" x 21.28\" x 9.84\")",
+   "Phys. Dimension without Stand (W x H x D)": "80.78 x 36.39 x 11.10 cm (31.80\" x 14.33\" x 4.37\")",
+   "Box Dimension (W x H x D)": "103.3 x 49.3 x 18.4 cm (40.67\" x 19.41\" x 7.24\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "8.1 kg (17.86 lbs)",
+   "Net Weight without Stand": "5.8 kg (12.79 lbs)",
+   "Gross Weight": "10.8 kg (23.81 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG34WQML5A",
+ "fetched": "2026-11-11T11:25+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg34wqml5a/techspec/",
+ "brand_site": "ASUS"
+}
