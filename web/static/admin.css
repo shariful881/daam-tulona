@@ -86,3 +86,7 @@ body.adm-dirty main.col{padding-bottom:90px}
 .apc .abtn{margin-left:4px}
 
 .acode{white-space:pre;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px;font:600 .74rem var(--mono);margin:8px 0 0}
+
+.sg-new{color:var(--best);font-weight:700}
+.sg-st{color:var(--muted);font-size:.78rem}
+.apair .nm a{text-decoration:underline;text-decoration-color:var(--line)}

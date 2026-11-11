@@ -614,14 +614,28 @@
               '<p class="muted" style="margin:0;font-size:.84rem">মডেল নম্বর, ব্র্যান্ড আর ক্যাপাসিটি এক হওয়ায় এগুলো নিজে থেকে এক পাতায় জোড়া লাগানো হয়েছে। ভুল হলে <b>আলাদা</b> চাপুন, পরের আপডেটে আলাদা হয়ে যাবে।</p>' +
               '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…"></div><div id="amres"></div></section>';
           })() +
-          '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(sug.length) + "টি</span></h2>" +
-            '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ হলে "আলাদা" চাপুন।</p>' +
-            sug.slice(0, 80).map(function (s) {
+          '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(S.admin.sugg_total || sug.length) + "টি</span></h2>" +
+            '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ/র‍্যাম হলে "আলাদা" চাপুন। ' +
+            '<b class="sg-new">নতুন তুলনা</b> লেখাগুলো আগে: মেলালে এক দোকানের প্রোডাক্ট প্রথমবার দুই দোকানে তুলনা করা যাবে।</p>' +
+            '<div class="af"><input type="search" id="sgq" placeholder="নাম দিয়ে খুঁজুন…" value="' + esc(S.sgq || "") + '"></div>' +
+            (function () {
+              var w = (S.sgq || "").toLowerCase();
+              var lst = w ? sug.filter(function (s) { return (s.a_name + " " + s.b_name).toLowerCase().indexOf(w) > -1; }) : sug;
+              var n = S.sgn || 60;
+              return lst.slice(0, n).map(function (s) {
               var done = merged(s.a, s.b);
-              return '<div class="apair' + (done ? " done" : "") + '"><div class="nm">' + esc(s.a_name) + '<br><span>↕ মিলের হার ' + bn(Math.round(s.score * 100)) + "%</span><br>" + esc(s.b_name) + "</div>" +
+              var st = function (x) { return x && x.length ? ' <span class="sg-st">(' + esc(x.join(", ")) + ")</span>" : ' <span class="sg-st">(স্টক নেই)</span>'; };
+              return '<div class="apair' + (done ? " done" : "") + '"><div class="nm"><a href="' + BASE + "/p/" + esc(s.a) + '/" target="_blank">' + esc(s.a_name) + "</a>" + st(s.sa) +
+                '<br><span>↕ মিলের হার ' + bn(Math.round(s.score * 100)) + "%" + (s.why ? " · " + esc(s.why) : "") + (s.lift === 2 ? ' · <b class="sg-new">নতুন তুলনা</b>' : "") + "</span><br>" +
+                '<a href="' + BASE + "/p/" + esc(s.b) + '/" target="_blank">' + esc(s.b_name) + "</a>" + st(s.sb) + "</div>" +
                 '<div class="bt">' + (done ? '<span class="muted" style="font-size:.82rem">✓ মিলানো হয়েছে</span> <button type="button" class="abtn ghost" data-unmerge="' + esc(s.a) + "|" + esc(s.b) + '">বাতিল</button>'
                   : '<button type="button" class="abtn ok" data-merge="' + esc(s.a) + "|" + esc(s.b) + '">একই, মিলান</button><button type="button" class="abtn ghost" data-notsame="' + esc(pairKey(s.a, s.b)) + '">আলাদা</button>') + "</div></div>";
-            }).join("") + "</section>";
+              }).join("") + (lst.length > n ? '<p style="text-align:center;margin:12px 0 0"><button type="button" class="abtn ghost" id="sgmore">আরও ৬০টি দেখান (বাকি ' + bn(lst.length - n) + ")</button></p>" : "");
+            })() + "</section>";
+        var sgq = $("#sgq");
+        if (sgq) sgq.addEventListener("change", function () { S.sgq = sgq.value; S.sgn = 60; draw(); });
+        var sgm = $("#sgmore");
+        if (sgm) sgm.addEventListener("click", function () { S.sgn = (S.sgn || 60) + 60; draw(); });
         var amq = $("#amq");
         function drawAm() {
           var am = S.admin.auto_merges || [], w = (amq.value || "").toLowerCase();

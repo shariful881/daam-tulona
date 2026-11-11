@@ -787,7 +787,8 @@ def main():
             offers[pid_].pop(st_, None)
     price_ok = set(mm.get("price_ok", []))  # অ্যাডমিন: "দাম ঠিক আছে" (pid|store)
     # স্বয়ংক্রিয় মিল (মডেল নম্বর দিয়ে); পুরনো লিংক নতুন পাতায় রিডাইরেক্ট হবে
-    amap = auto_merges(products, offers, mm.get("not_same", []))
+    amap, auto_sugg = auto_merges(products, offers, mm.get("not_same", []), {k_: g_["slug"] for k_, g_ in group_of.items()},
+                                  with_suggestions=True)
     for old, keep in amap.items():
         if old in offers and keep in offers:
             for st_, o_ in offers.pop(old).items():
@@ -1261,9 +1262,26 @@ def main():
     bcount = Counter(i["bslug"] for i in vals if i["bslug"])
     admin_brands = [{"s": b_, "n": BR.display(b_), "k": k_, "v": [x for x, _ in BR.spell[b_].most_common(5)]}
                     for b_, k_ in bcount.most_common()]
-    admin = {"updated": updated, "health": health, "stats": stats, "categories": all_cats, "brands": admin_brands,
+    # সম্ভাব্য মিল: যেগুলো মেলালে এক দোকানের প্রোডাক্ট প্রথমবার দুই দোকানে তুলনা করা যাবে, সেগুলো আগে
+    _lv = lambda pid_: {s_ for s_, o_ in (offers.get(pid_) or {}).items() if o_.get("in_stock") and o_.get("price")}
+    not_same_ = set(mm.get("not_same", []))
+    sugg_admin = []
+    for x in auto_sugg + [dict(y, why="নাম কাছাকাছি") for y in suggestions]:
+        a_, b_ = amap.get(x["a"], x["a"]), amap.get(x["b"], x["b"])
+        if a_ == b_ or a_ not in offers or b_ not in offers or {a_, b_} <= done or "|".join(sorted((a_, b_))) in not_same_:
+            continue
+        la, lb = _lv(a_), _lv(b_)
+        lift = 2 if len(la | lb) >= 2 and len(la) < 2 and len(lb) < 2 else 1 if (la - lb) and (lb - la) else 0
+        sugg_admin.append(dict(x, a=a_, b=b_, a_name=products[a_]["name"], b_name=products[b_]["name"], lift=lift,
+                               sa=[stores[s_]["name"] for s_ in sorted(la) if s_ in stores], sb=[stores[s_]["name"] for s_ in sorted(lb) if s_ in stores]))
+    _seen = set()
+    sugg_admin = [x for x in sorted(sugg_admin, key=lambda x: (-x["lift"], -x["score"]))
+                  if not ("|".join(sorted((x["a"], x["b"]))) in _seen or _seen.add("|".join(sorted((x["a"], x["b"])))))]
+    sugg_total = len(sugg_admin)
+    sugg_admin = sugg_admin[:2000]
+    admin = {"updated": updated, "health": health, "sugg_total": sugg_total, "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
-             "suggestions": [x for x in suggestions if not ({x["a"], x["b"]} <= done)][:300],
+             "suggestions": sugg_admin,
              "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])
                              if o_ in products and k_ in products][:1500],
              "price_checks": sorted(({"id": i["id"], "n": i["name"], "c": i["cat_name"],
