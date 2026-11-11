@@ -1101,6 +1101,13 @@ def main():
         sn_rows.append({"id": c_["id"], "name": c_["name"], "logo": c_["logo"] if c_["id"] != "walton" else None, "dark": c_["dark"],
                         "short": stores[c_["id"]].get("short") or c_["name"][:2], "checked": (health["stores"].get(c_["id"]) or {}).get("items", 0),
                         "dn": n_["dn"], "up": n_["up"], "oos": n_["oos"], "new": n_["new"], "share": c_["st"]["share"]})
+    # নতুন প্রোডাক্ট: যে দোকান আজই প্রথম যোগ হয়েছে তার সব প্রোডাক্ট "নতুন" নয়
+    store_first = {}
+    for ss_ in history.values():
+        for s_, ch_ in ss_.items():
+            if ch_:
+                d0_ = min(d_ for d_, _ in ch_)
+                store_first[s_] = min(store_first.get(s_, d0_), d0_)
     # চলমান লাইন: ক্যাটাগরির আজকের বদল + সবচেয়ে বেশি কমা/বাড়া প্রোডাক্ট
     ticker = []
     if M.get("ready"):
@@ -1111,6 +1118,19 @@ def main():
             ticker.append({"href": f"p/{m['it']['id']}/", "label": m["it"]["name"], "price": m["new"], "pct": m["pct"], "up": False})
         for m in M["movers"]["up"][:4]:
             ticker.append({"href": f"p/{m['it']['id']}/", "label": m["it"]["name"], "price": m["new"], "pct": m["pct"], "up": True})
+    if not ticker:  # দামের বদল জমার আগে: আজকের যাচাই, দোকানভেদে বড় পার্থক্য আর নতুন প্রোডাক্ট
+        ticker.append({"href": "store/", "label": f"আজ {bn_num(len(enabled))}টি দোকানের {bn_num(n_prices)}টি দাম যাচাই", "info": True})
+        _nw = [i for i in fresh_all if i["best"] and store_first.get(i["best"]["store"], today) < today]
+        _nw.sort(key=lambda i: (not i["imgs"], -i["live_count"], -i["best"]["price"]))
+        _dl = [i for i in deals if i["best"]][:8]
+        for k_ in range(max(len(_dl), 6)):
+            if k_ < len(_dl):
+                i = _dl[k_]
+                ticker.append({"href": f"p/{i['id']}/", "label": i["name"], "price": i["best"]["price"],
+                               "note": f"{stores[i['best']['store']]['name']}-এ {taka(i['saving'])} কম", "deal": True})
+            if k_ < len(_nw) and k_ < 6:
+                i = _nw[k_]
+                ticker.append({"href": f"p/{i['id']}/", "label": i["name"], "price": i["best"]["price"], "note": "নতুন", "new": True})
     # সংখ্যায় দামতুলনা
     gl = sorted(((g["slug"], g["name_bn"], sum(len(by_cat[l["slug"]]) for l in g["leaves"])) for g in tax["groups"]), key=lambda x: -x[2])
     gl = [x for x in gl if x[2]]
@@ -1119,13 +1139,6 @@ def main():
     st_live = sorted(((c_["name"], c_["st"]["live"]) for c_ in store_cards), key=lambda x: -x[1])
     nstat = {"segs": gl, "seg_total": sum(x[2] for x in gl), "leaves": leaves_n, "leaf_total": sum(x[1] for x in leaves_n),
              "brands": [(b_["name"], b_["count"]) for b_ in brand_pages[:5]], "brand_total": len(brand_pages), "stores": st_live[:6]}
-    # নতুন প্রোডাক্ট: যে দোকান আজই প্রথম যোগ হয়েছে তার সব প্রোডাক্ট "নতুন" নয়
-    store_first = {}
-    for ss_ in history.values():
-        for s_, ch_ in ss_.items():
-            if ch_:
-                d0_ = min(d_ for d_, _ in ch_)
-                store_first[s_] = min(store_first.get(s_, d0_), d0_)
     new_list = [i for i in fresh_all if i["best"] and store_first.get(i["best"]["store"], today) < today]
     new_list = sorted(new_list, key=lambda i: (not i["imgs"], -i["live_count"], -i["best"]["price"]))[:10]
     logo_brands = sorted(brand_pages[:40], key=lambda b_: (not common["brand_logo"](b_["slug"]), -b_["count"]))[:12]
