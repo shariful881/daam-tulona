@@ -387,6 +387,11 @@ class Brands:
         self.generic = set(self.conf.get("generic", []))
         self.aliases = self.conf.get("aliases", {})
         self.info = self.conf.get("info", {})
+        mf = ROOT / "web/static/brands/meta.json"  # tools/fetch_brand_meta: অফিসিয়াল সাইটের লোগো ও সোশ্যাল লিংক
+        for slug, m in (json.loads(mf.read_text()) if mf.exists() else {}).items():
+            if slug in self.info:
+                for k, v in m.items():
+                    self.info[slug].setdefault(k, v)
         self.spell = defaultdict(Counter)
 
     def of(self, name: str, raw: str | None) -> str | None:

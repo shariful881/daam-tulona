@@ -1,0 +1,29 @@
+name: brand-meta
+# ব্র্যান্ডের অফিসিয়াল সাইট থেকে লোগো ও সোশ্যাল লিংক (হাতে চালানো)
+on:
+  workflow_dispatch:
+    inputs:
+      brands:
+        description: "নির্দিষ্ট ব্র্যান্ড (ফাঁকা = সব)"
+        default: ""
+permissions:
+  contents: write
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pillow
+      - env:
+          B: ${{ github.event.inputs.brands }}
+        run: python -m tools.fetch_brand_meta $B
+      - name: সেভ
+        run: |
+          git config user.name "daam-tulona-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/static/brands
+          git diff --cached --quiet || git commit -m "ব্র্যান্ডের লোগো ও লিংক"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 10; done
