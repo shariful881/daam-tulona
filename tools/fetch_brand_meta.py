@@ -40,7 +40,7 @@ SOCIAL = {
 # উইকিপিডিয়ার পাতার নাম যেখানে ব্র্যান্ডের নাম থেকে আলাদা
 WIKI_TITLE = {"tp-link": "TP-Link", "hp": "HP Inc.", "lg": "LG Electronics", "amd": "AMD", "jbl": "JBL", "dji": "DJI", "benq": "BenQ",
               "a4tech": "A4Tech", "g-skill": "G.Skill", "western-digital": "Western Digital", "cooler-master": "Cooler Master",
-              "zkteco": "ZKTeco", "msi": "MSI (company)", "apple": "Apple Inc.", "samsung": "Samsung Electronics",
+              "zkteco": "ZKTeco", "msi": "Micro-Star International", "apple": "Apple Inc.", "samsung": "Samsung", "toshiba": "Toshiba", "g-skill": "G.Skill", "vention": "Vention",
               "canon": "Canon Inc.", "epson": "Seiko Epson", "walton": "Walton Group", "sony": "Sony", "team": "TeamGroup",
               "adata": "ADATA", "uniview": "Uniview", "hikvision": "Hikvision", "dahua": "Dahua Technology", "haier": "Haier",
               "hisense": "Hisense", "sandisk": "SanDisk", "viewsonic": "ViewSonic", "gigabyte": "Gigabyte Technology",
@@ -71,26 +71,36 @@ def socials(home, html):
     return found
 
 
-def wiki_logo(title, website):
+def wiki_logo(titles, website, slug=""):
     """উইকিপিডিয়ার কোম্পানি পাতার তথ্যবাক্সের লোগো; পাতার Website অফিসিয়াল সাইটের সাথে না মিললে নেওয়া হয় না।"""
-    if not title or not website:
+    if not website:
         return None
-    try:
-        html = fetch("https://en.wikipedia.org/wiki/" + quote(title.replace(" ", "_")), 2, cache=False)
-    except Exception:
-        return None
-    soup = BeautifulSoup(html, "html.parser")
-    box = soup.select_one("table.infobox")
-    if not box:
-        return None
-    links = [a.get("href", "") for a in box.select("a.external, td.infobox-data a[href^='http']")]
-    if domain(website) not in {domain(h) for h in links if h.startswith("http")}:
-        return None  # অন্য কোম্পানির পাতা হতে পারে
-    for img in box.find_all("img"):
-        src = img.get("src") or ""
-        if re.search(r"logo|wordmark", src, re.I):
+    want = domain(website)
+    key = re.sub(r"[^a-z0-9]", "", slug)
+    for title in dict.fromkeys(t for t in titles if t):
+        try:
+            html = fetch("https://en.wikipedia.org/wiki/" + quote(title.replace(" ", "_")), 2, cache=False)
+        except Exception as e:
+            print(f"    উইকি '{title}': খোলেনি ({type(e).__name__})")
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        box = soup.select_one("table.infobox")
+        if not box:
+            print(f"    উইকি '{title}': তথ্যবাক্স নেই")
+            continue
+        doms = {domain(a.get("href", "")) for a in box.select("a[href^='http'], a[href^='//']") if "wiki" not in a.get("href", "")}
+        if want not in doms and not (key and any(key in d.replace(".", "").replace("-", "") for d in doms)):
+            print(f"    উইকি '{title}': ওয়েবসাইট মেলেনি ({', '.join(sorted(doms))[:80]})")
+            continue
+        imgs = box.find_all("img")
+        first = [i for i in box.select(".infobox-image img, .infobox-above img")[:1]]
+        for img in [i for i in imgs if re.search(r"logo|wordmark", i.get("src", ""), re.I)] + first:
+            src = img.get("src") or ""
             src = "https:" + src if src.startswith("//") else src
-            return re.sub(r"/(\d+)px-", "/330px-", src)  # একটু বড় সাইজ
+            if re.search(r"headquarter|building|office|\.jpe?g", src, re.I):
+                continue
+            return re.sub(r"/(\d+)px-", "/330px-", src)
+        print(f"    উইকি '{title}': লোগোর ছবি নেই")
     return None
 
 
@@ -151,7 +161,8 @@ def save_from(slug, url, trusted):
 
 def find_logo(slug, inf, html):
     home = (inf.get("website") or "").rstrip("/") + "/"
-    w = wiki_logo(WIKI_TITLE.get(slug) or inf.get("name") or slug.replace("-", " ").title(), inf.get("website"))
+    nm = inf.get("name") or slug.replace("-", " ").title()
+    w = wiki_logo([WIKI_TITLE.get(slug), nm, f"{nm} (company)", f"{nm} Corporation", f"{nm} Group"], inf.get("website"), slug)
     if w:
         got = save_from(slug, w, trusted=True)
         if got:
