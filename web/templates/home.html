@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% from "_ad.html" import slot with context %}
 {% block content %}
-  <section class="card">
+  <section class="card hero">
     <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
     <p class="muted" style="margin:0;font-size:.92rem">{{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
+    <form class="dk hsearch" action="{{ base }}/search/" method="get" role="search"><input type="search" name="q" placeholder="যেমন: Samsung 8GB RAM, Ryzen 5, 1TB SSD" aria-label="প্রোডাক্ট খুঁজুন"><button type="submit">খুঁজুন</button></form>
+    <div class="dk hstats"><div><b>{{ total|bn }}</b><span>প্রোডাক্ট</span></div><div><b>{{ store_count|bn }}</b><span>স্টোর</span></div><div><b>{{ multi|bn }}</b><span>একাধিক স্টোরে দাম</span></div></div>
   </section>
 
   <div class="cats">
@@ -12,6 +14,7 @@
   {% endfor %}
   </div>
 
+  <div class="duo">
   {% if size_pages %}
   <section class="card">
     <h2>সাইজ অনুযায়ী দাম <span class="sub">· কোন ব্র্যান্ড কত টাকা</span></h2>
@@ -25,8 +28,11 @@
     <div class="azlist">{% for b in top_brands %}<a href="{{ base }}/brand/{{ b.slug }}/">{{ b.name }} <small>{{ b.count|bn }}</small></a>{% endfor %}</div>
   </section>
   {% endif %}
+  </div>
 
   {{ slot("home", None, "home") }}
+
+  <div class="duo">
 
   {% if deals %}
   <section class="card">
@@ -57,4 +63,5 @@
     </div>
   </section>
   {% endif %}
+  </div>
 {% endblock %}

@@ -20,10 +20,13 @@
 <body>
 <header class="hdr"><div class="col">
   <a class="logo" href="{{ base }}/">দাম<span>তুলনা</span></a>
-  <form action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0">
+  <form class="sform" action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0">
     <input class="search" type="search" name="q" placeholder="প্রোডাক্ট খুঁজুন…" aria-label="প্রোডাক্ট খুঁজুন">
   </form>
-</div></header>
+  <nav class="hlinks" aria-label="দ্রুত লিংক"><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/compare/">তুলনা</a></nav>
+</div>
+{% if nav_groups %}<nav class="gnav" aria-label="ক্যাটাগরি"><div class="col">{% for slug, name in nav_groups %}<a href="{{ base }}/g/{{ slug }}/"{% if group is defined and group and group.slug == slug %} aria-current="true"{% endif %}>{{ name }}</a>{% endfor %}</div></nav>{% endif %}
+</header>
 <main class="col{% if buy %} has-buy{% endif %}">
 {% block content %}{% endblock %}
   <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>

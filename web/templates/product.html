@@ -6,7 +6,9 @@
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a></nav>
 
-  <section class="card">
+  <div class="pgrid">
+  <div class="pmain">
+  <section class="card o1 phead">
     <div class="head">
       <div class="thumbcol">
         <div class="thumb{% if gallery %} has-img{% endif %}" data-img>
@@ -25,6 +27,7 @@
       {% if best %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price">{{ best.price | taka }}</div></div>
       <div class="s">{{ stores[best.store].name }}-এ<br>{{ live_count }}টি স্টোরে স্টকে আছে</div>
+      <a class="btn dkbuy" href="{{ go_url(best.store, best.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[best.store].name }}">{{ stores[best.store].name }}-এ কিনুন ›</a>
       {% else %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">এখন কোথাও স্টকে নেই</div></div>
       {% endif %}
@@ -35,7 +38,65 @@
     <p class="cmpmsg muted" hidden></p>
   </section>
 
-  <section class="card">
+
+  <div class="slotw o3">{{ slot("product", cat.slug, it.id) }}</div>
+
+  {% if feat_rows or feat_extra or warranty %}
+  <section class="card o4">
+    <h2>এক নজরে</h2>
+    {% if feat_rows %}<dl class="kf">{% for k, v in feat_rows %}<div><dt>{{ k }}</dt><dd>{{ v }}</dd></div>{% endfor %}</dl>{% endif %}
+    {% if feat_extra %}<ul class="feat">{% for f in feat_extra %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+    <dl style="margin-top:8px">
+      {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
+      {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
+      {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
+      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+    </dl>
+    {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
+  </section>
+  {% endif %}
+
+  <section class="card o5">
+    <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
+    {% if spark %}
+      {{ spark | safe }}
+      <p class="muted" style="font-size:.8rem;margin:6px 0 0">{{ hist_start }} থেকে: সর্বনিম্ন {{ hist_lo | taka }}, সর্বোচ্চ {{ hist_hi | taka }}{% if hist_lo == hist_hi %} (দাম বদলায়নি){% endif %}</p>
+    {% else %}
+      <p class="muted" style="font-size:.88rem;margin:0">এই প্রোডাক্টের দাম {% if hist_start %}{{ hist_start }} {% endif %}থেকে প্রতিদিন জমা হচ্ছে। আগামীকাল থেকে এখানে দামের ওঠানামার চার্ট দেখা যাবে।</p>
+    {% endif %}
+  </section>
+
+
+
+  <section class="card o7">
+    {% if spec_sections %}
+      {% for sec, rows in spec_sections %}
+      <details {% if loop.first %}open{% endif %}><summary>{{ sec }}</summary>
+        <dl>{% for k, v in rows.items() %}<div><dt>{{ k }}</dt><dd style="white-space:pre-line">{{ v }}</dd></div>{% endfor %}</dl>
+      </details>
+      {% endfor %}
+    {% else %}
+    <details open><summary>স্পেসিফিকেশন</summary>
+      {% if not feat_rows %}<dl>
+        <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+        {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
+        <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
+      </dl>{% endif %}
+      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে এই ধরনের প্রোডাক্টের দরকারি তথ্যগুলো দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
+    </details>
+    {% endif %}
+    <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
+  </section>
+
+  <div class="slotw o8">{{ slot("product_bottom", cat.slug, it.id) }}</div>
+
+  <section class="card o9">
+    <h2>সাধারণ প্রশ্ন</h2>
+    {% for q, a in faq %}<details><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
+  </section>
+  </div>
+  <aside class="pside">
+  <section class="card o2 pstores">
     <h2>কোন স্টোরে কত দাম</h2>
     <div class="stores">
     {% for row in store_rows if row.offer %}
@@ -64,36 +125,8 @@
     <p class="nfnote">এই স্টোরগুলোর তালিকায় আজ এই প্রোডাক্টটা খুঁজে পাওয়া যায়নি। স্টক এলে বা মিল পাওয়া গেলে উপরে যোগ হবে।</p>
     {% endif %}
   </section>
-
-  {{ slot("product", cat.slug, it.id) }}
-
-  {% if feat_rows or feat_extra or warranty %}
-  <section class="card">
-    <h2>এক নজরে</h2>
-    {% if feat_rows %}<dl class="kf">{% for k, v in feat_rows %}<div><dt>{{ k }}</dt><dd>{{ v }}</dd></div>{% endfor %}</dl>{% endif %}
-    {% if feat_extra %}<ul class="feat">{% for f in feat_extra %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
-    <dl style="margin-top:8px">
-      {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
-      {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
-      {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
-      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
-    </dl>
-    {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
-  </section>
-  {% endif %}
-
-  <section class="card">
-    <h2>দামের ওঠানামা <span class="sub">· সর্বনিম্ন দাম, প্রতিদিন</span></h2>
-    {% if spark %}
-      {{ spark | safe }}
-      <p class="muted" style="font-size:.8rem;margin:6px 0 0">{{ hist_start }} থেকে: সর্বনিম্ন {{ hist_lo | taka }}, সর্বোচ্চ {{ hist_hi | taka }}{% if hist_lo == hist_hi %} (দাম বদলায়নি){% endif %}</p>
-    {% else %}
-      <p class="muted" style="font-size:.88rem;margin:0">এই প্রোডাক্টের দাম {% if hist_start %}{{ hist_start }} {% endif %}থেকে প্রতিদিন জমা হচ্ছে। আগামীকাল থেকে এখানে দামের ওঠানামার চার্ট দেখা যাবে।</p>
-    {% endif %}
-  </section>
-
   {% if alts %}
-  <section class="card">
+  <section class="card o6">
     <h2>একই ধরনের অন্য প্রোডাক্ট</h2>
     <div class="rows">
     {% for a in alts %}
@@ -105,34 +138,8 @@
     </div>
   </section>
   {% endif %}
-
-
-  <section class="card">
-    {% if spec_sections %}
-      {% for sec, rows in spec_sections %}
-      <details {% if loop.first %}open{% endif %}><summary>{{ sec }}</summary>
-        <dl>{% for k, v in rows.items() %}<div><dt>{{ k }}</dt><dd style="white-space:pre-line">{{ v }}</dd></div>{% endfor %}</dl>
-      </details>
-      {% endfor %}
-    {% else %}
-    <details open><summary>স্পেসিফিকেশন</summary>
-      {% if not feat_rows %}<dl>
-        <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
-        {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
-        <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
-      </dl>{% endif %}
-      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে এই ধরনের প্রোডাক্টের দরকারি তথ্যগুলো দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
-    </details>
-    {% endif %}
-    <details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>
-  </section>
-
-  {{ slot("product_bottom", cat.slug, it.id) }}
-
-  <section class="card">
-    <h2>সাধারণ প্রশ্ন</h2>
-    {% for q, a in faq %}<details><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
-  </section>
+  </aside>
+  </div>
 {% endblock %}
 {% block after %}
 {% if gallery %}<script type="application/json" id="galdata">{{ gallery | tojson }}</script><script src="{{ base }}/static/gallery.js?v={{ build_id }}" defer></script>{% endif %}

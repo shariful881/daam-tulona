@@ -8,8 +8,8 @@
     <p class="muted" style="margin:8px 0 0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট, সবচেয়ে কম দাম প্রথমে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %} <a href="{{ base }}/c/{{ cat.slug }}/" style="text-decoration:underline">সব ব্র্যান্ডের {{ cat.name_bn }}</a>{% if size_links.get(cat.slug) %} · <a href="{{ base }}/size/{{ size_links[cat.slug][0] }}/" style="text-decoration:underline">সাইজ অনুযায়ী তুলনা</a>{% endif %}</p>
     <div class="ctrl"><label><input type="checkbox" id="stock"> শুধু স্টকে আছে</label></div>
   </section>
-  <section class="card">
-    <div class="rows" id="list">
+  <section class="card plwrap">
+    <div class="rows plist" id="list">
     {% for it in items %}
       <a class="row wi" href="{{ base }}/p/{{ it.id }}/" data-stock="{{ 1 if it.best else 0 }}"><span class="rimg" data-img>{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
         <div style="min-width:0"><div class="n">{{ it.name }}</div>

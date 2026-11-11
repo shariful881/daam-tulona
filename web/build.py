@@ -599,6 +599,10 @@ def main():
     for bf in sorted((DATA / "brand_specs").glob("*.json")) if (DATA / "brand_specs").exists() else []:
         BSPEC.update(json.loads(bf.read_text()))
 
+    # পিসির হেডারে ক্যাটাগরি মেনু (যেসব গ্রুপে প্রোডাক্ট আছে)
+    _live = {group_of[i["category"]]["slug"] for i in items.values()}
+    common["nav_groups"] = [(g["slug"], g["name_bn"]) for g in tax["groups"] if g["slug"] in _live]
+
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
         det = details.get(pid, {})

@@ -314,3 +314,142 @@ dl.kf>div{display:grid;grid-template-columns:minmax(84px,32%) 1fr;gap:10px;paddi
 dl.kf>div:last-child{border-bottom:0}
 dl.kf dt{color:var(--muted,#6b7280);font-size:.86rem}
 dl.kf dd{margin:0;text-align:left;font-weight:500;font-size:.92rem;overflow-wrap:anywhere}
+
+/* ===================== পিসি / বড় স্ক্রিন =====================
+   মোবাইলে নিচের র‍্যাপারগুলো অদৃশ্য (display:contents), তাই মোবাইলের ডিজাইন ও ক্রম আগের মতোই থাকে।
+   শুধু ১০২৪px-এর বেশি চওড়া স্ক্রিনে আলাদা লেআউট চালু হয়। */
+.gnav,.hlinks,.dk,.dkbuy{display:none}
+.pgrid,.pmain,.pside,.duo{display:contents}
+.o1{order:1}.o2{order:2}.o3{order:3}.o4{order:4}.o5{order:5}.o6{order:6}.o7{order:7}.o8{order:8}.o9{order:9}
+main.col>.foot,main.col>.footnav{order:99}
+.slotw{min-width:0}
+.slotw:not(:has(.ad)){display:none}
+
+/* ট্যাবলেট: একটু চওড়া কলাম */
+@media (min-width:760px) and (max-width:1023.98px){
+  .col{max-width:720px}
+  .cats{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+@media (min-width:1024px){
+  body{font-size:16px}
+  .col{max-width:1240px;padding-left:28px;padding-right:28px}
+
+  /* হেডার: লোগো · বড় সার্চ · লিংক, নিচে ক্যাটাগরি মেনু */
+  .hdr{box-shadow:0 1px 0 var(--line)}
+  .hdr>.col{gap:28px;padding-block:14px}
+  .logo{font-size:1.6rem;letter-spacing:-.01em}
+  .hdr .sform{justify-content:center!important}
+  .hdr .search{max-width:620px;width:100%;padding:11px 18px;font-size:.95rem;border-width:1.5px}
+  .hdr .search:focus{outline:none;border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
+  .hlinks{display:flex;gap:6px;white-space:nowrap}
+  .hlinks a{padding:8px 14px;border-radius:999px;font-weight:600;font-size:.92rem;color:var(--muted)}
+  .hlinks a:hover{background:var(--bg);color:var(--ink)}
+  .gnav{display:block;border-top:1px solid var(--line)}
+  .gnav .col{display:flex;flex-wrap:wrap;justify-content:center;gap:0 2px}
+  .gnav .col::-webkit-scrollbar{display:none}
+  .gnav a{flex:0 0 auto;padding:9px 11px;font-size:.9rem;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap}
+  .gnav a:hover{color:var(--ink)}
+  .gnav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+
+  main.col{gap:20px;padding-block:22px 56px}
+  main.has-buy,body.cmp-on main.has-buy{padding-bottom:56px}
+  .card{padding:22px 24px;border-radius:16px}
+  h1{font-size:1.65rem;margin-bottom:8px}
+  h2{font-size:1.12rem;margin-bottom:14px}
+  .crumb{font-size:.84rem}
+  .crumb a:hover{color:var(--ink);text-decoration:underline}
+
+  /* হোভার */
+  .cat,.st,.szhub a,.bcard,.azlist a,.blinks a{transition:border-color .15s,box-shadow .15s,transform .15s}
+  .cat:hover,.szhub a:hover,.bcard:hover{border-color:var(--accent);box-shadow:0 6px 18px rgba(18,48,44,.08);transform:translateY(-2px)}
+  .azlist a:hover,.blinks a:hover{border-color:var(--accent)}
+  a.st:hover{border-color:var(--ink);box-shadow:0 4px 14px rgba(18,48,44,.08)}
+  a.st.best:hover{border-color:var(--best)}
+  .row:hover .n{color:var(--accent)}
+
+  /* সাধারণ তালিকা: চওড়া কার্ডে দুই কলাম */
+  .card>.rows{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px}
+  .card>.rows>.row:nth-last-child(2):nth-child(odd){border-bottom:0}
+  .duo .card>.rows,.pside .card>.rows{grid-template-columns:minmax(0,1fr)}
+  .duo .card>.rows>.row:nth-last-child(2):nth-child(odd),.pside .card>.rows>.row:nth-last-child(2):nth-child(odd){border-bottom:1px solid var(--line)}
+  .row.wi{grid-template-columns:56px minmax(0,1fr) auto}
+  .rimg{width:56px;height:56px;border-radius:10px}
+
+  /* হোম */
+  .hero{padding:36px 40px;background:linear-gradient(120deg,var(--accent-soft),var(--surface) 55%);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:10px 48px;align-items:center}
+  .hero h1{font-size:2.15rem;grid-column:1;margin:0}
+  .hero>p{grid-column:1;font-size:1rem!important;max-width:60ch}
+  .hero .hsearch{display:flex;grid-column:1;margin-top:10px;max-width:600px;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:5px;gap:6px}
+  .hero .hsearch:focus-within{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+  .hsearch input{flex:1;min-width:0;border:0;background:none;font:inherit;font-size:1rem;padding:8px 12px;color:var(--ink);outline:none}
+  .hsearch button{border:0;background:var(--ink);color:var(--bg);font:700 .95rem var(--body);border-radius:10px;padding:0 22px;cursor:pointer}
+  .hero .hstats{display:grid;grid-column:2;grid-row:1/span 3;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .hstats div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:2px}
+  .hstats b{font:700 1.5rem var(--mono);color:var(--best)}
+  .hstats span{font-size:.82rem;color:var(--muted);line-height:1.3}
+  .cats{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+  .cat{padding:18px;min-height:104px;align-content:start}
+  .cat b{font-size:1.06rem}
+  .cat small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+  .duo>*{min-width:0}
+  .duo .szhub{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+  /* ক্যাটাগরি: প্রোডাক্ট কার্ড গ্রিড */
+  .chead .chips{flex-wrap:wrap;overflow:visible}
+  .chead .sizecta{max-width:520px}
+  .plwrap{background:none;border:0;padding:0}
+  .plist{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px!important}
+  .plist>.ad{grid-column:1/-1;margin:0}
+  .plist .row.wi{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto 1fr;align-items:start;gap:10px 8px;padding:12px 12px 14px;border:1px solid var(--line)!important;border-radius:14px;background:var(--surface);min-height:0;transition:border-color .15s,box-shadow .15s,transform .15s}
+  .plist .row.wi:hover{border-color:var(--accent)!important;box-shadow:0 8px 22px rgba(18,48,44,.09);transform:translateY(-2px)}
+  .plist .row.wi:hover .n{color:var(--ink)}
+  .plist .rimg{grid-column:1/-1;grid-row:auto;width:100%;height:auto;aspect-ratio:4/3;border-radius:10px;background:#fff;border:1px solid var(--line);padding:10px}
+  .plist .rimg.noimg,.plist .rimg:empty{background:var(--bg);border-color:transparent}
+  .plist .rimg img{object-fit:contain}
+  .plist .row.wi>div:nth-child(2){grid-column:1/-1}
+  .plist .n{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em;font-size:.95rem}
+  .plist .w{margin-top:4px}
+  .plist .row.wi>div:last-child{grid-column:1/-1;display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-top:10px;border-top:1px dashed var(--line);align-self:end}
+  .plist .p{font-size:1.15rem;color:var(--ink)}
+  .plist .d{text-align:right}
+  .pager{margin-top:4px}
+  .pager a:hover{border-color:var(--accent)}
+
+  /* প্রোডাক্ট পেজ: বামে তথ্য, ডানে স্টোরের দাম */
+  .pgrid{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:20px;align-items:start}
+  .pmain,.pside{display:grid;gap:20px;min-width:0}
+  .pmain>*,.pside>*{min-width:0}
+  .phead{padding:28px}
+  .phead .head{grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start}
+  .phead .thumbcol{gap:6px}
+  .phead .thumb{width:240px;border-radius:14px}
+  .phead .credit{max-width:240px}
+  .phead h1{font-size:1.75rem;margin:6px 0 12px}
+  .phead .tag{font-size:.8rem;padding:2px 9px}
+  .phead .low{margin-top:22px;padding:18px 20px;border:0;border-radius:14px;background:var(--bg);align-items:center}
+  .phead .low .price{font-size:2.5rem}
+  .phead .low .s{text-align:left;font-size:.88rem}
+  .phead .dkbuy{display:inline-flex;margin-left:auto;background:var(--best);color:#fff;padding:12px 22px}
+  .phead .dkbuy:hover{filter:brightness(1.08)}
+  .phead .cmpbtn{width:auto;padding:0 22px}
+  .phead .save{margin-right:10px}
+  .phead .upd{display:inline-block}
+  .pstores h2{font-size:1.05rem}
+  .pstores .st{padding:10px 12px}
+  .buy{display:none}
+  body.buy-on .cmpbar,.has-buy~.cmpbar{bottom:0;padding-bottom:env(safe-area-inset-bottom)}
+  body.cmp-on main.col{padding-bottom:80px}
+  .o5 .spark{max-width:560px}
+  dl.kf{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px}
+  dl.kf>div:nth-last-child(2):nth-child(odd){border-bottom:0}
+
+  /* লেখা-প্রধান পেজ বেশি চওড়া না হয় */
+  .card.prose{max-width:860px;width:100%;margin-inline:auto;padding:32px 40px}
+  .prose p,.prose li{font-size:1rem}
+  .gonote{left:auto;right:28px;bottom:28px;max-width:420px}
+
+  .foot{padding-top:16px;border-top:1px solid var(--line);margin-top:8px}
+}
+
