@@ -53,6 +53,9 @@ WIKI_TITLE = {"tp-link": "TP-Link", "hp": "HP Inc.", "lg": "LG Electronics", "am
               "grandstream": "Grandstream Networks", "antec": "Antec", "gamdias": "Gamdias", "minister": "Minister Hi-Tech Park"}
 
 
+WIKI_TRUST = {"hikvision"}  # উইকি পাতা হাতে যাচাই করা, ওয়েবসাইট না মিললেও চলবে
+
+
 def domain(u):
     h = urlsplit(u if "//" in u else "https://" + u).netloc.lower().split(":")[0]
     h = h[4:] if h.startswith("www.") else h
@@ -89,7 +92,7 @@ def wiki_logo(titles, website, slug=""):
             print(f"    উইকি '{title}': তথ্যবাক্স নেই")
             continue
         doms = {domain(a.get("href", "")) for a in box.select("a[href^='http'], a[href^='//']") if "wiki" not in a.get("href", "")}
-        if want not in doms and not (key and any(key in d.replace(".", "").replace("-", "") for d in doms)):
+        if want not in doms and not (key and any(key in d.replace(".", "").replace("-", "") for d in doms)) and slug not in WIKI_TRUST:
             print(f"    উইকি '{title}': ওয়েবসাইট মেলেনি ({', '.join(sorted(doms))[:80]})")
             continue
         imgs = box.find_all("img")
@@ -146,8 +149,8 @@ def save_from(slug, url, trusted):
         im = Image.open(io.BytesIO(r.content)).convert("RGBA")
         if im.width < 48 or im.height < 20 or not visible(im):
             return None
-        if im.width / im.height > 7:
-            return None  # ব্যানার
+        if im.width / im.height > (11 if trusted else 7):
+            return None  # ব্যানার (উইকিপিডিয়ার চওড়া লেখা-লোগো চলবে)
         if not trusted and not re.search(r"logo|icon", url, re.I):
             return None  # সাইটের যেকোনো ছবি নয়
         im.thumbnail((330, 330))
@@ -189,6 +192,12 @@ def main(argv):
         if only and slug not in only:
             continue
         m = meta.setdefault(slug, {})
+        if inf.get("logo_block"):  # স্বয়ংক্রিয় লোগো ভুল আসে, তাই বন্ধ (হাতে বসাতে হবে)
+            for old in OUT.glob(f"{slug}.*"):
+                old.unlink()
+            m.pop("logo", None)
+            rep["missing"].append({"slug": slug, "why": "স্বয়ংক্রিয় লোগো ভুল আসছিল, হাতে বসাতে হবে"})
+            continue
         if inf.get("logo"):  # config-এ হাতে বসানো লোগো
             ok, why = check_file(slug, inf["logo"]) if not inf["logo"].startswith("http") else (True, "")
             (rep["ok"] if ok else rep["missing"]).append({"slug": slug, "why": why, "src": "হাতে বসানো"})
