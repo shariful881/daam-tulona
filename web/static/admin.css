@@ -101,3 +101,9 @@ body.adm-dirty main.col{padding-bottom:90px}
 body.adm-dirty .bfloat{bottom:76px}
 .bfrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.85rem}
 .bfrow b{margin-right:auto}
+/* প্রোডাক্ট ট্যাবের ভেতরের আলাদা পাতা */
+.psub{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0}
+.psub button{border:1px solid var(--line);background:var(--surface);color:var(--body);border-radius:999px;padding:8px 14px;font:inherit;font-size:.86rem;font-weight:600;cursor:pointer;min-height:40px}
+.psub button b{font-family:var(--mono);font-weight:700;margin-left:4px;color:var(--muted)}
+.psub button[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.psub button[aria-selected=true] b{color:var(--bg)}

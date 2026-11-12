@@ -611,13 +611,22 @@
       function draw() {
         visible = { sg: [], pc: [], am: [] };
         var sug = S.admin.suggestions.filter(function (s) { return mm.not_same.indexOf(pairKey(s.a, s.b)) < 0; });
+        // আলাদা পাতা: একসাথে সব দেখালে পাতা ভারী হয়ে আটকে যায়, তাই একবারে একটা অংশ
+        var npc = (S.admin.price_checks || []).filter(function (x) { return x.o.some(function (o) { return o[3] && !decided(x.id, o[0]); }); }).length;
+        var SUBS = [["sg", "সম্ভাব্য একই প্রোডাক্ট", S.admin.sugg_total || sug.length], ["am", "স্বয়ংক্রিয় মিল", (S.admin.auto_merges || []).length],
+                    ["pc", "সন্দেহজনক দাম", npc], ["hide", "প্রোডাক্ট লুকান", mm.ignore.length]];
+        if (!S.psub) { S.psub = lsGet("dt_admin_psub") || "sg"; }
+        var sub = S.psub;
         p.innerHTML =
-          '<section class="card"><h2>প্রোডাক্ট লুকান</h2><p class="muted" style="margin:0;font-size:.84rem">ভুল বা অপ্রয়োজনীয় প্রোডাক্ট খুঁজে সাইট থেকে লুকান।</p>' +
+          '<nav class="psub" role="tablist" aria-label="প্রোডাক্টের কাজ">' + SUBS.map(function (x) {
+            return '<button type="button" role="tab" data-psub="' + x[0] + '" aria-selected="' + (x[0] === sub) + '">' + x[1] + (x[2] ? " <b>" + bn(x[2]) + "</b>" : "") + "</button>";
+          }).join("") + "</nav>" +
+          (sub !== "hide" ? "" : '<section class="card"><h2>প্রোডাক্ট লুকান</h2><p class="muted" style="margin:0;font-size:.84rem">ভুল বা অপ্রয়োজনীয় প্রোডাক্ট খুঁজে সাইট থেকে লুকান।</p>' +
             '<div class="af"><input type="search" id="pq" placeholder="প্রোডাক্টের নাম লিখুন…"></div><div class="rows" id="pres"></div>' +
             (mm.ignore.length ? '<h3 style="font-size:.9rem;margin:14px 0 4px">লুকানো আছে (' + bn(mm.ignore.length) + ")</h3>" +
               mm.ignore.map(function (id) { return '<div class="apair"><div class="nm">' + esc(nm(id)) + '</div><div class="bt"><button type="button" class="abtn ghost" data-unhide="' + esc(id) + '">ফিরিয়ে আনুন</button></div></div>'; }).join("") : "") +
-          "</section>" +
-          (function () {
+          "</section>") +
+          (sub !== "pc" ? "" : (function () {
             var pc = (S.admin.price_checks || []).filter(function (x) { return x.o.some(function (o) { return o[3] && !decided(x.id, o[0]); }); });
             if (!pc.length) return "";
             return '<section class="card"><h2>সন্দেহজনক দাম <span class="sub">· ' + bn(pc.length) + "টি</span></h2>" +
@@ -634,16 +643,16 @@
                         : '<span><button type="button" class="abtn ok" data-pok="' + esc(k) + '">দাম ঠিক</button><button type="button" class="abtn warn" data-pdrop="' + esc(k) + '">মিল ভুল</button></span>') + "</div>";
                   }).join("") + "</div></div>";
               }).join("") + "</section>";
-          })() +
-          (function () {
+          })()) +
+          (sub !== "am" ? "" : (function () {
             var am = S.admin.auto_merges || [];
-            if (!am.length) return "";
+            if (!am.length) return '<section class="card"><p class="aempty">কোনো স্বয়ংক্রিয় মিল নেই।</p></section>';
             return '<section class="card"><h2>স্বয়ংক্রিয় মিল <span class="sub">· ' + bn(am.length) + "টি</span></h2>" +
               '<p class="muted" style="margin:0;font-size:.84rem">মডেল নম্বর, ব্র্যান্ড আর ক্যাপাসিটি এক হওয়ায় এগুলো নিজে থেকে এক পাতায় জোড়া লাগানো হয়েছে। ভুল হলে <b>আলাদা</b> চাপুন, পরের আপডেটে আলাদা হয়ে যাবে।</p>' +
               '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…" value="' + esc(S.amq || "") + '"></div>' +
               bar("am", [["notsame", "বাছাগুলো আলাদা করুন", "warn"]]) + '<div id="amres"></div></section>';
-          })() +
-          '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(S.admin.sugg_total || sug.length) + "টি</span></h2>" +
+          })()) +
+          (sub !== "sg" ? "" : '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(S.admin.sugg_total || sug.length) + "টি</span></h2>" +
             '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ/র‍্যাম হলে "আলাদা" চাপুন। ' +
             '<b class="sg-new">নতুন তুলনা</b> লেখাগুলো আগে: মেলালে এক দোকানের প্রোডাক্ট প্রথমবার দুই দোকানে তুলনা করা যাবে।</p>' +
             '<div class="af"><input type="search" id="sgq" placeholder="নাম দিয়ে খুঁজুন…" value="' + esc(S.sgq || "") + '"></div>' +
@@ -662,7 +671,10 @@
                 '<div class="bt">' + (done ? '<span class="muted" style="font-size:.82rem">✓ মিলানো হয়েছে</span> <button type="button" class="abtn ghost" data-unmerge="' + esc(s.a) + "|" + esc(s.b) + '">বাতিল</button>'
                   : '<button type="button" class="abtn ok" data-merge="' + esc(s.a) + "|" + esc(s.b) + '">একই, মিলান</button><button type="button" class="abtn ghost" data-notsame="' + esc(pairKey(s.a, s.b)) + '">আলাদা</button>') + "</div></div>";
               }).join("") + (lst.length > n ? '<p style="text-align:center;margin:12px 0 0"><button type="button" class="abtn ghost" id="sgmore">আরও ৬০টি দেখান (বাকি ' + bn(lst.length - n) + ")</button></p>" : "");
-            })() + "</section>" + floatBar();
+            })() + "</section>") + floatBar();
+        $$(".psub [data-psub]").forEach(function (b) {
+          b.addEventListener("click", function () { S.psub = b.dataset.psub; lsSet("dt_admin_psub", S.psub); draw(); window.scrollTo(0, 0); });
+        });
         var sgq = $("#sgq");
         if (sgq) sgq.addEventListener("change", function () { S.sgq = sgq.value; S.sgn = 60; draw(); });
         var sgm = $("#sgmore");
@@ -682,7 +694,7 @@
           }).join("");
         }
         if (amq) { amq.addEventListener("input", drawAm); drawAm(); }
-        $("#pq").addEventListener("input", function () {
+        if ($("#pq")) $("#pq").addEventListener("input", function () {
           var t = this.value.toLowerCase().split(/\s+/).filter(Boolean), out = $("#pres");
           if (!t.length) { out.innerHTML = ""; return; }
           var hits = list.filter(function (x) { var n = (x.n + " " + x.c).toLowerCase(); return t.every(function (w) { return n.indexOf(w) > -1; }); }).slice(0, 12);
