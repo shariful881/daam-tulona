@@ -583,7 +583,33 @@
       function merged(a, b) { return mm.merge.some(function (m) { var s = [m.keep].concat(m.merge); return s.indexOf(a) > -1 && s.indexOf(b) > -1; }); }
       mm.price_ok = mm.price_ok || []; mm.drop_offer = mm.drop_offer || [];
       function decided(id, st) { var k = id + "|" + st; return mm.price_ok.indexOf(k) > -1 ? "ok" : mm.drop_offer.indexOf(k) > -1 ? "drop" : ""; }
+      // একসাথে অনেকগুলো বাছাই: "৫০টা বাছুন" -> দরকার নেই এমনগুলোর টিক তুলে দিন -> একটা বোতামে সব
+      var SEL = S.bulkSel || (S.bulkSel = { sg: {}, pc: {}, am: {} });
+      function nsel(k) { return Object.keys(SEL[k]).length; }
+      function cb(kind, key) { return '<label class="bsel"><input type="checkbox" data-sel="' + kind + '" value="' + esc(key) + '"' + (SEL[kind][key] ? " checked" : "") + '></label>'; }
+      function bar(kind, acts) {
+        var n = nsel(kind);
+        return '<div class="bbar"><button type="button" class="abtn ghost" data-pick="' + kind + '">পরের ৫০টা বাছুন</button>' +
+          (n ? '<button type="button" class="abtn ghost" data-unpick="' + kind + '">বাছাই মুছুন</button><b class="bn">' + bn(n) + "টা বাছা</b>" +
+            acts.map(function (a) { return '<button type="button" class="abtn ' + a[2] + '" data-bulk="' + kind + "|" + a[0] + '">' + a[1] + "</button>"; }).join("")
+            : '<span class="muted" style="font-size:.8rem">বাছার পর যেগুলো দরকার নেই সেগুলোর টিক তুলে দিন</span>') + "</div>";
+      }
+      var ACTS = {
+        sg: ["সম্ভাব্য একই", [["merge", "একই, মিলান", "ok"], ["notsame", "আলাদা", "ghost"]]],
+        pc: ["সন্দেহজনক দাম", [["ok", "দাম ঠিক", "ok"], ["drop", "মিল ভুল", "warn"]]],
+        am: ["স্বয়ংক্রিয় মিল", [["notsame", "আলাদা করুন", "warn"]]]
+      };
+      function floatBar() {  // নিচে ভাসমান বার: টিক তোলার জন্য নিচে নামলেও বোতাম হাতের কাছে
+        var h = Object.keys(ACTS).filter(function (k) { return nsel(k); }).map(function (k) {
+          return '<div class="bfrow"><b>' + ACTS[k][0] + ": " + bn(nsel(k)) + "টা বাছা</b>" +
+            ACTS[k][1].map(function (a) { return '<button type="button" class="abtn ' + a[2] + '" data-bulk="' + k + "|" + a[0] + '">' + a[1] + "</button>"; }).join("") +
+            '<button type="button" class="abtn ghost" data-unpick="' + k + '">✕</button></div>';
+        }).join("");
+        return h ? '<div class="bfloat">' + h + "</div>" : "";
+      }
+      var visible = { sg: [], pc: [], am: [] };  // এখন পাতায় দেখানো, সিদ্ধান্ত বাকি এমন কী-গুলো (ক্রমে)
       function draw() {
+        visible = { sg: [], pc: [], am: [] };
         var sug = S.admin.suggestions.filter(function (s) { return mm.not_same.indexOf(pairKey(s.a, s.b)) < 0; });
         p.innerHTML =
           '<section class="card"><h2>প্রোডাক্ট লুকান</h2><p class="muted" style="margin:0;font-size:.84rem">ভুল বা অপ্রয়োজনীয় প্রোডাক্ট খুঁজে সাইট থেকে লুকান।</p>' +
@@ -597,11 +623,13 @@
             return '<section class="card"><h2>সন্দেহজনক দাম <span class="sub">· ' + bn(pc.length) + "টি</span></h2>" +
               '<p class="muted" style="margin:0;font-size:.84rem">এসব প্রোডাক্টে স্টোরগুলোর দামে অস্বাভাবিক ফারাক (দেড় গুণের বেশি)। চিহ্নিত দাম এখন সর্বনিম্ন দাম ও সাশ্রয়ের হিসাবে ধরা হচ্ছে না। ' +
               '<b>দাম ঠিক</b> চাপলে আবার ধরা হবে; <b>মিল ভুল</b> চাপলে ওই স্টোরের দাম এই পাতা থেকে সরে যাবে।</p>' +
-              pc.slice(0, 60).map(function (x) {
+              bar("pc", [["ok", "বাছাগুলো: দাম ঠিক", "ok"], ["drop", "বাছাগুলো: মিল ভুল", "warn"]]) +
+              pc.slice(0, 100).map(function (x) {
                 return '<div class="apair"><div class="nm"><a href="' + BASE + "/p/" + esc(x.id) + '/" target="_blank" style="text-decoration:underline">' + esc(x.n) + "</a><br><span>" + esc(x.c) + "</span>" +
                   x.o.map(function (o) {
                     var k = x.id + "|" + o[0], st = decided(x.id, o[0]);
-                    return '<div class="apc' + (o[3] ? " sus" : "") + '"><span>' + esc(o[1]) + " · <b>৳" + Number(o[2]).toLocaleString("en-IN") + "</b></span>" +
+                    if (o[3] && !st) visible.pc.push(k);
+                    return '<div class="apc' + (o[3] ? " sus" : "") + '"><span>' + (o[3] && !st ? cb("pc", k) : "") + esc(o[1]) + " · <b>৳" + Number(o[2]).toLocaleString("en-IN") + "</b></span>" +
                       (!o[3] ? "" : st ? '<span class="muted" style="font-size:.78rem">' + (st === "ok" ? "✓ দাম ঠিক" : "✓ সরানো হবে") + "</span>"
                         : '<span><button type="button" class="abtn ok" data-pok="' + esc(k) + '">দাম ঠিক</button><button type="button" class="abtn warn" data-pdrop="' + esc(k) + '">মিল ভুল</button></span>') + "</div>";
                   }).join("") + "</div></div>";
@@ -612,26 +640,29 @@
             if (!am.length) return "";
             return '<section class="card"><h2>স্বয়ংক্রিয় মিল <span class="sub">· ' + bn(am.length) + "টি</span></h2>" +
               '<p class="muted" style="margin:0;font-size:.84rem">মডেল নম্বর, ব্র্যান্ড আর ক্যাপাসিটি এক হওয়ায় এগুলো নিজে থেকে এক পাতায় জোড়া লাগানো হয়েছে। ভুল হলে <b>আলাদা</b> চাপুন, পরের আপডেটে আলাদা হয়ে যাবে।</p>' +
-              '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…"></div><div id="amres"></div></section>';
+              '<div class="af"><input type="search" id="amq" placeholder="নাম দিয়ে খুঁজুন…" value="' + esc(S.amq || "") + '"></div>' +
+              bar("am", [["notsame", "বাছাগুলো আলাদা করুন", "warn"]]) + '<div id="amres"></div></section>';
           })() +
           '<section class="card"><h2>সম্ভাব্য একই প্রোডাক্ট <span class="sub">· ' + bn(S.admin.sugg_total || sug.length) + "টি</span></h2>" +
             '<p class="muted" style="margin:0;font-size:.84rem">দুই স্টোরে একই জিনিস আলাদা নামে থাকলে মিলিয়ে দিন, তাহলে এক পাতায় দুই দামের তুলনা দেখাবে। <b>Tray</b> আর <b>Box</b> প্রসেসর, বা আলাদা রঙ/সাইজ/র‍্যাম হলে "আলাদা" চাপুন। ' +
             '<b class="sg-new">নতুন তুলনা</b> লেখাগুলো আগে: মেলালে এক দোকানের প্রোডাক্ট প্রথমবার দুই দোকানে তুলনা করা যাবে।</p>' +
             '<div class="af"><input type="search" id="sgq" placeholder="নাম দিয়ে খুঁজুন…" value="' + esc(S.sgq || "") + '"></div>' +
+            bar("sg", [["merge", "বাছাগুলো একই, মিলান", "ok"], ["notsame", "বাছাগুলো আলাদা", "ghost"]]) +
             (function () {
               var w = (S.sgq || "").toLowerCase();
               var lst = w ? sug.filter(function (s) { return (s.a_name + " " + s.b_name).toLowerCase().indexOf(w) > -1; }) : sug;
               var n = S.sgn || 60;
               return lst.slice(0, n).map(function (s) {
               var done = merged(s.a, s.b);
+              if (!done) visible.sg.push(s.a + "|" + s.b);
               var st = function (x) { return x && x.length ? ' <span class="sg-st">(' + esc(x.join(", ")) + ")</span>" : ' <span class="sg-st">(স্টক নেই)</span>'; };
-              return '<div class="apair' + (done ? " done" : "") + '"><div class="nm"><a href="' + BASE + "/p/" + esc(s.a) + '/" target="_blank">' + esc(s.a_name) + "</a>" + st(s.sa) +
+              return '<div class="apair' + (done ? " done" : "") + '"><div class="nm">' + (done ? "" : cb("sg", s.a + "|" + s.b)) + '<a href="' + BASE + "/p/" + esc(s.a) + '/" target="_blank">' + esc(s.a_name) + "</a>" + st(s.sa) +
                 '<br><span>↕ মিলের হার ' + bn(Math.round(s.score * 100)) + "%" + (s.why ? " · " + esc(s.why) : "") + (s.lift === 2 ? ' · <b class="sg-new">নতুন তুলনা</b>' : "") + "</span><br>" +
                 '<a href="' + BASE + "/p/" + esc(s.b) + '/" target="_blank">' + esc(s.b_name) + "</a>" + st(s.sb) + "</div>" +
                 '<div class="bt">' + (done ? '<span class="muted" style="font-size:.82rem">✓ মিলানো হয়েছে</span> <button type="button" class="abtn ghost" data-unmerge="' + esc(s.a) + "|" + esc(s.b) + '">বাতিল</button>'
                   : '<button type="button" class="abtn ok" data-merge="' + esc(s.a) + "|" + esc(s.b) + '">একই, মিলান</button><button type="button" class="abtn ghost" data-notsame="' + esc(pairKey(s.a, s.b)) + '">আলাদা</button>') + "</div></div>";
               }).join("") + (lst.length > n ? '<p style="text-align:center;margin:12px 0 0"><button type="button" class="abtn ghost" id="sgmore">আরও ৬০টি দেখান (বাকি ' + bn(lst.length - n) + ")</button></p>" : "");
-            })() + "</section>";
+            })() + "</section>" + floatBar();
         var sgq = $("#sgq");
         if (sgq) sgq.addEventListener("change", function () { S.sgq = sgq.value; S.sgn = 60; draw(); });
         var sgm = $("#sgmore");
@@ -639,10 +670,13 @@
         var amq = $("#amq");
         function drawAm() {
           var am = S.admin.auto_merges || [], w = (amq.value || "").toLowerCase();
-          var rows = am.filter(function (x) { return !w || (x[1] + " " + x[3]).toLowerCase().indexOf(w) > -1; }).slice(0, 40);
+          S.amq = amq.value;
+          var rows = am.filter(function (x) { return !w || (x[1] + " " + x[3]).toLowerCase().indexOf(w) > -1; }).slice(0, 100);
+          visible.am = [];
           $("#amres").innerHTML = rows.map(function (x) {
             var k = pairKey(x[0], x[2]), no = mm.not_same.indexOf(k) > -1;
-            return '<div class="apair' + (no ? " done" : "") + '"><div class="nm">' + esc(x[1]) + "<br><span>↕ একই পাতায়</span><br>" + esc(x[3]) + "</div>" +
+            if (!no) visible.am.push(k);
+            return '<div class="apair' + (no ? " done" : "") + '"><div class="nm">' + (no ? "" : cb("am", k)) + esc(x[1]) + "<br><span>↕ একই পাতায়</span><br>" + esc(x[3]) + "</div>" +
               '<div class="bt">' + (no ? '<span class="muted" style="font-size:.82rem">✓ আলাদা করা হবে</span>' : '<button type="button" class="abtn ghost" data-notsame="' + esc(k) + '">আলাদা</button>') +
               '<a class="abtn ghost" style="display:inline-flex;align-items:center" href="' + BASE + "/p/" + esc(x[2]) + '/" target="_blank">দেখুন</a></div></div>';
           }).join("");
@@ -658,15 +692,46 @@
               '<a class="abtn ghost" style="display:inline-flex;align-items:center" href="' + BASE + "/p/" + x.id + '/" target="_blank">দেখুন</a></div></div>'; }).join("") || '<p class="aempty">কিছু পাওয়া যায়নি।</p>';
         });
       }
+      function doMerge(ab) {
+        var keep = ab[0], other = ab[1];
+        if (merged(keep, other)) return;
+        var m = mm.merge.filter(function (x) { return x.keep === keep; })[0];
+        if (m) m.merge.push(other); else mm.merge.push({ keep: keep, merge: [other] });
+      }
+      function add(arr, v) { if (arr.indexOf(v) < 0) arr.push(v); }
       draw();
+      p.addEventListener("change", function (e) {
+        var t = e.target;
+        if (t.dataset && t.dataset.sel) {
+          if (t.checked) SEL[t.dataset.sel][t.value] = 1; else delete SEL[t.dataset.sel][t.value];
+          var y = window.scrollY; draw(); window.scrollTo(0, y);
+        }
+      });
       p.addEventListener("click", function (e) {
-        var d = e.target.dataset || {};
+        var d = e.target.dataset || {}, y = window.scrollY;
+        if (d.pick) {  // তালিকার উপর থেকে যেগুলো এখনো বাছা হয়নি তার পরের ৫০টা
+          var k = d.pick, c = 0;
+          visible[k].forEach(function (key) { if (c < 50 && !SEL[k][key]) { SEL[k][key] = 1; c++; } });
+          draw(); window.scrollTo(0, y); return;
+        }
+        if (d.unpick) { SEL[d.unpick] = {}; draw(); window.scrollTo(0, y); return; }
+        if (d.bulk) {
+          var kb = d.bulk.split("|"), kind = kb[0], act = kb[1], keys = Object.keys(SEL[kind]);
+          if (!keys.length) return;
+          keys.forEach(function (key) {
+            if (kind === "sg" && act === "merge") doMerge(key.split("|"));
+            else if (kind === "sg" && act === "notsame") { var ab = key.split("|"); add(mm.not_same, pairKey(ab[0], ab[1])); }
+            else if (kind === "am") add(mm.not_same, key);
+            else if (kind === "pc") add(act === "ok" ? mm.price_ok : mm.drop_offer, key);
+          });
+          SEL[kind] = {};
+          toast(bn(keys.length) + "টা বদল হয়েছে। নিচে \"সেভ করুন\" চাপলে কাজ হবে।");
+          draw(); window.scrollTo(0, y); markDirty("products"); return;
+        }
         if (d.hide) { mm.ignore.push(d.hide); var q = $("#pq").value; draw(); $("#pq").value = q; $("#pq").dispatchEvent(new Event("input")); markDirty("products"); }
         else if (d.unhide) { mm.ignore = mm.ignore.filter(function (x) { return x !== d.unhide; }); draw(); markDirty("products"); }
         else if (d.merge) {
-          var ab = d.merge.split("|"), keep = ab[0], other = ab[1];
-          var m = mm.merge.filter(function (x) { return x.keep === keep; })[0];
-          if (m) m.merge.push(other); else mm.merge.push({ keep: keep, merge: [other] });
+          doMerge(d.merge.split("|"));
           draw(); markDirty("products");
         } else if (d.unmerge) {
           var u = d.unmerge.split("|");

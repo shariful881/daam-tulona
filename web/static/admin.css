@@ -90,3 +90,14 @@ body.adm-dirty main.col{padding-bottom:90px}
 .sg-new{color:var(--best);font-weight:700}
 .sg-st{color:var(--muted);font-size:.78rem}
 .apair .nm a{text-decoration:underline;text-decoration-color:var(--line)}
+
+/* একসাথে অনেকগুলো বাছাই */
+.bbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 4px;padding:8px 10px;background:var(--card,#fff);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.bbar .bn{font-size:.85rem;margin:0 4px}
+.bsel{display:inline-flex;align-items:center;margin-right:8px;vertical-align:middle}
+.bsel input{width:20px;height:20px;accent-color:var(--best,#15803d);cursor:pointer}
+.apc .bsel input{width:18px;height:18px}
+.bfloat{position:fixed;left:8px;right:8px;bottom:12px;z-index:19;max-width:640px;margin:0 auto;display:grid;gap:6px;padding:10px 12px;background:var(--surface,#fff);border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+body.adm-dirty .bfloat{bottom:76px}
+.bfrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.85rem}
+.bfrow b{margin-right:auto}
