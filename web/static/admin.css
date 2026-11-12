@@ -92,7 +92,7 @@ body.adm-dirty main.col{padding-bottom:90px}
 .apair .nm a{text-decoration:underline;text-decoration-color:var(--line)}
 
 /* একসাথে অনেকগুলো বাছাই */
-.bbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 4px;padding:8px 10px;background:var(--card,#fff);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.bbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 4px;padding:8px 10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .bbar .bn{font-size:.85rem;margin:0 4px}
 .bsel{display:inline-flex;align-items:center;margin-right:8px;vertical-align:middle}
 .bsel input{width:20px;height:20px;accent-color:var(--best,#15803d);cursor:pointer}

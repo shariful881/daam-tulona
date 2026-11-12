@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap">
 <link rel="stylesheet" href="{{ base }}/static/style.css?v={{ build_id }}">
 {% if adsense.client and not noads %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense.client }}" crossorigin="anonymous"></script>{% endif %}
+<script>window.DT_BASE="{{ base }}";window.DT_BUILD="{{ build_id }}";</script>
 <script>function dtImgErr(i){try{var a=JSON.parse(i.getAttribute("data-alts")||"[]"),n=a.shift();i.setAttribute("data-alts",JSON.stringify(a));if(n){i.src=n[0];var c=i.closest("[data-img]");c=c&&c.parentNode.querySelector(".credit");if(c&&n[1]){c.textContent="ছবি: "+n[1];c.href=n[2]}}else{var w=i.closest("[data-img]");if(w){w.classList.add("noimg");var c2=w.parentNode.querySelector(".credit");if(c2)c2.remove()}i.remove()}}catch(e){}}</script>
 {% if track.gsc %}<meta name="google-site-verification" content="{{ track.gsc }}">{% endif %}
 {% if track.bing %}<meta name="msvalidate.01" content="{{ track.bing }}">{% endif %}
@@ -37,8 +38,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 <body>
 <header class="hdr"><div class="col">
   <a class="logo" href="{{ base }}/">দাম<span>তুলনা</span></a>
-  <form class="sform" action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0">
-    <input class="search" type="search" name="q" placeholder="প্রোডাক্ট খুঁজুন…" aria-label="প্রোডাক্ট খুঁজুন">
+  <form class="sform" action="{{ base }}/search/" method="get" role="search" style="flex:1;display:flex;justify-content:flex-end;min-width:0;position:relative">
+    <input class="search" type="search" name="q" placeholder="প্রোডাক্ট খুঁজুন…" aria-label="প্রোডাক্ট খুঁজুন" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sdrop">
+    <div class="sdrop" id="sdrop" role="listbox" hidden></div>
   </form>
   <nav class="hlinks" aria-label="দ্রুত লিংক"><a href="{{ base }}/pc-builder/">পিসি বিল্ডার</a><a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/compare/">তুলনা</a></nav>
 </div>
@@ -52,8 +54,8 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 </main>
 {% block after %}{% endblock %}
 <div class="cmpbar" id="cmpbar" hidden><div class="col"><span id="cmpcount"></span><button type="button" class="link" id="cmpclear">মুছুন</button><a class="btn sm" id="cmpgo" href="{{ base }}/compare/">তুলনা করুন</a></div></div>
-<script>window.DT_BASE="{{ base }}";</script>
 <script src="{{ base }}/static/compare.js?v={{ build_id }}" defer></script>
+<script src="{{ base }}/static/livesearch.js?v={{ build_id }}" defer></script>
 {% if going_note %}<script src="{{ base }}/static/go.js?v={{ build_id }}" defer></script>{% endif %}
 </body>
 </html>
