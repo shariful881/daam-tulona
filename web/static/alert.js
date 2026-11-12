@@ -14,7 +14,7 @@
   function put(k, v) { try { localStorage.setItem(k, v); } catch (x) {} }
   function already(phone) {
     form.hidden = true; msg.className = "almsg ok";
-    msg.textContent = "এই প্রোডাক্টের জন্য " + bn(phone) + " নম্বরটা আগেই জমা আছে। দাম কমলে জানাব।";
+    msg.textContent = "এই প্রোডাক্টের জন্য " + bn(phone) + " নম্বরটা আগেই জমা আছে। " + (cfg.kind === "stock" ? "স্টকে এলে" : "দাম কমলে") + " জানাব।";
   }
   try { var me = JSON.parse(get(ME) || "{}"); if (me.name) form.elements.name.value = me.name; if (me.phone) form.elements.phone.value = me.phone; } catch (x) {}
 
@@ -33,19 +33,19 @@
     if (!/^01[3-9]\d{8}$/.test(phone)) { msg.textContent = "সঠিক মোবাইল নম্বর দিন (যেমন ০১৭১২৩৪৫৬৭৮)।"; msg.className = "almsg err"; return; }
     if (get(KEY) === phone) { already(phone); return; }
     var d = { name: name, phone: phone, product: cfg.product, category: cfg.category || "", url: location.origin + location.pathname,
-              price: cfg.price || "", time: new Date().toISOString() };
+              price: cfg.price || "", type: cfg.kind === "stock" ? "স্টকে এলে" : "দাম কমলে", time: new Date().toISOString() };
     var sub = form.querySelector("button[type=submit]"); sub.disabled = true;
     var done = function () {
       put(KEY, phone); put(ME, JSON.stringify({ name: name, phone: phone }));
       form.hidden = true; msg.className = "almsg ok";
-      msg.textContent = "ধন্যবাদ, " + name + "! দাম কমলে " + bn(phone) + " নম্বরে জানাব।";
+      msg.textContent = "ধন্যবাদ, " + name + "! " + (cfg.kind === "stock" ? "স্টকে এলে " : "দাম কমলে ") + bn(phone) + " নম্বরে জানাব।";
       btn.classList.add("on");
     };
     if (cfg.endpoint) {
       fetch(cfg.endpoint, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(d) })
         .then(done, function () { sub.disabled = false; msg.className = "almsg err"; msg.textContent = "পাঠানো যায়নি, ইন্টারনেট দেখে আবার চেষ্টা করুন।"; });
     } else if (cfg.wa) {
-      var t = "দাম কমলে জানাবেন\nনাম: " + name + "\nমোবাইল: " + phone + "\nক্যাটাগরি: " + d.category + "\nপ্রোডাক্ট: " + d.product + "\n" + d.url;
+      var t = (cfg.kind === "stock" ? "স্টকে এলে জানাবেন" : "দাম কমলে জানাবেন") + "\nনাম: " + name + "\nমোবাইল: " + phone + "\nক্যাটাগরি: " + d.category + "\nপ্রোডাক্ট: " + d.product + "\n" + d.url;
       window.open("https://wa.me/88" + String(cfg.wa).replace(/\D/g, "").replace(/^88/, "") + "?text=" + encodeURIComponent(t), "_blank", "noopener");
       done();
     }

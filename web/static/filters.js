@@ -20,11 +20,11 @@
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 
   /* ---------- অবস্থা ---------- */
-  var S = { sort: "", min: "", max: "", stock: false, multi: false, f: {} };
+  var S = { sort: "", min: "", max: "", stock: false, multi: false, all: false, f: {} };
   function readURL() {
     var q = new URLSearchParams(location.search);
     S.sort = q.get("sort") || ""; S.min = q.get("min") || ""; S.max = q.get("max") || "";
-    S.stock = q.get("stock") === "1"; S.multi = q.get("multi") === "1"; S.f = {};
+    S.stock = q.get("stock") === "1"; S.multi = q.get("multi") === "1"; S.all = q.get("all") === "1"; S.f = {};
     q.forEach(function (v, k) { if (k.indexOf("f.") === 0 && v) S.f[k.slice(2)] = v.split("|"); });
   }
   function writeURL() {
@@ -34,12 +34,13 @@
     if (S.max) q.set("max", S.max);
     if (S.stock) q.set("stock", "1");
     if (S.multi) q.set("multi", "1");
+    if (S.all) q.set("all", "1");
     Object.keys(S.f).forEach(function (k) { if (S.f[k].length) q.set("f." + k, S.f[k].join("|")); });
     var s = q.toString();
     try { history.replaceState(null, "", location.pathname + (s ? "?" + s : "")); } catch (e) {}
   }
   function nActive() {
-    var n = (S.min || S.max ? 1 : 0) + (S.stock ? 1 : 0) + (S.multi ? 1 : 0);
+    var n = (S.min || S.max ? 1 : 0) + (S.stock ? 1 : 0) + (S.multi ? 1 : 0) + (S.all ? 1 : 0);
     Object.keys(S.f).forEach(function (k) { n += S.f[k].length; });
     return n;
   }
@@ -57,6 +58,7 @@
     if (S.min && (p == null || p < +S.min)) return false;
     if (S.max && (p == null || p > +S.max)) return false;
     if (S.stock && p == null) return false;
+    if (it.h && !S.all) return false;  // কোথাও স্টকে নেই: "স্টক শেষগুলোও দেখান" চাপলে তবে
     if (S.multi && it.k < 2) return false;
     for (var k in S.f) {
       if (k === skip || !S.f[k].length) continue;
@@ -84,10 +86,11 @@
 
   /* ---------- আঁকা ---------- */
   function row(it) {
-    var st = it.s ? data.stores[it.s] || "" : "এখন স্টকে নেই";
+    var st = it.s ? data.stores[it.s] || "" : it.cs ? "শীঘ্রই আসছে" : "এখন কোথাও স্টকে নেই";
     var img = it.im && it.im.length ? '<img src="' + esc(it.im[0]) + '" alt="" width="44" height="44" loading="lazy" decoding="async" data-alts="' +
       esc(JSON.stringify(it.im.slice(1).map(function (u) { return [u]; }))) + '" onerror="dtImgErr(this)">' : "";
-    var pr = it.p != null ? taka(it.p) : it.a != null ? '<span class="muted">' + taka(it.a) + "</span>" : "—";
+    var lp = it.a != null ? it.a : it.lp;
+    var pr = it.p != null ? taka(it.p) : lp != null ? '<span class="muted" title="শেষ জানা দাম">' + taka(lp) + "</span>" : "—";
     return '<a class="row wi" href="' + BASE + "/p/" + encodeURIComponent(it.i) + '/"><span class="rimg" data-img>' + icon + img + "</span>" +
       '<div style="min-width:0"><div class="n">' + esc(it.n) + '</div><div class="w">' + esc(st) + (it.k > 1 ? '<span class="badge">' + bn(it.k) + " স্টোর</span>" : "") + "</div></div>" +
       '<div><div class="p">' + pr + "</div>" + (it.v ? '<div class="d lo">' + taka(it.v) + " পার্থক্য</div>" : "") + "</div></a>";
@@ -111,6 +114,7 @@
     if (S.min || S.max) out.push(['price', (S.min && S.max ? taka(S.min) + "–" + taka(S.max) : S.min ? taka(S.min) + "+" : taka(S.max) + " পর্যন্ত")]);
     if (S.stock) out.push(["stock", "স্টকে আছে"]);
     if (S.multi) out.push(["multi", "একাধিক স্টোর"]);
+    if (S.all) out.push(["oos", "স্টক শেষগুলোও"]);
     Object.keys(S.f).forEach(function (k) { S.f[k].forEach(function (v) { out.push(["f:" + k + ":" + v, v]); }); });
     box.innerHTML = out.map(function (c) { return '<button type="button" class="fap" data-rm="' + esc(c[0]) + '">' + esc(c[1]) + ' <span aria-hidden="true">✕</span></button>'; }).join("") +
       (out.length > 1 ? '<button type="button" class="fap clear" data-rm="all">সব মুছুন</button>' : "");
@@ -120,7 +124,7 @@
   }
   function syncInputs() {
     $("fsort").value = S.sort; $("fmin").value = S.min; $("fmax").value = S.max;
-    $("fstock").checked = S.stock; $("fmulti").checked = S.multi;
+    $("fstock").checked = S.stock; $("fmulti").checked = S.multi; if ($("fall")) $("fall").checked = S.all;
     [].forEach.call(document.querySelectorAll("input[data-fid]"), function (c) { c.checked = (S.f[c.dataset.fid] || []).indexOf(c.value) > -1; });
     [].forEach.call(document.querySelectorAll(".fchip"), function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.pmin === S.min && b.dataset.pmax === S.max && !!(S.min || S.max)));
@@ -142,7 +146,7 @@
       if (pager) pager.hidden = true;
       empty.hidden = hits.length > 0;
       stat.hidden = false;
-      stat.textContent = bn(hits.length) + "টি প্রোডাক্ট পাওয়া গেছে (মোট " + bn(data.items.length) + "টির মধ্যে)";
+      stat.textContent = bn(hits.length) + "টি প্রোডাক্ট পাওয়া গেছে (মোট " + bn(data.items.filter(function (x) { return S.all || !x.h; }).length) + "টির মধ্যে)";
       more.hidden = hits.length <= shown;
       more.textContent = "আরও দেখুন (" + bn(hits.length - shown) + "টি বাকি)";
       $("fgo").textContent = "ফল দেখুন (" + bn(hits.length) + ")";
@@ -158,6 +162,8 @@
   $("fmin").addEventListener("input", priceInput); $("fmax").addEventListener("input", priceInput);
   $("fstock").addEventListener("change", function () { S.stock = this.checked; change(); });
   $("fmulti").addEventListener("change", function () { S.multi = this.checked; change(); });
+  if ($("fall")) $("fall").addEventListener("change", function () { S.all = this.checked; change(); });
+  if ($("oosshow")) $("oosshow").addEventListener("click", function () { S.all = true; change(); window.scrollTo({ top: list.getBoundingClientRect().top + scrollY - 80, behavior: "smooth" }); });
   panel.addEventListener("change", function (e) {
     var c = e.target; if (!c.dataset || !c.dataset.fid) return;
     var a = S.f[c.dataset.fid] || (S.f[c.dataset.fid] = []);
@@ -177,14 +183,15 @@
   $("fapplied").addEventListener("click", function (e) {
     var b = e.target.closest("[data-rm]"); if (!b) return;
     var k = b.dataset.rm;
-    if (k === "all") { S = { sort: S.sort, min: "", max: "", stock: false, multi: false, f: {} }; }
+    if (k === "all") { S = { sort: S.sort, min: "", max: "", stock: false, multi: false, all: false, f: {} }; }
     else if (k === "price") { S.min = S.max = ""; }
     else if (k === "stock") S.stock = false;
     else if (k === "multi") S.multi = false;
+    else if (k === "oos") S.all = false;
     else { var p = k.split(":"), fid = p[1], v = p.slice(2).join(":"); S.f[fid] = (S.f[fid] || []).filter(function (x) { return x !== v; }); }
     change();
   });
-  $("freset").addEventListener("click", function () { S = { sort: S.sort, min: "", max: "", stock: false, multi: false, f: {} }; change(); });
+  $("freset").addEventListener("click", function () { S = { sort: S.sort, min: "", max: "", stock: false, multi: false, all: false, f: {} }; change(); });
   more.addEventListener("click", function () { shown += STEP; render(); });
 
   // মোবাইলে নিচ থেকে খোলা প্যানেল

@@ -737,6 +737,7 @@ def main():
     env = Environment(loader=FileSystemLoader(ROOT / "web/templates"), autoescape=select_autoescape(["html"]))
     env.filters["taka"] = taka
     env.filters["bn"] = bn_num
+    env.filters["bn_date"] = bn_date
     env.filters["galts"] = lambda g: json.dumps([[x["u"], x["n"], x["h"]] for x in g], ensure_ascii=False)
     env.filters["alts_simple"] = lambda l: json.dumps([[u] for u, _ in l])
     # ক্যাটাগরি আইকন (config/category_icons.json → static/cat-icons.svg স্প্রাইট)
@@ -841,6 +842,47 @@ def main():
             it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
             it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
 
+    # ===== স্টকের অবস্থা: স্টকে / আংশিক / আসছে / সদ্য শেষ / স্টক শেষ / বন্ধ =====
+    # নিয়ম (স্টক শেষ প্রোডাক্টের নীতি): শুধু কেনা যায় এমন প্রোডাক্ট তালিকা আর গুগলে যায়। কোথাও স্টকে নেই এমন
+    # প্রোডাক্টের পাতা থাকে (লিংক ভাঙে না, "স্টকে এলে জানান" লিড), কিন্তু তালিকা-সাইটম্যাপের বাইরে আর noindex।
+    # সদ্য শেষ (শেষবার স্টকে ছিল আগের দিনের মধ্যে) = এখনো তালিকায়: এক রাতের ভুলে কিছু লুকায় না।
+    # টানা ৯০ দিন কোথাও স্টকে না থাকলে "বন্ধ": পাতার জায়গায় ক্যাটাগরিতে পাঠানো (অ্যাডমিনে "সবসময় রাখো" থাকলে নয়)।
+    data_day = health.get("date") or today
+    _ss = DATA / "stock_state.json"
+    sstate = json.loads(_ss.read_text()) if _ss.exists() else {}
+    merged_ids = defaultdict(set)
+    for old_, keep_ in amap.items():
+        merged_ids[keep_].add(old_)
+    keep_listed = set(mm.get("keep_listed", []))
+    GONE_DAYS, LISTED = 90, {"in", "partial", "coming", "grace"}
+    _dn = lambda d_: date.fromisoformat(d_).toordinal()
+    for pid, it in items.items():
+        last_live, last_price = None, None
+        for x in {pid} | merged_ids[pid]:
+            st_ = sstate.get(x)
+            if st_ and st_[0] and (last_live is None or st_[0] > last_live):
+                last_live, last_price = st_[0], st_[1]
+        for ch_ in history.get(pid, {}).values():  # ইতিহাসে শেষবার স্টকে থাকার দিন (state ফাইল না থাকলেও)
+            for d_, v_ in ch_:
+                if v_ and (last_live is None or d_ > last_live):
+                    last_live, last_price = d_, v_
+        sts = {o.get("status") for o in offers[pid].values()}
+        days = _dn(data_day) - _dn(last_live) if last_live else None
+        if it["live_count"]:
+            state = "in" if it["live_count"] > 1 else "partial"
+        elif sts & {"upcoming", "pre"}:
+            state = "coming"
+        elif days is not None and days <= 1:
+            state = "grace"
+        elif days is not None and days >= GONE_DAYS and pid not in keep_listed:
+            state = "gone"
+        else:
+            state = "out"
+        it.update(state=state, listed=state in LISTED or pid in keep_listed, last_live=last_live,
+                  last_price=last_price or it["any_price"], out_days=days, pre=bool(sts & {"pre"}))
+    stock_counts = Counter(i["state"] for i in items.values())
+    listed_items = {k_: v_ for k_, v_ in items.items() if v_["listed"]}
+
     for pid, it in items.items():  # ফোনে অফিসিয়াল/আনঅফিসিয়াল ফিল্টার
         if it["category"] in PHONE_CATS:
             types = {phone_type(o.get("name"), stores[s_]) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price")}
@@ -880,9 +922,11 @@ def main():
         if not ctx.get("noindex"):
             urls.append(f"{SITE_URL}/{path + '/' if path else ''}")
 
-    by_cat = defaultdict(list)
+    by_cat, by_cat_all = defaultdict(list), defaultdict(list)
     for it in items.values():
-        by_cat[it["category"]].append(it)
+        by_cat_all[it["category"]].append(it)
+        if it["listed"]:
+            by_cat[it["category"]].append(it)
     product_tpl = env.get_template("product.html")
     bcount_all = Counter(i["bslug"] for i in items.values() if i["bslug"])
     BSPEC = {}  # Walton/Minister-এর নিজস্ব স্পেক, url ধরে
@@ -971,6 +1015,13 @@ def main():
 
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
+        if it["state"] == "gone":  # টানা ৯০ দিন কোথাও নেই: পাতার জায়গায় ক্যাটাগরিতে পাঠানো (লিংক ভাঙে না)
+            (DIST / f"p/{pid}").mkdir(parents=True, exist_ok=True)
+            (DIST / f"p/{pid}/index.html").write_text(
+                f'<!doctype html><meta charset="utf-8"><title>{p["name"]} আর পাওয়া যায় না</title><meta name="robots" content="noindex">'
+                f'<link rel="canonical" href="{SITE_URL}/c/{leaf["slug"]}/"><meta http-equiv="refresh" content="0; url={BASE}/c/{leaf["slug"]}/">'
+                f'<a href="{BASE}/c/{leaf["slug"]}/">{leaf["name_bn"]}-এর অন্য প্রোডাক্ট দেখুন</a>')
+            continue
         det = details.get(pid, {})
         rows = []
         covered = set(leaf.get("stores", {})) | set(so)  # যে স্টোর এই ক্যাটাগরি বিক্রিই করে না, তাকে "পাওয়া যায়নি"-তে দেখানো নয়
@@ -1037,7 +1088,11 @@ def main():
         priced = [o for s_, o in so.items() if o.get("price") and o.get("in_stock") and s_ not in it["sus"]]
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
-                                "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced)}
+                                "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced),
+                                "availability": "https://schema.org/InStock"}
+        elif it["state"] == "coming":
+            jsonld["offers"] = {"@type": "Offer", "priceCurrency": "BDT", "availability": "https://schema.org/PreOrder" if it["pre"] else "https://schema.org/PreSale",
+                                **({"price": it["last_price"]} if it["last_price"] else {})}
         cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
                "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": feats[:6],
                "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
@@ -1066,8 +1121,9 @@ def main():
             description=(f"{p['name']}: " + ", ".join(ins_meta) + "।" if ins_meta else
                          f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""))
                         + (f" {warranty}।" if warranty else ""),
-            canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None))
-        urls.append(f"{SITE_URL}/p/{pid}/")
+            canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None, noindex=not it["listed"]))
+        if it["listed"]:  # সাইটম্যাপে শুধু কেনা যায় (বা শীঘ্রই আসছে) এমন প্রোডাক্ট
+            urls.append(f"{SITE_URL}/p/{pid}/")
 
     budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL)
     store_cards = build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
@@ -1088,8 +1144,10 @@ def main():
     for g in tax["groups"]:
         leaf_cards = []
         for leaf in g["leaves"]:
-            lst = sorted(by_cat.get(leaf["slug"], []), key=lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0)))
-            if not lst:
+            lst_all = sorted(by_cat_all.get(leaf["slug"], []), key=lambda i: (not i["listed"], i["best"] is None, (i["best"] or {}).get("price", 0)))
+            lst = [i for i in lst_all if i["listed"]]
+            hidden_n = len(lst_all) - len(lst)
+            if not lst_all:
                 continue
             brands = [b for b, _ in Counter(i["brand"] for i in lst if i["brand"]).most_common(12)]
             # ফিল্টারের জন্য পুরো ক্যাটাগরির ছোট ডাটা ফাইল (ফিল্টার/সাজানো চাপলে তবেই নামে)
@@ -1097,8 +1155,9 @@ def main():
             fdata = {"stores": {s_: stores[s_]["name"] for s_ in enabled},
                      "items": [{"i": i["id"], "n": i["name"], "b": i["brand"], "p": (i["best"] or {}).get("price"), "a": i["any_price"],
                                 "s": (i["best"] or {}).get("store"), "k": i["store_count"], "l": i["live_count"], "v": i["saving"],
-                                "im": [u for u, _ in i["imgs"][:3]], **({"f": {k: v[0] for k, v in i["fx"].items()}} if i["fx"] else {})}
-                               for i in lst]}
+                                "im": [u for u, _ in i["imgs"][:3]], **({"f": {k: v[0] for k, v in i["fx"].items()}} if i["fx"] else {}),
+                                **({} if i["listed"] else {"h": 1, "lp": i["last_price"]}), **({"cs": 1} if i["state"] == "coming" else {})}
+                               for i in lst_all if i["state"] != "gone"]}
             (DIST / f"c/{leaf['slug']}").mkdir(parents=True, exist_ok=True)
             (DIST / f"c/{leaf['slug']}/items.json").write_text(json.dumps(fdata, ensure_ascii=False, separators=(",", ":")))
             presets = price_presets([i["best"]["price"] for i in lst if i["best"]])
@@ -1108,7 +1167,7 @@ def main():
                 chunk = lst[(n - 1) * PER_PAGE:n * PER_PAGE]
                 write(f"c/{leaf['slug']}" + (f"/{n}" if n > 1 else ""), "category.html", cat=leaf, group=g, items=chunk,
                       crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/")),
-                      total=len(lst), page=n, pages=pages, brands=brands, store_count=len(enabled),
+                      total=len(lst), hidden_n=hidden_n, page=n, pages=pages, brands=brands, store_count=len(enabled),
                       fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
                       title=f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
                       description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
@@ -1130,8 +1189,8 @@ def main():
                             "top": [l["name_bn"] for l in sorted(leaf_cards, key=lambda l: -l["count"])[:3]]})
 
     vals = list(items.values())
-    size_pages = build_size_pages(items, products, details, write, offers)
-    brand_pages = build_brand_pages(items, leaves, group_of, BR, write)
+    size_pages = build_size_pages(listed_items, products, details, write, offers)
+    brand_pages = build_brand_pages(listed_items, leaves, group_of, BR, write)
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
@@ -1231,10 +1290,10 @@ def main():
     home_ctx = dict(M=M, mv=mv, tabs=market.TABS, idx_svg=idx_svg, heat=heat, sn_rows=sn_rows, ticker=ticker, nstat=nstat,
                     new_list=new_list, logo_brands=logo_brands, summ=summ, upd_time=upd_time, n_prices=n_prices,
                     scraped_at=_st, today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
-    write("", "home.html", groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(vals), budget_hub=budget_hub,
+    write("", "home.html", groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
-          multi=sum(1 for i in vals if i["store_count"] > 1),
+          multi=sum(1 for i in vals if i["live_count"] > 1),
           store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
           description=f"{len(vals)}টি প্রোডাক্টের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
@@ -1279,7 +1338,7 @@ def main():
                   if not ("|".join(sorted((x["a"], x["b"]))) in _seen or _seen.add("|".join(sorted((x["a"], x["b"])))))]
     sugg_total = len(sugg_admin)
     sugg_admin = sugg_admin[:2000]
-    admin = {"updated": updated, "health": health, "sugg_total": sugg_total, "stats": stats, "categories": all_cats, "brands": admin_brands,
+    admin = {"updated": updated, "health": health, "sugg_total": sugg_total, "stock": dict(stock_counts), "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
              "suggestions": sugg_admin,
              "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])

@@ -22,7 +22,7 @@
 {% block content %}
   <section class="card hero">
     <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
-    <p class="muted" style="margin:0;font-size:.92rem">{{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
+    <p class="muted" style="margin:0;font-size:.92rem">এখন কেনা যায় এমন {{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
     <p class="todaysum">আজ {{ store_count|bn }}টি দোকানের <b>{{ n_prices|bn }}টি</b> দাম যাচাই{% if M.ready %} · <b class="g">{{ M.n_dn|bn }}টির দাম কমেছে</b> · <b class="r">{{ M.n_up|bn }}টির বেড়েছে</b>{% endif %}{% if new_count %} · <b>{{ new_count|bn }}টি নতুন প্রোডাক্ট</b>{% endif %}</p>
     <form class="dk hsearch" action="{{ base }}/search/" method="get" role="search"><input type="search" name="q" placeholder="যেমন: Samsung 8GB RAM, Ryzen 5, 1TB SSD" aria-label="প্রোডাক্ট খুঁজুন"><button type="submit">খুঁজুন</button></form>
   </section>
@@ -89,7 +89,7 @@
 
   <section class="card nstat" id="nstat"><div class="ns-head"><h2>সংখ্যায় দামতুলনা</h2><span class="sub">প্রতিদিন হালনাগাদ হয়</span><button type="button" class="nsre" id="nsreplay">↻ আবার দেখুন</button></div>
     <div class="ns-grid">
-      <div class="ns-card"><span class="ns-lab">মোট প্রোডাক্ট</span><b class="ns-num" data-count="{{ total }}">{{ total|bn }}</b><span class="ns-cap">{{ multi|bn }}টির দাম একাধিক দোকানে পাশাপাশি</span>
+      <div class="ns-card"><span class="ns-lab">এখন কেনা যায় এমন প্রোডাক্ট</span><b class="ns-num" data-count="{{ total }}">{{ total|bn }}</b><span class="ns-cap">{{ multi|bn }}টির দাম একাধিক দোকানে পাশাপাশি</span>
         <div class="stack" aria-hidden="true">{% for s, n, v in nstat.segs %}<span class="seg k{{ loop.index0 % 12 }}" style="--w:{{ '%.2f' % (100 * v / nstat.seg_total) }}%" title="{{ n }}: {{ v|bn }}টি"></span>{% endfor %}</div>
         <div class="legend">{% for s, n, v in nstat.segs[:6] %}<span class="lg"><i class="k{{ loop.index0 % 12 }}"></i>{{ n }} <b>{{ v|bn }}</b></span>{% endfor %}</div></div>
       <div class="ns-card"><span class="ns-lab">ক্যাটাগরি</span><b class="ns-num" data-count="{{ nstat.leaf_total }}">{{ nstat.leaf_total|bn }}</b><span class="ns-cap">{{ nstat.leaves|length|bn }}টি বড় বিভাগে সাজানো</span>

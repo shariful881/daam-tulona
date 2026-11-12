@@ -31,17 +31,28 @@
       {% elif it.sus %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">দাম যাচাই চলছে</div></div>
       <div class="s">স্টোরগুলোর দামে অস্বাভাবিক ফারাক,<br>কেনার আগে স্টোরে মিলিয়ে নিন</div>
+      {% elif it.state == "coming" %}
+      <div><div class="l">অবস্থা</div><div class="price none">{{ "প্রি-অর্ডার চলছে" if it.pre else "শীঘ্রই আসছে" }}</div></div>
+      {% if it.last_price %}<div class="s">শেষ জানা দাম<br>{{ it.last_price | taka }}</div>{% endif %}
       {% else %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price none">এখন কোথাও স্টকে নেই</div></div>
       {% endif %}
     </div>
+    {% if not best and not it.sus %}
+    <div class="oosbox{% if it.state == 'coming' %} coming{% endif %}">
+      {% if it.state == "coming" %}<b>এটা এখনো বাজারে আসেনি বা {{ "প্রি-অর্ডারে আছে" if it.pre else "স্টোরে শীঘ্রই আসবে" }}।</b>
+      {% elif it.last_live %}<b>শেষবার স্টকে ছিল {{ it.last_live | bn_date }}{% if it.last_price %}, দাম ছিল {{ it.last_price | taka }}{% endif %}।</b>
+      {% else %}<b>আমরা দাম দেখা শুরু করার পর থেকে এটা কোনো দোকানে স্টকে আসেনি{% if it.last_price %}; শেষ জানা দাম {{ it.last_price | taka }}{% endif %}।</b>{% endif %}
+      <span>নিচের বোতামে নাম আর মোবাইল দিলে স্টকে এলেই আপনাকে জানাব।{% if alts %} এখন কেনা যায় এমন <a href="#alts">একই ধরনের প্রোডাক্ট নিচে ↓</a>{% endif %}</span>
+    </div>
+    {% endif %}
     {% if saving %}<span class="save">সঠিক স্টোর বাছলে {{ saving | taka }} সাশ্রয়</span>{% endif %}
     {% if best and low30 %}{% if best.price <= low30 %}<span class="save low30">▼ গত ৩০ দিনে সবচেয়ে কম দাম</span>{% elif best.price > low30 * 1.03 %}<span class="save hi30">গত ৩০ দিনে সর্বনিম্ন ছিল {{ low30 | taka }}</span>{% endif %}{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
     <p class="cmpmsg muted" hidden></p>
     {% if lead_cfg.endpoint or lead_cfg.wa %}
-    <button type="button" class="alertbtn" id="alertbtn" aria-expanded="false" aria-controls="alertbox"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>দাম কমলে জানান</button>
+    <button type="button" class="alertbtn" id="alertbtn" aria-expanded="false" aria-controls="alertbox"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>{{ "দাম কমলে জানান" if best else "স্টকে এলে জানান" }}</button>
     <div class="alertbox" id="alertbox" hidden>
       <form novalidate>
         <label>আপনার নাম<input name="name" autocomplete="name" required></label>
@@ -194,7 +205,7 @@
   {% endif %}
 
   {% if alts %}
-  <section class="card o6">
+  <section class="card o6" id="alts">
     <h2>একই ধরনের অন্য প্রোডাক্ট</h2>
     <div class="rows">
     {% for a in alts %}
@@ -212,7 +223,7 @@
 {% endblock %}
 {% block after %}
 <script>/* হোমের "শেষবার যা দেখেছিলেন"-এর জন্য এই ফোনে মনে রাখা */try{(function(){var k="dt_seen",l=JSON.parse(localStorage.getItem(k)||"[]"),me={{ {"i": it.id, "n": p.name, "c": it.category, "p": best.price if best else None, "m": (it.imgs[0][0] if it.imgs else None)} | tojson }};me.t=Date.now();l=l.filter(function(x){return x.i!==me.i});l.unshift(me);localStorage.setItem(k,JSON.stringify(l.slice(0,12)))})()}catch(e){}</script>
-{% if lead_cfg.endpoint or lead_cfg.wa %}<script>window.DT_LEAD={{ {"id": it.id, "product": p.name, "price": best.price if best else "", "store": stores[best.store].name if best else "", "category": cat.name_bn, "endpoint": lead_cfg.endpoint, "wa": lead_cfg.wa} | tojson }};</script>
+{% if lead_cfg.endpoint or lead_cfg.wa %}<script>window.DT_LEAD={{ {"id": it.id, "product": p.name, "price": best.price if best else "", "store": stores[best.store].name if best else "", "category": cat.name_bn, "endpoint": lead_cfg.endpoint, "wa": lead_cfg.wa, "kind": "price" if best else "stock"} | tojson }};</script>
 <script src="{{ base }}/static/alert.js?v={{ build_id }}" defer></script>{% endif %}
 {% if gallery %}<script type="application/json" id="galdata">{{ gallery | tojson }}</script><script src="{{ base }}/static/gallery.js?v={{ build_id }}" defer></script>{% endif %}
 {% if best %}

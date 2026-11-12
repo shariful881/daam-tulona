@@ -152,10 +152,22 @@ def main():
 
     # আজ যে স্টোর ব্যর্থ হয়েছে, তার আগের দাম রেখে দাও (পুরনো চিহ্নসহ)
     failed = {s for s, h in raw["health"].items() if h["enabled"] and h["items"] == 0 and not h.get("skipped")}
+    # আংশিক ব্যর্থ: আগের রানের অর্ধেকের কম প্রোডাক্ট এলে (সাইট ব্লক/ভাঙা পাতা) ব্যর্থ ধরে আগের দাম রাখো,
+    # নইলে হাজার হাজার প্রোডাক্ট ভুল করে "স্টক শেষ" হয়ে তালিকা থেকে লুকিয়ে যায়
+    _hp = DATA / "health.json"
+    prev_items = {s: (h or {}).get("items", 0) for s, h in (json.loads(_hp.read_text()).get("stores", {}) if _hp.exists() else {}).items()}
+    for s, h in raw["health"].items():
+        if h.get("enabled") and not h.get("skipped") and prev_items.get(s, 0) >= 100 and 0 < h["items"] < prev_items[s] * 0.5:
+            failed.add(s)
+            h["partial_fail"] = f"আজ {h['items']}টি, আগের রানে {prev_items[s]}টি — আগের দাম রাখা হয়েছে"
+            h["items"] = prev_items[s]  # পরের দিনের তুলনার জন্য স্বাভাবিক সংখ্যাটাই রাখা
     # আজ ইচ্ছা করে চালানো হয়নি (শুধু কিছু স্টোরের রান): আগের দাম হুবহু থাকে, পুরনো চিহ্ন ছাড়া
     skipped = {s for s, h in raw["health"].items() if h.get("skipped")}
     # কিছু ক্যাটাগরি ব্যর্থ হলে (ব্লক/সার্ভার ভুল) শুধু সেই ক্যাটাগরির আগের দাম রাখো
     part = {s: set(h.get("failed_cats") or []) for s, h in raw["health"].items()}
+    for pid in list(offers):  # আংশিক ব্যর্থ দোকানের আজকের অসম্পূর্ণ তালিকা বাদ, নিচে আগেরটা ফেরে
+        for s in [s_ for s_ in offers[pid] if raw["health"].get(s_, {}).get("partial_fail")]:
+            del offers[pid][s]
     for pid, stores in old_offers.items():
         cat = (products.get(redirect.get(pid, pid)) or {}).get("category")
         for s, o in stores.items():
@@ -206,6 +218,20 @@ def main():
     (DATA / "products.json").write_text(json.dumps(products, ensure_ascii=False, indent=1, sort_keys=True))
     (DATA / "offers.json").write_text(json.dumps(offers, ensure_ascii=False, indent=1, sort_keys=True))
     (DATA / "suggestions.json").write_text(json.dumps(sugg[:200], ensure_ascii=False, indent=1))
+    # স্টকের অবস্থা: প্রতিটা প্রোডাক্ট শেষবার কবে কোনো দোকানে স্টকে ছিল আর তখন দাম কত
+    # (দামের ইতিহাসে স্টক শেষের দিন সবসময় ধরা পড়ে না, কারণ অনেক দোকান স্টক শেষ হলে দাম লুকায়)
+    _sp = DATA / "stock_state.json"
+    sstate = json.loads(_sp.read_text()) if _sp.exists() else {}
+    if not sstate:  # প্রথমবার: দামের ইতিহাস থেকে শুরু
+        for r in rows:
+            if r["in_stock"] in (1, "1") and (r["product"] not in sstate or str(r["date"]) >= sstate[r["product"]][0]):
+                sstate[r["product"]] = [str(r["date"]), int(r["price"])]
+    for pid, stores in offers.items():
+        live = [o["price"] for o in stores.values() if o.get("in_stock") and o.get("price")]
+        if live:
+            sstate[pid] = [today, min(live)]
+    sstate = {k: v for k, v in sstate.items() if k in offers}
+    _sp.write_text(json.dumps(sstate, separators=(",", ":"), sort_keys=True))
     (DATA / "health.json").write_text(json.dumps({"date": today, "scraped_at": raw["scraped_at"], "stores": raw["health"]}, ensure_ascii=False, indent=1))
     multi = sum(1 for s in offers.values() if len([o for o in s.values() if o.get("price")]) > 1)
     print(f"প্রোডাক্ট: {len(offers)} | একাধিক স্টোরে দাম আছে: {multi} | আজ নতুন: {sum(1 for p in products.values() if p['created'] == today)} | সম্ভাব্য মিল: {len(sugg)}")
