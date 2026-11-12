@@ -5,6 +5,7 @@
   <section class="card chead">
     <h1 class="ihd"><span class="cic">{{ cicon(cat.slug) }}</span>বাংলাদেশে {{ cat.name_bn }} দাম</h1>
     <p class="muted" style="margin:0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট এখন কেনা যায়, {{ store_count|bn }}টি স্টোরের দাম মিলিয়ে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %}</p>
+    {% if cat_answer %}<p class="tldr" id="summary">{{ cat_answer }}</p>{% endif %}
     {% if size_links.get(cat.slug) %}{% set sl = size_links[cat.slug] %}
     <a class="sizecta" href="{{ base }}/size/{{ sl[0] }}/"><b>{{ sl[2] }} অনুযায়ী ব্র্যান্ড তুলনা</b><span>কোন সাইজে কোন ব্র্যান্ডের {{ sl[1] }} কত টাকা, এক পাতায় ›</span></a>
     {% endif %}
@@ -79,6 +80,17 @@
     {% if hidden_n and page == pages %}<p class="oosnote" id="oosnote">এছাড়া আরও {{ hidden_n|bn }}টি {{ cat.name_bn }} এখন কোনো দোকানে স্টকে নেই। <button type="button" class="linkbtn" id="oosshow">সেগুলোও দেখান</button></p>{% endif %}
   </section>
   </div>
+
+  {% if price_table %}
+  <section class="card ptab">
+    <h2>{{ cat.name_bn }} দামের তালিকা {{ month_year }} <span class="sub">· {{ day_bn }} হালনাগাদ</span></h2>
+    <div class="tw"><table>
+      <thead><tr><th scope="col">মডেল</th><th scope="col">সর্বনিম্ন দাম</th><th scope="col">দোকান</th></tr></thead>
+      <tbody>{% for it in price_table %}<tr><td><a href="{{ base }}/p/{{ it.id }}/">{{ it.name }}</a></td><td class="num">{{ it.best.price | taka }}</td><td>{{ stores[it.best.store].name }}{% if it.live_count > 1 %} <small>+{{ (it.live_count - 1)|bn }}</small>{% endif %}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    <p class="muted" style="font-size:.8rem;margin:8px 0 0">একাধিক দোকানে পাওয়া যায় এমন মডেল আগে। দাম প্রতিদিন দোকানের ওয়েবসাইট থেকে নেওয়া; কেনার আগে দোকানে মিলিয়ে নিন।</p>
+  </section>
+  {% endif %}
 
   {% if pages > 1 %}
   <nav class="pager" id="pager" aria-label="পাতা">

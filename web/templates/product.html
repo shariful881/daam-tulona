@@ -23,6 +23,7 @@
         <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
       </div>
     </div>
+    {% if answer %}<p class="tldr" id="summary">{{ answer }}</p>{% endif %}
     <div class="low">
       {% if best %}
       <div><div class="l">সর্বনিম্ন দাম</div><div class="price">{{ best.price | taka }}</div></div>

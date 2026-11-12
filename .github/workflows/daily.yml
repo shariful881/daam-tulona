@@ -73,6 +73,10 @@ jobs:
         with:
           timeout: 1800000   # সাইট বড় হয়েছে (প্রায় ৩০ হাজার পাতা), প্রকাশে বেশি সময় লাগতে পারে
 
+      - name: সার্চ ইঞ্জিনকে বদলানো পাতা জানানো (IndexNow)
+        if: env.SCRAPE == '1'
+        run: python -m tools.indexnow || true
+
       - name: Telegram চ্যানেলে আজকের দাম কমা (টোকেন সেট থাকলে)
         if: env.SCRAPE == '1'
         env:

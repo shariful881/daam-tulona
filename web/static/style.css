@@ -1053,3 +1053,14 @@ main.col>.foot,main.col>.footnav{order:99}
 .row .d.lo{font-weight:700}
 .herosave{margin:4px 0 10px;padding:10px 12px;border-radius:12px;background:var(--best-soft);font-size:.9rem;line-height:1.6}
 .herosave .g{color:var(--best);font-size:1.05rem}
+/* SEO/AI: পাতার শুরুতে এক নজরের উত্তর, আর ক্যাটাগরির দামের তালিকা */
+.tldr{margin:10px 0 2px;padding:10px 12px;border-left:3px solid var(--best);background:var(--best-soft);border-radius:0 8px 8px 0;font-size:.92rem;line-height:1.6}
+.ptab h2{font-size:1.05rem}
+.ptab .tw{overflow-x:auto;margin:0 -2px}
+.ptab table{width:100%;border-collapse:collapse;font-size:.88rem}
+.ptab th{text-align:left;font-weight:600;color:var(--muted);font-size:.8rem;padding:6px 8px;border-bottom:1px solid var(--line)}
+.ptab td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.ptab td a{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.ptab td.num{font-family:var(--mono);white-space:nowrap;font-weight:700}
+.ptab td small{color:var(--muted)}
+.ptab tr:last-child td{border-bottom:0}

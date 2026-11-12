@@ -862,7 +862,18 @@ def main():
     for old_, keep_ in amap.items():
         merged_ids[keep_].add(old_)
     keep_listed = set(mm.get("keep_listed", []))
-    GONE_DAYS, LISTED = 90, {"in", "partial", "coming", "grace"}
+    # টেকনিক্যাল SEO সেটিং (অ্যাডমিন → SEO): টেমপ্লেট, ইনডেক্সের নিয়ম, AI স্নিপেট, IndexNow
+    SEO = {"title_product": "{name} দাম বাংলাদেশে | {price} থেকে", "title_product_oos": "{name} দাম বাংলাদেশে", "desc_product": "",
+           "title_category": "{cat} দাম বাংলাদেশে {year} | {cat_en} Price in BD", "desc_category": "", "gone_days": 90,
+           "force_index": [], "force_noindex": [], "ai_snippet": "full", "indexnow": False, "indexnow_key": ""}
+    _sf = ROOT / "config/seo.json"
+    if _sf.exists():
+        SEO.update({k: v for k, v in json.loads(_sf.read_text()).items() if not k.startswith("_")})
+    _pid_of = lambda x: x.strip().rstrip("/").split("/p/")[-1].split("/")[-1] if x and x.strip() else ""
+    force_index = {_pid_of(x) for x in SEO["force_index"]} - {""}
+    force_noindex = {_pid_of(x) for x in SEO["force_noindex"]} - {""}
+    keep_listed |= force_index
+    GONE_DAYS, LISTED = max(14, int(SEO.get("gone_days") or 90)), {"in", "partial", "coming", "grace"}
     _dn = lambda d_: date.fromisoformat(d_).toordinal()
     for pid, it in items.items():
         last_live, last_price = None, None
@@ -886,7 +897,7 @@ def main():
             state = "gone"
         else:
             state = "out"
-        it.update(state=state, listed=state in LISTED or pid in keep_listed, last_live=last_live,
+        it.update(state=state, listed=(state in LISTED or pid in keep_listed) and pid not in force_noindex, last_live=last_live,
                   last_price=last_price or it["any_price"], out_days=days, pre=bool(sts & {"pre"}))
     stock_counts = Counter(i["state"] for i in items.values())
     listed_items = {k_: v_ for k_, v_ in items.items() if v_["listed"]}
@@ -952,6 +963,25 @@ def main():
     common["track"] = {"ga4": _ok("ga4", r"G-[A-Z0-9]{4,15}"), "gsc": _ok("gsc", r"[A-Za-z0-9_-]{20,80}"),
                        "bing": _ok("bing", r"[A-F0-9]{32}"), "clarity": _ok("clarity", r"[a-z0-9]{6,15}"),
                        "fb_pixel": _ok("fb_pixel", r"\d{10,20}")}
+    # কোন পাতার লেখা Google/AI সার্চ কতটা উদ্ধৃত করতে পারবে (robots meta)
+    common["robots_meta"] = {"full": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+                             "limited": "index, follow, max-snippet:160, max-image-preview:large",
+                             "none": "index, follow, nosnippet"}.get(SEO.get("ai_snippet"), "index, follow, max-snippet:-1, max-image-preview:large")
+    _now = date.fromisoformat(today)
+    _MONTH = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
+    year_bn, month_bn = bn_num(_now.year).replace(",", ""), _MONTH[_now.month - 1]
+    common["month_year"], common["day_bn"] = f"{month_bn} {year_bn}", bn_date(today)
+
+    def tpl(t, **kv):
+        """অ্যাডমিনের টেমপ্লেট ভরানো; অজানা {শব্দ} ফাঁকা হয়ে যায়, বাড়তি ফাঁকা জায়গা মুছে।"""
+        class _D(dict):
+            def __missing__(self, k):
+                return ""
+        try:
+            out = str(t).format_map(_D(kv, year=year_bn, month=month_bn, date=bn_date(today)))
+        except (ValueError, IndexError):
+            return ""
+        return re.sub(r"\s+", " ", out).replace(" |  ", " | ").strip(" |")
     _lf = ROOT / "config/leads.json"
     common["lead_cfg"] = {"endpoint": (json.loads(_lf.read_text()).get("endpoint") or "") if _lf.exists() else "",
                           "wa": (ads.get("contact") or {}).get("whatsapp") or (ads.get("contact") or {}).get("phone") or ""}
@@ -962,6 +992,7 @@ def main():
             {"@type": "ListItem", "position": i + 1, "name": n, "item": f"{SITE_URL}{BASE if not SITE_URL else ''}/{p_}"}
             for i, (n, p_) in enumerate(pairs)]}, ensure_ascii=False)
     lastmod = {}  # url → তারিখ (সাইটম্যাপের জন্য)
+    seo_titles = {}  # অ্যাডমিনের SEO স্বাস্থ্য: একই/লম্বা শিরোনাম খোঁজা
     drops = []    # আজ যেসব প্রোডাক্টের সর্বনিম্ন দাম কমেছে
 
     # পিসির হেডারে ক্যাটাগরি মেনু (যেসব গ্রুপে প্রোডাক্ট আছে)
@@ -1093,18 +1124,46 @@ def main():
         ]
         if not ins_faq:
             faq.append(("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"))
-        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "category": leaf["name_en"]}
+        priced_s = sorted(((s_, o) for s_, o in so.items() if o.get("price") and o.get("in_stock") and s_ not in it["sus"]),
+                          key=lambda x: x[1]["price"])
+        priced = [o for _, o in priced_s]
+        # সংক্ষিপ্ত উত্তর: Google AI Overview আর AI চ্যাটবট যেন এক বাক্যেই দাম, দোকান আর তারিখ পায় (পাতায় দেখা যায়)
+        _low30 = window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None
+        if best and priced:
+            answer = (f"আজ {bn_date(today)} তারিখে বাংলাদেশে {p['name']}-এর সর্বনিম্ন দাম {taka(priced[0]['price'])}, "
+                      f"{stores[priced_s[0][0]]['name']}-এ।")
+            if len(priced) > 1:
+                answer += (f" {bn_num(len(priced))}টি দোকানে স্টকে আছে, দাম {taka(priced[0]['price'])} থেকে {taka(priced[-1]['price'])}"
+                           + (": " + ", ".join(f"{stores[s_]['name']} {taka(o['price'])}" for s_, o in priced_s[:5]) if len(priced) <= 5 else "") + "।")
+            if _low30 and _low30 < priced[0]["price"]:
+                answer += f" গত ৩০ দিনে সর্বনিম্ন ছিল {taka(_low30)}।"
+            elif _low30 and _low30 >= priced[0]["price"]:
+                answer += " এটা গত ৩০ দিনের মধ্যে সবচেয়ে কম দাম।"
+        elif it["state"] == "coming":
+            answer = f"{p['name']} এখনো বাংলাদেশের দোকানে বিক্রি শুরু হয়নি ({'প্রি-অর্ডার চলছে' if it['pre'] else 'শীঘ্রই আসছে'})" + (f"; শেষ জানা দাম {taka(it['last_price'])}।" if it["last_price"] else "।")
+        else:
+            answer = (f"আজ {bn_date(today)} পর্যন্ত {p['name']} আমাদের তালিকার কোনো দোকানে স্টকে নেই"
+                      + (f"; শেষবার {bn_date(it['last_live'])} তারিখে {taka(it['last_price'])} দামে পাওয়া গিয়েছিল।" if it["last_live"] and it["last_price"] else "।"))
+        if warranty:
+            answer += f" ওয়ারেন্টি: {warranty}।"
+        page_url = f"{SITE_URL}/p/{pid}/" if SITE_URL else f"{BASE}/p/{pid}/"
+        jsonld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "url": page_url, "sku": pid,
+                  "description": answer, "category": leaf["name_en"]}
         if it["brand"]:
             jsonld["brand"] = {"@type": "Brand", "name": it["brand"]}
         if det.get("mpn"):
             jsonld["mpn"] = det["mpn"]
+        if det.get("model"):
+            jsonld["model"] = det["model"]
         if it["imgs"]:
             jsonld["image"] = [u for u, _ in it["imgs"][:3]]
-        priced = [o for s_, o in so.items() if o.get("price") and o.get("in_stock") and s_ not in it["sus"]]
         if priced:
             jsonld["offers"] = {"@type": "AggregateOffer", "priceCurrency": "BDT", "offerCount": len(priced),
                                 "lowPrice": min(o["price"] for o in priced), "highPrice": max(o["price"] for o in priced),
-                                "availability": "https://schema.org/InStock"}
+                                "availability": "https://schema.org/InStock",
+                                "offers": [{"@type": "Offer", "price": o["price"], "priceCurrency": "BDT", "itemCondition": "https://schema.org/NewCondition",
+                                            "availability": "https://schema.org/InStock", "url": o.get("url") or stores[s_]["home"],
+                                            "seller": {"@type": "Organization", "name": stores[s_]["name"]}} for s_, o in priced_s]}
         elif it["state"] == "coming":
             jsonld["offers"] = {"@type": "Offer", "priceCurrency": "BDT", "availability": "https://schema.org/PreOrder" if it["pre"] else "https://schema.org/PreSale",
                                 **({"price": it["last_price"]} if it["last_price"] else {})}
@@ -1114,6 +1173,16 @@ def main():
                "sp": det.get("specs") or {"মূল তথ্য": dict(feat_rows) or {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()}}}
         (DIST / "d").mkdir(exist_ok=True)
         (DIST / f"d/{pid}.json").write_text(json.dumps(cmp, ensure_ascii=False, separators=(",", ":")))
+        _pv = {"name": p["name"], "price": taka(best["price"]) if best else "", "store": stores[best["store"]]["name"] if best else "",
+               "stores": bn_num(len(priced)), "brand": it["brand"] or "", "cat": leaf["name_bn"], "cat_en": leaf["name_en"]}
+        _title = (tpl(SEO["title_product"] if best else SEO["title_product_oos"], **_pv)
+                  or f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""))
+        _desc = ((tpl(SEO["desc_product"], **_pv) if SEO.get("desc_product") else "") or
+                 ((f"{p['name']}: " + ", ".join(ins_meta) + "।" if ins_meta else
+                   f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""))
+                  + (f" {warranty}।" if warranty else "")))
+        if it["listed"]:
+            seo_titles[pid] = _title
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(
@@ -1132,10 +1201,8 @@ def main():
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
             og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
-            title=f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""),
-            description=(f"{p['name']}: " + ", ".join(ins_meta) + "।" if ins_meta else
-                         f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""))
-                        + (f" {warranty}।" if warranty else ""),
+            answer=answer,
+            title=_title, description=_desc,
             canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None, noindex=not it["listed"]))
         if it["listed"]:  # সাইটম্যাপে শুধু কেনা যায় (বা শীঘ্রই আসছে) এমন প্রোডাক্ট
             urls.append(f"{SITE_URL}/p/{pid}/")
@@ -1178,14 +1245,34 @@ def main():
             presets = price_presets([i["best"]["price"] for i in lst if i["best"]])
             bcount = Counter(i["brand"] for i in lst if i["brand"])
             pages = max(1, -(-len(lst) // PER_PAGE))
+            # AI-বান্ধব সারাংশ আর দামের তালিকা (প্রথম পাতায়): সংখ্যা, দামের পরিসীমা, জনপ্রিয় ব্র্যান্ড, তারিখ
+            _pr = sorted(i["best"]["price"] for i in lst if i["best"] and not i["sus"])
+            _cv = {"cat": leaf["name_bn"], "cat_en": leaf["name_en"], "count": bn_num(len(lst)), "stores": bn_num(len(enabled)),
+                   "low": taka(_pr[0]) if _pr else "", "high": taka(_pr[-1]) if _pr else ""}
+            cat_answer = ""
+            if _pr:
+                cat_answer = (f"আজ {bn_date(today)} তারিখে বাংলাদেশে {bn_num(len(lst))}টি {leaf['name_bn']} কেনা যাচ্ছে; দাম {taka(_pr[0])} থেকে {taka(_pr[-1])}"
+                              + (f", মাঝামাঝি দাম প্রায় {taka(_pr[len(_pr) // 2])}" if len(_pr) >= 5 else "") + "।")
+                if brands[:3]:
+                    cat_answer += f" সবচেয়ে বেশি মডেল আছে {', '.join(brands[:3])}-এর।"
+                _mc = sum(1 for i in lst if i["live_count"] > 1)
+                if _mc:
+                    cat_answer += f" {bn_num(_mc)}টির দাম একাধিক দোকানে মিলিয়ে দেখা যায়।"
+            price_table = [i for i in sorted(lst, key=lambda i: (-i["live_count"], (i["best"] or {}).get("price") or 0)) if i["best"] and not i["sus"]][:15]
             for n in range(1, pages + 1):
                 chunk = lst[(n - 1) * PER_PAGE:n * PER_PAGE]
+                _il = json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": f"বাংলাদেশে {leaf['name_bn']} দাম",
+                                  "numberOfItems": len(lst), "itemListElement": [
+                                      {"@type": "ListItem", "position": (n - 1) * PER_PAGE + k + 1, "name": i["name"],
+                                       "url": f"{SITE_URL or BASE}/p/{i['id']}/"} for k, i in enumerate(chunk[:30])]}, ensure_ascii=False)
                 write(f"c/{leaf['slug']}" + (f"/{n}" if n > 1 else ""), "category.html", cat=leaf, group=g, items=chunk,
+                      lds=[_il], cat_answer=cat_answer if n == 1 else "", price_table=price_table if n == 1 else [],
                       crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/")),
                       total=len(lst), hidden_n=hidden_n, page=n, pages=pages, brands=brands, store_count=len(enabled),
                       fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
-                      title=f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
-                      description=f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
+                      title=(tpl(SEO["title_category"], **_cv) or f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD") + (f" (পাতা {bn_num(n)})" if n > 1 else ""),
+                      description=(tpl(SEO["desc_category"], **_cv) if SEO.get("desc_category") and _pr else "") or cat_answer
+                                  or f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
                       canonical=f"{SITE_URL}/c/{leaf['slug']}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
             priced = [i["best"]["price"] for i in lst if i["best"]]
             leaf_cards.append({"slug": leaf["slug"], "name_bn": leaf["name_bn"], "count": len(lst),
@@ -1312,6 +1399,13 @@ def main():
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["live_count"] > 1),
           store_names=", ".join(stores[s]["name"] for s in enabled), store_count=len(enabled),
+          lds=[json.dumps({"@context": "https://schema.org", "@graph": [
+              {"@type": "WebSite", "@id": f"{SITE_URL or BASE}/#website", "url": f"{SITE_URL or BASE}/", "name": "দামতুলনা",
+               "alternateName": ["Daam Tulona", "DaamTulona"], "inLanguage": "bn-BD", "publisher": {"@id": f"{SITE_URL or BASE}/#org"}},
+              {"@type": "Organization", "@id": f"{SITE_URL or BASE}/#org", "name": "দামতুলনা", "alternateName": "Daam Tulona",
+               "url": f"{SITE_URL or BASE}/", "logo": common["og_default"], "areaServed": "BD",
+               "description": f"বাংলাদেশের কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনার ওয়েবসাইট। প্রতিদিন {len(enabled)}টি দোকানের দাম সংগ্রহ করে এক পাতায় দেখায়।"}]},
+              ensure_ascii=False)],
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
           description=f"{len(vals)}টি প্রোডাক্টের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
           canonical=f"{SITE_URL}/" if SITE_URL else None)
@@ -1322,6 +1416,7 @@ def main():
                               ("advertise", "বিজ্ঞাপন দিন", "দামতুলনায় ব্র্যান্ড বা স্টোরের বিজ্ঞাপন দেওয়ার নিয়ম।"),
                               ("privacy", "প্রাইভেসি নীতি", "দামতুলনা কোন তথ্য রাখে, কুকি ও বিজ্ঞাপন সংক্রান্ত নীতি।")):
         write(slug, "info.html", page=slug, heading=title, store_names=", ".join(stores[s]["name"] for s in enabled),
+              n_items=len(listed_items), n_stores=len(enabled), n_all=len(items),
               title=f"{title} | দামতুলনা", description=desc, canonical=f"{SITE_URL}/{slug}/" if SITE_URL else None)
     client = ads["adsense"].get("client", "")
     if client:
@@ -1367,6 +1462,28 @@ def main():
                                             if o_.get("price") and o_.get("in_stock")]}
                                      for i in vals if i["sus"]), key=lambda x: -(x["o"][-1][2] / max(1, x["o"][0][2])))[:300],
              "fresh": [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in fresh_all[:100]]}
+    # SEO স্বাস্থ্য (অ্যাডমিন → SEO)
+    _lst = list(listed_items.values())
+    _tc = defaultdict(list)
+    for pid_, t_ in seo_titles.items():
+        _tc[t_].append(pid_)
+    _dups = sorted(((t_, ps_) for t_, ps_ in _tc.items() if len(ps_) > 1), key=lambda x: -len(x[1]))
+    _long = sorted(((t_, pid_) for pid_, t_ in seo_titles.items() if len(t_) > 70), key=lambda x: -len(x[0]))
+    _samp = next((i["id"] for i in sorted(_lst, key=lambda i: -i["live_count"]) if i["imgs"] and i["brand"]), None)
+    admin["seo"] = {
+        "indexable": len(_lst), "noindex": sum(1 for i in vals if not i["listed"] and i["state"] != "gone"),
+        "gone": stock_counts.get("gone", 0), "sitemap_urls": len(urls), "pages": sum(1 for u in urls if "/p/" not in u),
+        "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"]),
+        "single_store": sum(1 for i in _lst if i["live_count"] <= 1),
+        "thin": sum(1 for i in _lst if i["live_count"] <= 1 and i["id"] not in details and not i["imgs"]),
+        "with_specs": sum(1 for i in _lst if i["id"] in details),
+        "changed_today": sum(1 for u in urls if lastmod.get(u) == today),
+        "dup_titles": len(_dups), "dup_pages": sum(len(ps_) for _, ps_ in _dups),
+        "dup_samples": [[t_, ps_[:4]] for t_, ps_ in _dups[:15]],
+        "long_titles": len(_long), "long_samples": [[t_, pid_] for t_, pid_ in _long[:10]],
+        "force_index": sorted(force_index), "force_noindex": sorted(force_noindex),
+        "sample": _samp, "robots": common["robots_meta"], "indexnow": bool(SEO.get("indexnow") and re.fullmatch(r"[a-f0-9]{32}", SEO.get("indexnow_key") or "")),
+    }
     (DIST / "admin").mkdir(exist_ok=True)
     (DIST / "admin/admin.json").write_text(json.dumps(admin, ensure_ascii=False, separators=(",", ":")))
     write("admin", "admin.html", title="অ্যাডমিন প্যানেল | দামতুলনা", description="", noindex=True, noads=True, is_admin=True,
@@ -1410,6 +1527,12 @@ def main():
     (DIST / "drops.json").write_text(json.dumps([
         {"name": d_["name"], "old": d_["old"], "new": d_["best"]["price"], "store": stores[d_["best"]["store"]]["name"],
          "url": f"{SITE_URL}/p/{d_['id']}/", "stores": d_["live_count"]} for d_ in drops_top], ensure_ascii=False))
+    # IndexNow: নতুন/বদলানো পাতার খবর Bing, Yandex ইত্যাদিকে সাথে সাথে জানানো (দাম আনার পর tools/indexnow.py পাঠায়)
+    _ik = SEO.get("indexnow_key") or ""
+    if SEO.get("indexnow") and re.fullmatch(r"[a-f0-9]{32}", _ik) and SITE_URL:
+        (DIST / f"{_ik}.txt").write_text(_ik)
+        _chg = [u for u in urls if lastmod.get(u) == today or "/p/" not in u][:10000]
+        (ROOT / ".indexnow.json").write_text(json.dumps({"key": _ik, "keyLocation": f"{SITE_URL}/{_ik}.txt", "site": SITE_URL, "urls": _chg}, ensure_ascii=False))
     (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: {BASE}/admin/\nDisallow: {BASE}/search/\nSitemap: {SITE_URL}/sitemap.xml\n")
     (DIST / ".nojekyll").write_text("")
     print(f"{len(urls)}টি পেজ তৈরি হয়েছে ({len(items)} প্রোডাক্ট, বিস্তারিত তথ্যসহ {stats['details']}), {time.time() - t0:.1f} সেকেন্ডে")

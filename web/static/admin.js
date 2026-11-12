@@ -917,6 +917,101 @@
     });
   };
 
+  /* ---------- SEO ---------- */
+  VIEWS.seo = function (p) {
+    var a = S.admin, sx = a.seo || {}, samp = sx.sample ? SITE + "/p/" + sx.sample + "/" : SITE + "/";
+    var VARS_P = ["{name}", "{price}", "{store}", "{stores}", "{brand}", "{cat}", "{year}", "{month}"];
+    var VARS_C = ["{cat}", "{cat_en}", "{count}", "{low}", "{high}", "{stores}", "{year}", "{month}"];
+    function stat(v, l, warn) { return '<div class="astat"' + (warn ? ' style="border-color:var(--warn)"' : "") + "><b>" + bn(v) + "</b><span>" + l + "</span></div>"; }
+    function chips(list, target) { return '<div class="seochips">' + list.map(function (v) { return '<button type="button" class="seochip" data-ins="' + target + '" data-v="' + v + '">' + v + "</button>"; }).join("") + "</div>"; }
+    p.innerHTML =
+      '<div class="astats">' + stat(sx.sitemap_urls, "Google-কে দেখানো পাতা (সাইটম্যাপ)") + stat(sx.indexable, "কেনা যায় এমন প্রোডাক্ট পাতা") +
+        stat(sx.noindex, "স্টকে নেই, Google থেকে লুকানো") + stat(sx.changed_today, "আজ দাম বদলানো পাতা") + "</div>" +
+      '<section class="card"><h2>SEO স্বাস্থ্য <span class="sub">· আজকের বিল্ড থেকে</span></h2><div class="seolist">' +
+        row(sx.dup_titles ? "warn" : "ok", sx.dup_titles ? bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক (" + bn(sx.dup_titles) + "টি গ্রুপ)" : "একই শিরোনামের পাতা নেই",
+          sx.dup_titles ? "সাধারণত একই প্রোডাক্ট দুইবার তালিকায় এসেছে (নামের শেষে -2, -3)। \"প্রোডাক্ট\" ট্যাবে মিলিয়ে দিলে ঠিক হবে, Google-এর কাছে ডুপ্লিকেট পাতা থাকবে না।" : "") +
+        row(sx.no_brand ? "warn" : "ok", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড নেই", "ব্র্যান্ড থাকলে Google-এর Product তথ্য পূর্ণ হয়। \"ব্র্যান্ড\" ট্যাবে নামের রূপ যোগ করলে নিজে ধরবে।") +
+        row("info", bn(sx.single_store) + "টি প্রোডাক্ট মাত্র এক দোকানে আছে", "তুলনা নেই বলে এগুলো দুর্বল পাতা। মিল বাড়ালে বা নতুন দোকান যোগ করলে কমবে।") +
+        row("info", bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি", "দোকানের দেওয়া লম্বা নামের কারণে। Google শেষের অংশ কেটে দেখায়, তেমন ক্ষতি নেই।") +
+        row("ok", "প্রতিটা প্রোডাক্ট পাতায় সংক্ষিপ্ত উত্তর, তারিখ আর Product/Offer স্কিমা আছে", "Google AI Overview আর AI চ্যাটবট এক বাক্যেই দাম, দোকান আর তারিখ পায়।") +
+        row(sx.indexnow ? "ok" : "warn", "IndexNow " + (sx.indexnow ? "চালু: প্রতিদিন বদলানো পাতা Bing/Yandex-কে জানানো হয়" : "বন্ধ"), "") +
+        row("warn", "robots.txt Google পড়তে পারে না", "সাইট এখন github.io-এর ভেতরের ফোল্ডারে, robots.txt থাকে ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে। ততদিন Search Console-এ sitemap.xml হাতে জমা দিন।") +
+        (sx.dup_samples && sx.dup_samples.length ? '<details style="margin-top:8px"><summary>একই শিরোনামের পাতা (নমুনা)</summary><div class="rows">' + sx.dup_samples.map(function (d) {
+          return '<div class="row" style="display:block"><div class="n">' + esc(d[0]) + '</div><div class="w">' + d[1].map(function (id) { return '<a href="' + BASE + "/p/" + esc(id) + '/" target="_blank" style="text-decoration:underline;margin-right:8px">' + esc(id) + "</a>"; }).join("") + "</div></div>";
+        }).join("") + "</div></details>" : "") +
+      "</div></section>" +
+      '<section class="card"><h2>শিরোনাম ও বিবরণের টেমপ্লেট</h2><p class="muted" style="margin:0 0 8px;font-size:.85rem">Google-এর ফলাফলে নীল লেখা (শিরোনাম) আর তার নিচের ধূসর লেখা (বিবরণ)। চিপে চাপলে শব্দটা ঘরে বসে; প্রতিটা পাতায় নিজে আসল তথ্যে বদলে যায়। বিবরণ ফাঁকা রাখলে স্বয়ংক্রিয় লেখা বসে (দামের বিশ্লেষণ থেকে)।</p>' +
+        fld("title_product", "প্রোডাক্ট পাতার শিরোনাম", "", "text", "", ' id="t_tp"') + chips(VARS_P, "t_tp") +
+        fld("title_product_oos", "প্রোডাক্ট পাতার শিরোনাম (স্টকে না থাকলে)", "", "text", "", ' id="t_tpo"') +
+        fld("desc_product", "প্রোডাক্ট পাতার বিবরণ (ফাঁকা = স্বয়ংক্রিয়)", "", "textarea", "", ' id="t_dp" rows="2"') + chips(VARS_P, "t_dp") +
+        '<div class="serp" id="serp_p"></div>' +
+        fld("title_category", "ক্যাটাগরি পাতার শিরোনাম", "", "text", "", ' id="t_tc"') + chips(VARS_C, "t_tc") +
+        fld("desc_category", "ক্যাটাগরি পাতার বিবরণ (ফাঁকা = স্বয়ংক্রিয়)", "", "textarea", "", ' id="t_dc" rows="2"') + chips(VARS_C, "t_dc") +
+        '<div class="serp" id="serp_c"></div></section>' +
+      '<section class="card"><h2>কোন পাতা Google দেখবে</h2>' +
+        '<div class="anote" style="font-size:.84rem">নিয়ম: কোনো দোকানে স্টকে থাকলে বা শীঘ্রই আসছে হলে পাতা Google-এ দেখানো হয়। সব দোকানে শেষ হলে পরের দিন থেকে লুকানো হয় (পাতা থাকে, লিংক ভাঙে না)। টানা নিচের দিন কোথাও না থাকলে পাতাটা ক্যাটাগরিতে পাঠিয়ে দেওয়া হয়।</div>' +
+        fld("gone_days", "কত দিন স্টকে না থাকলে পাতা সরানো হবে", "", "number", "সর্বনিম্ন ১৪, প্রস্তাবিত ৯০", ' min="14" max="730"') +
+        fld("force_index", "সবসময় Google-এ দেখান (স্টকে না থাকলেও)", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। যেমন জনপ্রিয় ফোন যা আবার আসবে।", ' rows="3"') +
+        fld("force_noindex", "কখনো Google-এ দেখাবেন না", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। পাতা থাকবে, শুধু সার্চে আসবে না।", ' rows="3"') +
+      "</section>" +
+      '<section class="card"><h2>AI সার্চ ও দ্রুত ইনডেক্স</h2>' +
+        '<div class="af"><label>Google ও AI কতটা লেখা উদ্ধৃত করতে পারবে</label><select data-k="ai_snippet">' +
+          '<option value="full">পুরোটা (প্রস্তাবিত): AI Overview, চ্যাটবট ও ফলাফলে আমাদের দাম ও তথ্য উদ্ধৃত হতে পারবে</option>' +
+          '<option value="limited">সীমিত: ফলাফলে ১৬০ অক্ষর পর্যন্ত</option>' +
+          '<option value="none">কিছুই না (nosnippet): ফলাফলে বিবরণ দেখাবে না, ভিজিটর কমবে</option></select>' +
+          "<small>পুরোটা দিলে Google AI Overview আর অন্য AI আমাদের সাইটকে দামের উৎস হিসেবে দেখাতে পারে, সেখান থেকে ভিজিটর আসে।</small></div>" +
+        tog("indexnow", "IndexNow চালু (প্রতিদিন বদলানো পাতা Bing, Yandex-কে জানানো; ChatGPT সার্চ Bing-এর তথ্য ব্যবহার করে)", false) +
+      "</section>" +
+      '<section class="card"><h2>যাচাইয়ের টুল</h2><p style="display:flex;gap:8px;flex-wrap:wrap;margin:0">' +
+        [["https://search.google.com/test/rich-results?url=" + encodeURIComponent(samp), "Rich Results Test (নমুনা পাতা)"],
+         ["https://validator.schema.org/#url=" + encodeURIComponent(samp), "Schema যাচাই"],
+         ["https://pagespeed.web.dev/analysis?url=" + encodeURIComponent(SITE + "/"), "PageSpeed (গতি)"],
+         [SITE + "/sitemap.xml", "সাইটম্যাপ দেখুন"],
+         ["https://search.google.com/search-console/sitemaps?resource_id=" + encodeURIComponent(SITE + "/"), "Search Console-এ সাইটম্যাপ"],
+         ["https://www.bing.com/webmasters", "Bing Webmaster"]].map(function (l) {
+          return '<a class="abtn ghost" style="display:inline-flex;align-items:center" target="_blank" rel="noopener" href="' + esc(l[0]) + '">' + l[1] + " ↗</a>"; }).join("") +
+      "</p></section>";
+    function row(kind, t, s) { return '<div class="seorow ' + kind + '"><span class="seoic">' + (kind === "ok" ? "✓" : kind === "warn" ? "!" : "i") + "</span><div><b>" + t + "</b>" + (s ? "<small>" + s + "</small>" : "") + "</div></div>"; }
+    return getJSON("config/seo.json").catch(function () { return {}; }).then(function (raw) {
+      var cfg = clone(raw);
+      $$("[data-k]", p).forEach(function (el) {
+        var v = cfg[el.dataset.k];
+        if (el.type === "checkbox") el.checked = !!v;
+        else if (Array.isArray(v)) el.value = v.join("\n");
+        else el.value = v == null ? "" : v;
+      });
+      var ex = { name: "Logitech C270 HD Webcam", price: "৳1,999", store: "TechLand BD", stores: "৯", brand: "Logitech", cat: "ওয়েবক্যাম", cat_en: "Webcam",
+                 count: "৩০৭", low: "৳13,300", high: "৳549,999", year: "২০২৬", month: "নভেম্বর" };
+      function fill(t) { return String(t || "").replace(/\{(\w+)\}/g, function (_, k) { return ex[k] || ""; }); }
+      function serp() {
+        var tp = fill(cfg.title_product), dp = cfg.desc_product ? fill(cfg.desc_product) : "Logitech C270 HD Webcam: আজ ৯ দোকানে, সর্বনিম্ন ৳১,৯৯৯ (TechLand BD)।";
+        var tc = fill(cfg.title_category).replace(/ওয়েবক্যাম/g, "স্মার্টফোন").replace("Webcam", "Smartphone"), dc = cfg.desc_category ? fill(cfg.desc_category).replace(/ওয়েবক্যাম/g, "স্মার্টফোন") : "আজ বাংলাদেশে ৩০৭টি স্মার্টফোন কেনা যাচ্ছে; দাম ৳13,300 থেকে ৳549,999…";
+        function box(url, t, d) { return '<small class="serpl">Google-এ যেমন দেখাবে</small><div class="serpu">' + esc(url) + '</div><div class="serpt">' + esc(t.length > 62 ? t.slice(0, 60) + "…" : t) + '</div><div class="serpd">' + esc(d.length > 158 ? d.slice(0, 155) + "…" : d) + "</div>" +
+          (t.length > 62 ? '<small class="serpw">শিরোনাম ' + bn(t.length) + " অক্ষর; ৬০-এর পরে কাটা যায়</small>" : ""); }
+        $("#serp_p").innerHTML = box(SITE.replace(/^https?:\/\//, "") + " › p › logitech-c270-hd-webcam", tp, dp);
+        $("#serp_c").innerHTML = box(SITE.replace(/^https?:\/\//, "") + " › c › smartphone", tc, dc);
+      }
+      serp();
+      bindDirty(p, "seo", function (t) {
+        var k = t.dataset.k; if (!k) return false;
+        if (k === "force_index" || k === "force_noindex") cfg[k] = t.value.split(/\n+/).map(function (x) { return x.trim(); }).filter(Boolean);
+        else cfg[k] = valOf(t);
+        serp();
+      });
+      p.addEventListener("click", function (e) {
+        var c = e.target.closest("[data-ins]"); if (!c) return;
+        var inp = document.getElementById(c.dataset.ins), pos = inp.selectionStart == null ? inp.value.length : inp.selectionStart;
+        inp.value = inp.value.slice(0, pos) + c.dataset.v + inp.value.slice(inp.selectionEnd || pos); inp.focus();
+        inp.dispatchEvent(new Event("input", { bubbles: true }));
+      });
+      savers.seo = function () {
+        if (!cfg.title_product || !cfg.title_category) return Promise.reject(new Error("প্রোডাক্ট আর ক্যাটাগরির শিরোনাম ফাঁকা রাখা যাবে না"));
+        if (cfg.gone_days && cfg.gone_days < 14) cfg.gone_days = 14;
+        return putJSON("config/seo.json", cfg, "SEO সেটিং");
+      };
+    });
+  };
+
   window.addEventListener("hashchange", function () { var t = location.hash.slice(1); if (VIEWS[t] && t !== S.tab && S.admin) show(t); });
 
   /* ---------- শুরু ---------- */
