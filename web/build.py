@@ -280,6 +280,11 @@ HINTS = {
 }
 
 
+def popular_first(i):
+    """তালিকার ক্রম: যেটা বেশি দোকানে স্টকে আছে সেটা আগে (মানুষ আসলেই তুলনা দেখতে পায়), তারপর মোট দোকান, তারপর কম দাম"""
+    return (i["best"] is None, -i["live_count"], -i["store_count"], (i["best"] or {}).get("price", 0))
+
+
 def blurb(p, leaf, det):
     name = p["name"]
     feats = det.get("key_features", [])[:4] if det else []
@@ -527,7 +532,7 @@ def build_brand_pages(items, leaves, group_of, BR, write):
         if it["bslug"]:
             by[it["bslug"]].append(it)
     cards = []
-    order = lambda i: (i["best"] is None, (i["best"] or {}).get("price", 0))
+    order = popular_first
     for slug, lst in by.items():
         if len(lst) < minp:
             continue
@@ -552,7 +557,7 @@ def build_brand_pages(items, leaves, group_of, BR, write):
                                       + (f" শুরু {taka(min(priced))} থেকে।" if priced else ""),
                           canonical=f"{SITE_URL}/brand/{slug}/{c}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
         priced = [i["best"]["price"] for i in lst if i["best"]]
-        deals = sorted([i for i in lst if i["saving"] > 0], key=lambda i: -i["saving"])[:6]
+        deals = sorted([i for i in lst if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:6]
         stats = {"count": len(lst), "cats": len(cats), "min": min(priced) if priced else None, "max": max(priced) if priced else None,
                  "live": sum(1 for i in lst if i["best"]), "multi": sum(1 for i in lst if i["store_count"] > 1)}
         write(f"brand/{slug}", "brand.html", bname=name, bslug=slug, info=info, stats=stats, cats=cat_cards, deals=deals,
@@ -1144,7 +1149,7 @@ def main():
     for g in tax["groups"]:
         leaf_cards = []
         for leaf in g["leaves"]:
-            lst_all = sorted(by_cat_all.get(leaf["slug"], []), key=lambda i: (not i["listed"], i["best"] is None, (i["best"] or {}).get("price", 0)))
+            lst_all = sorted(by_cat_all.get(leaf["slug"], []), key=lambda i: (not i["listed"],) + popular_first(i))
             lst = [i for i in lst_all if i["listed"]]
             hidden_n = len(lst_all) - len(lst)
             if not lst_all:
@@ -1179,7 +1184,7 @@ def main():
         if not leaf_cards:
             continue
         gitems = [i for l in leaf_cards for i in by_cat[l["slug"]]]
-        deals = sorted([i for i in gitems if i["saving"] > 0], key=lambda i: -i["saving"])[:8]
+        deals = sorted([i for i in gitems if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:8]
         write(f"g/{g['slug']}", "group.html", group=g, leaves=leaf_cards, deals=deals, total=len(gitems),
               crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/")),
               title=f"{g['name_bn']} দাম বাংলাদেশে | দামতুলনা",
@@ -1191,12 +1196,12 @@ def main():
     vals = list(items.values())
     size_pages = build_size_pages(listed_items, products, details, write, offers)
     brand_pages = build_brand_pages(listed_items, leaves, group_of, BR, write)
-    deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: -i["saving"])[:10]
+    deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []
     # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
     drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
-                       key=lambda d_: (-(d_["store_count"] > 1), -d_["drop"]))[:10]
+                       key=lambda d_: (-d_["store_count"], -d_["drop"]))[:10]
     # ===== হোম: বাজারের অবস্থা (web/market.py) =====
     M = market.compute(history, items, offers, set(enabled), today)
     _st = health.get("scraped_at") or ""

@@ -14,9 +14,9 @@
     <div class="ftool">
       <label class="fsort"><span>সাজান</span>
         <select id="fsort" aria-label="সাজান">
-          <option value="">কম দাম আগে</option>
+          <option value="">বেশি দোকানে আছে আগে</option>
+          <option value="price">কম দাম আগে</option>
           <option value="price_desc">বেশি দাম আগে</option>
-          <option value="stores">বেশি স্টোরে আছে আগে</option>
           <option value="saving">দামের পার্থক্য বেশি আগে</option>
           {% for d in fdefs %}<option value="f_{{ d.id }}_desc">{{ d.name }}: বড় আগে</option><option value="f_{{ d.id }}_asc">{{ d.name }}: ছোট আগে</option>{% endfor %}
         </select>

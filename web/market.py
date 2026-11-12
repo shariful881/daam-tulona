@@ -102,8 +102,10 @@ def compute(history, items, offers, enabled, today):
             movers_dn.append({"it": it, "store": lo[0], "old": lo[1], "new": lo[2], "pct": round((1 - lo[2] / lo[1]) * 100)})
         if hi[2] / hi[1] >= 1.01 and hi[2] >= 300:
             movers_up.append({"it": it, "store": hi[0], "old": hi[1], "new": hi[2], "pct": round((hi[2] / hi[1] - 1) * 100)})
-    movers_dn.sort(key=lambda m: (m["new"] / m["old"], -m["it"]["live_count"]))
-    movers_up.sort(key=lambda m: (-(m["new"] / m["old"]), -m["it"]["live_count"]))
+    # বেশি দোকানে থাকা প্রোডাক্ট আগে (তুলনা দেখা যায়), তার মধ্যে বেশি বদল আগে
+    many = lambda m: -min(m["it"]["live_count"], 3)
+    movers_dn.sort(key=lambda m: (many(m), m["new"] / m["old"]))
+    movers_up.sort(key=lambda m: (many(m), -(m["new"] / m["old"])))
     for m in movers_dn + movers_up:
         m["tab"] = TAB_OF_GROUP.get(m["it"]["group"], "other")
     M["movers"] = {"dn": movers_dn, "up": movers_up}

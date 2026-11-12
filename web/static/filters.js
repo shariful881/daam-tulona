@@ -23,7 +23,7 @@
   var S = { sort: "", min: "", max: "", stock: false, multi: false, all: false, f: {} };
   function readURL() {
     var q = new URLSearchParams(location.search);
-    S.sort = q.get("sort") || ""; S.min = q.get("min") || ""; S.max = q.get("max") || "";
+    S.sort = q.get("sort") || ""; if (S.sort === "stores") S.sort = ""; S.min = q.get("min") || ""; S.max = q.get("max") || "";
     S.stock = q.get("stock") === "1"; S.multi = q.get("multi") === "1"; S.all = q.get("all") === "1"; S.f = {};
     q.forEach(function (v, k) { if (k.indexOf("f.") === 0 && v) S.f[k.slice(2)] = v.split("|"); });
   }
@@ -79,9 +79,10 @@
       };
     }
     if (s === "price_desc") return function (a, b) { return (b.p == null ? -1 : b.p) - (a.p == null ? -1 : a.p); };
-    if (s === "stores") return function (a, b) { return b.l - a.l || b.k - a.k || price(a) - price(b); };
+    if (s === "price") return function (a, b) { return price(a) - price(b); };
     if (s === "saving") return function (a, b) { return (b.v || 0) - (a.v || 0) || price(a) - price(b); };
-    return function (a, b) { return price(a) - price(b); };
+    // ডিফল্ট (আগের "stores" লিংকও): বেশি দোকানে স্টকে আছে আগে, তারপর মোট দোকান, তারপর কম দাম
+    return function (a, b) { return (b.l || 0) - (a.l || 0) || (b.k || 0) - (a.k || 0) || price(a) - price(b); };
   }
 
   /* ---------- আঁকা ---------- */

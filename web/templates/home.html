@@ -128,7 +128,7 @@
     <div class="rows">
     {% for it in deals %}
       <a class="row wi" href="{{ base }}/p/{{ it.id }}/">{{ pimg(it) }}
-        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ</div></div>
+        <div style="min-width:0"><div class="n">{{ it.name }}</div><div class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ{% if it.live_count > 1 %}<span class="badge">{{ it.live_count | bn }} স্টোর</span>{% endif %}</div></div>
         <div><div class="p">{{ it.best.price | taka }}</div><div class="d lo">{{ it.saving | taka }} সাশ্রয়</div></div>
       </a>
     {% endfor %}
