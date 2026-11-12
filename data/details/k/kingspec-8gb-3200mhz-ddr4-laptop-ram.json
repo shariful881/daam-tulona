@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Type": "DDR4",
+   "RAM": "8GB"
+  },
+  "Power": {
+   "Voltage": "1.2V"
+  },
+  "Physical Specification": {
+   "Pin": "260pin",
+   "Dimensions": "69mmx30mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "DDR4-NB 8GB"
+  }
+ },
+ "key_features": [
+  "Frequency: 3200MHz",
+  "Input Voltage: 1.2V",
+  "Interface: 260pin",
+  "Storage temperature: 0-70℃"
+ ],
+ "model": "DDR4-NB 8GB",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T19:06+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-8gb-3200mhz-ddr4-laptop-ram",
+ "store": "creatus"
+}

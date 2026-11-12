@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Color": "Choose an option\nGreen\nObsidian Black\nPorcelain\nGreen\nObsidian Black\nPorcelain",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n128GB\n256GB\n512GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Google Pixel 9",
+   "OS": "Android 14",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Weight": "198 g (6.98 oz)",
+   "Dimensions": "152.8 x 72 x 8.5 mm (6.02 x 2.83 x 0.33 in)",
+   "Rear Camera": "Dual\n50 MP, f/1.7, 25mm (wide), 1/1.31″, 1.2µm, dual pixel PDAF, single-zone Laser AF, OIS\n48 MP, f/1.7, 123˚ (ultrawide), 1/2.55″, dual pixel PDAF\nFeatures\nLED flash, Pixel Shift, Ultra HDR, panorama, Best Take\nVideo\n4K@24/30/60fps, 1080p@24/30/60/120/240fps; gyro-EIS, OIS, 10-bit HDR",
+   "System Storage": "128GB/256GB",
+   "RAM(GB)": "12GB",
+   "SIM Card": "Nano-SIM and eSIM",
+   "Processor": "Google Tensor G4 (4 nm)",
+   "CPU": "Octa-core (1×3.1 GHz Cortex-X4 & 3×2.6 GHz Cortex-A720 & 4×1.92 GHz Cortex-A520)",
+   "GPU": "Mali-G715 MC7",
+   "Battery": "Type: Li-Ion 4700 mAh, non-removable\nCharging\n27W wired, PD3.0, PPS, 55% in 30 min (advertised)\n15W wireless (w/ Pixel Stand)\n12W wireless (w/ Qi compatible charger)",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer"
+  },
+  "Display": {
+   "Type": "OLED, 120Hz, HDR10+, 1800 nits (HBM), 2700 nits (peak)",
+   "Size": "6.3 inches, 94.7 cm2 (~86.1% screen-to-body ratio)",
+   "Resolution": "1080 x 2424 pixels, 20:9 ratio (~422 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus 2"
+  },
+  "Front Camera": {
+   "Single": "10.5 MP, f/2.2, 20mm (ultrawide), 1/3.1″, 1.22µm, PDAF",
+   "Features": "Auto-HDR, panorama",
+   "Video": "4K@30/60fps, 1080p@30/60fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band (Global), Wi-Fi 802.11 a/b/g/n/ac/6, dual-band (India)",
+   "Bluetooth": "5.3, A2DP, LE, aptX HD",
+   "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2"
+  },
+  "Specification": {
+   "Color": "Green\n,\nObsidian Black\n,\nPorcelain",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB"
+  }
+ },
+ "key_features": [
+  "Model: Pixel 9",
+  "Display: 6.3 inches OLED",
+  "OS: Android 14",
+  "CPU: Octa-Core (Google Tensor G4 (4 nm))",
+  "GPU: Mali-G715 MC7",
+  "Front Camera: 10.5MP",
+  "Rear camera: 50MP + 48MP",
+  "Resolution: 1080 x 2424 pixels",
+  "Battery: 4700mAh, non-removable"
+ ],
+ "model": "Google Pixel 9",
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://diamu.com.bd/product/pixel-9/",
+ "store": "diamu"
+}

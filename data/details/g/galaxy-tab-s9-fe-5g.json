@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Connectivity": "Choose an option\nLTE\nWi-Fi\nLTE\nWi-Fi",
+   "Internal Storage": "Choose an option\n128GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy Tab S9 Ultra",
+   "OS": "Android 13, One UI 5.1",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Dimension Weight": "254.3 x 165.8 x 6.5 mm (10.01 x 6.53 x 0.26 in) 1.15 lb\nWeight\n1.38 lb (627g)",
+   "Rear Camera": "Single    8 MP, (wide)\nVideo    4K@30fps, 1080p@30fps",
+   "System Storage": "128GB",
+   "RAM(GB)": "6GB",
+   "SIM Card": "Nano-SIM,",
+   "Processor": "Samsung Exynos 1380 (S5E8835)",
+   "CPU Architecture": "Octa-core (4×2.4 GHz Cortex-A78 & 4×2.0 GHz Cortex-A55)",
+   "GPU": "Mali-G68 MP5",
+   "Sensors": "Unspecified",
+   "RAM": "8 GB\n,\n6 GB",
+   "Connectivity": "LTE, Wi-Fi",
+   "Internal Storage": "128GB"
+  },
+  "Display": {
+   "Type": "IPS LCD, 90Hz",
+   "Size": "10.9 inches, 344.5 cm2 (~81.7% screen-to-body ratio)",
+   "Resolution": "1440 x 2304 pixels, 16:10 ratio (~249 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "12 MP, (ultrawide)",
+   "Video": "Yes"
+  },
+  "Battery": {
+   "Type": "Li-Po 8000 mAh, non-removable",
+   "Charging": "45W wired, QC2.0"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C, magnetic connector"
+  }
+ },
+ "key_features": [
+  "Band: Samsung",
+  "Display: 10.9″ TFT LCD, 90 Hz",
+  "CPU: Exynos 1380 (5 nm)",
+  "GPU: Mali-G68 MP5",
+  "Front Camera: 8MP",
+  "Resolution: 1848 x 2960 pixels",
+  "RAM & ROM: 6GB & 128GB",
+  "Rear camera: 12M",
+  "Battery: 8000mAh, 45W wired"
+ ],
+ "model": "Galaxy Tab S9 Ultra",
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-tab-s9-fe-5g/",
+ "store": "diamu"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "LGA1700 socket: Support for the 14th, 13th, and 12th Generation Intel Core,\nPentium\\ Gold and Celeron Processors\n(Go to GIGABYTE's website for the latest CPU support list.)\nL3 cache varies with CPU",
+   "Chipset": "Intel B760 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "ATX Form Factor; 30.5cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\n* You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.\nSupport for S/PDIF Out"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps",
+   "Supported Storage": "CPU:\n1 x M.2 connector (Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU)\nChipset:\n2 x M.2 connectors (Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support) (M2P_SB, M2M_SB)\n4 x SATA 6Gb/s connectors\nRAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Audio": "6 x audio jacks",
+   "Display Port (s)": "1 x DisplayPort"
+  },
+  "Others": {
+   "Bundled Software": "Norton Internet Security (OEM version)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Chipset: Intel B760 Express Chipset",
+  "Support socket: LGA1700",
+  "Memory: 4 x DDR5 up to 256 GB",
+  "Wireless: Intel Wi-Fi 6E AX210 and BT 5.3"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b760-gaming-x-wifi6e-gen5-motherboard",
+ "store": "pchouse"
+}

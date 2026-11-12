@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR5"
+  },
+  "Key Features": {
+   "Capacity": "8GB",
+   "Latency": "CL40-40-40-76"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "32.7(H) x 140(L) x 7.5(W)mm",
+   "Heat Sink Color": "Aluminum heat-sink"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.25V"
+  },
+  "Physical dimension": {
+   "Pin": "288 Pin Non-ECC Unbuffered DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Type- DDR5, Speed: 5200MHz",
+  "Operating Voltage: 1.25V",
+  "Latency: CL40-40-40-76"
+ ],
+ "warranty": "Lifetime",
+ "fetched": "2026-11-12T18:33+06:00",
+ "source": "https://www.pchouse.com.bd/team-vulcan-red-8gb-ddr5-5200mhz-gaming-desktop-ram",
+ "store": "pchouse"
+}

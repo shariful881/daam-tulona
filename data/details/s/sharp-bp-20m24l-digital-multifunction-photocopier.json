@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "General": {
+   "Display": "5-line LCD",
+   "Power": "Rated local AC voltage ±10%, 50/60 Hz",
+   "Power Consumption": "Max. 1.2 kW"
+  },
+  "Printing Features": {
+   "Print Speed": "24ppm (A4), 12ppm (A3)",
+   "Warm-Up Time": "25 seconds",
+   "Resolution": "600 x 600 dpi",
+   "Duplex Printing": "Yes",
+   "Interface": "USB, LAN"
+  },
+  "Copy Features": {
+   "Copy Speed": "24ppm",
+   "First-Copy-Out Time": "6.4 Sec.",
+   "Zoom": "25% - 400%"
+  },
+  "Scan": {
+   "Resolution": "Push scan-100, 150, 200, 300, 400, 600 dpi*5\nPull scan-75, 100, 150, 200, 300, 400, 600 dpi\n50 dpi to 9,600 dpi via user setting*6"
+  },
+  "Paper Handling": {
+   "Paper Size": "A3, Legal, A4, Letter, A5, A6",
+   "Paper Weight": "60 g/m2 to 105 g/m2 (16 lbs bond to 28 lbs bond)\n60 g/m2 to 200 g/m2 (16 lbs bond to 110 lbs index)\n55 g/m2 to 200 g/m2 (13 lbs bond to 110 lbs index)",
+   "Input Capacity": "350 sheets\n(250-sheet tray and 100-sheet multi-bypass tray)\n1,850 sheets\n(350 sheets & optional 3 x 500-sheet tray)"
+  },
+  "Connectivity": {
+   "USB": "USB 2.0 (host, high-speed)",
+   "Others": "10Base-T/100Base-TX/1000Base-T\nwireless LAN (IEEE 802.11 b/g/n)*9"
+  },
+  "Physical Specifications": {
+   "Color": "Black & White",
+   "Dimension": "599 x 608 x 511 mm\n(23 19/32\" x 23 15/16\" x 20 1/8\")",
+   "Weight": "29 kg (64.0 lbs)"
+  },
+  "Warranty": {
+   "Warranty Informations": "1 Year"
+  }
+ },
+ "key_features": [
+  "Small to Medium Businesses: Ideal for offices requiring efficient document handling, copying, and scanning solutions.",
+  "Educational Institutions: Suitable for schools and universities with high-volume printing needs.",
+  "Government and Corporate Offices: Secure and reliable printing with network connectivity options."
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:02+06:00",
+ "source": "https://fourstarit.com.bd/p/sharp-bp-20m24l-photocopier",
+ "store": "fourstar"
+}

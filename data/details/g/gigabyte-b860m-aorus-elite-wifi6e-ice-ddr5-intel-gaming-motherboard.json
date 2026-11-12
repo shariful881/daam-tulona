@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core Ultra Processors\nL3 cache",
+   "Chipset": "Intel B860 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:\n- 1 x PCI Express x16 slot, supporting PCIe 5.0 and running at x16 (PCIEX16)\nChipset:\n- 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x4 (PCIEX4)",
+   "M.2 Socket": "CPU:\n- 1 x M.2 connector (Socket 3, M key, type 2280 PCIe 5.0 x4/x2 SSD support)(M2A_CPU)\nChipset:\n- 1 x M.2 connector (Socket 3, M key, type 2580/2280 PCIe 4.0 x4/x2 SSD support) (M2Q_SB)\n- 1 x M.2 connector (Socket 3, M key, type 25110/22110/2580/2280 PCIe 4.0x4/x2 SSD support) (M2N_SB)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Support for DDR5 9200(O.C) / 8800(O.C) / 8600(O.C) / 8400(O.C) / 8266(O.C) / 8200(O.C) / 8000(O.C) / 7950(O.C) / 7900(O.C) / 7800(O.C) / 7600(O.C.) / 7400(O.C.) / 7200(O.C.) / 7000(O.C.) / 6800(O.C.) / 6600(O.C.) /6400/5600 MT/s memory modules",
+   "Maximum Memory": "Up to 256 GB (64 GB single DIMM capacity)"
+  },
+  "Connector & Ports": {
+   "HDMI": "2 x HDMI",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Audio": "1 x front panel audio header\n2 x audio jacks",
+   "Display Port (s)": "1 x DisplayPort",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only)"
+  },
+  "Others": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)\nSupport for Q-Flash\nSupport for Q-Flash Plus\nSupport for Smart Backup",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Intel Core Ultra Processors (Series 2), LGA 1851 Socket",
+  "Supported RAM: 4x DDR5, Max 256GB,Supports Up to 9200(O.C)",
+  "Graphics Output: 2x HDMI, 1x DisplayPort, 1 x USB4 USB Type-C port",
+  "Features: 3x M.2, Wi-Fi 6E, Bluetooth 5.3"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b860m-aorus-elite-wifi6e-ice-gaming-motherboard",
+ "store": "pchouse"
+}

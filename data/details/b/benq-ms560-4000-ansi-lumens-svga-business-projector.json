@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Projector Features": {
+   "Brightness": "4000 ANSI Lumens",
+   "Contrast Ratio": "20000:1",
+   "Display Type": "DLP Single 0.55\" SVGA",
+   "Projection Distance": "60\"~150\"",
+   "Video Formats": "NTSC, PAL, SECAM, SDTV (480i/576i), EDTV (480p/576p), HDTV (720p, 1080i/p 60Hz)",
+   "Interface": "HDMI-1 x1\nHDMI-2 x1\nPC (D-sub 15pin) x1\nMonitor out (D-sub 15pin,Female) x 1\nAudio in (mini jack) x 1\nAudio out (mini jack) x 1\nRS232 In (D-sub 9pin, male) x 1\nUSB TypeA-1 x1(1.5A power)\nUSB Type mini B x1\nIR Receiver (Front+Top) x 2\nS-Video x1\nComposite Video (RCA) x1"
+  },
+  "Resolution": {
+   "Resolution": "800 x 600 pixels",
+   "Resolution Support": "VGA(640 x 480) to WUXGA_RB(1920 x 1200)"
+  },
+  "Power": {
+   "Power Consumption(Max/Normal/Eco)": "Max 280W, Normal 260W, Eco 215W",
+   "Standby Power Consumption": "Normal < 0.5Watts.",
+   "Power Supply": "100 ~ 240V AC"
+  },
+  "Lamp Details": {
+   "Lamp Power": "Up To 70%",
+   "Lamp Life": "Normal 6000 hr\nEconomic 10000 hr\nSmartEco 10000 hr\nLampSave 15000hr"
+  },
+  "Audio Features": {
+   "Audio": "10W x 1"
+  },
+  "Physical Specifications": {
+   "Weight": "2.3kg +/- 200g",
+   "Color": "White",
+   "Dimensions": "296 x 120 x 221 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "01 years Parts & Service warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 years Parts & Service warranty",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/benq-ms560-svga-business-projector",
+ "store": "pchouse"
+}

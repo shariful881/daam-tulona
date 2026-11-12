@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Product Description": {
+   "Product Model": "EX271",
+   "Product Color": "White"
+  },
+  "Panel": {
+   "Screen Size": "27”",
+   "Panel Type": "IPS",
+   "Backlight Technology": "LED",
+   "Resolution (maximum)": "1920 x 1080",
+   "Brightness (typical)": "400 nits",
+   "Native Contrast": "1000:1",
+   "Viewing Angle (L/R)": "178° / 178°",
+   "Response Time (GtG)": "1ms",
+   "Refresh Rate (Hz)": "DP: 180Hz, HDMI: 165Hz",
+   "Aspect Ratio": "16:9",
+   "Display Colors": "16.7 Million colors",
+   "Color Gamut": "95% P3",
+   "Display Area (mm)": "608.8 x 355.1",
+   "PPI": "90",
+   "Display Screen Coating": "Matte"
+  },
+  "Video": {
+   "Color Mode": "Display P3 / sRGB / Custom / Sci-fi HDRi"
+  },
+  "Cinema / Gamer 1 / Gamer 2 / Gamer 3": {
+   "HDR": "HDR10, VESA Display HDR 400",
+   "Gamma": "1.8 – 2.6",
+   "HDCP": "2.2",
+   "Low Blue Light & Flicker Free": "Yes",
+   "AMD FreeSync": "Yes"
+  },
+  "Audio": {
+   "Headphone Jack": "Yes",
+   "Built in Speaker": "Yes (2.5W x 2)"
+  },
+  "Connectivity": {
+   "DisplayPort": "DP 1.2 x 1",
+   "HDMI": "HDMI 2.0 x 2",
+   "USB Type-C Upstream (3.2 Gen 1)": "1",
+   "USB-A Downstream (3.2 Gen 1)": "2"
+  },
+  "Accessories": {
+   "HDMI 2.0 or DP Cable": "Yes",
+   "Power Cord (1.8m)": "Yes",
+   "Other Accessories": "QSG ; Warranty Card"
+  },
+  "Ergonomic Design": {
+   "Tilt (down/up)": "-5˚ ~ 20˚",
+   "Swivel (left/right)": "N/A",
+   "Height Adjustment Stand": "N/A",
+   "Pivot": "N/A"
+  },
+  "Power": {
+   "Power Consumption (normal)": "22W",
+   "Power Consumption (max)": "65W"
+  },
+  "Software": {
+   "Color Shuttle": "Yes",
+   "Display QuicKit": "Yes"
+  },
+  "Physical Attributes": {
+   "VESA Wall Mount": "100 x 100 mm",
+   "Kensington Lock": "Yes"
+  },
+  "Certification": {
+   "TÜV Certificate": "Low Blue Light (Hardware Solution)",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920×1080)",
+  "Display: 27″, IPS, 180Hz, 1ms (GtG)",
+  "Ports: 2x HDMI, 1x DP, 2x USB, 1x Type-C, 1x Headphone Jack",
+  "Features: Built-In Speaker, Flicker-free, Low Blue Light, FreeSync"
+ ],
+ "model": "EX271",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:26+06:00",
+ "source": "https://smartbd.com/product/benq-ex271-27-inch-fhd-180hz-benq-mobiuz-gaming-monitor/",
+ "store": "smartbd"
+}

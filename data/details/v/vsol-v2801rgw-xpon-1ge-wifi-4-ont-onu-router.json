@@ -1,0 +1,90 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "Internal Antennas",
+   "Data Transmission Rate": "Up to 300 Mbps (WiFi)\nUp to 1 Gbps (LAN)",
+   "Power Mode": "Standard Operation Mode",
+   "Button": "1 × Reset Button",
+   "Type": "XPON ONT/ONU Wireless Router",
+   "Wireless": "WiFi 4 (IEEE 802.11 b/g/n)\n2.4 GHz Band\nUp to 300 Mbps",
+   "Network Standard": "IEEE 802.11b/g/n (WiFi 4)\nIEEE 802.3 / 802.3u / 802.3ab\nITU-T G.984 (GPON)\nIEEE 802.3ah (EPON)",
+   "Encryption": "WEP\nWPA-PSK\nWPA2-PSK"
+  },
+  "Basic Information": {
+   "Security": "Firewall ProtectionWPA/WPA2 EncryptionMAC Filtering\nAccess Control\nDDoS Protection"
+  },
+  "Network & Connectivity": {
+   "Access Method": "PPPoE\nDHCP\nStatic IP",
+   "Administration": "Web UI\nTelnet\nTR-069\nOMCI",
+   "Bandwidth": "Up to 300 Mbps (WiFi)\n1 Gbps (Gigabit Ethernet)",
+   "Maximum Number of Clients": "Up to 16–32 Devices",
+   "Network": "Fiber (XPON: GPON/EPON)\nEthernet (10/100/1000 Mbps)\nWireless (WiFi 4, 2.4GHz)",
+   "Number of Antennas": "2",
+   "Protocols": "IPv4 / IPv6\nPPPoE\nDHCP\nNAT\nIGMP (v1/v2/v3)"
+  },
+  "Software": {
+   "Software Features": "Web UI, TR-069, OMCINAT, DHCP, PPPoEQoS, VLAN (802.1Q)\nFirewall, Access Control\nMultiple SSID, IGMP Snooping"
+  },
+  "Aircraft": {
+   "Operating Temperature Range": "Operating Temperature: 0°C to 45°C"
+  },
+  "Main Features": {
+   "MAC Address Table": "1K MAC Address Entries",
+   "Processor": "High-performance Realtek XPON chipset"
+  },
+  "Mouse": {
+   "Number of Button": "1 (Reset Button)"
+  },
+  "Ports": {
+   "WAN": "1 × XPON Port"
+  },
+  "Specification": {
+   "Dimension": "Approx. 160 × 110 × 30 mm"
+  },
+  "Standard": {
+   "WiFi": "IEEE 802.11b/g/n (WiFi 4, 2.4GHz, up to 300Mbps)",
+   "PON": "GPON (ITU-T G.984), EPON (IEEE 802.3ah), XPON Dual Mode",
+   "Ethernet": "IEEE 802.3 / 802.3u / 802.3ab (10/100/1000 Mbps)",
+   "Layer 2": "IEEE 802.1Q, 802.1p, 802.1ad, 802.1D",
+   "Network": "IPv4 / IPv6, PPPoE, DHCP, NAT, DDNS",
+   "Multicast": "IGMP v1/v2/v3, IGMP Snooping",
+   "Security": "WEP, WPA/WPA2, MAC Filtering, ACL, DDoS Protection",
+   "Management": "TR-069, OMCI, OAM, Web UI, Telnet"
+  },
+  "Input": {
+   "Frequency Range": "2.4 GHz (2.412 – 2.472 GHz)"
+  },
+  "Others": {
+   "Operation Modes": "Router ModeBridge Mode"
+  },
+  "Connectivity": {
+   "LAN": "1 × 10/100/1000 Mbps (Gigabit Ethernet Port)"
+  },
+  "Network": {
+   "Ethernet Port": "10/100/1000 Mbps (Gigabit Ethernet)"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Weight": "Approx. 150–200g"
+  },
+  "Special Features": {
+   "Web Authentication": "Supported"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "V2801RGW"
+  }
+ },
+ "key_features": [
+  "XPON Dual Mode: Compatible",
+  "Networking Ports: 1x 10/100/1000Mbps",
+  "Fiber Connector: SC/UPC"
+ ],
+ "model": "V2801RGW",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:31+06:00",
+ "source": "https://www.creatus.com.bd/vsol-v2801rgw-xpon-1ge-wifi-4-ont-onu-router",
+ "store": "creatus"
+}

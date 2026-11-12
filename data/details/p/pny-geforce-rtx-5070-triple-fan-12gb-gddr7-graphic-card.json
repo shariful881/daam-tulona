@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Core Clock": "Clock Speed: 2325 MHz\nBoost Speed: 2512 MHz",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "192-bit",
+   "CUDA Cores": "6144",
+   "Others": "NVIDIA Blackwell GPU architecture\n4th gen Ray Tracing Cores\n5th gen Tensor Cores\nNVIDIA DLSS 4\nTriple Fan Design\nNvidia Broadcast\nmetal backplate\n3.5-slot Fan Cooler\nNVIDIA Reflex 2"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin power connector",
+   "Recommended PSU": "650 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "Width: 1.9 in\nDepth: 11.8 in\nHeight: 4.7 in"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, PCI-Express 5.0 x16",
+  "Core Clock: 2325 MHz, Boost Clock: 2512 MHz",
+  "CUDA Cores: 6144, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "price": 145000,
+ "regular": 159000,
+ "status": "In Stock",
+ "code": "42234",
+ "brand": "PNY",
+ "mpn": "VCG507012TFXPB1",
+ "model": "GeForce RTX 5070 Triple Fan",
+ "warranty": "3 Years",
+ "name": "PNY GeForce RTX 5070 Triple Fan 12GB GDDR7 Graphic Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PNY",
+  "PNY GeForce RTX 5070 Triple Fan 12GB GDDR7 Graphic Card"
+ ],
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://www.startech.com.bd/pny-geforce-rtx-5070-triple-fan-graphic-card",
+ "store": "startech"
+}

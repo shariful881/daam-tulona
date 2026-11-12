@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "BASIC Information": {
+   "Processor": "525 MHz"
+  },
+  "Basic Information": {
+   "Others": "Wi-Fi direct connection, NFC touch connection",
+   "Functions": "Print, Scan, Copy",
+   "Display": "LCD Control Panel",
+   "Memory": "128 MB"
+  },
+  "Printer": {
+   "Input Capacity": "250 pages",
+   "Output Capacity": "150 pages（A4/70g)",
+   "Paper Size": "A4, A5, JIS B5, IS0 B5, A6, Letter, Legal, Executive, Folio, Oficio, Statement, Japanese Postcard, ZL, Big 16K, Big 32K, 16K, 32K, B6， Yougata4, Postcard, Younaga3, Nagagata3, Yougata2",
+   "Power Consumption": "110V Model：AC100-127V(±10%),50/60Hz(±2Hz),9A ；220V\nModel：AC220- 40V(-15%,+10%),50/60Hz(±2Hz)，4.5A",
+   "Print Resolution": "Max 1200x1200 dpi",
+   "Scan Resolution": "Max 1200×1200dpi",
+   "Copy Speed": "30cpm(A4) 32cpm(Letter)",
+   "Duplex Printing": "Automatic",
+   "Paper Type": "Plain, Thick, Thin, Transparency, Cardstock, Label",
+   "Paper Weight": "Standard tray：60-105g/㎡； Multipurpose tray：60-200g/㎡",
+   "Print Speed": "30 ppm (A4)/32 ppm (Letter)",
+   "Printer type": "Mono Laser Multifunction",
+   "software support": "Microsoft Windows Server2003 / Server2008 / Server2012 /XP/Vista/Win7/Win8/Win8.1/Win10/Win11（32/64 Bit）； Mac OS 10.7-12； Linux： Ubuntu 12.04/14.04/16.04/18.04/20.04（32/64 Bit）",
+   "Toner/ Cartridge/ Refill": "TL 411H (3000 page)/TL 411X (6000 page)",
+   "Duty Cycle up to (Yield)": "60,000 pages",
+   "First Print Out Time": "Less than 7.8s",
+   "Maximum Scan Size": "216×297mm",
+   "Scan Type": "Flatbed"
+  },
+  "Features": {
+   "Dimension": "415 x 365 x 310mm",
+   "Technology": "Electrophotographic monochrome laser",
+   "Weight": "10.26kg"
+  },
+  "Photocopier": {
+   "Copy Resolution": "Max 600×600 dpi"
+  },
+  "Connectivity": {
+   "Connectivity": "LAN- IEEE 802.3 10/100Base-Tx"
+  },
+  "General": {
+   "Output": "Output Color: Black & White"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Connectivity: Speed USB 2.0, Network, Wi-fi",
+  "Duplex: Automatic",
+  "Duty cycle: 60,000 pages",
+  "Processor: 525 MHz, Memory: 128 MB"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:26+06:00",
+ "source": "https://www.pchouse.com.bd/pantum-m6700dw-mono-laser-multifunction-printer",
+ "store": "pchouse"
+}

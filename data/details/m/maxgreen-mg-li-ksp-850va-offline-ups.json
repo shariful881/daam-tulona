@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "850VA",
+   "Load Capacity": "480W",
+   "Input Voltage": "220Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "50Hz ± 1Hz",
+   "Noise Level": "Less than 40dB",
+   "Battery": "Internal maintenance-free lead-acid (12V/9Ah*1)",
+   "Alarm": "Battery mode- Sounding every 10 seconds\nLow battery- Sounding every 10 seconds\nOverload -Sounding every 10 seconds\nBattery Replacement -Alarm Sounding every 10 seconds\nFault- Continuously sounding",
+   "Indications": "Line Mode Green lighting, Battery Mode Yellow Lighting, Fault Red Lighting"
+  },
+  "Input Features": {
+   "Frequency": "50 Hz",
+   "Power Factor": "Up to 30 Minutes",
+   "Voltage Range": "140-290VAC"
+  },
+  "Output Features": {
+   "Voltage Range": "140-290VAC",
+   "Type of Wave": "Simulated Sine Wave (Bat Mode)"
+  }
+ },
+ "key_features": [
+  "Capacity: 850VA",
+  "Load Capacity: 480W",
+  "Voltage range: 140vac-300vac",
+  "Output Voltage: 220vac-230vac"
+ ],
+ "fetched": "2026-11-12T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mg-li-ksp-850va-offline-ups",
+ "store": "pchouse"
+}

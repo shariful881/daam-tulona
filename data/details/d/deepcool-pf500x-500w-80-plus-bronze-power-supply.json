@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS Bronze",
+   "Efficiency (Approx.)": "≥88% Under Typical Load(50% Loading)",
+   "Fan Size": "120mm",
+   "Others": "Hydro Bearing\nActive PFC + DC to DC\nPower Good Signal: 100-150ms\nHold Up Time: ≥16ms(80% Load)\nProtection: OPP/OVP/SCP/OTP/OCP/UVP/SIP/NLO\nRegulatory: CE/FCC/CCC/TUV-RH/cTUVus/RCM/EAC/BIS\nOperation Temperature-0 - 40℃\nErp Regulation-ErP 2014\nMTBF-40,000 Hours"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "500W"
+  },
+  "Connector": {
+   "Main Power": "24(20+4)Pin × 1",
+   "PCI-E": "PCI-E(6+2)Pin x 2",
+   "CPU": "CPU(4+4)Pin x 1",
+   "SATA": "SATA x3 + 4Pin Peripheral x1"
+  },
+  "Warranty Information": {
+   "Warranty": "3-year"
+  },
+  "Image": {
+   "Model": "PF500X"
+  }
+ },
+ "key_features": [
+  "Power: 500W 80+ Bronze Efficiency",
+  "Design: ATX Non-Modular",
+  "Cooling: 120mm Hydro Bearing Fan",
+  "Protection: OPP, OVP, SCP, OTP, OCP, UVP"
+ ],
+ "model": "PF500X",
+ "warranty": "3-year",
+ "fetched": "2026-11-12T18:48+06:00",
+ "source": "https://www.creatus.com.bd/deepcool-pf500x-500w-power-supply",
+ "store": "creatus"
+}

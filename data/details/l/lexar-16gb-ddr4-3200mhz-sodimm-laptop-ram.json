@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "16GB",
+   "Operating voltage": "1.2V",
+   "Latency": "CL22",
+   "Others": "Operating Temperature: -20° C to 85°C (Surface)\nStorage Temperature: -55°C to 100°C"
+  },
+  "Physical dimension": {
+   "Dimension": "69.6 x 30mm",
+   "Pin": "260 Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: 3200HMz",
+  "Module Type: DDR4 260 PIN SO-DIMM",
+  "Operating voltage: 1.2V, Latency: CL22"
+ ],
+ "price": 19500,
+ "regular": 21450,
+ "status": "In Stock",
+ "code": "29581",
+ "brand": "Lexar",
+ "model": "DDR4 3200MHz SODIMM",
+ "warranty": "Lifetime Warranty",
+ "name": "Lexar 16GB DDR4 3200MHz SODIMM Laptop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Laptop)",
+  "Lexar",
+  "Lexar 16GB DDR4 3200MHz SODIMM Laptop RAM"
+ ],
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://www.startech.com.bd/lexar-16gb-ddr4-3200mhz-laptop-ram",
+ "store": "startech"
+}

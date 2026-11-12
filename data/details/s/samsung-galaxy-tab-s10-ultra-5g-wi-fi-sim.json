@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n16 GB\n12 GB\n16 GB",
+   "Internal Storage": "Choose an option\n1TB\n256GB\n512GB\n1TB\n256GB\n512GB",
+   "Connectivity": "Choose an option\nGPS + Cellular\nWi-Fi\nGPS + Cellular\nWi-Fi\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy Tab S10 Ultra",
+   "Network": "GSM / CDMA / HSPA /  LTE / 5G",
+   "OS": "Android 14, One UI 6.1",
+   "System Storage": "256/512GB",
+   "RAM(GB)": "12/16GB",
+   "SIM Card": "Nano-SIM, eSIM",
+   "Processor": "Mediatek Dimensity 9300+ (4 nm)",
+   "CPU Architecture": "Octa-core (1×3.25 GHz Cortex-X4 & 3×2.85 GHz Cortex-X4 & 4×2.0 GHz Cortex-A720)",
+   "GPU": "Immortalis-G720 MC12",
+   "Rear Camera": "Dual\n13 MP, f/2.0, 26mm (wide), 1/3.4″, 1.0µm, AF\n8 MP, f/2.2, (ultrawide)\nFeatures\nLED flash, HDR, panorama\nVideo\n4K@30fps, 1080p@30fps",
+   "Sensor": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+  },
+  "Dimension & Weight": {
+   "Dimensions": "326.4 x 208.6 x 5.4 mm (12.85 x 8.21 x 0.21 in)",
+   "Weight": "718 g (Wi-Fi), 723 g (5G) (1.58 lb"
+  },
+  "Display Size (Inches)": {
+   "Type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
+   "Size": "14.6 inches, 617.8 cm2 (~90.7% screen-to-body ratio)",
+   "Resolution": "1848 x 2960 pixels, 16:10 ratio (~239 ppi density)",
+   "Protection": "Unspecified"
+  },
+  "Front Camera": {
+   "Single": "13 MP, f/2.4, (ultrawide)",
+   "Features": "HDR, panorama",
+   "Video": "Yes, HDR"
+  },
+  "Battery": {
+   "Type": "Li-Po 11200 mAh, non-removable",
+   "Charging": "45W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, magnetic connector"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB",
+   "Internal Storage": "1TB\n,\n256GB\n,\n512GB",
+   "Connectivity": "GPS + Cellular, Wi-Fi"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy Tab S10 Ultra",
+  "Display: 14.6 inches, Dynamic AMOLED 2X",
+  "CPU: Octa-Core (Mediatek Dimensity 9300+ (4 nm)",
+  "GPU: Immortalis-G720 MC12",
+  "Front Camera: 12MP + 12MP",
+  "Resolution: : 1848 x 2960 pixels",
+  "Rear camera: 13MP+8MP",
+  "Battery: Li-Po 11200 mAh, non-removable"
+ ],
+ "model": "Galaxy Tab S10 Ultra",
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-tab-s10-ultra/",
+ "store": "diamu"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "650W",
+   "Efficiency (Approx.)": "≥87% Under Typical Load(50% Load)",
+   "Certification": "80 PLUS Bronze",
+   "Fan Size": "Fan Size: 120mm\nHydraulic Magnetic Bearing\nCapacitors: Taiwan electrolytic capacitor（Japanese 5VSB）",
+   "Others": "Hold up time: ≥12ms(100% Load)\nSafety: CB/CE/UKCA/FCC/EAC/RCM/TUV/cTUVus/RoHS\nMTBF: 100,000 Hours\nProtection: OPP/OVP/SCP/OTP/OCP/UVP/SPD\nNoise: ≤31.0dBA\nPower Good Signal: 100-250ms\nActive PFC+Double forward+DC to DC"
+  },
+  "Output": {
+   "Modular Type": "Non Modular",
+   "AC Input": "100-240V~, 8-4.5A, 50-60Hz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "05 years Warranty"
+  }
+ },
+ "key_features": [
+  "Type: ATX 3.1",
+  "Output Capacity: 650W",
+  "120mm FAN , Noise: ≤31.0dBA",
+  "80 PLUS Bronze Certification, 100,000 Hours MTBF"
+ ],
+ "price": 4999,
+ "regular": 5490,
+ "status": "In Stock",
+ "code": "54048",
+ "brand": "Ocypus",
+ "mpn": "Delta-P650S-BDFBK025X-EU",
+ "model": "DELTA P650S",
+ "warranty": "05 years Warranty",
+ "name": "Ocypus DELTA P650S 650W 80+ BRONZE ATX Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Ocypus",
+  "Ocypus DELTA P650S 650W 80+ BRONZE ATX Power Supply"
+ ],
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.startech.com.bd/ocypus-delta-p650s-650w-power-supply",
+ "store": "startech"
+}

@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "120GB",
+   "Form Factor": "2.5\"",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "SATA III",
+   "Sequential R/W": "Read Speed 510MB/s\nWrite Speed 440MB/s",
+   "Others": "TRIM, S.M.A.R.T, LDPC ECC"
+  },
+  "Physical Specification": {
+   "Dimension": "100 x 70 x 7 mm",
+   "Weight": "54 g"
+  },
+  "Warranty": {
+   "Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Read Speed: 510MB/s",
+  "Write Speed: 440MB/s",
+  "Interface: SATA III",
+  "Form Factor: 2.5\""
+ ],
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-12T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/netac-n535s-120gb-ssd",
+ "store": "pchouse"
+}

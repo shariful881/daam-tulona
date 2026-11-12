@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Casing Fan": {
+   "Air Flow": "84.75 CFM",
+   "Color": "White",
+   "Lifespan": "60,000",
+   "Noise (dBA)": "36 DBA",
+   "Voltage": "12V DC, 0.26A, 3.12W",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Others": "Pin: 4-Pin PWM"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "Height: 140mm",
+   "Materials": "Plastic, Rubber, PCB"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Years"
+  }
+ },
+ "key_features": [
+  "Fan Size: 140 x 140 x 25 mm",
+  "Fan Speed: 500 - 1800 ± 180 RPM",
+  "Airflow: 84.75 CFM",
+  "Noise:36 dBA"
+ ],
+ "warranty": "2-Years",
+ "fetched": "2026-11-12T18:43+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-f140-rgb-duo-140mm-rgb-white-casing-fan",
+ "store": "pchouse"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "850VA",
+   "Input Voltage": "100V / 110V +/-20%, 120V -20%, +15% 220V / 230V / 240V,160V ~ 270V at line input"
+  },
+  "General Information": {
+   "Protection": "Automatic self-test, Over discharge protection, short circuit protection by fuse"
+  },
+  "Main Features": {
+   "Battery Type": "Sealed, maintenance-free lead acid batterie (1pc=8Amp)",
+   "Frequency": "50 or 60Hz +/- 1Hz"
+  },
+  "Specification": {
+   "AC Normal Indicator": "GREEN",
+   "Ambient Operation": "3,500 meters max. elevation, 0-95% humidity",
+   "Battery Charging": "AMBER",
+   "Short Circuit": "UPS output cut off immediately",
+   "Spike Protection": "460 Joules, (8/20s)",
+   "Typical Recharge Time": "6 Hours"
+  },
+  "Output Features": {
+   "Backup Time": "Full Load 15 minutes, Half Load 30 minutes",
+   "Transfer Time": "4 microseconds"
+  },
+  "Construction": {
+   "Net Weight": "5.7 kg"
+  },
+  "Power": {
+   "Voltage": "Simulated sine wave at 100V / 220V / 240V +/- 8% --- AVE control"
+  },
+  "Warranty Information": {
+   "Warranty": "1 years"
+  },
+  "Image": {
+   "Model": "Power Pac 850VA"
+  }
+ },
+ "key_features": [],
+ "model": "Power Pac 850VA",
+ "warranty": "1 years",
+ "fetched": "2026-11-12T18:40+06:00",
+ "source": "https://www.creatus.com.bd/power-pac-850va-offline-ups",
+ "store": "creatus"
+}

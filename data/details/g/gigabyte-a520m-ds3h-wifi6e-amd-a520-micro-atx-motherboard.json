@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Chipset": "AMD A520",
+   "BIOS": "128 Mbit AMI UEFI BIOS",
+   "Form Factor": "Micro-ATX (24.4 × 24.4 cm)",
+   "Audio": "Realtek® High Definition Audio, 2/4/5.1/7.1-channel"
+  },
+  "General Information": {
+   "Supported Processors": "AMD Ryzen™ 5000 Series, Ryzen™ 5000 G-Series, Ryzen™ 4000 G-Series, Ryzen™ 3000 Series, Ryzen™ 3000 G-Series"
+  },
+  "Expansion Slots": {
+   "PCI": "1× PCIe 3.0 x16, 1× PCIe 3.0 x1",
+   "M.2 Socket": "1× M.2 Socket 3 (PCIe 3.0 x4/x2 & SATA SSD support)"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "4× DDR4 DIMM, up to 128GB",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1× DisplayPort 1.4, 1× HDMI 2.1"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "Realtek® Gigabit Ethernet (10/100/1000 Mbps)",
+   "RAID": "RAID 0, RAID 1, RAID 10"
+  },
+  "Software": {
+   "Operating System": "Windows 11 64-bit, Windows 10 64-bit"
+  },
+  "Connector": {
+   "SATA": "4× SATA III 6Gb/s"
+  },
+  "Others": {
+   "Special Features": "Ultra Durable PCIe Slot, Audio Noise Guard, High-End Audio Capacitors, Anti-Sulfur Resistors, Q-Flash, APP Center, WIFI EZ-Plug"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "A520M DS3H WIFI6E (Rev. 1.0)"
+  }
+ },
+ "key_features": [],
+ "model": "A520M DS3H WIFI6E (Rev. 1.0)",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:54+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-a520m-ds3h-wifi6e-rev-1-0-motherboard",
+ "store": "creatus"
+}

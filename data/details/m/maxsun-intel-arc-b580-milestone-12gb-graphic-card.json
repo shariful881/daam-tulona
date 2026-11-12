@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "19 Gbps",
+   "BUS Type": "PCIe 4.0 x8",
+   "Memory Interface": "192-bit"
+  },
+  "Core Clock": {
+   "Boost mode": "2850 MHz",
+   "Default mode": "2670 MHz"
+  },
+  "Others": {
+   "Xe-cores": "20",
+   "Memory Bandwidth": "456 GB/s"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1",
+   "HDMI": "1x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "8 Pin ATX 12V",
+   "Recommended PSU": "190W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "241 x 104 x 43.1 mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years Warranty"
+  }
+ },
+ "key_features": [
+  "Base Clock: 2670 MHz, Boost Clock: 2850 MHz",
+  "Memory Size: 12GB, Bandwidth: 456 GB/s",
+  "Xe-cores: 20, Memory Interface: 192-bit",
+  "Output Interface: 3x DisplayPort 2.1, 1x HDMI 2.1"
+ ],
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-12T18:41+06:00",
+ "source": "https://www.pchouse.com.bd/maxsun-intel-arc-b580-milestone-12gb-graphic-card",
+ "store": "pchouse"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Interface": "USB 3.2 Gen 2x2",
+   "Sequential R/W": "2,000MB/s read, 2,000MB/s write"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~40°C",
+   "Storage Temperature": "-20°C~85°C"
+  },
+  "Physical Specification": {
+   "Dimension": "69.54 x 32.58 x 13.5mm",
+   "Weight": "28.9g"
+  },
+  "Warranty Information": {
+   "Warranty": "03-Year Warranty"
+  },
+  "Image": {
+   "Model": "SXS2000"
+  }
+ },
+ "key_features": [
+  "Interface: USB 3.2 Gen 2x2",
+  "Storage Capacity: 500GB",
+  "Read/write: Up to 2000MB/s read, 2000MB/s",
+  "Casing Material: Metal + plastic"
+ ],
+ "model": "SXS2000",
+ "warranty": "03-Year Warranty",
+ "fetched": "2026-11-12T19:08+06:00",
+ "source": "https://www.creatus.com.bd/kingston-sxs2000-500gb-portable-ssd",
+ "store": "creatus"
+}

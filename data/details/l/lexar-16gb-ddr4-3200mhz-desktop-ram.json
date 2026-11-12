@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Frequency": "3200Mhz",
+   "Latency": "CL22"
+  },
+  "General": {
+   "Type": "DDR5"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "133.35 mm x 31.25 mm"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.2V"
+  },
+  "Physical dimension": {
+   "Pin": "288Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Memory Type: DDR4",
+  "Tested Latency: CL22",
+  "Tested Speed: 3200Mhz",
+  "Tested Voltage: 1.2V"
+ ],
+ "warranty": "Lifetime warranty",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-16gb-ddr4-3200mhz-desktop-ram-price-in-bd",
+ "store": "pchouse"
+}

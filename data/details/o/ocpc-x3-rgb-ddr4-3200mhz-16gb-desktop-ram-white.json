@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "16GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL16-20-20-40",
+   "Others": "Unbuffered\nNon-ECC"
+  },
+  "Physical dimension": {
+   "Dimension": "Height: 46.9mm / 1.85inch",
+   "Heat Sink Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 16GB",
+  "Memory Type: DDR4",
+  "Memory Frequency: 3200 MHz",
+  "Latency: CL16-20-20-40"
+ ],
+ "price": 1620016300,
+ "regular": 17900,
+ "status": "In Stock",
+ "code": "33068",
+ "brand": "OCPC",
+ "mpn": "MMX3A16GD432C16W",
+ "model": "X3 RGB DDR4 3200 16GB WHITE",
+ "warranty": "Lifetime",
+ "name": "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "OCPC",
+  "OCPC X3 RGB DDR4 3200MHz 16GB Desktop RAM White"
+ ],
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://www.startech.com.bd/ocpc-x3-rgb-ddr4-3200mhz-16gb-ram-white",
+ "store": "startech"
+}

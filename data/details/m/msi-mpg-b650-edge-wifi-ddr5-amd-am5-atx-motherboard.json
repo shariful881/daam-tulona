@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors\nSocket AM5",
+   "Chipset": "AMD B650",
+   "Form Factor": "ATX\n243.84mmx304.8mm",
+   "Audio": "Realtek ALC4080 Codec\n7.1-Channel USB High Performance Audio\nSupports up to 32-Bit/384 kHz playback on front panel"
+  },
+  "Expansion Slots": {
+   "PCI": "2x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 PCIe 4.0 supports up to x16 (From CPU)\nPCI_E2 PCIe 4.0 supports up to x2 (From Chipset)\nPCI_E3 PCIe 3.0 supports up to x1 (From Chipset)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 DIMMs",
+   "Supported Memory": "Memory Support DDR5 6600+(OC)/ 6400(OC)/\n6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800(JEDEC) MHz\nMax. overclocking frequency:\n• 1DPC 1R Max. speed up to 6600+ MHz\n• 1DPC 2R Max. speed up to 6000+ MHz\n• 2DPC 1R Max. speed up to 6400+ MHz\n• 2DPC 2R Max. speed up to 4000+ MHz\nSupport Dual-Channel mode\nSupports non-ECC, un-buffered memory\nSupports AMD EXPO",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\n1x DisplayPort\nSupport HDMI™ 2.1 HDR, maximum resolution of 4K 60Hz\nSupport DP 1.4 HBR3, maximum resolution of 8K 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x DisplayPort",
+   "USB (s)": "2x USB 2.0 (Rear)\n4x USB 2.0 (Front)\n4x USB 3.2 Gen1 Type A (Rear)\n2x USB 3.2 Gen1 Type A (Front)\n3x USB 3.2 Gen2 Type A (Rear)\n1x USB 3.2 Gen2 Type C (Front)\n1x USB 3.2 Gen2x2 Type C (Rear)",
+   "LAN Port (s)": "Realtek RTL8125BG 2.5Gbps LAN",
+   "Wireless Communication module": "AMD Wi-Fi 6E\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\nSupports MU-MIMO TX/RX\nSupports 20MHz, 40MHz, 80MHz,160MHz bandwidth in 2.4GHz/ 5GHz or 6GHz* bands\nSupports 802.11 a/ b/ g/ n/ ac/ ax\nSupports Bluetooth 5.2",
+   "Supported Storage": "3x M.2 slot\nM.2_1 (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices\nM.2_2 (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\nM.2_3 (From Chipset) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\n6x SATA 6G port",
+   "RAID": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\nSupports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices",
+   "Audio": "Audio Connectors",
+   "Internal I/O Ports": "1x Power Connector(ATX_PWR)\n2x Power Connector(CPU_PWR)\n1x CPU Fan\n1x Pump Fan\n6x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x Tuning Controller connector(JDASH)\n2x Addressable V2 RGB LED connector (JARGB_V2)\n2x RGB LED connector(JRGB)\n4x USB 2.0\n2x USB 3.2 Gen1 Type A\n1x USB 3.2 Gen2 Type C",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)"
+  },
+  "Others": {
+   "Special Features": "4x EZ Debug LED\n1x EZ LED Control switch"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/ 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, up to 6600+(OC) MHz",
+  "Graphics Output: 1x HDMI, 1x Display Port",
+  "Features: 2.5G LAN and AMD Wi-Fi 6E Solution"
+ ],
+ "price": 3320033400,
+ "regular": 36020,
+ "status": "In Stock",
+ "code": "25224",
+ "brand": "MSI",
+ "model": "MPG B650 EDGE WIFI",
+ "warranty": "3 Years",
+ "name": "MSI MPG B650 EDGE WIFI DDR5 AMD AM5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (AMD)",
+  "MSI MPG B650 EDGE WIFI DDR5 AMD AM5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://www.startech.com.bd/msi-mpg-b650-edge-wifi-motherboard",
+ "store": "startech"
+}

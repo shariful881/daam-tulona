@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "32GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL38-38-38-78"
+  },
+  "Physical dimension": {
+   "Dimension": "32.7(H) x 140(L) x 7.5(W)mm",
+   "Heat Sink Color": "Aluminum heat-sink",
+   "Pin": "288 Pin Non-ECC Unbuffered DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB",
+  "Type- DDR5, Speed: 6000MHz",
+  "Latency: CL38-38-38-78",
+  "Compatible with Intel and AMD CPUs"
+ ],
+ "price": 6999970500,
+ "regular": 76710,
+ "status": "In Stock",
+ "code": "53015",
+ "brand": "Team",
+ "mpn": "FLBD532G6000HC38A01",
+ "model": "VULCAN DDR5",
+ "warranty": "Lifetime",
+ "name": "Team T-Force VULCAN 32GB 6000MHz DDR5 CL38 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "TEAM",
+  "Team T-Force VULCAN 32GB 6000MHz DDR5 CL38 Desktop RAM"
+ ],
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.startech.com.bd/team-t-force-vulcan-32gb-6000mhz-ddr5-cl38-ram",
+ "store": "startech"
+}

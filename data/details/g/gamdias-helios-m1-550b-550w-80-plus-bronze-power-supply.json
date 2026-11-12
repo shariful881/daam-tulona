@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS Bronze, ATX12V v2.4",
+   "Efficiency (Approx.)": "Up to 85% (80 PLUS Bronze)",
+   "Continuous Power": "550W",
+   "Fan Size": "120mm",
+   "Watt": "550W"
+  },
+  "Input": {
+   "Voltage": "100-240V",
+   "Frequency Range": "47-63Hz",
+   "Current": "4-8A"
+  },
+  "Output": {
+   "Modular Type": "Non Modular",
+   "Total Power": "550W",
+   "AC Input": "100-240V / 4-8A / 47-63Hz",
+   "DC Output": "+3.3V / +5V / +12V / -12V / +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "1 x (20+4 Pin)",
+   "PCI-E": "2 x (6+2 Pin)",
+   "CPU": "1 x (4+4 Pin)",
+   "SATA": "5 x (5 Pin)",
+   "Molex": "3 x (4 Pin)",
+   "Floppy": "N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "HELIOS M1-550B"
+  }
+ },
+ "key_features": [],
+ "model": "HELIOS M1-550B",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.creatus.com.bd/gamdias-helios-m1-550b-550w-80-plus-bronze-power-supply",
+ "store": "creatus"
+}

@@ -1,0 +1,87 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "22 inch",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel pitch(MM)": "0.249 mm (H) x 0.241 mm (V)",
+   "Display Surface": "Anti-Glare, Hard Coating (3H)",
+   "Viewing Angle": "178º horizontal, 178º vertical",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/m² (typ)",
+   "Refresh Rate": "120Hz",
+   "Response Time": "1ms (MPRT)",
+   "Curvature": "Flat"
+  },
+  "Contrast Ratio": {
+   "Static Contrast Ratio": "1,000:1 (typ)",
+   "Dynamic Contrast Ratio": "50M:1"
+  },
+  "Color Support": {
+   "Colors": "16.7M",
+   "Color Space Support": "8 bit (6 bit + FRC)"
+  },
+  "Color Gamut": {
+   "NTSC": "72% size (Typ)",
+   "sRGB": "104% size (Typ)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "Color Temperature Selection": "32°F to 104°F (0°C to 40°C)"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI 1.4: 1",
+   "VGA": "VGA: 1"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5º / 20º",
+   "Security Locker": "Kensington Lock Slot",
+   "Vesa Wall Mount": "75 x 75 mm"
+  },
+  "Power": {
+   "Adapter Type": "External Power Adaptor",
+   "Voltage": "AC 100-240V"
+  },
+  "Power Consumption": {
+   "Eco Mode (Conserve)": "15W",
+   "Eco Mode (optimized)": "18W",
+   "Consumption (typical)": "21W",
+   "Consumption (max)": "23W"
+  },
+  "Weight": {
+   "Net (kg)": "2.5",
+   "Net Without Stand (kg)": "2.1",
+   "Gross (kg)": "3.3"
+  },
+  "Dimensions": {
+   "Packaging (in.)": "21.7 x 15 x 4.2",
+   "Physical (in.)": "19.49 x 15.04 x 7.44",
+   "Physical Without Stand (in.)": "19.49 x 11.3 x 2"
+  },
+  "Physical Specification": {
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "VA221A-H"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 120Hz, 1ms",
+  "Ports: 1x VGA, 1x HDMI 1.4",
+  "Features: Low Blue Light, Flicker Free"
+ ],
+ "model": "VA221A-H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:15+06:00",
+ "source": "https://www.creatus.com.bd/viewsonic-va221a-h-monitor",
+ "store": "creatus"
+}

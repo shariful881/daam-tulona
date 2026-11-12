@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16 GB",
+   "Resolution": "7680 x 4320@60Hz",
+   "Memory Clock": "2400 MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Memory Interface": "256 bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3 x DisplayPort 1.4a",
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8-Pin",
+   "Recommended PSU": "600 W",
+   "Power Consumption": "285 W"
+  },
+  "Display Option": {
+   "Multi Display Capability": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "300 x 118.5 x 50mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Intel Arc A770 Photon 16G OC"
+  },
+  "Product List": {
+   "GUNNIR Graphics Card Price List in BD": "Price",
+   "GUNNIR Intel Arc A580 Index 8G GDDR6 Graphics Card": "36,500৳\n38,500৳",
+   "GUNNIR Intel Arc A380 Index 6G GDDR6 Graphics Card": "21,011৳\n28,280৳",
+   "Gunnir Intel Arc A770 Tri 16G GDDR6 Graphics Card": "56,800৳\n62,100৳"
+  }
+ },
+ "key_features": [
+  "PCI Express 4.0 x16 Interface: Maximizes bandwidth for faster connectivity.",
+  "Multiple Display Support: Three DisplayPort 1.4a and one HDMI 2.0 ports for versatile multi-display setups.",
+  "Optimized for DirectX 12 Ultimate: Compatibility with the latest gaming technologies.",
+  "OpenGL 4.6 Support: Enhanced rendering capabilities for professional applications.",
+  "Powerful Graphics Processing: Designed for gaming and graphics-intensive tasks.",
+  "Efficient Cooling System: Ensures optimal temperature and performance.",
+  "Recommended 600W PSU: Power-efficient design for optimal usage.",
+  "Compact Dimensions: Fits well in various PC builds.",
+  "Warranty Coverage: 3-year manufacturing warranty for peace of mind.",
+  "Professional-Grade Performance: Ideal for enthusiasts and professionals seeking top-tier graphics performance."
+ ],
+ "model": "Intel Arc A770 Photon 16G OC",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:01+06:00",
+ "source": "https://www.creatus.com.bd/gunnir-intel-arc-a770-photon-16g-oc-graphics-card",
+ "store": "creatus"
+}

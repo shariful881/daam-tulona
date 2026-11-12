@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n4 GB\n6 GB\n8 GB\n4 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Redmi 14C",
+   "OS": "Android 14, MIUI",
+   "Network": "GSM / HSPA / LTE",
+   "SIM": "Dual SIM (Nano-SIM, dual stand-by)",
+   "Dimensions & Weight": "171.9 x 77.8 x 8.2 mm (6.77 x 3.06 x 0.32 in)\nWeight: 204 / 207 / 211 g (7.20 oz)",
+   "Build": "Glass front, plastic frame, glass back or silicone polymer (eco leather) back",
+   "Rear Camera": "Dual\n50 MP, f/1.8, 28mm (wide), PDAF\n2 MP, f/2.4, (depth)\n0.08 MP (auxiliary lens)\nFeatures\nLED flash, HDR\nVideo\n1080p@30fps",
+   "System Storage": "64GB/128GB/256GB",
+   "RAM(GB)": "8GB/4GB/6GB",
+   "Processor": "Mediatek Helio G81 Ultra",
+   "CPU Architecture": "Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+   "GPU": "Mali-G52 MC2",
+   "Audio": "Loudspeaker\n3.5mm jack",
+   "Location": "GPS, GLONASS, GALILEO, BDS",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, compass\nVirtual proximity sensing"
+  },
+  "Display": {
+   "Type": "IPS LCD, 120Hz, 450 nits (typ), 600 nits (HBM)",
+   "Size": "6.88 inches, 112.4 cm2 (~84.0% screen-to-body ratio)",
+   "Resolution": "720 x 1640 pixels (~260 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "13 MP, f/2.0",
+   "Features": "HDR",
+   "Video": "1080p@30fps"
+  },
+  "Battery and Charging": {
+   "Type": "5000 mAh, non-removable",
+   "Charging": "10W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+   "Bluetooth": "5.4, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "Yes (market/region dependent)",
+   "Radio": "FM radio",
+   "USB": "USB Type-C 2.0"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n4 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB"
+  }
+ },
+ "key_features": [
+  "Model: Redmi 14C",
+  "Display: 6.88 inches, IPS LCD, 90Hz",
+  "Resolution: 720 x 1640 pixels",
+  "CPU: Octa-core(Mediatek Helio G81 Ultra)",
+  "GPU: Mali-G52 MC2",
+  "Front Camera: 13MP",
+  "Rear camera: 8MP+2MP",
+  "Battery: Li-Po 5000mAh, non-removable"
+ ],
+ "model": "Redmi 14C",
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://diamu.com.bd/product/xiaomi-redmi-14c/",
+ "store": "diamu"
+}

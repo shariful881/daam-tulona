@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "General": {
+   "Dimensions": "16.1\"\n15.7\" x 12.5\"",
+   "Weight": "24.5lbs"
+  },
+  "Print": {
+   "Print Speed": "30 max. ppm",
+   "First-Print-Out Time": "8.5Sec",
+   "Duplex Printing": "Yes",
+   "Print Technology": "Laser"
+  },
+  "Copy": {
+   "Copy Speed": "30 (max. ppm)",
+   "First-Print-Out Time": "8.5 sec",
+   "Zoom": "25%-400%"
+  },
+  "Scan": {
+   "Scan Technology": "Laser",
+   "Resolution": "25%-400%"
+  },
+  "Paper Handling": {
+   "Paper Size": "Letter, Legal,\nExecutive, A4, A5, B5",
+   "Paper Type": "Plain, Recycled\nPaper",
+   "Input Capacity": "250 Sheets",
+   "Output Capacity": "100 Sheets",
+   "Monthly Print Volume": "250 to 2,000 pages",
+   "Duty-Cycle": "Maximum Monthly Duty\nCycle: 10,000 printed pages",
+   "Color Output": "Black & White"
+  },
+  "Connectivity": {
+   "LAN": "Ethernet",
+   "Wi-Fi": "Wireless 802.11\nb/g/n",
+   "USB": "Hi-Speed USB 2.0"
+  },
+  "Warranty": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Printer Type: Black & White",
+  "Functions: Print, Copy, Scan",
+  "Memory: 32MB",
+  "Interface: Wireless & USB"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/brother-dcp-l2540dw-laser-wireless-duplex-printer",
+ "store": "pchouse"
+}

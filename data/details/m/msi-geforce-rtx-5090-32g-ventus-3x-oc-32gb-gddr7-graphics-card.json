@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "32GB",
+   "Resolution": "up to 7680 x 4320p",
+   "BUS Type": "512-bit",
+   "Memory Interface": "28 Gbps",
+   "CUDA Cores": "21760"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1a",
+   "HDMI": "1x HDMI",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin x 1"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 32GB GDDR7, PCI Express 5.0 x16",
+  "Memory Bus: 512-bit, CUDA Cores: 21760 Units",
+  "Memory Speed: 28 Gbps, Resolution Maximum: 7680 x 4320p",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-12T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-5090-32g-ventus-3x-oc-32gb-gddr7-graphics-card",
+ "store": "pchouse"
+}

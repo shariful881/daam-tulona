@@ -1,0 +1,72 @@
+{
+ "specs": {
+  "General": {
+   "Model": "H7 Flow RGB",
+   "Model Number": "CM-H71FW-R1",
+   "Type": "Mid-Tower",
+   "Color": "White"
+  },
+  "Box specification": {
+   "H7 Flow Case with fans (see specs)": "1",
+   "F140 RGB Core Fan (pre-installed)": "3",
+   "F120Q Airflow Fan (pre-installed)": "1",
+   "Installation Accessories": "1",
+   "Manual": "1"
+  },
+  "Case Features": {
+   "Drive Bays": "2.5\": 4+2\n3.5\": 2"
+  },
+  "Expansion Slots": {
+   "Standard": "7",
+   "Vertical": "0"
+  },
+  "Fan Support": {
+   "Front": "3 x 120mm / 3 x 140mm (3 x F Series RGB Core 140mm included)",
+   "Top": "3 x 120mm / 2 x 140mm",
+   "Rear": "1 x 120mm / 1 x 140mm (1 x F Series Quiet 140mm (Case Version) included)",
+   "Filters": "All Air Intakes"
+  },
+  "Fan": {
+   "Model": "F120Q (Case Version)",
+   "Speed": "1200 ± 240RPM",
+   "Airflow": "62.18 CFM",
+   "Static": "1.05 mm - H2O",
+   "Noise": "25.1 dBA",
+   "Fan Connector": "3-pin"
+  },
+  "Compatibility": {
+   "Max CPU Cooler Clearance": "Up to 185mm",
+   "Max GPU Clearance": "Up to 400mm",
+   "Front Radiator Clearance": "60mm",
+   "Top Radiator Clearance": "30mm",
+   "Cable Management": "18-22mm",
+   "PSU Clearance": "Up to 200mm"
+  },
+  "Features": {
+   "Motherboard Support": "Mini-ITX, Micro-ATX, ATX",
+   "Enclosure Type": "Mid-Tower"
+  },
+  "I/O Port": {
+   "USB 3.2 Gen 1 Type-A": "2",
+   "USB 3.2 Gen 2 Type-C": "1",
+   "Headset Audio Jack": "1"
+  },
+  "Dimensions": {
+   "Height (With Feet)": "505mm",
+   "Height (Without Feet)": "480mm",
+   "Width": "230mm",
+   "Depth": "480mm",
+   "Weight": "10.57kg"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Mini-ITX, Micro-ATX, ATX",
+  "Enclosure Type: Mid-Tower",
+  "Case Material (White): SGCC Steel, Ultra-clear Tempered Glass",
+  "Max CPU Cooler Clearance: Up to 185mm"
+ ],
+ "model": "H7 Flow RGB",
+ "fetched": "2026-11-12T18:44+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-h7-flow-rgb-atx-mid-tower-casing-white",
+ "store": "pchouse"
+}

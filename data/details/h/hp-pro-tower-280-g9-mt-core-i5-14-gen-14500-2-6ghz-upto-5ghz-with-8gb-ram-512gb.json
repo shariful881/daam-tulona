@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "HP Pro Tower 280 G9 Desktop PC",
+   "Country of Origin": "USA",
+   "Processor Speed": "Intel® Core™ i5-14500 (2.6GHz base frequency, up to 5GHz with Intel® Turbo Boost Technology, 24MB cache, 14 cores)",
+   "Cache Memory": "24MB Cache",
+   "Chipset": "Intel® H770",
+   "Memory": "8GB 5600 MHz DDR5 SDRAM; 2 DIMM slots enabling up to 64GB",
+   "Hard Drive": "512GB M.2 NVMe SSD",
+   "Graphics": "Intel® UHD Graphics 770",
+   "Optical Drive": "Without DVDRW",
+   "NIC": "LAN: Integrated 10/100/1000M GbE",
+   "Audio": "Realtek ALC3867 codec, universal audio jack with CTIA headset support, audio line-out rear ports (3.5 mm), multi-streaming capable",
+   "Port": "Front:"
+  },
+  "Rear:": {
+   "Expansion Slots": "1 full-height PCI; 2 M.2; 1 PCIe 3 x1; 1 PCIe 4 x16 (1 M.2 slot for WLAN and 1 M.2 2242/2280 slot for storage.)",
+   "Number of Bay": "One 3.5″ HDD; Two 3.5″ HDD",
+   "Monitor": "Without Monitor",
+   "Keyboard": "HP USB Standard Keyboard",
+   "Mouse": "HP USB Optical Mouse",
+   "From Factor": "Internal 180W Power Supply",
+   "Operating System": "FreeDOS",
+   "Warranty": "03 Years HP standard warranty"
+  }
+ },
+ "key_features": [
+  "Processor: Intel 14th Gen Core i5-14500 processor (2.6 GHz upto 5 GHz, 24 MB)",
+  "Memory: 8GB DDR5 RAM",
+  "Storage: 512GB SSD"
+ ],
+ "model": "HP Pro Tower 280 G9 Desktop PC",
+ "warranty": "03 Years HP standard warranty",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://smartbd.com/product/hp-pro-tower-280-g9-mt-core-i5-14-gen-14500-2-6ghz-upto-5ghz-with-8gb-ram-512gb-ssd/",
+ "store": "smartbd"
+}

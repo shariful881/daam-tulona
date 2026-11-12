@@ -1,0 +1,86 @@
+{
+ "specs": {
+  "General Information": {
+   "Features": "Speaker",
+   "Input Type": "HDMI, Audio Jack",
+   "Screen Size": "21.5 inch"
+  },
+  "Display Size": {
+   "Pixels Per Inch (PPI)": "102",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "Full HD (1920x1080)"
+  },
+  "Pixel pitch(MM)": {
+   "Display Surface": "Anti-Glare",
+   "Viewing Angle": "178°/178°",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 nits",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "60Hz",
+   "Color Support": "16.7 million color",
+   "Color Gamut": "72% NTSC",
+   "Response Time": "5ms (GtG)",
+   "Others Features": "Picture Mode:\nECO, Game, Low Blue Light, Movie, Photo, sRGB, Standard, User"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes"
+  },
+  "Free Sync Support": {
+   "Low Blue Light": "Yes",
+   "HDCP": "1.4",
+   "Color Temperature Selection": "Bluish, Normal, Reddish, User Define"
+  },
+  "Audio Features": {
+   "Speaker Details": "1Wx2",
+   "Speaker (Built In)": "Yes"
+  },
+  "Audio Jack": {
+   "Headphone Jack": "Yes",
+   "Audio Line In": "Yes"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI (v1.4) x 2"
+  },
+  "USB Type-C": {
+   "VGA": "VGAx 1"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5˚ - 20˚",
+   "Vesa Wall Mount": "100x100 mm"
+  },
+  "Current": {
+   "Power Consumption": "<0.5 W",
+   "Others": "Power Supply: Built-in",
+   "Voltage": "100 - 240V"
+  },
+  "Weight": {
+   "Net Weight (kg)": "3.7",
+   "Net Weight (lb)": "8.2",
+   "Net Weight (w/o Base) (kg)": "2.9",
+   "Net Weight (w/o Base) (lb)": "6.4"
+  },
+  "Dimensions": {
+   "Dimensions (HxWxD) (mm)": "394.4x489.5x175.1",
+   "Dimensions (HxWxD) (inch)": "15.5x19.3x6.9",
+   "Dimensions (HxWxD) (w/o Base) (mm)": "310.9x489.5x55.3",
+   "Dimensions (HxWxD) (w/o Base) (inch)": "12.2x19.3x2.2"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty (Dot Claim Benq Policy - Minimum 5)"
+  },
+  "Image": {
+   "Model": "GW2283"
+  }
+ },
+ "key_features": [
+  "Ultra Slim Bezel: Beautifully complements any modern décor. Spectacular edge-to-edge panel with ultra slim bezels and elegant profile.",
+  "Premium Texture: Resists fine scratch whirling with a luxurious touch.",
+  "Invisible Cable Management: Hides all wires inside the monitor stand for the cleanest look."
+ ],
+ "model": "GW2283",
+ "warranty": "3 Year Warranty (Dot Claim Benq Policy - Minimum 5)",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.creatus.com.bd/benq-gw2283-21-5-inch-eye-care-stylish-ips-monitor",
+ "store": "creatus"
+}

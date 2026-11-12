@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Memory": "512 MB",
+   "Processor": "666 MHz"
+  },
+  "General Information": {
+   "Color": "White",
+   "Dimensions": "Minimum dimensions (W x D x H) - 536.5 x 325.4 x 133.3 mm Maximum dimensions (W x D x H) - 536.5 x 442.6 x 387.42 mm"
+  },
+  "Scan": {
+   "Scan Resolution": "Scan resolution, optical: Up to 600 dpi (color and mono, ADF);\nUp to 1200 dpi (color and mono, flatbed) Scan resolution,\nhardware: Up to 600 x 600 dpi (color and mono, ADF);\nUp to 1200 x 1200 dpi (color and mono, flatbed)\nEnhanced scanning resolution: Up to 1200 dpi"
+  },
+  "Maximum Scan Size": {
+   "Scan size (ADF), maximum": "216 x 5362 mm Scan size,",
+   "maximum": "216 x 356 mm Scan size (ADF), minimum: 89 x 148 mm"
+  },
+  "Specification": {
+   "Model": "ScanJet Pro N4600"
+  },
+  "External Features": {
+   "Weight": "6.1kg"
+  },
+  "Print": {
+   "Technology": "ADF; CIS scanning technology; Flatbed Flatbed; Contact Image Sensor (CIS)",
+   "Duty Cycle up to (Yield)": "Recommended 6000 pages"
+  },
+  "Power": {
+   "Power": "Input Voltage: 100 to 240 VAC Power supply type: External power adapter",
+   "Power consumption": "17.4 watts (Active-Scanning), 7.5 watts (Ready), 1.9 watts (Sleep), 0.06 watts (Auto-Off), 0.06 watts (Manual-Off)"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "01 Year Warranty"
+  },
+  "Image": {
+   "Model": "ScanJet Pro N4600"
+  }
+ },
+ "key_features": [
+  "Resolution: ADF:600 dpi/Flatbed 1200 dpi",
+  "Bit depth: 24-bit (external), 48-bit (internal)",
+  "Capacity: Standard, 100 sheets"
+ ],
+ "model": "ScanJet Pro N4600",
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.creatus.com.bd/hp-scanjet-pro-n4600-fnw1-wireless-network-scanner",
+ "store": "creatus"
+}

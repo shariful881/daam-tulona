@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen3 x4",
+   "Write Speed": "1800MB/s",
+   "Type": "Internal SDD",
+   "Read Speed": "3500MB/s"
+  },
+  "Storage": {
+   "Storage Type": "512GB"
+  },
+  "Physical Specification": {
+   "Weight": "7 gm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  },
+  "Image": {
+   "Model": "Wave P Series 512GB"
+  }
+ },
+ "key_features": [
+  "Storage: 256GB",
+  "Interface: NVMe PCIe Gen3 x4",
+  "Read Speed (Max.): 2500MB/s",
+  "Write Speed (Max.): 1800MB/s"
+ ],
+ "model": "Wave P Series 512GB",
+ "warranty": "5 Year",
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.creatus.com.bd/hiksemi-wave-p-series-512gb-ssd",
+ "store": "creatus"
+}

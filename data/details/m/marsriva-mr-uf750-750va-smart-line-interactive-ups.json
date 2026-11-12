@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Display": {
+   "Display Type": "LCD"
+  },
+  "Key Features": {
+   "Capacity": "750VA",
+   "Load Capacity": "375W"
+  },
+  "UPS & IPS Feature": {
+   "Frequency (Battery Mode)": "50Hz/60Hz",
+   "Input Voltage Range": "220V ~ 240V"
+  },
+  "Ups For Wifi Router": {
+   "Output Voltage (Optional)": "220V ~ 240V"
+  },
+  "Features": {
+   "Weight": "2.10 kg"
+  },
+  "Input": {
+   "Frequency Range": "50Hz/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Capacity: 750VA / 375W",
+  "Output Voltage: 220V ~ 240V",
+  "Topology: Line-Interactive"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/marsriva-mr-uf750-750va-smart-line-interactive-ups",
+ "store": "pchouse"
+}

@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Performance": {
+   "Processor": "Intel Core i7-13620H, 10C (6P + 4E) / 16T, P-core up to 4.9GHz, E-core up to 3.6GHz, 24MB",
+   "Graphics": "Integrated Intel UHD Graphics",
+   "Chipset": "Intel SoC Platform",
+   "Memory": "1x 16GB SO-DIMM DDR5-5200",
+   "Memory Slots": "Two DDR5 SO-DIMM slots, dual-channel capable",
+   "Max Memory": "Up to 16GB DDR5-5200",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0×4 NVMe",
+   "Optane Memory": "None",
+   "Storage Support": "One drive, up to 1TB M.2 SSD",
+   "Card Reader": "None",
+   "Optical": "None",
+   "Audio Chip": "High Definition (HD) Audio, Realtek ALC233-CG codec",
+   "Speakers": "3Wx2, HARMAN",
+   "Camera": "5.0MP + IR",
+   "Microphone": "Dual Microphone",
+   "Power Supply": "90W 89% Adapter"
+  },
+  "Design": {
+   "Display": "23.8″ FHD (1920×1080) IPS Anti-glare 250nits, 100Hz, 99% sRGB, hardware low blue light, 3-side borderless, non-touch",
+   "Touchscreen": "None",
+   "Keyboard": "Wireless EOS Keyboard, Luna Grey, English",
+   "Mouse": "Wireless EOS Mouse, Luna Grey",
+   "Expansion Slots": "Two M.2 slots (one for WLAN, one for SSD)",
+   "Case Color": "Luna Grey",
+   "Stand": "AIO Stand",
+   "Wireless Charger": "None",
+   "Form Factor": "AIO (23.8 inches)",
+   "Dimensions (WxDxH)": "540 x 192 x 431 mm (21.25 x 7.56 x 16.97 inches)",
+   "Weight": "Around 6.0 kg (13.23 lbs)"
+  },
+  "Connectivity": {
+   "Ethernet": "Integrated 100/1000M",
+   "WLAN + Bluetooth": "Wi-Fi 6, 802.11ax 2×2 + BT5.2",
+   "Rear Ports": "1x USB-A (USB 10Gbps / USB 3.2 Gen 2)\n2x USB-A (Hi-Speed USB / USB 2.0)\n1x HDMI-in 1.4\n1x HDMI-out 2.1 TMDS\n1x Ethernet (RJ-45)\n1x power connector",
+   "Left Ports": "1x USB-C (USB 10Gbps / USB 3.2 Gen 2), data transfer only\n1x headphone / microphone combo jack (3.5mm)"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 integrated in SoC"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR 8.0\nErP Lot 3 and Lot 7\nGREENGUARD\nRoHS / WEEE / REACH",
+   "Other Certifications": "TÜV Rheinland Flicker Free\nTÜV Rheinland Low Blue Light\nTÜV Rheinland Ultra Low Noise"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7 13th Gen 13620H",
+  "Memory : 16GB DDR5, 512GB SSD",
+  "Display : 23.8″ FHD (1920×1080) IPS Anti-glare 250nits",
+  "Features: Wi-Fi 6, Bluetooth 5.2, USB 3.2, HDMI 1.4, 3.5mm combo jack"
+ ],
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-12T18:20+06:00",
+ "source": "https://smartbd.com/product/lenovo-idea-centre-aio-3-24irh9-intel-core-i7-13th-gen-23-8-inch-fhd-all-in-one-desktop-pc/",
+ "store": "smartbd"
+}

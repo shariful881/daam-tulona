@@ -1,0 +1,71 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "82VG00UHIN"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 3 7320U (4C / 8T, 2.4 / 4.1GHz, 2MB L2 / 4MB L3)",
+   "Graphics": "Integrated AMD Radeon™ 610M Graphics",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "16GB Soldered LPDDR5-5500",
+   "Memory Slots": "Memory soldered to systemboard, no slots, dual-channel",
+   "Max Memory": "16GB soldered memory, not upgradable",
+   "Storage": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "One M.2 2280 PCIe® 3.0 x2 slot",
+   "Max Storage Support": "One drive, up to 1TB M.2 2242 SSD",
+   "Optical": "None",
+   "Card Reader": "SD Card Reader",
+   "Audio Chip": "High Definition (HD) Audio",
+   "Speakers": "Stereo speakers, 1.5W x2, Dolby Audio™",
+   "Microphone": "2x, Array",
+   "Camera": "HD 720p with Privacy Shutter",
+   "Battery": "42Wh",
+   "Power Adapter": "65W Round Tip (3-pin)"
+  },
+  "Design": {
+   "Display": "15.6″ FHD (1920×1080) IPS 250nits Anti-glare",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "87% AAR (active area ratio)",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "Non-backlit, English (EU)",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 69 x 104 mm (2.72 x 4.09 inches)",
+   "Dimensions (WxDxH)": "360.2 x 236 x 17.9 mm (14.18 x 9.29 x 0.70 inches)",
+   "Weight": "Starting at 1.58 kg (3.48 lbs)",
+   "Case Color": "Cloud Grey",
+   "Case Material": "PC-ABS (Top), PC-ABS (Bottom)",
+   "Surface Treatment": "IMR (In-Mold Decoration by Roller)"
+  },
+  "Software": {
+   "Operating System": "None",
+   "Bundled Software": "None"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 6, 802.11ax 2×2 + BT5.2",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "No Onboard Ethernet",
+   "Standard Ports": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer only), 1x HDMI® 1.4b, 1x Headphone / microphone combo jack (3.5mm), 1x Card reader, 1x Round tip power connector"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "Camera privacy shutter"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ErP Lot 3, RoHS compliant"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 3 7320U (2.4GHz up to 4.1GHz, 4 cores)",
+  "Ram: 16GB DDR5, Storage: 512GB SSD",
+  "Display: 15.6″ FHD (1920×1080)",
+  "Features: Type-C, Dolby Audio"
+ ],
+ "model": "82VG00UHIN",
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-12T18:20+06:00",
+ "source": "https://smartbd.com/product/lenovo-ideapad-1-15amn7-82vg00uhin-amd-ryzen-3-7320u-15-6-inch-fhd-laptop/",
+ "store": "smartbd"
+}

@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5, support for:\nAMD Ryzen 9000, 8000, 7000 Series Processors",
+   "Chipset": "AMD X870",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Mini-ITX Form Factor; 17.0cm x 17.0cm",
+   "Audio": "Realtek ALC4080 CODEC\nHigh Definition Audio\n2-channel"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express x16 slot, integrated in the CPU:\nAMD Ryzen 9000/7000 Series Processors support PCIe 5.0 x16 mode\nAMD Ryzen 8000 Series-Phoenix 1 Processors support PCIe 4.0 x8 mode\nAMD Ryzen 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4 mode"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DDR5 DIMM",
+   "Supported Memory": "Support for DDR5 8400(OC) / 8200(OC) / 8000(OC) / 7800(OC) / 7600(OC) / 7200(OC) / 7000(OC) / 6800(OC) / 6666(OC) / 6600(OC) / 6400(OC) / 6200(OC) / 6000(OC) / 5600(OC) / 5200 / 4800 / 4400 MT/s memory modules",
+   "Maximum Memory": "up to 128 GB (64 GB single DIMM capacity)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for NVMe SSD storage devices\nRAID 0 and RAID 1 support for SATA storage devices",
+   "Audio": "Realtek ALC4080 CODEC\nHigh Definition Audio\n2-channel",
+   "Wireless Communication module": "Realtek Wi-Fi 7 RTL8922AE\n- 802.11a, b, g, n, ac, ax, be, supporting 2.4/5/6 GHz carrier frequency bands\n- BLUETOOTH 5.4\n- Support for 11be 160MHz wireless standard"
+  },
+  "Others": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)\n* Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.\nSupport for Q-Flash\nSupport for Q-Flash Plus\nSupport for Smart Backup",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000 / 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 2x DDR5, Max 128GB",
+  "Graphics Output: 1 x USB4 (Type-C) , 1 x HDMI",
+  "Features: Realtek 2.5GbE LAN, Wi-Fi 7, Bluetooth 5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-x870i-aorus-pro-ice-atx-motherboard",
+ "store": "pchouse"
+}

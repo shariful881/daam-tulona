@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS Silver",
+   "Efficiency (Approx.)": "90% at typical load (230V EU)",
+   "Continuous Power": "550W",
+   "Fan Size": "120mm",
+   "MTBF": ">100,000 hours",
+   "Watt": "550W",
+   "Temperature": "0°C to +50°C",
+   "Humidity": "5% - 95% Non-condensing"
+  },
+  "Input": {
+   "Voltage": "155-240 Vac",
+   "Frequency Range": "50-60 Hz",
+   "Current": "6.3A"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "550W",
+   "Peak Power": "550W",
+   "AC Input": "155-240 Vac",
+   "DC Output": "550W"
+  },
+  "Connector": {
+   "Main Power": "ATX/MB 20+4 Pin x 1 : 600mm1",
+   "PCI-E": "PCI-e 6+2 Pin x 2 : 600mm+120mm*1",
+   "CPU": "CPU/EPS 4+4 Pin x 1 : 650mm1",
+   "SATA": "SATA x 5 (On two cables)",
+   "Molex": "4 Pin Peripheral x 3 (On two cables)",
+   "Floppy": "No"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "GP-P550SS"
+  }
+ },
+ "key_features": [],
+ "model": "GP-P550SS",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-12T18:57+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-gp-p550ss-550w-80-plus-silver-power-supply",
+ "store": "creatus"
+}

@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "80 Plus Platinum",
+   "Lighting Effect": "ARGB Lighting with Aura Sync"
+  },
+  "Input": {
+   "Voltage": "100-240Vac",
+   "Current": "30A\t25A\t133.3A 0.3A 3A"
+  },
+  "Output": {
+   "Modular Type": "Fully modular",
+   "Total Power": "1200W",
+   "AC Input": "100-240Vac",
+   "DC Output": "+3.3V +5V +12V -12V +5Vsb"
+  },
+  "Connector": {
+   "Main Power": "MB 24/20-pin x 1",
+   "CPU": "CPU 4+4-pin x 2",
+   "PCI-E": "PCI-E 6+2-pin x 4\nPCI-E 16-pin x 2",
+   "SATA": "SATA x 7",
+   "Molex": "PERIPHERAL x 6"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1200W, GaN MOSFET, Aura Sync",
+  "Efficiency: 80 Plus Platinum, Dual-Ball-Fan Bearing",
+  "Magnetic OLED Display, ATX 3.1 & PCIe Gen 5.1 Ready",
+  "ROG Heatsinks, Fully Aluminum Enclosure"
+ ],
+ "price": 67000,
+ "regular": 72480,
+ "status": "In Stock",
+ "code": "50114",
+ "brand": "Asus",
+ "mpn": "90YE00V2-B0NA00",
+ "model": "ROG THOR 1200W Platinum III",
+ "warranty": "10 Years",
+ "name": "ASUS ROG THOR 1200W Platinum III 80 Plus Platinum Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Asus",
+  "ASUS ROG THOR 1200W Platinum III 80 Plus Platinum Power Supply"
+ ],
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-thor-1200w-platinum-iii-power-supply",
+ "store": "startech"
+}

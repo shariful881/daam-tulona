@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface": "Type-C 3.2 Gen 2x2",
+   "Sequential R/W": "Read Speeds up to 2000 MB/s\nWrite Speeds up to 1800 MB/s",
+   "Others": "Bus Powered\nLexar DataShield 256-Bit AES Encryption\nEnhanced Heat Dissipation\nIP54 Rated for Dust and Water\nDrop Resistant up to 6.6'\nWindows, Mac, iOS, Android Compatible"
+  },
+  "Physical Specification": {
+   "Dimension": "85mm x 54mm x 7.8mm(The thinnest part is 4.8mm)",
+   "Weight": "43g",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 50°C (32°F to 122°F)",
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 1TB, up to 6.6' Drop Resistant",
+  "Interface: Type-C 3.2 Gen 2x2, Enhanced Heat Dissipation",
+  "Read Speeds: up to 2000 MB/s, Write Speeds: up to 1800 MB/s",
+  "IP54 Rated for Dust and Water, Lexar DataShield 256-Bit AES Encryption"
+ ],
+ "price": 26500,
+ "regular": 28640,
+ "status": "In Stock",
+ "code": "47885",
+ "brand": "Lexar",
+ "model": "SL500",
+ "warranty": "3 years",
+ "name": "Lexar SL500 1TB Type-C 3.2 Gen 2x2 Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Lexar",
+  "Lexar SL500 1TB Type-C 3.2 Gen 2x2 Portable SSD"
+ ],
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://www.startech.com.bd/lexar-sl500-1tb-portable-ssd",
+ "store": "startech"
+}

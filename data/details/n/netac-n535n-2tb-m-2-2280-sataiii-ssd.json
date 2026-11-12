@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "M.2 SATAIII",
+   "Sequential R/W": "Read Speed: Up to 560MB/s\nWrite Speed: Up to 520MB/s",
+   "Others": "Voltage: 3.3V"
+  },
+  "Physical Specification": {
+   "Dimension": "80*22mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃-70℃",
+   "Storage Temperature": "-40℃-85℃"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Interface: SATAIII 6Gb/s",
+  "Capacity: 2TB",
+  "Read Speed: Up to 560MB/s",
+  "Write Speed: Up to 520MB/s"
+ ],
+ "status": "Out Of Stock",
+ "code": "33189",
+ "brand": "Netac",
+ "mpn": "NT01N535N-002T-N8X",
+ "model": "N535N",
+ "warranty": "3 Years",
+ "name": "Netac N535N 2TB M.2 2280 SATAIII SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac N535N 2TB M.2 2280 SATAIII SSD"
+ ],
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.startech.com.bd/netac-n535n-2tb-m-2-sataiii-ssd",
+ "store": "startech"
+}

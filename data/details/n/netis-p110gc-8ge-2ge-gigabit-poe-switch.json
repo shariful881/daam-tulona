@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Main Features": {
+   "Interface": "8×10/100/1000Mbps POE ports（Data/Power\n2×10/100/1000Mbpsuplink RJ45 ports (Data)",
+   "Port": "10",
+   "MAC Address Table": "8K",
+   "Environment": "Operation Temperature：0℃～40℃\nStorage Temperature：-40℃～70℃"
+  },
+  "Data Transmission Rate": {
+   "Etherent": "10Mbps(Half-duplex);20Mbps(Full-duplex)",
+   "Fast Entherent": "100Mbps(Half-duplex);200Mbps(Full-duplex)",
+   "Gigabit Ethernet": "2000Mbps(Full-duplex)"
+  },
+  "Power": {
+   "Power Supply": "DC 9V/500mA(Output)"
+  },
+  "Physical Specification": {
+   "Dimensions": "190mm*140mm*43mm"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year Warranty"
+  },
+  "Image": {
+   "Model": "P110GC"
+  },
+  "Product List": {
+   "Best Switch price list in bd": "Price",
+   "Netis P110C 8POE+2RJ45 100M Standard POE Switch": "3,550৳",
+   "Netis ST3105c 5 Port Fast Ethernet Switch": "640৳",
+   "Netis P106C 4POE+2RJ45 100M Standard POE Switch": "2,250৳",
+   "Netis ST3108GC 8 Port Gigabit Ethernet Switch": "2,450৳",
+   "Netis P116GH 16-Port Unmanaged POE Switch": "15,500৳",
+   "Netis ST3116P 16 Port Fast Ethernet Switch": "2,000৳",
+   "Netis P124GH 24-Port Unmanaged POE Switch": "24,500৳"
+  }
+ },
+ "key_features": [
+  "Ports: 8 PoE, 2 uplink",
+  "Capacity: 20G",
+  "PoE Power: 30W/port",
+  "Size: 190x140x43 mm"
+ ],
+ "model": "P110GC",
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.creatus.com.bd/netis-p110gc-8ge-2ge-gigabit-poe-switch",
+ "store": "creatus"
+}

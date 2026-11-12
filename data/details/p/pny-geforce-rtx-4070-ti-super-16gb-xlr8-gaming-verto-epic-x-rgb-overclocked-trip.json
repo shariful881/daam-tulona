@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6X",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320 @60Hz (Digital)",
+   "Memory Clock": "21Gbps",
+   "BUS Type": "PCI-Express 4.0 x16",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8448",
+   "Stream Processors": "NVIDIA Ampere Streaming Multiprocessors"
+  },
+  "Core Clock": {
+   "Clock Speed": "2340 MHz",
+   "Boost Speed": "2655 MHz"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 1.4a",
+   "HDMI": "1x HDMI 2.1",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Consumption": "TDP: 220 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "13.1\" x 5.37\" x 2.62\"; 3.3 slot"
+  },
+  "Warranty": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2340 MHz, Boost Speed: 2655 MHz",
+  "Memory: 16GB GDDR6X",
+  "Memory Interface: 256-bit",
+  "Outputs: 3x DisplayPort 1.4a, 1x HDMI 2.1"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:45+06:00",
+ "source": "https://www.pchouse.com.bd/pny-geforce-rtx-4070-ti-super-16gb-xlr8-graphics-card",
+ "store": "pchouse"
+}

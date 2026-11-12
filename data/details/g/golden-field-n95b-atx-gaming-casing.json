@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Case Type": {
+   "Front Panel": "MESH Front Panel",
+   "Tempered  Glass Panel": "Tempered Glass Left Side Panel",
+   "Motherboard Support": "ATX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Dimensions": "360*200*446mm",
+   "Expansion Slots": "7x",
+   "Fan Support": "Expand up to 8*120mm Fan",
+   "Pre- Installed Fans": "Pre-Installed 3*120mm ARGB FAN",
+   "I/O Port": "USB 3.0*1 & USB 2.0*1 & HD Audio"
+  },
+  "Additional Feature": {
+   "PSU": "Standard PSU Included"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "305mm",
+   "Maximum Graphics Card Length": "160mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: ATX",
+  "I/O Ports: USB 3.0x1, USB 2.0x1, HD Audio",
+  "Pre-Installed Fans: 3 x 120mm ARGB Fan",
+  "GPU Maximum Support 160mm, CPU Radiator Height 305mm"
+ ],
+ "price": 3200,
+ "regular": 3520,
+ "status": "In Stock",
+ "code": "50253",
+ "brand": "Golden Field",
+ "model": "N95B",
+ "warranty": "No Warranty",
+ "name": "Golden Field N95B ATX Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Golden Field",
+  "Golden Field N95B ATX Gaming Casing"
+ ],
+ "fetched": "2026-11-12T18:01+06:00",
+ "source": "https://www.startech.com.bd/golden-field-n95b-casing-with-psu",
+ "store": "startech"
+}

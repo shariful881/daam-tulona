@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "500~2150 RPM±10%",
+   "Air Flow": "55 CFM",
+   "Air Pressure": "2.82 mmAq",
+   "Noise (dBA)": "≤32 dB(A)",
+   "Bearing Type": "Fluid Dynamic Bearing",
+   "LED Type": "Addressable RGB LED",
+   "Input Current": "0.15 A",
+   "Operating Voltage/Power Range": "Fan Rated Voltage: 12 VDC\nLED Rated Voltage: 5V DC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120×120×25 mm(L×W×H)",
+   "Weight": "166 g",
+   "Connector": "Fan Connector 4-Pin PWM\nLED Connector: 3-pin(+5V-D-G)"
+  },
+  "Others": {
+   "Others": "Fan Power Consumption: 1.8 W\nLED Power Consumption: 2.75 W"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~2150 RPM±10%",
+  "Fan Airflow: 55 CFM, Fan Noise: ≤32 dB(A)",
+  "Fan Air Pressure: 2.82 mmAq, LED Type: ARGB LED",
+  "Bearing Type: Fluid Dynamic Bearing, Connector: 4-pin PWM"
+ ],
+ "price": 23502550,
+ "regular": 2710,
+ "status": "In Stock",
+ "code": "46206",
+ "brand": "Deepcool",
+ "mpn": "R-FL12-BKAPN1-G",
+ "model": "FL12",
+ "warranty": "03 year warranty",
+ "name": "DeepCool FL12 ARGB 120mm Case Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Deepcool",
+  "DeepCool FL12 ARGB 120mm Case Fan"
+ ],
+ "fetched": "2026-11-12T17:57+06:00",
+ "source": "https://www.startech.com.bd/deepcool-fl12-argb-case-fan",
+ "store": "startech"
+}

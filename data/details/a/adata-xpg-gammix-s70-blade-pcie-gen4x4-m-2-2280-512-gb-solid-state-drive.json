@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Interface": "PCIe Gen4x4",
+   "Flash Type": "3D NAND",
+   "MTBF": "2,000,000 hours",
+   "Sequential R/W": "Sequential Read (Max*): Up to 7400MB/s (PC/Laptop),\nUp to 6300MB/s (PS5)\nSequential Write (Max*): Up to 6800MB/s",
+   "TBW": "2960TB"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C - 70°C",
+   "Storage Temperature": "-40°C - 85°C",
+   "Shock resistance": "1500G / 0.5ms"
+  },
+  "Physical Specification": {
+   "Weight": "10g / 0.35oz (with heatsink),\n7g / 0.24oz (without heatsink)",
+   "Dimensions": "80 x 22 x 4.3mm / 3.15 x 0.87 x 0.17inch (with heatsink),\n80 x 22 x 3.3mm / 3.15 x 0.87 x 0.12inch (without heatsink)",
+   "Others": "4KB Random Read IOPS(Max*): Up to 750K\n4KB Random Write IOPS(Max*): Up to 750K"
+  },
+  "Warranty Information": {
+   "Warranty": "5-year limited warranty"
+  },
+  "Image": {
+   "Model": "XPG GAMMIX S70"
+  },
+  "Product List": {
+   "Adata SSD Price List in BD": "Price"
+  }
+ },
+ "key_features": [],
+ "model": "XPG GAMMIX S70",
+ "warranty": "5-year limited warranty",
+ "fetched": "2026-11-12T18:47+06:00",
+ "source": "https://www.creatus.com.bd/adata-xpg-gammix-s70-blade-pcie-gen4x4-512-gb-solid-state-drive",
+ "store": "creatus"
+}

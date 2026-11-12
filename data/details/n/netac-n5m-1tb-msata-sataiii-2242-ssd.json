@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2242",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "mSATA",
+   "Sequential R/W": "Read Speed: Up to 560MB/s\nWrite Speed: Up to 520MB/s"
+  },
+  "Physical Specification": {
+   "Weight": "About 8g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃-70℃",
+   "Storage Temperature": "-40℃-85℃"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Interface: mSATA SATA Ⅲ",
+  "Capacity: 1TB",
+  "Transmission Bandwidth: 6Gb/s",
+  "Operating Voltage: 3.3V"
+ ],
+ "price": 1450015800,
+ "regular": 17140,
+ "status": "In Stock",
+ "code": "33184",
+ "brand": "Netac",
+ "mpn": "NT01N5M-001T-M3X",
+ "model": "N5M",
+ "warranty": "3 Years",
+ "name": "Netac N5M 1TB mSATA SATAIII 2242 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac N5M 1TB mSATA SATAIII 2242 SSD"
+ ],
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.startech.com.bd/netac-n5m-1tb-msata-ssd",
+ "store": "startech"
+}

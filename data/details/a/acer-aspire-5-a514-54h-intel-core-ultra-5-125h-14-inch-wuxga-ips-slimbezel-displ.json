@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel® Core™ Ultra 5 125H processor",
+   "Processor Model": "Intel® Core™ Ultra 5 125H processor",
+   "Frequency": "up to 4.5 GHz",
+   "Generation": "Intel® Core™ Ultra"
+  },
+  "Display": {
+   "Display Size (Inch)": "14.0″",
+   "Display Type": "14.0″ display with IPS (In-Plane Switching) technology, WUXGA 1920 x 1200, Acer ComfyView™ LED-backlit TFT LCD",
+   "Display Resolution": "1920 x 1200"
+  },
+  "Memory": {
+   "RAM": "Single-channel LPDDR5 SDRAM support\n16 GB of onboard LPDDR5 system memory",
+   "SSD": "512 GB, PCIe Gen4, NVMe, expandable up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel® UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD camera, 1080p HD video resolution",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "Yes",
+   "USB 3 Port": "3 x USB 3.2 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB3.2 Port": "No",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "Yes",
+   "WiFi": "802.11a/b/g/n/ac+ax wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.1 or above"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home+MSO"
+  },
+  "Battery": {
+   "Battery Type": "53.8Wh Li-ion battery",
+   "Battery Capacity": "3-pin 65 W AC adapter"
+  },
+  "Others": {
+   "Color": "Pure Silver",
+   "Dimensions": "312.5 (W) x 218.5 (D) x 17.5 (H) mm",
+   "Weight": "1.2 kg",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 5-125H (8M Cache, 2.50 GHz up to 4.50 GHz)",
+  "RAM: 16GB LPDDR5, Storage: 512GB SSD",
+  "Graphics: Intel UHD Graphics",
+  "Features: Backlit Keyboard, Type-C"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-5-a514-54h-intel-core-ultra-5-125h-14-inch-wuxga-ips-slimbezel-display-laptop/",
+ "store": "smartbd"
+}

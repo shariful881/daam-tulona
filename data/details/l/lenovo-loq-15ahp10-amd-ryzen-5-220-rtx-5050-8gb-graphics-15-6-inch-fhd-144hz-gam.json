@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83JG005BLK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 5 220 (6C / 12T, 3.2 / 4.9GHz, 6MB L2 / 16MB L3)",
+   "AI PC Category": "AI-Powered Gaming PC",
+   "NPU": "None",
+   "Graphics": "NVIDIA GeForce RTX™ 5050 8GB GDDR7, Boost Clock 2662MHz, TGP 100W, 440 AI TOPS",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "1x 16GB SODIMM DDR5-5600",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5600 offering",
+   "Storage": "1TB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Two M.2 2280 PCIe® 4.0 x4 slots",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 1TB each",
+   "Optical": "None",
+   "Card Reader": "No Card Reader",
+   "Audio Chip": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+   "Speakers": "Stereo speakers, 2W x2, optimized with Nahimic Audio",
+   "Microphone": "2x, Array",
+   "Camera": "5.0MP with E-shutter",
+   "Battery": "60Wh",
+   "Power Adapter": "170W Slim Tip (3-pin)",
+   "Special Features": "AI Chip: LA1"
+  },
+  "Design": {
+   "Display": "15.6″ FHD (1920×1080) IPS 300nits Anti-glare, 100% sRGB, 144Hz, G-SYNC®",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "88% AAR (active area ratio)",
+   "Color Calibration": "No Color Calibration",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "White Backlit, English (EU)",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "359.86 x 258.7 x 21.9-23.9 mm (14.17 x 10.19 x 0.86-0.94 inches)",
+   "Weight": "Starting at 2.4 kg (5.29 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "PC-ABS (Top), PC-ABS (Bottom)",
+   "Surface Treatment": "Painting"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Trial"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 6, 802.11ax 2×2 + BT5.3",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "100/1000M (RJ-45)",
+   "Standard Ports": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with USB PD 65-100W and DisplayPort™ 1.4, 1x HDMI® 2.1, up to 8K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Slim tip Power connector"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "E-shutter"
+  },
+  "Service": {
+   "Base Warranty": "2years standard warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ErP Lot 6/26, RoHS compliant",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Software Solution)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 220 (6C / 12T, 3.2 / 4.9GHz, 6MB L2 / 16MB L3)",
+  "RAM: 16GB DDR5-5600, Storage: 1TB SSD",
+  "Graphics: GeForce RTX 5050 8GB GDDR7, Boost Clock 2662MHz",
+  "Features: White Backlit Keyboard, E-shutter, Wi-Fi 6, G-SYNC, FreeDOS"
+ ],
+ "model": "83JG005BLK",
+ "warranty": "2years standard warranty",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://smartbd.com/product/lenovo-loq-15ahp10-amd-ryzen-5-220-rtx-5050-8gb-graphics-15-6-inch-fhd-144hz-gaming-laptop/",
+ "store": "smartbd"
+}

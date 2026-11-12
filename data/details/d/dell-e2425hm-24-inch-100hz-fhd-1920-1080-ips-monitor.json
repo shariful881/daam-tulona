@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "E2425HM",
+   "Monitor": "Dell Pro 24 Monitor – E2425HM",
+   "Diagonal Viewing Size": "604.7 mm (23.8 inches)",
+   "Maximum Preset Resolution": "1920 x 1080 at 100 Hz",
+   "Aspect Ratio": "16:09",
+   "Pixel Pitch": "0.2745 mm x 0.2745 mm",
+   "Pixel Per Inch (PPI)": "93",
+   "Brightness": "250 cd/m² (typical)",
+   "Color gamut": "NTSC 72% (CIE 1931) (minimum)",
+   "Color depth": "16.7 million colors",
+   "Contrast Ratio": "1000:1 (typical)",
+   "Viewing Angle": "178°/178°",
+   "Response Time": "5 ms typical (Fast) (gray to gray)",
+   "Panel Type": "In-Plane Switching Technology (IPS)",
+   "Display Screen Coating": "Anti-Glare",
+   "Backlight Technology": "LED edgelight system",
+   "ComfortView Plus with Flicker-free screen": "Yes",
+   "Dell Display Manager Compatibility": "Yes",
+   "Remote Asset Management": "Yes, via Dell Command I Monitor",
+   "GSA/TAA": "Yes",
+   "Optional Soundbar": "SB521A",
+   "Connectors": "1 x HDMI 1.4 (HDCP 1.4)"
+  },
+  "1 x VGA": {
+   "HDCP Support": "HDMI HDCP 1.4"
+  },
+  "Dp Hdcp 1.4": {
+   "ADJUSTABILITY": "Tilt -5°/+21°",
+   "Flat Panel Mount Interface": "VESA (100 mm x 100 mm)",
+   "AC input voltage/frequency/current": "100 VAC to 240 VAC/50 Hz or 60 Hz ± 3 Hz/0.7A",
+   "Power Consumption (Operational)": "0.30 W (Off mode)"
+  },
+  "28.50 W (Max.)": {
+   "Power Consumption Stand by / Sleep": "Less than 0.30 W",
+   "Dimensions (with stand) Height": "412.35 mm (16.23 in.",
+   "Dimensions (with stand) Width": "538.64 mm (21.21 in.)",
+   "Dimensions (with stand)Depth": "171.00 mm (6.73 in.)",
+   "WEIGHT WITH STAND ASSEMBLY AND CABLES": "3.60 kg (7.94 lbs)",
+   "WEIGHT WITHOUT STAND ASSEMBLY (WITHOUT CABLES)": "2.81 kg (6.19 lbs)",
+   "Weight (with packaging)": "5.18 kg (11.42 lbs)",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 5ms GTG (Fast)",
+  "Connectivity: 1x DisplayPort, 1x HDMI, 1x VGA",
+  "Features: Flicker Free, Low Blue Light"
+ ],
+ "model": "E2425HM",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://smartbd.com/product/dell-e2425hm-24-inch-100hz-fhd-1920x1080-ips-monitor/",
+ "store": "smartbd"
+}

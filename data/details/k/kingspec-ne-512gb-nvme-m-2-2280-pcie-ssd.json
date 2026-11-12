@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 3x4",
+   "Sequential R/W": "Read: 1500 - 2000 MB/s, Write: 1000 - 1300 MB/s"
+  },
+  "Weight": {
+   "Dimensions": "L 80mm x W 22mm x H 2.1mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "NE 512GB"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Form Factor: M.2 2280",
+  "Interface: PCIe Gen 3x4",
+  "Sequential R/W: Up to 2000/1300 MB/s"
+ ],
+ "model": "NE 512GB",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-ne-512gb-nvme-m2-pcie-ssd",
+ "store": "creatus"
+}

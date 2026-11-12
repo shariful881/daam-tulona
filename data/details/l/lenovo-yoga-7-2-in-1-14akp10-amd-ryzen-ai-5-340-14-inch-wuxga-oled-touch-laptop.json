@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83JR0073LK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ AI 5 340 (6C / 12T, 2.0 / 4.8GHz, 6MB L2 / 16MB L3)",
+   "AI PC Category": "Copilot+ PC",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 50 TOPS",
+   "Graphics": "Integrated AMD Radeon™ 840M Graphics",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "24GB Soldered LPDDR5x-7500",
+   "Memory Slots": "Memory soldered to systemboard, no slots, dual-channel",
+   "Max Memory": "24GB soldered memory, not upgradable",
+   "Storage": "1TB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "One M.2 2242 PCIe® 4.0 x4 slot",
+   "Max Storage Support": "One drive, up to 1TB M.2 2242 SSD",
+   "Card Reader": "microSD Card Reader",
+   "Audio Chip": "High Definition (HD) Audio, Realtek® ALC3306 codec",
+   "Speakers": "4 stereo speakers, 2W x2 (woofers), 2W x2 (tweeters), optimized with Dolby Atmos®, Smart Amplifier (AMP)",
+   "Microphone": "4x, Array",
+   "Camera": "5.0MP + IR with Privacy Shutter",
+   "Battery": "70Wh",
+   "Power Adapter": "65W USB-C® Slim (2-pin, Wall-mount)"
+  },
+  "Design": {
+   "Display": "14″ WUXGA (1920×1200) OLED 600nits (peak) / 400nits (typical) Glossy / Anti-fingerprint, 100% DCI-P3, 60Hz, Dolby Vision®, TÜV Low Blue Light, DisplayHDR™ True Black 500, Glass, Touch",
+   "Touchscreen": "OGM, 10-point Multi-touch",
+   "Screen-to-Body Ratio": "89.52% AAR (active area ratio)",
+   "Color Calibration": "No Color Calibration",
+   "Pen": "Lenovo® Yoga® Pen (Seashell)",
+   "Keyboard": "Backlit, English (EU)",
+   "Touchpad": "Buttonless glass-like Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "317 x 228 x 15.45 mm (12.48 x 8.98 x 0.61 inches)",
+   "Weight": "Starting at 1.38 kg (3.04 lbs)",
+   "Case Color": "Seashell",
+   "Case Material": "Aluminium (Top), Aluminium (Bottom)",
+   "Surface Treatment": "Aluminium Stamping (Anodized with Sandblasting)"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Home 2024"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 7, 802.11be 2×2 + BT5.4",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "No Onboard Ethernet",
+   "Standard Ports": "1x USB-A (USB 5Gbps), Always On, 1x USB-C® (USB 10Gbps), with USB PD 45-65W and DisplayPort™ 1.4a, 1x USB-C® (USB 10Gbps), with USB PD 45-65W and DisplayPort™ 2.1 UHBR10, 1x HDMI® 2.1, up to 4K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x microSD card reader"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Microsoft® Pluton TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "Camera privacy shutter, IR camera for Windows® Hello (facial recognition)"
+  },
+  "Service": {
+   "Base Warranty": "2years standard warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "Carbon Neutral Certified, ENERGY STAR® 9.0, EPEAT™ Gold Registered, ErP Lot 6/26, RoHS compliant",
+   "Mil-Spec Test": "MIL-STD-810H military test passed (21 test items)",
+   "Other Certifications": "Models with 2.8K or WUXGA OLED panel:\nTÜV Rheinland® Low Blue Light (Hardware Solution)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen AI 5 340 (6C / 12T, 2.0 / 4.8GHz, 6MB L2 / 16MB L3)",
+  "RAM: 24GB LPDDR5x-7500, Storage: 1TB M.2 2242 PCIe 4.0×4 NVMe SSD",
+  "Display: 14″ WUXGA (1920×1200) OLED, 60Hz, Dolby Vision, Glass, Touch",
+  "Features: Backlit Keyboard, Privacy Shutter, Wi-Fi 7, Military Grade"
+ ],
+ "model": "83JR0073LK",
+ "warranty": "2years standard warranty",
+ "fetched": "2026-11-12T18:23+06:00",
+ "source": "https://smartbd.com/product/lenovo-yoga-7-2-in-1-14akp10-amd-ryzen-ai-5-340-14-inch-wuxga-oled-touch-laptop/",
+ "store": "smartbd"
+}

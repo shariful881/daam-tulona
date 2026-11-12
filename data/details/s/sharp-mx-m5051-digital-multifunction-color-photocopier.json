@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Display": "10.1-Inch Colour LCD Touchscreen",
+   "Color": "White",
+   "Fax Resolution": "203,2 X 97,8, 406,4 X 391",
+   "Zoom": "25% To 400% (25% To 200% Using RSPF) In 1% Increments",
+   "Warmup Time": "16 Sec.",
+   "Paper Sizes": "Max. A3W (12\" X 18\"), Min. A5 (5 1/2\" X 8 1/2\"*2)\nOriginal Paper Size Max. A3 (11\" X 17\") Copier",
+   "Power": "Power Requirements - Rated Local AC Voltage (Hz) 220 - 240V, 50/60Hz\nPower Consumption (KW) 1,84",
+   "Scan Resolution": "600 X 600 Dpi, 600 X 400 Dpi\nPush Scan: 100, 150, 200, 300, 400, 600 Dpi\nPull Scan: 75, 100, 150, 200, 300, 400, 600 Dpi\n50 Dpi To 9,600 Dpi Via User Setting",
+   "Input Capacity": "Standard: 650 Sheets\n(550-Sheet Tray And 100-Sheet Multi-Bypass Tray)\nMaximum: 6,300 Sheets\n(650 Sheets & Optional 550 + 2,100-Sheet Tray And 3,000-Sheet Tray)",
+   "Dimensions": "608 X 650 X 834 Mm (23 15/16\" X 25 19/32\" X 32 27/32\")",
+   "Weight": "64 Kg (141.1 Lbs)"
+  },
+  "Fax": {
+   "Transmission Time": "Less Than 3 Seconds",
+   "Transmission Resolution": "From Standard (203.2 X 97.8 Dpi) To Ultra Fine (406.4 X 391 Dpi)"
+  },
+  "Memory": {
+   "Standard": "5 GB (Copy/Print Shared)",
+   "Option": "500 GB HDD"
+  },
+  "Copy Speed": {
+   "MX-M6051": "3.5 Sec.",
+   "MX-M5051": "3.7 Sec.",
+   "MX-M4051/M3551/M3051/M2651": "4.5 Sec."
+  },
+  "Copy Resolution": {
+   "Scan": "600 X 600 Dpi, 600 X 400 Dpi",
+   "Print": "600 X 600 Dpi,"
+  },
+  "First Copy Out Time": {
+   "MX-M6051": "3.5 Sec.",
+   "MX-M5051": "3.7 Sec.",
+   "MX-M4051/M3551/M3051/M2651": "4.5 Sec."
+  },
+  "Paper Weight": {
+   "Tray": "60 G/M2 To 300 G/M2 (16 Lbs Bond To 110 Lbs Cover)",
+   "Multi-Bypass Tray": "55 G/M2 To 300 G/M2"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Years",
+ "fetched": "2026-11-12T18:28+06:00",
+ "source": "https://www.pchouse.com.bd/sharp-mx-m5051-multifunction-photocopier",
+ "store": "pchouse"
+}

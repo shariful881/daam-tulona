@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Display": {
+   "Resolution": "4 MP/3 MP/1080p/UXGA /720p/VGA/4CIF/DCIF/ 2CIF/CIF/QCIF",
+   "Decoding Capacity": "4-ch@1080p (25 fps), 2-ch@4 MP (25 fps)"
+  },
+  "Recording": {
+   "Record Mode": "Stream Type: Video, Video & Audio\nH.265+/H.265/ H.264+/H.264"
+  },
+  "Storage": {
+   "eSATA": "1 SATA interface"
+  },
+  "Network": {
+   "Ethernet Port": "Interface\nHDMI Output: 1-ch, 1920 × 1080p/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz\nVGA Output: 1-ch, 1920 × 1080p/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz\nEthernet Port\n1, RJ-45 10/100Mbps self-adaptive Ethernet interface"
+  },
+  "Network Function": {
+   "Remote Connection": "16",
+   "Network Protocol": "TCP/IP, DHCP, Hik-Connect, DNS, DDNS, NTP, SADP, SMTP,UPnP"
+  },
+  "Auxiliary Interface": {
+   "USB": "Rear panel: 2 × USB 2.0"
+  },
+  "Power": {
+   "Power Supply": "12 VDC, 1.5 A",
+   "Power Consumption": "≤ 10 W"
+  },
+  "Construction": {
+   "Dimensions": "265 × 225 × 48 mm (10.4\" × 8.9\" × 1.9\")",
+   "Net Weight": "≤ 1 kg (2.2 lb)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T18:01+06:00",
+ "source": "https://fourstarit.com.bd/p/hikvision-ds-7108ni-q1m-8-channel-network-video-recorder-nvr",
+ "store": "fourstar"
+}

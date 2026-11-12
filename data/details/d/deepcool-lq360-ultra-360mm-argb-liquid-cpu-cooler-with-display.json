@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "500~2500 RPM±10% 0 rpm<5 % PWM",
+   "Fan Airflow": "73.41 CFM",
+   "Noise": "≤35.63 dB(A)",
+   "Air Pressure": "4.69mmAq",
+   "Connector": "4-pin PWM",
+   "LED Number": "ARGB",
+   "Material": "Aluminum",
+   "Others": "Pump Rated Voltage - 12 VDC\nFAN Rated Current - 0.3 A\nTube length - 410 mm\nFluid Dynamic Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "Tube length: 410 mm\nRadiator Dimensions - 402×120×27 mm(L×W×H)\nPump Dimensions - 89×76×64 mm(L×W×H)\nFan Dimension- 120×120×25 mm(L×W×H)",
+   "Weight": "1840 g"
+  },
+  "Supported Sockets": {
+   "Intel": "IntelLGA1851/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "05-year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~2500 RPM ± 10%",
+  "Fan Size: 120×120×25 mm(L×W×H)",
+  "Bearing Type: Fluid Dynamic Bearing",
+  "Supported Sockets: Intel / AMD"
+ ],
+ "price": 1530015500,
+ "regular": 16930,
+ "status": "In Stock",
+ "code": "45179",
+ "brand": "Deepcool",
+ "model": "LQ360 ULTRA",
+ "warranty": "05-year warranty",
+ "name": "DeepCool LQ360 ULTRA 360mm ARGB Liquid CPU Cooler With Display",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool LQ360 ULTRA 360mm ARGB Liquid CPU Cooler With Display"
+ ],
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.startech.com.bd/deepcool-lq360-ultra-liquid-cpu-cooler",
+ "store": "startech"
+}

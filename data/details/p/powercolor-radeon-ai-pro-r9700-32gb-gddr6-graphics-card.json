@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "32GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "Engine Clock(STD/Silent): up to 2350MHz(Game), up to 2920MHz(Boost)",
+   "BUS Type": "PCIE 5.0 x16",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "4096 Units",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nAMD RDNA 4 Architecture\nAMD Radeon Anti-Lag 2"
+  },
+  "Interface": {
+   "Display Port": "4 x DisplayPort 2.1a"
+  },
+  "Power Specifications": {
+   "Connectors": "12V-2x6 (16 Pin)",
+   "Recommended PSU": "750W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "266.7*111.2*40mm",
+   "Others": "Slot: 2"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2350MHz(Game) / 2920MHz(Boost)",
+  "Memory Speed: 20.0 Gbps, Memory Interface: 256-bit",
+  "Stream Processors: 1024 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 4 x DisplayPort 2.1a"
+ ],
+ "price": 295000,
+ "regular": 321160,
+ "status": "In Stock",
+ "code": "52645",
+ "brand": "PowerColor",
+ "mpn": "AI PRO R9700 32G-B",
+ "model": "Radeon AI PRO R9700 32GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Radeon AI PRO R9700 32GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Radeon AI PRO R9700 32GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.startech.com.bd/powercolor-radeon-ai-pro-r9700-32gb-graphics-card",
+ "store": "startech"
+}

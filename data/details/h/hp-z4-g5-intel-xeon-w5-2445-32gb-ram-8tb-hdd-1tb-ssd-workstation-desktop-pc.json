@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "HP Z4 G5 Workstation Desktop PC",
+   "Country of Origin": "USA",
+   "Processor Speed": "Intel® Xeon® W5-2445 (3.1GHz base frequency, up to 4.4 GHz with Intel® Turbo Boost Technology, 26.25 MB L3 cache, 10 cores, 20 threads)",
+   "Chipset": "Intel® W790",
+   "Memory": "32GB ECC 4800MHz DDR5 (2X16GB) RDIMM up to 512 GB DDR5-4800 ECC SDRAM with 8 DIMM",
+   "Hard Drive": "8TB 7200 rpm HDD",
+   "SSD": "1TB M.2 NVMe SSD",
+   "Graphics": "NVIDIA RTX™️ 2000 Ada 16 GB GDDR6",
+   "NIC": "Integrated 10/100/1000 GbE\n&\nIntel Wi-Fi 6E AX210 (2×2) non-vPro and Bluetooth® 5.2 Wireless Technology",
+   "Expansion Slots": "1 PCIe 5 x16; 2 PCIe 4 x16; 2 PCIe 4 x4 (Rear bulkhead access can be achieved through all slots but 2 PCIe 4 x8 are internal access only for M.2.)",
+   "Number of Bay": "Internal: One 3.5″; Four PCIe® M.2 SSD; Three 3.5″ HDD",
+   "Keyboard": "HP USB Keyboard",
+   "Mouse": "HP USB Optical Mouse",
+   "From Factor": "775 W internal power supply, up to 90% efficiency, active PFC",
+   "Operating System": "FREE DOS",
+   "Warranty": "03 Years HP warranty"
+  },
+  "Port": {
+   "Front": "4 USB Type-A 5Gbps signaling rate; 1 headphone/microphone combo;",
+   "Rear": "1 RJ-45; 1 audio-in/out"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Xeon W5-2445",
+  "Memory: 32GB DDR5, 1TB SSD+8TB HDD",
+  "Graphics: NVIDIA RTX 2000ada 16GB Graphics",
+  "Features: Wi-Fi, BT, Internal speaker, Type-A"
+ ],
+ "model": "HP Z4 G5 Workstation Desktop PC",
+ "warranty": "03 Years HP warranty",
+ "fetched": "2026-11-12T18:20+06:00",
+ "source": "https://smartbd.com/product/hp-z4-g5-intel-xeon-w5-2445-32gb-ram-8tb-hdd-1tb-ssd-workstation-desktop-pc/",
+ "store": "smartbd"
+}

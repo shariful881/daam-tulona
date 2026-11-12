@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "Boost: 1492 MHz",
+   "Memory Clock": "14 Gbps",
+   "BUS Type": "96-bit",
+   "Memory Interface": "PCI Express Gen 4.0 x8",
+   "CUDA Cores": "2304 Units"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort x 1 (v1.4a)",
+   "HDMI": "HDMI x 2 (Supports 4K@120Hz as specified in HDMI 2.1)",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "550 W",
+   "Consumption": "130 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 API",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "235 x 124 x 42 mm",
+   "Others": "Weight: 661 g"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: 1492 MHz, Memory Speed: 14 Gbps",
+  "Memory: 6GB GDDR6, CUDA Core: 2304 Units",
+  "Memory : 6GB GDDR6, Memory BUS: 96-bit",
+  "Output: DisplayPort 1.4 x 1, HDMI  2.1 x 2"
+ ],
+ "price": 3899945500,
+ "regular": 42900,
+ "status": "In Stock",
+ "code": "42907",
+ "brand": "MSI",
+ "model": "GeForce RTX 3050 VENTUS 2X E 6G OC",
+ "warranty": "03 Years",
+ "name": "MSI GeForce RTX 3050 VENTUS 2X E 6G OC GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "MSI",
+  "MSI GeForce RTX 3050 VENTUS 2X E 6G OC GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.startech.com.bd/msi-geforce-rtx-3050-ventus-2x-e-6g-oc-graphics-card",
+ "store": "startech"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Interface": "PCI Express 5.0 x16",
+   "Connectivity": "Power Connection\t: 1x 16-Pin PCI Connector"
+  },
+  "General Information": {
+   "GRAPHICS PROCESSING UNIT (GPU)": "NVIDIA GeForce RTX 5070\nStream Processors\t: 6144 CUDA Cores",
+   "HEIGHT": "4.7\" / 120.00 mm",
+   "LENGTH": "11.4\" / 290.00 mm"
+  },
+  "RAM": {
+   "Video RAM": "12 GB GDDR7",
+   "Video Output": "3x DisplayPort 2.1b"
+  },
+  "Power Specifications": {
+   "Power Consumption": "250 W"
+  },
+  "Multi Display": {
+   "GPU Width": "Dual-Slot",
+   "OS Compatibility": "Windows"
+  },
+  "Physical Specification": {
+   "Weight": "3.295 lb",
+   "Dimensions": "15.8 x 9.1 x 3.6\""
+  },
+  "Image": {
+   "Model": "GV-N5070EAGLEOC ICE-12GD"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, PCI Express 5.0",
+  "Core Clock: 2587 MHz (Reference card : 2512 MHz)",
+  "CUDA Cores: 6144, Memory Clock: 28 Gbps",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "model": "GV-N5070EAGLEOC ICE-12GD",
+ "fetched": "2026-11-12T18:54+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtx-5070-eagle-oc-ice-sff-12g-graphics-card",
+ "store": "creatus"
+}

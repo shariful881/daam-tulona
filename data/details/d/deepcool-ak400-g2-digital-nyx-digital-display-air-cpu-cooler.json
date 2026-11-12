@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air cooler",
+   "Fan Speed": "2200±10% RPM(max)",
+   "Fan Airflow": "63.4 CFM",
+   "Noise": "≤31.45 dB(A)",
+   "Air Pressure": "3.33 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Physical Specification": {
+   "Dimension": "Product: 132×92×156 mm(L×W×H)\nHeatsink: 130×92×151 mm(L×W×H)\nHeatpipe: Ø6 mm×4 pcs\nFan: 120×120×25 mm(L×W×H)",
+   "Weight": "958 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851/1700/1200/115X",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 year"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 2200±10% RPM(max)",
+  "Heat Pipes: Ø6 mm×4 pcs",
+  "4-pin PWM FAN Connector",
+  "Compatible with Intel & AMD Latest CPUs"
+ ],
+ "price": 41404800,
+ "regular": 5150,
+ "status": "In Stock",
+ "code": "47319",
+ "brand": "Deepcool",
+ "mpn": "R-AK400G2-BKNNMN-GJD-1",
+ "model": "AK400 G2 DIGITAL NYX",
+ "warranty": "03 year",
+ "name": "DeepCool AK400 G2 DIGITAL NYX Digital Display Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AK400 G2 DIGITAL NYX Digital Display Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ak400-g2-digital-nyx-cpu-cooler",
+ "store": "startech"
+}

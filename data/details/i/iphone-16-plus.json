@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nEU\nIND\nEU\nIND\nClear"
+  },
+  "Compare iPhone Models": {
+   "iPhone 16 Plus": "iPhone 15 Plus",
+   "Chip A18": "Chip\nA16 Bionic",
+   "Main Camera 48MP Fusion": "Main Camera\n48MP",
+   "Spatial photos and videos Yes": "Spatial photos and videos\nNo",
+   "Macro photography Yes": "Macro photography\nNo",
+   "Battery Li-Ion 4674mAh 25W MagSafe Charging": "Battery\nLi-Ion 4383mAh\n15W MagSafe Charging"
+  },
+  "iPhone 16 Plus Price in Bangladesh": {
+   "Internal Storage": "256GB\n,\n128GB",
+   "Region": "Aus\n,\nEU\n,\nHK\n,\nIND\n,\nINT\n,\nJP\n,\nSG\n,\nUK\n,\nUSA"
+  },
+  "Specification": {
+   "Model": "iPhone 16 plus",
+   "OS": "iOS 18",
+   "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+   "Build": "Aluminum design\nLatest-generation Ceramic Shield front\nColor-infused glass back",
+   "Display": "Super Retina XDR display\n6.7‑inch (diagonal) all‑screen OLED display\n2796 x 1290-pixel",
+   "Front Camera": "12MP",
+   "Rear Camera": "Advanced dual-camera system\n48MP Fusion Camera\n12MP Ultra-Wide Camera",
+   "Video Recording": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps\n720p Dolby Vision video recording at 30 fps\nCinematic mode up to 4K HDR at 30 fps",
+   "System Storage": "128GB\n256GB\n512GB",
+   "SIM Card": "Dual eSIM support*",
+   "Splash, Water, and Dust Resistant": "IP68",
+   "Chip": "A18 chip\nNew 6‑core CPU with 2 performance and 4 efficiency cores\nNew 5‑core GPU\nNew 16‑core Neural Engine",
+   "Connectivity": "5G (sub‑6 GHz and mmWave) with 4×4 MIMO\nGigabit LTE with 4×4 MIMO and LAA\nWi‑Fi 7 (802.11be) with 2×2 MIMO\nBluetooth 5.3",
+   "Location": "GPS, GLONASS, Galileo, QZSS, and BeiDou\nDigital compass\nWi‑Fi\nCellular\niBeacon microlocation",
+   "Sensors": "Face ID\nBarometer\nHigh dynamic range gyro\nHigh-g accelerometer\nProximity sensor\nDual ambient light sensors"
+  },
+  "Dimension & Weight": {
+   "Width": "3.06 inches",
+   "Height": "6.33 inches",
+   "Depth": "0.31 inch",
+   "Weight": "7.03 ounces"
+  }
+ },
+ "key_features": [
+  "Model: iPhone 16 plus",
+  "Display: 6.7″, Super Retina XDR OLED, HDR10, Dolby Vision",
+  "CPU: Apple A18 (3 nm)",
+  "GPU: Apple GPU (5-core graphics)",
+  "Front Camera: 12 MP",
+  "Resolution: 1290 x 2796 pixels",
+  "Rear camera: 48MP (Fusion) OIS +12MP (ultrawide)"
+ ],
+ "model": "iPhone 16 plus",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://diamu.com.bd/product/iphone-16-plus/",
+ "store": "diamu"
+}

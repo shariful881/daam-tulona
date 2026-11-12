@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "IEEE 802.11b/g/n 2.4GHz"
+  },
+  "IEEE 802.11a/n/ac/ax 5GHz": {
+   "Signal Rate": "Up to 300Mbps 2.4GHz"
+  },
+  "Up to 1201Mbps 5GHz": {
+   "WiFi Range": "3 Bedroom Houses\n4*Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more\ndirections and large areas\nBeamforming Concentrates wireless signal strength towards\nclients to expand WiFi range\nHigh-Power FEM Improves transmission power to strengthen\nsignal coverage",
+   "WiFi Capacity": "Dual-Band Allocate devices to different bands for optimal performance\nOFDMA\nSimultaneously communicates with multiple Wi-Fi 6/5/4 clients\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation\n4 Streams Connect your devices to more bandwidth",
+   "Working Modes": "Router、repeater"
+  },
+  "Hardware": {
+   "Processor": "1GHz",
+   "DDR/FLASH": "128MB/16MB",
+   "Interface": "1x Gigabit WAN Port + 3x Gigabit LAN Ports",
+   "Buttons": "WPS/MESH、RESET",
+   "Power Supply": "DC 12V/1A"
+  },
+  "Software": {
+   "WiFi Encryption": "WPA-PSK, WPA2-PSK, WPA/WPA2-PSK",
+   "Guest Network": "1*5GHz Guest Network /1*2.4GHz Guest Network",
+   "Protocols": "IPv4, IPv6",
+   "WAN Types": "DHCP, Static IP, PPPoE, L2TP, PPTP",
+   "Port mapping": "Virtual Server, DMZ",
+   "IPTV": "Bridge, Tag VLAN",
+   "Dynamic DNS": "DynDns, no-ip",
+   "Others": "FOTA, TR069, Remote Access, Backup & Restore"
+  },
+  "Physical": {
+   "Dimensions(W×D×H)": "226*144*190.5mm",
+   "Package Contents": "1* NX10\n1* Power Adapter\n1* RJ45 Ethernet Cable\n1* Quick Installation Guide"
+  },
+  "Others": {
+   "Certification": "FCC, CE, EAC",
+   "System Requirements": "Internet Explorer 11+, Firefox 12.0+, Chrome 20.0+, Safari 4.0+, or other JavaScript-enabled browser\nCable Subscription with an internet service provider (for internet access)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [
+  "Band: Dual",
+  "Router Type: Wireless & Ethernet",
+  "Wi-Fi Generation: Wi-Fi 6",
+  "Wi-Fi Coverage (Approximate): Unmentioned",
+  "Antenna (Type & Qty): 4 x 5dBi high gain antennas",
+  "Color: Black"
+ ],
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://smartbd.com/product/netis-nx10-ax1500-mbps-gigabit-dual-band-wi-fi-6-router/",
+ "store": "smartbd"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Air Cooler",
+   "Fan Speed": "500~2100 RPM±10%",
+   "Fan Airflow": "75.89 CFM",
+   "Noise": "≤31.6 dB(A)",
+   "Air Pressure": "2.53 mmAq",
+   "Connector": "4-pin PWM",
+   "LED Number": "Addressable RGB LED\nLED Connector: 3-pin(+5V-D-G)\nLED Rated Voltage: 5 VDC",
+   "Others": "Fan Rated Voltage: 12 VDC\nFan Rated Current: 0.17 A\nFan Power Consumption: 2.04 W"
+  },
+  "Physical Specification": {
+   "Dimension": "Product Dimensions: 125×92×154 mm\nHeatsink Dimensions: 120×92×150 mm\nFan Dimensions: 120×120×25 mm\nHeatpipe: Ø6 mm×4 pcs",
+   "Weight": "643 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851/1700/1200/115X",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~2100 RPM±10%",
+  "Fan Airflow: 75.89 CFM",
+  "Fan Air Pressure: 2.53 mmAq",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 28703350,
+ "regular": 3640,
+ "status": "In Stock",
+ "code": "45517",
+ "brand": "Deepcool",
+ "mpn": "R-AG400-WHAMMN-GJD",
+ "model": "AG400 WH ARGB V2",
+ "warranty": "01-Year",
+ "name": "DeepCool AG400 WH ARGB V2 120mm CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AG400 WH ARGB V2 120mm CPU Air Cooler"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ag400-wh-argb-v2-cpu-cooler",
+ "store": "startech"
+}

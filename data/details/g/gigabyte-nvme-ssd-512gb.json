@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI-Express 3.0 x4, NVMe 1.4",
+   "Flash Type": "3D TLC NAND Flash",
+   "MTBF": "1.5 million hours",
+   "Sequential R/W": "Read: up to 1,900 MB/s; Write: up to 1,200 MB/s",
+   "TBW": "160TBW",
+   "IOPs (4K Random Write)": "N/A",
+   "Humidity": "N/A",
+   "Voltage": "Read: 3.2W; Write: 3.2W"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C",
+   "Shock resistance": "N/A",
+   "Vibration Resistance": "N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited 3-years or 160TBW"
+  },
+  "Image": {
+   "Model": "G3NVME512G"
+  }
+ },
+ "key_features": [],
+ "model": "G3NVME512G",
+ "warranty": "Limited 3-years or 160TBW",
+ "fetched": "2026-11-12T18:59+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-nvme-ssd-512gb",
+ "store": "creatus"
+}

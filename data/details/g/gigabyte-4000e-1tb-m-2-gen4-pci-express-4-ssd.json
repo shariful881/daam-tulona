@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "MTBF": "1.5 million hours",
+   "Sequential R/W": "Up to 4000 MB/s Read\nUp to 3900MB/s Write",
+   "Temperature": "0°C to 70°C"
+  },
+  "Basic Information": {
+   "Form Factor": "M.2 2280"
+  },
+  "POWER": {
+   "Read": "4400mW",
+   "Write": "4000mW"
+  },
+  "Main Features": {
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Power": {
+   "Power Consumption": "50mW\n5mW"
+  },
+  "Physical Specification": {
+   "Dimensions": "22 x 2.3 x 80 mm",
+   "Interface": "PCI Express 4.0x4, NVMe 1.4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "4000E 1TB"
+  }
+ },
+ "key_features": [],
+ "model": "4000E 1TB",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-4000e-1tb-m2-gen4-pci-express-4-ssd",
+ "store": "creatus"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI-E Gen3 X4",
+   "MTBF": "1 Million Hours",
+   "Flash Type": "3D TLC"
+  },
+  "Sequential R/W": {
+   "Read Speed": "2400~2700MB/S",
+   "Write Speed": "1900~2000MB/S"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃--+70℃",
+   "Storage Temperature": "-20℃--+75℃"
+  },
+  "Physical Specification": {
+   "Dimensions": "L 80.0mm*W 22.0mm*H 2.1mm ±0.15mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "NE 1TB NVMe"
+  },
+  "Product List": {
+   "Best KingSpec SSD Price List In BD": "Price",
+   "KINGSPEC 8GB 3200MHZ DDR4 LAPTOP RAM": "7,500৳\n7,900৳",
+   "KingSpec NE 256GB NVMe M.2 2280 PCIe SSD": "6,500৳\n6,900৳",
+   "KingSpec P3 128GB 2.5'' SATA SSD": "2,600৳\n3,500৳",
+   "KingSpec P3 512GB 2.5'' SATA SSD": "8,900৳\n10,900৳",
+   "KINGSPEC NE 512GB NVME M.2 2280 PCIE SSD": "9,499৳\n12,700৳",
+   "KINGSPEC ONE BOOM PCIe 4.0 X400 Gen4 NVMe SSD": "18,500৳"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Flash Type: 3D TLC",
+  "Interface: PCI-e Gen3 x4",
+  "MTBF: 1 Million Hours"
+ ],
+ "model": "NE 1TB NVMe",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-ne-1tb-nvme-m2-2280-pcie-ssd",
+ "store": "creatus"
+}

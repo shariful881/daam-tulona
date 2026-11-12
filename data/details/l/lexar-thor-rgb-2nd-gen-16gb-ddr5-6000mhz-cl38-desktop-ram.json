@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000 MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "CL38-48-48-96",
+   "Others": "Intel XMP 3.0 and AMD EXPO"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Black",
+   "Dimension": "135.4 x 45 x 7.4mm (5.33\" x 1.77\" x 0.29\")",
+   "Pin": "288PIN"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Memory Type: DDR5",
+  "Speed: 6000Mhz, RGB Lighting",
+  "CAS Latency & Voltage: CL38-48-48-96 / 1.35V",
+  "Profile Type: Intel XMP 3.0 and AMD EXPO"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-12T18:40+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-thor-rgb-2nd-gen-16gb-ddr5-6000mhz-ram",
+ "store": "pchouse"
+}

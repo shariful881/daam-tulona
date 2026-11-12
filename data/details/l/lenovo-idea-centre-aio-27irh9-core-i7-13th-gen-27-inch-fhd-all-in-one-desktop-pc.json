@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "F0HM00GJLK"
+  },
+  "Performance": {
+   "Processor": "Intel Core™ i7-13620H, 10C (6P + 4E) / 16T, P-core up to 4.9GHz, E-core up to 3.6GHz, 24MB Intel® Smart Cache",
+   "Graphics": "Integrated Intel® UHD Graphics",
+   "Chipset": "Intel® SoC Platform",
+   "Memory": "2x 8GB SODIMM DDR5-5200",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5200",
+   "Storage": "512GB SSD M.2 2280 PCIe® 4.0×4 NVMe®",
+   "Optane Memory": "None",
+   "Max Storage Support": "One drive, up to 1TB M.2 SSD",
+   "Card Reader": "No Card Reader",
+   "Optical": "None",
+   "Audio Chip": "High Definition (HD) Audio, Realtek® ALC233-CG codec",
+   "Speakers": "3Wx2, HARMAN",
+   "Camera": "5.0MP",
+   "Microphone": "Dual Microphone",
+   "Power Supply": "90W 89% Adapter"
+  },
+  "Design": {
+   "Display": "27″ FHD (1920×1080) IPS 300nits Anti-glare, 99% sRGB, 3-side borderless, hardware low blue light, Non-Touch",
+   "Touchscreen": "None",
+   "Keyboard": "USB Calliope Keyboard, Black, English",
+   "Mouse": "USB Calliope Mouse, Black",
+   "Expansion Slots": "Two M.2 slots (one for WLAN, one for SSD)",
+   "Case Color": "Luna Grey",
+   "Stand": "AIO Stand",
+   "Mounting": "None",
+   "Wireless Charger": "No Wireless Charger",
+   "Pen": "Pen Not Supported",
+   "Form Factor": "AIO (27 inches)",
+   "Dimensions (WxDxH)": "611.72 x 192 x 473.16 mm (24.08 x 7.55 x 18.62 inches)",
+   "Weight": "Around 7.1 kg (15.65 lbs)"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 6, 802.11ax 2×2 + BT5.2",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "Integrated 100/1000M",
+   "Rear Ports": "1x USB-A (USB 10Gbps / USB 3.2 Gen 2), 2x USB-A (Hi-Speed USB / USB 2.0), 1x HDMI®-in 1.4, 1x HDMI®-out 2.1 TMDS, 1x Ethernet (RJ-45), 1x power connector",
+   "Left Ports": "1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), data transfer only, 1x headphone / microphone combo jack (3.5mm)"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 integrated in SoC"
+  },
+  "Service": {
+   "Base Warranty": "2 years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ErP Lot 3/7, GREENGUARD®, RoHS / WEEE / REACH",
+   "Other Certifications": "TÜV Rheinland® Flicker Free, TÜV Rheinland® Low Blue Light, TÜV Rheinland® Ultra Low Noise"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-13620H (24MB Cache, up to 4.9GHz)",
+  "RAM: 16GB DDR5 5200Mhz, Storage: 512GB M.2 PCIe 4.0×4 NVMe SSD",
+  "Display: 27″ FHD (1920×1080) IPS 300nits Anti-glare, 99% sRGB"
+ ],
+ "model": "F0HM00GJLK",
+ "warranty": "2 years Standard Warranty",
+ "fetched": "2026-11-12T18:20+06:00",
+ "source": "https://smartbd.com/product/lenovo-idea-centre-aio-27irh9-core-i7-13th-gen-27-inch-fhd-all-in-one-desktop-pc/",
+ "store": "smartbd"
+}

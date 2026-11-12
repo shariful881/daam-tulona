@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD AM4 Socket for AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+   "Chipset": "AMD A520",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9  inch x 8.7  inch ( 22.6  cm x 22.1  cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors\n1 x PCIe 3.0 x16 (x16 mode)\nAMD A520 Chipset\n2 x PCIe 3.0 x1"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR4 Memory Technology",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "4866(O.C)/4600(O.C)/4466(O.C.)/4400(O.C)/4333(O.C.)/4266(O.C.)/4200(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3333(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz Un-buffered Memory",
+   "Maximum Memory": "64GB, DDR4"
+  },
+  "Connector & Ports": {
+   "HDMI": "1  x HDMI 2.1 (4K@60Hz)",
+   "D-Sub (s)": "1  x D-Sub",
+   "USB (s)": "Rear USB Port ( Total 6  )\n4 x USB 3.2 Gen 1 port(s)(4 x Type-A)\n2 x USB 2.0 port(s)(2 x Type-A)\nFront USB Port ( Total 6  )\n2 x USB 3.2 Gen 1 port(s)(2 x Type-A)\n4 x USB 2.0 port(s)(4 x Type-A)",
+   "LAN Port (s)": "Realtek RTL8111H 1GB Ethernet\nASUS LANGuard",
+   "Supported Storage": "Total supports 1 x M.2 slot(s) and 4 x SATA 6Gb/s ports\nAMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors :\n1 x M.2 Socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support\nAMD A520 Chipset :\n4 x SATA 6Gb/s port(s),",
+   "RAID": "Support Raid 0, 1, 10",
+   "Audio": "Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC *\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback\nAudio Feature :\n- Audio Shielding\n- Dedicated audio PCB layers\n* Choose the chassis with HD audio module in front panel to support 8-channel audio output.",
+   "Internal I/O Ports": "Internal I/O Ports\n1 x CPU Fan connector(s)\n1 x Chassis Fan connector(s)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\n4 x SATA 6Gb/s connector(s)\n1 x S/PDIF out header(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x COM port header\n1 x Speaker connector\nBack I/O Ports\n1 x PS/2 keyboard/mouse combo port(s)\n1 x D-Sub\n1 x HDMI\n1 x LAN (RJ45) port(s)\n4 x USB 3.2 Gen 1 (blue) Type-A\n2 x USB 2.0\n3 x Audio jack(s)",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- ASUS DIGI+ VRM\n- ASUS LANGuard\n- ASUS Overvoltage Protection\n- ASUS SafeSlot Core\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design\n- ASUS Q-DIMM\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\n- Performance And Power Saving Utility\nTurboV EVO\nEPU\nDigi+ VRM\nFan Xpert 2+\n- EZ update\nASUS CPU-Z\nAI Charger\nDAEMON Tools\nNorton Anti-virus software (Free Trial for 60 days)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty"
+  }
+ },
+ "key_features": [
+  "AMD AM4 Socket for Ryzen 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+  "5X Protection III",
+  "Ultrafast connectivity",
+  "Comprehensive cooling"
+ ],
+ "price": 92509900,
+ "regular": 10200,
+ "status": "In Stock",
+ "code": "14970",
+ "brand": "Asus",
+ "model": "Asus Prime A520M-K",
+ "warranty": "03 Years Warranty",
+ "name": "Asus Prime A520M-K AM4 Micro-ATX AMD Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus Prime A520M-K AM4 Micro-ATX AMD Motherboard"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asus-prime-a520m-k-amd-motherboard",
+ "store": "startech"
+}

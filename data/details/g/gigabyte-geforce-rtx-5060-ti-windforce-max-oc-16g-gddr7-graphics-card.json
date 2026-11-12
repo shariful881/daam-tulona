@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "General Information": {
+   "Card Bus": "PCI-E 5.0",
+   "Memory Bus (Bit)": "128 bit",
+   "Memory Size": "16 GB",
+   "Memory Type": "GDDR7",
+   "OUTPUT PORTS": "DisplayPort 2.1b *3\nHDMI 2.1b *1",
+   "Power Connector (Pin)": "8 Pin*1"
+  },
+  "Video Memory Specifications": {
+   "Resolution": "7680x4320",
+   "Core Clock": "2587 MHz (Reference card :2572 MHz)",
+   "Memory Clock": "28 Gbps",
+   "CUDA Cores": "4608"
+  },
+  "Graphics Specifications": {
+   "Card size": "L=208 W=120 H=40 mm"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "650W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 API",
+   "OpenGL": "4.6"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5060 Ti WINDFORCE MAX OC"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 5060 Ti WINDFORCE MAX OC",
+ "fetched": "2026-11-12T18:56+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtx-5060-ti-windforce-max-oc-16g-gddr7-graphics-card",
+ "store": "creatus"
+}

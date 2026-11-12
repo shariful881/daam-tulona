@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI Express 4.0x4, NVMe 1.4",
+   "MTBF": "1.5 million hours",
+   "Sequential R/W": "Up to 3600 MB/s/ Up to 3000MB/s",
+   "Others": "HMB (Host Memory Buffer) supported\nTRIM & S.M.A.R.T support\nEnergy-Efficient"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "22 x 2.3 x 80 mm",
+   "Colors": "Blue"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "Gen4 4000E"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 500GB, Form Factor: M.2 2280",
+  "Interface: PCI Express 4.0x4, NVMe 1.4",
+  "Sequential Read Speed: Up to 3600 MB/s",
+  "Sequential Write Speed: Up to 3000MB/s"
+ ],
+ "model": "Gen4 4000E",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-12T18:57+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-gen4-4000e-500gb-ssd",
+ "store": "creatus"
+}

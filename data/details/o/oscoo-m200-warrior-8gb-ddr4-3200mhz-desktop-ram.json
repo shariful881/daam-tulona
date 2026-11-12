@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Operating voltage": "1.20V",
+   "Type": "DDR4",
+   "Frequency": "3200MHz",
+   "Latency": "CL15-17-19-22"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Black",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years Warranty"
+  },
+  "Image": {
+   "Model": "M200 Warrior"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB, Type: DDR4",
+  "Frequency: 3200 MHz",
+  "Form Factor: 288-Pin UDIMM",
+  "Voltage & Cas Latency: CL15-17-19-22/1.20V"
+ ],
+ "model": "M200 Warrior",
+ "warranty": "05 Years Warranty",
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://www.creatus.com.bd/oscoo-m200-warrior-8gb-ddr4-desktop-ram",
+ "store": "creatus"
+}

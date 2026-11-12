@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.50 GHz",
+   "Maximum Turbo Frequency": "5.40 GHz",
+   "Cache": "30 MB SmartCache",
+   "Cores": "16",
+   "TDP": "125W",
+   "Threads": "24"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Type": "Up to DDR5 5600 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Max Dynamic Frequency": "1.60 GHz"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160 @ 60Hz",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "13th Gen Core i7-13700K"
+  }
+ },
+ "key_features": [],
+ "model": "13th Gen Core i7-13700K",
+ "warranty": "03 Years",
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.creatus.com.bd/intel-13th-gen-core-i7-13700k-raptor-lake-processor",
+ "store": "creatus"
+}

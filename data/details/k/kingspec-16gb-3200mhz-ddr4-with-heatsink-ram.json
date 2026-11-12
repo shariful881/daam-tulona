@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Voltage": "1.35V"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Type": "DDR4"
+  },
+  "Other Features": {
+   "OPERATING HUMIDITY": "5%-75% RH non-condensing",
+   "Operating Temperature": "0~ +70 Celsius"
+  },
+  "Physical Specification": {
+   "Pin": "288pin",
+   "Dimensions": "L 133mm *W 30mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "16GB 3200MHz"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: 3200MHz",
+  "Bandwidth: PC4-19200",
+  "Pins: 288pin"
+ ],
+ "model": "16GB 3200MHz",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-16gb-3200mhz-heatsink-ram",
+ "store": "creatus"
+}

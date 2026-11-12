@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Product Description": {
+   "Processor": "Intel Core Ultra 9 285K Arrow Lake Processor",
+   "COOLER": "AORUS 360 AIO Liquid Cooler",
+   "Motherboard": "GIGABYTE Z890 AI TOP, 4*DDR5 with XMP Memory Module Support, Dual 10GbE LAN & Wi-Fi 7 & directional Ultra-high gain antenna",
+   "RAM": "64GB (2 x 32GB) RGB Memory DDR5",
+   "SSD 1": "AORUS Gen4 7300 SSD 2TB, PCI-Express 4.0 x4, NVMe 1.4, M.2 2280, Sequential Read speed",
+   "SSD 2": "AI TOP 100E SSD 320GB",
+   "GPU": "GIGABYTE NVIDIA GEFORCEE RTX 5080 16GB GDDR7 OC EDITION Graphics Card, Memory Clock-32 Gbps, Cuda Core-10752U, Memory Bus-256-bit, 3X RGB FAN",
+   "PSU": "GIGABYTE POWER SUPPLY # GP-UD1600PM PG5, Fully modular design, 80 PLUS Platinum certified",
+   "CASE": "GIGABYTE AORUS C500 GLASS,USB 3.1 Gen2 Type-C x1 / USB 3.0 x2 / Audio In & Out (supports AC97 /HD Audio), up to 420mm Liquid Cooling Compatible.",
+   "OS": "Windows/Linux supported"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 9 processor 285K",
+  "Chipset: Z890 (Z890 AI TOP)",
+  "Graphics: NVIDIA GeForce RTX 5080 16GB GDDR7",
+  "Memory: 64GB (2 x 32GB) RGB Memory DDR5",
+  "SATA: 8 x SATA 6.0Gb/s ports",
+  "Storage: AORUS Gen4 7300 2TB, AI TOP 100E 320GB"
+ ],
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://smartbd.com/product/gigabyte-ai-top-100-z890-core-ultra-9-64gb-ddr5-ram-2tb-ssd-rtx-5080-gaming-desktop-pc/",
+ "store": "smartbd"
+}

@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Transmission Speed (kbps): 33.6Kbps",
+   "Functions": "Print, Scan, Copy, Fax",
+   "Display": "2 Line LCD Display",
+   "Memory": "128MB",
+   "Processor": "600MHz"
+  },
+  "Printer": {
+   "ADF": "Yes (40 Sheets)",
+   "Input Capacity": "150 Sheets Input",
+   "Output Capacity": "100 Sheets Output",
+   "Paper Size": "A4 / Legal / Executive / Letter / A5 / A6 / Envelopes",
+   "Power Consumption": "110 to 127 VAC, 50/60Hz and 220 to 240 VAC, 50/60Hz, 300 watts (Active Printing), 38 watts (Ready), 1.9 watts (Sleep)",
+   "Print Resolution": "1200 x 1200dpi",
+   "Scan Resolution": "600 x 600dpi",
+   "Copy Speed": "20cpm",
+   "Duplex Printing": "Manual",
+   "Paper Type": "Plain, Thick, Thin, Cotton, Color, Preprinted, Recycled, Labels, CardStock, Bond, Archive, Envelope",
+   "Paper Weight": "60 to 163 g/m2",
+   "Print Speed": "20ppm",
+   "Printer type": "Multi Function Mono Laser Printer",
+   "software support": "Windows 7, 8, 8.1, 10, Server 2008 R2, 2012, 2016, macOS v10.14 Mojave, macOS v10.13 High Sierra, macOS v10.12 Sierra, OS X v10.11 El Capitan",
+   "Toner/ Cartridge/ Refill": "107A",
+   "Duty Cycle up to (Yield)": "10000 Pages",
+   "First Print Out Time": "8.3sec",
+   "Maximum Scan Size": "Legal (216 x 356mm)"
+  },
+  "Features": {
+   "Technology": "Mono Laser",
+   "Weight": "8.58Kg"
+  },
+  "Output": {
+   "Output": "Output Color: Black & White"
+  },
+  "Connectivity": {
+   "Connectivity": "USB, LAN, WiFi"
+  },
+  "General": {
+   "MAX RESOLUTION": "300 x 300dpi"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Functions: Print, copy, scan, fax",
+  "Print speed: Print speed up to 21 ppm (black)",
+  "Print quality black (best): Up to 1,200 x 1,200 dpi",
+  "Automatic document feeder capacity: Standard, 40 sheets"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/hp-laser-mfp-137fnw-multifunction-mono-laser-printer",
+ "store": "pchouse"
+}

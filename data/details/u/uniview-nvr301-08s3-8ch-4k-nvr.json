@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Recording": {
+   "Record Mode": "Resolution\n4K/5MP/4MP/3MP/1080p/960p/720p/D1/2CIF/CIF"
+  },
+  "Video Detection": {
+   "General Alarm": "Motion, Tampering, Human Body Detection, Video Loss, Alarm Input",
+   "Alert Alarm": "IP Conflict, Network Disconnected, Disk Offline , Disk Abnormal, Illegal Access, Hard Disk Space Low, Hard Disk Full, Recording/Snapshot Abnormal"
+  },
+  "Network": {
+   "Ethernet Port": "PoE\n8 Channel"
+  },
+  "Auxiliary Interface": {
+   "USB": "USB\nRear panel: 2 x USB2.0\nRS232\nNA\nRS485\nNA"
+  },
+  "Power": {
+   "Power Supply": "12V DC",
+   "Power Consumption": "Power Consumption: ≤5 W (without HDD)"
+  },
+  "Construction": {
+   "Dimensions": "260 x 240 x 46 mm",
+   "Net Weight": "0.98 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Number of channels: 8",
+  "Incoming BW : 64 Mbps",
+  "Support: Ultra 265/H.265/H.264 video formats",
+  "Support: 1-ch HDMI, 1-ch VGA, HDMI at up to 4K resolution"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://fourstarit.com.bd/p/uniview-nvr301-08s3-8ch-4k-nvr",
+ "store": "fourstar"
+}

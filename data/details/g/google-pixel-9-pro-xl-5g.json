@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n256GB\n512GB\n128GB\n256GB\n512GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Google Pixel 9 Pro XL",
+   "OS": "Android 14",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Weight": "221g (7.80 oz)",
+   "Dimensions": "162.8 x 76.6 x 8.5 mm (6.41 x 3.02 x 0.33 in)",
+   "Build": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame",
+   "System Storage": "128GB/256GB/512GB",
+   "RAM(GB)": "16GB",
+   "SIM Card": "Nano-SIM and eSIM",
+   "Processor": "Google Tensor G4 (4 nm)",
+   "CPU": "Octa-core (1×3.1 GHz Cortex-X4 & 3×2.6 GHz Cortex-A720 & 4×1.92 GHz Cortex-A520)",
+   "GPU": "Mali-G715 MC7",
+   "Battery": "Type: Li-Ion 5060 mAh, non-removable\nCharging\n37W wired, PD3.0, PPS, 70% in 30 min (advertised)\n23W wireless (w/ Pixel Stand)\n12W wireless (w/ Qi compatible charger)\nReverse wireless",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer, thermometer (skin temperature)"
+  },
+  "Display": {
+   "Type": "LTPO* OLED, 120Hz, HDR10+, 2000 nits (HBM), 3000 nits (peak)",
+   "Size": "6.8 inches, 109.7 cm2 (~88.0% screen-to-body ratio)",
+   "Resolution": "1344 x 2992 pixels, 20:9 ratio (~486 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus 2"
+  },
+  "Front Camera": {
+   "Single": "42 MP, f/2.2, 17mm (ultrawide), PDAF",
+   "Features": "Auto-HDR, panorama",
+   "Video": "4K@30/60fps, 1080p@30/60fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band (Global), Wi-Fi 802.11 a/b/g/n/ac/6, dual-band (India)",
+   "Bluetooth": "5.3, A2DP, LE, aptX HD",
+   "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2"
+  },
+  "Specification": {
+   "Color": "Hazel\n,\nObsidian Black\n,\nPorcelain\n,\nRose",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB"
+  }
+ },
+ "key_features": [
+  "Model: Pixel 9 Pro XL",
+  "Display: 6.8 inches LTPO*OLED",
+  "OS: Android 14",
+  "CPU: Octa-Core (Google Tensor G4 (4 nm))",
+  "GPU: Mali-G715 MC7",
+  "Front Camera: 42MP",
+  "Rear camera: 50MP + 48MP + 48MP",
+  "Resolution: 1344 x 2992 pixels",
+  "Battery: Li-Ion 5060 mAh, non-removable"
+ ],
+ "model": "Google Pixel 9 Pro XL",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://diamu.com.bd/product/pixel-9-pro-xl/",
+ "store": "diamu"
+}

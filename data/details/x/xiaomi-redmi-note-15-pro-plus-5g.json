@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n16 GB\n12 GB\n16 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB",
+   "Region": "Choose an option\nCN\nOfficial-BD\nCN\nOfficial-BD\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB\n,\n8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB",
+   "Region": "CN\n,\nIND\n,\nOfficial-BD",
+   "Model": "Redmi Note 15 Pro Plus",
+   "OS": "Android 15, HyperOS 2",
+   "Rear Camera": "Triple\n50 MP, f/1.6, (wide), 1/1.55\", 1.0µm, multi-directional PDAF, OIS\n50 MP, f/2.2, (telephoto), PDAF, 2.5x optical zoom\n8 MP, 112˚ (ultrawide)\nFeatures: LED flash, HDR, panorama\nVideo: 4K@24/30fps, 1080p@30/60/120fps, gyro-EIS, OIS",
+   "System Storage": "256GB,128GB,512GB",
+   "RAM(GB)": "12GB, 16GB and 8GB",
+   "SIM Card": "Nano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)",
+   "Processor": "Qualcomm SM7635 Snapdragon 7s Gen 4 (4 nm)",
+   "CPU": "Octa-core (1x2.7 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+   "GPU": "Adreno 810",
+   "Battery": "Type: Li-Ion 7000 mAh\nCharging\n90W wired\n22.5W reverse wired",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "163.6 x 78.1 x 7.8 mm (6.44 x 3.07 x 0.31 in)",
+   "Weight": "211 g (7.44 oz)"
+  },
+  "Display": {
+   "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, HDR10+, Dolby Vision, 3200 nits (peak)",
+   "Size": "6.83 inches, 111.0 cm2 (~86.8% screen-to-body ratio)",
+   "Resolution": "1220 x 2772 pixels (~443 ppi density)",
+   "Protection": "Xiaomi Dragon Crystal Glass"
+  },
+  "Front Camera": {
+   "Single": "32 MP, (wide)",
+   "Features": "HDR, panorama",
+   "Video": "1080p@30/60fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE, LHDC",
+   "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "Unspecified",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Note 15 Pro Plus",
+  "Display: 6.83-inches, AMOLED",
+  "Resolution: 1220 x 2772 pixels",
+  "CPU: Qualcomm SM7635 Snapdragon 7s Gen 4 (4 nm)",
+  "Front Camera: 32MP",
+  "Rear camera: 50MP+50MP+8MP",
+  "Battery: Li-Ion 7000 mAh"
+ ],
+ "model": "Redmi Note 15 Pro Plus",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-15-pro-plus/",
+ "store": "diamu"
+}

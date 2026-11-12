@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "4TB",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type-C",
+   "Sequential R/W": "Up to 2,000 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "0°C (32°F) ~ 45°C (113°F)",
+   "Weight": "48 g (1.7 oz)",
+   "Color": "Iron Gray"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 4TB, Flash Type: 3D NAND flash",
+  "Transfer Speeds: Up to 2,000 MB/s",
+  "Connection Interface: USB Type-C",
+  "Magnetic Design, Support MagSafe"
+ ],
+ "price": 153000,
+ "regular": 163097,
+ "status": "In Stock",
+ "code": "45045",
+ "brand": "Transcend",
+ "mpn": "TS4TESD420C",
+ "model": "ESD420C",
+ "warranty": "3 Years",
+ "name": "Transcend ESD420C 4TB 20Gbps Type-C Magnetic Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD420C 4TB 20Gbps Type-C Magnetic Portable SSD"
+ ],
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd420c-4tb-portable-ssd",
+ "store": "startech"
+}

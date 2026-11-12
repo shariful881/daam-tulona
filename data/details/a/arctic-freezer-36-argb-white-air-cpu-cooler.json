@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "200 - 2000 rpm, PWM Controlled (0 rpm below 5 % PWM)",
+   "Connector": "Fan Connector: 4-Pin PWM-Connector + 4-Pin Plug\nRGB Connector: 3-Pin A-RGB-Connector + 3-Pin Plug",
+   "Others": "Fan: 2x P12 PWM PST A-RGB\nHeatpipes: 4x Ø6 mm, Copper\nFin Stack: 59x 0.4 mm, Aluminium\nBearing:\tFluid Dynamic Bearing\nCable Lenght: 200 mm + 80 mm Splitter Cable\nLEDs: 12x A-RGB LEDs"
+  },
+  "Physical Specification": {
+   "Dimension": "Width: 186 mm\nHeight: 117 mm\nLength: 190 mm",
+   "Weight": "1.258 kg"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851, LGA1700",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200 - 2000 rpm, 2x P12 PWM PST ARGB Fan",
+  "Heatpipes: 4x Ø6 mm, Copper",
+  "Fin Stack: 59x 0.4 mm, Aluminium",
+  "Compatibility With Intel LGA1851, LGA1700, AMD AM5, AM4"
+ ],
+ "price": 44004600,
+ "regular": 4990,
+ "status": "In Stock",
+ "code": "46653",
+ "brand": "ARCTIC",
+ "model": "Freezer 36 ARGB White",
+ "warranty": "6 years",
+ "name": "Arctic Freezer 36 ARGB White Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Freezer 36 ARGB White Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:51+06:00",
+ "source": "https://www.startech.com.bd/arctic-freezer-36-argb-white-cpu-cooler",
+ "store": "startech"
+}

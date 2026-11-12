@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 14th/13th/12th Gen Intel Core Processors, Pentium Gold, and Celeron Processors\nProcessor socket LGA1700",
+   "Chipset": "Intel Z690 Chipset",
+   "Form Factor": "ATX\n243.84mmx304.8mm",
+   "Audio": "Realtek ALC4080 Codec\n7.1-Channel USB High Performance Audio\nSupports S/PDIF output\nSupports up to 32-Bit/384 kHz playback on front panel"
+  },
+  "Expansion Slots": {
+   "PCI": "2x PCI-E x16 slot\nSupports x16/x4\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)\nPCI_E3 Gen PCIe 4.0 supports up to x4 (From Chipset)",
+   "M.2 Socket": "4x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMITM 2.1 with HDR, maximum resolution of 4K 60Hz\n1x DisplayPort\nSupport DP 1.4, maximum resolution of 8K 60Hz*"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "USB (s)": "4x USB 2.0 (Front)\n4x USB 3.2 Gen1 Type A (Rear)\n2x USB 3.2 Gen1 Type A (Front)\n4x USB 3.2 Gen2 Type A (Rear)\n1x USB 3.2 Gen2 Type C (Rear)\n1x USB 3.2 Gen2 Type C (Front)\n1x USB 3.2 Gen2x2 Type C (Rear)",
+   "LAN Port (s)": "Intel 2.5Gbps LAN",
+   "RAID": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices\nSupports RAID 0, RAID 1, RAID 5 and RAID 10 for M.2 NVMe storage devices",
+   "Audio": "1x Front Audio (JAUD)",
+   "Display Port (s)": "1x DisplayPort 1.4",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)",
+   "Wireless Communication module": "Intel Wi-Fi 6E\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\nSupports MU-MIMO TX/RX, 2.4GHz / 5GHz / 6GHz* (160MHz) up to 2.4Gbps\nSupports 802.11 a/ b/ g/ n/ ac/ ax\nSupports Bluetooth® 5.3, FIPS, FISMA"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Core, Pentium Gold & Celeron Processor (LGA 1700)",
+  "Supported RAM: 4x DDR5, 7200+(OC), Max 192GB",
+  "Graphics Output: 1x HDMI, 1x DisplayPort",
+  "Features: 2.5G LAN with Wi-Fi 6E Solution"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:43+06:00",
+ "source": "https://www.pchouse.com.bd/msi-mag-z790-tomahawk-wifi-12th-and-13th-gen-atx-motherboard",
+ "store": "pchouse"
+}

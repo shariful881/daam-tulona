@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Back Button": {
+   "D-Pad": "Rotary eight-way D-pad",
+   "Action Buttons": "Soft-touch mechanical ABXY buttons 2.0",
+   "Macro Buttons": "Six programmable buttons (CZ, M1, M2, M3, M4)",
+   "Dead Zone Compensation": "Adjustable in software"
+  },
+  "Main Features": {
+   "Polling Rate": "Up to 1000Hz (1ms ultra-low latency)",
+   "Connectivity": "USB, Bluetooth, 2.4G Wireless",
+   "Colors": "Black",
+   "Charging Time": "1~2hours, Wired charging, Wireless charging"
+  },
+  "Other Features": {
+   "Customization Software": "Flydigi Space Station 3.4",
+   "Joystick Type": "Hall effect, force-adjustable (40~100gf stepless adjustment)",
+   "Joystick Drift": "Less than 1% drift, 12-bit ultra-high resolution",
+   "Trigger Type": "Hall-Linear Triggers, switchable between macro trigger and Hall effect linear trigger",
+   "Gyroscope": "High-precision gyro mapping, customizable in software",
+   "Vibration System": "Four-motor stereo vibration",
+   "RGB Lighting": "Personalized RGB light bar"
+  },
+  "Power": {
+   "Battery Capacity": "800mAh high-capacity rechargeable battery"
+  },
+  "Physical Specification": {
+   "Compatibility": "PC, Android, iOS, Steam, Nintendo Switch, TV (Not Xbox/PS)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Vader 4 Pro"
+  }
+ },
+ "key_features": [],
+ "model": "Vader 4 Pro",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:36+06:00",
+ "source": "https://www.creatus.com.bd/flydigi-vader-4-pro-tri-mode-wireless-gamepad",
+ "store": "creatus"
+}

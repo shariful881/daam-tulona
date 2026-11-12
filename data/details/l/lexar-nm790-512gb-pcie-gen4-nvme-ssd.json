@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Interface": "PCIe Gen4x4",
+   "MTBF": "1,500,000 Hours",
+   "Form Factor": "M.2 2280",
+   "TBW": "500TBW"
+  },
+  "Physical Specification": {
+   "Weight": "6g / 0.013 lbs"
+  },
+  "Physical Specifications": {
+   "Dimension": "80 x 22 x 2.45 mm (3.15” x 0.87” x 0.10”)",
+   "Operating Temperature": "0°C to 70°C (32°F to 158°F)"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis (X,Y,Z)",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Sequential Read & Write Speed: 7200MB/s & 4400MB/s",
+  "Form Factor: M.2 2280",
+  "Vibration-resistant: 10~2000Hz"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-nm790-512gb-pcie-gen4-nvme-ssd",
+ "store": "pchouse"
+}

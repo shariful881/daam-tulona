@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND",
+   "Interface": "PCIe Gen5x4, NVMe 2.0",
+   "Sequential R/W": "14500/11000MB/s",
+   "MTBF": "Up to 1,500,000 Hours",
+   "TBW": "1400",
+   "Others": "PHISON E28 Controller\nWear Leveling (Extends NAND flash lifespan)\nBad Block Management (Prevent unstable data storage)\nOver-Provision (Improve performance, endurance, and reduce write amplification)\nFirmware Upgrade (Updates device instructions to add features, fix issues, and enhance performance)\nTRIM (Performance Optimization, OS support required)\nSMART (Self-Monitoring, Analysis and Reporting Technology)"
+  },
+  "Physical Specification": {
+   "Dimension": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Storage Temperature": "-40°C – 85°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "Interface: PCIe Gen5x4, NVMe 2.0",
+  "Form Factor: M.2 2280",
+  "Read: 14500 MB/s, Write: 11000MB/s"
+ ],
+ "price": 6249965000,
+ "regular": 70310,
+ "status": "In Stock",
+ "code": "53427",
+ "brand": "MSI",
+ "model": "SPATIUM M571 DLP",
+ "warranty": "5 Years",
+ "name": "MSI SPATIUM M571 DLP 2TB PCIe 5.0 NVMe M.2 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "MSI",
+  "MSI SPATIUM M571 DLP 2TB PCIe 5.0 NVMe M.2 SSD"
+ ],
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://www.startech.com.bd/msi-spatium-m571-dlp-2tb-ssd",
+ "store": "startech"
+}

@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320@60Hz",
+   "Memory Clock": "2400 MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Memory Interface": "256 bit"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "8Pin*2",
+   "Recommended PSU": "600 W",
+   "Consumption": "285 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "300 x 118.5 x 50mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years (Keep the box for Warranty)"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 16GB",
+  "Memory Clock: 2400 MHz",
+  "Video Memory Frequency: 16 Gbps",
+  "Interface: 1x HDMI 2.0, 3x DisplayPort"
+ ],
+ "warranty": "3 years (Keep the box for Warranty)",
+ "fetched": "2026-11-12T18:38+06:00",
+ "source": "https://www.pchouse.com.bd/gunnir-intel-arc-a770-tri-16g-graphics-card",
+ "store": "pchouse"
+}

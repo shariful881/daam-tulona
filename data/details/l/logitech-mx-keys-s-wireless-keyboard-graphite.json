@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Main Features": {
+   "Wired/Wireless": "Wireless",
+   "Keys": "104",
+   "Lighting": "Backlighting, Single Color, Adaptive Brightness with Ambient and Hand Proximity Sensors",
+   "Interface": "Type-C"
+  },
+  "Others": {
+   "Indicators": "Caps Lock and Battery Level LEDs",
+   "Range": "Up to 10 meters (Wireless range may vary)",
+   "Customization Software": "Logi Options+"
+  },
+  "Physical Attribute": {
+   "System Requirements": "Windows, macOS, Linux, ChromeOS, Android, iPadOS.",
+   "Color": "Graphite",
+   "Dimensions": "Keyboard:\nHeight: 131.63 mm\nWidth: 430.2 mm\nDepth: 20.5 mm\nLogi Bolt USB Receiver:\nHeight: 6.11 mm\nWidth: 14.4 mm\nDepth: 18.65 mm"
+  },
+  "Weight": {
+   "Keyboard": "810 g",
+   "Logi Bolt USB Receiver": "1.68 g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year warranty"
+  }
+ },
+ "key_features": [
+  "Number of keys: 104",
+  "Connectivity: Bluetooth",
+  "Backlighting: Smart adaptive single-color",
+  "Battery Life: up to 10 days"
+ ],
+ "warranty": "1 Year warranty",
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://smartbd.com/product/logitech-mx-keys-s-wireless-keyboard-graphite/",
+ "store": "smartbd"
+}

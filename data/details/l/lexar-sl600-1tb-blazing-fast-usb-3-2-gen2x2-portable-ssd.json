@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface": "USB 3.2 Gen2x2",
+   "Sequential R/W": "Read Speed: up to 2000MB/s read\nWrite Speed: up to 2000MB/s write"
+  },
+  "Physical Specification": {
+   "Dimension": "112.6 mm x 59mm x 10.6mm(4.433” x 2.323” x 0.417”)",
+   "Weight": "64g / 0.141lbs",
+   "Color": "Graphite Grey"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ 70°C",
+   "Storage Temperature": "-40°C ~ 85°C",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis (X,Y,Z)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Sequential Read & Write Speed: 2000MB/s & 2000MB/s",
+  "Interface: USB 3.2 Gen2x2",
+  "Operating Temperature: 0°C ~ 70°C",
+  "Storage Temperature: -40°C ~ 85°C"
+ ],
+ "price": 2330023500,
+ "regular": 25820,
+ "status": "In Stock",
+ "code": "32586",
+ "brand": "Lexar",
+ "mpn": "LSL600X001T-RNBNG",
+ "model": "SL600",
+ "warranty": "5 years",
+ "name": "Lexar SL600 1TB Blazing-fast USB 3.2 Gen2x2 Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Lexar",
+  "Lexar SL600 1TB Blazing-fast USB 3.2 Gen2x2 Portable SSD"
+ ],
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://www.startech.com.bd/lexar-sl600-1tb-blazing-fast-portable-ssd",
+ "store": "startech"
+}

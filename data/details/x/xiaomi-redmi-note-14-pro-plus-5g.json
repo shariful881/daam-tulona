@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n8 GB\n12 GB\n8 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n128GB\n256GB\n512GB\n128GB",
+   "Region": "Choose an option\nCN\nIND\nINT\nCN\nIND\nINT\nClear"
+  },
+  "Specifications": {
+   "Model": "Redmi Note 14 Pro Plus",
+   "OS": "Android 14, up to 3 major Android upgrades, HyperOS",
+   "Network": "GSM / CDMA / HSPA /LTE / 5G",
+   "SIM": "Nano-SIM, eSIM or Dual SIM (Nano-SIM, dual stand-by)",
+   "Dimensions & Weight": "162.3 x 74.4 x 8.2 mm or 8.5 mm\nWeight: 190 g (6.70 oz)",
+   "Build": "Glass front, plastic frame, glass back or silicone polymer (eco leather) back",
+   "Rear Camera": "Triple\n50 MP, f/1.6, (wide), 1/1.55″, 1.0µm, PDAF, OIS\n50 MP, f/2.0, 60mm (telephoto), PDAF (50cm – ∞), 2.5x optical zoom\n8 MP, f/2.2, 120˚ (ultrawide), 1/4.0″, 1.12µm\nFeatures\nLED flash, HDR, panorama\nVideo\n4K@24/30fps, 1080p@30/60/120fps, gyro-EIS, OIS",
+   "System Storage": "512GB/256GB",
+   "RAM(GB)": "8GB/12GB",
+   "Processor": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+   "CPU Architecture": "Octa-core (1×2.5 GHz Cortex-A720 & 3×2.4 GHz Cortex-A720 & 4×1.8 GHz Cortex-A520)",
+   "GPU": "Mali-G615 MC2",
+   "Audio": "Loudspeaker: Yes, with stereo speakers\n3.5mm jack: Unspecified\n24-bit/192kHz Hi-Res audio",
+   "Location": "GPS, GLONASS, BDS, GALILEO, QZSS",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity (ultrasonic)"
+  },
+  "Display": {
+   "Type": "AMOLED, 68B colors, 120Hz, HDR10+, Dolby Vision, 3000 nits (peak)",
+   "Size": "6.67 inches, 107.4 cm2 (~88.9% screen-to-body ratio)",
+   "Resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus 2"
+  },
+  "Front Camera": {
+   "Single": "20 MP, f/2.2, (wide), 1/4.0″",
+   "Features": "HDR, panorama",
+   "Video": "1080p@30/60fps"
+  },
+  "Battery and Charging": {
+   "Type": "Si/C 6200 mAh, non-removable",
+   "Charging": "90W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE, LHDC",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+   "NFC": "Yes (market/region dependent)",
+   "Infrared port": "Yes",
+   "Radio": "Unspecified",
+   "USB": "USB Type-C 2.0, OTG"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB",
+   "Region": "CN\n,\nIND\n,\nINT"
+  }
+ },
+ "key_features": [
+  "Model: Note 14 Pro Plus",
+  "Display: 6.67 inches, AMOLED",
+  "Resolution: 1220 x 2712 pixels",
+  "CPU: Octa-core(Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm))",
+  "GPU: Mali-G615 MC2",
+  "Front Camera: 20MP",
+  "Rear camera: 50MP+50MP+8MP",
+  "Battery: Si/C 6200 mAh, non-removable"
+ ],
+ "model": "Redmi Note 14 Pro Plus",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-14-pro-plus/",
+ "store": "diamu"
+}

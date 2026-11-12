@@ -1,0 +1,101 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core Ultra 7 255H",
+   "Generation": "Intel Core Ultra Processors (Series 2)",
+   "Processor Frequency": "Max 5.1 GHz",
+   "Processor Core": "16C (6P + 8E + 2LPE)",
+   "Processor Thread": "16T",
+   "CPU Cache": "24MB",
+   "NPU": "NPU Peak 13 TOPS\nGPU Peak 74 TOPS\nOverall Peak 96 TOPS"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC (System on Chip) platform"
+  },
+  "Display": {
+   "Display Size": "14 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD+ WUXGA (1920 x 1200)",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "60 Hz",
+   "Display Features": "300nits Anti-glare, 45% NTSC"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600MHz",
+   "Total RAM Slot": "2",
+   "Max RAM Capacity": "Up to 64 GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0×4 NVMe Opal 2.0 SSD",
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "Yes",
+   "Supported SSD Type": "Two M.2 slots\nOne M.2 2242 PCIe 4.0 x4 slot\nOne M.2 2280 PCIe 4.0 x4 slot",
+   "Storage Upgrade": "Up to two drives, 2x M.2 SSD\nM.2 2242 SSD up to 1TB\nM.2 2280 SSD up to 1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Spill-Resistant Keyboard",
+   "Keyboard Features": "6-row, spill-resistant, multimedia Fn keys with Unified Communications controls",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "FHD 1080p + IR Hybrid with Privacy Shutter",
+   "Speaker": "2W x2 Stereo Speakers",
+   "Microphone": "Dual-microphone array with smart noise-cancelling",
+   "Audio Features": "Dolby Atmos, audio by HARMAN\nHigh Definition (HD) Audio, Senary SN6141 codec"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "x HDMI® 2.1, up to 4K/60Hz",
+   "USB 3 Port": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1)\n1x USB-A (USB 10Gbps / USB 3.2 Gen 2), Always On",
+   "USB Type-C / Thunderbolt Port": "1x USB-C (USB 20Gbps / USB 3.2 Gen 2×2), with USB PD 3.0 and DisplayPort 1.4\n1x USB-C (Thunderbolt 4 / USB4 40Gbps), with USB PD 3.0 and DisplayPort 2.1",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "LAN": "1x Ethernet (RJ-45)\nGigabit Ethernet, Intel Ethernet Connection I219-V, 1x RJ-45, supports Wake-on-LAN",
+   "WiFi": "Intel Wi-Fi 6E AX211, 802.11ax 2×2 Wi-Fi",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Locker Slot": "Kensington Security Slot",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "TPM 2.0 Enable"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Power": {
+   "Battery Type": "Li-Polymer",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W USB-C (3-pin) AC adapter\nSupports Rapid Charge (charge up to 50% in 30min)"
+  },
+  "Physical Specification": {
+   "Color": "Iron Grey",
+   "Dimensions": "313 x 219.3 x 18.59 mm (12.32 x 8.63 x 0.73 inches)",
+   "Weight": "1.42kg",
+   "Body Material": "Aluminium (top), PC-ABS (bottom)"
+  },
+  "Warranty": {
+   "Warranty Details": "3 years Warranty (Battery 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 7 255H (24MB Cache, Up to 5.10 GHz)",
+  "RAM: 16GB DDR5 5600MHz, Storage: 512GB PCIe NVMe M.2 SSD",
+  "Display: 14″ IPS WUXGA (1920 x 1200), Anti-glare, 300nits",
+  "Features: Privacy Shutter, Wi-Fi 6E, Dolby Atmos, Military Grade"
+ ],
+ "warranty": "3 years Warranty (Battery 1 year).",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://smartbd.com/product/lenovo-thinkpad-e14-gen-7-intel-core-ultra-7-255h-14-inch-wuxga-laptop/",
+ "store": "smartbd"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "650-1750 RPM ± 10%",
+   "Fan Airflow": "122.4 m³/h (71.9 CFM) (Max)",
+   "Noise": "27.2 dBA (Max)",
+   "Air Pressure": "1.86 mmH₂O (Max)",
+   "Connector": "Pump Connector: 3-Pin ARGB + 4-Pin PWM\nFan Connector: 7-Pin PWM + ARGB",
+   "LED Number": "ARGB",
+   "Material": "Radiator Material: Aluminum"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator: 360: 394 x 119.6 x 27.2 mm (15.5 x 4.7 x 1.1 inch)\nPump: 83.6 x 78.5 x 62.9 mm​ (3.3 x 3.1 x 2.5 inch)\nFan: 120 x 120 x 25 mm ​ (4.7 x 4.7 x 1 inch)"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA 1851 / 1700 / 1200 / 1150 / 1151 / 1155 / 1156",
+   "AMD": "AMD AM5 / AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 650 ~ 1750 RPM ±10%",
+  "Motor Speed: 2800 ±10% RPM, Dual Chamber Pump​​",
+  "Pre-Applied CryoFuze Thermal Paste, Innovative Design​",
+  "Compatibility: Intel LGA 1851/1700, AMD AM5/AM4"
+ ],
+ "price": 10800,
+ "regular": 11880,
+ "status": "In Stock",
+ "code": "50163",
+ "brand": "Cooler Master",
+ "mpn": "MLX-D36M-A18PA-R1",
+ "model": "MasterLiquid Core Nex",
+ "warranty": "5 Years",
+ "name": "Cooler Master MasterLiquid Core Nex ARGB 360mm Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Cooler Master",
+  "Cooler Master MasterLiquid Core Nex ARGB 360mm Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-masterliquid-core-nex-argb-360mm-cpu-cooler",
+ "store": "startech"
+}

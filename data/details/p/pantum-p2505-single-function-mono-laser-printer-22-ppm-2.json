@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "General": {
+   "Printer Type": "Single Function Mono Laser",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Print Speed": "22 ppm (A4) / 23 ppm (Letter)",
+   "Print Resolution": "1200 x 1200dpi",
+   "Duplex": "Manual",
+   "First Print Out Time": "Less than 7.8s"
+  },
+  "Paper Information": {
+   "Input Capacity": "150 pages",
+   "Output Capacity": "100 pages",
+   "Paper Size": "A4, A5, A6, JIS B5, ISO B5, B6, Letter, Legal (8.5 x 13.0 Inch), Executive, Statement, Monarch envelope, DL envelope, C5 envelope, C6 envelope, NO.10 envelope, Japanese postcard, Folio, Oficio, Big 16k, 32k, 16k, Big 32k, ZL,Yougata4, Postcard, Younaga3, Nagagata3, Yougata2",
+   "Paper Type": "Plain, Thick, Transparency, Cardstock, Label, Envelope, Thin"
+  },
+  "Technical Specification": {
+   "Processor": "600MHz",
+   "Memory": "128MB",
+   "Connectivity": "Hi-Speed USB 2.0",
+   "Power Consumption": "AC100-127V (+-10%), 50Hz/60Hz, 6A, AC220-240V (-15%,+10%), 50Hz/60Hz, 3A, 370W (Printing), 38W (Ready)"
+  },
+  "Physical Specifications": {
+   "Color": "Black",
+   "Dimension": "337 x 220 x 178 mm",
+   "Weight": "4.75kg"
+  },
+  "Special Features": {
+   "Others": "Copy Color: Black & White"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Printer Technology: Laser Printer",
+  "Print Speed: 22ppm (A4)",
+  "First Printout Time: 7.8sec",
+  "Resolution: 1200 x 1200dpi"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:21+06:00",
+ "source": "https://fourstarit.com.bd/p/pantum-p2505-single-function-mono-laser-printer-22-ppm",
+ "store": "fourstar"
+}

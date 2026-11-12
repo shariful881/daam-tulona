@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Realme Pad Specification": {
+   "Model": "Realme Pad",
+   "OS": "realme UI for Pad, Based on Android 11",
+   "Display": "26.31cm (10.4″) WUXGA+ Immersive Display\nSize: 10.4 inches\nResolution: 2000×1200 WUXGA+\nScreen-to-body ratio: 82.5%\nColor: 16.7 million colors\nType: LCD\nBrightness: 360 nits (Typ)\nSupports Sunlight Mode",
+   "Front Camera": "8MP HD Camera\n105°Wide-angle",
+   "Rear Camera": "8MP HD Camera",
+   "System Storage": "32GB ROM",
+   "RAM(GB)": "3GB",
+   "Processor": "Helio G80 Gaming Processor\n12nm Octa-core\nMaximum frequency 2.0GHz",
+   "CPU Architecture": "A55×6 1.8GHz\nA75×2 2.0GHz",
+   "GPU": "Mali-G52 (950MHz)",
+   "Battery": "7100mAh (Typ)\n18W Quick Charge\nReverse Chargin",
+   "Sensors": "Light Sensor\nAcceleration Sensor\nHall Sensor\nGyro-meter"
+  },
+  "Network & Connectivity": {
+   "Cellular": "No",
+   "WLAN": "2.4/5GHz",
+   "Bluetooth": "5.0",
+   "Navigation": "GPS/AGPS, Beidou, Glonass"
+  },
+  "Dimensions & Weight": {
+   "Length": "246.1mm",
+   "Width": "155.9mm",
+   "Depth": "6.9mm",
+   "Weight": "440g"
+  }
+ },
+ "key_features": [
+  "Display: 10.4” IPS LCD",
+  "CPU: Helio G80 Gaming Processor",
+  "GPU: Mali-G52 (950MHz)",
+  "Front Camera: 8MP",
+  "Resolution: 2000×1200 pixels",
+  "RAM & ROM: 3GB + 32GB",
+  "Rear camera: 8MP",
+  "Battery: 7100mAh, Fast Charging 18W"
+ ],
+ "model": "Realme Pad",
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://diamu.com.bd/product/realme-pad-3gb-32gb-wi-fi-official/",
+ "store": "diamu"
+}

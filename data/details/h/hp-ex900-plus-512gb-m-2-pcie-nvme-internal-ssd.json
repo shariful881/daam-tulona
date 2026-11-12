@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2",
+   "Interface": "PCIe 3.0 x 4",
+   "MTBF": "More than 1,000,000 hours",
+   "Flash Type": "3D NAND",
+   "Sequential R/W": "Sequential R/W: up to 3300MB/s / 2700MB/s"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40 to 85 °C",
+   "Shock resistance": "100 G/ 6 s",
+   "Vibration Resistance": "3.1 GRMS (2-500Hz)"
+  },
+  "Physical Specification": {
+   "Weight": "10 g",
+   "Dimensions": "80 × 22 × 2.4 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "EX900 PLUS"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe 3.0 x 4",
+  "Capacity: 512GB",
+  "Form Factor: M.2 2280",
+  "Sequential R/W: up to 3300MB/s / 2700MB/s"
+ ],
+ "model": "EX900 PLUS",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:04+06:00",
+ "source": "https://www.creatus.com.bd/hp-ex900-plus-512gb-nvme-internal-ssd",
+ "store": "creatus"
+}

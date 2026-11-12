@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Camera Feature": {
+   "Image Sensor": "1/2.8” Progressive Scan CMOS",
+   "IR Distance": "30m"
+  },
+  "Lens": {
+   "Type": "Fixed Focal Lens",
+   "Focal Length": "2.8 mm",
+   "Aperture": "F2. 2",
+   "Angle of View": "Horizontal FOV: 97.8°, Vertical FOV: 52.9°, Diagonal FOV: 117.9°"
+  },
+  "Physical Specification": {
+   "Dimension": "174 × 74 × 71 mm",
+   "Weight": "0.2 Kg",
+   "Power": "12V DC ± 5%, 5.5mm Coaxial Power Plug\nPoE (802.3af/at, class 0)",
+   "Interface": "1 RJ45 10/100M Self-Adaptive Ethernet Port",
+   "Others": "Human & Vehicle Classification, Area Intrusion Detection, Line-Crossing Detection, People Detection, Vehicle Detection, Region Entering Detection, Region Exiting Detection, Object Abandoned Detection, Object Removal Detection, Motion Detection, Video Tampering Detection, Exception ( Illegal Login)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/2.8” Progressive Scan CMOS",
+  "Resolution: Max. 3 MP (2304x1296) at 25/30 fps.",
+  "Lens: 2.8mm, Aperture: F2.2, IR Distance: 30 meters",
+  "Features: PoE, IP67, DWDR, 3D DNR, Smart Detection"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:25+06:00",
+ "source": "https://fourstarit.com.bd/p/tp-link-vigi-c330i-3mp-ir-bullet-ip-camera",
+ "store": "fourstar"
+}

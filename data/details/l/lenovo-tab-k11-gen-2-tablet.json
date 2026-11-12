@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "ZAFN0384IN"
+  },
+  "Performance": {
+   "Processor": "MediaTek Dimensity 6300 (8C, 2x A76 @2.4GHz + 6x A55@2.0GHz)",
+   "Graphics": "Integrated Arm Mali-G57 MC2 GPU",
+   "Chipset": "MediaTek SoC Platform",
+   "Memory": "8GB Soldered LPDDR4X",
+   "Storage": "128GB UFS 2.2",
+   "Card Reader": "Nano-SIM & microSD Card Slot",
+   "Max Storage Support": "128GB UFS 2.2 on systemboard, microSD card, supports up to 2TB (exFAT)",
+   "Speakers": "4 speakers, optimized with Dolby Atmos®",
+   "Microphone": "Mono",
+   "Camera": "Front 8.0MP / Rear 13.0MP with Flashlight",
+   "VoiceCall": "Voice Call",
+   "Vibration Motor": "No support",
+   "Sensors": "Accelerometer sensor, Ambient light sensor (ALS), Hall sensor",
+   "Battery": "7040mAh (Typical)",
+   "Power Adapter": "10V / 2A (20W)"
+  },
+  "Design": {
+   "Display": "11″ 2.5K (2560×1600) IPS 500nits Anti-fingerprint, 72% NTSC, 90Hz, Touch",
+   "Touchscreen": "In-cell, 10-point Multi-touch",
+   "Screen-to-Body Ratio": "85%",
+   "Pen": "Pen Upgradable (Purchase Separately)",
+   "Keyboard": "None",
+   "Dimensions (WxDxH)": "254.59 x 166.15 x 6.99 mm (10.02 x 6.54 x 0.28 inches)",
+   "Weight": "480 g ± 10 g (1.06 lbs ± 0.02 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "Metal"
+  },
+  "Software": {
+   "Operating System": "Android™ 15 or Later"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 5, 802.11ac 1×1 + BT5.2",
+   "WWAN": "5G Sub-6 GHz",
+   "SIM Card": "Dual SIM (Nano-SIM + eSIM)",
+   "Location Services": "GPS + GLONASS + Galileo + A-GPS",
+   "Standard Ports": "1x USB-C® (Hi-Speed USB / USB 2.0), with charging, 1x Headphone / microphone combo jack (3.5mm), 1x Card slot"
+  },
+  "Service": {
+   "Base Warranty": "2years standard warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ErP Lot 6/26, RoHS compliant",
+   "Dust and Water Resistant": "IP52",
+   "Other Certifications": "TÜV Rheinland® Flicker Free, TÜV Rheinland® Low Blue Light (Hardware Solution)"
+  }
+ },
+ "key_features": [],
+ "model": "ZAFN0384IN",
+ "warranty": "2years standard warranty",
+ "fetched": "2026-11-12T18:24+06:00",
+ "source": "https://smartbd.com/product/lenovo-tab-k11-gen-2-tablet/",
+ "store": "smartbd"
+}

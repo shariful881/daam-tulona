@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "10000mAh (2*5000mAh)/3.7V 37Wh"
+  },
+  "General Information": {
+   "Dimensions": "115mm x 83mm x 27mm"
+  },
+  "Main Features": {
+   "Input Voltage": "DC 12V / 2.0A"
+  },
+  "Output Voltage": {
+   "DC": "5V / 2.0A* 1 ports",
+   "USB": "5V / 2.0A * 1 ports"
+  },
+  "External Features": {
+   "Weight": "245g"
+  },
+  "Output Features": {
+   "Backup Time": "2 Hours"
+  },
+  "Battery": {
+   "Rated Power": "18W (Max.)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  },
+  "Image": {
+   "Model": "KP3"
+  }
+ },
+ "key_features": [
+  "Battery Capacity: 10000mAh (2*5000mAh)/3.7V 37Wh",
+  "Input: DC 12V / 2.0A",
+  "Output: 3x DC, 1x USB"
+ ],
+ "model": "KP3",
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.creatus.com.bd/marsriva-kp3-10000mah-smart-mini-dc-ups-for-router",
+ "store": "creatus"
+}

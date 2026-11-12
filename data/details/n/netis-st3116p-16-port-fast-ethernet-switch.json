@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Transmission Rate": "Store and Forward"
+  },
+  "Main Features": {
+   "Interface": "16 * 10/100M bps RJ45 port, Auto-Negotiation, Auto MDI/MDIX",
+   "Port": "16",
+   "Network Standard": "IEEE 802.3 10Base-T, IEEE 802.3u 100Base-TX, IEEE 802.3x Flow Control, IEEE 802.3az",
+   "Data Transmission Rate": "10/100Mbps(Half-duplex)\n20/200/2000Mbps(Full-duplex)",
+   "MAC Address Table": "8K"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90%RH non-condensing",
+   "Storage Humidity": "5%~90%RH non-condensing"
+  },
+  "Power": {
+   "Power Supply": "DC 9V/500mA(Output)"
+  },
+  "Physical Specification": {
+   "Weight": "1.2 pounds",
+   "Dimensions": "230 x 230 x 70 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year Warranty"
+  },
+  "Image": {
+   "Model": "ST3116P"
+  },
+  "Product List": {
+   "Best Switch price list in bd": "Price",
+   "Netis P110GC 8GE+2GE Gigabit POE Switch": "5,550৳",
+   "Netis P110C 8POE+2RJ45 100M Standard POE Switch": "3,550৳",
+   "Netis ST3105c 5 Port Fast Ethernet Switch": "640৳",
+   "Netis P106C 4POE+2RJ45 100M Standard POE Switch": "2,250৳",
+   "Netis ST3108GC 8 Port Gigabit Ethernet Switch": "2,450৳",
+   "Netis P116GH 16-Port Unmanaged POE Switch": "15,500৳",
+   "Netis P124GH 24-Port Unmanaged POE Switch": "24,500৳"
+  }
+ },
+ "key_features": [],
+ "model": "ST3116P",
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.creatus.com.bd/netis-st3116p-16-port-ethernet-switch",
+ "store": "creatus"
+}

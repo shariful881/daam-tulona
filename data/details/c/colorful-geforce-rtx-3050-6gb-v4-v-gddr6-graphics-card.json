@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Core Clock": "Base:1042Mhz; Boost:1470Mhz",
+   "Memory Clock": "14Gbps",
+   "BUS Type": "96bit",
+   "CUDA Cores": "2304",
+   "Others": "NV technology Support: NVIDIA DLSS, NVIDIA G-SYNC, 2nd Gen Ray Tracing Cores\nSlot Number: 2 slot\nAuto Stop Technology"
+  },
+  "Interface": {
+   "Display Port": "1x DP",
+   "HDMI": "1x HDMI",
+   "DVI": "1x DVI"
+  },
+  "Power Specifications": {
+   "Connectors": "3+1",
+   "Recommended PSU": "450W"
+  },
+  "Display Option": {
+   "Multi Display": "3 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "OpenGL4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "239.1*114.4*39mm",
+   "Others": "2 slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 6GB GDDR6, Memory Bandwidth: 168 GB/s",
+  "Core Clock: Base: 1042 MHz; Boost: 1470 MHz",
+  "CUDA Cores: 2304, Memory Clock: 14 Gbps",
+  "Display Outputs: 1x DisplayPort, 1x HDMI, 1x DVI"
+ ],
+ "price": 37000,
+ "regular": 40000,
+ "status": "In Stock",
+ "code": "46460",
+ "brand": "Colorful",
+ "model": "GeForce RTX 3050 6GB V4-V",
+ "warranty": "3 Years",
+ "name": "Colorful GeForce RTX 3050 6GB V4-V GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Colorful",
+  "Colorful GeForce RTX 3050 6GB V4-V GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.startech.com.bd/colorful-geforce-rtx-3050-6gb-v4-v-gddr6-graphics-card",
+ "store": "startech"
+}

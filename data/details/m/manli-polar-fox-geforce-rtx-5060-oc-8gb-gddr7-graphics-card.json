@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Display Features": {
+   "Others Features": "2.5-Slot"
+  },
+  "Main Features": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320"
+  },
+  "Video Memory Specifications": {
+   "Core Clock": "Base / Boost Clock: 2280/2550MHz",
+   "Memory Clock": "28.0Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "3840"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI",
+   "Display Port": "3 x DisplayPort"
+  },
+  "Physical Specification": {
+   "Dimensions": "330*190*90mm"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Polar Fox GeForce RTX 5060 OC"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, Memory Clock: 28 Gbps",
+  "Core Clock: Base: 2280 MHz; Boost: 2550 MHz",
+  "CUDA Cores: 3840, Memory Bandwidth: Up to 448 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "model": "Polar Fox GeForce RTX 5060 OC",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.creatus.com.bd/manli-polar-fox-geforce-rtx-5060-oc-8gb-gddr7-graphics-card",
+ "store": "creatus"
+}

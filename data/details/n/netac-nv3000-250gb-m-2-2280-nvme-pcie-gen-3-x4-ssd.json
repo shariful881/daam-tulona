@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "250GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "NVMe PCIe Gen 3 x4",
+   "Sequential R/W": "Seq. Read Speed: Up to 3100MB/s\nSeq. Write Speed: Up to 1400MB/s",
+   "MTBF": "2 million hours",
+   "TBW": "150",
+   "Others": "Random Read IOPS: Up to 160K\nRandom Write IOPS: Up to 120K"
+  },
+  "Physical Specification": {
+   "Dimension": "22 x 80 x 2.9 mm",
+   "Weight": "<8g",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃ to 70℃",
+   "Storage Temperature": "-40℃ to 85℃",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 250GB, 3D NAND Flash",
+  "From Factor: M.2 2280, Interface: NVMe PCIe Gen 3 x4",
+  "Seq. Read/ Write Speed: Up to 3000MB/s/ 1400MB/s",
+  "Supports S.M.A.R.T./TRIM Command/NCQ"
+ ],
+ "price": 63006500,
+ "regular": 7000,
+ "status": "In Stock",
+ "code": "45822",
+ "brand": "Netac",
+ "mpn": "NT01NV3000-250-E4X",
+ "model": "NV3000",
+ "warranty": "5 Years Warranty",
+ "name": "Netac NV3000 250GB M.2 2280 NVMe PCIe Gen 3 x4 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac NV3000 250GB M.2 2280 NVMe PCIe Gen 3 x4 SSD"
+ ],
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.startech.com.bd/netac-nv3000-250gb-ssd",
+ "store": "startech"
+}

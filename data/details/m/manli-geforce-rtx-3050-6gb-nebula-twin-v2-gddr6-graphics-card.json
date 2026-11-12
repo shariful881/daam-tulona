@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Base / Boost Clock: 1042/1470MHz",
+   "Memory Clock": "14Gbps",
+   "BUS Type": "96-bit",
+   "CUDA Cores": "2304",
+   "Others": "Memory Bandwidth: Up to 168 GB/s\nCooling Design: Heatsink with Twin Cooler\nNew NVIDIA Ampere Architecture\nNext-generation RT and Tensor Cores with twice the throughput"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Consumption": "70W"
+  },
+  "Physical Specifications": {
+   "Dimensions": "214 x 113 x 39mm",
+   "Others": "2-Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 6GB GDDR6, Memory Clock: 14 Gbps",
+  "Core Clock: Base: 1042 MHz; Boost: 1470 MHz",
+  "CUDA Cores: 2304, Memory Bandwidth: Up to 168 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "price": 3520035900,
+ "regular": 38630,
+ "status": "In Stock",
+ "code": "48378",
+ "brand": "Manli",
+ "mpn": "M-NRTX3050/6REHDPV2-M2619",
+ "model": "GeForce RTX 3050 6GB Nebula Twin V2",
+ "warranty": "3 Years (For warranty Full Box Required)",
+ "name": "Manli GeForce RTX 3050 6GB Nebula Twin V2 GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Manli",
+  "Manli GeForce RTX 3050 6GB Nebula Twin V2 GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.startech.com.bd/manli-geforce-rtx-3050-6gb-nebula-twin-v2-graphics-card",
+ "store": "startech"
+}

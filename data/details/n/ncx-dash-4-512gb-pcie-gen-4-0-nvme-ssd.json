@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 4.0 x4 NVMe",
+   "Flash Type": "N/A",
+   "MTBF": "2,000,000 Hours",
+   "Sequential R/W": "Read: Up to 7500 MB/s, Write: Up to 4000 MB/s",
+   "TBW": "350 TBW",
+   "IOPs (4K Random Write)": "N/A",
+   "Humidity": "N/A",
+   "Voltage": "DC +3.3V"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ 70°C",
+   "Storage Temperature": "-40°C ~ 85°C",
+   "Shock resistance": "N/A",
+   "Vibration Resistance": "N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "Dash 4"
+  }
+ },
+ "key_features": [],
+ "model": "Dash 4",
+ "warranty": "5 Years",
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.creatus.com.bd/ncx-dash-4-512gb-nvme-ssd",
+ "store": "creatus"
+}

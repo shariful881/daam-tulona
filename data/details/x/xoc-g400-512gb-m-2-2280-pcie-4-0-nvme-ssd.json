@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Certification": "CE, FCC, ROHS, VCCI, RCM, BSMI",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 4 x 4, NVMe 1.4",
+   "MTBF": "≤ 1,500,000 hours",
+   "TBW": "TBW - 250"
+  },
+  "Sequential R/W": {
+   "Read Speed": "5200 MB/s",
+   "Write Speed": "3000 MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "-40 °C to 85 °C",
+   "Storage Temperature": "0 °C to 70 °C"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "G400"
+  }
+ },
+ "key_features": [
+  "Blazing Fast Speeds: Read speed up to 5200 MB/s and write speed up to 3000 MB/s for superior performance.",
+  "High Capacity: 512GB storage provides ample space for programs, games, and media.",
+  "PCIe Gen 4.0 x4 Interface: Delivers ultra-fast data transfer rates for next-gen computing.",
+  "Built for Durability: MTBF of ≤ 1,500,000 hours and TBW of 250, ensuring long-lasting reliability.",
+  "Wide Temperature Range: Operates in extreme temperatures from -40°C to 85°C for reliable performance.",
+  "Certified for Safety: Complies with CE, FCC, ROHS, VCCI, RCM, and BSMI certifications."
+ ],
+ "model": "G400",
+ "warranty": "5 Years",
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.creatus.com.bd/xoc-g400-512gb-m2-2280-pcie-40-nvme-ssd",
+ "store": "creatus"
+}

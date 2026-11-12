@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Camera Feature": {
+   "Effective Pixels": "2MP",
+   "Image Sensor": "1/2.8\" CMOS",
+   "IR Distance": "30m",
+   "Others": "Scanning System: Progressive\nElectronic Shutter Speed: Auto/Manual, 1/3~1/100000s\nMinimum Illumination: 0.01\n[email protected]\n(Color, 30 IRE)\n0.001\n[email protected]\n(B/W, 30 IRE)\n0 lux (Illuminator on)"
+  },
+  "Lens": {
+   "Type": "Fixed",
+   "Focal Length": "Focal Length: 2.8 mm",
+   "Aperture": "Focal Length: 2.8 mm",
+   "Angle of View": "2.8 mm: Horizontal: 102°; Vertical: 54°; Diagonal:120°"
+  },
+  "Others": {
+   "Mount Type": "M12",
+   "Close Focus Distance": "3.6 mm: 0.8 m (2.6 ft)",
+   "Compression": "H.265; H.264; H.264B; 264H; MJPEG (Only supported by the sub stream)",
+   "Resolution": "1080p (1920 × 1080); 1.3M (1280 × 960); 720p (1280 × 720); D1 (704 × 576/704 × 480); VGA (640 × 480); CIF (352 × 288/352 × 240)",
+   "Frame Rate": "Main stream: 2560 × 1440@ (1–25/30 fps)",
+   "sub stream": "704 × 576@ (1–25 fps)/704 × 480@ (1–30 fps)",
+   "Noise Reduction": "3D DNR",
+   "Day/Night": "Auto (ICR)/Color/B/W",
+   "BLC Mode": "Yes",
+   "White Balance": "Auto; natural; street lamp; outdoor; manual; regional custom"
+  },
+  "Physical Specification": {
+   "Dimension": "103.2 mm × Φ109.9 mm (4.06\" × Φ4.33\")",
+   "Weight": "0.26 kg (0.57 lb)",
+   "Others": "Ingress Protection: IP67"
+  },
+  "Power": {
+   "Power Supply": "12V DC/PoE (802.3af)",
+   "Power Consumption": "Basic: 1.3 W (12 VDC); 2.1 W (PoE)Max. (ICR + H.265+IR intensity):2.6 W (12 VDC); 3.5 W (PoE)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/2.8\" CMOS",
+  "Max. Output Resolution: 2MP (1920 × 1080) @25/30 fps.",
+  "IR Distance: 30 m (49.21 ft)",
+  "Features: Motion detection, video tampering, IP67, Smart Codec, Abnormality Detection"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://fourstarit.com.bd/p/dahua-dh-ipc-hdw1230t2-s5-2mp-dome-ip-camera",
+ "store": "fourstar"
+}

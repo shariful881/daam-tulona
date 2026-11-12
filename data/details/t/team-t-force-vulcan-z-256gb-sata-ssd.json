@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Interface": "SATA Rev. 3.0 (6Gb/s)",
+   "MTBF": "1,000,000 hours",
+   "Flash Type": "3D NAND",
+   "Sequential R/W": "Read: up to 520MB/s ; Write: up to 450MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 55°C / 5% ~ 95% RH,non-condensing",
+   "Shock resistance": "1500G/0.5ms",
+   "Vibration Resistance": "20G (non-operating)"
+  },
+  "Physical Specification": {
+   "Dimensions": "100(L) x 69.9(W) x 7(H)mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  },
+  "Image": {
+   "Model": "T-FORCE VULCAN Z"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: SATA Rev. 3.0 (6Gb/s)",
+  "Read: up to 520MB/s; Write: up to 450MB/s"
+ ],
+ "model": "T-FORCE VULCAN Z",
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://www.creatus.com.bd/team-t-force-vulcan-z-256gb-sata-ssd",
+ "store": "creatus"
+}

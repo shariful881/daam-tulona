@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "LGA1700 socket: Support for the 14th, 13th, and 12th Generation Intel® Core, Pentium Gold and Celeron Processors\nL3 cache varies with CPU\n(Please refer \"CPU Support List\" for more information.)",
+   "Chipset": "Intel H610 Express Chipset",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 23.0cm x 21.5cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\n* You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.\nSupport for S/PDIF Out"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:\n- 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16\nChipset:\n- 1 x PCI Express x1 slot, supporting PCIe 3.0 and running at x1"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM sockets",
+   "Maximum Memory": "Supporting up to 128 GB (64 GB single DIMM capacity) of system memory"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "Chipset:\n- 4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header)\n- 6 x USB 2.0/1.1 ports (4 ports on the back panel, 2 ports available through the internal USB header)",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)",
+   "Supported Storage": "Chipset:\n- 1 x M.2 connector (Socket 3, M key, type 2280 PCIe 3.0 x4/x2 SSD support)\n- 2 x SATA 6Gb/s connectors",
+   "Display Port (s)": "1 x DisplayPort",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0 module only)"
+  },
+  "Others": {
+   "Special Features": "iTE I/O Controller Chip",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 2x DDR5, Max 128GB 5333(OC)",
+  "Graphics Output: 1x HDMI 2.1, 1 x DisplayPort",
+  "Features: Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-h610m-k-ddr5-micro-atx-motherboard",
+ "store": "pchouse"
+}

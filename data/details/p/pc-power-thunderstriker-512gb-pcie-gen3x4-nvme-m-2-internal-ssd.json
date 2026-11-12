@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Write Speed": "2100MB/s",
+   "Read Speed": "3100MB/s"
+  },
+  "Basic Information": {
+   "Type": "Internal SSD",
+   "Form Factor": "M.2 2280"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 to 70°C"
+  },
+  "Physical dimension": {
+   "Dimension": "80 x 22 x 3.8mm"
+  },
+  "Others": {
+   "Other Features": "PCIe/NVMe Generation: Gen3"
+  },
+  "Connectivity": {
+   "Interface": "NVMe"
+  },
+  "Power": {
+   "Power Consumption": "15W"
+  },
+  "Physical Specification": {
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Thunderstriker 512GB"
+  }
+ },
+ "key_features": [
+  "Type: Internal SSD",
+  "Storage: 512GB",
+  "Interface: NVMe",
+  "Generation: Gen3"
+ ],
+ "model": "Thunderstriker 512GB",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.creatus.com.bd/pc-power-thunderstriker-512gb-pcie-gen3x4-nvme-m2-internal-ssd",
+ "store": "creatus"
+}

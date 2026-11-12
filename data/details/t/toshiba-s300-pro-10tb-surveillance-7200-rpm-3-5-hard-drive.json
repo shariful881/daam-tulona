@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "10TB",
+   "Disk Type": "SATA",
+   "RPM": "7,200 Rpm",
+   "Interface Type": "SATA 6.0 Gbit/S",
+   "Data Buffer": "256 MB"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Rotational speed: 7,200 rpm",
+  "Data transfer speed: 248 MB/s Typ",
+  "Buffer size: 256 MB",
+  "Cameras supported: up to 64"
+ ],
+ "warranty": "02 Years",
+ "fetched": "2026-11-12T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/toshiba-s300-pro-10tb-hdd",
+ "store": "pchouse"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "DDR4",
+   "Memory Size": "16GB Kit (8GB x2)",
+   "Cas Latency": "CL17",
+   "Module Type": "2 Modules\nDIMM",
+   "RGB Type": "Yes",
+   "Features": "Rank 1R (Single Rank)\nMemory Depth 1G",
+   "LED Lighting": "RGB",
+   "Speed": "3600MHz (PC4-28800)",
+   "Origin": "China, Taiwan",
+   "Form Factor": "DDR4",
+   "Memory Series": "Fury Beast"
+  },
+  "Output": {
+   "Voltage": "1.35v"
+  },
+  "Others": {
+   "Others": "Data Width X64\nChip Organization x8\nHeat Spreader Yes\nIntel XMP-Ready Profiles Yes"
+  },
+  "Physical Specifications": {
+   "Color": "Black",
+   "PIN": "288 Pin",
+   "Heat Spreader": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "Life-Time"
+  }
+ },
+ "key_features": [
+  "Capacity : DDR4",
+  "Memory Size : 16GB Kit (8GB x2)",
+  "Cas Latency : CL17",
+  "Module Type : 2 Modules DIMM",
+  "RGB Type : Yes"
+ ],
+ "warranty": "Life-Time",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-beast-16gb-ddr4-rgb-desktop-ram-kit",
+ "store": "pchouse"
+}

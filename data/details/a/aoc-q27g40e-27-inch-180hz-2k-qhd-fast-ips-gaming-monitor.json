@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "Fast IPS",
+   "Display Size": "27 inch",
+   "Display Type": "LED",
+   "Resolution": "2560 × 1440 @ 180Hz – DisplayPort1.4; 2560 × 1440 @ 144Hz – HDMI2.0",
+   "Pixels Per Inch (PPI)": "0.2331 (H) × 0.2331 (V)",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)\nEffective Viewing Area (mm): 596.736 (H) × 335.664 (V)",
+   "Brightness": "300 cd/m2",
+   "Contrast Ratio": "1200 : 1 (Typical) 80 Million : 1",
+   "Refresh Rate": "180Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "sRGB 127% (CIE1931) / DCI-P3 102% (CIE1976)",
+   "Response Time": "1ms (GtG) / 0.5ms MPRT",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Yes + Adaptive Sync",
+   "HDCP": "HDCP 2.2"
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort1.4 x 1",
+   "HDMI": "HDMI 2.0 x1",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5° ~ 23°",
+   "Vesa Wall Mount": "100mm × 100mm"
+  },
+  "Dimension": {
+   "With Stand": "449.7 (H) × 613.9 (W) × 197.6 (D)",
+   "Without Stand": "366.3 (H) × 613.9 (W) × 51.1 (D)"
+  },
+  "Weight": {
+   "with stand": "3.53kg",
+   "without stand": "3.14 kg"
+  },
+  "Power": {
+   "Type": "External 20VDC, 2.25A",
+   "Power Consumption": "21W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Resolution: 2K QHD (2560 × 1440)",
+  "Display: FAST IPS, 180Hz, 1ms (GTG), 0.5ms (MPRT)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4, Audio Jack",
+  "Features: G-Sync, Adaptive Sync, Flicker Free, HDR10"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-q27g40e-gaming-monitor",
+ "store": "pchouse"
+}

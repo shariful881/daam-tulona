@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI-Express 4.0 x4",
+   "MTBF": "≥ 1,000,000 hours",
+   "Sequential R/W": "Speeds up to 7100 MB/s / 3800 MB/s",
+   "TBW": "300 TBW"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 °C to 70 °C",
+   "Storage Temperature": "-40 °C to 85 °C",
+   "Shock resistance": "100 G/ 6 ms",
+   "Vibration Resistance": "3.1 GRMS (2-500Hz)"
+  },
+  "Physical Specification": {
+   "Weight": "≤ 10 g",
+   "Dimensions": "80 × 22 × 3.2 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "FX900 Plus"
+  }
+ },
+ "key_features": [
+  "High-Speed Performance: Sequential read speeds up to 7000 MB/s and write speeds up to 3800 MB/s.",
+  "Large Storage Capacity: 512GB provides ample space for your files, games, and applications.",
+  "PCI-Express 4.0 x4 Interface: Enhanced data transfer speed for faster performance.",
+  "Long-Lasting Durability: MTBF of over 1,000,000 hours ensures reliability over time.",
+  "High Endurance: 300 TBW (Total Bytes Written) rating ensures the drive can handle heavy usage.",
+  "Compact Design: M.2 2280 form factor for compatibility with most desktops and laptops.",
+  "Shock Resistance: Withstands 100 G/6 ms shock for added durability.",
+  "Vibration Resistance: 3.1 GRMS ensures stability in various environments.",
+  "Temperature Tolerance: Operating temperature from 0°C to 70°C and storage temperature from -40°C to 85°C."
+ ],
+ "model": "FX900 Plus",
+ "warranty": "03 years",
+ "fetched": "2026-11-12T19:04+06:00",
+ "source": "https://www.creatus.com.bd/hp-fx900-plus-512gb-gen4-nvme-ssd",
+ "store": "creatus"
+}

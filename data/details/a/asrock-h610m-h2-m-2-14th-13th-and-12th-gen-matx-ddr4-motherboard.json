@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)\n- Supports Intel® Hybrid Technology\n- Supports Intel® Turbo Boost Max 3.0 Technology",
+   "Chipset": "Intel H610",
+   "BIOS": "- 128Mb AMI UEFI Legal BIOS with GUI support",
+   "Form Factor": "- Micro ATX Form Factor: 8.66-in x 7.6-in, 22.0 cm x 19.3 cm",
+   "Audio": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)"
+  },
+  "Expansion Slots": {
+   "PCI": "- 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n- 1 x PCIe 3.0 x1 Slot (PCIE2)*",
+   "M.2 Socket": "- 1 x Ultra M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen3x4 (32 Gb/s)\nmode*"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR4 Memory Technology",
+   "Slots": "2 x DDR4 DIMM Slots",
+   "Supported Memory": "- Supports DDR4 non-ECC, un-buffered memory up to 3200\n- Supports ECC UDIMM memory modules (operate in non-ECC mode)\n- Supports Intel® Extreme Memory Profile (XMP) 2.0",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "- Intel® Xe Graphics Architecture (Gen 12)\n- 2 x HDMI 2.1 TMDS Compatible, support HDCP 2.3 and max. resolution up to 4K 60Hz\n* Intel® UHD Graphics Built-in Visuals and the VGA outputs can be supported only with\nprocessors which are GPU integrated."
+  },
+  "Connector & Ports": {
+   "HDMI": "2 x HDMI Port",
+   "USB (s)": "- 4 x USB 3.2 Gen1 Type-A (2 Rear, 2 Front)\n- 6 x USB 2.0 (4 Rear, 2 Front)",
+   "LAN Port (s)": "- Gigabit LAN 10/100/1000 Mb/s\n- Realtek 8111H",
+   "Supported Storage": "- 1 x Ultra M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen3x4 (32 Gb/s) mode*\n- 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks",
+   "Audio": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)"
+  },
+  "Others": {
+   "Bundled Software": "- ASRock Motherboard Utility (A-Tuning)\nUEFI\n- ASRock EZ Mode\n- ASRock Full HD UEFI\n- ASRock My Favorites in UEFI\n- ASRock Auto Driver Installer\n- ASRock Instant Flash"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "H610M-H2/M.2"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supports: Up to DDR4 3200MHz",
+  "Graphics Output: 2x HDMI",
+  "Features: Realtek ALC897 7.1 CH HD Audio Codec"
+ ],
+ "model": "H610M-H2/M.2",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:48+06:00",
+ "source": "https://www.creatus.com.bd/asrock-h610m-h2-m-2-matx-ddr4-motherboard",
+ "store": "creatus"
+}

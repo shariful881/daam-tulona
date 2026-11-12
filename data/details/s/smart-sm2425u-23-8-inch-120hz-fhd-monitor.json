@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model Code": "SM2425U",
+   "Panel": "Description",
+   "Panel Type": "IPS (LED Backlight)",
+   "Panel Size": "24",
+   "Resolution": "1920 x 1080",
+   "Color Support": "16.7M",
+   "Brightness (cd/m²)": "250",
+   "Contrast Ratio": "1300:01:00",
+   "Refresh Rate": "120Hz",
+   "Response Time (ms)": "OD 5ms",
+   "Viewing Angle (H/V)": "Horizontal 178°,  Vertical 178°",
+   "Interface": "Description",
+   "Video Input": "1 * HDMI , 1 * VGA",
+   "VESA": "Description",
+   "VESA（mm）": "75 * 75",
+   "General": "Description",
+   "Input Voltage": "DC 12V , 2A",
+   "Typical power consumption（W）": "< 24 (on)",
+   "Standby power consumption （W）": "< 0.5 (Standby)",
+   "Product Dimensions": "539.2*320.4*41.3"
+  },
+  "（W * H * D）（mm）": {
+   "Package Dimensions": "612*101*405",
+   "Weight（Kg）": "Net Weight : 2.82"
+  },
+  "Gross Weight : 3.84": {
+   "Operation Temperature": "0°C ~ 40 °C",
+   "Operating Humidity": "10% ~ 85% (No Condensation)",
+   "Storage Temperature": "-10°C ~ 50°C",
+   "Storage Humidity": "10% ~ 90% (No Condensation)",
+   "Standard": "1 × HDMI Cable, 1 × Quick Guide, 1 × Pedestal, 1 × Adapter",
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Display Size: 23.8 Inch",
+  "Resulation: FHD (1920×1080)",
+  "Port: 1 x HDMI, 1 x VGA",
+  "Features: Refresh Rate (120Hz), Response Time (ms) (OD 5ms)"
+ ],
+ "model": "SM2425U",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://smartbd.com/product/smart-sm2425u-23-8-inch-120hz-fhd-monitor/",
+ "store": "smartbd"
+}

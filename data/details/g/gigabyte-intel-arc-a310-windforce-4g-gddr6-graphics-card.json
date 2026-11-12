@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "4GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "2000 MHz",
+   "Memory Clock": "15500 MHz",
+   "BUS Type": "64 bit",
+   "Others": "Xe-cores: 6\nGraphics Memory Bandwidth:124 GB/s"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort UP to 2.0",
+   "HDMI": "2 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "6-Pin",
+   "Recommended PSU": "350W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "L=192 W=117 H=35 mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Graphics Clock: 2000 MHz",
+  "Memory: 4GB GDDR6",
+  "Memory Bandwidth (GB/sec): 124 GB/s",
+  "Output: DP x2, HDMI x2"
+ ],
+ "price": 30000,
+ "regular": 33000,
+ "status": "In Stock",
+ "code": "31930",
+ "brand": "GIGABYTE",
+ "mpn": "GV-IA310WF2-4GD",
+ "model": "Intel Arc A310 WINDFORCE 4G",
+ "warranty": "3 years",
+ "name": "GIGABYTE Intel Arc A310 WINDFORCE 4G GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "GIGABYTE",
+  "GIGABYTE Intel Arc A310 WINDFORCE 4G GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://www.startech.com.bd/gigabyte-intel-arc-a310-windforce-4g-graphics-card",
+ "store": "startech"
+}

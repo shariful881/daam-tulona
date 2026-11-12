@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "2.5 Inch",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III 6Gb/s",
+   "Sequential R/W": "up to 530/480 MB/s",
+   "MTBF": "2,000,000 hour(s)"
+  },
+  "Physical Specification": {
+   "Dimension": "100 mm x 69.85 mm x 6.8 mm",
+   "Weight": "45 g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Capacity: 500GB",
+  "Interface:  SATA III 6Gb/s",
+  "Flash Type: top-notch 3D NAND flash",
+  "Sequential Read/Write: up to 530/480 MB/s"
+ ],
+ "price": 1390014200,
+ "regular": 15080,
+ "status": "In Stock",
+ "code": "24679",
+ "brand": "Transcend",
+ "mpn": "TS500GSSD225S",
+ "model": "225S",
+ "warranty": "03 years",
+ "name": "Transcend 225S 500GB 2.5 Inch SATA III SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Transcend",
+  "Transcend 225S 500GB 2.5 Inch SATA III SSD"
+ ],
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.startech.com.bd/transcend-225s-500gb-sata-iii-ssd",
+ "store": "startech"
+}

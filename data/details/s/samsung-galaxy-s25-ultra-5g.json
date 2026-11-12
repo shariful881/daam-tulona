@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n1TB\n256GB\n512GB\n1TB\n256GB\n512GB",
+   "Sim": "Choose an option\nDual Sim\nDual Sim\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy S25 Ultra",
+   "OS": "Android 15, up to 7 major Android upgrades, One UI 7",
+   "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+   "Build": "Glass front (Corning Gorilla Armor 2), glass back (Corning Gorilla Armor 2), titanium frame (grade 5)",
+   "System Storage": "128GB/256GB/512GB",
+   "RAM(GB)": "12GB",
+   "SIM Card": "SIM 1 + SIM 2 / SIM 1 + eSIM / Dual eSIM",
+   "Processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+   "CPU": "Octa-core (2×4.47 GHz Oryon V2 Phoenix L + 6×3.53 GHz Oryon V2 Phoenix M)",
+   "GPU": "Adreno 830",
+   "Battery": "Type: Li-Ion 5000 mAh\nCharging\n45W wired, PD3.0, 65% in 30 min\n25W wireless (Qi2)\n4.5W reverse wireless",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer"
+  },
+  "Weight & Dimension": {
+   "Dimension (HxWxD, mm)": "162.8 x 77.6 x 8.2",
+   "Weight (g)": "218"
+  },
+  "Display": {
+   "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
+   "Size": "6.9 inches, 116.9 cm2 (~92.5% screen-to-body ratio)",
+   "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~498 ppi density)",
+   "Protection": "Corning Gorilla Armor 2"
+  },
+  "Front Camera": {
+   "Single": "12 MP, f/2.2, 26mm (wide), 1/3.2″, 1.12µm, dual pixel PDAF",
+   "Features": "HDR, HDR10+",
+   "Video": "4K@30/60fps, 1080p@30fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, DisplayPort 1.2, OTG"
+  },
+  "Specification": {
+   "Internal Storage": "1TB\n,\n256GB\n,\n512GB",
+   "Sim": "Dual Sim"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy S25 Ultra",
+  "Display: 6.9 inches Dynamic AMOLED 2X",
+  "Resolution: 1440 x 3120 pixels",
+  "CPU: Octa Core (Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm))",
+  "GPU: Adreno 830",
+  "Front Camera: 12MP",
+  "Rear camera: 200MP + 10MP + 50MP + 50MP",
+  "Battery: Li-Ion 5000 mAh"
+ ],
+ "model": "Galaxy S25 Ultra",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-s25-ultra/",
+ "store": "diamu"
+}

@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n16 GB\n8 GB\n6 GB\n16 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB\n,\n8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Model": "iQOO Z10 Turbo Pro",
+   "OS": "Android 15, OriginOS 5",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Rear Camera": "Dual\n50 MP, f/1.8, (wide), 1/1.95\", 0.8µm, PDAF, OIS\n8 MP, f/2.2, (ultrawide)\nFeatures: Color spectrum sensor, LED flash, HDR, panorama\nVideo: 4K@30/60fps, 1080p, gyro-EIS, OIS",
+   "System Storage": "12GB,8GB\n256GB",
+   "SIM Card": "Nano-SIM + Nano-SIM",
+   "Processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
+   "CPU Core": "Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720)",
+   "GPU": "Adreno 825",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+  },
+  "Body, Dimension and Weight": {
+   "Dimensions": "163.7 x 75.9 x 8.1 mm (6.44 x 2.99 x 0.32 in)",
+   "Weight": "206 g (7.27 oz)"
+  },
+  "Display": {
+   "Type": "AMOLED, 1B colors, 144Hz, 4320Hz PWM, HDR, 2000 nits (HBM), 4400 nits (peak)",
+   "Size": "6.78 inches, 111.0 cm2 (~89.3% screen-to-body ratio)",
+   "Resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "16 MP, f/2.5, (wide), 1/3.0\", 1.0µm",
+   "Video": "1080p@30fps, gyro-EIS"
+  },
+  "Battery & Charging": {
+   "Type": "Si/C Li-Ion 7000 mAh",
+   "Charging": "120W wired, 100W PD, 100W PPS, 50% in 15 min, 100% in 33 min"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+   "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5",
+   "Positioning": "GPS (L1+L5), BDS (B1I+B1C+B2a), GALILEO (E1+E5a), QZSS (L1+L5), GLONASS",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Display: 6.78 inches,120Hz, AMOLED",
+  "Resolution: 1260 x 2800 pixels",
+  "CPU: Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
+  "GPU: Adreno 825",
+  "Front Camera: 16MP",
+  "Rear Camera: 50MP+8MP",
+  "Battery Capacity: Si/C Li-Ion 7000 mAh"
+ ],
+ "model": "iQOO Z10 Turbo Pro",
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://diamu.com.bd/product/iqoo-z10-turbo-pro/",
+ "store": "diamu"
+}

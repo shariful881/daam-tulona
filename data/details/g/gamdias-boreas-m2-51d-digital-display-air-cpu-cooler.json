@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800-1800 RPM ±10%",
+   "Type": "Air CPU Cooler",
+   "Noise": "10-32 dBA",
+   "Air Pressure": "2.63 mmH2O",
+   "Connectors": "4 Pin PWM / 9-Pin USB",
+   "Others": "Digital Monitor\nMatte Black Finish\n5 Copper Heat Pipes with Direct Contact Technology\nHigh Cooling Performance Thick Base Plate\n120mm Hydraulic Bearing PWM Fan with 72.94 CFM, 2.63 mmH2O\nCompatible with 159 mm Height\nSupports ZEUS CAST Software"
+  },
+  "Material": {
+   "Fin Material": "Aluminum",
+   "Heatpipe Material": "Copper",
+   "Bearing": "Hydraulic"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700/1151/1150/1155/1156/1200/2011/2066",
+   "AMD": "AM5/AM4"
+  },
+  "Cooling System": {
+   "Fan Airflow": "72.94 CFM"
+  },
+  "Dimensions": {
+   "Fan Dimensions": "120 x 120 x 25 mm",
+   "Product Dimensions": "120 x 75 x 159 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "BOREAS M2-51D"
+  }
+ },
+ "key_features": [],
+ "model": "BOREAS M2-51D",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:53+06:00",
+ "source": "https://www.creatus.com.bd/gamdias-boreas-m2-51d-digital-display-air-cpu-cooler",
+ "store": "creatus"
+}

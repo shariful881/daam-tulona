@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n256GB\n512GB\n128GB\n256GB\n512GB\n128GB\nClear"
+  },
+  "Specification": {
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB",
+   "Model": "Galaxy S25 FE",
+   "OS": "Android 16, up to 7 major Android upgrades, One UI 8",
+   "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+   "Weight & Dimension": "161.3 x 76.6 x 7.4 mm (6.35 x 3.02 x 0.29 in)\n190 g (6.70 oz)",
+   "Build": "Glass front (Gorilla Glass Victus+), glass back (Gorilla Glass Victus+), aluminum frame",
+   "System Storage": "128GB/256GB/512GB",
+   "RAM(GB)": "12GB",
+   "SIM Card": "SIM 1 + SIM 2 / SIM 1 + eSIM / Dual eSIM",
+   "Processor": "Exynos 2400 (4 nm)",
+   "CPU": "10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520)",
+   "GPU": "Xclipse 940",
+   "Battery": "Type: 4900 mAh\nCharging: 45W wired, PD, QC2, 65% in 30 min\n15W wireless, Qi2 compatible\nReverse wireless",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer"
+  },
+  "Display": {
+   "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)",
+   "Size": "6.7 inches, 110.2 cm2 (~89.2% screen-to-body ratio)",
+   "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus+, Mohs level 5"
+  },
+  "Front Camera": {
+   "Single": "12 MP, f/2.2, 26mm (wide), 1/3.2\", 1.12µm",
+   "Video": "4K@30/60fps, 1080p@30/60fps; gyro-EIS, HDR10+"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band or tri-band (market/region dependent), Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, OTG"
+  }
+ },
+ "key_features": [
+  "Display: 6.7” Dynamic LTPO AMOLED 2X",
+  "OS: Android 16, One UI 8",
+  "CPU: Exynos 2400 (4 nm)",
+  "GPU: Xclipse 940",
+  "Front Camera: 12 MP",
+  "Rear camera: 50MP + 8MP + 12MP",
+  "Resolution: 1080 x 2340 pixels",
+  "Battery: 4900 mAh"
+ ],
+ "model": "Galaxy S25 FE",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-s25-fe/",
+ "store": "diamu"
+}

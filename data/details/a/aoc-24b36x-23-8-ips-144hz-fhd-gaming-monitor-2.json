@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "24\"",
+   "Resolution": "FHD 1920 x 1080 pixels",
+   "Aspect Ratio": "16:9",
+   "Refresh Rate": "144Hz",
+   "Response Time": "0.5 ms (MPRT)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Yes",
+   "HDCP": "Yes"
+  },
+  "Connectivity": {
+   "Display Port": "x DisplayPort 1.4",
+   "HDMI": "1x HDMI 1.4"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100mm × 100mm"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "‎19.8 x 54.4 x 41.45 cm",
+   "Weight": "‎4 Kilograms"
+  },
+  "Power": {
+   "Type": "External",
+   "Power Consumption": "18W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 × 1080)",
+  "Display: IPS, 144Hz, 0.5ms (MPRT)",
+  "Ports: 1x HDMI 1.4, 1x DisplayPort 1.4",
+  "Features: Flicker-Free, VESA Adaptive Sync"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24b36x-monitor",
+ "store": "pchouse"
+}

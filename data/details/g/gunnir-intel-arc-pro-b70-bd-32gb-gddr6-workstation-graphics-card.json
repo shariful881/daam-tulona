@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "32GB",
+   "Resolution": "7680 x 4320@60Hz (DP2.1)",
+   "Memory Clock": "2800MHz",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "256bit"
+  },
+  "Others": {
+   "AI TOPS": "367 TOPS",
+   "Xe Cores": "32",
+   "Memory Bandwidth": "608 GB/s",
+   "Memory Speed": "19 Gbps",
+   "GPU Slots Required": "2"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8pin"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "4.6"
+  },
+  "Warranty": {
+   "Warranty": "3 years (Keep the box for Warranty)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 2800MHz",
+  "Memory: 32GB GDDR6; AI TOPS: 367TOPS",
+  "Memory Bandwidth: 608GB/s",
+  "Output: DisplayPort x3, HDMI x1"
+ ],
+ "warranty": "3 years (Keep the box for Warranty)",
+ "fetched": "2026-11-12T18:38+06:00",
+ "source": "https://www.pchouse.com.bd/gunnir-intel-arc-pro-b70-bd-32gb-gddr6-workstation-graphics-card",
+ "store": "pchouse"
+}

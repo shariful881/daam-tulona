@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "Lenovo ThinkCentre Neo 50t Gen 6",
+   "Part No": "13BDS04200",
+   "Country of Origin": "Lenovo PC HK Limited , China",
+   "Processor Speed": "Intel Core Ultra 5 225 Processor (P-cores 3.30 GHz up to 4.90 GHz)",
+   "Cache Memory": "20MB Intel Smart Cache",
+   "Operating System": "Free DOS",
+   "Chipset": "Intel B860 chipset",
+   "AI PC Category": "AI PC",
+   "NPU": "Integrated Intel AI Boost, up to 13 TOPS",
+   "System Memory": "8GB DDR5 5600 UDIMM",
+   "Memory Slots": "Two DDR5 UDIMM slots, dual-channel capable",
+   "Graphics": "Integrated Intel Graphics,up to 4 TOPS",
+   "Storage": "512GB SSD M.2 2280 G4 TLC OPAL",
+   "Optical Drive": "Slim DVD Writer 9.0mm",
+   "Network": "Gigabit Ethernet, Realtek® RTL8111K, 1x RJ-45, supports Wake-on-LAN",
+   "Wireless LAN": "Intel® Wi-Fi® 6 AX203, 802.11ax 2×2 Wi-Fi® + Bluetooth® 5.2, M.2 card",
+   "Audio": "High Definition (HD) Audio, Realtek® ALC623-CG codec",
+   "Bays": "1x 3.5″ disk bay\n1x slim ODD bay",
+   "Expansion Slots": "Expansion Slots\nOne PCIe 4.0 x16, full-height, length\nOne PCIe 3.0 x1, full-height\nThree M.2 slots (one for WLAN, two for SSD)",
+   "Power Supply Unit": "260W (90% Efficiency)",
+   "Security and Protection": "* Discrete TPM 2.0 , TCG Certified\n* Kensington® Security Slot™, 3 x 7 mm\n* Padlock Loop*Power-on password",
+   "Physical Dimensions (WxDxH)": "145 x 292.2 x 365 mm (5.71x 11.50 x 14.37 inches)",
+   "Weight": "Around 5.8 kg (12.79 lbs)",
+   "Color": "Raven black",
+   "Form Factor": "Tower (13.6L)",
+   "Keyboard": "USB Calliope Keyboard, Black, English",
+   "Mouse": "USB Calliope Mouse, Black",
+   "Warranty": "3 years Standard Warranty"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 5 225 (20MB Cache, up to 4.9GHz)",
+  "RAM: 8GB DDR5-5600MHz, Storage: 512GB M.2 PCIe 4.0×4 SSD",
+  "Graphics: Integrated Intel Graphics, Intel B860 Chipset"
+ ],
+ "model": "Lenovo ThinkCentre Neo 50t Gen 6",
+ "mpn": "13BDS04200",
+ "warranty": "3 years Standard Warranty",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://smartbd.com/product/lenovo-thinkcentre-neo-50t-gen-6-intel-core-ultra-5-225-8gb-ram-512gb-ssd-brand-pc/",
+ "store": "smartbd"
+}

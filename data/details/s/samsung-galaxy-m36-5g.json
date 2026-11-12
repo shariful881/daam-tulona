@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n128GB\n128GB\nClear"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Model": "Galaxy M36",
+   "OS": "Android 15, up to 6 major Android upgrades, One UI 7",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Rear Camera": "Triple: 50 MP, f/1.8, (wide), 1/1.96\", PDAF, OIS\n8 MP, f/2.2, 123˚, (ultrawide), 1/4.0\", 1.12µm\n2 MP, f/2.4, (macro)\nFeatures: LED flash, panorama, HDR\nVideo: 4K@30fps, 1080p@30/60fps, 720p@480fps, gyro-EIS",
+   "System Storage": "128GB,256GB",
+   "RAM(GB)": "6GB,8GB",
+   "SIM Card": "SIM:Nano-SIM + Nano-SIMDrop resistant up to 2m",
+   "Processor": "Exynos 1380 (5 nm)",
+   "CPU Architecture": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+   "GPU": "Mali-G68 MP5",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "164.4 x 77.9 x 7.7 mm (6.47 x 3.07 x 0.30 in)",
+   "Weight": "197 g (6.95 oz)",
+   "Build": "Glass front (Gorilla Glass Victus+), plastic frame, glass back",
+   "SIM": "Nano-SIM + Nano-SIM"
+  },
+  "Display": {
+   "Type": "Super AMOLED, 120Hz",
+   "Size": "6.7 inches, 110.2 cm2 (~86.0% screen-to-body ratio)",
+   "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus+"
+  },
+  "Front Camera": {
+   "Single": "13 MP, f/2.2, (wide), 1/3.06\", 1.12µm",
+   "Features": "HDR",
+   "Video": "4K@30fps, 1080p@30fps"
+  },
+  "Battery": {
+   "Type": "5000 mAh",
+   "Charging": "25W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy M36",
+  "Display: 6.7 inches, Super AMOLED",
+  "Resolution: 1080 x 2340 pixels",
+  "CPU: Exynos 1380 (5 nm)",
+  "GPU: Mali-G68 MP5",
+  "Front Camera: 13MP",
+  "Rear camera: 50MP+8MP+2MP",
+  "Battery: 5000mAh Charging 25W wired"
+ ],
+ "model": "Galaxy M36",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://diamu.com.bd/product/samsung-galaxy-m36/",
+ "store": "diamu"
+}

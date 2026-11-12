@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Display": {
+   "Interface": "Main Processor\nEmbedded Processor\nOperating System\nEmbedded LINUX\nWeb/operating in local GUI",
+   "Resolution": "1080P\nMulti-Screen Display\n1 / 4",
+   "Decoding Capacity": "1–ch@8MP (30FPS) or 1–ch@5MP (30FPS) or\n2–ch@4MP (30FPS) or 2–ch@3MP (30FPS) or\n4–ch@1080P(30FPS)"
+  },
+  "Recording": {
+   "Record Mode": "Compression\nVideo: Smart H.265+/H.265/Smart H.264+/H.264\nAudio: PCM/G711A/G711U/G726/AAC\nResolution\n8MP/5MP/4MP/3MP/1080P/720P/D1/CIF\nRecord Mode\nPriority of record mode: Manual recording > alarm recording > motion detection recording > timed recording"
+  },
+  "Video Detection And Alarm": {
+   "Video Detection": "Video Detection\nYes\nAlarm Input\nYes"
+  },
+  "Playback And Backup": {
+   "Playback Function": "1. Play, pause, stop, fast forward, fast backward, rewind, play by frame 2. Full screen, backup (cut/file), partially enlarge, audio on/off",
+   "Backup Mode": "USB device"
+  },
+  "Storage": {
+   "Internal HDD": "1 SATA 2.0 port, up to 8 TB for a single HDD. The maximum HDD capacity varies with environment temperature"
+  },
+  "Network": {
+   "Ethernet Port": "1 RJ–45 port (10/100 Mbps)",
+   "Smart Phone": "IDMSS (iOS), GDMSS (Android)"
+  },
+  "Auxiliary Interface": {
+   "USB": "1 front USB 2.0 port, 1 rear USB 2.0 port"
+  },
+  "Power": {
+   "Power Supply": "DC12V, 1.5A",
+   "Power Consumption": "The total output of NVR is ≤ 10W (without HDD)\nComponent Environment:\nStorage Conditions\nStorage Temperature 0°C to 40°C (+32°F to +104°F)\nStorage Humidity 30%~85%"
+  },
+  "Dimensions": {
+   "Product Dimensions": "260 mm×225 mm×47.6 mm (W × L × H)",
+   "Box Dimensions": "87 mm×331 mm×312 mm (W × L × H)"
+  },
+  "Construction": {
+   "Net Weight": "0.81 kg (1.79 lb)",
+   "Gross Weight": "1.38 kg (3.04 lb)"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://fourstarit.com.bd/p/dahua-nvr1104hs-s3h-4-channel-network-video-recorder-nvr",
+ "store": "fourstar"
+}

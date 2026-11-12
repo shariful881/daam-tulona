@@ -1,0 +1,92 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n256GB\n256GB",
+   "RAM": "Choose an option\n8 GB\n8 GB\nClear"
+  },
+  "Display": {
+   "Display Size": "6.872 inches",
+   "Display Type": "TFT LCD",
+   "Resolution": "1592 × 720 pixels",
+   "Colors": "16.7 million colors",
+   "Color Gamut": "85% NTSC",
+   "Typical Brightness": "860 nits",
+   "HBM Brightness": "1020 nits",
+   "Eye Comfort Technology": "Eye Comfort / Dynamic Dimming"
+  },
+  "Processor": {
+   "Chipset": "Qualcomm Snapdragon 4 Gen 4",
+   "CPU": "Octa-core",
+   "CPU Frequency": "2 × A78 @ 2.3 GHz + 6 × A55 @ 1.95 GHz",
+   "GPU": "Adreno 613"
+  },
+  "Software": {
+   "Operating System": "MagicOS 10 (Based on Android 16)",
+   "User Interface": "MagicOS 10"
+  },
+  "Memory & Storage": {
+   "RAM": "12GB (4GB + 8GB)",
+   "Internal Storage": "256GB",
+   "RAM Expansion": "8GB HONOR RAM Turbo included"
+  },
+  "Rear Camera": {
+   "Main Camera": "50MP (f/1.8)",
+   "Auxiliary Lens": "f/3.0",
+   "Image Resolution": "8160 × 6120 pixels",
+   "Video Recording": "1080p",
+   "Video Resolution": "1920 × 1080 pixels",
+   "Digital Zoom": "8×",
+   "Flash": "Single LED Flash",
+   "Camera Modes": "Portrait, Beauty, Bokeh, Time-lapse, Night, Video, Slow-Motion, High-Res, Panorama, Pro, Photo"
+  },
+  "Front Camera": {
+   "Selfie Camera": "5MP",
+   "Aperture": "f/2.2",
+   "Image Resolution": "2592 × 1944 pixels",
+   "Video Resolution": "1920 × 1080 pixels",
+   "Video Recording": "1080p at 30fps",
+   "Camera Modes": "Portrait, Beauty, Bokeh, Photo, Video",
+   "Face Recognition": "Supported"
+  },
+  "Battery & Charging": {
+   "Battery Capacity (Rated)": "7900 mAh",
+   "Battery Capacity (Typical)": "8100 mAh",
+   "Battery Type": "Lithium-ion Polymer"
+  },
+  "Network & SIM": {
+   "Network Technology": "GSM / WCDMA / 4G LTE / 5G NR",
+   "SIM Type": "Dual Nano-SIM"
+  },
+  "Connectivity": {
+   "Wi-Fi": "802.11 a/b/g/n/ac",
+   "Wi-Fi Frequency": "2.4GHz / 5GHz",
+   "Wi-Fi Features": "WLAN Hotspot, WLAN Direct",
+   "Bluetooth": "5.1",
+   "Bluetooth Audio Codecs": "SBC, AAC, LDAC, aptX, aptX HD",
+   "BLE": "Supported",
+   "USB Port": "USB Type-C",
+   "USB Version": "USB 2.0",
+   "OTG": "Supported (5V / 1.5A maximum output)",
+   "PC Data Sync": "Supported (HONOR Suite required)",
+   "Earphone Port": "USB Type-C",
+   "Video Calling": "Supported (Operator and third-party software dependent)"
+  },
+  "Specification": {
+   "Internal Storage": "256GB",
+   "RAM": "8 GB"
+  }
+ },
+ "key_features": [
+  "Model: 600S",
+  "Display: 6.57″ TFT LCD",
+  "CPU: Qualcomm SM4450-AF Snapdragon 4 Gen 4 (4 nm)",
+  "GPU: Adreno 613",
+  "Front Camera: 5MP",
+  "Rear camera: 50MP",
+  "Resolution: 720 x 1592 pixels",
+  "Battery: Li-Po 8100 mAh"
+ ],
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://diamu.com.bd/product/honor-600s/",
+ "store": "diamu"
+}

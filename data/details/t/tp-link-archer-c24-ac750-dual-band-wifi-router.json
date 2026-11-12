@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "4× Fixed Antennas",
+   "Data Rate": "5 GHz: 433 Mbps (802.11ac), 2.4 GHz: 300 Mbps (802.11n)",
+   "Interface": "1× 5 GHz Guest Network, 1× 2.4 GHz Guest Network",
+   "Power Mode": "Router Mode, Access Point Mode, Range Extender Mode",
+   "Button": "WPS/Reset Button",
+   "Frequency": "5 GHz, 2.4 GHz",
+   "Wireless": "Wi-Fi 5 (AC750)",
+   "Network Standard": "IEEE 802.11ac/n/a (5 GHz), IEEE 802.11n/b/g (2.4 GHz)",
+   "Encryption": "WEP, WPA, WPA2, WPA/WPA2-Enterprise (802.1x)",
+   "Ports": "1× 10/100 Mbps WAN Port, 4× 10/100 Mbps LAN Ports",
+   "Operating System Support": "Windows, macOS, Linux (Web-based management, no driver required)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "Archer C24"
+  }
+ },
+ "key_features": [],
+ "model": "Archer C24",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-12T18:31+06:00",
+ "source": "https://www.creatus.com.bd/tp-link-archer-c24-ac750-dual-band-wifi-router",
+ "store": "creatus"
+}

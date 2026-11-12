@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Type": "DDR4"
+  },
+  "Key Features": {
+   "Capacity": "16GB",
+   "Frequency": "3600MHz",
+   "Latency": "18-22-22-38"
+  },
+  "Physical Specifications": {
+   "PIN": "288-Pins",
+   "Dimension": "Module Height: 133.35mm*31.25mm*4.07mm"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.35V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, RGB lighting effect",
+  "Frequency: 3600MHz, PIN: 288-pin",
+  "Memory Architecture: x8 FBGA DRAM chip",
+  "Voltage & Cas Latency: 1.45V/18-22-22-38"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.pchouse.com.bd/apacer-nox-rgb-16gb-ddr4-3600mhz-ram",
+ "store": "pchouse"
+}

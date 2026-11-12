@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥88% Under Typical Load(50% Loading)",
+   "Certification": "80 PLUS Bronze",
+   "Fan Size": "120mm",
+   "Others": "Hydro Bearing\nActive PFC + DC to DC\nPower Good Signal: 100-150ms\nHold Up Time: ≥16ms(80% Load)\nProtection: OPP/OVP/SCP/OTP/OCP/UVP/SIP/NLO\nRegulatory: CE/FCC/CCC/TUV-RH/cTUVus/RCM/EAC/BIS\nOperation Temperature-0 - 40℃\nErp Regulation-ErP 2014\nMTBF-40,000 Hours"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "500W"
+  },
+  "Connector": {
+   "Main Power": "24(20+4)Pin × 1",
+   "CPU": "CPU(4+4)Pin x 1",
+   "PCI-E": "PCI-E(6+2)Pin x 2",
+   "SATA": "SATA x3 + 4Pin Peripheral x1"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3-year warranty"
+  }
+ },
+ "key_features": [
+  "Type: ATX12V V2.52 Non-Modular",
+  "Efficiency: 80Plus Bronze",
+  "Fan Size: 120mm",
+  "Topology: Active PFC+DC to DC"
+ ],
+ "price": 39504800,
+ "regular": 5100,
+ "status": "In Stock",
+ "code": "45158",
+ "brand": "Deepcool",
+ "model": "PF500X",
+ "warranty": "3-year warranty",
+ "name": "DeepCool PF500X 500W 80 Plus Bronze Non-Modular ATX Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "DeepCool",
+  "DeepCool PF500X 500W 80 Plus Bronze Non-Modular ATX Power Supply"
+ ],
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.startech.com.bd/deepcool-pf500x-500w-power-supply",
+ "store": "startech"
+}

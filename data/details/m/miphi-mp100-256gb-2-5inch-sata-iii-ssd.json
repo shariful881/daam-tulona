@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Interface": "SATA III (6 Gbps)",
+   "MTBF": "2 million hours",
+   "TBW": "60 TB"
+  },
+  "Sequential R/W": {
+   "Read Speed": "550MB/s",
+   "Write Speed": "465MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 550MB/s, Write: 465MB/s"
+ ],
+ "warranty": "05 Years",
+ "fetched": "2026-11-12T18:41+06:00",
+ "source": "https://www.pchouse.com.bd/miphi-mp100-256gb-2.5inch-sata-iii-ssd",
+ "store": "pchouse"
+}

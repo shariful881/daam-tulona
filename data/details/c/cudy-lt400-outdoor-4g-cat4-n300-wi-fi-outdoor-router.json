@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "LT400 Outdoor",
+   "Feature": "WAN Type: 4G/Dynamic IP/Static IP/PPPoE",
+   "Others": "Signal Rate: 300 Mbps (2.4 GHz)",
+   "Power": "Transmit Power:"
+  },
+  "Key Feature": {
+   "Frequency": "2.4 GHz"
+  },
+  "Key Features": {
+   "Antenna": "- 2× Internal Wi-Fi Antennas",
+   "Flash Type": "64 Mbit (8 MB) Flash",
+   "Interface": "- 1× 10/100Mbps WAN/LAN RJ45 Port (24V/0.5A passive PoE, 4/5+,7/8-)"
+  },
+  "Main Spec": {
+   "System Requirements": "- Windows, MAC OS, NetWare, UNIX, or Linux"
+  },
+  "Display Details": {
+   "LED Indicators": "System/Internet/Ethernet/2.4G WiFi/5GHz WiFi/Signal Strength"
+  },
+  "Features": {
+   "Dimension": "- Router Body: 240×100×53.7 mm (9.5×3.9×2.1 inches)"
+  },
+  "Connectivity": {
+   "Wireless": "Wireless Standards: IEEE 802.11n"
+  },
+  "Temperature": {
+   "Temperature": "Working Temperatures:"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Antenna: 2× Internal & 2× External Detachable Antennas",
+  "Band: 2.4GHz",
+  "Data Speed: 300Mbps",
+  "Feature: Access Control, Local Management, Remote Management, Wake on LAN",
+  "Coverage: Up to 1,800 square feet (Open Space)"
+ ],
+ "model": "LT400 Outdoor",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/cudy-lt400-outdoor-4g-wi-fi-outdoor-router",
+ "store": "pchouse"
+}

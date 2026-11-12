@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "240mm AIO Liquid Cooler",
+   "Fan Speed": "500-1,800 + 300 RPM",
+   "Fan Airflow": "78.86 CFM",
+   "Noise": "33.88 dBA",
+   "Air Pressure": "2.57 mm H2O",
+   "Connector": "4-pin PWM",
+   "LED Number": "Up to 40 LEDs per channel and up to 120 LEDs combined total for the total 3 channels",
+   "Material": "Aluminum and plastic\nBlock: Copper Housing: Plastic",
+   "Others": "Power Consumption: 12V DC, 0.2 A, 2.4W\nConnector: 60,000 hours / 6 Years"
+  },
+  "Physical Specification": {
+   "Dimension": "BLOCK: 74.7mm H: 55.97mm\nRADIATOR: 123 x 275 x 30mm\nFAN: 120 x 120 x 26mm"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel Socket LGA 1700 & 1200/115X Intel Core i9 / Core i7 / Core i5 / Core i3 / Pentium / Celeron",
+   "AMD": "AMD Socket AM5, AM4, sTRX4*, TR4* (*Threadripper bracket not included) AMD Ryzen 9 / Ryzen 7 / Ryzen 5 / Ryzen 3 / Threadripper"
+  },
+  "Warranty Information": {
+   "Warranty": "06-years"
+  }
+ },
+ "key_features": [
+  "Speed: 500-1,800 ± 180 RPM",
+  "Bearing: Fluid Dynamic Bearing",
+  "Display Panel Type: Transmissive TFT, 262K color",
+  "Connector: 4-pin PWM"
+ ],
+ "price": 15500,
+ "regular": 16820,
+ "status": "In Stock",
+ "code": "35996",
+ "brand": "NZXT",
+ "mpn": "RL-KN240-B1",
+ "model": "Kraken 240",
+ "warranty": "06-years",
+ "name": "NZXT Kraken 240 240mm AIO Liquid CPU Cooler with LCD Display",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "NZXT",
+  "NZXT Kraken 240 240mm AIO Liquid CPU Cooler with LCD Display"
+ ],
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://www.startech.com.bd/nzxt-kraken-240-aio-liquid-cpu-cooler",
+ "store": "startech"
+}

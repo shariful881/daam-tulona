@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "LGA1700 socket: Support for the 14th,\n13th, and 12th Generation Intel Core,\nPentium Gold and Celeron Processors",
+   "Chipset": "Intel B760 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel"
+  },
+  "Memory": {
+   "Slots": "CPU:\n- 1 x PCI Express x16 slot,\nsupporting PCIe 5.0 and\nrunning at x16 (PCIEX16)\nChipset:\n- 1 x PCI Express x16 slot,\nsupporting PCIe 3.0 and\nrunning at x4 (PCIEX4)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip\n(2.5 Gbps/1 Gbps/100 Mbps)",
+   "Supported Storage": "CPU:\n- 1 x M.2 connector (Socket 3, M key,\ntype 2280 PCIe 4.0 x4/x2 SSD support)\n(M2A_CPU)\nChipset:\n- 1 x M.2 connector (Socket 3, M key,\ntype 22110/2280 PCIe 4.0 x4/x2 SSD\nsupport) (M2P_SB)\n- 4 x SATA 6Gb/s connectors\nRAID 0, RAID 1, RAID 5, and\nRAID 10 support for SATA storage devices",
+   "Audio": "3 x audio jacks",
+   "Display Port (s)": "1 x DisplayPort"
+  },
+  "Others": {
+   "Special Features": "Operating System:\nSupport for Windows 11 64-bit\nSupport for Windows 10 64-bit",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 year",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b760m-gaming-x-gen5-motherboard",
+ "store": "pchouse"
+}

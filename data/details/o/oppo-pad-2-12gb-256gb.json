@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Specifications": {
+   "Model": "Pad 2 (X22N2)",
+   "OS": "ColorOS 13.1",
+   "Weight": "about 552g",
+   "Build": "Plastic front (opened), plastic back (opened), aluminum frame",
+   "Display": "Size : 11.61 inches (diagonal)\nScreen Ratio : 88.14%\nResolution : 2800 x 2000\nRefresh Rate : 144Hz\nTouch Sampling Rate : 120/144Hz\nColor Gamut\nNTSC coverage: 96%\nDCI-P3 coverage: 97.4%\nDeltaE<2\nColor Depth : 1.07 billion\nPixel Density : 296PPI\nBrightness : 500nits\nPanel : LCD (LTPS)",
+   "Rear Camera": "13MP (f/2.2); FOV 80°; 5P lens; AF supported\nShooting Mode\nPhoto, Video, Night, Panorama, Slow motion, Time-lapse, Sticker, and Text scanner.\nVideo\n720P@30fps\n1080P@30fps\n4K@30fps\nZoom and EIS supported",
+   "Front Camera": "8MP (f/2.28); FOV 103.4°; 5P lens; FF supported\nShooting Mode\nFront: Photo, Video, Portrait, Panorama, Time-lapse, and Sticker.\nVideo\n1080P/720P@30fps (Default: 1080p@30fps; Retouch mode turned on)\nVideo zoom and 60fps are not supported by the front camera, while Steady Video is supported.",
+   "SIM Card": "No",
+   "Processor": "Mediatek MT6983 Dimensity 9000 (4 nm)",
+   "CPU Architecture": "ARM V9\nSpeed Cores : 8 cores",
+   "GPU": "ARM G710 MC10",
+   "Battery Capacity & Charging": "9510mAh/36.99Wh (Typical value)\nDC3.89V 9230mAh/35.9Wh (Rated value)\nFast Charge\nSUPERVOOC 2.0, SUPERVOOC, SUPERVOOC 3.0, PD (9V/1.5A), and QC (9V/1.5A)",
+   "Location Technology": "GNSS\nGPS, BEIDOU, GLONASS, and GALILEO supported\nFrequency Antenna\nGPS: L1\nBEIDOU: B1I+B1C\nGLONASS: G1\nGALILEO: E1\nOthers\nWLAN positioning supported\nMaps\nGoogle Maps",
+   "Biometrics": "Facial Recognition : Supported",
+   "Sensor": "Geomagnetic sensor\nLight sensor\nAccelerometer\nGravity sensor\nGyroscope\nColor temperature sensor\nHall effect sensor\nStep counting function",
+   "In the Box": "Tablet x 1\nUSB Data Cable x 1\nCharger x 1\nQuick Start Guide x 1\nWarranty Card x 1"
+  },
+  "Dimensions": {
+   "Height": "about 258.03mm",
+   "Width": "about 189.39mm",
+   "Thickness": "about 6.54mm"
+  },
+  "Storage": {
+   "RAM and ROM Capacities": "8GB + 256GB",
+   "RAM Type": "LPDDR5 @3200MHz",
+   "ROM Specifications": "UFS3.1",
+   "USB OTG": "Supported"
+  }
+ },
+ "key_features": [
+  "Model : Pad 2 (X22N2)",
+  "Display: 11.61 inches (diagonal)",
+  "OS : ColorOS 13.1",
+  "CPU : ARM V9",
+  "GPU: ARM G710 MC10",
+  "Front Camera: 8MP",
+  "Rear camera: 13MP",
+  "RAM & ROM: 12GB & 256GB",
+  "Battery: 9510mAh/36.99Wh (Typical value)"
+ ],
+ "model": "Pad 2 (X22N2)",
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://diamu.com.bd/product/oppo-pad-2-12gb-256gb/",
+ "store": "diamu"
+}

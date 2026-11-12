@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12GB",
+   "Memory Clock": "2670 MHz",
+   "Memory Interface": "192bit",
+   "Others": "20 Xe Core"
+  },
+  "Power Specifications": {
+   "Connectors": "6 + 4-Pin"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Physical Specification": {
+   "Dimensions": "244 x 111 x 40mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Intel Arc B580 Index 12G"
+  }
+ },
+ "key_features": [
+  "Core Frequency: 2670MHz",
+  "Memory Bandwidth: 456GB/s",
+  "Interface: 1x HDMI 2.1, 3x DisplayPort 2.1"
+ ],
+ "model": "Intel Arc B580 Index 12G",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:03+06:00",
+ "source": "https://www.creatus.com.bd/gunnir-intel-arc-b580-index-12g-gddr6-graphics-card",
+ "store": "creatus"
+}

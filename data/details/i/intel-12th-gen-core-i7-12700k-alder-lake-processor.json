@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.60 GHz",
+   "Maximum Turbo Frequency": "5.0 GHz",
+   "Cache": "25MB",
+   "Cores": "12",
+   "Threads": "20",
+   "Default TDP": "125W",
+   "CPU Cooler": "Not Included"
+  },
+  "Memory Specifications": {
+   "Maximum Size": "256GB",
+   "Type": "DDR5 and DDR4",
+   "Max Number of Channels": "2"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "Intel UHD Graphics 770"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.60 GHz Up to 5.0 GHz",
+  "Cores: 12, Threads: 20",
+  "Cache: 25 MB Intel Smart Cache",
+  "Socket: LGA1700"
+ ],
+ "price": 3390036000,
+ "regular": 36890,
+ "status": "In Stock",
+ "code": "19449",
+ "brand": "INTEL",
+ "model": "Core i7-12700K (Tray Box)",
+ "warranty": "03 years warranty",
+ "name": "Intel 12th Gen Core i7-12700K Alder Lake Processor",
+ "breadcrumb": [
+  "Component",
+  "Processor",
+  "Intel",
+  "Intel 12th Gen Core i7-12700K Alder Lake Processor"
+ ],
+ "fetched": "2026-11-12T18:01+06:00",
+ "source": "https://www.startech.com.bd/intel-12th-gen-core-i7-12700k-alder-lake-processor",
+ "store": "startech"
+}

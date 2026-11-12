@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Specifications": {
+   "Security": "128 bit AES encryption with SSL/TLS",
+   "Wireless Rate": "11Mbps(802.11b)\n54Mbps(802.11g)\n72.2Mbps(802.11n)",
+   "Frequency": "2.4 GHz",
+   "Wireless Security": "WPA/WPA2-PSK",
+   "Input Trigger": "Motion detection",
+   "Output Notification": "Push notification",
+   "Video Compression": "H.264",
+   "Frame Rate": "15fps",
+   "Video Streaming": "3MP",
+   "Regulatory Certification": "CE, NCC",
+   "System Requirements": "iOS 10+, Android 5.0+",
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10%~90%RH non-condensing",
+   "Storage Humidity": "5%~90%RH non-condensing",
+   "Package Contents": "Tapo Pan/Tilt Home Security Wi-Fi Camera\nPower Adapter\nQuick Start Guide\nMounting Screws\nMounting Plate\nCamera Base",
+   "Button": "Reset button",
+   "Indicator LED": "System LED",
+   "Adapter Input": "100-240VAC, 50/60Hz, 0.3A",
+   "Adapter Output": "9.0V/0.6A",
+   "Power": "3 Meter Power Cable",
+   "Dimensions (W x D x H)": "3.4 x 3.3 x 4.6 in. (86.6 x 85 x 117.7 mm)",
+   "Image Sensor": "1/2.8“",
+   "Resolution": "3MP（2304 x 1296）",
+   "Lens": "F/NO: 2.4; Focal Length: 3.83mm",
+   "Night Vision": "850 nm IR LED up to 30 ft",
+   "View Range": "360° horizontal, 114° vertical",
+   "Audio Communication": "2-way audio",
+   "Audio Input & Output": "Built-in microphone and speaker"
+  }
+ },
+ "key_features": [
+  "Pan/Tilt: 360º horizontal range.",
+  "Advanced Night Vision: Provides a visual distance of up to 30 ft.",
+  "Motion Detection and Notifications: Notifies you through Tapo App when the camera detects movement.",
+  "Sound and Light Alarm: Trigger light and sound effects to frighten away unwanted visitors.",
+  "Two-Way Audio: Enables communication through a built-in microphone and speaker."
+ ],
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-tapo-c210-pan-tilt-home-security-wi-fi-camera/",
+ "store": "diamu"
+}

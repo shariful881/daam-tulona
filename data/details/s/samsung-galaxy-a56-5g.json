@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n8 GB\n12 GB\n8 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy A56 5G",
+   "OS": "Android 15, up to 6 major Android upgrades, One UI 7",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Weight": "198 g (6.98 oz)",
+   "Dimensions": "162.2 x 77.5 x 7.4 mm (6.39 x 3.05 x 0.29 in)",
+   "Build": "Glass front (Gorilla Glass Victus+), glass back (Gorilla Glass Victus+), aluminum frame",
+   "Rear Camera": "Triple\n50 MP, f/1.8, (wide), 1/1.56″, 1.0µm, PDAF, OIS\n12 MP, f/2.2, 123˚ (ultrawide), 1/3.06″, 1.12µm\n5 MP, f/2.4, (macro)\nFeatures\nBest Face, LED flash, panorama, HDR\nVideo 4K@30fps, 1080p@30/60fps, gyro-EIS",
+   "System Storage": "256GB/128GB",
+   "RAM(GB)": "8GB/12GB",
+   "SIM Card": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+   "Processor": "Exynos 1580 (4 nm)",
+   "CPU": "Octa-core (1×2.9 GHz & 3×2.6 GHz & 4×1.9 GHz)",
+   "GPU": "Xclipse 540",
+   "Battery": "Type:5000 mAh\nCharging\n45W wired, 65% in 30 min, 100% in 68 min",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass"
+  },
+  "Display": {
+   "Type": "Super AMOLED, 120Hz, HDR10+, 1200 nits (HBM), 1900 nits (peak)",
+   "Size": "6.7 inches, 110.2 cm2 (~87.7% screen-to-body ratio)",
+   "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+   "Protection": "Corning Gorilla Glass Victus+"
+  },
+  "Front Camera": {
+   "Single": "12 MP, f/2.2, (wide)",
+   "Video": "4K@30fps, 1080p@30/60fps, 10-bit HDR"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+   "NFC": "Yes (market/region dependent)",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB",
+   "Internal Storage": "256GB\n,\n128GB"
+  }
+ },
+ "key_features": [
+  "Display: 6.7 inches AMOLED",
+  "OS: Android 15",
+  "CPU: (Exynos 1580 (4 nm))",
+  "GPU: Xclipse 540",
+  "Front Camera: 12 MP",
+  "Rear camera: 50MP + 12MP+ 5MP",
+  "Resolution: 1080 x 2340 pixels",
+  "Battery: Li-Ion 5000 mAh"
+ ],
+ "model": "Galaxy A56 5G",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-a56/",
+ "store": "diamu"
+}

@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n4 GB\n6 GB\n4 GB\n6 GB",
+   "Internal Storage": "Choose an option\n64GB\n128GB\n64GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy A06",
+   "OS": "Android 14",
+   "Network": "GSM / HSPA / LTE",
+   "Rear Camera": "Dual\n50 MP, f/1.8, (wide), AF\n2 MP, f/2.4, (depth)\nFeatures\nLED flash\nVideo\n1080p@30/60fps",
+   "System Storage": "128GB/256GB/64GB",
+   "RAM(GB)": "6GB/4GB/8GB",
+   "Sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)",
+   "Processor": "Mediatek Helio G85 (12 nm)",
+   "CPU Architecture": "Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+   "GPU": "Mali-G52 MC2",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+  },
+  "Dimension & Weight": {
+   "Dimensions": "167.3 x 77.3 x 8 mm (6.59 x 3.04 x 0.31 in)",
+   "Weight": "189 g (6.67 oz)"
+  },
+  "Display": {
+   "Type": "PLS LCD",
+   "Size": "6.7 inches, 108.4 cm2 (~83.8% screen-to-body ratio)",
+   "Resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "8 MP, f/2.0",
+   "Video": "Yes"
+  },
+  "Battery": {
+   "Type": "Li-Po 5000 mAh, non-removable",
+   "Charging": "25W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "No",
+   "Radio": "FM radio",
+   "USB": "USB Type-C 2.0"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n4 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n64GB\n,\n128GB"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy A06",
+  "Display: 6.7 inches, AMOLED",
+  "CPU: Octa-core (Mediatek Helio G85 (12 nm))",
+  "GPU: Mali-G52 MC2",
+  "Front Camera: 8MP",
+  "Rear camera: 50MP+2MP",
+  "Resolution: 720 x 1600 pixels",
+  "Battery: Li-Po 5000mAh, non-removable"
+ ],
+ "model": "Galaxy A06",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-a06/",
+ "store": "diamu"
+}

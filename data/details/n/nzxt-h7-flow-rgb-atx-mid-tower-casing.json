@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Specialty": "Motherboard Support: Mini-ITX, Micro-ATX, ATX"
+  },
+  "General": {
+   "Model": "H7 Flow RGB",
+   "Model Number": "CM-H71FB-R1",
+   "Type": "Mid-Tower"
+  },
+  "Case Features": {
+   "Drive Bays": "2.5\": 4+2\n3.5\": 2",
+   "Fan Support": "Front: 3 x 120mm / 3 x 140mm (3 x F Series RGB Core 140mm included)"
+  },
+  "Expansion Slots": {
+   "Standard": "7",
+   "Vertical": "0"
+  },
+  "I/O Port": {
+   "USB 3.2 Gen 1 Type-A": "2",
+   "USB 3.2 Gen 2 Type-C": "1",
+   "Headset Audio Jack": "1"
+  },
+  "Radiator Support": {
+   "Front": "Up to 360mm with Push/Pull",
+   "Top": "Up to 360mm",
+   "Rear": "Up to 140mm"
+  },
+  "Fan": {
+   "Model": "F140 RGB Core Fan (Case Version)",
+   "Speed": "1200 ± 120 RPM",
+   "Airflow": "61.74 CFM",
+   "Static": "2.06mm-H2O",
+   "Noise": "29.05 dBA",
+   "Fan Connector": "3-pin"
+  },
+  "Features": {
+   "Compatibility": "Max CPU Cooler Clearance: Up to 185mm"
+  },
+  "Dimension": {
+   "Height (With Feet)": "505mm",
+   "Height (Without Feet)": "480mm",
+   "Width": "230mm",
+   "Depth": "480mm",
+   "Weight": "10.57kg"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX",
+  "Enclosure Type: Mid-Tower",
+  "Case Material: Dark Tinted Tempered Glass",
+  "Pre- Installed Fans: 4 Cooling Fan"
+ ],
+ "model": "H7 Flow RGB",
+ "fetched": "2026-11-12T18:44+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-h7-flow-rgb-atx-mid-tower-casing",
+ "store": "pchouse"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "DisplayPort/HDMI\n7680×4320",
+   "Memory Clock": "up to 2250MHz(Game)\nup to 2655MHz(Boost)",
+   "BUS Type": "PCIE 4.0 x 8",
+   "Memory Interface": "128-bit",
+   "Stream Processors": "2048 Units",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nMemory Speed: 18.0 Gbps"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 1.4",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "One 8-pin PCI Express Power connector",
+   "Recommended PSU": "550W"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "200mm*111mm*39mm\n212mm*129mm*39mm(with bracket)"
+  },
+  "Warranty": {
+   "Warranty": "2 year Warranty (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 2655 MHz, Game Clock: Up to 2250 MHz",
+  "Memory: 8GB/128-bit DDR6. 18 Gbps Effective",
+  "Stream Processors: 2048"
+ ],
+ "warranty": "2 year Warranty (For warranty Full Box Required)",
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/powercolor-fighter-amd-radeon-rx-7600-8gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

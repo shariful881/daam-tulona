@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 Type 2280-S2-M",
+   "MTBF": "1.5 million hours",
+   "Voltage": "3.3 V ±5 %"
+  },
+  "Power Consumption": {
+   "PS3": "50 mW (typ.)",
+   "PS4": "5 mW (typ.)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 ℃ (Ta) to 85 ℃ (Tc)",
+   "Storage Temperature": "-40 ℃ to 85 ℃",
+   "Shock resistance": "9.806 km/s2 {1,000 G} 0.5 ms half sine wave"
+  },
+  "Physical Specification": {
+   "Weight": "1TB: 6.8 g (typ.)",
+   "Dimensions": "80.15 x 22.15 x 2.23 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "EXCERIA G2"
+  }
+ },
+ "key_features": [
+  "Dimensions: 80.15 x 22.15 x 2.23 mm",
+  "Weight: 1TB: 6.8 g",
+  "Capacity: 1TB",
+  "Flash Memory Type: BiCS FLASH"
+ ],
+ "model": "EXCERIA G2",
+ "warranty": "5 Years",
+ "fetched": "2026-11-12T19:08+06:00",
+ "source": "https://www.creatus.com.bd/kioxia-exceria-g2-1tb-nvme-m2-ssd",
+ "store": "creatus"
+}

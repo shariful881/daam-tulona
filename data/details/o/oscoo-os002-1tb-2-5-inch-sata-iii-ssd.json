@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Sequential R/W": "Read Speed: 550MB/s (Max)",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III (6 Gbps)",
+   "Form Factor": "2.5-inch",
+   "TBW": "142 TBW"
+  },
+  "Projector Features": {
+   "Operating Temperature": "0°C to 70° C"
+  },
+  "Features": {
+   "Dimension": "100*69.8*7mm",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T"
+  },
+  "Physical Specification": {
+   "Color(s)": "Black"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 550MB/s (Max), Write: 520MB/s (Max)"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-12T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-os002-1tb",
+ "store": "pchouse"
+}

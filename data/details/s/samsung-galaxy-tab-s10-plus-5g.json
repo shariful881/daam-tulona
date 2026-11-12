@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n16 GB\n12 GB\n16 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB",
+   "Connectivity": "Choose an option\nWi-Fi\nWi-Fi\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy Tab S10 Plus",
+   "Network": "GSM / CDMA / HSPA /  LTE / 5G",
+   "OS": "Android 14, One UI 6.1",
+   "System Storage": "256/512GB",
+   "RAM(GB)": "12/16GB",
+   "SIM Card": "Nano-SIM, eSIM",
+   "Processor": "Mediatek Dimensity 9300+ (4 nm)",
+   "CPU Architecture": "Octa-core (1×3.25 GHz Cortex-X4 & 3×2.85 GHz Cortex-X4 & 4×2.0 GHz Cortex-A720)",
+   "GPU": "Immortalis-G720 MC12",
+   "Rear Camera": "Dual\n13 MP, f/2.0, 26mm (wide), 1/3.4″, 1.0µm, AF\n8 MP, f/2.2, (ultrawide)\nFeatures\nLED flash, HDR, panorama\nVideo\n4K@30fps, 1080p@30fps",
+   "Sensor": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+  },
+  "Dimension & Weight": {
+   "Dimensions": "285.4 x 185.4 x 5.6 mm (11.24 x 7.30 x 0.22 in)",
+   "Weight": "571 g (Wi-Fi), 576 g (5G) (1.26 lb)"
+  },
+  "Display Size (Inches)": {
+   "Type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
+   "Size": "12.4 inches, 446.1 cm2 (~84.3% screen-to-body ratio)",
+   "Resolution": "1752 x 2800 pixels, 16:10 ratio (~266 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "12 MP, f/2.4, 120˚ (ultrawide)",
+   "Features": "HDR",
+   "Video": "4K@30fps, 1080p@30fps"
+  },
+  "Battery": {
+   "Type": "Li-Po 10090 mAh",
+   "Charging": "45W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, magnetic connector"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB",
+   "Internal Storage": "256GB\n,\n512GB",
+   "Connectivity": "GPS + Cellular, Wi-Fi"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy Tab S10 Plus",
+  "Display: 12.4 inches, Dynamic AMOLED 2X",
+  "CPU: Octa-Core (Mediatek Dimensity 9300+ (4 nm)",
+  "GPU: Immortalis-G720 MC12",
+  "Front Camera: 12MP",
+  "Resolution: : 1752 x 2800 pixels",
+  "Rear camera: 13MP+8MP",
+  "Battery: Li-Po 1090 mAh"
+ ],
+ "model": "Galaxy Tab S10 Plus",
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-tab-s10-plus/",
+ "store": "diamu"
+}

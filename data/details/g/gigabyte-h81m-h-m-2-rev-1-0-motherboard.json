@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "Black",
+   "Connectors": "1 × 24-pin ATX, 1 × 4-pin ATX 12V, SATA, M.2, USB, front-panel, audio and fan headers"
+  },
+  "Basic Information": {
+   "Bundled Software": "N/A",
+   "Supported CPU": "4th Generation Intel Core i7 / i5 / i3, Pentium, Celeron processors, LGA1150",
+   "Chipset": "Intel H81 Express",
+   "BIOS": "UEFI BIOS, Q-Flash",
+   "Form Factor": "Micro ATX, 23.0 × 17.5 cm",
+   "Audio": "Realtek High Definition Audio"
+  },
+  "General Information": {
+   "Special Features": "GIGABYTE Ultra Durable Technology, UEFI BIOS, Q-Flash, On/Off Charge, High ESD Protection LAN"
+  },
+  "Expansion Slots": {
+   "PCI": "1 × PCI Express x16, 1 × PCI Express x1",
+   "M.2 Socket": "1 × M.2 Socket 3, M-key, supports 2280 SATA and PCIe 2.0 x4/x2 SSD"
+  },
+  "Memory": {
+   "Slots": "1 × PCI Express x16, 1 × PCI Express x1, 2 × DDR3 DIMM",
+   "Supported Memory": "2 × DDR3 DIMM, 1600/1333 MHz, Dual Channel, Non-ECC",
+   "Maximum Memory": "16GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Intel HD Graphics support via compatible Intel processor"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 × HDMI, up to 4096 × 2160 @ 24Hz",
+   "Display Port (s)": "HDMI, D-Sub",
+   "USB (s)": "USB 3.0 and USB 2.0/1.1",
+   "Front USB": "USB 3.0 and USB 2.0/1.1 internal headers",
+   "LAN Port (s)": "1 × RJ-45 Gigabit LAN",
+   "Wireless Communication module": "Not Supported",
+   "Supported Storage": "1 × M.2 Socket 3, 2 × SATA 6Gb/s, 2 × SATA 3Gb/s",
+   "RAID": "Not Supported",
+   "Internal I/O Ports": "2 × SATA 6Gb/s, 2 × SATA 3Gb/s, 1 × M.2 Socket 3, USB 3.0/2.0 headers, USB 2.0/1.1 headers, fan headers, front audio header"
+  },
+  "Network & Connectivity": {
+   "WiFi": "No"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "H81M-H M.2"
+  }
+ },
+ "key_features": [],
+ "model": "H81M-H M.2",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:58+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-h81m-h-m2-motherboard",
+ "store": "creatus"
+}

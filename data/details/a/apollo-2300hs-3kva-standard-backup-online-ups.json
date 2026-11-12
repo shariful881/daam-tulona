@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "3.0 KVA",
+   "Load Capacity": "<110% load Continuous\n110-125% load 12 minutes\n125-150% load 10 minutes\n>150% load: by pass",
+   "Input Voltage": "Single Phase, 110Vac ~ 290Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "50/ 60Hz",
+   "Noise Level": "<53dB - 65dB at 1 meter distance"
+  },
+  "Battery": {
+   "DC Voltage": "96VDC",
+   "Backup time": "15 - 30 Minutes depending on Load",
+   "Recharge time": "5 ~ 8 Hours"
+  },
+  "Alarm": {
+   "Audio Alarm": "Keep 90 Seconds at a time interval of 4 Seconds",
+   "Battery Low": "Auto Shutdown upon complete discharge of battery and auto turn-on upon recovery of utility power",
+   "Fault": "Continuous Alarming"
+  },
+  "Input Features": {
+   "Frequency": "50Hz (60Hz on Request) +/- 5%",
+   "Power Factor": ">0.98% (Full Load)"
+  },
+  "Output Features": {
+   "Voltage Range": "220Vac +/- 5%",
+   "Type of Wave": "Pure Sinewave THD < 3%",
+   "Backup Time": "15 - 30 Minutes depending on Load"
+  }
+ },
+ "key_features": [
+  "Voltage: Single Phase, 110Vac~290Vac",
+  "Frequency: 50Hz (60Hz on request)",
+  "Power Factor: > 0.98% (Full Load)",
+  "Voltage: 220Vac"
+ ],
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/apollo-3kva-online-ups",
+ "store": "pchouse"
+}

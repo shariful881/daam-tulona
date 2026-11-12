@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Form Factor": "2.5 Inch",
+   "Interface": "SATA III 6Gb/s",
+   "Flash Type": "3D NAND",
+   "MTBF": "2,000,000 hour(s)"
+  },
+  "Sequential R/W": {
+   "Read": "560 MB/s",
+   "Write": "520 MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)",
+   "Shock resistance": "Yes"
+  },
+  "Physical Specification": {
+   "Weight": "53 g (1.87 oz)",
+   "Dimensions": "100 mm x 69.85 mm x 6.8 mm (3.94\" x 2.75\" x 0.28\")"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  },
+  "Image": {
+   "Model": "230S"
+  },
+  "Product List": {
+   "BEST Transcend SSD PRICE LIST IN BD": "Price",
+   "TRANSCEND 110S 512GB M.2 PCIE SSD": "13,500৳\n14,500৳",
+   "Transcend 112S 256GB NVMe M.2 PCle SSD": "6,699৳\n6,900৳",
+   "Transcend 230S 512GB 2.5 Inch SATA III SSD": "17,500৳\n19,280৳"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "Interface: SATA III 6Gb/s",
+  "Flash Type: 3D NAND flash",
+  "Sequential Read/Write: up to 560/520 MB/s"
+ ],
+ "model": "230S",
+ "warranty": "5 years",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.creatus.com.bd/transcend-230s-2tb-sata-iii-ssd",
+ "store": "creatus"
+}

@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Frequency": "3200MHZ",
+   "Latency": "CL16"
+  },
+  "General": {
+   "Type": "DDR4"
+  },
+  "Physical Specifications": {
+   "PIN": "288",
+   "Heatsink": "Yes"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.2v"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 8GB",
+  "Memory Type: DDR4",
+  "Memory Frequency: 3200 MHz",
+  "Latency: CL16"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/aitc-kingsman-8gb-ddr4-3200mhz-desktop-ram",
+ "store": "pchouse"
+}

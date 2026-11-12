@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320@60Hz",
+   "Memory Clock": "2400 MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Memory Interface": "256 bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "8Pin*2",
+   "Recommended PSU": "600 W",
+   "Power Consumption": "285 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "300 x 118.5 x 50mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Intel Arc A770 Tri 16G"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 16GB",
+  "Memory Clock: 2400 MHz",
+  "Video Memory Frequency: 16 Gbps",
+  "Interface: 1x HDMI 2.0, 3x DisplayPort"
+ ],
+ "model": "Intel Arc A770 Tri 16G",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:03+06:00",
+ "source": "https://www.creatus.com.bd/gunnir-intel-arc-a770-tri-16g-graphics-card",
+ "store": "creatus"
+}

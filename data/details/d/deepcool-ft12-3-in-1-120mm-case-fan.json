@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "500±200 RPM-2150 RPM±10%",
+   "Air Flow": "75 CFM",
+   "Air Pressure": "4.2 mmAq",
+   "Noise (dBA)": "≤32 dB(A)",
+   "Bearing Type": "Fluid Dynamic Bearing",
+   "LED Type": "N/A",
+   "Input Current": "0.3 A",
+   "Operating Voltage/Power Range": "12 VDC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120×120×25 mm(L×W×H)",
+   "Weight": "563 g",
+   "Connector": "Fan Connector 4-Pin PWM"
+  },
+  "Others": {
+   "Others": "Power Consumption: 3.6 W"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 year warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500±200 RPM-2150 RPM±10%",
+  "Fan Airflow: 75 CFM",
+  "Fan Noise: ≤32 dB(A)",
+  "Fan Connector: 4-pin PWM"
+ ],
+ "price": 5200,
+ "regular": 5750,
+ "status": "In Stock",
+ "code": "41118",
+ "brand": "Deepcool",
+ "mpn": "R-FT12-BKWPN3-G",
+ "model": "FT12 3 IN 1",
+ "warranty": "03 year warranty",
+ "name": "DeepCool FT12 3 IN 1 120mm Case Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Deepcool",
+  "DeepCool FT12 3 IN 1 120mm Case Fan"
+ ],
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ft12-3-in-1-case-fan",
+ "store": "startech"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "50-60 Hz",
+   "Wireless": "2x2 .11ac Wave 2"
+  },
+  "Power Source": {
+   "Power Mode": "Universal 100 to 240 VAC"
+  },
+  "Router Features": {
+   "Data Rate": "150 Mbps"
+  },
+  "Connector & Ports": {
+   "Ports": "4 ports for -8P PIDs, 2 ports for -4P PIDs\n802.3af-compliant PoE or 802.3at-compliant PoE+"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "1.75 x 12.7 x 9.03 in.\n(42 x 323 x 230mm) (includes rubber feet)",
+   "Color": "White",
+   "Weight": "5.5 Lbs. (2.5 kg) maximum"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Standard Warranty"
+  }
+ },
+ "key_features": [
+  "Wireless specifications: 2x2 .11ac Wave 2",
+  "Interfaces: 8 RJ-45 10/100/1000",
+  "PoE Ports: 4"
+ ],
+ "warranty": "1-year Standard Warranty",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/cisco-c1111-4p-isr-1100-4-ports-dual-ge-wan-ethernet-router",
+ "store": "pchouse"
+}

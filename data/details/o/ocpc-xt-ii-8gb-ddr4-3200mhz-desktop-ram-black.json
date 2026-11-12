@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Ram": {
+   "Capacity": "8GB",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "3200MHz",
+   "Single/Dual Sticks": "Single Channel",
+   "Latency": "CL16-20-20-40",
+   "SPD Speed": "2133MHz",
+   "SPD Voltage": "1.20V",
+   "Voltage": "1.35V",
+   "Features": "Unbuffered, Non-ECC, Heatsink Included, Intel XMP 2.0 (Extreme Memory Profile) Ready\nRated XMP Frequency & Stability Depends On MB & CPU Capability.",
+   "Warranty": "Limited Lifetime"
+  },
+  "Image": {
+   "Model": "Model-96742"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR4",
+  "Bus-Speed: 3200MHz",
+  "Single/Dual Sticks: Single Channel",
+  "Latency: CL16-20-20-40"
+ ],
+ "model": "Model-96742",
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-12T17:59+06:00",
+ "source": "https://www.creatus.com.bd/ocpc-xt-ii-8gb-ddr4-3200mhz-ram",
+ "store": "creatus"
+}

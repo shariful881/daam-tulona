@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "FreeDos",
+   "Processor": "Intel Core i5-12500 12th Gen (18M Cache, Up to 4.60 GHz)",
+   "Motherboard": "Intel H670 Chipset",
+   "RAM": "8GB DDR4 RAM",
+   "Graphics Card": "Intel UHD 770 Graphics",
+   "Audio": "Realtek ALC3867 codec, combo microphone/headphone jack",
+   "Storage": "512GB SSD",
+   "Power Supply": "180W",
+   "Network & Wireless Connectivity": "1 x RJ-45\nIntel 802.11a/b/g/n/ac (2x2) Wi-Fi and Bluetooth 4.2"
+  },
+  "Input Devices": {
+   "External I/O Ports": "2 x USB 2.0, 4 x USB 3.0 Type-A\n2 x USB 3.0 Type-C\n1x HDMI Port\n1x VGA/D-Sub\npansion Slots\n1 x full-height PCI, 2 x M.2, 1 x PCIe 3 x 1, 1 x PCIe 4 x 16",
+   "Keyboard": "HP USB Keyboard",
+   "Mouse": "HP USB Mouse",
+   "Optical Drive": "DVD-RW Drive"
+  },
+  "Physical Specification": {
+   "Dimension": "55 x 305 x 337mm",
+   "Color": "Black",
+   "Weight": "10.4 lb; 4.7 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "280 Pro G9 MT"
+  }
+ },
+ "key_features": [
+  "Graphics: Integrated, Intel UHD Graphics 770",
+  "Memory: 8GB DDR4, Storage: 512GB NVMe PCIe SSD",
+  "Processor: Intel Core i5-12500 (18M Cache, Up to 4.60 GHz)"
+ ],
+ "model": "280 Pro G9 MT",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.creatus.com.bd/hp-280-pro-g9-mt-1-i5-12th-gen-8gb-ram-512gb-ssd-brand-pc",
+ "store": "creatus"
+}

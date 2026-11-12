@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket sTR5 for Ryzen Threadripper PRO 9000 & 7000 WX-Series*",
+   "Chipset": "AMD WRX90 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS(text-based)",
+   "Form Factor": "EEB Form Factor\n12 inch x 13 inch\n(30.5 cm x 33 cm)",
+   "Audio": "Realtek ALC1220P Surround Sound High Definition Audio CODEC*"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ Threadripper™ PRO 9000 & 7000 WX-Series Processors*\n6 x PCIe 5.0 x16 slots\n1 x PCIe 5.0 x16 slot (x8 mode)",
+   "M.2 Socket": "4 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "8 x DIMM",
+   "Supported Memory": "Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product"
+  },
+  "Connector & Ports": {
+   "USB (s)": "Rear USB (Total 9 ports)\n2 x USB 40Gbps (USB4®) with ASMedia ASM4242 controller ports (2 x USB Type-C®)\n6 x USB 10Gbps ports (6 x Type-A)\n1 x USB 2.0 port (1 x Type-A )\nFront USB (Total 7 ports)\n1 x USB 20Gbpsconnector (supports USB Type-C®)\n1 x USB 5Gbps header supports 2 additional USB 5G ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet (Dedicated management LAN for AST2600)\n1 x Intel® dual 10Gb Ethernet",
+   "Supported Storage": "Total supports 4 x M.2 slots, 2 x SlimSAS ports and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ Threadripper™ PRO 9000 & 7000 WX-Series Processors*\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nAMD WRX90 Chipset\n2 x SlimSAS slots support PCIe 4.0 x4 mode NVMe device\n4 x SATA 6Gb/s ports",
+   "RAID": "AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1/5/10.",
+   "Audio": "Realtek ALC1220P Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n- Supports up to 32-Bit/192 kHz playback\nAudio Features\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Unique de-pop circuit",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x W_PUMP+ header\n5 x 4-pin Chassis Fan headers\n2 x 4-pin VRM Fan header (with VRM FAN onboard)\n1 x 4-pin M.2 Fan header (with M.2 FAN onboard)\nPower related\n1 x 24-pin Main Power connectors\n2 x 8-pin +12V Power connectors\n2 x 8-pin PCIe to CPU power connectors\n2 x 8-pin PCIe Power connector\nStorage related\n4 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\n2 x SlimSAS port\nUSB\n1 x USB 20Gbps connector supports USB Type-C®\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Chassis intrusion header\n1 x COM port header\n1 x FlexKey button\n1 x Front panel audio header (F_AUDIO)\n1 x LN2 mode jumper\n1 x M.2 slot (Key E)\n7 x ProbeIt measurement points\n1 x ReTry button\n1 x RSVD switch\n1 x Slow mode switch\n1 x Safe boot button\n1 x SPI TPM header (14-1 pin)\n1 x Start button\n1 x 10-1 pin system panel header\n1 x Thermal sensor header",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with SPS)\n- ESD Guards\n- LANGuard\n- Overvoltage protection\n- SafeSlot\n- Stainless-steel back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- Q-Release Slim (with PCIe SafeSlot)\n- Q-Code\n- Q-Connector\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink backplate and onboard thermal pads\n- M.2 heatsink\n- Steel backplate\n- VRM heatsink design with active fans\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Clear CMOS button\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nBespoke Motherboard Design & Business Focused Features\n- 24/7 Reliability\n- Overcurrent Protection\nBMC Related\n1 x BMC switch\n1 x BMC LAN fixed IP switch\n1 x IPMI switch\n1 x Message LED header\n1 x microSD card socket\n2 x LAN LED headers\n1 x Location LED header\n1 x Location button header\n1 x PSU_SMB header\n1 x SMART_PSU switch\n1 x VGA switch\n1 x VGA header (Dedicated Management for AST2600)\n1 x VPP_I2C header",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Fan Xpert 4\nASUS CPU-Z\nAdobe Creative Cloud (Free Trial)\nNorton 360 for Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUSTeK. EzFlash Utility\nFlexKey\nIT Management software supported\n- ASUS Control Center Express(ACCE)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Threadripper PRO 9000 & 7000 WX-Series (sTR5)",
+  "Supported RAM: 8x DIMM, DDR5, 8 Channel Memory Architecture",
+  "Storage: 4 x M.2, 2 x SlimSAS, 4 x SATA 6Gb/s",
+  "1 x Realtek 1Gb Ethernet, 1 x Intel dual 10Gb Ethernet"
+ ],
+ "price": 199000201000,
+ "regular": 215920,
+ "status": "In Stock",
+ "code": "49289",
+ "brand": "Asus",
+ "model": "Pro WS WRX90E-SAGE SE",
+ "warranty": "3 Years",
+ "name": "ASUS Pro WS WRX90E-SAGE SE AMD sTR5 EEB Workstation Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "ASUS Pro WS WRX90E-SAGE SE AMD sTR5 EEB Workstation Motherboard"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asus-pro-ws-wrx90e-sage-se-motherboard",
+ "store": "startech"
+}

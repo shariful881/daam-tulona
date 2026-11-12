@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Camera Feature": {
+   "Effective Pixels": "2MP",
+   "Image Sensor": "1/2.7” 2Megapixel progressive CMOS",
+   "IR Distance": "Up to 30m"
+  },
+  "Lens": {
+   "Type": "Fixed-focal",
+   "Focal Length": "2.8 mm",
+   "Aperture": "F2.0",
+   "Angle of View": "Pan:0° ~360° ;Tilt:0° ~90° ;Rotation:0° ~360°"
+  },
+  "Physical Specification": {
+   "Dimension": "Φ108mm×84.9mm",
+   "Weight": "230 g",
+   "Power": "DC12V, PoE (802.3af)(Class 0)",
+   "Interface": "1 RJ-45 (10/100Base-T)\nØ5.5 mm coaxial power plug"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/2.7” 2MP Progressive CMOS",
+  "Effective Pixels: 2 Megapixels",
+  "IR Distance: Up to 30 meters"
+ ],
+ "fetched": "2026-11-12T18:15+06:00",
+ "source": "https://fourstarit.com.bd/p/dahua-dh-ipc-hdw1230s-s5-2mp-ir-dome-network-camera",
+ "store": "fourstar"
+}

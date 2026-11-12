@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "General Information": {
+   "Card Bus": "PCI-E 4.0",
+   "DirectX": "12 Ultimate",
+   "Graphics Processing": "GeForce RTX™ 3050",
+   "OpenGL": "4.6",
+   "OUTPUT PORTS": "DP1.4a*2\nHDMI 2.1*2"
+  },
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8 GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "1792 MHz",
+   "Memory Clock": "14000 MHz",
+   "BUS Type": "128 bit",
+   "CUDA Cores": "2560"
+  },
+  "Graphics Specifications": {
+   "Card size": "L=198.1 W=120.6 H=39 mm",
+   "Multi-view": "4"
+  },
+  "Power Specifications": {
+   "Connectors": "8 pin*1",
+   "Recommended PSU": "450W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "GeForce RTX™ 3050 WINDFORCE OC V2 8G"
+  }
+ },
+ "key_features": [
+  "Chipset: NVIDIA GeForce",
+  "Core Clock: 1792 MHz",
+  "Digital max resolution: 7680x4320",
+  "Output: DP1.4a*2, HDMI 2.1*2"
+ ],
+ "model": "GeForce RTX™ 3050 WINDFORCE OC V2 8G",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:56+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtxtm-3050-windforce-oc-v2-8g-gpu",
+ "store": "creatus"
+}

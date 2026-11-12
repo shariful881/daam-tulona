@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n12 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB",
+   "Region": "Choose an option\nCN\nCN\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB",
+   "Internal Storage": "256GB\n,\n512GB",
+   "Region": "CN\n,\nIND",
+   "Model": "Redmi Turbo 4 Pro",
+   "OS": "Android 15",
+   "Network": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+   "SIM": "Nano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 2m for 30 min)",
+   "System Storage": "12GB,16GB RAM256GB,512GB Storage",
+   "Processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
+   "CPU Architecture": "Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8GHz Cortex-A720 & 2x2.0 GHz Cortex-A720)",
+   "GPU": "Adreno 825",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass"
+  },
+  "Dimensions & Weight": {
+   "Dimensions": "163.1 x 77.9 x 8 mm (6.42 x 3.07 x 0.31 in)",
+   "Weight": "219 g (7.72 oz)"
+  },
+  "Display": {
+   "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 800 nits (typ), 1800 nits (HBM), 3200 nits (peak)",
+   "Size": "6.83 inches, 114.5 cm2 (~90.2% screen-to-body ratio)",
+   "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~447 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "20 MP, f/2.2, (wide), 1/4\"",
+   "Video": "1080p@30/60fps"
+  },
+  "Rear Camera": {
+   "Dual": "50 MP, f/1.5, 26mm (wide), 1/1.95\", 0.8µm, PDAF, OIS",
+   "Features": "LED flash, HDR, panorama",
+   "Video": "4K@30/60fps, 1080p@30/60/120/240/960fps, gyro-EIS"
+  },
+  "Battery and Charging": {
+   "Type": "Si/C Li-Ion 7550 mAh",
+   "Charging": "90W wired, PD3.0, QC3+"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE, aptX, LHDC 5",
+   "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Turbo 4 Pro",
+  "Display: 6.83-inches, P-OLED",
+  "CPU: Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
+  "GPU: Adreno 825",
+  "Front Camera: 20MP",
+  "Rear camera: 50MP+8MP",
+  "Resolution: 1280 x 2772 pixels",
+  "Battery: 7550 mAh"
+ ],
+ "model": "Redmi Turbo 4 Pro",
+ "fetched": "2026-11-12T18:19+06:00",
+ "source": "https://diamu.com.bd/product/redmi-turbo-4-pro/",
+ "store": "diamu"
+}

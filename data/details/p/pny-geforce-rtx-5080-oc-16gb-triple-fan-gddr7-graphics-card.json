@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC3",
+   "Core Clock": "Clock Speed: 2295 MHz\nBoost Speed: 2730 MHz",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "10752"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin power connector",
+   "Recommended PSU": "850 Watts"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "Length: 12.92 in. (328.17 mm)\nWidth: 3 Slot; 2.35 in. (59.69 mm)\nHeight: 5.42 in. (137.67 mm)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI-Express 5.0 x16",
+  "Core Clock: 2330 MHz, Boost Clock: 2620 MHz",
+  "CUDA Cores: 10752, Memory Bus: 256-bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "price": 245000,
+ "regular": 267000,
+ "status": "In Stock",
+ "code": "42237",
+ "brand": "PNY",
+ "mpn": "VCG508016TFXPB1-O",
+ "model": "GeForce RTX 5080 OC 16GB Triple Fan",
+ "warranty": "3 Years",
+ "name": "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PNY",
+  "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://www.startech.com.bd/pny-geforce-rtx-5080-oc-16gb-triple-fan-graphics-card",
+ "store": "startech"
+}

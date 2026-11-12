@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Microsoft Windows 8\nMicrosoft Windows 10\nLinux Kernel 2.6.31 or later"
+  },
+  "Hard Disk Feature": {
+   "Interface": "PCIe Gen3 x4 NVMe 1.3"
+  },
+  "Key Features": {
+   "Capacity": "512GB",
+   "MTBF": "1,800,000 Hours",
+   "Form Factor": "M.2 2280",
+   "NAND Flash": "3D TLC"
+  },
+  "Main Features": {
+   "Read Speed": "Up to 3,000 MB/s",
+   "Write Speed": "Up to 2,000 MB/s"
+  },
+  "Power Specifications": {
+   "Power Consumption": "4.5W/5W"
+  },
+  "Others": {
+   "Other Features": "4K Random Read: 350,000IOPS\n4K Random Write : 500,000IOPS\nTBW: 800TBW"
+  },
+  "Physical Specification": {
+   "Weight": "8.2g"
+  },
+  "Physical Specifications": {
+   "Dimension": "80 x 22 x 3.5 mm (LxWxH)",
+   "Operating Temperature": "0°C - 70°C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C - 85°C"
+  },
+  "Warranty Information": {
+   "Warranty": "3Years"
+  }
+ },
+ "key_features": [
+  "Capacity : 512 GB",
+  "Interface: NVMe GEN3x4",
+  "R/W: 3,000 MB/s & 2,000 MB/s",
+  "Form Factor: M.2 2280"
+ ],
+ "warranty": "3Years",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.pchouse.com.bd/addlink-s70-lite-512gb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

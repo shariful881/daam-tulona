@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "2.5 Inch",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III 6Gb/s",
+   "Sequential R/W": "Max. Sequential Read (MB/s): 560\nMax. Sequential Write (MB/s): 520",
+   "MTBF": "1,500,000 hours",
+   "TBW": "560"
+  },
+  "Physical Specification": {
+   "Dimension": "Length:100.0mm\nWidth: 69.85mm\nHeight: 7.0mm",
+   "Weight": "46 gm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-45°C ~ 85°C",
+   "Shock resistance": "1500g/0.5ms"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: SATA III, 6.0 GB/s",
+  "Form Factor: 2.5 inch",
+  "Read: 560MB/s, Write: 520MB/s"
+ ],
+ "price": 1400017500,
+ "regular": 15730,
+ "status": "In Stock",
+ "code": "25987",
+ "brand": "Netac",
+ "mpn": "NT01N600S-001T-S3X",
+ "model": "N600S",
+ "warranty": "03-Year Warranty",
+ "name": "Netac N600S 1TB 2.5-inch SATA III SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Netac",
+  "Netac N600S 1TB 2.5-inch SATA III SSD"
+ ],
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.startech.com.bd/netac-n600s-1tb-ssd",
+ "store": "startech"
+}

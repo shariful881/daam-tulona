@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "SA272 P1",
+   "Model number": "Acer 27 Monitor – SA272 P1",
+   "Color": "Black/White",
+   "Display": "27″",
+   "Refresh rate": "144Hz",
+   "Active display area": "598x336mm",
+   "Glare": "No",
+   "Panel type": "IPS",
+   "Response time": "1ms (VRB)",
+   "Contrast ratio (ACM)": "100 million:1 max",
+   "Brightness": "250 cd/m2",
+   "Viewing angle (CR=10)": "178° (H), 178° (V)",
+   "Colors": "16.7 million",
+   "Bits": "6Bit+FRC",
+   "Color Gamut": "NTSC 72%",
+   "Input signal": "1VGA+1HDMI(1.4)+SPK+Audio out+Audio in",
+   "VESA Wall Mount": "75x75mm",
+   "Speaker": "1W x 2",
+   "Tilt": "-5°~ 15°",
+   "Power supply (100V-240V)": "External (non-removable plug)"
+  },
+  "Maximum resolution and refresh rate": {
+   "VGA": "1920×1080@75Hz",
+   "HDMI": "1920×1080@144Hz",
+   "DP": "1920×1080@144Hz"
+  },
+  "Feature Highlights": {
+   "Feature Highlights": "AMD FreeSync technology (applying)"
+  },
+  "100 million:1 contrast ratio (ACM)": {
+   "Protective comfort": "Flicker-less, BlueLightShield, Low-dimming and ComfyView technology",
+   "Usability enhancements": "Ultra-thin profile of 7.2mm"
+  },
+  "VESA wall mount": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920*1080p)",
+  "Display: IPS, 144Hz, 1ms",
+  "Ports: 1x VGA, 1 x HDMI, Headphone",
+  "Features: Adaptive Sync, Blue Light Shield, Flicker Free"
+ ],
+ "model": "SA272 P1",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:24+06:00",
+ "source": "https://smartbd.com/product/acer-sa272-p1-27-inch-144hz-ips-fhd-monitor-black-white/",
+ "store": "smartbd"
+}

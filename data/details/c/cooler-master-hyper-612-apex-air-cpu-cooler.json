@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "0-2400 RPM ± 10%",
+   "Fan Airflow": "75.2 CFM (Max)",
+   "Noise": "30 dBA (Max)",
+   "Air Pressure": "3.63 mmH₂O (Max)",
+   "Connector": "4-Pin (PWM)",
+   "Others": "Fan MTTF: >200,000 Hours\nFan Bearing: LDB\nFan Rated Current: 0.18A\nFan Safety Current: 0.35A\nFan Power Consumption: 2.16W\nFan Rated Voltage: 12 VDC"
+  },
+  "Physical Specification": {
+   "Dimension": "Fan Dimensions: 120 x 120 x 25 mm / 4.7 x 4.7 x 1.0 inch"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1851 / 1700 / 1200 / 1151 / 1150 / 1155 / 1156 socket",
+   "AMD": "AM5 / AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "05-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 0-2400 RPM ± 10%",
+  "Fan Airflow: 75.2 CFM (Max)",
+  "Fan Noise Level: 30 dBA (Max)",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 95009800,
+ "regular": 10780,
+ "status": "In Stock",
+ "code": "50048",
+ "brand": "Cooler Master",
+ "mpn": "MAP-T6PN-225PK-R1",
+ "model": "Hyper 612 Apex",
+ "warranty": "05-year Warranty",
+ "name": "Cooler Master Hyper 612 Apex Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Cooler Master",
+  "Cooler Master Hyper 612 Apex Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-hyper-612-apex-air-cpu-cooler",
+ "store": "startech"
+}

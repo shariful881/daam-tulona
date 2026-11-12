@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Internal Storage": "Choose an option\n256GB\n512GB\n128GB\n256GB\n512GB\n128GB\nClear"
+  },
+  "Specification": {
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB"
+  },
+  "Add a review Cancel reply": {
+   "Model": "Google Pixel 9A",
+   "OS": "Android 15, up to 7 major Android upgrades",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Weight": "186 g (6.56 oz)",
+   "Dimensions": "154.7 x 73.3 x 8.9 mm (6.09 x 2.89 x 0.35 in)",
+   "Rear Camera": "Dual48 MP, f/1.7, 25mm (wide), 1/2.0\", 0.8µm, dual pixel PDAF, OIS\n13 MP, f/2.2, 120˚ (ultrawide), 1/3.1\", 1.12µm\nFeatures: Dual-LED flash, Pixel Shift, Ultra HDR, panorama, Best Take\nVideo: 4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS, OIS",
+   "System Storage": "128GB/256GB",
+   "RAM(GB)": "8GB",
+   "SIM Card": "Nano-SIM + eSIM\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)",
+   "Processor": "Google Tensor G4 (4 nm)",
+   "CPU": "Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.9 GHz Cortex-A520)",
+   "GPU": "Mali-G715 MP7",
+   "Battery": "Type: Li-Po 5100 mAh\nCharging\n23W wired, PD3.0\n7.5W wireless\nBypass charging (w/ \"Limit to 80%\" option enabled)",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer"
+  },
+  "Display": {
+   "Type": "P-OLED, HDR, 120Hz, 1800 nits (HBM), 2700 nits (peak)",
+   "Size": "6.3 inches, 94.7 cm2 (~83.5% screen-to-body ratio)",
+   "Resolution": "1080 x 2424 pixels, 20:9 ratio (~422 ppi density)",
+   "Protection": "Corning Gorilla Glass 3"
+  },
+  "Front Camera": {
+   "Single": "13 MP, f/2.2, 20mm (ultrawide), 1/3.1\", 1.12µm",
+   "Features": "HDR, panorama",
+   "Video": "4K@30fps, 1080p@30fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual/tri-band",
+   "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+   "NFC": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2"
+  }
+ },
+ "key_features": [
+  "Model: Pixel 9A",
+  "Display: 6.3 inches OLED",
+  "OS: Android 15",
+  "CPU: Octa-Core (Google Tensor G4 (4 nm))",
+  "GPU: Mali-G715 MC7",
+  "Front Camera: 13MP",
+  "Rear camera: 48MP + 13MP",
+  "Resolution: 1080 x 2424 pixels",
+  "Battery: 5100mAh"
+ ],
+ "model": "Google Pixel 9A",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://diamu.com.bd/product/pixel-9a/",
+ "store": "diamu"
+}

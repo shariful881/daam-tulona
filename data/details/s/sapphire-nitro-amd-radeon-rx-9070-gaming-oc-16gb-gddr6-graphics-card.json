@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Core Clock": "Boost Clock: Up to 2700 MHz\nGame Clock: Up to 2210MHz",
+   "Memory Clock": "20 Gbps Effective",
+   "BUS Type": "256 bit",
+   "Memory Interface": "PCI-Express 5.0 x16",
+   "Stream Processors": "3584",
+   "Others": "Compute Units: 64 CUs (3rd Gen RT + 2nd Gen AI Accelerators)\nInfinity Cache: 64MB\nRay Accelerators: 56\nAI Accelerator: 112\nQuick Connect MagniPlate\nSTEALTH Hidden Power Cable\n12V-2x6(H++) External Power Connector (3x8-pin power adapter is also included if your PC's Power Supply Unit does not have 12V-2x6)\nHoneywell PTM7950 Thermal Interface Material (TIM)\nAeroCurve Fan Blade\nFree Flow\nFrameDefense\nIntegrated Cooling Module\nCold Rolled Steel Frame\nTri-X Cooling Technology\nHigh TG Copper PCB\nOptimized Composite Heatpipes\nMetal Backplate\nARGB Light Bar\nFan Quick Connect\nTwo-Ball Bearing Fans\nPremium 16-Phase Digital Power Design\nFuse Protection\nIntelligent Fan Control\nPrecision Fan Control\nTriXX Supported\nPerformance vs. Efficiency Quicksets\nGlow!\nFan Check\nTriXX Boost\nExternal RGB LED MB Synchronization\nL-Shape Support Bracket\n3pin 5V ARGB Cable\nMagnetic Backplate\n12V-2x6(H++) to PCI Express 3x8-pin power adapter\nAMD RDNA 4 Architecture\n64 Compute Units (3rd Gen RT + 2nd Gen AI Accelerators)\nAMD HYPR-RX with AFMF 2\nAMD FidelityFX Super Resolution 4 with AI Upscaling\nDisplayPort 2.1a\nAMD Radiance Display Engine\nAMD Fluid Motion Frames 2 technology\nAMD Radeon Anti-Lag 2 technology\nAV1 Encode/Decode\nAMD FidelityFX technologies\nMicrosoft DirectX 12 Ultimate\nAMD Noise Suppression\nAMD Freesync technology\nAMD smart technologies\nAMD Software: Adrenalin Edition application\nTri-X Cooling\nAeroCurve Fan Blade\nFree Flow\nIntegrated Cooling Module\nHigh TG Copper PCB\nOptimized Composite Heatpipes\nTwo-Ball Bearing"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "2 x HDMI"
+  },
+  "Power Specifications": {
+   "Connectors": "3 x 8-pin Power Connector",
+   "Recommended PSU": "Minimum 650 Watt Power Supply",
+   "Consumption": "245W Typical Board Power"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate"
+  },
+  "Physical Specifications": {
+   "Dimensions": "330.8(L)X 128.5(W)X 65.68 (H)mm",
+   "Others": "3.2 slot, ATX"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 2700 MHz, Game Clock: Up to 2210 MHz",
+  "Memory: 16GB/ 256 bit GDDR6, 20 Gbps Effective",
+  "Stream Processors: 3584, AMD RDNA 4 Architecture",
+  "Output Ports: 2x HDMI, 2x DisplayPort 2.1a"
+ ],
+ "price": 118900,
+ "regular": 130750,
+ "status": "In Stock",
+ "code": "44765",
+ "brand": "Sapphire",
+ "mpn": "11349-01-20G",
+ "model": "NITRO+ AMD Radeon RX 9070 GAMING OC",
+ "warranty": "2 years",
+ "name": "Sapphire NITRO+ AMD Radeon RX 9070 Gaming OC 16GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Sapphire",
+  "Sapphire NITRO+ AMD Radeon RX 9070 Gaming OC 16GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.startech.com.bd/sapphire-nitro-plus-amd-radeon-rx-9070-gaming-oc-graphics-card",
+ "store": "startech"
+}

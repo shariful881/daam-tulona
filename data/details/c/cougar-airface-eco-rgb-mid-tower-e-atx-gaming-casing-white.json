@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "airflow funnel",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "Mini ITX / Micro ATX / ATX / CEB / E-ATX"
+  },
+  "External Features": {
+   "Color(s)": "White",
+   "Dimensions": "240(W) x 509(H) x 480(D) (mm)\n9.4(W) x 20(H) x 18.9(D) (in)",
+   "Expansion Slots": "7 (horizontal slots can be converted into vertical slots)",
+   "Radiator Support": "Front: 360mm / 280mm / 240 mm / 140 mm / 120mm\nTop: 360mm / 280mm / 240 mm / 140 mm / 120mm\nRear: 140 mm / 120mm",
+   "Fan Support": "Front: 120mm x 3 / 140mm x 2 / 180mm x 2\nTop: 120mm x 3 / 140mm x 2\nRear: 120mm x 1 / 140mm x 1",
+   "Pre- Installed Fans": "Front: 180mm ARGB PWM fan x 2\nRear: 120mm ARGB fan x 1\nSpeed: 180mm ARGB PWM fan : 300-1200 ± 10% RPM\n120mm ARGB fan : 1000 ± 10% RPM\nConnector: 180mm ARGB PWM fan Connector : 5V 3 Pin (ARGB) / 4 Pin PWM (Fan)\n120mm ARGB fan Connector : 5V 3 Pin (ARGB) / 3 Pin (Fan)",
+   "Drive Bays": "3.5\" Drive Bay: 2\n2.5\" Drive Bay: 2 (2 SSD trays included)",
+   "I/O Port": "USB 3.2 Gen 2 Type-C x 1, USB 3.0 Type-A x 2, 4 Pole Headset Audio Jack x 1, RGB Button",
+   "Others": "Innovative quick-slide dust filter.\nRemovable top panel and detachable front bracket facilitates effortless assembly.\nModular front I/O allows versatile placement.\nUpgraded new vertical GPU space improves cooling.\nIncreased cable routing."
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "190 (mm) / 7.5 (in)",
+   "Maximum Graphics Card Length": "390(mm) / 15.4(in)",
+   "Maximum PSU Length": "200(mm) / 7.9(in)"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Mini ITX / Micro ATX / ATX / CEB / E-ATX",
+  "Modular Front I/O Panel, Removable Top Panel & Detachable Front Bracket",
+  "Pre-installed Fans: 2x 180mm ARGB Fans, 1x 120mm ARGB Fan",
+  "I/O Ports: 1x Type-C, 2x USB, 1x 4-Pole Headset Audio Jack"
+ ],
+ "price": 1170011800,
+ "regular": 12980,
+ "status": "In Stock",
+ "code": "44182",
+ "brand": "Cougar",
+ "model": "Airface ECO RGB White",
+ "warranty": "No Warranty",
+ "name": "Cougar Airface ECO RGB Mid Tower E-ATX Gaming Casing White",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Cougar",
+  "Cougar Airface ECO RGB Mid Tower E-ATX Gaming Casing White"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/cougar-airface-eco-rgb-casing-white",
+ "store": "startech"
+}

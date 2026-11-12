@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core Ultra Processors (Series 2)",
+   "Chipset": "Intel Z890 Chipset",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "E-ATX Form Factor; 30.5cm x 28.5cm",
+   "Audio": "ESS ES9260 CODEC (rear panel audio)\n- High Definition Audio\n- 2-channel\nRealtek ALC897 CODEC (front panel audio)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Maximum Memory": "256GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "LAN Port (s)": "2 x Marvell AQtion AQC113C 10GbE LAN chips\n(10 Gbps/5 Gbps/2.5 Gbps/1 Gbps/100 Mbps)",
+   "RAID": "RAID 0, RAID 1, RAID 5, and RAID 10 support for NVMe SSD storage devices\nRAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+   "Audio": "2 x audio jacks",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only)",
+   "Wireless Communication module": "Intel Wi-Fi 7 BE200\n- 802.11a, b, g, n, ac, ax, be, supporting 2.4/5/6 GHz carrier frequency bands\n- BLUETOOTH 5.4\n- Support for 11be 320MHz wireless standard"
+  },
+  "Others": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)\n* Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.\nSupport for Q-Flash\nSupport for Q-Flash Plus\nSupport for Smart Backup",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-z890-ai-top-motherboard",
+ "store": "pchouse"
+}

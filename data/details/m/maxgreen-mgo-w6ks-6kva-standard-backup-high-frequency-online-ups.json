@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "6KVA/5.4KW\n12v 9Ah",
+   "Input Voltage": "Single-phase 120Vac-288Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "Frequency precision 0.25%",
+   "Noise Level": "<55dB",
+   "Alarm": "Battery low-voltage, mains abnormal, overload, UPS fault, over-temperature protection"
+  },
+  "Battery": {
+   "Battery brand": "Always/Star/Equivalent",
+   "Battery Capacity": "12v 9Ah",
+   "Battery Qty": "16 units",
+   "Battery Cabinet": "Internal Battery"
+  },
+  "Others": {
+   "Charging capability": ">6h for 90% re-charging of standard model",
+   "Rectifier Type": "IGBT rectifier"
+  },
+  "Input Features": {
+   "Frequency": "45Hz-65Hz",
+   "Voltage Range": "Single-phase 120Vac-288Vac"
+  },
+  "Output Features": {
+   "Type of Wave": "Sine Wave, THD<3%",
+   "Backup Time": "Standard back up (15-30) min IT Load"
+  }
+ },
+ "key_features": [
+  "Input frequency range: 45Hz-65Hz",
+  "Battery Capacity: 12v 9Ah",
+  "Rated Power: 6KVA/5.4KW"
+ ],
+ "fetched": "2026-11-12T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mgo-w6ks-6kva-high-frequency-online-ups",
+ "store": "pchouse"
+}

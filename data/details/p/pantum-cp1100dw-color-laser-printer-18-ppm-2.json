@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "LED",
+   "Memory": "1GB",
+   "Processor": "1GHz",
+   "General": "Functions: Print Only",
+   "Others": "Noise Level: Print≤52dB (Normal) ;Print≤47dB (Mute printing)"
+  },
+  "Printer": {
+   "Input Capacity": "250 pages",
+   "Output Capacity": "150 pages",
+   "Paper Size": "A4, Letter, Legal, Folio, Oficio, JIS B5, ISO B5, Executive, Statement, A5,Big16K,16K, Big32K, 32K, A6, No.10 Env, Monarch Env, DL Env, C5 Env, C6 Env, Yougata4, Younaga3, Nagagata3, Yougata2, ZL , Postcard, B6, Japanese Postcard Custom: minimum 96x148mm~ maximum 216x356mm",
+   "Power Consumption": "AC 110-127V(±10%), 50/60Hz(±3Hz), 7A;",
+   "Paper Type": "Plain:70~105g/m² Thin:60~70g/m² (Not including 70g/m²) Thick:105~200g/m² (Not including 105g/m²) Transparency/Cardstock/Label/Envelope",
+   "Paper Weight": "Standard tray:60-105g/㎡ Multipurpose tray: 60-200g/㎡",
+   "Print": "Technology: Color Laser Print",
+   "Toner/ Cartridge/ Refill": "CTL-1100K/CTL-1100C/CTL-1100M/CTL-1100Y: 1000 Pages(Black)/700 Pages(Color) CTL-1100HK/CTL-1100HC/CTL-1100HM/CTL-1100HY: 2000 Pages(Black)/1500 Pages(Color) CTL-1100XK/CTL-1100XC/CTL-1100XM/CTL-1100XY: 3000 Pages(Black)/2300 Pages(Color)"
+  },
+  "Features": {
+   "Dimension": "401 x 411 x 241mm",
+   "Weight": "16.3kg"
+  },
+  "Connectivity": {
+   "Connectivity": "USB+NET+WIFI"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Processor: 1GHz, Memory: 1GB",
+  "Connection method: USB+NET+WIFI",
+  "Printing speed: 18ppm",
+  "Duty cycle: 30,000 pages"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:26+06:00",
+ "source": "https://www.pchouse.com.bd/pantum-cp1100dw-printer",
+ "store": "pchouse"
+}

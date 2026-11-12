@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "All-in-One Color Printer",
+   "Output Color": "Color"
+  },
+  "Print": {
+   "Technology": "HP Thermal Inkjet",
+   "Duty Cycle up to (Yield)": "Up to 1000 pages",
+   "Duplex": "Manual"
+  },
+  "Print Speed": {
+   "Print speed black (ISO)": "Up to 7.5 ppm",
+   "Print speed black (draft, A4)": "Up to 20 ppm",
+   "Print speed black (ISO, A4)": "Up to 7.5 ppm",
+   "Print speed color (ISO)": "Up to 5.5 ppm",
+   "Print speed color (draft, A4)": "Up to 16 ppm",
+   "Print Speed Color (ISO)": "Up to 5.5 ppm"
+  },
+  "Print Resolution": {
+   "Print quality black (best)": "Up to 1200 x 1200 rendered dpi",
+   "Print quality color (best)": "Up to 4800 x 1200 optimized dpi color (when printing from a computer on selected HP photo papers and 1200 input dpi)"
+  },
+  "First Print Out Time": {
+   "First page out black (A4, ready)": "As fast as 13 sec",
+   "First page out color (A4, ready)": "As fast as 16 sec"
+  },
+  "Paper Information": {
+   "Paper Size": "A4; B5; A6; DL envelope"
+  },
+  "Scan": {
+   "Maximum Scan Size": "216 x 297 mm"
+  },
+  "Technical Specification": {
+   "Processor": "1.0 GHz",
+   "Display": "Icon LCD display",
+   "Memory": "64 MB DDR1, 24 MB Flash",
+   "Connectivity": "1x Wi-Fi 802.11b/g/n\n1x Hi-Speed USB 2.0 (device)",
+   "Power Consumption": "Input voltage: 100 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3 Hz), 350 mA. India input voltage: 200 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3 Hz), 350 mA"
+  },
+  "Physical Specifications": {
+   "Color": "Cement",
+   "Dimension": "425 x 304 x 154 mm",
+   "Weight": "3.42 kg"
+  },
+  "Support": {
+   "Software": "Windows 11; Windows 10; macOS 10.14 Mojave; macOS 10.15 Catalina; macOS 11 Big Sur; macOS 12 Monterey; macOS 13 Ventura; Chrome OS; macOS 14 Sonoma"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming.\n(Print Head Warranty 12000 pages)"
+  }
+ },
+ "key_features": [
+  "Functions: Print, Scan, Copy",
+  "Print Speed: Up to 7.5 ppm (Black), 5.5 ppm (Color)",
+  "Max Resolution: 4800 x 1200 dpi (Color)"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://fourstarit.com.bd/p/hp-deskjet-ink-advantage-2875-all-in-one-wi-fi-color-printer-1144",
+ "store": "fourstar"
+}

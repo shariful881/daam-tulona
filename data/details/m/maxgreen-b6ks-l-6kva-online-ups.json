@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "6KVA",
+   "Load Capacity": "110%~129% full load keep 10min\n130%~150% load keep 60s",
+   "Output Voltage": "165～275 Vac",
+   "Frequency (Battery Mode)": "45～66 Hz Automatically select synchronization range according to grid frequency",
+   "Noise Level": "<60(within 1 meter)",
+   "Battery": "16*9Ah 12V/External",
+   "Alarm": "Battery low-voltage, mains abnormal, overload, UPS fault, over temperature protection"
+  },
+  "Output Features": {
+   "Backup Time": "Standard time is 10min/ Long backup time can be extended freely"
+  }
+ },
+ "key_features": [
+  "Capacity: 6KVA",
+  "Parallel function: Yes",
+  "Battery voltage: 192 Vdc"
+ ],
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-b6ks-l-6kva-ups",
+ "store": "pchouse"
+}

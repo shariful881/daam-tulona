@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1500VA",
+   "Load Capacity": "900W"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "7 - 20 Minutes (with full load)",
+   "Frequency (Battery Mode)": "50HZ - 60HZ",
+   "Input Voltage Range": "140-300V",
+   "Noise Level": "<45DB",
+   "Output Voltage Range": "230V",
+   "Transfer Time": "4-8ms",
+   "Type of Wave": "Sine Wave(mains), Square Wave (Inverter)"
+  },
+  "Output": {
+   "Voltage": "230V"
+  },
+  "Input": {
+   "Frequency Range": "50HZ - 60HZ",
+   "Voltage": "140-300V"
+  },
+  "Physical Specifications": {
+   "Dimension": "380 x 158 x 198mm"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 1500VA",
+  "Load Capacity: 900W",
+  "Output Voltage: 230V",
+  "Backup Time: 7–20 Minutes (Full Load)"
+ ],
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-12T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/kstar-1500va-offline-ups",
+ "store": "pchouse"
+}

@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Hardware Features": {
+   "Antenna": "Omni Directional",
+   "Dimensions (L x W x H )": "15 x 7.1 x 18.6mm",
+   "Interface": "USB 2.0"
+  },
+  "Wireless Features": {
+   "Data Rate": "600Mbps",
+   "Frequency": "5GHz, 2.4GHz",
+   "Standards": "64/128-bit WEP, WPA/WPA2, and WPA-PSK/WPA2-PSK",
+   "System Requirements": "Windows 7, 8, 8.1, 10, XP, Mac OS X 10.9-10.13",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK, 802.1x"
+  },
+  "Warranty": {
+   "Warranty Details": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "Antenna Type: Omni Directional",
+  "Data Transfer Rates: 600Mbps",
+  "Interface: USB 2.0",
+  "Transmit Power: <20dBm (EIRP)"
+ ],
+ "warranty": "01 year warranty",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://fourstarit.com.bd/p/tp-link-archer-t2u-nano-ac600-dual-band-mini-usb-wifi-adapter",
+ "store": "fourstar"
+}

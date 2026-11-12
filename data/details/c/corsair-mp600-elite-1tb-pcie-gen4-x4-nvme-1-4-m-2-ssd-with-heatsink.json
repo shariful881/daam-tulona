@@ -1,0 +1,20 @@
+{
+ "specs": {
+  "Key Features": {
+   "Sequential R/W": "Up to 7,000MB/s and write speeds up to 6,500MB/s",
+   "Endurance": "600TBW",
+   "Features": "The pre-installed heatsink helps dissipate heat generated during operation, maintaining optimal performance and preventing thermal throttling"
+  },
+  "General": {
+   "Type": "PCIe Gen4"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to 7000MB/s",
+  "Sequential Write: Up to 6200MB/s"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-mp600-elite-1tb-nvme-ssd-with-heatsink",
+ "store": "pchouse"
+}

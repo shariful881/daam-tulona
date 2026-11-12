@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "2.4G Hz, 5 GHz-1, 5 GHz-2",
+   "Wireless": "Yes",
+   "Button": "WPS Button, Reset Button, Power Button, Wireless on/off Button, Boost Key",
+   "Others": "1.8GHz quad-core processor\n256MB NAND flash and 1GB DDR3 SDRAM\nOFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth"
+  },
+  "Power Mode": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 3.42 A current"
+  },
+  "Router Features": {
+   "Antenna": "External antenna x 8",
+   "Data Rate": "2.4GHz AX: 4x4 (Tx/Rx) 1024 QAM 20/40MHz, up to 1148Mbps\n5G-1Hz AX: 4x4 (Tx/Rx) 1024 QAM 20/40/80/160MHz, up to 4804Mbps\n5G-2Hz AX: 4x4 (Tx/Rx) 1024 QAM 20/40/80/160MHz, up to 4804Mbps",
+   "Encryption": "64-bit WEP, 128-bit WEP, WPA2-PSK, WPA-PSK, WPA-Enterprise , WPA2-Enterprise , WPS support"
+  },
+  "Connector & Ports": {
+   "Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4, Multi-Gig Ethernet port 2.5G/1G x1\nUSB 3.1 Gen 1 x 2",
+   "Network Standard": "IEEE 802.11a, IEEE 802.11b, IEEE 802.11g, IEEE 802.11n, IEEE 802.11ac, IEEE 802.11ax, IPv4, IPv6"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "9.5 x 9.5 x 2.4 ~ inch (Without Bezel)",
+   "Weight": "3.8 lb"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years replacement warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "02 years replacement warranty",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-rapture-gt-ax11000-tri-band-11000-mbps-gigabit-wifi-gaming-router-regular-version",
+ "store": "pchouse"
+}

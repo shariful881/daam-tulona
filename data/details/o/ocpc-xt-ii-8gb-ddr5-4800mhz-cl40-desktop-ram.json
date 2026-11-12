@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Latency": "CL40-40-40-77",
+   "Voltage": "1.1V"
+  },
+  "Memory": {
+   "Bus Speed": "4800MHz",
+   "Size": "8GB",
+   "Type": "DDR5"
+  },
+  "Features": {
+   "Other Features": "Channel - Single Channel Kit\nRegistered/Unbuffered - Unbuffered\nError Checking - Non-ECC"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Black",
+   "Pin": "288-pin",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  },
+  "Image": {
+   "Model": "XT II 8GB"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR5",
+  "Capacity: 8GB (1x8GB)",
+  "Tested Speed: 4800MHz",
+  "Tested Latency: CL40-40-40-77"
+ ],
+ "model": "XT II 8GB",
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-12T17:59+06:00",
+ "source": "https://www.creatus.com.bd/ocpc-xt-ii-8gb-ddr5-4800mhz-cl40-ram",
+ "store": "creatus"
+}

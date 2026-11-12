@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD Ryzen™ 3 7330U Processor",
+   "Processor Model": "AMD Ryzen™ 3 7330U Processor",
+   "Frequency": "2.30 GHz up to 4.30 GHz",
+   "Generation": "AMD Ryzen™ 3"
+  },
+  "Display": {
+   "Display Size (Inch)": "15.6″",
+   "Display Type": "15.6″ FHD Ultra-slim IPS Display",
+   "Display Resolution": "1920 x 1080"
+  },
+  "Memory": {
+   "RAM": "Dual-channel DDR4 SDRAM support: 8 GB of DDR4 system memory,\nupgradable to 32 GB using two soDIMM modules",
+   "SSD": "512 GB, PCIe Gen 3, NVMe, expandable up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon™ Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD video, 1280 x 720 resolution",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "Yes",
+   "USB 3 Port": "2 x USB 3.0 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "No",
+   "WiFi": "802.11a/b/g/n/ac wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.0 or above"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Battery": {
+   "Battery Type": "60Wh 3-cell Li-ion battery",
+   "Battery Capacity": "3-pin 65 W AC adapter"
+  },
+  "Others": {
+   "Color": "Steel Gray",
+   "Dimensions": "357.4 (W) x 228.0 (D) x 17.8 (H) mm",
+   "Weight": "1.65 kg",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Ryzen 3 7330U (2.30 GHz up to 4.3 GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB PCIe NVMe SSD",
+  "Display: 15.6″ FHD (1920×1080) IPS Display",
+  "Features: Stereo Speaker, Bluetooth 5.0"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-lite-al15-42-amd-ryzen-3-7330u-15-6-inch-fhd-ips-display-laptop/",
+ "store": "smartbd"
+}

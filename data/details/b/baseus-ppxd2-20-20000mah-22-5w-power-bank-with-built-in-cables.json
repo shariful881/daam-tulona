@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Battery/ Battery Capacity": "20000mAh",
+   "Interface": "Type-C\nUSB-A\nLightning (IP)"
+  },
+  "Output Interface": {
+   "Output (Type-C)": "5V-2.4A; 9V—2.22A; 12V—1.5A; 10V2.25A (SCP)",
+   "Output (Type-C Cable)": "5V-2.4A; 9V-2.22A; 12V–1.5A; 10V-2.25A (SCP)",
+   "Output (IP Cable)": "5V—2.4A; 9V–2.22A",
+   "Output (USB-A)": "5V- 2.4A",
+   "Total Output": "5V–2.4A"
+  },
+  "Input Voltage": {
+   "Input (Type-C)": "5V–3A; 9V2A; 12V-1.5A",
+   "Input (Type-C Cable)": "5V—3A; 9V–2A; 12V—1.5A"
+  },
+  "Physical Specification": {
+   "Color": "Starry Black"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "03 Months Warranty"
+  }
+ },
+ "key_features": [
+  "Power Capacity: 20,000mAh Lithium polymer",
+  "Power Output: 22.5W Fast Charging, Digital LED Display",
+  "Interface: 1x USB, 1x Type-C"
+ ],
+ "warranty": "03 Months Warranty",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://fourstarit.com.bd/p/baseus-ppxd2-20-20000mah-22-5w-power-bank",
+ "store": "fourstar"
+}

@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Product Description": {
+   "Standards": "Wi-Fi 5\nIEEE 802.11ac/n 5 GHz\nIEEE 802.11b/g/n 2.4 GHz",
+   "WiFi Speeds": "AC1200\n5 GHz: 867Mbps (802.11ac)\n2.4 GHz: 300Mbps (802.11n)",
+   "WiFi Range": "3 Bedroom Houses\n4* Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more\ndirections and large areas\nBeamforming Concentrates wireless signal strength towards\nclients to expand WiFi range\nHigh-Power FEM Improves transmission power to strengthen\nsignal coverage",
+   "WiFi Capacity": "Dual-Band\nAllocate devices to different bands for optimal performance\nOFDMA\nSimultaneously communicates with multiple Wi-Fi 5/4 clients\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation\n4 Streams Connect your devices to more bandwidth",
+   "Working Modes": "AP Router Mode, AP Mode, WISP Mode, Client Mode, Repeater Mode",
+   "Processor": "1GHz CPU",
+   "DDR/FLASH": "128MB/8MB",
+   "Interface": "1* Gigabit WAN Port+3* Gigabit LAN Ports",
+   "Buttons": "WPS/MESH、RESET",
+   "Power": "12V1A",
+   "WiFi Encryption": "WEP, WPA-PSK, WPA2-PSK, WPA/WPA2-PSK",
+   "Network Security": "Access Control, IP & MAC Binding",
+   "Guest Network": "4*5GHz Guest Network /4*2.4GHz Guest Network",
+   "Protocols": "IPv4, IPv6",
+   "WAN Types": "DHCP, Static IP, PPPoE, L2TP, PPTP",
+   "Quality of Service": "QoS by Device",
+   "Forwarding": "Virtual Server, DMZ,UPnP",
+   "IPTV": "Bridge, Tag VLAN",
+   "DHCP": "Address Reservation, DHCP Client List, DHC Server",
+   "Access Control": "IP Filtering, MAC Filtering, Domain Filtering, IPv6 Filtering",
+   "Dynamic DNS": "DynDns, no-ip",
+   "IGMP": "IGMP Proxy, IGMP Snooping",
+   "VPN": "PPTP Pass-through,L2TP Pass-through,IPSEC Pass-through,SIP Pass-through",
+   "Others": "Bandwidth Control, Multiple SSID, FOTA, TR069, WOL, ARP List, Static Routing, Port Setting, Remote Access, Backup & Restore",
+   "Dimensions(W×D×H)": "228*134*188mm",
+   "Package Contents": "1*NC65\n1* Power Adapter\n1* RJ45 Ethernet Cable\n1* Quick Installation Guide",
+   "System Requirements": "Internet Explorer 11+, Firefox 12.0+, Chrome 20.0+, Safari 4.0+, or other JavaScript-enabled browser\nCable Subscription with an internet service provider (for internet access)",
+   "Certifications": "FCC, CE, RoHS, EAC, UkrSEPRO",
+   "WiFi Transmission Power": "2.4H: 22DB\n5G: 19.5DB"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ ( 32℉ ~104℉ )",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉ )",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [
+  "Band: Dual",
+  "Router Type: Wireless & Ethernet",
+  "Wi-Fi Generation: Wi-Fi 5",
+  "Wi-Fi Coverage (Approximate): Up to 1500 sq. ft.",
+  "Antenna (Type & Qty): 4 x Fixed High-Performance Antennas",
+  "Color: Black"
+ ],
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://smartbd.com/product/netis-nc65-ac1200-wireless-dual-band-gigabit-wi-fi-router/",
+ "store": "smartbd"
+}

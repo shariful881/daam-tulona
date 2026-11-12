@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2070MHz(Game)\nup to 2520MHz(Boost)",
+   "BUS Type": "PCIE 5.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "3584 Units",
+   "Others": "Radeon Anti-Lag\nRadeon Boost\nAMD RDNA 4 Architecture with Hardware Raytracing\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2\nAMD Stream Technology\nAMD Eyefinity Technology\nAMD Smart Access Memory"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1a (only 2x simultaneous DP2.1 connections can be supported)",
+   "HDMI": "1 x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "650W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "289mm*111mm*41mm\n304mm*127mm*42mm(with bracket)",
+   "Others": "Slot: 2"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2070MHz(Game)/ 2520MHz(Boost)",
+  "Memory Speed: 20.0 Gbps, Memory Interface: 256-bit",
+  "Stream Processors: 3584 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 1 x HDMI 2.1b, 3 x DisplayPort 2.1b"
+ ],
+ "price": 118999119900,
+ "regular": 129120,
+ "status": "In Stock",
+ "code": "40826",
+ "brand": "PowerColor",
+ "mpn": "RX9070 16G-A",
+ "model": "Reaper AMD Radeon RX 9070 16GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.startech.com.bd/powercolor-reaper-radeon-rx-9070-16gb-gddr6-graphics-card",
+ "store": "startech"
+}

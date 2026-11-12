@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Audio": "Studio-Quality Sound – 34mm gold-sputtered diaphragm with a 20Hz–20kHz frequency response for detailed, smooth, and natural audio.",
+   "Feature": "External Phantom Power Required – Operates with +48V phantom power (not included); ensure you have a mixer, audio interface, or sound card for use.",
+   "Material": "Rugged Metal Build – Zinc alloy body with multi-layer coating for durability and electromagnetic shielding, ensuring a pure audio signal.",
+   "Others": "High-Spec Design – Uses premium electronic components and a permalloy audio signal transformer for ultra-low noise and high dynamic range.",
+   "Power": "Power Requirements: +48V DC Phantom Power"
+  },
+  "Main Spec": {
+   "Noise Ratio": "70 dB-A",
+   "Frequency Response": "20Hz – 20kHz"
+  },
+  "Microphone FEATURE": {
+   "Sensitivity": "-35.3 dBu at 1kHz (1Pa = 94dB SPL)",
+   "Polar pattern": "Precise Cardioid Polar Pattern – Focuses on sound sources directly in front of the mic, minimizing background noise and enhancing voice clarity."
+  },
+  "Main Features": {
+   "Impedance": "Output Impedance: 98.7Ω"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Years (Warranty must be claimed with box and all accessories)"
+  }
+ },
+ "key_features": [
+  "Capsule Type: Dynamic Microphone",
+  "Polar Pattern: Cardioid",
+  "Connector type: XLR",
+  "Frequency Response: 20Hz - 20KHz"
+ ],
+ "warranty": "1 Years (Warranty must be claimed with box and all accessories)",
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/maono-pm500t-studio-quality-xlr-microphone",
+ "store": "pchouse"
+}

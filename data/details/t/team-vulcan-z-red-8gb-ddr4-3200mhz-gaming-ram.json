@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Interface": "3200Mhz",
+   "Operating voltage": "1.35 V",
+   "Type": "DDR4"
+  },
+  "Frequency": {
+   "Latency": "CL16-20-20-40"
+  },
+  "Physical dimension": {
+   "Dimension": "32(H) x 140(L) x 7(W)mm",
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288-pin DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  },
+  "Image": {
+   "Model": "z-red"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 8GB",
+  "Memory Type: DDR4",
+  "Bus Speed: 3200 MHz",
+  "Latency: CL16-20-20-40"
+ ],
+ "model": "z-red",
+ "warranty": "Lifetime",
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://www.creatus.com.bd/team-vulcan-z-red-8gb-ddr4-3200mhz-desktop-ram",
+ "store": "creatus"
+}

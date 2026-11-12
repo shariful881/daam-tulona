@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Camera": "5 MP camera (pull-up) with integrated dual array digital microphones",
+   "Monitor": "23.8 Inch, diagonal, FHD (1920 x 1080), anti-glare, WLED-backlit, 250 nits, 72%NTSC",
+   "Operating System": "FreeDOS",
+   "Security Management": "Standard security lock slot",
+   "Processor": "Intel Core i7-1255U (12M Cache, up to 4.7 GHz)",
+   "RAM": "8GB DDR4 3200MHz RAM",
+   "Graphics Card": "Intel UHD Graphics",
+   "Audio": "High performance internal speaker",
+   "Storage": "512GB SSD",
+   "Network & Wireless Connectivity": "integrated Realtek RTL8111HSH-CG GbE\nRTL8821CE 802.11a/b/g/n/ac (1x1)\nBluetooth 5.2"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Rear Ports:\n1 x power connector;\n1 x RJ-45\n1 x HDMI 1.4\n1 x SuperSpeed USB Type-A 5Gbps signaling rate\n2 x USB Type-A 480Mbps signaling rate\nSide Ports:\n1 x headphone/microphone combo\n1 x SuperSpeed USB Type-A 5Gbps signaling rate\n1 x HDMI 1.4",
+   "Keyboard": "USB Keyboard",
+   "Mouse": "USB Mouse",
+   "Optical Drive": "N/A"
+  },
+  "Physical Specification": {
+   "Weight": "5.37 kg",
+   "Color": "Jet Black",
+   "Dimensions": "54.06 x 18.37 x 41.9 cm"
+  },
+  "Warranty Information": {
+   "Warranty": "03-year Warranty"
+  },
+  "Image": {
+   "Model": "Pro 240 G9"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-1255U",
+  "RAM: 8GB DDR4",
+  "Storage: 512GB SSD",
+  "Display: 23.8 inch FHD"
+ ],
+ "model": "Pro 240 G9",
+ "warranty": "03-year Warranty",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.creatus.com.bd/hp-aio-pro-240-g9-core-i7-12th-gen-8gb-ram-512gb-ssd-238-inch-all-in-one-pc",
+ "store": "creatus"
+}

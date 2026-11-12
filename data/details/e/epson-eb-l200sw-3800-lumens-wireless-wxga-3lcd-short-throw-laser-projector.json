@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45"
+  },
+  "WiFi": {
+   "Infrastructure": "OPEN, WPA2 / WPA3-PSK, WPA2 / WPA3-EAP Supported",
+   "EAP Type": "PEAP,PEAP-TLS, EAP-TLS, EAP-Fast Access Point"
+  },
+  "Projection Features": {
+   "Contrast Ratio": "2,500,000:1",
+   "Projection Distance": "Unmentioned"
+  },
+  "Display": {
+   "Display Size": "53 Inch\nMax. Image/Screen Size (Inch): 120 Inch",
+   "Display Type": "3LCD",
+   "Display Resolution": "1280 x 800"
+  },
+  "Connectivitys": {
+   "HDMI": "2",
+   "VGA": "2",
+   "USB": "1 x USB Type-A, 1 x USB Type-B"
+  },
+  "Other Features": {
+   "Light Output (lumens)": "3800 Lumens",
+   "Light Source (Watt)": "Unmentioned",
+   "Light Source Type": "Laser",
+   "Lamp Included": "Yes",
+   "Remote Control Included": "Yes"
+  },
+  "Audio": {
+   "Audio Features": "1 x (Audio out), 1 x (Audio In)"
+  },
+  "Physical Specification": {
+   "Weight": "4.5 kg",
+   "Dimensions": "325 x 90 x 337mm",
+   "Colors": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (1st Year Parts, 2nd Year service )/(Lamp 12 Month/1000 Hours Which One Comes First)"
+  },
+  "Image": {
+   "Model": "EB-L200SW"
+  }
+ },
+ "key_features": [
+  "Brightness: 3800 Lumens",
+  "Resolution: WXGA (1280 x 800)",
+  "Contrast Ratio: 2,500,000:1",
+  "Weight: 4.5 kg"
+ ],
+ "model": "EB-L200SW",
+ "warranty": "2 Year (1st Year Parts, 2nd Year service )/(Lamp 12 Month/1000 Hours Which One C",
+ "fetched": "2026-11-12T18:35+06:00",
+ "source": "https://www.creatus.com.bd/epson-eb-l200sw-3800-lumens-wireless-wxga-3lcd-short-throw-laser-projector",
+ "store": "creatus"
+}

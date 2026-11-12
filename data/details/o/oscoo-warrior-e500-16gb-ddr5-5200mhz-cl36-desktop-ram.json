@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "5200MHz",
+   "Operating voltage": "1.1V",
+   "Latency": "CL36",
+   "PMIC": "On-die-ECC"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Black",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Type: DDR5",
+  "Frequency: 5200MHz",
+  "Pins: 288 pin, Function: On-die-ECC",
+  "Voltage & Cas Latency: CL36/1.1V"
+ ],
+ "status": "Out Of Stock",
+ "code": "45172",
+ "brand": "OSCOO",
+ "mpn": "OSC-D5 E500",
+ "model": "Warrior E500",
+ "warranty": "05 Years Warranty",
+ "name": "OSCOO Warrior E500 16GB DDR5 5200MHz CL36 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "OSCOO",
+  "OSCOO Warrior E500 16GB DDR5 5200MHz CL36 Desktop RAM"
+ ],
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://www.startech.com.bd/oscoo-warrior-e500-16gb-ddr5-5200mhz-ram",
+ "store": "startech"
+}

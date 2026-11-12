@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "11th Generation Intel Core i9 processors / Intel Core i7 processors / Intel Core i5 processors",
+   "Chipset": "Intel H510 Express Chipset",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor\n24.4cm x 21.0cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\n3 x audio jacks"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express x16 slot, running at x16 (The PCI Express x16 slot conforms to PCI Express 4.0 standard.)\nSupported by 11th Generation processors only.\n2 x PCI Express x1 slots (The PCI Express x1 slots conform to PCI Express 3.0 standard.)",
+   "M.2 Socket": "Intel H510 Express Chipset"
+  },
+  "Memory": {
+   "Slots": "1 x PCI Express x16 slot\n2 x PCI Express x1 slots\n2 x DDR4 DIMM",
+   "Supported Memory": "11th Generation Intel Core i9/i7/i5 processors: Support for DDR4 3200/3000/2933/2666/2400/2133 MHz memory modules",
+   "Maximum Memory": "64 GB (32 GB single DIMM capacity)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI ports, supporting a maximum resolution of 4096x2160@30 Hz",
+   "Display Port (s)": "1 x DisplayPort, supporting a maximum resolution of 4096x2304@60 Hz",
+   "Front USB": "11th Generation Intel Core i9/i7/i5 processors: Support for DDR4 3200/3000/2933/2666/2400/2133 MHz memory modules",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbit/100 Mbit)",
+   "Wireless Communication module": "11th Generation Intel Core i9 processors / Intel Core i7 processors / Intel Core i5 processors",
+   "Supported Storage": "1 x M.2 connector (Socket 3, M key, type 2260/2280 SATA and PCIe 3.0 x4/x2 SSD support)\n4 x SATA 6Gb/s connectors",
+   "RAID": "Not specified"
+  },
+  "USB (s)": {
+   "Chipset": "4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header)",
+   "Chipset+USB 2.0 Hub": "8 x USB 2.0/1.1 ports (4 ports on the back panel, 4 ports available through the internal USB header)"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Not specified"
+  },
+  "Others": {
+   "Special Features": "Support for APP Center\n@BIOS\nAmbient LED\nEasyTune\nFast Boot\nGame Boost\nON/OFF Charge\nSmart Backup\nSystem Information Viewer\nSupport for Q-Flash\nSupport for Xpress Install",
+   "Bundled Software": "Norton Internet Security (OEM version)\nRealtek 8118 Gaming LAN Bandwidth Control Utility"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Gigabyte H510M S2H"
+  }
+ },
+ "key_features": [],
+ "model": "Gigabyte H510M S2H",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:58+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-h510m-s2h-intel-10th-and11th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

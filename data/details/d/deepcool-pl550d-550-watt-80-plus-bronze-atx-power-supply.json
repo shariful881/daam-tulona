@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥85% Under Typical Load(50% Loading)",
+   "Fan Size": "120mm",
+   "Others": "Lighting Effect: N/A"
+  },
+  "Output": {
+   "DC Output": "550W"
+  },
+  "Connector": {
+   "Main Power": "Main Power Connector (20+4)Pin x 1",
+   "PCI-E": "PCI-E(6+2)Pin x 1\nPCI-E(6+2)Pin x 2",
+   "CPU": "CPU(4+4)Pin x 1",
+   "SATA": "SATA x 4 + 4Pin Peripheral x 1",
+   "Molex": "12VHPWR(16Pin) x 1"
+  },
+  "Warranty Information": {
+   "Warranty": "5-years"
+  },
+  "Image": {
+   "Model": "PL550D"
+  }
+ },
+ "key_features": [
+  "Type: ATX12V V3.0",
+  "Output Capacity: 550W",
+  "Fan Size: 120mm Black Fan",
+  "Certifications: 80 PLUS Bronze"
+ ],
+ "model": "PL550D",
+ "warranty": "5-years",
+ "fetched": "2026-11-12T17:51+06:00",
+ "source": "https://www.creatus.com.bd/deepcool-pl550d-550-watt-80-plus-bronze-atx-power-supply",
+ "store": "creatus"
+}

@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Display Port": "DisplayPort 2.1a x3",
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "TBD",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI-E 5.0",
+   "CUDA Cores": "TBD"
+  },
+  "Memory Bandwidth": {
+   "Memory Interface": "256 bit"
+  },
+  "Power Specifications": {
+   "Connectors": "16 pin*1",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 API",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI 2.1b x1"
+  },
+  "Physical Specification": {
+   "Dimensions": "L=304 W=126 H=50 mm"
+  },
+  "Image": {
+   "Model": "RTX 5070 Ti WINDFORCE OC SFF 16GB"
+  }
+ },
+ "key_features": [
+  "Size: 16GB",
+  "Type: GDDR7",
+  "BUS Type: PCI-E 5.0",
+  "Resolution: 7680 x 4320"
+ ],
+ "model": "RTX 5070 Ti WINDFORCE OC SFF 16GB",
+ "fetched": "2026-11-12T18:56+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16gb-graphics-card",
+ "store": "creatus"
+}

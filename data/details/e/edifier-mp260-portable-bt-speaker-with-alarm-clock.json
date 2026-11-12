@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Total Output Power (RMS)": {
+   "SW": "12W",
+   "R/L": "4W+4W"
+  },
+  "Specification": {
+   "Signal-to-Noise Rate": "≥ 80dB (A)",
+   "Dimensions (W x H x D)": "192.5mm × 113mm × 115mm",
+   "Audio Inputs": "AUX, Bluetooth, USB",
+   "Net Weight": "1.5 Kg",
+   "Frequency Response": "20Hz – 20kHz"
+  },
+  "Driver Units": {
+   "L/R": "1.75 inch",
+   "SW": "2.75 inch"
+  },
+  "lnput Sensitivity": {
+   "AUX": "400 ± 50mV",
+   "Bluetooth": "400 ± 50mFFS",
+   "USB": "400 ± 50mFFS"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T18:36+06:00",
+ "source": "https://smartbd.com/product/edifier-mp260-portable-bt-speaker-with-alarm-clock/",
+ "store": "smartbd"
+}

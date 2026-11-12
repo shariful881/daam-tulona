@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680x4320",
+   "Memory Clock": "18 Gbps",
+   "BUS Type": "128-bit",
+   "Memory Interface": "PCI Express Gen 4 x 8",
+   "CUDA Cores": "4352 Units"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2550 MHz (MSI Center)",
+   "Boost": "2535 MHz"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort x 3 (v1.4a)",
+   "HDMI": "HDMI x 1 (Supports 4K@120Hz HDR and 8K@60Hz HDR and Variable Refresh Rate (VRR) as specified in HDMI 2.1a)"
+  },
+  "Power Specifications": {
+   "Connectors": "8-pin x 1",
+   "Recommended PSU": "550 W",
+   "Consumption": "160 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "307 x 125 x 46 mm",
+   "Others": "905g"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Extreme Performance: 2550 MHz, Boost: 2535 MHz",
+  "Memory: 8GB GDDR6",
+  "Interface: PCI Express Gen 4 x 8",
+  "Output: DisplayPort v1.4a x3, HDMI x1"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:42+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-4060-ti-8g-gaming-slim-monster-hunter-edition-gddr6-graphics-card",
+ "store": "pchouse"
+}

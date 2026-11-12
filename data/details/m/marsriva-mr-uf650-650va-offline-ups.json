@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "650VA",
+   "Load Capacity": "360W",
+   "Input Voltage": "220V – 240V or 110V – 120V",
+   "Output Voltage": "220V – 240V or 110V – 120V",
+   "Alarm": "Alarm every 8 seconds in battery mode\nContinuous tone alarm for low battery\nContinuous tone alarm for 5 seconds on overloadAlarm every 8 seconds in battery mode\nContinuous tone alarm for low battery\nContinuous tone alarm for 5 seconds on overload",
+   "Battery": "12V / 7Ah*1",
+   "Indications": "Line Mode Green lighting, Battery Mode Yellow Lighting, Fault Red Lighting",
+   "Noise Level": "Less than 40dB (1 meter from surface)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 40°C"
+  },
+  "Input Features": {
+   "Frequency": "50Hz / 60Hz",
+   "Voltage Range": "145V – 290V or 85V – 150V"
+  },
+  "Output Features": {
+   "Voltage Range": "220V – 240V or 110V – 120V",
+   "Type of Wave": "Simulated Sine Wave",
+   "Transfer Time": "Typical 2 – 6ms, 10ms Max."
+  },
+  "Physical Specification": {
+   "Weight": "4.2 kg",
+   "Dimensions": "305x94x139"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "MR-UF650 650VA"
+  }
+ },
+ "key_features": [
+  "Capacity: 650VA",
+  "Load Capacity: 360W",
+  "Output Voltage: 220V-230V",
+  "Protection: Short circuit, Overload, Overcharge and Overdischarge protection"
+ ],
+ "model": "MR-UF650 650VA",
+ "warranty": "2 Years",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.creatus.com.bd/marsriva-mr-uf650-650va-ups",
+ "store": "creatus"
+}

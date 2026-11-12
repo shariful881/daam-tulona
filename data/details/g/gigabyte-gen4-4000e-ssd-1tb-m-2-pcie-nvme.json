@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1000GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI Express 4.0x4, NVMe 1.4",
+   "Flash Type": "N/A",
+   "MTBF": "1.5 million hours",
+   "Sequential R/W": "Up to 4,000 MB/s (Read) / Up to 3,900 MB/s (Write)",
+   "TBW": "320 TBW",
+   "IOPs (4K Random Write)": "N/A",
+   "Humidity": "N/A",
+   "Voltage": "3.3V ± 10%"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C",
+   "Shock resistance": "1500G/0.5ms",
+   "Vibration Resistance": "N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited 3-years or 320TBW"
+  },
+  "Image": {
+   "Model": "G440E1TB"
+  }
+ },
+ "key_features": [
+  "Interface: PCI Express 4.0x4, NVMe 1.4",
+  "Form Factor: M.2 2280",
+  "Total Capacity: 1000GB",
+  "Sequential Read speed: Up to 4,000 MB/s"
+ ],
+ "model": "G440E1TB",
+ "warranty": "Limited 3-years or 320TBW",
+ "fetched": "2026-11-12T18:57+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-gen4-4000e-ssd-1tb",
+ "store": "creatus"
+}

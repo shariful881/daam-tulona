@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Feature": "Motherboard Support: E-ATX (Up to 277 mm wide), ATX, Micro-ATX, Mini-ITX",
+   "General": "Model: H5 Flow RGB 2024 Edition"
+  },
+  "Box specification": {
+   "H5 Flow RGB": "1",
+   "F360 RGB Core (CV)": "1",
+   "F120Q (CV)": "1",
+   "Installation accessories": "1",
+   "User guide": "1"
+  },
+  "Case Features": {
+   "Drive Bays": "2.5\": 2\n3.5\": 1"
+  },
+  "Expansion Slots": {
+   "Standard": "7",
+   "Vertical": "0"
+  },
+  "Fan Support": {
+   "Front": "3 x 120 mm / 2 x 140 mm (1 x F360 RGB Core Case Version included)",
+   "Top": "2 x 120 mm / 2 x 140 mm",
+   "Bottom": "2 x 120 mm",
+   "Rear": "1 x 120 mm (1 x F120Q Case Version included)"
+  },
+  "Radiator Support": {
+   "Front": "Up to 360 mm",
+   "Top": "Up to 240 mm (280mm with low-profile memory only)"
+  },
+  "Fan": {
+   "Model": "F360 RGB Core (Case Version)",
+   "Speed": "1,700 ± 200 RPM",
+   "Airflow": "50.1 CFM",
+   "Static": "1.27 mm-H₂O",
+   "Noise": "23.3 dBA",
+   "Fan Connector": "3-pin"
+  },
+  "Compatibility": {
+   "CPU Cooler Height": "Up to 170 mm",
+   "GPU Length": "Up to 410 mm",
+   "PSU Length": "Up to 200 mm",
+   "Cable Management": "Up to 28.7 mm",
+   "Top Radiator": "Up to 240 mm (280 mm with low-profile memory)"
+  },
+  "DIMENSIONS AND WEIGHT": {
+   "Weight": "7.63 kg / 16.82 lb",
+   "Height (with feet)": "465 mm / 18.31 in",
+   "Width": "225 mm / 8.86 in",
+   "Depth": "430 mm / 16.93 in"
+  }
+ },
+ "key_features": [],
+ "model": "F360 RGB Core (Case Version)",
+ "fetched": "2026-11-12T18:44+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-h5-flow-rgb-2024-edition-atx-mid-tower-compact-airflow-casing",
+ "store": "pchouse"
+}

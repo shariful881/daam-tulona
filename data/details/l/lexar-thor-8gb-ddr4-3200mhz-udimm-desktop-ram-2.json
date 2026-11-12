@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "8GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "16-18-18-38"
+  },
+  "Physical dimension": {
+   "Dimension": "138.4mm X 35.2 Mm X 6.4 Mm",
+   "Pin": "288 Pin"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB, Memory Type: DDR4",
+  "Tested Latency: CL16-18-18-38",
+  "Tested Speed: 3200MHz",
+  "Tested Voltage: 1.35V"
+ ],
+ "fetched": "2026-11-12T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
+ "store": "pchouse"
+}

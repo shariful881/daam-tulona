@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Processor": {
+   "Base Frequency": "4.2 GHz",
+   "Cache": "24 MB Intel Smart Cache",
+   "Cores": "14",
+   "Max Number of Channels": "2",
+   "Max Resolution": "HDMI: 4K @ 60Hz, 8K @ 60Hz",
+   "Maximum Size": "192 GB (dependent on memory type)",
+   "Maximum Speed": "6400 MHz",
+   "Maximum Turbo Frequency": "5.2 GHz",
+   "Processor Graphics": "Intel Graphics",
+   "Threads": "14"
+  },
+  "Basic Information": {
+   "Type": "Up to DDR5 6400 MT/s"
+  },
+  "Graphics Specifications": {
+   "Max Dynamic Frequency": "1.9 GHz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.6 GHz up to 5.2GHz",
+  "Cache: 24 MB, Socket: LGA1851",
+  "CPU Cores: 14, CPU Threads: 14",
+  "NPU: Intel AI Boost"
+ ],
+ "warranty": "3 year",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-ultra-5-245k-processor",
+ "store": "pchouse"
+}

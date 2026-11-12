@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nINT\nINT",
+   "Connectivity": "Choose an option\n4G\n5G\n4G\n5G\nClear"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Region": "CN\n,\nINT",
+   "Connectivity": "4G, 5G",
+   "Model": "Redmi Note 14",
+   "OS": "Android 14, HyperOS",
+   "Network": "GSM / CDMA / HSPA /LTE / 5G",
+   "SIM": "Nano-SIM + Nano-SIM\nIP64, dust and water resistant",
+   "Dimensions & Weight": "162.4 x 75.7 x 8 mm (6.39 x 2.98 x 0.31 in)\nWeight: 190 g (6.70 oz)",
+   "Build": "Glass front, plastic back",
+   "Front Camera": "Single    20 MP, f/2.2, (wide), 1/4.0\", 0.7µm\nVideo    1080p@30fps",
+   "Rear Camera": "Triple\n50 MP, f/1.5, 26mm (wide), 1/1.95\", 0.8µm, PDAF, OIS\n8 MP, f/2.2, 21mm (ultrawide)\n2 MP, f/2.4, (macro)\nFeatures\nLED flash, HDR, panorama\nVideo\n1080p@30fps",
+   "System Storage": "512GB/256GB",
+   "RAM(GB)": "8GB/12GB",
+   "Processor": "Mediatek Dimensity 7025 Ultra (6 nm)",
+   "CPU Architecture": "Octa-core (2x2.5 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+   "GPU": "IMG BXM-8-256",
+   "Audio": "Loudspeaker: Yes, with stereo speakers\n3.5mm jack: Yes\n24-bit/192kHz Hi-Res audio",
+   "Location": "GPS, GLONASS, BDS, GALILEO",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+  },
+  "Display": {
+   "Type": "AMOLED, 120Hz, HDR10+, 2100 nits (peak)",
+   "Size": "6.67 inches, 107.4 cm2 (~87.4% screen-to-body ratio)",
+   "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+   "Protection": "Corning Gorilla Glass 5"
+  },
+  "Battery and Charging": {
+   "Type": "5110 mAh",
+   "Charging": "45W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO",
+   "NFC": "Yes (market/region dependent)",
+   "Infrared port": "Yes",
+   "Radio": "FM radio",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Note 14",
+  "Display: 6.67 inches, AMOLED",
+  "Resolution: 1220 x 2712 pixels",
+  "CPU: Octa-core (Mediatek Dimensity 7300 Ultra (4 nm))",
+  "GPU: Mali-G615 MC2",
+  "Front Camera: 20MP",
+  "Rear camera: 50MP+8MP+2MP",
+  "Battery: 5110 mAh"
+ ],
+ "model": "Redmi Note 14",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-14/",
+ "store": "diamu"
+}

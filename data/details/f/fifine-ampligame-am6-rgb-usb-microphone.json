@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Condenser"
+  },
+  "Main Spec": {
+   "Frequency Response": "70-20kHz"
+  },
+  "Microphone FEATURE": {
+   "Sensitivity": "-42±3dBV",
+   "Polar pattern": "Cardioid"
+  },
+  "Output": {
+   "Output": "USB type-C (mic end) to type-A 2.0 (computer end)",
+   "Voltage": "USB Power Consumption\nVoltage: 5±0.25 V"
+  },
+  "Physical Specification": {
+   "Weight": "0.6 kg"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/fifine-ampligame-am6-microphone",
+ "store": "pchouse"
+}

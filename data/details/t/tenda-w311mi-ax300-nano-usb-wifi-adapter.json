@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Hardware Features": {
+   "Antenna": "Internal Antenna",
+   "Dimensions (L x W x H )": "21mm × 15mm × 7.7mm(L x W x H)",
+   "Interface": "USB2.0"
+  },
+  "Wireless Features": {
+   "Data Rate": "2.4GHz: Up to 286Mbps",
+   "Frequency": "2.4GHz",
+   "Standards": "IEEE802.11b,IEEE 802.11g, IEEE 802.11n,IEEE 802.11ax",
+   "System Requirements": "Windows 7/10/11\nLinux 3.2+\nUOS",
+   "Wireless Modes": "Station Mode, SoftAP Mode",
+   "Wireless Security": "WPA-PSK/WPA2-PSK\nWPA/WPA2"
+  },
+  "Warranty": {
+   "Warranty Details": "01-year warranty"
+  }
+ },
+ "key_features": [
+  "Interfaces: USB2.0",
+  "Frequency: 2.4GHz",
+  "Data Rate: 2.4GHz: Up to 286Mbps",
+  "Wireless Modes: Station Mode, SoftAP Mode"
+ ],
+ "warranty": "01-year warranty",
+ "fetched": "2026-11-12T17:59+06:00",
+ "source": "https://fourstarit.com.bd/p/tenda-w311mi-ax300-nano-usb-wifi-adapter",
+ "store": "fourstar"
+}

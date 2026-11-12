@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "2.50 GHz",
+   "Maximum Turbo Frequency": "4.80 GHz",
+   "Cache": "24 MB",
+   "Cores": "14",
+   "TDP": "65W",
+   "Threads": "20"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "76.8 GB/s",
+   "Type": "Up to DDR5 4800 MT/s\nUp to DDR4 3200 MT/s"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Processor Graphics": "Intel UHD Graphics 770",
+   "Max Dynamic Frequency": "1.55 GHz"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4096 x 2160 @ 60Hz",
+   "Max Resolution (DP)": "7680 x 4320 @ 60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "Core i5-13500"
+  },
+  "Product List": {
+   "Best Intel Processor Price List in Bangladesh": "Price",
+   "Intel 12th Gen Core i5 12400 Alder Lake Processor": "17,799৳\n21,000৳",
+   "Intel Core i5-13400 Raptor Lake Processor": "27,300৳\n29,900৳",
+   "Intel Core i5 14500 14th Gen Raptor Lake Processor": "28,199৳\n31,100৳",
+   "Intel Core i7-12700K 12th Gen Processor": "31,500৳\n33,500৳"
+  }
+ },
+ "key_features": [
+  "CPU Cores: 14 Threads: 20",
+  "Cache: 24 MB",
+  "Clock Speeds: Up To 2.5 GHz",
+  "Graphics: Intel UHD Graphics 770"
+ ],
+ "model": "Core i5-13500",
+ "warranty": "03 Years",
+ "fetched": "2026-11-12T19:05+06:00",
+ "source": "https://www.creatus.com.bd/intel-core-i5-13500-raptor-lake-processor",
+ "store": "creatus"
+}

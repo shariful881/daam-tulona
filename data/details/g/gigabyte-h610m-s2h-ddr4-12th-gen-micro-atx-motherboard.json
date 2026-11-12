@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "mATX"
+  },
+  "Basic Information": {
+   "Supported CPU": "Core i7, Core i5, 12th Gen, Core i9",
+   "Chipset": "Intel H610"
+  },
+  "Memory": {
+   "Ram Type": "DDR4"
+  },
+  "Image": {
+   "Model": "H610M S2H"
+  }
+ },
+ "key_features": [
+  "CPU Socket Type: LGA 1700",
+  "Motherboard Chipset: H610",
+  "Audio : Realtek Audio CODEC",
+  "Form Factor : Micro ATX"
+ ],
+ "model": "H610M S2H",
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-h610m-s2h-ddr4-12th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

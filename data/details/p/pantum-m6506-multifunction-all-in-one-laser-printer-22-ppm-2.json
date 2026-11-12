@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi-Function Mono Laser Printer",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Mono laser",
+   "Print Speed": "22 ppm (A4)/23 ppm (Letter)",
+   "Print Resolution": "1200x1200dpi (Max)",
+   "First Print Out Time": "Less than 10 seconds",
+   "Duty Cycle up to (Yield)": "20,000 pages",
+   "Duplex": "Manual"
+  },
+  "Copy": {
+   "Copy Speed": "22cpm (A4) / 23cpm (Letter)\nFirst Copy Out Time- Less than 10 seconds",
+   "Copy Resolution": "1200x1200 dpi"
+  },
+  "Scan": {
+   "Scan Type": "Flatbed",
+   "Maximum Scan Size": "216 x 297mm",
+   "Duplex Scan": "No"
+  },
+  "Paper Information": {
+   "Paper Size": "A4, A5, JIS B5, IS0 B5, A6, Letter, Legal, Executive, Folio, Oficio, Statement, Japanese Postcard, ZL, Big 16K, Big 32K, 16K, 32K, B6， Yougata4, Postcard, Younaga3, Nagagata3, Yougata2",
+   "Paper Type": "Plain, Thick, Thin, Transparency, Cardstock, Label",
+   "Paper Weight": "60~163g/m²",
+   "Input Capacity": "150 pages",
+   "Output Capacity": "100 pages"
+  },
+  "Technical Specs": {
+   "Memory": "128 MB",
+   "Connectivity": "High-speedUSB2.0",
+   "Power Consumption": "110V Model：AC100~127V(±10%); 50Hz/60Hz; 6A\n220V Model：AC220~240V(-15%,+10%); 50Hz/60Hz; 3A"
+  },
+  "Physical Specs": {
+   "Dimension": "417x305x244mm(16.4”×12.0”×9.6”)",
+   "Weight": "7.5Kg"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "PC-216E - (700 pages, High)\nNT-C216B - (1,600 pages, High)",
+   "Software": "Microsoft Windows Server2003/Server2008/Server2012/XP/Vista/Win7/Win8/Win8.1/Win10/Win11(32/64 Bit), Mac OS 10.7-12 Linux Ubuntu 16.04/18.04/20.04/22.04)(32/64 Bit)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:26+06:00",
+ "source": "https://www.pchouse.com.bd/pantum-m6506-multifunction-laser-printer",
+ "store": "pchouse"
+}

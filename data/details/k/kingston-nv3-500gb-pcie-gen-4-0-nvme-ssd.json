@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Interface": "PCIe 4.0 x4 NVMe",
+   "MTBF": "2,000,000 hours",
+   "TBW": "320TB"
+  },
+  "Main Features": {
+   "Capacity": "500GB"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "22mm x 80mm x 2.2mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Kingston NV3 500GB PCIe Gen 4.0"
+  }
+ },
+ "key_features": [
+  "Form Factor : M.2 2280",
+  "Interface : PCIe 4.0 x4 NVMe",
+  "storage-space : 500GB"
+ ],
+ "model": "Kingston NV3 500GB PCIe Gen 4.0",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:07+06:00",
+ "source": "https://www.creatus.com.bd/kingston-nv3-500gb-pcie-gen-40-nvme-ssd",
+ "store": "creatus"
+}

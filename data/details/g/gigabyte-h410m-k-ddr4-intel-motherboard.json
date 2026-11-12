@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "Black",
+   "Connectors": "M.2 Socket 3, 2× SATA 6Gb/s"
+  },
+  "Basic Information": {
+   "Supported CPU": "10th Gen Intel Core i9/i7/i5/i3, Pentium, Celeron",
+   "Chipset": "Intel H470 Express Chipset",
+   "BIOS": "AMI UEFI BIOS, 128 Mbit Flash",
+   "Form Factor": "Micro ATX, 22.6 × 18.5 cm",
+   "Audio": "Realtek Audio CODEC, High Definition Audio, up to 7.1-channel"
+  },
+  "Expansion Slots": {
+   "PCI": "1× PCIe 3.0 x16, 1× PCIe 3.0 x1",
+   "M.2 Socket": "1× M.2 Socket 3, M Key, 2280, PCIe 3.0 x4/x2 and SATA support"
+  },
+  "Memory": {
+   "Slots": "1× PCI Express x16, 1× PCI Express x1, 2× DDR4 DIMM",
+   "Supported Memory": "DDR4 2933/2666/2400/2133 MHz, Dual Channel, Non-ECC Unbuffered",
+   "Maximum Memory": "Up to 64GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Intel HD Graphics support"
+  },
+  "Connector & Ports": {
+   "HDMI": "1× HDMI, up to 4096×2160 @ 30Hz",
+   "Display Port (s)": "HDMI",
+   "USB (s)": "2× USB 3.2 Gen 1 rear, 4× USB 2.0/1.1 rear; internal USB headers",
+   "Front USB": "1× USB 3.2 Gen 1 header, 1× USB 2.0/1.1 header",
+   "LAN Port (s)": "1× RJ-45 Gigabit LAN",
+   "Wireless Communication module": "Not Supported",
+   "Supported Storage": "1× M.2 PCIe 3.0 x4/x2 or SATA 2280, 2× SATA 6Gb/s",
+   "RAID": "RAID 0, RAID 1, RAID 5",
+   "Audio": "3× Audio Jacks, 2/4/5.1/7.1-channel support",
+   "Internal I/O Ports": "1× 24-pin ATX, 1× 8-pin ATX 12V, 1× CPU Fan, 1× System Fan, 1× RGB LED, 1× M.2, 2× SATA 6Gb/s, USB headers, Front Panel Audio"
+  },
+  "Network & Connectivity": {
+   "WiFi": "No"
+  },
+  "Others": {
+   "Special Features": "Smart Fan 5, FAN STOP, Anti-Sulfur Resistors, APP Center, Q-Flash, Xpress Install, @BIOS, EasyTune",
+   "Bundled Software": "Norton Internet Security (OEM), LAN Bandwidth Management Software"
+  },
+  "Warranty Information": {
+   "Warranty": "_"
+  },
+  "Image": {
+   "Model": "H410M K"
+  }
+ },
+ "key_features": [],
+ "model": "H410M K",
+ "warranty": "_",
+ "fetched": "2026-11-12T18:57+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-h410m-k-ddr4-intel-motherboard",
+ "store": "creatus"
+}

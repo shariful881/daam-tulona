@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Electrical",
+   "General": "Brand: TP-Link"
+  },
+  "Key Features": {
+   "Performance": "Mesh Technology: Yes"
+  },
+  "Features": {
+   "Interface": "Interface(s): 2 x 10/100/1000 RJ45 LAN, 1 x PON Port"
+  },
+  "Network & Wireless Connectivity": {
+   "Security Chip": "Operating Frequency: 2.4 GHz, 5 GHz"
+  },
+  "Connectivity": {
+   "Wireless": "Antenna (Type & Qty): 2 x External Dual Band Antennas"
+  },
+  "Physical Specifications": {
+   "Physical Specs": "Hardware"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year (Without Adapter)"
+  }
+ },
+ "key_features": [
+  "Wireless Frequency: 2.4 GHz and 5 GHz",
+  "Interface: 2x 10/100/1000 Mbps LAN, 1x PON Port",
+  "Downstream Speeds: 2.488 Gbps (GPON), 1.25 Gbps (EPON)",
+  "Upstream Speeds: 1.244 Gbps (GPON), 1.25 Gbps (EPON)"
+ ],
+ "warranty": "1 Year (Without Adapter)",
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://www.pchouse.com.bd/tp-link-xc220-g3-ac1200-dual-band-wi-fi-router",
+ "store": "pchouse"
+}

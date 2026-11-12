@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Automatic Document Feeder (ADF)",
+   "Interface": "USB, LAN",
+   "Resolution": "Up to 600 dpi",
+   "Speed": "Scanning Speed (B & W) - 120ppm/240ipm\nScanning Speed (Color) - 120ppm/240ipm",
+   "Other Feature": "Scan Size Max. - A3\nADF - Yes\nSheet Capacity (ADF) - 200 sheets\nDuty Cycle (Daily) - 20000 Pages\n3584MB, 75 gsm, Duplex Scan\nCharge Coupled Device (CCD) & Contact Image Sensor (CIS)"
+  },
+  "General Information": {
+   "Dimensions": "635 x 602 x 287mm"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Weight": "21.41 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  },
+  "Image": {
+   "Model": "ScanJet Enterprise Flow N9120 Fn2"
+  }
+ },
+ "key_features": [
+  "Scanning Speed (B & W): 120ppm/240ipm",
+  "Sheet Capacity (ADF): 200 sheets",
+  "Interface (Built-in): USB, LAN",
+  "Duty Cycle (Daily): 20000 Pages"
+ ],
+ "model": "ScanJet Enterprise Flow N9120 Fn2",
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.creatus.com.bd/hp-scanjet-enterprise-flow-n9120-fn2-flatbed-scanner",
+ "store": "creatus"
+}

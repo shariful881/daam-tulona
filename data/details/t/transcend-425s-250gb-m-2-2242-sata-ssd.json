@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "250GB",
+   "Flash Type": "3D NAND flash",
+   "Sequential R/W": "up to 500/330 MB/s",
+   "MTBF": "2,000,000 hour(s)",
+   "Interface Type": "SATA III 6Gb/s",
+   "Form Factor": "M.2 2242"
+  },
+  "Physical Specification": {
+   "Weight": "5 g (0.18 oz)"
+  },
+  "Physical Specifications": {
+   "Dimension": "42.0 mm x 22.0 mm x 3.58 mm (1.65\" x 0.87\" x 0.14\")"
+  },
+  "Temperature": {
+   "Storage Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 250GB",
+  "Type: M.2 2242",
+  "Interface: SATA III 6Gb/s",
+  "Sequential Read/Write: Up to 500/330 MB/s"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-425s-250gb-m.2-2242-sata-ssd",
+ "store": "pchouse"
+}

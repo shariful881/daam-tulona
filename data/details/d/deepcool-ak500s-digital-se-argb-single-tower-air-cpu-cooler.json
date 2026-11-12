@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "500~1850 RPM±10%",
+   "Fan Airflow": "68.99 CFM",
+   "Noise": "≤28 dB(A)",
+   "Air Pressure": "2.19 mmAq",
+   "Connector": "4-pin PWM\nLED Connector: 3-pin(+5V-D-G) and 9-pin USB 2.0",
+   "LED Number": "ARGB LED strips",
+   "Others": "Bearing Type: Hydro Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "125×96×160 mm(L×W×H)",
+   "Weight": "864 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851/1700/1200/1151/1150/1155",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~1850 RPM±10%",
+  "Heatpipe: Ø6 mm×5 pcs",
+  "Single-Tower Heatsink, ARGB LED strips",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 4500,
+ "regular": 4940,
+ "status": "In Stock",
+ "code": "51113",
+ "brand": "Deepcool",
+ "mpn": "R-AK500S-BKADMN-GJD",
+ "model": "AK500S DIGITAL SE",
+ "warranty": "3 years",
+ "name": "DeepCool AK500S DIGITAL SE ARGB Single Tower Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AK500S DIGITAL SE ARGB Single Tower Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ak500s-digital-se-argb-air-cpu-cooler",
+ "store": "startech"
+}

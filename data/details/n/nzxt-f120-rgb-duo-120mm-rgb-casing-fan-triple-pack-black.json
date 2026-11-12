@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Material": "Plastic, Rubber, PCB",
+   "Pressure Levels": "2.42 Mm-H₂O",
+   "Number of Fans": "20"
+  },
+  "Key Features": {
+   "Speed": "500 - 1,800 ± 300RPM"
+  },
+  "Casing Fan": {
+   "Air Flow": "48.58 CFM",
+   "Lifespan": "60,000",
+   "Noise (dBA)": "29 DBA",
+   "Voltage": "12V DC, 0.13A, 1.56W",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)"
+  },
+  "Physical Specifications": {
+   "PIN": "4-Pin PWM",
+   "Dimension": "Height: 120mm"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Years"
+  }
+ },
+ "key_features": [
+  "Fan Size: 120 x 120 x 25 mm",
+  "Fan Speed: 500 - 1,800 ± 300RPM",
+  "Airflow: 48.58 CFM"
+ ],
+ "warranty": "2-Years",
+ "fetched": "2026-11-12T18:43+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-f120-rgb-duo-120mm-rgb-casing-fan-triple-pack-black",
+ "store": "pchouse"
+}

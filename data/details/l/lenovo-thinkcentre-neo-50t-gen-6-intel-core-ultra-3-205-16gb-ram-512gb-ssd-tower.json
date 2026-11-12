@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Memory": "16GB DDR5 5600MHz (2 Slots Total)",
+   "Processor": "Intel Core Ultra 3 205 (8 Cores, 8 Threads, up to 4.90 GHz, 15MB Intel Smart Cache), Intel B860 Chipset",
+   "Battery": "200W PSU",
+   "Display": "No Monitor",
+   "Graphics": "Intel Graphics (Shared)",
+   "Storage": "512GB NVMe PCIe SSD (1x M.2/SSD Expansion Slot)",
+   "Network & Wireless Connectivity": "Intel AX203 Wi-Fi 6, Bluetooth 5.2, 1x RJ-45 Gigabit LAN",
+   "Security": "Kensington Security Slot, TPM 2.0"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI Port, 1x DisplayPort, 1x VGA/D-Sub",
+   "USB (s)": "Front: 2x USB 2.0, 2x USB-A 5Gbps (USB 3.2 Gen 1); Rear: 2x USB 2.0, 2x USB-A 5Gbps (one supports Smart Power On), 1x USB-C 5Gbps with 15W Charging"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Features": "USB Keyboard with USB Mouse"
+  },
+  "Camera & Audio": {
+   "Webcam": "No Built-in Webcam"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "1x Combo (Front), 1x Microphone (Front), 1x Audio Out (Rear)"
+  },
+  "External Features": {
+   "Color(s)": "Raven Black",
+   "Weight": "5.6 kg"
+  },
+  "Os": {
+   "Operating System": "Free-DOS"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years (Box Mandatory While Claiming)"
+  },
+  "Image": {
+   "Model": "ThinkCentre Neo 50t Gen 6"
+  }
+ },
+ "key_features": [],
+ "model": "ThinkCentre Neo 50t Gen 6",
+ "warranty": "3 Years (Box Mandatory While Claiming)",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkcentre-neo-50t-gen-6-core-ultra-3-16gb-ram-512gb-ssd-brand-pc",
+ "store": "creatus"
+}

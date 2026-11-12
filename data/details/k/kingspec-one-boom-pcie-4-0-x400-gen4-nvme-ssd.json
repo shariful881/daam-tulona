@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB\n1Tb",
+   "Form Factor": "M.2-2280",
+   "MTBF": "1 million hours",
+   "Write Speed": "up to 6600MB/s",
+   "Flash Type": "3D NAND",
+   "Read Speed": "up to 7400MB/s",
+   "TBW": "300TB"
+  },
+  "Temperature": {
+   "Operating Temperature": "0～+70℃",
+   "Storage Temperature": "-20～+75℃"
+  },
+  "Physical Specification": {
+   "Color": "Blue",
+   "Dimensions": "L80mm*W22mm*H2.1mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Year Warranty"
+  },
+  "Image": {
+   "Model": "ONE BOOM X400 SERIES"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Form Factor: M.2-2280 M Key",
+  "Sequential Read: UPTO 7400MB/s",
+  "Sequential Write: UPTO 6400MB/s"
+ ],
+ "model": "ONE BOOM X400 SERIES",
+ "warranty": "03 Year Warranty",
+ "fetched": "2026-11-12T19:06+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-one-boom-pcie-gen4-nvme-ssd",
+ "store": "creatus"
+}

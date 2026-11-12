@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "4 x external fixed 5dBi antennas",
+   "Button": "WPS,Reset",
+   "Frequency": "2.4-2.4835GHz;5.180-5.825GHZ",
+   "Wireless": "AP, ARP, Multi-SSID",
+   "Interface": "1x 10/100/1000Mbps Auto MDI/MDIX RJ45 WAN port\n4x 10/100/1000Mbps Auto MDI/MDIX RJ45 LAN port",
+   "Network Standard": "IEEE 802.11b/g/n/ac/ax",
+   "Encryption": "WEP/WPA-PSK/WPA2-PSK Encryption/WAP3\nWireless MAC Filtering"
+  },
+  "Power Source": {
+   "Power Mode": "Power Supply: DC 12V/1.5A(Output)"
+  },
+  "Physical Dimension": {
+   "Dimension": "236*144*50 mm (body)",
+   "Color": "Black"
+  },
+  "Manufacturer warranty": {
+   "Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "Dual-Band Wi-Fi 6: Equipped with the latest wireless technology.",
+  "USB Easy Sharing(Optional): A USB 3.0 Port enables easy file sharing within your network or building private Cloud Storage.",
+  "Backward Compatible: Supports all previous 802.11 standards and all Wi-Fi devices."
+ ],
+ "warranty": "01 year warranty",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://smartbd.com/product/netis-n6-ax1800-dual-band-gigabit-wi-fi-6-router/",
+ "store": "smartbd"
+}

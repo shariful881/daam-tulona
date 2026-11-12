@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D NAND",
+   "Interface": "PCIe Gen4 x4, NVMe 1.4",
+   "Sequential R/W": "5500 / 3600 MB/s",
+   "MTBF": "Up to 1,500,000 Hours",
+   "TBW": "160",
+   "Others": "PHISON E27T / PHISON E33 Controller\nTRIM (Performance Optimization, OS Support required)\nSMART (Self-Monitoring, Analysis and Reporting Technology)\nLDPC (Low Density Parity Check) ECC Algorithm End to End Data Path Protection\nAPST (Autonomous Power State Transition)\nPyrite (Encryption, Data Security)"
+  },
+  "Physical Specification": {
+   "Dimension": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Storage Temperature": "-40°C – 85°C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 500GB",
+  "Interface: PCIe Gen4 x4, NVMe 1.4",
+  "Form Factor: M.2 2280",
+  "Read: 5500 MB/s, Write: 3600 MB/s"
+ ],
+ "price": 1360014500,
+ "regular": 15080,
+ "status": "In Stock",
+ "code": "53429",
+ "brand": "MSI",
+ "model": "SPATIUM M470 PRO",
+ "warranty": "5 Years",
+ "name": "MSI SPATIUM M470 PRO 500GB PCIe 4.0 NVMe M.2 SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "MSI",
+  "MSI SPATIUM M470 PRO 500GB PCIe 4.0 NVMe M.2 SSD"
+ ],
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://www.startech.com.bd/msi-spatium-m470-pro-500gb-ssd",
+ "store": "startech"
+}

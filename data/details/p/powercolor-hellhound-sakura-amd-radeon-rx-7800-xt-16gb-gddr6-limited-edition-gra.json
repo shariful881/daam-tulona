@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2213MHz(Game)\nup to 2520MHz(Boost)",
+   "BUS Type": "PCIE 4.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "3840",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1 (only 2x simultaneous DP2.1 connections can be supported)",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "750W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "322mm*134mm*50mm\n332mm*147mm*50mm(with bracket)\nSlot: 2.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year Warranty (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 2520MHz, Game Clock: Up to 2213MHz",
+  "Memory: 16GB/256-bit DDR6. 19.5 Gbps",
+  "Stream Processors: 3840",
+  "RDNA 3 Architecture, AMD FSR 3"
+ ],
+ "price": 8250084000,
+ "regular": 92400,
+ "status": "In Stock",
+ "code": "38565",
+ "brand": "PowerColor",
+ "mpn": "RX7800XT 16G-L/OC/SAKURA LIMITED",
+ "model": "Hellhound Sakura AMD Radeon RX 7800 XT 16GB GDDR6",
+ "warranty": "2 year Warranty (For warranty Full Box Required)",
+ "name": "PowerColor Hellhound Sakura AMD Radeon RX 7800 XT 16GB GDDR6 Limited Edition Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Hellhound Sakura AMD Radeon RX 7800 XT 16GB GDDR6 Limited Edition Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.startech.com.bd/powercolor-hellhound-sakura-amd-radeon-rx-7800-xt-16gb-gddr6-graphics-card",
+ "store": "startech"
+}

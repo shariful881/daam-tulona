@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB\nClear"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Model": "iQOO Z10x",
+   "OS": "Android 15, Funtouch 15",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Rear Camera": "Dual\n50 MP, f/1.8, 26mm (wide), 1/1.95″, 0.8µm, PDAF, OIS\n2 MP, f/2.4, (depth)\nFeatures\nLED flash, panorama, HDR\nVideo\n4K@30fps, 1080p@30/60fps, gyro-EIS, HDR",
+   "Front Camera": "Single8 MP, f/2.0, (wide), 1/3.0″, 1.0µm\nVideo\n1080p@30fps",
+   "System Storage": "12GB,8GB\n256GB",
+   "SIM Card": "Nano-SIM + Nano-SIM",
+   "Processor": "Qualcomm SM6450 Snapdragon 6 Gen 1 (4 nm)",
+   "CPU Core": "Octa-core (2×2.8 GHz Cortex-A715 & 6x Cortex-A510)",
+   "GPU": "Adreno 710",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+  },
+  "Body, Dimension and Weight": {
+   "Dimensions": "165.7 x 76 x 8 mm (6.52 x 2.99 x 0.31 in)",
+   "Weight": "199 g (7.05 oz)"
+  },
+  "Display": {
+   "Type": "IPS LCD, 120Hz, 1000 nits (peak)",
+   "Size": "6.72 inches, 108.8 cm2 (~86.4% screen-to-body ratio)",
+   "Resolution": "1080 x 2408 pixels, 20:9 ratio (~393 ppi density)"
+  },
+  "Battery & Charging": {
+   "Type": "Li-Ion 6000 mAh, non-removable",
+   "Charging": "44W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Display: 6.72 inches,120Hz, IPS LCD",
+  "Resolution: 1080 x 2408 pixelsl",
+  "CPU: Mediatek Dimensity 7300 (4 nm)",
+  "GPU: Mali-G615 MC2",
+  "Front Camera: 8MP",
+  "Rear Camera: 50MP+2MP",
+  "Battery Capacity: Li-Ion 6500 mAh"
+ ],
+ "model": "iQOO Z10x",
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://diamu.com.bd/product/iqoo-z10x/",
+ "store": "diamu"
+}

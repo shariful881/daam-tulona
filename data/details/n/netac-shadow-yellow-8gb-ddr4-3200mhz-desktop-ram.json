@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR4",
+   "Capacity": "8GB",
+   "Frequency": "3200MHz",
+   "Operating voltage": "1.35V",
+   "Latency": "16-20-20-40"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Yellow",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB, Type: DDR4",
+  "Frequency: 3200 MHz",
+  "Form Factor: 288-Pin UDIMM",
+  "Voltage & Cas Latency: 1.35V/16-20-20-40"
+ ],
+ "price": 7700,
+ "regular": 8470,
+ "status": "In Stock",
+ "code": "45157",
+ "brand": "Netac",
+ "mpn": "NTSDD4P32SP-08Y",
+ "model": "Shadow Yellow",
+ "warranty": "Lifetime Warranty",
+ "name": "Netac Shadow Yellow 8GB DDR4 3200MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Netac",
+  "Netac Shadow Yellow 8GB DDR4 3200MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-12T18:09+06:00",
+ "source": "https://www.startech.com.bd/netac-shadow-yellow-8gb-ddr4-ram",
+ "store": "startech"
+}

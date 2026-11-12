@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "Lenovo ThinkPad X1 Carbon G13",
+   "Part No.": "21NXS0N800",
+   "CPU Technology": "Core Ultra 7 255H Processor (P-core 2.0GHz Max P-core 5.1GHz), 16C, 16T",
+   "Operating System": "Windows 11 Pro",
+   "Chipset": "Intel SoC (System on Chip) platform",
+   "System Memory": "32 GB LPDDR5x-6400 (Soldered)",
+   "Display": "14″ WUXGA (1920 x 1200), IPS, Anti-Glare, Non-Touch, 500 nits, Narrow Bezel",
+   "Graphics": "Intel Arc 140T GPU, up to 74 TOPS",
+   "AI PC Category": "AI PC",
+   "NPU": "Integrated Intel® AI Boost, up to 11 TOPS",
+   "Storage": "1TB SSD M.2 2280 G4 TLC OP",
+   "Pointing Device": "TrackPoint® pointing device and glass surface multi-touch touchpad",
+   "WLAN": "On board WLAN",
+   "Communications": "Intel® Wi-Fi® 7 BE200, 802.11be 2×2 Wi-Fi® + Bluetooth® 5.3",
+   "Built-in Camera": "FHD 1080p + IR discrete, with privacy shutter, fixed focus, temporal noise reduction",
+   "Sound System": "Audio Chip : High Definition (HD) Audio, Realtek® ALC3306 codec;                           Speakers: Stereo speakers, 2W x2 woofers and 0.8W x2 tweeters, Dolby® Atmos®   Microphone : Quad-microphone array, 360° far-field, Dolby® Voice",
+   "Battery Type": "3 Cell Li-Polymer 57Wh",
+   "AC Adapter": "65W USB-C AC Adapter 90% PCC (3pin) – UK",
+   "Port": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1)\n1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On\n2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB PD 3.0 and DisplayPort™ 2.1\n1x HDMI® 2.1, up to 4K/60Hz\n1x Headphone / microphone combo jack (3.5mm)",
+   "Security and Protection": "Discrete TPM 2.0, TCG certified, Fingerprint Reader.",
+   "Keyboard": "Backlight keyboard; 6-row, spill-resistant, air intake design, multimedia Fn keys with Unified Communications controls",
+   "Physical Dimensions": "312.80 x 214.75 x 8.38/14.77",
+   "Weight": "1006 g (2.22 lbs)",
+   "Color Variation": "Black Paint",
+   "Warranty": "3 years Standard Warranty"
+  }
+ },
+ "key_features": [
+  "Processor: Core Ultra 7 255H Processor (P-core 2.0GHz Max P-core 5.1GHz), 16C, 16T",
+  "RAM: 32 GB LPDDR5x-6400 (Soldered); Storage: 1TB SSD M.2 2280 G4 TLC OP",
+  "Display: 14″ WUXGA (1920 x 1200), IPS, Anti-Glare, Non-Touch, 500 nits, Narrow Bezel",
+  "Features: Backlit Keyboard, Discrete TPM 2.0, TCG certified, Fingerprint Reader"
+ ],
+ "model": "Lenovo ThinkPad X1 Carbon G13",
+ "warranty": "3 years Standard Warranty",
+ "fetched": "2026-11-12T18:23+06:00",
+ "source": "https://smartbd.com/product/lenovo-thinkpad-x1-carbon-g13-core-ultra-7-255h-processor-14-0-inch-wuxga-display-black-paint-laptop/",
+ "store": "smartbd"
+}

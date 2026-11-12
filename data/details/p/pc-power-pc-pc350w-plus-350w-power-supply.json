@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Size": "120mm"
+  },
+  "Input": {
+   "Voltage": "100VAC - 240VAC",
+   "Frequency Range": "50Hz",
+   "Current": "5A"
+  },
+  "Output": {
+   "Total Power": "350W",
+   "AC Input": "100VAC - 240VAC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Connector": "4-Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "PC-PC350W"
+  }
+ },
+ "key_features": [
+  "Maximum Power: 350W",
+  "Fan Size: 120mm",
+  "Form Factor: ATX",
+  "Connectors: 3x SATA Connector 1x IDE Connector"
+ ],
+ "model": "PC-PC350W",
+ "warranty": "2 Years",
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.creatus.com.bd/pc-power-pc-pc350w-plus-350w-power-supply",
+ "store": "creatus"
+}

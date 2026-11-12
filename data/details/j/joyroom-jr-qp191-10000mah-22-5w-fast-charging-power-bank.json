@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Battery": {
+   "Capacity": "10000mAh /3.85V (38.5Wh)",
+   "Rated Capacity": "5800mAh"
+  },
+  "Power Bank Features": {
+   "Fast Charging Technology": "Yes",
+   "Interface": "Micro USB,\nUSB Type-C\nUSB Type A"
+  },
+  "Input": {
+   "Input Ports": "Micro, Type-C (common)",
+   "Input Voltage": "DC5V/3A; 9V/2A"
+  },
+  "Output": {
+   "Output Ports": "USB x2 & USB Type-C (Common)",
+   "Type-C Output": "DC5V/9V=2A"
+  },
+  "Others": {
+   "Others": "Button One side button"
+  },
+  "Physical Specifications": {
+   "Weight": "379g",
+   "Dimension": "139.5X69.3X27.5 mm",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "7 Days Warranty"
+  }
+ },
+ "key_features": [
+  "Battery Display: Large LED Digital Display",
+  "Battery Capacity: 10000mAh / 22.5W",
+  "Input Ports: Micro USB, USB Type-C",
+  "Output Ports: USB x2 & Type-C x 1"
+ ],
+ "warranty": "7 Days Warranty",
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/joyroom-jr-qp191-fast-charging-power-bank",
+ "store": "pchouse"
+}

@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "2150 RPM ±10% (Max)",
+   "Fan Airflow": "69 × 3 CFM (Max)",
+   "Noise": "27 dBA (Max)",
+   "Air Pressure": "2.87 mm H₂O (Max)",
+   "Connector": "4-Pin PWM / 3-Pin 5V ARGB",
+   "Material": "Aluminum Radiator",
+   "Others": "3.5-Inch IPS Screen, 640 × 480 Resolution, 3000 RPM ±10% Pump Speed, S-FDB V2 Bearing"
+  },
+  "Dimension": {
+   "Pump": "L85 × W74 × H65 mm",
+   "Radiator": "L397 × W120 × H27 mm",
+   "Fan": "L360 × W120 × H25 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X, LGA1200, LGA1700, LGA1851, LGA2011, LGA2066",
+   "AMD": "AM4, AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "5 Years",
+ "fetched": "2026-11-12T18:42+06:00",
+ "source": "https://www.pchouse.com.bd/mjolnir-vision-360-ub-pro-argb-white",
+ "store": "pchouse"
+}

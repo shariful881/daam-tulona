@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Antenna": "4",
+   "Certification": "FCC, CE",
+   "Interface": "1 * 10/100Mbps Auto MDI/MDIX RJ45 WAN port\n2 * 10/100Mbps Auto MDI/MDIX RJ45 LAN port",
+   "Power Mode": "Transmit Power: 20dBm(MAX)\nDC 9V/500mA (Output)",
+   "Button": "WPS, Default",
+   "Type": "5dBi Fixed Antenna",
+   "Frequency": "2.4-2.4835GHz",
+   "Wireless": "AP, Repeater, AP+WDS, WDS, Client, Multi-SSID",
+   "Others": "PWR, WLAN, LAN1-LAN4, WAN, WPS"
+  },
+  "General Information": {
+   "PACKAGE CONTENTS": "1* W4\n1* 9V/500mA Power Adapter\n1* Quick Installation Guide (Multilingual)"
+  },
+  "Security": {
+   "Security Chip": "64/128-bit WEP,\nWPA-PSK/WPA2-PSK (TKIP/AES)\nSSID Broadcast Enable/Disable\nWireless MAC Filtering"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  },
+  "Network": {
+   "Network Function": "IEEE 802.3 10Base-T, IEEE 802.3u 100Base-TX"
+  },
+  "Warranty Information": {
+   "Warranty": "01-year warranty"
+  },
+  "Image": {
+   "Model": "W4 Router"
+  },
+  "Product List": {
+   "Best Netis Router price list in bd": "Price",
+   "Netis WF2409E 300Mbps Wireless N Router": "1,550৳",
+   "Netis Wf2419E 300Mbps Wireless N Router": "1,450৳"
+  }
+ },
+ "key_features": [],
+ "model": "W4 Router",
+ "warranty": "01-year warranty",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.creatus.com.bd/netis-w4-router",
+ "store": "creatus"
+}

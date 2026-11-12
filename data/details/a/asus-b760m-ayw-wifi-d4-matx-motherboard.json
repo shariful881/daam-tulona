@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1700 for Intel Core 14th & 13th Gen Processors, Intel Core 12th Gen, Pentium® Gold and Celeron Processors\nSupports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0",
+   "Chipset": "Intel B760 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n9.6 inch x 8.3 inch (24.4cm x 21.1cm)",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\nSupports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\nSupports up to 24-Bit/192 kHz playback\nAudio Features\nAudio Shielding\nPremium audio capacitors\nDedicated audio PCB layers\nA chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+  },
+  "Expansion Slots": {
+   "PCI": "Intel Core Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel B760 Chipset\n2 x PCIe 4.0 x1 slots",
+   "M.2 Socket": "2 x M.2 slots\nIntel Core Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "5333(OC)/5066(OC)/5000(OC)/4800(OC)/4600(OC)/4400(OC)/ 4266(OC)/4000(OC)/3733(OC)/3600(OC)/3466(OC)/ 3400(OC)/3333(OC)/3200/3000/2933/2800/2666/ 2400/2133 Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMI port\nGraphics specifications may vary between CPU types\nSupports 4K@60Hz as specified in HDMI 2.1"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "USB (s)": "Rear USB (Total 6 ports)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A）\nFront USB (Total 4 ports)\n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n1 x USB 2.0 header supports 2 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet",
+   "Wireless Communication module": "Wi-Fi 6\nWi-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.2",
+   "Supported Storage": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nIntel Core Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports",
+   "RAID": "Intel Rapid Storage Technology supports SATA RAID 0/1/5/10",
+   "Audio": "3 x audio jacks",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin Chassis Fan header\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n1 x USB 2.0 header supports 2 additional USB 2.0 ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS EZ DIY\n- ProCool\nASUS Thermal Solution\n- VRM heatsink design\nAura Sync\n- Aura RGB header\n- Addressable Gen 2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Sync\n- Fan Xpert\n- Power Saving\nAI Suite 3\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z\nMyASUS\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th Gen, 13th Gen & 12th Gen Processors (LGA1700)",
+  "Supported RAM: 2 x DIMM, Max. 64GB, DDR4",
+  "Storage: 2 x M.2 slots, 4 x SATA 6Gb/s ports",
+  "Features: Realtek 2.5Gb Ethernet, Wi-Fi 6, PCIe 4.0 x16 slot"
+ ],
+ "price": 2000020300,
+ "regular": 21590,
+ "status": "In Stock",
+ "code": "38163",
+ "brand": "Asus",
+ "model": "B760M-AYW WIFI D4",
+ "warranty": "3 years",
+ "name": "ASUS B760M-AYW WIFI D4 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "ASUS B760M-AYW WIFI D4 mATX Motherboard"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asus-b760m-ayw-wifi-d4-motherboard",
+ "store": "startech"
+}

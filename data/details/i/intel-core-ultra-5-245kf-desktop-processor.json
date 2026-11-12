@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Processor": {
+   "Base Frequency": "4.2 GHz",
+   "Cache": "24 MB Intel Smart Cache",
+   "Cores": "14",
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "6400 MHz",
+   "Maximum Turbo Frequency": "5.2 GHz",
+   "Threads": "14"
+  },
+  "Basic Information": {
+   "Memory": "Memory Max. 192GB",
+   "Model": "Intel Core Ultra 5 245KF",
+   "Others": "Sockets Supported: LGA1851"
+  },
+  "Combo": {
+   "CPU Cooler": "Not Included"
+  },
+  "Key Features": {
+   "Memory Type": "DDR5 - Up to 6400 MT/s"
+  },
+  "Features": {
+   "Compatibility": "Compatible Products: Intel Z890 Chipset"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [
+  "Total Cores: 14",
+  "Efficient-cores: 8",
+  "Performance-cores: 6"
+ ],
+ "model": "Intel Core Ultra 5 245KF",
+ "warranty": "3 year",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-ultra-5-245kf-processor",
+ "store": "pchouse"
+}

@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 &\n8000 & 7000 Series Desktop Processors*",
+   "Chipset": "AMD X870",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Audio": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080*\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel MIC Jack-retasking\n- High quality 120 dB SNR stereo playback output and 110 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback on front panel\"\nAudio Features\n- SupremeFX Shielding Technology\n- Savitech SV3H712 AMP\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n- Audio cover\n* The LINE OUT port on the rear panel does not support spatial audio. If you wish to use spatial audio, make sure to connect your audio output device to the audio jack on the front panel of your chassis or use a USB interface audio device."
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors*\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD X870 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n** Specifications vary by CPU types.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.",
+   "M.2 Socket": "Supports 4 x M.2 slots and 2 x SATA 6Gb/s ports*"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to 8000+MT/s(OC) with Ryzen™\n9000 & 8000 & 7000 Series Processors, ECC and Non-ECC, Un-buffered\nMemory*\"\nDual channel memory architecture\nSupports AMD Extended Profiles for\nOverclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort\n1 x HDMI port\n2 x USB4® (40Gbps) ports support USB\nType-C® display outputs****\n* Please refer to AMD CPU specifications.\n** Supports max. 8K@30Hz as specified in\nDisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI\n2.1.\n****Supports max. 4K@60Hz as specified in\nDisplayPort 1.4a\n**** VGA resolution support depends on\nprocessors' or graphic cards' resolution."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x DisplayPort",
+   "USB (s)": "Rear USB (Total 12 ports)\n2 x USB4® (40Gbps) ports(2 x USB Type-C® with DP Alt mode)*\n6 x USB 10Gbps ports (5 x Type-A + 1 x USB Type-C® with up to 30W PD Fast-charge)**\n4 x USB 5Gbps ports (4 x Type-A)\nFront USB (Total 9 ports)\n1 x USB 20Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\n* USB Type-C® power delivery output: max. 5V/3A\n** USB Type-C® power delivery output: 5V/9V max. 3A, 12V max 2.5A, 15V max. 2.0A",
+   "LAN Port (s)": "1 x Intel 2.5Gb Ethernet\nASUS LANGuard",
+   "Wireless Communication module": "Wi-Fi 7\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 320MHz bandwidth, up to 6.5Gbps  transfer rate.\nBluetooth® v5.4",
+   "Supported Storage": "Supports 4 x M.2 slots and 2 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors**\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4/x2 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (Not supports)****\nAMD X870 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)***\nM.2_4 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\n2 x SATA 6Gb/s ports\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1. RAID 5 Function is only supported by AMD Ryzen™ 9000 series CPU.\n** M.2_2 shares bandwidth with PCIEX16(G5). When M.2_2 is occupied with SSD device, PCIEX16(G5) will run x8 only.\n*** M.2_3 shares bandwidth with PCIEX16(G4). When M.2_3 is occupied with SSD device, PCIEX16(G4) will be disabled.\n**** M.2_2 will be disabled when using AMD Ryzen™ 8000 Series Desktop Processors.",
+   "RAID": "* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1. RAID 5 Function is only supported by AMD Ryzen™ 9000 series CPU.",
+   "Audio": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080*",
+   "Internal I/O Ports": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n5 x 4-pin Chassis Fan headers\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connectors\nStorage Related\n4 x M.2 slots (Key M)\n2 x SATA 6Gb/s ports\nUSB\n1 x USB 20Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Alteration PCIe mode switch\n1 x Chassis Intrusion header\n1 x CPU Over voltage jumper\n1 x Front Panel Audio header (F_AUDIO)\n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header"
+  },
+  "Others": {
+   "Special Features": "Extreme Engine Digi+\n- 5K Black metallic capacitors\nASUS Q-Design\n- M.2 Q-Latch\n- M.2 Q-Release\n- M.2 Q-Slide\n- PCIe Slot Q-Release Slim (with PCIe SafeSlot)\n- Q-Antenna\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink backplate\n- M.2 heatsink\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Clear CMOS button\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAura Sync\n- Addressable Gen 2 headers",
+   "Bundled Software": "ROG Exclusive Software\n- ROG CPU-Z\n- Dolby Atmos\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (60 days free trial)\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)\n- GameFirst\n- HWiNFO\n- Power Saving\nASUS Driver Hub\nASUS GlideX\nUSB Wattage Watcher\nTurboV Core\nAdobe Creative Cloud (Free Trial)\nNorton 360 for Gamers (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey\nDynamic OC Switcher\nFlexKey"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AMD Socket AM5 for AMD Ryzen 9000/8000 & 7000 Series Processors",
+  "Supported Memory: 4 x DIMM, Max. 192GB, DDR5",
+  "Graphics Output: 1 x DisplayPort, 1 x HDMI port, 2x USB4 (up to 40Gbps transfer rate)",
+  "Features: 1 x Intel 2.5Gb Ethernet, Wi-Fi 7, Bluetooth V5.4"
+ ],
+ "price": 84000,
+ "regular": 89620,
+ "status": "In Stock",
+ "code": "37924",
+ "brand": "Asus",
+ "model": "ROG STRIX X870E-E GAMING WIFI",
+ "warranty": "3 Years",
+ "name": "Asus ROG STRIX X870E-E GAMING WIFI DDR5 AMD AM5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus ROG STRIX X870E-E GAMING WIFI DDR5 AMD AM5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-strix-x870e-e-gaming-wifi-ddr5-motherboard",
+ "store": "startech"
+}

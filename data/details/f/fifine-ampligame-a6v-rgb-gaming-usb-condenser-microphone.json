@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Microphone Type": "Condenser",
+   "Noise/Signal": ">1kHz 70dB A+"
+  },
+  "Main Specs": {
+   "Frequency Range": "60Hz-18kHz",
+   "Polar pattern": "Cardioid",
+   "Connector": "USB type-C (mic end) to type-A 2.0 (computer end)/XLR",
+   "Sensitivity": "-40±3dB",
+   "Power Module": "USB power (Voltage: 4.75V-5.25V, Current: 50mA-80mA)",
+   "Others": "Max SPL: 110dB\nBuilt in RGB"
+  },
+  "Compatibility": {
+   "Audio recorders": "Yes",
+   "PC": "Yes"
+  },
+  "Warranty": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Polar Pattern: Cardioid",
+  "Connectivity: Type-C (mic end) to type-A 2.0 (PC end)/XLR",
+  "Mic Sensitivity: -40±3dB",
+  "S/N Ratio: >1kHz 70dB A+"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/fifine-ampligame-a6v-microphone",
+ "store": "pchouse"
+}

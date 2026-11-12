@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Type": "PrecisionCore Printhead"
+  },
+  "Print": {
+   "Print Speed": "Draft Text-Memory, A4 (Black#1): Up to 33.0 ppm\nISO 24734, A4 (Black) Simplex: Up to 18.0 ipm",
+   "Print Resolution": "1200 x 2400 dpi\n(with Variable-Sized Droplet Technology)"
+  },
+  "Paper Information": {
+   "Paper Size": "Support Paper Size (Print):\nA4, A5, A6, B5, B6, Letter, Legal, Indian-Legal, 100 x 148 mm,\n3.5 x 5\", 4 x 6\", 5 x 7\", 5 x 8\", 8 x 10\", 8.5\" x 13\", 16:9 Wide,\n16K, Envelopes: #10, DL, C6\nMaximum Paper Size:\n215.9 x 1200 mm (8.5 x 47.24\")",
+   "Paper Type": "Print",
+   "Paper Weight": "64-90 g/m2",
+   "Input Capacity": "100 sheets of A4 Plain Paper (80 g/m2)",
+   "Output Capacity": "30 sheets of A4 Plain Paper (80 g/m2)"
+  },
+  "Other Features": {
+   "Minimum Ink Droplet Volume": "2.8pl",
+   "Printer Language": "ESC/P-R",
+   "Automatic Duplex Printing": "No",
+   "Automatic 2-sided Printing": ": No"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB 2.0"
+  },
+  "Power Consumption": {
+   "Operating": "12W",
+   "Standby": "5.8W",
+   "Sleep": "0.7W",
+   "Power Off": "0.2W"
+  },
+  "Physical Specification": {
+   "Interface": "Wi-Fi IEEE 802.11b/g/n, Wi-Fi Direct, Ethernet"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year"
+  },
+  "Image": {
+   "Model": "M1050"
+  }
+ },
+ "key_features": [
+  "Speed: 33 ppm",
+  "Resolution: 1200 x 2400 dpi",
+  "Capacity: 100 sheets",
+  "Power: 12W (Operating)"
+ ],
+ "model": "M1050",
+ "warranty": "01 Year",
+ "fetched": "2026-11-12T18:35+06:00",
+ "source": "https://www.creatus.com.bd/epson-ecotank-m1050-inktank-printer",
+ "store": "creatus"
+}

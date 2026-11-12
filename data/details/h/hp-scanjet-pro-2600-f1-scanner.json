@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "ADF; CIS scanning technology; Flatbed",
+   "Resolution": "Up to 600x600 dpi; Up to 1200x1200 dpi (flatbed)",
+   "Interface": "USB 2.0",
+   "Speed": "Up to 25 ppm/50 ipm (b&w, gray and color, 300 dpi)"
+  },
+  "Others": {
+   "Scan Technology": "ADF; Flatbed; Contact Image Sensor (CIS)",
+   "Control panel": "Up to 600 x 600 dpi (color and mono, ADF); Up to 1200 x 1200 dpi (color and mono, flatbed)",
+   "Bit depth": "24-bit (external), 48-bit (internal)",
+   "Auto Document Feeder Capacity": "Standard, 60 sheets",
+   "Scan Size, Maximum": "216 x 297 mm",
+   "Scan Size (ADF), Maximum": "216 x 3100 mm",
+   "Scan Size ADF (Minimum)": "89 x 148 mm",
+   "Scanning Options (ADF)": "Single-pass Duplex scanning",
+   "Processor Speed": "666 MHz",
+   "Memory": "256 MB"
+  },
+  "Physical Informations": {
+   "Color": "White",
+   "Dimension": "491.5 x 325.4 x 133.3 mm",
+   "Weight": "5.4 kg"
+  },
+  "Warranty": {
+   "Warranty Informations": "01-Year"
+  }
+ },
+ "key_features": [
+  "Speed: Up to 25 ppm/50 ipm (B/W-Color)",
+  "Resolution: ADF: 600 dpi/Flatbed: 1200 dpi",
+  "Duty cycle (daily): Up to 1500 dpi",
+  "Connectivity: USB"
+ ],
+ "warranty": "01-Year",
+ "fetched": "2026-11-12T18:19+06:00",
+ "source": "https://fourstarit.com.bd/p/hp-scanjet-pro-2600-f1-scanner",
+ "store": "fourstar"
+}

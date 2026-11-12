@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "General": {
+   "Model": "H5 Flow RGB",
+   "Model Number": "CC-H51FB-R1",
+   "Type": "Mid-Tower",
+   "Color": "Black"
+  },
+  "Case Features": {
+   "Drive Bays": "2.5\": 1+1\n3.5\": 1",
+   "Inside the Box": "H5 Flow Case with fans (see specs): 1",
+   "Motherboard Support": "Motherboard Support: Mini-ITX, Micro-ATX, ATX"
+  },
+  "Expansion Slots": {
+   "Standard": "7",
+   "Vertical": "0"
+  },
+  "Fan Support": {
+   "Front": "2 x 120mm / 2 x 140mm (2 x F Series RGB Core 140mm (Case Version) included)",
+   "Top": "2 x 120mm",
+   "Rear": "1 x F Series Quiet 120mm (Case Version) included",
+   "Bottom": "1 x F Series Quiet 120mm (Case Version) included",
+   "Filters": "All Air Intakes"
+  },
+  "Radiator Support": {
+   "Front": "Up to 280mm",
+   "Top": "Up to 240mm",
+   "Rear": "Up to 120mm"
+  },
+  "Compatibility": {
+   "Max CPU Cooler Clearance": "Up to 165mm",
+   "Max GPU Clearance": "Up to 365mm",
+   "Front Radiator Clearance": "45mm",
+   "Cable Management": "Up to 23mm",
+   "PSU Clearance": "Up to 185mm"
+  },
+  "Front I/O Ports": {
+   "USB 3.2 Gen 1 Type-A": "1",
+   "USB 3.2 Gen 2 Type-C": "1",
+   "Headset Audio Jack": "1"
+  },
+  "Physical Specifications": {
+   "DIMENSIONS AND WEIGHT": "Height (With Feet): 464mm"
+  }
+ },
+ "key_features": [
+  "Enclosure Type:Mid-Tower",
+  "Speed:1200 ± 120 RPM",
+  "Airflow:61.74 CFM"
+ ],
+ "model": "H5 Flow RGB",
+ "fetched": "2026-11-12T18:44+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-h5-flow-rgb-compact-atx-mid-tower-casing",
+ "store": "pchouse"
+}

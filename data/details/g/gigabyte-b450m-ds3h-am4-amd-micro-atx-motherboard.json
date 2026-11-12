@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "Micro ATX Form Factor: 24.4 cm x 21.5cm"
+  },
+  "Basic Information": {
+   "Supported CPU": "AMD Ryzen 2nd Generation processors AMD Ryzen with Radeon Vega Graphics processors AMD Ryzen 1st Generation processors",
+   "Chipset": "AMD B450",
+   "BIOS": "1 x 128 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0"
+  },
+  "Expansion Slots": {
+   "M.2 Socket": "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280/22110 SATA and PCIe 3.0 x4/x2 SSD support) * Supports only M.2 SATA SSDs when using an AMD Athlon™ 200-series/ 7th Generation A-series or Athlon™ APU."
+  },
+  "Memory": {
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Support for DDR4\n3200(O.C.)/2933/2667/2400/2133 MHz memory modules Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode) Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for Extreme Memory Profile (XMP) memory modules",
+   "Maximum Memory": "64 GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DVI-D port, supporting a maximum resolution of 1920x1200@60 Hz * The DVI-D port does not support D-Sub connection by adapter. 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz(Note) * Support for HDMI 2.0 version and HDCP 2.2"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "Chipset: 2 x USB 3.1 Gen 1 ports available through the internal USB header 8 x USB 2.0/1.1 ports (4 ports on the back panel, 4 ports available through the internal USB headers) CPU: 4 x USB 3.1 Gen 1 ports on the back panel",
+   "LAN Port (s)": "Realtek® GbE LAN chip (10/100/1000 Mbit)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "B450M DS3H"
+  }
+ },
+ "key_features": [],
+ "model": "B450M DS3H",
+ "warranty": "03 years",
+ "fetched": "2026-11-12T18:55+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-b450m-ds3h-motherboard",
+ "store": "creatus"
+}

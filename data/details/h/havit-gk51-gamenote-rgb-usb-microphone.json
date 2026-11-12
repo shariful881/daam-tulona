@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Informations": {
+   "Noise/Signal": "85dB",
+   "Type": "Cardioid"
+  },
+  "Microphone Main Specifications": {
+   "Output Impedance": "<2.2KΩ",
+   "Sensitivity": "-45±3dB",
+   "Frequency Range": "50Hz-16000Hz",
+   "Connector": "3.5mm jack and type-C"
+  },
+  "Microphone Compatibility": {
+   "Audio Recorders": "Yes",
+   "PC": "Yes"
+  },
+  "Physical Specifications": {
+   "Weight": "285g",
+   "Dimension": "246x89x50mm",
+   "Cable": "1.5m"
+  },
+  "Warranty Information": {
+   "Warranty Info": "01-Year"
+  }
+ },
+ "key_features": [
+  "Directivity: Cardioid",
+  "Frequency Response: 50Hz-16000Hz",
+  "Sensitivity: -45±3dB",
+  "Interface: 3.5mm jack and type-C"
+ ],
+ "warranty": "01-Year",
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://fourstarit.com.bd/p/havit-gk51-gamenote-rgb-usb-microphone",
+ "store": "fourstar"
+}

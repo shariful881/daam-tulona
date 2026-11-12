@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "250GB",
+   "Form Factor": "M.2 2280",
+   "MTBF": "1800000 hours",
+   "Flash Type": "Tri-Level Cell (TLC)"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "3200MB/s",
+   "Sequential Write": "1300MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C – 70°C",
+   "Storage Temperature": "-40 to 185°F / -40 to 85°C"
+  },
+  "Physical Specification": {
+   "Weight": "8 gm"
+  },
+  "Dimensions": {
+   "Width (mm)": "22.15 mm",
+   "Height (mm)": "2.23 mm",
+   "Depth (mm)": "80.15 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  },
+  "Image": {
+   "Model": "Barracuda 570"
+  }
+ },
+ "key_features": [
+  "Capacity: 250GB",
+  "Interface: PCIe Gen4 ×4 NVMe 1.4",
+  "Form Factor: M.2 2280-S2",
+  "Read: 3200MB/s, Write: 1300MB/s"
+ ],
+ "model": "Barracuda 570",
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.creatus.com.bd/seagate-barracuda-570-250gb-pcie-nvme-ssd",
+ "store": "creatus"
+}

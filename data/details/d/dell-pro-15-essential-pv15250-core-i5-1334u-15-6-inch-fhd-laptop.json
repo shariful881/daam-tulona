@@ -1,0 +1,94 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5 1334U",
+   "Generation": "13th Gen",
+   "Processor Frequency": "up to 4.6 GHz",
+   "Processor Core": "10 (2P + 8E)",
+   "Processor Thread": "12",
+   "CPU Cache": "12 MB Intel Smart Cache"
+  },
+  "Memory": {
+   "Bus Speed": "4400 MHz",
+   "Ram": "8GB DDR5"
+  },
+  "Storage": {
+   "Storage Type": "M.2 PCIe NVMe SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "English US non-backlit keyboard",
+   "TouchPad": "Precision touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p at 30 fps HD RGB camera",
+   "Speaker": "2 tuned speakers"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "1x SD-card slot",
+   "HDMI Port": "1 HDMI 1.4 port",
+   "USB 2 Port": "1 USB 2.0 (480 Mbps) port",
+   "USB 3 Port": "1 USB 3.2 Gen 1 Type-A (5 Gbps) port",
+   "USB Type-C / Thunderbolt Port": "1 USB 3.2 Gen 1 (5 Gbps) Type-C® data only port (only for computers with 13th Gen Intel® Core™ processors)\n1 USB 3.2 Gen 1 (5 Gbps) Type-C® port with DisplayPort 1.4 and Power Delivery (only for computers with aluminum chassis)",
+   "Headphone & Microphone Port": "1 Universal Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "N/A",
+   "WiFi": "Realtek Wi-Fi 6 RTL8852BE, 2x2, 802.11ax, MU-MIMO",
+   "Bluetooth": "Bluetooth wireless card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "N/A"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD",
+   "Display Features": "WVA, IPS, Anti-Glare, 250 nits",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "120Hz",
+   "Brightness": "250 nits"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Battery",
+   "Battery Capacity": "41WHr (Integrated)",
+   "Adapter Type": "65 Watt AC adapter"
+  },
+  "Physical Specification": {
+   "Weight": "Weight (maximum): 4.19 lb (1.90 kg)",
+   "Colors": "Carbon Black",
+   "Body Material": "Carbon Fiber"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "Pro 15 Essential PV15250"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-1334U (10 Cores, Up to 4.6GHz)",
+  "Memory: 8GB DDR5 4400MHz RAM",
+  "Storage: 512GB M.2 PCIe NVMe SSD",
+  "Display: 15.6-inch Full HD IPS, 120Hz Refresh Rate",
+  "Features: HD RGB Camera, SD Card Reader, USB Type-C, Wi-Fi 6"
+ ],
+ "model": "Pro 15 Essential PV15250",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-12T18:11+06:00",
+ "source": "https://www.creatus.com.bd/dell-pro-15-essential-pv15250-core-i5-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "VA",
+   "Display Size": "34 inch",
+   "Display Type": "LED",
+   "Resolution": "WQHD (3440x1440)",
+   "Aspect Ratio": "21:9",
+   "Viewing Angle": "178°/ 178°",
+   "Brightness": "400 cd/㎡",
+   "Contrast Ratio": "3000:1",
+   "Refresh Rate": "180Hz",
+   "Color Support": "16.7M",
+   "Color Gamut": "100% sRGB, 90% DCI-P\n8Bit Color Support",
+   "Response Time": "MPRT 1MS OD (8,4ms)",
+   "Curvature": "R1000 Curvature"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Yes",
+   "Free Sync Support": "Yes"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "Display Port": "1x DisplayPort 1.4",
+   "HDMI": "2x HDMI 2.0",
+   "Audio Jack": "1x Audio Out"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5~20°",
+   "Swivel": "-15~15°",
+   "Height Adjustment": "110mm",
+   "Vesa Wall Mount": "75x75mm"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "797.53 x 535.40 x 242.18 mm"
+  },
+  "Weight": {
+   "Weight Head Only": "4.86Kg, 10.71 lbs",
+   "Weight without Package": "8Kg, 17.64 lbs",
+   "Weight with Package": "9.05Kg, 19.95 lbs"
+  },
+  "Power": {
+   "Power Consumption": "65W",
+   "Voltage": "19V3.42A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: WQHD (3440 x 1440)",
+  "Display: VA, 180Hz, 1ms (MPRT), OD (8,4ms)",
+  "Ports: 2x HDMI 2.0, 1x DisplayPort 1.4, 1x Audio Out",
+  "Features: Adaptive Sync, HDR400, 1000R Curvature"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/koorui-34e6uc-34-inch-180hz-curved-monitor",
+ "store": "pchouse"
+}

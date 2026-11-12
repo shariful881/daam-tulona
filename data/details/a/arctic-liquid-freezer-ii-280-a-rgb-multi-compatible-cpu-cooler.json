@@ -1,0 +1,21 @@
+{
+ "specs": {
+  "Supported Sockets": {
+   "AMD": "AM5, AM4",
+   "Intel": "1700, 1200, 115X, 2011-3*, 2066* *Square ILM"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200—1900 rpm PWM Controlled (0 rpm below 5% PWM)",
+  "VRM Fan: 40 mm, 1000—3000 rpm (PWM controlled)",
+  "Pump: 800-2000 rpm (PWM controlled)",
+  "Cold Plate: Copper, Micro-Skived-Fins"
+ ],
+ "warranty": "6 years",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.pchouse.com.bd/arctic-liquid-freezer-ii-280-argb-cpu-cooler",
+ "store": "pchouse"
+}

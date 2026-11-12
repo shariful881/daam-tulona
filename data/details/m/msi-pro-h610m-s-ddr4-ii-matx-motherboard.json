@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support Intel Core 14th/ 13th/ 12th Gen Processors, Intel Pentium Gold and Celeron Processors\nLGA 1700",
+   "Chipset": "INTEL H610",
+   "Form Factor": "mATX\n200mmx236.16mm",
+   "Audio": "Realtek ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 4.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)",
+   "M.2 Socket": "1x M.2\nM.2_1 Source (From Chipset) supports up to PCIe 3.0 x4 , supports 2280/2260/2242 devices"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2",
+   "Supported Memory": "Memory Support DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\nSupports Dual-Channel mode\nSupports non-ECC, un-buffered memory",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMI 1.4 with HDR, maximum resolution of 4K 30Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 1.4",
+   "USB (s)": "1x Power Connector(ATX_PWR)\n1x Power Connector(CPU_PWR)\n1x CPU Fan\n1x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x TPM pin header(Support TPM 2.0)\n4x USB 2.0 ports\n2x USB 5Gbps Type A ports",
+   "LAN Port (s)": "Realtek RTL8111H Gigabit LAN",
+   "Supported Storage": "1x M.2\nM.2_1 Source (From Chipset) supports up to PCIe 3.0 x4 , supports 2280/2260/2242 devices\n2x SATA 6G",
+   "Audio": "1x Front Audio (JAUD)",
+   "Internal I/O Ports": "1x Power Connector(ATX_PWR)\n1x Power Connector(CPU_PWR)\n1x CPU Fan\n1x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x TPM pin header(Support TPM 2.0)\n4x USB 2.0 ports\n2x USB 5Gbps Type A ports",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)"
+  },
+  "Others": {
+   "Special Features": "4x EZ Debug LED\nSupport for Windows 11 64-bit, Windows 10 64-bit"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 2x DDR4, Max 64GB 3200 MHz",
+  "Graphics Output: 2x HDMI 1.4 with HDR",
+  "Features: 1x M.2, Realtek RTL8111H Gigabit LAN"
+ ],
+ "price": 97009500,
+ "regular": 10470,
+ "status": "In Stock",
+ "code": "50701",
+ "brand": "MSI",
+ "model": "PRO H610M-S DDR4 II",
+ "warranty": "3 years",
+ "name": "MSI PRO H610M-S DDR4 II mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (Intel)",
+  "MSI PRO H610M-S DDR4 II mATX Motherboard"
+ ],
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://www.startech.com.bd/msi-pro-h610m-s-ddr4-ii-matx-motherboard",
+ "store": "startech"
+}

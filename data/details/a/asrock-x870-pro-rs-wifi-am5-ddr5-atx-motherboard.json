@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Socket AM5 Ryzen™ 9000, 8000 and 7000 Series Processors",
+   "Chipset": "AMD X870",
+   "BIOS": "256Mb AMI UEFI Legal BIOS with GUI support",
+   "Form Factor": "ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm\n8 Layer PCB",
+   "Audio": "7.1 CH HD Audio with Content Protection (Realtek ALC1220 Audio Codec)\nImpedance Sensing on Rear Out port\nIndividual PCB Layers for R/L Audio Channel\nNahimic Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:\n- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n- 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode*\n- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module\n- Supports AMD CrossFire™\n- 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n* PCIE1 will run at Gen5x16 with 9000 and 7000 series processors, Gen4x8 with 8000 (Phoenix 1) series processors and Gen4x4 with 8000 (Phoenix 2) series processors.\nIf M2_2 is occupied, PCIE2 will be disabled.\nSupports NVMe SSD as boot disks",
+   "M.2 Socket": "CPU:\n- 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280 PCIe Gen5x4 (128 Gb/s) mode* Chipset:\n- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2230/2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x Ultra M.2 Socket (M2_3, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR5 Memory Technology",
+   "Slots": "4 x DDR5 DIMM Slots",
+   "Supported Memory": "Supports DDR5 ECC/non-ECC, un-buffered memory up to 8000+(OC)\nSupports Extreme Memory Profile (XMP) and EXTended Profiles for Overclocking (EXPO) memory modules",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated AMD RDNA™ graphics (Actual support may vary by CPU)\n- 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR, HDCP 2.3 and max. resolution up to 4K 120Hz\n- 2 x USB4, support HDCP 2.3 and max. resolution up to 8K 30Hz*\n* Only the CPU's embedded graphics can be displayed through USB4 ports. If you want to display to a Type-C monitor, please use AM5 Ryzen™ 9000, 8000 and 7000 processors with embedded graphics."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI Port",
+   "USB (s)": "CPU:\n- 2 x USB4 Type-C (Rear)\n- 2 x USB 3.2 Gen1 Type-A (Rear (USB32_1 and USB32_2))\nChipset:\n- 1 x USB 3.2 Gen2x2 Type-C (Front)\n- 4 x USB 3.2 Gen1 Type-A (2 Rear (USB32_3 and USB32_4), 2 Front)\n- 9 x USB 2.0 (6 Rear, 3 Front)\n* All USB ports support ESD Protection",
+   "LAN Port (s)": "2.5 Gigabit LAN 10/100/1000/2500 Mb/s\nDragon RTL8125BG\nSupports Dragon 2.5G LAN Software\nSmart Auto Adjust Bandwidth Control\nVisual User Friendly UI\nVisual Network Usage Statistics\nOptimized Default Setting for Game, Browser, and Streaming Modes\nUser Customized Priority Control",
+   "Wireless Communication module": "802.11be 2x2 Wi-Fi 7 Module\nSupports IEEE 802.11a/b/g/n/ac/ax/axe/be\nSupports 2.4GHz/5GHz/6GHz* frequency band\nSupports 160MHz channel bandwidth with 6GHz* frequency band\n1 antenna to support 2 (Transmit) x 2 (Receive) diversity technology\nSupports Bluetooth 5.4\nSupports MU-MIMO\n* Wi-Fi 7 (6GHz band) will be supported by Microsoft® Windows® 11. The availability will depend on the different regulation status of each country and region. It will be activated (for supported countries) through Windows® Update and software updates once available.",
+   "Supported Storage": "CPU:\n- 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280 PCIe Gen5x4 (128 Gb/s) mode* Chipset:\n- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2230/2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n- 1 x Ultra M.2 Socket (M2_3, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*\n- 2 x SATA3 6.0 Gb/s Connectors ASMedia ASM1061:\n- 2 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\nM2_1 is the first priority for M.2 installation.\nM2_1 will run at Gen5x4 with 9000 and 7000 series processors and Gen4x4 with 8000 (Phoenix 1 and Phoenix 2) series processors.\nIf M2_2 is occupied, PCIE2 will be disabled.\nIf SATA3_1 or SATA3_2 is occupied, M2_3 will downgrade to Gen3x2 mode.",
+   "RAID": "Supports RAID 0 and RAID 1 for SATA storage devices\nSupports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices*\n* Requires additional M.2 NVMe expansion cards to support RAID 10",
+   "Audio": "1 x Line Out Jack (Gold Audio Jack)\n1 x Microphone Input Jack (Gold Audio Jack)",
+   "Internal I/O Ports": "2 x Antenna Ports\n1 x HDMI Port\n1 x Optical SPDIF Out Port\n2 x USB4 Type-C Ports (40 Gb/s)*\n4 x USB 3.2 Gen1 Type-A Ports\n6 x USB 2.0 Ports\n1 x RJ-45 LAN Port\n1 x BIOS Flashback Button\n1 x Line Out Jack (Gold Audio Jack)\n1 x Microphone Input Jack (Gold Audio Jack)\n* Supports USB PD 3.0 up to 5V@3A (15W) charging\n1 x Thermistor Cable Header\n1 x Power LED and Speaker Header\n1 x RGB LED Header*\n3 x Addressable LED Headers**\n2 x CPU Fan Connectors (4-pin) (Smart Fan Speed Control)***\n4 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Control)***\n1 x AIO Pump Fan Connector (4-pin) (Smart Fan Speed Control)***\n1 x 24 pin ATX Power Connector\n2 x 8 pin 12V Power Connectors (Hi-Density Power Connector)\n1 x Front Panel Audio Connector\n2 x USB 2.0 Headers (Support 3 USB 2.0 ports)\n1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s)\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\nCPU_FAN2, CHA_FAN1~4 and AIO_PUMP support the fan power up to 3A (36W).\nCPU_FAN2, CHA_FAN1~4 and AIO_PUMP can auto detect if 3-pin or 4-pin fan is in use."
+  },
+  "Others": {
+   "Special Features": "Superb Productivity\n- PCIe Gen5 (Graphics, M.2)\n- Dual Channel DDR5\n- USB4 Type-C Ports (40 Gb/s)\nRock-Solid Durability\n- 14+2+1 Power Phase, 80A Dr.MOS for VCore+SOC+MISC with Enlarged Heatsink Armor\n- Flexible Integrated I/O Shield\nUltrafast Connectivity\n- 2.5G LAN, 802.11be Wi-Fi 7 Module\nEZ Update\n- BIOS Flashback Button\n- ASRock Auto Driver Installer\nEZ Troubleshooter\n- ASRock Post Status Checker",
+   "Bundled Software": "Software\n- ASRock Motherboard Utility (A-Tuning)\n- ASRock Dragon 2.5G LAN Software\n- ASRock Polychrome SYNC*\nUEFI\n- ASRock EZ Mode\n- ASRock Full HD UEFI\n- ASRock Auto Driver Installer\n- ASRock Instant Flash\n*These utilities can be downloaded from ASRock Live Update & APP Shop."
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000, & 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, Up to 8000+(OC), Max 256GB",
+  "Graphics Output: 1 x HDMI 2.1, 2 x USB4, Support HDCP 2.3 and max",
+  "Features: 2.5G LAN, 802.11be Wi-Fi 7 Module, Bluetooth 5.4"
+ ],
+ "price": 3350036000,
+ "regular": 39050,
+ "status": "In Stock",
+ "code": "38757",
+ "brand": "ASRock",
+ "model": "X870 Pro RS WiFi",
+ "warranty": "3 Years",
+ "name": "ASRock X870 Pro RS WiFi AM5 DDR5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASRock (AMD)",
+  "ASRock X870 Pro RS WiFi AM5 DDR5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asrock-x870-pro-rs-wifi-am5-motherboard",
+ "store": "startech"
+}

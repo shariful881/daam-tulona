@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "General Information": {
+   "DIMENSION": "L=192 W=117 H=35 mm",
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6",
+   "OUTPUT PORTS": "2 x DisplayPort UP to 2.0,\n2 x HDMI 2.0"
+  },
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "4GB",
+   "Resolution": "7680x4320",
+   "Core Clock": "2000 MHz",
+   "Memory Clock": "15500 MHz",
+   "BUS Type": "64 bit"
+  },
+  "Power Specifications": {
+   "Connectors": "6-Pin",
+   "Recommended PSU": "350W"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Years"
+  },
+  "Image": {
+   "Model": "Intel Arc A310 WINDFORCE 4G"
+  }
+ },
+ "key_features": [
+  "Graphics Clock: 2000 MHz",
+  "Memory: 4GB GDDR6",
+  "Memory Bandwidth (GB/sec): 124 GB/s",
+  "Output: DP x2, HDMI x2"
+ ],
+ "model": "Intel Arc A310 WINDFORCE 4G",
+ "warranty": "3-Years",
+ "fetched": "2026-11-12T18:58+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-intel-arc-a310-windforce-4g-gddr6-graphics-card",
+ "store": "creatus"
+}

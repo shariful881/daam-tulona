@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "650VA",
+   "Input Voltage": "220Vac",
+   "Output Voltage": "220Vac",
+   "Frequency (Battery Mode)": "50Hz ± 1Hz",
+   "Battery": "Internal maintenance-free lead-acid(12V/ 7/ 7.5Ah*1)",
+   "Noise Level": "Less than 40dB"
+  },
+  "Input Features": {
+   "Frequency": "50 Hz",
+   "Voltage Range": "140-290VAC"
+  },
+  "Output Features": {
+   "Backup Time": "up to 30 minutes",
+   "Type of Wave": "Simulated Sine Wave (Bat Mode)",
+   "Transfer Time": "Typical 2-6ms"
+  },
+  "Image": {
+   "Model": "MG-LI-EAP 650VA"
+  }
+ },
+ "key_features": [
+  "Capacity: 650VA",
+  "Input Voltage: 220/230 V",
+  "Backup Time: up to 30 minutes"
+ ],
+ "model": "MG-LI-EAP 650VA",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.creatus.com.bd/maxgreen-mg-silver-650va-offline-ups",
+ "store": "creatus"
+}

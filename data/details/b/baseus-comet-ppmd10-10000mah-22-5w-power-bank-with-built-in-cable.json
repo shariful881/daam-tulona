@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Battery/ Battery Capacity": "10000mAh / 38.5Wh",
+   "Input Voltage": "Type-C Input: 5V=2A, 9V=2A, 12V=1.5A",
+   "Button": "Energy conversion rate: >=75%"
+  },
+  "Output Interface": {
+   "Type-C Output": "5V=3A, 9V=2A, 10V=2.25A(SCP), 12V=1.5A",
+   "Lightning Output": "5V=2.4A, 9V=2.22A",
+   "USB Output": "5V=2.4A",
+   "Total Output": "5V=2.4A"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "128.5 x 70 x 23.3 mm",
+   "Weight": "218g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "03 Months Warranty"
+  }
+ },
+ "key_features": [
+  "Power Capacity: 10000 mAh",
+  "Type-C Input: 5V=2A, 9V=2A, 12V=1.5A",
+  "Type-C Output: 5V=3A, 9V=2.22A, 12V=1.5A"
+ ],
+ "warranty": "03 Months Warranty",
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://fourstarit.com.bd/p/baseus-comet-ppmd10-10000mah-22-5w-power-bank",
+ "store": "fourstar"
+}

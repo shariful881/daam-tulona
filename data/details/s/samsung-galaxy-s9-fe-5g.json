@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n8 GB\n12 GB\n8 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Connectivity": "Choose an option\nLTE\nWi-Fi\nLTE\nWi-Fi\nClear"
+  },
+  "Specifications": {
+   "Model": "Galaxy S9 FE +",
+   "OS": "Android 13, One UI 5.1",
+   "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+   "Dimension & Weight": "285.4 x 185.4 x 6.5 mm (11.24 x 7.30 x 0.26 in)\nWeight 627 g or 628 g (1.38 lb)",
+   "Build": "Glass front, aluminum back, aluminum frame",
+   "Rear Camera": "Dual\n8 MP, (wide)\n8 MP, (ultrawide)\nVideo: 4K@30fps, 1080p@30fps",
+   "System Storage": "128GB",
+   "RAM(GB)": "8GB",
+   "Sim": "Nano-SIM",
+   "Processor": "Exynos 1380 (5 nm)",
+   "CPU Architecture": "Octa-core (4×2.4 GHz Cortex-A78 & 4×2.0 GHz Cortex-A55)",
+   "GPU": "Mali-G68 MP5",
+   "Sensors": "Unspecified"
+  },
+  "Display": {
+   "Type": "IPS LCD, 90Hz",
+   "Size": "12.4 inches, 445.8 cm2 (~84.3% screen-to-body ratio)",
+   "Resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "12 MP, (ultrawide)",
+   "Video": "Yes"
+  },
+  "Battery": {
+   "Type": "Li-Po 10090 mAh, non-removable",
+   "Charging": "45W wired, QC2.0"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C, magnetic connector"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Connectivity": "LTE, Wi-Fi"
+  }
+ },
+ "key_features": [
+  "Band: Samsung",
+  "Model: Galaxy S9 FE+",
+  "Display: 12.4 inches, IPS LCD, 90Hz",
+  "CPU: Octa-Core (Exynos 1380 (5 nm) )",
+  "GPU: Mali-G68 MP5",
+  "Front Camera: 12MP (wide)",
+  "Resolution: 1600 x 2560 pixels",
+  "Rear camera: 8MP + 8MP",
+  "Battery: Li-Po 10090 mAh, non-removable"
+ ],
+ "model": "Galaxy S9 FE +",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://diamu.com.bd/product/samsung-galaxy-s9-fe/",
+ "store": "diamu"
+}

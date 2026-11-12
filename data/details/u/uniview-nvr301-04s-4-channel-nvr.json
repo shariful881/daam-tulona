@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Audio and Video": {
+   "IP Camera Input": "04 Channel"
+  },
+  "Display": {
+   "Interface": "Operating System\nLinux system\nInterface\n1x SATA\n1x RJ-45 10M/100M self-adaptive Ethernet\nRear panel: 1x USB2.0\nFront panel: 1x USB2.0",
+   "Resolution": "HDMI:\n4K (3840x2160)/30Hz, 1920x1080p/60Hz, 1920x1080p/50Hz, 1600x1200/60Hz, 1280x1024/60Hz, 1280x720/60Hz, 1024x768/60Hz\nVGA:\n1920x1080p/60Hz, 1920x1080p/50Hz, 1600x1200/60Hz, 1280x1024/60Hz, 1280x720/60Hz, 1024x768/60Hz",
+   "Decoding Capacity": "1 x 4K@30, 2 x 4MP@30, 4 x 1080p@30, 8 x 720p@30"
+  },
+  "Recording": {
+   "Record Mode": "Resolution\n8MP/6MP/5MP/4MP/3MP/1080p/960p/720p/D1/2CIF/CIF"
+  },
+  "Playback And Backup": {
+   "Search Mode": "Sync Playback\n4 channel"
+  },
+  "Storage": {
+   "Internal HDD": "1 SATA interface\nHDD Mode\nUp to 8TB"
+  },
+  "Network": {
+   "Ethernet Port": "Interface\n1 RJ45\nEthernet Port\n10M/100M, self-adaptive ethernet interface\nPoE\nP2P, UPnP, NTP, DHCP, PPPoE\nMaximum User Access\nRemote Users: 128"
+  },
+  "USB": {
+   "Rear panel": "1x USB2.0",
+   "Front panel": "1x USB2.0"
+  },
+  "Power": {
+   "Power Supply": "12V DC",
+   "Power Consumption": "≤5 W (without HDD)"
+  },
+  "Construction": {
+   "Dimensions": "260mm × 240mm ×47mm (10.2\"× 9.5\"×1.8\")",
+   "Net Weight": "≤ 1 Kg (2.2lb)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 year Warranty",
+ "fetched": "2026-11-12T18:27+06:00",
+ "source": "https://fourstarit.com.bd/p/uniview-nvr301-04s-4-channel-nvr",
+ "store": "fourstar"
+}

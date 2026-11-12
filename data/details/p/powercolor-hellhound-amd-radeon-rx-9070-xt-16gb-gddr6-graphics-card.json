@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2460MHz(Game)\nup to 3010MHz(Boost)",
+   "BUS Type": "PCIE 5.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "4096 Units",
+   "Others": "Radeon Anti-Lag\nRadeon Boost\nAMD RDNA 4 Architecture with Hardware Raytracing\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2\nAMD Stream Technology\nAMD Eyefinity Technology\nAMD Smart Access Memory"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1a (only 2x simultaneous DP2.1 connections can be supported)",
+   "HDMI": "1 x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "800W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "327mm*128mm*49mm\n340mm*142mm*49mm(with bracket)",
+   "Others": "Slot: 2.5"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 year (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2460MHz(Game)/ 3010MHz(Boost)",
+  "Memory Speed: 20.0 Gbps, Memory Interface: 256-bit",
+  "Stream Processors: 4096 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 1 x HDMI 2.1b, 3 x DisplayPort 2.1b"
+ ],
+ "price": 128500129000,
+ "regular": 139970,
+ "status": "In Stock",
+ "code": "40821",
+ "brand": "PowerColor",
+ "mpn": "RX9070XT 16G-L/OC",
+ "model": "Hellhound AMD Radeon RX 9070 XT 16GB GDDR6",
+ "warranty": "2 year (For warranty Full Box Required)",
+ "name": "PowerColor Hellhound AMD Radeon RX 9070 XT 16GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "PowerColor",
+  "PowerColor Hellhound AMD Radeon RX 9070 XT 16GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://www.startech.com.bd/powercolor-hellhound-amd-radeon-rx-9070-xt-16gb-gddr6-graphics-card",
+ "store": "startech"
+}

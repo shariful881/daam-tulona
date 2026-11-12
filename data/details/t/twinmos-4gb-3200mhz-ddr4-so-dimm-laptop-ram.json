@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "4GB",
+   "Frequency": "3200MHz",
+   "Latency": "CL22-22-22-52"
+  },
+  "Memory Specifications": {
+   "Type": "DDR4"
+  },
+  "Output": {
+   "Operating Voltage": "1.2V"
+  },
+  "Others": {
+   "Data Transfer": "25,600 MB/s",
+   "Bandwidth": "(PC4 25600)"
+  },
+  "Physical Specifications": {
+   "PIN": "260 PIN SO-DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "lifetime time warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 4GB",
+  "Frequency: Up to 3200HMz",
+  "Module Type: DDR4 260 PIN SO-DIMM",
+  "Operating voltage: 1.2V, Latency: CL22"
+ ],
+ "warranty": "lifetime time warranty",
+ "fetched": "2026-11-12T18:33+06:00",
+ "source": "https://www.pchouse.com.bd/twinmos-4gb-3200mhz-ddr4-so-dimm-laptop-ram",
+ "store": "pchouse"
+}

@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Chipset": "AMD B450",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 19.5cm",
+   "Audio": "Realtek Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel"
+  },
+  "PCI": {
+   "CPU": "1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x16",
+   "Chipset": "1 x PCI Express x1 slot, supporting PCIe 2.0 and running at x1"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Maximum Memory": "64 GB (32 GB single DIMM capacity)"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor:\n1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz\n* Support for HDMI 2.0 version and HDCP 2.2."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "Chipset:\n2 x USB 3.2 Gen 1 ports available through the internal USB header\n6 x USB 2.0/1.1 ports (2 ports on the back panel, 4 ports available through the internal USB headers)\nCPU:\n4 x USB 3.2 Gen 1 ports on the back panel",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/ 100 Mbps)",
+   "Supported Storage": "1 x M.2 connector (Socket 3, M key, type 22110/2280/2260/2242 SATA and PCIe 3.0 x4/x2(Note) SSD support)\n* Refer to \"2-7 Internal Connectors,\" for the installation notices for the M.2 connector.\n4 x SATA 6Gb/s connectors",
+   "RAID": "RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices\nRAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+   "TPM (Trusted Platform Module )": "1 x Trusted Platform Module (TPM) header (2x6 pin, for the GC-TPM2.0_S module only)"
+  },
+  "Others": {
+   "Special Features": "Support for APP Center\n* Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.\n@BIOS\nEasyTune\nSmart Backup\nSystem Information Viewer\nSupport for Q-Flash\nSupport for Xpress Install",
+   "Bundled Software": "Norton Internet Security (OEM version)\nLAN bandwidth management software"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Gigabyte B450M K"
+  },
+  "Product List": {
+   "Best Gigabyte (Ryzen) Motherboard Price List in BD": "Price",
+   "Gigabyte B550M DS3H AC Micro ATX AMD Motherboard": "13,699৳\n16,280৳",
+   "GIGABYTE X670 GAMING X AX DDR5 AMD MOTHERBOARD": "37,999৳\n42,000৳",
+   "Gigabyte GA-A320M-S2H AMD Micro ATX Motherboard": "7,800৳\n8,800৳"
+  }
+ },
+ "key_features": [],
+ "model": "Gigabyte B450M K",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T18:55+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-b450m-k-amd-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n12 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Honor 200",
+   "Network": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+   "OS": "Android 14, Magic OS 8",
+   "System Storage": "256GB/512GB",
+   "RAM(GB)": "12GB",
+   "SIM Card": "Dual SIM (Nano-SIM, dual stand-by)",
+   "Processor": "Qualcomm SM7550-AB Snapdragon 7 Gen 3 (4 nm)",
+   "CPU Architecture": "Octa-core (1×2.63 GHz Cortex-A715 & 4×2.4 GHz Cortex-A715 & 3×1.8 GHz Cortex-A510)",
+   "GPU": "Adreno 720",
+   "Triple Camera": "Triple\n50 MP, f/2.0, (wide), 1/1.56″, 1.0µm, PDAF, OIS\n50 MP, f/2.4, (telephoto), PDAF, OIS, 2.5x optical zoom\n12 MP, f/2.2, 112˚ (ultrawide), AF\nFeatures\nLED flash, HDR, panorama\nVideo\n4K@30fps, 1080p@30/60fps, gyro-EIS, OIS",
+   "Sensor": "Fingerprint (under display, optical), accelerometer, gyro, compass, ultrasound proximity"
+  },
+  "Dimension & Weight": {
+   "Dimensions": "161.5 x 74.6 x 7.7 mm (6.36 x 2.94 x 0.30 in)",
+   "Weight": "187 g (6.60 oz)"
+  },
+  "Display Size (Inches)": {
+   "Type": "OLED, 1B colors, 120Hz, HDR, 4000 nits (peak)",
+   "Size": "6.7 inches, 108.5 cm2 (~90.0% screen-to-body ratio)",
+   "Resolution": "1200 x 2664 pixels (~436 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "50 MP, f/2.1, (wide)",
+   "Features": "HDR",
+   "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+  },
+  "Battery": {
+   "Type": "Si/C 5200 mAh",
+   "Charging": "100W wired, 57% in 15 min (advertised)"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.1, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "Yes (market/region dependent)",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB",
+   "Internal Storage": "256GB\n,\n512GB",
+   "Color": "Green\n,\nOrange\n,\nBlack"
+  }
+ },
+ "key_features": [
+  "Display: 6.7 inches AMOLED",
+  "CPU: Octa-Core (Qualcomm SM7550-AB Snapdragon 7 Gen 3 (4 nm))",
+  "GPU: Adreno 720",
+  "Front Camera: 50MP",
+  "Resolution: 1200 x 2664 pixels",
+  "Rear camera: 50MP+50MP+12MP",
+  "Battery: Si/C Li-Ion 5200 mAh"
+ ],
+ "model": "Honor 200",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://diamu.com.bd/product/honor-200/",
+ "store": "diamu"
+}

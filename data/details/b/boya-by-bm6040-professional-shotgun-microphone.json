@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Noise/Signal": "80dB",
+   "Microphone Type": "Cardioid Shotgun Microphone"
+  },
+  "Main Spec": {
+   "Frequency Range": "90Hz-20,000Hz",
+   "Sensitivity": "30±3dB(OdB=1V/Pa at 1KHz)",
+   "Output Impedance": "100Ω",
+   "Dimension": "Ф22 x 180mm",
+   "Cable": "XLR cable",
+   "Polar pattern": "Cardioid",
+   "Connector": "1 x XLR 3-Pin Male (on Mic)",
+   "Power Module": "12-48V phantom power"
+  },
+  "Using the Microphone": {
+   "Audio recorders": "Yes"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/boya-by-bm6040-professional-shotgun-microphone",
+ "store": "pchouse"
+}

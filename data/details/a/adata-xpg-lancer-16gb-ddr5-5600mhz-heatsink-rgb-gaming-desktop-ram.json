@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Battery": {
+   "Voltage": "Voltage"
+  },
+  "Key Features": {
+   "Module Type": "U-DIMM",
+   "LED Lighting": "RGB"
+  },
+  "Memory": {
+   "Memory Type": "16GB DDR5",
+   "Bus Speed": "5600MHz"
+  },
+  "Power Specifications": {
+   "Power Consumption": "6W"
+  },
+  "Physical Specifications": {
+   "PIN": "288",
+   "Dimension": "133.35 x 43.56 x 8mm",
+   "Operating Temperature": "0 to 85 Degree C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-20 to 65 Degree C"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [],
+ "warranty": "Lifetime",
+ "fetched": "2026-11-12T18:29+06:00",
+ "source": "https://www.pchouse.com.bd/adata-xpg-lancer-16gb-ddr5-5600mhz-heatsink-rgb-gaming-desktop-ram-(black)",
+ "store": "pchouse"
+}

@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Base / Boost Clock: 2280/2497MHz",
+   "Memory Clock": "28.0Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "4608",
+   "Others": "DLSS 4 delivers Multi Frame Generation and enhanced Ray Reconstruction\nMemory Bandwidth: Up to 448 GB/s\nCooling Design: Heatsink with Twin Cooler"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Consumption": "145W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "211 x 120 x 41mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, Memory Clock: 28 Gbps",
+  "Core Clock: Base: 2407 MHz; Boost: 2572 MHz",
+  "CUDA Cores: 4608, Memory Bandwidth: Up to 448 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "price": 108999120000,
+ "regular": 121000,
+ "status": "In Stock",
+ "code": "47710",
+ "brand": "Manli",
+ "mpn": "M-N506TIN/D716G-M2654",
+ "model": "Nebula V2 GeForce RTX 5060 Ti 16GB",
+ "warranty": "3 Years (For warranty Full Box Required)",
+ "name": "Manli Nebula V2 GeForce RTX 5060 Ti 16GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Manli",
+  "Manli Nebula V2 GeForce RTX 5060 Ti 16GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.startech.com.bd/manli-nebula-v2-geforce-rtx-5060-ti-16gb-graphics-card",
+ "store": "startech"
+}

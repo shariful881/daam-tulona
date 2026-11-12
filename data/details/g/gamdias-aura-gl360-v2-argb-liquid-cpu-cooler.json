@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "800 - 1800 RPM±10%",
+   "Fan Airflow": "73.6 CFM",
+   "Noise": "33.8 dBA",
+   "Air Pressure": "2.12 mmH2O",
+   "Connector": "PWM",
+   "LED Number": "30 Built-in Lighting Effects and Motherboard Sync ARGB",
+   "Material": "Tube Material: EPDM\nBase Plate Material: Copper\nRadiator Material: Aluminum\nBearing: Hydraulic",
+   "Others": "New Fluid Running System for Better Thermal Dissipation\nUpgraded Copper Base & 12-slot 10-pole Motor to Improve Cooling Performance\nHidden Cable Routing\nHydraulic PWM Fans\nFully Rotatable Pump Housing with Brushed Plating\nEasy Installation of Universal Mounting Kits\nSupport Motherboard RGB Sync Connectors: 5V 3-pin addressable (digital) RGB header Only"
+  },
+  "Physical Specification": {
+   "Dimension": "Fan Dimensions: 120 x 120 x 25 mm\nRadiator Dimensions: 396 x 120 x 27 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA2066 / 2011-v3 / 2011 / 1700 / 1151 / 1150 / 1155 / 1156 / 1200",
+   "AMD": "AM5 /AM4 / AM3+ / AM3 / AM2+ / AM2 / FM2+ / FM2 / FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "New Fluid Running System & Upgraded Copper Base",
+  "12-slot 10-pole Motor to Improve Cooling Performance",
+  "30 Built-in Lighting Effects and Motherboard Sync ARGB",
+  "Socket Compatibility: LGA 1700 / AM5"
+ ],
+ "price": 69006990,
+ "regular": 7490,
+ "status": "In Stock",
+ "code": "35310",
+ "brand": "GAMDIAS",
+ "model": "AURA GL360 V2",
+ "warranty": "5 years",
+ "name": "Gamdias AURA GL360 V2 ARGB Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Gamdias",
+  "Gamdias AURA GL360 V2 ARGB Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://www.startech.com.bd/gamdias-aura-gl360-v2-liquid-cpu-cooler",
+ "store": "startech"
+}

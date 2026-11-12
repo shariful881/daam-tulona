@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print Only",
+   "Printer Type": "Ink Tank",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Print Speed": "15ipm(ISO) (A4), 32ppm(Draft) (A4)",
+   "Duplex": "Manual"
+  },
+  "Paper Information": {
+   "Paper Size": "Legal, Indian-Legal (215 x 345 mm), 8.5 x 13 Inch, Letter, A4, 16K (195 x 270 mm), B5, A5, B6,\nA6, Hagaki (100 x 148 mm), Envelopes 10, DL, C6"
+  },
+  "Power Specifications": {
+   "Power Consumption": "AC 220 - 240 V, 50 - 60 Hz, 14 W (Operating), 3.0 W (Standby)"
+  },
+  "Physical Specification": {
+   "Weight": "3.4Kg",
+   "Dimensions": "435 x 148 x 267mm",
+   "Colors": "White",
+   "Interface": "USB, WiFi"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Epson EcoTank Monochrome M1120"
+  }
+ },
+ "key_features": [
+  "Output Color: Black & White",
+  "Print Speed (Black): 15ipm(ISO) (A4), 32ppm(Draft) (A4)",
+  "Print Paper Size Max.: Legal",
+  "Interface (Built-in): USB, WiFi"
+ ],
+ "model": "Epson EcoTank Monochrome M1120",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:35+06:00",
+ "source": "https://www.creatus.com.bd/epson-ecotank-monochrome-m1120-wi-fi-inktank-printer-c11cg96501",
+ "store": "creatus"
+}

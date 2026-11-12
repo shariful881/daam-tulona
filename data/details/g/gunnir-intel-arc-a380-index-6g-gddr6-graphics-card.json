@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6 GB",
+   "Resolution": "7680 x 4320@60Hz",
+   "Memory Clock": "2000 MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Memory Interface": "96 bit"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3 x DisplayPort 1.4a",
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "350W",
+   "Power Consumption": "75 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "221 x 120 x 42mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Intel Arc A380 Index 6G"
+  }
+ },
+ "key_features": [
+  "GPU Architecture: Built on Intel's Xe HPG microarchitecture, featuring 8 Xe cores for efficient processing.",
+  "Connectivity Options: Provides multiple display outputs, including 1 HDMI 2.0 and 3 DisplayPort 2.0 ports, supporting quad-display setups.",
+  "Power Efficiency: Designed with a low power consumption of 75W, eliminating the need for an external power connector.",
+  "Cooling Solution: Incorporates a dual-fan cooling system to ensure efficient heat dissipation during operation.",
+  "Software Support: Supports DirectX 12 Ultimate, Vulkan 1.3, and OpenGL 4.6 for compatibility with modern applications and games.",
+  "Warranty: Comes with a 3-year warranty, providing peace of mind for users."
+ ],
+ "model": "Intel Arc A380 Index 6G",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:00+06:00",
+ "source": "https://www.creatus.com.bd/gunnir-intel-arc-a380-index-6g-graphics-card",
+ "store": "creatus"
+}

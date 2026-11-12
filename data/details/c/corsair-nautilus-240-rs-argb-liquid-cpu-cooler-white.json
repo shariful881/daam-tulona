@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Product Description": {
+   "Product Length": "275",
+   "Product Width": "125",
+   "Product Height": "125",
+   "Lighting": "RGB",
+   "Cooling Warranty": "5 Year",
+   "Number of Fans": "2",
+   "Cold Plate Material": "Copper",
+   "Radiator Material": "Aluminum",
+   "Cooling Socket Support": "Intel 1700, AMD AM5, AMD AM4",
+   "Fan Speed": "2100 RPM",
+   "Fan Airflow": "xxx – 74.37 CFM",
+   "Fan Static Pressure": "xxx – 4.91mm-H2O",
+   "Noise Level": "34 dBA",
+   "Radiator Size": "240mm",
+   "Fan Model": "Standard",
+   "Fan Control Method": "PWM",
+   "AMD Processors Supported": "Ryzen, A-Series",
+   "Intel Processors Supported": "Core i9, i7, i5, i3, Pentium, Celeron",
+   "PWM": "Yes",
+   "Weight": "1.932"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 2100 RPM",
+  "Number of Fans: 2",
+  "Fan Airflow: 13.3 – 72.8 CFM",
+  "Cooling Socket Support: Intel 1851, Intel 1700, AMD AM5, AMD AM4"
+ ],
+ "warranty": "5 Year",
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://smartbd.com/product/corsair-nautilus-240-rs-argb-liquid-cpu-cooler-white/",
+ "store": "smartbd"
+}

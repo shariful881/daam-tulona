@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "2.5-inch",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III (6 Gbps)",
+   "TBW": "142 TBW",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T\nLow-profile graphene aluminum heat spreader\nSupported System:\nWindows 10, Windows 8.1, Windows 8, Windows 7 (SP1),\nWindows Vista (SP2), Windows XP,\nMac OS X v.10.7.x+, Linux v.2.6.x+, Chrome"
+  },
+  "Sequential R/W": {
+   "Read Speed": "550MB/s (Max)",
+   "Write Speed": "520MB/s (Max)"
+  },
+  "Physical Specification": {
+   "Dimension": "100*69.8*7mm",
+   "Color": "Blue"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "odel: OS001",
+  "Capacity: 256GB",
+  "Interface: SATA III (6 Gbps)",
+  "Form Factor: 2.5 inch",
+  "Read: 550MB/s (Max), Write: 520MB/s (Max)"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-12T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/oscoo-os001-256gb-2.5-inch-sata-iii-ssd",
+ "store": "pchouse"
+}

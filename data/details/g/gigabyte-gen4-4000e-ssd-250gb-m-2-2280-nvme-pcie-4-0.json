@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "250GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCI Express 4.0x4, NVMe 1.4",
+   "Flash Type": "N/A",
+   "MTBF": "1.5 million hours",
+   "Sequential R/W": "Up to 3500 MB/s (Read) / Up to 1800 MB/s (Write)",
+   "TBW": "150 Terabytes Written (TBW)",
+   "IOPs (4K Random Write)": "N/A",
+   "Humidity": "N/A",
+   "Voltage": "N/A"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C",
+   "Shock resistance": "1500G/0.5ms",
+   "Vibration Resistance": "5GRMS, 10~2000 Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Limited Warranty or 150TBW (Whichever comes first)"
+  },
+  "Image": {
+   "Model": "G440E250G"
+  }
+ },
+ "key_features": [],
+ "model": "G440E250G",
+ "warranty": "3 Years Limited Warranty or 150TBW (Whichever comes first)",
+ "fetched": "2026-11-12T18:57+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-gen4-4000e-ssd-250gb",
+ "store": "creatus"
+}

@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)\nSupports Intel® Hybrid Technology\nSupports Intel® Turbo Boost Max 3.0 Technology\nSupports Intel® Thermal Velocity Boost (TVB)\nSupports Intel® Adaptive Boost Technology (ABT)",
+   "Chipset": "Intel B760",
+   "BIOS": "128Mb AMI UEFI Legal BIOS with GUI support",
+   "Form Factor": "Micro ATX Form Factor: 9.6-in x 9.6-in, 24.4 cm x 24.4 cm",
+   "Audio": "7.1 CH HD Audio (Realtek ALC897 Audio Codec)\nNahimic Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:\n1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n1 x PCIe 3.0 x16 Slot (PCIE2), supports x4 mode*\n1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVio/CNVio2 (Integrated WiFi/BT)\nSupports AMD CrossFire",
+   "M.2 Socket": "1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n1 x Hyper M.2 Socket (M2_3, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DDR5 DIMM Slots",
+   "Supported Memory": "Supports DDR5 non-ECC, un-buffered memory up to 7200+(OC)\nSupports Intel® Extreme Memory Profile (XMP) 3.0",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "Intel Xe Graphics Architecture (Gen 12)\n1 x HDMI 2.1 TMDS Compatible, supports HDCP 2.3 and max. resolution up to 4K 60Hz\n1 x DisplayPort 1.4 with DSC (compressed), supports HDCP 2.3 and max. resolution up to 8K 60Hz / 5K 120Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1 x DisplayPort 1.4",
+   "USB (s)": "1 x USB 3.2 Gen1 Type-C (Rear)\n5 x USB 3.2 Gen1 Type-A (3 Rear, 2 Front)\n6 x USB 2.0 (2 Rear, 4 Front)",
+   "LAN Port (s)": "2.5 Gigabit LAN 10/100/1000/2500 Mb/s\nDragon RTL8125BG\nSupports Phantom Gaming LAN Software\nSmart Auto Adjust Bandwidth Control\nVisual User Friendly UI\nVisual Network Usage Statistics\nOptimized Default Setting for Game, Browser, and Streaming Modes\nUser Customized Priority Control",
+   "Supported Storage": "CPU:\n1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode\nChipset:\n1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode*\n1 x Hyper M.2 Socket (M2_3, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n4 x SATA3 6.0 Gb/s Connectors\n*Supports Intel® Volume Management Device (VMD)\nSupports NVMe SSD as boot disks",
+   "RAID": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices",
+   "Internal I/O Ports": "- 1 x SPI TPM Header\n- 1 x Chassis Intrusion and Speaker Header\n- 1 x CPU Fan Connector (4-pin)*\n- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)**\n- 4 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)***\n- 1 x 24 pin ATX Power Connector\n- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)\n- 1 x Front Panel Audio Connector\n- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)\n- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n- 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n- 2 x Antenna Mounting Points\n- 1 x PS/2 Mouse/Keyboard Port\n- 1 x HDMI Port\n- 1 x DisplayPort 1.4\n- 1 x USB 3.2 Gen1 Type-C Port\n- 3 x USB 3.2 Gen1 Type-A Ports\n- 2 x USB 2.0 Ports\n- 1 x RJ-45 LAN Port\n- HD Audio Jacks: Line in / Front Speaker / Microphone",
+   "TPM (Trusted Platform Module )": "- 1 x SPI TPM Header"
+  },
+  "Others": {
+   "Special Features": "Superb Productivity\n- PCIe Gen5 (Graphics)\n- Dual Channel DDR5\nRock-Solid Durability\n- 7+1+1 Power Phase, 50A Dr.MOS for VCore+GT\nUltrafast Connectivity\n- 2.5G LAN EZ Update\n- ASRock Auto Driver Installer",
+   "Bundled Software": "Software\n- ASRock Motherboard Utility (Phantom Gaming Tuning)\n- ASRock Phantom Gaming LAN Software*\nUEFI\n- ASRock EZ Mode\n- ASRock Full HD UEFI\n- ASRock My Favorites in UEFI\n- ASRock Auto Driver Installer\n- ASRock Instant Flash\n- ASRock Easy RAID Installer"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th, 13th & 12th Gen Intel Core Processors (LGA1700)",
+  "Supported RAM: 4x DDR5, Max 256GB 7200+(OC)",
+  "Graphics Output: 1x HDMI, 1x DisplayPort",
+  "Features: 2.5 Gigabit LAN, 7.1 CH HD Audio"
+ ],
+ "price": 1399916300,
+ "regular": 17690,
+ "status": "In Stock",
+ "code": "38738",
+ "brand": "ASRock",
+ "model": "B760M PG Lightning",
+ "warranty": "3 years",
+ "name": "ASRock B760M PG Lightning DDR5 14th, 13th and 12th Gen Micro ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASRock (Intel)",
+  "ASRock B760M PG Lightning DDR5 14th, 13th and 12th Gen Micro ATX Motherboard"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asrock-b760m-pg-lightning-ddr5-micro-atx-motherboard",
+ "store": "startech"
+}

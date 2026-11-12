@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "128GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 3x4",
+   "Sequential R/W": "Performance Read(max.): up to 1800MB/s\nPerformance Write(max.): up to 600MB/s",
+   "MTBF": "2,000,000 hours",
+   "TBW": "37TB"
+  },
+  "Physical Specification": {
+   "Dimension": "22.0mm x 80.0mm x 3.5mm",
+   "Weight": "8g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C - 70°C",
+   "Shock resistance": "1500G/0.5ms"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB",
+  "Interface: PCIe Gen3 x4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 1800MB/s / 600MB/s"
+ ],
+ "price": 4800,
+ "regular": 5280,
+ "status": "In Stock",
+ "code": "53714",
+ "brand": "Silicon Power",
+ "mpn": "SP128GBP34A60M28",
+ "model": "P34A60",
+ "warranty": "05 years warranty",
+ "name": "Silicon Power P34A60 128GB M.2 PCIe Gen3 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Silicon Power",
+  "Silicon Power P34A60 128GB M.2 PCIe Gen3 NVMe SSD"
+ ],
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.startech.com.bd/silicon-power-p34a60-128gb-gen3-ssd",
+ "store": "startech"
+}

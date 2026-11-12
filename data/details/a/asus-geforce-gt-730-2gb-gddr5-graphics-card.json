@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "2GB",
+   "Resolution": "Digital Max Resolution: 3840 x 2160",
+   "Core Clock": "902 MHz",
+   "Memory Clock": "5010 MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-bit",
+   "CUDA Cores": "384"
+  },
+  "Interface": {
+   "HDMI": "1 x (Native HDMI 1.4a)",
+   "D-Sub": "1 x (D-Sub)",
+   "DVI": "Yes x 1 (Native) (DVI-D)",
+   "HDCP": "HDCP Support (2.2)"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300W"
+  },
+  "Display Option": {
+   "Multi Display": "Up to 3"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "165 x 69 x 39 mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Breakthrough Graphics Performance",
+  "Auto-Extreme Technology",
+  "GPU Tweak II",
+  "Fan less Silent Cooling head Sinks"
+ ],
+ "price": 11600,
+ "regular": 12480,
+ "status": "In Stock",
+ "code": "20631",
+ "brand": "Asus",
+ "mpn": "GT730-SL-2GD5-BRK",
+ "model": "Asus Geforce Gt 730",
+ "warranty": "2 Years",
+ "name": "Asus Geforce Gt 730 2GB GDDR5 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "Asus Geforce Gt 730 2GB GDDR5 Graphics Card"
+ ],
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.startech.com.bd/asus-geforce-gt-730-2gb-gddr5-graphics-card",
+ "store": "startech"
+}

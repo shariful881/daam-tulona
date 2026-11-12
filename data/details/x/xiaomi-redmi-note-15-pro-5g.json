@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n8 GB\n12 GB\n8 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nCN\nCN",
+   "Connectivity": "Choose an option\n5G\n5G\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB",
+   "Region": "CN\n,\nIND\n,\nINT",
+   "Connectivity": "4G, 5G",
+   "Model": "Redmi Note 15 Pro",
+   "OS": "Android 15, HyperOS 2",
+   "Rear Camera": "Dual\n50 MP, f/1.5, (wide), 1/1.95\", 1.6µm, multi-directional PDAF, OIS\n8 MP, 112˚ (ultrawide)\nFeatures: LED flash, HDR, panorama\nVideo: 4K@24/30fps, 1080p@30/60/120fps, gyro-EIS, OIS",
+   "System Storage": "256GB,128GB",
+   "RAM(GB)": "12GB and 8GB",
+   "SIM Card": "Nano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)",
+   "Processor": "Mediatek Dimensity 7400 Ultra (4 nm)",
+   "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+   "GPU": "Mali-G615 MC2",
+   "Battery": "Type: Li-Ion 7000 mAh\nCharging\n45W wired\n22.5W reverse wired",
+   "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "163.6 x 78.1 x 7.8 mm (6.44 x 3.07 x 0.31 in)",
+   "Weight": "211 g (7.44 oz)"
+  },
+  "Display": {
+   "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, HDR10+, Dolby Vision, 3200 nits (peak)",
+   "Size": "6.83 inches, 111.0 cm2 (~86.8% screen-to-body ratio)",
+   "Resolution": "1220 x 2772 pixels (~443 ppi density)",
+   "Protection": "Xiaomi Dragon Crystal Glass"
+  },
+  "Front Camera": {
+   "Single": "20 MP, (wide)",
+   "Features": "HDR, panorama",
+   "Video": "1080p@30/60fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE, LHDC",
+   "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "Unspecified",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Note 15 Pro",
+  "Display: 6.83-inches, AMOLED",
+  "Resolution: 1220 x 2772 pixels",
+  "CPU: Mediatek Dimensity 7400 Ultra (4 nm)",
+  "Front Camera: 20MP",
+  "Rear camera: 50MP+8MP",
+  "Battery: Li-Ion 7000 mAh"
+ ],
+ "model": "Redmi Note 15 Pro",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-15-pro/",
+ "store": "diamu"
+}

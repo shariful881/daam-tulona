@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n12 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB",
+   "Internal Storage": "256GB\n,\n512GB",
+   "Model": "17 Pro",
+   "OS": "Android 16, HyperOS 3",
+   "System Storage": "512GB, 512GB , 1TB",
+   "RAM(GB)": "12GB, 16GB",
+   "SIM Card": "Nano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 6m for 30 min)",
+   "Processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+   "CPU": "Octa-core (1x2.7 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+   "GPU": "Adreno 840",
+   "Battery": "Type: Si/C Li-Ion 6300 mAh\nCharging\n100W wired, PD3.0, QC3+, 100W PPS\n50W wireless\n22.5W reverse wireless",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass, barometer"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "151.1 x 71.8 x 8 mm (5.95 x 2.83 x 0.31 in)",
+   "Weight": "192 g (6.77 oz)"
+  },
+  "Front Camera": {
+   "Single": "50 MP, f/2.2, 21mm (wide), PDAF",
+   "Features": "HDR, panorama",
+   "Video": "4K@30/60fps, 1080p@30/60fps, HDR10+, gyro-EIS"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5",
+   "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, Display Port, OTG"
+  }
+ },
+ "key_features": [
+  "Model: 17 Pro",
+  "Display: 6.3-inches, LTPO AMOLED",
+  "Resolution: 1220 x 2656 pixels",
+  "CPU: Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+  "Front Camera: 50MP",
+  "Rear camera: 50MP+50MP+50MP",
+  "Battery: Si/C Li-Ion 6300 mAh"
+ ],
+ "model": "17 Pro",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://diamu.com.bd/product/xiaomi-17-pro/",
+ "store": "diamu"
+}

@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core Ultra Processors (Series 2)",
+   "Chipset": "Intel H810",
+   "BIOS": "Flash BIOS Button",
+   "Form Factor": "Micro-ATX",
+   "Audio": "Realtek ALC897 Code"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCIe x16 slot supports up to PCIe 5.0 x16, 2 x PCIe x1 slots support up to PCIe 4.0 x1",
+   "M.2 Socket": "1x M.2"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x UDIMM",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\n1 x DP"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1 x DP",
+   "USB (s)": "4 x USB 2.0 Type-A,\n2 x USB 5Gbps Type-A",
+   "LAN Port (s)": "Realtek RTL8125D 2.5G LAN",
+   "Supported Storage": "1 x M.2 slot (Key M) type s 2260/2280 Supports up to PCIe 4.0 x4\nSATA Inteface 6.0Gb/s",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)"
+  },
+  "Others": {
+   "Special Features": "LED FEATURE: 4x EZ Debug LED"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Intel Core Ultra Processors (Series 2), LGA1851 socket",
+  "Supported RAM: 2x DDR5, up to 128GB, 9066 (O.C)",
+  "Graphics Output: 1x HDMI, 1 x DP",
+  "Features: Realtek RTL8125D LAN"
+ ],
+ "price": 1670017000,
+ "regular": 18230,
+ "status": "In Stock",
+ "code": "42815",
+ "brand": "MSI",
+ "model": "H810M-B",
+ "warranty": "3 Years Warranty",
+ "name": "MSI PRO H810M-B DDR5 LGA1851 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (Intel)",
+  "MSI PRO H810M-B DDR5 LGA1851 mATX Motherboard"
+ ],
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://www.startech.com.bd/msi-pro-h810m-b-motherboard",
+ "store": "startech"
+}

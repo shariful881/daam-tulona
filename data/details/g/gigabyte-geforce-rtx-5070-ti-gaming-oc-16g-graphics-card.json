@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320 (Digital Max)",
+   "Memory Clock": "7680 x 4320 (Digital Max)",
+   "BUS Type": "PCI-E 5.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "TBD",
+   "Chipset": "GeForce RTX™ 5070 Ti"
+  },
+  "Power Specifications": {
+   "Connectors": "16 pin x 1",
+   "Recommended PSU": "750W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Others": {
+   "Special Features": "Versatile VGA holder included.\nAccessories include a VGA manual, warranty notice, and a 12V-2x6 to 3x PCIe 8-pin adapter.\nCompatible with high resolutions for gaming and professional graphics.\nCard Size: L=340mm, W=140mm, H=70mmPCB Form: ATX"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 API",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI 2.1b x 1",
+   "Display Port": "DisplayPort 2.1a x 3"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5070 Ti GAMING OC 16G"
+  }
+ },
+ "key_features": [
+  "Chipset: GeForce RTX 5070 Ti",
+  "Memory Type: GDDR7",
+  "Power Connectors: 16-pin x 1",
+  "Ports: DisplayPort 2.1a x 3, HDMI 2.1b x 1"
+ ],
+ "model": "GeForce RTX 5070 Ti GAMING OC 16G",
+ "fetched": "2026-11-12T17:54+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtx-5070-ti-gaming-oc-16g-graphics-card",
+ "store": "creatus"
+}

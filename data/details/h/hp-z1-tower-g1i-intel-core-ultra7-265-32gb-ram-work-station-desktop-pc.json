@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "HP Z1 Tower G1i Desktop PC",
+   "Country of Origin": "USA",
+   "Processor Speed": "Intel® Core™ Ultra 7 265 (2.4 GHz base frequency up to 5.2 GHz Max Turbo frequency, 30 MB L3 cache, 20 cores, 20 threads) vPro Enable",
+   "Cache Memory": "30MB Cache",
+   "Chipset": "Intel® Q870",
+   "Memory": "32GB(1×32) DDR5 up gradable to 128GB DDR5-5600 & 4DIMM",
+   "SSD": "1TB M.2 NVME SSD & 2TB HDD 7200RPM",
+   "Graphics": "NVIDIA GeForce RTX 5060 8GB DDR7 Graphics",
+   "NIC": "Integrated 10/100/1000 GbE\nIntel® Wi-Fi 7 BE200 (2×2) and Bluetooth® 5.4 wireless card",
+   "Audio": "Realtek ALC3252 codec, universal audio jack with CTIA and OMTP headset support",
+   "Expansion Slots": "1 M.2 2230; 2 PCIe 3 x1; 1 PCIe 5 x16; 1 PCIe 4 x16; 3 M.2 2280 (1 M.2 2230 slot for WLAN and 3 M.2 2280 slots for storage)",
+   "Keyboard": "HP USB premium Keyboard",
+   "Mouse": "HP USB Optical primum Mouse",
+   "From Factor": "500 W 92%efficiency, active PFC",
+   "Operating System": "Free DOS",
+   "Warranty": "03 Years warranty"
+  },
+  "Port": {
+   "Front": "2 USB Type-C® 20Gbps signaling rate; 4 USB Type-A 10Gbps signaling rate; 1 headphone/microphone combo;",
+   "Rear": "2 USB Type-A 5Gbps signaling rate; 1 HDMI 2.1; 1 RJ-45; 1 audio line-in/line-out; 3 USB 2.0 Type-A; 2 DisplayPort™ 2.1"
+  },
+  "Number of Bay": {
+   "External": "One slim ODD",
+   "Internal": "Two 3.5″ HDD"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra7 265",
+  "Memory: 32GB DDR5, 1TB SSD+2TB HDD",
+  "Graphics: NVIDIA RTX 5060 8GB Graphics",
+  "Features: Wi-Fi, BT, Internal speaker, Type-A, C"
+ ],
+ "model": "HP Z1 Tower G1i Desktop PC",
+ "warranty": "03 Years warranty",
+ "fetched": "2026-11-12T18:19+06:00",
+ "source": "https://smartbd.com/product/hp-z1-tower-g1i-intel-core-ultra7-265-32gb-ram-work-station-desktop-pc/",
+ "store": "smartbd"
+}

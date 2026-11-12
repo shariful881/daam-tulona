@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Type": "LED Display"
+  },
+  "Key Features": {
+   "Load Capacity": "390W"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "5-40 Minutes",
+   "Frequency (Battery Mode)": "50/60Hz +/-5%",
+   "Input Voltage Range": "145-280V",
+   "Output Voltage Range": "220/230 VAC +/-10%",
+   "Transfer Time": "2-6 ms Typical",
+   "Type of Wave": "Modified-Sinewave"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Output Voltage (V): 220/230 VAC +/-10%",
+  "Frequency (Hz - kHz): 50/60Hz +/-5%",
+  "Input Voltage (V): 145-280V",
+  "Load Capacity: 720W"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:27+06:00",
+ "source": "https://www.pchouse.com.bd/power-guard-650va-cs-offline-ups-plastic-body-1",
+ "store": "pchouse"
+}

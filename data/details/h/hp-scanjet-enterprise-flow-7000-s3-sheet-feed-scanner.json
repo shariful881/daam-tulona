@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Sheetfed & Flatbed Scanner",
+   "Memory": "512MB",
+   "Resolution": "600 x 600dpi"
+  },
+  "General Information": {
+   "Dimensions": "342 x310 x 319mm"
+  },
+  "Specification": {
+   "Duty Cycle (Daily)": "7500 Pages",
+   "Max. Scan Paper Size ADF": "216 x 3100mm",
+   "Paper Weight": "40 to 413 g/m",
+   "Scan Drivers Included": "HP WIA scan driver, HP TWAIN scan driver (32-bit and 64-bit), HP Scan Premium, HP Scanner Tools Utility, I.R.I.S. Readiris Pro, I.R.I.S. Cardiris, EMC ISIS driver, Kofax VRS Pro",
+   "Scan Size Max.": "A4",
+   "Scan Technology": "CMOS CIS (Contact Image Sensor)",
+   "Scanning Speed (B & W)": "75 ppm/150 ipm",
+   "Scanning Speed (Color)": "75 ppm/150 ipm",
+   "Sheet Capacity (ADF)": "80 Sheets"
+  },
+  "Connectivity": {
+   "USB Type-C": "Hi-Speed USB 2.0 and USB 3.0"
+  },
+  "Physical Specification": {
+   "Color": "Black & White",
+   "Weight": "3.8 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year (Without Adapter) (Box Mandatory While Claiming)"
+  },
+  "Image": {
+   "Model": "Scanjet Enterprise Flow 7000 s3"
+  }
+ },
+ "key_features": [
+  "Scan Speed: 75 ppm / 150 pm",
+  "Optical Resolution: 600 dpi",
+  "Daily Duty Cycle: 7500 Pages",
+  "Connectivity: USB 2.0 and 3.0"
+ ],
+ "model": "Scanjet Enterprise Flow 7000 s3",
+ "warranty": "1 Year (Without Adapter) (Box Mandatory While Claiming)",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.creatus.com.bd/hp-scanjet-enterprise-flow-7000-s3-sheet-feed-scanner",
+ "store": "creatus"
+}

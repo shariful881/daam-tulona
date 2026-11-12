@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "BSMI, CAN ICES-3(B)/NMB-3(B), CE, FCC, KCC, Morocco, RCM, TUV, UL, VCCI",
+   "TBW": "300"
+  },
+  "Sequential R/W": {
+   "Sequential Read Performance": "4000MB/s",
+   "Sequential Write Performance": "3600MB/s"
+  },
+  "Basic Information": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280"
+  },
+  "Main Features": {
+   "Operating Temperature": "0°C to 85°C"
+  },
+  "Physical Specification": {
+   "Weight": "5.5gms",
+   "Dimensions": "80mm x 22mm x 2.38mm",
+   "Interface": "PCIe Gen4 x4"
+  },
+  "Warranty Information": {
+   "Warranty": "5-Year Limited Warranty"
+  },
+  "Image": {
+   "Model": "SN580"
+  }
+ },
+ "key_features": [
+  "Capacity: 500GB",
+  "Form Factor: M.2 2280",
+  "Interface: PCIe Gen4 x4",
+  "Sequential Read/Write:4000MB/s / 3600MB/s"
+ ],
+ "model": "SN580",
+ "warranty": "5-Year Limited Warranty",
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.creatus.com.bd/wd-blue-sn580-nvme-500gb-ssd",
+ "store": "creatus"
+}

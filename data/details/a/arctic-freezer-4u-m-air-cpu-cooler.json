@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "400 - 2300 rpm PWM Controlled",
+   "Noise": "40 dBA",
+   "Connector": "4-Pin Connector",
+   "Material": "Fin Material:\tAluminum"
+  },
+  "Physical Specification": {
+   "Dimension": "124 mm (L) x 156 mm (W) x 145 (H) mm",
+   "Weight": "1275 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA4189, LGA4677",
+   "AMD": "SP6, SP3, sTR5, TR4, sTRX4, SWRX8"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 400—2300 RPM",
+  "Fan Size: 120 mm PWM Fans x2",
+  "Connector: 4-Pin Plug",
+  "Fan Bearing: Double Ball Bearing"
+ ],
+ "price": 83009000,
+ "regular": 9130,
+ "status": "In Stock",
+ "code": "34702",
+ "brand": "ARCTIC",
+ "model": "Freezer 4U-M",
+ "warranty": "6 years",
+ "name": "Arctic Freezer 4U-M Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Freezer 4U-M Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:51+06:00",
+ "source": "https://www.startech.com.bd/arctic-freezer-4u-m-air-cpu-cooler",
+ "store": "startech"
+}

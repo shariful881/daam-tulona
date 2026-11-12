@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR4"
+  },
+  "Key Feature": {
+   "Frequency": "2133Mhz"
+  },
+  "Key Features": {
+   "Capacity": "8GB",
+   "Latency": "15-15-15-36"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.20V"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB 2133MHz DDR4",
+  "CAS Latency: 15-15-15-36",
+  "Form Factor: SO-DIMM",
+  "DRAM Voltage: 1.20V"
+ ],
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/g.skill-ripjaws-8gb-ddr4-2133mhz-so-dimm-laptop-ram",
+ "store": "pchouse"
+}

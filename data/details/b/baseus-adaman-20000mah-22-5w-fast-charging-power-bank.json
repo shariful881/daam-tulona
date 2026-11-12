@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Battery/ Battery Capacity": {
+   "Battery capacity": "20000mAh/3.7V 74Wh",
+   "Rated capacity": "12000mAh"
+  },
+  "Basic Information": {
+   "Interface": "USB, Type-C"
+  },
+  "Output Interface": {
+   "USB1": "4.5V 5A,5V 4.5A,5V 3A,9V 2A,12V 1.5A Max.",
+   "USB2": "4.5V 5A,5V 4.5A,5V 3A,9V 2A,12V 1.5A Max.",
+   "Type-C": "5V 3A,9V 2A,12V 1.5A Max.",
+   "USB1+USB2": "5V 3A Max.",
+   "USB1+Type-C": "5V 3A Max.",
+   "USB2+Type-C": "5V 3A Max."
+  },
+  "Input Voltage": {
+   "iP": "5V 2A,9V 2A Max.",
+   "Micro": "5V 2A,9V 2A Max.",
+   "Type-C": "5V/3A 5.5V/3A（SCP） 9V/2A Max."
+  },
+  "Physical Specification": {
+   "Color": "Balck"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3-Month Warranty (Must Claim With Box & All Accessories)"
+  }
+ },
+ "key_features": [],
+ "warranty": "3-Month Warranty (Must Claim With Box & All Accessories)",
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://fourstarit.com.bd/p/baseus-ppadm20s-adaman-20000mah-power-bank",
+ "store": "fourstar"
+}

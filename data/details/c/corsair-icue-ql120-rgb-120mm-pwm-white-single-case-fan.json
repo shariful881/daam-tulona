@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "1500 RPM +/- 10%",
+   "Air Flow": "41.8 CFM",
+   "Air Pressure": "1.55mm-H2O",
+   "Noise (dBA)": "26",
+   "Bearing Type": "Hydraulic",
+   "LED Type": "RGB",
+   "Operating Voltage/Power Range": "6V - 13.2V"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Size": "120mm x 25mm",
+   "Connector": "PWM"
+  },
+  "Others": {
+   "Others": "Flow Type: STATIC PRESSURE"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Speed: 1500 RPM +/- 10%",
+  "Air Flow Type: STATIC PRESSURE",
+  "Bearing Type: Hydraulic",
+  "Low-Noise Design"
+ ],
+ "price": 28003100,
+ "regular": 4050,
+ "status": "In Stock",
+ "code": "28701",
+ "brand": "Corsair",
+ "mpn": "CO-9050103-WW",
+ "model": "iCUE QL120 RGB",
+ "warranty": "2 years",
+ "name": "Corsair iCUE QL120 RGB 120mm PWM White Single Case Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Corsair",
+  "Corsair iCUE QL120 RGB 120mm PWM White Single Case Fan"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/corsair-icue-ql120-rgb-120mm-pwm-white-single-case-fan",
+ "store": "startech"
+}

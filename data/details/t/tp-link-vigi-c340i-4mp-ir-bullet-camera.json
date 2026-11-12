@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Camera Feature": {
+   "Image Sensor": "1/3” Progressive Scan CMOS",
+   "IR Distance": "30m"
+  },
+  "Lens": {
+   "Type": "Fixed Focal Lens",
+   "Focal Length": "2.8mm",
+   "Aperture": "F2.2",
+   "Angle of View": "Horizontal FOV: 88.8°, Vertical FOV: 48.9°, Diagonal FOV: 106.5°"
+  },
+  "Physical Specification": {
+   "Dimension": "73× 174 × 71 mm",
+   "Weight": "0.2 Kg",
+   "Power": "12V DC ± 5%, 5.5mm Coaxial Power Plug\nPoE (802.3af/at, class 0)",
+   "Interface": "1 RJ45 10/100M Self-Adaptive Ethernet Port"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/3” Progressive Scan CMOS",
+  "Resolution: Max. 4MP (2560 × 1440) at 25/30 fps.",
+  "Lens: 2.8mm, Aperture: F2.2, IR Distance: 30 meters",
+  "Features: PoE, IP67, DWDR, 3D DNR, Smart Detection"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:26+06:00",
+ "source": "https://fourstarit.com.bd/p/tp-link-vigi-c340i-4mp-ir-bullet-camera-bd",
+ "store": "fourstar"
+}

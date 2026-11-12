@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Memory Type": "DDR4",
+   "Latency": "CL16-20-20",
+   "Single/Dual sticks": "Single sticks"
+  },
+  "Features": {
+   "Dimension": "133.35 x 34 x 6.5mm",
+   "Compatibility": "DDR4 2666 CL 19-19-19 at 1.2V"
+  },
+  "Output": {
+   "Voltage": "1.35V - 1.4V"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz"
+  },
+  "Others": {
+   "Other Features": "Storage temperature: -20°C to 65°C"
+  }
+ },
+ "key_features": [
+  "Type : DDR4",
+  "Capacity : 8GB",
+  "Speed : 3200MHz, delivering decent speed suitable for gaming and general computing tasks.",
+  "Efficiency : Lower power consumption compared to older DDR3 modules, with faster data transfer rates."
+ ],
+ "fetched": "2026-11-12T18:29+06:00",
+ "source": "https://www.pchouse.com.bd/adata-xpg-gammix-d20-8gb-ddr4-3200mhz-desktop-ram",
+ "store": "pchouse"
+}

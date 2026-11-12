@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "500-2200 RPM ±10%",
+   "Fan Airflow": "74.31 CFM",
+   "Noise": "10-35 dBA",
+   "Air Pressure": "2.04 mmH2O",
+   "Connector": "4 Pin PWM / 3 Pin ARGB",
+   "LED Number": "N/A",
+   "Material": "Fin Material: Aluminum\nHeatpipe Material: Copper\nBearing: Hydraulic",
+   "Others": "6 Copper Heat Pipes with Direct Contact Technology\nHigh Cooling Performance Thick Base Plate\n2 Hydraulic Bearing NOTUS Fans\n149mm Clearance & Height Compatibility\nUniversal Mounting Kits, Support LGA 1851 / AM5"
+  },
+  "Physical Specification": {
+   "Dimension": "Fan Dimensions: 120 x 120 x 25 mm\nProduct Dimensions: 125 x 137 x 148 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851/1700/1151/1150/1155/1156/1200/2011",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "6 Copper Heat Pipes with Direct Contact Technology",
+  "High Airflow 120mm ARGB Fan & High Cooling Performance",
+  "Fan Speed: 500-2200 RPM ±10%, Fan Max Airflow: 74.31 CFM",
+  "Universal Mounting Kits, Support LGA 1851 / AM5"
+ ],
+ "price": 4490,
+ "regular": 4939,
+ "status": "In Stock",
+ "code": "45935",
+ "brand": "GAMDIAS",
+ "model": "BOREAS M1-620",
+ "warranty": "3 years",
+ "name": "Gamdias BOREAS M1-620 ARGB CPU Air Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Gamdias",
+  "Gamdias BOREAS M1-620 ARGB CPU Air Cooler"
+ ],
+ "fetched": "2026-11-12T18:00+06:00",
+ "source": "https://www.startech.com.bd/gamdias-boreas-m1-620-cpu-cooler",
+ "store": "startech"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR5"
+  },
+  "Key Feature": {
+   "Frequency": "6000MHz"
+  },
+  "Key Features": {
+   "Capacity": "16GB",
+   "Latency": "CL38-38-38-78"
+  },
+  "Features": {
+   "Dimension": "32.7(H) x 140(L) x 7.5(W)mm"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Aluminum heat-sink"
+  },
+  "Physical Specifications": {
+   "PIN": "288 Pin Non-ECC Unbuffered DIMM"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.25V"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Type- DDR5, Speed: 6000MHz",
+  "Operating Voltage: 1.25V",
+  "Latency: CL38-38-38-78"
+ ],
+ "warranty": "Product Lifetime",
+ "fetched": "2026-11-12T18:33+06:00",
+ "source": "https://www.pchouse.com.bd/team-t-force-vulcan-16gb-6000mhz-ddr5-cl38-desktop-ram",
+ "store": "pchouse"
+}

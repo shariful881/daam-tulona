@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "GDDR7",
+   "Resolution": "7680 x 4320"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI"
+  },
+  "Ports & Slots": {
+   "Display Port": "3 x DisplayPort"
+  },
+  "Video Memory Specifications": {
+   "Size": "16GB",
+   "Core Clock": "Base / Boost Clock: 2407/2602MHz",
+   "Memory Clock": "28.0Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "4608"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Connectivity": {
+   "Others": "2.5-Slot"
+  },
+  "Physical Specification": {
+   "Dimensions": "330*190*90mm"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Polar Fox GeForce RTX 5060 Ti OC"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, Memory Clock: 28 Gbps",
+  "Core Clock: Base: 2407 MHz; Boost: 2602 MHz",
+  "CUDA Cores: 4608, Memory Bandwidth: Up to 448 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "model": "Polar Fox GeForce RTX 5060 Ti OC",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.creatus.com.bd/manli-polar-fox-geforce-rtx-5060-ti-oc-16gb-gddr7-graphics-card",
+ "store": "creatus"
+}

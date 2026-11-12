@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "3kVA",
+   "Display Type": "Load leveel, battery\nlevel, input/output voltage and frequency, operating mode, and fault or\nwarning indicator",
+   "Load Capacity": "3/2.7 kVA/kW",
+   "Input Voltage": "110~300 Vac at 50%\nLoad,160~300 Vac at 100% Load",
+   "Output Voltage": "230Vac ±1%",
+   "Frequency (Battery\r\n  Mode)": "50 Hz ±0.1",
+   "Noise Level": "<50dBA",
+   "Battery": "Lead battery with\nanti-leak, VRLA type",
+   "Alarm": "Low battery, current\nlimitation, overrload, short-circuit, temperature and output over/low voltage"
+  },
+  "Input Features": {
+   "Frequency": "40~70 Hz",
+   "Power Factor": ">0.99",
+   "Voltage Range": "110~300 Vac at 50%\nLoad,160~300 Vac at 100% Load"
+  },
+  "Output Features": {
+   "Backup Time": "Up to many Hours\n(Depend on connected load)",
+   "Voltage Range": "110~300 Vac at 50%\nLoad,160~300 Vac at 100% Load",
+   "Power Factor": ">0.99",
+   "Type of Wave": "Pure sinewave",
+   "Transfer Time": "4hour = 90%"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T18:29+06:00",
+ "source": "https://www.pchouse.com.bd/zigor-zolga-ng-3-ups",
+ "store": "pchouse"
+}

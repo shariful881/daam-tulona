@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83HX00DLSK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ AI 5 330 (4C / 8T, 2.0 / 4.5GHz, 4MB L2 / 8MB L3)",
+   "AI PC Category": "Copilot+ PC",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 50 TOPS",
+   "Graphics": "Integrated AMD Radeon™ 820M Graphics",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "2x 8GB SODIMM DDR5-5600",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5600 offering",
+   "Storage": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Models with AMD Ryzen™ AI 5 330 processor: two M.2 slots\n• One M.2 2242 PCIe® 4.0 x4 slot\n• One M.2 2280 PCIe® 4.0 x2 slot",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 1TB",
+   "Optical": "None",
+   "Card Reader": "microSD Card Reader",
+   "Audio Chip": "High Definition (HD) Audio",
+   "Speakers": "Stereo speakers, 2W x2, optimized with Dolby Audio™",
+   "Microphone": "2x, Array",
+   "Camera": "FHD 1080p + IR with Privacy Shutter, ToF Sensor",
+   "Battery": "60Wh",
+   "Power Adapter": "65W USB-C® Slim (Wall-mount)"
+  },
+  "Design": {
+   "Display": "14″ WUXGA (1920×1200) IPS 300nits Anti-glare, 45% NTSC",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "90% AAR (active area ratio)",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "Backlit, English",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "313.4 x 222 x 16.9 mm (12.34 x 8.74 x 0.67 inches)",
+   "Weight": "Around 1.47 kg (3.24 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "Aluminium (Top), Aluminium (Bottom)",
+   "Surface Treatment": "Anodizing Sandblasting"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Trial"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 7, 802.11be 2×2 + BT5.4",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "No Onboard Ethernet",
+   "Standard Ports": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On, 2x USB-C® (USB 10Gbps), with USB PD 65-100W and DisplayPort™ 1.4, 1x HDMI® 2.1, up to 4K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x microSD card reader"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "Camera privacy shutter, IR camera for Windows® Hello (facial recognition)"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR® 9.0, EPEAT 1.0 Gold Registered, ErP Lot 6/26, RoHS compliant",
+   "Mil-Spec Test": "MIL-STD-810H military test passed (21 test items)",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Software Solution), TÜV Rheinland® Flicker Free"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen AI 5 330 (4C / 8T, 2.0 / 4.5GHz, 4MB L2 / 8MB L3)",
+  "RAM: 2x 8GB SODIMM DDR5-5600; Storage: 512GB SSD M.2 2242 PCIe 4.0×4 NVMe",
+  "Display: 14″ WUXGA (1920×1200) IPS 300nits Anti-glare",
+  "Features: Backlit Keyboard, MIL-STD-810H, Copilot+ PC"
+ ],
+ "model": "83HX00DLSK",
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-12T18:21+06:00",
+ "source": "https://smartbd.com/product/lenovo-ideapad-slim-5-14akp10-amd-ryzen-ai-5-330-14-inch-wuxga-ips-laptop/",
+ "store": "smartbd"
+}

@@ -1,0 +1,23 @@
+{
+ "specs": {
+  "Gaming Console": {
+   "Display": "Screen Size    No\nTouch Screen.   No\nVideo Output Formats   4K\nHigh Dynamic Range (HDR)   Yes",
+   "General": "Brand    Microsoft\nModel  Microsoft Xbox Series X\nItem Category   Xbox\nController Type    Wireless\nCompatible Platforms    Xbox",
+   "Included": "Number of Controllers Included  1",
+   "Network & Connectivity": "Input / Output   3 x USB3.1, HDMI\nDisplay Port.  HDMI\nHDMI   1\nHDMI Version   2.1\nNetworking   LAN, WiFi\nLAN   1\nWi-Fi   Yes\nWi-Fi Details   Wi-Fi 5 (802.11ac) Dual Band\nNumber of USB Ports    3\nUSB   3 x USB 3.2 Gen 1 Type-A",
+   "Physical Description": "Optical Drive   Ultra HD Blu-ray, Blu-ray, DVD, CD, Digital distribution\nPackage Contents   1x Wireless Controller\nColor   Black\nDimensions   151 x 151 x 301mm\nWeight (Kg)  4.4Kg",
+   "RAM & Storage": "RAM    16GB\nRAM Type   GDDR6\nStorage   1TB\nStorage Type   SSD\nExternal Storage   NVMe SSD Slot",
+   "Technical Info": "Processor Model    8X Cores @ 3.6 GHz (3.4 GHz w/SMT) Custom Zen 2 CPU\nGraphics    12 TFLOPS, 52 CUs @ 1.825 GHz Custom RDNA 2 GPU",
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [
+  "CPU: 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU",
+  "GPU: 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU",
+  "Memory: 16GB GDDR6, Storage: 1TB NVME SSD"
+ ],
+ "warranty": "No warranty",
+ "fetched": "2026-11-12T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/microsoft-xbox-series-x-1tb-black-gaming-console-with-1x-wireless-controller",
+ "store": "pchouse"
+}

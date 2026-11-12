@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR4",
+   "Capacity": "8GB"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz"
+  },
+  "Other Features": {
+   "OPERATING HUMIDITY": "5%-75% RH non-condensing",
+   "Operating Temperature": "0~ +70 Celsius"
+  },
+  "Power": {
+   "Voltage": "1.35V"
+  },
+  "Physical Specification": {
+   "Dimension": "L 133mm *W 30mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "DDR4"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Frequency: 3200MHz",
+  "Bandwidth: PC4-19200",
+  "Pins: 288pin"
+ ],
+ "model": "DDR4",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-8gb-3200mhz-ddr4-with-heatsink-ram",
+ "store": "creatus"
+}

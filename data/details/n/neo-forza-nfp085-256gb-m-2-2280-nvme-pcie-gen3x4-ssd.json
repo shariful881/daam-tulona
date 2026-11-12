@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen3 x4",
+   "Write Speed": "2000MB/s",
+   "Type": "Internal SSD",
+   "Read Speed": "3300MB/s"
+  },
+  "Storage": {
+   "Storage Capacity": "256GB"
+  },
+  "Power": {
+   "Power Consumption": "15W"
+  },
+  "Physical Specification": {
+   "Weight": "10 gm",
+   "Dimensions": "22 x 80 x 2.5mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  },
+  "Image": {
+   "Model": "NFP085"
+  }
+ },
+ "key_features": [
+  "Type: Internal SSD",
+  "Storage: 256GB",
+  "Form Factor (Inch): M.2 2280",
+  "Interface(s): NVMe PCIe Gen3 x4"
+ ],
+ "model": "NFP085",
+ "warranty": "5 Year",
+ "fetched": "2026-11-12T17:58+06:00",
+ "source": "https://www.creatus.com.bd/neo-forza-nfp085-256gb-ssd",
+ "store": "creatus"
+}

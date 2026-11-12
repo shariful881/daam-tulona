@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "1200 VA",
+   "Load Capacity": "720 W",
+   "Input Voltage": "145-290 VAC",
+   "Frequency (Battery Mode)": "60 Hz/50 Hz ±1 Hz"
+  },
+  "Battery": {
+   "Included battery": "12 V/7.5 Ah x 2",
+   "Standard battery": "Lead battery with anti-leak seal, VRLA type"
+  },
+  "Frequency": {
+   "Frequency": "60/50 Hz (auto-sensible)",
+   "range (battery mode)": "60 Hz/50 Hz ±1 Hz"
+  },
+  "Input Features": {
+   "Voltage Range": "Voltage range 145-290 VAC"
+  },
+  "Output Features": {
+   "Backup Time": "Up to 15 minutes depending on load",
+   "Voltage Range": "1200VA",
+   "Type of Wave": "Simulated senoidal",
+   "Transfer Time": "2-6 ms typica",
+   "Rated power": "220/230 VAC"
+  }
+ },
+ "key_features": [
+  "Capacity:1200 VA",
+  "Load Capacity: 720 W",
+  "Input Voltage: 145-290 VAC",
+  "Frequency: (Battery Mode)60 Hz/50 Hz ±1 Hz",
+  "Battery: Included battery: 12 V/7.5 Ah x 2"
+ ],
+ "fetched": "2026-11-12T18:42+06:00",
+ "source": "https://www.creatus.com.bd/zigor-deba-pro-1250-offline-ups",
+ "store": "creatus"
+}

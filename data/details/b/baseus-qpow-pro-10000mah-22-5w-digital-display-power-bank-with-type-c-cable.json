@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Battery/ Battery Capacity": "10,000mAh",
+   "Interface": "1x USB-A\n1x USB Type-C\nType-C Cable",
+   "Output Interface": "USB-C 5V/3A, 9V/2.22A, 12V/1.5A\nUSB-C cable/USB-A 4.5V/5A, 5V/4.5A, 5V/3A, 9V/2A, 12V/1.5A\nMax output power: 5V/3A",
+   "Button": "Yes"
+  },
+  "Input Voltage": {
+   "Lightning input": "5V/2A",
+   "USB-C input": "5V/2.4A, 9V/2.22A, 12V/1.5A"
+  },
+  "Physical Specification": {
+   "Color": "Black\nWhite",
+   "Dimensions": "117mm*70.6mm*25mm",
+   "Weight": "236 g",
+   "Material": "PC + ABS"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "3 Months"
+  }
+ },
+ "key_features": [
+  "Power Capacity: 10,000mAh Lithium polymer",
+  "Power Output: 22.5W, LED Display",
+  "Interface: 1x USB, 1x USB Type-C"
+ ],
+ "warranty": "3 Months",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://fourstarit.com.bd/p/baseus-qpow-pro-10000mah-22-5w-power-bank",
+ "store": "fourstar"
+}

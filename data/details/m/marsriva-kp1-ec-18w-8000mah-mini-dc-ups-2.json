@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8000mAh / 3.7V"
+  },
+  "General Information": {
+   "Dimensions": "173mm x 108mm x 31.8mm"
+  },
+  "Main Features": {
+   "Load Capacity": "18W max",
+   "Input Voltage": "100~240VAC / 50-60Hz"
+  },
+  "Output Voltage": {
+   "DC1": "12V/1.5A",
+   "DC2": "12V/1.5A",
+   "DC3": "9V/2.0A",
+   "DC4": "5V/2.1A",
+   "USB": "5V/2.1A"
+  },
+  "Physical Attribute": {
+   "Weight": "336g"
+  },
+  "Battery": {
+   "Rated Power": "18W (Max,)"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "1 year"
+  },
+  "Image": {
+   "Model": "KP1 EC"
+  }
+ },
+ "key_features": [
+  "Battery Capacity: 8000mAh / 3.7V",
+  "Total Output: 18W",
+  "Input: 100~240VAC / 50-60Hz"
+ ],
+ "model": "KP1 EC",
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.creatus.com.bd/marsriva-kp1-ec-18w-8000mah-mini-dc-ups",
+ "store": "creatus"
+}

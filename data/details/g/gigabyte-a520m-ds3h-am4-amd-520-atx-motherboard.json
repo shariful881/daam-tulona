@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Motherboard": {
+   "Supported CPU": "AMD Socket AM4, Support For: AMD Ryzen™ 5000 Series/ Ryzen™ 5000 G-Series/ Ryzen™ 4000 G-Series And Ryzen™ 3000 Series Processors",
+   "Chipset": "AMD A520",
+   "Slots": "CPU:\n1 X PCI Express X16 Slot, Supporting PCIe 3.0 And Running At X16\nChipset:\n2 X PCI Express X1 Slots, Supporting PCIe 3.0 (PCIEX1_1, PCIEX1_2)",
+   "Supported Storage": "1 X M.2 Connector (Socket 3, M Key, Type 2242/2260/2280 SATA And PCIe 3.0 X4/X2 SSD Support)\n4 X SATA 6Gb/S Connectors\nSupport For RAID 0, RAID 1, And RAID 10",
+   "Bluetooth": "BLUETOOTH 4.2",
+   "LAN": "Realtek GbE LAN Chip (1000 Mbit/100 Mbit)",
+   "Audio": "Realtek® Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-Channel",
+   "USB Port": "4 X USB 3.2 Gen 1 Ports On The Back Panel\n2 X USB 3.2 Gen 1 Ports Available Through The Internal USB Header\n4 X USB 2.0/1.1 Ports (2 Ports On The Back Panel, 2 Ports Available Through The Internal USB",
+   "External I/O Ports": "1 X PS/2 Keyboard/Mouse Port\n1 X DVI-D Port\n1 X DisplayPort\n1 X HDMI Port\n2 X SMA Antenna Connectors (1T1R)\n4 X USB 3.2 Gen 1 Ports\n2 X USB 2.0/1.1 Ports\n1 X RJ-45 Port\n3 X Audio Jacks",
+   "WiFi": "WIFI 802.11a/B/G/N/Ac, Supporting 2.4/5 GHz Dual-Band",
+   "DIMENSIONS": "24.4cm X 24.4cm",
+   "Form Factor": "Micro ATX Form Factor",
+   "BIOS": "1 X 128 Mbit Flash\nUse Of Licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "A520M DS3H"
+  }
+ },
+ "key_features": [],
+ "model": "A520M DS3H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:54+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-a520m-ds3h-durable-micro-atx-amd-am4-motherboard",
+ "store": "creatus"
+}

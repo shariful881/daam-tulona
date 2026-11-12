@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen5x4",
+   "Sequential R/W": "Sequential read speed up to 14,000MB/s1, sequential write speed up to 7,500MB/s, random read up to 1600K IOPs, random write up to 1000K IOPs",
+   "MTBF": "1,500,000 Hours"
+  },
+  "Physical Specification": {
+   "Dimension": "80 x 22 x 2.45 mm / 3.15”x0.87”x0.10”",
+   "Weight": "6g / 0.013lbs"
+  },
+  "Temperature": {
+   "Operating Temperature": "0° to 70°C (32°F to 158°F)",
+   "Storage Temperature": "-40° to 85°C (-40°F to 185°F)",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1Oct/min, 30min/axis (X, Y, Z)"
+  },
+  "Warranty": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "5 Years",
+ "fetched": "2026-11-12T18:39+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-nm990-1tb-ssd",
+ "store": "pchouse"
+}

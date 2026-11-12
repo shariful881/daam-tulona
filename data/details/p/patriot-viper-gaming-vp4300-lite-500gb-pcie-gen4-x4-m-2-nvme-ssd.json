@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen4 x4 NVMe 2.0",
+   "Flash Type": "3D TLC NAND Flash",
+   "MTBF": "1,500,000 Hours",
+   "Sequential R/W": "Up to 7000 MB/s (Read) / Up to 4000 MB/s (Write)",
+   "TBW": "400 TBW",
+   "IOPs (4K Random Write)": "Up to 700,000 IOPS",
+   "Humidity": "15% to 90% RH (Non-condensing)",
+   "Voltage": "3.3V ± 5%"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C",
+   "Shock resistance": "1500G / 0.5ms",
+   "Vibration Resistance": "80 Hz~2000 Hz / 20G"
+  },
+  "Warranty Information": {
+   "Warranty": "5-Year Warranty"
+  },
+  "Image": {
+   "Model": "VIPER Gaming VP4300"
+  }
+ },
+ "key_features": [],
+ "model": "VIPER Gaming VP4300",
+ "warranty": "5-Year Warranty",
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.creatus.com.bd/patriot-viper-gaming-vp4300-lite-500gb-m2-nvme-ssd",
+ "store": "creatus"
+}

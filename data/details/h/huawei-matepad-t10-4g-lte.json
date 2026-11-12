@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "General": {
+   "Model": "MatePad T10",
+   "Release date": "9th August 2020",
+   "Form factor": "Touchscreen",
+   "Dimensions (mm)": "159.00 x 240.20 x 7.85",
+   "Weight (g)": "450",
+   "Battery capacity (mAh)": "5100",
+   "Removable battery": "No",
+   "Colours": "Deepsea Blue"
+  },
+  "Display": {
+   "Screen size (inches)": "9.7",
+   "Touchscreen": "Yes",
+   "Resolution": "1280×800 pixels",
+   "Pixels per inch (PPI)": "156"
+  },
+  "Hardware": {
+   "Processor": "1.7GHz octa-core",
+   "Processor make": "Huawei HiSilicon Kirin 710A",
+   "RAM": "2GB",
+   "Internal storage": "16GB",
+   "Expandable storage": "Yes",
+   "Expandable storage type": "microSD",
+   "Expandable storage up to (GB)": "512"
+  },
+  "Camera": {
+   "Rear camera": "5-megapixel",
+   "Front camera": "2-megapixel"
+  },
+  "Software": {
+   "Operating system": "Android 10",
+   "Skin": "EMUI 10.1"
+  },
+  "Connectivity": {
+   "USB Type-C": "Yes",
+   "Wi-Fi": "Yes",
+   "Wi-Fi standards supported": "802.11 a/b/g/n/ac",
+   "GPS": "Yes",
+   "Bluetooth": "Yes",
+   "Bluetooth version": "5",
+   "USB OTG": "Yes"
+  },
+  "Sensors": {
+   "Accelerometer": "Yes"
+  }
+ },
+ "key_features": [],
+ "model": "MatePad T10",
+ "fetched": "2026-11-12T18:24+06:00",
+ "source": "https://smartbd.com/product/huawei-matepad-t10-4g-lte/",
+ "store": "smartbd"
+}

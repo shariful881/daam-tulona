@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "BUS Type": "PCI-Express 5.0 x8",
+   "Memory Interface": "128-bit",
+   "Others": "NVIDIA DLSS 4"
+  },
+  "Core Clock": {
+   "Clock Speed": "2407 MHz",
+   "Boost Speed": "2572 MHz"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "600 Watts",
+   "Consumption": "180 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "9.65\" x 4.72\" x1.57\"; 2 Slot"
+  },
+  "Warranty": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI-Express 5.0 x8",
+  "Graphics Clock: 2407 MHz, Boost Clock: 2572 MHz",
+  "Memory Clock: 28 Gbps, Memory Interface: 128-bit",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-12T18:46+06:00",
+ "source": "https://www.pchouse.com.bd/pny-geforce-rtx-5060-ti-16gb-dual-fan-graphics-card",
+ "store": "pchouse"
+}

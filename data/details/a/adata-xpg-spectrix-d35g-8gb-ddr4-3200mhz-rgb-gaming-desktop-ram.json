@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Anbernic": {
+   "RAM": "DDR4"
+  },
+  "Battery": {
+   "Voltage": "1.35V"
+  },
+  "Key Feature": {
+   "Lighting Effect": "XPG Prime, Asus Aura Sync,"
+  },
+  "Key Features": {
+   "Capacity": "8GB",
+   "Performance": "XMP 2.0",
+   "Module Type": "U-DIMM",
+   "Latency": "CL 16",
+   "Speed": "Unmentioned"
+  },
+  "Features": {
+   "Dimension": "133.35 x 36 x 6.6mm",
+   "Weight": "31.36 gm"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz"
+  },
+  "Power Specifications": {
+   "Power Consumption": "8W"
+  },
+  "Others": {
+   "Other Features": "Operating Temperature: 0 Degree C to 85 Degree C."
+  },
+  "Warranty Information": {
+   "Warranty": "Product life time"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Type- DDR4, Speed: 3200MHz",
+  "Form Factor: U-DIMM",
+  "CAS Latencies: 16, Operating voltage: 1.35V"
+ ],
+ "warranty": "Product life time",
+ "fetched": "2026-11-12T17:51+06:00",
+ "source": "https://www.pchouse.com.bd/adata-xpg-spectrix-d35g-8gb-ddr4-3200mhz-rgb-gaming-desktop-ram",
+ "store": "pchouse"
+}

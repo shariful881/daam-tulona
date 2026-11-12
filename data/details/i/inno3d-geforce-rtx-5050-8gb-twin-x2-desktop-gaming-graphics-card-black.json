@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "General Information": {
+   "BOOST CLOCK SPEED": "2572MHz",
+   "HDCP SUPPORT": "2.3",
+   "Memory Size": "8GB",
+   "Memory Type": "GDDR6",
+   "Power Connector (Pin)": "1x PCIe 8-pin cables"
+  },
+  "Video Memory Specifications": {
+   "Memory Clock": "20Gbps",
+   "CUDA Cores": "2560",
+   "Memory Interface": "GDDR6"
+  },
+  "External Features": {
+   "Fan Support": "Dual Fan"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "550W"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "225mm*116mm*41mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year's"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5050 8GB TWIN X2"
+  }
+ },
+ "key_features": [
+  "Memory Clock: 28Gbps, Cuda Cores: 3840",
+  "Boost Clock (MHz): 2527MHz, Base Clock (MHz): 2280MHz",
+  "Minimum System Power Requirement(W): 550W",
+  "Standard Display Connectors: 3x DisplayPort 2.1b, 1x HDMI 2.1b"
+ ],
+ "model": "GeForce RTX 5050 8GB TWIN X2",
+ "warranty": "3 Year's",
+ "fetched": "2026-11-12T19:04+06:00",
+ "source": "https://www.creatus.com.bd/inno3d-geforce-rtx-5050-8gb-twin-x2-desktop-gaming-graphics-card-black",
+ "store": "creatus"
+}

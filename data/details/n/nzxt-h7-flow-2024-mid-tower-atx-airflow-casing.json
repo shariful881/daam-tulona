@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "General": {
+   "Model": "H7 Flow 2024 Edition",
+   "Model Number": "CM-H72FW-01",
+   "Type": "Mid-Tower",
+   "Color": "White"
+  },
+  "Case Features": {
+   "Drive Bays": "2.5\": 2+2\n3.5\": 2"
+  },
+  "Expansion Slots": {
+   "Standard": "7",
+   "Vertical": "0"
+  },
+  "Fan Support": {
+   "Front": "3 x 120 mm / 3 x 140 mm (3 x F120Q included)",
+   "Top": "3 x 120 mm / 2 x 140 mm",
+   "Rear": "1 x 120 mm / 1 x 140 mm",
+   "Filters": "High-Performance Mesh"
+  },
+  "I/O Port": {
+   "USB 3.2 Gen 1 Type-A": "2",
+   "USB 3.2 Gen 2x2 Type-C (20 Gbps)": "1",
+   "Headset Audio Jack": "1"
+  },
+  "Radiator Support": {
+   "Front": "Up to 420 mm",
+   "Top": "Up to 360mm",
+   "Rear": "Up to 140mm"
+  },
+  "Fan": {
+   "Model": "F120Q Airflow Fan (Case Version)",
+   "Speed": "1,350 ± 150 RPM",
+   "Airflow": "60.2 CFM",
+   "Static": "1.05 mm - H2O",
+   "Noise": "24.1 dBA",
+   "Fan Connector": "3-pin"
+  },
+  "Compatibility": {
+   "CPU Cooler Height": "Up to 185 mm",
+   "GPU Length": "Up to 410 mm",
+   "PSU Length": "Up to 200 mm",
+   "Cable Management": "Up to 34.5 mm"
+  },
+  "Features": {
+   "Motherboard Support": "E-ATX (Up to 277mm), ATX, Micro-ATX, Mini-ITX",
+   "Enclosure Type": "Mid-Tower",
+   "Case Material": "SGCC Steel, Ultra-Clear Tempered Glass (White), Dark Tinted Tempered Glass (Black)"
+  },
+  "Dimensions": {
+   "Height (with feet)": "544 mm",
+   "Width": "244 mm",
+   "Depth": "468 mm",
+   "Weight": "11.13 kg"
+  }
+ },
+ "key_features": [],
+ "model": "H7 Flow 2024 Edition",
+ "fetched": "2026-11-12T18:44+06:00",
+ "source": "https://www.pchouse.com.bd/nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-casing",
+ "store": "pchouse"
+}

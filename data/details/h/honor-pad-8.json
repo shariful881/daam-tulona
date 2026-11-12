@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n6 GB\n6 GB",
+   "Internal Storage": "Choose an option\n128GB\n128GB\nClear"
+  },
+  "Specifications": {
+   "Model": "Honor Pad 8",
+   "OS": "Android 12, Magic UI 6.1",
+   "Network": "No cellular connectivity",
+   "Weight": "195g (6.88 oz)",
+   "Build": "Glass front, glass back, aluminum frame\nIP68 dust/water resistant (up to 1.5m for 30 min)",
+   "System Storage": "128GB",
+   "RAM(GB)": "6GB",
+   "SIM Card": "No",
+   "Processor": "Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+   "CPU Architecture": "Octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver)",
+   "GPU": "Adreno 610",
+   "Sensors": "Accelerometer",
+   "RAM": "6 GB",
+   "Internal Storage": "128GB"
+  },
+  "Display": {
+   "Type": "IPS LCD, 1B colors, 350 nits (typ)",
+   "Size": "12.0 inches, 409.9 cm2 (~84.5% screen-to-body ratio)",
+   "Resolution": "1200 x 2000 pixels, 5:3 ratio (~194 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "5 MP, f/2.2, 27mm (wide), 1/5″, 1.12µm",
+   "Video": "1080p@30fps"
+  },
+  "Rear Camera": {
+   "Single": "5 MP, f/2.2, 27mm (wide), 1/5″, 1.12µm, AF",
+   "Features": "LED flash",
+   "Video": "1080p@30fps"
+  },
+  "Battery": {
+   "Type": "Li-Po 7250mAh, non-removable",
+   "Charging": "22.5W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+   "Bluetooth": "5.1, A2DP, LE",
+   "Positioning": "No",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C, OTG"
+  }
+ },
+ "key_features": [
+  "Display: 12.0 inches, IPS LCD",
+  "CPU: Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+  "GPU: Adreno 610",
+  "Front Camera: 5MP",
+  "OS: Android 12, Magic UI 6.1",
+  "RAM & ROM: 6GB & 128GB",
+  "Rear camera: 5MP",
+  "Battery: Li-Po 7250mAh, non-removable"
+ ],
+ "model": "Honor Pad 8",
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://diamu.com.bd/product/honor-pad-8/",
+ "store": "diamu"
+}

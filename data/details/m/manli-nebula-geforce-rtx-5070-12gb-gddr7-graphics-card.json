@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Base / Boost Clock: 2325/2512MHz",
+   "Memory Clock": "28.0Gbps",
+   "BUS Type": "192-bit",
+   "CUDA Cores": "6144",
+   "Others": "DLSS 4 delivers Multi Frame Generation and enhanced Ray Reconstruction\nOverall die-cast shroud and metal backplate to add rigidity\nAn-stop function at idle state to reduce noise and conserve energy\nMemory Bandwidth-Up to 672 GB/s\nHeatsink with Triple Cooler"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Consumption": "250W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "405 x 240 x 112mm",
+   "Others": "3-Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 12GB GDDR7, Memory Clock: 28 Gbps",
+  "Core Clock: Base: 2325 MHz; Boost: 2512 MHz",
+  "CUDA Cores: 6144, Memory Bandwidth: Up to 672 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "price": 123000125000,
+ "regular": 134540,
+ "status": "In Stock",
+ "code": "43619",
+ "brand": "Manli",
+ "mpn": "M-N507N/D712G-M3634",
+ "model": "Nebula GeForce RTX 5070",
+ "warranty": "3 Years (For warranty Full Box Required)",
+ "name": "Manli Nebula GeForce RTX 5070 12GB GDDR7 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Manli",
+  "Manli Nebula GeForce RTX 5070 12GB GDDR7 Graphics Card"
+ ],
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.startech.com.bd/manli-nebula-geforce-rtx-5070-graphics-card",
+ "store": "startech"
+}

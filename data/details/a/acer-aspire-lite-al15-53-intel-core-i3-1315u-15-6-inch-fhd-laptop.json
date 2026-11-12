@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel® Core i3 1315U Processor",
+   "Processor Model": "Intel® Core i3 1315U Processor",
+   "Frequency": "3.30 GHz up to 4.50 GHz",
+   "Generation": "13th Gen"
+  },
+  "Display": {
+   "Display Size (Inch)": "15.6″",
+   "Display Type": "15.6″ FHD IPS Ultra-slim Display",
+   "Display Resolution": "1920 x 1080"
+  },
+  "Memory": {
+   "RAM": "Dual-channel DDR4 support: 8GB of DDR4 system memory\nUpgradable to 32 GB using two soDIMM modules",
+   "SSD": "512 GB, PCIe Gen3 NVMe Support up to 1 TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel® UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD video, 1280 x 720 resolution",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "No",
+   "USB 3 Port": "1 x USB 3.2 Gen2 Type-A",
+   "HDMI Port": "1",
+   "USB3.2 Port": "1 x USB 2.0 Type-A",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "Yes",
+   "WiFi": "802.11a/b/g/n/ac+ax wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Battery": {
+   "Battery Type": "36 Whr 3-cell Li-ion battery pack",
+   "Battery Capacity": "AC in 100~240V, 50~60Hz, DC output 19V 2.37A, 45W Fast Charging"
+  },
+  "Others": {
+   "Color": "Steel Gray",
+   "Dimensions": "360.40(W) x 239.30(D) x 19.7(H)mm",
+   "Weight": "1.59 kg",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-1315U (3.30GHz up to 4.50GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB SSD",
+  "Display: 15.6″ FHD (1920×1080)",
+  "Features: Backlit Keyboard, Stereo Speaker, Type-C"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-lite-al15-53-intel-core-i3-1315u-15-6-inch-fhd-laptop/",
+ "store": "smartbd"
+}

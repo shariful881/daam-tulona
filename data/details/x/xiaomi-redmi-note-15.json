@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nCN\nINT\nOfficial-BD\nCN\nINT\nOfficial-BD",
+   "Connectivity": "Choose an option\n4G\n5G\n4G\n5G\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Region": "CN\n,\nINT\n,\nOfficial-BD",
+   "Connectivity": "4G, 5G",
+   "Model": "Redmi Note 15",
+   "OS": "Android 15, HyperOS 2",
+   "Rear Camera": "Dual\n50 MP, f/1.8, (wide), 1/2.88\", 0.61µm, PDAF\n2 MP, (depth)\nFeatures: LED flash, HDR, panorama\nVideo: 4K@30fps, 1080p@30fps, gyro-EIS, OIS, 10-bit HDR",
+   "System Storage": "256GB,128GB",
+   "RAM(GB)": "12GB and 8GB",
+   "SIM Card": "Nano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)",
+   "Processor": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+   "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+   "GPU": "Adreno 710",
+   "Battery": "Type: Li-Ion 5800 mAh\nCharging\n45W wired\n22.5W reverse wired",
+   "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer, thermometer (skin temperature)"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "165 x 75.4 x 7.4 mm (6.50 x 2.97 x 0.29 in)",
+   "Weight": "178 g (6.28 oz)"
+  },
+  "Display": {
+   "Type": "AMOLED, 68B colors, 120Hz, 3200 nits (peak)",
+   "Size": "6.77 inches, 110.9 cm2 (~89.1% screen-to-body ratio)",
+   "Resolution": "1080 x 2392 pixels (~388 ppi density)",
+   "Protection": "Xiaomi Dragon Crystal Glass"
+  },
+  "Front Camera": {
+   "Single": "8 MP, (wide)",
+   "Features": "HDR, panorama",
+   "Video": "1080p@30/60fps"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.1, A2DP, LE",
+   "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS (B1l+B1C)",
+   "NFC": "Yes",
+   "Infrared port": "Yes",
+   "Radio": "Unspecified",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Note 15",
+  "Display: 6.77-inches, AMOLED",
+  "Resolution: 1080 x 2392 pixels",
+  "CPU: Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+  "Front Camera: 8MP+2MP",
+  "Rear camera: 50MP",
+  "Battery: Li-Ion 5800 mAh"
+ ],
+ "model": "Redmi Note 15",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-15/",
+ "store": "diamu"
+}

@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Camera Feature": {
+   "Effective Pixels": "2MP",
+   "Image Sensor": "1/2.7” 2Megapixel progressive’s CMOS",
+   "IR Distance": "30m"
+  },
+  "Others": {
+   "RAM/ROM": "64MB/16MB",
+   "Scanning System": "Progressive",
+   "Electronic Shutter Speed": "Auto/Manual, 1/3~1/100000s"
+  },
+  "Lens": {
+   "Type": "Fixed",
+   "Focal Length": "3.6 mm",
+   "Aperture": "F2.0",
+   "Angle of View": "H:115°/87.5°, V:60°/47°"
+  },
+  "Physical Specification": {
+   "Dimension": "70mm×162.6mm(2.76”x6.49”)",
+   "Weight": "0.22 kg (0.49 lb)"
+  },
+  "Power": {
+   "Power Supply": "DC12V, PoE (802.3af)(Class 0)",
+   "Power Consumption": "<4.2W"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Lens: 3.6mm, F2.0",
+  "IR Distance: Up to 30 m (98 ft)",
+  "RAM: 64MB, ROM: 16 MB"
+ ],
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://fourstarit.com.bd/p/dahua-dh-ipc-hfw1230s1-a-2mp-30-meter-ir-bullet-network-camera",
+ "store": "fourstar"
+}

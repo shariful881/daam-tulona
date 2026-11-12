@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Audio and Video": {
+   "IP Camera Input": "16 Channel"
+  },
+  "Display": {
+   "Interface": "1 RJ45 10M/100M self-adaptive Ethernet Interface\nRear panel: 2 x USB2.0\nLive view display: 1/4/6/8/9/16\nMulti-Screen Display\nSynchronous Playback : 16-ch",
+   "Resolution": "VGA Output\n1920x1080/60Hz, 1920x1080/50Hz, 1600x1200/60Hz, 1280x1024/60Hz, 1280x720/60Hz, 1024x768/60Hz\nHDMI Output\n3840x2160/30Hz, 1920x1080/60Hz, 1920x1080/50Hz, 1600x1200/60Hz, 1280x1024/60Hz, 1280x720/60Hz, 1024x768/60Hz",
+   "Decoding Capacity": "Format: Ultra 265/H.265/H.264"
+  },
+  "Recording": {
+   "Record Mode": "Compression\nAudio Compression: G.711A, G.711U\nResolution\n4K/5MP/4MP/3MP/1080p/960p/720p/D1/2CIF/CIF"
+  },
+  "Video Detection And Alarm": {
+   "Video Detection": "Face detection, Intrusion detection, Cross line detection, Audio detection, Defocus detection, Scene change detection, Auto tracking, Object Left Behind, Object Removed, Face search, Behavior search, People counting"
+  },
+  "Playback And Backup": {
+   "Search Mode": "Sync Playback\n16 channel"
+  },
+  "Storage": {
+   "Internal HDD": "Internal HDD\n1 SATA interface\nHDD Mode\nUp to 8TB"
+  },
+  "Network": {
+   "Ethernet Port": "Interface\n1 RJ45\nEthernet Port\n10M/100M, self-adaptive ethernet interface"
+  },
+  "Auxiliary Interface": {
+   "USB": "Rear panel: 2 x USB2.0"
+  },
+  "Power": {
+   "Power Supply": "12V DC",
+   "Power Consumption": "Power Consumption: ≤5 W (without HDD)\nComponent Environment:\nOperational Conditions\n-10°C ~ + 55°C (+14°F ~ +131°F), Humidity ≤ 90% RH (non-condensing)"
+  },
+  "Construction": {
+   "Dimensions": "260mm × 240mm × 46mm (10.2\"×9.4\"×1.8 \")",
+   "Net Weight": "≤0.98kg (2.16 lb)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year Warranty"
+  }
+ },
+ "key_features": [
+  "Number of Channels:16 Channel",
+  "Outgoing Bandwidth: 48Mbps",
+  "Output Port: 1 x HDMI 1 x VGA",
+  "Storage: Up to 8TB for each disk"
+ ],
+ "warranty": "1 year Warranty",
+ "fetched": "2026-11-12T18:03+06:00",
+ "source": "https://fourstarit.com.bd/p/uniview-nvr301-16s3-16-channel-1-sata-nvr",
+ "store": "fourstar"
+}

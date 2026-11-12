@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Type": "DDR4",
+   "Latency": "CL 17-21-21"
+  },
+  "Memory": {
+   "Bus Speed": "3600MHz"
+  },
+  "Temperature": {
+   "Storage Temperature": "-55 Degree C to + 100 Degree C"
+  },
+  "Output": {
+   "Modular Type": "DIMM"
+  },
+  "Physical dimension": {
+   "Dimension": "133.35mm x 34.1mm x 7.2mm"
+  },
+  "Power": {
+   "Voltage": "1.35V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "FURY Beast 8GB"
+  }
+ },
+ "key_features": [
+  "Frequency: 3200MHz",
+  "CAS Latency: 16-18-18",
+  "Voltage: 1.35V; Form Factor: UDIMM",
+  "Operating Temperature : 0Â°C to 85Â°C"
+ ],
+ "model": "FURY Beast 8GB",
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-12T19:07+06:00",
+ "source": "https://www.creatus.com.bd/kingston-fury-beast-8gb-ddr4-3600mhz-black-desktop-ram",
+ "store": "creatus"
+}

@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "600-1650 rpm ± 10%",
+   "Fan Size": "130 x 120 x 25 mm",
+   "Noise": "≤26 dB(A) MAX",
+   "Air Pressure": "1.55mm/H2O",
+   "Connectors": "CPU FAN",
+   "Power Consumption": "12V DC, 0.14A, 1.6W"
+  },
+  "Compatible": {
+   "Intel": "1851.1700.115x.1200.2011.2066.1366",
+   "AMD": "AM5.AM4.AM3.AM2.AM3+.AM2+.FM2.FM1"
+  },
+  "Cooling System": {
+   "Fan Airflow": "68 CFM Max"
+  },
+  "Other Features": {
+   "Fan Bearing": "Hydraulic Bearing",
+   "Heat Pipe Quantity": "4 (230W) Material: Copper",
+   "MTTF": "40,000 hours",
+   "Coldplate Dimensions": "40 x 35 mm"
+  },
+  "Physical Specification": {
+   "Weight": "Package weight: 0.85 kg",
+   "Color": "Black",
+   "Dimensions": "Package Dimension\t162 x 110 x 200mm\n155 x 130 x 71mm"
+  },
+  "Materials": {
+   "Coldplate": "Aluminum + Copper",
+   "Heatsink": "Aluminum"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year Brand Warranty"
+  },
+  "Image": {
+   "Model": "UP1K4"
+  }
+ },
+ "key_features": [
+  "Fans: SF130K Black",
+  "Fan Speed: 600-1650 rpm ± 10%",
+  "Air Flow: 68 CFM Max"
+ ],
+ "model": "UP1K4",
+ "warranty": "2-Year Brand Warranty",
+ "fetched": "2026-11-12T18:08+06:00",
+ "source": "https://www.creatus.com.bd/uphere-up1k4-cpu-air-cooler-black",
+ "store": "creatus"
+}

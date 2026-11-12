@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5, support for:\nAMD Ryzen 9000 Series Processors/\nAMD Ryzen 8000 Series Processors/\nAMD Ryzen 7000 Series Processors",
+   "Chipset": "AMD X870",
+   "BIOS": "1 x 256 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "LAN Port (s)": "Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+   "RAID": "RAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+   "Audio": "Realtek ALC1220 CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\nSupport for S/PDIF Out"
+  },
+  "Others": {
+   "Special Features": "Support for GIGABYTE Control Center (GCC)\nSupport for Q-Flash\nSupport for Q-Flash Plus\nSupport Smart Backup",
+   "Bundled Software": "H/W Monitoring:\nSupport for GIGABYTE Control Center (GCC)\nSupport for Q-Flash\nSupport for Q-Flash Plus\nSupport for Smart Backup\nBundled Software:\nNorton Internet Security (OEM version)\niTE I/O Controller Chip"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/ 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, Max 256GB",
+  "Graphics Output: 2 x USB4 (Type-C), 1 x HDMI",
+  "Features: Realtek 2.5GbE LAN, Wi-Fi 7, Bluetooth 5.4"
+ ],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T18:38+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-x870m-aorus-elite-motherboard",
+ "store": "pchouse"
+}

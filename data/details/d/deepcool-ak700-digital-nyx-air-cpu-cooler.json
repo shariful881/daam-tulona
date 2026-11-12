@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air cooler",
+   "Fan Speed": "2700±10% RPM(max)x)",
+   "Fan Airflow": "77.23 CFM",
+   "Noise": "21.0/28.8/36.0 dB(A)",
+   "Air Pressure": "5.13 mmAq",
+   "Connector": "4-pin PWM"
+  },
+  "Physical Specification": {
+   "Dimension": "Product: 129×117×159 mm(L×W×H)\nHeatsink: 124×76×151 mm(L×W×H)\nHeatpipe: Ø6 mm×7 pcs\nFan: 120×120×25 mm(L×W×H)",
+   "Weight": "1252 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851/1700/1200/115X",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 year"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 2700±10% RPM(max)",
+  "Fan Airflow: 77.23 CFM, Air Pressure: 5.13 mmAq",
+  "Fan Noise: 21.0/28.8/36.0 dB(A)",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 7300,
+ "regular": 8030,
+ "status": "In Stock",
+ "code": "48213",
+ "brand": "Deepcool",
+ "mpn": "R-AK700-BKNNMN-GJD-1",
+ "model": "AK700 DIGITAL NYX",
+ "warranty": "03 year",
+ "name": "DeepCool AK700 DIGITAL NYX Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "DeepCool",
+  "DeepCool AK700 DIGITAL NYX Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T17:56+06:00",
+ "source": "https://www.startech.com.bd/deepcool-ak700-digital-nyx-cpu-cooler",
+ "store": "startech"
+}

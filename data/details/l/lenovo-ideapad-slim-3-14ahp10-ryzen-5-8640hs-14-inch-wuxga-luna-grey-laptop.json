@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83K9000SLK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 5 8640HS (6C / 12T, 3.5 / 4.9GHz, 6MB L2 / 16MB L3)",
+   "AI PC Category": "AI PC",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 16 TOPS",
+   "Graphics": "Integrated AMD Radeon™ 760M Graphics",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "8GB Soldered DDR5-5600 + 8GB SODIMM DDR5-5600",
+   "Memory Slots": "One memory soldered to systemboard, one DDR5 SODIMM slot, dual-channel capable",
+   "Max Memory": "Up to 24GB (8GB soldered + 16GB SODIMM) DDR5-5600 offering",
+   "Storage": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Two M.2 2242 PCIe® 4.0 x4 slots",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 1TB",
+   "Optical": "None",
+   "Card Reader": "SD Card Reader",
+   "Audio Chip": "High Definition (HD) Audio",
+   "Speakers": "Stereo speakers, 2W x2, optimized with Dolby Audio™",
+   "Microphone": "2x, Array",
+   "Camera": "FHD 1080p + IR with Privacy Shutter",
+   "Battery": "50Wh",
+   "Power Adapter": "65W Round Tip (3-pin)"
+  },
+  "Design": {
+   "Display": "14″ WUXGA (1920×1200) IPS 300nits Anti-glare, 45% NTSC",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "90.1% AAR (active area ratio)",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "Non-backlit, English (EU)",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "314.4 x 222.1 x 16.9-17.9 mm (12.38 x 8.74 x 0.67-0.70 inches)",
+   "Weight": "Starting at 1.39 kg (3.06 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "Aluminium (Top), PC-ABS (Bottom)",
+   "Surface Treatment": "Aluminium Stamping Anodized (Top), Texture (Bottom)"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Trial"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 6, 802.11ax 2×2 + BT5.3",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "No Onboard Ethernet",
+   "Standard Ports": "2x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 5Gbps / USB 3.2 Gen 1), with USB PD 45-65W and DisplayPort™ 1.2, 1x HDMI® 1.4, 1x Headphone / microphone combo jack (3.5mm), 1x SD card reader, 1x Round tip power connector"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "Camera privacy shutter, IR camera for Windows® Hello (facial recognition)"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR® 9.0, EPEAT™ Gold Registered, ErP Lot 6/26, RoHS compliant",
+   "Mil-Spec Test": "MIL-STD-810H military test passed (21 test items)",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Software Solution)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 8640HS (3.5GHz up to 4.9GHz, 6 cores)",
+  "Ram: 16GB DDR5, Storage: 512GB SSD",
+  "Display: 14″ WUXGA (1920×1200)",
+  "Features: Type-C, Dolby Audio"
+ ],
+ "model": "83K9000SLK",
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-12T18:21+06:00",
+ "source": "https://smartbd.com/product/lenovo-ideapad-slim-3-14ahp10-ryzen-5-8640hs-14-inch-wuxga-luna-grey-laptop/",
+ "store": "smartbd"
+}

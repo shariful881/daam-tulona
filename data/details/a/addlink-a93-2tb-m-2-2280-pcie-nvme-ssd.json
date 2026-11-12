@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Microsoft Windows 8\nMicrosoft Windows 10\nLinux Kernel 2.6.31 or later",
+   "Controller": "MAP1602A Falcon Lite"
+  },
+  "Key Features": {
+   "Capacity": "2TB",
+   "Endurance": "1500 TBW",
+   "Interface": "PCIe 4.0 x4",
+   "Features": "PS5 Compatible",
+   "NAND Flash": "Xtacking 3.0 (EET1A)"
+  },
+  "Main Features": {
+   "Read Speed": "7,400 MB/s",
+   "Write Speed": "6,500 MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity : 2TB",
+  "Interface: NVMe GEN4x4",
+  "R/W: 7,400MB/s & 6,500 MB/s",
+  "Form Factor: M.2 2280"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.pchouse.com.bd/addlink-a93-2tb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

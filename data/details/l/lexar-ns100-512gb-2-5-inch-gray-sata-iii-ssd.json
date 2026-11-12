@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "2.5”",
+   "Interface": "SATA III (6Gb/s)",
+   "Sequential R/W": "Read up to 550MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "69.85mm x 100.2mm x 7mm",
+   "Weight": "34g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C (32°F to 158°F)",
+   "Storage Temperature": "-40°C to 85°C (-40°F to 185°F)",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis(X,Y,Z)"
+  },
+  "Warranty": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-ns100-512gb-2.5-inch-gray-sata-iii-ssd",
+ "store": "pchouse"
+}

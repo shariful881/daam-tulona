@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nOfficial-BD\nOfficial-BD\nClear"
+  },
+  "Redmi 17 Series Compare": {
+   "Model": "Xiaomi Redmi Note 17",
+   "Network": "GSM / HSPA / LTE / 5G",
+   "Announced": "August 28, 2026",
+   "Dimensions": "169.7 × 79.1 × 8.5 mm",
+   "Weight": "225 g",
+   "Build": "Glass front, Gorilla Glass 7i, plastic back, plastic frame",
+   "SIM": "Nano-SIM + Nano-SIM",
+   "Type": "Si/C Li-Ion, 7700mAh",
+   "Size": "6.99 inches",
+   "Resolution": "1080 × 2396 pixels, ~375 ppi",
+   "Protection": "Corning Gorilla Glass 7i",
+   "Operating System": "Android 16, HyperOS 3",
+   "Chipset": "Snapdragon 4 Gen 4, 4 nm",
+   "CPU": "Octa-core, 2×2.3 GHz Cortex-A78 + 6×1.95 GHz Cortex-A55",
+   "GPU": "Adreno 613",
+   "Card Slot": "microSDXC, shared SIM slot",
+   "Internal Storage & RAM": "128GB/6GB, 256GB/6GB, 256GB/8GB",
+   "Storage Type": "UFS 2.2",
+   "Primary": "50MP, f/1.8, 26mm wide, 1/2.76″, 0.64µm, PDAF",
+   "Ultrawide": "No",
+   "Selfie Camera": "16MP, f/2.5, wide, 1/3.0″",
+   "Loudspeaker": "Yes",
+   "3.5mm Jack": "No",
+   "Audio": "24-bit/192kHz Hi-Res",
+   "Wi-Fi": "802.11 a/b/g/n/ac, dual-band",
+   "Bluetooth": "5.1, A2DP, LE",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "Yes, market/region dependent",
+   "USB": "USB Type-C 2.0, OTG",
+   "Sensors": "Under-display optical fingerprint, accelerometer, compass, virtual proximity sensing",
+   "Charging": "45W wired, PD3.0",
+   "Reverse Charging": "22.5W wired",
+   "Colors": "Celestial Purple, Sky Teal, Black"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Region": "Official-BD"
+  }
+ },
+ "key_features": [
+  "Model: Redmi Note 17",
+  "Display: 6.99-inches,AMOLED",
+  "Resolution: 1080 × 2396 pixels",
+  "CPU: Snapdragon 4 Gen 4, 4 nm",
+  "Front Camera: 16MP",
+  "Rear camera: 50MP",
+  "Battery: Si/C Li-Ion, 7700mAh"
+ ],
+ "model": "Xiaomi Redmi Note 17",
+ "fetched": "2026-11-12T18:19+06:00",
+ "source": "https://diamu.com.bd/product/redmi-note-17/",
+ "store": "diamu"
+}

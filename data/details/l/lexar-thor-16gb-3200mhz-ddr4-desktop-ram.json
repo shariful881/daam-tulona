@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Frequency": "3200 Mhz",
+   "Latency": "16-18-18-38"
+  },
+  "Display Details": {
+   "Dimensions": "138.4mm x 35.2 mm x 6.4 mm"
+  },
+  "General": {
+   "Type": "DDR4"
+  },
+  "Physical Specifications": {
+   "PIN": "288Pin"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.35V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime limited warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Memory Type: DDR4",
+  "Tested Latency: CL16",
+  "Tested Speed: 3200Mhz",
+  "Tested Voltage: 1.3V"
+ ],
+ "warranty": "Lifetime limited warranty",
+ "fetched": "2026-11-12T18:40+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-thor-16gb-3200mhz-ddr4-desktop-ram-price-in-bd",
+ "store": "pchouse"
+}

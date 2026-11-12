@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Printer": {
+   "Color Output": "Black & White",
+   "Paper Size": "A4, A5, B5, A6",
+   "Physical Specification": "Dimensions: 403 x 311.5 x 407.4mm",
+   "Print Resolution": "1200 x 1200dpi",
+   "SUPPORTED OS": "Windows 7, 8, 8.1, 10, XP, Vista, Apple OS X Sierra (v10.12), OS X El Capitan (v10.11), OS X Yosemite (v10.10)",
+   "Duplex Printing": "Automatic",
+   "Duty-Cycle": "30,000 Pages",
+   "First-Print-Out Time": "6.7sec",
+   "Paper Type": "Paper (laser, plain, photo, rough, vellum), envelopes, labels, cardstock, postcards",
+   "Print Speed": "30ppm",
+   "Print Technology": "Laser",
+   "Toner": "HP 30A Black Original LaserJet Toner Cartridge",
+   "Display": "2.7",
+   "Connectivity": "LAN: Yes",
+   "Scan": "Scan Type: Laser",
+   "Copy": "Copy Speed: 30cpm",
+   "Fax": "Modem speed: 3spp"
+  },
+  "Warranty Information": {
+   "Warranty": "01year warranty"
+  }
+ },
+ "key_features": [
+  "Print Speed: 28 ppm (Black)",
+  "Resolution:1200 x 1200 dpi",
+  "Connectivity: USB, LAN, WiFi, NFC"
+ ],
+ "warranty": "01year warranty",
+ "fetched": "2026-11-12T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/laserjet-pro-mfp-m227fdw-printer",
+ "store": "pchouse"
+}

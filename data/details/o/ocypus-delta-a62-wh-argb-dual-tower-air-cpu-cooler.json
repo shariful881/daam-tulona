@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "500~2000±10%RPM",
+   "Fan Airflow": "73CFM",
+   "Noise": "≤29dB(A)",
+   "Air Pressure": "4.3 mmH2O",
+   "Connector": "Fan Connector: 4-Pin PWM\nFan LED Connector: 3-Pin",
+   "LED Number": "ARGB",
+   "Others": "Heatpipe: Φ6mm*6\nBearing Type: Fluid Dynamic Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "127*136*156mm (L×W×H)",
+   "Weight": "1030g"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 115X/1200/1700/1851",
+   "AMD": "AMD: AM4/AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 500~2000±10%RPM",
+  "Heat Pipes: Φ6mm*6 Heatpipe",
+  "Customizable ARGB Lighting",
+  "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+ ],
+ "price": 47005300,
+ "regular": 5830,
+ "status": "In Stock",
+ "code": "46831",
+ "brand": "Ocypus",
+ "mpn": "Delta-A62-WH2NAWN00X-GL",
+ "model": "Delta A62 WH ARGB",
+ "warranty": "2 Years Warranty",
+ "name": "Ocypus Delta A62 WH ARGB Dual Tower Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Ocypus",
+  "Ocypus Delta A62 WH ARGB Dual Tower Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.startech.com.bd/ocypus-delta-a62-wh-argb-cpu-cooler",
+ "store": "startech"
+}

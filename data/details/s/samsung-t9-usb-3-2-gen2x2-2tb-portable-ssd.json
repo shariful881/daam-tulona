@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "UASP Mode: Supported"
+  },
+  "Key Features": {
+   "Capacity": "2TB",
+   "Compatibility": "Windows®, macOS®, Android™",
+   "Sequential Read": "Up to 2,000 MB/s",
+   "Interface": "USB 3.2 Gen 2x2 (20Gbps)",
+   "Sequential Write": "Up to 1,950 MB/s",
+   "Encryption": "AES 256-bit hardware encryption"
+  },
+  "Features": {
+   "Dimension": "3.5 x 2.4 x 0.6 inches (88 x 60 x 14mm)",
+   "Weight": "4.3oz (122grams)"
+  },
+  "General": {
+   "USB": "USB 3.1"
+  },
+  "Temperature": {
+   "Temperature": "Operating Temperature: 32°F to 140°F (0°C to 60°C)"
+  },
+  "Warranty Information": {
+   "Warranty": "Five (5) Year limited Warranty"
+  }
+ },
+ "key_features": [
+  "Sequential Read: Up to 2,000 MB/s",
+  "Interface: USB 3.2 Gen 2x2 (20Gbps)",
+  "Sequential Write: Up to 1,950 MB/s",
+  "Encryption: AES 256-bit hardware encryption"
+ ],
+ "warranty": "Five (5) Year limited Warranty",
+ "fetched": "2026-11-12T18:32+06:00",
+ "source": "https://www.pchouse.com.bd/samsung-t9-2tb-portable-ssd",
+ "store": "pchouse"
+}

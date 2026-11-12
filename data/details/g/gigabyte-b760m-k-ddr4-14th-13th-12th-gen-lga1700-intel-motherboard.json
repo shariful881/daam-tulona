@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "LGA1700 socket: Support for the 14th, 13th, and\n12th Generation Intel® Core™, Pentium® Gold and Celeron® Processors\n(Go to GIGABYTE's website for the latest CPU support list.)\nL3 cache varies with CPU",
+   "Chipset": "Intel B760 Express Chipset",
+   "BIOS": "1 x 128 Mbit flash\nUse of licensed AMI UEFI BIOS\nPnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+   "Form Factor": "Micro ATX Form Factor",
+   "Audio": "Realtek® Audio CODEC\nHigh Definition Audio\n2/4/5.1/7.1-channel\n* You can change the functionality of an audio jack\nusing the audio software. To configure\n7.1-channel audio, access the audio software for\naudio settings.\nSupport for S/PDIF Out"
+  },
+  "Expansion Slots": {
+   "PCI": "- 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16\n* The PCIEX16 slot can only support a graphics card or an NVMe SSD.\nChipset:\n- 1 x PCI Express x1 slot, supporting PCIe 3.0 and running at x1"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor-Intel® HD Graphics support:\n- 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz\n* Support for HDMI 2.1 version and HDCP 2.3.\n** Support for native HDMI 2.1 TMDS compatible ports"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "USB (s)": "2 x USB 2.0/1.1 ports\n4 x USB 3.2 Gen 1 ports\nChipset:\n- 6 x USB 3.2 Gen 1 ports (4 ports on the back\npanel, 2 ports available through the internal USB header)\n- 6 x USB 2.0/1.1 ports (2 ports on the back panel, 4\nports available through the internal USB headers)",
+   "LAN Port (s)": "Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)",
+   "Supported Storage": "CPU:\n- 1 x M.2 connector (Socket 3, M key, type 2280\nPCIe 4.0 x4/x2 SSD support) (M2A_CPU)\nChipset:\n- 1 x M.2 connector (Socket 3, M key, type 2280\nPCIe 4.0 x4/x2 SSD support) (M2P_SB)\n- 4 x SATA 6Gb/s connectors\nRAID 0, RAID 1, RAID 5, and RAID 10 support for\nSATA storage devices",
+   "Audio": "3 x audio jacks"
+  },
+  "Others": {
+   "Special Features": "Operating System\nSupport for Windows 11 64-bit\nSupport for Windows 10 64-bit"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 Year",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-b760m-k-ddr4-motherboard",
+ "store": "pchouse"
+}

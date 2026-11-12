@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Scanning System: Progressive",
+   "Power": "Power Supply: 12V DC/PoE (802.3af)",
+   "Image Sensor": "1/2.8\" CMOS",
+   "Type": "Fixed Lens",
+   "Angle of View": "2.8 mm: Horizontal: 102°; Vertical: 54°; Diagonal:120°",
+   "Lens": "Focal Length: Focal Length: 2.8 mm",
+   "Aperture": "2.8 mm: F2.0",
+   "IR Distance": "30m",
+   "Camera": "Effective Pixels: 2MP"
+  },
+  "Features": {
+   "Dimension": "103.2 mm × Φ109.9 mm (4.06\" × Φ4.33\")",
+   "Weight": "0.26 kg (0.57 lb)"
+  },
+  "Physical Specifications": {
+   "Physical Specs": "Ingress Protection: IP67"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/2.8\" CMOS",
+  "Max. Output Resolution: 2MP (1920 × 1080) @25/30 fps.",
+  "Lens: 2.8mm, Aperture: F2.0, IR Distance: 30 meters",
+  "Features: Motion detection, video tampering, IP67, Smart Codec, Abnormality Detection"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-dh-ipc-hdw1230t2-s5-ip-camera",
+ "store": "pchouse"
+}

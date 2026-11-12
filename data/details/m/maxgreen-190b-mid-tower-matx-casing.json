@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "Glass",
+   "Tempered  Glass Panel": "Yes",
+   "Motherboard Support": "up to m-ATX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Dimensions": "290x190x375mm",
+   "Front Ports": "USB3.0x1 ,USB1.0 x1\nHD AUDIO, MIC",
+   "Expansion Slots": "4",
+   "Fan Support": "Top：120x2\nBottom：120x2\nRear：120x1",
+   "Pre- Installed Fans": "3 ARGB Fan",
+   "Drive Bays": "3.5 HDD*1\n2.5 SSD*1"
+  },
+  "Additional Feature": {
+   "PSU": "Supports ATX PSU",
+   "Side Panel": "Transparent Side Window"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "167mm Max",
+   "Maximum Graphics Card Length": "280mm Max"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard support: Up to mATX",
+  "CPU Cooler Height: Max 167mm",
+  "Drive Bays: 1x 3.5''HDD, 1x 2.5''SSD",
+  "I/O Ports: 1 x USB 3.0, 1 x USB 1.0, 1x HD Audio"
+ ],
+ "price": 2600,
+ "regular": 2930,
+ "status": "In Stock",
+ "code": "51763",
+ "brand": "MaxGreen",
+ "model": "190B",
+ "warranty": "No Warranty",
+ "name": "MaxGreen 190B Mid-Tower mATX Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "MaxGreen",
+  "MaxGreen 190B Mid-Tower mATX Casing"
+ ],
+ "fetched": "2026-11-12T18:04+06:00",
+ "source": "https://www.startech.com.bd/maxgreen-190b-mid-tower-casing",
+ "store": "startech"
+}

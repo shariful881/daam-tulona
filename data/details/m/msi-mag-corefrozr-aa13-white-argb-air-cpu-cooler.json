@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "510~2070 RPM ± 200 RPM (10%)",
+   "Fan Airflow": "62.6 CFM",
+   "Noise": "30.11dBA (MAX34.1)",
+   "Air Pressure": "2.36 mmH2O",
+   "Connector": "5V ARGB 3-PIN Header",
+   "LED Number": "ARGB",
+   "Material": "Radiator Base Material: CPU Direct Contact [C.D.C.]\nRadiator Material: AL1100+AL6063+C1020",
+   "Others": "Fan Bearing: Rifle Bearing\nFan Life Expectancy: 40,000 hrs@40℃\nFan Rated Current: 0.15A(Max:0.18A)\nFan Power Consumption: 1.44W(Max:2.16W)\nRadiator FIN: 50PCS\nRadiator Heat-pipe SPEC: Φ6mm / 4PS"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator Dimensions (WxDxH): 152*121*94.5mm\nFan Dimensions (WxDxH): 120 x 120 x 25 mm / 4.7 x 4.7 x 0.98 inches"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700 / 1851",
+   "AMD": "AM5/AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 510~2070 RPM ± 200 RPM (10%)",
+  "4x 6mm Copper Heat Pipes, Pre-Applied Thermal Compound",
+  "Radiator Base Material: CPU Direct Contact [C.D.C.]",
+  "Compatibility: LGA 1700 / 1851 and AM4 / AM5 sockets"
+ ],
+ "price": 22002850,
+ "regular": 2980,
+ "status": "In Stock",
+ "code": "44828",
+ "brand": "MSI",
+ "model": "MAG COREFROZR AA13 WHITE",
+ "warranty": "03 Years",
+ "name": "MSI MAG COREFROZR AA13 WHITE ARGB Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "MSI",
+  "MSI MAG COREFROZR AA13 WHITE ARGB Air CPU Cooler"
+ ],
+ "fetched": "2026-11-12T18:06+06:00",
+ "source": "https://www.startech.com.bd/msi-mag-corefrozr-aa13-white-cpu-cooler",
+ "store": "startech"
+}

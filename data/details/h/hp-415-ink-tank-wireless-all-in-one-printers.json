@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Printer": {
+   "Color Output": "Color",
+   "Input Capacity": "60 Sheet",
+   "Monthly Print Volume": "400 to 800",
+   "Output Capacity": "25 Sheet",
+   "Paper Size": "A4, B5, A6, DL envelope",
+   "Power Consumption": "10 watts maximum, 0.07 watts (Off), 2.1 watts (Standby), 0.88 watt (Sleep)",
+   "Print Resolution": "4800 x 1200dpi (C)",
+   "Weight": "4.67 kg",
+   "Duplex Printing": "Manual",
+   "Duty-Cycle": "1,000 Pages",
+   "First-Print-Out Time": "14sec (B), 18sec (C)",
+   "Paper Type": "Plain Paper, HP Photo Papers, HP Matte Brochure or Professional Paper, HP Matte Presentation\nPaper, HP Glossy Brochure or Professional Paper, Photo Inkjet Papers, Matte Inkjet Papers, Glossy Inkjet Papers",
+   "Paper Weight": "A4: 60 to 90 g/m²; HP envelopes: 75 to 90 g/m²; HP cards: up to 200 g/m²; HP 10 x 15 cm photo paper:up to 300 g/m²",
+   "Print Speed": "Print Speed PPM (Black): 19ppm",
+   "Print Technology": "Print: HP Thermal Inkjet;",
+   "Toner": "HP GT53 Black, HP GT52 Cyan, HP GT52 Yellow, HP GT51 Magenta",
+   "Display": "7 segment + icon LCD Display",
+   "Connectivity": "Wi-Fi: Yes",
+   "Dimensions": "(W x D x H): 525 x 310 x 158 mm",
+   "Scan": "Scan Type: Contact Image Sensor (CIS)",
+   "Copy": "Copy Speed:7cpm (B), 2cpm (C)",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "01-year warranty"
+  }
+ },
+ "key_features": [
+  "Functions: Print, copy, scan, wireless",
+  "Color, A4: Up to 5 ppm",
+  "Black & White, A4: Up to 8 ppm"
+ ],
+ "warranty": "01-year warranty",
+ "fetched": "2026-11-12T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/hp-415-ink-tank-wireless-all-in-one-printers",
+ "store": "pchouse"
+}

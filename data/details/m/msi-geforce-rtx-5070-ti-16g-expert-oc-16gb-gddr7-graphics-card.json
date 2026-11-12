@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "Digital Max Resolution: 7680 × 4320 (8K)",
+   "Core Clock": "Extreme Performance: 2588 MHz (MSI Center), Boost Clock: 2580 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8960",
+   "Others": "NVIDIA DLSS 4, NVIDIA Reflex 2, NVIDIA Studio, AV1 Encode/Decode, G-SYNC, Real-Time Ray Tracing, AI-Enhanced Graphics"
+  },
+  "Interface": {
+   "Display Port": "3 × DisplayPort 2.1b",
+   "HDMI": "1 × HDMI 2.1b",
+   "DVI": "No",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 × 16-pin 12V-2x6 (12VHPWR)",
+   "Recommended PSU": "750W or Higher",
+   "Consumption": "300W Total Board Power (TBP)"
+  },
+  "Display Option": {
+   "Multi Display": "Supports up to 4 Displays"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "312 x 141 x 61 mm",
+   "Others": "NVIDIA Blackwell Architecture, DLSS 4, 4th Gen Ray Tracing Cores, 5th Gen Tensor Cores, PCIe 5.0, MSI Center, Zero Frozr, Vapor Chamber Cooling"
+  },
+  "Warranty": {
+   "Warranty": "3 Years  Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 16GB GDDR7, PCI Express Gen 5 x16",
+  "Core Clock: 2588 MHz, Boost Clock: 2580 MHz",
+  "Memory Speed: 28 Gbps, CUDA Cores: 8960 Units",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI"
+ ],
+ "warranty": "3 Years  Warranty",
+ "fetched": "2026-11-12T18:42+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-5070-ti-16g-expert-oc-16gb-gddr7-graphics-card",
+ "store": "pchouse"
+}

@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Operating voltage": "0 Degree C to + 85 Degree C",
+   "Type": "DDR4",
+   "Frequency": "3200Mhz",
+   "Latency": "CL22"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "No",
+   "Pin": "260-pin DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Life Time Warranty"
+  },
+  "Image": {
+   "Model": "Value RAM 8GB DDR4 3200MHz"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 8GB",
+  "Form Factor: DDR4",
+  "Speed (Data Rate): 3200MT/s",
+  "CAS Latency: CL22, Pin: 260 Pin"
+ ],
+ "model": "Value RAM 8GB DDR4 3200MHz",
+ "warranty": "Life Time Warranty",
+ "fetched": "2026-11-12T19:08+06:00",
+ "source": "https://www.creatus.com.bd/kingston-value-ram-8gb-ddr4-3200mhz-laptop-ram",
+ "store": "creatus"
+}

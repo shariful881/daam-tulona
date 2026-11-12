@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "General Information": {
+   "Card Bus": "PCI-E 5.0",
+   "Memory Bus (Bit)": "128 bit",
+   "Memory Size": "8 GB",
+   "Memory Type": "GDDR7",
+   "OUTPUT PORTS": "DisplayPort 2.1b *2\nDisplayPort 1.4a *1\nHDMI 2.1b *1",
+   "Power Connector (Pin)": "8 Pin*1"
+  },
+  "Video Memory Specifications": {
+   "Resolution": "7680x4320",
+   "Core Clock": "2512 MHz (Reference card : 2497MHz)",
+   "Memory Clock": "28 Gbps",
+   "CUDA Cores": "3840"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 API",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "L=182 W=69 H=36"
+  },
+  "Image": {
+   "Model": "RTX 5060 OC 8GL"
+  }
+ },
+ "key_features": [],
+ "model": "RTX 5060 OC 8GL",
+ "fetched": "2026-11-12T18:56+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-geforce-rtxtm-5060-oc-low-profile-8g-gddr7-graphics-card",
+ "store": "creatus"
+}

@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "2.4 GHz, 5 GHz",
+   "Interface": "4 x 10/100/1000 Mb/s Gigabit Ethernet (RJ45)\n1 x 5 Gb/s Ethernet (RJ45)\n1 x 10/100/1000 Mb/s Gigabit Ethernet (RJ45) (Uplink)\n2 x 5 Gb/s USB Type-A",
+   "Wireless": "Yes"
+  },
+  "Others": {
+   "Processor": "Quad-core 1.5GHz",
+   "USB Sharing Support": "Yes"
+  },
+  "Antenna": {
+   "Number of Antennas": "6",
+   "Antenna Placement": "Internal"
+  },
+  "Router Features": {
+   "Data Rate": "WiFi 6 (802.11ax) Tri-Band WiFi (AX6600)\n- 2.4GHz AX: 2x2 (Tx/Rx) 1024/256-QAM\n20/40MHz, up to 0.6Gbps\n- 5GHz AX: 2x2 (Tx/Rx) 1024/256-QAM\n20/40/80MHz, up to 1.2Gbps\n- 5GHz AX: 4x4 (Tx/Rx) 1024/256-QAM\n20/40/80/160MHz, up to 4.8Gbps\n- Backwards compatible with\n802.11a/b/g/n/ac WiFi"
+  },
+  "Connector & Ports": {
+   "Ports": "5 Gigabit ports—Connect more wired\ndevices for faster file transfer and\nuninterrupted connections. Two (2) ports\ncan be aggregated for faster LAN\ntransfer and two (2) can be aggregated\nto enable Multi-Gig Internet",
+   "Network Standard": "Wi-Fi 6 (802.11ax)"
+  },
+  "Dimensions (W x D x H)": {
+   "Folded size": "11.85 x 8.15 x 3.31 in (301 x 207 x 84 mm)",
+   "Unfolded size": "13.66 x 8.19 x 6.57 in (347 x 208 x 167 mm)"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Weight": "2.58 lb (1171 g)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years",
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://www.pchouse.com.bd/netgear-nighthawk-rax70-tri-band-ax8-8-stream-ax6600-wifi-6-router",
+ "store": "pchouse"
+}

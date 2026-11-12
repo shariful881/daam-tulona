@@ -1,0 +1,79 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print Only",
+   "Printer Type": "Single Function Mono laser Printer",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Print Speed": "Print Speed (Black): 21 ppm",
+   "Print Resolution": "Up to 1,200 x 1,200 dpi",
+   "Duplex": "Manual (driver support provided)"
+  },
+  "Duty Cycle up to (Yield)": {
+   "Duty cycle (monthly, letter)": "Up to 10,000 pages",
+   "Duty cycle (monthly, A4)": "Up to 10,000 pages"
+  },
+  "Paper Information": {
+   "Paper Size": "A4; A5; A5(LEF); B5 (JIS); Oficio; Envelope (DL, C5); 76 x 127 to 216 x 356mm",
+   "Paper Type": "Plain, Thick, Thin, Cotton, Color, Preprinted, Recycled, Labels, CardStock, Bond, Archive, Envelope",
+   "Paper Weight": "60 to 163 g/m²"
+  },
+  "Input Capacity": {
+   "Maximum input capacity (sheets)": "Up to 150 sheets",
+   "Input capacity": "Up to 150 sheets",
+   "Paper handling input, standard": "150-sheet input tray"
+  },
+  "Output Capacity": {
+   "Finished output handling": "Sheetfed",
+   "Maximum output capacity (sheets)": "Up to 100 sheets",
+   "Output capacity": "Up to 100 sheets",
+   "Standard output capacity (envelopes)": "Up to 10 envelopes",
+   "Paper handling output, standard": "100-sheet output bin"
+  },
+  "Physical Specs": {
+   "Color": "White"
+  },
+  "Technical Specs": {
+   "Memory": "64MB",
+   "Connectivity": "Built-in Wi-Fi 802.11b/g/n\nHi-Speed USB 2.0 port\nMobile printing capability: HP Smart App; Apple AirPrint; Google Cloud Print, Mobile Apps; Mopria Certified; Wi-Fi Direct printing; Mopria-certified"
+  },
+  "Power Consumption": {
+   "Power supply type": "Internal (built-in) Power Supply",
+   "Power Consumption": "320 watts (Active Printing), 33 watts (Ready), 1.1 watts (Sleep), 0.2 watts (Manual off), 0.2 watts (Auto off/Manual on)"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "Support HP 110A Black Original Laser Toner Cartridge (~1500 yield) W1110A; HP 110A Black Original Laser Toner Cartridge (~1500 yield) W1112A"
+  },
+  "Software": {
+   "Compatible Operating Systems": "Windows: 7 (32/64 bit), 2008 Server R2, 8 (32/64 bit), 8.1 (32/64 bit), 10 (32/64 bit), 2012 Server, 2016 Server, macOS v10.14 Mojave, macOS v10.13 High Sierra, macOS v10.12 Sierra, OS X v10.11 El Capitan",
+   "Mac compatible": "Yes",
+   "Energy Efficiency Compliance": "CECP"
+  },
+  "Other Features": {
+   "Top margin (A4)": "5 mm",
+   "Left margin (A4)": "5 mm",
+   "Right margin (A4)": "5 mm",
+   "Bottom margin (A4)": "5 mm",
+   "Control panel": "Buttons (Power, Cancel, Wireless); LED indicator lights (Power, Wireless, Toner, Attention)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "LaserJet 108w"
+  }
+ },
+ "key_features": [
+  "Function: Print only",
+  "Print Speed: up to 21 ppm (black)",
+  "Print Resolution: Up to 1,200 x 1,200 dpi",
+  "Connectivity: Hi-Speed USB 2.0, Wi-Fi"
+ ],
+ "model": "LaserJet 108w",
+ "warranty": "1 Year",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.creatus.com.bd/hp-laser-108w-printer",
+ "store": "creatus"
+}

@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2-2280 M Key",
+   "Interface": "PCIe Gen4 x 4,NVME 1.4",
+   "Flash Type": "3D NAND",
+   "MTBF": "1 million hours",
+   "Sequential R/W": "7300-7500MB/s",
+   "Voltage": "DC 3.3V"
+  },
+  "Temperature": {
+   "Operating Temperature": "0～+70℃",
+   "Storage Temperature": "-20～+75℃"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "XG7000"
+  }
+ },
+ "key_features": [],
+ "model": "XG7000",
+ "warranty": "3 years",
+ "fetched": "2026-11-12T19:06+06:00",
+ "source": "https://www.creatus.com.bd/kingspec-xg7000-1tb-nvme-ssd",
+ "store": "creatus"
+}

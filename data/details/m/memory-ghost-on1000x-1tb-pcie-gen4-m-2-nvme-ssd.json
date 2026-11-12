@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Flash Type": "3D TLC NAND",
+   "Interface": "NVMe PCIe Gen4.0*4",
+   "Sequential R/W": "Up to 7400MB/s Read, 6400MB/s Write",
+   "TBW": "650TB",
+   "Others": "Function Support: TRIM, NCQ and S.M.A.R.T\nLow profile graphene aluminum heat spreader"
+  },
+  "Physical Specification": {
+   "Dimension": "80x22x2mm",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70° C",
+   "Storage Temperature": "-40°C to 85° C"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor M.2 2280",
+  "Interface: NVMe PCIe Gen4.0x4",
+  "Read Speed: Up to 7400MB/s",
+  "Write Speed: Up to 6400MB/s"
+ ],
+ "price": 22500,
+ "regular": 24098,
+ "status": "In Stock",
+ "code": "53440",
+ "brand": "Memory Ghost",
+ "model": "ON1000X",
+ "warranty": "03 Years",
+ "name": "Memory Ghost ON1000X 1TB PCIe Gen4 M.2 NVMe SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Memory Ghost",
+  "Memory Ghost ON1000X 1TB PCIe Gen4 M.2 NVMe SSD"
+ ],
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.startech.com.bd/memory-ghost-on1000x-1tb-gen4-ssd",
+ "store": "startech"
+}

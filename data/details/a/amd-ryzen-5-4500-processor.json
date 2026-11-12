@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Cache": "Total L2 Cache 3MB ,\nTotal L3 Cache 8MB",
+   "Cores": "6",
+   "Maximum Turbo Frequency": "4GHz",
+   "Supported Technologies": "AMD Sense MI Technology\nAMD Ryzen Master Utility\nEnmotus Fuze Drive for AMD Ryzen\nRadeon Software\nRadeon Free Sync Technology",
+   "Threads": "12"
+  },
+  "Memory Specifications": {
+   "Maximum Speed": "3200MHz DDR4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.6GHz; Up to 4.1GHz",
+  "L1 Cache: 384KB; L2 Cache: 3MB; L3 Cache: 8MB",
+  "CPU Socket: AM4"
+ ],
+ "warranty": "03 years (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-12T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-4500-processor",
+ "store": "pchouse"
+}

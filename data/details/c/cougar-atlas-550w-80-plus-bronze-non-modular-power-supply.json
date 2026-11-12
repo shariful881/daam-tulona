@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "Up to 87% efficiency",
+   "Certification": "80+ Bronze",
+   "Fan Size": "120mm",
+   "Others": "UVP (Under Voltage Protection)\nOVP (Over Voltage Protection)\nSCP (Short-Circuit Protection)\nOPP (Over Power Protection)\nOCP (Overcurrent Protection)\nOTP (Over Temperature Protection)"
+  },
+  "Input": {
+   "Voltage": "100-240V"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "550W",
+   "AC Input": "100-240V 50-60Hz 10-5A",
+   "DC Output": "+3.3V / +5V: 20A / 20A (130W)\n+12V: 50A (600W)\n-12V: 0.3A (3.6W)\n+5Vsb: 3A (15W)"
+  },
+  "Connector": {
+   "Main Power": "1 x Main 24(20+4) Pins",
+   "CPU": "2 x CPU 8(4+4) Pins",
+   "PCI-E": "2 x PCI-E 8(6+2) Pins",
+   "SATA": "6 x S-ATA 5 Pins"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3-Year Brand Warranty"
+  }
+ },
+ "key_features": [
+  "Maximum Power: 550W",
+  "Fan Size: 120mm",
+  "Efficiency Rating: 80 Plus Bronze",
+  "Protection: UVP, OCP, SCP, OVP, OPP"
+ ],
+ "price": 5700,
+ "regular": 6270,
+ "status": "In Stock",
+ "code": "44260",
+ "brand": "Cougar",
+ "model": "ATLAS 550",
+ "warranty": "3-Year Brand Warranty",
+ "name": "Cougar ATLAS 550W 80 Plus Bronze Non-Modular Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Cougar",
+  "Cougar ATLAS 550W 80 Plus Bronze Non-Modular Power Supply"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/cougar-atlas-550w-power-supply",
+ "store": "startech"
+}

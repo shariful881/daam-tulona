@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Region": "Choose an option\nINT\nOfficial-BD\nINT\nOfficial-BD",
+   "Connectivity": "Choose an option\n4G\n4G\nClear"
+  },
+  "Specification": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Region": "INT\n,\nOfficial-BD",
+   "Connectivity": "4G, 5G",
+   "Model": "Redmi 15",
+   "OS": "Android 15, HyperOS 2.2",
+   "System Storage": "128GB,256GB",
+   "RAM(GB)": "4GB,8GB",
+   "SIM Card": "Nano-SIM + Nano-SIM\nIP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)",
+   "Processor": "Nano-SIM + Nano-SIM\nIP64 dust tight and water resistant (water splashes)",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, compass"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "169.5 x 80.5 x 8.4 mm (6.67 x 3.17 x 0.33 in)",
+   "Weight": "217 g (7.65 oz)"
+  },
+  "Display": {
+   "Type": "IPS LCD, 144Hz, 600 nits (typ), 700 nits (HBM), 850 nits (peak)",
+   "Size": "6.9 inches, 116.9 cm2 (~85.7% screen-to-body ratio)",
+   "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~374 ppi density)",
+   "Protection": "Corning Gorilla Glass 3, Mohs level 6"
+  },
+  "Front Camera": {
+   "Single": "8 MP, f/2.0, (wide)",
+   "Features": "HDR",
+   "Video": "1080p@30fps"
+  },
+  "Rear Camera": {
+   "Dual": "50 MP, f/1.8, (wide), 1/2.88\" 0.61μm, PDAF",
+   "Features": "LED flash, HDR",
+   "Video": "1080p@30fps"
+  },
+  "Battery": {
+   "Type": "7000 mAh",
+   "Charging": "33W wired, PD 2.0, PPS, QC3"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.1, A2DP, LE, aptX",
+   "Positioning": "GPS, GLONASS, GALILEO, BDS",
+   "NFC": "Yes (market/region dependent)",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 2.0, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Redmi 15",
+  "Display: 6.9-inches, IPS LCD",
+  "Resolution: 1080 x 2340 pixels",
+  "CPU: Qualcomm SM6375 Snapdragon 6s Gen 3 (6 nm)",
+  "Front Camera: 8MP",
+  "Rear camera: 50MP",
+  "Battery: 7000 mAh"
+ ],
+ "model": "Redmi 15",
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://diamu.com.bd/product/redmi-15/",
+ "store": "diamu"
+}

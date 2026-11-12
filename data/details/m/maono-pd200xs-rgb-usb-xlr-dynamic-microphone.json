@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Microphone Type": "Dynamic microphone capsule",
+   "Material": "Metal"
+  },
+  "Main Spec": {
+   "Frequency Response": "40Hz-16kHz"
+  },
+  "Microphone FEATURE": {
+   "Bit Rate": "24-bit/48kHz",
+   "Sensitivity": "XLR: -52dBV | USB: -10.5dBFS/Pa (Max)",
+   "Polar pattern": "Cardioid"
+  },
+  "Features": {
+   "Compatibility": "Laptop, PC, Mac, Smartphone, Audio Interface"
+  },
+  "Connectors": {
+   "Connector": "USB, USB Type-C, XLR"
+  },
+  "Warranty Information": {
+   "Warranty": "6 months warranty (Warranty must be claimed with box and all accessories)"
+  }
+ },
+ "key_features": [
+  "Capsule Type: Dynamic RGB Microphone",
+  "Polar Pattern: Cardioid",
+  "Audio Output: XLR & USB Type-C"
+ ],
+ "warranty": "6 months warranty (Warranty must be claimed with box and all accessories)",
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/maono-pd200xs-dynamic-microphone",
+ "store": "pchouse"
+}

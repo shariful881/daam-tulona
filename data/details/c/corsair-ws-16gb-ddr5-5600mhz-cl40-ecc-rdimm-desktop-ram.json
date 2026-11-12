@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "32GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "Tested Voltage: 1.25V\nSPD Voltage: 1.1V",
+   "Latency": "Tested Latency: 40-40-40-77\nSPD Latency: 40-40-40-77",
+   "PMIC": "Overclock PMIC",
+   "Others": "Performance Profile: EXPO & XMP\nMemory Compatibility: AMD TRX50 and WRX90\nMemory Detail Compatibility: ASUS Pro WS WRX90E-SAGE SE, ASUS Pro WS TRX50-SAGE WIFI, Gigabyte TRX50 AERO D"
+  },
+  "Physical dimension": {
+   "Pin": "288 Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Type: DDR5",
+  "Frequency: 5600MHz",
+  "Latency: CL40-40-40-77",
+  "Voltage: 1.25V, Profile: EXPO & XMP"
+ ],
+ "price": 57000,
+ "regular": 62500,
+ "status": "In Stock",
+ "code": "46993",
+ "brand": "Corsair",
+ "mpn": "CMA64GX5M4B5600Z40",
+ "model": "WS",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair WS 16GB DDR5 5600MHZ CL40 ECC RDIMM Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair WS 16GB DDR5 5600MHZ CL40 ECC RDIMM Desktop RAM"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/corsair-ws-16gb-ddr5-ecc-ram",
+ "store": "startech"
+}

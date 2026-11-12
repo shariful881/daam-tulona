@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel® Core™ i7-13620H Processor",
+   "Processor Model": "Intel® Core™ i7-13620H Processor",
+   "Frequency": "3.6 GHz up to 4.9 GHz",
+   "Generation": "13th Gen"
+  },
+  "Display": {
+   "Display Size (Inch)": "15.6″",
+   "Display Type": "15.6″ FHD IPS Display, Ultra-slim",
+   "Display Resolution": "1920 x 1080"
+  },
+  "Memory": {
+   "RAM": "LPDDR5 SDRAM support\n16 GB of onboard LPDDR5 system memory",
+   "SSD": "512GB M.2 2280 Gen 4 PCIe, expandable up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD webcam",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "Yes",
+   "USB 3 Port": "3 x USB 3.0 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB Type-C": "1 x USB 3.2 Gen1 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "Yes",
+   "WiFi": "802.11a/b/g/n/ac+ax wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home+MSO"
+  },
+  "Battery": {
+   "Battery Type": "54 Wh Li-ion battery pack (Battery Backup up to 8 hours)",
+   "Battery Capacity": "DC, 19V/4.74A 90W adapter"
+  },
+  "Others": {
+   "Color": "Pure Silver",
+   "Dimensions": "357.4 (W)*228.0*18.3mm",
+   "Weight": "1.70 kgs",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-13620H (3.60GHz up to 4.90GHz)",
+  "RAM: 16GB LPDDR5, Storage: 512GB SSD",
+  "Display: 15.6″ FHD (1920×1080)",
+  "Features: Backlit Keyboard, Stereo Speaker, Type-C"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-12T18:12+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-lite-al15-52h-intel-core-i7-13620h-15-6-inch-fhd-laptop/",
+ "store": "smartbd"
+}

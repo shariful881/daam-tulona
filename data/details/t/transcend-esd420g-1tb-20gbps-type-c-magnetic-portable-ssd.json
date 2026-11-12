@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type-C",
+   "Sequential R/W": "Up to 2,000 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "69.5 mm x 63 mm x 10 mm (2.74\" x 2.48\" x 0.39\")",
+   "Weight": "48 g (1.7 oz)",
+   "Color": "Champagne Gold"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 45°C (113°F)"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Flash Type: 3D NAND flash",
+  "Transfer Speeds: Up to 2,000 MB/s",
+  "Connection Interface: USB Type-C",
+  "Magnetic Design, Support MagSafe"
+ ],
+ "price": 26200,
+ "regular": 28970,
+ "status": "In Stock",
+ "code": "45046",
+ "brand": "Transcend",
+ "mpn": "TS1TESD420G",
+ "model": "ESD420G",
+ "warranty": "3 Years",
+ "name": "Transcend ESD420G 1TB 20Gbps Type-C Magnetic Portable SSD",
+ "breadcrumb": [
+  "Component",
+  "Portable SSD",
+  "Transcend",
+  "Transcend ESD420G 1TB 20Gbps Type-C Magnetic Portable SSD"
+ ],
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.startech.com.bd/transcend-esd420g-1tb-portable-ssd",
+ "store": "startech"
+}

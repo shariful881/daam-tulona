@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n16 GB\n12 GB\n16 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Connectivity": "Choose an option\n5G\nWi-Fi\n5G\nWi-Fi\nClear"
+  },
+  "Specification": {
+   "RAM": "12 GB\n,\n16 GB",
+   "Internal Storage": "256GB\n,\n512GB\n,\n128GB",
+   "Connectivity": "5G, Wi-Fi",
+   "Model": "Galaxy Tab S11",
+   "Network": "GSM / CDMA / HSPA /  LTE / 5G",
+   "OS": "Android 16, One UI 8",
+   "System Storage": "256/512GB",
+   "RAM(GB)": "12/16GB",
+   "SIM Card": "Nano-SIM + eSIM (cellular model only)",
+   "Processor": "Mediatek Dimensity 9300+ (4 nm)",
+   "CPU Architecture": "Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)",
+   "GPU": "Immortalis-G925",
+   "Rear Camera": "Dual\n13 MP, f/2.0, 26mm (wide), 1/3.4\", 1.0µm, AF\n8 MP, f/2.2, (ultrawide)\nFeatures: LED flash, HDR, panorama\nVideo: 4K@30fps, 1080p@30fps",
+   "Sensor": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+  },
+  "Dimension & Weight": {
+   "Dimensions": "253.8 x 165.3 x 5.5 mm (9.99 x 6.51 x 0.22 in)Weight: 469 g or 471 g (1.03 lb)",
+   "Build": "Glass front, aluminum frame, aluminum back"
+  },
+  "Display Size (Inches)": {
+   "Type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1000 nits (typ), 1600 nits (peak)",
+   "Size": "11.0 inches, 350.9 cm2 (~83.6% screen-to-body ratio)",
+   "Resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)",
+   "Protection": "Mohs level 5"
+  },
+  "Front Camera": {
+   "Single": "12 MP, f/2.4, 120˚ (ultrawide)",
+   "Features": "HDR",
+   "Video": "4K@30fps, 1080p@30fps"
+  },
+  "Battery": {
+   "Type": "Li-Po 8400 mAh",
+   "Charging": "45W wired"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+   "Bluetooth": "5.4, A2DP, LE",
+   "Positioning": "GPS, GLONASS, BDS, GALILEO",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, magnetic connector"
+  }
+ },
+ "key_features": [
+  "Model: Galaxy Tab S11",
+  "Display: 11 inches, Dynamic AMOLED",
+  "CPU: Mediatek Dimensity 9300+ (4 nm)",
+  "GPU: Immortalis-G925",
+  "Front Camera: 12MP",
+  "Rear camera: 13MP",
+  "Battery: Li-Po 8400 mAh"
+ ],
+ "model": "Galaxy Tab S11",
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://diamu.com.bd/product/galaxy-tab-s11/",
+ "store": "diamu"
+}

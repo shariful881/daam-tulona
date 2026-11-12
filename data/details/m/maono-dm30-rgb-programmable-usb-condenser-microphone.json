@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Microphone Type": "Condenser"
+  },
+  "Main Specs": {
+   "Frequency Range": "2OHz - 20kHz",
+   "Polar pattern": "Cardioid",
+   "Connector": "USB 2.0",
+   "Sensitivity": "-4dBFS (1V/Pa at 1kHz)"
+  },
+  "Compatibility": {
+   "DSLR": "yes",
+   "Smartphone": "yes",
+   "PC": "yes"
+  },
+  "Warranty": {
+   "Warranty": "6 months warranty (Warranty must be claimed with box and all accessories)"
+  }
+ },
+ "key_features": [
+  "Connector: USB 2.0,",
+  "Type: Condenser, Polar Pattern: Cardioid",
+  "Sensitivity: -4dBFS (1V/Pa at 1kHz)",
+  "Frequency Response: 2OHz - 20kHz"
+ ],
+ "warranty": "6 months warranty (Warranty must be claimed with box and all accessories)",
+ "fetched": "2026-11-12T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/maono-dm30-microphone",
+ "store": "pchouse"
+}

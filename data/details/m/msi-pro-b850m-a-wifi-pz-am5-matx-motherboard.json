@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors\nSocket AM5",
+   "Chipset": "AMD B850",
+   "Form Factor": "mATX\n243.84mmx243.84mm",
+   "Audio": "Realtek ALC897\n7.1-Channel High Definition Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "4x PCI-E x16 slot\nPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)\nPCI_E3 Gen PCIe 3.0 supports up to x1 (From Chipset)\nPCI_E4 Gen PCIe 4.0 supports up to x4 (From Chipset)\nPCI_E1 slot\n• Supports PCIe 5.0 x16 (For Ryzen™ 9000/ 7000 Series processors)\n• Supports PCIe 4.0 x8 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n• Supports PCIe 4.0 x4 (For Ryzen™ 8500/ 8300 Series processor)",
+   "M.2 Socket": "2x M.2\nM.2_1 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices\nM.2_2 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\nM2_1 slot\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors)\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8000 Series processors)\nM2_2 slot\n• Supports up to PCIe 4.0 x4\n• Supports up to PCIe 4.0 x2 (For Ryzen™ 8500/ 8300 Series processors)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4x UDIMM",
+   "Supported Memory": "Memory Support DDR5 8200 - 5600 (OC) MT/s / 5600 - 4800 (JEDEC) MT/s\nRyzen™ 9000 Series Processors max. overclocking frequency:\n• 1DPC 1R Max speed up to 8200+ MT/s\n• 1DPC 2R Max speed up to 6400+ MT/s\n• 2DPC 1R Max speed up to 6400+ MT/s\n• 2DPC 2R Max speed up to 6000+ MT/s\nSupports AMD POR Speed and JEDEC Speed\nSupports Memory Overclocking and AMD EXPOTM\nSupports Dual-Channel mode\nSupports Non-ECC, Un-buffered memory\nSupports CUDIMM, Clock Driver bypass mode only*",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMITM 2.1, maximum resolution of 4K 60Hz\n1x DisplayPort\nSupport DisplayPort 1.4, maximum resolution of 4K 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI\nSupport HDMITM 2.1, maximum resolution of 4K 60Hz",
+   "Display Port (s)": "1x DisplayPort\nSupport DisplayPort 1.4, maximum resolution of 4K 60Hz",
+   "USB (s)": "4x USB 2.0 (Front)\n3x USB 5Gbps Type A (Rear)\n2x USB 5Gbps Type A (Front)\n3x USB 10Gbps Type A (Rear)\n2x USB 10Gbps Type C (Rear)\n1x USB 10Gbps Type C (Front)",
+   "LAN Port (s)": "Realtek 8126 5G LAN",
+   "Wireless Communication module": "Wi-Fi 7\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz* (160MHz) up to 2.9Gbps\nSupports 802.11 a/ b/ g/ n/ ac/ ax/ be\nSupports Bluetooth 5.4, MLO, 4KQAM",
+   "Supported Storage": "2x M.2\nM.2_1 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices\nM.2_2 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\n4x SATA 6G\nM2_1 slot\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors)\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8000 Series processors)\nM2_2 slot\n• Supports up to PCIe 4.0 x4\n• Supports up to PCIe 4.0 x2 (For Ryzen™ 8500/ 8300 Series processors)",
+   "RAID": "Supports RAID 0 and RAID 1 for M.2 NVMe storage devices\nSupports RAID 0, RAID 1, and RAID 10 for SATA storage devices",
+   "Audio": "1x Front Audio (JAUD)",
+   "Internal I/O Ports": "1x Power Connector(ATX_PWR)\n2x Power Connector(CPU_PWR)\n1x Power Connector(PCIE_PWR 8pin)\n1x CPU Fan\n1x Combo Fan (Pump_Sys Fan)\n3x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x Com Port (JCOM)\n1x Tuning Controller connector(JDASH)\n3x Addressable V2 RGB LED connector (JARGB_V2)\n1x RGB LED connector(JRGB)\n1x TPM pin header(Support TPM 2.0)\n4x USB 2.0 ports\n2x USB 5Gbps Type A ports\n1x USB 10Gbps Type C ports",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)"
+  },
+  "Others": {
+   "Special Features": "4x EZ Debug LED\n1x EZ Memory Detection LED"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/8000/7000 Series for Socket AM5",
+  "Supported RAM: 4x DDR5 UDIMM, Up to 8200 (OC) MT/s, Max 256GB",
+  "Graphics Output: 1x HDMI 2.1, 1x DisplayPort 1.4, Max Resolution of 4K 60Hz",
+  "Features: 2x M.2 Slot, Realtek 8126 5G LAN, Wi-Fi 7, Back-Connect (BTF) Design"
+ ],
+ "price": 3000030200,
+ "regular": 32770,
+ "status": "In Stock",
+ "code": "45805",
+ "brand": "MSI",
+ "model": "PRO B850M-A WIFI PZ",
+ "warranty": "3 Years",
+ "name": "MSI PRO B850M-A WIFI PZ AM5 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "MSI (AMD)",
+  "MSI PRO B850M-A WIFI PZ AM5 mATX Motherboard"
+ ],
+ "fetched": "2026-11-12T18:07+06:00",
+ "source": "https://www.startech.com.bd/msi-pro-b850m-a-wifi-pz-motherboard",
+ "store": "startech"
+}

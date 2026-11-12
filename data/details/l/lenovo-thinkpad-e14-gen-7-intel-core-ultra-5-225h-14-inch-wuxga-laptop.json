@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "ThinkPad E14 Gen 7",
+   "Part No.": "21SXS0HA00",
+   "CPU Technology": "Core Ultra 5 225H Processor (P-cores up to 1.70 GHz P-cores up to 4.9 GHz)",
+   "Operating System": "Free DOS",
+   "Chipset": "Intel SoC (System on Chip) platform",
+   "System Memory": "16GB DDR5 5600 SoDIMM (Up to 64 GB Upgradable )",
+   "Display": "14″ IPS WUXGA ( 1920 x 1200)",
+   "Graphics": "Integrated Intel Arc Graphics",
+   "Storage": "512GB SSD M.2 2242 G4",
+   "Pointing Device": "Touchpad with Extra Pointer",
+   "Connectivity": "• Onboard Ethernet : Gigabit Ethernet, Intel Ethernet Connection I219-V, 1x RJ-45, supports Wake-on-LAN\n• WLAN + Bluetooth : Wi-Fi 6E, 802.11ax 2×2 Wi-Fi + Bluetooth 5.3",
+   "Built-in Camera": "FHD 1080p + IR hybrid, with privacy shutter, fixed focus,",
+   "Audio": "High Definition (HD) Audio, Senary SN6147 codec",
+   "Ports": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1)\n1x USB-A (USB 10Gbps / USB 3.2 Gen 2), Always On\n1x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB PD 3.1 and DisplayPort™ 2.1\n1x HDMI® 2.1, up to 4K/60Hz\n1x Headphone / microphone combo jack (3.5mm)\n1x Ethernet (RJ-45)",
+   "Battery Type": "Integrated 4Cell 64Wh Rechargeable Li-ion Battery, supports Rapid Charge (charge up to 80% in 1hr)",
+   "AC Adapter": "65W USB-C (3-pin) AC adapter",
+   "Security and Protection": "TPM 2.0 Enable, Kensington Security Slot",
+   "Keyboard": "6-row, spill-resistant, multimedia Fn keys with Unified Communications controls",
+   "Physical Dimensions": "313 x 220.3 x 10.1/15.25 (front/rear), 20.5 (maximum) mm;\n12.32 x 8.67 x 0.40/0.60 (front/rear), 0.81 (maximum) inches",
+   "Case Material": "Aluminium (top), PC-ABS (bottom)",
+   "Weight": "1.34kg",
+   "Color Variation": "Black",
+   "Warranty": "3 years Standard Warranty (Battery & Charger 1Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 5 225H (18MB Cache, Up to 4.9 GHz)",
+  "RAM: 16GB DDR5 5600MHz, Storage: 512GB PCIe NVMe M.2 SSD",
+  "Display: 14″ IPS WUXGA (1920 x 1200), Anti-glare, 300nits",
+  "Features: Privacy Shutter, Wi-Fi 6E, Dolby Atmos, Military Grade"
+ ],
+ "model": "ThinkPad E14 Gen 7",
+ "warranty": "3 years Standard Warranty (Battery & Charger 1Year)",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://smartbd.com/product/lenovo-thinkpad-e14-gen-7-intel-core-ultra-5-225h-14-inch-wuxga-laptop/",
+ "store": "smartbd"
+}

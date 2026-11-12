@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Material": "Copper, Micro-Skived-Fins",
+   "Type": "All-in-one 240mm liquid cooler"
+  },
+  "Features": {
+   "Dimension": "Radiator: 277 (L) x 38 (W) x 120 (H) mm",
+   "Weight": "1213 g (Fan, Radiator, Pump, Tubes)"
+  },
+  "Connectors": {
+   "Connector": "4-Pin Connector"
+  },
+  "Supported Sockets": {
+   "AMD": "AMD AM5, AM4, AM3(+)",
+   "Intel": "Intel 1700, 1200, 115X, 2011-3*, 2066* *Square ILM"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200—1800 rpm PWM Controlled (0 rpm below 5% PWM)",
+  "VRM Fan: 40 mm, 1000—3000 rpm (PWM controlled)",
+  "Pump: 800-2000 rpm (PWM controlled)",
+  "Cold Plate: Copper, Micro-Skived-Fins"
+ ],
+ "warranty": "6 years",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.pchouse.com.bd/arctic-liquid-freezer-ii-240-argb-cpu-cooler",
+ "store": "pchouse"
+}

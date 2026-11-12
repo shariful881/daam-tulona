@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2169MHz(Game)\nup to 2475MHz(Boost)",
+   "BUS Type": "PCIE 4.0",
+   "Memory Interface": "256-bit",
+   "Stream Processors": "3840"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3 x DisplayPort 2.1",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "750W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "290mm*111mm*50mm\n303mm*128mm*50mm (with bracket)",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory\nRadeon Anti-Lag\nRadeon Boost\nAMD RDNA 3 Architecture with Hardware Raytracing\nAMD FidelityFX Super Resolution 3 technology\nOptimized for Windows 11\nSlot: 2.5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year"
+  },
+  "Image": {
+   "Model": "RX7800XT 16G-F/OC"
+  }
+ },
+ "key_features": [],
+ "model": "RX7800XT 16G-F/OC",
+ "warranty": "2 year",
+ "fetched": "2026-11-12T18:05+06:00",
+ "source": "https://www.creatus.com.bd/powercolor-fighter-amd-radeon-rx-7800-xt-16gb-gddr6-graphics-card",
+ "store": "creatus"
+}

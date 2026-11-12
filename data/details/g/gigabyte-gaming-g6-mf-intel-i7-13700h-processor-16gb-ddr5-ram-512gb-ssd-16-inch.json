@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7-13700H Processor",
+   "Frequency": "up to 5 GHz",
+   "Generation": "13th Gen"
+  },
+  "Display": {
+   "Display Size": "16 inch",
+   "Display Type": "IPS WUXGA",
+   "Display Resolution": "1920×1200"
+  },
+  "Memory": {
+   "RAM": "16GB 4800MHz DDR5",
+   "SSD": "Gen 4 NVMe 512B SSD",
+   "Harddrive": "N/A"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA® GeForce RTX™ 4050",
+   "Graphics Memory": "6GB GDDR6"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD (720p) Webcam",
+   "Speaker": "2x 2W speakers",
+   "Microphone": "Build-in array Microphone"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "1 x MicroSD Card Reader",
+   "USB 3 Port": "1 x Type-A support USB3.2 Gen1, 2 x Type-C support USB3.2 Gen2",
+   "HDMI Port": "1 x HDMI 2.1",
+   "LAN Port": "1 x RJ-45",
+   "Jack": "1 x DC-in",
+   "DP port": "1 x Mini DP 1.4",
+   "USB 2 Port": "1 x Type-A support USB2.0",
+   "Headphone Port": "1 x 2-in-1 Audio Jack (Headphone / Microphone)"
+  },
+  "Network & Connectivity": {
+   "LAN": "1GB",
+   "WiFi": "Intel® Wi-Fi 6E (802.11ax 2×2)",
+   "Bluetooth": "Bluetooth® V5.2"
+  },
+  "Security": {
+   "Security Lock": "Security (Kensington® Type) Lock Slot\nFirmware-based TPM, supports Intel® Platform Trust Technology (Intel® PTT)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Battery": {
+   "Battery Type": "Lithium-Ion",
+   "Adapter": "150W",
+   "Battery Capacity": "54Wh"
+  },
+  "Others": {
+   "Color": "Mate Black",
+   "Weight": "2.3kg",
+   "Warranty": "2 year (Battery, Adapter 1 year)"
+  },
+  "Contact Information": {
+   "Name": "Md. Nafiur Rahman Nifath",
+   "Phone Number": "88 01708405057",
+   "Email": "nafiur.rahman@smartbd.com"
+  }
+ },
+ "key_features": [
+  "Processor: Intel i7-13700H Processor Up to 5 GHz",
+  "Memory: 16GB DDR5 4800MHz , 512GB SSD",
+  "Graphics: RTX 4050 GDDR6 6GB",
+  "Features: 165 Hz Refresh Rate, Backlit keyboard, Type-C"
+ ],
+ "warranty": "2 year (Battery, Adapter 1 year)",
+ "fetched": "2026-11-12T18:17+06:00",
+ "source": "https://smartbd.com/product/gigabyte-gaming-g6-mf-intel-i7-13700h-processor-16gb-ddr5-ram-512gb-ssd-16-inch-wuxga-laptop/",
+ "store": "smartbd"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "SPD Voltage: 1.1V\nTested Voltage: 1.35V",
+   "Latency": "38-44-44-96"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Anodized Aluminum Black",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Size: 16GB",
+  "Memory Speed: 6000MHz",
+  "Latency: 38-44-44-96",
+  "Performance Profile: XMP Compatible"
+ ],
+ "price": 35500,
+ "regular": 36980,
+ "status": "In Stock",
+ "code": "51428",
+ "brand": "Corsair",
+ "mpn": "CMK32GX5M2B6000C38/CMK16GX5M1D6000Z38",
+ "model": "VENGEANCE DDR5",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE 16GB DDR5 6000MHz CL38 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE 16GB DDR5 6000MHz CL38 Desktop RAM"
+ ],
+ "fetched": "2026-11-12T17:55+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-16gb-ddr5-6000mhz-cl38-ram",
+ "store": "startech"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Audio and Video": {
+   "IP Camera Input": "4-ch",
+   "Two-Way Talk": "1-ch RCA (2.0 Vp-p, 1 k Ω)"
+  },
+  "Display": {
+   "Interface": "HDMI/VGA simultaneous output",
+   "Decoding Capacity": "1-ch@8 MP (30 fps)/3-ch@4 MP (30 fps)/6-ch@1080p (30 fps) *: The length or width of camera resolution (each track) cannot exceed 4096 pixels"
+  },
+  "Recording": {
+   "Record Mode": "Compression\nH.265+,H.265,H.264+,H.264\nResolution\n8 MP/6 MP/5 MP/4 MP/3 MP/1080p/UXGA /720p/VGA/4CIF/DCIF/ 2CIF/CIF/QCIF"
+  },
+  "Video Detection And Alarm": {
+   "Video Detection": "1-ch;4-ch"
+  },
+  "Storage": {
+   "Internal HDD": "1 SATA interface\nHDD Mode:\nUp to 8 TB capacity"
+  },
+  "Network": {
+   "Ethernet Port": "1x RJ-45 10/100 Mbps self-adaptive Ethernet interface"
+  },
+  "Auxiliary Interface": {
+   "USB": "2 x USB 2.0"
+  },
+  "Power": {
+   "Power Supply": "12 VDC, 1.5 A",
+   "Power Consumption": "≤ 10 W (without HDD)\nComponent Environment:\nOperational Conditions\n-10 °C to 55 °C (14 °F to 131 °F)"
+  },
+  "Construction": {
+   "Dimensions": "315.0 x 240.0 x 48.0 320 × 240 × 48 mm (12.4\" × 9.4\" × 1.9\")",
+   "Net Weight": "1 kg (without HDD, 2.2 lb.)"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year"
+  }
+ },
+ "key_features": [
+  "IP Camera Input: Up to 4-channel",
+  "Video Format: H.265+/H.265/H.264+/H.264",
+  "Incoming Bandwidth: Up to 40 Mbps",
+  "Storage Capacity: Up to 8TB, 1x SATA Interface"
+ ],
+ "warranty": "1-year",
+ "fetched": "2026-11-12T18:18+06:00",
+ "source": "https://fourstarit.com.bd/p/hikvision-ds-7604ni-q1-4-channel-4k-nvr",
+ "store": "fourstar"
+}

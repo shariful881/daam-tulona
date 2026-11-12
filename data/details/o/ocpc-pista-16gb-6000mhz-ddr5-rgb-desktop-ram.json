@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Latency": "CAS Latency: CL-38-38-38-78"
+  },
+  "Features": {
+   "Lighting": "LED Lighting: RGB"
+  },
+  "Memory": {
+   "RAM Type": "DDR5",
+   "Bus Speed": "6000MHz"
+  },
+  "Power Specifications": {
+   "Power Consumption": "Approx. Power Consumption: 11W"
+  },
+  "Physical Specifications": {
+   "PIN": "Number of Pin: 288 Pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Type- DDR5, Speed: 6000MHz",
+  "Operating Voltage: 1.35V",
+  "Latency: CL32-38-38-76"
+ ],
+ "warranty": "Product Lifetime",
+ "fetched": "2026-11-12T18:32+06:00",
+ "source": "https://www.pchouse.com.bd/ocpc-pista-rgb-16gb-ddr5-6000mhz-desktop-ram",
+ "store": "pchouse"
+}

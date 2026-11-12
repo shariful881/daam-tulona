@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680x4320@60Hz",
+   "Core Clock": "2470~2755 MHz",
+   "Memory Clock": "18Gbps",
+   "BUS Type": "PCI Express Gen4",
+   "Memory Interface": "128-bit",
+   "Stream Processors": "1792"
+  },
+  "Interface": {
+   "Display Port": "3 x DP",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "600W",
+   "Consumption": "150W"
+  },
+  "Display Option": {
+   "Multi Display": "AMD Eyefinity Technology\n“wrap around” multi-display capabilities."
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12.2",
+   "OpenGL": "4.6"
+  },
+  "Warranty": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2470~2755 MHz",
+  "Stream Processors: 1792",
+  "Memory Clock: 18Gbps",
+  "Display Outputs: 3 x DP, 1 x HDMI"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-12T18:37+06:00",
+ "source": "https://www.pchouse.com.bd/arktek-rx7600xt-8gb-graphics-card",
+ "store": "pchouse"
+}

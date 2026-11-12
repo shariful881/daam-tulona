@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "General Information": {
+   "Color": "Black",
+   "Core Clock": "2850MHz",
+   "DIMENSION": "313*130*52MM",
+   "DirectX": "12",
+   "Interface (PCI Express)": "PCIe 4.0 x16 (x8)",
+   "Memory Size": "12GB",
+   "Memory Type": "DDR6",
+   "OpenGL": "4.6",
+   "Ports & Slots": "1x DisplayPort 2.1\n1x HDMI 2.1",
+   "Power Connector (Pin)": "2*8-Pin PCI-E",
+   "Power Consumption": "220W"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Years"
+  },
+  "Image": {
+   "Model": "Intel Arc B580 Photon 12GB OC"
+  }
+ },
+ "key_features": [
+  "Memory Size: 12GB G6",
+  "Product Size: 313*130*52MM",
+  "Output: HDMI2.1*1, DisplayPort2.1*3"
+ ],
+ "model": "Intel Arc B580 Photon 12GB OC",
+ "warranty": "3-Years",
+ "fetched": "2026-11-12T19:03+06:00",
+ "source": "https://www.creatus.com.bd/gunnir-b580-photon-12gb-oc-ddr6-graphics-card-black",
+ "store": "creatus"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Camera": "5.0MP + IR",
+   "Monitor": "23.8″ FHD (1920×1080) WVA Anti-glare 250nits",
+   "Operating System": "Free DOS",
+   "Processor": "Intel Core i5-13420H, 8C (4P + 4E) / 12T, P-core up to 4.6GHz, E-core up to 3.4GHz, 12MB",
+   "Motherboard": "Intel SoC Platform",
+   "RAM": "16GB SO-DIMM DDR4-3200",
+   "Graphics Card": "Integrated Intel UHD Graphics",
+   "Audio": "High Definition (HD) Audio, Realtek ALC256 codec\n3Wx2 Speakers",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0x4 NVMe\nUp to two drives, 1x 2.5\" HDD + 1x M.2 SSD\n• 2.5\" HDD up to 1TB\n• M.2 SSD up to 1TB",
+   "Power Supply": "90W 89% Adapter",
+   "Network & Wireless Connectivity": "Integrated 100/1000M\n11ax, 2×2 + BT5.2"
+  },
+  "Input Devices": {
+   "External I/O Ports": "External I/O Ports\nRear Ports:\n2x USB 2.0\n2x USB 3.2 Gen 2\n1x HDMI 1.4\n1x Ethernet (RJ-45)\n1x power connector",
+   "Keyboard": "Calliope Keyboard, Black, English",
+   "Mouse": "Calliope Mouse, Black"
+  },
+  "Physical Specification": {
+   "Weight": "7.03 kg (15.49 lbs)",
+   "Dimensions": "541.2 x 185.34 x 433.96 mm (21.3 x 7.29 x 17.08 inches)"
+  },
+  "Warranty Information": {
+   "Warranty": "02-years Warranty"
+  },
+  "Image": {
+   "Model": "IdeaCentre AIO 3 24IAP7"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-13420H (12M Cache, 3.4 GHz up to 4.6 GHz)",
+  "RAM: 16GB, Storage: 512GB SSD",
+  "Display: 23.8\" FHD (1920x1080) Anti-glare",
+  "Graphics: Integrated Intel UHD"
+ ],
+ "model": "IdeaCentre AIO 3 24IAP7",
+ "warranty": "02-years Warranty",
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-aio-3-24iap7-intel-i5-13th-gen-16gb-ram-512gb-ssd-all-in-one-desktop-pc-with-238-inch-monitor",
+ "store": "creatus"
+}

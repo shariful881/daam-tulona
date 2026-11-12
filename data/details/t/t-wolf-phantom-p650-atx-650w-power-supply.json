@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Others": "Frequency: 50-60Hz\nVoltage: 230V\nProtective Function: OVP/UVP/OPP/OCVP/SCP\nBlack Shell : 12cm/SGCC/0.3mm Thickness\nSize:140x150x86mm\nType: ATX"
+  },
+  "Input": {
+   "Voltage": "230V",
+   "Frequency Range": "50-60Hz"
+  },
+  "Output": {
+   "Total Power": "650W",
+   "AC Input": "230V"
+  },
+  "Connector": {
+   "SATA": "650MM Black Cable"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 650 Watts",
+  "Frequency: 50-60Hz",
+  "Protective Function: OVP/UVP/OPP/OCVP/SCP",
+  "Voltage: 230V"
+ ],
+ "price": 29502999,
+ "regular": 3190,
+ "status": "In Stock",
+ "code": "48790",
+ "brand": "T-WOLF",
+ "model": "PHANTOM P650",
+ "warranty": "5 Years Warranty",
+ "name": "T-Wolf PHANTOM P650 ATX 650W Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "T-WOLF",
+  "T-Wolf PHANTOM P650 ATX 650W Power Supply"
+ ],
+ "fetched": "2026-11-12T18:13+06:00",
+ "source": "https://www.startech.com.bd/t-wolf-phantom-p650-power-supply",
+ "store": "startech"
+}

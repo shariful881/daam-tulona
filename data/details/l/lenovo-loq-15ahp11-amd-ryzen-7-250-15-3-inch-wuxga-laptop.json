@@ -1,0 +1,77 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83TN002SSK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 7 250 (8C / 16T, 3.3 / 5.1GHz, 8MB L2 / 16MB L3)",
+   "AI PC Category": "AI PC, AI-Powered Gaming PC",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 16 TOPS",
+   "Graphics": "NVIDIA GeForce RTX™ 5060 8GB GDDR7, Boost Clock 2497MHz, TGP 115W, 572 AI TOPS",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "1x 16GB SODIMM DDR5-5600",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5600 offering",
+   "Storage": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Two M.2 slots\n• One M.2 2280 PCIe® 4.0 x4 slot\n• One M.2 2280 PCIe® 4.0 x2 slot",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 2TB each",
+   "Optical": "None",
+   "Card Reader": "No Card Reader",
+   "Audio Chip": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+   "Speakers": "Stereo speakers, 2W x2, optimized with Nahimic Audio",
+   "Microphone": "2x, Array",
+   "Camera": "5.0MP with E-shutter",
+   "Battery": "60Wh",
+   "Power Adapter": "245W Slim Tip (3-pin)",
+   "Special Features": "AI Chip: LA1"
+  },
+  "Design": {
+   "Display": "15.3″ WUXGA (1920×1200) IPS 300nits Anti-glare, 100% sRGB, 165Hz, FreeSync™, G-SYNC®, Low Blue Light",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "92% AAR (active area ratio)",
+   "Color Calibration": "Factory Color Calibration",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "1-Zone RGB Backlit, English",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "344.9 x 254.83 x 20.9-23.25 mm (13.58 x 10.03 x 0.82-0.92 inches)",
+   "Weight": "Starting at 2.1 kg (4.6 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "PC-ABS (Top), PC-ABS (Bottom)",
+   "Surface Treatment": "Painting"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Trial"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 6, 802.11ax 2×2 + BT5.3",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "100/1000M (RJ-45)",
+   "Standard Ports": "2x USB-A (USB 5Gbps), 1x USB-A (USB 10Gbps), 1x USB-C® (USB4® 40Gbps), with USB PD 65-100W and DisplayPort™ 1.4, 1x HDMI® 2.1, up to 8K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Slim tip Power connector"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "E-shutter"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR® 9.0, EPEAT Silver Registered, ErP Lot 6/26, RoHS compliant",
+   "Mil-Spec Test": "MIL-STD-810H military test passed",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Hardware Solution)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 250 (16MB L3 Cache, Up to 5.1GHz), up to 16 TOPS",
+  "RAM: 16GB SODIMM DDR5-5600, Storage: 512GB M.2 PCIe SSD",
+  "Display: 15.3″ WUXGA (1920×1200) IPS, 300nits",
+  "Features: Backlit Keyboard, E-Shutter, Military Grade"
+ ],
+ "model": "83TN002SSK",
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://smartbd.com/product/lenovo-loq-15ahp11-amd-ryzen-7-250-15-3-inch-wuxga-laptop/",
+ "store": "smartbd"
+}

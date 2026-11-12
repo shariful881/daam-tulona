@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Flatbed Scanner",
+   "Resolution": "1200 dpi",
+   "Interface": "USB 2.0",
+   "Speed": "15 secs (Color Mode, 300 dpi, A4)"
+  },
+  "Physical Informations": {
+   "Dimension": "378 x 257 x 33 mm (14.88” x 10.12” x 1.30”)",
+   "Weight": "1.4 Kgs (3.1 Lbs)"
+  },
+  "Warranty": {
+   "Warranty Informations": "1 year"
+  }
+ },
+ "key_features": [
+  "Interface: USB 2.0",
+  "Image Sensor: CIS",
+  "Light Source: LED",
+  "Optical Resolution: 1200 dpi"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-12T18:22+06:00",
+ "source": "https://fourstarit.com.bd/p/plustek-opticslim-2610-plus-a4-scanner",
+ "store": "fourstar"
+}

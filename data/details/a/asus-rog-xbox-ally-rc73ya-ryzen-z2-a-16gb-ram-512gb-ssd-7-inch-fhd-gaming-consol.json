@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "AMD Ryzen Z2 A Processor",
+   "Processor Frequency": "Up to 3.8 GHz",
+   "Processor Core": "4",
+   "Processor Thread": "8",
+   "CPU Cache": "6MB"
+  },
+  "Display": {
+   "Display Size": "7-inch",
+   "Display Type": "Glossy display\nAMD FreeSync Premium (Variable Refresh Rate)\nTouch Screen (10-point multi-touch)\nGlass:\nGorilla Glass DXC\nGorilla Glass Victus",
+   "Display Resolution": "Full HD (1920 x 1080)",
+   "Refresh Rate": "120Hz",
+   "Display Features": "Brightness\n500 nits\nContrast\n1200:1\nNTSC %: 72%\nSRGB %: 100%\nAdobe %: 75.35%"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "LPDDR5"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2280 SSD for easier upgrade",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "1x M.2 slots (support either SATA or NVMe)\nM.2 SSD Support List:\nM.2 2280 1TB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared"
+  },
+  "Connector & Ports": {
+   "Card Reader": "1x UHS-II microSD card reader (supports SD, SDXC and SDHC)",
+   "USB (s)": "2x USB 3.2 Gen 2 Type-C with DisplayPort 1.4 / Power Delivery 3.0",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Camera & Audio": {
+   "Speaker": "2-speaker system with Smart Amplifier Technology",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "AI noise-canceling technology\nDolby Atmos\nHi-Res certification (for headphones)\nSmart Amp Technology"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6E(802.11ax) (Triple band) 2*2",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Built-in Fingerprint Sensor",
+   "Security Chip": "Microsoft Pluton security processor"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Power": {
+   "Battery Type": "4S1P, 4-cell Li-ion",
+   "Battery Capacity": "60WHrs",
+   "Adapter Type": "TYPE-C, 65W AC Adapter, Output: 20V DC, 3.25A, 65W, Input: 100~240V AC 50/60Hz universal"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Dimensions": "29.0 x 12.1 x 2.75 ~ 5.09 cm",
+   "Weight": "670 g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 7-inch, FHD (1920 x 1080) Touch Screen",
+  "Processor: AMD Ryzen AI Z2 A",
+  "Memory: 16GB LPDDR5X on board Ram",
+  "Storage: 512GB PCIe 4.0 NVMe M.2 SSD"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://fourstarit.com.bd/p/asus-rog-xbox-ally-rc73ya-nh004w-ryzen-z2-a-16gb-512gb-gaming-console",
+ "store": "fourstar"
+}

@@ -1,0 +1,71 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n8 GB\n6 GB\n8 GB\n6 GB",
+   "Internal Storage": "Choose an option\n256GB\n128GB\n256GB\n128GB",
+   "Connectivity": "Choose an option\nWi-Fi\nWi-Fi\nClear"
+  },
+  "Xiaomi Redmi Pad 2 Price in Bangladesh": {
+   "RAM": "8 GB\n,\n6 GB",
+   "Internal Storage": "256GB\n,\n128GB",
+   "Connectivity": "Wi-Fi"
+  },
+  "Specification": {
+   "Model": "Pad 2",
+   "OS": "Android 15, HyperOS 2",
+   "Network": "GSM / HSPA / LTE",
+   "System Storage": "128GB,256GB",
+   "RAM(GB)": "4GB,6GB,8GB",
+   "SIM Card": "Nano-SIM + Nano-SIM (cellular model only)\nStylus support",
+   "Processor": "Mediatek Helio G100 Ultra (6 nm)",
+   "CPU Architecture": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+   "GPU": "Mali-G57 MC2",
+   "Sensors": "Accelerometer, gyro/compass (cellular model only)"
+  },
+  "Dimension And Weight": {
+   "Dimensions": "254.6 x 166 x 7.4 mm (10.02 x 6.54 x 0.29 in)",
+   "Weight": "510 g or 519 g (1.12 lb)"
+  },
+  "Display": {
+   "Type": "IPS LCD, 1B colors, 90Hz, 600 nits (HBM)",
+   "Size": "11.0 inches, 350.9 cm2 (~83.0% screen-to-body ratio)",
+   "Resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)"
+  },
+  "Front Camera": {
+   "Single": "5 MP, f/2.2, (wide), 1/5.0\", 1.12µm",
+   "Features": "HDR",
+   "Video": "1080p@30fps"
+  },
+  "Rear Camera": {
+   "Single": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm",
+   "Features": "HDR",
+   "Video": "1080p@30fps"
+  },
+  "Battery": {
+   "Type": "Li-Po 9000 mAh",
+   "Charging": "18W wired, PD2, QC2.0"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE",
+   "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS (cellular model only)",
+   "NFC": "No",
+   "Radio": "No",
+   "USB": "USB Type-C, OTG"
+  }
+ },
+ "key_features": [
+  "Model: Pad 2",
+  "Display: 11.0 inches, 90HZ",
+  "Resolution: 1600*2560 pixels",
+  "CPU: Mediatek Helio G100 Ultra (6 nm)",
+  "GPU: Mali-G57 MC2",
+  "Front Camera: 8MP",
+  "Rear camera: 8MP",
+  "Battery: 9000 mAh Charging 18W wired"
+ ],
+ "model": "Pad 2",
+ "fetched": "2026-11-12T17:53+06:00",
+ "source": "https://diamu.com.bd/product/redmi-pad2/",
+ "store": "diamu"
+}

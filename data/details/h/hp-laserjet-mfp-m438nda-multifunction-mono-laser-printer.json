@@ -1,0 +1,80 @@
+{
+ "specs": {
+  "General": {
+   "Display": "4-line LCD",
+   "Power": "AC 220 - 240V: 50/60Hz",
+   "Power Consumption": "550 watts (Active Printing)\n80 watts (Ready)\n0.7 watts (Sleep)\n0.2 watts (Off)"
+  },
+  "Printing Features": {
+   "Print Speed": "A4-\nBlack (A4, normal): Up to 22 ppm\nBlack (letter, normal): Up to 22 ppm\nBlack (A4, duplex): Up to 11 ppm\nBlack (letter, duplex): Up to 11 ppm\nA3-\nBlack (A3, normal): Up to 12 ppm\nBlack (letter, normal): Up to 12 ppm\nBlack (A3, duplex): Up to 7 ppm\nBlack (letter, duplex): Up to 7 ppm",
+   "Resolution": "Black (best) Up to 1200 x 1200 dpi\nBlack (normal) Up to 600 x 600 dpi\nBlack (fine lines) Up to 1200 x 1200 dpi",
+   "Duplex Printing": "Automatic",
+   "Others": "Print Technology\nLaser"
+  },
+  "First-Print-Out Time": {
+   "Black (A4, ready)": "As fast as 8.3 sec",
+   "Black (A4, sleep)": "As fast as 22.2 sec"
+  },
+  "Copy Features": {
+   "Copy Speed": "Up to 22 copies per minute",
+   "Resolution": "600 x 600 dpi",
+   "Zoom": "25 to 400%"
+  },
+  "First-Copy-Out Time": {
+   "Black (A4)": "As fast as 7.7 sec",
+   "Black (A4, sleep)": "As fast as 22.2 sec",
+   "Black (letter)": "As fast as 7.7 sec",
+   "Black (letter, sleep)": "As fast as 22.2 sec"
+  },
+  "Scan": {
+   "Scan Speed": "Normal (A4):\nUp to 33 ipm(b&w)\nUp to 33 ipm(color)"
+  },
+  "Resolution": {
+   "Enhanced": "Up to 4800 × 4800 dpi",
+   "Hardware": "Up to 600 × 600 dpi",
+   "Optical": "Up to 600 dpi"
+  },
+  "Others": {
+   "Type": "Flatbed",
+   "Technology": "Digital-CMOS Image Sensors (D-CIS)"
+  },
+  "Paper Size": {
+   "Tray 1": "98 x 148 to 297 x 432 mm",
+   "Tray 2": "148 x 210 to 297 x 354 mm"
+  },
+  "Paper Handling": {
+   "Paper Type": "Plain, Mid-weight, Light, HP LaserJet, Colored, Preprinted, Recycled, Intermediate, Letterhead, Prepunched",
+   "Input Capacity": "Tray 1: 100 sheet, Tray 2: 250 sheet",
+   "Output Capacity": "Up to 250 Sheets",
+   "Maximum Number of Copies": "Up to 999 copies"
+  },
+  "Paper Weight": {
+   "Tray 1": "60 to 163 g/m²",
+   "Tray 2": "60 to 110 g/m²"
+  },
+  "Connectivity": {
+   "USB": "Hi-Speed USB 2.0 Device",
+   "Others": "LAN\nEthernet 10/100 Base TX"
+  },
+  "Toner": {
+   "W1335A": "HP 335A Black Original LaserJet Toner Cartridge (7,400 pages)",
+   "W1335X": "HP 335X High Yield Black Original LaserJet Toner Cartridge (13,700 pages)"
+  },
+  "Refill Supplies": {
+   "Others": "Ink\nCF257A: HP 57A Original LaserJet Imaging Drum (80,000 pages)"
+  },
+  "Physical Specifications": {
+   "Color": "White",
+   "Dimension": "560 x 583 x 505 mm",
+   "Weight": "30 kg (includes supplies)"
+  },
+  "Warranty": {
+   "Warranty Informations": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-12T18:19+06:00",
+ "source": "https://fourstarit.com.bd/p/hp-laserjet-mfp-m438nda-multifunction-mono-laser-printer",
+ "store": "fourstar"
+}

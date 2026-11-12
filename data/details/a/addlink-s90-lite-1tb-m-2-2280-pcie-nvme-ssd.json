@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Controller": "PS5021-E21T"
+  },
+  "BASIC Information": {
+   "Operating System": "Microsoft Windows 8\nMicrosoft Windows 10\nLinux Kernel 2.6.31 or later"
+  },
+  "Key Features": {
+   "Capacity": "1TB",
+   "Endurance": "3000 P/E Cycles",
+   "Interface": "PCIe 4.0 x4",
+   "MTBF": "1.5 Million Hours",
+   "NAND Flash": "B47R FortisFlash"
+  },
+  "Features": {
+   "Random Read": "500,000 IOPS",
+   "Random Write": "700,000 IOPS",
+   "Technology": "176-layer"
+  },
+  "Main Spec": {
+   "Frequency Response": "1,000 MHz"
+  },
+  "Main Features": {
+   "Read Speed": "5,000 MB/s",
+   "Write Speed": "4,000 MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity : 1TB",
+  "Interface: NVMe GEN4x4",
+  "R/W: 5,000MB/s & 4,000 MB/s",
+  "Form Factor: M.2 2280"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-12T18:30+06:00",
+ "source": "https://www.pchouse.com.bd/addlink-s90-lite-1tb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

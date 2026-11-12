@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "1.2V",
+   "Latency": "CL40",
+   "Others": "Data Transfer Speed: 44800 MB/s"
+  },
+  "Physical dimension": {
+   "Dimension": "46.1(H) x 144.2(L) x 7(W)mm",
+   "Pin": "288 Pin Non-ECC Unbuffered DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Type: DDR5, Speed: 5600MHz",
+  "Operating Voltage: 1.2V",
+  "Latency: CL40"
+ ],
+ "status": "Out Of Stock",
+ "code": "43867",
+ "brand": "Team",
+ "mpn": "FF3D516G5600HC40BDC01",
+ "model": "T-FORCE DELTA RGB 8GB DDR5",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Team T-FORCE DELTA RGB 8GB DDR5 5600MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "TEAM",
+  "Team T-FORCE DELTA RGB 8GB DDR5 5600MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-12T18:14+06:00",
+ "source": "https://www.startech.com.bd/team-t-force-delta-rgb-8gb-ddr5-5600mhz-ram",
+ "store": "startech"
+}

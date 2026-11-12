@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Features": "22.5W / PD 20W power delivery"
+  },
+  "Features": {
+   "Interface": "USB-A/USB-C/Micro-USB"
+  },
+  "Output": {
+   "Output (USB-C)": "5V=3A; 9V=2.22A; 12V= 1.67A",
+   "Output (USB-A1/2)": "5V=3A; 5V=4.5A; 9V=2A; 12V= 1.5A",
+   "Total Output": "5V=3A"
+  },
+  "Input": {
+   "Input (USB-C)": "5V=2A; 9V=2A",
+   "Input (Micro-USB)": "5V=2A; 9V=2A"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "1-Year"
+  }
+ },
+ "key_features": [
+  "Battery Capacity: 30000mAh (3.7V/74Wh)",
+  "Interface: USB-A/Type-C/Micro-USB",
+  "Display: LED Digital Display"
+ ],
+ "warranty": "1-Year",
+ "fetched": "2026-11-12T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/vention-fhmb0-30000mah-led-display-power-bank",
+ "store": "pchouse"
+}
