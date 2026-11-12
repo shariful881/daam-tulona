@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i, IEEE 802.3u, IEEE 802.3ab , IEEE 802.3x",
+   "Interface": "16 10/100/1000Mbps RJ45 Ports (Auto Negotiation/Auto MDI/MDIX)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "No",
+   "Power Supply": "100-240VAC, 50/60Hz",
+   "Max. Power Consumption": "Maximum: 9.26W (220V/50Hz)",
+   "Dimensions ( W x D x H )": "11.6*7.1*1.7 in. (294*180*44 mm)",
+   "Max. Heat Dissipation": "33.93BTU/h",
+   "Switching Capacity": "32Gbps",
+   "Packet Forwarding Rate": "23.8Mpps",
+   "MAC Address Table": "8K",
+   "Jumbo Frame": "10KB",
+   "Green Technology": "Yes",
+   "Transmission Method": "Store-and-Forward",
+   "Certification": "FCC,  RoHs",
+   "Package Content": "16-Port Gigabit Desktop/Rackmount Switch"
+  },
+  "Network Media": {
+   "10BASE-T": "UTP category 3, 4, 5 cable (maximum 100m)",
+   "100BASE-TX/1000BASE-T": "UTP category 5, 5e or above cable (maximum 100m)"
+  },
+  "Advanced Features": {
+   "Isolation Mode": "Ports 1-14",
+   "Loop Prevention": "Ports 1-16"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉);",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉);",
+   "Operating Humidity": "10%~90% non-condensing;",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:04+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sg1016d/",
+ "brand_site": "TP-Link"
+}

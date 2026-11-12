@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specifications": {
+   "Network Media": "• 10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 100BASE-TX: UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "External Power Supply": "External Power Adapter (Output: 53.5 V DC / 1.31 A)",
+   "Packet Forwarding Rate": "1.1904 Mpps",
+   "Mac Address Table": "2K",
+   "Jumbo Frame": "2 KB",
+   "Switching Capacity": "1.6 Gbps",
+   "Dimensions ( W x D x H )": "6.7 × 3.9 × 1.1 in (171 × 98 × 27 mm)",
+   "Max. Power Consumption": "2.27 W (220 V/ 50 Hz. no PD connected)\n75.33 W (220 V/ 50 Hz. with 66 W PD connected)",
+   "Max. Heat Dissipation": "7.74 BTU/h(no PD connected)\n256.88 BTU/h(with 66 W PD connected)",
+   "Advanced Features": "Extend Mode Button (Ports 1–4)\nPriority Mode Button (Ports 1–2)\nPoE Auto Recovery Button (Ports 1–4)\nMac Address Auto-Learning and Auto-Aging",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "TL-SF1008P, Power Adapter, Installation Guide, Rubber Feet"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3 af/at compliant",
+   "• PoE Ports": "Ports 1–4",
+   "• Power Supply": "66 W"
+  },
+  "Environment": {
+   "Operating Temperature": "0–40 ℃ (32–104 ℉)",
+   "Storage Temperature": "-40–70 ℃ (-40–158 ℉)",
+   "Operating Humidity": "10–90% RH non-condensing",
+   "Storage Humidity": "5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sf1008p/",
+ "brand_site": "TP-Link"
+}

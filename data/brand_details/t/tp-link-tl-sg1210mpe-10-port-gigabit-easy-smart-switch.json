@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "9× 10/100/1000 Mbps RJ45 Ports\n1× 1000 Mbps Combo SFP/RJ45 Port\nAUTO Negotiation/AUTO MDI/MDIX",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n100BASE-TX: UTP category 5, 5e cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n1000BASE-T: UTP category 5, 5e, 6 or above cable (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Power Supply": "External Power Adapter (Output: 53.5 VDC/2.43 A)",
+   "PoE Ports (RJ45)": "Standard: 802.3 af/at compliantPoE Ports: Port 1- Port 8PoE Power Budget: 123 W",
+   "Dimensions ( W x D x H )": "8.2 × 4.9 × 1.0 in (209 × 126 × 26 mm)",
+   "Max. Power Consumption": "7.66 W (220V / 50Hz with no PD connected)141.54 W (220V / 50Hz with 123 W PD connected)",
+   "Jumbo Frame": "16 KB",
+   "Switching Capacity": "20 Gbps",
+   "Packet Forwarding Rate": "14.88 Mpps",
+   "MAC Address Table": "4 K",
+   "Quality of Service": "Support Port-Based/802.1p/DSCP priority\nSupport 4 priority queues\nRate Limit\nStorm Control",
+   "VLAN": "Supports up to 32 VLANs simultaneously (out of 4K VLAN IDs)\nMTU/Port/Tag VLAN",
+   "PoE": "Extend Mode**PoE Auto Recovery",
+   "Management Features": "Web-based GUI\nEasy Smart Configuration Utility",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "TL-SG1210MPEPower AdapterInstallation GuideRubber Feet",
+   "System Requirements": "Microsoft® Windows® for running Utility"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90%RH non-condensing",
+   "Storage Humidity": "5%~95%RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg1210mpe/",
+ "brand_site": "TP-Link"
+}

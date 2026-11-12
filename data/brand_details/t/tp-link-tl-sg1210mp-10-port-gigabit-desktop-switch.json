@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "• 9× 10/100/1000 Mbps RJ45 Ports\n• 1× 1000 Mbps Combo SFP/RJ45 Port\n• AUTO Negotiation\n• AUTO MDI/MDIX",
+   "Network Media": "• 10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 100BASE-TX: UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "External Power Supply": "External Power Adapter (Output: 53.5VDC / 2.43A)",
+   "Packet Forwarding Rate": "14.88 Mpps",
+   "Mac Address Table": "4K",
+   "Jumbo Frame": "16 KB",
+   "Switching Capacity": "20 Gbps",
+   "Dimensions ( W x D x H )": "8.2 × 4.9 × 1.0 in (209 × 126 × 26 mm)",
+   "Max. Power Consumption": "• 7.93 W (220V / 50Hz with no PD connected)\n• 141.40 W (220V / 50Hz with 123 W PD connected)",
+   "Max. Heat Dissipation": "• 27.04 BTU/h (220V / 50Hz with no PD connected)\n• 482.17 BTU/h (220V / 50Hz with 123 W PD connected)",
+   "Advanced Features": "• Compatible With IEEE 802.3af/at Compliant PDs\n• Extend Mode Button (Ports 1–4, Up to 250 m PoE power supply and data transmission)\n• Priority Mode Button (Ports 1–2)\n• Isolation Mode Button (Ports 1–4 / 5-8)\n• PoE Auto Recovery (Ports 1-8)",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "• TL-SG1210MP\n• Power Adapter\n• Installation Guide"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3 af/at compliant",
+   "• PoE Ports": "Ports 1–8",
+   "• Power Supply": "123 W"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–40 ℃ (32–104 ℉)",
+   "• Storage Temperature": "-40–70 ℃ (-40–158 ℉)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:05+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sg1210mp/",
+ "brand_site": "TP-Link"
+}

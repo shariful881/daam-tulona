@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS Dual Radeon™ RX 6600",
+   "Graphic Engine": "AMD Radeon™ RX 6600",
+   "Bus Standard": "PCI Express 4.0",
+   "OpenGL": "OpenGL®4.6",
+   "Video Memory": "8GB GDDR6",
+   "Stream Processors": "1792",
+   "Memory Speed": "14 Gbps",
+   "Memory Interface": "128-bit",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Interface": "HDCP Support Yes (2.3)",
+   "Maximum Display Support": "4",
+   "NVlink/ Crossfire Support": "Yes",
+   "Software": "ASUS GPU Tweak II & Drivers: please download all software from the support site.",
+   "Dimensions": "243 x 134 x 49 mm\n9.6 x 5.3 x 1.9 inches",
+   "Recommended PSU": "500W",
+   "Power Connectors": "1 x 8-pin",
+   "Slot": "2.5 Slot",
+   "Note": "* Crossfire Support for DirecX® 12 and Vulkan®"
+  },
+  "Engine Clock": {
+   "OC mode": "up to 2491 MHz (Boost Clock)/up to 2064 MHz (Game Clock)",
+   "Gaming mode": "up to 2491 MHz (Boost Clock)/up to 2044 MHz (Game Clock)"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS Dual Radeon™ RX 6600",
+ "fetched": "2026-11-12T22:14+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rx6600-8g/techspec/",
+ "brand_site": "ASUS"
+}

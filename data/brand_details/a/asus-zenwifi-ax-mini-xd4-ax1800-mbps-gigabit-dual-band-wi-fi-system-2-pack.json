@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS ZenWiFi AX Mini (XD4)",
+   "Model Name": "XD4 (B-3-PK)\nXD4 (L-3-PK)\nXD4 (W-3-PK)",
+   "Network Standard": "IEEE 802.11a\nIEEE 802.11b\nIEEE 802.11g\nWiFi 4 (802.11n)\nWiFi 5 (802.11ac)",
+   "Product Segment": "AX1800 ultimate AX performance : 1201 Mbps+ 574 Mbps",
+   "Antenna": "Internal dual-band antenna x 2",
+   "Transmit / Receive": "MIMO technology\n2.4GHz 2x2\n5GHz 2x2",
+   "Memory": "256 MB Flash, 256 MB RAM",
+   "Boosts Speed": "MIMO technology",
+   "Operating Frequency": "2.4 G Hz / 5 GHz",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN/LAN x 1, RJ45 for Gigabits BaseT for LAN x1",
+   "Buttons": "WPS Button, Reset Button",
+   "LED Indicator": "Power x 1",
+   "Package Content": "‧Router (XD4R)\n‧Node (XD4N)\n‧RJ45 Ethernet cable\n‧Power adapter\n‧Quick start guide",
+   "Product Weight (g)": "295 g",
+   "Product Dimensions": "90 x 90 x 80 mm",
+   "Remark": "3-pack router*1+node*2\n2-pack router*1+node*1\n1-pack router*1\nContent may vary in different regions and  packages.",
+   "AiMesh": "AiMesh\n• Primary AiMesh Router\n• AiMesh Node",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\"\nCustomized Internet Schedule",
+   "Router APP": "APP: ASUS Router APP",
+   "Guest Network": "Support Guest Network\n• Maximum Guest Network Rule : 9\nGuest Network Connection Time Limit",
+   "Security": "WPA3-Personal, WPA/WPA2/WPA3-Personal, WPA/WPA2-Enterprise, WPS support\nWPS\nLet's Encrypt\nSSH\nFirewall",
+   "AiProtection": "AiProtection Classic\n• Malicious Site Blocking\n• Infected Device Prevention and Blocking",
+   "VPN": "VPN Client L2TP\nVPN Client Open VPN\nVPN Client PPTP\nVPN Server IPSec\nVPN Server Open VPN",
+   "Traffic Control": "• Bandwidth Monitor\n• Bandwidth Limiter\nTraditional QoS\n• Maximum Traditional QoS Rule : 32\n• Real-time Traffic Monitor",
+   "WAN": "Internet connection Type : PPPoE, PPTP, L2TP, Automatic IP, Static IP\nPort Forwarding\nPort Triggering\nDMZ\nDDNS",
+   "LAN": "DHCP Server\nIGMP Snooping\nIPTV\nManually Assign IP Address\n• Maximum Manually Assign IP Address Rule : 64",
+   "Wireless": "UTF-8 SSID",
+   "Administration": "Configuration Backup and Restore\nDiagnosis Tools\nFeedback System\nSystem Log"
+  },
+  "WiFi Data Rate": {
+   "802.11a": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "WiFi 4 (802.11n)": "up to 300 Mbps",
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 6 (802.11ax) (5GHz)": "up to 1201 Mbps"
+  },
+  "Power Supply": {
+   "\"AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 1.5 A current\""
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ZenWiFi AX Mini (XD4)",
+ "fetched": "2026-11-12T22:24+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/asus-zenwifi/asus-zenwifi-ax-mini-xd4/techspec/",
+ "brand_site": "ASUS"
+}

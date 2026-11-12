@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i\n802.3u\n802.3ab\n802.3x",
+   "Interface": "8 10/100/1000Mbps RJ45 Ports",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "No",
+   "Jumbo Frame": "15 KB",
+   "Switching Capacity": "16 Gbps",
+   "Dimensions ( W x D x H )": "7.1 × 3.5 × 1.0 in.\n(180 × 90 × 26 mm)",
+   "Max. Power Consumption": "4.6W",
+   "Max. Heat Dissipation": "15.8 BTU/h",
+   "Advanced Features": "Green Technology, saving power up to 80%\n802.3x Flow Control, Back Pressure",
+   "MAC Address Table": "4K",
+   "Transmission Method": "Store and Forward",
+   "Certification": "FCC",
+   "Package Content": "8-Port Gigabit Desktop Switch TL-SG1008D"
+  },
+  "External Power Supply": {
+   "(Output": "9VDC / 0.6A)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~60℃ (-40℉~140℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg1008d/",
+ "brand_site": "TP-Link"
+}

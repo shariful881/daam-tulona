@@ -1,0 +1,146 @@
+{
+ "specs": {
+  "System": {
+   "Main Processor": "64-bit multi-core processor",
+   "Operating System": "Embedded Linux",
+   "Operating Interface": "Webpage (PCAPP);Local GUI",
+   "AI Card": "8, AI card mode is switchable"
+  },
+  "AI Applications": {
+   "AcuPick": "2. AI by Camera: Supports 160-channel 2 MP or 80-channel 4 MP resolution"
+  },
+  "Face Detection": {
+   "Face Detection": "3. Supports 6 properties: Gender, age, glasses, expression, face mask, and beard"
+  },
+  "WizSeek": {
+   "Performance": "AI by Recorder:\nEach AI card for WizSeek modeling can analyze 16 targets/s"
+  },
+  "Face Recognition": {
+   "Face Database Capacity": "1. 100 human face databases with 500,000 face pictures in total;\n2. 5 passerby databases with 500,000 face pictures in total;"
+  },
+  "Face Recognition › Face Recognition": {
+   "2. AI by Camera": "160-channel 2 MP or 80-channel 4 MP with face recognition IP camera;\n3. Supports entries frequency alarm"
+  },
+  "Video Metadata › Video Metadata": {
+   "2. AI by Camera": "Supports 160-channel 2 MP or 80-channel 4 MP resolution;\n3. Object type:"
+  },
+  "Vehicle License Plate Comparison": {
+   "License Plate Database Capacity": "1. 50 plate databases with 500,000 plate numbers in total;\n2. Supports allowlist and blocklist",
+   "Vehicle License Plate Comparison": "Supports 160-channel 2 MP or 80-channel 4 MP resolution with ITC"
+  },
+  "IVS Analytics › IVS": {
+   "2. AI by Camera": "Supports 160-channel 2 MP or 80-channel 4 MP resolution;\n3. Rules:"
+  },
+  "Intelligent Task Analytics": {
+   "Intelligent Task Analytics": "Local video records, import DAV videos from external devices for analysis"
+  },
+  "Video Diagnosis": {
+   "Video Diagnosis": "1. Supports 1-channel tour detection;"
+  },
+  "Intelligent Video Compression": {
+   "Intelligent Video Compression": "1. Compressed preview, playback and download of source stream on the platform;\n2. Supports origin/compression dual stream live view and storage;\n3. Supports compressing a variety of third-party code streams (ONVIF/RTSP);\n4. Compression Resolution: 12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080p/1.3 MP/720p/D1;"
+  },
+  "Industrial Algorithms": {
+   "Industrial Algorithms": "The industrial algorithm is an optional installment",
+   "PPE Detection": "1. AI by Recorder: 64-channel 2 MP/4 MP/8 MP (8-channel for each AI card);"
+  },
+  "Industrial Algorithms › Work Behavior Analysis": {
+   "Without large model (by default)": "64-channel 2 MP/4 MP/8 MP (8-channel for each AI card);",
+   "With large model (optional)": "32-channel 2 MP/4 MP/8 MP (4-channel for each AI card);"
+  },
+  "Industrial Algorithms › Smart Object Detection": {
+   "1. AI by Recorder": "64-channel 2 MP/4 MP/8 MP (8-channel for each AI card);",
+   "2. Rules": "AI by Recorder: smart missing object and smart abandoned object;",
+   "3. Object Type": "non-motor vehicles, luggage, bags and boxes"
+  },
+  "Industrial Algorithms › People Behavior Analysis": {
+   "Without large model (by default)": "64-channel 2 MP/4 MP/8 MP (8-channel for each AI card);",
+   "With large model(optional)": "32-channel 2 MP/4 MP/8 MP (4-channel for each AI card);"
+  },
+  "Audio and Video": {
+   "Access Channel": "256-channel",
+   "Resolution": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p",
+   "Video Output": "1-channel VGA output; 4-channel HDMI output; VGA 1/HDMI 1 outputs the same video source",
+   "Third-party Camera Access": "ONVIF;RTSP;Sony;Panasonic;Axis;Arecont;Pelco;Canon;Samsung"
+  },
+  "Audio and Video › Network Bandwidth": {
+   "Incoming bandwidth": "768 Mbps",
+   "Recording bandwidth": "768 Mbps",
+   "Outgoing bandwidth": "768 Mbps"
+  },
+  "Audio and Video › Multi-screen Display": {
+   "1st Screen": "Max. 64-channel;",
+   "2nd Screen": "Max. 16-channel;",
+   "3rd Screen": "Max. 1-channel;",
+   "4th Screen": "Max. 1-channel"
+  },
+  "Compression Standard": {
+   "Video Compression": "Smart H.265+;H.265;Smart H.264+;H.264",
+   "Audio Compression": "G.711a;G.711u;PCM;G.726"
+  },
+  "Network": {
+   "Network Protocol": "HTTP;HTTPS;TCP/IP;IPv4;RTSP;UDP;SMTP;NTP;DHCP;DNS;DDNS;P2P;iSCSI;IPv6;UPnP;SNMP",
+   "Mobile Phone Access": "DMSS",
+   "Interoperability": "CGI;SDK;ONVIF (Profile S & Profile G & Profile T & Profile M)",
+   "Browser": "Chrome; PCAPP; IE9 or higher; Firefox",
+   "Network Mode": "Multi-address mode;Load balance;Fault-tolerance;Link aggregation"
+  },
+  "Recording Playback": {
+   "Multi-channel Playback": "16 channels",
+   "Storage Method": "Local hard disk",
+   "Backup Method": "Hard disk;External USB storage device",
+   "Playback Function": "1. Play; Pause; Stop; Fast forward; Fast backward; Reverse play; Frame by frame;\n2. Full-screen; Backup (clip and file); Snapshot; Digital zoom; Audio on and off"
+  },
+  "Storage": {
+   "Disk Group": "16",
+   "Network Disk": "iSCSI",
+   "Record Management": "Supports record control (continuous, event-based, scheduled, scheduled & event-based)"
+  },
+  "Port": {
+   "Audio Input": "1 channel",
+   "Audio Output": "1 channel",
+   "Alarm Input": "16 channels",
+   "Alarm Output": "8 channels",
+   "Disk Interface": "16 slots, SATA. Max.20 TB/HDD, hot swapping, CMR, support enterprise-grade HDD",
+   "eSATA": "1",
+   "RS-232": "1 port, for debug or COM data transmission",
+   "RS-485": "1 port, control peripheral PTZ and so on. Supports various protocols",
+   "USB": "2 × rear-mounted USB 3.0 ports;2 × front-mounted USB 2.0 ports",
+   "HDMI": "4 ports. HDMI 1 supports 4K output",
+   "VGA": "1",
+   "Network Port": "4 RJ-45 ports 10/100/1000/2500 Mbps self-adaptive Ethernet ports",
+   "Power": "Single supply",
+   "Network Port Extension": "4 RJ-45 ports 10/100/1000/2500Mbps self-adaptive Ethernet ports;\n2 × 10-GbE optical fiber ports (optional)"
+  },
+  "General": {
+   "Disk Bay": "16",
+   "Form Factor": "3U",
+   "Power Supply": "100–127/200–240 VAC, 50/60 Hz, 5/2.5 A",
+   "Fan": "Intelligent speed controlling fan",
+   "Net Weight": "20.05 kg (44.20 lb)",
+   "Gross Weight": "33.01 kg (72.77 lb)",
+   "Packaging Dimensions": "With packaging: 689 mm × 779 mm × 464 mm (27.13\" × 30.67\" × 18.27\") (W × D × H)",
+   "Operating Temperature": "0 °C to +45 °C (+32 °F to +113 °F)",
+   "Operating Humidity": "10%–90% (RH), non-condensing",
+   "Operating Altitude": "5,000 m (16,404.20 ft)",
+   "Installation": "Desktop;Rack"
+  },
+  "General › Power Consumption": {
+   "Working (all HDDs connected)": "≤250 W (853 BTU/hr);",
+   "Working (without HDD)": "≤150 W (512 BTU/hr);",
+   "Rated": "≤550 W (1877 BTU/hr)"
+  },
+  "General › Product Dimensions": {
+   "Chassis": "444.8 mm × 495.0 mm × 133.2 mm (17.51\" × 19.49\" × 5.24\") (W × D × H);",
+   "Max. size": "485 mm (with hanger) × 526.0 mm × 133.2 mm (19.09\" × 20.71\" × 5.24\") (W × D × H)"
+  },
+  "General › Certifications": {
+   "CE-LVD": "EN 62368-1;",
+   "CE-EMC": "EN IEC 61000-3-2, EN 61000-3-3, EN 55032, EN 50130-4, EN 55035"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:17+06:00",
+ "source": "https://www.dahuasecurity.com/products/network-products/intelligent-computing/intelligent-video-surveillance-server/ivss71-series/ivss7116-8i",
+ "brand_site": "Dahua"
+}

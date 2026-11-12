@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "• 16× 10/100/1000 Mbps PoE+ RJ45 Ports (Auto Negotiation/Auto MDI/MDIX)\n• 2× 10/100/1000 Mbps non-PoE RJ45 Ports (Auto Negotiation/Auto MDI/MDIX)\n• 2× Combo Gigabit SFP Ports",
+   "Network Media": "• 10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 100BASE-TX: UTP category 5, 5e cable (maximum 100m)\n• EIA/TIA-568 100Ω STP (maximum 100m)\n• 1000BASE-T: UTP category 5, 5e, 6 or above cable (maximum 100m)",
+   "Fan Quantity": "2 Fans",
+   "Physical Security Lock": "Yes",
+   "Power Supply": "100–240V AC, 50/60 Hz",
+   "Dimensions ( W x D x H )": "17.3 × 7.1 × 1.7 in (440 × 180 × 44 mm)",
+   "Mounting": "Rack Mountable",
+   "Max. Power Consumption": "• 21.4 W (220/50Hz. no PD connected)\n• 296.3 W (220/50Hz. with 250 W PD connected)",
+   "Max. Heat Dissipation": "• 72.97 BTU/h (no PD connected)\n• 1010.38 BTU/h (with 250 W PD connected)",
+   "Packet Buffer Memory": "4.1 Mbit",
+   "Jumbo Frame": "10 KB",
+   "Switching Capacity": "36 Gbps",
+   "Packet Forwarding Rate": "26.78 Mbps",
+   "MAC Address Table": "8K",
+   "Quality of Service": "• Support Port-based 802.1p/DSCP priority\n• Support 4 priority queues\n• Rate Limit\n• Storm Control",
+   "L2 Features": "• IGMP Snooping V1/V2/V3\n• Static Link Aggregation\n• Port Mirroring\n• Cable Diagnostics\n• Loop Prevention",
+   "VLAN": "• Support up to 32 VLANs simultaneously (out of 4K VLAN IDs)\n• MTU/Port/Tag VLAN",
+   "Management Features": "• Web-based GUI\n• Easy Smart Configuration Utility",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "CE, FCC",
+   "Package Content": "• TL-SG1218MPE\n• Power Cord\n• Installation Guide\n• Rackmount Kit\n• Rubber Feet"
+  },
+  "PoE Ports (RJ45)": {
+   "• Standard": "802.3at/802.3af compliant",
+   "• PoE+ Ports": "Ports 1–16",
+   "• Power Supply": "250 W"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–50 °C (32–122 °F)",
+   "• Storage Temperature": "-40–70 °C (-40–158 °F)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:05+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg1218mpe/",
+ "brand_site": "TP-Link"
+}

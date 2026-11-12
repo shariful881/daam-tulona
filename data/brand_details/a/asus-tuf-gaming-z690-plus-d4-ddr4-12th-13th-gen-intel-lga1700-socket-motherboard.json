@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF GAMING Z690-PLUS D4",
+   "CPU": "Intel\n®\nSocket LGA1700 for Intel\n®\nCore™ 14th & 13th Gen Processors, Intel",
+   "Chipset": "Z690",
+   "Memory": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB,\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nOptiMem II",
+   "Graphics": "1 x DisplayPort**\n1 x HDMI\n®\nport***\n* Graphics specifications may vary between CPU types.",
+   "Expansion Slots": "Intel\n®\n14th & 13th & 12th Gen Processors\n1 x PCIe 5.0 x16 slot\nIntel",
+   "Storage": "Supports 4 x M.2 slots and 4 x SATA 6Gb/s ports,\nIntel\n®\n14th & 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110",
+   "Ethernet": "1 x Intel® 2.5Gb Ethernet,\nTUF LANGuard",
+   "USB": "Rear USB:Total 8 ports,\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n5 x USB 3.2 Gen 1 ports (4 x Type-A + 1 x USB Type-C®)\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)",
+   "Audio": "ALC887/897,\nRealtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features",
+   "Back Panel I/O Ports": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C\n®\n)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n5 x USB 3.2 Gen 1 ports (4 x Type-A + 1 x USB Type-C",
+   "Internal I/O Connectors": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers",
+   "Special Features": "Y,\nASUS TUF PROTECTION\n- DIGI+ VRM (- Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 4",
+   "BIOS": "192 (128+64) Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Form Factor": "ATX, 30.5cm x 24.4cm"
+  }
+ },
+ "key_features": [],
+ "model": "TUF GAMING Z690-PLUS D4",
+ "fetched": "2026-11-12T22:22+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-z690-plus-d4/techspec/",
+ "brand_site": "ASUS"
+}

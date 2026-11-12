@@ -1,0 +1,79 @@
+{
+ "specs": {
+  "Tech Specs": {
+   "Case Supported": "Mini-ITX | MicroATX | ATX | E-ATX (305mm x 277mm)",
+   "Case Height": "486",
+   "Case Length": "490",
+   "Case Width": "239",
+   "Material": "Steel,Tempered Glass,Plastic",
+   "Color": "WHITE",
+   "Case Size": "Mid-Tower",
+   "Radiator Compatibility": "120mm,140mm,240mm,280mm,360mm",
+   "Case Window": "Tempered Glass",
+   "Compatible Liquid Coolers": "H60,H100,H115,H150,NAUTILUS,TITAN",
+   "Case Warranty": "2 Year",
+   "Maximum CPU Cooler Height": "170mm",
+   "Maximum PSU Length": "220mm",
+   "Case Front IO": "(1x) USB 3.2 Gen 2x2 Type-C, (2x) USB 3.2 Gen 1 Type-C, (1x) Audio in/out",
+   "Maximum GPU Length": "430mm",
+   "Weight": "12kg",
+   "Case Expansion Slots": "7 Horizontal or 3 Vertical",
+   "Case Power Supply": "ATX",
+   "Radiator Support - Top": "360mm, 280mm, 240mm",
+   "Radiator Support - Front": "360mm, 280mm, 240mm",
+   "Radiator Support - Bottom": "None",
+   "Radiator Support - Side": "360mm, 280mm, 240mm",
+   "Radiator Support - Rear": "140mm, 120mm",
+   "Fan Support - Top": "3x 120mm, 2x 140mm",
+   "Fan Support - Front": "3x 120mm, 2x 140mm, 2x 200mm",
+   "Fan Support - Bottom": "3x 120mm",
+   "Fan Support - Side": "3x 120mm, 2x 140mm",
+   "Fan Support - Rear": "1x 120mm, 1x 140mm",
+   "Front IO Motherboard Connections": "1x USB-3.2 Gen2x2 Type-E, 1x USB 3.2 Gen1 20-Pin, 1x F_PANEL, 1x HD Audio",
+   "Reverse Connector Motherboard Support": "Yes",
+   "Included Fans": "No Fans Included",
+   "Dust Filtration": "Yes",
+   "Cable Routing Space": "37mm",
+   "RapidRoute Included": "No",
+   "Right Side Panel": "Steel",
+   "Left Side Panel": "Tempered Glass",
+   "Vertical Mount Support": "Supported (Riser Card Sold Separately)"
+  },
+  "FRAME 4000D VAULT SERIES": {
+   "INCLUDED FANS": "None",
+   "USB PORTS": "1x USB 3.2 Gen 2x2 Type-C\n2x USB 3.2 Gen 1 Type-C",
+   "LEFT SIDE PANEL": "Full-Tempered Glass",
+   "PSU SHROUD": "Compact",
+   "BOTTOM FAN SUPPORT": "1x 120mm",
+   "LIMITED EDITION": "Aluminum Badge Etching"
+  },
+  "FRAME 4000D": {
+   "INCLUDED FANS": "None",
+   "USB PORTS": "1x USB 3.2 Gen 2x2 Type-C\n2x USB 3.2 Gen 1 Type-A",
+   "LEFT SIDE PANEL": "Glass + Mesh",
+   "PSU SHROUD": "Full Length",
+   "BOTTOM FAN SUPPORT": "None",
+   "LIMITED EDITION": "None"
+  },
+  "FRAME 4000D RS ARGB": {
+   "INCLUDED FANS": "3x RS120 ARGB PWM Fans",
+   "USB PORTS": "1x USB 3.2 Gen 2x2 Type-C\n2x USB 3.2 Gen 1 Type-A",
+   "LEFT SIDE PANEL": "Glass + Mesh",
+   "PSU SHROUD": "Full Length",
+   "BOTTOM FAN SUPPORT": "None",
+   "LIMITED EDITION": "None"
+  },
+  "FRAME 4000D LCD RS ARGB": {
+   "INCLUDED FANS": "4x RS120 ARGB PWM Fans",
+   "USB PORTS": "1x USB 3.2 Gen 2x2 Type-C\n2x USB 3.2 Gen 1 Type-C",
+   "LEFT SIDE PANEL": "Two-thirds Tempered Glass",
+   "PSU SHROUD": "Compact",
+   "BOTTOM FAN SUPPORT": "1x 120mm",
+   "LIMITED EDITION": "None"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:05+06:00",
+ "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011343-ww/frame-4000d-vault-series-modular-mid-tower-pc-case-nova-cc-9011343-ww",
+ "brand_site": "Corsair"
+}

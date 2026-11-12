@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Image Sensor": {
+   "Channel 1 (PT Lens)": "1/2.9\" CMOS",
+   "Channel 2 (Fixed Lens)": "1/2.9\" CMOS"
+  },
+  "Specifications": {
+   "Max. Resolution": "Channel 1-2: 2304 (H) × 1296 (V)",
+   "Illumination Distance": "Up to 30 m (98.43 ft) (Warm light)",
+   "Illuminator Number": "4 (Warm light)",
+   "Lens Type": "Fixed-focal",
+   "Max. Aperture": "F1.0",
+   "Human Detection": "Yes",
+   "Vehicle Detection": "Yes",
+   "Video Compression": "H.265; H.264; H.264H; H.264B; MJPEG (Only supported by sub stream)",
+   "Video Bit Rate": "H.265: 512 kbps–4096 kbps",
+   "Day/Night": "Color/B/W",
+   "WDR": "120 dB",
+   "Motion Detection": "OFF/ON (4 areas, rectangular)",
+   "Image Rotation": "0°/180°",
+   "Built-in MIC": "Yes, built-in Mic",
+   "Built-in Speaker": "Yes, built-in speaker",
+   "Audio Compression": "G.711a; G.711Mu; PCM; G.726",
+   "Network Port": "RJ-45 (10/100 Base-T)",
+   "Wi-Fi": "IEEE 802.11b/g/n/ax\nEIRP≤20dBm@2400-2483.5MHz",
+   "Wi-Fi Pairing": "Bluetooth pairing",
+   "Storage": "Micro SD card (support max. 256 GB)",
+   "Management Software": "Smart PSS Lite; DSS; DMSS",
+   "Mobile Client": "Android;iOS",
+   "Abnormal Sound Alarm": "Yes",
+   "Power Supply": "12 VDC (±30%); PoE (802.3af)",
+   "Operating Temperature": "–30 °C to +50 °C (–22 °F to +122 °F)",
+   "Operating Humidity": "≤95%",
+   "Protection": "IP66",
+   "Camera Button": "Reset button",
+   "Casing Material": "Plastic",
+   "Product Dimensions": "159.4 mm × 119.1 mm × 210 mm (6.28\" × 4.69\" × 8.27\") (L × W × H)",
+   "Net Weight": "585 g (1.29 lb)"
+  },
+  "Angle Adjustment": {
+   "Pan": "0° to 352°",
+   "Tilt": "0° to 90°"
+  },
+  "Focal Length": {
+   "Channel 1 (PT Lens)": "6 mm",
+   "Channel 2 (Fixed Lens)": "2.8 mm"
+  },
+  "Field of View": {
+   "Channel 1 (PT Lens)": "H: 52°; V: 29°; D: 60°",
+   "Channel 2 (Fixed Lens)": "H: 89°; V: 48°; D: 105°"
+  },
+  "Video Frame Rate": {
+   "Main stream": "2304 × 1296@(1–20 fps)",
+   "sub stream": "640 × 360@(1–25/30 fps)\n*The values above are the max. frame rates of each stream; for multiple streams, the values will be subjected to the total encoding capacity."
+  },
+  "Certifications": {
+   "CE-LVD": "EN62368-1;",
+   "CE-EMC": "Electromagnetic Compatibility Directive 2014/30/EU;",
+   "CE-RED": "Radio Equipment Directive 2014/53/EU"
+  },
+  "Power Consumption": {
+   "Basic": "2.3 W (12 VDC); 3.1 W (PoE);",
+   "Max.": "9.8 W (12 VDC); 11.1W (PoE) (intelligence on + WDR + illuminator on + PT rotation + speaker on)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:24+06:00",
+ "source": "https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p3d-3f-pv-p",
+ "brand_site": "Dahua"
+}

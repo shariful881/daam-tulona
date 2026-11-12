@@ -1,0 +1,72 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG279QL1A",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower adapter\nDisplayPort cable",
+   "Certificate": "G-SYNC Compatible\nAMD FreeSync Premium\nVESA DisplayHDR 400\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "597.888 x 336.312 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.311mm",
+   "Resolution": "1920x1080",
+   "Brightness (HDR, Peak)": "400 cd/㎡",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "16.7M",
+   "Response Time": "1ms MPRT",
+   "Refresh Rate (Max)": "165Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.2",
+   "Extreme Low Motion Blur": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "DisplayPort: 200~200 KHz (H) / 48~165 Hz (V)",
+   "HDMI": "30~200KHz (H) / 48~165 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<18W*",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Swivel": "Yes (+15° ~ -15°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~120mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.41 x 53.37 x 21.38 cm (24.18\" x 21.01\" x 8.42\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.41 x 36.40 x 5.70 cm (24.18\" x 14.33\" x 2.24\")",
+   "Box Dimension (W x H x D)": "73.00 x 44.10 x 22.40 cm (28.74\" x 17.36\" x 8.82\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "6.2 kg (13.67 lbs)",
+   "Net Weight without Stand": "3.9 kg (8.60 lbs)",
+   "Gross Weight": "9.5 kg (20.94 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG279QL1A",
+ "fetched": "2026-11-12T22:20+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg279ql1a/techspec/",
+ "brand_site": "ASUS"
+}

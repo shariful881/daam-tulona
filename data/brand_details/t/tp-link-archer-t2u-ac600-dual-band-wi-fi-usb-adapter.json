@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 2.0",
+   "LED": "Status",
+   "Dimensions ( W x D x H )": "1.6×0.7×0.3 in. (41×19.5×8.7mm)",
+   "Antenna": "Omni Directional",
+   "Wireless Standards": "IEEE 802.11ac, IEEE 802.11a,\nIEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Frequency": "5GHz\n2.4GHz",
+   "Signal Rate": "5GHz\n11ac: Up to 433Mbps(dynamic)\n11n: Up to 150Mbps(dynamic)\n11a: Up to 54Mbps(dynamic)\n2.4GHz",
+   "Reception Sensitivity": "5GHz：",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK, 802.1x",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM",
+   "Transmission Power": "<20dBm (EIRP)",
+   "Certification": "FCC",
+   "Package Content": "Wireless Adapter Archer T2U\nResource CD\nQuick Installation Guide",
+   "System Requirements": "Windows & MacOS"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:08+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t2u/",
+ "brand_site": "TP-Link"
+}

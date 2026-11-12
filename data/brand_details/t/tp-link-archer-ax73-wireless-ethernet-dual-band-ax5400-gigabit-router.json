@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Specification": {
+   "Traditional Router with Extender": "Archer AX73 + OneMesh™ Range Extender"
+  },
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "WiFi Range": "3 Bedroom Houses\n6× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway\nHomeShield Security",
+   "Guest Network": "1× 5 GHz Guest Network1× 2.4 GHz Guest Network",
+   "VPN Server": "OpenVPNPPTP",
+   "VPN Client": "• Open VPN Client• PPTP VPN Client• L2TP VPN Client",
+   "WiFi Encryption": "WPAWPA2WPA3WPA/WPA2-Enterprise (802.1x)",
+   "Processor": "1.5 GHz Triple-Core CPU",
+   "Ethernet Ports": "1× Gigabit WAN Port4× Gigabit LAN Ports\nStatic Link Aggregation (LAG) available with 2× LAN ports",
+   "USB Support": "1× USB 3.0 Port\nSupported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\nSupported Functions:\nApple Time Machine",
+   "Power": "12 V ⎓ 2.5 A",
+   "Buttons": "Wi-Fi On/Off ButtonPower On/Off ButtonLED On/Off ButtonWPS ButtonReset Button",
+   "Protocols": "IPv4IPv6",
+   "Service Kits": "HomeShield\nLearn More>",
+   "OneMesh™": "Learn More>\nAll OneMesh Products>",
+   "Parental Controls": "HomeShield Parental Controls\nCustom Profiles\nProfessional Content Filter Library\nFamily Time\nBedtime",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "Cloud Service": "Auto Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP\nVirtual Server",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
+   "Certifications": "FCC, CE",
+   "Dimensions (W×D×H)": "10.7 × 5.8 × 1.9 in\n(272.5 × 147.2 × 49.2 mm)",
+   "Package Content": "Wi-Fi Router Archer AX73\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "4804 Mbps (802.11ax, HE160)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "WiFi Reception Sensitivity": {
+   "2.4GHz": "11ac VHT20 MCS0:-94.5dBm",
+   "11ac VHT20 MCS8": "-72.5dBm",
+   "11ac VHT40 MCS0": "-92.5dBm",
+   "11ac VHT40 MCS9": "-69.5dBm",
+   "11ax HE20 MCS0": "-95dBm"
+  },
+  "Reviews & Awards": {
+   "Awards": "Business Insider\n2021, United States"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:02+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax73/",
+ "brand_site": "TP-Link"
+}

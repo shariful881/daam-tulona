@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-BE96U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6E (802.11ax)\nWiFi 6 (802.11ax)",
+   "Product Segment": "BE19000 ultimate BE performance : 1376+5764+11529 Mbps",
+   "Antenna": "External antenna x 8",
+   "Transmit / Receive": "6GHz 4x4\n5GHz 4x4\n2.4GHz 4x4",
+   "Processor": "2.6GHz quad-core processor",
+   "Memory": "256 MB Flash and 2 GB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160/320 MHz bandwidth",
+   "Operating Frequency": "6 GHz\n5 GHz\n2.4 GHz",
+   "Operating Mode": "Repeater Mode\nMedia Bridge Mode\nAccess Point Mode\nAiMesh Node Mode\nWireless Router Mode",
+   "I/O Ports": "1 x 10Gbps for WAN/LAN + 1 x RJ45 10/100/1000Mbps for WAN/LAN\n3x RJ45 10/100/1000Mbps for LAN, 1 x 10Gbps for LAN\nUSB 3.2 Gen1 x1, 2.0 x1",
+   "Buttons": "WPS Button, Reset Button, Power Switch, LED on/off Button",
+   "LED Indicator": "WAN x1\n10G LAN x1\n1G LAN x1\nWPS x1\n6GHz x1",
+   "Package Content": "RT-BE96U WiFi router\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
+   "Product Weight (g)": "1870 g",
+   "Product Dimensions": "350.6*350.6*217.6",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Mobile Game Mode, Gear Accelerator, OpenNAT (Game Profile)",
+   "Security": "AiProtection, VPN, WPA/WPA2/WPA3 Personal\nWPA/WPA2/WPA3 Enterprise",
+   "WAN": "• Automatic IP\n• L2TP\n• PPTP\n• PPPoE\n• SIP Pass-Through",
+   "USB application": "• ext4\n• ext3\n• ext2\n• vFAT\n• NTFS",
+   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (6GHz)": "up to 11529 Mbps",
+   "WiFi 7 (802.11be) (5GHz)": "up to 5764 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 1376 Mbps"
+  }
+ },
+ "key_features": [],
+ "model": "RT-BE96U",
+ "fetched": "2026-11-12T22:18+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-be96u/techspec/",
+ "brand_site": "ASUS"
+}

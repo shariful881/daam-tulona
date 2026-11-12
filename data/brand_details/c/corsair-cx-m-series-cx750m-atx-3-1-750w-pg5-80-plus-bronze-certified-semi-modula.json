@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "CX750M POWER": {
+   "Part No.": "CP-9020222",
+   "AC Input": "100-240V",
+   "Input Current": "10A-5A",
+   "Frequency": "47~63Hz",
+   "Total Power": "750W"
+  },
+  "Tech Specs": {
+   "EPS12V Version": "2.92",
+   "PATA Connector": "4",
+   "SATA Connector": "8",
+   "Fan Bearing Technology": "Rifle",
+   "Modular": "Semi",
+   "Cable Type": "Low-Profile, All Black",
+   "Zero RPM Mode": "No",
+   "PSU Form Factor": "ATX",
+   "Single Multiple 12V Rail Toggl": "No",
+   "Multi GPU Ready": "No",
+   "Fan Size MM": "120mm",
+   "Continuous Power W": "750 Watts",
+   "ATX Connector": "1",
+   "Continuous Output Rated Temp C": "40°C",
+   "ATX12V Version": "v2.4",
+   "MTBF Hours": "100,000 hours",
+   "Warranty": "5 Year",
+   "Weight": "2kg"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:15+06:00",
+ "source": "https://www.corsair.com/us/en/p/psu/cp-9020222-na/cx-m-series-cx750m-750-watt-80-plus-bronze-semi-modular-atx-psu-cp-9020222-na",
+ "brand_site": "Corsair"
+}

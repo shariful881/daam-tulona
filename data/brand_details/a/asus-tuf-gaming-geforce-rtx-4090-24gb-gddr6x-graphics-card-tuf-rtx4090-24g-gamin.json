@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS TUF Gaming GeForce RTX 4090 24GB GDDR6X",
+   "Graphic Engine": "NVIDIA® GeForce RTX™ 4090",
+   "AI Performance": "1321",
+   "Bus Standard": "PCI Express 4.0",
+   "OpenGL": "OpenGL®4.6",
+   "Video Memory": "24GB GDDR6X",
+   "CUDA Core": "16384",
+   "Memory Speed": "21 Gbps",
+   "Memory Interface": "384-bit",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Interface": "Yes x 2 (Native HDMI 2.1a), HDCP Support Yes (2.3)",
+   "Maximum Display Support": "4",
+   "NVlink/ Crossfire Support": "No",
+   "Dimensions": "348.2 x 150 x 72.6 mm",
+   "Recommended PSU": "850W",
+   "Power Connectors": "1 x 16-pin",
+   "Slot": "3.65 slot",
+   "AURA SYNC": "ARGB"
+  },
+  "Engine Clock": {
+   "OC mode": "2550 MHz",
+   "Default mode": "2520 MHz (Boost Clock)"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS TUF Gaming GeForce RTX 4090 24GB GDDR6X",
+ "fetched": "2026-11-12T22:19+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4090-24g-gaming/techspec/",
+ "brand_site": "ASUS"
+}

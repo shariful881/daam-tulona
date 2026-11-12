@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 2.0",
+   "LED": "Status",
+   "Dimensions ( W x D x H )": "57.8 × 18 × 173.4 mm",
+   "Antenna": "5dBi",
+   "Wireless Standards": "IEEE 802.11b/g/n 2.4 GHz, IEEE 802.11a/n/ac 5 GHz",
+   "Wireless Speeds": "600 Mbps (200 Mbps on 2.4 GHz, 433 Mbps on 5 GHz)",
+   "Frequency": "2.4 GHz, 5 GHz",
+   "Wireless Modes": "Ad-Hoc / Infrastructure Mode",
+   "Wireless Security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM",
+   "Certification": "FCC, CE",
+   "Package Content": "AC600 High Gain Wireless Dual Band USB Adapter Archer T2U Plus\nQuick Installation Guide\nResource CD",
+   "System Requirements": "Windows11/10/8.1/8/7/XP, Mac OS X 10.9-10.14"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F ~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F ~158°F)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:02+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t2u-plus/",
+ "brand_site": "TP-Link"
+}

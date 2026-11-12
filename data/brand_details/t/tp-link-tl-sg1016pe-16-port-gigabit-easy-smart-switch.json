@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i, IEEE 802.3u, IEEE 802.3ab, IEEE 802.3x, IEEE 802.1q, IEEE 802.1p",
+   "Interface": "16× 10/100/1000 Mbps RJ45 Ports\nAUTO Negotiation/AUTO MDI/MDIX",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n100BASE-TX: UTP category 5, 5e cable (maximum 100m)\nEIA/TIA-568 100Ω STP (maximum 100m)\n1000BASE-T: UTP category 5, 5e, 6 or above cable (maximum 100m)",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "Dimensions ( W x D x H )": "11.6×7.1×1.7 in (294×180×44 mm)",
+   "Mounting": "Rack Mountable/ Desktop",
+   "Max. Power Consumption": "13.07 W (220 V/50 Hz with no PD connected)\n173.88 W (220 V/50 Hz with 150 W PD connected)",
+   "Max. Heat Dissipation": "44.438 BTU/h (220 V/50 Hz with no PD connected)\n591.192 BTU/h (220 V/50 Hz with 150 W PD connected)",
+   "Packet Buffer Memory": "4.1 Mbit",
+   "Jumbo Frame": "10 KB",
+   "Switching Capacity": "32 Gbps",
+   "Packet Forwarding Rate": "23.8 Mbps",
+   "MAC Address Table": "8K",
+   "Quality of Service": "Support Port-Based/802.1p/DSCP priority\nSupport 4 priority queues\nRate Limit\nStorm Control",
+   "L2 Features": "IGMP Snooping V1/V2/V3\nStatic Link Aggregation\nPort Mirroring\nCable Diagnostics\nLoop Prevention",
+   "VLAN": "Supports up to 32 VLANs simultaneously (out of 4K VLAN IDs)\nMTU/Port/Tag VLAN",
+   "PoE": "PoE Management\nExtend Mode\nPoE Auto Recovery",
+   "Management Features": "Web-based GUI\nEasy Smart Configuration Utility",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "TL-SG1016PE\nPower Cord\nInstallation Guide\nRackmount Kit\nRubber Feet",
+   "System Requirements": "Microsoft® Windows® for running Utility"
+  },
+  "PoE Ports (RJ45)": {
+   "Standard": "802.3 af/at compliant",
+   "PoE Ports": "Port 1 to Port 8",
+   "PoE Power Budget": "150 W"
+  },
+  "Environment": {
+   "Operating Temperature": "0–45 ℃ (32–113 ℉)",
+   "Storage Temperature": "-40–70 ℃ (-40–158 ℉)",
+   "Operating Humidity": "10–90% non-condensing",
+   "Storage Humidity": "5–90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/soho-switch-easy-smart/tl-sg1016pe/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Specifications": {
+   "Image Sensor": "1/3\" Progressive Scan CMOS Starlight Sensor",
+   "Night Vision": "Color Night Vision (66 ft / 20 m)\nInfrared Night Vision (66 ft / 20 m)",
+   "Lighting": "2× Floodlights (Color Temperature: 5000K, Brightness: 2800 Lumens)",
+   "Interface & Button": "1× RESET Button\n1× MicroSD Card Slot (Up to 512 GB)",
+   "Maximum Resolution": "2560 × 1440 px",
+   "Frame Rate": "15 fps",
+   "Digital Zoom": "12×",
+   "Video Compression": "H.264",
+   "Live View": "Yes",
+   "Image Enhancement": "3DNR\nWDR",
+   "Audio Input & Output": "Built-in Microphone and Speaker",
+   "Audio Communication": "Two-Way Audio with Noise Cancellation",
+   "Siren Volume": "93 dB (Level measured at 4-inch/10-cm distance)",
+   "Local Storage": "MicroSD Card Slot on Camera  (Up to 512 GB)\nGeneral Information about using MicroSD Cards >",
+   "Cloud Storage": "Tapo Care Cloud Storage Services (Subscription required)",
+   "AI Detection": "Motion detection\nPerson detection\nPet detecion\nVehicle detection\nLine-Crossing detection",
+   "Activity Zones": "Yes",
+   "Output Notification": "System Notification\nSystem Notification with Snapshot (Tapo Care Services)",
+   "Network Connectivity": "Connect via Wi-Fi",
+   "Wireless Connectivity": "IEEE 802.11b/g/n, 2.4 GHz Wi-Fi",
+   "RTSP": "Yes",
+   "ONVIF": "Yes",
+   "Security": "On-Device Machine Learning\n128-bit AES Encryption with SSL/TLS\nWPA/WPA2-PSK/WPA3",
+   "Power Source": "Hardwired Only",
+   "Input Voltage": "110-240 V, 50/60 Hz",
+   "Smart Integration": "Google Assistant, Amazon Alexa",
+   "Weather Resistance": "IP65",
+   "System Requirements": "Tapo App: iOS 9.0 or higher, Andriod 4.4 or higher",
+   "Mounting Options": "Ceiling-Mounted\nWall-Mounted",
+   "Operating Temperature": "-20℃~45℃",
+   "Storage Temperature": "-20℃~60℃",
+   "Operating Humidity": "10%~90%RH, Non-condensing",
+   "Storage Humidity": "0~90%RH, Non-condensing",
+   "Dimensions ( W x D x H )": "5.94 × 5.94 × 5.73 in (151 × 151 × 145.6 mm)",
+   "Package Content": "Tapo C720 Camera\nMounting Plate\nPlate Screws\nMounting Bracket\nBracket Screws",
+   "Certifications": "CE, FCC, RCM"
+  },
+  "Lens": {
+   "Focal Length": "2.1 mm",
+   "Aperture": "F2.1",
+   "Field of View": "153° (Diagonal), 134°(Horizontal), 77.6°(Vertical)"
+  },
+  "Sensor": {
+   "3× PIR Motion Sensors (FOV": "270°  horizontal)\n1× Ambient Light Sensor"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:09+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c720/",
+ "brand_site": "TP-Link"
+}

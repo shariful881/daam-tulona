@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF X299 MARK 2",
+   "Chipset": "Intel® X299",
+   "Memory": "(Intel® Core™ i9 10000 X-Series CPU)\n(Intel® Core™ i9 9000/7000 and i7 9000 X-Series CPU)\nIntel® Core™ X-series Processors (4-core)\nwww.asus.com\nfor the Memory QVL (Qualified Vendors Lists).",
+   "Expansion Slots": "2 x PCIe 3.0/2.0 x16 (x16, x16/x8),\n44-Lane CPU-\n,1 x PCIe 3.0 x4 (max at x2 mode) *\n1\n,",
+   "Storage": "®\nRapid Storage Technology enterprise 5.1 for X-Series(6-core and above) CPU RAID,\nIntel® X299 Chipset :",
+   "LAN": "1 x Gigabit LAN Controller(s), featuring Turbo LAN, Intel® I219V,ASUS Turbo LAN Utility",
+   "Audio": "Audio Feature :",
+   "USB Ports": "Intel® X299 Chipset :\n,6 x USB 2.0 port(s) (4 at back panel, , 2 at mid-board),\nASMedia® USB 3.1 Gen 2 controller :",
+   "Special Features": "File Transfer\nAURA :\nUltimate COOL! Thermal Solution :\n,\nTUF ENGINE! Power Design :",
+   "Manageability": "WfM 2.0, DMI 3.0, WOL by PME, PXE",
+   "Support Disc": "Drivers\nASUS Utilities\nEZ Update\nAnti-virus software (OEM version)",
+   "Operating System": "Windows® 10 64-bit",
+   "Form Factor": "ATX Form Factor,12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+   "Note": "1. When using 28-lane & 16-lane CPUs, PCIEX16_3 will be disabled."
+  }
+ },
+ "key_features": [],
+ "model": "TUF X299 MARK 2",
+ "fetched": "2026-11-12T22:22+06:00",
+ "source": "https://www.asus.com/bd/motherboards-components/motherboards/others/tuf-x299-mark-2/techspec/",
+ "brand_site": "ASUS"
+}

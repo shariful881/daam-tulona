@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AX55",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
+   "Product Segment": "AX1800 ultimate AX performance : 1201 Mbps+ 574 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2",
+   "Processor": "1.5GHz quad-core processor",
+   "Memory": "128 MB Flash\n256 MB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80 MHz bandwidth",
+   "Operating Frequency": "2.4GHz / 5GHz",
+   "Operating Mode": "Access Point, AiMesh Node, Media Bridge, Repeater, Router",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4",
+   "Buttons": "WPS Button, Reset Button, Power Switch",
+   "LED Indicator": "Power x 1\n2.4G x 1\n5G x 1\nLAN x 1\nWAN x 1",
+   "Package Content": "RT-AX55\nRJ45 x1\nAdapter x1\nQSG x1\nWarranty Card x1",
+   "Product Weight (g)": "374g",
+   "Product Dimensions": "230 x 134 x 56 mm (WxDxH)",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "AiProtection": "• Malicious Site Blocking, • Infected Device Prevention and Blocking",
+   "LAN": "DHCP Server, IGMP Snooping, IPTV, Manually Assign IP Address, Wake on LAN (WOL)",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 1201 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 4 (802.11n)": "up to 300 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 1 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AX55",
+ "fetched": "2026-11-12T22:17+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/all-series/rt-ax55/techspec/",
+ "brand_site": "ASUS"
+}

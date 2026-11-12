@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG289Q1A",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nDisplayPort cable",
+   "Certificate": "AMD FreeSync\nTÜV Low Blue Light\nTÜV Flicker-free",
+   "Note": "*Box dimension is depending on actual size."
+  },
+  "Display": {
+   "Panel Size (inch)": "28",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "620.928 x 341.28 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.160mm",
+   "Resolution": "3840x2160",
+   "Color Space (DCI-P3)": "90%",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.2",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 30~160 KHz (H) / 40~60 Hz (V)",
+   "DisplayPort": "160~160 KHz (H) / 40~60 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "30W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.5W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Swivel": "Yes (+15° ~ -15°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "63.95 x 46.05 x 21.38 cm (25.18\" x 18.13\" x 8.42\")",
+   "Phys. Dimension without Stand (W x H x D)": "63.95 x 36.94 x 0.00 cm (25.18\" x 14.54\" x 0.00\")",
+   "Box Dimension (W x H x D)": "70.60 x 53.00 x 18.00 cm (27.80\" x 20.87\" x 7.09\")\n70.60 x 50.50 x 18.00 cm (27.80\" x 19.88\" x 7.09\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "5.7 kg (12.57 lbs)",
+   "Net Weight without Stand": "4.73 kg (10.43 lbs)",
+   "Gross Weight": "7.8 kg (17.20 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG289Q1A",
+ "fetched": "2026-11-12T22:22+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg289q1a/techspec/",
+ "brand_site": "ASUS"
+}

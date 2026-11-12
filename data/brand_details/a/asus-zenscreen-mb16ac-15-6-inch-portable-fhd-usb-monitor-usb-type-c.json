@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ZenScreen MB16AC",
+   "Audio": "Speaker : No",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode & USB 3.2)",
+   "Mechanical Design": "Height Adjustment : No",
+   "Accessories (varies by region)": "ZenScreen pen\nWarranty Card\nUSB-C cable\nUSB Type-C to A adapter\nQuick start guide",
+   "Certificate": "TÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "15.6",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "344.16 x 193.59 mm",
+   "Display Surface": "Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.179mm",
+   "Resolution": "1920x1080",
+   "Brightness (Typ.)": "220cd/㎡",
+   "Contrast Ratio (Typ.)": "800:1",
+   "Display Colors": "260K",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "QuickFit": "Yes",
+   "DisplayWidget": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "Yes"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<8W",
+   "Power Saving Mode": "0W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "35.97 x 22.64 x 0.80 cm (14.16\" x 8.91\" x 0.31\")",
+   "Box Dimension (W x H x D)": "43.40 x 31.00 x 7.60 cm (17.09\" x 12.20\" x 2.99\")"
+  }
+ },
+ "key_features": [],
+ "model": "ZenScreen MB16AC",
+ "fetched": "2026-11-12T22:23+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-mb16ac/techspec/",
+ "brand_site": "ASUS"
+}

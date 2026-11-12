@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "USB 2.0",
+   "Dimensions ( W x D x H )": "15*7.1*18.6mm",
+   "Antenna": "Omni Directional",
+   "Wireless Standards": "IEEE 802.11ac, IEEE 802.11a,\nIEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Frequency": "5GHz\n2.4GHz",
+   "Signal Rate": "5GHz\n11ac: Up to 433Mbps(dynamic)\n11n: Up to 150Mbps(dynamic)\n11a: Up to 54Mbps(dynamic)\n2.4GHz",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK, 802.1x",
+   "Modulation Technology": "DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM",
+   "Transmission Power": "<20dBm (EIRP)",
+   "Certification": "CE, FCC",
+   "Package Content": "AC600 Nano Wireless USB Adapter Archer T2U Nano\nResource CD\nQuick Installation Guide",
+   "System Requirements": "Windows 11/10/8.1/8/7/XP (32/64bits),\nMac OS X 10.9-10.14"
+  },
+  "Reception Sensitivity": {
+   "11a 6Mbps": "-90dBm",
+   "11a 54Mbps": "-73dBm",
+   "11n HT20 MCS0": "-89dBm",
+   "11n HT20 MCS7": "-70dBm"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)Storage Temperature: -40℃~70℃ (-40℉~158℉)Operating Humidity: 10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:08+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t2u-nano/",
+ "brand_site": "TP-Link"
+}

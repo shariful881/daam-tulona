@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i, IEEE802.3u, IEEE802.3ab, IEEE802.3x, IEEE802.1p",
+   "Interface": "16 × 10/100/1000Mbps Ports\nAuto-Negotiation, Auto-MDI/MDIX",
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "LED": "System PowerLink/Act indicators per port built into each RJ-45 port",
+   "Dimensions ( W x D x H )": "11.3 × 4.4 × 1.0 in.\n(286 × 112 × 25 mm)",
+   "Max. Power Consumption": "10W",
+   "Max. Heat Dissipation": "34.1 BTU/h",
+   "Packet Buffer Memory": "4.1Mb",
+   "Jumbo Frame": "10KB",
+   "Packet Forwarding Rate": "23.8Mpps",
+   "MAC Address Table": "8K",
+   "Advanced Features": "Green Technology\n802.3x Flow Control\n802.1p/DSCP QoS\nIGMP Snooping",
+   "Transmission Method": "Store and Forward",
+   "Certification": "FCC",
+   "Package Content": "16-Port 10/100/1000Mbps Desktop SwitchPower AdapterInstallation GuideRubber Feet"
+  },
+  "External Power Supply": {
+   "(Output": "12VDC / 1.0A)"
+  },
+  "Environment": {
+   "Operating Temperature": "0°C~40°C (32°F~104°F)",
+   "Storage Temperature": "-40°C~70°C (-40°F~158°F)",
+   "Operating Humidity": "10% ~ 90%, non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:02+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/16-port-switch/tl-sg116/",
+ "brand_site": "TP-Link"
+}

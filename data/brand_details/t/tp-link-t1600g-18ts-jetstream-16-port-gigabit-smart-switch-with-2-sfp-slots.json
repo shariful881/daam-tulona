@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3i\nIEEE 802.3u\nIEEE 802.3ab\nIEEE802.3z\nIEEE 802.3ad",
+   "Interface": "16 10/100/1000Mbps RJ45 Ports(Auto Negotiation/Auto MDI/MDIX)2 Gigabit SFP Slots",
+   "Fan Quantity": "Fanless",
+   "Power Supply": "100~240VAC, 50/60Hz",
+   "Dimensions ( W x D x H )": "17.3 x 7.1 x 1.7 in.\n(440 x 180 x 44 mm)",
+   "Mounting": "19\" 1U rack mountable",
+   "Max. Power Consumption": "12.3W",
+   "Max. Heat Dissipation": "41.9 BTU/h",
+   "Jumbo Frame": "9KB",
+   "Bandwidth/Backplane": "36Gbps",
+   "Packet Forwarding Rate": "26.8Mpps",
+   "MAC Address Table": "8K",
+   "L2 and L2+ Features": "Static Routing\nDHCP Relay\nIGMP Snooping V1/V2/V3\n802.3ad LACP (Up to 8 aggregation groups, containing 8 ports per group)\nSpanning Tree STP/RSTP/MSTP",
+   "VLAN": "Supports up to 4K VLANs simultaneously (out of 4K VLAN IDs)\nMAC/Protocol-based VLAN",
+   "Access Control List": "IPv6 ACL",
+   "Security": "AAA\nPort Security\nDHCP Snooping\nIP-MAC-Port Binding\nARP Inspection",
+   "IPv6": "DHCPv6 ClientPing6Tracert6Telnet (v6)IPv6 SNMPIPv6 SSHIPv6 SSLHttp/HttpsIPv6 TFTP",
+   "Management Features": "Web-based GUI and CLI managementSNMP v1/v2c/v3,compatible with public MIBs and\nTP-LINK private MIBs\nRMON (1, 2, 3, 9 groups)\nCPU Monitoring\nPort Mirroring",
+   "Certification": "CE, FCC",
+   "Package Content": "T1600G-18TS\nPower Cord\nInstallation Guide\nResource CD\nRackmount Kit"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉);",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:09+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/managed-switch/t1600g-18ts/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,91 @@
+{
+ "specs": {
+  "Camera": {
+   "Image Sensor": "2 MP CMOS",
+   "Max. Resolution": "1920 (H) × 1080 (V)",
+   "Scanning System": "Progressive",
+   "Min. Illumination": "0.01 lux@F2.0 (Color, 30 IRE)\n0.001 lux@F2.0 (B/W, 30 IRE)\n0 lux (Illuminator on)",
+   "S/N Ratio": ">65 dB",
+   "Illumination Distance": "IR: 25 m (82.02 ft);Warm light: 25 m (82.02 ft)",
+   "Illuminator On/Off Control": "Auto/Manual",
+   "Illuminator Number": "2 (Multi-core light)",
+   "Angle Adjustment": "Pan：0°–355°\nTilt：15°–85°"
+  },
+  "Camera › Electronic Shutter Speed": {
+   "PAL": "1/25 s–1/100,000 s",
+   "NTSC": "1/30 s–1/100,000 s"
+  },
+  "Lens": {
+   "Lens Type": "Fixed-focal",
+   "Lens Mount": "M12",
+   "Focal Length": "2.8 mm; 3.6 mm",
+   "Max. Aperture": "F2.0"
+  },
+  "Lens › Field of View": {
+   "2.8 mm": "H: 111.3°; V: 60.8°; D: 134.2°",
+   "3.6 mm": "H: 89°; V: 48.2°; D: 109.1°"
+  },
+  "Lens › Close Focus Distance": {
+   "2.8 mm": "0.5 m (1.64 ft)",
+   "3.6 mm": "0.7 m (2.30 ft)"
+  },
+  "Video › Video Frame Rate": {
+   "CVI": "PAL: 1080p@25 fps; NTSC: 1080p@30 fps;",
+   "AHD": "PAL: 1080p@25 fps; NTSC: 1080p@30 fps;",
+   "TVI": "PAL: 1080p@25 fps; NTSC: 1080p@30 fps;",
+   "CVBS": "PAL: 960H; NTSC: 960H"
+  },
+  "Video": {
+   "Resolution": "1080p (1920 × 1080); 960H (960 × 576/960 × 480)",
+   "Day/Night": "Auto(ICR)/Color/B/W",
+   "White Balance": "Auto",
+   "Gain Control": "Auto/Manual",
+   "Noise Reduction": "3D NR",
+   "Illumination Mode": "Smart IR&WL (CVI, TVI); WL Mode; IR Mode",
+   "Mirror": "Yes (It needs to be controlled through the XVR)"
+  },
+  "PT › Pan/Tilt Range": {
+   "Pan": "0°–355°",
+   "Tilt": "15°–85°\n*Do not manually adjust the angle of the main body or enclosure."
+  },
+  "PT": {
+   "Preset": "80"
+  },
+  "Certification › Certifications": {
+   "CE-LVD": "EN 62368-1;",
+   "CE-EMC": "EN 55032; EN 55035;"
+  },
+  "Audio": {
+   "Built-in Mic": "Yes",
+   "Camera Audio": "CVI; TVI",
+   "Pick-up Distance": "8 m (26.25 ft)",
+   "Two-way Talk": "Yes (CVI, TVI)",
+   "Speaker": "Yes",
+   "Speaker Distance": "8 m (26.25 ft)"
+  },
+  "Port": {
+   "Video Output": "Video output choices of CVI/TVI/AHD/CVBS by one BNC port"
+  },
+  "Power": {
+   "Power Consumption": "Max 7.2 W (12 VDC, IR on)"
+  },
+  "Environment": {
+   "Operating Temperature": "–40 °C to +60 °C (–40 °F to +140 °F)",
+   "Operating Humidity": "<95% (RH), non-condensing",
+   "Storage Temperature": "–40 °C to +60 °C (–40 °F to +140 °F)",
+   "Storage Humidity": "<95% (RH), non-condensing",
+   "Anti-corrosion Level": "Basic Protection"
+  },
+  "Structure": {
+   "Casing Material": "Plastic",
+   "Product Dimensions": "Φ110.0 mm × 121.2 mm (Φ4.33\" × 4.77\")",
+   "Net Weight": "0.30 kg (0.66 lb)",
+   "Gross Weight": "0.44 kg (0.97 lb)",
+   "Installation": "Wall mount (accessory required); ceiling mount"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:05+06:00",
+ "source": "https://www.dahuasecurity.com/products/hdcvi-products/hdcvi-cameras/pt-series/1080p/pt/hac-pt1200h1-il-t",
+ "brand_site": "Dahua"
+}

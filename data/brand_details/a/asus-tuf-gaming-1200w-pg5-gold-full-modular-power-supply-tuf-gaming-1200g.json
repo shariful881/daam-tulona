@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming 1200W Gold",
+   "Intel Form Factor": "ATX12V",
+   "PFC Type": "Active PFC",
+   "ATX Standard": "ATX 3.0",
+   "Protection Features": "OPP/OVP/UVP/SCP/OCP/OTP",
+   "Hazardous Materials": "ROHS",
+   "AC Input Range": "100-240Vac",
+   "DC Output Voltage": "+3.3V +5V +12V -12V +5Vsb",
+   "Maximum Load": "25A25A99A 0.8A 3A",
+   "Combined Load": "130W 130W 1188W 9.6W 15W",
+   "Total Output": "1200W",
+   "Cable Connectors": "MB 24/20-pin x 1\nCPU 4+4-pin x 2\nPCI-E 16-pin x 2 (both PSU & component side)\nPCI-E 8-pin x 3\nSATA x 5",
+   "Dimensions": "150 x 150 x 86 mm",
+   "Weight": "2.66kg (single PSU)",
+   "AURA SYNC": "No",
+   "MTBF": ">120,000 hrs @ 40°C"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming 1200W Gold",
+ "fetched": "2026-11-12T22:07+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-1200g/techspec/",
+ "brand_site": "ASUS"
+}

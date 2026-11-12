@@ -1,0 +1,149 @@
+{
+ "specs": {
+  "Image Sensor": {
+   "Panorama": "1/2.8\" CMOS",
+   "Detail": "1/2.8\" CMOS"
+  },
+  "Pixel": {
+   "Panorama": "4 MP",
+   "Detail": "4 MP"
+  },
+  "Max. Resolution": {
+   "Panorama": "3840 (H) × 1080 (V)",
+   "Detail": "2560 (H) × 1440 (V)"
+  },
+  "ROM": {
+   "Panorama": "4 GB",
+   "Detail": "4 GB"
+  },
+  "RAM": {
+   "Panorama": "1 GB",
+   "Detail": "1 GB"
+  },
+  "Electronic Shutter Speed": {
+   "Panorama": "1/1 s–1/10,000s",
+   "Detail": "1/1s–1/30,000s"
+  },
+  "Specifications": {
+   "Scanning System": "Progressive",
+   "Min. Illumination": "Panorama:\nColor: 0.001 lux@F1.0\nB/W: 0.0001 lux@F1.0\nDetail:\nColor: 0.005 lux@F1.6 (1/25 s, 30 IRE, gain 100)",
+   "Illuminator On/Off Control": "Zoom Prio; Manual; Smart IR; Off",
+   "Field of View": "Panorama:\nH: 180° ± 5°; V: 51°\nDetail:\nH: 55.8°–2.3°; V: 31.9°–1.3°; D: 63.7°–2.7°",
+   "Pan/Tilt Range": "Detail:\nH: 0°–360° endless\nV: –20°–+90°",
+   "Preset": "300",
+   "Tour": "8 (up to 32 presets per tour)",
+   "Pattern": "5",
+   "Scan": "5",
+   "Power-off Memory": "Yes",
+   "Idle Motion": "Pattern;Preset;Scan;Tour",
+   "PTZ Protocol": "DH-SD\nPelco-P/D(Auto recognition)",
+   "Auto Tracking": "Yes",
+   "Video Compression": "H.264H;H.264B;Smart H.265+;H.265;MJPEG(Sub Stream);Smart H.264+;H.264M",
+   "Streaming Capability": "3 streams",
+   "Resolution": "Panorama:\nDetails:",
+   "Video Frame Rate": "Panorama: 50 Hz\n60 Hz\nDetails:  50 Hz\n60 Hz",
+   "Bit Rate Control": "CBR/VBR",
+   "Video Bit Rate": "Panorama:\nH.264: 2,816  kbps-13,824 kbps\nH.265: 1,024  kbps-8,192 kbps\nDetail:\nH.264: 2,816 kbps-13,056 kbps\nH.265: 1,024 kbps-7,936 kbps",
+   "Day/Night": "Paronama:\nAuto (ICR)/Color/B/W\nDetail:\nAuto (ICR)/Color/B/W",
+   "BLC": "Yes",
+   "HLC": "Yes",
+   "Motion Detection": "Yes",
+   "Region of Interest (RoI)": "Yes",
+   "Image Stabilization": "Electronic Image Stabilization (EIS)",
+   "Digital Zoom": "16×",
+   "Image Rotation": "180°",
+   "Audio Compression": "PCM; G.711a; G.711Mu; G.726; MPEG2-Layer2; G722.1; G729; G723",
+   "Network Port": "RJ-45 (10/100 Base-T)",
+   "Interoperability": "CGI;ONVIF (Profile S&G&T)",
+   "User/Host": "20 (total bandwidth: 64 M)",
+   "Storage": "FTP; Micro SD card (up to 512 G); NAS",
+   "Browser": "IE 9 and later versions\nChrome 41 and later versions\nFirefox 50 and later versions\niOS 10 and later versions",
+   "Management Software": "DMSS;DSS Pro",
+   "Mobile Client": "iOS;Android",
+   "Certifications": "CE: DHQA-ESH-P22100890/DHQA-ESH-P22100654B-A1",
+   "Audio Input": "1 channel (LINE IN, bare wire)",
+   "Audio Output": "1 channel (LINE OUT, bare wire)",
+   "Alarm I/O": "2/1",
+   "Audio I/O": "1/1",
+   "Power Supply": "36 VDC/2.23 A ± 25%",
+   "Operating Temperature": "–40 °C to +65 °C (–40 °F to +149 °F)",
+   "Operating Humidity": "≤95%",
+   "Protection": "IP66",
+   "Casing Material": "Plastic, aluminum alloy",
+   "Product Dimensions": "247 mm × 202 mm × 359.8 mm (9.72\" × 7.95\" × 14.17\") (L × W × H)",
+   "Net Weight": "5.3 kg (11.68 lb)",
+   "Gross Weight": "7.12 kg (15.70 lb)"
+  },
+  "Illumination Distance": {
+   "Panorama": "30 m (98.43 ft) (White light)",
+   "Detail": "200 m (656.17 ft) (IR)"
+  },
+  "Illuminator Number": {
+   "Panorama": "4 (White light)",
+   "Detail": "4 (IR), 2 (White light)"
+  },
+  "Focal Length": {
+   "Panorama": "2.8 mm",
+   "Detail": "4.8 mm–154 mm"
+  },
+  "Max. Aperture": {
+   "Panorama": "F1.0",
+   "Detail": "F1.6–4.0"
+  },
+  "Optical Zoom": {
+   "Panorama": "NA",
+   "Detail": "32×"
+  },
+  "Focus Control": {
+   "Panorama": "NA",
+   "Detail": "Auto; semi-auto; manual"
+  },
+  "Close Focus Distance": {
+   "Panorama": "0.3 m (0.98 ft)",
+   "Detail": "0.8 m–5 m (2.62 ft–16.40 ft)"
+  },
+  "Iris Control": {
+   "Panorama": "Fixed",
+   "Detail": "Auto; manual"
+  },
+  "Manual Control Speed": {
+   "Pan": "0.1°/s–160°/s",
+   "Tilt": "0.1°/s–120°/s"
+  },
+  "Preset Speed": {
+   "Pan": "240°/s; Tilt: 200°/s"
+  },
+  "WDR": {
+   "Paronama": "Yes",
+   "Detail": "Yes"
+  },
+  "White Balance": {
+   "Panorama": "Auto; indoor; outdoor; ATW; manual; sodium lamp; natural light; street lamp",
+   "Detail": "Auto; indoor; outdoor; ATW; manual; sodium lamp; natural light; street lamp"
+  },
+  "Gain Control": {
+   "Paronama": "Auto/manual",
+   "Detail": "Auto/manual"
+  },
+  "Noise Reduction": {
+   "Paronama": "2D/3D noise reduction",
+   "Detail": "2D/3D noise reduction"
+  },
+  "Defog": {
+   "Paronama": "Electronic Defog",
+   "Detail": "Electronic Defog"
+  },
+  "S/N Ratio": {
+   "Paronama": "≥55 dB",
+   "Detail": "≥55 dB"
+  },
+  "Power Consumption": {
+   "Basic power consumption": "20 W",
+   "Max. power consumption": "35 W (IR + heater + intelligent functions + PTZ working)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:29+06:00",
+ "source": "https://www.dahuasecurity.com/products/All-Products/PTZ-Cameras/X-Spans-Series/SDT6C432-4P-GB-APV-0280",
+ "brand_site": "Dahua"
+}

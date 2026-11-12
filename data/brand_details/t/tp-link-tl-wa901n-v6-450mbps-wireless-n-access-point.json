@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "1× 10/100M Ethernet Port(RJ45)\nSupport Passive PoE",
+   "Button": "Power On/Oﬀ Button, Reset Button, WPS Button",
+   "External Power Supply": "9VDC / 0.9A",
+   "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Dimensions ( W x D x H )": "7.7 × 5.3 × 1.4 in\n(195 × 134 × 36 mm )",
+   "Antenna": "3 Fixed Omni-Directional Antennas",
+   "Frequency": "2.4 GHz",
+   "Signal Rate": "450 Mbps at 2.4 GHz",
+   "Wireless Modes": "Access Point, Range Extender, Client, Multi-SSID",
+   "Wireless Functions": "Enable/Disable Wireless Radio, WDS Bridge, WMM,\nWireless Statistics",
+   "Wireless Security": "64/128-bit WEP, WPA/WPA2, WPA-PSK/WPA-PSK2\nencryptions",
+   "DHCP": "Server, DHCP Client List",
+   "Quality of Service": "WMM",
+   "Management Features": "SNMP",
+   "Advanced Features": "Up to 30 meters PoE is supported",
+   "Transmission Power": "< 30dBm",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDHCP  Server\nIP address assignment (DHCP)",
+   "Certification": "FCC",
+   "Protocol Support": "IPv4, IPv6"
+  },
+  "Reception Sensitivity": {
+   "11g 54M": "-76dBm11n 20Mbps: -73dBm",
+   "11n 40Mbps": "-70dBm"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:06+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/access-point/tl-wa901n/",
+ "brand_site": "TP-Link"
+}

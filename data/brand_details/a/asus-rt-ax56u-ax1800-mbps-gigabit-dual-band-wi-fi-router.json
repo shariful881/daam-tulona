@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AX56U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
+   "Product Segment": "AX1800 ultimate AX performance : 1201 Mbps+ 574 Mbps",
+   "Antenna": "External antenna x 2",
+   "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2",
+   "Processor": "1.5GHz quad-core processor",
+   "Memory": "256 MB Flash\n512 MB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80 MHz bandwidth",
+   "Operating Frequency": "2.4G Hz / 5 GHz",
+   "Operating Mode": "Access Point, AiMesh Node, Media Bridge, Repeater, Router",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4\nUSB 2.0 x 1\nUSB 3.1 Gen 1 x 1",
+   "Buttons": "WPS Button, Reset Button, Power Switch",
+   "LED Indicator": "Power x 1\n2.4G x 1\n5G x 1\nLAN x 4\nWAN x 1",
+   "Package Content": "RT-AX56U\nRJ45 x1\nAdapter x1\nQSG x1\nWarranty Card x1",
+   "Product Weight (g)": "456 g",
+   "Product Dimensions": "223.5 x 129.3 x 47.5 mm (WxDxH)",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 1201 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 4 (802.11n)": "up to 433 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 2 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AX56U",
+ "fetched": "2026-11-12T22:17+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax56u/techspec/",
+ "brand_site": "ASUS"
+}

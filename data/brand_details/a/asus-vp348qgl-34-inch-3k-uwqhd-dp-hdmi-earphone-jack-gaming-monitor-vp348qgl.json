@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "VP348QGL",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nDisplayPort cable",
+   "Certificate": "AMD FreeSync\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "34",
+   "Aspect Ratio": "21:9",
+   "Display Viewing Area (H x V)": "799.8 x 334.8 mm",
+   "Backlight Type": "LED",
+   "Panel Type": "VA",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.2325mm",
+   "Resolution": "3440x1440",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "3000:1",
+   "Display Colors": "1073.7M (10 bit)",
+   "Response Time": "4ms(GTG)",
+   "Refresh Rate (Max)": "75Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (3 modes)",
+   "GamePlus": "Yes",
+   "QuickFit": "Yes",
+   "PIP / PBP Technology": "Yes",
+   "HDCP": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "Shadow Boost": "Yes",
+   "Low Blue Light": "Yes",
+   "Multiple HDR Mode": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "24~83 KHz (H) / 48~75 Hz (V)",
+   "Analog Signal Frequency": "24~83 KHz (H) / 48~75 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<38W*",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.5W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Swivel": "Yes (+60° ~ -60°)",
+   "Height Adjustment": "0~140mm",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "82.76 x 54.65 x 23.34 cm (32.58\" x 21.52\" x 9.19\")",
+   "Phys. Dimension without Stand (W x H x D)": "82.76 x 36.73 x 5.13 cm (32.58\" x 14.46\" x 2.02\")",
+   "Box Dimension (W x H x D)": "92.20 x 63.90 x 22.40 cm (36.30\" x 25.16\" x 8.82\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "9.59 kg (21.14 lbs)",
+   "Net Weight without Stand": "7.59 kg (16.73 lbs)",
+   "Gross Weight": "12.59 kg (27.76 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "VP348QGL",
+ "fetched": "2026-11-12T22:23+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/gaming/vp348qgl/techspec/",
+ "brand_site": "ASUS"
+}

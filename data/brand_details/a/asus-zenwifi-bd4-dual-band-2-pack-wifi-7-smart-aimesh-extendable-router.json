@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS ZenWiFi BD4",
+   "Model Name": "BD4(W-3-PK)\nBD4(W-2-PK)\nBD4(W-1-PK)",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)",
+   "Antenna": "Internal antennas x 4",
+   "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2",
+   "Processor": "1.5GHz quad-core processor",
+   "Memory": "RAM 512MB , Flash 128MB",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "5 GHz\n2.4 GHz",
+   "Operating Mode": "Access Point Mode\nAiMesh Node Mode\nWireless Router Mode",
+   "I/O Ports": "2.5G x 2 (WAN/LAN auto detecting)",
+   "Buttons": "WPS button, Reset button, Power switch",
+   "LED Indicator": "Power x 1",
+   "Package Content": "ZenWiFi BD4\nRJ45 cable\nPower adapter\nWarranty card\nQuick start guide",
+   "Product Dimensions": "140 x 70 x 140 mm",
+   "Remark": "Content may vary in different regions and packages.",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Router APP": "APP: ASUS Router APP",
+   "WAN": "Port Forwarding, Port Triggering, DMZ, DDNS",
+   "LAN": "DHCP Server, IGMP Snooping, IPTV, Manually Assign IP Address, Wake on LAN (WOL)",
+   "Smart Home": "Support Google Assistant"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (5GHz)": "up to 2882 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 688 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12V with max 1.5A current"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ZenWiFi BD4",
+ "fetched": "2026-11-12T22:13+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/asus-zenwifi/asus-zenwifi-bd4/techspec/",
+ "brand_site": "ASUS"
+}

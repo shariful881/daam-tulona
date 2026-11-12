@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-BE88U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)",
+   "Product Segment": "BE7200 ultimate BE performance : 1376+5764 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "5GHz 4x4\n2.4GHz 4x4",
+   "Processor": "2.6GHz quad-core processor",
+   "Memory": "256 MB Flash and 2 GB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "5 GHz\n2.4 GHz",
+   "Operating Mode": "Repeater Mode\nMedia Bridge Mode\nAccess Point Mode\nAiMesh Node Mode\nWireless Router Mode",
+   "Buttons": "WPS Button, Reset Button, Power Switch",
+   "LED Indicator": "WAN x1\n10G WAN x1\n10G SFP+ x1\nLAN x1\nUSB 3.2 Gen 1 x1",
+   "Package Content": "RT-BE88U WiFi router\nRJ-45 cable\nPower adapter\nQuick Start Guide\nWarranty card",
+   "Product Weight (g)": "1060 g",
+   "Product Dimensions": "300*188*60.5",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Mobile Game Mode, Gear Accelerator, OpenNAT (Game Profile), Gaming Port",
+   "WAN": "• IPSec\n• Static IP\n• Automatic IP\n• L2TP\n• PPTP",
+   "USB application": "• ext4\n• ext3\n• ext2\n• vFAT\n• NTFS",
+   "User Interface": "WEB: ASUSWRT, APP: ASUS Router APP"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (5GHz)": "up to 5764 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 1376 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12V with max. 5 A current；19 V with max. 2.37 A current ； 19.5 V with max. 2.31 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-BE88U",
+ "fetched": "2026-11-12T22:18+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-be88u/techspec/",
+ "brand_site": "ASUS"
+}

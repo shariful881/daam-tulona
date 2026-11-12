@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "WiFi Range": "3 Bedroom Houses\n4× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\n2×2 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway\nIoT Security",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "WiFi Encryption": "WPA\nWPA2\nWAP3\nWPA/WPA2-Enterprise (802.1x)",
+   "Interface": "4x10/100 Mbps LAN Ports\n1x10/100 Mbps WAN Port",
+   "Power Supply": "12VDC/1.0A",
+   "Wireless Standards": "IEEE 802.11n/g/b 2.4GHz IEEE 802.11ac/n/a 5GHz",
+   "Dimensions ( W x D x H )": "9.1 x 5.7 x 1.4 in. (230.0 * 144.0 * 35.0 mm)",
+   "Antenna": "4 External Antennas",
+   "Quality of Service": "WMM, Bandwidth Control",
+   "WAN Type": "Dynamic IP, Static IP, PPPoE, L2TP, PPTP",
+   "Management Features": "Access Control, Local Management, Remote Management",
+   "DHCP": "Server, Client, DHCP Client List, Address Reservation",
+   "Port Forwarding": "Virtual Server, Port Triggering, UPnP, DMZ",
+   "Dynamic DNS": "DynDns, NO-IP",
+   "Access Control": "Parental Control, Local Management Control, Host list, Access Schedule, Rule Management",
+   "Protocols": "IPv4 and IPv6",
+   "Ethernet Ports": "1× 10/100 Mbps WAN Port\n4× 10/100 Mbps LAN Ports",
+   "Power": "9 V ⎓ 0.85 A",
+   "Buttons": "WPS/Wi-Fi Button\nPower On/Off Button\nReset Button",
+   "Frequency": "2.4GHz and 5GHz",
+   "Signal Rate": "2.4GHz: Up to 300Mbps 5GHz: Up to 867Mbps",
+   "Wireless Functions": "Enable/Disable Wireless Radio, WDS Bridge, WMM, Wireless Statistics",
+   "Transmission Power": "CE: <20dBm(2.4GHz), <23dBm(5GHz) FCC: <30dBm",
+   "EasyMesh": "Learn More>",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Cloud Service": "OTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS",
+   "Certifications": "FCC, CE, RoHS",
+   "WiFi Transmission Power": "CE EIRP:<20dBm(2.4GHz)<23dBm(5GHz)FCC:<30dBm(2.4GHz & 5GHz)",
+   "Dimensions (W×D×H)": "9.1 × 5.7 × 1.5 in\n(229.9 × 144.2 × 36.9 mm)",
+   "Package Content": "Wi-Fi Router Archer C50\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide",
+   "Certification": "CE, FCC",
+   "System Requirements": "Microsoft Windows 10/8.1/8/7/Vista/XP/2000/NT/98SE, MAC OS, NetWare, UNIX or Linux"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "867 Mbps (802.11ac)",
+   "2.4 GHz": "300 Mbps (802.11n)"
+  },
+  "WiFi Reception Sensitivity": {
+   "5GHz": "11a 54M: -73dBm11ac VHT20 MCS8: -68dBm11ac VHT40 MCS9: -64dBm",
+   "11ac VHT80 MCS9": "-60dBm\n2.4GHz:",
+   "11g 54M": "-76dBm",
+   "11n HT20 MCS7": "-74dBm"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃–40℃ (32℉–104℉)",
+   "Storage Temperature": "-40℃–60℃ (-40℉–140℉)",
+   "Operating Humidity": "10%–90% non-condensing",
+   "Storage Humidity": "5%–90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:02+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c50/",
+ "brand_site": "TP-Link"
+}

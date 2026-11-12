@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "VA329HE",
+   "Audio": "Speaker : No",
+   "I/O Ports": "HDMI(v1.4) x 2\nVGA x 1\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nHDMI cable",
+   "Certificate": "AMD FreeSync\nTÜV Low Blue Light\nTÜV Flicker-free\nEnergy Star"
+  },
+  "Display": {
+   "Panel Size (inch)": "31.5",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "698.4 x 392.85 mm",
+   "Display Surface": "Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.363mm",
+   "Resolution": "1920x1080",
+   "Brightness (Typ.)": "300cd/㎡",
+   "Contrast Ratio (Typ.)": "1200:1",
+   "Display Colors": "16.7M",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "75Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "QuickFit": "Yes",
+   "HDCP": "Yes, 1.4",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "Low Blue Light": "Yes",
+   "Eye Care+ Technology": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 30~83 KHz (H) / 48~75 Hz (V)",
+   "Analog Signal Frequency": "30~83 KHz (H) / 50~76 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "17.56 W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+8° ~ -5°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "72.70 x 47.97 x 20.20 cm (28.62\" x 18.89\" x 7.95\")",
+   "Phys. Dimension without Stand (W x H x D)": "72.70 x 42.46 x 6.98 cm (28.62\" x 16.72\" x 2.75\")",
+   "Box Dimension (W x H x D)": "86.00 x 53.70 x 14.50 cm (33.86\" x 21.14\" x 5.71\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "7.1 kg (15.65 lbs)",
+   "Net Weight without Stand": "6.0 kg (13.23 lbs)",
+   "Gross Weight": "9.6 kg (21.16 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "VA329HE",
+ "fetched": "2026-11-12T22:12+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/eye-care/va329he/techspec/",
+ "brand_site": "ASUS"
+}

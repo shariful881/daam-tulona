@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "Pro WS W480-ACE",
+   "CPU": "Intel® Socket 1200for 10th Gen Intel\n®\nXeon\n®\nCore",
+   "Chipset": "Intel® W480",
+   "Graphic": "www.intel.com",
+   "Multi-GPU Support": "Supports AMD 3-Way CrossFireX™ Technology",
+   "Expansion Slots": "Intel\n®\nW480 Chipset\n,2 x PCIe 3.0 x1,2 x PCIe 3.0 x16 (x16 or dual x8) *\n1",
+   "Storage": "Total supports 2 x M.2 slot(s) and 4 x SATA 6Gb/s ports\n,\nIntel\n®\nW480 Chipset :",
+   "LAN": "Intel® I225-LM 2.5Gb Ethernet,Realtek® RTL8117",
+   "Audio": "Audio Feature :\n,- Optical S/PDIF out port(s) at back panel",
+   "USB Ports": "2 x USB 3.2 Gen 2 port(s) (USB Type-C\n®\n),4 x USB 3.2 Gen 2 port(s)(4 x Type-A),1 x USB 3.2 Gen 1 port(s)(1 x USB Type-C\n®\n),",
+   "Operating System Support": "Windows® 10 64-bit",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\nPerformance And Power Saving Utility\n- TPU",
+   "ASUS Special Features": "ASUS 5X PROTECTION III\n- ASUS DIGI+ VRM (- Digital power design with Dr. MOS)\n- ASUS Enhanced DRAM Overcurrent Protection\n- ASUS ESD Guards\n- ASUS LANGuard",
+   "Back I/O Ports": "™",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Operating System": "Windows® 10 64-bit",
+   "Form Factor": "12 inch x 9.2 inch ( 30.5 cm x 23.4 cm ),ATX Form Factor",
+   "Note": "*1 Support PCIe bifurcation for RAID on CPU function.\n*3 When M.2_1 is operating in SATA device, SATA6G_2 will be disabled."
+  }
+ },
+ "key_features": [],
+ "model": "Pro WS W480-ACE",
+ "fetched": "2026-11-12T22:16+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/workstation/pro-ws-w480-ace/techspec/",
+ "brand_site": "ASUS"
+}

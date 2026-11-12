@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "DUAL-RTX2060-6G-EVO",
+   "Graphic Engine": "NVIDIA® GeForce RTX™ 2060",
+   "Bus Standard": "PCI Express 3.0",
+   "OpenGL": "OpenGL®4.6",
+   "Video Memory": "6GB GDDR6",
+   "CUDA Core": "1920",
+   "Memory Speed": "14000 MHz",
+   "Memory Interface": "192-bit",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Maximum Display Support": "4",
+   "NVlink/ Crossfire Support": "No",
+   "Software": "ASUS GPU Tweak II & Drivers: please download all software from the support site.",
+   "Dimensions": "9.53 \" x 5.12 \" x 2.09 \" Inch\n24.2 x 13 x 5.3 Centimeter",
+   "Recommended PSU": "500W",
+   "Power Connectors": "1 x 8-pin",
+   "Slot": "2.5 Slot",
+   "AURA SYNC": "RGB"
+  },
+  "Engine Clock": {
+   "OC Mode - GPU Boost Clock": "1710 MHz , GPU Base Clock : 1395 MHz",
+   "Gaming Mode (Default) - GPU Boost Clock": "1680 MHz , GPU Base Clock : 1365 MHz"
+  }
+ },
+ "key_features": [],
+ "model": "DUAL-RTX2060-6G-EVO",
+ "fetched": "2026-11-12T22:15+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rtx2060-6g-evo/techspec/",
+ "brand_site": "ASUS"
+}

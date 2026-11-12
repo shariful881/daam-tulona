@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Specifications": {
+   "Image Sensor": "1/2.9” Progressive Scan CMOS Starlight Sensor",
+   "Night Vision": "1 × 850 nm IR LED (30 ft / 9 m)\n2 × 940 nm IR LED (30 ft / 9 m)",
+   "Lighting": "/",
+   "Hub Compatibility": "/",
+   "Interface & Button": "1× RESET Button\n1× Privacy Button\n1× MicroSD Card Slot (Up to 512 GB)",
+   "View Range": "360° Horizontal, 149° Vertical",
+   "Device Compatibility": "/",
+   "Connection Capacity": "/",
+   "Maximum Resolution": "2K QHD 4MP (2688 × 1520 px)",
+   "Frame Rate": "15/20/25/30 fps (Default 15fps)",
+   "Digital Zoom": "None",
+   "Video Compression": "H.264",
+   "Live View": "Yes",
+   "Image Enhancement": "3D DNR WDR\nHDR",
+   "Audio Input & Output": "Built-in Microphone and Speaker",
+   "Audio Communication": "Two-Way Audio with Noise Cancellation",
+   "Siren Volume": "98dB (Level measured at 4-inch/10-cm distance)",
+   "Local Storage": "MicroSD Card Slot on Camera  (Up to 512 GB)\nGeneral Information about using MicroSD Cards >",
+   "Cloud Storage": "Tapo Care Cloud Storage Services (Subscription required)",
+   "Sensor": "/",
+   "AI Detection": "Motion Detection\nPerson Detection\nLine-Crossing Detection\nTamper Detection\nBabyCry Detection",
+   "Activity Zones": "Yes\n*Only works with Motion Detection.",
+   "Output Notification": "System Notification\nSystem Notification with Snapshot (Tapo Care Services)",
+   "Network Connectivity": "Connect via Wi-Fi",
+   "Wireless Connectivity": "IEEE 802.11b/g/n/ax, 2.4 GHz Wi-Fi",
+   "Ethernet Port": "/",
+   "RTSP": "Yes",
+   "ONVIF": "Yes",
+   "Security": "On-Device Machine Learning\n128-bit AES Encryption with SSL/TLS\nWPA/WPA2-PSK/WPA3",
+   "Power Source": "12V DC Power Adapter",
+   "Input Voltage": "100-240 V, 50/60 Hz",
+   "Output Voltage": "12 V, 1.0 A (DC Power)",
+   "Smart Integration": "Google Assistant, Amazon Alexa, Apple HomeKit",
+   "Weather Resistance": "/",
+   "Mounting Options": "Tabletop\nCeiling-Mounted",
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-20℃~70℃",
+   "Operating Humidity": "10%~90% RH, Non-condensing",
+   "Storage Humidity": "5%~90% RH, Non-condensing",
+   "Charging Temperature": "/",
+   "Dimensions ( W x D x H )": "3.15 × 3.15 × 4.41 in (80 × 80 × 112 mm)",
+   "Package Content": "Tapo C225 Camera\nDC Power Adapter\nQuick Start Guide\nMounting Screws\nMounting Template",
+   "Certifications": "CE, FCC, NCC, BSMI, IC, VCCI, JRF, KC, RCM, NTRA, Homekit, WEEE, EAC"
+  },
+  "Lens": {
+   "Focal Length": "4.3 mm",
+   "Aperture": "F1.6",
+   "Field of View": "100° (Diagonal), 83°(Horizontal), 43°(Vertical)"
+  },
+  "Pan/Tilt Range": {
+   "Pan Mechanical Range": "(360° Pan Coverage)",
+   "Tilt Mechanical Range": "(149° Tilt Coverage)"
+  },
+  "Reviews & Awards": {
+   "Awards": "Tapo D225\n2025,"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:09+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c225/",
+ "brand_site": "TP-Link"
+}

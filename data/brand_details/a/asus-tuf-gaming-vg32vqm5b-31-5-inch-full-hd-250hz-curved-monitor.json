@@ -1,0 +1,77 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG32VQM5B",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nL-shaped Screwdriver\nDisplayPort cable",
+   "Certificate": "FSC MIX\nAMD FreeSync Premium\nVESA AdaptiveSync Display 250Hz\nTÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "31.5",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "698.4 x 392.85 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "Fast VA",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Curvature": "1500R",
+   "Pixel Pitch": "0.363mm",
+   "Resolution": "1920x1080",
+   "Color Space (sRGB)": "120%",
+   "Brightness (Typ.)": "300cd/㎡",
+   "Contrast Ratio (HDR, Max)": "100,000,000:1",
+   "Contrast Ratio (Typ.)": "3500:1",
+   "Display Colors": "16.7M",
+   "Response Time": "0.5ms (GTG, min.)",
+   "Refresh Rate (Max)": "250Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.2",
+   "ELMB Sync": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "DisplayWidget": "Yes, DisplayWidget Center",
+   "Low Blue Light": "Yes",
+   "Multiple HDR Mode": "Yes",
+   "ASUS Power Sync": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI : 30-300KHz(H), 48-250HZ(V)",
+   "DP": "300-300 KHz(H), V:48-250 HZ(V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "28.6 W",
+   "Power Saving Mode": "< 0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "71.0 x 50.7 x 21.4 cm (27.95\" x 19.96\" x 8.43\")",
+   "Phys. Dimension without Stand (W x H x D)": "71.0 x 42.6 x 8.7 cm (27.95\" x 16.77\" x 3.43\")",
+   "Box Dimension (W x H x D)": "81.0 x 52.0 x 22.6 cm (31.89\" x 20.47\" x 8.90\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "6.8 kg (14.99 lbs)",
+   "Net Weight without Stand": "5.8 kg (12.79 lbs)",
+   "Gross Weight": "9.1 kg (20.06 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG32VQM5B",
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg32vqm5b/techspec/",
+ "brand_site": "ASUS"
+}

@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "WiFi Range": "3 Bedroom Houses\n4× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "High\nDual-Band\nAllocate devices to different bands for optimal performance\nOFDMA\nSimultaneously communicates with multiple Wi-Fi 6 clients",
+   "Working Modes": "Router Mode\nAccess Point Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway\nHomeCare™ Antivirus",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "VPN Server": "OpenVPN\nPPTP",
+   "WiFi Encryption": "WEP\nWPA\nWPA2\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "Dual-Core CPU",
+   "Ethernet Ports": "1× Gigabit  WAN Port\n4× Gigabit LAN Ports\nStatic Link Aggregation (LAG) available with 2× LAN ports",
+   "USB Support": "1× USB 3.0 Port\nSupported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\nSupported Functions:\nApple Time Machine",
+   "Buttons": "Wi-Fi/WPS Button\nPower On/Off Button\nLED On/Off Button\nReset Button",
+   "Power": "12 V ⎓ 2 A",
+   "Protocols": "IPv4\nIPv6",
+   "Service Kits": "HomeCare™",
+   "Parental Controls": "HomeCare™ Parental Controls\nCustom Profiles\nContent Filtering\nApp Block\nURL Filtering",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device\nHomeCare™ QoS\nQoS by Application",
+   "Cloud Service": "Auto Firmware Upgrade\nOTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Virtual Servers\nPort Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage\nCheck Web Emulator>",
+   "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "FCC",
+   "WiFi Transmission Power": "FCC:\n<30dBm(2.4GHz & 5.15GHz~5.825GHz)",
+   "Dimensions (W×D×H)": "10.2 × 5.3 × 1.5 in\n(260.2 x 135.0 x 38.6 mm)",
+   "Package Content": "Wi-Fi Router Archer AX50\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "2402 Mbps (802.11ax, HE160)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  },
+  "WiFi Reception Sensitivity": {
+   "5 GHz": "11a 6Mbps:-97dBm,",
+   "11a 54Mbps": "-79dBm",
+   "11ac VHT20_MCS0": "-96dBm,",
+   "11ac VHT20_MCS11": "-66dBm",
+   "11ac VHT40_MCS0": "-94dBm,"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:07+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax50/",
+ "brand_site": "TP-Link"
+}

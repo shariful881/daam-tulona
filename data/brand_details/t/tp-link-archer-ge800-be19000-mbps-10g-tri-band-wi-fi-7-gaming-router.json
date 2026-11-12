@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "WiFi Speeds": {
+   "• 6 GHz": "11520 Mbps (802.11be)",
+   "• 5 GHz": "5760 Mbps (802.11be)",
+   "• 2.4 GHz": "1376 Mbps (802.11be)"
+  },
+  "Specifications": {
+   "Working Modes": "• Router Mode\n• Access Point Mode",
+   "Advanced Features": "• 320 MHz Channel\n• 4K-QAM\n• EasyMesh-Compatible\n• Works with Alexa and Google Assistant\n• IoT Network",
+   "Network Security": "• SPI Firewall\n• Access Control\n• IP & MAC Binding\n• Application Layer Gateway\n•",
+   "Guest Network": "• 1× 6 GHz Guest Network\n• 1× 5 GHz Guest Network\n• 1× 2.4 GHz Guest Network",
+   "VPN Server": "• OpenVPN Server\n• PPTP VPN Server\n• L2TP VPN Server\n• WireGuard VPN Server",
+   "VPN Client": "• Open VPN Client\n• PPTP VPN Client\n• L2TP VPN Client\n• WireGuard VPN Client",
+   "WiFi Encryption": "• WPA\n• WPA2\n• WPA3\n• WPA/WPA2-Enterprise (802.1x)",
+   "Ethernet Ports": "• 1× 10 Gbps SFP+/RJ45 Combo WAN/LAN\n• 1× 10 Gbps WAN/LAN\n• 4× 2.5 Gbps LAN",
+   "USB Support": "1× USB 3.0\n• Supported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\n• Supported Functions:\nFTP Server",
+   "Protocols": "• IPv4\n• IPv6",
+   "Game Center": "1. Game Acceleration:\n• Accelerate Game Applications with QoS\n• Accelerate Game Devices with Gaming Port\n• Game Servers Acceleration by GPN\n• Accelerate Mobile Games",
+   "Service Kit": "HomeShield\nLearn More>",
+   "Parental Controls": "HomeShield Parental Controls\nCustom Profiles\nProfessional Content Filter Library\nFamily Time\nBedtime",
+   "WAN Type": "• Dynamic IP\n• Static IP\n• PPPoE\n• PPTP\n• L2TP",
+   "Cloud Service": "• Auto Firmware Upgrade\n• TP-Link ID\n• DDNS",
+   "NAT Forwarding": "• Port Forwarding\n• Port Triggering\n• DMZ\n• UPnP",
+   "IPTV": "• IGMP Proxy\n• IGMP Snooping\n• Bridge\n• Tag VLAN",
+   "DHCP": "• Address Reservation\n• DHCP Client List\n• Server",
+   "DDNS": "• TP-Link\n• NO-IP\n• DynDNS",
+   "Management Features": "• Tether App\n• Webpage",
+   "Network Services Enabled by Default": "Web Server\nManage and configure device through web (HTTP/HTTPS)\n• Port: 80/443   Protocol: TCP\nDNS\nDNS"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:08+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ge800/",
+ "brand_site": "TP-Link"
+}

@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specifications": {
+   "Fan Quantity": "Fanless",
+   "Physical Security Lock": "Yes",
+   "External Power Supply": "External Power Adapter (Output: 53.5VDC / 2.43A)",
+   "Packet Forwarding Rate": "5.6544 Mpps",
+   "PoE Ports (RJ45)": "• Standard: 802.3 af/at compliant• PoE Ports: Ports 1–8• Power Supply: 124 W",
+   "Mac Address Table": "2K",
+   "Jumbo Frame": "16 KB",
+   "Switching Capacity": "7.6 Gbps",
+   "Dimensions ( W x D x H )": "8.2 × 4.9 × 1.0 in (209 × 126 × 26 mm)",
+   "Max. Power Consumption": "• 5.95 W (220/50 Hz. no PD connected)\n• 140.92 W (220/50 Hz. with 124 W PD connected)",
+   "Max. Heat Dissipation": "• 20.29 BTU/h (no PD connected)\n• 480.54 BTU/h (220/50 Hz. with 124 W PD connected)",
+   "Advanced Features": "• Compatible With IEEE 802.3af/at Compliant PDs\n• Isolation Mode Button (Ports 1–8)\n• PoE Auto Recovery Button (Ports 1–8)\n• Mac Address Auto-Learning and Auto-Aging\n• IEEE802.3x Flow Control For Full-Duplex Mode And Backpressure for Half-Duplex Mode",
+   "Transmission Method": "Store-And-Forward",
+   "Certification": "FCC, CE",
+   "Package Content": "• TL-SL1311MP\n• Power Adapter\n• Installation Guide"
+  },
+  "Environment": {
+   "• Operating Temperature": "0–40 ℃ (32–104 ℉)",
+   "• Storage Temperature": "-40–70 ℃ (-40–158 ℉)",
+   "• Operating Humidity": "10–90% RH non-condensing",
+   "• Storage Humidity": "5–90% RH non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:10+06:00",
+ "source": "https://www.tp-link.com/us/business-networking/poe-switch/tl-sl1311mp/",
+ "brand_site": "TP-Link"
+}

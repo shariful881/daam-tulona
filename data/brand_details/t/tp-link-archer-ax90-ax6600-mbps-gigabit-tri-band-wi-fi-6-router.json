@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "WiFi Range": "4 Bedroom Houses\n8× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "WiFi Capacity": "Very High\nTri-Band\nAllocate devices to different bands for optimal performance\n4×4 MU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients",
+   "Working Modes": "Router Mode\nAccess Point Mode",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway\nHomeShield Security",
+   "Guest Network": "1× 5 GHz-1 Guest Network\n1× 5 GHz-2 Guest Network\n1× 2.4 GHz Guest Network",
+   "VPN Server": "OpenVPN\nPPTP",
+   "VPN Client": "• Open VPN Client\n• PPTP VPN Client\n• L2TP VPN Client",
+   "WiFi Encryption": "WPA\nWPA2\nWPA3\nWPA/WPA2-Enterprise (802.1x)",
+   "Processor": "1.5 GHz Quad-Core CPU",
+   "Ethernet Ports": "1× 2.5 Gbps WAN/LAN Port\n1× 1 Gbps WAN/LAN Port\n3× 1 Gbps LAN Ports",
+   "USB Support": "1× USB 3.0 Port\n1× USB 2.0 Port\nSupported Partition Formats:\nNTFS, exFAT, HFS+, FAT32\nSupported Functions:",
+   "Power": "12 V ⎓ 3.3 A",
+   "Buttons": "Wi-Fi On/Off Button\nPower On/Off Button\nLED On/Off Button\nWPS Button\nReset Button",
+   "Protocols": "IPv4\nIPv6",
+   "Service Kits": "HomeShield\nLearn More>",
+   "OneMesh™": "OneMesh™ Supported\nLearn More>\nAll OneMesh Products>",
+   "Parental Controls": "HomeShield Parental Controls\nCustom Profiles\nProfessional Content Filter Library\nFamily Time\nBedtime",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "Cloud Service": "Auto Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP\nVirtual Server",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management Features": "Tether App\nWebpage",
+   "System Requirements": "Cable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "FCC, CE",
+   "WiFi Transmission Power": "CE:\n<20dBm{2.4GHz}\n<23dBm{5.15GHz~5.35GHz}\n<30dBm{5.47GHz~5.725GHz}\nFCC:",
+   "WiFi Reception Sensitivity": "2.4GHz:\n11n HT20 MCS0:-95dBm\n11ax HE20 MCS11:-64dBm\n11ax HE40 MCS11:-62dBm\n5GHz-1:",
+   "Dimensions (W×D×H)": "12.2 × 8.1 × 6.8 in\n(311 × 207 × 174 mm)",
+   "Package Content": "Wi-Fi Router Archer AX90\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "WiFi Speeds": {
+   "5 GHz": "1201 Mbps (802.11ax)",
+   "2.4 GHz": "574 Mbps (802.11ax)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:07+06:00",
+ "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax90/",
+ "brand_site": "TP-Link"
+}

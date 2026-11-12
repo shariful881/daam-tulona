@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Specifications": {
+   "Main Processor": "Industrial-grade processor",
+   "Operating System": "Embedded Linux",
+   "Operating Interface": "Web, Local GUI",
+   "AI by Recorder": "Face detection; face recognition; perimeter protection; SMD Plus",
+   "AcuPick Performance of AI by Camera (Number of Channels)": "Max. 32-channel, 1 combined event per channel/s",
+   "Perimeter Performance AI by Recorder (Number of Channels)": "4 channels, 10 IVS rules for each channel",
+   "Perimeter Performance of AI by Camera (Number of Channels)": "All channels (16 targets/s)",
+   "Face Attributes": "Gender; age group; glasses; expressions; face mask; beard",
+   "SMD by Camera": "All channels (32 targets/s)",
+   "Metadata Performance of AI by Camera (Number of Channels)": "8 channels",
+   "Human Attributes": "Top color, top type, bottom color, bottom type, hat, bag, age, gender and umbrella",
+   "Non-motor Vehicle Attributes": "Vehicle model, vehicle color, number of persons, helmet.",
+   "ANPR by Camera (Number of Channels)": "All channels (8 targets/s)",
+   "License Plate Database Capacity": "1. Create up to 20,000 plate numbers.\n2. Blocklist and allowlist",
+   "Access Channel": "64 channels",
+   "Resolution": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF",
+   "Video Output": "2 VGA, 2 HDMI\nVGA: 1920 × 1080, 1280 × 1024, 1280 × 720\nHDMI: 7680 × 4320, 3840 × 2160, 1920 × 1080, 1280 × 1024, 1280 × 720\nHeterogeneous video source output for HDMI1 and HDMI2\nSimultaneous video source output for VGA1 and HDMI1",
+   "Third-party Camera Access": "ONVIF; Panasonic; Sony; Axis; Arecont; Pelco; Canon; Hanwha",
+   "Video Compression": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG",
+   "Audio Compression": "G.711a; G.711u; PCM; G726",
+   "Mobile Phone Access": "iOS; Android",
+   "Interoperability": "ONVIF 25.06 (Profile T; Profile S; Profile G; Profile M); CGI; SDK",
+   "Browser": "Chrome; IE; Safari; Edge; Firefox",
+   "Network Mode": "Multi-address; load balance; fault tolerance; link aggregation",
+   "Multi-channel Playback": "Up to 16 channels",
+   "Record Mode": "General, motion detection; intelligent; alarm; POS",
+   "Backup Method": "USB device and network",
+   "Disk Group": "Yes",
+   "Audio Input": "1-channel RCA",
+   "Audio Output": "2-channel RCA",
+   "Alarm Input": "16 channels",
+   "Alarm Output": "8 channels (1-channel 12 V 1 A output）",
+   "eSATA": "1",
+   "RS-232": "1",
+   "USB": "4 (2 front USB 2.0 ports, 2 rear USB 3.0 ports)",
+   "HDMI": "2",
+   "VGA": "2",
+   "Network Port": "2 (10/100/1000 Mbps Ethernet port, RJ-45)",
+   "Power Supply": "100–240 VAC, 50-60 Hz",
+   "Power Consumption": "Total output of NVR is ≤ 13 W (without HDD)",
+   "Net Weight": "6.40 kg (14.11 lb)",
+   "Gross Weight": "9.01 kg (19.86 lb)",
+   "Product Dimensions": "439.9 mm × 457.9 mm × 89.0 mm (17.32\" × 18.03\" × 3.50\") (W × D × H)",
+   "Packaging Dimensions": "570.0 mm × 570.0 mm x 226.0 mm (22.44\" × 22.44\" × 8.90\") (W ×D × H)",
+   "Operating Temperature": "–10 °C to +55 °C (+14 °F to +131 °F)",
+   "Storage Temperature": "–20 °C to +60 °C (–4 °F to +140 °F)",
+   "Operating Humidity": "10%–93% (RH), non-condensing"
+  },
+  "Network Bandwidth": {
+   "AI disabled": "384 Mbps incoming, 384 Mbps recording and 384 Mbps outgoing",
+   "AI enabled": "200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing"
+  },
+  "Multi-screen Display": {
+   "Main screen": "1/4/8/9/16/25/36/64",
+   "Sub screen": "1/4/8/9/16"
+  },
+  "Certifications": {
+   "FCC": "47 CFR FCC Part15, SubpartB, Class A",
+   "CE-EMC": "EN 55032:2015+A1:2020; EN IEC 61000-3-2:2019+A1:2021; EN 61000-3-3:2013+A1:2019+A2:2021; EN 55035:2017+A11:2020; EN 50130-4:2011+A1:2014",
+   "CE-LVD": "EN 62368-1:2014"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-12T22:21+06:00",
+ "source": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei-series/nvr5864-ei",
+ "brand_site": "Dahua"
+}

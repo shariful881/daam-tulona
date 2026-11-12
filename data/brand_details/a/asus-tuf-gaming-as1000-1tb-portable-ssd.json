@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming AS1000",
+   "Color": "Black",
+   "Interface": "USB3.2 Gen 2X1",
+   "Speed": "10Gbps",
+   "Capacity": "1TB",
+   "OS Compatibility": "Chrome OS\nMac OS Catalina or later\nWindows11\nWindows® 10",
+   "Dimension": "125 x 54 x 13 mm",
+   "Weight": "157g",
+   "Voltage": "5V 1.35A",
+   "Protection Rating": "MIL-STD-810H 516.8 Drop Test\nIP68",
+   "Package Content": "User manual\nUSB-C to USB-C cable\nQuick Installation Guide"
+  },
+  "Temperature": {
+   "Storage": "-40℃(-40℉) ~60℃(140℉)",
+   "Operating": "0 ℃(32 ℉)-40 ℃(104 ℉)"
+  },
+  "Humidity": {
+   "Storage": "10%~90% (Non-Condensing)",
+   "Operating": "15%~90% (Non-Condensing)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming AS1000",
+ "fetched": "2026-11-12T22:07+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/data-storage/tuf-gaming/tuf-gaming-as1000/techspec/",
+ "brand_site": "ASUS"
+}

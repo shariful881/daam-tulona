@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "PRIME Z390M-PLUS",
+   "CPU": "Intel® Socket 1151for 9\nth\n/ 8\nth\nwww.asus.com",
+   "Chipset": "Intel® Z390",
+   "Memory": "www.asus.com\nfor the Memory QVL (Qualified Vendors Lists).",
+   "Multi-GPU Support": "Supports AMD CrossFireX™ Technology",
+   "Storage": "PCIEX16_1 slot supports up to 3 Intel® PCIe NVME SSDs via a Hyper M.2 X16 series Card,\nIntel® Z390 Chipset :\n,\nIntel® CPU with Intel® Rapid Storage Technology support (RAID 0 & RAID 1)",
+   "LAN": "Intel® I219V, 1 x Gigabit LAN Controller(s),Anti-surge LANGuard",
+   "Audio": "Audio Feature :",
+   "USB Ports": "8 x USB 3.1 Gen 1 port(s) (4 at mid-board),\nIntel® Z390 Chipset :\n,2 x USB 3.1 Gen 2 port(s),4 x USB 2.0 port(s) (4 at mid-board)",
+   "Special Features": "- Improved DDR4 Stability,- MemOK! II,\nASUS Optimem II：\n,\nASUS 5X Protection III :\nASUS EPU :",
+   "Manageability": "WfM 2.0, DMI 3.0, WOL by PME, PXE",
+   "Support Disc": "Drivers\nASUS Utilities\nASUS EZ Update\nAnti-virus software (OEM version)",
+   "Operating System": "Windows® 10 64-bit",
+   "Form Factor": "9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm ),mATX Form Factor"
+  }
+ },
+ "key_features": [],
+ "model": "PRIME Z390M-PLUS",
+ "fetched": "2026-11-12T22:16+06:00",
+ "source": "https://www.asus.com/bd/motherboards-components/motherboards/prime/prime-z390m-plus/techspec/",
+ "brand_site": "ASUS"
+}
