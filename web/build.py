@@ -1329,6 +1329,7 @@ def main():
     # সম্ভাব্য মিল: যেগুলো মেলালে এক দোকানের প্রোডাক্ট প্রথমবার দুই দোকানে তুলনা করা যাবে, সেগুলো আগে
     _lv = lambda pid_: {s_ for s_, o_ in (offers.get(pid_) or {}).items() if o_.get("in_stock") and o_.get("price")}
     not_same_ = set(mm.get("not_same", []))
+    not_same_ |= set(mm.get("sugg_hidden", []))  # অ্যাডমিন তালিকা থেকে সরানো (আলাদা ঘোষণা নয়; স্বয়ংক্রিয় মিল বন্ধ হয় না)
     sugg_admin = []
     for x in auto_sugg + [dict(y, why="নাম কাছাকাছি") for y in suggestions]:
         a_, b_ = amap.get(x["a"], x["a"]), amap.get(x["b"], x["b"])
