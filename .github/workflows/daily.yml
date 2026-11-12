@@ -1,7 +1,7 @@
 name: daily-prices
 on:
   schedule:
-    - cron: "17 20 * * *"   # প্রতিদিন বাংলাদেশ সময় রাত ২:১৭
+    - cron: "0 22 * * *"   # প্রতিদিন বাংলাদেশ সময় ভোর ৪:০০ (UTC রাত ১০টা); পুরো রান প্রায় ২.৫-৩ ঘণ্টা
   workflow_dispatch:
     inputs:
       stores:
