@@ -1,5 +1,5 @@
 {
-  "_নোট": "ব্র্যান্ড পাতা। multiword: দুই শব্দের ব্র্যান্ড; generic: যে শব্দ ব্র্যান্ড নয়; aliases: ভিন্ন বানান/নাম → মূল ব্র্যান্ডের slug; info: পরিচিতি, লিংক, লোগো (অ্যাডমিন প্যানেল থেকে বদলায়)।",
+  "_নোট": "ব্র্যান্ড পাতা। multiword: দুই শব্দের ব্র্যান্ড; generic: যে শব্দ ব্র্যান্ড নয়; aliases: ভিন্ন বানান/নাম → মূল ব্র্যান্ডের slug; info: পরিচিতি, লিংক, লোগো (অ্যাডমিন প্যানেল থেকে বদলায়)। contains: নামের যেকোনো জায়গায় এই লেখা থাকলে সেই ব্র্যান্ড; manual: নির্দিষ্ট প্রোডাক্টের (আইডি) ব্র্যান্ড হাতে বসানো।",
   "min_products": 5,
   "multiword": [
     "Cooler Master",
@@ -15,7 +15,8 @@
     "Royal Kludge",
     "Digital X",
     "Value-Top",
-    "Smart Life"
+    "Smart Life",
+    "Universal Audio"
   ],
   "generic": [
     "laptop",
@@ -345,5 +346,13 @@
       "about": "হার্ডডিস্ক, টিভি আর ঘরের যন্ত্রপাতি পাওয়া যায় এই নামে।",
       "website": "https://www.global.toshiba"
     }
+  },
+  "contains": {
+    "birla cable": "Birla",
+    "user client license (user cal) for microsoft": "Microsoft",
+    "thieye": "Thieye"
+  },
+  "manual": {
+    "007-first-light-for-ps5": "IO Interactive"
   }
 }

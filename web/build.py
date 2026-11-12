@@ -119,6 +119,13 @@ def price_presets(prices):
     return out if len(out) >= 3 else []
 
 
+LAPTOP_MAKERS = [("hp", "HP"), ("asus", "Asus"), ("lenovo", "Lenovo"), ("dell", "Dell"), ("acer", "Acer"), ("toshiba", "Toshiba"),
+                 ("apple", "Apple"), ("macbook", "Apple"), ("samsung", "Samsung"), ("fujitsu", "Fujitsu"), ("msi", "MSI"), ("sony", "Sony"),
+                 ("huawei", "Huawei"), ("xiaomi", "Xiaomi"), ("microsoft", "Microsoft"), ("gigabyte", "Gigabyte"), ("razer", "Razer"),
+                 ("walton", "Walton"), ("compaq", "HP"), ("thinkpad", "Lenovo"), ("ideapad", "Lenovo"), ("avita", "Avita"), ("mac", "Apple")]
+LAPTOP_RANK = {d: k for k, d in enumerate(dict.fromkeys(d for _, d in LAPTOP_MAKERS))}
+
+
 def category_filters(lst):
     """ক্যাটাগরির ফিল্টার: যে ফ্যাসেট অন্তত ২৫% প্রোডাক্টে আছে আর ২+ রকম মান, শুধু সেগুলো দেখায়।"""
     if not lst:
@@ -135,6 +142,9 @@ def category_filters(lst):
         if sum(vals.values()) >= len(lst) * 0.25 and len(vals) >= 2:
             opts = sorted(vals, key=lambda k: num[k])
             out.append({"id": d["id"], "name": d["name"], "opts": [[k, vals[k]] for k in opts]})
+    fit = Counter(i["fx"]["fit"][0] for i in lst if i["fx"].get("fit"))
+    if sum(fit.values()) >= 10 and len(fit) >= 2:  # রিপ্লেসমেন্ট পার্টস: কোন ল্যাপটপের জন্য
+        out.insert(0, {"id": "fit", "name": "কোন ল্যাপটপের জন্য", "opts": [[k, fit[k]] for k in sorted(fit, key=lambda k: LAPTOP_RANK.get(k, 99))]})
     return out
 
 
@@ -491,6 +501,8 @@ class Brands:
         self.generic = set(self.conf.get("generic", []))
         self.aliases = self.conf.get("aliases", {})
         self.info = self.conf.get("info", {})
+        self.contains = {k.lower(): v for k, v in self.conf.get("contains", {}).items()}
+        self.manual = self.conf.get("manual", {})
         mf = ROOT / "web/static/brands/meta.json"  # tools/fetch_brand_meta: অফিসিয়াল সাইটের লোগো ও সোশ্যাল লিংক
         for slug, m in (json.loads(mf.read_text()) if mf.exists() else {}).items():
             if slug in self.info:
@@ -498,8 +510,18 @@ class Brands:
                     self.info[slug].setdefault(k, v)
         self.spell = defaultdict(Counter)
 
-    def of(self, name: str, raw: str | None) -> str | None:
+    def of(self, name: str, raw: str | None, pid: str | None = None) -> str | None:
         low = name.lower()
+        if pid and self.manual.get(pid):  # অ্যাডমিন থেকে হাতে বসানো
+            raw = self.manual[pid]
+            slug = self.aliases.get(brand_slug(raw), brand_slug(raw))
+            self.spell[slug][raw] += 1
+            return slug
+        for k, v in self.contains.items():  # নামের মাঝখানে থাকা ব্র্যান্ড (যেমন "... BIRLA CABLE")
+            if k in low:
+                slug = self.aliases.get(brand_slug(v), brand_slug(v))
+                self.spell[slug][v] += 1
+                return slug
         for m in self.multi:
             if low.startswith(m.lower() + " ") or low.startswith(m.lower().replace(" ", "-") + " "):
                 raw = m
@@ -818,7 +840,7 @@ def main():
         live = [x for x in live_all if x[0] not in sus]  # সর্বনিম্ন দাম ও সাশ্রয় শুধু বিশ্বাসযোগ্য দাম থেকে
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
-        bslug = BR.of(p["name"], det.get("brand") if det.get("brand") not in (None, "", "Others") else p["brand"])
+        bslug = BR.of(p["name"], det.get("brand") if det.get("brand") not in (None, "", "Others") else p["brand"], pid)
         brand = bslug or ""
         imgs = image_list(pid, so, products, stores)
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
@@ -912,6 +934,17 @@ def main():
 
     for it in items.values():  # ব্র্যান্ডের প্রদর্শনী নাম (সব বানান গোনা হয়ে গেলে)
         it["brand"] = BR.display(it["bslug"]) if it["bslug"] else ""
+    # ব্র্যান্ড নেই এমন ল্যাপটপের রিপ্লেসমেন্ট পার্টস (ব্যাটারি, কিবোর্ড, চার্জার, ডিসপ্লে): ব্র্যান্ড নয়, "কোন ল্যাপটপের জন্য"।
+    # এগুলো Asus/HP-র বানানো নয়, তাই ব্র্যান্ড পাতায় যায় না; ফিল্টার আর স্কিমার isAccessoryOrSparePartFor-এ কাজে লাগে।
+    for it in items.values():
+        it["compat"] = None
+        if it["bslug"] or not (it["category"] == "laptop-accessories" or re.search(r"\b(laptop|notebook|macbook)\b", it["name"], re.I)):
+            continue
+        low_ = it["name"].lower()
+        hit = min(((m_.start(), disp) for key, disp in LAPTOP_MAKERS for m_ in [re.search(r"\b" + key + r"\b", low_)] if m_), default=None)
+        if hit:
+            it["compat"] = hit[1]
+            it["fx"]["fit"] = [hit[1], LAPTOP_RANK.get(hit[1], 99)]
     common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
                            if c_ >= BR.conf.get("min_products", 5)}
     common["brand_info"] = lambda b_: BR.info.get(b_) or {}
@@ -1151,6 +1184,8 @@ def main():
                   "description": answer, "category": leaf["name_en"]}
         if it["brand"]:
             jsonld["brand"] = {"@type": "Brand", "name": it["brand"]}
+        elif it["compat"]:
+            jsonld["isAccessoryOrSparePartFor"] = {"@type": "Product", "name": f"{it['compat']} Laptop", "brand": {"@type": "Brand", "name": it["compat"]}}
         if det.get("mpn"):
             jsonld["mpn"] = det["mpn"]
         if det.get("model"):
@@ -1470,10 +1505,13 @@ def main():
     _dups = sorted(((t_, ps_) for t_, ps_ in _tc.items() if len(ps_) > 1), key=lambda x: -len(x[1]))
     _long = sorted(((t_, pid_) for pid_, t_ in seo_titles.items() if len(t_) > 70), key=lambda x: -len(x[0]))
     _samp = next((i["id"] for i in sorted(_lst, key=lambda i: -i["live_count"]) if i["imgs"] and i["brand"]), None)
+    admin["nobrand"] = [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in sorted(_lst, key=lambda i: i["name"])
+                        if not i["brand"] and not i["compat"]][:300]
     admin["seo"] = {
         "indexable": len(_lst), "noindex": sum(1 for i in vals if not i["listed"] and i["state"] != "gone"),
         "gone": stock_counts.get("gone", 0), "sitemap_urls": len(urls), "pages": sum(1 for u in urls if "/p/" not in u),
-        "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"]),
+        "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"] and not i["compat"]),
+        "compat": sum(1 for i in _lst if i["compat"]),
         "single_store": sum(1 for i in _lst if i["live_count"] <= 1),
         "thin": sum(1 for i in _lst if i["live_count"] <= 1 and i["id"] not in details and not i["imgs"]),
         "with_specs": sum(1 for i in _lst if i["id"] in details),

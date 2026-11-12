@@ -521,11 +521,22 @@
           '<div class="af"><label>এই নামগুলোও একই ব্র্যান্ড</label><input type="text" id="balias" value="' + esc(al) + '"><small>কমা দিয়ে আলাদা করুন, যেমন: teamgroup, team-group। ওই নামের প্রোডাক্টগুলো এই ব্র্যান্ডে যোগ হবে।</small></div>' +
           '<div class="anote warn" style="margin-top:8px">এটা আসলে কোনো ব্র্যান্ড নয় (যেমন "Laptop", "Paper")? <button type="button" class="abtn warn" id="bnot" style="margin-left:6px">ব্র্যান্ড তালিকা থেকে বাদ দিন</button></div></section>';
       }
+      bc.manual = bc.manual || {};
+      function nobrandHTML() {
+        var nb = S.admin.nobrand || [];
+        if (!nb.length) return "";
+        return '<section class="card"><h2>ব্র্যান্ড পাওয়া যায়নি <span class="sub">· ' + bn(nb.length) + "টি প্রোডাক্ট</span></h2>" +
+          '<p class="muted" style="margin:0 0 8px;font-size:.84rem">নাম থেকে ব্র্যান্ড বোঝা যায়নি। আসল ব্র্যান্ড জানলে ঘরে লিখে সেভ করুন; সত্যিই ব্র্যান্ড না থাকলে (যেমন সাধারণ কাগজের রোল) ফাঁকা রাখুন। ল্যাপটপের রিপ্লেসমেন্ট পার্টস এখানে আসে না, ওগুলো "কোন ল্যাপটপের জন্য" হিসেবে আলাদা দেখায়।</p>' +
+          nb.map(function (x) {
+            return '<div class="apair"><div class="nm"><a href="' + BASE + "/p/" + esc(x.id) + '/" target="_blank" style="text-decoration:underline"><b>' + esc(x.n) + "</b></a> <span>· " + esc(x.c) + "</span></div>" +
+              '<div class="bt"><input type="text" data-nb="' + esc(x.id) + '" value="' + esc(bc.manual[x.id] || "") + '" placeholder="ব্র্যান্ড" style="width:150px"></div></div>';
+          }).join("") + "</section>";
+      }
       function draw() {
         if (cur) { p.innerHTML = editHTML(cur); return; }
         p.innerHTML = '<section class="card"><h2>ব্র্যান্ড</h2><p class="muted" style="margin:0;font-size:.84rem">' + bn(list.length) + "টি ব্র্যান্ড, এর মধ্যে " +
           bn(list.filter(function (b) { return b.k >= min; }).length) + "টির নিজের পাতা আছে (অন্তত " + bn(min) + "টি প্রোডাক্ট)। পরিচিতি, অফিসিয়াল লিংক আর লোগো যোগ করুন, ভুল বানান এক করুন।</p>" +
-          '<div class="af"><input type="search" id="bq" placeholder="ব্র্যান্ড খুঁজুন…"></div><div id="blist">' + listHTML("") + "</div></section>";
+          '<div class="af"><input type="search" id="bq" placeholder="ব্র্যান্ড খুঁজুন…"></div><div id="blist">' + listHTML("") + "</div></section>" + nobrandHTML();
         $("#bq").addEventListener("input", function () { $("#blist").innerHTML = listHTML(this.value); });
       }
       draw();
@@ -541,6 +552,7 @@
       });
       bindDirty(p, "brands", function (el) {
         if (el.id === "bq") return false;
+        if (el.dataset.nb) { var v = el.value.trim(); if (v) bc.manual[el.dataset.nb] = v; else delete bc.manual[el.dataset.nb]; return; }
         if (!cur) return false;
         if (el.id === "balias") {
           Object.keys(bc.aliases).forEach(function (k) { if (bc.aliases[k] === cur) delete bc.aliases[k]; });
@@ -930,7 +942,7 @@
       '<section class="card"><h2>SEO স্বাস্থ্য <span class="sub">· আজকের বিল্ড থেকে</span></h2><div class="seolist">' +
         row(sx.dup_titles ? "warn" : "ok", sx.dup_titles ? bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক (" + bn(sx.dup_titles) + "টি গ্রুপ)" : "একই শিরোনামের পাতা নেই",
           sx.dup_titles ? "সাধারণত একই প্রোডাক্ট দুইবার তালিকায় এসেছে (নামের শেষে -2, -3)। \"প্রোডাক্ট\" ট্যাবে মিলিয়ে দিলে ঠিক হবে, Google-এর কাছে ডুপ্লিকেট পাতা থাকবে না।" : "") +
-        row(sx.no_brand ? "warn" : "ok", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড নেই", "ব্র্যান্ড থাকলে Google-এর Product তথ্য পূর্ণ হয়। \"ব্র্যান্ড\" ট্যাবে নামের রূপ যোগ করলে নিজে ধরবে।") +
+        row(sx.no_brand ? "info" : "ok", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "\"ব্র্যান্ড\" ট্যাবের নিচে তালিকা আছে; জানা থাকলে হাতে বসান, সত্যিই ব্র্যান্ড না থাকলে ফাঁকা রাখুন (Google-এ brand বাধ্যতামূলক নয়)।" + (sx.compat ? " " + bn(sx.compat) + "টি ল্যাপটপ রিপ্লেসমেন্ট পার্ট \"কোন ল্যাপটপের জন্য\" হিসেবে চিহ্নিত।" : "")) +
         row("info", bn(sx.single_store) + "টি প্রোডাক্ট মাত্র এক দোকানে আছে", "তুলনা নেই বলে এগুলো দুর্বল পাতা। মিল বাড়ালে বা নতুন দোকান যোগ করলে কমবে।") +
         row("info", bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি", "দোকানের দেওয়া লম্বা নামের কারণে। Google শেষের অংশ কেটে দেখায়, তেমন ক্ষতি নেই।") +
         row("ok", "প্রতিটা প্রোডাক্ট পাতায় সংক্ষিপ্ত উত্তর, তারিখ আর Product/Offer স্কিমা আছে", "Google AI Overview আর AI চ্যাটবট এক বাক্যেই দাম, দোকান আর তারিখ পায়।") +

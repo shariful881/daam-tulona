@@ -18,7 +18,7 @@
         {% if gallery %}<a class="credit" href="{{ gallery[0].h }}" target="_blank" rel="nofollow noopener">ছবি: {{ gallery[0].n }}</a>{% endif %}
       </div>
       <div style="min-width:0">
-        <div class="brand">{% if it.bslug in brand_set %}<a href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}</a>{% else %}{{ it.brand }}{% endif %}</div>
+        <div class="brand">{% if it.bslug in brand_set %}<a href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}</a>{% elif it.brand %}{{ it.brand }}{% elif it.compat %}{{ it.compat }} ল্যাপটপের জন্য{% endif %}</div>
         <h1>{{ p.name }}</h1>
         <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
       </div>
@@ -91,7 +91,7 @@
       {% if warranty %}<div><dt>ওয়ারেন্টি</dt><dd class="warr-txt">{{ warranty }}</dd></div>{% endif %}
       {% if det.model %}<div><dt>মডেল</dt><dd>{{ det.model }}</dd></div>{% endif %}
       {% if det.mpn %}<div><dt>পার্ট নম্বর (MPN)</dt><dd>{{ det.mpn }}</dd></div>{% endif %}
-      <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+      {% if it.brand %}<div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>{% elif it.compat %}<div><dt>যে ল্যাপটপে লাগে</dt><dd>{{ it.compat }} (ব্র্যান্ডের নিজের নয়, উপযোগী পার্ট)</dd></div>{% endif %}
     </dl>
     {% for k, vals in (det.options or {}).items() %}<p class="muted" style="font-size:.85rem;margin:8px 0 0"><b>{{ k }}:</b> {{ vals|join(", ") }}</p>{% endfor %}
   </section>
@@ -141,7 +141,7 @@
     {% else %}
     <details open><summary>স্পেসিফিকেশন</summary>
       {% if not feat_rows %}<dl>
-        <div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>
+        {% if it.brand %}<div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>{% elif it.compat %}<div><dt>যে ল্যাপটপে লাগে</dt><dd>{{ it.compat }}</dd></div>{% endif %}
         {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
         <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
       </dl>{% endif %}
