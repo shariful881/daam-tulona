@@ -1,116 +1,108 @@
 {
- "date": "2026-11-11",
- "scraped_at": "2026-11-11T19:26+06:00",
+ "date": "2026-11-12",
+ "scraped_at": "2026-11-12T07:56+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32002,
+   "items": 32010,
    "errors": [],
-   "seconds": 1786,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 1828,
+   "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1432,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 1476,
+   "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3090,
    "errors": [],
-   "seconds": 1116,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 1159,
+   "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4032,
    "errors": [],
-   "seconds": 1488,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 1790,
+   "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
-   "items": 1516,
+   "items": 1534,
    "errors": [],
-   "seconds": 597,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 614,
+   "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 486,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 510,
+   "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 18,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 20,
+   "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 648,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 678,
+   "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 27981,
+   "items": 27639,
    "errors": [],
-   "seconds": 9609,
+   "seconds": 9042,
    "failed_cats": []
   },
   "techland": {
    "enabled": true,
    "items": 22231,
    "errors": [],
-   "seconds": 5919,
+   "seconds": 5983,
    "failed_cats": []
   },
   "diamu": {
    "enabled": true,
    "items": 1886,
    "errors": [],
-   "seconds": 573,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 690,
+   "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 132,
-   "failed_cats": [],
-   "skipped": true
+   "seconds": 134,
+   "failed_cats": []
   },
   "pickaboo": {
    "enabled": false,
    "items": 0,
-   "errors": [],
+   "errors": [
+    "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।"
+   ],
    "seconds": 0,
-   "failed_cats": [],
-   "skipped": true
+   "failed_cats": []
   },
   "gadgetandgear": {
    "enabled": false,
    "items": 0,
-   "errors": [],
+   "errors": [
+    "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।"
+   ],
    "seconds": 0,
-   "failed_cats": [],
-   "skipped": true
+   "failed_cats": []
   }
  }
 }
