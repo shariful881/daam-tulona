@@ -46,7 +46,12 @@
       <span>নিচের বোতামে নাম আর মোবাইল দিলে স্টকে এলেই আপনাকে জানাব।{% if alts %} এখন কেনা যায় এমন <a href="#alts">একই ধরনের প্রোডাক্ট নিচে ↓</a>{% endif %}</span>
     </div>
     {% endif %}
-    {% if saving %}<span class="save">সঠিক স্টোর বাছলে {{ saving | taka }} সাশ্রয়</span>{% endif %}
+    {% if saving and worst and best %}
+    <div class="savebox" role="note">
+      <div class="sv-amt"><small>ঠিক দোকান বাছলে আপনার বাঁচবে</small><b>{{ saving | taka }}</b></div>
+      <p>একই প্রোডাক্ট {{ stores[worst.store].name }}-এ {{ worst.price | taka }}, আর {{ stores[best.store].name }}-এ {{ best.price | taka }}। দামতুলনা আপনার হয়ে {{ live_count | bn }}টা দোকানের দাম মিলিয়ে দিয়েছে, যাতে এই টাকাটা আপনার পকেটে থাকে।</p>
+    </div>
+    {% endif %}
     {% if best and low30 %}{% if best.price <= low30 %}<span class="save low30">▼ গত ৩০ দিনে সবচেয়ে কম দাম</span>{% elif best.price > low30 * 1.03 %}<span class="save hi30">গত ৩০ দিনে সর্বনিম্ন ছিল {{ low30 | taka }}</span>{% endif %}{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>

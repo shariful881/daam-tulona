@@ -1042,3 +1042,14 @@ main.col>.foot,main.col>.footnav{order:99}
 .oosbox.coming{border-style:solid;border-color:var(--accent)}
 .oosnote{margin:12px 0 0;font-size:.86rem;color:var(--muted)}
 .linkbtn{border:0;background:none;padding:0;font:inherit;color:var(--ink);text-decoration:underline;cursor:pointer}
+
+/* সাশ্রয়: সাইটের মূল কথা, তাই চোখে পড়ার মতো */
+.savebox{display:flex;gap:14px;align-items:center;margin:12px 0 4px;padding:12px 14px;border-radius:14px;background:linear-gradient(135deg,var(--best-soft),transparent 140%);border:1.5px solid var(--best)}
+.savebox .sv-amt{flex:none;display:flex;flex-direction:column;line-height:1.15}
+.savebox .sv-amt small{font-size:.74rem;color:var(--best);font-weight:600}
+.savebox .sv-amt b{font-size:1.65rem;color:var(--best);font-weight:800;letter-spacing:-.5px}
+.savebox p{margin:0;font-size:.84rem;line-height:1.55;color:var(--ink)}
+@media (max-width:520px){.savebox{flex-direction:column;align-items:flex-start;gap:6px}}
+.row .d.lo{font-weight:700}
+.herosave{margin:4px 0 10px;padding:10px 12px;border-radius:12px;background:var(--best-soft);font-size:.9rem;line-height:1.6}
+.herosave .g{color:var(--best);font-size:1.05rem}

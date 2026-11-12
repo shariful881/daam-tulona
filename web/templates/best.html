@@ -23,7 +23,7 @@
             {% if it.fx %}<span class="tags">{% for k, v in it.fx.items() %}<span class="tag">{{ v[0] }}</span>{% endfor %}</span>{% endif %}
             <span class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ{% if it.live_count > 1 %} · <span class="badge">{{ it.live_count|bn }} স্টোরে আছে</span>{% endif %}</span>
           </span>
-          <span class="bpr"><b class="price">{{ it.best.price | taka }}</b>{% if it.saving %}<small class="d lo">{{ it.saving | taka }} পার্থক্য</small>{% endif %}</span>
+          <span class="bpr"><b class="price">{{ it.best.price | taka }}</b>{% if it.saving %}<small class="d lo">{{ it.saving | taka }} বাঁচান</small>{% endif %}</span>
         </a>
       </li>
       {% if loop.index == 5 and not loop.last %}<li class="bad">{{ slot("category", cat.slug, "best-" ~ amt) }}</li>{% endif %}

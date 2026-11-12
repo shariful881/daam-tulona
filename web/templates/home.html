@@ -21,7 +21,8 @@
 
 {% block content %}
   <section class="card hero">
-    <h1>দাম মিলিয়ে কিনুন, এক জায়গায়</h1>
+    <h1>দাম মিলিয়ে কিনুন, টাকা বাঁচান</h1>
+    {% if save_stat.n %}<div class="herosave"><b>{{ save_stat.n|bn }}টা প্রোডাক্টে</b> আজ দোকানভেদে দামের ফারাক আছে। ঠিক দোকান বাছলে সাধারণত <b class="g">{{ save_stat.med|taka }}</b> বাঁচে, আর <b>{{ save_stat.k1|bn }}টায়</b> ৳1,000-এর বেশি। কোথায় কম, আমরা দেখিয়ে দিই।</div>{% endif %}
     <p class="muted" style="margin:0;font-size:.92rem">এখন কেনা যায় এমন {{ total|bn }}টি প্রোডাক্টের দাম {{ store_count|bn }}টি স্টোর থেকে প্রতিদিন সংগ্রহ করা হয়: {{ store_names }}। এর মধ্যে {{ multi|bn }}টির দাম একাধিক স্টোরে পাশাপাশি দেখা যায়।</p>
     <p class="todaysum">আজ {{ store_count|bn }}টি দোকানের <b>{{ n_prices|bn }}টি</b> দাম যাচাই{% if M.ready %} · <b class="g">{{ M.n_dn|bn }}টির দাম কমেছে</b> · <b class="r">{{ M.n_up|bn }}টির বেড়েছে</b>{% endif %}{% if new_count %} · <b>{{ new_count|bn }}টি নতুন প্রোডাক্ট</b>{% endif %}</p>
     <form class="dk hsearch" action="{{ base }}/search/" method="get" role="search"><input type="search" name="q" placeholder="যেমন: Samsung 8GB RAM, Ryzen 5, 1TB SSD" aria-label="প্রোডাক্ট খুঁজুন"><button type="submit">খুঁজুন</button></form>

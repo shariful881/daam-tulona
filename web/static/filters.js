@@ -94,7 +94,7 @@
     var pr = it.p != null ? taka(it.p) : lp != null ? '<span class="muted" title="শেষ জানা দাম">' + taka(lp) + "</span>" : "—";
     return '<a class="row wi" href="' + BASE + "/p/" + encodeURIComponent(it.i) + '/"><span class="rimg" data-img>' + icon + img + "</span>" +
       '<div style="min-width:0"><div class="n">' + esc(it.n) + '</div><div class="w">' + esc(st) + (it.k > 1 ? '<span class="badge">' + bn(it.k) + " স্টোর</span>" : "") + "</div></div>" +
-      '<div><div class="p">' + pr + "</div>" + (it.v ? '<div class="d lo">' + taka(it.v) + " পার্থক্য</div>" : "") + "</div></a>";
+      '<div><div class="p">' + pr + "</div>" + (it.v ? '<div class="d lo">' + taka(it.v) + " বাঁচান</div>" : "") + "</div></a>";
   }
   function counts() {
     var boxes = document.querySelectorAll("input[data-fid]");

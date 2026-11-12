@@ -824,6 +824,7 @@ def main():
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
                       "group": group_of[p["category"]]["slug"], "brand": brand, "bslug": bslug, "best": best, "any_price": any_price,
                       "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
+                      "worst": {"store": live[-1][0], "price": live[-1][1]["price"]} if len(live) > 1 else None,
                       "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live_all), "sus": sorted(sus),
                       "created": p["created"], "specs": p["specs"], "imgs": imgs,
                       "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x),
@@ -847,6 +848,7 @@ def main():
                          key=lambda x: x[1]["price"])
             it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
             it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
+            it["worst"] = {"store": ok_[-1][0], "price": ok_[-1][1]["price"]} if len(ok_) > 1 else None
 
     # ===== স্টকের অবস্থা: স্টকে / আংশিক / আসছে / সদ্য শেষ / স্টক শেষ / বন্ধ =====
     # নিয়ম (স্টক শেষ প্রোডাক্টের নীতি): শুধু কেনা যায় এমন প্রোডাক্ট তালিকা আর গুগলে যায়। কোথাও স্টকে নেই এমন
@@ -1109,7 +1111,7 @@ def main():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(
             **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, spec_credit=spec_credit, feat_rows=feat_rows, feat_extra=feat_extra,
-            best=best, saving=it["saving"], live_count=it["live_count"], store_rows=rows, alts=alts,
+            best=best, saving=it["saving"], worst=it.get("worst"), live_count=it["live_count"], store_rows=rows, alts=alts,
             binfo=BR.info.get(it["bslug"], {}) if it["bslug"] else {}, bcount=bcount_all.get(it["bslug"], 0),
             gallery=[{"u": u, "big": big_image(u), "s": sid, "n": stores[sid]["name"], "h": (so.get(sid) or {}).get("url") or stores[sid]["home"]}
                      for u, sid in it["imgs"]],
@@ -1296,7 +1298,9 @@ def main():
     home_ctx = dict(M=M, mv=mv, tabs=market.TABS, idx_svg=idx_svg, heat=heat, sn_rows=sn_rows, ticker=ticker, nstat=nstat,
                     new_list=new_list, logo_brands=logo_brands, summ=summ, upd_time=upd_time, n_prices=n_prices,
                     scraped_at=_st, today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
-    write("", "home.html", groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
+    _sv = sorted(i["saving"] for i in listed_items.values() if i["saving"] > 0 and not i["sus"])
+    save_stat = {"n": len(_sv), "med": _sv[len(_sv) // 2] if _sv else 0, "k1": sum(1 for x in _sv if x >= 1000)}
+    write("", "home.html", save_stat=save_stat, groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["live_count"] > 1),
