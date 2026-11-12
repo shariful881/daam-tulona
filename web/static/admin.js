@@ -614,11 +614,13 @@
       function nobrandHTML() {
         var nb = S.admin.nobrand || [];
         if (!nb.length) return "";
-        return '<section class="card"><h2>ব্র্যান্ড পাওয়া যায়নি <span class="sub">· ' + bn(nb.length) + "টি প্রোডাক্ট</span></h2>" +
+        var unk = nb.filter(function (x) { return !x.u; }).length;
+        return '<section class="card"><h2>ব্র্যান্ড ছাড়া প্রোডাক্ট <span class="sub">· ' + bn(unk) + "টি অজানা, " + bn(nb.length - unk) + "টি সাধারণ ব্র্যান্ডহীন</span></h2>" +
           '<p class="muted" style="margin:0 0 8px;font-size:.84rem">নাম থেকে ব্র্যান্ড বোঝা যায়নি। আসল ব্র্যান্ড জানলে ঘরে লিখে সেভ করুন; সত্যিই ব্র্যান্ড না থাকলে (যেমন সাধারণ কাগজের রোল) ফাঁকা রাখুন। ল্যাপটপের রিপ্লেসমেন্ট পার্টস এখানে আসে না, ওগুলো "কোন ল্যাপটপের জন্য" হিসেবে আলাদা দেখায়।</p>' +
           nb.map(function (x) {
             return '<div class="apair"><div class="nm"><a href="' + BASE + "/p/" + esc(x.id) + '/" target="_blank" style="text-decoration:underline"><b>' + esc(x.n) + "</b></a> <span>· " + esc(x.c) + "</span></div>" +
-              '<div class="bt"><input type="text" data-nb="' + esc(x.id) + '" value="' + esc(bc.manual[x.id] || "") + '" placeholder="ব্র্যান্ড" style="width:150px"></div></div>';
+              '<div class="bt">' + (x.u ? '<span class="muted" style="font-size:.78rem;margin-right:6px">ব্র্যান্ডহীন</span>' : '<label style="font-size:.78rem;margin-right:6px"><input type="checkbox" data-none="' + esc(x.id) + '"' + ((bc.none || []).indexOf(x.id) >= 0 ? " checked" : "") + "> ব্র্যান্ড নেই</label>") +
+                '<input type="text" data-nb="' + esc(x.id) + '" value="' + esc(bc.manual[x.id] || "") + '" placeholder="ব্র্যান্ড" style="width:150px"></div></div>';
           }).join("") + "</section>";
       }
       function draw() {
@@ -641,6 +643,7 @@
       });
       bindDirty(p, "brands", function (el) {
         if (el.id === "bq") return false;
+        if (el.dataset.none) { bc.none = (bc.none || []).filter(function (i) { return i !== el.dataset.none; }); if (el.checked) bc.none.push(el.dataset.none); return; }
         if (el.dataset.nb) { var v = el.value.trim(); if (v) bc.manual[el.dataset.nb] = v; else delete bc.manual[el.dataset.nb]; return; }
         if (!cur) return false;
         if (el.id === "balias") {
@@ -1065,8 +1068,11 @@
         srow("warn", "robots.txt Google পড়তে পারছে না", "সাইট github.io-এর ভেতরের ফোল্ডারে; robots.txt থাকতে হয় ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে। ততদিন Search Console-এ sitemap.xml হাতে জমা দিন।", "seo-sitemap") +
         (tr.gsc ? "" : srow("warn", "Google Search Console যুক্ত হয়নি", "কতগুলো পাতা আসলে ইনডেক্স হয়েছে, কোন শব্দে মানুষ আসে, তা জানা যাচ্ছে না।", "settings")) +
         (sx.dup_titles ? srow("warn", bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক", "একই প্রোডাক্ট দুইবার তালিকায় (নামের শেষে -2, -3)। মিলিয়ে দিলে ঠিক হবে।", "seo-meta") : "") +
-        srow(sx.no_brand ? "info" : "ok", bn(sx.no_brand || 0) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "জানা থাকলে \"ব্র্যান্ড\" পাতার নিচে হাতে বসান; সত্যিই ব্র্যান্ড না থাকলে ফাঁকা রাখুন।" + (sx.compat ? " " + bn(sx.compat) + "টি ল্যাপটপ পার্ট \"কোন ল্যাপটপের জন্য\" হিসেবে চিহ্নিত।" : ""), "brands") +
-        srow("info", bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি", "দোকানের লম্বা নামের কারণে; Google শেষটা কেটে দেখায়, তেমন ক্ষতি নেই।") +
+        (sx.no_brand ? srow("info", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "জানা থাকলে \"ব্র্যান্ড\" পাতার নিচে হাতে বসান; ব্র্যান্ড না থাকলে \"ব্র্যান্ড নেই\" চিহ্ন দিন।", "brands")
+          : srow("ok", "সব প্রোডাক্টের ব্র্যান্ড ঠিক আছে", (sx.unbranded ? bn(sx.unbranded) + "টি সাধারণ ব্র্যান্ডহীন পণ্য (কাগজের রোল, সাধারণ ল্যাপটপ ডিসপ্লে ইত্যাদি), এগুলোর ব্র্যান্ড লাগে না। " : "") +
+            (sx.compat ? bn(sx.compat) + "টি ল্যাপটপ পার্ট \"কোন ল্যাপটপের জন্য\" হিসেবে চিহ্নিত।" : ""), "brands")) +
+        srow(sx.long_titles ? "info" : "ok", sx.long_titles ? bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি" : "সব শিরোনাম ৭০ অক্ষরের মধ্যে",
+          sx.long_titles ? "একই নামের প্রোডাক্ট আলাদা করতে পুরো নাম লেগেছে।" : "লম্বা নাম শিরোনামে ছোট করা হয় (দোকান-কোড বাদ, শব্দের মাঝে কাটা হয় না); পুরো নাম পাতার শিরোনামে (H1) থাকে।") +
         srow("ok", "প্রতিটা পাতায় সংক্ষিপ্ত উত্তর, তারিখ আর Product/Offer স্কিমা আছে", "Google AI Overview আর AI চ্যাটবট এক বাক্যেই দাম, দোকান আর তারিখ পায়।") +
         srow(sx.indexnow ? "ok" : "warn", "IndexNow " + (sx.indexnow ? "চালু" : "বন্ধ"), "প্রতিদিন বদলানো পাতা Bing/Yandex-কে জানানো হয় (ChatGPT সার্চ Bing ব্যবহার করে)।", sx.indexnow ? "" : "seo-sitemap") +
       "</div>");

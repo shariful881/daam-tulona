@@ -161,6 +161,29 @@ def shard_key(tok):
     return "_".join(format(ord(c), "x") for c in tok[:2])
 
 
+TITLE_MAX = 70  # Google ~৬০০ পিক্সেলের বেশি শিরোনাম কেটে দেখায়; প্রোডাক্টের পুরো নাম H1-এ থাকে
+_FLUFF = re.compile(r"\s*(,\s*)?(copilot\s*(\+|plus)\s*(pc)?\s*(&|and)?\s*ai\s+optimized|copilot\+\s*pc|&\s*ai\s+optimized)\b", re.I)
+
+
+def short_name(name: str) -> str:
+    """শিরোনামের জন্য নাম: শেষের দোকান-কোড (#C0PN3PA-3Y) আর বিজ্ঞাপনী অংশ বাদ।"""
+    s = re.sub(r"\s*#[\w.\-/]+\s*$", "", name)
+    s = _FLUFF.sub("", s)
+    return re.sub(r"\s+", " ", s).strip(" ,-/")
+
+
+def fit_name(name: str, limit: int) -> str:
+    """নাম limit অক্ষরের মধ্যে, শব্দের মাঝখানে না কেটে; অসমাপ্ত বন্ধনী আর ঝুলে থাকা সংযোগ-শব্দ বাদ।"""
+    if len(name) <= limit:
+        return name
+    cut = name[:limit + 1]
+    cut = cut[:cut.rfind(" ")] if " " in cut else name[:limit]
+    if cut.count("(") > cut.count(")"):
+        cut = cut[:cut.rfind("(")]
+    cut = re.sub(r"(\s+(with|and|for|&|\+|-|/|,|in|of|the))+$", "", cut.strip(" ,-/(&+"), flags=re.I)
+    return cut.strip(" ,-/(&+") or name[:limit]
+
+
 def taka(n):
     return "৳" + f"{int(n):,}" if n is not None else "—"
 
@@ -820,9 +843,20 @@ def main():
     for old, keep in amap.items():
         if old in offers and keep in offers:
             for st_, o_ in offers.pop(old).items():
-                offers[keep].setdefault(st_, o_)
+                k_o = offers[keep].get(st_)
+                # একই দোকান দুইবার: যেটায় দাম/স্টক আছে সেটা থাকে
+                if k_o is None or (not k_o.get("price") and o_.get("price")) or (o_.get("in_stock") and not k_o.get("in_stock") and o_.get("price")):
+                    offers[keep][st_] = o_
             for st_, ch_ in history.pop(old, {}).items():
-                history[keep][st_].extend(ch_)
+                if not history[keep].get(st_):
+                    history[keep][st_].extend(ch_)
+                    continue
+                # একই দোকান দুই তালিকায়: একই দিনের দুই দাম হলে যেটায় দাম আছে সেটা (কম দামটা)
+                by_d = {}
+                for d_, v_ in list(history[keep][st_]) + list(ch_):
+                    if d_ not in by_d or by_d[d_] is None or (v_ is not None and v_ < by_d[d_]):
+                        by_d[d_] = v_ if v_ is not None or d_ not in by_d else by_d[d_]
+                history[keep][st_][:] = sorted(by_d.items())
             if old in details and keep not in details:
                 details[keep] = details[old]
     amap = {k: v for k, v in amap.items() if k not in offers}
@@ -885,7 +919,7 @@ def main():
         merged_ids[keep_].add(old_)
     keep_listed = set(mm.get("keep_listed", []))
     # টেকনিক্যাল SEO সেটিং (অ্যাডমিন → SEO): টেমপ্লেট, ইনডেক্সের নিয়ম, AI স্নিপেট, IndexNow
-    SEO = {"title_product": "{name} দাম বাংলাদেশে | {price} থেকে", "title_product_oos": "{name} দাম বাংলাদেশে", "desc_product": "",
+    SEO = {"title_product": "{name} দাম বাংলাদেশে | {price}", "title_product_oos": "{name} দাম বাংলাদেশে", "desc_product": "",
            "title_category": "{cat} দাম বাংলাদেশে {year} | {cat_en} Price in BD", "desc_category": "", "gone_days": 90,
            "force_index": [], "force_noindex": [], "ai_snippet": "full", "indexnow": False, "indexnow_key": ""}
     _sf = ROOT / "config/seo.json"
@@ -945,6 +979,13 @@ def main():
         if hit:
             it["compat"] = hit[1]
             it["fx"]["fit"] = [hit[1], LAPTOP_RANK.get(hit[1], 99)]
+    # ব্র্যান্ডহীন সাধারণ পণ্য: নাম শুরু হয় সাধারণ শব্দ/মাপ দিয়ে (Paper Roll, 14 Inch Laptop Display, Universal …),
+    # অথবা অ্যাডমিনে "ব্র্যান্ড নেই" চিহ্নিত (config/brands.json → none)। এগুলো সমস্যা নয়, SEO-তে আলাদা গোনা হয়।
+    _none = set(BR.conf.get("none", []))
+    for it in items.values():
+        _w = (it["name"].split() or [""])[0].lower()
+        it["unbranded"] = not it["bslug"] and not it["compat"] and (
+            it["id"] in _none or _w in BR.generic or bool(re.fullmatch(r"[\d\W]+", _w)) or it["category"] == "laptop-accessories")
     common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
                            if c_ >= BR.conf.get("min_products", 5)}
     common["brand_info"] = lambda b_: BR.info.get(b_) or {}
@@ -1004,6 +1045,8 @@ def main():
     _MONTH = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
     year_bn, month_bn = bn_num(_now.year).replace(",", ""), _MONTH[_now.month - 1]
     common["month_year"], common["day_bn"] = f"{month_bn} {year_bn}", bn_date(today)
+
+    used_titles = {}  # শিরোনাম → যে প্রোডাক্টের নাম থেকে এসেছে
 
     def tpl(t, **kv):
         """অ্যাডমিনের টেমপ্লেট ভরানো; অজানা {শব্দ} ফাঁকা হয়ে যায়, বাড়তি ফাঁকা জায়গা মুছে।"""
@@ -1208,10 +1251,28 @@ def main():
                "sp": det.get("specs") or {"মূল তথ্য": dict(feat_rows) or {SPEC_NAMES.get(k, k): v for k, v in p["specs"].items()}}}
         (DIST / "d").mkdir(exist_ok=True)
         (DIST / f"d/{pid}.json").write_text(json.dumps(cmp, ensure_ascii=False, separators=(",", ":")))
-        _pv = {"name": p["name"], "price": taka(best["price"]) if best else "", "store": stores[best["store"]]["name"] if best else "",
+        _pv = {"name": short_name(p["name"]), "price": taka(best["price"]) if best else "", "store": stores[best["store"]]["name"] if best else "",
                "stores": bn_num(len(priced)), "brand": it["brand"] or "", "cat": leaf["name_bn"], "cat_en": leaf["name_en"]}
-        _title = (tpl(SEO["title_product"] if best else SEO["title_product_oos"], **_pv)
-                  or f"{p['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])} থেকে" if best else ""))
+        _tt = SEO["title_product"] if best else SEO["title_product_oos"]
+        _budget = max(40, TITLE_MAX - len(tpl(_tt, **{**_pv, "name": ""})) - 1)
+        _pv["name"] = fit_name(_pv["name"], _budget)
+        _title = tpl(_tt, **_pv) or f"{_pv['name']} দাম বাংলাদেশে" + (f" | {taka(best['price'])}" if best else "")
+        if _title in used_titles:
+            # ছোট করায় অন্য ভ্যারিয়েন্টের সাথে মিলে গেলে নামের শেষের আলাদা অংশ (রং, মডেল) রেখে মাঝখান বাদ;
+            # তাতেও না হলে পুরো নাম, তাতেও মিললে ধরন নম্বর
+            _w = short_name(p["name"]).split()
+            _other = {w_.lower().strip(",()") for w_ in used_titles[_title].split()}
+            diff_ = [w_.strip(",()+") for w_ in _w[len(_pv["name"].split()):] if w_.lower().strip(",()") not in _other]
+            diff_ = [w_ for w_ in diff_ if w_ and not w_.startswith("#")] or [w_.lstrip("#") for w_ in _w if w_.startswith("#")]
+            tail_ = fit_name(" ".join(diff_[:4]), 24)
+            cand_ = tail_ and tpl(_tt, **{**_pv, "name": fit_name(_pv["name"], _budget - len(tail_) - 3) + " … " + tail_})
+            _title = cand_ if cand_ and cand_ not in used_titles else (tpl(_tt, **{**_pv, "name": fit_name(_pv["name"], _budget - 9) + " (ধরন ২)"}) or _title)
+            n_ = 3
+            while _title in used_titles:
+                _title = (re.sub(r"\(ধরন [০-৯]+\)", f"(ধরন {bn_num(n_)})", _title) if "(ধরন " in _title
+                          else _title + f" (ধরন {bn_num(n_ - 1)})")
+                n_ += 1
+        used_titles[_title] = short_name(p["name"])
         _desc = ((tpl(SEO["desc_product"], **_pv) if SEO.get("desc_product") else "") or
                  ((f"{p['name']}: " + ", ".join(ins_meta) + "।" if ins_meta else
                    f"{p['name']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।" + (f" আজকের সর্বনিম্ন দাম {taka(best['price'])}।" if best else ""))
@@ -1530,12 +1591,13 @@ def main():
     admin["store_names"] = {s_: v_["name"] for s_, v_ in stores.items()}
     admin["enabled"] = list(enabled)
     admin["track"] = {k_: bool(v_) for k_, v_ in common["track"].items()}
-    admin["nobrand"] = [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in sorted(_lst, key=lambda i: i["name"])
+    admin["nobrand"] = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "u": i["unbranded"]} for i in sorted(_lst, key=lambda i: (i["unbranded"], i["name"]))
                         if not i["brand"] and not i["compat"]][:300]
     admin["seo"] = {
         "indexable": len(_lst), "noindex": sum(1 for i in vals if not i["listed"] and i["state"] != "gone"),
         "gone": stock_counts.get("gone", 0), "sitemap_urls": len(urls), "pages": sum(1 for u in urls if "/p/" not in u),
-        "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"] and not i["compat"]),
+        "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"] and not i["compat"] and not i["unbranded"]),
+        "unbranded": sum(1 for i in _lst if i["unbranded"]),
         "compat": sum(1 for i in _lst if i["compat"]),
         "single_store": sum(1 for i in _lst if i["live_count"] <= 1),
         "thin": sum(1 for i in _lst if i["live_count"] <= 1 and i["id"] not in details and not i["imgs"]),

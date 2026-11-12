@@ -320,6 +320,35 @@ def auto_merges(products, offers, not_same=(), group_of=None, with_suggestions=F
             continue
         par[ra] = rb
         members[rb] = ga | gb
+    # হুবহু একই নাম = একই প্রোডাক্ট (দোকান একই জিনিস দুইবার তুললে নামের শেষে -2, -3 হয়)।
+    # একই দোকানে দুইবার থাকলে তখনই মেলে যখন দুইটার দাম এক বা একটার দাম নেই (ভিন্ন দাম = আলাদা ভ্যারিয়েন্ট);
+    # ভিন্ন দোকানে দামের ফারাক ৩৫%-এর বেশি হলে মেলে না।
+    by_name = defaultdict(list)
+    for pid in offers:
+        if pid in products:
+            by_name[" ".join(re.sub(r"[^\w.]+", " ", products[pid]["name"].lower()).split())].append(pid)
+
+    def prices(g):
+        return [o.get("price") for x in g for o in offers[x].values() if o.get("price")]
+    for ids in by_name.values():
+        for a in ids[1:]:
+            ra, rb = find(a), find(ids[0])
+            if ra == rb:
+                continue
+            ga, gb = members[ra], members[rb]
+            if any("|".join(sorted((x, y))) in blocked for x in ga for y in gb):
+                continue
+            clash = False
+            for s in {s for x in ga for s in offers[x]} & {s for x in gb for s in offers[x]}:
+                pa = {offers[x][s].get("price") for x in ga if s in offers[x]} - {None}
+                pb = {offers[x][s].get("price") for x in gb if s in offers[x]} - {None}
+                if pa and pb and pa != pb:
+                    clash = True
+            la, lb = prices(ga), prices(gb)
+            if clash or (la and lb and max(min(la), min(lb)) > 1.35 * min(min(la), min(lb))):
+                continue
+            par[ra] = rb
+            members[rb] = ga | gb
     out = {}
     for r, g in members.items():
         if find(r) != r or len(g) < 2:
