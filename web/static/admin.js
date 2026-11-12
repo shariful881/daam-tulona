@@ -4,7 +4,7 @@
 (function () {
   "use strict";
   var root = document.getElementById("adm");
-  var REPO = root.dataset.repo, BASE = root.dataset.base;
+  var REPO = root.dataset.repo, BASE = root.dataset.base, SITE = location.origin + BASE;
   var API = "https://api.github.com";
   var TKEY = "dt-admin-token";
   var S = { token: null, user: null, admin: null, files: {}, tab: "dash", dirty: {}, runs: [], search: null, runTimer: null };
@@ -202,7 +202,7 @@
         '<div class="astat"><b>' + bn(a.suggestions.length) + '</b><span>মিল যাচাই বাকি</span></div>' +
       '</div>' +
       '<section class="card"><h2>কাজ চালান</h2><div class="aacts">' +
-        '<div class="aact"><div><b>দাম আপডেট এখনই</b><small>সব স্টোর থেকে দাম তুলে সাইট আপডেট। ১-২ ঘণ্টা লাগে। এমনিতে প্রতি রাতে ২:১৭-এ নিজে চলে।</small></div><button class="abtn" data-run="daily.yml">চালান</button></div>' +
+        '<div class="aact"><div><b>দাম আপডেট এখনই</b><small>সব স্টোর থেকে দাম তুলে সাইট আপডেট। ২.৫-৩ ঘণ্টা লাগে। এমনিতে প্রতিদিন ভোর ৪টায় নিজে চলে।</small></div><button class="abtn" data-run="daily.yml">চালান</button></div>' +
         '<div class="aact"><div><b>স্পেক ও ওয়ারেন্টি সংগ্রহ</b><small>কতগুলো প্রোডাক্টের (দিনে ৬০০-এর বেশি দিলে Star Tech আটকে দিতে পারে)</small><input type="number" id="dlimit" value="600" min="50" max="5000" aria-label="প্রোডাক্টের সংখ্যা"></div><button class="abtn" data-run="details.yml">চালান</button></div>' +
         '<div class="aact"><div><b>সাইট আবার প্রকাশ</b><small>দাম না তুলে বর্তমান ডাটা দিয়ে ২ মিনিটে সাইট আপডেট</small></div><button class="abtn" data-run="deploy-now.yml">চালান</button></div>' +
         '<div class="aact"><div><b>স্টোরের লোগো আবার আনা</b><small>স্টোরের ওয়েবসাইট থেকে লোগো খুঁজে আনে</small></div><button class="abtn ghost" data-run="logos.yml">চালান</button></div>' +
@@ -866,14 +866,53 @@
         '<li>যে <b>Web app URL</b> আসবে (…/exec দিয়ে শেষ) সেটা কপি করে উপরের ঘরে পেস্ট করুন, তারপর <b>সেভ করুন</b>।</li>' +
         '<li>শিটে প্রতিটা মোবাইল নম্বর একবারই থাকবে। একই নম্বর অন্য প্রোডাক্টের জন্য জমা দিলে সেই সারির "যেসব প্রোডাক্ট" ঘরে নতুন লাইন যোগ হবে (ক্যাটাগরি — প্রোডাক্টের নাম)।</li></ol>' +
         '<pre class="acode">function doPost(e) {\n  var lock = LockService.getScriptLock(); lock.waitLock(20000);\n  try {\n    var s = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];\n    if (s.getLastRow() === 0) s.appendRow(["মোবাইল", "নাম", "যেসব প্রোডাক্ট (ক্যাটাগরি — নাম)", "প্রোডাক্ট সংখ্যা", "প্রথম জমা", "শেষ জমা"]);\n    var d = JSON.parse(e.postData.contents);\n    var phone = String(d.phone).replace(/\\D/g, "");\n    var item = (d.category ? d.category + " — " : "") + d.product;\n    var rows = s.getRange(1, 1, s.getLastRow(), 1).getValues();\n    for (var i = 1; i < rows.length; i++) {\n      if (String(rows[i][0]).replace(/\\D/g, "") === phone) {\n        var r = i + 1, list = String(s.getRange(r, 3).getValue());\n        if (list.split("\\n").indexOf(item) < 0) list = list ? list + "\\n" + item : item;\n        s.getRange(r, 2, 1, 5).setValues([[d.name, list, list.split("\\n").length, s.getRange(r, 5).getValue(), new Date()]]);\n        return ContentService.createTextOutput("ok");\n      }\n    }\n    s.appendRow(["\'" + phone, d.name, item, 1, new Date(), new Date()]);\n    return ContentService.createTextOutput("ok");\n  } finally { lock.releaseLock(); }\n}</pre></div></details></section>' +
-      '<section class="card"><h2>পরিবর্তন কখন সাইটে আসে</h2><p style="margin:0;font-size:.88rem;line-height:1.6">স্টোরের নাম/লোগো, বিজ্ঞাপন, স্পন্সর, ক্যাটাগরি, প্রোডাক্ট লুকানো বা মিলানো সেভ করলে ২-৩ মিনিটে সাইট আপডেট হয়। স্টোর চালু/বন্ধ বা অপেক্ষার সময় পরের দামের রান থেকে কার্যকর হয় (প্রতি রাতে ২:১৭, অথবা ড্যাশবোর্ড থেকে এখনই চালান)।</p></section>';
-    return getJSON("config/leads.json").catch(function () { return { endpoint: "" }; }).then(function (lc) {
-      var cfg = clone(lc), inp = $("#leadurl");
+      '<section class="card" id="trackcard"><h2>ভিজিটর ট্র্যাকিং ও গুগল টুলস</h2><p class="muted" style="margin:0 0 8px;font-size:.85rem">কতজন ভিজিটর আসছে, কোথা থেকে আসছে, কোন দোকানে ক্লিক করছে আর গুগলে সাইট কেমন দেখাচ্ছে, তা দেখার জন্য। শুধু আইডি বসিয়ে সেভ করুন, কোড লাগবে না। ঘর ফাঁকা রাখলে সেটা বন্ধ থাকে।</p>' +
+        '<div class="af"><label>Google Analytics (GA4) মেজারমেন্ট আইডি</label><input type="text" data-tk="ga4" placeholder="G-XXXXXXXXXX"><small>ভিজিটর সংখ্যা, কোন পাতা বেশি দেখা হয়, কোন দোকানে কত ক্লিক (store_click), কতজন "জানান" ফর্ম পূরণ করল (generate_lead)।</small></div>' +
+        '<details><summary>GA4 আইডি কীভাবে পাবেন</summary><div class="anote"><ol>' +
+          '<li><a href="https://analytics.google.com/" target="_blank" rel="noopener" style="text-decoration:underline">analytics.google.com</a> খুলে Google অ্যাকাউন্ট দিয়ে ঢুকুন → <b>Start measuring</b>।</li>' +
+          "<li>Account name: দামতুলনা; Property name: দামতুলনা ওয়েবসাইট; Time zone: Bangladesh; Currency: BDT।</li>" +
+          "<li>Platform: <b>Web</b> → Website URL: <b>" + esc(SITE) + "</b> → Create stream।</li>" +
+          "<li>যে <b>Measurement ID</b> দেখাবে (G- দিয়ে শুরু) কপি করে উপরের ঘরে বসিয়ে সেভ করুন। ২৪ ঘণ্টার মধ্যে রিপোর্টে ডাটা আসা শুরু হবে।</li></ol></div></details>" +
+        '<div class="af"><label>Google Search Console যাচাই কোড</label><input type="text" data-tk="gsc" placeholder="যেমন: aB3dE…xYz (শুধু content-এর ভেতরের লেখা)"><small>গুগলে কোন শব্দে সাইট আসছে, কতবার দেখা ও ক্লিক হচ্ছে, কোন পাতায় সমস্যা।</small></div>' +
+        '<details><summary>Search Console কীভাবে যুক্ত করবেন</summary><div class="anote"><ol>' +
+          '<li><a href="https://search.google.com/search-console" target="_blank" rel="noopener" style="text-decoration:underline">search.google.com/search-console</a> খুলুন → <b>Add property</b> → <b>URL prefix</b> বাছুন → লিখুন <b>' + esc(SITE + "/") + "</b>।</li>" +
+          "<li>Verify-এর পদ্ধতি থেকে <b>HTML tag</b> বাছুন। <code>&lt;meta name=\"google-site-verification\" content=\"<b>এই অংশটা</b>\"&gt;</code> থেকে শুধু content-এর ভেতরের লেখাটা কপি করে উপরের ঘরে বসান, সেভ করুন।</li>" +
+          "<li>২-৩ মিনিট পর সাইট আপডেট হলে Search Console-এ <b>Verify</b> চাপুন।</li>" +
+          "<li>যাচাই হলে বাঁ দিকে <b>Sitemaps</b>-এ গিয়ে লিখুন <b>sitemap.xml</b> → Submit। (পুরো ঠিকানা: " + esc(SITE + "/sitemap.xml") + ")</li></ol></div></details>" +
+        '<div class="af"><label>Bing Webmaster যাচাই কোড (ঐচ্ছিক)</label><input type="text" data-tk="bing" placeholder="৩২ অক্ষরের কোড"><small><a href="https://www.bing.com/webmasters" target="_blank" rel="noopener" style="text-decoration:underline">bing.com/webmasters</a> → Add site → HTML Meta Tag → content-এর লেখাটা। Search Console যুক্ত থাকলে "Import from GSC" দিয়ে কোড ছাড়াই হয়।</small></div>' +
+        '<div class="af"><label>Microsoft Clarity প্রজেক্ট আইডি (ঐচ্ছিক)</label><input type="text" data-tk="clarity" placeholder="যেমন: abcd1234ef"><small>বিনামূল্যে ভিজিটরের স্ক্রিন রেকর্ডিং আর হিটম্যাপ: মানুষ কোথায় ক্লিক করে, কোথায় আটকে যায়। <a href="https://clarity.microsoft.com/" target="_blank" rel="noopener" style="text-decoration:underline">clarity.microsoft.com</a> → New project → Settings → Overview-এ Project ID।</small></div>' +
+        '<div class="af"><label>Facebook Pixel আইডি (ঐচ্ছিক)</label><input type="text" data-tk="fb_pixel" placeholder="১৫-১৬ অঙ্কের সংখ্যা"><small>ফেসবুক বিজ্ঞাপন চালালে ভিজিটরদের আবার বিজ্ঞাপন দেখানো (রিটার্গেটিং) আর লিড মাপার জন্য। Meta Events Manager → Data sources → Pixel ID।</small></div>' +
+        '<div class="tklinks" id="tklinks"></div></section>' +
+      '<section class="card"><h2>পরিবর্তন কখন সাইটে আসে</h2><p style="margin:0;font-size:.88rem;line-height:1.6">স্টোরের নাম/লোগো, বিজ্ঞাপন, স্পন্সর, ক্যাটাগরি, প্রোডাক্ট লুকানো বা মিলানো সেভ করলে ২-৩ মিনিটে সাইট আপডেট হয়। স্টোর চালু/বন্ধ বা অপেক্ষার সময় পরের দামের রান থেকে কার্যকর হয় (প্রতিদিন ভোর ৪টায়, অথবা ড্যাশবোর্ড থেকে এখনই চালান)।</p></section>';
+    var TK = { ga4: [/^G-[A-Z0-9]{4,15}$/, "GA4 আইডি G- দিয়ে শুরু হয় (যেমন G-AB12CD34EF)"], gsc: [/^[A-Za-z0-9_-]{20,80}$/, "Search Console কোডে শুধু content-এর ভেতরের লেখাটা দিন, পুরো <meta …> নয়"],
+               bing: [/^[A-F0-9]{32}$/, "Bing কোড ৩২ অক্ষরের (০-৯, A-F)"], clarity: [/^[a-z0-9]{6,15}$/, "Clarity আইডি ছোট হাতের অক্ষর আর সংখ্যা"], fb_pixel: [/^\d{10,20}$/, "Pixel আইডি শুধু সংখ্যা"] };
+    return Promise.all([getJSON("config/leads.json").catch(function () { return { endpoint: "" }; }), getJSON("config/tracking.json").catch(function () { return {}; })]).then(function (r) {
+      var cfg = clone(r[0]), tk = clone(r[1]), inp = $("#leadurl"), ch = {};
       inp.value = cfg.endpoint || "";
-      inp.addEventListener("input", function () { cfg.endpoint = inp.value.trim(); markDirty("settings"); });
+      inp.addEventListener("input", function () { cfg.endpoint = inp.value.trim(); ch.lead = 1; markDirty("settings"); });
+      function links() {
+        var L = [];
+        if (tk.ga4) L.push(['https://analytics.google.com/', "Google Analytics খুলুন"]);
+        if (tk.gsc) L.push(['https://search.google.com/search-console?resource_id=' + encodeURIComponent(SITE + "/"), "Search Console খুলুন"]);
+        if (tk.clarity) L.push(['https://clarity.microsoft.com/projects/view/' + encodeURIComponent(tk.clarity) + '/dashboard', "Clarity খুলুন"]);
+        $("#tklinks").innerHTML = L.length ? '<p style="margin:10px 0 0;display:flex;gap:8px;flex-wrap:wrap">' + L.map(function (l) { return '<a class="abtn ghost" style="display:inline-flex;align-items:center" target="_blank" rel="noopener" href="' + esc(l[0]) + '">' + l[1] + " ↗</a>"; }).join("") + "</p>" : "";
+      }
+      $$("[data-tk]").forEach(function (el) {
+        el.value = tk[el.dataset.tk] || "";
+        el.addEventListener("input", function () {
+          var v = el.value.trim();
+          var m = v.match(/content=["']([^"']+)["']/); if (m) { v = m[1]; el.value = v; }  // পুরো meta পেস্ট করলে কোডটা বের করে নেয়
+          tk[el.dataset.tk] = v; ch.tk = 1; markDirty("settings");
+        });
+      });
+      links();
       savers.settings = function () {
         if (cfg.endpoint && !/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(cfg.endpoint)) return Promise.reject(new Error("ঠিকানাটা https://script.google.com/macros/s/…/exec ধরনের হতে হবে"));
-        return putJSON("config/leads.json", cfg, "লিড ফর্মের ঠিকানা");
+        for (var k in TK) { if (tk[k] && !TK[k][0].test(tk[k])) return Promise.reject(new Error(TK[k][1])); }
+        var jobs = [];
+        if (ch.lead) jobs.push(function () { return putJSON("config/leads.json", cfg, "লিড ফর্মের ঠিকানা"); });
+        if (ch.tk) jobs.push(function () { return putJSON("config/tracking.json", tk, "ভিজিটর ট্র্যাকিং ও গুগল টুলস"); });
+        return jobs.reduce(function (pr, f) { return pr.then(f); }, Promise.resolve()).then(function () { ch = {}; links(); });
       };
     });
   };

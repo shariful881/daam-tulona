@@ -40,6 +40,7 @@
       form.hidden = true; msg.className = "almsg ok";
       msg.textContent = "ধন্যবাদ, " + name + "! " + (cfg.kind === "stock" ? "স্টকে এলে " : "দাম কমলে ") + bn(phone) + " নম্বরে জানাব।";
       btn.classList.add("on");
+      try { if (window.gtag) gtag("event", "generate_lead", { lead_type: cfg.kind || "price", product: cfg.product }); if (window.fbq) fbq("track", "Lead"); } catch (x) {}
     };
     if (cfg.endpoint) {
       fetch(cfg.endpoint, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(d) })

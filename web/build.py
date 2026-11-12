@@ -945,6 +945,13 @@ def main():
     common["og_default"] = f"{SITE_URL or BASE}/static/share.jpg"
     _si = ROOT / "config/store_info.json"
     common["store_info"] = json.loads(_si.read_text()).get("stores", {}) if _si.exists() else {}
+    # ভিজিটর ট্র্যাকিং আর গুগল/বিং ওয়েবমাস্টার যাচাই (অ্যাডমিন → সেটিং থেকে বসানো)
+    _tf = ROOT / "config/tracking.json"
+    _tr = json.loads(_tf.read_text()) if _tf.exists() else {}
+    _ok = lambda k, pat: (_tr.get(k) or "").strip() if re.fullmatch(pat, (_tr.get(k) or "").strip()) else ""
+    common["track"] = {"ga4": _ok("ga4", r"G-[A-Z0-9]{4,15}"), "gsc": _ok("gsc", r"[A-Za-z0-9_-]{20,80}"),
+                       "bing": _ok("bing", r"[A-F0-9]{32}"), "clarity": _ok("clarity", r"[a-z0-9]{6,15}"),
+                       "fb_pixel": _ok("fb_pixel", r"\d{10,20}")}
     _lf = ROOT / "config/leads.json"
     common["lead_cfg"] = {"endpoint": (json.loads(_lf.read_text()).get("endpoint") or "") if _lf.exists() else "",
                           "wa": (ads.get("contact") or {}).get("whatsapp") or (ads.get("contact") or {}).get("phone") or ""}
@@ -1362,7 +1369,7 @@ def main():
              "fresh": [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in fresh_all[:100]]}
     (DIST / "admin").mkdir(exist_ok=True)
     (DIST / "admin/admin.json").write_text(json.dumps(admin, ensure_ascii=False, separators=(",", ":")))
-    write("admin", "admin.html", title="অ্যাডমিন প্যানেল | দামতুলনা", description="", noindex=True, noads=True,
+    write("admin", "admin.html", title="অ্যাডমিন প্যানেল | দামতুলনা", description="", noindex=True, noads=True, is_admin=True,
           repo=os.environ.get("GITHUB_REPOSITORY", "shariful881/daam-tulona"))
 
     search = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "g": i["category"], "p": (i["best"] or {}).get("price"), "k": i["store_count"]}
