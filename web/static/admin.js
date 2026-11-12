@@ -83,17 +83,19 @@
 
   /* ---------- লগইন ---------- */
   function renderAuth() {
-    var box = $("#authbox");
+    var box = $("#authbox"), chip = $("#aconn");
     if (S.user) {
-      box.innerHTML = '<p style="margin:10px 0 0;font-size:.86rem">✅ <b>' + esc(S.user) + '</b> হিসেবে সংযুক্ত। এখান থেকে সব পরিবর্তন করা যাবে। <button type="button" class="abtn ghost" id="logout" style="min-height:32px;margin-left:6px">বিচ্ছিন্ন করুন</button></p>';
-      $("#logout").onclick = function () { if (confirm("এই ব্রাউজার থেকে টোকেন মুছে দেবেন?")) { lsSet(TKEY, null); location.reload(); } };
+      box.innerHTML = "";
+      chip.innerHTML = '<span class="adot ok"></span>' + esc(S.user); chip.title = "চাপলে এই ব্রাউজার থেকে বিচ্ছিন্ন হবে";
+      chip.onclick = function () { if (confirm("এই ব্রাউজার থেকে টোকেন মুছে দেবেন?")) { lsSet(TKEY, null); location.reload(); } };
       return;
     }
+    chip.innerHTML = '<span class="adot"></span>সংযুক্ত নয়'; chip.title = "";
+    chip.onclick = function () { var t = $("#tok"); if (t) t.focus(); };
     box.innerHTML =
-      '<div class="anote" style="margin-top:12px"><span class="ro-badge">শুধু দেখা যাবে</span> পরিবর্তন করতে GitHub টোকেন দিয়ে সংযুক্ত করুন। কীভাবে বানাবেন, "সেটিং" ট্যাবে ধাপে ধাপে লেখা আছে।</div>' +
-      '<div class="af"><label for="tok">GitHub টোকেন</label><input type="text" id="tok" autocomplete="off" spellcheck="false" placeholder="github_pat_…">' +
-      '<small>টোকেন শুধু এই ব্রাউজারে সেভ থাকবে। কাউকে দেবেন না, চ্যাটেও পাঠাবেন না।</small></div>' +
-      '<button type="button" class="abtn" id="login">সংযুক্ত করুন</button>';
+      '<div class="abanner"><span class="ab-t"><b>🔒 শুধু দেখা যাবে।</b> পরিবর্তন সেভ করতে GitHub টোকেন দিয়ে সংযুক্ত করুন (কীভাবে বানাবেন: "সেটিং" পাতায়)।</span>' +
+      '<span class="ab-f"><input type="password" id="tok" autocomplete="off" spellcheck="false" placeholder="github_pat_…" aria-label="GitHub টোকেন">' +
+      '<button type="button" class="abtn" id="login">সংযুক্ত করুন</button></span></div>';
     $("#login").onclick = function () {
       var t = $("#tok").value.trim();
       if (!t) return;
@@ -137,28 +139,66 @@
 
   /* ---------- ট্যাব ---------- */
   $("#tabs").addEventListener("click", function (e) {
-    var b = e.target.closest("[data-tab]"); if (!b || b.dataset.tab === S.tab) return;
-    if (S.dirty[S.tab]) {
-      if (confirm("এই ট্যাবে সেভ না করা পরিবর্তন আছে। এখনই সেভ করবেন?\n(বাতিল চাপলে পরিবর্তনগুলো মুছে যাবে)")) {
-        var go = b.dataset.tab; $("#savebtn").click(); var w = setInterval(function () { if (!S.dirty[S.tab] && !$("#savebtn").disabled) { clearInterval(w); show(go); } }, 300);
+    var b = e.target.closest("[data-tab]"); if (!b) return;
+    var tab = b.dataset.tab, sub = b.dataset.psub || null;
+    closeSide();
+    if (tab === S.tab && (!sub || sub === S.psub)) return;
+    function go() { if (sub) { S.psub = sub; lsSet("dt_admin_psub", sub); } show(tab); }
+    if (S.dirty[S.tab] && tab !== S.tab) {
+      if (confirm("এই পাতায় সেভ না করা পরিবর্তন আছে। এখনই সেভ করবেন?\n(বাতিল চাপলে পরিবর্তনগুলো মুছে যাবে)")) {
+        $("#savebtn").click(); var w = setInterval(function () { if (!S.dirty[S.tab] && !$("#savebtn").disabled) { clearInterval(w); go(); } }, 300);
         return;
       }
       clearDirty(S.tab); S.files = {};
     }
-    show(b.dataset.tab);
+    go();
   });
+  function closeSide() { $("#aside").classList.remove("open"); $("#ascrim").classList.remove("open"); }
+  $("#aburger").onclick = function () { $("#aside").classList.add("open"); $("#ascrim").classList.add("open"); };
+  $("#ascrim").onclick = closeSide;
+  function navFor(tab) {
+    var all = $$("#tabs [data-tab]").filter(function (b) { return b.dataset.tab === tab; });
+    if (all.length > 1) { var sub = S.psub || lsGet("dt_admin_psub") || "sg"; return all.filter(function (b) { return b.dataset.psub === sub; })[0] || all[0]; }
+    return all[0];
+  }
   function show(tab) {
+    if (!VIEWS[tab]) tab = "dash";
     S.tab = tab;
-    $$("#tabs [data-tab]").forEach(function (b) { b.setAttribute("aria-selected", b.dataset.tab === tab); });
+    var cur = navFor(tab);
+    $$("#tabs [data-tab]").forEach(function (b) { if (b === cur) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current"); });
+    if (cur) {
+      var g = cur.previousElementSibling; while (g && !g.classList.contains("agrp")) g = g.previousElementSibling;
+      $("#acrumb").textContent = g ? g.textContent : ""; $("#attl").textContent = cur.querySelector(".lb").textContent;
+      document.title = cur.querySelector(".lb").textContent + " · অ্যাডমিন | দামতুলনা";
+    }
     try { history.replaceState(null, "", "#" + tab); } catch (e) {}
     var old = $("#panel"), p = old.cloneNode(false);  // নতুন এলিমেন্ট: আগের ট্যাবের ইভেন্ট লিসেনার যেন না থাকে
     old.replaceWith(p);
     p.innerHTML = '<section class="card"><p class="aempty">লোড হচ্ছে…</p></section>';
     clearInterval(S.runTimer);
+    window.scrollTo(0, 0);
     (VIEWS[tab] || VIEWS.dash)(p).catch(function (e) {
       p.innerHTML = '<section class="card"><p class="aempty" style="color:var(--warn)">লোড হয়নি: ' + esc(e.message) + "</p></section>";
     });
   }
+  function counts() {  // সাইডবারে কাজ বাকির সংখ্যা
+    var a = S.admin, sx = a.seo || {}, h = a.health || {}, st = h.stores || {};
+    var C = { "stores": [Object.keys(st).length, 0], "products-sg": [a.sugg_total || 0, 1], "products-am": [(a.auto_merges || []).length, 0],
+      "products-pc": [(a.price_checks || []).length, 1], "manual": [Object.keys(st).filter(function (k) { return !st[k].enabled; }).length, 0],
+      "cats": [(a.categories || []).length, 0], "brands": [(a.brands || []).length, 0], "seo-meta": [sx.dup_titles || 0, 1] };
+    $$("#tabs [data-cnt-key]").forEach(function (b) {
+      var c = C[b.dataset.cntKey], el = b.querySelector(".cnt"); if (!c || !c[0]) return;
+      el.hidden = false; el.textContent = bn(c[0]); el.classList.toggle("hot", !!c[1]);
+    });
+  }
+  // উপরের "দাম আপডেট" বোতাম
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest("[data-toprun]"); if (!b || !need()) return;
+    if (!confirm("সব দোকান থেকে এখনই দাম আনা শুরু হবে (২.৫–৩ ঘণ্টা)। চালাবেন?")) return;
+    b.disabled = true;
+    dispatch(b.dataset.toprun, {}).then(function () { toast("দাম আপডেট শুরু হয়েছে। ড্যাশবোর্ডের \"সাম্প্রতিক কাজ\"-এ অগ্রগতি দেখা যাবে।"); },
+      function (er) { toast("চালু হয়নি: " + er.message, true); }).then(function () { setTimeout(function () { b.disabled = false; }, 8000); });
+  });
   function bindDirty(el, tab, fn) {
     var CH = "input[type=checkbox],input[type=file],select,input[type=date]";
     el.addEventListener("input", function (e) { var t = e.target; if (t.matches("input,textarea") && !t.matches(CH)) { if (fn(t) !== false) markDirty(tab); } });
@@ -192,15 +232,60 @@
     }).join("");
   }
   var VIEWS = {};
+  function card(h, sub, body, extra) { return '<section class="card"><div class="chd"><h2>' + h + "</h2>" + (sub ? '<span class="sub">' + sub + "</span>" : "") + '<span class="asp"></span>' + (extra || "") + "</div>" + body + "</section>"; }
+  function storeState(k, x) {
+    if (!x.enabled) return ["off", "হাতে দাম / বন্ধ"];
+    if ((x.errors && x.errors.length) || (x.failed_cats && x.failed_cats.length)) return ["bad", "সমস্যা"];
+    if (!x.items) return ["bad", "কিছু আসেনি"];
+    return ["ok", "ঠিক আছে"];
+  }
   VIEWS.dash = function (p) {
-    var a = S.admin, st = a.stats, h = a.health;
+    var a = S.admin, st = a.stats, h = a.health || {}, hs = h.stores || {}, sk = a.stock || {}, sn = a.store_news || {}, names = a.store_names || {}, sx = a.seo || {};
+    var listed = (sk["in"] || 0) + (sk.partial || 0) + (sk.coming || 0) + (sk.grace || 0), totSt = 0;
+    Object.keys(sk).forEach(function (k) { totSt += sk[k]; });
+    var keys = Object.keys(hs), live = keys.filter(function (k) { return hs[k].enabled; });
+    var bad = live.filter(function (k) { return storeState(k, hs[k])[0] === "bad"; });
+    var nDn = 0, nUp = 0, nNew = 0, nOos = 0;
+    keys.forEach(function (k) { var c = sn[k] || {}; nDn += c.dn || 0; nUp += c.up || 0; nNew += c["new"] || 0; nOos += c.oos || 0; });
+    var tr = a.track || {}, npc = (a.price_checks || []).length;
+    var todo = [];
+    bad.forEach(function (k) { todo.push(["bad", "!", (names[k] || k) + ": দাম আনায় সমস্যা", (hs[k].errors || []).concat(hs[k].failed_cats || []).join(", ") || "কোনো আইটেম আসেনি", "stores"]); });
+    if (a.sugg_total) todo.push(["bad", "⇄", bn(a.sugg_total) + "টি সম্ভাব্য মিল যাচাই বাকি", "মেলালে প্রোডাক্টগুলো এক পাতায় তুলনা হবে", "products", "sg"]);
+    if (npc) todo.push(["warn", "৳", bn(npc) + "টি প্রোডাক্টে দামে বড় ফারাক", "এক দোকানের দাম অন্যদের চেয়ে অনেক আলাদা; ভুল মিল বা ভুল দাম হতে পারে", "products", "pc"]);
+    var off = keys.filter(function (k) { return !hs[k].enabled; });
+    if (off.length) todo.push(["info", "✋", bn(off.length) + "টি দোকানের দাম হাতে বসাতে হয়", off.map(function (k) { return names[k] || k; }).join(", "), "manual"]);
+    if (sx.dup_titles) todo.push(["warn", "T", bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক", "একই প্রোডাক্ট দুইবার তালিকায়; মিলিয়ে দিলে ঠিক হবে", "seo-meta"]);
+    if (!tr.ga4 || !tr.gsc) todo.push(["warn", "G", (!tr.ga4 && !tr.gsc ? "Google Analytics ও Search Console" : !tr.ga4 ? "Google Analytics" : "Search Console") + " বসানো হয়নি", "ভিজিটর আর সার্চের তথ্য জমা হচ্ছে না; আইডি দিলেই চালু", "settings"]);
+    var stc = [["in", "একাধিক দোকানে স্টকে", "var(--best)"], ["partial", "এক দোকানে স্টকে", "color-mix(in srgb,var(--best) 50%,var(--surface))"], ["coming", "শীঘ্রই আসছে", "var(--accent)"],
+               ["grace", "সদ্য শেষ", "var(--warn)"], ["out", "স্টকে নেই (লুকানো)", "var(--line)"]];
+    var mx = 1; live.forEach(function (k) { var c = sn[k] || {}; mx = Math.max(mx, (c.dn || 0) + (c.up || 0)); });
+    var top = live.slice().sort(function (x, y) { var a1 = sn[x] || {}, b1 = sn[y] || {}; return ((b1.dn || 0) + (b1.up || 0)) - ((a1.dn || 0) + (a1.up || 0)); }).slice(0, 7);
     p.innerHTML =
-      '<div class="astats">' +
-        '<div class="astat"><b>' + bn(st.total) + '</b><span>মোট প্রোডাক্ট</span></div>' +
-        '<div class="astat"><b>' + bn(st.multi) + '</b><span>একাধিক স্টোরে দাম</span></div>' +
-        '<div class="astat"><b>' + bn(st.details) + '</b><span>স্পেক ও ওয়ারেন্টিসহ</span></div>' +
-        '<div class="astat"><b>' + bn(a.suggestions.length) + '</b><span>মিল যাচাই বাকি</span></div>' +
-      '</div>' +
+      '<div class="akpis">' +
+        kpi("এখন কেনা যায়", bn(listed), "মোট " + bn(st.total) + "টির মধ্যে", "seo-index") +
+        kpi("একাধিক দোকানে তুলনা", bn(st.multi), bn((st.multi / Math.max(1, st.total) * 100).toFixed(1)) + "% প্রোডাক্ট", "products", "sg") +
+        kpi("আজ দাম বদল", bn(nDn + nUp), '<span class="dn">▼ ' + bn(nDn) + " কমেছে</span> · " + '<span class="up">▲ ' + bn(nUp) + " বেড়েছে</span>", "stores") +
+        kpi("চালু দোকান", bn(live.length) + '<small>/' + bn(keys.length) + "</small>", bad.length ? '<span class="dn">' + bn(bad.length) + "টিতে সমস্যা</span>" : "সবগুলো ঠিক আছে", "stores") +
+        kpi("মিল যাচাই বাকি", bn(a.sugg_total || 0), "মেলালে তুলনা বাড়বে", "products", "sg", true) +
+      "</div>" +
+      '<div class="ag2">' +
+        card("আজ মনোযোগ দরকার", bn(todo.length) + "টি বিষয়", '<div class="atodo">' + (todo.length ? todo.map(function (t) {
+          return '<a data-go="' + t[4] + '"' + (t[5] ? ' data-gosub="' + t[5] + '"' : "") + '><span class="tic ' + t[0] + '">' + t[1] + '</span><span class="tt"><b>' + esc(t[2]) + "</b><span>" + esc(t[3]) + '</span></span><span class="tgo">দেখুন →</span></a>';
+        }).join("") : '<p class="aempty">সব ঠিক আছে 🎉</p>') + "</div>") +
+        '<div class="acol">' +
+          card("প্রোডাক্টের স্টক", "মোট " + bn(totSt), '<div class="astack">' + stc.map(function (c) { return '<i style="width:' + ((sk[c[0]] || 0) / Math.max(1, totSt) * 100) + "%;background:" + c[2] + '"></i>'; }).join("") + "</div>" +
+            '<div class="alegend">' + stc.map(function (c) { return '<div><span class="sw" style="background:' + c[2] + '"></span>' + c[1] + "<b>" + bn(sk[c[0]] || 0) + "</b></div>"; }).join("") + "</div>") +
+          card("আজকের দাম আনা", "", '<div class="aline"><span class="adot ok"></span>শেষ: ' + esc(a.updated) + '</div><div class="aline"><span class="adot"></span>পরের বার: প্রতিদিন ভোর ৪:০০</div><div class="aline"><span class="adot ok"></span>আজ নতুন আইটেম ' + bn(nNew) + " · স্টক শেষ " + bn(nOos) + "</div>") +
+        "</div>" +
+      "</div>" +
+      '<div class="ag2 eq">' +
+        card("দোকানের অবস্থা", "আজকের দাম আনা", '<div class="ascroll"><table><tr><th>দোকান</th><th class="n">আইটেম</th><th class="n">আজ বদল</th><th>অবস্থা</th></tr>' +
+          keys.map(function (k) { var x = hs[k], s2 = storeState(k, x), c = sn[k] || {};
+            return '<tr><td><span class="adot ' + s2[0] + '"></span> ' + esc(names[k] || k) + '</td><td class="n">' + (x.enabled ? bn(x.items) : "—") + '</td><td class="n"><span class="dn">▼' + bn(c.dn || 0) + '</span> <span class="up">▲' + bn(c.up || 0) + "</span></td><td><span class=\"atag " + s2[0] + '">' + s2[1] + "</span></td></tr>"; }).join("") +
+          "</table></div>", '<button type="button" class="abtn ghost sm" data-go="stores">সেটিং →</button>') +
+        card("কোন দোকানে আজ বেশি দাম বদলেছে", "", '<div class="abars">' + top.map(function (k) { var c = sn[k] || {};
+          return '<div><div class="abl"><span>' + esc(names[k] || k) + '</span><span class="dn">▼' + bn(c.dn || 0) + '</span><span class="up">▲' + bn(c.up || 0) + '</span></div><div class="astack thin"><i style="width:' + ((c.dn || 0) / mx * 100) + '%;background:var(--warn)"></i><i style="width:' + ((c.up || 0) / mx * 100) + '%;background:var(--best)"></i></div></div>'; }).join("") + "</div>") +
+      "</div>" +
       '<section class="card"><h2>কাজ চালান</h2><div class="aacts">' +
         '<div class="aact"><div><b>দাম আপডেট এখনই</b><small>সব স্টোর থেকে দাম তুলে সাইট আপডেট। ২.৫-৩ ঘণ্টা লাগে। এমনিতে প্রতিদিন ভোর ৪টায় নিজে চলে।</small></div><button class="abtn" data-run="daily.yml">চালান</button></div>' +
         '<div class="aact"><div><b>স্পেক ও ওয়ারেন্টি সংগ্রহ</b><small>কতগুলো প্রোডাক্টের (দিনে ৬০০-এর বেশি দিলে Star Tech আটকে দিতে পারে)</small><input type="number" id="dlimit" value="600" min="50" max="5000" aria-label="প্রোডাক্টের সংখ্যা"></div><button class="abtn" data-run="details.yml">চালান</button></div>' +
@@ -210,11 +295,6 @@
       '</div></section>' +
       '<div id="logorep"></div>' +
       '<section class="card"><h2>সাম্প্রতিক কাজ <span class="sub">· নিজে থেকে রিফ্রেশ হয়</span></h2><div class="aruns" id="runs"><p class="aempty">লোড হচ্ছে…</p></div></section>' +
-      '<section class="card"><h2>স্টোরের অবস্থা <span class="sub">· শেষ সংগ্রহ ' + esc(h.scraped_at || "") + '</span></h2><div class="ascroll"><table><tr><th>স্টোর</th><th>অফার</th><th>সময়</th><th>অবস্থা</th></tr>' +
-        Object.keys(h.stores || {}).map(function (k) { var x = h.stores[k];
-          return "<tr><td><b>" + esc(k) + "</b>" + (x.enabled ? "" : ' <span class="ro-badge">বন্ধ</span>') + "</td><td>" + bn(x.items) + "</td><td>" + bn(Math.round((x.seconds || 0) / 60)) + " মি.</td><td>" +
-            (x.errors && x.errors.length ? x.errors.map(function (e) { return '<div style="color:var(--warn)">' + esc(e) + "</div>"; }).join("") : '<span style="color:var(--best)">ঠিক আছে</span>') + "</td></tr>"; }).join("") +
-      "</table></div></section>" +
       (a.fresh.length ? '<section class="card"><h2>আজ নতুন যোগ হওয়া <span class="sub">· ' + bn(a.fresh.length) + 'টি</span></h2><div class="rows">' +
         a.fresh.slice(0, 10).map(function (f) { return '<a class="row" href="' + BASE + "/p/" + f.id + '/" target="_blank"><div style="min-width:0"><div class="n">' + esc(f.n) + '</div><div class="w">' + esc(f.c) + "</div></div></a>"; }).join("") + "</div></section>" : "");
     p.addEventListener("click", function (e) {
@@ -230,16 +310,25 @@
       var box = $("#logorep"); if (!box || !rp) return;
       var miss = rp.missing || [], fixed = rp.fixed || [], okn = (rp.ok || []).length + fixed.length;
       var age = Math.round((Date.now() - new Date(rp.date + "T00:00:00+06:00")) / 864e5);
+      if (!miss.length && age <= 35) return;
       box.innerHTML = '<section class="card"><h2>ব্র্যান্ডের লোগো <span class="sub">· শেষ পরীক্ষা ' + esc(rp.date) + "</span></h2>" +
         (age > 35 ? '<div class="anote warn">⚠ ' + bn(age) + " দিন ধরে লোগো পরীক্ষা হয়নি। উপরের \"ব্র্যান্ডের লোগো পরীক্ষা\" চালান।</div>" : "") +
         '<p style="margin:0 0 8px;font-size:.9rem">মোট ' + bn(rp.total) + "টি ব্র্যান্ড: <b style=\"color:var(--best)\">" + bn(okn) + "টির লোগো ঠিক আছে</b>" +
-        (fixed.length ? ", এর মধ্যে " + bn(fixed.length) + "টি এবার ঠিক করা হয়েছে" : "") + (miss.length ? ', <b style="color:var(--warn)">' + bn(miss.length) + "টির লোগো নেই</b>" : "") + "।</p>" +
-        (miss.length ? '<div class="anote warn" style="font-size:.84rem">⚠ এই ব্র্যান্ডগুলোর লোগো পাওয়া যায়নি (সাইটে নামের আদ্যক্ষর দেখাচ্ছে): ' +
-          miss.map(function (m) { return "<b>" + esc(m.slug) + "</b>"; }).join(", ") + "। লোগো ফাইল পাঠালে হাতে বসানো যায়।</div>" : "") +
+        (miss.length ? ', <b style="color:var(--warn)">' + bn(miss.length) + "টির লোগো নেই</b>" : "") + "।</p>" +
+        (miss.length ? '<div class="anote warn" style="font-size:.84rem">লোগো পাওয়া যায়নি: ' + miss.map(function (m) { return "<b>" + esc(m.slug) + "</b>"; }).join(", ") + "। লোগো ফাইল পাঠালে হাতে বসানো যায়।</div>" : "") +
         "</section>";
     }).catch(function () {});
     return Promise.resolve();
   };
+  function kpi(l, v, d, go, sub, hot) {
+    return '<div class="akpi' + (hot ? " hot" : "") + '" data-go="' + go + '"' + (sub ? ' data-gosub="' + sub + '"' : "") + '><span class="l">' + l + '</span><span class="v">' + v + '</span><span class="d">' + d + "</span></div>";
+  }
+  // কার্ড/তালিকা থেকে অন্য পাতায় যাওয়া
+  document.addEventListener("click", function (e) {
+    var g = e.target.closest("[data-go]"); if (!g || !$("#panel").contains(g)) return;
+    var nb = $$("#tabs [data-tab]").filter(function (b) { return b.dataset.tab === g.dataset.go && (!g.dataset.gosub || b.dataset.psub === g.dataset.gosub); })[0];
+    if (nb) nb.click();
+  });
 
   /* ---------- স্টোর ---------- */
   VIEWS.stores = function (p) {
@@ -929,99 +1018,173 @@
     });
   };
 
-  /* ---------- SEO ---------- */
-  VIEWS.seo = function (p) {
-    var a = S.admin, sx = a.seo || {}, samp = sx.sample ? SITE + "/p/" + sx.sample + "/" : SITE + "/";
-    var VARS_P = ["{name}", "{price}", "{store}", "{stores}", "{brand}", "{cat}", "{year}", "{month}"];
-    var VARS_C = ["{cat}", "{cat_en}", "{count}", "{low}", "{high}", "{stores}", "{year}", "{month}"];
-    function stat(v, l, warn) { return '<div class="astat"' + (warn ? ' style="border-color:var(--warn)"' : "") + "><b>" + bn(v) + "</b><span>" + l + "</span></div>"; }
-    function chips(list, target) { return '<div class="seochips">' + list.map(function (v) { return '<button type="button" class="seochip" data-ins="' + target + '" data-v="' + v + '">' + v + "</button>"; }).join("") + "</div>"; }
-    p.innerHTML =
-      '<div class="astats">' + stat(sx.sitemap_urls, "Google-কে দেখানো পাতা (সাইটম্যাপ)") + stat(sx.indexable, "কেনা যায় এমন প্রোডাক্ট পাতা") +
-        stat(sx.noindex, "স্টকে নেই, Google থেকে লুকানো") + stat(sx.changed_today, "আজ দাম বদলানো পাতা") + "</div>" +
-      '<section class="card"><h2>SEO স্বাস্থ্য <span class="sub">· আজকের বিল্ড থেকে</span></h2><div class="seolist">' +
-        row(sx.dup_titles ? "warn" : "ok", sx.dup_titles ? bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক (" + bn(sx.dup_titles) + "টি গ্রুপ)" : "একই শিরোনামের পাতা নেই",
-          sx.dup_titles ? "সাধারণত একই প্রোডাক্ট দুইবার তালিকায় এসেছে (নামের শেষে -2, -3)। \"প্রোডাক্ট\" ট্যাবে মিলিয়ে দিলে ঠিক হবে, Google-এর কাছে ডুপ্লিকেট পাতা থাকবে না।" : "") +
-        row(sx.no_brand ? "info" : "ok", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "\"ব্র্যান্ড\" ট্যাবের নিচে তালিকা আছে; জানা থাকলে হাতে বসান, সত্যিই ব্র্যান্ড না থাকলে ফাঁকা রাখুন (Google-এ brand বাধ্যতামূলক নয়)।" + (sx.compat ? " " + bn(sx.compat) + "টি ল্যাপটপ রিপ্লেসমেন্ট পার্ট \"কোন ল্যাপটপের জন্য\" হিসেবে চিহ্নিত।" : "")) +
-        row("info", bn(sx.single_store) + "টি প্রোডাক্ট মাত্র এক দোকানে আছে", "তুলনা নেই বলে এগুলো দুর্বল পাতা। মিল বাড়ালে বা নতুন দোকান যোগ করলে কমবে।") +
-        row("info", bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি", "দোকানের দেওয়া লম্বা নামের কারণে। Google শেষের অংশ কেটে দেখায়, তেমন ক্ষতি নেই।") +
-        row("ok", "প্রতিটা প্রোডাক্ট পাতায় সংক্ষিপ্ত উত্তর, তারিখ আর Product/Offer স্কিমা আছে", "Google AI Overview আর AI চ্যাটবট এক বাক্যেই দাম, দোকান আর তারিখ পায়।") +
-        row(sx.indexnow ? "ok" : "warn", "IndexNow " + (sx.indexnow ? "চালু: প্রতিদিন বদলানো পাতা Bing/Yandex-কে জানানো হয়" : "বন্ধ"), "") +
-        row("warn", "robots.txt Google পড়তে পারে না", "সাইট এখন github.io-এর ভেতরের ফোল্ডারে, robots.txt থাকে ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে। ততদিন Search Console-এ sitemap.xml হাতে জমা দিন।") +
-        (sx.dup_samples && sx.dup_samples.length ? '<details style="margin-top:8px"><summary>একই শিরোনামের পাতা (নমুনা)</summary><div class="rows">' + sx.dup_samples.map(function (d) {
-          return '<div class="row" style="display:block"><div class="n">' + esc(d[0]) + '</div><div class="w">' + d[1].map(function (id) { return '<a href="' + BASE + "/p/" + esc(id) + '/" target="_blank" style="text-decoration:underline;margin-right:8px">' + esc(id) + "</a>"; }).join("") + "</div></div>";
-        }).join("") + "</div></details>" : "") +
-      "</div></section>" +
-      '<section class="card"><h2>শিরোনাম ও বিবরণের টেমপ্লেট</h2><p class="muted" style="margin:0 0 8px;font-size:.85rem">Google-এর ফলাফলে নীল লেখা (শিরোনাম) আর তার নিচের ধূসর লেখা (বিবরণ)। চিপে চাপলে শব্দটা ঘরে বসে; প্রতিটা পাতায় নিজে আসল তথ্যে বদলে যায়। বিবরণ ফাঁকা রাখলে স্বয়ংক্রিয় লেখা বসে (দামের বিশ্লেষণ থেকে)।</p>' +
-        fld("title_product", "প্রোডাক্ট পাতার শিরোনাম", "", "text", "", ' id="t_tp"') + chips(VARS_P, "t_tp") +
-        fld("title_product_oos", "প্রোডাক্ট পাতার শিরোনাম (স্টকে না থাকলে)", "", "text", "", ' id="t_tpo"') +
-        fld("desc_product", "প্রোডাক্ট পাতার বিবরণ (ফাঁকা = স্বয়ংক্রিয়)", "", "textarea", "", ' id="t_dp" rows="2"') + chips(VARS_P, "t_dp") +
-        '<div class="serp" id="serp_p"></div>' +
-        fld("title_category", "ক্যাটাগরি পাতার শিরোনাম", "", "text", "", ' id="t_tc"') + chips(VARS_C, "t_tc") +
-        fld("desc_category", "ক্যাটাগরি পাতার বিবরণ (ফাঁকা = স্বয়ংক্রিয়)", "", "textarea", "", ' id="t_dc" rows="2"') + chips(VARS_C, "t_dc") +
-        '<div class="serp" id="serp_c"></div></section>' +
-      '<section class="card"><h2>কোন পাতা Google দেখবে</h2>' +
-        '<div class="anote" style="font-size:.84rem">নিয়ম: কোনো দোকানে স্টকে থাকলে বা শীঘ্রই আসছে হলে পাতা Google-এ দেখানো হয়। সব দোকানে শেষ হলে পরের দিন থেকে লুকানো হয় (পাতা থাকে, লিংক ভাঙে না)। টানা নিচের দিন কোথাও না থাকলে পাতাটা ক্যাটাগরিতে পাঠিয়ে দেওয়া হয়।</div>' +
-        fld("gone_days", "কত দিন স্টকে না থাকলে পাতা সরানো হবে", "", "number", "সর্বনিম্ন ১৪, প্রস্তাবিত ৯০", ' min="14" max="730"') +
-        fld("force_index", "সবসময় Google-এ দেখান (স্টকে না থাকলেও)", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। যেমন জনপ্রিয় ফোন যা আবার আসবে।", ' rows="3"') +
-        fld("force_noindex", "কখনো Google-এ দেখাবেন না", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। পাতা থাকবে, শুধু সার্চে আসবে না।", ' rows="3"') +
-      "</section>" +
-      '<section class="card"><h2>AI সার্চ ও দ্রুত ইনডেক্স</h2>' +
-        '<div class="af"><label>Google ও AI কতটা লেখা উদ্ধৃত করতে পারবে</label><select data-k="ai_snippet">' +
-          '<option value="full">পুরোটা (প্রস্তাবিত): AI Overview, চ্যাটবট ও ফলাফলে আমাদের দাম ও তথ্য উদ্ধৃত হতে পারবে</option>' +
-          '<option value="limited">সীমিত: ফলাফলে ১৬০ অক্ষর পর্যন্ত</option>' +
-          '<option value="none">কিছুই না (nosnippet): ফলাফলে বিবরণ দেখাবে না, ভিজিটর কমবে</option></select>' +
-          "<small>পুরোটা দিলে Google AI Overview আর অন্য AI আমাদের সাইটকে দামের উৎস হিসেবে দেখাতে পারে, সেখান থেকে ভিজিটর আসে।</small></div>" +
-        tog("indexnow", "IndexNow চালু (প্রতিদিন বদলানো পাতা Bing, Yandex-কে জানানো; ChatGPT সার্চ Bing-এর তথ্য ব্যবহার করে)", false) +
-      "</section>" +
-      '<section class="card"><h2>যাচাইয়ের টুল</h2><p style="display:flex;gap:8px;flex-wrap:wrap;margin:0">' +
-        [["https://search.google.com/test/rich-results?url=" + encodeURIComponent(samp), "Rich Results Test (নমুনা পাতা)"],
-         ["https://validator.schema.org/#url=" + encodeURIComponent(samp), "Schema যাচাই"],
-         ["https://pagespeed.web.dev/analysis?url=" + encodeURIComponent(SITE + "/"), "PageSpeed (গতি)"],
-         [SITE + "/sitemap.xml", "সাইটম্যাপ দেখুন"],
-         ["https://search.google.com/search-console/sitemaps?resource_id=" + encodeURIComponent(SITE + "/"), "Search Console-এ সাইটম্যাপ"],
-         ["https://www.bing.com/webmasters", "Bing Webmaster"]].map(function (l) {
-          return '<a class="abtn ghost" style="display:inline-flex;align-items:center" target="_blank" rel="noopener" href="' + esc(l[0]) + '">' + l[1] + " ↗</a>"; }).join("") +
-      "</p></section>";
-    function row(kind, t, s) { return '<div class="seorow ' + kind + '"><span class="seoic">' + (kind === "ok" ? "✓" : kind === "warn" ? "!" : "i") + "</span><div><b>" + t + "</b>" + (s ? "<small>" + s + "</small>" : "") + "</div></div>"; }
-    return getJSON("config/seo.json").catch(function () { return {}; }).then(function (raw) {
-      var cfg = clone(raw);
+  /* ---------- SEO (config/seo.json; কয়েকটা পাতা একই ফাইল বদলায়) ---------- */
+  function seoCfg() { return getJSON("config/seo.json").catch(function () { return {}; }).then(function (raw) { if (!S.seo) S.seo = clone(raw); return S.seo; }); }
+  function seoBind(p, tab, after) {
+    return seoCfg().then(function (cfg) {
       $$("[data-k]", p).forEach(function (el) {
         var v = cfg[el.dataset.k];
-        if (el.type === "checkbox") el.checked = !!v;
-        else if (Array.isArray(v)) el.value = v.join("\n");
-        else el.value = v == null ? "" : v;
+        if (el.type === "checkbox") el.checked = !!v; else if (Array.isArray(v)) el.value = v.join("\n"); else el.value = v == null ? "" : v;
       });
-      var ex = { name: "Logitech C270 HD Webcam", price: "৳1,999", store: "TechLand BD", stores: "৯", brand: "Logitech", cat: "ওয়েবক্যাম", cat_en: "Webcam",
-                 count: "৩০৭", low: "৳13,300", high: "৳549,999", year: "২০২৬", month: "নভেম্বর" };
-      function fill(t) { return String(t || "").replace(/\{(\w+)\}/g, function (_, k) { return ex[k] || ""; }); }
-      function serp() {
-        var tp = fill(cfg.title_product), dp = cfg.desc_product ? fill(cfg.desc_product) : "Logitech C270 HD Webcam: আজ ৯ দোকানে, সর্বনিম্ন ৳১,৯৯৯ (TechLand BD)।";
-        var tc = fill(cfg.title_category).replace(/ওয়েবক্যাম/g, "স্মার্টফোন").replace("Webcam", "Smartphone"), dc = cfg.desc_category ? fill(cfg.desc_category).replace(/ওয়েবক্যাম/g, "স্মার্টফোন") : "আজ বাংলাদেশে ৩০৭টি স্মার্টফোন কেনা যাচ্ছে; দাম ৳13,300 থেকে ৳549,999…";
-        function box(url, t, d) { return '<small class="serpl">Google-এ যেমন দেখাবে</small><div class="serpu">' + esc(url) + '</div><div class="serpt">' + esc(t.length > 62 ? t.slice(0, 60) + "…" : t) + '</div><div class="serpd">' + esc(d.length > 158 ? d.slice(0, 155) + "…" : d) + "</div>" +
-          (t.length > 62 ? '<small class="serpw">শিরোনাম ' + bn(t.length) + " অক্ষর; ৬০-এর পরে কাটা যায়</small>" : ""); }
-        $("#serp_p").innerHTML = box(SITE.replace(/^https?:\/\//, "") + " › p › logitech-c270-hd-webcam", tp, dp);
-        $("#serp_c").innerHTML = box(SITE.replace(/^https?:\/\//, "") + " › c › smartphone", tc, dc);
-      }
-      serp();
-      bindDirty(p, "seo", function (t) {
+      bindDirty(p, tab, function (t) {
         var k = t.dataset.k; if (!k) return false;
         if (k === "force_index" || k === "force_noindex") cfg[k] = t.value.split(/\n+/).map(function (x) { return x.trim(); }).filter(Boolean);
         else cfg[k] = valOf(t);
-        serp();
+        if (after) after(cfg);
       });
-      p.addEventListener("click", function (e) {
-        var c = e.target.closest("[data-ins]"); if (!c) return;
-        var inp = document.getElementById(c.dataset.ins), pos = inp.selectionStart == null ? inp.value.length : inp.selectionStart;
-        inp.value = inp.value.slice(0, pos) + c.dataset.v + inp.value.slice(inp.selectionEnd || pos); inp.focus();
-        inp.dispatchEvent(new Event("input", { bubbles: true }));
-      });
-      savers.seo = function () {
+      savers[tab] = function () {
         if (!cfg.title_product || !cfg.title_category) return Promise.reject(new Error("প্রোডাক্ট আর ক্যাটাগরির শিরোনাম ফাঁকা রাখা যাবে না"));
         if (cfg.gone_days && cfg.gone_days < 14) cfg.gone_days = 14;
         return putJSON("config/seo.json", cfg, "SEO সেটিং");
       };
+      if (after) after(cfg);
+      return cfg;
     });
+  }
+  function srow(kind, t, s, go) { return '<div class="seorow ' + kind + '"><span class="seoic">' + (kind === "ok" ? "✓" : kind === "info" ? "i" : "!") + "</span><div><b>" + t + "</b>" + (s ? "<small>" + s + "</small>" : "") + "</div>" + (go ? '<button type="button" class="abtn ghost sm" data-go="' + go + '">ঠিক করুন →</button>' : "") + "</div>"; }
+  function sampleUrl() { var sx = S.admin.seo || {}; return sx.sample ? SITE + "/p/" + sx.sample + "/" : SITE + "/"; }
+  function linkBtns(L) { return '<p class="alinks">' + L.map(function (l) { return '<a class="abtn ghost" target="_blank" rel="noopener" href="' + esc(l[0]) + '">' + l[1] + " ↗</a>"; }).join("") + "</p>"; }
+
+  VIEWS.seo = function (p) {
+    var sx = S.admin.seo || {}, tr = S.admin.track || {};
+    var parts = [["ইনডেক্স ও সাইটম্যাপ", sx.sitemap_urls ? 18 : 0, 20], ["ডুপ্লিকেট শিরোনাম", !sx.dup_titles ? 15 : sx.dup_titles < 100 ? 11 : 6, 15],
+      ["Structured data", 18, 20], ["AI-বান্ধব কন্টেন্ট", 14, 15], ["ব্র্যান্ড ও ছবি", (sx.no_brand || 0) < 100 ? 10 : 7, 10],
+      ["robots.txt ও ডোমেইন", 3, 10], ["Search Console", tr.gsc ? 10 : 0, 10]];
+    var score = parts.reduce(function (a, x) { return a + x[1]; }, 0), max = parts.reduce(function (a, x) { return a + x[2]; }, 0);
+    score = Math.round(score / max * 100);
+    var col = score >= 80 ? "var(--best)" : score >= 60 ? "var(--accent)" : "var(--warn)";
+    p.innerHTML =
+      '<div class="ag2 score">' +
+        card("SEO স্কোর", "আজকের বিল্ড থেকে", '<div class="ascore"><svg viewBox="0 0 120 120" width="116" height="116" role="img" aria-label="স্কোর ' + score + '"><circle cx="60" cy="60" r="50" fill="none" stroke="var(--line)" stroke-width="12"/><circle cx="60" cy="60" r="50" fill="none" stroke="' + col + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + (score / 100 * 314) + ' 314" transform="rotate(-90 60 60)"/><text x="60" y="68" text-anchor="middle" font-size="28" font-weight="700" fill="currentColor" font-family="JetBrains Mono,monospace">' + bn(score) + "</text></svg>" +
+          '<div class="aparts">' + parts.map(function (x) { return "<div><span>" + x[0] + "</span><b>" + bn(x[1]) + "/" + bn(x[2]) + "</b></div>"; }).join("") + "</div></div>") +
+        '<div class="akpis k3">' + kpi("Google-কে দেখানো পাতা", bn(sx.sitemap_urls), "সাইটম্যাপে", "seo-sitemap") + kpi("লুকানো (noindex)", bn(sx.noindex), "স্টকে নেই, পাতা আছে", "seo-index") +
+          kpi("আজ বদলানো পাতা", bn(sx.changed_today), "IndexNow-এ যায়", "seo-sitemap") + kpi("ডুপ্লিকেট শিরোনাম", bn(sx.dup_pages), bn(sx.dup_titles) + "টি গ্রুপ", "seo-meta") +
+          kpi("এক দোকানের প্রোডাক্ট", bn(sx.single_store), "তুলনা নেই, দুর্বল পাতা", "products", "sg") + kpi("স্পেকসহ পাতা", bn(sx.with_specs), "বিস্তারিত তথ্যসহ", "dash") + "</div>" +
+      "</div>" +
+      card("সমস্যা ও করণীয়", "গুরুত্ব অনুযায়ী", '<div class="seolist">' +
+        srow("warn", "robots.txt Google পড়তে পারছে না", "সাইট github.io-এর ভেতরের ফোল্ডারে; robots.txt থাকতে হয় ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে। ততদিন Search Console-এ sitemap.xml হাতে জমা দিন।", "seo-sitemap") +
+        (tr.gsc ? "" : srow("warn", "Google Search Console যুক্ত হয়নি", "কতগুলো পাতা আসলে ইনডেক্স হয়েছে, কোন শব্দে মানুষ আসে, তা জানা যাচ্ছে না।", "settings")) +
+        (sx.dup_titles ? srow("warn", bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক", "একই প্রোডাক্ট দুইবার তালিকায় (নামের শেষে -2, -3)। মিলিয়ে দিলে ঠিক হবে।", "seo-meta") : "") +
+        srow(sx.no_brand ? "info" : "ok", bn(sx.no_brand || 0) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "জানা থাকলে \"ব্র্যান্ড\" পাতার নিচে হাতে বসান; সত্যিই ব্র্যান্ড না থাকলে ফাঁকা রাখুন।" + (sx.compat ? " " + bn(sx.compat) + "টি ল্যাপটপ পার্ট \"কোন ল্যাপটপের জন্য\" হিসেবে চিহ্নিত।" : ""), "brands") +
+        srow("info", bn(sx.long_titles) + "টি শিরোনাম ৭০ অক্ষরের বেশি", "দোকানের লম্বা নামের কারণে; Google শেষটা কেটে দেখায়, তেমন ক্ষতি নেই।") +
+        srow("ok", "প্রতিটা পাতায় সংক্ষিপ্ত উত্তর, তারিখ আর Product/Offer স্কিমা আছে", "Google AI Overview আর AI চ্যাটবট এক বাক্যেই দাম, দোকান আর তারিখ পায়।") +
+        srow(sx.indexnow ? "ok" : "warn", "IndexNow " + (sx.indexnow ? "চালু" : "বন্ধ"), "প্রতিদিন বদলানো পাতা Bing/Yandex-কে জানানো হয় (ChatGPT সার্চ Bing ব্যবহার করে)।", sx.indexnow ? "" : "seo-sitemap") +
+      "</div>");
+    return Promise.resolve();
+  };
+
+  VIEWS["seo-meta"] = function (p) {
+    var sx = S.admin.seo || {};
+    var VP = ["{name}", "{price}", "{store}", "{stores}", "{brand}", "{cat}", "{year}", "{month}", "{date}"], VC = ["{cat}", "{cat_en}", "{count}", "{low}", "{high}", "{stores}", "{year}", "{month}"];
+    function chips(list, target) { return '<div class="seochips">' + list.map(function (v) { return '<button type="button" class="seochip" data-ins="' + target + '" data-v="' + v + '">' + v + "</button>"; }).join("") + "</div>"; }
+    p.innerHTML = '<div class="ag2 eq">' +
+      card("প্রোডাক্ট পাতা", "Google-এর নীল শিরোনাম আর ধূসর বিবরণ",
+        fld("title_product", "শিরোনাম", "", "text", "", ' id="t_tp"') + chips(VP, "t_tp") +
+        fld("title_product_oos", "শিরোনাম (স্টকে না থাকলে)", "", "text", "", ' id="t_tpo"') +
+        fld("desc_product", "বিবরণ (ফাঁকা = দামের বিশ্লেষণ থেকে স্বয়ংক্রিয়)", "", "textarea", "", ' id="t_dp" rows="2"') + chips(VP, "t_dp") + '<div class="serp" id="serp_p"></div>') +
+      card("ক্যাটাগরি পাতা", "",
+        fld("title_category", "শিরোনাম", "", "text", "", ' id="t_tc"') + chips(VC, "t_tc") +
+        fld("desc_category", "বিবরণ (ফাঁকা = স্বয়ংক্রিয় সারাংশ)", "", "textarea", "", ' id="t_dc" rows="2"') + chips(VC, "t_dc") + '<div class="serp" id="serp_c"></div>') +
+      "</div>" +
+      (sx.dup_samples && sx.dup_samples.length ? card("একই শিরোনামের পাতা", bn(sx.dup_titles) + "টি গ্রুপ · \"প্রোডাক্ট মিল\"-এ মিলিয়ে দিলে ঠিক হবে",
+        '<div class="ascroll"><table><tr><th>শিরোনাম</th><th>পাতা</th></tr>' + sx.dup_samples.map(function (d) {
+          return "<tr><td>" + esc(d[0]) + "</td><td>" + d[1].map(function (id) { return '<a href="' + BASE + "/p/" + esc(id) + '/" target="_blank" style="text-decoration:underline">' + esc(id) + "</a>"; }).join("<br>") + "</td></tr>"; }).join("") + "</table></div>") : "");
+    var ex = { name: "Logitech C270 HD Webcam", price: "৳1,999", store: "TechLand BD", stores: "৯", brand: "Logitech", cat: "স্মার্টফোন", cat_en: "Smartphone",
+               count: "৩০৭", low: "৳13,300", high: "৳549,999", year: "২০২৬", month: "নভেম্বর", date: "১২ নভেম্বর ২০২৬" };
+    function fill(t) { return String(t || "").replace(/\{(\w+)\}/g, function (_, k) { return ex[k] || ""; }); }
+    function box(url, t, d) { return '<small class="serpl">Google-এ যেমন দেখাবে</small><div class="serpu">' + esc(url) + '</div><div class="serpt">' + esc(t.length > 62 ? t.slice(0, 60) + "…" : t) + '</div><div class="serpd">' + esc(d.length > 158 ? d.slice(0, 155) + "…" : d) + "</div>" +
+      (t.length > 62 ? '<small class="serpw">শিরোনাম ' + bn(t.length) + " অক্ষর; ৬০-এর পরে কাটা যায়</small>" : ""); }
+    p.addEventListener("click", function (e) {
+      var c = e.target.closest("[data-ins]"); if (!c) return;
+      var inp = document.getElementById(c.dataset.ins), pos = inp.selectionStart == null ? inp.value.length : inp.selectionStart;
+      inp.value = inp.value.slice(0, pos) + c.dataset.v + inp.value.slice(inp.selectionEnd || pos); inp.focus();
+      inp.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+    var host = SITE.replace(/^https?:\/\//, "");
+    return seoBind(p, "seo-meta", function (cfg) {
+      $("#serp_p").innerHTML = box(host + " › p › logitech-c270-hd-webcam", fill(cfg.title_product), cfg.desc_product ? fill(cfg.desc_product) : "Logitech C270 HD Webcam: আজ ৯ দোকানে, সর্বনিম্ন ৳১,৯৯৯ (TechLand BD)।");
+      $("#serp_c").innerHTML = box(host + " › c › smartphone", fill(cfg.title_category), cfg.desc_category ? fill(cfg.desc_category) : "আজ বাংলাদেশে ৩০৭টি স্মার্টফোন কেনা যাচ্ছে; দাম ৳13,300 থেকে ৳549,999…");
+    });
+  };
+
+  VIEWS["seo-index"] = function (p) {
+    var sx = S.admin.seo || {};
+    p.innerHTML = '<div class="ag2 eq">' +
+      card("ইনডেক্সের নিয়ম", "কোন পাতা Google দেখবে",
+        '<div class="anote">কোনো দোকানে স্টকে থাকলে বা শীঘ্রই আসছে হলে পাতা Google-এ দেখানো হয়। সব দোকানে শেষ হলে পরের দিন থেকে লুকানো (পাতা থাকে, লিংক ভাঙে না, "স্টকে এলে জানান" কাজ করে)। নিচের দিন পার হলে পাতাটা ক্যাটাগরিতে পাঠানো হয়।</div>' +
+        fld("gone_days", "কত দিন কোথাও না থাকলে পাতা সরানো হবে", "", "number", "সর্বনিম্ন ১৪, প্রস্তাবিত ৯০", ' min="14" max="730"') +
+        '<dl class="adl"><div><dt>এখন Google-এ দেখানো প্রোডাক্ট</dt><dd>' + bn(sx.indexable) + "</dd></div><div><dt>লুকানো (স্টকে নেই)</dt><dd>" + bn(sx.noindex) + "</dd></div><div><dt>সরানো (ক্যাটাগরিতে পাঠানো)</dt><dd>" + bn(sx.gone || 0) + "</dd></div></dl>") +
+      card("হাতে নিয়ন্ত্রণ", "নির্দিষ্ট পাতা",
+        fld("force_index", "সবসময় Google-এ দেখান (স্টকে না থাকলেও)", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। যেমন জনপ্রিয় ফোন যা আবার আসবে।", ' rows="4"') +
+        fld("force_noindex", "কখনো Google-এ দেখাবেন না", "", "textarea", "প্রতি লাইনে একটা লিংক বা আইডি। পাতা থাকবে, শুধু সার্চে আসবে না।", ' rows="4"')) +
+      "</div>" +
+      card("রিডাইরেক্ট", "পুরনো ঠিকানা → নতুন পাতা (স্বয়ংক্রিয়)", '<div class="seolist">' +
+        srow("ok", "মেলানো প্রোডাক্ট", "দুটো পাতা এক করলে পুরনোটা নিজে থেকে নতুনটায় যায়। এখন " + bn((S.admin.auto_merges || []).length) + "+টি স্বয়ংক্রিয় মিল।", "") +
+        srow("ok", "অনেক দিন স্টকে নেই এমন প্রোডাক্ট", "উপরের দিন পার হলে পাতাটা তার ক্যাটাগরিতে পাঠানো হয়।", "") + "</div>");
+    return seoBind(p, "seo-index");
+  };
+
+  VIEWS["seo-sitemap"] = function (p) {
+    var sx = S.admin.seo || {}, prod = (sx.sitemap_urls || 0) - (sx.pages || 0);
+    p.innerHTML = '<div class="ag2 eq">' +
+      card("সাইটম্যাপ", "প্রতিদিন নিজে তৈরি হয়", '<div class="ascroll"><table><tr><th>ফাইল</th><th class="n">ঠিকানা</th></tr>' +
+        '<tr><td>sitemap.xml <span class="atag">সূচি</span></td><td class="n">' + bn(1 + Math.ceil(prod / 20000)) + " ফাইল</td></tr>" +
+        "<tr><td>sitemap-pages.xml</td><td class=\"n\">" + bn(sx.pages) + "</td></tr>" +
+        Array.apply(null, Array(Math.ceil(prod / 20000))).map(function (_, k) { return "<tr><td>sitemap-products-" + (k + 1) + '.xml</td><td class="n">' + bn(Math.min(20000, prod - k * 20000)) + "</td></tr>"; }).join("") +
+        "</table></div><p class=\"muted\" style=\"font-size:.82rem;margin:8px 0 0\">শুধু কেনা যায় এমন পাতা; প্রতিটায় শেষ দাম বদলের তারিখ (lastmod)।</p>" +
+        linkBtns([[SITE + "/sitemap.xml", "সাইটম্যাপ দেখুন"], ["https://search.google.com/search-console/sitemaps?resource_id=" + encodeURIComponent(SITE + "/"), "Search Console-এ জমা দিন"]])) +
+      card("IndexNow", "বদলানো পাতা সাথে সাথে জানানো",
+        tog("indexnow", "IndexNow চালু", false) +
+        '<p class="muted" style="font-size:.82rem;margin:6px 0 0">Bing, Yandex, Seznam, Naver পায়। ChatGPT-র সার্চ Bing-এর তথ্য ব্যবহার করে। Google IndexNow নেয় না, তার জন্য সাইটম্যাপ। প্রতিদিন দাম আনার পর নিজে চলে; আজ বদলানো পাতা: ' + bn(sx.changed_today) + "।</p>" +
+        linkBtns([["https://www.bing.com/webmasters", "Bing Webmaster"]])) +
+      "</div>" +
+      card("robots.txt", "", '<div class="anote warn">এখন সাইট <b>' + esc(SITE.replace(/^https?:\/\//, "")) + "</b>-এ, তাই আমাদের robots.txt Google পড়ে না (robots.txt থাকতে হয় ডোমেইনের গোড়ায়)। নিজের ডোমেইনে গেলে এই নিয়মগুলো কাজ করবে:</div>" +
+        '<pre class="acode">User-agent: *\nDisallow: /admin/\nDisallow: /search/\nSitemap: https://&lt;আপনার-ডোমেইন&gt;/sitemap.xml</pre>');
+    return seoBind(p, "seo-sitemap");
+  };
+
+  VIEWS["seo-schema"] = function (p) {
+    var sx = S.admin.seo || {}, u = sampleUrl();
+    var R = [["Product + Offer (প্রতি দোকান)", "প্রোডাক্ট পাতা", sx.indexable, 1, "দাম, দোকান, স্টক"], ["AggregateOffer", "প্রোডাক্ট পাতা", sx.indexable, 1, "সর্বনিম্ন–সর্বোচ্চ দাম"],
+      ["isAccessoryOrSparePartFor", "ল্যাপটপ পার্টস", sx.compat || 0, 1, "কোন ল্যাপটপের পার্ট"], ["BreadcrumbList", "সব পাতা", sx.sitemap_urls, 1, "ফলাফলে পথ দেখায়"],
+      ["ItemList", "ক্যাটাগরি", null, 1, "তালিকার প্রোডাক্ট"], ["WebSite + Organization", "হোম", 1, 1, "সাইটের পরিচয়"],
+      ["FAQPage", "—", 0, 0, "জুন ২০২৬ থেকে Google দেখায় না"], ["Review / Rating", "—", 0, 0, "আসল রিভিউ নেই, বানানো রিভিউ দেওয়া নিষেধ"]];
+    p.innerHTML = card("Structured data", "Google ও AI যে যন্ত্র-পাঠ্য তথ্য পড়ে", '<div class="ascroll"><table><tr><th>ধরন</th><th>কোথায়</th><th class="n">পাতা</th><th>অবস্থা</th><th>কী দেয়</th></tr>' +
+        R.map(function (r) { return "<tr><td><b>" + r[0] + "</b></td><td>" + r[1] + '</td><td class="n">' + (r[2] ? bn(r[2]) : "—") + "</td><td>" + (r[3] ? '<span class="atag ok">চালু</span>' : '<span class="atag off">বন্ধ</span>') + '</td><td class="muted">' + r[4] + "</td></tr>"; }).join("") + "</table></div>") +
+      card("যাচাই", "নমুনা পাতা: " + esc(sx.sample || ""), linkBtns([["https://search.google.com/test/rich-results?url=" + encodeURIComponent(u), "Rich Results Test"], ["https://validator.schema.org/#url=" + encodeURIComponent(u), "Schema যাচাই"]]) +
+        (sx.no_brand ? '<p class="muted" style="font-size:.82rem;margin:8px 0 0">' + bn(sx.no_brand) + "টি Product-এ brand নেই (বাধ্যতামূলক নয়)।</p>" : ""));
+    return Promise.resolve();
+  };
+
+  VIEWS["seo-ai"] = function (p) {
+    var sx = S.admin.seo || {};
+    var B = [["Googlebot", "Google সার্চ ও AI Overview", 1], ["Bingbot", "Bing ও ChatGPT সার্চ", 1], ["OAI-SearchBot", "ChatGPT সার্চে উৎস দেখানো", 1], ["PerplexityBot", "Perplexity উত্তরে উৎস", 1],
+      ["Claude-SearchBot", "Claude-এর উত্তরে উৎস", 1], ["Google-Extended", "Gemini মডেল প্রশিক্ষণ", 0], ["GPTBot", "OpenAI মডেল প্রশিক্ষণ", 0], ["ClaudeBot", "Anthropic মডেল প্রশিক্ষণ", 0], ["CCBot", "Common Crawl", 0]];
+    p.innerHTML = '<div class="ag2 eq">' +
+      card("AI কতটা উদ্ধৃত করতে পারবে", "Google AI Overview, AI Mode ও ফলাফল",
+        '<div class="af"><select data-k="ai_snippet"><option value="full">পুরোটা (প্রস্তাবিত): দাম ও তথ্য উদ্ধৃত হতে পারবে, উৎস হিসেবে লিংক আসে</option>' +
+        '<option value="limited">সীমিত: ১৬০ অক্ষর পর্যন্ত</option><option value="none">কিছুই না (nosnippet): বিবরণ দেখাবে না, ভিজিটর কমবে</option></select></div>' +
+        '<p class="muted" style="font-size:.8rem;margin:0">এখন: <code>' + esc(sx.robots || "") + "</code></p>") +
+      card("AI-বান্ধব কন্টেন্ট", "সাইটে যা চালু আছে", '<div class="seolist">' +
+        srow("ok", "পাতার শুরুতে সংক্ষিপ্ত উত্তর", "আজকের তারিখ, সর্বনিম্ন দাম, দোকান, পরিসীমা, ৩০ দিনের সর্বনিম্ন") +
+        srow("ok", "ক্যাটাগরিতে সারাংশ ও দামের তালিকা (টেবিল)", "AI টেবিল থেকে সবচেয়ে ভালো তথ্য তোলে") +
+        srow("ok", "প্রতিটা পাতায় শেষ আপডেটের তারিখ", "তাজা তথ্যকে AI অগ্রাধিকার দেয়") +
+        srow("ok", "\"আমাদের সম্পর্কে\"-তে পদ্ধতি ও উদ্ধৃতির নিয়ম", "বিশ্বাসযোগ্যতার সংকেত") + "</div>") +
+      "</div>" +
+      card("AI ক্রলার", "কোন AI আমাদের সাইট পড়ে", '<div class="anote">এখন সব ক্রলার সাইট পড়তে পারে। আলাদা করে আটকানোর নিয়ম robots.txt-এ বসে, তাই নিজের ডোমেইনে যাওয়ার পর এখান থেকে চালু/বন্ধ করা যাবে। পরামর্শ: যেগুলো ভিজিটর আনে সেগুলো খোলা রাখুন। llms.txt ফাইল Google ব্যবহার করে না।</div>' +
+        '<div class="ascroll"><table><tr><th>ক্রলার</th><th>কাজ</th><th>ভিজিটর আনে?</th></tr>' + B.map(function (b) { return "<tr><td><code>" + b[0] + "</code></td><td>" + b[1] + "</td><td>" + (b[2] ? '<span class="atag ok">হ্যাঁ, উৎস লিংক</span>' : '<span class="atag off">না, শুধু প্রশিক্ষণ</span>') + "</td></tr>"; }).join("") + "</table></div>");
+    return seoBind(p, "seo-ai");
+  };
+
+  VIEWS["seo-content"] = function (p) {
+    var cats = (S.admin.categories || []).filter(function (c) { return !c.hidden && c.count; }).sort(function (a, b) { return b.count - a.count; }).slice(0, 12);
+    p.innerHTML = card("গতি (Core Web Vitals)", "Google-এর লক্ষ্য", '<div class="akpis k3">' +
+        [["LCP", "বড় অংশ দেখাতে সময়", "≤ ২.৫ সেকেন্ড"], ["INP", "চাপলে সাড়া দিতে সময়", "≤ ২০০ মি.সে."], ["CLS", "লেআউট নড়াচড়া", "≤ ০.১"]].map(function (m) { return '<div class="akpi"><span class="l">' + m[1] + '</span><span class="v">' + m[0] + '</span><span class="d">লক্ষ্য ' + m[2] + "</span></div>"; }).join("") + "</div>" +
+        '<p class="muted" style="font-size:.84rem;margin:10px 0">এখনো স্বয়ংক্রিয়ভাবে মাপা হয় না। নিচের বোতামে এখনই মেপে দেখুন; Search Console যুক্ত হলে আসল ভিজিটরের মাপ সেখানে আসবে।</p>' +
+        linkBtns([["https://pagespeed.web.dev/analysis?url=" + encodeURIComponent(SITE + "/"), "হোম পেজ মাপুন"], ["https://pagespeed.web.dev/analysis?url=" + encodeURIComponent(sampleUrl()), "প্রোডাক্ট পাতা মাপুন"]])) +
+      card("বড় ক্যাটাগরিগুলো", "সারাংশ আর দামের তালিকা নিজে তৈরি হয়", '<div class="ascroll"><table><tr><th>ক্যাটাগরি</th><th class="n">প্রোডাক্ট</th><th></th></tr>' + cats.map(function (c) {
+        return "<tr><td>" + esc(c.name_bn) + '</td><td class="n">' + bn(c.count) + '</td><td><a class="abtn ghost sm" target="_blank" href="' + BASE + "/c/" + esc(c.slug) + '/">দেখুন ↗</a></td></tr>'; }).join("") + "</table></div>");
+    return Promise.resolve();
   };
 
   window.addEventListener("hashchange", function () { var t = location.hash.slice(1); if (VIEWS[t] && t !== S.tab && S.admin) show(t); });
@@ -1029,6 +1192,7 @@
   /* ---------- শুরু ---------- */
   fetch(BASE + "/admin/admin.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (a) {
     S.admin = a;
+    counts();
     S.token = lsGet(TKEY);
     var start = (location.hash || "#dash").slice(1);
     if (S.token) {

@@ -1505,6 +1505,31 @@ def main():
     _dups = sorted(((t_, ps_) for t_, ps_ in _tc.items() if len(ps_) > 1), key=lambda x: -len(x[1]))
     _long = sorted(((t_, pid_) for pid_, t_ in seo_titles.items() if len(t_) > 70), key=lambda x: -len(x[0]))
     _samp = next((i["id"] for i in sorted(_lst, key=lambda i: -i["live_count"]) if i["imgs"] and i["brand"]), None)
+    # অ্যাডমিন ড্যাশবোর্ড: আজ প্রতিটা দোকানে কতগুলো দাম কমল/বাড়ল/স্টক শেষ/নতুন (দামের ইতিহাস থেকে)
+    _sn = {s_: Counter() for s_ in stores}
+    _dd = health.get("date") or today
+    for _ss in history.values():
+        for s_, ch_ in _ss.items():
+            if not ch_ or s_ not in _sn:
+                continue
+            ch_ = sorted(ch_)
+            if ch_[-1][0] != _dd:
+                continue
+            prev_ = [v_ for d_, v_ in ch_ if d_ < _dd]
+            a_, b_ = (prev_[-1] if prev_ else "new"), ch_[-1][1]
+            c_ = _sn[s_]
+            if a_ == "new":
+                c_["new"] += 1
+            elif a_ and b_:
+                c_["dn" if b_ < a_ else "up" if b_ > a_ else "eq"] += 1
+            elif a_ and b_ is None:
+                c_["oos"] += 1
+            elif a_ is None and b_:
+                c_["back"] += 1
+    admin["store_news"] = {s_: dict(c_) for s_, c_ in _sn.items()}
+    admin["store_names"] = {s_: v_["name"] for s_, v_ in stores.items()}
+    admin["enabled"] = list(enabled)
+    admin["track"] = {k_: bool(v_) for k_, v_ in common["track"].items()}
     admin["nobrand"] = [{"id": i["id"], "n": i["name"], "c": i["cat_name"]} for i in sorted(_lst, key=lambda i: i["name"])
                         if not i["brand"] and not i["compat"]][:300]
     admin["seo"] = {

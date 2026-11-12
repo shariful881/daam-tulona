@@ -1,27 +1,77 @@
-{% extends "base.html" %}
-{% block head %}<link rel="stylesheet" href="{{ base }}/static/admin.css?v={{ build_id }}">{% endblock %}
-{% block content %}
-  <div id="adm" data-repo="{{ repo }}" data-base="{{ base }}">
-    <section class="card">
-      <h1>অ্যাডমিন প্যানেল</h1>
-      <p class="muted" style="margin:0;font-size:.88rem">সাইটের সব কিছু এখান থেকে নিয়ন্ত্রণ। এই পাতা Google-এ দেখাবে না। শেষ ডাটা: {{ updated }}</p>
-      <div id="authbox"></div>
-    </section>
-    <nav class="atabs" id="tabs" role="tablist">
-      <button role="tab" data-tab="dash" aria-selected="true">ড্যাশবোর্ড</button>
-      <button role="tab" data-tab="stores">স্টোর</button>
-      <button role="tab" data-tab="ads">বিজ্ঞাপন</button>
-      <button role="tab" data-tab="sponsors">স্পন্সর</button>
-      <button role="tab" data-tab="cats">ক্যাটাগরি</button>
-      <button role="tab" data-tab="brands">ব্র্যান্ড</button>
-      <button role="tab" data-tab="products">প্রোডাক্ট</button>
-      <button role="tab" data-tab="manual">হাতে দাম</button>
-      <button role="tab" data-tab="seo">SEO</button>
-      <button role="tab" data-tab="settings">সেটিং</button>
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>অ্যাডমিন প্যানেল | দামতুলনা</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="{{ base }}/static/style.css?v={{ build_id }}">
+<link rel="stylesheet" href="{{ base }}/static/admin.css?v={{ build_id }}">
+</head>
+<body class="adm">
+{% set I = {
+  "dash": '<path d="M3 13h8V3H3zM13 21h8V11h-8zM3 21h8v-6H3zM13 9h8V3h-8z"/>',
+  "stores": '<path d="M3 9l1.5-5h15L21 9M4 9v11h16V9M3 9h18M9 20v-6h6v6"/>',
+  "match": '<path d="M8 7h12M8 7l3-3M8 7l3 3M16 17H4m12 0-3-3m3 3-3 3"/>',
+  "auto": '<path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4"/>',
+  "alert": '<path d="M12 3 2 21h20zM12 10v5M12 18h.01"/>',
+  "hand": '<path d="M7 11V5a2 2 0 0 1 4 0v5m0-1V4a2 2 0 0 1 4 0v6m0-2a2 2 0 0 1 4 0v5a8 8 0 0 1-8 8 7 7 0 0 1-6-3l-3-5a2 2 0 0 1 3-2l2 2"/>',
+  "cats": '<path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/>',
+  "brands": '<path d="M3 12V3h9l9 9-9 9zM7.5 7.5h.01"/>',
+  "hide": '<path d="M3 3l18 18M10.6 6.1A9 9 0 0 1 12 6c5 0 9 6 9 6a15 15 0 0 1-3 3.4M6.2 7.6C3.9 9.3 3 12 3 12s4 6 9 6a8.6 8.6 0 0 0 4-1"/>',
+  "ads": '<path d="M3 5h18v14H3zM7 15l2.5-6 2.5 6M8 13h3M15 9v6h1.5a2 2 0 0 0 0-6z"/>',
+  "sponsors": '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z"/>',
+  "seo": '<circle cx="10" cy="10" r="6"/><path d="m20 20-5.6-5.6M7.5 10.5l2 2 3.5-4"/>',
+  "seo-meta": '<path d="M4 6h16M4 12h10M4 18h13"/>',
+  "seo-index": '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  "seo-sitemap": '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/>',
+  "seo-schema": '<path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/>',
+  "seo-ai": '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+  "seo-content": '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  "settings": '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>'
+} %}
+{% set MENU = [
+  ("ওভারভিউ", [("dash", "", "ড্যাশবোর্ড", "dash")]),
+  ("ডাটা", [("stores", "", "দোকান", "stores"), ("products", "sg", "প্রোডাক্ট মিল", "match"), ("products", "am", "স্বয়ংক্রিয় মিল", "auto"),
+            ("products", "pc", "দামের সমস্যা", "alert"), ("manual", "", "হাতে দাম", "hand")]),
+  ("ক্যাটালগ", [("cats", "", "ক্যাটাগরি", "cats"), ("brands", "", "ব্র্যান্ড", "brands"), ("products", "hide", "লুকানো প্রোডাক্ট", "hide")]),
+  ("আয়", [("ads", "", "বিজ্ঞাপন", "ads"), ("sponsors", "", "স্পন্সর", "sponsors")]),
+  ("SEO", [("seo", "", "SEO ড্যাশবোর্ড", "seo"), ("seo-meta", "", "শিরোনাম ও বিবরণ", "seo-meta"), ("seo-index", "", "ইনডেক্সের নিয়ম", "seo-index"),
+           ("seo-sitemap", "", "সাইটম্যাপ ও IndexNow", "seo-sitemap"), ("seo-schema", "", "Structured data", "seo-schema"),
+           ("seo-ai", "", "AI সার্চ", "seo-ai"), ("seo-content", "", "কন্টেন্ট ও গতি", "seo-content")]),
+  ("সিস্টেম", [("settings", "", "সেটিং ও ট্র্যাকিং", "settings")])
+] %}
+<div class="ashell">
+  <aside class="aside" id="aside" aria-label="অ্যাডমিন মেনু">
+    <a class="abrand" href="{{ base }}/">দাম<span>তুলনা</span><small>অ্যাডমিন প্যানেল</small></a>
+    <nav id="tabs">
+      {% for g, items in MENU %}<div class="agrp">{{ g }}</div>
+      {% for tab, sub, label, ic in items %}<button type="button" class="anav" data-tab="{{ tab }}"{% if sub %} data-psub="{{ sub }}"{% endif %} data-cnt-key="{{ tab ~ ('-' ~ sub if sub else '') }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ I[ic] | safe }}</svg><span class="lb">{{ label }}</span><span class="cnt" hidden></span></button>
+      {% endfor %}{% endfor %}
     </nav>
-    <div id="panel"><section class="card"><p class="muted" style="margin:0">লোড হচ্ছে…</p></section></div>
+    <div class="afoot"><a href="{{ base }}/" target="_blank">সাইট দেখুন ↗</a><br>এই পাতা Google-এ দেখায় না।</div>
+  </aside>
+  <div class="ascrim" id="ascrim"></div>
+  <div class="amain">
+    <header class="atop">
+      <button type="button" class="aburger" id="aburger" aria-label="মেনু খুলুন">☰</button>
+      <div class="attl"><small id="acrumb">ওভারভিউ</small><h1 id="attl">ড্যাশবোর্ড</h1></div>
+      <span class="asp"></span>
+      <span class="achip hide-s" title="শেষ দাম আনা"><span class="adot ok"></span>শেষ ডাটা: {{ updated }}</span>
+      <button type="button" class="achip" id="aconn"><span class="adot"></span>সংযুক্ত নয়</button>
+      <button type="button" class="abtn acc" data-toprun="daily.yml" title="সব দোকান থেকে এখনই দাম আনা">↻ <span class="hide-s">দাম আপডেট</span></button>
+    </header>
+    <main class="acontent" id="adm" data-repo="{{ repo }}" data-base="{{ base }}">
+      <div id="authbox"></div>
+      <div id="panel"><section class="card"><p class="aempty">লোড হচ্ছে…</p></section></div>
+    </main>
   </div>
-  <div class="asave" id="savebar" hidden><div class="col"><span id="savemsg">সেভ না করা পরিবর্তন আছে</span><button type="button" class="btn sm" id="savebtn">সেভ করুন</button></div></div>
-  <div class="atoast" id="toast" role="status"></div>
-{% endblock %}
-{% block after %}<script src="{{ base }}/static/admin.js?v={{ build_id }}" defer></script>{% endblock %}
+</div>
+<div class="asave" id="savebar" hidden><div class="col"><span id="savemsg">সেভ না করা পরিবর্তন আছে</span><button type="button" class="btn sm" id="savebtn">সেভ করুন</button></div></div>
+<div class="atoast" id="toast" role="status"></div>
+<script src="{{ base }}/static/admin.js?v={{ build_id }}" defer></script>
+</body>
+</html>
