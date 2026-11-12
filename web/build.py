@@ -813,7 +813,8 @@ def main():
             continue
         det = details.get(pid, {})
         live_all = sorted(((s, o) for s, o in so.items() if o.get("in_stock") and o.get("price")), key=lambda x: x[1]["price"])
-        sus = {s_ for s_ in suspect_stores(live_all) if f"{pid}|{s_}" not in price_ok}
+        # বিশ্বস্ত দোকানের (stores.json-এ "trusted": true, যেমন Star Tech, Ryans) দাম কখনো সন্দেহজনক ধরা হয় না
+        sus = {s_ for s_ in suspect_stores(live_all) if f"{pid}|{s_}" not in price_ok and not stores.get(s_, {}).get("trusted")}
         live = [x for x in live_all if x[0] not in sus]  # সর্বনিম্ন দাম ও সাশ্রয় শুধু বিশ্বাসযোগ্য দাম থেকে
         best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
@@ -839,7 +840,7 @@ def main():
         if not med or f"{pid}|{(it['best'] or {}).get('store')}" in price_ok:
             continue
         low = {s_ for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price") and o["price"] < med * 0.05
-               and f"{pid}|{s_}" not in price_ok}
+               and f"{pid}|{s_}" not in price_ok and not stores.get(s_, {}).get("trusted")}
         if low:
             it["sus"] = sorted(set(it["sus"]) | low)
             ok_ = sorted(((s_, o) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price") and s_ not in it["sus"]),

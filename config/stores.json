@@ -6,7 +6,8 @@
       "short": "ST",
       "home": "https://www.startech.com.bd",
       "enabled": true,
-      "delay": 3
+      "delay": 3,
+      "trusted": true
     },
     "ultratech": {
       "name": "UltraTech",
@@ -20,7 +21,8 @@
       "short": "PH",
       "home": "https://www.pchouse.com.bd",
       "enabled": true,
-      "delay": 5
+      "delay": 5,
+      "trusted": true
     },
     "creatus": {
       "name": "Creatus",
@@ -65,7 +67,8 @@
       "home": "https://www.ryans.com",
       "enabled": true,
       "delay": 4,
-      "manual": true
+      "manual": true,
+      "trusted": true
     },
     "techland": {
       "name": "TechLand BD",
@@ -87,7 +90,8 @@
       "short": "AG",
       "home": "https://www.applegadgetsbd.com",
       "enabled": true,
-      "delay": 5
+      "delay": 5,
+      "trusted": true
     },
     "pickaboo": {
       "name": "Pickaboo",
