@@ -86,7 +86,7 @@
     <h2>{{ cat.name_bn }} দামের তালিকা {{ month_year }} <span class="sub">· {{ day_bn }} হালনাগাদ</span></h2>
     <div class="tw"><table>
       <thead><tr><th scope="col">মডেল</th><th scope="col">সর্বনিম্ন দাম</th><th scope="col">দোকান</th></tr></thead>
-      <tbody>{% for it in price_table %}<tr><td><a href="{{ base }}/p/{{ it.id }}/">{{ it.name }}</a></td><td class="num">{{ it.best.price | taka }}</td><td>{{ stores[it.best.store].name }}{% if it.live_count > 1 %} <small>+{{ (it.live_count - 1)|bn }}</small>{% endif %}</td></tr>{% endfor %}</tbody>
+      <tbody>{% for it in price_table %}<tr><td><a href="{{ base }}/p/{{ it.id }}/">{{ it.name }}</a></td><td class="num">{{ it.best.price | taka }}</td><td>{{ stores[it.best.store].name }}{% if it.live_count > 1 %} <small>+আরও {{ (it.live_count - 1)|bn }}টি</small>{% endif %}</td></tr>{% endfor %}</tbody>
     </table></div>
     <p class="muted" style="font-size:.8rem;margin:8px 0 0">একাধিক দোকানে পাওয়া যায় এমন মডেল আগে। দাম প্রতিদিন দোকানের ওয়েবসাইট থেকে নেওয়া; কেনার আগে দোকানে মিলিয়ে নিন।</p>
   </section>
