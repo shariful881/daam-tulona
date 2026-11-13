@@ -1,0 +1,170 @@
+{
+ "https://computervision.com.bd/desktop": {
+  "n": 40,
+  "priced": 40,
+  "matched": 32,
+  "err": null,
+  "sec": 7,
+  "sample": [
+   "Acer Veriton MT M4715G Core i5 14th Gen Mini Tower Brand PC",
+   "AMD Ryzen 5 3400G Processor Gaming Desktop PC",
+   "AMD Ryzen 5 5500 Gaming PC"
+  ]
+ },
+ "https://computervision.com.bd/laptop": {
+  "n": 40,
+  "priced": 40,
+  "matched": 32,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Acer Aspire 7 A715-79G Core 5 210H RTX 3050 4GB 15.6\" FHD Gaming Laptop",
+   "Acer Nitro 5 AN516-74G1 Core i5 14th Gen RTX 5050 8GB Graphics 16” FHD+ Gaming Laptop",
+   "Acer Nitro 5 Pro AN5P16-74G2 Core i7 14th Gen RTX 5050 8GB Graphics 16” FHD+ Gaming Laptop"
+  ]
+ },
+ "https://computervision.com.bd/component-1395": {
+  "n": 40,
+  "priced": 40,
+  "matched": 23,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Value-Top Neo Q450 450W ATX Non Modular Power Supply",
+   "1st Player MV5-TP Mid Tower Micro-ATX White Gaming Case",
+   "1STPLAYER ACK Bronze 650W 80+ Bronze Power Supply"
+  ]
+ },
+ "https://computervision.com.bd/monitor": {
+  "n": 40,
+  "priced": 40,
+  "matched": 34,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Acer K202Q BI 19.5 Inch HD+ Monitor",
+   "Acer Nitro VG270 X1 27\" FHD 200Hz IPS Gaming Monitor",
+   "Acer SA222Q Ultra Slim 21.5\" 100Hz IPS FHD Monitor"
+  ]
+ },
+ "https://computervision.com.bd/printers-price-in-bangladesh": {
+  "n": 40,
+  "priced": 40,
+  "matched": 32,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Brother DCP-B7620DW Multifunctional Duplex Mono Laser Printer",
+   "Brother DCP-L2540DW Laser Multi-Function Wireless Duplex Printer",
+   "Brother DCP-L2540DW Laser Multi-Function Wireless Duplex Printer (30 PPM)"
+  ]
+ },
+ "https://computervision.com.bd/accessories": {
+  "n": 40,
+  "priced": 40,
+  "matched": 28,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "A4TECH FK11 Compact Size Mini Keyboard",
+   "A4TECH KRS-82 BLACK Keyboard",
+   "A4TECH N-70FX OFFICE MOUSE"
+  ]
+ },
+ "https://computervision.com.bd/gaming-accessories": {
+  "n": 40,
+  "priced": 40,
+  "matched": 29,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "A4Tech Bloody AT75 RGB Wired Mechanical Gaming Keyboard",
+   "A4Tech Bloody AT87 RGB Wired Mechanical Gaming Keyboard",
+   "A4Tech Bloody AT98 RGB Wired Mechanical Gaming Keyboard"
+  ]
+ },
+ "https://computervision.com.bd/networking": {
+  "n": 40,
+  "priced": 40,
+  "matched": 34,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "AC Net A10 High Performance Optical Fiber Machine",
+   "AC Net F-95X Optical Fiber ARC Splicer Machine",
+   "AC-Net A10 Optical Fiber Splicer Machine"
+  ]
+ },
+ "https://computervision.com.bd/office-solution": {
+  "n": 40,
+  "priced": 40,
+  "matched": 24,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "A10 Android LED Home Theatre Projector",
+   "Acer V60S 4000 lumens Projector",
+   "Apollo 60\"x60\" Electric Projection Screen"
+  ]
+ },
+ "https://computervision.com.bd/security-systems": {
+  "n": 40,
+  "priced": 40,
+  "matched": 35,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "12V 2A Box waterproof AC/DC Power Adapter for CCTV Camera",
+   "12V 2A Outdoor Waterproof AC/DC Power Adapter for CCTV Camera",
+   "AHD/CVI/TVI 720P/1080P (2MP) Video Balun for CC Camera"
+  ]
+ },
+ "https://computervision.com.bd/tablets-mobiles": {
+  "n": 40,
+  "priced": 40,
+  "matched": 30,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Amazon Kindle Colorsoft Signature Edition 32GB 7\" E-Book Reader",
+   "Amazon Kindle Scribe 16GB 10.2” Tablet",
+   "Apple iPhone 17 Pro Max"
+  ]
+ },
+ "https://computervision.com.bd/gadgets": {
+  "n": 40,
+  "priced": 37,
+  "matched": 27,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "ACEFAST L5 Wired Type C Earphone",
+   "ACEFAST L6 Wired Type C Earphone",
+   "Acefast M17 22.5W 10000mAh Magnetic Wireless Power Bank"
+  ]
+ },
+ "https://computervision.com.bd/home-appliances": {
+  "n": 40,
+  "priced": 40,
+  "matched": 24,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Air Conditioner 1.5 Ton SINGER Green Inverter",
+   "Arctic Summair Plus Portable Rechargeable Fan",
+   "Ariston PRO1 R Horizontal 50L Geyser"
+  ]
+ },
+ "https://computervision.com.bd/television-best-price-in-bangladesh": {
+  "n": 40,
+  "priced": 40,
+  "matched": 36,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Daewoo 50DM54UAB 50\" 4K Android Google Smart TV",
+   "Daewoo 55DM55UQB 55\" 4K QLED Android Google Smart TV",
+   "Daewoo 65DM55UQB 65\" 4K QLED Android Google Smart TV"
+  ]
+ }
+}
