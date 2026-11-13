@@ -1026,19 +1026,6 @@ def main():
     # স্বয়ংক্রিয় মিল (মডেল নম্বর দিয়ে); পুরনো লিংক নতুন পাতায় রিডাইরেক্ট হবে
     amap, auto_sugg = auto_merges(products, offers, mm.get("not_same", []), {k_: g_["slug"] for k_, g_ in group_of.items()},
                                   with_suggestions=True)
-    manual_old = set()
-    # অ্যাডমিনে হাতে মেলানো প্রোডাক্টের পুরনো লিংকও মূল পাতায় রিডাইরেক্ট (না হলে 404); শিকল (A→B→C) হলে সরাসরি শেষ পাতায়
-    for m in mm.get("merge", []):
-        for other in m.get("merge", []):
-            if other != m.get("keep") and other not in offers and other not in amap:
-                amap[other] = m.get("keep")
-                manual_old.add(other)
-    for old in list(amap):
-        seen, tgt = {old}, amap[old]
-        while tgt in amap and tgt not in seen:
-            seen.add(tgt)
-            tgt = amap[tgt]
-        amap[old] = tgt
     for old, keep in amap.items():
         if old in offers and keep in offers:
             for st_, o_ in offers.pop(old).items():
@@ -1161,6 +1148,22 @@ def main():
     MIN_STORES = max(1, int(SEO.get("index_min_stores") or 2))
     for pid, it in items.items():
         it["indexed"] = it["listed"] and (it["store_count"] >= MIN_STORES or pid in force_index)
+    from matcher.match import bad_id as _bad_id, full_slug as _full_slug
+    _same_name = defaultdict(list)
+    for pid_, it_ in items.items():
+        if it_["state"] != "gone":
+            _same_name[_full_slug(products[pid_]["name"])].append(pid_)
+    _cn = defaultdict(list)
+    for lf_ in leaves.values():
+        for k_ in (lf_.get("name_bn"), lf_.get("name_en"), lf_.get("slug")):
+            if k_:
+                _cn[k_.strip().lower()].append(lf_["slug"])
+    _dup_cats = sorted({tuple(sorted(set(v_))) for v_ in _cn.values() if len(set(v_)) > 1}) + \
+        [(lf_["slug"],) for lf_ in leaves.values() if re.search(r"-\d+$", lf_["slug"])]
+    _viol = sum(1 for i in items.values() if i["state"] != "gone" and _bad_id(i["id"], products[i["id"]]["name"])) + \
+        sum(1 for v_ in _same_name.values() if len(v_) > 1) + len(_dup_cats)
+    if _viol:
+        print(f"⚠ সাইটের নিয়ম ভাঙা: {_viol}টি (সংখ্যাওয়ালা লিংক/ডুপ্লিকেট প্রোডাক্ট/ডুপ্লিকেট ক্যাটাগরি) — অ্যাডমিন → SEO দেখুন; ঠিক করতে: python tools/dedupe_ids.py")
     stock_counts = Counter(i["state"] for i in items.values())
     listed_items = {k_: v_ for k_, v_ in items.items() if v_["listed"]}
 
@@ -1192,7 +1195,8 @@ def main():
         _w = (it["name"].split() or [""])[0].lower()
         it["unbranded"] = not it["bslug"] and not it["compat"] and (
             it["id"] in _none or _w in BR.generic or bool(re.fullmatch(r"[\d\W]+", _w)) or it["category"] == "laptop-accessories")
-    common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in items.values() if i["bslug"]).items()
+    # ব্র্যান্ড পাতা তৈরি হয় তালিকায় থাকা প্রোডাক্ট গুনে, তাই লিংকও একই হিসাবে (নইলে না-থাকা পাতায় লিংক = 404)
+    common["brand_set"] = {b_ for b_, c_ in Counter(i["bslug"] for i in listed_items.values() if i["bslug"]).items()
                            if c_ >= BR.conf.get("min_products", 5)}
     common["brand_info"] = lambda b_: BR.info.get(b_) or {}
     _bc = Counter(i["bslug"] for i in items.values() if i["bslug"])
@@ -1216,12 +1220,7 @@ def main():
                   {"src": f"{BASE}/static/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]},
         ensure_ascii=False))
     urls = []
-    for old, keep in amap.items():  # মিলে যাওয়া পুরনো প্রোডাক্টের লিংক যেন ভেঙে না যায়
-        (DIST / f"p/{old}").mkdir(parents=True, exist_ok=True)
-        (DIST / f"p/{old}/index.html").write_text(
-            f'<!doctype html><meta charset="utf-8"><title>সরানো হয়েছে</title><meta name="robots" content="noindex">'
-            f'<link rel="canonical" href="{SITE_URL}/p/{keep}/"><meta http-equiv="refresh" content="0; url={BASE}/p/{keep}/">'
-            f'<a href="{BASE}/p/{keep}/">নতুন পাতায় যান</a>')
+    # সাইটের নিয়ম: মিলে যাওয়া (ডুপ্লিকেট) প্রোডাক্টের পুরনো পাতা আর থাকে না — রিডাইরেক্ট পাতাও না (মালিকের সিদ্ধান্ত)
 
     def write(path, template, **ctx):
         out = DIST / path / "index.html" if path else DIST / "index.html"
@@ -1261,7 +1260,16 @@ def main():
     year_bn, month_bn = bn_num(_now.year).replace(",", ""), _MONTH[_now.month - 1]
     common["month_year"], common["day_bn"] = f"{month_bn} {year_bn}", bn_date(today)
 
-    used_titles = {}  # শিরোনাম → যে প্রোডাক্টের নাম থেকে এসেছে
+    class _CaseFree(dict):  # শিরোনাম মেলানো বড়/ছোট হাতের অক্ষর ছাড়া (ASUS আর Asus একই ধরা)
+        def __contains__(self, k):
+            return dict.__contains__(self, k.lower())
+
+        def __getitem__(self, k):
+            return dict.__getitem__(self, k.lower())
+
+        def __setitem__(self, k, v):
+            dict.__setitem__(self, k.lower(), v)
+    used_titles = _CaseFree()  # শিরোনাম → যে প্রোডাক্টের নাম থেকে এসেছে
 
     def tpl(t, **kv):
         """অ্যাডমিনের টেমপ্লেট ভরানো; অজানা {শব্দ} ফাঁকা হয়ে যায়, বাড়তি ফাঁকা জায়গা মুছে।"""
@@ -1368,12 +1376,7 @@ def main():
 
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
-        if it["state"] == "gone":  # টানা ৯০ দিন কোথাও নেই: পাতার জায়গায় ক্যাটাগরিতে পাঠানো (লিংক ভাঙে না)
-            (DIST / f"p/{pid}").mkdir(parents=True, exist_ok=True)
-            (DIST / f"p/{pid}/index.html").write_text(
-                f'<!doctype html><meta charset="utf-8"><title>{p["name"]} আর পাওয়া যায় না</title><meta name="robots" content="noindex">'
-                f'<link rel="canonical" href="{SITE_URL}/c/{leaf["slug"]}/"><meta http-equiv="refresh" content="0; url={BASE}/c/{leaf["slug"]}/">'
-                f'<a href="{BASE}/c/{leaf["slug"]}/">{leaf["name_bn"]}-এর অন্য প্রোডাক্ট দেখুন</a>')
+        if it["state"] == "gone":  # টানা ৯০ দিন কোথাও নেই: পাতা সরানো হয় (রিডাইরেক্ট পাতা নয়)
             continue
         det = details.get(pid, {})
         rows = []
@@ -1796,7 +1799,7 @@ def main():
     admin = {"updated": updated, "health": health, "sugg_total": sugg_total, "stock": dict(stock_counts), "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
              "suggestions": sugg_admin,
-             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(((o, k) for o, k in amap.items() if o not in manual_old), key=lambda x: products[x[1]]["name"])
+             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])
                              if o_ in products and k_ in products][:1500],
              "price_checks": sorted(({"id": i["id"], "n": i["name"], "c": i["cat_name"],
                                       "o": [[s_, stores[s_]["name"], o_["price"], s_ in i["sus"]]
@@ -1853,6 +1856,10 @@ def main():
         "dup_titles": len(_dups), "dup_pages": sum(len(ps_) for _, ps_ in _dups),
         "dup_samples": [[t_, ps_[:4]] for t_, ps_ in _dups[:15]],
         "long_titles": len(_long), "long_samples": [[t_, pid_] for t_, pid_ in _long[:10]],
+        # সাইটের নিয়ম পাহারা: সংখ্যাওয়ালা/ডুপ্লিকেট লিংক আর ডুপ্লিকেট ক্যাটাগরি (সব ০ থাকার কথা)
+        "rule_bad_ids": [i["id"] for i in vals if i["state"] != "gone" and _bad_id(i["id"], products[i["id"]]["name"])][:20],
+        "rule_dup_names": [v_ for v_ in _same_name.values() if len(v_) > 1][:20],
+        "rule_dup_cats": _dup_cats,
         "force_index": sorted(force_index), "force_noindex": sorted(force_noindex),
         "sample": _samp, "robots": common["robots_meta"], "indexnow": bool(SEO.get("indexnow") and re.fullmatch(r"[a-f0-9]{32}", SEO.get("indexnow_key") or "")),
     }

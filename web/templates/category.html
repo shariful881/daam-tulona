@@ -3,7 +3,7 @@
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › {{ cat.name_bn }}</nav>
   <section class="card chead">
-    <h1 class="ihd"><span class="cic">{{ cicon(cat.slug) }}</span>বাংলাদেশে {{ cat.name_bn }} দাম</h1>
+    <h1 class="ihd"><span class="cic">{{ cicon(cat.slug) }}</span>বাংলাদেশে {{ cat.name_bn }} দাম{% if page and page > 1 %} <span class="muted">(পাতা {{ page|bn }})</span>{% endif %}</h1>
     <p class="muted" style="margin:0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট এখন কেনা যায়, {{ store_count|bn }}টি স্টোরের দাম মিলিয়ে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %}</p>
     {% if cat_answer %}<p class="tldr" id="summary">{{ cat_answer }}</p>{% endif %}
     {% if size_links.get(cat.slug) %}{% set sl = size_links[cat.slug] %}

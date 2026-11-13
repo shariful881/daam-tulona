@@ -4,7 +4,7 @@
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/brand/">ব্র্যান্ড</a> › <a href="{{ base }}/brand/{{ bslug }}/">{{ bname }}</a> › {{ cat.name_bn }}</nav>
   <section class="card">
-    <div class="bhead">{{ blogo(bslug, bname) }}<h1 style="margin:0">{{ bname }} {{ cat.name_bn }} দাম বাংলাদেশে</h1></div>
+    <div class="bhead">{{ blogo(bslug, bname) }}<h1 style="margin:0">{{ bname }} {{ cat.name_bn }} দাম বাংলাদেশে{% if page and page > 1 %} <span class="muted">(পাতা {{ page|bn }})</span>{% endif %}</h1></div>
     <p class="muted" style="margin:8px 0 0;font-size:.9rem">{{ total|bn }}টি প্রোডাক্ট, সবচেয়ে কম দাম প্রথমে।{% if pages > 1 %} পাতা {{ page|bn }}/{{ pages|bn }}।{% endif %} <a href="{{ base }}/c/{{ cat.slug }}/" style="text-decoration:underline">সব ব্র্যান্ডের {{ cat.name_bn }}</a>{% if size_links.get(cat.slug) %} · <a href="{{ base }}/size/{{ size_links[cat.slug][0] }}/" style="text-decoration:underline">সাইজ অনুযায়ী তুলনা</a>{% endif %}</p>
     <div class="ctrl"><label><input type="checkbox" id="stock"> শুধু স্টকে আছে</label></div>
   </section>

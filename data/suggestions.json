@@ -1,13 +1,13 @@
 [
  {
-  "a": "asus-expertbook-p1-p1403cva-core-3-100u-14-fhd-laptop-2",
+  "a": "asus-expertbook-p1-p1403cva-core-3-100u-14-fhd-laptop",
   "b": "asus-expertbook-p1-p1403cva-core-3-100u-14-inch-fhd-laptop",
   "score": 1.0,
   "a_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14\" FHD Laptop",
   "b_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14 Inch FHD Laptop"
  },
  {
-  "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop-2",
+  "a": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-fhd-laptop",
   "b": "asus-vivobook-go-15-l1504fa-ryzen-5-7520u-16gb-ram-15-6-inch-fhd-laptop",
   "score": 1.0,
   "a_name": "ASUS Vivobook Go 15 L1504FA Ryzen 5 7520U 16GB RAM 15.6\" FHD Laptop",
@@ -15,38 +15,31 @@
  },
  {
   "a": "macbook-air-m5-chip-13-inch-10-core-cpu-10-core-gpu",
-  "b": "macbook-air-m5-chip-13-inch-2",
+  "b": "macbook-air-m5-chip-13-inch",
   "score": 1.0,
   "a_name": "MacBook Air M5 Chip 13-inch (10-core CPU, 10-core GPU)",
   "b_name": "MacBook Air M5 Chip 13-inch"
  },
  {
   "a": "macbook-pro-m5-pro-chip-14-inch-15-core-cpu-16-core-gpu",
-  "b": "macbook-pro-m5-chip-14-inch-2",
+  "b": "macbook-pro-m5-chip-14-inch",
   "score": 1.0,
   "a_name": "MacBook Pro M5 Pro Chip 14-inch (15-core CPU, 16-core GPU)",
   "b_name": "MacBook Pro M5 Chip 14-inch"
  },
  {
   "a": "macbook-pro-m5-max-chip-16-inch-40-core-gpu",
-  "b": "macbook-pro-m5-max-chip-16-inch-2",
+  "b": "macbook-pro-m5-max-chip-16-inch",
   "score": 1.0,
   "a_name": "MacBook Pro M5 Max Chip 16-inch (40 core GPU)",
   "b_name": "MacBook Pro M5 Max Chip 16-inch"
  },
  {
   "a": "macbook-pro-m5-pro-chip-14-inch-18-core-cpu-20-core-gpu",
-  "b": "macbook-pro-m5-chip-14-inch-2",
+  "b": "macbook-pro-m5-chip-14-inch",
   "score": 1.0,
   "a_name": "MacBook Pro M5 Pro Chip 14-inch (18-core CPU, 20-core GPU)",
   "b_name": "MacBook Pro M5 Chip 14-inch"
- },
- {
-  "a": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc",
-  "b": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc-2",
-  "score": 1.0,
-  "a_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27\" FHD All-in-One Desktop PC",
-  "b_name": "Lenovo IdeaCentre AIO 27ILL11 Core Ultra 7 27\" FHD All-in-One Desktop PC"
  },
  {
   "a": "lenovo-ideacentre-aio-27ill11-core-ultra-7-27-fhd-all-in-one-desktop-pc",
@@ -57,24 +50,17 @@
  },
  {
   "a": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc-2",
+  "b": "asus-nuc-14-essential-core-3-n355-portable-mini-pc",
   "score": 1.0,
   "a_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini PC With RAM & SSD",
   "b_name": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc"
  },
  {
   "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-2",
+  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc",
   "score": 1.0,
   "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
   "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc"
- },
- {
-  "a": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
-  "b": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd-2",
-  "score": 1.0,
-  "a_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
-  "b_name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD"
  },
  {
   "a": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-am5-socket-processor-oem-tray-f",
@@ -82,13 +68,6 @@
   "score": 1.0,
   "a_name": "AMD Ryzen 5 7600 3.8GHz-5.1GHz 6 Core 38MB Cache AM5 Socket Processor - (OEM/Tray) (Fan Not Included)",
   "b_name": "AMD RYZEN 5 7600 3.8GHZ-5.1GHZ 6 CORE 38MB CACHE GAMING AM5 Socket PROCESSOR"
- },
- {
-  "a": "gunnir-intel-arc-b580-photon-12gb-oc-ddr6-graphics-card-black",
-  "b": "gunnir-intel-arc-b580-photon-12gb-oc-ddr6-graphics-card-black-2",
-  "score": 1.0,
-  "a_name": "GUNNIR Intel Arc B580 Photon 12GB OC DDR6 Graphics Card (Black)",
-  "b_name": "GUNNIR Intel Arc B580 Photon 12GB OC DDR6 Graphics Card (Black)"
  },
  {
   "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
@@ -112,57 +91,22 @@
   "b_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
-  "a": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram",
-  "b_name": "G.Skill Trident Z 8GB DDR4 3200MHz Desktop RAM"
- },
- {
-  "a": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram",
-  "b": "g-skill-trident-z-8gb-ddr4-3200mhz-desktop-ram-3",
-  "score": 1.0,
-  "a_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram",
-  "b_name": "G.Skill Trident Z 8GB DDR4 3200Mhz Desktop Ram"
- },
- {
   "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
   "score": 1.0,
   "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
   "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
  },
  {
-  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
-  "score": 1.0,
-  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
-  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
- },
- {
   "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white-2",
-  "score": 1.0,
-  "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
-  "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
- },
- {
-  "a": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-white",
-  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black-2",
+  "b": "ocpc-x3-rgb-16gb-ddr4-3200mhz-desktop-ram-black",
   "score": 1.0,
   "a_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
   "b_name": "OCPC X3 RGB 16GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
   "a": "corsair-vengeance-16gb-ddr5-5600mhz-ram",
-  "b": "corsair-vengeance-16gb-ddr5-5600mhz-ram-2",
-  "score": 1.0,
-  "a_name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM",
-  "b_name": "CORSAIR VENGEANCE 16GB DDR5 5600MHZ RAM"
- },
- {
-  "a": "corsair-vengeance-16gb-ddr5-5600mhz-ram",
-  "b": "corsair-vengeance-16gb-ddr5-5600mhz-ram-white-2",
+  "b": "corsair-vengeance-16gb-ddr5-5600mhz-ram-white",
   "score": 1.0,
   "a_name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM",
   "b_name": "CORSAIR VENGEANCE 16GB DDR5 5600MHZ RAM (WHITE)"
@@ -182,39 +126,11 @@
   "b_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (White)"
  },
  {
-  "a": "team-delta-rgb-16gb-ddr5-6200mhz-gaming-desktop-ram",
-  "b": "team-delta-rgb-16gb-ddr5-6200mhz-gaming-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "TEAM Delta RGB 16GB DDR5 6200MHz Gaming Desktop RAM",
-  "b_name": "TEAM Delta RGB 16GB DDR5 6200MHz Gaming Desktop RAM"
- },
- {
   "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
   "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
   "score": 1.0,
   "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White",
   "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
- },
- {
-  "a": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram",
-  "b": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram-2",
-  "score": 1.0,
-  "a_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM",
-  "b_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM"
- },
- {
-  "a": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram",
-  "b": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram-3",
-  "score": 1.0,
-  "a_name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM",
-  "b_name": "KINGSTON FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM"
- },
- {
-  "a": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware",
-  "b": "sandisk-1tb-usb-3-2-gen-2-type-c-portable-ssd-updated-firmware-2",
-  "score": 1.0,
-  "a_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)",
-  "b_name": "Sandisk 1TB USB 3.2 Gen 2 Type-C Portable SSD (Updated Firmware)"
  },
  {
   "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
@@ -302,17 +218,10 @@
  },
  {
   "a": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2-years-warranty",
-  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive-2",
+  "b": "toshiba-s300-2tb-5400rpm-3-5-surveillance-hard-drive",
   "score": 1.0,
   "a_name": "Toshiba S300 2TB 5400RPM 3.5\" Surveillance Hard Drive (2 Years Warranty)",
   "b_name": "Toshiba S300 2TB 5400rpm 3.5″ Surveillance Hard Drive"
- },
- {
-  "a": "seagate-skyhawk-6tb-3-5-surveillance-hdd",
-  "b": "seagate-skyhawk-6tb-3-5-surveillance-hdd-2",
-  "score": 1.0,
-  "a_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD",
-  "b_name": "Seagate Skyhawk 6TB 3.5\" Surveillance HDD"
  },
  {
   "a": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
@@ -344,38 +253,24 @@
  },
  {
   "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
   "score": 1.0,
   "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
   "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
   "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
-  "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
- },
- {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
   "score": 1.0,
   "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)",
   "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single-2",
+  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo",
+  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-single",
   "score": 1.0,
   "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
   "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (Single)"
- },
- {
-  "a": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-2",
-  "b": "corsair-ll120-dual-light-loop-rgb-led-casing-fan-3-pack-combo-3",
-  "score": 1.0,
-  "a_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)",
-  "b_name": "Corsair LL120 Dual Light Loop RGB LED Casing Fan (3 Pack Combo)"
  },
  {
   "a": "cooler-master-vertical-graphics-card-holder-kit-v3-pcie-4-0",
@@ -455,13 +350,6 @@
   "b_name": "AJAZZ NK68 Wired Gaming Keyboard (White)"
  },
  {
-  "a": "ajazz-nk68-wired-gaming-keyboard",
-  "b": "ajazz-nk68-wired-gaming-keyboard-2",
-  "score": 1.0,
-  "a_name": "AJAZZ NK68 Wired Gaming Keyboard",
-  "b_name": "AJAZZ NK68 Wired Gaming Keyboard"
- },
- {
   "a": "asus-ra05-tuf-gaming-k3-rgb-mechanical-keyboard",
   "b": "asus-tuf-ra05-gaming-k3-rgb-mechanical-keyboard-brown-switch",
   "score": 1.0,
@@ -481,13 +369,6 @@
   "score": 1.0,
   "a_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla",
   "b_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla (White)"
- },
- {
-  "a": "pc-power-k87-rgb-wired-gaming-keyboard-with-bangla",
-  "b": "pc-power-k87-rgb-wired-gaming-keyboard-with-bangla-2",
-  "score": 1.0,
-  "a_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla",
-  "b_name": "PC Power K87 RGB Wired Gaming Keyboard with Bangla"
  },
  {
   "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
@@ -516,13 +397,6 @@
   "score": 1.0,
   "a_name": "Furycube E68 Pro Hot Swappable Tri-Mode Wireless Mechanical Keyboard",
   "b_name": "Furycube E68 Pro Hot Swappable Tri-Mode Wireless Mechanical Keyboard (White)"
- },
- {
-  "a": "furycube-e68-pro-hot-swappable-tri-mode-wireless-mechanical-keyboard",
-  "b": "furycube-e68-pro-hot-swappable-tri-mode-wireless-mechanical-keyboard-2",
-  "score": 1.0,
-  "a_name": "Furycube E68 Pro Hot Swappable Tri-Mode Wireless Mechanical Keyboard",
-  "b_name": "Furycube E68 Pro Hot Swappable Tri-Mode Wireless Mechanical Keyboard"
  },
  {
   "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
@@ -558,41 +432,6 @@
   "score": 1.0,
   "a_name": "Mofii GEEZER Z5 Wireless Numeric Keyboard",
   "b_name": "Mofii Geezer Z5 Wireless Numeric Keyboard (Purple)"
- },
- {
-  "a": "mofii-geezer-z5-wireless-numeric-keyboard",
-  "b": "mofii-geezer-z5-wireless-numeric-keyboard-2",
-  "score": 1.0,
-  "a_name": "Mofii GEEZER Z5 Wireless Numeric Keyboard",
-  "b_name": "Mofii Geezer Z5 Wireless Numeric Keyboard"
- },
- {
-  "a": "mofii-geezer-z1-folding-wireless-keyboard",
-  "b": "mofii-geezer-z1-folding-wireless-keyboard-2",
-  "score": 1.0,
-  "a_name": "Mofii Geezer Z1 Folding Wireless Keyboard",
-  "b_name": "Mofii Geezer Z1 Folding Wireless Keyboard"
- },
- {
-  "a": "mofii-geezer-z1-folding-wireless-keyboard",
-  "b": "mofii-geezer-z1-folding-wireless-keyboard-3",
-  "score": 1.0,
-  "a_name": "Mofii Geezer Z1 Folding Wireless Keyboard",
-  "b_name": "Mofii Geezer Z1 Folding Wireless Keyboard"
- },
- {
-  "a": "a4tech-bloody-at98-rgb-wired-mechanical-gaming-keyboard",
-  "b": "a4tech-bloody-at98-rgb-wired-mechanical-gaming-keyboard-2",
-  "score": 1.0,
-  "a_name": "A4Tech Bloody AT98 RGB Wired Mechanical Gaming Keyboard",
-  "b_name": "A4Tech Bloody AT98 RGB Wired Mechanical Gaming Keyboard"
- },
- {
-  "a": "a4tech-bloody-at98-rgb-wired-mechanical-gaming-keyboard",
-  "b": "a4tech-bloody-at98-rgb-wired-mechanical-gaming-keyboard-3",
-  "score": 1.0,
-  "a_name": "A4Tech Bloody AT98 RGB Wired Mechanical Gaming Keyboard",
-  "b_name": "A4Tech Bloody AT98 RGB Wired Mechanical Gaming Keyboard"
  },
  {
   "a": "xo-kb12-dual-mode-wireless-keyboard",
@@ -686,13 +525,6 @@
   "b_name": "Fantech GO W190D Dual Mode Wireless Mouse (White)"
  },
  {
-  "a": "fantech-go-w190d-dual-mode-wireless-mouse",
-  "b": "fantech-go-w190d-dual-mode-wireless-mouse-2",
-  "score": 1.0,
-  "a_name": "Fantech GO W190D Dual Mode Wireless Mouse",
-  "b_name": "Fantech GO W190D Dual Mode Wireless Mouse"
- },
- {
   "a": "fantech-go-w193d-dual-mode-wireless-mouse",
   "b": "fantech-go-w193d-dual-mode-wireless-mouse-beige",
   "score": 1.0,
@@ -712,13 +544,6 @@
   "score": 1.0,
   "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
   "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Black)"
- },
- {
-  "a": "meetion-btm008-dual-mode-wireless-mouse",
-  "b": "meetion-btm008-dual-mode-wireless-mouse-2",
-  "score": 1.0,
-  "a_name": "Meetion BTM008 Dual Mode Wireless Mouse",
-  "b_name": "Meetion BTM008 Dual Mode Wireless Mouse"
  },
  {
   "a": "meetion-btm008-dual-mode-wireless-mouse",
@@ -747,13 +572,6 @@
   "score": 1.0,
   "a_name": "A4TECH G3-200N V-TRACK Wireless Mouse",
   "b_name": "A4TECH G3-200N V-TRACK Wireless Mouse (Black Blue)"
- },
- {
-  "a": "logitech-g502-x-usb-hero-gaming-mouse",
-  "b": "logitech-g502-x-usb-hero-gaming-mouse-2",
-  "score": 1.0,
-  "a_name": "Logitech G502 X USB Hero Gaming Mouse",
-  "b_name": "LOGITECH G502 X USB HERO GAMING MOUSE"
  },
  {
   "a": "logitech-g502-x-usb-hero-gaming-mouse",
@@ -798,13 +616,6 @@
   "b_name": "Logitech M650 Signature wireless Mouse (PINK)"
  },
  {
-  "a": "mchose-g3-v2-pro-tri-mode-gaming-mouse",
-  "b": "mchose-g3-v2-pro-tri-mode-gaming-mouse-2",
-  "score": 1.0,
-  "a_name": "MCHOSE G3 V2 Pro Tri-mode Gaming Mouse",
-  "b_name": "MCHOSE G3 V2 Pro Tri-mode Gaming Mouse"
- },
- {
   "a": "dareu-a950gm-tri-mode-wireless-gaming-mouse",
   "b": "dareu-a950gm-tri-mode-wireless-gaming-mouse-white",
   "score": 1.0,
@@ -827,14 +638,14 @@
  },
  {
   "a": "razer-deathadder-essential-gaming-mouse",
-  "b": "razer-deathadder-essential-gaming-mouse-white-2",
+  "b": "razer-deathadder-essential-gaming-mouse-white",
   "score": 1.0,
   "a_name": "Razer DeathAdder Essential Gaming Mouse",
   "b_name": "Razer DeathAdder Essential Gaming Mouse (White)"
  },
  {
   "a": "razer-deathadder-essential-gaming-mouse",
-  "b": "razer-deathadder-essential-gaming-mouse-white-3",
+  "b": "razer-deathadder-essential-gaming-mouse-white",
   "score": 1.0,
   "a_name": "Razer DeathAdder Essential Gaming Mouse",
   "b_name": "Razer DeathAdder Essential Gaming Mouse (White)"
@@ -910,50 +721,29 @@
   "b_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Blue)"
  },
  {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
+  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium",
   "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
   "score": 1.0,
   "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
   "b_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (EXTENDED)"
  },
  {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-3",
-  "score": 1.0,
-  "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
-  "b_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)"
- },
- {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-2",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended-2",
+  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium",
+  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
   "score": 1.0,
   "a_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)",
   "b_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Extended)"
  },
  {
   "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium-3",
+  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-medium",
   "score": 1.0,
   "a_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (EXTENDED)",
   "b_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Medium)"
- },
- {
-  "a": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended",
-  "b": "corsair-mm300-pro-premium-spill-proof-cloth-gaming-mouse-pad-extended-2",
-  "score": 1.0,
-  "a_name": "CORSAIR MM300 PRO PREMIUM SPILL-PROOF CLOTH GAMING MOUSE PAD (EXTENDED)",
-  "b_name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad (Extended)"
- },
- {
-  "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white",
-  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
-  "score": 1.0,
-  "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)",
-  "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
  },
  {
   "a": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-carbon",
-  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white-2",
+  "b": "corsair-void-elite-rgb-premium-7-1-usb-gaming-headphone-white",
   "score": 1.0,
   "a_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (Carbon)",
   "b_name": "Corsair Void Elite RGB Premium 7.1 USB Gaming Headphone (White)"
@@ -973,27 +763,6 @@
   "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
  },
  {
-  "a": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam",
-  "b": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam-3",
-  "score": 1.0,
-  "a_name": "Logitech BRIO 500 Full HD 1080p 4MP Auto-framing Webcam",
-  "b_name": "LOGITECH BRIO 500 FULL HD 1080P 4MP AUTO-FRAMING WEBCAM"
- },
- {
-  "a": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam",
-  "b": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam-2",
-  "score": 1.0,
-  "a_name": "Logitech BRIO 500 Full HD 1080p 4MP Auto-framing Webcam",
-  "b_name": "LOGITECH BRIO 500 FULL HD 1080P 4MP AUTO-FRAMING WEBCAM"
- },
- {
-  "a": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam",
-  "b": "logitech-brio-500-full-hd-1080p-4mp-auto-framing-webcam-4",
-  "score": 1.0,
-  "a_name": "Logitech BRIO 500 Full HD 1080p 4MP Auto-framing Webcam",
-  "b_name": "LOGITECH BRIO 500 FULL HD 1080P 4MP AUTO-FRAMING WEBCAM"
- },
- {
   "a": "yanmai-gm-610-usb-gaming-microphone",
   "b": "yanmai-gm-610-usb-gaming-microphone-beige",
   "score": 1.0,
@@ -1006,13 +775,6 @@
   "score": 1.0,
   "a_name": "Yanmai GM-610 USB Gaming Microphone",
   "b_name": "Yanmai GM-610 USB Gaming Microphone (Black)"
- },
- {
-  "a": "rode-videomic-pro-compact-directional-on-camera-microphone",
-  "b": "rode-videomic-pro-compact-directional-on-camera-microphone-3",
-  "score": 1.0,
-  "a_name": "RODE VideoMic Pro Compact Directional On-camera Microphone",
-  "b_name": "Rode VideoMic Pro Compact Directional On-camera Microphone"
  },
  {
   "a": "edifier-es60-portable-bluetooth-speaker",
@@ -1134,13 +896,6 @@
   "b_name": "HiFuture Ascendo Portable Wireless Speaker (Green)"
  },
  {
-  "a": "hifuture-ascendo-portable-wireless-speaker",
-  "b": "hifuture-ascendo-portable-wireless-speaker-2",
-  "score": 1.0,
-  "a_name": "HiFuture Ascendo Portable Wireless Speaker",
-  "b_name": "HiFuture Ascendo Portable Wireless Speaker"
- },
- {
   "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
   "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-golden-black",
   "score": 1.0,
@@ -1218,32 +973,11 @@
   "b_name": "Monster S150 Plus Portable Bluetooth Speaker (Black)"
  },
  {
-  "a": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive",
-  "b": "kingston-datatraveler-exodia-128gb-usb-3-2-pen-drive-3",
-  "score": 1.0,
-  "a_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
-  "b_name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive"
- },
- {
   "a": "sandisk-ultra-dual-drive-go-usb-type-c-128gb-pen-drive",
-  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
+  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive",
   "score": 1.0,
   "a_name": "SanDisk Ultra Dual Drive Go USB Type-C 128GB Pen Drive",
   "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
- },
- {
-  "a": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive",
-  "b": "sandisk-ultra-dual-drive-go-128gb-usb-type-c-pen-drive-2",
-  "score": 1.0,
-  "a_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive",
-  "b_name": "SanDisk Ultra Dual Drive Go 128GB USB Type-C Pen Drive"
- },
- {
-  "a": "orico-5sxrj-type-c-5-in-1-multifunctional-hub",
-  "b": "orico-5sxrj-type-c-5-in-1-multifunctional-hub-2",
-  "score": 1.0,
-  "a_name": "ORICO 5SXRJ Type-C 5-in-1 Multifunctional HUB",
-  "b_name": "ORICO 5SXRJ Type-C 5-in-1 Multifunctional HUB"
  },
  {
   "a": "orico-5sxrj-type-c-5-in-1-multifunctional-hub",
@@ -1251,34 +985,6 @@
   "score": 1.0,
   "a_name": "ORICO 5SXRJ Type-C 5-in-1 Multifunctional HUB",
   "b_name": "ORICO 5SXRJ 5-IN-1 TYPE-C MULTIFUNCTIONAL HUB"
- },
- {
-  "a": "onten-otn-ue106-usb-c-and-usb-a-to-ethernet-adapter",
-  "b": "onten-otn-ue106-usb-c-and-usb-a-to-ethernet-adapter-3",
-  "score": 1.0,
-  "a_name": "Onten OTN-UE106 USB-C and USB-A to Ethernet Adapter",
-  "b_name": "Onten OTN-UE106+ USB-C and USB-A to Ethernet Adapter"
- },
- {
-  "a": "onten-otn-ue106-usb-c-and-usb-a-to-ethernet-adapter-2",
-  "b": "onten-otn-ue106-usb-c-and-usb-a-to-ethernet-adapter-3",
-  "score": 1.0,
-  "a_name": "Onten OTN-UE106+ USB-C and USB-A to Ethernet Adapter",
-  "b_name": "Onten OTN-UE106+ USB-C and USB-A to Ethernet Adapter"
- },
- {
-  "a": "onten-otn-uca322-m-2-nvme-ssd-enclosure",
-  "b": "onten-otn-uca322-m-2-nvme-ssd-enclosure-3",
-  "score": 1.0,
-  "a_name": "Onten OTN-UCA322 M.2 NVMe SSD Enclosure",
-  "b_name": "Onten OTN-UCA322 M.2 NVMe SSD Enclosure"
- },
- {
-  "a": "onten-otn-uca322-m-2-nvme-ssd-enclosure-2",
-  "b": "onten-otn-uca322-m-2-nvme-ssd-enclosure-3",
-  "score": 1.0,
-  "a_name": "Onten OTN-UCA322+ M.2 NVMe SSD Enclosure",
-  "b_name": "Onten OTN-UCA322 M.2 NVMe SSD Enclosure"
  },
  {
   "a": "colmi-p28-plus-smartwatch",
@@ -1309,41 +1015,6 @@
   "b_name": "COLMI P28 Plus Smartwatch (silver)"
  },
  {
-  "a": "imilab-imiki-holo-ultra-smart-watch",
-  "b": "imilab-imiki-holo-ultra-smart-watch-2",
-  "score": 1.0,
-  "a_name": "Imilab IMIKI HOLO Ultra Smart Watch",
-  "b_name": "Imilab IMIKI HOLO Ultra Smart Watch"
- },
- {
-  "a": "imilab-imiki-holo-ultra-smart-watch",
-  "b": "imilab-imiki-holo-ultra-smart-watch-3",
-  "score": 1.0,
-  "a_name": "Imilab IMIKI HOLO Ultra Smart Watch",
-  "b_name": "Imilab IMIKI HOLO Ultra Smart Watch"
- },
- {
-  "a": "samsung-galaxy-watch-8",
-  "b": "samsung-galaxy-watch-8-2",
-  "score": 1.0,
-  "a_name": "Samsung Galaxy Watch 8",
-  "b_name": "Samsung Galaxy Watch 8"
- },
- {
-  "a": "samsung-galaxy-watch-8",
-  "b": "samsung-galaxy-watch-8-3",
-  "score": 1.0,
-  "a_name": "Samsung Galaxy Watch 8",
-  "b_name": "Samsung Galaxy Watch 8"
- },
- {
-  "a": "hoco-ew60-plus-anc-true-wireless-earbuds",
-  "b": "hoco-ew60-plus-anc-true-wireless-earbuds-2",
-  "score": 1.0,
-  "a_name": "Hoco EW60 Plus ANC True Wireless Earbuds",
-  "b_name": "Hoco EW60 Plus ANC True Wireless Earbuds"
- },
- {
   "a": "qcy-ailybuds-pro-ht10-anc-earbuds",
   "b": "qcy-ailybuds-pro-ht10-anc-earbuds-black",
   "score": 1.0,
@@ -1363,20 +1034,6 @@
   "score": 1.0,
   "a_name": "QCY ArcBuds HT07 ANC TWS Earbuds",
   "b_name": "QCY ArcBuds HT07 ANC TWS Earbuds (White)"
- },
- {
-  "a": "qcy-arcbuds-ht07-anc-tws-earbuds",
-  "b": "qcy-arcbuds-ht07-anc-tws-earbuds-2",
-  "score": 1.0,
-  "a_name": "QCY ArcBuds HT07 ANC TWS Earbuds",
-  "b_name": "QCY ArcBuds HT07 ANC TWS Earbuds"
- },
- {
-  "a": "vention-tiny-t17-true-wireless-bluetooth-earbuds",
-  "b": "vention-tiny-t17-true-wireless-bluetooth-earbuds-2",
-  "score": 1.0,
-  "a_name": "Vention Tiny T17 True Wireless Bluetooth Earbuds",
-  "b_name": "Vention Tiny T17 True Wireless Bluetooth Earbuds"
  },
  {
   "a": "vention-tiny-t17-true-wireless-bluetooth-earbuds",

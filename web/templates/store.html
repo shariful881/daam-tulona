@@ -4,7 +4,7 @@
   <section class="card">
     <div class="bhead">
       <span class="av{% if s.logo %} logo{% endif %}{% if s.dark %} dark{% endif %} slogo">{% if s.logo %}<img src="{{ base }}/static/{{ s.logo }}" alt="{{ s.name }}">{% else %}{{ s.name[:2] }}{% endif %}</span>
-      <div><h1>{{ s.name }}</h1>{% if s.home %}<a class="muted" href="{{ s.home }}" target="_blank" rel="nofollow noopener" style="font-size:.85rem;text-decoration:underline">{{ s.home | replace("https://", "") | replace("www.", "") }} ›</a>{% endif %}</div>
+      <div><h1>{{ s.name }} <span class="muted">অনলাইন দোকান</span></h1>{% if s.home %}<a class="muted" href="{{ s.home }}" target="_blank" rel="nofollow noopener" style="font-size:.85rem;text-decoration:underline">{{ s.home | replace("https://", "") | replace("www.", "") }} ›</a>{% endif %}</div>
     </div>
     <div class="astats bst">
       <div class="astat"><b>{{ s.st.live|bn }}</b><span>প্রোডাক্ট স্টকে</span></div>

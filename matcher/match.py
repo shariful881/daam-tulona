@@ -81,6 +81,45 @@ def slugify(name: str) -> str:
     return s[:80].rstrip("-") or "product"
 
 
+# সাইটের নিয়ম: একই প্রোডাক্টের একটাই পাতা, আর লিংকের শেষে কখনো -2, -3 ধরনের সংখ্যা নয়।
+def full_slug(name: str) -> str:
+    """পুরো নাম (কাটা ছাড়া) — দুই প্রোডাক্টের এটা এক হলে তারা একই প্রোডাক্ট।"""
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or "product"
+
+
+def suffix_id(pid: str, name: str) -> bool:
+    """আইডিটা কি নামের শেষে মিল এড়াতে বসানো সংখ্যা (-2, -3) দিয়ে তৈরি? (নামেরই অংশ হলে নয়)"""
+    full = full_slug(name)
+    return pid != slugify(name) and bool(re.fullmatch(re.escape(slugify(name)) + r"-\d+", pid)) \
+        and not (full == pid or full.startswith(pid + "-"))
+
+
+def ends_with_number(pid: str) -> bool:
+    return bool(re.search(r"-\d+$", pid))
+
+
+def bad_id(pid: str, name: str) -> bool:
+    """নিয়ম ভাঙা আইডি: মিলের সংখ্যা (-2) বা নামের মাঝখানে সংখ্যায় কাটা (…-202)। নামের শেষটাই সংখ্যা হলে (Pro 4) ঠিক আছে।"""
+    return suffix_id(pid, name) or (ends_with_number(pid) and pid != full_slug(name))
+
+
+def unique_slug(name: str, taken) -> str:
+    """নাম থেকে আইডি; ৮০ অক্ষরে অন্য প্রোডাক্টের সাথে মিলে গেলে নামের পরের শব্দ যোগ হয় (সংখ্যা নয়)।"""
+    full = full_slug(name)
+    words = full.split("-")
+    n = 1  # পুরো শব্দ ধরে ৮০ অক্ষর পর্যন্ত (শব্দের মাঝখানে কাটা নয়)
+    while n < len(words) and len("-".join(words[:n + 1])) <= 80:
+        n += 1
+    cand = "-".join(words[:n])
+    # অন্য প্রোডাক্টের সাথে মিললে, বা শেষ শব্দটা সংখ্যা হলে (লিংক দেখতে -2/-3-এর মতো) নামের পরের শব্দ যোগ
+    while (cand in taken or (cand != full and ends_with_number(cand))) and n < len(words):
+        n += 1
+        cand = "-".join(words[:n])
+    if cand in taken:  # পুরো নামও নেওয়া (অন্য প্রোডাক্টের পুরো নাম এটার শুরু) — নামের শেষে "item"
+        cand = full + "-item"
+    return cand
+
+
 def jaccard(a: set, b: set) -> float:
     return len(a & b) / max(1, len(a | b))
 
@@ -160,16 +199,18 @@ def main():
     key_to_id = {}
     for pid, p in sorted(products.items(), key=lambda x: x[1]["created"]):
         key_to_id.setdefault(p["key"], pid)
+    # হুবহু একই নাম = একই প্রোডাক্ট (নিয়ম: একই প্রোডাক্টের দুই পাতা নয়)
+    name_to_id = {}
+    for pid, p in sorted(products.items(), key=lambda x: x[1]["created"]):
+        name_to_id.setdefault(full_slug(p["name"]), pid)
     url_to_id = {}
     for pid, stores in old_offers.items():
         for o in stores.values():
             url_to_id[o["url"]] = pid
 
-    # একই স্টোরে একই key দুইবার এলে সেগুলো আলাদা প্রোডাক্ট ধরা হবে
-    seen = defaultdict(int)
+    # একই দোকানে একই প্রোডাক্ট দুইবার থাকলে একটাই প্রোডাক্ট (কম দামেরটা থাকে) — আলাদা পাতা নয়
     for o in raw["offers"]:
         o["_key"] = o["category"] + "|" + " ".join(sorted(set(tokens(o["name"]))))
-        seen[(o["store"], o["_key"])] += 1
 
     stores_conf = load(ROOT / "config/stores.json", {}).get("stores", {})
     match_only = {k for k, v in stores_conf.items() if v.get("match_only")}
@@ -195,14 +236,10 @@ def main():
                 offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today}
             continue
         key = o["_key"]
-        if seen[(o["store"], key)] > 1:
-            key += "#" + o["store"] + ":" + o["url"].rstrip("/").rsplit("/", 1)[-1]
-        pid = url_to_id.get(o["url"]) or key_to_id.get(key)
+        pid = url_to_id.get(o["url"]) or key_to_id.get(key) or name_to_id.get(full_slug(o["name"]))
         if pid is None:
-            base = slugify(o["name"])
-            pid, i = base, 2
-            while pid in products:
-                pid, i = f"{base}-{i}", i + 1
+            pid = unique_slug(o["name"], products)  # কখনো -2/-3 নয়
+            name_to_id[full_slug(o["name"])] = pid
             products[pid] = {
                 "name": o["name"], "category": o["category"], "key": key,
                 "brand": (o.get("brand") or o["name"].split()[0]).strip(),
@@ -216,7 +253,7 @@ def main():
         if o.get("features") and pid in products:  # তালিকা থেকে পাওয়া মূল ফিচার, প্রতিদিন নতুন করে
             products[pid]["features"] = o["features"]
         cur = offers[pid].get(o["store"])
-        if cur is None or (o["price"] or 10**9) < (cur["price"] or 10**9):
+        if cur is None or (o["in_stock"], -(o["price"] or 10**9)) > (cur["in_stock"], -(cur["price"] or 10**9)):
             offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today} \
                 | ({"img": o["image"]} if o.get("image") else {})
 
