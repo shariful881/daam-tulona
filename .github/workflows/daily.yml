@@ -87,6 +87,16 @@ jobs:
           if [ "$BASE_URL" = "/" ]; then export BASE_URL=""; fi
           python -m web.build
 
+      - name: বাজার আপডেটের ইনফোগ্রাফিক ছবি
+        run: |
+          pip install -q playwright==1.47.0 && python -m playwright install --with-deps chromium > /dev/null
+          python -m tools.render_ig || echo "ছবি তৈরি হয়নি (পাতা ঠিক থাকবে)"
+      - name: বাজার রিপোর্টের খসড়া সেভ
+        if: env.SCRAPE == '1'
+        run: |
+          git add data/reports
+          git diff --cached --quiet || (git commit -m "বাজার রিপোর্টের খসড়া $(TZ=Asia/Dhaka date +%F)" && git pull --rebase -q && git push) || echo "খসড়া সেভ হয়নি"
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

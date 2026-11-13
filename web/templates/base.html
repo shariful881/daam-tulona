@@ -13,8 +13,8 @@
 <meta property="og:type" content="{{ og_type or 'website' }}">
 {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
 <meta property="og:image" content="{{ og_image or og_default }}">
-{% if not og_image %}<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{% endif %}
-<meta name="twitter:card" content="{{ 'summary' if og_image else 'summary_large_image' }}">
+{% if not og_image or big_og %}<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{% endif %}
+<meta name="twitter:card" content="{{ 'summary' if og_image and not big_og else 'summary_large_image' }}">
 {% if crumbs %}<script type="application/ld+json">{{ crumbs | safe }}</script>{% endif %}
 {% for ld in lds or [] %}<script type="application/ld+json">{{ ld | safe }}</script>{% endfor %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,15 +47,15 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
     <input class="search" type="search" name="q" placeholder="প্রোডাক্ট খুঁজুন…" aria-label="প্রোডাক্ট খুঁজুন" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sdrop">
     <div class="sdrop" id="sdrop" role="listbox" hidden></div>
   </form>
-  <nav class="hlinks" aria-label="দ্রুত লিংক"><a href="{{ base }}/pc-builder/">পিসি বিল্ডার</a><a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/compare/">তুলনা</a></nav>
+  <nav class="hlinks" aria-label="দ্রুত লিংক"><a href="{{ base }}/bazar/">বাজার আপডেট</a><a href="{{ base }}/pc-builder/">পিসি বিল্ডার</a><a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/compare/">তুলনা</a></nav>
 </div>
 {% if nav_groups %}<nav class="gnav" aria-label="ক্যাটাগরি"><div class="col">{% for slug, name in nav_groups %}<a href="{{ base }}/g/{{ slug }}/"{% if group is defined and group and group.slug == slug %} aria-current="true"{% endif %}>{{ cicon(slug, True) }}{{ name }}</a>{% endfor %}</div></nav>{% endif %}
 </header>
 {% block top %}{% endblock %}
 <main class="col{% if buy %} has-buy{% endif %}">
 {% block content %}{% endblock %}
-  <p class="foot">দাম স্টোরের ওয়েবসাইট থেকে প্রতিদিন সংগ্রহ করা, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
-  <nav class="footnav"><a href="{{ base }}/pc-builder/">পিসি বিল্ডার</a><a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/store/">সব স্টোর</a><a href="{{ base }}/about/">আমাদের সম্পর্কে</a><a href="{{ base }}/advertise/">বিজ্ঞাপন দিন</a><a href="{{ base }}/privacy/">প্রাইভেসি নীতি</a></nav>
+  <p class="foot">দাম সংশ্লিষ্ট স্টোরের, যেকোনো সময় বদলাতে পারে। কেনার আগে স্টোরে মিলিয়ে নিন।<br>শেষ আপডেট: {{ updated }}</p>
+  <nav class="footnav"><a href="{{ base }}/bazar/">বাজার আপডেট</a><a href="{{ base }}/pc-builder/">পিসি বিল্ডার</a><a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a><a href="{{ base }}/brand/">সব ব্র্যান্ড</a><a href="{{ base }}/store/">সব স্টোর</a><a href="{{ base }}/about/">আমাদের সম্পর্কে</a><a href="{{ base }}/advertise/">বিজ্ঞাপন দিন</a><a href="{{ base }}/privacy/">প্রাইভেসি নীতি</a></nav>
 </main>
 {% block after %}{% endblock %}
 <div class="cmpbar" id="cmpbar" hidden><div class="col"><span id="cmpcount"></span><button type="button" class="link" id="cmpclear">মুছুন</button><a class="btn sm" id="cmpgo" href="{{ base }}/compare/">তুলনা করুন</a></div></div>

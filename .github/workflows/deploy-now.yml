@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["web/**", "config/**", "data/manual_matches.json", "data/manual_prices.json", ".github/workflows/deploy-now.yml"]
+    paths: ["web/**", "config/**", "data/manual_matches.json", "data/manual_prices.json", "data/report_status.json", ".github/workflows/deploy-now.yml"]
 
 permissions:
   contents: read
@@ -37,6 +37,11 @@ jobs:
         run: |
           if [ "$BASE_URL" = "/" ]; then export BASE_URL=""; fi
           python -m web.build
+
+      - name: বাজার আপডেটের ইনফোগ্রাফিক ছবি
+        run: |
+          pip install -q playwright==1.47.0 && python -m playwright install --with-deps chromium > /dev/null
+          python -m tools.render_ig || echo "ছবি তৈরি হয়নি (পাতা ঠিক থাকবে)"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -1,0 +1,15 @@
+/* বাজার আপডেটের ইনফোগ্রাফিক (পাতার ভেতরে আর ছবি বানানোর সময় দুই জায়গাতেই) */
+.ig{width:100%;height:auto;display:block;border-radius:14px;font-family:"Hind Siliguri","Noto Sans Bengali",sans-serif}
+.ig .brand{font:700 52px "Hind Siliguri";fill:#fff}.ig .hsub{font:500 28px "Hind Siliguri";fill:#f3c98a}
+.ig .hsub2{font:500 26px "Hind Siliguri";fill:#cfe0dc}
+.ig .big{font:700 84px "Hind Siliguri"}.ig .lab{font:600 30px "Hind Siliguri";fill:#12302c}
+.ig .sm{font:400 21px "Hind Siliguri";fill:#5b706c}.ig .sm2{font:500 24px "Hind Siliguri";fill:#5b706c}
+.ig .sec{font:700 36px "Hind Siliguri";fill:#12302c}
+.ig .nm{font:600 25px "Hind Siliguri";fill:#12302c}.ig .val{font:700 25px "Hind Siliguri"}
+.ig .trend{font:700 32px "Hind Siliguri";fill:#8a520a}.ig .foot{font:500 21px "Hind Siliguri";fill:#5b706c}.ig .foot.b{font-weight:700;fill:#c97a12}
+.ig .tile,.ig .row{animation:igin .6s ease-out both;animation-delay:var(--d)}
+.ig .bar{transform-box:fill-box;transform-origin:left;animation:igbar .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d) + .15s)}
+@keyframes igin{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes igbar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ig.static .tile,.ig.static .row,.ig.static .bar{animation:none}
+@media (prefers-reduced-motion:reduce){.ig .tile,.ig .row,.ig .bar{animation:none}}

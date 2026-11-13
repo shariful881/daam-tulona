@@ -946,6 +946,54 @@
     });
   };
 
+  /* ---------- বাজার রিপোর্ট (খসড়া → মন্তব্য → প্রকাশ) ---------- */
+  VIEWS.reports = function (p) {
+    function tk(n) { return "৳" + bn(Math.abs(n)); }
+    return Promise.all([
+      api("/repos/" + REPO + "/contents/data/reports?ref=main").catch(function (e) { if (e.status === 404) return []; throw e; }),
+      getJSON("data/report_status.json").catch(function () { return {}; })
+    ]).then(function (r) {
+      var files = (r[0] || []).filter(function (f) { return /\.json$/.test(f.name); });
+      var st = clone(r[1] || {});
+      files.sort(function (a, b) { var da = (a.name.match(/\d{4}-\d{2}(-\d{2})?/) || [""])[0], db = (b.name.match(/\d{4}-\d{2}(-\d{2})?/) || [""])[0]; return da < db ? 1 : da > db ? -1 : 0; });
+      files = files.slice(0, 40);
+      return Promise.all(files.map(function (f) { return getJSON("data/reports/" + f.name).catch(function () { return null; }); })).then(function (reps) {
+        reps = reps.filter(Boolean);
+        var today = new Date(Date.now() + 6 * 3600e3).toISOString().slice(0, 10);
+        function one(x) {
+          var s = st[x.id] || {}, live = s.publish && (s.comment || "").trim();
+          var t = (x.tabs && x.tabs[0]) || {};
+          var mini = function (rows, sign) { return (rows || []).slice(0, 3).map(function (c) { return "<li>" + esc(c.name) + " <b>" + sign + tk(c.diff) + "</b></li>"; }).join(""); };
+          return '<section class="card" data-rid="' + esc(x.id) + '"><div class="chd"><h2 style="font-size:1rem">' + esc(x.title) + '</h2><span class="asp"></span>' +
+            '<span class="achip"><span class="adot ' + (live ? "ok" : "off") + '"></span>' + (live ? "প্রকাশিত" : "খসড়া") + "</span></div>" +
+            '<p class="muted" style="margin:0 0 6px;font-size:.8rem">' + esc(x.label) + " · তৈরি " + esc(x.created || x.date) + (live ? ' · <a href="' + BASE + "/" + x.path + '/" target="_blank" style="text-decoration:underline">সাইটে দেখুন ↗</a>' : "") + "</p>" +
+            '<ul style="margin:0 0 8px;padding-left:18px;font-size:.88rem">' + (x.key || []).map(function (k) { return "<li>" + esc(k) + "</li>"; }).join("") + "</ul>" +
+            (t.dn && t.dn.length ? '<p class="muted" style="margin:6px 0 2px;font-size:.8rem">বেশি কমেছে</p><ul style="margin:0;padding-left:18px;font-size:.84rem">' + mini(t.dn, "−") + "</ul>" : "") +
+            (t.up && t.up.length ? '<p class="muted" style="margin:6px 0 2px;font-size:.8rem">বেশি বেড়েছে</p><ul style="margin:0;padding-left:18px;font-size:.84rem">' + mini(t.up, "+") + "</ul>" : "") +
+            '<div class="af"><label>সম্পাদকের মন্তব্য (প্রকাশের জন্য দরকার)</label><textarea data-rf="comment" rows="3" placeholder="২-৩ লাইনে আপনার পর্যবেক্ষণ: এই সপ্তাহে কী চোখে পড়ল, ক্রেতার কী করা উচিত">' + esc(s.comment || "") + "</textarea></div>" +
+            '<div class="af"><label>কেন হতে পারে (ঐচ্ছিক)</label><textarea data-rf="context" rows="2" placeholder="যেমন: শুল্ক বদল, নতুন মডেল আসা, বিশ্ববাজারে দাম বাড়া">' + esc(s.context || "") + "</textarea></div>" +
+            '<div class="af"><label>সূত্রের লিংক (ঐচ্ছিক)</label><input type="url" data-rf="context_link" value="' + esc(s.context_link || "") + '" placeholder="https://…"></div>' +
+            '<label class="atog"><span>সাইটে প্রকাশ করুন</span><input type="checkbox" data-rf="publish"' + (s.publish ? " checked" : "") + "></label></section>";
+        }
+        p.innerHTML = '<section class="card"><h2>বাজার রিপোর্ট</h2><p class="muted" style="margin:0;font-size:.85rem;line-height:1.6">প্রতি শুক্রবার ক্যাটাগরির সাপ্তাহিক রিপোর্ট আর সপ্তাহের ডিল, আর মাসের শুরুতে মাসিক রিপোর্ট এখানে খসড়া হিসেবে আসে (বলার মতো খবর না থাকলে খসড়াই হয় না)। ' +
+          'পড়ে দেখে মন্তব্য লিখুন, "সাইটে প্রকাশ করুন" চালু করে নিচে সেভ চাপুন। মন্তব্য ছাড়া প্রকাশ হয় না। আজকের বাজার পাতা প্রতিদিন নিজে থেকে হালনাগাদ হয়: ' +
+          '<a href="' + BASE + '/bazar/aj/" target="_blank" style="text-decoration:underline">আজকের বাজার ↗</a></p></section>' +
+          (reps.length ? reps.map(one).join("") : '<section class="card"><p class="aempty">এখনো কোনো খসড়া নেই। দামের ইতিহাস ৮ দিনের বেশি হলে প্রথম শুক্রবার থেকে সাপ্তাহিক খসড়া আসবে।</p></section>');
+        bindDirty(p, "reports", function (el) {
+          var box = el.closest("[data-rid]"); if (!box || !el.dataset.rf) return false;
+          var id = box.dataset.rid, s = st[id] = st[id] || {};
+          s[el.dataset.rf] = el.type === "checkbox" ? el.checked : el.value.trim();
+          if (el.dataset.rf === "publish" && el.checked && !s.at) s.at = today;
+        });
+        savers.reports = function () {
+          var bad = Object.keys(st).filter(function (k) { return st[k].publish && !(st[k].comment || "").trim(); });
+          if (bad.length) { toast("প্রকাশ করতে মন্তব্য লিখুন (" + bn(bad.length) + "টি রিপোর্টে মন্তব্য নেই)", true); return Promise.reject(new Error("মন্তব্য নেই")); }
+          return putJSON("data/report_status.json", st, "বাজার রিপোর্ট: মন্তব্য/প্রকাশ");
+        };
+      });
+    });
+  };
+
   VIEWS.settings = function (p) {
     p.innerHTML =
       '<section class="card"><h2>GitHub টোকেন কীভাবে বানাবেন</h2><div class="anote"><ol>' +

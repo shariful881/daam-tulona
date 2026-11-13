@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block head %}<link rel="alternate" type="application/rss+xml" title="দামতুলনা বাজার আপডেট" href="{{ base }}/bazar/feed.xml">{% endblock %}
+{% block content %}
+<nav class="crumb"><a href="{{ base }}/">হোম</a> › {% if cat_name %}<a href="{{ base }}/bazar/">বাজার আপডেট</a> › {{ cat_name }}{% else %}বাজার আপডেট{% endif %}</nav>
+<section class="card">
+  <h1>{% if cat_name %}{{ poss }} দামের সাপ্তাহিক রিপোর্ট{% else %}বাজার আপডেট{% endif %}</h1>
+  <p class="muted" style="margin:6px 0 0">{% if cat_name %}প্রতি সপ্তাহে বাংলাদেশে {{ poss }} দাম কতটা কমল বা বাড়ল, কোন মডেলে কত পার্থক্য: দামতুলনার বিশ্লেষণ।{% else %}বাংলাদেশে ইলেকট্রনিক্সের দাম কোথায় কমল, কোথায় বাড়ল: প্রতিদিনের আপডেট আর ক্যাটাগরি অনুযায়ী সাপ্তাহিক বিশ্লেষণ।{% endif %}</p>
+  {% if cat_links %}<div class="chips szr" style="margin-top:12px;flex-wrap:wrap">{% for k, n in cat_links %}<a class="chip" href="{{ base }}/bazar/{{ k }}/">{{ n }}</a>{% endfor %}</div>{% endif %}
+</section>
+{% if daily %}
+<a class="card bhero" href="{{ base }}/bazar/aj/">
+  <span class="bkick">আজকের বাজার · {{ daily.date | bn_date }}</span>
+  <b>{{ daily.title }}</b>
+  <span class="muted">{{ daily.key[0] if daily.key else '' }}</span>
+  <span class="bgo">পুরো আপডেট দেখুন ›</span>
+</a>
+{% endif %}
+{% if reports %}
+<section class="card"><h2>{% if cat_name %}সব রিপোর্ট{% else %}সাপ্তাহিক ও মাসিক রিপোর্ট{% endif %}</h2>
+  <ul class="bmore">{% for o in reports %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a><small>{{ o.label }} · {{ o.published | bn_date }}</small></li>{% endfor %}</ul>
+</section>
+{% endif %}
+<section class="card bpol"><p style="margin:0">এই রিপোর্টগুলো দামতুলনার নিজস্ব বিশ্লেষণ, সম্পাদনা করেন শরীফুল ইসলাম। <a href="{{ base }}/bazar/niti/">আমাদের নীতি ›</a> · <a href="{{ base }}/bazar/feed.xml">RSS</a></p></section>
+{% endblock %}

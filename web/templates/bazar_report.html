@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% macro chg_table(rows, sign) %}
+<div class="btw"><table class="btbl"><thead><tr><th>প্রোডাক্ট</th><th class="num">আগে</th><th class="num">এখন</th><th class="num">পরিবর্তন</th></tr></thead><tbody>
+{% for c in rows %}<tr><td><a href="{{ base }}/p/{{ c.id }}/">{{ c.name }}</a><small>{{ c.cat_name }} · {{ stores[c.store].name if c.store in stores else c.store }}</small></td>
+<td class="num">{{ c.old | taka }}</td><td class="num"><b>{{ c.new | taka }}</b></td>
+<td class="num {{ 'dn' if sign == '−' else 'up' }}">{{ sign }}{{ (c.diff | abs) | taka }}<small>{{ '%.0f' % (c.pct | abs) if (c.pct|abs) >= 1 else '%.1f' % (c.pct | abs) }}%</small></td></tr>{% endfor %}
+</tbody></table></div>
+{% endmacro %}
+{% macro panel(t, first) %}
+<div data-bpanel="{{ t.key }}"{% if not first %} hidden{% endif %}>
+  {% if t.dn %}<section class="card"><h2>যেগুলোর দাম কমেছে{% if t.n_dn > t.dn|length %} <small class="muted">· {{ t.n_dn|bn }}টির মধ্যে বড়গুলো</small>{% endif %}</h2>{{ chg_table(t.dn, "−") }}</section>{% endif %}
+  {% if t.up %}<section class="card"><h2>যেগুলোর দাম বেড়েছে{% if t.n_up > t.up|length %} <small class="muted">· {{ t.n_up|bn }}টির মধ্যে বড়গুলো</small>{% endif %}</h2>{{ chg_table(t.up, "+") }}</section>{% endif %}
+  {% if not t.dn and not t.up %}<section class="card"><p class="muted" style="margin:0">{{ t.name }}-এ দাম স্থির ছিল।</p></section>{% endif %}
+  {% if t.gaps %}<section class="card"><h2>একই প্রোডাক্টে দোকানভেদে বড় পার্থক্য</h2>
+    {% for g in t.gaps %}<a class="bgap" href="{{ base }}/p/{{ g.id }}/"><b>{{ g.name }}</b><span class="bgl"><span>সবচেয়ে কম <b class="bg">{{ g.lo | taka }}</b> {{ stores[g.los].name }}</span><span>সবচেয়ে বেশি {{ g.hi | taka }} {{ stores[g.his].name }}</span></span><span class="bgs">পার্থক্য {{ g.diff | taka }}</span></a>{% endfor %}
+  </section>{% endif %}
+  {% if t.new %}<section class="card"><h2>নতুন এসেছে{% if t.n_new > t.new|length %} <small class="muted">· মোট {{ t.n_new|bn }}টি</small>{% endif %}</h2>
+    <ul class="bnew">{% for x in t.new %}<li><a href="{{ base }}/p/{{ x.id }}/">{{ x.name }}</a><span>{{ x.cat_name }} · {{ x.price | taka }} · {{ stores[x.store].name }}{% if x.n > 1 %} · {{ x.n|bn }}টি দোকানে{% endif %}</span></li>{% endfor %}</ul>
+  </section>{% endif %}
+</div>
+{% endmacro %}
+{% block head %}<link rel="stylesheet" href="{{ base }}/static/ig.css?v={{ build_id }}"><link rel="alternate" type="application/rss+xml" title="দামতুলনা বাজার আপডেট" href="{{ base }}/bazar/feed.xml">{% endblock %}
+{% block content %}
+<nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/bazar/">বাজার আপডেট</a>{% if r.kind == "week" %} › <a href="{{ base }}/bazar/{{ r.cat }}/">{{ r.cat_name }}</a>{% endif %} › {{ r.span or r.label }}</nav>
+<article class="bz">
+  <section class="card">
+    <p class="bkick">{{ r.label }}</p>
+    <h1>{{ r.h1 }}</h1>
+    <p class="bby">প্রকাশ: <b>{{ r.published | bn_date }}</b> · লিখেছেন: <a href="{{ base }}/bazar/niti/#editor"><b>{{ editor }}</b></a>, দামতুলনা</p>
+    <div class="bdata"><span>{% if r.span %}সময়কাল: <b>{{ r.span }}</b>{% else %}তারিখ: <b>{{ r.date | bn_date }}</b>{% endif %}</span><span>দোকান: <b>{{ n_stores|bn }}টি</b></span></div>
+  </section>
+
+  <section class="card"><h2>মূল কথা</h2><ul class="bkey">{% for k in r.key %}<li>{{ k }}</li>{% endfor %}</ul></section>
+
+  <section class="card">
+    <figure class="bfig">{{ r.svg | safe }}<figcaption>ইনফোগ্রাফিক: দামতুলনার নিজস্ব বিশ্লেষণ। শেয়ার করলে উৎস হিসেবে damtulona.com উল্লেখ করুন।</figcaption></figure>
+    <div class="bshare" data-share data-url="{{ share_url }}" data-title="{{ r.title }}" data-img="{{ base }}/{{ r.path }}/infographic.jpg">
+      <button type="button" class="shb main" data-sh="native">শেয়ার করুন</button>
+      <a class="shb fb" data-sh="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ (share_url ~ '?s=fb') | urlencode }}" target="_blank" rel="noopener">ফেসবুক</a>
+      <a class="shb wa" data-sh="whatsapp" href="https://wa.me/?text={{ (r.title ~ ' ' ~ share_url ~ '?s=wa') | urlencode }}" target="_blank" rel="noopener">হোয়াটসঅ্যাপ</a>
+      <a class="shb" data-sh="download" href="{{ base }}/{{ r.path }}/infographic.jpg" download="damtulona-{{ r.id }}.jpg">ছবি ডাউনলোড</a>
+      <button type="button" class="shb" data-sh="copy">লিংক কপি</button>
+      <p class="shmsg" hidden></p>
+    </div>
+  </section>
+
+  {% if r.tabs %}
+    {% if r.tabs|length > 1 %}<div class="btabs" role="tablist" data-btabs>{% for t in r.tabs %}<button type="button" role="tab" data-btab="{{ t.key }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ t.name }}{% if t.n_dn + t.n_up %} <small>{{ (t.n_dn + t.n_up)|bn }}</small>{% endif %}</button>{% endfor %}</div>{% endif %}
+    {% for t in r.tabs %}{{ panel(t, loop.first) }}{% endfor %}
+  {% endif %}
+
+  {% if r.deals %}<section class="card"><h2>সপ্তাহের ১০টি ডিল</h2>
+    {% for g in r.deals %}<a class="bgap" href="{{ base }}/p/{{ g.id }}/"><b>{{ loop.index|bn }}. {{ g.name }}</b><span class="bgl"><span>সবচেয়ে কম <b class="bg">{{ g.lo | taka }}</b> {{ stores[g.los].name }}</span><span>সবচেয়ে বেশি {{ g.hi | taka }} {{ stores[g.his].name }}</span><span>{{ g.n|bn }}টি দোকানে আছে</span></span><span class="bgs">বাঁচবে {{ g.diff | taka }}</span></a>{% endfor %}
+  </section>{% endif %}
+
+  {% if r.cats %}<section class="card"><h2>ক্যাটাগরি অনুযায়ী গড় দাম</h2><div class="btw"><table class="btbl"><thead><tr><th>ক্যাটাগরি</th><th class="num">গড় পরিবর্তন</th><th class="num">হিসাবে প্রোডাক্ট</th></tr></thead><tbody>
+    {% for c in r.cats %}<tr><td><b>{{ c.name }}</b></td><td class="num {{ 'dn' if c.idx < 0 else 'up' }}">{{ '+' if c.idx > 0 else '−' if c.idx < 0 else '' }}{{ '%.1f' % (c.idx|abs) }}%</td><td class="num">{{ c.n|bn }}</td></tr>{% endfor %}
+  </tbody></table></div></section>{% endif %}
+
+  {% if r.context %}<section class="card"><h2>কেন হতে পারে</h2><p>{{ r.context }}{% if r.context_link %} <a href="{{ r.context_link }}" target="_blank" rel="noopener nofollow">সূত্র ›</a>{% endif %}</p></section>{% endif %}
+
+  <section class="card"><h2>আপনার জন্য কী মানে</h2><ul class="bkey">{% for a in r.advice %}<li>{{ a }}</li>{% endfor %}</ul></section>
+
+  {% if r.comment %}<section class="card bed"><h2>সম্পাদকের মন্তব্য</h2><p>{{ r.comment }}</p><p class="bsig">— {{ editor }}</p></section>{% endif %}
+
+  <section class="card bpol"><h2>আমাদের নীতি</h2><p>এই রিপোর্ট দামতুলনার নিজস্ব বিশ্লেষণ। কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে এই তালিকায় জায়গা পায় না। দাম যেকোনো সময় বদলাতে পারে, কেনার আগে প্রোডাক্ট পাতায় আজকের দাম দেখে নিন। <a href="{{ base }}/bazar/niti/">বিস্তারিত ›</a></p></section>
+
+  {% if others %}<section class="card"><h2>আরও বাজার আপডেট</h2><ul class="bmore">{% for o in others %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a><small>{{ o.label }} · {{ o.published | bn_date }}</small></li>{% endfor %}</ul>
+    <p style="margin:8px 0 0"><a href="{{ base }}/bazar/" style="text-decoration:underline">সব বাজার আপডেট ›</a></p></section>{% endif %}
+</article>
+{% endblock %}
+{% block after %}<script src="{{ base }}/static/share.js?v={{ build_id }}" defer></script>{% endblock %}

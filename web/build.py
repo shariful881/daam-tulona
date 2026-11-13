@@ -24,6 +24,7 @@ from web import insights as INS
 from web.facets import facets_for, facet_defs
 from web.automatch import auto_merges
 from web import market
+from web import bazar
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -944,7 +945,7 @@ def main():
     details = load_details()
     brand_details = load_details("brand_details")
     today = health["date"]
-    updated = bn_date(today) + ", " + health["scraped_at"][11:16]
+    updated = bn_date(today)  # সময় দেখানো হয় না (দাম কখন তোলা হয় তা গোপন)
     # হাতে যাচাই করা দাম (অ্যাডমিন → হাতে দাম): যে দোকান স্বয়ংক্রিয় ভিজিট আটকায়, সেখানে মানুষ দেখে দাম বসায়
     manual = json.loads((DATA / "manual_prices.json").read_text()) if (DATA / "manual_prices.json").exists() else {}
     manual_n = 0
@@ -1073,7 +1074,7 @@ def main():
                       "group": group_of[p["category"]]["slug"], "brand": brand, "bslug": bslug, "best": best, "any_price": any_price,
                       "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
                       "worst": {"store": live[-1][0], "price": live[-1][1]["price"]} if len(live) > 1 else None,
-                      "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live_all), "sus": sorted(sus),
+                      "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live), "sus": sorted(sus),
                       "created": p["created"], "specs": p["specs"], "imgs": imgs,
                       "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x),
                       "fx": facets_for(p["category"], p["name"], p["specs"], (det.get("key_features") or p.get("features") or []))}
@@ -1097,6 +1098,7 @@ def main():
             it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
             it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
             it["worst"] = {"store": ok_[-1][0], "price": ok_[-1][1]["price"]} if len(ok_) > 1 else None
+            it["live_count"] = len(ok_)
 
     # ===== স্টকের অবস্থা: স্টকে / আংশিক / আসছে / সদ্য শেষ / স্টক শেষ / বন্ধ =====
     # নিয়ম (স্টক শেষ প্রোডাক্টের নীতি): শুধু কেনা যায় এমন প্রোডাক্ট তালিকা আর গুগলে যায়। কোথাও স্টকে নেই এমন
@@ -1211,9 +1213,9 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "static").mkdir(parents=True)
-    for f in ("style.css", "home.js", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "livesearch.js", "alert.js", "pcbuilder.js"):
+    for f in ("style.css", "home.js", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "livesearch.js", "alert.js", "pcbuilder.js", "ig.css", "share.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
-    for d in ("logos", "sponsors", "brands", "icons"):
+    for d in ("logos", "sponsors", "brands", "icons", "fonts"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
     # ফেভিকন: ব্রাউজার আর সার্চ ইঞ্জিন সাইটের গোড়ায় /favicon.ico খোঁজে; ফোনে "হোম স্ক্রিনে যোগ" করার জন্য manifest
@@ -1395,8 +1397,8 @@ def main():
                      else f"{bn_num(age)} দিন আগে যাচাই করা")
             if o and o.get("manual"):  # হাতে দেখে বসানো দাম, সপ্তাহে একবার হালনাগাদ হয়
                 fresh = "হাতে যাচাই করা · " + ("আজ" if age == 0 else "গতকাল" if age == 1 else f"{bn_num(age)} দিন আগে")
-            if s in it["sus"]:
-                label, cls = "দাম যাচাই চলছে", "chk"
+            if s in it["sus"]:  # সন্দেহজনক দাম পাতায় একদম দেখানো হয় না
+                continue
             ptype = phone_type(o.get("name"), stores[s]) if o and it["category"] in PHONE_CATS else None
             rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= (8 if o and o.get("manual") else 2)), "ptype": ptype,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),
@@ -1655,10 +1657,13 @@ def main():
                        key=lambda d_: (-d_["store_count"], -d_["drop"]))[:10]
     # ===== হোম: বাজারের অবস্থা (web/market.py) =====
     M = market.compute(history, items, offers, set(enabled), today)
+    # ===== বাজার আপডেট (web/bazar.py): আজকের বাজার + প্রকাশিত সাপ্তাহিক/মাসিক রিপোর্ট =====
+    BZ = bazar.build(items=items, history=history, enabled=set(enabled), stores=stores, today=today, write=write, crumbs_ld=crumbs_ld,
+                     SITE_URL=SITE_URL, BASE=BASE, DIST=DIST, DATA=DATA, common=common)
     _st = health.get("scraped_at") or ""
     _hh, _mm = (int(_st[11:13]), _st[14:16]) if len(_st) >= 16 else (0, "00")
     _part = "রাত" if _hh < 4 else "ভোর" if _hh < 6 else "সকাল" if _hh < 12 else "দুপুর" if _hh < 15 else "বিকাল" if _hh < 18 else "সন্ধ্যা" if _hh < 20 else "রাত"
-    upd_time = f"{_part} {bn_num((_hh - 1) % 12 + 1)}:{_mm.translate(BN_DIGITS)}"
+    upd_time = bn_date(today)  # শুধু তারিখ, সময় গোপন
     n_prices = sum((health["stores"].get(s_) or {}).get("items", 0) for s_ in enabled)
     tab_of = lambda it_: market.TAB_OF_GROUP.get(it_["group"], "other")
     mv = None
@@ -1745,12 +1750,12 @@ def main():
     summ = market.summary_text(M, leaves, len(enabled), n_prices).translate(BN_DIGITS)
     home_ctx = dict(M=M, mv=mv, tabs=market.TABS, idx_svg=idx_svg, heat=heat, sn_rows=sn_rows, ticker=ticker, nstat=nstat,
                     new_list=new_list, logo_brands=logo_brands, summ=summ, upd_time=upd_time, n_prices=n_prices,
-                    scraped_at=_st, today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
+                    scraped_at="", today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
     _sv = sorted(i["saving"] for i in listed_items.values() if i["saving"] > 0 and not i["sus"])
     save_stat = {"n": len(_sv), "med": _sv[len(_sv) // 2] if _sv else 0, "k1": sum(1 for x in _sv if x >= 1000)}
     _pop = json.loads((ROOT / "config/budget_pages.json").read_text()).get("popular", []) if (ROOT / "config/budget_pages.json").exists() else []
     budget_popular = [(c_, a_, f"{c_}-under-{a_}", leaves[c_]) for c_, a_ in _pop if (a_, f"{c_}-under-{a_}") in budget_links.get(c_, [])][:8]
-    write("", "home.html", save_stat=save_stat, budget_popular=budget_popular, pc_builds=pc_builds, groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
+    write("", "home.html", bz_daily=BZ["daily"], save_stat=save_stat, budget_popular=budget_popular, pc_builds=pc_builds, groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["live_count"] > 1),
@@ -1912,7 +1917,15 @@ def main():
         (DIST / fn).write_text(head + "".join(f"<url><loc>{u}</loc><lastmod>{lastmod.get(u, today)}</lastmod></url>\n" for u in lst) + "</urlset>\n")
     (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + "".join(f"<sitemap><loc>{SITE_URL}/{fn}</loc><lastmod>{today}</lastmod></sitemap>\n" for fn, _ in parts)
+                                      + f"<sitemap><loc>{SITE_URL}/sitemap-news.xml</loc><lastmod>{today}</lastmod></sitemap>\n"
                                       + "</sitemapindex>\n")
+    # Google News সাইটম্যাপ: শেষ ২ দিনের বাজার আপডেট
+    from html import escape as _esc
+    (DIST / "sitemap-news.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
+        + "".join(f"<url><loc>{u}</loc><news:news><news:publication><news:name>দামতুলনা</news:name><news:language>bn</news:language></news:publication>"
+                  f"<news:publication_date>{d}T06:00:00+06:00</news:publication_date><news:title>{_esc(t)}</news:title></news:news></url>\n"
+                  for u, d, t in BZ["news"]) + "</urlset>\n")
     # আজকের দাম কমা (Telegram পোস্টের জন্য, tools/telegram_post.py)
     (DIST / "drops.json").write_text(json.dumps([
         {"name": d_["name"], "old": d_["old"], "new": d_["best"]["price"], "store": stores[d_["best"]["store"]]["name"],

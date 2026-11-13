@@ -31,7 +31,7 @@
 
   <section class="mkt">
     <div class="card mk-main">
-      <div class="mk-top"><span class="mk-lab">ইলেকট্রনিক্স বাজার আজ</span><span class="lv" title="প্রতিদিন নতুন দাম এলেই আপডেট হয়"><i></i>লাইভ <small data-since="{{ scraped_at }}">· {{ upd_time }}</small></span></div>
+      <div class="mk-top"><span class="mk-lab">ইলেকট্রনিক্স বাজার আজ</span><span class="lv" title="প্রতিদিন নতুন দাম এলেই আপডেট হয়"><i></i>লাইভ <small>· {{ upd_time }}</small></span></div>
       {% if M.ready %}
       <div class="mk-idx"><span class="mk-name">দামতুলনা সূচক <details class="ixi"><summary aria-label="সূচক কী?">i</summary><span class="ixp"><b>সূচক কী?</b> {{ M.first[8:]|int|bn }} তারিখের বাজারের দাম ধরা হয়েছে ১০০। আজ {{ pct(M.index) }} মানে, একই প্রোডাক্টগুলো গড়ে তখনকার চেয়ে {{ pct((100 - M.index)|abs|round(1)) }}% {{ "সস্তা" if M.index <= 100 else "দামি" }}। ১০০-এর নিচে = ক্রেতার জন্য ভালো সময়। হিসাবে শুধু সেই প্রোডাক্ট ধরা হয় যা আগের দিন ও আজ দুই দিনই স্টকে ছিল, আর একই দোকানের নিজের দাম বদল।</span></details></span>
         <b class="mk-val">{{ pct(M.index) }}</b>
@@ -52,6 +52,8 @@
   </section>
 
   <section class="card rv" id="recent" hidden><h2>আপনি শেষবার যা দেখেছিলেন</h2><p class="rvsub">তখন থেকে দাম কত বদলাল। লগইন লাগে না, শুধু এই ফোন/ব্রাউজারে মনে থাকে। <button type="button" class="rvclr" id="rvclr">মুছুন</button></p><div class="rvl" id="rvl"></div></section>
+
+  {% if bz_daily %}<a class="card bzhome" href="{{ base }}/bazar/aj/"><span class="bkick" style="flex-basis:100%">আজকের বাজার রিপোর্ট · {{ bz_daily.date | bn_date }}</span><b>{{ bz_daily.title }}</b><span class="bgo">ইনফোগ্রাফিকসহ পড়ুন ›</span></a>{% endif %}
 
   {% if mv %}
   <section class="mvwrap">
