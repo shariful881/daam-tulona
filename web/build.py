@@ -1037,9 +1037,18 @@ def main():
     (DIST / "static").mkdir(parents=True)
     for f in ("style.css", "home.js", "compare.js", "go.js", "admin.css", "admin.js", "gallery.js", "cat-icons.svg", "share.jpg", "filters.js", "search.js", "livesearch.js", "alert.js", "pcbuilder.js"):
         shutil.copy(ROOT / "web/static" / f, DIST / "static" / f)
-    for d in ("logos", "sponsors", "brands"):
+    for d in ("logos", "sponsors", "brands", "icons"):
         if (ROOT / "web/static" / d).exists():
             shutil.copytree(ROOT / "web/static" / d, DIST / "static" / d)
+    # ফেভিকন: ব্রাউজার আর সার্চ ইঞ্জিন সাইটের গোড়ায় /favicon.ico খোঁজে; ফোনে "হোম স্ক্রিনে যোগ" করার জন্য manifest
+    shutil.copy(ROOT / "web/static/icons/favicon.ico", DIST / "favicon.ico")
+    (DIST / "site.webmanifest").write_text(json.dumps({
+        "name": "দামতুলনা", "short_name": "দামতুলনা", "lang": "bn", "start_url": f"{BASE}/", "scope": f"{BASE}/", "display": "standalone",
+        "background_color": "#eef2f1", "theme_color": "#12302c",
+        "icons": [{"src": f"{BASE}/static/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": f"{BASE}/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                  {"src": f"{BASE}/static/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]},
+        ensure_ascii=False))
     urls = []
     for old, keep in amap.items():  # মিলে যাওয়া পুরনো প্রোডাক্টের লিংক যেন ভেঙে না যায়
         (DIST / f"p/{old}").mkdir(parents=True, exist_ok=True)
