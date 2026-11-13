@@ -85,24 +85,6 @@
    "errors": [],
    "seconds": 137,
    "failed_cats": []
-  },
-  "pickaboo": {
-   "enabled": false,
-   "items": 0,
-   "errors": [
-    "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।"
-   ],
-   "seconds": 0,
-   "failed_cats": []
-  },
-  "gadgetandgear": {
-   "enabled": false,
-   "items": 0,
-   "errors": [
-    "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।"
-   ],
-   "seconds": 0,
-   "failed_cats": []
   }
  }
 }
