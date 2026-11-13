@@ -89,6 +89,55 @@ def load(path: Path, default):
     return json.loads(path.read_text()) if path.exists() else default
 
 
+class MatchOnly:
+    """শুধু-মিল দোকান (stores.json-এ "match_only": true): এদের প্রোডাক্ট আমাদের তালিকার কোনো প্রোডাক্টের সাথে
+    নিশ্চিতভাবে মিললে সেই প্রোডাক্টে দাম যোগ হয়; না মিললে বাদ (নতুন প্রোডাক্ট তৈরি হয় না)।
+    মিল: (১) হুবহু অর্থবহ শব্দের সেট, নয়তো (২) একই ব্র্যান্ড + একই মডেল কোড + ক্যাপাসিটি/রং/সংখ্যায় অমিল নেই;
+    ল্যাপটপ/ফোনের মতো ক্যাটাগরিতে সব মডেল কোড আর ক্যাপাসিটি হুবহু। দুটো ভিন্ন প্রোডাক্ট সমান মিললে বাদ।"""
+
+    def __init__(self, products, live_ids):
+        from web import automatch as A
+        self.A, self.products = A, products
+        self.by_sig, self.by_model = defaultdict(set), defaultdict(set)
+        for pid in live_ids:
+            p = products.get(pid)
+            if not p:
+                continue
+            self.by_sig[A.signature(p["name"])].add(pid)
+            for m in A.models(p["name"], p.get("brand")):
+                self.by_model[m].add(pid)
+
+    def find(self, name, brand):
+        A = self.A
+        hit = self.by_sig.get(A.signature(name)) or set()
+        if len(hit) == 1:
+            return next(iter(hit))
+        ms = A.models(name, brand)
+        cands = set()
+        for m in ms:
+            if len(self.by_model.get(m, ())) <= 12:  # অনেক প্রোডাক্টে থাকা কোড আসলে সিরিজের নাম
+                cands |= self.by_model.get(m, set())
+        best, best_sc, tie = None, 0, False
+        for pid in cands:
+            p = self.products[pid]
+            pn = p["name"]
+            if not A.same_brand(p.get("brand"), brand) or not A.compatible(name, pn):
+                continue
+            ca, cb = A.colors(name), A.colors(pn)
+            if ca and cb and not (ca & cb):
+                continue
+            if p["category"] in A.STRICT_CATS:
+                ua, ub = A.units(name), A.units(pn)
+                if A.models(pn, p.get("brand")) != ms or {k: v for k, v in ua.items() if k in A.STRICT} != {k: v for k, v in ub.items() if k in A.STRICT}:
+                    continue
+            sc = A._score(name, pn)
+            if sc > best_sc + 1e-9:
+                best, best_sc, tie = pid, sc, False
+            elif abs(sc - best_sc) < 1e-9:
+                tie = True
+        return None if tie or best_sc < 0.3 else best
+
+
 def main():
     raw = load(DATA / "raw/latest.json", None)
     if not raw:
@@ -122,8 +171,29 @@ def main():
         o["_key"] = o["category"] + "|" + " ".join(sorted(set(tokens(o["name"]))))
         seen[(o["store"], o["_key"])] += 1
 
+    stores_conf = load(ROOT / "config/stores.json", {}).get("stores", {})
+    match_only = {k for k, v in stores_conf.items() if v.get("match_only")}
+    mo = MatchOnly(products, [pid for pid, st in old_offers.items() if set(st) - match_only]) if match_only else None
+    mo_stats = defaultdict(lambda: [0, 0])  # দোকান: [মোট, মিলেছে]
+
     offers: dict[str, dict] = defaultdict(dict)
     for o in raw["offers"]:
+        if o["store"] in match_only:  # শুধু-মিল দোকান: নতুন প্রোডাক্ট নয়
+            mo_stats[o["store"]][0] += 1
+            pid = url_to_id.get(o["url"])
+            if pid and pid in old_offers and not (set(old_offers[pid]) - match_only):
+                pid = None  # আগে ভুল করে শুধু এই দোকানেই থাকা প্রোডাক্ট
+            pid = pid or mo.find(o["name"], o.get("brand") or o["name"].split()[0])
+            if not pid:
+                continue
+            pid = redirect.get(pid, pid)
+            if pid in ignored:
+                continue
+            mo_stats[o["store"]][1] += 1
+            cur = offers[pid].get(o["store"])
+            if cur is None or (o["price"] or 10**9) < (cur["price"] or 10**9):
+                offers[pid][o["store"]] = {k: o[k] for k in ("name", "url", "price", "regular", "in_stock", "status")} | {"seen": today}
+            continue
         key = o["_key"]
         if seen[(o["store"], key)] > 1:
             key += "#" + o["store"] + ":" + o["url"].rstrip("/").rsplit("/", 1)[-1]
@@ -232,6 +302,10 @@ def main():
             sstate[pid] = [today, min(live)]
     sstate = {k: v for k, v in sstate.items() if k in offers}
     _sp.write_text(json.dumps(sstate, separators=(",", ":"), sort_keys=True))
+    for st, (n_all, n_hit) in mo_stats.items():  # শুধু-মিল দোকান: কতগুলো তোলা হলো, কতগুলো মিলল
+        if st in raw["health"]:
+            raw["health"][st]["matched"] = n_hit
+            raw["health"][st]["scraped"] = n_all
     (DATA / "health.json").write_text(json.dumps({"date": today, "scraped_at": raw["scraped_at"], "stores": raw["health"]}, ensure_ascii=False, indent=1))
     multi = sum(1 for s in offers.values() if len([o for o in s.values() if o.get("price")]) > 1)
     print(f"প্রোডাক্ট: {len(offers)} | একাধিক স্টোরে দাম আছে: {multi} | আজ নতুন: {sum(1 for p in products.values() if p['created'] == today)} | সম্ভাব্য মিল: {len(sugg)}")

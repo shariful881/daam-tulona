@@ -51,6 +51,31 @@ def main() -> int:
             return
         module = importlib.import_module(f"scraper.stores.{store_id}")
         t0 = time.time()
+        if store.get("match_pages"):  # শুধু-মিল দোকান: বড় ক্যাটাগরি পাতাগুলো, ক্যাটাগরি "_any" (matcher মিলিয়ে বসায়)
+            for url in store["match_pages"]:
+                if time.time() - t0 > STORE_MINUTES * 60:
+                    health["errors"].append(f"সময় শেষ ({STORE_MINUTES} মিনিট)")
+                    break
+                try:
+                    items = module.scrape(url, store.get("max_pages", 30), store["delay"])
+                except Blocked as e:
+                    items = getattr(e, "partial", None) or []
+                    health["errors"].append(f"{url}: স্টোর ব্লক করেছে ({e}); আজ বাকি পাতা বাদ")
+                    for it in items:
+                        it["store"], it["category"] = store_id, "_any"
+                    sink.extend(items)
+                    health["items"] += len(items)
+                    break
+                except Exception as e:
+                    items = getattr(e, "partial", None) or []
+                    health["errors"].append(f"{url}: {type(e).__name__}: {e}")
+                for it in items:
+                    it["store"], it["category"] = store_id, "_any"
+                sink.extend(items)
+                health["items"] += len(items)
+                print(f"{store_id:10} {url.rsplit('/', 1)[-1][:24]:24} {len(items):4} টি", flush=True)
+            health["seconds"] = round(time.time() - t0)
+            return
         mine = [c["slug"] for c in cats if c["stores"].get(store_id)]
         for cat in cats:
             conf = cat["stores"].get(store_id)

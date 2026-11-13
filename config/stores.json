@@ -93,23 +93,132 @@
       "delay": 5,
       "trusted": true
     },
-    "pickaboo": {
-      "name": "Pickaboo",
-      "short": "PB",
-      "home": "https://www.pickaboo.com",
-      "enabled": false,
+    "computervision": {
+      "name": "Computer Vision",
+      "short": "CV",
+      "home": "https://computervision.com.bd",
+      "enabled": true,
       "delay": 5,
-      "disabled_reason": "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।",
-      "manual": true
+      "match_only": true,
+      "max_pages": 60,
+      "match_pages": [
+        "https://computervision.com.bd/desktop",
+        "https://computervision.com.bd/laptop",
+        "https://computervision.com.bd/component-1395",
+        "https://computervision.com.bd/monitor",
+        "https://computervision.com.bd/printers-price-in-bangladesh",
+        "https://computervision.com.bd/accessories",
+        "https://computervision.com.bd/gaming-accessories",
+        "https://computervision.com.bd/networking",
+        "https://computervision.com.bd/office-solution",
+        "https://computervision.com.bd/security-systems",
+        "https://computervision.com.bd/tablets-mobiles",
+        "https://computervision.com.bd/gadgets",
+        "https://computervision.com.bd/home-appliances",
+        "https://computervision.com.bd/television-best-price-in-bangladesh"
+      ]
     },
-    "gadgetandgear": {
-      "name": "Gadget & Gear",
-      "short": "GG",
-      "home": "https://gadgetandgear.com",
-      "enabled": false,
+    "eerna": {
+      "name": "Eerna",
+      "short": "ER",
+      "home": "https://eerna.com.bd",
+      "enabled": true,
       "delay": 5,
-      "disabled_reason": "স্বয়ংক্রিয় ভিজিট আটকায়। দাম অ্যাডমিন থেকে হাতে বসানো হয়।",
-      "manual": true
+      "match_only": true,
+      "max_pages": 60,
+      "match_pages": [
+        "https://eerna.com.bd/desktop",
+        "https://eerna.com.bd/laptop",
+        "https://eerna.com.bd/pc-components",
+        "https://eerna.com.bd/monitor",
+        "https://eerna.com.bd/mobile-phone",
+        "https://eerna.com.bd/tablets",
+        "https://eerna.com.bd/office-solution",
+        "https://eerna.com.bd/camera",
+        "https://eerna.com.bd/security-systems",
+        "https://eerna.com.bd/networking",
+        "https://eerna.com.bd/gadgets",
+        "https://eerna.com.bd/tv",
+        "https://eerna.com.bd/appliance",
+        "https://eerna.com.bd/software",
+        "https://eerna.com.bd/server",
+        "https://eerna.com.bd/accessories",
+        "https://eerna.com.bd/gaming-accessories"
+      ]
+    },
+    "pqs": {
+      "name": "PQS",
+      "short": "PQ",
+      "home": "https://www.pqs.com.bd",
+      "enabled": true,
+      "delay": 5,
+      "match_only": true,
+      "max_pages": 60,
+      "match_pages": [
+        "https://www.pqs.com.bd/laptop",
+        "https://www.pqs.com.bd/desktop-computer",
+        "https://www.pqs.com.bd/pc-component",
+        "https://www.pqs.com.bd/power-station",
+        "https://www.pqs.com.bd/tablet",
+        "https://www.pqs.com.bd/monitor",
+        "https://www.pqs.com.bd/accessories",
+        "https://www.pqs.com.bd/mobile-phone",
+        "https://www.pqs.com.bd/gaming-accessories",
+        "https://www.pqs.com.bd/gadget",
+        "https://www.pqs.com.bd/camera",
+        "https://www.pqs.com.bd/networking",
+        "https://www.pqs.com.bd/office-equipment",
+        "https://www.pqs.com.bd/software",
+        "https://www.pqs.com.bd/security-system",
+        "https://www.pqs.com.bd/tv",
+        "https://www.pqs.com.bd/server",
+        "https://www.pqs.com.bd/air-conditioner"
+      ]
+    },
+    "bme": {
+      "name": "BME",
+      "short": "BM",
+      "home": "https://bme.com.bd",
+      "enabled": true,
+      "delay": 5,
+      "match_only": true,
+      "max_pages": 60,
+      "match_pages": [
+        "https://bme.com.bd/printing-devices",
+        "https://bme.com.bd/computing-devices",
+        "https://bme.com.bd/smart-display-systems",
+        "https://bme.com.bd/security-equipments",
+        "https://bme.com.bd/communication-equipment",
+        "https://bme.com.bd/office-equipment-s",
+        "https://bme.com.bd/daily-essential-gadgets",
+        "https://bme.com.bd/pc-hardware",
+        "https://bme.com.bd/software",
+        "https://bme.com.bd/electrical-equipment"
+      ]
+    },
+    "selltech": {
+      "name": "Selltech",
+      "short": "SL",
+      "home": "https://www.selltech.com.bd",
+      "enabled": true,
+      "delay": 5,
+      "match_only": true,
+      "max_pages": 60,
+      "match_pages": [
+        "https://www.selltech.com.bd/DESKTOP-PC",
+        "https://www.selltech.com.bd/Laptop",
+        "https://www.selltech.com.bd/Computer-Parts",
+        "https://www.selltech.com.bd/Monitor",
+        "https://www.selltech.com.bd/Networking-Items-Price-BD",
+        "https://www.selltech.com.bd/UPS",
+        "https://www.selltech.com.bd/Accessories",
+        "https://www.selltech.com.bd/Security-Surveillance",
+        "https://www.selltech.com.bd/office-items",
+        "https://www.selltech.com.bd/Gadget",
+        "https://www.selltech.com.bd/Gaming",
+        "https://www.selltech.com.bd/SOFTWARE",
+        "https://www.selltech.com.bd/television-Selltech"
+      ]
     }
   }
 }
