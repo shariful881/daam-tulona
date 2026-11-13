@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Tech Specs": {
+   "Memory Size": "64GB (2 x 32GB)",
+   "Tested Latency": "40",
+   "Tested Speed": "5200 MT/s",
+   "Tested Voltage": "1.25V",
+   "SPD Voltage": "1.1V",
+   "Speed Rating": "PC5-41600 (DDR5-5200)",
+   "SPD Speed": "4000MHz",
+   "SPD Latency": "32",
+   "Performance Profile": "Intel XMP",
+   "Package Memory Format": "UDIMM",
+   "Package Memory Pin": "288",
+   "Weight": "0kg",
+   "Heat Spreader": "Aluminum",
+   "Fan Included": "No",
+   "Memory Color": "BLACK",
+   "Memory Compatibility": "Intel 600 Series,Intel 700 Series,Intel 800 Series",
+   "Memory Detail Compatibility": "Intel 600 Series, Intel 700 Series, Intel 800 Series",
+   "Memory Type": "DDR5",
+   "PMIC Type": "Overclock PMIC"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-13T21:38+06:00",
+ "source": "https://www.corsair.com/us/en/p/memory/cmh64gx5m2b5200c40/vengeance-rgb-64gb-2x32gb-ddr5-dram-5200mhz-c40-memory-kit-black",
+ "brand_site": "Corsair"
+}

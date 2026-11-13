@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Tech Specs": {
+   "Memory Size": "32GB (1 x 32GB)",
+   "Tested Latency": "40",
+   "Tested Speed": "5600 MT/s",
+   "Tested Voltage": "1.25V",
+   "SPD Voltage": "1.1V",
+   "Speed Rating": "PC5-44800 (DDR5-5600)",
+   "SPD Speed": "4000MHz",
+   "SPD Latency": "32",
+   "Performance Profile": "Intel XMP",
+   "Package Memory Format": "UDIMM",
+   "Package Memory Pin": "288",
+   "Weight": "0kg",
+   "Heat Spreader": "Aluminum",
+   "Fan Included": "No",
+   "Memory Color": "BLACK",
+   "Memory Compatibility": "Intel 600 Series,Intel 700 Series,Intel 800 Series",
+   "Memory Detail Compatibility": "Intel 600 Series, Intel 700 Series, Intel 800 Series",
+   "Memory Type": "DDR5",
+   "PMIC Type": "Overclock PMIC"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-13T21:37+06:00",
+ "source": "https://www.corsair.com/us/en/p/memory/cmk32gx5m1b5600c40/vengeance-32gb-1x32gb-ddr5-dram-5600mhz-c40-memory-kit-black-cmk32gx5m1b5600c40",
+ "brand_site": "Corsair"
+}
