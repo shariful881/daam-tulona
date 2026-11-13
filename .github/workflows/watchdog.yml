@@ -1,0 +1,29 @@
+name: daily-watchdog
+# প্রতি ঘণ্টায় দেখে: আজ রাত ২টার (BD) দামের রান শুরু হয়েছে কিনা। না হলে নিজে চালু করে।
+on:
+  schedule:
+    - cron: "40 20-23,0-5 * * *"   # BD রাত ২:৪০ থেকে সকাল ১১:৪০ পর্যন্ত প্রতি ঘণ্টায়
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          R: ${{ github.repository }}
+        run: |
+          h=$(date -u +%H)
+          if [ "$h" -ge 20 ]; then a=$(date -u +%Y-%m-%dT20:00:00Z); else a=$(date -u -d yesterday +%Y-%m-%dT20:00:00Z); fi
+          echo "আজকের রানের সময় শুরু: $a (UTC)"
+          runs=$(gh api "repos/$R/actions/workflows/daily.yml/runs?created=>=$a&per_page=30" --jq '.workflow_runs[] | "\(.status) \(.conclusion) \(.event)"')
+          echo "$runs"
+          if echo "$runs" | grep -qE '^(queued|in_progress|waiting|pending|requested) '; then echo "রান চলছে/অপেক্ষায় — কিছু করার নেই"; exit 0; fi
+          if echo "$runs" | grep -qE '^completed success '; then echo "আজকের রান সফল — ঠিক আছে"; exit 0; fi
+          tries=$(echo "$runs" | grep -c 'workflow_dispatch' || true)
+          if [ "${tries:-0}" -ge 3 ]; then echo "আজ ৩ বার চেষ্টা হয়েছে, আর না"; exit 1; fi
+          echo "রান শুরু হয়নি/ব্যর্থ — আবার চালু করছি"
+          gh workflow run daily.yml --repo "$R" --ref main

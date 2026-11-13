@@ -1,7 +1,7 @@
 name: daily-prices
 on:
   schedule:
-    - cron: "0 22 * * *"   # প্রতিদিন বাংলাদেশ সময় ভোর ৪:০০ (UTC রাত ১০টা); পুরো রান প্রায় ২.৫-৩ ঘণ্টা
+    - cron: "0 20 * * *"   # প্রতিদিন বাংলাদেশ সময় রাত ২:০০ (UTC রাত ৮টা); না চললে watchdog.yml প্রতি ঘণ্টায় আবার চালু করে
   workflow_dispatch:
     inputs:
       stores:
@@ -10,6 +10,7 @@ on:
         default: ""
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -19,7 +20,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # GitHub দেরিতে schedule চালালে আর watchdog আগেই আজকের রান সফল করে থাকলে, দেরির রানটা বাদ
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.c.outputs.go }}
+    steps:
+      - id: c
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EV: ${{ github.event_name }}
+        run: |
+          go=1
+          if [ "$EV" = "schedule" ]; then
+            h=$(date -u +%H)
+            if [ "$h" -ge 20 ]; then a=$(date -u +%Y-%m-%dT20:00:00Z); else a=$(date -u -d yesterday +%Y-%m-%dT20:00:00Z); fi
+            n=$(gh api "repos/${{ github.repository }}/actions/workflows/daily.yml/runs?created=>=$a&status=success&per_page=5" --jq '.total_count')
+            [ "${n:-0}" -gt 0 ] && go=0 && echo "আজকের রান আগেই সফল হয়েছে, এটা বাদ"
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
   run:
+    needs: gate
+    if: needs.gate.outputs.go == '1'
     runs-on: ubuntu-latest
     timeout-minutes: 330
     environment:
