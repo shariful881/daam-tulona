@@ -1,0 +1,218 @@
+{
+ "https://www.pqs.com.bd/laptop": {
+  "n": 96,
+  "priced": 77,
+  "matched": 52,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "Apacer 16GB DDR4L 3200MHz Laptop RAM #ES.16G21.GSH / AS16GGB32CSYBGH",
+   "Asus ExpertBook B1 B1403CVA Core 5 120U 8GB RAM 512GB SSD 14 Inch FHD Laptop",
+   "Asus ExpertBook B1 B1403CVA Core 7 150U 16GB RAM 512GB SSD 14 Inch IPS FHD Laptop"
+  ]
+ },
+ "https://www.pqs.com.bd/desktop-computer": {
+  "n": 96,
+  "priced": 68,
+  "matched": 60,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Acer Veriton MT M4715G Core i5 14th Gen 8GB RAM 512GB SSD Mini Tower Brand PC",
+   "ASUS ExpertCenter AiO P440VA-BPC2730 Intel Core 7 240H 16GB RAM 512GB SSD 23.8 Inch All-in-one PC",
+   "ASUS ExpertCenter AIO PM640KA-BPC1150 AMD Ryzen AI 5 330 16GB RAM 512GB SSD 23.8 inch All in One PC"
+  ]
+ },
+ "https://www.pqs.com.bd/pc-component": {
+  "n": 96,
+  "priced": 89,
+  "matched": 58,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "1st Player ACK Bronze 850W 80 Plus Bronze Power Supply",
+   "1ST PLAYER PS-300FK Non Modular POWER SUPPLY",
+   "1ST PLAYER PS-800AX 800W 80 PLUS Bronze Non-Modular Power Supply"
+  ]
+ },
+ "https://www.pqs.com.bd/power-station": {
+  "n": 96,
+  "priced": 81,
+  "matched": 79,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "MARSRIVA ET3 8400mAh Smart Mini DC UPS for Router",
+   "WGP 8800mah Mini UPS for Wifi Router",
+   "WGP 10400Mah Mini UPS Wifi Router With 12V 3A Adapter"
+  ]
+ },
+ "https://www.pqs.com.bd/tablet": {
+  "n": 55,
+  "priced": 35,
+  "matched": 23,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "WiWU Pencil Max Universal Stylus Pen",
+   "Huion Inspiroy H430P Graphics Tablet",
+   "XP-Pen Star-G430S Ultra-Thin Digital Drawing Tablet"
+  ]
+ },
+ "https://www.pqs.com.bd/monitor": {
+  "n": 96,
+  "priced": 69,
+  "matched": 76,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "ASUS ROG Swift 360Hz PG259QN 24.5” 1ms G-Sync FHD Gaming Monitor",
+   "Kaloc KLC-DS200 17-32 Inch Adjustable Single Monitor Arm",
+   "Viewsonic XG2703-GS 27\" 165Hz G-SYNC IPS Gaming Monitor"
+  ]
+ },
+ "https://www.pqs.com.bd/accessories": {
+  "n": 96,
+  "priced": 92,
+  "matched": 47,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "1st Player NEO87 Tri Mode RGB Hot Swap (Cranberry Switch) Rome (White) Mechanical Gaming Keyboard",
+   "1STPLAYER KT2 4 in 1 Gaming Combo",
+   "1STPLAYER NEO87 Lavender Switch RGB Mechanical Gaming Keyboard"
+  ]
+ },
+ "https://www.pqs.com.bd/mobile-phone": {
+  "n": 96,
+  "priced": 2,
+  "matched": 10,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Fantech Gletser Max PCM-10 3000 – 4500 RPM Phone Cooler",
+   "Fantech Gletser PC-10 3000-4500 RPM Phone Cooler",
+   "Walton Olvio E100"
+  ]
+ },
+ "https://www.pqs.com.bd/gaming-accessories": {
+  "n": 96,
+  "priced": 94,
+  "matched": 72,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "ASUS RA05 TUF GAMING K3 RGB Wired (Blue Switch) Gunmetal Grey Mechanical Gaming Keyboard",
+   "ASUS RA05 TUF GAMING K3 RGB Wired (Brown Switch) Gunmetal Grey Mechanical Gaming Keyboard",
+   "ASUS ROG Azoth Extreme M702 RGB Tri Mode Hot Swap (Snow Switch) Black Mechanical Gaming Keyboard"
+  ]
+ },
+ "https://www.pqs.com.bd/gadget": {
+  "n": 96,
+  "priced": 90,
+  "matched": 66,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Blisbond Pulse Bluetooth Calling Smartwatch - Black",
+   "Blisbond R60Q 20000mAh Power Bank with Lightning & Type-C cable",
+   "Foneng EU51 25W GaN USB-C Wall Charger With Type-C Cable"
+  ]
+ },
+ "https://www.pqs.com.bd/camera": {
+  "n": 96,
+  "priced": 55,
+  "matched": 63,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Blisbond GO3 4K 30fps Thumb Camera",
+   "CORSAIR Elgato Facecam Neo 1080p White Webcam #10WAE9901",
+   "Fantech Luminous C50 Webcam"
+  ]
+ },
+ "https://www.pqs.com.bd/networking": {
+  "n": 96,
+  "priced": 94,
+  "matched": 71,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "MERCUSYS MA14N AX300 Mbps Single Band Wi-Fi 6 Nano USB Adapter",
+   "Ugreen AK502 (75246) Black HDMI KVM Switch with Quad USB & Dual USB-C Port (2 In 1 Out, 4K)",
+   "UGREEN NW144 (80180) Single Port Face Plate #80180"
+  ]
+ },
+ "https://www.pqs.com.bd/office-equipment": {
+  "n": 96,
+  "priced": 85,
+  "matched": 72,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Apollo 70”x70” Wall Projection Screen",
+   "Best Quality A3-330C Laminator Machine",
+   "Blisbond Mirror 4K Gimbal Android Projector"
+  ]
+ },
+ "https://www.pqs.com.bd/software": {
+  "n": 23,
+  "priced": 13,
+  "matched": 12,
+  "err": null,
+  "sec": 5,
+  "sample": [
+   "ESET Home Security Essential Internet Security for 1 User 1 Year",
+   "ESET Internet Security 1 User 1 Year Antivirus",
+   "ESET Internet Security 1 User 3 Years Antivirus"
+  ]
+ },
+ "https://www.pqs.com.bd/security-system": {
+  "n": 96,
+  "priced": 79,
+  "matched": 71,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Dahua DH-IPC-H5AS 5MP 2.8mm Indoor Fixed-Focal Smart Dual Light Wi-Fi Dome IP Camera",
+   "HAVIT IPC20 SMART 360° 1080P NIGHT VISION WI-FI IP CAMERA",
+   "High Quality RJ-6 PER MITER"
+  ]
+ },
+ "https://www.pqs.com.bd/tv": {
+  "n": 94,
+  "priced": 53,
+  "matched": 51,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Haier 43P7 PRO 43 Inch HQLED 4K Smart Google TV",
+   "Haier 50P7 Pro 50 Inch 4K UHD HQLED Google TV (Official) (Wallmount Inside Box)",
+   "Haier 55P7 PRO 55 Inch 4K UHD Gemini with Google TV"
+  ]
+ },
+ "https://www.pqs.com.bd/server": {
+  "n": 96,
+  "priced": 18,
+  "matched": 89,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "ORICO 9728C3 Dual-Bay 44TB Desktop DAS Storage",
+   "ORICO-9958C3 5Big RAID DAS Studio",
+   "ORICO 2.5 inch HDD/SSD & M.2 SATA/mSATA Dock #ORICO-8848RC3-UK-SV-BP"
+  ]
+ },
+ "https://www.pqs.com.bd/air-conditioner": {
+  "n": 96,
+  "priced": 31,
+  "matched": 58,
+  "err": null,
+  "sec": 11,
+  "sample": [
+   "Xiaomi Viomi A2 1 Ton Non-Inverter AC",
+   "Smart 1 Ton Non-Inverter AC",
+   "Midea 1 Ton Inverter AC"
+  ]
+ }
+}
