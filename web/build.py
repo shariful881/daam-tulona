@@ -1590,8 +1590,9 @@ def main():
                       total=len(lst), hidden_n=hidden_n, page=n, pages=pages, brands=brands, store_count=len(enabled),
                       fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
                       title=(tpl(SEO["title_category"], **_cv) or f"{leaf['name_bn']} দাম বাংলাদেশে | {leaf['name_en']} Price in BD") + (f" (পাতা {bn_num(n)})" if n > 1 else ""),
-                      description=(tpl(SEO["desc_category"], **_cv) if SEO.get("desc_category") and _pr else "") or cat_answer
-                                  or f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।",
+                      description=((tpl(SEO["desc_category"], **_cv) if SEO.get("desc_category") and _pr else "") or cat_answer
+                                  or f"{len(lst)}টি {leaf['name_bn']} এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।")
+                                 + (f" পাতা {bn_num(n)}/{bn_num(pages)}।" if n > 1 else ""),
                       canonical=f"{SITE_URL}/c/{leaf['slug']}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
             priced = [i["best"]["price"] for i in lst if i["best"]]
             leaf_cards.append({"slug": leaf["slug"], "name_bn": leaf["name_bn"], "count": len(lst),
@@ -1728,7 +1729,7 @@ def main():
                "description": f"বাংলাদেশের কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনার ওয়েবসাইট। প্রতিদিন {len(enabled)}টি দোকানের দাম সংগ্রহ করে এক পাতায় দেখায়।"}]},
               ensure_ascii=False)],
           title="দামতুলনা | কম্পিউটার, মোবাইল ও ইলেকট্রনিক্সের দাম তুলনা বাংলাদেশে",
-          description=f"{len(vals)}টি প্রোডাক্টের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
+          description=f"{len(listed_items)}টি প্রোডাক্টের আজকের দাম {len(enabled)}টি স্টোরে মিলিয়ে দেখুন: " + ", ".join(stores[s]["name"] for s in enabled) + "।",
           canonical=f"{SITE_URL}/" if SITE_URL else None)
     write("compare", "compare.html", title="তুলনা করুন | দামতুলনা", description="প্রোডাক্ট পাশাপাশি তুলনা", noindex=True,
           section_bn=SECTION_BN)
