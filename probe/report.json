@@ -1,0 +1,122 @@
+{
+ "https://bme.com.bd/printing-devices": {
+  "n": 56,
+  "priced": 9,
+  "matched": 7,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "ASTA AS-P1030DN Duplex Laser Printer",
+   "ASTA AS-MFP1030DNW Multifunctional Laser Printer",
+   "ASTHA H3 Handheld Inkjet Printer"
+  ]
+ },
+ "https://bme.com.bd/computing-devices": {
+  "n": 56,
+  "priced": 47,
+  "matched": 0,
+  "err": null,
+  "sec": 16,
+  "sample": [
+   "ASTHA AIO-24 Core i7 All In One Desktop Computer",
+   "ASTHA AIO-24 Core i5 All In One Desktop Computer",
+   "ASTHA AIO-24 Core i3 All In One Desktop Computer"
+  ]
+ },
+ "https://bme.com.bd/smart-display-systems": {
+  "n": 56,
+  "priced": 21,
+  "matched": 11,
+  "err": null,
+  "sec": 16,
+  "sample": [
+   "ASTHA TS55c Multi Interactive Touch Screen",
+   "ASTHA TS65c Multi Interactive Touch Screen",
+   "ASTHA TS75c Multi Interactive Touch Screen"
+  ]
+ },
+ "https://bme.com.bd/security-equipments": {
+  "n": 56,
+  "priced": 47,
+  "matched": 25,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "ASTHA PPR-100B Epassport Reader",
+   "Milesight MS-C8477-PC AI Dual-Sensor 180° Panoramic Network Camera",
+   "Milesight MS-C5376-PE AI 180° Panoramic Network Camera"
+  ]
+ },
+ "https://bme.com.bd/communication-equipment": {
+  "n": 56,
+  "priced": 37,
+  "matched": 19,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "Hanlong HT-223H Fiber Optic Stripper",
+   "ASTHA PSC-8 Portable Sound System",
+   "DSPPA MP1500 350W Classical Power Amplifier"
+  ]
+ },
+ "https://bme.com.bd/office-equipment-s": {
+  "n": 56,
+  "priced": 30,
+  "matched": 10,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "ASTHA A4 Premium 80gsm Printing Paper",
+   "Orion A4 Premium 80gsm Paper",
+   "ASTHA A4 Laminating Pouch Film 100 Sheets Box"
+  ]
+ },
+ "https://bme.com.bd/daily-essential-gadgets": {
+  "n": 56,
+  "priced": 49,
+  "matched": 19,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "ASTHA 16GB Class 10 Micro SD Memory Card",
+   "Zhiyun Smooth 4 3 Axis Smartphone Stabilizer",
+   "SHURE AONIC 215 True Wireless Sound Isolating Earbuds"
+  ]
+ },
+ "https://bme.com.bd/pc-hardware": {
+  "n": 56,
+  "priced": 22,
+  "matched": 13,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "ASTHA P620 23.8\" FHD IPS Display Monitor",
+   "GIGABYTE GA-F2A68HM-DS2 Micro ATX Motherboard",
+   "WD My Passport 256GB Portable SSD Drives"
+  ]
+ },
+ "https://bme.com.bd/software": {
+  "n": 56,
+  "priced": 50,
+  "matched": 10,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "Kaspersky Endpoint Security Cloud Plus Singel User One Year",
+   "Kaspersky Small Office Security Singel Server Ten Workstation",
+   "eScan Total Security Singel User One Year"
+  ]
+ },
+ "https://bme.com.bd/electrical-equipment": {
+  "n": 56,
+  "priced": 43,
+  "matched": 7,
+  "err": null,
+  "sec": 16,
+  "sample": [
+   "ASTHA 1000VA Offline UPS",
+   "ASTHA 850VA 480W Offline Plastic Body UPS",
+   "ASTHA 1KVA Single Phase Online UPS"
+  ]
+ }
+}
