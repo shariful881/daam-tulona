@@ -1060,7 +1060,7 @@
       '<div class="ag2 score">' +
         card("SEO স্কোর", "আজকের বিল্ড থেকে", '<div class="ascore"><svg viewBox="0 0 120 120" width="116" height="116" role="img" aria-label="স্কোর ' + score + '"><circle cx="60" cy="60" r="50" fill="none" stroke="var(--line)" stroke-width="12"/><circle cx="60" cy="60" r="50" fill="none" stroke="' + col + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + (score / 100 * 314) + ' 314" transform="rotate(-90 60 60)"/><text x="60" y="68" text-anchor="middle" font-size="28" font-weight="700" fill="currentColor" font-family="JetBrains Mono,monospace">' + bn(score) + "</text></svg>" +
           '<div class="aparts">' + parts.map(function (x) { return "<div><span>" + x[0] + "</span><b>" + bn(x[1]) + "/" + bn(x[2]) + "</b></div>"; }).join("") + "</div></div>") +
-        '<div class="akpis k3">' + kpi("Google-কে দেখানো পাতা", bn(sx.sitemap_urls), "সাইটম্যাপে", "seo-sitemap") + kpi("লুকানো (noindex)", bn(sx.noindex), "স্টকে নেই, পাতা আছে", "seo-index") +
+        '<div class="akpis k3">' + kpi("Google-কে দেখানো পাতা", bn(sx.sitemap_urls), "সাইটম্যাপে", "seo-sitemap") + kpi("লুকানো (noindex)", bn((sx.noindex || 0) + (sx.held || 0)), bn(sx.held || 0) + "টি এক-দোকানের, " + bn(sx.noindex || 0) + "টি স্টকে নেই", "seo-index") +
           kpi("আজ বদলানো পাতা", bn(sx.changed_today), "IndexNow-এ যায়", "seo-sitemap") + kpi("ডুপ্লিকেট শিরোনাম", bn(sx.dup_pages), bn(sx.dup_titles) + "টি গ্রুপ", "seo-meta") +
           kpi("এক দোকানের প্রোডাক্ট", bn(sx.single_store), "তুলনা নেই, দুর্বল পাতা", "products", "sg") + kpi("স্পেকসহ পাতা", bn(sx.with_specs), "বিস্তারিত তথ্যসহ", "dash") + "</div>" +
       "</div>" +
@@ -1119,7 +1119,8 @@
       card("ইনডেক্সের নিয়ম", "কোন পাতা Google দেখবে",
         '<div class="anote">কোনো দোকানে স্টকে থাকলে বা শীঘ্রই আসছে হলে পাতা Google-এ দেখানো হয়। সব দোকানে শেষ হলে পরের দিন থেকে লুকানো (পাতা থাকে, লিংক ভাঙে না, "স্টকে এলে জানান" কাজ করে)। নিচের দিন পার হলে পাতাটা ক্যাটাগরিতে পাঠানো হয়।</div>' +
         fld("gone_days", "কত দিন কোথাও না থাকলে পাতা সরানো হবে", "", "number", "সর্বনিম্ন ১৪, প্রস্তাবিত ৯০", ' min="14" max="730"') +
-        '<dl class="adl"><div><dt>এখন Google-এ দেখানো প্রোডাক্ট</dt><dd>' + bn(sx.indexable) + "</dd></div><div><dt>লুকানো (স্টকে নেই)</dt><dd>" + bn(sx.noindex) + "</dd></div><div><dt>সরানো (ক্যাটাগরিতে পাঠানো)</dt><dd>" + bn(sx.gone || 0) + "</dd></div></dl>") +
+        fld("index_min_stores", "কমপক্ষে কতটা দোকানে দাম থাকলে প্রোডাক্ট Google-এ দেখাবে", "", "number", "প্রস্তাবিত ২। কম দোকানের পাতা সাইটে থাকে কিন্তু noindex আর সাইটম্যাপের বাইরে; দ্বিতীয় দোকানের দাম এলে নিজে থেকে খুলে যায়।", ' min="1" max="5"') +
+        '<dl class="adl"><div><dt>এখন Google-এ দেখানো প্রোডাক্ট</dt><dd>' + bn(sx.indexable) + "</dd></div><div><dt>লুকানো (" + bn(sx.min_stores || 2) + "টির কম দোকানে দাম)</dt><dd>" + bn(sx.held || 0) + "</dd></div><div><dt>লুকানো (স্টকে নেই)</dt><dd>" + bn(sx.noindex) + "</dd></div><div><dt>সরানো (ক্যাটাগরিতে পাঠানো)</dt><dd>" + bn(sx.gone || 0) + "</dd></div></dl>") +
       card("হাতে নিয়ন্ত্রণ", "নির্দিষ্ট পাতা",
         fld("force_index", "সবসময় Google-এ দেখান (স্টকে না থাকলেও)", "", "textarea", "প্রতি লাইনে একটা প্রোডাক্টের লিংক বা আইডি। যেমন জনপ্রিয় ফোন যা আবার আসবে।", ' rows="4"') +
         fld("force_noindex", "কখনো Google-এ দেখাবেন না", "", "textarea", "প্রতি লাইনে একটা লিংক বা আইডি। পাতা থাকবে, শুধু সার্চে আসবে না।", ' rows="4"')) +
