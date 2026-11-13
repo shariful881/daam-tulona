@@ -1026,6 +1026,19 @@ def main():
     # স্বয়ংক্রিয় মিল (মডেল নম্বর দিয়ে); পুরনো লিংক নতুন পাতায় রিডাইরেক্ট হবে
     amap, auto_sugg = auto_merges(products, offers, mm.get("not_same", []), {k_: g_["slug"] for k_, g_ in group_of.items()},
                                   with_suggestions=True)
+    manual_old = set()
+    # অ্যাডমিনে হাতে মেলানো প্রোডাক্টের পুরনো লিংকও মূল পাতায় রিডাইরেক্ট (না হলে 404); শিকল (A→B→C) হলে সরাসরি শেষ পাতায়
+    for m in mm.get("merge", []):
+        for other in m.get("merge", []):
+            if other != m.get("keep") and other not in offers and other not in amap:
+                amap[other] = m.get("keep")
+                manual_old.add(other)
+    for old in list(amap):
+        seen, tgt = {old}, amap[old]
+        while tgt in amap and tgt not in seen:
+            seen.add(tgt)
+            tgt = amap[tgt]
+        amap[old] = tgt
     for old, keep in amap.items():
         if old in offers and keep in offers:
             for st_, o_ in offers.pop(old).items():
@@ -1783,7 +1796,7 @@ def main():
     admin = {"updated": updated, "health": health, "sugg_total": sugg_total, "stock": dict(stock_counts), "stats": stats, "categories": all_cats, "brands": admin_brands,
              "brand_min": BR.conf.get("min_products", 5),
              "suggestions": sugg_admin,
-             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(amap.items(), key=lambda x: products[x[1]]["name"])
+             "auto_merges": [[o_, products[o_]["name"], k_, products[k_]["name"]] for o_, k_ in sorted(((o, k) for o, k in amap.items() if o not in manual_old), key=lambda x: products[x[1]]["name"])
                              if o_ in products and k_ in products][:1500],
              "price_checks": sorted(({"id": i["id"], "n": i["name"], "c": i["cat_name"],
                                       "o": [[s_, stores[s_]["name"], o_["price"], s_ in i["sus"]]
