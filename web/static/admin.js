@@ -1065,7 +1065,7 @@
           kpi("এক দোকানের প্রোডাক্ট", bn(sx.single_store), "তুলনা নেই, দুর্বল পাতা", "products", "sg") + kpi("স্পেকসহ পাতা", bn(sx.with_specs), "বিস্তারিত তথ্যসহ", "dash") + "</div>" +
       "</div>" +
       card("সমস্যা ও করণীয়", "গুরুত্ব অনুযায়ী", '<div class="seolist">' +
-        srow("warn", "robots.txt Google পড়তে পারছে না", "সাইট github.io-এর ভেতরের ফোল্ডারে; robots.txt থাকতে হয় ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে। ততদিন Search Console-এ sitemap.xml হাতে জমা দিন।", "seo-sitemap") +
+        (/github\.io/.test(SITE) ? srow("warn", "robots.txt Google পড়তে পারছে না", "সাইট github.io-এর ভেতরের ফোল্ডারে; robots.txt থাকতে হয় ডোমেইনের গোড়ায়। নিজের ডোমেইনে গেলে ঠিক হবে।", "seo-sitemap") : srow("ok", "নিজের ডোমেইন: robots.txt আর সাইটম্যাপ কাজ করছে", "Search Console-এ " + SITE.replace(/^https?:\/\//, "") + " যুক্ত করে sitemap.xml জমা দিন।", "seo-sitemap")) +
         (tr.gsc ? "" : srow("warn", "Google Search Console যুক্ত হয়নি", "কতগুলো পাতা আসলে ইনডেক্স হয়েছে, কোন শব্দে মানুষ আসে, তা জানা যাচ্ছে না।", "settings")) +
         (sx.dup_titles ? srow("warn", bn(sx.dup_pages) + "টি পাতার শিরোনাম হুবহু এক", "একই প্রোডাক্ট দুইবার তালিকায় (নামের শেষে -2, -3)। মিলিয়ে দিলে ঠিক হবে।", "seo-meta") : "") +
         (sx.no_brand ? srow("info", bn(sx.no_brand) + "টি প্রোডাক্টে ব্র্যান্ড পাওয়া যায়নি", "জানা থাকলে \"ব্র্যান্ড\" পাতার নিচে হাতে বসান; ব্র্যান্ড না থাকলে \"ব্র্যান্ড নেই\" চিহ্ন দিন।", "brands")

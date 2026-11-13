@@ -59,8 +59,8 @@ jobs:
 
       - name: সাইট বানানো
         env:
-          BASE_URL: ${{ vars.BASE_URL != '' && vars.BASE_URL || format('/{0}', github.event.repository.name) }}
-          SITE_URL: ${{ vars.SITE_URL != '' && vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          BASE_URL: ${{ vars.BASE_URL != '' && vars.BASE_URL || '/' }}
+          SITE_URL: ${{ vars.SITE_URL != '' && vars.SITE_URL || 'https://damtulona.com' }}
         run: |
           if [ "$BASE_URL" = "/" ]; then export BASE_URL=""; fi
           python -m web.build

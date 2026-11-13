@@ -78,15 +78,15 @@
 
   <section class="card shr"><div class="shr-txt"><h2>আজকের বাজার, এক ছবিতে</h2>
     <p>বন্ধুদের সাথে আজকের দামের খবর শেয়ার করুন। কেনার আগে সবাই এক জায়গায় দাম মিলিয়ে নিতে পারবে।</p>
-    <div class="shr-btn"><a class="btn" href="https://www.facebook.com/sharer/sharer.php?u={{ (canonical or 'https://shariful881.github.io/daam-tulona/') | urlencode }}" target="_blank" rel="noopener">ফেসবুকে শেয়ার</a>
-      <a class="btn ghost" href="https://wa.me/?text={{ ('আজকের ইলেকট্রনিক্সের দাম মিলিয়ে দেখুন: ' ~ (canonical or 'https://shariful881.github.io/daam-tulona/')) | urlencode }}" target="_blank" rel="noopener">হোয়াটসঅ্যাপে পাঠান</a></div></div>
+    <div class="shr-btn"><a class="btn" href="https://www.facebook.com/sharer/sharer.php?u={{ (canonical or 'https://damtulona.com/') | urlencode }}" target="_blank" rel="noopener">ফেসবুকে শেয়ার</a>
+      <a class="btn ghost" href="https://wa.me/?text={{ ('আজকের ইলেকট্রনিক্সের দাম মিলিয়ে দেখুন: ' ~ (canonical or 'https://damtulona.com/')) | urlencode }}" target="_blank" rel="noopener">হোয়াটসঅ্যাপে পাঠান</a></div></div>
     <div class="shimg" role="img" aria-label="আজকের বাজারের সারাংশ"><div class="shi-top"><b>দামতুলনা</b><span>{{ today_bn }}</span></div>
       {% if M.ready %}<div class="shi-mid"><small>ইলেকট্রনিক্স বাজার সূচক</small><b>{{ pct(M.index) }}</b><span>{{ "▼" if M.chg < 0 else "▲" if M.chg > 0 else "•" }} {{ pct(M.chg|abs|round(2)) }}%</span></div>
       <div class="shi-br"><span style="flex:{{ M.n_dn or 0 }}"></span><span style="flex:{{ M.n_eq or 1 }}"></span><span style="flex:{{ M.n_up or 0 }}"></span></div>
       {% if mv and mv.dn.all %}<p class="shi-h">আজ সবচেয়ে বেশি কমেছে</p><ol>{% for m in mv.dn.all[:3] %}<li><span>{{ m.it.name }}</span><b>▼ {{ m.pct|bn }}%</b></li>{% endfor %}</ol>{% endif %}
       {% else %}<div class="shi-mid"><small>আজ যাচাই করা দাম</small><b>{{ n_prices|bn }}</b><span>{{ store_count|bn }}টি দোকান</span></div>
       <p class="shi-h">{{ total|bn }}টি প্রোডাক্ট · {{ multi|bn }}টির দাম একাধিক দোকানে</p>{% endif %}
-      <div class="shi-ft">shariful881.github.io/daam-tulona</div></div>
+      <div class="shi-ft">damtulona.com</div></div>
   </section>
 
   <section class="card nstat" id="nstat"><div class="ns-head"><h2>সংখ্যায় দামতুলনা</h2><span class="sub">প্রতিদিন হালনাগাদ হয়</span><button type="button" class="nsre" id="nsreplay">↻ আবার দেখুন</button></div>

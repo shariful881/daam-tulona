@@ -1,6 +1,6 @@
 """data/ থেকে পুরো স্ট্যাটিক সাইট dist/ ফোল্ডারে বানায়।
 
-চালানো: BASE_URL=/daam-tulona SITE_URL=https://shariful881.github.io/daam-tulona python -m web.build
+চালানো: BASE_URL= SITE_URL=https://damtulona.com python -m web.build
 (GitHub Pages-এ রিপোর নামের সাব-ফোল্ডারে থাকে, তাই BASE_URL লাগে। নিজের ডোমেইনে BASE_URL ফাঁকা রাখুন।)
 """
 import csv
