@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "_ad.html" import slot with context %}
+{% block head %}<script type="application/ld+json">{{ itemlist | safe }}</script>{% endblock %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/best/">বাজেট অনুযায়ী সেরা</a> › {{ pg.title }}</nav>
+  <section class="card">
+    <h1 class="ihd"><span class="cic">{{ cicon(cat.slug) }}</span>{{ words }} টাকার মধ্যে {{ pg.title }}</h1>
+    <p class="needrule"><b>আমাদের নিয়ম:</b> {{ rule_txt }}। {{ pg.why }}</p>
+    <p class="muted" style="margin:0;font-size:.88rem">{{ month }}-এর দাম অনুযায়ী। আজ এমন {{ pool_n|bn }}টি {{ cat.name_bn }} কোনো না কোনো দোকানে স্টকে আছে; বেশি দোকানে পাওয়া যায় এমনগুলো আগে।</p>
+  </section>
+
+  <section class="card">
+    <ol class="bestl">
+    {% for it in ranked %}
+      <li>
+        <a class="bitem" href="{{ base }}/p/{{ it.id }}/">
+          <span class="bno">{{ loop.index|bn }}</span>
+          <span class="rimg" data-img>{{ cicon(it.category) }}{% if it.imgs %}<img src="{{ it.imgs[0][0] }}" alt="" width="64" height="64" loading="lazy" decoding="async" data-alts="{{ it.imgs[1:] | alts_simple }}" onerror="dtImgErr(this)">{% endif %}</span>
+          <span class="bmid">
+            <b class="n">{{ it.name }}</b>
+            <span class="tags">{% for sp in it.specs %}<span class="tag">{{ sp }}</span>{% endfor %}</span>
+            <span class="w">সবচেয়ে কম {{ stores[it.best.store].name }}-এ{% if it.live_count > 1 %} · <span class="badge">{{ it.live_count|bn }} স্টোরে আছে</span>{% endif %}</span>
+          </span>
+          <span class="bpr"><b class="price">{{ it.best.price | taka }}</b>{% if it.saving %}<small class="d lo">{{ it.saving | taka }} বাঁচান</small>{% endif %}</span>
+        </a>
+      </li>
+      {% if loop.index == 5 and not loop.last %}<li class="bad">{{ slot("category", cat.slug, "need-" ~ pg.slug) }}</li>{% endif %}
+    {% endfor %}
+    </ol>
+  </section>
+
+  <section class="card">
+    <details open><summary>এই তালিকা কীভাবে সাজানো</summary>
+      <p>তালিকায় শুধু সেই {{ cat.name_bn }} আছে যেগুলো আজ অন্তত একটা দোকানে স্টকে আছে, দাম {{ words }} টাকার মধ্যে, আর আমাদের স্পেক তালিকা অনুযায়ী নিয়মগুলো মেলে ({{ rule_txt }})। বেশি দোকানে পাওয়া যায় এমন মডেল আগে, তারপর স্পেক বেশি, তারপর কম দাম। কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে এই তালিকায় ওঠে না।</p>
+    </details>
+    <details><summary>সব {{ cat.name_bn }} দেখুন</summary>
+      <p><a href="{{ base }}/c/{{ cat.slug }}/?max={{ pg.max }}" style="text-decoration:underline">{{ words }} টাকার মধ্যে সব {{ cat.name_bn }} ফিল্টার করে দেখুন ›</a></p>
+    </details>
+  </section>
+{% endblock %}

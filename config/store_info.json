@@ -7,10 +7,19 @@
       "branches": "দেশজুড়ে ২০টির বেশি শোরুম, ১৫টির বেশি সার্ভিস সেন্টার",
       "delivery": "সাধারণত ১-৩ দিন; ঢাকায় নিজস্ব ডেলিভারি, বাইরে কুরিয়ারে। স্টকে থাকা জিনিস সকাল ১১টার আগে কনফার্ম হলে একই দিনে এক্সপ্রেস ডেলিভারি। কিছু প্রোডাক্টে সারা দেশে ক্যাশ অন ডেলিভারি। ডেলিভারি চার্জ ক্রেতার।",
       "emi": "৩৯টি ব্যাংকে ০% EMI, সাধারণত ৩/৬/৯/১২ মাস; বেশিরভাগ ব্যাংকে কমপক্ষে ৳৫,০০০। EMI-তে অফারের দাম নয়, সাধারণ দাম প্রযোজ্য।",
-      "links": {"ডেলিভারি নীতি": "https://www.startech.com.bd/online-delivery", "EMI": "https://www.startech.com.bd/emi-terms",
-                "ওয়ারেন্টি নীতি": "https://www.startech.com.bd/warranty-policy", "রিফান্ড নীতি": "https://www.startech.com.bd/refund-policy",
-                "শোরুম খুঁজুন": "https://www.startech.com.bd/information/contact"},
-      "source": "https://www.startech.com.bd"
+      "links": {
+        "ডেলিভারি নীতি": "https://www.startech.com.bd/online-delivery",
+        "EMI": "https://www.startech.com.bd/emi-terms",
+        "ওয়ারেন্টি নীতি": "https://www.startech.com.bd/warranty-policy",
+        "রিফান্ড নীতি": "https://www.startech.com.bd/refund-policy",
+        "শোরুম খুঁজুন": "https://www.startech.com.bd/information/contact"
+      },
+      "source": "https://www.startech.com.bd",
+      "policy": {
+        "chip": "ত্রুটি জানাতে ২৪ ঘণ্টা",
+        "text": "অনলাইনে কেনা প্রোডাক্টে কারখানার ত্রুটি থাকলে ডেলিভারির ২৪ ঘণ্টার মধ্যে হটলাইনে জানাতে হবে; বক্স অক্ষত থাকতে হবে। মন বদলালে বা ডিভাইসের সাথে না মিললে ফেরত হয় না। রিফান্ড ৩-১০ কর্মদিবসে।",
+        "src": "https://www.startech.com.bd/refund-policy"
+      }
     },
     "ultratech": {
       "hotline": "ওয়ারেন্টি: 01898883486, সার্ভিস সেন্টার: 01898883487",
@@ -18,16 +27,29 @@
       "branches": "শোরুম ও RMA/সার্ভিস সেন্টার দুটোই মাল্টিপ্ল্যান সেন্টারে",
       "emi": "২৯টি ব্যাংকে EMI সুবিধা (ওয়েবসাইটে উল্লেখ আছে)",
       "links": {},
-      "source": "https://www.ultratech.com.bd"
+      "source": "https://www.ultratech.com.bd",
+      "policy": {
+        "chip": "ত্রুটি জানাতে ২৪ ঘণ্টা",
+        "text": "অনলাইনে কেনা প্রোডাক্টে কারখানার ত্রুটি থাকলে ডেলিভারির ২৪ ঘণ্টার মধ্যে হটলাইনে জানাতে হবে। মন বদলালে বা ডিভাইসের সাথে না মিললে ফেরত হয় না। রিফান্ড ৩-১০ কর্মদিবসে।",
+        "src": "https://www.ultratech.com.bd/refund-return"
+      }
     },
     "pchouse": {
       "hotline": "09617179141 (WhatsApp: 01973167989)",
       "address": "Shop 1414, Level-14, Multiplan Center, Elephant Road, Dhaka-1205 (হেড অফিস)",
       "branches": "মাল্টিপ্ল্যান শাখা (লেভেল ২), IDB শাখা (BCS Computer City, আগারগাঁও), সার্ভিস সেন্টার (মাল্টিপ্ল্যান লেভেল ১৪)",
       "delivery": "ঢাকায় ৩ কর্মদিবসের মধ্যে, ক্যাশ অন ডেলিভারি আছে। ঢাকার বাইরে কুরিয়ারে, বুকিংয়ের জন্য আংশিক বা পুরো টাকা আগে দিতে হয়। চার্জ প্রোডাক্ট ও এলাকাভেদে।",
-      "links": {"ডেলিভারি নীতি": "https://www.pchouse.com.bd/delivery", "ওয়ারেন্টি নীতি": "https://www.pchouse.com.bd/warranty",
-                "যোগাযোগ": "https://www.pchouse.com.bd/information/contact"},
-      "source": "https://www.pchouse.com.bd"
+      "links": {
+        "ডেলিভারি নীতি": "https://www.pchouse.com.bd/delivery",
+        "ওয়ারেন্টি নীতি": "https://www.pchouse.com.bd/warranty",
+        "যোগাযোগ": "https://www.pchouse.com.bd/information/contact"
+      },
+      "source": "https://www.pchouse.com.bd",
+      "policy": {
+        "chip": "নির্মাতার ওয়ারেন্টি",
+        "text": "প্রোডাক্টে নির্মাতার ওয়ারেন্টি; ত্রুটি হলে PC House-এর মাধ্যমে নির্মাতার কাছে সার্ভিসে যায়। রিটার্নের দিনসীমা ওয়েবসাইটে লেখা নেই, কেনার আগে জেনে নিন।",
+        "src": "https://www.pchouse.com.bd/terms"
+      }
     },
     "creatus": {
       "links": {},
@@ -37,20 +59,34 @@
       "hotline": "কাস্টমার কেয়ার: 09678100500",
       "branches": "ঢাকা, চট্টগ্রাম, খুলনা, রাজশাহী, সিলেট, রংপুর ও বরিশাল বিভাগে শাখা",
       "returns": "৭ দিনের রিটার্ন (ওয়েবসাইটের ব্যানারে উল্লেখ)",
-      "links": {"ঢাকার শাখা": "https://smartbd.com/dhaka-division/", "সার্ভিস সেন্টার (1000fix)": "https://1000fix.com/"},
-      "source": "https://smartbd.com"
+      "links": {
+        "ঢাকার শাখা": "https://smartbd.com/dhaka-division/",
+        "সার্ভিস সেন্টার (1000fix)": "https://1000fix.com/"
+      },
+      "source": "https://smartbd.com",
+      "policy": {
+        "chip": "৭ দিনে রিটার্ন",
+        "text": "দোকানের ওয়েবসাইটের ব্যানারে ৭ দিনের রিটার্নের কথা বলা আছে; শর্ত কেনার আগে জেনে নিন।",
+        "src": "https://smartbd.com/"
+      }
     },
     "fourstar": {
       "address": "Multiplan Centre, Level 6, Shop 616-617, 69/71 New Elephant Rd, Katabon, Dhaka-1205",
-      "links": {"পিসি বিল্ডার": "https://fourstarit.com.bd/builders/pc"},
+      "links": {
+        "পিসি বিল্ডার": "https://fourstarit.com.bd/builders/pc"
+      },
       "source": "https://storesbd.hp.com/four-star-it---(multiplan-branch)-multiplan-center-katabon-9021/articles"
     },
     "walton": {
       "hotline": "16267 (টোল ফ্রি: 08000016267)",
       "branches": "দেশজুড়ে Walton Plaza ও সেলস আউটলেট",
       "emi": "এসি-তে EMI (ওয়েবসাইটে আলাদা পাতা)",
-      "links": {"শোরুম/প্লাজা খুঁজুন": "https://waltonbd.com/sales-outlet", "এসি EMI": "https://waltonbd.com/air-conditioner/ac-emi",
-                "সার্ভিস রিকোয়েস্ট": "https://waltonbd.com/service-request", "যোগাযোগ": "https://waltonbd.com/contact"},
+      "links": {
+        "শোরুম/প্লাজা খুঁজুন": "https://waltonbd.com/sales-outlet",
+        "এসি EMI": "https://waltonbd.com/air-conditioner/ac-emi",
+        "সার্ভিস রিকোয়েস্ট": "https://waltonbd.com/service-request",
+        "যোগাযোগ": "https://waltonbd.com/contact"
+      },
       "source": "https://waltonbd.com"
     },
     "minister": {
@@ -58,26 +94,66 @@
       "branches": "দেশজুড়ে শোরুম",
       "delivery": "হোম ডেলিভারি ও ক্যাশ অন ডেলিভারি (ওয়েবসাইটে উল্লেখ)",
       "emi": "কিস্তিতে কেনার সুযোগ",
-      "links": {"শোরুম খুঁজুন": "https://ministerbd.com/showrooms", "ওয়ারেন্টি": "https://ministerbd.com/warranty.html",
-                "কিস্তি": "https://ministerbd.com/kisti", "যোগাযোগ": "https://ministerbd.com/contact-us"},
+      "links": {
+        "শোরুম খুঁজুন": "https://ministerbd.com/showrooms",
+        "ওয়ারেন্টি": "https://ministerbd.com/warranty.html",
+        "কিস্তি": "https://ministerbd.com/kisti",
+        "যোগাযোগ": "https://ministerbd.com/contact-us"
+      },
       "source": "https://ministerbd.com"
     },
     "diamu": {
       "hotline": "+8801798740472, +8801302555180 (WhatsApp)",
       "address": "House-129/A, Road-12A, West Dhanmondi, Dhaka-1209",
-      "links": {"ডেলিভারি": "https://diamu.com.bd/delivery-method-fastest-shipping/", "পেমেন্ট ও EMI": "https://diamu.com.bd/payments/",
-                "রিটার্ন নীতি": "https://diamu.com.bd/return-policy/", "রিফান্ড নীতি": "https://diamu.com.bd/refund-policy/",
-                "যোগাযোগ": "https://diamu.com.bd/contact/"},
-      "source": "https://diamu.com.bd"
+      "links": {
+        "ডেলিভারি": "https://diamu.com.bd/delivery-method-fastest-shipping/",
+        "পেমেন্ট ও EMI": "https://diamu.com.bd/payments/",
+        "রিটার্ন নীতি": "https://diamu.com.bd/return-policy/",
+        "রিফান্ড নীতি": "https://diamu.com.bd/refund-policy/",
+        "যোগাযোগ": "https://diamu.com.bd/contact/"
+      },
+      "source": "https://diamu.com.bd",
+      "policy": {
+        "chip": "৩ কর্মদিবসে রিটার্ন",
+        "text": "ডেলিভারির ৩ কর্মদিবসের মধ্যে রিটার্নের অনুরোধ করতে হয়; ইলেকট্রনিক্সে ত্রুটি বা ভুল প্রোডাক্টে ১০ দিনের রিপ্লেসমেন্ট। মন বদলালে বা সেল-ফ্ল্যাশ সেলের প্রোডাক্টে ফেরত হয় না।",
+        "src": "https://diamu.com.bd/return-policy/"
+      }
     },
     "applegadgets": {
       "hotline": "09678148148 (WhatsApp: +8801711105888)",
       "branches": "বসুন্ধরা সিটি (২টি) ও যমুনা ফিউচার পার্কসহ একাধিক আউটলেট",
       "delivery": "ঢাকায় ডেলিভারি চার্জ ৳৬০ (এক্সেসরিজ ক্যাশ অন ডেলিভারিতে ৭২ ঘণ্টার মধ্যে)। ঢাকার বাইরে ডিভাইসে সর্বোচ্চ ৳২২০, এক্সেসরিজে ৳১৩০, আংশিক অগ্রিম দিয়ে। বিকেল ৫টার পরের অর্ডার পরের দিনের হিসাবে।",
-      "links": {"ডেলিভারি নীতি": "https://www.applegadgetsbd.com/page/delivery-terms-and-conditions", "EMI নীতি": "https://www.applegadgetsbd.com/page/emi-policy",
-                "ওয়ারেন্টি নীতি": "https://www.applegadgetsbd.com/page/warranty-policy", "রিটার্ন নীতি": "https://www.applegadgetsbd.com/page/apple-gadgets-return-policy",
-                "রিফান্ড নীতি": "https://www.applegadgetsbd.com/page/refund-policy", "যোগাযোগ": "https://www.applegadgetsbd.com/contact-us"},
-      "source": "https://www.applegadgetsbd.com"
+      "links": {
+        "ডেলিভারি নীতি": "https://www.applegadgetsbd.com/page/delivery-terms-and-conditions",
+        "EMI নীতি": "https://www.applegadgetsbd.com/page/emi-policy",
+        "ওয়ারেন্টি নীতি": "https://www.applegadgetsbd.com/page/warranty-policy",
+        "রিটার্ন নীতি": "https://www.applegadgetsbd.com/page/apple-gadgets-return-policy",
+        "রিফান্ড নীতি": "https://www.applegadgetsbd.com/page/refund-policy",
+        "যোগাযোগ": "https://www.applegadgetsbd.com/contact-us"
+      },
+      "source": "https://www.applegadgetsbd.com",
+      "policy": {
+        "chip": "৭২ ঘণ্টায় রিটার্ন",
+        "text": "ডেলিভারির ৭২ ঘণ্টার মধ্যে রিটার্ন শুরু করতে হবে; প্রোডাক্ট অব্যবহৃত ও আসল প্যাকেজিংয়ে থাকতে হবে। অনলাইন অর্ডারে পুরো আনবক্সিং ভিডিও লাগে। ক্যাম্পেইন বা ছাড়ের কিছু প্রোডাক্টে রিটার্ন নেই।",
+        "src": "https://www.applegadgetsbd.com/page/apple-gadgets-return-policy"
+      }
+    },
+    "ryans": {
+      "policy": {
+        "chip": "৩ দিনে রিটার্ন (ত্রুটি)",
+        "text": "ত্রুটি না থাকলে সিল-স্টিকার অক্ষত রেখে ডেলিভারির ২৪ ঘণ্টার মধ্যে, ত্রুটি থাকলে ৩ দিনের মধ্যে যেকোনো Ryans শাখায় ফেরত দেওয়া যায় (আগে 16810-এ ফোন করে PRN নম্বর নিতে হয়)। বদলে নতুন প্রোডাক্ট, না পেলে ৭ কর্মদিবসে রিফান্ড।",
+        "src": "https://www.ryans.com/page/return-refund-cancelation"
+      },
+      "hotline": "16810",
+      "source": "https://www.ryans.com"
+    },
+    "techland": {
+      "policy": {
+        "chip": "ত্রুটি হলে সাথে সাথে জানান",
+        "text": "ত্রুটিপূর্ণ, ভাঙা বা ভুল মডেল এলে সাথে সাথে জানাতে হবে; সব প্যাকেজিং ও আনুষঙ্গিক জিনিস আর সিরিয়াল নম্বর অক্ষত থাকতে হবে। আনবক্সিং ভিডিও রাখা জরুরি। মন বদলালে ফেরত হয় না।",
+        "src": "https://www.techlandbd.com/refund-and-return"
+      },
+      "source": "https://www.techlandbd.com"
     }
   }
 }

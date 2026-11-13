@@ -53,7 +53,7 @@
       <p>একই প্রোডাক্ট {{ stores[worst.store].name }}-এ {{ worst.price | taka }}, আর {{ stores[best.store].name }}-এ {{ best.price | taka }}। দামতুলনা আপনার হয়ে {{ live_count | bn }}টা দোকানের দাম মিলিয়ে দিয়েছে, যাতে এই টাকাটা আপনার পকেটে থাকে।</p>
     </div>
     {% endif %}
-    {% if best and low30 %}{% if best.price <= low30 %}<span class="save low30">▼ গত ৩০ দিনে সবচেয়ে কম দাম</span>{% elif best.price > low30 * 1.03 %}<span class="save hi30">গত ৩০ দিনে সর্বনিম্ন ছিল {{ low30 | taka }}</span>{% endif %}{% endif %}
+    {% if pstat %}<div class="pstat {{ pstat.state }}"><b>{{ {"wait": "⏳", "good": "🟢", "normal": "🟡", "high": "🔴"}[pstat.state] }} {{ pstat.title }}</b><span>{{ pstat.text }}</span></div>{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
     <p class="cmpmsg muted" hidden></p>
@@ -80,6 +80,15 @@
   </section>
   {% endif %}
 
+  {% if better %}
+  <section class="card o3 better">
+    <h2>একই দামে বেশি স্পেক <span class="sub">· কেনার আগে একবার দেখুন</span></h2>
+    <div class="rows">{% for b in better %}
+      <a class="row" href="{{ base }}/p/{{ b.id }}/"><div style="min-width:0"><div class="n">{{ b.name }}</div><div class="w bt">{{ b.text }}{% if b.k > 1 %}<span class="badge">{{ b.k | bn }} স্টোর</span>{% endif %}</div></div><div><div class="p">{{ b.price | taka }}</div></div></a>
+    {% endfor %}</div>
+    <p class="insnote">একই ক্যাটাগরির, দাম এর কাছাকাছি (সর্বোচ্চ ১০% বেশি), আর দরকারি স্পেক সব দিকে সমান বা বেশি এমন প্রোডাক্ট; আমাদের স্পেক তালিকা থেকে হিসাব করা। প্রসেসর, ব্র্যান্ড বা অন্য বৈশিষ্ট্য আলাদা হতে পারে, কেনার আগে পাতাটা দেখে মিলিয়ে নিন।</p>
+  </section>
+  {% endif %}
   <div class="slotw o3">{{ slot("product", cat.slug, it.id) }}</div>
 
   {% if feat_rows or feat_extra or warranty %}
@@ -161,13 +170,14 @@
   <aside class="pside">
   <section class="card o2 pstores">
     <h2>কোন স্টোরে কত দাম</h2>
+    <p class="promise">✅ <b>সব দোকান যাচাই করা, প্রতিষ্ঠিত।</b> কোনো লোকাল বা অচেনা দোকান নেই, তাই সবচেয়ে কম দামের দোকান থেকেও নিশ্চিন্তে কিনুন।</p>
     <div class="stores">
     {% for row in store_rows if row.offer %}
       {% if row.offer %}
       <a class="st{% if row.is_best %} best{% endif %}{% if row.featured %} feat{% endif %}" href="{{ go_url(row.store, row.offer.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[row.store].name }}"{% if row.fresh %} data-seen="{{ row.fresh }}"{% endif %}>
         <span class="av{% if stores[row.store].logo %} logo{% endif %}{% if stores[row.store].logo_dark %} dark{% endif %}">{% if stores[row.store].logo %}<img src="{{ base }}/static/{{ stores[row.store].logo }}" alt="{{ stores[row.store].name }}" loading="lazy">{% else %}{{ stores[row.store].short }}{% endif %}</span>
         <span><span class="nm">{{ stores[row.store].name }}</span>{% if row.featured %}<span class="spn">স্পন্সরড</span>{% endif %}{% if row.ptype %}<span class="ptl {{ row.ptype }}">{{ "অফিসিয়াল" if row.ptype == "official" else "আনঅফিসিয়াল" }}</span>{% endif %}<br>
-          <span class="stt {{ row.cls }}">{{ row.label }}</span>{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
+          <span class="stt {{ row.cls }}">{{ row.label }}</span>{% set _pol = (store_info.get(row.store) or {}).get("policy") %}{% if _pol %}<span class="pchip">↩ {{ _pol.chip }}</span>{% endif %}{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
       {% endif %}
@@ -201,9 +211,9 @@
         {% if si.branches %}<div><dt>শাখা</dt><dd>{{ si.branches }}</dd></div>{% endif %}
         {% if si.delivery %}<div><dt>ডেলিভারি</dt><dd>{{ si.delivery }}</dd></div>{% endif %}
         {% if si.emi %}<div><dt>EMI</dt><dd>{{ si.emi }}</dd></div>{% endif %}
-        {% if si.returns %}<div><dt>রিটার্ন</dt><dd>{{ si.returns }}</dd></div>{% endif %}
+        {% if si.policy %}<div><dt>রিটার্ন ও রিপ্লেসমেন্ট</dt><dd>{{ si.policy.text }} <a href="{{ si.policy.src }}" target="_blank" rel="nofollow noopener">দোকানের নীতি ›</a></dd></div>{% elif si.returns %}<div><dt>রিটার্ন</dt><dd>{{ si.returns }}</dd></div>{% endif %}
       </dl>
-      {% if not (si.address or si.branches or si.delivery or si.emi) %}<p class="muted" style="font-size:.82rem;margin:0 0 8px">এই স্টোরের বিস্তারিত তথ্য এখনো যোগ হয়নি।</p>{% endif %}
+      {% if not (si.address or si.branches or si.delivery or si.emi or si.policy) %}<p class="muted" style="font-size:.82rem;margin:0 0 8px">এই স্টোরের বিস্তারিত তথ্য এখনো যোগ হয়নি।</p>{% endif %}
       <a class="sprof-more" href="{{ base }}/store/{{ row.store }}/">{{ stores[row.store].name }}-এর পুরো প্রোফাইল ›</a>
     </details>
     {% endfor %}

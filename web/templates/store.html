@@ -16,7 +16,7 @@
   </section>
 
   {% set i = s.info %}
-  {% if i.hotline or i.address or i.branches or i.delivery or i.emi or i.returns or i.links %}
+  {% if i.hotline or i.address or i.branches or i.delivery or i.emi or i.returns or i.links or i.policy %}
   <section class="card">
     <h2>যোগাযোগ ও কেনার নিয়ম</h2>
     <dl class="kf">
@@ -25,7 +25,7 @@
       {% if i.branches %}<div><dt>শাখা</dt><dd>{{ i.branches }}</dd></div>{% endif %}
       {% if i.delivery %}<div><dt>ডেলিভারি</dt><dd>{{ i.delivery }}</dd></div>{% endif %}
       {% if i.emi %}<div><dt>EMI / কিস্তি</dt><dd>{{ i.emi }}</dd></div>{% endif %}
-      {% if i.returns %}<div><dt>রিটার্ন</dt><dd>{{ i.returns }}</dd></div>{% endif %}
+      {% if i.policy %}<div><dt>রিটার্ন ও রিপ্লেসমেন্ট</dt><dd>{{ i.policy.text }} <a href="{{ i.policy.src }}" target="_blank" rel="nofollow noopener">দোকানের নীতি ›</a></dd></div>{% elif i.returns %}<div><dt>রিটার্ন</dt><dd>{{ i.returns }}</dd></div>{% endif %}
     </dl>
     {% if i.links %}<div class="blinks">{% for lab, u in i.links.items() %}<a href="{{ u }}" target="_blank" rel="nofollow noopener">{{ lab }} ›</a>{% endfor %}</div>{% endif %}
     <p class="muted" style="font-size:.76rem;margin:10px 0 0">তথ্য {{ s.name }}-এর ওয়েবসাইট থেকে নেওয়া{% if i.source %} (<a href="{{ i.source }}" target="_blank" rel="nofollow noopener" style="text-decoration:underline">সূত্র</a>){% endif %}। নীতি বদলাতে পারে, কেনার আগে স্টোরে নিশ্চিত হয়ে নিন।</p>

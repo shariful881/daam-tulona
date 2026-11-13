@@ -223,3 +223,79 @@ def build(pid, it, so, stores, leaf, changes, today, peers=None, rank=None, prof
     if hint and out:
         out.append(("tip", hint))
     return out, meta, faq
+
+
+MIN_DAYS = 14  # এর কম দিনের ইতিহাসে "এখন কিনব?" বলা হয় না
+
+
+def price_status(changes, today):
+    """'এখনই কিনব, নাকি অপেক্ষা?' — শুধু যা ঘটেছে তা থেকে (ভবিষ্যদ্বাণী নয়)।
+    ফেরত: {"state": wait|good|normal|high, "title", "text", "left"}"""
+    if not changes:
+        return None
+    days = (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days + 1
+    if days < MIN_DAYS:
+        left = MIN_DAYS - days
+        return {"state": "wait", "title": "দামের ইতিহাস জমছে",
+                "text": f"আমরা {bn(days)} দিন ধরে এই প্রোডাক্টের দাম জমাচ্ছি। আর {bn(left)} দিন পর বলতে পারব এখন কেনার ভালো সময় কিনা। ততদিন অপেক্ষা করতে চাইলে নিচের \"দাম কমলে জানান\" চাপুন।"}
+    win = 30 if days >= 30 else days
+    cut = (date.fromisoformat(today) - timedelta(days=win)).isoformat()
+    vals = [v for d, v in changes if d > cut] or [changes[-1][1]]
+    cur, lo = changes[-1][1], min(vals)
+    avg = sum(vals) / len(vals)
+    lab = f"গত {bn(win)} দিনে"
+    if cur <= lo * 1.03:
+        t = f"{lab} এর চেয়ে কম দাম দেখা যায়নি।" if cur == lo else f"{lab} সর্বনিম্ন ছিল {tk(lo)}, এখনকার দাম তার খুব কাছে।"
+        return {"state": "good", "title": "এখন ভালো দাম", "text": t}
+    if cur > avg * 1.05:
+        when = max((d for d, v in changes if d > cut and v == lo), default=None)
+        ago = (date.fromisoformat(today) - date.fromisoformat(when)).days if when else None
+        t = f"{bn(ago)} দিন আগে {tk(cur - lo)} কম ছিল ({tk(lo)})।" if ago else f"{lab} সর্বনিম্ন ছিল {tk(lo)}।"
+        return {"state": "high", "title": "সম্প্রতি দাম বেড়েছে", "text": t + " তাড়া না থাকলে \"দাম কমলে জানান\" চাপুন, কমলেই জানাব।"}
+    return {"state": "normal", "title": "দাম স্বাভাবিক", "text": f"{lab} গড় দাম ছিল {tk(round(avg))}, এখনকার দাম তার আশেপাশেই।"}
+
+
+# একই "ধরনের" মধ্যেই তুলনা: নামে এগুলোর কোনোটা থাকলে দুই প্রোডাক্টে একই হতে হবে (DDR4 বনাম DDR5, SATA বনাম NVMe…)
+KIND_RX = {
+    "ram": re.compile(r"\b(ddr\d)\b|\b(laptop|notebook|so-?dimm)\b", re.I),
+    "ssd": re.compile(r"\b(nvme|sata|m\.2|2\.5)", re.I),
+    "laptop": re.compile(r"\b(snapdragon|chromebook|macbook)\b", re.I),
+    "phone": re.compile(r"\b(ipad|tab|tablet|iphone)\b", re.I),
+    "gpu": re.compile(r"\b(rtx|gtx|rx|arc)\b", re.I),
+}
+
+
+def _kinds(profile, name):
+    rx = KIND_RX.get(profile)
+    return {m.group(0).lower().replace("-", "") for m in rx.finditer(name or "")} if rx else set()
+
+
+def better_alternatives(pid, price, profile, nums, pool, items, limit=3):
+    """একই দামের সীমায় (সর্বোচ্চ ১০% বেশি) যেগুলোর দরকারি স্পেক সব দিকে সমান বা বেশি, আর অন্তত একটায় স্পষ্টভাবে বেশি (১৫%+)।"""
+    if not (price and nums and pool):
+        return []
+    labels = list(nums)
+    mykind, seen = _kinds(profile, items[pid]["name"]), set()
+    unitmap = {l: (u, noun) for l, _, u, noun in COMPARE.get(profile, [])}
+    out = []
+    for pr, i_, n_ in pool:
+        if i_ == pid or pr > price * 1.10 or pr < price * 0.85 or any(l not in n_ for l in labels):
+            continue
+        if any(n_[l] < nums[l] for l in labels):
+            continue
+        up = [l for l in labels if n_[l] >= nums[l] * 1.15]
+        if not up:
+            continue
+        if _kinds(profile, items[i_]["name"]) != mykind:
+            continue
+        key = re.sub(r"\W+", " ", items[i_]["name"].lower())[:40]  # একই মডেলের দুটো পাতা একবারই
+        if key in seen:
+            continue
+        seen.add(key)
+        diff = pr - price
+        money = "একই দামে" if abs(diff) < 100 else (f"{tk(diff)} বেশি দিলে" if diff > 0 else f"{tk(-diff)} কমে")
+        gain = ", ".join(f"{unitmap[l][1]} {fmt_val(n_[l], unitmap[l][0])} (এটায় {fmt_val(nums[l], unitmap[l][0])})" for l in up)
+        out.append((-len(up), pr, {"id": i_, "name": items[i_]["name"], "price": pr, "k": items[i_]["live_count"],
+                                  "text": f"{money} পাবেন {gain}"}))
+    out.sort(key=lambda x: (x[0], x[1]))
+    return [x[2] for x in out[:limit]]

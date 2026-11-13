@@ -44,6 +44,7 @@
   function draw(){
     if(!data.length){load();return}
     var cat=data[0].cn, h='';
+    var summary='';
     var mins=data.map(function(d){return d.best?d.best.price:null}).filter(Boolean), lo=Math.min.apply(null,mins);
     h+='<tr><td>প্রোডাক্ট</td>'+data.map(function(d,i){return '<td><a class="pname" href="'+base+'/p/'+d.id+'/">'+esc(d.n)+'</a><br><button class="rm" data-i="'+i+'">সরান ✕</button></td>'}).join('')+'</tr>';
     h+=row('সর্বনিম্ন দাম',data.map(function(d){return d.best?'<span class="'+(d.best.price===lo&&data.length>1?'lo':'')+'">'+taka(d.best.price)+'</span><br><small class="muted">'+esc(stores[d.best.store])+'</small>':'স্টকে নেই'}),'keep');
@@ -51,6 +52,21 @@
     h+=row('ওয়ারেন্টি',data.map(function(d){return esc(d.w||'')}));
     h+=row('ব্র্যান্ড',data.map(function(d){return esc(d.b)}));
     h+=row('মডেল',data.map(function(d){return esc(d.m||'')}));
+    // এক নজরে: দরকারি স্পেক পাশাপাশি; সংখ্যায় তুলনা করা যায় এমন ঘরে বেশিটা সবুজ
+    var frk=[],frs={};
+    data.forEach(function(d){(d.fr||[]).forEach(function(r){if(!frs[r[0]]){frs[r[0]]=1;frk.push(r[0])}})});
+    var wins=data.map(function(){return []});
+    var frh=frk.map(function(k){
+      var nums=data.map(function(d){return (d.kn||{})[k]}), have=nums.filter(function(x){return x!=null});
+      var mx=have.length>1?Math.max.apply(null,have):null, allEq=have.every(function(x){return x===have[0]});
+      return row(k,data.map(function(d,i){var v=((d.fr||[]).filter(function(r){return r[0]===k})[0]||[])[1]||'';
+        var win=mx!=null&&!allEq&&nums[i]===mx; if(win)wins[i].push(k);
+        return v?(win?'<span class="win">'+esc(v)+'</span>':esc(v)):''}));
+    }).join('');
+    if(frh)h+='<tr class="sec"><td colspan="'+(data.length+1)+'">এক নজরে</td></tr>'+frh;
+    if(data.length>1&&wins.some(function(w){return w.length})){
+      summary='<p class="cmpsum">'+data.map(function(d,i){return wins[i].length?'<b>'+esc(d.n.split(' ').slice(0,4).join(' '))+'</b>-এ '+wins[i].join(', ')+' বেশি':''}).filter(Boolean).join('; ')+'।</p>';
+    }
     // সব স্পেক অংশ ও সারি একত্র করা
     var secs=[],seen={};
     data.forEach(function(d){Object.keys(d.sp||{}).forEach(function(s){if(/warranty/i.test(s))return;
@@ -64,7 +80,7 @@
     });
     var note=data.length<2?'<p class="muted" style="font-size:.85rem;margin:8px 0 0">তুলনার জন্য আরেকটা প্রোডাক্ট যোগ করুন।</p>':'';
     var thin=data.some(function(d){return !d.m&&!d.w})?'<p class="muted" style="font-size:.8rem;margin:8px 0 0">কিছু প্রোডাক্টের বিস্তারিত স্পেক এখনো সংগ্রহ চলছে, কয়েক দিনের মধ্যে যোগ হবে।</p>':'';
-    out.innerHTML='<section class="card"><h2>'+esc(cat)+' তুলনা</h2><div class="cmpwrap"><table class="cmptbl">'+h+'</table></div>'+note+thin+'</section>';
+    out.innerHTML='<section class="card"><h2>'+esc(cat)+' তুলনা</h2><div class="cmpwrap"><table class="cmptbl">'+h+'</table></div>'+summary+note+thin+'</section>';
   }
   out.addEventListener('click',function(e){var b=e.target.closest('.rm');if(!b)return;data.splice(+b.dataset.i,1);sync();
     if(data.length)draw();else load();});

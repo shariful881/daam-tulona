@@ -1078,3 +1078,19 @@ main.col>.foot,main.col>.footnav{order:99}
 .sd-msg{padding:14px;color:var(--muted);font-size:.88rem}
 .sd-t{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media (max-width:700px){.hdr .sform{position:static!important}.hdr>.col{position:relative}.sdrop{top:100%;left:8px;right:8px;max-width:none}}
+
+/* যাচাই করা দোকানের প্রতিশ্রুতি ও দোকানের নীতি */
+.promise{margin:0 0 10px;padding:8px 12px;border-radius:10px;background:var(--best-soft);font-size:.84rem;line-height:1.55}
+.pchip{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;border:1px solid var(--line);font-size:.7rem;color:var(--muted);white-space:nowrap;vertical-align:1px}
+.pstat{margin:8px 0 4px;padding:9px 12px;border-radius:12px;border:1px solid var(--line);display:grid;gap:2px;font-size:.84rem;line-height:1.5}
+.pstat b{font-size:.9rem}
+.pstat.good{border-color:var(--best);background:var(--best-soft)}
+.pstat.high{border-color:var(--warn)}
+.pstat.wait span{color:var(--muted)}
+.better .bt{color:var(--best);font-weight:600}
+.needrule{margin:6px 0 8px;padding:8px 12px;border-radius:10px;background:var(--best-soft);font-size:.86rem;line-height:1.55}
+.needl{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.needc{display:flex;gap:10px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:12px;color:var(--ink);text-decoration:none}
+.needc b{display:block;font-size:.9rem}.needc small{color:var(--muted);font-size:.76rem}
+.cmptbl .win{color:var(--best);font-weight:700;background:var(--best-soft);padding:1px 6px;border-radius:6px}
+.cmpsum{margin:10px 0 0;padding:8px 12px;border-radius:10px;background:var(--best-soft);font-size:.86rem;line-height:1.55}
