@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Product Description": {
+   "Product Length": "396",
+   "Product Width": "125",
+   "Product Height": "125",
+   "Lighting": "RGB",
+   "Cooling Warranty": "6 Year",
+   "Radiator Dimensions": "396mm x 120mm x 27mm",
+   "Number of Fans": "3",
+   "Cold Plate Material": "Copper",
+   "Radiator Material": "Aluminum",
+   "Fan Dimensions": "120mm x 25mm",
+   "Cooling Socket Support": "Intel 1851, Intel 1700, AMD AM5, AMD AM4",
+   "Fan Speed": "300 – 2100 RPM ±10%",
+   "Fan Airflow": "10.4 – 73.5 CFM",
+   "Fan Static Pressure": "0.12 – 4.33mm-H2O",
+   "Radiator Size": "360mm",
+   "Tubing Length": "450mm",
+   "Tubing Material": "Black Sleeved Low-Permeation Rubber",
+   "Fan Control Method": "Digital",
+   "AMD Processors Supported": "Ryzen",
+   "Intel Processors Supported": "Core i9, i7, i5, i3, Pentium, Celeron",
+   "PWM": "No",
+   "Weight": "1.88"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 300 – 2100 RPM ±10%",
+  "Fan Dimension: 120mm x 25mm",
+  "Fan Airflow: 10.4 – 73.5 CFM",
+  "Cooling Socket Support: Intel 1851, Intel 1700, AMD AM5, AMD AM4"
+ ],
+ "warranty": "6 Year",
+ "fetched": "2026-11-13T17:52+06:00",
+ "source": "https://smartbd.com/product/corsair-icue-link-titan-360-rx-rgb-aio-liquid-cpu-cooler-black/",
+ "store": "smartbd"
+}

@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8-inch",
+   "Display Type": "LED",
+   "Resolution": "1920x1080",
+   "Pixel pitch(MM)": "0.2745mm",
+   "Display Surface": "Non-Glare",
+   "Viewing Angle": "178°/ 178°",
+   "Brightness": "250cd/㎡",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "180Hz",
+   "Color Support": "16.7M",
+   "Color Gamut": "Color Space (sRGB): 100%",
+   "Response Time": "1ms(GTG)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "Yes, 2.2"
+  },
+  "Free Sync Support": {
+   "Trace Free Technology": "Yes",
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes(4 modes)",
+   "GamePlus": "Yes",
+   "Extreme Low Motion Blur": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "DisplayWidget": "Yes, DisplayWidget Center"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes(2Wx2)"
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort 1.2 x1",
+   "HDMI": "HDMI(v2.0) x2",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+22° ~ -5°)",
+   "Vesa Wall Mount": "75x75mm",
+   "Security Locker": "Kensington Lock"
+  },
+  "Physical Specification": {
+   "Dimension": "Phys. Dimension (W x H x D) : 54.0 x 40.7 x 21.3 cm (21.26\" x 16.02\" x 8.39\")\nPhys. Dimension without Stand (W x H x D) : 54.0 x 32.0 x 3.7 cm (21.26\" x 12.60\" x 1.46\")"
+  },
+  "Weight": {
+   "Net Weight": "3.7 kg (8.16 lbs)",
+   "Net Weight without Stand": "2.7 kg (5.95 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<18W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "Voltage : 100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 180Hz, 1ms (GTG)",
+  "Ports: DisplayPort 1.2 x 1, HDMI(v2.0) x 2, 1 x audio jack",
+  "Features: AMD FreeSync, Low Blue Light, Flicker-free"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-vg249q3r-fhd-ips-monitor",
+ "store": "pchouse"
+}

@@ -1,0 +1,94 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Ryzen 5 8645HS",
+   "Generation": "8000 Series",
+   "Processor Frequency": "up to 5.0 GHz max boost clock",
+   "Processor Core": "6",
+   "Processor Thread": "12",
+   "CPU Cache": "L3 Cache: 16MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600 MT/s",
+   "Ram": "8GB",
+   "Ram Type": "DDR5"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe TLC M.2 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 2050 Laptop GPU",
+   "Graphics Memory": "4GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Keyboard",
+   "Keyboard Features": "Full-size, performance blue keyboard with numeric keypad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP Wide Vision 720p HD camera",
+   "Speaker": "Dual speakers",
+   "Microphone": "Temporal noise reduction and integrated dual-array digital microphones",
+   "Audio Features": "Audio by B&O, Dual speakers, HP Audio Boost"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "1 multi-format SD media card reader",
+   "HDMI Port": "1x HDMI 2.1",
+   "USB 3 Port": "1x USB Type-A 5Gbps signaling rate\n1x USB Type-A 5Gbps signaling rate (HP Sleep and Charge)",
+   "USB Type-C / Thunderbolt Port": "1x USB Type-C 5Gbps signaling rate (DisplayPort 1.4, HP Sleep and Charge)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "Lan": "Integrated 10/100/1000 GbE LAN",
+   "WiFi": "Realtek Wi-Fi 6 (2x2)",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "micro-edge, anti-glare, 300 nits, 62.5% sRGB\nScreen-to-body ratio: 82.23%",
+   "Touch Screen": "No",
+   "Refresh Rate": "144Hz"
+  },
+  "Power": {
+   "Battery Type": "3-cell, Li-ion polymer",
+   "Battery Capacity": "52.5 Wh",
+   "Adapter Type": "120 W AC power adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.29 kg",
+   "Colors": "Mica Silver"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "Victus Gaming 15-fb3167AX"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 8645HS (up to 5.0 GHz, 16MB L3 Cache)",
+  "RAM: 8GB DDR5 5600MHz",
+  "Storage: 512GB PCIe Gen4 NVMe SSD",
+  "Graphics: NVIDIA GeForce RTX 2050 4GB GDDR6",
+  "Features: Backlit Keyboard, Dual Speakers, Wi-Fi 6, LAN"
+ ],
+ "model": "Victus Gaming 15-fb3167AX",
+ "warranty": "2 Years",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.creatus.com.bd/hp-victus-gaming-15-fb3167ax-gaming-laptop",
+ "store": "creatus"
+}

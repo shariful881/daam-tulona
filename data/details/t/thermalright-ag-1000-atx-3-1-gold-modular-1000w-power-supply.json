@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "1000W",
+   "Efficiency (Approx.)": "Up to 90%",
+   "Certification": "80 PLUS Gold",
+   "Fan Size": "120mm",
+   "Others": "ATX 3.1, Modular Design, PCIe 5.1 Support, Active PFC, High-Performance Cooling"
+  },
+  "Input": {
+   "Voltage": "100–240V AC",
+   "Frequency Range": "50–60Hz"
+  },
+  "Output": {
+   "Modular Type": "Full-Modular",
+   "Total Power": "1000W",
+   "AC Input": "100–240V AC, 50–60Hz"
+  },
+  "Connector": {
+   "Main Power": "24-Pin (20+4) × 1",
+   "CPU": "8-Pin (4+4) × 2",
+   "PCI-E": "16-Pin (12V-2x6) × 1, 8-Pin (6+2) × 4",
+   "SATA": "SATA × 8",
+   "Molex": "Molex × 3"
+  },
+  "Warranty Information": {
+   "Warranty": "10 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "10 years",
+ "fetched": "2026-11-13T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-ag-1000-atx-3.1-gold-modular-1000w-power-supply",
+ "store": "pchouse"
+}

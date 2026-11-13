@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "Tested Voltage: 1.35V",
+   "Latency": "40-40-40-96"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum Black",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "RAM Size: 8GB, Speed: 5600MHz",
+  "Latency: 40-40-40-96",
+  "Aluminum Heat Spreader",
+  "AMD EXPO & Intel XMP 3.0 Supported"
+ ],
+ "price": 1880019200,
+ "regular": 20400,
+ "status": "In Stock",
+ "code": "50804",
+ "brand": "Corsair",
+ "mpn": "CMK16GX5M2B5600Z40",
+ "model": "VENGEANCE",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE 8GB DDR5 5600MHz CL40 Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE 8GB DDR5 5600MHz CL40 Desktop RAM"
+ ],
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-8gb-ddr5-5600mhz-cl40-ram",
+ "store": "startech"
+}

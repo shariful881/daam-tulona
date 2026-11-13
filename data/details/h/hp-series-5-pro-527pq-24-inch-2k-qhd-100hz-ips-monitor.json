@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "24 Inch",
+   "Display Type": "LCD",
+   "Panel Type": "IPS",
+   "Resolution": "QHD (2560 x 1440)",
+   "Display Surface": "Anti-glare",
+   "Aspect ratio": "16:10",
+   "Viewing Angle": "178° Horizontal viewing angle",
+   "Brightness": "350 nits",
+   "Contrast Ratio": "1500:1 static; 10000000:1 dynamic",
+   "Refresh rate": "100Hz",
+   "Color Gamut": "100% sRGB",
+   "Response Time": "5ms GtG (with overdrive)",
+   "Others Features": "Hardness: 3H",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes, HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)",
+   "HDCP": "Yes, DisplayPort and HDMI"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100 mm x 100 mm",
+   "Pivot": "±90°",
+   "Tilt": "-5 to +23°"
+  },
+  "Basic Information": {
+   "Power": "Type: Internal"
+  },
+  "Features": {
+   "Dimension": "(W x D x H) 61.34 x 4.69 x 35.67 cm (without stand)",
+   "Weight": "6.2 kg (with stand); 4.6 kg (without stand)"
+  },
+  "Connectivity": {
+   "USB Port(s)": "4x USB Type-A 5Gbps signaling rate (1 charging)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: QHD (2560 x 1440)",
+  "Display: IPS, 100Hz, 5ms GtG",
+  "Ports: 1x DP 1.2, 1x HDMI 1.4, 1x USB-B, 4x USB",
+  "Features: Low Blue Light, Flicker-Free, Fully Adjustable Stand"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/hp-series-5-pro-527pq-24-inch-monitor",
+ "store": "pchouse"
+}

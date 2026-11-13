@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "4TB",
+   "Interface": "SATA 6 Gbit/s",
+   "Disk Type": "NAS",
+   "RPM": "7200 rpm",
+   "Read/Write Speed": "185 MiB/s"
+  },
+  "Features": {
+   "Others": "MTTF: 1 400 000 h"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 4TB",
+  "Form Factor: 3.5-inch",
+  "Interface: SATA 6 Gbit/s",
+  "Rotation Speed: 7200 rpm"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:04+06:00",
+ "source": "https://www.pchouse.com.bd/toshiba-tomcat-nearline-4tb-3.5-inch-7200rpm-sata-nas-hdd",
+ "store": "pchouse"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel 10th/11th Generation Core I3/I5/I7 Series Processors For LGA 1200 Socket",
+   "Chipset": "Intel H470",
+   "Form Factor": "m-ATX"
+  },
+  "Expansion Slots": {
+   "PCI": "1 X PCI-Express 4.0 X 16 Graphics Card Slot; 1 X PCI-E X 1 Slot"
+  },
+  "Memory": {
+   "Supported Memory": "DDR4 3000/2933/2800/2666/2400/2133 Memory* (Actual Memory Data Transfer Speed Depends On Processor Type And Memory Module)",
+   "Maximum Memory": "64GB"
+  },
+  "Connector & Ports": {
+   "USB (s)": "4 X USB 3.2 Ports At The Rear; 2 X USB 2.0 Ports At The Front; 1 X USB 3.2 Header, Expandable To 2 USB 3.2 Ports; 1 X USB 2.0 Header, Expandable To 2 USB 2.0 Ports",
+   "LAN Port (s)": "Onboard Realtek 8111H Gigabit Network Card; 1 X M.2 Wifi Interface",
+   "External I/O Ports": "SATA Interface: 4 X SATA3.0 6Gb/S M.2 Interface: 1 X M.2 Slot, Supports 2242/2260/2280 Type Storage Devices (Supports Pcie 3.0 X 4 Nvme Mode)",
+   "Audio": "Onboard Realtek ALC897 High-Fidelity Audio Independent Sound Card"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "UN-H510M PRO V6 SNIPER"
+  },
+  "Product List": {
+   "Best Unika Motherboard Price List": "Price"
+  }
+ },
+ "key_features": [
+  "Platform: Intel Platform",
+  "Chipset: Intel H470",
+  "Form Factor : Micro ATX",
+  "CPU Socket Type: LGA 1200"
+ ],
+ "model": "UN-H510M PRO V6 SNIPER",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:31+06:00",
+ "source": "https://www.creatus.com.bd/unika-un-h510m-pro-v6-sniper-ddr4-micro-atx-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83M0005ALK"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 7 260 (8C / 16T, 3.8 / 5.1GHz, 8MB L2 / 16MB L3)",
+   "AI PC Category": "AI PC, AI-Powered Gaming PC",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 16 TOPS",
+   "Graphics": "NVIDIA GeForce RTX™ 5060 8GB GDDR7, Boost Clock 2497MHz, TGP 115W, 572 AI TOPS",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "1x 16GB SODIMM DDR5-5600",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5600 offering",
+   "Storage": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Two M.2 2280 PCIe® 4.0 x4 slots",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 1TB each",
+   "Optical": "None",
+   "Card Reader": "No Card Reader",
+   "Audio Chip": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+   "Speakers": "Stereo speakers, 2W x2, audio by HARMAN, optimized with Nahimic Audio",
+   "Microphone": "2x, Array",
+   "Camera": "5.0MP with E-shutter",
+   "Battery": "80Wh",
+   "Power Adapter": "245W Slim Tip (3-pin)",
+   "Special Features": "AI Chip: LA1"
+  },
+  "Design": {
+   "Display": "15.1″ WQXGA (2560×1600) OLED 1000nits (peak) / 500nits (typical) glossy, 100% DCI-P3, 165Hz, Dolby Vision®, DisplayHDR™ True Black 600",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "OLED models: 90% AAR (active area ratio)",
+   "Color Calibration": "Factory Color Calibration",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "24-Zone RGB Backlit, English (EU)",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "344.9 x 255.35 x 19.95-21.54 mm (13.58 x 10.05 x 0.79-0.85 inches)",
+   "Weight": "Starting at 1.9 kg (4.19 lbs)",
+   "Case Color": "Eclipse Black (with 24-Zone RGB Backlit Keyboard)",
+   "Case Material": "Aluminium (Top), PC-ABS + 15% Talc (Bottom)",
+   "Surface Treatment": "Aluminium Stamping (Anodized with Sandblasting)"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Trial"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 7, 802.11be 2×2 + BT5.4",
+   "WWAN": "Non-WWAN",
+   "Ethernet": "100/1000M (RJ-45)"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Firmware TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "E-shutter"
+  },
+  "Service": {
+   "Base Warranty": "2 Years Standard Warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR® 9.0, EPEAT Gold Registered, ErP Lot 6/26, RoHS compliant",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Hardware Solution)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 260 (8C / 16T, 3.8 / 5.1GHz, 8MB L2 / 16MB L3)",
+  "RAM: 16GB SODIMM DDR5-5600, Storage: 512GB M.2 2242 PCIe 4.0×4 NVMe SSD",
+  "Graphics: GeForce RTX 5060 8GB GDDR7, Boost Clock 2497MHz",
+  "Features: RGB Backlit Keyboard, E-shutter, Wi-Fi 7"
+ ],
+ "model": "83M0005ALK",
+ "warranty": "2 Years Standard Warranty",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://smartbd.com/product/lenovo-legion-5-15ahp10-amd-ryzen-7-260-15-1-inch-wqxga-oled-laptop/",
+ "store": "smartbd"
+}

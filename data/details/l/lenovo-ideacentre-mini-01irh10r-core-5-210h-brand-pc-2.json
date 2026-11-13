@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core 5 210H Octa-Core\n8 Cores: 4P + 4E\n12 Threads\n2.2 GHz Base Speed\nTurbo Boost up to 4.8 GHz\n12MB Cache",
+   "Motherboard": "Integrated Intel SoC Platform",
+   "RAM": "16 GB DDR5 RAM",
+   "Graphics Card": "Integrated Intel Graphics",
+   "Audio": "High Definition (HD) Audio\nRealtek ALC256 codec\n1x 3.5mm Headphone / Microphone Combo Jack",
+   "Storage": "512 GB M.2 2280 PCIe NVMe SSD",
+   "Power Supply": "150W (92% Efficiency) Power Supply Unit",
+   "CPU Cooler": "Dual System Cooling Fan",
+   "Network & Wireless Connectivity": "Wi-Fi 7 (802.11be 2x2)\nBluetooth 5.4\n2.5GbE RJ-45 Ethernet",
+   "Others": "Windows 11 Home Operating System\nFirmware TPM 2.0 Security Chip"
+  },
+  "General": {
+   "Dimension": "19.1 x 19.5 x 4.3 cm (191 x 195 x 42.7 mm)"
+  },
+  "External I/O Ports": {
+   "Front": "1x USB-C 3.2 Gen 2, 1x USB-A 3.2 Gen 2 (Always On), 1x Audio Combo Jack",
+   "Rear": "1x USB-C (Thunderbolt 4 / DisplayPort 1.4), 1x USB-A 2.0, 2x USB-A 3.2 Gen 2, 1x HDMI 2.1, 1x DisplayPort 1.4, 1x RJ-45 Ethernet, 1x Power Connector"
+  },
+  "Physical Attribute": {
+   "Weight": "1.8 kg (3.97 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "IdeaCentre Mini 01IRH10R"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaCentre Mini 01IRH10R",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-mini-01irh10r-core-5-210h-brand-pc",
+ "store": "creatus"
+}

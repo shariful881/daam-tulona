@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "16.1 Inch",
+   "Display Type": "LED",
+   "Resolution": "FHD (1920×1080)",
+   "Pixels Per Inch (PPI)": "137 PPI",
+   "Pixel pitch(MM)": "0.1845 mm",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178°",
+   "Brightness": "300 nits",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "60Hz",
+   "Color Support": "16.7 Million Colors",
+   "Color Gamut": "100% sRGB",
+   "Response Time": "5ms",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "No",
+   "HDCP": "Yes",
+   "Free Sync Support": "HDR10"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "2×1W"
+  },
+  "Connectivity": {
+   "Display Port": "No",
+   "HDMI": "1× Mini-HDMI",
+   "Audio Jack": "3.5mm",
+   "VGA": "No"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes",
+   "Swivel": "No",
+   "Pivot": "No",
+   "Height Adjustment": "No",
+   "Vesa Wall Mount": "No",
+   "Security Locker": "No"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "366 × 228 × 9.3 mm",
+   "Weight": "Approx. 0.78 kg"
+  },
+  "Power": {
+   "Type": "USB Type-C",
+   "Power Consumption": "Approx. 10W",
+   "Voltage": "5V"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920×1080)",
+  "Display: IPS, 60Hz",
+  "Ports: 1× Mini-HDMI, 2× Type-C",
+  "Features: Built-in Speaker, Built-in Stand, HDR10, 100% sRGB"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-13T18:21+06:00",
+ "source": "https://www.pchouse.com.bd/arzopa-z1c-portable-monitor",
+ "store": "pchouse"
+}

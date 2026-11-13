@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Color": {
+   "Connectors": "1x HDMI, 1x VGA, 1x PS/2, 4x USB 3.0, 1x RJ45 Gigabit LAN, 3x Audio Jacks"
+  },
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM4 1000 / 2000 / 3000 / 4000 / 5000 Series Processors",
+   "Chipset": "AMD B450",
+   "BIOS": "Not Specified",
+   "Form Factor": "Micro-ATX (180 mm x 216 mm)",
+   "Audio": "3x Audio Jacks"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe 3.0 x16, 1x PCIe 2.0 x1",
+   "M.2 Socket": "1x M.2, Supports NVMe & NGFF/SATA"
+  },
+  "Memory": {
+   "Slots": "2x DDR4 DIMM, 1x M.2, 1x PCIe 3.0 x16, 1x PCIe 2.0 x1",
+   "Supported Memory": "Dual-Channel DDR4, Up to 3200 MHz",
+   "Maximum Memory": "64GB (2x 32GB)"
+  },
+  "Graphics": {
+   "Graphics": "HDMI, VGA"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x VGA",
+   "USB (s)": "4x USB 3.0",
+   "Front USB": "Not Specified",
+   "LAN Port (s)": "1x RJ45 Gigabit Ethernet",
+   "Wireless Communication module": "Not Specified",
+   "Supported Storage": "NVMe, NGFF/SATA, SATA 3.0",
+   "RAID": "Not Specified",
+   "Audio": "Line Out, Mic In, Line In",
+   "Internal I/O Ports": "Not Specified"
+  },
+  "Network & Connectivity": {
+   "WiFi": "No"
+  },
+  "Others": {
+   "Special Features": "AMD Ryzen 5000X Desktop Ready",
+   "Bundled Software": "Not Specified"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Replacement Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "3-Year Replacement Warranty",
+ "fetched": "2026-11-13T18:40+06:00",
+ "source": "https://www.creatus.com.bd/xenthra-xn-b450m-vh-pro-amd-am4-mirco-atx-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 Inch",
+   "Display Type": "WLED",
+   "Panel Type": "Fast IPS",
+   "Resolution": "2K QHD (2560 × 1440)",
+   "Display Surface": "Antiglare (AG)",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "400 cd/m²",
+   "Contrast Ratio": "1000: 1 (Typical) 80 Million: 1 (DCR)",
+   "Refresh rate": "170Hz",
+   "Color Support": "1.07 Billion",
+   "Color Gamut": "sRGB 98% (CIE1931) / DCI-P3 94% (CIE1976)",
+   "Response Time": "0.5ms (MPRT) /1ms (GtG)",
+   "Curvature": "Flat",
+   "HDR": "Vesa Certified DisplayHDR 400"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Free Sync Support": "FreeSync Premium and"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100mm × 100mm",
+   "Height Adjustment": "150mm",
+   "Swivel": "30/30",
+   "Tilt": "-5/23"
+  },
+  "Power": {
+   "Power Consumption": "36W"
+  },
+  "Key Features": {
+   "Voltage Range": "100 - 240V～1.5A, 50 / 60Hz"
+  },
+  "Features": {
+   "Dimension": "with base: 613.4x(411.1~561.1)x231.8",
+   "Weight": "Gross weight: 11.2kg"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "Display Port": "DisplayPort1.4 × 2",
+   "USB Port(s)": "USB 3.2 (Gen 1) x 4 USB downstream ports (5Gbit)",
+   "HDMI": "HDMI2.0 × 2"
+  },
+  "General": {
+   "Type": "Internal"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: QHD (2560 × 1440)",
+  "Display: FAST IPS, 180Hz, 1ms(GTG), 0.5ms(MPRT)",
+  "Ports: 2x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: Adaptive Sync, Flicker Free, DisplayHDR 400"
+ ],
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-agon-ag275qxw-27-inch-gaming-monitor-white",
+ "store": "pchouse"
+}

@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "14th Generation",
+   "Processor Frequency": "Up to 5.2 GHz",
+   "Processor Core": "16 Cores",
+   "Processor Thread": "24 Threads",
+   "CPU Cache": "30MB Cache"
+  },
+  "Memory": {
+   "Bus Speed": "Not Specified",
+   "Max RAM Capacity": "64GB",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 x SO-DIMM Slots",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Storage Capacity": "1TB PCIe 4.0 NVMe M.2 SSD",
+   "Storage Upgrade": "Yes",
+   "Supported SSD Type": "M.2 PCIe SSD (512GB / 1TB / 2TB)",
+   "Extra M.2 Slot": "2 x M.2 PCIe Slots"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5050 Laptop GPU",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR7"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "1-Zone RGB Backlit, Copilot Key",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080P FHD Camera",
+   "Speaker": "Dual Speaker System",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "AI Noise-Canceling Technology, Dolby Atmos, Hi-Res Certification (Headphone), Microsoft Cortana Near Field/Far Field Support"
+  },
+  "Ports & Slots": {
+   "Display Port": "DisplayPort via USB Type-C",
+   "HDMI Port": "1 x HDMI 2.1 FRL",
+   "USB 3 Port": "3 x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 2 Type-C (DisplayPort & Power Delivery)",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45 LAN Port",
+   "WiFi": "Wi-Fi 6E (802.11ax) Triple Band 2×2",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Security Locker Slot": "No",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-Inch",
+   "Display Type": "IPS-Level Anti-Glare Display",
+   "Display Resolution": "FHD+ (1920 × 1200, WUXGA)",
+   "Display Features": "16:10 Aspect Ratio, 100% sRGB, 75.35% Adobe RGB, 144Hz, G-SYNC, MUX Switch, NVIDIA Advanced Optimus",
+   "Touch Screen": "No",
+   "Refresh Rate": "144Hz"
+  },
+  "Power": {
+   "Battery Type": "4-Cell Li-ion",
+   "Battery Capacity": "70Wh, 4S1P",
+   "Adapter Type": "100W USB Type-C AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.20 kg",
+   "Dimensions": "35.4 x 26.9 x 1.79 ~ 2.73 cm",
+   "Colors": "Jaeger Gray",
+   "Body Material": "Aluminum Top Case, Textured Plastic LCD Cover & Bottom Case"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming F16 FX608JHI"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7 14650HX (30MB Cache, Up to 5.2 GHz)",
+  "RAM: 16GB DDR5, Storage: 1TB M.2 NVMe PCIe 4.0 SSD",
+  "Graphics: NVIDIA GeForce RTX 5050 8GB GDDR7 Laptop GPU",
+  "Features: RGB Backlit Keyboard, Type-C, Wi-Fi 6E, 144Hz Refresh Rate"
+ ],
+ "model": "TUF Gaming F16 FX608JHI",
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T18:45+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-f16-fx608jhi-rtx-5050-laptop",
+ "store": "creatus"
+}

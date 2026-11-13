@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Main Features": {
+   "Type": "Gigabit Cloud Managed PoE Switch",
+   "Port": "18 x 1GE RJ45 ports (including 16 PoE ports) and 2 x 1GE SFP ports",
+   "Network Standard": "IEEE802.3, IEEE802.3u, IEEE802.3ab, IEEE802.3af, IEEE802.3at, IEEE802.3x, IEEE802.3z, IEEE802.1p, IEEE802.1q",
+   "Data Transmission Rate": "40 Gbps (Switching Capacity), 29.8Mpps (Forwarding Rate)",
+   "MAC Address Table": "8K",
+   "Environment": "Operating Temperature: 0°C - 45°C; Storage Temperature: -40°C - 70°C; Operating Humidity: 10% - 90% non-condensing"
+  },
+  "Hardware Features": {
+   "LED": "Power, Link/Act, PoE MAX, SYS",
+   "Power Supply": "100-240V AC, 50 / 60Hz (Total PoE Budget: 250W)",
+   "Dimensions (L x W x H)": "440mm × 178mm × 44mm",
+   "Weight": "Metal Enclosure (Standard Rack/Desktop/Wall mount build)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "TEG2220P-16-250W"
+  }
+ },
+ "key_features": [],
+ "model": "TEG2220P-16-250W",
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T17:54+06:00",
+ "source": "https://www.creatus.com.bd/tenda-teg2220p-16-250w-managed-poe-switch",
+ "store": "creatus"
+}

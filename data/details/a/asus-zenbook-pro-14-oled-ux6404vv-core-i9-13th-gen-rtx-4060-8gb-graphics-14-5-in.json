@@ -1,0 +1,106 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i9-13900H",
+   "Generation": "13th Gen",
+   "Processor Frequency": "2.6 GHz to 5.4 GHz",
+   "Processor Core": "14",
+   "Processor Thread": "20",
+   "CPU Cache": "24MB"
+  },
+  "Memory": {
+   "Max RAM Capacity": "16GB",
+   "Ram": "16GB (On Board)",
+   "Storage Type": "M.2 NVMe PCIe Gen4 SSD",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "1",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4060",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "1.4mm Key-travel",
+   "TouchPad": "Yes\nSupport DialPad"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD camera with IR function to support Windows Hello",
+   "Speaker": "Built-in speaker",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "Smart Amp Technology\nharman/kardon (Premium)"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "1x SD 4.0 card reader",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "1x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C support display / power delivery\n1x Thunderbolt 4 supports display / power delivery",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "No",
+   "WiFi": "Wi-Fi 6E (802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No",
+   "Security Chip": "Trusted Platform Module (TPM) 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "14.5 inches",
+   "Display Type": "OLED",
+   "Display Resolution": "2.8K (2880 x 1800)",
+   "Touch Screen": "Yes",
+   "Refresh Rate": "120Hz",
+   "Response Time": "0.2ms"
+  },
+  "Display Features": {
+   "Brightness": "400nits",
+   "Peak Brightness": "550nits HDR",
+   "Color Gamut": "100% DCI-P3",
+   "Contrast Ratio": "1,000,000:1",
+   "Color Depth": "1.07 billion colors"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "76WHrs",
+   "Adapter Type": "ø6.0, 200W AC Adapter, Output: 20V DC, 10A, 200W, Input: 100~240V AC 50/60Hz universal"
+  },
+  "Physical Specification": {
+   "Weight": "1.65 kg (3.64 lbs)",
+   "Color": "Tech Black",
+   "Dimensions": "32.18 x 22.33 x 1.79 ~ 1.79 cm (12.67\" x 8.79\" x 0.70\" ~ 0.70\")",
+   "Body Material": "Aluminum"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "Asus Zenbook Pro 14 OLED UX6404VV"
+  },
+  "Product List": {
+   "Best  Asus Laptop Price list in bd": "Price"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i9-13900H (24MB Cache, 2.6 GHz to 5.4 GHz)",
+  "RAM: 16GB DDR5, SSD: 1TB M.2 NVMe PCIe Gen4",
+  "Graphics: Nvidia GeForce RTX 4060 8GB GDDR6",
+  "Features: Backlight Keyboard, Type-C, Wi-Fi 6E, Touchscreen"
+ ],
+ "model": "Asus Zenbook Pro 14 OLED UX6404VV",
+ "warranty": "2 Years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:46+06:00",
+ "source": "https://www.creatus.com.bd/asus-zenbook-pro-14-oled-ux6404vv-core-i9-13th-gen-touch-laptop",
+ "store": "creatus"
+}

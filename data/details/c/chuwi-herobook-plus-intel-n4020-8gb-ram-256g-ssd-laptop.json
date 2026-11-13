@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Gemini-Lake N4020",
+   "Charging Interface": "12V2A"
+  },
+  "BASIC Information": {
+   "Display": "15.6 inch，1920*1080，16:9 IPS",
+   "Memory": "LPDDR4 8GB",
+   "Battery": "7.6V/5000mAH 38Wh",
+   "Graphics": "Intel UHD Graphics 600",
+   "Storage": "256G SSD"
+  },
+  "Display Details": {
+   "Color": "black+space gray"
+  },
+  "Input Devices": {
+   "Keyboard": "Chiclet Keyboard"
+  },
+  "Connectivity": {
+   "I/O Port": "USB3.0*2，Mini HDMI*1，TF card,3.5mm Audio Jack，M. 2 ports"
+  },
+  "Connectors": {
+   "Wireless": "2.4G/5G，WiFi 802.11a/ac/b/g/n，Bluetooth 5.1"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Display : 15.6 Inch(1920 x 1080) IPS Anti-Glare Display",
+  "Processor: Intel Celeron N4020 (4M Cache, 1.10GHz - 2.80GHz)",
+  "RAM: 8GB LPDDR4 RAM",
+  "Storage: 256GB M.2SSD"
+ ],
+ "warranty": "2 years",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/chuwi-herobook-plus-intel-n4020-laptop",
+ "store": "pchouse"
+}

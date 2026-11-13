@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Main Features": {
+   "Number of Keys": "6 buttons\nScroll Wheel",
+   "Connection Type": "Tri-Mode (Bluetooth, LIGHTSPEED, & Type-C)",
+   "Optical Sensor": "HERO",
+   "Resolution": "Up to 44K DPI"
+  },
+  "Polling Rate": {
+   "USB report rate": "1 kHz",
+   "Wireless report rate": "1 kHz",
+   "Max Report Rate": "1000 Hz (1 ms)"
+  },
+  "Others": {
+   "Max. speed": "> 678 IPS * Tested on Logitech G640 Gaming Mouse Pad",
+   "Microprocessor": "32 bit ARM"
+  },
+  "Gaming Features": {
+   "Tracking Method": "Optical",
+   "Acceleration": "40 G* Tested on Logitech G640 Gaming Mouse Pad",
+   "Built-in Memory": "Onboard memory: 5 profiles"
+  },
+  "Physical Specifications": {
+   "Color": "White",
+   "Weight": "59 g",
+   "Battery Life": "Up to 130 hours (Battery life may vary based on user and computing conditions)"
+  },
+  "Dimension": {
+   "Height": "38.2 mm",
+   "Width": "63.9 mm",
+   "Depth": "117.3 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Number of Buttons: 6 buttons, Scroll Wheel",
+  "Sensor: HERO, Resolution: Up to 44,000 DPI",
+  "Max Report Rate: 1000 Hz (1 ms), LIGHTSYNC RGB",
+  "Connectivity: Tri-Mode (Bluetooth, LIGHTSPEED, & Type-C)"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://smartbd.com/product/logitech-g304-x-superlight-lightspeed-wireless-gaming-white-mouse/",
+ "store": "smartbd"
+}

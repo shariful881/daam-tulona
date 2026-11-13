@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "BASIC Information": {
+   "Sensor": "GPS+B1C+GLONASS+Galileo",
+   "OS": "Android 15 Operating System"
+  },
+  "Basic Information": {
+   "Display": "10.92-inch IPS",
+   "Processor": "Unisoc T7250",
+   "Audio": "Built-in Dual-channel Speaker",
+   "Camera": "5MP Front",
+   "Battery": "7000mAh 3.8V Lithium Battery",
+   "Charging Interface": "Type-C Charging (5V/2A)"
+  },
+  "Key Features": {
+   "Capacity": "4GB RAM"
+  },
+  "Video Memory Specifications": {
+   "GPU Core": "Arm Mali-G57 1-Core @ 650MHz"
+  },
+  "Features": {
+   "Dimension": "258.1mm(L) × 169.4mm(W) × 8.4mm(H)",
+   "Weight": "521g"
+  },
+  "Connectivity": {
+   "Connectivity": "WIFI 2.4G + 5G, 802.11 a/b/g/n/ac"
+  }
+ },
+ "key_features": [
+  "Display: 10.92-inch IPS, 1280×800p",
+  "CPU: Unisoc T7250 8-Core, GPU: Arm Mali-G57",
+  "RAM: 4GB, Storage: 128GB",
+  "Battery: 7000mAh, Type-C Charging, Android 15"
+ ],
+ "fetched": "2026-11-13T18:15+06:00",
+ "source": "https://www.pchouse.com.bd/teclast-p50-unisoc-t7250-android-tablet",
+ "store": "pchouse"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Noise": "25.0 dBA",
+   "Air Pressure": "1.47 mm-H2O",
+   "Connectors": "5V ARGB Header\n2510 - 4Pin",
+   "Material": "Aluminum Fins & Copper Heatpipes",
+   "Speed": "PWM 700~1800 RPM"
+  },
+  "Others": {
+   "Heatpipe": "Φ6mm x 4 pcs",
+   "Rated Voltage": "12V & 5V",
+   "Start Voltage": "6.0 V",
+   "Power Input": "3.0W & 1.44W",
+   "Life time/Fan Life time": "30,000 hours",
+   "Cooling Power": "240 W"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1851/1700/1200/1156/1155/1151/1150",
+   "AMD": "AM5/AM4/FM2/FM1/AM3+/AM3/AM2+/AM2\n(CPU Socket)"
+  },
+  "Cooling System": {
+   "Fan Airflow": "62.72 CFM"
+  },
+  "Dimensions": {
+   "Heatsink Dimension": "125 x 92 x 152 mm ( L x W x H)",
+   "Fan Dimension": "120 x 120 x 25 mm ( L x W x H)"
+  },
+  "Warranty Information": {
+   "Warranty": "05 year warranty"
+  },
+  "Image": {
+   "Model": "UX400 ARGB Sync"
+  }
+ },
+ "key_features": [
+  "FAN Speed: PWM 700~1800 RPM",
+  "Max. Air Flow: 62.72 CFM",
+  "Max. Pressure: 1.47 mm-H2O",
+  "Noise Level: 25.0 dBA"
+ ],
+ "model": "UX400 ARGB Sync",
+ "warranty": "05 year warranty",
+ "fetched": "2026-11-13T18:29+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-ux400-argb-sync-cpu-cooler",
+ "store": "creatus"
+}

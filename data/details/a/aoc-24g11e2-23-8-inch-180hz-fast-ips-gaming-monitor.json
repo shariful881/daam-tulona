@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "23.8\"",
+   "Display Type": "LED",
+   "Panel Type": "FAST IPS",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel Pitch (mm)": "0.2745 (H) × 0.2745 (V)",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "300 cd/m²",
+   "Contrast Ratio": "1000:1 (Typical), 80 Million:1 (DCR)",
+   "Refresh rate": "180Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "NTSC 112%, sRGB 133%, DCI-P3 102%",
+   "Response Time": "0.5ms (MPRT) / 1ms (GtG)",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "HDMI: 2.2, DisplayPort: 2.2",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "-5° ~ 23°",
+   "Tilt": "100mm × 100mm"
+  },
+  "Basic Information": {
+   "Power": "Type: External"
+  },
+  "Features": {
+   "Dimension": "without Stand (mm) 320.8 (H) × 539.7 (W) × 51.1 (D)\nwith Stand (mm) 433.3 (H) × 539.7 (W) × 196.2 (D)",
+   "Weight": "without Stand (kg) 2.71 kg"
+  },
+  "Interface": {
+   "Display Port": "1x DisplayPort 1.4",
+   "HDMI": "1x HDMI 2.0"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: FAST IPS, 180Hz, 0.5ms (MPRT), 1ms (GtG)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4, 1x Audio Out",
+  "Features: AdaptiveSync, Flicker Free, Low Input Lag"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24g11e-23.8-inch-180hz-fast-ips-gaming-monitor",
+ "store": "pchouse"
+}

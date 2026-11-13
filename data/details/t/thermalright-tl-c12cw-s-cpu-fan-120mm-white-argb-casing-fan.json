@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Casing Fan": {
+   "Air Flow": "66.17 CFM (MAX)",
+   "Noise (dBA)": "25.6 dBA (MAX)",
+   "Air Pressure": "1.53mm H2O (MAX)",
+   "Rate Speed": "1550 RPM±10% (MAX)",
+   "Bearing Type": "S-FDB Bearing",
+   "Ampere": "0.20 A"
+  },
+  "Connectors": {
+   "Connector": "4 PIN PWM\nARGB Connector: 3 PIN 5V"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "L120 mm x W120 mm x H25 mm",
+   "Weight": "120g"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Rated Speed: 1550 RPM±10% (MAX)",
+  "Noise Level: 25.6 dBA (MAX)",
+  "Connector: 4 PIN PWM",
+  "ARGB Connector: 3 PIN 5V"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-tl-c12cw-s-120mm-white-argb-casing-fan",
+ "store": "pchouse"
+}

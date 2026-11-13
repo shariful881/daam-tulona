@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512 GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3 *4, NVMe 1.3",
+   "MTBF": "2 million hours",
+   "TBW": "300"
+  },
+  "Sequential R/W": {
+   "Read": "2080MB/s",
+   "Write": "1700MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C~70°C",
+   "Storage Temperature": "-40°C~85°C"
+  },
+  "Physical Specification": {
+   "Weight": "8g",
+   "Dimensions": "Length 80mm\nWidth 22mm\nHeight 2.25mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years warranty"
+  },
+  "Image": {
+   "Model": "N930E Pro 512GB"
+  },
+  "Product List": {
+   "Best Netac SSD Price List": "Price",
+   "Netac N930E Pro 256GB NVMe M.2 2280 SSD": "6,350৳\n6,900৳",
+   "Netac N535S 480GB 2.5-inch SATAIII SSD": "8,799৳\n9,352৳",
+   "Netac N535N 128GB M.2 2280 SATAIII SSD": "3,100৳\n3,560৳",
+   "Netac N930E Pro 128GB NVMe M.2 2280 SSD": "4,099৳\n4,970৳",
+   "Netac N535N 512GB M.2 2280 SATAIII SSD": "9,000৳\n9,900৳",
+   "Netac N930E Pro 1TB NVMe M.2 2280 SSD": "18,200৳\n19,050৳",
+   "Netac N535N 256GB M.2 2280 SATAIII SSD": "5,400৳\n5,950৳",
+   "Netac NV2000 512GB M.2 NVMe PCIe 2280 SSD": "10,500৳\n11,500৳",
+   "Netac SA500 240GB 2.5 Inch SATAIII SSD": "5,899৳\n5,980৳",
+   "Netac SA500 128GB 2.5 Inch SATAIII SSD": "2,999৳\n3,160৳"
+  }
+ },
+ "key_features": [
+  "Interface: PCI-E",
+  "Capacity: 512GB",
+  "Read Speed: 2080MB/s",
+  "Write Speed: 1700MB/s"
+ ],
+ "model": "N930E Pro 512GB",
+ "warranty": "3 years warranty",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.creatus.com.bd/netac-n930e-pro-512gb-nvme-m2-2280-ssd",
+ "store": "creatus"
+}

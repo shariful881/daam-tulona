@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥ 90% @ Typical Load",
+   "Certification": "80 Plus Gold",
+   "Fan Size": "135mm",
+   "Others": "Active PFC\nMTBF: >100,000 Hours\nProtections: UVP / OVP / OPP / OTP / SCP"
+  },
+  "Input": {
+   "Voltage": "100-240V",
+   "Frequency Range": "50-60Hz",
+   "Current": "7.5 ~ 15A"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "1200W"
+  },
+  "Connector": {
+   "Main Power": "1x ATX 24 Pin",
+   "CPU": "1x CPU 4+4 Pin",
+   "PCI-E": "6x PCI-e 6+2 Pin",
+   "SATA": "9",
+   "Molex": "3"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1200W, Efficiency: 80 Plus Gold",
+  "Operation up to 40°C, Fully Modular",
+  "ATX 3.1 and PCIe Gen 5.1 Standards",
+  "135mm Quiet & Long-Life FDB Fan Cooling"
+ ],
+ "price": 23500,
+ "regular": 25820,
+ "status": "In Stock",
+ "code": "50159",
+ "brand": "Cooler Master",
+ "mpn": "MPW-C001-AFAG-BUK",
+ "model": "Elite Gold 1200",
+ "warranty": "10 years",
+ "name": "Cooler Master Elite Gold 1200 1200W 80 Plus Gold Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Cooler Master",
+  "Cooler Master Elite Gold 1200 1200W 80 Plus Gold Power Supply"
+ ],
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-elite-gold-1200-power-supply",
+ "store": "startech"
+}

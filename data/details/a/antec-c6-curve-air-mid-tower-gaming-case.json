@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Front Panel": "Tempered Glass",
+   "Tempered  Glass Panel": "Three-Sided Tempered Glass Panel",
+   "Motherboard Support": "ATX, Micro-ATX, ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Steel + Plastic + Glass",
+   "Weight": "9.12Kg",
+   "Dimensions": "480 x 235 x 470mm(DWH)",
+   "Expansion Slots": "7",
+   "Radiator Support": "Top: 120 / 140 / 240 / 280 / 360mm\nRear: 120mm",
+   "Fan Support": "Top: 3 x 120mm / 2 x 140mm\nPower supply shroud: 2 x 120mm\nRear: 1 x 120mm / 1 x 140mm",
+   "Pre- Installed Fans": "2 x 120mm PWM reverse fans on the PSU shroud + 1 x 140mm PWM fan at the rear",
+   "Drive Bays": "3.5\": 1\n2.5\": 1",
+   "I/O Port": "Power, USB 3.0 x 2, Type-C 3.2 Gen 2 x 1(10Gbps), Headphone/Mic Combo Jack",
+   "Others": "Dust Filter: Top / Bottom\nMulti-Directional Air Intake and Massive Airflow\nBottom Air Intake Optimization\nSide-Mounted PSU Chamber & 13A Extension Cable\nDual-Orientation PSU Installation with 90° Rotatable PSU Module\nIndividual Pcie Slot Covers\nSupport back-connect/ BTF motherboards"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 180mm",
+   "Maximum Graphics Card Length": "≤ 450mm",
+   "Maximum PSU Length": "Standard mounting (excluding cables) ≤ 150mm (For modular PSUs, the PSU chamber fan bracket must be removed.)\nSide mounting (excluding cables) ≤ 160mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: ATX, Micro-ATX, ITX",
+  "Curved Glass Design with Three-Sided Tempered Glass",
+  "Pre-Install Fans: 2 x 120mm PWM Reverse, 1 x 140mm",
+  "Side-Mounted PSU Chamber, Support Back-Connect/BTF Motherboards"
+ ],
+ "price": 1120011800,
+ "regular": 12700,
+ "status": "In Stock",
+ "code": "49046",
+ "brand": "Antec",
+ "model": "C6 Curve Air Constellation Series",
+ "warranty": "No Warranty",
+ "name": "Antec C6 Curve Air Constellation Series ATX Mid Tower Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec C6 Curve Air Constellation Series ATX Mid Tower Gaming Casing"
+ ],
+ "fetched": "2026-11-13T17:35+06:00",
+ "source": "https://www.startech.com.bd/antec-c6-curve-air-constellation-series-casing",
+ "store": "startech"
+}

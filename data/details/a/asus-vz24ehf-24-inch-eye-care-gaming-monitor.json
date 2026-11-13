@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8-inch",
+   "Display Type": "LED",
+   "Resolution": "1920x1080",
+   "Pixel pitch(MM)": "0.2745mm",
+   "Display Surface": "Non-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "(CR≧10, H/V) : 178°/ 178°",
+   "Brightness": "250cd/㎡",
+   "Contrast Ratio": "1300:1",
+   "Refresh Rate": "100Hz",
+   "Color Support": "16.7M",
+   "Response Time": "1ms MPRT"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Adaptive-Sync",
+   "HDCP": "Yes, 1.4"
+  },
+  "Free Sync Support": {
+   "Eye Care+ Technology": "Yes",
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "HDMI": "HDMI(v1.4) x 1"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Vesa Wall Mount": "75x75mm",
+   "Security Locker": "Kensington Lock"
+  },
+  "Physical Specification": {
+   "Dimension": "Phys. Dimension (W x H x D) : 54.02 x 39.39 x 21.01 cm (21.27\" x 15.51\" x 8.27\")\nPhys. Dimension without Stand (W x H x D) : 54.02 x 31.65 x 3.89 cm (21.27\" x 12.46\" x 1.53\")"
+  },
+  "Weight": {
+   "Net Weight": "2.85 kg (6.28 lbs)",
+   "Net Weight without Stand": "2.45 kg (5.40 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<19W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 1ms MPRT",
+  "Ports: HDMI(v1.4) x 1",
+  "Features: Low Blue Light, Flicker-free"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/asus-vz24ehf-24-inch-eye-care-gaming-monitor",
+ "store": "pchouse"
+}

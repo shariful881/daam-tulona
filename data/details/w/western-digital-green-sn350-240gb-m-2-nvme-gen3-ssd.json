@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "240 GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3 8Gb/s",
+   "Flash Type": "TLC NAND",
+   "MTBF": "Up to 1.0M hours"
+  },
+  "Sequential R/W": {
+   "Sequential Read Performance": "2400MB/s",
+   "Sequential Write Performance": "900MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "32ºF to 158ºF (0ºC to 70ºC)",
+   "Storage Temperature": "-40ºF to 185ºF (-40ºC to 85ºC)",
+   "Shock resistance": "1,500G @0.5 ms half sine",
+   "Vibration Resistance": "5 gRMS, 10-2000 Hz, 3 axes"
+  },
+  "Physical Specification": {
+   "Weight": "7.5g ± 1g",
+   "Dimensions": "80mm x 22.0mm x 2.38mm"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "Green SN350"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3 8Gb/s",
+  "Sequential Read: 2400MB/s",
+  "Sequential Write: 900MB/s"
+ ],
+ "model": "Green SN350",
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:40+06:00",
+ "source": "https://www.creatus.com.bd/western-digital-green-sn350-240gb-m2-nvme-gen3-ssd",
+ "store": "creatus"
+}

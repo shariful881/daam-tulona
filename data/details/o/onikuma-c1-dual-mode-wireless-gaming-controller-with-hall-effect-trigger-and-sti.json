@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Connectivity": "Wireless"
+  },
+  "Others": {
+   "Other Features": "Hall Effect Trigger and Stick,\nHigh Precision Dual Motors\n3 light modes: constant, breathing,\nrunning, fantasy light\nCharging voltage: DC5V\nCharging current: 250MA"
+  },
+  "Connectivity": {
+   "Interface": "TYPE-C interface"
+  },
+  "Power": {
+   "Battery Capacity": "800mAh",
+   "Power Supply": "built-in polymer battery",
+   "Backup Time (Approx)": "8 hours"
+  },
+  "Current": {
+   "Sleep current": "≤15uA",
+   "Pairing current": "≤45mA",
+   "Working current": "≤40mA (no vibration),"
+  },
+  "Physical Specification": {
+   "Colors": "Black, White"
+  },
+  "Battery": {
+   "Charging": "2.5 hours"
+  },
+  "Warranty Information": {
+   "Warranty": "1-Year"
+  },
+  "Image": {
+   "Model": "C1"
+  }
+ },
+ "key_features": [
+  "Accurate Controls: Hall Effect technology prevents stick drift.",
+  "Flexible Use: Supports both wired and wireless modes.",
+  "Comfortable Grip: Designed for long gaming sessions.",
+  "Immersive Gameplay: Vibration feedback enhances realism.",
+  "Universal Compatibility: Works with multiple devices."
+ ],
+ "model": "C1",
+ "warranty": "1-Year",
+ "fetched": "2026-11-13T17:59+06:00",
+ "source": "https://www.creatus.com.bd/onikuma-c1-dual-mode-controller",
+ "store": "creatus"
+}

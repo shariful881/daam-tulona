@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7-14650HX",
+   "Generation": "14th Generation",
+   "Processor Frequency": "Up to 5.2 GHz",
+   "Processor Core": "16 (8 Performance cores, 8 Efficient cores)",
+   "Processor Thread": "24",
+   "CPU Cache": "30MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "Up to 64GB",
+   "Ram": "16GB (2x 8GB)",
+   "Storage Type": "M.2 NVMe PCIe Gen4 SSD",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Up to 4TB",
+   "Supported SSD Type": "2x M.2 SSD slots (Supports 2x PCIe Gen4x4 NVMe M.2 SSD)",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4060 8GB\nBoost Clock 2370MHz / Maximum Graphics Power 140 W",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "RGB Backlit Keyboard",
+   "Keyboard Features": "3-zone RGB Backlit Keyboard, Up to 1.7mm Key-travel (Support N-Key)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD (1080p) IR Webcam\nSupport Windows Hello Face Authenticatio",
+   "Speaker": "2x 2W Speaker",
+   "Microphone": "Build-in array Microphone",
+   "Audio Features": "Dolby Atmos\nSmart Amp Technology"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "1 x MicroSD (UHS-II)",
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 3 Port": "1 x Type-A support USB3.2 Gen2\n1 x Type-A support USB3.2 Gen2",
+   "USB Type-C / Thunderbolt Port": "1 x Type-C with Thunderbolt 4 (supports USB4, DisplayPort 1.4 and Power Delivery 3.0)\n1 x Type-C support USB3.2 Gen2, DisplayPort 1.4",
+   "Headphone & Microphone Port": "1 x Audio Jack support mic / headphone combo"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Intel Wi-Fi 7 Wireless (802.11be 2x2)",
+   "Bluetooth": "Bluetooth V5.4"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Firmware-based TPM, supports Intel Platform Trust Technology (Intel PTT)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WQXGA 2K (2560x1600)",
+   "Display Features": "100% sRGB, Pantone Validated\nTÜV Rheinland-certified\nDolby Vision\nNVIDIA Advanced Optimus\nG-SYNC",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "165hz"
+  },
+  "Power": {
+   "Battery Type": "Li-ion",
+   "Battery Capacity": "99Wh",
+   "Adapter Type": "240W AC Adapter, 100W PD"
+  },
+  "Physical Specification": {
+   "Weight": "~2.3 kg / ~5.07 lb",
+   "Color": "Midnight Gray",
+   "Dimensions": "35.6(W) x 25.4(D) x 2.0~2.7(H) cm / 14.01(W) x 10(D) x 0.78~1.06(H) inch"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "AORUS 16X AKG 2024"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-14650HX (30MB Cache, Up to 5.2 GHz)",
+  "RAM: 16GB DDR5 5600MHz, Storage: 1TB PCIe Gen4x4 NVMe M.2 SSD",
+  "Graphics: GeForce RTX 4060 8GB GDDR6, Boost Clock 2370MHz",
+  "Features: RGB Keyboard, Type-C, Wi-Fi 7, 165Hz Refresh Rate, G-Sync"
+ ],
+ "model": "AORUS 16X AKG 2024",
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:45+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-aorus-16x-akg-rtx-4060-8gb-2k-165hz-gaming-laptop",
+ "store": "creatus"
+}

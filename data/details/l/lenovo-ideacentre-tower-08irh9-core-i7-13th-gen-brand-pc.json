@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i7-13620H\n10 Cores: 6P + 4E / 16 Threads\nP-core up to 4.9GHz\nE-core up to 3.6GHz\n24MB Intel Smart Cache",
+   "Motherboard": "Intel SoC Platform",
+   "RAM": "8GB SODIMM DDR5-5200\n2x DDR5 SODIMM slots\nDual-channel capable\nExpandable up to 32GB",
+   "Graphics Card": "Integrated Intel UHD Graphics",
+   "Audio": "High Definition (HD) Audio, Realtek ALC623-CG codec, 24-bit DAC & ADC support, No built-in speakers",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0x4 NVMe\nSupports up to 3 drives: 1x 3.5\" HDD bay for self-upgrade + 2x M.2 SSD up to 1TB each",
+   "Power Supply": "260W 90% Power Supply",
+   "CPU Cooler": "Standard Factory Cooling System",
+   "Network & Wireless Connectivity": "Wi-Fi 6 (802.11ax 2x2)\nBluetooth 5.2\nIntegrated 100/1000M Gigabit Ethernet (RJ-45)",
+   "Others": "USB Calliope Keyboard (Black, English IN)\nUSB Calliope Mouse (Black)\nFirmware TPM 2.0 integrated in SoC"
+  },
+  "General": {
+   "Dimension": "89 x 291.4 x 339.5 mm (3.5 x 11.5 x 13.4 inches) — 8.2L Small Form Factor (SFF)"
+  },
+  "External I/O Ports": {
+   "Front": "1x USB-C (5Gbps / 15W charging), 2x USB-A (5Gbps), 1x Headphone/Microphone combo jack (3.5mm), 1x Microphone (3.5mm)",
+   "Rear": "2x USB-A (5Gbps, 1x with Smart Power On), 2x USB-A (Hi-Speed USB 2.0), 1x HDMI 2.1 TMDS, 1x VGA, 1x Ethernet (RJ-45), 1x Audio-out (3.5mm), 1x Power connector"
+  },
+  "Physical Attribute": {
+   "Weight": "Around 3.59 kg (7.9 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "IdeaCentre Tower 08IRH9"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaCentre Tower 08IRH9",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-tower-08irh9-core-i7-brand-pc",
+ "store": "creatus"
+}

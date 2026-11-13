@@ -1,0 +1,105 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7-13650HX",
+   "Generation": "13th Gen",
+   "Processor Frequency": "2.60 GHz up to 4.90 GHz",
+   "Processor Core": "14",
+   "Processor Thread": "20",
+   "CPU Cache": "24MB"
+  },
+  "Memory": {
+   "Bus Speed": "4800MHz",
+   "Max RAM Capacity": "Up to 32GB",
+   "Ram": "16GB",
+   "Storage Type": "PCIEG4",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4060",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard 1-Zone RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD camera",
+   "Speaker": "2x 2W",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "AI noise-canceling technology\nDolby Atmos\nHi-Res certification\nSmart Amp Technology\nSupport Microsoft Cortana near field/Far field"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "3x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x Thunderbolt 4 support DisplayPort",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1x RJ45 LAN port\n10/100/1000 Mbps",
+   "WiFi": "Wi-Fi 6(802.11ax)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel HM770"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "IPS",
+   "Display Resolution": "QHD+ WQXGA LED (2560x1600)",
+   "Display Features": "PS-Level, 500nits Brightness,\nContrast - 1200:1, 100% DCI-P3 %",
+   "Touch Screen": "No",
+   "Refresh Rate": "240Hz"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "90WHrs, 3S1P"
+  },
+  "Adapter Type": {
+   "Output": "20V DC, 14A, 280W,",
+   "Input": "100~240C AC 50/60Hz universal"
+  },
+  "Physical Specification": {
+   "Weight": "2.50 Kg ( lbs)",
+   "Color": "Volt Green",
+   "Dimensions": "35.4 x 26.4 x 2.26 ~ 3.04 cm\n(13.94\" x 10.39\" x 0.89\" ~ 1.20\")"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "ROG Strix G16 G614JV"
+  },
+  "Product List": {
+   "Asus Laptop Price List in BD": "Price"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-13650HX",
+  "RAM: 16GB DDR5, Storage: 1TB SSD",
+  "Graphics: GTX 4060 8GB GDDR6",
+  "Features: Backlit Chiclet Keyboard 1-Zone RGB"
+ ],
+ "model": "ROG Strix G16 G614JV",
+ "warranty": "2 years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-rog-strix-g16-g614jv-core-i7-13th-gen-8gb-graphics-16-inch-gaming-laptop",
+ "store": "creatus"
+}

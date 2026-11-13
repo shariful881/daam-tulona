@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "AMD Ryzen 7 7730U",
+   "Processor Frequency": "2.00 GHz – Up to 4.50 GHz",
+   "Generation": "AMD Ryzen 7000 Series",
+   "Processor Core": "8 Cores",
+   "Processor Thread": "16 Threads",
+   "CPU Cache": "20 MB"
+  },
+  "Chipset": {
+   "Chipset": "Integrated AMD Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS LED",
+   "Display Resolution": "Full HD (1920 × 1080)",
+   "Touch Screen": "Yes",
+   "Display Features": "Anti-Glare, Wide Viewing Angle",
+   "Refresh Rate": "60 Hz",
+   "Brightness": "220 nits"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR4",
+   "Removable": "Yes",
+   "Bus Speed": "3200 MT/s",
+   "Total RAM Slot": "1 SO-DIMM slot"
+  },
+  "Storage": {
+   "Storage Type": "M.2 PCIe NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 2230 PCIe NVMe SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared System Memory",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size Keyboard with Numeric Keypad",
+   "TouchPad": "Multi-Touch Precision Touchpad",
+   "Keyboard Features": "Spill-Resistant Keyboard"
+  },
+  "Camera & Audio": {
+   "WebCam": "HD 720p Webcam",
+   "Speaker": "Stereo Speakers, 2 × 2W",
+   "Microphone": "Integrated Microphone",
+   "Audio Features": "Stereo Audio, Universal Headset Jack"
+  },
+  "Network & Connectivity": {
+   "LAN": "No Built-in RJ-45 Ethernet Port Listed",
+   "WiFi": "Wi-Fi 5",
+   "Bluetooth": "Yes"
+  },
+  "Ports & Slots": {
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1 × HDMI 1.4",
+   "USB 2 Port": "1 × USB 2.0 Type-A",
+   "USB 3 Port": "1 × USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 × USB 3.2 Gen 1 Type-C",
+   "Headphone & Microphone Port": "1 × Universal Audio Jack"
+  },
+  "Security": {
+   "Security Chip": "Firmware TPM 2.0; verify exact configuration"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Carbon Black",
+   "Dimensions": "358.50 × 235.56 × 16.96–18.99 mm",
+   "Weight": "1.62 kg",
+   "Body Material": "Plastic"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Integrated Lithium-Ion Battery",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "65W AC Adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 7730U",
+  "Memory: 16GB RAM",
+  "Storage: 512GB SSD",
+  "Display: 15.6-inch Full HD (1920 × 1080)"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/dell-inspiron-15-ryzen-7-7730u-laptop",
+ "store": "pchouse"
+}

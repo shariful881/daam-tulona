@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Display Features": {
+   "Resolution": "1920 x 1200 pixels",
+   "Touch Screen": "Multi touch"
+  },
+  "Basic Information": {
+   "Chipset": "Qualcomm Snapdragon 685",
+   "NFC": "No",
+   "OS": "Android 13, ZUI 15"
+  },
+  "Anbernic": {
+   "CPU": "Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+   "GPU": "Adreno 650"
+  },
+  "Gaming Console": {
+   "Network & Connectivity": "2G, 3G, 4G"
+  },
+  "Display Details": {
+   "GPS": "Yes, with A-GPS, GLONASS, BDS",
+   "Sensors": "Accelerometer, gyro, proximity, compass"
+  },
+  "Features": {
+   "Battery": "Type-Li-Po"
+  },
+  "Network & Wireless Connectivity": {
+   "Wi-Fi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot"
+  },
+  "Connectivity": {
+   "Bluetooth": "5.2, A2DP, LE",
+   "USB": "USB Type-C 3.2"
+  },
+  "Camera Info": {
+   "Camera Type": "Rear Single-13MP"
+  },
+  "General": {
+   "Type": "IPS LCD, 90Hz"
+  },
+  "Audio Features": {
+   "Speaker": "Loudspeaker Yes, with stereo speaker\n3.5mm Jack Yes\nTuned by JBL"
+  },
+  "Physical Specification": {
+   "Size": "11.0 inches",
+   "Card Slot": "microSDXC (dedicated slot)",
+   "Color": "Gray",
+   "Weight": "375 g (13.23 oz)"
+  },
+  "Physical Specifications": {
+   "Dimensions": "207.1 x 128.1 x 7.9 mm"
+  },
+  "Storage & Interface": {
+   "Sim Size": "Nano-SIM"
+  }
+ },
+ "key_features": [
+  "Display: 11\", 16 Million, WUXGA Display",
+  "Processor: Qualcomm Snapdragon 685 Octa-core",
+  "RAM: 8GB, Storage: 128GB, GPU: Adreno 610",
+  "Battery Capacity: 7040mAh, Stereo speakers"
+ ],
+ "fetched": "2026-11-13T18:15+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-xiaoxin-pad-wifi-only-snapdragon-685-tablet",
+ "store": "pchouse"
+}

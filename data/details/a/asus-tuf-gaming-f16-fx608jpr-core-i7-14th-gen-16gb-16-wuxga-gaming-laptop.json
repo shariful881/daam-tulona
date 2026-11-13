@@ -1,0 +1,104 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "14th Gen",
+   "Processor Frequency": "Up to 5.2 GHz",
+   "Processor Core": "16 Cores",
+   "Processor Thread": "24 Threads",
+   "CPU Cache": "30MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "64GB",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 x SO-DIMM Slots",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "Yes",
+   "Supported SSD Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Extra M.2 Slot": "2 x M.2 Slots"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5070 Laptop GPU + Intel UHD Graphics",
+   "Graphics Memory": "8GB GDDR7 Dedicated + Shared Intel Graphics",
+   "Graphics Type": "GDDR7"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "Aura Sync 1-Zone RGB Backlit Keyboard with Copilot Key",
+   "TouchPad": "Precision Touchpad with NumberPad"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080P FHD IR Camera with Windows Hello",
+   "Speaker": "Dual Speaker System",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "AI Noise-Canceling Technology, Dolby Atmos, Hi-Res Audio Certification, Microsoft Cortana Near/Far Field Support"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Display Port": "Supported via Thunderbolt 4 and USB Type-C (DisplayPort)",
+   "Card Reader": "No",
+   "HDMI Port": "1 x HDMI 2.1 FRL",
+   "USB 2 Port": "No",
+   "USB 3 Port": "3 x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 x Thunderbolt 4, 1 x USB 3.2 Gen 2 Type-C",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6E (802.11ax) Triple Band 2×2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "No",
+   "Fingerprint Sensor": "No",
+   "Camera Privacy Shutter": "No",
+   "Security Chip": "Firmware TPM, BIOS Administrator Password & User Password Protection"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS LED Backlit Anti-Glare Display",
+   "Display Resolution": "WUXGA (1920 × 1200)",
+   "Display Features": "16:10 Aspect Ratio, 300 nits Brightness, 100% sRGB, 75.35% Adobe RGB, 72% NTSC, G-SYNC, Adaptive-Sync, 1000:1 Contrast Ratio, 85° Viewing Angle",
+   "Touch Screen": "No",
+   "Refresh Rate": "165Hz",
+   "Brightness": "300 nits",
+   "Response Time": "3ms (GTG)"
+  },
+  "Power": {
+   "Battery Type": "4-Cell Li-ion",
+   "Battery Capacity": "90Wh (90WHrs, 4S1P)",
+   "Adapter Type": "240W AC Adapter, Rectangle Connector",
+   "Backup Time (Approx)": "Supports Fast Charging (0–50% in Approximately 30 Minutes)"
+  },
+  "Physical Specification": {
+   "Weight": "2.20 kg",
+   "Dimensions": "35.4 x 26.9 x 1.79 ~ 2.57 cm",
+   "Colors": "Jaeger Gray",
+   "Body Material": "Durable TUF Gaming Chassis"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year Warranty (Battery & Adapter: 1 Year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming F16 FX608JPR"
+  }
+ },
+ "key_features": [
+  "Processor: Core i7-14650HX (30MB Cache, up to 5.2 GHz, 16 cores, 24 Threads)",
+  "RAM: 16GB DDR5, Storage: 1TB M.2 NVMe PCIe 4.0 SSD",
+  "Graphics: NVIDIA GeForce RTX 5070 8GB GDDR7",
+  "Features: RGB Backlit Keyboard With CoPilot Key, Type-C"
+ ],
+ "model": "TUF Gaming F16 FX608JPR",
+ "warranty": "2-Year Warranty (Battery & Adapter: 1 Year)",
+ "fetched": "2026-11-13T18:45+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-f16-fx608jpr-i7-rtx-5070-gaming-laptop",
+ "store": "creatus"
+}

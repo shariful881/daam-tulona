@@ -1,0 +1,97 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "Intel Core Ultra Series 2",
+   "Processor Frequency": "Up to 5.1GHz",
+   "Processor Core": "16 Cores",
+   "Processor Thread": "16 Threads",
+   "CPU Cache": "24MB"
+  },
+  "Memory": {
+   "Max RAM Capacity": "16GB",
+   "Ram": "16GB",
+   "Ram Type": "LPDDR5X",
+   "Total RAM Slot": "No RAM Slot",
+   "Removable": "No (Onboard RAM)"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes",
+   "Supported SSD Type": "1 x M.2 2280 PCIe 4.0 x4 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Arc Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "Backlit, Chiclet Layout",
+   "TouchPad": "Precision Touchpad with NumberPad Support"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD IR Camera",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "Smart Amp Technology"
+  },
+  "Ports & Slots": {
+   "Display Port": "Supported via Thunderbolt 4 (USB-C)",
+   "HDMI Port": "1 x HDMI 2.1 TMDS",
+   "USB 3 Port": "1 x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "2 x Thunderbolt 4 (USB-C)",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be) Tri-Band 2×2",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "14-inch",
+   "Display Type": "OLED",
+   "Display Resolution": "WUXGA (1920 × 1200)",
+   "Display Features": "16:10 Aspect Ratio, 400 nits Brightness, 1,000,000:1 Contrast Ratio, 100% DCI-P3, VESA DisplayHDR True Black 500, 1.07 Billion Colors, Glossy Display, TÜV Rheinland Certified, SGS Eye Care Display, 70% Less Harmful Blue Light",
+   "Touch Screen": "Yes",
+   "Refresh Rate": "60Hz",
+   "Brightness": "400 nits",
+   "Response Time": "0.2ms"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "75Wh",
+   "Adapter Type": "65W USB Type-C AC Adapter",
+   "Backup Time (Approx)": "Up to 10 Hours (Depending on Usage)"
+  },
+  "Physical Specification": {
+   "Weight": "1.28 kg",
+   "Dimensions": "31.24 x 22.01 x 1.49 cm",
+   "Colors": "Ponder Blue",
+   "Body Material": "Aluminum"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years International Warranty (Battery: 1 Year)"
+  },
+  "Image": {
+   "Model": "Zenbook 14 OLED UX3405CA"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 7 255H (24MB Cache, up to 5.1 GHz)",
+  "RAM: 16GB LPDDR5X, Storage: 512GB M.2 NVMe PCIe 4.0 SSD",
+  "Display: 14-inch, WUXGA (1920 x 1200), OLED",
+  "Features: Backlit Keyboard, Privacy Shutter, US MIL-STD 810H"
+ ],
+ "model": "Zenbook 14 OLED UX3405CA",
+ "warranty": "2 Years International Warranty (Battery: 1 Year)",
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-zenbook-14-oled-ux3405ca-core-ultra-7-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS® Standard Certified",
+   "Efficiency (Approx.)": "82-86% efficiency @ 20-100% load",
+   "Fan Size": "120mm Fan",
+   "MTBF": "100,000 hrs minimum",
+   "Watt": "750W",
+   "Temperature": "OPERATING TEMPERATURE:5℃ to +40℃\nSTORAGE TEMPERATURE\t-40 ℃ to +55 ℃"
+  },
+  "Humidity": {
+   "OPERATING HUMIDITY": "20% to 85%,non-condensing",
+   "STORAGE HUMIDITY": "10% to 95%, non-condensing"
+  },
+  "Others": {
+   "Continuous Power": "650W",
+   "HOLD UP TIME": "16msec (minimum) within 60% load",
+   "POWER GOOD SIGNAL": "100-500 msec",
+   "Safety Approval": "CE/CB/TUV"
+  },
+  "Input": {
+   "Voltage": "230 Vac",
+   "Frequency Range": "50 Hz - 60 Hz",
+   "Current": "750W"
+  },
+  "Output": {
+   "Modular Type": "NON modular",
+   "Total Power": "750W",
+   "Peak Power": "750W",
+   "DC Output": "750W"
+  },
+  "Connector": {
+   "PCI-E": "PCI-E 6+2PIN:PCI-E 6+2pin x 2"
+  },
+  "Image": {
+   "Model": "TR2 S 750W"
+  },
+  "Product List": {
+   "Thermaltake Power Supply Price list in BD": "Price",
+   "Thermaltake Smart BX1 650W Power Supply": "6,200৳\n6,900৳"
+  }
+ },
+ "key_features": [
+  "Power Good Signal: 100-500 msec",
+  "Safety Approvals: CE/CB/TUV",
+  "Operating Humidity: 20% to 85%, Non-Condensing",
+  "Operating Temperature: 5℃ to +40℃"
+ ],
+ "model": "TR2 S 750W",
+ "fetched": "2026-11-13T18:28+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-tr2-s-750w-power-supply-price",
+ "store": "creatus"
+}

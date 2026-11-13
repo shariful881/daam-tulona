@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors\nSocket AM5",
+   "Chipset": "AMD A620",
+   "BIOS": "1x TPM pin header(Support TPM 2.0)",
+   "Form Factor": "mATX\n215mmx243.84mm",
+   "Audio": "Realtek® ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Expansion Slots": {
+   "M.2 Socket": "1x M.2"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2x DIMMs",
+   "Supported Memory": "Memory Support DDR5 6800+(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800(JEDEC) MT/s\n1DPC 1R Max speed up to 6800+ MHz\n1DPC 2R Max speed up to 6000+ MHz",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMITM 2.1, maximum resolution of 4K 60Hz*\n1x VGA\nSupport VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "USB (s)": "2x USB 2.0 (Rear)\n4x USB 2.0 (Front)\n4x USB 5Gbps Type A (Rear)\n2x USB 5Gbps Type A (Front)",
+   "LAN Port (s)": "Realtek RTL8125BG 2.5G LAN",
+   "Supported Storage": "1x M.2\nM.2_1 Source (From CPU) supports up to PCIe 4.0 x4, supports 2280/2260 devices\n4x SATA 6G",
+   "RAID": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices",
+   "Audio": "1x Front Audio (JAUD)"
+  },
+  "Others": {
+   "Special Features": "4x EZ Debug LED\nVGA (s): 1x VGA"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PRO A620M-B"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/ 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 2x DDR5, up to 6800+(OC) MT/s",
+  "Graphics Output: 1x HDMI, 1x VGA",
+  "Features: Realtek RTL8125BG 5G LAN"
+ ],
+ "model": "PRO A620M-B",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-a620m-b-am5-matx-motherboard",
+ "store": "creatus"
+}

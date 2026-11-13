@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Display Features": {
+   "Viewing Angle": "160°",
+   "Brightness": "260 cd/m2",
+   "Contrast Ratio": "1000:1",
+   "Response Time": "25ms"
+  },
+  "Basic Information": {
+   "Resolution": "1920 x 1200 (16:10)",
+   "CPU": "Unisoc T616",
+   "Bluetooth": "Bluetooth 5.0",
+   "Graphics": "Mali-G57",
+   "Operating System": "Android 12.0",
+   "Storage": "128G UFS2.2 (Can be expanded to maximum 512GB with a TF card)",
+   "AG Glass": "No",
+   "Digital Pen": "HS200 Active Capacitive Stylus",
+   "Gamut Coverage": "65% NTSC, 90% sRGB, 66% Adobe RGB",
+   "Input Voltage": "DC 5V",
+   "Interface": "USB-C, 3.5mm audio jack",
+   "LCD Type": "IPS",
+   "Panel Size": "10.1 inch",
+   "Pressure Levels": "4096 Levels",
+   "Stand": "Leather case with stand function",
+   "Storage Temp. and Humidity": "-20°C~60°C, 10-90%",
+   "Wireless Type": "802.11 b/g/n/ac",
+   "Accuracy": "±0.3mm (Center), ±0.6mm (Corner)",
+   "Camera": "Front: 5.0MP / Rear: 13.0MP",
+   "Display Color": "16.7M (8bit)",
+   "Finger Touch": "10 Points Capacitive Touch",
+   "Product Name": "KT1001",
+   "Speaker": "Dual Speaker",
+   "Tilt Recognition": "±60° (Only )",
+   "Working Temp. and Humidity": "0-40°C, 20-80%",
+   "Battery": "3.85V, 6000mAh",
+   "Sensor": "L-sensor, Hall sensor, G-sensor"
+  },
+  "Laptop and Tablet": {
+   "RAM": "8G LPDDR4x",
+   "Microphone": "Dual Microphone"
+  },
+  "Features": {
+   "Active area": "216.57 x 135.36mm",
+   "Pen Technology": "Active Capacitive"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "243 x 161 x 8.6 mm",
+   "Color": "Grey",
+   "Weight": "575g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Display: 10.1\" FHD+ (1920 x 1200) IPS",
+  "CPU: Unisoc T616, Graphics: Mali-G57",
+  "RAM: 8GB LPDDR4x, Storage: 128G UFS2.2",
+  "Battery: 3.85V, 6000mAh"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/kamvas-slate-10-graphics-tablet",
+ "store": "pchouse"
+}

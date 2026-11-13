@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i5-14400\n10 Cores (6P + 4E) / 16 Threads\nP-core 2.5 / 4.7GHz\nE-core 1.8 / 3.5GHz\n20MB Intel Smart Cache",
+   "Motherboard": "Intel B760 Chipset",
+   "RAM": "8GB UDIMM DDR5-4800 (2x DDR5 UDIMM Slots, Dual-channel capable, Supports up to 32GB DDR5-5600)",
+   "Graphics Card": "Integrated Intel UHD Graphics 730",
+   "Audio": "High Definition (HD) Audio\nRealtek ALC623-CG codec (No Built-in Speakers)",
+   "Storage": "1TB SSD M.2 2280 PCIe 4.0x4 NVMe (Supports up to 2 drives: 1x 3.5\" HDD up to 2TB + 1x M.2 SSD up to 1TB)",
+   "Power Supply": "260W PSU, 90% Efficiency",
+   "CPU Cooler": "Standard Air Cooling Heatsink (System Fan: None)",
+   "Network & Wireless Connectivity": "Wi-Fi 6 (802.11ax 2x2)\nBluetooth 5.2\nIntegrated Gigabit Ethernet (100/1000M RJ-45)",
+   "Others": "Includes USB Calliope Keyboard & USB Calliope Mouse (Black)\nFirmware TPM 2.0 Security Chip, Non-vPro Management"
+  },
+  "General": {
+   "Dimension": "89 x 291.4 x 339.5 mm (3.5 x 11.5 x 13.4 inches)"
+  },
+  "External I/O Ports": {
+   "Front Ports": "1x USB-C (USB 5Gbps / USB 3.2 Gen 1 with 15W charging), 2x USB-A (USB 5Gbps), 1x headphone/microphone combo jack (3.5mm), 1x microphone jack (3.5mm)",
+   "Rear Ports": "1x USB-A (Hi-Speed USB 2.0 with smart power-on), 3x USB-A (USB 2.0), 1x HDMI 2.1 TMDS, 1x VGA, 1x Ethernet (RJ-45), 1x audio-out (3.5mm), 1x power connector"
+  },
+  "Physical Attribute": {
+   "Weight": "Around 4.25 kg (9.4 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Warranty"
+  },
+  "Image": {
+   "Model": "08IRR9"
+  }
+ },
+ "key_features": [],
+ "model": "08IRR9",
+ "warranty": "3-Year Warranty",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-tower-08irr9-core-i5-14th-gen-brand-pc",
+ "store": "creatus"
+}

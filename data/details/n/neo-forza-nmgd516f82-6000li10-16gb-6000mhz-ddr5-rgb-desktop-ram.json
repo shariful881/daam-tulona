@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Form Factor": "U-DIMM",
+   "Operating Temperature": "0~70°C",
+   "Latency": "30~ 42"
+  },
+  "Memory": {
+   "Bus Speed": "6000Mhz",
+   "Type": "DDR5"
+  },
+  "Others": {
+   "Special Features": "XMP 3.0"
+  },
+  "Power": {
+   "Voltage": "1.20V~ 1.45V"
+  },
+  "Physical Specification": {
+   "Pin": "288 Pin",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  },
+  "Image": {
+   "Model": "NMGD516F82-6000LI10"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR5",
+  "Capacity: 16GB",
+  "Operating Voltage: 1.20V~ 1.45V",
+  "Form Factor: U-DIMM"
+ ],
+ "model": "NMGD516F82-6000LI10",
+ "warranty": "Lifetime",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.creatus.com.bd/neo-forza-nmgd516f82-6000li10-16gb-ram",
+ "store": "creatus"
+}

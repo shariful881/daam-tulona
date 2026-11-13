@@ -1,0 +1,94 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core-i9 14900HX",
+   "Generation": "14th Gen",
+   "Processor Frequency": "2.2 GHz up to 5.8 GHz",
+   "Processor Core": "24 cores",
+   "Processor Thread": "32 Threads",
+   "CPU Cache": "36 MB Intel Smart Cache"
+  },
+  "Memory": {
+   "Bus Speed": "5600Mhz",
+   "Max RAM Capacity": "32GB",
+   "Ram": "16GB",
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "Additional SSDs can be added",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4070",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard Per-Key RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD",
+   "Speaker": "Yes",
+   "Microphone": "Yes",
+   "Audio Features": "AI noise-canceling technology\nDolby Atmos\nHi-Res certification (for headphones)\nSmart Amp Technology\nSupport Microsoft Cortana near field/far field"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "No",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x Thunderbolt 4 support DisplayPort\n1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1x 2.5G LAN port",
+   "WiFi": "Wi-Fi 6E(802.11ax) (Triple band) 2*2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "IPS-level",
+   "Display Resolution": "QHD+ 16:10 (2560 x 1600, WQXGA)",
+   "Display Features": "Brightness: 500NITS, DCI-P3 %:100%",
+   "Touch Screen": "No",
+   "Refresh Rate": "240Hz",
+   "Response Time": "3ms"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "90WHrs, 4S1P",
+   "Adapter Type": "ø6.0, 280W AC Adapter, Output: 20V DC, 14A, 280W, Input: 100~240C AC 50/60Hz universal"
+  },
+  "Physical Specification": {
+   "Weight": "2.50 Kg (5.51 lbs)",
+   "Color": "ECLIPSE GRAY",
+   "Dimensions": "354 x 264 x 226 ~ 304 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "ROG Strix G16 G614JIR"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core-i9 14900HX (36MB Cache, Up to 5.8 GHz)",
+  "RAM: 16GB DDR5 5600MHz Storage: 1TB SSD",
+  "Graphics: NVIDIA RTX 4070 8GB GDDR6",
+  "Features: Backlit keyboard, Type-C"
+ ],
+ "model": "ROG Strix G16 G614JIR",
+ "warranty": "02 years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-rog-strix-g16-g614jir-core-i9-14th-gen-gaming-laptop",
+ "store": "creatus"
+}

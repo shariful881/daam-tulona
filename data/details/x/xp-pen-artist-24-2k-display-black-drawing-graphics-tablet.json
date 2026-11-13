@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Display Features": {
+   "Brightness": "250 cd/㎡",
+   "Contrast Ratio": "3000:1"
+  },
+  "Basic Information": {
+   "Certifications": "FCC/CE/EAC/NOM/PSE/WEEE/RCM/KC/RoHs/BIS",
+   "Pressure Levels": "8192"
+  },
+  "Security Camera": {
+   "Power input": "DC 12V/3A"
+  },
+  "Display Details": {
+   "Accuracy": "±0.5mm (center), ±1.5mm (corner)",
+   "Report Rate": "220 RPS (max)",
+   "Resolution": "5080LPI",
+   "Viewing Angle": "178°"
+  },
+  "Features": {
+   "Active area": "526.85 × 296.35mm",
+   "Reading Height": "10mm",
+   "Stylus Pen": "Battery-free P05R stylus",
+   "Tilt": "60°",
+   "Compatibility": "Windows 7 (or later), macOS X 10.10 (or later), Chrome OS 88 (or later), Linux"
+  },
+  "Display Option": {
+   "Ports": "1 x USB-C, 1x HDMI, 1 x DC-IN, 1 x Headphone"
+  },
+  "Physical Specifications": {
+   "Dimensions": "590 × 361 × 34mm"
+  }
+ },
+ "key_features": [
+  "Active Area: 526.85 × 296.35mm",
+  "Display Resolution: 2K QHD (2560 × 1440)",
+  "Color Gamut: 90% NTSC, 94% Adobe RGB, 127% sRGB",
+  "Pressure Levels: 8192, Report Rate: 220RPS (max)"
+ ],
+ "fetched": "2026-11-13T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/xp-pen-artist-24-pro",
+ "store": "pchouse"
+}

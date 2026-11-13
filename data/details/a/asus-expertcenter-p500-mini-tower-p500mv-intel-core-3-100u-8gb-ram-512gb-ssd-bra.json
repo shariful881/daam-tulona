@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "White",
+   "Expansion slots": "1x M.2 2280 SSD slot\n2x DDR5 SO-DIMM slot"
+  },
+  "Basic Information": {
+   "SSD": "512GB M.2 NVMe PCIe 4.0",
+   "Processor": "Intel RPL-R Core 3 Processor 100U 1.2 GHz (10MB Cache, up to 4.7 GHz, 6 Cores)",
+   "Chipset": "Integrated with Processor"
+  },
+  "Audio": {
+   "Built-in Mic": "Yes",
+   "Built-in Speaker": "Yes"
+  },
+  "General Information": {
+   "Memory Bus (Bit)": "5600MHz",
+   "Memory Size": "8GB",
+   "Memory Type": "DDR5"
+  },
+  "Graphics": {
+   "Graphics": "Intel UHD Graphics"
+  },
+  "Network & Connectivity": {
+   "Lan": "Realtek RTL8111H 10/100/1000 Mbps",
+   "WiFi": "Wi-Fi 6(802.11ax) (Dual band) 1*1",
+   "Bluetooth": "Bluetooth 5.2 Wireless Card"
+  },
+  "Security": {
+   "Security Locker Slot": "BIOS Booting User Password Protection\nHDD User Password Protection and Security\nKensington Security Slot(7x 3mm)\nTrusted Platform Module (Firmware TPM)"
+  },
+  "Display Features": {
+   "Display Size": "21.45-inch"
+  },
+  "Main Features": {
+   "Output": "19V DC, 4.74A, 90W, Input: 100~240V AC 50/60Hz universal",
+   "Operating System": "FREE DOS"
+  },
+  "External Features": {
+   "I/O Port": "I/O Port\nSide:\n1x Kensington lock\n1x 2-in-1 card reader SD / MMC\n1x 3.5mm combo audio jack\n1x USB 2.0 Type-A\nBack:\n1x DC-in\n1x RJ45 Gigabit Ethernet\n1x HDMI out 1.4\n1x USB 2.0 Type-A\n1x USB 3.2 Gen 1 Type-C\n3x USB 3.2 Gen 1 Type-A"
+  },
+  "Power": {
+   "Adapter Type": "90W AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "04.84 kg (10.67 lbs)",
+   "Dimensions": "49.3 x 39.5 x 1.3 ~ 16.5 cm (19.41\" x 15.55\" x 0.51\" ~ 6.50\")"
+  },
+  "Camera": {
+   "Camera Features": "Front-facing: 720p HD camera With privacy shutter"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  },
+  "Image": {
+   "Model": "E3 E3202WVAK"
+  }
+ },
+ "key_features": [
+  "CPU: Intel i3-100U (4.7GHz)",
+  "RAM: 8GB DDR5",
+  "Storage: 512GB SSD",
+  "Display: 21.45 inch"
+ ],
+ "model": "E3 E3202WVAK",
+ "warranty": "03 Years",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.creatus.com.bd/asus-expertcenter-e3-e3202wvak-intel-rpl-r-core-3-100u-8gb-ram-512gb-ssd-all-in-one-pc",
+ "store": "creatus"
+}

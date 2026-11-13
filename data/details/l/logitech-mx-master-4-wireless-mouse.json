@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Number of Keys": {
+   "Number of Buttons": "8",
+   "Scroll Wheel": "Yes, MagSpeed wheel with smart shift",
+   "Horizontal scroll": "Yes",
+   "Thumb wheel": "Yes, same as horizontal scroll",
+   "Gesture button": "Yes",
+   "Customization app": "Yes, Options + and basic support in Tune"
+  },
+  "Connection Type": {
+   "Connection Type": "Wireless",
+   "Wireless technology": "Bluetooth Low Energy",
+   "Wireless range": "10 m",
+   "Bluetooth Low Energy (BLE)": "5.1"
+  },
+  "Optical Sensor": {
+   "Sensor Technology": "Darkfield high precision",
+   "Nominal value": "1000"
+  },
+  "Main Features": {
+   "Resolution": "DPI (Minimal and maximal value): 200-8000 (can be set in increments of 50 DPI)"
+  },
+  "Color": {
+   "Graphite": "910-007562",
+   "Pale Gray": "910-007563"
+  },
+  "Dimension": {
+   "Height": "128.15 mm",
+   "Width": "88.35 mm",
+   "Depth": "50.8 mm"
+  },
+  "Physical Specifications": {
+   "Weight": "150 g"
+  },
+  "Battery Life": {
+   "Battery type": "Rechargeable 650 mAh",
+   "Battery life": "70 days"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year"
+  }
+ },
+ "key_features": [
+  "Sensor: Darkfield High Precision, Resolution: 200-8000 DPI",
+  "Number of buttons: 8, Gesture Button",
+  "Scroll Wheel: MagSpeed wheel with Smart Shift"
+ ],
+ "warranty": "01-Year",
+ "fetched": "2026-11-13T17:44+06:00",
+ "source": "https://smartbd.com/product/logitech-mx-master-4-wireless-and-bluetooth-mouse-graphite/",
+ "store": "smartbd"
+}

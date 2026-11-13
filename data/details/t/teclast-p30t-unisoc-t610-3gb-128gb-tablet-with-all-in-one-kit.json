@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "10.1-inch",
+   "Processor": "Unisoc T610 Octa-core",
+   "Audio": "Built-in Dual-channel Speaker",
+   "Camera": "2MP Front",
+   "Battery": "6000mAh 3.8V Lithium Battery",
+   "Charging Interface": "Type-C Charging"
+  },
+  "BASIC Information": {
+   "Sensor": "Gravity sensor"
+  },
+  "Interactive Board": {
+   "GPU": "Arm G57 MC01"
+  },
+  "Key Features": {
+   "Capacity": "3GB RAM"
+  },
+  "Features": {
+   "Dimension": "242.4mm(L) × 161.3mm(W) × 8.1mm(H)",
+   "Compatibility": "Android 14 Operating System",
+   "Weight": "440g"
+  },
+  "Connectivity": {
+   "Connectivity": "WIFI 2.4G + WIFI 5G 802.11 a/b/g/n/ac/ax"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year on Tablet No Warranty for accessories (Full Box Required for warranty claim)"
+  }
+ },
+ "key_features": [
+  "Display: 10.1-inch, 1280×800 IPS",
+  "CPU: Unisoc T610 Octa-core, GPU: Arm G57 MC01",
+  "RAM: 3GB LPDDR5 , Storage: 128GB",
+  "Battery: 6000mAh, Type-C Charging, Android 14"
+ ],
+ "warranty": "1 Year on Tablet No Warranty for accessories (Full Box Required for warranty cla",
+ "fetched": "2026-11-13T18:15+06:00",
+ "source": "https://www.pchouse.com.bd/teclast-p30t-10-1-inch-unisoc-t610-tablet",
+ "store": "pchouse"
+}

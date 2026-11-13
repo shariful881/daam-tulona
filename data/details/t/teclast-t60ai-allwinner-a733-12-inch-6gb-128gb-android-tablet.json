@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "BASIC Information": {
+   "Sensor": "Gravity sensor",
+   "OS": "Android 15 Operating System"
+  },
+  "Basic Information": {
+   "Display": "12-Inch 2K Display",
+   "Graphics": "Allwinner IMG BXM-4-64 MC1",
+   "Processor": "Allwinner A733 Octa-Core",
+   "Special Feature": "Al in Action",
+   "Audio": "Built-in Dual-Box Speakers",
+   "Camera": "5MP Front",
+   "Battery": "8000mAh Cobalt Lithium Battery"
+  },
+  "Key Features": {
+   "Capacity": "Max 16GB RAM (6GB+10GB Expansion)"
+  },
+  "Microphone FEATURE": {
+   "Microphone Type": "Dual Mic Noise Reduction"
+  },
+  "Features": {
+   "Dimension": "283(L) ×178.2mm(W) ×8.4mm(H)",
+   "Weight": "624g"
+  },
+  "Connectivity": {
+   "Bluetooth": "BT 5.4 Supports LDAC/AAC",
+   "WiFi Technology": "Wi-Fi 2.4GHz/5GHz 802.11a/b/g/n/ac/ax"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year on Tablet No Warranty for accessories (Full Box Required for warranty claim)"
+  }
+ },
+ "key_features": [
+  "Display: 11.97-inch 2K 1200×2000",
+  "CPU: Allwinner A733 8-Core, GPU: Allwinner IMG BXM-4-64 MC1",
+  "RAM: 6GB LPDDR5 , Storage: 128GB",
+  "Battery: 8000mAh, Type-C Charging, Android 15"
+ ],
+ "warranty": "1 Year on Tablet No Warranty for accessories (Full Box Required for warranty cla",
+ "fetched": "2026-11-13T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/teclast-t60ai-android-tablet",
+ "store": "pchouse"
+}

@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel Core 5 120U",
+   "Processor Frequency": "Up to 5.0GHz",
+   "Processor Core": "10 Cores (2 Performance + 8 Efficient)",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12MB Smart Cache"
+  },
+  "Memory": {
+   "Max RAM Capacity": "16GB",
+   "Ram": "16GB (8GB Onboard + 8GB Removable)",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Upgradeable via M.2 slot",
+   "Supported SSD Type": "1× M.2 2280 PCIe 4.0 x4",
+   "Extra M.2 Slot": "N/A"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Chiclet Keyboard",
+   "Keyboard Features": "Chiclet Keyboard",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD Camera",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "SonicMaster"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "HDMI Port": "1× HDMI 1.4",
+   "USB 2 Port": "1× USB 2.0 Type-A",
+   "USB 3 Port": "2× USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1× USB 3.2 Gen 1 Type-C",
+   "Headphone & Microphone Port": "3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6 (802.11ax)",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Security Locker Slot": "N/A",
+   "Fingerprint Sensor": "No",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "14-inch",
+   "Display Type": "IPS-Level FHD",
+   "Display Resolution": "Full HD (1920 × 1080)",
+   "Display Features": "Anti-Glare, LED Backlit, TÜV Rheinland Certified, 82% Screen-to-Body Ratio",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion",
+   "Battery Capacity": "42WHrs",
+   "Adapter Type": "45W AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "1.40kg",
+   "Colors": "Cool Silver"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Years Warranty"
+  },
+  "Image": {
+   "Model": "Vivobook 14 A1404VA"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5-120U (12M Cache, Up to 5.0 GHz)",
+  "Storage: 512GB M.2 PCIe 4.0 SSD",
+  "Display: 14-inch FHD (1920 x 1080) IPS, Anti-glare",
+  "Features: Chiclet Keyboard, Privacy Shutter, Military Grade"
+ ],
+ "model": "Vivobook 14 A1404VA",
+ "warranty": "2-Years Warranty",
+ "fetched": "2026-11-13T18:46+06:00",
+ "source": "https://www.creatus.com.bd/asus-vivobook-14-a1404va-cool-silver-laptop",
+ "store": "creatus"
+}

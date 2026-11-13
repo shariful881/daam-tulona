@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Fan Speed": "200 - 1800 rpm, PWM Controlled (0 rpm below 5 % PWM)",
+   "Connector": "4-Pin PWM-Connector + 4-Pin Plug",
+   "Material": "Fin Material:\tAluminum",
+   "Others": "Heatpipes: 4x 6 mm Ø, Copper\nFin Stack: 59x 0.4 mm, Aluminium\nBearing: Fluid Dynamic Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "104 (L) x 126 (W) x 159 (H) mm",
+   "Weight": "890 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851 | LGA1700",
+   "AMD": "AM5 | AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200 - 1800 rpm, PWM Controlled",
+  "Heat Pipe: 4x 6 mm Ø, Copper",
+  "Fin Stack: 59x 0.4 mm, Aluminium",
+  "Compatible with LGA1851, LGA1700, AM5, AM4"
+ ],
+ "price": 36003999,
+ "regular": 3690,
+ "status": "In Stock",
+ "code": "48590",
+ "brand": "ARCTIC",
+ "mpn": "ACFRE00123A",
+ "model": "Freezer 36 Black",
+ "warranty": "6 years",
+ "name": "Arctic Freezer 36 Black Multi Compatible Tower CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Freezer 36 Black Multi Compatible Tower CPU Cooler"
+ ],
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.startech.com.bd/arctic-freezer-36-black-cpu-cooler",
+ "store": "startech"
+}

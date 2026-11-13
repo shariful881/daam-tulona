@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Display Type": "IPS LCD Display",
+   "Size": "8 Inch",
+   "Resolution": "FHD (1920 x 1200)",
+   "Processor": "Mediatek Helio P22T Octa-core (4 x 2.3GHz + 4 x 1.8GHz)",
+   "RAM": "3GB RAM",
+   "Storage": "32GB Internal Storage",
+   "Connectivity": "4G LTE, Wi-Fi, Bluetooth",
+   "Operating System": "Android 9.0",
+   "Audio": "Dual speaker\nMono Microphone"
+  },
+  "Physical Spec": {
+   "SIM": "Yes (4G LTE)"
+  },
+  "Camera": {
+   "Rear": "13.0MP",
+   "Front": "5.0MP",
+   "Video": "Yes"
+  },
+  "Battery": {
+   "Type": "Li-Po",
+   "Capacity": "Integrated 5100mAh",
+   "Charging": "10W"
+  },
+  "Special Features": {
+   "Bluetooth": "Bluetooth 5.0",
+   "GPS": "GPS, GLONASS, BDS",
+   "Sensors": "G-sensor, Proximity Senser, Light Sensor, Accelerometer Senser, GPS",
+   "USB": "USB Type-C 2.0",
+   "WLAN": "802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 2.4GHz/5GHz"
+  },
+  "Warranty": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 8-inch FHD (1920x1200) IPS",
+  "CPU: MediaTek Helio P22T, Up to 2.3 GHz Octa-Core",
+  "RAM: 3GB LPDDR4x, Storage: 32GB eMMC 5.1",
+  "Battery: 5100mAh; 4G SIM Support"
+ ],
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-13T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-tab-m8-3gb-32gb-lte",
+ "store": "pchouse"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "4TB",
+   "Flash Type": "3D NAND flash",
+   "Interface": "USB Type C to USB Type A/USB Type C to USB Type C\nConnection Interface: USB 3.2 Gen 2x2"
+  },
+  "Sequential R/W": {
+   "Read Speed (Max.)": "up to 2,000 MB/s",
+   "Write Speed (Max.)": "up to 2,000 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "96.5 mm x 53.6 mm x 12.5 mm (3.80\" x 2.11\" x 0.49\")",
+   "Weight": "75 g (2.65 oz)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)",
+   "Storage Temperature": "Yes"
+  },
+  "Warranty": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Interface: USB Type-C",
+  "Capacity: 4TB",
+  "Flash Type: 3D NAND flash",
+  "R/W Speed: up to 2,000 MB/s"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-13T18:05+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-esd380c-4tb-usb-3.2-gen-2-type-c-portable-ssd",
+ "store": "pchouse"
+}

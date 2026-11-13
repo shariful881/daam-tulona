@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Ryzen™ 5000 G-Series Processors/ AMD Ryzen™ 5000 Series Processors/ AMD Ryzen™ 4000 G-Series Processors/ AMD Ryzen™ 3000 Series Processors",
+   "Chipset": "AMD B450 Chipset",
+   "Form Factor": "M-ATX",
+   "Audio": "Realtek ALC897 Codec\n5.1-Channel High Definition Audio"
+  },
+  "General Information": {
+   "LED Indicator Light": "Without Debug LED",
+   "OS SUPPORT": "Support for Windows 11 64-bit, Windows 10 64-bit"
+  },
+  "Memory": {
+   "Supported Memory": "2x DDR4, Maximum Memory Capacity 64GB\nMemory Support DDR4 3200(OC)/\n2933(OC)/ 2666(OC)/ 2400(OC) MHz\nSupports AMD A-XMP OC\nSupports Dual-Controller Dual-Channel mode"
+  },
+  "Graphics": {
+   "Graphics": "1x VGA\n*Support VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz\n1x HDMI port\n*HDMI port supports up to 4K 30Hz\n*Graphics specifications may vary between CPU types."
+  },
+  "Connector & Ports": {
+   "USB (s)": "*Front USB (Total 4 ports)\n2x USB 3.2 Gen1 Type A\n2x USB 2.0\n*Rear USB (Total 4 ports) 2x USB 3.2 Gen1 Type A\n2x USB 2.0",
+   "Supported Storage": "M.2 slot (Key M), type 2242/2280 (supports PCIe 4.0 x4 mode)\n4x SATA 6Gb/s ports",
+   "Audio": "Realtek ALC897 Codec\n5.1-Channel High Definition Audio",
+   "Internal I/O Ports": "1x 24-pin Power Connector(ATX_PWR)\n1x 4-pin Power Connector(CPU_PWR)\n1x CPU Fan\n1x System Fan\n1x PS/2 interface\n1x M.2 slots (Key-M)\n4x SATA 6Gb/s ports\n1x 4-Pin SPEAKER\n1x Front Audio\n1x COM_A Port\n1x 9-Pin DEBUG_CON\n1x CLR CMOS"
+  },
+  "Network & Connectivity": {
+   "Lan": "Realtek RTL8111H 1G LAN"
+  },
+  "Display Features": {
+   "Other Features": "RAID Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices"
+  },
+  "External Features": {
+   "Expansion Slots": "1x PCIe 3.0 x16 slot\n1x PCIe 3.0 x1 slot"
+  },
+  "Physical Specification": {
+   "Dimensions": "220mm x 175mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Challenger B450M"
+  }
+ },
+ "key_features": [
+  "FORM FACTOR: M-ATX",
+  "CHIPSET AMD: B450 Chipset",
+  "Full load: R5 5600/4500/3600"
+ ],
+ "model": "Challenger B450M",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:05+06:00",
+ "source": "https://www.creatus.com.bd/maxsun-challenger-b450m-am4-m-atx-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,81 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "16",
+   "Display Type": "2.5K QHD WQXGA Display",
+   "Panel Type": "IPS",
+   "Brightness": "300nits",
+   "Refresh rate": "165 Hz",
+   "Display Resolution": "2560x1600",
+   "Display Features": "300nits, 100% sRGB, 165Hz, Dolby Vision, FreeSync, G-SYNC, Low Blue Light.",
+   "Touch Screen": "No"
+  },
+  "Processor": {
+   "Processor Frequency": "3.80GHz",
+   "Processor Core": "8",
+   "Processor Thread": "16",
+   "CPU Cache": "24MB",
+   "Processor Model": "Ryzen 7 7840HS",
+   "Processor Brand": "AMD"
+  },
+  "BASIC Information": {
+   "Battery": "80Wh",
+   "Graphics": "Graphics Memory: 8GB",
+   "Storage": "512GB SSD"
+  },
+  "Basic Information": {
+   "Operating System": "Win-11 Home",
+   "Material": "Aluminium (Top), PC-ABS (Bottom)"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "230W"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "Yes",
+   "Bluetooth": "Bluetooth 5.1",
+   "WiFi": "Wi-Fi 6E, 11ax 2x2"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600 MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Nvidia RTX 4060 Graphics",
+   "Graphics Type": "GDDR6"
+  },
+  "Physical Specifications": {
+   "Dimensions (W x D x H)": "359.7 x 260.3 x 19.9-25.2mm"
+  },
+  "Camera & Audio": {
+   "Microphone": "Yes",
+   "Speaker": "Yes",
+   "WebCam": "FHD WebCam"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "Combo",
+   "Optical Drive": "No",
+   "USB 3 Port": "2 x USB 3.2 Gen 2",
+   "USB Type-C / Thunderbolt Port": "2 x USB-C 3.2 Gen 2"
+  },
+  "Storage": {
+   "Extra M.2 Slot": "1",
+   "Storage Type": "NVMe PCIe",
+   "Storage Upgrade": "Additional SSD Slot, Upgradeable Installed SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 7840HS 3.8 GHz UP to 5.1 GHz",
+  "Memory: 16GB DDR5-5600, 512GB SSD",
+  "Display: 16″ WQXGA (2560×1600) IPS 300nits Anti-glare",
+  "Features: Nvidia RTX 4060 Graphics"
+ ],
+ "warranty": "2 Year",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-legion-slim-5-16aph8-amd-ryzen-7-7840hs-gaming-laptop",
+ "store": "pchouse"
+}

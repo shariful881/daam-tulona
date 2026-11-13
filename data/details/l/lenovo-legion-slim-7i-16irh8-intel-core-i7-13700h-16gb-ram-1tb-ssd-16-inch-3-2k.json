@@ -1,0 +1,86 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "16",
+   "Display Type": "3.2K IPS Display",
+   "Panel Type": "IPS",
+   "Brightness": "430nits",
+   "Refresh rate": "120 Hz",
+   "Display Resolution": "3200x2000",
+   "Display Features": "16 Inch 3.2K (3200x2000) 430nits Anti-glare, 100% DCI-P3, 165Hz, Dolby Vision, G-SYNC, Low Blue Light, High Gaming Performance",
+   "Touch Screen": "No"
+  },
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Frequency": "2.40GHz",
+   "Processor Core": "14",
+   "Processor Thread": "20",
+   "CPU Cache": "24MB",
+   "Processor Model": "Core i7 13700H"
+  },
+  "Basic Information": {
+   "Operating System": "Win-11 Home",
+   "Material": "Aluminum (Top & Bottom)"
+  },
+  "BASIC Information": {
+   "Battery": "99.9Wh",
+   "Graphics": "8GB",
+   "Storage": "HDD",
+   "Audio": "High Definition (HD) Audio, Realtek ALC3306 codec"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "Slim Tip (3-pin)",
+   "Total RAM Slot": "1"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "No",
+   "Bluetooth": "Bluetooth 5.1",
+   "WiFi": "Wi-Fi 6E,11ax 2x2",
+   "Security Chip": "Firmware TPM 2.0"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5200 MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Nvidia RTX 4060 Graphics",
+   "Graphics Type": "GDDR6"
+  },
+  "Physical Specifications": {
+   "Color": "Storm Grey",
+   "Weight": "2 kg",
+   "Dimensions (W x D x H)": "357.7 x 259.3 x 17.6-19.9 mm"
+  },
+  "Camera & Audio": {
+   "Microphone": "yes",
+   "Speaker": "yes",
+   "WebCam": "FHD Camera"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "Combo",
+   "Optical Drive": "no",
+   "USB 3 Port": "3 x USB 3.2 Gen 2",
+   "USB Type-C / Thunderbolt Port": "1 x USB-C 3.2 Gen 2, 1 x Thunderbolt 4",
+   "Micro HDMI Port": "1"
+  },
+  "Storage": {
+   "Storage Type": "NVMe PCIe",
+   "Storage Upgrade": "Additional SSD Can be added",
+   "Storage Capacity": "1TB"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-13700H (24MB Cache, 3.7GHz up to 5.0GHz)",
+  "Ram: 16GB DDR5-5200, Storage: 1TB M.2 PCIe 4.0x4 NVMe SSD",
+  "Graphics: NVIDIA GeForce RTX 4060 8GB GDDR6, Boost Clock 2370MHz",
+  "Features: White Backlit, Type-C, E-Shutter, AI Chip, 165Hz, G-SYNC, Fingerprint"
+ ],
+ "warranty": "2 Year",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-legion-slim-7i-16irh8-intel-core-i7-13700h-1tb-ssd-gaming-laptop",
+ "store": "pchouse"
+}

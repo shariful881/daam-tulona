@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680 x 4320",
+   "Memory Clock": "14000 MHz",
+   "BUS Type": "PCI Express 3.0",
+   "Memory Interface": "192-bit",
+   "CUDA Cores": "1920",
+   "Others": "2.5 Slot"
+  },
+  "Core Clock": {
+   "OC Mode - GPU Boost Clock": "1785 MHz , GPU Base Clock : 1395 MHz",
+   "Gaming Mode (Default) - GPU Boost Clock": "1755 MHz , GPU Base Clock : 1365 MHz"
+  },
+  "Interface": {
+   "Display Port": "Yes x 1 (Native DisplayPort 1.4)",
+   "HDMI": "Yes x 2 (Native HDMI 2.0b)",
+   "DVI": "Yes x 1 (Native DVI-D)",
+   "HDCP": "HDCP Support Yes (2.2)"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin",
+   "Recommended PSU": "500W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "9.53 \" x 5.12 \" x 2.09 \" Inch\n24.2 x 13 x 5.3 Centimeter"
+  },
+  "Warranty": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: 1785 MHz, Base Clock: 1395 MHz",
+  "Memory Speed: 14000 MHz",
+  "Memory Interface: 192-bit"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/asus-dual-geforce-rtx-2060-evo-oc-edition-6gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

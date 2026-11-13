@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support the 14th/13th and 12th generation Intel adapting to the LGA 1700 slot of the motherboard Core TM, Pentium And Cylon processor",
+   "Chipset": "Intel B760",
+   "BIOS": "128M UEFI, supporting multiple languages",
+   "Form Factor": "M-ATX\n245mm x 245mm",
+   "Audio": "5.1 Channel sound card"
+  },
+  "Expansion Slots": {
+   "PCI": "1xPCIe 5.0 x16 slot\n1xPCIe 3.0 x4 slot"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4",
+   "Supported Memory": "- DDR5-6800 (OC)/6600 (OC)/6400 (OC)/6200 (OC)/6000 (OC)/5800 (OC)/5600 (OC)/5400 (OC)/5200 (OC)/5000 (OC)/4800MHz memory\n- Intel is supported  Extreme Memory Profile (XMP) memory technology\n- supports dual channel memory technology",
+   "Maximum Memory": "up to 192 GB of memory (a single socket can support up to 48 GB of memory)"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor-Intel HD Graphics support:\n1 x HDMI 2.0 interface, Up to 4K 60Hz resolution\n1 x DP 1.2 interface, supporting up to 4K 60Hz resolution"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x DisplayPort",
+   "LAN Port (s)": "RTL8125 2.5Gbit network card",
+   "Supported Storage": "A total of 3 M.2 slots and 4 SATA 6Gb/s hard disk interfaces are supported,\n- M.2_ 1 slot: support 2242/2280 M.2 SSD (PCIe 4.0 x4, CPU channel)\n- M.2_ 2 slots: support 2242/2260/2280 M.2 SSD (PCIe 4.0 x4, PCH channel)\n- M.2_ 3 slots: support 2242/2260/2280 M.2 SSD (PCIe 4.0 x4, PCH channel)",
+   "RAID": "Support the creation of RAID 0, RAID 1, RAID 5, and RAID 10 disk arrays using SATA hard disk devices",
+   "Internal I/O Ports": "Rear I/O interface:\n- 4 USB 2.0 interfaces\n- 2 USB 3.2 Gen 1 Type-A interfaces\n- 1 USB 3.2 Gen 2 Type-C interface\n- 1 DP 1.2 interface, supporting up to 4K 60Hz resolution\n- 1 HDMI 2.0 interface, Up to 4K 60Hz resolution\n- 1 2.5G network interface\n- 3 audio interfaces (audio input/audio output/microphone)\nOnboard device interface:\n- 1 CPU fan pin\n- 3 system fan pins\n- 1 water-cooled pump pin\n- 1 USB 2.0 pin can expand 2 USB 2.0 Type-A interfaces\n- 1 USB 3.2 Gen 1 pin can expand 2 USB 3.2 Gen 1 Type-A interfaces\n- 1 USB 3.2 Gen 1 Type-C slot can expand 1 USB 3.2 Gen 1 Type-C interface\n- 2 5V 3-pin ARGB pins\n- 2 12V 4-pin RGB pins\n- 1 Front audio pin\n- 1 Front panel pin\n- 1 speaker pin\n- 1 clear CMOS jumper\n- 1 serial port pin\n- 1 BIOS burner pin\n- 1 diagnostic card pin\n- 1 ME write protection jumper\n- 1 RGB lamp efficiency control jumper"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 4x DDR5, Max 192GB 6800(OC)",
+  "Graphics Output: 1x HDMI, 1x DisplayPort",
+  "Features: RTL8125 2.5Gbit network card"
+ ],
+ "price": 1750018000,
+ "regular": 19210,
+ "status": "In Stock",
+ "code": "32267",
+ "brand": "Colorful",
+ "model": "BATTLE-AX B760M-PLUS D5 V20",
+ "warranty": "3 years",
+ "name": "Colorful BATTLE-AX B760M-PLUS D5 V20 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "Colorful (Intel)",
+  "Colorful BATTLE-AX B760M-PLUS D5 V20 mATX Motherboard"
+ ],
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.startech.com.bd/colorful-battle-ax-b760m-plus-d5-v20-motherboard",
+ "store": "startech"
+}

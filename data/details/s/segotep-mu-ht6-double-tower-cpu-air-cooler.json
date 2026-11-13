@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "270W ±5W TDP",
+   "Connector": "4-Pin PWM",
+   "Fan Speed": "600–2200RPM ±10%",
+   "Fan Size": "120mm (x2)",
+   "Noise": "36.85 dB(A)",
+   "Material": "CNC-machined copper with electroplating"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA115X / 1200 / 1700 / 1851",
+   "AMD": "AM4 / AM5"
+  },
+  "Basic Information": {
+   "Airflow": "68.9 CFM"
+  },
+  "General Information": {
+   "Dimensions": "124 × 136 × 157 mm"
+  },
+  "Cooling System": {
+   "Fan Bearing": "Quiet hydraulic bearing, copper axis",
+   "Heat Pipe": "6×6mm copper, nickel-plated"
+  },
+  "Main Features": {
+   "Lighting": "5V 3-Pin ARGB"
+  },
+  "Fan Details": {
+   "Air Pressure": "2.3 mm H₂O"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Years"
+  },
+  "Image": {
+   "Model": "Segotep MU-HT6"
+  }
+ },
+ "key_features": [],
+ "model": "Segotep MU-HT6",
+ "warranty": "1 Years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.creatus.com.bd/segotep-mu-ht6-double-tower-cpu-air-cooler-dual-120mm-argb-fans",
+ "store": "creatus"
+}

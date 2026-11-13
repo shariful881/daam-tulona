@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core Ultra 5 225\n10 Cores (6P + 4E) / 10 Threads\nMax Turbo up to 4.9GHz, 20MB Intel Smart Cache",
+   "Motherboard": "Intel B860 Chipset",
+   "RAM": "8GB UDIMM DDR5-5600 (Supports up to 32GB across two DDR5 slots)",
+   "Graphics Card": "Integrated Intel Graphics",
+   "Audio": "High Definition (HD) Audio, Realtek® ALC623-CG codec",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0x4 NVMe",
+   "Power Supply": "200W, 90% Efficiency",
+   "CPU Cooler": "Air Cooling (System Fan: None)",
+   "Network & Wireless Connectivity": "Wi-Fi 6E (802.11ax 2x2), Bluetooth 5.3, Integrated 100/1000M Ethernet",
+   "Others": "Firmware TPM 2.0 integrated in chipset\nVertical stand, SFF (8.2L) form factor"
+  },
+  "General": {
+   "Dimension": "89 x 291.4 x 339.5 mm (3.5 x 11.5 x 13.4 inches)"
+  },
+  "External I/O Ports": {
+   "Front": "1x USB-C® (5Gbps), 2x USB-A (5Gbps), 1x Headphone/Microphone Combo Jack (3.5mm)",
+   "Rear": "2x USB-A (5Gbps, 1x with Smart Power On), 2x USB-A (USB 2.0), 1x HDMI® 2.1 TMDS, 1x Ethernet (RJ-45), 1x Audio-out (3.5mm), 1x Power Connector"
+  },
+  "Physical Attribute": {
+   "Weight": "Around 4.52 kg (9.96 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "IdeaCentre Tower 08IAS10"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaCentre Tower 08IAS10",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-tower-08ias10-core-ultra-5-brand-pc",
+ "store": "creatus"
+}

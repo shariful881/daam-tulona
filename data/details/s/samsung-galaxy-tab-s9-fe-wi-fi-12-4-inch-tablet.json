@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Type": "IPS LCD",
+   "Resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)"
+  },
+  "Basic Information": {
+   "Audio": "Stereo speakers",
+   "Others": "microSDXC (dedicated slot)",
+   "Type": "Li-Po , non-removable",
+   "Processor": "Chipset: Exynos 1380 (5 nm)"
+  },
+  "BASIC Information": {
+   "Size": "12.4 inches",
+   "Storage": "128GB",
+   "Operating System": "Android 13, upgradable to Android 14, One UI 6"
+  },
+  "Battery": {
+   "Capacity": "10090 mAh"
+  },
+  "Camera": {
+   "Video": "4K@30fps, 1080p@30fps",
+   "Front": "12 MP, (ultrawide)",
+   "Rear": "Dual 8 MP, (wide)"
+  },
+  "Display Details": {
+   "Color": "Gray",
+   "GPS": "Yes",
+   "RAM": "8GB",
+   "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass, proximity (accessories only)",
+   "Sim": "N/A",
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct"
+  },
+  "Features": {
+   "Dimension": "285.4 x 185.4 x 6.5 mm (11.24 x 7.30 x 0.26 in)",
+   "Weight": "627 g or 628 g (1.38 lb)"
+  },
+  "Connectivity": {
+   "Bluetooth": "Bluetooth v5.3",
+   "Charging Ports": "45W wired, QC2.0",
+   "USB": "USB Type-C 2.0, magnetic connector",
+   "Connectivity": "Wi-Fi (only)"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 12.4-inch TFT LCD, 90 Hz",
+  "CPU: Exynos 1380 (5 nm)",
+  "RAM: 8GB, Storage: 128GB UFS",
+  "Features: Side Fingerprint, Li-Po 10090mAh,"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:15+06:00",
+ "source": "https://www.pchouse.com.bd/samsung-galaxy-tab-s9-fe-plus-wi-fi-tablet",
+ "store": "pchouse"
+}

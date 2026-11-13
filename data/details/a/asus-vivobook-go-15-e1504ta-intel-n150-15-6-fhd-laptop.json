@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel Processor N150",
+   "Processor Frequency": "Up to 3.6 GHz",
+   "Processor Core": "4 Cores",
+   "Processor Thread": "4 Threads",
+   "CPU Cache": "6MB"
+  },
+  "Memory": {
+   "Max RAM Capacity": "8GB",
+   "Ram": "8GB Onboard",
+   "Ram Type": "LPDDR5",
+   "Total RAM Slot": "1",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "1× M.2 2280 PCIe 3.0 x2, 1× M.2 2230 PCIe 4.0 x4",
+   "Supported SSD Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Keyboard",
+   "Keyboard Features": "Chiclet Keyboard, 1.4mm Key Travel",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD Camera with Privacy Shutter",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "SonicMaster Audio, Cortana Support"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "HDMI Port": "1 × HDMI 1.4",
+   "USB 2 Port": "1 × USB 2.0 Type-A",
+   "USB 3 Port": "1 × USB 3.2 Gen 1 Type-A, 1 × USB 3.2 Gen 1 Type-C",
+   "USB Type-C / Thunderbolt Port": "1 × USB 3.2 Gen 1 Type-C with Power Delivery",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6 (802.11ax) Dual Band 1×1",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Security Locker Slot": "N/A",
+   "Fingerprint Sensor": "No",
+   "Security Chip": "Firmware TPM, BIOS Password Protection, McAfee"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "IPS LED Backlit Anti-Glare",
+   "Display Resolution": "FHD (1920 × 1080)",
+   "Display Features": "16:9 Aspect Ratio, LED Backlit, Anti-Glare Display, TÜV Rheinland Certified, 84% Screen-to-Body Ratio",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-ion (3S1P)",
+   "Battery Capacity": "42Wh",
+   "Adapter Type": "45W AC Adapter (19V DC, 2.37A)",
+   "Backup Time (Approx)": "Up to 6 Hours (Depending on Usage)"
+  },
+  "Physical Specification": {
+   "Weight": "1.63 kg",
+   "Colors": "Mixed Black"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Years"
+  },
+  "Image": {
+   "Model": "Vivobook Go 15 E1504TA-BQ199W"
+  }
+ },
+ "key_features": [
+  "Memory: 8GB LPDDR5 RAM",
+  "Storage: 512GB M.2 NVMe PCIe 4.0 SSD",
+  "Display: 15.6-inch Full HD (1920×1080) IPS Anti-Glare Display",
+  "Special Features: Backlit Keyboard, Privacy Shutter, US MIL-STD 810H Military-Grade Durability"
+ ],
+ "model": "Vivobook Go 15 E1504TA-BQ199W",
+ "warranty": "2-Years",
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-vivobook-go-15-e1504ta-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "HP ProDesk 400 G9 MT Core i7": {
+   "Processor": "Intel 12\nth\nGen\nCore i7-12700\nProcessor-2.1GHz Turbo Boost 4.9GHz (25MB Cache)",
+   "Chipset": "Intel Q670 Chipset",
+   "RAM": "8GB\nDDR4 RAM-3200MHz; 2 DIMM slots enabling up to 64GB",
+   "HDD": "512GB M.2 NVMe SSD",
+   "Display": "Without Monitor",
+   "Segment": "Core i7",
+   "Graphics": "Intel UHD 770 Graphics",
+   "Operating System": "FreeDOS",
+   "Networking": "Wi-Fi & Bluetooth",
+   "Optical Disk Drive": "Without ODD",
+   "Ports": "Front\n: 1 headphone/microphone combo; 1 SuperSpeed USB Type-C® 10Gbps signaling rate; 3 SuperSpeed USB Type-A 10Gbps signaling rate\nRear\n: 1 audio-out; 1 power connector; 1 RJ-45; 1 HDMI 1.4; 3 SuperSpeed USB Type-A 5Gbps signaling rate; 1 DisplayPort™ 1.4; 2 USB Type-A 480Mbps signaling rate",
+   "Audio": "Realtek ALC3252 codec, universal audio jack with CTIA and OMTP headset support",
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Form Factor: Tower",
+  "Processor Type: Core i7",
+  "Processor Max Turbo Frequency: 4.8GHz",
+  "RAM: 8GB",
+  "Solid-State Drive (SSD): 512GB"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-13T17:50+06:00",
+ "source": "https://smartbd.com/product/hp-prodesk-400-g9-12th-gen-core-i7/",
+ "store": "smartbd"
+}

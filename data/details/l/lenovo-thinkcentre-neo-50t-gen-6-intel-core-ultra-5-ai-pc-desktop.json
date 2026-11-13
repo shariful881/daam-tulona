@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core Ultra 5 225, 10 Cores (6P + 4E) / 10 Threads, Max Turbo up to 4.9GHz, 20MB Intel Smart Cache\nNPU: Integrated Intel AI Boost, up to 13 TOPS",
+   "Motherboard": "Intel B860 Chipset",
+   "RAM": "16GB UDIMM DDR5-5600 (1x 16GB, Two DDR5 UDIMM slots, Dual-channel capable, Up to 64GB DDR5-5600)",
+   "Graphics Card": "Integrated Intel Graphics",
+   "Audio": "High Definition (HD) Audio, Realtek® ALC623-CG codec, Integrated 2W x 1 Speaker",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0x4 NVMe\n(Supports up to 3 drives: 1x 3.5\" HDD up to 2TB + 2x M.2 SSD up to 1TB each)",
+   "Power Supply": "200W 90% Power Supply",
+   "CPU Cooler": "Standard Air Cooler / Heatsink (System Fan: None)",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6 AX203 (802.11ax 2x2) + Bluetooth 5.2, Gigabit Ethernet (Realtek RTL8111K, 1x RJ-45)"
+  },
+  "Others": {
+   "Security": "Discrete TPM 2.0 (TCG & FIPS 140-2 certified), Kensington Security Slot (3x7mm), Padlock Loop, Chassis Intrusion Switch",
+   "Form Factor": "Tower (13.6L)",
+   "Peripherals": "USB Calliope Keyboard & Calliope Mouse (Black)"
+  },
+  "General": {
+   "Dimension": "145 x 292.2 x 365 mm (5.71 x 11.50 x 14.37 inches)"
+  },
+  "Physical Attribute": {
+   "Weight": "Around 5.8 kg (12.79 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Warranty"
+  },
+  "Image": {
+   "Model": "ThinkCentre neo 50t Gen 6"
+  }
+ },
+ "key_features": [],
+ "model": "ThinkCentre neo 50t Gen 6",
+ "warranty": "3-Year Warranty",
+ "fetched": "2026-11-13T17:48+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkcentre-neo-50t-gen-6-core-ultra-5-ai-desktop",
+ "store": "creatus"
+}

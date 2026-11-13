@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Special Feature": "ROBUST SERIES LINE-INTERACTIVE UPS, Spike & Surge Suppression, short circuit, Microprocessor control guarantees high reliability, Full protection against over-discharge, overcharge, overload, Short Circuit (Protection)"
+  },
+  "General": {
+   "Model": "Santak R1200 1200VA",
+   "Type": "Offline UPS"
+  },
+  "Battery": {
+   "Battery": "2 pc with 12V & 7Ah",
+   "Back up time": "Up to 15 Minutes"
+  },
+  "Features": {
+   "Fuse": "Yes",
+   "Stabilizer": "Yes"
+  },
+  "Technology": {
+   "Volt Ampere (VA)": "1200V",
+   "Input Voltage (V)": "140-300V",
+   "Output Voltage (V)": "220-230 VAC +/-10%",
+   "Frequency (Hz - KHz)": "40/50Hz +/-1%",
+   "Load Capacity": "600W",
+   "Transfer Rate": "4-8ms Typical",
+   "LED Display": "No"
+  },
+  "Physical Specs": {
+   "Cable Length (Meter)": "1 Meter",
+   "Output connection (Back side)": "4 Port",
+   "Body Material": "Plastic",
+   "Dimensions": "139 x 365 x 195 mm",
+   "Weight (Kg)": "9.2 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year"
+  }
+ },
+ "key_features": [
+  "Power Rating: 1200 VA/600 W",
+  "Input Voltage Range: 140-300 VAC",
+  "Output Voltage: 230 VAC",
+  "Backup time: 30 minutes"
+ ],
+ "model": "Santak R1200 1200VA",
+ "warranty": "2 year",
+ "fetched": "2026-11-13T17:55+06:00",
+ "source": "https://www.pchouse.com.bd/santak-robust-series-r1200-1200va-offline-ups",
+ "store": "pchouse"
+}

@@ -1,0 +1,99 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "Ryzen 7000 Series",
+   "Processor Frequency": "Up to 4.3GHz",
+   "Processor Core": "4 Cores",
+   "Processor Thread": "8 Threads",
+   "CPU Cache": "6MB"
+  },
+  "Memory": {
+   "Bus Speed": "N/A",
+   "Max RAM Capacity": "16GB",
+   "Ram": "16GB",
+   "Ram Type": "LPDDR5",
+   "Total RAM Slot": "1 (Onboard)",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 3.0 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes, 1 x M.2 2280 PCIe 3.0 x2",
+   "Supported SSD Type": "M.2 2280 PCIe 3.0 x2",
+   "Extra M.2 Slot": "No"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Chiclet Keyboard",
+   "Keyboard Features": "Chiclet Keyboard, Function Key Lock",
+   "TouchPad": "Precision Touchpad with NumberPad Support"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD Camera",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Microphone",
+   "Audio Features": "SonicMaster, Cortana Voice Recognition Support"
+  },
+  "Ports & Slots": {
+   "Display Port": "1 x HDMI 1.4",
+   "HDMI Port": "1 x HDMI 1.4",
+   "USB 2 Port": "1 x USB 2.0 Type-A",
+   "USB 3 Port": "1 x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 1 Type-C",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6E (802.11ax) Triple Band",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "No",
+   "Fingerprint Sensor": "No",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "14-inch",
+   "Display Type": "IPS LED Backlit Anti-Glare",
+   "Display Resolution": "Full HD (1920 × 1080)",
+   "Display Features": "LED Backlit, Anti-Glare, 16:9 Aspect Ratio",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Brightness": "250 nits"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-ion (3S1P)",
+   "Battery Capacity": "42Wh",
+   "Adapter Type": "45W AC Adapter",
+   "Backup Time (Approx)": "Up to 6 Hours (Usage Dependent)"
+  },
+  "Physical Specification": {
+   "Weight": "1.38 kg",
+   "Dimensions": "32.55 x 21.39 x 1.79 cm",
+   "Colors": "Cool Silver"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years International Limited Warranty (Battery: 1 Year)"
+  },
+  "Image": {
+   "Model": "Vivobook Go 14 L1404FA"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7520U (6MB Cache, Up to 4.3GHz)",
+  "RAM: 16GB LPDDR5, Storage: 512GB M.2 NVMe PCIe 3.0 SSD",
+  "Display: 14-inch FHD (1920X1080) 16:9, LED Backlit, 60Hz, 250nits",
+  "Features: Privacy Shutter, Type-C, Wi-Fi 6E, Military Grade"
+ ],
+ "model": "Vivobook Go 14 L1404FA",
+ "warranty": "2 Years International Limited Warranty (Battery: 1 Year)",
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-vivobook-go-14-l1404fa-laptop",
+ "store": "creatus"
+}

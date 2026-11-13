@@ -1,0 +1,93 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Qualcomm",
+   "Processor Model": "Snapdragon X Elite",
+   "Processor Frequency": "Up to 3.8 GHz (Turbo up to 4.0 GHz)",
+   "Generation": "Snapdragon X Series",
+   "Processor Core": "12 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "42MB"
+  },
+  "Chipset": {
+   "Chipset": "Qualcomm Snapdragon X Elite"
+  },
+  "Display": {
+   "Display Size": "13 Inch",
+   "Display Type": "OLED PixelSense Flow",
+   "Display Resolution": "2880 × 1920",
+   "Touch Screen": "Yes",
+   "Display Features": "3:2 Aspect Ratio Dolby Vision IQ Gorilla Glass 5",
+   "Refresh Rate": "Up to 120Hz",
+   "Brightness": "600 nits SDR / 900 nits HDR"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "LPDDR5x"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen 4 NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 NVMe PCIe Gen 4",
+   "Storage Upgrade": "Removable SSD; upgrade options depend on compatibility"
+  },
+  "Graphics": {
+   "Graphics Model": "Qualcomm Adreno GPU",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Detachable Keyboard (Sold Separately)",
+   "TouchPad": "Multi-Touch Precision Touchpad (with compatible keyboard)",
+   "Keyboard Features": "Backlit Keyboard (compatible accessory; sold separately)"
+  },
+  "Camera & Audio": {
+   "WebCam": "10MP Rear Camera; Full HD Front Camera with Windows Hello",
+   "Speaker": "2W Stereo Speakers",
+   "Microphone": "Dual Studio Mics",
+   "Audio Features": "Dolby Atmos Supported"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Ports & Slots": {
+   "USB Type-C / Thunderbolt Port": "2 × USB-C USB4",
+   "Headphone & Microphone Port": "3.5mm Combo Jack"
+  },
+  "Security": {
+   "Security Chip": "Microsoft Pluton TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "287 × 209 × 9.3 mm",
+   "Weight": "Approx. 895g (tablet only)",
+   "Body Material": "Anodized Aluminum"
+  },
+  "Power": {
+   "Battery Type": "Built-in Rechargeable Lithium-Ion",
+   "Battery Capacity": "53Wh (Nominal)",
+   "Adapter Type": "39W Power Adapter",
+   "Backup Time (Approx)": "Up to 14 Hours"
+  },
+  "Other Features": {
+   "Other Features": "Copilot+ PC; Qualcomm Hexagon NPU up to 45 TOPS; 165° Kickstand; Windows Hello Face Authentication"
+  },
+  "Warranty Details": {
+   "Warranty": "1 Year Limited Warranty"
+  }
+ },
+ "key_features": [
+  "Processor Model: Snapdragon X Elite",
+  "Memory: 16GB RAM",
+  "Storage: 512GB SSD",
+  "Display Size: 13 inches"
+ ],
+ "warranty": "1 Year Limited Warranty",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/microsoft-surface-pro-11-x-elite",
+ "store": "pchouse"
+}

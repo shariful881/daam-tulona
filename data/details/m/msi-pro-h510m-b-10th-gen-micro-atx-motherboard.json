@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 10th Gen Intel Core and Pentium Gold/Celeron processors for LGA 1200 Socket",
+   "Chipset": "INTEL H470",
+   "Form Factor": "mATX\n202mmx236mm",
+   "Audio": "Realtek® ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 3.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)"
+  },
+  "Memory": {
+   "Type": "DDR4"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI™\nSupport HDMI™ 1.4, Maximum Resolution Of 4K 30Hz* 1x VGA\nSupport VGA, Maximum Resolution Of 2048x1536 50Hz, 1920x1200 60Hz",
+   "LAN Port (s)": "Realtek® 8111H Gigabit LAN",
+   "Internal I/O Ports": "1x PCI-E X16 Slot\n1x PCI-E X1 Slot\nPCI_E1 Gen PCIe 3.0 Supports Up To X16 (From CPU)\nPCI_E2 Gen PCIe 3.0 Supports Up To X1 (From Chipset) 1x M.2\nM.2_1 Source (From Chipset) Supports Up To PCIe 3.0 X4 / SATA Mode, Supports\n2280/2260/2242 Devices 4x SATA 6G"
+  },
+  "Physical Specification": {
+   "Dimensions": "MATX\n202mmx236mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PRO H510M-B"
+  },
+  "Product List": {
+   "Best msi  motherboard price list": "Price",
+   "MSI PRO B760M-P DDR5 mATX Motherboard": "15,000৳\n15,500৳",
+   "MSI Z790 GAMING PLUS WIFI DDR5 ATX Motherboard": "35,700৳\n38,900৳",
+   "MSI MAG B760M MORTAR II DDR5 mATX Motherboard": "21,500৳\n23,000৳",
+   "MSI B760M BOMBER WIFI DDR5 mATX Motherboard": "18,000৳\n18,500৳"
+  }
+ },
+ "key_features": [
+  "Type:DDR4",
+  "Warranty: 3 Year's",
+  "Chipset: INTEL H470",
+  "LAN: Realtek® 8111H Gigabit LAN"
+ ],
+ "model": "PRO H510M-B",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-h510m-b-10th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

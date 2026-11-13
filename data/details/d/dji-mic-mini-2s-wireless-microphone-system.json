@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Sony Store": {
+   "DJI Mic": "Choose an option\n1 TX + 1 RX\n2 TX + 1 RX + Charging Case\n1 TX + 1 RX\n2 TX + 1 RX + Charging Case\nClear"
+  },
+  "Specification": {
+   "Model": "DJI Mic Mini 2S",
+   "Polar Pattern": "Omnidirectional",
+   "Frequency Response": "20 Hz–20 kHz; Low Cut: 100 Hz–20 kHz",
+   "Microphone Sensitivity": "-36±1 dBV @ 1 kHz, 94 dB SPL",
+   "SNR": "72 dB",
+   "Max SPL": "126 dB SPL @ 1% THD; 130 dB @ 10% THD",
+   "Sampling Frequency": "48 kHz",
+   "Bit Depth": "32-bit float / 24-bit",
+   "Equivalent Noise": "22 dBA",
+   "Monitor Output Power": "20 mW @ 1 kHz, 32 Ω",
+   "Max Transmission Distance": "Up to 400 m",
+   "Transmitter Dimensions": "28.58 × 28.04 × 13.52 mm",
+   "Transmitter Weight": "Approx. 12 g",
+   "Wireless Mode": "GFSK 1 Mbps / 2 Mbps",
+   "Bluetooth": "6.0",
+   "Transmitter Battery": "124 mAh",
+   "Transmitter Battery Energy": "0.484 Wh",
+   "Transmitter Charging Time": "Approx. 70 min",
+   "Transmitter Operating Time": "Approx. 11 hours",
+   "Internal Recording": "24-bit: 28 h; 32-bit float: 22 h",
+   "Receiver Dimensions": "46.50 × 29.61 × 19.32 mm",
+   "Receiver Weight": "Approx. 19 g",
+   "Receiver Battery": "185 mAh",
+   "Receiver Battery Energy": "0.723 Wh",
+   "Receiver Charging Time": "Approx. 70 min",
+   "Receiver Operating Time": "Approx. 10 hours",
+   "Charging Case Dimensions": "106.30 × 42.50 × 59.20 mm",
+   "Charging Case Weight": "Approx. 160 g",
+   "Charging Case Battery": "1950 mAh",
+   "Charging Case Energy": "7.55 Wh",
+   "Charging Case Charging Time": "Approx. 2 hours",
+   "Case Charging Cycles": "Approx. 3.2×"
+  },
+  "How a wireless clip-on microphone works": {
+   "DJI Mic": "1 TX + 1 RX, 2 TX + 1 RX + Charging Case"
+  }
+ },
+ "key_features": [],
+ "model": "DJI Mic Mini 2S",
+ "fetched": "2026-11-13T17:56+06:00",
+ "source": "https://diamu.com.bd/product/dji-mic-mini-2s-microphone/",
+ "store": "diamu"
+}

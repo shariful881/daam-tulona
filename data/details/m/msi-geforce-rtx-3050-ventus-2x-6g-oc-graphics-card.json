@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Memory Size": "6GB",
+   "Memory Type": "GDDR6",
+   "Core Clock": "Boost: 1492 MHz",
+   "BUS Type": "96-bit",
+   "CUDA Cores (Nvidia)": "2304 Units",
+   "Resolution": "7680x4320",
+   "Video Memory": "PCI Express Gen 4.0 x8",
+   "Memory Clock": "14 Gbps"
+  },
+  "Features": {
+   "Dimension": "235 x 124 x 42 mm",
+   "Weight": "661 g"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort x 1 (v1.4a)",
+   "HDMI": "HDMI x 2 (Supports 4K@120Hz as specified in HDMI 2.1)",
+   "HDCP": "Yes"
+  },
+  "Power Specifications": {
+   "Connector Type": "8-pin x1",
+   "Power Consumption": "130 W",
+   "Recommend PSU": "550 W",
+   "Consumption": "130 W"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6",
+   "DirectX": "12 API"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Boost Clock: 1492 MHz, Memory Speed: 14 Gbps",
+  "Memory: 6GB GDDR6",
+  "Memory Bus: 96-bit, Interface: PCI Express Gen 4 x16 (uses x8)",
+  "Output: DisplayPort 1.4 x1, HDMI x2"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-3050-ventus-2x-6g-oc-gddr6-graphics-card",
+ "store": "pchouse"
+}

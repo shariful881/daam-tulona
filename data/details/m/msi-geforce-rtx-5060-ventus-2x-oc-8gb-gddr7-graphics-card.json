@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Display Port": "DisplayPort 2.1b x 3",
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7‎680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128 bit",
+   "CUDA Cores": "3840 Units",
+   "Memory Interface": "PCI Express Gen 5 x16 (uses x8)"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2535 MHz (MSI Center)",
+   "Boost": "2527 MHz"
+  },
+  "Ports Connector and Slots": {
+   "HDMI": "HDMI 2.1b x 1",
+   "DVI Port": "8 pin x 1"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "550 W",
+   "Power Consumption": "145 W"
+  },
+  "Display Option": {
+   "Multi Display Capability": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "197 x 120 x 41 mm",
+   "Others": "511 g / 829 g"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5060 8G VENTUS 2X OC"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 5060 8G VENTUS 2X OC",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-graphics-card",
+ "store": "creatus"
+}

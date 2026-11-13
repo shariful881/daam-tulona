@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Free-Dos",
+   "Processor": "12th Generation Intel Core i3-12100-4C (3.30 up to 4.30GHz, 12MB)",
+   "Motherboard": "Intel Q670",
+   "RAM": "8GB (1X8G) DDR5 5600MHz Non-ECC, 2 DIMM slots",
+   "Graphics Card": "Integrated Intel UHD Graphics 730",
+   "Audio": "Integrated High Definition Audio Codec\nInternal Dell Business Audio Speaker",
+   "Storage": "512GB PCIe NVMe SSD",
+   "Power Supply": "Standard 180W PSU",
+   "Network & Wireless Connectivity": "Integrated Gigabit LAN-On-Motherboard",
+   "Others": "Bays: (3) SATA slots for 3.5-inch/2.5-inch HDD/SSD, and optical Drive\nI/O Slots: Full-height Gen 3 PCIe x16 slot\n(2) full-height Gen 3 PCIe x1 slots\n2 x M.2"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front:\n2 USB 2.0\n1 USB 3.2 Gen 1 Type-C port\n1 USB 3.2 Gen 1 port\n1 Universal audio port\nRear:\n2 USB 2.0 ports with SmartPower On\n2 USB 3.2 Gen 1 ports\n1 DisplayPort port\n1 RJ45 Ethernet port\n1 HDMI 1.4b port",
+   "Keyboard": "Dell KB216 Wired Black Business Keyboard (English)",
+   "Mouse": "Dell Optical Mouse-MS116",
+   "Optical Drive": "N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "OptiPlex 7020"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-12100 (12M Cache, up to 4.30 GHz)",
+  "RAM: 8GB DDR5 5600MHz, Storage: 512GB PCIe NVMe SSD",
+  "IGPU: Integrated Intel UHD Graphics 730"
+ ],
+ "model": "OptiPlex 7020",
+ "warranty": "3 years",
+ "fetched": "2026-11-13T17:44+06:00",
+ "source": "https://www.creatus.com.bd/dell-optiplex-7020-core-i3-12th-gen-brand-pc",
+ "store": "creatus"
+}

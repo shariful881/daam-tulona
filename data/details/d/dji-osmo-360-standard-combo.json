@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Image sensor": {
+   "Aperture": "f/1.9",
+   "ISO Range": "100-51200"
+  },
+  "Sensor Resolution": {
+   "Panoramic Photo": "2:1, 15520 × 7760 (120 MP)",
+   "Single-Lens Photo": "4:3, 6400 × 4800 (30.72 MP)"
+  },
+  "Display": {
+   "Size": "2.0 inches",
+   "Resolution": "314×556",
+   "Brightness": "800 cd/㎡"
+  },
+  "Main Features": {
+   "USB Port": "USB Type-C"
+  },
+  "Battery": {
+   "Charging Interface": "USB Type-C",
+   "Type": "Li-ion 1S",
+   "Capacity": "1950 mAh"
+  },
+  "Special Features": {
+   "Wi-Fi": "Wi-Fi 6.0\n802.11 a/b/g/n/ac/ax\nWi-Fi Operating Frequency\n2.400-2.4835 GHz\n5.150-5.250 GHz\n5.725-5.850 GHz\nWi-Fi Transmitter Power (EIRP)\n2.4 GHz: < 23 dBm (FCC), < 20 dBm (CE/SRRC/MIC)\n5.1 GHz: < 23 dBm (FCC/CE/SRRC/MIC)\n5.8 GHz: < 23 dBm (FCC/SRRC), < 14 dBm (CE)",
+   "Water Resistant": "IP68 rating\nup to 10 meters underwater",
+   "Other Features": "Number of Microphones: 4, OsmoAudio Direct\nHyperlapse\nTimelapse\nSuperNight\nBluetooth Operating Frequency: 2.400-2.4835 GHz\nBluetooth Transmitter Power (EIRP): < 13 dBm\nBluetooth Protocol: BLE 5.1\nDimensions: 61×36.3×81 mm (L×W×H)\nWeight: 183 g"
+  },
+  "Warranty": {
+   "Manufacturer Warranty": "1 Year DJI Warrant"
+  }
+ },
+ "key_features": [
+  "Sensor: 1/1.1-inch CMOS, 2.0-inch Touchscreens",
+  "Number of Microphones: 4, OsmoAudio Direct",
+  "Max Photo Resolution: 6400 × 4800 (Single-Lens)",
+  "Supported SD Cards: microSD (up to 1TB)"
+ ],
+ "warranty": "1 Year DJI Warrant",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://fourstarit.com.bd/p/dji-osmo-360-standard-combo",
+ "store": "fourstar"
+}

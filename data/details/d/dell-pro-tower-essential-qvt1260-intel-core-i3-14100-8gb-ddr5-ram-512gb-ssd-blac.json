@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "Dell Pro Tower Essential QVT1260",
+   "Country of Origin": "USA",
+   "Assembled Country": "Malaysia",
+   "Processor": "Intel Core i3 14100 (12 MB cache, 4 Cores, 8 threads, up to 4.7 GHz)",
+   "Chipset": "Intel® Q670",
+   "Memory": "8GB, 8GBx1, DDR5, 5600MT/s, single-channel",
+   "Hard Drive": "512GB M.2 PCIe NVMe Solid State Drive",
+   "Graphics": "Intel(R) UHD Graphics 730 with shared graphics memory",
+   "Optical Drive": "No Optical Disk Drive",
+   "Slots": "Expansion"
+  },
+  "1 full-height PCIe x16 slot": {
+   "Port": "1 Global Handset Audio Jack"
+  },
+  "1 USB 3.2 Gen 1 Type-C (5 Gbps) port": {
+   "Audio": "Realtek ALC3204 High Definition Audio",
+   "Dimensions & Weight": "Height: 324.30 mm (12.77 in.)"
+  },
+  "Weight (maximum): 6.86 kg (15.12 lb)": {
+   "Keyboard": "Dell Wired Keyboard KB216 with CoPilot AI Hotkey Black (English)",
+   "Mouse": "Dell USB Optical Mouse",
+   "Power supply Unit": "180W Bronze Power Supply",
+   "Color Option": "Standard Black",
+   "Operating System": "Free DOS",
+   "Warranty": "03 Years limited warranty"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-14100 (12 MB cache, 4 Cores, 8 threads, up to 4.7 GHz)",
+  "RAM: 8GB DDR5 5600 MT/s, Storage: 512GB PCIe NVMe SSD",
+  "GPU: Intel(R) UHD Graphics 730"
+ ],
+ "model": "Dell Pro Tower Essential QVT1260",
+ "warranty": "03 Years limited warranty",
+ "fetched": "2026-11-13T18:00+06:00",
+ "source": "https://smartbd.com/product/dell-pro-tower-essential-qvt1260-core-i3-14100-8gb-ram-512gb-ssd-desktop-pc/",
+ "store": "smartbd"
+}

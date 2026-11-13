@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 Inch",
+   "Display Type": "LED",
+   "Panel Type": "Fast IPS",
+   "Resolution": "2K QHD (2560 × 1440)",
+   "Pixel Pitch (mm)": "0.2331 (H) × 0.2331 (V)",
+   "Brightness": "300 cd/m²",
+   "Refresh rate": "180Hz",
+   "Color Support": "16.7 Million",
+   "Curvature": "Flat",
+   "HDR": "HDR10"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "HDCP": "2.2"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100mm × 100mm",
+   "Height Adjustment": "130 mm",
+   "Pivot": "—90°~90°",
+   "Swivel": "—30° ~ 30°",
+   "Tilt": "—5° ~ 23°"
+  },
+  "Power": {
+   "Power Consumption": "23W"
+  },
+  "Key Features": {
+   "Voltage Range": "100 - 240V～1.5A, 50 / 60Hz"
+  },
+  "Display Details": {
+   "Aspect Ratio": "16:9",
+   "Color Gamut": "NTSC 102% (CIE1976) / sRGB 120% (CIE1931) / DCI-P3 93% (CIE1976)",
+   "Contrast Ratio": "1000: 1 (Typical) MEGA DCR",
+   "Response Time": "0.5ms (MPRT) /1ms (GtG)",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)"
+  },
+  "Features": {
+   "Dimension": "without Stand: 366.3 (H) × 613.9 (W) × 51.3 (D)",
+   "Weight": "without Stand (kg): 3.44"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "Display Port": "DisplayPort1.4 × 1",
+   "HDMI": "HDMI2.0 × 1"
+  },
+  "General": {
+   "Type": "Internal"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): N/A"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: 2K QHD (1920 x 1080)",
+  "Display: FAST IPS, 180Hz, 1ms (GTG), 0.5ms (MPRT)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: G-Sync, Adaptive Sync, Flicker Free, HDR 400"
+ ],
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T18:21+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-q27g4-27-inch-gaming-monitor",
+ "store": "pchouse"
+}

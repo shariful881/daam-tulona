@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Interface": "3200Mhz",
+   "Operating voltage": "1.35 V",
+   "Type": "DDR4",
+   "Latency": "CL16-20-20-40"
+  },
+  "Physical dimension": {
+   "Dimension": "32(H) x 140(L) x 7(W)mm",
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288-pin DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  },
+  "Image": {
+   "Model": "T-Force VULCAN Z"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB",
+  "Frequency: 3200 MHz",
+  "Data Transfer: 25,600 MB/s",
+  "Bandwidth: (PC4 25600)"
+ ],
+ "model": "T-Force VULCAN Z",
+ "warranty": "Lifetime",
+ "fetched": "2026-11-13T18:26+06:00",
+ "source": "https://www.creatus.com.bd/team-t-force-vulcan-z-gray-8gb-3200mhz-desktop-ram",
+ "store": "creatus"
+}

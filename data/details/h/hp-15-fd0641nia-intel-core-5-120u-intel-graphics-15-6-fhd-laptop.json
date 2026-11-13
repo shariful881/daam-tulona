@@ -1,0 +1,93 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core 5 120U",
+   "Processor Frequency": "Up to 5.0 GHz",
+   "Generation": "Intel Core Series 1",
+   "Processor Core": "10 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12 MB L3 Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel Integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920 × 1080)",
+   "Touch Screen": "No",
+   "Display Features": "Anti-Glare, Micro-Edge, Flicker-Free",
+   "Brightness": "250 nits"
+  },
+  "Memory": {
+   "RAM": "8GB DDR5",
+   "Removable": "Yes",
+   "Bus Speed": "5600 MT/s*",
+   "Total RAM Slot": "2*",
+   "Max RAM Capacity": "32GB*"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 PCIe NVMe SSD",
+   "Storage Upgrade": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared Memory",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size Keyboard with Numeric Keypad",
+   "TouchPad": "HP Imagepad",
+   "Keyboard Features": "Backlit Keyboard, Numeric Keypad"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 720p HD Camera",
+   "Speaker": "Dual Speakers",
+   "Microphone": "Integrated Dual-Array Digital Microphones",
+   "Audio Features": "Integrated Audio, Dual Speakers"
+  },
+  "Network & Connectivity": {
+   "LAN": "No Built-in RJ-45 Port Listed",
+   "WiFi": "Wi-Fi 6",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 × HDMI 1.4",
+   "USB 3 Port": "2 × USB Type-A (5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 × USB Type-C (10Gbps, DisplayPort, Power Delivery)",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Jack"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Physical Specification": {
+   "Color": "Natural Silver",
+   "Dimensions": "35.98 × 23.6 × 1.86 cm",
+   "Weight": "Approximately 1.59 kg"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-ion Polymer",
+   "Battery Capacity": "41Wh",
+   "Adapter Type": "45W AC Adapter",
+   "Backup Time (Approx)": "Up to 6 Hours 45 Minutes*"
+  },
+  "Other Features": {
+   "Other Features": "Backlit Keyboard, Numeric Keypad, Anti-Glare Display, Fast SSD Storage, Camera Privacy Shutter"
+  },
+  "Warranty Details": {
+   "Warranty": "2 years Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years Warranty",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/hp-15-fd0641nia-core-5-120u-laptop",
+ "store": "pchouse"
+}

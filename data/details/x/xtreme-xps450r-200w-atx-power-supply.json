@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "200W",
+   "Fan Size": "120mm"
+  },
+  "Input": {
+   "Voltage": "220V"
+  },
+  "Output": {
+   "Modular Type": "Non-Modular",
+   "Total Power": "200-Watt"
+  },
+  "Connector": {
+   "PCI-E": "4pin",
+   "SATA": "2pin"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "XPS450R"
+  }
+ },
+ "key_features": [
+  "From Factor: ATX",
+  "Power Output Capacity: 200 Watt",
+  "PSU Type: Non-Modular",
+  "Fan Size: 120mm"
+ ],
+ "model": "XPS450R",
+ "warranty": "2 Years",
+ "fetched": "2026-11-13T18:42+06:00",
+ "source": "https://www.creatus.com.bd/xtreme-xps450r-200w-atx-power-supply",
+ "store": "creatus"
+}

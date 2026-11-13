@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 (2280)",
+   "Interface": "PCIe 4.0 x4 NVMe 2.0",
+   "Flash Type": "Samsung V-NAND TLC",
+   "MTBF": "1.5 Million Hours Reliability (MTBF)"
+  },
+  "Sequential R/W": {
+   "Sequential Read Speed": "Up to 7,250 MB/s",
+   "Sequential Write Speed": "Up to 6,300 MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 - 70 ℃",
+   "Shock resistance": "1,500 G & 0.5 ms (Half sine)"
+  },
+  "Physical Specification": {
+   "Weight": "Max 9.0g Weight"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "990 EVO Plus"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor: M.2 (2280)",
+  "Sequential Read Speed: Up to 7250 MB/s",
+  "Sequential Write Speed: Up to 6300 MB/s"
+ ],
+ "model": "990 EVO Plus",
+ "warranty": "3 years",
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.creatus.com.bd/samsung-990-evo-plus-1tb-ssd",
+ "store": "creatus"
+}

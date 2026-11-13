@@ -1,0 +1,90 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7-13620H",
+   "Generation": "13th Generation",
+   "Processor Frequency": "3.6 GHz up to 4.9 GHz",
+   "Processor Core": "10",
+   "Processor Thread": "16",
+   "CPU Cache": "24MB"
+  },
+  "Memory": {
+   "Bus Speed": "5200MHz",
+   "Max RAM Capacity": "Up to 64GB",
+   "Ram": "16GB (2x 8GB)",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB",
+   "Supported SSD Type": "M.2 2280 x 2 (PCIe Gen3x4*1 , PCIe Gen4x4*1)",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4050\nBoost Clock 2130MHz / Maximum Graphics Power 75W",
+   "Graphics Memory": "6GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "illuminated keyboard",
+   "Keyboard Features": "Multi languages 15 color illuminated, full size keyboard with numeric pad",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "1.0M HD video camera",
+   "Speaker": "2x 2 Watt",
+   "Audio Features": "DTS:X Ultra Audio Technology"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "1 x MicroSD Card Reader",
+   "HDMI Port": "1 x HDMI (with HDCP)",
+   "USB 2 Port": "1 x USB 2.0 port (Type A)",
+   "USB 3 Port": "1 x USB 3.2 Gen 1 port (Type A)",
+   "USB Type-C / Thunderbolt Port": "2 x USB 3.2 Gen 2 port (Type C)",
+   "Headphone & Microphone Port": "1 x 2-in-1 Audio Jack (Headphone / Microphone)\n1 x Microphone Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1GB RJ-45 LAN port",
+   "WiFi": "Intel Wi-Fi 6E",
+   "Bluetooth": "Bluetooth V5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920 x 1200)",
+   "Touch Screen": "No",
+   "Refresh Rate": "165Hz"
+  },
+  "Power": {
+   "Battery Type": "Lithium-Polymer",
+   "Battery Capacity": "76Wh",
+   "Adapter Type": "150W"
+  },
+  "Physical Specification": {
+   "Weight": "~2.3kg\n5.07lb",
+   "Color": "Black Steel",
+   "Dimensions": "35.95 (W) x 26.38 (D) x 2.51 ~ 2.6 (H) cm\n14.15 (W) x 10.39 (D) x 0.99~1.02 (H) inch"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "Gaming A16 GA6H MF CMH"
+  }
+ },
+ "key_features": [],
+ "model": "Gaming A16 GA6H MF CMH",
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:46+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-gaming-a16-ga6h-mf-cmh-laptop",
+ "store": "creatus"
+}

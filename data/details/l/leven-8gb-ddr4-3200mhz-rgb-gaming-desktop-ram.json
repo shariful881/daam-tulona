@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB"
+  },
+  "General Information": {
+   "Bus Speed": "3200MHz",
+   "Memory Type": "DDR4"
+  },
+  "Image": {
+   "Model": "Leven 8GB DDR4"
+  }
+ },
+ "key_features": [
+  "Module type: UDIMM",
+  "Module specification: 288-pin",
+  "Memory Type: DDR4",
+  "Capacity: 8GB (8GBx1)",
+  "RGB Type: Yes",
+  "Tested Speed: 3200MHz",
+  "Heat sink type: Aluminum Heatsink",
+  "Single/Dual sticks: Single",
+  "Tested Latency: 16-18-18-38-2N",
+  "Tested Voltage: 1.35v",
+  "Registered/Unbuffered: Unbuffered",
+  "Error Checking: Non-ECC"
+ ],
+ "model": "Leven 8GB DDR4",
+ "fetched": "2026-11-13T18:04+06:00",
+ "source": "https://www.creatus.com.bd/leven-8gb-ddr4-3200mhz-rgb-gaming-desktop-ram",
+ "store": "creatus"
+}

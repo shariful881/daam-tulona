@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Casing Cooling Fan",
+   "Number of Fans": "3",
+   "Series": "TL"
+  },
+  "Key Feature": {
+   "Fan Size": "120mm",
+   "Lighting Effect": "ARGB"
+  },
+  "Display Details": {
+   "Color": "Black"
+  },
+  "Casing Fan": {
+   "Blade Qty": "9",
+   "Fan Speed": "1550 RPM"
+  },
+  "Technical Info": {
+   "Approx. Power Consumption": "30W"
+  },
+  "Physical Specification": {
+   "Weight": "120 gm"
+  },
+  "Physical Specifications": {
+   "Dimensions": "120 x 120 x 25mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [
+  "Noise Level: 25.6 dBA (MAX)",
+  "Air Flow: 66.17 CFM (MAX)",
+  "Air Pressure: 1.53mm H2O (MAX)"
+ ],
+ "warranty": "3 year",
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-tl-c12c-s-x3-120mm-(3-pack)-black-argb-casing-cooling-fan",
+ "store": "pchouse"
+}

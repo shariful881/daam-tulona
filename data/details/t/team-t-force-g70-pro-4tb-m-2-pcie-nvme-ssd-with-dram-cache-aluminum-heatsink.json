@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "4TB",
+   "Interface": "PCIe Gen4x4 with NVMe",
+   "Sequential R/W": "up to 7,400/6,600 MB/s",
+   "MTBF": "3,000,000 hours"
+  },
+  "Physical Specification": {
+   "Dimension": "80.0(L) x 22.0(W) x 8.7(H) mm (with Aluminum heat sink)",
+   "Weight": "54g (with Aluminum heat sink)",
+   "Color": "Black"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G/0.5ms",
+   "Vibration Resistance": "80Hz~2,000Hz/20G"
+  },
+  "Warranty": {
+   "Warranty": "5-year limited warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 4TB",
+  "Interface: PCIe Gen4x4 with NVMe",
+  "Read/Write: up to 7,400/6,600 MB/s"
+ ],
+ "warranty": "5-year limited warranty",
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.pchouse.com.bd/team-t-force-g70-pro-4tb-m.2-pcie-nvme-ssd",
+ "store": "pchouse"
+}

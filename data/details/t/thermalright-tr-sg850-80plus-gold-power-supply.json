@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Adapter": "16pin graphics"
+  },
+  "Key Features": {
+   "Form Factor": "ATX, compatible with standard ATX cases."
+  },
+  "Features": {
+   "Interface": "Fully modular cables"
+  },
+  "Technical Specification": {
+   "Frequency Range": "50-60 Hz"
+  },
+  "Connectivity": {
+   "Power": "850w",
+   "Connectors": "1 x 24-pin ATX 2 x 4+4-pin CPU 4 x 6+2-pin PCIe 8 x SATA 6 x Molex"
+  },
+  "Connectors": {
+   "AC Input": "100-240V-11-554,47-63HZ"
+  },
+  "Physical Specifications": {
+   "Dimension": "L150 W 140H 86MM 1MM"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Capacity : 850W",
+  "Efficiency : 80 PLUS GOLD",
+  "Modular : Full-Modular",
+  "Input Current : 11-5.5A"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-13T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-tr-sg850-80plus-gold-power-supply",
+ "store": "pchouse"
+}

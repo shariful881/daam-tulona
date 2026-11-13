@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "650-1750 RPM ± 10%",
+   "Fan Airflow": "71.93 CFM (Max)",
+   "Noise": "27.2 dBA",
+   "Air Pressure": "1.86 mmH₂O (Max)",
+   "Connector": "4-Pin (PWM)",
+   "Material": "Heat Sink Material: 4 Heat Pipes / Aluminum Fins",
+   "Others": "Fan MTTF: >160,000 Hours\nFan Bearing Type: Rifle Bearing"
+  },
+  "Physical Specification": {
+   "Dimension": "124 x 73 x 152 mm\nFAN DIMENSIONS: 120 x 120 x 25mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700 / 1200 / 1151 / 1150 / 1155 / 1156",
+   "AMD": "AM5 / AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "02-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 650-1750 RPM ± 10%",
+  "Fan Airflow: 71.93 CFM (Max)",
+  "Fan Noise Level: 27.2 dBA",
+  "Compatible with Intel & AMD"
+ ],
+ "price": 25002799,
+ "regular": 3080,
+ "status": "In Stock",
+ "code": "50116",
+ "brand": "Cooler Master",
+ "mpn": "RR-S4NA-17PA-R1",
+ "model": "Hyper 212 Spectrum V3 ARGB",
+ "warranty": "02-year Warranty",
+ "name": "Cooler Master Hyper 212 Spectrum V3 ARGB Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Cooler Master",
+  "Cooler Master Hyper 212 Spectrum V3 ARGB Air CPU Cooler"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-hyper-212-spectrum-v3-argb-cpu-cooler",
+ "store": "startech"
+}

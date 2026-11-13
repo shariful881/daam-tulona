@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Connector": {
+   "Fan Connector": "4-Pin PWM",
+   "Fan LED Connector": "3-Pin"
+  },
+  "Key Features": {
+   "Fan Airflow": "41CFM",
+   "Fan Speed": "600~2400RPM ±10%",
+   "Type": "Air CPU Cooler",
+   "Noise": "≤29.5dB(A)",
+   "Air Pressure": "2.2mmH2O",
+   "LED Number": "ARGB"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 115X/1200/1700/1851",
+   "AMD": "AMD: AM4/AM5"
+  },
+  "General Information": {
+   "Dimensions": "Fan: 100*100*25mm (L×W×H)"
+  },
+  "External Features": {
+   "Weight": "420g"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  },
+  "Image": {
+   "Model": "Gamma A40 WH ARGB Digital"
+  }
+ },
+ "key_features": [],
+ "model": "Gamma A40 WH ARGB Digital",
+ "warranty": "2 Years Warranty",
+ "fetched": "2026-11-13T18:13+06:00",
+ "source": "https://www.creatus.com.bd/ocypus-gamma-a40-wh-argb-digital-air-cpu-cooler",
+ "store": "creatus"
+}

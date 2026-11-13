@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "HP Z2 SFF G1i Workstation Desktop PC",
+   "Country of Origin": "USA",
+   "Processor Speed": "Intel® Core™ Ultra 7 265 with Intel® Graphics (2.4 GHz up to 5.2 GHz Max Turbo frequency, 30 MB L3 cache, 20 cores, 20 threads)",
+   "Cache Memory": "30 MB Cache",
+   "Chipset": "Intel® W880",
+   "Memory": "16GB DDR5 up gradable to 128GB DDR5-5600 & 4 DIMM",
+   "SSD": "1TB SSD M.2 NVMe SSD",
+   "Graphics": "NVIDIA® A400 4GB GDDR6",
+   "NIC": "Integrated 10/100/1000 GbE\nIntel® Wi-Fi 7 BE200 (2×2) and Bluetooth® 5.4 combo with internal antenna",
+   "Audio": "Realtek ALC3252 codec, universal audio jack with CTIA and OMTP headset support",
+   "Expansion Slots": "2 M.2 2280 PCIe 4 x4; 1 M.2 2230 for WLAN; 1 PCIe 5 x16; 1 M.2 2280 PCIe 5 x4; 1 PCIe 4 x4",
+   "Number of Bay": "External: One slim ODD",
+   "Keyboard": "HP USB Keyboard",
+   "Mouse": "HP USB Optical Mouse",
+   "From Factor": "400 W 92% efficient, wide-ranging, active PFC",
+   "Operating System": "FREE DOS",
+   "Warranty": "03 Years HP warranty"
+  },
+  "Port": {
+   "Front": "2 USB Type-C® 20Gbps signaling rate; 4 USB Type-A 10Gbps signaling rate; 1 headphone/microphone combo",
+   "Rear": "2 USB Type-A 10Gbps signaling rate; 2 DisplayPort™ 1.4; 1 RJ-45; 1 audio line-in/line-out; 3 USB Type-A 480Mbps signaling rate"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra7 265",
+  "Memory: 16GB DDR5, 1TB SSD",
+  "Graphics: NVIDIA A400 4GB GDDR6 Graphics",
+  "Features: Wi-Fi, BT, Internal speaker, Type-A, C"
+ ],
+ "model": "HP Z2 SFF G1i Workstation Desktop PC",
+ "warranty": "03 Years HP warranty",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://smartbd.com/product/hp-z2-sff-g1i-intel-core-ultra-7-265-16gb-ram-1tb-ssd-work-station-desktop-pc/",
+ "store": "smartbd"
+}

@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Tablet Specifications": {
+   "Display Type": "IPS LCD",
+   "Display Size": "11 inches",
+   "Resolution": "2560 x 1600, 274 ppi\n16:10 aspect ratio\nRefresh rate: Up to 90Hz\nTouch sampling rate: Up to 360Hz\n240Hz (with pen)Brightness: 500 nits (typ), 600 nits (Outdoor mode)\nLow Blue Light\nFlicker Free\n1.07 billion colour",
+   "Processor": "MediaTek Helio G100-Ultra\n6nm manufacturing process\nCPU: A76+A55,\n[email protected]\n[email protected]\nGHz\nGPU: Mali-G57 MC2",
+   "RAM": "8GB\nLPDDR4X",
+   "Storage": "256GB\nUFS 2.2",
+   "Connectivity": "Wi-Fi, Bluetooth 5.3",
+   "Operating System": "HyperOS 2",
+   "Audio": "SBC, AAC, LDAC Dolby Atmos",
+   "Dimensions": "Height: 254.58 mm Width: 166.04 mm Thickness: 7.36 mm",
+   "Weight": "510g",
+   "Camera": "Rear:\n8M, 1/4\", 1.12μm pixel size\nf/2.0\nFront:\n5M, 1/5\", 1.12μm pixel size\nf/2.2\nVideo:\nRear Camera: 1080P video at 30fps\n720P video at 30fps\nFront camera: 1080P video at 30fps\n720P video at 30fps",
+   "Bluetooth": "5.3",
+   "Sensors": "Accelerometer | Virtual ambient light sensor | Hall sensor",
+   "USB": "USB Type-C 2.0",
+   "WLAN": "Wi-Fi 5",
+   "Warranty": "No Warranty"
+  },
+  "Battery": {
+   "Capacity": "9000mAh mAh",
+   "Charging": "18W Fast charging"
+  }
+ },
+ "key_features": [
+  "Display: 11 Inches (2560 x 1600)",
+  "Processor: MediaTek Helio G100-Ultra (6 nm)",
+  "RAM: 8GB, Internal Storage: 256GB",
+  "Battery: 9000 mAh, 18W Fast Charging"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/redmi-pad-2-8gb-256gb-tablet",
+ "store": "pchouse"
+}

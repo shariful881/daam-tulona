@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Full Tower",
+   "Front Panel": "Mesh Panel",
+   "Tempered  Glass Panel": "Side Panel",
+   "Motherboard Support": "ATX, E-ATX, SS-CEB,SSI-EEB , Threadripper, (Supports Back-Connect Motherboards)"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Aluminum + Steel + Plastic + Glass",
+   "Dimensions": "547 x 250 x 622 mm (DWH)",
+   "Expansion Slots": "8",
+   "Radiator Support": "Front: 120 / 140 / 240 / 280 / 360 / 420mm (52mm thickness)\nTop: 120 / 140 / 240 / 280 / 360mm (52mm thickness)",
+   "Fan Support": "Front: 2 x 200mm / 3 x 140mm / 3 x 120mm\nTop: 2 x 140mm / 3 x 120mm\nPower Supply Shroud: 2 x 120mm\nRear: 1 x 120mm / 1 x 140mm",
+   "Pre- Installed Fans": "3 x 140mm at the front\n2 x 120mm reverse fans at the PSU shroud\n1 x 140mm at the rear",
+   "Drive Bays": "3.5\" / 2.5\": 4 / 4\n2.5\": 5",
+   "I/O Port": "Power, USB 3.0 x 2, Type-C 10Gbps x 1, Headphone/Mic Combo Jack"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "≤ 190mm",
+   "Maximum Graphics Card Length": "≤ 495mm (≤ 465mm with front fans installed)\nMax GPU Thickness: ≤ 160mm (cable excluded)",
+   "Maximum PSU Length": "≤230mm (cable excluded) / ≤ 170mm (side mount)"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Mainboard Support: ATX, E-ATX, SS-CEB, SSI-EEB, Threadripper",
+  "Form Factor: Full Tower, Tempered Glass Side Panel",
+  "Pre-Install Fans:  2x 120mm reverse, 4x 140mm",
+  "Supports Back-Connect/ BTF Motherboards"
+ ],
+ "price": 29700,
+ "regular": 32120,
+ "status": "In Stock",
+ "code": "51558",
+ "brand": "Antec",
+ "model": "900",
+ "warranty": "No Warranty",
+ "name": "Antec 900 E-ATX Full Tower Gaming Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Antec",
+  "Antec 900 E-ATX Full Tower Gaming Casing"
+ ],
+ "fetched": "2026-11-13T17:35+06:00",
+ "source": "https://www.startech.com.bd/antec-900-full-tower-casing",
+ "store": "startech"
+}

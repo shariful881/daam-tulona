@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "1TB",
+   "Sequential R/W": "Read Speed (Max.) 7,200 MB/s\nWrite Speed (Max.) 6,200 MB/s",
+   "Flash Type": "3D NAND flash",
+   "MTBF": "3,000,000 hour(s)",
+   "Interface Type": "NVMe PCIe Gen4 x4",
+   "Form Factor": "M.2 2280"
+  },
+  "Physical Specifications": {
+   "Dimension": "Double-sided 80 mm x 22 mm x 3.77 mm (3.15\" x 0.87\" x 0.15\")",
+   "Weight": "10 g (0.35 oz)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: NVMe PCIe Gen4 x4",
+  "Form Factor: M.2 2280",
+  "Sequential R/W: up to 7,200/6,200 MB/s"
+ ],
+ "warranty": "05 years",
+ "fetched": "2026-11-13T18:04+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-250s-1tb-nvme-pcie-gen4-x4-m.2-2280-ssd",
+ "store": "pchouse"
+}

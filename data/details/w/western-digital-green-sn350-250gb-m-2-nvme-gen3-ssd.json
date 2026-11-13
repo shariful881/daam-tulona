@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "250GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3 x4, NVMe v1.3",
+   "TBW": "40",
+   "IOPs (4K Random Write)": "300000 4KB IOPS\n300000 4KB IOPS"
+  },
+  "General Information": {
+   "Features": "Fast NVMe™ performance for daily computing needs\nSSDs offer shock-resistance against accidental bumps and drops"
+  },
+  "Main Features": {
+   "Read Speed": "1500MB/s\n2400MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C"
+  },
+  "Physical Specification": {
+   "Dimensions": "80.15mm x 22.15mm x 2.38mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Limited Warranty"
+  },
+  "Image": {
+   "Model": "SN350"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3 8Gb/s",
+  "Sequential Read: 2400MB/s",
+  "Sequential Write: 900MB/s"
+ ],
+ "model": "SN350",
+ "warranty": "3-Year Limited Warranty",
+ "fetched": "2026-11-13T18:40+06:00",
+ "source": "https://www.creatus.com.bd/western-digital-green-sn350-250gb-m2-nvme-gen3-ssd",
+ "store": "creatus"
+}

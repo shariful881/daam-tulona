@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Tempered Glass Panel": "Yes",
+   "Front Panel": "Tempered Glass",
+   "Motherboard Support": "ITX, M-ATX",
+   "Side Panel": "Tempered Glass"
+  },
+  "Fan Support": {
+   "Top": "120mm*2,",
+   "bottom": "120mm*2,",
+   "Rear": "120mm*1"
+  },
+  "External Features": {
+   "Pre- Installed Fans": "6x ARGB Fan",
+   "Drive Bays": "1*HDD / 1*SSD",
+   "I/O Port": "USB3.0*1, USB2.0x1",
+   "Color(s)": "Black",
+   "Dimensions": "L350*W160*H285mm"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "150mm",
+   "Maximum Graphics Card Length": "310mm"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  },
+  "Image": {
+   "Model": "GEN-Z X6"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Micro-ATX / ITX",
+  "Drive Type: 1x HDD, 1x SSD",
+  "Pre-Install Fans: 6x ARGB Fan",
+  "I/O Panel: USB3.0*1, USB2.0x1"
+ ],
+ "model": "GEN-Z X6",
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:07+06:00",
+ "source": "https://www.creatus.com.bd/monarch-gen-z-x6-argb-casing",
+ "store": "creatus"
+}

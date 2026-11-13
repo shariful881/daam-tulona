@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel i3, i5 Gen 6/7/8/9 LGA1511 CPU",
+   "Chipset": "Intel H311M",
+   "Form Factor": "Micro ATX",
+   "Audio": "Onboard Realtek ALC897 high-fidelity audio independent sound card"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI-E x 16 graphics card slot; 1 x PCI-E x 1 slot"
+  },
+  "Memory": {
+   "Supported Memory": "DDR4 3000/2933/2800/2666 memory* (actual memory data transfer speed depends on\nprocessor type and memory module)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI display output",
+   "USB (s)": "2 x USB 3.0 ports at the rear, 2 x USB 2.0 ports, 1 x USB 2.0 header, 2 USB 2.0 ports can be expanded",
+   "LAN Port (s)": "Onboard Realtek 8111H Gigabit network card; 1 x M.2 WiFi interface",
+   "Supported Storage": "SATA Interface: 3 x SATA3.0 6Gb/s M.2 Interface: 1 x M.2 slot, supports 2242/2260/2280 type storage devices"
+  },
+  "Connectivity": {
+   "Others": "VGA: 1 x VGA port"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "UN-H311M VH"
+  }
+ },
+ "key_features": [
+  "Chipset: Intel H311M",
+  "Platform: Intel Platform",
+  "Form Factor : Micro ATX",
+  "CPU Socket Type: LGA 1511"
+ ],
+ "model": "UN-H311M VH",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:31+06:00",
+ "source": "https://www.creatus.com.bd/unika-un-h311m-vh-ddr4-sniper-ddr4-6th-7th-8th-9th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

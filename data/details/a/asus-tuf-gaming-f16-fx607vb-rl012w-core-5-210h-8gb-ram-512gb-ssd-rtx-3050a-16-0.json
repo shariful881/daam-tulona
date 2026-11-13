@@ -1,0 +1,106 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core 5-210H",
+   "Processor Frequency": "Up to 4.8 GHz",
+   "Processor Core": "8 cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12MB Cache"
+  },
+  "Bundled Software": {
+   "Antivirus": "McAfee 30 days free trial",
+   "Office": "1-month trial for new Microsoft 365 customers. Credit card required."
+  },
+  "General Information": {
+   "Max Memory": "64GB"
+  },
+  "Memory": {
+   "Ram": "8GB SO-DIMM",
+   "Ram Type": "DDR4-3200",
+   "Total RAM Slot": "Expansion Slot (includes used): 2x DDR4 SO-DIMM slots\nSupport dual channel memory"
+  },
+  "Storage": {
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050A Laptop GPU\nIntel Iris Xᵉ Graphics",
+   "Graphics Memory": "4GB\nShared",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD camera",
+   "Speaker": "2-speaker system",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "1x 3.5mm Combo Audio Jack\nAI noise-canceling technology\nDolby Atmos\nHi-Res certification (for headphone)\nSupport Microsoft Cortana near field/far field (Microsoft service suspended in spring of 2023.)"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C with support for DisplayPort / power delivery (data speed up to 10Gbps)",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "10/100/1000 Mbps",
+   "WiFi": "Wi-Fi 6(802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card (*Bluetooth version may change with OS version different.)"
+  },
+  "Security": {
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display Features": {
+   "Contrast Ratio": "1000:1",
+   "Color Gamut": "NTSC%: 45%",
+   "Aspect Ratio": "16:10",
+   "Glare": "Anti-glare display"
+  },
+  "Display": {
+   "Display Size": "16.0-inch",
+   "Display Type": "Value IPS-level",
+   "Display Resolution": "Full HD+\nWUXGA (1920 x 1200)",
+   "Refresh Rate": "144Hz",
+   "Brightness": "300nits",
+   "Response Time": "3ms"
+  },
+  "Power": {
+   "Battery Type": "4S1P, 4-cell Li-ion",
+   "Battery Capacity": "56WHrs"
+  },
+  "Adapter Type": {
+   "Input": "100~240V AC, 50/60Hz universal",
+   "Output": "20V DC, 7.5A, 150W",
+   "Fast charging": "Recharge from 0-50% in 30 minutes"
+  },
+  "Physical Specification": {
+   "Dimension": "35.4 x 25.1 x 2.21 ~ 2.67 cm\n(13.94\" x 9.88\" x 0.87\" ~ 1.05\")",
+   "Weight": "2.20 Kg (4.85 lbs)",
+   "Color": "Mecha Gray"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Brand Warranty (1 Year for battery)"
+  },
+  "Image": {
+   "Model": "TUF Gaming F16 FX607VB-RL012W"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 Processor 210H",
+  "RAM: 8GB DDR4-3200 MHz",
+  "Storage: 512GB PCIe 4.0 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 3050A 4GB GDDR6 Laptop GPU"
+ ],
+ "model": "TUF Gaming F16 FX607VB-RL012W",
+ "warranty": "2 Years Brand Warranty (1 Year for battery)",
+ "fetched": "2026-11-13T18:45+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-f16-fx607vb-rl012w-core-5-210h-gaming-laptop",
+ "store": "creatus"
+}

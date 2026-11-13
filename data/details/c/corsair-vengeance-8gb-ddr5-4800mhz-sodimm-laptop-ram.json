@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "8GB",
+   "Frequency": "4800MHz",
+   "Operating voltage": "1.1V",
+   "Latency": "40-40-40-77"
+  },
+  "Physical dimension": {
+   "Pin": "262-pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 8GB, Memory Type: DDR5",
+  "Tested Speed: 4800MHz",
+  "Tested Voltage: 1.1V",
+  "Tested Latency: 40-40-40-77"
+ ],
+ "price": 17000,
+ "regular": 18700,
+ "status": "In Stock",
+ "code": "49943",
+ "brand": "Corsair",
+ "mpn": "CMSX8GX5M1A4800C40",
+ "model": "VENGEANCE",
+ "warranty": "Lifetime Warranty",
+ "name": "CORSAIR VENGEANCE 8GB DDR5 4800MHz SODIMM Laptop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Laptop)",
+  "Corsair",
+  "CORSAIR VENGEANCE 8GB DDR5 4800MHz SODIMM Laptop RAM"
+ ],
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-8gb-ddr5-laptop-ram",
+ "store": "startech"
+}

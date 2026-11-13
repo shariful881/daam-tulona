@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports Intel Core Ultra Processors (Series 2), LGA1851\nSupports Intel Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0",
+   "Chipset": "Intel B860 Chipset",
+   "BIOS": "256(128+128) Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX Form Factor\n9.6 inch x 8.75 inch (24.4cm x 22.2cm)",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+  },
+  "Expansion Slots": {
+   "PCI": "Intel Core Ultra Processors (Series 2)\n1 x PCIe 4.0 x16 slot\nIntel B860 Chipset\n2 x PCIe 4.0 x1 slots",
+   "M.2 Socket": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nIntel Core Ultra Processors (Series 2)\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nIntel B860 Chipset\nM.2_2 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2x DIMM slots",
+   "Supported Memory": "Supports up to 8800+MT/s (OC),  Non-ECC, Un-buffered ,Clocked Unbuffered DIMM (CUDIMM)\nDual channel memory architecture\nDIMM Fit\nSupports Intel Extreme Memory Profile (XMP) memory module\nASUS Enhanced Memory Profile III(AEMPIII)",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x HDMITM port\nSupports 4K@60Hz as specified in HDMI 2.1.\nVGA resolution support depends on processors' or graphic cards' resolution."
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "USB (s)": "Rear USB (Total 6 ports)\n1 x USB 10Gbps port (1 x Type-A)\n2 x USB 5Gbps ports (2 x Type-A)\n3 x USB 2.0 ports (3 x Type-A)**\nFront USB (Total 7 ports)\n1 x USB 5Gbps connector (supports USB Type-C®)*\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports**\n* USB Type-C® power delivery output: max. 5V/3A.\n** USB_E1 port, USB_E2 port, USB_E3 port and USB_E4 port share the bandwidth.",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard",
+   "Wireless Communication module": "Wi-Fi 6\n1x1 Wi-Fi 6 (802.11ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.3",
+   "Supported Storage": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Ultra Processors (Series 2) *\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nIntel® B860 Chipset\nM.2_2 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports",
+   "RAID": "Intel Rapid Storage Technology supports SATA RAID 0/1/5/10.",
+   "Audio": "3 x Audio jacks",
+   "Internal I/O Ports": "Back Panel I/O Ports\n1 x USB 10Gbps port (1 x Type-A)\n2 x USB 5Gbps ports (2 x Type-A)\n3 x USB 2.0 ports (3 x Type-A)\n1 x HDMITM port\n1 x Wi-Fi module\n1 x Realtek 2.5Gb Ethernet port\n3 x Audio jacks\nInternal I/O Connectors\nFan and Cooling Related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower Related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V CPU Power connector\nStorage Related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C®)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen2 headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1 pin)\n1 x 10-1 pin Front Panel System header"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+VRM\n- LANGuard\n- Overvoltage protection\n- SafeSlot Core+\n- Stainless-steel back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-Dashboard\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsinks design\nASUS EZ DIY\n- ProCool\n- Pre-mounted I/O shield\nAura Sync\n- Addressable Gen2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Sync\n- Fan Xpert 2+\n- Power Saving\nASUS AI Advisor\nASUS DriverHub\nASUS GlideX\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash\n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Intel Core Ultra Processors (Series 2), LGA 1851",
+  "Supported RAM: 2x DDR5, Max 128GB, Support up to 8800+MT/s (OC)",
+  "Graphics Output: 1 x HDMI, Supports 4K@60Hz as specified in HDMI 2.1",
+  "Features: 2x M.2 Slot, 1 x 2.5Gb LAN, Wi-Fi 6, Bluetooth 5.3"
+ ],
+ "price": 2329923500,
+ "regular": 25060,
+ "status": "In Stock",
+ "code": "41405",
+ "brand": "Asus",
+ "model": "B860M AYW GAMING WIFI",
+ "warranty": "3 Years",
+ "name": "ASUS B860M AYW GAMING WIFI LGA 1851 Micro-ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "ASUS B860M AYW GAMING WIFI LGA 1851 Micro-ATX Motherboard"
+ ],
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.startech.com.bd/asus-b860m-ayw-gaming-wifi-motherboard",
+ "store": "startech"
+}

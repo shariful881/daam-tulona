@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen AI 7 350",
+   "Processor Frequency": "Up to 5.00GHz",
+   "Processor Core": "8",
+   "Processor Thread": "16",
+   "CPU Cache": "24MB",
+   "NPU": "AMD Ryzen AI"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Max RAM Capacity": "Up to 64 GB"
+  },
+  "Storage": {
+   "Storage Type": "NVMe PCIe Gen 4",
+   "Storage Capacity": "1TB",
+   "Supported SSD Type": "NVMe PCIe",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5050",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR7"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Features": "Up to 1.7mm Key-travel (Support N-Key)",
+   "Keyboard Type": "1-zone RGB Backlit Keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD WebCam",
+   "Speaker": "2x 2W speakers",
+   "Microphone": "Yes",
+   "Audio Features": "Dolby Atmos"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 2 Port": "1 x Type-A support USB 2.0 (Right)",
+   "USB 3 Port": "1 x Type-A Support USB 3.2 Gen 1, 1 x Type-A Support USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1 x Type-C USB 4 Support DisplayPort 1.4 and Power Delivery 3.0",
+   "Headphone & Microphone Port": "1 x Audio Jack Support Mic / Headphone Combo"
+  },
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45",
+   "WiFi": "WIFI 6E (802.11ax 2x2)",
+   "Bluetooth": "Bluetooth v5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920*1200)",
+   "Display Features": "Brightness: 400nits\nPantone Validated, TUV Rheinland Low Blue Light",
+   "Touch Screen": "No",
+   "Refresh Rate": "165 Hz"
+  },
+  "Power": {
+   "Battery Type": "Lithium-Polymer",
+   "Battery Capacity": "76Wh",
+   "Adapter Type": "150w AC Adapter"
+  },
+  "Physical Specification": {
+   "Color": "Space Gray",
+   "Weight": "1.9kg",
+   "Dimensions": "355 x 250.7 x 16.75-19.99 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Years"
+  },
+  "Image": {
+   "Model": "Gigabyte AERO X16"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen AI 7 350 (24MB Cache, Up to 5.0 GHz)",
+  "RAM: 16GB DDR5 5600MHz, Storage: 1TB Gen 4 NVMe SSD",
+  "Graphics: GeForce RTX 5050 8GB GDDR7",
+  "Features: 1-zone RGB Backlit Keyboard, Wi-Fi 6E"
+ ],
+ "model": "Gigabyte AERO X16",
+ "warranty": "02 Years",
+ "fetched": "2026-11-13T17:45+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-aero-x16-1vh-amd-ryzen-ai-7-350-rtx-5050-8gb-gaming-laptop",
+ "store": "creatus"
+}

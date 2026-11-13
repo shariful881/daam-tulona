@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Size": "120mm Fan: 1800±10% RPM",
+   "MTBF": "100,000 hrs minimum",
+   "Watt": "550 W"
+  },
+  "Temperature": {
+   "OPERATING TEMPERATURE": "+5℃ to +35℃",
+   "STORAGE TEMPERATURE": "-40℃ to +55℃"
+  },
+  "Humidity": {
+   "OPERATING HUMIDITY": "20% to 85%,non-condensing",
+   "STORAGE HUMIDITY": "10% to 95%, non-condensing"
+  },
+  "Others": {
+   "Continuous Power": "550 W",
+   "HOLD UP TIME": ">16msec",
+   "POWER GOOD SIGNAL": "100-500 msec",
+   "Safety Approval": "CE, TUV SUD, CB, FCC, UL, S-Mark, EAC, BSMI and RCM",
+   "PFC (POWER FACTOR CORRECTION)": "W/O PFC"
+  },
+  "Input": {
+   "Voltage": "110V / 220V",
+   "Frequency Range": "50Hz – 60Hz"
+  },
+  "Output": {
+   "Modular Type": "Non Modular",
+   "Total Power": "550 W",
+   "Peak Power": "550 W",
+   "DC Output": "550 W"
+  },
+  "Connector": {
+   "PCI-E": "PCI-E 6+2PIN\t6+2pin:PCI-E Connector x 2"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "150 x 86 x 140mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "Litepower 550W"
+  },
+  "Product List": {
+   "Thermaltake Power Supply Price List  in BD": "Price",
+   "Thermaltake Smart BX1 650W Power Supply": "6,200৳\n6,900৳"
+  }
+ },
+ "key_features": [
+  "Ultra-Quiet Cooling: Equipped with an efficient 120mm fan running at 1800 RPM for optimal airflow with minimal noise.",
+  "High-Quality Components: Incorporates premium components to ensure longevity and sustained efficiency.",
+  "Non-Modular Design: Simplifies installation and cable management for a hassle-free setup.",
+  "Multiple Protection Mechanisms: Includes over-voltage, over-power, over-current, over-temperature, and short-circuit protection for enhanced safety.",
+  "Compact Design: Sleek black exterior with dimensions of 150 x 86 x 140mm, seamlessly integrating into your system."
+ ],
+ "model": "Litepower 550W",
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:26+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-550w-lite-power-non-modular-power-supply-black",
+ "store": "creatus"
+}

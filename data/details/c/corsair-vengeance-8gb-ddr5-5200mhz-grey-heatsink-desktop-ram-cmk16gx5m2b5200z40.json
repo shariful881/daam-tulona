@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Operating voltage": "1.25V",
+   "Type": "DDR5",
+   "Latency": "CL40"
+  },
+  "Memory": {
+   "Bus Speed": "5200MHz"
+  },
+  "Power": {
+   "Power Consumption": "3W"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Yes",
+   "Pin": "288 Pin",
+   "Weight": "36.28 gm",
+   "Colors": "Gray",
+   "Compatibility": "AMD 600 Series, Intel 600 Series, Intel 700 Series"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  },
+  "Image": {
+   "Model": "Vengeance 8GB"
+  }
+ },
+ "key_features": [
+  "Capacity (GB/TB): 8GB",
+  "RAM Type: DDR5",
+  "Bus Speed(MHz): 5200MHz",
+  "Number of Pin: 288 Pin"
+ ],
+ "model": "Vengeance 8GB",
+ "warranty": "Lifetime",
+ "fetched": "2026-11-13T17:35+06:00",
+ "source": "https://www.creatus.com.bd/corsair-vengeance-8gb-ddr5-5200mhz-desktop-ram",
+ "store": "creatus"
+}

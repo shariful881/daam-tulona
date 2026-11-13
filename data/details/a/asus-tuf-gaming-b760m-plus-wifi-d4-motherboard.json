@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1700 for 14th, 13th Gen Intel Core & 12th Gen Intel Core, Pentium Gold and Celeron Processors\nSupports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0",
+   "Chipset": "Intel B760 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX\n9.6inch x 9.6 inch ( 24.4 cm x 24.4 cm )",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback \"\nAudio Features\n- Audio Shielding\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n- Dedicated audio PCB layers"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel 13th & 12th Gen Processors\n1 x PCIe 5.0 x16 slot\nIntel B760 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n1 x PCIe 4.0 x1 slot",
+   "M.2 Socket": "Total supports 2 x M.2"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "5333(OC)/ 5066(OC)/5000(OC)/4800(OC)/4600(OC)/4400(OC)/4266(OC)/4000(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)\n/3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports Intel Extreme Memory Profile (XMP)\nOptiMem II",
+   "Maximum Memory": "Max. 128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort (Supports max. 4K@60Hz as specified in DisplayPort 1.4)\n1 x HDMI port (Supports 4K@60Hz as specified in HDMI 2.1)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "Display Port (s)": "1 x DisplayPort",
+   "USB (s)": "Rear USB (Total 8 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C)\n4 x USB 3.2 Gen 2 ports (4 x Type-A)\n1 x USB 3.2 Gen 1 port (1 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 1 connector (supports USB Type-C)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard",
+   "Wireless Communication module": "Wi-Fi 6\n2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.2",
+   "Supported Storage": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nIntel 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports",
+   "RAID": "Intel Rapid Storage Technology supports SATA RAID 0/1/5/10.",
+   "Audio": "5 x Audio jacks",
+   "Internal I/O Ports": "I/O Connectors  Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 connector (supports USB Type-C)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x Front Panel Audio header (AAFP)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thunderbolt (USB4) header\nBack Panel I/O Ports\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C)\n4 x USB 3.2 Gen 2 ports (4 x Type-A)\n1 x USB 3.2 Gen 1 port (1 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x DisplayPort\n1 x HDMI port\n1 x Wi-Fi Module\n1 x Realtek 2.5Gb Ethernet port\n5 x Audio jacks\n1 x Optical S/PDIF out port"
+  },
+  "Others": {
+   "Special Features": "ASUS TUF PROTECTION\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards\n- TUF LANGuard\n- Overvoltage Protection\n- SafeSlot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- CPU Socket lever protector\n- ProCool\n- Pre-mounted I/O shield\n- SafeDIMM\nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 2+\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\nDIGI+ VRM\n- PC Cleaner\nTUF GAMING CPU-Z\nDTS Audio Processing\nNorton 360 for Gamers\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+  "Supported Memory: 4 x DIMM, Max. 128GB, DDR4",
+  "Graphics Output: 1 x DisplayPort, 1 x HDMI",
+  "Features: 1 x Realtek 2.5Gb Ethernet, Wi-Fi 6"
+ ],
+ "price": 2680027000,
+ "regular": 28860,
+ "status": "In Stock",
+ "code": "27258",
+ "brand": "Asus",
+ "model": "TUF GAMING B760M-PLUS WIFI D4",
+ "warranty": "3 years warranty",
+ "name": "Asus TUF GAMING B760M-PLUS WIFI D4 Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "Asus TUF GAMING B760M-PLUS WIFI D4 Motherboard"
+ ],
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-b760m-plus-wifi-d4-motherboard",
+ "store": "startech"
+}

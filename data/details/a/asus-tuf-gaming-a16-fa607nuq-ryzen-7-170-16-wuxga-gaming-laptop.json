@@ -1,0 +1,103 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "Ryzen 7000 Series",
+   "Processor Frequency": "Up to 4.75GHz",
+   "Processor Core": "8 Cores",
+   "Processor Thread": "16 Threads",
+   "CPU Cache": "20MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "Up to 64GB",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 x SO-DIMM",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes",
+   "Supported SSD Type": "M.2 PCIe NVMe Gen4 / SATA SSD",
+   "Extra M.2 Slot": "2 x M.2 PCIe Slots"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4050 Laptop GPU",
+   "Graphics Memory": "6GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "1-Zone RGB Backlit, Copilot Key, Aura Sync",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD Camera",
+   "Speaker": "Dual Speaker System",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "Dolby Atmos, AI Noise-Canceling Technology, Hi-Res Audio Certification (Headphone)"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Display Port": "DisplayPort via USB Type-C",
+   "Card Reader": "No",
+   "HDMI Port": "1 x HDMI 2.1 FRL",
+   "USB 2 Port": "No",
+   "USB 3 Port": "2 x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 x USB4 Type-C (DisplayPort), 1 x USB 3.2 Gen 2 Type-C (DisplayPort, Power Delivery, G-SYNC)",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45 LAN Port",
+   "WiFi": "Wi-Fi 6 (802.11ax) Dual-Band 2×2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "Kensington Security Slot",
+   "Fingerprint Sensor": "No",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920 × 1200)",
+   "Display Features": "LED Backlit, Anti-Glare, 16:10 Aspect Ratio, G-SYNC, 300 nits Brightness, 1000:1 Contrast Ratio, 85° Viewing Angle",
+   "Touch Screen": "No",
+   "Refresh Rate": "144Hz",
+   "Brightness": "300 nits",
+   "Response Time": "Not Specified"
+  },
+  "Power": {
+   "Battery Type": "4-Cell Li-ion",
+   "Battery Capacity": "56Wh",
+   "Adapter Type": "240W AC Adapter",
+   "Backup Time (Approx)": "Fast Charging: 0–50% in 30 Minutes"
+  },
+  "Physical Specification": {
+   "Weight": "2.20 kg",
+   "Dimensions": "35.4 × 25.1 × 2.24 ~ 2.67 cm",
+   "Colors": "Mecha Gray"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years (Battery & Adapter: 1 Year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming A16 FA607NUQ"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 170 (3.1 GHz up to 4.75 GHz)",
+  "RAM: 16GB DDR5 , Storage: 512GB PCIe 4.0 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 4050 6GB GDDR6",
+  "Features: RGB Backlit Keyboard With CoPilot Key, Type-C, Windows 11H"
+ ],
+ "model": "TUF Gaming A16 FA607NUQ",
+ "warranty": "2 Years (Battery & Adapter: 1 Year)",
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-a16-fa607nuq-rtx-4050-laptop",
+ "store": "creatus"
+}

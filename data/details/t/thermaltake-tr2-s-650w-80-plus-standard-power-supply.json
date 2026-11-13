@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS® Standard Certified",
+   "Efficiency (Approx.)": "82-86% efficiency @ 20-100% load",
+   "Fan Size": "120mm Fan",
+   "MTBF": "100,000 hrs minimum",
+   "Watt": "680W",
+   "Temperature": "OPERATING TEMPERATURE:5℃ to +40℃\nSTORAGE TEMPERATURE\t-40 ℃ to +55 ℃",
+   "Humidity": "OPERATING HUMIDITY:20% to 85%,non-condensing\nSTORAGE HUMIDITY\t10% to 95%, non-condensing"
+  },
+  "Others": {
+   "Continuous Power": "650W",
+   "HOLD UP TIME": "16msec (minimum) within 60% load",
+   "POWER GOOD SIGNAL": "100-500 msec",
+   "Safety Approval": "CE/CB/TU",
+   "PCI-E 6+2PIN": "PCI-E 6+2pin x 2",
+   "PFC (POWER FACTOR CORRECTION)": "Active PFC"
+  },
+  "Input": {
+   "Voltage": "230 Vac",
+   "Frequency Range": "50 Hz - 60 Hz",
+   "Current": "650W"
+  },
+  "Output": {
+   "Modular Type": "NON modular",
+   "Total Power": "680W",
+   "Peak Power": "680W",
+   "DC Output": "680W"
+  },
+  "Image": {
+   "Model": "TR2 S 650W"
+  },
+  "Product List": {
+   "Thermaltake Power Supply List Price in BD": "Price",
+   "Thermaltake Smart BX1 650W Power Supply": "6,200৳\n6,900৳"
+  }
+ },
+ "key_features": [
+  "Power: 650W continuous, 680W peak",
+  "Efficiency: 82-86% @ 20-100% load",
+  "Certification: 80 PLUS® Standard Certified",
+  "Fan Size: 120mm for efficient cooling",
+  "Hold Up Time: 16msec (minimum) at 60% load",
+  "MTBF: 100,000 hrs minimum for reliability",
+  "Power Good Signal: 100-500 msec response time",
+  "Safety Approval: CE/CB/TUV for compliance",
+  "Operating Humidity: 20% to 85%, non-condensing",
+  "Operating Temperature: 5℃ to +40℃",
+  "PCI-E 6+2PIN: Two connectors for graphics cards",
+  "Active PFC: Power Factor Correction for enhanced efficiency"
+ ],
+ "model": "TR2 S 650W",
+ "fetched": "2026-11-13T18:28+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-tr2-s-650w-80-plus-standard-power-supply",
+ "store": "creatus"
+}

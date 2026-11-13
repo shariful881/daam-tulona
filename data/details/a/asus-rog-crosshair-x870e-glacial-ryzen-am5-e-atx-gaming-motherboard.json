@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD X870E",
+   "BIOS": "2 x 64 MB (512Mb)\nFlash ROM, UEFI AMI BIOS",
+   "Form Factor": "E-ATX Form Factor\n12 inch x 10.9 inch (30.5 cm x 27.7 cm)",
+   "Audio": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4082**\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel MIC Jack-retasking\n- High quality 120 dB SNR stereo playback output and 110 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback on front panel\nAudio Features\n- SupremeFX Shielding Technology\n- ESS ES9219 QUAD DAC\n- LED-illuminated audio jacks\n- Rear optical S/PDIF out port- Premium audio capacitors"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n2 x PCIe 5.0 x16 slots with PCIe Q-Release Switch (supports x16 or x8/x8 or x8/x4/x4 or x4/x4/x4/x4 modes)**\nAMD Ryzen™ 8700 & 8600 & 8400 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with PCIe Q-Release Switch (only supports PCIEx16(G5)_1 & total bandwidth for x8, PCIEx16(G5)_2 will run at PCIe 3.0 x4)\nAMD Ryzen 8500 & 8300 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with PCIe Q-Release Switch (only supports PCIEx16(G5)_1 & total bandwidth for x4, PCIEx16(G5)_2 will run at PCIe 3.0 x4)",
+   "M.2 Socket": "Supports up to 7 x M.2 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "Supports up to\n8600+MT/s(OC)**/8200+MT/s(OC)*** with Ryzen™ 9000 Series Processors,\n9600+MT/s(OC)**/9200+MT/s(OC)*** with Ryzen™ 8000 Series Processors,\n8000+MT/s(OC)**/8000+MT/s(OC)*** with Ryzen™ 7000 Series Processors,\nECC and Non-ECC, Un-buffered DIMM*\nDual Channel Memory Architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nSupports DIMM Fit and DIMM Fit Pro\nASUS Enhanced Memory Profile (AEMP)\nNitroPath DRAM Technology",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "2 x USB4 (40Gbps) ports support USB Type-C display outputs**"
+  },
+  "Connector & Ports": {
+   "USB (s)": "Rear USB (Total 14 ports)\n2 x USB4® (40Gbps) ports (2 x USB Type-C®)\n12 x USB 10Gbps ports (8 x Type-A + 4 x USB Type-C®)\nFront USB (Total 12 ports)\n1 x USB 20Gbps connector (supports USB Type-C® with up to 60W PD/QC4+)*\n1 x USB 20Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n3 x USB 2.0 headers support 6 additional USB 2.0 ports",
+   "LAN Port (s)": "2 x Realtek 10Gb Ethernet\nASUS LANGuard",
+   "Wireless Communication module": "Wi-Fi 7 (MediaTek MT7927)\n2x2 Wi-Fi 7* (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 320MHz bandwidth\nBluetooth v5.4 (support LE Audio)***",
+   "Supported Storage": "Supports up to 7 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)**\nHyper M.2_1 slot (Key M) via ROG Hyper M.2 card, type 2230/2242/2260/2280/22110 (suppports PCIe 5.0 x4 mode)\nHyper M.2_2 slot (Key M) via ROG Hyper M.2 card, type 2230/2242/2260/2280/22110 (suppports PCIe 5.0 x4 mode)\nAMD Ryzen™ 8700 & 8600 & 8400 Series Desktop Processors*\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)**\nAMD Ryzen™ 8500 & 8300 Series Desktop Processors*\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (Not supports)\nAMD X870E Chipset\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nDIMM.2_1 slot (Key M) via ROG Q-DIMM.2, type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nDIMM.2_2 slot (Key M) via ROG Q-DIMM.2, type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x2 mode)\n2 x SATA 6Gb/s ports\nASMedia ASM1162 Controller\n2 x SATA 6Gb/s ports",
+   "RAID": "AMD RAIDXpert2 Technology\nRyzen 9000 & 8000 & 7000 Series Processors: RAID 0/1/5/10*\n*SATA ports from ASM1162 cannot support RAID",
+   "Audio": "2 x LED-illuminated audio jacks",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\n2 x 4-pin Radiator Fan headers\n2 x W_PUMP+ headers\n1 x AIO Q-Connector\n1 x Extra Flow Fan header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connector\n1 x 8-pin PCIe Power connector\nStorage related\n3 x M.2 slots (Key M)\n1 x DIMM.2 slot supports 2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n2 x USB 20Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n3 x USB 2.0 headers support 6 additional USB 2.0 ports\nMiscellaneous\n1 x 6-pin ARGB Gen 2 header to support 2 x ARGB Gen 2 headers\n2 x Addressable Gen 2 header\n1 x Alteration PCIe mode switch\n2 x BCLK button\n1 x BIOS Switch\n1 x FlexKey button\n1 x Front Panel Audio header (F_AUDIO)\n1 x LN2 Mode jumper\n12 x ProbeIt Measurement Points\n1 x ReTry button\n1 x RSVD header\n1 x Safe Boot button\n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header\nBack Panel I/O Ports:\n2 x USB4 (40Gbps) ports (2 x USB Type-C®)\n12 x USB 10Gbps ports (8 x Type-A + 4 x USB Type-C®)\n1 x Wi-Fi Module\n2 x Realtek 10Gb Ethernet ports\n2 x LED-illuminated audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™  button\n1 x Clear CMOS button"
+  },
+  "Others": {
+   "Special Features": "Extreme OC Kit\n- FlexKey button\n- LN2 Mode\n- ProbeIt\n- ReTry button\n- Safe boot button\n- Start button\nExtreme Engine Digi+\n- 10K Black Metallic Capacitors\n- MicroFine Alloy Choke\nASUS Q-Design\n- M.2 Q-Latch\n- M.2 Q-Release\n- M.2 Q-Slide\n- PCIe Q-Release Switch (with PCIe SafeSlot)\n- Q-Antenna\n- Q-Code\n- Q-Connector\n- Q-Dashboard\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-DIMM.2\nASUS Thermal Solution\n- M.2 heatsink backplate\n- M.2 heatsink\n- Metal backplate\n- VRM heatsink design\n- 3D VC M.2 Heatsink\n- ROG Memory Q-Fan\nASUS EZ DIY\n- Backplate\n- BIOS FlashBack™ button\n- Clear CMOS button\n- CPU Socket lever protector\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAura Sync\n- Addressable Gen 2 headers\nDual BIOS\nFull Color 5\" LCD Display\nFront Panel USB 20Gbps with Quick Charge 4+ Support\n- Support: up to 60W fast charging and USB Wattage Watcher*\n- Output: 5/9/15/20V max. 3A, PPS:3.3–21V max. 3A\n- Compatible with PD3.0 and PPS",
+   "Bundled Software": "ROG Exclusive Software\n- ROG CPU-Z\n- Dolby Atmos\n- LCD Display\n- Internet Security (1-year full version)\nASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)\n- GameFirst\n- WiFi Q-Antenna\n- MLO Wizard\nASUS DriverHub\n- ASUS MB Manager\n- ASUS AI Advisor\n- AIDA64 Extreme (1 year full version)\n- HWiNFO\n- Turbo Vcore\n- ASUS GlideX\n- USB Wattage Watcher\nWinRAR (40 Days Free Trial)\nAdobe Creative Cloud (Free Trial)\nUEFI BIOS\nIntegrated WiFi Driver Support\nAI Overclocking Guide\nAI Cache Boost\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey\nFlexKey"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4 x DDR5, up to 256GB, 9600+MT/s (OC)",
+  "Graphics Output: 1x HDMI, 2x USB4",
+  "Features: 1 x 10Gb LAN, 1x5Gb LAN, Wi-Fi 7, Bluetooth 5.4"
+ ],
+ "price": 168000168500,
+ "regular": 180110,
+ "status": "In Stock",
+ "code": "48559",
+ "brand": "Asus",
+ "model": "ROG CROSSHAIR X870E GLACIAL",
+ "warranty": "3 Years Warranty",
+ "name": "Asus ROG CROSSHAIR X870E GLACIAL AMD AM5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus ROG CROSSHAIR X870E GLACIAL AMD AM5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-crosshair-x870e-glacial-motherboard",
+ "store": "startech"
+}

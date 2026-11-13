@@ -1,0 +1,87 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "AMD",
+   "Processor Frequency": "Up to 5.1GHz",
+   "Processor Core": "12 Cores",
+   "Processor Thread": "24 Threads",
+   "CPU Cache": "36MB Cache"
+  },
+  "Memory": {
+   "Ram": "32GB Onboard",
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Ram Type": "LPDDR5X"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "Additional SSDs can be added",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4060",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard With Copilot key\n*Copilot in Windows (in preview) is rolling out gradually within the latest update to Windows 11 in select global markets. Timing of availability varies by device and market.",
+   "TouchPad": "Seamless touchpad\nsupport DialPad"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD camera with IR function to support Windows Hello",
+   "Speaker": "Built-in speaker",
+   "Microphone": "Built-in array Microphone",
+   "Audio Features": "Smart Amp Technology\nharman/kardon (Premium)"
+  },
+  "Ports & Slots": {
+   "Card Reader": "SD Express 7.0 card reader",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 2 Type-A (data speed up to 10Gbps)"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7(802.11be) (Triple band) 2*2",
+   "Bluetooth": "Bluetooth 5.4 Wireless Card (*Bluetooth version may change with OS version different.)"
+  },
+  "Security": {
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home - ASUS recommends Windows 11 Pro for business"
+  },
+  "Display": {
+   "Display Size": "16.0-inch",
+   "Display Type": "OLED",
+   "Display Resolution": "4K (3840 x 2400) OLED 16:10 aspect ratio",
+   "Touch Screen": "Yes",
+   "Refresh Rate": "60Hz",
+   "Response Time": "0.2ms"
+  },
+  "Power": {
+   "Battery Type": "4S1P, 4-cell Li-ion",
+   "Battery Capacity": "90WHrs"
+  },
+  "Weight": {
+   "With Battery": "1.85 kg (4.08 lbs)",
+   "Without Battery": "1.80 kg (3.97 lbs)"
+  },
+  "Physical Specification": {
+   "Dimensions": "35.49 x 24.69 x 1.49 ~ 1.73 cm\n(13.97\" x 9.72\" x 0.59\" ~ 0.68\")"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Brand Warranty (1 Year for battery)"
+  },
+  "Image": {
+   "Model": "ProArt P16 H7606WV"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen AI 9 HX 370 Processor",
+  "RAM & Storage: 32GB LPDDR5X Memory, 1TB M.2 NVMe PCIe 4.0 SSD",
+  "Graphics: NVIDIA GeForce RTX 4060 8GB GDDR6",
+  "Display: 16.0-inch 4K (3840 x 2400) OLED, Touch Display"
+ ],
+ "model": "ProArt P16 H7606WV",
+ "warranty": "2 Years Brand Warranty (1 Year for battery)",
+ "fetched": "2026-11-13T17:42+06:00",
+ "source": "https://www.creatus.com.bd/asus-proart-p16-h7606wv-me064ws-ryzen-ai-9-hx-370-copilot-pc",
+ "store": "creatus"
+}

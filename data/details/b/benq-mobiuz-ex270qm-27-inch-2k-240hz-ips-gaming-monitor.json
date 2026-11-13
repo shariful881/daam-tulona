@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 inch",
+   "Panel Type": "IPS",
+   "Resolution": "2K (2560x1440)",
+   "Display Surface": "Anti-Glare",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178°/178°",
+   "Brightness": "Brightness (typ.): 400 nits",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "240 Hz",
+   "Color Support": "1.07 billion color",
+   "Color Gamut": "98% P3",
+   "Response Time": "1ms MPRT",
+   "Others Features": "Gamma: 1.8 - 2.6",
+   "Curvature": "Flat",
+   "HDR": "HDR10"
+  },
+  "Video Features": {
+   "Color Temperature Selection": "Bluish, Normal, Reddish, User Define",
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "2.2",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100x100 mm",
+   "Height Adjustment": "100 mm",
+   "Swivel": "15˚/ 15˚",
+   "Tilt": "-5˚ - 15˚"
+  },
+  "Key Feature": {
+   "Certification": "TUV Certificate"
+  },
+  "Key Features": {
+   "Voltage Range": "100 - 240V"
+  },
+  "Features": {
+   "Dimension": "Dimensions (HxWxD) (mm)",
+   "Weight": "Net Weight (kg): 7.6"
+  },
+  "Connectivity": {
+   "Audio Jack": "Audio Jack\nYes",
+   "Display Port": "1x DisplayPort1.4",
+   "USB Port(s)": "2xUSB 3.0",
+   "HDMI": "2xHDMIv2.1"
+  },
+  "Power Specifications": {
+   "Power Consumption": "Power Consumption (normal): 28 W"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty (Dot Claim Benq Policy - Minimum 5)"
+  }
+ },
+ "key_features": [
+  "Resolution: 2K (2560x1440)",
+  "Display: 27 inch, IPS, 240Hz, 1ms (GTG)",
+  "Ports: 2xHDMIv2.1, 1x DisplayPort1.4, 2xUSB 3.0",
+  "Features: 2Wx2 + 5W woofer, Flicker-free, FreeSync Premium"
+ ],
+ "warranty": "3 Year Warranty (Dot Claim Benq Policy - Minimum 5)",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/benq-mobiuz-ex270qm-gaming-monitor",
+ "store": "pchouse"
+}

@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "ATX",
+   "Connectors": "1 x 24-pin ATX\n1 x 4+4-pin CPU\n2 x 6+2-pin PCIe\n6 x SATA\n3 x Molex (Peripheral)\n1 x Floppy"
+  },
+  "General Information": {
+   "Cooling Style": "120mm fan",
+   "MODULAR": "Semi-modular (Some cables detachable)",
+   "WATTAGE": "450W",
+   "Protection": "Over Voltage Protection (OVP)\nUnder Voltage Protection (UVP)\nOver Power Protection (OPP)\nShort Circuit Protection (SCP)\nOver Temperature Protection (OTP)",
+   "Other": "Efficiency Rating: 80 Plus Bronze\nActive PFC (Power Factor Correction)\nSupport for multiple GPU configurations"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  },
+  "Image": {
+   "Model": "PP-450W"
+  }
+ },
+ "key_features": [
+  "Wattage: 450W output for stable power to mid-range gaming setups",
+  "Efficiency: 80 Plus Bronze rating ensures up to 85% energy efficiency",
+  "Cooling System: 120mm fan for optimal airflow and low noise levels",
+  "Connectors: Includes 24-pin ATX, 4+4-pin CPU, 6+2-pin PCIe, SATA, Molex, and Floppy connectors",
+  "Protection Features: OVP, UVP, OPP, SCP, OTP for system safety",
+  "Design: Semi-modular cables for better cable management",
+  "Warranty: 5 years for long-term reliability"
+ ],
+ "model": "PP-450W",
+ "warranty": "5 years",
+ "fetched": "2026-11-13T18:18+06:00",
+ "source": "https://www.creatus.com.bd/pc-power-pp-450w-450w-gaming-power-supply",
+ "store": "creatus"
+}

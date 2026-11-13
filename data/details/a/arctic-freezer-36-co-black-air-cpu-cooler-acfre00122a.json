@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "200 - 1800 rpm",
+   "Noise": "36.9 dB(A)",
+   "Connector": "4-Pin PWM-Connector + 4-Pin Plug",
+   "Material": "Aluminum",
+   "Others": "Fan:\t2x P12 PWM PST CO\nHeatpipes: 4x Ø6 mm, Copper\nFin Stack: 59x 0.4 mm, Aluminium\nPI | NNPI: 250 | 234\nTIM: MX-6 (0.8 g)\nOperating Ambient Temperature: 0-40 °C\nBearing:\tDual Ball Bearing\nCurrent | Voltage: 0.10 A | 12 V DC\nCable Lenght: 200 mm + 80 mm Splitter Cable"
+  },
+  "Physical Specification": {
+   "Dimension": "104 mm x 126 mm x 159 mm (LxWxH)",
+   "Weight": "890 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851, LGA1700",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200 -1800 rpm",
+  "Fan Size: 120 mm",
+  "Fan Bearing: Dual Ball Bearing",
+  "Compatibility: Intel 1851, Intel 1700, AMD AM5 and AMD AM4 Socket"
+ ],
+ "price": 39004100,
+ "regular": 4390,
+ "status": "In Stock",
+ "code": "40071",
+ "brand": "ARCTIC",
+ "model": "Freezer 36 CO",
+ "warranty": "6 years",
+ "name": "Arctic Freezer 36 CO Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Freezer 36 CO Air CPU Cooler"
+ ],
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.startech.com.bd/arctic-freezer-36-co-air-cpu-cooler",
+ "store": "startech"
+}

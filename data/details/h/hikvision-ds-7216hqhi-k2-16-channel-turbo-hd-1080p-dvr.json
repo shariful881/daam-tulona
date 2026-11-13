@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Audio and Video": {
+   "IP Camera Input": "Up to 64-ch 12 MP IP cameras can be connected",
+   "Two-Way Talk": "1-ch, RCA (2.0 Vp-p, 1 k Ω)"
+  },
+  "Display": {
+   "Interface": "H.265+/H.265/H.264/H.264+/MPEG4",
+   "Decoding Capacity": "2-ch @ 12 MP (20fps) / 4-ch @ 8 MP (25fps) / 8-ch @ 4MP (30fps) / 16-ch @ 1080p (30fps)"
+  },
+  "Resolution": {
+   "CVBS output (Optional)": "1-ch, BNC (1.0 Vp-p, 75 Ω), resolution: PAL: 704 × 576, NTSC: 704 × 480",
+   "VGA1 /HDMI1 output resolution": "HDMI1: 4K (3840 × 2160)/60Hz, 4K (3840 × 2160)/30Hz, 2K (2560 × 1440)/60Hz, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz VGA1: 2K (2560 × 1440)/60Hz, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 ×",
+   "VGA2 /HDMI2 output resolution": "1920 × 1080p/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  "Recording": {
+   "Record Rate": "128 Mbps"
+  },
+  "Video Detection And Alarm": {
+   "Alarm Input": "Yes"
+  },
+  "Playback And Backup": {
+   "Sync Playback": "Yes ( 8-ch )",
+   "Playback Function": "12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080p/UXGA/720p/VGA/4CIF/DCIF /2CIF/CIF/QCIF"
+  },
+  "Third Party Support": {
+   "Third Party Support": "YesH.265+/H.265/H.264/H.264+/MPEG4"
+  },
+  "Network": {
+   "Interface": "2, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface",
+   "Ethernet Port": "2",
+   "Network Function": "TCP/IP, DHCP, Hik-Connect, DNS, DDNS, NTP, SADP, SMTP, NFS, iSCSI, UPnP, HTTPS"
+  },
+  "Storage": {
+   "HDD Mode": "8 SATA interfaces for 8HDDs\nUp to 10TB capacity for each HDD",
+   "eSATA": "1 eSATA interface"
+  },
+  "Auxiliary Interface": {
+   "USB": "Front panel: 2 × USB 2.0; Rear panel: 1 × USB 3.0",
+   "RS232": "Yes",
+   "RS485": "Yes"
+  },
+  "Power": {
+   "Power Supply": "100 to 240 VAC, 50 to 60 Hz"
+  },
+  "Power Consumption": {
+   "Max. Power": "200 W",
+   "Consumption (without HDD)": "≤ 30 W"
+  },
+  "Construction": {
+   "Dimensions": "445 × 470 ×90 mm (17.5\"× 18.5\" × 3.5\")",
+   "Net Weight": "Weight (without HDD) : ≤ 8 kg (17.6 lb)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-13T17:57+06:00",
+ "source": "https://www.creatus.com.bd/hikvision-ds-7216huhi-k2-16-ch-turbo-hd-1080p-dvr-2",
+ "store": "creatus"
+}

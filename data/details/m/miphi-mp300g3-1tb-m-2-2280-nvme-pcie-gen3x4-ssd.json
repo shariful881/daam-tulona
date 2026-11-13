@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 3.0 x 4 NVMe 1.4",
+   "Flash Type": "3D TLC",
+   "TBW": "600 TB",
+   "Others": "4K Random Read: 430K IOPS\n4K Random Write: 700K IOPS\nOperating Temperature: 0°C to 85°C\nNon-Operating Temperature: −40° C to 85° C"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "3300MB/s",
+   "Sequential Write": "3000MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Limited Warranty"
+  },
+  "Image": {
+   "Model": "MP300G3"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: PCIe Gen 3.0 x 4 NVMe 1.4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 3300MB/s / 3000MB/s"
+ ],
+ "model": "MP300G3",
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.creatus.com.bd/miphi-mp300g3-1tb-gen3-nvme-ssd",
+ "store": "creatus"
+}

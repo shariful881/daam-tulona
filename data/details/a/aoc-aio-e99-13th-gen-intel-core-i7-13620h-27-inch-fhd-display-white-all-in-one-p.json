@@ -1,0 +1,75 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7 13620H",
+   "Generation": "13th",
+   "Processor Core": "10",
+   "Processor Thread": "16",
+   "CPU Cache": "24MB",
+   "Processor Type": "Core i7"
+  },
+  "Processor Frequency": {
+   "Processor Base Frequency": "Unmentioned",
+   "Performance-Core Base Frequency": "2.40GHz",
+   "Efficient-Core Base Frequency": "1.80GHz",
+   "Processor Max Turbo Frequency": "4.90GHz",
+   "Performance-Core Max Turbo Frequency": "4.90GHz",
+   "Efficient-Core Max Turbo Frequency": "3.60GHz"
+  },
+  "Memory": {
+   "Ram": "16GB",
+   "Ram Type": "DDR4"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB"
+  },
+  "Graphics": {
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Not Applicable"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Features": "Wireless Keyboard"
+  },
+  "Webcam": {
+   "WebCam": "Yes",
+   "WebCam Details": "3MP"
+  },
+  "Camera & Audio": {
+   "Speaker": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Ports": "4 x USB 2.0, 2 x USB 3.0"
+  },
+  "Network & Connectivity": {
+   "Lan": "Yes",
+   "WiFi": "WI-FI 5"
+  },
+  "Software": {
+   "Operating System": "Win-11 Pro"
+  },
+  "Display": {
+   "Display Size": "27 Inch",
+   "Display Type": "FHD LED Display",
+   "Display Resolution": "1920x1080",
+   "Touch Screen": "No",
+   "Resolution": "1920x1080"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (Box Mandatory While Claiming)"
+  },
+  "Image": {
+   "Model": "AIO E99"
+  }
+ },
+ "key_features": [],
+ "model": "AIO E99",
+ "warranty": "2 Year (Box Mandatory While Claiming)",
+ "fetched": "2026-11-13T18:42+06:00",
+ "source": "https://www.creatus.com.bd/aoc-aio-e99-13th-gen-intel-core-i7-13620h-all-in-one-pc",
+ "store": "creatus"
+}

@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Display Type": "IPS LCD, 90Hz, 500 nits (typ), 625 nits (HBM)",
+   "Size": "8.7 inches",
+   "Resolution": "1504 x 2508 pixels",
+   "Processor": "Qualcomm SM6225 Snapdragon 680 (6 nm)\nOcta-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+   "RAM": "4GB",
+   "Storage": "128GB",
+   "Connectivity": "WiFi",
+   "Operating System": "Android 15, MagicOS 9",
+   "Audio": "Yes, with stereo speakers"
+  },
+  "Refresh Rate": {
+   "Screen-to-body Ratio": "85%",
+   "PPI": "180 PPI",
+   "Brightness": "500nits (typical value)",
+   "Contrast Ratio": "1500:1 (typical value)",
+   "Screen Color": "16.7 million colors, NTSC color gamut"
+  },
+  "Physical Spec": {
+   "Dimensions": "211.8 x 124.8 x 8 mm (8.34 x 4.91 x 0.31 in)",
+   "Weight": "365 g",
+   "SIM": "No",
+   "Color": "Gray"
+  },
+  "Camera": {
+   "Rear": "8 MP, f/2.0, AF",
+   "Front": "5 MP, f/2.2",
+   "Video": "1080p@30fps"
+  },
+  "Battery": {
+   "Type": "Lithium-ion battery",
+   "Capacity": "7020 mAh (typical value)",
+   "Charging": "10W wired"
+  },
+  "Special Features": {
+   "Bluetooth": "Bluetooth 5.0, A2DP, LE\nSupported BLE, SBC, AAC, LDAC",
+   "Sensors": "Accelerate Sensor",
+   "USB": "Type-C",
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band"
+  },
+  "Warranty": {
+   "Warranty": "01-Year warranty"
+  }
+ },
+ "key_features": [
+  "Display: 8.7-inch TFT LCD, 800 x 1340 pixels, 90Hz",
+  "RAM: 4GB Storage: 128GB ROM",
+  "CPU: Qualcomm Snapdragon 680 (6 nm)",
+  "Battery: Li-ion 7020 mAh, 10W Wired Fast Charging"
+ ],
+ "warranty": "01-Year warranty",
+ "fetched": "2026-11-13T18:12+06:00",
+ "source": "https://www.pchouse.com.bd/honor-pad-x7",
+ "store": "pchouse"
+}

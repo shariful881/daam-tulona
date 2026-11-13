@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen4 x4",
+   "Flash Type": "TLC NAND",
+   "MTBF": "1.75",
+   "TBW": "600"
+  },
+  "Sequential R/W": {
+   "Sequential Read Performance": "7250MB/s",
+   "Sequential Write Performance": "6900MB/s"
+  },
+  "Others": {
+   "Random Read IOPS": "Up to 1,000,000",
+   "Random Write IOPS": "Up to 1,400,000"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Physical Specification": {
+   "Weight": "8.5gms",
+   "Dimensions": "80.15mm x 22.15mm x 2.38mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years Warranty"
+  },
+  "Image": {
+   "Model": "SN7100"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe PCIe Gen4 x4",
+  "Sequential Read: 7250MB/s",
+  "Sequential Write: 6900MB/s"
+ ],
+ "model": "SN7100",
+ "warranty": "05 years Warranty",
+ "fetched": "2026-11-13T18:40+06:00",
+ "source": "https://www.creatus.com.bd/western-digital-sn7100-1tb-ssd",
+ "store": "creatus"
+}

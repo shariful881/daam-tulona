@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "200—2000 rpm PWM Controlled (0 rpm below 5% PWM)",
+   "Air Flow": "48.80 cfm | 82.91 m³/h",
+   "Air Pressure": "1.85 mmH2O",
+   "Noise (dBA)": "0.3 Sone",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Input Current": "0.11 A | 12 V DC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120 x 120 x 25mm",
+   "Weight": "131 g",
+   "Connector": "4-Pin Connector + 4-Pin Socket"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "06-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200 - 2000 rpm PWM Controlled",
+  "Airflow: 48.80 cfm, 82.91 m³/h",
+  "Fan Connector: 4-Pin Connector + 4-Pin Socket",
+  "Fan Bearing:\tFluid Dynamic Bearing"
+ ],
+ "price": 18002100,
+ "regular": 2060,
+ "status": "In Stock",
+ "code": "46655",
+ "brand": "ARCTIC",
+ "model": "P12 PWM PST ARGB",
+ "warranty": "06-year Warranty",
+ "name": "Arctic P12 PWM PST ARGB 120mm Casing Fan (Single Pack)",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "ARCTIC",
+  "Arctic P12 PWM PST ARGB 120mm Casing Fan (Single Pack)"
+ ],
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.startech.com.bd/arctic-p12-pwm-pst-argb-120mm-casing-fan",
+ "store": "startech"
+}

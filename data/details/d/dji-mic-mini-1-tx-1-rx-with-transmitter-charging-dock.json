@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating Interface": "400 Meter",
+   "Charging Interface": "USB Type-C",
+   "Audio": "Sound Pressure Level (SPL): 120 dB SPL",
+   "Battery": "114 mAh (Transmitter), 170 mAh (Receiver)"
+  },
+  "Battery": {
+   "Charging Time": "1.5 Hours (Transmitter), 1.6 Hours (Receiver)"
+  },
+  "Main Spec": {
+   "Battery Life": "11.5 Hours (Transmitter), 10.5 Hours (Receiver)",
+   "Frequency Response": "Low Cut Off: 20 Hz - 20 kHz, Low Cut On: 100 Hz - 20 kHz",
+   "Polar pattern": "Omnidirectional",
+   "Signal / noise ratio": "24 dBA"
+  },
+  "Other Features": {
+   "Waterproof": "No"
+  },
+  "Features": {
+   "Dimension": "26.55 x 26.06 x 15.96mm (Transmitter), 46.50 x 29.61 x 19.32mm (Receiver)",
+   "Technology": "Equivalent Noise: 24 dBA",
+   "Weight": "0.01 kg (Transmitter), 0.0178 kg (Receiver)"
+  },
+  "Connectivity": {
+   "Connection Type": "Wireless",
+   "Bluetooth": "5.3"
+  },
+  "Technical Info": {
+   "Operating Voltage": "3.87V"
+  },
+  "Warranty Information": {
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [
+  "Wireless Mode: GFSK 2Mbps",
+  "Polar pattern: Omnidirectional",
+  "Frequency: 2.400-2.4835 GHz",
+  "Bluetooth Protocol: Bluetooth 5.3"
+ ],
+ "warranty": "No warranty",
+ "fetched": "2026-11-13T17:46+06:00",
+ "source": "https://www.pchouse.com.bd/dji-mic-mini",
+ "store": "pchouse"
+}

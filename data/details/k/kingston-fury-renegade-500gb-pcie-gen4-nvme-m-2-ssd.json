@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Storage": "500GB",
+   "Form Factor (Inch)": "M.2 2280"
+  },
+  "Key Features": {
+   "Interface": "NVMe\nPCIe NVMe Gen4x4"
+  },
+  "Main Features": {
+   "Read Speed": "7300MB/s Max.",
+   "Write Speed": "3900MB/s Max."
+  },
+  "Technical Info": {
+   "Approx. Power Consumption": "50mW (idle), 0.34W (avg), 2.7W (Max/read), 4.1W (Max/write)"
+  },
+  "Physical Specification": {
+   "Weight": "7gm"
+  },
+  "Physical Specifications": {
+   "Dimensions": "80 x 22 x 2.21mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 500GB",
+  "Interface: PCIe 4.0 x4 NVMe",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 7,300/3,900MB/s"
+ ],
+ "warranty": "5 Year",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-renegade-500gb-m.2-2280-internal-ssd",
+ "store": "pchouse"
+}

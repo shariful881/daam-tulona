@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS Bronze",
+   "Efficiency (Approx.)": "Meet 80 PLUS®Bronze at 115Vac input.",
+   "Fan Size": "12cm Hydraulic bearing fan",
+   "MTBF": "100,000 hrs minimum",
+   "Watt": "550W",
+   "Temperature": "OPERATING TEMPERATURE: 5°C to + 40°C\n5°C to + 40°C\n0°C to + 40°C\nSTORAGE TEMPERATURE: -40°C to + 55°C\n-40°C to + 55°C\n-40°C to + 70°C",
+   "Humidity": "OPERATING HUMIDITY: 20% to 85%, non-condensing\n20% to 85%, non-condensing\n20% to 90%, non-condensing\nSTORAGE HUMIDITY: 10% to 95%, non-condensing\n10% to 95%, non-condensing\n5% to 95%, non-condensing"
+  },
+  "Others": {
+   "HOLD UP TIME": "> 16msec at 70% of full load",
+   "POWER GOOD SIGNAL": "100-500 msec",
+   "Safety Approval": "CE/CB/TUV/ UL/ FCC/ BSMI",
+   "PCI-E 6+2PIN": "2",
+   "PFC (POWER FACTOR CORRECTION)": "Active PFC"
+  },
+  "Input": {
+   "Voltage": "100V – 240V~",
+   "Frequency Range": "50Hz - 60Hz",
+   "Current": "10A max."
+  },
+  "Output": {
+   "Modular Type": "non-modular",
+   "Total Power": "550W",
+   "Peak Power": "660W",
+   "DC Output": "550W"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "150mm(W) x 86mm(H) x 140mm(D)"
+  },
+  "Warranty Information": {
+   "Warranty": "150mm(W) x 86mm(H) x 140mm(D)"
+  },
+  "Image": {
+   "Model": "Smart BX1 550W"
+  },
+  "Product List": {
+   "Thermaltake Power Supply List Price in BD": "Price",
+   "Thermaltake Smart BX1 650W Power Supply": "6,200৳\n6,900৳"
+  }
+ },
+ "key_features": [
+  "Power Good Signal (100-500 msec): Provides a timely indication of stable power supply, contributing to system reliability.",
+  "Temperature Adaptability: Operates smoothly in temperatures ranging from 0°C to +40°C, accommodating various system environments.",
+  "Two PCI-E 6+2PIN Connectors: Supports demanding graphics configurations, making it suitable for gaming and content creation.",
+  "Non-Modular Design: Simplifies installation with a fixed cable configuration, ideal for users seeking a straightforward setup.",
+  "Peak Power of 660W: Provides additional power headroom for short bursts of increased demand, ensuring stability during peak loads."
+ ],
+ "model": "Smart BX1 550W",
+ "warranty": "150mm(W) x 86mm(H) x 140mm(D)",
+ "fetched": "2026-11-13T18:28+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-smart-bx1-550w-power-supply",
+ "store": "creatus"
+}

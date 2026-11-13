@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Features": {
+   "Dimension": "L120 mm x W120 mm x H25 mm",
+   "Others": "Air Flow\t66.17 CFM (MAX)\nAir Pressure\t1.53mm H2O (MAX)",
+   "Weight": "120g"
+  },
+  "Casing Fan": {
+   "Noise (dBA)": "25.6 dBA (MAX)"
+  },
+  "Connectors": {
+   "Connector": "4 PIN PWM\nARGB Connector: 3 PIN 5V"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Noise Level: 25.6 dBA (MAX)",
+  "Air Flow: 66.17 CFM (MAX)",
+  "Air Pressure: 1.53mm H2O (MAX)"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-tl-c12cw-s-x3-cpu-fan-120mm-white-argb-casing-fan",
+ "store": "pchouse"
+}

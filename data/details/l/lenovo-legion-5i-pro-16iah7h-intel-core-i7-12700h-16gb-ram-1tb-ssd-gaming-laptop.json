@@ -1,0 +1,82 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Frequency": "4.70GHz",
+   "Processor Core": "14",
+   "Processor Thread": "20",
+   "CPU Cache": "24MB",
+   "Processor Model": "Core i7 12700H"
+  },
+  "BASIC Information": {
+   "Battery": "Battery Capacity: 80Wh",
+   "Graphics": "Graphics Memory Accessibility: Dedicated",
+   "Storage": "1TB SSD",
+   "Audio": "High Definition (HD) Audio, Realtek ALC3287 codec, Stereo speakers, 2W x2, Nahimic Audio, 2x, Array mic"
+  },
+  "Display": {
+   "Display Resolution": "2560x1600",
+   "Display Size": "16 INCH",
+   "Display Type": "2.5K QHD WQXGA Display"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "Power Adapter: 300W"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "Yes",
+   "Bluetooth": "Bluetooth 5.1",
+   "WiFi": "Wi-Fi 6E, 11ax 2x2"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "4800 MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Nvidia RTX 3060 Graphics",
+   "Graphics Type": "GDDR6"
+  },
+  "Physical Specifications": {
+   "Color": "Storm Grey",
+   "Weight": "2.49 kg",
+   "Dimensions (W x D x H)": "359.9 x 264.4 x 19.9mm"
+  },
+  "Camera & Audio": {
+   "Microphone": "Yes",
+   "Speaker": "Yes",
+   "WebCam": "HD WebCam"
+  },
+  "Display Features": {
+   "Display Features": "IPS 500nits Anti-glare, 100% sRGB, Dolby Vision, G-SYNC, Low Blue Light, High Gaming Performance",
+   "Touch Screen": "No"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "Combo",
+   "Optical Drive": "No",
+   "USB 2 Port": "No",
+   "USB 3 Port": "3 x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "2 x USB 3.2 Gen2 Type-C, 1 x Thunderbolt 4",
+   "VGA/D-Sub": "No",
+   "HDMI Port": "1",
+   "Micro HDMI Port": "No",
+   "Mini DP Port": "No"
+  },
+  "Storage": {
+   "HDD RPM": "No HDD",
+   "Storage Upgrade": "Additional SSD Can be added"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year (Battery, Adapter 1 year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-12700H (24M Cache, 3.50 GHz up to 4.70 GHz)",
+  "RAM: 16GB DDR5 4800MHz, Storage: 1TB SSD",
+  "GPU: NVIDIA GeForce RTX 3060 6GB GDDR6",
+  "Features: Backlit Keyboard, Type-C"
+ ],
+ "warranty": "2 year (Battery, Adapter 1 year)",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-legion-5i-pro-16iah7h-intel-core-i7-12700h-16gb-ram-1tb-ssd-gaming-laptop",
+ "store": "pchouse"
+}

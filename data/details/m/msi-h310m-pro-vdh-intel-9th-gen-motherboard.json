@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Connectors": "Power, SATA, Fan, Panel, Serial, TPM, and Chassis Intrusion connectors (Refer to Internal I/O Ports and back panel ports)"
+  },
+  "Basic Information": {
+   "Supported CPU": "Supports 9th / 8th Gen Intel Core / Pentium Gold / Celeron processors for LGA 1151 socket",
+   "Chipset": "Intel H310 Chipset",
+   "Form Factor": "8.9 in. x 7.3 in. (22.6 cm x 18.5 cm) m-ATX Form Factor",
+   "Audio": "8.9 in. x 7.3 in. (22.6 cm x 18.5 cm) m-ATX Form Factor"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCIe 3.0 x16 slot, 2 x PCIe 2.0 x1 slots"
+  },
+  "Memory": {
+   "Slots": "2 x DDR4 memory slots",
+   "Supported Memory": "Supports Dual-Channel mode, DDR4 2666/ 2400/ 2133 MHz (by JEDEC), DDR4 2666/ 2400/ 2133 MHz (by XMP OC), non-ECC, un-buffered memory, Intel Extreme Memory Profile (XMP)",
+   "Maximum Memory": "32GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x VGA port (max res. 2048x1536@50Hz, 2048x1280@60Hz, 1920x1200@60Hz), 1 x DVI-D port (max res. 1920x1200@60Hz), 1 x HDMI port (max res. 4096x2160@30Hz)"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port, supports a maximum resolution of 4096x2160@30Hz",
+   "USB (s)": "4 x USB 3.1 Gen1 ports (2 Type-A on back, 2 internal), 6 x USB 2.0 ports (4 on back, 2 internal)",
+   "Front USB": "Supported via internal USB 3.1 Gen1 and USB 2.0 connectors",
+   "LAN Port (s)": "1 x RTL8111H Gigabit LAN controller",
+   "Supported Storage": "4 x SATA 6Gb/s ports (Intel H310 Chipset), Supports Intel Rapid Storage Technology",
+   "RAID": "Supports Intel Rapid Storage Technology (Specific RAID levels not detailed)"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year manufacturing warranty"
+  },
+  "Image": {
+   "Model": "MSI H310M PRO-VDH Plus"
+  }
+ },
+ "key_features": [],
+ "model": "MSI H310M PRO-VDH Plus",
+ "warranty": "3-Year manufacturing warranty",
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.creatus.com.bd/msi-h310m-pro-vdh-plus-intel-9th-gen-motherboard",
+ "store": "creatus"
+}

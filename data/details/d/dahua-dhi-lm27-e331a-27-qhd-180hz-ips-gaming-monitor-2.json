@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27\"",
+   "Display Type": "E-LED Backlit Display",
+   "Panel Type": "IPS",
+   "Resolution": "QHD (2560x1440)",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "300nits(typ)",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "180Hz",
+   "Color Support": "85% NTSC",
+   "Response Time": "1ms"
+  },
+  "Video Features": {
+   "Free Sync Support": "yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100x100mm",
+   "Height Adjustment": "100+/-5mm",
+   "Pivot": "0°~180°",
+   "Swivel": "20°±2°",
+   "Tilt": "-5°±2°/15°±2°"
+  },
+  "Power Consumption": {
+   "Consumption (Standard)": "MAX. 54W",
+   "Consumption (Standby)": "<0.5W"
+  },
+  "Display Details": {
+   "Power Voltage": "12V"
+  },
+  "Connectivity": {
+   "Audio Jack": "Audio out×1",
+   "Power Type": "Adapter",
+   "Display Port": "DP1.4×2",
+   "USB Port(s)": "USB×1(only upgrade）",
+   "HDMI": "HDMI 2.1×2"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "616×57.5×364.3mm(without stand)",
+   "Color": "Black",
+   "Weight": "4.7kg"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: QHD (2560x1440)",
+  "Display: IPS, 180Hz, 1ms",
+  "Ports: DP1.4×2，HDMI 2.1×2，USB×1(only upgrade), Audio out×1",
+  "Features: Low Blue Light, VESA wall mount"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-dhi-lm27-e331a-27-qhd-180hz-ips-gaming-monitor-price-in-bd",
+ "store": "pchouse"
+}

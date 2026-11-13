@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "27 Inch",
+   "Display Type": "LED",
+   "Resolution": "2560 × 1440 (2K QHD)",
+   "Pixels Per Inch (PPI)": "109 PPI",
+   "Pixel pitch(MM)": "0.2331 × 0.2331 mm",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178° (H) / 178° (V)",
+   "Contrast Ratio": "1200:1",
+   "Refresh Rate": "200Hz",
+   "Color Support": "16.7 Million Colors",
+   "Color Gamut": "95% DCI-P3",
+   "Response Time": "1ms",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "N/A",
+   "HDCP": "N/A"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "No"
+  },
+  "Connectivity": {
+   "Display Port": "2 × DisplayPort 1.4",
+   "HDMI": "2 × HDMI 2.1",
+   "Audio Jack": "1 × Audio Out"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (-5° ~ 15°)",
+   "Swivel": "No",
+   "Pivot": "No",
+   "Height Adjustment": "No",
+   "Vesa Wall Mount": "No"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Power": {
+   "Type": "External Power Adapter",
+   "Power Consumption": "N/A",
+   "Voltage": "AC 100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years  Warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: 2K QHD (2560x1440)",
+  "Display: IPS, 200Hz, 1ms",
+  "Ports: 2x HDMI 2.1, 2x DisplayPort 1.4, 1x Audio Out",
+  "Features: Dual Input, Flicker-Free, Low Blue Light"
+ ],
+ "warranty": "3 Years  Warranty",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/geesuu-mg270l2q-27-200hz-2k",
+ "store": "pchouse"
+}

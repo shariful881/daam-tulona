@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "480GB",
+   "Flash Type": "3D NAND flash",
+   "Form Factor": "M.2 SATA form factor (80mm)",
+   "Sequential R/W": "Read: 550 MB/s",
+   "Interface": "SATA III 6Gb/s"
+  },
+  "Others": {
+   "Others": "MTBF : 1,000,000 hour(s)"
+  },
+  "Physical Specification": {
+   "Dimensions": "80.0 mm x 22.0 mm x 3.58 mm (3.15\" x 0.87\" x 0.14\")",
+   "Weight": "8 g (0.28 oz)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Interface: SATA III 6Gb/s",
+  "Form Factor: M.2 SATA",
+  "Capacity: 480GB"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-13T18:04+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-820s-480gb-ssd",
+ "store": "pchouse"
+}

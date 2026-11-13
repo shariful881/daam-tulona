@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Key Features": {
+   "Noise": "23.6 dBA",
+   "Air Pressure": "2.41 mm-H2O",
+   "Connectors": "2510 - 4Pin",
+   "Material": "Aluminum Fins\nCopper Heatpipes",
+   "Speed": "PWM 500 ~ 2000 RPM",
+   "Others": "Lifespan: 40,000 hours"
+  },
+  "Power Consumption": {
+   "RATED VOLTAGE": "12V",
+   "START VOLTAGE": "9.0 V",
+   "RATED CURRENT": "0.48 A",
+   "POWER INPUT": "5.76 W",
+   "COOLING POWER": "140 W"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700/1200/1156/1155/1151/1150",
+   "AMD": "AM4/AM3+/AM3/AM2+/AM2/FM2/FM1"
+  },
+  "Cooling System": {
+   "Fan Airflow": "58.35 CFM"
+  },
+  "Dimensions": {
+   "DIMENSIONS": "137.7 x 123.6 x 114.1 mm ( L x W x H)",
+   "FAN DIMENSION": "120 x 120 x 25 mm ( L x W x H)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  },
+  "Image": {
+   "Model": "TOUGHAIR 110"
+  },
+  "Product List": {
+   "Thermaltake CPU Cooler Price List in BD": "Price",
+   "Thermaltake TH360 ARGB Sync AIO Liquid Cooler": "10,450৳\n11,200৳",
+   "Thermaltake TH240 V2 ARGB Sync AIO Liquid Cooler": "10,000৳\n10,100৳",
+   "Thermaltake TH240 ARGB Sync AIO Liquid Cooler": "9,200৳\n11,000৳",
+   "Thermaltake UX200 ARGB Lighting Air CPU Cooler": "3,500৳\n3,900৳",
+   "Thermaltake Ux200 Argb Lighting Cpu Cooler": "2,850৳\n2,900৳"
+  }
+ },
+ "key_features": [
+  "Universal Compatibility: Supports a wide range of Intel (LGA 1700/1200/1156/1155/1151/1150) and AMD (AM4/AM3+/AM3/AM2+/AM2/FM2/FM1) sockets.",
+  "High-Performance Cooling: PWM fan with a speed range of 500 to 2000 RPM for efficient heat dissipation.",
+  "Optimal Airflow: Achieves a remarkable 58.35 CFM, ensuring effective cooling for your CPU.",
+  "Pressure Optimization: Boasts 2.41 mm-H2O air pressure for enhanced thermal performance.",
+  "Low-Noise Operation: Operates at a quiet 23.6 dBA, providing a peaceful computing environment.",
+  "Long Lifespan: Designed for longevity with a lifespan of 40,000 hours, ensuring sustained performance.",
+  "Power Efficiency: Consumes a maximum of 5.76 W while delivering a cooling power of 140 W.",
+  "Quality Construction: Features aluminum fins and copper heatpipes for durability and effective heat transfer.",
+  "Compact Design: Dimensions of 137.7 x 123.6 x 114.1 mm ensure compatibility with various system configurations.",
+  "Fan Dimensions: 120 x 120 x 25 mm, providing a balanced size for efficient cooling.",
+  "Start Voltage: Efficiently starts at a low 9.0 V, contributing to energy-saving operations.",
+  "Premium Materials: Aluminum fins and copper heatpipes for superior thermal conductivity."
+ ],
+ "model": "TOUGHAIR 110",
+ "warranty": "1 year",
+ "fetched": "2026-11-13T18:28+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-toughair-110-cpu-air-cooler",
+ "store": "creatus"
+}

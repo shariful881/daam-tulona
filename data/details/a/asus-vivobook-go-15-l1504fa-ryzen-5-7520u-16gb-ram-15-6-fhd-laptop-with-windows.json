@@ -1,0 +1,95 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 7520U",
+   "Processor Frequency": "Up to 4.3 GHz",
+   "Processor Core": "4",
+   "Processor Thread": "8",
+   "CPU Cache": "6MB"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Resolution": "FHD (1920x1080)",
+   "Touch Screen": "No",
+   "Display Features": "Aspect Ratio: 16:9\nLED Backlit\nAnti-glare display\nTÜV Rheinland-certified\n45% NTSC color gamut\nRefresh Rate 60Hz"
+  },
+  "Memory": {
+   "RAM": "16GB (On Board)",
+   "RAM Type": "LPDDR5",
+   "Removable": "No",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 3.0 SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 NVMe PCIe 3.0 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Intregrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Chiclet Keyboard",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p HD",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in array Microphone",
+   "Audio Features": "SonicMaster\nwith Cortana voice-recognition support\nAI Noise Canceling"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6E(802.11ax) (Dual band) 1*1",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 2 Port": "1x USB 2.0 Type-A (data speed up to 480Mbps)",
+   "USB 3 Port": "1x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 1 Type-C (data speed up to 5Gbps)",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Green Gray",
+   "Dimensions": "36.03 x 23.25 x 1.79 ~ 1.79 cm (14.19\" x 9.15\" x 0.70\" ~ 0.70\")"
+  },
+  "Weight": {
+   "Weight (with Battery)": "1.63 kg (3.59 lbs)",
+   "Weight (without Battery)": "1.47 kg (3.24 lbs)"
+  },
+  "Body Material": {
+   "LCD cover-material": "Plastic",
+   "Top case-material": "Plastic",
+   "Bottom case-material": "Plastic"
+  },
+  "Power": {
+   "Battery Type": "3S1P, 3-cell Li-ion",
+   "Battery Capacity": "42WHrs",
+   "Adapter Type": "ø4.5, 45W AC Adapter, Output: 19V DC, 2.37A, 45W\nInput: 100~240V AC 50/60Hz universal"
+  },
+  "Warranty Details": {
+   "Warranty": "02 years Warranty (Battery 1 year)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7520U (6MB Cache, Up to 4.3 GHz)",
+  "RAM: 16GB LPDDR5, Storage: 512GB NVMe PCIe 3.0 SSD",
+  "Display: 15.6\" FHD (1920x1080), Anti-glare Display",
+  "Features: US MIL-STD 810H Standard, Type-C, Wi-Fi 6E"
+ ],
+ "warranty": "02 years Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/asus-vivobook-go-15-l1504fa-16gb-ram-laptop",
+ "store": "pchouse"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Stream Processors": "4096",
+   "Others": "Radeon Anti-Lag\nRadeon Boost\nAMD RDNA 4 Architecture with Hardware Raytracing\nAMD FreeSync Technology\nAMD HYPR-RX\nAMD Radeon Anti-Lag 2\nDirectX Support: 12\nOpenGL: 4.6\nAMD Stream Technology\nAMD Eyefinity Technology\nAMD Smart Access Memory"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "800W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI 2.1b",
+   "Display Port": "3 x DisplayPort 2.1a (only 2x simultaneous DP2.1 connections can be supported)"
+  },
+  "Physical Specification": {
+   "Dimension": "340m*132mm*69mm\n352mm*149mm*69mm(with bracket)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year"
+  },
+  "Image": {
+   "Model": "Red Devil AMD Radeon RX 9070 16GB GDDR6"
+  }
+ },
+ "key_features": [
+  "Engine Clock: Up to 2210MHz(Game)/ 2700MHz(Boost)",
+  "Memory Speed: 20.0 Gbps, Memory Interface: 256-bit",
+  "Stream Processors: 3584 Units, AMD RDNA 4 Architecture",
+  "Output Ports: 1 x HDMI 2.1b, 3 x DisplayPort 2.1b"
+ ],
+ "model": "Red Devil AMD Radeon RX 9070 16GB GDDR6",
+ "warranty": "2 year",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.creatus.com.bd/powercolor-red-devil-amd-radeon-rx-9070-16gb-gddr6-graphics-card",
+ "store": "creatus"
+}

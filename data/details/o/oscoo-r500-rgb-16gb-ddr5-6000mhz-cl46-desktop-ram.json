@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Operating voltage": "1.35V",
+   "Type": "DDR5",
+   "Frequency": "6000MHz",
+   "Latency": "CL46"
+  },
+  "Basic Information": {
+   "Capacity": "16GB",
+   "Others": "On-die-ECC"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "White",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years Warranty"
+  },
+  "Image": {
+   "Model": "R500 RGB"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB, Type: DDR5",
+  "Frequency: 6000MHz",
+  "Pins: 288 pin, Function: On-die-ECC",
+  "Voltage & Cas Latency: CL46/1.35V"
+ ],
+ "model": "R500 RGB",
+ "warranty": "05 Years Warranty",
+ "fetched": "2026-11-13T18:14+06:00",
+ "source": "https://www.creatus.com.bd/oscoo-r500-rgb-16gb-ddr5-6000mhz-cl46-desktop-ram",
+ "store": "creatus"
+}

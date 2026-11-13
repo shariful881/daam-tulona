@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "RoHS, CE, FCC",
+   "Platform": "Supported Plutform: Intel 12th / 13th Gen, AMD Ryzen 7000 Series",
+   "Write Speed": "44800 MB/s",
+   "Type": "DDR5 SODIMM",
+   "Read Speed": "44800 MB/s"
+  },
+  "Latency": {
+   "CAS Latency": "40 Cl",
+   "Error Correction": "On-die ECC",
+   "Module Configuration": "Single Rank",
+   "Spd Latency": "40-40-40-77",
+   "True Latency": "14.29 ns"
+  },
+  "Memory": {
+   "Bus Speed": "5600 MHz"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 °C to 85 °C",
+   "Storage Temperature": "-55 °C to 100 °C"
+  },
+  "Physical dimension": {
+   "Pin": "262 Pin"
+  },
+  "Power": {
+   "Voltage": "1.1V"
+  },
+  "Physical Specification": {
+   "Weight": "0.02 kg",
+   "Dimensions": "69.6 mm x 30 mm x 3.8 mm",
+   "Colors": "Green"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "16GB DDR5 5600MHz"
+  }
+ },
+ "key_features": [
+  "Type: DDR5 SODIMM",
+  "Capacity: 16GB",
+  "Bus Speed: 5600 MHz",
+  "Voltage: 1.1V"
+ ],
+ "model": "16GB DDR5 5600MHz",
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T18:21+06:00",
+ "source": "https://www.creatus.com.bd/samsung-16gb-ddr5-4800mhz-laptop-ram",
+ "store": "creatus"
+}

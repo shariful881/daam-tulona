@@ -1,0 +1,23 @@
+{
+ "specs": {
+  "Gaming Console": {
+   "Display": "BScreen Size   No\nTouch Screen.    No\nVideo Output Formats   1440p\nHigh Dynamic Range (HDR)   Yes",
+   "General": "rand     Microsoft\nModel     Microsoft Xbox Series S\nItem      Category Xbox\nController Type   Wireless",
+   "Included": "Number of Controllers Included   1",
+   "Network & Connectivity": "Input / Output   3 x USB3.1, HDMI\nDisplay Port.   HDMI\nHDMI   1\nHDMI Version   2.1\nNetworking   LAN, WiFi\nLAN   Yes\nWi-Fi   Yes\nWi-Fi Details   Wi-Fi 5\nNumber of USB Ports   3\nUSB   3.1 Gen 1",
+   "Physical Description": "Optical Drive   No\nPackage Contents   1x Wireless Controller\nColor    White\nDimensions   151 x 65 x 275mm\nWeight (Kg)   1.93Kg",
+   "RAM & Storage": "RAM  10GB\nRAM Type   GDDR6\nStorage   512GB\nStorage Type  SSD",
+   "Technical Info": "Processor Model   8X Cores @ 3.6 GHz (3.4 GHz w/SMT) Custom Zen 2 CPU\nGraphics   4 TFLOPS, 20 CUs @1.565 GHz Custom RDNA 2 GPU",
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [
+  "CPU: 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU",
+  "GPU: 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU",
+  "Memory: 10GB GDDR6, Storage: 512GB SSD"
+ ],
+ "warranty": "No warranty",
+ "fetched": "2026-11-13T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/microsoft-xbox-series-s-512gb-gaming-console-with-1x-wireless-controller",
+ "store": "pchouse"
+}

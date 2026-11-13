@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one liquid CPU cooler",
+   "Fan Speed": "5100 RPM +/- 10%",
+   "Fan Airflow": "89.73 CFM",
+   "Noise": "36 dB(A)",
+   "Air Pressure": "5.53 mmH2O",
+   "Connector": "PWM/DC",
+   "Material": "Block Material (CPU Plate): Copper\nRadiator Material: Aluminum\nTube: Sleeved Rubber tube",
+   "Others": "Display: 3.5\" Full Color LCD"
+  },
+  "Physical Specification": {
+   "Dimension": "Dimension (Heat Sink/Radiator): 399.5 x 120 x 30 mm\nWaterblock Dimensions: 89 x 92 x 108 mm\nFan Dimensions: 120 x 120 x 25mm\nTube Length: 400 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700, LGA1200, LGA115x",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 5100 RPM +/- 10%",
+  "Air Pressure: 5.53 mmH2O; Air Flow: 21.08 CFM",
+  "Display: 3.5\" Full Color LCD; AURA Sync Support",
+  "Compatibility: Intel LGA 1851/1700, AMD AM5/AM4"
+ ],
+ "price": 5899961000,
+ "regular": 65000,
+ "status": "In Stock",
+ "code": "50064",
+ "brand": "Asus",
+ "mpn": "90RC0131-M0UAY0",
+ "model": "ROG RYUJIN III 360 ARGB Extreme",
+ "warranty": "6 Years",
+ "name": "Asus ROG RYUJIN III 360 ARGB Extreme AIO Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Asus",
+  "Asus ROG RYUJIN III 360 ARGB Extreme AIO Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-ryujin-iii-360-argb-extreme-liquid-cpu-cooler",
+ "store": "startech"
+}

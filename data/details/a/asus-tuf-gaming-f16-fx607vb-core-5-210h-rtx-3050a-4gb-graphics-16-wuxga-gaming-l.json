@@ -1,0 +1,95 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 5-210H",
+   "Processor Frequency": "Up to 4.50 GHz",
+   "Processor Core": "8",
+   "Processor Thread": "12",
+   "CPU Cache": "12 MB"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Max RAM Capacity": "PCIe 4.0 NVMe M.2 SSD",
+   "Ram": "8GB",
+   "Ram Type": "DDR4",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050a",
+   "Graphics Memory": "4GB",
+   "Graphics Type": "GDDR6 , 2195Mhz at 65W (2145MHz Boost Clock+50MHz OC, 50W+15W Dynamic Boost\nMUX Switch + NVIDIA Advanced Optimus"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard 1-Zone RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD camera",
+   "Speaker": "2x 2W",
+   "Microphone": "Yes",
+   "Audio Features": "AI noise-canceling technology\nDTS software\nSupport Microsoft Cortana near field/Far field"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.0b",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C with support for DisplayPort / power delivery (data speed up to 10Gbps)",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1x RJ45 LAN port\n10/100/1000 Mbps",
+   "WiFi": "Wi-Fi 6(802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "Value IPS-level",
+   "Display Resolution": "Full HD+\nWUXGA (1920 x 1200)",
+   "Display Features": "16:9, Anti-glare display, NTSC%: 45%,",
+   "Refresh Rate": "144Hz",
+   "Response Time": "3ms"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "56WHrs, 4S1P"
+  },
+  "Adapter Type": {
+   "Input": "100~240V AC, 50/60Hz universal",
+   "Output": "20V DC, 7.5A, 150W"
+  },
+  "Physical Specification": {
+   "Dimension": "35.4 x 25.1 x 2.21 ~ 2.67 cm\n(13.94\" x 9.88\" x 0.87\" ~ 1.05\")",
+   "Weight": "2.20 Kg (4.85 lbs)",
+   "Color": "MECHA GRAY"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming F16 FX607VB"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 210H (12M Cache, up to 4.8 GHz)",
+  "RAM: 8GB DDR4 3200Mhz, Storage: 512GB Gen 4 SSD",
+  "Graphics: RTX 3050A 4GB GDDR6",
+  "Features: Backlit Keyboard, Type-C, 1x RJ45"
+ ],
+ "model": "TUF Gaming F16 FX607VB",
+ "warranty": "2 years Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:45+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-f16-fx607vb-core-5-210h-wuxga-gaming-laptop",
+ "store": "creatus"
+}

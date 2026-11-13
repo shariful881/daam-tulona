@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 3 100U",
+   "Processor Frequency": "up to 4.7 GHz",
+   "Processor Core": "6C (2P + 4E)",
+   "Processor Thread": "8",
+   "CPU Cache": "10MB"
+  },
+  "Memory": {
+   "Bus Speed": "2666 MHz",
+   "Ram Type": "8GB, DDR4"
+  },
+  "Storage": {
+   "Storage Type": "M.2 PCIe NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "English non-backlit keyboard"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p at 30 fps HD RGB camera",
+   "Speaker": "Yes",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1x SD card slot",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 2 Port": "1x USB 2.0 (480 Mbps)",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A (5 Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 1 (5 Gbps) Type-C",
+   "Headphone & Microphone Port": "1x 3.5mm port"
+  },
+  "Network & Connectivity": {
+   "Lan": "N/A",
+   "WiFi": "Realtek Wi-Fi 6 RTL8852BE, 2x2, 802.11ax, MU-MIMO",
+   "Bluetooth": "Bluetooth wireless card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "Free DOS"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "Anti-Glare, 250 nits",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "120Hz"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Battery (Integrated)",
+   "Battery Capacity": "41WHr",
+   "Adapter Type": "65 Watt AC adapter"
+  },
+  "Physical Specification": {
+   "Weight": "Weight (maximum): 4.19 lb (1.90 kg)",
+   "Colors": "Carbon Black",
+   "Body Material": "Plastic exterior shell"
+  },
+  "Dimensions": {
+   "Height (rear)": "0.75 in. (18.99 mm)",
+   "Height (front)": "0.67 in. (16.96 mm)",
+   "Width": "14.11 in. (358.50 mm)",
+   "Depth": "9.28 in. (235.56 mm)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "15 DC15250"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 3 100U (6 cores, up to 4.7 GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB M.2 PCIe NVMe SSD",
+  "Display: 15.6 Inch FHD, 120Hz, WVA, IPS, Anti-Glare, 250 nits",
+  "Features: Full-Size Keyboard, Type-C, Wi-Fi 6"
+ ],
+ "model": "15 DC15250",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-13T18:46+06:00",
+ "source": "https://www.creatus.com.bd/dell-15-dc15250-core-3-100u-fhd-laptop",
+ "store": "creatus"
+}

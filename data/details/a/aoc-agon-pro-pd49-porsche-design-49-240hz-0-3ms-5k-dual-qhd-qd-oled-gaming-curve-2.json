@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "49\"",
+   "Display Type": "LED",
+   "Panel Type": "QD-OLED",
+   "Resolution": "5K DUAL-QHD (5120 X 1440)",
+   "Pixel Pitch": "0.233 (H) × 0.233 (V)",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "250cd/m² (100% APL), 450 cd/m²(Typ.) (10% APL)",
+   "Contrast Ratio": "1,500,000:1 (Typical)",
+   "Refresh rate": "240Hz",
+   "Color Support": "1.073 Billion",
+   "Color Gamut": "Adobe 98% (CIE1976) / sRGB 100% (CIE1931) /",
+   "Response Time": "0.03ms (GtG)",
+   "Others Features": "Color Accuracy: Delta E < 2",
+   "Curvature": "1800R CURVED",
+   "HDR": "VESA DisplayHDR True Black 400"
+  },
+  "Video Features": {
+   "HDCP": "HDMI: 2.2 / DisplayPort: 2.2",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100mm x 100mm",
+   "Height Adjustment": "130mm",
+   "Swivel": "-20° ~ 20°",
+   "Tilt": "-5° ~ 15°"
+  },
+  "Features": {
+   "Dimension": "373.8 (H) × 1191.8 (W) × 160.7 (D) without Stand (mm)",
+   "Weight": "11.15kg without Stand"
+  },
+  "Output": {
+   "Voltage": "100 - 240V～4.5A, 50 / 60Hz"
+  },
+  "Connectivity": {
+   "Audio Jack": "Earphone × 1",
+   "Display Port": "1x DisplayPort 1.4",
+   "USB Type-C": "1x USB-C (DP Alt, 90W)",
+   "HDMI": "2x HDMI 2.1",
+   "Others": "1x RJ45"
+  },
+  "Power Specifications": {
+   "Power Consumption": "130W"
+  },
+  "Audio Features": {
+   "Speaker Details": "DTS 8W × 2",
+   "Speaker": "Speaker (Built In): Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: 5K DUAL-QHD (5120 X 1440)",
+  "Display: QD-OLED, 240Hz, 0.3ms, 1800R CURVED",
+  "Ports: 2x HDMI 2.1, 1x DisplayPort 2.2, 1x Type-C (DP Alt, 90W)",
+  "Features: AdaptiveSync, Flicker Free, 8W x 2 + DTS Speaker"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-pd49-49-gaming-curved-monitor",
+ "store": "pchouse"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Size": "16GB",
+   "Resolution": "4K at 480Hz or 8K at 165Hz with DSC3",
+   "BUS Type": "PCI Express 5.0 x16",
+   "CUDA Cores": "8960",
+   "Memory Interface": "256-bit"
+  },
+  "Core Clock": {
+   "Clock Speed": "2295 MHz",
+   "Boost Speed": "2640 MHz"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3x DisplayPort 2.1b",
+   "HDMI": "1x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "16-pin power connector"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "GeForce RTX 5070 Ti OC Plus Triple Fan"
+  }
+ },
+ "key_features": [],
+ "model": "GeForce RTX 5070 Ti OC Plus Triple Fan",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.creatus.com.bd/pny-geforce-rtx-5070-ti-oc-plus-triple-fan-graphic-card",
+ "store": "creatus"
+}

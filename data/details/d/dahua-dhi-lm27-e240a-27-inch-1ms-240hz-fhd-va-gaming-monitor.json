@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 inches",
+   "Display Type": "E-LED",
+   "Panel Type": "VA",
+   "Resolution": "FHD (1920x1080)",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "300nits(typ)",
+   "Contrast Ratio": "3000:1",
+   "Refresh rate": "240Hz",
+   "Response Time": "1ms(MPRT)",
+   "Others Features": "Tilt: -5°±2°/15°±2°"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Power": {
+   "Voltage": "DC 12V 4.5A",
+   "Power Consumption": "Consumption (Standard) MAX. 54W",
+   "Type": "Adapter"
+  },
+  "Connectivity": {
+   "Connectivity Type": "HDMI: 2x HDMI 2.1",
+   "Display Port": "2x DisplayPort 1.4"
+  },
+  "Audio Features": {
+   "Speaker Details": "Speaker (Built In): N/A"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "616×57.5×364.3mm(without stand)",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920×1080)",
+  "Display: VA, 240Hz, 1ms",
+  "Ports: 2x HDMI, 2x DP, 1x USB, 1x Audio Out",
+  "Features: No Image Blurring or Ghosting"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-dhi-lm27-e240a-27-inch-1ms-fhd-va-gaming-monitor",
+ "store": "pchouse"
+}

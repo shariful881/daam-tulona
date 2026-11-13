@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Battery Capacity": "Choose an option\n10000mAh\n20000mAh\n10000mAh\n20000mAh\nClear"
+  },
+  "Specifications": {
+   "Capacity": "10000mAh/20000mAh",
+   "Interface": "USB, Type-C",
+   "Color": "Black",
+   "Battery Capacity": "10000mAh, 20000mAh"
+  },
+  "Input": {
+   "iP": "5V 2A,9V 2A Max.",
+   "Micro": "5V 2A, 9V 2A Max.",
+   "Type-C": "5V/3A 5.5V/3A（SCP） 9V/2A Max."
+  },
+  "Output": {
+   "USB1": "4.5V 5A, 5V 4.5A, 5V 3A, 9V 2A, 12V 1.5A Max.",
+   "USB2": "4.5V 5A, 5V 4.5A, 5V 3A, 9V 2A, 12V 1.5A Max.",
+   "Type-C": "5V 3A, 9V 2A, 12V 1.5A Max.",
+   "USB1+USB2": "5V 3A Max.",
+   "USB1+Type-C": "5V 3A Max.",
+   "USB2+Type-C": "5V 3A Max."
+  }
+ },
+ "key_features": [
+  "Model: Adaman",
+  "total output power: 5V 3A Max",
+  "Energy conversion rate: ≥ 75%"
+ ],
+ "fetched": "2026-11-13T17:44+06:00",
+ "source": "https://diamu.com.bd/product/baseus-adaman-10000mah-power-bank/",
+ "store": "diamu"
+}

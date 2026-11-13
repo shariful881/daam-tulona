@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core i3-1220P Processor, 28W TDP",
+   "RAM": "2 x DDR5 SO-DIMM, Max. 16GB x 2 (12th Gen CPU)",
+   "Graphics Card": "Integrated, Intel UHD Graphics",
+   "Storage": "1 x M.2 2280 PCIe Gen4x4, supports 256GB~2TB NVMe SSD",
+   "Power Supply": "19Vdc, 4.74A, 90W Power Adapter",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6 (Gig+), Bluetooth 5.0 (Barebone SKU)\n10/100/1000/2500 Mbps, 2.5G Intel LAN"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front I/O Ports\n1 x USB 3.2 Gen2 Type-C\n2 x USB 3.2 Gen2 Type-A\n1 x Audio Jack\n1 x Kensington Lock(side)\nBack I/O\n1 x USB 3.2 Gen2 Type-C (with DP1.4 output and PD input)\n1 x USB 3.2 Gen2 Type-A\n2 x HDMI 2.1 (Up to 4K@60Hz)\n1 x Configurable Port\n1 x 2.5G RJ45 LAN\n1 x Padlock ring\n1 x DC-in"
+  },
+  "Physical Specification": {
+   "Weight": "0.75 kg",
+   "Color": "Black",
+   "Dimensions": "120 x 130 x58 mm (0.9L)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "ExpertCenter PN64"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-1220P Processor, 28W TDP",
+  "RAM: 2 x DDR5 SO-DIMM, Max. 16GB x 2 (12th Gen CPU)",
+  "Storage: 1 x M.2 2280 PCIe Gen4x4, supports 256GB~2TB NVMe SSD",
+  "Graphics: Integrated, Intel UHD Graphic"
+ ],
+ "model": "ExpertCenter PN64",
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-expertcenter-pn64-intel-core-i3-12th-gen-portable-mini-pc",
+ "store": "creatus"
+}

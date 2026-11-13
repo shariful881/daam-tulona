@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Key Features": {
+   "Continuous Power": "850Watts",
+   "Certification": "80 PLUS Gold Certification",
+   "Fan Size": "140mm"
+  },
+  "Input": {
+   "Frequency Range": "47 - 63 Hz"
+  },
+  "Output": {
+   "Modular Type": "Full-Moduler",
+   "Total Power": "850W",
+   "AC Input": "100 - 240 V",
+   "DC Output": "+3.3V@20A, +5V@20A, +12V@62.5A, +5VSB@3A"
+  },
+  "Connector": {
+   "Main Power": "1 x ATX CABLE 24-PIN (24)",
+   "CPU": "2",
+   "PCI-E": "1 x PCIe CABLE (12+4)-PIN(12+4)\n1 x PCIe CABLE 8-PIN (6+2)X2\n1 x PCIe CABLE 8-PIN (6+2)",
+   "SATA": "3 x SATA CABLE (4 SATA - (right angle))\n1 x PATA CABLE (4-PIN)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Power Output: 850Watts",
+  "Modular: Fully Modular",
+  "Form Factor: ATX 3.0",
+  "Efficiency: 80 Plus Gold"
+ ],
+ "price": 14500,
+ "regular": 15800,
+ "status": "In Stock",
+ "code": "37184",
+ "brand": "Corsair",
+ "mpn": "CP-9020252-UK, CP-9020252-EU",
+ "model": "RM850x SHIFT",
+ "warranty": "10 Years Warranty",
+ "name": "Corsair RM850x SHIFT 850W 80 PLUS Gold Fully Modular ATX Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Corsair",
+  "Corsair RM850x SHIFT 850W 80 PLUS Gold Fully Modular ATX Power Supply"
+ ],
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.startech.com.bd/corsair-rm850x-shift-850w-80-plus-gold-power-supply",
+ "store": "startech"
+}

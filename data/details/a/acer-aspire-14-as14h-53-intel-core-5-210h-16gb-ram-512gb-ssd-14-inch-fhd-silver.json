@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel® Core™ 5-210H Processor",
+   "Processor Model": "Intel® Core™ 5-210H Processor",
+   "Frequency": "2.2 GHz up to 4.8 GHz",
+   "Generation": "14th Gen"
+  },
+  "Display": {
+   "Display Size (Inch)": "14″",
+   "Display Type": "14″ FHD Ultra-slim IPS Display",
+   "Display Resolution": "1920 x 1200"
+  },
+  "Memory": {
+   "RAM": "Single-channel LPDDR5 SDRAM support\n16 GB of onboard LPDDR5 system memory",
+   "SSD": "512 GB, PCIe Gen4, NVMe, expandable up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel® Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD video, 1280 x 720 resolution",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "Yes",
+   "USB 3 Port": "3 x USB 3.0 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "No",
+   "WiFi": "802.11a/b/g/n/ac+ax wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.1 or above"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home+MSO"
+  },
+  "Battery": {
+   "Battery Type": "54 Wh Li-ion battery",
+   "Battery Capacity": "3-pin 90 W AC adapter"
+  },
+  "Others": {
+   "Color": "Pure Silver",
+   "Dimensions": "314.4 (W) x 219.8 (D) x 20.3 (H) mm",
+   "Weight": "1.44 kg",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 210H (Up to 4.8 GHz)",
+  "RAM: 16GB LPDDR5, Storage: 512GB PCIe Gen4 NVMe SSD",
+  "Display: 14″ FHD (1920 × 1200) IPS",
+  "Features: Backlit Keyboard, Type-C, Windows 11"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-14-as14h-53-intel-core-5-210h-16gb-ram-512gb-ssd-14-inch-fhd-laptop/",
+ "store": "smartbd"
+}

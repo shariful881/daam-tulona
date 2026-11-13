@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Model": "E30"
+  },
+  "Key Features": {
+   "Capacity(GB)": "2 TB",
+   "Sequential Read": "Read Speed (Max.): Up To 800MB/S",
+   "Sequential Write": "Write Speed (Max.): Up To 800MB/S",
+   "Interface Type": "USB 3.2 (Type-C)",
+   "Internal or External": "External",
+   "Form Factor": "SSD"
+  },
+  "Sequential R/W": {
+   "Read Speed (Max.)": "Up To 800MB/S",
+   "Write Speed (Max.)": "Up To 800MB/S"
+  },
+  "Physical Specifications": {
+   "Color": "Black",
+   "Dimension": "9.91mm x 46.9mm x 96.9mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 45°C",
+   "Storage Temperature": "-20°C to 85° C",
+   "Shock resistance": "up to 1500G"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 2TB",
+  "Interface: USB 3.2 Gen 2",
+  "Connector: USB Type-C",
+  "Sequential Read: Up to 800MB/s"
+ ],
+ "model": "E30",
+ "warranty": "2 Year",
+ "fetched": "2026-11-13T17:58+06:00",
+ "source": "https://www.pchouse.com.bd/sandisk-2tb-usb-3.2-gen-2-type-c-portable-ssd",
+ "store": "pchouse"
+}

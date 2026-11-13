@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Certification": "80 PLUS®Bronze",
+   "Efficiency (Approx.)": "Meet 80 PLUS®Bronze at 115Vac input.",
+   "Fan Size": "140mm Fan: 2300 R.P.M. ± 10%\n140mm Fan: 1600 R.P.M. ± 10%",
+   "MTBF": "100,000 hrs minimum",
+   "Watt": "550W",
+   "Temperature": "OPERATING TEMPERATURE:0°C to +40°C | +5°C to +40°C\nSTORAGE TEMPERATURE\t-20 °C to +70 °C | -40 °C to +55 °C",
+   "Humidity": "OPERATING HUMIDITY:20% to 90%,non-condensing | 20% to 85%,non-condensing\nSTORAGE HUMIDITY\t5% to 95%, non-condensing | 10% to 95%, non-condensing"
+  },
+  "Others": {
+   "HOLD UP TIME": "> 12msec at 80% of full load at 230Vac input",
+   "POWER GOOD SIGNAL": "100-500 msec",
+   "Safety Approval": "cTUVus/TUV/CE/FCC/S-mark/EAC/BSMI/C-TICK/CCC | CE, FCC, TUV, cTUVus, EAC, BSMI, C-TICK, CCC, S-mark",
+   "PFC (POWER FACTOR CORRECTION)": "Active PFC"
+  },
+  "Input": {
+   "Voltage": "100V-240V~",
+   "Frequency Range": "47Hz -63Hz",
+   "Current": "8A max. | 5 – 10A"
+  },
+  "Output": {
+   "Modular Type": "Semi Modular",
+   "Total Power": "550W",
+   "Peak Power": "Peak Output Capacity 660W",
+   "DC Output": "Max Output Capacity 550W"
+  },
+  "Connector": {
+   "PCI-E": "PCI-E 6+2PIN:2"
+  },
+  "Physical Specification": {
+   "Weight": "1.120000",
+   "Dimensions": "160.02*86.102*150.144"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Burn Warranty (With BurnCase)"
+  },
+  "Image": {
+   "Model": "BM2 550W"
+  }
+ },
+ "key_features": [],
+ "model": "BM2 550W",
+ "warranty": "5 Years Burn Warranty (With BurnCase)",
+ "fetched": "2026-11-13T18:27+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-bm2-550w-80-plus-bronze-semi-modular-power-supply",
+ "store": "creatus"
+}

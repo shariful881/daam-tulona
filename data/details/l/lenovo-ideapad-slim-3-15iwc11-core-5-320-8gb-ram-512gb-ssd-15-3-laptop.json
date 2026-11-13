@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core 5 320",
+   "Processor Frequency": "1.5 GHz Base, Up to 4.6 GHz",
+   "Generation": "Intel Core Series 3",
+   "Processor Core": "6 Cores",
+   "Processor Thread": "6 Threads",
+   "CPU Cache": "6MB Intel Smart Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.3 Inch",
+   "Display Type": "IPS LCD",
+   "Display Resolution": "1920 × 1200",
+   "Display Features": "Anti-Glare, 16:10 Aspect Ratio",
+   "Refresh Rate": "60Hz",
+   "Brightness": "400 nits"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5-5600",
+   "Removable": "Yes",
+   "Bus Speed": "5600 MHz",
+   "Total RAM Slot": "1 × SO-DIMM",
+   "Max RAM Capacity": "Up to 32GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0 NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "No",
+   "Supported SSD Type": "M.2 2242 PCIe 4.0 ×4 NVMe",
+   "Storage Upgrade": "Up to 1TB supported"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Shared"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size Keyboard with Numeric Keypad",
+   "TouchPad": "Multi-Touch Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "WebCam": "5MP / FHD 1080p + IR / HD 720p",
+   "Speaker": "Stereo Speakers, 2W × 2",
+   "Microphone": "Dual-Microphone Array",
+   "Audio Features": "Dolby Audio"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6 or Wi-Fi 7",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Ports & Slots": {
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1 × HDMI 1.4",
+   "USB 3 Port": "2 × USB-A (USB 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 × USB-C (USB 5Gbps, DisplayPort 1.2, USB Power Delivery)",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Jack"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11"
+  },
+  "Physical Specification": {
+   "Dimensions": "343.4 × 239.5 × 16.9–18.9 mm",
+   "Weight": "1.59 kg",
+   "Body Material": "PC-ABS"
+  },
+  "Power": {
+   "Battery Type": "Rechargeable Lithium-Ion",
+   "Battery Capacity": "60Wh",
+   "Adapter Type": "65W Round-Tip AC Adapter"
+  },
+  "Other Features": {
+   "Other Features": "Intel Integrated Graphics, Intel AI NPU up to 16 TOPS, Copilot Key, MIL-STD-810H Tested"
+  },
+  "Warranty Details": {
+   "Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 320, Up to 4.6 GHz, Up to 16 TOPS",
+  "Memory: 8GB DDR5 RAM, 512GB M.2 SSD",
+  "Graphics: Integrated Intel Graphics",
+  "Display: 15.3\" WUXGA IPS Anti-glare, 400 nits"
+ ],
+ "warranty": "2 Years Warranty",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-ideapad-slim-3-15iwc11-core-5-320-8gb-512gb-ssd",
+ "store": "pchouse"
+}

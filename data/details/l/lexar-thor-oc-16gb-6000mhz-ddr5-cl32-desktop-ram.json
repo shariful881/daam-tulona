@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Operating voltage": "1.35V",
+   "Operating Temperature": "0°C to 85°C (Surface)",
+   "Storage Temperature": "-55°C to 100°C",
+   "Latency": "CL32-38-38-76"
+  },
+  "Memory": {
+   "Bus Speed": "6000MHz",
+   "Size": "16GB",
+   "Type": "DDR5"
+  },
+  "Physical Specification": {
+   "Pin": "288 Pin",
+   "Dimensions": "138.3 x 40.8 x 7.6 mm (with heat spreader)",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime Warranty"
+  },
+  "Image": {
+   "Model": "THOR OC 16GB"
+  }
+ },
+ "key_features": [
+  "Capacity: 32 GB (2 x 16GB)",
+  "Memory Type: DDR5",
+  "Latency: CL32-38-38-76",
+  "Speed: 6000MHz"
+ ],
+ "model": "THOR OC 16GB",
+ "warranty": "Limited Lifetime Warranty",
+ "fetched": "2026-11-13T18:05+06:00",
+ "source": "https://www.creatus.com.bd/lexar-thor-oc-16gb-desktop-ram",
+ "store": "creatus"
+}

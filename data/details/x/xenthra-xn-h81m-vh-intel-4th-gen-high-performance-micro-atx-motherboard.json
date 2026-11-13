@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Connectors": "24-Pin Main ATX Power, 4-Pin 12V CPU Power"
+  },
+  "Basic Information": {
+   "Supported CPU": "Intel 4th Generation Core i7 / i5 / i3, Pentium, Celeron, and Xeon E3-1200 v3 series",
+   "Chipset": "Intel B85 Express Chipset",
+   "BIOS": "UEFI BIOS",
+   "Form Factor": "Micro-ATX (190 mm x 170 mm)",
+   "Audio": "Realtek High-Definition Audio Codec, 3x 3.5mm Audio Jacks"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe 2.0 x16, 1x PCIe 2.0 x1",
+   "M.2 Socket": "1x M.2 Slot, Supports NVMe PCIe 2.0 x4 & SATA 3.0 NGFF"
+  },
+  "Memory": {
+   "Slots": "2x DDR3 DIMM Slots, 1x PCIe 2.0 x16, 1x PCIe 2.0 x1, 1x M.2 Slot, 1x M.2 Wi-Fi / WLAN Slot",
+   "Supported Memory": "DDR3 1600 MHz / 1333 MHz / 1066 MHz, Dual-Channel",
+   "Maximum Memory": "Up to 16 GB (8 GB per slot)"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Support via compatible CPU"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI Port",
+   "Display Port (s)": "1x HDMI, 1x VGA (D-Sub)",
+   "USB (s)": "2x USB 3.0, 4x USB 2.0",
+   "Front USB": "Expandable to 4 additional front USB 2.0 ports",
+   "LAN Port (s)": "1x RJ45 Gigabit LAN",
+   "Wireless Communication module": "M.2 Wi-Fi / WLAN Module Supported",
+   "Supported Storage": "1x SATA 3.0 (6 Gbps), 2x SATA 2.0 (3 Gbps), 1x M.2 NVMe PCIe 2.0 x4 & SATA 3.0 NGFF",
+   "RAID": "Not Specified",
+   "Audio": "Realtek High-Definition Audio Codec",
+   "Internal I/O Ports": "2x FUSB 2.0 Headers\n1x 4-Pin CPU Fan Header\n1x 3-Pin SYS Fan Header\n1x 14-Pin TPM 2.0 Port\n1x Diagnostic Card Interface\n1x JCMOS\n1x FPANEL\n1x Front Audio Header"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Supported via M.2 Wi-Fi / WLAN Slot"
+  },
+  "Others": {
+   "Special Features": "4-Layer PCB, Dual-Channel DDR3, M.2 Storage Support, TPM 2.0 Header",
+   "Bundled Software": "Not Specified"
+  },
+  "Warranty Information": {
+   "Warranty": "As per the manufacturer/seller warranty policy"
+  }
+ },
+ "key_features": [],
+ "warranty": "As per the manufacturer/seller warranty policy",
+ "fetched": "2026-11-13T18:41+06:00",
+ "source": "https://www.creatus.com.bd/xenthra-xn-h81m-vh-intel-4th-gen-micro-atx-motherboard",
+ "store": "creatus"
+}

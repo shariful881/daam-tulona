@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Television": {
+   "RAM": "1GB",
+   "Storage": "8 GB",
+   "Screen Size": "1.016m\n40 Inch",
+   "Display Type": "DLED",
+   "Supported Graphics": "GPU Multi Core Mali\nGPU Frequency 470 MHz",
+   "Audio Features": "Music: MP3; WAV\nSound Effect Stereo, Surround Sound\nSpeaker Position Bottom\nSound System BG/ DK/ I / MN",
+   "Response Time": "9.5 M/S (Typical)",
+   "Built-In Speaker(S)": "2 X 10W",
+   "Resolution": "1920 X 1080",
+   "Technology": "Receive Channel 200\nBluetooth Version 2.1\nHDMI (CEC,ARC) Yes\nScreen Mirroring Chrome Cast\nGoogle Voice Assistant Yes",
+   "Contrast": "5000:1 (Typical)",
+   "Brightness": "5000:1 (Typical)",
+   "Viewing Angle": "H 178° / V 178°",
+   "Dimensions": "Net Size With Stand (Mm) (L×W×H) 904 Mm X 182 Mm X 572 Mm\nNet Size Without Stand (Mm) (L×W×H) 904 Mm X 69 Mm X 515 Mm\nTV Shipping Dimension (Mm) (L×W×H) 975 Mm X 150 Mm X 615 Mm",
+   "Weight": "Net Weight With Stand(Kg); Tolerance (±0.2 Kg) 6.26\nNet Weight Without Stand (Kg) ; Tolerance (±0.2 Kg) 6.18\nShipping Weight(Kg) ; Tolerance (±0.5 Kg) 9.04",
+   "Aspect Ratio": "4:3, 14:9, 16:9, Auto",
+   "Connectivity": "Bottom Terminals:\nRJ45 (LAN Port) 1\nCOAX Out 1\nHDMI In 3\nAV In 1\nAUDIO Out ( 3.5 Mm) 1\nSide Terminals:\nRF In 1\nUSB 2.0 2\nMini YPbYr 1",
+   "Power": "Power Supply 100V - 240V\nStandby Power Consumption <0.5 W\nMaximum Power Consumption 75 W",
+   "Operating System": "Android 9.0 (Android TV)",
+   "Other": "YouTube Yes\nNetflix Yes\nBongowal Yes\nAmazon Prime Yes\nGoogle Play Store Yes",
+   "Warranty": "5 Years"
+  },
+  "Video Features": {
+   "Picture": "JPG/JPEG/BMP/PNG",
+   "Video": "AVI; MP4; TS/TRP; MPG; MOV; DAT; VOB; RM/RMVB",
+   "Text": "TXT",
+   "Subtitle": "SRT; .SUB; .SMI"
+  },
+  "Processor": {
+   "CPU": "Quad Core ARM Cortex",
+   "CPU Frequency": "1.1 GHz"
+  }
+ },
+ "key_features": [],
+ "warranty": "5 Years",
+ "fetched": "2026-11-13T17:50+06:00",
+ "source": "https://www.creatus.com.bd/walton-wd-rs40g-40-inch-fhd-android-tv",
+ "store": "creatus"
+}

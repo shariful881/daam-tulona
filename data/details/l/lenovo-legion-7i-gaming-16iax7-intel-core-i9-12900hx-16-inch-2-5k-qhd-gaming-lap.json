@@ -1,0 +1,80 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Frequency": "2.30GHz",
+   "Processor Core": "16",
+   "Processor Thread": "24",
+   "CPU Cache": "30MB",
+   "Processor Model": "Core i9 12900HX"
+  },
+  "BASIC Information": {
+   "Battery": "Battery Capacity: 99.99Wh",
+   "Graphics": "Graphics Memory: 16GB",
+   "Storage": "1TB SSD",
+   "Audio": "High Definition (HD) Audio, Realtek ALC3306 codec"
+  },
+  "Display": {
+   "Display Resolution": "2560x1600",
+   "Display Size": "16 Inch",
+   "Display Type": "2.5K QHD WQXGA Display"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "300W",
+   "Max RAM Capacity": "32GB"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "Yes",
+   "Bluetooth": "Bluetooth 5.1",
+   "WiFi": "Intel Killer Wi-Fi 6E AX1675i, 11ax 2x2"
+  },
+  "Memory": {
+   "RAM": "32GB",
+   "RAM Type": "DDR5"
+  },
+  "Graphics": {
+   "Graphics Model": "Nvidia RTX 3080 Ti Graphics",
+   "Graphics Type": "GDDR6"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "358.1 x 263.5 x 19.4mm",
+   "Color": "Storm Grey-Black",
+   "Weight": "2.53 kg"
+  },
+  "Camera & Audio": {
+   "Microphone": "Yes",
+   "Speaker": "Yes",
+   "WebCam": "FHD Camera"
+  },
+  "Display Features": {
+   "Display Features": "500nits Anti-glare, 100% sRGB, 165Hz, DisplayHDR 400, Dolby Vision, G-SYNC, Low Blue Light, High Gaming Performance",
+   "Touch Screen": "No"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "Combo",
+   "Optical Drive": "No",
+   "USB 3 Port": "2 x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "2 x USB-C 3.2, 2 x Thunderbolt 4",
+   "VGA/D-Sub": "No",
+   "HDMI Port": "1",
+   "Micro HDMI Port": "No"
+  },
+  "Storage": {
+   "HDD RPM": "No HDD",
+   "Storage Upgrade": "Additional SSD Can be added"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year (Battery, Adapter 1 year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i9-12900HX (E-P, 3.6- 5.0GHz, 16C, 24T,30M)",
+  "RAM: 16GB DDR5 4800MHz, Storage: 1TB SSD",
+  "GPU: NVIDIA GeForce RTX 3080Ti 16GB GDDR6",
+  "Features: Backlit Keyboard, High Definition (HD) Audio"
+ ],
+ "warranty": "2 year (Battery, Adapter 1 year)",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-legion-7i-gaming-16iax7-intel-core-i9-12900hx-16-inch-25k-qhd-gaming-laptop",
+ "store": "pchouse"
+}

@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 10th Gen Intel Core Processors, 11th Gen Intel Core Processors, Pentium Gold and Celeron Processors for LGA 1200 Socket",
+   "Chipset": "INTEL H510",
+   "Form Factor": "mATX\n202mmx236mm",
+   "Audio": "Realtek ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "General Information": {
+   "Memory Type": "DDR4"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 3.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)",
+   "M.2 Socket": "1x M.2"
+  },
+  "Memory": {
+   "Slots": "2",
+   "Supported Memory": "Memory Support 2933/ 2666/ 2400/ 2133 MHz\nSupports 1R 2133/ 2666/ 2933 MHz for Intel Core i9/ Core i7 CPU\nSupports 1R 2133/ 2666 MHz for Intel Core i5/ Core i3/ Pentium Gold and Celeron CPU\nSupports Dual-Channel mode\nSupports non-ECC, un-buffered memory\nSupports Intel Extreme Memory Profile (XMP)",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMI 1.4, maximum resolution of 4K 30Hz\n1x VGA\nSupport VGA, maximum resolution of 2048x1536 50Hz, 1920x1200 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x VGA",
+   "USB (s)": "4x USB 2.0 (Rear)\n4x USB 2.0 (Front)\n2x USB 5Gbps Type A (Rear)\n2x USB 5Gbps Type A (Front)",
+   "LAN Port (s)": "Realtek 8111H Gigabit LAN",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)",
+   "Internal I/O Ports": "1x Power Connector(ATX_PWR)\n1x Power Connector(CPU_PWR)\n1x CPU Fan\n2x System Fan\n2x Front Panel (JFP)\n1x Chassis Intrusion (JCI)\n1x Front Audio (JAUD)\n1x Com Port (JCOM)\n1x RGB LED connector(JRGB)\n1x TPM pin header(Support TPM 2.0)\n4x USB 2.0 ports\n2x USB 5Gbps Type A ports"
+  },
+  "Others": {
+   "Special Features": "4x EZ Debug LED"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "H510M PLUS II"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 11th 10th/11th Gen Intel processors for LGA 1200",
+  "Supported RAM: 2x DDR4, Max 2933 MHz, Up to 64GB",
+  "Graphics Output: 1x HDMI, 1x VGA",
+  "Features: 1x M.2, Realtek 8111H Gigabit LAN"
+ ],
+ "model": "H510M PLUS II",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://www.creatus.com.bd/msi-h510m-plus-ii-10th11th-gen-matx-motherboard",
+ "store": "creatus"
+}

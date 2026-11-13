@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Type": "Intel, Ryzen"
+  },
+  "Key Features": {
+   "Fan Speed": "Up to 1000RPM, 1001RPM to 2000RPM"
+  },
+  "General Information": {
+   "Cooler Size": "120mm",
+   "Cooler Type": "Air Cooler",
+   "Socket": "AM4, LGA775, LGA1150, LGA1151, LGA1155, LGA1156, LGA1200, FM1, FM2, AM3, AM2, AM2+, AM3+",
+   "Special Features": "ARGB"
+  },
+  "Image": {
+   "Model": "Model-5422"
+  }
+ },
+ "key_features": [
+  "Dimension : 127 X 76 X 153.5 Mm ( L X W X H)",
+  "Heatsink Material : Aluminum Fins | Copper Heatpipes",
+  "Dimension : 120 X 120 X 25 Mm ( L X W X H)",
+  "Speed : Pwm 300 ~ 1500 Rpm",
+  "Rated Voltage : 12v",
+  "Start Voltage : 6.0 V",
+  "Rated Current : 0.48 a",
+  "Power Input : 5.76 W",
+  "Air Flow : 43.34 Cfm",
+  "Air Pressure : 1.18 Mm-h2o",
+  "Acoustical Noise : 26.33 Dba",
+  "Life Time/fan Life Time : 30,000 Hours"
+ ],
+ "model": "Model-5422",
+ "fetched": "2026-11-13T18:28+06:00",
+ "source": "https://www.creatus.com.bd/thermaltake-ux200-argb-lighting-cpu-cooler",
+ "store": "creatus"
+}

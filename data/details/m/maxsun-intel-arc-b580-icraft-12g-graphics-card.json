@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12GB",
+   "Resolution": "7680×4320",
+   "BUS Type": "192 bit",
+   "Memory Interface": "PCI Express Gen 4",
+   "Others": "ARGB lighting for customizable, vibrant visuals\nXe-cores: 20"
+  },
+  "Core Clock": {
+   "Boost mode": "2850 MHz",
+   "Default mode": "2670 MHz"
+  },
+  "Interface": {
+   "Display Port": "3x DisplayPort 2.1",
+   "HDMI": "1x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "8 Pin ATX 12V",
+   "Consumption": "190W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "315 x 128 x 44 mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years Warranty"
+  }
+ },
+ "key_features": [
+  "Base Clock: 2670 MHz, Boost Clock: 2850 MHz",
+  "Memory Size: 12GB, Bandwidth: 456 GB/s",
+  "Xe-cores: 20, Memory Interface: 192-bit",
+  "Output: 1x HDMI, 3x DisplayPort"
+ ],
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-13T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/maxsun-intel-arc-b580-icraft-12g-graphics-card",
+ "store": "pchouse"
+}

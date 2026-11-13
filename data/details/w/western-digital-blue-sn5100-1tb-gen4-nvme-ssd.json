@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Write Speed": "6700MB/s",
+   "Read Speed": "7100MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C to 85°C"
+  },
+  "Physical Specification": {
+   "Weight": "5.7gms",
+   "Dimensions": "80mm x 22mm x 2.38mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Limited Warranty"
+  },
+  "Image": {
+   "Model": "SN5100"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Form Factor: M.2 2280",
+  "Sequential Read: 7100MB/s",
+  "Sequential Write: 6700MB/s"
+ ],
+ "model": "SN5100",
+ "warranty": "3-Year Limited Warranty",
+ "fetched": "2026-11-13T18:39+06:00",
+ "source": "https://www.creatus.com.bd/western-digital-blue-sn5100-1tb-gen4-nvme-ssd",
+ "store": "creatus"
+}

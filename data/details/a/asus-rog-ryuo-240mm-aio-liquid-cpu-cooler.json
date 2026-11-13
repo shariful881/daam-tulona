@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one liquid CPU cooler",
+   "Fan Airflow": "70.07 CFM",
+   "Noise": "36.45 dB(A)",
+   "Air Pressure": "3.88 mmH2O"
+  },
+  "Fan Speed": {
+   "Pump": "800 - 2,600 +/- 300 RPM",
+   "Fan": "2200 +/- 300 RPM"
+  },
+  "Material": {
+   "Radiator Material": "Aluminum",
+   "Tube": "Sleeved Rubber tube"
+  },
+  "Dimension": {
+   "Water block dimension": "89 x 89 x 68.3 mm",
+   "Radiator Dimension": "279.5 x 120 x 30 mm",
+   "Fan Dimension": "120 x 120 x 25 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700, 1200, 115x",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "06-years Warranty"
+  }
+ },
+ "key_features": [
+  "Connector: 4 PIN PWM",
+  "Noise Level: 36.45 dB(A)",
+  "Air Flow: 70.07 CFM (MAX)",
+  "Fan Speed: 2200 +/- 300 RPM"
+ ],
+ "warranty": "06-years Warranty",
+ "fetched": "2026-11-13T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-ryuo-240-cpu-cooler",
+ "store": "pchouse"
+}

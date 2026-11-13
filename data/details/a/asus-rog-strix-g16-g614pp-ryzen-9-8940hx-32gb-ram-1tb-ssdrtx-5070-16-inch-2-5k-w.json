@@ -1,0 +1,105 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "Ryzen 8000 Series",
+   "Processor Frequency": "Up to 5.3GHz",
+   "Processor Core": "16 Cores",
+   "Processor Thread": "32 Threads",
+   "CPU Cache": "80MB Cache"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "Up to 64GB",
+   "Ram": "32GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 x SO-DIMM Slots",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "Supports 512GB / 1TB / 2TB PCIe Gen4 SSD",
+   "Supported SSD Type": "2 x PCIe 4.0 NVMe M.2 SSD",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5070 Laptop GPU",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR7"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "4-Zone RGB Backlit Keyboard with Copilot Key",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080P Full HD Camera",
+   "Speaker": "2-Speaker System with Smart Amplifier Technology",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "Dolby Atmos, Smart Amplifier Technology, Hi-Res Audio Certification, AI Noise-Canceling Technology"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Display Port": "DisplayPort via USB4 Type-C",
+   "Card Reader": "N/A",
+   "HDMI Port": "1 x HDMI 2.1 FRL",
+   "USB 2 Port": "N/A",
+   "USB 3 Port": "2 x USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "2 x USB4 Type-C with DisplayPort, G-SYNC, Power Delivery (40Gbps)",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45 LAN Port",
+   "WiFi": "1 x 3.5mm Combo Audio Jack",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "N/A",
+   "Fingerprint Sensor": "No",
+   "Camera Privacy Shutter": "N/A",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "IPS ROG Nebula Display",
+   "Display Resolution": "2.5K (2560 x 1600, WQXGA)",
+   "Display Features": "16:10 Aspect Ratio, Anti-Glare, G-SYNC, Adaptive Sync, Pantone Validated, Dolby Vision HDR, 500 nits Brightness, 100% DCI-P3",
+   "Touch Screen": "No",
+   "Refresh Rate": "240Hz",
+   "Brightness": "500 nits",
+   "Response Time": "3ms"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "90Wh (90WHrs, 4S1P)",
+   "Adapter Type": "280W AC Adapter",
+   "Backup Time (Approx)": "Up to 6 Hours (Depending on Usage)"
+  },
+  "Physical Specification": {
+   "Weight": "2.50 kg",
+   "Dimensions": "35.4 x 26.4 x 2.26 ~ 3.04 cm",
+   "Colors": "Eclipse Gray",
+   "Body Material": "Aluminum Top Cover, Texture Plastic LCD Cover & Bottom Case"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year International Warranty (Battery: 1 Year)"
+  },
+  "Image": {
+   "Model": "ROG Strix G16 G614PP"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 9 8940HX (80MB Cache, Up to 5.3GHz)",
+  "RAM: 32GB DDR5, Storage: 1TB PCIe 4.0 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 5070 8GB GDDR7",
+  "Features: RGB Backlit Keyboard, Type-C, Wi-Fi 6E, 240Hz Refresh Rate"
+ ],
+ "model": "ROG Strix G16 G614PP",
+ "warranty": "2-Year International Warranty (Battery: 1 Year)",
+ "fetched": "2026-11-13T17:42+06:00",
+ "source": "https://www.creatus.com.bd/asus-rog-strix-g16-g614pp-32gb-rtx-5070-laptop",
+ "store": "creatus"
+}

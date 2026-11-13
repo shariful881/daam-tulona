@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Flash Type": "3D NAND flash"
+  },
+  "Interface": {
+   "USB Type": "USB Type C to USB Type A/USB Type C to USB Type C",
+   "Connection Interface": "USB 3.1 Gen 2"
+  },
+  "Sequential R/W": {
+   "Read Speed (Max.)": "up to 1050 MB/s",
+   "Write Speed (Max.)": "up to 950 MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "81.4 mm x 33.6 mm x 7.5 mm (3.21\" x 1.32\" x 0.3\")",
+   "Weight": "31 g (1.1 oz)"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C (32°F) ~ 60°C (140°F)",
+   "Shock resistance": "Yes"
+  },
+  "Warranty": {
+   "Warranty": "5 year"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "Interface: USB Type C",
+  "Read Speed: Up to 1050 MB/s",
+  "Write Speed: Up to 950 MB/s"
+ ],
+ "warranty": "5 year",
+ "fetched": "2026-11-13T18:04+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-esd265c-2tb-portable-ssd",
+ "store": "pchouse"
+}

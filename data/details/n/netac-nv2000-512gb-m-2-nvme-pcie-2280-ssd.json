@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen3×4",
+   "Flash Type": "3D NAND Flash",
+   "TBW": "300"
+  },
+  "Sequential R/W": {
+   "Seq. Read Speed": "Up to 2500MB/s",
+   "Seq. Write Speed": "Up to 1950MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃-70℃",
+   "Storage Temperature": "-40℃-85℃"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimensions": "22 x 80 x 1.9 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "NV2000"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: PCIe Gen3×4",
+  "Seq. Read Speed: Up to 2500MB/s",
+  "Seq. Write Speed: Up to 1950MB/s"
+ ],
+ "model": "NV2000",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:11+06:00",
+ "source": "https://www.creatus.com.bd/netac-nv2000-512gb-m-2-nvme-pcie-2280-ssd",
+ "store": "creatus"
+}

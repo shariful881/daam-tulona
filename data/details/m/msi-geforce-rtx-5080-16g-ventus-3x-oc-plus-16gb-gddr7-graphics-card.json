@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Memory Clock": "30 Gbps",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "256-bit"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2655 MHz (MSI Center)",
+   "Boost": "2640 MHz"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "850W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate (12_2)",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "357 x 151 x 66 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "RTX 5080 16G VENTUS 3X OC PLUS"
+  }
+ },
+ "key_features": [],
+ "model": "RTX 5080 16G VENTUS 3X OC PLUS",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.creatus.com.bd/msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-graphics-cards",
+ "store": "creatus"
+}

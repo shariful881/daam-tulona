@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 inch",
+   "Display Type": "LED backlight",
+   "Panel Type": "IPS",
+   "Resolution": "QHD (2560x1440)",
+   "Display Surface": "Anti-Glare",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178°/178°",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "165 Hz",
+   "Color Support": "1.07 billion colors",
+   "Color Gamut": "95% P3",
+   "Response Time": "1ms MPRT\n2ms (GTG)",
+   "Others Features": "Gamma: 1.8 - 2.6\nCertification:\nTUV Certificate\nFlicker-free\nLow Blue Light"
+  },
+  "Brightness": {
+   "Brightness (typ.)": "250 nits",
+   "Brightness (peak)(HDR)": "400 nits"
+  },
+  "Video Features": {
+   "Color Temperature Selection": "Bluish, Normal, Reddish, User Define",
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "Free Sync Support": "Yes"
+  },
+  "Power": {
+   "Voltage": "100 - 240V",
+   "Power Consumption": "Power Consumption (normal): 29 W"
+  },
+  "Connectivity": {
+   "Display Port": "1x DisplayPort1.4",
+   "USB Port(s)": "2xUSB 3.0\n1 x USB Type B"
+  },
+  "Audio Features": {
+   "Speaker Details": "Speaker (Built In)"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "Dimensions (HxWxD) (mm)",
+   "Color": "Black",
+   "Weight": "Net Weight (kg)"
+  },
+  "Warranty Information": {
+   "Warranty": "3-years"
+  }
+ },
+ "key_features": [
+  "Resolution: QHD (2560x1440)",
+  "Display: 27\", IPS, 165Hz, 1ms (MPRT)",
+  "Ports: 2xHDMI2.0, 1x DisplayPort1.4, 2xUSB 3.2",
+  "Features: In-built Speaker, Flicker-free, Low Blue Light"
+ ],
+ "warranty": "3-years",
+ "fetched": "2026-11-13T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/benq-mobiuz-ex2710q-27-inch-gaming-monitor",
+ "store": "pchouse"
+}

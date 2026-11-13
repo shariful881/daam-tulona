@@ -1,0 +1,17 @@
+{
+ "specs": {
+  "Specification": {
+   "Storage Type": "M.2 2280 PCIe Gen3x4 NVMe 1.3 Internal SSD",
+   "Capacity": "500GB",
+   "Connection Type": "PCIe Gen3x4, NVMe 1.3",
+   "Compatibility": "PCIe Gen3 / Gen2 / Gen1",
+   "Dimensions": "80.00 × 22.00 × 2.15 mm",
+   "Speed": "Read: Up to 2,200MB/s | Write: Up to 1,150MB/s",
+   "Other Features": "Phison E13T Controller, 3D NAND Flash, 4K Random Read/Write: Up to 215K/330K IOPS, TRIM, SMART, LDPC ECC, End-to-End Data Path Protection, APST, AES256/TCG OPAL 2.0/Pyrite Encryption, MTBF Up to 1,500,000 Hours, Operating Temperature: 0°C to 70°C"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.applegadgetsbd.com/product/msi-spatium-m371-ssd",
+ "store": "applegadgets"
+}

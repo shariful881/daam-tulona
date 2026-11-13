@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "General Information": {
+   "Engine Clock": "Engine Clock(OC)\nup to 2740MHz(Game)¹\nup to 3310MHz(Boost)²\nEngine Clock(STD/Silent)\nup to 2620MHz(Game)¹\nup to 3230MHz(Boost)²",
+   "Memory Bus (Bit)": "128-bit",
+   "Memory Size": "16GB",
+   "MEMORY SPEED": "20.0 Gbps",
+   "Memory Type": "GDDR6",
+   "Power Connector (Pin)": "One 8-pin PCI Express Power connector",
+   "Stream Processors": "2048 Units"
+  },
+  "Video Memory Specifications": {
+   "Resolution": "DisplayPort - 7680×4320\nHDMI - 7680×4320",
+   "BUS Type": "PCIE 5.0 x16"
+  },
+  "Power Specifications": {
+   "Connectors": "Standard Display Connector - 1 x HDMI 2.1b，2 x DisplayPort 2.1a",
+   "Recommended PSU": "550W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "310mm*100mm*40mm\n330mm*120mm*40mm(with bracket)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "RX9060XT 16G-L/OC/WHITE"
+  }
+ },
+ "key_features": [
+  "High Boost Clock: Achieves up to 3310 MHz in OC mode, ensuring smooth and responsive performance for demanding applications.",
+  "Triple-Ring Fan Design: Features a unique triple-ring fan setup for efficient airflow and effective heat dissipation.",
+  "Honeywell PTM7950 Thermal Pads: Incorporates high-thermal conductivity pads to improve heat transfer and maintain optimal temperatures.",
+  "Reinforced Metal Backplate: Provides structural support to prevent PCB deformation and enhances durability.",
+  "Single 8-Pin PCIe Power Connector: Requires a 550W minimum power supply, ensuring efficient power delivery.",
+  "Glacier White LED Lighting: Features elegant white LED lighting that adds a sleek and modern look to your PC build."
+ ],
+ "model": "RX9060XT 16G-L/OC/WHITE",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.creatus.com.bd/powercolor-rx9060xt-16g-locwhite-amd-radeon-rx-9060-xt-16gb-white-graphics-card",
+ "store": "creatus"
+}

@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥ 92% @ Typical Load",
+   "Certification": "80 Plus Platinum",
+   "Fan Size": "135mm",
+   "Others": "Active PFC\nFan Speed: 2400±10% RPM\nMTBF: >100,000 Hours\nProtections: OPP/ OVP/ OTP/ OCP/ SCP/ UVP/ Surge & Inrush Protection"
+  },
+  "Input": {
+   "Voltage": "100-240V",
+   "Frequency Range": "50-60Hz",
+   "Current": "16-8A"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "1600W"
+  },
+  "Connector": {
+   "Main Power": "1x ATX 24 Pin",
+   "CPU": "1x CPU 4+4 Pin\n1x CPU 8-pin",
+   "PCI-E": "5x PCI-e 6+2 Pin",
+   "SATA": "16",
+   "Molex": "4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "12 years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 1600W, Efficiency: 80 Plus Platinum",
+  "Ultra-Quiet Mobius Fan, Fully Modular",
+  "ATX 3.1 Ready, Advanced Heat Dissipation",
+  "Two Durable 90° 12v-2x6 Cables"
+ ],
+ "price": 51000,
+ "regular": 56100,
+ "status": "In Stock",
+ "code": "50157",
+ "brand": "Cooler Master",
+ "mpn": "MPZ-G002-AFAP-BUK",
+ "model": "V Platinum 1600 V2",
+ "warranty": "12 years",
+ "name": "Cooler Master V Platinum 1600 V2 1600W 80 Plus Platinum Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Cooler Master",
+  "Cooler Master V Platinum 1600 V2 1600W 80 Plus Platinum Power Supply"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-v-platinum-1600-v2-power-supply",
+ "store": "startech"
+}

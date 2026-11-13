@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000 Series Processors",
+   "Chipset": "AMD X870E",
+   "BIOS": "256Mb AMI UEFI Legal BIOS with GUI support",
+   "Form Factor": "ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm\n8 Layer PCB\n2oz Copper PCB",
+   "Audio": "7.1 CH HD Audio with Content Protection (Realtek ALC4082 Audio Codec)"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU:\n- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n- 1 x PCIe 3.0 x1 Slot (PCIE2), supports x1 mode*\n- 1 x PCIe 3.0 x16 Slot (PCIE3), supports x2 mode*\n- 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module",
+   "M.2 Socket": "CPU:\n- 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280 PCIe Gen5x4 (128 Gb/s) mode\nChipset:\n- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x Hyper M.2 Socket (M2_4, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x M.2 Socket (M2_5, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x2 (16 Gb/s) modes\n- 2 x SATA3 6.0 Gb/s Connectors\nASMedia ASM1061:\n- 2 x SATA3 6.0 Gb/s Connectors"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR5 Memory Technology",
+   "Slots": "4 x DDR5 DIMM Slots",
+   "Supported Memory": "Supports DDR5 ECC/non-ECC, un-buffered memory up to 8200+(OC)\nSupports Extreme Memory Profile (XMP) and EXTended Profiles for Overclocking (EXPO) memory modules",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated AMD RDNA graphics (Actual support may vary by CPU)\n- 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR, HDCP 2.3 and max. resolution up to 4K 120Hz\n- 2 x USB4, support HDCP 2.3 and max. resolution up to 8K 30Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI 2.1",
+   "USB (s)": "CPU:\n- 2 x USB4 Type-C (Rear)\n- 2 x USB 3.2 Gen2 Type-A (Rear (USB32_1 and USB32_7))\nChipset:\n- 1 x USB 3.2 Gen2x2 Type-C (Front)\n- 3 x USB 3.2 Gen2 Type-A (Rear (USB32_2 and USB32_56))\n- 7 x USB 3.2 Gen1 Type-A (3 Rear, 4 Front)\n- 6 x USB 2.0 (2 Rear, 4 Front)",
+   "LAN Port (s)": "- 5 Gigabit LAN 10/100/1000/2500/5000 Mb/s\n- Realtek RTL8126",
+   "Wireless Communication module": "- 802.11be 2x2 Wi-Fi 7 Module\n- Supports IEEE 802.11a/b/g/n/ac/ax/axe/be\n- Supports 2.4GHz/5GHz/6GHz* frequency band\n- Supports 160MHz channel bandwidth with 6GHz* frequency band\n- 1 antenna to support 2 (Transmit) x 2 (Receive) diversity technology\n- Supports Bluetooth 5.4\n- Supports MU-MIMO",
+   "Supported Storage": "CPU:\n- 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280 PCIe Gen5x4 (128 Gb/s) mode\nChipset:\n- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x Hyper M.2 Socket (M2_4, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode\n- 1 x M.2 Socket (M2_5, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x2 (16 Gb/s) modes\n- 2 x SATA3 6.0 Gb/s Connectors\nASMedia ASM1061:\n- 2 x SATA3 6.0 Gb/s Connectors",
+   "RAID": "- Supports RAID 0 and RAID 1 for SATA storage devices\n- Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices",
+   "Audio": "1 x Front Panel Audio Connector (15μ Gold Audio Connector)",
+   "Internal I/O Ports": "Rear Panel I/O:\n- 2 x Antenna Ports\n- 1 x HDMI Port\n- 1 x Optical SPDIF Out Port\n- 2 x USB4 Type-C Ports (40 Gb/s)*\n- 5 x USB 3.2 Gen2 Type-A Ports (10 Gb/s) (USB32_12 are Lightning Gaming Ports.)\n- 3 x USB 3.2 Gen1 Type-A Ports (USB32_34 supports Ultra USB Power.)\n- 2 x USB 2.0 Ports\n- 1 x RJ-45 LAN Port\n- 1 x Clear CMOS Button\n- 1 x BIOS Flashback Button\n- 1 x Line Out Jack (Gold Audio Jack)\n- 1 x Microphone Input Jack (Gold Audio Jack)"
+  },
+  "Others": {
+   "Special Features": "Superb Productivity\n- PCIe Gen5 (Graphics, M.2)\n- Dual Channel DDR5\n- USB4 Type-C Ports (40 Gb/s)\nRock-Solid Durability\n- Server-Grade Low-Loss PCB\n- 20+2+1 Power Phase, 110A SPS for VCore+SOC with Enlarged Heatsink Armor\n- Flexible Integrated I/O Shield\n- 20K Long-lasting Black Caps (high quality and conductive polymer capacitors)\nUltrafast Gaming\n- 5G LAN, 802.11be Wi-Fi 7 Module\n- ASRock Lightning Gaming Ports\nEZ Update\n- BIOS Flashback Button\n- ASRock Auto Driver Installer",
+   "Bundled Software": "Software\n- ASRock Motherboard Utility (Phantom Gaming Tuning)\n- ASRock Phantom Gaming LAN Software\n- ASRock Polychrome SYNC\nUEFI\n- ASRock EZ Mode\n- ASRock Full HD UEFI\n- ASRock Auto Driver Installer\n- ASRock Instant Flash"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000, & 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, Up to 8200+(OC), Max 256GB",
+  "Graphics Output: 1x HDMI 2.1, 2 x USB4, support HDCP 2.3 and max",
+  "Features: 5 Gigabit LAN,  802.11be 2x2 Wi-Fi 7 Module, Bluetooth 5.4"
+ ],
+ "price": 5299955500,
+ "regular": 61050,
+ "status": "In Stock",
+ "code": "43854",
+ "brand": "ASRock",
+ "model": "X870E Nova WiFi",
+ "warranty": "3 Years",
+ "name": "ASRock X870E Nova WiFi AM5 DDR5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASRock (AMD)",
+  "ASRock X870E Nova WiFi AM5 DDR5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-13T17:38+06:00",
+ "source": "https://www.startech.com.bd/asrock-x870e-nova-wifi-am5-ddr5-motherboard",
+ "store": "startech"
+}

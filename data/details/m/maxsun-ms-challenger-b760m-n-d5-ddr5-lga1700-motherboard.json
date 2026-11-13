@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 12th/13th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700",
+   "Chipset": "INTEL B760",
+   "Form Factor": "M-ATX\n245mm x 190mm",
+   "Audio": "Realtek® ALC897 Codec\n5.1-Channel High Definition Audio"
+  },
+  "Memory": {
+   "Slots": "1x PCIe 4.0 x16 slot\n1x PCIe 3.0 x4 slot",
+   "Supported Memory": "2x DDR5, Maximum Memory Capacity 96GB\nMemory Support DDR5 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/\n5000(JEDEC)/ 4800(JEDEC) MHz\nSupports Intel® XMP 3.0 OC\nSupports Dual-Controller Dual-Channel mode"
+  },
+  "Graphics": {
+   "Graphics": "1x VGA\n*Support VGA, maximum resolution of 2048×1536 50Hz, 2048×1280 60Hz, 1920×1200 60Hz\n1x HDMI™port\n*HDMI™ port supports up to 4K@30Hz\n*Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates."
+  },
+  "Connector & Ports": {
+   "USB (s)": "*Front USB (Total 6 ports)\n2x USB 3.2 Gen1 Type A\n4x USB 2.0\n*Rear USB (Total 6 ports)\n4x USB 3.2 Gen1 Type A\n2x USB 2.0",
+   "LAN Port (s)": "Realtek® RTL8111H 1G LAN",
+   "Supported Storage": "M.2_1 slot (Key M), type 2242/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2280 (supports PCIe 4.0 x4 mode)\n3 x SATA 6Gb/s ports",
+   "Internal I/O Ports": "1x 24-pin Power Connector(ATX_PWR)\n1x 8-pin Power Connector(CPU_PWR)\n1x CPU Fan\n2x System Fan\n2 x M.2 slots (Key-M)\n3x SATA 6Gb/s ports\n1x 2-Pin CLR_CMOS\n1x 4-Pin BUZZER\n1x Front Audio\n1x COM_A Port\n1x 2-Pin F_PANEL\n1x TPM pin header(Support TPM 2.0)\n1x 3-Pin SPDIF\n1x 12V 4-Pin RGB"
+  },
+  "Software": {
+   "Operating System": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  },
+  "Image": {
+   "Model": "B760M-N"
+  },
+  "Product List": {
+   "BEST Maxsun intel Motherboard PRICE LIST IN BD": "Price",
+   "Maxsun MS-H610M 666 WIFI6 DDR4 Motherboard": "9,950৳\n10,900৳",
+   "MAXSUN Challenger B450M AM4 M-ATX Motherboard": "7,700৳\n8,500৳",
+   "Maxsun Challenger H510M-R DDR4 LGA1200 Motherboard": "8,000৳\n88৳"
+  }
+ },
+ "key_features": [],
+ "model": "B760M-N",
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.creatus.com.bd/maxsun-ms-challenger-b760m-n-d5-ddr5-lga1700-motherboard",
+ "store": "creatus"
+}

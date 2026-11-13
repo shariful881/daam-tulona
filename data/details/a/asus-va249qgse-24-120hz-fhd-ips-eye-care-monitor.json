@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8-inch",
+   "Display Type": "LED",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel pitch(MM)": "0.2745mm",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "(CR≧10, H/V) : 178°/ 178°",
+   "Brightness": "300cd/㎡(Typ.)",
+   "Contrast Ratio": "3000:1 (Max)\n1500:1 (Typ.)",
+   "Refresh Rate": "120Hz",
+   "Color Support": "16.7M",
+   "Response Time": "1ms MPRT",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "TÜV Flicker-free",
+   "Low Blue Light": "TÜV Low Blue Light",
+   "G-Sync Support": "Yes",
+   "Free Sync Support": "Yes, 1.4"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes(2Wx2)"
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort 1.2 x 1",
+   "HDMI": "HDMI(v1.4) x 1",
+   "Audio Jack": "Yes",
+   "VGA": "VGA x 1"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+35° ~ -5°)",
+   "Swivel": "Yes (+180° ~ -180°)",
+   "Pivot": "Yes (+90° ~ -90°)",
+   "Height Adjustment": "0~130mm",
+   "Vesa Wall Mount": "100x100mm",
+   "Security Locker": "Kensington Lock"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Dimension": {
+   "Phys. Dimension (W x H x D)": "54.11 x 46.33 x 21.12 cm (21.30\" x 18.24\" x 8.31\")",
+   "Box Dimension (W x H x D)": "62.0 x 41.20 x 14.50 cm (24.41\" x 16.22\" x 5.71\")"
+  },
+  "Weight": {
+   "Net Weight": "4.50 kg (9.92 lbs)",
+   "Net Weight without Stand": "3.10 kg (6.83 lbs)",
+   "Gross Weight": "6.70 kg (14.77 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<13W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years Warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS Panel, 120Hz, 1ms MPRT",
+  "Ports: 1x HDMI 1.4, 1x DisplayPort 1.2, 1x VGA, 1x Earphone Jack",
+  "Features: Speaker, Low Blue Light, Flicker Free, Adaptive-Sync"
+ ],
+ "warranty": "03 years Warranty",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/asus-va249qgse-24-inch-fhd-monitor",
+ "store": "pchouse"
+}

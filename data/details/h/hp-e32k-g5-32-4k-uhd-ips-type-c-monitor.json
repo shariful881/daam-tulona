@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "31.5 Inch",
+   "Display Type": "LED",
+   "Resolution": "4K UHD (3840 x 2160)\nResolutions supported: 640 x 480; 720 x 400; 800 x 600; 1024 x 768; 1280 x 720; 1280 x 1024; 1440 x 900; 1600 x 900; 1600 x 1200; 1680 x 1050; 1920 x 1080; 1920 x 1200; 2560 x 1440; 3840 x 2160; 720 x 480",
+   "Pixels Per Inch (PPI)": "140 ppi",
+   "Pixel pitch(MM)": "0.18 x 0.18 mm",
+   "Display Surface": "Anti-glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178° Horizontal viewing angle\n178° Vertical viewing angle",
+   "Brightness": "350 nits",
+   "Contrast Ratio": "1000:1 static; 8000000:1 dynamic",
+   "Refresh Rate": "60Hz",
+   "Color Support": "99% sRGB",
+   "Color Gamut": "5ms GtG (with overdrive)",
+   "Response Time": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes, HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)",
+   "HDCP": "Yes, DisplayPort, HDMI and USB Type-C"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes",
+   "Speaker Details": "2 x 3 W"
+  },
+  "Connectivity": {
+   "Display Port": "1 x DisplayPort 1.4",
+   "HDMI": "1 x HDMI 2.0",
+   "USB Type-C": "1x SuperSpeed USB Type-C 5Gbps signaling rate (up to 65W USB Power Delivery, Alt Mode DisplayPort 1.4)\n1x SuperSpeed USB Type-C 5Gbps signaling rate (Up to 15W USB Power Delivery)",
+   "USB": "3x SuperSpeed USB Type-A 5Gbps signaling rate (1 charging)"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5 to +20°",
+   "Swivel": "±45°",
+   "Pivot": "±90°",
+   "Height Adjustment": "150 mm",
+   "Vesa Wall Mount": "100 mm x 100 mm",
+   "Security Locker": "Standard lock slot"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "71.4 x 4.7 x 42.12 cm (without hinge); 71.4 x 7.47 x 42.12 cm (with hinge) (without stand)\n71.4 x 22.7 x 60.34 cm (with stand)",
+   "Weight": "8.4 kg (with stand)"
+  },
+  "Power": {
+   "Type": "Internal",
+   "Power Consumption": "0.5 W",
+   "Voltage": "100 - 240 VAC 50/60 Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: 4K UHD (3840 x 2160)",
+  "Display: IPS, 60Hz, 5ms GtG (With Overdrive)",
+  "Ports: 1x DP 1.4, 1x HDMI 2.0, 2x Type-C, 3x USB, 1x RJ45",
+  "Features: Low Blue Light, Flicker-Free, Ambient Light Sensor"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/hp-e32k-g5-32-inch-4k-type-c-monitor",
+ "store": "pchouse"
+}

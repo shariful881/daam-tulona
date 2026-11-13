@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "650-1750 RPM ± 10%",
+   "Fan Airflow": "71.93 CFM (Max)",
+   "Noise": "Pump Noise Level: 12 dBA (Max)\nFan Noise Level: 27.2 dBA (Max)",
+   "Air Pressure": "1.86 mmH₂O (Max)",
+   "Connector": "Fan Power Connector: 4-Pin (PWM)\nPower Connector: 3-Pin",
+   "Material": "Aluminum",
+   "Others": "Fan LED Type: ARGB\nFan Bearing Type: Rifle Bearing\nFan MTTF: >160,000 Hours"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator Dimensions: 277 x 119.6 x 27 mm / 10.9 x 4.71 x 1.1 inch\nPump Dimensions: 81 x 76 x 47 mm / 3.2 x 3 x 1.9 inch\nFan Dimensions (L x W x H): 120 x 120 x 25 mm / 4.7 x 4.7 x 1 inch"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700, LGA1200, LGA1151, LGA1150, LGA1155, LGA1156",
+   "AMD": "AM5, AM4, AM3+, AM3, AM2+, AM2, FM2+, FM2, FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "03-year warranty"
+  }
+ },
+ "key_features": [
+  "New Gen S Dual Chamber Pump",
+  "Expanded Radiator Surface",
+  "120mm ARGB Fans",
+  "Clean Classic Design"
+ ],
+ "price": 87009500,
+ "regular": 10400,
+ "status": "In Stock",
+ "code": "33635",
+ "brand": "Cooler Master",
+ "mpn": "MLW-D24M-A18PZ-R1",
+ "model": "MASTERLIQUID 240L CORE ARGB",
+ "warranty": "03-year warranty",
+ "name": "Cooler Master MASTERLIQUID 240L CORE ARGB CPU Liquid Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Cooler Master",
+  "Cooler Master MASTERLIQUID 240L CORE ARGB CPU Liquid Cooler"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-masterliquid-240l-core-argb-cpu-liquid-cooler",
+ "store": "startech"
+}

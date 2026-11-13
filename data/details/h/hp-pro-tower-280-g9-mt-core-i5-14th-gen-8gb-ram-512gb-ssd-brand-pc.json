@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel® Core™ i5-14500",
+   "Processor Frequency": "2.6GHz base frequency",
+   "Processor Core": "14 cores",
+   "Chipset": "Intel® H770"
+  },
+  "Basic Information": {
+   "Monitor": "Without Monitor",
+   "Operating System": "FreeDOS",
+   "Cache": "24MB Cache",
+   "Technology": "Intel® Turbo Boost Technology",
+   "Form Factor": "Internal 180W Power Supply",
+   "Audio": "Realtek ALC3867 codec, universal audio jack with CTIA headset support, audio line-out rear ports (3.5 mm), multi-streaming capable"
+  },
+  "Graphics": {
+   "Graphics": "Intel® UHD Graphics 770"
+  },
+  "Input Devices": {
+   "Keyboard": "HP USB Standard Keyboard",
+   "Mouse": "HP USB Optical Mouse",
+   "Optical Drive": "Without DVDRW"
+  },
+  "External Features": {
+   "Expansion Slots": "1 full-height PCI; 2 M.2; 1 PCIe 3 x1; 1 PCIe 4 x16 (1 M.2 slot for WLAN and 1 M.2 2242/2280 slot for storage.)"
+  },
+  "Operating System": {
+   "RAM": "8GB 5600 MHz DDR5 SDRAM; 2 DIMM slots enabling up to 64GB",
+   "ROM": "512GB M.2 NVMe SSD"
+  },
+  "Connectivity": {
+   "LAN": "Integrated 10/100/1000M GbE"
+  },
+  "Special Features": {
+   "WLAN": "Realtek RTL8821CE-CG 802.11a/b/g/n/ac (1×1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years HP standard warranty"
+  },
+  "Image": {
+   "Model": "280 Pro G9"
+  }
+ },
+ "key_features": [
+  "Processor: Intel 14th Gen Core i5-14500 processor (2.6 GHz upto 5 GHz, 24 MB)",
+  "Memory: 8GB DDR5 RAM",
+  "Storage: 512GB SSD"
+ ],
+ "model": "280 Pro G9",
+ "warranty": "03 Years HP standard warranty",
+ "fetched": "2026-11-13T17:46+06:00",
+ "source": "https://www.creatus.com.bd/hp-pro-tower-280-g9-mt-core-i5-14th-gen-14500-26ghz-8gb-ram-512gb-brand-pc",
+ "store": "creatus"
+}

@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Seq. Read/Write (MB/s): 7,150 / 6,300",
+   "Cache": "Cache Memory: HMB (Host Memory Buffer)",
+   "Feature": "Total Bytes Written (TBW): 600",
+   "Controller": "In-House Controller"
+  },
+  "Key Features": {
+   "Capacity": "2TB",
+   "Interface": "PCIe® 4.0 x4 / 5.0 x2 NVMe ™ 2.0",
+   "Encryption": "Data Encryption: Class 0 (AES 256) , TCG/Opal v2.0, MS eDrive (IEEE1667)",
+   "Form Factor": "M.2 (2280)",
+   "NAND Flash": "Samsung V NAND TLC (V8)"
+  },
+  "Features": {
+   "Dimension": "Product"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB, Form Factor: M.2 (2280)",
+  "Sequential Read Speed: Up to 7250 MB/s",
+  "Sequential Write Speed: Up to 6300 MB/s"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-13T17:58+06:00",
+ "source": "https://www.pchouse.com.bd/samsung-990-evo-plus-2tb-gen4-nvme-ssd",
+ "store": "pchouse"
+}

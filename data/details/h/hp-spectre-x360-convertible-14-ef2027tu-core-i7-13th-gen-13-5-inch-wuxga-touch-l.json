@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Frequency": "3.70 GHz, up to 5.00 GHz",
+   "Processor Core": "10 (Performance-cores- 2 Efficient-cores- 8)",
+   "Processor Thread": "12",
+   "CPU Cache": "12MB",
+   "Processor Model": "Core i7-1355U"
+  },
+  "BASIC Information": {
+   "Battery": "Battery Type: 4-cell, Li-ion polymer"
+  },
+  "Display": {
+   "Display Resolution": "WUXGA+ (1920 x 1280)",
+   "Display Size": "13.5 INCH"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "65 W USB Type-C power adapter",
+   "Ports & Connectors": "DisplayPort 1.4"
+  },
+  "Network & Wireless Connectivity": {
+   "Bluetooth": "Bluetooth 5.3",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Security Chip": "All-in-One keyboard; Trusted Platform Module (Discrete TPM) support"
+  },
+  "Memory": {
+   "RAM": "16GB (onboard)",
+   "RAM Type": "LPDDR4x",
+   "Bus Speed": "4266 MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris Xᵉ Graphics"
+  },
+  "Physical Specifications": {
+   "Color": "silver",
+   "Weight": "1.36 kg",
+   "Dimensions (W x D x H)": "29.8 x 22.04 x 1.69 cm"
+  },
+  "Camera & Audio": {
+   "Audio Features": "Audio by Bang & Olufsen; Quad speakers; HP Audio Boost",
+   "Microphone": "Yes",
+   "Speaker": "Yes",
+   "WebCam": "HP True Vision 5MP IR camera"
+  },
+  "Display Features": {
+   "Display Features": "multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning Gorilla Glass NBT, Low Blue Light, 400 nits, low power, 100% sRGB",
+   "Touch Screen": "Yes"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1 microSD media card reader",
+   "Headphone & Microphone Port": "1 x headphone/microphone combo",
+   "USB 2 Port": "1 USB Type-A 10Gbps signaling rate (HP Sleep and Charge)",
+   "USB Type-C / Thunderbolt Port": "2 x Thunderbolt 4 with USB Type-C® 40Gbps signaling rate (USB Power Delivery"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe TLC M.2",
+   "Storage Capacity": "1 TB"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years Limited Warranty (Terms & condition Apply As Per HP)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-1355U (12M Cache, 3.70 GHz, up to 5.00 GHz)",
+  "RAM: 16GB RAM, Storage: 1TB SSD",
+  "Display: 13.5\" WUXGA+ (1920 x 1280) Touch Screen",
+  "Features: Backlit Keyboard, Fingerprint, Quad Speakers"
+ ],
+ "warranty": "02 years Limited Warranty (Terms & condition Apply As Per HP)",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/hp-spectre-x360-convertible-14-ef2027tu-core-i7-touch-laptop",
+ "store": "pchouse"
+}

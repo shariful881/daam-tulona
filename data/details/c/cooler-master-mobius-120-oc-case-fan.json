@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "L: 1050-1500 ± 200 RPM, M: 1050-2400 ± 250 RPM, H: 1050-3200 ± 10% RPM",
+   "Air Flow": "L: 40.2 CFM, M: 65.5 CFM, H: 88.1 CFM",
+   "Air Pressure": "L: 1.19 mmH₂O, M: 2.76 mmH₂O, H: 4.75 mmH₂O",
+   "Noise (dBA)": "L: 17.4 dBA, M: 31.1 dBA, H: 39.3 dBA",
+   "Lifespan": ">200,000 Hours",
+   "Bearing Type": "Two Ball Bearing",
+   "LED Type": "Non-LED",
+   "Input Current": "L: 0.10 A, M: 0.20 A, H: 0.35 A",
+   "Operating Voltage/Power Range": "Fan Rated Voltage: 12 VDC\nFan Power Consumption: L: 1.20 W, M: 2.40 W, H: 4.20 W"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120 x 120 x 27 mm / 4.7 x 4.7 x 1 inch",
+   "Weight": "220g / 0.48 lbs",
+   "Connector": "4-Pin PWM (with speed control line)"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "2 year"
+  }
+ },
+ "key_features": [
+  "Ring Blade Design",
+  "Fan Speed Toggle",
+  "Metal Motor Hub",
+  "Double Ball Bearing"
+ ],
+ "price": 3100,
+ "regular": 3530,
+ "status": "In Stock",
+ "code": "37044",
+ "brand": "Cooler Master",
+ "mpn": "MFZ-M2NN-32NPK-R1",
+ "model": "Mobius 120 OC",
+ "warranty": "2 year",
+ "name": "Cooler Master Mobius 120 OC 120mm Case Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Cooler Master",
+  "Cooler Master Mobius 120 OC 120mm Case Fan"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-mobius-120-oc-case-fan",
+ "store": "startech"
+}

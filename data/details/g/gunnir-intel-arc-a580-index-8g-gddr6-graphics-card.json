@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320@60Hz",
+   "Memory Clock": "2000 MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Memory Interface": "256 bit"
+  },
+  "Others": {
+   "GPU frequency": "1700Mhz",
+   "Video memory bandwidth": "512GB/S"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 1.4a",
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8-Pin",
+   "Recommended PSU": "650W",
+   "Consumption": "134 W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "253 x 115 x 42mm"
+  },
+  "Warranty": {
+   "Warranty": "3 years (Keep the box for Warranty)"
+  }
+ },
+ "key_features": [
+  "Maximum GPU frequency: 1700MHz",
+  "Memory: 8GB GDDR6",
+  "Memory Speed: 16Gbps",
+  "Output: DisplayPort x3, HDMI x1"
+ ],
+ "warranty": "3 years (Keep the box for Warranty)",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/gunnir-arc-a580-8gb-index-graphics-card",
+ "store": "pchouse"
+}

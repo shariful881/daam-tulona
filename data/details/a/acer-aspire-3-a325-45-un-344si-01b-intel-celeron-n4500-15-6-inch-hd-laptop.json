@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel® Celeron",
+   "Processor Model": "Intel® Celeron N4500",
+   "Frequency": "1.10GHz – 2.80GHz",
+   "Generation": "Celeron"
+  },
+  "Display": {
+   "Display Size (Inch)": "15.6″",
+   "Display Type": "15.6″ HD Ultra-slim Display",
+   "Display Resolution": "1366 x 768"
+  },
+  "Memory": {
+   "RAM": "Single-channel LPDDR4X SDRAM support:\n12GB of LPDDR4X system memory",
+   "SSD": "512 GB, PCIe Gen4, NVMe Support up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel® UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p HD video, 1280 x 720 resolution",
+   "Speaker": "Two built-in stereo speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "Yes",
+   "USB 3 Port": "3 x USB 3.0 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "No",
+   "WiFi": "802.11a/b/g/n/ac wireless LAN",
+   "Bluetooth": "Supports Bluetooth® 5.0 or above"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Battery": {
+   "Battery Type": "38 Wh 2-cell Li-ion battery， 5000mAh, 7.6V",
+   "Battery Capacity": "DC/ 24 W AC adapter"
+  },
+  "Others": {
+   "Color": "Pure Silver",
+   "Dimensions": "357.4(W) x 228 (D) x 17.7 (H) mm",
+   "Weight": "1.5 kg",
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Celeron N4500 (1.10 GHz, up to 2.80 GHz)",
+  "RAM: 12GB LPDDR4, Storage: 512GB SSD",
+  "Display: 15.6″ HD (1366×768)",
+  "Features: Two built-in stereo speakers, Type-C port"
+ ],
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-3-a325-45-un-344si-01b-intel-celeron-n4500-15-6-inch-hd-laptop/",
+ "store": "smartbd"
+}

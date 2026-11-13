@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27\"",
+   "Display Type": "E-LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920x1080)",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "300nits(typ)",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "100Hz",
+   "Color Support": "16.7M",
+   "Response Time": "7ms OD",
+   "Others Features": "Tilt: -5°±2°/15°±2°"
+  },
+  "Video Features": {
+   "Low Blue Light": "Yes"
+  },
+  "Power": {
+   "Voltage": "DC 12V 3A",
+   "Power Consumption": "Consumption (Standard): ≤ 36W",
+   "Type": "External"
+  },
+  "Connectivity": {
+   "Connectivity Type": "HDMI: 1xHDMI",
+   "Display Port": "1xDisplay Port",
+   "VGA": "1xVGA"
+  },
+  "Audio Features": {
+   "Speaker Details": "Speaker (Built In): N/A"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "612(W)x364.4(H)x40.2(D)",
+   "Weight": "Net Weight: 4.12kg"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD(1920×1080)",
+  "Display: IPS, 100Hz, 7ms",
+  "Ports: VGA×1, HDMI×1, DPx1, Audio output x 1",
+  "Features: Low Blue Light, VESA wall mount"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:23+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-dhi-lm27-b201e-27-inch-100hz-ips-fhd-monitor",
+ "store": "pchouse"
+}

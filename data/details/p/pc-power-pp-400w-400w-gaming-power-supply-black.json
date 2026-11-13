@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Color": "Black",
+   "Form Factor": "ATX12V 2.4",
+   "MTBF": ">100,000 hours",
+   "Input Voltage": "100-240V AC",
+   "Connectors": "1 x 24-Pin ATX Main Connector\n1 x 4+4-Pin EPS 12V Connector\n2 x 6+2-Pin PCIe Connectors\n4 x SATA Connectors\n3 x Molex Connectors\n1 x Floppy Connector",
+   "Input Current": "5-10A"
+  },
+  "Basic Information": {
+   "POWER": "output: 400w"
+  },
+  "General Information": {
+   "Cooling Style": "120mm Fan",
+   "DIMENSION": "150mm x 86mm x 140mm",
+   "Protection": "Over Voltage Protection (OVP)\nUnder Voltage Protection (UVP)\nOver Current Protection (OCP)\nShort Circuit Protection (SCP)\nOver Power Protection (OPP)",
+   "Other": "Efficiency Certification: 80+ Bronze"
+  },
+  "Input": {
+   "Frequency Range": "50-60Hz"
+  },
+  "Physical Specification": {
+   "Weight": "Approx. 1.5 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "PP-400W"
+  }
+ },
+ "key_features": [
+  "Form Factor: ATX",
+  "Input Voltage: 100-240V AC",
+  "Input Current: 5-10A",
+  "Power Output: 400W"
+ ],
+ "model": "PP-400W",
+ "warranty": "5 Years",
+ "fetched": "2026-11-13T18:17+06:00",
+ "source": "https://www.creatus.com.bd/pc-power-pp-400w-400w-gaming-power-supply-black",
+ "store": "creatus"
+}

@@ -1,0 +1,91 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5-13420H",
+   "Processor Frequency": "up to 4.6 GHz with Intel Turbo Boost Technology",
+   "Generation": "13th Gen",
+   "Processor Core": "8",
+   "Processor Thread": "12",
+   "CPU Cache": "12 MB L3 cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "micro-edge, anti-glare, 300 nits, 62.5% sRGB",
+   "Refresh Rate": "144 Hz"
+  },
+  "Memory": {
+   "RAM": "8 GB",
+   "RAM Type": "DDR4",
+   "Bus Speed": "3200 MT/s"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "512 GB",
+   "Extra M.2 Slot": "Yes",
+   "Supported SSD Type": "M.2 (SSD)"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050 Laptop GPU",
+   "Graphics Memory": "6GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Keyboard",
+   "TouchPad": "Yes",
+   "Keyboard Features": "Full-size, performance blue opaque keyboard with numeric keypad"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP Wide Vision 720p HD camera",
+   "Speaker": "Dual speakers",
+   "Microphone": "Temporal noise reduction and integrated dual array digital microphones",
+   "Audio Features": "DTS:X Ultra; Dual speakers; HP Audio Boost"
+  },
+  "Network & Connectivity": {
+   "LAN": "Integrated 10/100/1000 GbE LAN",
+   "WiFi": "Realtek Wi-Fi 6 (2x2)",
+   "Bluetooth": "Bluetooth 5.4 wireless card"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.1",
+   "USB 3 Port": "1 USB Type-A 5Gbps signaling rate (HP Sleep and Charge)\n1 USB Type-A 5Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "1 USB Type-C® 5Gbps signaling rate (DisplayPort™ 1.4a, HP Sleep and Charge)",
+   "Headphone & Microphone Port": "1x headphone/microphone combo"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Mica Silver, chrome logo",
+   "Dimensions": "35.79 x 25.5 x 2.35 cm",
+   "Weight": "2.29 kg"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion polymer",
+   "Battery Capacity": "52.5 Wh",
+   "Adapter Type": "120 W AC power adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "2 Year (1 year for Battery and Adapter)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-13420H (up to 4.6 GHz,12 MB L3 cache )",
+  "RAM: 8GB DDR4-3200 MT/s, Storage: 512 GB PCIe Gen4 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 3050 Laptop GPU (6 GB GDDR6 dedicated)",
+  "Features: Backlit Keyboard, 144Hz Refresh Rate, RJ45, Type-C, Wi-Fi 6"
+ ],
+ "warranty": "2 Year (1 year for Battery and Adapter)",
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.pchouse.com.bd/hp-victus-15-fa2276tx-core-i5-rtx-3050-6gb-gaming-laptop",
+ "store": "pchouse"
+}

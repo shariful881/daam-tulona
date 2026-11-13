@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "90% @ Typical Load",
+   "Certification": "80 PLUS Gold certification,",
+   "Fan Size": "140mm",
+   "Others": "FAN Bearing: FDB\nFAN Speed: 2200 RPM\nATX Version: ATX 12V V2.52\nActive PFC\nDimensions (L X W X H): 180 x 150 x 86 mm\nNoise Level @ 20%: 0 dBA\nNoise Level @ 50%: 14.9 dBA\nNoise Level @ 100%: 27.3 dBA\nERP 2014 LOT 3\nOperating Temperature: 0-50°C\nHOLD UP TIME: >20ms at 100% Load\nMTBF: >100,000 Hours\nPROTECTIONS: OVP, OPP, OTP, SCP, OCP, UVP\nREGULATORY: TUV, CE, CCC, EAC, RCM, cTUVus, FCC, BSMI\nWattage: Above 750W"
+  },
+  "Input": {
+   "Voltage": "100-240V",
+   "Frequency Range": "47-63Hz",
+   "Current": "13-6A"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "80 PLUS Gold power\nPower Good Signal: 100 - 150 ms"
+  },
+  "Connector": {
+   "Main Power": "EPS 4+4 PIN CONNECTORS x 1\nEPS 8 PIN CONNECTOR x 1",
+   "CPU": "ATX 24-PIN CONNECTORS x 1",
+   "PCI-E": "PCI-E 6+2 PIN CONNECTORS x \t6",
+   "SATA": "12"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "80 PLUS Gold Efficiency",
+  "RTX Ready, 140mm Silent Fan",
+  "High-Temperature Resilience",
+  "Full Modular Cabling"
+ ],
+ "price": 2200023000,
+ "regular": 24410,
+ "status": "In Stock",
+ "code": "24386",
+ "brand": "Cooler Master",
+ "mpn": "MPE-A501-AFCAG-IN",
+ "model": "MWE Gold 1050 V2",
+ "warranty": "03 years warranty",
+ "name": "Cooler Master MWE Gold 1050 V2 Full Modular 80 Plus Gold Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Cooler Master",
+  "Cooler Master MWE Gold 1050 V2 Full Modular 80 Plus Gold Power Supply"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-mwe-gold-1050-v2-full-modular-power-supply",
+ "store": "startech"
+}

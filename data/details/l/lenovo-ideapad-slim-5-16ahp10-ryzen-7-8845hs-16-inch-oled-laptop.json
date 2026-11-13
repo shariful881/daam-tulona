@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "83HW001XIN"
+  },
+  "Performance": {
+   "Processor": "AMD Ryzen™ 7 8845HS (8C / 16T, 3.8 / 5.1GHz, 8MB L2 / 16MB L3)",
+   "NPU": "Integrated AMD Ryzen™ AI, up to 16 TOPS",
+   "Graphics": "Integrated AMD Radeon™ 780M Graphics",
+   "Chipset": "AMD SoC Platform",
+   "Memory": "2x 16GB SODIMM DDR5-5600",
+   "Memory Slots": "Two DDR5 SODIMM slots, dual-channel capable",
+   "Max Memory": "Up to 32GB DDR5-5600 offering",
+   "Storage": "1TB SSD M.2 2242 PCIe® 4.0×4 NVMe®",
+   "Storage Slot": "Two M.2 slots\n• One M.2 2242 PCIe® 4.0 x4 slot\n• One M.2 2280 PCIe® 4.0 x4 slot",
+   "Max Storage Support": "Up to two drives, 2x M.2 SSD\n• M.2 2242 SSD up to 1TB",
+   "Optical": "None",
+   "Card Reader": "microSD Card Reader",
+   "Audio Chip": "High Definition (HD) Audio",
+   "Speakers": "Stereo speakers, 2W x2, optimized with Dolby Audio™",
+   "Microphone": "2x, Array",
+   "Camera": "FHD 1080p + IR with Privacy Shutter, ToF Sensor",
+   "Battery": "60Wh",
+   "Power Adapter": "65W USB-C® Slim (Wall-mount)"
+  },
+  "Design": {
+   "Display": "16″ 2.8K (2880×1800) OLED 500nits Glossy, 100% DCI-P3, 120Hz, DisplayHDR™ True Black 1000",
+   "Touchscreen": "None",
+   "Screen-to-Body Ratio": "90% AAR (active area ratio)",
+   "Pen": "Pen Not Supported",
+   "Keyboard": "Backlit, English",
+   "Touchpad": "Buttonless Mylar® surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm (2.95 x 4.72 inches)",
+   "Dimensions (WxDxH)": "356.5 x 250.6 x 16.9 mm (14.03 x 9.87 x 0.67 inches)",
+   "Weight": "Around 1.69 kg (3.73 lbs)",
+   "Case Color": "Luna Grey",
+   "Case Material": "Aluminium (Top), Aluminium (Bottom)",
+   "Surface Treatment": "Anodizing Sandblasting"
+  },
+  "Software": {
+   "Operating System": "Windows® 11 Home Single Language, English",
+   "Bundled Software": "Office Home 2024"
+  },
+  "Connectivity": {
+   "WLAN + Bluetooth": "Wi-Fi® 7, 802.11be 2×2 + BT5.4",
+   "WWAN": "WWAN Not Supported",
+   "Ethernet": "No Onboard Ethernet",
+   "Standard Ports": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On, 2x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with USB PD 3.0 and DisplayPort™ 1.4, 1x HDMI® 2.1, up to 4K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x microSD card reader"
+  },
+  "Security & Privacy": {
+   "Security Chip": "Microsoft® Pluton TPM 2.0 Enabled",
+   "Fingerprint Reader": "No Fingerprint Reader",
+   "Other Security": "Camera privacy shutter, IR camera for Windows® Hello (facial recognition)"
+  },
+  "Service": {
+   "Base Warranty": "2years standard warranty"
+  },
+  "Certifications": {
+   "Green Certifications": "ENERGY STAR® 9.0, EPEAT™ Gold Registered, ErP Lot 6/26, RoHS compliant",
+   "Mil-Spec Test": "MIL-STD-810H military test passed (21 test items)",
+   "Other Certifications": "TÜV Rheinland® Low Blue Light (Hardware Solution), TÜV Rheinland® Flicker Free"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 8845HS (8C / 16T, 3.8 / 5.1GHz, 8MB L2 / 16MB L3)",
+  "RAM: 32GB DDR5 5600MHz; Storage: 1TB SSD",
+  "Display: 16″ 2.8K (2880×1800) OLED 500 nits Glossy",
+  "Features: Backlit Keyboard, MIL-STD-810H Military Grade"
+ ],
+ "model": "83HW001XIN",
+ "warranty": "2years standard warranty",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://smartbd.com/product/lenovo-ideapad-slim-5-16ahp10-amd-ryzen-7-8845hs-16-inch-oled-luna-grey-laptop/",
+ "store": "smartbd"
+}

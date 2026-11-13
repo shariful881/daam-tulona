@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "32GB",
+   "Resolution": "Digital Max Resolution: 7680 × 4320 (8K UHD)",
+   "Core Clock": "Boost Clock: Up to 2.58 GHz (Factory OC may vary by BIOS mode)",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0 x16",
+   "Memory Interface": "512-bit",
+   "CUDA Cores": "21,760",
+   "Others": "NVIDIA Blackwell Architecture\nDLSS 4\n4th Generation Ray Tracing Cores\n5th Generation Tensor Cores\nNVIDIA Reflex 2\nNVIDIA Studio\nAV1 Encode & Decode\nG-SYNC Support\nVR Ready\nAI Acceleration"
+  },
+  "Interface": {
+   "Display Port": "3 × DisplayPort 2.1b",
+   "HDMI": "1 × HDMI 2.1b",
+   "DVI": "No",
+   "HDCP": "HDCP 2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 × 16-pin (12V-2x6) Power Connector",
+   "Recommended PSU": "1000W",
+   "Consumption": "575W"
+  },
+  "Display Option": {
+   "Multi Display": "Supports Up to 4 Displays"
+  },
+  "Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "Approx. 359 × 150 × 76 mm",
+   "Others": "LIGHTNING Z Premium Cooling\nTriple-Fan Design\nVapor Chamber\nMetal Backplate\nZero Frozr Technology\nDual BIOS\nRGB Mystic Light\nReinforced Metal Frame\nBlack & Silver Finish\nTriple-Slot Design"
+  },
+  "Warranty": {
+   "Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Video Memory: 32GB GDDR7, PCI Express 5.0 x16",
+  "Clock Speed: 2730MHz (Boost), 2775MHz (Extreme Performance)",
+  "Memory Bus: 512-bit, CUDA Cores: 21760 Units",
+  "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI, 1 x Type-C"
+ ],
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/msi-rtx-5090-lightning-z-32gb",
+ "store": "pchouse"
+}

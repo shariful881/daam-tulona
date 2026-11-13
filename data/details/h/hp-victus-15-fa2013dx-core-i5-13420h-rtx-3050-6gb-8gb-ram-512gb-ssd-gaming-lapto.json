@@ -1,0 +1,95 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5-13420H",
+   "Processor Frequency": "2.1GHz Up to 4.6GHz",
+   "Generation": "13th Generation",
+   "Processor Core": "8 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12MB Intel Smart Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel HM770"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "IPS, Anti-Glare, LED",
+   "Display Resolution": "Full HD (1920 × 1080)",
+   "Touch Screen": "No",
+   "Display Features": "144Hz Refresh Rate, Micro-Edge Bezel, Anti-Glare, IPS Panel"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR4",
+   "Removable": "Yes",
+   "Bus Speed": "3200MHz",
+   "Total RAM Slot": "2 Slots"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "1 × Available",
+   "Supported SSD Type": "M.2 PCIe NVMe Gen4 SSD",
+   "Storage Upgrade": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050 Laptop GPU",
+   "Graphics Memory": "6GB GDDR6",
+   "Graphics Type": "Dedicated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size Backlit Keyboard with Numeric Keypad",
+   "TouchPad": "HP Imagepad with Multi-Touch Gesture Support"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 720p HD Camera",
+   "Speaker": "Dual Speakers",
+   "Microphone": "Dual Array Digital Microphone",
+   "Audio Features": "Bang & Olufsen (B&O) Audio, HP Audio Boost"
+  },
+  "Network & Connectivity": {
+   "LAN": "RJ-45 Gigabit Ethernet",
+   "WiFi": "Wi-Fi 6 (802.11ax)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Ports & Slots": {
+   "Card Reader": "No",
+   "HDMI Port": "1 × HDMI 2.1",
+   "USB 2 Port": "No",
+   "USB 3 Port": "3 × USB Type-A (5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 × USB Type-C 5Gbps (DisplayPort 1.4)",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Audio Jack"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No",
+   "Camera Privacy Shutter": "No",
+   "Security Chip": "Trusted Platform Module (TPM 2.0)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Mica Silver",
+   "Dimensions": "357.9 × 255 × 23.5 mm",
+   "Weight": "2.29 kg",
+   "Body Material": "Plastic Chassis"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-Ion",
+   "Battery Capacity": "52.5Wh",
+   "Adapter Type": "150W Smart AC Adapter"
+  },
+  "Other Features": {
+   "Other Features": "HP Fast Charge, OMEN Gaming Hub, Dual Fan Cooling, Anti-Glare Display"
+  },
+  "Warranty Details": {
+   "Warranty": "2 Years Limited Warranty (Battery & Adapter: 1 Year)"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 Years Limited Warranty (Battery & Adapter: 1 Year)",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/hp-victus-15-fa2013dx-core-i5-13420h-rtx-3050-6gb-gaming-laptop",
+ "store": "pchouse"
+}

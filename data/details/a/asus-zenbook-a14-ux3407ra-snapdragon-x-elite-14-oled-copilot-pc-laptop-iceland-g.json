@@ -1,0 +1,102 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Up to 3.4GHz",
+   "Generation": "Snapdragon X Elite Series",
+   "Processor Frequency": "12 Cores",
+   "Processor Core": "12 Threads",
+   "Processor Thread": "42MB"
+  },
+  "Memory": {
+   "Max RAM Capacity": "16GB",
+   "Ram": "16GB",
+   "Ram Type": "LPDDR5X",
+   "Total RAM Slot": "1 (Onboard)",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "N/A",
+   "Supported SSD Type": "M.2 NVMe PCIe 4.0 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Qualcomm Adreno GPU",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "Backlit Keyboard",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD IR Camera with Windows Hello Support",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Array Microphone",
+   "Audio Features": "Smart Amp Technology"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Display Port": "Supported via USB 4.0 Type-C",
+   "Card Reader": "N/A",
+   "HDMI Port": "1 × HDMI 2.1 TMDS",
+   "USB 2 Port": "N/A",
+   "USB 3 Port": "1 × USB 3.2 Gen 2 Type-A",
+   "USB Type-C / Thunderbolt Port": "2 × USB 4.0 Gen 3 Type-C (Display & Power Delivery)",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be), Triple Band, 2×2",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Security Locker Slot": "N/A",
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "14 Inch",
+   "Display Type": "OLED",
+   "Display Resolution": "WUXGA (1920 × 1200)",
+   "Display Features": "16:10 Aspect Ratio, HDR True Black 600, 100% DCI-P3, 1.07 Billion Colors, 400 nits (600 nits HDR Peak), TÜV Rheinland Certified, SGS Eye Care, Glossy Display",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Brightness": "400 nits (600 nits HDR Peak)",
+   "Response Time": "0.2ms"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-ion Battery",
+   "Battery Capacity": "70WHrs",
+   "Adapter Type": "90W USB Type-C AC Adapter",
+   "Backup Time (Approx)": "Up to Manufacturer Rated Battery Life"
+  },
+  "Physical Specification": {
+   "Weight": "980g (With Battery), 740g (Without Battery)",
+   "Dimensions": "31.07 × 21.39 × 1.34 ~ 1.59 cm",
+   "Colors": "Iceland Gray",
+   "Body Material": "Magnesium-Aluminum (Mg-Al)"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year International Warranty (Battery: 1 Year)"
+  },
+  "Image": {
+   "Model": "Zenbook A14 UX3407RA"
+  }
+ },
+ "key_features": [
+  "Processor: Snapdragon X Elite X1E 78 100 (42MB Cache, up to 3.4GHz)",
+  "RAM: 16GB LPDDR5X, Storage: 1TB M.2 NVMe PCIe 4.0 SSD",
+  "Display: 14-inch, WUXGA (1920 x 1200) OLED, 60Hz",
+  "Features: Backlit Keyboard, Privacy Shutter, AI Integrated"
+ ],
+ "model": "Zenbook A14 UX3407RA",
+ "warranty": "2-Year International Warranty (Battery: 1 Year)",
+ "fetched": "2026-11-13T17:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-zenbook-a14-ux3407ra-iceland-gray-laptop",
+ "store": "creatus"
+}

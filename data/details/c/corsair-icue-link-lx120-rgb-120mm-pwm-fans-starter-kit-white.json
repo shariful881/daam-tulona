@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "400 - 2400 RPM",
+   "Air Flow": "9.75 - 69.9 CFM",
+   "Air Pressure": "0.13 - 5.22 mm-H20",
+   "Noise (dBA)": "10 - 36 dBA",
+   "Bearing Type": "Magnetic Dome",
+   "LED Type": "RGB",
+   "Operating Voltage/Power Range": "Power Draw: 0.40A"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Size": "Fan: 120mm x 25mm",
+   "Weight": "0.759 kg",
+   "Connector": "Daisy-chained 4-pin PWM connectors"
+  },
+  "Others": {
+   "Others": "CORSAIR AirGuide technology\niCUE LINK System"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 400 - 2400 RPM",
+  "Fan Air Flow: 9.75 - 69.9 CFM",
+  "RGB 120mm x 25mm PWM Fan",
+  "18 x RGB LEDs w/ Dual Light Loops"
+ ],
+ "price": 1149912300,
+ "regular": 13500,
+ "status": "In Stock",
+ "code": "45028",
+ "brand": "Corsair",
+ "mpn": "CO-9051030-WW",
+ "model": "iCUE LINK LX120 RGB",
+ "warranty": "2 Years Warranty",
+ "name": "Corsair iCUE LINK LX120 RGB 120mm PWM Fan (3 pack)",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Corsair",
+  "Corsair iCUE LINK LX120 RGB 120mm PWM Fan (3 pack)"
+ ],
+ "fetched": "2026-11-13T17:42+06:00",
+ "source": "https://www.startech.com.bd/corsair-icue-link-lx120-rgb-fan",
+ "store": "startech"
+}

@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Main Features": {
+   "Capacity": "12V/7ah*1pcs",
+   "Operating Temperature": "Temperature 0°C~ 40°C, Humidity 20%~90%"
+  },
+  "Input Voltage": {
+   "Input Voltage": "110V/120 VAC or 220/230/240 VAC",
+   "Input Voltage range": "85-145VAC/145-290VAC",
+   "Input Frequency": "45~65 Hz"
+  },
+  "Output Voltage": {
+   "AC Output Port": "2",
+   "Output Voltage": "110/120 VAC or 220/230/240 VAC",
+   "Output Voltage range": "102-132VAC/200-255VAC",
+   "Output frequency": "60±0.5 Hz or 50±0.5 Hz"
+  },
+  "Physical Specification": {
+   "Weight": "3.9",
+   "Dimensions": "284*95*140"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "EW2110-650VA"
+  }
+ },
+ "key_features": [
+  "Capacity: 650VA / 390W",
+  "Display: LED version",
+  "Battery: 12V 7AH x 1",
+  "Input Voltage Range: 145V to 290V"
+ ],
+ "model": "EW2110-650VA",
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T17:59+06:00",
+ "source": "https://www.creatus.com.bd/must-ew2110-smart-line-interactive-ups",
+ "store": "creatus"
+}

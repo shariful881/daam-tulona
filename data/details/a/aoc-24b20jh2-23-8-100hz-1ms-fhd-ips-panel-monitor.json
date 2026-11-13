@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "23.8\"",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel Pitch (mm)": "0.2745 (H) × 0.2745 (V)",
+   "Aspect ratio": "16: 9",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "250 cd/m²",
+   "Contrast Ratio": "1000 : 1 (typical) 20 Million : 1 (DCR)",
+   "Refresh rate": "100Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "NTSC 90% (CIE1976) / sRGB 100% (CIE1931)",
+   "Response Time": "1ms (MPRT)",
+   "Others Features": "Optimum Resolution: 1920 × 1080 @ 100Hz – HDMI; 1920 × 1080 @ 75Hz – VGA",
+   "Curvature": "Flat"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100x100 mm ( 2holes)"
+  },
+  "Display Details": {
+   "Video": "Low Blue Light-Yes/\nG-Sync Support-Yes\n/Free Sync Support-Yes"
+  },
+  "Features": {
+   "Tilt": "—5° ~ 15°"
+  },
+  "Connectivity": {
+   "Power": "External Power Consumption -24W\nVoltage-12VDC, 2.5A",
+   "Connectivity": "VGA\n1x VGA\nHDMI\n1x HDMI 1.4"
+  },
+  "Physical Specification": {
+   "Weight": "2.49kg without Stand\n2.82kg with Stand"
+  },
+  "Physical Specifications": {
+   "Dimension": "321.3 (H) × 540.9 (W) × 35.1 (D) without Stand (mm)\n418.2 (H) × 540.9 (W) × 168 (D) with Stand (mm)321.3 (H) × 540.9 (W) × 35.1 (D) without Stand (mm)\n418.2 (H) × 540.9 (W) × 168 (D) with Stand (mm)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 1ms",
+  "Ports: 1x VGA, 1x HDMI 1.4",
+  "Features: AdaptiveSync, 3-Sided Frameless"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24b20jh2-23.8-100hz-1ms-fhd-ips-panel-monitor",
+ "store": "pchouse"
+}

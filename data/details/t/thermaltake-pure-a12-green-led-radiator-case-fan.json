@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Air Flow": {
+   "MAX. AIR PRESSURE": "1.59 mm-H2O",
+   "MAX AIR FLOW": "56.45 CFM"
+  },
+  "Casing Fan": {
+   "Color": "Green",
+   "Connector": "4 PIN PWM",
+   "Fan Speed": "PWM 500~1500 R.P.M",
+   "Input Current": "0.15 A (one fan)",
+   "Lifespan": "40,000 hrs,25℃",
+   "Noise (dBA)": "25.8 dB-A",
+   "Size": "120 x 120 x 25 mm (Fan)",
+   "Supports": "Hydraulic Bearing\nSupports with Windows 7 / 8 / 8.1 / 10",
+   "Weight": "156 g"
+  },
+  "Operating Voltage/Power Range": {
+   "Fan Started Voltage": "9.0 V",
+   "Fan Rated Voltage": "12 V"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years warranty",
+ "fetched": "2026-11-13T18:03+06:00",
+ "source": "https://www.pchouse.com.bd/thermaltake-pure-a12-radiator-green-led-case-fan",
+ "store": "pchouse"
+}

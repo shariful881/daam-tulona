@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "CPU Cache": "25MB"
+  },
+  "Basic Information": {
+   "Monitor": "No Monitor",
+   "Chipset": "Intel Q670",
+   "Form Factor": "Small Tower"
+  },
+  "Others": {
+   "Mouse": "Wired Mouse",
+   "Body Color": "Black"
+  },
+  "Graphics": {
+   "Graphics": "Intel UHD Graphics 770 (Shared Memory)"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Features": "Keyboard: Wired Keyboard"
+  },
+  "Software": {
+   "Operating System": "Free-Dos"
+  },
+  "Main Features": {
+   "Processor": "Intel Core i7 12700",
+   "RAM": "8GB DDR4",
+   "Storage": "512GB"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Built-in"
+  },
+  "Power": {
+   "Power Supply": "180W PSU"
+  },
+  "Physical Specification": {
+   "Weight": "5.3 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year (Box Mandatory While Claiming)"
+  },
+  "Image": {
+   "Model": "Lenovo ThinkCentre M70s Gen 3"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7 12700",
+  "RAM: 8GB DDR4",
+  "Chipset: Intel Q670"
+ ],
+ "model": "Lenovo ThinkCentre M70s Gen 3",
+ "warranty": "3 Year (Box Mandatory While Claiming)",
+ "fetched": "2026-11-13T17:48+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkcentre-bpc-m70s-gen-3-12th-generation-intel-core-i7-12700",
+ "store": "creatus"
+}

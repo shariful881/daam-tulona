@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "31.5 Inch",
+   "Display Type": "LED",
+   "Panel Type": "OLED",
+   "Resolution": "3840 x 2160 (UHD)",
+   "Pixel Pitch (mm)": "0.181(H) x 0.181(V) mm",
+   "Display Surface": "Anti-Reflection",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "250 cd/m2 (Typ, SDR APL 100%); 1000 nits (Typ, HDR APL 3%)",
+   "Contrast Ratio": "1.5M:1",
+   "Refresh rate": "240Hz",
+   "Color Support": "10bit (1.07B)",
+   "Color Gamut": "99% DCI-P3",
+   "Response Time": "0.03ms GTG",
+   "Others Features": "OSD Sidekick",
+   "Curvature": "Flat",
+   "HDR": "VESA DisplayHDR True Black 400"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100*100mm",
+   "Height Adjustment": "130mm",
+   "Tilt": "-5°~+20°"
+  },
+  "Basic Information": {
+   "Others": "Power Saving Mode: 0.5W"
+  },
+  "Features": {
+   "Dimension": "718.3 x 613.6 x 158.6 mm with Stand (WxHxD)",
+   "Weight": "8.53 kg with stand"
+  },
+  "Output": {
+   "Voltage": "AC 100-240V ~ 50/60Hz"
+  },
+  "Connectivity": {
+   "Audio Jack": "1 x Earphone Jack",
+   "Display Port": "1 x Displayport 2.1 (UHBR 20) in",
+   "USB Port(s)": "2 x USB 3.2 Downstream ports",
+   "USB Type-C": "1 x USB Type-C (Alternate Mode; Upstream port; Power Delivery up to 65W)",
+   "HDMI": "2 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Power Consumption": "78W **"
+  },
+  "General": {
+   "Type": "Power Adapter"
+  },
+  "Audio Features": {
+   "Speaker Details": "5W x 2",
+   "Speaker": "Speaker (Built In): Yes"
+  }
+ },
+ "key_features": [
+  "Resolution: 4K UHD (3840 x 2160)",
+  "Display: OLED, 240Hz, 0.03ms GTG",
+  "Ports: 2x HDMI, 2x DP, 1x Mini-DP, 2x USB, 1x Type-C",
+  "Features: VESA DisplayHDR True Black 400, Flicker-Free"
+ ],
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-aorus-fo32u2p-gaming-monitor",
+ "store": "pchouse"
+}

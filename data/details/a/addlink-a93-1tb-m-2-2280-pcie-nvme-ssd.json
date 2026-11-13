@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Microsoft Windows 8\nMicrosoft Windows 10",
+   "Controller": "MAP1602A Falcon Lite (Quad-Core)"
+  },
+  "Key Features": {
+   "Capacity": "1TB",
+   "Endurance": "750 TBW",
+   "Interface": "PCIe 4.0 x4",
+   "Features": "PS5 Compatible",
+   "Form Factor": "M.2 2280 (Single-Sided)",
+   "NAND Flash": "Xtacking 3.0 (EET1A)"
+  },
+  "Main Features": {
+   "Read Speed": "7,200 MB/s",
+   "Write Speed": "6,100 MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity : 1TB",
+  "Interface: NVMe GEN4x4",
+  "R/W: 7,200MB/s & 6,100 MB/s",
+  "Form Factor: M.2 2280"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/addlink-a93-1tb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

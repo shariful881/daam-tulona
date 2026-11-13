@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Frequency": "3.5GHz base frequency",
+   "Processor Core": "4 cores",
+   "Chipset": "Intel® H770",
+   "Processor Type": "Intel® Core™ i3-14100"
+  },
+  "Basic Information": {
+   "Monitor": "Without Monitor",
+   "SSD": "512GB M.2 NVMe SSD",
+   "Memory": "8GB 5600 MHz DDR5 SDRAM; 2 DIMM slots enabling up to 64GB",
+   "Form Factor": "Internal 180W Power Supply",
+   "Audio": "Realtek ALC3867 codec, universal audio jack with CTIA headset support, audio line-out rear ports (3.5 mm), multi-streaming capable"
+  },
+  "Graphics": {
+   "Graphics": "Intel® UHD Graphics 770"
+  },
+  "Input Devices": {
+   "Keyboard": "HP USB Standard Keyboard",
+   "Mouse": "HP USB Optical Mouse",
+   "Optical Drive": "Without DVDRW"
+  },
+  "External Features": {
+   "Expansion Slots": "1 full-height PCI; 2 M.2; 1 PCIe 3 x1; 1 PCIe 4 x16 (1 M.2 slot for WLAN and 1 M.2 2242/2280 slot for storage.)"
+  },
+  "Connectivity": {
+   "LAN": "Integrated 10/100/1000M GbE"
+  },
+  "Os": {
+   "Operating System": "FreeDOS"
+  },
+  "Special Features": {
+   "WLAN": "Realtek RTL8821CE-CG 802.11a/b/g/n/ac (1×1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years HP standard warranty"
+  },
+  "Image": {
+   "Model": "280 Pro G9"
+  }
+ },
+ "key_features": [
+  "Processor: Intel 14th Gen Core i3-14100 processor (3.5 GHz upto 4.7 GHz, 12 MB)",
+  "Memory: 8GB DDR5 RAM",
+  "Storage: 512GB SSD"
+ ],
+ "model": "280 Pro G9",
+ "warranty": "03 Years HP standard warranty",
+ "fetched": "2026-11-13T17:46+06:00",
+ "source": "https://www.creatus.com.bd/hp-pro-tower-280-g9-mt-core-i3-14th-gen-14100-8gb-ram-512gb-ssd-brand-pc",
+ "store": "creatus"
+}

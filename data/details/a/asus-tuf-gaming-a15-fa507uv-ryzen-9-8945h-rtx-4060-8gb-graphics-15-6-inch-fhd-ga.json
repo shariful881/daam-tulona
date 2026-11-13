@@ -1,0 +1,99 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 9 8945H",
+   "Processor Frequency": "4.0GHz up to 5.2GHz",
+   "Processor Core": "8",
+   "Processor Thread": "16"
+  },
+  "CPU Cache": {
+   "L2 Cache": "8MB",
+   "L3 Cache": "16MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600Mhz",
+   "Max RAM Capacity": "up to 32GB",
+   "Ram": "16GB",
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 slots (support either SATA or NVMe)",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4060",
+   "Graphics Memory": "8GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "RGB Backlit",
+   "Keyboard Features": "RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD",
+   "Speaker": "Yes",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC",
+   "Headphone & Microphone Port": "1 x 3.5 mm combo audio jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "Yes",
+   "WiFi": "Wi-Fi 6 (802.11ax) (Dual band) 2x2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Win-11 Home"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "IPS-level",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "Anti-glare display\nG-Sync technology\nNTSC %: 72%\nSRGB %: 100%\nAdobe %: 75.35%",
+   "Touch Screen": "No",
+   "Refresh Rate": "144Hz"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "90WHrs, 4S1P",
+   "Adapter Type": "150W AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.20 Kg",
+   "Color": "JAEGER GRAY",
+   "Dimensions": "359 x 256 x 22.8-24.5mm"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming A15 FA507UV"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen Ryzen 9 8945H (4.0GHz up to 5.2GHz, 8 cores)",
+  "RAM: 16GB DDR5 5600Mhz , Storage: 512GB SSD",
+  "Graphics: NVIDIA GeForce RTX 4060 8GB GDDR6",
+  "Features: RGB Backlit Keyboard, WiFi-6, Type-C"
+ ],
+ "model": "TUF Gaming A15 FA507UV",
+ "warranty": "02 years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-a15-fa507uv-ryzen-9-gaming-laptop",
+ "store": "creatus"
+}

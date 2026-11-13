@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Memory": {
+   "Slots": "2.5-Slot"
+  },
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "Base / Boost Clock: 2317/2602MHz",
+   "Memory Clock": "20.0Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "2560"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "3 x DisplayPort",
+   "HDMI": "1 x HDMI"
+  },
+  "Power Specifications": {
+   "Power Consumption": "130W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Physical Specification": {
+   "Dimensions": "330*190*90mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Polar Fox GeForce RTX 5050 OC"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR6, Memory Clock: 20 Gbps",
+  "Core Clock: Base: 2317 MHz; Boost: 2602 MHz",
+  "CUDA Cores: 2560, Memory Bandwidth: Up to 320 GB/s",
+  "Display Outputs: 3x DisplayPort, 1x HDMI"
+ ],
+ "model": "Polar Fox GeForce RTX 5050 OC",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:05+06:00",
+ "source": "https://www.creatus.com.bd/manli-polar-fox-geforce-rtx-5050-oc-graphics-card",
+ "store": "creatus"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "BASIC Information": {
+   "OS": "Android 13"
+  },
+  "Basic Information": {
+   "CPU": "4x 2.8 GHz Cortex-A73, 4x 1.9 GHz Cortex-A53 (Kryo 265), Cores: 8",
+   "Display": "11 in, IPS, 1920 x 1200 pixels, 24 bit",
+   "Graphics": "Qualcomm Adreno 610, 1260 MHz",
+   "Memory": "microSD, microSDHC, microSDXC",
+   "Processor": ": Qualcomm Snapdragon 685 (SM6225-AD)",
+   "Storage": "128 GB",
+   "Camera": "3264 x 2448 pixels, 1920 x 1080 pixels, 30 fps",
+   "Battery": "7040 mAh, Li-Polymer"
+  },
+  "Laptop and Tablet": {
+   "RAM": "6 GB"
+  },
+  "Features": {
+   "Weight": "465 g"
+  },
+  "Network & Wireless Connectivity": {
+   "WiFi": "a, b, g, n, n 5GHz, ac, Dual band, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi Display"
+  },
+  "Connectivity": {
+   "Bluetooth": "5.1"
+  },
+  "General": {
+   "USB": "2.0, USB Type-C"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Display: 11 in, IPS, 1920 x 1200 pixels, 24 bit",
+  "Graphics: Qualcomm Adreno 610, 1260 MHz",
+  "Memory: MicroSD, microSDHC, microSDXC",
+  "Processor: Qualcomm Snapdragon 685 (SM6225-AD)"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-xiaoxin-pad-2024-11-inch-snapdragon-685-6gb-128gb-android-tablet",
+ "store": "pchouse"
+}

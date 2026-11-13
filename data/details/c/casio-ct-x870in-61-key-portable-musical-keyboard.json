@@ -1,0 +1,80 @@
+{
+ "specs": {
+  "Specification": {
+   "Keyboard": "61 standard size keys\nTouch Response: Sensitivity 3 types, off",
+   "Maximum Polyphony": "48 notes (24 for certain tones)",
+   "Reverb": "1 to 20, Off",
+   "Chorus": "1 to 10, Tone",
+   "Chord Book Function": "Chord guide",
+   "Registration": "32 (4 setups x 8 banks)",
+   "MIDI": "16 multi-timbre received, GM Level 1 standard",
+   "Musical Information Function": "Tone, Rhythm, Song Bank numbers and names, staff notation, fingering, pedal operation, tempo, measure and beat number, chord name, etc.",
+   "Pitch Bend Wheel": "Pitch Bend Range 0 to 24 semitones",
+   "USB Flash Drive": "SMF direct playback, data storage, data loading, data deleting, USB flash drive format",
+   "Power Jack": "DC 9.5V",
+   "Speakers": "12cm x 2 (Output: 2.5W + 2.5W)",
+   "Power Consumption": "7.5 W",
+   "Dimensions": "W 94.8 x D 35.0 x H 10.9 cm",
+   "Weight": "Approximately 4.4 kg (without batteries)",
+   "Included Accessories": "LAD-6 Adaptor"
+  },
+  "Tones": {
+   "Built-in Tones": "600 (21 Indian)",
+   "Functions": "Layer, Split, Piano/Organ button"
+  },
+  "Metronome": {
+   "Beats per Measure": "0 to 9",
+   "Tempo Range": "20 to 255"
+  },
+  "Song Bank": {
+   "Demo Song": "1",
+   "Built-in Songs": "160",
+   "User Songs": "10*",
+   "User-recorded songs": "6*"
+  },
+  "Step Up Lesson": {
+   "Lessons": "3 (Listen, Watch, Remember), Easy Mode",
+   "Lesson Part": "L, R, LR",
+   "Functions": "Repeat, Voice Fingering Guide, Note Guide, Performance Evaluation"
+  },
+  "Auto Accompaniment": {
+   "Built-in Rhythms": "195 (26 Indian)",
+   "User Rhythms": "10*"
+  },
+  "Recorder": {
+   "Keyboard Play": "5 songs, 6 tracks",
+   "Playing Along with a Built-in Songs": "1 song (L, R, LR)",
+   "Memory Capacity": "Approximately 40,000 notes (1 song)"
+  },
+  "Other Functions": {
+   "Transpose": "±1 octaves (-12 to +12 semitones)",
+   "Octave Shift": "Upper 1/Upper 2/Lower, ±3 octaves",
+   "Tuning": "A4 = 415.5 to 465.9 Hz (Initial Default: 440.0 Hz)",
+   "Preset Scales": "17",
+   "Music Preset": "310",
+   "One Touch Preset": "195",
+   "Auto Harmonize": "12 types",
+   "Arpeggiator": "100 types",
+   "SFX": "57"
+  },
+  "Inputs/Outputs": {
+   "USB flash drive port": "TYPE A",
+   "USB port": "TYPE B",
+   "PEDAL jack": "Standard jack (sustain, sostenuto, soft, rhythm)",
+   "Phones/Output jack": "Stereo standard jack/Output Impedance 167Ω, Output Voltage 4.5V (RMS) MAX",
+   "Audio In jack": "Stereo mini jack/Input Impedance 10kΩ, Input Sensitivity 200mV"
+  },
+  "Power Supply": {
+   "Batteries": "6 AA-size alkaline batteries",
+   "Battery Life": "Approximately 3 hours continuous operation on alkaline batteries",
+   "AC Adaptor": "LAD-6",
+   "Auto Power Off": "Approximately 30 minutes after last operation; Can be disabled."
+  }
+ },
+ "key_features": [
+  "Indian Tones include: Sitar, Tanpura, Harmonium, Santur, Sarod, Veena, Shanai and much more"
+ ],
+ "fetched": "2026-11-13T17:54+06:00",
+ "source": "https://diamu.com.bd/product/casio-ct-x870in-61-key-portable-musical-keyboard/",
+ "store": "diamu"
+}

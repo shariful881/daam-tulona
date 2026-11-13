@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core I9 14900HX",
+   "Generation": "14Th Gen",
+   "Processor Frequency": "Up To 5.8 GHz",
+   "Processor Core": "24(8P+16E)",
+   "Processor Thread": "32",
+   "CPU Cache": "36MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Max RAM Capacity": "32GB capacity",
+   "Ram": "16GB (SO-DIMM)",
+   "Storage Type": "PCIe 4.0 NVMe M.2 SSD",
+   "Ram Type": "DDR5"
+  },
+  "Storage": {
+   "Extra M.2 Slot": "2x SO-DIMM Slots\n2x M.2 Slots Support Either SATA Or NVMe"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard 4-Zone RGB"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD Camera",
+   "Microphone": "Built-In Array Microphone",
+   "Audio Features": "AI Noise-Canceling Technology\nDolby Atmos\nHi-Res Certification (For Headphones)\nSmart Amp Technology\nSupport Microsoft Cortana Near Field/Far Field"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.1 FRL"
+  },
+  "Network & Connectivity": {
+   "Lan": "10/100/1000 Mbps (1x RJ45 LAN Port)"
+  },
+  "Security": {
+   "Security Chip": "Trusted Platform Module (Firmware TPM)\nBIOS Administrator Password And User Password Protection"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-Inch",
+   "Display Type": "PS-Level",
+   "Display Resolution": "QHD+ (2560 X 1600, WQXGA)",
+   "Display Features": "Anti-Glare Display\nG-Sync\nPantone Validated\nROG Nebula Display\nSupport Dolby Vision HDR"
+  },
+  "Connectivity": {
+   "USB Port": "2x USB 3.2 Gen 2 Type-A\n1x Thunderbolt 4 Support DisplayPort\n1x USB 3.2 Gen 2 Type-C Support DisplayPort / Power Delivery / G-SYNC"
+  },
+  "Power": {
+   "Battery Type": "4S1P, 4-Cell Li-Ion",
+   "Battery Capacity": "90WHrs"
+  },
+  "Physical Specification": {
+   "Weight": "2.50 Kg",
+   "Color": "Volt Green",
+   "Dimensions": "35.4 X 26.4 X 2.26 ~ 3.04 Cm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (Battery, Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "ASUS ROG Strix G16"
+  },
+  "Product List": {
+   "Asus Laptop Price List in BD": "Price"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ROG Strix G16",
+ "warranty": "2 Year (Battery, Adapter 1 Year)",
+ "fetched": "2026-11-13T18:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-rog-strix-g16-g614jvr-n4152w-core-i9-14th-gen-rtx-4060-8gb-graphics-gaming-laptop",
+ "store": "creatus"
+}

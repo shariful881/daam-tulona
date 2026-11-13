@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2",
+   "Interface": "PCIe 5.0 x4, NVMe 2.0",
+   "Flash Type": "Samsung V-NAND TLC",
+   "MTBF": "1.5 Million Hours Reliability (MTBF)",
+   "Others": "CONTROLLER: Samsung in-house Controller\nCACHE MEMORY: Samsung 1GB Low Power DDR4X SDRAM (1TB)\nTRIM Support\nS.M.A.R.T Support\nGC (GARBAGE COLLECTION)\nAuto Garbage Collection Algorithm\nAES 256-bit Encryption (Class 0) TCG/Opal\nIEEE1667 (Encrypted drive)\nDEVICE SLEEP MODE SUPPORT"
+  },
+  "Sequential R/W": {
+   "Sequential Read Speed": "Up to 14,800 MB/s",
+   "Sequential Write Speed": "Up to 13,400 MB/s"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 - 70 ℃",
+   "Shock resistance": "1,500 G & 0.5 ms (Half sine)"
+  },
+  "Physical Specification": {
+   "Weight": "Max 9.0g",
+   "Dimensions": "80.15 x 22.15 x 2.38 mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  },
+  "Image": {
+   "Model": "9100 Pro 1TB"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor M.2",
+  "Interface: PCIe 5.0 x4, NVMe 2.0",
+  "Read Speed: Up to 14,800 MB/s",
+  "Write Speed: Up to 13,400 MB/s"
+ ],
+ "model": "9100 Pro 1TB",
+ "warranty": "5 Years",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.creatus.com.bd/samsung-9100-pro-1tb-m-2-nvme-ssd",
+ "store": "creatus"
+}

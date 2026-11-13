@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "Fast IPS",
+   "Display Size": "23.8 inch",
+   "Display Type": "WLED",
+   "Resolution": "FHD (1920x1080)",
+   "Pixels Per Inch (PPI)": "93.0 PPI",
+   "Pixel pitch(MM)": "0.2745 mm",
+   "Display Surface": "Anti glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "300 cd/m²",
+   "Contrast Ratio": "1000:1, MEGA DCR",
+   "Refresh Rate": "260Hz OC, 200Hz Native",
+   "Color Support": "16.7 Million",
+   "Response Time": "0.3ms (MPRT) / 1ms (GtG)",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Adaptive Sync",
+   "HDCP": "HDCP 2.2"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "No"
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort 1.4 x 1",
+   "HDMI": "HDMI 2.0 x1",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "Tilt: -5° ~ 20°",
+   "Vesa Wall Mount": "100mm × 100mm"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Dimension": {
+   "Including Base": "544 × 418.1 × 175 mm",
+   "excluding Base": "544 × 318.5 × 36.1 mm"
+  },
+  "Weight": {
+   "Gross weight incl. package (in kg)": "4.23",
+   "Net weight excl.package (in kg)": "2.42",
+   "Product without stand (kg)": "2.25"
+  },
+  "Power": {
+   "Type": "External 12VDC, 2.5A",
+   "Power Consumption": "18W"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: FAST IPS, 260Hz, 1ms(GTG), 0.3ms (MPRT)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: Adaptive Sync, Flicker Free, HDR Ready"
+ ],
+ "warranty": "3 year warranty",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24g50z2-23-8-inch-260hz-fast-ips-fhd-gaming-monitor",
+ "store": "pchouse"
+}

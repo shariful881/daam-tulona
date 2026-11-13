@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Frequency Range": {
+   "Headset": "20 Hz – 20 kHz",
+   "Microphone": "100 Hz – 10 KHz"
+  },
+  "Technical Specification": {
+   "Impedance": "32 Ohm",
+   "Input Jack": "USB/ Type-C",
+   "Driver Diameter": "30mm",
+   "Connectivity": "Wired"
+  },
+  "Sensitivity": {
+   "Headphone": "94 dBV/Pa +/- 3 dB",
+   "Microphone": "-17 dBV/Pa +/- 4 dB"
+  },
+  "Dimensions": {
+   "Height": "6.73 in (171 mm)",
+   "Width": "5.94 in (151 mm)",
+   "Depth": "2.68 in (68 mm)"
+  },
+  "Physical Specification": {
+   "Weight": "Weight: 6.9 oz (197 g)",
+   "Color": "Black"
+  },
+  "Microphone": {
+   "Frequency": "100 Hz – 10 KHz",
+   "Sensitivity": "-17 dBV/Pa +/- 4 dB",
+   "Impendance": "32 Ohm"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Driver size: 30 mm",
+  "Microphone Type: Bi-directional",
+  "Connectivity: USB/ Type-C",
+  "Cable length: 1.9 Meter"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://smartbd.com/product/logitech-h390-usb-headset-with-noise-cancelling-mic-981-001577/",
+ "store": "smartbd"
+}

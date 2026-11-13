@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 Inch",
+   "Display Type": "LED",
+   "Resolution": "4K UHD (3840 x 2160)",
+   "Pixel Pitch (mm)": "0.15 x 0.15 mm",
+   "Display Surface": "Anti-glare",
+   "Aspect ratio": "16:9",
+   "Viewing Angle": "178° Horizontal viewing angle",
+   "Brightness": "350 nits",
+   "Contrast Ratio": "1000:1 static; 8000000:1 dynamic",
+   "Refresh rate": "60Hz",
+   "Color Gamut": "99% sRGB",
+   "Response Time": "5ms GtG (with overdrive)",
+   "Others Features": "Hardness: 3H",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes, HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)",
+   "HDCP": "Yes, DisplayPort, HDMI and USB Type-C"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100 mm x 100 mm",
+   "Height Adjustment": "150 mm",
+   "Pivot": "±90°",
+   "Swivel": "±45°",
+   "Tilt": "-5 to +20°"
+  },
+  "Basic Information": {
+   "Power": "Type: Internal"
+  },
+  "Features": {
+   "Dimension": "(W x D x H) 61.34 x 22.73 x 54.7 cm",
+   "Weight": "10 kg (with stand)"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "Display Port": "1 x DisplayPort 1.4",
+   "USB Type-C": "1x SuperSpeed USB Type-C 5Gbps signaling rate (up to 65W USB Power Delivery, Alt Mode DisplayPort 1.4)",
+   "Others": "1x RJ-45 (10/100/1000 Mbps)"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: 4K UHD (3840 x 2160)",
+  "Display: IPS, 60Hz, 5ms GtG",
+  "Ports: 1x DP 1.4, 1x HDMI 2.0, 1x Type-C, 3x USB, 1x RJ45",
+  "Features: Low Blue Light, Flicker-Free, Ambient Light Sensor"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/hp-e27k-g5-27-inch-monitor",
+ "store": "pchouse"
+}

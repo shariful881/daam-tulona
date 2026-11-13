@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB to 4TB",
+   "Form Factor": "3.5 inch",
+   "Interface": "SATA"
+  },
+  "General Information": {
+   "RPM Desktop HDD": "5900"
+  },
+  "Hard Disk": {
+   "Disk Type": "SATA NAS HDD",
+   "Capacity": "4TB",
+   "RPM": "5900RPM",
+   "Interface Type": "SATA 6.0Gb/s",
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Model-4709"
+  }
+ },
+ "key_features": [
+  "Interface (Built-in): SATA 6.0Gb/s",
+  "Form factor: 3.5 Inch",
+  "Buffer: 64MB",
+  "Transfer Rate: 180MB/s"
+ ],
+ "model": "Model-4709",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:00+06:00",
+ "source": "https://www.creatus.com.bd/seagate-ironwolf-4tb-nas-hdd",
+ "store": "creatus"
+}

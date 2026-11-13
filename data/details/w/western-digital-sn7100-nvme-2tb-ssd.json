@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Sequential R/W": "7250MB/s / 6900MB/s",
+   "Interface": "PCIe Gen 4.0",
+   "Form Factor": "M.2 2280"
+  },
+  "Features": {
+   "Weight": "5.8gms"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C to 85°C"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5-Year Limited Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe PCIe Gen4 x4",
+  "Sequential Read: 7250MB/s",
+  "Sequential Write: 6900MB/s"
+ ],
+ "warranty": "5-Year Limited Warranty",
+ "fetched": "2026-11-13T18:05+06:00",
+ "source": "https://www.pchouse.com.bd/western-digital-sn7100-nvme-2tb-ssd",
+ "store": "pchouse"
+}

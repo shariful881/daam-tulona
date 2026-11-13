@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 14th/13th/12th Gen Intel Core Processors, Pentium Gold and Celeron Processors\nLGA 1700",
+   "Chipset": "Intel H610 Chipset",
+   "Form Factor": "mATX",
+   "Audio": "Realtek ALC897 Codec\n7.1-Channel High-Definition Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe x16 slot (From CPU)\nSupports up to PCIe 4.0 x16\n1x PCIe x1 slot (From H610 chipset)\nSupports PCIe 3.0 x1"
+  },
+  "Memory": {
+   "Slots": "2",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "supporting a maximum resolution of 4K 30Hz\nsupporting a maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz\nAvailable only on processors featuring integrated graphics.\nGraphics specifications may vary depending on the CPU installed"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 1.4 with HDR port",
+   "Display Port (s)": "1x VGA",
+   "USB (s)": "1x USB 3.2 Gen 1 5Gbps connector (From H610 chipset)\nSupports additional 2 USB 3.2 Gen 1 5Gbps ports\n2x USB 2.0 Type-A connectors (From Hub-GL850G)\nSupports additional 4 USB 2.0 ports",
+   "LAN Port (s)": "1x Realtek RTL8111H 1Gbps LAN controller",
+   "Supported Storage": "1x M.2 slot (Key M) (from CPU)\nSupports up to PCIe 3.0 x4\nSupports 2242/ 2260/ 2280 storage devices",
+   "Internal I/O Ports": "1x 24-pin ATX main power connector\n1x 8-pin +12V power connector\n1x 4-pin CPU fan connector\n2x 4-pin system fan connectors\n1x Front panel audio connector\n2x System panel connectors\n1x Chassis Intrusion connector\n1x Serial port connector\n1x Clear CMOS jumper"
+  },
+  "Others": {
+   "Special Features": "1x 4-pin RGB LED connector\n4x EZ Debug LED"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PRO H610M-E DDR4"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 12th/13th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 2x DDR4, Max 64GB",
+  "Graphics Output: 1x HDMI, 1x VGA"
+ ],
+ "model": "PRO H610M-E DDR4",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-h610m-e-ddr4-12th-gen-13th-gen-matx-motherboard",
+ "store": "creatus"
+}

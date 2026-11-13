@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "AMD Ryzen 5 7535H: 6C/12T, 3.30/4.55GHz (35W)",
+   "RAM": "32GB DDR5-4800 SO-DIMM x 2 (Support)",
+   "Graphics Card": "Integrated Radeon Graphics",
+   "Storage": "256GB~2TB M.2 2280 NVMe PCIe 4.0 x 4 SSD\n1TB 2.5\" SATA HDD (Support)",
+   "Power Supply": "19Vdc, 6.32A, 120W Power Adapter",
+   "Network & Wireless Connectivity": "Intel Wi-Fi 6E (Gig+), Bluetooth 5.2\n2.5G Ethernet, 10/100/1000/2500 Mbps"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front I/O Ports\n1 x USB 4 Type-C (w/ DP output)\n2 x USB 3.2 Gen1 Type-A\n1 x Audio Jack\n1 x Kensington Lock(side)\nBack I/O\n1 x USB 4 Type-C (Support DP1.4, PD input*)\n3 x USB 3.2 Gen1\n2 x HDMI 2.1 (Up to 4K@60Hz)\n1 x Configurable Port (VGA)\n1 x 2.5G RJ45 LAN\n1 x DC-in\n1 x Padlock ring"
+  },
+  "Physical Specification": {
+   "Weight": "0.75 kg(barebone)",
+   "Dimensions": "120 x 130 x 58 mm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "ExpertCenter PN53 (Barebone)"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7535H",
+  "Memory & Storage: Configurable",
+  "Graphics: Integrated Radeon Graphics",
+  "Wireless LAN: Intel Wi-Fi 6E (Gig+), Bluetooth 5.2"
+ ],
+ "model": "ExpertCenter PN53 (Barebone)",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:42+06:00",
+ "source": "https://www.creatus.com.bd/asus-expertcenter-pn53-barebone-mini-pc",
+ "store": "creatus"
+}

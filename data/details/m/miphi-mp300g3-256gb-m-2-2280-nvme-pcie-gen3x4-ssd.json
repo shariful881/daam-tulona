@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 3.0 x 4 NVMe 1.4",
+   "Flash Type": "3D TLC",
+   "TBW": "150 TB",
+   "Others": "4K Random Read: 400K IOPS\n4K Random Write: 600K IOPS\nOperating Temperature: 0°C to 85°C"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "3300MB/s",
+   "Sequential Write": "1700MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Limited Warranty"
+  },
+  "Image": {
+   "Model": "MP300G"
+  }
+ },
+ "key_features": [
+  "Capacity: 256GB",
+  "Interface: PCIe Gen 3.0 x 4 NVMe 1.4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 3300MB/s / 1700MB/s"
+ ],
+ "model": "MP300G",
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.creatus.com.bd/miphi-mp300g3-256gb-gen3-nvme-ssd",
+ "store": "creatus"
+}

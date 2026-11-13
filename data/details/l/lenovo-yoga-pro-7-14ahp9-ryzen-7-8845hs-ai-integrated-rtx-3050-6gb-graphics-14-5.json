@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Display Features": {
+   "Chipset Model": "AMD SoC Platform"
+  },
+  "Basic Information": {
+   "Power": "Battery Capacity: 73Wh",
+   "Display": "Display Size: 14.5\"",
+   "Graphics": "Graphics Model: NVIDIA GeForce RTX 3050",
+   "Memory": "RAM: 16GB Soldered",
+   "Operating System": "Windows 11 Home",
+   "Processor": "Processor Brand: AMD",
+   "Storage": "Storage Type: M.2 2280 PCIe 4.0x4 NVMe"
+  },
+  "Laptop and Tablet": {
+   "Ports & Slots": "Optical Drive: N/A",
+   "Body Material": "Aluminium (Top), Aluminium (Bottom)",
+   "Camera & Audio": "WebCam: FHD 1080p + ToF Sensor",
+   "Security": "Fingerprint Sensor: N/A"
+  },
+  "Features": {
+   "Dimension": "325.5 x 226.49 x 16.6 mm (12.81 x 8.92 x 0.65 inches)",
+   "Weight": "Starting at 1.64 kg (3.62 lbs)"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "N/A"
+  },
+  "Connectivity": {
+   "Bluetooth": "BT5.3",
+   "WiFi Technology": "Wi-Fi 6E, 11ax 2x2"
+  },
+  "Others": {
+   "Other Features": "MIL-STD-810H military test passed (21 test items)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years Warranty (Battery & AdaPC-ABS (Top), PC-ABS (Bottom)pter 1 Year)"
+  }
+ },
+ "key_features": [
+  "RAM: 16GB DDR5 6400MHz; Storage: 1TB SSD",
+  "Graphics: NVIDIA GeForce RTX 3050 6GB GDDR6",
+  "Features: Backlit Keyboard, Mil-Std-810h Military Grade"
+ ],
+ "warranty": "2 years Warranty (Battery & AdaPC-ABS (Top), PC-ABS (Bottom)pter 1 Year)",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-yoga-pro-7-14ahp9-gaming-laptop",
+ "store": "pchouse"
+}

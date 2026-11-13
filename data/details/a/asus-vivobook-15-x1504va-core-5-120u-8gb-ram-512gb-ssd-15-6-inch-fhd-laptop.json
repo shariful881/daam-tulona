@@ -1,0 +1,78 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core 5 120U",
+   "Processor Frequency": "Up to 5.0 GHz",
+   "Generation": "Intel Core Series 1",
+   "Processor Core": "10 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12 MB Intel Smart Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel Integrated Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Resolution": "1920 × 1080 (Full HD)",
+   "Touch Screen": "No",
+   "Display Features": "Full HD, Anti-glare (verify SKU)",
+   "Refresh Rate": "60Hz (verify SKU)"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5"
+  },
+  "Removable": {
+   "Total RAM Slot": "8GB on board\n1 x DDR5 SO-DIMM slot",
+   "Max RAM Capacity": "24GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Chiclet Keyboard with Num-key, US (International)",
+   "TouchPad": "Precision touchpad",
+   "Keyboard Features": "1.4mm Key-travel"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p HD camera, With privacy shutter",
+   "Speaker": "Built-in speaker",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "SonicMaster"
+  },
+  "Network & Connectivity": {
+   "LAN": "Wi-Fi 6 (802.11ax) (Dual band) 1*1",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 1.4",
+   "USB 3 Port": "1 x USB 2.0 Type-A (data speed up to 480Mbps)\n2 x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 1 Type-C (data speed up to 5Gbps",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Power": {
+   "Battery Type": "3S1P, 3-cell Li-ion",
+   "Battery Capacity": "42WHrs",
+   "Adapter Type": "45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal"
+  },
+  "Warranty Details": {
+   "Warranty": "02 years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 5 120U",
+  "Memory: 8GB RAM",
+  "Storage: 512GB SSD",
+  "Display: 15.6-inch Full HD"
+ ],
+ "warranty": "02 years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.pchouse.com.bd/asus-vivobook-15-x1504va-bq4172-core-5-120u-laptop",
+ "store": "pchouse"
+}

@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "8GB",
+   "Resolution": "7680 X 4320",
+   "Core Clock": "Base:1552Mhz; Boost:1777Mhz",
+   "Memory Clock": "14Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "2560",
+   "Others": "Manufacturing Process: 8nm\nMemory Bandwidth: 224 GB/S\nNV technology Support: NVIDIA DLSS, NVIDIA G-SYNC, 2nd Gen Ray Tracing Cores\nHeat Pipe Number/Spec: 2*φ6\nTDP: 125W"
+  },
+  "Interface": {
+   "Display Port": "1x DP",
+   "HDMI": "1x HDMI",
+   "DVI": "1x DL-DVI"
+  },
+  "Power Specifications": {
+   "Connectors": "6pin",
+   "Recommended PSU": "550W and above"
+  },
+  "Display Option": {
+   "Multi Display": "4 Displays"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "255*130*41.3mm",
+   "Others": "2 slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Core Clock: Base:1552Mhz; Boost:1777Mhz",
+  "Memory Clock: 14Gbps",
+  "Memory Bandwidth: 224 GB/S",
+  "Output Ports: 1x HDMI, 1x DP, 1x DL-DVI"
+ ],
+ "status": "Out Of Stock",
+ "code": "39604",
+ "brand": "Colorful",
+ "model": "GeForce RTX 3050 NB DUO V2-V",
+ "warranty": "3 Years",
+ "name": "Colorful GeForce RTX 3050 NB DUO V2-V 8GB GDDR6 Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Colorful",
+  "Colorful GeForce RTX 3050 NB DUO V2-V 8GB GDDR6 Graphics Card"
+ ],
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.startech.com.bd/colorful-geforce-rtx-3050-nb-duo-v2-v-8gb-graphic-card",
+ "store": "startech"
+}

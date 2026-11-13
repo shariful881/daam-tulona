@@ -1,0 +1,71 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8-inch",
+   "Display Type": "LED",
+   "Resolution": "1920x1080",
+   "Pixel pitch(MM)": "0.2745mm",
+   "Display Surface": "Anti-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178°/ 178°",
+   "Brightness": "300cd/㎡",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "200Hz",
+   "Color Support": "16.7M",
+   "Color Gamut": "Color Space (sRGB): 100%",
+   "Response Time": "1ms(GTG), 0.3ms(min.)",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "HDCP": "Yes, 2.3"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "NO"
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort 1.4 x 1 (HBR2)",
+   "HDMI": "HDMI(v2.0) x2",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+22° ~ -5°)",
+   "Vesa Wall Mount": "75x75mm"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Dimension": {
+   "Phys. Dimension (W x H x D)": "54.0 x 40.7 x 21.3 cm (21.26\" x 16.02\" x 8.39\")",
+   "Box Dimension (W x H x D)": "60.0 x 40.6 x 11.5 cm (23.62\" x 15.98\" x 4.53\")"
+  },
+  "Weight": {
+   "Net Weight": "3.7 kg (8.16 lbs)",
+   "Net Weight without Stand": "2.7 kg (5.95 lbs)",
+   "Gross Weight": "4.6 kg (10.14 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<18W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "Voltage : 100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 200Hz, 0.3ms (GTG)",
+  "Ports: DisplayPort 1.4 x 1, HDMI(v2.0) x 2, 1 x audio jack",
+  "Features: AI Visual, Low Blue Light, Flicker-free"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-vg249q5r-24-inch-monitor",
+ "store": "pchouse"
+}

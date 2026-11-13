@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi Function Color Ink Printer",
+   "Output Color": "Color"
+  },
+  "Print": {
+   "Technology": "HP Thermal Inkjet",
+   "Print Resolution": "(Black)-1200 x 1200 dpi\n(Color)-4800 x 1200 dpi",
+   "First Print Out Time": "First Page Out Black (A4, Ready)As fast as 14 sec\nFirst Page Out Color (A4, Ready)As fast as 16 sec",
+   "Duty Cycle up to (Yield)": "Monthly Duty Cycle: 5000 Pages\nRecommended Monthly Print Volume 800 pages",
+   "Duplex": "Yes"
+  },
+  "Print Speed": {
+   "Black": "Up to 23 ppm (draft); Up to 15 ppm (ISO)",
+   "Color": "Up to 22 ppm (draft); Up to 9 ppm (ISO)"
+  },
+  "Copy": {
+   "Copy Speed": "Copy Speed Color (ISO)Up to 6 cpm\nCopy Speed Black (ISO)Up to 13 cpm"
+  },
+  "Scan": {
+   "Scan Type": "Contact Image Sensor (CIS)\nScan Speed (Normal, Letter)Up to 3 ppm (200 ppi, color); Up to 5 ppm (200 ppi, mono)\nScan Speed (Normal, A4)Up to 3.5 ipm (color); Up to 8 ipm (mono)",
+   "Scan Resolution": "Scan Resolution, HardwareUp to 1200 x 1200 dpi\nEnhanced Scanning ResolutionUp to 1200 dpi\nScan Resolution, OpticalUp to 1200 dpi\nScan Resolution Enhanced Disclaimer up to 1200 dpi\nScan Resolution Enhanced DisclaimerUp to 1200 ppi\nBit Depth\n24-bit",
+   "Maximum Scan Size": "Scan Size, Maximum8.5 x 11.69 in\nScan Size (ADF), Maximum8.5 x 14 in"
+  },
+  "Paper Information": {
+   "Paper Size": "A4, A5, A6, B5 (JIS), Envelope (DL, C5, C6, Chou 3, 4), Card (Hagaki, Ofuku Hagaki), Legal",
+   "Paper Type": "Plain Paper, HP Photo Papers, HP Matte Brochure or Professional Paper, HP Glossy Brochure or Professional Paper, Other Photo Inkjet Papers, HP Matte Presentation Paper, Other Matte Inkjet Papers, Other Glossy Inkjet Papers, Light/Recycled",
+   "Paper Weight": "Plain paper: 60 to 105 g/m2, Cards: up to 200 g/m2, Photo paper: up to 250 g/m2, Envelopes: 75 to 90 g/m2,"
+  },
+  "Technical Specs": {
+   "Processor": "800 MHz",
+   "Memory": "256MB",
+   "Display": "2-line LCD Smart guided buttons\n2.0 x 0.4 inch (50.8 x 10.16mm)",
+   "Connectivity": "LAN\nYes\nWi-Fi\n2.4/5G dual-band Wi-Fi, Wi-Fi Direct,\nUSB\nHi-Speed USB 2.0;\nOthers\nBluetooth LE",
+   "Power Consumption": "input voltage: 100 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3 Hz)\nPower Consumption\n0.1 watts (off);1.10 watts (sleep)"
+  },
+  "Physical Specs": {
+   "Color": "White",
+   "Dimension": "427.5 x 364 x 240.3mm",
+   "Weight": "7.70 kg"
+  },
+  "Support": {
+   "Software": "Windows 10, 7, macOS v10.14 Mojave, macOS v10.15 Catalina, macOS v11 Big Sur"
+  },
+  "Special Features": {
+   "Others": "Mobile Printing- Apple AirPrint, Mopria Print Service, HP Print Service Plugin (Android printing), HP Smart app"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (1 Year Default + 1 Year Bonus). For 2nd Bonus year warranty customer must need to register their product by scanning QR Code given on the Box within 30 days from date of purchase. (Warranty without Adapter) (Box Mandatory While Claiming) (Print Head Warranty 12000 pages)"
+  }
+ },
+ "key_features": [
+  "Functions: Print, Copy, Scan",
+  "Print speed (draft): Up to 23 ppm (black) and 22 ppm (color)",
+  "Connectivity: USB, Wi-Fi, Bluetooth, LAN"
+ ],
+ "warranty": "2 Year (1 Year Default + 1 Year Bonus). For 2nd Bonus year warranty customer mus",
+ "fetched": "2026-11-13T17:49+06:00",
+ "source": "https://smartbd.com/product/hp-smart-tank-750-all-in-one-printer-6uu47a/",
+ "store": "smartbd"
+}

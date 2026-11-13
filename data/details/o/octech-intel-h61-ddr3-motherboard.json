@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Core™️ i7 / Core™️ i5 / Core™️ i3 / Pentium®️ / Celeron®️ Processors (CPU up to 95 watts)"
+  },
+  "General Information": {
+   "Socket": "1155"
+  },
+  "Memory": {
+   "Type": "DDR3, two memory slots1066 / 1333 / 1600MHz Memory up to 16GB"
+  },
+  "Graphics": {
+   "Graphics": "GMA X4500 graphics"
+  },
+  "Connector & Ports": {
+   "Internal I/O Ports": "4 x SATA II port\n1 x M.2 (PCIe NVMe Gen3 x4 )\n1 x VGA port\n1 x HDMI port\n6 x USB 2.0 port\n1 x RJ-45 LAN Port\n3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty"
+  },
+  "Image": {
+   "Model": "H61"
+  }
+ },
+ "key_features": [
+  "Type: DDR3",
+  "Socket: 1155",
+  "Warranty: 2 Years Warranty",
+  "Graphics: GMA X4500 Graphics"
+ ],
+ "model": "H61",
+ "warranty": "2 Years Warranty",
+ "fetched": "2026-11-13T18:13+06:00",
+ "source": "https://www.creatus.com.bd/octech-intel-h61-ddr3-motherboard",
+ "store": "creatus"
+}

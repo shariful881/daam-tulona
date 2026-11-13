@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Accelerometer | Gyroscope | Ambient light sensor | Color temperature sensor | Electronic compass | Hall sensor",
+   "Graphics": "Qualcomm® Adreno™ GPU",
+   "Memory": "8GB+256GB\nLPDDR4X+UFS 2.2\nSupports expandable storage: Up to 1.5TB\n*Configurations available may differ between different regions. Available storage and RAM are less than the total memory due to storage of the operating system and software pre-installed on the device.",
+   "Operating System": "Xiaomi HyperOS, Android U",
+   "Processor": "Snapdragon® 7s Gen 2 Mobile Platform\n4nm Process\nCPU: Octa-core, up to 2.4GHz",
+   "Camera": "Rear camera:\n8MP1/4\", f/2, 1.12μm\n1080P 1920x1080 30fps\n720P 1280x720 30fps\nFront Camera:\n8MP1/4\", f/2.28, 1.12μm\n1080P 1920x1080 30fps\n720P 1280x720 30fps",
+   "Battery": "10000mAh (typ), 9800mAh (min)\nSupports 33W* fast charging\n*33W wired charging means the adapter output power is 33W.Actual power output may vary depending on the environment.\nUSB Type-C"
+  },
+  "Dimension": {
+   "Height": "280.00mm",
+   "Width": "181.85mm",
+   "Thickness": "7.52mm",
+   "Weight": "571g"
+  },
+  "Connectivity": {
+   "USB": "USB 2.0\n*USB 2.0 functionality requires a USB 2.0 enabled cable (sold separately).",
+   "Connectivity": "Wi-Fi 6，Wi-Fi 5，Wi-Fi 4 and 802.11a/b/g\n2.4GHz Wi-Fi | 5GHz Wi-Fi\nSupports 2x2 MIMO, Wi-Fi Direct, Miracast, MU-MIMO\nBluetooth 5.2AAC /LDAC/SBC/aptX/aptX-HD/aptx-adaptive\nIPv6"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 12.1\" 2.5K (1600 x 2560), 600nits",
+  "CPU: Qualcomm SM7435-AB Snapdragon 7s Gen 2 (4 nm)",
+  "RAM: 8GB LPDDR4X, Storage: 256GB UFS 2.2",
+  "Battery: 10000mAh, Supports 33W Charging"
+ ],
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-13T17:44+06:00",
+ "source": "https://www.pchouse.com.bd/poco-pad-8gb-256gb-2k-android-tablet",
+ "store": "pchouse"
+}

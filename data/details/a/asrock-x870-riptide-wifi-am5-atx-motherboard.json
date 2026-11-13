@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000 Series Processors",
+   "Chipset": "AMD X870",
+   "Form Factor": "ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm - 8 Layer PCB",
+   "Audio": "- 7.1 CH HD Audio with Content Protection (Realtek ALC4082 Audio Codec) - Individual PCB Layers for R/L Audio Channel - Direct Drive Technology on Front headphone port (Supports up to 600 Ohm headsets) - Nahimic Audio"
+  },
+  "Expansion Slots": {
+   "PCI": "CPU: - 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode* - 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode* Chipset: - 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module - Supports AMD CrossFire™ - 15μ Gold Contact in VGA PCIe Slot (PCIE1)",
+   "M.2 Socket": "CPU: - 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280 PCIe Gen5x4 (128 Gb/s) mode* Chipset: - 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2230/2260/2280 PCIe Gen4x4 (64 Gb/s) mode* - 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2260/2280 PCIe Gen4x4 (64 Gb/s) mode* ASMedia ASM1061: - 4 x SATA3 6.0 Gb/s Connectors"
+  },
+  "Memory": {
+   "Type": "Dual Channel DDR5 Memory Technology",
+   "Slots": "4 x DDR5 DIMM Slots",
+   "Supported Memory": "Supports DDR5 ECC/non-ECC, un-buffered memory up to 8000+(OC)* - Max. capacity of system memory: 256GB - Supports Extreme Memory Profile (XMP) and EXTended Profiles for Overclocking (EXPO) memory modules",
+   "Maximum Memory": "256GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated AMD RDNA graphics (Actual support may vary by CPU) - 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR, HDCP 2.3 and max. resolution up to 4K 120Hz - 2 x USB4, support HDCP 2.3 and max. resolution up to 8K 30Hz"
+  },
+  "Connector & Ports": {
+   "USB (s)": "CPU: - 2 x USB4 Type-C (Rear) - 1 x USB 3.2 Gen2 Type-A (Rear (USB32_3)) - 1 x USB 3.2 Gen1 Type-A (Rear (USB32_1)) Chipset: - 1 x USB 3.2 Gen2x2 Type-C (Front) - 1 x USB 3.2 Gen2 Type-A (Rear (USB32_4)) - 6 x USB 3.2 Gen1 Type-A (2 Rear (USB32_2 and USB32_5), 4 Front) - 8 x USB 2.0 (4 Rear, 4 Front)",
+   "LAN Port (s)": "2.5 Gigabit LAN 10/100/1000/2500 Mb/s - Killer E3100G - Supports Killer LAN Software",
+   "Wireless Communication module": "Wireless LAN - 802.11be 2x2 Wi-Fi 7 Module - Supports IEEE 802.11a/b/g/n/ac/ax/axe/be - Supports 2.4GHz/5GHz/6GHz* frequency band - Supports 160MHz channel bandwidth with 6GHz* frequency band - 1 antenna to support 2 (Transmit) x 2 (Receive) diversity technology - Supports Bluetooth 5.4 - Supports MU-MIMO",
+   "RAID": "Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices*",
+   "Internal I/O Ports": "1 x Thermistor Cable Header - 1 x Power LED and Speaker Header - 1 x RGB LED Header* - 3 x Addressable LED Headers** - 2 x CPU Fan Connectors (4-pin) (Smart Fan Speed Control)*** - 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Control)*** - 1 x AIO Pump Fan Connector (4-pin) (Smart Fan Speed Control)*** - 1 x 24 pin ATX Power Connector (Hi-Density Power Connector) - 2 x 8 pin 12V Power Connectors (Hi-Density Power Connector) - 1 x Front Panel Audio Connector - 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) - 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports) - 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s)"
+  },
+  "Others": {
+   "Special Features": "Superb Productivity - PCIe Gen5 (Graphics, M.2) - Dual Channel DDR5 - USB4 Type-C Ports (40 Gb/s) Rock-Solid Durability - 14+2+1 Power Phase, 80A Dr.MOS for VCore+SOC with Enlarged Heatsink Armor - Flexible Integrated I/O Shield - 20K Long-lasting Black Caps (high quality and conductive polymer capacitors) Ultrafast Gaming - Killer 2.5G LAN, 802.11be Wi-Fi 7 Module - ASRock Lightning Gaming Ports EZ Update - BIOS Flashback Button - ASRock Auto Driver Installer"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000, & 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, Up to 8000+(OC), Max 256GB",
+  "Graphics Output: 1x HDMI 2.1, 2 x USB4, support HDCP 2.3 and max",
+  "Features: 2.5 Gigabit LAN,  802.11be 2x2 Wi-Fi 7 Module, Bluetooth 5.4"
+ ],
+ "price": 3950043000,
+ "regular": 47300,
+ "status": "In Stock",
+ "code": "46677",
+ "brand": "ASRock",
+ "model": "X870 RIPTIDE WIFI",
+ "warranty": "3 Years",
+ "name": "ASRock X870 RIPTIDE WIFI AM5 ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASRock (AMD)",
+  "ASRock X870 RIPTIDE WIFI AM5 ATX Motherboard"
+ ],
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.startech.com.bd/asrock-x870-riptide-wifi-atx-motherboard",
+ "store": "startech"
+}

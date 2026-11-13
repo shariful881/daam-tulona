@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface": "PCIe Gen4x4 with NVMe",
+   "MTBF": "3,000,000 hours",
+   "Sequential R/W": "up to 7,400/5,500 MB/s",
+   "TBW": "740TBW"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G/0.5ms",
+   "Vibration Resistance": "80Hz~2,000Hz/20G"
+  },
+  "Physical Specification": {
+   "Weight": "54g (with Aluminum heat sink)",
+   "Color": "Black",
+   "Dimensions": "80.0(L) x 22.0(W) x 8.7(H) mm (with Aluminum heat sink)"
+  },
+  "Warranty Information": {
+   "Warranty": "5-year limited warranty"
+  },
+  "Image": {
+   "Model": "T-FORCE G70 PRO"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: PCIe Gen4x4 with NVMe",
+  "Read/Write: up to 7,400/5,500 MB/s"
+ ],
+ "model": "T-FORCE G70 PRO",
+ "warranty": "5-year limited warranty",
+ "fetched": "2026-11-13T18:26+06:00",
+ "source": "https://www.creatus.com.bd/team-t-force-g70-pro-1tb-m-2-ssd",
+ "store": "creatus"
+}

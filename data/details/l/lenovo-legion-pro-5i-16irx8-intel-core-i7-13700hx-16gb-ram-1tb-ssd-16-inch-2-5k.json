@@ -1,0 +1,89 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Brightness": "500nits",
+   "Refresh rate": "240 Hz",
+   "Display Features": "500nits, 100% sRGB, DisplayHDR 400, Dolby Vision, G-SYNC, Low Blue Light",
+   "Touch Screen": "No"
+  },
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Core": "16",
+   "Processor Thread": "24",
+   "CPU Cache": "30MB",
+   "Processor Model": "Core i7 13700HX"
+  },
+  "BASIC Information": {
+   "Battery": "80Wh",
+   "Graphics": "8GB",
+   "Storage": "1TB",
+   "Audio": "High Definition (HD) Audio"
+  },
+  "Basic Information": {
+   "Operating System": "Win-11 Home",
+   "Material": "Aluminum (Top), PC/ABS Plastic (Bottom)",
+   "Others": "Performance-Core Base Frequency: 2.10GHz"
+  },
+  "Display": {
+   "Display Resolution": "2560x1600",
+   "Display Type": "2.5K QHD WQXGA Display"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "Slim Tip (3-pin) Adapter",
+   "Total RAM Slot": "2"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "Yes",
+   "Bluetooth": "Bluetooth 5.1",
+   "WiFi": "Wi-Fi 6E, 11ax 2x2",
+   "Security Chip": "Firmware TPM 2.0"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "4800 MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Nvidia RTX 4060 Graphics",
+   "Graphics Type": "GDDR6"
+  },
+  "Physical Specifications": {
+   "Color": "Onyx Grey",
+   "Weight": "2.55 Kg",
+   "Dimensions (W x D x H)": "363.4 x 260.35 x 26.75mm"
+  },
+  "Camera & Audio": {
+   "Microphone": "Yes",
+   "Speaker": "Yes",
+   "WebCam": "FHD Camera"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "Combo",
+   "Optical Drive": "No",
+   "USB 3 Port": "4 x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "2 x USB-C 3.2 Gen 2",
+   "HDMI Port": "1"
+  },
+  "Storage": {
+   "Extra M.2 Slot": "1",
+   "Storage Type": "NVMe PCIe",
+   "Storage Capacity": "1tb"
+  },
+  "Warranty Information": {
+   "Warranty": "2 year (Battery, Adapter 1 year)"
+  }
+ },
+ "key_features": [
+  "Laptop Series: Legion",
+  "RAM: 16GB",
+  "Storage: 1TB",
+  "Graphics Memory: 8GB",
+  "Display Size (Inch): 16\"",
+  "Display Resolution: 2560x1600"
+ ],
+ "warranty": "2 year (Battery, Adapter 1 year)",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-legion-pro-5i-16irx8-intel-core-i7-13700hx-16gb-ram-1tb-ssd-gaming-laptop",
+ "store": "pchouse"
+}

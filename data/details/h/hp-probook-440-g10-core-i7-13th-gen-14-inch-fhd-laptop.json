@@ -1,0 +1,81 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Frequency": "Up to 5.0GHz with Intel Turbo Boost Technology",
+   "Processor Core": "10",
+   "Processor Thread": "12",
+   "CPU Cache": "12MB L3 Cache",
+   "Processor Model": "Core i7-1355U"
+  },
+  "BASIC Information": {
+   "Battery": "Type: HP Long Life 3-cell Li-ion"
+  },
+  "Display": {
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Size": "14 Inch",
+   "Display Type": "IPS"
+  },
+  "Laptop and Tablet": {
+   "Adapter": "HP Smart 65 W External AC Power Adapter",
+   "Max RAM Capacity": "16GB",
+   "Removable": "Yes",
+   "Total RAM Slot": "2"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "1x RJ45",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Security Chip": "TPM 2.0 embedded security chip (Common Criteria EAL4+ and FIPS 140-2 Level 2 Certified)"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR4",
+   "Bus Speed": "3200MHz"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Type": "Integrated"
+  },
+  "Physical Specifications": {
+   "Color": "Pike silver aluminum",
+   "Weight": "1.38 kg",
+   "Dimensions (W x D x H)": "32.19 x 21.39 x 1.99 cm"
+  },
+  "Camera & Audio": {
+   "Microphone": "Dual-array microphones",
+   "Speaker": "Dual stereo speakers",
+   "WebCam": "720p HD camera"
+  },
+  "Display Features": {
+   "Display Features": "Narrow bezel, anti-glare, 250 nits, 45% NTSC",
+   "Touch Screen": "No"
+  },
+  "Ports & Slots": {
+   "Headphone & Microphone Port": "1x headphone/microphone combo",
+   "Optical Drive": "N/A",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate (1 charging, 1 power)",
+   "USB Type-C / Thunderbolt Port": "2 USB Type-C 10Gbps signaling rate (USB Power Delivery, DisplayPort 2.1)",
+   "HDMI Port": "1 x HDMI 2.1"
+  },
+  "Storage": {
+   "Extra M.2 Slot": "N/A",
+   "Storage Type": "PCIe NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: 13th Gen Intel Core i7-1355U",
+  "Graphics: Integrated Intel UHD Graphics",
+  "RAM: 8/16 GB DDR4-3200 MHz",
+  "Storage: 512 GB PCIe® NVMe™ SSD",
+  "Display: 14\" diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+ ],
+ "warranty": "3 year warranty (Terms & Conditions Apply As Per HP, Battery Adapter 1 year).",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/hp-probook-440-g10-core-i7-13th-gen-14-inch-fhd-laptop",
+ "store": "pchouse"
+}

@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Sequential R/W": "Sequential Read: 5,000 MB/s",
+   "Flash Type": "3D NAND",
+   "Interface": "NVMe (PCIe Gen 4x4)",
+   "Form Factor": "M.2 (2280)",
+   "TBW": "220TB"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 years limited"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe (PCIe Gen 4x4)",
+  "Capacity: 1TB",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 5,000/3,600 MBbps"
+ ],
+ "warranty": "5 years limited",
+ "fetched": "2026-11-13T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/crucial-p3-plus-1tb-nvme-ssd",
+ "store": "pchouse"
+}

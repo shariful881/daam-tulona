@@ -1,0 +1,87 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 7430U",
+   "Processor Frequency": "Up to 4.3 GHz",
+   "Processor Core": "6C",
+   "Processor Thread": "12T"
+  },
+  "CPU Cache": {
+   "L1 Cache": "384 KB",
+   "L2 Cache": "3 MB",
+   "L3 Cache": "16 MB"
+  },
+  "Memory": {
+   "Ram": "16GB (8x2)",
+   "Ram Type": "DDR4 3200 MHz",
+   "Max RAM Capacity": "up to 32GB"
+  },
+  "Storage": {
+   "Storage Type": "NVMe PCIe",
+   "Storage Capacity": "512GB PCIe Gen4",
+   "Storage Upgrade": "up to 1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Readon Graphics",
+   "Graphics Memory": "Shared"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Standard Keyboard",
+   "Keyboard Features": "100-/101-/104-key keyboard with independent numeric keypad",
+   "TouchPad": "Multi-gesture touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD camera",
+   "Speaker": "Stereo",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI",
+   "USB 2 Port": "2 x USB 2.0 Type-A",
+   "USB 3 Port": "1 x USB 3.2 Gen1 Type-A",
+   "Headphone & Microphone Port": "Mic and Headphone Combo Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "WIFI 5",
+   "Bluetooth": "Bluetooth 5.1"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Firmware Trusted Platform Module (TPM)"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920x1080)",
+   "Display Features": "Acer ComfyView LED-backlit TFT LCD\nWide viewing angle up to 180 degrees"
+  },
+  "Power": {
+   "Battery Type": "3-cell Lithium Ion (Li-Ion)",
+   "Battery Capacity": "36Wh",
+   "Adapter Type": "45W AC Adapter"
+  },
+  "Physical Specification": {
+   "Dimensions": "19.7 x 36.04 x 23.93 cm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (1 year for Battery and Adapter)"
+  },
+  "Image": {
+   "Model": "Aspire Lite AL15-41"
+  }
+ },
+ "key_features": [
+  "Processor: Ryzen 5 7430U (up to 4.3 GHz)",
+  "RAM: 16GB DDR4 3200 MHz, Storage: 512GB NVMe Gen4 SSD",
+  "Display: 15.6\" FHD (1920x1080) LED Display",
+  "Features: Stereo Speaker, Ethernet (RJ45)"
+ ],
+ "model": "Aspire Lite AL15-41",
+ "warranty": "2 Years Warranty (1 year for Battery and Adapter)",
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.creatus.com.bd/acer-aspire-lite-al15-41-un31zsi04x-laptop",
+ "store": "creatus"
+}

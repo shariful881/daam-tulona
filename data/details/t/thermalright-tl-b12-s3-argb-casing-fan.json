@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Casing Fan": {
+   "Air Flow": "69 CFM (MAX)",
+   "Connector": "4 PIN PWM\nARGB Connector: 3 PIN 5V",
+   "Fan Speed": "1500 RPM±10% (MAX)",
+   "Noise (dBA)": "28.1 dBA (MAX)",
+   "Air Pressure": "2.87mm H2O (MAX)",
+   "Bearing Type": "S-FDB Bearing"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "L120 mm x W120 mm x H25 mm",
+   "Weight": "135g"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Noise Level: 28.1 dBA",
+  "Air Flow: 69 CFM",
+  "Air Pressure: 2.87 mm H2O",
+  "Connector: 4 PIN PWM"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-13T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/thermalright-tl-b12-s3-argb-casing-fan",
+ "store": "pchouse"
+}

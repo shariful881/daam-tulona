@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "16GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "20 Gbps",
+   "BUS Type": "256 bit",
+   "Memory Interface": "PCI-Express 5.0",
+   "Stream Processors": "3584"
+  },
+  "Core Clock": {
+   "Boost Clock": "up to 2700 MHz (Reference card: 2520 MHz)",
+   "Game Clock": "up to 2210 MHz (Reference card: 2070 MHz)"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "2 x DisplayPort 2.1a",
+   "HDMI": "2 x HDMI 2.1b"
+  },
+  "Power Specifications": {
+   "Connectors": "2 x 8-pin Power Connector",
+   "Recommended PSU": "Minimum 750 Watt Power Supply"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 API",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Dimensions": "(L) 288 x (W) 132 x (H) 56 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years Warranty"
+  },
+  "Image": {
+   "Model": "Radeon RX 9070 GAMING OC 16GB"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 2700 MHz",
+  "Game Clock: Up to 2210 MHz",
+  "Memory: 16GB/256-bit GDDR6. 20Gbps",
+  "Output: 2x HDMI, 2x DisplayPort"
+ ],
+ "model": "Radeon RX 9070 GAMING OC 16GB",
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-rx-9070-gaming-oc-16gb-gpu",
+ "store": "creatus"
+}

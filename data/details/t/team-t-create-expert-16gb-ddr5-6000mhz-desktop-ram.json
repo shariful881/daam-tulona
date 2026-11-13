@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "1.25V",
+   "Latency": "CL38-46-46-76"
+  },
+  "Others": {
+   "Heat Sink": "Aluminum heat spreader",
+   "Profile": "Intel XMP 3.0 / AMD EXPO",
+   "Operating Temperature": "0˚C ~ 85˚C",
+   "Storage Temperature": "-20˚C ~ 65˚C"
+  },
+  "Physical dimension": {
+   "Dimension": "32(H) x 133(L) x 7(W)mm"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Type: DDR5, Speed: 6000MHz",
+  "Operating Voltage: 1.35V",
+  "Latency: CL38-46-46-76"
+ ],
+ "warranty": "Product Lifetime Warranty",
+ "fetched": "2026-11-13T17:58+06:00",
+ "source": "https://www.pchouse.com.bd/team-t-create-expert-16gb-ddr5-6000mhz-desktop-ram",
+ "store": "pchouse"
+}

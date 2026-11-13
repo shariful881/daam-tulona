@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32GB",
+   "Operating voltage": "1.1V",
+   "Type": "DDR5",
+   "Frequency": "5600MHz",
+   "Latency": "CL36"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Black",
+   "Pin": "288-Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years Warranty"
+  },
+  "Image": {
+   "Model": "Warrior E500"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB, Type: DDR5",
+  "Frequency: 5600MHz",
+  "Pins: 288 pin, Function: On-die-ECC",
+  "Voltage & Cas Latency: CL36/1.1V"
+ ],
+ "model": "Warrior E500",
+ "warranty": "05 Years Warranty",
+ "fetched": "2026-11-13T18:14+06:00",
+ "source": "https://www.creatus.com.bd/oscoo-warrior-e500-32gb-ddr5-5600mhz-black",
+ "store": "creatus"
+}

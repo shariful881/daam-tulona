@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen 5 x4 with NVMe",
+   "Flash Type": "Not Specified",
+   "TBW": "600 TBW"
+  },
+  "Sequential R/W": {
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C"
+  },
+  "Temperature": {
+   "Operating Temperature": "≤ 1,500,000 hours"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years Manufacturing Warranty"
+  },
+  "Image": {
+   "Model": "Slayer X5"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Form Factor: M.2 2280",
+  "Interface: PCIe Gen 5 x 4 with NVMe",
+  "Sequential R/W: Up to 14,500 MB/s Read, 10,500 MB/s Write"
+ ],
+ "model": "Slayer X5",
+ "warranty": "05 Years Manufacturing Warranty",
+ "fetched": "2026-11-13T18:41+06:00",
+ "source": "https://www.creatus.com.bd/xoc-slayer-x5-1tb-m2-2280-pcie-nvme-ssd",
+ "store": "creatus"
+}

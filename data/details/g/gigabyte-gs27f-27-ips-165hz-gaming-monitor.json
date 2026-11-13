@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 inch",
+   "Display Type": "LED",
+   "Panel Type": "SS IPS",
+   "Resolution": "1920 x 1080",
+   "Pixel Pitch (mm)": "0.3108*0.3108",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "300 cd/m2 (TYP)",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "165Hz/OC 170Hz",
+   "Response Time": "1ms (MPRT)",
+   "Others Features": "OSD Sidekick *Aim Stabilizer Black Equalizer Crosshair Timer"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100*100mm",
+   "Height Adjustment": "N/A",
+   "Pivot": "N/A",
+   "Swivel": "N/A",
+   "Tilt": "-5°~+20°"
+  },
+  "Power": {
+   "Voltage": "AC 100-240V ~ 50/60Hz"
+  },
+  "Power Consumption": {
+   "Typical": "32.0 W",
+   "Standby": "0.5 W"
+  },
+  "Basic Information": {
+   "HDR": "Yes"
+  },
+  "Connectivity": {
+   "Display Port": "Yes"
+  },
+  "Dimensions (W x D x H)": {
+   "ith Stand": "24.4 x 17.6 x 6.8\" / 619 x 447 x 172 mm",
+   "Without Stand": "24.4 x 14.4 x 2\" / 619 x 365.5 x 50.2 mm"
+  },
+  "Physical Specification": {
+   "Weight": "Without Stand: 9.0 lb / 4.1 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD 1920 x 1080",
+  "Display: IPS, 165Hz/OC 170Hz, 1ms MPRT",
+  "Ports: 2x HDMI, 1x DP, 1x Audio",
+  "Features: HDR ready, Free Sync, Flicker Free, Low Blue Light"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/gigabyte-gs27f-27-ips-165hz-gaming-monitor-price-in-bd",
+ "store": "pchouse"
+}

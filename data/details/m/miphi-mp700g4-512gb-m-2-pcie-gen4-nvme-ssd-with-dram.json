@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen4 x4",
+   "Flash Type": "3D TLC",
+   "TBW": "350 TB",
+   "Others": "DRAM: DDR4 (2666 Mbps)"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "7000MB/s",
+   "Sequential Write": "3700MB/s"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 Years Limited Warranty"
+  },
+  "Image": {
+   "Model": "MP700G4"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: PCIe Gen4 x4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 7000MB/s / 3700MB/s"
+ ],
+ "model": "MP700G4",
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-13T18:07+06:00",
+ "source": "https://www.creatus.com.bd/miphi-mp700g4-512gb-gen4-nvme-ssd",
+ "store": "creatus"
+}

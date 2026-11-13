@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Main Features": {
+   "Analog Sticks": "Bluetooth, Wired (USB-C), 2.4G Wireless Dongle",
+   "Back Button": "Yes (programmable)",
+   "Face Button": "Micro Switch ABXY buttons (5 million click lifespan)",
+   "RGB Lighting": "Customizable RGB lighting strip with Home indicator",
+   "Triggers": "Togglable Hall Effect analog or Micro Switch triggers",
+   "Turbo Function": "Yes",
+   "Polling Rate": "1000Hz (wired/wireless)"
+  },
+  "Gaming Features": {
+   "D-Pad": "Tactile switch for responsive inputs"
+  },
+  "Physical Specification": {
+   "Weight": "0.3 kg",
+   "Dimensions": "156mm x 103mm x 63mm (6.14in x 4.06in x 2.48in)",
+   "Colors": "Black",
+   "Compatibility": "Switch, Android, iOS, PC, Steam",
+   "Connection Type": "Bluetooth, Wired (USB-C), 2.4G Wireless Dongle"
+  },
+  "Battery": {
+   "Battery Capacity": "860mAh (long battery life for extended gaming sessions)",
+   "Charging": "Intelligent charging station (aluminum alloy build for durability)"
+  },
+  "Special Features": {
+   "Haptics": "Asymmetric motors for realistic vibration effects",
+   "Software Support": "GameSir Connect (adjustable settings for sticks, triggers, vibration, and RGB)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "Cyclone 2 Black"
+  }
+ },
+ "key_features": [
+  "Tri-Mode: Bluetooth, 2.4G wireless, and wired.",
+  "Anti-drift sticks: Smooth and precise GameSir Mag-Res TMR sticks.",
+  "Switchable triggers: Choose between Hall Effect or Micro Switch triggers.",
+  "Fast ABXY buttons: Durable micro switch buttons for quick response."
+ ],
+ "model": "Cyclone 2 Black",
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T18:03+06:00",
+ "source": "https://www.creatus.com.bd/gamesir-cyclone-2-tri-mode-multi-platform-controller-black",
+ "store": "creatus"
+}

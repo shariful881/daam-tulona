@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Display Features": {
+   "Aspect ratio": "16:9",
+   "Contrast Ratio": "4000:1 (typical), 80 Million:1 (DCR)",
+   "Refresh rate": "300Hz (DisplayPort), 240Hz (HDMI)",
+   "Response Time": "0.3ms (MPRT), 1ms (GtG)",
+   "Curvature": "Curved (1500R)",
+   "HDR": "No HDR support specified"
+  },
+  "Basic Information": {
+   "Panel Size": "27 inches VA"
+  },
+  "RGB Type": {
+   "sRGB": "121% (CIE1931)",
+   "Adobe RGB": "Not specified"
+  },
+  "Projector Features": {
+   "Brightness": "300 cd/m² (typical)"
+  },
+  "Features": {
+   "Others": "DCI-P3: 98% (CIE1976)"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: FAST VA, 300Hz, 0.3ms (MPRT), 1ms (GtG)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: AdaptiveSync, Flicker Free, HDR 10"
+ ],
+ "fetched": "2026-11-13T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-c27g4z-gaming-monitor",
+ "store": "pchouse"
+}

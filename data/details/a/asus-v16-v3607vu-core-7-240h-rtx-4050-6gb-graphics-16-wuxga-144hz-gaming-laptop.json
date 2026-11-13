@@ -1,0 +1,105 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 7 240H",
+   "Processor Frequency": "Up to 5.2 GHz",
+   "Processor Core": "10 Cores",
+   "Processor Thread": "16 Threads",
+   "CPU Cache": "24MB",
+   "NPU": "194 AI TOPs"
+  },
+  "Memory": {
+   "Ram": "16GB SO-DIMM",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2x DDR5 SO-DIMM slots",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4050 Laptop GPU",
+   "Graphics Memory": "6GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard with Num-key",
+   "Keyboard Features": "1.5mm Key-travel",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080p FHD camera",
+   "Speaker": "Built-in Speaker",
+   "Microphone": "Built-in Microphone",
+   "Audio Features": "SonicMaster"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A (data speed up to 5 Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 1 Type-C with support for display/power delivery (data speed up to 5 Gbps)",
+   "Headphone & Microphone Port": "1x 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "N/A",
+   "WiFi": "Wi-Fi 6 (802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card (*Bluetooth version may change with OS version different.)"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home - ASUS recommends Windows 11 Pro for business"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Resolution": "WUXGA (1920 x 1200)",
+   "Display Features": "16:10 aspect ratio, LED Backlit, 300nits, 45% NTSC color gamut, Anti-glare display, Non-touch screen, (Screen-to-body ratio) 89%",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "144Hz"
+  },
+  "Others": {
+   "Other Features": "Certification\nEcolabels & Compliances:\nEPEAT Silver\nEnergy Star 8.0\nRoHS\nREACH\nMilitary grade:\nUS MIL-STD 810H military-grade standard\nSpecial Features System diagnosis\nBattery health charging\nFan Profile\nSplendid\nTru2Life\nFunction key lock\nWiFi SmartConnect\nTaskFirst\nLive update\nAI Noise Canceling"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion",
+   "Battery Capacity": "63WHrs, 3S1P",
+   "Adapter Type": "Rectangle Conn, 150W AC Adapter, Output: 20V DC, 7.5A, 150W, Input: 100~240V AC, 50/60Hz universal"
+  },
+  "Weight": {
+   "With Battery": "1.95 kg (4.30 lbs)",
+   "Without Battery": "1.75 kg (3.86 lbs)"
+  },
+  "Physical Specification": {
+   "Dimensions": "35.70 x 25.07 x 1.80 ~ 2.20 cm (14.06\" x 9.87\" x 0.71\" ~ 0.87\")",
+   "Colors": "Black"
+  },
+  "Body Material": {
+   "LCD Cover Material": "Plastic",
+   "Top Case Material": "Plastic"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "V16 V3607VU"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 7 240H (24MB Cache, Up to 5.2 GHz)",
+  "RAM: 16GB DDR5, Storage: 512GB M.2 NVMe PCIe 4.0 SSD",
+  "Graphics: NVIDIA GeForce RTX 4050 6GB GDDR6 Laptop GPU",
+  "Features: Backlit Keyboard, Privacy Shutter, Type-C, Military-Grade"
+ ],
+ "model": "V16 V3607VU",
+ "warranty": "2 years Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T17:43+06:00",
+ "source": "https://www.creatus.com.bd/asus-v16-v3607vu-gaming-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "Display: Yes"
+  },
+  "Power Bank Features": {
+   "Energy conversion rate": "->75%"
+  },
+  "Features": {
+   "Others": "Over Voltage Protection (OVP): Yes"
+  },
+  "Main Features": {
+   "Capacity": "20000mAh",
+   "Input": "Type-C Input: 5V/3A, 9V/3A, 12V/2.5A",
+   "Output": "Type-C Output: 5V/3A, 9V/3A, 12V/2.5A, 15V/2A, 20V/1.5A USB1 Output: 5V/3A, 9V/2A, 12V/1.5A USB2 Output: 5V/2.4A"
+  },
+  "Physical Specification": {
+   "Color": "Tarnish",
+   "Weight": "0.56 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Month (Warranty must be claimed with original box & all accessories)"
+  }
+ },
+ "key_features": [
+  "Interface: Equipped with USB Type-C and dual USB ports for versatile connectivity.",
+  "Input Interface: Features a USB Type-C input interface for charging the power bank.",
+  "Output Interface: Offers dual USB and USB Type-C output interfaces for charging multiple devices simultaneously.",
+  "Fast Charge: Supports fast charging, enabling quick and efficient charging of compatible devices.",
+  "Indicators: Features indicators to display charging status and battery level.",
+  "Flashlight: Does not include a flashlight function.",
+  "Color: Available in a tarnish color variant.",
+  "Weight: Weighs 0.56 kg, making it lightweight and portable for on-the-go use.",
+  "Input Current: Type-C input supports charging at 5V/3A, 9V/3A, and 12V/2.5A.",
+  "Total Output: Provides a total output of 30W, ensuring fast and efficient charging.",
+  "Rated Capacity: Features a rated capacity of 12000mAh at 5V/3A.",
+  "Energy Conversion Rate: Maintains an energy conversion rate of over 75%, optimizing power efficiency."
+ ],
+ "warranty": "3 Month (Warranty must be claimed with original box & all accessories)",
+ "fetched": "2026-11-13T17:55+06:00",
+ "source": "https://www.pchouse.com.bd/baseus-adaman-metal-2021-editon-tarnish-power-bank",
+ "store": "pchouse"
+}

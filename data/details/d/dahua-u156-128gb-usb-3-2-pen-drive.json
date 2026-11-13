@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Battery": {
+   "Voltage": "5V"
+  },
+  "Key Features": {
+   "Capacity": "128 GB",
+   "Interface": "USB3.2 Gen1"
+  },
+  "Pendrive": {
+   "Operating Temperature": "0 °C To +60 °C (+32 °F To +140 °F)",
+   "Read Speed": "30 MB/S–110 MB/S",
+   "Storage Temperature": "–20 °C To +70 °C (–4 °F To +158 °F)",
+   "System Requirement": "Windows 7/8/10; MacOS10.5+; Linux 2.4.X+",
+   "Write Speed": "8 MB/S–45 MB/S"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "41.1 Mm × 14.8 Mm × 6.7 Mm (1.62\" × 0.58\" × 0.26\")",
+   "Color": "Silver",
+   "Weight": "Net Weight: 8 G (0.02 Lb)"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Limited Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: USB 3.2 Gen 1",
+  "Capacity: 128GB",
+  "Data Transfer Rate: 30 MB/s–110 MB/s",
+  "Operating System: Windows 7/8/10; macOS10.5+; Linux 2.4.x+"
+ ],
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-13T17:46+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-usb-u156-32-128gb-usb-128gb-pen-drive",
+ "store": "pchouse"
+}

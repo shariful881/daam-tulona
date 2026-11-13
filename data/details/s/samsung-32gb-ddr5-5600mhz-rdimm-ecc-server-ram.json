@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32 GB",
+   "Interface": "RDIMM (Registered DIMM)",
+   "Operating voltage": "1.1 Volts",
+   "Type": "DDR5 ECC Server RAM",
+   "Frequency": "5600 MHz",
+   "Latency": "CL46 (Column Address Strobe Latency)"
+  },
+  "Physical dimension": {
+   "Dimension": "Standard Server DIMM Form Factor",
+   "Heat Sink Color": "Standard Enterprise Finish",
+   "Pin": "288 Pins"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Official Warranty"
+  },
+  "Image": {
+   "Model": "RDIMM ECC"
+  }
+ },
+ "key_features": [],
+ "model": "RDIMM ECC",
+ "warranty": "Lifetime Official Warranty",
+ "fetched": "2026-11-13T18:21+06:00",
+ "source": "https://www.creatus.com.bd/samsung-32gb-ddr5-5600mhz-rdimm-ecc-server-ram",
+ "store": "creatus"
+}

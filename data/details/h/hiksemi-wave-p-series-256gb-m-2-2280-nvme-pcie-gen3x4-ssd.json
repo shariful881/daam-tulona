@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "Gen3"
+  },
+  "Key Features": {
+   "Shock resistance": "Yes",
+   "Form Factor": "M.2 2280",
+   "Interface": "NVMe PCIe Gen3 x4",
+   "IOPs (4K Random Read)": "Up to 195,000",
+   "MTBF": "1,500,000 hours",
+   "Shockproof": "Yes",
+   "Write Speed": "1250MB/s",
+   "Flash Type": "3D NAND flash",
+   "Read Speed": "3230MB/s",
+   "TBW": "112TB",
+   "IOPs (4K Random Write)": "Up to 210,000"
+  },
+  "Storage": {
+   "Storage Capacity": "256GB"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40 - 85 degree C",
+   "Working Temperature": "0 - 70 degree C"
+  },
+  "Power": {
+   "Power Consumption": "1.6W"
+  },
+  "Physical Specification": {
+   "Weight": "7 gm",
+   "Colors": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  },
+  "Image": {
+   "Model": "Wave Pro P Series"
+  }
+ },
+ "key_features": [
+  "Type: Internal SDD",
+  "Storage: 256GB",
+  "Form Factor (Inch): M.2 2280",
+  "Interface(s): NVMe PCIe Gen3 x4"
+ ],
+ "model": "Wave Pro P Series",
+ "warranty": "5 Year",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.creatus.com.bd/hiksemi-wave-pro-p-series-256gb-m.2-2280-nvme-pcie-gen3x4-ssd",
+ "store": "creatus"
+}

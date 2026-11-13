@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "34 Inch",
+   "Display Type": "LCD",
+   "Panel Type": "VA",
+   "Resolution": "WQHD (3440 x 1440)",
+   "Pixel Pitch (mm)": "0.23 x 0.23 mm",
+   "Display Surface": "Anti-glare",
+   "Aspect ratio": "21:9",
+   "Viewing Angle": "178° Horizontal viewing angle",
+   "Brightness": "400 nits",
+   "Contrast Ratio": "4000:1 static; 10000000:1 dynamic",
+   "Refresh rate": "100Hz",
+   "Color Gamut": "99% sRGB",
+   "Response Time": "5ms GtG (with overdrive)",
+   "Others Features": "Hardness: 3H",
+   "Curvature": "1500R"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes (TÜV certified)",
+   "Low Blue Light": "es, HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)",
+   "HDCP": "Yes, DisplayPort, HDMI and USB Type-C"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100 mm x 100 mm",
+   "Height Adjustment": "150 mm",
+   "Swivel": "±30°",
+   "Tilt": "-5 to +20°"
+  },
+  "Basic Information": {
+   "Camera": "Camera (Built In): 5MP",
+   "Power": "Type: Internal",
+   "Microphone Type": "Microphone (Built In): Integrated microphone"
+  },
+  "Features": {
+   "Dimension": "(W x D x H) 31.81 x 4.59 x 14.52 cm (without stand)",
+   "Weight": "11.46 kg (with stand); 8.68 kg (without stand)"
+  },
+  "Connectivity": {
+   "Display Port": "1x DisplayPort 1.4",
+   "USB Port(s)": "3x USB Type-A 5Gbps signaling rate (1 charging)",
+   "USB Type-C": "1x USB Type-C 5Gbps signaling rate (Up to 100W USB Power Delivery, Alt Mode DisplayPort 1.4)",
+   "HDMI": "1x HDMI 2.0"
+  },
+  "Audio Features": {
+   "Speaker": "Speaker (Built In): Built in, down-firing speakers"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: WQHD (3440 x 1440)",
+  "Display: VA, 100Hz, 5ms GtG",
+  "Ports: 1x DP 1.2, 1x HDMI 1.4, 1x Type-C, 1x USB-B, 3x USB, 1x RJ45",
+  "Features: Low Blue Light, Flicker-Free, Built in Speaker"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/hp-series-5-pro-534pm-34-inch-curved-monitor",
+ "store": "pchouse"
+}

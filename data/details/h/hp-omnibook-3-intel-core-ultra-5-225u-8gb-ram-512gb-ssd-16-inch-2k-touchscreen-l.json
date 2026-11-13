@@ -1,0 +1,89 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "225U",
+   "Processor Frequency": "Up to 4.8 GHz",
+   "Generation": "Intel Core Ultra Series 2",
+   "Processor Core": "12 Cores",
+   "Processor Thread": "14 Threads",
+   "CPU Cache": "12 MB L3 Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel Integrated SoC"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "IPS",
+   "Display Resolution": "1920 × 1200 (2K / WUXGA)",
+   "Touch Screen": "Yes — touchscreen variant only",
+   "Display Features": "16:10 Aspect Ratio, Anti-Glare, Micro-Edge",
+   "Brightness": "300 nits"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Removable": "5600"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 PCIe NVMe SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Memory": "Shared System Memory",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size Keyboard with Numeric Keypad",
+   "TouchPad": "HP ImagePad"
+  },
+  "Camera & Audio": {
+   "WebCam": "FHD 1080p Camera",
+   "Speaker": "Dual Speakers",
+   "Audio Features": "Dual Speakers, Integrated Microphones"
+  },
+  "Network & Connectivity": {
+   "LAN": "No Built-in RJ-45 Port Listed",
+   "WiFi": "Wi-Fi 7",
+   "Bluetooth": "Bluetooth 6.0"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 × HDMI 2.1",
+   "USB 3 Port": "2 × USB Type-A, 5 Gbps",
+   "USB Type-C / Thunderbolt Port": "2 × USB-C, 10 Gbps; USB Power Delivery and DisplayPort 1.4",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Jack"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Windows 11"
+  },
+  "Physical Specification": {
+   "Color": "Glacier Silver",
+   "Dimensions": "35.86 × 25.18 × 1.47 cm",
+   "Weight": "1.64 kg",
+   "Body Material": "Mixed Materials"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Li-ion Polymer",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "45W USB-C GaN Power Adapter",
+   "Backup Time (Approx)": "Up to 7 Hours 45 Minutes"
+  },
+  "Other Features": {
+   "Other Features": "Intel Core Ultra Processor, Integrated Intel Graphics, Touchscreen on Selected Configurations, USB-C Power Delivery, DisplayPort Support"
+  },
+  "Warranty Details": {
+   "Warranty": "2-Year Warranty ( Battery & Adapter 1 Year)."
+  }
+ },
+ "key_features": [],
+ "warranty": "2-Year Warranty ( Battery & Adapter 1 Year).",
+ "fetched": "2026-11-13T18:07+06:00",
+ "source": "https://www.pchouse.com.bd/hp-omnibook-3-intel-core-ultra-5-225u-16-inch-touchscreen-laptop",
+ "store": "pchouse"
+}

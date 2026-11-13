@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "23.8-inch",
+   "Panel Type": "Fast IPS",
+   "Resolution": "1920 x 1080 (Full HD)",
+   "Viewing Angle": "178° (H) / 178° (V).",
+   "Brightness": "300 cd/m²",
+   "Contrast Ratio": "1000:1 (Typical), 80 Million:1 (DCR).",
+   "Refresh rate": "260Hz",
+   "Color Gamut": "sRGB 127% (CIE1931), DCI-P3 94% (CIE1976).",
+   "Response Time": "0.3ms (MPRT), 1ms (GtG).",
+   "HDR": "HDR10 support."
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "VESA compatible (100mm x 100mm).",
+   "Tilt": "Tilt adjustable (-5° ~ 20°)."
+  },
+  "Basic Information": {
+   "Special Features": "Low Input Lag, Dial Point, Shadow Control."
+  },
+  "Key Features": {
+   "Features": "Adaptive Sync: Yes, for tear-free gaming."
+  },
+  "Connectivity": {
+   "Display Port": "DisplayPort 1.4 x 1.",
+   "HDMI": "HDMI 2.0 x 1,"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: FAST IPS, 260Hz, 1ms(GTG), 0.3ms (MPRT)",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: G-Sync, Adaptive Sync, Flicker Free, HDR 10"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24g11ze-gaming-monitor",
+ "store": "pchouse"
+}

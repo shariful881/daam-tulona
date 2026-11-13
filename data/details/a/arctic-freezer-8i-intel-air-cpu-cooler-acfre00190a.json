@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air Cooler",
+   "Fan Speed": "200–2300 rpm, 1x P10 PWM Controlled",
+   "Connector": "4-Pin Fan Plug",
+   "Others": "46x 0.4 mm Aluminium Fins\n2x Ø 6 mm Copper, Direct Touch\nVoltage-0.13 A | 12 V DC\nTemperature-0—40 °C\nFluid Dynamic Bearing\nFan: 100 (L) x 100 (W) x 25 (H) mm"
+  },
+  "Physical Specification": {
+   "Dimension": "83 (L) x 108 (W) x 136 (H) mm",
+   "Weight": "415 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851, LGA1700"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200–2300 rpm",
+  "Fan Size: 100 mm",
+  "Fan Bearing: Fluid Dynamic Bearing",
+  "Compatibility: LGA 1851,1700"
+ ],
+ "price": 15501980,
+ "regular": 2120,
+ "status": "In Stock",
+ "code": "44353",
+ "brand": "ARCTIC",
+ "mpn": "ACFRE00190A",
+ "model": "Freezer 8i",
+ "warranty": "6 years",
+ "name": "Arctic Freezer 8i Air CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Freezer 8i Air CPU Cooler"
+ ],
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.startech.com.bd/arctic-freezer-8i-air-cpu-cooler",
+ "store": "startech"
+}

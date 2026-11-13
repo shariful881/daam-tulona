@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Key Features": {
+   "Efficiency (Approx.)": "≥ 94% @ Typical Load",
+   "Certification": "80 Plus Platinum",
+   "Fan Size": "120mm",
+   "Others": "Active PFC\nFan Speed: 2500 RPM\nMTBF: >100,000 Hours\nProtections: OPP/ OVP/ OTP/ OCP/ SCP/ UVP/ Surge & Inrush Protection"
+  },
+  "Input": {
+   "Voltage": "115 - 240V (115 - 240V for 1600W / 200 - 240V for 2000W)",
+   "Frequency Range": "50-60Hz",
+   "Current": "16A (Max)"
+  },
+  "Output": {
+   "Modular Type": "Full Modular",
+   "Total Power": "2000W"
+  },
+  "Connector": {
+   "Main Power": "1x ATX 24 Pin",
+   "PCI-E": "4x PCI-e 6+2 Pin",
+   "SATA": "12",
+   "Molex": "4"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "10 years"
+  }
+ },
+ "key_features": [
+  "Output Capacity: 2000W, Efficiency: 80 Plus Platinum",
+  "Digital Power Management, Fully Modular",
+  "ATX 3.1 Ready, Aluminum Thermal Structure",
+  "AI-Ready Dual GPU Support, Premium Japanese Capacitors"
+ ],
+ "price": 81000,
+ "regular": 87670,
+ "status": "In Stock",
+ "code": "50156",
+ "brand": "Cooler Master",
+ "mpn": "MPS-K001-AFBP-NBUK",
+ "model": "X Mighty 2000",
+ "warranty": "10 years",
+ "name": "Cooler Master X Mighty 2000 80 Plus Platinum 2000W Power Supply",
+ "breadcrumb": [
+  "Component",
+  "Power Supply",
+  "Cooler Master",
+  "Cooler Master X Mighty 2000 80 Plus Platinum 2000W Power Supply"
+ ],
+ "fetched": "2026-11-13T17:41+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-x-mighty-2000-power-supply",
+ "store": "startech"
+}

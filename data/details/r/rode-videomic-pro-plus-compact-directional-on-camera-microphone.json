@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Noise/Signal": "14dBA",
+   "Battery": "Internal battery USB bus powered AA Battery"
+  },
+  "Main Spec": {
+   "Frequency Range": "20Hz - 20kHz (selected HPF @75Hz/150Hz)",
+   "Sensitivity": "-33.6dB re 1 Volt/Pascal (21.20mV @ 94 dB SPL) +/- 2 dB @ 1kH",
+   "Output Impedance": "200Ω",
+   "Polar pattern": "SuperCardioid"
+  },
+  "Microphone FEATURE": {
+   "Microphone Type": "Compact Directional On-camera Microphone",
+   "DSLR": "Yes"
+  },
+  "Features": {
+   "Dimension": "111mmH x 66mmW x 170mmD",
+   "Weight": "122g"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty."
+  }
+ },
+ "key_features": [],
+ "warranty": "No Warranty.",
+ "fetched": "2026-11-13T17:47+06:00",
+ "source": "https://www.pchouse.com.bd/rode-videomic-pro-plus-microphone",
+ "store": "pchouse"
+}

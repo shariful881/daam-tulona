@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "FreeDos",
+   "Security Management": "TPM: Trusted Platform Module 2.0—hardware protection and storage for encryption\nKensington Lock Slot",
+   "Processor": "Intel Core i5-14400 14th Gen (12MB cache, 2.50 GHz to 4.70 GHz turbo)",
+   "Motherboard": "Intel B660 Chipset",
+   "RAM": "8GB (1x8GB) 4800 MHz DDR5",
+   "Storage": "512GB NVMe PCIe SSD",
+   "Power Supply": "180W",
+   "Network & Wireless Connectivity": "Realtek Wi-Fi 6 RTL8852BE, 2x2, 802.11ax, MU-MIMO"
+  },
+  "Graphics": {
+   "Graphics": "Intel UHD 730 Graphics"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front:\n1 USB 3.2 Gen 1 port\n2 USB 2.0 ports\n1 USB 3.2 Gen 1 Type-C port\n1 Global headset jack\n1 SD-card slot (optional)\nBack:\n2 USB 2.0 ports with Smart Power on\n2 USB 3.2 Gen 1 ports\n1 audio line-out port\n1 HDMI 1.4b port\n1 DisplayPort 1.4a\n1 RJ-45 Ethernet port",
+   "Keyboard": "USB Keyboard",
+   "Mouse": "USB Mouse",
+   "Optical Drive": "N/A"
+  },
+  "Physical Specification": {
+   "Dimension": "324.3 x 292.80 x 154mm",
+   "Weight": "5.14 kg",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  },
+  "Image": {
+   "Model": "Inspiron 3030 MT"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5 -14400 (12MB cache, 2.50 GHz to 4.70 GHz turbo)",
+  "RAM: 8GB DDR5 4800 MHz, Storage: 512GB NVMe PCIe SSD",
+  "Graphics: Intel UHD Graphics 730"
+ ],
+ "model": "Inspiron 3030 MT",
+ "warranty": "2 Year",
+ "fetched": "2026-11-13T18:46+06:00",
+ "source": "https://www.creatus.com.bd/dell-inspiron-3030-mt-i5-brand-pc",
+ "store": "creatus"
+}

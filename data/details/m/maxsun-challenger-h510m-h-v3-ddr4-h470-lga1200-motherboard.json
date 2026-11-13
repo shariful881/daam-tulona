@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Key Features": {
+   "Form Factor": "M-ATX\n225mm x 180mm"
+  },
+  "Basic Information": {
+   "Operating System": "Support for Windows 11 64-bit, Windows 10 64-bit",
+   "Supported CPU": "Supports 10th/11th Gen Intel Core Processors, Pentium Gold and Celeron Processors\nLGA 1200",
+   "Chipset": "INTEL H470"
+  },
+  "General Information": {
+   "Graphics": "1x VGA\n*Support VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz,\n1920x1200 60Hz\n1x HDMI port\n*HDMI port supports up to 4K@30Hz\n*Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.",
+   "Supported Storage": "M.2 slot (Key M), type 2242/2280 (supports PCIe 3.0 x4 mode)\n3x SATA 6Gb/s ports"
+  },
+  "Memory": {
+   "Slots": "EXPANSION SLOT\n1x PCIe 3.0 x16 slot\n1x PCIe 3.0 x1 slot",
+   "Supported Memory": "2x DDR4,\nMemory Support DDR4 3200(OC)/ 2933(OC)/ 2666(OC)/ 2400(OC) MHz\nSupports Intel XMP 2.0 OC\nSupports Dual-Controller Dual-Channel mode",
+   "Maximum Memory": "64GB"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "Realtek RTL8111H 1G LAN",
+   "RAID": "Supports RAID 0, RAID 1,RAID 5 and RAID 10 for SATA storage devices",
+   "Audio": "Realtek ALC897 Codec\n5.1-Channel High Definition Audio"
+  },
+  "External Features": {
+   "I/O Port": "1x 24-pin Power Connector(ATX_PWR)\n1x 4-pin Power Connector(CPU_PWR)\n1x CPU Fan\n1x System Fan\n1x PS/2 interface\n1x M.2 slots (Key-M)\n3x SATA 6Gb/s ports\n1x CLR_CMOS\n1x 4-Pin SPEAKER\n1x Front Audio\n1x COM_A Port\n1x 9-Pin DEBUG_CON\n1x 2-Pin ME_PROTECT"
+  },
+  "Hardware Features": {
+   "LED": "4x Side-by-Side Debug LED"
+  },
+  "Physical Specification": {
+   "USB": "*Front USB (Total 4 ports)\n2x USB 3.2 Gen1 Type A\n2x USB 2.0\n*Rear USB (Total 6 ports)\n2x USB 3.2 Gen1 Type A\n4x USB 2.0"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Challenger H510M-H V3"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Supports 10th/11th Gen Intel Core Processors",
+  "Form Factor: M-ATX (225mm x 180mm)",
+  "Memory Max.: 64GB",
+  "Ram Type: DDR4"
+ ],
+ "model": "Challenger H510M-H V3",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.creatus.com.bd/maxsun-challenger-h510m-h-v3-ddr4-h470-lga1200-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,87 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Apple",
+   "Processor Model": "M5 chip",
+   "Processor Core": "10-core CPU with 4 super cores and 6 efficiency cores"
+  },
+  "Chipset": {
+   "Chipset": "Apple M5"
+  },
+  "Display": {
+   "Display Size": "13.6-inch",
+   "Display Type": "Liquid Retina display",
+   "Display Resolution": "2560 x 1664",
+   "Touch Screen": "No",
+   "Display Features": "2560-by-1664 native resolution at 224 pixels per inch\n500 nits brightness\nSupport for 1 billion colors\nWide color (P3)\nTrue Tone technology",
+   "Refresh Rate": "60 Hz"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "Unified memory",
+   "Removable": "Non-Removable"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "8‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Magic Keyboard",
+   "TouchPad": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures",
+   "Keyboard Features": "78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement"
+  },
+  "Camera & Audio": {
+   "WebCam": "1080p FaceTime HD camera",
+   "Speaker": "Four-speaker sound system",
+   "Microphone": "Three-mic array",
+   "Audio Features": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be)",
+   "Bluetooth": "Bluetooth 6"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "USB Type-C / Thunderbolt Port": "2 x Thunderbolt 4 (USB Type-C)",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Touch ID"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Physical Specification": {
+   "Color": "Midnight",
+   "Weight": "2.7 pounds (1.23 kg)"
+  },
+  "Dimensions": {
+   "Height": "0.44 inch (1.13 cm)",
+   "Width": "11.97 inches (30.41 cm)",
+   "Depth": "8.46 inches (21.5 cm)"
+  },
+  "Power": {
+   "Battery Type": "Lithium‑polymer",
+   "Battery Capacity": "53.8 Wh",
+   "Adapter Type": "40W USB-C Power Adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "1 Year international warranty\nEstimated Warranty Claim Duration in 40 Days (Approx). It may take additional time up to 90 days."
+  }
+ },
+ "key_features": [
+  "Processor: Apple M5 chip with 10‑core CPU, 8‑core GPU, 16‑core Neural Engine",
+  "RAM: 16GB Unified Memory, Storage: 512GB SSD",
+  "Display: 13.6-inch Liquid Retina display (2560x1664) with True Tone",
+  "Features: Backlit Magic Keyboard with Touch ID"
+ ],
+ "warranty": "1 Year international warranty",
+ "fetched": "2026-11-13T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/apple-macbook-air-m5-13-inch",
+ "store": "pchouse"
+}

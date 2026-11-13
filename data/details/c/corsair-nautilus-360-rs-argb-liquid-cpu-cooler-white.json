@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Product Description": {
+   "Product Length": "396",
+   "Product Width": "125",
+   "Product Height": "125",
+   "Lighting": "RGB",
+   "Cooling Warranty": "5 Year",
+   "Number of Fans": "3",
+   "Cold Plate Material": "Copper",
+   "Radiator Material": "Aluminum",
+   "Cooling Socket Support": "Intel 1700, AMD AM5, AMD AM4",
+   "Fan Speed": "1700 RPM",
+   "Fan Airflow": "xxx – 94.87 CFM",
+   "Fan Static Pressure": "xxx – 3.91mm-H2O",
+   "Noise Level": "33.2 dBA",
+   "Radiator Size": "360mm",
+   "Fan Model": "Standard",
+   "Fan Control Method": "PWM",
+   "AMD Processors Supported": "Ryzen, A-Series",
+   "Intel Processors Supported": "Core i9, i7, i5, i3, Pentium, Celeron",
+   "PWM": "Yes",
+   "Weight": "2.35"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 2100 RPM",
+  "Number of Fans: 3",
+  "Fan Airflow: 13.3 – 72.8 CFM",
+  "Cooling Socket Support: Intel 1851, Intel 1700, AMD AM5, AMD AM4"
+ ],
+ "warranty": "5 Year",
+ "fetched": "2026-11-13T17:52+06:00",
+ "source": "https://smartbd.com/product/corsair-nautilus-360-rs-argb-liquid-cpu-cooler-white/",
+ "store": "smartbd"
+}

@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Sony Store": {
+   "DJI Mic": "Choose an option\n1 TX + 1 RX\n2 TX + 1 RX + Charging Case\n1 TX + 1 RX\n2 TX + 1 RX + Charging Case\nClear"
+  },
+  "Specification": {
+   "Polar Pattern": "Omnidirectional",
+   "Frequency Response": "Low Cut Off: 20 Hz–20 kHz (Encoded)Low Cut Off: 20 Hz–24 kHz (Lossless)Low Cut On: 100 Hz–20 kHz (Encoded)Low Cut On: 100 Hz–24 kHz (Lossless)",
+   "Microphone Sensitivity": "−36 ±1 dBV @1 kHz, 94 dB SPL",
+   "Signal-to-Noise Ratio": "72 dB",
+   "Max Sound Pressure Level": "126 dB SPL @1% THD",
+   "Sampling Frequency": "48 kHz",
+   "Bit Depth": "32-bit float / 24-bit (switchable)",
+   "Max Input Level (3.5 mm)": "—",
+   "Equivalent Noise": "22 dBA",
+   "Monitor Output Power": "Max 20 mW @1 kHz, 32 Ω"
+  },
+  "Transmission": {
+   "Max Transmission Distance": "400 m (open, unobstructed)80 m (high-interference lab test)",
+   "Wireless Mode": "Wi-Fi + SDR (Customizable)",
+   "Operating Frequency": "2.4 GHz & 5 GHz bands",
+   "EIRP": "<20 dBm (region-dependent)",
+   "Bluetooth Version": "Bluetooth 5.4",
+   "Bluetooth Frequency": "2.400–2.4835 GHz"
+  },
+  "Transmitter (TX)": {
+   "Dimensions": "28.77 × 28.34 × 16.35 mm (with magnet)",
+   "Weight": "16 g (with magnet)",
+   "Battery Type": "Li-ion",
+   "Battery Capacity": "137 mAh",
+   "Battery Energy": "0.531 Wh",
+   "Charging Time": "Approx. 50 min",
+   "Operating Time": "Up to 8 hrs",
+   "Internal Recording": "Yes",
+   "Internal Recording Time": "24-bit: up to 57.3 hrs32-bit float: up to 43 hrs"
+  },
+  "Receiver (RX)": {
+   "Dimensions": "53.85 × 28.69 × 22.00 mm",
+   "Weight": "25.1 g",
+   "Battery Capacity": "275 mAh",
+   "Operating Time": "Up to 10 hrs"
+  },
+  "Charging Case": {
+   "Dimensions": "106.30 × 42.50 × 59.20 mm",
+   "Weight": "164.1 g",
+   "Battery Capacity": "1950 mAh",
+   "Charging Time": "Approx. 1.5 hrs",
+   "Full System Recharge Cycles": "Approx. 2.4×"
+  },
+  "Temperature Range": {
+   "Operating Temperature": "−10° to 45° C",
+   "Charging Temperature": "5° to 45° C"
+  },
+  "How a wireless clip-on microphone works": {
+   "DJI Mic": "1 TX + 1 RX, 2 TX + 1 RX + Charging Case"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-13T17:56+06:00",
+ "source": "https://diamu.com.bd/product/dji-mic-2-2-tx-1-rx-charging-case/",
+ "store": "diamu"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "250GB",
+   "Sequential R/W": "Read Speeds: Up to 2,900 MB/s",
+   "Flash Type": "Samsung V-NAND 3-bit MLC",
+   "MTBF": "1.5 Million Hours Reliability",
+   "Interface Type": "PCIe Gen 3.0 x4, NVMe 1.4",
+   "Form Factor": "PCIe 3.0"
+  },
+  "Physical Specifications": {
+   "Dimension": "80.15 x 22.15 x 2.38 mm",
+   "Weight": "8.0 g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 - 70 ℃",
+   "Shock resistance": "1,500 G & 0.5 ms (Half sine)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Form Factor: M.2 (2280)",
+  "NVMe SSD: PCIe 3.0",
+  "Seq. Reads: 2,900MB/s",
+  "Seq. Writes: 1,300MB/s"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/samsung-980-250gb-ssd",
+ "store": "pchouse"
+}

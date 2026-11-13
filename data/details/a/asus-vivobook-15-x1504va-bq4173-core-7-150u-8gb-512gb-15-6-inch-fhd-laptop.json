@@ -1,0 +1,95 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core 7 150U",
+   "Processor Frequency": "1.7 GHz Up to 5.0 GHz",
+   "Generation": "13th Gen",
+   "Processor Core": "10(Performance-cores-2, Efficient-cores-8)",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12 MB Intel Smart Cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel Integrated Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "LED",
+   "Display Resolution": "1920 × 1080 (Full HD)",
+   "Display Features": "16:9 aspect ratio, IPS-level Panel, LED Backlit, 250nits, 45% NTSC",
+   "Refresh Rate": "60Hz"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR4"
+  },
+  "Removable": {
+   "Total RAM Slot": "8GB on board\n1 x DDR5 SO-DIMM slot",
+   "Max RAM Capacity": "24GB"
+  },
+  "Storage": {
+   "Storage Type": "NVMe PCIe",
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "1x M.2 2280 PCIe 3.0"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris X Graphics",
+   "Graphics Memory": "Shared"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit keyboard",
+   "TouchPad": "Yes",
+   "Keyboard Features": "1.4mm Key-travel"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p HD camera, With privacy shutter",
+   "Speaker": "Built-in speaker",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "SonicMaster"
+  },
+  "Lan": {
+   "WiFi": "Wi-Fi 6 (802.11ac) (Dual band) 1x1",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 1.4",
+   "USB 3 Port": "1 x USB 2.0 Type-A (data speed up to 480Mbps)\n2 x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 1 Type-C (data speed up to 5Gbps",
+   "Headphone & Microphone Port": "1 x 3.5mm Combo Audio Jack"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Physical Specification": {
+   "Color": "Cool Silver",
+   "Dimensions": "35.97 x 23.25 x 1.79 ~ 1.79 cm (14.16\" x 9.15\" x 0.70\" ~ 0.70\")",
+   "Body Material": "Plastic"
+  },
+  "Weight": {
+   "Weight (with Battery)": "1.70 kg (3.75 lbs)",
+   "Weight (without Battery)": "1.50 kg (3.31 lbs)"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion",
+   "Battery Capacity": "42WHrs",
+   "Adapter Type": "45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal"
+  },
+  "Warranty Details": {
+   "Warranty": "02 years Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 7-150U",
+  "Display: 15.6-inch Full HD (1920 × 1080), 60Hz",
+  "Memory: 8GB RAM",
+  "Storage: 512GB SSD",
+  "Graphics: Integrated Intel Graphics"
+ ],
+ "warranty": "02 years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/asus-vivobook-15-x1504va-bq4173-core-7-laptop",
+ "store": "pchouse"
+}

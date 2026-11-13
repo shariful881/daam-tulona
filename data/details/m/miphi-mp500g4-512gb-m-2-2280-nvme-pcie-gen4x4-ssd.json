@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe 4.0 x4",
+   "Flash Type": "3D TLC/QLC"
+  },
+  "Sequential R/W": {
+   "Sequential Read": "5100MB/s",
+   "Sequential Write": "4600MB/s"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Limited Warranty"
+  },
+  "Image": {
+   "Model": "MP500G4"
+  }
+ },
+ "key_features": [
+  "Capacity: 512GB",
+  "Interface: PCIe Gen4 x4",
+  "Form Factor: M.2 2280",
+  "Sequential Read/Write: 5100MB/s / 4600MB/s"
+ ],
+ "model": "MP500G4",
+ "warranty": "5 Years Limited Warranty",
+ "fetched": "2026-11-13T18:07+06:00",
+ "source": "https://www.creatus.com.bd/miphi-mp500g4-512gb-gen4-nvme-ssd",
+ "store": "creatus"
+}

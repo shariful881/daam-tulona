@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Keyboard": {
+   "Key Number": "108",
+   "Interface": "Bluetooth & USB Dongle",
+   "Others": "Membrane Switch",
+   "Dimension(LxWxH)": "131.63 x 430.2 x 20.5mm",
+   "Weight": "810 gm"
+  },
+  "Mouse": {
+   "Number of Buttons": "7",
+   "Connector": "Wireless",
+   "Dimension(LxWxH)": "124.9 x 84.3 x 51mm",
+   "Weight": "141 gm"
+  },
+  "Warranty": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Interface: Bluetooth & USB Dongle",
+  "Switch Type: Membrane Switch",
+  "Connection Type: Wireless",
+  "Number of Buttons: 108 (Keyboard), 7 (Mouse)"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-13T18:18+06:00",
+ "source": "https://smartbd.com/product/logitech-mx-keys-s-wireless-keyboard-mouse-combo-graphite/",
+ "store": "smartbd"
+}

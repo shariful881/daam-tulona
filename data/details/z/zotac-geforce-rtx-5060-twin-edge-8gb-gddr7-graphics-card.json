@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "Up to 4K 480Hz or 8K 165Hz with DSC",
+   "Core Clock": "2497 MHz",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "128-bit",
+   "CUDA Cores": "3840",
+   "Others": "Powered by the NVIDIA Blackwell architecture and DLSS 4\n8-Pin PCIe power connector\nSFF-Ready compact Graphics Card\nBladeLink Fans\nCooling: Air Cooled"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1b with UHBR20\n(up to 4K 480Hz or 8K 165Hz with DSC)",
+   "HDMI": "1 x HDMI Connector\n(Supports 4K 480Hz HDR or 8K 120Hz HDR with DSC, and Gaming VRR as specified in the HDMI 2.1b Specification)",
+   "HDCP": "2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 8-pin power input",
+   "Recommended PSU": "550W",
+   "Consumption": "145W"
+  },
+  "Display Option": {
+   "Multi Display": "Quad Display"
+  },
+  "Programming Interfaces": {
+   "DirectX": "Microsoft DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "220.5mm x 120.25mm x 41.6mm / 8.7\" x 4.7\" x 1.6\""
+  },
+  "Warranty": {
+   "Warranty": "3 Years (2 years based on online registration within purchase of 28 days)"
+  }
+ },
+ "key_features": [
+  "Video Memory: 8GB GDDR7, PCI Express 5.0 x8",
+  "Engine Clock: 2497 MHz, CUDA Cores: 3840",
+  "Resolution Supports: Up to 4K 480Hz or 8K 165Hz with DSC",
+  "Display Outputs: 3x DisplayPort 2.1b, 1x HDMI"
+ ],
+ "warranty": "3 Years (2 years based on online registration within purchase of 28 days)",
+ "fetched": "2026-11-13T17:39+06:00",
+ "source": "https://www.pchouse.com.bd/zotac-geforce-rtx-5060-twin-edge-graphics-card",
+ "store": "pchouse"
+}

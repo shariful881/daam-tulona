@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "200—1900 rpm PWM Controlled (0 rpm below 5% PWM)",
+   "Air Flow": "68.90 cfm | 117.06 m³/h",
+   "Air Pressure": "Static Pressure: 2.0 mmH2O",
+   "Noise (dBA)": "0.3 Sone",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Input Current": "0.17 A | 12 V DC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "140 x 140 x 27mm",
+   "Weight": "225 g",
+   "Connector": "Fan Connector: 4-Pin PWM Connector\nRGB Connector: 3-Pin 5 V-DI-GND Connector"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "06-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Connector:  4-Pin Connector + 4-Pin Socket",
+  "Airflow: 68.90 cfm | 117.06 m³/h",
+  "Speed: 200–1900 RPM",
+  "Bearing: Fluid Dynamic Bearing (FDB)"
+ ],
+ "price": 22002400,
+ "regular": 2500,
+ "status": "In Stock",
+ "code": "37526",
+ "brand": "ARCTIC",
+ "model": "P14 PWM PST ARGB",
+ "warranty": "06-year Warranty",
+ "name": "Arctic P14 PWM PST ARGB 140mm Casing Fan White",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "ARCTIC",
+  "Arctic P14 PWM PST ARGB 140mm Casing Fan White"
+ ],
+ "fetched": "2026-11-13T17:37+06:00",
+ "source": "https://www.startech.com.bd/arctic-p14-pwm-pst-argb-casing-fan-white",
+ "store": "startech"
+}

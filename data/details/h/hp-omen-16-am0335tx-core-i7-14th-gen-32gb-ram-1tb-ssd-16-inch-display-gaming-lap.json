@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel® Core™ i7-14650HX (up to 5.2 GHz with Intel® Turbo Boost Technology, 30 MB L3 cache, 16 cores, 24 threads) 1 2",
+   "Processor Frequency": "up to 5.2 GHz with Intel Turbo Boost Technology",
+   "Generation": "14th Gen",
+   "Processor Core": "16",
+   "Processor Thread": "24",
+   "CPU Cache": "30 MB L3 cache"
+  },
+  "Chipset": {
+   "Chipset": "Intel HM770"
+  },
+  "Display": {
+   "Display Size": "16 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WQXGA (2560 x 1600)",
+   "Touch Screen": "No",
+   "Display Features": "micro-edge, anti-glare, Low Blue Light, 500 nits, 100% sRGB",
+   "Refresh Rate": "60-240 Hz",
+   "Response TIme": "3 ms",
+   "Brightness": "500 nits"
+  },
+  "Memory": {
+   "RAM": "16 GB (2 x 8 GB)",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600 MHz",
+   "Total RAM Slot": "2"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe TLC M.2",
+   "Storage Capacity": "1TB",
+   "Extra M.2 Slot": "Extra M.2 Slot"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5050",
+   "Graphics Memory": "8 GB",
+   "Graphics Type": "GDDR7 dedicated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Keyboard Type Full-size, 4-zone RGB backlit Keyboard\nKeyboard Features numeric keypad and 26-Key Rollover Anti-Ghosting Key technology",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "HP True Vision 1080p FHD camera with temporal noise reduction",
+   "Speaker": "Yes",
+   "Microphone": "Dual array digital microphones",
+   "Audio Features": "1 x headphone/microphone combo"
+  },
+  "Network & Connectivity": {
+   "LAN": "Integrated 10/100/1000 GbE LAN",
+   "WiFi": "Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 2 Port": "1 x USB Type-A 5Gbps\n1 x USB Type-A 5Gbps",
+   "USB Type-C / Thunderbolt Port": "1 USB Type-C 10Gbps signaling rate (USB Power Delivery 3.0, DisplayPort 1.4, HP Sleep and Charge)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Shadow black",
+   "Dimensions": "36.9 x 25.94 x 2.35 cm",
+   "Weight": "2.43 kg"
+  },
+  "Power": {
+   "Battery Type": "6-cell, Li-ion polymer",
+   "Battery Capacity": "83 Whr",
+   "Adapter Type": "280W Smart AC power adapter"
+  },
+  "Warranty Details": {
+   "Warranty": "02 year Limited Warranty (Terms & condition Apply As Per HP)"
+  }
+ },
+ "key_features": [],
+ "warranty": "02 year Limited Warranty (Terms & condition Apply As Per HP)",
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.pchouse.com.bd/hp-omen-16-am0335tx-core-i7-14th-gen-32gb-1tb-rtx-5050-gaming-laptop",
+ "store": "pchouse"
+}

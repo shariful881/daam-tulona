@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Chipset": "- AMD X870",
+   "Memory": "- Dual Channel DDR5 Memory Technology\n- 4 x DDR5 DIMM Slots\n- Supports DDR5 ECC/non-ECC, un-buffered memory up to 8000+(OC)*\n- Max. capacity of system memory: 256GB\n- Supports Extreme Memory Profile (XMP) and EXTended Profiles for Overclocking (EXPO) memory modules",
+   "BIOS": "- 256Mb AMI UEFI Legal BIOS with GUI support",
+   "Form Factor": "- ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm\n- 8 Layer PCB",
+   "OS": "- Microsoft Windows® 10 64-bit / 11 64-bit"
+  },
+  "Key Feature": {
+   "CPU": "- Supports AMD Socket AM5 Ryzen™ 9000, 8000 and 7000 Series Processors"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "- 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n- Dragon RTL8125BG\n- Supports Dragon 2.5G LAN Software\n- Smart Auto Adjust Bandwidth Control\n- Visual User Friendly UI\n- Visual Network Usage Statistics\n- Optimized Default Setting for Game, Browser, and Streaming Modes\n- User Customized Priority Control"
+  },
+  "Memory": {
+   "Slots": "CPU:\n- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\n- 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode*\nChipset:\n- 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module\n- Supports AMD CrossFire™\n- 15μ Gold Contact in VGA PCIe Slot (PCIE1)"
+  },
+  "Connector & Ports": {
+   "RAID": "- Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices"
+  },
+  "Audio Features": {
+   "Audio": "- 7.1 CH HD Audio with Content Protection (Realtek ALC4082 Audio Codec)\n- Individual PCB Layers for R/L Audio Channel\n- Direct Drive Technology on Front headphone port (Supports up to 600 Ohm headsets)\n- Nahimic Audio"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000, 8000, & 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, Up to 8000+(OC), Max 256GB",
+  "Graphics Output: 1 x HDMI 2.1, 2 x USB4, Support HDCP 2.3 and max",
+  "Features: 2.5G LAN, 802.11be Wi-Fi 7 Module, Bluetooth 5.4"
+ ],
+ "fetched": "2026-11-13T17:35+06:00",
+ "source": "https://www.pchouse.com.bd/asrock-x870-steel-legend-wifi-am5-motherboard",
+ "store": "pchouse"
+}

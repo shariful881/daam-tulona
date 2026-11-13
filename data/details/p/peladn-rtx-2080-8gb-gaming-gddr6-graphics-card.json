@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Graphics Chipset": "RTX 2080 Turbo",
+   "Memory Size": "8GB",
+   "Engine Clock": "Core Frequency 1515MHz\nMemory Clock Speed 14000MHz",
+   "Memory Type": "GDDR6",
+   "CUDA Cores (Nvidia)": "2944",
+   "Memory Clock": "14000MHz",
+   "Memory Bus (Bit)": "256bit",
+   "Power Consumption": "225W",
+   "Power Connector (Pin)": "8+6Pin",
+   "DirectX": "12",
+   "Ports": "3DP+HDMI",
+   "OpenGL": "4.6",
+   "Dimensions": "270×111×35mm",
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PELADN RTX 2080 8G"
+  }
+ },
+ "key_features": [
+  "Memory Type: GDDR6",
+  "CUDA Cores (Nvidia): 2944",
+  "Memory Clock: 14000MHz",
+  "Memory Bus (Bit): 256bit"
+ ],
+ "model": "PELADN RTX 2080 8G",
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.creatus.com.bd/peladn-rtx-2080-8g-gaming-graphics-card",
+ "store": "creatus"
+}

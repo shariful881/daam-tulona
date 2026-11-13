@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Free DOS",
+   "Memory": "16GB DDR5",
+   "Processor": "Intel Core i5 1334U (12MB Cache, 10 Cores, 12 Threads, Up to 4.60 GHz)",
+   "Graphics": "Intel UHD Graphics",
+   "Form Factor": "All-in-One PC",
+   "Audio": "Stereo Speakers with Realtek ALC3289, 5W x 2 = 10W",
+   "Storage": "1TB NVMe SSD",
+   "Power Supply": "90W AC Adapter",
+   "CPU Cooler": "Integrated CPU Cooling",
+   "Others": "2.07 MP at 30 fps FHD RGB-Tilt Camera (Black), Wireless Keyboard, Wireless Mouse, Wi-Fi 6E, Bluetooth"
+  },
+  "Network & Connectivity": {
+   "Lan": "1 x RJ45 Ethernet Port",
+   "Network": "Intel Wi-Fi 6E, Bluetooth"
+  },
+  "Input Devices": {
+   "External I/O Ports": "3 x USB 3.2 Gen 1 (5 Gbps) with Wake-up Support\n1 x USB 3.2 Gen 2 (10 Gbps) with PowerShare\n1 x HDMI-Out 1.4b\n1 x HDMI-In 1.4\n1 x RJ45 Ethernet Port\n1 x Headset (Headphone and Microphone Combo) Port\n1 x Power-Adapter Port"
+  },
+  "Physical Specification": {
+   "Weight": "12.09 lb (5.49 kg)",
+   "Dimensions": "1.58\" (40.2 mm) Depth x 21.86\" (542.7 mm) Width x 14.11\" (358.54 mm) Rear Height x 13.929\" (353.82 mm) Front Height\nWith Isosceles Stand: 7.9\" (200.7 mm) Depth x 20.92\" (531.50 mm) Width x 16.31\" (414.30 mm) Rear Height x 16.31\" (414.30 mm) Front Height"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Warranty"
+  },
+  "Image": {
+   "Model": "EC24250"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 7 150U (12 MB cache, 10 cores,12 threads, Up to 5.4 GHz Turbo)",
+  "Display: 23.8-inch FHD (1920x1080), Non Touch",
+  "RAM: 16GB DDR5, Storage: 1TB SSD",
+  "Features: Wireless Keyboard+Mouse, Wi-Fi 6E, Bluetooth"
+ ],
+ "model": "EC24250",
+ "warranty": "3-Year Warranty",
+ "fetched": "2026-11-13T18:46+06:00",
+ "source": "https://www.creatus.com.bd/dell-ec24250-intel-core-7-150u-all-in-one-pc",
+ "store": "creatus"
+}

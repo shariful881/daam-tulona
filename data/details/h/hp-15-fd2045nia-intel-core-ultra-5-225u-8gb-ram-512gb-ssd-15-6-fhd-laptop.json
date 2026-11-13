@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "225U",
+   "Processor Frequency": "up to 4.80 GHz",
+   "Generation": "Intel Ultra Series 2",
+   "Processor Core": "12",
+   "Processor Thread": "14",
+   "CPU Cache": "12 MB"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920x1080)"
+  },
+  "Memory": {
+   "RAM": "8GB",
+   "RAM Type": "DDR5",
+   "Bus Speed": "5600 MHz",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "512 GB",
+   "Supported SSD Type": "M.2 NVMe PCIe",
+   "Storage Upgrade": "Installed SSD can be upgradeable"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Graphics",
+   "Graphics Type": "Shared / Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "720p HD camera",
+   "Speaker": "Dual speakers",
+   "Microphone": "Dual array microphones"
+  },
+  "Network & Connectivity": {
+   "WiFi": "WIFI 6",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB Type-A 5Gbps signaling rate",
+   "USB Type-C / Thunderbolt Port": "1x USB Type-C 5Gbps signaling rate",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (TPM) 2.0"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Physical Specification": {
+   "Color": "Natural Silver",
+   "Weight": "1.63 kg"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion battery",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "45 W"
+  },
+  "Warranty Details": {
+   "Warranty": "2-Year Warranty ( Battery & Adapter 1 Year)."
+  }
+ },
+ "key_features": [],
+ "warranty": "2-Year Warranty ( Battery & Adapter 1 Year).",
+ "fetched": "2026-11-13T18:07+06:00",
+ "source": "https://www.pchouse.com.bd/hp-15-intel-core-ultra-5-225u-8gb-ram-512gb-ssd",
+ "store": "pchouse"
+}

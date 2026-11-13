@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "30\"",
+   "Display Type": "LED",
+   "Panel Type": "VA",
+   "Resolution": "WFHD (2560x1080)",
+   "Aspect ratio": "21:9",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Brightness": "250 nits",
+   "Contrast Ratio": "3000:1",
+   "Refresh rate": "200Hz",
+   "Color Support": "16.7M",
+   "Color Gamut": "120% sRGB, 85% NTSC, 90% DCI-P3, 83% Adobe RGB",
+   "Response Time": "MPRT 1ms"
+  },
+  "Video Features": {
+   "Low Blue Light": "Yes"
+  },
+  "Mechanical Design": {
+   "Height Adjustment": "115±5mm",
+   "Pivot": "N/A",
+   "Swivel": "25°±2°",
+   "Tilt": "-5°±2°/15°±2°"
+  },
+  "Power Consumption": {
+   "Consumption (Standard)": "Typical:48W , Max:55W",
+   "Consumption (Standby)": "<0.5W"
+  },
+  "Air Purifier": {
+   "Dimensions": "75x75mm"
+  },
+  "Output": {
+   "Voltage": "DC 12V 4A"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "Power Type": "External"
+  },
+  "Connector & Ports": {
+   "HDMI": "2*HDMI 2.0(180HZ)",
+   "Display Port": "2*DP1.2(200HZ)"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "701.1*317.6*121.7mm",
+   "Color": "16.7M"
+  },
+  "Weight": {
+   "Net Weight": "6.5kg",
+   "Gross Weight": "9kg"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: WFHD(2560x1080)",
+  "Display: VA, 200Hz, 1ms MPRT",
+  "Ports: 2*HDMI 2.0(180HZ),2*DP1.2(200HZ), 1*Audio Out",
+  "Features: VESA wall mount, Adaptive Sync, 1500R Curvature"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-dhi-lm30-e330ca-30-200hz-wfhd-curved-gaming-monitor-price-in-bd",
+ "store": "pchouse"
+}

@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "VA",
+   "Display Size": "27 Inch",
+   "Display Type": "WLED",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixels Per Inch (PPI)": "~81 ppi",
+   "Pixel pitch(MM)": "0.2745 (H) × 0.2745 (V)",
+   "Aspect Ratio": "16: 9",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Brightness": "300 cd/m²",
+   "Refresh Rate": "200Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "NTSC 90% (CIE1976) / sRGB 100% (CIE1931)",
+   "Response Time": "0.3ms MPRT / 1ms (GtG)",
+   "Curvature": "Yes, 1500R"
+  },
+  "Contrast Ratio": {
+   "Static": "3500:1",
+   "Dynamic": "80000000:1"
+  },
+  "Video Features": {
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Adaptive Sync",
+   "HDCP": "HDMI: 2.2, DisplayPort: 2.2"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "Display Port": "1x DisplayPort 1.4",
+   "HDMI": "2x HDMI 2.0",
+   "Audio Jack": "1 x 3.5 mm audio jack"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5° ~ 23°",
+   "Swivel": "-30° ~ 30°",
+   "Height Adjustment": "120mm",
+   "Vesa Wall Mount": "100x100 mm"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Dimension": "611.5 x 367.6 x 78.68 mm",
+   "Weight": "3.95 kg"
+  },
+  "Power": {
+   "Type": "Internal",
+   "Power Consumption": "23W",
+   "Voltage": "100 - 240V～1.5A, 50 / 60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: VA, 200Hz, 0.5ms MPRT",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: 1500R Curvature, AdaptiveSync"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-c27g4h2-27-inch-curved-gaming-monitor",
+ "store": "pchouse"
+}

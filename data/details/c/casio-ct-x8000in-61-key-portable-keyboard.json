@@ -1,0 +1,100 @@
+{
+ "specs": {
+  "Specification": {
+   "Keyboard": "61 standard size keys\nTouch Response: Sensitivity 3 types, off",
+   "Maximum Polyphony": "64 notes (32 for certain tones)",
+   "Master Effects": "Equalizer (10 presets)",
+   "External Input Effects": "Center cancel (vocal cut) for input from the Audio In jack",
+   "Demo Songs": "3",
+   "Music Presets": "310 (With chord progressions)",
+   "Registration": "Maximum 128 setups (8 setups x 16 banks), registration sequence",
+   "Tone Editing": "Preset tone editing, DSP editing\nMemory for storage of edited tones (up to 100)",
+   "Rhythm Editing": "New rhythm creation, rhythm editing\nMemory for storage of created/edited rhythms (up to 50)",
+   "Pedals": "Sustain, sostenuto, soft, rhythm/song, expression",
+   "Controllers": "Pitch bend wheel, TOUCH On/OFF button, PORTAMENTO button",
+   "MIDI": "16ch multi-timbre received, GM Level 1 standard",
+   "Power Jack": "DC 12V",
+   "Speakers": "10cm x 2 (Output: 6W + 6W)",
+   "Power Consumption": "8 W",
+   "Dimensions": "W 94.8 x D 38.4 x H 11.6 cm",
+   "Weight": "Approximately 6.9 kg (without batteries)",
+   "Accessories": "AC adaptor (Not included)"
+  },
+  "Tones": {
+   "Preset Tones": "800 (43 Indian)",
+   "User Tones": "100",
+   "Other": "Layer, split (configurable split point, lower point, chord point settings)"
+  },
+  "System Effects": {
+   "Reverb": "24 types, off",
+   "Chorus": "12 types, Tones",
+   "Delay": "15 types, Tones",
+   "DSP": "100 types (Can be applied to user tones using DSP editing.), DSP tones"
+  },
+  "Metronome": {
+   "Beat": "0 (accented tone off), 1 to 16",
+   "Tempo": "Tempo value: 20 to 255"
+  },
+  "Song Bank": {
+   "Built-in Songs": "30",
+   "User-recorded Songs": "10",
+   "USB Memory Songs": "Playback of standard MIDI files (SMF format 0/1), CASIO MIDI files (CMF format) on a USB flash drive are supported."
+  },
+  "USB Audio Playback": {
+   "Supported File Formats": "WAV format, 44.1 kHz 16 bit",
+   "Other Functions": "Center Cancel (Vocal Cut)"
+  },
+  "Auto Accompaniment": {
+   "Built-in Rhythms": "250 (39 Indian)",
+   "User Rhythms": "50",
+   "One Touch Presets": "250"
+  },
+  "Phrase Pads": {
+   "Number of Pads": "4",
+   "User Phrases": "100 (4 phrases x 25 pads)",
+   "Editing Mode": "Copy, delete, phrase editing"
+  },
+  "Mixer function": {
+   "Affected Parts": "Sound source parts, microphone input part",
+   "Parameters": "Part on/off, volume, pan, reverb send, chorus send, delay send"
+  },
+  "MIDI Recorder": {
+   "Keyboard Performance Recording": "10 songs, 17 tracks (1 system track, 16 solo tracks)",
+   "Memory Capacity": "Approximately 40,000 notes (per song)",
+   "Editing Mode": "Song editing, track editing, event editing, step input",
+   "Other Functions": "Overdubbing, punch-in recording"
+  },
+  "Other Functions": {
+   "Transpose": "±1 octaves (-12 to 0 to +12 semitones)",
+   "Octave Shift": "Upper 1/Upper 2/Lower 1/Lower 2, ±3 octaves",
+   "Tuning": "A4 = 415.5 to 465.9 Hz (Initial Default: 440.0 Hz)",
+   "Part coarse tune": "For each keyboard part, ±2 octaves (-24 to 0 to +24 semitones)",
+   "Part fine tune": "For each keyboard part, ±99 cents",
+   "Scales": "17 preset scales, scale fine tuning",
+   "Auto Harmonize": "12 types",
+   "Arpeggiator": "150 types",
+   "SFX": "57"
+  },
+  "Inputs/Outputs": {
+   "USB Flash Drive Port": "Type A",
+   "USB Port": "Type B",
+   "Pedal 1 Jack": "Standard jack",
+   "Pedal 2, Expression Jack": "Standard jack",
+   "Headphones Jack": "Stereo standard jack",
+   "Audio Input Jack": "Stereo mini jack/Input impedance 9 kΩ, Input sensitivity 200 mV"
+  },
+  "Power Supply": {
+   "AC Adaptor": "AD-A12150LW",
+   "Batteries": "6 D-size alkaline batteries",
+   "Battery Life": "Approximately 10 hours continuous",
+   "Auto Power Off": "Approximately 30 minutes after last operation; Can be disabled."
+  }
+ },
+ "key_features": [
+  "Touch Response: 3 sensitivity levels",
+  "Amp Output: 6W + 6W"
+ ],
+ "fetched": "2026-11-13T17:54+06:00",
+ "source": "https://diamu.com.bd/product/casio-ct-x8000in-61-key-portable-keyboard/",
+ "store": "diamu"
+}

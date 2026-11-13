@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Shock resistance": "1,500G/0.5ms",
+   "Capacity": "2TB",
+   "Interface": "PCIe Gen5x4 with NVMe",
+   "MTBF": "1,700,000 Hours",
+   "Sequential R/W": "Up to 14,000/11,800MB/s",
+   "Operating System Support": "Windows 11 / 10 / 8.1 / 8 / 7 / Vista\nMAC OS 10.4 or later\nLinux 2.6.33 or later"
+  },
+  "Temperature": {
+   "Operating Temperature": "0˚C ~ 70˚C",
+   "Storage Temperature": "-40˚C ~ 85˚C",
+   "Shock resistance": "1,500G/0.5ms"
+  },
+  "Physical dimension": {
+   "Dimension": "62.3(H) x 24.7(W) x 77.0(L)mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5-year"
+  },
+  "Image": {
+   "Model": "GE PRO"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB, 3D Nand Flash Memory",
+  "Interface: PCIe Gen5x4 with NVMe",
+  "Form Factor: M.2 2280",
+  "R/W Speed: Up to 14,000/11,800MB/s"
+ ],
+ "model": "GE PRO",
+ "warranty": "5-year",
+ "fetched": "2026-11-13T18:26+06:00",
+ "source": "https://www.creatus.com.bd/team-ge-pro-2tb-m-2-ssd",
+ "store": "creatus"
+}

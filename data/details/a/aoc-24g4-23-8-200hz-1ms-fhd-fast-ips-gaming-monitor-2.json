@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "23.8\"",
+   "Display Type": "LED",
+   "Panel Type": "FAST IPS",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixel Pitch (mm)": "0.2745 (H) × 0.2745 (V)",
+   "Aspect ratio": "16: 9",
+   "Viewing Angle": "178° (H) / 178° (V) (CR > 10)",
+   "Contrast Ratio": "1000 : 1 (Typical) 80 Million : 1 (DCR)",
+   "Refresh rate": "200Hz",
+   "Color Support": "16.7 Million",
+   "Color Gamut": "NTSC 90% (CIE1976) / sRGB 100% (CIE1931)",
+   "Response Time": "1ms (MPRT) / 1ms (GtG)",
+   "Others Features": "Color Gamut: NTSC 113% (CIE1976) / sRGB 126% (CIE1931)\nDCI-P3 103% (CIE1976)",
+   "Curvature": "Flat"
+  },
+  "Video Features": {
+   "Low Blue Light": "Yes",
+   "HDCP": "HDMI: 2.2, DisplayPort: 2.2",
+   "Free Sync Support": "Yes"
+  },
+  "Mechanical Design": {
+   "Vesa Wall Mount": "100x100 mm ( 2holes)",
+   "Height Adjustment": "130mm",
+   "Pivot": "-90°~ 90°",
+   "Swivel": "-30° ~ 30°",
+   "Tilt": "-5° ~ 23°"
+  },
+  "Interface": {
+   "Display Port": "1x DisplayPort 1.4"
+  },
+  "Power Specifications": {
+   "Power Consumption": "23W"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.0"
+  },
+  "Physical Specification": {
+   "Color": "Black & Red",
+   "Weight": "2.55kg without Stand\n3.96kg with Stand"
+  },
+  "Physical Specifications": {
+   "Dimension": "325 (H) × 540 (W) × 50.6 (D) without Stand (mm)\n382.1~495.1 (H) × 540 (W) × 239.7 (D) with Stand (mm)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: FAST IPS, 200Hz, 1ms",
+  "Ports: 1x HDMI 2.0, 1x DisplayPort 1.4",
+  "Features: AdaptiveSync, Flicker Free"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T18:19+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-24g4-200hz-gaming-monitor",
+ "store": "pchouse"
+}

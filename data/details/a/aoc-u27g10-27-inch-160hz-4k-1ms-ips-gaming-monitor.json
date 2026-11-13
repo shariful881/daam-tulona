@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 Inch",
+   "Panel Type": "IPS",
+   "Resolution": "3840 x 2160 (4K UHD)",
+   "Brightness": "400 cd/m²",
+   "Contrast Ratio": "1000:1",
+   "Refresh rate": "Up to 160Hz (via DisplayPort)",
+   "Color Gamut": "100% sRGB, 95% DCI-P3",
+   "Response Time": "1ms GtG",
+   "HDR": "HDR Support: Available via the HDMI 2.1 and DisplayPort 1.4 connections"
+  },
+  "Basic Information": {
+   "Feature": "Adaptive Sync: Allows for a smoother gaming experience by synchronizing the monitor's refresh rate with your GPU."
+  },
+  "Display Details": {
+   "Color": "Color Depth: 1.07 billion colors for vibrant visuals."
+  },
+  "Connectivity": {
+   "Audio Jack": "1 x audio output",
+   "Display Port": "1 x DisplayPort 1.4",
+   "HDMI": "2 x HDMI 2.1"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: 4K UHD (3840 × 2160)",
+  "Display: IPS, 160Hz, 1ms",
+  "Ports: 2x HDMI, 1x DisplayPort, 1 x Audio",
+  "Features: Adaptive-Sync, Flicker Free"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:21+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-u27g10-gaming-monitor",
+ "store": "pchouse"
+}

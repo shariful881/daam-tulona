@@ -1,0 +1,93 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 3 7330U",
+   "Processor Frequency": "Up to 4.3 GHz",
+   "Processor Core": "6 (Performance-cores- 2 Efficient-cores- 4)",
+   "Processor Thread": "8",
+   "CPU Cache": "16MB"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MHz",
+   "Max RAM Capacity": "Up to 64 GB",
+   "Ram Type": "DDR4",
+   "Total RAM Slot": "2",
+   "Removable": "Yes",
+   "RAM": "16GB (8X2)"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "up to 1TB"
+  },
+  "Graphics": {
+   "Graphics Model": "Graphics Model",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Acer backlit keyboard with international language",
+   "Keyboard Features": "independent numeric keypad, international language support",
+   "TouchPad": "Multi-gesture touchpad, Built in Click pad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD Webcam with 720p resolution",
+   "Speaker": "Yes",
+   "Microphone": "Yes\nDual array microphone with Noise Cancellation",
+   "Audio Features": "High-Definition Audio\nHigh Fidelity Original Recording"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI",
+   "USB 2 Port": "2 x USB 2.0 (Type A)",
+   "USB 3 Port": "1 x USB 3.2 Gen1 (Type A)",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen2 (Type C)",
+   "Headphone & Microphone Port": "1x mic and headphone combo jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "Yes",
+   "WiFi": "802.11a/b/g/n/ac+ax wireless LAN",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "N/A"
+  },
+  "Main Features": {
+   "Capacity": "Max RAM\nMax RAM Capacity\nup to 32GB"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS LED",
+   "Display Resolution": "FHD (1920x1080)",
+   "Display Features": "16:9 aspect ratio, high-brightness Acer ComfyView",
+   "Touch Screen": "No"
+  },
+  "Power": {
+   "Battery Type": "3-cell Lithium Ion (Li-Ion)",
+   "Battery Capacity": "54Wh",
+   "Adapter Type": "45 W AC adapter"
+  },
+  "Physical Specification": {
+   "Weight": "1.59 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "Aspire 15 AS15-42"
+  }
+ },
+ "key_features": [
+  "Processor: Ryzen 3 7330U (16MB L3 Cache, up to 4.30GHz)",
+  "RAM: 16GB DDR4 3200MHz, Storage: 512GB NVMe SSD",
+  "Display: 15.6″ FHD (1920×1080) IPS LED Display, 60 Hz",
+  "Features: Backlit Keyboard, Stereo Speaker, Wi-Fi 6, HD WebCam"
+ ],
+ "model": "Aspire 15 AS15-42",
+ "warranty": "2 Years Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-13T17:40+06:00",
+ "source": "https://www.creatus.com.bd/acer-aspire-15-as15-42-ryzen-3-7330u-16gb-ram-laptop",
+ "store": "creatus"
+}

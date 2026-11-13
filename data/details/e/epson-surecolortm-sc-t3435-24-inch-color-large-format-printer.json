@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Product Description": {
+   "Items": "Product Description",
+   "Model": "SC-T3435",
+   "Printing Technology": "PrecisionCore TFP",
+   "Printhead": "PrecisionCore TFP Printhead",
+   "Nozzle Configuration": "3200 nozzles (800 Nozzle × 4 channels x 1 head)",
+   "Print Resolution": "2400 x 1200 dpi",
+   "Minimum Ink Droplet Volume": "4.0 pl",
+   "Line accuracy": "±0.1% or ±0.26 mm",
+   "Minimum Line width": "0.07 mm",
+   "Print speed: POP": "24 sec (A1)",
+   "CAD (A1)": "25 sec",
+   "Ink type": "UltraChrome XD2 Pigment Ink",
+   "Colours": "Cyan, Magenta, Yellow, Black (4 colors)",
+   "Ink capacity": "110ml / 350ml",
+   "Media Size": "24-in printer/ Print width of up to 60.96 cm (24 inch)",
+   "Media Type": "Inkjet coated paper, Tracing Paper, Plain Paper",
+   "Maximum Roll Diameter/Weight": "2/3” Core, Max. 170 mm / 8 kg",
+   "Paper width (roll)": "256mm to 610 mm (Cut-sheet:  210 mm to 610mm",
+   "Side Margin": "Roll paper: 3 mm (Borderless: 0mm), Cut-Sheet : 3 mm (Pop)  / 20 mm (Bottom)  / 0 mm (Left/Right)",
+   "Media thickness": "Roll : 0.08mm to 0.3mm / Cut-Sheet : 0.08mm to 0.03mm",
+   "Borderless": "Yes",
+   "Memory": "1 GB",
+   "Control Panel": "4.3 inch Touch Screen",
+   "Interface/connectivity": "USB 3.0, Ethernet (100BASE-TX / 1000BASE-T), Wi-Fi (IEEE802.11b/g/n)",
+   "Wi-Fi": "Wi-Fi Direct (Simple Ap)",
+   "USB Direct": "Yes",
+   "Printer Languages": "ESC/P raster HP-GL/2, HP RTL",
+   "Scanner integration": "Document Scanner Epson Workforce DS-530, DS-6500, DS-60000. Business inkjet printers : WF-R8691, C869R, C878R, C879R, C17590, C20590, C20600, C20750, C21000, M20590",
+   "Dimensions (W x H x D)": "1080 x 750 x 1060 mm",
+   "Power Requirements": "AC 100-240V, 50/60 Hz, 2.8 A",
+   "Power Consumptions": "Operating: Aprox. 34 W, Ready : Aprox.13W, Sleep : Aprox.1.3W",
+   "Software": "Windows XP SP3 or later / Vista / 7 / 8 / 8.1 / 10, Windows Server 2003 / 2008 / 2012 / 2016 / 2019, Mac OS X 10.6.8 or later",
+   "Weight": "64 kg (Without Ink)",
+   "What’s in the box": "Printer, Printer Stand, Initial ink, AC Power Cable, Setup Guide, Software CD-ROM, Maintenance Box",
+   "Warranty": "One Year"
+  }
+ },
+ "key_features": [
+  "Printer Type: Single Function Large Format Printer",
+  "Print Speed: 24ppm POP (A1), 25ppm CAD (A1)",
+  "Print Resolution: 2400 x 1200dpi"
+ ],
+ "model": "SC-T3435",
+ "warranty": "One Year",
+ "fetched": "2026-11-13T17:48+06:00",
+ "source": "https://smartbd.com/product/epson-surecolortm-sc-t3435-24-inch-color-large-format-printer/",
+ "store": "smartbd"
+}

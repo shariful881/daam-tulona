@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n12 GB\n12 GB",
+   "Internal Storage": "Choose an option\n256GB\n512GB\n256GB\n512GB",
+   "Region": "Choose an option\nINT\nINT\nClear"
+  },
+  "Honor 400 Series Compare": {
+   "Model": "HONOR 400",
+   "Display": "6.55″ AMOLED, 2736×1264",
+   "Colors": "1.07B colors",
+   "Processor": "Snapdragon 7 Gen 3",
+   "GPU": "Adreno 720",
+   "OS": "MagicOS 9.0 (Android 15)",
+   "RAM + Storage": "12GB + 512GB",
+   "Rear Camera": "200MP + 12MP UW",
+   "Zoom": "Up to 30x digital",
+   "Front Camera": "50MP",
+   "Video Recording": "4K",
+   "Battery": "6000 mAh",
+   "Charging": "100W wired",
+   "Water Resistance": "IP66",
+   "Weight": "184g",
+   "Thickness": "7.3 mm",
+   "Connectivity": "Wi-Fi 6, BT 5.4",
+   "NFC": "Yes",
+   "Special Features": "IR Blaster",
+   "Stereo Speakers": "Yes"
+  },
+  "Specification": {
+   "RAM": "12 GB",
+   "Internal Storage": "256GB\n,\n512GB",
+   "Region": "INT",
+   "Model": "Magic6 RSR",
+   "OS": "Android 14, MagicOS 8",
+   "Network": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+   "SIM": "Nano-SIM + eSIM\nNano-SIM + Nano-SIM\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)",
+   "System Storage": "24GB RAM1TB Storage",
+   "Processor": "(Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm))",
+   "CPU Architecture": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+   "GPU": "Adreno 750",
+   "Battery and Charging": "Si/C Li-Ion 5600 mAh\n80W wired\n66W wireless\nReverse wireless\n5W reverse wired",
+   "Sensors": "Fingerprint (under display, optical), Face ID, accelerometer, gyro, proximity, compass"
+  },
+  "Dimensions & Weight": {
+   "Dimensions": "162.5 x 75.8 x 8.9 mm (6.40 x 2.98 x 0.35 in)",
+   "Weight": "237 g (8.36 oz)"
+  },
+  "Display": {
+   "Type": "LTPO OLED, 1B colors, 120Hz, Dolby Vision, HDR, 1800 nits (HBM), 5000 nits (peak)",
+   "Size": "6.8 inches, 112.8 cm2 (~91.6% screen-to-body ratio)",
+   "Resolution": "1280 x 2800 pixels, 19.5:9 ratio (~453 ppi density)",
+   "Protection": "NanoCrystal Shield"
+  },
+  "Front Camera": {
+   "Single": "50 MP, f/2.0, 22mm (wide), 1/2.93\", AF",
+   "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
+  },
+  "Connectivity": {
+   "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+   "Bluetooth": "5.3, A2DP, LE, aptX HD",
+   "Positioning": "GPS (L1+L5), GLONASS, BDS (B1I+B1c+B2a), GALILEO (E1+E5a)",
+   "NFC": "Yes, HCE, NFC-SIM",
+   "Infrared port": "Yes",
+   "Radio": "No",
+   "USB": "USB Type-C 3.2, DisplayPort 1.2, OTG"
+  }
+ },
+ "key_features": [
+  "Model: 400",
+  "Display: 6.55-inches, AMOLED",
+  "CPU: Snapdragon 7 Gen 3",
+  "GPU: Adreno 720",
+  "Front Camera: 50MP",
+  "Rear camera: 200MP+12MP",
+  "Resolution: 2736×1264",
+  "Battery: 6000 mAh"
+ ],
+ "model": "HONOR 400",
+ "fetched": "2026-11-13T17:51+06:00",
+ "source": "https://diamu.com.bd/product/honor-400/",
+ "store": "diamu"
+}

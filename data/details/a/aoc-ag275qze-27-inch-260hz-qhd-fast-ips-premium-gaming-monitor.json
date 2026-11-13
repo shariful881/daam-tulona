@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "27 inch",
+   "Panel Type": "IPS (In-Plane Switching)",
+   "Resolution": "2560 x 1440 (QHD)",
+   "Brightness": "350 cd/m²",
+   "Contrast Ratio": "1200:1 (static)",
+   "Refresh rate": "260Hz (overclocked)",
+   "Response Time": "0.5ms (MPRT)"
+  },
+  "Basic Information": {
+   "Others": "Adaptive Sync: AMD FreeSync, VESA Adaptive Sync"
+  },
+  "Display Details": {
+   "Color": "NTSC 106% (CIE1976) / sRGB 104% (CIE1931) / DCI-P3 97% (CIE1976) color gamut coverage"
+  },
+  "Features": {
+   "Dimension": "Width: 613.4 mm (without stand)",
+   "Weight": "6.33 kg (with stand)"
+  },
+  "Connectivity": {
+   "Display Port": "2 x DisplayPort 1.4",
+   "HDMI": "2 x HDMI 2.0"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: 2K QHD (2560 × 1440)",
+  "Display: IPS, 260Hz, 0.5ms",
+  "Ports: 2x HDMI, 2x DisplayPort",
+  "Features: Adaptive-Sync, Flicker Free"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-13T18:20+06:00",
+ "source": "https://www.pchouse.com.bd/aoc-ag275qze-gaming-monitor",
+ "store": "pchouse"
+}

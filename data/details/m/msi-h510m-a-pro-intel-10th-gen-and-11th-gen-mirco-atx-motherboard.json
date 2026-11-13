@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports 10th Gen Intel Core Processors, 11th Gen Intel Core Processors, Pentium Gold and Celeron Processors",
+   "Chipset": "Intel H510 Chipset",
+   "Form Factor": "mATX Form Factor",
+   "Audio": "7.1-Channel High Definition Audio\n1x Front panel audio connector"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe x16 slot (From CPU)\nSupport up to PCIe 4.0 for 11th Gen Intel® CPU\nSupport up to PCIe 3.0 for 10th Gen Intel® CPU\n1x PCIe 3.0 x1 slot (From PCH)",
+   "M.2 Socket": "1x M.2 slot (Key M)\nM2_1 slot (From H510 Chipset) up to PCIe 3.0 x4 SATA 6Gb/s 2242/ 2260/ 2280 storage devices\n1x M.2 slot with E key for WiFi module only(M2_2)"
+  },
+  "Memory": {
+   "Slots": "1x PCIe x16 slot\n1x PCIe 3.0 x1 slot\n2x DDR4 memory slots",
+   "Supported Memory": "1R 2133/ 2666/ 2933 MHz for 10th Gen Intel CPU (by JEDEC & POR)\n1R 2133/ 2666/ 2933/ 3200 MHz for 11th Gen Intel CPU (by JEDEC & POR)\nDual-Channel mode\nnon-ECC, un-buffered memory\nIntel Extreme Memory Profile (XMP)",
+   "Maximum Memory": "support up to 64GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI 2.0b with HDR port, supports a maximum resolution of 4K 60Hz\n1x VGA port, supports a maximum resolution of 2048x1536 60Hz, 1920x1200 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.0b with HDR port, supports a maximum resolution of 4K 60Hz",
+   "Display Port (s)": "Not specified",
+   "USB (s)": "4x USB 3.2 Gen 1 5Gbps ports (2 Type-A ports on the back panel, 2 ports available through the internal USB connector)\n6x USB 2.0 ports (4 Type-A ports on the back panel(hub- GL850G), 2 ports available through the internal USB 2.0 connector)",
+   "Front USB": "1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\nUSB 2.0 connector (supports additional 2 USB 2.0 ports)",
+   "LAN Port (s)": "1x Intel I219V 1Gbps LAN controller",
+   "Wireless Communication module": "Not specified",
+   "Supported Storage": "4x SATA 6Gb/s ports (From H510 Chipset)\n1x M.2 slot (Key M)\nM2_1 slot (From H510 Chipset) up to PCIe 3.0 x4 SATA 6Gb/s 2242/ 2260/ 2280 storage devices",
+   "RAID": "Not specified"
+  },
+  "Network & Connectivity": {
+   "WiFi": "1x M.2 slot with E key for WiFi module only(M2_2)"
+  },
+  "Others": {
+   "Special Features": "Supports Dual-Channel mode\nIntel Extreme Memory Profile (XMP)\nChassis Intrusion connector\nTPM module connector",
+   "Bundled Software": "Not specified"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  },
+  "Image": {
+   "Model": "MSI H510M-A PRO"
+  }
+ },
+ "key_features": [],
+ "model": "MSI H510M-A PRO",
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-13T18:08+06:00",
+ "source": "https://www.creatus.com.bd/msi-h510m-a-pro-intel-10th-gen-and-11th-gen-mirco-atx-motherboard",
+ "store": "creatus"
+}

@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Key Features": {
+   "Connectors": "24-Pin Main ATX Power, 8-Pin 12V CPU Power, 1x Panel Board Header, 1x Audio Built-in Plug Header"
+  },
+  "Basic Information": {
+   "Supported CPU": "Intel 6th, 7th, 8th & 9th Generation Core i7 / i5 / i3, Pentium, and Celeron series",
+   "Chipset": "Intel H110 Chipset",
+   "BIOS": "Not Specified",
+   "Form Factor": "Micro-ATX",
+   "Audio": "Realtek High-Definition Audio, 3x Audio Jacks"
+  },
+  "Expansion Slots": {
+   "PCI": "1x PCIe 3.0 x16, 1x PCIe 2.0 x1",
+   "M.2 Socket": "1x M.2 Slot, NVMe PCIe 2.0 x4 Mode"
+  },
+  "Memory": {
+   "Slots": "2x DDR4 DIMM Slots, 1x M.2 Slot, 1x PCIe 3.0 x16 Slot, 1x PCIe 2.0 x1 Slot",
+   "Supported Memory": "2x DDR4 DIMM Slots, Dual-Channel DDR4, Up to DDR4 2666 MHz",
+   "Maximum Memory": "Up to 64GB"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Support via HDMI and VGA outputs; Dedicated GPU support via PCIe 3.0 x16"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI Port",
+   "Display Port (s)": "1x HDMI, 1x VGA (D-Sub)",
+   "USB (s)": "2x USB 3.0, 4x USB 2.0",
+   "Front USB": "1x USB 3.0 Header supporting 2x Front USB 3.0 Ports, 1x USB 2.0 Header supporting 2x Front USB 2.0 Ports",
+   "LAN Port (s)": "1x RJ45 Gigabit LAN Port",
+   "Wireless Communication module": "Not Included",
+   "Supported Storage": "1x M.2 NVMe PCIe 2.0 x4, 4x SATA 3.0 (6 Gbps)",
+   "RAID": "Not Specified",
+   "Audio": "Realtek High-Definition Audio",
+   "Internal I/O Ports": "1x USB 3.0 Header\n1x USB 2.0 Header\n1x COM Header\n1x 4-Pin CPU Fan Header\n1x 4-Pin System Fan\n1x 3-Pin System Fan Header"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Not Supported / Not Included"
+  },
+  "Others": {
+   "Special Features": "TPM 2.0 Support, 2x 5-Pin Diagnostic Card Header, JBAT Jumper Cap, 4-Layer PCB",
+   "Bundled Software": "Not Included"
+  },
+  "Warranty Information": {
+   "Warranty": "Not Specified"
+  }
+ },
+ "key_features": [],
+ "warranty": "Not Specified",
+ "fetched": "2026-11-13T18:40+06:00",
+ "source": "https://www.creatus.com.bd/xenthra-xn-h311m-vh-pro-micro-atx-motherboard",
+ "store": "creatus"
+}

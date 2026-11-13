@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Printer": {
+   "ADF": "35 Pages",
+   "Resolution technology": "1200 × 1200 Dpi",
+   "SUPPORTED OS": "Microsoft Windows Server2003/Server2008/\nServer2012/XP/Vista/Win7/Win8/Win8.1/Win10（32/64 Bit）\nMac OS 10.7-10.15\nLinux: Ubuntu\n12.04/14.04/16.04/18.04/20.04",
+   "Weight": "8.5Kg (18.7lb)",
+   "Print Technology": "Multifunction",
+   "Speed PPM (Color)": "22ppm (A4) / 23ppm (Letter)",
+   "Speed PPM (Black)": "22ppm (A4) / 23ppm (Letter)",
+   "Print Paper Size": "A4,A5,A6,JIS B5,ISO B5,B6, Letter, Legal, Executive,Statement, Monarch Envelope,\nDL Envelope,C5 Envelope,C6 Envelope,NO.10 Envelope, Japanese Postcard,Folio,O‑Cio,Big 16k,\n32k,16k,Big 32k,ZL,\nYougata4, Postcard, Younaga3, Nagagata3, Yougata2",
+   "Processor speed": "600 MHz",
+   "Dimensions": "417x305x301mm(16.4''×12.0''×11.8'')",
+   "Memory": "128 MB",
+   "Media sizes supported": "Plain, Thick, Transparency, Cardstock, Label, Envelope, Thin",
+   "Power": "110V Model：AC100~127V(±10%); 50Hz/60Hz; 6A\n220V Model：AC220~240V(-15%,+10%); 50Hz/60Hz; 3A",
+   "Color": "White",
+   "Refill Supplies": "P*-210 Series Standard Capacity Toner (1,600 Pages)"
+  },
+  "Paper Handling": {
+   "Paper Input Capacity": "150 Pages",
+   "Paper Output Capacity": "100 Pages",
+   "Media Type": "Plain, Thick, Transparency, Cardstock, Label, Envelope, Thin",
+   "Media Weight": "60~163g/M²"
+  },
+  "Connectivity": {
+   "Net": "10/100 Base-TX",
+   "WiFi": "IEEE 802.11b/G/N"
+  },
+  "Scan": {
+   "Scanner Type": "Flatbed+ADF",
+   "Max. Scan Size": "216 X 297mm (Flatbed) , 216 X 356mm (ADF)",
+   "Output Function": "Scan To E-Mail, PC, FTP,",
+   "Color Scanning": "Yes"
+  },
+  "Copy": {
+   "Copy Speed": "22cpm (A4) / 23cpm (Letter)",
+   "First Copy Out Time": "Less Than 12 Seconds",
+   "Zoom": "25% - 400%",
+   "Max. Copy Pages": "1 - 99 Pages",
+   "Additional Function": "ID Copy, Receipt Copy, N-Up Copy, Clone Copy"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-13T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/pantum-m6506nw-all-in-one-wifi-laser-printer",
+ "store": "pchouse"
+}

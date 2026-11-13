@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR4"
+  },
+  "Key Feature": {
+   "Frequency": "3200Mhz"
+  },
+  "Key Features": {
+   "Capacity": "16GB",
+   "Latency": "CL22"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "No"
+  },
+  "Physical Specifications": {
+   "PIN": "260-pin DIMM"
+  },
+  "Temperature": {
+   "Operating Voltage": "0 Degree C to + 85 Degree C"
+  },
+  "Warranty Information": {
+   "Warranty": "Life Time Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 16GB",
+  "Form Factor: DDR4",
+  "Speed (Data Rate): 3200MT/s",
+  "CAS Latency: CL22, Pin: 260 Pin"
+ ],
+ "warranty": "Life Time Warranty",
+ "fetched": "2026-11-13T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-value-ram-16gb-ddr4-3200mhz-laptop-ram",
+ "store": "pchouse"
+}

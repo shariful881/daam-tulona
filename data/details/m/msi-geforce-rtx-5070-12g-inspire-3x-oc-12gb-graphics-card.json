@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "12GB",
+   "Resolution": "7‎680 x 4320",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "192 bit",
+   "Memory Interface": "PCI-E 5.0",
+   "CUDA Cores": "6144"
+  },
+  "Core Clock": {
+   "Extreme Performance": "2557 MHz (MSI Center)",
+   "Boost": "2542 MHz"
+  },
+  "Interface": {
+   "Display Port": "DisplayPort 2.1b x 3",
+   "HDMI": "HDMI 2.1b x 1"
+  },
+  "Power Specifications": {
+   "Connectors": "16 pin x 1",
+   "Recommended PSU": "650W",
+   "Consumption": "250W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Programming Interfaces": {
+   "DirectX": "1‎2 Ultimate",
+   "OpenGL": "4‎.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "288 x 112 x 50 mm"
+  },
+  "Others": {
+   "Weight": "914 g (Card) / 1312 g (Package)",
+   "PCB Form": "ATX"
+  },
+  "Warranty": {
+   "Warranty": "3 years Warranty"
+  }
+ },
+ "key_features": [
+  "Core Clock: 2557 MHz ; Boost: 2542 MHz",
+  "Memory Clock: 28 Gbps",
+  "CUDA Cores: 6144",
+  "Output: DP 2.1b x3, HDMI 2.1b x1"
+ ],
+ "warranty": "3 years Warranty",
+ "fetched": "2026-11-13T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/msi-geforce-rtx-5070-12g-inspire-3x-oc-12gb-graphics-card",
+ "store": "pchouse"
+}

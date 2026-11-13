@@ -1,0 +1,82 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i7 13620H",
+   "Processor Thread": "16 Thread",
+   "CPU Cache": "24MB"
+  },
+  "General Information": {
+   "GPU Memory Size": "8GB",
+   "Memory Size": "16GB",
+   "Memory Type": "DDR5"
+  },
+  "Memory": {
+   "Bus Speed": "5200 MHz",
+   "Max RAM Capacity": "64GB"
+  },
+  "Storage": {
+   "Storage Type": "Gen 4 NVMe PCIe",
+   "Storage Capacity": "1TB SSD"
+  },
+  "Connector & Ports": {
+   "USB (s)": "1 x Type-A support USB2.0\n2 x Type-A support USB3.2 Gen1"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Single Color Backlit Keyboard (Blue), Up to 1.7mm Key-travel",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "FHD (1080p) IR Webcam",
+   "Speaker": "2x 2W speakers",
+   "Microphone": "Built-in array Microphone"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 x HDMI",
+   "USB Type-C / Thunderbolt Port": "1 x Type-C USB3.2 Gen1 supports DisplayPort 1.4 and Power Delivery 3.0"
+  },
+  "Network & Connectivity": {
+   "Lan": "1G",
+   "WiFi": "WIFI 6E (802.11ax 2x2)",
+   "Bluetooth": "v5.2"
+  },
+  "Security": {
+   "Security Chip": "Firmware-based TPM, supports Intel Platform Trust Technology (Intel PTT)"
+  },
+  "Software": {
+   "Operating System": "Win-11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "NVIDIA GeForce RTX 5060"
+  },
+  "Display": {
+   "Display Size": "16 inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920x1200)",
+   "Aspect Ratio": "16:10",
+   "Refresh Rate": "165 Hz"
+  },
+  "Power": {
+   "Battery Type": "Li Polymer",
+   "Battery Capacity": "76Wh",
+   "Adapter Type": "150W AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.2kg",
+   "Dimensions": "358.3 x 262.5 x 19.45~22.99 mm",
+   "Colors": "Black Steel"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year"
+  },
+  "Image": {
+   "Model": "A16 GA6H CVHI"
+  }
+ },
+ "key_features": [],
+ "model": "A16 GA6H CVHI",
+ "warranty": "2 Year",
+ "fetched": "2026-11-13T17:45+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-a16-ga6h-cvhi-core-i7-rtx-5060-laptop",
+ "store": "creatus"
+}

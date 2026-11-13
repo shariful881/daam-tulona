@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Base Frequency": {
+   "Performance-core Base Frequency": "3.9 GHz",
+   "Efficient-core Base Frequency": "3.3 GHz"
+  },
+  "Basic Information": {
+   "Cache": "30 MB Intel Smart Cache",
+   "Cores": "20 (Performance cores: 8, Efficient cores: 12)",
+   "Default TDP": "Base: 125W",
+   "Supported Technologies": "Intel Speed Shift Technology\nIntel Turbo Boost Technology 2.0\nIntel Volume Management Device (VMD)\nNPU: Intel AI Boost",
+   "Threads": "20",
+   "cTDP": "Maximum Turbo: 250W"
+  },
+  "Maximum Turbo Frequency": {
+   "Performance-core Max Turbo Frequency": "5.4 GHz",
+   "Efficient-core Max Turbo Frequency": "4.6 GHz"
+  },
+  "Graphics Specifications": {
+   "Base Frequency": "300 MHz",
+   "Core Count": "4",
+   "Max Dynamic Frequency": "2 GHz",
+   "Processor Graphics": "Intel Graphics"
+  },
+  "Max Resolution": {
+   "Max Resolution (HDMI)": "4K @ 60Hz (HDMI 2.1 TMDS) 8K @ 60Hz (HDMI2.1 FRL)",
+   "Max Resolution (DP)": "8K @ 60Hz"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "192 GB",
+   "Maximum Speed": "Up to DDR5 6400 MHz"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Clock Speed: 3.3GHz up to 5.5GHz",
+  "Cache: 30 MB, Socket: LGA1851",
+  "CPU Cores: 20, CPU Threads: 20",
+  "NPU: Intel AI Boost"
+ ],
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-ultra-7-265k-processor-(series-2,-formerly-arrow-lake)-(fan-not-included)",
+ "store": "pchouse"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Memory Size": "8GB",
+   "Memory Type": "GDDR6",
+   "Resolution": "7680 x 4320@60Hz",
+   "Core Clock": "2400MHz",
+   "BUS Type": "PCI Express 4.0 x16",
+   "Interface (PCI Express)": "256 bit",
+   "Memory Clock": "2400 MHz"
+  },
+  "Interface": {
+   "HDMI": "1 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Recommended Power Supply": "600 W",
+   "Consumption": "285 W"
+  },
+  "Display Option": {
+   "Multi Display": "4",
+   "Ports": "3 x DisplayPort 1.4a"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6",
+   "DirectX": "DirectX 12 Ultimate"
+  },
+  "Physical Specifications": {
+   "Dimensions": "300 x 118.5 x 50mm"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "3 years",
+ "fetched": "2026-11-13T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/gunnir-intel-arc-a770-photon-8g-oc-graphics-card",
+ "store": "pchouse"
+}

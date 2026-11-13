@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Windows 11 Home",
+   "Processor": "AMD Ryzen 5 5600G",
+   "Motherboard": "AMD B300",
+   "RAM": "SO-DIMM DDR4 8GB",
+   "Graphics Card": "AMD Radeon Graphics",
+   "Storage": "256GB NVMe PCIe Gen3x4 SSD",
+   "Power Supply": "120W"
+  },
+  "Network & Wireless Connectivity": {
+   "LAN": "Realtek 8111H",
+   "WiFi": "Intel Wi-Fi 5",
+   "Bluetooth": "4.2"
+  },
+  "Input Devices": {
+   "External I/O Ports": "I/O (REAR):\n2x USB 2.0 Type A\n1x COM Port\n2x Wi-Fi Antenna\n1x USB 3.2 Gen2 Type A\n1x USB2.0 Type A\n1x RJ45\n1x VGA out\n1x HDMI out (2.0)\n1x DP out\n1x DC Jack\nI/O (FRONT):\n1x Mic-in/Headphone-out\n1x USB 3.2 Gen2 Type A\n1x USB 3.2 Gen2 Type C\n1x Mic-in"
+  },
+  "Physical Specification": {
+   "Weight": "3.35 lb / 1.52 kg",
+   "Dimensions": "7.61 x 6.32 x 2.56\" / 193.29 x 160.53 x 65.02 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "02-years of limited warranty"
+  },
+  "Image": {
+   "Model": "PRO DP20ZA 5M"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 5600G Processors",
+  "RAM: 8GB DDR4",
+  "Storage: 256GB M.2 PCIe SSD"
+ ],
+ "model": "PRO DP20ZA 5M",
+ "warranty": "02-years of limited warranty",
+ "fetched": "2026-11-13T17:48+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-dp20za-5m-ryzen-5-5600g-256gb-ssd-8gb-ram-mini-pc",
+ "store": "creatus"
+}

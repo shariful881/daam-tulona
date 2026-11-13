@@ -1,0 +1,101 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 7 7445HS",
+   "Generation": "7000 Series",
+   "Processor Frequency": "Up to 4.7GHz",
+   "Processor Core": "6-Cores",
+   "Processor Thread": "12-Threads",
+   "CPU Cache": "22MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600Mhz",
+   "Max RAM Capacity": "up to 64GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes",
+   "RAM": "16GB"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "1TB",
+   "Storage Upgrade": "M.2 NVMe PCIe 4.0 SSD",
+   "Supported SSD Type": "2x M.2 slots (support either SATA or NVMe)\nM.2 SSD Support List:\nM.2 512GB G4x4 PCIe SSD\nM.2 1TB G4x4 PCIe SSD",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050 Laptop GPU, Up to 1675MHz at 60W (75W with Dynamic Boost)",
+   "Graphics Memory": "4GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Connector & Ports": {
+   "LAN Port (s)": "1x RJ45 10/100/1000 Mbps LAN port"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Chiclet Keyboard",
+   "Keyboard Features": "1-Zone RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "720P HD camera",
+   "Speaker": "2-speaker system",
+   "Microphone": "Built-in array microphone",
+   "Audio Features": "AI noise-canceling technology\nDTS Audio Processing\nHi-Res certification (for headphones)"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1x HDMI 2.1 TMDS",
+   "USB 3 Port": "3x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C with support for DisplayPort (data speed up to 10Gbps)",
+   "Headphone & Microphone Port": "1 x 3.5 mm combo audio jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6(802.11ax) (Dual band) 2*2",
+   "Bluetooth": "Bluetooth 5.3 Wireless Card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A",
+   "Security Chip": "Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display": {
+   "Display Size": "16-inch",
+   "Display Type": "Value IPS-level",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "16:9, Anti-glare display, sRGB:62.5%, Adobe:47.34%, Adaptive-Sync, Optimus, Anti-glare display",
+   "Touch Screen": "N/A",
+   "Refresh Rate": "144Hz"
+  },
+  "Physical Specification": {
+   "Dimensions": "35.9 x 25.6 x 2.28 ~ 2.45 cm (14.13\" x 10.08\" x 0.90\" ~ 0.96\")",
+   "Color": "Graphite Black",
+   "Weight": "2.30 Kg (5.07 lbs)"
+  },
+  "Power": {
+   "Battery Type": "3S1P, 3-cell Li-ion",
+   "Battery Capacity": "48WHrs",
+   "Adapter Type": "ø6.0, 180W AC Adapter, Output: 20V DC, 9A, 180W, Input: 100~240V AC, 50/60Hz universal"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming A15 FA607NUG"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 7445HS",
+  "RAM: 8GB DDR5-5600, Storage: 1TB PCIe 4.0 NVMe M.2 SSD",
+  "Graphics: NVIDIA GeForce RTX 4050 6GB GDDR6, Up to 1675MHz",
+  "Features: RGB Backlit Keyboard, Wi-Fi 6, Type-C, 144Hz Display"
+ ],
+ "model": "TUF Gaming A15 FA607NUG",
+ "warranty": "02 years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-13T18:44+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-a15-fa506ncg-ryzen-7-rtx-5050-laptop",
+ "store": "creatus"
+}

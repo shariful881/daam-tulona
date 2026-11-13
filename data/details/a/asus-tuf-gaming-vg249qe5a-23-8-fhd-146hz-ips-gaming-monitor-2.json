@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "23.8-inch",
+   "Display Type": "LED",
+   "Resolution": "1920x1080",
+   "Pixel pitch(MM)": "0.2745mm",
+   "Display Surface": "Non-Glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "(CR≧10, H/V) : 178°/ 178°",
+   "Brightness": "300cd/㎡",
+   "Contrast Ratio": "1500:1",
+   "Refresh Rate": "146Hz",
+   "Color Support": "16.7M",
+   "Color Gamut": "125% sRGB",
+   "Response Time": "1ms(GTG)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes",
+   "G-Sync Support": "Yes",
+   "HDCP": "Yes"
+  },
+  "Free Sync Support": {
+   "Eye Care+ Technology": "Yes",
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes"
+  },
+  "Connectivity": {
+   "Display Port": "1.2 x 1",
+   "HDMI": "HDMI(v2.0) x 1",
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+23° ~ -5°)",
+   "Vesa Wall Mount": "100x100mm",
+   "Security Locker": "Kensington Lock"
+  },
+  "Dimension": {
+   "Phys. Dimension (W x H x D)": "54.1 x 39.4 x 17.4 cm (21.30\" x 15.51\" x 6.85\")",
+   "Box Dimension (W x H x D)": "60.0 x 40.5 x 16.8 cm (23.62\" x 15.94\" x 6.61\")"
+  },
+  "Weight": {
+   "Net Weight": "3.3 kg (7.28 lbs)",
+   "Net Weight without Stand": "2.7 kg (5.95 lbs)",
+   "Gross Weight": "5.0 kg (11.02 lbs)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "15W",
+   "Power Saving Mode": "< 0.5W",
+   "Power Off Mode": "<0.3W"
+  },
+  "Power": {
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920x1080)",
+  "Display: IPS, 146Hz, 1ms(GTG)",
+  "Ports: HDMI 2.0 x 1, DP 1.2 x 1, Earphone Jack",
+  "Features: GameVisual, Low Blue Light, GameFast Technology"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-13T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/asus-tuf-gaming-vg249qe5a-gaming-monitor",
+ "store": "pchouse"
+}

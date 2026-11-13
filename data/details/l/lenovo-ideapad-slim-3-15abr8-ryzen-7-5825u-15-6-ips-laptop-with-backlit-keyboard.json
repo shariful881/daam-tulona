@@ -1,0 +1,95 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 7 5825U",
+   "Processor Frequency": "Up to 4.3GHz",
+   "Processor Core": "8",
+   "Processor Thread": "16"
+  },
+  "Chipset": {
+   "Chipset": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6 Inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920×1080)",
+   "Touch Screen": "No",
+   "Display Features": "300nits Anti-glare"
+  },
+  "Memory": {
+   "RAM": "16GB",
+   "RAM Type": "DDR4",
+   "Removable": "16GB Onboard, not upgradeable",
+   "Bus Speed": "3200MHz",
+   "Total RAM Slot": "1"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Storage Capacity": "512GB SSD",
+   "Extra M.2 Slot": "N/A"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Non-Backlit, English (EU)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "WebCam": "HD 720p Webcam",
+   "Speaker": "1.5W x2 Stereo",
+   "Microphone": "2x Array",
+   "Audio Features": "Dolby Audio"
+  },
+  "Network & Connectivity": {
+   "LAN": "N/A",
+   "WiFi": "Wi-Fi 6, 11ax 2x2",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1x Card reader",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort 1.2)",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Touch Style, Integrated in Power Button",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "FW TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Physical Specification": {
+   "Color": "Arctic Grey",
+   "Dimensions": "359.3 x 235 x 17.9 mm (14.15 x 9.25 x 0.70 inches)",
+   "Weight": "Starting at 1.62 kg (3.57 lbs)",
+   "Body Material": "PC-ABS (Top), PC-ABS (Bottom)"
+  },
+  "Power": {
+   "Battery Type": "Integrated",
+   "Battery Capacity": "47Wh",
+   "Adapter Type": "65W round tip (3-pin)"
+  },
+  "Other Features": {
+   "Other Features": "MIL-STD-810H military test passed (21 test items)"
+  },
+  "Warranty Details": {
+   "Warranty": "2 years Warranty (Battery 1 year)."
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 5825U (8-core/16-thread, 16MB cache, up to 4.5 GHz)",
+  "Ram: 16GB DDR4, Storage: 512GB SSD",
+  "Display: 15.6\" FHD (1920x1080)",
+  "Features: Backlit Keyboard, Fingerprint, Mil-Std-810h Military Grade"
+ ],
+ "warranty": "2 years Warranty (Battery 1 year).",
+ "fetched": "2026-11-13T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/lenovo-ideapad-slim-3-15abr8-ryzen-7-5825u-laptop",
+ "store": "pchouse"
+}
