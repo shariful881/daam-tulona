@@ -45,7 +45,10 @@ def main(urls):
                            title=(re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) or [None, ""])[1].strip()[:150],
                            cloudflare=("cf-ray" in r.headers) and ("Just a moment" in h or r.status_code in (403, 503)),
                            server=r.headers.get("server"))
-                (OUT / f"{i:02d}.html").write_text(h if "<urlset" in h[:3000] or "<sitemapindex" in h[:3000] else h[:600000])  # sitemap পুরোটা
+                if not ("<urlset" in h[:3000] or "<sitemapindex" in h[:3000]):  # sitemap পুরোটা
+                    # স্টাইল/স্ক্রিপ্ট/svg বাদ দিয়ে রাখা (বড় থিমে প্রোডাক্ট কার্ড ৬০০KB-এর পরে পড়ে)
+                    h = re.sub(r"<(style|script|svg)\b[^>]*>.*?</\1>", "", h, flags=re.S | re.I)[:1500000]
+                (OUT / f"{i:02d}.html").write_text(h)
                 row["file"] = f"{i:02d}.html"
             except Exception as e:
                 row["error"] = str(e)[:300]
