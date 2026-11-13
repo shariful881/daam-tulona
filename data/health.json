@@ -1,40 +1,40 @@
 {
- "date": "2026-11-12",
- "scraped_at": "2026-11-12T11:01+06:00",
+ "date": "2026-11-13",
+ "scraped_at": "2026-11-13T08:28+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32010,
+   "items": 32016,
    "errors": [],
-   "seconds": 1825,
+   "seconds": 1846,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1431,
+   "seconds": 1432,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3090,
    "errors": [],
-   "seconds": 1120,
+   "seconds": 1125,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4032,
    "errors": [],
-   "seconds": 1516,
+   "seconds": 1536,
    "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1534,
    "errors": [],
-   "seconds": 634,
+   "seconds": 610,
    "failed_cats": []
   },
   "fourstar": {
@@ -48,42 +48,42 @@
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 20,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 655,
+   "seconds": 694,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 27408,
+   "items": 28060,
    "errors": [],
-   "seconds": 9472,
+   "seconds": 9456,
    "failed_cats": []
   },
   "techland": {
    "enabled": true,
-   "items": 22231,
+   "items": 22229,
    "errors": [],
-   "seconds": 5914,
+   "seconds": 5943,
    "failed_cats": []
   },
   "diamu": {
    "enabled": true,
    "items": 1886,
    "errors": [],
-   "seconds": 718,
+   "seconds": 821,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 133,
+   "seconds": 137,
    "failed_cats": []
   },
   "pickaboo": {
