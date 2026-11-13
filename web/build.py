@@ -393,7 +393,7 @@ def make_house_for(ads):
     return house_for
 
 
-def build_size_pages(items, products, details, write, offers=None):
+def build_size_pages(items, products, details, write, offers=None, crumbs_ld=None):
     """সাইজ অনুযায়ী ব্র্যান্ড তুলনা (যেমন ১০০-১৫০ লিটার ফ্রিজে কোন ব্র্যান্ডের দাম কত)।"""
     f = ROOT / "config/size_compare.json"
     if not f.exists():
@@ -474,6 +474,8 @@ def build_size_pages(items, products, details, write, offers=None):
                          else f"{of} দাম সাইজ অনুযায়ী | কোন ব্র্যান্ডের {conf['title']} কত টাকা | দামতুলনা"),
                   description=f"{what}: {nb}টি ব্র্যান্ডের {len(subset)}টি মডেলের দাম পাশাপাশি।"
                               + (f" শুরু {taka(min(priced))} থেকে।" if priced else "") + " কোন ব্র্যান্ড সবচেয়ে কম দামে, এক নজরে।",
+                  crumbs=crumbs_ld(("হোম", ""), (f"{conf['title']} সাইজ অনুযায়ী", f"size/{slug}/"),
+                                   *([(f"{rng['label']} {conf['unit']}", f"{path}/")] if rng else [])) if crumbs_ld else None,
                   canonical=f"{SITE_URL}/{path}/" if SITE_URL else None)
 
         page(f"size/{slug}", models, None)
@@ -569,7 +571,7 @@ class Brands:
         return best if not best.isupper() or len(best) <= 4 or not mixed else mixed[0]
 
 
-def build_brand_pages(items, leaves, group_of, BR, write):
+def build_brand_pages(items, leaves, group_of, BR, write, crumbs_ld=None):
     """প্রতিটা ব্র্যান্ডের পাতা (/brand/<slug>/), ব্র্যান্ড+ক্যাটাগরি পাতা (/brand/<slug>/<cat>/), আর সব ব্র্যান্ডের তালিকা।"""
     minp = BR.conf.get("min_products", 5)
     by = defaultdict(list)
@@ -600,6 +602,8 @@ def build_brand_pages(items, leaves, group_of, BR, write):
                           title=f"{name} {leaves[c]['name_bn']} দাম বাংলাদেশে | {name} {leaves[c].get('name_en', '')} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
                           description=f"{name}-এর {len(cl)}টি {leaves[c]['name_bn']}-এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।"
                                       + (f" শুরু {taka(min(priced))} থেকে।" if priced else "") + (f" পাতা {n}/{pages}।" if n > 1 else ""),
+                          crumbs=crumbs_ld(("হোম", ""), ("সব ব্র্যান্ড", "brand/"), (name, f"brand/{slug}/"),
+                                           (f"{name} {leaves[c]['name_bn']}", f"brand/{slug}/{c}/" + (f"{n}/" if n > 1 else ""))) if crumbs_ld else None,
                           canonical=f"{SITE_URL}/brand/{slug}/{c}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
         priced = [i["best"]["price"] for i in lst if i["best"]]
         deals = sorted([i for i in lst if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:6]
@@ -609,6 +613,7 @@ def build_brand_pages(items, leaves, group_of, BR, write):
               title=f"{name} প্রোডাক্টের দাম বাংলাদেশে | {name} Price in BD | দামতুলনা",
               description=(info.get("about", "")[:120] + " " if info.get("about") else "")
                           + f"{name}-এর {len(lst)}টি প্রোডাক্টের দাম {len(cats)}টি ক্যাটাগরিতে।",
+              crumbs=crumbs_ld(("হোম", ""), ("সব ব্র্যান্ড", "brand/"), (name, f"brand/{slug}/")) if crumbs_ld else None,
               canonical=f"{SITE_URL}/brand/{slug}/" if SITE_URL else None)
         top = [c["name_bn"] for c in cat_cards[:3]]
         cards.append({"slug": slug, "name": name, "count": len(lst), "top": top, "logo": info.get("logo"),
@@ -621,7 +626,8 @@ def build_brand_pages(items, leaves, group_of, BR, write):
     write("brand", "brands.html", popular=popular, letters=sorted(letters.items()), total=len(cards),
           cards_json=json.dumps([{"s": c["slug"], "n": c["name"], "k": c["count"]} for c in cards], ensure_ascii=False, separators=(",", ":")),
           title="সব ব্র্যান্ড | কোন ব্র্যান্ডের কী প্রোডাক্ট, কত দাম | দামতুলনা",
-          description=f"{len(cards)}টি ব্র্যান্ডের প্রোডাক্ট ও দাম এক জায়গায়।", canonical=f"{SITE_URL}/brand/" if SITE_URL else None)
+          description=f"{len(cards)}টি ব্র্যান্ডের প্রোডাক্ট ও দাম এক জায়গায়।", canonical=f"{SITE_URL}/brand/" if SITE_URL else None,
+          crumbs=crumbs_ld(("হোম", ""), ("সব ব্র্যান্ড", "brand/")) if crumbs_ld else None)
     return sorted(cards, key=lambda c: -c["count"])
 
 
@@ -1479,6 +1485,10 @@ def main():
         elif it["state"] == "coming":
             jsonld["offers"] = {"@type": "Offer", "priceCurrency": "BDT", "availability": "https://schema.org/PreOrder" if it["pre"] else "https://schema.org/PreSale",
                                 **({"price": it["last_price"]} if it["last_price"] else {})}
+        # Google: Product-এ দাম (offers.price/lowPrice) না থাকলে ভুল দেখায় — তখন Product schema বাদ, শুধু Breadcrumb
+        _of = jsonld.get("offers") or {}
+        if not (_of.get("price") or _of.get("lowPrice")):
+            jsonld = None
         cmp = {"id": pid, "n": p["name"], "b": it["brand"], "c": leaf["slug"], "cn": leaf["name_bn"],
                "w": warranty, "m": det.get("model"), "mpn": det.get("mpn"), "kf": feats[:6],
                "best": best, "o": {s_: {"p": o["price"], "st": o["in_stock"], "u": o["url"]} for s_, o in so.items() if o.get("price")},
@@ -1533,7 +1543,7 @@ def main():
             pstat=INS.price_status(changes, today) if best else None,
             better=better,
             tier=tier_for(it),
-            jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
+            jsonld=json.dumps(jsonld, ensure_ascii=False) if jsonld else None, buy=bool(best),
             og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
             answer=answer,
@@ -1608,7 +1618,8 @@ def main():
                                       {"@type": "ListItem", "position": (n - 1) * PER_PAGE + k + 1, "name": i["name"],
                                        "url": f"{SITE_URL or BASE}/p/{i['id']}/"} for k, i in enumerate(chunk[:30])]}, ensure_ascii=False)
                 write(f"c/{leaf['slug']}" + (f"/{n}" if n > 1 else ""), "category.html", cat=leaf, group=g, items=chunk,
-                      lds=[_il], cat_answer=cat_answer if n == 1 else "", price_table=price_table if n == 1 else [],
+                      lds=[_il] if chunk else [], noindex=not lst,  # খালি ক্যাটাগরি: Google-এ নয়, খালি ItemList নয়
+                      cat_answer=cat_answer if n == 1 else "", price_table=price_table if n == 1 else [],
                       crumbs=crumbs_ld(("হোম", ""), (g["name_bn"], f"g/{g['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/")),
                       total=len(lst), hidden_n=hidden_n, page=n, pages=pages, brands=brands, store_count=len(enabled),
                       fdefs=fdefs, presets=presets, all_brands=[[b_, c_] for b_, c_ in sorted(bcount.items(), key=lambda x: (-x[1], x[0]))],
@@ -1634,8 +1645,8 @@ def main():
                             "top": [l["name_bn"] for l in sorted(leaf_cards, key=lambda l: -l["count"])[:3]]})
 
     vals = list(items.values())
-    size_pages = build_size_pages(listed_items, products, details, write, offers)
-    brand_pages = build_brand_pages(listed_items, leaves, group_of, BR, write)
+    size_pages = build_size_pages(listed_items, products, details, write, offers, crumbs_ld=crumbs_ld)
+    brand_pages = build_brand_pages(listed_items, leaves, group_of, BR, write, crumbs_ld=crumbs_ld)
     deals = sorted([i for i in vals if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:10]
     fresh_all = sorted([i for i in vals if i["created"] == today], key=lambda i: i["name"])
     fresh = fresh_all[:10] if len(fresh_all) < len(vals) * 0.5 else []

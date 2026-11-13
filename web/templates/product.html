@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_ad.html" import slot with context %}
 {% block head %}
-<script type="application/ld+json">{{ jsonld | safe }}</script>
+{% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
 {% endblock %}
 {% block content %}
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/g/{{ group.slug }}/">{{ group.name_bn }}</a> › <a href="{{ base }}/c/{{ cat.slug }}/">{{ cat.name_bn }}</a></nav>
