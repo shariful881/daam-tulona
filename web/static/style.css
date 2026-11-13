@@ -981,7 +981,8 @@ main.col>.foot,main.col>.footnav{order:99}
 .rvc{font:700 .78rem var(--mono);color:var(--muted)}
 .rvi small{font-size:.7rem;color:var(--muted)}
 /* ===== শেয়ার কার্ড ===== */
-.shr{display:grid;gap:16px;align-items:center}
+.shr{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;align-items:center}
+.shr>*{min-width:0}
 .shr-txt p{font-size:.88rem;color:var(--body);margin:6px 0 12px}
 .shr-btn{display:flex;flex-wrap:wrap;gap:8px}
 .btn.ghost{background:transparent;color:var(--muted);border:1px dashed var(--line);cursor:default}
@@ -995,15 +996,16 @@ main.col>.foot,main.col>.footnav{order:99}
 .shi-br{display:flex;gap:2px;height:8px;border-radius:4px;overflow:hidden}
 .shi-br span:nth-child(1){background:#5fe3a1}.shi-br span:nth-child(2){background:rgba(255,255,255,.3)}.shi-br span:nth-child(3){background:#ff8a6b}
 .shi-h{margin:6px 0 0;font-size:.75rem;opacity:.85}
-.shimg ol{margin:0;padding:0;list-style:none;display:grid;gap:4px;font-size:.78rem}
+.shimg>*{min-width:0}
+.shimg ol{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:minmax(0,1fr);gap:4px;font-size:.78rem}
 .shimg li{display:flex;justify-content:space-between;gap:8px}
-.shimg li span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shimg li span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .shimg li b{color:#9ff0c6;font-family:var(--mono);flex:none}
 .shi-ft{margin-top:auto;font-size:.68rem;opacity:.7}
 /* ===== লেখা সারাংশ ===== */
 .summ p{margin:0;font-size:.92rem;line-height:1.7;color:var(--body);max-width:75ch}
 @media (min-width:1024px){
-  .shr{grid-template-columns:1fr 340px}
+  .shr{grid-template-columns:minmax(0,1fr) 340px}
   .rvl{grid-auto-flow:row;grid-template-columns:repeat(4,1fr);overflow:visible}
 }
 
