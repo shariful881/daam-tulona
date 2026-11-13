@@ -1,0 +1,86 @@
+[
+ {
+  "url": "https://bme.com.bd/laptop-and-notebooks",
+  "allowed": true,
+  "robots": "User-agent: *\nAllow: /\nDisallow: /public\n\nsitemap:https://www.bme.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://bme.com.bd/laptop-and-notebooks",
+  "size": 1272683,
+  "title": "Buy Latest All Brands Laptop Price in BD 2026",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "00.html"
+ },
+ {
+  "url": "https://www.selltech.com.bd/Computer-Parts",
+  "allowed": true,
+  "robots": "User-agent: *\r\nAllow: /\r\nDisallow: /*?route=checkout/\r\nDisallow: /*?route=account/\r\nDisallow: /*?route=affiliate/\r\nDisallow: /*?route=product/search\r\nDisallow: /*&limit\r\nDisallow: /*?limit\r\nDisallow: /*?sort\r\nDisallow: /*&sort\r\nDisallow: /*?order\r\nDisallow: /*&order\r\nDisallow: /*?price\r\nDisallow: /*&price\r\nDisallow: /*?mode\r\nDisallow: /*&mode\r\nDisallow: /*?cat\r\nDisallow: /*&cat\r\nDisallow: /*?dir\r\nDisallow: /*&dir\r\nDisallow: /*?color\r\nDisallow: /*&color\r\nDisallow: /*?product_id\r\nDisallow: /*&product_id\r\nDisallow: /*?minprice\r\nDisallow: /*&minprice\r\nDisallow: /*?maxprice\r\nDisallow: /*&maxprice\r\nDisallow: /*?page=1\r\nDisallow: /*&create=1\r\nDisallow: /*?keyword\r\nDisallow: /*?av\r\n\r\nSitemap: https://www.selltech.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://www.selltech.com.bd/Computer-Parts",
+  "size": 1045765,
+  "title": "PC Components Price  2026 in Bangladesh - Sell Tech BD",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "01.html"
+ },
+ {
+  "url": "https://www.selltech.com.bd/Computer-Parts?page=2",
+  "allowed": true,
+  "robots": "User-agent: *\r\nAllow: /\r\nDisallow: /*?route=checkout/\r\nDisallow: /*?route=account/\r\nDisallow: /*?route=affiliate/\r\nDisallow: /*?route=product/search\r\nDisallow: /*&limit\r\nDisallow: /*?limit\r\nDisallow: /*?sort\r\nDisallow: /*&sort\r\nDisallow: /*?order\r\nDisallow: /*&order\r\nDisallow: /*?price\r\nDisallow: /*&price\r\nDisallow: /*?mode\r\nDisallow: /*&mode\r\nDisallow: /*?cat\r\nDisallow: /*&cat\r\nDisallow: /*?dir\r\nDisallow: /*&dir\r\nDisallow: /*?color\r\nDisallow: /*&color\r\nDisallow: /*?product_id\r\nDisallow: /*&product_id\r\nDisallow: /*?minprice\r\nDisallow: /*&minprice\r\nDisallow: /*?maxprice\r\nDisallow: /*&maxprice\r\nDisallow: /*?page=1\r\nDisallow: /*&create=1\r\nDisallow: /*?keyword\r\nDisallow: /*?av\r\n\r\nSitemap: https://www.selltech.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://www.selltech.com.bd/Computer-Parts?page=2",
+  "size": 1043537,
+  "title": "PC Components Price  2026 in Bangladesh - Sell Tech BD",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "02.html"
+ },
+ {
+  "url": "https://bme.com.bd/laptop-and-notebooks?page=2",
+  "allowed": true,
+  "robots": "User-agent: *\nAllow: /\nDisallow: /public\n\nsitemap:https://www.bme.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://bme.com.bd/laptop-and-notebooks?page=2",
+  "size": 1272657,
+  "title": "Buy Latest All Brands Laptop Price in BD 2026",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "03.html"
+ },
+ {
+  "url": "https://computervision.com.bd/all-laptop?page=2",
+  "allowed": true,
+  "robots": "User-agent: *\nDisallow: /admin/\nDisallow: /system/\nDisallow: /download/\n\nSitemap: https://computervision.com.bd/sitemap.xml\n",
+  "status": 200,
+  "final": "https://computervision.com.bd/all-laptop?page=2",
+  "size": 377799,
+  "title": "Alllaptop",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "04.html"
+ },
+ {
+  "url": "https://eerna.com.bd/laptop?page=2",
+  "allowed": true,
+  "robots": "User-agent: *\nAllow: /\nDisallow: /checkout/\nDisallow: /search?search=\nDisallow: /*?sort=\nDisallow: /*?filter=\nDisallow: /cart/\nDisallow: /?sort=\nDisallow: /?filter=\nDisallow: /?sort=*\nDisallow: /*?sort=*\nDisallow: /?filter=*\nDisallow: /*?filter=*\nDisallow: /*?limit=*\n\nDisallow: /?p.price=*\nDisallow: /*?p.price=*\nDisallow: /*?p.price=*\n\nsitemap: https://eerna.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://eerna.com.bd/laptop?page=2",
+  "size": 678635,
+  "title": "Authentic Laptop Price in Bangladesh 2026 | EERNA",
+  "cloudflare": false,
+  "server": "LiteSpeed",
+  "file": "05.html"
+ },
+ {
+  "url": "https://www.pqs.com.bd/dell-laptop?page=2",
+  "allowed": true,
+  "robots": "User-agent: *\nAllow: /\n\nDisallow: /*?product_id=\nDisallow: /*?component_id=\nDisallow: /*?product_set_id=\nDisallow: /*?category_id=\nDisallow: /*?pc_id=\nDisallow: /*?tracking=\nDisallow: /*?offer_id=\nDisallow: /*?&tag=\nDisallow: /product/search?*\n\nsitemap:https://www.pqs.com.bd/sitemap.xml",
+  "status": 200,
+  "final": "https://www.pqs.com.bd/dell-laptop?page=2",
+  "size": 207829,
+  "title": "Dell Laptop Price in Bangladesh Latest Deals Online || PQS",
+  "cloudflare": false,
+  "server": "cloudflare",
+  "file": "06.html"
+ }
+]
