@@ -1,0 +1,206 @@
+{
+ "https://eerna.com.bd/desktop": {
+  "n": 45,
+  "priced": 45,
+  "matched": 16,
+  "err": null,
+  "sec": 9,
+  "sample": [
+   "Dell Inspiron 5430 Intel Core 5 120U 23.8\" FHD All-in-One PC",
+   "Dell EC24250 Intel Core i5 1334U 23.8\" FHD All-in-One PC",
+   "Dell EC24250 Core 3 100U 23.8\" FHD All-in-One PC"
+  ]
+ },
+ "https://eerna.com.bd/laptop": {
+  "n": 48,
+  "priced": 48,
+  "matched": 27,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "HP ProBook 4 G1i Core Ultra 7 255U 14\" IPS WUXGA Laptop",
+   "Acer Aspire Lite AL15-42 AMD Ryzen 3 7330U 15.6\" FHD Laptop",
+   "Acer Aspire 15 AS15-42 Ryzen 3 7330U 15.6\" FHD Laptop"
+  ]
+ },
+ "https://eerna.com.bd/pc-components": {
+  "n": 48,
+  "priced": 48,
+  "matched": 32,
+  "err": null,
+  "sec": 15,
+  "sample": [
+   "Corsair HX1000i 1000W 80+ Platinum Full-Modular ATX Power Supply",
+   "AMD Ryzen 5 8500G Processor with Radeon Graphics",
+   "Acer AC-550 550W 80 Plus Bronze Full Modular Power Supply"
+  ]
+ },
+ "https://eerna.com.bd/monitor": {
+  "n": 48,
+  "priced": 48,
+  "matched": 42,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "KOORUI N07 27",
+   "KTC H15F9 15.6\" 60Hz FHD IPS Monitor",
+   "KTC H34S5 34\" 2K 180Hz WQHD HVA Curved Gaming Monitor"
+  ]
+ },
+ "https://eerna.com.bd/mobile-phone": {
+  "n": 48,
+  "priced": 36,
+  "matched": 4,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "HONOR X6e",
+   "Honor Magic8 Pro",
+   "HONOR X6c (6/128GB)"
+  ]
+ },
+ "https://eerna.com.bd/tablets": {
+  "n": 46,
+  "priced": 45,
+  "matched": 19,
+  "err": null,
+  "sec": 13,
+  "sample": [
+   "Amazon Fire HD 10 13th Gen Octa-Core 10.1\" FHD Tablet with Alexa",
+   "Xiaomi Redmi Pad SE Snapdragon 680 6GB RAM 128GB ROM 11\" FHD Tablet",
+   "Huion Inspiroy RTM-500 Graphics Drawing Tablet"
+  ]
+ },
+ "https://eerna.com.bd/office-solution": {
+  "n": 48,
+  "priced": 48,
+  "matched": 38,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Epson EcoTank L3350 A4 Wi-Fi Multifunction InkTank Printer",
+   "Canon NPG-67 Cyan Toner Cartridge",
+   "HP LaserJet Pro 4003dn Single Function Mono Laser Printer"
+  ]
+ },
+ "https://eerna.com.bd/camera": {
+  "n": 48,
+  "priced": 48,
+  "matched": 40,
+  "err": null,
+  "sec": 13,
+  "sample": [
+   "Insta360 Suction Cup Car Mount",
+   "Canon EF-S 18-135mm IS USM Zoom Lens",
+   "Sony FE 24-70mm f/2.8 GM II Lens"
+  ]
+ },
+ "https://eerna.com.bd/security-systems": {
+  "n": 48,
+  "priced": 48,
+  "matched": 41,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "ZKTeco SpeedFace-V5L Biometric Time Attendance and Access Control Terminal",
+   "STATA Door Lock Clutch",
+   "TP-Link VIGI C420I 2MP IR Turret IP Camera"
+  ]
+ },
+ "https://eerna.com.bd/networking": {
+  "n": 48,
+  "priced": 48,
+  "matched": 39,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Netis NC65 AC1200 Dual Band Gigabit Router",
+   "TP-Link Archer C50 AC1200 Dual Band Wi-Fi Router",
+   "TP-Link Archer GE230 BE3600 Dual-Band Gigabit Wi-Fi 7 Gaming Router"
+  ]
+ },
+ "https://eerna.com.bd/gadgets": {
+  "n": 48,
+  "priced": 48,
+  "matched": 33,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Edifier Comfo Bass Open-ear Earbuds",
+   "HiFuture FlyBuds4 AI Earbuds",
+   "Edifier Comfo Q Open-ear Earbuds"
+  ]
+ },
+ "https://eerna.com.bd/tv": {
+  "n": 26,
+  "priced": 26,
+  "matched": 19,
+  "err": null,
+  "sec": 13,
+  "sample": [
+   "SONY KD-50X75K 50\" 4K Android Google TV",
+   "Smart SEL-24L22KS 24 Inch HD Basic LED TV",
+   "Smart SEL-32B24K 32\" HD Basic LED TV"
+  ]
+ },
+ "https://eerna.com.bd/appliance": {
+  "n": 48,
+  "priced": 47,
+  "matched": 37,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Honor Choice Kurrypop 7 Liter Air Fryer",
+   "Shameem Tropica 15 Gallon Wall Hanging Standard Geyser (67.5 Litre)",
+   "Haier 40 Litre Water Heater Geyser - ES40H-CK3(BD)"
+  ]
+ },
+ "https://eerna.com.bd/software": {
+  "n": 24,
+  "priced": 24,
+  "matched": 16,
+  "err": null,
+  "sec": 13,
+  "sample": [
+   "Microsoft SQL Server 2022 Standard 2 Core License Pack (CSP Perpetual)",
+   "Microsoft 365 Enterprise E3 (1 Year Subscription)",
+   "Adobe Lightroom CC - Pro for Teams"
+  ]
+ },
+ "https://eerna.com.bd/server": {
+  "n": 48,
+  "priced": 25,
+  "matched": 39,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "HP Z2 SFF G1i Core Ultra 7 Workstation Desktop PC",
+   "HP Z1 Tower G1i Core Ultra 7 Workstation Desktop PC",
+   "Samsung PM893 960GB SATA 6Gbps 2.5\" Server SSD"
+  ]
+ },
+ "https://eerna.com.bd/accessories": {
+  "n": 48,
+  "priced": 48,
+  "matched": 37,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Edifier WH700NB Pro ANC Bluetooth Headphone",
+   "HiFuture Tour MK ll Bluetooth Headphone",
+   "HiFuture TURBO3 ANC Bluetooth Headphone"
+  ]
+ },
+ "https://eerna.com.bd/gaming-accessories": {
+  "n": 48,
+  "priced": 48,
+  "matched": 41,
+  "err": null,
+  "sec": 14,
+  "sample": [
+   "Logitech G316 X 98 Mechanical Gaming Keyboard",
+   "Corsair HS50 Pro Stereo 3.5mm Gaming Headphone (Carbon)",
+   "Havit KB922L Wired Mechanical Gaming Keyboard"
+  ]
+ }
+}
