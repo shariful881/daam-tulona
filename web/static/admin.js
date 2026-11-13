@@ -1006,6 +1006,9 @@
         el.addEventListener("input", function () {
           var v = el.value.trim();
           var m = v.match(/content=["']([^"']+)["']/); if (m) { v = m[1]; el.value = v; }  // পুরো meta পেস্ট করলে কোডটা বের করে নেয়
+          v = v.replace(/^google-site-verification=/i, "").replace(/\s+/g, "");  // DNS-এর TXT লেখা পেস্ট করলেও কাজ করে
+          if (el.dataset.tk === "ga4" || el.dataset.tk === "bing") v = v.toUpperCase();
+          if (v !== el.value.trim()) el.value = v;
           tk[el.dataset.tk] = v; ch.tk = 1; markDirty("settings");
         });
       });
