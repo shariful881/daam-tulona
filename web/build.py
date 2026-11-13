@@ -599,7 +599,7 @@ def build_brand_pages(items, leaves, group_of, BR, write):
                           items=cl[(n - 1) * PER_PAGE:n * PER_PAGE], total=len(cl), page=n, pages=pages, info=info,
                           title=f"{name} {leaves[c]['name_bn']} দাম বাংলাদেশে | {name} {leaves[c].get('name_en', '')} Price in BD" + (f" (পাতা {n})" if n > 1 else ""),
                           description=f"{name}-এর {len(cl)}টি {leaves[c]['name_bn']}-এর দাম বিভিন্ন স্টোরে মিলিয়ে দেখুন।"
-                                      + (f" শুরু {taka(min(priced))} থেকে।" if priced else ""),
+                                      + (f" শুরু {taka(min(priced))} থেকে।" if priced else "") + (f" পাতা {n}/{pages}।" if n > 1 else ""),
                           canonical=f"{SITE_URL}/brand/{slug}/{c}/" + (f"{n}/" if n > 1 else "") if SITE_URL else None)
         priced = [i["best"]["price"] for i in lst if i["best"]]
         deals = sorted([i for i in lst if i["saving"] > 0], key=lambda i: (-i["live_count"], -i["saving"]))[:6]
@@ -1107,7 +1107,8 @@ def main():
     # টেকনিক্যাল SEO সেটিং (অ্যাডমিন → SEO): টেমপ্লেট, ইনডেক্সের নিয়ম, AI স্নিপেট, IndexNow
     SEO = {"title_product": "{name} দাম বাংলাদেশে | {price}", "title_product_oos": "{name} দাম বাংলাদেশে", "desc_product": "",
            "title_category": "{cat} দাম বাংলাদেশে {year} | {cat_en} Price in BD", "desc_category": "", "gone_days": 90,
-           "force_index": [], "force_noindex": [], "ai_snippet": "full", "indexnow": False, "indexnow_key": ""}
+           "force_index": [], "force_noindex": [], "ai_snippet": "full", "indexnow": False, "indexnow_key": "",
+           "index_min_stores": 2}
     _sf = ROOT / "config/seo.json"
     if _sf.exists():
         SEO.update({k: v for k, v in json.loads(_sf.read_text()).items() if not k.startswith("_")})
@@ -1141,6 +1142,12 @@ def main():
             state = "out"
         it.update(state=state, listed=(state in LISTED or pid in keep_listed) and pid not in force_noindex, last_live=last_live,
                   last_price=last_price or it["any_price"], out_days=days, pre=bool(sts & {"pre"}))
+    # Google-এ দেখানো (index + সাইটম্যাপ): তালিকায় আছে এবং কমপক্ষে index_min_stores দোকানে দাম আছে (আসল তুলনা)।
+    # কম দোকানের পাতা সাইটে, ক্যাটাগরি তালিকায়, সার্চে থাকে কিন্তু noindex; দ্বিতীয় দোকানের দাম এলেই নিজে থেকে খুলে যায়।
+    # Google-এর নির্দেশিকা: সাইটম্যাপে শুধু সেই পাতা যেগুলো সার্চে দেখাতে চান; প্রতিদিন বদলানো বড় সাইটে কম-মূল্যের পাতা বাদ।
+    MIN_STORES = max(1, int(SEO.get("index_min_stores") or 2))
+    for pid, it in items.items():
+        it["indexed"] = it["listed"] and (it["store_count"] >= MIN_STORES or pid in force_index)
     stock_counts = Counter(i["state"] for i in items.values())
     listed_items = {k_: v_ for k_, v_ in items.items() if v_["listed"]}
 
@@ -1515,8 +1522,8 @@ def main():
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
             answer=answer,
             title=_title, description=_desc,
-            canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None, noindex=not it["listed"]))
-        if it["listed"]:  # সাইটম্যাপে শুধু কেনা যায় (বা শীঘ্রই আসছে) এমন প্রোডাক্ট
+            canonical=f"{SITE_URL}/p/{pid}/" if SITE_URL else None, noindex=not it["indexed"]))
+        if it["indexed"]:  # সাইটম্যাপে শুধু কেনা যায় আর একাধিক দোকানে দাম আছে এমন প্রোডাক্ট
             urls.append(f"{SITE_URL}/p/{pid}/")
 
     _gf = ROOT / "config/buying_guides.json"
@@ -1820,12 +1827,13 @@ def main():
     admin["nobrand"] = [{"id": i["id"], "n": i["name"], "c": i["cat_name"], "u": i["unbranded"]} for i in sorted(_lst, key=lambda i: (i["unbranded"], i["name"]))
                         if not i["brand"] and not i["compat"]][:300]
     admin["seo"] = {
-        "indexable": len(_lst), "noindex": sum(1 for i in vals if not i["listed"] and i["state"] != "gone"),
+        "indexable": sum(1 for i in _lst if i["indexed"]), "noindex": sum(1 for i in vals if not i["listed"] and i["state"] != "gone"),
+        "held": sum(1 for i in _lst if not i["indexed"]), "min_stores": MIN_STORES,
         "gone": stock_counts.get("gone", 0), "sitemap_urls": len(urls), "pages": sum(1 for u in urls if "/p/" not in u),
         "no_image": sum(1 for i in _lst if not i["imgs"]), "no_brand": sum(1 for i in _lst if not i["brand"] and not i["compat"] and not i["unbranded"]),
         "unbranded": sum(1 for i in _lst if i["unbranded"]),
         "compat": sum(1 for i in _lst if i["compat"]),
-        "single_store": sum(1 for i in _lst if i["live_count"] <= 1),
+        "single_store": sum(1 for i in _lst if i["indexed"] and i["live_count"] <= 1),
         "thin": sum(1 for i in _lst if i["live_count"] <= 1 and i["id"] not in details and not i["imgs"]),
         "with_specs": sum(1 for i in _lst if i["id"] in details),
         "changed_today": sum(1 for u in urls if lastmod.get(u) == today),
