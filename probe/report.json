@@ -1,0 +1,152 @@
+{
+ "https://www.selltech.com.bd/DESKTOP-PC": {
+  "n": 42,
+  "priced": 42,
+  "matched": 4,
+  "err": null,
+  "sec": 8,
+  "sample": [
+   "Intel Core i3 3rd Gen Desktop PC with 8GB RAM & 128GB SSD",
+   "Intel Core i3 4th Gen Desktop PC with Esonic H81, 8GB RAM & 128GB SSD",
+   "Intel Core i5 3rd Gen Budget PC"
+  ]
+ },
+ "https://www.selltech.com.bd/Laptop": {
+  "n": 42,
+  "priced": 42,
+  "matched": 29,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "HP 15-fd0807TU Intel Core i3 13th Gen 15.6\" FHD Laptop",
+   "HP 15-fd0180TU Intel Core i3 13th Gen 15.6\" FHD Laptop",
+   "HP 15-fd0176TU Intel Core i3 13th Gen 15.6\" FHD Laptop"
+  ]
+ },
+ "https://www.selltech.com.bd/Computer-Parts": {
+  "n": 42,
+  "priced": 41,
+  "matched": 25,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "MSI PRO B660M-P DDR4 Micro-ATX Motherboard",
+   "OCPC MFL-300 128GB M.2 NVMe SSD",
+   "Monarch Mystery Box X5 Desktop Gaming Case"
+  ]
+ },
+ "https://www.selltech.com.bd/Monitor": {
+  "n": 42,
+  "priced": 42,
+  "matched": 27,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "Xiaomi Redmi MI 1A 23.8\" Monitor",
+   "Gigasonic RB-G185S-300C 19\" HD LED Monitor",
+   "Esonic 19 inch HD LED Monitor"
+  ]
+ },
+ "https://www.selltech.com.bd/Networking-Items-Price-BD": {
+  "n": 39,
+  "priced": 31,
+  "matched": 25,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "TP-Link TL-WN823N 300Mbps Mini Wireless N USB WiFi Adapter",
+   "Tenda F6 300Mbps N300 4 Antenna Wifi Router (Flat Shape)",
+   "Tenda AC5 AC1200 Smart Dual-Band WiFi Router"
+  ]
+ },
+ "https://www.selltech.com.bd/UPS": {
+  "n": 6,
+  "priced": 4,
+  "matched": 6,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "MaxGreen MG-GOLD5 650VA Offline UPS",
+   "SANTAK Robust R650 650VA Offline UPS",
+   "IDEAL-5106CW 650VA/300W Line Interactive UPS"
+  ]
+ },
+ "https://www.selltech.com.bd/Accessories": {
+  "n": 42,
+  "priced": 36,
+  "matched": 29,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "Logitech K120 Usb Keyboard With Bangla Black",
+   "DT-link DT-W133 Wireless Mini USB Adapter",
+   "Fantech T533 Wired Premium Office Mouse"
+  ]
+ },
+ "https://www.selltech.com.bd/Security-Surveillance": {
+  "n": 1,
+  "priced": 1,
+  "matched": 0,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "V380 PRO E27 360 Degree 1080P Wireless Home Security IP Camera"
+  ]
+ },
+ "https://www.selltech.com.bd/office-items": {
+  "n": 0,
+  "priced": 0,
+  "matched": 0,
+  "err": null,
+  "sec": 6,
+  "sample": []
+ },
+ "https://www.selltech.com.bd/Gadget": {
+  "n": 23,
+  "priced": 22,
+  "matched": 20,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "Havit TW976 True Wireless Stereo Earbuds",
+   "Havit HV-TW925 True Wireless Earbuds",
+   "Havit M9035 Smart Watch"
+  ]
+ },
+ "https://www.selltech.com.bd/Gaming": {
+  "n": 30,
+  "priced": 6,
+  "matched": 14,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "Marvo Scorpion CH-106 Adjustable Gaming Chair Red",
+   "Marvo Scorpion CH-106 Adjustable Gaming Chair Blue",
+   "Marvo Scorpion CH-106 Adjustable Gaming Chair Green"
+  ]
+ },
+ "https://www.selltech.com.bd/SOFTWARE": {
+  "n": 42,
+  "priced": 42,
+  "matched": 34,
+  "err": null,
+  "sec": 12,
+  "sample": [
+   "Microsoft 365 Personal For 1 User (01 Year Subscription)",
+   "Office Home and Business 2024 English APAC EM Medialess",
+   "Office LTSC Standard 2021"
+  ]
+ },
+ "https://www.selltech.com.bd/television-Selltech": {
+  "n": 13,
+  "priced": 0,
+  "matched": 0,
+  "err": null,
+  "sec": 6,
+  "sample": [
+   "JVCO 32 Inch Led Television",
+   "JVCO 32 Inch Android Led Television",
+   "JVCO 40 Inch Android TV"
+  ]
+ }
+}
