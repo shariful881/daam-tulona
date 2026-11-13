@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › পিসি বিল্ড</nav>
+  <section class="card">
+    <h1>বাজেট অনুযায়ী পিসি বিল্ড</h1>
+    <p class="ensub">PC build guide Bangladesh · {{ month }}, আজকের দাম</p>
+    <p class="muted" style="margin:6px 0 0;font-size:.92rem">প্রতিটা বাজেটে একে অপরের সাথে চলে এমন পার্টস দিয়ে পূর্ণ বিল্ড, প্রতিদিনের সবচেয়ে কম দামে। প্রতিটা পার্টস কোন দোকানে সস্তা সেটাও দেখানো। নিজের মতো বদলাতে <a href="{{ base }}/pc-builder/" style="text-decoration:underline">পিসি বিল্ডার</a> ব্যবহার করুন।</p>
+  </section>
+  <div class="pchub">{% for b in builds %}
+    <a class="card pchc" href="{{ base }}/build/{{ b.slug }}/">
+      <span class="amt">{{ b.amt | taka }}</span>
+      <b>{{ b.label }}</b>
+      <small>{{ b.parts[0][1].name }}{% for r, p in b.parts if r == "গ্রাফিক্স কার্ড" %} · {{ p.name }}{% endfor %}</small>
+      <span class="tot">আজ মোট {{ b.total | taka }} ›</span>
+    </a>{% endfor %}
+  </div>
+{% endblock %}

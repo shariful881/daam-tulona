@@ -140,6 +140,117 @@
       2000,
       3000,
       5000
+    ],
+    "desktop-pc": [
+      30000,
+      40000,
+      50000,
+      60000,
+      80000,
+      100000
+    ],
+    "motherboard": [
+      10000,
+      15000,
+      20000,
+      30000
+    ],
+    "casing": [
+      3000,
+      5000,
+      8000
+    ],
+    "power-supply": [
+      3000,
+      5000,
+      8000
+    ],
+    "cpu-cooler": [
+      2000,
+      3000,
+      5000
+    ],
+    "desktop-ram": [
+      8000,
+      15000
+    ],
+    "bluetooth-speaker": [
+      1500,
+      3000,
+      5000
+    ],
+    "speaker": [
+      2000,
+      5000,
+      10000
+    ],
+    "microphone": [
+      2000,
+      5000,
+      10000
+    ],
+    "projector": [
+      15000,
+      20000,
+      30000,
+      50000
+    ],
+    "gamepad": [
+      2000,
+      3000,
+      5000
+    ],
+    "grooming": [
+      1500,
+      2000,
+      3000
+    ],
+    "earphone": [
+      500,
+      1000
+    ],
+    "neckband": [
+      1000,
+      2000
+    ],
+    "pen-drive": [
+      2000
+    ],
+    "portable-ssd": [
+      10000,
+      15000
+    ],
+    "gaming-chair": [
+      20000,
+      30000
+    ],
+    "all-in-one-pc": [
+      70000,
+      100000
+    ],
+    "laser-printer": [
+      20000,
+      30000
+    ],
+    "wifi-camera": [
+      3000,
+      5000
+    ],
+    "graphics-tablet": [
+      5000,
+      10000
+    ],
+    "laptop-bag": [
+      2000,
+      3000
+    ],
+    "webcam": [
+      3000,
+      5000
+    ],
+    "fan-cooler": [
+      3000,
+      10000
     ]
   },
   "en": {
@@ -165,7 +276,31 @@
     "tablet": "Tablet",
     "printer": "Printer",
     "ups": "UPS",
-    "ip-camera": "IP Camera"
+    "ip-camera": "IP Camera",
+    "desktop-pc": "Desktop PC",
+    "motherboard": "Motherboard",
+    "casing": "PC Casing",
+    "power-supply": "Power Supply",
+    "cpu-cooler": "CPU Cooler",
+    "desktop-ram": "Desktop RAM",
+    "bluetooth-speaker": "Bluetooth Speaker",
+    "speaker": "Speaker",
+    "microphone": "Microphone",
+    "projector": "Projector",
+    "gamepad": "Gamepad",
+    "grooming": "Trimmer",
+    "earphone": "Earphone",
+    "neckband": "Neckband",
+    "pen-drive": "Pen Drive",
+    "portable-ssd": "Portable SSD",
+    "gaming-chair": "Gaming Chair",
+    "all-in-one-pc": "All-in-One PC",
+    "laser-printer": "Laser Printer",
+    "wifi-camera": "WiFi Camera",
+    "graphics-tablet": "Graphics Tablet",
+    "laptop-bag": "Laptop Bag",
+    "webcam": "Webcam",
+    "fan-cooler": "Air Cooler"
   },
   "popular": [
     [
@@ -175,6 +310,10 @@
     [
       "laptop",
       70000
+    ],
+    [
+      "desktop-pc",
+      50000
     ],
     [
       "smartphone",
@@ -207,6 +346,10 @@
     [
       "router",
       3000
+    ],
+    [
+      "microphone",
+      5000
     ]
   ],
   "brand_min": 6

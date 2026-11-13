@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block head %}{% for x in itemlist %}<script type="application/ld+json">{{ x | safe }}</script>{% endfor %}{% endblock %}
+{% block content %}
+  <nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/build/">পিসি বিল্ড</a> › {{ words }} টাকায়</nav>
+  <section class="card">
+    <h1 class="ihd"><span class="cic">{{ cicon("desktop-pc") }}</span>{{ words }} টাকায় পিসি বিল্ড</h1>
+    <p class="ensub">PC Build Under {{ "{:,}".format(b.amt) }} Taka in Bangladesh · {{ month }}, আজকের দাম</p>
+    <p class="pcbuse"><b>{{ b.label }}:</b> {{ b.use }}।</p>
+    <div class="pcbtot">
+      <div><small>আজকের সর্বনিম্ন দামে মোট</small><b>{{ b.total | taka }}</b></div>
+      {% if b.left >= 500 %}<div class="lft"><small>বাজেটের চেয়ে কম</small><b>{{ b.left | taka }}</b></div>{% endif %}
+    </div>
+    <div class="chips szr" style="margin-top:12px;flex-wrap:wrap">{% for a, sl, lb in siblings %}<a class="chip" href="{{ base }}/build/{{ sl }}/"{% if a == b.amt %} aria-current="page"{% endif %}>{{ a | taka }}</a>{% endfor %}</div>
+  </section>
+
+  <section class="card">
+    <h2>পার্টসের তালিকা</h2>
+    <div class="pcbl">{% for role, p in b.parts %}
+      <a class="pcbr" href="{{ base }}/p/{{ p.id }}/">
+        <span class="rl">{{ role }}</span>
+        <span class="nm">{{ p.name }}<small>সবচেয়ে কম {{ stores[p.best.store].name }}-এ{% if p.live_count > 1 %} · {{ p.live_count|bn }} দোকানে আছে{% endif %}</small></span>
+        <span class="pr">{{ p.best.price | taka }}</span>
+      </a>{% endfor %}
+      <div class="pcbr sum"><span class="rl"></span><span class="nm"><b>মোট</b></span><span class="pr"><b>{{ b.total | taka }}</b></span></div>
+    </div>
+    <p style="margin:12px 0 0"><a class="btn" href="{{ base }}/pc-builder/{{ b.builder }}">পিসি বিল্ডারে খুলে পার্টস বদলান ›</a></p>
+  </section>
+
+  <section class="card guide">
+    <h2>এই বিল্ড কেন মানানসই</h2>
+    <ul>
+      <li>প্রসেসর আর মাদারবোর্ডের সকেট এক: <b>{{ b.socket }}</b>।</li>
+      <li>র‍্যামের ধরন মাদারবোর্ডের সাথে মেলে: <b>{{ b.ddr }}</b>।</li>
+      <li>মাদারবোর্ড মাইক্রো-ATX, প্রায় সব কেসিংয়ে ধরে।</li>
+      {% if b.igpu %}<li>প্রসেসরে গ্রাফিক্স আছে, তাই আলাদা গ্রাফিক্স কার্ড ছাড়াই মনিটরে ছবি আসবে।</li>{% else %}<li>পাওয়ার সাপ্লাই গ্রাফিক্স কার্ডের জন্য যথেষ্ট ওয়াটের আর 80 Plus সার্টিফায়েড।</li>{% endif %}
+      <li>পাওয়ার সাপ্লাই, র‍্যাম, SSD আর মাদারবোর্ড পরিচিত ব্র্যান্ডের; অচেনা সস্তা ব্র্যান্ড বাদ।</li>
+    </ul>
+    <p class="insnote">পার্টস {{ b.store_n|bn }}টা দোকান থেকে নিলে মোট এই দাম। এক দোকান থেকে সব কিনলে দাম কিছুটা বেশি হতে পারে, তবে বিল্ড আর ওয়ারেন্টির ঝামেলা কম। মনিটর, কিবোর্ড, মাউস আর উইন্ডোজ এই হিসাবে নেই। কেনার আগে দোকানে স্টক আর সামঞ্জস্য একবার নিশ্চিত হয়ে নিন।</p>
+  </section>
+
+  <section class="card faq">
+    <h2>সাধারণ প্রশ্ন</h2>
+    {% for q, a in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
+  </section>
+{% endblock %}

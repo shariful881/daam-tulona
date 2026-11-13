@@ -7,6 +7,7 @@
     <p class="muted" style="margin:6px 0 0;font-size:.92rem">আপনার বাজেট বাছুন, সেই দামের মধ্যে আজ স্টকে থাকা বাছাই করা মডেল আর দোকানভেদে দাম দেখুন। প্রতিদিন হালনাগাদ, কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে তালিকায় ওঠে না।</p>
     {% if popular %}<div class="chips szr" style="margin-top:12px;flex-wrap:wrap"><span class="muted" style="font-size:.8rem;align-self:center">জনপ্রিয়:</span>{% for c_, a_, sl in popular %}<a class="chip" href="{{ base }}/best/{{ sl }}/">{{ a_ | taka }}-এ {{ (hub | selectattr("cat.slug", "equalto", c_) | first).cat.name_bn }}</a>{% endfor %}</div>{% endif %}
   </section>
+  <a class="card tierlink" href="{{ base }}/build/"><span>🖥️ বাজেট অনুযায়ী পূর্ণ পিসি বিল্ড: ৩০ হাজার থেকে ১.৫ লাখ, আজকের দামে</span><span>›</span></a>
   {% if need_hub %}
   <section class="card">
     <h2>প্রয়োজন অনুযায়ী বাছাই</h2>

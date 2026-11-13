@@ -1116,3 +1116,48 @@ main.col>.foot,main.col>.footnav{order:99}
 .toppick b{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .toppick .p{flex:none;font-weight:700}
 .tierlink{display:flex;justify-content:space-between;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.9rem}
+/* পিসি বিল্ড */
+.pcbuse{margin:8px 0 0;font-size:.9rem}
+.pcbtot{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.pcbtot>div{flex:1;min-width:140px;padding:10px 12px;border-radius:12px;background:var(--best-soft);display:flex;flex-direction:column}
+.pcbtot small{font-size:.74rem;color:var(--best);font-weight:600}
+.pcbtot b{font-size:1.45rem;color:var(--best)}
+.pcbtot .lft{background:var(--bg)}.pcbtot .lft small,.pcbtot .lft b{color:var(--ink)}
+.pcbl{display:grid}
+.pcbr{display:grid;grid-template-columns:96px 1fr auto;gap:10px;align-items:start;padding:10px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+.pcbr .rl{font-size:.76rem;color:var(--muted);font-weight:600;padding-top:2px}
+.pcbr .nm{font-size:.88rem;line-height:1.4;min-width:0}
+.pcbr .nm small{display:block;color:var(--muted);font-size:.74rem;margin-top:2px}
+.pcbr .pr{font-weight:700;white-space:nowrap;font-size:.9rem}
+.pcbr.sum{border-bottom:0}
+@media (max-width:520px){.pcbr{grid-template-columns:1fr auto}.pcbr .rl{grid-column:1/-1;padding:0}}
+.pchub{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.pchc{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink)}
+.pchc .amt{font-size:1.3rem;font-weight:800;color:var(--best)}
+.pchc small{color:var(--muted);font-size:.78rem;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pchc .tot{margin-top:4px;font-weight:600;font-size:.86rem}
+
+/* হোম: বাজেট অনুযায়ী সেরা */
+.bhome .bh-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.bhome .bh-all{font-weight:600;font-size:.86rem;white-space:nowrap}
+.bh-pop{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.bh-pop::-webkit-scrollbar{display:none}
+.bh-pop a{flex:none;display:flex;gap:8px;align-items:center;padding:8px 12px 8px 8px;border:1px solid var(--line);border-radius:14px;color:var(--ink);text-decoration:none;background:var(--surface)}
+.bh-pop .cic{width:34px;height:34px}.bh-pop .cic .ci{padding:7px}
+.bh-pop small{display:block;font-size:.7rem;color:var(--muted)}.bh-pop b{font-size:.88rem}
+.bh-grid{display:grid;gap:12px;margin-top:4px}
+.bh-card{display:grid;gap:8px;padding:12px;border:1px solid var(--line);border-radius:14px}
+.bh-card .ihd{gap:8px;font-size:.95rem}.bh-card .cic{width:32px;height:32px}.bh-card .cic .ci{padding:7px}
+.bh-top{display:grid;gap:2px;padding:8px 10px;border-radius:10px;background:var(--bg);color:var(--ink);text-decoration:none}
+.bh-top small{font-size:.7rem;color:var(--muted)}
+.bh-top .n{font-weight:600;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.bh-top .p{font-weight:700;font-size:.9rem;color:var(--best)}.bh-top .p i{font-style:normal;font-weight:500;color:var(--muted);font-size:.78rem}
+.bh-pc{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.bh-pch{display:flex;align-items:center;gap:8px;margin-bottom:8px}.bh-pch a{margin-left:auto;font-size:.84rem;font-weight:600}
+.bh-pch .cic{width:30px;height:30px}.bh-pch .cic .ci{padding:6px}
+.bh-pcl{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.bh-pcl::-webkit-scrollbar{display:none}
+.bh-pcl a{flex:none;min-width:128px;display:grid;gap:1px;padding:10px 12px;border-radius:12px;background:var(--best-soft);color:var(--ink);text-decoration:none}
+.bh-pcl b{font-size:1.05rem;color:var(--best)}.bh-pcl small{font-size:.74rem}.bh-pcl span{font-size:.72rem;color:var(--muted)}
+@media (min-width:700px){.bh-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:699px){.bh-grid>.bh-card:nth-child(n+5){display:none}}

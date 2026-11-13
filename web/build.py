@@ -824,6 +824,52 @@ def build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL,
     return hub
 
 
+PCB_KEY = {"প্রসেসর": "cpu", "মাদারবোর্ড": "mb", "র‍্যাম": "ram", "SSD": "ssd", "গ্রাফিক্স কার্ড": "gpu",
+           "পাওয়ার সাপ্লাই": "psu", "কেসিং": "case", "সিপিইউ কুলার": "cooler"}
+
+
+def build_pc_pages(items, write, today, crumbs_ld, SITE_URL, stores):
+    """/build/pc-under-<টাকা>/: বাজেট অনুযায়ী পূর্ণ পিসি বিল্ড (web/pcbuild.py), প্রতিদিনের সবচেয়ে কম দামে।"""
+    from web import pcbuild
+    from urllib.parse import urlencode
+    builds = pcbuild.build_all(items)
+    month = f"{BN_MONTHS[int(today[5:7]) - 1]} {today[:4]}".translate(BN_DIGITS)
+    sib = [(b["amt"], f"pc-under-{b['amt']}", b["label"]) for b in builds]
+    for b in builds:
+        words = bn_amount(b["amt"])
+        slug = f"pc-under-{b['amt']}"
+        b["slug"] = slug
+        b["builder"] = "?" + urlencode({PCB_KEY[r]: p["id"] for r, p in b["parts"] if r in PCB_KEY})
+        b["store_n"] = len({p["best"]["store"] for _, p in b["parts"]})
+        b["left"] = b["amt"] - b["total"]
+        cpu = b["parts"][0][1]
+        gpu = next((p for r, p in b["parts"] if r == "গ্রাফিক্স কার্ড"), None)
+        faq = [(f"{words} টাকায় পিসি বানাতে আজ মোট কত লাগবে?",
+                f"আমাদের বাছাই করা পার্টস দিয়ে আজকের সর্বনিম্ন দামে মোট {taka(b['total'])}; প্রতিটা পার্টস যে দোকানে সবচেয়ে সস্তা সেখান থেকে কিনলে।"),
+               ("এই বিল্ডে কোন প্রসেসর?", f"{cpu['name']}, আজ {taka(cpu['best']['price'])} ({stores[cpu['best']['store']]['name']})।"),
+               ("গেম খেলা যাবে?", (f"হ্যাঁ, {gpu['name']} গ্রাফিক্স কার্ড আছে; {b['use']}।" if gpu else
+                                   "এই বিল্ডে আলাদা গ্রাফিক্স কার্ড নেই, প্রসেসরের গ্রাফিক্সে হালকা ও পুরনো গেম চলবে। নিয়মিত গেম খেললে উপরের বাজেটের বিল্ড দেখুন।")),
+               ("পার্টসগুলো কি একসাথে চলবে?", f"হ্যাঁ, প্রসেসর আর মাদারবোর্ডের সকেট এক ({b['socket']}), র‍্যাম {b['ddr']}, আর মাদারবোর্ড মাইক্রো-ATX যা প্রায় সব কেসিংয়ে ধরে। তবু কেনার আগে দোকানে একবার নিশ্চিত হয়ে নিন।"),
+               ("দাম কত দিন পরপর হালনাগাদ হয়?", "প্রতিদিন। পার্টসের দাম বা স্টক বদলালে বিল্ডও নিজে থেকে বদলে যায়।")]
+        ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": f"{words} টাকায় পিসি বিল্ড", "itemListElement": [
+                  {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{p['id']}/", "name": p["name"]} for k, (_, p) in enumerate(b["parts"])]},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                  {"@type": "Question", "name": q_, "acceptedAnswer": {"@type": "Answer", "text": a_}} for q_, a_ in faq]}]
+        write(f"build/{slug}", "pcbuild.html", b=b, words=words, month=month, siblings=sib, faq=faq,
+              itemlist=[json.dumps(x, ensure_ascii=False) for x in ld],
+              title=f"{words} টাকায় পিসি বিল্ড ({month}) | PC Build Under {b['amt']:,} Taka in Bangladesh",
+              description=f"{words} টাকার মধ্যে {b['label']} পিসি বিল্ড: আজকের সর্বনিম্ন দামে মোট {taka(b['total'])}, প্রতিটা পার্টস কোন দোকানে সবচেয়ে সস্তা, আর পার্টস মানানসই কিনা যাচাই করা।",
+              crumbs=crumbs_ld(("হোম", ""), ("পিসি বিল্ড", "build/"), (f"{words} টাকায়", f"build/{slug}/")),
+              canonical=f"{SITE_URL}/build/{slug}/" if SITE_URL else None)
+    if builds:
+        write("build", "pcbuild_hub.html", builds=builds, month=month,
+              title=f"বাজেট অনুযায়ী পিসি বিল্ড ({month}) | PC Build Guide Bangladesh",
+              description="৩০ হাজার থেকে ১.৫ লাখ টাকা বাজেটে পূর্ণ পিসি বিল্ড: প্রতিদিনের সবচেয়ে কম দাম, প্রতিটা পার্টস কোন দোকানে সস্তা, আর পার্টস মানানসই কিনা যাচাই করা।",
+              crumbs=crumbs_ld(("হোম", ""), ("পিসি বিল্ড", "build/")), canonical=f"{SITE_URL}/build/" if SITE_URL else None)
+    print(f"পিসি বিল্ড পাতা: {len(builds)}টা")
+    return builds
+
+
 def build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL):
     """/store/<id>/: স্টোরের তথ্য (config/store_info.json) + আমাদের ডাটা থেকে কোথায় সস্তা।"""
     f = ROOT / "config/store_info.json"
@@ -1491,6 +1537,7 @@ def main():
     write("pc-builder", "pcbuilder.html", slots=pc_slots, title="পিসি বিল্ডার: সব দোকানের দাম মিলিয়ে পিসি বানান | দামতুলনা",
           description="প্রসেসর, মাদারবোর্ড, র‍্যাম, গ্রাফিক্স কার্ড বাছুন; Star Tech, PC House-সহ সব দোকানের দাম মিলিয়ে মোট খরচ, আর সকেট/র‍্যাম/পাওয়ার মানানসই কিনা দেখুন।",
           crumbs=crumbs_ld(("হোম", ""), ("পিসি বিল্ডার", "pc-builder/")), canonical=f"{SITE_URL}/pc-builder/" if SITE_URL else None)
+    pc_builds = build_pc_pages(items, write, today, crumbs_ld, SITE_URL, stores)
     common["budget_links"] = budget_links
 
     # ক্যাটাগরি পেজ (পাতায় ভাগ করা)
@@ -1666,7 +1713,9 @@ def main():
                     scraped_at=_st, today_bn=bn_date(today), new_count=len([i for i in fresh_all if store_first.get((i["best"] or {}).get("store"), today) < today]))
     _sv = sorted(i["saving"] for i in listed_items.values() if i["saving"] > 0 and not i["sus"])
     save_stat = {"n": len(_sv), "med": _sv[len(_sv) // 2] if _sv else 0, "k1": sum(1 for x in _sv if x >= 1000)}
-    write("", "home.html", save_stat=save_stat, groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
+    _pop = json.loads((ROOT / "config/budget_pages.json").read_text()).get("popular", []) if (ROOT / "config/budget_pages.json").exists() else []
+    budget_popular = [(c_, a_, f"{c_}-under-{a_}", leaves[c_]) for c_, a_ in _pop if (a_, f"{c_}-under-{a_}") in budget_links.get(c_, [])][:8]
+    write("", "home.html", save_stat=save_stat, budget_popular=budget_popular, pc_builds=pc_builds, groups=group_cards, **home_ctx, size_pages=size_pages, top_brands=brand_pages[:12], brand_total=len(brand_pages), deals=deals, drops=drops_top, total=len(listed_items), budget_hub=budget_hub,
           popular=[] if drops_top else sorted([i for i in vals if i["best"] and i["live_count"] > 2 and not i["sus"]],
                                              key=lambda i: (-i["live_count"], -i["best"]["price"]))[:10],
           multi=sum(1 for i in vals if i["live_count"] > 1),
