@@ -636,18 +636,108 @@ def bn_amount(n):
     return bn_num(n)
 
 
-def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, need_hub=None):
-    """config/budget_pages.json থেকে "৳X-এর মধ্যে সেরা" পেজ। ফেরত: (হাবের তালিকা, {ক্যাটাগরি: [(টাকা, slug)]})"""
+def _best_badges(ranked, nums_of, prof):
+    """ডাটা থেকে "কার জন্য সেরা" লেবেল: {পণ্য id: [লেবেল]}"""
+    out = defaultdict(list)
+    if not ranked:
+        return out
+    top = max(ranked, key=lambda i: (i["live_count"], -i["best"]["price"]))
+    if top["live_count"] > 1:
+        out[top["id"]].append("🏆 সবচেয়ে বেশি দোকানে")
+    out[min(ranked, key=lambda i: i["best"]["price"])["id"]].append("💰 সবচেয়ে কম দাম")
+    sv = max(ranked, key=lambda i: i["saving"])
+    if sv["saving"] >= 500:
+        out[sv["id"]].append("🪙 দোকান বাছলে সবচেয়ে বেশি সাশ্রয়")
+    for label, _, unit, noun in INS.COMPARE.get(prof, []):
+        vals = [(nums_of.get(i["id"], {}).get(label), i) for i in ranked]
+        vals = [(v, i) for v, i in vals if v]
+        if len(vals) < 4:
+            continue
+        mx = max(v for v, _ in vals)
+        winners = [i for v, i in vals if v == mx]
+        if len(winners) == 1 and mx > sorted(v for v, _ in vals)[len(vals) // 2]:
+            out[winners[0]["id"]].append(f"⭐ এই বাজেটে সবচেয়ে বেশি {noun} ({INS.fmt_val(mx, unit)})")
+    return out
+
+
+def _spec_line(it, nums_of, prof):
+    n = nums_of.get(it["id"]) or {}
+    parts = [f"{INS.fmt_val(n[l], u)} {noun}" for l, _, u, noun in INS.COMPARE.get(prof, []) if l in n]
+    if not parts and it.get("fx"):
+        parts = [v[0] for v in it["fx"].values()][:3]
+    return " · ".join(parts)
+
+
+def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, need_hub=None, peer_pool=None, cat_profile=None,
+                       guides=None, stores=None):
+    """config/budget_pages.json থেকে "৳X-এর মধ্যে সেরা" পেজ, আর যেখানে যথেষ্ট মডেল আছে সেখানে ব্র্যান্ড × বাজেট পেজ।
+    ফেরত: (হাবের তালিকা, {ক্যাটাগরি: [(টাকা, slug)]})"""
     f = ROOT / "config/budget_pages.json"
     if not f.exists():
         return [], {}
-    conf = json.loads(f.read_text()).get("pages", {})
+    full = json.loads(f.read_text())
+    conf, en_names, brand_min = full.get("pages", {}), full.get("en", {}), full.get("brand_min", 6)
+    peer_pool, cat_profile, guides = peer_pool or {}, cat_profile or {}, guides or {}
     by_cat = defaultdict(list)
     for it in items.values():
         if it["best"] and not it["sus"]:
             by_cat[it["category"]].append(it)
     month = f"{BN_MONTHS[int(today[5:7]) - 1]} {today[:4]}".translate(BN_DIGITS)
     hub, links = [], {}
+    rank_key = lambda amt: (lambda i: -(min(i["live_count"], 5) * 2 + 3 * i["best"]["price"] / amt))
+
+    def faq_for(pool, ranked, words, cname, prof, nums_of, brand=None):
+        who = f"{brand}-এর " if brand else ""
+        multi = sum(1 for i in pool if i["live_count"] > 1)
+        ch = min(pool, key=lambda i: i["best"]["price"])
+        top = max(pool, key=lambda i: (i["live_count"], -i["best"]["price"]))
+        q = [(f"{words} টাকার মধ্যে আজ {who}কয়টা {cname} স্টকে আছে?",
+              f"আজ {bn_num(len(pool))}টা; এর মধ্যে {bn_num(multi)}টা একাধিক দোকানে পাওয়া যায়, তাই দাম মিলিয়ে কেনা যায়।"),
+             (f"{words} টাকার মধ্যে সবচেয়ে কম দামের {who}{cname} কোনটা?",
+              f"আজকের হিসাবে {ch['name']}, {taka(ch['best']['price'])} ({stores[ch['best']['store']]['name']})।")]
+        if top["live_count"] > 1:
+            q.append((f"সবচেয়ে বেশি দোকানে পাওয়া যায় কোনটা?",
+                      f"{top['name']}, আজ {bn_num(top['live_count'])}টা দোকানে; সবচেয়ে কম {taka(top['best']['price'])} ({stores[top['best']['store']]['name']})।"))
+        for label, _, unit, noun in INS.COMPARE.get(prof, [])[:2]:
+            vals = [(nums_of.get(i["id"], {}).get(label), i) for i in pool]
+            vals = [(v, i) for v, i in vals if v]
+            if len(vals) >= 4:
+                v, i = max(vals, key=lambda x: (x[0], -x[1]["best"]["price"]))
+                q.append((f"এই বাজেটে সবচেয়ে বেশি {noun} কোনটায়?", f"{i['name']} ({INS.fmt_val(v, unit)}), দাম {taka(i['best']['price'])}।"))
+        q.append(("এই তালিকার দাম কত দিন পরপর হালনাগাদ হয়?", "প্রতিদিন। সব দোকানের দাম নতুন করে তুলে তালিকা আবার সাজানো হয়।"))
+        return q
+
+    def render(slug, cat, leaf, amt, pool, ranked, sibl, brand=None, brand_links=None):
+        prof = cat_profile.get(cat)
+        nums_of = {i_: n_ for _, i_, n_ in peer_pool.get(cat, [])}
+        words = bn_amount(amt)
+        en = en_names.get(cat, leaf["name_bn"])
+        bname = brand["name"] if brand else None
+        title_bn = f"{words} টাকার মধ্যে {bname + ' ' if bname else ''}সেরা {leaf['name_bn']} ({month})"
+        title_en = f"Best {bname + ' ' if bname else ''}{en} Under {amt:,} Taka in Bangladesh"
+        badges = _best_badges(ranked, nums_of, prof)
+        rows = [dict(i, specline=_spec_line(i, nums_of, prof), badges=badges.get(i["id"], [])) for i in ranked]
+        faq = faq_for(pool, ranked, words, leaf["name_bn"], prof, nums_of, bname)
+        grp = group_of[cat]
+        ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": title_bn, "itemListElement": [
+                  {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{i['id']}/", "name": i["name"]} for k, i in enumerate(ranked)]},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                  {"@type": "Question", "name": q_, "acceptedAnswer": {"@type": "Answer", "text": a_}} for q_, a_ in faq]}]
+        crumb = [("হোম", ""), ("বাজেট অনুযায়ী সেরা", "best/"), (leaf["name_bn"], f"c/{cat}/")]
+        if brand:
+            crumb.append((f"{words} টাকার মধ্যে", f"best/{cat}-under-{amt}/"))
+        crumb.append((bname or f"{words} টাকার মধ্যে", f"best/{slug}/"))
+        write(f"best/{slug}", "best.html", cat=leaf, group=grp, amt=amt, words=words, month=month, ranked=rows,
+              pool_n=len(pool), multi_n=sum(1 for i in pool if i["live_count"] > 1),
+              cheapest=min(pool, key=lambda i: i["best"]["price"]), siblings=sibl, brand=brand, brand_links=brand_links or [],
+              guide=guides.get(cat), faq=faq, title_en=title_en, itemlist=[json.dumps(x, ensure_ascii=False) for x in ld],
+              noindex=len(pool) < 8,
+              crumbs=crumbs_ld(*crumb), title=f"{title_bn} | {title_en}",
+              description=(f"{words} টাকার মধ্যে আজ স্টকে থাকা {bn_num(len(pool))}টি {bname + ' ' if bname else ''}{leaf['name_bn']}: "
+                           f"সর্বনিম্ন {taka(min(i['best']['price'] for i in pool))}, দোকানভেদে আজকের দাম আর কোথায় কিনলে কত বাঁচে।"),
+              canonical=f"{SITE_URL}/best/{slug}/" if SITE_URL else None)
+
+    brand_total = 0
     for cat, amounts in conf.items():
         leaf = leaves.get(cat)
         if not leaf:
@@ -658,39 +748,49 @@ def build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_UR
             if len(pool) < 5:
                 continue
             # বেশি দোকানে বিক্রি = বেশি চলে এমন মডেল; বাজেটের কাছাকাছি দাম = সাধারণত ভালো কনফিগারেশন
-            ranked = sorted(pool, key=lambda i: -(min(i["live_count"], 5) * 2 + 3 * i["best"]["price"] / amt))[:20]
+            ranked = sorted(pool, key=rank_key(amt))[:20]
             made.append((amt, f"{cat}-under-{amt}", pool, ranked))
         if not made:
             continue
         links[cat] = [(amt, slug) for amt, slug, _, _ in made]
-        grp = group_of[cat]
+        top_pick = None
         for amt, slug, pool, ranked in made:
-            words = bn_amount(amt)
-            title = f"{words} টাকার মধ্যে সেরা {leaf['name_bn']} ({month})"
-            ld = {"@context": "https://schema.org", "@type": "ItemList", "name": title, "itemListElement": [
-                {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{i['id']}/", "name": i["name"]} for k, i in enumerate(ranked)]}
-            write(f"best/{slug}", "best.html", cat=leaf, group=grp, amt=amt, words=words, month=month, ranked=ranked,
-                  pool_n=len(pool), cheapest=min(pool, key=lambda i: i["best"]["price"]), siblings=links[cat],
-                  itemlist=json.dumps(ld, ensure_ascii=False),
-                  crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{cat}/"), (f"{words} টাকার মধ্যে", f"best/{slug}/")),
-                  title=title + " | দামতুলনা",
-                  description=f"{words} টাকার মধ্যে আজ স্টকে থাকা {len(pool)}টি {leaf['name_bn']} থেকে বাছাই করা {len(ranked)}টি, দোকানভেদে আজকের দামসহ।",
-                  canonical=f"{SITE_URL}/best/{slug}/" if SITE_URL else None)
-        hub.append({"cat": leaf, "links": links[cat]})
+            # ব্র্যান্ড × বাজেট: এই বাজেটে কোনো ব্র্যান্ডের যথেষ্ট মডেল থাকলে
+            byb = defaultdict(list)
+            for i in pool:
+                if i.get("bslug"):
+                    byb[i["bslug"]].append(i)
+            blinks = []
+            for bs, lst in sorted(byb.items(), key=lambda x: -len(x[1])):
+                if len(lst) >= brand_min:
+                    blinks.append((bs, lst[0]["brand"], f"{bs}-{cat}-under-{amt}", len(lst)))
+            render(slug, cat, leaf, amt, pool, ranked, links[cat], brand_links=blinks)
+            for bs, bname, bslug_page, n in blinks:
+                lst = byb[bs]
+                render(bslug_page, cat, leaf, amt, lst, sorted(lst, key=rank_key(amt))[:20], links[cat],
+                       brand={"slug": bs, "name": bname}, brand_links=blinks)
+                brand_total += 1
+            if top_pick is None or len(pool) >= 8 and top_pick[0] < 8:
+                top_pick = (len(pool), ranked[0], amt, slug)
+        hub.append({"cat": leaf, "links": links[cat], "top": top_pick})
+    print(f"বাজেট পাতা: {sum(len(v) for v in links.values())}টা, ব্র্যান্ড × বাজেট: {brand_total}টা")
+    popular = [(c_, a_, f"{c_}-under-{a_}") for c_, a_ in full.get("popular", []) if (a_, f"{c_}-under-{a_}") in links.get(c_, [])]
     if hub:
-        write("best", "best_hub.html", hub=hub, need_hub=need_hub or [], month=month, title="বাজেট অনুযায়ী সেরা প্রোডাক্ট | দামতুলনা",
-              description="বাজেট অনুযায়ী সেরা ফোন, ল্যাপটপ, মনিটর, টিভি, ফ্রিজ ও আরও অনেক কিছু, প্রতিদিনের দামসহ।",
+        write("best", "best_hub.html", hub=hub, need_hub=need_hub or [], month=month, popular=popular,
+              title="বাজেট অনুযায়ী সেরা প্রোডাক্ট (" + month + ") | Best Products by Budget in Bangladesh",
+              description="বাজেট অনুযায়ী সেরা ফোন, ল্যাপটপ, মনিটর, টিভি, ফ্রিজ ও আরও অনেক কিছু: প্রতিদিনের দাম, দোকানভেদে তুলনা আর কোথায় কিনলে কত বাঁচে।",
               crumbs=crumbs_ld(("হোম", ""), ("বাজেট অনুযায়ী সেরা", "best/")), canonical=f"{SITE_URL}/best/" if SITE_URL else None)
     return hub, links
 
 
-def build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, peer_pool, cat_profile):
+def build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, peer_pool, cat_profile, guides=None):
     """config/need_pages.json: "পড়াশোনার ল্যাপটপ ৳৬০ হাজারের মধ্যে" ধরনের পাতা — নিয়ম (স্পেকের সর্বনিম্ন) লেখা থাকে,
     তালিকা আজকের দাম আর আমাদের স্পেক থেকে। ফেরত: হাবের তালিকা"""
     f = ROOT / "config/need_pages.json"
     if not f.exists():
         return []
     month = f"{BN_MONTHS[int(today[5:7]) - 1]} {today[:4]}".translate(BN_DIGITS)
+    guides = guides or {}
     hub = []
     for pg in json.loads(f.read_text()).get("pages", []):
         cat, mx, rules = pg["cat"], pg["max"], pg["rules"]
@@ -714,7 +814,7 @@ def build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL,
         grp = group_of[cat]
         ld = {"@context": "https://schema.org", "@type": "ItemList", "name": title, "itemListElement": [
             {"@type": "ListItem", "position": k + 1, "url": f"{SITE_URL}/p/{i['id']}/", "name": i["name"]} for k, i in enumerate(ranked)]}
-        write(f"need/{pg['slug']}", "need.html", cat=leaf, group=grp, pg=pg, words=words, month=month, ranked=ranked, pool_n=len(pool),
+        write(f"need/{pg['slug']}", "need.html", guide=guides.get(cat), cat=leaf, group=grp, pg=pg, words=words, month=month, ranked=ranked, pool_n=len(pool),
               rule_txt=rule_txt, itemlist=json.dumps(ld, ensure_ascii=False),
               crumbs=crumbs_ld(("হোম", ""), ("বাজেট অনুযায়ী সেরা", "best/"), (pg["title"], f"need/{pg['slug']}/")),
               title=title + " | দামতুলনা",
@@ -1165,6 +1265,20 @@ def main():
                     pool.append((pr, i_, nums_))
             peer_pool[c] = pool
 
+    # প্রোডাক্ট পাতা থেকে "এই দামের আরও …" বাজেট পাতার লিংক (build_budget_pages-এর একই নিয়মে আগাম হিসাব)
+    _bconf = json.loads((ROOT / "config/budget_pages.json").read_text()).get("pages", {}) if (ROOT / "config/budget_pages.json").exists() else {}
+    tier_ok = {}
+    for c, amts in _bconf.items():
+        prices = [i["best"]["price"] for i in by_cat_all.get(c, []) if i["best"] and not i["sus"]]
+        tier_ok[c] = [a_ for a_ in sorted(amts) if sum(1 for x in prices if a_ * 0.4 <= x <= a_) >= 5]
+
+    def tier_for(it):
+        price = (it["best"] or {}).get("price")
+        if not price:
+            return None
+        a_ = next((a_ for a_ in tier_ok.get(it["category"], []) if a_ >= price and price >= a_ * 0.4), None)
+        return (a_, f"{it['category']}-under-{a_}") if a_ else None
+
     def insight_for(pid, it, so, leaf, changes):
         c = it["category"]
         prof = cat_profile.get(c)
@@ -1349,6 +1463,7 @@ def main():
             insights=ins_lines, ins_date=bn_date(today),
             pstat=INS.price_status(changes, today) if best else None,
             better=better,
+            tier=tier_for(it),
             jsonld=json.dumps(jsonld, ensure_ascii=False), buy=bool(best),
             og_image=big_image(it["imgs"][0][0]) if it["imgs"] and it["imgs"][0][0].startswith("http") else None, og_type="product",
             crumbs=crumbs_ld(("হোম", ""), (grp["name_bn"], f"g/{grp['slug']}/"), (leaf["name_bn"], f"c/{leaf['slug']}/"), (p["name"], f"p/{pid}/")),
@@ -1358,8 +1473,13 @@ def main():
         if it["listed"]:  # সাইটম্যাপে শুধু কেনা যায় (বা শীঘ্রই আসছে) এমন প্রোডাক্ট
             urls.append(f"{SITE_URL}/p/{pid}/")
 
-    need_hub = build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, peer_pool, cat_profile)
-    budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, need_hub)
+    _gf = ROOT / "config/buying_guides.json"
+    guides = json.loads(_gf.read_text()).get("guides", {}) if _gf.exists() else {}
+    need_hub = build_need_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, peer_pool, cat_profile, guides)
+    _gf = ROOT / "config/buying_guides.json"
+    guides = json.loads(_gf.read_text()).get("guides", {}) if _gf.exists() else {}
+    budget_hub, budget_links = build_budget_pages(items, leaves, group_of, write, today, crumbs_ld, SITE_URL, need_hub,
+                                                  peer_pool=peer_pool, cat_profile=cat_profile, guides=guides, stores=stores)
     store_cards = build_store_pages(items, offers, stores, enabled, leaves, write, crumbs_ld, SITE_URL)
     # পিসি বিল্ডার (যেসব ক্যাটাগরিতে প্রোডাক্ট আছে শুধু সেগুলো)
     pc_slots = [{"key": k, "name": n, "cats": [c for c in cs if by_cat.get(c)], "req": rq} for k, n, cs, rq in (

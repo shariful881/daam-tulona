@@ -29,6 +29,13 @@
     </ol>
   </section>
 
+  {% if guide %}
+  <section class="card guide">
+    <h2>{{ cat.name_bn }} কেনার আগে যা দেখবেন</h2>
+    <p>{{ guide.intro }}</p>
+    <ul>{% for t in guide.tips %}<li>{{ t }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
   <section class="card">
     <details open><summary>এই তালিকা কীভাবে সাজানো</summary>
       <p>তালিকায় শুধু সেই {{ cat.name_bn }} আছে যেগুলো আজ অন্তত একটা দোকানে স্টকে আছে, দাম {{ words }} টাকার মধ্যে, আর আমাদের স্পেক তালিকা অনুযায়ী নিয়মগুলো মেলে ({{ rule_txt }})। বেশি দোকানে পাওয়া যায় এমন মডেল আগে, তারপর স্পেক বেশি, তারপর কম দাম। কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে এই তালিকায় ওঠে না।</p>

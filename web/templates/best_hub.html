@@ -3,7 +3,9 @@
   <nav class="crumb"><a href="{{ base }}/">হোম</a> › বাজেট অনুযায়ী সেরা</nav>
   <section class="card">
     <h1>বাজেট অনুযায়ী সেরা</h1>
-    <p class="muted" style="margin:0;font-size:.92rem">আপনার বাজেট বাছুন, সেই দামের মধ্যে আজ স্টকে থাকা বাছাই করা মডেল আর দোকানভেদে দাম দেখুন। {{ month }}-এর দাম অনুযায়ী, প্রতিদিন হালনাগাদ।</p>
+    <p class="ensub">Best products by budget in Bangladesh · {{ month }}, আজকের দাম</p>
+    <p class="muted" style="margin:6px 0 0;font-size:.92rem">আপনার বাজেট বাছুন, সেই দামের মধ্যে আজ স্টকে থাকা বাছাই করা মডেল আর দোকানভেদে দাম দেখুন। প্রতিদিন হালনাগাদ, কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে তালিকায় ওঠে না।</p>
+    {% if popular %}<div class="chips szr" style="margin-top:12px;flex-wrap:wrap"><span class="muted" style="font-size:.8rem;align-self:center">জনপ্রিয়:</span>{% for c_, a_, sl in popular %}<a class="chip" href="{{ base }}/best/{{ sl }}/">{{ a_ | taka }}-এ {{ (hub | selectattr("cat.slug", "equalto", c_) | first).cat.name_bn }}</a>{% endfor %}</div>{% endif %}
   </section>
   {% if need_hub %}
   <section class="card">
@@ -16,6 +18,7 @@
   {% for h in hub %}
     <section class="card">
       <h2 class="ihd" style="font-size:1rem"><span class="cic">{{ cicon(h.cat.slug) }}</span>{{ h.cat.name_bn }}</h2>
+      {% if h.top %}{% set tp = h.top[1] %}<a class="toppick" href="{{ base }}/p/{{ tp.id }}/"><span style="min-width:0"><small class="muted">{{ h.top[2] | taka }}-এর মধ্যে আজকের ১ নম্বর</small><b>{{ tp.name }}</b></span><span class="p">{{ tp.best.price | taka }}{% if tp.live_count > 1 %}<small class="muted" style="display:block;font-weight:400;font-size:.7rem">{{ tp.live_count|bn }} দোকানে</small>{% endif %}</span></a>{% endif %}
       <div class="chips szr" style="flex-wrap:wrap">{% for a, sl in h.links %}<a class="chip" href="{{ base }}/best/{{ sl }}/">{{ a | taka }}-এর মধ্যে</a>{% endfor %}</div>
     </section>
   {% endfor %}

@@ -80,6 +80,9 @@
   </section>
   {% endif %}
 
+  {% if tier %}
+  <a class="card o3 tierlink" href="{{ base }}/best/{{ tier[1] }}/"><span>💡 {{ tier[0] | taka }}-এর মধ্যে আরও সেরা {{ cat.name_bn }} দেখুন</span><span>›</span></a>
+  {% endif %}
   {% if better %}
   <section class="card o3 better">
     <h2>একই দামে বেশি স্পেক <span class="sub">· কেনার আগে একবার দেখুন</span></h2>
