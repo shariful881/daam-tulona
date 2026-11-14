@@ -16,6 +16,8 @@ MIN_PRICE = 300       # এর কম দামের জিনিস (কেব
 WORTHY_WEEK = 8       # ক্যাটাগরির সাপ্তাহিক রিপোর্ট: অন্তত এতগুলো প্রোডাক্টের দাম বদল
 WORTHY_WEEK_ALT = (4, 5)  # অথবা: অন্তত ৪টা দাম বদল + ৫টা নতুন মডেল
 WORTHY_DEALS = 6      # সপ্তাহের ডিল: অন্তত এতগুলো ভালো ডিল
+DAILY_MIN = 30        # দিনের স্থায়ী পাতা: অন্তত এতগুলো প্রোডাক্টের দাম বদল
+FIRST_DAILY = "2026-11-13"  # এই দিন থেকে দিনের পাতা জমা হয়
 MONTH_MIN_DAYS = 20   # মাসিক রিপোর্টে মাসের অন্তত এত দিনের ইতিহাস লাগবে
 EDITOR = "শরীফুল ইসলাম"
 
@@ -248,7 +250,11 @@ def bars(rows, color, sign, stores):
 
 # ---------------- রিপোর্ট তৈরি ----------------
 
-def make_daily(H, items, stores, today):
+def make_daily(H, items, stores, today, dated=False, live=True):
+    """dated=False: /bazar/aj/ (আজকের বাজার); dated=True: /bazar/<তারিখ>/ স্থায়ী পাতা।
+    live=False: পুরনো দিন পরে বানানো হলে দোকানভেদে পার্থক্য (আজকের দাম) দেখানো হয় না।"""
+    when = dmy(today, False) if dated else "আজ"
+    kick = "দিনের বাজার" if dated else "আজকের বাজার"
     prev = [d for d in H.dates if d < today]
     d0 = prev[-1] if prev else None
     allc = H.changes(d0, today) if d0 else []
@@ -259,7 +265,7 @@ def make_daily(H, items, stores, today):
         dn = sorted([c for c in ch if c["diff"] < 0], key=lambda c: c["diff"])
         up = sorted([c for c in ch if c["diff"] > 0], key=lambda c: -c["diff"])
         nw, n_new = new_models(items, d0 or today, today, cs, 8, 0 if cs else 3000)
-        gp = gaps(items, cs, 5) if key != "mobile" else []
+        gp = gaps(items, cs, 5) if key != "mobile" and live else []
         if key != "all" and not (dn or up or nw):
             continue
         tabs.append({"key": key, "name": name, "dn": dn[:10], "up": up[:10], "n_dn": len(dn), "n_up": len(up),
@@ -268,13 +274,14 @@ def make_daily(H, items, stores, today):
     by_cat = sorted(tabs[1:], key=lambda t: -(t["n_dn"] + t["n_up"]))
     lead = by_cat[0] if by_cat and (by_cat[0]["n_dn"] + by_cat[0]["n_up"]) else None
     n_dn, n_up = t0["n_dn"], t0["n_up"]
+    head = f"{dmy(today)}-এর বাজার" if dated else "আজকের বাজার"
     if n_dn or n_up:
-        title = f"আজকের বাজার: {bn(n_dn)}টি প্রোডাক্টের দাম কমেছে, {bn(n_up)}টির বেড়েছে"
+        title = f"{head}: {bn(n_dn)}টি প্রোডাক্টের দাম কমেছে, {bn(n_up)}টির বেড়েছে"
     else:
-        title = f"আজকের বাজার: দাম মোটামুটি স্থির, {bn(t0['n_new'])}টি নতুন প্রোডাক্ট"
+        title = f"{head}: দাম মোটামুটি স্থির, {bn(t0['n_new'])}টি নতুন প্রোডাক্ট"
     key = []
     if n_dn or n_up:
-        key.append(f"আগের দামের তুলনায় আজ {bn(n_dn)}টি প্রোডাক্টের দাম কমেছে আর {bn(n_up)}টির বেড়েছে।")
+        key.append(f"আগের দামের তুলনায় {when} {bn(n_dn)}টি প্রোডাক্টের দাম কমেছে আর {bn(n_up)}টির বেড়েছে।")
     if t0["dn"]:
         c = t0["dn"][0]
         key.append(f"সবচেয়ে বেশি কমেছে {short(c['name'], 60)}: {tk(c['diff'])} ({pct_s(c['pct'])})।")
@@ -282,32 +289,33 @@ def make_daily(H, items, stores, today):
         c = t0["up"][0]
         key.append(f"সবচেয়ে বেশি বেড়েছে {short(c['name'], 60)}: {tk(c['diff'])} ({pct_s(c['pct'])})।")
     if t0["n_new"]:
-        key.append(f"দোকানগুলোতে আজ {bn(t0['n_new'])}টি নতুন প্রোডাক্ট এসেছে।")
+        key.append(f"দোকানগুলোতে {when} {bn(t0['n_new'])}টি নতুন প্রোডাক্ট এসেছে।")
     if lead:
         key.append(f"ক্যাটাগরির মধ্যে সবচেয়ে বেশি দাম বদলেছে {lead['name']}-এ: {bn(lead['n_dn'])}টি কমেছে, {bn(lead['n_up'])}টি বেড়েছে।")
     tot = n_dn + n_up
     note = None
     if lead:
-        note = (f"আজকের ধারা: সবচেয়ে বেশি নড়াচড়া {lead['name']}-এ",
+        note = (f"{'আজকের' if not dated else 'দিনের'} ধারা: সবচেয়ে বেশি নড়াচড়া {lead['name']}-এ",
                 f"{lead['name']}: {bn(lead['n_dn'])}টির দাম কমেছে, {bn(lead['n_up'])}টির বেড়েছে")
-    svg = infographic(f"আজকের বাজার · {dmy(today)}", "", f"{bn(len(stores))} দোকান",
+    svg = infographic(f"{kick} · {dmy(today)}", "", f"{bn(len(stores))} দোকান",
                       [(n_dn, "দাম কমেছে ▼", C["dn"], "আগের দামের তুলনায়"), (n_up, "দাম বেড়েছে ▲", C["up"], "আগের দামের তুলনায়"),
-                       (t0["n_new"], "নতুন প্রোডাক্ট", C["ac"], "আজ দোকানে এসেছে")],
+                       (t0["n_new"], "নতুন প্রোডাক্ট", C["ac"], f"{when} দোকানে এসেছে")],
                       [("সবচেয়ে বেশি কমেছে", bars(t0["dn"][:3], C["dn"], "−", stores)),
                        ("সবচেয়ে বেশি বেড়েছে", bars(t0["up"][:3], C["up"], "+", stores))], note, dmy(today))
-    card = share_card(f"আজকের বাজার · {dmy(today)}",
-                      f"{bn(n_dn)}টির দাম কমেছে, {bn(n_up)}টির বেড়েছে" if tot else "আজ দাম মোটামুটি স্থির",
+    card = share_card(f"{kick} · {dmy(today)}",
+                      f"{bn(n_dn)}টির দাম কমেছে, {bn(n_up)}টির বেড়েছে" if tot else "দাম মোটামুটি স্থির",
                       f"সবচেয়ে বেশি নড়াচড়া {lead['name']}-এ" if lead else "দোকানভেদে দাম মিলিয়ে কিনুন",
                       [(bn(n_dn), "দাম কমেছে ▼", C["dn"]), (bn(n_up), "দাম বেড়েছে ▲", C["up"]), (bn(t0["n_new"]), "নতুন প্রোডাক্ট", C["ac"])])
     adv = []
     if lead and lead["key"] in CAT_NAME:
-        adv.append(f"{lead['name']} কিনতে চাইলে: আজ এখানে দাম সবচেয়ে বেশি বদলেছে। তালিকা দেখে নিন, আর কেনার আগে প্রোডাক্ট পাতায় সব দোকানের দাম মিলিয়ে নিন।")
+        adv.append(f"{lead['name']} কিনতে চাইলে: {when} এখানে দাম সবচেয়ে বেশি বদলেছে। তালিকা দেখে নিন, আর কেনার আগে প্রোডাক্ট পাতায় সব দোকানের দাম মিলিয়ে নিন।")
     adv += ["দাম কমার অপেক্ষায় থাকলে: প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রাখুন।",
-            "একই প্রোডাক্ট দোকানভেদে আলাদা দামে বিক্রি হয়। নিচের \"দোকানভেদে বড় পার্থক্য\" অংশে আজকের বড় উদাহরণগুলো আছে।"]
+            "একই প্রোডাক্ট দোকানভেদে আলাদা দামে বিক্রি হয়। কেনার আগে প্রোডাক্ট পাতায় আজকের দাম মিলিয়ে নিন।"]
     desc = " ".join(key[:2])[:300]
     h1 = title + (f"; সবচেয়ে বেশি নড়াচড়া {lead['name']}-এ" if lead and (n_dn or n_up) else "")
-    return {"id": "aj", "kind": "daily", "path": "bazar/aj", "title": title, "h1": h1, "date": today, "desc": desc, "key": key,
-            "tabs": tabs, "svg": svg, "card": card, "advice": adv, "label": "আজকের বাজার"}
+    return {"id": f"day-{today}" if dated else "aj", "kind": "day" if dated else "daily", "path": f"bazar/{today}" if dated else "bazar/aj",
+            "title": title, "h1": h1, "date": today, "desc": desc, "key": key, "n_chg": n_dn + n_up,
+            "tabs": tabs, "svg": svg, "card": card, "advice": adv, "label": kick}
 
 
 def week_end(today):
@@ -477,6 +485,39 @@ def build(*, items, history, enabled, stores, today, write, crumbs_ld, SITE_URL,
 
     daily = make_daily(H, items, stores, today)
     daily["published"] = today
+    # দিনের স্থায়ী পাতা: data/reports/daily/<তারিখ>.json (একবার তৈরি হলে বদলায় না); শান্ত দিনে তৈরি হয় না
+    ddir = rep_dir / "daily"
+    ddir.mkdir(exist_ok=True)
+    for d in H.dates:
+        if d >= FIRST_DAILY and d <= today and not (ddir / f"{d}.json").exists():
+            r = make_daily(H, items, stores, d, dated=True, live=(d == today))
+            if r["n_chg"] >= DAILY_MIN:
+                r["created"] = today
+                (ddir / f"{d}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
+    days = sorted((json.loads(f.read_text()) for f in ddir.glob("*.json")), key=lambda r: r["date"])
+    for r in days:
+        r["published"] = r["date"]
+    dpos = {r["date"]: i for i, r in enumerate(days)}
+
+    def day_nav(r):
+        """আগের দিন / পরের দিন"""
+        if r["kind"] == "day":
+            i = dpos[r["date"]]
+            return (days[i - 1] if i > 0 else None, days[i + 1] if i + 1 < len(days) else None)
+        if r["kind"] == "daily":
+            older = [x for x in days if x["date"] < r["date"]]
+            return (older[-1] if older else None, None)
+        return (None, None)
+
+    def week_days(r):
+        if r["kind"] == "week":
+            return [x for x in days if r["start"] < x["date"] <= r["date"]]
+        return []
+
+    def week_of(r):
+        if r["kind"] in ("day", "daily"):
+            return [x for x in reports if x["kind"] in ("week", "deals") and (date.fromisoformat(x["date"]) - timedelta(days=7)).isoformat() < r["date"] <= x["date"]]
+        return []
     jobs = []
     site = SITE_URL or BASE
     org = {"@type": "Organization", "name": "দামতুলনা", "url": f"{site}/", "logo": {"@type": "ImageObject", "url": common["og_default"]}}
@@ -489,8 +530,9 @@ def build(*, items, history, enabled, stores, today, write, crumbs_ld, SITE_URL,
               "datePublished": r["published"] + "T06:00:00+06:00", "dateModified": r["published"] + "T06:00:00+06:00",
               "author": [author], "publisher": org, "image": [img, f"{site}/{r['path']}/infographic.jpg"], "inLanguage": "bn-BD",
               "mainEntityOfPage": url or f"{site}/{r['path']}/", "isAccessibleForFree": True}
-        others = [x for x in [daily] + reports if x["id"] != r["id"]][:6]
-        write(r["path"], "bazar_report.html", r=r, others=others, editor=EDITOR, n_stores=len(enabled), share_url=url or f"{site}/{r['path']}/",
+        others = [x for x in [daily] + reports + days[::-1][:3] if x["id"] != r["id"] and x["path"] != r["path"]][:6]
+        today_page = next((x for x in days if x["date"] == r["date"]), None) if r["kind"] == "daily" else None
+        write(r["path"], "bazar_report.html", r=r, others=others, nav=day_nav(r), wdays=week_days(r), wreps=week_of(r), today_page=today_page, editor=EDITOR, n_stores=len(enabled), share_url=url or f"{site}/{r['path']}/",
               title=r["title"][:95] + " | দামতুলনা", description=r["desc"], canonical=url, og_image=img, og_type="article", big_og=True,
               crumbs=crumbs_ld(*crumbs), lds=[json.dumps(ld, ensure_ascii=False)])
         d = DIST / r["path"]
@@ -499,6 +541,8 @@ def build(*, items, history, enabled, stores, today, write, crumbs_ld, SITE_URL,
         jobs.append(r["path"])
 
     page(daily, [("হোম", ""), ("বাজার আপডেট", "bazar/"), ("আজকের বাজার", "bazar/aj/")])
+    for r in days:
+        page(r, [("হোম", ""), ("বাজার আপডেট", "bazar/"), (dmy(r["date"]), r["path"] + "/")])
     for r in reports:
         if r["kind"] == "week":
             cr = [("হোম", ""), ("বাজার আপডেট", "bazar/"), (r["cat_name"], f"bazar/{r['cat']}/"), (r["span"], r["path"] + "/")]
@@ -515,7 +559,7 @@ def build(*, items, history, enabled, stores, today, write, crumbs_ld, SITE_URL,
                   canonical=f"{SITE_URL}/bazar/{key}/" if SITE_URL else None,
                   crumbs=crumbs_ld(("হোম", ""), ("বাজার আপডেট", "bazar/"), (cname, f"bazar/{key}/")))
     cat_links = [(k, n) for k, n, _ in REPORT_CATS if any(r.get("cat") == k for r in reports)]
-    write("bazar", "bazar_hub.html", reports=reports, daily=daily, cat_name=None, cat_links=cat_links,
+    write("bazar", "bazar_hub.html", reports=reports, daily=daily, days=days[::-1], cat_name=None, cat_links=cat_links,
           title="বাজার আপডেট: ইলেকট্রনিক্সের দাম কমল না বাড়ল | দামতুলনা",
           description="বাংলাদেশে কম্পিউটার, ল্যাপটপ, মনিটর, র‍্যাম, এসএসডি ও মোবাইলের দাম কোথায় কমল, কোথায় বাড়ল: দামতুলনার প্রতিদিনের ও সাপ্তাহিক বিশ্লেষণ।",
           canonical=f"{SITE_URL}/bazar/" if SITE_URL else None, crumbs=crumbs_ld(("হোম", ""), ("বাজার আপডেট", "bazar/")))
@@ -535,7 +579,7 @@ def build(*, items, history, enabled, stores, today, write, crumbs_ld, SITE_URL,
     (DIST / "bazar" / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>দামতুলনা বাজার আপডেট</title>'
         f"<link>{site}/bazar/</link><description>বাংলাদেশে ইলেকট্রনিক্সের দাম কমল না বাড়ল</description><language>bn-BD</language>"
-        + "".join(rss_item(r) for r in [daily] + reports[:30]) + "</channel></rss>\n")
+        + "".join(rss_item(r) for r in sorted(days[-14:] + reports[:30], key=lambda r: r["published"], reverse=True)) + "</channel></rss>\n")
     # Google News সাইটম্যাপ: শেষ ২ দিনের খবর
-    recent = [r for r in [daily] + reports if (date.fromisoformat(today) - date.fromisoformat(r["published"])).days <= 2]
+    recent = [r for r in days + reports if (date.fromisoformat(today) - date.fromisoformat(r["published"])).days <= 2] or [daily]
     return {"daily": daily, "reports": reports, "news": [(f"{SITE_URL}/{r['path']}/", r["published"], r["title"]) for r in recent]}

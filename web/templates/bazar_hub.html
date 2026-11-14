@@ -20,5 +20,10 @@
   <ul class="bmore">{% for o in reports %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a><small>{{ o.label }} · {{ o.published | bn_date }}</small></li>{% endfor %}</ul>
 </section>
 {% endif %}
+{% if days %}
+<section class="card"><h2>প্রতিদিনের বাজার (তারিখ অনুযায়ী)</h2>
+  <ul class="bdays">{% for o in days %}<li><a href="{{ base }}/{{ o.path }}/"><b>{{ o.date | bn_date }}</b><span>{{ o.key[0] if o.key else o.title }}</span></a></li>{% endfor %}</ul>
+</section>
+{% endif %}
 <section class="card bpol"><p style="margin:0">এই রিপোর্টগুলো দামতুলনার নিজস্ব বিশ্লেষণ, সম্পাদনা করেন শরীফুল ইসলাম। <a href="{{ base }}/bazar/niti/">আমাদের নীতি ›</a> · <a href="{{ base }}/bazar/feed.xml">RSS</a></p></section>
 {% endblock %}

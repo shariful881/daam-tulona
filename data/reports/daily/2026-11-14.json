@@ -1,0 +1,1278 @@
+{
+ "id": "day-2026-11-14",
+ "kind": "day",
+ "path": "bazar/2026-11-14",
+ "title": "১৪ নভেম্বর ২০২৬-এর বাজার: ১৭১টি প্রোডাক্টের দাম কমেছে, ৮৮টির বেড়েছে",
+ "h1": "১৪ নভেম্বর ২০২৬-এর বাজার: ১৭১টি প্রোডাক্টের দাম কমেছে, ৮৮টির বেড়েছে; সবচেয়ে বেশি নড়াচড়া মনিটর-এ",
+ "date": "2026-11-14",
+ "desc": "আগের দামের তুলনায় ১৪ নভেম্বর ১৭১টি প্রোডাক্টের দাম কমেছে আর ৮৮টির বেড়েছে। সবচেয়ে বেশি কমেছে LG OLED65C5 65 Inch 4K HDR OLED EVO AI C5 Smart TV #OLED65C…: ৳১২১,৯০০ (৩৪%)।",
+ "key": [
+  "আগের দামের তুলনায় ১৪ নভেম্বর ১৭১টি প্রোডাক্টের দাম কমেছে আর ৮৮টির বেড়েছে।",
+  "সবচেয়ে বেশি কমেছে LG OLED65C5 65 Inch 4K HDR OLED EVO AI C5 Smart TV #OLED65C…: ৳১২১,৯০০ (৩৪%)।",
+  "সবচেয়ে বেশি বেড়েছে ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics…: ৳৪৭,০০০ (২০%)।",
+  "দোকানগুলোতে ১৪ নভেম্বর ৫০টি নতুন প্রোডাক্ট এসেছে।",
+  "ক্যাটাগরির মধ্যে সবচেয়ে বেশি দাম বদলেছে মনিটর-এ: ৫৮টি কমেছে, ০টি বেড়েছে।"
+ ],
+ "n_chg": 259,
+ "tabs": [
+  {
+   "key": "all",
+   "name": "সব",
+   "dn": [
+    {
+     "id": "lg-oled65c5-65-inch-4k-hdr-oled-evo-ai-c5-smart-tv-oled65c5psa-official",
+     "name": "LG OLED65C5 65 Inch 4K HDR OLED EVO AI C5 Smart TV #OLED65C5PSA (Official)",
+     "category": "tv",
+     "cat_name": "টিভি",
+     "store": "techland",
+     "old": 359900,
+     "new": 238000,
+     "diff": -121900,
+     "pct": -33.87051958877466
+    },
+    {
+     "id": "asus-nuc-13-pro-core-i3-13th-gen-portable-mini-pc-with-ram-ssd",
+     "name": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
+     "category": "mini-pc",
+     "cat_name": "মিনি পিসি",
+     "store": "fourstar",
+     "old": 57000,
+     "new": 41000,
+     "diff": -16000,
+     "pct": -28.07017543859649
+    },
+    {
+     "id": "anker-solix-c1000-gen-2-2000w-portable-power-station",
+     "name": "Anker SOLIX C1000 Gen 2 2000W Portable Power Station",
+     "category": "power-station",
+     "cat_name": "পোর্টেবল পাওয়ার স্টেশন",
+     "store": "techland",
+     "old": 83900,
+     "new": 76000,
+     "diff": -7900,
+     "pct": -9.415971394517282
+    },
+    {
+     "id": "intel-core-i5-12400-msi-pro-h610m-e-16gb-ram-512gb-ssd-gaming-pc",
+     "name": "Intel Core i5-12400 MSI PRO H610M-E 16GB RAM 512GB SSD Gaming PC",
+     "category": "desktop-pc",
+     "cat_name": "ডেস্কটপ পিসি",
+     "store": "techland",
+     "old": 55500,
+     "new": 48600,
+     "diff": -6900,
+     "pct": -12.432432432432433
+    },
+    {
+     "id": "apple-mac-mini-mid-2026-apple-m6-chip-16gb-256gb-ssd-silver-mini-pc-mhqk4xx-a",
+     "name": "Apple Mac Mini (Mid 2026) Apple M6 Chip 16GB, 256GB SSD Silver Mini PC #MHQK4xx/A",
+     "category": "mini-pc",
+     "cat_name": "মিনি পিসি",
+     "store": "techland",
+     "old": 131000,
+     "new": 124500,
+     "diff": -6500,
+     "pct": -4.961832061068702
+    },
+    {
+     "id": "asus-rog-swift-pg42uq-41-5-uhd-4k-hdr-138hz-oled-gaming-monitor",
+     "name": "ASUS ROG Swift PG42UQ 41.5\" UHD 4K HDR 138Hz OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 271500,
+     "new": 265499,
+     "diff": -6001,
+     "pct": -2.2103130755064457
+    },
+    {
+     "id": "viewsonic-xg272-2k-oled-27-qhd-240hz-type-c-gaming-monitor",
+     "name": "ViewSonic XG272-2K-OLED 27\" QHD 240Hz Type-C Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 101500,
+     "new": 95599,
+     "diff": -5901,
+     "pct": -5.813793103448276
+    },
+    {
+     "id": "logitech-driving-force-g29-racing-gaming-wheel-for-playstation-and-pc",
+     "name": "Logitech Driving Force G29 Racing Gaming Wheel for PlayStation and PC",
+     "category": "racing-wheel",
+     "cat_name": "রেসিং হুইল",
+     "store": "startech",
+     "old": 39000,
+     "new": 33150,
+     "diff": -5850,
+     "pct": -15.0
+    },
+    {
+     "id": "xprinter-xp-g480e-4-inch-industrial-label-printer",
+     "name": "Xprinter XP-G480E 4-Inch Industrial Label Printer",
+     "category": "special-printer",
+     "cat_name": "পিওএস, লেবেল ও আইডি কার্ড প্রিন্টার",
+     "store": "techland",
+     "old": 87000,
+     "new": 81500,
+     "diff": -5500,
+     "pct": -6.321839080459771
+    },
+    {
+     "id": "asus-proart-display-oled-pa279cdv-27-4k-uhd-120hz-qd-oled-monitor",
+     "name": "ASUS ProArt Display OLED PA279CDV 27\" 4K UHD 120Hz QD-OLED Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 132799,
+     "new": 127499,
+     "diff": -5300,
+     "pct": -3.9909939080866574
+    }
+   ],
+   "up": [
+    {
+     "id": "asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 238000,
+     "new": 285000,
+     "diff": 47000,
+     "pct": 19.747899159663866
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 251900,
+     "new": 295900,
+     "diff": 44000,
+     "pct": 17.46724890829694
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 263000,
+     "new": 295900,
+     "diff": 32900,
+     "pct": 12.509505703422052
+    },
+    {
+     "id": "msi-geforce-rtx-5060-ti-8g-ventus-2x-plus-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5060 Ti 8G VENTUS 2X PLUS GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 70900,
+     "new": 87900,
+     "diff": 17000,
+     "pct": 23.97743300423131
+    },
+    {
+     "id": "msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 194900,
+     "new": 209900,
+     "diff": 15000,
+     "pct": 7.6962544894817855
+    },
+    {
+     "id": "team-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-black",
+     "name": "TEAM Delta RGB 32GB DDR5 6000MHz Gaming Desktop RAM Black",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "creatus",
+     "old": 54000,
+     "new": 69000,
+     "diff": 15000,
+     "pct": 27.77777777777778
+    },
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "techland",
+     "old": 95500,
+     "new": 110000,
+     "diff": 14500,
+     "pct": 15.18324607329843
+    },
+    {
+     "id": "sapphire-pure-amd-radeon-rx-9070-gaming-oc-16gb-gddr6-graphics-card",
+     "name": "Sapphire PURE AMD Radeon RX 9070 Gaming OC 16GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 115900,
+     "new": 128900,
+     "diff": 13000,
+     "pct": 11.216566005176878
+    },
+    {
+     "id": "pny-geforce-rtx-5080-oc-16gb-triple-fan-gddr7-graphics-card",
+     "name": "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 245000,
+     "new": 257000,
+     "diff": 12000,
+     "pct": 4.8979591836734695
+    },
+    {
+     "id": "lenovo-ideapad-slim-3i-15irh10-core-i5-13th-gen-24gb-ram-512gb-ssd-15-3-inch-wux",
+     "name": "Lenovo IdeaPad Slim 3i 15IRH10 Core i5 13th Gen 24GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 94111,
+     "new": 105000,
+     "diff": 10889,
+     "pct": 11.57037965806335
+    }
+   ],
+   "n_dn": 171,
+   "n_up": 88,
+   "new": [
+    {
+     "id": "lg-ultragear-dual-mode-32gx870b-b-32-inch-4k-uhd-oled-240hz-display-dual-hdmi-dp",
+     "name": "LG UltraGear Dual-Mode 32GX870B-B 32 Inch 4K UHD OLED 240Hz Display Dual HDMI, DP, USB, Speaker & Headphone Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 218500,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "crown-micro-nv-8-2kw-8-2kw-single-phase-on-grid-hybrid-solar-inverter",
+     "name": "Crown Micro NV-8.2KW 8.2kW Single Phase On Grid Hybrid Solar Inverter",
+     "cat_name": "সোলার প্যানেল, ইনভার্টার ও প্যাকেজ",
+     "price": 144000,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-core-i7-13th-gen-16gb-ram-15-3-wuxga-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Core i7 13th Gen 16GB RAM 15.3\" WUXGA Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-16gb-ram-512gb-ssd-15-3-inch",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7-13620H 16GB RAM 512GB SSD 15.3-inch IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-core-i7-13th-gen-15-3-wuxga-ips-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Core i7 13th Gen 15.3\" WUXGA IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 109999,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-8gb-ram-512gb-ssd-15-3-inch",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7-13620H 8GB RAM 512GB SSD 15.3-inch IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 109999,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "tecno-megabook-k15sra-core-i5-13th-gen-16gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "Tecno MEGABOOK K15SRA Core i5 13th Gen 16GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 87000,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "gigabyte-geforce-rtx-5060-ti-windforce-max-oc-8g-gddr7-graphics-card",
+     "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 8G GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "price": 85000,
+     "store": "startech",
+     "n": 1
+    }
+   ],
+   "n_new": 50,
+   "gaps": [
+    {
+     "id": "sony-bravia-5-k-98xr50-98-4k-mini-led-smart-google-tv",
+     "name": "Sony Bravia 5 K-98XR50 98\" 4K Mini LED Smart Google TV",
+     "cat_name": "টিভি",
+     "lo": 1068818,
+     "los": "startech",
+     "hi": 1275900,
+     "his": "eerna",
+     "diff": 207082,
+     "n": 5
+    },
+    {
+     "id": "nvidia-dgx-spark-gb10-grace-blackwell-20-core-arm-128gb-lpddr5x-ram-4tb-ssd-ai-w",
+     "name": "NVIDIA DGX Spark GB10 Grace Blackwell 20-Core Arm 128GB LPDDR5x RAM 4TB SSD AI Workstation PC",
+     "cat_name": "ডেস্কটপ পিসি",
+     "lo": 950000,
+     "los": "pqs",
+     "hi": 1100000,
+     "his": "ryans",
+     "diff": 150000,
+     "n": 2
+    },
+    {
+     "id": "sony-bravia-9-k-85xr90-85-4k-mini-led-qled-hdr-google-tv",
+     "name": "Sony Bravia 9 K-85XR90 85\" 4K Mini LED QLED HDR Google TV",
+     "cat_name": "টিভি",
+     "lo": 770000,
+     "los": "diamu",
+     "hi": 898500,
+     "his": "bme",
+     "diff": 128500,
+     "n": 2
+    },
+    {
+     "id": "sony-bravia-5-k-85xr50-85-4k-mini-led-smart-google-tv-unofficial",
+     "name": "Sony Bravia 5 K-85XR50 85\" 4K Mini LED Smart Google TV (Unofficial)",
+     "cat_name": "টিভি",
+     "lo": 424980,
+     "los": "startech",
+     "hi": 549000,
+     "his": "ryans",
+     "diff": 124020,
+     "n": 3
+    },
+    {
+     "id": "msi-edgexpert-ms-c931-personal-ai-supercomputer-on-nvidia-dgx-spark-platform",
+     "name": "MSI EdgeXpert MS-C931 Personal AI Supercomputer On NVIDIA DGX Spark Platform",
+     "cat_name": "এআই পিসি",
+     "lo": 850000,
+     "los": "pqs",
+     "hi": 959000,
+     "his": "startech",
+     "diff": 109000,
+     "n": 2
+    }
+   ]
+  },
+  {
+   "key": "ssd",
+   "name": "এসএসডি",
+   "dn": [
+    {
+     "id": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
+     "name": "OCPC MFL-300 1TB M.2 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "creatus",
+     "old": 18400,
+     "new": 17300,
+     "diff": -1100,
+     "pct": -5.978260869565218
+    }
+   ],
+   "up": [
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "techland",
+     "old": 95500,
+     "new": 110000,
+     "diff": 14500,
+     "pct": 15.18324607329843
+    },
+    {
+     "id": "apacer-as2280p4-1tb-m-2-pcie-gen-3-x4-ssd",
+     "name": "Apacer AS2280P4 1TB M.2 PCIe Gen 3 x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "techland",
+     "old": 16500,
+     "new": 17500,
+     "diff": 1000,
+     "pct": 6.0606060606060606
+    }
+   ],
+   "n_dn": 1,
+   "n_up": 2,
+   "new": [],
+   "n_new": 0,
+   "gaps": [
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 96000,
+     "los": "pqs",
+     "hi": 112000,
+     "his": "ryans",
+     "diff": 16000,
+     "n": 3
+    },
+    {
+     "id": "transcend-esd420c-2tb-20gbps-type-c-magnetic-portable-ssd",
+     "name": "Transcend ESD420C 2TB 20Gbps Type-C Magnetic Portable SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 45000,
+     "los": "bme",
+     "hi": 56500,
+     "his": "techland",
+     "diff": 11500,
+     "n": 2
+    },
+    {
+     "id": "transcend-esd420g-2tb-20gbps-type-c-magnetic-portable-ssd",
+     "name": "Transcend ESD420G 2TB 20Gbps Type-C Magnetic Portable SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 45000,
+     "los": "bme",
+     "hi": 56500,
+     "his": "techland",
+     "diff": 11500,
+     "n": 2
+    },
+    {
+     "id": "corsair-ex300u-2tb-usb-type-c-external-ssd",
+     "name": "Corsair EX300U 2TB USB Type-C External SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 56000,
+     "los": "techland",
+     "hi": 65000,
+     "his": "ryans",
+     "diff": 9000,
+     "n": 3
+    },
+    {
+     "id": "apacer-as350x-2-5-sataiii-2tb-ssd",
+     "name": "Apacer AS350X 2.5″ SATAIII 2TB SSD",
+     "cat_name": "এসএসডি",
+     "lo": 28499,
+     "los": "applegadgets",
+     "hi": 37000,
+     "his": "smartbd",
+     "diff": 8501,
+     "n": 4
+    }
+   ]
+  },
+  {
+   "key": "ram",
+   "name": "র‍্যাম",
+   "dn": [
+    {
+     "id": "v-color-manta-xsky-rgb-16gb-ddr5-6000mhz-cl28-desktop-ram",
+     "name": "V-Color Manta XSky RGB 16GB DDR5 6000MHz CL28 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "techland",
+     "old": 35000,
+     "new": 34500,
+     "diff": -500,
+     "pct": -1.4285714285714286
+    }
+   ],
+   "up": [
+    {
+     "id": "team-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-black",
+     "name": "TEAM Delta RGB 32GB DDR5 6000MHz Gaming Desktop RAM Black",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "creatus",
+     "old": 54000,
+     "new": 69000,
+     "diff": 15000,
+     "pct": 27.77777777777778
+    }
+   ],
+   "n_dn": 1,
+   "n_up": 1,
+   "new": [
+    {
+     "id": "lexar-thor-2nd-gen-32gb-6000mt-cl40-ddr5-desktop-memory",
+     "name": "Lexar THOR 2nd Gen 32GB 6000MT CL40 DDR5 Desktop Memory",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 60900,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "silicon-power-xpower-pulse-16gb-ddr4-cl16-3200mhz-desktop-ram",
+     "name": "Silicon Power XPOWER Pulse 16GB DDR4 CL16 3200MHz Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 17400,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "patriot-signature-line-premium-8gb-ddr4-2666mhz-desktop-ram-with-heatsink",
+     "name": "Patriot Signature Line Premium 8GB DDR4 2666MHz Desktop RAM with Heatsink #PSP48G2666H1",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 5900,
+     "store": "ryans",
+     "n": 1
+    }
+   ],
+   "n_new": 3,
+   "gaps": [
+    {
+     "id": "samsung-32gb-ddr5-5600mhz-rdimm-ecc-server-ram",
+     "name": "Samsung 32GB DDR5 5600MHz RDIMM ECC Server RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 150000,
+     "los": "creatus",
+     "hi": 190000,
+     "his": "ryans",
+     "diff": 40000,
+     "n": 2
+    },
+    {
+     "id": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-cl30-gaming-desktop-ram",
+     "name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz CL30 Gaming Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 75999,
+     "los": "techland",
+     "hi": 96500,
+     "his": "ryans",
+     "diff": 20501,
+     "n": 3
+    },
+    {
+     "id": "kingston-fury-beast-32gb-ddr5-6000mhz-cl30-rgb-desktop-ram",
+     "name": "Kingston FURY Beast 32GB DDR5 6000MHz CL30 RGB Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 60500,
+     "los": "pchouse",
+     "hi": 77800,
+     "his": "techland",
+     "diff": 17300,
+     "n": 4
+    },
+    {
+     "id": "g-skill-trident-z5-rgb-32gb-ddr5-5600mhz-desktop-ram",
+     "name": "G.Skill Trident Z5 RGB 32GB DDR5 5600MHz Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 52500,
+     "los": "creatus",
+     "hi": 66500,
+     "his": "techland",
+     "diff": 14000,
+     "n": 2
+    },
+    {
+     "id": "v-color-manta-xsky-rgb-32gb-ddr5-6000mhz-cl30-desktop-ram",
+     "name": "V-Color Manta XSky RGB 32GB DDR5 6000MHz CL30 Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 63000,
+     "los": "pqs",
+     "hi": 76000,
+     "his": "techland",
+     "diff": 13000,
+     "n": 4
+    }
+   ]
+  },
+  {
+   "key": "monitor",
+   "name": "মনিটর",
+   "dn": [
+    {
+     "id": "asus-rog-swift-pg42uq-41-5-uhd-4k-hdr-138hz-oled-gaming-monitor",
+     "name": "ASUS ROG Swift PG42UQ 41.5\" UHD 4K HDR 138Hz OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 271500,
+     "new": 265499,
+     "diff": -6001,
+     "pct": -2.2103130755064457
+    },
+    {
+     "id": "viewsonic-xg272-2k-oled-27-qhd-240hz-type-c-gaming-monitor",
+     "name": "ViewSonic XG272-2K-OLED 27\" QHD 240Hz Type-C Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 101500,
+     "new": 95599,
+     "diff": -5901,
+     "pct": -5.813793103448276
+    },
+    {
+     "id": "asus-proart-display-oled-pa279cdv-27-4k-uhd-120hz-qd-oled-monitor",
+     "name": "ASUS ProArt Display OLED PA279CDV 27\" 4K UHD 120Hz QD-OLED Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 132799,
+     "new": 127499,
+     "diff": -5300,
+     "pct": -3.9909939080866574
+    },
+    {
+     "id": "lg-ultragear-32g810sa-w-32-inch-144hz-uhd-4k-ai-smart-gaming-monitor",
+     "name": "LG UltraGear 32G810SA-W 32-inch 144Hz UHD 4K AI Smart Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 135000,
+     "new": 129999,
+     "diff": -5001,
+     "pct": -3.7044444444444444
+    },
+    {
+     "id": "lg-ultragear-evo-27gm950b-b-ai-gm9-hyper-mini-led-5k-27-inch-165hz-gaming-monito",
+     "name": "LG UltraGear evo 27GM950B-B AI GM9 Hyper Mini LED 5K 27 Inch 165Hz Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 186999,
+     "new": 181999,
+     "diff": -5000,
+     "pct": -2.6738110898988765
+    },
+    {
+     "id": "asus-tuf-gaming-vg32vqm5b-31-5-inch-full-hd-250hz-curved-monitor",
+     "name": "ASUS TUF Gaming VG32VQM5B 31.5 Inch Full HD 250Hz Curved Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 38000,
+     "new": 33499,
+     "diff": -4501,
+     "pct": -11.844736842105263
+    },
+    {
+     "id": "asus-proart-display-pa32qcv-32-6k-professional-monitor",
+     "name": "ASUS ProArt Display PA32QCV 32\" 6K Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 195899,
+     "new": 191499,
+     "diff": -4400,
+     "pct": -2.2460553652647537
+    },
+    {
+     "id": "asus-rog-swift-pg27aqdp-27-inch-oled-480hz-gaming-monitor",
+     "name": "ASUS ROG Swift PG27AQDP 27-inch OLED 480Hz Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 175000,
+     "new": 171499,
+     "diff": -3501,
+     "pct": -2.0005714285714284
+    },
+    {
+     "id": "asus-rog-strix-oled-xg27uqdms-27-inch-240hz-qd-oled-gaming-monitor",
+     "name": "Asus ROG Strix OLED XG27UQDMS 27 Inch 240Hz QD-OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 170000,
+     "new": 166699,
+     "diff": -3301,
+     "pct": -1.9417647058823528
+    },
+    {
+     "id": "asus-rog-swift-oled-pg27aqwp-w-27-inch-720hz-gaming-monitor",
+     "name": "ASUS ROG Swift OLED PG27AQWP-W 27-inch 720Hz Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 170000,
+     "new": 166699,
+     "diff": -3301,
+     "pct": -1.9417647058823528
+    }
+   ],
+   "up": [],
+   "n_dn": 58,
+   "n_up": 0,
+   "new": [
+    {
+     "id": "lg-ultragear-dual-mode-32gx870b-b-32-inch-4k-uhd-oled-240hz-display-dual-hdmi-dp",
+     "name": "LG UltraGear Dual-Mode 32GX870B-B 32 Inch 4K UHD OLED 240Hz Display Dual HDMI, DP, USB, Speaker & Headphone Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 218500,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "asus-be27acgn-27-inch-120hz-2k-ips-framless-usb-c-docking-monitor",
+     "name": "ASUS BE27ACGN 27-inch 120Hz 2K IPS Framless USB-C Docking Monitor",
+     "cat_name": "মনিটর",
+     "price": 37499,
+     "store": "techland",
+     "n": 1
+    }
+   ],
+   "n_new": 2,
+   "gaps": [
+    {
+     "id": "gigabyte-mo34wqc2-34-wqhd-240hz-oled-curved-gaming-monitor",
+     "name": "Gigabyte MO34WQC2 34\" WQHD 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 129800,
+     "los": "startech",
+     "hi": 160000,
+     "his": "smartbd",
+     "diff": 30200,
+     "n": 6
+    },
+    {
+     "id": "lg-ultragear-34gs95qe-b-34-240hz-oled-curved-gaming-monitor",
+     "name": "LG UltraGear 34GS95QE-B 34\" 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 249999,
+     "los": "techland",
+     "hi": 267000,
+     "his": "pqs",
+     "diff": 17001,
+     "n": 8
+    },
+    {
+     "id": "benq-ma320u-32-4k-uhd-ips-monitor-for-macbook",
+     "name": "BenQ MA320U 32\" 4K UHD IPS Monitor for MacBook",
+     "cat_name": "মনিটর",
+     "lo": 85500,
+     "los": "pqs",
+     "hi": 102000,
+     "his": "smartbd",
+     "diff": 16500,
+     "n": 5
+    },
+    {
+     "id": "viewsonic-colorpro-vp2788-5k-27-60hz-2k-5k-ips-monitor",
+     "name": "Viewsonic ColorPro VP2788-5K 27\" 60Hz 2K 5K IPS Monitor",
+     "cat_name": "মনিটর",
+     "lo": 149999,
+     "los": "techland",
+     "hi": 166000,
+     "his": "bme",
+     "diff": 16001,
+     "n": 6
+    },
+    {
+     "id": "benq-photovue-sw272q-27-qhd-ips-monitor",
+     "name": "BenQ PhotoVue SW272Q 27\" QHD IPS Monitor",
+     "cat_name": "মনিটর",
+     "lo": 98990,
+     "los": "pchouse",
+     "hi": 114000,
+     "his": "techland",
+     "diff": 15010,
+     "n": 5
+    }
+   ]
+  },
+  {
+   "key": "laptop",
+   "name": "ল্যাপটপ",
+   "dn": [
+    {
+     "id": "lenovo-ideapad-1-15amn7-ryzen-5-7520u-16gb-ram-512gb-ssd-15-6-inch-fhd-ips-lapto",
+     "name": "Lenovo IdeaPad 1 15AMN7 Ryzen 5 7520U 16GB RAM 512GB SSD 15.6-inch FHD IPS Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "ryans",
+     "old": 107000,
+     "new": 105000,
+     "diff": -2000,
+     "pct": -1.8691588785046727
+    }
+   ],
+   "up": [
+    {
+     "id": "lenovo-ideapad-slim-3i-15irh10-core-i5-13th-gen-24gb-ram-512gb-ssd-15-3-inch-wux",
+     "name": "Lenovo IdeaPad Slim 3i 15IRH10 Core i5 13th Gen 24GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 94111,
+     "new": 105000,
+     "diff": 10889,
+     "pct": 11.57037965806335
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-14irh10-core-i5-13th-gen-24gb-ram-512gb-ssd-14-inch-wuxga",
+     "name": "Lenovo IdeaPad Slim 3 14IRH10 Core i5 13th Gen 24GB RAM 512GB SSD 14-inch WUXGA Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 96999,
+     "new": 105000,
+     "diff": 8001,
+     "pct": 8.248538644728297
+    },
+    {
+     "id": "lenovo-ideapad-1-15amn7-amd-ryzen-3-7320u-16gb-ram-512gb-ssd-15-6-inch-fhd",
+     "name": "Lenovo IdeaPad 1 15AMN7 AMD Ryzen 3 7320U 16GB RAM, 512GB SSD 15.6 Inch FHD Display Cloud Grey Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 72000,
+     "new": 80000,
+     "diff": 8000,
+     "pct": 11.11111111111111
+    },
+    {
+     "id": "walton-prelude-n41-pro-14-inch-fhd-display-celeron-n4120-processor-8gb-ram-256gb",
+     "name": "WALTON PRELUDE N41 PRO 14 INCH FHD DISPLAY CELERON N4120 PROCESSOR 8GB RAM 256GB SSD LAPTOP",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 23911,
+     "new": 28000,
+     "diff": 4089,
+     "pct": 17.100915896449333
+    },
+    {
+     "id": "asus-vivobook-14-f1407qa-snapdragon-x-x1-14-wuxga-copilot-pc-laptop-platinum-gol",
+     "name": "ASUS Vivobook 14 F1407QA Snapdragon X X1 14\" WUXGA Copilot+ PC Laptop Platinum Gold",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 93911,
+     "new": 97911,
+     "diff": 4000,
+     "pct": 4.259351939602389
+    },
+    {
+     "id": "hp-15-fd0808tu-core-i3-13th-gen-8gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "HP 15-fd0808TU Core i3 13th Gen 8GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 72111,
+     "new": 76111,
+     "diff": 4000,
+     "pct": 5.547003924505277
+    },
+    {
+     "id": "lenovo-ideapad-slim-3i-15irh10-13th-gen-core-i5-13420h-16gb-ram-512gb-ssd-15-3-i",
+     "name": "Lenovo IdeaPad Slim 3i 15IRH10 13th Gen Core i5-13420H 16GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 94000,
+     "new": 97990,
+     "diff": 3990,
+     "pct": 4.24468085106383
+    },
+    {
+     "id": "msi-cyborg-15-black-edition-a13uc-intel-core-i5-13420h-16gb-ram-512gb-ssd-rtx",
+     "name": "MSI Cyborg 15 Black Edition A13UC Intel Core i5-13420H 16GB RAM 512GB SSD RTX 3050 15.6 Inch FHD Black Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "techland",
+     "old": 117111,
+     "new": 120000,
+     "diff": 2889,
+     "pct": 2.4668903860440095
+    },
+    {
+     "id": "msi-modern-15-f1mg-core-5-120u-16gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "MSI Modern 15 F1MG Core 5 120U 16GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 89111,
+     "new": 92000,
+     "diff": 2889,
+     "pct": 3.242023992548619
+    },
+    {
+     "id": "walton-passion-bx710u-intel-core-i7-8gb-ram-512gb-ssd-10th-gen-15-6-inch-laptop",
+     "name": "Walton PASSION BX710U Intel Core i7 8GB RAM 512GB SSD 10th Gen 15.6 Inch Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 47111,
+     "new": 48500,
+     "diff": 1389,
+     "pct": 2.9483560102736095
+    }
+   ],
+   "n_dn": 1,
+   "n_up": 10,
+   "new": [
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-core-i7-13th-gen-16gb-ram-15-3-wuxga-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Core i7 13th Gen 16GB RAM 15.3\" WUXGA Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-16gb-ram-512gb-ssd-15-3-inch",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7-13620H 16GB RAM 512GB SSD 15.3-inch IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-core-i7-13th-gen-15-3-wuxga-ips-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Core i7 13th Gen 15.3\" WUXGA IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 109999,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-8gb-ram-512gb-ssd-15-3-inch",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7-13620H 8GB RAM 512GB SSD 15.3-inch IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 109999,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "tecno-megabook-k15sra-core-i5-13th-gen-16gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "Tecno MEGABOOK K15SRA Core i5 13th Gen 16GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 87000,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "tecno-megabook-k15sda-amd-ryzen-3-7330u-8gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "Tecno MEGABOOK K15SDA AMD Ryzen 3 7330U 8GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 62500,
+     "store": "techland",
+     "n": 1
+    }
+   ],
+   "n_new": 6,
+   "gaps": [
+    {
+     "id": "lenovo-legion-pro-7i-16iax10h-core-ultra-9-275hx-32gb-ram-1tb-ssd-rtx-5070ti-16-inch",
+     "name": "Lenovo Legion Pro 7i 16IAX10H Core Ultra 9 275HX 32GB RAM 1TB SSD RTX 5070Ti 16 Inch WQXGA OLED AI-Powered Gaming Laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "lo": 450000,
+     "los": "techland",
+     "hi": 520000,
+     "his": "ryans",
+     "diff": 70000,
+     "n": 2
+    },
+    {
+     "id": "acer-predator-helios-neo-16-ai-ph16-73-core-ultra-9-275hx-rtx-5090-24gb-graphics",
+     "name": "Acer Predator Helios Neo 16 AI-PH16-73 Core Ultra 9 275HX RTX 5090 24GB Graphics 32GB DDR5 RAM 16 Inch OLED Gaming Laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "lo": 610000,
+     "los": "startech",
+     "hi": 660000,
+     "his": "bme",
+     "diff": 50000,
+     "n": 2
+    },
+    {
+     "id": "lenovo-legion-5i-pro-16iah7h-intel-core-i7-12700h-16gb-ram-1tb-ssd-gaming-laptop",
+     "name": "Lenovo Legion 5i Pro 16IAH7H Intel Core i7 12700H 16GB RAM 1TB SSD Gaming Laptop",
+     "cat_name": "ল্যাপটপ",
+     "lo": 188000,
+     "los": "creatus",
+     "hi": 236530,
+     "his": "pchouse",
+     "diff": 48530,
+     "n": 2
+    },
+    {
+     "id": "acer-predator-helios-neo-16s-phn16s-71-core-ultra-7-255hx-rtx-5060-16gb-ram-1tb",
+     "name": "Acer PREDATOR HELIOS NEO 16S PHN16S-71 Core Ultra 7 255HX RTX 5060 16GB RAM 1TB SSD 16 inch AI Gaming Laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "lo": 279900,
+     "los": "techland",
+     "hi": 320000,
+     "his": "ryans",
+     "diff": 40100,
+     "n": 2
+    },
+    {
+     "id": "msi-prestige-13-ai-ukiyoe-edition-a2vmg-core-ultra-9-288v-32gb-ram-2tb-ssd-13-3-inch",
+     "name": "MSI Prestige 13 AI+ Ukiyoe Edition A2VMG Core Ultra 9 288V 32GB RAM 2TB SSD 13.3 Inch 2.8K OLED Laptop with Copilot+ PC",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "lo": 270000,
+     "los": "startech",
+     "hi": 310000,
+     "his": "techland",
+     "diff": 40000,
+     "n": 3
+    }
+   ]
+  },
+  {
+   "key": "graphics-card",
+   "name": "গ্রাফিক্স কার্ড",
+   "dn": [
+    {
+     "id": "gigabyte-radeon-rx-9060-xt-gaming-oc-16g-gddr6-graphics-card",
+     "name": "GIGABYTE Radeon RX 9060 XT GAMING OC 16G GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 83500,
+     "new": 82999,
+     "diff": -501,
+     "pct": -0.6
+    },
+    {
+     "id": "gigabyte-radeon-rx-9050-gaming-oc-8gb-gddr6-graphics-card",
+     "name": "GIGABYTE Radeon RX 9050 GAMING OC 8GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 50500,
+     "new": 50100,
+     "diff": -400,
+     "pct": -0.7920792079207921
+    },
+    {
+     "id": "gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6-graphics-card",
+     "name": "GIGABYTE Radeon RX 9070 GRE GAMING OC 12GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 87500,
+     "new": 87300,
+     "diff": -200,
+     "pct": -0.2285714285714286
+    }
+   ],
+   "up": [
+    {
+     "id": "asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 238000,
+     "new": 285000,
+     "diff": 47000,
+     "pct": 19.747899159663866
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 251900,
+     "new": 295900,
+     "diff": 44000,
+     "pct": 17.46724890829694
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 263000,
+     "new": 295900,
+     "diff": 32900,
+     "pct": 12.509505703422052
+    },
+    {
+     "id": "msi-geforce-rtx-5060-ti-8g-ventus-2x-plus-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5060 Ti 8G VENTUS 2X PLUS GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 70900,
+     "new": 87900,
+     "diff": 17000,
+     "pct": 23.97743300423131
+    },
+    {
+     "id": "msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 194900,
+     "new": 209900,
+     "diff": 15000,
+     "pct": 7.6962544894817855
+    },
+    {
+     "id": "sapphire-pure-amd-radeon-rx-9070-gaming-oc-16gb-gddr6-graphics-card",
+     "name": "Sapphire PURE AMD Radeon RX 9070 Gaming OC 16GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 115900,
+     "new": 128900,
+     "diff": 13000,
+     "pct": 11.216566005176878
+    },
+    {
+     "id": "pny-geforce-rtx-5080-oc-16gb-triple-fan-gddr7-graphics-card",
+     "name": "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 245000,
+     "new": 257000,
+     "diff": 12000,
+     "pct": 4.8979591836734695
+    },
+    {
+     "id": "msi-geforce-rtx-3060-ventus-2x-xs-12g-12gb-gddr6-graphics-card",
+     "name": "MSI GeForce RTX 3060 VENTUS 2X XS 12G 12GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 65000,
+     "new": 74900,
+     "diff": 9900,
+     "pct": 15.230769230769232
+    },
+    {
+     "id": "manli-nebula-v2-geforce-rtx-5060-ti-16gb-gddr7-graphics-card",
+     "name": "Manli Nebula V2 GeForce RTX 5060 Ti 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 108999,
+     "new": 118500,
+     "diff": 9501,
+     "pct": 8.716593730217708
+    },
+    {
+     "id": "manli-stellar-geforce-rtx-5060-ti-oc-16gb-gddr7-graphics-card-black",
+     "name": "Manli Stellar GeForce RTX 5060 Ti OC 16GB GDDR7 Graphics Card (Black)",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 111500,
+     "new": 120500,
+     "diff": 9000,
+     "pct": 8.071748878923767
+    }
+   ],
+   "n_dn": 3,
+   "n_up": 23,
+   "new": [
+    {
+     "id": "gigabyte-geforce-rtx-5060-ti-windforce-max-oc-8g-gddr7-graphics-card",
+     "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 8G GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "price": 85000,
+     "store": "startech",
+     "n": 1
+    }
+   ],
+   "n_new": 1,
+   "gaps": [
+    {
+     "id": "asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 237000,
+     "los": "creatus",
+     "hi": 285000,
+     "his": "techland",
+     "diff": 48000,
+     "n": 5
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 249900,
+     "los": "creatus",
+     "hi": 295900,
+     "his": "startech",
+     "diff": 46000,
+     "n": 3
+    },
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS 16GB GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 250000,
+     "los": "creatus",
+     "hi": 295900,
+     "his": "techland",
+     "diff": 45900,
+     "n": 2
+    },
+    {
+     "id": "gigabyte-geforce-rtx-5070-gaming-oc-12g-gddr7-graphics-card",
+     "name": "GIGABYTE GeForce RTX­­ 5070 GAMING OC 12G GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 128000,
+     "los": "creatus",
+     "hi": 161000,
+     "his": "smartbd",
+     "diff": 33000,
+     "n": 2
+    },
+    {
+     "id": "zotac-gaming-geforce-rtx-5080-solid-core-oc-16gb-gddr7-graphics-card",
+     "name": "ZOTAC GAMING GeForce RTX 5080 SOLID CORE OC 16GB GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 250900,
+     "los": "creatus",
+     "hi": 279900,
+     "his": "startech",
+     "diff": 29000,
+     "n": 2
+    }
+   ]
+  },
+  {
+   "key": "mobile",
+   "name": "মোবাইল",
+   "dn": [],
+   "up": [
+    {
+     "id": "galaxy-s26-ultra-5g",
+     "name": "Galaxy S26 Ultra 5G",
+     "category": "smartphone",
+     "cat_name": "স্মার্টফোন",
+     "store": "applegadgets",
+     "old": 117499,
+     "new": 117999,
+     "diff": 500,
+     "pct": 0.42553553647265085
+    }
+   ],
+   "n_dn": 0,
+   "n_up": 1,
+   "new": [],
+   "n_new": 0,
+   "gaps": []
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"দিনের বাজার · ১৪ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">দিনের বাজার · ১৪ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">১৭ দোকান</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"171\">১৭১</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের দামের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"88\">৮৮</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের দামের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\" data-n=\"50\">৫০</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">নতুন প্রোডাক্ট</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">১৪ নভেম্বর দোকানে এসেছে</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">LG OLED65C5 65 Inch 4K HDR OLED EVO AI C5 S…</text><text x=\"70\" y=\"536\" class=\"sm\">টিভি · TechLand BD · ৳৩৫৯,৯০০ → ৳২৩৮,০০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳১২১,৯০০ (৩৪%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">Asus NUC 13 Pro Core i3 13th Gen Portable M…</text><text x=\"70\" y=\"624\" class=\"sm\">মিনি পিসি · Four Star IT · ৳৫৭,০০০ → ৳৪১,০০০</text><rect x=\"70\" y=\"636\" width=\"74\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"158\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳১৬,০০০ (২৮%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">Anker SOLIX C1000 Gen 2 2000W Portable Powe…</text><text x=\"70\" y=\"712\" class=\"sm\">পোর্টেবল পাওয়ার স্টেশন · TechLand BD · ৳৮৩,৯০০ → ৳৭৬,০০০</text><rect x=\"70\" y=\"724\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"120\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳৭,৯০০ (৯.৪%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC E…</text><text x=\"70\" y=\"880\" class=\"sm\">গ্রাফিক্স কার্ড · TechLand BD · ৳২৩৮,০০০ → ৳২৮৫,০০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৪৭,০০০ (২০%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS…</text><text x=\"70\" y=\"968\" class=\"sm\">গ্রাফিক্স কার্ড · TechLand BD · ৳২৫১,৯০০ → ৳২৯৫,৯০০</text><rect x=\"70\" y=\"980\" width=\"524\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"608\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৪৪,০০০ (১৭%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">MSI GeForce RTX 5080 16G VENTUS 3X OC 16GB…</text><text x=\"70\" y=\"1056\" class=\"sm\">গ্রাফিক্স কার্ড · Star Tech · ৳২৬৩,০০০ → ৳২৯৫,৯০০</text><rect x=\"70\" y=\"1068\" width=\"392\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"476\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৩২,৯০০ (১৩%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">দিনের ধারা: সবচেয়ে বেশি নড়াচড়া মনিটর-এ</text><text x=\"110\" y=\"1220\" class=\"sm\">মনিটর: ৫৮টির দাম কমেছে, ০টির বেড়েছে</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">দিনের বাজার · ১৪ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">১৭১টির দাম কমেছে, ৮৮টির বেড়েছে</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">সবচেয়ে বেশি নড়াচড়া মনিটর-এ</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১৭১</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৮৮</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৫০</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">নতুন প্রোডাক্ট</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "মনিটর কিনতে চাইলে: ১৪ নভেম্বর এখানে দাম সবচেয়ে বেশি বদলেছে। তালিকা দেখে নিন, আর কেনার আগে প্রোডাক্ট পাতায় সব দোকানের দাম মিলিয়ে নিন।",
+  "দাম কমার অপেক্ষায় থাকলে: প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রাখুন।",
+  "একই প্রোডাক্ট দোকানভেদে আলাদা দামে বিক্রি হয়। কেনার আগে প্রোডাক্ট পাতায় আজকের দাম মিলিয়ে নিন।"
+ ],
+ "label": "দিনের বাজার",
+ "created": "2026-11-14"
+}

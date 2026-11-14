@@ -1211,3 +1211,8 @@ main.col>.foot,main.col>.footnav{order:99}
 .bhero b{font-size:1.15rem;line-height:1.4}.bhero .bgo{color:var(--accent);font-weight:700;font-size:.9rem}
 .bzhome{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;text-decoration:none;color:var(--ink);border-left:4px solid var(--accent)}
 .bzhome b{flex:1 1 260px}.bzhome .bgo{color:var(--accent);font-weight:700;white-space:nowrap}
+.bnav{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:4px 0 0;font-size:.88rem}
+.bnav a{color:var(--ink);text-decoration:none;font-weight:600;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:6px 10px}
+.bnav .bnow{color:var(--accent)}
+.bdays{list-style:none;margin:0;padding:0}.bdays li{border-bottom:1px solid var(--line)}.bdays li:last-child{border:0}
+.bdays a{display:grid;gap:2px;padding:9px 0;text-decoration:none;color:var(--ink)}.bdays span{font-size:.84rem;color:var(--muted)}

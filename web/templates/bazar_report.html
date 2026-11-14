@@ -21,7 +21,7 @@
 {% endmacro %}
 {% block head %}<link rel="stylesheet" href="{{ base }}/static/ig.css?v={{ build_id }}"><link rel="alternate" type="application/rss+xml" title="দামতুলনা বাজার আপডেট" href="{{ base }}/bazar/feed.xml">{% endblock %}
 {% block content %}
-<nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/bazar/">বাজার আপডেট</a>{% if r.kind == "week" %} › <a href="{{ base }}/bazar/{{ r.cat }}/">{{ r.cat_name }}</a>{% endif %} › {{ r.span or r.label }}</nav>
+<nav class="crumb"><a href="{{ base }}/">হোম</a> › <a href="{{ base }}/bazar/">বাজার আপডেট</a>{% if r.kind == "week" %} › <a href="{{ base }}/bazar/{{ r.cat }}/">{{ r.cat_name }}</a>{% endif %} › {% if r.kind == "day" %}{{ r.date | bn_date }}{% else %}{{ r.span or r.label }}{% endif %}</nav>
 <article class="bz">
   <section class="card">
     <p class="bkick">{{ r.label }}</p>
@@ -29,6 +29,12 @@
     <p class="bby">প্রকাশ: <b>{{ r.published | bn_date }}</b> · লিখেছেন: <a href="{{ base }}/bazar/niti/#editor"><b>{{ editor }}</b></a>, দামতুলনা</p>
     <div class="bdata"><span>{% if r.span %}সময়কাল: <b>{{ r.span }}</b>{% else %}তারিখ: <b>{{ r.date | bn_date }}</b>{% endif %}</span><span>দোকান: <b>{{ n_stores|bn }}টি</b></span></div>
   </section>
+
+  {% if nav and (nav[0] or nav[1]) or today_page %}<nav class="bnav" aria-label="দিন বদলান">
+    {% if nav[0] %}<a href="{{ base }}/{{ nav[0].path }}/">← {{ nav[0].date | bn_date }}</a>{% else %}<span></span>{% endif %}
+    {% if today_page %}<a class="bnow" href="{{ base }}/{{ today_page.path }}/">এই দিনের স্থায়ী পাতা</a>{% elif r.kind == "day" %}<a class="bnow" href="{{ base }}/bazar/aj/">আজকের বাজার</a>{% endif %}
+    {% if nav[1] %}<a href="{{ base }}/{{ nav[1].path }}/">{{ nav[1].date | bn_date }} →</a>{% else %}<span></span>{% endif %}
+  </nav>{% endif %}
 
   <section class="card"><h2>মূল কথা</h2><ul class="bkey">{% for k in r.key %}<li>{{ k }}</li>{% endfor %}</ul></section>
 
@@ -64,6 +70,9 @@
   {% if r.comment %}<section class="card bed"><h2>সম্পাদকের মন্তব্য</h2><p>{{ r.comment }}</p><p class="bsig">— {{ editor }}</p></section>{% endif %}
 
   <section class="card bpol"><h2>আমাদের নীতি</h2><p>এই রিপোর্ট দামতুলনার নিজস্ব বিশ্লেষণ। কোনো দোকান বা ব্র্যান্ড টাকা দিয়ে এই তালিকায় জায়গা পায় না। দাম যেকোনো সময় বদলাতে পারে, কেনার আগে প্রোডাক্ট পাতায় আজকের দাম দেখে নিন। <a href="{{ base }}/bazar/niti/">বিস্তারিত ›</a></p></section>
+
+  {% if wdays %}<section class="card"><h2>এই সপ্তাহের প্রতিদিনের বাজার</h2><ul class="bmore">{% for o in wdays %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a></li>{% endfor %}</ul></section>{% endif %}
+  {% if wreps %}<section class="card"><h2>এই সপ্তাহের রিপোর্ট</h2><ul class="bmore">{% for o in wreps %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a><small>{{ o.label }}</small></li>{% endfor %}</ul></section>{% endif %}
 
   {% if others %}<section class="card"><h2>আরও বাজার আপডেট</h2><ul class="bmore">{% for o in others %}<li><a href="{{ base }}/{{ o.path }}/">{{ o.title }}</a><small>{{ o.label }} · {{ o.published | bn_date }}</small></li>{% endfor %}</ul>
     <p style="margin:8px 0 0"><a href="{{ base }}/bazar/" style="text-decoration:underline">সব বাজার আপডেট ›</a></p></section>{% endif %}
