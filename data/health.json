@@ -1,90 +1,137 @@
 {
- "date": "2026-11-13",
- "scraped_at": "2026-11-13T08:28+06:00",
+ "date": "2026-11-14",
+ "scraped_at": "2026-11-14T05:53+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32016,
+   "items": 32050,
    "errors": [],
-   "seconds": 1846,
+   "seconds": 1841,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1432,
+   "seconds": 1428,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3090,
    "errors": [],
-   "seconds": 1125,
+   "seconds": 1156,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4032,
    "errors": [],
-   "seconds": 1536,
+   "seconds": 1650,
    "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1534,
    "errors": [],
-   "seconds": 610,
+   "seconds": 667,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 489,
+   "seconds": 488,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 20,
+   "seconds": 19,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 694,
+   "seconds": 774,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 28060,
+   "items": 28062,
    "errors": [],
-   "seconds": 9456,
+   "seconds": 10024,
    "failed_cats": []
   },
   "techland": {
    "enabled": true,
-   "items": 22229,
+   "items": 22233,
    "errors": [],
-   "seconds": 5943,
+   "seconds": 6055,
    "failed_cats": []
   },
   "diamu": {
    "enabled": true,
    "items": 1886,
    "errors": [],
-   "seconds": 821,
+   "seconds": 510,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 137,
+   "seconds": 138,
    "failed_cats": []
+  },
+  "computervision": {
+   "enabled": true,
+   "items": 10348,
+   "errors": [
+    "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
+   ],
+   "seconds": 3085,
+   "failed_cats": [],
+   "matched": 6936,
+   "scraped": 9736
+  },
+  "eerna": {
+   "enabled": true,
+   "items": 4485,
+   "errors": [],
+   "seconds": 2007,
+   "failed_cats": [],
+   "matched": 3125,
+   "scraped": 4356
+  },
+  "pqs": {
+   "enabled": true,
+   "items": 11448,
+   "errors": [],
+   "seconds": 1410,
+   "failed_cats": [],
+   "matched": 7239,
+   "scraped": 11350
+  },
+  "bme": {
+   "enabled": true,
+   "items": 9136,
+   "errors": [],
+   "seconds": 2310,
+   "failed_cats": [],
+   "matched": 3939,
+   "scraped": 9136
+  },
+  "selltech": {
+   "enabled": true,
+   "items": 1164,
+   "errors": [],
+   "seconds": 420,
+   "failed_cats": [],
+   "matched": 766,
+   "scraped": 1162
   }
  }
 }
