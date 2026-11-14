@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "2.4 GHz / 5 GHz",
+   "Button": "WPS Button, Reset Button, Power Button, Wireless on/off Button, LED on/off Button"
+  },
+  "Wireless": {
+   "IPv6": "Yes",
+   "MU-MIMO": "Yes",
+   "Wi-Fi Encryption": "WPA2-PSK, WPA-PSK, WPA-Enterprise , WPA2-Enterprise , WPS support",
+   "UTF-8 SSID": "Yes",
+   "Guest Network": "Yes",
+   "WPS": "Yes",
+   "Wi-Fi MAC address filter": "Yes",
+   "Wireless scheduler": "Yes",
+   "Airtime fairness": "Yes",
+   "RADIUS Server": "Yes",
+   "Universal beamforming": "Yes",
+   "Explicit beamforming": "Yes",
+   "IGMP snooping": "Yes"
+  },
+  "Power Mode": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19V 3.42A"
+  },
+  "Router Features": {
+   "Antenna": "External antenna x 8",
+   "Data Rate": "802.11a : up to 54 Mbps\n802.11b : up to 11 Mbps\n802.11g : up to 54 Mbps\nWiFi 4 (802.11n) : up to 600 Mbps\nWiFi 5 (802.11ac) : up to 1000 Mbps\nWiFi 5 (802.11ac) : up to 4333 Mbps\nWiFi 6 (802.11ax) (2.4GHz) : up to 1148 Mbps\nWiFi 6 (802.11ax) (5GHz) : up to 4804 Mbps"
+  },
+  "Connector & Ports": {
+   "Ports": "RJ45 for 10Gbps BaseT for WAN/LAN x 1, RJ45 for 1Gbps BaseT for LAN x 8, RJ45 for 1Gbps BaseT for WAN x 1\nUSB 3.1 Gen 1 x 2\nSFP+ x 1",
+   "Network Standard": "IEEE 802.11a\nIEEE 802.11b\nIEEE 802.11g\nWiFi 4 (802.11n)\nWiFi 5 (802.11ac)\nWiFi 6 (802.11ax)\nIPv4\nIPv6"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Weight": "1280 g"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rt-ax89x-12-stream-ax6000-6000mbps-dual-band-8-antenna-wifi-6-gaming-router",
+ "store": "pchouse"
+}

@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Lens": "Wide-Angle Camera\nFOV: 82°\nFormat Equivalent: 24 mm\nAperture: f/1.7\nFocus: 1 m to ∞\nMedium Tele Camera\nFOV: 35°\nFormat Equivalent: 70 mm\nAperture: f/2.8\nFocus: 3 m to ∞",
+   "Sensor": "1/1.3-inch CMOS, Effective Pixels: 48 MP"
+  },
+  "Aircraft": {
+   "Hover Accuracy Range": "Vertical:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)\nHorizontal:\n±0.1 m (with vision positioning)\n±0.5 m (with GNSS positioning)",
+   "Max Ascent Speed": "5 m/s (S Mode)\n5 m/s (N Mode)\n3 m/s (C Mode)",
+   "Max Descent Speed": "5 m/s (S Mode)\n5 m/s (N Mode)\n3 m/s (C Mode)",
+   "Max Flight Time": "34 minutes (with Intelligent Flight Battery)\n45 minutes (with Intelligent Flight Battery Plus)",
+   "Max Speed": "16 m/s (S Mode)\n12 m/s (N Mode)\n12 m/s (C Mode)",
+   "Max Tilt Angle": "-135° to 80°",
+   "Max Wind Speed Resistance": "10.7 m/s",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Satellite Positioning Systems": "GPS + Galileo + BeiDou",
+   "Weight (Battery & Propellers Included)": "249 g"
+  },
+  "App / Live View": {
+   "Latency": "Aircraft + Remote Controller: approx. 120 ms",
+   "Live View Quality": "Up to 1080p/60fps (available when the aircraft is flying in Photo or Video mode)\nUp to 1080p/30fps (available when the aircraft is flying in Video mode)\nUp to 1080p/24fps (available when the aircraft is in standby mode on the ground)"
+  },
+  "Camera": {
+   "Image Size": "8064×6048",
+   "Lens": "Wide-Angle Camera\nFOV: 82°\nFormat Equivalent: 24 mm\nAperture: f/1.7\nFocus: 1 m to ∞\nMedium Tele Camera\nFOV: 35°\nFormat Equivalent: 70 mm\nAperture: f/2.8\nFocus: 3 m to ∞",
+   "Max Video Bitrate": "H.264/H.265: 150 Mbps",
+   "Photo": "JPEG/DNG (RAW)",
+   "Sensor": "1/1.3-inch CMOS, Effective Pixels: 48 MP",
+   "Still Photography Modes": "Single Shot: 12 MP and 48 MP\nBurst Shooting:\n12 MP, 3/5/7 frames\n48 MP, 3 frames\nAutomatic Exposure Bracketing (AEB):\n12 MP, 3/5/7 frames at 0.7 EV step\n48 MP, 3 frames at 0.7 EV step\nTimed:\n12 MP, 2/3/5/7/10/15/20/30/60 s\n48 MP, 5/7/10/15/20/30/60 s",
+   "Supported File Systems": "exFAT",
+   "Video": "4K: 3840×2160@24/25/30/48/50/60/100*fps\nFHD: 1920×1080@24/25/30/48/50/60/100*/200*fps"
+  },
+  "ISO Range": {
+   "FOV": "82.1°",
+   "Format Equivalent": "24 mm",
+   "Aperture": "f/1.7",
+   "Focus": "1 m to infinity"
+  },
+  "Charger": {
+   "Rated Power": "30W",
+   "Voltage": "5V"
+  },
+  "Intelligent Flight Battery": {
+   "Battery Type": "Li-ion",
+   "Charging Temperature Range": "5° to 40°C (41° to 104°F)",
+   "Max Charging Power": "30 W"
+  },
+  "Energy": {
+   "Intelligent Flight Battery": "18.96 Wh",
+   "Intelligent Flight Battery Plus": "28.4 Wh"
+  },
+  "Net Weight": {
+   "Intelligent Flight Battery": "approx. 77.9 g",
+   "Intelligent Flight Battery Plus": "approx. 121 g"
+  },
+  "Voltage": {
+   "Intelligent Flight Battery": "7.32 V",
+   "Intelligent Flight Battery Plus": "7.38 V"
+  },
+  "Capacity": {
+   "Intelligent Flight Battery": "2590 mAh",
+   "Intelligent Flight Battery Plus": "3850 mAh"
+  },
+  "Max Transmission Distance": {
+   "FCC": "20 km",
+   "CE": "10 km",
+   "SRRC": "10 km",
+   "MIC": "10 km"
+  },
+  "Remote Controller": {
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Transmitter Power (EIRP)": "2.4 GHz:\n< 33 dBm (FCC)\n< 20 dBm (CE/SRRC/MIC)\n5.1 GHz:\n< 23 dBm (CE)\n5.8 GHz:\n< 33 dBm (FCC)\n< 14 dBm (CE)\n< 30 dBm (SRRC)"
+  },
+  "Vr": {
+   "Vision System": "Omnidirectional binocular vision system"
+  },
+  "Features": {
+   "Battery": "18.72 Wh (3.6 V, 2600 mAh × 2)"
+  },
+  "Gimbal": {
+   "Angular Vibration Range": "±0.01°",
+   "Max Controllable Angular Speed": "100°/s",
+   "Stabilization": "3-axis mechanical gimbal (tilt, roll, pan)"
+  },
+  "Controllable Range": {
+   "Tilt": "-90° to 60°",
+   "Roll": "-90° or 0°"
+  },
+  "Warranty Information": {
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "No warranty",
+ "fetched": "2026-11-14T17:43+06:00",
+ "source": "https://www.pchouse.com.bd/dji-mini-4-pro-drone-with-mini-to-the-max-combo",
+ "store": "pchouse"
+}

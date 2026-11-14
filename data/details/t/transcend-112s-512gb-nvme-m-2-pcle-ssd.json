@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "512 GB",
+   "Sequential R/W": "Up to 1,700/1,400 MB/s",
+   "Flash Type": "3D NAND flash",
+   "Interface": "NVMe PCIe Gen3 x4",
+   "MTBF": "2,000,000 hour(s)",
+   "Form Factor": "M.2 2280"
+  },
+  "Physical Specification": {
+   "Weight": "8 g"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Read/Write: Up to 1,700/1,400 MB/s",
+  "Interface: NVMe PCIe Gen3 x4",
+  "Flash Type: 3D NAND flash",
+  "Capacity: 512GB"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-112s-512gb-nvme-m.2-pcle-ssd",
+ "store": "pchouse"
+}

@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Projector Features": {
+   "Aspect Ratio": "16:9",
+   "Brightness": "3,500 ANSI Lumens",
+   "Built-in Speaker": "2W",
+   "Contrast Ratio": "20,000:1",
+   "Display Type": "DLP",
+   "Resolution": "1080p (1920 x 1080)"
+  },
+  "Interface": {
+   "PC in (D-sub 15pin)": "(x1)",
+   "Monitor out (D-sub 15pin)": "(x1)",
+   "Composite Video in (RCA)": "(x1)",
+   "S-Video in (Mini DIN 4pin)": "(x1)",
+   "HDMI in": "(x2) ,HDMI-1 (1.4a/HDCP1.4) ,HDMI-2 (1.4a/HDCP1.4)",
+   "USB Type Mini B": "(x1)",
+   "RS232 in (DB-9pin)": "(x1)"
+  },
+  "Power": {
+   "Power Supply": "AC 100 to 240 V, 50/60 Hz",
+   "Typical Power Consumption (110V)": "~260W"
+  },
+  "Lamp Details": {
+   "Lamp Life": "LampSave: 15000 hrs",
+   "Lamp Type": "200W Metal Halide bulb"
+  },
+  "Others": {
+   "Display Color": "30-bit",
+   "Throw Ratio": "1.49~1.64",
+   "Zoom Ratio": "1.1x",
+   "Horizontal Frequency": "15K~102KHz",
+   "Vertical Scan Rate": "23~120KHz"
+  },
+  "Physical Specifications": {
+   "Weight": "2.3 kg",
+   "Color": "White",
+   "Dimensions": "296 x 120 x 221"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Years Parts & Service Warranty\n12 Months Or 1000hrs Lamp Warranty"
+  }
+ },
+ "key_features": [
+  "Bright: 3500 ANSI Lumens",
+  "Contrast: 20,000:1",
+  "Native Resolution: 1080p (1920 x 1080)",
+  "Connectivity: HDMI, VGA, USB Power"
+ ],
+ "warranty": "02 Years Parts & Service Warranty",
+ "fetched": "2026-11-14T17:10+06:00",
+ "source": "https://www.pchouse.com.bd/benq-mh550-3500-lumens-projector",
+ "store": "pchouse"
+}

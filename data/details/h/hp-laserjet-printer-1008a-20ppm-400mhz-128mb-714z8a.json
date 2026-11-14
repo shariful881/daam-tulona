@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print Only",
+   "Printer Type": "Single Function Mono laser Printer",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Duplex": "Manual"
+  },
+  "Print Speed": {
+   "Print Speed (Black)": "20ppm",
+   "Print Speed (Color)": "No"
+  },
+  "Print Resolution": {
+   "Print Resolution (Pixel)": "1200 x 1200dpi",
+   "Printer Resolution (Black)": "600 x 600dpi",
+   "Printer Resolution (Color)": "No"
+  },
+  "Duty Cycle up to (Yield)": {
+   "Duty Cycle up to (Yield)": "10000 Pages",
+   "Monthly Print Capacity": "10000 Pages"
+  },
+  "Paper Information": {
+   "Paper Size": "Legal, Letter, A4, A5, A5(LEF), B5 (JIS), Oficio, Envelope (DL, C5)",
+   "Paper Type": "Plain, Thick, Thin, Cotton, Color, Preprinted, Recycled, Labels, CardStock, Bond, Archive, Envelope",
+   "Paper Weight": "60 – 163 g/m2",
+   "Input Capacity": "150 Sheets",
+   "Output Capacity": "100 Sheets"
+  },
+  "Technical Specs": {
+   "Processor": "400MHz",
+   "Memory": "64MB",
+   "Connectivity": "Interface (Built-in): USB",
+   "Power Consumption": "Power Source/ Power Consumption: 320W"
+  },
+  "Physical Specs": {
+   "Color": "White",
+   "Dimension": "331 x 178 x 215mm",
+   "Weight": "4.18 kg"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "HP 166A Black Toner (1500 Pages)\n(Please make sure your existing & mentioned toner/cartridge/ink bottle models are the same before buying a new one)",
+   "Software": "Windows 11 (64-bit), Windows 10, Windows 7 (32-bit or 64-bit)"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty",
+ "fetched": "2026-11-14T17:40+06:00",
+ "source": "https://smartbd.com/product/hp-laserjet-printer-1008a-20ppm-400mhz-128mb-714z8a/",
+ "store": "smartbd"
+}

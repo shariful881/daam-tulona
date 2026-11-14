@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Motherboard": {
+   "Chipset": "Intel® X299",
+   "Supported Processors": "Intel® Socket 2066 Core™ X-Series Processors\n* The Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types\nSupports NVIDIA® Quad-GPU SLI™ Technology\nSupports NVIDIA® 3-Way SLI™ Technology\nSupports NVIDIA® 2-Way SLI™ Technology\nSupports AMD Quad-GPU CrossFireX™ Technology\nSupports AMD 3-Way CrossFireX™ Technology",
+   "Max Memory": "Intel® Core™ X-series Processors (6-core above)\n8 x DIMM, Max. 128GB, DDR4 4133(O.C.)/4000(O.C.)/3600(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory\nIntel® Core™ X-series Processors (4-core)\n4 x DIMM, Max. 64GB, DDR4 4133(O.C.)/4000(O.C.)/3600(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory",
+   "Onboard Video": "Intel® X299 Chipset :\n1 x M.2 x4 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x M.2 x4 Socket 3, with M key, type 2242/2260/2280 storage devices support (PCIE 3.0 x 4 mode)\n6 x SATA 6Gb/s port(s)\nSupport Raid 0, 1, 5, 10\nSupports Intel® Smart Response Technology\nIntel® Rapid Storage Technology 15 support\nSupport Intel® Rapid Storage Technology enterprise 5.1 for X-Series(6-core and above) CPU RAID\nIntel® Optane™ Memory Ready",
+   "Onboard Audio": "Realtek® ALC S1220A 8-Channel High Definition Audio CODEC\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\nAudio Feature :\n- Optical S/PDIF out port(s) at back panel\n- Audio Shielding: Ensures precision analog/digital separation and greatly reduced multi-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right channels to guard the quality of the sensitive audio signals\n- Premium Japanese-made audio capacitors: Provide warm, natural and immersive sound with exceptional clarity and fidelity\n- Unique de-pop circuit: Reduces start-up popping noise to audio outputs\nSeparate layer for left and right track, ensuring both sound deliver equal quality",
+   "Onboard LAN": "Intel® I219V, 1 x Gigabit LAN Controller(s), featuring Turbo LAN\nASUS Turbo LAN Utility",
+   "Warranty": "1 Years warranty"
+  }
+ },
+ "key_features": [
+  "Chipset- Intel X299",
+  "Supported CPU- Intel X-Series Processors",
+  "Intel Socket 2066",
+  "8 x DIMM, Max. 128GB, DDR4 Memory"
+ ],
+ "price": 26500,
+ "regular": 29100,
+ "status": "In Stock",
+ "code": "6393",
+ "brand": "Asus",
+ "model": "Asus TUF X299 MARK 2",
+ "warranty": "1 Years warranty",
+ "name": "Asus TUF X299 MARK 2 Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "Asus TUF X299 MARK 2 Motherboard"
+ ],
+ "fetched": "2026-11-14T17:02+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-x299-mark-2",
+ "store": "startech"
+}

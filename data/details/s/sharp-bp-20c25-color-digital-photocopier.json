@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Display": "5-Line LCD",
+   "Color": "Black|White",
+   "Connectivity": "10Base-T/100Base-TX/1000Base-T\nUSB 2.0",
+   "Fax": "Yes",
+   "Memory": "2 GB RAM",
+   "Zoom": "25% To 400% In 1% Increments",
+   "Warmup Time": "29 Seconds Or Less",
+   "Copy Speed": "8.0 Sec.",
+   "Copy Resolution": "600 X 600 Dpi",
+   "Paper Sizes": "A6 - A3W",
+   "Power": "Rated Local AC Voltage ± 10%, 50/60 Hz (Power Supply)",
+   "Scan Resolution": "600 X 600",
+   "Paper Weight": "60 - 256",
+   "Dimensions": "560 X 560 X 653 Mm",
+   "Weight": "60-105g/M² (Drawer), 55-256g/M²(Bypass)"
+  },
+  "First Copy Out Time": {
+   "Full Color": "11.0 Seconds,",
+   "B&W": "8.0 Seconds"
+  },
+  "Input Capacity": {
+   "Standard Paper Capacity": "350 Sheets (250 X 1 Sheets Cassette + 100 Sheets Bypass Tray)",
+   "Capacity": "100 Sheets"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Years",
+ "fetched": "2026-11-14T17:16+06:00",
+ "source": "https://www.pchouse.com.bd/sharp-bp-20c25-color-digital-photocopier",
+ "store": "pchouse"
+}

@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Display Features": {
+   "Resolution": "1280 x 800 x RGB",
+   "Brightness": "1,000 nits peak brightness (HDR)",
+   "Refresh rate": "up to 90Hz"
+  },
+  "Basic Information": {
+   "Graphics": "8 RDNA 2 CUs, 1.6GHz (1.6 TFlops FP32)",
+   "Operating System": "SteamOS 3 (Arch-based)",
+   "Battery": "Type: 50Whr battery. 3-12 hours of gameplay",
+   "CPU": "6 nm AMD APU"
+  },
+  "Gaming Console": {
+   "RAM & Storage": "RAM: 16 GB LPDDR5 on-board RAM (6400 MT/s quad 32-bit channels)"
+  },
+  "Key Features": {
+   "Features": "Contrast ratio: > 1,000,000 : 1"
+  },
+  "Display Details": {
+   "Sensors": "Dual ambient light sensor ALS",
+   "Size": "7.4” diagonal"
+  },
+  "Features": {
+   "Dimension": "298mm x 117mm x 49mm",
+   "Weight": "Approx. 640 grams"
+  },
+  "Connectivity": {
+   "Bluetooth": "Bluetooth 5.3 (support for controllers, accessories and audio) Dedicated bluetooth antenna",
+   "USB": "Multichannel audio via DisplayPort over USB-C, standard USB-C",
+   "Audio Jack": "3.5mm stereo headphone / headset jack",
+   "Wi-Fi": "Tri-band Wi-Fi 6E radio, 2.4GHz, 5GHz, and 6GHz 2 x 2 MIMO, IEEE 802.11a/b/g/n/ac/ax"
+  },
+  "General": {
+   "Type": "HDR OLED"
+  },
+  "Audio Features": {
+   "Speaker": "Stereo with embedded DSP for an immersive listening experience"
+  },
+  "Camera & Audio": {
+   "Audio Features": "Dual microphone array"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Display: 7.4” diagonal HDR 90Hz OLED Display",
+  "Proccessor: AMD Zen 2 4c/8t 2.4-3.5GHz (6nm)",
+  "RAM: 16GB LPDDR5, Storage: 1TB NVMe SSD",
+  "Features: 6-Axis IMU Gyro Sensor, Tri-band Wi-Fi 6E"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-14T17:17+06:00",
+ "source": "https://www.pchouse.com.bd/valve-steam-deck-oled-1tb-handheld-gaming-console",
+ "store": "pchouse"
+}

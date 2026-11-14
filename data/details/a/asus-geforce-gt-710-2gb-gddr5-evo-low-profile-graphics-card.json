@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "2GB",
+   "Resolution": "Digital Max Resolution 3840 x 2160*",
+   "Core Clock": "954 MHz",
+   "Memory Clock": "5012 MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-bit",
+   "CUDA Cores": "192"
+  },
+  "Interface": {
+   "HDMI": "Yes x 1 (Native HDMI2.0b)",
+   "D-Sub": "1 x (D-Sub)",
+   "DVI": "Yes x 1 (Native) (DVI-D)",
+   "HDCP": "HDCP Support Yes (1.4)"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300W"
+  },
+  "Display Option": {
+   "Multi Display": "Up to 3"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.5"
+  },
+  "Physical Specifications": {
+   "Dimensions": "17 x 6.9 x 3.9 cm\n6.7 x 2.7 x 1.54 inches"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 954 MHz",
+  "Memory: 2GB GDDR5",
+  "Memory Speed: 5012 MHz",
+  "Output: 1x HDMI2.0b, 1x Native DVI-D"
+ ],
+ "price": 8500,
+ "regular": 9200,
+ "status": "In Stock",
+ "code": "36306",
+ "brand": "Asus",
+ "mpn": "GT710-SL-2GD5-BRK-EVO",
+ "model": "GeForce GT 710 2GB GDDR5 EVO Low-profile",
+ "warranty": "2 Years Warranty",
+ "name": "ASUS GeForce GT 710 2GB GDDR5 EVO Low-profile Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS GeForce GT 710 2GB GDDR5 EVO Low-profile Graphics Card"
+ ],
+ "fetched": "2026-11-14T16:58+06:00",
+ "source": "https://www.startech.com.bd/asus-geforce-gt-710-2gb-gddr5-evo-low-profile-graphics-card",
+ "store": "startech"
+}

@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Main Spec": {
+   "Battery": "1200mAh Li-polymer",
+   "Sound level/Sensitivity": "Standard",
+   "Power": "7.7Watt",
+   "Type": "Impedance is 4Ω\nReceiving sensitivity is 85dBm\nLED light indicator",
+   "Frequency": "2402Hz-2480MHz BT operating frequency",
+   "Audio": "One Speaker"
+  },
+  "Connectivity": {
+   "Bluetooth": "Bluetooth V5.1 / BR+ EDR + BLE"
+  },
+  "Physical Specification": {
+   "Dimension": "14 x 11.5 x 11.5 cm"
+  }
+ },
+ "key_features": [
+  "Battery capacity: 2,000mAh",
+  "Charging port: Type-C",
+  "Play time: 6h (50% VOL and light on)",
+  "Effective Transmission Distance: 10m"
+ ],
+ "fetched": "2026-11-14T17:22+06:00",
+ "source": "https://www.pchouse.com.bd/awei-y385-speaker",
+ "store": "pchouse"
+}

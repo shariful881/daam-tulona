@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi Function Mono Laser Printer",
+   "Output Color": "Black & White"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Warm-Up Time": "32 sec",
+   "Duplex": "Manual"
+  },
+  "Print Speed": {
+   "Print Speed (Black)": "21 – 30",
+   "Print Speed (Color)": "No"
+  },
+  "Print Resolution": {
+   "Print Resolution (Pixel)": "1200 x 1200dpi",
+   "Printer Resolution (Black)": "1200 x 1200dpi",
+   "Printer Resolution (Color)": "No"
+  },
+  "Duty Cycle up to (Yield)": {
+   "Duty Cycle up to (Yield)": "10000 Pages",
+   "Monthly Print Capacity": "10000 Pages"
+  },
+  "Copy": {
+   "Copy Speed": "Up to 20cpm (A4), Up to 21cpm (letter)"
+  },
+  "Copy Resolution": {
+   "Copy Resolution (Pixel)": "600 x 600 dpi",
+   "Copier Resolution (Black)": "600 x 600 dpi"
+  },
+  "Scan": {
+   "Scan Type": "Flatbed",
+   "Scan Resolution": "Scan Resolution (Pixel): 4800 x 4800 dpi (Hardware), 600 x 600 dpi (Optical)"
+  },
+  "Maximum Scan Size": {
+   "Scan Paper Size": "216 x 297mm (Max)",
+   "Color Scanning": "Yes"
+  },
+  "Paper Information": {
+   "Paper Size": "Letter, Legal, Executive, Oficio, Envelope, A4, A5, A5(LEF), B5 (JIS), Oficio, Envelope (DL,C5)",
+   "Paper Type": "Plain, Thick, Thin, Cotton, Color, Preprinted, Recycled, Labels, CardStock, Bond, Archive, Envelope",
+   "Paper Weight": "60 – 163 g/m2",
+   "Input Capacity": "150 Sheets",
+   "Output Capacity": "100 Sheets"
+  },
+  "Technical Specs": {
+   "Processor": "600 MHz",
+   "Memory": "128 MB",
+   "Display": "LED display",
+   "Connectivity": "Interface (Built-in): USB",
+   "Power Consumption": "Power Source/ Power Consumption: 300W"
+  },
+  "Physical Specs": {
+   "Color": "White",
+   "Dimension": "406 x 359.6 x 253mm",
+   "Weight": "7.46 kg"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "HP 166A Black Toner (1500 Pages)\n(Please make sure your existing & mentioned toner/cartridge/ink bottle models are the same before buying a new one)",
+   "Software": "Windows 11 : 64-bit, Windows 10, 7: 32-bit or 64-bit, Intel Pentium IV 1 GHz or higher, 1 GB RAM, 16 GB HDD. OS X v10.11 or newer, AirPrint 1.8 compatible with MacOS 10.11, 1.5 GB HD, Internet, USB."
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty",
+ "fetched": "2026-11-14T17:40+06:00",
+ "source": "https://smartbd.com/product/hp-laserjet-mfp-1188a-20ppm-600mhz-128mb-715a2a/",
+ "store": "smartbd"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standard&Protocol": "IEEE802.3, IEEE802.3u, IEEE802.3ab",
+   "Interfaces": "1× Gigabit WAN Port\n3× Gigabit LAN Ports",
+   "Antenna": "5*6dbi external antennas",
+   "Button": "1*WPS/Mesh button\n1*Reset button",
+   "Power": "Input：AC 100-240V~50/60Hz\nOutput:DC 12V⎓1A",
+   "LED Indicator": "1* LED",
+   "Dimension": "(L*W*H)267*166*222 mm",
+   "Wireless Standard": "IEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11ax/n/b/g 2.4 GHz",
+   "Data Rate": "5 GHz: 2402 Mbps (802.11ax, HE160)\n2.4 GHz: 574 Mbps (802.11ax)",
+   "Frequency": "CE:\n2.4G: 2412-2472MHz(CH1-CH13)\n5G: 5150-5350MHz(CH36-CH64)\nFCC:\n2.4G: 2412-2462MHz(CH1-CH11)\n5G: 5150-5350MHz(CH36-CH64)\n5725-5850MHz(CH149-CH165)",
+   "Transmission Power": "CE:\n<20 dBm (2.4 GHz)\n<23 dBm (5 GHz)\nFCC:\n<30 dBm (2.4 GHz)\n<30 dBm (5 GHz)",
+   "Basic Features": "SSID broadcasting and hiding\nMU-MIMO\nBeamforming signal directional transmission technology\n160MHz\nOFDMA\n1024-QAM",
+   "Wireless Security": "WPA2-PSK\nWPA3-SAE/WPA2-PSK\nWireless Security: Enable/Disable\nWPS(WiFi Protected Set-up) fast encryption",
+   "Internet Connection Type": "PPPoE, Dynamic IP, Static IP\nPPPoE(Russia), PPTP(Russia), L2TP(Russia)\nUnify,Maxis,Maxis-special,Celcom,Digi",
+   "Network Protocol": "IPv4&IPv6",
+   "Operating Mode": "Router Mode\nAP Mode\nUniversal Repeater Mode（Client+AP,WISP）",
+   "Parental Control": "Client Filter\nURL Filter\nTime Limit",
+   "DHCP": "DHCP Server\nDHCP Client List\nDHCP Static IP Address Reservation and Allocation",
+   "Virtual Server": "Port Forwarding, DMZ Host, UPnP",
+   "Firewall": "ICMP Flood Attack Defense\nTCP Flood Attack Defense\nUDP Flood Attack Defense\nBlock Ping From WAN",
+   "DDNS": "DynDNS, no-ip, oray, 88ip",
+   "VPN": "IPSec Transparent Transmission\nPPTP Transparent Transmission\nL2TP Transparent Transmission\nPPTP VPN Server\nPPTP VPN Client\nL2TP VPN Client",
+   "Special Features": "Wi-Fi+(Mesh System)\nSmart diagnosis\nIPTV\nIPv6\nSmart LED on/off",
+   "Other Function": "Support App and web management\nBandwidth Control\nGuest Network\nMAC Address Clone\nSupports black list and white list\nUnify 2.4 GHz & 5 GHz\nStatic Routing\nRemote Web Management\nBackup & Restore configurations\nFirmware upgrade online",
+   "Certification": "CE, FCC,RoHS",
+   "Package Contents": "Wi-Fi Router *1\nRJ45 Ethernet Cable*1\nPower Adapter*1\nQuick Installation Guide*1"
+  },
+  "Temperature": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40C ~70℃"
+  },
+  "Humidity": {
+   "Operating Humidity": "10 %~90% RH non-condensing",
+   "Storage Humidity": "5 %~ 90%RH non-condensing"
+  }
+ },
+ "key_features": [
+  "Model: TX12 Pro",
+  "Wi-Fi Technology: Wi-Fi 6 (802.11ax)",
+  "Concurrent Rate: Up to 2976Mbps (2.4GHz: 574Mbps, 5GHz: 2402Mbps)",
+  "Main Chip: Broadcom 6756, Quad-core 1.7GHz"
+ ],
+ "fetched": "2026-11-14T17:02+06:00",
+ "source": "https://diamu.com.bd/product/tenda-tx12-pro-v2-0-ax3000/",
+ "store": "diamu"
+}

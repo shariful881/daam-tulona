@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Chat Headset": {
+   "Driver": "Dynamic, 40mm with Neodymium magnets",
+   "Type": "Half-Opening",
+   "Frequency response": "50Hz – 10kHz",
+   "Impedance": "16 ohms",
+   "Sound pressure level": "85dBSPL, 1mW at 1kHz",
+   "T.H.D.": "≦1%",
+   "Weight": "123g",
+   "Cable length": "1.3m",
+   "Connection": "3.5mm (4 pole)"
+  },
+  "Microphone": {
+   "Element": "Electret condenser microphone",
+   "Polar pattern": "Bi-directional, Noise-cancelling",
+   "Frequency response": "50Hz-18kHz",
+   "Sensitivity": "-42dB (1V/Pa @1kHz)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:08+06:00",
+ "source": "https://diamu.com.bd/product/hyperx-cloud-chat-headset/",
+ "store": "diamu"
+}

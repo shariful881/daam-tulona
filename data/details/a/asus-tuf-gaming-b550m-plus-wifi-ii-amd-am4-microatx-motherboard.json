@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+   "Chipset": "B550",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "microATX\n24.4cm x 24.4cm"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)*\nAMD B550 Chipset\n1 x PCIe 3.0 x16 slot (supports x4 mode)\n1 x PCIe 3.0 x1 slot\nSupport PCIe bifurcation for RAID on CPU function.\nPCIEX16_2 will run x2 mode when the PCIEX1 slot is used.",
+   "M.2 Socket": "Supports 2 x M.2 slots and 4 x SATA 6Gb/s ports"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "4866(OC)/4800(OC)/4600(OC)/4466(OC)/4400(OC)/ 4333(OC)/4266(OC)/ 4200(OC)/4133(OC)/4000(OC)/3866(OC)/3733(OC)/ 3600(OC)/3466(OC)/ 3400(OC)/3333(OC)/3200/ 3000/ 2933/ 2800/2666/2400/ 2133, Un-buffered Memory",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort\n1 x HDMI port"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI 2.1(4K@60HZ)",
+   "Display Port (s)": "1 x DisplayPort 1.2",
+   "USB (s)": "Rear USB:Total 8 ports\n2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB:Total 6 ports\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports",
+   "LAN Port (s)": "TUF LANGuard",
+   "Wireless Communication module": "2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) + BT5.2",
+   "Supported Storage": "AMD Ryzen 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD B550 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\n4 x SATA 6Gb/s ports\nSupport RAID 0, 1, 10",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Addressable Gen 2 header\n2 x AURA RGB headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header\n1 x 10-1 pin System Panel header",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS TUF PROTECTION\n- DIGI+ VRM (Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards\n- TUF LANGuard\n- Overvoltage Protection\n- SafeSlot\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack button\n- BIOS FlashBack LED\n- ProCool\nAURA Sync\n- AURA RGB headers\n- Addressable Gen 2 header",
+   "Bundled Software": "ASUS Exclusive Software\nArmory Crate\n- Aura Creator\n- Aura Sync\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Performance And Power Saving Utility\nTurboV EVO\nEPU\nDIGI+ VRM\nFan Xpert 2+\n- EZ update\nTUF GAMING CPU-Z\nAI Charger\nDAEMON Tools\nDTS Custom for GAMING Headsets\nNorton Anti-virus software (Free Trial version)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 5000/ 5000 G/ 4000 G/ 3000 Series Processors",
+  "Supported RAM: 4 x DIMM, Max. 128GB, DDR4",
+  "Graphics Output: 1 x Display Port, 1 x HDMI",
+  "Features: Wi-Fi 6, Realtek 2.5Gb Ethernet"
+ ],
+ "status": "Out Of Stock",
+ "code": "26053",
+ "brand": "Asus",
+ "model": "TUF GAMING B550M Plus WIFI II",
+ "warranty": "3 Years",
+ "name": "Asus TUF GAMING B550M Plus WIFI II AMD AM4 microATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus TUF GAMING B550M Plus WIFI II AMD AM4 microATX Motherboard"
+ ],
+ "fetched": "2026-11-14T17:01+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-b550m-plus-wifi-ii-motherboard",
+ "store": "startech"
+}

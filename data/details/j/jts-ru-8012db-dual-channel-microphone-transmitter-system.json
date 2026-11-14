@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "RU-8012DB": {
+   "Frequency Preparation": "PLL Synthesized Control",
+   "Carrier Frequency Range": "470~960 MHz",
+   "Frequency Setting": "Ultrasonic / REMOSET (Transmit)",
+   "Receiving Mode": "Antenna Diversity",
+   "Bandwidth": "36MHz",
+   "S/N Ratio": ">105dB(A)",
+   "T.H.D": "<0.6%@1KHz",
+   "Sensitivity": "-95dBm,S/N>80dB",
+   "Rejection Ratio": ">80 dB",
+   "Frequency Response": "50Hz~16KHz±2dB",
+   "Antenna Type": "BNC Socket",
+   "Antenna Booster Power": "DC12~15V/100mA",
+   "Display": "LCD",
+   "Display Contents": "Group, Channel, Frequency, Battery Level, Antenna A/B, Mute Display, AF Meter,\nRF Meter, Frequency Scan, Audio Level, Volume",
+   "Controls": "Power ON/OFF, Group, Channel, Frequency, Mute Display, Key Lock, Volume, Output\nAttenuaiton(XLR), Frequency Scan(ON/OFF)",
+   "Audio Output Level": "Ref/ ±22.5KHz Dev@1KHz Tone\nψ6.3 Phone Jack/ -10dBV\nXLR Jack/ -4dBV(Line) ˴ -24dBV(MIC)",
+   "Audio Output Impedance": "600Ω",
+   "Squelch": "Pilot Tone & Noise Mute",
+   "Output Connector": "2 independent balanced XLR and 2 Ø6.3mm unbalanced.",
+   "Power Supply": "DC12~15V/500mA",
+   "Dimension (mm)": "212.3mm(W)* 38.3mm(H)* 144mm(D)",
+   "Notes": "Actual product specifications may vary depending on model and region"
+  },
+  "RU-850LTH": {
+   "Frequency Preparation": "PLL Synthesized Control",
+   "Carrier Frequency Range": "470~960MHz",
+   "Frequency Setting": "REMOSET U(Receive)",
+   "RF Outputs": "Low / High",
+   "Stability": "<±10KHz@Fc",
+   "Frequency Deviation": "±48KHz",
+   "Spurious Emissions": "<-50dBc",
+   "Function": "Mute, Auto Power Off, Sensitivity Adjust, Low Battery",
+   "Display": "LCD+LED",
+   "Controls": "Power, Mute, Group, Channel,\nFrequency, Gain Adjust, Auto Power Off, Key\nLock",
+   "Battery": "UM3, AA x2"
+  },
+  "RU-850LTB": {
+   "Frequency Preparation": "PLL Synthesized Control",
+   "Carrier Frequency Range": "470~960MHz",
+   "Frequency Setting": "REMOSET U(Receive)",
+   "RF Outputs": "Low / High",
+   "Stability": "<±10KHz@Fc",
+   "Frequency Deviation": "±48KHz",
+   "Spurious Emissions": "<-50dBc",
+   "Function": "Mute, Auto Power Off, Sensitivity Adjust, Low Battery",
+   "Display": "LCD+LED",
+   "Input Connector": "4P Mini XR",
+   "Controls": "Power, Mute, Group, Channel,\nFrequency, Gain Adjust, Auto Power Off, Key\nLock",
+   "Battery": "UM3, AA x2"
+  }
+ },
+ "key_features": [
+  "Model: RU-8012DB",
+  "Output Connector: 2 independent balanced XLR and 2 Ø6.3mm unbalanced.",
+  "Power Supply: DC12~15V/500mA",
+  "Frequency Setting: Ultrasonic / REMOSET (Transmit)",
+  "Receiving Mode: Antenna Diversity",
+  "Bandwidth: 36MHz",
+  "S/N Ratio: >105dB"
+ ],
+ "fetched": "2026-11-14T17:16+06:00",
+ "source": "https://diamu.com.bd/product/jts-ru-8012db-dual-channel-microphone-transmitter-system/",
+ "store": "diamu"
+}

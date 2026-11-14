@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "550 - 2100 RPM ±10%",
+   "Fan Airflow": "13.8 - 65.57 CFM",
+   "Air Pressure": "0.17 - 2.68 mm-H2O",
+   "Material": "Radiator Material: Aluminum\nTubing Material: Black Sleeved Low-Permeation Rubber",
+   "Others": "Tubing Length: 400mm\nRadiator Size: 240mm\nFan Control Method: PWM"
+  },
+  "Physical Specification": {
+   "Dimension": "Coldplate Dimensions: 56 x 56mm\nFan Dimensions: 120mm x 25mm\nRadiator Dimensions: 277mm x 120mm x 27mm",
+   "Weight": "2.097"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1150, LGA 1151, LGA 1156, LGA 1200, LGA 1700, LGA 2011, LGA 2066",
+   "AMD": "AM4, AM5, TR4, TRX4"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 550 - 2100 RPM ±10%",
+  "Radiator Size: 240mm",
+  "Fan Airflow: 13.8 - 65.57 CFM",
+  "Fan Static Pressure: 0.17 - 2.68 mm-H2O"
+ ],
+ "status": "Out Of Stock",
+ "code": "38156",
+ "brand": "Corsair",
+ "mpn": "CW-9060072-WW",
+ "model": "iCUE H100i ELITE CAPELLIX XT",
+ "warranty": "05 years warranty",
+ "name": "Corsair iCUE H100i ELITE CAPELLIX XT Liquid CPU Cooler White",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Corsair",
+  "Corsair iCUE H100i ELITE CAPELLIX XT Liquid CPU Cooler White"
+ ],
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://www.startech.com.bd/corsair-icue-h100i-elite-capellix-xt-liquid-cpu-cooler-white",
+ "store": "startech"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Product Description": {
+   "Fan Included": "No",
+   "Heat Spreader": "Aluminum",
+   "Memory Series": "VENGEANCE DDR5",
+   "Memory Size": "16GB",
+   "Performance Profile": "EXPO & XMP",
+   "SPD Speed": "4800MHz",
+   "Tested Latency": "30-36-36-76",
+   "Tested Speed (Up To)": "6000",
+   "Memory Color": "GREY",
+   "Memory Compatibility": "AMD 600 Series, Intel 600 Series, Intel 700 Series",
+   "Memory Detail Compatibility": "AMD 600 Series, Intel 600 Series, Intel 700 Series",
+   "Memory Type": "DDR5",
+   "Package Memory Format": "DIMM",
+   "Package Memory Pin": "288",
+   "SPD Latency": "40-40-40-77",
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.40V",
+   "Weight": "0.15",
+   "Power Draw": "Overclock PMIC"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB",
+  "Frequency: DDR5 6000MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.25V/C36"
+ ],
+ "fetched": "2026-11-14T17:44+06:00",
+ "source": "https://smartbd.com/product/corsair-vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-cl30-amd-expo-intel-xmp-memory-black/",
+ "store": "smartbd"
+}

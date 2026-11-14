@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid Tower",
+   "Tempered  Glass Panel": "Yes",
+   "Motherboard Support": "ITX, Micro ATX, ATX, SSI CEB, E-ATX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Material": "Mesh, Steel, ABS Plastic, Tempered Glass",
+   "Dimensions": "499 x 210 x 498mm",
+   "Expansion Slots": "7",
+   "Radiator Support": "Top: 120mm, 140mm, 240mm, 280mm, 360mm, (recommended maximum thickness -55mm); Front: 120mm, 140mm, 240mm, 280mm, 360mm; Rear: 120mm",
+   "Fan Support": "Top:  3x 120mm, 2x 140mm\nFront: 3x 120mm, 2x 140mm\nRear: 1x 120mm",
+   "Pre- Installed Fans": "Front: 2 x 120mm\nRare: 1x 120mm",
+   "I/O Port": "1x USB 3.2 Gen 1 Type-A, 1x USB 3.2 Gen 2 Type-C, 1x 3.5mm Headset Jack (Audio+Mic), 1x Reset/ARGB button"
+  },
+  "Additional Feature": {
+   "PSU": "Not Included"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "165mm",
+   "Maximum Graphics Card Length": "410mm",
+   "Maximum PSU Length": "200mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Type: Mid Tower",
+  "Motherboard Support: Mini ITX, Micro ATX, ATX, SSI CEB, E-ATX",
+  "Materials: Mesh, Steel, ABS Plastic, Tempered Glass",
+  "Pre-Installed Fans: 3x CF120 ARGB Front"
+ ],
+ "status": "Out Of Stock",
+ "code": "33543",
+ "brand": "Cooler Master",
+ "mpn": "MB520-KGNN-S00",
+ "model": "MasterBox 520 Mesh",
+ "warranty": "No Warranty",
+ "name": "Cooler Master MasterBox 520 Mesh Mid Tower ARGB Gaming Case",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Cooler Master",
+  "Cooler Master MasterBox 520 Mesh Mid Tower ARGB Gaming Case"
+ ],
+ "fetched": "2026-11-14T17:03+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-masterbox-520-mesh-gaming-case",
+ "store": "startech"
+}

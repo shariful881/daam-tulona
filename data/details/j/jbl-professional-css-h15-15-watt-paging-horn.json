@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specifications": {
+   "Frequency Range (-10dB)": "400 Hz – 7.5 kHz",
+   "Coverage Angle": "70°H x 90°V",
+   "Included High-Pass Filter": "Passive 350 Hz high-pass filter built-in to protect against damage from frequencies below operational range.",
+   "Directivity Factor (Q)": "10.9 (2 kHz)",
+   "Directivity Index (DI)": "10.4 (2 kHz)",
+   "Power Rating": "15 W (60 W peak), 100 hrs",
+   "Sensitivity (1W, 2.83V@ 1m)": "105 dB, ave. 1 kHz – 6 kHz; 111 dB at 2 kHz",
+   "Maximum SPL (1m)": "117 dB cont ave. (123 dB peak), 1 kHz – 6 kHz;123 dB cont ave. (129 dB peak), 2 kHz, 15W input,8 ohm setting",
+   "Impedance": "15W/70V, NC/100V tap: 333 ohms 7.5W/70V, 15W/100V tap: 667 ohms 3.8W/70V, 7.5W/100V tap: 1333 ohms 1.9W/70V, 3.8W/100V tap: 2666 ohms 0.9W/100V, 1.9W/100V tap:5332 ohms 8 ohms at 8 ohm direct setting",
+   "Transformer Taps": "70V: 15W, 7.5W, 3.8W, 1.9W. 0.9W 100V: 15W, 7.5W, 3.8W, 1.9W",
+   "Drivers": "33 mm (1.3 in) diameter with phenolic diaphragm",
+   "Horn Material": "ABS",
+   "Mounting Hardware": "Stainless steel powder-coated U-bracket (yolk) with 3 x 8.8 mm (0.34 in) dia mounting holes, stainless steel exterior hardware.",
+   "Color": "RAL9016 (horn and bracket)",
+   "Input Connectors": "300 mm (12 in) pigtail to bare wire; entrance via watertight fitting. Wire colors: red = positive (+); black = negative (-).",
+   "Outdoor Capability": "IP-65 rating per IEC529, salt spray per B117, stainless steel U-bracket and exterior hardware.",
+   "Safety Agency Ratings": "Transformer UL Registered per UL1876 “Isolating Signal and Feedback Transformers for Use in Electronic Equipment”",
+   "Dimensions (H x W x D)": "163 x 222 x 232 mm (6.5 x 8.8 x 9.2 in) horn 181 x 222 x 232 mm (7.1 x 8.8 x 9.2 in) including mounting bracket. Depth excludes cable exit.",
+   "Net Weight (each)": "3.0 lb/1.36 kg",
+   "Shipping Weight (ea)": "3.7 lb/1.68 kg",
+   "Included Accessories": "Stainless steel mounting bracket"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:13+06:00",
+ "source": "https://diamu.com.bd/product/jbl-css-h15-paging-horn/",
+ "store": "diamu"
+}

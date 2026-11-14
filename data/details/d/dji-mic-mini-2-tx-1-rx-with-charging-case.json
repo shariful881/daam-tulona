@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Audio": "Sound Pressure Level (SPL): 120 dB SPL",
+   "Battery": "114 mAh (Transmitter), 170 mAh (Receiver), 1950 mAh (Charging Case)",
+   "Operating Interface": "400 Meter",
+   "Charging Interface": "USB Type-C"
+  },
+  "Battery": {
+   "Charging Time": "1.5 Hours (Transmitter), 1.6 Hours (Receiver), 2 Hours (Charging Case)"
+  },
+  "Main Spec": {
+   "Battery Life": "11.5 Hours (Transmitter), 10.5 Hours (Receiver)",
+   "Polar pattern": "Omnidirectional",
+   "Signal / noise ratio": "24 dBA"
+  },
+  "Features": {
+   "Dimension": "26.55 x 26.06 x 15.96mm (Transmitter), 46.50 x 29.61 x 19.32mm (Receiver), 96.10 x 41.00 x 59.35mm (Charging Case)",
+   "Weight": "0.01 kg (Transmitter), 0.0178 kg (Receiver), 0.139 kg (Charging Case)"
+  },
+  "Connectivity": {
+   "Connection Type": "Wireless",
+   "Bluetooth": "5.3"
+  },
+  "Technical Info": {
+   "Operating Voltage": "3.87V"
+  },
+  "Warranty Information": {
+   "Warranty": "No warranty"
+  }
+ },
+ "key_features": [
+  "Wireless Mode: GFSK 2Mbps",
+  "Operating Frequency: 2.400-2.4835 GHz",
+  "Battery Capacity: 114 mAh",
+  "Charging Time: Approx. 90 minutes"
+ ],
+ "warranty": "No warranty",
+ "fetched": "2026-11-14T17:25+06:00",
+ "source": "https://www.pchouse.com.bd/dji-mic-mini-2",
+ "store": "pchouse"
+}

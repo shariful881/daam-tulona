@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Main Spec": {
+   "Frequency Response": "Sat: 120Hz-20KHz, Sub: >20Hz-170Hz"
+  },
+  "Output": {
+   "Output Power": "20W + 10W*2 (40 RMS)"
+  },
+  "Power Specifications": {
+   "Power Supply": "~230V 50Hz"
+  },
+  "Physical Specification": {
+   "Others": "Drive Units\nSat: 3\" x 2 + Sub: 5.25\"\nSeparation\n>40dB\nSIN\n>70dB\nDistortion\n<0.5% (1K, 1W)"
+  },
+  "Dimension": {
+   "Subwoofer size": "W260*H270*D320 mm",
+   "Satellites size": "W100*H162*D102 mm"
+  }
+ },
+ "key_features": [
+  "Output power: 20W + 10Wx2 (40 RMS)",
+  "Drive Units: Sat: 3\" x 2 + Sub: 5.25\"",
+  "Separation: >40dB",
+  "Power Supply: ~230V 50Hz"
+ ],
+ "fetched": "2026-11-14T17:39+06:00",
+ "source": "https://www.pchouse.com.bd/xtreme-jupiter-2:1-speaker",
+ "store": "pchouse"
+}

@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Case Type": {
+   "Type": "Mid-Tower",
+   "Front Panel": "Steel Mesh",
+   "Tempered  Glass Panel": "Yes",
+   "Motherboard Support": "Mini-ITX"
+  },
+  "External Features": {
+   "Color(s)": "Black",
+   "Weight": "5.5 kg",
+   "Dimensions": "458 mm x 271 mm x 200 mm",
+   "Expansion Slots": "3",
+   "Radiator Support": "120mm, 140mm, 240mm, 280mm, 360mm",
+   "Drive Bays": "2.5in x3",
+   "I/O Port": "1x USB 3.2 Gen 2 Type C\n2x USB 3.2 Gen 1 Type A\n1x Audio in/out"
+  },
+  "Additional Feature": {
+   "PSU": "Not Include"
+  },
+  "Clearance Space": {
+   "Maximum CPU Cooler Height": "165mm",
+   "Maximum Graphics Card Length": "365mm",
+   "Maximum PSU Length": "130mm"
+  },
+  "Warranty": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Motherboard Support: Mini-ITX",
+  "Case Power Supply: SFX",
+  "Case Expansion Slots: 3",
+  "Front IO: 1x USB 3.2 Gen 2 Type C, 2x USB 3.2 Gen 1 Type A, 1x Audio in/out"
+ ],
+ "status": "Up Coming",
+ "code": "31660",
+ "brand": "Corsair",
+ "mpn": "CC-9011244-WW",
+ "model": "2000D AIRFLOW",
+ "warranty": "No Warranty",
+ "name": "Corsair 2000D AIRFLOW Mini-ITX Casing",
+ "breadcrumb": [
+  "Component",
+  "Casing",
+  "Corsair",
+  "Corsair 2000D AIRFLOW Mini-ITX Casing"
+ ],
+ "fetched": "2026-11-14T17:03+06:00",
+ "source": "https://www.startech.com.bd/corsair-2000d-airflow-mini-itx-casing",
+ "store": "startech"
+}

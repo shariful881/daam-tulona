@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "200–2100 rpm",
+   "Air Flow": "34.51 cfm | 58.62 m³/h",
+   "Air Pressure": "Static Pressure: 1.33 mmH2O",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Input Current": "0.12 A",
+   "Operating Voltage/Power Range": "12 V DC"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Size": "120 x 120 x 25mm",
+   "Weight": "85 g",
+   "Connector": "4-Pin Connector + 4-Pin Socket"
+  },
+  "Others": {
+   "Others": "Operating Ambient Temperature: 0-40 °C\nTypical Voltage: 12 V DC\nStarting Voltage: 5 V\nControl Type: PWM PST\nCable Length: 400 mm"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "06-year Warranty"
+  }
+ },
+ "key_features": [
+  "Fan Connector: 4-Pin + 4-Pin Socket",
+  "Airflow: 34.51 cfm | 58.62 m³/h",
+  "Speed: 200–2100 rpm (PWM controlled)",
+  "Bearing: Fluid Dynamic Bearing (FDB)"
+ ],
+ "price": 32003300,
+ "regular": 3530,
+ "status": "In Stock",
+ "code": "40103",
+ "brand": "ARCTIC",
+ "model": "P12 Slim PWM PST",
+ "warranty": "06-year Warranty",
+ "name": "Arctic P12 Slim PWM PST 120 mm 3 Pack Casing Fan",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "ARCTIC",
+  "Arctic P12 Slim PWM PST 120 mm 3 Pack Casing Fan"
+ ],
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.startech.com.bd/arctic-p12-slim-pwm-pst-casing-fan",
+ "store": "startech"
+}

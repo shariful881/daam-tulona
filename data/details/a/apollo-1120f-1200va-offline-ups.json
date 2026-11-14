@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Voltage Range": "100/110/120/220/230/240VAC Nominal -25%+25%"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "10-30 minutes depending on load connected",
+   "Frequency (Battery Mode)": "60Hz",
+   "Noise Level": "EMI/RFI full time suppression",
+   "Transfer Time": "2ms typical; 5ms maximum",
+   "Type of Wave": "PWM Simulated Sine wave"
+  },
+  "Main Features": {
+   "Capacity": "1200VA"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Load Capacity: 1200VA",
+  "Transfer Time: 2ms typical; 5ms maximum",
+  "Waveform: PWM Simulated Sine wave"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-14T17:09+06:00",
+ "source": "https://www.pchouse.com.bd/apollo-1120f-1200va-offline-ups",
+ "store": "pchouse"
+}

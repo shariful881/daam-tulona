@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Supports AMD AM4 Socket Ryzen 3000, 4000 G-Series and 5000 and 5000 G-Series Desktop Processors\n6 Power Phase design",
+   "Chipset": "AMD A520",
+   "BIOS": "- 128Mb AMI UEFI Legal BIOS with GUI support\n- Supports \"Plug and Play\"\n- ACPI 5.1 compliance wake up events\n- Supports jumperfree\n- SMBIOS 2.3 support\n- CPU, CPU VDDCR_SOC, DRAM, VDDP Voltage Multi-adjustment",
+   "Form Factor": "Micro ATX Form Factor: 9.0-in x 7.9-in, 23.0 cm x 20.1 cm\nSolid Capacitor design",
+   "Audio": "7.1 CH HD Audio (Realtek ALC887/897 Audio Codec)\nSupports Surge Protection"
+  },
+  "Expansion Slots": {
+   "PCI": "1 x PCI Express 3.0 x16 Slot (PCIE2: x16 mode)*\n1 x PCI Express 3.0 x1 Slot"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "Dual Channel DDR4 Memory Technology\nAMD Ryzen series CPUs (Vermeer) support DDR4 4600+(OC) / 4533(OC) / 4466(OC) / 4400(OC) / 4333(OC) / 4266(OC) / 4200(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3800(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*\n- AMD Ryzen series CPUs (Matisse) support DDR4 4600+(OC) / 4533(OC) / 4466(OC) / 4400(OC) / 4333(OC) / 4333(OC) / 4266(OC) / 4200(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3800(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*\n- AMD Ryzen series APUs (Cezanne) support DDR4 4733+(OC) / 4666(OC) / 4600(OC) / 4533(OC) / 4466(OC) / 4400(OC) / 4333(OC) / 4266(OC) / 4200(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3800(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*\n- AMD Ryzen series APUs (Renoir) support DDR4 4733+(OC) / 4666(OC) / 4600(OC) / 4533(OC) / 4466(OC) / 4400(OC) / 4333(OC) / 4266(OC) / 4200(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3800(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*\nSupports Extreme Memory Profile (XMP) memory modules\n15μ Gold Contact in DIMM Slots",
+   "Maximum Memory": "64GB"
+  },
+  "Graphics": {
+   "Graphics": "- Integrated AMD Radeon Vega Series Graphics in Ryzen Series APU*\n- DirectX 12, Pixel Shader 5.0\n- Shared memory default 2GB. Max Shared memory supports up to 16GB.**\n- Dual graphics output: support D-Sub and HDMI ports by independent display controllers\n- Supports HDMI 2.1 with max. resolution up to 4K x 2K (4096x2160) @ 60Hz\n- Supports D-Sub with max. resolution up to 1920x1200 @ 60Hz\n- Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and HBR (High Bit Rate Audio) with HDMI 2.1 Port (Compliant HDMI monitor is required)\n- Supports HDR (High Dynamic Range) with HDMI 2.1\n- Supports HDCP 2.3 with HDMI 2.1 Port\n- Supports 4K Ultra HD (UHD) playback with HDMI 2.1 Port\n- Supports Microsoft PlayReady",
+   "Max Shared Memory": "16GB"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI",
+   "D-Sub (s)": "1 x D-Sub",
+   "USB (s)": "2 x USB 2.0 Ports (Supports ESD Protection)\n4 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)",
+   "LAN Port (s)": "PCIE x1 Gigabit LAN 10/100/1000 Mb/s\nRealtek RTL8111H\nSupports Wake-On-LAN\nSupports Lightning/ESD Protection\nSupports Energy Efficient Ethernet 802.3az\nSupports PXE",
+   "Supported Storage": "CPU:\n1 x Ultra M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*\nChipset:\n4 x SATA3 6.0 Gb/s Connectors",
+   "RAID": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices",
+   "Audio": "HD Audio Jacks: Line in / Front Speaker / Microphone",
+   "Internal I/O Ports": "1 x COM Port Header\n1 x Chassis Intrusion and Speaker Header\n1 x CPU Fan Connector (4-pin)*\n2 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Control)**\n1 x 24 pin ATX Power Connector\n1 x 4 pin 12V Power Connector\n1 x Front Panel Audio Connector\n2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)\n1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports) (Supports ESD Protection)",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM Header"
+  },
+  "Others": {
+   "Special Features": "ASRock Super Alloy\n- Premium 50A Power Choke\n- Sapphire Black PCB\n- High Density Glass Fabric PCB\nASRock Ultra M.2 (PCIe Gen3 x4 & SATA3)\nASRock Full Spike Protection (for all USB, Audio, LAN Ports)\nASRock Live Update & APP Shop"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: AM4 Socket Ryzen 3000, 4000 G & 5000 & 5000 G-Series",
+  "Supported RAM: 2 x DDR4, 4733+ (OC)",
+  "Graphics Output: D-Sub, HDMI",
+  "Features: 1 x Ultra M.2, Realtek Gigabit LAN"
+ ],
+ "status": "Out Of Stock",
+ "code": "28875",
+ "brand": "ASRock",
+ "model": "A520M-HVS",
+ "warranty": "03 Years Warranty",
+ "name": "ASRock A520M-HVS AMD AM4 Micro ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASRock (AMD)",
+  "ASRock A520M-HVS AMD AM4 Micro ATX Motherboard"
+ ],
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.startech.com.bd/asrock-a520m-hvs-motherboard",
+ "store": "startech"
+}

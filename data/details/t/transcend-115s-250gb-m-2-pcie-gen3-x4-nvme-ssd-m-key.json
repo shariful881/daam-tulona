@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "250GB",
+   "Flash Type": "3D NAND flash",
+   "Sequential R/W": "up to 3,200/1,300 MB/s",
+   "MTBF": "2,000,000 hour(s)",
+   "Interface Type": "NVMe PCIe Gen3 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "100 TBW"
+  },
+  "Physical Specification": {
+   "Weight": "8 g (0.28 oz)"
+  },
+  "Dimension": {
+   "Single-sided": "80 mm x 22 mm x 2.23 mm (3.15\" x 0.87\" x 0.09\")",
+   "Double-sided": "80 mm x 22 mm x 3.58 mm (3.15\" x 0.87\" x 0.14\")"
+  },
+  "Temperature": {
+   "Storage Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Warranty Information": {
+   "Warranty": "5 years"
+  }
+ },
+ "key_features": [
+  "Type: M.2 2280",
+  "Interface: NVMe PCIe Gen3 x4",
+  "Sequential Read/Write: up to 3,200/1,300 MB/s"
+ ],
+ "warranty": "5 years",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-115s-250gb-m.2-pcie-gen3-x4-nvme-ssd-m-key",
+ "store": "pchouse"
+}

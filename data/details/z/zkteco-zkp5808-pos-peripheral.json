@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Printing": {
+   "Interfaces": "Standard RS232/USB /Bluetooth 4.0",
+   "Print Comand": "ESC/POS",
+   "Print Method": "Thermal Line Printing",
+   "Print Speed": "<90mm/sec",
+   "No. of Total Dots": "384 dots/Line",
+   "Print Width": "48mm",
+   "Character Size": "1.5 x 3.0mm (W x H)/3.0 x 3.0mm (W x H)",
+   "Print Font": "12 x 24; 24x 24",
+   "Data Buffer": "UP to 50K bytes",
+   "Compatible OS": "Windows Systems; Android & iOS Operating Systems"
+  },
+  "Electrical": {
+   "Battery": "7.4VDC/1500mA",
+   "Charging Mode": "DC 9V/1.5A",
+   "Standby Time": "4 -5 days after fully charged",
+   "Continuous Printing": "120 pieces Thermal Roll for a fully charged battery"
+  },
+  "Physical": {
+   "Product Dimension": "10.5 x 7.5 x 4.5cm",
+   "Unit Weight": "450g (including accessories: lithium-ion batteries, cable, test paper)",
+   "Pieces per CTN": "40 pieces",
+   "CTN Dimension": "47 x 38 x 33 cm",
+   "BT Effect Range": "Bluetooth effective range around 10 meters"
+  },
+  "Environmental characteristics": {
+   "Temperature": "Working: -10 – 50°C",
+   "Humidity": "Working: 10%-90%",
+   "Certificates": "CE & FCC ROHS ISO9001:2008"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:43+06:00",
+ "source": "https://smartbd.com/product/zkteco-zkp5808-pos-peripheral/",
+ "store": "smartbd"
+}

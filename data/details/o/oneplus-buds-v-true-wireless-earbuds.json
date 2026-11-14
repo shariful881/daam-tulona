@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Battery": {
+   "Battery Type": "Rechargeable Li-ion battery",
+   "Battery Capacity (earbuds)": "58mAh",
+   "Battery Capacity (charging case)": "480mAh",
+   "Charging Interface": "Wired: USB Type-C"
+  },
+  "Earbuds Feature": {
+   "Duration": "Up to 8 hours of listening"
+  },
+  "Key Feature": {
+   "Others": "IP55 Water and Sweat Resistance\nTouch Control"
+  },
+  "Main Features": {
+   "Connection Type": "Bluetooth version: Bluetooth 5.3"
+  },
+  "Power Specifications": {
+   "Connector Type": "Type c"
+  },
+  "Physical Specification": {
+   "Drivers": "12.4mm",
+   "Color": "Black\nBlue"
+  },
+  "Weight": {
+   "Earbuds": "4.8g",
+   "Charging case": "40.8g"
+  },
+  "Warranty Information": {
+   "Warranty": "7 Days Replacement Warranty"
+  }
+ },
+ "key_features": [
+  "Driver: 12.4mm",
+  "Frequency range: 20 Hz - 20 kHz",
+  "Noise reduction: Dual microphone + AI algorithm"
+ ],
+ "warranty": "7 Days Replacement Warranty",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://www.pchouse.com.bd/oneplus-buds-v-true-wireless-earbuds",
+ "store": "pchouse"
+}

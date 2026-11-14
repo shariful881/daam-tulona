@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Generel information": {
+   "Data Rate": "AX1800\n5 GHz: 1201Mbps\n2.4 GHz: 574Mbps",
+   "Encryption": "WPA, WPA2, WPA/WPA2-Enterrprise, WPA3",
+   "Protocols / Standards": "IPv4, IPv6",
+   "Security": "SPI Firewall, Access Control, IP & MAC Binding,\nApplication Layer Gateway",
+   "CPU": "Dual-core 1.3GHz",
+   "Antenna": "2*internal High-Performance Antennas",
+   "Range": "2000 SQ",
+   "RAM": "128MB",
+   "ROM": "256MB",
+   "Working Mode": "Router, Access Point",
+   "Function": "Beamforming\nOFDMA\nAirtime Fairness\n4 Streams Connect your devices",
+   "Button": "1 RESET button on the underside",
+   "Controller": "URL Filtering, Time Controls",
+   "Power": "DC 12V/1.5A"
+  },
+  "Connectivity": {
+   "WiFi": "Wi-Fi 6\nIEEE 802.11ax/ac/n/a 5 GHz\nIEEE 802.11b/g/n 2.4 GHz",
+   "Ports": "1x Gigabit WAN Port\n2x Gigabit LAN Ports"
+  },
+  "Physical Information": {
+   "Dimension": "106X106X115mm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-14T17:32+06:00",
+ "source": "https://smartbd.com/product/netis-neme-x18s-2-pack-ax1800-superior-whole-home-mesh-wi-fi-6-system/",
+ "store": "smartbd"
+}

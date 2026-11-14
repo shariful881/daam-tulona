@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid Cooler",
+   "Fan Speed": "600–3000 rpm",
+   "Fan Airflow": "77 cfm | 131 m³/h3/h",
+   "Air Pressure": "6.9 mmH2O",
+   "Connector": "4-Pin Fan Plug",
+   "Material": "Aluminum",
+   "Others": "Operating Ambient Temperature-0—40 °C\nPump-800–2800 rpm\nCurrent | Voltage-0.35 A | 12 V DC\nCold Plate-Copper, Micro Skived Fins\nTube Length-450 mm\nTube Diameter Outer: 12.4 mm\nInner: 6.0 mm\nFluid Dynamic Bearing\nRadiator Fan-3x P12 Pro ARGB\nLEDs-12x A-RGB Gen2 LEDs\nCurrent | Voltage-0.40 A | 5 V DC\nConnector-3-Pin A-RGB Plug + 3-Pin Socket\nVRM Fan-400–2500 rpm"
+  },
+  "Physical Specification": {
+   "Dimension": "398 (L) x 120 (W) x 38 (H) mm",
+   "Weight": "2005 g"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1851, LGA1700",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 600–3000 rpm",
+  "Fan Size: 120 mm",
+  "Fan Bearing: Fluid Dynamic Bearing",
+  "Compatibility: LGA 1851,1700, AMD AM5, AM4 Socket"
+ ],
+ "price": 1649916700,
+ "regular": 18120,
+ "status": "In Stock",
+ "code": "46687",
+ "brand": "ARCTIC",
+ "model": "Liquid Freezer III Pro 360 ARGB White",
+ "warranty": "6 years",
+ "name": "Arctic Liquid Freezer III Pro 360 ARGB AIO CPU Cooler White",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Liquid Freezer III Pro 360 ARGB AIO CPU Cooler White"
+ ],
+ "fetched": "2026-11-14T16:56+06:00",
+ "source": "https://www.startech.com.bd/arctic-liquid-freezer-iii-pro-360-argb-cpu-cooler-white",
+ "store": "startech"
+}

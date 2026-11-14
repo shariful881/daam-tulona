@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Product Description": {
+   "Item": "Item Description",
+   "Model": "POWEREDGE R360 SERVER",
+   "Country of Origin": "USA",
+   "Processor": "Intel Xeon E-2414 2.6G, 4C/4T, 12M Cache, Turbo, HT (55W) DDR5",
+   "Clock/Bus Speed": "2.6GHz, 12M Cache, 4T/s 4C, 55W",
+   "Chipset": "C262",
+   "Memory": "16GB\nMemory\nUDIMM-5600MT/s DDR5 ECC supporting up to 128GB",
+   "Hard Drive Bays": "Up to 4 x 3.5 hot-plug SATA, SAS",
+   "Hard Drives": "2 x Dell 2TB 7.2K\nRPM SATA 6Gbps 3.5in Hot-plug Hard Drive",
+   "Drive & RAID Controllers": "PERC H355 Adapter Hardware RAID Controller Supporting RAID Level 0,1,10,",
+   "Media Drive": "NO",
+   "Video Sub System": "Integrated Graphics G200e with 8MB memory",
+   "Server Management": "iDRAC 9 Basic 16G",
+   "Network Card": "Broadcom 5720 Dual port (\n2 Port\n) Gigabit Ethernet",
+   "Keyboard & Mouse": "NO",
+   "Power Supply": "Dual Hot Plug Redundant Power Supplies\n600W\n(1+1)",
+   "Form Factor": "1U\nRack mount with Rail Kit",
+   "Warranty": "Dell 36\nMonth(S)\nStandard Warranty and Parts Exchange"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Xeon E-2414 2.6G, 4C/4T, 12M Cache, Turbo, HT (55W) DDR5",
+  "RAM: 16GB Memory UDIMM-5600MT/s DDR5 ECC supporting up to 128GB",
+  "Storage: 2 x Dell 2TB 7.2K RPM SATA 6Gbps 3.5in Hot-plug Hard Drive",
+  "RAID Controller: PERC H355 Adapter Hardware RAID Controller Supporting RAID Level 0,1,10"
+ ],
+ "model": "POWEREDGE R360 SERVER",
+ "warranty": "Dell 36",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://smartbd.com/product/dell-poweredge-r360-intel-xeon-e-2414-rack-server/",
+ "store": "smartbd"
+}

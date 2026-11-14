@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "8GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "OC mode: 2692MHz\nDefault mode: 2662MHz (Boost Clock)",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "128-bit",
+   "CUDA Cores": "4608",
+   "Others": "AURA SYNC: ARGB\nAI Performance: 759 TOPs"
+  },
+  "Interface": {
+   "Display Port": "3 x Native DisplayPort 2.1b",
+   "HDMI": "1 x Native HDMI 2.1b",
+   "HDCP": "HDCP  2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "550W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "302 x 133.5 x 62mm",
+   "Others": "3.1 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-years Warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2662MHz (Boost Clock), 2692MHz (OC Mode)",
+  "Memory: 8GB GDDR7; Speed: 28 Gbps",
+  "CUDA Core: 4608: AI Performance: 759 TOPs",
+  "Output: 1x HDMI 2.1b, 3x DisplayPort 2.1a"
+ ],
+ "price": 7690082500,
+ "regular": 84000,
+ "status": "In Stock",
+ "code": "48025",
+ "brand": "Asus",
+ "mpn": "TUF-RTX5060TI-O8G-GAMING",
+ "model": "TUF Gaming GeForce RTX 5060 Ti 8GB GDDR7 OC Edition",
+ "warranty": "03-years Warranty",
+ "name": "ASUS TUF Gaming GeForce RTX 5060 Ti 8GB GDDR7 OC Edition Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS TUF Gaming GeForce RTX 5060 Ti 8GB GDDR7 OC Edition Graphics Card"
+ ],
+ "fetched": "2026-11-14T17:01+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-rtx-5060-ti-8gb-oc-graphics-card",
+ "store": "startech"
+}

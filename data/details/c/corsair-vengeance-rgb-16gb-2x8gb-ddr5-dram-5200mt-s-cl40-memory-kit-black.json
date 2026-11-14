@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Product Description": {
+   "Heat Spreader": "Aluminum",
+   "LED Lighting": "RGB",
+   "Memory Series": "VENGEANCE RGB DDR5",
+   "Memory Size": "8GB",
+   "Performance Profile": "XMP 3.0",
+   "SPD Speed": "4800MHz",
+   "Tested Latency": "40-40-40-77",
+   "Tested Speed (Up To)": "5200",
+   "Fan Included": "No",
+   "Memory Color": "BLACK",
+   "Memory Compatibility": "Intel 600 Series,Intel 700 Series",
+   "Memory Detail Compatibility": "Intel 600 Series,Intel 700 Series",
+   "Memory Type": "DDR5",
+   "Package Memory Format": "DIMM",
+   "Package Memory Pin": "288",
+   "SPD Latency": "40-40-40-77",
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.25V",
+   "Weight": "0.15",
+   "Power Draw": "Overclock PMIC"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: DDR5 5200MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.25V/C36"
+ ],
+ "fetched": "2026-11-14T17:45+06:00",
+ "source": "https://smartbd.com/product/corsair-vengeance-rgb-16gb-2x8gb-ddr5-dram-5200mt-s-cl40-memory-kit-black/",
+ "store": "smartbd"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Microphone Type": "USB Condenser Microphone",
+   "Sound Level": "Maximum SPL: 110dB",
+   "Noise/Signal": "≥70dB",
+   "Switch": "Microphone Gain Control Knob"
+  },
+  "Main Specs": {
+   "Frequency Range": "20Hz–20kHz",
+   "Dimension": "Dimension\n165 × 90 × 90 mm (Approx.)",
+   "Weight": "165 × 90 × 90 mm (Approx.)",
+   "Polar pattern": "Cardioid",
+   "Connector": "USB Type-A & USB Type-C (2-in-1 USB Cable)",
+   "Battery": "Not Required (USB Powered)",
+   "Sensitivity": "-38 ±3dB",
+   "Power Module": "5V USB Power Supply",
+   "Others": "14mm Condenser Capsule, Plug & Play, 192kHz/24Bit Sampling Rate, Built-in Gain Control"
+  },
+  "Compatibility": {
+   "DSLR": "No",
+   "Smartphone": "Yes (OTG/Compatible Adapter Required)",
+   "PC": "PC\nYes (Windows & macOS)"
+  },
+  "Warranty": {
+   "Warranty": "1 Year  Warranty"
+  }
+ },
+ "key_features": [
+  "Microphone Type: USB Condenser Microphone",
+  "Polar Pattern: Cardioid",
+  "Sampling Rate: Up to 192kHz/24Bit",
+  "Connectivity: USB Plug & Play"
+ ],
+ "warranty": "1 Year  Warranty",
+ "fetched": "2026-11-14T17:34+06:00",
+ "source": "https://www.pchouse.com.bd/maono-pm461tr-gen2-usb-microphone",
+ "store": "pchouse"
+}

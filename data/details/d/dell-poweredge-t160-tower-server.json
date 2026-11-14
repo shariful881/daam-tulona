@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Product Description": {
+   "Item": "Item Description",
+   "Model": "PowerEdge\nT160\nServer",
+   "Country of Origin": "USA",
+   "Country of Manufacture": "Malaysia",
+   "Processor": "Intel® Xeon® E-2414 2.6G, 4C/4T, 12M Cache, Turbo, HT (55W) DDR5",
+   "Chipset": "Intel C262",
+   "Memory": "16GB Memory\nUDIMM, 5600MT/s, ECC supported up to 128\nGB\nDDR5",
+   "Hard Drive": "2 x Dell 2TB\n7.2K\nRPM SATA 6Gbps 3.5in Cabled Hard Drive- Non Hot-plug",
+   "RAID Controller": "PERC H355\nHardware RAID\nControlle\nr\nSupporting RAID Level 0,1",
+   "DVD+/-RW Drive": "NO",
+   "Drive Bays": "3 x 3.5” SAS/SATA Cabled Hard Drives",
+   "Slots": "2 x PCIe 3.0 slots",
+   "NIC": "Broadcom 5720 Dual port (\n2 Port\n) Gigabit Ethernet",
+   "Device Access": "Front Ports\n• 1 x iDRAC Direct (Micro-AB USB) port\n• 1 x USB 3.2 Gen1\nRear Ports\n• 3 x USB 2.0\n• 3 x USB 3.2 Gen1\n• 1 x Dedicated iDRAC Ethernet port\n• 1 x Serial\n• 1 x VGA\n• 2 x Ethernet ports\nInternal Ports\n• 1 x USB 3.2 Gen1",
+   "Management": "iDRAC 9 Basic 16G",
+   "Graphics": "Integrated Graphics G200 with 8MB memory",
+   "Keyboard & Mouse": "NO",
+   "Power Supply": "Single High Output Power Supply\nPSU 300W",
+   "Form Factor": "Mini Tower Server",
+   "Warranty": "Dell\n3 Years\nStandard Warranty and Parts Exchange"
+  }
+ },
+ "key_features": [
+  "Processor: Intel® Xeon® E-2414 2.6G, 4C/4T, 12M Cache, Turbo, HT (55W) DDR5",
+  "Hard Disk: 2 x Dell 2TB 7.2K RPM SATA 6Gbps 3.5in Cabled Hard Drive- Non Hot-plug",
+  "Memory: 16GB Memory UDIMM, 5600MT/s, ECC supported up to 128GB DDR5",
+  "RAID Controller: PERC H355 Hardware RAID Controller Supporting RAID Level 0,1"
+ ],
+ "model": "PowerEdge\nT160\nServer",
+ "warranty": "Dell",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://smartbd.com/product/dell-poweredge-t160-tower-server/",
+ "store": "smartbd"
+}

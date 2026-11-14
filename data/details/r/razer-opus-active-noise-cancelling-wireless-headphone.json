@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specification": {
+   "Driver Type": "Dynamic Driver",
+   "Frequency Response": "20 Hz – 20 kHz",
+   "Impedance": "12 Ω (1kHz)",
+   "Sensitivity": "105 dB (1 kHz)",
+   "Driver Size – Diameters (Mm)": "40 mm",
+   "Earcups": "Circumaural",
+   "Earpads Material": "Protein Leather / Nylon with Foam",
+   "Noise Cancelling": "Active Noise Cancellation",
+   "Connection Type": "Bluetooth 5.0- and 3.5-mm connections",
+   "Cable Length": "1.3 m length 3.5mm analog cable\n0.5 m length USB-A to USB-C charging cable",
+   "Weight": "270 g / 0.59lbs",
+   "Microphone Style": "MEMS",
+   "Pick-Up Pattern": "Omni-directional",
+   "Microphone Frequency Response": "100 Hz – 10 kHz",
+   "Microphone Sensitivity (@1KHz)": "-38dBV / Pa (1 kHz)",
+   "Virtual Surround Encoding": "None",
+   "Volume Control": "Yes (VOL + and VOL – buttons)",
+   "Other Controls": "Power On / Pairing / Multi-Function Button",
+   "Battery Life": "Up to 32 hours with ANC on / up to 40 hours with ANC off",
+   "Lighting": "LED for indicating power, pairing and charging status",
+   "Compatibility": "3.5 mm Connection: Mobile/System/Console/Airplane\nBT Connection: Mobile/System"
+  },
+  "Inner Earcup Diameter": {
+   "Width": "69.5 mm / 2.73″",
+   "Length": "91 mm / 3.58″"
+  }
+ },
+ "key_features": [
+  "Active Noise Cancellation (ANC): Yes (Hybrid)",
+  "THX Certified: Yes",
+  "Low Latency: No",
+  "Wearing Style: Over-Ear (Circumaural)",
+  "Auto Pause/Play: Yes",
+  "Quick Attention Mode: Yes",
+  "Connection: Bluetooth & 3.5mm"
+ ],
+ "fetched": "2026-11-14T17:33+06:00",
+ "source": "https://diamu.com.bd/product/razer-opus-active-noise-cancelling-wireless-headphone/",
+ "store": "diamu"
+}

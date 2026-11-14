@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "Tri-band Wi-Fi: 2.4 GHz / 5 GHz-1 / 5 GHz-2",
+   "Wireless": "IPv6\nMU-MIMO\nUTF-8 SSID\nGuest Network\nMaximum Guest Network rule :\n2.4 GHz x 3, 5 GHz-1 x 3, 5 GHz-2 x 3\nGuest Network Connection time limit\nWPS\nWi-Fi MAC address filter\nMaximum MAC filters: 64\nWireless scheduler\nAirtime fairness\nRADIUS Client\nUniversal beamforming",
+   "Button": "WPS Button, LED Button, Reset Button, Power Switch",
+   "Others": "processor: 2.0GHz quad-core processor\nMemory: 256MB NAND flash and 1GB DDR4 RAM\nOFDMA (Orthogonal Frequency Division Multiple Access)\nBeamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth"
+  },
+  "Power Mode": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 3.42 A；19.5 V with max. 3.33 A"
+  },
+  "Router Features": {
+   "Antenna": "External antenna x 8",
+   "Data Rate": "2.4GHz AX: 4x4 (Tx/Rx) 1024 QAM 20/40MHz, up to 1148Mbps\n5G-1Hz AX: 4x4 (Tx/Rx) 1024 QAM 20/40/80/160MHz, up to 4804Mbps\n5G-2Hz AX: 4x4 (Tx/Rx) 1024 QAM 20/40/80/160MHz, up to 4804Mbps",
+   "Operating System Support": "ASUSWRT Free OS upgrade"
+  },
+  "Encryption": {
+   "WiFi Encryption": "WPA3 Personal, WPA2 Personal, WPA Personal, WPA Enterprise, WPA2 Enterprise, Open System",
+   "Guest Network Encryption": "Open system, WPA/WPA2-Personal/WPA3-Personal"
+  },
+  "Connector & Ports": {
+   "Ports": "1 x 2.5 Gigabit WAN Port\n1 x 10 Gigabit WAN/LAN Port\n4 x Gigabit LAN Ports\n1 x USB 3.2 Gen 1 Port\n1 x USB 2.0 Port",
+   "Network Standard": "IEEE 802.11ax\nIPv4\nIPv6"
+  },
+  "Physical Specification": {
+   "Weight": "2.18kg"
+  },
+  "Warranty Information": {
+   "Warranty": "02-Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "02-Year",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rog-rapture-gt-ax11000-pro-tri-band-11000-mbps-gigabit-wifi-gaming-router",
+ "store": "pchouse"
+}

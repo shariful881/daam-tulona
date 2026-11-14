@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Battery": {
+   "Battery": "Li-ion",
+   "Rechargeable Battery": "Yes"
+  },
+  "Basic Information": {
+   "Noise/Signal": ">75dB",
+   "Microphone Type": "Omnidirectional"
+  },
+  "Main Spec": {
+   "Sensitivity": "-39dB+-2dB (0dB=1V/Pa@1kHz) (Built-in Microphone)",
+   "Sound level/Sensitivity": "120dB (Built-in Microphone)"
+  },
+  "Microphone FEATURE": {
+   "Power Module": "USB-C DC 5V"
+  },
+  "Connectors": {
+   "Connector": "Charging Plug Type: USB Type-C"
+  },
+  "Physical Specifications": {
+   "Dimension": "40.2 x 39.4 x 18.6mm (BY-M1V-TX), 23.5 x 38 x 11.9mm (BY-M1V-RXU)",
+   "Frequency Range": "50Hz - 20kHz"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:00+06:00",
+ "source": "https://www.pchouse.com.bd/boya-by-m1v4-2.4ghz-dual-channel-wireless-microphone-system-for-android-device",
+ "store": "pchouse"
+}

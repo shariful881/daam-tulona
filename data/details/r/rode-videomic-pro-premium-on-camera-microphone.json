@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Microphone": {
+   "Form Factor": "Stand/Boom Mount",
+   "Intended Sound Sources": "Vocals, Room Ambiance",
+   "Sound Field": "Mono",
+   "Operating Principle": "Line Gradient",
+   "Element Type": "Electret Condenser",
+   "Diaphragm": "0.55″ / 13.97 mm",
+   "Polar Pattern": "Supercardioid",
+   "Windscreen": "Foam (Included)"
+  },
+  "Performance": {
+   "Frequency Range": "20 Hz to 20 kHz",
+   "Maximum SPL": "133 dB SPL",
+   "Off-Axis Rejection": "5 dB at 60°\n23 dB at 120°\n>10 dB at 180°",
+   "Impedance": "200 Ohms",
+   "Sensitivity": "-33.6 dBV/Pa at 1 kHz",
+   "Output Level": "7.6 dBu (Max)",
+   "Dynamic Range": "118.8 dB",
+   "Signal-to-Noise Ratio": "79.8 dB",
+   "Equivalent Noise Level": "14 dB A-Weighted"
+  },
+  "Connectivity": {
+   "Output Connector": "1 x\n1/8″ / 3.5 mm TRS",
+   "Number of Conductors": "2"
+  },
+  "Power": {
+   "Operating Voltage": "Not Specified by Manufacturer",
+   "Operating Current Consumption": "12 mA (Battery Power)",
+   "Battery Type": "1 x\nRode LB-1 (Included)\n2 x\nAA (Not Included)",
+   "Approximate Battery Life": "100 Hours"
+  },
+  "Physical": {
+   "Color": "Black",
+   "Mounting": "Camera/Shoe-Mount, Shockmount (via Integrated Hardware)",
+   "Included Case": "None",
+   "Included Filters": "None",
+   "Dimensions": "ø: 4.37 x L: 6.69″ / ø: 111 x L: 169.93 mm",
+   "Weight": "4.3 oz / 122 g"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:36+06:00",
+ "source": "https://diamu.com.bd/product/rode-videomic-pro-premium-on-camera-microphone/",
+ "store": "diamu"
+}

@@ -1,0 +1,80 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "EB-L690U",
+   "Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia /Vietnam/ China.",
+   "Projection System": "3LCD Technology, RGB liquid crystal shutter",
+   "LCD panel": "0.67” (C2 Fine)",
+   "Driving Method": "Poly-silicon TFT active matrix",
+   "Pixel Number": "2,304,000 dots (1920 x 1200) x 3",
+   "Resolution": "WUXGA (1920×1200 pixels)",
+   "Aspect Ratio": "16:10",
+   "Pixel Arrangement": "Cross stripe",
+   "Projection Lens Type": "Optical Zoom (Manual) / Focus (Manual",
+   "F-Number": "1.5 – 1.7",
+   "Focal Length": "20.0 – 31.8 mm",
+   "Zoom Ratio": "1.0 – 1.60",
+   "Throw Ratio": "1.35 – 2.20",
+   "Lens Shift": "Vertical: ±50% (Manual)",
+   "Lightsource Type": "Laser Diode",
+   "Life (Normal / Extended)": "20,000 hours / 30,000 hours"
+  },
+  "Screen Size (Projected Distance)": {
+   "Zoom: Wide": "50” – 500” [1.44 – 14.76 m]",
+   "Zoom: Tele": "50” – 500” [2.35 – 23.84 m"
+  },
+  "Brightness": {
+   "White Light Output (Normal / Eco)": "6,500 lm / 4,550 lm",
+   "Colour Light Output": "6,500 lm",
+   "Light Output (Center)": "7,100 lm",
+   "Contrast Ratio": "Over 5,000,000:1",
+   "Geometric Correction: Projection Orientation": "360º Free",
+   "Vertical / Horizontal Keystone": "±30° / ±30°"
+  },
+  "Connectivity": {
+   "Digital Input: HDMI In": "2 (HDCP 2.3",
+   "HDBaseT": "1 (HDCP 2.3",
+   "USB Input: USB Type A": "2 (Port 1: For PC Free, Document Camera, Firmware Update, Copy OSD Settings, Content Playback,",
+   "USB Type B": "1 (For Firmware Update, Copy OSD Settings)",
+   "Control I/O RS-232C": "1 (D-Sub 9pin)",
+   "Digital Output HDMI Out": "1 (HDCP 2.3, supports only HDMI1 input)",
+   "Audio Output Stereo Mini": "1",
+   "Network Wired LAN": "RJ45 x 1 (100Mbps)",
+   "Wireless LAN": "Built-in"
+  },
+  "Miracast": {
+   "Certification": "Wi-Fi CERTIFIED Miracast R2",
+   "Supported Codec": "H.264(AVC), H.265(HEVC), AV1, VP9, MEPG-2, MPEG-4",
+   "Internal Speaker": "10 W Monaural",
+   "Supported Speed": "IEEE802.11a/b/g/n/ac/ax",
+   "upported Mode": "Infrastructure, Simple AP (Wi-Fi Direct)",
+   "Supported Security Type": "Infrastructure: Open, WPA2 / WPA3-PSK, WPA2 / WPA3-EAP, Supported EAP Type: PEAP, EAP-TLS, Simple AP (Wi-Fi Direct): WPA2-PSK (AES)"
+  },
+  "Operating Temperature": {
+   "Single Use": "Low Altitude (0 – 2,286m/7,500ft): 0 – 45 °C <32 – 113 °F>, High Altitude (Over 2,286m/7,500ft): 0 – 40 °C <32 – 104°F>, 20% – 80% Humidity, No Condensation",
+   "Operating Altitude": "Over 1,500m/4,921ft with High Altitude Mode: 0 – 3,048m (0 -10,000ft",
+   "Direct Power On / Off": "Yes",
+   "Start-Up Period": "12 seconds (Epson Logo); Warm-up Period: 30 seconds",
+   "Quick Start-Up": "Less than 8 seconds (Display)",
+   "Cool Down Period": "Instant Off",
+   "Air Filter Type": "Electrostatic Filter",
+   "Maintenance Cycle*": "20,000 hours (Normal) / 30,000 hours (Extended)",
+   "Power Supply Voltage": "100 – 240 V AC ±10%, 50/60 Hz"
+  },
+  "Power Consumption (220 – 240V": {
+   "Laser Diode On Norma": "399 W",
+   "Extended": "295 W",
+   "Standby (Normal / Eco)": "2.4 W / 0.4 W",
+   "Dimension Excluding Feet (W x D x H)": "440 x 304 x 122 mm",
+   "Weight": "Approx. 8.2kg",
+   "Warranty": "Warranty-2Y & Laser Unit: 1Y or 1000h"
+  }
+ },
+ "key_features": [],
+ "model": "EB-L690U",
+ "warranty": "Warranty-2Y & Laser Unit: 1Y or 1000h",
+ "fetched": "2026-11-14T17:35+06:00",
+ "source": "https://smartbd.com/product/epson-eb-l690u-wuxga-3lcd-laser-multimedia-projector/",
+ "store": "smartbd"
+}

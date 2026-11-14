@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy",
+   "Printer Type": "Multi Function Color Ink Printer",
+   "Output Color": "Color"
+  },
+  "Print": {
+   "Technology": "HP Thermal Inkjet",
+   "Print Resolution": "(Black)-1200 x 1200 dpi\n(Color)- 4800 x 1200 dpi",
+   "First Print Out Time": "First Page Out Black (A4, Ready)As fast as 15 sec\nFirst Page Out Color (A4, Ready)As fast as 18 sec",
+   "Duty Cycle up to (Yield)": "3000 Pages",
+   "Duplex": "Yes"
+  },
+  "Print Speed": {
+   "Black": "Up to 22 ppm (draft); Up to 12 ppm (ISO)",
+   "Color": "Up to 21 ppm (draft); Up to 7 ppm (ISO)"
+  },
+  "Copy": {
+   "Copy Speed": "Copy Speed Color (ISO)Up to 5 cpm\nCopy Speed Black (ISO)Up to 11 cpm",
+   "Copy Resolution": "(Black)-600 dpi\n(Color)-600 x 600 dpi"
+  },
+  "Scan": {
+   "Scan Type": "Contact Image Sensor (CIS)\nFlatbed\nUp to 3.5 ipm (color); Up to 8 ipm (mono)",
+   "Scan Resolution": "Scan Resolution, HardwareUp to 1200 x 1200 dpi\nEnhanced Scanning ResolutionUp to 1200 dpi\nScan Resolution, OpticalUp to 1200 dpi\nScan Resolution Enhanced Disclaimer up to 1200 dpi\nScan Resolution Enhanced DisclaimerUp to 1200 ppi\n24-bit",
+   "Duplex Scan": "Scan Size, Maximum 216 x 297 mm\nScan Size, Maximum 8.5 x 11.69 in"
+  },
+  "Paper Information": {
+   "Paper Size": "A4, A5, A6, B5 (JIS), Envelope (DL, C5, C6, Chou 3, Chou 4), Card (Hagaki, Ofuku Hagaki) legal",
+   "Paper Type": "Plain Paper, HP Photo Papers, HP Matte Brochure or Professional Paper, HP Glossy Brochure or Professional Paper, Other Photo Inkjet Papers, HP Matte Presentation Paper, Other Matte Inkjet Papers, Other Glossy Inkjet Papers, Light/Recycled",
+   "Paper Weight": "60 to 105 g/m2"
+  },
+  "Technical Specs": {
+   "Processor": "800 MHz",
+   "Memory": "128 MB",
+   "Display": "2-line LCD Smart guided buttons, 50.8 x 10.16 mm (2.0 x 0.4 in)",
+   "Connectivity": "Wi-Fi\n2.4/5G dual band Wi-Fi, Wi-Fi Direct,\nUSB\nHi-Speed USB 2.0;\nOthers\nBluetooth LE",
+   "Power Consumption": "Input voltage: 100 to 240 VAC (+/- 10%), 50/60 Hz (+/- 3 Hz)\nPower Consumption\n0.10 Watts (Off Mode), 2.00 Watts ( Sleep mode)"
+  },
+  "Physical Specs": {
+   "Color": "White",
+   "Dimension": "427.54 x 440.73 x 198.55mm",
+   "Weight": "6.38 kg"
+  },
+  "Support": {
+   "Toner/ Cartridge/ Refill": "HP GT53 90-ml Black bottle (4000 pages), HP GT52 70-ml Cyan bottle (8000 pages), HP GT52 70-ml Magenta bottle (8000 pages), HP GT52 70-ml Yellow bottle (8000 pages)\n(Please make sure your existing & mentioned toner/cartridge/ink bottle models are the same before buying a new one)",
+   "Software": "Windows 11, Windows 10, 7 macOS v10.14 Mojave, macOS v10.15 Catalina, macOS v11 Big Sur"
+  },
+  "Special Features": {
+   "Others": "Mobile Printing- Apple AirPrint, Mopria Print Service, HP Print Service Plugin (Android printing), HP Smart app, Wi-Fi Direct Printing"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (1 Year Default + 1 Year Bonus). For 2nd Bonus year warranty customer must need to register their product by scanning QR Code given on the Box within 30 days from date of purchase. (Warranty without Adapter) (Box Mandatory While Claiming) (Print Head Warranty 12000 pages)"
+  }
+ },
+ "key_features": [
+  "Functions: Print, Copy, Scan",
+  "Print speed (draft): Up to 22 ppm (black) and 21 ppm (color)",
+  "Connectivity: Wi-Fi, Hi-Speed USB 2.0"
+ ],
+ "warranty": "2 Year (1 Year Default + 1 Year Bonus). For 2nd Bonus year warranty customer mus",
+ "fetched": "2026-11-14T17:41+06:00",
+ "source": "https://smartbd.com/product/hp-smart-tank-670-all-in-one-printer-6uu48a/",
+ "store": "smartbd"
+}

@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "IEEE 802.11b/g/n 2.4GHz\nIEEE 802.11a/n/ac 5GHz",
+   "Signal Rate": "Up to 300Mbps2.4GHz\nUP to 867Mbps 5GHz",
+   "Frequency Range": "2.4-2.4835GHz;5.180-5.825GHZ",
+   "Transmit Power": "20dBm(MAX)",
+   "Wireless Modes": "AP,  Repeater, Client, Multi-SSID",
+   "Wireless Security": "WEP/WPA-PSK/WPA2-PSK Encryption\nWireless MAC Filtering"
+  },
+  "Hardware": {
+   "Standards": "IEEE 802.3 10Base-T, IEEE 802.3u 100Base-TX, IEEE 802.3ab 1000Base-T",
+   "Interface": "1*10/100/1000Mbps Auto MDI/MDIX RJ45 WAN port\n4*10/100/1000Mbps Auto MDI/MDIX RJ45 LAN port",
+   "LED Indicators": "SYS, WPS, 5G, 2.4G, WAN, LAN1~LAN4",
+   "Buttons": "Default, WPS",
+   "Antenna": "4* external fixed 5dBi antenna",
+   "Power Supply": "DC 12V/1.0A(Output)",
+   "Dimensions (L x W x H )": "212 x 145 x 40 mm"
+  },
+  "Software": {
+   "WAN Type": "DHCP, Static IP, PPPoE, L2TP, PPTP, WISP",
+   "Others": "Bandwidth Control, Access Control, IPTV, Virtual Server, DMZ,\nVPN Pass-through, Dynamic DNS, Static Routing,  Backup & Restore"
+  },
+  "Others": {
+   "Certification": "FCC, CE, EAC",
+   "Package": "1* N2\n1* 12V/1.0A Power Adapter\n1* Ethernet Cable\n1* Quick Installation Guide (Multilingual)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:31+06:00",
+ "source": "https://smartbd.com/product/netis-n2-ac1200-wireless-dual-band-gigabit-router/",
+ "store": "smartbd"
+}

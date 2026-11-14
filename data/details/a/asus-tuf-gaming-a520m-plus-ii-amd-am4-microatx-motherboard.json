@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+   "Chipset": "A520",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "microATX\n24.4cm x 24.4cm",
+   "Audio": "Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Audio Shielding\n- Premium Japanese audio capacitors\n- Dedicated audio PCB layers\n*A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD A520 Chipset\n2 x PCIe 3.0 x1 slots"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "4 x DIMM",
+   "Supported Memory": "4866(OC)/ 4800(OC)/ 4600(OC)/ 4466(OC)/ 4400(OC)/ 4266(OC)/ 4133(OC)/ 4000(OC)/ 3866(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3333(OC)/ 3200/ 3000/ 2800/ 2666/ 2400/ 2133 MHz, Un-buffered Memory\nDual Channel Memory Architecture",
+   "Maximum Memory": "128GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x DisplayPort 1.2\n1 x HDMI 2.1(4K@60Hz)\n1 x D-Sub"
+  },
+  "Connector & Ports": {
+   "HDMI": "1 x HDMI port",
+   "Display Port (s)": "1 x DisplayPort",
+   "D-Sub (s)": "1 x D-Sub",
+   "USB (s)": "4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB:Total 6 ports\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 3 USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet\nTUF LANGuard",
+   "Supported Storage": "AMD Ryzen 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD A520 Chipset:\n4 x SATA 6Gb/s ports\nSupport RAID 0, 1, 10",
+   "Audio": "3 x Audio jacks",
+   "Internal I/O Ports": "Fan and cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n2 x AURA Addressable Gen 2 header\n2 x AURA RGB headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x 10-1 pin System Panel header",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS TUF PROTECTION\n- DIGI+ VRM\n- ESD Guards\n- TUF LANGuard\n- Overvoltage Protection\n- SafeSlot Core+\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-Slot\nASUS Thermal Solution\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack button\n- BIOS FlashBack LED\nAURA Sync\n- AURA RGB headers\n- Addressable Gen 2 RGB headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\nAI Suite 3\n- Performance And Power Saving Utility\nTurboV EVO\nEPU\nDIGI+ VRM\nFan Xpert 2+\n- EZ update\n- PC Cleaner\n- System Information\nTUF GAMING CPU-Z\nAI Charger\nASUS Turbo LAN\nDAEMON Tools\nNorton Anti-virus software (Free Trial version)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 5000/ 4000 G/ 3000 Series",
+  "Supported RAM: 4 x DIMM, Max. 128GB, DDR4",
+  "Graphics Output: 1 x DisplayPort 1.2, 1 x HDMI 2.1, 1 x D-Sub",
+  "Features: Onboard RGB headers"
+ ],
+ "price": 1260012900,
+ "regular": 13510,
+ "status": "In Stock",
+ "code": "24520",
+ "brand": "Asus",
+ "model": "TUF GAMING A520M-PLUS II",
+ "warranty": "3 Years",
+ "name": "Asus TUF GAMING A520M-PLUS II AMD AM4 microATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus TUF GAMING A520M-PLUS II AMD AM4 microATX Motherboard"
+ ],
+ "fetched": "2026-11-14T17:00+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-a520m-plus-ii-motherboard",
+ "store": "startech"
+}

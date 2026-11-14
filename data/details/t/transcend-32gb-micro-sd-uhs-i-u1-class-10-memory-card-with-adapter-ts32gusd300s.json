@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "32 GB",
+   "Flash Type": "3D NAND flash",
+   "Read Speed": "95 MB/s",
+   "Write Speed": "45 MB/s",
+   "Operating Temperature": "-25°C (-13°F) ~ 85°C (185°F)",
+   "Operating Voltage": "2.7V ~ 3.6V"
+  },
+  "Physical Attribute": {
+   "Dimension": "11 mm x 15 mm x 1 mm (0.43″ x 0.59″ x 0.04″)",
+   "Weight": "0.4 g (0.01 oz)"
+  }
+ },
+ "key_features": [
+  "Temperature proof: perform in temperature extremes from -25°C to 85°C.",
+  "Static proof: meet EMC IEC61000-4-2 standards and withstand static electricity.",
+  "X-ray proof: meet the ISO7816-1 standard and are immune to airport X-rays.",
+  "Shock proof: provide excellent shock, vibration, bending and twisting resistance."
+ ],
+ "fetched": "2026-11-14T17:03+06:00",
+ "source": "https://www.pchouse.com.bd/micro-sd-uhs-i-u1-memory-card",
+ "store": "pchouse"
+}

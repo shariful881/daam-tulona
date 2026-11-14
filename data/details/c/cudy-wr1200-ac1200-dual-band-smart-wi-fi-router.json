@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "2.4 GHz, 5 GHz",
+   "Interface": "LAN 4x 10/100/ Auto MDI/MDIX RJ45 port\nWAN 1x 10/100/ Auto MDI/MDIX RJ45 port",
+   "Wireless": "Transmission Distance: Indoor up to 100m, outdoor up to 300m (it is limited in an environment)",
+   "Button": "WPS Button, Reset Button",
+   "Others": "Modulation:\nBPSK, QPSK, CCK and OFDM (BPSK/QPSK/16-QAM/ 64-QAM)\nReceive Sensitivity@PER:\n11ac: -68dBm@10% PER; 11a: -68dBm@10% PER; 11n: -70dBm@10% PER 11g: -72dBm@10% PER; 11b: -85dBm@8% PER"
+  },
+  "Router Features": {
+   "Antenna": "4× 5dBi Fixed High Gain Antennas",
+   "Data Rate": "2.4 GHz: 300 Mbps\n5 GHz: 867 Mbps",
+   "Encryption": "64/128-bits WEP, WPA/WPA2",
+   "Operating System Support": "Microsoft Windows 8 SE/ NT/ 2000/ XP/ Vista/ 7/ 8/ 8.1/ 10, MAC OS, NetWare, UNIX or Linux"
+  },
+  "Connector & Ports": {
+   "Network Standard": "2.4GHz: IEEE802.11n, IEEE802.11g, IEEE 802.11b\n5.0GHz: 802.11ac, IEEE 802.11n, IEEE 802.11a, IEEE802.3. IEEE802.3u, IEEE802.3ab"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "204.8 x 137. 5 x 38. 3mm",
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 year",
+ "fetched": "2026-11-14T17:07+06:00",
+ "source": "https://www.pchouse.com.bd/cudy-wr1200-ac1200-dual-band-smart-wi-fi-router",
+ "store": "pchouse"
+}

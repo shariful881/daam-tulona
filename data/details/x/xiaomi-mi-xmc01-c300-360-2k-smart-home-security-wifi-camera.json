@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Power": {
+   "Power Supply": "5V=1A (Input)"
+  },
+  "General": {
+   "Model": "Xiaomi C300",
+   "Usage": "Indoor",
+   "Type": "IP Camera",
+   "Part No": "XMC01"
+  },
+  "Network & Wireless Connectivity": {
+   "Wi-Fi": "Yes",
+   "Wi-Fi Details": "Wi-Fi IEEE 802.11b/g/n 2.4GHz"
+  },
+  "Technical Specification": {
+   "Mic & Speaker": "No",
+   "Working Distance": "Unmentioned",
+   "Video Type": "H.265"
+  },
+  "Camera Info": {
+   "Camera Type": "Fixed",
+   "Mega Pixels": "3.0MP",
+   "Max. Camera Resolution": "2304 x 1296",
+   "Night Vision": "Yes"
+  },
+  "Lens": {
+   "Lens Adjustment Range": "F1.4 (Aperture)",
+   "Viewing Angle": "360 Degree (H) , 108 Degree (V)"
+  },
+  "Physical Specification": {
+   "Dimensions": "115 x 78 x 78 mm",
+   "Weight": "327gm",
+   "Storage Supported": "Up to 256GB",
+   "Card Slot": "Yes",
+   "Storage Type": "MicroSD",
+   "Form-Factor": "Dome"
+  },
+  "Physical Specifications": {
+   "Color": "White"
+  },
+  "Security": {
+   "Human Detection": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Month (Warranty should be claimed with box including all accessories)"
+  }
+ },
+ "key_features": [],
+ "model": "Xiaomi C300",
+ "mpn": "XMC01",
+ "warranty": "6 Month (Warranty should be claimed with box including all accessories)",
+ "fetched": "2026-11-14T17:20+06:00",
+ "source": "https://www.pchouse.com.bd/xiaomi-mi-xmc01-c300-wifi-camera",
+ "store": "pchouse"
+}

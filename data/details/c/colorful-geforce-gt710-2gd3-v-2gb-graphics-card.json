@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR3",
+   "Size": "2 GB",
+   "Core Clock": "954Mhz",
+   "Memory Clock": "1000Mhz",
+   "BUS Type": "64bit",
+   "CUDA Cores": "192"
+  },
+  "Interface": {
+   "HDMI": "HDMI x 1",
+   "DVI": "DVI x 1"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300 W",
+   "Consumption": "19W"
+  },
+  "Display Option": {
+   "Multi Display": "3"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.4"
+  },
+  "Physical Specifications": {
+   "Dimensions": "167*120*26mm",
+   "Others": "VGA"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Single Fan",
+  "No Power Supply",
+  "Powered by GeForce GT710",
+  "Integrated with 2GB GDDR5 64-bit"
+ ],
+ "price": 6500,
+ "regular": 7000,
+ "status": "In Stock",
+ "code": "11917",
+ "brand": "Colorful",
+ "mpn": "212327093804",
+ "model": "Colorful GeForce GT710-2GD3-V",
+ "warranty": "2 Years",
+ "name": "Colorful GeForce GT710-2GD3-V 2GB Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "Colorful",
+  "Colorful GeForce GT710-2GD3-V 2GB Graphics Card"
+ ],
+ "fetched": "2026-11-14T17:02+06:00",
+ "source": "https://www.startech.com.bd/colorful-geforce-gt710-2gd3-v-graphics-card",
+ "store": "startech"
+}

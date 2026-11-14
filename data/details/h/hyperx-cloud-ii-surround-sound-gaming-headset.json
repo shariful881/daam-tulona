@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Headset": {
+   "Transducer type:": "dynamic Ø 53mm with neodynium magnets",
+   "Operating principle:": "closed",
+   "Frequency response:": "15Hz–25,000 Hz",
+   "Nominal impedance:": "60 Ω per system",
+   "Nominal SPL:": "98±3dB",
+   "T.H.D.:": "< 2%",
+   "Power handling capacity:": "150mW",
+   "Sound coupling to the ear:": "circumaural",
+   "Ambient noise attenuation:": "approx. 20 dBa",
+   "Headband pressure:": "5N",
+   "Weight:": "320g",
+   "Weight with microphone and cable:": "350g",
+   "Cable length and type:": "1m + 2m extension",
+   "Connection:": "single mini stereo jack plug (3.5 mm)"
+  },
+  "Microphone": {
+   "Transducer type:": "condenser (back electret)",
+   "Operating principle:": "pressure gradient",
+   "Polar pattern:": "cardioid",
+   "Power supply:": "AB powering",
+   "Supply voltage:": "2V",
+   "Current consumption:": "max 0.5 mA",
+   "Nominal impedance:": "≤2.2 kΩ",
+   "Open circuit voltage:": "at f = 1 kHz: 20 mV / Pa",
+   "Frequency response:": "50–18,000 Hz",
+   "THD:": "2% at f = 1 kHz",
+   "Max. SPL:": "105dB SPL (THD≤1.0% at 1 KHz)",
+   "Microphone output:": "-39±3dB",
+   "Length mic boom:": "150mm (include gooseneck)",
+   "Capsule diameter:": "Ø6",
+   "Connection:": "single mini stereo jack plug (3.5mm)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:08+06:00",
+ "source": "https://diamu.com.bd/product/hyperx-cloud-ii-surround-sound-gaming-headset/",
+ "store": "diamu"
+}

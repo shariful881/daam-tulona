@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Specifications": {
+   "Frequency Range (-10dB)": "45 Hz to 20 kHz",
+   "Frequency Response (±3 dB)": "62Hz – 16 kHz",
+   "Power Rating": "240 W Continuous Program (2 hrs) 120 W (480W peak), Continuous Pink Noise (2 hrs) 90 W (360W peak) Continuous Pink Noise (100 hrs)",
+   "Maximum Input Voltage": "27.5 V RMS (2 hrs), 55.0 V peak",
+   "Maximum SPL (1m)": "112 dB ave. Continuous Pink Noise (118 dB peak)",
+   "Sensitivity": "91 dB, 1W/1m (ave. 100 Hz – 10 kHz)",
+   "Coverage Angle": "100°H x 100°V",
+   "Directivity Factor (Q)": "7.3 (averaged 1kHz – 16kHz)",
+   "Directivity Index (DI)": "8.3dB (averaged 1kHz – 16kHz)",
+   "Impedance": "8 ohms (THRU setting)",
+   "Crossover Type": "2nd order low-pass, 1st order high-pass, plus conjugate shaping",
+   "Transformer Taps": "70V: 60W, 30W, 15W, 7.5W 100V: 60W, 30W, 15W Insertion Loss: <0.94 dB at any tap setting Thru Setting: 8Ω nominal",
+   "Recommended ProtectiveHigh-Pass": "45 Hz high-pass (24 dB/oct) for 8Ω operation plus 15W and 7.5W taps; 55 Hz for 30W tap; 65 Hz for 60W tap.",
+   "Enclosure": "High Impact Polystyrene (HIPS) with 10% glass fill, painted with highly-UV resistant paint on white (-WH) version for maximum UV fade resistance.",
+   "Grille": "Highly zinc-plated, finished in durable TGIC polyester powdercoating. MTC-28WMG-1 (&-WH) available with WeatherMax™ multi-layer foam and tight-weave mesh vapor barrier backing.",
+   "Mounting Hardware": "InvisiBall wall-mounting system included. Two 6 mm attachment points (on top and bottom) for optional MTC-28WMG-1 (&-WH) U-bracket. Secondary safety attachment loop point on back panel.",
+   "Safety Agency": "ROHS-compliant; Transformer UL Recognized per UL1876",
+   "Colors": "Black (RAL9004) or white (-WH, RAL9016)",
+   "Dimensions (H x W x D)": "386 x 282 x 219 mm (15.2 x 11.1 x 8.6 in); 277 mm (10.9 in) deep total when mounted on InvisiBall wall-mount bracket.",
+   "Net Weight (each)": "6.8 kg (15.0 lbs)",
+   "Shipping Weight": "15.4 kg (34 lbs) pair-packed (for 2 speakers)",
+   "Included Accessories": "InvisiBall™ wall-mounting system), 6 mm x 180 mm hex key",
+   "Optional Accessories": "MTC-28UB-1 – Yolk-type U-bracket (&-WH) MTC-28WMG-1 – WeatherMax grille with backing (&-WH) MTC-28/25CM – Ceiling-Mount InvisiBall adapter (&-WH)"
+  },
+  "Drivers": {
+   "LF": "200 mm (8 in), woven-fiberglass cone with pure butyl rubber surround with Weather-Edge frame protection, high-temp fiberglass voice coil former, high-temp voice coil wire, optimized cone geometry, linear suspension spider, and FEA optimized motor structure.",
+   "HF": "25 mm (1 in) PEI diaphragm, low-viscosity ferro-magnetic fluid, and lightweight Kapton™ voice coil former."
+  }
+ },
+ "key_features": [
+  "Components: 8 in Polypropylene coated woofer, 1” PEI diaphragm tweeter with fluid cooling."
+ ],
+ "fetched": "2026-11-14T17:11+06:00",
+ "source": "https://diamu.com.bd/product/jbl-control-28-1l-foreground-speaker/",
+ "store": "diamu"
+}

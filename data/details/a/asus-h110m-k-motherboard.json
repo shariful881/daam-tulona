@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Motherboard": {
+   "Chipset": "Intel® H110",
+   "Supported Processors": "Intel® Socket 1151 for 6th Generation Core™ i7/Core™ i5/Core™ i3/Pentium®/Celeron® Processors\nSupports Intel® 14 nm CPU\nSupports Intel® Turbo Boost Technology 2.0\n* The Intel® Turbo Boost Technology 2.0 support depends on the CPU types.",
+   "Max Memory": "2 x DIMM, Max. 32GB, DDR4 2133 MHz Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)",
+   "Onboard Video": "Integrated Graphics Processor- Intel® HD Graphics support\nMulti-VGA output support : DVI-D/RGB ports\n- Supports DVI-D with max. resolution 1920 x 1200 @ 60 Hz\n- Supports RGB with max. resolution 1920 x 1200 @ 60 Hz\nMaximum shared memory of 1024 MB\nSupports Intel® InTru™ 3D, Quick Sync Video, Clear Video HD Technology, Insider™",
+   "Onboard Audio": "Realtek® ALC887 8-Channel High Definition Audio CODEC *1\n- Supports : Jack-detection, Front Panel Jack-retasking",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Chipset- Intel H110",
+  "Intel Socket 1151 for 7th/6th Gen Core Processors",
+  "2 x DIMM, Max. 32GB, DDR4 2133",
+  "1 x PCIe 3.0/2.0 x16"
+ ],
+ "price": 1070011000,
+ "regular": 11610,
+ "status": "In Stock",
+ "code": "3197",
+ "brand": "Asus",
+ "model": "H110M-K",
+ "warranty": "3 Years",
+ "name": "ASUS H110M-K Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "ASUS H110M-K Motherboard"
+ ],
+ "fetched": "2026-11-14T16:58+06:00",
+ "source": "https://www.startech.com.bd/asus-h110m-k-motherboard",
+ "store": "startech"
+}

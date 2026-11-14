@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Liquid CPU Cooler",
+   "Fan Speed": "690-2500 RPM ± 10%",
+   "Fan Airflow": "70.7 CFM (Max)",
+   "Noise": "Pump Noise Level: 25 dBA (Max)\nFan Noise Level: 27.2 dBA (Max)",
+   "Air Pressure": "3.61 mmH₂O (Max)",
+   "Connector": "Pump Connector: 4-Pin\nFan Power Connector: 4-Pin (PWM)",
+   "Material": "Aluminum",
+   "Others": "Fan LED Type: ARGB\nFan Bearing Type: Loop Dynamic Bearing\nFan MTTF: >160,000 Hours"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator Dimensions: 277 x 119.6 x 27.2 mm / 10.9 x 4.7 x 1.1 inch\nPump Dimensions: 84.9 x 81 x 53.15 mm / 3.3 x 3.2 x 2.1 inch\nFan Dimensions (L x W x H): 120 x 120 x 25 mm / 4.7 x 4.7 x 1 inch"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA1700, LGA1200, LGA1151, LGA1150, LGA1155, LGA1156",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "05-year warranty"
+  }
+ },
+ "key_features": [
+  "Exceptional silence",
+  "Optimized user experience",
+  "Fully customizable",
+  "Refined dual chamber design"
+ ],
+ "price": 1510015300,
+ "regular": 16600,
+ "status": "In Stock",
+ "code": "33642",
+ "brand": "Cooler Master",
+ "mpn": "MLX-D24M-A25PZ-R1",
+ "model": "MasterLiquid 240 Atmos",
+ "warranty": "05-year warranty",
+ "name": "Cooler Master MasterLiquid 240 Atmos CPU Liquid Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Cooler Master",
+  "Cooler Master MasterLiquid 240 Atmos CPU Liquid Cooler"
+ ],
+ "fetched": "2026-11-14T17:03+06:00",
+ "source": "https://www.startech.com.bd/cooler-master-masterliquid-240-atmos-cpu-liquid-cooler",
+ "store": "startech"
+}

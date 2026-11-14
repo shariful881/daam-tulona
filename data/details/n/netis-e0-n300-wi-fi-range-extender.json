@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Generel information": {
+   "Data Rate": "N300\n2.4 GHz: Up to 300Mbps",
+   "Security": "None\nWPA-PSK\nWPA2-PSK\nWPA/WPA2-PSK\nWPA3\nWPA3/WPA2-PSK",
+   "Transaction": "20dBm(MAX)",
+   "Antenna": "2x3dBi 2.4GHz External Antenna",
+   "LED": "Signal/WPS/Power",
+   "RAM": "4MB",
+   "ROM": "128MB",
+   "Working Mode": "Access Point, Range Extender,WISP",
+   "Function": "Web based Configuration (HTTP),Remote Management, Firmware Upgrade",
+   "Port": "1x 10/100Mbps Auto MDI/MDIX RJ45 WAN port",
+   "Button": "1x WPS button/1x Reset to default button",
+   "Power": "100-240V~ 50/60Hz"
+  },
+  "Connectivity": {
+   "WiFi": "Wi-Fi 4\nIEEE 802.11b/g/n 2.4 GHz"
+  },
+  "Key Features": {
+   "Frequency": "2.4~2.4835GHz"
+  },
+  "Physical Information": {
+   "Dimension": "73x53x79mm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-14T17:31+06:00",
+ "source": "https://smartbd.com/product/netis-e0-n300-wi-fi-range-extender/",
+ "store": "smartbd"
+}

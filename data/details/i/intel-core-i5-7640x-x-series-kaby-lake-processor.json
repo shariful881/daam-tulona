@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Cache": "6 MB Cache",
+   "Cores": "4",
+   "Maximum Turbo Frequency": "4.20 GHz",
+   "Processor": "Processor Type: Intel® Core™ X-series Processors (6 MB Cache, 4.00 GHz Max Turbo Frequency 4.20 GHz)",
+   "Threads": "4"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "None"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "64 GB",
+   "Type": "DDR4-2666"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Speed: 4.00 GHz To 4.20 GHz",
+  "Cores: 4, Threads: 4",
+  "Cache: 6 MB"
+ ],
+ "warranty": "03 Years Warranty",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-i5-7640x-x-processor",
+ "store": "pchouse"
+}

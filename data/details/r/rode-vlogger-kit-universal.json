@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Videomicro Specification": {
+   "Acoustic Principle": "Pressure gradient",
+   "Polar Pattern": "Cardioid",
+   "Frequency Range": "100Hz – 20kHz",
+   "Signal to Noise Ratio": "75 dBA",
+   "Equivalent Noise": "20 dBA SPL (A-weighted as per IEC651)",
+   "Maximum SPL": "140 dB SPL (1 kHz @ 1m)",
+   "Sensitivity": "-33dB re 1V/Pa\n(22mV @ 94dB SPL)\n± 2dB @ 1kHz",
+   "Dynamic Range": "120dB SPL",
+   "Power Requirement": "Plug-in power required (2V-5V DC)",
+   "Microphone Output": "3.5mm TRS- mini-jack (dual mono)",
+   "SC7 Cable Output": "3.5mm TRRS mini-jack (suitable for mobile devices)"
+  },
+  "Microled Specification": {
+   "Connectivity": "USB Type-C",
+   "Lumens (LUX)": "Maximum Brightness 300\nHigh Brightness 230\nMedium Brightness 160\nLow Brightness 60",
+   "Power Requirements": "5V DC, 2A"
+  },
+  "Battery Usage Time (minutes)": {
+   "Maximum Brightness": "Up to 52",
+   "High Brightness": "Up to 75",
+   "Medium Brightness": "Up to 105",
+   "Low Brightness": "Up to 255"
+  }
+ },
+ "key_features": [
+  "VideoMicro: Compact On-Camera Microphone",
+  "DCS-1: Dual Cold Shoe Mount",
+  "SC7: 3.5mm TRS to TRRS patch cable"
+ ],
+ "fetched": "2026-11-14T17:37+06:00",
+ "source": "https://diamu.com.bd/product/rode-vlogger-kit-universal/",
+ "store": "diamu"
+}

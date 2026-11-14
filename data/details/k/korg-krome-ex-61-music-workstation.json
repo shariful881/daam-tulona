@@ -1,0 +1,79 @@
+{
+ "specs": {
+  "Specifications": {
+   "Keyboard Type": "61-Keys C2 to C7 Velocity Sensitivity is Supported; Aftertouch is Not Supported.",
+   "Tone Generating Technology": "EDS-X (Enhanced Definition Synthesis-eXpanded)",
+   "Polyphony": "120 Voices (120 Oscillators) / Single Mode\n60 Voices (120 Oscillators) / Double ModeMaximum Simultaneous Voice Polyphony Depends on Oscillator Settings (for Example: the Setting for Stereo Multisamples)",
+   "PCM Memory": "4 GB (In Case of 48 kHz,16-Bit Linear PCM Converted)\n728 Multisamples (Including 44 Stereo Multisamples)\n2502 Drumsamples (Including 574 Stereo Drumsamples)",
+   "Oscillator": "OSC1 (Single); OSC1 + 2 (Double): Stereo Multisamples are Supported\n8 Velocity Zones Per Oscillator with Switching; Crossfades and Layers",
+   "Driver": "Per-Voice Nonlinear Driver and Low Boost",
+   "Equalizer": "Three Bands with Sweepable Mid",
+   "Modulation": "Dynamic Modulation, 2 LFOs",
+   "Master Keyboard Functionality": "Control External MIDI Devices (such as Sound Modules)",
+   "Insert": "5 Insert Effects (Stereo In/Out)\n2 Master Effects (Stereo In/Out)\n1 Total Effect (Stereo In/Out)",
+   "EQ Controls": "3-Band EQ per Timbre/Track",
+   "Effect Types": "193 Types: Usable as Insert, Master, or Total Effect (Double-Size Effects Cannot Be Used as a Total Effect)",
+   "Effect Variations": "Stereo Sidechain (Limiter, Gate, Vocoder, Etc.)",
+   "Presets": "32 Per Effect",
+   "Program": "Single Polyphonic Arpeggiator",
+   "Combination": "Dual Polyphonic Arpeggiators",
+   "Patterns": "Preloaded x 960\nTotal Locations x 1088\nPreset (Arpeggios) x 5",
+   "Tracks": "16 MIDI tracks + 1 Master Track",
+   "Number of Songs": "128 Songs",
+   "Resolution": "1/480 PPQ",
+   "Tempo": "40.00 to 300.00 (1/100 BPM Resolution)",
+   "Max Memory Size": "210,000 MIDI Events",
+   "Auto Templates": "16 Preset / 16 User Template Songs",
+   "Cue Mode": "20 Cue Lists\n99 Steps",
+   "Pattern": "605 Preset / 100 User Patterns",
+   "Recording": "Patterns / RPPR (Real-Time Pattern Play and Recording)\nPer Song: 10 Presets / 100 User Patterns (Per Song)\nPattern Set Per Song x 1",
+   "Format": "KORG (KROME) Format; SMF Format 0 and 1",
+   "Media Management": "Load, Save, Utility, Data Filer Functionality (Save and Load MIDI System Exclusive Data)",
+   "Joystick": "Joystick, SW [1], SW [2]",
+   "Realtime Controllers": "Select\nTone, Arpeggio\nKnobs: 4\nReal-Time Modulation",
+   "Drum Sound Module": "On/Off",
+   "Arpeggiator": "On/Off",
+   "Display": "TouchView Graphical User Interface\n7-Inch Color TFT LCD, 800 x 480 pixels\nOnboard LCD Brightness Control",
+   "Audio Output": "1 x 1/4″ / 6.3 mm TS (L / Mono)\n1 x 1/4″ / 6.3mm TS (R)\nOutput Impedance: 1100 Ohms, 550 Ohms with Mono Output\nMaximum level: 16 dBu\nLoad Impedance: >10 Ohms",
+   "MIDI": "In/Out",
+   "USB Port": "1 x USB Type-B",
+   "Mac System Requirements": "Mac OS X 10.5 or Later\nIntel Mac Supported\nUSB Port Supported: Mac OS X 10.6 or Later\nLater Core Duo Recommended\nMemory: >512 MB (at Least 1 GB Recommended)\nMonitor: 1024 x 768, at Least 32,000 Colors\nAvailable USB Port",
+   "Windows System Requirements": "Windows Vista SP2 / 7 (all editions)\nCPU: Intel Pentium 4, >1 GHz\nLater Core Duo recommended\nMemory: >512 MB (1 GB Recommended)\nMonitor: 1,024 x 768, at Least 16-Bit Color\nAvailable USB Port",
+   "Power Supply": "12 VDC 3.5 A",
+   "Power Consumption": "13 W",
+   "Power Switch": "Yes",
+   "Dimensions": "40.4 x 12.3 x 3.7″ / 102.7 x 31.3 x 9.3 cm",
+   "Weight": "15.9 lb / 7.2 kg"
+  },
+  "Filters": {
+   "Filter Routing": "Four Types (Single, Serial, Parallel, 24 dB)",
+   "Per Oscillator": "Two Multimode Filters  (Low Pass, High Pass, Band Pass, Band Reject)"
+  },
+  "Combination": {
+   "Timbres": "16 x Split/Layer/Velocity Switching with Crossfading & Modifications via Tone-Adjust Function",
+   "MIDI Controller Functionality": "Customizable MIDI Channel and Internal/External/Both settings per Timbre",
+   "Master Keyboard Functionality": "Available for Controlling External MIDI Devices"
+  },
+  "Drum Track": {
+   "Preset Patterns": "710 Patterns (Common with The Preset Pattern of The Sequencer Mode)",
+   "User Patterns": "1000 Patterns (Pattern Created in Sequencer Mode can be Converted to Drum Track User Pattern)"
+  },
+  "Headphone Output": {
+   "TRS Stereo": "1 x 1/8″ / 3.5 mm",
+   "Output Impedance": "33 Ohms",
+   "Maximum Level": "60 + 60 mW with 33-Ohm Load"
+  },
+  "Control Input": {
+   "Swich": "Assignable",
+   "Pedal": "Assignable"
+  },
+  "SD Card Slot": {
+   "Max": "32 GB / SDHC Memory Card",
+   "Note": "SDXC Memory Cards are Not Supported"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:16+06:00",
+ "source": "https://diamu.com.bd/product/korg-krome-ex-61-music-workstation/",
+ "store": "diamu"
+}

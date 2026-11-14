@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "16GB",
+   "Frequency": "5600MHz",
+   "Operating voltage": "SPD Voltage: 1.1V\nTested Voltage: 1.25V",
+   "Latency": "36-36-36-76"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Anodized Aluminum Black",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "RAM Size: 16GB, Speed: 5600MHz",
+  "Latency: 36-36-36-76",
+  "Compatibility: Intel 600 Series",
+  "Performance Profile: XMP 3.0"
+ ],
+ "status": "Out Of Stock",
+ "code": "31052",
+ "brand": "Corsair",
+ "mpn": "CMK32GX5M2B5600C36W",
+ "model": "VENGEANCE DDR5",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE 16GB DDR5 5600MHz RAM White",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE 16GB DDR5 5600MHz RAM White"
+ ],
+ "fetched": "2026-11-14T17:06+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-16gb-ddr5-5600mhz-ram-white",
+ "store": "startech"
+}

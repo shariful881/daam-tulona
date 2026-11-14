@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "6TB",
+   "Disk Type": "SATA Desktop HDD",
+   "RPM": "5400 RPM",
+   "Interface Type": "SATA 6Gb/S",
+   "Data Buffer": "256MB"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 6TB",
+  "Interface: SATA 6.0Gb/s",
+  "Cache: 256MB",
+  "RPM Class: 5400 rpm"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/barracuda-6tb-sata-5400rpm-hdd",
+ "store": "pchouse"
+}

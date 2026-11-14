@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "18TB",
+   "Interface": "SATA III (6 Gb/s)",
+   "Disk Type": "Internal HDD",
+   "RPM": "7200 rpm"
+  },
+  "Read/Write Speed": {
+   "Write Speed Random": "550 IOPS 4 KB Files",
+   "Maximum": "270 MB/s",
+   "Random": "170 IOPS 4 KB Files"
+  },
+  "Physical Specifications": {
+   "Size": "4.01 x 1.03 x 5.79\" / 101.85 x 26.11 x 147 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "05 years warranty",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/seagate-exos-x18-18tb-hdd",
+ "store": "pchouse"
+}

@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "WiFi 5"
+  },
+  "IEEE802.11b/g/n  2.4GHz": {
+   "WiFi Speeds": "AC1200"
+  },
+  "2.4GHz:  300 Mbps (802.11n)": {
+   "WiFi Range": "3 Bedroom Houses"
+  },
+  "4x Fixed High-Performance Antennas": {
+   "WiFi Capacity": "Dual-Band"
+  },
+  "Airtime Fairness": {
+   "Working Modes": "AP Router Mode, AP Mode, WISP Mode, Client Mode, Repeater Mode"
+  },
+  "Hardware": {
+   "Processor": "1GHz CPU",
+   "Main Chipset": "RTL8197FH-VG5+RTL8812FR",
+   "DDR/FLASH": "128MB/8MB",
+   "Interface": "1x Fast WAN Port + 3x Fast LAN Ports",
+   "Buttons": "WPS,RESET",
+   "Power": "12V1A"
+  },
+  "Software": {
+   "WiFi Encryption": "WEP, WPA-PSK, WPA2-PSK, WPA/WPA2-PSK",
+   "Network Security": "Access Control, IP & MAC Binding",
+   "Guest Network": "4*5GHz Guest Network /4*2.4GHz Guest Network",
+   "Protocols": "IPv4, IPv6",
+   "WAN Types": "DHCP, Static IP, PPPoE, L2TP, PPTP",
+   "Quality of Service": "QoS by Device",
+   "Forwarding": "Virtual Servers, DMZ, UPnP",
+   "IPTV": "Bridge, Tag VLAN",
+   "DHCP": "Address Reservation, DHCP Client List, DHCP Server",
+   "Access Control": "IP Filtering, MAC Filtering, Domain Filtering, IPv6 Filtering",
+   "Dynamic DNS": "DynDns, no-ip",
+   "IGMP": "IGMP Proxy, IGMP Snooping",
+   "VPN": "PPTP Pass-through, L2TP Pass-through, IPSEC Pass-through, SIP Pass-through"
+  },
+  "Physical": {
+   "Dimensions(W×D×H)": "228*134*188mm",
+   "Package Contents": "1* NC21"
+  },
+  "Contact Information": {
+   "Name": "Masud Rana",
+   "Phone Number": "01730-701997",
+   "Email": "masud.rana@smartbd.com"
+  }
+ },
+ "key_features": [
+  "Band: Dual",
+  "Router Type: Wireless & Ethernet",
+  "Wi-Fi Generation: Wi-Fi 5",
+  "Wi-Fi Coverage (Approximate): Up to 2000 sq. ft.",
+  "SIM Card Slot Included: No",
+  "Antenna (Type & Qty): 4 x Fixed High-Performance Antennas",
+  "Color: White"
+ ],
+ "fetched": "2026-11-14T17:31+06:00",
+ "source": "https://smartbd.com/product/netis-nc21-ac1200-mbps-dual-band-wi-fi-5-router/",
+ "store": "smartbd"
+}

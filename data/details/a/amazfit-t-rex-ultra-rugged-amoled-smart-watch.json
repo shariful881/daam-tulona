@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Others": "Motor: Linear motor",
+   "Sensor": "Health: BioTracker PPG biometric sensor (supports blood-oxygen)\nMovement:\nAcceleration sensor\nGyroscope sensor\nGeomagnetic sensor\nBarometric altimeter / Depth gauge (with water temperature readings)\nAmbient light sensor\nPositioning: Dual-band & 6 satellite positioning systems"
+  },
+  "BASIC Information": {
+   "Supported Apps/ Software": "Zepp App"
+  },
+  "Display": {
+   "Material": "AMOLED",
+   "Size": "1.39\"",
+   "Resolution": "454x454",
+   "PPI": "326",
+   "Touchscreen": "Glass material"
+  },
+  "Battery": {
+   "Battery Capacity": "500 mAh (rated value）",
+   "Theoretical Charging Duration": "Approx. 2 hours",
+   "Typical Usage Scenario Battery Life": "Up to 20 days",
+   "Battery Saver Mode Battery Life": "Up to 25 days",
+   "Clock Mode Battery Life": "Up to 50 days",
+   "Heavy Usage Scenario Battery Life": "Up to 9 days",
+   "Accuracy GPS Mode": "Up to 28 hours",
+   "Automatic GPS Mode": "Up to 46 hours",
+   "Power Saving GPS Mode": "Up to 58 hours",
+   "Charging Method": "Magnetic charging base"
+  },
+  "Display Details": {
+   "Connectivity": "WLAN 2.4GHz, Bluetooth 5.0 BLE",
+   "Material": "Strap Materials: Silicone",
+   "OS Support": "Android 7.0 and above, iOS 12.0 and above"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "47.3x47.3x13.45mm",
+   "Color": "Abyss Black, Sahara",
+   "Weight": "89g"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Display: AMOLED 1.39\" (454x454)",
+  "Water-resistance Grade: 10 ATM",
+  "Battery Capacity: 500 mAh",
+  "Sensors: BioTracker PPG biometric, Acceleration, Gyroscope, Geomagnetic"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-14T17:40+06:00",
+ "source": "https://www.pchouse.com.bd/amazfit-t-rex-ultra-rugged-amoled-smart-watch",
+ "store": "pchouse"
+}

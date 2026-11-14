@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specifications": {
+   "Interface": "1 10/100Mbps LAN Port, 1 10/100Mbps LAN/WAN Port,\n1 Micro SIM Card Slot",
+   "Button": "WPS/Reset Button",
+   "External Power Supply(EU)": "9V/0.85A",
+   "Dimensions ( W x D x H )": "6.06×4.49×1.42 in ( 154×114×36 mm)",
+   "Antenna": "2 Detachable External 4G LTE Antennas",
+   "Wireless Standards": "IEEE 802.11b/g/n",
+   "Frequency": "2.4 GHz",
+   "Signal Rate": "300 Mbps",
+   "Reception Sensitivity": "11g 54M: -74 dBm\n11n HT20: -71 dBm\n11n HT40: -68 dBm",
+   "Transmit Power": "< 20 dBm (2.4 GHz)",
+   "Wireless Functions": "Enable/Disable Wireless Radio, Wireless Schedule, WMM, Wireless\nStatistics",
+   "WAN Failover": "Yes",
+   "Wireless Security": "64/128-bit WEP, WPA/WPA2, WPA-PSK/WPA2-PSK encryptions",
+   "Network Type": "4G: FDD-LTE: B1/B3/B5/B7/B8/B20 (2100/1800/850/2600/900/800 MHz)\nTDD-LTE: B38/B40/B41 (2600/2300/2500 MHz)\n3G: HSPA/UMTS: B1/B5/B8 (2100/850/900 MHz)",
+   "Security": "IPv4 SPI Firewall, IP and MAC Address Binding",
+   "Operating Modes": "3G/4G Router, Wireless Router",
+   "WAN Type": "Dynamic IP/Static IP/PPPoE/PPTP(Dual Access)/L2TP(Dual Access)",
+   "Management": "Local Management, Remote Management",
+   "DHCP": "Server, DHCP Client List, Address Reservation",
+   "Port Forwarding": "ALG, Virtual Server, Port Triggering, UPnP, DMZ",
+   "Dynamic DNS": "DynDns, NO-IP",
+   "Protocols": "IPv4, IPv6",
+   "Guest Network": "2.4 GHz Guest Network",
+   "Administration": "Upgrade Firmware, Factory Default, System Log, Diagnostic Tools",
+   "Certification": "CE, RoHS",
+   "Package Contents": "300 Mbps Wireless N 4G LTE TL-MR100\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide",
+   "Requirements": "Microsoft Windows 98SE/NT/2000/XP/Vista™/7/8/8.1/10, MAC OS,\nNetWare, UNIX or Linux\nInternet Explorer 11, Firefox 12.0, Chrome 20.0, Safari 4.0, or other\nJava-enabled browser\nMicro SIM Card"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉ ~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:03+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-tl-mr100-300-mbps-wireless-n-4g-lte-router/",
+ "store": "diamu"
+}

@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Printer": {
+   "Color Output": "Black and White and Color",
+   "Input Capacity": "Up to 520 sheets of 80 g/m2 Plain Paper",
+   "LAN": "10BASE-T/100BASE-TX/1000Base-T",
+   "Output Capacity": "Up to 250 Sheets of 80 g/m2 Plain Paper (face down delivery to the face down output paper tray)",
+   "Paper Size": "A4, Letter, B5 (ISO/JIS), A5, A5(Long Edge), A6, Executive, Legal, Folio, Exe, LTR, LGL, C5 Envelope, Com-10, DL Envelope, Monarch",
+   "Print Resolution": "Up to 1200 x 1200 dpi",
+   "Weight": "13.4 kg",
+   "Duplex Printing": "Yes",
+   "Others": "NFC: Yes",
+   "Paper Type": "Plain Paper, Letterhead, Coloured Paper, Thin Paper, Recycled Paper, Thick Paper",
+   "Paper Weight": "80 g/m2",
+   "Print Technology": "Laser",
+   "Toner": "TN-3417 Toner (3000 pages)\nTN-3467 Toner (12000 pages)\nTN-3487 Toner (20000 pages)",
+   "USB": "Hi-Speed USB 2.0",
+   "Wi-Fi": "IEEE 802.11b/g/n (Infrastructure/Ad-hoc Mode)\nIEEE 802.11g/n (Wi-Fi Direct)",
+   "Display": "1.8\" TFT Color LCD",
+   "Dimensions": "400 mm x 396 mm x 288 mm",
+   "Power": "220 to 240 V AC 50/60Hz",
+   "Color": "White"
+  },
+  "Power Consumption": {
+   "POWER CONSUMPTION - READY": "Approximately 32 W at 25 °C",
+   "POWER CONSUMPTION - SLEEP": "Approximately 7.3 W",
+   "POWER CONSUMPTION - POWER OFF": "Approximately 0.04 W"
+  },
+  "Print Speed": {
+   "Black and White": "Up to 50/52 ppm",
+   "Color": "Up to 52 ppm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Print Speed: 50 ppm",
+  "Resolution:1200 x 1200 dpi",
+  "Connectivity:Hi-Speed USB 2.0"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-14T17:10+06:00",
+ "source": "https://www.pchouse.com.bd/brother-hl-l6400dw-printer",
+ "store": "pchouse"
+}

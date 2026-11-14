@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "DESIGN": {
+   "Weight": "22.5 g",
+   "Shape": "Rectangle",
+   "Thickness": "9.99 mm"
+  },
+  "DISPLAY": {
+   "Touch": "Yes",
+   "Size": "1.74″",
+   "Resolution": "336 x 480 pixels",
+   "PPI": "336 ppi",
+   "Features": "Always On Display",
+   "Type": "Color AMOLED"
+  },
+  "FEATURES": {
+   "Water Resistant": "Yes",
+   "Water Resistant Depth": "50 m",
+   "Water Resistant Certificate": "IP68",
+   "Dust Proof": "Yes",
+   "Scratch Resistant": "Yes",
+   "Meters and sensors": "Pedometer, Heart Rate Monitor, SpO2 (Blood Oxygen) Monitor, Calorie Count, Step Count, Sleep Monitor",
+   "Extra Features": "Alarm Clock, Stopwatch, Timer, Reminder",
+   "Incoming Call Notify": "Yes",
+   "Text Message Notify": "Yes",
+   "Alarm Clock": "Yes",
+   "Timer": "Yes",
+   "Stopwatch": "Yes",
+   "Reminder": "Yes",
+   "Calorie Meter": "Yes",
+   "Steps Count": "Yes",
+   "Heart Rate Monitor": "Yes"
+  },
+  "TECHNICAL": {
+   "Compatible OS": "Android v6.0, iOS 12 or above",
+   "Compatible Devices": "Smartphones"
+  },
+  "CONNECTIVITY": {
+   "Bluetooth": "Yes, 5.3",
+   "GPS": "Yes",
+   "Sensors": "Barometer, Proximity sensor",
+   "Extra Features": "NFC, GLONASS, Galileo"
+  }
+ },
+ "key_features": [
+  "Resolutions : 336 x 480 pixels"
+ ],
+ "fetched": "2026-11-14T17:02+06:00",
+ "source": "https://diamu.com.bd/product/xiaomi-smart-band-8-pro/",
+ "store": "diamu"
+}

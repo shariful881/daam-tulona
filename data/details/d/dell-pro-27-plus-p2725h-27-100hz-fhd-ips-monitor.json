@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "P2725H",
+   "Monitor": "Dell 27 Monitor – P2725H",
+   "Diagonal Viewing Size": "686 mm (27.0 inches)",
+   "PRESET DISPLAY AREA (H X V)": "597.89 mm x 336.31 mm (23.54 inches x 13.24 inches)",
+   "Maximum Preset Resolution": "1920 x 1080 at 100 Hz",
+   "Aspect Ratio": "16:09",
+   "Pixel Pitch": "0.3114 mm x 0.3114 mm",
+   "Pixel Per Inch (PPI)": "81.57",
+   "Brightness": "300 cd/m2\n(typical)",
+   "Color depth:": "16.7 million colors",
+   "Contrast Ratio": "1,500: 1 (typical)",
+   "Viewing Angle": "178° vertical / 178° horizontal",
+   "Response Time": "5ms gray-to-gray (Fast mode)\n8ms gray-to-gray (Normal mode)",
+   "Panel Type": "In-Plane Switching Technology (IPS)",
+   "Display Screen Coating": "Anti-Glare",
+   "TÜV EYE COMFORT": "Yes, 4-Star",
+   "Backlight Technology": "LED edgelight system",
+   "ComfortView Plus with Flicker-free screen": "Yes",
+   "Dell Display Manager Compatibility": "Yes",
+   "Remote Asset Management": "Yes, via Dell Command I Monitor",
+   "GSA/TAA": "Yes",
+   "Optional Soundbar": "SB521A",
+   "Connectors": "1 x HDMI 1.4 (HDCP 1.4)"
+  },
+  "Color Support": {
+   "Color Gamut": "99% sRGB",
+   "Color Depth": "Up to 16.7 million colors"
+  },
+  "1 x VGA": {
+   "HDCP Support": "HDMI HDCP 1.4"
+  },
+  "Dp Hdcp 1.4": {
+   "Height adjustable stand": "150 mm",
+   "Tilt": "(-5° to 21°)",
+   "Swivel": "(-45° to 45°)",
+   "Pivot": "(-90° to 90°)",
+   "Flat Panel Mount Interface": "VESA (100 mm x 100 mm)",
+   "AC input voltage/frequency/current": "100 VAC to 240 VAC / 50 Hz or 60 Hz ± 3 Hz / 1.5 A (typical)",
+   "Power Consumption (Operational)": "0.3 W (Off mode)"
+  },
+  "74 W (Max.)": {
+   "Power Consumption Stand by / Sleep": "Less than 0.3W",
+   "HEIGHT WITH STAND (COMPRESSED ~ EXTENDED)": "384.56 mm ~ 534.56 mm (15.14” ~ 21.05”)",
+   "Dimensions (with stand) Width": "610.68 mm (24.04 inches)",
+   "Dimensions (with stand)Depth": "192.28 mm (7.57 inches)",
+   "Weight (panel only – for VESA mount/ no cables)": "4.03 kg (8.88 lbs)",
+   "Weight (with packaging)": "8.47 kg (18.67 lbs)",
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 5ms GTG (Fast), Anti-glare",
+  "Connectivity: 1x DisplayPort, 1x HDMI, 1x VGA",
+  "Features: Flicker Free, TUV Eye Comfort"
+ ],
+ "model": "P2725H",
+ "warranty": "3 Years",
+ "fetched": "2026-11-14T17:00+06:00",
+ "source": "https://smartbd.com/product/dell-pro-27-plus-p2725h-27-inch-100hz-fhd-1920x1080-ips-monitor/",
+ "store": "smartbd"
+}

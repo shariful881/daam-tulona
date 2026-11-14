@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "40000mAh",
+   "Interface": "Micro-USB, USB, Type-C, Lightning"
+  },
+  "Power Bank Features": {
+   "Input interface": "Micro USB, Lightning & USB Type-C",
+   "Output interface": "Quad USB & USB Type-C"
+  },
+  "Features": {
+   "Others": "Display: Yes"
+  },
+  "Connectivity": {
+   "Power": "Input Current: 5V=2A,9V=2A (Micro), 5V=2A (Lightning), 5V=2A,9V=2A (Type-C)"
+  },
+  "Physical Specification": {
+   "Body Material": "ABS + PC",
+   "Color": "Black",
+   "Weight": "814.3 gm"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year (Warranty must be claimed with original box & all accessories)"
+  }
+ },
+ "key_features": [
+  "Capacity: 40000mAh",
+  "Input: Micro: 5V 2A, 9V=2A LIGHTNING: SV=2A TYPE-C: 5V 2.4A, 9V=2A",
+  "Output: USB1: 5V 3A, 9V 2A, 12V=1.5A USB2/3/4: 5V 3A",
+  "Total Output: (USB+TYPE-C): 5V=3.6A(max)"
+ ],
+ "warranty": "1 Year (Warranty must be claimed with original box & all accessories)",
+ "fetched": "2026-11-14T17:46+06:00",
+ "source": "https://www.pchouse.com.bd/havit-pb56-40000mah-black-power-bank",
+ "store": "pchouse"
+}

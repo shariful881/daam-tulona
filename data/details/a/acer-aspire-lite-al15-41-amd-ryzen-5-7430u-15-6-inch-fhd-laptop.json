@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 5 7430U",
+   "Frequency": "2.30GHz – 4.30GHz",
+   "Generation": "Not Applicable"
+  },
+  "Display": {
+   "Display Size (Inch)": "15.6",
+   "Display Type": "FHD LED Display",
+   "Display Resolution": "1920×1080"
+  },
+  "Memory": {
+   "RAM": "Dual-channel 16GB (8X2) DDR4 3200 MHz Ram-Upgradable up to 32GB",
+   "SSD": "512GB NVMe Gen4 SSD-Upgradable up to 1TB",
+   "Hard Drive": "No HDD"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Readon Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Memory   Accessibility": "Integrated"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD WebCam",
+   "Speaker": "HD Audio, Stereo Speakers",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "No",
+   "Card Reader": "No",
+   "USB 3 Port": "1 x USB 3.2 Gen1 Type-A",
+   "HDMI Port": "1",
+   "USB 2 Port": "2 x USB 2.0 Type-A",
+   "USB Type-C": "1 x USB 3.2 Gen2 Type-C",
+   "Headphone Port": "Combo"
+  },
+  "Network &  Connectivity": {
+   "LAN": "Yes",
+   "WiFi": "WIFI 5",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Free-Dos"
+  },
+  "Battery": {
+   "Battery Type": "Lithium Ion (Li-Ion)",
+   "Battery Capacity": "3 Cell (36Wh)"
+  },
+  "Others": {
+   "Color": "Steel Gray",
+   "Dimensions": "360.4 x 239.3 x 19.9mm",
+   "Weight": "1.59 kg",
+   "Warranty": "2 Year (1 Year Traveles) (1 year for Battery and Adapter)"
+  }
+ },
+ "key_features": [
+  "Processor: Ryzen 5 7430U (up to 4.3 GHz)",
+  "RAM: 16GB DDR4 3200 MHz, Storage: 512GB NVMe Gen4 SSD",
+  "Display: 15.6″ FHD (1920×1080) LED Display",
+  "Features: Stereo Speaker, Ethernet (RJ45)"
+ ],
+ "warranty": "2 Year (1 Year Traveles) (1 year for Battery and Adapter)",
+ "fetched": "2026-11-14T16:59+06:00",
+ "source": "https://smartbd.com/product/acer-aspire-lite-al15-41-amd-ryzen-5-7430u-15-6-inch-fhd-laptop/",
+ "store": "smartbd"
+}

@@ -1,0 +1,23 @@
+{
+ "specs": {
+  "JTS MK-680 Specifications": {
+   "Type": "Moving Coil Dynamic",
+   "Frequency Response": "50~16,500 Hz",
+   "Polar Pattern": "Supercardioid, rotationally Symmetrical about microphone axis,uniform with frequency",
+   "Sensitivity (at 1,000Hz)": "-75±3dB*(0.18mV)*0dB=1V /μbar",
+   "Impedance": "600Ω",
+   "Phasing": "Positive pressure on diaphragm produces positive voltage on pin2 with respect to pin3",
+   "Connector": "Three-pin professional audio connector (male XLR type)",
+   "Net Weight": "350 grams (cable excluded)"
+  }
+ },
+ "key_features": [
+  "Type: Moving Coil Dynamic",
+  "Frequency Response: 50~16,500 Hz",
+  "Polar Pattern: Supercardioid,",
+  "Impedance: 600Ω"
+ ],
+ "fetched": "2026-11-14T17:16+06:00",
+ "source": "https://diamu.com.bd/product/jts-mk-680-wired-wireless-microphone/",
+ "store": "diamu"
+}

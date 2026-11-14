@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Printer": {
+   "Input Capacity": "250 pages",
+   "LAN": "IEEE 802.3 10/100/1000Base-Tx",
+   "Output Capacity": "150 pages",
+   "Paper Size": "A4, A5, JIS B5, IS0 B5, A6, Letter, Legal, Executive, Folio, Oficio, Statement, Japanese Postcard, Monarch Env, DL Env, C5 Env, C6 Env, No.10 Env, ZL, Big 16K, Big 32K, 16K, 32K, B6, Yougata4, Postcard, Younaga3, Nagagata3, Yougata2",
+   "Power Consumption": "Print average ≤650W\nReady ≤50W\nSleep ≤1W",
+   "Resolution": "1200x1200dpi (Max)",
+   "Weight": "9.3 kg",
+   "Duplex Printing": "Auto",
+   "Duty-Cycle": "100000 pages",
+   "First-Print-Out Time": "Less than 6.9 seconds",
+   "Paper Type": "Paper (plain, thick, thin, recycled), Transparency, Cardstock, Label, Envelope",
+   "Print Speed": "40ppm(A4)/42ppm(Letter)",
+   "Print Technology": "Mono laser",
+   "USB": "High-speed USB2.0",
+   "Display": "2 Line LCD",
+   "Dimensions": "364 x 344 x 257mm",
+   "Power": "110V: AC100-127V, 50/60Hz, 14A\n220V: AC220-240V, 50/60Hz, 7A",
+   "Color": "White"
+  },
+  "Paper Weight": {
+   "Input tray": "60-105g/㎡",
+   "Multipurpose tray": "60-200g/㎡",
+   "Optional tray": "60-120g/㎡"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-14T17:16+06:00",
+ "source": "https://www.pchouse.com.bd/pantum-bp5100dn-mono-laser-printer",
+ "store": "pchouse"
+}

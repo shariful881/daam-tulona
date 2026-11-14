@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR5",
+   "Size": "2GB",
+   "Resolution": "Digital Max Resolution: 3840 x 2160",
+   "Core Clock": "902 MHz",
+   "Memory Clock": "5010 MHz",
+   "BUS Type": "PCI Express 2.0",
+   "Memory Interface": "64-bit",
+   "CUDA Cores": "384"
+  },
+  "Interface": {
+   "HDMI": "Yes x 4 (Native HDMI 1.4b)",
+   "HDCP": "HDCP Support Yes (2.2)"
+  },
+  "Power Specifications": {
+   "Recommended PSU": "300W"
+  },
+  "Display Option": {
+   "Multi Display": "Up to 4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "OpenGL 4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "148 x 105 x 18 mm\n5.8 x 4.1 x 0.7 inches",
+   "Others": "Slot: 1 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "02-Year Warranty"
+  }
+ },
+ "key_features": [
+  "OC mode: 927 MHz (Boost Clock)",
+  "Gaming mode: 902 MHz (Boost Clock)",
+  "Memory Type: GDDR5, Memory Bus: 64-bit",
+  "Output: 4 x HDMI 1.4b, HDCP Support"
+ ],
+ "price": 1630016500,
+ "regular": 17690,
+ "status": "In Stock",
+ "code": "25779",
+ "brand": "Asus",
+ "mpn": "GT730-4H-SL-2GD5",
+ "model": "Geforce Gt 730",
+ "warranty": "02-Year Warranty",
+ "name": "Asus Geforce GT 730 2GB GDDR5 Graphics Card with 4 HDMI Ports",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "Asus Geforce GT 730 2GB GDDR5 Graphics Card with 4 HDMI Ports"
+ ],
+ "fetched": "2026-11-14T16:58+06:00",
+ "source": "https://www.startech.com.bd/asus-gt-730-2gb-gddr5-graphics-card",
+ "store": "startech"
+}

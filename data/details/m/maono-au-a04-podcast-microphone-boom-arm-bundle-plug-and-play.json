@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Microphone Type": "Plug & Play USB Professional Cardioid Condenser\nMic Connector Type: USB, 3.5 mm JackConnections Auxiliary, USB power: Source Corded Electric",
+   "Sound Level": "145 dB SPL, 1 kHz at 1% T.H.D.; 155 dB SPL, with 10 dB pad (nominal)",
+   "Includes": "Condenser Mic, Adjustable Scissor Arm Stand, Tripod Metal Shock Mount, Pop Filter, Foam Mic Windscreen, Table Mounting Clamp, USB-B to 3.5mm Cable.",
+   "Switch": "Flat, roll-off; Touch 10 dB pad (nominal)",
+   "Noise/Signal": "12 dB SPL"
+  },
+  "Main Spec": {
+   "Frequency Range": "20-19,200 Hz",
+   "Sensitivity": "-32 dB (25.1 mV) re 1V at 1 Pa",
+   "Output Impedance": "100 ohms",
+   "Dimension": "170.0 mm (6.69″) long, 52.0 mm (2.05″) maximum body diameter",
+   "Cable": "48V DC, 4.2 mA typical",
+   "Polar pattern": "Cardioid",
+   "Connector": "Integral 3-pin XLRM-type"
+  },
+  "Using the Microphone": {
+   "Audio recorders": "yes",
+   "For DSLR": "yes",
+   "PC": "yes",
+   "Smartphone": "yes"
+  }
+ },
+ "key_features": [
+  "Brand Name: MAONO",
+  "Microphone-core: Dia.16mm Condenser",
+  "Polar Pattern: Cardioid",
+  "Frequency Response: 30Hz-16kHz",
+  "Sampling Rate: 192kHz/24bit",
+  "Sensitivity: -38dB+/-3dB (0dB=1V/Pa at 1kHz)"
+ ],
+ "fetched": "2026-11-14T17:23+06:00",
+ "source": "https://diamu.com.bd/product/maono-au-a04-microphone/",
+ "store": "diamu"
+}

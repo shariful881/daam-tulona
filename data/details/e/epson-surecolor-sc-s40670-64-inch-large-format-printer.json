@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Product Description": {
+   "Item": "Product Description",
+   "Model": "SureColor SC-S40670",
+   "Country of Origin": "JAPAN",
+   "Country of Manufacture": "Indonesia/Vietnam/China/Philippine/Thailand",
+   "Printer Width": "163 cm / 64 inch"
+  },
+  "Printing Technology :": {
+   "Print Head": "PrecisionCore™ TFP® Printhead",
+   "Nozzle Configuration": "360 x 2 nozzles each colour (x4)",
+   "Maximum Resolution": "1440 x 1440 dpi",
+   "Minimum Ink Droplet Volume": "4.2 pl"
+  },
+  "Print Speed:": {
+   "Max Speed – 1 pass": "Up to 58.4 m2/h (360 x 720 dpi)",
+   "High Speed – 2 pass (Billboard)": "Up to 29.4 m2/h (720 x 720 dpi)",
+   "Production 1 – 3 pass": "Up to 20.8 m2/h (720 x 720 dpi)",
+   "Production 2 – 4 pass": "Up to 16.6 m2/h (720 x 720 dpi)",
+   "Production 3 – 6 pass": "Up to 11.0 m2/h (720 x 1440 dpi)",
+   "High Quality – 8 pass": "Up to 8.6 m2/h (720 x 1440 dpi)",
+   "Max Quality 1 – 12 pass": "Up to 4.7 m2/h (1440 x 1440 dpi)",
+   "Max Quality 2 – 16 pass": "Up to 3.5 m2/h (1440 x 1440 dpi)",
+   "Max Quality 3 – 24 pass": "Up to 2.6 m2/h (1440 x 1440 dpi)"
+  },
+  "Ink System:": {
+   "Ink Type": "Epson UltraChrome™ GS3 ink technology",
+   "Colors": "4 colours – Cyan, Magenta, Yellow, Black",
+   "Ink Capacity": "700 mL ink cartridge"
+  },
+  "Paper Handling:": {
+   "Roll Diameter / Weight": "Rear roll feed (2″ / 3″ core with max 250 mm diameter and up to 45 kg), Auto take-up reel",
+   "Printable Area": "Max printing width: 1616 mm; Side Margin: 5 mm (both sides), 10 mm with media holding plates",
+   "Media Width": "300 to 1626 mm",
+   "Media Thickness": "Up to 1 mm",
+   "Heaters": "Pre- and Platen-heater (30 to 50°C); After-heater (30 to 55°C)",
+   "Control Panel": "6.9 cm (2.7″) colour LCD"
+  },
+  "Connectivity:": {
+   "Interface": "Hi-speed USB 2.0, 100BASE-TX / 1000BASE-T",
+   "Printer Languages": "Standard: ESC/P raster",
+   "Printer Drivers": "NA",
+   "Memory": "512 MB main + 128 MB network",
+   "Software": "Standard: CD Installer, Communication Driver, EPSON Manuals Launcher, Operators Guides, General Information, Epson Control Dashboard, Epson Net Config, Epson Net Setup, Epson Net Print, Epson Software Updater",
+   "Other Features": "Auto Head Alignment Technology (Media feed and Bi-directional), Auto Nozzle Check System, Mail Report System, Custom Paper Backup"
+  },
+  "Power and Operating Requirements": {
+   "Power Requirements": "Input voltage AC 100-240 V, 50/60 Hz",
+   "Power Consumption": "Operating: Approx. 480 W; Standby: Approx. 330 W with heater ON; Sleep: Approx. 12 W; Power Off: Less than 1.5 W",
+   "Recommended Operating Temperature and Humidity": "15 – 35°C; 20 – 80 % RH (non-condensing)"
+  },
+  "Printer Dimensions": {
+   "Dimensions": "2,620 x 880 x 1,338 mm (W x D x H) (storage)",
+   "Weight": "279 kg (without ink)",
+   "What’s In the Box": "Printer, Initial ink cartridge, AC power cable, Setup guide, Software CD-ROM, Maintenance box",
+   "Warranty": "1 (One) year."
+  }
+ },
+ "key_features": [],
+ "model": "SureColor SC-S40670",
+ "warranty": "1 (One) year.",
+ "fetched": "2026-11-14T17:36+06:00",
+ "source": "https://smartbd.com/product/epson-surecolor-sc-s40670-64-inch-large-format-printer/",
+ "store": "smartbd"
+}

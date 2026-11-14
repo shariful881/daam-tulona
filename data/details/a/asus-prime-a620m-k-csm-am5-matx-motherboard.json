@@ -1,0 +1,65 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD A620 Chipset",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX Form Factor\n8.9 inch x 8.7 inch (22.6 cm x 22.1 cm)",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)**\nAMD A620 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "Total supports 1 x M.2 slot and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD A620 Chipset\n4 x SATA 6Gb/s ports\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10."
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2 x DIMM slots",
+   "Supported Memory": "DDR5 7200+(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/6200(OC)/6000(OC)/5800(OC)/5600(OC)/5400(OC)/5200/5000/4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration",
+   "Maximum Memory": "Max 96GB"
+  },
+  "Graphics": {
+   "Graphics": "1 x VGA port\n1 x HDMI port\n* Graphics specifications may vary between CPU types"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI 2.1",
+   "VGA (s)": "1 x VGA port",
+   "USB (s)": "Rear USB (Total 6 ports)\n4 x USB 3.2 Gen 1 (5G) ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 6 ports)\n1 x USB 3.2 Gen 1 (5G) header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet",
+   "Supported Storage": "1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports",
+   "RAID": "AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10.",
+   "Audio": "3 x Audio jacks",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin Chassis Fan header\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 (5G) header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header\nBack Panel I/O Ports\n4 x USB 3.2 Gen 1 (5G) ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x VGA port\n1 x HDMI™ port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 Keyboard/Mouse combo port",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design\nAura Sync\n- Aura RGB header\n- Addressable Gen 2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert\n- Power Saving\n- Two-Way AI Noise Cancellation\nAI Suite 3\n- TurboV EVO\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years Warranty"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 9000/8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 2x DDR5, up to 96GB, 7200+(OC)",
+  "Graphics Output: 1x HDMI, 1 x VGA",
+  "Features: 1 x Realtek 1Gb Ethernet"
+ ],
+ "price": 1290013000,
+ "regular": 13890,
+ "status": "In Stock",
+ "code": "38335",
+ "brand": "Asus",
+ "model": "PRIME A620M-K-CSM",
+ "warranty": "3 Years Warranty",
+ "name": "Asus PRIME A620M-K-CSM AM5 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus PRIME A620M-K-CSM AM5 mATX Motherboard"
+ ],
+ "fetched": "2026-11-14T16:58+06:00",
+ "source": "https://www.startech.com.bd/asus-prime-a620m-k-csm-matx-motherboard",
+ "store": "startech"
+}

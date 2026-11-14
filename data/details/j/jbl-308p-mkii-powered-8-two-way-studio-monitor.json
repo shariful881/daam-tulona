@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Specifications": {
+   "LF Driver": "203mm (8″)",
+   "HF DRIVER SIZE": "25mm (1″)",
+   "HF DRIVER TYPE": "Soft dome",
+   "Crossover": "1800Hz 4th order acoustic Linkwitz-Riley",
+   "INPUT SENSITIVITY (-10dBV INPUT)": "92dB / 1m",
+   "Power Configuration": "Bi-amplified",
+   "HF DRIVER POWER AMP": "56W, Class-D",
+   "LF Driver Power Handling": "56W, Class-D",
+   "Frequency Response (±3 dB)": "45Hz – 20kHz",
+   "Frequency Range (-10dB)": "37Hz – 24kHz",
+   "LOW FREQUENCY EXTENSION (-10dB)": "37Hz",
+   "Maximum Continuous SPL": "102dB",
+   "Maximum Peak SPL": "112dB",
+   "MAXIMUM PEAK INPUT LEVEL (-10dBV / +4dBu)": "+6dBV / +20.3dBu",
+   "SYSTEM DISTORTION CRITERIA": "<10% THD at maximum output with full compressor / limiter engagement",
+   "ELECTRICAL DISTORTION CRITERIA": "0.2% THD @ 1kHz / 2.83VRMS output; <1% THD @ 1kHz, full rated output",
+   "Signal to Noise Ratio": "75dBA (A-Weighted), 70dBr (unweighted), relative to 2.83VRMS output",
+   "Coverage Angle": "120° x 90°",
+   "Input Connectors": "1 x XLR female, 1 x TRS female, balanced",
+   "HF TRIM CONTROL": "-2dB, 0dB, +2dB",
+   "BOUNDARY EQ": "LF Shelf @ 50Hz: -3dB, -1.5dB, 0dB",
+   "AC INPUT VOLTAGE": "100 – 240VAC (±10%), 50 / 60Hz",
+   "ENCLOSURE TYPE": "Ported",
+   "Enclosure": "15mm MDF",
+   "Enclosure Finish": "Matte black PVC",
+   "BAFFLE CONSTRUCTION": "Injection-molded structural ABS",
+   "CABINET DIMENSIONS (H x W x D)": "419 x 254 x 308mm (16.5″ x 10″ x 12.1″)",
+   "DISPLAY CARTON (H x W x D)": "473 x 312 x 358mm (18.6″ x 12.3″ x 14″)",
+   "SHIPPING CARTON (H x W x D)": "491 x 326 x 372mm (19.3″ x 12.8″ x 14.6″)",
+   "Net Weight (each)": "8.1 kg (17.87 lbs)",
+   "SHIPPING GROSS WEIGHT": "9.4 kg (20.73 lbs)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:09+06:00",
+ "source": "https://diamu.com.bd/product/jbl-308p-mkii-powered-8-two-way-studio-monitor/",
+ "store": "diamu"
+}

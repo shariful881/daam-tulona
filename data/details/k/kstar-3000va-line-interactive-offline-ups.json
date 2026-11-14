@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "3000VA",
+   "Load Capacity": "2400Watt"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "15-30min",
+   "Frequency (Battery Mode)": "50±2% (Line mode)",
+   "Input Voltage Range": "115~300VAC ± 5VAC",
+   "Output Voltage Range": "220/230/240vac ±2% (inverter output)",
+   "Type of Wave": "Pure Sine wave"
+  },
+  "Output": {
+   "Voltage": "230V"
+  },
+  "Input": {
+   "Frequency Range": "50±2% (Line mode)",
+   "Voltage": "140-300V"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 3000VA",
+  "Load Capacity: 1800 Watt",
+  "Output Voltage: 230V",
+  "Backup Time: Up to 15–30 minutes"
+ ],
+ "warranty": "01-Year Warranty",
+ "fetched": "2026-11-14T17:14+06:00",
+ "source": "https://www.pchouse.com.bd/kstar-3000va-line-interactive-offline-ups",
+ "store": "pchouse"
+}

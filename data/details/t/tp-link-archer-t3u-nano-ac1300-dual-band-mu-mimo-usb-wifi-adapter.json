@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "LAN Card": {
+   "Antenna": "Internal",
+   "Data Rate": "5GHz\n11ac: Up to 867Mbps(dynamic)\n11n: Up to 300Mbps(dynamic)\n11a: Up to 54Mbps(dynamic)\n2.4GHz\n11n: Up to 400Mbps(dynamic)\n11g: Up to 54Mbps(dynamic)\n11b: Up to 11Mbps(dynamic)",
+   "Dimensions (L x W x H )": "1.59 × 0.78 × 0.41in. (40.5 × 19.72 × 10.29mm)",
+   "Frequency": "5GHz\n2.4GHz",
+   "Interface": "USB 3.0",
+   "Standards": "IEEE 802.11ac, IEEE 802.11a,\nIEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "System Requirements": "Windows 11/10/8.1/8/7/XP, Mac OS X 10.9-10.14",
+   "Wireless Modes": "Ad-Hoc / Infrastructure Mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA/WPA2, WPA-PSK/WPA2-PSK"
+  },
+  "Warranty Information": {
+   "Warranty": "01 years"
+  }
+ },
+ "key_features": [
+  "Speed: AC1300 (400 Mpbs on 2.4GHz, 867 Mbps on 5GHz)",
+  "Interface: USB 3.0",
+  "Transmit Power: <23dBm (EIRP)",
+  "Antenna Type: Internal"
+ ],
+ "warranty": "01 years",
+ "fetched": "2026-11-14T17:08+06:00",
+ "source": "https://www.pchouse.com.bd/tp-link-archer-t3u-nano-1300mbps-mu-mimo-usb-wireless-lan-card",
+ "store": "pchouse"
+}

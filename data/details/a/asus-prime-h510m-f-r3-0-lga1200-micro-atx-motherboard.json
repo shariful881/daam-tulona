@@ -1,0 +1,62 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Intel Socket LGA1200 for 11th Gen Intel Core Processors & 10th Gen Intel Core, Pentium Gold and Celeron Processors\nSupports up to Intel 65W CPU\nSupports Intel 14 nm CPU\nSupports Intel Turbo Boost Technology 2.0 and Intel Turbo Boost Max Technology 3.0",
+   "Chipset": "Intel H470 Chipset",
+   "BIOS": "128 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "mATX Form Factor\n8.9 inch x 7.7 inch ( 22.6 cm x 19.6 cm )"
+  },
+  "Expansion Slots": {
+   "PCI": "Intel 11th  & 10th  Gen Processors\n1 x PCIe 4.0/3.0 x16 slot\n- Intel 11th Gen processors support PCIe 4.0 x16\n- Intel 10th Gen processors support PCIe 3.0 x16\nIntel H470 Chipset\n1 x PCIe 3.0 x1 slot",
+   "M.2 Socket": "Total supports 1 x M.2 slot and 4 x SATA 6Gb/s ports"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2 x DIMM",
+   "Supported Memory": "3200(OC)/3000(OC)/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel Extreme Memory Profile (XMP)\n* 10th Gen Intel Core i7/i9 processors support 2933/2800/2666/2400/2133 natively, others will run at the maximum transfer rate of DDR4 2666.\n* 11th Gen Intel processors support 3200(OC)/3000(OC)/2933/2800/2666/2400/2133.",
+   "Maximum Memory": "Max. 64GB"
+  },
+  "Graphics": {
+   "Graphics": "Only Intel 11th Gen processors support HDMI 2.1 with max. resolution of 4K@60Hz, others will only support HDMI 1.4 with max. resolution of 4K@30Hz. Please refer to www.intel.com for any updates."
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "USB (s)": "Rear USB (Total 6 ports)\n4 x USB 5Gbps ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 4 ports)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n1 x USB 2.0 header supports 2 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 1Gb Ethernet port",
+   "Supported Storage": "Total supports 1 x M.2 slot and 4 x SATA 6Gb/s ports\nIntel H470 Chipset\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\n4 x SATA 6Gb/s ports",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Dedicated audio PCB layers",
+   "Internal I/O Ports": "Internal I/O Connectors\nFan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin Chassis Fan header\nPower related\n1 x 24-pin Main Power connector\n1 x 4-pin +12V Power connector\nStorage related\n1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps header supports 2 additional 5Gbps ports\n1 x USB 2.0 header supports 2 additional USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x Front Panel Audio header (F_AUDIO)\n1 x Speaker header\n1 x 10-1 pin System Panel header\nBack Panel I/O Ports\n4 x USB 5Gbps ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x HDMI port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 Keyboard (purple) port\n1 x PS/2 Mouse (green) port",
+   "TPM (Trusted Platform Module )": "1 x SPI TPM header (14-1 pin)"
+  },
+  "Others": {
+   "Special Features": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\n- Performance And Power Saving Utility\nTurboV EVO\nEPU\nDIGI+ VRM\n- EZ update\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 11th and 10th Gen Intel Processors (LGA1200)",
+  "Supported RAM: 2x DDR4, Max 64GB 3200(O.C.)",
+  "Graphics Output: 1x HDMI port",
+  "Features: 1 x Realtek 1Gb Ethernet"
+ ],
+ "price": 1040011000,
+ "regular": 11610,
+ "status": "In Stock",
+ "code": "38080",
+ "brand": "Asus",
+ "model": "PRIME H510M-F R3.0",
+ "warranty": "3 years",
+ "name": "ASUS PRIME H510M-F R3.0 LGA1200 Micro-ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (Intel)",
+  "ASUS PRIME H510M-F R3.0 LGA1200 Micro-ATX Motherboard"
+ ],
+ "fetched": "2026-11-14T16:59+06:00",
+ "source": "https://www.startech.com.bd/asus-prime-h510m-f-r3-0-motherboard",
+ "store": "startech"
+}

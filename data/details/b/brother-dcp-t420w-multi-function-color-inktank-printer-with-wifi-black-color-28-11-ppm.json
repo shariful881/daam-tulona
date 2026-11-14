@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "LED",
+   "Memory": "64 MB",
+   "Functions": "Print, Scan, Copy"
+  },
+  "Printer": {
+   "Input Capacity": "150 sheets",
+   "Output Capacity": "50 sheets",
+   "Paper Size": "A4, Letter, Executive, A5, A6, Photo 4\"x6\", Indexcard 5\"x8\", Photo 5\"x7\", C5 Envelope, Com-10, DL Envelope, Monarch, Photo-3.5\"x5\"",
+   "Power Consumption": "AC 110 to 120 V 50/60 Hz",
+   "Print Resolution": "Windows: Up to 1,200 x 6,000 dpi",
+   "Scan Resolution": "Up to 1,200 dpi x 2,400 dpi",
+   "Bit Depth": "30 bit color processing (Input)",
+   "Copy Speed": "Black/Color: 28/11 cpm",
+   "Duplex Printing": "Manual",
+   "Paper Type": "Plain, Inkjet, Glossy(cast/resin), Recycled",
+   "Paper Weight": "80 g/m²",
+   "Printer type": "Multi Function Color Ink Printer",
+   "software support": "Windows 7 SP1, 8.1, 10 Server 2008, 2008 R2, 2012, 2012 R2, 2016, 2019, macOS v10.13.6, 10.14.x, 10.15.x",
+   "Toner/ Cartridge/ Refill": "BTD60BK Black Ink Bottle",
+   "Duty Cycle up to (Yield)": "2500 Pages",
+   "Maximum Scan Size": "Width: Up to 213.9 mm"
+  },
+  "Features": {
+   "Dimension": "435 x 359 x 159 mm",
+   "Others": "Mobile Printing & Borderless Printing - Yes",
+   "Technology": "Inkjet",
+   "Weight": "6.3 kg"
+  },
+  "Output": {
+   "Output": "Output Color: Color"
+  },
+  "Photocopier": {
+   "Warmup Time": "16 (Mono) / 9 (Col) ipm",
+   "Copy Resolution": "1200 x 1800 dpi"
+  },
+  "Connectivity": {
+   "USB": "Hi-Speed USB 2.0"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Functions: Print, Scan, Copy",
+  "Print Speed (B&W/Color): 28 pages/11 pages per minute",
+  "Resolution: 1200–2400 dpi",
+  "Enlarge/Reduce: 25% to 400%"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-14T17:10+06:00",
+ "source": "https://www.pchouse.com.bd/brother-dcp-t420w-multi-function-color-inktank-printer",
+ "store": "pchouse"
+}

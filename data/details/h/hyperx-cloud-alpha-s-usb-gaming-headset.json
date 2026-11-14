@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "USB Audio Control Mixer": {
+   "Weight": "57g",
+   "Cable length": "2m"
+  },
+  "Headphone": {
+   "Driver": "Custom dynamic, 50mm with neodymium magnets",
+   "Type": "Circumaural, Closed back",
+   "Frequency response": "13Hz – 27kHz",
+   "Impedance": "65 Ω",
+   "Sound pressure level": "99dBSPL/mW at 1kHz",
+   "T.H.D.": "≤ 1%",
+   "Weight": "310g",
+   "Weight with mic": "321g",
+   "Cable length": "1m",
+   "Connection type": "3.5mm plug (4 pole)"
+  },
+  "Microphone": {
+   "Element": "Electret condenser microphone",
+   "Polar pattern": "Bi-directional, Noise-cancelling",
+   "Frequency response": "50Hz – 18kHz",
+   "Sensitivity": "-38dBV (0dB=1V/Pa at 1kHz)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:08+06:00",
+ "source": "https://diamu.com.bd/product/hyperx-cloud-alpha-s-usb-gaming-headset/",
+ "store": "diamu"
+}

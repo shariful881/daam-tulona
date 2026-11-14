@@ -1,0 +1,63 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "AMD Socket AM5 for AMD Ryzen 8000 & 7000 Series Desktop Processors",
+   "Chipset": "AMD B650",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Form Factor": "micro-ATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers"
+  },
+  "Expansion Slots": {
+   "PCI": "AMD Ryzen 7000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot\nAMD B650 Chipset\n2 x PCIe 4.0 x1 slots"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "4 DIMMs",
+   "Supported Memory": "DDR5 7600+(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ / 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 ECC and Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\nSupports AMD EXTended Profiles for Overclocking (EXPO)\nOptiMem II",
+   "Maximum Memory": "192GB"
+  },
+  "Graphics": {
+   "Graphics": "2 x DisplayPort\n1 x HDMITM port"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "2x DisplayPort",
+   "USB (s)": "Rear USB (Total 8 ports)\n2 x USB 3.2 Gen 2 (10G) ports (1 x Type-A + 1 x USB Type-C)\n2 x USB 3.2 Gen 1 (5G) ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 1 (5G) connector (supports USB Type-C)\n1 x USB 3.2 Gen 1 (5G) header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports",
+   "LAN Port (s)": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard",
+   "Supported Storage": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD B650 Chipset\n4 x SATA 6Gb/s ports",
+   "RAID": "AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10.",
+   "Audio": "3 x Audio jacks",
+   "Internal I/O Ports": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 (5G) connector (supports USB Type-C® )\n1 x USB 3.2 Gen 1 (5G) header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x 20-3 pin System Panel header with Chassis intrude function"
+  },
+  "Others": {
+   "Special Features": "ASUS TUF PROTECTION\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards\n- TUF LANGuard\n- Overvoltage Protection\n- SafeSlot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- ProCool\n- Pre-mounted I/O shield\n- SafeSlot Core+\n- SafeDIMM\nAura Sync\n- Aura RGB header\n- Addressable Gen 2 headers",
+   "Bundled Software": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 2+\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- TurboV EVO\n- DIGI+ VRM\n- PC Cleaner\nTUF GAMING CPU-Z\nDTS Audio Processing\nMyASUS\nNorton 360 for Gamers(60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 8000/ 7000 Series Processors for Socket AM5",
+  "Supported RAM: 4x DDR5, up to 192GB, 7600+(OC)",
+  "Graphics Output: 1x HDMI, 2x Display Port",
+  "Features: Realtek 2.5Gb Ethernet"
+ ],
+ "price": 27499,
+ "regular": 29840,
+ "status": "In Stock",
+ "code": "31181",
+ "brand": "Asus",
+ "model": "TUF GAMING B650M-E",
+ "warranty": "3 Years",
+ "name": "Asus TUF GAMING B650M-E AMD AM5 micro-ATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "ASUS (AMD)",
+  "Asus TUF GAMING B650M-E AMD AM5 micro-ATX Motherboard"
+ ],
+ "fetched": "2026-11-14T17:01+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-b650m-e-motherboard",
+ "store": "startech"
+}

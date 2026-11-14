@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Power": {
+   "Power Supply": "5V/2A"
+  },
+  "General": {
+   "Model": "IMILAB C20",
+   "Usage": "Indoor",
+   "Type": "Dome IP Camera",
+   "Part No": "CMSXJ36A"
+  },
+  "Network & Wireless Connectivity": {
+   "Wi-Fi": "Yes",
+   "Wi-Fi Details": "IEEE 802.11b, g, n"
+  },
+  "Technical Specification": {
+   "Frequency Range": "2.4 GHz",
+   "Mic & Speaker": "Both Mic and Speaker",
+   "Audio Communication": "Two-Way Audio",
+   "Working Distance": "10 Meter",
+   "Supported Operating System": "Android 5.0 or higher, iOS 9.0 or higher",
+   "Video Type": "H.265"
+  },
+  "Image": {
+   "Wide Dynamic Range (WDR)": "Yes"
+  },
+  "Camera Info": {
+   "Camera Type": "Pan & Tilt",
+   "Mega Pixels": "2.0MP",
+   "Max. Camera Resolution": "1920 x 1080",
+   "Night Vision": "Yes"
+  },
+  "Lens": {
+   "Lens Adjustment Range": "Pan & Tilt: 0 degree - 360 degree",
+   "Viewing Angle": "105 degree"
+  },
+  "Physical Specification": {
+   "Dimensions": "112 x 76 x 76mm",
+   "Weight": "211 gm",
+   "Storage Supported": "64GB max",
+   "Card Slot": "MicroSD Card",
+   "Storage Type": "MicroSD",
+   "Form-Factor": "Dome"
+  },
+  "Physical Specifications": {
+   "Color": "White"
+  },
+  "Security": {
+   "Human Detection": "Yes",
+   "Water Protection": "No",
+   "Motion Detection": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Months (Warranty should be claimed with box including all accessories)"
+  }
+ },
+ "key_features": [],
+ "model": "IMILAB C20",
+ "mpn": "CMSXJ36A",
+ "warranty": "6 Months (Warranty should be claimed with box including all accessories)",
+ "fetched": "2026-11-14T17:18+06:00",
+ "source": "https://www.pchouse.com.bd/xiaomi-imilab-c20-camera",
+ "store": "pchouse"
+}

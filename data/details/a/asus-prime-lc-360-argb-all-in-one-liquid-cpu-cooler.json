@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "CPU Liquid Cooler",
+   "Fan Speed": "Fan Speed: 600 - 2200 RPM +/- 10%",
+   "Fan Airflow": "75.7 CFM",
+   "Air Pressure": "3.2 mmH2O",
+   "Material": "Block Material (CPU Plate): Copper\nRadiator Material: Aluminum",
+   "Others": "AURA Sync Support: Yes"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator Dimension: 397 x 120 x 27 mm\nFan Dimension: 360 x 123 x 25 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel: LGA 1851, 1700, 1200, 115x",
+   "AMD": "AMD: AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "06-Years"
+  }
+ },
+ "key_features": [
+  "360mm Aluminum Radiator",
+  "Air Flow: 75.7 CFM",
+  "AURA Sync Support",
+  "Compatible: LGA 1851, 1700, 1200, 115x, AM4, AM5"
+ ],
+ "price": 1190012500,
+ "regular": 13560,
+ "status": "In Stock",
+ "code": "38557",
+ "brand": "Asus",
+ "mpn": "90RC0101-B0JAY0",
+ "model": "Prime LC 360 ARGB",
+ "warranty": "06-Years",
+ "name": "Asus Prime LC 360 ARGB All-in-One Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Asus",
+  "Asus Prime LC 360 ARGB All-in-One Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-14T16:59+06:00",
+ "source": "https://www.startech.com.bd/asus-prime-lc-360-argb-aio-liquid-cpu-cooler",
+ "store": "startech"
+}

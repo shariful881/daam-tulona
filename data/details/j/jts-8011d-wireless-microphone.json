@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specifications": {
+   "Frequency Preparation": "PLL Synthesized Control",
+   "Carrier Frequency Range": "470~960MHz",
+   "Frequency Setting": "REMOSET U(Receive)",
+   "Receiving Mode": "Antenna Diversity",
+   "Bandwidth": "36MHz",
+   "S/N Ratio": ">105dB(A)",
+   "T.H.D": "<0.6%@1KHz",
+   "Sensitivity": "-95dBm,S/N>80dB",
+   "Rejection Ratio": ">80 dB",
+   "Frequency Response": "50Hz~16KHz±2dB",
+   "Antenna Type": "BNC Socket",
+   "Antenna Booster Power": "DC12~15V/100mA",
+   "Display": "LCD+LED",
+   "Display Contents": "Group, Channel, Frequency, Battery Level, Antenna A/B, Mute Display, AF Meter, RF\nMeter, Frequency Scan, Audio Level, Volume",
+   "Controls": "Power, Mute, Group, Channel,\nFrequency, Gain Adjust, Auto Power Off, Key\nLock",
+   "Audio Output Level": "Ref/ ±22.5KHz Dev@1KHz Tone\nψ6.3 Phone Jack/ -10dBV\nXLR Jack/ -4dBV(Line) ˴ -24dBV(MIC)",
+   "Audio Output Impedance": "600Ω",
+   "Squelch": "Pilot Tone & Noise Mute",
+   "Output Connector": "1 independent balanced XLR and one Ø6.3mm unbalanced.",
+   "Power Supply": "DC12~15V/300mA",
+   "Dimension (mm)": "212.3mm(W)* 38.3mm(H)* 144mm(D)",
+   "Notes": "Actual product specifications may vary depending on model and region.",
+   "RF Outpus": "Low / High",
+   "Stability": "<±10KHz@Fc",
+   "Frequency Deviation": "±48KHz",
+   "Spurious Emissions": "<-50dBc",
+   "Function": "Mute, Auto Power Off, Sensitivity Adjust, Low Battery",
+   "Battery": "UM3, AA x2",
+   "RF Outputs": "Low/High",
+   "Slot-in Charging": "Yes",
+   "Dimensions": "50(W) x 253(H) x 35.5(D)",
+   "Input Connector": "4P Mini XR"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:15+06:00",
+ "source": "https://diamu.com.bd/product/jts-8011d-wireless-microphone/",
+ "store": "diamu"
+}

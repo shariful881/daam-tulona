@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "7 segment Icon LCD Display",
+   "Memory": "256MB (DDR), 128MB (Flash)",
+   "Processor": "800 MHz",
+   "Functions": "Print, Scan, Copy",
+   "Others": "Mobile Printing"
+  },
+  "Printer": {
+   "Input Capacity": "150 Sheet",
+   "Output Capacity": "100 sheets",
+   "Power Consumption": "220 to 240 VAC (+/- 10%), 50 Hz (+/- 3 Hz), 60 Hz (+/- 3 Hz)",
+   "Print Resolution": "600 x 600dpi",
+   "Scan Resolution": "1200 x 1200 dpi",
+   "Copy Speed": "16ppm (B & C)",
+   "Duplex Printing": "Manual",
+   "Paper Type": "Paper (bond, brochure, colored, glossy, heavy, letterhead, light, photo, plain, preprinted, pre punched, recycled, rough), transparencies, labels, envelopes, cardstock",
+   "Paper Weight": "60 to 163 g/m² (Uncoated/Matte, recommended), however up to 175 g/m² Postcards and 200 g/m² HP Matte is allowed in the driver; 60 to 163 g/m² (Coated/Glossy, recommended), however up to 175 g/m² Postcards and 220 g/m² HP Glossy is allowed in the driver.",
+   "Print Speed": "16ppm ( black and color)",
+   "Printer type": "Multi function Color Laser Printer",
+   "software support": "Windows 10, 8, 7, Vista (32-bit/64-bit), XP (32-bit), Server 2012, Server 2008 (Standard Edition & Enterprise Edition), Server 2003 (32-bit) (SP1 or higher), Mac OS X v 10.6.8 or higher; Linux",
+   "Toner/ Cartridge/ Refill": "HP 215A Black LaserJet Toner Cartridge (1,050 page), HP 215A Cyan, Yellow & Magenta LaserJet Toner Cartridge (850 page)",
+   "Duty Cycle up to (Yield)": "30000 Pages",
+   "First Print Out Time": "11.8sec (B), 13.8sec (C)",
+   "Maximum Scan Size": "A4",
+   "Scan Type": "15ipm (B), 8ipm (C)"
+  },
+  "Features": {
+   "Dimension": "Minimum dimensions (W x D x H): 420 x 380 x 292.6 mm",
+   "Technology": "Laser",
+   "Weight": "15.7 kg"
+  },
+  "Output": {
+   "Output": "Output Color: Color"
+  },
+  "Photocopier": {
+   "Copy Resolution": "600 x 600dpi"
+  },
+  "Connectivity": {
+   "Connectivity": "USB"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Functions: Print, Copy, Scan",
+  "Print Speed: 16ppm(black and color)",
+  "Processor speed: 800 MHz"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-14T17:14+06:00",
+ "source": "https://www.pchouse.com.bd/hp-color-laserjet-pro-mfp-m182n-multifunction-a4-color-laser-printer",
+ "store": "pchouse"
+}

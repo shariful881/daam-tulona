@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Detail Specification": {
+   "Model": "NGFFDGBM2280",
+   "Capacity": "128GB",
+   "Form Factor": "M.2 2280",
+   "Interface": "SATA III",
+   "Sequential Read Speed": "Up to 580 MB/s",
+   "Sequential Write Speed": "Up to 550 MB/s",
+   "Random Read Speed (4K files)": "Up to 580 MB/s",
+   "Random Write Speed (4K files": "Up to 550 MB/s",
+   "NAND Flash Brand": "Micron/ Hynix",
+   "NAND Type": "TLC 3D NAND",
+   "SSD Controller Brand": "SMI",
+   "Endurance": "1000 TB or 900 GB/Day",
+   "Bridge Controller MTBF": ">1,000,000 hours",
+   "Power Loose Protection": "Yes",
+   "SMART": "Yes",
+   "Bad Block management": "Failed Blocks of Flash will be replaced with new ones by the SSD",
+   "Wear Leveling": "Static and dynamic wear-leveling algorithm",
+   "Low density parity check": "Yes",
+   "Warranty": "Product Life time"
+  }
+ },
+ "key_features": [],
+ "model": "NGFFDGBM2280",
+ "warranty": "Product Life time",
+ "fetched": "2026-11-14T16:59+06:00",
+ "source": "https://smartbd.com/product/twinmos-128gb-m-2-2280-ssd-sataiii/",
+ "store": "smartbd"
+}

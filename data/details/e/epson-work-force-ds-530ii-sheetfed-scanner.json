@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "EPSON DS-530 II",
+   "Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia/Vietnam/China.",
+   "Scanner Type": "A4 sheet-fed, one-pass duplex colour scanner",
+   "Sensor Type": "Dual CIS (Contact Image Sensor) (Front×1, Back×1)",
+   "Light Source": "3-colour LED (RGB)",
+   "Optical Resolution": "600 dpi x 600 dpi",
+   "Output Resolution": "50 – 1,200 dpi",
+   "Supported paper weight": "27~413 g/m",
+   "ADF capacity": "50 sheets (80 g/m2) or Less than 6 mm, PL Card (with Emboss): 1 sheet, PL Card (without Emboss): 5 sheets, Business Card: 15 sheets, Postcard: 20 sheets, Long Paper: 1 sheet, Envelope: 5 sheets, Carrier Sheet: 5 sheets",
+   "Output File Format": "JPEG, TIFF, PDF (Searchable, PDF/A, Password), BMP (Windows Only), PNG, DOCX, XLSX, PPTX",
+   "Scanning Speed": "Resolution (Colur/Greyscale/Mono):\n200 dpi Simplex 35 ppm/Duplex 70 ipm\n300 dpi Simplex 35 ppm/Duplex 70 ipm\n600 dpi Simplex 12.0 ppm/Duplex 24 ipm",
+   "Daily Scan Volume": "Up to 4,000 pages / day",
+   "Double-feed detection": "Ultrasonic Multi-feed Detection",
+   "Driver compatibility": "TWAIN, SANE, WIA, ICA, ISIS",
+   "Interface": "USB 3.0 (Super Speed USB)",
+   "Rated Voltage": "AC 100 – 240 V",
+   "Rated Frequency": "50 – 60 Hz",
+   "Power Consumption": "Operating: 11 Watt, Ready: 5.4 Watt, Sleep: 1.0 Watt, Power off: 0.1watt",
+   "Driver and Bundled Software": "Epson Scan 2, ISIS Driver, Document Capture Pro (Windows only)",
+   "Dimension": "296‎ x 221 x 206 mm",
+   "Weight": "3.7 kg",
+   "Warranty": "One year standard warranty"
+  },
+  "Document Size": {
+   "Minimum": "Business Card, Postcard, A4, US letter, Legal, A5, A6, B5, B6, Long Paper, A3, B4, Envelope, PL Card (with / without Emboss),",
+   "Maximum": "A4, US letters, Legal, Long paper (215.9 x 6096 mm), A3 (with Carrier Sheet)"
+  },
+  "Supported Platforms": {
+   "Windows": "Windows XP / Vista / 7 / 8 / 8.1 / 10 / Server 2003 / Server 2008 / Server 2012.",
+   "Mac": "Mac OS X 10.6.8 or later"
+  },
+  "Environment": {
+   "Temperature": "Operation 5° C – 35° C, Storage -25° C – 60° C",
+   "Humidity": "Operation 15% – 80%, Storage 15% – 85%"
+  }
+ },
+ "key_features": [],
+ "model": "EPSON DS-530 II",
+ "warranty": "One year standard warranty",
+ "fetched": "2026-11-14T17:05+06:00",
+ "source": "https://smartbd.com/product/epson-work-force-ds-530ii-sheetfed-scanner-2/",
+ "store": "smartbd"
+}

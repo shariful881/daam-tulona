@@ -1,0 +1,23 @@
+{
+ "specs": {
+  "Adapter": {
+   "Total Power": "30W Max",
+   "Input": "100-250V 50/60Hz 10A (Max)",
+   "PD Output": "5V3A / 9V3A / 12V2.5A / 15V2A / 20V1.5A 30W (Max)",
+   "QC Output": "5V3A, 9V2A,12V1.5A 18W (Max)"
+  },
+  "Basic Information": {
+   "Special Feature": "Rated Parameter: 2500W 10A 250V\nAuto-ID Output: 5V2.4A\nWiFi Frequency: 2.4GHz\nWith multiple security protections\n3 power sockets + 1USB-C +3 USB-A\nColor: White"
+  }
+ },
+ "key_features": [
+  "Rated Parameter: 2500W 10A 250V~",
+  "Input: 100-250V 50/60Hz 10A(Max)",
+  "PD Output: 5V3A, 9V3A,12V2.5A,15V2A,20V1.5A 30W (Max)",
+  "QC Output: 5V3A, 9V2A,12V1.5A 18W(Max)",
+  "Auto-ID Output: 5V2.4A"
+ ],
+ "fetched": "2026-11-14T17:31+06:00",
+ "source": "https://www.pchouse.com.bd/ldnio-scw3451-wi-fi-smart-power-strip",
+ "store": "pchouse"
+}

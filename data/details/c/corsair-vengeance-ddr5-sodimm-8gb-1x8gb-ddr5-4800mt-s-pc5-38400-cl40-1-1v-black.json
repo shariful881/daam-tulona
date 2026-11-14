@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Product Description": {
+   "Memory Compatibility": "Alienware x17 R2/m15 R7, MSI Raider GE66 12UH/GE66 12UHS/ GE66 12UGS, MSI Stealth GS66 – 12U/GS66 – 12UG/ GS66 – 12UGS/GS66 12UH, Asus ROG Zephyrus M1",
+   "Memory Detail Compatibility": "Alienware x17 R2m15 R7 MSI Raider GE66 12UHGE66 12UHS GE66 12UGS MSI Stealth GS66 12UGS66 12UG GS66 12UGSGS66 12UH Asus ROG Zephyrus M16G14Duo 16 A",
+   "Memory Size": "8GB",
+   "Package Memory Format": "SODIMM",
+   "SPD Speed": "4800",
+   "Tested Latency": "40-40-40-77",
+   "Tested Speed (Up To)": "4800",
+   "Memory Series": "VENGEANCE SODIMM DDR5",
+   "Memory Type": "DDR5",
+   "Package Memory Pin": "262",
+   "SPD Latency": "40-40-40-77",
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.10V",
+   "Weight": "0.03"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR5",
+  "Package Memory Pin: 262",
+  "SPD Latency: 40-40-40-77",
+  "SPD Voltage: 1.1V",
+  "Tested Voltage: 1.10V",
+  "Weight: 0.03"
+ ],
+ "fetched": "2026-11-14T17:45+06:00",
+ "source": "https://smartbd.com/product/corsair-vengeance-ddr5-sodimm-8gb-1x8gb-ddr5-4800mt-s-pc5-38400-cl40-1-1v-black/",
+ "store": "smartbd"
+}

@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "1500 RPM +/- 10%",
+   "Air Flow": "41.8 CFM",
+   "Air Pressure": "1.55mm-H2O",
+   "Noise (dBA)": "26",
+   "Bearing Type": "Hydraulic",
+   "LED Type": "RGB",
+   "Operating Voltage/Power Range": "6V - 13.2V"
+  },
+  "Physical Specification": {
+   "Color": "White",
+   "Size": "120mm x 25mm",
+   "Connector": "PWM"
+  },
+  "Others": {
+   "Others": "Flow Type: STATIC PRESSURE"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Speed: 1500 RPM +/- 10%",
+  "Air Flow Type: STATIC PRESSURE",
+  "Bearing Type: Hydraulic",
+  "Low-Noise Design"
+ ],
+ "price": 8600,
+ "regular": 9110,
+ "status": "In Stock",
+ "code": "28715",
+ "brand": "Corsair",
+ "mpn": "CO-9050104-WW",
+ "model": "iCUE QL120 RGB",
+ "warranty": "2 years",
+ "name": "Corsair iCUE QL120 RGB 120mm PWM White Case Fan Triple Fan Kit with Lighting Node CORE",
+ "breadcrumb": [
+  "Component",
+  "Casing Cooler",
+  "Corsair",
+  "Corsair iCUE QL120 RGB 120mm PWM White Case Fan Triple Fan Kit with Lighting Node CORE"
+ ],
+ "fetched": "2026-11-14T17:06+06:00",
+ "source": "https://www.startech.com.bd/corsair-icue-ql120-rgb-120mm-pwm-white-case-fan-triple-pack",
+ "store": "startech"
+}

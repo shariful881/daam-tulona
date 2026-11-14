@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Product Description": {
+   "Product Length": "280",
+   "Product Width": "125",
+   "Product Height": "120",
+   "Lighting": "RGB",
+   "Cooling Warranty": "6 Year",
+   "Radiator Dimensions": "277mm x 120mm x 27mm",
+   "Number of Fans": "2",
+   "Cold Plate Material": "Copper",
+   "Radiator Material": "Aluminum",
+   "Fan Dimensions": "120mm x 25mm",
+   "Cooling Socket Support": "Intel 1851, Intel 1700, Intel 1200, Intel 1150, Intel 1151, Intel 1155, Intel 1156, AMD AM5, AMD AM4",
+   "Fan Speed": "480 – 2400RPM ±10%",
+   "Fan Airflow": "16.44 – 63.1 CFM",
+   "Fan Static Pressure": "0.17 – 3.8mm-H2O",
+   "Radiator Size": "240mm",
+   "iCUE Software": "Yes",
+   "Tubing Length": "400mm",
+   "Coldplate Dimensions": "56 x 56mm",
+   "Tubing Material": "Black Sleeved Low-Permeation Rubber",
+   "Fan Control Method": "Digital",
+   "AMD Processors Supported": "Ryzen",
+   "Intel Processors Supported": "Core i9, i7, i5, i3, Pentium, Celeron",
+   "PWM": "No",
+   "Weight": "2.16"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 480 – 2400RPM ±10%",
+  "Fan Dimension: 120mm x 25mm",
+  "Fan Airflow: 16.44 – 63.1 CFM"
+ ],
+ "warranty": "6 Year",
+ "fetched": "2026-11-14T17:09+06:00",
+ "source": "https://smartbd.com/product/corsair-icue-link-h100i-lcd-liquid-cpu-cooler-black/",
+ "store": "smartbd"
+}

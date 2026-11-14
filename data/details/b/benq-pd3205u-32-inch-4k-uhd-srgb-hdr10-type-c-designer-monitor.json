@@ -1,0 +1,107 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model Name": "PD3205U 4K UHD DesignVue Designer Monitor"
+  },
+  "Display": {
+   "Screen Size": "32 inch",
+   "Panel Type": "IPS",
+   "Product Color": "Dark Gray",
+   "Backlight Technology": "LED backlight",
+   "Resolution (max.)": "3840×2160",
+   "Brightness (peak)(HDR)": "350 nits",
+   "Viewing Angle (L/R) (CR>=10)": "178°/178°",
+   "HDR": "HDR10",
+   "Response Times (GtG)": "5 ms",
+   "Native Contrast": "1200:1",
+   "Refresh Rate (Hz)": "60 Hz",
+   "Color Gamut": "99% Rec.709 | 99% sRGB",
+   "Color Mode": "Animation;CAD/CAM;Darkroom;DICOM;HDR;Low Blue Light;M-Book;Rec.709;sRGB;User",
+   "Aspect Ratio": "16.9",
+   "Display Colors": "1.07 billion colors",
+   "PPI": "109",
+   "Display Screen Coating": "Anti-Glare",
+   "Gamma": "1.8 – 2.6, sRGB",
+   "HDCP": "2.2",
+   "OSD Language": "Arabic, Chinese (simplified), Chinese (traditional), Czech, Deutsch, English, French, Hungarian, Italian, Japanese, Korean, Netherlands, Polish, Portuguese, Romanian, Russian, Spanish, Swedish",
+   "AMA": "Yes"
+  },
+  "Audio": {
+   "Built-in Speaker": "3W x 2",
+   "Microphone": "N/A",
+   "Headphone Jack": "Yes"
+  },
+  "Power": {
+   "Voltage Rating": "100 – 240V",
+   "Power Supply": "N/A",
+   "Power Consumption (normal)": "31.5W",
+   "Power Consumption (max)": "168 W",
+   "Power Consumption (sleep mode)": "<0.5 W",
+   "Power Delivery(USB C / Thunderbolt 3)": "90W"
+  },
+  "Dimension and Weight": {
+   "Tilt (down/up)": "-5˚ – 20˚",
+   "Swivel (left/right)": "30°/30°",
+   "Pivot": "90˚",
+   "Height Adjustment Stand": "110mm",
+   "Dimensions (HxWxD) (mm)": "429.97~544.96 x 614 x 220.2",
+   "Dimensions (HxWxD) (inch)": "21.8- 27.7 x 24.2 x 18.1",
+   "Dimensions (HxWxD) (Landscape) (mm)": "424-534 x 612 x 241",
+   "Dimensions (HxWxD) (Landscape) (inch": "17~21.4 x 24.2 x 8.7",
+   "Dimensions (HxWxD) (Pivot) (mm)": "666 x 384 x 241",
+   "Dimensions (HxWxD) (w/o Base) (inch)": "14.4 x 24.2 x 3.2",
+   "Net Weight (kg)": "9.4kg",
+   "Net Weight (lb)": "20.7 lb",
+   "GrossWeight (kg)": "13.4",
+   "VESA Wall Mount": "100×100 mm"
+  },
+  "Accessories": {
+   "Other Accessories": "Power cord (1.8m), USB 3.2 Gen1\nupstream USB-A to C cable\n(1.8m),USB-C 3.2 Gen1 (1.5m)(90W),\nDP to DP 1.2 cable(1.8m),\nQSG, Safety instruction, Regulatory\nStatement, Calibration report,\nClean cloth"
+  },
+  "Connectivity": {
+   "HDMI (v2.0)": "1",
+   "DisplayPort (v1.4)": "1",
+   "USB C ( Downstream )": "1",
+   "USB Type B ( Upstream )": "2",
+   "USB 3.2 ( Downstream )": "3",
+   "All-in-One Connection": "USB-C"
+  },
+  "Eye Care": {
+   "Low Blue Light": "Yes",
+   "Flicker-free Technology": "Yes",
+   "Brightness Intelligence Gen2 (B.I. Gen2)": "Yes"
+  },
+  "Certification": {
+   "TUV Certificate": "Flicker-free, Low Blue Light",
+   "Eye-CareU": "Yes"
+  },
+  "Professional": {
+   "Video Format Support": "Yes",
+   "Factory Calibration Report": "Yes",
+   "Delta E(avg)": "≤3",
+   "CAD/CAM mode": "Yes",
+   "KVM Switch": "Yes",
+   "DualView": "Yes",
+   "Auto Pivot": "Yes",
+   "Uniformity Technology": "Yes",
+   "Hotkey Puck G2": "Yes",
+   "PIP/PBP": "Yes",
+   "ICCsync": "Yes"
+  },
+  "Software": {
+   "Display Pilot": "Yes",
+   "Display Pilot 2": "Yes",
+   "Display ColorTalk": "Yes",
+   "Display Quickit": "Yes"
+  }
+ },
+ "key_features": [
+  "Resolution: UHD (3840×2160)",
+  "Display: IPS, 60Hz, 5ms",
+  "Ports: 1xHDMI, 1xUSB Type-C, 3xUSB 3.2",
+  "Features: HDR10, AQCOLOR, Low Blue Light"
+ ],
+ "fetched": "2026-11-14T17:00+06:00",
+ "source": "https://smartbd.com/product/benq-pd3205u-32-inch-4k-uhd-srgb-hdr10-type-c-designer-monitor/",
+ "store": "smartbd"
+}

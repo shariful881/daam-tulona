@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "All-in-one 420mm liquid cooler",
+   "Fan Speed": "200–1900 rpm PWM Controlled (0 rpm below 5% PWM)",
+   "Fan Airflow": "68.9 cfm | 117.06m3/h",
+   "Noise": "0.3 Sone",
+   "Air Pressure": "2.0 mmH2O",
+   "Connector": "4-Pin Connector",
+   "LED Number": "12 A-RGB LEDs per Fan",
+   "Material": "Cold Plate: Copper, Micro-Skived-Fins",
+   "Others": "Thermal Paste: MX-5 (0.8 g)"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator: 458 (L) x 138 (W) x 38 (H) mm\nPump (w/o tubes): 98 (L) x 78 (W) x 53 (H) mm\nTube Diameter: Outer: 12.4 mm | Inner: 6.0 mm\nTube Length:\t450 mm",
+   "Weight": "2019 g (Fan, Radiator, Pump, Tubes)"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA 1700, 1200, 115X, 2011-3*, 2066* *Square ILM",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200–1900 rpm PWM Controlled",
+  "VRM Fan: 40 mm, 1000–3000 rpm (PWM controlled)",
+  "Pump: 800-2000 rpm (PWM controlled)",
+  "Cold Plate: Copper, Micro-Skived-Fins"
+ ],
+ "price": 1340013500,
+ "regular": 14850,
+ "status": "In Stock",
+ "code": "34610",
+ "brand": "ARCTIC",
+ "model": "Liquid Freezer II 420 A-RGB",
+ "warranty": "6 years",
+ "name": "Arctic Liquid Freezer II 420 A-RGB All-in-One Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Liquid Freezer II 420 A-RGB All-in-One Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-14T16:56+06:00",
+ "source": "https://www.startech.com.bd/arctic-liquid-freezer-ii-420-a-rgb-liquid-cpu-cooler",
+ "store": "startech"
+}

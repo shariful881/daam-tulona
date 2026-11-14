@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Supported CPU": "Support the 14th/13th and 12th generation Intel adapting to the LGA 1700 slot of the motherboard Core TM, Pentium And Cylon processor",
+   "Chipset": "Intel H610",
+   "BIOS": "128M UEFI, supporting multiple languages",
+   "Form Factor": "M-ATX\n245mm x 245mm",
+   "Audio": "5.1 sound card"
+  },
+  "Expansion Slots": {
+   "PCI": "1xPCIe 4.0 x16 slot\n1xPCIe 3.0 x1 slot"
+  },
+  "Memory": {
+   "Type": "DDR4",
+   "Slots": "2",
+   "Supported Memory": "- DDR4-3200/2933/2666/2400MHz memory\n- support dual-channel memory technology",
+   "Maximum Memory": "support up to 64 GB of memory (a single slot can support up to 32 GB of memory)"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Graphics Processor-Intel HD Graphics support:\n1 x HDMI 2.0 interface, Up to 4K 60Hz resolution\n- 1×VGA interface"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "VGA (s)": "- 1×VGA interface",
+   "LAN Port (s)": "RTL8111H Gigabit network card",
+   "Wireless Communication module": "RTL8821CE/AC3165 WiFi 5 Wireless network, Bluetooth 4.2",
+   "Supported Storage": "A total of 1 M.2 slot and 4 SATA 6Gb/s hard disk interfaces are supported\n- M2_ 1 slot: supports 2242/2280 specification M.2 SSD (PCIe 3.0 x4, PCH channel)",
+   "Internal I/O Ports": "Rear I/O:\n- 1×PS/2 interface\n- 4×USB 2.0 interfaces\n- 2×USB 3.2 Gen 1 Type-A interfaces\n- 1×HDMI 2.0 interface, Up to 4K 60Hz resolution\n- 1×VGA interface\n- 1×Gigabit network interface\n- 3×Audio interfaces (audio input/audio output/microphone)\nOn board:\n- 1×CPU fan pin\n- 2×System fan pins\n- 1×water cooling pump pin\n- 1×USB 2.0 pin can expand 2 USB 2.0 Type-A interfaces\n- 1×USB 3.2 Gen 1 pin can expand 2 USB 3.2 Gen 1 Type-A interfaces\n- 1×Front audio pin\n- 1×Front panel pin\n- 1×Speaker pin\n- 1×COM port pin\n- 1×ME write protection jumper\n- 1×Clear CMOS jumper\n- 1×BIOS burner pin\n- 1×POST Card pin\n- 1×Wake-up control jumper"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)",
+  "Supported RAM: 2x DDR4, Max 64GB 3200(OC)",
+  "Graphics Output:  1×VGA, 1x HDMI",
+  "Features: RTL8111H Gbit network card, WiFi 5"
+ ],
+ "price": 10200,
+ "regular": 11550,
+ "status": "In Stock",
+ "code": "32269",
+ "brand": "Colorful",
+ "model": "BATTLE-AX H610M-E WIFI V20",
+ "warranty": "3 years",
+ "name": "Colorful BATTLE-AX H610M-E WIFI V20 mATX Motherboard",
+ "breadcrumb": [
+  "Component",
+  "Motherboard",
+  "Colorful (Intel)",
+  "Colorful BATTLE-AX H610M-E WIFI V20 mATX Motherboard"
+ ],
+ "fetched": "2026-11-14T17:02+06:00",
+ "source": "https://www.startech.com.bd/colorful-battle-ax-h610m-e-wifi-v20-motherboard",
+ "store": "startech"
+}

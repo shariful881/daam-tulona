@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "8TB",
+   "Disk Type": "Internal",
+   "RPM": "7200 rpm",
+   "Interface Type": "SATA 6Gb/s",
+   "Read/Write Speed": "210MB/s",
+   "Data Transfer Speed": "210MB/s",
+   "Form Factor": "3.5\""
+  },
+  "Physical Specifications": {
+   "Size": "3.5"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [
+  "Capacity: 8TB",
+  "Form Factor: 3.5\"",
+  "Drive speed: 7200 rpm",
+  "Transfer Rate: 210MB/s"
+ ],
+ "warranty": "2 years",
+ "fetched": "2026-11-14T16:57+06:00",
+ "source": "https://www.pchouse.com.bd/seagate-skyhawk-8tb-7200rpm-hdd",
+ "store": "pchouse"
+}

@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Noise/Signal": "80dB",
+   "Microphone Type": "All-in-one USB Microphone"
+  },
+  "Main Spec": {
+   "Frequency Range": "20Hz-20kHz",
+   "Sensitivity": "-37dB±3dB",
+   "Polar pattern": "Cardioid",
+   "System Requirements": "Windows 7 or later\nMac OS X10.4.8 or later"
+  },
+  "Connectors": {
+   "Connector": "Audio Output Connector: 3.5mm headphone output USB-C"
+  },
+  "Physical Specifications": {
+   "Dimension": "109×111×245mm"
+  },
+  "Others": {
+   "Camera Resolution": "3840*2160",
+   "Frame Rate": "25fps",
+   "Diagonal Field of View": "96°",
+   "Lumens": "11-12LM",
+   "Color Temperature": "5500K-6000K",
+   "Maximum SPL": "120dB(0dB=1V/Pa/1KHz)",
+   "Mic Gain": "42dB",
+   "Sampling Rate": "48kHz",
+   "Bit Depth": "24bit"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Polar Pattern: cardioid",
+  "Built-in: 4K UHD camera",
+  "Resolution: 3840*2160, wide-angle view 90°",
+  "Compatible: Android devices, Windows/Mac computers"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-14T17:24+06:00",
+ "source": "https://www.pchouse.com.bd/boya-by-cm6a-all-in-one-usb-microphone-with-full-hd-conference-camera",
+ "store": "pchouse"
+}

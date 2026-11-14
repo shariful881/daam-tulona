@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "280mm liquid cooler",
+   "Fan Speed": "200—1900 rpm",
+   "Fan Airflow": "69.90 cfm | 117.06 m3/h",
+   "Air Pressure": "2.0 mmH2O",
+   "Connector": "4-Pin PWM Connector",
+   "LED Number": "12x A-RGB LEDs",
+   "Material": "Cold Plate:Copper, Micro-Skived-Fins",
+   "Others": "Thermal Paste: MX-6 (0.8g)"
+  },
+  "Physical Specification": {
+   "Dimension": "Radiator: 317 (L) x 138 (W) x 38 (H) mm"
+  },
+  "Supported Sockets": {
+   "Intel": "1700",
+   "AMD": "AM5, AM4"
+  },
+  "Warranty Information": {
+   "Warranty": "6 years"
+  }
+ },
+ "key_features": [
+  "Fan Speed: 200-1900 rpm, 2x P12 PWM",
+  "VRM Fan: 400-2500 rpm (PWM controlled)",
+  "Pump: 800-2800 rpm (PWM controlled)",
+  "Cold Plate: Copper, Micro-Skived-Fins"
+ ],
+ "price": 85009000,
+ "regular": 9330,
+ "status": "In Stock",
+ "code": "37510",
+ "brand": "ARCTIC",
+ "model": "Liquid Freezer III 280MM ARGB",
+ "warranty": "6 years",
+ "name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler White",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "ARCTIC",
+  "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler White"
+ ],
+ "fetched": "2026-11-14T16:56+06:00",
+ "source": "https://www.startech.com.bd/arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler-white",
+ "store": "startech"
+}

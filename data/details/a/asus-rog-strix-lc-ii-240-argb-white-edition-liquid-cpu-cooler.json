@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Key Features": {
+   "Fan Speed": "800 - 2500 RPM +/- 10%",
+   "Fan Airflow": "80.95 CFM / 137.5 m3h",
+   "Noise": "37.6 dB(A)",
+   "Air Pressure": "5.0 mmH2O",
+   "Material": "Block Material (CPU Plate): Copper\nRadiator Material: Aluminum\nTube: Sleeved Rubber tube",
+   "Others": "Pump Solution: 7th gen Asetek pump\nMotor Speed: 840 - 2,800 +/- 300  RPM\nPower: 12V DC, 0.3A\nAURA Sync Support: Yes"
+  },
+  "Physical Specification": {
+   "Dimension": "Water block dimension: 80 x 80 x 45 mm\nFan-Dimension: 120 x 120 x 25 mm\nTube Length: 380 mm"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1700, 1200, 115x, 2011, 2011-3, 2066",
+   "AMD": "AMD: AM4, TR4"
+  },
+  "Warranty Information": {
+   "Warranty": "06 Year Warranty"
+  }
+ },
+ "key_features": [
+  "Compatible with Intel and AMD",
+  "7th gen Asetek pump",
+  "Fan Speed: 800 - 2500 RPM",
+  "AURA Sync Support"
+ ],
+ "price": 1910020700,
+ "regular": 22770,
+ "status": "In Stock",
+ "code": "23666",
+ "brand": "Asus",
+ "model": "ROG STRIX LC II 240 ARGB White Edition",
+ "warranty": "06 Year Warranty",
+ "name": "ASUS ROG STRIX LC II 240 ARGB White Edition Liquid CPU Cooler",
+ "breadcrumb": [
+  "Component",
+  "CPU Cooler",
+  "Asus",
+  "ASUS ROG STRIX LC II 240 ARGB White Edition Liquid CPU Cooler"
+ ],
+ "fetched": "2026-11-14T17:00+06:00",
+ "source": "https://www.startech.com.bd/asus-rog-strix-lc-ii-240-argb-white-edition-liquid-cpu-cooler",
+ "store": "startech"
+}

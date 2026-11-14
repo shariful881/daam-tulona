@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Ear Phone Feature": {
+   "Cable length": "1.2m",
+   "Drivers": "14mm",
+   "Microphone": "-32dB",
+   "Connector": "3.5mm"
+  },
+  "Headphone Feature": {
+   "Sensitivity": "95dB"
+  },
+  "Key Feature": {
+   "Frequency": "20Hz-20KHz"
+  },
+  "Output": {
+   "Power Output": "10mW"
+  },
+  "Connectivity": {
+   "Connection Type": "Wired"
+  }
+ },
+ "key_features": [
+  "Cable Length: 1.2M",
+  "Speaker Diameter: 14mm",
+  "Frequency Range: 20-20kHz",
+  "Sensitivity: 95 dB"
+ ],
+ "fetched": "2026-11-14T17:45+06:00",
+ "source": "https://www.pchouse.com.bd/foneng-t52-in-ear-wired-earphone-3.5mm",
+ "store": "pchouse"
+}

@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Headphone": {
+   "Driver": "Dynamic, 50mm with neodymium magnets",
+   "Type": "Closed back",
+   "Frequency response": "20Hz–20kHz",
+   "Impedance": "32 Ω",
+   "Sound pressure level": "106dBSPL, 1mW at 1kHz",
+   "T.H.D.": "≤ 2%"
+  },
+  "Microphone": {
+   "Element": "Electret condenser microphone",
+   "Polar pattern": "Bi-directional, Noise-cancelling",
+   "Frequency response": "100Hz-7kHz",
+   "Sensitivity": "-51dBV (1V/Pa at 1kHz)"
+  },
+  "Battery": {
+   "Type": "Rechargeable lithium-ion",
+   "Battery life 1": "30 hours (LED Off), 18 hours (LED Breathing Effect), 13 hours (LED On)",
+   "Charge time": "4.5 hours"
+  },
+  "Connections and Features": {
+   "Audio connections": "USB-A dongle, 3.5mm plug (3-pole)\n2",
+   "USB audio format": "Stereo",
+   "Sampling rate": "48kHz",
+   "Bit-Depth": "16 bit",
+   "Audio Controls": "Volume, mic mute",
+   "Lighting": "Blue",
+   "Lighting effects": "Solid, breathing, off"
+  },
+  "Wireless": {
+   "Type": "2.4 GHz",
+   "Wireless Range 3": "Up to 20 meters"
+  },
+  "Physical": {
+   "Weight": "300g",
+   "Weight with mic": "315g",
+   "Charge cable type and length": "USB Micro-B to USB-A charge cable (0.5m)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-14T17:08+06:00",
+ "source": "https://diamu.com.bd/product/hyperx-cloud-flight-wireless-gaming-headset-for-ps5-and-ps4/",
+ "store": "diamu"
+}
