@@ -1,137 +1,141 @@
 {
- "date": "2026-11-14",
- "scraped_at": "2026-11-14T05:53+06:00",
+ "date": "2026-11-15",
+ "scraped_at": "2026-11-15T05:34+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32050,
+   "items": 32091,
    "errors": [],
-   "seconds": 1841,
+   "seconds": 1770,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1428,
+   "seconds": 1431,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3090,
    "errors": [],
-   "seconds": 1156,
+   "seconds": 1118,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
-   "items": 4032,
-   "errors": [],
-   "seconds": 1650,
-   "failed_cats": []
+   "items": 4030,
+   "errors": [
+    "ac: স্টোর ব্লক করেছে (503 https://www.creatus.com.bd/ac?page=3); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
+   ],
+   "seconds": 1270,
+   "failed_cats": [
+    "ac"
+   ]
   },
   "smartbd": {
    "enabled": true,
    "items": 1534,
    "errors": [],
-   "seconds": 667,
+   "seconds": 673,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 488,
+   "seconds": 489,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 52,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 774,
+   "seconds": 702,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 28062,
+   "items": 28034,
    "errors": [],
-   "seconds": 10024,
+   "seconds": 9084,
    "failed_cats": []
   },
   "techland": {
    "enabled": true,
-   "items": 22233,
+   "items": 22246,
    "errors": [],
-   "seconds": 6055,
+   "seconds": 5842,
    "failed_cats": []
   },
   "diamu": {
    "enabled": true,
    "items": 1886,
    "errors": [],
-   "seconds": 510,
+   "seconds": 477,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 138,
+   "seconds": 132,
    "failed_cats": []
   },
   "computervision": {
    "enabled": true,
-   "items": 10348,
+   "items": 10349,
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3085,
+   "seconds": 3083,
    "failed_cats": [],
-   "matched": 6936,
+   "matched": 6941,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 4485,
+   "items": 4563,
    "errors": [],
-   "seconds": 2007,
+   "seconds": 1926,
    "failed_cats": [],
-   "matched": 3125,
-   "scraped": 4356
+   "matched": 3000,
+   "scraped": 4508
   },
   "pqs": {
    "enabled": true,
-   "items": 11448,
+   "items": 11449,
    "errors": [],
-   "seconds": 1410,
+   "seconds": 1380,
    "failed_cats": [],
-   "matched": 7239,
-   "scraped": 11350
+   "matched": 7257,
+   "scraped": 11347
   },
   "bme": {
    "enabled": true,
-   "items": 9136,
+   "items": 9160,
    "errors": [],
-   "seconds": 2310,
+   "seconds": 2273,
    "failed_cats": [],
-   "matched": 3939,
-   "scraped": 9136
+   "matched": 3958,
+   "scraped": 9160
   },
   "selltech": {
    "enabled": true,
-   "items": 1164,
+   "items": 1168,
    "errors": [],
-   "seconds": 420,
+   "seconds": 395,
    "failed_cats": [],
-   "matched": 766,
-   "scraped": 1162
+   "matched": 770,
+   "scraped": 1166
   }
  }
 }

@@ -16469,6 +16469,27 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/acer-aspire-3-a315-56-10th-gen-intel-core-i5-11609661543.webp"
  },
+ "acer-aspire-3-a315-58-33vt-intel-core-i3-1115g4-4gb-ram-1tb-hdd-15-6-inch-fhd": {
+  "brand": "Acer",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Core i3",
+   "Generation: 11th (Intel)",
+   "RAM: 4GB",
+   "Storage: 1TB HDD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel UHD Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Pure Silver"
+  ],
+  "key": "laptop|1115g4 15.6 1tb 3 33vt 4gb 58 a315 acer aspire core display fhd hdd i3 intel pure silver",
+  "name": "Acer Aspire 3 A315-58-33VT Intel Core i3 1115G4 4GB RAM 1TB HDD 15.6 Inch FHD Display Pure Silver Laptop",
+  "specs": {
+   "capacity": "4GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/acer-aspire-3-a315-58-33vt-intel-core-i3-1115g4-31633519440.webp"
+ },
  "acer-aspire-3-a315-58-55t5-intel-core-i5-1135g7-8gb-ram-1tb-hdd-15-6-inch-fhd-di": {
   "brand": "Acer",
   "category": "laptop",
@@ -19666,6 +19687,27 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/acer-nitro-5-an515-44-r1lk-amd-ryzen-5-4600h-156-11622288711.webp"
  },
+ "acer-nitro-5-an515-45-r816-amd-ryzen-5-5600h-8gb-ram-1tb-hdd-256gb-ssd-15-6-inch": {
+  "brand": "Acer",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Ryzen 5",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 1TB HDD+256GB SSD",
+   "Graphics Memory: 4GB",
+   "Graphics Chipset: Nvidia GTX 1650 Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Shale Black"
+  ],
+  "key": "laptop|15.6 1tb 256gb 45 5 5600h 8gb acer amd an515 black display fhd hdd nitro r816 ryzen shale",
+  "name": "Acer Nitro 5 AN515-45-R816 AMD Ryzen 5 5600H 8GB RAM 1TB HDD + 256GB SSD 15.6 Inch FHD Display Shale Black Gaming Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/acer-nitro-5-an515-45-r816-amd-ryzen-5-5600h-8gb-11708407839.webp"
+ },
  "acer-nitro-5-an515-54-intel-core-i5-9300h-8gb-ram-1tb-hdd-256gb-ssd-15-6-inch-fh": {
   "brand": "Acer",
   "category": "laptop",
@@ -21192,6 +21234,27 @@
   "name": "Acer SA322Q 31.5\" 75Hz FHD IPS Ultra Slim Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/sa322q/sa322q-01-228x228.webp"
+ },
+ "acer-spin-3-sp313-51n-50xm-intel-core-i5-1135g7-8gb-ram-512gb-ssd-13-3-inch-2k": {
+  "brand": "Acer",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Core i5",
+   "Generation: 11th (Intel)",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel Iris Xe Graphics",
+   "Display Size (Inch): 13.3",
+   "Color: Pure Silver"
+  ],
+  "key": "laptop|1 1135g7 13.3 2 2k 3 50xm 512gb 51n 8gb acer core display i5 intel ips pure silver sp313 spin touch wqxga",
+  "name": "Acer Spin 3 SP313-51N-50XM Intel Core i5 1135G7 8GB RAM 512GB SSD 13.3 Inch 2K WQXGA IPS Touch Display Pure Silver 2 in 1 Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/acer-spin-3-sp313-51n-50xm-intel-core-i5-1135g7-11708405192.webp"
  },
  "acer-spin-3-sp314-21n-r4yu-amd-athlon-silver-3050u-4gb-256gb-ssd-14-inch-fhd-ips": {
   "brand": "Acer",
@@ -23346,6 +23409,23 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/adata-4gb-ddr4l-2400mhz-laptop-ram-11726984078.webp"
  },
+ "adata-5600mhz-32gb-ddr5-server-ram": {
+  "brand": "Adata",
+  "category": "server-parts",
+  "created": "2026-11-15",
+  "features": [
+   "Architecture: High-Quality ICs, RCD",
+   "Error Correction: On-Die & Side-Band ECC",
+   "Power: 1.1V, PMIC Support",
+   "Reliability: 24/7 Heavy Workload Support"
+  ],
+  "key": "server-parts|32gb 5600 adata ddr5 server",
+  "name": "Adata 5600MHz 32GB DDR5 SERVER RAM",
+  "specs": {
+   "capacity": "32GB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0432611004/adata-server-ram-adata-32gb-ddr5-5600mhz-server-ram-cover.webp"
+ },
  "adata-64gb-micro-sd-class-10-memory-card-with-adapter-ausdx64guicl10a1-ra1": {
   "brand": "ADATA",
   "category": "memory-card",
@@ -23724,10 +23804,9 @@
   "category": "laptop-ram",
   "created": "2026-11-11",
   "features": [
-   "Capacity (GB/TB): 8GB",
-   "Type: DDR5L",
-   "Bus Speed(MHz): 4800MHz",
-   "Number of Pin: 262 Pin",
+   "Capacity: 8GB DDR5L",
+   "Speed: 4800MHz Bus Speed",
+   "Form Factor: 262-Pin",
    "Color: Black"
   ],
   "key": "laptop-ram|4800 8gb ad5s48008g adata ddr5 s",
@@ -28291,6 +28370,23 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/adata-urban-tapsafe-1000gb-usb-32-gen2-portable-11788343413.webp"
  },
+ "adata-urban-tapsafe-1tb-usb-c-external-ssd": {
+  "brand": "ADATA",
+  "category": "portable-ssd",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 1TB External SSD",
+   "Interface & Speed: USB 3.2 Gen2x2 Type-C, Up to 1900MB/s",
+   "Security: NFC Tap-to-Unlock Protection",
+   "Design: Magnetic Cover & Clip Mount"
+  ],
+  "key": "portable-ssd|1tb adata c external tapsafe urban usb",
+  "name": "ADATA URBAN TAPSAFE 1TB USB-C External SSD",
+  "specs": {
+   "capacity": "1TB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0432611003/adata-portable-ssd-urban-tapsafe-1tb-cover.webp"
+ },
  "adata-urban-tapsafe-2000gb-usb-3-2-gen2-portable-black-external-ssd-surb-tap": {
   "brand": "Adata",
   "category": "portable-ssd",
@@ -28310,6 +28406,23 @@
    "capacity": "2000GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/adata-urban-tapsafe-2000gb-usb-32-gen2-portable-11788345153.webp"
+ },
+ "adata-urban-tapsafe-2tb-usb-c-external-ssd": {
+  "brand": "ADATA",
+  "category": "portable-ssd",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 2TB External SSD",
+   "Interface & Speed: USB 3.2 Gen2x2 Type-C, Up to 1900MB/s",
+   "Security: NFC Tap-to-Unlock Protection",
+   "Design: Magnetic Cover & Clip Mount"
+  ],
+  "key": "portable-ssd|2tb adata c external tapsafe urban usb",
+  "name": "ADATA URBAN TAPSAFE 2TB USB-C External SSD",
+  "specs": {
+   "capacity": "2TB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0432611002/adata-portable-ssd-urban-tapsafe-2tb-cover.webp"
  },
  "adata-usb-3-0-16-gb-pen-drive": {
   "brand": "ADATA",
@@ -28588,6 +28701,17 @@
    "capacity": "128GB"
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/pendrive/adata/uv128/uv128-2-228x228.jpg"
+ },
+ "adata-uv150-128-gb-usb-3-2-pen-drive": {
+  "brand": "Adata",
+  "category": "pen-drive",
+  "created": "2026-11-15",
+  "key": "pen-drive|128gb 3.2 adata pen usb uv150",
+  "name": "Adata UV150 128 GB USB 3.2 Pen Drive",
+  "specs": {
+   "capacity": "128GB"
+  },
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/adata-uv150-128-gb-usb-pen-drive-8418.png"
  },
  "adata-uv150-128gb-black-usb-3-2-gen1-pen-drive": {
   "brand": "Adata",
@@ -53773,6 +53897,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/anker-322-usb-type-c-male-to-male-18-meter-11791695403.webp"
  },
+ "anker-323-33w-charger-adapter": {
+  "brand": "Anker",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "33W PD Output, Type-C and USB-A Interface",
+   "Input: 100-240V~ 0.5A, 50-60Hz",
+   "ActiveShield Safety System",
+   "Compatible With iPhone/Samsung/MacBook and More"
+  ],
+  "key": "mobile-accessories|323 33w adapter anker charger",
+  "name": "Anker 323 33W Charger Adapter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/anker/323/323-01-228x228.webp"
+ },
  "anker-323-powercore-piq-usb-c-10000mah-power-bank": {
   "brand": "ANKER",
   "category": "power-bank",
@@ -55290,10 +55429,12 @@
   "category": "hub-dock",
   "created": "2026-11-11",
   "features": [
-   "Interface: HDMI to HDMI Cable",
-   "Support : 4K@60Hz",
-   "Cable Protection: Nylon-braided",
-   "HDR: Supported, Conductor: Tinned copper"
+   "Type: Video",
+   "Port Side-1: Type-C Male",
+   "Port Side-2: HDMI Male",
+   "Length.: 1.8 Meter",
+   "Display Resolution (Pixels): 3840 x 2160",
+   "Color: Black"
   ],
   "key": "hub-dock|1.8 a87e0h12 anker black braided c cable hdmi male meter nano to type usb",
   "name": "Anker Nano USB Type-C Male to HDMI Male 1.8 Meter Black Braided Cable #A87E0H12",
@@ -71860,6 +72001,18 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0932510002/apacer-ssd-ap512gpp3480-r-cover.webp"
  },
+ "apacer-ap512gpp3480-r-m-2-nvme-pcie-ssd": {
+  "brand": "Apacer",
+  "category": "ssd",
+  "created": "2026-11-15",
+  "key": "ssd|ap512gpp3480 apacer m.2 pcie r",
+  "name": "Apacer AP512GPP3480-R M.2 NVMe PCIe SSD",
+  "specs": {
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Apacer-AP512GPP3480-R-M.2-NVMe-PCIe-SSD2-1585.png"
+ },
  "apacer-as2230-1tb-nas-pe4430-r-pcie-gen4-ssd-ap3ae4430ri-0001": {
   "brand": "Apacer",
   "category": "ssd",
@@ -82462,6 +82615,25 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/apple-ipad-air-wifi-cellular-8gb-ram-1tb-rom-11716726927.webp"
  },
+ "apple-ipad-air-wifi-cellular-m2-chip-8gb-ram-1tb-rom-11-inch-liquid-retina": {
+  "brand": "Apple",
+  "category": "tablet",
+  "created": "2026-11-15",
+  "features": [
+   "Processor: M2 Chip",
+   "Storage (MB/GB/TB): 1TB",
+   "Display Size (Inch): 11",
+   "Front Camera: 12MP",
+   "Back/Rear Camera: 12MP",
+   "Body Color: Purple"
+  ],
+  "key": "tablet|11 1tb 8gb a air apple cellular chip display ipad liquid muxv3xx purple retina rom tablet wifi",
+  "name": "Apple iPad Air WiFi + Cellular M2 Chip 8GB RAM, 1TB ROM 11 Inch Liquid Retina Display Purple Tablet #MUXV3xx/A",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/apple-ipad-air-wifi-cellular-m2-chip-8gb-ram-11716727658.webp"
+ },
  "apple-ipad-mini-5-7-9-inch-mux52zp-a-wi-fi-and-cellular-64gb-space-gray": {
   "brand": "Apple",
   "category": "tablet",
@@ -88863,6 +89035,27 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/apple-macbook-air-early-2026-apple-m5-chip-16gb-11773645696.webp"
  },
+ "apple-macbook-air-early-2026-apple-m5-chip-16gb-ram-512gb-ssd-13-6-inch-liquid": {
+  "brand": "Apple",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Apple M5",
+   "Generation: M Series",
+   "RAM: 16GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Apple 8-Core GPU",
+   "Display Size (Inch): 13.6",
+   "Color: Midnight"
+  ],
+  "key": "laptop|13.6 16gb 512gb a air apple chip display liquid m5 macbook mdhe4xx midnight retina",
+  "name": "Apple MacBook Air (Early 2026) Apple M5 Chip 16GB RAM, 512GB SSD 13.6 Inch Liquid Retina Display Midnight Laptop #MDHE4xx/A",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/apple-macbook-air-early-2026-apple-m5-chip-16gb-11773311925.webp"
+ },
  "apple-macbook-air-early-2026-apple-m5-chip-16gb-ram-512gb-ssd-15-3-inch-liquid": {
   "brand": "Apple",
   "category": "laptop",
@@ -91211,6 +91404,25 @@
   "name": "Apple Magic Keyboard With Touch ID #MK293xx/A",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/apple-magic-keyboard-with-touch-id-11661315773.webp"
+ },
+ "apple-magic-magnetic-attachment-black-keyboard-mjqk3xx-a": {
+  "brand": "Apple",
+  "category": "keyboard",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Magic Keyboard",
+   "Interface: Magnetic Attachment",
+   "Language: English",
+   "Lighting: Yes",
+   "Mechanical (Key): No",
+   "Switch Type: Scissor Switch",
+   "Color: Black",
+   "Combo Package: Keyboard only"
+  ],
+  "key": "keyboard|a apple attachment black keyboard magic magnetic mjqk3xx",
+  "name": "Apple Magic Magnetic attachment Black Keyboard #MJQK3xx/A",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/apple-magic-magnetic-attachment-black-keyboard-11639981554.webp"
  },
  "apple-magic-mouse-2-black-mmmq3am-a": {
   "brand": "Apple",
@@ -105142,6 +105354,23 @@
    "capacity": "8GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/asus-dual-radeon-rx-7600-v2-oc-edition-8gb-gddr6-11702125575.webp"
+ },
+ "asus-dual-radeon-rx-9050-oc-edition-8gb-gddr6-graphics-card": {
+  "brand": "ASUS",
+  "category": "graphics-card",
+  "created": "2026-11-15",
+  "features": [
+   "Boost Clock: Up to 2760 MHz, Game Clock: Up to 2260 MHz",
+   "Memory: 8GB/128 bit GDDR6, Memory Clock: 18 Gbps",
+   "CUDA Core: 1024, AMD RDNA 4 Architecture",
+   "Output Ports:1x HDMI 2.1, 2x DisplayPort 2.1a"
+  ],
+  "key": "graphics-card|8gb 9050 asus card dual gddr6 oc rx",
+  "name": "ASUS Dual Radeon RX 9050 OC Edition 8GB GDDR6 Graphics Card",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/asus/dual-radeon-rx-9050-oc-8gb/dual-radeon-rx-9050-oc-8gb-01-228x228.webp"
  },
  "asus-dual-radeon-rx-9050-oc-edition-black-8gb-gddr6-graphics-card-dual-rx9050-o8": {
   "brand": "Asus",
@@ -138238,6 +138467,27 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/asus-vivobook-15-k513ea-intel-core-i5-1135g7-156-11626333297.webp"
  },
+ "asus-vivobook-15-k513ep-intel-core-i5-1135g7-8gb-ram-512gb-ssd-15-6-inch-fhd": {
+  "brand": "ASUS",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Core i5",
+   "Generation: 11th (Intel)",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: 2GB",
+   "Graphics Chipset: Nvidia MX330 Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Hearty Gold"
+  ],
+  "key": "laptop|1135g7 15 15.6 512gb 8gb asus core display fhd gold hearty i5 intel k513ep vivobook",
+  "name": "ASUS VivoBook 15 K513EP Intel Core i5 1135G7 8GB RAM 512GB SSD 15.6 Inch FHD Display Hearty Gold Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/asus-vivobook-15-k513ep-11th-gen-intel-core-i5-11634214512.webp"
+ },
  "asus-vivobook-15-k513ep-intel-core-i5-1135g7-8gb-ram-512gb-ssd-15-6-inch-fhd-dis": {
   "brand": "ASUS",
   "category": "laptop",
@@ -138258,6 +138508,27 @@
    "capacity": "8GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/asus-vivobook-15-k513ep-intel-core-i5-1135g7-8gb-51719736326.webp"
+ },
+ "asus-vivobook-15-k513ep-intel-core-i7-1165g7-8gb-ram-512gb-ssd-15-6-inch-fhd": {
+  "brand": "ASUS",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Core i7",
+   "Generation: 11th (Intel)",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: 2GB",
+   "Graphics Chipset: Nvidia MX330 Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Hearty Gold"
+  ],
+  "key": "laptop|1165g7 15 15.6 512gb 8gb asus core display fhd gold hearty i7 intel k513ep vivobook",
+  "name": "ASUS VivoBook 15 K513EP Intel Core i7 1165G7 8GB RAM 512GB SSD 15.6 Inch FHD Display Hearty Gold Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/asus-vivobook-15-k513ep-11th-gen-intel-core-i7-11634214422.webp"
  },
  "asus-vivobook-15-m513ia-amd-ryzen-5-4500u-8gb-ram-512gb-ssd-15-6-inch-fhd-displa": {
   "brand": "ASUS",
@@ -143527,6 +143798,27 @@
    "capacity": "16GB"
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0082605041/asus-laptop-zenbook-14-oled-um3406ga-cover.webp"
+ },
+ "asus-zenbook-14-um425qa-amd-ryzen-7-5800h-8gb-ram-512gb-ssd-14-inch-fhd-display": {
+  "brand": "ASUS",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Type.: Ryzen 7",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: AMD Radeon Graphics",
+   "Display Size (Inch): 14",
+   "Color: Pine Grey"
+  ],
+  "key": "laptop|14 512gb 5800h 7 8gb amd asus display fhd grey pine ryzen um425qa zenbook",
+  "name": "ASUS ZenBook 14 UM425QA AMD Ryzen 7 5800H 8GB RAM 512GB SSD 14 Inch FHD Display Pine Grey Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/asus-zenbook-14-um425qa-amd-ryzen-7-5800h-8gb-ram-11722665742.webp"
  },
  "asus-zenbook-14-ux3405ca-core-ultra-5-225h-16gb-ram-512gb-ssd-14-inch-touch-lapt": {
   "brand": "ASUS",
@@ -156007,6 +156299,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/foneng/pa-104/pa-104-01-228x228.webp"
  },
+ "awei-pa-106-5000mah-22-5w-power-bank": {
+  "brand": "Awei",
+  "category": "power-bank",
+  "created": "2026-11-15",
+  "features": [
+   "Battery Capacity: 5000mAh",
+   "Interfaces: 2x USB-A , 2x Type-C",
+   "Output: Type-C 12V/1.67A (22.5W Max)",
+   "Multi-Layer Safety Protection, LED Display"
+  ],
+  "key": "power-bank|106 22.5w 5000mah awei bank pa power",
+  "name": "Awei PA-106 5000mAh 22.5W Power Bank",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/pa-106/pa-106-01-228x228.webp"
+ },
  "awei-pa-107-50000mah-22-5w-power-bank": {
   "brand": "Awei",
   "category": "power-bank",
@@ -156023,7 +156330,7 @@
   "features": [
    "Battery Capacity: 30000mAh",
    "Interfaces: 2x USB-A , 2x Type-C",
-   "Input: Type-C 520V/3.25A (65W Max)",
+   "Input: Type-C 20V/3.25A (65W Max)",
    "8-Layer Safety Protection, LED Display"
   ],
   "key": "power-bank|108 30000mah 65w awei bank pa power",
@@ -156399,6 +156706,21 @@
   "name": "Awei PD81T-EU 22.5W GaN Fast Charger with Type-C Cable",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/awei/pd81t-eu/pd81t-eu-01-228x228.webp"
+ },
+ "awei-pd85-us-22-5w-fast-charger": {
+  "brand": "Awei",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Output: 22.5W, 12V/1.87A Max.",
+   "Input: 100V-240V, 50/60Hz, 0.5A",
+   "Interface: 1 x Type-C, 1 x USB‑A",
+   "Multiple Protection, Portable Design"
+  ],
+  "key": "mobile-accessories|22.5w awei charger fast pd85 us",
+  "name": "Awei PD85-US 22.5W Fast Charger",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/awei/pd85-us/pd85-us-01-228x228.webp"
  },
  "awei-pd90-us-20w-gan-fast-charger": {
   "brand": "Awei",
@@ -157167,6 +157489,36 @@
   "name": "Awei TC-2 Type C In-Ear Wired Earphone",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/earphone/awei/tc-2/tc-2-01-228x228.webp"
+ },
+ "awei-tp100enc-wireless-earbuds": {
+  "brand": "Awei",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "Dual ENC Microphone",
+   "Battery: 500mAh, 6H Playtime",
+   "Bluetooth V5.4, 10m Transmission",
+   "Full Color Screen, Dynamic Drivers"
+  ],
+  "key": "earbuds|awei earbuds tp100enc wireless",
+  "name": "Awei TP100ENC Wireless Earbuds",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/awei/tp100enc/tp100enc-01-228x228.webp"
+ },
+ "awei-tp29-anc-wireless-earbuds": {
+  "brand": "Awei",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "Driver: 10mm, ANC Noise Cancellation",
+   "Battery: Up To 35H Long Battery life",
+   "Bluetooth V6, LCD Touch Color Screen",
+   "147 Language Translation, IPX6 Water Resistance"
+  ],
+  "key": "earbuds|anc awei earbuds tp29 wireless",
+  "name": "Awei TP29 ANC Wireless Earbuds",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/awei/tp29/tp29-01-228x228.webp"
  },
  "awei-tz30": {
   "brand": "Awei",
@@ -159629,6 +159981,12 @@
   "brand": "Baseus",
   "category": "power-bank",
   "created": "2026-11-11",
+  "features": [
+   "20000mAh Capacity",
+   "Max 5V-3A Type-C Input",
+   "High current Fast charging",
+   "Digital display screen"
+  ],
   "key": "power-bank|15w 20000mah bank baseus bipow digital display power",
   "name": "Baseus Bipow 20000mAh 15W Digital Display Power Bank",
   "specs": {},
@@ -164999,10 +165357,10 @@
   "category": "power-bank",
   "created": "2026-11-10",
   "features": [
-   "20000mAh Capacity",
-   "Max 5V-3A Type-C Input",
-   "High current Fast charging",
-   "Digital display screen"
+   "USB type A, Micro USB &Type-C port",
+   "20 W Fast charging",
+   "Digital Display screen",
+   "20000mAh Polymer lithium battery"
   ],
   "key": "power-bank|15w 20000mah bank baseus bipow digital display power ppbd20",
   "name": "Baseus PPBD20 Bipow Digital Display 15W 20000mAh Power Bank",
@@ -180809,6 +181167,25 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2482506029/biostar-motherboard-h310mhp-cover.webp"
  },
+ "biostar-h310mhp-ddr4-motherboard": {
+  "brand": "BIOSTAR",
+  "category": "motherboard",
+  "created": "2026-11-15",
+  "features": [
+   "Form Factor: Micro-ATX",
+   "Chipset: Intel H310",
+   "Sockets Supported: LGA1151",
+   "Supported CPU: 9th/8th Generation Intel Core, Pentium and Celeron Processors",
+   "Generation: 8th/9th",
+   "Memory Slot: 2",
+   "Memory Max.: 32GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|biostar ddr4 h310mhp motherboard",
+  "name": "BIOSTAR H310MHP DDR4 Motherboard",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/biostar-h310mhp-ddr4-11668595123.webp"
+ },
  "biostar-h510mhp-11th-gen-motherboard": {
   "brand": "BIOSTAR",
   "category": "motherboard",
@@ -180823,6 +181200,25 @@
   "name": "BIOSTAR H510MHP 11TH GEN MOTHERBOARD",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2482506025/biostar-motherboard-h510mhp-cover.webp"
+ },
+ "biostar-h510mhp-ddr4-motherboard": {
+  "brand": "BIOSTAR",
+  "category": "motherboard",
+  "created": "2026-11-15",
+  "features": [
+   "Form Factor: Micro-ATX",
+   "Chipset: Intel H510",
+   "Sockets Supported: LGA1200",
+   "Supported CPU: 10th / 11th Gen Intel Core, Pentium and Celeron processors.",
+   "Generation: 10th/11th",
+   "Memory Slot: 2",
+   "Memory Max.: 64GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|biostar ddr4 h510mhp motherboard",
+  "name": "BIOSTAR H510MHP DDR4 Motherboard",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/biostar-h510mhp-ddr4-11694864603.webp"
  },
  "biostar-h610mh-12th-13th-gen-micro-atx-intel-motherboard": {
   "brand": "BIOSTAR",
@@ -181295,6 +181691,25 @@
   "name": "BIOSTAR Z490A-SILVER DDR4 Motherboard",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/biostar-z490a-silver-ddr4-11668412083.webp"
+ },
+ "biostar-z490gta-evo-ddr4-10th-11th-gen-lga1200-socket-motherboard": {
+  "brand": "BIOSTAR",
+  "category": "motherboard",
+  "created": "2026-11-15",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel Z490",
+   "Sockets Supported: LGA1200",
+   "Supported CPU: 10th/11th Generation Intel Core i9/ i7/i5/ i3 processors, Intel Pentium processors, Intel Celeron processors",
+   "Generation: 10th/11th",
+   "Memory Slot: 4",
+   "Memory Max.: 128GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|10th 11th biostar ddr4 evo lga1200 motherboard socket z490gta",
+  "name": "BIOSTAR Z490GTA EVO DDR4 10th-11th Gen LGA1200 Socket Motherboard",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/biostar-z490gta-evo-ddr4-10th-11th-gen-lga1200-11668421106.webp"
  },
  "biostar-z590mhp-11th-10th-gen-micro-atx-motherboard": {
   "brand": "BIOSTAR",
@@ -188981,6 +189396,15 @@
   "name": "Boya BY-EA2L USB Sound Adapter",
   "specs": {},
   "store_image": "https://ik.imagekit.io/fourstarit/website/Accessories/Microphone/BOYA/boya-usb-male-to-dual-35mm-female-converter-11711946651_O4mysITzz.webp"
+ },
+ "boya-by-em5-k1-uhf-wireless-microphone": {
+  "brand": "BOYA",
+  "category": "microphone",
+  "created": "2026-11-15",
+  "key": "microphone|boya by em5 k1 microphone uhf wireless",
+  "name": "BOYA BY-EM5-K1 UHF Wireless Microphone",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/BOYA-BY-EM5-K1-UHF-Wireless-Microphonea-4708.png"
  },
  "boya-by-em5-k1-uhf-wireless-microphone-system": {
   "brand": "Boya",
@@ -198059,6 +198483,23 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/bwoo/cc95/cc95-228x228.webp"
  },
+ "bwoo-bo-cc95-48w-usb-usb-c-black-car-charger": {
+  "brand": "BWOO",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Car Charger",
+   "Transmitted Power: 48W",
+   "Fast Charging: Yes",
+   "Cable Included: No",
+   "Indicators: Yes",
+   "Color: Black"
+  ],
+  "key": "mobile-accessories|48w black bo bwoo c car cc95 charger usb",
+  "name": "BWOO BO-CC95 48W USB & USB-C Black Car Charger",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/bwoo-bo-cc95-45w-usb-usb-c-black-car-11760619505.webp"
+ },
  "bwoo-bo-cda132-30w-2-port-fast-wall-charger-adapter": {
   "brand": "BWOO",
   "category": "mobile-accessories",
@@ -200849,6 +201290,51 @@
   "name": "BWOO BO-X325CC 240W 1.2M RGB USB Type C Cable",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/bwoo/bo-x325cc/bo-x325cc-01-228x228.webp"
+ },
+ "bwoo-bo-x401c-15w-1m-usb-to-type-c-cable": {
+  "brand": "BWOO",
+  "category": "cable",
+  "created": "2026-11-15",
+  "features": [
+   "Interface: USB-A to Type-C",
+   "Durable Nylon Braided Design, 10000+ bend lifespan",
+   "Support Up to 15W Fast Charging",
+   "Wide Device Compatibility; Up to 480Mbps Transfer Speed"
+  ],
+  "key": "cable|15w 1m bo bwoo c cable to type usb x401c",
+  "name": "BWOO BO-X401C 15W 1m USB to Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/bwoo/bo-x401c/bo-x401c-black-01-228x228.webp"
+ },
+ "bwoo-bo-x401cc-65w-pd-charging-1m-type-c-cable": {
+  "brand": "BWOO",
+  "category": "cable",
+  "created": "2026-11-15",
+  "features": [
+   "Interface: USB Type-C to Type-C",
+   "Durable Nylon Braided Design, 10000+ bend lifespan",
+   "Support Up to 65W PD Fast Charging",
+   "Wide Device Compatibility; Up to 480Mbps Transfer Speed"
+  ],
+  "key": "cable|1m 65w bo bwoo c cable charging pd type x401cc",
+  "name": "BWOO BO-X401CC 65W PD Charging 1m Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/bwoo/bo-x401cc/bo-x401cc-black-01-228x228.webp"
+ },
+ "bwoo-bo-x401cl-30w-pd-charging-1m-type-c-to-lightning-cable": {
+  "brand": "BWOO",
+  "category": "cable",
+  "created": "2026-11-15",
+  "features": [
+   "Interface: USB Type-C to Lightning",
+   "Durable Nylon Braided Design, 10000+ bend lifespan",
+   "Support Up to 30W PD Fast Charging",
+   "Wide Device Compatibility; Up to 480Mbps Transfer Speed"
+  ],
+  "key": "cable|1m 30w bo bwoo c cable charging lightning pd to type x401cl",
+  "name": "BWOO BO-X401CL 30W PD Charging 1m Type-C to Lightning Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/bwoo/bo-x401cl/bo-x401cl-black-01-228x228.webp"
  },
  "bwoo-bo-zj125-360-degree-rotating-black-dashboard-car-mount-mobile-phone-holder": {
   "brand": "BWOO",
@@ -228141,6 +228627,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/colmi-p80-bluetooth-calling-silver-smart-watch-11759912901.webp"
  },
+ "colmi-p80-smart-watch": {
+  "brand": "COLMI",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Screen: 1.83-inch HD IPS Display",
+   "Bluetooth calling, IP67 Water Resistance",
+   "100+ Sport Mode, 8-channel heart rate sensor",
+   "Voice Assistant, Built-in Flashlight"
+  ],
+  "key": "smart-watch|colmi p80 smart watch",
+  "name": "COLMI P80 Smart Watch",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p80/p80-03-228x228.webp"
+ },
  "colmi-p80-smartwatch": {
   "brand": "Colmi",
   "category": "smart-watch",
@@ -231482,10 +231983,10 @@
   "category": "laptop-ram",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 16GB, Memory Type: DDR5",
-   "Speed: 5600MHz",
-   "Voltage: 1.2V",
-   "Latency: CL46-45-45-90"
+   "Capacity (GB/TB): 16GB",
+   "Type: DDR5",
+   "Bus Speed(MHz): 5600MHz",
+   "Color: Green"
   ],
   "key": "laptop-ram|16gb 5600 colorful ddr5",
   "name": "Colorful Notebook 16GB DDR5 5600MHz Laptop RAM",
@@ -231556,6 +232057,28 @@
    "type": "DDR4"
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/ram/colorful/notebook-8gb-ddr4-3200mhz/notebook-8gb-ddr4-3200mhz-01-228x228.webp"
+ },
+ "colorful-sl300-128gb-2-5-inch-sataiii-black-ssd": {
+  "brand": "Colorful",
+  "category": "ssd",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Internal SSD",
+   "Storage: 128GB",
+   "Form Factor (Inch): 2.5 Inch",
+   "Interface(s): SATAIII",
+   "Read Speed (Max.): 500MB/s",
+   "Write Speed (Max.): 400MB/s",
+   "Color: Black"
+  ],
+  "key": "ssd|128gb 2.5 black colorful sataiii sl300",
+  "name": "Colorful SL300 128GB 2.5 Inch SATAIII Black SSD",
+  "specs": {
+   "capacity": "128GB",
+   "form": "2.5\"",
+   "interface": "SATA"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/colorful-sl300-128gb-25-inch-sataiii-black-11794647390.webp"
  },
  "colorful-sl300-128gb-2-5-sata-iii-ssd": {
   "brand": "COLORFUL",
@@ -231670,6 +232193,28 @@
    "interface": "SATA"
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/ssd/colorful/sl500/sl500-02-228x228.webp"
+ },
+ "colorful-sl500-256gb-2-5-inch-sataiii-black-ssd": {
+  "brand": "Colorful",
+  "category": "ssd",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Internal SSD",
+   "Storage: 128GB",
+   "Form Factor (Inch): 2.5 Inch",
+   "Interface(s): SATAIII",
+   "Read Speed (Max.): 400MB/s",
+   "Write Speed (Max.): 400MB/s",
+   "Color: Black"
+  ],
+  "key": "ssd|2.5 256gb black colorful sataiii sl500",
+  "name": "Colorful SL500 256GB 2.5 Inch SATAIII Black SSD",
+  "specs": {
+   "capacity": "256GB",
+   "form": "2.5\"",
+   "interface": "SATA"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/colorful-sl500-256gb-25-inch-sataiii-black-11794647630.webp"
  },
  "colorful-sl500-256gb-2-5-sata-iii-ssd": {
   "brand": "COLORFUL",
@@ -269391,6 +269936,15 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P3002506040/cudy-lan-card-wu1300s-cover.webp"
  },
+ "cudy-wu1400-ac1300-dual-band-wifi-wireless-adapter": {
+  "brand": "Cudy",
+  "category": "router",
+  "created": "2026-11-15",
+  "key": "router|ac1300 adapter band cudy dual wifi wireless wu1400",
+  "name": "Cudy WU1400 AC1300 Dual Band WiFi Wireless Adapter",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Cudy-WU1400-AC1300-Dual-Band-WiFi-Wireless-Adapter-6621.png"
+ },
  "cudy-wu1400-ac1300-high-gain-dual-band-usb-wifi-adapter": {
   "brand": "Cudy",
   "category": "wifi-adapter",
@@ -278557,6 +279111,21 @@
   "name": "Dahua DHI-LM24-B201E 24-inch FHD 100Hz IPS Monitor",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0292506139/dahua-monitor-dhi-lm24-b201e-cover.webp"
+ },
+ "dahua-dhi-lm24-b201s-23-8-inch-full-hd-100hz-ips-monitor": {
+  "brand": "DAHUA",
+  "category": "monitor-all",
+  "created": "2026-11-15",
+  "features": [
+   "Screen Size: 23.8 inch",
+   "Panel: IPS",
+   "Refresh Rate: 100Hz",
+   "Resolution: 1920*1080"
+  ],
+  "key": "monitor-all|100hz 23.8 b201s dahua dhi full hd ips lm24 monitor",
+  "name": "DAHUA DHI-LM24-B201S 23.8 INCH FULL HD 100HZ IPS MONITOR",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0292506089/dahua-monitor-dhi-lm24-b201s-cover.webp"
  },
  "dahua-dhi-lm24-b201s-b3-23-8-inch-full-hd-ips-led-monitor": {
   "brand": "Dahua",
@@ -289847,6 +290416,7 @@
   "category": "air-fryer",
   "created": "2026-11-11",
   "features": [
+   "Capacity (Liters): 4.5 L",
    "Number of Baskets: 1",
    "Color: Black"
   ],
@@ -314629,6 +315199,27 @@
   },
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
  },
+ "dell-optiplex-7020-14th-gen-intel-core-i3-14100-8gb-ram-512gb-ssd-black-tower": {
+  "brand": "Dell",
+  "category": "desktop-pc",
+  "created": "2026-11-15",
+  "features": [
+   "Form Factor: Tower",
+   "Processor Type: Core i3",
+   "Processor Max Turbo Frequency: 4.70GHz",
+   "RAM: 8GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 512GB",
+   "Graphics Memory: Shared",
+   "Body Color: Black"
+  ],
+  "key": "desktop-pc|14100 14th 210 512gb 7020 8gb black bldj brand core dell i3 intel optiplex tower",
+  "name": "Dell OptiPlex 7020 14th Gen Intel Core i3 14100 8GB RAM 512GB SSD Black Tower Brand PC #210-BLDJ",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/dell-optiplex-7020-14th-gen-intel-core-i3-14100-11737366785.webp"
+ },
  "dell-optiplex-7020-14th-gen-intel-core-i3-14100-black-tower-brand-pc": {
   "brand": "Dell",
   "category": "desktop-pc",
@@ -318671,7 +319262,7 @@
    "RAM: 128GB",
    "Hard Disk Drive (HDD): 2 x 2.4TB",
    "Installed HDD Type: SAS",
-   "Solid-State Drive (SSD): 10K RPM SAS 12Gbps 512e 2.5in Hard Drive",
+   "Solid-State Drive (SSD): No",
    "Installed SSD Type: No SSD"
   ],
   "key": "server-rack|128gb 16 2u 2x2 4510 4tb dell dual hdd intel poweredge r760xs rack server silver xeon",
@@ -324708,6 +325299,141 @@
   "name": "Deye SE-F5-C 5.12kWh Lithium Solar Battery",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/deye/se-f5-c/se-f5-c-01-228x228.webp"
+ },
+ "deye-sun-10k-sg02lp1-eu-am3-10kw-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 10000W",
+   "Nominal Output Voltage: 220V/230V",
+   "Max. Operating PV Input Current: 26A+26A+26A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 16 Units"
+  ],
+  "key": "solar|10k 10kw am3 deye eu grid hybrid inverter on sg02lp1 solar sun",
+  "name": "Deye SUN-10K-SG02LP1-EU-AM3 10kW On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-10k-sg01lp1-eu-am3/sun-10k-sg01lp1-eu-am3-01-228x228.webp"
+ },
+ "deye-sun-10k-sg04lp3-eu-10kw-three-phase-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 10000W",
+   "Rated Input/Output Voltage/Range (V): 220/380V,230/400V",
+   "Max. Operating PV Input Current: 26A+13A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 10 Units"
+  ],
+  "key": "solar|10k 10kw deye eu grid hybrid inverter on phase sg04lp3 solar sun three",
+  "name": "Deye SUN-10K-SG04LP3-EU 10kW Three Phase On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-10k-sg04lp3-eu/sun-10k-sg04lp3-eu-01-228x228.webp"
+ },
+ "deye-sun-12k-sg02lp1-eu-am3-12kw-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 12000W",
+   "Nominal Output Voltage: 220V/230V",
+   "Max. Operating PV Input Current: 26A+26A+26A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 16 Units"
+  ],
+  "key": "solar|12k 12kw am3 deye eu grid hybrid inverter on sg02lp1 solar sun",
+  "name": "Deye SUN-12K-SG02LP1-EU-AM3 12kW On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-10k-sg01lp1-eu-am3/sun-10k-sg01lp1-eu-am3-01-228x228.webp"
+ },
+ "deye-sun-12k-sg04lp3-eu-12kw-three-phase-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 12000W",
+   "Rated Input/Output Voltage/Range (V): 220/380V,230/400V",
+   "Max. Operating PV Input Current: 26A+13A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 10 Units"
+  ],
+  "key": "solar|12k 12kw deye eu grid hybrid inverter on phase sg04lp3 solar sun three",
+  "name": "Deye SUN-12K-SG04LP3-EU 12kW Three Phase On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-10k-sg04lp3-eu/sun-10k-sg04lp3-eu-01-228x228.webp"
+ },
+ "deye-sun-16k-sg01lp1-eu-am3-p-16kw-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 16000W",
+   "Nominal Output Voltage: 220V/230V",
+   "Max. Operating PV Input Current: 36A+36A+36A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 16 Units"
+  ],
+  "key": "solar|16k 16kw am3 deye eu grid hybrid inverter on p sg01lp1 solar sun",
+  "name": "Deye SUN-16K-SG01LP1-EU-AM3-P 16kW On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-10k-sg01lp1-eu-am3/sun-10k-sg01lp1-eu-am3-01-228x228.webp"
+ },
+ "deye-sun-16k-sg05lp3-eu-sm2-16kw-three-phase-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 16000W",
+   "Rated Input/Output Voltage/Range (V): 220/380V,230/400V",
+   "Max. Operating PV Input Current: 36A+36A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 10 Units"
+  ],
+  "key": "solar|16k 16kw deye eu grid hybrid inverter on phase sg05lp3 sm2 solar sun three",
+  "name": "Deye SUN-16K-SG05LP3-EU-SM2 16kW Three Phase On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-16k-sg05lp3-eu-sm2/sun-16k-sg05lp3-eu-sm2-01-228x228.webp"
+ },
+ "deye-sun-18k-sg05lp3-eu-sm2-18kw-three-phase-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 18000W",
+   "Rated Input/Output Voltage/Range (V): 220/380V,230/400V",
+   "Max. Operating PV Input Current: 36A+36A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 10 Units"
+  ],
+  "key": "solar|18k 18kw deye eu grid hybrid inverter on phase sg05lp3 sm2 solar sun three",
+  "name": "Deye SUN-18K-SG05LP3-EU-SM2 18kW Three Phase On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-16k-sg05lp3-eu-sm2/sun-16k-sg05lp3-eu-sm2-01-228x228.webp"
+ },
+ "deye-sun-20k-sg05lp3-eu-sm2-20kw-three-phase-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 20000W",
+   "Rated Input/Output Voltage/Range (V): 220/380V,230/400V",
+   "Max. Operating PV Input Current: 36A+36A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 10 Units"
+  ],
+  "key": "solar|20k 20kw deye eu grid hybrid inverter on phase sg05lp3 sm2 solar sun three",
+  "name": "Deye SUN-20K-SG05LP3-EU-SM2 20kW Three Phase On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-16k-sg05lp3-eu-sm2/sun-16k-sg05lp3-eu-sm2-01-228x228.webp"
+ },
+ "deye-sun-6k-sg04lp1-eu-sm2-6kw-on-grid-hybrid-solar-inverter": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-15",
+  "features": [
+   "Max Output Power: 6000W",
+   "Nominal Output Voltage: 220V/230V",
+   "Max. Operating PV Input Current: 18A+18A",
+   "Max. Efficiency: 97.6%, Parallel Operation: Up to 16 Units"
+  ],
+  "key": "solar|6k 6kw deye eu grid hybrid inverter on sg04lp1 sm2 solar sun",
+  "name": "Deye SUN-6K-SG04LP1-EU-SM2 6kW On-Grid Hybrid Solar Inverter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/inverter/deye/sun-6k-sg04lp1-eu-sm2/sun-6k-sg04lp1-eu-sm2-02-228x228.webp"
  },
  "dgs-ox3-pocket-camera": {
   "brand": "Dgs",
@@ -374328,6 +375054,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1142602009/fantech-keyboard-mk894-maxpower-ii-cover.webp"
  },
+ "fantech-mk894-maxpower-ii-wired-mechanical-gaming-keyboard-speed-grey-switch-black": {
+  "brand": "Fantech",
+  "category": "keyboard",
+  "created": "2026-11-15",
+  "features": [
+   "Connectivity - Wired",
+   "Number of Keys - 104 keys",
+   "Switch Type - Mechanical",
+   "Polling Rate - 1000 Hz"
+  ],
+  "key": "keyboard|black fantech ii keyboard maxpower mechanical mk894 wired",
+  "name": "Fantech MK894 Maxpower II Wired Mechanical Gaming Keyboard (Speed grey Switch) - Black",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1142602006/fantech-keyboard-mk894-maxpower-ii-cover.webp"
+ },
  "fantech-mk894-maxpower-ii-wired-mechanical-gaming-keyboard-speed-grey-switch-whi": {
   "brand": "Fantech",
   "category": "keyboard",
@@ -384270,6 +385011,24 @@
   "name": "Fastrack Horizon S1 Black Bluetooth Calling Smart Watch",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/fastrack-horizon-s1-black-bluetooth-calling-smart-11757337086.webp"
+ },
+ "fastrack-jupiter-flex-black-bluetooth-calling-smart-watch": {
+  "brand": "Fastrack",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Watch Size: Unmentioned",
+   "Screen/Display Size.: 1.38 Inch",
+   "Always On Display: No",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Black",
+   "Color: Black"
+  ],
+  "key": "smart-watch|black bluetooth calling fastrack flex jupiter smart watch",
+  "name": "Fastrack Jupiter Flex Black Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/fastrack-jupiter-flex-black-bluetooth-calling-11745813420.webp"
  },
  "fastrack-jupiter-flex-smart-watch": {
   "brand": "Fastrack",
@@ -423638,8 +424397,7 @@
    "Efficiency: 90% Efficiency",
    "Efficiency Rating: 80 Plus Gold",
    "Protection: OVP/OPP/SCP/UVP/OCP/OTP",
-   "Color: White",
-   "Warranty Info: 10 Year"
+   "Color: White"
   ],
   "key": "power-supply|1000w 3.1 80 atx full gigabyte gold gp ice modular pg5 plus power supply ud1000gm white",
   "name": "Gigabyte GP-UD1000GM PG5 ICE 1000W ATX 3.1 80 Plus Gold Full-Modular White Power Supply",
@@ -424648,10 +425406,10 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Supported CPU: Support for 10th Generation Intel® Core™",
-   "Memory: Intel® Core™ i9/i7 processors: Support for DDR4",
-   "Supported Storage: 1 x M.2 connector (Socket 3, M key,",
-   "LAN: Intel GbE LAN chip (1 Gbit/100 Mbit)"
+   "Supported CPU: 10th Gen Intel Core Processors",
+   "Supported RAM: DDR4, 2 DIMMs, up to 64 GB",
+   "Graphics Output: 1 x D-Sub, 1 x HDMI",
+   "Features: Intel GbE LAN with cFosSpeed"
   ],
   "key": "motherboard|10th atx gigabyte h h410m micro motherboard v2",
   "name": "GIGABYTE H410M H V2 10th Gen Micro ATX Motherboard",
@@ -446285,14 +447043,10 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Chipset: Intel",
-   "Capacity (GB/TB): 16GB",
-   "Graphics Resolution Max.: 7680 x 4320",
-   "VGA Port: No",
-   "HDMI Port: 1",
-   "Display Port: 3",
-   "Multi Display Capability: Quad Display",
-   "Body Color: Black"
+   "32 Xe Cores, 512 XMX Engines",
+   "Xe HPG Microarchitecture",
+   "256-Bit Memory Interface",
+   "Interface: HDMI 2.0, DisplayPort 2.0"
   ],
   "key": "graphics-card|16g a770 arc card gddr6 gunnir intel oc photon",
   "name": "GUNNIR Intel Arc A770 Photon 16G OC GDDR6 Graphics Card (Black)",
@@ -457717,6 +458471,22 @@
   "name": "Havit H2575BT Black-Red Bluetooth Headphone",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/havit-h2575bt-blackred-bluetooth-head-11556946290.webp"
+ },
+ "havit-h2590bt-multi-function-bluetooth-black-headphone": {
+  "brand": "Havit",
+  "category": "headphone",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Color: Black"
+  ],
+  "key": "headphone|black bluetooth function h2590bt havit headphone multi",
+  "name": "Havit H2590BT Multi-Function Bluetooth Black Headphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/havit-h2590bt-multi-function-bluetooth-black-11574338975.webp"
  },
  "havit-h2590bt-multi-function-bluetooth-headphone": {
   "brand": "Havit",
@@ -513570,6 +514340,15 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/honor/choice-20000mah/choice-20000mah-0001-228x228.webp"
  },
+ "honor-choice-2i-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "key": "smart-watch|2i choice honor smart watch",
+  "name": "Honor CHOICE 2i Smart Watch",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/honor-choice-2i-smart-watch-black-8878.jpg"
+ },
  "honor-choice-am61-pro-bluetooth-earphones-black": {
   "brand": "HONOR",
   "category": "neckband",
@@ -514028,6 +514807,22 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/smartwatch/honor/choice-watch-2-epic/choice-watch-2-epic-black-228x228.webp"
  },
+ "honor-choice-watch-2-epic-amoled-gps-white-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Screen/Display Size.: 1.97 Inch",
+   "Always On Display: Unmentioned",
+   "Heart Rate: Yes",
+   "Band Color: White",
+   "Color: White"
+  ],
+  "key": "smart-watch|2 amoled bluetooth calling choice epic gps honor smart watch white",
+  "name": "Honor Choice Watch 2 Epic AMOLED GPS White Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-choice-watch-2-epic-amoled-gps-white-11794655130.webp"
+ },
  "honor-choice-watch-2-epic-bt-calling-smartwatch": {
   "brand": "Honor",
   "category": "smart-watch",
@@ -514042,6 +514837,23 @@
   "name": "Honor Choice Watch 2 Epic BT Calling Smartwatch",
   "specs": {},
   "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Honor-Choice-Watch-2-Epic-BT-Calling-Smartwatchsdgg-1047.png"
+ },
+ "honor-choice-watch-2-pro-amoled-black-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Screen/Display Size.: 1.97 Inch",
+   "Always On Display: Yes",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Black",
+   "Color: Black"
+  ],
+  "key": "smart-watch|2 amoled black bluetooth calling choice honor pro smart watch",
+  "name": "Honor Choice Watch 2 Pro AMOLED Black Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-choice-watch-2-pro-amoled-black-bluetooth-11794655844.webp"
  },
  "honor-choice-wof-hair-dryer-pro": {
   "brand": "HONOR",
@@ -515460,6 +516272,42 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/honor/watch-6/honor-watch-6-shadow-black-01-228x228.webp"
  },
+ "honor-watch-6-amoled-gps-shadow-black-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Watch Size: 46.5mm",
+   "Screen/Display Size.: 1.46 Inch",
+   "Always On Display: Unmentioned",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Shadow Black",
+   "Color: Shadow Black"
+  ],
+  "key": "smart-watch|6 amoled black bluetooth calling gps honor shadow smart watch",
+  "name": "Honor Watch 6 AMOLED GPS Shadow Black Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-watch-6-amoled-gps-shadow-black-bluetooth-11794656785.webp"
+ },
+ "honor-watch-6-amoled-gps-twilight-brown-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Watch Size: 46.5mm",
+   "Screen/Display Size.: 1.46 Inch",
+   "Always On Display: Unmentioned",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Twilight Brown",
+   "Color: Silver"
+  ],
+  "key": "smart-watch|6 amoled bluetooth brown calling gps honor smart twilight watch",
+  "name": "Honor Watch 6 AMOLED GPS Twilight Brown Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-watch-6-amoled-gps-twilight-brown-bluetooth-11794659272.webp"
+ },
  "honor-watch-fit-active": {
   "brand": "Honor",
   "category": "smart-watch",
@@ -515498,6 +516346,40 @@
   "name": "HONOR Watch X5i",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/honor/watch-x5i/honor-watch-x5i-black-01-228x228.webp"
+ },
+ "honor-watch-x5i-amoled-black-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Screen/Display Size.: 1.97 Inch",
+   "Always On Display: Yes",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Black",
+   "Color: Black"
+  ],
+  "key": "smart-watch|amoled black bluetooth calling honor smart watch x5i",
+  "name": "Honor Watch X5i AMOLED Black Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-watch-x5i-amoled-black-bluetooth-calling-11794650489.webp"
+ },
+ "honor-watch-x5i-amoled-white-bluetooth-calling-smart-watch": {
+  "brand": "Honor",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Screen/Display Size.: 1.97 Inch",
+   "Always On Display: Yes",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: White",
+   "Color: White"
+  ],
+  "key": "smart-watch|amoled bluetooth calling honor smart watch white x5i",
+  "name": "Honor Watch X5i AMOLED White Bluetooth Calling Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/honor-watch-x5i-amoled-white-bluetooth-calling-11794651255.webp"
  },
  "honor-x3-lite-enc-true-wireless-earbuds": {
   "brand": "Honor",
@@ -516802,8 +517684,8 @@
   "features": [
    "Display: 6.77\" AMOLED, 120Hz, 3000 nits",
    "Processor: Qualcomm Snapdragon 6s 4G Gen 2",
-   "Camera: Dual 108+5 MP, 16 MP",
-   "Features: Under Display Fingerprint, 7000 mAh battery, 45W Fast Charging"
+   "Camera: Dual 108+5 MP on Rear, 16 MP on Selfie",
+   "Features: Side Mounted Fingerprint, 7000 mAh battery, 45W Fast Charging"
   ],
   "key": "smartphone|honor x8d",
   "name": "HONOR X8d",
@@ -523794,9 +524676,10 @@
   "category": "printer-supplies",
   "created": "2026-11-10",
   "features": [
-   "Color(s) of print cartridges: Black",
-   "Print technology: Laser",
-   "Page yield:11,000 pages"
+   "Item Category: Printer Toner",
+   "Printing Color: Black",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): 11000 Pages"
   ],
   "key": "printer-supplies|37a black hp laserjet original toner",
   "name": "HP 37A Black Original LaserJet Toner (For LJ M607, M608, MFP633)",
@@ -537518,6 +538401,27 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/brand-pc/hp-aio/pro-tower-290-g9/pro-tower-290-g9-03-228x228.webp"
  },
+ "hp-pro-tower-280-g9-intel-core-i3-14100-8gb-ram-512gb-ssd-tower-brand-pc-b7ny6pt": {
+  "brand": "HP",
+  "category": "desktop-pc",
+  "created": "2026-11-15",
+  "features": [
+   "Form Factor: Tower",
+   "Processor Type: Core i3",
+   "Processor Max Turbo Frequency: 4.70GHz",
+   "RAM: 8GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 512GB",
+   "Graphics Memory: Shared",
+   "Body Color: Black"
+  ],
+  "key": "desktop-pc|14100 280 512gb 8gb b7ny6pt brand core g9 hp i3 intel pro tower",
+  "name": "HP Pro Tower 280 G9 Intel Core i3 14100 8GB RAM 512GB SSD Tower Brand PC #B7NY6PT",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/hp-pro-tower-280-g9-intel-core-i3-14100-8gb-ram-41766403077.webp"
+ },
  "hp-pro-tower-280-g9-intel-core-i5-12500-8gb-ram-1tb-hdd-tower-brand-pc-6q2n2pa": {
   "brand": "HP",
   "category": "desktop-pc",
@@ -544771,7 +545675,7 @@
   "features": [
    "Processor Model: Intel Xeon Silver 4514Y",
    "Processor Clock Speed: 2.00GHz - 3.40GHz",
-   "Total Cores: 3.40GHz",
+   "Total Cores: 32",
    "RAM: 512GB",
    "Hard Disk Drive (HDD): 4 x 2.4TB",
    "Installed HDD Type: SAS",
@@ -545007,7 +545911,7 @@
    "RAM: 256GB",
    "Hard Disk Drive (HDD): 8 x 2.4TB",
    "Installed HDD Type: SAS",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Gray"
   ],
   "key": "server-rack|12 256gb 2u 4tb 6515p 8x2 dl380 dual hdd hpe intel proliant rack sas server xeon",
@@ -545110,7 +546014,7 @@
    "Total Cores: 32",
    "RAM: 128GB",
    "Hard Disk Drive (HDD): No",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Silver"
   ],
   "key": "server-rack|128gb 2u 6515p ddr5 dl380 dual gen12 hpe intel proliant rack server xeon",
@@ -545141,6 +546045,27 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/hpe-proliant-dl380-generation-12-2u-with-2x-intel-11783580940.webp"
  },
+ "hpe-proliant-dl380-gen12-dual-intel-xeon-6515p-128gb-ram-4x-1-92tb-ssd-2x-960gb": {
+  "brand": "HPE",
+  "category": "server-rack",
+  "created": "2026-11-15",
+  "features": [
+   "Processor Model: Intel Xeon 6515P",
+   "Processor Clock Speed: 2.3GHz-3.8GHz",
+   "Total Cores: 32",
+   "RAM: 128GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 2 x 960GB, 4 x 1.92TB",
+   "Installed SSD Type: NVMe SFF SSD",
+   "Body Color: Black & Silver"
+  ],
+  "key": "server-rack|1 128gb 2u 2x 4x 6515p 92tb 960gb dl380 dual gen12 hpe intel proliant rack server xeon",
+  "name": "HPE ProLiant DL380 Gen12 Dual Intel Xeon 6515P 128GB RAM 4x 1.92TB SSD & 2x 960GB SSD 2U Rack Server",
+  "specs": {
+   "capacity": "128GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/hpe-proliant-dl380-gen12-dual-intel-xeon-6515p-11794657684.webp"
+ },
  "hpe-proliant-dl380-gen12-dual-intel-xeon-6515p-128gb-ram-8x2-4tb-hdd-2u-rack-ser": {
   "brand": "HPE",
   "category": "server-rack",
@@ -545152,7 +546077,7 @@
    "RAM: 128GB",
    "Hard Disk Drive (HDD): 8 x 2.4TB",
    "Installed HDD Type: SAS",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Silver"
   ],
   "key": "server-rack|128gb 2u 4tb 6515p 8x2 dl380 dual gen12 hdd hpe intel proliant rack server xeon",
@@ -582356,6 +583281,23 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/jbl-tune-500-white-wired-over-ear-headphone-11639829694.webp"
  },
+ "jbl-tune-500bt-black-wireless-on-ear-headphone": {
+  "brand": "JBL",
+  "category": "headphone",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: No",
+   "Color: Black"
+  ],
+  "key": "headphone|500bt black ear headphone jbl on tune wireless",
+  "name": "JBL TUNE 500BT Black Wireless On-Ear Headphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/jbl-tune-500bt-black-wireless-on-ear-21567572059.webp"
+ },
  "jbl-tune-510bt-purple-wireless-on-ear-headphone": {
   "brand": "JBL",
   "category": "headphone",
@@ -608195,6 +609137,19 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P4152512002/kingspec-ssd-nx-512gb-cover.webp"
  },
+ "kingspec-xf-1tb-m-2-pcie-gen-4-0-nvme-ssd": {
+  "brand": "KingSpec",
+  "category": "ssd",
+  "created": "2026-11-15",
+  "key": "ssd|1tb 4.0 kingspec m.2 pcie xf",
+  "name": "KingSpec XF 1TB M.2 PCIe Gen 4.0 NVMe SSD",
+  "specs": {
+   "capacity": "1TB",
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/KINGSPEC/kingspec-xf-1tb-ssd-250x250.jpg"
+ },
  "kingspec-xf-m-2-nvme-pcie-ssd": {
   "brand": "KingSpec",
   "category": "ssd",
@@ -633146,13 +634101,10 @@
   "category": "gaming-monitor",
   "created": "2026-11-11",
   "features": [
-   "Display Size (Inch): 23.8",
-   "Display Resolution: 1920x1080",
-   "Panel Type: IPS",
-   "Refresh Rate (Hz): 144Hz",
-   "Rotatable: No",
-   "HDMI Port: 2",
-   "Color: Black"
+   "Resolution: FHD (1920 x 1080)",
+   "Display: IPS, 144Hz, 0.5 ms (MPRT)",
+   "Ports: 1x HDMI, 1x DP, 1 x Audio Out (3.5 mm)",
+   "Features: AMD Free Sync, Eye Care, Low Blue Light"
   ],
   "key": "gaming-monitor|20 23.8 66cfgac1my audio dp dual fhd g24 hdmi lenovo monitor out",
   "name": "Lenovo G24-20 23.8 Inch FHD Dual HDMI DP Audio Out Gaming Monitor #66CFGAC1MY",
@@ -643329,6 +644281,23 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/tablet/lenovo/tab-k11-gen-2/tab-k11-gen-2-01-228x228.webp"
  },
+ "lenovo-tab-k11-gen-2-8gb-ram-128gb-rom-11-inch-tablet-pc": {
+  "brand": "Lenovo",
+  "category": "tablet",
+  "created": "2026-11-15",
+  "features": [
+   "Display: 11\" 2.5K IPS, 500nits, 90Hz",
+   "Processor: Dimensity 6300, Mali-G57 MC2",
+   "Memory & Battery: 8GB/128GB, 7040mAh",
+   "Features: 5G Dual SIM, IP52, Quad Atmos Spk"
+  ],
+  "key": "tablet|11 128gb 2 8gb k11 lenovo rom tab tablet",
+  "name": "Lenovo Tab K11 GEN 2 8GB RAM 128GB ROM 11 Inch Tablet PC",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0102611007/lenovo-tablet-pc-tab-k11-gen-2-cover.webp"
+ },
  "lenovo-tab-k11-gen-2-tablet": {
   "brand": "Lenovo",
   "category": "tablet",
@@ -646409,6 +647378,15 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/lenovo/k3-mini/lenovo-k3-mini-wireless-speake-01-228x228.webp"
  },
+ "lenovo-thinkplus-sports-he05x-magnetic-neckband-bluetooth-earphone": {
+  "brand": "Lenovo",
+  "category": "earphone",
+  "created": "2026-11-15",
+  "key": "earphone|bluetooth earphone he05x lenovo magnetic neckband sports thinkplus",
+  "name": "Lenovo thinkplus sports HE05X Magnetic Neckband Bluetooth Earphone",
+  "specs": {},
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/11A/006/0925d92f396dc3276d6a2c378657d1d1-removebg-preview-228x228.png"
+ },
  "lenovo-thinkstation-p2-tower-intel-core-i7-14th-gen-14700-vpro-16gb-ram-1tb-work": {
   "brand": "Lenovo",
   "category": "desktop-pc",
@@ -646702,7 +647680,7 @@
    "Total Cores: 16",
    "RAM: 16GB",
    "Hard Disk Drive (HDD): No",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Silver"
   ],
   "key": "server-rack|16gb 1u 2x 4309y intel lenovo rack server silver sr630 thinksystem v2 xeon",
@@ -646723,7 +647701,7 @@
    "RAM: 32GB",
    "Hard Disk Drive (HDD): 2 x 2.4TB",
    "Installed HDD Type: SAS",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Gray"
   ],
   "key": "server-rack|1u 32gb 4509y intel lenovo rack server silver sr630 thinksystem v3 xeon",
@@ -646744,7 +647722,7 @@
    "RAM: 32GB",
    "Hard Disk Drive (HDD): 2 x 2.4TB",
    "Installed HDD Type: SAS",
-   "Solid-State Drive (SSD): No SSD",
+   "Solid-State Drive (SSD): No",
    "Body Color: Black & Gray"
   ],
   "key": "server-rack|1u 32gb 4510 intel lenovo rack server silver sr630 thinksystem v3 xeon",
@@ -649205,10 +650183,14 @@
   "category": "laptop",
   "created": "2026-11-11",
   "features": [
-   "Intel Core Ultra 7 258V Processor",
-   "32GB LPDDR5x RAM | 1TB SSD",
-   "14 Inch 2.8K WQXGA+ OLED",
-   "Integrated Intel Arc Graphics"
+   "Processor Type.: Core Ultra 5",
+   "Generation: Ultra",
+   "RAM: 32GB",
+   "Storage: 1TB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel Arc 130V Graphics",
+   "Display Size (Inch): 14",
+   "Color: Luna Gray"
   ],
   "key": "laptop|14 14ill10 1tb 2 228v 32gb 5 7 ai copilot core display fhd grey intel lenovo luna optimized plus slim ultra wuxga yoga",
   "name": "Lenovo Yoga Slim 7 14ILL10 Series 2 Intel Core Ultra 5 228V 32GB RAM, 1TB SSD 14 Inch FHD+ WUXGA Display Copilot Plus & AI Optimized Luna Grey Laptop",
@@ -660855,10 +661837,10 @@
   "category": "tv",
   "created": "2026-11-11",
   "features": [
-   "Display: 4K UHD (3840×2160)",
-   "Processor: α9 AI Processor 4K Gen8",
-   "Audio: 40W, Dolby Atmos, 2.2 Channel",
-   "webOS 25, Voice Control"
+   "Display: 4K UHD (3840 x 2160)",
+   "Chip: α9 AI 4K Gen8",
+   "Sound: 40W 2.2ch Dolby Atmos",
+   "Smart: webOS 25, Game Optimizer, Voice"
   ],
   "key": "tv|4k 65 ai c5 evo lg oled smart tv",
   "name": "LG OLED evo AI C5 65 Inch 4K Smart TV",
@@ -692258,7 +693240,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
@@ -696365,6 +697346,22 @@
   "name": "Meari C1 Indoor Smart Baby WiFi Camera",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7152506016/meari-wifi-camera-c1-cover.webp"
+ },
+ "meari-g1-4g-4-0mp-outdoor-wired-ptz-wi-fi-dome-ip-camera": {
+  "brand": "Meari",
+  "category": "wifi-camera",
+  "created": "2026-11-15",
+  "features": [
+   "Usage: Outdoor",
+   "Form-Factor: Dome",
+   "Mega Pixels (MP): 4.0",
+   "Night Vision Mode: Color",
+   "Color: White"
+  ],
+  "key": "wifi-camera|4g camera dome fi g1 ip meari outdoor ptz wi wired",
+  "name": "Meari G1 4G (4.0MP) Outdoor Wired PTZ Wi-Fi Dome IP Camera",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/meari-g1-4g-40mp-outdoor-wired-ptz-wi-fi-dome-11794644516.webp"
  },
  "meari-g1-4mp-sim-supported-outdoor-ptz-wifi-camera": {
   "brand": "Meari",
@@ -713027,6 +714024,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-laptop-7th-edition/platinum/surface-laptop-7th-edition-platinum-01-228x228.webp"
  },
+ "microsoft-surface-laptop-for-business-with-core-ultra-5-325-13-inch-touch-laptop": {
+  "brand": "Microsoft",
+  "category": "ultrabook",
+  "created": "2026-11-15",
+  "features": [
+   "Processor: Intel Core Ultra 5 325 (Series 3)",
+   "RAM: 24GB LPDDR5x, Storage: 512GB PCIe 4.0 SSD",
+   "Display: 13\" (1920 × 1280) PixelSense Touchscreen",
+   "Features: Copilot+ PC, Wi-Fi 7, Bluetooth 5.4 Type-C, Windows 11 Pro"
+  ],
+  "key": "ultrabook|13 325 5 business core microsoft surface touch ultra",
+  "name": "Microsoft Surface Laptop for Business with Core Ultra 5 325 13 inch Touch Laptop",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-laptop-7th-edition/platinum/surface-laptop-7th-edition-platinum-01-228x228.webp"
+ },
  "microsoft-surface-laptop-go-intel-core-i5-1035g1-8gb-ram-128gb-ssd-12-4-inch": {
   "brand": "Microsoft",
   "category": "laptop",
@@ -727640,14 +728652,10 @@
   "category": "motherboard",
   "created": "2026-11-11",
   "features": [
-   "Form Factor: Micro-ATX",
-   "Chipset: AMD B650",
-   "Sockets Supported: AM5",
-   "Supported CPU: Ryzen 8000/ 7000 Series Desktop Processors",
-   "Generation: Not Applicable",
-   "Memory Slot: 4",
-   "Memory Max.: 256GB",
-   "Back-Connect Design: Yes"
+   "Supported CPU: Ryzen 9000/ 8000/ 7000 Series Processors for Socket AM5",
+   "Supported RAM: 4x DDR5, up to 7600+(OC) MHz",
+   "Graphics Output: 1x HDMI, 1x Display Port",
+   "Features: Supports Bluetooth 5.3, AMD Wi-Fi 6E"
   ],
   "key": "motherboard|amd b650m motherboard msi project zero",
   "name": "MSI B650M PROJECT ZERO (Wi-Fi 6E) AMD Motherboard",
@@ -740305,6 +741313,23 @@
   "name": "MSI Modern A15 AI+ F2HMG Ryzen AI 5 330 15.6\" FHD Laptop",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-a15-ai-plus-f2hmg/modern-a15-ai-plus-f2hmg-01-228x228.webp"
+ },
+ "msi-modern-a15-ai-f2hmg-ryzen-ai-5-330-8gb-ram-512gb-ssd-15-6-inch-fhd-laptop": {
+  "brand": "MSI",
+  "category": "laptop",
+  "created": "2026-11-15",
+  "features": [
+   "Processor: Ryzen AI 5 330 (Up to 4.5GHz)",
+   "RAM & Storage: 8GB DDR5, 512GB Gen4 SSD",
+   "Display: 15.6\" FHD IPS, 60Hz",
+   "Features: Backlit KB, 720p Cam, Type-C, Wi-Fi 6E"
+  ],
+  "key": "laptop|15.6 330 5 512gb 8gb a15 ai f2hmg fhd modern msi ryzen",
+  "name": "MSI Modern A15 AI+ F2HMG Ryzen AI 5 330 8GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0332611002/msi-laptop-modern-a15-ai-f2hmg-cover.webp"
  },
  "msi-modern-md2412pw-23-8-fhd-type-c-100hz-monitor": {
   "brand": "MSI",
@@ -785962,6 +786987,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7092506027/onikuma-headphone-headsets-t308-cover.webp"
  },
+ "onikuma-t308-black-tws-bluetooth-earbuds": {
+  "brand": "ONIKUMA",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Earbuds",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Color: Black"
+  ],
+  "key": "earbuds|black bluetooth earbuds onikuma t308 tws",
+  "name": "ONIKUMA T308 Black TWS Bluetooth Earbuds",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/onikuma-t308-black-tws-bluetooth-11759724779.webp"
+ },
  "onikuma-t308-bluetooth-earbuds": {
   "brand": "Onikuma",
   "category": "earbuds",
@@ -800505,6 +801545,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/oraimo-okw-800-blue-4g-gps-calling-kids-smart-11793188220.webp"
  },
+ "oraimo-okw-800-kids-smart-watch": {
+  "brand": "Oraimo",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Display: 1.75-inch TFT Full-Touch Color Screen",
+   "Wi-Fi, 4G Cellular Connectivity",
+   "Battery Capacity: 800mAh,",
+   "IPX8 Water Resistance, Wi-Fi, GPS tracking"
+  ],
+  "key": "smart-watch|800 kids okw oraimo smart watch",
+  "name": "Oraimo OKW-800 Kids Smart Watch",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/oraimo/okw-800/okw-800-01-228x228.webp"
+ },
  "oraimo-okw-800-pink-4g-gps-calling-kids-smart-watch": {
   "brand": "Oraimo",
   "category": "smart-watch",
@@ -801245,11 +802300,10 @@
   "category": "mobile-accessories",
   "created": "2026-11-11",
   "features": [
-   "Type: Wall Charger",
-   "Transmitted Power: 45W",
-   "Fast Charging: Yes",
-   "Cable Included: Yes",
-   "Color: White"
+   "Input: 100-240V~50/60Hz 1.2A Max",
+   "Output (Type-C): 5V=3.0A, 9V=3.0A, 12V=2.91A,15V=2.33A,",
+   "Output Power: 45W, Cable Length: 1M",
+   "9 Layers Safety, PD3.0 & QC 4.0 Compatible"
   ],
   "key": "mobile-accessories|451 45w c cable charger gan oraimo powergan to usb white",
   "name": "Oraimo PowerGaN 451 45W GaN USB-C White Charger with USB-C to USB-C Cable (EU)",
@@ -815684,6 +816738,24 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/ovo-t-1671-mid-tower-black-desktop-casing-with-11693025313.webp"
  },
+ "ovo-w-1202-mid-tower-black-atx-gaming-desktop-case-without-psu": {
+  "brand": "OVO",
+  "category": "casing",
+  "created": "2026-11-15",
+  "features": [
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 4",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: Unmentioned",
+   "Color: Black"
+  ],
+  "key": "casing|1202 atx black case mid ovo psu tower w without",
+  "name": "OVO W-1202 Mid Tower Black ATX Gaming Desktop Case without PSU",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ovo-w-1202-mid-tower-black-atx-gaming-desktop-11782989427.webp"
+ },
  "ovo-x10-rgb-mid-tower-gaming-case-black": {
   "brand": "OVO",
   "category": "casing",
@@ -827432,6 +828504,25 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/pc-power-fury-combo-rgb-wired-red-switch-white-11754814435.webp"
  },
+ "pc-power-ggez-wireless-multi-mode-black-gaming-mouse": {
+  "brand": "Pc",
+  "category": "mouse",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Gaming Mouse",
+   "Connection Type: Both",
+   "Interface: Bluetooth, USB & USB Dongle",
+   "Style & Size: Regular Big",
+   "Resolution: 26000 DPI",
+   "Lighting: No",
+   "Click Sound: Yes",
+   "App Name: Not Applicable"
+  ],
+  "key": "mouse|black ggez mouse power wireless",
+  "name": "Pc Power GGEZ Wireless (Multi Mode) Black Gaming Mouse",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/pc-power-ggez-wireless-multi-mode-black-gaming-11794646692.webp"
+ },
  "pc-power-gs620-ice-cube-mini-v2-argb-fan-gaming-case-white": {
   "brand": "PC",
   "category": "casing",
@@ -829107,8 +830198,7 @@
    "Maximum Power: 350 Watt",
    "Efficiency: Unmentioned",
    "Efficiency Rating: 80 Plus",
-   "Color: Black",
-   "Warranty Info: 2 Year"
+   "Color: Black"
   ],
   "key": "power-supply|350 350w 80 black certified modular non o obsidian plus power ps supply",
   "name": "Pc Power Obsidian PS-O-350 350W Non Modular 80 Plus Certified Black Power Supply",
@@ -834666,6 +835756,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-1000-series-71l-2450w-black-air-11778670498.webp"
  },
+ "philips-1000-series-ste1020-1800w-handheld-garment-steamer-soft-red": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Soleplate: Plastic",
+   "Steam & Heat-Up: Up to 36g/min, 45s Heat-Up",
+   "Maintenance: Easy Rinse Limescale Management",
+   "Design: Swivel Cord"
+  ],
+  "key": "iron|1000 1800w garment handheld philips ste1020 steamer",
+  "name": "Philips 1000 Series STE1020 1800W Handheld Garment Steamer (Soft Red)",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611008/philips-dry-iron-ste1020-cover.webp"
+ },
  "philips-1000-series-xb1042-deep-black-coral-mood-bagless-vacuum-cleaner": {
   "brand": "Philips",
   "category": "vacuum-cleaner",
@@ -835995,6 +837100,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/appliance/air-fryer/philips/hd9285-93/philips-hd9285-93-official-01-228x228.webp"
  },
+ "philips-5000-series-dst5040-2600w-steam-iron-black": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Soleplate: SteamGlide Plus",
+   "Steam Output: Up to 45g/min, 200g Boost",
+   "Maintenance: Auto Anti-Calc",
+   "Design: Button Slit, Swivel Cord"
+  ],
+  "key": "iron|2600w 5000 dst5040 iron philips steam",
+  "name": "Philips 5000 Series DST5040 2600W Steam Iron (Black)",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611004/philips-dry-iron-dst5040-cover.webp"
+ },
  "philips-5000-series-hd9285-7-2l-2000w-air-fryer-black": {
   "brand": "Philips",
   "category": "air-fryer",
@@ -837148,6 +838268,51 @@
   "name": "Philips DST0600/20 1000W Dry Iron",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/appliance/iron/philips/dst060020/dst060020-01-228x228.webp"
+ },
+ "philips-dst5010-10-5000-series-steam-iron": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Power: 2400W Rapid Heating",
+   "Steam Output: 160g Steam Boost",
+   "Soleplate: Scratch-Resistant SteamGlide Plus",
+   "Maintenance: Built-In Calc-Clean Slider"
+  ],
+  "key": "iron|10 5000 dst5010 iron philips steam",
+  "name": "Philips DST5010/10 5000 Series Steam Iron",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611003/philips-dry-iron-dst5010-cover.webp"
+ },
+ "philips-dst7011-26-7000-series-steamglide-plus-soleplate-hv-steam-iron": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Power & Steam: 2600W, 45g/min, 220g Boost",
+   "Soleplate: SteamGlide Plus",
+   "Pros: 300ml Tank, Drip-Stop, Vertical Steam",
+   "Maintenance: Quick Calc Release, Tap-Water Safe"
+  ],
+  "key": "iron|26 7000 dst7011 hv iron philips plus soleplate steam steamglide",
+  "name": "Philips DST7011/26 7000 Series SteamGlide Plus SolePlate HV Steam Iron",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611006/philips-dry-iron-dst7011-cover.webp"
+ },
+ "philips-dst7012-76-hv-7000-series-steamglide-plus-soleplate-steam-iron": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Power & Steam: 2600W, 45g/min, 220g Boost",
+   "Soleplate: SteamGlide Plus",
+   "Features: Vertical Steam",
+   "Maintenance: Quick Calc Release, Tap-Water Safe"
+  ],
+  "key": "iron|7000 76 dst7012 hv iron philips plus soleplate steam steamglide",
+  "name": "Philips DST7012/76 HV 7000 Series SteamGlide Plus Soleplate Steam Iron",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611007/philips-dry-iron-dst7012-cover.webp"
  },
  "philips-dvt1160-digital-voice-recorder": {
   "brand": "Philips",
@@ -839415,6 +840580,21 @@
   "name": "Philips OneBlade QP2824/10 Cordless Lime Green Trimmer",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-oneblade-qp282410-cordless-lime-green-11773899195.webp"
+ },
+ "philips-perfectcare-gc3929-2400w-steam-iron-black-gold": {
+  "brand": "Philips",
+  "category": "iron",
+  "created": "2026-11-15",
+  "features": [
+   "Soleplate: SteamGlide Plus",
+   "Steam Output: Up to 45g/min, 200g Boost",
+   "Maintenance: Built-In Calc-Clean Slider",
+   "Design: Button Slit, Swivel Cord"
+  ],
+  "key": "iron|2400w gc3929 iron perfectcare philips steam",
+  "name": "Philips PerfectCare GC3929 2400W Steam Iron (Black & Gold)",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0482611005/philips-dry-iron-gc3929-cover.webp"
  },
  "philips-powerpro-compact-fc9350-bagless-vacuum-cleaner-fc9350-62": {
   "brand": "Philips",
@@ -844237,6 +845417,23 @@
    "capacity": "12GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/pny-geforce-rtx-4070-verto-dual-fan-12gb-gddr6x-11688907576.webp"
+ },
+ "pny-geforce-rtx-4080-16gb-oc-xlr8-gaming-verto-tf-graphics-card": {
+  "brand": "PNY",
+  "category": "graphics-card",
+  "created": "2026-11-15",
+  "features": [
+   "Memory Type: GDDR6X",
+   "Memory Bus (Bit): 256-bit",
+   "Memory Clock: 23 Gbps",
+   "Memory Size: 16GB"
+  ],
+  "key": "graphics-card|16gb 4080 card geforce oc pny rtx tf verto xlr8",
+  "name": "PNY GEFORCE RTX 4080 16GB OC XLR8 GAMING VERTO TF GRAPHICS CARD",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0632506049/pny-graphics-card-rtx-4080-16gb-xlr8-gaming-verto-epic-x-rgb-tf-oc-cover.webp"
  },
  "pny-geforce-rtx-4080-16gb-uprising-triple-fan-graphics-card": {
   "brand": "PNY",
@@ -849853,7 +851050,7 @@
    "Item Category: Printer Toner",
    "Printing Color: Black",
    "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 3100 Pages @5% AVerage Coverage",
+   "Duty Cycle up to (Yield): 3100 Pages @5% Average Coverage",
    "Chip Included: Yes"
   ],
   "key": "printer-supplies|26a black chip power print tn toner",
@@ -860782,8 +861979,8 @@
   "created": "2026-11-10",
   "features": [
    "Output Capacity: 3500VA",
-   "Input Voltage: 100V – 300V, 50Hz, Battery: 2x 200Ah",
-   "Backup Time: 1 hour to 3.5 hour (depand on load)",
+   "Input Voltage: 100V – 300V, 50Hz, Battery: 4x 200Ah",
+   "Backup Time: 2 hour to 3.5 hour (depand on load)",
    "Capacity: 24 LED (20 watt) + 12 Fan ( 80W) + 2 49” TV (200W) + 2 PC (250W)"
   ],
   "key": "ips|3500va 48v battery ips pure rahimafrooz sine sinetech st wave",
@@ -860797,8 +861994,8 @@
   "created": "2026-11-10",
   "features": [
    "Output Capacity: 5000VA",
-   "Input Voltage: 100V – 300V, 50Hz, Battery: 2x 200Ah",
-   "Backup Time: 1 hour to 3.5 hour (depand on load)",
+   "Input Voltage: 100V – 300V, 50Hz, Battery: 4x 200Ah",
+   "Backup Time: 2 hour to 3.5 hour (depand on load)",
    "Capacity: 33 LED (20 watt) + 15 Fan ( 80W) + 3 49” TV (200W) + 4 PC (250W)"
   ],
   "key": "ips|48v 5000va battery ips pure rahimafrooz sine sinetech st wave",
@@ -862942,7 +864139,7 @@
    "Interface: Bluetooth & USB Dongle",
    "Lighting: No",
    "Mechanical (Key): No",
-   "Switch Type: Membrane Switch",
+   "Switch Type: Scissor Switch",
    "App Name: Not Applicable",
    "Color: Dark Grey",
    "Combo Package: Keyboard only"
@@ -862961,7 +864158,7 @@
    "Interface: Bluetooth & USB Dongle",
    "Lighting: No",
    "Mechanical (Key): No",
-   "Switch Type: Membrane Switch",
+   "Switch Type: Scissor Switch",
    "App Name: Not Applicable",
    "Color: White",
    "Combo Package: Keyboard only"
@@ -863171,6 +864368,15 @@
   "name": "Rapoo GK500 Backlit Mechanical Gaming Keyboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/keyboard/rapoo/gk500/gk500-001-228x228.webp"
+ },
+ "rapoo-gk500-mechanical-gaming-keyboard": {
+  "brand": "Rapoo",
+  "category": "keyboard",
+  "created": "2026-11-15",
+  "key": "keyboard|gk500 keyboard mechanical rapoo",
+  "name": "Rapoo GK500 Mechanical Gaming Keyboard",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/GK-500'-1214.png"
  },
  "rapoo-gk500-wired-blue-switch-black-mechanical-gaming-keyboard": {
   "brand": "Rapoo",
@@ -870966,6 +872172,22 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2052508009/realme-headphone-headsets-buds-wireless-5-cover.webp"
  },
+ "realme-buds-wireless-5-anc-midnight-black-bluetooth-neckband-earphone": {
+  "brand": "Realme",
+  "category": "neckband",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Neckband",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Color: Midnight Black"
+  ],
+  "key": "neckband|5 anc black bluetooth buds earphone midnight neckband realme wireless",
+  "name": "Realme Buds Wireless 5 ANC Midnight Black Bluetooth Neckband Earphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/realme-buds-wireless-5-anc-midnight-black-11780643209.webp"
+ },
  "realme-buds-wireless-5-anc-neckband": {
   "brand": "Realme",
   "category": "neckband",
@@ -870995,6 +872217,15 @@
   "name": "Realme Buds Wireless 5 Lite",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/neckband/realme/buds-wireless-5-lite/buds-wireless-5-lite-void-black-01-228x228.webp"
+ },
+ "realme-buds-wireless-6-neo": {
+  "brand": "Realme",
+  "category": "earphone",
+  "created": "2026-11-15",
+  "key": "earphone|6 buds neo realme wireless",
+  "name": "Realme Buds Wireless 6 Neo",
+  "specs": {},
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/product-upload/1794473418480-2-Realme-Buds-Wireless-6-Neo-1-228x228.png"
  },
  "realme-c100": {
   "brand": "Realme",
@@ -878472,6 +879703,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1622506121/redragon-mouse-m809-k-cover.webp"
  },
+ "redragon-m811-aatrox-mmo-6200-dpi-gaming-mouse": {
+  "brand": "Redragon",
+  "category": "mouse",
+  "created": "2026-11-15",
+  "features": [
+   "Connectivity: Wired",
+   "15 Programmable Buttons",
+   "Up to 6200 DPI Adjustable Sensitivity",
+   "10 Side Macro Keys"
+  ],
+  "key": "mouse|6200 aatrox dpi m811 mmo mouse redragon",
+  "name": "Redragon M811 Aatrox MMO 6200 DPI Gaming Mouse",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1482508016/redragon-mouse-m811-aatrox-cover.webp"
+ },
  "redragon-m811-aatrox-mmo-gaming-mouse": {
   "brand": "Redragon",
   "category": "mouse",
@@ -879919,6 +881165,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1622506170/redragon-mouse-swain-m915-rgb-cover.webp"
  },
+ "redragon-swain-pro-m915-rgb-wl-programmable-buttons-gaming-mouse": {
+  "brand": "Redragon",
+  "category": "mouse",
+  "created": "2026-11-15",
+  "features": [
+   "Connection: Wired + 2.4G + BT",
+   "High DPI: Adjustable up to 26,000 DPI.",
+   "Button: 9 Programmable Buttons",
+   "Lighting: RGB Backlighting"
+  ],
+  "key": "mouse|buttons m915 mouse pro programmable redragon rgb swain wl",
+  "name": "Redragon SWAIN PRO M915-RGB WL programmable buttons Gaming Mouse",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1622506171/redragon-mouse-swain-pro-m915-rgb-wl-cover.webp"
+ },
  "redragon-taurus-c201-gaming-chair": {
   "brand": "Redragon",
   "category": "gaming-chair",
@@ -880672,6 +881933,22 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1462506006/remax-charger-rp-w9-cover.webp"
  },
+ "remax-rpl-20-avenger-series-10000mah-black-power-bank": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 10000mAh",
+   "Interface: Micro USB, Dual USB",
+   "Indicators: Unmentioned",
+   "Body Material: ABS, PC, V0",
+   "Color: Black"
+  ],
+  "key": "mobile-accessories|10000mah 20 avenger bank black power remax rpl",
+  "name": "REMAX RPL-20 Avenger Series 10000mAh Black Power Bank",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rpl-20-avenger-series-10000mah-black-power-11555397966.webp"
+ },
  "remax-rpl-20-avenger-series-10000mah-green-power-bank": {
   "brand": "REMAX",
   "category": "mobile-accessories",
@@ -880687,6 +881964,22 @@
   "name": "REMAX RPL-20 Avenger Series 10000mAh Green Power Bank",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rpl-20-avenger-series-10000mah-green-power-11555398018.webp"
+ },
+ "remax-rpl-20-avenger-series-10000mah-red-power-bank": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 10000mAh",
+   "Interface: Micro USB, Dual USB",
+   "Indicators: Unmentioned",
+   "Body Material: ABS, PC, V0",
+   "Color: Red"
+  ],
+  "key": "mobile-accessories|10000mah 20 avenger bank power red remax rpl",
+  "name": "REMAX RPL-20 Avenger Series 10000mAh Red Power Bank",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rpl-20-avenger-series-10000mah-red-power-21555398091.webp"
  },
  "remax-rpl-36-cutie-series-10000mah-black-power-bank": {
   "brand": "REMAX",
@@ -880735,6 +882028,22 @@
   "name": "REMAX RPL-36 Cutie Series 10000mAh White Power Bank",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rpl-36-cutie-series-10000mah-white-power-11718431598.webp"
+ },
+ "remax-rpl-36-cutie-series-10000mah-yellow-power-bank": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 10000mAh",
+   "Interface: Micro USB, USB",
+   "Indicators: Yes",
+   "Body Material: ABS, PC",
+   "Color: Yellow"
+  ],
+  "key": "mobile-accessories|10000mah 36 bank cutie power remax rpl yellow",
+  "name": "REMAX RPL-36 Cutie Series 10000mAh Yellow Power Bank",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rpl-36-cutie-series-10000mah-yellow-power-11555397823.webp"
  },
  "remax-rpl-58-revolution-series-power-bank-20000mah": {
   "brand": "REMAX",
@@ -881030,6 +882339,15 @@
   "name": "Remax RPP-291 80000mah Fast Charging Power Bank",
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2023/11/REMAX-RPP-291-80000mah-Fast-Charging-Power-Bank-300x300.jpg"
+ },
+ "remax-rpp-295-10000mah-london-series-fast-charging-power-bank": {
+  "brand": "Remax",
+  "category": "power-bank",
+  "created": "2026-11-15",
+  "key": "power-bank|10000mah 295 bank charging fast london power remax rpp",
+  "name": "Remax RPP-295 10000mAh London Series Fast Charging Power Bank",
+  "specs": {},
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Remax/remax-rpp-295-10000mah-london-series-fast-charging-power-bank-228x228.jpg"
  },
  "remax-rpp-296-20000mah-fast-charging-power-bank": {
   "brand": "Remax",
@@ -912697,6 +914015,24 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/samsung-odyssey-g7-lc32g75tqsmxue-32-inch-wqhd-11669720915.webp"
  },
+ "samsung-odyssey-g8-g81sf-27-inch-4k-uhd-display-dual-hdmi-dp-usb-silver-gaming": {
+  "brand": "Samsung",
+  "category": "gaming-monitor",
+  "created": "2026-11-15",
+  "features": [
+   "Display Size (Inch): 27",
+   "Display Resolution: 3840x2160",
+   "Panel Type: OLED",
+   "Refresh Rate (Hz): 240Hz",
+   "Rotatable: Yes",
+   "HDMI Port: 2",
+   "Color: Silver"
+  ],
+  "key": "gaming-monitor|27 4k display dp dual g8 g81sf hdmi monitor odyssey samsung silver uhd usb",
+  "name": "Samsung Odyssey G8 G81SF 27 Inch 4K UHD Display Dual HDMI, DP, USB Silver Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/samsung-odyssey-g8-g81sf-27-inch-4k-uhd-display-61793964841.webp"
+ },
  "samsung-odyssey-g9-2k-dqhd-240hz-49-inch-curved-oled-gaming-monitor": {
   "brand": "SAMSUNG",
   "category": "gaming-monitor",
@@ -912753,6 +914089,24 @@
   "name": "Samsung Odyssey G9 C49G95TSSW 49'' 240Hz G-Sync Dual-QHD Curved Gaming Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/samsung/c49g95tssw/odyssey-c49g95tssw-228x228.webp"
+ },
+ "samsung-odyssey-g9-g91f-49-inch-dqhd-display-dual-hdmi-dp-usb-gaming-monitor": {
+  "brand": "Samsung",
+  "category": "gaming-monitor",
+  "created": "2026-11-15",
+  "features": [
+   "Display Size (Inch): 49",
+   "Display Resolution: 5120x1440",
+   "Panel Type: VA",
+   "Refresh Rate (Hz): 144Hz",
+   "Rotatable: No",
+   "HDMI Port: 2",
+   "Color: Black"
+  ],
+  "key": "gaming-monitor|49 display dp dqhd dual g9 g91f hdmi monitor odyssey samsung usb",
+  "name": "Samsung Odyssey G9 G91F 49 Inch DQHD Display Dual HDMI, DP, USB Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/samsung-odyssey-g9-g91f-49-inch-dqhd-display-dual-11749638359.webp"
  },
  "samsung-odyssey-g9-g95sc-49-inch-dqhd-oled-hdmi-micro-hdmi-dp-usb-curved-smart-g": {
   "brand": "Samsung",
@@ -920231,6 +921585,23 @@
   },
   "store_image": "https://diamu.com.bd/wp-content/uploads/2023/11/Sandisk-Extreme-PRO-256GB-MicroSDXC-Memory-Card-With-Adapter-300x300.jpg"
  },
+ "sandisk-extreme-pro-256gb-microsdxc-uhs-i-memory-card": {
+  "brand": "SanDisk",
+  "category": "memory-card",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity: 256GB, Form factor: microSDXC",
+   "Sequential Read Speed: Up to 250MB/s",
+   "Sequential Write Speed: Up to 170MB/s",
+   "NAND Flash Memory; Speed Class: U3 and V30"
+  ],
+  "key": "memory-card|256gb card extreme i microsdxc pro sandisk uhs",
+  "name": "SanDisk Extreme PRO 256GB MicroSDXC UHS-I Memory Card",
+  "specs": {
+   "capacity": "256GB"
+  },
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/memory-card/sandisk/extreme-pro-256gb-/extreme-pro-256gb-01-228x228.webp"
+ },
  "sandisk-extreme-pro-256gb-microsdxc-uhs-i-u3-class-10-v30-a2-memory-card-with-ad": {
   "brand": "SanDisk",
   "category": "memory-card",
@@ -925256,6 +926627,27 @@
    "capacity": "16GB"
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/sapphire/pure-amd-radeon-rx-9060-xt-gaming-oc/pure-amd-radeon-rx-9060-xt-gaming-oc-01-228x228.webp"
+ },
+ "sapphire-pure-amd-radeon-rx-9060-xt-oc-16gb-gddr6-graphics-card-11350-02-20g": {
+  "brand": "SAPPHIRE",
+  "category": "graphics-card",
+  "created": "2026-11-15",
+  "features": [
+   "Chipset: AMD Radeon",
+   "Capacity (GB/TB): 16GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 2",
+   "Display Port: 1",
+   "Multi Display Capability: Triple Display",
+   "Body Color: White"
+  ],
+  "key": "graphics-card|02 11350 16gb 20g 9060 amd card gddr6 oc pure rx sapphire xt",
+  "name": "SAPPHIRE Pure AMD Radeon RX 9060 XT OC 16GB GDDR6 Graphics Card #11350-02-20G",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/sapphire-pulse-amd-radeon-rx-9060-xt-oc-16gb-11758719334.webp"
  },
  "sapphire-pure-amd-radeon-rx-9070-gaming-oc-16gb-gddr6-graphics-card": {
   "brand": "Sapphire",
@@ -941535,6 +942927,26 @@
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/ram/silicon-power/xpower-pulse-ddr5/xpower-pulse-ddr5-01-228x228.webp"
  },
+ "silicon-power-xpower-pulse-8gb-ddr4-3200mhz-cl16-desktop-ram": {
+  "brand": "Silicon",
+  "category": "desktop-ram",
+  "created": "2026-11-15",
+  "features": [
+   "8GB Memory Capacity",
+   "DDR4 Memory Type",
+   "3200MHz Memory Frequency",
+   "CL16-18-18-38 Latency"
+  ],
+  "key": "desktop-ram|3200 8gb cl16 ddr4 power pulse silicon xpower",
+  "name": "Silicon Power XPOWER Pulse 8GB DDR4 3200MHz CL16 Desktop RAM",
+  "specs": {
+   "capacity": "8GB",
+   "form": "DIMM",
+   "speed": "3200MHz",
+   "type": "DDR4"
+  },
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2222611016/silicon-power-desktop-ram-xpower-pulse-cover.webp"
+ },
  "silicon-power-xpower-pulse-8gb-ddr4-3200mhz-desktop-ram": {
   "brand": "Silicon",
   "category": "desktop-ram",
@@ -945190,6 +946602,15 @@
   "name": "SJCAM C400 4K 16MP Handheld Action Camera",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/sjcam/c400/c400-02-228x228.webp"
+ },
+ "sjcam-c400-pro-4k-24mp-3-in-1-handheld-action-camera": {
+  "brand": "SJCAM",
+  "category": "action-camera",
+  "created": "2026-11-15",
+  "key": "action-camera|1 24mp 3 4k action c400 camera handheld pro sjcam",
+  "name": "SJCAM C400 Pro 4K 24MP 3-in-1 Handheld Action Camera",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/SJCAM-C400-Pro-4K-24MP-3-in-1-Handheld-Action-Camera2-4865.png"
  },
  "sjcam-s10-24mp-4k-wi-fi-waterproof-action-camera": {
   "brand": "SJCAM",
@@ -962593,6 +964014,15 @@
   "specs": {},
   "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Sony-ULT-WH-ULT900N-NC-Wireless-Headphones-4259.jpg"
  },
+ "sony-ult-wireless-mic": {
+  "brand": "Sony",
+  "category": "microphone",
+  "created": "2026-11-15",
+  "key": "microphone|mic sony ult wireless",
+  "name": "Sony ULT Wireless Mic",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Sony-ULT-Wireless-Mic-5876.png"
+ },
  "sony-uo-ultmic1-cardioid-wireless-microphone": {
   "brand": "Sony",
   "category": "microphone",
@@ -964067,6 +965497,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/soundpeats/air5-pro/air5-pro-01-228x228.webp"
  },
+ "soundpeats-air6-pro-anc-wireless-earbuds": {
+  "brand": "SoundPEATS",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "11mm Composite-Diaphragm Driver",
+   "Battery: Up to 52H with Charging Case",
+   "Bluetooth V6, IPX5 Water Resistance",
+   "LDAC, Dolby Audio, Air Series Tuning Gen 2"
+  ],
+  "key": "earbuds|air6 anc earbuds pro soundpeats wireless",
+  "name": "SoundPEATS Air6 Pro ANC Wireless Earbuds",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/soundpeats/air6-pro/air6-pro-02-228x228.webp"
+ },
  "soundpeats-c30": {
   "brand": "SoundPEATS",
   "category": "earbuds",
@@ -964303,6 +965748,21 @@
   "name": "SoundPEATS Clear Wireless Earbuds",
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2023/12/SoundPEATS-Clear-Wireless-Earbuds-3-300x300.jpg"
+ },
+ "soundpeats-clip1-open-ear-clip-earbuds": {
+  "brand": "SoundPEATS",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "12mm Dynamic Driver",
+   "Battery: 450mAh, 8H Single Charge",
+   "Bluetooth V5.4, IPX5 Water Resistance",
+   "LDAC at up to 990 kbps, Dolby Audio"
+  ],
+  "key": "earbuds|clip clip1 ear earbuds open soundpeats",
+  "name": "SoundPEATS Clip1 Open-Ear Clip Earbuds",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/soundpeats/clip1/clip1-02-228x228.webp"
  },
  "soundpeats-clip1-open-ear-clip-on-wireless-earbuds": {
   "brand": "SOUNDPEATS",
@@ -964585,6 +966045,21 @@
   "name": "SoundPEATS POP Clip Ear Clip Earbuds",
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2025/03/SoundPeats-POP-Clip-Ear-Clip-Earbuds-4-300x300.jpg"
+ },
+ "soundpeats-pop-clip2-open-ear-earbuds": {
+  "brand": "SoundPEATS",
+  "category": "earbuds",
+  "created": "2026-11-15",
+  "features": [
+   "12mm Dynamic Driver",
+   "Battery: 450mAh, 8H Single Charge",
+   "Bluetooth V6, 2-mic AI noise reduction",
+   "LDAC, IPX5 Water Resistance"
+  ],
+  "key": "earbuds|clip2 ear earbuds open pop soundpeats",
+  "name": "SoundPEATS POP Clip2 Open-Ear Earbuds",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/soundpeats/pop-clip-2/pop-clip-2-01-228x228.webp"
  },
  "soundpeats-q3-pro": {
   "brand": "SoundPEATS",
@@ -975258,6 +976733,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/t-wolf/h140/h140-02-228x228.webp"
  },
+ "t-wolf-h140-wired-black-gaming-headphone": {
+  "brand": "T-WOLF",
+  "category": "headphone",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Plug Details: USB Type-A",
+   "Cable Length: 5.9 ft",
+   "Color: Black"
+  ],
+  "key": "headphone|black h140 headphone t wired wolf",
+  "name": "T-WOLF H140 Wired Black Gaming Headphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/t-wolf-h140-wired-black-gaming-11782541154.webp"
+ },
  "t-wolf-h150-wired-gaming-headphone": {
   "brand": "T-WOLF",
   "category": "headphone",
@@ -977135,6 +978628,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/t-wolf-t75-wireless-dual-mode-black-11747643470.webp"
  },
+ "t-wolf-t78-rgb-tri-mode-mechanical-gaming-keyboard": {
+  "brand": "T-wolf",
+  "category": "keyboard",
+  "created": "2026-11-15",
+  "key": "keyboard|keyboard mechanical mode rgb t t78 tri wolf",
+  "name": "T-wolf T78 RGB Tri Mode Mechanical Gaming Keyboard",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/T-wolf-T78-RGB-Tri-Mode-Mechanical-Gaming-Keyboard-6966.jpg"
+ },
  "t-wolf-t78-rgb-tri-mode-red-switch-black-mechanical-gaming-keyboard": {
   "brand": "T-WOLF",
   "category": "keyboard",
@@ -977347,6 +978849,25 @@
   "name": "T-WOLF TF330 Gaming Keyboard and Mouse Combo",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/combo/t-wolf/tf330/tf330-01-228x228.webp"
+ },
+ "t-wolf-tf330-milk-tea-wired-gaming-keyboard-mouse-combo": {
+  "brand": "T-WOLF",
+  "category": "server",
+  "created": "2026-11-15",
+  "features": [
+   "Type: Gaming Keyboard & Mouse Combo",
+   "Interface: USB",
+   "Language: English",
+   "Lighting: No",
+   "Mechanical (Key): No",
+   "Switch Type: Membrane Switch",
+   "Color: Milk Tea",
+   "Combo Package: Keyboard & Mouse"
+  ],
+  "key": "server|combo keyboard milk mouse t tea tf330 wired wolf",
+  "name": "T-WOLF TF330 Milk Tea Wired Gaming Keyboard & Mouse Combo",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/t-wolf-tf330-milk-tea-wired-gaming-keyboard-11765110197.webp"
  },
  "t-wolf-tf330-wired-mechanical-feeling-gaming-keyboard-and-mouse-combo": {
   "brand": "T-Wolf",
@@ -978603,6 +980124,15 @@
   "name": "TABWD MF920 4G Pocket WiFi Router",
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/TABWD MF920/TABWD MF920 2-228x228.png"
+ },
+ "tabwd-mf920-4g-portable-pocket-wifi-router": {
+  "brand": "TABWD",
+  "category": "router",
+  "created": "2026-11-15",
+  "key": "router|4g mf920 pocket portable router tabwd wifi",
+  "name": "TABWD MF920 4G Portable Pocket WiFi Router",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/TABWD-MF920-4G-Portable-Pocket-WiFi-Router-2108.png"
  },
  "takstar-bm-621usb-usb-boundary-microphone": {
   "brand": "Takstar",
@@ -990513,13 +992043,10 @@
   "category": "desktop-ram",
   "created": "2026-11-10",
   "features": [
-   "Capacity (GB/TB): 16GB",
-   "RAM Type: DDR5",
-   "Bus Speed(MHz): 6000MHz",
-   "Number of Pin: 288 Pin",
-   "CAS Latency: CL38-38-38-78",
-   "LED Lighting: No",
-   "Color: Red"
+   "Capacity: 16GB",
+   "Type: DDR5, Speed: 6000MHz",
+   "Operating Voltage: 1.25V",
+   "Latency: CL38"
   ],
   "key": "desktop-ram|16gb 6000 cl38 ddr5 force red t team vulcan",
   "name": "Team T-Force VULCAN RED 16GB DDR5 6000MHz CL38 Desktop RAM",
@@ -1027553,7 +1029080,7 @@
   "category": "printer-supplies",
   "created": "2026-11-10",
   "features": [
-   "Compatible with Toshiba e-Studio 2020AC,2520AC, 3025AC, 3525AC",
+   "Item Category: Copier Toner",
    "Printing Color: Black",
    "Printing Technology: Laser",
    "Duty Cycle up to (Yield): 38000 Pages"
@@ -1064353,6 +1065880,29 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/twinmos-thunder-gx-8gb-ddr4-3200mhz-black-11747213697.webp"
  },
+ "twinmos-thunder-gx-8gb-ddr4-3200mhz-u-dimm-black-desktop-ram-with-heatsink": {
+  "brand": "TwinMOS",
+  "category": "desktop-ram",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity (GB/TB): 8GB",
+   "RAM Type: DDR4",
+   "Bus Speed(MHz): 3200MHz",
+   "Number of Pin: 288 Pin",
+   "CAS Latency: CL 16-18-18-36",
+   "LED Lighting: No",
+   "Color: Black"
+  ],
+  "key": "desktop-ram|3200 8gb black ddr4 gx heatsink thunder tmd48gb3200d16bkgx twinmos u",
+  "name": "TwinMOS Thunder GX 8GB DDR4 3200MHz U-DIMM Black Desktop RAM with Heatsink #TMD48GB3200D16BKGX",
+  "specs": {
+   "capacity": "8GB",
+   "form": "DIMM",
+   "speed": "3200MHz",
+   "type": "DDR4"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/twinmos-thunder-gx-8gb-ddr4-3200mhz-u-dimm-black-11722755544.webp"
+ },
  "twinmos-thunder-gx-8gb-ddr4-u-dimm-desktop-ram": {
   "brand": "TwinMOS",
   "category": "desktop-ram",
@@ -1064649,6 +1066199,29 @@
    "type": "DDR5"
   },
   "store_image": "https://www.ryans.com/storage/products/small/twinmos-voltx-16gb-ddr5-5600mhz-desktop-ram-11694435673.webp"
+ },
+ "twinmos-voltx-16gb-ddr5-6000mhz-black-heatsink-desktop-ram-tmd516gb6000u36b": {
+  "brand": "Twinmos",
+  "category": "desktop-ram",
+  "created": "2026-11-15",
+  "features": [
+   "Capacity (GB/TB): 16GB",
+   "RAM Type: DDR5",
+   "Bus Speed(MHz): 6000MHz",
+   "Number of Pin: 288 Pin",
+   "CAS Latency: CL36",
+   "LED Lighting: No",
+   "Color: Black"
+  ],
+  "key": "desktop-ram|16gb 6000 black ddr5 heatsink tmd516gb6000u36b twinmos voltx",
+  "name": "Twinmos VOLTX 16GB DDR5 6000MHz Black Heatsink Desktop RAM #TMD516GB6000U36B",
+  "specs": {
+   "capacity": "16GB",
+   "form": "DIMM",
+   "speed": "6000MHz",
+   "type": "DDR5"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/twinmos-voltx-16gb-ddr5-6000mhz-black-heatsink-11776857471.webp"
  },
  "twinmos-voltx-32gb-6000mhz-cl36-ddr5-desktop-ram": {
   "brand": "Twinmos",
@@ -1075380,6 +1076953,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/ugreen-cm803-65024-usb-usb-type-c-male-to-11767616128.webp"
  },
+ "ugreen-cm806-35583-type-c-male-to-dual-usb-dual-type-c-female-black-hub-35583": {
+  "brand": "UGREEN",
+  "category": "hub-dock",
+  "created": "2026-11-15",
+  "features": [
+   "Type: USB HUB",
+   "Length.: Unmentioned",
+   "Interface(s): Type-C Male, Dual USB & Dual Type-C Female",
+   "Color: Black"
+  ],
+  "key": "hub-dock|35583 black c cm806 dual female hub male to type ugreen usb",
+  "name": "UGREEN CM806 (35583) Type-C Male to Dual USB & Dual Type-C Female Black Hub #35583",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ugreen-cm806-35583-type-c-male-to-dual-usb-11736165285.webp"
+ },
  "ugreen-cm806-4-port-type-c-hub-35583": {
   "brand": "Ugreen",
   "category": "hub-dock",
@@ -1076685,6 +1078273,15 @@
   "name": "UGREEN EP103 In-Ear Earphone with Lightning Connector",
   "specs": {},
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
+ },
+ "ugreen-ep103-in-ear-earphones": {
+  "brand": "UGREEN",
+  "category": "earphone",
+  "created": "2026-11-15",
+  "key": "earphone|ear earphones ep103 ugreen",
+  "name": "UGREEN EP103 In-Ear Earphones",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/UGREEN-EP103-In-Ear-Earphones-with-Lightning-Connector-(1)-6529.jpg"
  },
  "ugreen-ep103-wired-in-ear-earphone-30637": {
   "brand": "UGREEN",
@@ -1078562,6 +1080159,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/ugreen-lp123-60410-rectangular-rounded-metal-11721133302.webp"
  },
+ "ugreen-lp123-metal-plate-for-magnetic-phone-stand-60410": {
+  "brand": "UGREEN",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Thickness: 0.5mm",
+   "Shape: Round and Rectangular",
+   "Material: Metal",
+   "Easy-to-Install Phone Holder"
+  ],
+  "key": "mobile-accessories|60410 lp123 magnetic metal phone plate stand ugreen",
+  "name": "UGREEN LP123 Metal Plate for Magnetic Phone Stand #60410",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/ugreen/lp123/lp123-01-228x228.webp"
+ },
  "ugreen-lp127-iphone-charging-cable-tail-protection-sleeve": {
   "brand": "UGREEN",
   "category": "cable",
@@ -1078718,6 +1080330,21 @@
   "name": "UGREEN LP177 Adjustable Desktop Phone Stand #60324",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/ugreen/lp177/lp177-01-228x228.webp"
+ },
+ "ugreen-lp177-adjustable-desktop-phone-stand-60343": {
+  "brand": "UGREEN",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Multi-Angle Adjustable",
+   "Charging Hole Design",
+   "Sturdy and Durable",
+   "Compatibility: 4\"-7.9\" Phones"
+  ],
+  "key": "mobile-accessories|60343 adjustable lp177 phone stand ugreen",
+  "name": "UGREEN LP177 Adjustable Desktop Phone Stand #60343",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/ugreen/lp177/lp177-silver-01-228x228.webp"
  },
  "ugreen-lp187-20476-14-14-9-grey-laptop-sleeve-bag": {
   "brand": "UGREEN",
@@ -1083129,6 +1084756,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/networking/connector/ugreen/nw261/nw261-01-228x228.webp"
  },
+ "ugreen-nw304-crimping-tool-35971": {
+  "brand": "UGREEN",
+  "category": "network-tools",
+  "created": "2026-11-15",
+  "features": [
+   "Crimp Port: 4P, 6P, 8P, Cable Cutter",
+   "Crimper Material: Q235 Carbon Structural Steel",
+   "Handle Material: TPE",
+   "Function: RJ45/Ethernet Cable Crimping, Cutting & Stripping"
+  ],
+  "key": "network-tools|35971 crimping nw304 tool ugreen",
+  "name": "UGREEN NW304 Crimping Tool #35971",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/networking/crimping-tool/ugreen/nw304/nw304-01-228x228.webp"
+ },
  "ugreen-p10-40705-data-cable-tail-white-protection-sleeve-40705-6-piece": {
   "brand": "UGREEN",
   "category": "mobile-accessories",
@@ -1085837,11 +1087479,10 @@
   "category": "hub-dock",
   "created": "2026-11-11",
   "features": [
-   "Type: Audio",
-   "Length.: 0.07 Meter",
-   "Interface(s): Lightning Male, 3.5mm Female",
-   "Resolution: Not Applicable",
-   "Color: White"
+   "Input: 3.5mm TRRS Female",
+   "Output: Lightning Male",
+   "Length: 10cm",
+   "Support listening to music"
   ],
   "key": "hub-dock|3.5mm 30759 converter female lightning male to trrs ugreen us212",
   "name": "UGREEN US212 (30759) Lightning Male to 3.5mm TRRS Female Converter # 30759",
@@ -1086432,7 +1088073,7 @@
   "created": "2026-11-10",
   "features": [
    "Power: 100W",
-   "Wire material: Nylon sheath",
+   "Wire material: TPE",
    "Aluminum shell, high-quality copper wire High purity",
    "Cable length: 1 meter"
   ],
@@ -1096396,7 +1098037,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
@@ -1097882,6 +1099522,12 @@
   "brand": "Value-Top",
   "category": "casing",
   "created": "2026-11-11",
+  "features": [
+   "1 x 12CM Black Fan on Rear",
+   "1 x USB 3.0 & 2 x USB 2.0",
+   "HD Audio",
+   "Top handle"
+  ],
   "key": "casing|atx casing m500 micro top value",
   "name": "Value-Top M500 Micro ATX Casing",
   "specs": {},
@@ -1120219,6 +1121865,15 @@
   "name": "ViewSonic VA2932-MHD 29\" Ultrawide WFHD IPS Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/va2932-mhd/va2932-mhd-01-228x228.jpg"
+ },
+ "viewsonic-va2932-mhd-75hz-29-inch-4ms-ips-wfhd-monitor": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-15",
+  "key": "monitor-all|29 4ms 75hz ips mhd monitor va2932 viewsonic wfhd",
+  "name": "ViewSonic VA2932-MHD 75Hz 29 Inch 4MS IPS WFHD Monitor",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/ViewSonic-VA2932-MHD-75Hz-29-Inch-4MS-IPS-WFHD-Monitor-9252.png"
  },
  "viewsonic-va3209-2k-mhd-32-inch-2k-qhd-monitor-with-built-in-speakers": {
   "brand": "VIEWSONIC",
@@ -1154483,10 +1156138,10 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Supported CPU: Ryzen 1000/2000/3000/4000/5000 Series Processors",
-   "Supported RAM: 2x DDR4, up to 3200 (OC) MHz",
-   "Graphics Output: 1 x HDMI, 1x VGA",
-   "Features: 1 x M.2 , 1x RJ45 Gigabit Ethernet LAN"
+   "CPU Support: Ryzen 1000–5000 Series",
+   "Memory: 2x DDR4, up to 3200MHz (OC)",
+   "Graphics Output: 1x HDMI, 1x VGA",
+   "Connectivity: 1x M.2, 1x Gigabit Ethernet LAN"
   ],
   "key": "motherboard|am4 amd b450m matx motherboard pro xenthra xn",
   "name": "XENTHRA XN-B450M-PRO AMD AM4 mATX Motherboard",
@@ -1169263,6 +1170918,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/xigmatek-odin-500w-non-modular-80-plus-certified-11736340172.webp"
  },
+ "xigmatek-oreo-arctic-tempered-glass-mini-tower-case": {
+  "brand": "XIGMATEK",
+  "category": "casing",
+  "created": "2026-11-15",
+  "features": [
+   "0.5mm Thickness Chassis Structure",
+   "Elegant Meshed Grill Frontpanel",
+   "Left Tempered Glass Sidepanel",
+   "Easy Cable Management and PSU Shroud"
+  ],
+  "key": "casing|arctic case glass mini oreo tempered tower xigmatek",
+  "name": "XIGMATEK OREO ARCTIC TEMPERED GLASS MINI TOWER CASE",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1372506033/xigmatek-computer-case-oreo-arctic-cover.webp"
+ },
  "xigmatek-oreo-arctic-tempered-glass-mini-tower-gaming-casing": {
   "brand": "XIGMATEK",
   "category": "casing",
@@ -1169277,6 +1170947,21 @@
   "name": "XIGMATEK Oreo Arctic Tempered Glass Mini Tower Gaming Casing",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/xigmatek/oreo-arctic/oreo-arctic-01-228x228.jpg"
+ },
+ "xigmatek-oreo-tempered-glass-mini-tower-case": {
+  "brand": "XIGMATEK",
+  "category": "casing",
+  "created": "2026-11-15",
+  "features": [
+   "0.5mm Thickness Chassis Structure",
+   "Elegant Meshed Grill Frontpanel",
+   "Left Tempered Glass Sidepanel",
+   "Easy Cable Management and PSU Shroud"
+  ],
+  "key": "casing|case glass mini oreo tempered tower xigmatek",
+  "name": "XIGMATEK OREO TEMPERED GLASS MINI TOWER CASE",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1372506032/xigmatek-computer-case-oreo-cover.webp"
  },
  "xigmatek-oreo-tempered-glass-mini-tower-gaming-casing": {
   "brand": "XIGMATEK",
@@ -1172588,6 +1174273,21 @@
   "name": "XO SS16 Smart Auto-Tracking Selfie Stand",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/tripod/xo-/ss16/ss16-03-228x228.webp"
+ },
+ "xo-ss19-multi-functional-remote-control": {
+  "brand": "XO",
+  "category": "mobile-accessories",
+  "created": "2026-11-15",
+  "features": [
+   "Controls: 8-Button Phone & Camera Shutter",
+   "Connectivity: Bluetooth V5.0",
+   "Battery: 200mAh, 4–5 Hrs Runtime",
+   "Functions: Wireless Scrolling, E-Book Reading"
+  ],
+  "key": "mobile-accessories|control functional multi remote ss19 xo",
+  "name": "XO SS19 Multi functional Remote Control",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P8242611046/xo-gadget-ss19-cover.webp"
  },
  "xo-tx01-eu-1200mbps-dual-band-wi-fi-range-extender": {
   "brand": "XO",
@@ -1178426,6 +1180126,21 @@
   "name": "Xtreme JALSA Bluetooth Speaker with Microphone",
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Xtreme/Xtreme-JALSA-228x228.jpg"
+ },
+ "xtreme-jalsa-trolley-1-0-speaker-with-remote-and-mic": {
+  "brand": "XTREME",
+  "category": "speaker",
+  "created": "2026-11-15",
+  "features": [
+   "Audio: 40W RMS, 20Hz–20KHz",
+   "Battery: 4–5 Hrs Play, 2 Hrs Charge",
+   "Connectivity: BT, USB, AUX, SD, FM, Guitar-In",
+   "Features: Karaoke, 2 Mics, Remote, Display, Rec"
+  ],
+  "key": "speaker|1.0 jalsa mic remote speaker trolley xtreme",
+  "name": "XTREME JALSA Trolley 1.0 SPEAKER With Remote And Mic",
+  "specs": {},
+  "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0772611004/xtreme-speakers-jalsa-trolley-1-0-cover.webp"
  },
  "xtreme-jalsa-trolley-bluetooth-speaker-with-microphone": {
   "brand": "Xtreme",
@@ -1195424,6 +1197139,21 @@
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2024/09/Zeblaze-Stratos-3-GPS-Smart-Watch-AMOLED-Display-300x300.jpg"
  },
+ "zeblaze-stratos-3-pro": {
+  "brand": "Zeblaze",
+  "category": "smart-watch",
+  "created": "2026-11-15",
+  "features": [
+   "Display: 1.43\" AMOLED (466 x 466)px",
+   "Bluetooth Calling, Always On Display (AOD)",
+   "Up to 18 Days Usage, Military-Grade Durability",
+   "100+ Sports Modes , Zeblaze Fit App, Built in GPS"
+  ],
+  "key": "smart-watch|3 pro stratos zeblaze",
+  "name": "Zeblaze Stratos 3 Pro",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/zeblaze/stratos-3-pro/stratos-3-pro-02-228x228.webp"
+ },
  "zeblaze-stratos-3-pro-amoled-smartwatch": {
   "brand": "Zeblaze",
   "category": "smart-watch",
@@ -1205266,6 +1206996,27 @@
    "capacity": "12GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/zotac-gaming-geforce-rtx-4070-amp-airo-12gb-31681536088.webp"
+ },
+ "zotac-gaming-geforce-rtx-4070-super-trinity-black-edition-12gb-gddr6x-graphics": {
+  "brand": "ZOTAC",
+  "category": "graphics-card",
+  "created": "2026-11-15",
+  "features": [
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 12GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: Black & Grey"
+  ],
+  "key": "graphics-card|10p 12gb 4070 black card d40720d gddr6x geforce rtx super trinity zotac zt",
+  "name": "ZOTAC Gaming GeForce RTX 4070 SUPER Trinity Black Edition 12GB GDDR6X Graphics Card #ZT-D40720D-10P",
+  "specs": {
+   "capacity": "12GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/zotac-gaming-geforce-rtx-4070-super-trinity-black-11705572805.webp"
  },
  "zotac-gaming-geforce-rtx-4070-ti-amp-airo-12gb-gddr6x-graphics-card-zt-d40710f": {
   "brand": "ZOTAC",

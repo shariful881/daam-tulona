@@ -392,13 +392,6 @@
   "b_name": "PC Power OBSIDIAN PGM-P7 Bluetooth Mouse (White)"
  },
  {
-  "a": "a4tech-g3-200n-v-track-wireless-mouse",
-  "b": "a4tech-g3-200n-v-track-wireless-mouse-black-blue",
-  "score": 1.0,
-  "a_name": "A4TECH G3-200N V-TRACK Wireless Mouse",
-  "b_name": "A4TECH G3-200N V-TRACK Wireless Mouse (Black Blue)"
- },
- {
   "a": "logitech-g304-x-superlight-lightspeed-wireless-gaming-mouse",
   "b": "logitech-g304-x-superlight-lightspeed-wireless-gaming-mouse-white",
   "score": 1.0,
@@ -770,20 +763,6 @@
   "b_name": "QCY AilyBuds Pro HT10 ANC Earbuds (White)"
  },
  {
-  "a": "xinji-stone-m3-true-wireless-earbuds",
-  "b": "xinji-stone-m3-true-wireless-earbuds-black-white",
-  "score": 1.0,
-  "a_name": "XINJI Stone M3 True Wireless Earbuds",
-  "b_name": "XINJI Stone M3 True Wireless Earbuds (Black/White)"
- },
- {
-  "a": "xinji-stone-m3-true-wireless-earbuds",
-  "b": "xinji-stone-m3-true-wireless-earbuds-green-grey",
-  "score": 1.0,
-  "a_name": "XINJI Stone M3 True Wireless Earbuds",
-  "b_name": "XINJI Stone M3 True Wireless Earbuds (Green/Grey)"
- },
- {
   "a": "baseus-storm-3-true-wireless-earbuds",
   "b": "baseus-storm-3-true-wireless-earbuds-black",
   "score": 1.0,
@@ -824,6 +803,20 @@
   "score": 1.0,
   "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
   "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (Black)"
+ },
+ {
+  "a": "xinji-stone-m3-true-wireless-earbuds",
+  "b": "xinji-stone-m3-true-wireless-earbuds-black-white",
+  "score": 1.0,
+  "a_name": "XINJI Stone M3 True Wireless Earbuds",
+  "b_name": "XINJI Stone M3 True Wireless Earbuds (Black/White)"
+ },
+ {
+  "a": "xinji-stone-m3-true-wireless-earbuds",
+  "b": "xinji-stone-m3-true-wireless-earbuds-green-grey",
+  "score": 1.0,
+  "a_name": "XINJI Stone M3 True Wireless Earbuds",
+  "b_name": "XINJI Stone M3 True Wireless Earbuds (Green/Grey)"
  },
  {
   "a": "microlab-wisepods-20-tws-bluetooth-earbuds",
@@ -1398,5 +1391,12 @@
   "score": 1.0,
   "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
   "b_name": "Power Pac 1200VA Offline UPS (Metal Body)"
+ },
+ {
+  "a": "eset-internet-security-3-user-for-1-year",
+  "b": "eset-internet-security-1-user-3-year",
+  "score": 1.0,
+  "a_name": "ESET Internet Security 3 User for 1 Year",
+  "b_name": "ESET Internet Security 1 User 3 Year"
  }
 ]
