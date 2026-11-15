@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Printer": {
+   "Power Consumption": "Power:  Input voltage 115 to 127 VAC (+/- 10%), 60 Hz (+/- 2 Hz), 12 A\n440 watts (printing), 30 watts (ready), 4.4 watts (sleep), 0.5 watts (off)",
+   "Printer interface": "HP PCL 6, HP PCL 5, HP postscript level 3 emulation",
+   "Resolution": "Up to 600 x 600 dpi\nResolution (color):  Up to 600 x 600 dpi",
+   "Resolution technology": "HP ImageREt 3600",
+   "Weight": "90.2 lb",
+   "Cartridge": "HP Color LaserJet Black Print Cartridge (~7000 pages); HP Color LaserJet Cyan Print Cartridge (~7300 pages); HP Color LaserJet Yellow Print Cartridge (~7300 pages); HP Color LaserJet Magenta Print Cartridge (~7300 pages)[4,5]",
+   "Duty-Cycle": "(A4) Up To 75,000 Pages",
+   "First-Print-Out Time": "As fast as 16 sec\nAs fast as 17 sec",
+   "Print quality": "Black Up To 600 X 600 Dpi\nColor Up To 600 X 600 Dpi\nPrint Resolution Technologies HP ImageREt 3600",
+   "Print Technology": "Laser",
+   "Display": "2-line LCD (text)",
+   "Processor speed": "540 MHz",
+   "Color": "White"
+  },
+  "Print Speed": {
+   "Print Speed - Black (normal)": "Up to 20 ppm",
+   "Print speed - Color (normal)": "Up to 20 ppm"
+  },
+  "Memory": {
+   "Memory, standard": "192 MB",
+   "Memory, maximum": "448 MB"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Year",
+ "fetched": "2026-11-15T17:48+06:00",
+ "source": "https://www.pchouse.com.bd/hp-m5225n-printer",
+ "store": "pchouse"
+}

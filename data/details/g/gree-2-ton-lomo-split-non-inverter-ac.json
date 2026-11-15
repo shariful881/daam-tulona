@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "AC Type": "Lomo-Split",
+   "Technology": "Non-Inverter",
+   "Capacity": "2 Ton",
+   "Coverage": "180-240 sqft",
+   "Capacity of Cooling (BTU)": "24,000 BTU",
+   "Compressor Type": "Rotary",
+   "Refrigerant Type": "R32A",
+   "Condenser Type": "Golden Fin Condenser"
+  },
+  "Noise Level": {
+   "Indoor": "40dB",
+   "Outdoor": "58dB"
+  },
+  "Power": {
+   "Power Consumption": "3300 Watts",
+   "Power Type": "1Ph,220-230V, 50Hz"
+  },
+  "Weight": {
+   "Indoor": "16.5 /20 kg",
+   "Outdoor": "58/62.5 kg"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Dimensions": {
+   "Indoor": "1078 × 325 × 246mm",
+   "Outdoor": "955 ×700× 396mm"
+  },
+  "Warranty Information": {
+   "Warranty": "Official Warranty: 05 Years Compressor & 01 Year Parts Warranty.\n(Gree Warranty card must be kept for warranty claims.) For warranty claims, please contact the Gree distributor directly through the official customer service hotline at 16649, 09678333666."
+  },
+  "Image": {
+   "Model": "GS-24XLM32"
+  }
+ },
+ "key_features": [
+  "Type: Lomo Split-Type, Technology: Non-Inverter",
+  "Cooling Capacity: 24000BTU/hr, Golden Fin",
+  "Display: LED Display, Copper Tube Condenser"
+ ],
+ "model": "GS-24XLM32",
+ "warranty": "Official Warranty: 05 Years Compressor & 01 Year Parts Warranty.",
+ "fetched": "2026-11-15T17:35+06:00",
+ "source": "https://www.creatus.com.bd/gree-2-ton-lomo-split-non-inverter-ac",
+ "store": "creatus"
+}

@@ -1,0 +1,88 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5-1335U",
+   "Generation": "13th Generation",
+   "Processor Frequency": "Max Turbo Frequency 4.5 GHz",
+   "Processor Core": "10",
+   "Processor Thread": "12",
+   "CPU Cache": "12MB Smart Cache"
+  },
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Max RAM Capacity": "16GB",
+   "Ram": "8GB",
+   "Ram Type": "DDR4",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "NVMe PCIe SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "NVMe PCIe SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size keyboard with numeric keypad",
+   "Keyboard Features": "Backlit Keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "2MP",
+   "Speaker": "Yes",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "Yes",
+   "USB 2 Port": "2 x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 1 Type-C",
+   "Headphone & Microphone Port": "1x Headphone Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6",
+   "Bluetooth": "Bluetooth V5.2"
+  },
+  "Software": {
+   "Operating System": "Free Dos"
+  },
+  "Display": {
+   "Display Size": "15.6\"",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD (1920x1080)"
+  },
+  "Display Features": {
+   "Aspect Ratio": "16:9",
+   "Brightness": "250nits"
+  },
+  "Power": {
+   "Battery Type": "3 Cell",
+   "Battery Capacity": "11.4/5000mah"
+  },
+  "Physical Specification": {
+   "Dimension": "362.2 x 253.4 x 19.9 mm",
+   "Weight": "1.6 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years Warranty (1 Year for Battery)"
+  },
+  "Image": {
+   "Model": "Flairedge"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-1315U (12MB Smart Cache, Up to 4.5 GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB NVMe PCIe SSD",
+  "Display: 15.6\" FHD (1920x1080) Anti-Glare",
+  "Features: Backlit Keyboard, Wi-Fi 6, Type-C"
+ ],
+ "model": "Flairedge",
+ "warranty": "2 Years Warranty (1 Year for Battery)",
+ "fetched": "2026-11-15T17:32+06:00",
+ "source": "https://www.creatus.com.bd/smart-flairedge-core-i5-13th-gen-15-6-inch-fhd-laptop",
+ "store": "creatus"
+}

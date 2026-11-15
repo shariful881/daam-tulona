@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "General": {
+   "Printer Type": "POS Printer"
+  },
+  "Others": {
+   "Print Width": "80mm",
+   "Cutter": "Auto cutter"
+  },
+  "Print": {
+   "Technology": "Thermal",
+   "Print Speed": "250mm/s",
+   "Print Resolution": "203dpi"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB, LAN"
+  },
+  "Power Consumption": {
+   "Power Adapter Input": "AC 110V / 220V, 50 ~ 60Hz",
+   "Power Output": "DC 24V / 2.5A"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  },
+  "Image": {
+   "Model": "RP335"
+  }
+ },
+ "key_features": [],
+ "model": "RP335",
+ "warranty": "1 Year",
+ "fetched": "2026-11-15T17:55+06:00",
+ "source": "https://www.creatus.com.bd/rongta-rp335-thermal-pos-printer",
+ "store": "creatus"
+}

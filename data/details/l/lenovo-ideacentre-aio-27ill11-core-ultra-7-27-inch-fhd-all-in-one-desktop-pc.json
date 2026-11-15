@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Core Ultra 7 256V, 8C (4P + 4LPE) / 8T, Max Turbo up to 4.8GHz, 12MB Intel Smart Cache",
+   "Motherboard": "Intel SoC Platform",
+   "RAM": "16GB Soldered LPDDR5X-8533, MoP Memory (soldered to systemboard, no slots, dual-channel, non-upgradable)",
+   "Graphics Card": "Integrated Intel Arc Graphics 140V",
+   "Storage": "512GB SSD M.2 2280 PCIe 4.0x4 NVMe (Max Storage Support: One drive, up to 1TB M.2 SSD)",
+   "Power Supply": "90W 89% Adapter",
+   "CPU Cooler": "Integrated System Cooling / Heat Sink",
+   "Network & Wireless Connectivity": "Wi-Fi 6 (802.11ax 2 x 2) + Bluetooth 5.3"
+  },
+  "Others": {
+   "Display": "27\" FHD (1920x1080) IPS 300nits Anti-glare, 99% sRGB, 3-side borderless, hardware low blue light, Non-Touch",
+   "Audio": "3W x 2, HARMAN, High Definition (HD) Audio, Realtek ALC233 codec",
+   "Camera": "5.0MP",
+   "Operating System": "Free DOS",
+   "Security": "Firmware TPM 2.0 integrated in SoC",
+   "Input Devices": "Wireless EOS Keyboard (Luna Grey, English), Wireless EOS Mouse (Luna Grey)"
+  },
+  "General": {
+   "Dimension": "611.72 x 192.1 x 478.46 mm (24.08 x 7.56 x 18.83 inches)"
+  },
+  "External I/O Ports": {
+   "Rear Ports": "1x USB-A (USB 10Gbps / USB 3.2 Gen 2), 2x USB-A (Hi-Speed USB / USB 2.0), 1x HDMI 2.1 TMDS, 1x HDMI-in, 1x Ethernet (RJ-45), 1x power connector",
+   "Left Ports": "1x Camera switch, 1x Power button",
+   "Right Ports": "1x USB-C (USB 10Gbps / USB 3.2 Gen 2), 1x headphone / microphone combo jack (3.5mm)"
+  },
+  "Physical Attribute": {
+   "Weight": "Around 7.1 kg (15.65 lbs)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "IdeaCentre AIO 27ILL11"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaCentre AIO 27ILL11",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-aio-27ill11-27-inch-fhd-aio-desktop-pc",
+ "store": "creatus"
+}

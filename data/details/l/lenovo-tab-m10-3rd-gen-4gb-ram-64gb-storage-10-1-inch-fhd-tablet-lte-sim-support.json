@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Main Features": {
+   "Display": "LCD",
+   "Size": "10.1 inches",
+   "Resolution": "FHD IPS (1920 x 1200)",
+   "Processor": "UNISOC T610, Octa-Core (2x A75 1.8GHz + 6 x A55 1.8GHz)",
+   "Connectivity": "WiFi Direct\nWiFi Display\nGLONASS",
+   "RAM": "4GB LPDDR4X",
+   "Storage": "64GB (eMCP)",
+   "Operating System": "Android 11 (will receive Android™ 12 in Fall 2022)",
+   "Audio": "Dual speakers with Dolby Atmos",
+   "Others": "Security: Face unlock\nPreloaded Software:\nAmazon Prime Music (free trial)\nEntertainment Space\nFiles\nGoogle Kids Space\nNetflix (requires subscription)\nTablet Center\nYouTube\nYouTube Kids\nCertifications: TÜV Rheinland Low Blue Light"
+  },
+  "Physical Specification": {
+   "Dimension": "8.50mm x 239.84mm x 158.62mm / 0.33\" x 9.44\" x 6.24\" (H x W x D)",
+   "Weight": "460g / 1.01lbs",
+   "Color": "Storm Grey"
+  },
+  "Camera": {
+   "Rear": "8MP autofocus, world-facing",
+   "Front": "5MP fixed focus, user-facing"
+  },
+  "Battery": {
+   "Type": "Li-ion Polymer",
+   "Capacity": "5100 mAh"
+  },
+  "Special Features": {
+   "Bluetooth": "Bluetooth 5.0",
+   "GPS": "A-GPS (LTE models only)",
+   "Sensors": "Accelerometer (G) Sensor\nAmbient L-Sensor\nHall Sensor\nP-Sensor\nVibrator (LTE models only)",
+   "USB": "USB-C 2.0",
+   "WLAN": "WiFi 802.11 a/b/g/n/ac, 2.4GHz & 5GHz dual-band"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "Tab M10 Gen 3"
+  }
+ },
+ "key_features": [
+  "CPU: UNISOC Tiger T610 (12nm)",
+  "Battery: 5100 mAh, Li-ion Polymer",
+  "Display: 10.1\" FHD IPS (1920 x 1200)",
+  "RAM: 4GB LPDDR4x, Storage: 64GB (eMCP)"
+ ],
+ "model": "Tab M10 Gen 3",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-15T17:32+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-tab-m10-3rd-gen-4gb-ram-64gb-storage-fhd-tablet",
+ "store": "creatus"
+}

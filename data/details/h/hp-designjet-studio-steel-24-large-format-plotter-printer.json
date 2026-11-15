@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Printer": {
+   "Color Output": "Color",
+   "Paper Size": "Bond and coated paper (bond, coated, heavyweight coated, plain, bright white, blueprint), technical paper (natural tracing), film (clear, matte), photographic paper (satin, gloss, semi-gloss, polypropylene), self-adhesive (adhesive, polypropylene)",
+   "Power Consumption": "100-240 V (+-10%), 50/60 Hz (+-3 Hz), 1200 mA max, <35 W (printing), <5.6 W (ready), <2.1 W (sleep), <0.2 W (standby)",
+   "Print Resolution": "Up to 2400 x 1200 optimized dpi",
+   "Paper Type": "Sheet feed, roll feed, automatic sheet feeder, media bin, automatic horizontal cutter",
+   "Paper Weight": "60 to 220 g/m2 (Auto Sheet Feeder), 60 to 280 g/m2 (Roll/Manual Feed)",
+   "Print function": "Print Only",
+   "Print Speed": "26 sec/page on A1, 81 A1 prints per hour",
+   "Print Technology": "HP Thermal Inkjet",
+   "Printer type": "Single Function DesignJet Printer",
+   "software support": "Windows and MacOS",
+   "Toner": "HP 712B 38-ml Black DesignJet Ink Cartridge, HP 712B 80-ml Black DesignJet Ink Cartridge, HP 712 29-ml Cyan DesignJet Ink Cartridge, HP 712 29-ml Magenta DesignJet Ink Cartridge, HP 712 29-ml Yellow DesignJet Ink Cartridge",
+   "Connectivity": "LAN\nGigabit Ethernet (1000Base-T)\nWi-Fi\nWi-Fi 802.11\nUSB\nHi-Speed USB 2.0",
+   "Dimensions": "1013 x 555 x 932mm",
+   "Memory": "1GB",
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 year",
+ "fetched": "2026-11-15T17:47+06:00",
+ "source": "https://www.pchouse.com.bd/hp-designjet-studio-steel-24-inch-printer",
+ "store": "pchouse"
+}

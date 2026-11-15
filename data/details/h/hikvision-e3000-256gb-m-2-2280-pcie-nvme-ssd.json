@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Shock Resistance": "Yes"
+  },
+  "Key Features": {
+   "Capacity": "256GB",
+   "Sequential R/W": "3230MB/s/1300MB/s",
+   "Flash Type": "3D TLC NAND",
+   "MTBF": "1,500,000 hours",
+   "Form Factor": "M.2 2280",
+   "TBW": "112TB"
+  },
+  "Features": {
+   "Dimension": "80.15 x 22.15 x 2.38 mm",
+   "Interface": "PCIe Gen 3 x 4",
+   "Weight": "‎50 gm"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0 °C to 70 °C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40 °C to +85 °C"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 year warranty"
+  }
+ },
+ "key_features": [
+  "Storage: 256GB",
+  "Form Factor: M.2 2280",
+  "Interface: PCIe Gen 3 x 4",
+  "Read/Write Speed: Up to 3230MB/s/1300MB/s"
+ ],
+ "warranty": "3 year warranty",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/hikvision-e3000-256gb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

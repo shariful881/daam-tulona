@@ -1,0 +1,107 @@
+{
+ "specs": {
+  "imagePROGRAF GP-5200 (24”)": {
+   "Printer Type": "5-Colour + Fluorescent Pink,\n24″ / 610 mm,\n(Only Print)",
+   "Number of Nozzles": "15,360 nozzles (2,560 nozzles x 6 colours)",
+   "Maximum Print Resolution": "2400 × 1200 dpi",
+   "Nozzle Pitch": "1200 dpi (2 lines)",
+   "Line Accuracy*1": "± 0.1% or less",
+   "Minimum Ink Droplet Size": "5 pl",
+   "Ink Capacity": "Sales Ink: 130 ml / 300 ml (MBK, BK, C, M, Y, FP)",
+   "Ink Type": "Pigment Ink",
+   "Printer Language": "SG Raster (Swift Graphic Raster)"
+  },
+  "JPEG (Ver. JFIF1.02)": {
+   "Printing Solutions": "Apple AirPrint, Direct Print Plus, Easy-PhotoPrint Editor, Canon PRINT Inkjet/SELPHY, Canon Print Service, Free Layout plus, PosterArtist Lite, imageRUNNER ADVANCE Direct Enlargement Copy",
+   "Management Solutions": "Media Configuration Tool, Accounting Manager, Device Management Console, Quick Utility Toolbox",
+   "Standard Interfaces (Built-in)": "USB A Port:"
+  },
+  "Wpa2-Psk (Tkip/Aes)": {
+   "Standard Memory": "2 GB",
+   "Hard Disk": "500 GB"
+  },
+  "Plain Paper": {
+   "Poster/Photos, Fluorescent, A1": "25 sec [Fast]"
+  },
+  "Heavyweight Coated Paper HG": {
+   "Poster/Photos, Fluorescent, A1": "55 sec [Fast]"
+  },
+  "Glossy Photo Paper HG 170": {
+   "Poster/Photos, Fluorescent, A1": "3 min 28 sec [Standard]"
+  },
+  "Media Feed and Output": {
+   "Roll Paper": "One Roll, Top Load, Front Output",
+   "Cut Sheet": "Top Load, Front Output*3",
+   "Media Width (Roll / Cut Sheet)": "203.2 ～ 610 mm",
+   "Media Thickness (Roll / Cut Sheet)": "0.07 ～ 0.8 mm"
+  },
+  "Min. Printable Length": {
+   "Roll Paper": "203.2 mm",
+   "Cut Sheet": "279.4 mm"
+  },
+  "Max. Printable Length": {
+   "Roll Paper": "18 m*4",
+   "Cut Sheet": "1.6 m",
+   "Maximum Outer Roll Diameter": "150 mm or less",
+   "Borderless Printing Width": "203.2 ～ 610 mm"
+  },
+  "Margins (Recommended Area)": {
+   "Roll Paper": "Top: 20 mm, Bottom/Side: 3 mm",
+   "Cut Sheet (Apple AirPrint)": "Top: 20 mm, Bottom: 31 mm, Side: 3 mm",
+   "Cut Sheet (Others)": "Top/Bottom: 20 mm, Side: 3 mm"
+  },
+  "Margins (Printable Area)": {
+   "Roll Paper": "Top/Bottom/Side: 3 mm",
+   "Roll Paper (Borderless Print)": "Top/Bottom/Side: 0 mm",
+   "Cut Sheet (Apple AirPrint)": "Top: 3 mm, Bottom: 12.7 mm, Side: 3 mm",
+   "Cut Sheet (Others)": "Top: 3 mm, Bottom: 20 mm, Side: 3 mm"
+  },
+  "Dimensions (W x D x H)": {
+   "Main Unit": "982 x 748 x 439 mm",
+   "Main Unit + Stand + Basket (SD-24)": "982 x 870 x 1060 mm (Basket Open)"
+  },
+  "Weight": {
+   "Main Unit": "41 kg",
+   "Main Unit + Stand + Basket (SD-24)": "50 kg"
+  },
+  "Packaged Dimensions (W x D x H)": {
+   "Main Unit + Pallet": "1152 x 913 x 705 mm",
+   "Stand + Basket (SD-24)": "1055 x 824 x 268 mm",
+   "Main Unit + Stand + Basket (SD-24) + Pallet": "1152 x 913 x 961 mm"
+  },
+  "Packaged Weight": {
+   "Main Unit + Pallet": "69 kg",
+   "Stand + Basket (SD-24)": "16 kg",
+   "Main Unit + Stand + Basket (SD-24) + Pallet": "84 kg"
+  },
+  "Power & Operating Requirements": {
+   "Power Supply": "AC 100 – 240 V, 50 – 60 Hz"
+  },
+  "Power Consumption": {
+   "Printing*6": "71 W or less",
+   "Sleep Mode*6": "2.0 W or less",
+   "Power Off": "0.3 W or less"
+  },
+  "Operating Environment": {
+   "Temperature": "15 ～ 30 °C",
+   "Humidity": "10 ～ 80 % RH (no dew condensation)"
+  },
+  "Acoustic Sound": {
+   "Acoustic Power*7": "Operation: Approx. 67 dB",
+   "Acoustic Pressure*7": "Operation: Approx. 49 dB (A)"
+  },
+  "Accessories": {
+   "2″/3″ Roll Holder (Optional)": "RH2-28"
+  },
+  "Consumables": {
+   "Ink Tank": "PFI-8120 (130 ml) / PFI-8320 (300 ml)",
+   "Print Head": "PF-07",
+   "Cutter Blade": "CT-08",
+   "Maintenance Cartridge": "MC-31"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T18:17+06:00",
+ "source": "https://smartbd.com/product/canon-imageprograf-gp-5200-large-format-printer/",
+ "store": "smartbd"
+}

@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Storage": "500GB",
+   "Random Read IOPS": "450K IOPS",
+   "S.M.A.R.T Support": "Yes"
+  },
+  "Others": {
+   "Storage Temperature": "-40 Dgeree C to +85 Dgeree C, Endurance: 300TBW, Operating",
+   "Temperature": "0 Degree C to +65 Degree C, Storage Humidity: 93% RH (40 Degree C), Voltage:"
+  },
+  "Key Features": {
+   "MTBF": "1500000 hours"
+  },
+  "Features": {
+   "Interface": "PCIe Gen 4.0 x 4 NVMe"
+  },
+  "Hard Disk": {
+   "Shock Sensor": "1500 G"
+  },
+  "Main Features": {
+   "Read Speed": "Max. 4800MB/s"
+  },
+  "General": {
+   "Type": "Internal SSD"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years Warrenty"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to Up to 4800MB/s",
+  "Sequential Write: Up to 3500MB/s"
+ ],
+ "warranty": "5 Years Warrenty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-mp600-gs-500gb-m.2-2280-pcie-gen-4.0-x-4-nvme-ssd",
+ "store": "pchouse"
+}

@@ -1,0 +1,78 @@
+{
+ "specs": {
+  "Key Specs": {
+   "Wireless Technology": "Analog UHF",
+   "Included Transmitters": "1x Handheld",
+   "Diversity": "True Diversity",
+   "Max Operating Range": "330′ / 100.6 m (Line of Sight)",
+   "Receiver Type": "Tabletop",
+   "Microphone Type": "Handheld Capsule",
+   "Polar Pattern": "Supercardioid"
+  },
+  "System": {
+   "Wireless Technology": "Analog UHF",
+   "Number of RF Channel Frequencies": "3520",
+   "Included Transmitters": "1x Handheld",
+   "Diversity": "True Diversity",
+   "RF Frequency Band": "AW+:\n470 to 558 MHz",
+   "RF Bandwidth": "88 MHz",
+   "Frequency Step Size": "25 kHz",
+   "Max Operating Range": "330′ / 100.6 m (Line of Sight)",
+   "Max Transmitters per Band": "32",
+   "Deviation": "±48 kHz (Peak)",
+   "Modulation": "Wideband FM"
+  },
+  "Receiver": {
+   "Receiver Type": "Tabletop",
+   "Mounting Options": "Rackmount (with Included Hardware)",
+   "Rackmount Size": "1 RU (1/2 Rack)",
+   "Antenna": "2x Rod, BNC (Rear-Mount)",
+   "Number of Audio Channels": "1",
+   "Audio I/O": "1x XLR 3-Pin Male Balanced Output\n1x 1/4″ TRS Female Unbalanced Output",
+   "Gain Range": "48 dB (3 dB Steps)",
+   "Audio Output Level": "XLR Output:\n+18 dBu (Balanced)\n1/4″ Output:\n+12 dBu (Unbalanced)",
+   "Network I/O": "1x RJ45",
+   "Squelch": "Adjustable, 5 to 25 dBμV",
+   "Adjacent Channel Isolation": ">75 dB",
+   "Power Requirements": "AC/DC Power Adapter",
+   "AC/DC Power Adapter": "12 VDC at 300 mA (Included)",
+   "AC Input Power": "100 to 240 VAC, 50 / 60 Hz at 0.2 A",
+   "Display & Indicators": "1x OLED (AF Level, Channel, Frequency, Mute, RF Level, Transmitter Battery Status)",
+   "Housing": "Metal",
+   "Operating Temperature": "14 to 131°F / -10 to 55°C",
+   "Dimensions": "8.3 x 1.7 x 8″ / 212 x 43 x 202 mm",
+   "Weight": "2.2 lb / 980 g"
+  },
+  "Transmitter": {
+   "Transmitter Type": "Handheld",
+   "RF Output Power": "10 / 30 / 50 mW",
+   "Audio I/O": "No",
+   "Gain Range": "48 dB (6 dB Steps)",
+   "Frequency Response": "80 Hz to 18 kHz (Mic)",
+   "Sync Method": "IR",
+   "Antenna": "1x Internal, Fixed (Handheld)",
+   "Power Requirements": "Battery",
+   "Battery Type": "2x AA (Included)\n1x Sennheiser Battery Pack (Not Included, Replaceable)",
+   "Approx. Battery Life": "8 Hours (Alkaline)",
+   "Display & Indicators": "1x Backlit LCD (Audio Level, Battery Status, Channel, Group, Mute, Signal Strength)",
+   "Housing": "Metal",
+   "Operating Temperature": "14 to 131°F / -10 to 55°C",
+   "Dimensions": "2 x 10.4″ / 50 x 265 mm",
+   "Weight": "15.9 oz / 450 g (with Batteries)"
+  },
+  "Microphone": {
+   "Microphone Type": "Handheld Capsule",
+   "Color": "Black",
+   "Sound Field": "Mono",
+   "Capsule": "Electret Condenser",
+   "Polar Pattern": "Supercardioid",
+   "Maximum SPL": "152 dB SPL",
+   "Sensitivity": "1.6 mV/Pa at 1 Hz",
+   "Weight": "5.71 oz / 162 g"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:39+06:00",
+ "source": "https://diamu.com.bd/product/sennheiser-ew-300-g4-865-s-microphone/",
+ "store": "diamu"
+}

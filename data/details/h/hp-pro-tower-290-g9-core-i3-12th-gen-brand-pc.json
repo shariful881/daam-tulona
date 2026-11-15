@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Free Dos",
+   "Processor": "Intel Core i3-12100 (up to 4.3 GHz with Intel Turbo Boost\nTechnology, 12 MB L3 cache, 4 cores, 8 threads)",
+   "Motherboard": "Intel H670 chipset",
+   "RAM": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)",
+   "Graphics Card": "Integrated,\nIntel UHD Graphics 730",
+   "Audio": "Realtek ALC3867 codec, universal audio jack with CTIA headset support, audio line-out rear ports (3.5 mm), multi-streaming capable",
+   "Storage": "512 GB PCIe NVMe M.2 SSD",
+   "Power Supply": "180 W external power adapter, up to 90% efficiency, active PFC"
+  },
+  "Input Devices": {
+   "External I/O Ports": "Front\n4 USB Type-A 5Gbps signaling rate; 1 headphone/microphone combo\nRear\n4 USB 2.0 Type-A; 1 HDMI; 1 RJ-45; 1 VGA; 1 power connector; 1 line in; 1 line out; 1 Serial (optional)",
+   "Keyboard": "HP 125 Wired Keyboard",
+   "Mouse": "HP 125 Wired Mouse",
+   "Optical Drive": "HP 9.5 mm Slim DVD-Writer"
+  },
+  "Physical Specification": {
+   "Dimensions": "15.5 x 30.3 x 33.7 cm",
+   "Weight": "4.7 kg"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Pro Tower 290 G9"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-12100 (12 MB L3 cache, up to 4.3 GHz)",
+  "RAM: 8GB DDR4-3200 MHz, Storage: 512 GB PCIe NVMe M.2 SSD",
+  "Graphics: Intel UHD Graphics 730",
+  "Features: HP 125 Wired Mouse & Keyboard"
+ ],
+ "model": "Pro Tower 290 G9",
+ "warranty": "3 Years",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.creatus.com.bd/hp-pro-tower-290-g9-core-i3-12th-gen-brand-pc",
+ "store": "creatus"
+}

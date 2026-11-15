@@ -1,0 +1,50 @@
+{
+ "specs": {
+  "Main Features": {
+   "Display": "IPS",
+   "Resolution": "800X1280",
+   "Processor": "Allwiner A532 8-Core\nAllwiner Arm G57 MC01 600MHz",
+   "Connectivity": "WIFI2.4G + WIFI5G 802.11 a/b/g/n/ac/ax\nBluetooth 5.2\nMicro SD slot",
+   "RAM": "4GB LPDDR4X + 4GB (Virtual RAM)",
+   "Storage": "64GB",
+   "Operating System": "Android 13 Operating System\nGoogle Widevine DRM L1",
+   "Audio": "Built-in Dual-channel Speaker\n3.5mm Headphone"
+  },
+  "Physical Specification": {
+   "Dimension": "201.7mm(L) ×122.4mm(W) ×9.1mm(H)",
+   "Size": "8-inch",
+   "Weight": "340g",
+   "Color": "Blue, Pink"
+  },
+  "Camera": {
+   "Rear": "2.0W",
+   "Front": "0.3W",
+   "Video": "Yes"
+  },
+  "Battery": {
+   "Type": "Lithium battery",
+   "Capacity": "5000mAh",
+   "Charging": "Type-C Charging"
+  },
+  "Special Features": {
+   "Bluetooth": "Bluetooth V5.2",
+   "GPS": "Yes",
+   "Sensors": "Gravity sensor\nHall Sensor",
+   "USB": "USB Type-C Charging",
+   "WLAN": "Yes"
+  },
+  "Image": {
+   "Model": "P85T"
+  }
+ },
+ "key_features": [
+  "RAM: 4GB, Storage: 64GB",
+  "Display: 8-inch IPS 1280×800",
+  "Battery: 5000mAh, Type-C Charging",
+  "CPU: Allwiner A532, GPU: Arm G57 MC01"
+ ],
+ "model": "P85T",
+ "fetched": "2026-11-15T17:32+06:00",
+ "source": "https://www.creatus.com.bd/teclast-p85t-4gb-64gb-storage-8-inch-android-kids-tablet",
+ "store": "creatus"
+}

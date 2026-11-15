@@ -1,0 +1,106 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Ryzen 5 7535U",
+   "Generation": "Ryzen 7000 Series",
+   "Processor Frequency": "Up to 4.5GHz",
+   "Processor Core": "6 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "16MB L3 Cache"
+  },
+  "Memory": {
+   "Bus Speed": "4800MT/s",
+   "Max RAM Capacity": "32GB",
+   "Ram": "8GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2 × SO-DIMM",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Yes",
+   "Supported SSD Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Extra M.2 Slot": "No"
+  },
+  "Graphics": {
+   "Graphics Model": "AMD Radeon 660M Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Numeric Keypad",
+   "Keyboard Features": "Spill-resistant Keyboard",
+   "TouchPad": "Multi-touch Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD 720p Webcam with WDR",
+   "Speaker": "Dual Stereo Speakers",
+   "Microphone": "Dual Array Microphone",
+   "Audio Features": "Dual Stereo Speakers, HD Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "N/A",
+   "HDMI Port": "1 × HDMI 1.4b",
+   "USB 2 Port": "N/A",
+   "USB 3 Port": "2 × USB Type-A (5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 × USB Type-C (5Gbps)",
+   "Headphone & Microphone Port": "1 × 3.5mm Combo Audio Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6 (802.11ax)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "Kensington Nano Security Slot",
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "No",
+   "Security Chip": "TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "FreeDOS"
+  },
+  "Chipset": {
+   "Chipset Model": "AMD SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "FHD IPS Anti-Glare",
+   "Display Resolution": "1920 × 1080",
+   "Display Features": "IPS, Anti-Glare, Narrow Bezel, 300 nits",
+   "Touch Screen": "No",
+   "Refresh Rate": "60Hz",
+   "Brightness": "300 nits"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion",
+   "Battery Capacity": "41Wh",
+   "Adapter Type": "45W Smart AC Adapter",
+   "Backup Time (Approx)": "Up to 7–9 Hours"
+  },
+  "Physical Specification": {
+   "Weight": "Approx. 1.52kg",
+   "Dimensions": "35.98 × 23.6 × 1.17 cm (Front), 1.57 cm (Rear)",
+   "Colors": "Turbo Silver",
+   "Body Material": "Plastic"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "255R G10"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 5 7535U (6 Cores, 12 Threads, Up to 4.5GHz, 16MB L3 Cache)",
+  "Memory & Storage: 8GB DDR5 4800MHz RAM, 512GB PCIe Gen4 NVMe SSD",
+  "Display: 15.6-inch Full HD (1920×1080) IPS Anti-Glare Display, 300 nits",
+  "Graphics: AMD Radeon 660M Integrated Graphics"
+ ],
+ "model": "255R G10",
+ "warranty": "2 Years",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.creatus.com.bd/hp-255r-g10-amd-ryzen-5-7535u-laptop",
+ "store": "creatus"
+}

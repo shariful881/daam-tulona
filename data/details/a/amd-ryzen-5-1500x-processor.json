@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.5GHz",
+   "Cache": "Total L1 Cache: 384KB",
+   "Cores": "4",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "Up to 3.7GHz",
+   "Supported Technologies": "AMD SenseMI Technology",
+   "Threads": "8"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "Up to 2667MHz",
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 months warranty (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.5GHz up to 3.7GHz",
+  "L1 Cache: 384KB, L2 Cache: 2MB, L3 Cache: 16MB",
+  "Cores: 4, Threads: 8"
+ ],
+ "warranty": "03 months warranty (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-15T17:56+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-5-1500x-processor",
+ "store": "pchouse"
+}

@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "512 GB",
+   "Flash Type": "3D NAND Flash",
+   "Sequential R/W": "READ - Up to 7,000MB/s (PC/Laptop)*, Up to 6,200MB/s (PS5)",
+   "MTBF": "1,500,000 hours",
+   "Interface Type": "PCIe Gen4 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "300TB"
+  },
+  "Physical Specifications": {
+   "Weight": "10.6g / 0.37oz (with heat sink)",
+   "Dimension": "80 x 22 x 3.35mm / 3.15 x 0.86 x 0.13inch (with heat sink)"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C-85°C",
+   "Shock resistance": "1500G/0.5ms"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "05 Years",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-legend-900-512gb-pcie-gen4-x4-m2-ssd",
+ "store": "pchouse"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "500 GB",
+   "Flash Type": "3D NAND Flash",
+   "Sequential R/W": "READ - Up to 5,000MB/s (PC/Laptop)*, Up to 4,600MB/s (PS5)",
+   "MTBF": "1,500,000 hours",
+   "Interface Type": "NVMe PCIe Gen4 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "450TB"
+  },
+  "Physical Specifications": {
+   "Weight": "With heat sink：(500GB) 8.5g / 0.29oz",
+   "Dimension": "80 x 22 x 3.63mm / 3.15 x 0.87 x 0.14inch (with heat sink)"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C-85°C",
+   "Shock resistance": "1500G/0.5ms"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 500GB",
+  "Type: M.2 2280",
+  "Interface: NVMe PCIe Gen4 x4",
+  "Sequential Read/Write: up to 5000/4200 MB/s"
+ ],
+ "warranty": "03 Years",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-legend-850-lite-500gb-pcie-gen4-x4-m2-nvme-ssd",
+ "store": "pchouse"
+}

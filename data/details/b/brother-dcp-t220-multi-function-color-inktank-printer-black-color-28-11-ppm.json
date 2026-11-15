@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "LED",
+   "Memory": "64MB"
+  },
+  "Printer": {
+   "ADF": "No",
+   "Input Capacity": "150 sheets",
+   "Output Capacity": "50 sheets",
+   "Paper Size": "Letter, A4, Legal, Mexico Legal, India Legal, Folio, Executive, A5, A6, Envelopes (C5, Com-10, DL, Monarch), Photo (4\" x 6\")/(10 x 15 cm), Photo 2L (5\" x 7\")/(13 x 18 cm), Index card (5\" x 8\")/(13 x 20 cm)",
+   "Print Resolution": "Black/Color: 28/11 ppm",
+   "Scan Resolution": "Up to 19200 × 19200 dpi (interpolated)\nUp to 1200 × 2400 dpi (optical)",
+   "Copy Speed": "Black/Color: 28/11 ppm",
+   "Duplex Printing": "Manual",
+   "Paper Type": "Plain Paper, Inkjet Paper (coated paper), Glossy Paper, Recycled Paper",
+   "Paper Weight": "80 g/m²",
+   "Print Speed": "Black/Color: 28/11 ppm",
+   "software support": "Windows: 7 SP1, 8.1, 10, macOS: v10.13.6, 10.14.x, 10.15.x",
+   "Toner": "BTD60BK Black (6500 pages), BT5001M Magenta (5000 pages), BT5001Y Yellow (5000 pages), BT5001C Cyan (5000 pages), BT5000M Magenta (5000 pages), BT5000Y Yellow (5000 pages), BT5000C Cyan (5000 pages)"
+  },
+  "Power Consumption": {
+   "Copying": "Approx. 12 W",
+   "Ready": "Approx. 2.5 W",
+   "Sleep": "Approx. 0.7 W",
+   "Power Off": "Approx. 0.2 W"
+  },
+  "Scanner Features": {
+   "Duty cycle (daily)": "2500 Pages (Monthly)"
+  },
+  "Photocopier": {
+   "Copy Resolution": "Black/Color: 28/11 ppm\nZoom- 25% to 400%"
+  },
+  "Connectivity": {
+   "Connectivity": "USB"
+  },
+  "General": {
+   "Model": "DCP-T220"
+  },
+  "Physical Specification": {
+   "Weight": "6.3 Kg",
+   "Color": "Black",
+   "Dimensions": "159 x 435 x 359 mm"
+  }
+ },
+ "key_features": [
+  "Print Speed(B&W/ Color): 28 pages/ 11 pages per minute",
+  "Resolution: 1200 Ã— 2400 dpi",
+  "Enlarge/Reduce: 25% to 400%",
+  "Power: AC 110 to 120 V 50/60 Hz"
+ ],
+ "model": "DCP-T220",
+ "fetched": "2026-11-15T17:43+06:00",
+ "source": "https://www.pchouse.com.bd/brother-dcpt220-multifunction-color-inktank-printer",
+ "store": "pchouse"
+}

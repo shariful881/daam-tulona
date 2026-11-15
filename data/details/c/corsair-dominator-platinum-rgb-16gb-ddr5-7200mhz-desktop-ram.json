@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Frequency": "7200MHz",
+   "Latency": "40-40-40-77"
+  },
+  "Others": {
+   "Memory Compatibility": "Intel 700 Series",
+   "Performance Profile": "XMP 3.0",
+   "Power Draw": "Extreme OC PMIC"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Black"
+  },
+  "Operating Voltage": {
+   "Tested Voltage": "1.45V",
+   "SPD Voltage": "1.1V"
+  },
+  "Physical dimension": {
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: DDR5 7200MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 1.45V/C34"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-dominator-platinum-rgb-16gb-ddr5-7200mhz-desktop-ram",
+ "store": "pchouse"
+}

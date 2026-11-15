@@ -1,0 +1,81 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core i7-13620H",
+   "Chipset": "Intel SoC Platform",
+   "Number Of Cores": "10 Cores (6 Performance-cores + 4 Efficient-cores)",
+   "Number Of Threads": "16 Threads",
+   "Cache": "24MB Intel Smart Cache",
+   "Processor Speed": "Up to 4.9 GHz (P-core up to 4.9GHz, E-core up to 3.6GHz)"
+  },
+  "Memory": {
+   "Bus Speed": "5200MHz",
+   "Max. Memory Size": "Up to 32GB DDR5-5200",
+   "Memory Size": "16GB (2x 8GB SODIMM)",
+   "Memory Type": "DDR5"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2280 PCIe 4.0x4 NVMe SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Type": "Integrated Intel UHD Graphics"
+  },
+  "Ports & Slots": {
+   "USB": "1x USB-C (USB 10Gbps / USB 3.2 Gen 2, data transfer only), 1x USB-A (USB 10Gbps / USB 3.2 Gen 2), 2x USB-A (Hi-Speed USB / USB 2.0)",
+   "HDMI Port": "1x HDMI-in 1.4, 1x HDMI-out 2.1 TMDS"
+  },
+  "Network & Connectivity": {
+   "Lan": "Integrated 100/1000M Gigabit Ethernet (RJ-45)",
+   "WiFi": "Wi-Fi 6 (802.11ax 2x2)",
+   "Bluetooth": "Bluetooth 5.2"
+  },
+  "Security": {
+   "Security Feature": "Firmware TPM 2.0 Integrated in SoC"
+  },
+  "Software": {
+   "Operating System": "Free DOS"
+  },
+  "Camera": {
+   "Camera": "5.0MP"
+  },
+  "Keyboard": {
+   "Keyboard": "USB Calliope Keyboard, Black, English"
+  },
+  "Mouse": {
+   "Mouse": "USB Calliope Mouse, Black"
+  },
+  "Display": {
+   "Display Type": "IPS, Anti-glare, 3-side borderless, Non-Touch",
+   "Screen Size": "27-inch",
+   "Resolution": "Full HD (1920 x 1080)",
+   "Brightness": "300 nits",
+   "Display Details": "27-inch FHD (1920x1080) IPS, 300nits, Anti-glare, 99% sRGB, 3-side borderless, Non-Touch"
+  },
+  "Audio Features": {
+   "Audio Output": "1x Headphone / Microphone Combo Jack (3.5mm)",
+   "Microphone (Built-In)": "Dual Microphone Array",
+   "Speaker (Built In)": "3W x 2, HARMAN, Realtek ALC233-CG HD Audio"
+  },
+  "Others": {
+   "Other Features": "99% sRGB, Hardware Low Blue Light, TÜV Rheinland Low Blue Light, TÜV Rheinland Flicker Free, TÜV Rheinland Ultra Low Noise"
+  },
+  "Power": {
+   "Adapter Type": "90W 89% Adapter"
+  },
+  "Physical Specification": {
+   "Color": "Luna Grey",
+   "Weight": "Around 7.1 kg (15.65 lbs)",
+   "Dimensions": "611.72 x 192 x 473.16 mm (24.08 x 7.55 x 18.62 inches)"
+  },
+  "Image": {
+   "Model": "IdeaCentre AIO 27IRH9"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaCentre AIO 27IRH9",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideacentre-aio-27irh9-all-in-one-desktop-pc",
+ "store": "creatus"
+}

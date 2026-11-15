@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "2400MHz"
+  },
+  "Output": {
+   "Voltage": "1.20v"
+  },
+  "Others": {
+   "Others": "Registered/Unbuffered: Unbuffered"
+  },
+  "Physical Specifications": {
+   "Number-of-Pin": "15-15-15-35-2N",
+   "Memory Platform": "Dual Channel Kit"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Speed: 2400Mhz",
+  "Latency: 15-15-15-35",
+  "Voltage: 1.20V"
+ ],
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/gskill-ripjaws-v-16gb-ddr4-ram",
+ "store": "pchouse"
+}

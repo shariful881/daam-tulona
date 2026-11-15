@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Size": "24 Inch",
+   "Display Type": "LED",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920x1080)",
+   "Viewing Angle": "178°(H)/178°(V)",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250nits (typ)",
+   "Contrast Ratio": "1500 :1",
+   "Refresh Rate": "144Hz",
+   "Color Support": "16.7M(8bit)",
+   "Response Time": "MPRT 1 ms"
+  },
+  "Video Features": {
+   "Low Blue Light": "Yes"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes",
+   "HDMI": "1xHDMI",
+   "Display Port": "1xDP"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5 ° ± 2 ° / 15 ° ± 2 °",
+   "Vesa Wall Mount": "75x75mm"
+  },
+  "Power": {
+   "Type": "External",
+   "Voltage": "AC 100-240V~, 50/60Hz, 2.0A"
+  },
+  "Power Consumption": {
+   "Consumption (Standard)": "≤30W",
+   "Consumption (Standby)": "≤0.50W"
+  },
+  "Physical Specification": {
+   "Weight": "2.82 Kg",
+   "Dimensions": "539.2 (W) * 320.4 (H) * 41.3 (D)"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  },
+  "Image": {
+   "Model": "DHI-LM24-B221"
+  }
+ },
+ "key_features": [
+  "Resolution: IPS FHD (1920x1080)",
+  "Display: IPS, 144Hz, 1 ms MPRT",
+  "Ports: DP1.4×1, HDMI ×1, Audio out",
+  "Features: Low Blue Light, VESA Mount"
+ ],
+ "model": "DHI-LM24-B221",
+ "warranty": "03 years",
+ "fetched": "2026-11-15T17:33+06:00",
+ "source": "https://www.creatus.com.bd/dahua-dhi-lm24-b221-24-inch-fhd-144hz-ips-gaming-monitor",
+ "store": "creatus"
+}

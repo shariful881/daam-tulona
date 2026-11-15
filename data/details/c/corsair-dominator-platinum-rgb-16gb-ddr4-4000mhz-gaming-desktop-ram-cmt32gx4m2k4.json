@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "4000MHz",
+   "RGB Type": "Yes",
+   "Latency": "19-23-23-45",
+   "Single/Dual sticks": "Single"
+  },
+  "Output": {
+   "Voltage": "1.35V"
+  },
+  "Physical Specifications": {
+   "Heat sink type": "Aluminum Heatsink",
+   "Number-of-Pin": "288 Pin",
+   "Memory Platform": "Desktop"
+  },
+  "Warranty Information": {
+   "Warranty": "LIfetime Warranty"
+  }
+ },
+ "key_features": [
+  "Tested Voltage: 1.35V",
+  "Package Memory Format: DIMM",
+  "Heat Spreader: Anodized Aluminum"
+ ],
+ "warranty": "LIfetime Warranty",
+ "fetched": "2026-11-15T17:58+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-dominator-rgb-16gb-4000mhz-ram",
+ "store": "pchouse"
+}

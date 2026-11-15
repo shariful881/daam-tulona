@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Main Spec": {
+   "Cable": "Accessory: USB-C Cable (0.3m)"
+  },
+  "Features": {
+   "Interface": "USB/USB-C/Micro-USB/Lightning"
+  },
+  "Output": {
+   "USB-A1": "5V/3A, 9V/2A, 10V/2.25A, 12V/1.5A (22.5W)",
+   "USB-A2": "5V/2A (10W)",
+   "USB-C": "5V/3A, 9V/2.22A, 12V/1.67A (20W)",
+   "Total Output": "5V/3A"
+  },
+  "Input": {
+   "USB-C": "5V/3A, 9V/2A (18W)",
+   "Micro-USB": "5V/2A, 9V/2A (18W)"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Battery Capacity: 10000mAh (3.7V/74Wh)",
+  "Interface: USB/USB-C/Micro-USB",
+  "Display: LED Digital Display"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-15T17:38+06:00",
+ "source": "https://www.pchouse.com.bd/vention-fhow0-10000mah-led-display-power-bank",
+ "store": "pchouse"
+}

@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Storage": "4TB",
+   "Form Factor (Inch)": "M.2 2280"
+  },
+  "Key Features": {
+   "Interface": "NVMe PCIe Gen4x4"
+  },
+  "Main Features": {
+   "Read Speed": "7300MB/s Max.",
+   "Write Speed": "7000MB/s Max."
+  },
+  "Technical Info": {
+   "Approx. Power Consumption": "15W"
+  },
+  "Physical Specification": {
+   "Weight": "9.70 gm"
+  },
+  "Physical Specifications": {
+   "Dimensions": "80 x 22 x 3.5mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 4TB",
+  "Interface: PCIe 4.0 x4 NVMe",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 7,300/7,000MB/s"
+ ],
+ "warranty": "5 Year",
+ "fetched": "2026-11-15T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-renegade-4tb-m.2-2280-pcie-nvme-internal-ssd",
+ "store": "pchouse"
+}

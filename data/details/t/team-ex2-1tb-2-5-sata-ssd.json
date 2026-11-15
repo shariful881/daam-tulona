@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Others": {
+   "Humidity": "0°C ~ 55°C / 5% ~ 95% RH,non-condensing",
+   "Vibration": "20G (non-operating)"
+  },
+  "Key Features": {
+   "Capacity": "1TB",
+   "MTBF": "1,000,000 hours",
+   "Form Factor": "2.5-inch"
+  },
+  "Sequential R/W": {
+   "Read": "Up to 550MB/s Max",
+   "Write": "520MB/s"
+  },
+  "Features": {
+   "Dimension": "100(L) x 69.9(W) x 7(H) mm",
+   "Interface": "SATA III 6Gb/s"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C ~ 70°C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40˚C ~ 85˚C"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Read: Up to 550MB/s Max; Write: 520MB/s",
+  "Interface: SATA III 6Gb/s",
+  "Capacity: 1TB"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-15T18:07+06:00",
+ "source": "https://www.pchouse.com.bd/team-ex2-1tb-2.5-sata-ssd",
+ "store": "pchouse"
+}

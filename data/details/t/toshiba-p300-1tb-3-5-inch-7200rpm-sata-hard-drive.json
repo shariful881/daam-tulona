@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "1TB",
+   "Disk Type": "SATA Desktop HDD",
+   "RPM": "7200 RPM",
+   "Interface Type": "SATA 6Gb/S"
+  },
+  "Physical Specifications": {
+   "Size": "3.5 Inch"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Years"
+  }
+ },
+ "key_features": [
+  "Storage: 1TB; RPM: 7200 rpm",
+  "Seek Time: 4.17ms, Buffer: 64MB",
+  "Form Factor: 3.5 Inch",
+  "Interface: SATA 6Gb/s"
+ ],
+ "warranty": "02 Years",
+ "fetched": "2026-11-15T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/toshiba-p300-1tb-internal-hard-drive",
+ "store": "pchouse"
+}

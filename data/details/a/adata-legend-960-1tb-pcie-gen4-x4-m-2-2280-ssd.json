@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Flash Type": "3D NAND Flash",
+   "Sequential R/W": "Sequential Read (Max): Up to 7,400MB/s (PC/Laptop), Up to 6,400MB/s (PS5)",
+   "Capacity": "1TB",
+   "MTBF": "2,000,000 hours",
+   "Interface Type": "PCIe Gen4 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "3,120TB"
+  },
+  "Physical Specification": {
+   "Weight": "11g / 0.39oz (with heat sink)"
+  },
+  "Physical Specifications": {
+   "Dimension": "80 x 22 x 4.68mm / 3.15 x 0.87 x 0.18inch (with heat sink)",
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C-85°C",
+   "Shock resistance": "1500G/0.5ms"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Type: M.2 2280",
+  "Interface: PCIe Gen4 x4",
+  "Sequential Read/Write: up to 7,400/6,800MB/s"
+ ],
+ "warranty": "05 Years",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-legend-960-1tb-pcie-gen4-x4-m2-2280-ssd",
+ "store": "pchouse"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Product Description": {
+   "Output power": "34W@RMS",
+   "Harmonic distortion": "< 0.5% 1 W 1 kHz",
+   "Power distribution": "7Watt*2+3Watt*2+14Watt",
+   "Frequency response": "30 Hz – 20 kHz",
+   "Signal/Noise ratio": "> 70 dB",
+   "Separation": "> 40 dB"
+  },
+  "Speaker Driver": {
+   "Tweeter driver type": "3.5″",
+   "Tweeter driver rated power": "15Watt 6 Ohm",
+   "Woofer driver type": "5.25″",
+   "Woofer driver rated power": "25Watt 4 Ohm"
+  },
+  "Interfaces": {
+   "Input": "3.5mm stereo",
+   "Output": "4RCA"
+  },
+  "Dimension": {
+   "Satellite speaker dimension": "118(W) x 198(H) x 170(D) mm",
+   "Subwoofer speaker dimension": "240(W) x 230(H) x 248(D) mm",
+   "Product net weight": "5.9 kg"
+  },
+  "Package information": {
+   "TMN-1 subwoofer": "1 pc",
+   "TMN-1 satellites": "4 pcs",
+   "User Manual": "1p"
+  }
+ },
+ "key_features": [
+  "Interfaces: Bluetooth, AUX",
+  "Output power: 34 Watt (RMS)",
+  "Frequency Response: 30 Hz – 20 kHz",
+  "Tweeter Driver: 3.5″ x 2, 6Ω, Woofer Driver: 5.25″, 4Ω"
+ ],
+ "fetched": "2026-11-15T18:11+06:00",
+ "source": "https://smartbd.com/product/microlab-tmn1-41-multimedia-bluetooth-speaker/",
+ "store": "smartbd"
+}

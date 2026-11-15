@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "2TB",
+   "Flash Type": "3D NAND Flash",
+   "Sequential R/W": "READ - Up to 7,400MB/s (PC/Laptop)*, Up to 6,400MB/s (PS5)",
+   "MTBF": "1,500,000 hours",
+   "Interface Type": "PCIe Gen4 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "1560TB"
+  },
+  "Physical Specifications": {
+   "Weight": "36.6g /1.3oz (with heat sink)",
+   "Dimension": "80.6 x 23.2 x 10.65mm / 3.17 x 0.91 x 0.42inch(with heat sink)"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C-85°C",
+   "Shock resistance": "1500G/0.5ms"
+  },
+  "Warranty Information": {
+   "Warranty": "04 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 2TB",
+  "NAND Flash: 3D NAND",
+  "Interface: PCIe Gen4 x4",
+  "MTBF: 2,000,000 hours"
+ ],
+ "warranty": "04 Years",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-legend-960-max-2tb-pcie-gen4-x4-m2-2280-ssd",
+ "store": "pchouse"
+}

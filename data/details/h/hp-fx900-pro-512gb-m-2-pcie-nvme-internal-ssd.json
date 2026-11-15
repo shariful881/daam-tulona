@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "512GB",
+   "Sequential R/W": "Speeds up to 7000 MB/s / 3800 MB/s",
+   "MTBF": "≥ 1,000,000 hours",
+   "Interface Type": "PCI-Express 4.0 x4",
+   "Form Factor": "M.2 2280",
+   "TBW": "300 TBW"
+  },
+  "Physical Specification": {
+   "Weight": "≤ 10 g"
+  },
+  "Physical Specifications": {
+   "Dimension": "80 × 22 × 3.2 mm",
+   "Operating Temperature": "0 °C to 70 °C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40 °C to 85 °C",
+   "Vibration Resistance": "3.1 GRMS (2-500Hz)",
+   "Shock resistance": "100 G/ 6 ms"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCI-Express 4.0 x4",
+  "Capacity: 512GB",
+  "Sequential R/W: up to 7000MB/s / 3800MB/s",
+  "Form Factor: M.2 2280, MTBF: >=1000000 Hours"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/hp-fx900-pro-512gb-m.2-pcie-nvme-internal-ssd",
+ "store": "pchouse"
+}

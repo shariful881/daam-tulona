@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print",
+   "Printer Type": "Thermal Printer"
+  },
+  "Print": {
+   "Print Speed": "250 mm/sec",
+   "Print Resolution": "203 dpi"
+  },
+  "Paper Information": {
+   "Paper Size": "80 mm"
+  },
+  "Physical Specs": {
+   "Color": "Black",
+   "Dimension": "125 (W) x 165 (D) x 108 (H) mm",
+   "Weight": "1 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  },
+  "Image": {
+   "Model": "CT-D150"
+  }
+ },
+ "key_features": [
+  "Printing Speed: 250 mm/sec",
+  "Printing Resolution: 203 dpi",
+  "Interface Type: USB, LAN or USB, Serial",
+  "Features: Auto-Cutter, Long Life Print, Power Save Mode"
+ ],
+ "model": "CT-D150",
+ "warranty": "1 year",
+ "fetched": "2026-11-15T17:47+06:00",
+ "source": "https://www.creatus.com.bd/citizen-ct-d150-thermal-receipt-pos-printer",
+ "store": "creatus"
+}

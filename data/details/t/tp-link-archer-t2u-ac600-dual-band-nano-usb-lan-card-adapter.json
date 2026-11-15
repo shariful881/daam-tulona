@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "LAN Card": {
+   "Antenna": "Omni Directional",
+   "Data Rate": "600Mbps",
+   "Dimensions (L x W x H )": "15 x 7.1 x 18.6mm",
+   "Frequency": "5GHz, 2.4GHz",
+   "Interface": "USB 2.0",
+   "Standards": "64/128-bit WEP, WPA/WPA2, and WPA-PSK/WPA2-PSK",
+   "System Requirements": "Windows 7, 8, 8.1, 10, XP, Mac OS X 10.9-10.13",
+   "Wireless Modes": "Ad-Hoc / Infrastructure mode",
+   "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK, 802.1x"
+  },
+  "Warranty Information": {
+   "Warranty": "01 year warranty"
+  }
+ },
+ "key_features": [
+  "Antenna Type: Omni Directional",
+  "Data Transfer Rates: 600Mbps",
+  "Interface: USB 2.0",
+  "Transmit Power: <20dBm (EIRP)"
+ ],
+ "warranty": "01 year warranty",
+ "fetched": "2026-11-15T17:43+06:00",
+ "source": "https://www.pchouse.com.bd/tp-link-archer-t2u-ac600-dual-band-nano-usb-lan-card-adapter",
+ "store": "pchouse"
+}

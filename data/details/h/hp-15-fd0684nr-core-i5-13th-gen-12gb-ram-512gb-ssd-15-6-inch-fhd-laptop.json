@@ -1,0 +1,97 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel Core i5-1334U",
+   "Generation": "13th Generation",
+   "Processor Frequency": "Up to 4.6 GHz with Intel Turbo Boost Technology",
+   "Processor Core": "10 Cores",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12 MB L3 cache"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MT/s",
+   "Max RAM Capacity": "Up to system maximum limit",
+   "Ram": "12GB",
+   "Ram Type": "DDR4-3200 MT/s",
+   "Total RAM Slot": "2 (1 x 4 GB, 1 x 8 GB configured)",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Type": "SSD",
+   "Storage Capacity": "512 GB",
+   "Storage Upgrade": "Supported via M.2 NVMe SSD",
+   "Supported SSD Type": "PCIe Gen 4 x4 NVMe M.2 SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris Xe Graphics",
+   "Graphics Memory": "Shared system memory",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size, soft gray keyboard with numeric keypad",
+   "Keyboard Features": "Numeric keypad, Mic mute key",
+   "TouchPad": "Precision Touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP True Vision 720p HD camera with temporal noise reduction",
+   "Speaker": "Dual speakers",
+   "Microphone": "Integrated dual array microphones, Mic mute key",
+   "Audio Features": "Dual speakers"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "None",
+   "HDMI Port": "Yes",
+   "USB 3 Port": "Yes",
+   "USB Type-C / Thunderbolt Port": "Yes",
+   "Headphone & Microphone Port": "Yes (Combo jack)"
+  },
+  "Network & Connectivity": {
+   "Lan": "Not included",
+   "WiFi": "Realtek Wi-Fi 6 (2x2)",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) support"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "LED IPS anti-glare display",
+   "Display Resolution": "Full HD (1920 x 1080)",
+   "Display Features": "250 nits, anti-glare, IPS",
+   "Color Gamut": "Standard NTSC / sRGB tier",
+   "Touch Screen": "No",
+   "Refresh Rate": "60 Hz",
+   "Brightness": "250 nits"
+  },
+  "Power": {
+   "Battery Type": "Li-ion polymer",
+   "Battery Capacity": "3-cell, 41 Wh",
+   "Adapter Type": "45 W AC power adapter",
+   "Backup Time (Approx)": "Varies by usage (41 Wh battery)"
+  },
+  "Physical Specification": {
+   "Weight": "Standard 15.6-inch weight profile",
+   "Colors": "Natural Silver",
+   "Body Material": "Plastic / Standard laptop chassis"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty (Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "15-FD0684NR"
+  }
+ },
+ "key_features": [],
+ "model": "15-FD0684NR",
+ "warranty": "2 Year Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.creatus.com.bd/hp-laptop-15-fd0054nr-laptop",
+ "store": "creatus"
+}

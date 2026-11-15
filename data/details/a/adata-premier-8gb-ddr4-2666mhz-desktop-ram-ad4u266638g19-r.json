@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "8GB",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "2666Mhz",
+   "RGB Type": "None",
+   "Latency": "19",
+   "Single/Dual sticks": "Single"
+  },
+  "Output": {
+   "Voltage": "1.35V"
+  },
+  "Physical Specifications": {
+   "Heat sink type": "None",
+   "Height": "31mm",
+   "Number-of-Pin": "288 Pin",
+   "Memory Platform": "Desktop"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Frequency: 2666MHz",
+  "Operating voltage: 1.2V",
+  "Latency: CL 19-19-19"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-premier-8gb-desktop-ram",
+ "store": "pchouse"
+}

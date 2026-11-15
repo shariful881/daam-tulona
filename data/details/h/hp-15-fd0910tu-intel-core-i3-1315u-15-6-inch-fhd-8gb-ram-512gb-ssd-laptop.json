@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i3-1315U",
+   "Processor Frequency": "Up to 4.5 GHz",
+   "Processor Core": "6",
+   "Processor Thread": "8",
+   "CPU Cache": "10 MB L3 Cache"
+  },
+  "Display": {
+   "Display Size": "15.6\"",
+   "Display Type": "FHD, Micro-edge, Anti-glare",
+   "Display Resolution": "1920 x 1080",
+   "Display Features": "Flicker-free, 85% screen-to-body ratio, 250 nits",
+   "Refresh Rate": "60 Hz"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MT/s",
+   "Ram": "8 GB",
+   "Ram Type": "DDR4"
+  },
+  "Storage": {
+   "Storage Type": "PCIe NVMe M.2 SSD",
+   "Storage Capacity": "512 GB",
+   "Storage Upgrade": "1 x M.2 Slot"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared / Integrated",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size Soft Gray Keyboard with Numeric Keypad",
+   "Keyboard Features": "Numeric Keypad",
+   "TouchPad": "HP ImagePad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP True Vision 720p HD Camera with Temporal Noise Reduction",
+   "Speaker": "Dual Speakers",
+   "Microphone": "Integrated Dual-array Digital Microphones"
+  },
+  "Ports & Slots": {
+   "Card Reader": "N/A",
+   "HDMI Port": "1 x HDMI 1.4b",
+   "USB 3 Port": "2 x USB Type-A 5Gbps",
+   "USB Type-C / Thunderbolt Port": "1 x USB Type-C 5Gbps (data transfer only)",
+   "Headphone & Microphone Port": "1 x Headphone/Microphone combo"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Realtek Wi-Fi 6 (2x2)",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Security Locker Slot": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "FreeDOS 3.0"
+  },
+  "Power": {
+   "Battery Type": "3-cell Li-ion Polymer",
+   "Battery Capacity": "41 Wh",
+   "Adapter Type": "45W AC Power Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "1.59 kg",
+   "Dimensions": "35.98 x 23.6 x 1.86 cm",
+   "Colors": "Natural Silver"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "15-fd0910TU"
+  }
+ },
+ "key_features": [],
+ "model": "15-fd0910TU",
+ "warranty": "2 Years",
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://www.creatus.com.bd/hp-15-fd0910tu-intel-core-i3-1315u-laptop",
+ "store": "creatus"
+}

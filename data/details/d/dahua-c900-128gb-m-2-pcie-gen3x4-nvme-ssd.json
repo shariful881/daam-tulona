@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "128GB",
+   "Flash Type": "3D NAND",
+   "MTBF": "1,500,000 Hours",
+   "Interface Type": "PCIe 3.0 X 4",
+   "Form Factor": "M.2"
+  },
+  "Memory Specifications": {
+   "Read Speed": "Up To 650MB/S",
+   "Write Speed": "Up To 1250MB/S"
+  },
+  "Physical Specifications": {
+   "Dimension": "80.00 Mm × 22.00 Mm × 2.25 Mm (3.15\" × 0.87\" × 0.09\")",
+   "Operating Temperature": "0 °C To +70 °C (+32 °F To +158 °F)"
+  },
+  "Temperature": {
+   "Storage Temperature": "–40 °C To +85 °C (–40 °F To +185 °F)",
+   "Shock resistance": "1500G&0.5 Ms (Half Sine Wave)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 3.0 × 4",
+  "Capacity: 128GB",
+  "Form Factor: M.2 2280",
+  "Sequential R/W: up to 1250MB/s / 650MB/s"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-c900-128gb-m2-pcie-gen3x4-nvme-ssd",
+ "store": "pchouse"
+}

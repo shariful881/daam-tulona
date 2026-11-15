@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "UPS & IPS Feature": {
+   "Backup Time": "Up to 30 Minutes",
+   "Battery": "Internal maintenance-free lead-acid (12V/7.5Ah*1)",
+   "Capacity": "Capacity: 850VA",
+   "Frequency": "50Hz ± 1Hz",
+   "Frequency (Battery Mode)": "50Hz ± 1Hz",
+   "Input Voltage Range": "220Vac",
+   "Noise Level": "Less than 40dB",
+   "Others": "Battery mode- Sounding every 10 seconds\nLow battery- Sounding every 10 seconds\nOverload -Sounding every 10 seconds\nBattery Replacement -Alarm Sounding every 10 seconds\nFault- Continuously sounding\nType of Wave-Simulated Sine Wave (Bat Mode)\nTransfer Time-Typical 2-6ms",
+   "Output Voltage Range": "220Vac",
+   "Type of Wave": "Simulated Sine Wave (Bat Mode)"
+  },
+  "Warranty Information": {
+   "Warranty": "01 year"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 year",
+ "fetched": "2026-11-15T17:49+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mg650va-gold-650va-offline-ups",
+ "store": "pchouse"
+}

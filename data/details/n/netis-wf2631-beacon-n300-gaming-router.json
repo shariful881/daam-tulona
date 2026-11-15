@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n",
+   "Signal Rate": "Up to 300Mbps",
+   "Frequency Range": "2.4-2.4835GHz",
+   "Transmit Power": "20dBm(MAX)",
+   "Wireless Modes": "AP, Repeater, AP+WDS, WDS, Client",
+   "Wireless Security": "64/128-bit WEP,\nWPA-PSK/WPA2-PSK (TKIP/AES)\nSSID Broadcast Enable/Disable\nWireless MAC Filtering"
+  },
+  "Hardware": {
+   "Standards": "IEEE 802.3 10Base-T, IEEE 802.3u 100Base-TX",
+   "Interfaces": "1 * 10/100Mbps Auto MDI/MDIX RJ45 LAN port\n4 * 10/100Mbps Auto MDI/MDIX RJ45 LAN port",
+   "LED Indicators": "PWR, WLAN, LAN1-LAN4, WAN, WPS",
+   "Buttons": "WPS, Default",
+   "Antennas": "3* 5dBi Fixed Antenna",
+   "Power Supply": "DC 9V/500mA (Output)"
+  },
+  "Software": {
+   "WAN Type": "DHCP, Static IP, PPPoE, L2TP, PPTP, WISP",
+   "Port Forwarding": "Virtual Servers, Port Triggering, UPnP, DMZ, FTP Private Port",
+   "QoS": "WMM, Bandwidth Control for gaming mode",
+   "Access Control": "IP/MAC/Domain Filtering",
+   "VPN Pass-through": "PPTP, L2TP, IPSec",
+   "Others": "Client Software for Gaming QoS, Multiple SSID, Dynamic DNS, Static Routing"
+  },
+  "Others": {
+   "Certification": "FCC, CE",
+   "Environment": "Operating Temperature: 0℃~40℃\nStorage Temperature: -40℃~70℃\nOperating Humidity: 10%~90%RH non-condensing\nStorage Humidity: 5%~90%RH non-condensing",
+   "Package": "1* WF2631\n1* 9V/500mA Power Adapter\n1* Installation CD (for Client Software)\n1* Ethernet Cable\n1* Cradle\n1* Quick Installation Guide"
+  }
+ },
+ "key_features": [
+  "Multiple Wireless Modes: AP, WDS, AP+WDS, Client, Repeater Modes"
+ ],
+ "fetched": "2026-11-15T18:16+06:00",
+ "source": "https://smartbd.com/product/netis-wf2631-beacon-n300-gaming-router/",
+ "store": "smartbd"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "AC Type": "Lomo-Split",
+   "Technology": "Inverter",
+   "Capacity": "1 Ton",
+   "Coverage": "Up to 120 Sft",
+   "Capacity of Cooling (BTU)": "12,000 BTU",
+   "Speed": "7 fan speeds",
+   "Airflow": "3D airflow",
+   "Energy Saving Rating": "3.23",
+   "Compressor Type": "Rotary",
+   "Refrigerant Type": "R32A",
+   "Condenser Type": "Golden Fin Condenser"
+  },
+  "Noise Level": {
+   "Indoor": "34dB",
+   "Outdoor": "50dB"
+  },
+  "Power": {
+   "Power Consumption": "1250 Watts",
+   "Power Type": "1Ph,220-230V, 50Hz"
+  },
+  "Weight": {
+   "Indoor": "10.5 Kg",
+   "Outdoor": "28 Kg"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Dimensions": {
+   "Indoor": "889x294x212 mm",
+   "Outdoor": "782x540x320 mm"
+  },
+  "Image": {
+   "Model": "GS-12XLMV32"
+  }
+ },
+ "key_features": [
+  "Technology: Inverter",
+  "Capacity: 12000BTU/hr",
+  "Coverage: Up to 120 sq. ft.",
+  "Features: Self-Diagnosis, Dehumidifying"
+ ],
+ "model": "GS-12XLMV32",
+ "fetched": "2026-11-15T17:35+06:00",
+ "source": "https://www.creatus.com.bd/gree-1-ton-lomo-split-inverter-ac",
+ "store": "creatus"
+}

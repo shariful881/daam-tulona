@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Internal or External": "internal",
+   "Form Factor": "M.2 2280"
+  },
+  "Sequential R/W": {
+   "Reading Speed": "1950MB/s",
+   "Writing Speed": "1300MB/s"
+  },
+  "Features": {
+   "Dimension": "100 x 70 x 6.7 mm"
+  },
+  "Connectivity": {
+   "Connectivity": "M.2"
+  },
+  "Operating Temperature": {
+   "Storage Temperature": "-40 ℃ - 85 °C / -40 °F - 185 °F",
+   "Working Temperature": "0 °C - 70 °C / 32 °F - 158 °F"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 256 GB",
+  "Interface: PCIe Gen3 x4, NVMe1.4",
+  "Form Factor: M.2 2280",
+  "Read: 1950 MB/s, Write: 1300 MB/s"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-15T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/acer-fa100-256gb-nvme-pcie-ssd",
+ "store": "pchouse"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Display": "1 Line",
+   "Functions": "Print, Copy, Scan"
+  },
+  "Printer": {
+   "Input Capacity": "150 sheets (80 gsm, plain paper)",
+   "Paper Size": "A4, Letter, Legal, Mexican Legal, India Legal, Folio, Executive, B5, A5, B6, A6, C5 Envelope, Com-10, DL Envelope, Monarch, Photo(10x15cm/4x6\"), Photo-L(9x13cm/3.5x5\"), Photo-2L(13x18cm/5x7\"), Index card(13x20cm/5x8\")",
+   "Power Consumption": "POWER SOURCE: AC 220 - 240V 50/60Hz",
+   "Print Resolution": "Windows: Up to 1,200 dpi x 6,000 dpi",
+   "Scan Resolution": "Up to 1,200 dpi x 2,400 dpi",
+   "Paper Type": "Plain, Inkjet, Glossy(cast/resin), Recycled",
+   "Print Speed": "17.0/9.5ipm",
+   "Maximum Scan Size": "Up to 297 mm",
+   "Scan Type": "Color and Monochrome"
+  },
+  "Output": {
+   "Output": "Output Color: 24 bit colour processing/256 levels per colour"
+  },
+  "Photocopier": {
+   "Copy Resolution": "Print: Max. 1200x1800 dpi"
+  },
+  "Connectivity": {
+   "Connectivity": "USB, WiFi"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box Mandatory While Claiming."
+  }
+ },
+ "key_features": [
+  "Print Speed(B&W/ Color): 17 (Mono) / 9.5 (Col) ipm;FPOT: 6 (Mono) / 9.5 (Col) seconds",
+  "Resolution: Up to 1,200 x 6,000 dpi",
+  "Enlarge/ Reduce: 25% to 400% in increments of 1%",
+  "Power: AC 220 - 240V 50/60Hz"
+ ],
+ "warranty": "1-year Limited warranty, an Adapter/Power Cable with no warranty, and also a Box",
+ "fetched": "2026-11-15T17:44+06:00",
+ "source": "https://www.pchouse.com.bd/brother-dcp-t520w-multifunction-color-inktank-printer",
+ "store": "pchouse"
+}

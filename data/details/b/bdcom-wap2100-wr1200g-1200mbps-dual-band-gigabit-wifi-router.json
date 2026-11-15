@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Frequency": "2.4GHz and 5GHz",
+   "Interface": "1x WAN and 3x LAN",
+   "Button": "1x Reset Button"
+  },
+  "Router Features": {
+   "Antenna": "4",
+   "Data Rate": "2.4GHz: Up to 300Mbps\n5GHz: Up to 867Mbps"
+  },
+  "Connector & Ports": {
+   "Ports": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK encryption",
+   "Network Standard": "IEEE802.11b/g/n, IEEE802.11a/n/ac"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "200x110x24(mm)",
+   "Weight": "210(g)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Wireless Standards: IEEE802.11b/g/n, IEEE802.11a/n/ac",
+  "Signal Rate: 2.4GHz Up to 300Mbps, 5GHz Up to 867Mbps",
+  "Antenna: 4",
+  "Interface: 1x GE TX, 3x GE TX"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://www.pchouse.com.bd/bdcom-wap2100-wr1200g-1200mbps-dual-band-gigabit-wifi-router",
+ "store": "pchouse"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Power": {
+   "Battery Type": "Polymer Batteries"
+  },
+  "Case Features": {
+   "Material": "PC"
+  },
+  "Features": {
+   "Others": "Support: PD3.0/QC3.0/AFC/FCP/SCP"
+  },
+  "Main Features": {
+   "Capacity": "10000mAh/3.7V/37Wh",
+   "Input": "USB-C：5V/3A；9V/2.22A;12V/1.67A",
+   "Output": "USB-C：5V/3A；9V/2.22A;12V/1.67A\nUSB-A1/A2 Output：5V/4.5A;4.5A/5A；5V/3A；9V/2A;12V/1.5A\nUSB-C+USB-A1+USB-A2：5V/3A"
+  },
+  "Connectivity": {
+   "USB": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "6 months warranty"
+  }
+ },
+ "key_features": [
+  "Support: PD3.0/QC3.0/AFC/FCP/SCP",
+  "Capacity: 10000mAh/3.7V/37Wh",
+  "Input: USB-C：5V/3A；9V/2.22A;12V/1.67A",
+  "Output: USB-C：5V/3A；9V/2.22A;12V/1.67A USB-A1/A2"
+ ],
+ "warranty": "6 months warranty",
+ "fetched": "2026-11-15T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/rocoren-plus-10000mah-22.5w-power-bank",
+ "store": "pchouse"
+}

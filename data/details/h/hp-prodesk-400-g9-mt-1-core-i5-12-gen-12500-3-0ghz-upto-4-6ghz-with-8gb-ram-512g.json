@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "ProDesk 400 G9 MT",
+   "Mother Board": "Intel®\nQ670\nChipset",
+   "Processor": "Intel 12GEN Core\ni5-12500",
+   "Clock Speed": "3.0 GHz Turbo boost up to 4.6 GHz",
+   "Cache Memory:": "18 MB cache, 6 cores",
+   "RAM": "8GB\n3200 MHz DDR4 SDRAM, 2DIMM Slot up to 64GB",
+   "Graphics": "Integrated Intel UHD 770 Graphics",
+   "Hard Disk Drive": "512GB M.2 NVMe SSD",
+   "Optical Drive": "Without DVDRW",
+   "Audio": "Realtek ALC3252 codec, universal audio jack with CTIA and OMTP headset support",
+   "Expansion Slots": "1 M.2 2230; 1 M.2 2280; 1 PCIe x1; 1 PCI; 1 PCIe 4 x16",
+   "Drive Bays": "Two 3.5″ HDD",
+   "I/O Ports": "Front\n: 1 headphone/microphone combo; 1 SuperSpeed USB Type-C® 10Gbps signaling rate; 3 SuperSpeed USB Type-A 10Gbps signaling rate",
+   "Monitor": "Without\nMonitor",
+   "Keyboard": "HP USB standard Keyboard",
+   "Mouse": "HP USB standard Mouse",
+   "Casing": "Tower",
+   "NIC": "Integrated GbE (10/100/1000)",
+   "Operating System": "FreeDOS",
+   "Software": "All the PCs must be loaded with Bangla Software with sufficient Bangla front and other useful as per requirement.",
+   "Power supply": "260W power supply, up to 90% efficiency, active PFC",
+   "Warranty": "HP 3 Years standard warranty"
+  }
+ },
+ "key_features": [
+  "Form Factor: Tower",
+  "Processor Type: Core i5",
+  "Processor Max Turbo Frequency: 4.9GHz",
+  "RAM: 8GB",
+  "Solid-State Drive (SSD): 512GB"
+ ],
+ "model": "ProDesk 400 G9 MT",
+ "warranty": "HP 3 Years standard warranty",
+ "fetched": "2026-11-15T18:05+06:00",
+ "source": "https://smartbd.com/product/hp-prodesk-400-g9-12th-gen-intel-core-i5/",
+ "store": "smartbd"
+}

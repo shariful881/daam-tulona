@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.60 GHz",
+   "Cache": "6 MB SmartCache",
+   "Cores": "4",
+   "Default TDP": "65 W",
+   "Maximum Turbo Frequency": "4.30 GHz",
+   "Model": "i3-10100F",
+   "Threads": "8"
+  },
+  "Graphics Specifications": {
+   "Processor Graphics": "NO"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Size": "128 GB",
+   "Maximum Speed": "41.6 GB/s",
+   "Type": "DDR4-2666"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Base frequency: 3.60 GHz",
+  "Cache: 6 MB SmartCash",
+  "Core: 4",
+  "Default TDP: 65 watts",
+  "Max Turbo Frequency: 4.3 GHz",
+  "Thread: 8",
+  "Processor Graphics: No",
+  "Maximum Number of Channels: 2",
+  "Maximum size: 128 GB",
+  "Maximum speed: 41.6 GB/s",
+  "Type: DDR4-2666"
+ ],
+ "model": "i3-10100F",
+ "warranty": "03 Years",
+ "fetched": "2026-11-15T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/intel-core-i3-10100f-processor",
+ "store": "pchouse"
+}

@@ -1,0 +1,93 @@
+{
+ "specs": {
+  "Processor Model": {
+   "Processor Brand": "Intel",
+   "Processor Series": "Intel Core I7-13700H",
+   "Processor Speed": "Up To 5.0 GHz",
+   "Number Of Cores": "14",
+   "Number Of Threads": "20",
+   "Cache": "24 MB L3"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MHz",
+   "Storage Type": "PCIe Gen4 NVMe TLC M.2"
+  },
+  "Storage Capacity": {
+   "Memory Size": "8 GB",
+   "Memory Type": "DDR4"
+  },
+  "Graphics": {
+   "Graphics Model": "Discrete,\nNVIDIA® GeForce RTX™ 3050 Laptop GPU (6 GB GDDR6 dedicated)",
+   "Graphics Memory": "6 GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size, Backlit, Performance Blue Keyboard With Numeric Keypad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP Wide Vision 720p HD Camera",
+   "Microphone": "Integrated Dual Array Digital Microphones"
+  },
+  "Audio Features": {
+   "Audio Output": "1x Headphone / Microphone Combo Jack (3.5mm)",
+   "Audio": "Audio By B&O Dual Speakers; HP Audio Boost"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 HDMI",
+   "USB 2 Port": "1 USB Type-A 5Gbps Signaling Rate;\n1 USB Type-A 5Gbps Signaling Rate (HP Sleep And Charge);\n1 USB Type-C 5Gbps Signaling Rate (DisplayPort 1.4, HP Sleep And Charge);"
+  },
+  "Network & Connectivity": {
+   "Lan": "Integrated 10/100/1000 GbE LAN",
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No",
+   "Security Chip": "Trusted Platform Module (Firmware TPM) Support"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "Display": {
+   "Display Size": "15.6-Inch",
+   "Display Resolution": "1920 X 1080\nBrightness: 250 Nits",
+   "Display Features": "Diagonal, FHD (1920 X 1080), IPS, Micro-Edge, Anti-Glare, 45% NTSC"
+  },
+  "Power": {
+   "Battery Type": "Li-Ion Polymer",
+   "Battery Capacity": "70 Wh",
+   "Adapter Type": "200 W Smart AC Power Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.29 Kg",
+   "Color": "Performance Blue",
+   "Dimensions": "35.79 X 25.5 X 2.35 Cm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year (Battery, Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "Fa1251TX"
+  },
+  "Product List": {
+   "Best  HP Laptop Price List": "Price",
+   "HP 15-fc0660AU Ryzen 5 7520U 15.6 inch FHD Laptop": "79,500৳\n87,000৳",
+   "HP 250R G10 Intel Core 5-120U 15.6-inch FHD Laptop": "73,000৳\n124,000৳",
+   "HP 15-fd0892TU Core 5 120U 15.6-inch FHD Laptop": "88,500৳\n98,000৳"
+  }
+ },
+ "key_features": [
+  "Display Size: 15.6-Inch",
+  "Display Resolution: 1920 X 1080",
+  "Brightness: 250 Nits",
+  "Battery Type: Li-Ion Polymer"
+ ],
+ "model": "Fa1251TX",
+ "warranty": "2 Year (Battery, Adapter 1 Year)",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.creatus.com.bd/hp-victus-15-fa1251tx-core-i7-13th-gen-rtx-3050-graphics-fhd-gaming-laptop",
+ "store": "creatus"
+}

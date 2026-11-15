@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "500GB",
+   "Flash Type": "3D NAND flash",
+   "Sequential R/W": "Read Speed (Max.): 2400MB/s",
+   "Interface Type": "PCIe Gen3 x 4 NVMe 1.3",
+   "Form Factor": "M.2 2280"
+  },
+  "Display Details": {
+   "Color": "Green"
+  },
+  "Features": {
+   "Others": "Random Read IOPS: 300000 IOPS",
+   "Weight": "8.5 gm"
+  },
+  "Power Specifications": {
+   "Power Consumption": "15W"
+  },
+  "Physical Specifications": {
+   "Dimension": "80.15 x 22.15 x 2.38mm"
+  },
+  "Temperature": {
+   "Operating Voltage": "Windows 10, 11"
+  },
+  "Warranty Information": {
+   "Warranty": "3 year"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3 x4, NVMe v1.3",
+  "Sequential Read: 2400MB/s",
+  "Sequential Write: 1500MB/s"
+ ],
+ "warranty": "3 year",
+ "fetched": "2026-11-15T18:10+06:00",
+ "source": "https://www.pchouse.com.bd/western-digital-green-sn350-500gb-m.2-2280-internal-ssd",
+ "store": "pchouse"
+}

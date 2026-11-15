@@ -1,0 +1,120 @@
+{
+ "specs": {
+  "Specifications": {
+   "Model": "PSR-E473"
+  },
+  "Color/Finish": {
+   "Body": "Color"
+  },
+  "Size/Weight": {
+   "Dimensions": "Width",
+   "Height": "136 mm (5-3/8”)",
+   "Depth": "404 mm (15-7/8”)",
+   "Weight": "Weight"
+  },
+  "Control Interface": {
+   "Keyboard": "Number of Keys",
+   "Touch Response": "Yes (Soft, Medium, Hard, Fixed)",
+   "Type": "Organ-style",
+   "Other Controllers": "Pitch Bend",
+   "Art. Switches": "Yes",
+   "Control Knobs": "2",
+   "Display": "Type",
+   "Backlight": "Yes",
+   "Panel": "Language"
+  },
+  "Voices": {
+   "Tone Generation": "Tone Generating Technology",
+   "Polyphony": "Number of Polyphony (Max.)",
+   "Preset": "Number of Voices",
+   "Featured Voices": "3 Live! Voices, 9 Sweet! Voices, 6 Cool! Voices, 14 Super Articulation Lite Voices",
+   "Compatibility": "GM",
+   "XGlite": "Yes"
+  },
+  "Effects": {
+   "Types": "DSP",
+   "Reverb": "12 types",
+   "Chorus": "5 types",
+   "Master EQ": "4 types",
+   "Functions": "Dual/Layers",
+   "Split": "Yes",
+   "Melody Suppressor": "Yes (w/ pan adjustment)",
+   "Crossfade": "Yes (between Internal Sound and External Audio)"
+  },
+  "Accompaniment Styles": {
+   "Preset": "Number of Preset Styles",
+   "Fingering": "Multi finger, Smart Chord",
+   "Style Control": "ACMP ON/OFF, SYNC START, SYNC STOP, START/STOP, INTRO/ENDING/rit., MAIN/AUTO FILL, TRACK ON/OFF",
+   "Other Features": "One Touch Setting (OTS)",
+   "Expandability": "Expansion Style",
+   "Compatibility": "Style File Format (SFF)"
+  },
+  "Groove Creator": {
+   "Preset": "Number of Groove",
+   "Number of Sections": "5 (4 Sections + 1 Musical Climax/Ending)"
+  },
+  "Songs": {
+   "Preset": "Number of Preset Songs",
+   "Recording": "Original File Format (SMF 0 conversion function)",
+   "Number of Tracks": "6 (5 Melody + 1 Style/Groove Creator)",
+   "Data Capacity": "Approx. 19,000 notes (when only “melody” tracks are recorded)",
+   "Compatible Data Format": "Playback"
+  },
+  "USB Audio Recorder": {
+   "Recording Time (max.)": "80 minutes (approx. 0.9 GB) per Song",
+   "Format": "Playback",
+   "Recording": "WAV (44.1 kHz, 16 bit, stereo)"
+  },
+  "Quick Sampling": {
+   "Sampling Type": "One-shot, Loop",
+   "Samples (Preset/User)": "4",
+   "Sampling Time": "Approx. 9.6 sec",
+   "Sampling Sources": "AUX IN, MIC INPUT, USB audio interface, WAV format files",
+   "Sampling Format": "Original File Format (16 bit, stereo)",
+   "Sampling Rate": "44.1 kHz"
+  },
+  "Functions": {
+   "USB audio interface": "44.1 kHz, 16 bit, stereo",
+   "Registration": "Number of Buttons",
+   "Control": "Freeze",
+   "Overall Controls": "Metronome",
+   "Tempo Range": "11 – 280",
+   "Transpose": "-12 to 0, 0 to +12",
+   "Tuning": "427.0 – 440.0 – 453.0 Hz (approx. 0.2 Hz increments)",
+   "Octave Button": "Yes",
+   "Scale Type": "5 types",
+   "Miscellaneous": "PIANO Button",
+   "Other Functions": "Mega Boost, Motion Effect (57 types)",
+   "Voices": "Harmony/Echo",
+   "Arpeggio": "152 types"
+  },
+  "Storage and Connectivity": {
+   "Storage": "Internal Memory",
+   "External Drives": "USB flash drive",
+   "Connectivity": "DC IN",
+   "AUX IN": "Stereo mini jack x 1",
+   "Headphones": "Standard stereo phone jack x 1",
+   "Sustain Pedal": "Yes",
+   "Usb To Device": "Yes",
+   "Usb To Host": "Yes",
+   "Output": "Standard phone jack x 2",
+   "Microphone": "Standard phone jack x 1"
+  },
+  "Amplifiers and Speakers": {
+   "Amplifiers": "6 W + 6 W",
+   "Speakers": "12 cm x 2"
+  },
+  "Power Supply": {
+   "Power Supply": "AC Adaptor PA-150 or an equivalent recommended by Yamaha, or six “AA” size alkaline (LR6), manganese (R6) or Ni-MH rechargeable (HR6) batteries",
+   "Power Consumption": "9 W (When using PA-150 AC adaptor)",
+   "Auto Power Off Function": "Off/5/10/15/30/60/120 (minutes)"
+  }
+ },
+ "key_features": [
+  "Model: PSR-E473"
+ ],
+ "model": "PSR-E473",
+ "fetched": "2026-11-15T17:51+06:00",
+ "source": "https://diamu.com.bd/product/yamaha-psr-e473-61-key-touch-sensitive-portable-keyboard/",
+ "store": "diamu"
+}

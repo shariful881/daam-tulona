@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR4"
+  },
+  "Key Feature": {
+   "Frequency": "2133Mhz"
+  },
+  "Key Features": {
+   "Capacity": "4GB",
+   "Latency": "15-15-15-36"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.20V"
+  },
+  "Warranty Information": {
+   "Warranty": "Limited Lifetime"
+  }
+ },
+ "key_features": [
+  "Capacity: 4GB 2133MHz DDR4",
+  "CAS Latency: 15-15-15-36",
+  "Form Factor: SO-DIMM",
+  "DRAM Voltage: 1.20V"
+ ],
+ "warranty": "Limited Lifetime",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/g.skill-ripjaws-4gb-ddr4-2133mhz-so-dimm-laptop-ram",
+ "store": "pchouse"
+}

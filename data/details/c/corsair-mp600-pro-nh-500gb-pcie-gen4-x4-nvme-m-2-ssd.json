@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Shock Resistance": "1500 G"
+  },
+  "Key Features": {
+   "Capacity": "500GB",
+   "Sequential R/W": "SSD Max Sequential Read CDM: Up to 6,600MB/s SSD Max Sequential Write CDM: Up to 3,600MB/s",
+   "Flash Type": "3D TLC NAND",
+   "MTBF": "1,600,000 Hours",
+   "Voltage Range": "3.3V, +/- 5%",
+   "Form Factor": "M.2 2280",
+   "Humidity": "93% RH (40° C)",
+   "TBW": "350TBW"
+  },
+  "Features": {
+   "Interface": "PCIe Gen 4.0 x4",
+   "Weight": "0.03kg"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C to +65°C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40°C to +85°C",
+   "Vibration Resistance": "20Hz~80Hz/1.52mm, 80Hz~2000Hz/20G"
+  },
+  "Warranty Information": {
+   "Warranty": "05 years warranty"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen 4.0 x4",
+  "Sequential Read: Up to 6600MB/s",
+  "Sequential Write: Up to 3600MB/s"
+ ],
+ "warranty": "05 years warranty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-mp600-pro-nh-500gb-pcie-gen4-x4-nvme-m.2-ssd",
+ "store": "pchouse"
+}

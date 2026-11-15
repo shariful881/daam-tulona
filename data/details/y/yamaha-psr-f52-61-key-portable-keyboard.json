@@ -1,0 +1,70 @@
+{
+ "specs": {
+  "Size/Weight": {
+   "Dimensions": "Width",
+   "Height": "73 mm (2-7/8”)",
+   "Depth": "266 mm (10-1/2”)",
+   "Weight": "Weight"
+  },
+  "Control Interface": {
+   "Keyboard": "Number of Keys",
+   "Touch Response": "No",
+   "Type": "Organ-style",
+   "Display": "Type",
+   "Panel": "Language"
+  },
+  "Voices": {
+   "Polyphony": "Number of Polyphony (Max.)",
+   "Preset": "Number of Voices"
+  },
+  "Effects": {
+   "Types": "Reverb",
+   "Chorus": "Yes (Fixed in Voice/Non editable)",
+   "SOUND BOOST": "Yes",
+   "Functions": "Dual/Layers",
+   "Split": "Yes (Fixed in Voice/Non editable)",
+   "Panel Sustain": "Yes"
+  },
+  "Accompaniment Styles": {
+   "Preset": "Number of Preset Styles",
+   "Fingering": "Smart Chord, Multi Finger",
+   "Style Control": "Fill-in, Intro/Ending (Auto/Manual), Sync Start",
+   "Other Features": "One Touch Setting (OTS)"
+  },
+  "Songs": {
+   "Preset": "Number of Preset Songs"
+  },
+  "Functions": {
+   "Lesson/Guide": "Part Mute",
+   "Overall Controls": "Metronome",
+   "Tempo Range": "11 – 280 (Tap Tempo: 32 – 280)",
+   "Transpose": "-12 to 0, 0 to +12",
+   "Tuning": "427.0 – 440.0 – 453.0 Hz (approx. 0.2 Hz increments)",
+   "Duo": "Yes",
+   "Miscellaneous": "Other Functions"
+  },
+  "Storage and Connectivity": {
+   "Connectivity": "DC IN",
+   "Headphones": "Stereo mini jack (PHONES/OUTPUT)"
+  },
+  "Amplifiers and Speakers": {
+   "Amplifiers": "2.5 W + 2.5 W",
+   "Speakers": "8 cm x 2"
+  },
+  "Power Supply": {
+   "Power Supply": "AC Adaptor PA-130 or an equivalent recommended by Yamaha, or six “AA” size alkaline (LR6), manganese (R6) or Ni-MH rechargeable (HR6) batteries",
+   "Power Consumption": "6 W (When using PA-130B AC adaptor)",
+   "Auto Power Off Function": "Off/5/10/15/30/60/120 (minutes)"
+  },
+  "Accessories": {
+   "Included Accessories": "Music Rest",
+   "Song Book": "Download from Yamaha web site"
+  }
+ },
+ "key_features": [
+  "Loudspeaker: 2 x 2.5 W"
+ ],
+ "fetched": "2026-11-15T17:51+06:00",
+ "source": "https://diamu.com.bd/product/yamaha-psr-f52-61-key-portable-keyboard/",
+ "store": "diamu"
+}

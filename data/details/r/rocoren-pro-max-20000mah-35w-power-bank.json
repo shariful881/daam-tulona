@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Power": {
+   "Battery Type": "Polymer Batteries"
+  },
+  "Basic Information": {
+   "Battery": "20000mAh/3.7V/74Wh"
+  },
+  "Output": {
+   "Output": "USB-C:5V/3A；9V/3A;12V/2.92A;15V/2.33A;20V/1.75A"
+  },
+  "Connectivity": {
+   "Input": "USB-C：5V/3A；9V/3A;12V/2.92A;15V/2.33A;20V/1.75A",
+   "USB": "Yes"
+  }
+ },
+ "key_features": [
+  "Battery: 20000mAh/3.7V/74Wh",
+  "Battery type: Polymer Batteries",
+  "Input: USB-C：5V/3A；9V/3A;12V/2.92A;15V/2.33A;20V/1.75A",
+  "Output: USB-C:5V/3A；9V/3A;12V/2.92A;15V/2.33A;20V/1.75A"
+ ],
+ "fetched": "2026-11-15T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/rocoren-pro-max-20000mah-35w-power-bank",
+ "store": "pchouse"
+}

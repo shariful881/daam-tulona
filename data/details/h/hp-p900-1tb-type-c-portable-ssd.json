@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "1TB",
+   "Sequential Read": "up to 2000 MB/s",
+   "Sequential Write": "up to 2000 MB/s",
+   "MTBF": "More Than 1,000,000 Hours",
+   "Interface Type": "USB 3.1 Gen 2 (10GB/S) Type-C",
+   "Internal or External": "External"
+  },
+  "Physical Specifications": {
+   "Dimensions": "71 × 52 × 8.6 Mm",
+   "Weight": "Less Than 40 G"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C To 40°C"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB",
+  "Interface: USB 3.2 Gen2 x 2",
+  "Read Speed (Up to): 2000 MB/s",
+  "Write Speed (Up to): 2000 MB/s"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/hp-p900-1tb-type-c-portable-ssd",
+ "store": "pchouse"
+}

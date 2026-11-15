@@ -1,0 +1,18 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Memory": "Standard: 256 MB",
+   "Print Features": "Printer Language: Standard: GDI || Print Resolution: GDI (600 Dpi) || Interface: Standard: USB 2.0 || Option: Ethernet || Network Protocol: Option (TCP/IP)",
+   "Scan Features": "Scanning Speed: 200 Dpi: Full Colour (A4), B/W (A4) || Resolution: Standard: - 600 Dpi || File Format: Single Page TIFF, Single Page JPEG, Single Page PDF, Multi Page TIFF, Multi Page PDF || Bundled Drivers: Network TWAIN || Scan To (Option): E-Mail (Requirement), Folder (Protocol Support)",
+   "Warmup Time": "31 Seconds",
+   "Copy Speed": "20 Pages Per Minute",
+   "Copy Resolution": "300 X 600 Dpi, 600 X 600 Dpi",
+   "Paper Sizes": "Standard Paper Tray(S): A3, A4, A5, B4, B5 || Bypass Tray: A3, A4, A5, A6, B4, B5, B6",
+   "First Copy Out Time": "8.8 Seconds"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:50+06:00",
+ "source": "https://www.pchouse.com.bd/ricoh-mp-2014ad-copier",
+ "store": "pchouse"
+}

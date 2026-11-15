@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "16GB",
+   "Memory Type": "SO-DIMM DDR4",
+   "Frequency": "2666MHz",
+   "Latency": "CL 19-19-19"
+  },
+  "Output": {
+   "Operating Voltage": "VDD and VDDQ = 1.2V ± 0.06V"
+  },
+  "Physical Specifications": {
+   "Dimension": "Form Factor: Standard 1.18\" height",
+   "PIN": "260-pin"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Speed: 2666MHz",
+  "CAS Latency: CL 19-19-19"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.pchouse.com.bd/adata-16gb-ddr4-2666mhz-laptop-ram",
+ "store": "pchouse"
+}

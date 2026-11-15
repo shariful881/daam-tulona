@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "6GB",
+   "Resolution": "7680×4320",
+   "Core Clock": "2350 MHz (Reference card: 2000 MHz)",
+   "Memory Clock": "15500 MHz",
+   "BUS Type": "96 bit"
+  },
+  "Others": {
+   "Xe-cores": "8",
+   "Xe Vector Engines": "128",
+   "Graphics Memory Bandwidth": "186 GB/s"
+  },
+  "Interface": {
+   "Display Port": "2 x DisplayPort UP to 2.0",
+   "HDMI": "2 x HDMI 2.0"
+  },
+  "Power Specifications": {
+   "Connectors": "6-Pin",
+   "Recommended PSU": "350W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "DirectX 12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "L=192 W=117 H=35 mm"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Graphics Clock: 2350 MHz (Reference card: 2000 MHz)",
+  "Memory: 6GB GDDR6",
+  "Memory Bandwidth (GB/sec): 186 GB/s",
+  "Output: DP x2, HDMI x2"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-15T17:56+06:00",
+ "source": "https://smartbd.com/product/gigabyte-intel-arc-gv-ia380wf2oc-6gd-graphics-card/",
+ "store": "smartbd"
+}

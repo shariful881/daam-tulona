@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Free DOS",
+   "Processor": "Core i5-13500 (24 MB cache, 14 cores, 20 threads, 2.50 GHz to 4.80 GHz turbo, 65 W)",
+   "Motherboard": "Intel Q670",
+   "RAM": "8GB (1x8GB) DDR4 3200 MT/s Non-ECC Memory",
+   "Storage": "256GB M.2 2230 PCIe NVMe Class 35 Solid State Drive\nSlot:\n1 M.2 2230 slot for WiFi and Bluetooth combo card\n1 M.2 2230/2280 slot for solid-state drive\n3 SATA 3.0 slots for 2.5-inch/3.5-inch hard drive and slim optical drive\n1 Full-height Gen 3 PCIe x16 slot\n2 Full-height Gen 3 PCIe x1 slot",
+   "Power Supply": "180W Bronze Power Supply"
+  },
+  "Graphics": {
+   "Graphics": "Intel UHD Graphics 770"
+  },
+  "Input Devices": {
+   "Keyboard": "Dell USB Business Keyboard",
+   "Mouse": "Dell USB Optical Mouse",
+   "Optical Drive": "8x DVD+/-RW 9.5mm Slimline Optical Disk Drive"
+  },
+  "Dimension": {
+   "Height": "324.30 mm (12.77 in.)",
+   "Width": "154.00 mm (6.06 in.)",
+   "Depth": "292.20 mm (11.50 in.)"
+  },
+  "Weight": {
+   "Weight (minimum)": "5.32 kg (11.72 lb)",
+   "Weight (maximum)": "6.52 kg (14.38 lb)"
+  },
+  "Physical Specification": {
+   "Color": "Standard Black"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years limited warranty"
+  },
+  "Image": {
+   "Model": "OptiPlex 7010 Tower"
+  }
+ },
+ "key_features": [
+  "Graphics: Intel UHD Graphics 770",
+  "RAM: 8GB DDR4, Storage: 256GB SSD",
+  "Processor: Intel Core i5-13500 (24 MB cache, 2.50 GHz to 4.80 GHz turbo)"
+ ],
+ "model": "OptiPlex 7010 Tower",
+ "warranty": "03 Years limited warranty",
+ "fetched": "2026-11-15T17:57+06:00",
+ "source": "https://www.creatus.com.bd/dell-optiplex-7010-i5-13th-gen-8gb-ddr4-ram-256gb-ssd-tower-brand-pc",
+ "store": "creatus"
+}

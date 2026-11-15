@@ -1,0 +1,22 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Memory": "512mb",
+   "Print Features": "Paper Input Capacity (Standard): Cassette 1: 250 Sheets (80 Gsm) Multi Purpose Tray: 80 Sheets (80 Gsm) Paper Input Capacity (Optional): Cassette 2: IR2006N : 250 Sheets (80 Gsm)",
+   "Scan Features": "USB2.0 X 1",
+   "Copy Speed": "A4: 20ppm A3: 10ppm",
+   "Copy Resolution": "600 X 600 Dpi",
+   "Paper Sizes": "A3,B4,A4R,A4,A5,B5,B5R",
+   "First Copy Out Time": "7.4 Secs"
+  }
+ },
+ "key_features": [
+  "Type: Copy,Print,Scan,Optional Fax",
+  "Speed: 20/10 ppm (A4/A3)",
+  "Resolution: 600 x 600 dpi(Copy)",
+  "Paper: A3,B4,A4R,A4,A5,B5,B5R"
+ ],
+ "fetched": "2026-11-15T17:44+06:00",
+ "source": "https://www.pchouse.com.bd/canon-ir-2006n-digital-copier",
+ "store": "pchouse"
+}

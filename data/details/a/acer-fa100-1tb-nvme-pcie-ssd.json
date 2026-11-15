@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Interface Type": "PCIe Gen3 x4, NVMe1.4",
+   "Internal or External": "internal",
+   "Form Factor": "M.2 2280"
+  },
+  "Sequential R/W": {
+   "Reading Speed": "3300 MB/s",
+   "Writing Speed": "2700 MB/s"
+  },
+  "Features": {
+   "Dimension": "100 x 70 x 6.7 mm"
+  },
+  "Connectivity": {
+   "Connectivity": "M.2"
+  },
+  "Operating Temperature": {
+   "Storage Temperature": "-40 ℃ - 85 °C / -40 °F - 185 °F",
+   "Working Temperature": "0 °C - 70 °C / 32 °F - 158 °F"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1 TB",
+  "Interface: PCIe Gen3 x4, NVMe1.3",
+  "Form Factor: M.2 2280",
+  "Read: 3,300MB/s, Write: 2,700MB/s"
+ ],
+ "warranty": "5 Years",
+ "fetched": "2026-11-15T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/acer-fa100-1tb-nvme-pcie-ssd",
+ "store": "pchouse"
+}

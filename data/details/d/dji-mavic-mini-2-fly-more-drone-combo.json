@@ -1,0 +1,55 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Video": "Video Formats: MP4 (H.264/MPEG-4 AVC）",
+   "Lens": "FOV: 83°",
+   "Sensor": "1/2.3” CMOS"
+  },
+  "Aircraft": {
+   "Diagonal Size (Propellers Excluded)": "Diagonal Distance: 213 mm",
+   "Hover Accuracy Range": "Vertical: ±0.1 m (with Vision Positioning), ±0.5 m (with GPS Positioning)",
+   "Max Angular Speed": "130°/s (S Mode)",
+   "Max Ascent Speed": "5 m/s (S Mode)",
+   "Max Descent Speed": "3.5 m/s (S Mode)",
+   "Max Flight Time": "31 mins (measured while flying at 4.7 m/s in windless conditions)",
+   "Max Service Ceiling Above Sea Level": "4000 m",
+   "Max Speed": "16 m/s (S Mode)",
+   "Max Tilt Angle": "40° (S Mode)",
+   "Max Wind Speed Resistance": "8.5-10.5 m/s (Scale 5)",
+   "Operating Temperature Range": "0° to 40°C (32° to 104°F)",
+   "Satellite Positioning Systems": "GPS+GLONASS+GALILEO",
+   "Weight (Battery & Propellers Included)": "Takeoff Weight: < 249 g"
+  },
+  "App / Live View": {
+   "Latency": "About 200 ms",
+   "Live View Quality": "Remote Controller: 720p/30fps"
+  },
+  "Charger": {
+   "Rated Power": "18 W",
+   "Voltage": "Input: 100-240 V, 50/60 Hz, 0.5 A"
+  },
+  "Intelligent Flight Battery": {
+   "Battery Type": "LiPo 2S",
+   "Capacity": "2250 mAh",
+   "Charging Temperature Range": "5° to 40°C (41° to 104°F)",
+   "Energy": "17.32 Wh",
+   "Max Charging Power": "29 W",
+   "Net Weight": "86.2 g",
+   "Voltage": "Voltage: 7.7 V"
+  },
+  "Remote Controller": {
+   "Battery": "5200 mAh",
+   "Max Transmission Distance": "10 km (FCC)",
+   "Mobile Device Holder": "180×86×10 mm (Height×Width×Thickness)",
+   "Operating Current/Voltage": "1200 mA 3.6 V (Android)",
+   "Operating Frequency": "2.400-2.4835 GHz, 5.725-5.850 GHz",
+   "Operating Temperature Range": "-10° to 40° C (14° to 104° F)",
+   "Transmitter Power (EIRP)": "2.400-2.4835 GHz",
+   "Video Output Port": "LightningMicro USB (Type-B) USB-C"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/dji-mini-2-fly-drone",
+ "store": "pchouse"
+}

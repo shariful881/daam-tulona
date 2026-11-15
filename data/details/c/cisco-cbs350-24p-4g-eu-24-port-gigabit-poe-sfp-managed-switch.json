@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Advanced Functions": {
+   "Packet Buffer": "1.5 MB",
+   "Power Dedicated to PoE": "195W",
+   "Heat Dissipation (BTU/hr)": "820.62",
+   "Certification": "UL (UL 60950), CSA (CSA 22.2), CE mark, FCC Part 15 (CFR 47) Class A"
+  },
+  "Key Features": {
+   "Data Transmission Rate": "56 Gbps",
+   "Environment": "Operating Temperature 23 to 122°F / -5 to 50°C\nOperating Humidity 10 to 90%\nStorage Temperature -13 to 158°F / -25 to 70°C\nStorage Humidity 10 to 90%",
+   "MAC Address Table": "16K",
+   "Type": "Network Switch",
+   "Network Standard": "802.1ab, 802.1d, 802.1q/p, 802.1s, 802.1w, 802.1x, 802.3, 802.3ab, 802.3ad, 802.3af, 802.3an, 802.3at, 802.3az, 802.3u, 802.3x, 802.3z",
+   "Ports": "24 10/100/1000 PoE+ ports with 195W power budget\n4 x Gigabit SFP"
+  },
+  "Hardware Features": {
+   "Interface": "24 10/100/1000 PoE+ ports with 195W power budget, 4 x Gigabit SFP",
+   "Dimensions (L x W x H)": "445 x 299 x 44mm",
+   "Weight": "3.53 Kg"
+  },
+  "Power Supply": {
+   "Power Supply": "100-240V 50-60 Hz, Internal",
+   "Power Consumption": "110V=34.42W, 220V=33.09W. Power Consumption (with PoE): 110V=239.7W, 220V=236.4W"
+  },
+  "Warranty Information": {
+   "Warranty": "01-Year"
+  },
+  "Image": {
+   "Model": "CBS350-24P-4G"
+  }
+ },
+ "key_features": [
+  "Ports: 24 10/100/1000 PoE+, 4 x Gigabit SFP",
+  "Data Transfer Rate: 10/100/1000 Mbps",
+  "Switching Capacity: 56 Gbps"
+ ],
+ "model": "CBS350-24P-4G",
+ "warranty": "01-Year",
+ "fetched": "2026-11-15T17:44+06:00",
+ "source": "https://www.creatus.com.bd/cisco-cbs350-24p-4g-24-port-managed-switch",
+ "store": "creatus"
+}

@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Microphone": {
+   "Primary Applications": "Podcast, Web-Streaming, Conferencing",
+   "Form Factor": "Desktop / Stand/Boom Mount",
+   "Intended Sound Sources": "Vocals, Speech/Voice Over",
+   "Sound Field": "Mono",
+   "Element Type": "1 x\nCondenser",
+   "Polar Pattern": "Cardioid",
+   "Orientation": "Side Address",
+   "Circuitry": "Solid-State",
+   "Pad": "None",
+   "High-Pass Filter": "None",
+   "Tone Adjustment": "None",
+   "Gain Adjustment": "None",
+   "Indicators": "2 x\nSingle LED (Power, Status)",
+   "On-Board Controls": "Headphone Volume, Mic Mute",
+   "Windscreen": "None"
+  },
+  "Performance": {
+   "Frequency Range": "20 Hz to 20 kHz"
+  },
+  "Connectivity": {
+   "Output Connectors (Analog)": "None",
+   "Digital Output Connector": "1 x\nUSB-C Female (on Mic)",
+   "Headphone Output": "1 x\n1/8″ / 3.5 mm"
+  },
+  "Digital Audio": {
+   "A/D Conversion": "24-Bit",
+   "Sample Rate": "48 kHz",
+   "OS Compatibility": "macOS 10.12 or Later\nWindows 10\n*As of October, 2022: Check with manufacturer for the most up-to-date compatibility"
+  },
+  "Power": {
+   "Bus Power": "USB"
+  },
+  "Physical": {
+   "Color": "Black",
+   "Mounting": "Mic Clip/Stand Adapter, Tabletop (with Included Hardware)",
+   "Included Case": "None",
+   "Included Filters": "None",
+   "Dimensions": "H: 4.6 x W: 2.4 x L: 1.7″ / H: 118 x W: 62 x L: 43 mm",
+   "Weight": "1.1 lb / 492 g"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:35+06:00",
+ "source": "https://diamu.com.bd/product/rode-x-xcm-50-compact-condenser-microphone/",
+ "store": "diamu"
+}

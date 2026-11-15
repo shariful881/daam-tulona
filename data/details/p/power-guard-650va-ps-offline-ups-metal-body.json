@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Key Features": {
+   "Load Capacity": "390W"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "Back up time 05-20 mins (Depending on load)",
+   "Frequency (Battery Mode)": "50/60Hz+/-5%",
+   "Input Voltage Range": "145-280VAC",
+   "Output Voltage Range": "220/230VAC+/-10%",
+   "Transfer Time": "2-4 ms Typical"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Output Voltage (V): 220/230 VAC +/-10%",
+  "Frequency (Hz - kHz): 50/60Hz +/-5%",
+  "Input Voltage (V): 145-280VAC",
+  "Load Capacity: 390W"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-15T17:49+06:00",
+ "source": "https://www.pchouse.com.bd/power-guard-650va-ps-offline-ups-metal-body",
+ "store": "pchouse"
+}

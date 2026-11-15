@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Power": {
+   "Battery Type": "Li-polymer Battery"
+  },
+  "Main Features": {
+   "Capacity": "10000mAh Power Bank PD20W"
+  },
+  "Input": {
+   "iP Input": "5V⎓3A,9V⎓2A",
+   "Type-C Input": "5V⎓3A,9V⎓2A"
+  },
+  "Output": {
+   "Type-C Output": "5V⎓3A,9V⎓2.22A,12V⎓1.67A",
+   "Wireless Charging Output": "15W Max"
+  },
+  "Warranty Information": {
+   "Warranty": "6 months warranty"
+  }
+ },
+ "key_features": [
+  "Input: iP Input:5V⎓3A,9V⎓2A Type-C Input:5V⎓3A,9V⎓2A",
+  "Type-C Output:5V⎓3A,9V⎓2.22A,12V⎓1.67A",
+  "Wireless Charging Output: 15W Max"
+ ],
+ "warranty": "6 months warranty",
+ "fetched": "2026-11-15T17:36+06:00",
+ "source": "https://www.pchouse.com.bd/rocoren-magnetic-wireless-pd20w-power-bank",
+ "store": "pchouse"
+}

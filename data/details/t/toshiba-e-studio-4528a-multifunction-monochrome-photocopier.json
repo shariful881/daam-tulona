@@ -1,0 +1,59 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "Multifunction Mono Laser Photocopier"
+  },
+  "Key Features": {
+   "OS Supported": "Windows 8.1, 10, 11, Windows Server 2012/R2, Windows Server 2016/19/22, Macintosh (macOS X 10.10-15, 12), Unix, Linux"
+  },
+  "Printer": {
+   "Color Output": "Black & White",
+   "Function Type": "Copy, Print, Scan",
+   "Print Resolution": "1200 x 1200 dpi (2 bit), 600 x 600 dpi (5 bit)",
+   "Duplex Printing": "Automatic",
+   "Print Speed": "45ppm",
+   "Print Technology": "Laser",
+   "Duty Cycle up to (Yield)": "100000 Copies"
+  },
+  "Others": {
+   "Input Paper Capacity (Standard)": "1200 Sheets",
+   "Input Paper Capacity (Maximum)": "5200 Sheets",
+   "Page Description Language (PDL)": "PCL5e/c, PCL6 (PCL XL), PS3, PDF, XPS, JPEG"
+  },
+  "Photocopier": {
+   "Warmup Time": "Approx. 20 Seconds ( Power on), Less Than 20 Seconds ( Sleep & Low Power)",
+   "Copy Speed": "45ppm",
+   "Copy Resolution": "600 x 600 dpi",
+   "First Copy Out Time": "3.6 Sec",
+   "Paper Weight": "Single-Feed : 52 - 256 g/m2, Multi-Feed : 60 - 256 g/m2"
+  },
+  "Paper Sizes": {
+   "Paper Size Minimum": "A6",
+   "Paper Size Max.": "A3",
+   "Print Paper Size": "A3, A4, A5, Letter, Legal, A6"
+  },
+  "Connectivity": {
+   "Power": "120V",
+   "Interface": "USB, LAN"
+  },
+  "Storage": {
+   "Memory": "4GB",
+   "Storage (MB/GB/TB)": "128 GB SSD"
+  },
+  "Connector & Ports": {
+   "Network Standard": "TCP/IP (IPv4, IPv6), NetBIOS over TCP/IP, IPX/SPX for Novell Environments,\nEtherTalk for Macintosh Environments"
+  },
+  "Physical Specification": {
+   "Dimension (L X B X H)": "585 x 586 x 787mm",
+   "Weight": "56.69 kg"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year service only"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 year service only",
+ "fetched": "2026-11-15T17:52+06:00",
+ "source": "https://www.pchouse.com.bd/toshiba-e-studio-4528a-monochrome-photocopier",
+ "store": "pchouse"
+}

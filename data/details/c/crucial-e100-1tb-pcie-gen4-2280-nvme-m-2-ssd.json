@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Special Feature": "Active Garbage Collection"
+  },
+  "Key Features": {
+   "Capacity": "1TB",
+   "Sequential R/W": "Max. Read: 5000 MB/s",
+   "Endurance": "Max. Endurance Rating: 80 TBW",
+   "MTBF": "1 Million Hours",
+   "Form Factor": "M.2 (2280)"
+  },
+  "Features": {
+   "Dimension": "22 x 2.3 x 80 mm (WxHxD)",
+   "Interface": "PCIe 4.0 (x4)",
+   "Weight": "6g"
+  },
+  "Connectivity": {
+   "Connectivity": "1 x M.2"
+  },
+  "Physical Specifications": {
+   "Height": "2.3 mm"
+  }
+ },
+ "key_features": [
+  "Form Factor: M.2 2280 NVME",
+  "Interface: PCIe Gen4 x 4",
+  "Capacity: 1TB",
+  "Storage Temperature : -40°C to 85°C"
+ ],
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/crucial-e100-1tb-nvme-ssd",
+ "store": "pchouse"
+}

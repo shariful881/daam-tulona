@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "12 TB",
+   "Interface": "SATA 6 Gbit/s",
+   "Disk Type": "3.5-inch",
+   "RPM": "7200 rpm",
+   "Read/Write Speed": "Data Transfer Speed: 242 MiB/s"
+  },
+  "Features": {
+   "Others": "MTTF: 2 500 000 h"
+  },
+  "Physical Specifications": {
+   "Size": "Buffer Size: 256 MiB"
+  },
+  "Warranty Information": {
+   "Warranty": "05 Year"
+  }
+ },
+ "key_features": [
+  "Form Factor: 3.5-inch",
+  "MTTF: 2,500,000 hours",
+  "Interface: SATA 6 Gbit/s",
+  "Rotation Speed: 7200 rpm"
+ ],
+ "warranty": "05 Year",
+ "fetched": "2026-11-15T18:08+06:00",
+ "source": "https://www.pchouse.com.bd/toshiba-mg07aca-enterprise-12tb-3.5-inch-sata-7200rpm-hdd",
+ "store": "pchouse"
+}

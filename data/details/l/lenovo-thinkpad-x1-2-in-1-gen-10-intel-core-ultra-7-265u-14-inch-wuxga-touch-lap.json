@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "ThinkPad X1 2-in-1 Gen 10",
+   "Part No.": "21Q1S3MS00",
+   "CPU Technology": "Core Ultra 7 265U Processor (P-core 2.1GHz Max P-core 5.3GHz), 12C, 14T",
+   "NPU": "Integrated Intel® AI Boost, up to 12 TOP",
+   "Operating System": "Windows 11 Pro",
+   "Chipset": "Intel SoC (System on Chip) platform",
+   "System Memory": "32 GB LPDDR5x-6400MHz (Soldered)",
+   "Display": "14″ 2.8K (2880×1800), OLED, Anti-reflection, anti-smudge, Multy-Touch, 500 nits",
+   "Graphics": "Intel® Graphics, up to 8 TOPS",
+   "Storage": "1 TB SSD M.2 2280 PCIe TLC Opal",
+   "Pointing Device": "TrackPoint® pointing device and glass surface multi-touch touchpad",
+   "Communications": "Intel® Wi-Fi® 6E AX211, 802.11ax 2×2 Wi-Fi® + Bluetooth® 5.3, Intel® vPro® technology support",
+   "Built-in Camera": "UHD 8.0MP + IR discrete, with privacy shutter, MIPI, fixed focus, Computer Vision, temporal noise reduction",
+   "Sound System": "Audio Chip : High Definition (HD) Audio, Realtek® ALC3306 codec; Speakers: Stereo speakers, 2W x2, Dolby Atmos; Microphone : Dual-microphone array, 360° far-field, Dolby Voice",
+   "Battery Type": "3 Cell Li-Polymer 57Wh",
+   "AC Adapter": "65W AC Adapter 90% PCC (3pin) – UK (USB Type C)",
+   "Port": "Standard Ports:\n1x USB-A (USB 5Gbps / USB 3.2 Gen 1)\n1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On\n2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB PD 3.0 and DisplayPort™ 2.1\n1x HDMI® 2.1, up to 4K/60Hz\n1x Headphone / microphone combo jack (3.5mm)",
+   "Security and Protection": "• Discrete TPM 2.0, TCG certified, FIPS 140-3 certified, Fingerprint Reader",
+   "Keyboard": "6-row, spill-resistant, air intake design, multimedia Fn keys, key travel 1.5mm / 1.35mm (Fn row & G/H/B), Copilot key",
+   "Physical Dimensions": "312.80 x 217.65 x 16.19-18.3 mm (12.31 x 8.57 x 0.64-0.72 inches)",
+   "Weight": "1.22kg",
+   "Color Variation": "Grey",
+   "Warranty": "3 years Standard Warranty (Battery & Adapter 1 Year)"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 7 265U (12MB Cache, Up to 5.3 GHz)",
+  "RAM: 32GB LPDDR5X-6400, Storage: 1TB M.2 PCIe 5.0×4 NVMe SSD",
+  "Display: 14″ 2.8K (2880×1800), 100% sRGB, 60Hz, 500nits, Touch",
+  "Features: Stereo speakers, Privacy Shutter, Copilot key, WiFi 6E, Fingerprint Reader"
+ ],
+ "model": "ThinkPad X1 2-in-1 Gen 10",
+ "warranty": "3 years Standard Warranty (Battery & Adapter 1 Year)",
+ "fetched": "2026-11-15T18:05+06:00",
+ "source": "https://smartbd.com/product/lenovo-thinkpad-x1-2-in-1-gen-10-intel-core-ultra-7-265u-14-inch-wuxga-touch-laptop/",
+ "store": "smartbd"
+}

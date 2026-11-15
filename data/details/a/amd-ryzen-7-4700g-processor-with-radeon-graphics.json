@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Base Frequency": "3.6GHz",
+   "Cache": "Total L2 Cache: 4MB",
+   "Cores": "8",
+   "Default TDP": "65W",
+   "Maximum Turbo Frequency": "4.4GHz",
+   "Supported Technologies": "Display Port: Yes",
+   "Threads": "16"
+  },
+  "Memory Specifications": {
+   "Max Number of Channels": "2",
+   "Maximum Speed": "Up to 3200MHz",
+   "Type": "DDR4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 Years (No Warranty for Fan or Cooler)"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.4GHz",
+  "Cache: L2: 4MB, L3: 8MB",
+  "Memory Speed: Up to 3200MHz"
+ ],
+ "warranty": "03 Years (No Warranty for Fan or Cooler)",
+ "fetched": "2026-11-15T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-7-4700g-processor",
+ "store": "pchouse"
+}

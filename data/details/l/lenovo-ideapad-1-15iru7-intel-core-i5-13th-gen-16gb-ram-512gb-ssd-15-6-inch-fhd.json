@@ -1,0 +1,106 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel Core i5-1335U",
+   "Generation": "13th Gen",
+   "Processor Frequency": "P-core up to 4.6GHz, E-core up to 3.4GHz",
+   "Processor Core": "10 Cores (2 Performance + 8 Efficient)",
+   "Processor Thread": "12 Threads",
+   "CPU Cache": "12MB Intel Smart Cache",
+   "NPU": "None"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MHz",
+   "Max RAM Capacity": "Up to 16GB (8GB soldered + 8GB SODIMM)",
+   "Ram": "16GB",
+   "Ram Type": "DDR4-3200",
+   "Total RAM Slot": "2 (1x Soldered on board, 1x DDR4 SODIMM)",
+   "Removable": "Non-removable"
+  },
+  "Storage": {
+   "Storage Type": "M.2 PCIe 4.0 x4 NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Upgradable up to 1TB M.2 2242 SSD",
+   "Supported SSD Type": "M.2 2242 PCIe 4.0 x4 NVMe",
+   "Extra M.2 Slot": "1x One M.2 slot"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris Xe Graphics",
+   "Graphics Memory": "Shared / Integrated",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Non-backlit, English",
+   "Keyboard Features": "6-row, multimedia Fn keys, numeric keypad",
+   "TouchPad": "Buttonless Mylar surface multi-touch touchpad, supports Precision TouchPad (PTP)"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD 720p with Privacy Shutter",
+   "Speaker": "Stereo speakers, 1.5W x2",
+   "Microphone": "2x, Array",
+   "Audio Features": "High Definition (HD) Audio, Dolby Audio"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "None",
+   "Display Port": "1x USB-C 3.2 Gen 1 (Data transfer only), 1x HDMI 1.4b",
+   "Card Reader": "SD Card Reader",
+   "HDMI Port": "1x HDMI 1.4b",
+   "USB 2 Port": "1x USB 2.0",
+   "USB 3 Port": "1x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "1x USB-C 3.2 Gen 1 (Data transfer only)",
+   "Headphone & Microphone Port": "1x Headphone/microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "Lan": "No Onboard Ethernet",
+   "WiFi": "Wi-Fi 6 (802.11ax 2x2)",
+   "Bluetooth": "Bluetooth 5.1"
+  },
+  "Security": {
+   "Security Locker Slot": "None",
+   "Fingerprint Sensor": "No Fingerprint Reader",
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0 Enabled"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "15.6-Inch",
+   "Display Type": "TN",
+   "Display Resolution": "FHD (1920x1080)",
+   "Display Features": "Anti-glare, 87% Screen-to-Body Ratio (AAR)",
+   "Color Gamut": "45% NTSC",
+   "Touch Screen": "No",
+   "Refresh Rate": "60 Hz",
+   "Brightness": "250 nits",
+   "Response Time": "N/A"
+  },
+  "Power": {
+   "Battery Type": "Integrated Li-ion Battery",
+   "Battery Capacity": "42Wh",
+   "Adapter Type": "65W Round Tip (3-pin)",
+   "Backup Time (Approx)": "Up to 6-8 Hours (Depending on usage)"
+  },
+  "Physical Specification": {
+   "Weight": "Starting at 1.62 kg (3.57 lbs)",
+   "Dimensions": "360.2 x 236 x 17.9 mm (14.18 x 9.29 x 0.70 inches)",
+   "Colors": "Cloud Grey",
+   "Body Material": "PC-ABS (Top), PC-ABS (Bottom)"
+  },
+  "Warranty Information": {
+   "Warranty": "1-Year Warranty"
+  },
+  "Image": {
+   "Model": "IdeaPad 1 15IRU7"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaPad 1 15IRU7",
+ "warranty": "1-Year Warranty",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideapad-1-15iru7-core-i5-13th-gen-touch-laptop",
+ "store": "creatus"
+}

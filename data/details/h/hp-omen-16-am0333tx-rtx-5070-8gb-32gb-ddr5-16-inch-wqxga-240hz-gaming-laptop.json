@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel® Core™ i9-14900HX",
+   "Processor Frequency": "Up to 5.8 GHz with Intel® Turbo Boost Technology",
+   "Processor Core": "24 Cores",
+   "Processor Thread": "32 Threads",
+   "CPU Cache": "36 MB L3 Cache"
+  },
+  "Display": {
+   "Display Size": "40.6 cm (16\")",
+   "Display Type": "IPS, Micro-Edge, Anti-Glare, Low Blue Light",
+   "Display Resolution": "WQXGA (2560 x 1600)",
+   "Display Features": "100% sRGB, 500 nits, Flicker-Free, 3ms Response Time",
+   "Refresh Rate": "60–240 Hz"
+  },
+  "Memory": {
+   "Bus Speed": "Up to 5600 MT/s",
+   "Ram": "32 GB DDR5-5600 MT/s (2 x 16 GB)",
+   "Ram Type": "DDR5"
+  },
+  "Storage": {
+   "Storage Type": "PCIe® Gen4 NVMe™ M.2 SSD",
+   "Storage Capacity": "1 TB",
+   "Storage Upgrade": "2 M.2 Expansion Slots"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA® GeForce RTX™ 5070 Laptop GPU / Intel® UHD Graphics",
+   "Graphics Memory": "8 GB GDDR7 (Dedicated)",
+   "Graphics Type": "Discrete + Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-Size with Numeric Keypad",
+   "Keyboard Features": "4-Zone RGB Backlit, 26-Key Rollover Anti-Ghosting",
+   "TouchPad": "HP Imagepad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP True Vision 1080p FHD Camera",
+   "Speaker": "Dual Speakers, HP Audio Boost, HyperX, DTS:X Ultra™",
+   "Microphone": "Integrated Dual Array Digital Microphones"
+  },
+  "Ports & Slots": {
+   "Card Reader": "Not Included",
+   "HDMI Port": "1 x HDMI 2.1",
+   "USB 3 Port": "1 x USB Type-A (10Gbps), 2 x USB Type-A (5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1 x USB Type-C® 10Gbps (Power Delivery 3.0, DisplayPort™ 1.4)",
+   "Headphone & Microphone Port": "1 x Combo Jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Intel® Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth® 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "Camera Privacy Shutter, TPM Firmware"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home Single Language"
+  },
+  "Power": {
+   "Battery Type": "6-Cell, 83 Wh Li-ion Polymer",
+   "Battery Capacity": "83 Wh",
+   "Adapter Type": "280W AC Power Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.43 kg",
+   "Dimensions": "35.75 x 26.9 x 2.37–2.54 cm",
+   "Colors": "Shadow Black with Black Chrome Logo"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Limited Manufacturer Warranty"
+  },
+  "Image": {
+   "Model": "OMEN 16-am0333TX (CH0A1PA)"
+  }
+ },
+ "key_features": [],
+ "model": "OMEN 16-am0333TX (CH0A1PA)",
+ "warranty": "1 Year Limited Manufacturer Warranty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.creatus.com.bd/hp-omen-16-am0333tx-i9-14900hx-rtx-5070-gaming-laptop",
+ "store": "creatus"
+}

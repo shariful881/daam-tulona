@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "128 GB",
+   "Flash Type": "3D NAND",
+   "MTBF": "≤ 2,000,000 hours",
+   "Interface Type": "SATA III, 6.0 GB/s",
+   "Form Factor": "2.5 inch",
+   "Vibration": "6.0667G RMS (20-2000Hz)"
+  },
+  "Sequential R/W": {
+   "Max. Sequential Reading Speed": "560 MB/s",
+   "Max. Sequential Writing Speed": "514 MB/s"
+  },
+  "Physical Specifications": {
+   "Dimension": "100 x 70 x 6.7 mm",
+   "Weight": "≤ 40 g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 °C - 70 ℃/ 32 °F - 158 °F",
+   "Storage Temperature": "-40 ℃ - 85 ℃ / -40 °F - 185 °F",
+   "Shock resistance": "100 G / 6 sec"
+  },
+  "Warranty Information": {
+   "Warranty": "5-Year\n70 TBW"
+  }
+ },
+ "key_features": [
+  "Capacity: 128 GB",
+  "Interface: SATA III, 6.0 GB/s",
+  "Form Factor: 2.5 inch",
+  "Read: 560 MB/s, Write: 514 MB/s"
+ ],
+ "warranty": "5-Year",
+ "fetched": "2026-11-15T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/acer-re100-128gb-2-5-inch-sata-lll-ssd",
+ "store": "pchouse"
+}

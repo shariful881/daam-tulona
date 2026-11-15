@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Windows 11 Pro / Linux",
+   "Memory": "128GB (4x32GB) DDR5 U-DIMM",
+   "Processor": "Intel Core Ultra 9 processor 285K",
+   "Chipset": "Z890 (Z890 AI TOP)",
+   "Graphics": "NVIDIA GeForce RTX 5090",
+   "Form Factor": "ATX",
+   "Audio": "High Definition Audio",
+   "Storage": "AORUS Gen4 7300 2TB\nAI TOP 100E 320GB",
+   "Power Supply": "1600W 80 Plus Platinum PSU (ATX 3.1)",
+   "Network & Wireless Connectivity": "Dual 10GbE Ethernet, Wi-Fi 7, Bluetooth 5.3",
+   "Others": "SATA: 8 x SATA 6.0Gb/s ports"
+  },
+  "General Information": {
+   "Dimensions": "H594 x W336 x D584 mm"
+  },
+  "Additional Feature": {
+   "Cooling System": "AORUS 360 AIO Liquid Cooler"
+  },
+  "External Features": {
+   "Expansion Slots": "1 x PCIe 5.0 x16 (Occupied)\n1 x PCIe 5.0 x8\n1 x PCIe 4.0 x4\n1 x PCIe 5.0 M.2 Slot (1 Occupied)\n3 x PCIe 4.0 M.2 Slots (1 Occupied)",
+   "I/O Port": "Front I/O Ports\n1 x USB 3.2 Gen 2 Type-C\n2 x USB 3.0\nPower Button\nReset Button\n1 x Audio In\n1 x Audio Out\nRear I/O Ports\n1 x DisplayPort In\n1 x HDMI\n2 x Audio Jacks\n2 x Intel Thunderbolt 5 (USB Type-C)\n2 x USB 3.2 Gen 1\n6 x USB 3.2 Gen 2 Type-A\n2 x Antenna connectors\n2 x RJ-45 ports"
+  },
+  "Physical Attribute": {
+   "Weight": "TBD"
+  },
+  "Image": {
+   "Model": "AI TOP 100 Z890"
+  }
+ },
+ "key_features": [
+  "Dedicated AI Processing Storage: AI TOP 100E 320GB provides specialized support for artificial intelligence operations and heavy data processing.",
+  "Advanced Cooling Solution: AORUS 360 AIO liquid cooling maintains optimal temperatures during intense gaming and AI workloads.",
+  "Future-Ready Connectivity: Dual Thunderbolt 5, Wi-Fi 7, and 10GbE LAN deliver ultra-fast networking and peripheral support.",
+  "PCIe Gen5 Expandability: Advanced PCIe Gen5 slots allow seamless upgrades for GPUs, SSDs, and future hardware."
+ ],
+ "model": "AI TOP 100 Z890",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.creatus.com.bd/gigabyte-ai-top-100-z890-gaming-pc",
+ "store": "creatus"
+}

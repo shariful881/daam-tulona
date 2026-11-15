@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Processor": {
+   "Base Frequency": "Base Clock 3.6GHz\nBoost Clock Up to 4.5GHz",
+   "Cores": "32",
+   "Default TDP": "280w",
+   "Graphics Base Frequency": "No\nDiscrete Graphics Card Required",
+   "Threads": "64"
+  },
+  "Cache": {
+   "Total L1 Cache": "2MB",
+   "Total L2 Cache": "16MB",
+   "Total L3 Cache": "128MB"
+  },
+  "Memory Specifications": {
+   "TYPE": "DDR4"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years"
+  }
+ },
+ "key_features": [
+  "Speed: 3.6GHz up to 4.5GHz",
+  "Cache: L2: 16MB, L3: 128MB",
+  "Cores: 32, Threads: 64",
+  "CPU Socket: sWRX8"
+ ],
+ "warranty": "03 years",
+ "fetched": "2026-11-15T17:57+06:00",
+ "source": "https://www.pchouse.com.bd/amd-ryzen-threadripper-pro-5975wx-desktop-processor",
+ "store": "pchouse"
+}

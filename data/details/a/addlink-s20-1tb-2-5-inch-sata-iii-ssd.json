@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "1TB",
+   "Interface Type": "2.5” SATA III 6Gb/S, Compatible With SATA I And SATA II",
+   "Internal or External": "Internal",
+   "Form Factor": "7mm Height, 2.5\"",
+   "NAND Flash": "3D NAND Technology"
+  },
+  "Sequential R/W": {
+   "Read Speed": "Up To 560 MB/S",
+   "Write Speed": "Up To 500 MB/S"
+  },
+  "Physical Specifications": {
+   "Dimension": "13.43 Cm X 14.95 Cm X 3.52 Cm",
+   "Weight": "0.25 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 1TB, Form Factor: 7mm height, 2.5\"",
+  "Interface: SATA III 6Gb/s, 3D NAND technology",
+  "Seq. Read & Write: 560 MB/s & 500 MB/s",
+  "Compatibility: Windows, Mac OS X, Linux"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-15T17:55+06:00",
+ "source": "https://www.pchouse.com.bd/addlink-s20-1tb-sata-iii-ssd",
+ "store": "pchouse"
+}

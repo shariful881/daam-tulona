@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Frequency Range": {
+   "Frequency response (Headset)": "20Hz to 20kHz",
+   "Frequency response (Microphone)": "100Hz to 16.kHz"
+  },
+  "Technical Specification": {
+   "Impedance": "20 Ohms"
+  },
+  "Sensitivity": {
+   "Sensitivity (headphone)": "115dB +/-3dB",
+   "Sensitivity (microphone)": "-42dBV/Pa +/- 3dB"
+  },
+  "Physical Specification": {
+   "Weight": "4.23 oz (0.12 Kg)",
+   "System Requirements": "Works with Common calling applications across almost all platforms and operating systems.\nWindows® or macOS®\nChrome OS™\nUSB port",
+   "Dimensions": "Height x Width x Depth: 7.09 in (180 mm) x 8.46 in (215 mm) x 3.07 in (78 mm)",
+   "Cable Length": "5.90 ft (1.8m)"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years"
+  },
+  "Image": {
+   "Model": "Logitech H540"
+  }
+ },
+ "key_features": [
+  "Frequency: 20Hz to 20kHz",
+  "Sensitivity: 115dB +/-3dB",
+  "Cable Length: 5.90 ft"
+ ],
+ "model": "Logitech H540",
+ "warranty": "02 years",
+ "fetched": "2026-11-15T17:41+06:00",
+ "source": "https://www.creatus.com.bd/logitech-h540-usb-headset",
+ "store": "creatus"
+}

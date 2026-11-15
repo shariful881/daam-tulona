@@ -1,0 +1,108 @@
+{
+ "specs": {
+  "Color/Finish": {
+   "Body": "Color"
+  },
+  "Size/Weight": {
+   "Dimensions": "Width",
+   "Height": "140 mm (5-1/2″)",
+   "Depth": "405 mm (15-15/16″)",
+   "Weight": "Weight"
+  },
+  "Control Interface": {
+   "Keyboard": "Number of Keys",
+   "Type": "Organ Style",
+   "Touch Response": "Yes (Soft, Medium, Hard, Fixed)",
+   "Other Controllers": "Pitch Bend",
+   "Control Knobs": "Yes (x 2)",
+   "Display": "Type",
+   "Size": "92 mm x 42 mm",
+   "Backlight": "Yes",
+   "Language": "English",
+   "Panel": "Language"
+  },
+  "Voices": {
+   "Tone Generation": "Tone Generating Technology",
+   "Polyphony": "Number of Polyphony (Max.)",
+   "Preset": "Number of Voices",
+   "Featured Voices": "Indian Voice x 30, Sweet! Voice x 5, Cool! Voice x 3",
+   "Compatibility": "GM",
+   "XGlite": "Yes"
+  },
+  "Effects": {
+   "Types": "Reverb",
+   "Chorus": "4 types",
+   "Master EQ": "6 types",
+   "Harmony": "26 types",
+   "Ultra-Wide Stereo": "3 types",
+   "Functions": "Dual/Layers",
+   "Split": "Yes",
+   "Arpeggio": "162 types"
+  },
+  "Accompaniment Styles": {
+   "Preset": "Number of Preset Styles",
+   "Fingering": "Multi finger",
+   "Style Control": "ACMP ON/OFF, SYNC START, SYNC STOP, START/STOP, INTRO/ENDING/rit., MAIN/AUTO FILL, TRACK ON/OFF",
+   "File Format": "Style File Format (SFF)",
+   "Other Features": "One Touch Setting (OTS)",
+   "Music Database": "355 (Incl. Indian 50 music)",
+   "External Styles": "5 Styles"
+  },
+  "Songs": {
+   "Preset": "Number of Preset Songs",
+   "Recording": "Original File Format (SMF 0 conversion function)",
+   "Number of Tracks": "6 (5 Melody + 1 Style)",
+   "Data Capacity": "Approx. 19,000 notes (when only “melody” tracks are recorded)",
+   "Compatible Data Format": "Playback"
+  },
+  "Functions": {
+   "Registration": "Number of Buttons",
+   "Lesson/Guide": "Lesson 1–3 (Listening, Timing, Waiting), Repeat & Learn, Chord Dictionary",
+   "Overall Controls": "Metronome",
+   "Tempo Range": "11 – 280",
+   "Transpose": "-12 to 0, 0 to +12",
+   "Tuning": "427.0 – 440.0 – 453.0 Hz (approx. 0.2 Hz increments)",
+   "Riyaz (Tabla/Tanpura Pattern)": "Preset",
+   "Sections": "5",
+   "Miscellaneous": "PIANO Button"
+  },
+  "Storage and Connectivity": {
+   "Storage": "Internal Memory",
+   "External Drives": "USB flash drive",
+   "Connectivity": "DC IN",
+   "Headphones": "Headphones/Output",
+   "Sustain Pedal": "Yes",
+   "USB TO DEVICE": "Yes",
+   "USB TO HOST": "Yes"
+  },
+  "Amplifiers and Speakers": {
+   "Amplifiers": "2.5 W + 2.5 W",
+   "Speakers": "12 cm x 2"
+  },
+  "Power Supply": {
+   "Power Supply": "PA-150B or an equivalent recommended by Yamaha, Six “AA” size alkaline (LR6), manganese (R6) or Ni-MH rechargeable (HR6) batteries",
+   "Power Consumption": "16 W (When using PA-150 AC adaptor)",
+   "Auto Power Off Function": "Yes"
+  },
+  "Accessories": {
+   "Included Accessories": "Music Rest",
+   "Song Book": "Download from Yamaha web site",
+   "Power Adaptor": "Yes"
+  },
+  "Specification": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Model: PSR-I400",
+  "Number of Keys: 61 touch-sensitive keys",
+  "Sounds (Voices): 743 total (including 353 Indian voices)",
+  "Rhythm Styles: 205 (includes 35 Indian styles)",
+  "Weight: Approximately 6.6 kg",
+  "Power Supply: AC Adapter (included)"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-15T17:51+06:00",
+ "source": "https://diamu.com.bd/product/yamaha-psr-i400-keyboard/",
+ "store": "diamu"
+}

@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "10TB",
+   "Interface": "SATA 6GB/s",
+   "MTBF": "1500000",
+   "Power Consumption": "9 (Read/Write), 8 (Idle), 0.5 (Standby and Sleep)",
+   "RPM": "7200 RPM",
+   "Shock Resistance": "70Gs/2ms (Operating), 250Gs/2ms (Non-operating)",
+   "Form Factor": "3.5 Inch"
+  },
+  "Hard Disk": {
+   "Shock Sensor": "Yes"
+  },
+  "Physical Specifications": {
+   "Color": "Purple",
+   "Weight": "0.75 kg",
+   "Dimensions": "26.1 x 147 x 101.6mm"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years",
+ "fetched": "2026-11-15T18:11+06:00",
+ "source": "https://www.pchouse.com.bd/purple-wd102purz-10tb-hard-disk-drive",
+ "store": "pchouse"
+}

@@ -1,0 +1,56 @@
+{
+ "specs": {
+  "Display": {
+   "Front Screen": "1.4-inch 326 ppi 320×320",
+   "Rear Screen": "2.25-inch 326 ppi 360×640",
+   "Front/Rear Screen Brightness": "750±50 cd/m²"
+  },
+  "Basic Information": {
+   "Memory": "microSD (up to 256 GB)",
+   "Audio": "48 kHz; AAC",
+   "Video": "MP4 (H.264/HEVC)",
+   "Sensor": "1/1.7-inch CMOS",
+   "Water Resistant": "16 m [1] without Waterproof Case, 60 m with Waterproof Case"
+  },
+  "Battery Information": {
+   "Type": "LiPo 1S",
+   "Capacity": "1770 mAh",
+   "Energy": "6.8 Wh",
+   "Voltage": "3.85 V",
+   "Operating Temperature": "-20° to 45° C (-4° to 113° F)",
+   "Charging Temperature": "5° to 40° C (41° to 104° F)",
+   "Operating Time": "160 mins [3]"
+  },
+  "Resolution": {
+   "Photo": "100-12800",
+   "Video": "100-12800"
+  },
+  "Lens": {
+   "FOV": "155°",
+   "Aperture": "f/2.8",
+   "Focus Range": "0.3 m to ∞"
+  },
+  "Connectivity": {
+   "Connectivity": "Bluetooth Protocol: BLE 5.0"
+  },
+  "Others": {
+   "Others": "4K: 4x (120fps)\n2.7K: 4x (120fps)\n1080p: 8x (240fps), 4x (120fps)\nHyperlapse: 4K/2.7K/1080p: Auto/×2/×5/×10/×15/×30"
+  },
+  "Physical Specifications": {
+   "Weight": "145 g",
+   "Dimension": "70.5×44.2×32.8 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Image Sensor: 1/1.7-inch CMOS",
+  "Number of Microphones: 3",
+  "Supported SD Cards: microSD (up to 256 GB)"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-15T17:45+06:00",
+ "source": "https://www.pchouse.com.bd/dji-osmo-action-3-standard-combo-4k-action-camera",
+ "store": "pchouse"
+}

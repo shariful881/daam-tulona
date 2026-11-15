@@ -1,0 +1,79 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5 13420H",
+   "Generation": "13th Gen",
+   "Processor Frequency": "E-Core Max 3.40 GHz, P-Core Max 4.60 GHz with Turbo Boost",
+   "Processor Core": "8 Cores",
+   "Processor Thread": "Thread: 12 Threads",
+   "CPU Cache": "12 MB"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MHz",
+   "Ram Type": "DDR4-3200 MHz",
+   "RAM": "8 GB"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "512 GB",
+   "Supported SSD Type": "NVMe TLC"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 3050",
+   "Graphics Memory": "6 GB GDDR6",
+   "Graphics Type": "Dedicated Laptop GPU"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size, Backlit",
+   "Keyboard Features": "Moonstone Grey, Numeric Keypad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP Wide Vision 720p HD Camera",
+   "Speaker": "HP Wide Vision 720p HD Camera",
+   "Audio Features": "HP Audio Boost"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Display Features": {
+   "Display Size": "15.6 inches"
+  },
+  "Display": {
+   "Display Type": "IPS LED",
+   "Display Resolution": "Full HD (1920 x 1080)",
+   "Display Features": "Anti-Glare, 300 nits brightness, Flicker-free",
+   "Touch Screen": "No",
+   "Refresh Rate": "144 Hz"
+  },
+  "Others": {
+   "Other Features": "Flicker-free Display"
+  },
+  "Physical Specification": {
+   "Dimensions": "2.71 x 20.47 x 12 inches",
+   "Weight": "5.06 lb",
+   "Colors": "Mica Silver"
+  },
+  "Power": {
+   "Battery Type": "Li-ion Polymer",
+   "Battery Capacity": "4-cell, 70 Wh"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Year Warranty ( Battery & Adapter 1 Year)"
+  },
+  "Image": {
+   "Model": "IdeaPad 1 15AMN7"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5 13420H (up to 4.6 GHz)",
+  "RAM: 8GB DDR4 3200MHz",
+  "Storage: 512GB PCIe Gen4 NVMe SSD",
+  "Display: 15.6\" FHD 144Hz IPS Anti-Glare"
+ ],
+ "model": "IdeaPad 1 15AMN7",
+ "warranty": "02 Year Warranty ( Battery & Adapter 1 Year)",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.creatus.com.bd/hp-victus-15-fa2013dx-13th-gen-i5-144hz-rtx-3050-gaming-laptop",
+ "store": "creatus"
+}

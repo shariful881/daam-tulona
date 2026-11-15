@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Product Description": {
+   "Item": "Item Description",
+   "Model": "PowerEdge T440 Tower Server",
+   "Country of Origin": "USA",
+   "Country of Manufacture": "Malaysia",
+   "Processor": "Up to two 2nd Generation Intel® Xeon® Scalable processors, up to 28 cores per processor",
+   "Operating System": "Canonical® Ubuntu® Server LTS\nCitrix® Hypervisor ®\nMicrosoft® Windows Server® with Hyper-V\nRed Hat® Enterprise Linux\nSUSE® Linux Enterprise Server\nVMware® ESXi®",
+   "Bezel": "Optional LCD bezel or security bezel",
+   "Dimensions & Weight": "Width\n218.0mm (8.6″) (base width)\n304.5mm (12.0”) (with foot)\nDepth\n594.82mm (23.4″)\nWeight\n29.3Kg (64.6lbs.) 8-drive bay chassis",
+   "Memory *": "DIMM Speed\nUp to 2666 MT/s\nMemory Type\nRDIMM\nLRDIMM\nMemory Module Slots\n16 DDR4 DIMM slots\nSupports registered ECC DDR4 DIMMs only\nMaximum RAM\nRDIMM 512GB\nLRDIMM 1TB\n*",
+   "Management": "Embedded / At-the-Server\niDRAC9\niDRAC Direct\niDRAC RESTful API with Redfish\nConsoles\nOpenManage Enterprise\nOpenManage Power Center\nMobility\nOpenManage Mobile",
+   "Tools": "Dell EMC RACADM CLI\nDell EMC Repository Manager\nDell EMC System Update\nDell EMC Server Update Utility\nDell EMC Update Catalogs\niDRAC Service Module\nIPMI Tool\nOpenManage Server Administrator\nOpenManage Storage Services",
+   "OpenManage Integrations": "BMC® Truesight\nMicrosoft® System Center\nRedHat® Ansible® Modules\nVMware® vCenter",
+   "OpenManage Connections": "IBM Tivoli® Netcool/OMNIbus\nIBM Tivoli® Network Manager IP Edition\nMicro Focus® Operations Manager I\nNagios® Core\nNagios® XI",
+   "Power Supplies": "450W Gold\n495W Platinum\n750W Platinum\n1100W Platinum\nUp to 2 hot plugs fans with full redundancy",
+   "Security": "Cryptographically signed firmware\nSecure Boot\nSecure Erase\nSilicon Root of Trust\nSystem Lockdown (requires OpenManage Enterprise)\nTPM 1.2/2.0, TCM 2.0 optional",
+   "Storage Controllers": "Internal Controllers\nPERC H330, H730P, H740P, HBA330\nExternal Controllers RAID\nH840, 12Gbps SAS HBA\nSoftware RAID\nS140\nInternal Boot\nBoot Optimized Storage Subsystem (BOSS):\nHW RAID 2 x M.2 SSDs 240GB or 480GB\nInternal Dual SD Module",
+   "Storage": "Front Bays\nUp to 8 x 3.5″ SAS/SATA (HDD/SSD) max 128TB\nUp to 16 x 2.5″ SAS/SATA (HDD/SSD) max 61TB",
+   "Ports": "Network Options\n2 x 1GbE LOM\n(optional) LOM Riser 2 x 1GbE, or\n2 x 10GbE SFP, or\n2 x 10GbE BaseT\nFront Ports\n1 x Dedicated iDRAC direct USB\n1 x USB 2.0\n1 x USB 3.0 (optional)\n1 x Video\nRear Ports\n1 x Dedicated iDRAC network port\n1 x Serial\n2 x USB 3.0\n1 x Video",
+   "Warranty": "Dell\n3 Years\nStandard Warranty and Parts Exchange"
+  }
+ },
+ "key_features": [],
+ "model": "PowerEdge T440 Tower Server",
+ "warranty": "Dell",
+ "fetched": "2026-11-15T18:20+06:00",
+ "source": "https://smartbd.com/product/dell-poweredge-t440-tower-server/",
+ "store": "smartbd"
+}

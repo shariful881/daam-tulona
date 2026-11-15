@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Technology": {
+   "Print method": "9-pin serial impact dot matrix",
+   "Technology": "Serial Impact Dot Matrix"
+  },
+  "Print": {
+   "Print Speed": "4.70 lps (40 columns, 16.00 cpi)"
+  },
+  "Paper Information": {
+   "Paper Size": "76.00 ± 0.50 (W) mm x dia 83.00 mm\n69.50 ± 0.50 (W) mm x dia 83.00 mm\n57.50 ± 0.50 (W) mm x dia 83.00 mm\nPaper Roll Diameter: 83.00mm",
+   "Paper Type": "Receipt"
+  },
+  "Input Capacity": {
+   "Column capacity receipt": "Paper width 76 mm, 33 / 40",
+   "Copy capability receipt": "one copies plus one original"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB"
+  },
+  "Physical Specification": {
+   "Weight": "2.5 kg",
+   "Dimensions": "160‎ x 248 x 139 mm (Width x Depth x Height)",
+   "Colors": "Epson Dark Grey"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "TM-U220B"
+  }
+ },
+ "key_features": [
+  "Print Method: 9-pin serial impact dot matrix",
+  "Paper Roll Diameter: 83.00mm",
+  "Print Speed: 4.70 lps (40 columns, 16.00 cpi)",
+  "Duty Cycle: 7,500,000 lines, USB Connectivity"
+ ],
+ "model": "TM-U220B",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-15T17:50+06:00",
+ "source": "https://www.creatus.com.bd/epson-tm-u220b-pos-printer",
+ "store": "creatus"
+}

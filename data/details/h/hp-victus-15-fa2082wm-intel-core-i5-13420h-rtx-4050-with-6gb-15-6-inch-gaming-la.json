@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5-13420H",
+   "Processor Frequency": "Up to 4.60 GHz",
+   "Processor Core": "8",
+   "Processor Thread": "12",
+   "CPU Cache": "12 MB Intel Smart Cache"
+  },
+  "Memory": {
+   "Bus Speed": "3200 MHz",
+   "Ram Type": "DDR4",
+   "RAM": "16 GB"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe TLC M.2 SSD",
+   "Storage Capacity": "512GB"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4050",
+   "Graphics Memory": "6 GB",
+   "Graphics Type": "GDDR6 dedicated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size, backlit, moonstone grey keyboard with numeric keypad",
+   "TouchPad": "yes"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "HDMI 2.1 Port",
+   "USB Type-C / Thunderbolt Port": "3x USB-A Port. 1x USB-C Port",
+   "Headphone & Microphone Port": "3.5mm Headphone/Microphone Combo"
+  },
+  "Network & Connectivity": {
+   "WiFi": "yes",
+   "Bluetooth": "yes"
+  },
+  "Display": {
+   "Display Size": "15.6",
+   "Display Type": "IPS LED Display",
+   "Display Resolution": "1920 x 1080",
+   "Display Features": "144Hz, Anti-Glare 300 nits"
+  },
+  "Others": {
+   "Other Features": "Type: Gaming laptop"
+  },
+  "Audio": {
+   "Speaker": "Audio by B&O Dual speakers; HP Audio Boost"
+  },
+  "Os": {
+   "Operating System": "windows 11"
+  },
+  "Power": {
+   "Battery Type": "4-cell,Li-ion polymer",
+   "Battery Capacity": "70 WHrs"
+  },
+  "Physical Specification": {
+   "Weight": "2.29 kg",
+   "Dimensions": "2.71 x 20.47 x 12 in",
+   "Colors": "Mica Silver"
+  },
+  "Camera": {
+   "Camera Features": "HP Wide Vision 720p HD camera"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Years"
+  },
+  "Image": {
+   "Model": "HP Victus 15-fb2082wm"
+  }
+ },
+ "key_features": [
+  "RAM: 16GB DDR4 -3200 MHz RAM",
+  "Storage: 512GB PCIe® Gen4 NVMe™ TLC M.2 SSD",
+  "Display: 15.6″ 144Hz FHD (1920 x 1080) IPS LED Display , Anti-Glare 300 nits",
+  "Graphics: NVIDIA® GeForce RTX™ 4050 Laptop GPU (6GB GDDR6 dedicated)"
+ ],
+ "model": "HP Victus 15-fb2082wm",
+ "warranty": "1 Years",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.creatus.com.bd/hp-victus-15-fa2082wm-intel-core-i5-13420h-rtx-4050-with-6gb-156-inch-gaming-laptop",
+ "store": "creatus"
+}

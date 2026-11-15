@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Specification": {
+   "Usable Capacities": "256GB",
+   "NAND Components": "3D NAND",
+   "Interface": "PCIe Gen 3×4 NVMe 1.3",
+   "Form Factor": "M.2 2280",
+   "Package Dimensions (L×W×H)": "123 x 85 x 4.3 mm",
+   "Product Dimensions (L×W×H)": "22 x 80 x 2 mm",
+   "Weight": "6.6g",
+   "Max Sequential Read*": "Up to 1700MB/s",
+   "Max Sequential Write*": "Up to 1100MB/s",
+   "TBW": "256GB: 380",
+   "PCIe Link Power Management": "APST, ASPM, L1.2",
+   "Operating Temperature": "0°C to 70°C",
+   "Storage Temperature": "-40°C to 85°C",
+   "Certifications": "BSMI, CE, FCC, KCC, VCCI, REACH, RoHS",
+   "MTBF": "2 Million Hours",
+   "Product Health Monitoring": "Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T)",
+   "Warranty": "5-year Limited Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "5-year Limited Warranty",
+ "fetched": "2026-11-15T17:58+06:00",
+ "source": "https://smartbd.com/product/pny-256gb-nvme-cs1031-solid-state-drive-m280cs1031/",
+ "store": "smartbd"
+}

@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "Wi-Fi Speeds": "AC750\n5 GHz: 433 Mbps (802.11ac)\n2.4 GHz: 300 Mbps (802.11n)",
+   "Wi-Fi Range": "2 Bedroom Houses\n4× Fixed Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas",
+   "Wi-Fi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance",
+   "Working Modes": "Router Mode\nAccess Point Mode\nRange Extender Mode",
+   "Processor": "Single-Core CPU",
+   "Ethernet Ports": "1× 10/100 Mbps WAN Port\n4× 10/100 Mbps LAN Ports",
+   "Buttons": "WPS/Reset Button",
+   "Power": "9 V ⎓ 0.6 A",
+   "Wi-Fi Encryption": "WEP\nWPA\nWPA2\nWPA/WPA2-Enterprise (802.1x)",
+   "Network Security": "SPI Firewall\nAccess Control\nIP & MAC Binding\nApplication Layer Gateway",
+   "Guest Network": "1× 5 GHz Guest Network\n1× 2.4 GHz Guest Network",
+   "Protocols": "IPv4\nIPv6",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP",
+   "Quality of Service": "QoS by Device",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nDMZ\nUPnP",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Address Reservation\nDHCP Client List\nServer",
+   "DDNS": "NO-IP\nDynDNS",
+   "Management": "Tether App\nWebpage",
+   "System Requirements": "Internet Explorer 11+, Firefox 12.0+, Chrome 20.0+, Safari 4.0+, or other JavaScript-enabled browser\nCable or DSL Modem (if needed)\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "FCC, CE, RoHS",
+   "WiFi Transmission Power": "CE:\n<20dBm(2.4GHz)\n<23dBm(5GHz)",
+   "WiFi Reception Sensitivity": "5GHz:\n11a 54M: -76dBm;\n11ac VHT20 MCS8: -71dBm;\n11ac VHT40 MCS9: -66dBm;\n11ac VHT80 MCS9: -62dBm\n2.4GHz:\n11g 54M: -76dBm;\n11n HT20 MCS7: -73dBm;\n11n HT40 MCS7: -71dBm"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Storage Temperature": "-40℃~60℃ (-40℉ ~140℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-archer-c24-ac750-dual-band-wi-fi-router/",
+ "store": "diamu"
+}

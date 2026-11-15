@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "1TB",
+   "Interface": "SATA 6Gb/s",
+   "Disk Type": "SATA",
+   "RPM": "7,200 RPM",
+   "Interface Type": "SATA 6Gb/s",
+   "Read/Write Speed": "Read: 210MB/s"
+  },
+  "Physical Specifications": {
+   "Size": "1TB"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  }
+ },
+ "key_features": [
+  "Capacity:1TB",
+  "Interface: SATA 6Gb/s",
+  "Latency Average: 6Gb/s",
+  "Rotational Speed: 7200 RPM"
+ ],
+ "warranty": "2 Years",
+ "fetched": "2026-11-15T18:05+06:00",
+ "source": "https://www.pchouse.com.bd/seagate-1tb-barracuda",
+ "store": "pchouse"
+}

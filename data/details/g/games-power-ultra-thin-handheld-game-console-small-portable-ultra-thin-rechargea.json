@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Input Voltage": "5V / 1A"
+  },
+  "Key Features": {
+   "Interface Type": "USB"
+  },
+  "Display Details": {
+   "Material": "ABS",
+   "Screen Size": "2.4 inch"
+  },
+  "Connectivity": {
+   "Connection Type": "wired"
+  },
+  "Physical Specification": {
+   "Battery life": "2-3 hours",
+   "Color": "blue, red, green",
+   "Others": "Number of built-in games: 500",
+   "Weight": "80g"
+  },
+  "Physical Specifications": {
+   "Dimension": "101.2 * 64.2 * 6.5mm",
+   "Battery Capacity": "400mAh"
+  }
+ },
+ "key_features": [
+  "Screen Size: 2.4 inch",
+  "Battery life: 2-3 hours",
+  "built-in games: 500",
+  "Weight: 80g"
+ ],
+ "fetched": "2026-11-15T17:47+06:00",
+ "source": "https://www.pchouse.com.bd/handheld-game-console-small-portable-ultra",
+ "store": "pchouse"
+}

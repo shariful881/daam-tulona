@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Display": "4-Line LCD",
+   "Color": "White",
+   "Connectivity": "LAN 10Base-T/100Base-Tx/1000Base-T (Gigabit Ethernet) USB USB 2.0 Type B",
+   "Copy Features": "Copy Speed 27 Cpm First-Copy-Out Time 6.5 Seconds Or Less—Via Platen 12 Seconds Or Less—Via ARDF Resolution 100 X 100 Dpi,150 X 150 Dpi, 200 X 200 Dpi (Default), 300 X 300 Dpi, 600 X 600 Dpi Zoom 25%–400%",
+   "Fax": "Memory 4 MB Modem Speed 2,400 Bps–33.6 Kbps With Automatic Shift Down Transmission Speed 3 Seconds Approximately—ITU-T No. 1 Chart, TTI Off, MFT Off",
+   "Fax Resolution": "200 X 100 Dpi—8 X 3.85 Lines/Mm 200 X 200 Dpi—8 X 7.7 Lines/Mm",
+   "Memory": "Fax Memory 4 MB",
+   "Paper Handling": "Output Capacity 250 Sheets",
+   "Print Features": "Print Speed 40 Ppm Warm-Up Time 20 Seconds First-Print-Out Time 4.6 Seconds Resolution 1,200 X 1,200 Dpi—1-Bit Duplex Printing Standard",
+   "Scan Features": "Scan Speed Scanning: B/W 50 Ipm Scanning: Full Colour 50 Ipm Scan Technology Scan To Email, Scan To Folder (SMB), Scan To URL, Scan To PDF/A, Scan To Digitally Signed PDF, Scan To USB/SD",
+   "Zoom": "25%–400%",
+   "Copy Speed": "27 Cpm",
+   "Copy Resolution": "100 X 100 Dpi,150 X 150 Dpi, 200 X 200 Dpi (Default), 300 X 300 Dpi, 600 X 600 Dpi",
+   "Paper Sizes": "A3, A4, A5, A6, B4, B5, B6",
+   "Power": "Power 220–240 V, 50/60 Hz, 8 Amps Power Consumption 1,550 W Or Less—Mainframe, Maximum Power 500 W Or Less—Printing 113 W Or Less—Ready Mode 55 W Or Less—Low Power Mode 1 W Or Less—Energy Saver Mode (Sleep Mode)",
+   "Scan Resolution": "100 X 100 Dpi, 200 X 200 Dpi (Default), 300 X 300 Dpi, 400 X 400 Dpi, 600 X 600 Dpi",
+   "Paper Weight": "Trays:52 - 105 G/M² Bypass:52 - 216 G/M²",
+   "Input Capacity": "1,600 Sheets",
+   "Dimensions": "587 X 581 X 677 Mm",
+   "Weight": "46.5 Kg"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year Service Warranty (No Parts Warranty)"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Year Service Warranty (No Parts Warranty)",
+ "fetched": "2026-11-15T17:50+06:00",
+ "source": "https://www.pchouse.com.bd/ricoh-m-2702-photocopier",
+ "store": "pchouse"
+}

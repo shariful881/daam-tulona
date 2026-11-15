@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Capacity": "2TB",
+   "Disk Type": "Internal",
+   "RPM": "5900",
+   "Interface Type": "SATA 6Gb/S",
+   "Data Buffer": "64MB",
+   "Read/Write Speed": "180MB/S"
+  },
+  "Physical Specifications": {
+   "Size": "3.5 Inch"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  }
+ },
+ "key_features": [
+  "Disk Type: SATA NAS HDD",
+  "RPM: 7200",
+  "Data Buffer: 256 MB",
+  "Read/Write Speed: 214MB/s"
+ ],
+ "warranty": "3 Years",
+ "fetched": "2026-11-15T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/skyhawk-2tb-surveillance-hdd",
+ "store": "pchouse"
+}

@@ -1,0 +1,98 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i3-1305U",
+   "Generation": "13th Gen",
+   "Processor Frequency": "3.3 GHz up to 4.5 GHz",
+   "Processor Core": "5 (Performance-cores- 1, Efficient-cores- 4)",
+   "Processor Thread": "6",
+   "CPU Cache": "10MB"
+  },
+  "Memory": {
+   "Bus Speed": "2666MHz",
+   "Max RAM Capacity": "Up to 16GB",
+   "Ram": "8GB (1x8GB)",
+   "Storage Type": "M.2 NVMe SSD",
+   "Ram Type": "DDR4",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "N/A"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "English International Non-Backlit Keyboard",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "Integrated Widescreen HD (720p) Webcam",
+   "Speaker": "Stereo Speakers with Waves",
+   "Microphone": "Integrated Digital Microphone Array"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Card Reader": "SD Card Reader (SD, SDHC, SDXC)",
+   "HDMI Port": "Yes",
+   "USB 2 Port": "1x USB 2.0",
+   "USB 3 Port": "2x USB 3.2 Gen 1",
+   "USB Type-C / Thunderbolt Port": "USB 3.2 Gen 1 Type-C port",
+   "Headphone & Microphone Port": "Yes"
+  },
+  "Network & Connectivity": {
+   "Lan": "Integrated 10/100/1000 Ethernet LAN",
+   "WiFi": "WiFi 802.11a/b/g 1x1",
+   "Bluetooth": "Bluetooth 5.0"
+  },
+  "Security": {
+   "Fingerprint Sensor": "No"
+  },
+  "Software": {
+   "Operating System": "Free DOS"
+  },
+  "Chipset": {
+   "Chipset Model": "Integrated with the processor"
+  },
+  "Display": {
+   "Display Size": "15.6 inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Display Features": "Anti-Glare LED, Backlight, Narrow Border",
+   "Touch Screen": "No"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Integrated",
+   "Battery Capacity": "41WHr",
+   "Adapter Type": "65 Watt AC Adaptor with Power Cord"
+  },
+  "Physical Specification": {
+   "Weight": "Starting weight: 3.66 lbs (1.66kg)",
+   "Color": "Titan Gray"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "Vostro 3530"
+  },
+  "Product List": {
+   "Best Dell laptop Price list": "Price",
+   "Dell 15 DC15250 Core 3 100U 15.6 Inch FHD Laptop": "77,500৳\n80,500৳"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i3-1305U (10MB Cache, 3.3GHz up to 4.5GHz)",
+  "Ram: 8GB DDR4, Storage: 512GB SSD",
+  "Display: 15.6\" FHD (1920x1080) LED, 250nits Anti-glare",
+  "Features: Type-C, Wi-Fi 6"
+ ],
+ "model": "Vostro 3530",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-15T17:58+06:00",
+ "source": "https://www.creatus.com.bd/dell-vostro-3530-core-i3-13th-gen-156-inch-fhd-laptop",
+ "store": "creatus"
+}

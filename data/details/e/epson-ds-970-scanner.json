@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Technical Specification:": {
+   "Model": "EPSON DS-970",
+   "Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia/Vietnam/China.",
+   "Scanner Type": "A4 sheet-fed, one-pass duplex colour scanner",
+   "Sensor Type": "Contact Image Sensor (CIS)",
+   "Optical Resolution": "600 DPI x 600 DPI (Horizontal x Vertical)",
+   "Output Resolution": "50 – 1,200 dpi (in 1 dpi increments)",
+   "Bit depth": "Each colour (RGB): 10 bit input / 8 bit output",
+   "Document Size": "Minimum: 50.8 X 50.8mm, Maximum: 215.9 x 6096 mm",
+   "Scanning Method": "Fixed carriage and moving document",
+   "Supported paper weight": "27 – 413 g/m2 (A8 or less 127 – 413 g/m2)",
+   "Light Source": "RGB LED",
+   "Daily scan volume": "Up to 9,000 pages/day",
+   "Multi-feed Detection": "Ultrasonic Sensor and Length Detection",
+   "Interface": "USB 3.0, Optional Ethernet (With Network Interface Unit)",
+   "Scanning Speed": "Resolution (Colur/Greyscale/Mono):"
+  },
+  "600 dpi Simplex23 ppm/Duplex 46 ipm": {
+   "Duplex Scan": "Yes",
+   "Drivers": "TWAIN, SANE, WIA, ICA, ISIS",
+   "Output formats": "Epson Scan 2: JPEG, TIFF, Multi-TIFF, PDF, Searchable PDF, BMP, PNGDocument Capture Pro (Win): JPEG, BMP, PDF, Searchable PDF, TIFF, Multi-TIFF, PNG, DOCX, XLSX, PPTX",
+   "Environment": "Temperature: Operation 5° C – 35° C, Storage -25° C – 60° C",
+   "Power Consumption": "Operating: 20 Watt, Ready: 8.5 Watt, Sleep: 1.4 Watt, Power off: 0.1watt",
+   "OS Compatibility": "Windows XP / Vista / 7 / 8 / 8.1 / 10 / Server 2003 / Server 2008 / Server 2012 / Server 2016, Mac OS X 10.6.8 or later",
+   "Included Software": "Epson Scan 2, ISIS Driver (Web Download), Epson Scan OCR Component, Epson Scan PDF Extensions, Document Capture Pro (Windows), Document Capture (Mac).",
+   "Dimension": "296‎ x 169 x 167 mm",
+   "Weight": "3.6 kg",
+   "Warranty": "One year standard warranty"
+  }
+ },
+ "key_features": [],
+ "model": "EPSON DS-970",
+ "warranty": "One year standard warranty",
+ "fetched": "2026-11-15T18:20+06:00",
+ "source": "https://smartbd.com/product/epson-ds-970-scanner/",
+ "store": "smartbd"
+}

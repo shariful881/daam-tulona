@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "500GB",
+   "Sequential R/W": "Sequential Read: 4,700 MB/s",
+   "Flash Type": "3D NAND",
+   "Interface": "NVMe (PCIe Gen 4 x4)",
+   "Form Factor": "M.2 (2280)",
+   "TBW": "110TB"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "5 years limited"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe (PCIe Gen4 x4)",
+  "Capacity: 500GB",
+  "Form factor: M.2 2280,",
+  "Sequential read/write: 4,700/1,900 MBbps"
+ ],
+ "warranty": "5 years limited",
+ "fetched": "2026-11-15T17:34+06:00",
+ "source": "https://www.pchouse.com.bd/crucial-p3-plus-500gb-nvme-ssd",
+ "store": "pchouse"
+}

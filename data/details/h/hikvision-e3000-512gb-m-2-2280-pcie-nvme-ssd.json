@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "256GB",
+   "Sequential R/W": "3500MB/s/1800MB/s",
+   "Flash Type": "3D TLC NAND",
+   "MTBF": "1,500,000 hours",
+   "Form Factor": "M.2 2280",
+   "TBW": "224TB"
+  },
+  "Features": {
+   "Dimension": "80.15 x 22.15 x 2.38 mm",
+   "Interface": "PCIe Gen 3 x 4",
+   "Weight": "‎50 gm"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0 °C to 70 °C"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40 °C to +85 °C",
+   "Shock resistance": "Yes"
+  },
+  "Warranty Information": {
+   "Manufacturing Warranty": "3 year warranty"
+  }
+ },
+ "key_features": [
+  "Form Factor: M.2 2280",
+  "Interface: PCIe Gen 3 x 4",
+  "Read/Write Speed: Up to 3500MB/s/1800MB/s"
+ ],
+ "warranty": "3 year warranty",
+ "fetched": "2026-11-15T18:01+06:00",
+ "source": "https://www.pchouse.com.bd/hikvision-e3000-512gb-m.2-2280-pcie-nvme-ssd",
+ "store": "pchouse"
+}

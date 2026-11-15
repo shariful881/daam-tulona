@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "1500 VA",
+   "Load Capacity": "900W",
+   "Input Voltage": "160-295 Vac",
+   "Output Voltage": "220/230 Vac",
+   "Frequency (Battery Mode)": "50Hz or 60Hz",
+   "Noise Level": "Less than 45dB",
+   "Battery": "12V 9Ah x 2pcs"
+  },
+  "Input Features": {
+   "Power Factor": "0.6"
+  },
+  "Output Features": {
+   "Backup Time": "15 to 25 minutes"
+  }
+ },
+ "key_features": [
+  "Capacity: 1500VA",
+  "Load Capacity: 900W",
+  "Voltage range: 162-295 Vac",
+  "Battery: 12V 9 AH x2pc"
+ ],
+ "fetched": "2026-11-15T17:49+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mg1500va-gold-1500va-offline-ups",
+ "store": "pchouse"
+}

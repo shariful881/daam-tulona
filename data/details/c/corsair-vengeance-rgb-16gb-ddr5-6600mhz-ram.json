@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Type": "DDR5"
+  },
+  "Key Feature": {
+   "Frequency": "6400MHz"
+  },
+  "Key Features": {
+   "Capacity": "16GB",
+   "Latency": "38-48-48-106"
+  },
+  "Others": {
+   "Performance Profile": "XMP 3.0",
+   "Package Memory Format": "DIMM"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Aluminum"
+  },
+  "Physical Specifications": {
+   "PIN": "288"
+  },
+  "Operating Voltage": {
+   "SPD Voltage": "1.1V",
+   "Tested Voltage": "1.40V"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Frequency: DDR5 6600MHz",
+  "Form Factor: 288-Pin",
+  "Voltage & Cas Latency: 38-48-48-106, 1.40V"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-vengeance-rgb-16gb-ddr5-6600mhz-ram",
+ "store": "pchouse"
+}

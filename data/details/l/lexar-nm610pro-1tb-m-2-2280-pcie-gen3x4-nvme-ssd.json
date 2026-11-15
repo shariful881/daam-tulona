@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Sequential R/W": "Sequential read up to 3300MB/s, write up to 2600MB/s",
+   "Interface": "PCIe Gen3x4",
+   "MTBF": "1,500,000 Hours",
+   "Form Factor": "M.2 2280",
+   "TBW": "240TBW"
+  },
+  "Physical Specification": {
+   "Weight": "9g"
+  },
+  "Physical Specifications": {
+   "Dimension": "80 mm x 22 mm x 2.45 mm / 3.15” x 0.87” x 0.10”"
+  },
+  "Temperature": {
+   "Storage Temperature": "-40° C to 85° C (-40°F to 185°F)",
+   "Vibration Resistance": "10~2000Hz, 1.5mm, 20G, 1 Oct/min, 30min/axis(X,Y,Z)2",
+   "Shock resistance": "1500G, duration 0.5ms, Half Sine Wave2"
+  },
+  "Warranty Information": {
+   "Warranty": "3 years"
+  }
+ },
+ "key_features": [
+  "Interface: PCIe Gen3x4",
+  "Sequential Read: Up to 3300MB/s",
+  "Sequential Write: Up to 2600MB/s"
+ ],
+ "warranty": "3 years",
+ "fetched": "2026-11-15T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/lexar-nm610pro-1tb-m.2-2280-pcie-gen3x4-nvme-ssd",
+ "store": "pchouse"
+}

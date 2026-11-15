@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "32GB(2 x 16GB)",
+   "Memory Type": "DDR4",
+   "Bus-Speed": "3200Mhz",
+   "RGB Type": "Yes",
+   "Latency": "16-18-18-36",
+   "Single/Dual sticks": "Dual"
+  },
+  "Output": {
+   "Voltage": "1.35V"
+  },
+  "Physical Specifications": {
+   "Heat sink type": "Aluminum Heatsink",
+   "Height": "55mm",
+   "Number-of-Pin": "288 Pin",
+   "Memory Platform": "Desktop"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "Memory Type: DDR4",
+  "Memory Size: 32GB (2x16GB)",
+  "Number of Pins: 288 Pin",
+  "Tested Latency: 16-20-20-38"
+ ],
+ "warranty": "Lifetime Warranty",
+ "fetched": "2026-11-15T17:59+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-dominator-platinum-rgb-3200mhz-desktop-ram",
+ "store": "pchouse"
+}

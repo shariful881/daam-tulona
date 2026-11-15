@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Thermal",
+   "Printer Type": "Thermal Receipt Printer"
+  },
+  "Print": {
+   "Technology": "Direct thermal manufacturing technology",
+   "Print Speed": "200 mm/s Max.",
+   "Print Resolution": "203dpi"
+  },
+  "Paper Information": {
+   "Paper Size": "80mm"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB, LAN",
+   "Power Consumption": "Power Adapter Input: AC 110V / 220V, 50 ~ 60Hz"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Print Speed: 200mm/S",
+  "Interface : USB, RJ11",
+  "Printing paper : 80mm"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-15T17:56+06:00",
+ "source": "https://www.creatus.com.bd/xprinter-xp80t-thermal-receipt-printer",
+ "store": "creatus"
+}

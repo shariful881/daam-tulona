@@ -1,0 +1,83 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Intel Core i7-14650HX",
+   "Processor Frequency": "Up to 5.2 GHz with Intel Turbo Boost",
+   "Processor Core": "16 Cores",
+   "Processor Thread": "24 Threads",
+   "CPU Cache": "30 MB L3 Cache"
+  },
+  "Display": {
+   "Display Size": "40.6 cm (16\") diagonal",
+   "Display Type": "IPS, micro-edge, anti-glare",
+   "Display Resolution": "WQXGA (2560 x 1600)",
+   "Display Features": "Low Blue Light, 500 nits, 100% sRGB, Flicker-free",
+   "Refresh Rate": "60-240 Hz, 3 ms response time"
+  },
+  "Memory": {
+   "Bus Speed": "Up to 5600 MT/s",
+   "Ram": "16 GB (2 x 8 GB)",
+   "Ram Type": "DDR5-5600"
+  },
+  "Storage": {
+   "Storage Type": "PCIe Gen4 NVMe M.2 SSD",
+   "Storage Capacity": "1 TB",
+   "Storage Upgrade": "2 M.2 (SSD) Expansion Slots"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 5050 Laptop GPU / Intel UHD Graphics",
+   "Graphics Memory": "8 GB GDDR7 (dedicated)",
+   "Graphics Type": "Discrete + Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Full-size with numeric keypad",
+   "Keyboard Features": "4-zone RGB backlit, 26-Key Rollover Anti-Ghosting",
+   "TouchPad": "HP Imagepad"
+  },
+  "Camera & Audio": {
+   "Webcam": "HP True Vision 1080p FHD with temporal noise reduction",
+   "Speaker": "Dual speakers, HP Audio Boost, HyperX, DTS:X Ultra",
+   "Microphone": "Integrated dual array digital microphones"
+  },
+  "Ports & Slots": {
+   "Card Reader": "Not specified",
+   "HDMI Port": "1 HDMI 2.1",
+   "USB 3 Port": "1 USB Type-A 10Gbps; 2 USB Type-A 5Gbps",
+   "USB Type-C / Thunderbolt Port": "1 USB Type-C 10Gbps (Power Delivery 3.0, DisplayPort 1.4, HP Sleep and Charge)",
+   "Headphone & Microphone Port": "1 combo jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Intel Wi-Fi 6E AX211 (2x2)",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Locker Slot": "Camera privacy shutter; Trusted Platform Module (Firmware TPM)"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home Single Language"
+  },
+  "Power": {
+   "Battery Type": "6-cell, 83 Wh Li-ion polymer",
+   "Battery Capacity": "Up to 5 hours 45 minutes; fast charge ~50% in 30 min",
+   "Adapter Type": "280 W AC power adapter"
+  },
+  "Physical Specification": {
+   "Weight": "2.43 kg",
+   "Dimensions": "35.75 x 26.9 x 2.37–2.54 cm",
+   "Colors": "Shadow black, black chrome logo"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Limited Manufacturer Warranty"
+  },
+  "Image": {
+   "Model": "16-am0335TX (CG9V2PA)"
+  }
+ },
+ "key_features": [],
+ "model": "16-am0335TX (CG9V2PA)",
+ "warranty": "1 Year Limited Manufacturer Warranty",
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.creatus.com.bd/hp-omen-16-am0335tx-i7-14650hx-rtx-5050-gaming-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,57 @@
+{
+ "specs": {
+  "Key Specs": {
+   "Element Type": "Electret Condenser",
+   "Polar Pattern": "Omnidirectional",
+   "Frequency Range": "100 Hz to 20 kHz",
+   "Maximum SPL": "119 dB SPL",
+   "USB/Digital Output": "1 x Unspecified Interface (on Mic)"
+  },
+  "Microphone": {
+   "Form Factor": "Mobile Device Mic",
+   "Sound Field": "Mono",
+   "Element Type": "Electret Condenser",
+   "Polar Pattern": "Omnidirectional",
+   "Circuitry": "Solid-State",
+   "High-Pass Filter": "No",
+   "Gain Adjustment": "No"
+  },
+  "Performance": {
+   "Frequency Range": "100 Hz to 20 kHz",
+   "Maximum SPL": "119 dB SPL"
+  },
+  "Connectivity": {
+   "Output Connectors (Analog)": "No",
+   "USB/Digital Output": "1 x\nUnspecified Interface (on Mic)",
+   "Headphone Connector": "No",
+   "Wireless Connectivity": "Bluetooth, Wi-Fi",
+   "Bluetooth": "4.1",
+   "Wi-Fi Standards": "Wi-Fi 4 (802.11n)"
+  },
+  "Digital Audio": {
+   "A/D Conversion": "16-Bit",
+   "Sample Rate": "48 kHz"
+  },
+  "Power": {
+   "Bus Power": "USB",
+   "Operating Voltage": "Not Specified by Manufacturer",
+   "Battery Type": "1 x\nBuilt-In (Included)",
+   "Battery Chemistry": "Lithium-Ion Polymer (LiPo)",
+   "Approximate Battery Life": "4 Hours"
+  },
+  "Physical": {
+   "Color": "White",
+   "Mounting": "Magnetic Mount (via Integrated Hardware)",
+   "Included Case": "No",
+   "Included Filters": "No",
+   "Operating Temperature": "32 to 104°F / 0 to 40°C",
+   "Storage Temperature": "-4 to 158°F / -20 to 70°C",
+   "Dimensions": "H: 2 x W: 1.5 x L: 0.6″ / H: 5.1 x W: 3.7 x L: 1.6 cm",
+   "Weight": "1.1 oz / 30 g"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:40+06:00",
+ "source": "https://diamu.com.bd/product/sennheiser-memory-mic/",
+ "store": "diamu"
+}

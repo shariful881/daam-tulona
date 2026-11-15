@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Frequency": "3200MHz"
+  },
+  "Key Features": {
+   "Capacity": "8GB",
+   "Latency": "CL22"
+  },
+  "Features": {
+   "Dimension": "32(H) x 140(L) x 7(W)mm"
+  },
+  "General": {
+   "Type": "DDR4"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Aluminum heat spreader"
+  },
+  "Physical Specifications": {
+   "PIN": "288 pin"
+  },
+  "Temperature": {
+   "Operating Voltage": "1.2V"
+  }
+ },
+ "key_features": [
+  "Memory Capacity: 8GB",
+  "Memory Type: DDR4",
+  "Bus Speed: 3200 MHz",
+  "Latency: CL22-22-22-52"
+ ],
+ "fetched": "2026-11-15T18:07+06:00",
+ "source": "https://www.pchouse.com.bd/team-t-create-classic-8gb-ddr4-3200mhz-desktop-ram",
+ "store": "pchouse"
+}

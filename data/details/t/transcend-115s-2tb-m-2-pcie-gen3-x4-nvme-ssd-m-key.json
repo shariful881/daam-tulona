@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Sequential R/W": "Up to 3,200/1,900 MB/s",
+   "Flash Type": "3D NAND flash",
+   "Interface": "NVMe PCIe Gen3 x4",
+   "MTBF": "2,000,000 hour(s)",
+   "Form Factor": "M.2 2280"
+  },
+  "Dimension (L X B X H)": {
+   "Single-sided": "80 mm x 22 mm x 2.23 mm (3.15\" x 0.87\" x 0.09\")",
+   "Double-sided": "80 mm x 22 mm x 3.58 mm (3.15\" x 0.87\" x 0.14\")"
+  },
+  "Physical Specification": {
+   "Weight": "8 g (0.28 oz)"
+  },
+  "Physical Specifications": {
+   "Operating Temperature": "0°C (32°F) ~ 70°C (158°F)"
+  }
+ },
+ "key_features": [
+  "Type: M.2 2280",
+  "Interface: NVMe PCIe Gen3 x4",
+  "Sequential Read/Write: Up to 3,200/1,900 MB/s"
+ ],
+ "fetched": "2026-11-15T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-115s-2tb-m.2-pcie-gen3-x4-nvme-ssd-m-key",
+ "store": "pchouse"
+}

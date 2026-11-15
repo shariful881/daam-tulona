@@ -1,0 +1,84 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core 3 100U",
+   "Generation": "Intel Core processors (Series 1)",
+   "Processor Frequency": "up to 4.7 GHz",
+   "Processor Core": "6 (2P + 4E)",
+   "Processor Thread": "8",
+   "CPU Cache": "10 MB Intel Smart Cache"
+  },
+  "Memory": {
+   "Bus Speed": "4400 MHz"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 PCIe NVMe SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel UHD Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "English US non-backlit keyboard",
+   "TouchPad": "Precision touchpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "720p at 30 fps HD RGB camera",
+   "Speaker": "2 tuned speakers",
+   "Microphone": "Single integrated microphone"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1 HDMI 1.4 port",
+   "USB 2 Port": "1 USB 2.0 (480 Mbps) port",
+   "USB 3 Port": "1 USB 3.2 Gen 1 Type-A (5 Gbps) port",
+   "USB Type-C / Thunderbolt Port": "1 USB 3.2 Gen 1 (5 Gbps) Type-C® data only port (only for computers with 13th Gen Intel® Core™ processors)\n1 USB 3.2 Gen 1 (5 Gbps) Type-C® port with DisplayPort 1.4 and power Delivery (only for computers with aluminum chassis)",
+   "Headphone & Microphone Port": "1 Universal Audio Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "N/A",
+   "WiFi": "Realtek Wi-Fi 6 RTL8852BE, 2x2, 802.11ax, MU-MIMO",
+   "Bluetooth": "Bluetooth wireless card"
+  },
+  "Security": {
+   "Fingerprint Sensor": "N/A"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Pro"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC Platform"
+  },
+  "Display": {
+   "Display Size": "14 inch",
+   "Display Type": "IPS",
+   "Display Resolution": "FHD",
+   "Display Features": "Anti-Glare, 250 nits",
+   "Touch Screen": "N/A"
+  },
+  "Power": {
+   "Battery Type": "3-Cell Battery",
+   "Battery Capacity": "41WHr (Integrated)",
+   "Adapter Type": "65 Watt AC adapter"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Warranty"
+  },
+  "Image": {
+   "Model": "Pro 14 Essential PV14250"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core 3 100U (6 Cores, Up to 4.7GHz)",
+  "Memory: 8GB DDR5 RAM, Storage: 512GB M.2 PCIe NVMe SSD",
+  "Features: HD RGB Camera, SD Card Reader, USB Type-C, Wi-Fi 6",
+  "Operating System: Windows 11 Pro"
+ ],
+ "model": "Pro 14 Essential PV14250",
+ "warranty": "3-Year Warranty",
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://www.creatus.com.bd/dell-pro-14-essential-pv14250-laptop",
+ "store": "creatus"
+}

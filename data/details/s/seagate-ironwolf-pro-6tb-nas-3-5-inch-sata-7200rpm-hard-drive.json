@@ -1,0 +1,25 @@
+{
+ "specs": {
+  "Hard Disk Feature": {
+   "Disk Type": "SATA NAS HDD",
+   "RPM": "7200",
+   "Data Buffer": "256 MB",
+   "Read/Write Speed": "214MB/s"
+  },
+  "Key Features": {
+   "Capacity": "6TB",
+   "Interface Type": "SATA 6Gb/s"
+  },
+  "Physical Specification": {
+   "Size": "3.5 Inch"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "2 years",
+ "fetched": "2026-11-15T18:06+06:00",
+ "source": "https://www.pchouse.com.bd/seagate-ironwolf-pro-6tb-nas-hdd",
+ "store": "pchouse"
+}

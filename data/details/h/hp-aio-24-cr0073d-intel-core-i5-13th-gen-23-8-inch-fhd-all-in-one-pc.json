@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Windows 11 Home",
+   "Memory": "8GB DDR4-3200 (1 x 8GB), 2 SODIMM Slots",
+   "Processor": "Intel Core i5-1335U, 10 Cores, 12 Threads, Up to 4.6 GHz, 12MB L3 Cache",
+   "Chipset": "Intel SoC Platform",
+   "Graphics": "Integrated Intel Graphics; Intel Iris Xe Graphics capabilities depend on dual-channel memory configuration",
+   "Form Factor": "All-in-One PC",
+   "Audio": "Dual 2W Speakers",
+   "Storage": "512GB PCIe NVMe M.2 SSD",
+   "Power Supply": "90W Smart AC Power Adapter",
+   "CPU Cooler": "Integrated Cooling Solution",
+   "Others": "23.8-inch FHD IPS, 250 nits, 99% sRGB, Anti-Glare, HP 510SP White Wireless Keyboard and Mouse Combo, FHD IR Privacy Camera"
+  },
+  "Network & Connectivity": {
+   "Lan": "Integrated 10/100/1000 GbE LAN",
+   "Network": "Realtek Wi-Fi 6 (2x2), Bluetooth 5.4"
+  },
+  "Input Devices": {
+   "External I/O Ports": "1 x USB Type-C 5Gbps, 2 x USB Type-A 5Gbps, 2 x USB 2.0 Type-A, 1 x HDMI-out 1.4, 1 x RJ-45, 1 x Headphone/Microphone Combo"
+  },
+  "Physical Specification": {
+   "Color": "Shell White",
+   "Weight": "Not Specified",
+   "Dimensions": "54.05 x 18.62 x 40.9 cm"
+  },
+  "Warranty Information": {
+   "Warranty": "3-Year Limited Warranty"
+  },
+  "Image": {
+   "Model": "24-cr0073d"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-1335U (12MB L3 Cache, Up to 4.6 GHz)",
+  "RAM: 8GB DDR4, Storage: 512GB SSD",
+  "Display: 23.8\" FHD (1920x1080) IPS"
+ ],
+ "model": "24-cr0073d",
+ "warranty": "3-Year Limited Warranty",
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://www.creatus.com.bd/hp-aio-24-cr0073d-core-i5-13th-gen-fhd-all-in-one-pc",
+ "store": "creatus"
+}

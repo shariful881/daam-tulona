@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Key Features": {
+   "Button": "WPS Button, Power Button",
+   "Frequency": "2.4 GHz",
+   "Interface": "1 x WAN, 4 x LAN",
+   "Wireless": "Yes",
+   "Network Standard": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n, IPv4, IPv6",
+   "Encryption": "64-bit WEP, 128-bit WEP, WPA2-PSK, WPA-PSK, WPA-Enterprise , WPA2-Enterprise , WPS support"
+  },
+  "Power Mode": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 0.5 A current"
+  },
+  "Router Features": {
+   "Antenna": "Fixed antenna x 2",
+   "Button": "WPS Button, Power Button",
+   "Data Rate": "802.11n : up to 300 Mbps"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "146 x 111 x 24 ~ mm (WxDxH) (Without Bezel)",
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years warranty"
+  }
+ },
+ "key_features": [
+  "Frequency: 2.4 GHz",
+  "Antenna: Fixed antenna x 2",
+  "Data Rate: up to 300 Mbps"
+ ],
+ "warranty": "02 years warranty",
+ "fetched": "2026-11-15T17:31+06:00",
+ "source": "https://www.pchouse.com.bd/asus-rt-n12-plus-300mbps-router",
+ "store": "pchouse"
+}

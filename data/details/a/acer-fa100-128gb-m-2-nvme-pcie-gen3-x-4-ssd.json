@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity(GB)": "128 GB",
+   "Sequential R/W": "Read: 3300 MB/s, Write: 2700 MB/s",
+   "Flash Type": "3D NAND",
+   "Interface Type": "PCIe Gen3 x4, NVMe1.4",
+   "Form Factor": "M.2 2280"
+  },
+  "Physical Specifications": {
+   "Dimension": "100 x 70 x 6.7 mm"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 °C - 70 °C / 32 °F - 158 °F",
+   "Storage Temperature": "-40 ℃ - 85 °C / -40 °F - 185 °F"
+  },
+  "Warranty Information": {
+   "Warranty": "5-Year"
+  }
+ },
+ "key_features": [
+  "Capacity: 128 GB",
+  "Interface: PCIe Gen3 x4, NVMe1.4",
+  "Form Factor: M.2 2280",
+  "Read: 950 MB/s, Write: 650 MB/s"
+ ],
+ "warranty": "5-Year",
+ "fetched": "2026-11-15T17:53+06:00",
+ "source": "https://www.pchouse.com.bd/acer-fa100-128gb-m-2-nvme-pcie-ssd",
+ "store": "pchouse"
+}

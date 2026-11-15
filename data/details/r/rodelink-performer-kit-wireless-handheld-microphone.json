@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specification": {
+   "Transmission type": "2.4GHz Fixed Frequency Agile System",
+   "System dynamic range": "118dB",
+   "Range (distance)": "Up To 100m*",
+   "Frequency range": "35Hz – 20kHz",
+   "Maximum output level": "+18dBu",
+   "Max input signal level": "140dB SPL",
+   "Max latency": "4ms"
+  },
+  "Receiver (RX – DESK)": {
+   "Power source": "DC Power Pack 15v 1A Or DC Power Pack",
+   "Antenna": "External Diversity Antenna",
+   "Output connection": "Balanced XLR / Unbalanced 1/4″ Jack",
+   "Dimensions": "208mm(W) X 37mm(H) X 166mm(D)",
+   "Weight": "792gm"
+  },
+  "Transmitter (TX – M2)": {
+   "Power source": "Batteries Or USB",
+   "Antenna": "Diversity Antenna Located at The Bottom Of The TX – M2",
+   "Input connection": "N/A",
+   "Dimensions": "40mm(W) X 256mm(H) X 40mm(D)",
+   "Weight": "222gm"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:35+06:00",
+ "source": "https://diamu.com.bd/product/rodelink-performer-kit-wireless-handheld-microphone/",
+ "store": "diamu"
+}

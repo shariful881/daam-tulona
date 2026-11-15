@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Memory": {
+   "Bus Speed": "3200MHz",
+   "Ram Type": "DDR4"
+  },
+  "Main Features": {
+   "Capacity": "16GB"
+  },
+  "Other Features": {
+   "Latency": "CL22",
+   "Form Factor": "SO-DIMM",
+   "Compatibility": "Supports Intel & AMD DDR4 Laptop Platforms",
+   "Cooling": "Standard Design with Heatsink"
+  },
+  "Power": {
+   "Voltage": "1.2V"
+  },
+  "Image": {
+   "Model": "16GB DDR4 3200MHz"
+  }
+ },
+ "key_features": [
+  "Capacity: 16GB",
+  "Memory Type: DDR4",
+  "Speed: 3200MHz",
+  "Voltage: 1.2V"
+ ],
+ "model": "16GB DDR4 3200MHz",
+ "fetched": "2026-11-15T17:56+06:00",
+ "source": "https://www.creatus.com.bd/dato-16gb-ddr4-3200mhz-ram-with-heat-sink",
+ "store": "creatus"
+}

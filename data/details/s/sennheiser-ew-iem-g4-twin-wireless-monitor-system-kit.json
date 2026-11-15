@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Specifications": {
+   "Frequency Band": "A: 516 to 558 MHz",
+   "Receiving Frequency": "Maximum 1680 receiving frequencies, adjustable in 25 MHz steps\n20 frequency banks, each with up to 16 factory-preset channels, no intermodulation\n6 frequency banks with up to 16 programmable channels",
+   "Switching Bandwidth": "Up to 42 MHz",
+   "Nominal/Peak Deviation": "±24 kHz / ±48 kHz",
+   "Receiver Type": "Adaptive diversity",
+   "Sensitivity": "< 4 μV, typ. 1.6 μV for 52 dBA (with HDX, peak deviation) rms s/n",
+   "Adjacent Channel Selectivity": "Typically ≥ 65 dB",
+   "Intermodulation Attenuation": "Typically ≥ 70 dB",
+   "Blocking": "≥ 80 dB",
+   "Pilot Tone": "Squelch: Can be switched off",
+   "Squelch": "5 to 25 dBµV, adjustable in steps of 2 dB",
+   "Compander": "Sennheiser HDX",
+   "Signal to Noise Ratio": "Approximately 90 dBA (1 mV, peak deviation)",
+   "Total Harmonic Distortion (THD)": "≤ 0.9%",
+   "Audio Output Power": "2 x 100 mW at 32 Ohms (@ 2.4 V, 5% THD, nominal deviation)",
+   "Quality Setting Range": "+8 dB at 80 kHz",
+   "Limiter": "-18 dB to -6 dB, adjustable in steps of 6 dB, can be switched off",
+   "Temperature Range": "14 to 131°F / -10 to 55°C",
+   "Power Supply": "2 x AA batteries, 1.5 V or BA 2015 accupack",
+   "Operating Time": "Approximately 4 to 6 hours (depending on volume level)",
+   "Dimensions": "3.2 x 2.5 x 0.9″ / 82 x 64 x 24 mm",
+   "Weight": "4.4 oz / 125 g"
+  },
+  "Current Consumption": {
+   "At Nominal Voltage": "Approximately 140 mA",
+   "With Transmitter Switched Off": "≤ 25 µA"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:39+06:00",
+ "source": "https://diamu.com.bd/product/sennheiser-ew-iem-g4-twin-monitor-system-kit/",
+ "store": "diamu"
+}

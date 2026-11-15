@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n",
+   "Signal Rate": "Up to 300Mbps",
+   "Frequency Range": "2.4-2.4835GHz",
+   "Transmit Power": "20dBm(MAX)",
+   "Wireless Modes": "Range Extender, Router",
+   "Wireless Security": "Support 64/128-bit WEP, WPA-PSK/WPA2-PSK (TKIP/AES)"
+  },
+  "Hardware": {
+   "Interface": "1* 10/100Mbps Ethernet port",
+   "LED Indicators": "Signal",
+   "Antenna": "2* internal antenna",
+   "Power Supply": "100-240V AC"
+  },
+  "Buttons": {
+   "Range Extender mode": "WPS/Default function",
+   "Router mode": "Normal Power/High Power/Default function"
+  },
+  "Software": {
+   "Advanced": "Firmware Upgrade, Factory Defaults, Reboot"
+  },
+  "Others": {
+   "Certification": "FCC, CE;",
+   "Package": "1* E1+\n1* Ethernet Cable\n1* Quick Installation Guide"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃",
+   "Storage Temperature": "-40℃~70℃",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T17:36+06:00",
+ "source": "https://smartbd.com/product/netis-e1-300mbps-wireless-n-range-extender/",
+ "store": "smartbd"
+}

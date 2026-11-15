@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Memory": "Memory Components: 3D NAND"
+  },
+  "Key Features": {
+   "Capacity": "2TB",
+   "Random Read": "4KB Random Read: Up to 680,000 IOPS",
+   "Sequential Read": "Max Sequential Read: Up to 5000 MBps",
+   "Random Write": "4KB Random Write: Up to 850,000 IOPS",
+   "Sequential Write": "Max Sequential Write: Up to 4200 MBps",
+   "Form Factor": "M.2 2280"
+  },
+  "Features": {
+   "Interface": "PCI-Express 4.0 x4 NVMe"
+  }
+ },
+ "key_features": [
+  "Interface: NVMe (PCIe Gen 3 x4)",
+  "Capacity: 2TB",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 5,000/4,300 MBbps"
+ ],
+ "fetched": "2026-11-15T18:00+06:00",
+ "source": "https://www.pchouse.com.bd/crucial-p3-plus-2tb-nvme-ssd",
+ "store": "pchouse"
+}

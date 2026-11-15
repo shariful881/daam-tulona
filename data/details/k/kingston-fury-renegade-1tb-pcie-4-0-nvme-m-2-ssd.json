@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Storage": "1TB",
+   "Form Factor (Inch)": "M.2 2280",
+   "Interface": "PCIe NVMe Gen4x4"
+  },
+  "Main Features": {
+   "Write Speed": "6000MB/s"
+  },
+  "Technical Info": {
+   "Approx. Power Consumption": "50mW (idle), 0.33W (avg), 2.8W (Max/read), 6.3W (Max/write)"
+  },
+  "Physical Specification": {
+   "Weight": "7gm"
+  },
+  "Physical Specifications": {
+   "Dimensions": "80 x 22 x 2.21mm"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Year"
+  }
+ },
+ "key_features": [
+  "Storage Capacity: 1TB",
+  "Interface: PCIe 4.0 x4 NVMe",
+  "Form factor: M.2 2280",
+  "Sequential read/write: 7,300/6,000MB/s"
+ ],
+ "warranty": "5 Year",
+ "fetched": "2026-11-15T18:02+06:00",
+ "source": "https://www.pchouse.com.bd/kingston-fury-renegade-1tb-m.2-2280-internal-ssd",
+ "store": "pchouse"
+}

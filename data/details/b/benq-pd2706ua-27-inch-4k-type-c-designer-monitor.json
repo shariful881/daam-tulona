@@ -1,0 +1,110 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model Name": "PD2706UA 4k Designer Monitor"
+  },
+  "Display": {
+   "Screen Size": "27 inch",
+   "Product Color": "Dark Gray",
+   "Panel Type": "IPS",
+   "Backlight Technology": "LED backlight",
+   "Resolution (max.)": "3840×2160",
+   "Brightness (peak)(HDR)": "350 nits",
+   "Viewing Angle (L/R) (CR>=10)": "178°/178°",
+   "HDR": "HDR10;VESA DisplayHDR 400",
+   "Response Times (GtG)": "5 ms",
+   "Native Contrast": "1200:1",
+   "Refresh Rate (Hz)": "60 Hz",
+   "Color Gamut": "99% sRGB, 99% Rec.709",
+   "Color Mode": "Animation;CAD/CAM;Darkroom;DICOM;HDR;Low Blue Light;M-Book;Rec.709;sRGB;User",
+   "Aspect Ratio": "16:9",
+   "Display Colors": "1.07 billion colors",
+   "PPI": "163",
+   "Display Screen Coating": "Anti-Glare",
+   "Color Temperature": "6500K;9300K;User Define;5000K",
+   "K Locker": "Yes",
+   "Gamma": "1.8 – 2.6, sRGB",
+   "HDCP": "2.2",
+   "OSD Language": "Arabic, Chinese (simplified), Chinese (traditional), Czech, Deutsch, English, French, Hungarian, Italian, Japanese, Korean, Netherlands, Polish, Portuguese, Romanian, Russian, Spanish, Swedish",
+   "AMA": "Yes"
+  },
+  "Audio": {
+   "Built-in Speaker": "2.5Wx2",
+   "Microphone": "N/A",
+   "Headphone Jack": "Yes"
+  },
+  "Power": {
+   "Voltage Rating": "100 – 240V",
+   "Power Supply": "N/A",
+   "Power Consumption (normal)": "27.5 W",
+   "Power Consumption (max)": "152 W",
+   "Power Consumption (sleep mode)": "<0.5 W",
+   "Power Delivery(USB C / Thunderbolt 3)": "65 W"
+  },
+  "Dimension and Weight": {
+   "Tilt (down/up)": "-5˚ – 30˚",
+   "Swivel (left/right)": "275˚/ 275˚",
+   "Pivot": "90˚",
+   "Height Adjustment Stand": "150 mm",
+   "Dimensions (HxWxD) (mm)": "553 – 703 x 614 x 459.4",
+   "Dimensions (HxWxD) (inch)": "21.8- 27.7 x 24.2 x 18.1",
+   "Dimensions (HxWxD) (Landscape) (mm)": "424-534 x 612 x 241",
+   "Dimensions (HxWxD) (Landscape) (inch": "16.7-21 x 24.1 x 9.5",
+   "Dimensions (HxWxD) (Pivot) (mm)": "666 x 384 x 241",
+   "Dimensions (HxWxD) (w/o Base) (inch)": "14.4 x 24.2 x 3.2",
+   "Net Weight (kg)": "10",
+   "Net Weight (lb)": "22",
+   "Net Weight (w/o Base) (kg)": "6.2",
+   "Net Weight (w/o Base) (lb)": "13.7",
+   "VESA Wall Mount": "100×100 mm"
+  },
+  "Accessories": {
+   "Other Accessories": "QSG, Safety instruction, Regulatory Statements"
+  },
+  "Connectivity": {
+   "HDMI (v2.0)": "1",
+   "DisplayPort (v1.4)": "1",
+   "USB C ( Downstream )": "1",
+   "USB Type B ( Upstream )": "2",
+   "USB 3.2 ( Downstream )": "3",
+   "All-in-One Connection": "USB-C"
+  },
+  "Eye Care": {
+   "Low Blue Light": "Yes",
+   "Flicker-free Technology": "Yes",
+   "Brightness Intelligence Gen2 (B.I. Gen2)": "Yes"
+  },
+  "Certification": {
+   "TUV Certificate": "Flicker-free, Low Blue Light",
+   "Eye-CareU": "Yes"
+  },
+  "Professional": {
+   "Video Format Support": "Yes",
+   "Factory Calibration Report": "Yes",
+   "Delta E(avg)": "≤3",
+   "CAD/CAM mode": "Yes",
+   "KVM Switch": "Yes",
+   "DualView": "Yes",
+   "Auto Pivot": "Yes",
+   "Uniformity Technology": "Yes",
+   "Hotkey Puck G2": "Yes",
+   "PIP/PBP": "Yes",
+   "ICCsync": "Yes"
+  },
+  "Software": {
+   "Display Pilot": "Yes",
+   "Display Pilot 2": "Yes",
+   "Display ColorTalk": "Yes",
+   "Display Quickit": "Yes"
+  }
+ },
+ "key_features": [
+  "Resolution: 4K (3840 x 2160)",
+  "Display: 27″, IPS, 60Hz, 5ms (MPRT)",
+  "Ports: 1x HDMI2.0, 1x DisplayPort1.4, 4x USB, 2x USB Type-C",
+  "Features: Flicker-free Technology, Low Blue Light, HDR10"
+ ],
+ "fetched": "2026-11-15T18:07+06:00",
+ "source": "https://smartbd.com/product/benq-pd2706ua-27-inch-4k-type-c-designer-monitor/",
+ "store": "smartbd"
+}

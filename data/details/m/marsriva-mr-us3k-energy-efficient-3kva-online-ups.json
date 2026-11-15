@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Display Features": {
+   "Display Type": "LCD"
+  },
+  "Main Features": {
+   "Capacity": "3KVA",
+   "Frequency": "50Hz/60Hz",
+   "Load Capacity": "3KW",
+   "Input Voltage": "220V ~ 240V",
+   "Output Voltage": "220V ~ 240V",
+   "Frequency (Battery Mode)": "50Hz/60Hz",
+   "Battery": "6 pcs with 12V & 9Ah"
+  },
+  "Output Features": {
+   "Type of Wave": "Sinewave"
+  },
+  "Connectivity": {
+   "Power": "Power Factor: 1.0 PF"
+  },
+  "Physical Specification": {
+   "Weight": "17Kg",
+   "Dimensions": "345x144x225"
+  },
+  "Image": {
+   "Model": "MR-US3K"
+  }
+ },
+ "key_features": [
+  "Capacity: 3kVA / 3KW",
+  "Output Voltage: 208V ~ 240V",
+  "Topology: Online"
+ ],
+ "model": "MR-US3K",
+ "fetched": "2026-11-15T17:54+06:00",
+ "source": "https://www.creatus.com.bd/marsriva-mr-us3k-energy-efficient-3kva-online-ups",
+ "store": "creatus"
+}

@@ -1,0 +1,166 @@
+{
+ "specs": {
+  "Canon imagePROGRAF TX-5410 (44”)": {
+   "Printer Type": "5-Colour 44″ (1,118 mm),\nMultifunctional Printer",
+   "Number of Nozzles": "15,360 nozzles (MBK: 5,120 nozzles; BK, C, M, Y: 2,560 nozzles each）",
+   "Maximum Print Resolution": "2400 × 1200 dpi",
+   "Nozzle Pitch": "1200 dpi (2 lines)",
+   "Line Accuracy *1": "± 0.1% or less",
+   "Minimum Ink Droplet Size": "5 pl",
+   "Ink Capacity": "Sales Ink: 160 ml / 330 ml / 700 ml (MBK, BK, C, M, Y)",
+   "Ink Type": "Pigment Ink",
+   "Printer Language": "SG Raster (Swift Graphic Raster)"
+  },
+  "JPEG (Ver. JFIF1.02)": {
+   "Printing Solutions": "Apple AirPrint, Direct Print Plus, Direct Print & Share, CPP Driver Select & Publisher Select, AutoCAD Optimized Printer Driver, Easy-PhotoPrint Editor, Canon PRINT Inkjet/SELPHY, Canon Print Service, Free Layout plus, PosterArtist Lite, imageRUNNER ADVANCE Direct Enlargement Copy",
+   "Management Solutions": "Media Configuration Tool, Accounting Manager, Device Management Console, Quick Utility Box",
+   "Standard Interfaces (Built-in)": "USB A Port:"
+  },
+  "Wpa2-Psk (Tkip/Aes)": {
+   "Memory": "Standard: 128 GB"
+  },
+  "Physical: 2 GB": {
+   "Hard Disk": "500 GB (Encrypted)"
+  },
+  "Plain Paper": {
+   "CAD Drawings, A1": "24 sec [Fast (Custom Q5)]"
+  },
+  "42 sec [Standard]": {
+   "Poster, A1": "25 sec [Fast (Custom Q5)]"
+  },
+  "Heavyweight Coated Paper HG": {
+   "Poster, A1": "40 sec [Fast]"
+  },
+  "Glossy Photo Paper HG 170": {
+   "Poster, A0": "2 min 59 sec [Fast]"
+  },
+  "Media Feed and Output": {
+   "Roll Paper (Single)": "Front Load, Front Output",
+   "Cut Sheet": "Front Load, Front Output*3",
+   "Media Width (Roll / Cut Sheet)": "152.4 ～ 1,118 mm",
+   "Media Thickness (Roll / Cut Sheet)": "0.07 ～ 0.8 mm"
+  },
+  "Min. Printable Length": {
+   "Roll Paper": "101.6 mm*4",
+   "Cut Sheet": "203.2 mm"
+  },
+  "Max. Printable Length": {
+   "Roll Paper": "18 m*5",
+   "Cut Sheet": "1.6 m",
+   "Maximum Outer Roll Diameter": "170 mm or less",
+   "Borderless Printing Width": "152.4 ～ 1,118 mm"
+  },
+  "Margins (Recommended Area)": {
+   "Roll Paper": "Top: 20 mm, Bottom: 3 mm, Side: 3 mm",
+   "Cut Sheet (Apple AirPrint)": "Top: 20 mm, Bottom: 31 mm, Side: 3 mm",
+   "Cut Sheet (Others)": "Top: 20 mm, Bottom: 20 mm, Side: 3 mm"
+  },
+  "Margins (Printable Area)": {
+   "Roll Paper": "Top: 3 mm, Bottom: 3 mm, Side: 3 mm",
+   "Roll Paper (Borderless Print)": "Top: 0 mm, Bottom: 0 mm, Side: 0 mm",
+   "Cut Sheet (Apple AirPrint)": "Top: 3 mm, Bottom: 12.7 mm, Side: 3 mm",
+   "Cut Sheet (Others)": "Top: 3 mm, Bottom: 20 mm, Side: 3 mm"
+  },
+  "Dimensions (W x D x H)": {
+   "Main Unit + Stand + Basket": "1593 x 984 x 1168 mm (Basket Open)",
+   "Main Unit + Roll Unit + Stand + Stacker": "1593 x 1188 x 1168 mm (Basket Open)",
+   "Roll Unit": "1577 x 336 x 318 mm"
+  },
+  "Weight": {
+   "Main Unit + Stand + Basket": "114 kg",
+   "Main Unit + Roll Unit + Stand + Stacker": "146 kg",
+   "Roll Unit": "20 kg",
+   "Scanner": "7.8 kg",
+   "System Controller": "2.5 kg"
+  },
+  "Packaged Dimensions (W x D x H)": {
+   "Main Unit + Stand + Basket + Pallet": "1820 x 915 x 1061 mm",
+   "Stacker": "1464 x 906 x 291 mm",
+   "Roll Unit": "1727 x 562 x 461 mm"
+  },
+  "Packaged Weight": {
+   "Main Unit + Stand + Basket + Pallet": "165 kg",
+   "Stacker": "25 kg",
+   "Roll Unit": "30 kg"
+  },
+  "Power & Operating Requirements": {
+   "Power Supply": "AC 100 – 240 V, 50 – 60 Hz"
+  },
+  "Power Consumption": {
+   "Printing": "116 W or less",
+   "Sleep Mode": "2.0 W or less",
+   "Power Off": "0.3 W or less"
+  },
+  "Operating Environment": {
+   "Temperature": "15 ～ 30 ℃",
+   "Humidity": "10 ～ 80 % RH (no dew condensation)"
+  },
+  "Acoustic Sound": {
+   "Acoustic Power*7": "Operation: Approx. 69 dB",
+   "Acoustic Pressure*7": "Operation: Approx. 51 dB (A)"
+  },
+  "Accessories": {
+   "Roll Unit (Required)": "RU-42",
+   "Stacker (Optional)": "SS-41",
+   "2″/3″ Roll Holder (Optional)": "RH2-46"
+  },
+  "Consumables": {
+   "Print Head": "PF-06",
+   "Cutter Blade": "CT-07",
+   "Maintenance Cartridge": "MC-30",
+   "Ink Tank": "PFI-8110 (160 ml) / PFI-8310 (330 ml) / PFI-8710 (700 ml)"
+  },
+  "Included Accessories": {
+   "Ink Tank": "330 ml (MBK), 160 ml  (BK, C, M, Y)",
+   "Print Head": "PF-06",
+   "Cutter Blade": "CT-07",
+   "Maintenance Cartridge": "MC-30"
+  },
+  "Scanner": {
+   "Technology": "Single Sensor, full width straight-line CIS with dual LED illumination",
+   "Scan Width": "36″ (914 mm)",
+   "Min. Scan Width": "6″ (150 mm)"
+  },
+  "Max. Scan Length": {
+   "JPEG/PDF": "8 m",
+   "TIFF": "15.2 m"
+  },
+  "Max. Copy Speed *9": {
+   "200 dpi": "6 ips (Colour) / 13 ips (Greyscale)",
+   "300 dpi": "4 ips (Colour) / 8.6 ips (Greyscale)",
+   "600 dpi": "2 ips (Colour) / 4.3 ips (Greyscale)"
+  },
+  "Max. Scan Speed *9": {
+   "200 dpi": "3 ips (Colour) / 13 ips (Greyscale)",
+   "300 dpi": "2 ips (Colour) / 8.6 ips (Greyscale)",
+   "600 dpi": "2 ips (Colour) / 4.3 ips (Greyscale)",
+   "Optical Resolution": "1200 dpi",
+   "Max. Document Thickness *10": "1 mm",
+   "Document Handling": "Front Load, Rear Output\n*11"
+  },
+  "System Controller": {
+   "Operating System": "Windows 10 Enterprise LTSC 64 bit",
+   "Processor": "Intel Pentium G5400T",
+   "Hard Disk": "256 GB (Solid State Drive)",
+   "Memory": "8 GB (DDR 4)",
+   "Display": "15.6″ multi-touch colour display",
+   "Software Included": "SmartWorks MFP V6",
+   "Scan Format": "PDF, Multipage PDF, JPEG, TIFF, DWF",
+   "Dimensions (WxDxH) *12": "1056 x 251 x 156 mm"
+  },
+  "Power Consumption (Scanner)": {
+   "Operation *13": "22.7 W (Colour) / 23.3 W (Greyscale)",
+   "Sleep Mode": "0.2 W",
+   "Standby": "12.4 W"
+  },
+  "Power Consumption (System Controller)": {
+   "Operation": "50.1 W",
+   "Sleep Mode": "1.7 W",
+   "Standby": "7.5 W"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-15T18:18+06:00",
+ "source": "https://smartbd.com/product/canon-imageprograf-tx-5410-mfp-z36-large-format-printer/",
+ "store": "smartbd"
+}

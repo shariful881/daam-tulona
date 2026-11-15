@@ -1,0 +1,49 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Operating System": "Free DOS",
+   "Security Management": "Trusted Platform Module (Discrete TPM Enabled)",
+   "Processor": "Intel Core i7 processor 14700 (33MB cache, 20 cores, 28 threads, 4.2 GHz up to 5.4 GHz, 65W)",
+   "Motherboard": "Intel Q670",
+   "RAM": "8 GB: 1 x 8 GB, DDR5 4800 MHz and supportability up to 128GB",
+   "Audio": "Realtek Audio Controller ALC3246-CG",
+   "Storage": "512GB SSD",
+   "Power Supply": "260W"
+  },
+  "Graphics": {
+   "Graphics": "Integrated Intel UHD 770"
+  },
+  "Input Devices": {
+   "Keyboard": "Wired Keyboard KB216 Black (English)",
+   "Mouse": "Optical Mouse - MS116 (Black)"
+  },
+  "Dimension": {
+   "Height": "367.00 mm (14.45 in.)",
+   "Width": "169.00 mm (6.65 in.)",
+   "Depth": "300.80 mm (11.84 in.)"
+  },
+  "Weight": {
+   "Weight (Minimum)": "5.93 kg (13.07 lb)",
+   "Weight (Maximum)": "9.63 kg (21.24 lb)"
+  },
+  "Physical Specification": {
+   "Color": "Standard Black"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "OptiPlex Tower 7020 Plus"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-14700 (33MB cache, Up to 5.4GHz)",
+  "RAM: 8GB, Storage: 512GB PCIe NVMe SSD",
+  "Graphics: Integrated, Intel UHD 770"
+ ],
+ "model": "OptiPlex Tower 7020 Plus",
+ "warranty": "3 Years",
+ "fetched": "2026-11-15T17:58+06:00",
+ "source": "https://www.creatus.com.bd/dell-optiplex-tower-7020-plus-core-i7-brand-pc",
+ "store": "creatus"
+}

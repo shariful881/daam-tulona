@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Mechanical Design": {
+   "Tilt": "Pan/Tilt/Rotation: 0~355°Pan/-10~70°Tilt"
+  },
+  "Basic Information": {
+   "Video": "Frame Rate: Up to 25/30fps fps frame rate",
+   "Angle of View": "86.5°(H), 44.5°(V), 104.5°(D)",
+   "Lens": "Lens Type: Fixed Lens",
+   "IR Distance": "10m(33ft)",
+   "Feature": "Wi-Fi: IEEE802.11b/g/n, 50m Open Field",
+   "Camera": "Effective Pixels: 3MP (2304 x 1296)",
+   "Others": "Operating Conditions: -10°C~+45°C, Less Than 95%RH",
+   "Image Sensor": "1/2.7\" Progressive CMOS"
+  },
+  "Features": {
+   "Dimension": "80 × 80 × 110.4mm (3.16× 3.16 × 4.36 inch)",
+   "Weight": "171g (0.38lb)"
+  },
+  "Power Specifications": {
+   "Power Consumption": "<5W",
+   "Power Supply": "DC 5V1A"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-15T17:45+06:00",
+ "source": "https://www.pchouse.com.bd/dahua-imou-ranger-rc-ip-camera",
+ "store": "pchouse"
+}
