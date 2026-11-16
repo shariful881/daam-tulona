@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Load Capacity": "900W"
+  },
+  "UPS & IPS Feature": {
+   "Backup Time": "Back up time(Full load): 10 - 15 Minutes",
+   "Frequency (Battery Mode)": "50/60Hz +/-5%",
+   "Input Voltage Range": "175-275 VAC",
+   "Noise Level": "Less than 40dB",
+   "Output Voltage Range": "220/230 VAC +/-10%",
+   "Transfer Time": "2-6 ms typical",
+   "Type of Wave": "Simulated Sine Wave"
+  },
+  "Input": {
+   "Frequency Range": "50/60Hz +/-1 Hz",
+   "Voltage": "220-240V"
+  },
+  "Warranty Information": {
+   "Warranty": "1 year"
+  }
+ },
+ "key_features": [
+  "Output Voltage (V): 220/230 VAC +/-10%",
+  "Frequency (Hz - kHz): 50/60Hz +/-5%",
+  "Input Voltage (V): 175-275 VAC",
+  "Load Capacity: 900w"
+ ],
+ "warranty": "1 year",
+ "fetched": "2026-11-16T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/apollo-1240-2000va-offline-ups-with-metal-body",
+ "store": "pchouse"
+}

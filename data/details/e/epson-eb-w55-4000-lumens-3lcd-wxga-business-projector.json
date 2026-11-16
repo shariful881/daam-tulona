@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "EB-W55",
+   "Country of Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia/China/Vietnam",
+   "Projection System": "3LCD Technology, RGB liquid crystal shutter",
+   "LCD Size": "0.59” (C2 Fine)",
+   "Driving Method": "Poly-silicon TFT active matrix",
+   "Pixel Number": "1,024,000 dots (1280 x 800) x 3",
+   "Native Resolution": "WXGA",
+   "Aspect Ratio": "16:10"
+  },
+  "Projection Lens:": {
+   "Type": "Optical Zoom (Manual) / Focus (Manual)",
+   "F-Number": "1.49 – 1.72",
+   "Focal Length": "16.9 – 20.28 mm",
+   "Zoom Ratio": "1.0 – 1.2",
+   "Throw Ratio": "1.30 – 1.56",
+   "Light source :Lamp Type": "210 W UHE",
+   "Life (Normal / Eco)": "12,000 hours"
+  },
+  "Screen Size (Projected Distance):": {
+   "Zoom: Wide": "33” – 320” [0.91 – 9.07 m]",
+   "Zoom: Tele": "33” – 320” [1.10 – 10.89 m]",
+   "Standard Screen Size": "60” [1.68 – 2.02 m]",
+   "Light Output (Center)*2": "4,100 lm",
+   "Contrast Ratio": "16,000:1",
+   "Vertical / Horizontal Keystone": "±30° / ±30°",
+   "Auto Keystone Correction": "Yes (V only)",
+   "Internal Speaker": "Monaural 2W x 1"
+  },
+  "Connectivity:": {
+   "Digital Input HDMI": "2 (HDCP 1.4)",
+   "Audio Output Stereo Mini": "1",
+   "USB Input USB Type A": "1 (For Firmware Update, Copy OSD Settings)",
+   "USB Type B": "1 (For Firmware Update, Copy OSD Settings)",
+   "Network Wireless LAN": "Built-in",
+   "Supported Speed": "IEEE 802.11a/b/g/n",
+   "Supported Interface": "Infrastructure, Simple AP (Wi-Fi Direct)",
+   "Security Type": "Infrastructure: Open, WPA2 / WPA3-PSK Simple AP (Wi-Fi Direct): OPEN, WPA2-PSK (AES)",
+   "Supported Codec": "H.264 (AVC)",
+   "Operating Temperature": "Low Altitude (0 – 2,286m/7,500ft): 5 – 40 °C High Altitude (Over 2,286m/7,500ft): 5 – 35 °C 20% – 80% Humidity, No Condensation",
+   "Operating Altitude": "Over 1,500m/4,921ft with High Altitude Mode: 0 – 3,048m (0 -10,000ft)",
+   "Direct Power On / Off": "Yes",
+   "Start-Up Period": "Less than 7 seconds (Epson Logo); Warm-up Period: 30 seconds",
+   "Cool Down Period": "Instant Off",
+   "Air Filter : Type": "Electrostatic Filter",
+   "Maintenance Cycle*": "6,000 hours (Normal) / 12,000 hours (Eco)",
+   "Power Supply Voltage": "100 – 240 V AC ±10%, 50/60 Hz"
+  },
+  "Power Consumption (220 – 240V):": {
+   "Lamp On Normal": "332 W",
+   "Extended": "231 W",
+   "Standby (Normal / Eco)": "2.0 / 0.3 W",
+   "Dimension Excluding Feet (W x D x H) :": "302 x 234 x 87 mm",
+   "Weight": "Approx. 2.6kg",
+   "Fan Noise (Normal / Eco)": "37dB / 28dB",
+   "Warranty": "2 Years on main unit, 1 year or 1000 hours on lamp"
+  }
+ },
+ "key_features": [
+  "Light source: Lamp",
+  "Brightness: 4000 Lumens",
+  "Resolution: WXGA (1280 x 800), 3LCD Projection System",
+  "Interface: 2 x HDMI, 1 x USB 2.0 Type-B (Service Only)"
+ ],
+ "model": "EB-W55",
+ "warranty": "2 Years on main unit, 1 year or 1000 hours on lamp",
+ "fetched": "2026-11-16T18:30+06:00",
+ "source": "https://smartbd.com/product/epson-eb-w55-4000-lumens-3lcd-wxga-business-projector/",
+ "store": "smartbd"
+}

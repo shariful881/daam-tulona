@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Power": {
+   "Adapter Type": "65W PD adapter",
+   "Battery Capacity": "53Whr"
+  },
+  "Basic Information": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Gaming Console": {
+   "RAM & Storage": "LPDDR5-6400Mhz"
+  },
+  "Network & Wireless Connectivity": {
+   "WiFi": "Intel Killer BE Wi-Fi 7"
+  },
+  "Connectivity": {
+   "Bluetooth": "Bluetooth V5.4"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Arc Graphics"
+  },
+  "Audio Features": {
+   "Speaker": "2x 2W Speaker"
+  },
+  "Others": {
+   "Other Features": "Control:\nRGB ABXY buttons\nRGB L & R Hall Effect analog sticks\nD-pad\nL & R Hall Effect analog triggers\nL & R bumpers\nView button\nMenu button\nMSI Center M button\nQuick Settings Key\n2x Assignable grip buttons\nHD haptics"
+  },
+  "Physical Specification": {
+   "Dimensions (W x D x H)": "294 x 117 x 21.2mm",
+   "Color": "Black",
+   "Weight": "675 g"
+  },
+  "Display Features": {
+   "Display Features": "7\" FHD (1920 x 1080), 120 Hz Refresh Rate, Touch Screen, 100% sRGB (Typical), 500nits (Typical), IPS-Level panel"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1x microSD card reader",
+   "Headphone & Microphone Port": "1x Mic-in/Headphone-out Combo Jack",
+   "USB Type-C / Thunderbolt Port": "1x Type-C (USB / DP / Thunderbolt 4) with PD charging"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core Ultra 7 processor with Intel AI Boost (NPU)",
+  "Display: 7” FHD (1920x1080), 120Hz, IPS-Level",
+  "Memory: LPDDR5-6400MHz",
+  "Graphics: Intel Arc Graphics"
+ ],
+ "warranty": "1 Year",
+ "fetched": "2026-11-16T18:26+06:00",
+ "source": "https://www.pchouse.com.bd/msi-claw-a1m-handheld-gaming-console",
+ "store": "pchouse"
+}

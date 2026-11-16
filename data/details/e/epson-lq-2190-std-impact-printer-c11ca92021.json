@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print Only",
+   "Printer Type": "Dot Matrix"
+  },
+  "Print": {
+   "Technology": "Impact dot matrix",
+   "Print Speed": "LQ: 10 cpi: 120 chars/s, 12 cpi: 144 chars/s, HighSpeed-Draft: 10 cpi: 480 chars/s, 12 cpi: 576 chars/s, Draft: 10 cpi: 360 chars/s, 12 cpi: 432 chars/s",
+   "Print Resolution": "360 x 180dpi"
+  },
+  "Paper Information": {
+   "Paper Type": "During printing on reclaimed paper, multipart paper, envelope, label or roll paper",
+   "Paper Weight": "100 – 420 mm ( Width)"
+  },
+  "Technical Specs": {
+   "Connectivity": "USB, Bi-directional parallel\nRS-232 (Optional)",
+   "Power Consumption": "46 Watt, 3 Watt (economy)"
+  },
+  "Support": {
+   "Software": "Windows 7, 8, Vista, XP, 2000, 95, 98"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-16T18:31+06:00",
+ "source": "https://smartbd.com/product/epson-lq-2190-std-impact-printer-c11ca92021/",
+ "store": "smartbd"
+}

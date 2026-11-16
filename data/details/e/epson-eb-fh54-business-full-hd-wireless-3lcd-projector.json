@@ -1,0 +1,79 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "EB-FH54",
+   "Country of Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia/China/Vietnam",
+   "Projection System": "3LCD Technology, RGB liquid crystal shutter"
+  },
+  "Specifications of Main Parts:": {
+   "LCD Size": "0.62” (C2 Fine",
+   "Driving Method": "Poly-silicon TFT active matrix",
+   "Pixel Number": "2,073,600 dots (1920 x 1080) x 3",
+   "Native Resolution": "Full HD",
+   "Aspect Ratio": "16:9"
+  },
+  "Projection Lens :": {
+   "Type": "Optical Zoom (Manual) / Focus (Manual)",
+   "F-Number": "1.51 – 1.77",
+   "Focal Length": "18.2 – 29.1 mm",
+   "Zoom Ratio": "1.0 – 1.62",
+   "Throw Ratio": "1.30 – 2.09",
+   "Light source :Lamp Type": "230 W UHE",
+   "Life (Normal / Eco)": "5,500 hours / 12,000 hours"
+  },
+  "Screen Size (Projected Distance):": {
+   "Zoom: Wide": "31” – 304” [0.88 – 8.88 m]",
+   "Zoom: Tele": "31” – 304” [1.43 – 14.29 m]",
+   "Standard Screen Size": "60” [1.73 – 2.80 m]"
+  },
+  "Brightness :": {
+   "White Light Output (Normal)": "4,100 lm",
+   "Colour Light Output": "4,100 lm",
+   "Light Output (Center)*2": "4,400 lm",
+   "Contrast Ratio": "16,000:1"
+  },
+  "Geometric Correction:": {
+   "Vertical / Horizontal Keystone": "±30° / ±30°",
+   "Auto Keystone Correction": "Yes (V only)",
+   "Internal Speaker": "Monaural 16W x 1"
+  },
+  "Connectivity:": {
+   "Digital Input HDMI": "2 (HDCP 1.4)",
+   "Audio Output Stereo Mini": "1",
+   "USB Input USB Type A": "1 (For Wireless LAN, Firmware Update, Copy OSD Settings)",
+   "USB Type B": "1 (For Firmware Update, Copy OSD Settings)",
+   "Network Wireless LAN": "Built-in"
+  },
+  "Miracast :": {
+   "Certification": "Wi-Fi CERTIFIED Miracast R2",
+   "Supported Codec": "H.264 (AVC)",
+   "Airplay 2, Supported Codec": "H.264(AVC), H.265(HEVC), AV1, VP9, MEPG-2, MPEG-4",
+   "Supported Speed": "IEEE 802.11a/b/g/n/ac/ax",
+   "Supported Interface": "Infrastructure, Simple AP (Wi-Fi Direct)",
+   "Security Type": "Infrastructure: Open, WPA2 / WPA3-PSK, WPA2/WPA3-EAP Supported EAP Type: PEAP, EAP-TLS Simple AP (Wi-Fi Direct): WPA2-PSK (AES)",
+   "Operating Temperature": "Low Altitude (0 – 2,286m/7,500ft): 5 – 40 °C High Altitude (Over 2,286m/7,500ft): 5 – 35 °C 20% – 80% Humidity, No Condensation",
+   "Operating Altitude": "Over 1,500m/4,921ft with High Altitude Mode: 0 – 3,048m (0 -10,000ft)",
+   "Direct Power On / Off": "Yes",
+   "Start-Up Period": "Less than 8 seconds (Epson Logo); Warm-up Period: 30 seconds",
+   "Cool Down Period": "Instant Off",
+   "Air Filter : Air Filter": "Electrostatic Filter",
+   "Maintenance Cycle*": "10,000 hours (Normal) / 20,000 hours (Eco)",
+   "Power Supply Voltage": "100 – 240 V AC ±10%, 50/60 Hz"
+  },
+  "Power Consumption (220 – 240V) :": {
+   "Lamp On Normal": "332 W",
+   "Extended": "231 W",
+   "Standby (Normal / Eco)": "N/A / 0.3 W",
+   "Dimension Excluding Feet (W x D x H) :": "309 x 282 x 90 mm",
+   "Weight": "Approx. 3.1kg",
+   "Warranty": "2 Years on main unit, 1 year or 1000 hours on lamp"
+  }
+ },
+ "key_features": [],
+ "model": "EB-FH54",
+ "warranty": "2 Years on main unit, 1 year or 1000 hours on lamp",
+ "fetched": "2026-11-16T18:30+06:00",
+ "source": "https://smartbd.com/product/epson-eb-fh54-business-full-hd-wireless-3lcd-projector/",
+ "store": "smartbd"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Headphone Feature": {
+   "Battery": "Charging time (hours from empty): 2",
+   "Frequency response": "Dynamic frequency response range (Hz): 20 Hz – 20 kHz",
+   "Impedance": "Impedance (ohms): 20"
+  },
+  "Driver": {
+   "Driver size (mm)": "12.5",
+   "Driver sensitivity at 1kHz/1mW (dB)": "118 dB SPL@ 1kHz 1mW"
+  },
+  "Connectors": {
+   "Bluetooth": "Bluetooth version: 5.0"
+  },
+  "Others": {
+   "Others": "Charging cable: Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "Driver Size: 12.5mm / 0.5″ Dynamic driver",
+  "Power supply: 5V 1A",
+  "Weight: 18.3g/0.04 lbs",
+  "Headset battery type: Lithium-ion battery (3.7V/130mAh)",
+  "Charging time: < 2 hrs"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-16T18:09+06:00",
+ "source": "https://www.pchouse.com.bd/jbl-tune-215bt-wireless-neckband-headphones",
+ "store": "pchouse"
+}

@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "2 x Intel Xeon 6520P 2.4GHz 24-core 210W Processor"
+  },
+  "144 MB L3 Cache Per Processor": {
+   "Memory ( As Required)": "64GB Dual Rank x4 DDR5-6400 CAS-52-52-52 EC8 Registered Smart Memory Kit up to 8 TB",
+   "Hard Drive ( As Required)": "HPE 480GB SATA Read Intensive SFF BC Multi Vendor SSD"
+  },
+  "HPE 1.92T NVMeRI SFF BC U.3ST V2 MV SSD": {
+   "RAID Controller": "HPE MR416i-o Gen11 x16 Lanes 4GB Cache OCP SPDM Storage Controller (RAID 0,1,5, 10,50,60,)",
+   "Network": "HPE BCM5719 1Gb 4-port BASE-T Adapter for HPE"
+  },
+  "HPE BCM 57412 10GBE 2-Port SFP+ Adapter": {
+   "HBA Card": "HPE SN1620E 32GB 2-Port FC SECURE HBA",
+   "Mount": "HPE 2U Rack form factor with Rail Kit & Cable Management Arm",
+   "Power Supply": "HPE 2 x 800W FS Platinum Power Supply Kit",
+   "Remote management Software": "HPE iLO Advanced 1-server License,",
+   "I/O Slots": "Network Port, 3x USB 3.2, 1x SID (Systems Insight Display), Serial (optional, rear), 1x Display Port, VGA Port (1x Standard, rear for all chassis, 1x Optional front display port)",
+   "Warranty": "HPE 3 Year Tech Care Basic Service"
+  }
+ },
+ "key_features": [
+  "Processor: 2 x Intel Xeon 6520P 2.4GHz 24-core 210W Processor",
+  "RAM: 64GB Dual Rank x4 DDR5-6400 CAS-52-52-52 EC8 Registered Smart Memory Kit up to 8 TB",
+  "RAID Controller: HPE MR416i-o Gen11 x16 Lanes 4GB Cache OCP SPDM Storage Controller (RAID 0,1,5, 10,50,60,)"
+ ],
+ "warranty": "HPE 3 Year Tech Care Basic Service",
+ "fetched": "2026-11-16T18:32+06:00",
+ "source": "https://smartbd.com/product/hpe-dl380-generation12-intel-xeon-48-core-2u-rack-server/",
+ "store": "smartbd"
+}

@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Display": "7.0-Inch Colour LCD Touchscreen",
+   "Color": "White",
+   "Connectivity": "USB 2.0, 10Base-T/100Base-TX/1000Base-T\nTCP/IP (IPv4, IPv6), IPX/SPX (NetWare), EtherTalk (AppleTalk)",
+   "Memory": "Standard: 2GB (Copy/Print Shared) Option: 1GB*4; 250GB HDD*4*5",
+   "Scan Features": "Scan Method: Push Scan (Via Control Panel), Pull Scan (TWAIN-Compliant Application)\nScan Speed: Colour & B/W: Max. 31 Originals/Min\nFile Formats TIFF, PDF, PDF/A, Encrypted PDF, JPEG*10, XPS\nScan Destinations Scan To E-Mail/Desktop/FTP Server/Network Folder (SMB)/USB Memory",
+   "Zoom": "25 To 400% (25 To 200% Using RSPF) In 1% Increments",
+   "Warmup Time": "45 Sec.",
+   "Copy Resolution": "Scan (Colour) 600 X 600 Dpi\nScan (B/W) 600 X 600 Dpi, 600 X 400 Dpi, 600 X 300 Dpi\nPrint 600 X 600 Dpi, 9,600 (Equivalent) X 600 Dpi (Depending On Copy Mode)",
+   "Paper Sizes": "Max. A3 Wide (12\" X 18\"), Min. A5 (5 1/2\" X 8 1/2\")",
+   "Power": "Power Requirements: Rated Local AC Voltage ±10%, 50/60 Hz\nPower Consumption Max. 1.84 KW (220 To 240V)",
+   "First Copy Out Time": "Full Colour: 10.0 Sec. B/W: 7.4 Sec.",
+   "Scan Resolution": "Push Scan: 100, 200, 300, 400, 600 Dpi\nPull Scan*4 75, 100, 150, 200, 300, 400, 600 Dpi, 50 To 9,600 Dpi Via User Setting*9",
+   "Dimensions": "583 X 617 X 834 Mm (22 61/64\" X 24 19/64\" X 32 27/32\")",
+   "Weight": "73 Kg (161.0 Lbs)"
+  },
+  "Paper Weight": {
+   "Tray": "60 G/M2 To 220 G/M2 (16 Lbs Bond To 80 Lbs Cover)",
+   "Multi-Bypass Tray": "55 G/M2 To 300 G/M2 (13 Lbs Bond To 110 Lbs Cover)"
+  },
+  "Input Capacity": {
+   "Standard": "600 Sheets (500-Sheet Tray And 100-Sheet Multi-Bypass Tray)",
+   "Maximum": "3,100 Sheets (600 Sheets & Optional 500 + 2,000-Sheet Tray)"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-16T18:29+06:00",
+ "source": "https://www.pchouse.com.bd/sharp-dx-2500n-digital-multifunction-color-photocopier",
+ "store": "pchouse"
+}

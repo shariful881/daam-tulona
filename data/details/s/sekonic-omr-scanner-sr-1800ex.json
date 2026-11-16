@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Product Description": {
+   "Country of Origin": "JAPAN",
+   "Country of Manufacture": "JAPAN",
+   "Model Name": "SR-1800EX",
+   "Read Sensor": "Read Head",
+   "Mark Discrimination": "16 steps (256 Degrees)",
+   "Light Source": "Infra Red Ray (940 nm) or Visible Red Ray (660 nm)",
+   "Mark Implements": "Infra Red Ray : Pencil, Visible Red Ray : Pencil + Pen",
+   "Read head Channels": "1/6 inch (48 Channels)",
+   "Mark Shapes": "Rectangle Ovals and Circles",
+   "Read Technique": "Reading Reflective Sensor",
+   "Equipment Control": "Display",
+   "Operation Button": "2 (START / CLEAR)",
+   "Form Input": "ADF (Hopper)",
+   "Scanning": "Form Width",
+   "Form Length": "110 to 355.6 mm(4.3 Inch to 14.0 Inch)",
+   "Number of Rows": "108 Rows",
+   "Number of Columns": "48 Columns",
+   "Mark Position": "Under 5,184 Mark Positions",
+   "Paper Weight": "72 to 135 kg (0.11 to 0.19 mm / 84 to 157 g/m2)",
+   "Throughput speeds": "*Approx. 1800 forms / hour",
+   "Form Output": "Stacker",
+   "Power": "Voltage / Relatives",
+   "Conditions": "Temp / Humid",
+   "Dimensions": "W x H x D (Inch)",
+   "Connect with PC (Interface)": "USB (2.0 or RS-232C (9 pins 9,600 to 115,200 bps)",
+   "Noise": "Under 60 db",
+   "Weight": "Approx 4.9 kg (10.8 Lbs)",
+   "Accessories": "CD-ROM (User Manual, USB Driver, API, Diagnostic utility software) Power cable (AC Adaptor), USB cable",
+   "Source Link": "http://www.sekonic.co.jp/english/product/omr/sr_1800/sr_1800.html",
+   "Video Link": "https://youtu.be/3gxK-WDb79A"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-16T18:33+06:00",
+ "source": "https://smartbd.com/product/sekonic-omr-scanner-sr-1800ex/",
+ "store": "smartbd"
+}

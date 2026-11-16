@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "Product Description": {
+   "Item": "Product Description",
+   "Model": "SureColor SC-T7730D",
+   "Country of Origin": "JAPAN",
+   "Country of Manufacture": "Indonesia/Vietnam/China/Philippine/Thailand",
+   "Printer Width": "44 inch"
+  },
+  "Printing Technology :": {
+   "Print Head": "Precision Core Micro TFP Printhead",
+   "Nozzle Configuration": "9,600 Nozzles (400 nozzles x 24 channels x 1 head)",
+   "Maximum Resolution": "2,400 x 1,200 dpi",
+   "Minimum Ink Droplet Volume": "3.5pl",
+   "Line Accuracy": "±0.1% or ±0.26mm",
+   "Minimum Line Width": "0.08mm*1 (0.02mm*2)"
+  },
+  "Print Speed:": {
+   "CAD A1 Landscape": "Plain Paper 300x600dpi Line Draw/Draft: 16s, 600x600dpi Line Draw/Speed: 23s",
+   "CAD A0": "Plain Paper 300x600dpi Line Draw/Draft: 28s, 600x600dpi Line Draw/Speed: 43s",
+   "Poster B0": "Plain Paper 300x600dpi EPSON Vivid/Speed: 46s",
+   "B0": "Plain Paper: 35s (Draft), 46s (Speed), 258s (High Quality), Premium Glossy Photo Paper 170gsm: 152s (Speed), 281s (Quality), 614s (Max Quality)"
+  },
+  "Ink System:": {
+   "Ink Type": "UltraChrome XD3 Pigment Ink",
+   "Colors": "Cyan, Magenta, Yellow, Red, Matte Black, Photo Black (6 ink colors)"
+  },
+  "Paper Handling:": {
+   "Paper Path": "Roll (Double Roll), Cut Sheet (Manual Feed), Poster Board (Manual Feed)",
+   "Maximum Roll Diameter/Weight": "2/3” Core, Max. 170mm/12.5kg",
+   "Paper Width": "Roll: 254 – 1,118mm Cut Sheet: 203 – 1,118mm, Poster Board: 0.8mm – 1.5mm",
+   "Borderless Width Sizes (mm)": "118, 1030, 914, 841, 728, 700, 610, 594, 515, 508, 500, 432, 406, 356, 330, 300, 254"
+  },
+  "Connectivity:": {
+   "Interface": "USB 3.0, Ethernet (100BASE-TX/1000BASE-T), Wi-Fi (IEEE802.11b/g/n)",
+   "Wi-Fi Direct": "Wi-Fi Direct (Simple AP)",
+   "USB Host": "Yes*",
+   "USB Direct Print": "Supported Format: PDF, TIFF, JPEG, HP-GL/2, HP RTL",
+   "Control Panel": "4.3” Touch Screen",
+   "Printer Languages": "ESC/R raster, HP-GL/2*5, HP RTL*5, Adobe PostScript 3, Adobe PDF 1.7",
+   "Mobile Solutions": "Epson Smart Panel, Apple AirPrint",
+   "Memory": "4GB + 960GB (Option SSD)",
+   "Operating System:": "Windows XP (32bit/64bit) / Vista / 7 / 8 / 8.1 / 10 / 11 Windows Server 2003 SP2 or later / 2008 / 2012 / 2016 / 2019 / 2022 Mac OS X 10.6.8 or later"
+  },
+  "Electrical Specification:": {
+   "Voltage": "AC 100-240V 50/60Hz",
+   "Rated Current": "3.4-1.6A",
+   "Power Consumption": "Operating: Approx. 70W / Ready: Approx. 32W / Sleep: Approx. 2.0W Standby: Approx. 0.3W"
+  },
+  "Environmental Conditions:": {
+   "Temperature": "Operating: 10°C to 35°C, Storage: -20°C to 40°C",
+   "Humidity": "Operating: 20% to 80% (no condensation), Storage: 5% to 85% (no condensation)",
+   "Sound Pressure": "Operating: Approx. 50dB(A)",
+   "Sound Power": "Operating: Approx. 6.6dB(A)"
+  },
+  "Dimensions & Weight:": {
+   "Dimension (W x H x D)": "1,848 x 975 x 829 mm",
+   "Weight": "Approx. 155 kg",
+   "What’s In the Box": "Printer, Initial ink cartridge, AC power cable, Setup guide, Software CD-ROM, Maintenance box",
+   "Warranty": "One Year."
+  }
+ },
+ "key_features": [
+  "Country of Origin: JAPAN",
+  "Country of Manufacture: Indonesia/Vietnam/China/Philippine/Thailand",
+  "Printer Width: 44 inch"
+ ],
+ "model": "SureColor SC-T7730D",
+ "warranty": "One Year.",
+ "fetched": "2026-11-16T18:31+06:00",
+ "source": "https://smartbd.com/product/epson-surecolor-sc-t7730d-44-inch-large-format-printer/",
+ "store": "smartbd"
+}

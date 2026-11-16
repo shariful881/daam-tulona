@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Network & Connectivity": {
+   "OTG": "OTA upgrade support",
+   "USB port": "USB 2.0/for SD/DC/OTG/HD",
+   "Operating system": "for Android 10.0",
+   "IR": "IR receiver/external receiver connection",
+   "Power supply": "Micro USB 5V/1.5A, LED indicator light, working: blue; Standby: Red"
+  },
+  "Gaming Console": {
+   "Physical Description": "Color: Black",
+   "RAM & Storage": "2GB\n16GB",
+   "Additional Info": "TF card 64G/10000 games installed\nLanguages 33 built-in languages\nOTG OTA upgrade support\nCPU AllWinner H313 Quad Core ARM Cortex-A53"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [
+  "OTG: OTA upgrade support",
+  "USB port: USB 2.0/for SD/DC/OTG/HD",
+  "Operating system: for Android 10.0"
+ ],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-16T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/m8-tv-game-stick-8k-with-wireless-2-gamepad-2gb-ram-16gb-rom",
+ "store": "pchouse"
+}

@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "Intel Xeon-Silver 4314 2.4GHz (2 x 16)core 135W Processor"
+  },
+  "24 MB L3 Cache Per Processor": {
+   "Memory": "64GB (2x32GB) Dual Rank x4 DDR4-3200 CAS-22-22-22 Registered Smart Memory Kit, 32 DIMM slots available for RDIMM, LRDIMM DDR4 Memory and supports up to 8TB",
+   "Hard Drive ( As Required)": "HPE 480GB SATA Read Intensive SFF BC Multi Vendor SSD",
+   "RAID Controller": "HPE MR416i-o Gen11 x16 Lanes 4GB Cache OCP SPDM Storage Controller (RAID 0,1,5, 10,50,60,)",
+   "Network": "HPE Broadcom BCM5719 Ethernet 1Gb 4-port BASE-T Adapter for HPE"
+  },
+  "HPE BCM 57412 10GBE 2-Port SFP+ Adapter": {
+   "HBA": "HPE SN1100Q 16Gb 2-Port FC HBA",
+   "Mount": "HPE 2U Rack form factor with Rail Kit & Cable Management Arm",
+   "Power Supply": "HPE 800W FS Platinum Power Supply Kit",
+   "Warranty": "HPE 3 Years HPE Standard Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "HPE 3 Years HPE Standard Warranty",
+ "fetched": "2026-11-16T18:33+06:00",
+ "source": "https://smartbd.com/product/hpe-proliant-dl380-generation10-plus-intel-xeon-32-core-2u-rack-server/",
+ "store": "smartbd"
+}

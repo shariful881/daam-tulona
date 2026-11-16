@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "2000VA",
+   "Input Voltage": "120VAC\n～\n300VAC",
+   "Output Voltage": "220/230/240±1%",
+   "Frequency (Battery\r\n  Mode)": "50/60±0.05%\n（\nbattery mode\n）",
+   "Noise Level": "<50(within 1\nmeter)",
+   "Battery": "6*7Ah 12V/External",
+   "Alarm": "Battery low-voltage,\nmains abnormal, overload, UPS fault, over temperature protection"
+  },
+  "Input Features": {
+   "Frequency": "45\n～\n66",
+   "Power Factor": "1",
+   "Voltage Range": "120VAC\n～\n300VAC"
+  },
+  "Output Features": {
+   "Backup Time": "Normally 15-30\nmins/Long time need to depend on demands",
+   "Voltage Range": "220/230/240±1%",
+   "Type of Wave": "Pure Sine wave",
+   "Transfer Time": "00"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "Two Years Warranty\n(1 Year Battery + 2 Year Service)"
+  }
+ },
+ "key_features": [],
+ "warranty": "Two Years Warranty",
+ "fetched": "2026-11-16T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-w2ks-ups",
+ "store": "pchouse"
+}

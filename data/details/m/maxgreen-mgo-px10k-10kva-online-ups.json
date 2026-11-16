@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "10000VA",
+   "Load Capacity": "9000W",
+   "Input Voltage": "120~275VAC @\nload<50%",
+   "Output Voltage": "220VAC",
+   "Noise Level": "<55dB @ 1 meters",
+   "Battery": "Battery quantity\n16PCS (Internal)\nBattery capacity 12V/7AH\nBack up time About 15 min half load\nCharge current (to 90% battery capacity) 1.2A"
+  },
+  "Input Features": {
+   "Frequency": "40Hz-70Hz",
+   "Power Factor": "≥0.99",
+   "Voltage Range": "120~275VAC @\nload<50%\n185~275VAC @nominal load"
+  },
+  "Output Features": {
+   "Voltage Range": "Output voltage\n220VAC\nOutput voltage tolerance ±1%\nOutput frequency range 50/60Hz±0.2Hz",
+   "Power Factor": "≥0.99",
+   "Type of Wave": "Pure sine wave\n(double conversion)"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "01 years"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 years",
+ "fetched": "2026-11-16T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mgo-px10k-ups",
+ "store": "pchouse"
+}

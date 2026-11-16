@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "General": {
+   "MPN": "2Z610A",
+   "Product Type": "Workgroup printer",
+   "Output Color": "Black & White",
+   "Weight": "18.87 lbs"
+  },
+  "Print": {
+   "Technology": "Laser",
+   "Print Speed (B/W, A4)": "Up to 40 ppm",
+   "Print Speed (B/W, Letter)": "Up to 42 ppm",
+   "Print Resolution": "4800 x 600 dpi",
+   "Duplex": "Automatic"
+  },
+  "Paper Handling": {
+   "Max Media Size": "Legal (8.5 in x 14 in), A4 (8.25 in x 11.7 in)",
+   "Min Media Size (Custom)": "3 in x 5 in",
+   "Max Media Size (Custom)": "8.5 in x 14 in",
+   "Media Type": "Envelopes, labels, plain paper, bond paper, recycled paper, light-weight paper, preprinted paper, letterheaded paper, colored paper, heavy paper, pre-punched",
+   "Total Media Capacity": "350 sheets"
+  },
+  "Technical Specification": {
+   "Processor": "1.2 GHz",
+   "Memory": "256 MB",
+   "Connectivity": "USB 2.0, Gigabit LAN, Bluetooth, Wi-Fi(n), USB host",
+   "Power Consumption": "AC 220-240 V"
+  },
+  "Physical Specs": {
+   "Dimension": "15 in x 14.1 in x 8.5 in"
+  },
+  "Features": {
+   "Features": "Print from mobile device, Instant-on Technology, Mopria certified, Auto Power On, Auto Power Off, JetIntelligence Cartridge Technology, HP Instant Ink"
+  },
+  "Compatibility": {
+   "Compatibility": "UNIX, Microsoft Windows Server, Microsoft Windows 7, Android, Apple iOS, Windows 10, Apple macOS 10.15, Citrix, Apple macOS 11.0, Apple macOS 12, Windows 11"
+  }
+ },
+ "key_features": [
+  "Print Speed: 40 PPM (Black)",
+  "Print Regulation: 1200 X 1200 DPI",
+  "Interface: USB, LAN"
+ ],
+ "mpn": "2Z610A",
+ "fetched": "2026-11-16T18:32+06:00",
+ "source": "https://smartbd.com/product/hp-laserjet-pro-m4003dw-printer-2z610a/",
+ "store": "smartbd"
+}

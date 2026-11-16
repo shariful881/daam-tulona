@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "3 KVA",
+   "Load Capacity": "Overload capability\n110% only audible warning, 110-130% for 30 sec, >130% for 100 ms",
+   "Input Voltage": "Nominal voltage\n208Vac/220Vac/\n230Vac/240Vac\nInput voltage range 160Vac-300Vac from 50% to 100% load, 110Vac-300Vac up to\n50% load",
+   "Output Voltage": "Nominal voltage\n208Vac/220Vac/\n230Vac/240Vac\nStatic voltage Regulation at %100 ±2% linear load (On-Line and battery mode)\nVoltage THD at rated linear load <3% (linear load), <6% (non-linear",
+   "Frequency (Battery\r\n  Mode)": "50/60 Hz",
+   "Noise Level": "< 45 dBA to 1 m",
+   "Battery": "12V 6*9Ah, Lead\nacid, sealed",
+   "Rectifier Type": "Yes"
+  },
+  "Input Features": {
+   "Frequency": "Nominal frequency\n50/60 Hz (selectable)\nInput frequency range (On-Line mode) ±7%",
+   "Power Factor": "0,99",
+   "Voltage Range": "Nominal voltage\n208Vac/220Vac/\n230Vac/240Vac\nInput voltage range 160Vac-300Vac from 50% to 100% load, 110Vac-300Vac up to\n50% load"
+  },
+  "Output Features": {
+   "Backup Time": "15 min",
+   "Voltage Range": "Nominal voltage\n208Vac/220Vac/\n230Vac/240Vac\nStatic voltage Regulation at %100 ±2% linear load (On-Line and battery mode)\nVoltage THD at rated linear load <3% (linear load), <6% (non-linear\nload)",
+   "Power Factor": "0,9",
+   "Transfer Time": "0 ms (On-Line)"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "02 Years Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "02 Years Warranty",
+ "fetched": "2026-11-16T18:31+06:00",
+ "source": "https://www.pchouse.com.bd/tecnoware-fgcevdp3004mm-ups",
+ "store": "pchouse"
+}

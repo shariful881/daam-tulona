@@ -1,0 +1,103 @@
+{
+ "specs": {
+  "Sony Store": {
+   "RAM": "Choose an option\n36 GB\n36 GB",
+   "Internal Storage": "Choose an option\n1TB\n512GB\n1TB\n512GB\nClear"
+  },
+  "Specification": {
+   "Model": "Mac Studio M5 Max",
+   "Introduced": "2026",
+   "Color": "Silver",
+   "Operating System": "macOS",
+   "RAM": "36 GB\n,\n64 GB",
+   "Internal Storage": "1TB\n,\n512GB"
+  },
+  "Processor & Performance": {
+   "Chipset": "Apple M5 Max",
+   "CPU": "18-Core",
+   "CPU Architecture": "6 Super Cores + 12 Performance Cores",
+   "GPU": "32-Core",
+   "Neural Engine": "16-Core",
+   "Neural Accelerators": "Yes",
+   "Hardware-Accelerated Ray Tracing": "Yes",
+   "Memory Bandwidth": "460GB/s",
+   "Configurable CPU": "18-Core",
+   "Configurable GPU": "40-Core",
+   "Configurable Neural Engine": "16-Core",
+   "Configurable Memory Bandwidth": "614GB/s"
+  },
+  "Media Engine": {
+   "H.264 / HEVC": "Hardware Accelerated",
+   "ProRes / ProRes RAW": "Hardware Accelerated",
+   "Video Decode Engines": "1",
+   "Video Encode Engines": "2",
+   "ProRes Encode and Decode Engines": "2",
+   "AV1 Decode": "Yes"
+  },
+  "Memory & Storage": {
+   "Standard Unified Memory": "36GB",
+   "Configurable Memory": "48GB / 64GB / 128GB",
+   "Standard SSD Storage": "512GB",
+   "Configurable SSD Storage": "1TB / 2TB / 4TB / 8TB"
+  },
+  "Display Support": {
+   "Maximum External Displays": "Up to 5",
+   "6K Resolution": "Up to 4 Displays at 60Hz",
+   "8K Resolution": "Up to 2 Displays at 60Hz",
+   "5K Resolution": "Up to 5K at 120Hz",
+   "4K Resolution": "Up to 4K at 240Hz",
+   "DisplayPort": "DisplayPort 2.1",
+   "Thunderbolt Display Support": "Yes",
+   "Displays Over One Thunderbolt Port": "Up to 4",
+   "Variable Refresh Rate (VRR)": "Yes",
+   "HDR Support": "Yes"
+  },
+  "Audio": {
+   "Built-in Speaker": "Yes",
+   "Headphone Jack": "3.5mm",
+   "High-Impedance Headphone Support": "Yes",
+   "HDMI Audio Output": "Multichannel Audio"
+  },
+  "Connections & Expansion": {
+   "Thunderbolt Ports": "4 × Thunderbolt 5 (USB-C)",
+   "Thunderbolt 5 Speed": "Up to 120Gb/s",
+   "USB 4 Speed": "Up to 120Gb/s",
+   "USB 3 Speed": "Up to 10Gb/s",
+   "USB-A Ports": "2 × USB 3 (Up to 5Gb/s)",
+   "HDMI Port": "HDMI 2.1",
+   "Ethernet": "10Gb Ethernet",
+   "Front USB-C Ports": "2 × USB-C (Up to 10Gb/s)",
+   "SD Card Slot": "SDXC (UHS-II)",
+   "Genlock": "Supported"
+  },
+  "Wireless & Networking": {
+   "Wireless Chip": "Apple N1",
+   "Wi-Fi": "Wi-Fi 7 (802.11be)",
+   "Bluetooth": "Bluetooth 6",
+   "Thread Networking": "Yes",
+   "Ethernet Connector": "RJ-45",
+   "Ethernet Speeds": "1Gb / 2.5Gb / 5Gb / 10Gb"
+  },
+  "Dimensions & Weight": {
+   "Height": "9.5cm (3.7 inches)",
+   "Width": "19.7cm (7.7 inches)",
+   "Depth": "19.7cm (7.7 inches)",
+   "Weight": "2.7kg (6.0 pounds)"
+  },
+  "Operating System & AI": {
+   "Operating System": "macOS",
+   "Apple Intelligence": "Supported",
+   "Siri AI": "Supported",
+   "Personal Context Understanding": "Yes",
+   "Onscreen Awareness": "Yes",
+   "iPhone Mirroring": "Yes",
+   "Window Tiling": "Yes",
+   "Sidecar": "Yes"
+  }
+ },
+ "key_features": [],
+ "model": "Mac Studio M5 Max",
+ "fetched": "2026-11-16T18:04+06:00",
+ "source": "https://diamu.com.bd/product/mac-studio-m5-max/",
+ "store": "diamu"
+}

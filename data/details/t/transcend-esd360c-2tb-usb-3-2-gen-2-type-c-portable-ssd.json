@@ -1,0 +1,35 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "2TB",
+   "Flash Type": "3D NAND Flash",
+   "Interface": "USB Type-C & USB Type-A\nUSB 3.2 Gen 2",
+   "Others": "AES Encryption - 256-bit\nMilitary-Grade"
+  },
+  "Sequential R/W": {
+   "Read Speed": "2000MB/s",
+   "Write Speed": "2000MB/s"
+  },
+  "Physical Specification": {
+   "Dimension": "77 x 55.7 x 9.6 mm",
+   "Weight": "41 gram",
+   "Color": "Gray"
+  },
+  "Temperature": {
+   "Operating Temperature": "0 degree C - 60 degree C"
+  },
+  "Warranty": {
+   "Warranty": "05-year Warranty"
+  }
+ },
+ "key_features": [
+  "Interface: USB 3.2 Gen 2 Type-C",
+  "Capacity: 2TB",
+  "Flash Type: 3D NAND flash",
+  "R/W Speed (Max.): up to 2,000 MB/s"
+ ],
+ "warranty": "05-year Warranty",
+ "fetched": "2026-11-16T18:03+06:00",
+ "source": "https://www.pchouse.com.bd/transcend-esd360c-2tb-portable-external-ssd",
+ "store": "pchouse"
+}

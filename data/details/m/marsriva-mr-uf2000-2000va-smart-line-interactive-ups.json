@@ -1,0 +1,38 @@
+{
+ "specs": {
+  "Display": {
+   "Display Type": "LED Indicator"
+  },
+  "Key Features": {
+   "Load Capacity": "1200W"
+  },
+  "UPS & IPS Feature": {
+   "Frequency (Battery Mode)": "50Hz/60Hz",
+   "Input Voltage Range": "220V ~ 240V",
+   "Output Voltage Range": "220V ~ 240V",
+   "Transfer Time": "Typical 2-6ms, 10ms max"
+  },
+  "Features": {
+   "Dimension": "345 x 122 x 192mm",
+   "Weight": "10.9 kg"
+  },
+  "Main Features": {
+   "Capacity": "2000VA"
+  },
+  "Input": {
+   "Frequency Range": "50Hz/60Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "1-year warranty"
+  }
+ },
+ "key_features": [
+  "Capacity: 2000VA / 1200W",
+  "Output Voltage: 220V ~ 240V",
+  "Topology: Line-Interactive"
+ ],
+ "warranty": "1-year warranty",
+ "fetched": "2026-11-16T18:24+06:00",
+ "source": "https://www.pchouse.com.bd/marsriva-mr-uf2000-2000va-smart-line-interactive-ups",
+ "store": "pchouse"
+}

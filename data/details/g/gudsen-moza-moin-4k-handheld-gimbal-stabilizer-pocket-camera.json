@@ -1,0 +1,45 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Max Controllable Speed": "120°/S",
+   "Video": "4K: 3840X2160 @ 60/50/48/30/25/24P\n4K(4:3): 3840X2880 @ /48/30/25/24\n3.2K: 3200x2400 @ 30/25/24P\nFHD: 1920X1080 @ 200/120/100/60/50/48/30/24P\nHD: 1280X720 240/200/120/100P\n2.7K: 2704X1520 60/50/48/30/25/24P\n2.7K(4:3): 2704X1520 60/50/48/30/25/24P",
+   "Lens": "FOV:120° F2.2\nEquivalent Focal Length：14mm",
+   "Sensor": "1/2.3\" CMOS Sensor\nEffective Pixels: 12M Sony IMX378"
+  },
+  "Mechanical Range": {
+   "Pan": "-250°~+70°",
+   "Tilt": "-120°~98°",
+   "Roll": "±90°"
+  },
+  "Battery": {
+   "Capacity": "950mAh",
+   "Charging Time": "90mins (Tested by 10W Charging power)",
+   "Operating Temperature": "0℃ to 40℃",
+   "Operating Time": "145mins (Tested by Single Shot with 1080/30fps)",
+   "Type": "Lithium battery",
+   "Voltage": "7.68V"
+  },
+  "General": {
+   "Compatibility": "2.45 Inches, Reversible 480 x 272 IPS LCD Screen\nReversible Angle:\nFirst Joint 0～90°\nSecond Joint 0～120°",
+   "Dimension": "129×37.8×32mm",
+   "Weight": "176g"
+  },
+  "Wireless": {
+   "Wi-Fi Operating Frequency": "FCC/CE/SRRC: 2.400-2.4835 GHz, MIC:2.400-2.4835 GHz",
+   "Wi-Fi Protocol": "802.11a/b/g/n/ac",
+   "Bluetooth Operating Frequency": "2.400-2.4835 GHz",
+   "Bluetooth Protocol": "BLE 4.2"
+  },
+  "Others": {
+   "Others": "ISO Range\nPhoto: 100~3200\nVideo: 100～3200\nElectronic Shutter Speed:\n60S~1/8000S\nStill Photography Modes: Single Shot, Panorama, Staticlapse, Motionlapse, Hyperlapse\nSpecial Modes:\nRecord Mode: Record；Slow Motion；MOZA-color"
+  },
+  "Warranty Information": {
+   "Warranty": "No Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "No Warranty",
+ "fetched": "2026-11-16T18:22+06:00",
+ "source": "https://www.pchouse.com.bd/gudsen-moza-moin-camera",
+ "store": "pchouse"
+}

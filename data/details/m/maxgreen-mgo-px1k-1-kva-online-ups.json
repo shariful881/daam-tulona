@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "1KVA/900W",
+   "Input Voltage": "220VAC",
+   "Output Voltage": "220VAC",
+   "Frequency (Battery\r\n  Mode)": "50Hz+/-0.05Hz",
+   "Battery": "Battery Type Value\nRegulated Maintainance Free Lead Acid(VRLA) for standard Model with internal\nbattery\nBattery Voltage/Capacity 2X12V/7AH\nRecharge Time ~5Hours\nMax recharge current 1.5A\nFloating charge Voltage 27.3V"
+  },
+  "Input Features": {
+   "Frequency": "40~70Hz",
+   "Power Factor": "0.99@Full Load",
+   "Voltage Range": "110V~300V Halfload\n176V~300V Full load"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "01 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Year",
+ "fetched": "2026-11-16T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-mgo-px1k-ups",
+ "store": "pchouse"
+}

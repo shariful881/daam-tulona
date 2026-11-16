@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Display": {
+   "Screen/Display Size": "2.25 Inch;",
+   "Screen/Display Type": "Fixed Touchscreen LCD;",
+   "Front Display": "1.4 Inch;",
+   "Touch Screen.": "Yes;"
+  },
+  "Battery Information": {
+   "Battery": "LiPo 1S;",
+   "Battery Life (CIPA)": "160 mins;",
+   "Input Voltage (V)": "3.85 V;",
+   "Output Voltage (V)": "-20 degree to 45 degree C (-4 degree to 11 degree F);"
+  },
+  "Audio": {
+   "Microphone": "Via USB Adapter;",
+   "Memory Type": "microSD/microSDHC/microSDXC;",
+   "Supported Memory Max. Capacity": "microSD (up to 256 GB);"
+  },
+  "Video": {
+   "Max. Video Resolution (Pixel)": "4096 x 3072;",
+   "Video Format": "MP4 (H.264/HEVC);"
+  },
+  "Basic Information": {
+   "Lens": "FOV: 155 degree Aperture: f/2.8 Focus Range: 0.3 m to;"
+  },
+  "Sensor": {
+   "Sensor Type": "CMOS;",
+   "Sensor Size": "1/1.7-inch;"
+  },
+  "Others": {
+   "ISO": "Photo/Video 100 to 12,800;",
+   "ISO Maximum": "12800;",
+   "Shutter Speed (sec)": "1/8000 to 30 Seconds;"
+  },
+  "Physical Specifications": {
+   "Color": "Color: Silver-Black;",
+   "Weight": "Weight (gm): 145 gm",
+   "Dimension": "Body Dimensions: 70.5 x 44.2 x 32.8mm;"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-16T18:18+06:00",
+ "source": "https://www.pchouse.com.bd/dji-osmo-3-action-camera",
+ "store": "pchouse"
+}

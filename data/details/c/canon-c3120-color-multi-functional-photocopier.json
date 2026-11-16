@@ -1,0 +1,64 @@
+{
+ "specs": {
+  "Photocopier": {
+   "Display": "Yes",
+   "Color": "White",
+   "Memory": "Standard: 2.0GB RAM",
+   "Copy Resolution": "600 X 600",
+   "First Copy Out Time": "A4, BW/CL: 5.9s / 8.2s",
+   "Dimensions": "565 X 664 X 880 Mm",
+   "Weight": "67.3kg Without Toner"
+  },
+  "Connectivity": {
+   "Standard": "1000BaseT/100Base-TX/10Base-T,",
+   "Optional": "NFC"
+  },
+  "Fax Resolution": {
+   "Push": "300 X 300 (Email/SMB/FTP), 192 X 204 (IFAX)",
+   "Pull": "50 X 50, 75 X 75, 150 X 150, 200 X 200, 300 X 300, 400 X 400, 600 X 600"
+  },
+  "Zoom": {
+   "Variable Zoom": "25% - 400% (1% Increments)",
+   "Preset Reduction/Enlargement": "25%, 50%, 70%, 100% (1:1), 141%, 200%, 400%"
+  },
+  "Warmup Time": {
+   "From Sleep Mode": "10s",
+   "From Power On": "19s"
+  },
+  "Copy Speed": {
+   "BW": "20/20 Ppm (A4, A5, A5R, A6R)",
+   "CL": "15/15 Ppm (A3), 20/20 Ppm (A4R)"
+  },
+  "Paper Sizes": {
+   "Standard Size": "A4, A5, A5R, A6R, B5",
+   "Custom Size": "105.0 X 148.0 Mm 297.0 X 215.9 Mm",
+   "Envelope": "ISO-C5"
+  },
+  "Power": {
+   "Maximum": "Approx. 1500W Or Less",
+   "Standby": "Approx. 34.3W",
+   "Sleep Mode": "Approx. 2W, Approx. 1W"
+  },
+  "Scan Resolution": {
+   "Scan For Copy": "600 X 600",
+   "Scan For Fax": "600 X 600"
+  },
+  "Paper Weight": {
+   "Multi-Purpose Tray": "52 To 300g/M²",
+   "Paper Cassette (Upper/Lower Cassette)": "52 To 220g/M²",
+   "Duplex": "52 To 220g/M²"
+  },
+  "Input Capacity": {
+   "Standard": "1 200 Sheets",
+   "Maximum": "2 300 Sheets (With Cassette Feeding Unit-AP1)"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Years"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Years",
+ "fetched": "2026-11-16T18:16+06:00",
+ "source": "https://www.pchouse.com.bd/canon-imagerunner-c3120-photocopier",
+ "store": "pchouse"
+}

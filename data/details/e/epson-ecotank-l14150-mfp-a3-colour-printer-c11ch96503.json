@@ -1,0 +1,92 @@
+{
+ "specs": {
+  "General": {
+   "Functions": "Print, Scan, Copy, Fax with ADF",
+   "Output Color": "Black / Colour"
+  },
+  "Technology": {
+   "Minimum Ink Droplet Size": "3.3 pl",
+   "Printer Language": "ESC / P-R",
+   "Automatic 2-sided Printing": "Yes (up to A4 / Letter)",
+   "Nozzle Configuration": "400 x 1 nozzles (Black), 128 x 1 nozzles per color (Cyan, Magenta, Yellow)",
+   "Print Direction": "Bi-directional printing"
+  },
+  "Print": {
+   "Print Resolution": "4800 x 1200 dpi",
+   "Duplex": "Yes"
+  },
+  "Copy": {
+   "Copy Speed": "Maximum Copies from Standalone: 99",
+   "Copy Color": "ISO 29183, A4 Simplex Flatbed (Black / Color): Up to 11.5 ipm / 5.5 ipm"
+  },
+  "Copy Resolution": {
+   "Copy Resolution": "600 x 600 dpi",
+   "Copy Quality": "Normal / Best quality",
+   "Reduction / Enlargement": "25 – 400%, Auto Fit Function",
+   "Maximum Copy Size": "Legal"
+  },
+  "Scan Type": {
+   "Scanner Type": "Flatbed color image scanner",
+   "Sensor Type": "CIS"
+  },
+  "Scan": {
+   "Scan Resolution": "1200 x 2400 dpi"
+  },
+  "Maximum Scan Size": {
+   "Maximum Scan Area": "216 x 356 mm",
+   "Scanner Bit Depth (Colour)": "48-bit input, 24-bit output",
+   "Scanner Bit Depth (Grayscale)": "16-bit input, 8-bit output",
+   "Scanner Bit Depth (Black & White)": "16-bit input, 1-bit output",
+   "Scan Speed (Flatbed / ADF (Simplex))": "200dpi Colour: 28 sec / 5.0 ppm"
+  },
+  "Fax": {
+   "Transmission Speed (kbps)": "Fax Speed (Data Transfer Rate): Up to 33.6 kbps, Approx. 3 sec/page"
+  },
+  "Max Resolution": {
+   "Fax Resolution": "Up to 200 x 200 dpi",
+   "Transmission Paper Size (Flatbed)": "B5, A5, A4, Letter, Legal",
+   "Transmission Paper Size (ADF)": "A4, Letter, Legal",
+   "Receiving Paper Size": "B5, A5, A4, Letter, Legal, A3",
+   "Speed Dial / Group Dial": "Up to 100 numbers, 99 groups",
+   "Fax Features": "PC Fax (Transmission/Receive), Automatic redial, Address book, Delay Send, Broadcast Fax (Mono Only)",
+   "Type Of Fax": "Walk-up black-and-white and colour fax capability",
+   "Receive Memory / Page Memory": "1.1 MB, Page memory, Up to 100 pages (ITU-T No.1 chart)",
+   "Error Correction Mode": "ITU Group3 fax with Error Correction"
+  },
+  "Paper Size": {
+   "Maximum Paper Size": "329 x 1200 mm",
+   "Paper Feed Method": "Friction feed",
+   "Paper Size": "Legal, 8.5 x 13 “, Letter, A4, 195 x 270 mm, B5, A5, A6, 100 x 148 mm, B6, 5 x 7 “, 4 x 6 “, Envelopes #10, DL, C6",
+   "Print Margin": "0 mm top, left, right, bottom via custom settings in printer driver *4"
+  },
+  "Paper Information": {
+   "Paper Type": "Plain Paper, Premium Glossy Photo Paper, Envelope, Postcard",
+   "Input Capacity": "Standard Paper Input Capacity:\nUp to 250 sheets, A4 Plain Paper (80 g/m2)\nUp to 20 sheets, Premium Glossy Photo Paper; Rear Slot: 20 sheets for A3+ Plain Paper (80 g/m2)\nNumber of Paper Trays: 2 (Front 1, Rear 1)",
+   "Output Capacity": "Output Capacity:\nUp to 30 sheets, A4 Plain Paper\nUp to 20 sheets, Premium Glossy Photo Paper",
+   "ADF": "Yes"
+  },
+  "Technical Specs": {
+   "Display": "Control Panel: Touchscreen, Diagonal: 6.8 cm",
+   "Connectivity": "WiFi, Wi-Fi Direct"
+  },
+  "Toner/ Cartridge/ Refill": {
+   "Black Ink Bottle": "7,500 pages *5 – C13T03Y100",
+   "Cyan Ink Bottle": "6,000 (Composite Yield) *5 – C13T03Y200",
+   "Magenta Ink Bottle": "6,000 (Composite Yield) *5 – C13T03Y300",
+   "Yellow Ink Bottle": "6,000 (Composite Yield) *5 – C13T03Y400",
+   "L6000 Series Maintenance Box": "Order Code: C13T04D100"
+  },
+  "Others": {
+   "Epson Connect Features": "Epson iPrint, Epson Email Print, Remote Print Driver, Scan to Cloud",
+   "Other Mobile Solutions": "Apple AirPrint, Mopria Print Service"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year Warranty"
+  }
+ },
+ "key_features": [],
+ "warranty": "01 Year Warranty",
+ "fetched": "2026-11-16T18:31+06:00",
+ "source": "https://smartbd.com/product/epson-ecotank-l14150-mfp-a3-colour-printer-c11ch96503/",
+ "store": "smartbd"
+}

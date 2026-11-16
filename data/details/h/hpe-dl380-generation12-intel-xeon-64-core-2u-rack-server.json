@@ -1,0 +1,29 @@
+{
+ "specs": {
+  "Basic Information": {
+   "Processor": "2x INTEL XEON 6530P+ 2.3GHz 32-core 225W Processor for HPE"
+  },
+  "144MB L3 Cache Per Processor": {
+   "Memory ( As Required)": "64GB Dual Rank x4 DDR5-6400 CAS-52-52-52 EC8 Registered Smart Memory Kit up to 8 TB",
+   "Hard Drive ( As Required)": "HPE 480GB SATA Read Intensive SFF BC Multi Vendor SSD"
+  },
+  "HPE 6.4TB NVMe MU SFF BC U.3 PM1735 SSD": {
+   "RAID Controller": "HPE MR416i-o Gen11 x16 Lanes 8GB Cache OCP SPDM Storage Controller (RAID 0,1,5, 10,50,60,)",
+   "Network": "HPE BCM 5719 Ethernet 1Gb 4-port BASE-T Adapter for HPE"
+  },
+  "HPE BCM 57412 10GBE 2-Port SFP+ Adapter": {
+   "HBA": "HPE SN1620E 32GB 2-Port FC SECURE HBA",
+   "Mount": "HPE 2U Rack form factor with Rail Kit & Cable Management Arm",
+   "Warranty": "HPE 3 Years HPE Standard Warranty"
+  }
+ },
+ "key_features": [
+  "Processor: 2x INTEL XEON 6530P+ 2.3GHz 32-core 225W Processor for HPE",
+  "RAM: 64GB Dual Rank x4 DDR5-6400 CAS-52-52-52 EC8 Registered Smart Memory Kit up to 8 TB",
+  "RAID Controller: HPE MR416i-o Gen11 x16 Lanes 8GB Cache OCP SPDM Storage Controller (RAID 0,1,5, 10,50,60,)"
+ ],
+ "warranty": "HPE 3 Years HPE Standard Warranty",
+ "fetched": "2026-11-16T18:32+06:00",
+ "source": "https://smartbd.com/product/hpe-dl380-generation12-intel-xeon-64-core-2u-rack-server/",
+ "store": "smartbd"
+}

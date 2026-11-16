@@ -1,0 +1,73 @@
+{
+ "specs": {
+  "General": {
+   "Model": "Mi Wireless Outdoor Security",
+   "Usage": "Outdoor",
+   "Type": "IP Camera",
+   "Part No": "MWC13/BHR4435GL"
+  },
+  "Network & Wireless Connectivity": {
+   "Interface(s)": "1 x RJ45 network port (Indoor Receiver)",
+   "Wi-Fi": "Yes",
+   "Wi-Fi Details": "Wi-Fi FiIEEE802.11b/g/n"
+  },
+  "Technical Specification": {
+   "Mic & Speaker": "No",
+   "Audio Communication": "No",
+   "Ingress Protection Grade": "IP65",
+   "Working Distance": "Unmentioned",
+   "Supported Operating System": "Android 6.0 or iOS 10 and above"
+  },
+  "Image": {
+   "Wide Dynamic Range (WDR)": "Yes"
+  },
+  "Camera Info": {
+   "Camera Type": "Fixed",
+   "Mega Pixels": "2.0MP",
+   "Max. Camera Resolution": "1920 x 1080",
+   "Night Vision": "Yes"
+  },
+  "Lens": {
+   "Lens Adjustment Range": "130 Degree Wide Angle",
+   "Viewing Angle": "130 Degree"
+  },
+  "Physical Specification": {
+   "Dimensions": "52.7 x 122 x 102.6 mm (Outdoor Camera), 110 x 85 x 77.1 mm (Indoor Receiver)",
+   "Weight": "273 gm (Outdoor Camera), 88 gm (Indoor Receiver)",
+   "Storage Supported": "32GB",
+   "Card Slot": "Yes",
+   "Storage Type": "MicroSD",
+   "Form-Factor": "Unmentioned"
+  },
+  "Physical Specifications": {
+   "Color": "White"
+  },
+  "Security": {
+   "Human Detection": "Yes",
+   "Dust Protection": "IP65",
+   "Water Protection": "IP65",
+   "Simultaneous Live View": "Yes"
+  },
+  "Warranty Information": {
+   "Warranty": "6 Month (Warranty should be claimed with box including all accessories)"
+  }
+ },
+ "key_features": [
+  "Outdoor camera dimensions: 52.7×122×102.6 mm",
+  "Outdoor camera net weight: 273 g",
+  "Infrared lights: 940 nm infrared light ×8",
+  "Operating temperature: -20°C to 50°C",
+  "Wireless connection: Wi-Fi FiIEEE802.11b/g/n 2.4 GHz",
+  "Compatible with: Android 6.0 or iOS 10 and above",
+  "Indoor receiver dimensions: 110×85×77.1 mm",
+  "Indoor receiver net weight: 88 g",
+  "Indoor receiver storage: Micro SD card (up to 32 GB) / USB drive / cloud storage",
+  "Indoor receiver cable connection: RJ45 Ethernet Port"
+ ],
+ "model": "Mi Wireless Outdoor Security",
+ "mpn": "MWC13/BHR4435GL",
+ "warranty": "6 Month (Warranty should be claimed with box including all accessories)",
+ "fetched": "2026-11-16T18:32+06:00",
+ "source": "https://www.pchouse.com.bd/mi-wireless-outdoor-security-camera-1080p-set",
+ "store": "pchouse"
+}

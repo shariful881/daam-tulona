@@ -1,0 +1,81 @@
+{
+ "specs": {
+  "Engine/General Specifications": {
+   "Configuration": "Console",
+   "Printing Process": "4-Drum Method",
+   "Control Panel": "10.1\" Smart Operation Panel",
+   "Color / Black & White": "Color",
+   "Output Speed Copy/Print": "45 Ppm B&W & FC (LTR)",
+   "First Page Out Time": "3.6 Seconds B&W,5.4 Seconds Color",
+   "Warm-Up Time": "21 Seconds",
+   "Resolution": "600 Dpi",
+   "System Memory": "2 GB RAM/320 GB HDD Standard & 4 GB RAM/320 GB HDD Option",
+   "Maximum Copy Quantity": "Up To 999 Copies",
+   "Duplexing": "Automatic (Standard)",
+   "Document Feeder Type": "Single Pass Document Feeder (SPDF)",
+   "Original Capacity": "220 Sheets",
+   "Original Size": "5.5\" X 8.5\" - 11\" X 17\" (A5-A3)",
+   "Paper Weight": "Simplex: 11 - 34 Lb. Bond (40 - 128 G/M2)",
+   "Duplex": "14 -34 Lb. Bond (52 - 128 G/M2)",
+   "Zoom Range": "25% - 400% In 1% Increments",
+   "Supported Paper Sizes": "1st Paper Tray: 8.5\" X 11\" (A4),2nd Paper Tray: 5.5\" X 8.5\" - 12\" X 18\" (SRA3, A3-A6, B4-B6), Envelopes",
+   "Bypass": "Up To 12\" X 18\", Envelopes",
+   "Custom Sizes": "Width: 3.5\" - 12.6\" (90 - 320 Mm), Length: 5.8\" - 49.6\" (148 - 1260 Mm)",
+   "Supported Paper Weights": "Standard Trays: 16 - 80 Lb. Bond/166 Lb. Index (60 - 300 G/M2),Bypass Tray: 14 - 80 Lb. Bond/166 Lb. Index (52 - 300 G/M2),Duplex Unit: 14 -68 Lb. Bond/142 Lb. Index (52 - 256 G/M2)",
+   "Supported Paper Types": "Plain, Recycled, Special, Colored, Letterhead, Cardstock, Pre-Printed, Bond, Coated,Envelope, Label, OHP, Gloss",
+   "Standard Paper Capacity": "1,200 Sheets (2 X 550 Sheets + 100-Sheet Bypass Tray)",
+   "Maximum Paper Capacity": "4,700 Sheets (W/Tandem LCT + Side LCT)",
+   "Standard Output Capacity": "500 Sheets 8.5\" X 11\" (A4) Or Smaller; 250 Sheets (B4) Or Larger",
+   "Maximum Output Capacity": "3,625 Sheets",
+   "Maximum Monthly Volume": "50000",
+   "Power Source": "120V - 127V, 60Hz",
+   "Typical Electricity Consumption (TEC)": "0.512 KWh/Week",
+   "Power Consumption": "Less Than 1,584 W; Sleep Mode: 0.59W",
+   "Dimensions W X D X H": "23.0\" X 27.0\" X 37.9\" (587 Mm X 685 Mm X 963 Mm)",
+   "Weight": "223.5 Lbs/101.4 Kg"
+  },
+  "Scanner Specifications": {
+   "Scan Speed BW Full Color": "120 Ipm (Simplex)/240 Ipm (Duplex)",
+   "Scanning Resolution": "Up To 1200 Dpi",
+   "Scan Area": "11.7\" X 17\" (297 - 432 Mm)",
+   "File Formats": "Single Page: TIFF, JPEG, PDF, PDF/A, High Compression PDF, Encryption PDF, OCR*",
+   "Multi Page": "TIFF, PDF (Default), PDF/A, High Compression PDF, Encryption PDF, OCR*",
+   "Scan Modes": "E-Mail, Folder, USB, SD Card"
+  },
+  "Document Server Specifications": {
+   "Maximum Stored Documents": "3000",
+   "Maximum Pages/Document": "2000",
+   "Maximum Page Capacity": "9000",
+   "Max Number Of Folders": "200"
+  },
+  "Fax Specifications": {
+   "Type": "ITU-T (CCITT) G3",
+   "Circuit": "PSTN, PBX",
+   "Fax Resolution": "Standard: 8 X 3.85 Line/Mm, 200 X 100 Dpi/Optional: 16 X 15.4 Line/Mm, 400 X 400 Dpi",
+   "Compression Method": "MH, MR, MMR, JBIG",
+   "Scanning Speed": "81 Spm (A4/LT LEF Image Rotation)",
+   "Modem Speed": "33.6 Kbps",
+   "Transmission Speed": "2 Seconds (200 X 100 Dpi, JBIG, ITUT #1 Chart TTI Off, Memory Transmission)",
+   "Memory": "Standard: 4 MB (Approx. 320 Pages)/Optional: 60 MB (Approx. 4,800 Pages) With Optional SAF Memory",
+   "Max Auto Dials": "2,000 Quick/Speed Dial Numbers",
+   "Group Dials": "100 Group Dial Numbers"
+  }
+ },
+ "key_features": [
+  "Configuration : Console",
+  "Printing Process : 4-Drum Method",
+  "Control Panel : 10.1\" Smart Operation Panel",
+  "Color / Black & White : Color",
+  "Output Speed Copy/Print : 45 Ppm B&W & FC (LTR)",
+  "First Page Out Time : 3.6 Seconds B&W,5.4 Seconds Color",
+  "Warm-Up Time : 21 Seconds",
+  "Resolution : 600 Dpi",
+  "System Memory : 2 GB RAM/320 GB HDD Standard & 4 GB RAM/320 GB HDD Option",
+  "Maximum Copy Quantity : Up To 999 Copies",
+  "Duplexing : Automatic (Standard)",
+  "Document Feeder Type : Single Pass Document Feeder (SPDF)"
+ ],
+ "fetched": "2026-11-16T18:28+06:00",
+ "source": "https://www.pchouse.com.bd/ricoh-im-c4500-color-laser-printer",
+ "store": "pchouse"
+}

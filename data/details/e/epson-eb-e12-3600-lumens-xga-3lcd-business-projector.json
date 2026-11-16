@@ -1,0 +1,67 @@
+{
+ "specs": {
+  "Product Description": {
+   "Model": "EB-E12",
+   "Origin": "JAPAN",
+   "Country of Manufacture": "Philippine/Indonesia/Vietnam/China",
+   "Projection System": "3LCD Technology, RGB liquid crystal shutter projection system",
+   "LCD Panel": "0.55” (C2 Fine)",
+   "Native resolution": "XGA\n(1024×768 pixels, 4:3 aspect ratio)"
+  },
+  "Projection Lens Type": {
+   "Type": "No Optical Zoom / Focus (Manual)",
+   "F-Number": "1.44",
+   "Focal Length": "16.7 mm",
+   "Zoom Ratio": "1.0 – 2.0 (Digital Zoom)",
+   "Throw Ratio": "1.44 – 2.88",
+   "Aspect Ratio": "4:3",
+   "Contrast Ratio": "15,000 : 1"
+  },
+  "Light Source": {
+   "Lamp Type": "210 W UHE",
+   "Life (Normal / Eco)": "6,000 hours / 12,000 hours"
+  },
+  "Screen Size (Projected Distance)": {
+   "Zoom: Wide": "30” – 350” [0.87 – 10.34 m]",
+   "Zoom: Tele": "15” – 175” [0.87 – 10.34 m]",
+   "Standard Screen Size": "60” [1.76 m]"
+  },
+  "Brightness*1": {
+   "White & Color Light Output": "3,600 Lumens",
+   "Light Output (Center)*2": "3,700 lm"
+  },
+  "Geometric Correction": {
+   "Vertical / Horizontal Keystone": "±30° / ±30°"
+  },
+  "Connectivity": {
+   "Digital Input HDMI Type A": "2 (HDCP 1.4)",
+   "USB Input USB Type B": "1 (For Firmware Update, Copy OSD Settings)",
+   "Internal Speaker": "Monaural 2W x 1",
+   "Operating Temperature": "Low Altitude (0 – 2,286m/7,500ft): 5 – 40 °C High Altitude (Over 2,286m/7,500ft): 5 – 35 °C 20% – 80% Humidity, No Condensation",
+   "Operating Altitude": "Over 1,500m/4,921ft with High Altitude Mode: 0 – 3,048m (0 -10,000ft)",
+   "Direct Power On/Off": "Yes",
+   "Start-Up Period": "Less than 7 seconds (Epson Logo); Warm-up Period: 30 seconds",
+   "Cool Down Period": "Instant Off",
+   "Air Filter-Type": "Electrostatic Filter",
+   "Maintenance Cycle*": "6,000 hours (Normal) / 12,000 hours (Eco)",
+   "Power Supply Voltage": "100 – 240 V AC ±10%, 50/60 Hz"
+  },
+  "Power Consumption (220 – 240V)": {
+   "Lamp On Normal": "332 W, Extended-231 W",
+   "Dimension Excluding Feet (W x D x H)": "302 x 234 x 77 mm",
+   "Weight": "Approx. 2.4kg",
+   "Warranty": "Two years standard warranty, Lamp: 12 months or 1,000h which come first."
+  }
+ },
+ "key_features": [
+  "Projection Technology: 3LCD",
+  "Brightness: 3600 Lumens",
+  "Resolution: XGA (1024 x 768)",
+  "Lamp Life: 12000 Hours, Built-in 2W speakers"
+ ],
+ "model": "EB-E12",
+ "warranty": "Two years standard warranty, Lamp: 12 months or 1,000h which come first.",
+ "fetched": "2026-11-16T18:30+06:00",
+ "source": "https://smartbd.com/product/epson-eb-e12-3600-lumens-xga-3lcd-business-projector/",
+ "store": "smartbd"
+}

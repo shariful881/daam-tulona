@@ -1,0 +1,27 @@
+{
+ "specs": {
+  "Specifications": {
+   "Total Capacity": "20000mAh (72Wh)",
+   "Display": "TFT",
+   "Wireless Charging": "No",
+   "Ports": "USB-A ×1, USB-C ×2",
+   "Dimensions": "(131 × 54 × 50.8) ±0.3 mm",
+   "Weight": "476 g",
+   "USB-C1 Output": "5V⎓3A, 9V⎓3A, 12V⎓3A, 15V⎓3A, 20V⎓5A (100W Max)",
+   "USB-C2 Output": "10V⎓2.25A, 5V⎓3A, 9V⎓3A, 12V⎓2.5A (30W Max)",
+   "USB-A Output": "5V⎓3A, 9V⎓2A, 12V⎓1.5A, 10V⎓2.25A (22.5W Max)",
+   "USB-C1 Input": "5V⎓3A, 9V⎓3A, 12V⎓3A, 15V⎓3A, 20V⎓3.25A (65W Max)",
+   "Input Protocols": "USB-C1: PD3.0, PD2.0, QC3.0, BC1.2",
+   "USB-C Output Protocols": "PD3.0, PD2.0, PPS, SCP, QC3.0, QC2.0, FCP, AFC, Apple 5V/2.4A, BC1.2",
+   "USB-A Output Protocols": "SCP, QC3.0, QC2.0, FCP, AFC, Apple 5V/2.4A, BC1.2"
+  }
+ },
+ "key_features": [
+  "Smart Power Display: Real-time monitoring of battery level, voltage, current, and per-port charging power.",
+  "Phone-Sized Design: 5.1×2.1×2 inches / 480g. 20,000mAh capacity in compact column structure.",
+  "Multi-Protocol Support: PD 3.1/PPS/QC 4.0+/AFC/SCP/FCP. MacBook, iPhone 15, Galaxy S24, Steam Deck, etc."
+ ],
+ "fetched": "2026-11-16T18:42+06:00",
+ "source": "https://diamu.com.bd/product/ugreen-nexode130w-power-bank/",
+ "store": "diamu"
+}

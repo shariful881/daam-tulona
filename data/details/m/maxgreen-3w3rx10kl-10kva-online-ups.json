@@ -1,0 +1,32 @@
+{
+ "specs": {
+  "Main Feature": {
+   "Capacity": "10kVA",
+   "Input Voltage": "380±25%",
+   "Output Voltage": "380/400/415±1\n％",
+   "Frequency (Battery\r\n  Mode)": "50/60±0.5% (Free\noscillation)",
+   "Noise Level": "50/60±0.5% (Free\noscillation)",
+   "Battery": "Automatic\ntiming/floating conversion, has battery self-testing function, automatic\nalarm and judge when battery abnormal",
+   "Alarm": "Battery low-voltage,\nmains abnormal, overload, UPS fault, over temperature protection"
+  },
+  "Input Features": {
+   "Frequency": "45\n～\n66 Automatically\nselect synchronization range according to grid frequency",
+   "Power Factor": "0.9/1.0",
+   "Voltage Range": "380±25%"
+  },
+  "Output Features": {
+   "Backup Time": "Battery supply life\ncan be configured freely",
+   "Voltage Range": "380/400/415±1\n％",
+   "Power Factor": "0.9/1.0",
+   "Type of Wave": "Sine Wave THD<3%"
+  },
+  "Manufacture Warranty": {
+   "Warranty": "1 Year"
+  }
+ },
+ "key_features": [],
+ "warranty": "1 Year",
+ "fetched": "2026-11-16T18:25+06:00",
+ "source": "https://www.pchouse.com.bd/maxgreen-3w3rx10kl-10kva-ups",
+ "store": "pchouse"
+}
