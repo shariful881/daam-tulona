@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "40 20-23,0-5 * * *"   # BD রাত ২:৪০ থেকে সকাল ১১:৪০ পর্যন্ত প্রতি ঘণ্টায়
   workflow_dispatch:
+    inputs:
+      test:
+        description: "শুধু Telegram-এ একটা পরীক্ষার বার্তা পাঠাও"
+        type: boolean
+        default: false
 
 permissions:
   actions: write
@@ -12,10 +17,16 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools
       - env:
           GH_TOKEN: ${{ github.token }}
           R: ${{ github.repository }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_ALERT_CHAT: ${{ secrets.TELEGRAM_ALERT_CHAT }}
         run: |
+          if [ "${{ inputs.test }}" = "true" ]; then python tools/tg_alert.py "✅ দামতুলনা: পরীক্ষা। দামের আপডেটে সমস্যা হলে এখানে বার্তা আসবে।"; exit 0; fi
           h=$(date -u +%H)
           if [ "$h" -ge 20 ]; then a=$(date -u +%Y-%m-%dT20:00:00Z); else a=$(date -u -d yesterday +%Y-%m-%dT20:00:00Z); fi
           echo "আজকের রানের সময় শুরু: $a (UTC)"
@@ -24,6 +35,16 @@ jobs:
           if echo "$runs" | grep -qE '^(queued|in_progress|waiting|pending|requested) '; then echo "রান চলছে/অপেক্ষায় — কিছু করার নেই"; exit 0; fi
           if echo "$runs" | grep -qE '^completed success '; then echo "আজকের রান সফল — ঠিক আছে"; exit 0; fi
           tries=$(echo "$runs" | grep -c 'workflow_dispatch' || true)
-          if [ "${tries:-0}" -ge 3 ]; then echo "আজ ৩ বার চেষ্টা হয়েছে, আর না"; exit 1; fi
-          echo "রান শুরু হয়নি/ব্যর্থ — আবার চালু করছি"
+          if [ "${tries:-0}" -ge 3 ]; then
+            echo "আজ ৩ বার চেষ্টা হয়েছে, আর না"
+            # একই দিনে বারবার না জানাতে: শেষ রানটা গত ঘণ্টায় শেষ হলে তবেই জানাও
+            last=$(gh api "repos/$R/actions/workflows/daily.yml/runs?per_page=1" --jq '.workflow_runs[0].updated_at')
+            if [ $(( $(date -u +%s) - $(date -u -d "$last" +%s) )) -lt 3900 ]; then
+              python tools/tg_alert.py "❌ দামতুলনা: আজ ৩ বার চেষ্টাতেও দামের আপডেট হয়নি। হাতে দেখা দরকার: https://github.com/$R/actions" || true
+            fi
+            exit 1
+          fi
+          if [ -z "$runs" ]; then why="রাত ২টার রান শুরুই হয়নি"; else why="আগের রান ব্যর্থ হয়েছে"; fi
+          echo "$why — আবার চালু করছি"
           gh workflow run daily.yml --repo "$R" --ref main
+          python tools/tg_alert.py "⚠️ দামতুলনা: $why। পাহারাদার আবার চালু করেছে (চেষ্টা $((tries + 1))/৩)।" || true

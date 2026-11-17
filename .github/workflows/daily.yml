@@ -69,6 +69,13 @@ jobs:
         if: env.SCRAPE == '1'
         run: python -m matcher.match
 
+      - name: কোনো দোকান থেকে দাম না এলে Telegram-এ জানানো
+        if: env.SCRAPE == '1'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_ALERT_CHAT: ${{ secrets.TELEGRAM_ALERT_CHAT }}
+        run: python tools/tg_alert.py --stores || true
+
       - name: ডাটা রিপোতে সেভ
         if: env.SCRAPE == '1'
         run: |
@@ -115,3 +122,12 @@ jobs:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ vars.TELEGRAM_CHANNEL }}
         run: python tools/telegram_post.py dist/drops.json || echo "Telegram পোস্ট হয়নি (সাইটে প্রভাব নেই)"
+
+      - name: রান ব্যর্থ হলে Telegram-এ জানানো
+        if: failure() || cancelled()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_ALERT_CHAT: ${{ secrets.TELEGRAM_ALERT_CHAT }}
+          URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python tools/tg_alert.py "❌ দামতুলনা: আজকের দামের রান ব্যর্থ হয়েছে। পাহারাদার পরের ঘণ্টায় আবার চালু করবে। বিস্তারিত: $URL" || true
