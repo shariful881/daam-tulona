@@ -1,61 +1,61 @@
 {
- "date": "2026-11-16",
- "scraped_at": "2026-11-16T05:41+06:00",
+ "date": "2026-11-17",
+ "scraped_at": "2026-11-17T06:03+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32127,
+   "items": 32156,
    "errors": [],
-   "seconds": 1782,
+   "seconds": 1823,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1436,
+   "seconds": 1423,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3090,
    "errors": [],
-   "seconds": 1107,
+   "seconds": 1146,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4034,
    "errors": [],
-   "seconds": 1213,
+   "seconds": 1247,
    "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1534,
    "errors": [],
-   "seconds": 637,
+   "seconds": 620,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 489,
+   "seconds": 495,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 20,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 685,
+   "seconds": 676,
    "failed_cats": []
   },
   "ryans": {
@@ -64,7 +64,7 @@
    "errors": [
     "feature-phone: স্টোর ব্লক করেছে (403 https://www.ryans.com/category/mobile-phone-feature-phone); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
    ],
-   "seconds": 0,
+   "seconds": 1,
    "failed_cats": [
     "feature-phone",
     "smartphone",
@@ -332,14 +332,14 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 508,
+   "seconds": 550,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 130,
+   "seconds": 137,
    "failed_cats": []
   },
   "computervision": {
@@ -348,46 +348,42 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3291,
+   "seconds": 3055,
    "failed_cats": [],
-   "matched": 6941,
+   "matched": 6942,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 3751,
+   "items": 4206,
    "errors": [],
-   "seconds": 1637,
+   "seconds": 1931,
    "failed_cats": [],
-   "matched": 2588,
-   "scraped": 3711
+   "matched": 2742,
+   "scraped": 4117
   },
   "pqs": {
    "enabled": true,
-   "items": 11457,
+   "items": 11468,
    "errors": [],
-   "seconds": 1372,
+   "seconds": 1429,
    "failed_cats": [],
-   "matched": 7273,
-   "scraped": 11356
+   "matched": 7283,
+   "scraped": 11367
   },
   "bme": {
    "enabled": true,
-   "items": 9178,
+   "items": 0,
    "errors": [],
-   "seconds": 2306,
-   "failed_cats": [],
-   "matched": 3962,
-   "scraped": 9178
+   "seconds": 57,
+   "failed_cats": []
   },
   "selltech": {
    "enabled": true,
-   "items": 1168,
+   "items": 0,
    "errors": [],
-   "seconds": 396,
-   "failed_cats": [],
-   "matched": 771,
-   "scraped": 1166
+   "seconds": 73,
+   "failed_cats": []
   }
  }
 }
