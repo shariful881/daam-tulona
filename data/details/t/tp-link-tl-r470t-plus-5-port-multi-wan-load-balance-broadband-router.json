@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Specifications": {
+   "Standards and Protocols": "IEEE 802.3, 802.3u, 802.3x, TCP/IP, DHCP, ICMP, NAT, PPPoE, SNTP, HTTP, DDNS",
+   "Interface": "1 Fixed Ethernet WAN Port\n1 Fixed Ethernet LAN Port\n3 Changeable Ethernet WAN/LAN Ports",
+   "Network Media": "10BASE-T: UTP category 3, 4, 5 cable (Max 100m), 100BASE-TX: UTP category 5, 5e cable (Max 100m)",
+   "Button": "Reset Button",
+   "Power Supply": "Internal Universal Power Supply\nAC100-240V~50/60Hz input",
+   "Flash": "4MB",
+   "DRAM": "64MB",
+   "LED": "PWR, SYS, WAN, LAN, WAN/LAN",
+   "Dimensions ( W x D x H )": "8.2*5.0*1.0in. (209*126*26mm)",
+   "Concurrent Session": "10000",
+   "WAN Connection Type": "Static/Dynamic IP, PPPoE, PPTP, L2TP, Dual Access, Bigpond Cable",
+   "MAC Clone": "Modify WAN/LAN MAC Address",
+   "DHCP": "DHCP Server/Client, DHCP Address Reservation",
+   "Switch Setting": "Port Mirror, Rate Control, Port Configuration, Port VLAN",
+   "ACL": "IP/MAC/URL/WEB Filtering",
+   "IGMP": "IGMP Proxy/IGMP Snooping",
+   "Forwarding": "Virtual Server, Port Triggering, DMZ",
+   "Load Balance": "Policy Routing, Link Backup",
+   "Routing": "Static Routing",
+   "Security": "FTP/SIP/PPTP/IPsec/H.323 ALG, DoS Defence, Ping of Death, IP/MAC Binding",
+   "Traffic Control": "Bandwidth Control, Session Limit",
+   "Service": "PPPoE Server, E-Bulletin, Dynamic DNS, UPnP",
+   "Maintenance": "Time Setting, Daylight Saving Time, SNMP, Diagnostics, Firmware Upgrade, Factory Defaults/Reboot, Backup/Restore, System Log, Remote Management, Statistics",
+   "Certification": "CE, FCC, RoHS",
+   "Package Contents": "TL-R470T+\nPower Cord\nRJ-45 Ethernet Cable\nQuick Installation Guide\nResource CD",
+   "System Requirements": "Microsoft® Windows® 8, 7,Vista™, XP or MAC® OS, NetWare®, UNIX® or Linux"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:47+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-tl-r470t-plus-5-port-multi-wan-load-balance-broadband-router/",
+ "store": "diamu"
+}

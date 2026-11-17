@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Scanner": {
+   "Resolution": "600 Dpi",
+   "Weight": "3.7 Kg",
+   "Supported Operating Systems": "Windows XP / Vista / 7 / 8 / 8.1 / 10 / Server 2003 / Server 2008 / Server 2012 / Server 2016 Mac OS X 10.6.8 Or Later",
+   "Bit Depth": "Each Colour (RGB): 10 Bit Input / 8 Bit Output",
+   "Input Type": "A4 Sheet-Fed, One-Pass Duplex Colour Scanner",
+   "Scannable Media Types": "Epson Scan 2: JPEG, TIFF, Multi-TIFF, PDF, Searchable PDF, BMP, PNG Document Capture Pro (Win): JPEG, BMP, PDF, Searchable PDF, TIFF, Multi-TIFF, PNG, DOCX, XLSX, PPTX",
+   "Auto Document Feeder": "50 Sheets (80g/M2)",
+   "Dimensions": "11.7 X 12.5 X 7.7\" / 29.7 X 31.8 X 19.6 Cm",
+   "Warranty": "1 Year"
+  },
+  "Maximum Document Scan Size": {
+   "Minimum": "2 X 2\" / 5.1 X 5.1 Cm",
+   "Maximum": "8.5 X 240\" / 21.6 X 609.6 Cm"
+  },
+  "Scanning": {
+   "Min Document Size": "50.8 X 50.8 Mm",
+   "Output Resolution": "50 - 1,200 Dpi (1 Dpi Increments)",
+   "Sensor Type": "Colour Contact Image Sensor",
+   "Scanning Method": "Fixed Carriage And Moving Document",
+   "Light Source": "RGB LED"
+  },
+  "Power": {
+   "Rated Voltage": "AC 100 - 240 V",
+   "Rated Frequency": "50 - 60 Hz",
+   "Power Consumption": "Operating: 11W; Ready Mode: 5.4W; Sleep Mode: 1.0W; Power Off: 0.1W"
+  },
+  "Image": {
+   "Model": "EPSON WorkForce DS-770II"
+  }
+ },
+ "key_features": [],
+ "model": "EPSON WorkForce DS-770II",
+ "warranty": "1 Year",
+ "fetched": "2026-11-17T18:32+06:00",
+ "source": "https://www.creatus.com.bd/epson-workforce-ds-770ii-color-duplex-document-scanner",
+ "store": "creatus"
+}

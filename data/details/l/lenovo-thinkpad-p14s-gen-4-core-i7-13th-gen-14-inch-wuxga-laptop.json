@@ -1,0 +1,87 @@
+{
+ "specs": {
+  "Processor": {
+   "Generation": "13th Gen",
+   "Processor Frequency": "2.2 GHz to 5.0 GHz",
+   "Processor Core": "12",
+   "Processor Thread": "16",
+   "CPU Cache": "18MB"
+  },
+  "Memory": {
+   "Bus Speed": "5600MHz",
+   "Ram": "16GB",
+   "Storage Type": "M.2 2280 PCIe TLC Opal",
+   "Ram Type": "DDR5"
+  },
+  "Storage": {
+   "Storage Capacity": "1TB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Intel Iris Xe Graphics",
+   "Graphics Memory": "Shared",
+   "Graphics Type": "Integrated"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlight keyboard",
+   "Keyboard Features": "6-row, spill-resistant, air intake design, multimedia Fn keys with Unified Communications controls",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080P FHD IR/RGB Hybrid",
+   "Speaker": "Stereo speakers, 2W x2, Dolby Audio",
+   "Microphone": "Dual-microphone array, far-field, Dolby Voice",
+   "Audio Features": "High Definition (HD) Audio, Realtek® ALC3287 codec"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.1 TMDS",
+   "USB 3 Port": "2x USB 3.2 Gen 1 (one Always On)",
+   "USB Type-C / Thunderbolt Port": "2x Thunderbolt 4 / USB4® 40Gbps (support data transfer, Power Delivery 3.0 and DisplayPort 2.0)",
+   "Headphone & Microphone Port": "1x Headphone / microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Intel Wi-Fi 6E AX211, 802.11ax 2x2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes",
+   "Security Chip": "FW TPM 2.0"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Pro"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel integrated SoC"
+  },
+  "Display": {
+   "Display Size": "14 Inch",
+   "Display Resolution": "WUXGA ( 1920 x 1200)"
+  },
+  "Power": {
+   "Battery Type": "3 Cell Li-Polymer",
+   "Battery Capacity": "39.3Wh",
+   "Adapter Type": "65W USB-C (3-pin) AC adapter"
+  },
+  "Physical Specification": {
+   "Weight": "1.34 kg (2.97 lbs)",
+   "Color": "Villi Black",
+   "Dimensions": "317.7 x 226.9 x 17.9 mm (12.51 x 8.93 x 0.7 inches)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 years International Limited Warranty (Battery 1 year)."
+  },
+  "Image": {
+   "Model": "ThinkPad P14s Gen 4"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i7-1360P (18MB Cache, 2.2 GHz to 5.0 GHz)",
+  "RAM: 16GB DDR5, SSD: 1TB M.2 NVMe PCIe Gen4",
+  "Display: 14\" WUXGA ( 1920 x 1200)",
+  "Features: Backlight Keyboard, Type-C, Fingerprint"
+ ],
+ "model": "ThinkPad P14s Gen 4",
+ "warranty": "2 years International Limited Warranty (Battery 1 year).",
+ "fetched": "2026-11-17T18:30+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkpad-p14s-gen-4-core-i7-13th-gen-14-inch-wuxga-laptop",
+ "store": "creatus"
+}

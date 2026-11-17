@@ -1,0 +1,124 @@
+{
+ "specs": {
+  "Specification": {
+   "Network": "IEEE 802.11a\nIEEE 802.11b\nIEEE 802.11g\nWi-Fi 4 (802.11n)\nWi-Fi 5 (802.11ac)\nWi-Fi 6 (802.11ax)\nIPv4\nIPv6",
+   "AX technology": "Yes",
+   "Data Rate": "802.11a: up to 54 Mbps\n802.11b: up to 11 Mbps\n802.11g: up to 54 Mbps\nWi-Fi 4 (802.11n): up to 600 Mbps\nWi-Fi 5 (802.11ac): up to 1000 Mbps\nWi-Fi 5 (802.11ac): up to 4333 Mbps\nWi-Fi 6 (802.11ax) (2.4GHz): up to 1148 Mbps\nWi-Fi 6 (802.11ax) (5GHz): up to 4804 Mbps",
+   "Antenna": "External antenna x 8",
+   "Transmit/Receive": "2.4GHz 4×4\n5GHz 8×8",
+   "Processor": "2.2GHz quad-core processor",
+   "Memory": "256 MB Flash, 1 GB RAM",
+   "Boosts speed": "OFDMA (Orthogonal Frequency Division Multiple Access),\nBeamforming: standard-based and universal,\n1024-QAM high data rate,\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "2.4 GHz / 5 GHz",
+   "Ports": "RJ45 for 10Gbps BaseT for WAN/LAN x 1, RJ45 for 1Gbps BaseT for LAN x 8, RJ45 for 1Gbps BaseT for WAN x 1\nUSB 3.1 Gen 1 x 2\nSFP+ x 1",
+   "Button": "WPS Button, Reset Button, Power Button, Wireless on/off Button, LED on/off Button",
+   "LED Indicator": "Power x 1\nWi-Fi x 3\nWAN x 1\nLAN x 1\n10GE x 1\nSFP+ x 1",
+   "Package content": "RJ45 x1\nAdapter x1\nQSG x1\nWarranty Card x1\nRT-AX89X x1",
+   "Product Weight (g)": "1280 g",
+   "Router APP": "ASUS Router APP: Yes",
+   "Alexa": "Support Alexa skill: Yes",
+   "IFTTT": "Support IFTTT: Yes",
+   "Parental Control": "Parental Control: Yes\nParental Control Customized Internet schedule: Yes"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19V 3.42A"
+  },
+  "AiMesh": {
+   "AiMesh": "Yes",
+   "Primary AiMesh router": "Yes",
+   "AiMesh node": "Yes"
+  },
+  "Game": {
+   "Game Boost/acceleration": "Yes",
+   "WTFast": "No"
+  },
+  "AiProtection": {
+   "AiProtection": "AiProtection Pro",
+   "Router Security Assessment": "Yes",
+   "Malicious site blocking": "Yes",
+   "Two-Way IPS": "Yes"
+  },
+  "Traffic Control": {
+   "Adaptive QoS": "Yes",
+   "Bandwidth Monitor": "Yes",
+   "Bandwidth limiter": "Yes",
+   "Maximum Bandwidth limiter rule": "32",
+   "Traditional QoS": "Yes",
+   "Maximum Traditional QoS rule": "32",
+   "Traffic Monitor": "Yes",
+   "Real-time traffic monitor": "Yes",
+   "Wired Traffic Monitor": "Yes",
+   "Wireless Traffic Monitor": "Yes",
+   "Traffic Analyzer": "Yes",
+   "Traffic analysis period": "Daily, Weekly, Monthly",
+   "Website history": "Yes"
+  },
+  "Wireless": {
+   "IPv6": "Yes",
+   "MU-MIMO": "Yes",
+   "Wi-Fi Encryption": "WPA2-PSK, WPA-PSK, WPA-Enterprise, WPA2-Enterprise, WPS support",
+   "UTF-8 SSID": "Yes",
+   "Guest Network": "Yes",
+   "Maximum Guest Network rule": "2.4GHzx3、5GHzx3",
+   "Guest Network Encryption": "Open system, WPA/WPA2-Personal",
+   "WPS": "Yes",
+   "Wi-Fi MAC address filter": "Yes",
+   "Maximum MAC filters": "64",
+   "Wireless scheduler": "Yes",
+   "Airtime fairness": "Yes",
+   "RADIUS Server": "Yes",
+   "Universal beamforming": "Yes",
+   "Explicit beamforming": "Yes",
+   "IGMP snooping": "Yes"
+  },
+  "LAN": {
+   "DHCP Server": "Yes",
+   "IPTV": "Yes",
+   "LAN Link Aggregation": "Yes",
+   "Manually assign IP address": "Yes",
+   "Maximum manually assign IP address rule": "64"
+  },
+  "VPN": {
+   "VPN Client L2PT": "Yes",
+   "VPN Client OVPN": "Yes",
+   "VPN Client PPTP": "Yes",
+   "VPN Server IPsec": "Yes",
+   "VPN Server OVPN": "Yes",
+   "VPN Server PPTP": "Yes",
+   "VPN Fusion": "No"
+  },
+  "USB application": {
+   "File System": "FS_Tuxera_HFS+,FS_Tuxera_NTFS,FS_Tuxera_vFAT,FS_ext2,FS_ext3,FS_ext4",
+   "HDD hibernation": "Yes",
+   "Safely Remove disk": "Yes",
+   "AiCloud": "Yes",
+   "Download master": "Yes",
+   "AiDisk": "Yes",
+   "Media Server": "Yes",
+   "Time Machine": "Yes",
+   "Samba Server": "Yes",
+   "FTP Server": "Yes",
+   "Shared Folder privileges": "Yes"
+  },
+  "Administration": {
+   "Operating mode": "Accesspoint, AiMeshnode, Mediabridge, Repeater, Router",
+   "Operating system": "ASUSWRT",
+   "Free OS upgrade": "Yes",
+   "Firewall": "Yes",
+   "Maximum Firewall keyword filter": "64",
+   "Maximum Firewall network service filter": "32",
+   "Maximum Firewall URL filter": "64",
+   "Wake on LAN (WOL)": "Yes",
+   "SSH": "Yes",
+   "Configuration backup and restore": "Yes",
+   "Diagnosis tools": "Yes",
+   "Feedback system": "Yes",
+   "System log": "Yes"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:45+06:00",
+ "source": "https://diamu.com.bd/product/asus-rt-ax89x-12-stream-ax6000-dual-band-wi-fi-6-gaming-router/",
+ "store": "diamu"
+}

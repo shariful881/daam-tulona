@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Camera Pack": "Choose an option\nCreator Bundle\nStandard Combo\nCreator Bundle\nStandard Combo\nClear"
+  },
+  "Specification": {
+   "General": "Model",
+   "Touchscreen": "2.0″, 556×314, 1000 nits",
+   "Number of Microphones": "3",
+   "Dimensions": "159.5×63.3×33.5 mm",
+   "Weight": "230 g",
+   "Camera": "Sensor",
+   "Lens": "20mm f/2.0 Wide + 60mm f/1.8 Tele",
+   "Electronic Shutter": "1/16000–4 sec",
+   "Maximum Image Size": "7680×4320, approx. 37 MP",
+   "Still Photography": "Single Shot, Countdown",
+   "Panorama": "180°, 3×3",
+   "Video": "Maximum Video",
+   "Vertical Video": "3K up to 60fps",
+   "HDR Video": "Not supported",
+   "Video Modes": "Video, Slow Motion, Timelapse, Motionlapse, Hyperlapse, Low-Light",
+   "Motionlapse Resolution": "4K, 3K, 1080p",
+   "Color Mode": "Normal, D-Log, D-Log 2\n10-bit 4:2:0 H.265",
+   "Maximum Bitrate": "180 Mbps",
+   "Video Format": "MP4 (HEVC)",
+   "Storage": "Supported File System",
+   "Supported microSD Card": "Up to 1TB",
+   "Photo": "Photo Format",
+   "Audio": "Audio Output",
+   "App": "Supported App",
+   "Required iOS": "iOS 14.0 or later",
+   "Required Android": "Android 9.0 or later",
+   "Gimbal": "Controllable Pan Range",
+   "Controllable Tilt Range": "-125° to 58°",
+   "Controllable Roll Range": "-45° to 45°",
+   "Maximum Control Speed": "180°/s",
+   "Angular Vibration Range": "±0.005°",
+   "Battery": "Battery Type",
+   "Capacity": "1545 mAh",
+   "Energy": "11.95 Wh",
+   "Voltage": "7.74 V",
+   "Maximum Charging Voltage": "8.9 V",
+   "Charging Input": "Up to 12V/3A",
+   "Operating Time": "210 minutes",
+   "Charging Time": "80% in 18 min\n100% in 32 min",
+   "Best For": "Recommended Use"
+  },
+  "Focus Range": {
+   "Wide": "0.09m–∞",
+   "Tele": "0.2m–∞"
+  },
+  "Photo ISO": {
+   "Wide": "100–25600",
+   "Tele": "50–12800"
+  },
+  "Video ISO": {
+   "Wide": "100–25600",
+   "Tele": "50–12800"
+  },
+  "Low-Light ISO": {
+   "Wide": "100–51200",
+   "Tele": "50–25600"
+  },
+  "Maximum Slow Motion": {
+   "Wide": "4K up to 240fps",
+   "Tele": "4K up to 200fps"
+  },
+  "Matching a gimbal to your camera": {
+   "Camera Pack": "Creator Bundle, Standard Combo"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:49+06:00",
+ "source": "https://diamu.com.bd/product/dji-osmo-pocket-4p/",
+ "store": "diamu"
+}

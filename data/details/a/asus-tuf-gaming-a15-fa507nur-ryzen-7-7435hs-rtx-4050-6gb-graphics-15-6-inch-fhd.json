@@ -1,0 +1,96 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "AMD",
+   "Processor Model": "Ryzen 7 7435HS",
+   "Processor Frequency": "3.1 GHz up to 4.5GHz",
+   "Processor Core": "8",
+   "Processor Thread": "16"
+  },
+  "CPU Cache": {
+   "L2 Cache": "4MB",
+   "L3 Cache": "16MB"
+  },
+  "Memory": {
+   "Bus Speed": "4800Mhz",
+   "Max RAM Capacity": "up to 32GB",
+   "Ram": "16",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "512GB",
+   "Supported SSD Type": "M.2 slots (support either SATA or NVMe)",
+   "Extra M.2 Slot": "Yes"
+  },
+  "Graphics": {
+   "Graphics Model": "NVIDIA GeForce RTX 4050",
+   "Graphics Memory": "6GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "RGB Backlit",
+   "Keyboard Features": "RGB",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD",
+   "Speaker": "Yes",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "1x HDMI 2.1 FRL",
+   "USB 3 Port": "2x USB 3.2 Gen 1 Type-A",
+   "USB Type-C / Thunderbolt Port": "1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC",
+   "Headphone & Microphone Port": "1 x 3.5 mm combo audio jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "Yes",
+   "WiFi": "Wi-Fi 6 (802.11ax) (Dual band) 2x2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Security Chip": "Firmware TPM"
+  },
+  "Software": {
+   "Operating System": "Win-11 Home"
+  },
+  "Display": {
+   "Display Size": "15.6-inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920 x 1080)",
+   "Refresh Rate": "144Hz"
+  },
+  "Features": {
+   "Other Features": "MIL-STD-810H tested durability"
+  },
+  "Power": {
+   "Battery Type": "4-cell Li-ion",
+   "Battery Capacity": "90WHrs, 4S1P",
+   "Adapter Type": "150W AC Adapter"
+  },
+  "Physical Specification": {
+   "Dimension": "359 x 256 x 22.8-24.5mm",
+   "Colors": "JAEGER GRAY"
+  },
+  "Warranty Information": {
+   "Warranty": "02 years International Limited Warranty (Battery 1 year)"
+  },
+  "Image": {
+   "Model": "TUF Gaming A15 FA507NUR"
+  }
+ },
+ "key_features": [
+  "Processor: AMD Ryzen 7 7435HS (3.1 GHz up to 4.5GHz, 8 cores)",
+  "RAM: 16GB DDR5 4800Mhz , Storage: 512GB SSD",
+  "Graphics: NVIDIA GeForce RTX 4050 6GB GDDR6",
+  "Features: RGB Backlit Keyboard, WiFi-6"
+ ],
+ "model": "TUF Gaming A15 FA507NUR",
+ "warranty": "02 years International Limited Warranty (Battery 1 year)",
+ "fetched": "2026-11-17T18:32+06:00",
+ "source": "https://www.creatus.com.bd/asus-tuf-gaming-a15-fa507nur-ryzen-7-7435hs-rtx-4050-gaming-laptop",
+ "store": "creatus"
+}

@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Hardware Features": {
+   "Interface": "4 10/100Mbps LAN PORTS\n1 10/100Mbps WAN PORT",
+   "Ports": "4 × 10/100Mbps LAN Ports, 1 × 10/100Mbps WAN Port",
+   "Button": "WPS/Reset Button",
+   "External Power Supply": "9VDC / 0.6A",
+   "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Dimensions ( W x D x H )": "6.9 x 4.6 x 1.3 in. (173 x 118 x 33mm)",
+   "Antenna": "2*5dBi Fixed Omni Directional Antenna"
+  },
+  "Wireless Features": {
+   "Wireless Standards": "IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+   "Frequency": "2.4-2.4835GHz",
+   "Signal Rate": "11n: Up to 300Mbps(dynamic)\n11g: Up to 54Mbps(dynamic)\n11b: Up to 11Mbps(dynamic)",
+   "Reception Sensitivity": "270M: -70dBm@10% PER\n130M: -74dBm@10% PER\n108M: -74dBm@10% PER\n54M: -77dBm@10% PER\n11M: -87dBm@8% PER\n6M: -90dBm@10% PER\n1M: -98dBm@8% PER",
+   "Transmit Power": "CE:\n<20dBm\nFCC:\n<30dBm",
+   "Wireless Functions": "Enable/Disable Wireless Radio, WDS Bridge, WMM, Wireless Statistics",
+   "Wireless Security": "64/128/152-bit WEP / WPA / WPA2,WPA-PSK / WPA2-PSK"
+  },
+  "Software Features": {
+   "Quality of Service": "WMM, Bandwidth Control",
+   "WAN Type": "Dynamic IP/Static IP/PPPoE/\nPPTP/L2TP/BigPond",
+   "Management": "Access Control\nLocal Management\nRemote Management",
+   "DHCP": "Server, Client, DHCP Client List,\nAddress Reservation",
+   "Port Forwarding": "Virtual Server,Port Triggering, UPnP, DMZ",
+   "Dynamic DNS": "DynDns, Comexe, NO-IP",
+   "VPN Pass-Through": "PPTP, L2TP, IPSec (ESP Head)",
+   "Access Control": "Parental Control, Local Management Control, Host List, Access Schedule, Rule Management",
+   "Firewall Security": "DoS, SPI Firewall\nIP Address Filter/MAC Address Filter/Domain Filter\nIP and MAC Address Binding",
+   "Protocols": "Support IPv4 and IPv6",
+   "Guest Network": "2.4GHz Guest Network x1",
+   "Working Modes": "Wireless Router, Range Extender, Access Point, WISP"
+  },
+  "Others": {
+   "Certification": "FCC, RoHS",
+   "Package Contents": "Wireless Router TL-WR841N\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide",
+   "System Requirements": "Microsoft® Windows® 10/8.1/8/7/Vista/XP/2000/NT/98SE,\nMAC® OS, NetWare®, UNIX® or Linux\nInternet Explorer 11, Firefox 12.0, Chrome 20.0, Safari 4.0, or other\nJava-enabled browser\nCable or DSL Modem\nSubscription with an internet service provider (for internet access)"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉~104℉)",
+   "Storage Temperature": "-40℃~70℃ (-40℉~158℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:47+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-tl-wr841n-300mbps-router/",
+ "store": "diamu"
+}

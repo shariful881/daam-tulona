@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Noise": "≤29dB(A)",
+   "Air Pressure": "4.65mmH2O",
+   "Bearing Type": "Fluid Dynamic Bearing (FDB)",
+   "Connectors": "4-Pin PWM (Fan), 9-Pin USB 2.0 (Digital Display)",
+   "LED Type": "Circular Dot-Matrix Digital Display (Non-RGB Fan)",
+   "Material": "Copper (4× Φ6mm Heatpipes) + Aluminum (Fins)",
+   "Speed": "500~2000±10%RPM",
+   "Current": "0.2A",
+   "Power Consumption": "2.4W",
+   "Voltage": "12VDC"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 115X / 1200 / 1700 / 1851",
+   "AMD": "AM4 / AM5"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "Iota A40 WH"
+  }
+ },
+ "key_features": [],
+ "model": "Iota A40 WH",
+ "warranty": "3 Years",
+ "fetched": "2026-11-17T18:29+06:00",
+ "source": "https://www.creatus.com.bd/ocypus-iota-a40-wh-cpu-cooler-with-display",
+ "store": "creatus"
+}

@@ -1,0 +1,76 @@
+{
+ "specs": {
+  "Sony Store": {
+   "Camera Pack": "Choose an option\nAdventure Combo\nStandard Combo\nAdventure Combo\nStandard Combo\nClear"
+  },
+  "Which product is right for you?": {
+   "Feature": "Osmo Action 6",
+   "Image Sensor": "All-New 1/1.1-inch Square CMOS",
+   "Dynamic Range": "13.5 Stops HDR",
+   "HDR Recording": "HDR for all video specs4K/60fps high-dynamic low-light New 4K Custom Mode",
+   "Aperture": "f/2.0–f/4.0",
+   "Screens": "OLED & High-Brightness Display",
+   "Operating Time": "240 minutes",
+   "EIS (Stabilization)": "RockSteady 3.0/3.0+4K HorizonSteady4K HorizonBalancing",
+   "Waterproof Rating": "20 m (no case)60 m (with case)EN13319 Certified",
+   "Wi-Fi": "Wi-Fi 6.0Up to 80 MB/s",
+   "Built-in Pressure Gauge": "Yes (depth + altitude)Auto water start/stop recording",
+   "Built-in Storage": "50 GB",
+   "Intelligent Control": "Gesture & Voice"
+  },
+  "General": {
+   "Dimensions": "72.8 × 47.2 × 33.1 mm (L×W×H)",
+   "Weight": "149 g",
+   "Waterproof Rating": "20 m (without case), 60 m (with Waterproof Case)",
+   "Waterproof Notes": "Close all covers before use. IP68 rating. Avoid hot springs, corrosive liquids, and high-pressure underwater environments.",
+   "Microphones": "3",
+   "Touchscreens": "Front: 1.46″, 342×342, 331 ppi, 800 nitsRear: 2.5″, 400×712, 326 ppi, 800 nits (typical), 1000 nits (peak)",
+   "Supported SD Cards": "microSD up to 1 TB",
+   "Recommended microSD Cards": "Lexar Silver Plus (64GB–1TB), Kingston Canvas Go! Plus (64GB–1TB)"
+  },
+  "Camera": {
+   "Sensor": "1/1.1-inch CMOS",
+   "Lens": "FOV 155°, Aperture f/2.0–f/4.0",
+   "Focus Range": "0.2 m to ∞ (at f/4.0)",
+   "ISO Range": "Photo: 100–25600Video: 100–25600 (51200 in SuperNight only)",
+   "Shutter Speed": "Photo: 1/8000–30sVideo: 1/8000s to FPS limit",
+   "Max Photo Resolution": "7168 × 5376 (approx. 38 MP)",
+   "Zoom": "Digital 2× (not supported in 38MP/34MP, SuperNight, Tracking, Slow-Mo, Timelapse)"
+  },
+  "Stabilization (EIS)": {
+   "RockSteady 3.0": "Yes",
+   "RockSteady 3.0+": "Yes",
+   "HorizonBalancing": "Yes",
+   "HorizonSteady": "Yes",
+   "Notes": "EIS not supported in Slow Motion & Timelapse; Horizon features support up to 60fps"
+  },
+  "Storage": {
+   "Built-in Storage": "64 GB total (50 GB available)",
+   "Expandable": "Yes, via microSD"
+  },
+  "Battery": {
+   "Type": "Li-ion 1S",
+   "Capacity": "1950 mAh",
+   "Energy": "7.5 Wh",
+   "Voltage": "3.87 V",
+   "Operating Temperature": "-20° to 45°C",
+   "Charging Temperature": "5° to 40°C",
+   "Operating Time": "240 minutes (1080p/24fps test conditions)"
+  },
+  "Connectivity": {
+   "Wi-Fi Frequency": "2.4GHz / 5.1GHz / 5.8GHz",
+   "Wi-Fi Protocol": "Wi-Fi 6.0 (802.11 a/b/g/n/ac/ax)",
+   "Wi-Fi Power": "23 dBm max (region dependent)",
+   "Bluetooth Frequency": "2.4GHz",
+   "Bluetooth Power": "< 13 dBm",
+   "Bluetooth Protocol": "BLE 5.1"
+  },
+  "Specification": {
+   "Camera Pack": "Adventure Combo, Standard Combo"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:49+06:00",
+ "source": "https://diamu.com.bd/product/dji-osmo-action-6-cam/",
+ "store": "diamu"
+}

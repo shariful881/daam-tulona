@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Data Rate": {
+   "Transmit": "300 Mbps",
+   "Receive": "300 Mbps"
+  },
+  "Specifications": {
+   "Antenna": "Two 5dBi fixed external antennas",
+   "Button": "Power on/off button\nWPS/Reset button",
+   "Frequency": "2.4G frequency band: 2.400 – 2.4835 GHz",
+   "Network Standard": "IEEE Standard 802.11 b/g/n",
+   "Encryption": "64/128 bit WEP, WPA-PSK/WPA2-PSK\nFirewall: Denial of service (DoS) prevention",
+   "Ports": "5 Ports",
+   "Dimension": "142 x 102 x 23 mm",
+   "Weight": "148 g",
+   "Color": "Black"
+  },
+  "Interface": {
+   "WAN": "One 10/100 Mbps Ethernet RJ-45 port",
+   "LAN": "Four 10/100 Mbps Ethernet RJ-45 ports with auto MDI/MDIX support"
+  }
+ },
+ "key_features": [
+  "Model: Zyxel NBG-418N V2",
+  "Transmit: 300 Mbps"
+ ],
+ "fetched": "2026-11-17T18:47+06:00",
+ "source": "https://diamu.com.bd/product/zyxel-nbg-418n-v2-wireless-n300-home-router/",
+ "store": "diamu"
+}

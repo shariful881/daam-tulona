@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Processor": {
+   "Frequency": "2.5GHz up to 4.4GHz",
+   "Core": "6 (6 P-core + 0 E-core)",
+   "Thread": "12",
+   "Cache": "18MB"
+  },
+  "Basic Information": {
+   "Motherboard": "Intel B660",
+   "Graphics Card": "Integrated Intel UHD Graphics 770",
+   "Audio": "Built-in Speakers\nAudio Chip: High Definition (HD) Audio, Realtek ALC623-CG codec",
+   "Storage": "1TB SSD",
+   "Power Supply": "260W"
+  },
+  "RAM": {
+   "Total RAM Slot": "2",
+   "RAM Support": "Up to 64GB"
+  },
+  "System": {
+   "Operating System": "Windows 11 Pro"
+  },
+  "Physical Specification": {
+   "Weight": "Around 4.5 kg (9.9 lbs)",
+   "Color": "Black",
+   "Dimensions": "100 x 308 x 274.8 mm (3.9 x 12.1 x 10.8 inches)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "ThinkCentre Neo 50s SFF"
+  },
+  "Product List": {
+   "Best Lenovo Brand Price List": "Price"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-12400 (18MB Cache, Up to 4.4GHz)",
+  "Storage: 1TB SSD",
+  "RAM: 8GB DDR4 3200MHz"
+ ],
+ "model": "ThinkCentre Neo 50s SFF",
+ "warranty": "3 Years",
+ "fetched": "2026-11-17T18:30+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-thinkcentre-neo-50s-sff-core-i5-12th-gen-brand-pc",
+ "store": "creatus"
+}

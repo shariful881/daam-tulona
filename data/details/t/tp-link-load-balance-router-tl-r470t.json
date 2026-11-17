@@ -1,0 +1,16 @@
+{
+ "specs": {
+  "Specification:": {
+   "Button": "Reset Button",
+   "Interface": "1 Fixed 10/100 Ethernet WAN Port\n1 Fixed 10/100 Ethernet LAN Port\n3 Changeable 10/100 Ethernet WAN/LAN Ports",
+   "Network Standard": "IEEE 802.3, 802.3u, 802.3x, TCP/IP, DHCP, ICMP, NAT, PPPoE, SNTP, HTTP, DDNS",
+   "Encryption": "WEP\nWPA\nWPA2\nWPA/WPA2-Enterprise (802.1x)",
+   "Ports": "1× USB 3.0 Port\n1× Gigabit WAN Port\n4× Gigabit LAN Ports\nStatic Link Aggregation (LAG) available with 2× LAN ports",
+   "Dimension": "6.2 × 4.0 × 1.0 in.\n(158 × 101 × 25mm)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:47+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-load-balance-router-tl-r470t/",
+ "store": "diamu"
+}

@@ -1,0 +1,36 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Noise": "≤26 dB(A) MAX",
+   "Air Pressure": "1.55 mm/H2O",
+   "Bearing Type": "Hydraulic Bearing",
+   "Connectors": "CPU FAN (4-Pin)",
+   "Material": "Aluminum + Copper",
+   "Speed": "600-1650 rpm ± 10%",
+   "Current": "0.14A",
+   "Power Consumption": "1.6W",
+   "Voltage": "12V DC"
+  },
+  "Supported Sockets": {
+   "Intel": "LGA 1851, 1700, 115x, 1200, 2011, 2066, 1366",
+   "AMD": "AM5, AM4, AM3, AM2, AM3+, AM2+, FM2, FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year Warranty"
+  },
+  "Image": {
+   "Model": "UP1T4"
+  }
+ },
+ "key_features": [
+  "PC Gamers & Streamers: Prevents CPU thermal throttling during long gaming sessions in warm non-AC rooms, keeping clock speeds stable.",
+  "Content Creators & Freelancers: Handles sustained multi-core rendering and editing workloads quietly without distracting fan whine.",
+  "First-Time PC Builders: Straightforward mounting hardware and standard CPU FAN header connectivity make installation simple and stress-free."
+ ],
+ "model": "UP1T4",
+ "warranty": "2-Year Warranty",
+ "fetched": "2026-11-17T18:30+06:00",
+ "source": "https://www.creatus.com.bd/uphere-up1t4-120mm-air-cpu-cooler",
+ "store": "creatus"
+}

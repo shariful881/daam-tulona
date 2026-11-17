@@ -1,0 +1,51 @@
+{
+ "specs": {
+  "Wireless": {
+   "Standards": "Wi-Fi 5\nIEEE 802.11ac/n/a 5 GHz\nIEEE 802.11n/b/g 2.4 GHz",
+   "Wi-Fi Speeds": "AC1200\n5 GHz: 867 Mbps (802.11ac)\n2.4 GHz: 400 Mbps (802.11n)",
+   "Wi-Fi Range": "3 Bedroom Houses\n4× Fixed High-Performance Antennas\nMultiple antennas form a signal-boosting array to cover more directions and large areas\nBeamforming\nConcentrates wireless signal strength towards clients to expand WiFi range",
+   "Wi-Fi Capacity": "Medium\nDual-Band\nAllocate devices to different bands for optimal performance\nMU-MIMO\nSimultaneously communicates with multiple MU-MIMO clients\nAirtime Fairness\nImproves network efficiency by limiting excessive occupation",
+   "Working Modes": "Router Mode\nAccess Point Mode"
+  },
+  "Hardware": {
+   "Processor": "1.2 GHz CPU",
+   "Ethernet Ports": "1× Gigabit WAN Port\n4× Gigabit LAN Ports",
+   "Buttons": "WPS/Reset Button",
+   "Power": "12V = 1A"
+  },
+  "Security": {
+   "Wi-Fi Encryption": "WPA/WPA2, WPA-PSK/WPA2-PSK/WPA3-SAE encryptions",
+   "Network Security": "SPI Firewall, IP and MAC Address Binding",
+   "Guest Network": "2.4 GHz Guest Network\n5 GHz Guest Network"
+  },
+  "Software": {
+   "Protocols": "IPv4\nIPv6",
+   "Parental Controls": "URL Filtering\nTime Controls",
+   "WAN Types": "Dynamic IP\nStatic IP\nPPPoE(Dual Access)\nPPTP(Dual Access)\nL2TP(Dual Access)",
+   "Quality of Service": "QoS by Device",
+   "Cloud Service": "OTA Firmware Upgrade\nTP-Link ID\nDDNS",
+   "NAT Forwarding": "Port Forwarding\nPort Triggering\nUPnP\nDMZ",
+   "IPTV": "IGMP Proxy\nIGMP Snooping\nBridge\nTag VLAN",
+   "DHCP": "Server\nDHCP Client List\nAddress Reservation",
+   "DDNS": "TP-Link\nNO-IP\nDynDNS",
+   "Management": "Tether App\nWebpage"
+  },
+  "Physical": {
+   "Dimensions (W×D×H)": "4.7 × 4.7 × 1.1 in\n(120 × 120 × 27.9 mm)",
+   "Package Contents": "Wireless Router Archer C64\nPower Adapter\nRJ45 Ethernet Cable\nQuick Installation Guide"
+  },
+  "Other": {
+   "System Requirements": "Microsoft Windows 98SE/NT/2000/XP/Vista™/7/8/8.1/10, MAC OS,\nNetWare, UNIX or Linux\nInternet Explorer 11, Firefox 12.0, Chrome 20.0, Safari 4.0, or other\nJava-enabled browser\nCable or DSL Modem\nSubscription with an internet service provider (for internet access)",
+   "Certifications": "CE, RoHS"
+  },
+  "Environment": {
+   "Operating Temperature": "0℃~40℃ (32℉ ~104℉)",
+   "Operating Humidity": "10%~90% non-condensing",
+   "Storage Humidity": "5%~90% non-condensing"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-17T18:47+06:00",
+ "source": "https://diamu.com.bd/product/tp-link-archer-c64-ac1200-wireless-mu-mimo-wi-fi-router/",
+ "store": "diamu"
+}

@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "Air CPU Cooler",
+   "Noise": "≤25 dB(A)",
+   "Air Pressure": "1.55 mm/H2O",
+   "Bearing Type": "Hydraulic Bearing",
+   "Connectors": "4-Pin PWM (CPU FAN) + 3-Pin (+5V-D-G) ARGB",
+   "LED Type": "ARGB (Addressable RGB)",
+   "LED Number": "ARGB",
+   "Material": "Aluminum Heatsink + Copper Coldplate & Heatpipes",
+   "Speed": "600–1650 RPM ±10%",
+   "Current": "0.16A",
+   "Power Consumption": "1.9W",
+   "Voltage": "12V DC"
+  },
+  "Supported Sockets": {
+   "Intel": "Intel LGA: 1851, 1700, 1200, 1150, 1121, 1155, 1156, 1366, 1356",
+   "AMD": "AMD: AM5, AM4, AM3, AM2, AM3+, AM2+, FM2, FM1"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "UP1 Elite KC4C"
+  }
+ },
+ "key_features": [],
+ "model": "UP1 Elite KC4C",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-17T18:29+06:00",
+ "source": "https://www.creatus.com.bd/uphere-up1-elite-kc4c-argb-air-cpu-cooler",
+ "store": "creatus"
+}
