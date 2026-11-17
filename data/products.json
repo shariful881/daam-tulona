@@ -4230,6 +4230,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1222506081/1stplayer-power-supply-ps-700ax-cover.webp"
  },
+ "1stplayer-ps10s-ai-workstation-tower-casing": {
+  "brand": "1STPLAYER",
+  "category": "casing",
+  "created": "2026-11-18",
+  "features": [
+   "Motherboard Support: Dual-socket SSI-EEB and large EATX",
+   "10 PCI expansion slots; 8 x 3.5\" HDD, 3 x 2.5\" SSD Driver Bays",
+   "Up to 410mm GPU Clearance, CPU Cooler height: Up to 185mm",
+   "I/O Panel: USB 3.0 x 2, Type-C x 1, HD Audio"
+  ],
+  "key": "casing|1stplayer ai casing ps10s tower workstation",
+  "name": "1STPLAYER PS10S AI Workstation Tower Casing",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/1stplayer/ps10s/ps10s-01-228x228.webp"
+ },
  "1stplayer-ps130-argb-aluminum-fins-hydro-bearing-cpu-air-cooler": {
   "brand": "1STPLAYER",
   "category": "cpu-cooler",
@@ -188517,6 +188532,15 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1732506111/boya-microphone-boyamic-cover.webp"
  },
+ "boya-boyamic-all-in-one-wireless-microphone-with-onboard-recording": {
+  "brand": "BOYA",
+  "category": "microphone",
+  "created": "2026-11-18",
+  "key": "microphone|all boya boyamic microphone onboard one recording wireless",
+  "name": "BOYA BOYAMIC All-in-One Wireless Microphone with OnBoard Recording",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/BOYA-BOYAMIC-All-in-One-Wireless-Microphone-with-OnBoard-Recordinga-3076.png"
+ },
  "boya-by-am1-dual-channel-audio-mixer": {
   "brand": "BOYA",
   "category": "microphone",
@@ -198969,6 +198993,21 @@
   "name": "BWOO BO-CK02 Smart Stylus Pen",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/stylus/bwoo/bo-ck02/bo-ck02-001-228x228.webp"
+ },
+ "bwoo-bo-hf58-wired-3-5mm-earphone": {
+  "brand": "BWOO",
+  "category": "earphone",
+  "created": "2026-11-18",
+  "features": [
+   "Composite Diaphragm Driver",
+   "Frequency Response: 20Hz-20KHz",
+   "ENC Call Noise Reduction",
+   "Three-Button In-Line Control"
+  ],
+  "key": "earphone|3.5mm bo bwoo earphone hf58 wired",
+  "name": "BWOO BO-HF58 Wired 3.5mm Earphone",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earphone/bwoo/bo-hf58/bo-hf58-02-228x228.webp"
  },
  "bwoo-bo-mf02-wireless-lavalier-microphone": {
   "brand": "BWOO",
@@ -233682,6 +233721,21 @@
   "name": "Compro ZYG-800 LED Backlight RGB Gaming USB Keyboard",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2752508001/compro-keyboard-zyg-800-cover.webp"
+ },
+ "constant-14192-775e-portable-50kg-luggage-scale": {
+  "brand": "Constant",
+  "category": "special-printer",
+  "created": "2026-11-18",
+  "features": [
+   "50kg Maximum Weight",
+   "Hanging Type Scale",
+   "Integrated Hook",
+   "Backlit Display, Auto Powers Off"
+  ],
+  "key": "special-printer|14192 50kg 775e constant luggage portable scale",
+  "name": "Constant 14192-775E Portable 50kg Luggage Scale",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/weight-scale/constant/14192-775e/14192-775e-01-228x228.webp"
  },
  "cooler-master-2-5-3-5-inch-single-bay-hdd-case-for-cosmos-c700-series-mca-c700r": {
   "brand": "Cooler",
@@ -324855,6 +324909,36 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/microsoft-sql-server-2019-commercial-1-device-cal-11646633741.webp"
  },
+ "deye-6kw-on-grid-hybrid-solar-package": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-18",
+  "features": [
+   "Inverter: Deye SUN-6K-SG04LP1-EU-SM2 6kW On-Grid Hybrid Solar Inverter",
+   "Battery: Deye SE-F5-C 5.12kWh Lithium Solar Battery",
+   "LESSO 595C(HBD)72(182) 595W N-Type Dual Glass Bifacial Topcon Solar Panel",
+   "Backup Time: Depends on Load"
+  ],
+  "key": "solar|6kw deye grid hybrid on package solar",
+  "name": "Deye 6kW On Grid Hybrid Solar Package",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-package/6000w/6000w-00-01-228x228.webp"
+ },
+ "deye-6kw-on-grid-hybrid-solar-package-with-16kwh-battery": {
+  "brand": "Deye",
+  "category": "solar",
+  "created": "2026-11-18",
+  "features": [
+   "Inverter: Deye SUN-6K-SG04LP1-EU-SM2 6kW On-Grid Hybrid Solar Inverter",
+   "Battery: Deye SE-F16-C 16kWh Lithium Solar Battery",
+   "LESSO 595C(HBD)72(182) 595W N-Type Dual Glass Bifacial Topcon Solar Panel",
+   "Backup Time: Depends on Load"
+  ],
+  "key": "solar|16kwh 6kw battery deye grid hybrid on package solar",
+  "name": "Deye 6kW On Grid Hybrid Solar Package with 16kWh Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-package/6000w/6000w-002-01-228x228.webp"
+ },
  "deye-se-f16-c-16kwh-lithium-solar-battery": {
   "brand": "Deye",
   "category": "battery",
@@ -327689,7 +327773,7 @@
   "created": "2026-11-10",
   "features": [
    "Run Time: 300 min battery",
-   "Trimming Range: 20 length settings with 0.5mm Precision",
+   "Trimming Range: 10 length settings with 0.5mm Precision",
    "IPX5 Fully Washable; USB Type-C Charging,",
    "Warranty: 06 Month Warranty"
   ],
@@ -431015,6 +431099,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/gigabyte-z890-aorus-elite-plus-wi-fi-7-ddr5-11785386063.webp"
  },
+ "gigabyte-z890-aorus-elite-wifi7-plus-lga1851-atx-motherboard": {
+  "brand": "Gigabyte",
+  "category": "motherboard",
+  "created": "2026-11-18",
+  "features": [
+   "Supported CPU: Intel Core Ultra Processors , LGA 1851",
+   "Supported RAM: 4x DDR5, Max 256GB,Supports Up to 9466+ MT/s (OC)",
+   "Graphics Output: 1x HDMI, 1x DisplayPort, 1 x Intel Thunderbolt 4 connector (USB4 Type-C port),",
+   "Features: 4x M.2, Intel Wi-Fi 7, Bluetooth 5.4"
+  ],
+  "key": "motherboard|aorus atx elite gigabyte lga1851 motherboard plus wifi7 z890",
+  "name": "Gigabyte Z890 AORUS ELITE WIFI7 PLUS LGA1851 ATX Motherboard",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/z890-aorus-elite-wifi7-plus/z890-aorus-elite-wifi7-plus-01-228x228.webp"
+ },
  "gigabyte-z890-aorus-elite-wifi7-plus-motherboard": {
   "brand": "Gigabyte",
   "category": "motherboard",
@@ -443910,6 +444009,15 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2812506092/gree-air-conditioner-gs-12xcoa1v-cover.webp"
  },
+ "gree-gs-12xcoa1v-cosmo-inverter-air-conditioner-1-ton": {
+  "brand": "Gree",
+  "category": "ac",
+  "created": "2026-11-18",
+  "key": "ac|1 12xcoa1v air conditioner cosmo gree gs inverter ton",
+  "name": "Gree GS-12XCOA1V Cosmo Inverter Air Conditioner - 1 Ton",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Gree-GS-12XCOA1V-Cosmo-Inverter-AC---1-Ton-4166.png"
+ },
  "gree-gs-12xcoa3v-1-ton-cosmo-split-inverter-air-conditioner": {
   "brand": "Gree",
   "category": "ac",
@@ -444416,6 +444524,15 @@
   "name": "Gree GS-24XCO-Cosmo 2 Ton Wall Split Type Air Conditioner",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2812506091/gree-air-conditioner-gs-24xco-cosmo-cover.webp"
+ },
+ "gree-gs-24xcoa1v-cosmo-inverter-air-conditioner-2-ton": {
+  "brand": "Gree",
+  "category": "ac",
+  "created": "2026-11-18",
+  "key": "ac|2 24xcoa1v air conditioner cosmo gree gs inverter ton",
+  "name": "Gree GS-24XCOA1V Cosmo Inverter Air Conditioner - 2 Ton",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Gree-GS-24XCOA1V-Cosmo-Inverter-Air-Conditioner---2-Ton-3274.png"
  },
  "gree-gs-24xcoa1v-cosmo-split-2-ton-inverter-air-conditioner": {
   "brand": "Gree",
@@ -503707,6 +503824,15 @@
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2025/11/Hoco-DS64-30W-Bluetooth-Speaker-with-Mic-300x300.jpg"
  },
+ "hoco-ds67-bluetooth-party-speaker-with-2-wireless-microphones": {
+  "brand": "Hoco",
+  "category": "microphone",
+  "created": "2026-11-18",
+  "key": "microphone|2 bluetooth ds67 hoco microphones party speaker wireless",
+  "name": "Hoco DS67 Bluetooth Party Speaker with 2 Wireless Microphones",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Hoco-DS67-Bluetooth-Party-Speaker-with-2-Wireless-Microphones-6805.png"
+ },
  "hoco-ds67-superbass-pro-600w-portable-bluetooth-speaker": {
   "brand": "Hoco",
   "category": "bluetooth-speaker",
@@ -513363,6 +513489,12 @@
   "brand": "Honor",
   "category": "smartphone",
   "created": "2026-11-11",
+  "features": [
+   "Display: 6.87\" TFT LCD HD+, 120Hz, 1020nits (HBM))",
+   "Processor: Qualcomm Snapdragon 4 Gen 4 (4 nm)",
+   "Camera: Dual 50MP+Aux on Rear, 5MP on Selfie",
+   "Features: Fingerprint, 8100mAh Battery, IP68/69/69K, 45W Fast Charging"
+  ],
   "key": "smartphone|5g 600s honor",
   "name": "Honor 600s 5G",
   "specs": {},
@@ -609443,10 +609575,10 @@
   "category": "pen-drive",
   "created": "2026-11-10",
   "features": [
-   "Interface(s) - USB 3.2 Gen 1",
-   "Capacity (GB) - 128GB",
-   "Large loop design",
-   "Wide Compatibility with Win 11, macOS, Linux, ChromeOS"
+   "Interface(s) - USB 3.2",
+   "Capacity (GB/TB) - 128GB",
+   "Read/Write- 100MB/s/ 20MB/s",
+   "Large loop design"
   ],
   "key": "pen-drive|128gb 3.2 datatraveler exodia kingston pen usb",
   "name": "Kingston DataTraveler Exodia 128GB USB 3.2 Pen Drive",
@@ -722026,7 +722158,7 @@
   "features": [
    "Measures Up to 180 Kg",
    "4 High-Precision Sensors",
-   "Digital LCDAutomatic On/Off",
+   "Digital LCD, Automatic On/Off",
    "Stylish Wooden Design"
   ],
   "key": "health-device|7006w body digital meb miyako scale weight",
@@ -722048,6 +722180,21 @@
   "name": "Miyako MEI-048B 1500 Watt Steam Iron",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P8172611011/miyako-dry-iron-mei-048b-cover.webp"
+ },
+ "miyako-mif-1200d-digital-body-weight-scale": {
+  "brand": "Miyako",
+  "category": "health-device",
+  "created": "2026-11-18",
+  "features": [
+   "Measures Up to 150 Kg",
+   "4 High-Precision Sensors",
+   "Bluetooth Wireless Data Transmission",
+   "Smart Analysis of BMI, Body Fat ratio"
+  ],
+  "key": "health-device|1200d body digital mif miyako scale weight",
+  "name": "Miyako MIF 1200D Digital Body Weight Scale",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/weight-scale/miyako/mif-1200d/mif-1200d-01-228x228.webp"
  },
  "miyako-mrc-300-3-liter-double-pot-rice-cooker-momo-maker": {
   "brand": "Miyako",
@@ -729174,6 +729321,15 @@
   "name": "MSI G274F 27\" 180Hz IPS FHD Gaming Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/g274f/g274f-001-228x228.webp"
+ },
+ "msi-g274f-27-inch-fhd-180hz-ips-gaming-monitor": {
+  "brand": "MSI",
+  "category": "monitor-all",
+  "created": "2026-11-18",
+  "key": "monitor-all|180hz 27 fhd g274f ips monitor msi",
+  "name": "MSI G274F 27 Inch FHD 180Hz IPS Gaming Monitor",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/MSI-G274F-27-Inch-FHD-180Hz-IPS-Gaming-Monitor-7538.jpg"
  },
  "msi-g274f-27-inch-fhd-display-dual-hdmi-dp-gaming-monitor": {
   "brand": "MSI",
@@ -800279,6 +800435,21 @@
   "name": "Oraimo OpenSnap",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/oraimo/opensnap/opensnap-light-gold-228x228.webp"
+ },
+ "oraimo-opensnap-air": {
+  "brand": "Oraimo",
+  "category": "earbuds",
+  "created": "2026-11-18",
+  "features": [
+   "12mm Composit Driver",
+   "35-Hour Long Playtime",
+   "Dual Mic AI ENC Clear Voice in Calls",
+   "Bluetooth V6.0, Smart Adaptive Volume"
+  ],
+  "key": "earbuds|air opensnap oraimo",
+  "name": "Oraimo OpenSnap Air",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/earbuds/oraimo/opensnap-air/opensnap-air-02-228x228.webp"
  },
  "oraimo-opensnap-clip-on-true-wireless-earbuds-black": {
   "brand": "Oraimo",
@@ -891330,6 +891501,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/rozia/hc-8191/hc-8191-01-228x228.webp"
  },
+ "rozia-hc8346-9000w-hair-dryer": {
+  "brand": "Rozia",
+  "category": "grooming",
+  "created": "2026-11-18",
+  "features": [
+   "Wattage: 9000W",
+   "Speed Settings: 3 Speeds",
+   "Advanced Ionic Technology",
+   "Up to 120 km/h Airflow"
+  ],
+  "key": "grooming|9000w dryer hair hc8346 rozia",
+  "name": "Rozia HC8346 9000W Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/rozia/hc8346/hc8346-01-228x228.webp"
+ },
  "rozia-hr-811-hair-straightener": {
   "brand": "Rozia",
   "category": "grooming",
@@ -908078,10 +908264,10 @@
   "category": "tablet",
   "created": "2026-11-10",
   "features": [
-   "Display: 13.1\" WQXGA+ (2880 x 1800) IPS LCD, 90Hz",
-   "Processor: Exynos 1580 (4 nm)",
+   "Display: 10.9\" IPS LCD, 90Hz",
+   "CPU: Exynos 1580 (4 nm)",
    "RAM: 8GB, Storage: 128GB",
-   "Features: Side Fingerprint, IP68, Li-Po 10090 mAh"
+   "Features: Fingerprint (side-mounted), Li-Po 8000mAh"
   ],
   "key": "tablet|fe galaxy s10 samsung tab",
   "name": "Samsung Galaxy Tab S10 FE",
@@ -936311,6 +936497,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/appliance/air-fryer/sharp/kf-af70m-bk/kf-af70m-bk-01-228x228.webp"
  },
+ "sharp-kf-af70rt-s2-7l-1650w-air-fryer": {
+  "brand": "Sharp",
+  "category": "air-fryer",
+  "created": "2026-11-18",
+  "features": [
+   "Capacity: 7 Litre",
+   "Output Power: 1650W",
+   "8 Pre-set Cooking Programs",
+   "Temp Range: Adjustable from 80°C to 200°C"
+  ],
+  "key": "air-fryer|1650w 7l af70rt air fryer kf s2 sharp",
+  "name": "Sharp KF-AF70RT-S2 7L 1650W Air Fryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/appliance/air-fryer/sharp/kf-af70rt-s2/kf-af70rt-s2-01-228x228.webp"
+ },
  "sharp-kf-af70rt-s2-7l-1650w-silver-air-fryer": {
   "brand": "Sharp",
   "category": "air-fryer",
@@ -950689,6 +950890,21 @@
   "name": "Solis 5kW On Grid Solar Package",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-package/5kw-solar-package/5kw-on-grid-solar-package-01-228x228.webp"
+ },
+ "solis-6kw-on-grid-hybrid-solar-package": {
+  "brand": "Solis",
+  "category": "solar",
+  "created": "2026-11-18",
+  "features": [
+   "Inverter: Solis S6-EH1P6K-L-PLUS 6kW Single Phase Hybrid Solar Inverter",
+   "Battery: Solis IntelliHome-5kWh-OD 51.2V 100Ah Lithium Solar Battery",
+   "JinKo 66HL4M-BDV 620W N-Type Bifacial Module Dual Glass Solar Panel",
+   "Backup Time: Depends on Load"
+  ],
+  "key": "solar|6kw grid hybrid on package solar solis",
+  "name": "Solis 6kW On Grid Hybrid Solar Package",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-package/6000w/6kw-01-228x228.webp"
  },
  "solis-flexcore-id-60kwh-lithium-solar-battery": {
   "brand": "Solis",
@@ -1026300,9 +1026516,9 @@
   "created": "2026-11-10",
   "features": [
    "Form factor: 3,5-inch",
-   "Interface: 6.0 Gbit/s",
-   "Buffer size: 256 MB",
-   "Cameras supported: up to 64"
+   "Capacity: 6TB",
+   "Speed: 5400RPM; Buffer Size: 256Mb",
+   "Read Speed: Up to 184Mb/s"
   ],
   "key": "hdd|3.5 5400rpm 6tb hard s300 surveillance toshiba",
   "name": "Toshiba S300 6TB 5400rpm 3.5\" Surveillance Hard Drive",
@@ -1093649,6 +1093865,15 @@
   "specs": {},
   "store_image": "https://www.ultratech.com.bd/image/cache/catalog/products_2023/univision-led350-ah-led-22inch-black-monitor-250x250.jpg"
  },
+ "unv-mw-lc22-g-ips-120hz-22-inch-full-hd-monitor": {
+  "brand": "UNV",
+  "category": "monitor-all",
+  "created": "2026-11-18",
+  "key": "monitor-all|120hz 22 full g hd ips lc22 monitor mw unv",
+  "name": "UNV MW-LC22-G IPS 120Hz 22-inch Full HD Monitor",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/UNV-MW-LC22-G-IPS-120Hz-22-inch-Full-HD-Monitor-3660.jpg"
+ },
  "unv-mw-lc24-g-ips-144hz-24-inch-full-hd-monitor": {
   "brand": "UNV",
   "category": "monitor-all",
@@ -1120013,6 +1120238,36 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-vg1457-14-inch-19-inch-viewable-dual-11792817819.webp"
  },
+ "viewsonic-vg1457-14-ips-wuxga-dual-screen-portable-monitor": {
+  "brand": "ViewSonic",
+  "category": "portable-monitor",
+  "created": "2026-11-18",
+  "features": [
+   "Resolution: WUXGA (1920 x 1200)",
+   "Display: 14 inch IPS, 60Hz, 16ms",
+   "Ports: 3 x USB Type-C",
+   "Features: Built in Speaker"
+  ],
+  "key": "portable-monitor|14 dual ips monitor portable screen vg1457 viewsonic wuxga",
+  "name": "ViewSonic VG1457 14\" IPS WUXGA Dual Screen Portable Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/vg1457/vg1457-01-228x228.webp"
+ },
+ "viewsonic-vg2441v-24-fhd-type-c-monitor-with-webcam": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-18",
+  "features": [
+   "Resolution: FHD (1920 x 1080)",
+   "Display: 24 inch IPS, 120Hz, 4ms (GtG)",
+   "Ports: 1 x HDMI, 1 x  DP,1 x Type-C, 2 x USB-A",
+   "Features: Built in Speaker, 5MP Webcam, Dual Microphone"
+  ],
+  "key": "monitor-all|24 c fhd monitor type vg2441v viewsonic webcam",
+  "name": "ViewSonic VG2441V 24\" FHD Type-C Monitor with Webcam",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/vg2441v/vg2441v-01-228x228.webp"
+ },
  "viewsonic-viewboard-6552-1c-65-inch-4k-uhd-interactive-flat-panel-display-androi": {
   "brand": "ViewSonic",
   "category": "display-solution",
@@ -1122589,6 +1122844,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-xg2737-27-inch-fhd-display-dual-hdmi-dp-11745814407.webp"
  },
+ "viewsonic-xg2738-2k-oled-27-2k-qhd-240hz-qd-oled-gaming-monitor": {
+  "brand": "Viewsonic",
+  "category": "gaming-monitor",
+  "created": "2026-11-18",
+  "features": [
+   "Resolution: 2K QHD (2560 x 1440)",
+   "Display: 27\" QD-OLED, 240Hz, 0.03ms (GtG)",
+   "Ports: 2 x HDMI, 2 x DP, 1 x Audio Jack",
+   "Features: G-Sync Compatible,FreeSync Premium, Built in Speaker"
+  ],
+  "key": "gaming-monitor|240hz 27 2k monitor oled qd qhd viewsonic xg2738",
+  "name": "Viewsonic XG2738-2K-OLED 27\" 2K QHD 240Hz QD-OLED Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/xg2738-2k-oled/xg2738-2k-oled-01-228x228.webp"
+ },
  "viewsonic-xg275d1-4k-27-4k-uhd-fhd-dual-mode-gaming-monitor": {
   "brand": "Viewsonic",
   "category": "gaming-monitor",
@@ -1122687,6 +1122957,21 @@
   "name": "Viltrox 27mm f/1.2 Lens (Sony E)",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/lens/viltrox/27mm-f1-2/27mm-f1-2-01-228x228.webp"
+ },
+ "viltrox-35mm-f-1-8-af-lens-for-sony-e-mount": {
+  "brand": "Viltrox",
+  "category": "camera-lens",
+  "created": "2026-11-18",
+  "features": [
+   "Aperture Range: f/1.8 to f/16",
+   "Minimum Focus Distance: 15.7\"",
+   "Filter Size: 55mm, STM Autofocus Motor",
+   "E-Mount Lens/Full-Frame Format, Nano-Coating"
+  ],
+  "key": "camera-lens|1.8 35mm af e f lens mount sony viltrox",
+  "name": "Viltrox 35mm f/1.8 AF Lens for Sony E-Mount",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/lens/viltrox/35mm-f-1-8-af/35mm-f-1-8-af-lens-01-228x228.webp"
  },
  "viltrox-75mm-f-1-2-af-lens-sony-e": {
   "brand": "Viltrox",
@@ -1138053,6 +1138338,21 @@
   "name": "WELLOO EBW32400 400W Electric Blower",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/blower/ebw32400/ebw32400-01-228x228.jpg"
+ },
+ "welloo-ebw32600-600w-electric-blower": {
+  "brand": "WELLOO",
+  "category": "power-tools",
+  "created": "2026-11-18",
+  "features": [
+   "Power: 600W, 220~240V 50/60Hz",
+   "Air Flowing: 2.8m3/min",
+   "No Load Speed: 14000r/min",
+   "Turbocharging Technology Stronger Airflow"
+  ],
+  "key": "power-tools|600w blower ebw32600 electric welloo",
+  "name": "WELLOO EBW32600 600W Electric Blower",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/blower/welloo/ebw32600/ebw32600-01-228x228.webp"
  },
  "weofly-active-2": {
   "brand": "Weofly",
@@ -1159329,6 +1159629,21 @@
   ],
   "key": "lifestyle-other|killer lamp mosquito qualitell x2 xiaomi",
   "name": "Xiaomi Qualitell X2 Mosquito Killer Lamp",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/xiaomi/x2-/x2-01-228x228.webp"
+ },
+ "xiaomi-qualitell-x2-ultra-mosquito-killer-lamp": {
+  "brand": "Xiaomi",
+  "category": "lifestyle-other",
+  "created": "2026-11-18",
+  "features": [
+   "Output Voltage: 1500V",
+   "Dual-fan Fly Trap, 220 m² ultra-wide coverage",
+   "365~395nm UV LED light, Fully automatic mosquito catcher",
+   "Bionic human body temperature simulation system"
+  ],
+  "key": "lifestyle-other|killer lamp mosquito qualitell ultra x2 xiaomi",
+  "name": "Xiaomi Qualitell X2 Ultra Mosquito Killer Lamp",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/xiaomi/x2-/x2-01-228x228.webp"
  },
