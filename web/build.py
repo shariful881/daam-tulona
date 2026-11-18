@@ -1382,6 +1382,8 @@ def main():
         alts_better = INS.better_alternatives(pid, price, prof, nums, peer_pool.get(c), items) if (price and not it["sus"]) else []
         return res + (alts_better,)
 
+    _pg = ROOT / "config/buying_guides.json"
+    PGUIDES = json.loads(_pg.read_text()).get("guides", {}) if _pg.exists() else {}
     for pid, it in items.items():
         p, leaf, grp, so = products[pid], leaves[it["category"]], group_of[it["category"]], offers[pid]
         if it["state"] == "gone":  # টানা ৯০ দিন কোথাও নেই: পাতা সরানো হয় (রিডাইরেক্ট পাতা নয়)
@@ -1529,9 +1531,24 @@ def main():
                   + (f" {warranty}।" if warranty else "")))
         if it["listed"]:
             seo_titles[pid] = _title
+        # কেনার আগে যা দেখবেন: ক্যাটাগরির টিপস + এই প্রোডাক্টের নিজস্ব পয়েন্ট (আমাদের ডাটা থেকে)
+        _own = []
+        if warranty:
+            _own.append(f"এই মডেলে বিক্রেতার পাতায় ওয়ারেন্টি লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড আর শর্ত বুঝে নিন।")
+        if best:
+            _pol = (common["store_info"].get(best["store"]) or {}).get("policy")
+            if _pol and _pol.get("chip"):
+                _own.append(f"সবচেয়ে কম দামের দোকান {stores[best['store']]['name']}-এ রিটার্ন/রিপ্লেসমেন্ট: {_pol['chip']}। শর্ত দোকানের পাতায় দেখে নিন।")
+            if it["saving"] and it["saving"] >= 300:
+                _own.append(f"একই মডেলের দাম দোকানভেদে {taka(it['saving'])} পর্যন্ত আলাদা। নিচের তালিকা থেকে দোকান বেছে কিনুন।")
+        if it["category"] in PHONE_CATS:
+            _own.append("অফিসিয়াল নাকি আনঅফিসিয়াল ফোন, দোকানের তালিকায় লেবেল দেখে নিন। আনঅফিসিয়াল ফোনে NEIR নিবন্ধন আর ওয়ারেন্টি আলাদা হতে পারে।")
+        _gd = PGUIDES.get(it["category"]) or {}
+        _tips = (_gd.get("tips") or [])[:max(2, 5 - len(_own))]
+        pguide = {"own": _own[:2], "tips": _tips} if (_tips or _own) else None
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(product_tpl.render(
+        out.write_text(product_tpl.render(pguide=pguide,
             **common, p=p, it=it, cat=leaf, group=grp, det=det, warranty=warranty, spec_sections=spec_sections, spec_credit=spec_credit, feat_rows=feat_rows, feat_extra=feat_extra,
             best=best, saving=it["saving"], worst=it.get("worst"), live_count=it["live_count"], store_rows=rows, alts=alts,
             binfo=BR.info.get(it["bslug"], {}) if it["bslug"] else {}, bcount=bcount_all.get(it["bslug"], 0),
@@ -1781,6 +1798,10 @@ def main():
         write(slug, "info.html", page=slug, heading=title, store_names=", ".join(stores[s]["name"] for s in enabled),
               n_items=len(listed_items), n_stores=len(enabled), n_all=len(items),
               title=f"{title} | দামতুলনা", description=desc, canonical=f"{SITE_URL}/{slug}/" if SITE_URL else None)
+    write("kivabe", "kivabe.html", n_stores=len(enabled), title="দামতুলনা কীভাবে ব্যবহার করবেন | দামতুলনা",
+          description="সর্বনিম্ন দাম, কত বাঁচবে, দাম কমলে জানান, তুলনা আর বাজার আপডেট: দামতুলনা ব্যবহারের সহজ গাইড।",
+          canonical=f"{SITE_URL}/kivabe/" if SITE_URL else None,
+          crumbs=crumbs_ld(("হোম", ""), ("কীভাবে ব্যবহার করবেন", "kivabe/")))
     client = ads["adsense"].get("client", "")
     if client:
         # ads.txt ডোমেইনের মূলে থাকতে হয়; নিজের ডোমেইন যুক্ত হলে কাজ করবে

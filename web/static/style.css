@@ -1216,3 +1216,19 @@ main.col>.foot,main.col>.footnav{order:99}
 .bnav .bnow{color:var(--accent)}
 .bdays{list-style:none;margin:0;padding:0}.bdays li{border-bottom:1px solid var(--line)}.bdays li:last-child{border:0}
 .bdays a{display:grid;gap:2px;padding:9px 0;text-decoration:none;color:var(--ink)}.bdays span{font-size:.84rem;color:var(--muted)}
+/* কেনার আগে যা দেখবেন */
+.pguide{padding:0}
+.pguide summary{display:flex;align-items:center;gap:10px;padding:14px 16px;cursor:pointer;list-style:none;font-weight:600}
+.pguide summary::-webkit-details-marker{display:none}
+.pguide .pgt{flex:1;line-height:1.4}
+.pguide .pgc{color:var(--muted);transition:transform .2s}
+.pguide details[open] .pgc{transform:rotate(90deg)}
+.pguide summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;border-radius:12px}
+.pgl{margin:0;padding:0 16px 4px 38px;display:grid;gap:8px;font-size:.92rem;line-height:1.6}
+.pgl li.own{color:var(--ink)}
+.pgl li.own::marker{color:var(--accent);font-weight:700}
+.pgf{margin:8px 16px 14px;font-size:.85rem}.pgf a{color:var(--accent);text-decoration:none;font-weight:600}
+.kvd{margin:0;display:grid;gap:10px}.kvd div{border-left:3px solid var(--accent);padding:2px 0 2px 12px}
+.kvd dt{font-weight:700}.kvd dd{margin:2px 0 0;color:var(--muted)}
+.kvd>div{display:block;border-bottom:0;padding:2px 0 2px 12px;font-size:.94rem}
+.kvd dd{text-align:left}

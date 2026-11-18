@@ -198,6 +198,18 @@
     <p class="nfnote">এই স্টোরগুলোর তালিকায় আজ এই প্রোডাক্টটা খুঁজে পাওয়া যায়নি। স্টক এলে বা মিল পাওয়া গেলে উপরে যোগ হবে।</p>
     {% endif %}
   </section>
+  {% if pguide %}
+  <section class="card o2 pguide">
+    <details>
+      <summary><span class="pgi" aria-hidden="true">📋</span><span class="pgt">এই {{ cat.name_bn }} কেনার আগে {{ (pguide.own|length + pguide.tips|length)|bn }}টি জিনিস দেখুন</span></summary>
+      <ol class="pgl">
+        {% for t in pguide.own %}<li class="own">{{ t }}</li>{% endfor %}
+        {% for t in pguide.tips %}<li>{{ t }}</li>{% endfor %}
+      </ol>
+      <p class="pgf"><a href="{{ base }}/kivabe/">দামতুলনা কীভাবে ব্যবহার করবেন ›</a></p>
+    </details>
+  </section>
+  {% endif %}
   {% set srows = store_rows | selectattr("offer") | list %}
   {% if srows %}
   <section class="card o2 sprof">
