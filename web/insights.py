@@ -18,8 +18,8 @@ def bn(n):
     return f"{int(n):,}".translate(BN_DIGITS)
 
 
-def tk(n):
-    return "৳" + bn(n)
+def tk(n):  # টাকার অঙ্ক পুরো সাইটের মতো ইংরেজিতে (৳122,000), বাকি সংখ্যা বাংলায়
+    return "৳" + f"{int(n):,}"
 
 
 def pick(pid, kind, options):
@@ -108,6 +108,10 @@ def build(pid, it, so, stores, leaf, changes, today, peers=None, rank=None, prof
     out, meta, faq = [], [], []
     priced = sorted([(s, o) for s, o in so.items() if o.get("price") and o.get("in_stock") and s not in sus],
                     key=lambda x: x[1]["price"])
+    # ২+ দিন পুরনো দাম (হাতে বসানো বাদে) হিসাবে নয়, যদি আজকের দাম থাকে
+    _fresh = [x for x in priced if x[1].get("manual") or not x[1].get("seen")
+              or (date.fromisoformat(today) - date.fromisoformat(x[1]["seen"])).days < 2]
+    priced = _fresh or priced
     listed = [s for s, o in so.items() if o.get("price") or o.get("in_stock") is not None]
     sn = lambda s: stores[s]["name"]
 
@@ -220,6 +224,10 @@ def build(pid, it, so, stores, leaf, changes, today, peers=None, rank=None, prof
             if 1 <= pct <= 60:
                 out.append(("discount", f"{sn(s)} নিয়মিত দাম {tk(reg)} দেখাচ্ছে, এখন {tk(reg - o['price'])} ({bn(pct)}%) ছাড়ে বিক্রি করছে।"))
 
+    # আজকের দাম, দোকান-সংখ্যা আর কোথায় স্টক নেই: পাতার ওপরে আর দোকানের তালিকায় আগেই আছে, তাই বিশ্লেষণে আবার নয়।
+    # (মেটা বিবরণে থাকে; "কোন দোকানে সবচেয়ে কম" প্রশ্নটা প্রথম প্রশ্নের "দাম কত" উত্তরের সাথে একই, তাই বাদ)
+    out = [x for x in out if x[0] not in ("today", "stock")]
+    faq = [x for x in faq if x[0] != "কোন দোকানে সবচেয়ে কম দাম?"]
     if hint and out:
         out.append(("tip", hint))
     return out, meta, faq
@@ -237,7 +245,7 @@ def price_status(changes, today):
     if days < MIN_DAYS:
         left = MIN_DAYS - days
         return {"state": "wait", "title": "দামের ইতিহাস জমছে",
-                "text": f"আমরা {bn(days)} দিন ধরে এই প্রোডাক্টের দাম জমাচ্ছি। আর {bn(left)} দিন পর বলতে পারব এখন কেনার ভালো সময় কিনা। ততদিন অপেক্ষা করতে চাইলে নিচের \"দাম কমলে জানান\" চাপুন।"}
+                "text": f"আমরা {bn(days)} দিন ধরে এই প্রোডাক্টের দাম জমাচ্ছি। আর {bn(left)} দিন পর বলতে পারব এখন কেনার ভালো সময় কিনা। ততদিন অপেক্ষা করতে চাইলে \"দাম কমলে জানান\" চাপুন।"}
     win = 30 if days >= 30 else days
     cut = (date.fromisoformat(today) - timedelta(days=win)).isoformat()
     vals = [v for d, v in changes if d > cut] or [changes[-1][1]]

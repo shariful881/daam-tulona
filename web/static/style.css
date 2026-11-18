@@ -1232,3 +1232,4 @@ main.col>.foot,main.col>.footnav{order:99}
 .kvd dt{font-weight:700}.kvd dd{margin:2px 0 0;color:var(--muted)}
 .kvd>div{display:block;border-bottom:0;padding:2px 0 2px 12px;font-size:.94rem}
 .kvd dd{text-align:left}
+.hwait{margin:8px 0 0;font-size:.85rem;line-height:1.55;color:var(--muted)}

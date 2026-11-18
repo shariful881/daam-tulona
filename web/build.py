@@ -195,7 +195,7 @@ def bn_num(n):
 
 def bn_date(d: str) -> str:
     y, m, day = d[:10].split("-")
-    return f"{int(day)} {BN_MONTHS[int(m) - 1]} {y}"
+    return f"{int(day)} {BN_MONTHS[int(m) - 1]} {y}".translate(BN_DIGITS)  # তারিখ বাংলা অঙ্কে; টাকার অঙ্ক (taka) দোকানের মতো ইংরেজিতে
 
 
 def icon_for(leaf, group):
@@ -1054,6 +1054,21 @@ def main():
                 details[keep] = details[old]
     amap = {k: v for k, v in amap.items() if k not in offers}
 
+    def is_stale(o):  # দোকান থেকে ২+ দিন নতুন দাম আসেনি (হাতে বসানো দাম বাদে)
+        return bool(not o.get("manual") and o.get("seen") and (date.fromisoformat(today) - date.fromisoformat(o["seen"])).days >= 2)
+
+    def pick_best(pairs):
+        """সর্বনিম্ন দাম আর সাশ্রয়: আজকের (নতুন) দাম থেকে। কোনো নতুন দাম না থাকলেই শুধু সর্বশেষ জানা দাম, "stale" চিহ্নসহ।
+        ফেরত: (best, saving, worst, নতুন দামের দোকান-সংখ্যা)"""
+        fresh = [x for x in pairs if not is_stale(x[1])]
+        use = fresh or pairs
+        if not use:
+            return None, 0, None, 0
+        best = {"store": use[0][0], "price": use[0][1]["price"], "url": use[0][1]["url"], "stale": not fresh}
+        if len(fresh) > 1:
+            return best, fresh[-1][1]["price"] - fresh[0][1]["price"], {"store": fresh[-1][0], "price": fresh[-1][1]["price"]}, len(fresh)
+        return best, 0, None, len(fresh)
+
     BR = Brands()
     items = {}
     for pid, so in offers.items():
@@ -1065,15 +1080,14 @@ def main():
         # বিশ্বস্ত দোকানের (stores.json-এ "trusted": true, যেমন Star Tech, Ryans) দাম কখনো সন্দেহজনক ধরা হয় না
         sus = {s_ for s_ in suspect_stores(live_all) if f"{pid}|{s_}" not in price_ok and not stores.get(s_, {}).get("trusted")}
         live = [x for x in live_all if x[0] not in sus]  # সর্বনিম্ন দাম ও সাশ্রয় শুধু বিশ্বাসযোগ্য দাম থেকে
-        best = {"store": live[0][0], "price": live[0][1]["price"], "url": live[0][1]["url"]} if live else None
+        best, _sv, _wr, _fc = pick_best(live)
         any_price = min((o["price"] for o in so.values() if o.get("price")), default=None)
         bslug = BR.of(p["name"], det.get("brand") if det.get("brand") not in (None, "", "Others") else p["brand"], pid)
         brand = bslug or ""
         imgs = image_list(pid, so, products, stores)
         items[pid] = {"id": pid, "name": p["name"], "category": p["category"], "cat_name": leaves[p["category"]]["name_bn"],
                       "group": group_of[p["category"]]["slug"], "brand": brand, "bslug": bslug, "best": best, "any_price": any_price,
-                      "saving": live[-1][1]["price"] - live[0][1]["price"] if len(live) > 1 else 0,
-                      "worst": {"store": live[-1][0], "price": live[-1][1]["price"]} if len(live) > 1 else None,
+                      "saving": _sv, "worst": _wr, "fresh_count": _fc,
                       "store_count": len([o for o in so.values() if o.get("price")]), "live_count": len(live), "sus": sorted(sus),
                       "created": p["created"], "specs": p["specs"], "imgs": imgs,
                       "facets": " ".join(x for x in [p["specs"].get(k) for k in ("capacity", "type", "interface", "brand_cpu")] if x),
@@ -1095,9 +1109,7 @@ def main():
             it["sus"] = sorted(set(it["sus"]) | low)
             ok_ = sorted(((s_, o) for s_, o in offers[pid].items() if o.get("in_stock") and o.get("price") and s_ not in it["sus"]),
                          key=lambda x: x[1]["price"])
-            it["best"] = {"store": ok_[0][0], "price": ok_[0][1]["price"], "url": ok_[0][1]["url"]} if ok_ else None
-            it["saving"] = ok_[-1][1]["price"] - ok_[0][1]["price"] if len(ok_) > 1 else 0
-            it["worst"] = {"store": ok_[-1][0], "price": ok_[-1][1]["price"]} if len(ok_) > 1 else None
+            it["best"], it["saving"], it["worst"], it["fresh_count"] = pick_best(ok_)
             it["live_count"] = len(ok_)
 
     # ===== স্টকের অবস্থা: স্টকে / আংশিক / আসছে / সদ্য শেষ / স্টক শেষ / বন্ধ =====
@@ -1416,7 +1428,13 @@ def main():
             same = [a for a in same if 0.7 * ref <= a["best"]["price"] <= 1.3 * ref]
         alts = [{"id": a["id"], "name": a["name"], "price": a["best"]["price"], "store": a["best"]["store"], "imgs": a["imgs"], "category": a["category"]}
                 for a in sorted(same, key=lambda a: abs(a["best"]["price"] - (ref or 0)))[:6]]
-        changes = daily_min({s_: v for s_, v in history.get(pid, {}).items() if s_ not in it["sus"]}, today)
+        # যে দোকান থেকে ২+ দিন নতুন দাম আসেনি, তার শেষ দাম চার্টে আজ পর্যন্ত টেনে নেওয়া হয় না (শেষ দেখার পরদিন থেকে বাদ)
+        _hist = {s_: list(v) for s_, v in history.get(pid, {}).items() if s_ not in it["sus"]}
+        for s_, v in _hist.items():
+            o_ = so.get(s_)
+            if o_ and is_stale(o_):
+                v.append(((date.fromisoformat(o_["seen"]) + timedelta(days=1)).isoformat(), None))
+        changes = daily_min(_hist, today)
         best = it["best"]
         if best:  # আজ দাম কমেছে: একই স্টোর নিজের দাম কমিয়েছে (নতুন স্টোর যোগ হওয়াকে "কমা" ধরা হয় না)
             hs = sorted(history.get(pid, {}).get(best["store"], []))
@@ -1436,27 +1454,30 @@ def main():
         spec_credit = {"name": bdet["brand_site"], "url": bdet["source"]} if bdet.get("specs") else None
         faq = [
             (f"{p['name']} এর দাম কত?",
-             f"আজকের হিসাবে সর্বনিম্ন দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ।" if best
+             (f"সর্বশেষ জানা দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ। কেনার আগে দোকানে আজকের দাম মিলিয়ে নিন।"
+              if best.get("stale") else f"আজকের হিসাবে সর্বনিম্ন দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ।") if best
              else "এই মুহূর্তে আমাদের তালিকার কোনো স্টোরে এটা স্টকে নেই।"),
-            ("এর ওয়ারেন্টি কত দিনের?",
-             f"বিক্রেতার পাতায় লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড ও শর্ত মিলিয়ে নিন।" if warranty
-             else "ওয়ারেন্টির তথ্য এখনো যোগ হয়নি। কেনার আগে স্টোরে জিজ্ঞেস করে নিন।"),
-        ] + ins_faq + [
+        ] + ([("এর ওয়ারেন্টি কত দিনের?", f"বিক্রেতার পাতায় লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড ও শর্ত মিলিয়ে নিন।")]
+             if warranty else []) + ins_faq + [
             ("এই দাম কখন আপডেট হয়?", "দাম প্রতিদিন হালনাগাদ হয়। শেষ হালনাগাদের তারিখ পাতার নিচে লেখা থাকে।"),
         ]
         if not ins_faq:
             faq.append(("কোন স্টোর থেকে কেনা ভালো?", "দামের পাশাপাশি ওয়ারেন্টি, ডেলিভারি আর বাসার কাছে শাখা আছে কিনা দেখে নিন।"))
         priced_s = sorted(((s_, o) for s_, o in so.items() if o.get("price") and o.get("in_stock") and s_ not in it["sus"]),
                           key=lambda x: x[1]["price"])
+        priced_s = [x for x in priced_s if not is_stale(x[1])] or priced_s  # আজকের দাম থাকলে শুধু সেগুলো
         priced = [o for _, o in priced_s]
         # সংক্ষিপ্ত উত্তর: Google AI Overview আর AI চ্যাটবট যেন এক বাক্যেই দাম, দোকান আর তারিখ পায় (পাতায় দেখা যায়)
         _low30 = window_min(changes, today, 30) if changes and (date.fromisoformat(today) - date.fromisoformat(changes[0][0])).days >= 14 else None
-        if best and priced:
+        if best and best.get("stale"):  # আজ কোনো দোকান থেকে নতুন দাম আসেনি
+            answer = (f"{p['name']}-এর সর্বশেষ জানা দাম {taka(best['price'])}, {stores[best['store']]['name']}-এ। "
+                      "কেনার আগে দোকানের পাতায় আজকের দাম আর স্টক মিলিয়ে নিন।")
+        elif best and priced:
             answer = (f"আজ {bn_date(today)} তারিখে বাংলাদেশে {p['name']}-এর সর্বনিম্ন দাম {taka(priced[0]['price'])}, "
                       f"{stores[priced_s[0][0]]['name']}-এ।")
             if len(priced) > 1:
-                answer += (f" {bn_num(len(priced))}টি দোকানে স্টকে আছে, দাম {taka(priced[0]['price'])} থেকে {taka(priced[-1]['price'])}"
-                           + (": " + ", ".join(f"{stores[s_]['name']} {taka(o['price'])}" for s_, o in priced_s[:5]) if len(priced) <= 5 else "") + "।")
+                answer += (f" {bn_num(len(priced))}টি দোকানে স্টকে আছে, দাম {taka(priced[0]['price'])} থেকে {taka(priced[-1]['price'])}।"
+                           if priced[-1]["price"] > priced[0]["price"] else f" {bn_num(len(priced))}টি দোকানেই একই দামে স্টকে আছে।")
             if _low30 and _low30 < priced[0]["price"]:
                 answer += f" গত ৩০ দিনে সর্বনিম্ন ছিল {taka(_low30)}।"
             elif _low30 and _low30 >= priced[0]["price"]:
@@ -1662,6 +1683,17 @@ def main():
     # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
     drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
                        key=lambda d_: (-d_["store_count"], -d_["drop"]))[:10]
+    # একই প্রোডাক্টের দুই তালিকা মিলে গেলে বাদ পড়া পুরনো লিংক: 404-এর বদলে আসল পাতায় পাঠানো (গুগলের কাছে স্থায়ী রিডাইরেক্ট)
+    for old_, keep_ in amap.items():
+        o_dir, k_page = DIST / f"p/{old_}", DIST / f"p/{keep_}/index.html"
+        if k_page.exists() and not (o_dir / "index.html").exists():
+            o_dir.mkdir(parents=True, exist_ok=True)
+            u_ = f"{SITE_URL or BASE}/p/{keep_}/"
+            (o_dir / "index.html").write_text(
+                f'<!doctype html><html lang="bn"><head><meta charset="utf-8"><title>সরানো হয়েছে</title>'
+                f'<link rel="canonical" href="{u_}"><meta name="robots" content="noindex">'
+                f'<meta http-equiv="refresh" content="0; url={u_}"></head>'
+                f'<body><p>এই প্রোডাক্টের পাতা সরানো হয়েছে: <a href="{u_}">এখানে দেখুন</a></p></body></html>')
     # ===== হোম: বাজারের অবস্থা (web/market.py) =====
     M = market.compute(history, items, offers, set(enabled), today)
     # ===== বাজার আপডেট (web/bazar.py): আজকের বাজার + প্রকাশিত সাপ্তাহিক/মাসিক রিপোর্ট =====

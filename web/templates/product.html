@@ -20,14 +20,14 @@
       <div style="min-width:0">
         <div class="brand">{% if it.bslug in brand_set %}<a href="{{ base }}/brand/{{ it.bslug }}/">{{ it.brand }}</a>{% elif it.brand %}{{ it.brand }}{% elif it.compat %}{{ it.compat }} ল্যাপটপের জন্য{% endif %}</div>
         <h1>{{ p.name }}</h1>
-        <div class="tags">{% for v in p.specs.values() %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
+        <div class="tags">{% for k, v in p.specs.items() if not (k == "capacity" and cat.slug in ("laptop", "gaming-laptop", "desktop-pc", "all-in-one-pc", "mini-pc", "gaming-pc", "brand-pc")) %}<span class="tag">{{ v }}</span>{% endfor %}{% if warranty %}<span class="tag warr">{{ warranty }}</span>{% endif %}</div>
       </div>
     </div>
     {% if answer %}<p class="tldr" id="summary">{{ answer }}</p>{% endif %}
     <div class="low">
       {% if best %}
-      <div><div class="l">সর্বনিম্ন দাম</div><div class="price">{{ best.price | taka }}</div></div>
-      <div class="s">{{ stores[best.store].name }}-এ<br>{{ live_count }}টি স্টোরে স্টকে আছে</div>
+      <div><div class="l">{{ "সর্বশেষ জানা দাম" if best.stale else "সর্বনিম্ন দাম" }}</div><div class="price">{{ best.price | taka }}</div></div>
+      <div class="s">{{ stores[best.store].name }}-এ<br>{% if best.stale %}স্টোরে মিলিয়ে নিন{% else %}{{ it.fresh_count | bn }}টি স্টোরে স্টকে আছে{% endif %}</div>
       <a class="btn dkbuy" href="{{ go_url(best.store, best.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[best.store].name }}">{{ stores[best.store].name }}-এ কিনুন ›</a>
       {% elif it.state == "coming" %}
       <div><div class="l">অবস্থা</div><div class="price none">{{ "প্রি-অর্ডার চলছে" if it.pre else "শীঘ্রই আসছে" }}</div></div>
@@ -47,10 +47,10 @@
     {% if saving and worst and best %}
     <div class="savebox" role="note">
       <div class="sv-amt"><small>ঠিক দোকান বাছলে আপনার বাঁচবে</small><b>{{ saving | taka }}</b></div>
-      <p>একই প্রোডাক্ট {{ stores[worst.store].name }}-এ {{ worst.price | taka }}, আর {{ stores[best.store].name }}-এ {{ best.price | taka }}। দামতুলনা আপনার হয়ে {{ live_count | bn }}টা দোকানের দাম মিলিয়ে দিয়েছে, যাতে এই টাকাটা আপনার পকেটে থাকে।</p>
+      <p>একই প্রোডাক্ট {{ stores[worst.store].name }}-এ {{ worst.price | taka }}, আর {{ stores[best.store].name }}-এ {{ best.price | taka }}। দামতুলনা আপনার হয়ে {{ it.fresh_count | bn }}টা দোকানের দাম মিলিয়ে দিয়েছে, যাতে এই টাকাটা আপনার পকেটে থাকে।</p>
     </div>
     {% endif %}
-    {% if pstat %}<div class="pstat {{ pstat.state }}"><b>{{ {"wait": "⏳", "good": "🟢", "normal": "🟡", "high": "🔴"}[pstat.state] }} {{ pstat.title }}</b><span>{{ pstat.text }}</span></div>{% endif %}
+    {% if pstat and pstat.state != "wait" %}<div class="pstat {{ pstat.state }}"><b>{{ {"wait": "⏳", "good": "🟢", "normal": "🟡", "high": "🔴"}[pstat.state] }} {{ pstat.title }}</b><span>{{ pstat.text }}</span></div>{% endif %}
     <div class="upd">শেষ আপডেট: {{ updated }}</div>
     <button type="button" class="cmpbtn" data-id="{{ it.id }}" data-cat="{{ cat.slug }}" data-name="{{ p.name }}">+ তুলনায় যোগ করুন</button>
     <p class="cmpmsg muted" hidden></p>
@@ -132,13 +132,14 @@
     {% elif spark %}
       {{ spark | safe }}
       <p class="muted" style="font-size:.8rem;margin:6px 0 0">{{ hist_start }} থেকে: সর্বনিম্ন {{ hist_lo | taka }}, সর্বোচ্চ {{ hist_hi | taka }}{% if hist_lo == hist_hi %} (দাম বদলায়নি){% endif %}</p>
-    {% else %}
-      <p class="muted" style="font-size:.88rem;margin:0">এই প্রোডাক্টের দাম {% if hist_start %}{{ hist_start }} {% endif %}থেকে প্রতিদিন জমা হচ্ছে। আগামীকাল থেকে এখানে দামের ওঠানামার চার্ট দেখা যাবে।</p>
     {% endif %}
+    {% if pstat and pstat.state == "wait" %}<p class="hwait">⏳ {{ pstat.text }}</p>
+    {% elif not sparks and not spark %}<p class="hwait">⏳ এই প্রোডাক্টের দাম {% if hist_start %}{{ hist_start }} {% endif %}থেকে প্রতিদিন জমা হচ্ছে। শিগগিরই এখানে দামের ওঠানামার চার্ট দেখা যাবে।</p>{% endif %}
   </section>
 
 
 
+  {% if spec_sections or not feat_rows or not insights %}
   <section class="card o7">
     {% if spec_sections %}
       {% for sec, rows in spec_sections %}
@@ -147,20 +148,19 @@
       </details>
       {% endfor %}
       {% if spec_credit %}<p class="muted" style="font-size:.78rem;margin:8px 0 0">তথ্যসূত্র: <a href="{{ spec_credit.url }}" target="_blank" rel="nofollow noopener">{{ spec_credit.name }}-এর অফিসিয়াল ওয়েবসাইট</a>। বাংলাদেশে বিক্রি হওয়া মডেলে সামান্য ভিন্নতা থাকতে পারে।</p>{% endif %}
-    {% else %}
+    {% elif not feat_rows %}
     <details open><summary>স্পেসিফিকেশন</summary>
-      {% if not feat_rows %}<dl>
+      <dl>
         {% if it.brand %}<div><dt>ব্র্যান্ড</dt><dd>{{ it.brand }}</dd></div>{% elif it.compat %}<div><dt>যে ল্যাপটপে লাগে</dt><dd>{{ it.compat }}</dd></div>{% endif %}
         {% for k, v in p.specs.items() %}<div><dt>{{ spec_names.get(k, k) }}</dt><dd>{{ v }}</dd></div>{% endfor %}
         <div><dt>ক্যাটাগরি</dt><dd>{{ cat.name_bn }}</dd></div>
-      </dl>{% endif %}
-      <p class="muted" style="font-size:.8rem">{% if feat_rows %}উপরে "এক নজরে" অংশে এই ধরনের প্রোডাক্টের দরকারি তথ্যগুলো দেওয়া আছে। পূর্ণ স্পেসিফিকেশন (পোর্ট, ব্যাটারি, ওজন ইত্যাদি) প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% else %}পূর্ণ স্পেসিফিকেশন প্রতিদিন একটু একটু করে যোগ হচ্ছে।{% endif %}</p>
+      </dl>
     </details>
     {% endif %}
     {% if not insights %}<details><summary>এই প্রোডাক্ট সম্পর্কে</summary><p>{{ blurb }}</p></details>{% endif %}
   </section>
+  {% endif %}
 
-  <div class="slotw o8">{{ slot("product_bottom", cat.slug, it.id) }}</div>
 
   <section class="card o9">
     <h2>সাধারণ প্রশ্ন</h2>
@@ -210,7 +210,7 @@
     </details>
   </section>
   {% endif %}
-  {% set srows = store_rows | selectattr("offer") | list %}
+  {% set srows = [] %}{% for row in store_rows if row.offer %}{% set si = store_info.get(row.store, {}) %}{% if si.address or si.branches or si.delivery or si.emi or si.policy %}{% set _ = srows.append(row) %}{% endif %}{% endfor %}
   {% if srows %}
   <section class="card o2 sprof">
     <h2>স্টোর পরিচিতি <span class="sub">· কেনার আগে জেনে নিন</span></h2>
@@ -224,7 +224,6 @@
         {% if si.emi %}<div><dt>EMI</dt><dd>{{ si.emi }}</dd></div>{% endif %}
         {% if si.policy %}<div><dt>রিটার্ন ও রিপ্লেসমেন্ট</dt><dd>{{ si.policy.text }} <a href="{{ si.policy.src }}" target="_blank" rel="nofollow noopener">দোকানের নীতি ›</a></dd></div>{% elif si.returns %}<div><dt>রিটার্ন</dt><dd>{{ si.returns }}</dd></div>{% endif %}
       </dl>
-      {% if not (si.address or si.branches or si.delivery or si.emi or si.policy) %}<p class="muted" style="font-size:.82rem;margin:0 0 8px">এই স্টোরের বিস্তারিত তথ্য এখনো যোগ হয়নি।</p>{% endif %}
       <a class="sprof-more" href="{{ base }}/store/{{ row.store }}/">{{ stores[row.store].name }}-এর পুরো প্রোফাইল ›</a>
     </details>
     {% endfor %}
