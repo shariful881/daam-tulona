@@ -336,7 +336,7 @@ def auto_merges(products, offers, not_same=(), group_of=None, with_suggestions=F
     for r, g in members.items():
         if find(r) != r or len(g) < 2:
             continue
-        keep = sorted(g, key=lambda x: (-len(offers[x]), products[x]["created"], len(x)))[0]
+        keep = sorted(g, key=lambda x: (-len(offers[x]), products[x]["created"], len(x), x))[0]  # শেষে নাম: সমান হলে প্রতিবার একই পাতা থাকে
         for x in g:
             if x != keep:
                 out[x] = keep

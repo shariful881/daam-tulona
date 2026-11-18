@@ -1683,6 +1683,17 @@ def main():
     # আজ দাম কমেছে: বেশি টাকা কমা আগে, শতাংশে অন্তত ১%; একাধিক স্টোরে থাকা জিনিস অগ্রাধিকার পায়
     drops_top = sorted([d_ for d_ in drops if d_["drop"] >= d_["old"] * 0.01],
                        key=lambda d_: (-d_["store_count"], -d_["drop"]))[:10]
+    # একই প্রোডাক্টের দুই তালিকা মিলে গেলে বাদ পড়া পুরনো লিংক: 404-এর বদলে আসল পাতায় পাঠানো (গুগলের কাছে স্থায়ী রিডাইরেক্ট)
+    for old_, keep_ in amap.items():
+        o_dir, k_page = DIST / f"p/{old_}", DIST / f"p/{keep_}/index.html"
+        if k_page.exists() and not (o_dir / "index.html").exists():
+            o_dir.mkdir(parents=True, exist_ok=True)
+            u_ = f"{SITE_URL or BASE}/p/{keep_}/"
+            (o_dir / "index.html").write_text(
+                f'<!doctype html><html lang="bn"><head><meta charset="utf-8"><title>সরানো হয়েছে</title>'
+                f'<link rel="canonical" href="{u_}"><meta name="robots" content="noindex">'
+                f'<meta http-equiv="refresh" content="0; url={u_}"></head>'
+                f'<body><p>এই প্রোডাক্টের পাতা সরানো হয়েছে: <a href="{u_}">এখানে দেখুন</a></p></body></html>')
     # ===== হোম: বাজারের অবস্থা (web/market.py) =====
     M = market.compute(history, items, offers, set(enabled), today)
     # ===== বাজার আপডেট (web/bazar.py): আজকের বাজার + প্রকাশিত সাপ্তাহিক/মাসিক রিপোর্ট =====
