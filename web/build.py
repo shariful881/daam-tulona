@@ -1531,21 +1531,9 @@ def main():
                   + (f" {warranty}।" if warranty else "")))
         if it["listed"]:
             seo_titles[pid] = _title
-        # কেনার আগে যা দেখবেন: ক্যাটাগরির টিপস + এই প্রোডাক্টের নিজস্ব পয়েন্ট (আমাদের ডাটা থেকে)
-        _own = []
-        if warranty:
-            _own.append(f"এই মডেলে বিক্রেতার পাতায় ওয়ারেন্টি লেখা আছে: {warranty}। কেনার সময় ওয়ারেন্টি কার্ড আর শর্ত বুঝে নিন।")
-        if best:
-            _pol = (common["store_info"].get(best["store"]) or {}).get("policy")
-            if _pol and _pol.get("chip"):
-                _own.append(f"সবচেয়ে কম দামের দোকান {stores[best['store']]['name']}-এ রিটার্ন/রিপ্লেসমেন্ট: {_pol['chip']}। শর্ত দোকানের পাতায় দেখে নিন।")
-            if it["saving"] and it["saving"] >= 300:
-                _own.append(f"একই মডেলের দাম দোকানভেদে {taka(it['saving'])} পর্যন্ত আলাদা। নিচের তালিকা থেকে দোকান বেছে কিনুন।")
-        if it["category"] in PHONE_CATS:
-            _own.append("অফিসিয়াল নাকি আনঅফিসিয়াল ফোন, দোকানের তালিকায় লেবেল দেখে নিন। আনঅফিসিয়াল ফোনে NEIR নিবন্ধন আর ওয়ারেন্টি আলাদা হতে পারে।")
-        _gd = PGUIDES.get(it["category"]) or {}
-        _tips = (_gd.get("tips") or [])[:max(2, 5 - len(_own))]
-        pguide = {"own": _own[:2], "tips": _tips} if (_tips or _own) else None
+        # কেনার আগে যা দেখবেন: শুধু ক্যাটাগরির টিপস। ওয়ারেন্টি, রিটার্ন নীতি, দামের পার্থক্য পাতায় আগেই আছে, তাই এখানে আবার নয়
+        _tips = ((PGUIDES.get(it["category"]) or {}).get("tips") or [])[:5]
+        pguide = {"own": [], "tips": _tips} if _tips else None
         out = DIST / f"p/{pid}/index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(product_tpl.render(pguide=pguide,
