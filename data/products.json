@@ -29762,6 +29762,18 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/adata-xpg-gammix-s70-blade-512gb-m2-2280-nvme-11758114133.webp"
  },
+ "adata-xpg-gammix-s70-blade-512gb-pcie-gen4x4-nvme-ssd-with-dram-cache": {
+  "brand": "ADATA",
+  "category": "ssd",
+  "created": "2026-11-19",
+  "key": "ssd|512gb adata blade cache dram gammix gen4x4 pcie s70 xpg",
+  "name": "ADATA XPG GAMMIX S70 BLADE 512GB PCIe Gen4x4 NVME SSD With DRAM Cache",
+  "specs": {
+   "capacity": "512GB",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Adata/Screenshot-2026-01-13-144106-500x500-250x250.jpg"
+ },
  "adata-xpg-gammix-s70-blade-pcie-gen4x4-m-2-2280-1tb-solid-state-drive": {
   "brand": "ADATA",
   "category": "ssd",
@@ -97898,6 +97910,17 @@
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/arktek/geforce-rtx-3050-8gb/geforce-rtx-3050-8gb-01-228x228.webp"
  },
+ "arktek-geforce-rtx-3060-12gb-v1-gaming-graphics-card": {
+  "brand": "ARKTEK",
+  "category": "graphics-card",
+  "created": "2026-11-19",
+  "key": "graphics-card|12gb 3060 arktek card geforce rtx v1",
+  "name": "ARKTEK GeForce RTX 3060 12GB V1 Gaming Graphics Card",
+  "specs": {
+   "capacity": "12GB"
+  },
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/product-upload/1794996964026-3-RTX3060-12GB-V1-1-2-228x228.jpg"
+ },
  "arktek-gtx-1660-super-6gb-gddr6-graphics-card": {
   "brand": "ARKTEK",
   "category": "graphics-card",
@@ -106663,7 +106686,7 @@
   "created": "2026-11-10",
   "features": [
    "Processor: Intel Core 3 100U(10M Cache, up to 4.70GHz)",
-   "RAM: 8GB DDR5 5600MT/s, Storage: 512GB M.2 NVMe PCIe 4.0 SSD",
+   "RAM: 8GB DDR5 5600MT/s, Storage: 256GB M.2 NVMe PCIe 4.0 SSD",
    "Display: 14\" FHD (1920 x 1080), IPS, Anti Glare, 300Nits",
    "Features: Privacy Shutter, Fingerprint, Type-C, WiFi-6, Military Grade"
   ],
@@ -183408,6 +183431,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7302605006/blisbond-power-bank-r60q-cover.webp"
  },
+ "blisbond-r60q-20000mah-power-bank-with-type-c-cable": {
+  "brand": "Blisbond",
+  "category": "power-bank",
+  "created": "2026-11-19",
+  "features": [
+   "Battery Capacity: 20000mAh",
+   "Interface: 1x USB-A, 1 x Type-C",
+   "Max Input Type-C: 5V DC 3A / 9V DC 2A / 12V DC 1.5A",
+   "Fast Charging, LED Display, Built-in Cable"
+  ],
+  "key": "power-bank|20000mah bank blisbond c cable power r60q type",
+  "name": "Blisbond R60Q 20000mAh Power Bank with Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/blisbond/r60q/r60q-01-228x228.webp"
+ },
  "blisbond-r71t-10000mah-white-power-bank-with-digital-display": {
   "brand": "Blisbond",
   "category": "mobile-accessories",
@@ -202621,6 +202659,21 @@
   "name": "C-Data FD511G-E-F680 Single Port EPON ONU",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/networking/onu/c-data/fd511g-g-f680/fd511g-g-f680-001-228x228.webp"
+ },
+ "c-data-fd511g-f681-single-port-xpon-onu": {
+  "brand": "C-Data",
+  "category": "onu-olt",
+  "created": "2026-11-19",
+  "features": [
+   "Upstream Rate: 1.25Gbps, Downstream Rate: 2.488Gbps",
+   "Interface: 1x Gigabit RJ45 port, Fiber Port: 1 x GE",
+   "Wavelength: 1310nm Transmit 1490nm Receiver",
+   "IEEE802.3ah and ITU - T G.984 Standard"
+  ],
+  "key": "onu-olt|c data f681 fd511g onu port xpon",
+  "name": "C-Data FD511G-F681 Single Port XPON ONU",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/networking/onu/c-data/fd511g-f681/fd511g-f681-02-228x228.webp"
  },
  "c-data-fd511g-g-f361-1ge-g-pon-onu": {
   "brand": "C-Data",
@@ -242514,6 +242567,34 @@
    "type": "DDR5"
   },
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Corsair/dominator-platinum-rgb-01-500x500-228x228.png"
+ },
+ "corsair-dominator-platinum-rgb-32gb-2x16gb-ddr5-5200mhz-desktop-ram-black": {
+  "brand": "Corsair",
+  "category": "desktop-ram",
+  "created": "2026-11-19",
+  "key": "desktop-ram|32gb 5200 corsair ddr5 dominator platinum rgb",
+  "name": "Corsair DOMINATOR PLATINUM RGB 32GB (2x16GB) DDR5 5200MHz DESKTOP RAM (Black)",
+  "specs": {
+   "capacity": "32GB",
+   "form": "DIMM",
+   "speed": "5200MHz",
+   "type": "DDR5"
+  },
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/000-Ram/Corsair/corsair-dominator-platinum-32gb-5200mhz-desktop-ram-/corsair-dominator-platinum-32gb-5200mhz-desktop-ram-1-228x228.jpg"
+ },
+ "corsair-dominator-platinum-rgb-32gb-2x16gb-ddr5-6000mhz-c36-amd-expo-ram-kit": {
+  "brand": "Corsair",
+  "category": "desktop-ram",
+  "created": "2026-11-19",
+  "key": "desktop-ram|32gb 6000 amd cl36 corsair ddr5 dominator expo kit platinum rgb",
+  "name": "Corsair DOMINATOR PLATINUM RGB 32GB (2x16GB) DDR5 6000MHz C36 AMD EXPO RAM Kit",
+  "specs": {
+   "capacity": "32GB",
+   "form": "DIMM",
+   "speed": "6000MHz",
+   "type": "DDR5"
+  },
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Corsair/dominator-platinum-rgb-01-500x500-(1)-228x228.png"
  },
  "corsair-dominator-platinum-rgb-32gb-2x16gb-ddr5-6000mt-s-cl36-desktop-ram": {
   "brand": "Corsair",
@@ -338878,6 +338959,15 @@
   "name": "Durgod Cavalry 87 RGB Kailh Speed Silver Switch Hot-Swappable Mechanical Keyboard",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7722602002/durgod-keyboard-cavalry-87-cover.webp"
+ },
+ "durgod-cavalry-87w-rgb-hot-swappable-tri-mode-mechanical-keyboard": {
+  "brand": "Durgod",
+  "category": "keyboard",
+  "created": "2026-11-19",
+  "key": "keyboard|87w cavalry durgod hot keyboard mechanical mode rgb swappable tri",
+  "name": "Durgod Cavalry 87w RGB Hot-Swappable Tri-Mode Mechanical Keyboard",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/durgod-cavalry-87w-mechanical-keyboard-black-front-4511.png"
  },
  "durgod-cavalry-87w-rgb-hot-swappable-tri-mode-wireless-mechanical-keyboard": {
   "brand": "Durgod",
@@ -436886,6 +436976,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/games/ps5/gta-6/gta-6-02-228x228.webp"
  },
+ "grand-theft-auto-vi-gta-6-ultimate-edition-with-digital-code": {
+  "brand": "Grand",
+  "category": "games",
+  "created": "2026-11-19",
+  "features": [
+   "Game Genre: Open-World Action / Adventure",
+   "Publisher:  Rockstar Games, Inc.",
+   "Supported Console: PlayStation 5; PlayStation 5 Pro",
+   "Gaming Mode: Single Player, Multiplayer"
+  ],
+  "key": "games|auto code digital grand theft ultimate vi",
+  "name": "Grand Theft Auto VI (GTA 6) Ultimate Edition with Digital Code",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/games/ps5/gta-6-ultimate-edition/gta-6-ultimate-edition-01-228x228.webp"
+ },
  "grandstream-24v-poe-injector-indoor-ap": {
   "brand": "Grandstream",
   "category": "access-point",
@@ -453742,6 +453847,51 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P5492506002/harman-speakers-aura-studio-3-cover.webp"
  },
+ "harman-kardon-aura-studio-4-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 4.2",
+   "Transducers: 40 mm x 6",
+   "130 mm x 1 Subwoofer",
+   "Rated Power: 2 x 15W + 1 x 100W RMS"
+  ],
+  "key": "bluetooth-speaker|4 aura bluetooth harman kardon speaker studio",
+  "name": "Harman Kardon Aura Studio 4 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/harman-kardon-aura-studio-4-speaker/aura-studio-4-01-228x228.webp"
+ },
+ "harman-kardon-aura-studio-5-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Transducers: 40 mm x 6",
+   "25mm Tweeter, 143mm Subwoofer",
+   "Output Power: 2 x 20 W + 1 x 20W + 1 x 100 W",
+   "Ambient Lightshow, 3-Way Speaker Design"
+  ],
+  "key": "bluetooth-speaker|5 aura bluetooth harman kardon speaker studio",
+  "name": "Harman Kardon Aura Studio 5 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/aura-studio-5/aura-studio-5-03-228x228.webp"
+ },
+ "harman-kardon-enchant-subwoofer": {
+  "brand": "Harman",
+  "category": "speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Woofer Size: 1 x 10\" (254mm)",
+   "Total Harmonic Distortion (THD): <1%",
+   "Maximum Audio Power: 400W",
+   "Ultra-low resonance enclosure"
+  ],
+  "key": "speaker|enchant harman kardon subwoofer",
+  "name": "Harman Kardon Enchant Subwoofer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/enchant-sub/enchant-sub-03-228x228.webp"
+ },
  "harman-kardon-go-play-3-portable-bluetooth-speaker": {
   "brand": "Harman",
   "category": "bluetooth-speaker",
@@ -453770,6 +453920,51 @@
   "name": "Harman Kardon GO + Play Portable Bluetooth Speaker",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/go-plus-play/go-plus-play-228x228.jpg"
+ },
+ "harman-kardon-luna-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 5.3",
+   "48 x 90 mm Woofer, 20 mm Tweeter",
+   "Battery: 4800mAh Lithium-ion",
+   "IP67 Water Resistance, 12 Hours Playtime"
+  ],
+  "key": "bluetooth-speaker|bluetooth harman kardon luna speaker",
+  "name": "Harman Kardon Luna Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/luna/luna-01-228x228.webp"
+ },
+ "harman-kardon-neo-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 4.2",
+   "Transducers: 40 mm",
+   "Battery: 1000mAh lithium-ion",
+   "IPX7 Water Resistance, 10 hours of playtime"
+  ],
+  "key": "bluetooth-speaker|bluetooth harman kardon neo speaker",
+  "name": "Harman Kardon Neo Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/neo/neo-01-228x228.webp"
+ },
+ "harman-kardon-omni-20-plus-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "2 x 90mm Woofers, 2 x 19mm Tweeters",
+   "Connections: Bluetooth, Aux-in, Wi-Fi",
+   "Signal-to-Noise Ratio: >80dB",
+   "Frequency Response: 53Hz~20kHz -3dB"
+  ],
+  "key": "bluetooth-speaker|20 bluetooth harman kardon omni plus speaker",
+  "name": "Harman Kardon Omni 20 Plus Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/omni-20-plus/omni-20-plus-03-228x228.webp"
  },
  "harman-kardon-omni-20-plus-wireless-hd-stereo-speaker": {
   "brand": "HARMAN",
@@ -453830,6 +454025,36 @@
   "name": "Harman Kardon ONYX Studio 4 Portable Bluetooth Speaker",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/onyx-studio-4/onyx-studio-4-228x228.jpg"
+ },
+ "harman-kardon-onyx-studio-6-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 4.2",
+   "Woofer 120mm, Tweeter 25mm",
+   "Battery: 3250mAh Lithium-ion",
+   "IPX7 Water Resistance, 8 Hours Playtime"
+  ],
+  "key": "bluetooth-speaker|6 bluetooth harman kardon onyx speaker studio",
+  "name": "Harman Kardon Onyx Studio 6 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/onyx-studio-6/onyx-studio-6-02-228x228.webp"
+ },
+ "harman-kardon-onyx-studio-7-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 4.2",
+   "Woofer 120mm, Tweeter 2 x 25mm",
+   "Battery: 3250mAh Lithium-ion",
+   "Output Power: 50W RMS, 8 Hours Playtime"
+  ],
+  "key": "bluetooth-speaker|7 bluetooth harman kardon onyx speaker studio",
+  "name": "Harman Kardon Onyx Studio 7 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/onyx-studio-7/onyx-studio-7-02-228x228.webp"
  },
  "harman-kardon-onyx-studio-8-bluetooth-speaker": {
   "brand": "Harman",
@@ -453950,6 +454175,36 @@
   "name": "Harman Kardon Onyx Studio 9 Portable Home Speaker",
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2026/04/Onyx-Studio-9-Portable-Home-Speaker-Grey-300x300.jpg"
+ },
+ "harman-kardon-soundsticks-4-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 4.2",
+   "Transducers: 1.4\" x 8",
+   "5.25\" Subwoofer",
+   "Output Power: 140 W RMS"
+  ],
+  "key": "bluetooth-speaker|4 bluetooth harman kardon soundsticks speaker",
+  "name": "Harman Kardon SoundSticks 4 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/soundsticks-4/soundsticks-4-03-228x228.webp"
+ },
+ "harman-kardon-soundsticks-5-bluetooth-speaker": {
+  "brand": "Harman",
+  "category": "bluetooth-speaker",
+  "created": "2026-11-19",
+  "features": [
+   "Bluetooth Version 5.4",
+   "Transducers: 40 mm x 6",
+   "25mm x 2 Tweeter, 5.25-inch Subwoofer",
+   "Output Power: 190 W RMS"
+  ],
+  "key": "bluetooth-speaker|5 bluetooth harman kardon soundsticks speaker",
+  "name": "Harman Kardon SoundSticks 5 Bluetooth Speaker",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/harman-kardon/soundsticks-5/soundsticks-5-04-228x228.webp"
  },
  "havells-aspro-700w-3-in-1-mixer-grinder": {
   "brand": "Havells",
@@ -586552,6 +586807,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/portable-solar-panel/jinko/66hl4m-bdv/66hl4m-bdv-01-228x228.webp"
  },
+ "jinko-66hl5-bdv-720w-n-type-bifacial-module-dual-glass-solar-panel": {
+  "brand": "Jinko",
+  "category": "solar",
+  "created": "2026-11-19",
+  "features": [
+   "Cell Type: N-Type Monocrystalline No. Of Cells: 132 (66x2)",
+   "Max Power: 710W-735W, Efficiency: Up to 23.66%",
+   "Max Voltage: 40.65V-41.23V Max Ampere: 17.47A-17.83A",
+   "IP68, Class II Protection, 2.0 mm Anti-reflecting Coating"
+  ],
+  "key": "solar|66hl5 720w bdv bifacial dual glass jinko n panel solar type",
+  "name": "Jinko 66HL5-BDV 720W N-Type Bifacial Module Dual Glass Solar Panel",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/portable-solar-panel/jinko/66hl5-bdv/66hl5-bdv-01-228x228.webp"
+ },
  "jio-mf680s-sim-supported-4g-lte-wifi-pocket-router": {
   "brand": "Jio",
   "category": "router",
@@ -605702,6 +605972,15 @@
   "name": "Keychron K2 HE Wireless Magnetic Switch Mechanical Keyboard - Black",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2832506025/keychron-keyboard-k2-he-cover.webp"
+ },
+ "keychron-k3-max-se-qmk-custom-tri-mode-mechanical-keyboard": {
+  "brand": "Keychron",
+  "category": "keyboard",
+  "created": "2026-11-19",
+  "key": "keyboard|custom k3 keyboard keychron max mechanical mode qmk se tri",
+  "name": "Keychron K3 Max SE QMK Custom Tri-Mode Mechanical Keyboard",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/keychron-k3-max-se-qmk-custom-mechanical-keyboard-5478.png"
  },
  "keychron-k3-max-se-qmk-rgb-tri-mode-mechanical-keyboard": {
   "brand": "Keychron",
@@ -650329,6 +650608,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-panel/lesso/595w-n-type/595w-n-type-01-228x228.webp"
  },
+ "lesso-720c-hbd-66-210-720w-n-type-dual-glass-bifacial-topcon-solar-panel": {
+  "brand": "LESSO",
+  "category": "solar",
+  "created": "2026-11-19",
+  "features": [
+   "Cell Type: 210mm N-TOPCon Mono Cell (Half Cell)",
+   "Max Power: 720W, Efficiency: Up to 23.18%",
+   "Max Voltage: Up to 40.94V, Max Current: Up to17.59A",
+   "IP68,3 Diodes, 2.0 mm Glass with Anti Reflect coating"
+  ],
+  "key": "solar|66 720c 720w bifacial dual glass lesso n panel solar topcon type",
+  "name": "LESSO 720C(HBD)66(210) 720W N-Type Dual Glass Bifacial Topcon Solar Panel",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-panel/lesso/720w-n-type/720w-n-type-01-228x228.webp"
+ },
  "levelone-19-inch-rackmount-wide-screen-kvm-console-kvm8901": {
   "brand": "LevelOne",
   "category": "server-parts",
@@ -667189,6 +667483,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/logitech-g102-lightsync-black-gaming-11606203058.webp"
  },
+ "logitech-g102-lightsync-gaming-mouse": {
+  "brand": "Logitech",
+  "category": "mouse",
+  "created": "2026-11-19",
+  "key": "mouse|g102 lightsync logitech mouse",
+  "name": "Logitech G102 Lightsync Gaming Mouse",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Logitech-G102-Lightsync-Gaming-Mouse-Black-5149.jpg"
+ },
  "logitech-g102-lightsync-rgb-usb-gaming-black-mouse": {
   "brand": "Logitech",
   "category": "mouse",
@@ -667868,6 +668171,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/logitech-g335-wired-white-gaming-headphone-11719211047.webp"
  },
+ "logitech-g402-hyperion-fury-gaming-mouse": {
+  "brand": "Logitech",
+  "category": "mouse",
+  "created": "2026-11-19",
+  "key": "mouse|fury g402 hyperion logitech mouse",
+  "name": "Logitech G402 Hyperion Fury Gaming Mouse",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/g402-1-5548.jpg"
+ },
  "logitech-g402-hyperion-fury-gaming-mouse-910-004070": {
   "brand": "Logitech",
   "category": "mouse",
@@ -668467,6 +668779,15 @@
   "name": "Logitech G502 X PLUS Gaming Mouse",
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2023/07/Logitech-G502-X-PLUS-Gaming-Mouse-300x300.jpg"
+ },
+ "logitech-g502-x-plus-lightspeed-wireless-gaming-mouse": {
+  "brand": "Logitech",
+  "category": "mouse",
+  "created": "2026-11-19",
+  "key": "mouse|g502 lightspeed logitech mouse plus wireless x",
+  "name": "Logitech G502 X PLUS Lightspeed Wireless Gaming Mouse",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/g502-x-plus-1-7088.jpg"
  },
  "logitech-g502-x-plus-lightspeed-wireless-gaming-mouse-910-006164": {
   "brand": "Logitech",
@@ -918186,6 +918507,17 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/sandisk-256gb-ultra-shift-usb-30-black-pen-drive-11637239069.webp"
  },
+ "sandisk-256gb-ultra-shift-usb-3-2-pen-drive": {
+  "brand": "SanDisk",
+  "category": "pen-drive",
+  "created": "2026-11-19",
+  "key": "pen-drive|256gb 3.2 pen sandisk shift ultra usb",
+  "name": "SanDisk 256GB Ultra Shift USB 3.2 Pen Drive",
+  "specs": {
+   "capacity": "256GB"
+  },
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/SanDisk/SanDisk-Ultra-Shift-USB-3.2-Gen-4-228x228.png"
+ },
  "sandisk-2tb-extreme-grey-portable-external-ssd-sdssde51-2t00-aw25-usa-variant": {
   "brand": "SanDisk",
   "category": "portable-ssd",
@@ -974960,6 +975292,15 @@
   "name": "T-WOLF G550 RGB Wired Black Gaming Mouse With Red Gengar Kuromi Sticker",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/t-wolf-g550-rgb-wired-black-gaming-mouse-with-red-31758545091.webp"
+ },
+ "t-wolf-g550-rgb-wired-gaming-mouse": {
+  "brand": "T-WOLF",
+  "category": "mouse",
+  "created": "2026-11-19",
+  "key": "mouse|g550 mouse rgb t wired wolf",
+  "name": "T-WOLF G550 RGB Wired Gaming Mouse",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/T-WOLF-G550-RGB-Wired-Gaming-Mouse-With-Red-Gengar-Kuromi-Sticker-Black-Orange-5523.jpg"
  },
  "t-wolf-g550-rgb-wired-white-gaming-mouse-with-pink-gengar-kuromi-sticker": {
   "brand": "T-WOLF",
