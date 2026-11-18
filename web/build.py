@@ -1399,6 +1399,8 @@ def main():
                 fresh = "হাতে যাচাই করা · " + ("আজ" if age == 0 else "গতকাল" if age == 1 else f"{bn_num(age)} দিন আগে")
             if s in it["sus"]:  # সন্দেহজনক দাম পাতায় একদম দেখানো হয় না
                 continue
+            if o and not o.get("manual") and age is not None and age >= 2:  # পুরনো দাম: কত দিন বা "যাচাই" লেখা দেখানো হয় না
+                fresh = "সর্বশেষ জানা দাম · স্টোরে মিলিয়ে নিন"
             ptype = phone_type(o.get("name"), stores[s]) if o and it["category"] in PHONE_CATS else None
             rows.append({"store": s, "offer": o, "label": label, "cls": cls, "fresh": fresh, "old": bool(age and age >= (8 if o and o.get("manual") else 2)), "ptype": ptype,
                          "is_best": bool(it["best"] and o and it["best"]["store"] == s and it["saving"] > 0),

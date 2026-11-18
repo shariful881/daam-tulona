@@ -174,10 +174,10 @@
     <div class="stores">
     {% for row in store_rows if row.offer %}
       {% if row.offer %}
-      <a class="st{% if row.is_best %} best{% endif %}{% if row.featured %} feat{% endif %}" href="{{ go_url(row.store, row.offer.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[row.store].name }}"{% if row.fresh %} data-seen="{{ row.fresh }}"{% endif %}>
+      <a class="st{% if row.is_best %} best{% endif %}{% if row.featured %} feat{% endif %}" href="{{ go_url(row.store, row.offer.url) }}" target="_blank" rel="sponsored nofollow noopener" data-go="{{ stores[row.store].name }}"{% if row.fresh and not row.old %} data-seen="{{ row.fresh }}"{% endif %}>
         <span class="av{% if stores[row.store].logo %} logo{% endif %}{% if stores[row.store].logo_dark %} dark{% endif %}">{% if stores[row.store].logo %}<img src="{{ base }}/static/{{ stores[row.store].logo }}" alt="{{ stores[row.store].name }}" loading="lazy">{% else %}{{ stores[row.store].short }}{% endif %}</span>
         <span><span class="nm">{{ stores[row.store].name }}</span>{% if row.featured %}<span class="spn">স্পন্সরড</span>{% endif %}{% if row.ptype %}<span class="ptl {{ row.ptype }}">{{ "অফিসিয়াল" if row.ptype == "official" else "আনঅফিসিয়াল" }}</span>{% endif %}<br>
-          <span class="stt {{ row.cls }}">{{ row.label }}</span>{% set _pol = (store_info.get(row.store) or {}).get("policy") %}{% if _pol %}<span class="pchip">↩ {{ _pol.chip }}</span>{% endif %}{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{% if row.old %}⚠ {% endif %}{{ row.fresh }}</span>{% endif %}</span>
+          <span class="stt {{ row.cls }}">{{ row.label }}</span>{% set _pol = (store_info.get(row.store) or {}).get("policy") %}{% if _pol %}<span class="pchip">↩ {{ _pol.chip }}</span>{% endif %}{% if row.fresh %}<br><span class="seen{% if row.old %} old{% endif %}">{{ row.fresh }}</span>{% endif %}</span>
         <span class="pr">{% if row.offer.price %}<b>{{ row.offer.price | taka }}</b>{% if row.offer.regular %}<s>{{ row.offer.regular | taka }}</s>{% endif %}{% else %}<b>—</b>{% endif %}<small>দেখুন ›</small></span>
       </a>
       {% endif %}
