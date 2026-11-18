@@ -1,0 +1,24 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "PRIME X570-PRO/CSM",
+   "CPU": "www.asus.com\nfor CPU support list",
+   "Chipset": "AMD X570",
+   "Memory": "2nd Gen AMD Ryzen™ Processors\n,\n3rd Gen AMD Ryzen™ Processors\n,ECC Memory (ECC mode) support varies by CPU.,Dual Channel Memory Architecture,* Refer to\nwww.asus.com",
+   "Multi-GPU Support": "3rd and 2nd Gen AMD Ryzen™ Processors",
+   "Expansion Slots": "3 x PCIe 4.0 x1,1 x PCIe 4.0 x16 (max at x4 mode),2 x PCIe 4.0 x16 (x16 or dual x8),\nAMD X570 chipset\n,\n2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics Processors\n,2 x PCIe 3.0 x16 (x16 or dual x8),1 x PCIe 3.0 x16 (x8 mode)",
+   "Storage": "3rd Gen AMD Ryzen™ Processors :\n,\n2nd Gen AMD Ryzen™/2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics Processors  :\n,\nAMD X570 chipset :",
+   "LAN": "Intel® I211-AT,ASUS LAN Guard",
+   "Audio": "Audio Feature :\n,- Optical S/PDIF out port(s) at back panel",
+   "USB Ports": ",2 x USB 3.2 Gen 1 port(s) (2 at mid-board),\nAMD X570 chipset :\n,1 x USB 3.2 Gen 2 front panel connector port(s),4 x USB 2.0 port(s) (4 at mid-board)",
+   "Special Features": "DIGI+ VRM: Digital power design with Dr. MOS\n,\nEPU Guidance\n,\nTPU Insight",
+   "Operating System": "Windows® 10 64-bit",
+   "Form Factor": "12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm ),ATX Form Factor"
+  }
+ },
+ "key_features": [],
+ "model": "PRIME X570-PRO/CSM",
+ "fetched": "2026-11-18T23:07+06:00",
+ "source": "https://www.asus.com/bd/motherboards-components/motherboards/prime/prime-x570-pro-csm/techspec/",
+ "brand_site": "ASUS"
+}

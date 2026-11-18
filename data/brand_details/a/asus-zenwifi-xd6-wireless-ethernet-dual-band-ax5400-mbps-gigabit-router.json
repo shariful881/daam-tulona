@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS ZenWiFi XD6",
+   "Model Name": "XD6 (W-2-PK)\nXD6 (W-1-PK)",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
+   "Product Segment": "AX5400 ultimate AX performance : 574+4804 Mbps",
+   "Antenna": "internal antenna x 6",
+   "Transmit / Receive": "5GHz 4x4\n2.4GHz 2x2",
+   "Processor": "1.5 GHz tri-core processor",
+   "Memory": "XD6\n256 MB Flash\n512 MB RAM\nXD6S\n128 MB Flash",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n1024-QAM high data rate\n20/40/80/160 MHz bandwidth",
+   "Operating Frequency": "2.4 G Hz / 5 GHz",
+   "Operating Mode": "Wireless router mode\nRange extender mode\nAccess point mode\nMedia bridge mode",
+   "Buttons": "WPS Button, Reset Button",
+   "LED Indicator": "Power x 1",
+   "Package Content": "ZenWiFi XD6\nRJ-45 cable\nPower adapter\nWarranty card\nQuick start guide",
+   "Product Dimensions": "126.4 x 59.05 x 129.7 mm",
+   "Remark": "Content may vary in different regions and packages.",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Router APP": "APP: ASUS Router APP",
+   "Administration": "Configuration Backup and Restore, Diagnosis Tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 4804 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 5 (802.11ac) (1024QAM)": "up to 4333 Mbps",
+   "WiFi 4 (802.11n) (1024QAM)": "up to 500 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "I/O Ports": {
+   "XD6": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 3",
+   "XD6S": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 1"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 2 A current"
+  },
+  "Product Weight (g)": {
+   "XD6": "435 g",
+   "XD6S": "425 g"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ZenWiFi XD6",
+ "fetched": "2026-11-18T23:10+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/asus-zenwifi/asus-zenwifi-xd6/techspec/",
+ "brand_site": "ASUS"
+}

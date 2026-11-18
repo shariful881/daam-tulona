@@ -1,0 +1,28 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ProArt B550-CREATOR",
+   "CPU": "* Refer to www.asus.com for CPU support list.",
+   "Memory": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB,\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nDDR4\nAMD RyzenTM 4000 G-Series Processors\nDDR4",
+   "Graphics": "1 x HDMI™ 2.1(4K@60HZ)",
+   "Expansion Slots": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n2 x PCIe 4.0 x16 (x16 or dual x8)*\nAMD RyzenTM 4000 G-Series Processor\n2 x PCIe 3.0 x16 (x16 or dual x8)*\nAMD B550 Chipset",
+   "Storage": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\nAMD RyzenTM 4000 G-Series Processor :\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\nAMD B550 Chipset",
+   "Ethernet": "2 x Intel® 2.5Gb Ethernet,\nASUS LANGuard",
+   "Wireless & Bluetooth": "N",
+   "USB": "Rear USB:Total 8 ports,\n2 x Thunderbolt™ 4 port(s) (2 x USB Type-C®) with up to 5V/3A, 15W charging support\n4 x USB 3.2 Gen 2 port(s) (4 x Type-A)\n2 x USB 2.0 port(s) (2 x Type-A)\n1 x USB 3.2 Gen 1 connector (support(s) USB Type-C®)",
+   "Audio": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)",
+   "Back Panel I/O Ports": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n4 x USB 3.2 Gen 2 port(s) (4 x Type-A)\n2 x USB 2.0 port(s) (2 x Type-A)\n1 x DisplayPort (Input only)\n1 x HDMI™ port",
+   "Internal I/O Connectors": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin CPU OPT Fan header(s)\n1 x 4-pin AIO Pump header(s)\n4 x 4-pin Chassis Fan header(s)",
+   "Special Features": "Y,\nExtreme Engine Digi+\n- 5K Black Metallic Capacitors\nASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with Dr. MOS)",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Two-Way AI Noise Cancelation",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Operating System": "Windows 10 64bit",
+   "Form Factor": "ATX, 30.5cm x 24.4cm"
+  }
+ },
+ "key_features": [],
+ "model": "ProArt B550-CREATOR",
+ "fetched": "2026-11-18T23:07+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/proart/proart-b550-creator/techspec/",
+ "brand_site": "ASUS"
+}

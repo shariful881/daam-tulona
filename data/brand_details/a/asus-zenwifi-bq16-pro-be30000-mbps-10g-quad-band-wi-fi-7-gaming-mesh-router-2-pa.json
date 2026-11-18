@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS ZenWiFi BQ16 Pro",
+   "Model Name": "BQ16 Pro(W-2-PK)\nBQ16 Pro(W-1-PK)",
+   "Network Standard": "IPv6\nIPv4\nWiFi 7 (802.11be)\nWiFi 6E (802.11ax)\nWiFi 6 (802.11ax)",
+   "Product Segment": "BE30000 ultimate BE performance : 1376+5764+11529+11529 Mbps",
+   "Antenna": "Internal antenna x 12",
+   "Transmit / Receive": "6GHz-2 4x4\n6GHz-1 4x4\n5GHz 4x4\n2.4GHz 4x4",
+   "Memory": "RAM 2GB , Flash 256MB",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access)\n4096-QAM high data rate\n20/40/80/160/320 MHz bandwidth",
+   "Operating Frequency": "2.4 GHz / 5 GHz / 6 GHz, 6 GHz-2\n6 GHz-1\n5 GHz\n2.4 GHz",
+   "Operating Mode": "Access Point Mode\nAiMesh Node Mode\nWireless Router Mode",
+   "I/O Ports": "10G WAN/LAN x 1, 10G LAN x 1, 1G WAN/LANx 1, 1G LAN x2, USB 3.0",
+   "Buttons": "Reset/ WPS/ Rocker Switch",
+   "LED Indicator": "Power x 1",
+   "Package Content": "ZenWiFi BQ16 Pro\nRJ-45 cable\nPower adapter\nWarranty card\nQuick start guide",
+   "Product Weight (g)": "1341g",
+   "Product Dimensions": "214*174.2*72 mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Router APP": "APP: ASUS Router APP",
+   "WAN": "• Static IP\n• Automatic IP\n• L2TP\n• PPTP\n• PPPoE"
+  },
+  "WiFi Data Rate": {
+   "WiFi 7 (802.11be) (6GHz-2)": "up to 11529 Mbps",
+   "WiFi 7 (802.11be) (6GHz-1)": "up to 11529 Mbps",
+   "WiFi 7 (802.11be) (5GHz)": "up to 5764 Mbps",
+   "WiFi 7 (802.11be) (2.4GHz)": "up to 1376 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12V with max. 5A current"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ZenWiFi BQ16 Pro",
+ "fetched": "2026-11-18T23:10+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/asus-zenwifi/asus-zenwifi-bq16-pro/techspec/",
+ "brand_site": "ASUS"
+}

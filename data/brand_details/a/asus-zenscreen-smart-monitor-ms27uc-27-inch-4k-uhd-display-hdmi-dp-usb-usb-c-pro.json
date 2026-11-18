@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ZenScreen Smart Monitor MS27UC",
+   "Display": "Panel Size (inch) : 27\nAspect Ratio : 16:9\nDisplay Viewing Area (H x V) : 596.73 x 335.66 mm\nDisplay Surface : Anti-Glare\nBacklight Type : LED\nPanel Type : IPS\nViewing Angle (CR≧10, H/V) : 178°/ 178°\nPixel Pitch : 0.155mm\nResolution : 3840x2160\nColor Space (sRGB) : 99%\nBrightness (HDR, Peak) : 400 cd/㎡\nBrightness (Typ.) : 350cd/㎡\nContrast Ratio (HDR, Max) : 100,000,000:1\nContrast Ratio (Typ.) : 1000:1\nDisplay Colors : 1073.7M (10 bit)\nResponse Time : 5ms(GTG)\nRefresh Rate (Max) : 60Hz\nHDR (High Dynamic Range) Support : HLG\nHDR10+\nHDR10\nFlicker-free : Yes",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode)\nDisplayPort 1.4 x 1\nHDMI(v2.0) x 1\nUSB Hub : 2x USB 2.0 Type-A\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nUSB-C cable\nRemote Controller\nQuick start guide\nPower cord",
+   "Certificate": "FSC MIX\nVESA DisplayHDR 400\nTÜV Low Blue Light\nTÜV Flicker-free\nEnergy Star"
+  },
+  "Features": {
+   "Color Temp. Selection": "Yes (4 modes)",
+   "Color Adjustment": "6-axis adjustment (R,G,B,C,M,Y)",
+   "Gamma Adjustment": "Yes (Support Gamma 2.0/2.1/2.2/2.3/2.4)",
+   "HDCP": "Yes, 2.2",
+   "Low Blue Light": "Yes"
+  },
+  "Smart Service": {
+   "Operating System": "Android 11 version",
+   "Google Home Device Support": "Yes",
+   "Voice Control": "Yes",
+   "Remote Access": "No",
+   "Multi View": "Yes",
+   "Multi Control": "Yes",
+   "Multi-Platform Streamer Plus": "Yes",
+   "HDMI Reverse Control": "Yes"
+  },
+  "Wireless Function": {
+   "Wireless Projection": "Yes",
+   "WiFi": "Yes(Embedded)"
+  },
+  "Audio": {
+   "Speaker": "Yes(5Wx2)",
+   "Audio Technology": "Audio by Harman Kardon"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 30~160 KHz (H) / 40-60 Hz (V)",
+   "DisplayPort": "30~160 KHz (H) / 40-60 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<30W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+18° ~ -5°)",
+   "Height Adjustment": "0~100mm",
+   "VESA Wall Mounting": "100x100mm"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.35 x 50.91 x 17.0 cm (24.15\" x 20.04\" x 6.69\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.3 x 39.0 x 4.6 cm (24.13\" x 15.35\" x 1.81\")",
+   "Box Dimension (W x H x D)": "68.8 x 14.8 x 46.9 cm (27.09\" x 5.83\" x 18.46\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "6.0 kg (13.23 lbs)",
+   "Net Weight without Stand": "4.8 kg (10.58 lbs)",
+   "Gross Weight": "8.8 kg (19.40 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "ZenScreen Smart Monitor MS27UC",
+ "fetched": "2026-11-18T23:05+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-smart-monitor-ms27uc/techspec/",
+ "brand_site": "ASUS"
+}

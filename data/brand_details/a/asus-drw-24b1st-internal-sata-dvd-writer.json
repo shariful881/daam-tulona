@@ -1,0 +1,48 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "DRW-24B1ST",
+   "Color": "BLACK",
+   "Interface": "SATA",
+   "O/S Compatibility": "Windows® 8 / 8.1\nWindows® 10\nWindows® 11",
+   "Power Requirement": "DC+5V ±5%, DC+12V ±10 %",
+   "Bundled Software (Windows OS)": "E-Green\nNero BackItUp\nCyberLink PowerBackup 2.6\nCyberLink Power2Go 8",
+   "Dimensions": "170 x 146 x 41 mm (L/W/H)",
+   "Weight": "600 ± 50 g",
+   "Packing": "BULK with Software"
+  },
+  "Read Speed (max)": {
+   "CD-R": "48X",
+   "CD-ROM": "48X",
+   "DVD-R(DL)": "12X",
+   "DVD+R(DL)": "12X",
+   "DVD-RW": "12X",
+   "DVD+RW": "12X",
+   "DVD+R(SL, M-DISC)": "12X",
+   "DVD-R": "16X",
+   "DVD+R": "16X",
+   "DVD-ROM": "16X"
+  },
+  "Write Speed (max)": {
+   "CD-RW": "24X",
+   "CD-R": "48X",
+   "DVD-R(DL)": "8X",
+   "DVD+R(DL)": "8X",
+   "DVD-RW": "6X",
+   "DVD+RW": "8X",
+   "DVD+R(SL, M-DISC)": "4X",
+   "DVD-R": "8X",
+   "DVD+R": "8X"
+  },
+  "System Requirements": {
+   "HDD": "10 GB or more",
+   "RAM": "128 MB or more is recommended",
+   "CPU": "Intel® Pentium® 300 MHz or higher"
+  }
+ },
+ "key_features": [],
+ "model": "DRW-24B1ST",
+ "fetched": "2026-11-18T23:06+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/optical-drives/internal-dvd-drive/drw24b1st/techspec/",
+ "brand_site": "ASUS"
+}

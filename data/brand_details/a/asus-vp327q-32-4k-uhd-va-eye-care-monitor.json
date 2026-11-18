@@ -1,0 +1,72 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "VP327Q",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.2 x 1\nHDMI(v2.0) x 2\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nHDMI cable",
+   "Certificate": "TÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "31.5",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "697.31 x 392.23 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "VA",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.182mm",
+   "Resolution": "3840x2160",
+   "Color Space (sRGB)": "99%",
+   "Brightness (Typ.)": "350cd/㎡",
+   "Contrast Ratio (Typ.)": "3000:1",
+   "Display Colors": "16.7M",
+   "Response Time": "4ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "Trace Free Technology": "Yes",
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "QuickFit": "Yes",
+   "HDCP": "Yes, 2.2",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "Motion Sync": "Yes",
+   "Low Blue Light": "Yes",
+   "Eye Care+ Technology": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 111~133 KHz (H) / 48~60 Hz (V)",
+   "DisplayPort": "111~133 KHz (H) / 48~60 Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<36W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+8° ~ -5°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "71.46 x 48.58 x 20.18 cm (28.13\" x 19.13\" x 7.94\")",
+   "Phys. Dimension without Stand (W x H x D)": "71.46 x 42.37 x 5.07 cm (28.13\" x 16.68\" x 2.00\")",
+   "Box Dimension (W x H x D)": "79.90 x 53.00 x 14.00 cm (31.46\" x 20.87\" x 5.51\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "7.8 kg (17.20 lbs)",
+   "Net Weight without Stand": "6.1 kg (13.45 lbs)",
+   "Gross Weight": "9.4 kg (20.72 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "VP327Q",
+ "fetched": "2026-11-18T23:09+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/eye-care/vp327q/techspec/",
+ "brand_site": "ASUS"
+}

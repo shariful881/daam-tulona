@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AC86U",
+   "Network Standard": "IPv6\nIPv4\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)\nIEEE 802.11g",
+   "Product Segment": "AC2900 ultimate AC performance : 750+2167 Mbps",
+   "Antenna": "External detachable antenna x 3\nInternal antenna x 1",
+   "Transmit / Receive": "5GHz 4x4\n2.4GHz 3x3\nMIMO technology",
+   "Processor": "1.8 GHz dual-core processor",
+   "Memory": "256 MB Flash, 512 MB RAM",
+   "Boosts Speed": "Beamforming: standard-based and universal\n1024-QAM high data rate\n20/40/80 MHz bandwidth",
+   "Operating Frequency": "2.4G Hz / 5 GHz",
+   "Operating Mode": "Accesspoint, AiMeshnode, Mediabridge, Repeater, Router",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN x 1, RJ45 for 10/100/1000/Gigabits BaseT for LAN x 4\nUSB 2.0 x 1\nUSB 3.0 x 1",
+   "Buttons": "WPS Button, Reset Button, Power Button, Wireless on/off Button",
+   "LED Indicator": "Power x 1\nWi-Fi x 2\nWAN x 1\nWPS x 1\nLAN x 4",
+   "Product Weight (g)": "872 g",
+   "Product Dimensions": "220 x 157 x 89 ~ mm (WxDxH)",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Game Boost / Acceleration",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "1024QAM (5GHz)": "up to 2167 Mbps",
+   "1024QAM (2.4GHz)": "up to 750 Mbps",
+   "WiFi 5 (802.11ac)": "up to 1734 Mbps",
+   "WiFi 4 (802.11n)": "up to 450 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19 V with max. 1.75 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AC86U",
+ "fetched": "2026-11-18T23:08+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac86u/techspec/",
+ "brand_site": "ASUS"
+}

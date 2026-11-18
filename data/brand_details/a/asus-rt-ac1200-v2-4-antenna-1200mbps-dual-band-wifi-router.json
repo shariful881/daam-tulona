@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AC1200 V2",
+   "Network Standard": "IEEE 802.11i\nIEEE 802.11e\nIPv6\nIPv4\nWiFi 5 (802.11ac)",
+   "Product Segment": "AC1200 enhanced AC performance : 300+867 Mbps",
+   "Antenna": "External antenna x 4",
+   "Transmit / Receive": "5GHz 2x2\n2.4GHz 2x2\nMIMO technology",
+   "Memory": "16 MB Flash\n64 MB RAM",
+   "Operating Frequency": "2.4GHz\n5GHz",
+   "Operating Mode": "Accesspoint, Router",
+   "I/O Ports": "RJ45 for 10/100Mbps BaseT for WAN x 1\nRJ45 for 10/100Mbps BaseT for LAN x 4",
+   "Buttons": "WPS Button, Reset Button, Power Button",
+   "Package Content": "1 x RT-AC1200 V2 Wi-Fi router\n1 x Power adapter\n1 x QSG\n1 x Warranty card",
+   "Product Weight (g)": "271 g",
+   "Product Dimensions": "177 x126 x 34 ~ mm (WxDxH)",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 4 (802.11n)": "up to 300 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 0.5 A current"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AC1200 V2",
+ "fetched": "2026-11-18T23:07+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac1200-v2/techspec/",
+ "brand_site": "ASUS"
+}

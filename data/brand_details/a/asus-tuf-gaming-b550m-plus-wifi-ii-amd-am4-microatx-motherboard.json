@@ -1,0 +1,30 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF GAMING B550M-PLUS WIFI II",
+   "CPU": "* Refer to www.asus.com for CPU support list.",
+   "Chipset": "AMD B550",
+   "Memory": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB,\n4 x DIMM, Max. 128GB,\nDual Channel Memory Architecture\n* ECC Memory (ECC mode) support varies by CPU.",
+   "Graphics": "1 x DisplayPort 1.2,\n1 x DisplayPort**\n1 x HDMI\n®\nport***",
+   "Expansion Slots": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)*\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)*\nAMD B550 Chipset",
+   "Storage": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD B550 Chipset",
+   "Ethernet": "TUF LANGuard",
+   "Wireless & Bluetooth": "Wi-Fi 6\n2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.2",
+   "USB": "Rear USB:Total 8 ports,\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\n2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C\n®",
+   "Audio": "Realtek 7.1 Surround Sound High Definition Audio CODEC\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding",
+   "Back Panel I/O Ports": "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C\n®\n)\n4 x USB 3.2 Gen 1 ports (4 x Type-A, one port can be switched to USB BIOS FlashBack™)\n2 x USB 2.0 ports (2 x Type-A)",
+   "Internal I/O Connectors": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related",
+   "Special Features": "Y,\nASUS TUF PROTECTION\n- DIGI+ VRM (Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards",
+   "Software Features": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Two-Way AI Noise Cancelation",
+   "BIOS": "256 Mb Flash ROM, UEFI AMI BIOS",
+   "Manageability": "WOL by PME, PXE",
+   "Operating System": "Windows 10 64bit,\nWindows\n®\n11 ready\nWindows",
+   "Form Factor": "microATX"
+  }
+ },
+ "key_features": [],
+ "model": "TUF GAMING B550M-PLUS WIFI II",
+ "fetched": "2026-11-18T23:03+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-plus-wifi-ii/techspec/",
+ "brand_site": "ASUS"
+}

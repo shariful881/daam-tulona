@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "PRIME B450-PLUS",
+   "CPU": "www.asus.com\nfor CPU support list",
+   "Chipset": "AMD B450",
+   "Memory": "www.asus.com\nfor the Memory QVL (Qualified Vendors Lists).",
+   "Multi-GPU Support": "Supports AMD CrossFireX™ Technology",
+   "Expansion Slots": "2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics Processors\n,1 x PCIe 2.0 x16 (max at x4 mode),\nAMD B450 chipset\n,\n3rd/2nd/1st Gen AMD Ryzen™ Processors",
+   "Storage": "1\n,\n,2 x SATA 6Gb/s port(s),\nAMD B450 chipset :\n,",
+   "LAN": "Realtek® RTL8111H,ASUS LAN Guard",
+   "Audio": "2\nAudio Feature :",
+   "USB Ports": "TM\n),2 x USB 3.1 Gen 2 port(s) (2 at back panel, , Type-A),\nAMD B450 chipset :",
+   "Special Features": "- File Transfer,\nASUS 5X Protection III :\nOverclocking Protection :\n,- ASUS C.P.R.(CPU Parameter Recall),- PC Cleaner,\nASUS Exclusive Features",
+   "Back I/O Ports": "1 x 5Gb/s port(s) USB Type-C\nTM",
+   "Manageability": "WOL by PME, PXE",
+   "Operating System": "Windows® 7 64-bit *\n3\n,Windows® 10 64-bit",
+   "Form Factor": "12.0 inch x 9.2 inch ( 30.5 cm x 23.4 cm ),ATX Form Factor"
+  }
+ },
+ "key_features": [],
+ "model": "PRIME B450-PLUS",
+ "fetched": "2026-11-18T23:06+06:00",
+ "source": "https://www.asus.com/bd/motherboards-components/motherboards/prime/prime-b450-plus/techspec/",
+ "brand_site": "ASUS"
+}

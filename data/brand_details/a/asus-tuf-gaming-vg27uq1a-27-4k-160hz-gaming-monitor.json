@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "TUF Gaming VG27UQ1A",
+   "Audio": "Speaker : Yes(2Wx2)",
+   "I/O Ports": "DisplayPort 1.4 DSC x 1\nHDMI(v2.1) x 2 (FRL)\nEarphone Jack : Yes",
+   "Accessories (varies by region)": "Warranty Card\nQuick start guide\nPower cord\nL-shaped Screwdriver\nDisplayPort cable",
+   "Certificate": "FSC MIX\nG-SYNC Compatible\nAMD FreeSync Premium\nVESA AdaptiveSync Display 160Hz\nTÜV Low Blue Light"
+  },
+  "Display": {
+   "Panel Size (inch)": "27",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "596.736 (H) x 335.664 (V)",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "Fast IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.155mm",
+   "Resolution": "3840x2160",
+   "Brightness (Typ.)": "300cd/㎡",
+   "Contrast Ratio (Typ.)": "1000:1",
+   "Display Colors": "16.7M",
+   "Response Time": "1ms(GTG)",
+   "Refresh Rate (Max)": "160Hz",
+   "HDR (High Dynamic Range) Support": "HDR10",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "GameVisual": "Yes",
+   "Color Temp. Selection": "Yes (4 modes)",
+   "GamePlus": "Yes",
+   "HDCP": "Yes, 2.3",
+   "Extreme Low Motion Blur": "Yes",
+   "ELMB Sync": "Yes",
+   "VRR Technology": "Yes (Adaptive-Sync)",
+   "GameFast Input technology": "Yes",
+   "Shadow Boost": "Yes",
+   "DisplayWidget": "Yes, DisplayWidget Center",
+   "Low Blue Light": "Yes",
+   "Multiple HDR Mode": "Yes"
+  },
+  "Signal Frequency": {
+   "Digital Signal Frequency": "HDMI: 30~255kHz (H) / 48~160Hz (V)",
+   "DisplayPort": "356~356kHz (H) / 48~160Hz (V)"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<32W",
+   "Power Saving Mode": "<0.5W",
+   "Power Off Mode": "<0.3W",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Mechanical Design": {
+   "Tilt": "Yes (+20° ~ -5°)",
+   "Height Adjustment": "No",
+   "VESA Wall Mounting": "100x100mm",
+   "Kensington Lock": "Yes"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "61.48 x 45.5 x 21.38 cm (24.20\" x 17.91\" x 8.42\")",
+   "Phys. Dimension without Stand (W x H x D)": "61.48 x 36.65 x 5.7 cm (24.20\" x 14.43\" x 2.24\")",
+   "Box Dimension (W x H x D)": "68.9 x 16.0 x 47.5 cm (27.13\" x 6.30\" x 18.70\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "4.8 kg (10.58 lbs)",
+   "Net Weight without Stand": "4.0 kg (8.82 lbs)",
+   "Gross Weight": "6.6 kg (14.55 lbs)"
+  }
+ },
+ "key_features": [],
+ "model": "TUF Gaming VG27UQ1A",
+ "fetched": "2026-11-18T23:08+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27uq1a/techspec/",
+ "brand_site": "ASUS"
+}
