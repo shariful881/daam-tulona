@@ -1,0 +1,357 @@
+{
+ "id": "graphics-card-2026-11-20",
+ "kind": "week",
+ "cat": "graphics-card",
+ "cat_name": "গ্রাফিক্স কার্ড",
+ "path": "bazar/graphics-card/2026-11-20",
+ "title": "এই সপ্তাহে গ্রাফিক্স কার্ডের দাম: ৯টির কমেছে, ১০০টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে গ্রাফিক্স কার্ডের দাম: ৯টির কমেছে, ১০০টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "date": "2026-11-20",
+ "start": "2026-11-13",
+ "span": "১৪–২০ নভেম্বর ২০২৬",
+ "desc": "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ১০৯টি গ্রাফিক্স কার্ডের দাম বদলেছে: ৯টির কমেছে, ১০০টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৩৫৯টি গ্রাফিক্স কার্ডের গড় দাম ১% বেড়েছে।",
+ "key": [
+  "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ১০৯টি গ্রাফিক্স কার্ডের দাম বদলেছে: ৯টির কমেছে, ১০০টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৩৫৯টি গ্রাফিক্স কার্ডের গড় দাম ১% বেড়েছে।",
+  "সবচেয়ে বেশি কমেছে NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7 Graphics Card: ৳৪০,১০০ (৯.১%)।",
+  "সবচেয়ে বেশি বেড়েছে MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS 16GB GDDR7 Graph…: ৳৪৪,০০০ (১৭%)।",
+  "সপ্তাহে ৩টি নতুন গ্রাফিক্স কার্ড দোকানে এসেছে।"
+ ],
+ "idx": 1.0240414891455862,
+ "n_cmp": 359,
+ "tabs": [
+  {
+   "key": "graphics-card",
+   "name": "গ্রাফিক্স কার্ড",
+   "dn": [
+    {
+     "id": "nvidia-rtx-pro-4000-blackwell-24gb-gddr7-graphics-card",
+     "name": "NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 440000,
+     "new": 399900,
+     "diff": -40100,
+     "pct": -9.113636363636363
+    },
+    {
+     "id": "gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-gddr7-graphics-card",
+     "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8G GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 85000,
+     "new": 82500,
+     "diff": -2500,
+     "pct": -2.941176470588235
+    },
+    {
+     "id": "manli-nebula-geforce-rtx-5050-8gb-gddr6-graphics-card",
+     "name": "Manli Nebula GeForce RTX 5050 8GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 56900,
+     "new": 54800,
+     "diff": -2100,
+     "pct": -3.690685413005272
+    },
+    {
+     "id": "gigabyte-intel-arc-a310-windforce-4g-gddr6-graphics-card",
+     "name": "GIGABYTE Intel Arc A310 WINDFORCE 4G GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 30000,
+     "new": 27900,
+     "diff": -2100,
+     "pct": -7.000000000000001
+    },
+    {
+     "id": "msi-geforce-rtx-3060-ventus-2x-xs-12g-12gb-gddr6-graphics-card",
+     "name": "MSI GeForce RTX 3060 VENTUS 2X XS 12G 12GB GDDR6 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 65000,
+     "new": 62900,
+     "diff": -2100,
+     "pct": -3.230769230769231
+    },
+    {
+     "id": "asus-tuf-gaming-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS TUF Gaming GeForce RTX 5060 Ti 8GB GDDR7 OC Edition Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 77900,
+     "new": 76900,
+     "diff": -1000,
+     "pct": -1.2836970474967908
+    },
+    {
+     "id": "unika-radeon-rx-580-blizzards-8gd5-v2-graphics-card",
+     "name": "Unika Radeon RX 580 BLIZZARDS 8GD5 V2 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 16900,
+     "new": 16500,
+     "diff": -400,
+     "pct": -2.366863905325444
+    },
+    {
+     "id": "msi-geforce-rtx-5060-ti-8g-shadow-2x-oc-plus-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 74999,
+     "new": 74900,
+     "diff": -99,
+     "pct": -0.13200176002346697
+    },
+    {
+     "id": "powercolor-hellhound-spectral-white-amd-radeon-rx-9060-xt-16gb-graphics-card",
+     "name": "PowerColor Hellhound Spectral White AMD Radeon RX 9060 XT 16GB Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 88000,
+     "new": 87999,
+     "diff": -1,
+     "pct": -0.0011363636363636363
+    }
+   ],
+   "up": [
+    {
+     "id": "msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 251900,
+     "new": 295900,
+     "diff": 44000,
+     "pct": 17.46724890829694
+    },
+    {
+     "id": "nvidia-rtx-pro-5000-72gb-blackwell-gddr7-graphics-card",
+     "name": "NVIDIA RTX PRO 5000 72GB Blackwell GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 1359000,
+     "new": 1399000,
+     "diff": 40000,
+     "pct": 2.9433406916850626
+    },
+    {
+     "id": "asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "creatus",
+     "old": 237000,
+     "new": 274000,
+     "diff": 37000,
+     "pct": 15.611814345991561
+    },
+    {
+     "id": "gigabyte-geforce-rtx-5070-windforce-oc-sff-12g-gddr7-graphics-card",
+     "name": "Gigabyte GeForce RTX 5070 WINDFORCE OC SFF 12G GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 127500,
+     "new": 149900,
+     "diff": 22400,
+     "pct": 17.568627450980394
+    },
+    {
+     "id": "asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "creatus",
+     "old": 99511,
+     "new": 120000,
+     "diff": 20489,
+     "pct": 20.589683552572076
+    },
+    {
+     "id": "zotac-gaming-geforce-rtx-5070-twin-edge-12gb-gddr7-graphics-card",
+     "name": "ZOTAC GAMING GeForce RTX 5070 Twin Edge 12GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "creatus",
+     "old": 110000,
+     "new": 129000,
+     "diff": 19000,
+     "pct": 17.272727272727273
+    },
+    {
+     "id": "pny-geforce-rtx-5080-oc-16gb-triple-fan-gddr7-graphics-card",
+     "name": "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 245000,
+     "new": 262000,
+     "diff": 17000,
+     "pct": 6.938775510204081
+    },
+    {
+     "id": "manli-stellar-geforce-rtx-5060-ti-oc-16gb-gddr7-graphics-card-black",
+     "name": "Manli Stellar GeForce RTX 5060 Ti OC 16GB GDDR7 Graphics Card (Black)",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 111500,
+     "new": 127000,
+     "diff": 15500,
+     "pct": 13.901345291479823
+    },
+    {
+     "id": "gigabyte-geforce-rtx-5070-ti-aero-oc-16g-gddr7-graphics-card",
+     "name": "Gigabyte GeForce RTX 5070 Ti AERO OC 16G GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 185000,
+     "new": 199900,
+     "diff": 14900,
+     "pct": 8.054054054054054
+    },
+    {
+     "id": "pny-geforce-rtx-5080-16gb-gddr7-argb-epic-x-rgb-overclocked-triple-fan-graphics",
+     "name": "PNY GeForce RTX 5080 16GB GDDR7 ARGB EPIC-X RGB Overclocked Triple Fan Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 250500,
+     "new": 265000,
+     "diff": 14500,
+     "pct": 5.788423153692615
+    },
+    {
+     "id": "manli-black-stellar-geforce-rtx-5060-ti-oc-16gb-gddr7-graphics-card",
+     "name": "Manli Black Stellar GeForce RTX 5060 Ti OC 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "startech",
+     "old": 111500,
+     "new": 124900,
+     "diff": 13400,
+     "pct": 12.01793721973094
+    },
+    {
+     "id": "manli-nebula-v2-geforce-rtx-5060-ti-16gb-gddr7-graphics-card",
+     "name": "Manli Nebula V2 GeForce RTX 5060 Ti 16GB GDDR7 Graphics Card",
+     "category": "graphics-card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "store": "techland",
+     "old": 108999,
+     "new": 122000,
+     "diff": 13001,
+     "pct": 11.927632363599667
+    }
+   ],
+   "n_dn": 9,
+   "n_up": 100,
+   "new": [
+    {
+     "id": "gigabyte-geforce-rtx-5060-ti-windforce-max-oc-8g-gddr7-graphics-card",
+     "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 8G GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "price": 86500,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "arktek-geforce-rtx-3060-12gb-v1-gaming-graphics-card",
+     "name": "ARKTEK GeForce RTX 3060 12GB V1 Gaming Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "price": 59500,
+     "store": "pchouse",
+     "n": 1
+    },
+    {
+     "id": "asus-dual-radeon-rx-9050-oc-edition-8gb-gddr6-graphics-card",
+     "name": "ASUS Dual Radeon RX 9050 OC Edition 8GB GDDR6 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "price": 51500,
+     "store": "startech",
+     "n": 1
+    }
+   ],
+   "n_new": 3,
+   "gaps": [
+    {
+     "id": "asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 238000,
+     "los": "pqs",
+     "hi": 275000,
+     "his": "startech",
+     "diff": 37000,
+     "n": 5
+    },
+    {
+     "id": "zotac-gaming-geforce-rtx-5080-solid-core-oc-16gb-gddr7-graphics-card",
+     "name": "ZOTAC GAMING GeForce RTX 5080 SOLID CORE OC 16GB GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 250900,
+     "los": "creatus",
+     "hi": 279900,
+     "his": "startech",
+     "diff": 29000,
+     "n": 3
+    },
+    {
+     "id": "asus-prime-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-graphics-card",
+     "name": "ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 169000,
+     "los": "bme",
+     "hi": 193900,
+     "his": "startech",
+     "diff": 24900,
+     "n": 5
+    },
+    {
+     "id": "asus-rog-astral-geforce-rtx-5080-16gb-gddr7-oc-edition-graphics-card-white",
+     "name": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card White",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 295000,
+     "los": "pchouse",
+     "hi": 319000,
+     "his": "startech",
+     "diff": 24000,
+     "n": 3
+    },
+    {
+     "id": "msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-16gb-gddr7-graphics-card",
+     "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC 16GB GDDR7 Graphics Card",
+     "cat_name": "গ্রাফিক্স কার্ড",
+     "lo": 188500,
+     "los": "creatus",
+     "hi": 210500,
+     "his": "pqs",
+     "diff": 22000,
+     "n": 5
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে গ্রাফিক্স কার্ড · ১৪–২০ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে গ্রাফিক্স কার্ড · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৩৫৯টি গ্রাফিক্স কার্ডের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\">+১%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"9\">৯</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"100\">১০০</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7 Gr…</text><text x=\"70\" y=\"536\" class=\"sm\">গ্রাফিক্স কার্ড · Star Tech · ৳৪৪০,০০০ → ৳৩৯৯,৯০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳৪০,১০০ (৯.১%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8…</text><text x=\"70\" y=\"624\" class=\"sm\">গ্রাফিক্স কার্ড · Star Tech · ৳৮৫,০০০ → ৳৮২,৫০০</text><rect x=\"70\" y=\"636\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"120\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳২,৫০০ (২.৯%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">Manli Nebula GeForce RTX 5050 8GB GDDR6 Gra…</text><text x=\"70\" y=\"712\" class=\"sm\">গ্রাফিক্স কার্ড · Star Tech · ৳৫৬,৯০০ → ৳৫৪,৮০০</text><rect x=\"70\" y=\"724\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"120\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳২,১০০ (৩.৭%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">MSI GeForce RTX 5080 16G VENTUS 3X OC PLUS…</text><text x=\"70\" y=\"880\" class=\"sm\">গ্রাফিক্স কার্ড · TechLand BD · ৳২৫১,৯০০ → ৳২৯৫,৯০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৪৪,০০০ (১৭%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">NVIDIA RTX PRO 5000 72GB Blackwell GDDR7 Gr…</text><text x=\"70\" y=\"968\" class=\"sm\">গ্রাফিক্স কার্ড · Star Tech · ৳১,৩৫৯,০০০ → ৳১,৩৯৯,০০০</text><rect x=\"70\" y=\"980\" width=\"509\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"593\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৪০,০০০ (২.৯%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC E…</text><text x=\"70\" y=\"1056\" class=\"sm\">গ্রাফিক্স কার্ড · Creatus · ৳২৩৭,০০০ → ৳২৭৪,০০০</text><rect x=\"70\" y=\"1068\" width=\"471\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"555\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৩৭,০০০ (১৬%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ৩টি গ্রাফিক্স কার্ড</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 8G…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">গ্রাফিক্স কার্ড · সাপ্তাহিক রিপোর্ট · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"46\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে গ্রাফিক্স কার্ডের গড় দাম +১%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">৯টির দাম কমেছে, ১০০টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+১%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৯</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১০০</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "গ্রাফিক্স কার্ডের দাম বাড়ার দিকে। জরুরি দরকার হলে দেরি না করে কম দামের দোকান থেকে কিনে নেওয়া ভালো।",
+  "জরুরি না হলে প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রেখে অপেক্ষা করতে পারেন।"
+ ],
+ "label": "গ্রাফিক্স কার্ড · সাপ্তাহিক",
+ "created": "2026-11-20"
+}

@@ -1,0 +1,430 @@
+{
+ "id": "laptop-2026-11-20",
+ "kind": "week",
+ "cat": "laptop",
+ "cat_name": "ল্যাপটপ",
+ "path": "bazar/laptop/2026-11-20",
+ "title": "এই সপ্তাহে ল্যাপটপের দাম: ১৭টির কমেছে, ৭৮টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে ল্যাপটপের দাম: ১৭টির কমেছে, ৭৮টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "date": "2026-11-20",
+ "start": "2026-11-13",
+ "span": "১৪–২০ নভেম্বর ২০২৬",
+ "desc": "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ৯৫টি ল্যাপটপের দাম বদলেছে: ১৭টির কমেছে, ৭৮টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৮৪৫টি ল্যাপটপের গড় দাম ০.৪% বেড়েছে।",
+ "key": [
+  "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ৯৫টি ল্যাপটপের দাম বদলেছে: ১৭টির কমেছে, ৭৮টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৮৪৫টি ল্যাপটপের গড় দাম ০.৪% বেড়েছে।",
+  "সবচেয়ে বেশি কমেছে Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 40 8GB RAM 15.6\" FHD L…: ৳১২,০৯৯ (১৩%)।",
+  "সবচেয়ে বেশি বেড়েছে Acer Predator Helios Neo 16 AI-PH16-73 Core Ultra 9 275HX R…: ৳৫০,০০০ (৮.২%)।",
+  "সপ্তাহে ১৬টি নতুন ল্যাপটপ দোকানে এসেছে।"
+ ],
+ "idx": 0.4097243366962498,
+ "n_cmp": 845,
+ "tabs": [
+  {
+   "key": "laptop",
+   "name": "ল্যাপটপ",
+   "dn": [
+    {
+     "id": "lenovo-ideapad-slim-3-15amn8-ryzen-5-40-8gb-ram-15-6-fhd-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 40 8GB RAM 15.6\" FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "pchouse",
+     "old": 90999,
+     "new": 78900,
+     "diff": -12099,
+     "pct": -13.295750502752776
+    },
+    {
+     "id": "lenovo-ideapad-1-15amn7-amd-ryzen-3-7320u-16gb-ram-512gb-ssd-15-6-inch-fhd-lapto",
+     "name": "Lenovo IdeaPad 1 15AMN7 AMD Ryzen 3 7320U 16GB RAM 512GB SSD 15.6 inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "ryans",
+     "old": 95000,
+     "new": 83500,
+     "diff": -11500,
+     "pct": -12.105263157894736
+    },
+    {
+     "id": "dell-pro-15-essential-pv15250-core-i5-13th-gen-15-6-fhd-laptop",
+     "name": "Dell Pro 15 Essential PV15250 Core i5 13th Gen 15.6\" FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "creatus",
+     "old": 95000,
+     "new": 85900,
+     "diff": -9100,
+     "pct": -9.578947368421051
+    },
+    {
+     "id": "hp-240r-g10-core-5-120u-14-fhd-laptop",
+     "name": "HP 240R G10 Core 5 120U 14\" FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 109900,
+     "new": 104000,
+     "diff": -5900,
+     "pct": -5.368516833484986
+    },
+    {
+     "id": "hp-250r-g10-intel-core-5-120u-15-6-inch-fhd-laptop",
+     "name": "HP 250R G10 Intel Core 5-120U 15.6-inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 109900,
+     "new": 104000,
+     "diff": -5900,
+     "pct": -5.368516833484986
+    },
+    {
+     "id": "macbook-pro-m5-pro-chip-14-inch-15-core-cpu-16-core-gpu",
+     "name": "MacBook Pro M5 Pro Chip 14-inch (15-core CPU, 16-core GPU)",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 267000,
+     "new": 262000,
+     "diff": -5000,
+     "pct": -1.8726591760299627
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15abr8-ryzen-5-5625u-16gb-ram-512gb-ssd-15-6-inch-fhd-lapt",
+     "name": "Lenovo IdeaPad Slim 3 15ABR8 Ryzen 5 5625U 16GB RAM 512GB SSD 15.6-Inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 94000,
+     "new": 89000,
+     "diff": -5000,
+     "pct": -5.319148936170213
+    },
+    {
+     "id": "hp-240r-g10-core-3-100u-14-fhd-laptop",
+     "name": "HP 240R G10 Core 3 100U 14\" FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 99900,
+     "new": 96500,
+     "diff": -3400,
+     "pct": -3.4034034034034035
+    },
+    {
+     "id": "hp-250r-g10-intel-core-3-100u-15-6-inch-fhd-laptop",
+     "name": "HP 250R G10 Intel Core 3-100U 15.6-inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 99900,
+     "new": 96500,
+     "diff": -3400,
+     "pct": -3.4034034034034035
+    },
+    {
+     "id": "hp-probook-440-g11-series-1-intel-core-ultra-5-125u-8gb-ram-512gb-ssd-14-inch-fh",
+     "name": "HP ProBook 440 G11 Series 1 Intel Core Ultra 5 125U 8GB RAM, 512GB SSD 14 Inch FHD Display Silver Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "ryans",
+     "old": 124900,
+     "new": 122000,
+     "diff": -2900,
+     "pct": -2.321857485988791
+    },
+    {
+     "id": "hp-15-fd0909tu-intel-core-5-120u-8gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "HP 15-fd0909TU Intel Core 5 120U 8GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "ryans",
+     "old": 95000,
+     "new": 92500,
+     "diff": -2500,
+     "pct": -2.631578947368421
+    },
+    {
+     "id": "lenovo-ideapad-1-15amn7-ryzen-5-7520u-16gb-ram-512gb-ssd-15-6-inch-fhd-ips-lapto",
+     "name": "Lenovo IdeaPad 1 15AMN7 Ryzen 5 7520U 16GB RAM 512GB SSD 15.6-inch FHD IPS Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "ryans",
+     "old": 107000,
+     "new": 105000,
+     "diff": -2000,
+     "pct": -1.8691588785046727
+    }
+   ],
+   "up": [
+    {
+     "id": "acer-predator-helios-neo-16-ai-ph16-73-core-ultra-9-275hx-rtx-5090-24gb-graphics",
+     "name": "Acer Predator Helios Neo 16 AI-PH16-73 Core Ultra 9 275HX RTX 5090 24GB Graphics 32GB DDR5 RAM 16 Inch OLED Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 610000,
+     "new": 660000,
+     "diff": 50000,
+     "pct": 8.19672131147541
+    },
+    {
+     "id": "msi-prestige-13-ai-ukiyoe-edition-a2vmg-core-ultra-9-288v-32gb-ram-2tb-ssd-13-3-inch",
+     "name": "MSI Prestige 13 AI+ Ukiyoe Edition A2VMG Core Ultra 9 288V 32GB RAM 2TB SSD 13.3 Inch 2.8K OLED Laptop with Copilot+ PC",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 270000,
+     "new": 310000,
+     "diff": 40000,
+     "pct": 14.814814814814813
+    },
+    {
+     "id": "lenovo-thinkpad-x1-2-in-1-gen-10-aura-edition-core-ultra-7-265u-14-wuxga-touch-l",
+     "name": "Lenovo ThinkPad X1 2-in-1 Gen 10 Aura Edition Core Ultra 7 265U 14\" WUXGA Touch Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 400000,
+     "new": 435000,
+     "diff": 35000,
+     "pct": 8.75
+    },
+    {
+     "id": "acer-predator-helios-neo-16s-ai-phn16s-71-core-ultra-9-275hx-rtx-5070-8gb-graphi",
+     "name": "Acer Predator Helios Neo 16S AI PHN16S-71 Core Ultra 9 275HX RTX 5070 8GB Graphics 16 Inch OLED Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 303000,
+     "new": 335000,
+     "diff": 32000,
+     "pct": 10.561056105610561
+    },
+    {
+     "id": "acer-predator-helios-neo-16s-ai-phn16s-71-core-ultra-7-255hx-rtx-5070-8gb-graphi",
+     "name": "Acer Predator Helios Neo 16S AI PHN16S-71 Core Ultra 7 255HX RTX 5070 8GB Graphics 16 Inch OLED Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 299000,
+     "new": 320000,
+     "diff": 21000,
+     "pct": 7.023411371237458
+    },
+    {
+     "id": "hp-victus-gaming-15-fb3180ax-ryzen-7-7445h-rtx-3050-4gb-graphics-15-6-fhd-gaming",
+     "name": "HP Victus Gaming 15-fb3180AX Ryzen 7 7445H RTX 3050 4GB Graphics 15.6\" FHD Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 128000,
+     "new": 145000,
+     "diff": 17000,
+     "pct": 13.28125
+    },
+    {
+     "id": "msi-stealth-a16-ai-a3xwjg-ryzen-ai-9-hx-370-rtx-5090-24gb-graphics-qhd-240hz-ole",
+     "name": "MSI Stealth A16 AI+ A3XWJG Ryzen AI 9 HX 370 RTX 5090 24GB Graphics QHD+ 240Hz OLED Gaming Laptop Copilot+PC",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 645000,
+     "new": 660000,
+     "diff": 15000,
+     "pct": 2.3255813953488373
+    },
+    {
+     "id": "hp-victus-gaming-15-fb3166ax-ryzen-5-8645hs-rtx-2050-4gb-graphics-15-6-fhd-gamin",
+     "name": "HP Victus Gaming 15-fb3166AX Ryzen 5 8645HS RTX 2050 4GB Graphics 15.6\" FHD Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 105000,
+     "new": 119000,
+     "diff": 14000,
+     "pct": 13.333333333333334
+    },
+    {
+     "id": "hp-victus-gaming-15-fb3167ax-ryzen-5-8645hs-rtx-2050-4gb-graphics-15-6-fhd-gamin",
+     "name": "HP Victus Gaming 15-fb3167AX Ryzen 5 8645HS RTX 2050 4GB Graphics 15.6\" FHD Gaming Laptop",
+     "category": "gaming-laptop",
+     "cat_name": "গেমিং ল্যাপটপ",
+     "store": "startech",
+     "old": 105000,
+     "new": 119000,
+     "diff": 14000,
+     "pct": 13.333333333333334
+    },
+    {
+     "id": "asus-vivobook-go-14-l1404fa-ryzen-5-7520u-14-fhd-laptop",
+     "name": "ASUS Vivobook Go 14 L1404FA Ryzen 5 7520U 14\" FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 79150,
+     "new": 93000,
+     "diff": 13850,
+     "pct": 17.49842072015161
+    },
+    {
+     "id": "lenovo-ideapad-slim-3i-15irh10-core-i5-13th-gen-24gb-ram-512gb-ssd-15-3-inch-wux",
+     "name": "Lenovo IdeaPad Slim 3i 15IRH10 Core i5 13th Gen 24GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "techland",
+     "old": 94111,
+     "new": 105000,
+     "diff": 10889,
+     "pct": 11.57037965806335
+    },
+    {
+     "id": "asus-expertbook-b1-b1403cva-intel-core-7-240h-16gb-ram-512gb-ssd-14-0-inch-fhd-l",
+     "name": "ASUS ExpertBook B1 B1403CVA Intel Core 7-240H 16GB RAM 512GB SSD 14.0-inch FHD Laptop",
+     "category": "laptop",
+     "cat_name": "ল্যাপটপ",
+     "store": "startech",
+     "old": 105000,
+     "new": 115700,
+     "diff": 10700,
+     "pct": 10.19047619047619
+    }
+   ],
+   "n_dn": 17,
+   "n_up": 78,
+   "new": [
+    {
+     "id": "tecno-megabook-k15sra-core-i5-13th-gen-16gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "Tecno MEGABOOK K15SRA Core i5 13th Gen 16GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 87000,
+     "store": "pqs",
+     "n": 2
+    },
+    {
+     "id": "tecno-megabook-k15sda-amd-ryzen-3-7330u-8gb-ram-512gb-ssd-15-6-inch-fhd-laptop",
+     "name": "Tecno MEGABOOK K15SDA AMD Ryzen 3 7330U 8GB RAM 512GB SSD 15.6 Inch FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 62500,
+     "store": "pqs",
+     "n": 2
+    },
+    {
+     "id": "asus-zenbook-a14-oled-ux3407ra-qualcomm-snapdragon-x-elite-x1e-78-100-16gb-ram",
+     "name": "ASUS ZenBook A14 OLED UX3407RA Qualcomm Snapdragon X Elite X1E-78-100 16GB RAM 1TB SSD 14 Inch FHD+ WUXGA Display Copilot Plus & AI Optimized Zabriskie Beige Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 182000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "lenovo-yoga-7-2-in-1-14iph11-intel-core-ultra-5-322-16gb-ram-512gb-ssd-14-inch",
+     "name": "Lenovo Yoga 7 2-in-1 14IPH11 Intel Core Ultra 5 322 16GB RAM 512GB SSD 14 Inch FHD+ WUXGA OLED Touch Display Copilot Plus & AI Optimized Seashell Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 179000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-core-i7-13th-gen-16gb-ram-15-3-wuxga-laptop",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Core i7 13th Gen 16GB RAM 15.3\" WUXGA Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-16gb-ram-512gb-ssd-15-3-inch",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7-13620H 16GB RAM 512GB SSD 15.3-inch IPS Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-3-15irh10-intel-core-i7-13620h-16gb-ram-512gb-ssd-15-3-inch-fhd",
+     "name": "Lenovo IdeaPad Slim 3 15IRH10 Intel Core i7 13620H 16GB RAM 512GB SSD 15.3 Inch FHD+ WUXGA Display Luna Grey Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 117499,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "lenovo-ideapad-slim-5-14q8x9-qualcomm-snapdragon-x-plus-x1p-42-100-16gb-ram",
+     "name": "Lenovo IdeaPad Slim 5 14Q8X9 Qualcomm Snapdragon X Plus X1P-42-100 16GB RAM, 512GB SSD 14 Inch FHD+ WUXGA Display Copilot Plus & AI Optimized Cloud Grey Laptop",
+     "cat_name": "ল্যাপটপ",
+     "price": 110000,
+     "store": "ryans",
+     "n": 1
+    }
+   ],
+   "n_new": 16,
+   "gaps": [
+    {
+     "id": "lenovo-legion-5i-pro-16iah7h-intel-core-i7-12700h-16gb-ram-1tb-ssd-gaming-laptop",
+     "name": "Lenovo Legion 5i Pro 16IAH7H Intel Core i7 12700H 16GB RAM 1TB SSD Gaming Laptop",
+     "cat_name": "ল্যাপটপ",
+     "lo": 188000,
+     "los": "creatus",
+     "hi": 236530,
+     "his": "pchouse",
+     "diff": 48530,
+     "n": 2
+    },
+    {
+     "id": "hp-probook-440-g11-core-ultra-7-14-fhd-laptop",
+     "name": "HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop",
+     "cat_name": "ল্যাপটপ",
+     "lo": 114000,
+     "los": "bme",
+     "hi": 147900,
+     "his": "selltech",
+     "diff": 33900,
+     "n": 8
+    },
+    {
+     "id": "lenovo-yoga-7i-2-in-1-aura-edition-14iph11-intel-core-ultra-5-322-16gb-ram-512gb",
+     "name": "Lenovo Yoga 7i 2-in-1 Aura Edition 14IPH11 Intel Core Ultra 5 322 16GB RAM 512GB SSD 14 Inch OLED Display Copilot+ PC",
+     "cat_name": "ল্যাপটপ",
+     "lo": 146000,
+     "los": "ryans",
+     "hi": 175000,
+     "his": "pqs",
+     "diff": 29000,
+     "n": 3
+    },
+    {
+     "id": "hp-probook-460-g11-core-ultra-5-16-wuxga-laptop",
+     "name": "HP ProBook 460 G11 Core Ultra 5 16\" WUXGA Laptop",
+     "cat_name": "ল্যাপটপ",
+     "lo": 99500,
+     "los": "bme",
+     "hi": 124900,
+     "his": "startech",
+     "diff": 25400,
+     "n": 7
+    },
+    {
+     "id": "asus-zenbook-14-um3406ga-ryzen-ai-5-430-16gb-ram-512gb-ssd-14-0-inch-oled-displa",
+     "name": "ASUS Zenbook 14 UM3406GA Ryzen AI 5 430 16GB RAM 512GB SSD 14.0-inch OLED Display Laptop",
+     "cat_name": "ল্যাপটপ",
+     "lo": 162000,
+     "los": "pqs",
+     "hi": 185000,
+     "his": "ryans",
+     "diff": 23000,
+     "n": 3
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে ল্যাপটপ · ১৪–২০ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে ল্যাপটপ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৮৪৫টি ল্যাপটপের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\">+০.৪%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"17\">১৭</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"78\">৭৮</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 40 8GB…</text><text x=\"70\" y=\"536\" class=\"sm\">ল্যাপটপ · PC House · ৳৯০,৯৯৯ → ৳৭৮,৯০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳১২,০৯৯ (১৩%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">Lenovo IdeaPad 1 15AMN7 AMD Ryzen 3 7320U 1…</text><text x=\"70\" y=\"624\" class=\"sm\">ল্যাপটপ · Ryans · ৳৯৫,০০০ → ৳৮৩,৫০০</text><rect x=\"70\" y=\"636\" width=\"532\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"616\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳১১,৫০০ (১২%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">Dell Pro 15 Essential PV15250 Core i5 13th…</text><text x=\"70\" y=\"712\" class=\"sm\">ল্যাপটপ · Creatus · ৳৯৫,০০০ → ৳৮৫,৯০০</text><rect x=\"70\" y=\"724\" width=\"421\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"505\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳৯,১০০ (৯.৬%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">Acer Predator Helios Neo 16 AI-PH16-73 Core…</text><text x=\"70\" y=\"880\" class=\"sm\">গেমিং ল্যাপটপ · Star Tech · ৳৬১০,০০০ → ৳৬৬০,০০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৫০,০০০ (৮.২%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">MSI Prestige 13 AI+ Ukiyoe Edition A2VMG Co…</text><text x=\"70\" y=\"968\" class=\"sm\">গেমিং ল্যাপটপ · Star Tech · ৳২৭০,০০০ → ৳৩১০,০০০</text><rect x=\"70\" y=\"980\" width=\"448\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"532\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৪০,০০০ (১৫%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">Lenovo ThinkPad X1 2-in-1 Gen 10 Aura Editi…</text><text x=\"70\" y=\"1056\" class=\"sm\">ল্যাপটপ · Star Tech · ৳৪০০,০০০ → ৳৪৩৫,০০০</text><rect x=\"70\" y=\"1068\" width=\"392\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"476\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৩৫,০০০ (৮.৮%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ১৬টি ল্যাপটপ</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: Tecno MEGABOOK K15SRA Core i5 13th Gen 16GB RAM 5…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">ল্যাপটপ · সাপ্তাহিক রিপোর্ট · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"46\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে ল্যাপটপের গড় দাম +০.৪%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">১৭টির দাম কমেছে, ৭৮টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০.৪%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১৭</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৭৮</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "ল্যাপটপের দাম বাড়ার দিকে। জরুরি দরকার হলে দেরি না করে কম দামের দোকান থেকে কিনে নেওয়া ভালো।",
+  "জরুরি না হলে প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রেখে অপেক্ষা করতে পারেন।"
+ ],
+ "label": "ল্যাপটপ · সাপ্তাহিক",
+ "created": "2026-11-20"
+}

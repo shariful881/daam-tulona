@@ -1,0 +1,298 @@
+{
+ "id": "processor-2026-11-20",
+ "kind": "week",
+ "cat": "processor",
+ "cat_name": "প্রসেসর",
+ "path": "bazar/processor/2026-11-20",
+ "title": "এই সপ্তাহে প্রসেসরের দাম: ১১টির কমেছে, ৭টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে প্রসেসরের দাম: ১১টির কমেছে, ৭টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "date": "2026-11-20",
+ "start": "2026-11-13",
+ "span": "১৪–২০ নভেম্বর ২০২৬",
+ "desc": "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ১৮টি প্রসেসরের দাম বদলেছে: ১১টির কমেছে, ৭টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ২১৬টি প্রসেসরের গড় দাম ০.১% বেড়েছে।",
+ "key": [
+  "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ১৮টি প্রসেসরের দাম বদলেছে: ১১টির কমেছে, ৭টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ২১৬টি প্রসেসরের গড় দাম ০.১% বেড়েছে।",
+  "সবচেয়ে বেশি কমেছে Intel 12th Gen Core i7-12700 Alder Lake Processor: ৳২,৮০০ (৮.৬%)।",
+  "সবচেয়ে বেশি বেড়েছে AMD Ryzen Threadripper PRO 9985WX Processor (Tray Box): ৳৩৫৯,১০০ (৩৬%)।"
+ ],
+ "idx": 0.1350465997050622,
+ "n_cmp": 216,
+ "tabs": [
+  {
+   "key": "processor",
+   "name": "প্রসেসর",
+   "dn": [
+    {
+     "id": "intel-12th-gen-core-i7-12700-alder-lake-processor",
+     "name": "Intel 12th Gen Core i7-12700 Alder Lake Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "startech",
+     "old": 32400,
+     "new": 29600,
+     "diff": -2800,
+     "pct": -8.641975308641975
+    },
+    {
+     "id": "amd-ryzen-5-5600gt-am4-processor-with-radeon-graphics",
+     "name": "AMD Ryzen 5 5600GT AM4 Processor with Radeon Graphics",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 18500,
+     "new": 16500,
+     "diff": -2000,
+     "pct": -10.81081081081081
+    },
+    {
+     "id": "amd-ryzen-9-9950x3d-gaming-processor",
+     "name": "AMD Ryzen 9 9950X3D Gaming Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 76500,
+     "new": 74500,
+     "diff": -2000,
+     "pct": -2.6143790849673203
+    },
+    {
+     "id": "intel-10th-gen-core-i5-10500-processor",
+     "name": "Intel 10th Gen Core i5-10500 Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ultratech",
+     "old": 14200,
+     "new": 13000,
+     "diff": -1200,
+     "pct": -8.450704225352112
+    },
+    {
+     "id": "intel-12th-gen-core-i5-12400-alder-lake-processor",
+     "name": "Intel 12th Gen Core i5-12400 Alder Lake Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 18600,
+     "new": 17400,
+     "diff": -1200,
+     "pct": -6.451612903225806
+    },
+    {
+     "id": "amd-ryzen-5-7500f-processor",
+     "name": "AMD Ryzen 5 7500F Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 13000,
+     "new": 11900,
+     "diff": -1100,
+     "pct": -8.461538461538462
+    },
+    {
+     "id": "intel-core-i3-14100-14th-gen-raptor-lake-processor",
+     "name": "Intel Core i3 14100 14th Gen Raptor Lake Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "startech",
+     "old": 13400,
+     "new": 12400,
+     "diff": -1000,
+     "pct": -7.462686567164178
+    },
+    {
+     "id": "amd-ryzen-9-9900x3d-gaming-processor",
+     "name": "AMD Ryzen 9 9900X3D Gaming Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "startech",
+     "old": 58000,
+     "new": 57300,
+     "diff": -700,
+     "pct": -1.206896551724138
+    },
+    {
+     "id": "amd-ryzen-5-3400g-4-core-desktop-processor",
+     "name": "AMD Ryzen 5 3400G 4 Core Desktop Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 8500,
+     "new": 7800,
+     "diff": -700,
+     "pct": -8.235294117647058
+    },
+    {
+     "id": "amd-ryzen-5-3400g-processor-with-radeon-rx-vega-11-graphics",
+     "name": "AMD Ryzen 5 3400G Processor with Radeon RX Vega 11 Graphics",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 6850,
+     "new": 6350,
+     "diff": -500,
+     "pct": -7.2992700729927
+    },
+    {
+     "id": "amd-ryzen-7-7700-gaming-processor",
+     "name": "AMD Ryzen 7 7700 Gaming Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 19011,
+     "new": 18999,
+     "diff": -12,
+     "pct": -0.06312135079690705
+    }
+   ],
+   "up": [
+    {
+     "id": "amd-ryzen-threadripper-pro-9985wx-processor-tray-box",
+     "name": "AMD Ryzen Threadripper PRO 9985WX Processor (Tray Box)",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 1010900,
+     "new": 1370000,
+     "diff": 359100,
+     "pct": 35.52280146404194
+    },
+    {
+     "id": "amd-ryzen-9-7950x3d-gaming-processor",
+     "name": "AMD Ryzen 9 7950X3D Gaming Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "startech",
+     "old": 48500,
+     "new": 52999,
+     "diff": 4499,
+     "pct": 9.276288659793815
+    },
+    {
+     "id": "amd-ryzen-5-pro-5650ge-processor-with-radeon-graphics",
+     "name": "AMD Ryzen 5 PRO 5650GE Processor with Radeon Graphics",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 16200,
+     "new": 18900,
+     "diff": 2700,
+     "pct": 16.666666666666664
+    },
+    {
+     "id": "intel-12th-gen-alder-lake-core-i7-12700-2-10ghz-4-90ghz-processor-oem-tray-bundl",
+     "name": "Intel 12th Gen Alder Lake Core i7 12700 2.10GHz-4.90GHz Processor (OEM/Tray) (Bundle with PC)",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 32400,
+     "new": 33500,
+     "diff": 1100,
+     "pct": 3.3950617283950617
+    },
+    {
+     "id": "amd-ryzen-9-9900x-gaming-processor",
+     "name": "AMD Ryzen 9 9900X Gaming Processor",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "startech",
+     "old": 41000,
+     "new": 42000,
+     "diff": 1000,
+     "pct": 2.4390243902439024
+    },
+    {
+     "id": "amd-ryzen-5-3400g-3-7ghz-4-2ghz-4-core-amd-am4-socket-processor-with-vega-11-gra",
+     "name": "AMD Ryzen 5 3400G 3.7GHz-4.2GHz 4 Core AMD AM4 Socket Processor with Vega 11 Graphics (OEM/Tray)",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "ryans",
+     "old": 6900,
+     "new": 7200,
+     "diff": 300,
+     "pct": 4.3478260869565215
+    },
+    {
+     "id": "amd-ryzen-7-5700g-processor-with-radeon-graphics",
+     "name": "AMD Ryzen 7 5700G Processor with Radeon Graphics",
+     "category": "processor",
+     "cat_name": "প্রসেসর",
+     "store": "creatus",
+     "old": 19011,
+     "new": 19200,
+     "diff": 189,
+     "pct": 0.994161275051286
+    }
+   ],
+   "n_dn": 11,
+   "n_up": 7,
+   "new": [],
+   "n_new": 0,
+   "gaps": [
+    {
+     "id": "amd-ryzen-7-9800x3d-gaming-processor",
+     "name": "AMD Ryzen 7 9800X3D Gaming Processor",
+     "cat_name": "প্রসেসর",
+     "lo": 45700,
+     "los": "creatus",
+     "hi": 58450,
+     "his": "bme",
+     "diff": 12750,
+     "n": 7
+    },
+    {
+     "id": "amd-ryzen-9-9950x3d2-dual-edition-desktop-processor-tray-box",
+     "name": "AMD Ryzen 9 9950X3D2 Dual Edition Desktop Processor (Tray Box)",
+     "cat_name": "প্রসেসর",
+     "lo": 113000,
+     "los": "creatus",
+     "hi": 124000,
+     "his": "ryans",
+     "diff": 11000,
+     "n": 4
+    },
+    {
+     "id": "intel-12th-gen-core-i7-12700k-alder-lake-processor",
+     "name": "Intel 12th Gen Core i7-12700K Alder Lake Processor",
+     "cat_name": "প্রসেসর",
+     "lo": 30400,
+     "los": "bme",
+     "hi": 39500,
+     "his": "eerna",
+     "diff": 9100,
+     "n": 8
+    },
+    {
+     "id": "intel-core-i7-14700-14th-gen-raptor-lake-processor",
+     "name": "Intel Core i7 14700 14th Gen Raptor Lake Processor",
+     "cat_name": "প্রসেসর",
+     "lo": 37000,
+     "los": "creatus",
+     "hi": 45600,
+     "his": "eerna",
+     "diff": 8600,
+     "n": 9
+    },
+    {
+     "id": "intel-core-i7-14700k-14th-gen-raptor-lake-processor",
+     "name": "Intel Core i7 14700K 14th Gen Raptor Lake Processor",
+     "cat_name": "প্রসেসর",
+     "lo": 42500,
+     "los": "startech",
+     "hi": 50500,
+     "his": "eerna",
+     "diff": 8000,
+     "n": 8
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1238\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে প্রসেসর · ১৪–২০ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1238\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে প্রসেসর · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">২১৬টি প্রসেসরের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\">+০.১%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"11\">১১</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"7\">৭</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">Intel 12th Gen Core i7-12700 Alder Lake Pro…</text><text x=\"70\" y=\"536\" class=\"sm\">প্রসেসর · Star Tech · ৳৩২,৪০০ → ৳২৯,৬০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳২,৮০০ (৮.৬%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">AMD Ryzen 5 5600GT AM4 Processor with Radeo…</text><text x=\"70\" y=\"624\" class=\"sm\">প্রসেসর · Creatus · ৳১৮,৫০০ → ৳১৬,৫০০</text><rect x=\"70\" y=\"636\" width=\"400\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"484\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳২,০০০ (১১%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">AMD Ryzen 9 9950X3D Gaming Processor</text><text x=\"70\" y=\"712\" class=\"sm\">প্রসেসর · Ryans · ৳৭৬,৫০০ → ৳৭৪,৫০০</text><rect x=\"70\" y=\"724\" width=\"400\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"484\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳২,০০০ (২.৬%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">AMD Ryzen Threadripper PRO 9985WX Processor…</text><text x=\"70\" y=\"880\" class=\"sm\">প্রসেসর · Creatus · ৳১,০১০,৯০০ → ৳১,৩৭০,০০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৩৫৯,১০০ (৩৬%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">AMD Ryzen 9 7950X3D Gaming Processor</text><text x=\"70\" y=\"968\" class=\"sm\">প্রসেসর · Star Tech · ৳৪৮,৫০০ → ৳৫২,৯৯৯</text><rect x=\"70\" y=\"980\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"120\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৪,৪৯৯ (৯.৩%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">AMD Ryzen 5 PRO 5650GE Processor with Radeo…</text><text x=\"70\" y=\"1056\" class=\"sm\">প্রসেসর · Ryans · ৳১৬,২০০ → ৳১৮,৯০০</text><rect x=\"70\" y=\"1068\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"120\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳২,৭০০ (১৭%)</text></g><line x1=\"70\" y1=\"1158\" x2=\"1010\" y2=\"1158\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1201\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1201\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">প্রসেসর · সাপ্তাহিক রিপোর্ট · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"46\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে প্রসেসরের গড় দাম +০.১%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">১১টির দাম কমেছে, ৭টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০.১%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১১</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৭</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "প্রসেসরের দাম মোটামুটি স্থির। এখন কেনা আর কিছুদিন পরে কেনায় বড় পার্থক্য হওয়ার সম্ভাবনা কম।",
+  "একই মডেল দোকানভেদে আলাদা দামে বিক্রি হয়, তাই কেনার আগে প্রোডাক্ট পাতায় দাম মিলিয়ে নিন।"
+ ],
+ "label": "প্রসেসর · সাপ্তাহিক",
+ "created": "2026-11-20"
+}

@@ -1,0 +1,430 @@
+{
+ "id": "monitor-2026-11-20",
+ "kind": "week",
+ "cat": "monitor",
+ "cat_name": "মনিটর",
+ "path": "bazar/monitor/2026-11-20",
+ "title": "এই সপ্তাহে মনিটরের দাম: ১১৭টির কমেছে, ৯১টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে মনিটরের দাম: ১১৭টির কমেছে, ৯১টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "date": "2026-11-20",
+ "start": "2026-11-13",
+ "span": "১৪–২০ নভেম্বর ২০২৬",
+ "desc": "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ২০৮টি মনিটরের দাম বদলেছে: ১১৭টির কমেছে, ৯১টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৯৭৯টি মনিটরের গড় দাম প্রায় একই আছে।",
+ "key": [
+  "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ২০৮টি মনিটরের দাম বদলেছে: ১১৭টির কমেছে, ৯১টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৯৭৯টি মনিটরের গড় দাম প্রায় একই আছে।",
+  "সবচেয়ে বেশি কমেছে Viewsonic ColorPro VP2788-5K 27\" 60Hz 2K 5K IPS Monitor: ৳২৬,৫০০ (১৭%)।",
+  "সবচেয়ে বেশি বেড়েছে ASUS VT229H 22 Inch (21.5 Inch Viewable) Full HD IPS HDMI V…: ৳৬,৫০০ (১৬%)।",
+  "সপ্তাহে ১৭টি নতুন মনিটর দোকানে এসেছে।"
+ ],
+ "idx": 0.08333104464940715,
+ "n_cmp": 979,
+ "tabs": [
+  {
+   "key": "monitor",
+   "name": "মনিটর",
+   "dn": [
+    {
+     "id": "viewsonic-colorpro-vp2788-5k-27-60hz-2k-5k-ips-monitor",
+     "name": "Viewsonic ColorPro VP2788-5K 27\" 60Hz 2K 5K IPS Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 151500,
+     "new": 125000,
+     "diff": -26500,
+     "pct": -17.491749174917494
+    },
+    {
+     "id": "viewsonic-xg2730d-4k-27-inch-dual-mode-ips-gaming-monitor",
+     "name": "Viewsonic XG2730D-4K 27 Inch Dual Mode IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 64000,
+     "new": 43500,
+     "diff": -20500,
+     "pct": -32.03125
+    },
+    {
+     "id": "viewsonic-xg272-2k-oled-27-qhd-240hz-type-c-gaming-monitor",
+     "name": "ViewSonic XG272-2K-OLED 27\" QHD 240Hz Type-C Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 97000,
+     "new": 81000,
+     "diff": -16000,
+     "pct": -16.49484536082474
+    },
+    {
+     "id": "viewsonic-omni-vx2758a-2k-pro-2-27-170hz-2k-qhd-ips-gaming-monitor",
+     "name": "Viewsonic Omni VX2758A-2K-PRO-2 27\" 170Hz 2K QHD IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 44500,
+     "new": 36000,
+     "diff": -8500,
+     "pct": -19.101123595505616
+    },
+    {
+     "id": "viewsonic-va2708-4k-mhd-27-4k-uhd-ips-monitor",
+     "name": "Viewsonic VA2708-4K-MHD 27” 4K UHD IPS Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 41900,
+     "new": 34000,
+     "diff": -7900,
+     "pct": -18.85441527446301
+    },
+    {
+     "id": "asus-rog-swift-pg42uq-41-5-uhd-4k-hdr-138hz-oled-gaming-monitor",
+     "name": "ASUS ROG Swift PG42UQ 41.5\" UHD 4K HDR 138Hz OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 271500,
+     "new": 265499,
+     "diff": -6001,
+     "pct": -2.2103130755064457
+    },
+    {
+     "id": "asus-proart-display-pa279cdv-27-inch-professional-monitor",
+     "name": "ASUS ProArt Display PA279CDV 27-inch Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 132799,
+     "new": 127499,
+     "diff": -5300,
+     "pct": -3.9909939080866574
+    },
+    {
+     "id": "lg-ultragear-32g810sa-w-4k-144hz-ips-ai-smart-gaming-monitor",
+     "name": "LG UltraGear 32G810SA-W 4K 144Hz IPS AI Smart Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 135000,
+     "new": 129999,
+     "diff": -5001,
+     "pct": -3.7044444444444444
+    },
+    {
+     "id": "lg-ultragear-32g810sa-w-32-inch-144hz-uhd-4k-ai-smart-gaming-monitor",
+     "name": "LG UltraGear 32G810SA-W 32-inch 144Hz UHD 4K AI Smart Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 135000,
+     "new": 129999,
+     "diff": -5001,
+     "pct": -3.7044444444444444
+    },
+    {
+     "id": "lg-ultragear-evo-27gm950b-b-ai-gm9-hyper-mini-led-5k-27-inch-165hz-gaming-monito",
+     "name": "LG UltraGear evo 27GM950B-B AI GM9 Hyper Mini LED 5K 27 Inch 165Hz Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 186999,
+     "new": 181999,
+     "diff": -5000,
+     "pct": -2.6738110898988765
+    },
+    {
+     "id": "asus-tuf-gaming-vg32vqm5b-31-5-inch-full-hd-250hz-curved-monitor",
+     "name": "ASUS TUF Gaming VG32VQM5B 31.5 Inch Full HD 250Hz Curved Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 38000,
+     "new": 33499,
+     "diff": -4501,
+     "pct": -11.844736842105263
+    },
+    {
+     "id": "samsung-odyssey-oled-g6-g60sf-27-2k-qhd-500hz-gaming-monitor",
+     "name": "Samsung Odyssey OLED G6 G60SF 27\" 2K QHD 500Hz Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 152000,
+     "new": 147500,
+     "diff": -4500,
+     "pct": -2.9605263157894735
+    }
+   ],
+   "up": [
+    {
+     "id": "asus-vt229h-22-inch-21-5-inch-viewable-full-hd-ips-hdmi-vga-usb-touch-monitor",
+     "name": "ASUS VT229H 22 Inch (21.5 Inch Viewable) Full HD IPS HDMI VGA USB Touch Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "ryans",
+     "old": 40000,
+     "new": 46500,
+     "diff": 6500,
+     "pct": 16.25
+    },
+    {
+     "id": "msi-mpg-491cqpx-qd-oled-49-dqhd-240hz-curved-gaming-monitor",
+     "name": "MSI MPG 491CQPX QD-OLED 49\" DQHD 240Hz Curved Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 189199,
+     "new": 195000,
+     "diff": 5801,
+     "pct": 3.0660838587941797
+    },
+    {
+     "id": "dahua-dhi-lm49-ew410ca-49-120hz-dqhd-eled-va-curved-ultrawide-gaming-monitor",
+     "name": "Dahua DHI-LM49-EW410CA 49\" 120Hz DQHD ELED VA Curved Ultrawide Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 93999,
+     "new": 99000,
+     "diff": 5001,
+     "pct": 5.320269364567708
+    },
+    {
+     "id": "pc-power-pcg27q200dw-27-2k-qhd-200hz-gaming-monitor",
+     "name": "PC Power PCG27Q200DW 27\" 2K QHD 200Hz Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 19499,
+     "new": 24000,
+     "diff": 4501,
+     "pct": 23.08323503769424
+    },
+    {
+     "id": "msi-mag-272qp-qd-oled-x24-2k-wqhd-240hz-gaming-monitor",
+     "name": "MSI MAG 272QP QD-OLED X24 2K WQHD 240Hz Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "techland",
+     "old": 81499,
+     "new": 85000,
+     "diff": 3501,
+     "pct": 4.295758230162333
+    },
+    {
+     "id": "viewsonic-vx3418c-2k-34-2k-uwqhd-180hz-curved-gaming-monitor",
+     "name": "ViewSonic VX3418C-2K 34\" 2K UWQHD 180Hz Curved Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 53500,
+     "new": 57000,
+     "diff": 3500,
+     "pct": 6.5420560747663545
+    },
+    {
+     "id": "dahua-dhi-lm27-e331ay-27-qhd-200hz-ips-gaming-monitor",
+     "name": "Dahua DHI-LM27-E331AY 27\" QHD 200Hz IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 25699,
+     "new": 28499,
+     "diff": 2800,
+     "pct": 10.895365578427176
+    },
+    {
+     "id": "msi-mag-321cqf-e18-32-wqhd-180hz-rapid-va-curve-gaming-monitor",
+     "name": "MSI MAG 321CQF E18 32\" WQHD 180Hz Rapid VA Curve Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 39799,
+     "new": 42500,
+     "diff": 2701,
+     "pct": 6.786602678459258
+    },
+    {
+     "id": "msi-mag-342cqrf-e20-34-uwqhd-200hz-va-curved-gaming-monitor",
+     "name": "MSI MAG 342CQRF E20 34\" UWQHD 200Hz VA Curved Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "techland",
+     "old": 56299,
+     "new": 58900,
+     "diff": 2601,
+     "pct": 4.619975488019326
+    },
+    {
+     "id": "msi-modern-md272upsw-27-60hz-4k-uhd-smart-monitor",
+     "name": "MSI Modern MD272UPSW 27\" 60Hz 4K UHD Smart Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 58299,
+     "new": 60800,
+     "diff": 2501,
+     "pct": 4.289953515497693
+    },
+    {
+     "id": "benq-mobiuz-ex251-24-5-220hz-fhd-ips-gaming-monitor",
+     "name": "BenQ MOBIUZ EX251 24.5\" 220Hz FHD IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 21999,
+     "new": 24499,
+     "diff": 2500,
+     "pct": 11.364152916041638
+    },
+    {
+     "id": "benq-pd2706qn-27-qhd-ips-100hz-monitor",
+     "name": "BenQ PD2706QN 27\" QHD IPS 100Hz Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 46500,
+     "new": 49000,
+     "diff": 2500,
+     "pct": 5.376344086021505
+    }
+   ],
+   "n_dn": 117,
+   "n_up": 91,
+   "new": [
+    {
+     "id": "viewsonic-vx2766-2k-pro-9-27-320hz-2k-qhd-ips-gaming-monitor",
+     "name": "ViewSonic VX2766-2K-PRO-9 27\" 320Hz 2K QHD IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 37500,
+     "store": "startech",
+     "n": 2
+    },
+    {
+     "id": "viewsonic-vx27g32a-2k-27-275hz-2k-qhd-ips-gaming-monitor",
+     "name": "ViewSonic VX27G32A-2K 27\" 275Hz 2K QHD IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 31000,
+     "store": "startech",
+     "n": 2
+    },
+    {
+     "id": "viewsonic-vx27g30-27-inch-240hz-ips-fhd-gaming-monitor",
+     "name": "ViewSonic VX27G30 27 inch 240Hz IPS FHD Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 22500,
+     "store": "startech",
+     "n": 2
+    },
+    {
+     "id": "lg-ultragear-dual-mode-32gx870b-b-32-inch-4k-uhd-oled-240hz-display-dual-hdmi-dp",
+     "name": "LG UltraGear Dual-Mode 32GX870B-B 32 Inch 4K UHD OLED 240Hz Display Dual HDMI, DP, USB, Speaker & Headphone Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 218500,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "viewsonic-vg3820c-38-inch-wqhd-ips-display-hdmi-dp-usb-usb-c-headphone-curved",
+     "name": "ViewSonic VG3820C 38 Inch WQHD+ IPS Display HDMI, DP, USB, USB-C & Headphone Curved Professional Monitor",
+     "cat_name": "মনিটর",
+     "price": 89500,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "viewsonic-vp2766-4k-27-inch-4k-uhd-ips-120hz-hdmi-usb-usb-c-headphone-speaker",
+     "name": "ViewSonic VP2766-4K 27 Inch 4K UHD IPS 120Hz HDMI, USB, USB-C, Headphone & Speaker Professional Monitor",
+     "cat_name": "মনিটর",
+     "price": 54000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "viewsonic-vp2766-2k-w-27-inch-2k-qhd-ips-120hz-hdmi-usb-usb-c-headphone",
+     "name": "ViewSonic VP2766-2K-W 27 Inch 2K QHD IPS 120Hz HDMI, USB, USB-C & Headphone Professional Monitor",
+     "cat_name": "মনিটর",
+     "price": 41000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "asus-be27acgn-27-inch-120hz-2k-ips-framless-usb-c-docking-monitor",
+     "name": "ASUS BE27ACGN 27-inch 120Hz 2K IPS Framless USB-C Docking Monitor",
+     "cat_name": "মনিটর",
+     "price": 37499,
+     "store": "techland",
+     "n": 1
+    }
+   ],
+   "n_new": 17,
+   "gaps": [
+    {
+     "id": "gigabyte-mo34wqc2-34-wqhd-240hz-oled-curved-gaming-monitor",
+     "name": "Gigabyte MO34WQC2 34\" WQHD 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 129800,
+     "los": "startech",
+     "hi": 154950,
+     "his": "pqs",
+     "diff": 25150,
+     "n": 7
+    },
+    {
+     "id": "viewsonic-xg272-2k-oled-27-qhd-240hz-type-c-gaming-monitor",
+     "name": "ViewSonic XG272-2K-OLED 27\" QHD 240Hz Type-C Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 81000,
+     "los": "startech",
+     "hi": 104500,
+     "his": "computervision",
+     "diff": 23500,
+     "n": 5
+    },
+    {
+     "id": "lg-ultragear-34gs95qe-b-34-240hz-oled-curved-gaming-monitor",
+     "name": "LG UltraGear 34GS95QE-B 34\" 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 252000,
+     "los": "selltech",
+     "hi": 267000,
+     "his": "pqs",
+     "diff": 15000,
+     "n": 8
+    },
+    {
+     "id": "aoc-agon-ag493qcx-49-dual-fhd-144hz-va-curved-gaming-monitor",
+     "name": "AOC AGON AG493QCX 49\" Dual FHD 144Hz VA Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 121400,
+     "los": "selltech",
+     "hi": 135000,
+     "his": "bme",
+     "diff": 13600,
+     "n": 5
+    },
+    {
+     "id": "benq-mobiuz-ex270qm-27-2k-240hz-ips-gaming-monitor",
+     "name": "BenQ MOBIUZ EX270QM 27\" 2K 240Hz IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 96200,
+     "los": "bme",
+     "hi": 107990,
+     "his": "pchouse",
+     "diff": 11790,
+     "n": 3
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে মনিটর · ১৪–২০ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে মনিটর · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৯৭৯টি মনিটরের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\">+০.১%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"117\">১১৭</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"91\">৯১</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">Viewsonic ColorPro VP2788-5K 27&quot; 60Hz 2K 5K…</text><text x=\"70\" y=\"536\" class=\"sm\">মনিটর · Star Tech · ৳১৫১,৫০০ → ৳১২৫,০০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳২৬,৫০০ (১৭%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">Viewsonic XG2730D-4K 27 Inch Dual Mode IPS…</text><text x=\"70\" y=\"624\" class=\"sm\">গেমিং মনিটর · Star Tech · ৳৬৪,০০০ → ৳৪৩,৫০০</text><rect x=\"70\" y=\"636\" width=\"433\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"517\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳২০,৫০০ (৩২%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">ViewSonic XG272-2K-OLED 27&quot; QHD 240Hz Type-…</text><text x=\"70\" y=\"712\" class=\"sm\">গেমিং মনিটর · Star Tech · ৳৯৭,০০০ → ৳৮১,০০০</text><rect x=\"70\" y=\"724\" width=\"338\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"422\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳১৬,০০০ (১৬%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">ASUS VT229H 22 Inch (21.5 Inch Viewable) Fu…</text><text x=\"70\" y=\"880\" class=\"sm\">মনিটর · Ryans · ৳৪০,০০০ → ৳৪৬,৫০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৬,৫০০ (১৬%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">MSI MPG 491CQPX QD-OLED 49&quot; DQHD 240Hz Curv…</text><text x=\"70\" y=\"968\" class=\"sm\">গেমিং মনিটর · TechLand BD · ৳১৮৯,১৯৯ → ৳১৯৫,০০০</text><rect x=\"70\" y=\"980\" width=\"500\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"584\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৫,৮০১ (৩.১%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">Dahua DHI-LM49-EW410CA 49&quot; 120Hz DQHD ELED…</text><text x=\"70\" y=\"1056\" class=\"sm\">গেমিং মনিটর · Star Tech · ৳৯৩,৯৯৯ → ৳৯৯,০০০</text><rect x=\"70\" y=\"1068\" width=\"431\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"515\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৫,০০১ (৫.৩%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ১৭টি মনিটর</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: ViewSonic VX2766-2K-PRO-9 27&quot; 320Hz 2K QHD IPS Ga…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">মনিটর · সাপ্তাহিক রিপোর্ট · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে মনিটরের গড় দাম +০.১%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">১১৭টির দাম কমেছে, ৯১টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০.১%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১১৭</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৯১</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "মনিটরের দাম মোটামুটি স্থির। এখন কেনা আর কিছুদিন পরে কেনায় বড় পার্থক্য হওয়ার সম্ভাবনা কম।",
+  "একই মডেল দোকানভেদে আলাদা দামে বিক্রি হয়, তাই কেনার আগে প্রোডাক্ট পাতায় দাম মিলিয়ে নিন।"
+ ],
+ "label": "মনিটর · সাপ্তাহিক",
+ "created": "2026-11-20"
+}

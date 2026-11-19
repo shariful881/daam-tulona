@@ -1,0 +1,345 @@
+{
+ "id": "ssd-2026-11-20",
+ "kind": "week",
+ "cat": "ssd",
+ "cat_name": "এসএসডি",
+ "path": "bazar/ssd/2026-11-20",
+ "title": "এই সপ্তাহে এসএসডির দাম: ৫টির কমেছে, ১৭টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে এসএসডির দাম: ৫টির কমেছে, ১৭টির বেড়েছে (১৪–২০ নভেম্বর ২০২৬)",
+ "date": "2026-11-20",
+ "start": "2026-11-13",
+ "span": "১৪–২০ নভেম্বর ২০২৬",
+ "desc": "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ২২টি এসএসডির দাম বদলেছে: ৫টির কমেছে, ১৭টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৭৩১টি এসএসডির গড় দাম প্রায় একই আছে।",
+ "key": [
+  "১৪–২০ নভেম্বর ২০২৬ সপ্তাহে ২২টি এসএসডির দাম বদলেছে: ৫টির কমেছে, ১৭টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৭৩১টি এসএসডির গড় দাম প্রায় একই আছে।",
+  "সবচেয়ে বেশি কমেছে Transcend ESD380C 4TB USB 3.2 Gen 2 Type-C Portable SSD: ৳১৩,০০০ (১১%)।",
+  "সবচেয়ে বেশি বেড়েছে Transcend ESD410C 4TB Type-C Portable SSD: ৳২২,৫০০ (১৭%)।",
+  "সপ্তাহে ৭টি নতুন এসএসডি দোকানে এসেছে।"
+ ],
+ "idx": 0.06336491243235597,
+ "n_cmp": 731,
+ "tabs": [
+  {
+   "key": "ssd",
+   "name": "এসএসডি",
+   "dn": [
+    {
+     "id": "transcend-esd380c-4tb-usb-3-2-gen-2-type-c-portable-ssd",
+     "name": "Transcend ESD380C 4TB USB 3.2 Gen 2 Type-C Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 115000,
+     "new": 102000,
+     "diff": -13000,
+     "pct": -11.304347826086957
+    },
+    {
+     "id": "ocpc-mfl-300-1tb-m-2-nvme-ssd",
+     "name": "OCPC MFL-300 1TB M.2 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "creatus",
+     "old": 18400,
+     "new": 17300,
+     "diff": -1100,
+     "pct": -5.978260869565218
+    },
+    {
+     "id": "transcend-115s-1tb-m-2-pcie-gen3-x4-nvme-ssd-m-key",
+     "name": "Transcend 115S 1TB M.2 PCIe Gen3 x4 NVMe SSD (M-Key)",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 25700,
+     "new": 24999,
+     "diff": -701,
+     "pct": -2.727626459143969
+    },
+    {
+     "id": "hiksemi-wave-p-series-512gb-m-2-2280-nvme-pcie-gen3x4-ssd",
+     "name": "Hiksemi Wave P Series 512GB M.2 2280 NVMe PCIe Gen3x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 10999,
+     "new": 10600,
+     "diff": -399,
+     "pct": -3.627602509319029
+    },
+    {
+     "id": "hiksemi-wave-s-256gb-2-5-inch-sata-iii-ssd",
+     "name": "Hiksemi WAVE(S) 256GB 2.5 Inch SATA III SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 6000,
+     "new": 5850,
+     "diff": -150,
+     "pct": -2.5
+    }
+   ],
+   "up": [
+    {
+     "id": "transcend-esd410c-4tb-type-c-portable-ssd",
+     "name": "Transcend ESD410C 4TB Type-C Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 133000,
+     "new": 155500,
+     "diff": 22500,
+     "pct": 16.917293233082706
+    },
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "techland",
+     "old": 95500,
+     "new": 110000,
+     "diff": 14500,
+     "pct": 15.18324607329843
+    },
+    {
+     "id": "sandisk-extreme-v2-2tb-usb-c-usb-3-2-gen-2-portable-ssd",
+     "name": "SanDisk Extreme V2 2TB USB-C USB 3.2 Gen 2 Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 39400,
+     "new": 43000,
+     "diff": 3600,
+     "pct": 9.137055837563452
+    },
+    {
+     "id": "sandisk-e61-2tb-extreme-portable-ssd",
+     "name": "SanDisk E61 2TB Extreme Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 39500,
+     "new": 43000,
+     "diff": 3500,
+     "pct": 8.860759493670885
+    },
+    {
+     "id": "team-mp33-pro-512gb-m-2-pcie-gen3-nvme-ssd",
+     "name": "Team MP33 PRO 512GB M.2 PCIe Gen3 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "creatus",
+     "old": 9511,
+     "new": 12000,
+     "diff": 2489,
+     "pct": 26.169698244138367
+    },
+    {
+     "id": "oscoo-on900-512gb-gen3-m-2-nvme-pcie-ssd",
+     "name": "OSCOO ON900 512GB Gen3 M.2 NVME PCIE SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "creatus",
+     "old": 9011,
+     "new": 11400,
+     "diff": 2389,
+     "pct": 26.51204083897459
+    },
+    {
+     "id": "colorful-cn700-plus-1tb-pcie-gen-4-nvme-m-2-ssd",
+     "name": "Colorful CN700 PLUS 1TB PCIe Gen 4 NVMe M.2 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "startech",
+     "old": 19699,
+     "new": 21500,
+     "diff": 1801,
+     "pct": 9.142596070866542
+    },
+    {
+     "id": "netac-nv5000-1tb-m-2-nvme-pcie-gen-4-x4-ssd",
+     "name": "Netac NV5000 1TB M.2 NVMe PCIe Gen 4 x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "startech",
+     "old": 19100,
+     "new": 20600,
+     "diff": 1500,
+     "pct": 7.853403141361256
+    },
+    {
+     "id": "neo-forza-nfp445pci50-44h1200-500gb-m-2-2280-nvme-ssd",
+     "name": "NEO FORZA NFP445PCI50-44H1200 500GB M.2 2280 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "techland",
+     "old": 11400,
+     "new": 12500,
+     "diff": 1100,
+     "pct": 9.649122807017543
+    },
+    {
+     "id": "apacer-as2280p4-1tb-m-2-pcie-gen-3-x4-ssd",
+     "name": "Apacer AS2280P4 1TB M.2 PCIe Gen 3 x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "techland",
+     "old": 16500,
+     "new": 17500,
+     "diff": 1000,
+     "pct": 6.0606060606060606
+    },
+    {
+     "id": "seagate-ultra-compact-2tb-usb-3-2-gen-2-type-c-dark-gray-portable-external-ssd-s",
+     "name": "Seagate Ultra Compact 2TB USB 3.2 Gen 2 Type-C Dark Gray Portable External SSD #STMX2000400",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "ryans",
+     "old": 30500,
+     "new": 31500,
+     "diff": 1000,
+     "pct": 3.278688524590164
+    },
+    {
+     "id": "kingston-nv3-1tb-m-2-pcie-gen-4-0-nvme-ssd",
+     "name": "Kingston NV3 1TB M.2 PCIe Gen 4.0 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pchouse",
+     "old": 21900,
+     "new": 22890,
+     "diff": 990,
+     "pct": 4.52054794520548
+    }
+   ],
+   "n_dn": 5,
+   "n_up": 17,
+   "new": [
+    {
+     "id": "adata-urban-tapsafe-2tb-usb-c-external-ssd",
+     "name": "ADATA URBAN TAPSAFE 2TB USB-C External SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "price": 60500,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "twinmos-corex-express-2tb-m-2-2280-pcie-gen5x4-nvme-ssd-nvcex2tbg52280",
+     "name": "Twinmos CoreX Express 2TB M.2 2280 PCIe Gen5x4 NVMe SSD #NVCEX2TBG52280",
+     "cat_name": "এসএসডি",
+     "price": 55999,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "twinmos-xtreme-2tb-m-2-2280-pcie-gen4x4-nvme-ssd-nv2tbg42280",
+     "name": "Twinmos Xtreme 2TB M.2 2280 PCIe Gen4x4 NVMe SSD #NV2TBG42280",
+     "cat_name": "এসএসডি",
+     "price": 45900,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "adata-urban-tapsafe-1tb-usb-c-external-ssd",
+     "name": "ADATA URBAN TAPSAFE 1TB USB-C External SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "price": 33300,
+     "store": "techland",
+     "n": 1
+    },
+    {
+     "id": "adata-xpg-gammix-s70-blade-512gb-pcie-gen4x4-nvme-ssd-with-dram-cache",
+     "name": "ADATA XPG GAMMIX S70 BLADE 512GB PCIe Gen4x4 NVME SSD With DRAM Cache",
+     "cat_name": "এসএসডি",
+     "price": 17000,
+     "store": "ultratech",
+     "n": 1
+    },
+    {
+     "id": "kingspec-xf-1tb-m-2-pcie-gen-4-0-nvme-ssd",
+     "name": "KingSpec XF 1TB M.2 PCIe Gen 4.0 NVMe SSD",
+     "cat_name": "এসএসডি",
+     "price": 17000,
+     "store": "ultratech",
+     "n": 1
+    },
+    {
+     "id": "apacer-ap512gpp3480-r-m-2-nvme-pcie-ssd",
+     "name": "Apacer AP512GPP3480-R M.2 NVMe PCIe SSD",
+     "cat_name": "এসএসডি",
+     "price": 9800,
+     "store": "applegadgets",
+     "n": 1
+    }
+   ],
+   "n_new": 7,
+   "gaps": [
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 96000,
+     "los": "pqs",
+     "hi": 112000,
+     "his": "ryans",
+     "diff": 16000,
+     "n": 3
+    },
+    {
+     "id": "transcend-esd360c-2tb-usb-3-2-gen-2-type-c-portable-ssd",
+     "name": "Transcend ESD360C 2TB USB 3.2 Gen 2 Type-C Portable SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 37000,
+     "los": "bme",
+     "hi": 45500,
+     "his": "startech",
+     "diff": 8500,
+     "n": 3
+    },
+    {
+     "id": "corsair-mp600-pro-lpx-2tb-m-2-2280-nvme-internal-ssd-f2000gbmp600plp",
+     "name": "CORSAIR MP600 PRO LPX 2TB M.2 2280 NVMe Internal SSD #F2000GBMP600PLP",
+     "cat_name": "এসএসডি",
+     "lo": 59500,
+     "los": "ryans",
+     "hi": 67000,
+     "his": "pqs",
+     "diff": 7500,
+     "n": 2
+    },
+    {
+     "id": "transcend-esd380c-4tb-usb-3-2-gen-2-type-c-portable-ssd",
+     "name": "Transcend ESD380C 4TB USB 3.2 Gen 2 Type-C Portable SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 102000,
+     "los": "pchouse",
+     "hi": 109500,
+     "his": "ryans",
+     "diff": 7500,
+     "n": 3
+    },
+    {
+     "id": "transcend-esd270c-2tb-usb-3-1-gen-2-type-c-external-ssd",
+     "name": "Transcend ESD270C 2TB USB 3.1 Gen 2 Type-C External SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 33800,
+     "los": "bme",
+     "hi": 40999,
+     "his": "ryans",
+     "diff": 7199,
+     "n": 4
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে এসএসডি · ১৪–২০ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে এসএসডি · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৭৩১টি এসএসডির হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\">+০.১%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"5\">৫</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"17\">১৭</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">Transcend ESD380C 4TB USB 3.2 Gen 2 Type-C…</text><text x=\"70\" y=\"536\" class=\"sm\">পোর্টেবল এসএসডি · PC House · ৳১১৫,০০০ → ৳১০২,০০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳১৩,০০০ (১১%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">OCPC MFL-300 1TB M.2 NVMe SSD</text><text x=\"70\" y=\"624\" class=\"sm\">এসএসডি · Creatus · ৳১৮,৪০০ → ৳১৭,৩০০</text><rect x=\"70\" y=\"636\" width=\"47\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"131\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳১,১০০ (৬%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">Transcend 115S 1TB M.2 PCIe Gen3 x4 NVMe SS…</text><text x=\"70\" y=\"712\" class=\"sm\">এসএসডি · Ryans · ৳২৫,৭০০ → ৳২৪,৯৯৯</text><rect x=\"70\" y=\"724\" width=\"36\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"120\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳৭০১ (২.৭%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">Transcend ESD410C 4TB Type-C Portable SSD</text><text x=\"70\" y=\"880\" class=\"sm\">পোর্টেবল এসএসডি · PC House · ৳১৩৩,০০০ → ৳১৫৫,৫০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳২২,৫০০ (১৭%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">Corsair EX100U 4TB USB Type-C Storage Porta…</text><text x=\"70\" y=\"968\" class=\"sm\">পোর্টেবল এসএসডি · TechLand BD · ৳৯৫,৫০০ → ৳১১০,০০০</text><rect x=\"70\" y=\"980\" width=\"361\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"445\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳১৪,৫০০ (১৫%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">SanDisk Extreme V2 2TB USB-C USB 3.2 Gen 2…</text><text x=\"70\" y=\"1056\" class=\"sm\">পোর্টেবল এসএসডি · PC House · ৳৩৯,৪০০ → ৳৪৩,০০০</text><rect x=\"70\" y=\"1068\" width=\"90\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"174\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৩,৬০০ (৯.১%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ৭টি এসএসডি</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: ADATA URBAN TAPSAFE 2TB USB-C External SSD</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">এসএসডি · সাপ্তাহিক রিপোর্ট · ১৪–২০ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে এসএসডির গড় দাম +০.১%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">৫টির দাম কমেছে, ১৭টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০.১%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৫</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১৭</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "এসএসডির দাম বাড়ার দিকে। জরুরি দরকার হলে দেরি না করে কম দামের দোকান থেকে কিনে নেওয়া ভালো।",
+  "জরুরি না হলে প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রেখে অপেক্ষা করতে পারেন।"
+ ],
+ "label": "এসএসডি · সাপ্তাহিক",
+ "created": "2026-11-20"
+}
