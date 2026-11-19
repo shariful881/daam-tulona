@@ -1,0 +1,104 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Brand": "Intel",
+   "Processor Model": "Core i5-13420H",
+   "Generation": "13th Gen",
+   "Processor Frequency": "3.4GHz to 4.6GHz",
+   "Processor Core": "8 (4 Performance cores, 4 Efficient cores)",
+   "Processor Thread": "12",
+   "CPU Cache": "12MB"
+  },
+  "Memory": {
+   "Bus Speed": "4800 MHz",
+   "Max RAM Capacity": "Up to 64GB",
+   "Ram": "16GB",
+   "Storage Type": "NVMe PCIe Gen3x4 SSD",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "2",
+   "Removable": "Yes"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB",
+   "Extra M.2 Slot": "N/A"
+  },
+  "Graphics": {
+   "Graphics Model": "RTX 3050",
+   "Graphics Memory": "4GB",
+   "Graphics Type": "GDDR6"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Keyboard",
+   "Keyboard Features": "Single Backlit Keyboard (Blue)",
+   "TouchPad": "Yes"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD type (30fps@720p)",
+   "Speaker": "2x 2W Speaker",
+   "Microphone": "Yes"
+  },
+  "Ports & Slots": {
+   "Optical Drive": "N/A",
+   "Display Port": "N/A",
+   "HDMI Port": "1x HDMI 2.1 (4K @ 60Hz)",
+   "USB 3 Port": "2 x USB 3.2 Gen 1 Type A",
+   "USB Type-C / Thunderbolt Port": "1 x USB 3.2 Gen 1 Type C",
+   "Headphone & Microphone Port": "1x Mic-in/Headphone-out Combo Jack"
+  },
+  "Network & Connectivity": {
+   "Lan": "1x RJ45",
+   "WiFi": "802.11 ax Wi-Fi 6",
+   "Bluetooth": "Bluetooth v5.2"
+  },
+  "Security": {
+   "Security Locker Slot": "N/A",
+   "Fingerprint Sensor": "N/A",
+   "Camera Privacy Shutter": "N/A",
+   "Security Chip": "N/A"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home"
+  },
+  "Chipset": {
+   "Chipset Model": "Integrated SoC"
+  },
+  "Display": {
+   "Display Size": "15.6 inch",
+   "Display Type": "LED",
+   "Display Resolution": "FHD (1920x1080)",
+   "Display Features": "IPS-Level, 45% NTSC",
+   "Touch Screen": "No",
+   "Refresh Rate": "144Hz"
+  },
+  "Power": {
+   "Battery Type": "3 cell Integrated",
+   "Battery Capacity": "53.5 Whr",
+   "Adapter Type": "120W AC Adapter"
+  },
+  "Physical Specification": {
+   "Weight": "1.98 kg",
+   "Color": "Black",
+   "Dimensions": "359.36 x 250.34 x 21.95~22.9 mm"
+  },
+  "Warranty Information": {
+   "Warranty": "02 Year International Warranty"
+  },
+  "Image": {
+   "Model": "15 A13UC"
+  },
+  "Product List": {
+   "BEST MSI Gaming Laptop PRICE LIST IN BD": "Price"
+  }
+ },
+ "key_features": [
+  "Processor: Intel Core i5-13420H (12M Cache, 3.4 GHz up to 4.6 GHz)",
+  "RAM: 16GB DDR5 4800MHz, SSD: 512GB",
+  "Graphics: RTX 3050, GDDR6 4GB",
+  "Features: Backlit Keyboard, Type-C"
+ ],
+ "model": "15 A13UC",
+ "warranty": "02 Year International Warranty",
+ "fetched": "2026-11-19T18:10+06:00",
+ "source": "https://www.creatus.com.bd/msi-cyborg-15-a13uc-core-i5-13th-gen-gaming-laptop",
+ "store": "creatus"
+}

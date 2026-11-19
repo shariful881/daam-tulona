@@ -1,0 +1,39 @@
+{
+ "specs": {
+  "Key Features": {
+   "Compatibility": "Intel 600 Series",
+   "Memory Size": "32GB (2 X 16GB)",
+   "Memory Type": "DDR5",
+   "Performance Profile": "XMP 3.0",
+   "Tested Speed": "5200",
+   "Tested Latency": "40-40-40-77",
+   "Memory Series": "Dominator Platinum DDR5",
+   "SPD Latency": "40-40-40-77",
+   "Speed Rating": "PC5-41600 (DDR5-5200)"
+  },
+  "Output": {
+   "SPD Speed": "4800MHz",
+   "SPD Voltage": "1.1V"
+  },
+  "Physical Specifications": {
+   "Memory Color": "BLACK",
+   "Heat Spreader": "Anodized Aluminum",
+   "Package Memory Pin": "288",
+   "Tested Voltage": "1.25",
+   "Package Memory Format": "DIMM"
+  },
+  "Warranty Information": {
+   "Warranty": "Life-Time"
+  }
+ },
+ "key_features": [
+  "Capacity: 32GB (2x16GB)",
+  "Frequency: DDR5 5200MHz",
+  "Form Factor: 288-Pin UDIMM",
+  "Voltage & Cas Latency: 1.25V/40-40-40-77"
+ ],
+ "warranty": "Life-Time",
+ "fetched": "2026-11-19T18:14+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-dominator-platinum-32gb-5200mhz-desktop-ram",
+ "store": "pchouse"
+}
