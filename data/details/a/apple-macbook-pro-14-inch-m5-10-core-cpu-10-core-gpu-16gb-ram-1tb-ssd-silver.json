@@ -1,0 +1,72 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Apple M5",
+   "Processor Core": "10-Core CPU",
+   "NPU": "16-core Neural Engine"
+  },
+  "Memory": {
+   "Ram": "16 GB (Unified Memory)",
+   "Removable": "non-removable battery, integrated unified memory and storage"
+  },
+  "Storage": {
+   "Storage Capacity": "1 TB"
+  },
+  "Graphics": {
+   "Graphics Model": "10-Core GPU"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Magic Keyboard",
+   "Keyboard Features": "Touch ID, 12x Fn Keys, 4x inverted-T Arrow Keys, Ambient Light Sensor",
+   "TouchPad": "Force Touch Multi-Touch Trackpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "12MP Center Stage camera with Desk View (1080p HD video, Advanced ISP with Computational Video)",
+   "Speaker": "6x High-fidelity Speaker with Force Cancelling Woofers",
+   "Microphone": "3x Studio-quality Mic with High Signal-to-Noise Ratio & Directional Beamforming",
+   "Audio Features": "Spatial Audio for Dolby Atmos, Dynamic Head Tracking, Multichannel Audio Output Through HDMI"
+  },
+  "Ports & Slots": {
+   "Card Reader": "1x SDXC Card Slot",
+   "HDMI Port": "1x HDMI",
+   "USB Type-C / Thunderbolt Port": "3x Thunderbolt 4 / USB-C (Up to 40Gb/s, Charging, DisplayPort)",
+   "Headphone & Microphone Port": "1x 3.5 mm Headphone Jack with High Impedance Support"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6E (802.11ax)",
+   "Bluetooth": "v5.3"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Touch ID"
+  },
+  "Software": {
+   "Operating System": "macOS Tahoe"
+  },
+  "Display": {
+   "Display Size": "14.2-inch",
+   "Display Type": "Liquid Retina XDR",
+   "Display Resolution": "3024 x 1964 at 254 ppi",
+   "Display Features": "True Tone, Wide Color, up to 1000 nits SDR / 1600 nits HDR brightness",
+   "Touch Screen": "No",
+   "Refresh Rate": "120 Hz"
+  },
+  "External Features": {
+   "Color(s)": "Space Black, Silver",
+   "Dimensions": "12.31 x 8.71 x 0.61 inch (W x D x H)",
+   "Weight": "1.55 kg"
+  },
+  "Power": {
+   "Battery Type": "Lithium-polymer",
+   "Battery Capacity": "72.4 WHr",
+   "Adapter Type": "70W USB-C Power Adapter (Fast-charge capable with 96W or higher USB-C Power Adapter)"
+  },
+  "Image": {
+   "Model": "MacBook Pro M5"
+  }
+ },
+ "key_features": [],
+ "model": "MacBook Pro M5",
+ "fetched": "2026-11-20T18:12+06:00",
+ "source": "https://www.creatus.com.bd/macbook-pro-m5-14-inch-16gb-1tb",
+ "store": "creatus"
+}

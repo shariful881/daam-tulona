@@ -1,0 +1,40 @@
+{
+ "specs": {
+  "Supported Sockets": {
+   "Intel": "LGA 1851, 1700, 1200, 1150, 1121, 1155, 1156, 1366, 1356",
+   "AMD": "AM5, AM4, AM3, AM2, AM3+, AM2+, FM2, FM1"
+  },
+  "Basic Information": {
+   "TDP": "265W"
+  },
+  "Key Features": {
+   "Type": "Dual Tower Air CPU Cooler",
+   "Noise": "≤25 dB(A)",
+   "Air Pressure": "1.55mm/H2O",
+   "Bearing Type": "Hydraulic Bearing",
+   "Connectors": "CPU FAN + 3-pin (+5V-D-G)",
+   "LED Type": "ARGB",
+   "Material": "Aluminium Heatsink, Copper Heatpipes",
+   "Speed": "600–1650RPM ±10%",
+   "Current": "0.14A",
+   "Power Consumption": "1.6W",
+   "Voltage": "Rated: DC12V (Operating: DC10-13V)"
+  },
+  "Fan Details": {
+   "Air Flow": "130 × 120 × 25mm (Outside), 120 × 120 × 25mm (Inside)",
+   "Fan Dimensions": "68.2CFM"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "UP2K6"
+  }
+ },
+ "key_features": [],
+ "model": "UP2K6",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-20T18:12+06:00",
+ "source": "https://www.creatus.com.bd/uphere-up2k6-dual-tower-air-cpu-cooler",
+ "store": "creatus"
+}

@@ -1,0 +1,33 @@
+{
+ "specs": {
+  "Supported Sockets": {
+   "Intel": "LGA 1851, 1700, 1200, 1150, 1151, 1155, 1156, 1366, 1356",
+   "AMD": "AM5, AM4, AM3, AM2, AM3+, AM2+, FM2, FM1"
+  },
+  "Key Features": {
+   "Type": "CPU Air Cooler",
+   "Noise": "≤25 dB(A)",
+   "Air Pressure": "1.55mm/H2O",
+   "Bearing Type": "Hydraulic Bearing",
+   "Connectors": "CPU FAN + 3-pin (+5V-D-G)",
+   "LED Type": "ARGB (Addressable RGB)",
+   "Material": "Aluminum Heatsink + 6x Copper Heatpipes",
+   "Speed": "600–1650 RPM ±10%",
+   "Current": "0.16A",
+   "Power Consumption": "1.9W",
+   "Voltage": "Rated: DC 12V (Operating: DC 10–13V)"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Year Warranty"
+  },
+  "Image": {
+   "Model": "H85KC6"
+  }
+ },
+ "key_features": [],
+ "model": "H85KC6",
+ "warranty": "2 Year Warranty",
+ "fetched": "2026-11-20T18:12+06:00",
+ "source": "https://www.creatus.com.bd/uphere-h85kc6-argb-cpu-air-cooler",
+ "store": "creatus"
+}

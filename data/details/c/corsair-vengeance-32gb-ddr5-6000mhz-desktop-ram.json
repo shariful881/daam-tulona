@@ -1,0 +1,41 @@
+{
+ "specs": {
+  "Key Features": {
+   "Type": "DDR5",
+   "Capacity": "32GB",
+   "Frequency": "6000MHz",
+   "Operating voltage": "Tested Voltage: 1.35V",
+   "Latency": "Tested Latency: 30-36-36-76\nSPD Latency: 40-40-40-77",
+   "Others": "Memory Format: UDIMM\nMemory Compatibility: AMD 600 Series, AMD 800 Series, Intel 600 Series, Intel 700 Series, Intel 800 Series\nColor: GREY"
+  },
+  "Physical dimension": {
+   "Heat Sink Color": "Aluminum",
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Product Lifetime Warranty"
+  }
+ },
+ "key_features": [
+  "RAM Size: 32GB, Speed: 6000MHz",
+  "Latency: 30-36-36-76",
+  "Aluminum Heat Spreader",
+  "Performance Profile: EXPO & XMP"
+ ],
+ "status": "Up Coming",
+ "code": "44947",
+ "brand": "Corsair",
+ "mpn": "CMK64GX5M2B6000Z30",
+ "model": "VENGEANCE",
+ "warranty": "Product Lifetime Warranty",
+ "name": "Corsair VENGEANCE 32GB DDR5 6000MHz Desktop RAM",
+ "breadcrumb": [
+  "Component",
+  "RAM (Desktop)",
+  "Corsair",
+  "Corsair VENGEANCE 32GB DDR5 6000MHz Desktop RAM"
+ ],
+ "fetched": "2026-11-20T18:12+06:00",
+ "source": "https://www.startech.com.bd/corsair-vengeance-32gb-ddr5-6000mhz-ram",
+ "store": "startech"
+}
