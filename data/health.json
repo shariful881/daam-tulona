@@ -1,34 +1,105 @@
 {
- "date": "2026-11-20",
- "scraped_at": "2026-11-20T02:00+06:00",
+ "date": "2026-11-21",
+ "scraped_at": "2026-11-21T02:00+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32176,
+   "items": 32205,
    "errors": [],
-   "seconds": 1886,
+   "seconds": 1835,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1491,
+   "seconds": 1430,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3091,
    "errors": [],
-   "seconds": 1236,
+   "seconds": 1138,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4034,
-   "errors": [],
-   "seconds": 1399,
-   "failed_cats": []
+   "errors": [
+    "tablet: স্টোর ব্লক করেছে (503 https://www.creatus.com.bd/tablet-pc?page=5); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
+   ],
+   "seconds": 23,
+   "failed_cats": [
+    "tablet",
+    "gaming-laptop",
+    "laptop",
+    "laptop-bag",
+    "gaming-pc",
+    "all-in-one-pc",
+    "desktop-pc",
+    "processor",
+    "motherboard",
+    "graphics-card",
+    "desktop-ram",
+    "laptop-ram",
+    "portable-ssd",
+    "ssd",
+    "portable-hdd",
+    "hdd",
+    "power-supply",
+    "casing",
+    "cpu-cooler",
+    "casing-fan",
+    "laptop-accessories",
+    "monitor-arm",
+    "gaming-monitor",
+    "monitor-all",
+    "keyboard",
+    "mouse",
+    "mouse-pad",
+    "headphone",
+    "webcam",
+    "microphone",
+    "speaker",
+    "bluetooth-speaker",
+    "soundbar",
+    "pen-drive",
+    "memory-card",
+    "card-reader",
+    "enclosure",
+    "capture-card",
+    "power-strip",
+    "thermal-paste",
+    "smart-watch",
+    "earbuds",
+    "earphone",
+    "power-bank",
+    "drone",
+    "gimbal",
+    "gamepad",
+    "gaming-chair",
+    "router",
+    "network-switch",
+    "lan-card",
+    "ip-camera",
+    "cc-camera",
+    "dvr-nvr",
+    "printer",
+    "scanner",
+    "photocopier",
+    "projector",
+    "telephone",
+    "calculator",
+    "ups",
+    "voltage-stabilizer",
+    "server",
+    "os-office",
+    "antivirus",
+    "tv",
+    "ac"
+   ],
+   "partial_fail": "আজ 80টি, আগের রানে 4034টি — আগের দাম রাখা হয়েছে"
   },
   "smartbd": {
    "enabled": true,
@@ -76,7 +147,7 @@
     "server: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/servers/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
     "os-office: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/software/microsoft/operating-system/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
    ],
-   "seconds": 1923,
+   "seconds": 1918,
    "failed_cats": [
     "tablet",
     "laptop",
@@ -125,28 +196,28 @@
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 498,
+   "seconds": 497,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 18,
+   "seconds": 20,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 683,
+   "seconds": 690,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 27907,
+   "items": 27512,
    "errors": [],
-   "seconds": 9488,
+   "seconds": 9779,
    "failed_cats": []
   },
   "techland": {
@@ -291,14 +362,14 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 500,
+   "seconds": 625,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 135,
+   "seconds": 139,
    "failed_cats": []
   },
   "computervision": {
@@ -307,43 +378,43 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3026,
+   "seconds": 3055,
    "failed_cats": [],
-   "matched": 6941,
+   "matched": 6943,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 3878,
+   "items": 3959,
    "errors": [],
-   "seconds": 1632,
+   "seconds": 1890,
    "failed_cats": [],
-   "matched": 2424,
-   "scraped": 3801
+   "matched": 2689,
+   "scraped": 3907
   },
   "pqs": {
    "enabled": true,
-   "items": 11490,
+   "items": 11497,
    "errors": [],
-   "seconds": 1494,
+   "seconds": 1430,
    "failed_cats": [],
-   "matched": 7320,
-   "scraped": 11394
+   "matched": 7336,
+   "scraped": 11404
   },
   "bme": {
    "enabled": true,
    "items": 9225,
    "errors": [],
-   "seconds": 2308,
+   "seconds": 2298,
    "failed_cats": [],
-   "matched": 3978,
+   "matched": 3977,
    "scraped": 9225
   },
   "selltech": {
    "enabled": true,
    "items": 1178,
    "errors": [],
-   "seconds": 394,
+   "seconds": 399,
    "failed_cats": [],
    "matched": 777,
    "scraped": 1176

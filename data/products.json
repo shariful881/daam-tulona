@@ -21936,7 +21936,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: RGB",
@@ -22033,10 +22032,13 @@
   "category": "casing",
   "created": "2026-11-10",
   "features": [
-   "Motherboard Support: Micro ATX/ITX",
-   "Tempered Glass Panel: Left Glass",
-   "Hardware Capability: HDD x2 + SSD x1 or HDD x1 + SSD x2",
-   "I/O Ports: Type C x1 / USB 3.0 x1 / USB 2.0 x1 / HD Audio"
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): No",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|acer atx casing micro mid tower v920b",
   "name": "Acer V920B Mid-Tower Micro ATX Gaming Casing",
@@ -22228,10 +22230,13 @@
   "category": "casing",
   "created": "2026-11-10",
   "features": [
-   "Motherboard Support: Micro-ATX / ITX/ATX",
-   "Tempered Glass Panel: Left Glass",
-   "Hardware Capability: HDD x2 + SSD x2 or HDD x1 + SSD x3",
-   "I/O Ports: Type C x1 / USB 3.0 x1 / USB 2.0 x1 / HD Audio"
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): No",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: Yes",
+   "Color: White"
   ],
   "key": "casing|acer atx casing mid tower v950w",
   "name": "Acer V950W Mid-Tower ATX Gaming Casing",
@@ -40768,6 +40773,36 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P3682506014/non-brand-laptop-desk-laptop-stand-cover.webp"
  },
+ "amalink-al-15222-4-in-1-usb-hub": {
+  "brand": "Amalink",
+  "category": "hub-dock",
+  "created": "2026-11-21",
+  "features": [
+   "Input: 1 x USB 3.0",
+   "Output: 4 x USB 3.0",
+   "Compatible with Windows/macOS/Android",
+   "Cable length: 0.12M"
+  ],
+  "key": "hub-dock|1 15222 4 al amalink hub usb",
+  "name": "Amalink AL-15222 4-in-1 USB Hub",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hub/amalink/al-15222/al-15222-01-228x228.webp"
+ },
+ "amalink-al-15225d-usb-a-to-ethernet-adapter": {
+  "brand": "Amalink",
+  "category": "lan-card",
+  "created": "2026-11-21",
+  "features": [
+   "Input: 1x USB-A",
+   "Output: 1 x RJ45",
+   "Downstream output: 100M/10M",
+   "Cable length: 0.12m"
+  ],
+  "key": "lan-card|15225d a adapter al amalink ethernet to usb",
+  "name": "Amalink AL-15225D USB-A to Ethernet Adapter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/lan-card/amalink/al-15225d/al-15225d-01-228x228.webp"
+ },
  "amalink-al-5202-usb-to-hdmi-converter": {
   "brand": "Amalink",
   "category": "hub-dock",
@@ -40933,6 +40968,51 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/converter/amalink/al-ca201/al-ca201-01-228x228.webp"
  },
+ "amalink-al-cc1301-65w-charging-1m-type-c-to-lightning-cable": {
+  "brand": "Amalink",
+  "category": "cable",
+  "created": "2026-11-21",
+  "features": [
+   "Interface: USB Type-C to Lightning",
+   "All Oxygen-Free Pure Copper",
+   "Support Up to 65W PD Charging",
+   "Retractable Magnetic Cable"
+  ],
+  "key": "cable|1m 65w al amalink c cable cc1301 charging lightning to type",
+  "name": "Amalink AL-CC1301 65W Charging 1m Type-C to Lightning Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/amalink/al-cc1301/al-cc1301-01-228x228.webp"
+ },
+ "amalink-al-cc1302-65w-charging-1m-type-c-cable": {
+  "brand": "Amalink",
+  "category": "cable",
+  "created": "2026-11-21",
+  "features": [
+   "Interface: USB Type-C to Type-C",
+   "All Oxygen-Free Pure Copper",
+   "Support Up to 65W PD Charging",
+   "Compact Magnetic Cable"
+  ],
+  "key": "cable|1m 65w al amalink c cable cc1302 charging type",
+  "name": "Amalink AL-CC1302 65W Charging 1m Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/amalink/al-cc1302/al-cc1302-01-228x228.webp"
+ },
+ "amalink-al-cc1303-100w-charging-1m-type-c-cable": {
+  "brand": "Amalink",
+  "category": "cable",
+  "created": "2026-11-21",
+  "features": [
+   "Interface: USB Type-C to Type-C",
+   "All Oxygen-Free Pure Copper",
+   "Support Up to 100W PD Charging",
+   "Compact Magnetic Cable"
+  ],
+  "key": "cable|100w 1m al amalink c cable cc1303 charging type",
+  "name": "Amalink AL-CC1303 100W Charging 1m Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/amalink/al-cc1303/al-cc1303-01-228x228.webp"
+ },
  "amalink-al-cr531a-2-in-2-usb-3-0-a-c-to-sd-tf-card-reader": {
   "brand": "Amalink",
   "category": "card-reader",
@@ -41067,6 +41147,21 @@
   "name": "Amalink AL-LT101 Lightning to USB Converter",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/converter/amalink/al-lt101/al-lt101-01-228x228.webp"
+ },
+ "amalink-al-lt1106-lightning-to-type-c-converter": {
+  "brand": "Amalink",
+  "category": "converter",
+  "created": "2026-11-21",
+  "features": [
+   "Input Interface: Type-C",
+   "Output Interface: Lightning",
+   "Transmission Speed: 480bps",
+   "Material: Aluminum alloy"
+  ],
+  "key": "converter|al amalink c converter lightning lt1106 to type",
+  "name": "Amalink AL-LT1106 Lightning to Type-C Converter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/converter/amalink/al-lt1106/al-lt1106-01-228x228.webp"
  },
  "amalink-al-ua972c-7-in-1-usb-hub": {
   "brand": "Amalink",
@@ -41594,6 +41689,21 @@
   "name": "Amalink AL-UCA622 2-in-2 USB Hub",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/hub/amalink/al-uca622/al-uca622-01-228x228.webp"
+ },
+ "amalink-al-ue1106-type-c-and-usb-a-to-ethernet-adapter": {
+  "brand": "Amalink",
+  "category": "lan-card",
+  "created": "2026-11-21",
+  "features": [
+   "Input: 1 x Type-C, 1x USB-A",
+   "Output: 1 x RJ45",
+   "Downstream output: 1000M / 100M / 10M",
+   "Cable length: 0.5m"
+  ],
+  "key": "lan-card|a adapter al amalink c ethernet to type ue1106 usb",
+  "name": "Amalink AL-UE1106+ Type-C and USB-A to Ethernet Adapter",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/lan-card/amalink/al-ue1106-plus/al-ue1106-plus-01-228x228.webp"
  },
  "amalink-al-ue65-usb-5gbps-ethernet-adapter": {
   "brand": "Amalink",
@@ -57312,12 +57422,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Cable Length: Unmentioned",
-   "Color: Black"
+   "Upgraded Noise Cancellation with Multiple Modes",
+   "Enhanced Call Quality via 2 Microphones",
+   "Customizable EQ with Soundcore App",
+   "5-Minute Charge to 4-Hour Playtime"
   ],
   "key": "headphone|anker bluetooth ear headphones life over q30 soundcore",
   "name": "Anker Soundcore Life Q30 Bluetooth Over-Ear Headphones",
@@ -58364,12 +58472,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: No",
-   "Plug Type: No",
-   "Cable Length: 3.94 ft.",
-   "Color: Jet Black"
+   "Driver Size: 40mm Triple Composite Diaphragms",
+   "4 microphones with AI algorithm for clear calls",
+   "Connectivity: Bluetooth 5.3",
+   "Battery Life: Up to 60 Hours w/o ANC, 40 Hours with ANC"
   ],
   "key": "headphone|anc anker headphones one pro soundcore space",
   "name": "Anker Soundcore Space One Pro ANC Headphones",
@@ -78196,12 +78302,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: Not Applicable",
-   "Color: Blue"
+   "Apple-designed dynamic driver",
+   "Active Noise Cancellation",
+   "Transparency mode",
+   "Personalized Spatial Audio with dynamic head tracking"
   ],
   "key": "headphone|2 airpods anc apple blue bluetooth ear headphone max over",
   "name": "Apple AirPods Max 2 Blue Bluetooth ANC Over-Ear Headphone",
@@ -98615,6 +98719,23 @@
   },
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/product-upload/1794996964026-3-RTX3060-12GB-V1-1-2-228x228.jpg"
  },
+ "arktek-geforce-rtx-3060-12gb-v1-gddr6-graphics-card": {
+  "brand": "ARKTEK",
+  "category": "graphics-card",
+  "created": "2026-11-21",
+  "features": [
+   "Engine Clock: 1320MHz (Base Clock), 1777MHz (Boost Clock)",
+   "Memory: 12GB GDDR6; Speed: 15Gbps",
+   "CUDA Core: 3584: Memory Interface: 192-bit",
+   "Output: 1x HDMI, 3x DisplayPort"
+  ],
+  "key": "graphics-card|12gb 3060 arktek card gddr6 geforce rtx v1",
+  "name": "ARKTEK GeForce RTX 3060 12GB V1 GDDR6 Graphics Card",
+  "specs": {
+   "capacity": "12GB"
+  },
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/arktek/rtx-3060-12gb-v1/rtx-3060-12gb-v1-01-228x228.webp"
+ },
  "arktek-gtx-1660-super-6gb-gddr6-graphics-card": {
   "brand": "ARKTEK",
   "category": "graphics-card",
@@ -100198,6 +100319,15 @@
   "name": "Arzopa A1M 17.3 Inch FHD Display Mini HDMI, Type-C Portable Monitor",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/arzopa-a1m-173-inch-fhd-display-mini-hdmi-11766921418.webp"
+ },
+ "arzopa-a1m-17-3-inch-fhd-ips-portable-monitor": {
+  "brand": "Arzopa",
+  "category": "monitor-all",
+  "created": "2026-11-21",
+  "key": "monitor-all|17.3 a1m arzopa fhd ips monitor portable",
+  "name": "Arzopa A1M 17.3 Inch FHD IPS Portable Monitor",
+  "specs": {},
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/product-upload/1792326450659-0-Arzopa-A1M-17.3-Inch-FHD-IPS-Portable-Monitor-228x228.webp"
  },
  "arzopa-a1s-14-fhd-ips-portable-monitor": {
   "brand": "Arzopa",
@@ -124224,6 +124354,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/asus/rog-strix-helios-gx601-white/rog-strix-helios-gx601-white-01-228x228.webp"
  },
+ "asus-rog-strix-helios-ii-gx601s-e-atx-mid-tower-gaming-casing": {
+  "brand": "ASUS",
+  "category": "casing",
+  "created": "2026-11-21",
+  "features": [
+   "Motherboard Support: EATX (12\"x10.9\"), ATX, Micro-ATX, Mini-ITX",
+   "Pre-Install Fans: 3 x 140mm Fan (Front), 1x 140mm Fan (Rear)",
+   "I/O Ports: 2 x Type-C, 4 x USB, 1 x Audio Jack",
+   "GPU Support: Up to 450mm, CPU Cooler height : Up to 190mm"
+  ],
+  "key": "casing|asus atx casing e gx601s helios ii mid rog strix tower",
+  "name": "ASUS ROG Strix Helios II GX601S E-ATX Mid Tower Gaming Casing",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/asus/rog-strix-helios-ii-gx601s/rog-strix-helios-ii-gx601s-01-228x228.webp"
+ },
  "asus-rog-strix-helios-ii-gx601s-mid-tower-black-tempered-glass-e-atx-gaming-casi": {
   "brand": "Asus",
   "category": "casing",
@@ -134456,12 +134601,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Cable Length: 4.2 ft.",
-   "Color: Gun Metal"
+   "Compatible with PC, Mac, PlayStation 4 & Nintendo Switch",
+   "Audio: 7.1 Surround",
+   "Frequency: 20Hz - 20 kHz",
+   "Color: Red and Gun Metal"
   ],
   "key": "headphone|asus gun h3 headphone metal tuf wired",
   "name": "ASUS TUF GAMING H3 Wired Gun METAl Headphone",
@@ -168553,6 +168696,22 @@
   "name": "Baseus Tungsten Gold 3 in 1 USB to M+L+C Fast Charging Data Cable",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/baseus/tungsten/tungsten-gold-3-in-1-228x228.webp"
+ },
+ "baseus-tungsten-gold-cb000038-usb-type-c-male-to-male-3-meter-black-charging": {
+  "brand": "Baseus",
+  "category": "hub-dock",
+  "created": "2026-11-21",
+  "features": [
+   "Type: Data",
+   "Port Side-1: USB Type-C Male",
+   "Port Side-2: USB Type-C Male",
+   "Length.: 3 Meter",
+   "Color: Black"
+  ],
+  "key": "hub-dock|3 baseus black c cable cawj040201 cb000038 charging data gold male meter to tungsten type usb",
+  "name": "Baseus Tungsten Gold CB000038 USB Type-C Male to Male, 3 Meter, Black Charging & Data Cable #CAWJ040201 (240W)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/baseus-tungsten-gold-cb000038-usb-type-c-male-to-11790486759.webp"
  },
  "baseus-tws-airgo-1-ring-open-ear-tws-earbuds-cluster": {
   "brand": "Baseus",
@@ -250791,13 +250950,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming Mouse",
-   "Connection Type: Wireless",
-   "Interface: Bluetooth & USB Dongle",
-   "Style & Size: Regular Big",
-   "Lighting: No",
-   "Click Sound: Yes",
-   "Color: Black"
+   "Sensor: Corsair Marksman 26K DPI Optical Sensor",
+   "Key Life: 100 Million Clicks, 60g Ultra-Lightweight",
+   "Connectivity: Sub-1ms Slipstream Wireless, Bluetooth",
+   "Battery Life: Up to 100 hours via Bluetooth"
   ],
   "key": "mouse|air corsair lightweight m75 mouse ultra wireless",
   "name": "Corsair M75 Air Ultra-Lightweight Wireless Gaming Mouse",
@@ -265667,6 +265823,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/crown-micro-1200va-offline-ups-metal-21546068695.webp"
  },
+ "crown-micro-4kw-hybrid-solar-package": {
+  "brand": "Crown",
+  "category": "solar",
+  "created": "2026-11-21",
+  "features": [
+   "Inverter: Crown Micro X-II-4KW-M 4kW Single Phase On Grid Hybrid Solar Inverter",
+   "Battery: Crown Micro CMLB-25.6V-100 25.6V 100Ah Lithium Solar Battery",
+   "JinKo 66HL4M-BDV 620W N-Type Bifacial Module Dual Glass Solar Panel",
+   "Backup Time: Depends on load"
+  ],
+  "key": "solar|4kw crown hybrid micro package solar",
+  "name": "Crown Micro 4kW Hybrid Solar Package",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-package/4000w/4kw-hybrid-solar-package-00-01-228x228.webp"
+ },
  "crown-micro-600va-offline-ups": {
   "brand": "Crown",
   "category": "ups",
@@ -280367,6 +280538,23 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/dahua-dh-p3d-3f-pv-wi-fi-smart-dual-light-pt-ip-41791267208.webp"
  },
+ "dahua-dh-p3i-pv-3-6mm-3-0mp-outdoor-fixed-focal-pan-tilt-wi-fi-ip-camera": {
+  "brand": "Dahua",
+  "category": "wifi-camera",
+  "created": "2026-11-21",
+  "features": [
+   "Usage: Outdoor",
+   "Form-Factor: Dome",
+   "Mega Pixels (MP): 3.0",
+   "Night Vision Mode: Color",
+   "Working Distance: 30 Meter",
+   "Color: White & Black"
+  ],
+  "key": "wifi-camera|camera dahua dh fi fixed focal ip outdoor p3i pan pv tilt wi",
+  "name": "Dahua DH-P3I-PV (3.6mm) (3.0MP) Outdoor Fixed-focal Pan & Tilt Wi-Fi IP Camera",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dahua-dh-p3i-pv-36mm-30mp-outdoor-11795173620.webp"
+ },
  "dahua-dh-p3i-pv-3mp-2k-pan-and-tilt-wifi-ip-camera": {
   "brand": "Dahua",
   "category": "ip-camera",
@@ -285156,6 +285344,40 @@
   "name": "Dahua HD Camera HAC-HFW-1200S 2 MP Metal IR Mini-Bullet Camera",
   "specs": {},
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
+ },
+ "dahua-hero-h3js-2-8mm-3-0mp-indoor-fixed-focal-pan-tilt-wi-fi-ip-camera": {
+  "brand": "Dahua",
+  "category": "wifi-camera",
+  "created": "2026-11-21",
+  "features": [
+   "Usage: Indoor",
+   "Form-Factor: Dome",
+   "Mega Pixels (MP): 3.0",
+   "Night Vision Mode: Color",
+   "Working Distance: 10 Meter",
+   "Color: Black & White"
+  ],
+  "key": "wifi-camera|camera dahua fi fixed focal h3js hero indoor ip pan tilt wi",
+  "name": "Dahua Hero H3JS (2.8mm) (3.0MP) Indoor Fixed-focal Pan & Tilt Wi-Fi IP Camera",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dahua-hero-h3js-28mm-30mp-indoor-11795170847.webp"
+ },
+ "dahua-hero-h5js-2-8mm-5-0mp-indoor-fixed-focal-pan-tilt-wi-fi-ip-camera": {
+  "brand": "Dahua",
+  "category": "wifi-camera",
+  "created": "2026-11-21",
+  "features": [
+   "Usage: Indoor",
+   "Form-Factor: Dome",
+   "Mega Pixels (MP): 5.0",
+   "Night Vision Mode: Color",
+   "Working Distance: 10 Meter",
+   "Color: Black & White"
+  ],
+  "key": "wifi-camera|camera dahua fi fixed focal h5js hero indoor ip pan tilt wi",
+  "name": "Dahua Hero H5JS (2.8mm) (5.0MP) Indoor Fixed-focal Pan & Tilt Wi-Fi IP Camera",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dahua-hero-h5js-28mm-50mp-indoor-11795171846.webp"
  },
  "dahua-hr12f-1200mbps-dual-band-ac1200-wi-fi-router": {
   "brand": "Dahua",
@@ -291322,6 +291544,21 @@
   "specs": {},
   "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Dareu/dareu-eh416s-gaming-headset-250x250.jpg"
  },
+ "dareu-eh722x-ultra-wireless-gaming-headset-with-charging-dock": {
+  "brand": "DAREU",
+  "category": "headphone",
+  "created": "2026-11-21",
+  "features": [
+   "Driver Size: 50 mm",
+   "Connectivity: 2.4G Wireless",
+   "Battery Capacity: 930mAh; Up to 60hr Playback",
+   "Charging Time: Up to 3hr with Charging Dock"
+  ],
+  "key": "headphone|charging dareu dock eh722x headset ultra wireless",
+  "name": "DAREU EH722X Ultra Wireless Gaming Headset with Charging Dock",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/dareu/eh722x-ultra/eh722x-ultra-black-01-228x228.webp"
+ },
  "dareu-eh728-pro-gaming-earbuds": {
   "brand": "Dareu",
   "category": "earphone",
@@ -291354,6 +291591,21 @@
   "name": "Dareu EH745s Stereo 7.1 Surround Sound Gaming Headset",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/dareu/eh745s/eh745s-pink-0001-228x228.jpg"
+ },
+ "dareu-eh925-ultra-wireless-gaming-headset-with-charging-dock": {
+  "brand": "DAREU",
+  "category": "headphone",
+  "created": "2026-11-21",
+  "features": [
+   "Driver Size: 53 mm; Noise-Canceling Boom Mic",
+   "Connectivity: 2.4G Wireless, Bluetooth",
+   "Dynamic RGB Backlighting; 7.1 Surround Sound",
+   "Magnetic Charging Dock"
+  ],
+  "key": "headphone|charging dareu dock eh925 headset ultra wireless",
+  "name": "DAREU EH925 Ultra Wireless Gaming Headset with Charging Dock",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/dareu/eh925-ultra/eh925-ultra-magenta-01-228x228.webp"
  },
  "dareu-ek-880-tkl-glory-mechanical-keyboard": {
   "brand": "Dareu",
@@ -322637,6 +322889,27 @@
   "name": "Dell PowerEdge R770 (17 Gen) with 2x Intel Xeon 2U Rack Server",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/dell-poweredge-r770-17-gen-with-2x-intel-xeon-11756808116.webp"
+ },
+ "dell-poweredge-r770-2x-intel-xeon-6515p-128gb-ram-3x-2-4tb-hdd-2u-rack-server": {
+  "brand": "Dell",
+  "category": "server-rack",
+  "created": "2026-11-21",
+  "features": [
+   "Processor Model: Intel Xeon 6515P",
+   "Processor Clock Speed: 2.3GHz- 3.8GHz",
+   "Total Cores: 32",
+   "RAM: 128GB",
+   "Hard Disk Drive (HDD): 3 x 2.4TB",
+   "Installed HDD Type: SAS",
+   "Solid-State Drive (SSD): No",
+   "Body Color: Black"
+  ],
+  "key": "server-rack|128gb 2 2u 2x 3x 4tb 6515p dell hdd intel poweredge r770 rack server xeon",
+  "name": "Dell PowerEdge R770 2x Intel Xeon 6515P 128GB RAM 3x 2.4TB HDD 2U Rack Server",
+  "specs": {
+   "capacity": "128GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/dell-poweredge-r770-2x-intel-xeon-6515p-128gb-ram-11795173692.webp"
  },
  "dell-poweredge-r770-2x-intel-xeon-6515p-64gb-ram-6x-1-2tb-hdd-2u-rack-server": {
   "brand": "Dell",
@@ -391008,6 +391281,21 @@
   "name": "Fitbit Versa 2 Special Edition",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/fitbit/versa-2-special-edition/versa-2-special-mist-grey-04-228x228.webp"
+ },
+ "fitbit-versa-4": {
+  "brand": "Fitbit",
+  "category": "smart-watch",
+  "created": "2026-11-21",
+  "features": [
+   "Display: AMOLED Display, Corning Gorilla Glass 3",
+   "Connectivity: Bluetooth LE, WiFi, NFC",
+   "Battery life Up to 6+ Days",
+   "50m Water Resistance"
+  ],
+  "key": "smart-watch|4 fitbit versa",
+  "name": "Fitbit Versa 4",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/fitbit/versa-4/versa-4-02-228x228.webp"
  },
  "fjgear-1-5-meter-1-4-version-hdmi-cable": {
   "brand": "FJGEAR",
@@ -476156,6 +476444,24 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P3252506009/haylou-smart-watch-solar-5-cover.webp"
  },
+ "haylou-solar-5-amoled-black-bluetooth-calling-smart-watch-with-metallic-silicone": {
+  "brand": "Haylou",
+  "category": "smart-watch",
+  "created": "2026-11-21",
+  "features": [
+   "Watch Size: Unmentioned",
+   "Screen/Display Size.: 1.58 Inch",
+   "Always On Display: Yes",
+   "Waterproof: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Black",
+   "Color: Black"
+  ],
+  "key": "smart-watch|5 amoled black bluetooth calling haylou metallic silicone smart solar strap watch",
+  "name": "Haylou Solar 5 Amoled Black Bluetooth Calling Smart Watch with METAllic + Silicone Strap",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/haylou-solar-5-amoled-black-bluetooth-calling-11741251804.webp"
+ },
  "haylou-solar-5-smart-watch": {
   "brand": "Haylou",
   "category": "smart-watch",
@@ -515599,12 +515905,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: Not Applicable",
-   "Color: Silver"
+   "Driver: 40mm",
+   "Connectivity: Bluetooth 5.0, 3.5mm jack",
+   "Battery life: Up to 30 hours of playback with ANC on",
+   "Active Noise Cancellation"
   ],
   "key": "headphone|anc bluetooth ear headphone hoco over plus silver w65 wireless",
   "name": "Hoco W65 Plus ANC Silver Wireless Bluetooth Over-Ear Headphone",
@@ -518787,12 +519091,10 @@
   "category": "bluetooth-headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5mm",
-   "Color: Black"
+   "Speaker size: 40 mm, ANC + ENC",
+   "Triple-MCNR Game Mode, 50ms audio delay",
+   "Battery capacity: 800 mAh, 80 hours 50 hours in ANC mode",
+   "Hi-Res Audio, AANC"
   ],
   "key": "bluetooth-headphone|anc choice headphone honor pro wireless",
   "name": "Honor Choice Pro ANC Wireless Headphone",
@@ -518858,12 +519160,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5mm",
-   "Color: Black"
+   "Driver size: 40 mm Driver",
+   "Connectivity: Bluetooth 5.4, Aux",
+   "ANC; Battery Capacity: 800mAh",
+   "Dual Device Connection; App Control"
   ],
   "key": "headphone|anc black bluetooth choice ear headphone headphones honor mate over pro sport vz",
   "name": "Honor Choice VZ Sport Mate Headphones Pro ANC Bluetooth Black Over-Ear Headphone",
@@ -518875,12 +519175,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5mm",
-   "Color: White"
+   "Driver size: 40 mm Driver",
+   "Connectivity: Bluetooth 5.4, 2.4GHz",
+   "AI Call Noise Cancellation; Battery Capacity: 500mAh",
+   "Dual Device Connection; App Control"
   ],
   "key": "headphone|anc bluetooth choice ear headphone headphones honor mate over pro sport vz white",
   "name": "Honor Choice VZ Sport Mate Headphones Pro ANC Bluetooth White Over-Ear Headphone",
@@ -566976,6 +567274,15 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/mouse/inphic/b8-/b8-pink-228x228.webp"
  },
+ "inphic-calo-cute-cat-dual-mode-wireless-mouse": {
+  "brand": "Inphic",
+  "category": "mouse",
+  "created": "2026-11-21",
+  "key": "mouse|calo cat cute dual inphic mode mouse wireless",
+  "name": "Inphic Calo Cute Cat Dual-Mode Wireless Mouse",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/inphic-calo-cute-cat-dual-mode-wireless-mouse-white-top-3613.png"
+ },
  "inphic-calo-dual-mode-wireless-gaming-mouse": {
   "brand": "Inphic",
   "category": "mouse",
@@ -581033,12 +581340,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1xUSB-A",
-   "Cable Length: 7.55 Ft",
-   "Color: Black"
+   "Foam ear cushions",
+   "Crystal Clear Sound",
+   "Jabra Spin Boom-arm",
+   "Simple Call Management"
   ],
   "key": "headphone|1500 biz black duo headphone jabra usb",
   "name": "JABRA BIZ 1500 Duo (Dual Ear) USB Headphone Black",
@@ -581067,12 +581372,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1xUSB-A",
-   "Cable Length: 7.55 Ft",
-   "Color: Black"
+   "Foam ear cushions",
+   "Crystal Clear Sound",
+   "Jabra Spin Boom-arm",
+   "Simple Call Management"
   ],
   "key": "headphone|1500 biz headphone jabra mono usb",
   "name": "JABRA BIZ 1500 Mono USB Headphone",
@@ -581101,12 +581404,9 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1xUSB-A",
-   "Cable Length: 7.7 ft.",
-   "Color: Black"
+   "A headset that built to last",
+   "All-day comfort for agents",
+   "World-class sound"
   ],
   "key": "headphone|2300 biz duo headphone jabra usb",
   "name": "JABRA BIZ 2300 Duo USB Headphone",
@@ -581132,12 +581432,9 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1xUSB-A",
-   "Cable Length: 7.7 ft",
-   "Color: Black"
+   "A headset that's built to last",
+   "All-day comfort for agents",
+   "World-class sound"
   ],
   "key": "headphone|2300 biz corded headset jabra mono uc usb",
   "name": "Jabra BIZ 2300 Mono, USB, UC, Corded Headset",
@@ -581359,12 +581656,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1xUSB-A",
-   "Cable Length: Unmentioned",
-   "Color: Black"
+   "Driver Size: 20mm Driver Diameter",
+   "Noise Cancelling Microphone",
+   "intelligent Microphone System",
+   "Connectivity: USB Type-A"
   ],
   "key": "headphone|40 engage headphone jabra line link stereo usb",
   "name": "Jabra Engage 40 In line Link Stereo USB Headphone",
@@ -581654,12 +581949,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: Unmentioned",
-   "Color: Black"
+   "World-class speakers and HD voice",
+   "Dual Bluetooth connectivity",
+   "Certified for Microsoft Teams",
+   "Features: Busylight, SafeTone technology, Jabra Direct, Jabra Xpress"
   ],
   "key": "headphone|75 black bluetooth evolve headphone jabra se stereo",
   "name": "Jabra Evolve 75 SE Stereo Bluetooth Black Headphone",
@@ -587062,12 +587355,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: 3.3 ft.",
-   "Color: Black"
+   "40mm Dynamic Drivers",
+   "Works on PC, PS5, Nintendo Switch & More",
+   "2.4 GHz Wireless Transmission",
+   "Detachable Omnidirectional Boom Mic"
   ],
   "key": "headphone|350 headset jbl quantum wireless",
   "name": "JBL Quantum 350 Wireless Gaming Headset",
@@ -587096,12 +587387,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Cable Length: 3.93 ft.",
-   "Color: Black"
+   "JBL QuantumSURROUND and DTS",
+   "Frequency response: 20Hz to 20kHz",
+   "50mm Dynamic drivers",
+   "3.5mm audio cable"
   ],
   "key": "headphone|400 ear headphone jbl over quantum usb",
   "name": "JBL Quantum 400 USB Over-Ear Gaming Headphone",
@@ -621650,6 +621939,22 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/koorui/34e6uc-200hz/34e6uc-200hz-05-228x228.webp"
  },
+ "koorui-34e6uc-34-inch-3k-uwqhd-3440x1440-va-180hz-curved-hdmi-dp-gaming-monitor": {
+  "brand": "KOORUI",
+  "category": "gaming-monitor",
+  "created": "2026-11-21",
+  "features": [
+   "Display Size (Inch): 34",
+   "Display Resolution: 3440x1440",
+   "Panel Type: VA",
+   "Refresh Rate (Hz): 180Hz",
+   "Color: Black"
+  ],
+  "key": "gaming-monitor|180hz 34 34e6uc 3k curved dp hdmi koorui monitor uwqhd va",
+  "name": "KOORUI 34E6UC 34 Inch 3K UWQHD (3440x1440) VA 180Hz Curved HDMI, DP Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/koorui-34e6uc-34-inch-3k-uwqhd-3440x1440-va-11790838564.webp"
+ },
  "koorui-34e6uc-wqhd-34-inch-va-165hz-curved-gaming-monitor": {
   "brand": "KOORUI",
   "category": "monitor-all",
@@ -643020,6 +643325,27 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0102602010/lenovo-laptop-ideapad-slim-3-15arp10-cover.webp"
  },
+ "lenovo-ideapad-slim-3-15arp10-amd-ryzen-5-7535hs-8gb-ram-512gb-ssd-4800mhz-15-3-inch": {
+  "brand": "Lenovo",
+  "category": "laptop",
+  "created": "2026-11-21",
+  "features": [
+   "Processor Type.: Ryzen 5",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: AMD Radeon 660M Graphics",
+   "Display Size (Inch): 15.3",
+   "Color: Luna Gray"
+  ],
+  "key": "laptop|15.3 15arp10 3 4800 5 512gb 7535hs 8gb amd display fhd grey ideapad lenovo luna ryzen slim wuxga",
+  "name": "Lenovo IdeaPad Slim 3 15ARP10 AMD Ryzen 5 7535HS 8GB RAM 512GB SSD 4800MHz 15.3 Inch FHD+ WUXGA Display Luna Grey Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/lenovo-ideapad-slim-3-15arp10-amd-ryzen-5-7535hs-11771734482.webp"
+ },
  "lenovo-ideapad-slim-3-15arp10-amd-ryzen-7-7735hs-16gb-ram-512gb-ssd-laptop": {
   "brand": "Lenovo",
   "category": "laptop",
@@ -644048,10 +644374,14 @@
   "category": "laptop",
   "created": "2026-11-10",
   "features": [
-   "Processor: Intel Core i5-13420H (12MB Cache, up to 4.6GHz)",
-   "Ram: 16GB DDR5-4800, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
-   "Display: 15.3\" WUXGA (1920x1200) IPS, 300 nits Anti-glare",
-   "Features: Privacy Shutter, Type-C, Wi-Fi 6, FreeDOS"
+   "Processor Type.: Core i5",
+   "Generation: 13th (Intel)",
+   "RAM: 16GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel UHD Graphics",
+   "Display Size (Inch): 15.3",
+   "Color: Luna Gray"
   ],
   "key": "laptop|13420h 13th 15.3 15irh10 16gb 3i 512gb core i5 ideapad lenovo slim wuxga",
   "name": "Lenovo IdeaPad Slim 3i 15IRH10 13th Gen Core i5-13420H 16GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
@@ -644419,10 +644749,14 @@
   "category": "laptop",
   "created": "2026-11-11",
   "features": [
-   "Intel Core i5-13420H Processor",
-   "16GB DDR5 RAM | 512GB SSD",
-   "14-Inch WUXGA IPS Display",
-   "Integrated Intel UHD Graphics"
+   "Processor Type.: Core i5",
+   "Generation: 13th (Intel)",
+   "RAM: 16GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel UHD Graphics",
+   "Display Size (Inch): 14",
+   "Color: Luna Gray"
   ],
   "key": "laptop|13420h 13th 14 14irh10 16gb 5 512gb core display fhd grey i5 ideapad intel lenovo luna slim wuxga",
   "name": "Lenovo IdeaPad Slim 5 14IRH10 13th Gen Intel Core i5 13420H 16GB RAM, 512GB SSD 14 Inch FHD+ WUXGA Display Luna Grey Laptop",
@@ -666942,6 +667276,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/lg-tv/oled-evo-ai-c6/oled-evo-ai-c6-65-inch-01-228x228.webp"
  },
+ "lg-oled-evo-ai-g6-65-4k-smart-tv-2026": {
+  "brand": "LG",
+  "category": "tv",
+  "created": "2026-11-21",
+  "features": [
+   "Display: 4K Ultra HD (3840 x 2160), Up to 165Hz",
+   "Processor: α11 AI Processor 4K Gen3",
+   "Speaker: 4.2 Channel, Down Firiing, Bluetooth 5.3",
+   "webOS 26, Game Optimizer, Voice Recognition"
+  ],
+  "key": "tv|2026 4k 65 ai evo g6 lg oled smart tv",
+  "name": "LG OLED evo AI G6 65\" 4K Smart TV 2026",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/television/lg-tv/oled-evo-ai-g6/oled-evo-ai-g6-01-228x228.webp"
+ },
  "lg-oled-evo-c2-55-inch-4k-oled-hdr-smart-tv-oled55c2-official": {
   "brand": "LG",
   "category": "tv",
@@ -681472,12 +681821,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: Not Applicable",
-   "Color: Midnight Black"
+   "Bluetooth version: 5.3",
+   "Operating distance: up to 30 m",
+   "Up to 16 Hours of Talk Time",
+   "Supports Quick Charge"
   ],
   "key": "headphone|300 bluetooth headphone logitech wireless zone",
   "name": "Logitech Zone 300 Wireless Bluetooth Headphone",
@@ -706613,6 +706960,19 @@
   },
   "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/memory-ghost-on900-nvme-ssd-1577.png"
  },
+ "memory-ghost-on901-1tb-m-2-2280-nvme-pcie-gen3x4-ssd": {
+  "brand": "Memory",
+  "category": "ssd",
+  "created": "2026-11-21",
+  "key": "ssd|1tb gen3x4 ghost m.2 on901 pcie",
+  "name": "Memory Ghost ON901 1TB M.2 2280 NVMe PCIe Gen3x4 SSD",
+  "specs": {
+   "capacity": "1TB",
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Memory-Ghost/500-x-500-Recovered.1-250x250.jpg"
+ },
  "memory-ghost-on901-1tb-pcie-gen3-m-2-nvme-ssd": {
   "brand": "Memory",
   "category": "ssd",
@@ -712238,11 +712598,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Color: Black"
+   "Play Time: Up to 20 hours",
+   "Built-in microphone, aptX Technology",
+   "Active Noise Cancelling (ANC)",
+   "Connectivity: Bluetooth Wireless"
   ],
   "key": "headphone|300 black bluetooth headphone microlab outlander",
   "name": "Microlab OUTLANDER 300 Bluetooth Black Headphone",
@@ -731919,7 +732278,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
@@ -734737,10 +735095,14 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Supported CPU: Ryzen 9000/ 8000/ 7000 Series Processors for Socket AM5",
-   "Supported RAM: 4x DDR5, up to 8200 (OC) MT/s",
-   "Graphics Output: 1x HDMI, 1x DisplayPort",
-   "Features: Realtek 8125D 2.5G LAN, Wi-Fi 6E, Bluetooth 5.3"
+   "Form Factor: Micro-ATX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: Supports AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
   ],
   "key": "motherboard|am5 b850m matx motherboard msi plus wifi6e",
   "name": "MSI B850M GAMING PLUS WIFI6E AM5 mATX Motherboard",
@@ -788038,13 +788400,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5mm",
-   "Cable Length: Unmentioned",
-   "Color: Black"
+   "Up to 35dB Hybrid ANC",
+   "50-hour battery life (BT only)",
+   "Bluetooth 5.0, fast charging, & Connectivity",
+   "Hi-Res audio support, Transparency mod,4 mics with ENC"
   ],
   "key": "headphone|a10 black bluetooth ear focus headphone oneodio over",
   "name": "OneOdio Focus A10 Bluetooth Black Over-Ear Headphone",
@@ -788071,12 +788430,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: Not Applicable",
-   "Color: Black"
+   "Up to 45dB Hybrid ANC",
+   "Hi-Res Audio Support",
+   "Bluetooth Version: 5.4",
+   "Battery Life: 75 hours (ANC OFF)"
   ],
   "key": "headphone|a5 black bluetooth ear focus headphone oneodio over",
   "name": "OneOdio Focus A5 Bluetooth Black Over-Ear Headphone",
@@ -788268,13 +788625,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Professional Headphone",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5 mm Audio Cable with In-Line Mic",
-   "Cable Length: Unmentioned",
-   "Color: Black"
+   "Charging Time: 4-5 Hours",
+   "Bluetooth Version: 5.0",
+   "Driver: 50mm",
+   "Play Time: 110 hrs"
   ],
   "key": "headphone|black bluetooth c ear headphone oneodio over pro studio wireless",
   "name": "OneOdio Studio Wireless Pro C Bluetooth Black Over-Ear Headphone",
@@ -790270,13 +790624,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Plug Details: 3.5mm",
-   "Cable Length: 6.5 ft.",
-   "Color: Black"
+   "Speaker Diameter: 50mm",
+   "Connectivity: Bluetooth 5.3, 2.4G wireless, and wired",
+   "Battery capacity: 1000mAh",
+   "Battery life: about 55 hours"
   ],
   "key": "headphone|b15 headphone mode onikuma tri wireless",
   "name": "Onikuma B15 Tri-mode Wireless Gaming Headphone",
@@ -790368,13 +790719,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm, USB-C",
-   "Plug Details: 3.5mm, USB Type-C",
-   "Cable Length: Not Applicable",
-   "Color: White"
+   "Driver Diameter: 40mm",
+   "Connectivity: Tri-mode (2.4G Wireless / Bluetooth 5.3 / Wired)",
+   "Battery Capacity: 850mAh",
+   "RGB Lighting: Customizable Cat Ear RGB"
   ],
   "key": "headphone|b5 headset mode onikuma rgb tri wireless",
   "name": "Onikuma B5 Tri-Mode RGB Wireless Gaming Headset",
@@ -796068,12 +796416,10 @@
   "category": "cable",
   "created": "2026-11-10",
   "features": [
-   "Type: Video",
-   "Port Side-1: HDMI 1.4 Male",
-   "Port Side-2: HDMI 1.4 Male",
-   "Length.: 1 Meter",
-   "Display Resolution (Pixels): 3840 x 2160",
-   "Color: Black"
+   "Resolution Support: 4K at 30 Hz",
+   "Cable Length: 1 Meter",
+   "Transmission Rate: 10.2 Gbps",
+   "Audio Support: Supported"
   ],
   "key": "cable|1m 4k 8305 cable hdmi onten otn",
   "name": "Onten OTN-8305 1M 4K HDMI Cable",
@@ -800987,6 +801333,21 @@
   "name": "Onten OTN-UCA5311 5-in-2 USB Hub with LAN Adapter",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/converter/onten/otn-uca5311/otn-uca5311-01-228x228.webp"
+ },
+ "onten-otn-uca5311-usb-usb-c-male-to-quad-usb-lan-female-black-converter-otn": {
+  "brand": "Onten",
+  "category": "hub-dock",
+  "created": "2026-11-21",
+  "features": [
+   "Type: Converter",
+   "Length.: 0.5 Meter",
+   "Resolution: Not Applicable",
+   "Color: Black"
+  ],
+  "key": "hub-dock|black c converter female lan male onten otn quad to uca5311 usb",
+  "name": "Onten OTN-UCA5311 USB/USB-C Male to Quad USB & Lan Female Black Converter #OTN-UCA5311",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/onten-otn-uca5311-usbusb-c-male-to-quad-usb-11767427854.webp"
  },
  "onten-otn-uca612-5-in-2-type-c-hub": {
   "brand": "Onten",
@@ -806050,12 +806411,10 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Type: Regular",
+   "Bluetooth Version: 5.4",
+   "Playing Time: 82 Hours",
    "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 1x3.5mm",
-   "Cable Length: Not Applicable",
-   "Color: Graphite Gray"
+   "Charging Time: Approx. 2 hours"
   ],
   "key": "headphone|917 bluetooth boompop ear graphite gray headphone ohp oraimo over pro",
   "name": "Oraimo BoomPop Pro Bluetooth Graphite Gray Over-Ear Headphone #OHP-917",
@@ -852888,10 +853247,14 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Video Memory: 8GB GDDR7, PCI Express 5.0 x8",
-   "Graphics Clock: 2280 MHz, Boost Clock: 2535 MHz",
-   "CUDA Cores: 3840, Memory Clock: 28 Gbps",
-   "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 8GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: Black"
   ],
   "key": "graphics-card|5060 8gb card dual fan gddr7 geforce oc pny rtx",
   "name": "PNY GeForce RTX 5060 8GB OC Dual Fan GDDR7 Graphics Card",
@@ -853422,10 +853785,14 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Video Memory: 16GB GDDR7, PCI-Express 5.0 x16",
-   "Core Clock: 2330 MHz, Boost Clock: 2620 MHz",
-   "CUDA Cores: 10752, Memory Bus: 256-bit",
-   "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 16GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: Black"
   ],
   "key": "graphics-card|16gb 5080 card fan gddr7 geforce oc pny rtx triple",
   "name": "PNY GeForce RTX 5080 OC 16GB Triple Fan GDDR7 Graphics Card",
@@ -876124,11 +876491,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Color: Black"
+   "Razer HyperSpeed Wireless",
+   "Razer TriForce Titanium 50mm Drivers",
+   "Razer HyperClear Supercardioid Mic",
+   "Compatible: PC, Mac, PS4, Nintendo Switch"
   ],
   "key": "headphone|blackshark headset pro razer v2 wireless",
   "name": "Razer BlackShark V2 Pro Wireless Gaming Headset",
@@ -984807,6 +985173,22 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/t-wolf/frost-x240/frost-x240-01-228x228.webp"
  },
+ "t-wolf-frost-x240-argb-240mm-aio-black-liquid-cpu-cooler-with-display": {
+  "brand": "T-WOLF",
+  "category": "liquid-cooler",
+  "created": "2026-11-21",
+  "features": [
+   "Cooler Type: Liquid CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 1800 RPM",
+   "LED Color: ARGB",
+   "Body Color: Black"
+  ],
+  "key": "liquid-cooler|240mm aio argb black cooler display frost liquid t wolf x240",
+  "name": "T-WOLF Frost X240 ARGB 240mm AIO Black Liquid CPU Cooler with Display",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/t-wolf-frost-x240-argb-240mm-aio-black-liquid-cpu-11795174606.webp"
+ },
  "t-wolf-frost-x240-liquid-240mm-cpu-cooler-with-digital-display-black": {
   "brand": "T-Wolf",
   "category": "cpu-cooler",
@@ -987889,10 +988271,11 @@
   "category": "cpu-cooler",
   "created": "2026-11-10",
   "features": [
-   "Fan Speed: 600-1800±10% RPM",
-   "Fan Size: 120mm hydraulic bearing fan",
-   "Fan Noise: 14-28±10% dBA; TDP: UP to 235W",
-   "Universal Compatibility with: Intel and AMD CPUs"
+   "Cooler Type: Air CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 1800 RPM",
+   "LED Color: ARGB",
+   "Body Color: Black"
   ],
   "key": "cpu-cooler|ac100 air cooler display rgb t tw wolf",
   "name": "T-Wolf TW AC100 RGB Air CPU Cooler with Display",
@@ -987913,6 +988296,22 @@
   "name": "T-Wolf TW AC100 RGB Air CPU Cooler with Display White",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/t-wolf/tw-ac100/tw-ac100-white-01-228x228.webp"
+ },
+ "t-wolf-tw-ac100-white-air-cpu-cooler-with-display": {
+  "brand": "T-WOLF",
+  "category": "cpu-cooler",
+  "created": "2026-11-21",
+  "features": [
+   "Cooler Type: Air CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 1800 RPM",
+   "LED Color: ARGB",
+   "Body Color: White"
+  ],
+  "key": "cpu-cooler|ac100 air cooler display t tw white wolf",
+  "name": "T-WOLF TW AC100 White Air CPU Cooler with Display",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/t-wolf-tw-ac100-white-air-cpu-cooler-with-11795174317.webp"
  },
  "t-wolf-v1-7-color-rgb-backlit-rgb-gaming-mouse": {
   "brand": "T-Wolf",
@@ -1026648,8 +1027047,7 @@
    "Efficiency: 92% Efficiency",
    "Efficiency Rating: 80 Plus Platinum",
    "Protection: OVP/OCP/OPP/UVP/OTP/SCP",
-   "Color: Black",
-   "Warranty Info: 10 Year"
+   "Color: Black"
   ],
   "key": "power-supply|1200w 3.1 5.1 80 atx full modular pcie platinum plus power pt supply thermaltake toughpower",
   "name": "Thermaltake Toughpower PT 1200W ATX 3.1 PCIe 5.1 Full Modular 80 Plus Platinum Power Supply",
@@ -1086453,6 +1086851,20 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/hub/ugreen/cm806/cm806-01-228x228.webp"
  },
+ "ugreen-cm806-55334-type-c-male-to-quad-type-c-female-black-hub-with-pd-55334": {
+  "brand": "UGREEN",
+  "category": "hub-dock",
+  "created": "2026-11-21",
+  "features": [
+   "Type: USB HUB",
+   "Length.: 0.3 Meter",
+   "Color: Black"
+  ],
+  "key": "hub-dock|55334 black c cm806 female hub male pd quad to type ugreen",
+  "name": "UGREEN CM806 (55334) Type-C Male to Quad Type-C Female Black Hub With PD #55334",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ugreen-cm806-55334-type-c-male-to-quad-type-c-11747830814.webp"
+ },
  "ugreen-cm812-45167-usb-type-c-usb-male-to-sd-tf-dual-usb-black-card-reader-45167": {
   "brand": "UGREEN",
   "category": "card-reader",
@@ -1088439,6 +1088851,23 @@
   "name": "Ugreen HD163 8K Mini HDMI to HDMI 1M Cable",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1692604028/ugreen-cable-hd163-cover.webp"
+ },
+ "ugreen-hd169-55329-hdmi-male-to-displayport-male-2-meter-black-cable-with-usb": {
+  "brand": "Ugreen",
+  "category": "hub-dock",
+  "created": "2026-11-21",
+  "features": [
+   "Type: Video",
+   "Port Side-1: HDMI Male",
+   "Port Side-2: DisplayPort Male",
+   "Length.: 2 Meter",
+   "Display Resolution (Pixels): 3840 x 2160",
+   "Color: Black"
+  ],
+  "key": "hub-dock|2 black cable displayport hd169 hdmi male meter power to ugreen usb",
+  "name": "Ugreen HD169 (55329) HDMI Male to DisplayPort Male, 2 Meter, Black Cable With USB Power Cable",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ugreen-hd169-55329-displayport-male-to-hdmi-11757337414.webp"
  },
  "ugreen-hd171-25910-8k-hdmi-cable-2m": {
   "brand": "UGREEN",
@@ -1128743,6 +1129172,36 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-colorpro-vp2456a-24-inch-238-inch-71793962905.webp"
  },
+ "viewsonic-colorpro-vp2466-24-120hz-ips-fhd-professional-monitor": {
+  "brand": "Viewsonic",
+  "category": "monitor-all",
+  "created": "2026-11-21",
+  "features": [
+   "Resolution: FHD (1920 x 1080)",
+   "Display: 24 Inch IPS, 120Hz, 5ms,",
+   "Ports: 1x HDMI, 4x Type-C, 1x USB-A, 1x Audio Jack",
+   "Features: Built-in Speaker, Flicker-Free, Eye ProTech+"
+  ],
+  "key": "monitor-all|120hz 24 colorpro fhd ips monitor professional viewsonic vp2466",
+  "name": "Viewsonic ColorPro VP2466 24\" 120hz IPS FHD Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/colorpro-vp2466/colorpro-vp2466-01-228x228.webp"
+ },
+ "viewsonic-colorpro-vp2466-2k-24-120hz-ips-2k-qhd-professional-monitor": {
+  "brand": "Viewsonic",
+  "category": "monitor-all",
+  "created": "2026-11-21",
+  "features": [
+   "Resolution: 2K QHD (2560 x 1440)",
+   "Display: 24 Inch IPS, 120Hz, 5ms,",
+   "Ports: 1x HDMI, 4x Type-C, 1x USB-A, 1 x Audio Jack",
+   "Features: Built-in Speaker, Flicker-Free, Eye ProTech+"
+  ],
+  "key": "monitor-all|120hz 24 2k colorpro ips monitor professional qhd viewsonic vp2466",
+  "name": "Viewsonic ColorPro VP2466-2K 24\" 120hz IPS 2K QHD Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/colorpro-vp2466/colorpro-vp2466-01-228x228.webp"
+ },
  "viewsonic-colorpro-vp2756a-2k-27-120hz-2k-qhd-ips-professional-monitor": {
   "brand": "Viewsonic",
   "category": "monitor-all",
@@ -1128775,6 +1129234,21 @@
   "name": "ViewSonic ColorPro VP2756A-2K 27 Inch 2K QHD HDMI, DP, USB, USB-C Professional Monitor",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-colorpro-vp2756a-2k-27-inch-2k-qhd-81793963402.webp"
+ },
+ "viewsonic-colorpro-vp2766-4k-27-120hz-4k-uhd-ips-professional-monitor": {
+  "brand": "Viewsonic",
+  "category": "monitor-all",
+  "created": "2026-11-21",
+  "features": [
+   "Resolution: 4K UHD (3840 x 2160)",
+   "Display: 27 inch, IPS, 120Hz, 5ms",
+   "Ports: 1x HDMI, 4 x Type-C, 1 x USB, 1 x Audio Jack",
+   "Features: Built-in Speaker, Flicker-Free, Low Blue Light"
+  ],
+  "key": "monitor-all|120hz 27 4k colorpro ips monitor professional uhd viewsonic vp2766",
+  "name": "Viewsonic ColorPro VP2766-4K 27\" 120Hz 4K UHD IPS Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/colorpor-vp2766-4k/colorpor-vp2766-4k-01-228x228.webp"
  },
  "viewsonic-colorpro-vp2788-5k-27-60hz-2k-5k-ips-monitor": {
   "brand": "Viewsonic",
@@ -1131827,6 +1132301,21 @@
   "name": "ViewSonic VG3820C 38 Inch WQHD+ IPS Display HDMI, DP, USB, USB-C & Headphone Curved Professional Monitor",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-vg3820c-38-inch-wqhd-ips-display-hdmi-11794822832.webp"
+ },
+ "viewsonic-vg3820c-38-wqhd-ips-curved-monitor": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-21",
+  "features": [
+   "Resolution: WQHD+ (3840x1600)",
+   "Display: 38 inch IPS, 75Hz, Curvature: 2300R",
+   "Ports: 2 x HDMI, 1 x  DP,1 x Type-C, 2 x USB-A",
+   "Features: Built in Speaker, Flicker Free, Low Blue Light"
+  ],
+  "key": "monitor-all|38 curved ips monitor vg3820c viewsonic wqhd",
+  "name": "ViewSonic VG3820C 38\" WQHD+ IPS Curved Monitor",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/vg3820c/vg3820c-01-228x228.webp"
  },
  "viewsonic-viewboard-6552-1c-65-inch-4k-uhd-interactive-flat-panel-display-androi": {
   "brand": "ViewSonic",
@@ -1186592,6 +1187081,15 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2322506031/xp-pen-graphics-tablet-deco-l-pen-cover.webp"
  },
+ "xp-pen-deco-lw-large-10-inch-green-bluetooth-drawing-graphics-tablet": {
+  "brand": "XP-Pen",
+  "category": "graphics-tablet",
+  "created": "2026-11-21",
+  "key": "graphics-tablet|10 bluetooth deco drawing green large lw pen tablet xp",
+  "name": "XP-Pen Deco LW Large 10 Inch Green Bluetooth Drawing Graphics Tablet",
+  "specs": {},
+  "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Xp-Pen/XP-Pen-Deco-LW-1-228x228.jpg"
+ },
  "xp-pen-deco-lw-large-it1060b-10-inch-black-bluetooth-android-drawing-graphics-ta": {
   "brand": "XP-Pen",
   "category": "graphics-tablet",
@@ -1190293,10 +1190791,10 @@
   "category": "speaker",
   "created": "2026-11-11",
   "features": [
+   "Drive: 2 x 3.5-inch Satellites, 4-inch Subwoofer",
+   "Output power: 15W + 10W × 2 (35 RMS)",
    "Connectivity: Bluetooth, Wired",
-   "Output Power: 35W RMS (15W + 10W × 2)",
-   "Drivers: 4″ Subwoofer, Dual 3″ Satellites",
-   "Control: Remote Control Included"
+   "Remote Control, 2.1 Channel"
   ],
   "key": "speaker|2.1 35w goal multimedia remote speaker xtreme",
   "name": "Xtreme Goal 35W 2.1 Multimedia Speaker With Remote",
@@ -1203787,6 +1204285,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/yuanxin-yux-009-usb-type-a-male-to-type-b-male-11723705898.webp"
  },
+ "yuanxin-yux-009-usb-type-a-to-type-b-1-5-meter-printer-cable": {
+  "brand": "Yuanxin",
+  "category": "cable",
+  "created": "2026-11-21",
+  "key": "cable|009 1.5 a b cable meter printer to type usb yuanxin yux",
+  "name": "Yuanxin YUX-009 USB Type-A to Type-B 1.5 Meter Printer Cable",
+  "specs": {},
+  "store_image": "https://ik.imagekit.io/fourstarit/website/Accessories/Cable/Yuanxin/yuanxin-yux-009-usb-type-a-male-to-type-b-male-11723705898_soM2wgQht.webp"
+ },
  "yuanxin-yux-010-usb-3-meter-extension-cable": {
   "brand": "Yuanxin",
   "category": "cable",
@@ -1214016,6 +1214523,21 @@
   "name": "ZKTeco SenseFace T1 Face Recognition time and attendance terminal",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0892609003/zkteco-access-control-senseface-t1-cover.webp"
+ },
+ "zkteco-senseface-t2-access-control-terminal-wifi": {
+  "brand": "ZKTeco",
+  "category": "access-control",
+  "created": "2026-11-21",
+  "features": [
+   "Authentication Method: Fingerprint/ Face/ Card/ Password (Physical Keypad)",
+   "Fingerprint Template Capacity: 1500 (1:N) (Standard)",
+   "Face Template Capacity: 1,500 (1:N), Card Capacity: 3,000 (1:N)",
+   "User Capacity: 3,000 (1:N), Transaction Capacity: 150,000 (1:N)"
+  ],
+  "key": "access-control|access control senseface t2 terminal zkteco",
+  "name": "ZKTeco SenseFace T2 Access Control Terminal (WiFi)",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/attendance-machine/zkteco/zkteco/senseface-t2/senseface-t2-01-228x228.webp"
  },
  "zkteco-sensefp-m1-attendance-machine": {
   "brand": "ZKTeco",
