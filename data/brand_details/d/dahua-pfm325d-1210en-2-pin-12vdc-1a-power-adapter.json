@@ -1,0 +1,44 @@
+{
+ "specs": {
+  "Specifications": {
+   "Input Voltage": "100–240 VAC",
+   "Output Voltage": "12 V ± 5%",
+   "Rated Output Current": "1 A",
+   "Rated Power": "12 W",
+   "Power Consumption In Idle": "≤0.1 W",
+   "Efficiency": "≥82.96%",
+   "Indicator Light": "Green light × 1",
+   "Input Port": "European Standard 2 pin plug",
+   "Output Plug": "Φ5.5 mm × Φ2.1 mm × 10.0 mm (0.22\" × 0.08\" × 0.39\") (OD × ID × L)",
+   "Types of Protection": "Protects against overcurrent, overvoltage, short circuits.",
+   "Installation": "Desktop mount",
+   "Product Dimensions": "95.0 mm × 34.8 mm × 28.0 mm (3.74\" × 1.37\" × 1.10\")",
+   "Appearance Color": "Black",
+   "Net Weight": "0.1 kg (0.22 lb)",
+   "Gross Weight": "0.115 kg (0. 5 lb)",
+   "Packaging Dimensions": "72.0 mm × 44.0 mm × 122.0 mm (2.83\" ×1.73\" × 4.80\")",
+   "Input Cable Length": "350 mm (13.78\")",
+   "Output Cable Length": "800 mm (31.50\")",
+   "Operating Humidity": "10%–90% (RH)",
+   "Storage Temperature": "–10 °C to +70 °C (+14 °F to + 158 °F)",
+   "Storage Humidity": "10%–90% (RH)",
+   "Certifications": "CE"
+  },
+  "Surge Protection Grade": {
+   "Common mode": "±2 kV",
+   "Differentiate mode": "±1 kV"
+  },
+  "Statics Protection": {
+   "Air discharge": "±8 kV",
+   "Contact discharge": "±6 kV"
+  },
+  "Operating Temperature": {
+   "Full load": "–20 °C to +40 °C (–4 °F to +104 °F)",
+   "80% load": "+40 °C to +55°C (+104 °F to +131 °F)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-20T22:17+06:00",
+ "source": "https://www.dahuasecurity.com/products/accessories/power-adapters-&-supplies/dc-power-adapter/pfm325d-1210en",
+ "brand_site": "Dahua"
+}
