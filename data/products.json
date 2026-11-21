@@ -7178,10 +7178,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Large Protein Leather Ear Pads",
-   "Single-Directional Mic",
-   "Auto-Adjusting Headband",
-   "Braided Tangle-Free Cable"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: 6.56 ft.",
+   "Color: Black"
   ],
   "key": "headphone|3.5mm a4tech black bloody g220 headphone usb",
   "name": "A4TECH Bloody G220 3.5mm & USB Gaming Headphone Black",
@@ -7379,9 +7381,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Dazzling Red Ligh",
-   "Bloody Virtual 7.1 Surround Sound",
-   "Auto-Adjusting Headband"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 5.9 ft.",
+   "Color: Black"
   ],
   "key": "headphone|7.1 a4tech bloody g530 headset sound surround virtual",
   "name": "A4TECH Bloody G530 Virtual 7.1 Surround Sound Gaming Headset",
@@ -57422,10 +57427,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Upgraded Noise Cancellation with Multiple Modes",
-   "Enhanced Call Quality via 2 Microphones",
-   "Customizable EQ with Soundcore App",
-   "5-Minute Charge to 4-Hour Playtime"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: Unmentioned",
+   "Color: Black"
   ],
   "key": "headphone|anker bluetooth ear headphones life over q30 soundcore",
   "name": "Anker Soundcore Life Q30 Bluetooth Over-Ear Headphones",
@@ -58472,10 +58479,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Driver Size: 40mm Triple Composite Diaphragms",
-   "4 microphones with AI algorithm for clear calls",
-   "Connectivity: Bluetooth 5.3",
-   "Battery Life: Up to 60 Hours w/o ANC, 40 Hours with ANC"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: No",
+   "Plug Type: No",
+   "Cable Length: 3.94 ft.",
+   "Color: Jet Black"
   ],
   "key": "headphone|anc anker headphones one pro soundcore space",
   "name": "Anker Soundcore Space One Pro ANC Headphones",
@@ -78302,10 +78311,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Apple-designed dynamic driver",
-   "Active Noise Cancellation",
-   "Transparency mode",
-   "Personalized Spatial Audio with dynamic head tracking"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: Not Applicable",
+   "Color: Blue"
   ],
   "key": "headphone|2 airpods anc apple blue bluetooth ear headphone max over",
   "name": "Apple AirPods Max 2 Blue Bluetooth ANC Over-Ear Headphone",
@@ -134601,10 +134612,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Compatible with PC, Mac, PlayStation 4 & Nintendo Switch",
-   "Audio: 7.1 Surround",
-   "Frequency: 20Hz - 20 kHz",
-   "Color: Red and Gun Metal"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: 4.2 ft.",
+   "Color: Gun Metal"
   ],
   "key": "headphone|asus gun h3 headphone metal tuf wired",
   "name": "ASUS TUF GAMING H3 Wired Gun METAl Headphone",
@@ -345912,9 +345925,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Frequency: 20Hz～20kHz",
-   "Impedance: 32Ω",
-   "Cable Length: 2M"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 2x3.5mm",
+   "Cable Length: 6.56 Ft",
+   "Color: Black"
   ],
   "key": "headphone|black edifier g2 headphone wired",
   "name": "Edifier G2 Wired Gaming Black Headphone",
@@ -482556,6 +482572,22 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P4582506005/hifuture-speakers-soundpro-cover.webp"
  },
+ "hifuture-tour-mk-ll-anc-bluetooth-black-over-ear-headphone": {
+  "brand": "Hifuture",
+  "category": "headphone",
+  "created": "2026-11-21",
+  "features": [
+   "Type: Regular",
+   "Connection Type: Wired / Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Color: Black"
+  ],
+  "key": "headphone|anc black bluetooth ear headphone hifuture ll mk over tour",
+  "name": "Hifuture Tour MK ll ANC Bluetooth Black Over-Ear Headphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/hifuture-tour-mk-ll-anc-bluetooth-black-over-ear-11794733872.webp"
+ },
  "hifuture-tour-mk-ll-anc-bluetooth-off-white-over-ear-headphone": {
   "brand": "Hifuture",
   "category": "headphone",
@@ -515609,10 +515641,11 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Connectivity: Bluetooth 5.3, AUX",
-   "Battery capacity: 800mAh",
-   "Battery Life (ANC On): 45 Hours",
-   "TF Card Supported"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Color: Silver"
   ],
   "key": "headphone|bluetooth headphone hoco max pro silver w35",
   "name": "Hoco W35 Pro Max Silver Bluetooth Headphone",
@@ -515905,10 +515938,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Driver: 40mm",
-   "Connectivity: Bluetooth 5.0, 3.5mm jack",
-   "Battery life: Up to 30 hours of playback with ANC on",
-   "Active Noise Cancellation"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: Not Applicable",
+   "Color: Silver"
   ],
   "key": "headphone|anc bluetooth ear headphone hoco over plus silver w65 wireless",
   "name": "Hoco W65 Plus ANC Silver Wireless Bluetooth Over-Ear Headphone",
@@ -519091,10 +519126,12 @@
   "category": "bluetooth-headphone",
   "created": "2026-11-10",
   "features": [
-   "Speaker size: 40 mm, ANC + ENC",
-   "Triple-MCNR Game Mode, 50ms audio delay",
-   "Battery capacity: 800 mAh, 80 hours 50 hours in ANC mode",
-   "Hi-Res Audio, AANC"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Color: Black"
   ],
   "key": "bluetooth-headphone|anc choice headphone honor pro wireless",
   "name": "Honor Choice Pro ANC Wireless Headphone",
@@ -519160,10 +519197,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Driver size: 40 mm Driver",
-   "Connectivity: Bluetooth 5.4, Aux",
-   "ANC; Battery Capacity: 800mAh",
-   "Dual Device Connection; App Control"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Color: Black"
   ],
   "key": "headphone|anc black bluetooth choice ear headphone headphones honor mate over pro sport vz",
   "name": "Honor Choice VZ Sport Mate Headphones Pro ANC Bluetooth Black Over-Ear Headphone",
@@ -519175,10 +519214,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Driver size: 40 mm Driver",
-   "Connectivity: Bluetooth 5.4, 2.4GHz",
-   "AI Call Noise Cancellation; Battery Capacity: 500mAh",
-   "Dual Device Connection; App Control"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Color: White"
   ],
   "key": "headphone|anc bluetooth choice ear headphone headphones honor mate over pro sport vz white",
   "name": "Honor Choice VZ Sport Mate Headphones Pro ANC Bluetooth White Over-Ear Headphone",
@@ -581340,10 +581381,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Foam ear cushions",
-   "Crystal Clear Sound",
-   "Jabra Spin Boom-arm",
-   "Simple Call Management"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 7.55 Ft",
+   "Color: Black"
   ],
   "key": "headphone|1500 biz black duo headphone jabra usb",
   "name": "JABRA BIZ 1500 Duo (Dual Ear) USB Headphone Black",
@@ -581372,10 +581415,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Foam ear cushions",
-   "Crystal Clear Sound",
-   "Jabra Spin Boom-arm",
-   "Simple Call Management"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 7.55 Ft",
+   "Color: Black"
   ],
   "key": "headphone|1500 biz headphone jabra mono usb",
   "name": "JABRA BIZ 1500 Mono USB Headphone",
@@ -581404,9 +581449,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "A headset that built to last",
-   "All-day comfort for agents",
-   "World-class sound"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 7.7 ft.",
+   "Color: Black"
   ],
   "key": "headphone|2300 biz duo headphone jabra usb",
   "name": "JABRA BIZ 2300 Duo USB Headphone",
@@ -581432,9 +581480,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "A headset that's built to last",
-   "All-day comfort for agents",
-   "World-class sound"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 7.7 ft",
+   "Color: Black"
   ],
   "key": "headphone|2300 biz corded headset jabra mono uc usb",
   "name": "Jabra BIZ 2300 Mono, USB, UC, Corded Headset",
@@ -581656,10 +581707,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Driver Size: 20mm Driver Diameter",
-   "Noise Cancelling Microphone",
-   "intelligent Microphone System",
-   "Connectivity: USB Type-A"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: Unmentioned",
+   "Color: Black"
   ],
   "key": "headphone|40 engage headphone jabra line link stereo usb",
   "name": "Jabra Engage 40 In line Link Stereo USB Headphone",
@@ -581737,9 +581790,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Great sound for calls and music",
-   "Manage calls easily",
-   "Flexible Plug and Play connectivity"
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 7 ft.",
+   "Color: Black"
   ],
   "key": "headphone|20 duo evolve headphone jabra ms",
   "name": "Jabra Evolve 20 MS DUO Headphone",
@@ -581949,10 +582005,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "World-class speakers and HD voice",
-   "Dual Bluetooth connectivity",
-   "Certified for Microsoft Teams",
-   "Features: Busylight, SafeTone technology, Jabra Direct, Jabra Xpress"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: Unmentioned",
+   "Color: Black"
   ],
   "key": "headphone|75 black bluetooth evolve headphone jabra se stereo",
   "name": "Jabra Evolve 75 SE Stereo Bluetooth Black Headphone",
@@ -587355,10 +587413,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "40mm Dynamic Drivers",
-   "Works on PC, PS5, Nintendo Switch & More",
-   "2.4 GHz Wireless Transmission",
-   "Detachable Omnidirectional Boom Mic"
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: 3.3 ft.",
+   "Color: Black"
   ],
   "key": "headphone|350 headset jbl quantum wireless",
   "name": "JBL Quantum 350 Wireless Gaming Headset",
@@ -587387,10 +587447,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "JBL QuantumSURROUND and DTS",
-   "Frequency response: 20Hz to 20kHz",
-   "50mm Dynamic drivers",
-   "3.5mm audio cable"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: 3.93 ft.",
+   "Color: Black"
   ],
   "key": "headphone|400 ear headphone jbl over quantum usb",
   "name": "JBL Quantum 400 USB Over-Ear Gaming Headphone",
@@ -681821,10 +681883,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Bluetooth version: 5.3",
-   "Operating distance: up to 30 m",
-   "Up to 16 Hours of Talk Time",
-   "Supports Quick Charge"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: Not Applicable",
+   "Color: Midnight Black"
   ],
   "key": "headphone|300 bluetooth headphone logitech wireless zone",
   "name": "Logitech Zone 300 Wireless Bluetooth Headphone",
@@ -712598,10 +712662,11 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Play Time: Up to 20 hours",
-   "Built-in microphone, aptX Technology",
-   "Active Noise Cancelling (ANC)",
-   "Connectivity: Bluetooth Wireless"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Color: Black"
   ],
   "key": "headphone|300 black bluetooth headphone microlab outlander",
   "name": "Microlab OUTLANDER 300 Bluetooth Black Headphone",
@@ -788400,10 +788465,13 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Up to 35dB Hybrid ANC",
-   "50-hour battery life (BT only)",
-   "Bluetooth 5.0, fast charging, & Connectivity",
-   "Hi-Res audio support, Transparency mod,4 mics with ENC"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Cable Length: Unmentioned",
+   "Color: Black"
   ],
   "key": "headphone|a10 black bluetooth ear focus headphone oneodio over",
   "name": "OneOdio Focus A10 Bluetooth Black Over-Ear Headphone",
@@ -788430,10 +788498,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Up to 45dB Hybrid ANC",
-   "Hi-Res Audio Support",
-   "Bluetooth Version: 5.4",
-   "Battery Life: 75 hours (ANC OFF)"
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Cable Length: Not Applicable",
+   "Color: Black"
   ],
   "key": "headphone|a5 black bluetooth ear focus headphone oneodio over",
   "name": "OneOdio Focus A5 Bluetooth Black Over-Ear Headphone",
@@ -788625,10 +788695,13 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Charging Time: 4-5 Hours",
-   "Bluetooth Version: 5.0",
-   "Driver: 50mm",
-   "Play Time: 110 hrs"
+   "Type: Professional Headphone",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5 mm Audio Cable with In-Line Mic",
+   "Cable Length: Unmentioned",
+   "Color: Black"
   ],
   "key": "headphone|black bluetooth c ear headphone oneodio over pro studio wireless",
   "name": "OneOdio Studio Wireless Pro C Bluetooth Black Over-Ear Headphone",
@@ -790624,10 +790697,13 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Speaker Diameter: 50mm",
-   "Connectivity: Bluetooth 5.3, 2.4G wireless, and wired",
-   "Battery capacity: 1000mAh",
-   "Battery life: about 55 hours"
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Cable Length: 6.5 ft.",
+   "Color: Black"
   ],
   "key": "headphone|b15 headphone mode onikuma tri wireless",
   "name": "Onikuma B15 Tri-mode Wireless Gaming Headphone",
@@ -790719,10 +790795,13 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Driver Diameter: 40mm",
-   "Connectivity: Tri-mode (2.4G Wireless / Bluetooth 5.3 / Wired)",
-   "Battery Capacity: 850mAh",
-   "RGB Lighting: Customizable Cat Ear RGB"
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm, USB-C",
+   "Plug Details: 3.5mm, USB Type-C",
+   "Cable Length: Not Applicable",
+   "Color: White"
   ],
   "key": "headphone|b5 headset mode onikuma rgb tri wireless",
   "name": "Onikuma B5 Tri-Mode RGB Wireless Gaming Headset",
@@ -794216,10 +794295,13 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Speaker Diameter: 50mm",
-   "Interface: Wired",
-   "Omnidirectional, RGB Light, Detachable HD Mic",
-   "Multi-Platform Compatibility, Virtual Stereo Sound"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Cable Length: 7.2 ft.",
+   "Color: Black"
   ],
   "key": "headphone|headphone onikuma pro rgb wired x15",
   "name": "Onikuma X15 Pro Wired RGB Gaming Headphone",
@@ -806411,10 +806493,12 @@
   "category": "headphone",
   "created": "2026-11-11",
   "features": [
-   "Bluetooth Version: 5.4",
-   "Playing Time: 82 Hours",
+   "Type: Regular",
    "Connection Type: Wireless",
-   "Charging Time: Approx. 2 hours"
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: Not Applicable",
+   "Color: Graphite Gray"
   ],
   "key": "headphone|917 bluetooth boompop ear graphite gray headphone ohp oraimo over pro",
   "name": "Oraimo BoomPop Pro Bluetooth Graphite Gray Over-Ear Headphone #OHP-917",
@@ -876491,10 +876575,11 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Razer HyperSpeed Wireless",
-   "Razer TriForce Titanium 50mm Drivers",
-   "Razer HyperClear Supercardioid Mic",
-   "Compatible: PC, Mac, PS4, Nintendo Switch"
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Color: Black"
   ],
   "key": "headphone|blackshark headset pro razer v2 wireless",
   "name": "Razer BlackShark V2 Pro Wireless Gaming Headset",
@@ -980150,13 +980235,10 @@
   "category": "feature-phone",
   "created": "2026-11-11",
   "features": [
-   "Cellular Network: 2G",
-   "Physical SIM: 2 x SIM",
-   "Display Size (Inch): 1.77",
-   "Screen/Display Type: QQVGA",
-   "Memory Card Type: MicroSD",
-   "Battery Details: Li-ion",
-   "Color: Navy Blue"
+   "Display: 1.77-inch QQVGA Display",
+   "SIM: Dual SIM",
+   "Battery: Li-Ion 1000mAh",
+   "Features: Torch Light, Wireless FM Radio with recording"
   ],
   "key": "feature-phone|a30 blue dual feature navy phone sim symphony",
   "name": "Symphony A30 Navy Blue Dual SIM Feature Phone",
@@ -981529,12 +981611,10 @@
   "category": "feature-phone",
   "created": "2026-11-11",
   "features": [
-   "Cellular Network: 2G",
-   "Physical SIM: 2 x SIM",
-   "Display Size (Inch): 2.4",
-   "Memory Card Type: MicroSD",
-   "Battery Details: Li-ion",
-   "Color: Navy Blue"
+   "Display: 2.4 inch Display",
+   "SIM: Dual 2G Sim Supported",
+   "Battery: Li-Ion 2000mAh",
+   "2000 Phonebook, Big Torch, Type-C, Wireless FM"
   ],
   "key": "feature-phone|blue feature l70 navy phone symphony",
   "name": "Symphony L70 Navy Blue Feature Phone (Dual Sim)",
@@ -1189954,13 +1190034,10 @@
   "category": "feature-phone",
   "created": "2026-11-11",
   "features": [
-   "Cellular Network: 2G",
-   "Physical SIM: 2 x Sim",
-   "Display Size (Inch): 2.4",
-   "Screen/Display Type: TFT Display",
-   "Memory Card Type: MicroSD",
-   "Battery Details: 1500mAh",
-   "Color: Blue"
+   "Display: 2.4\" Large Color Cryestal Clean Display",
+   "SIM: Dual SIM, MicroSD Card Support",
+   "1000 Contacts & 500 Messages Storage",
+   "Battery: Li-Poly 1500mAh, Type-C, Torch"
   ],
   "key": "feature-phone|blue feature phone x40 xtra",
   "name": "Xtra X40 Blue Feature Phone (Dual Sim)",

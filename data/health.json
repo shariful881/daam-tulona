@@ -1,48 +1,36 @@
 {
  "date": "2026-11-21",
- "scraped_at": "2026-11-21T02:00+06:00",
+ "scraped_at": "2026-11-21T05:40+06:00",
  "stores": {
   "startech": {
    "enabled": true,
    "items": 32205,
    "errors": [],
-   "seconds": 1835,
+   "seconds": 1826,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1430,
+   "seconds": 1434,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3091,
    "errors": [],
-   "seconds": 1138,
+   "seconds": 1134,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4034,
    "errors": [
-    "tablet: স্টোর ব্লক করেছে (503 https://www.creatus.com.bd/tablet-pc?page=5); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
+    "portable-ssd: স্টোর ব্লক করেছে (503 https://www.creatus.com.bd/portable-ssd?page=2); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
    ],
-   "seconds": 23,
+   "seconds": 309,
    "failed_cats": [
-    "tablet",
-    "gaming-laptop",
-    "laptop",
-    "laptop-bag",
-    "gaming-pc",
-    "all-in-one-pc",
-    "desktop-pc",
-    "processor",
-    "motherboard",
-    "graphics-card",
-    "desktop-ram",
-    "laptop-ram",
     "portable-ssd",
     "ssd",
     "portable-hdd",
@@ -99,7 +87,7 @@
     "tv",
     "ac"
    ],
-   "partial_fail": "আজ 80টি, আগের রানে 4034টি — আগের দাম রাখা হয়েছে"
+   "partial_fail": "আজ 1065টি, আগের রানে 4034টি — আগের দাম রাখা হয়েছে"
   },
   "smartbd": {
    "enabled": true,
@@ -147,7 +135,7 @@
     "server: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/servers/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
     "os-office: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/software/microsoft/operating-system/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
    ],
-   "seconds": 1918,
+   "seconds": 1912,
    "failed_cats": [
     "tablet",
     "laptop",
@@ -196,28 +184,28 @@
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 497,
+   "seconds": 483,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 20,
+   "seconds": 19,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 690,
+   "seconds": 688,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 27512,
+   "items": 27917,
    "errors": [],
-   "seconds": 9779,
+   "seconds": 9499,
    "failed_cats": []
   },
   "techland": {
@@ -362,14 +350,14 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 625,
+   "seconds": 611,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 396,
    "errors": [],
-   "seconds": 139,
+   "seconds": 136,
    "failed_cats": []
   },
   "computervision": {
@@ -378,43 +366,43 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3055,
+   "seconds": 3024,
    "failed_cats": [],
-   "matched": 6943,
+   "matched": 6945,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 3959,
+   "items": 4206,
    "errors": [],
-   "seconds": 1890,
+   "seconds": 1934,
    "failed_cats": [],
-   "matched": 2689,
-   "scraped": 3907
+   "matched": 2665,
+   "scraped": 4142
   },
   "pqs": {
    "enabled": true,
    "items": 11497,
    "errors": [],
-   "seconds": 1430,
+   "seconds": 1417,
    "failed_cats": [],
-   "matched": 7336,
+   "matched": 7332,
    "scraped": 11404
   },
   "bme": {
    "enabled": true,
    "items": 9225,
    "errors": [],
-   "seconds": 2298,
+   "seconds": 2308,
    "failed_cats": [],
-   "matched": 3977,
+   "matched": 3973,
    "scraped": 9225
   },
   "selltech": {
    "enabled": true,
    "items": 1178,
    "errors": [],
-   "seconds": 399,
+   "seconds": 420,
    "failed_cats": [],
    "matched": 777,
    "scraped": 1176
