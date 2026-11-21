@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Specifications": {
+   "Image Sensor": "1/3.2\" CMOS;(Some Models)",
+   "Max. Resolution": "2304 (H) × 1296 (V);(Some Models)",
+   "Illumination Distance": "Up to 10 m (32.81 ft) (IR LED)\nUp to 10 m (32.81 ft) (Warm light);(Some Models)",
+   "Illuminator Number": "1 (Multi-core (IR + warm) light);(Some Models)",
+   "Lens Type": "Fixed-focal;(Some Models)",
+   "Focal Length": "2.8 mm;(Some Models)",
+   "Max. Aperture": "F1.6;(Some Models)",
+   "Field of View": "H: 87°; V: 49°; D: 101°;(Some Models)",
+   "Human Detection": "Yes;(Some Models)",
+   "Pet Detection": "Yes;(Some Models)",
+   "Video Compression": "H.265; H.264; H.264H; H.264B;(Some Models)",
+   "Day/Night": "Auto(ICR)/Color/B/W;(Some Models)",
+   "WDR": "DWDR;(Some Models)",
+   "Motion Detection": "Yes;(Some Models)",
+   "Digital Zoom": "5×;(Some Models)",
+   "Built-in MIC": "Yes, built-in dual Mic;(Some Models)",
+   "Built-in Speaker": "max sound level at 10 cm: 110 dB",
+   "Audio Compression": "G.711a; G.711Mu; PCM;(Some Models)",
+   "Network Port": "RJ-45 (10/100 Base-T);(Some Models)",
+   "Wi-Fi Pairing": "Bluetooth pairing;(Some Models)",
+   "Storage": "Micro SD card (supports max 512 GB);(Some Models)",
+   "Management Software": "DMSS;(Some Models)",
+   "Mobile Client": "Android;iOS;(Some Models)",
+   "Abnormal Sound Alarm": "Yes;(Some Models)",
+   "Privacy Mode": "Yes;(Some Models)",
+   "Power Supply": "5 VDC (±5%);(Some Models)",
+   "Power Consumption": "Basic: 1.6 W (5 VDC)",
+   "Operating Temperature": "–10 °C to +45 °C (+14 °F to +113 °F);(Some Models)",
+   "Operating Humidity": "≤95% (RH), non-condensing;(Some Models)",
+   "Anti-corrosion Level": "Basic Protection",
+   "Camera Button": "Reset Button;(Some Models)",
+   "Casing Material": "Plastic;(Some Models)",
+   "Product Dimensions": "98 mm × 111 mm × 96 mm (3.86\" × 4.37\" × 3.78\") (L × W × H);(Some Models)",
+   "Net Weight": "0.2 kg (0.44 lb);(Some Models)"
+  },
+  "Angle Adjustment": {
+   "Pan": "0° to 355°",
+   "Tilt": "–55° to 60°;(Some Models)"
+  },
+  "Video Frame Rate": {
+   "Main stream": "2304 × 1296@15 fps, max up to 25 fps",
+   "Sub stream": "640 × 360@15 fps, max up to 25 fps\n*The values above are the max frame rates of each stream; for multiple streams, the values will be subjected to the total encoding capacity.;(Some Models)"
+  },
+  "Video Bit Rate": {
+   "H.264": "12 kbps–4096 kbps",
+   "H.265": "32 kbps–4096 kbps;(Some Models)"
+  },
+  "Certifications": {
+   "CE-LVD": "EN62368-1",
+   "CE-EMC": "Electromagnetic Compatibility Directive 2014/30/EU",
+   "CE-RED": "Radio Equipment Directive 2014/53/EU;(Some Models)"
+  }
+ },
+ "key_features": [],
+ "fetched": "2026-11-21T21:29+06:00",
+ "source": "https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/hero-h3js",
+ "brand_site": "Dahua"
+}
