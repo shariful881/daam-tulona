@@ -1,0 +1,77 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Core 7 Processor 240H",
+   "Number Of Cores": "10",
+   "Number Of Threads": "16",
+   "Cache": "24MB",
+   "Processor Speed": "2.5 GHz (up to 5.2 GHz)"
+  },
+  "Storage": {
+   "Storage Type": "M.2 NVMe PCIe 4.0 SSD",
+   "Storage Capacity": "1TB"
+  },
+  "Graphics": {
+   "Graphics Type": "Integrated Intel Graphics"
+  },
+  "Ports & Slots": {
+   "USB": "1x USB 3.2 Gen 1 Type-C, 3x USB 3.2 Gen 1 Type-A, 1x USB 2.0 Type-A",
+   "HDMI Port": "1x HDMI out 1.4"
+  },
+  "Network & Connectivity": {
+   "Lan": "1x RJ45 Gigabit Ethernet",
+   "WiFi": "Wi-Fi 7 (802.11be), Triple band 2x2",
+   "Bluetooth": "Bluetooth 5.4"
+  },
+  "Security": {
+   "Security Feature": "BIOS booting user password protection, HDD user password protection, Kensington security slot"
+  },
+  "Software": {
+   "Operating System": "Free DOS"
+  },
+  "Camera": {
+   "Camera": "1080p FHD camera with IR function"
+  },
+  "Keyboard": {
+   "Keyboard": "Wired black keyboard (USB)"
+  },
+  "Mouse": {
+   "Mouse": "Wired optical mouse (USB)"
+  },
+  "Display": {
+   "Display Type": "LED Backlit, Anti-glare, Wide view, Non-touch",
+   "Screen Size": "27 inch",
+   "Resolution": "1920 x 1080 (FHD), 16:9",
+   "Brightness": "300 nits",
+   "Display Details": "27.0-inch, FHD, non-touch, wide view, anti-glare, LED backlit, 300 nits, 100% sRGB"
+  },
+  "Audio Features": {
+   "Audio Output": "Built-in speakers, 1x 3.5mm combo audio jack",
+   "Microphone (Built-In)": "Yes, built-in array microphone",
+   "Speaker (Built In)": "Yes, built-in speakers"
+  },
+  "Memory": {
+   "Memory Size": "16GB",
+   "Memory Type": "DDR5 5600MHz SO-DIMM (2 slots)"
+  },
+  "Others": {
+   "Other Features": "1080p IR camera with Windows Hello support, Kensington security slot, 93% screen-to-body ratio, 3-Year warranty"
+  },
+  "Power": {
+   "Adapter Type": "120W AC Adapter (Output: 20V DC, 6.0A; Input: 100~240V AC, 50/60Hz)"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Weight": "9.00 kg (19.84 lbs)",
+   "Dimensions": "61.3 x 44.7 x 1.7 ~ 21.0 cm (24.13\" x 17.60\" x 0.67\" ~ 8.27\")"
+  },
+  "Image": {
+   "Model": "ExpertCenter P400 AiO P470VAK"
+  }
+ },
+ "key_features": [],
+ "model": "ExpertCenter P400 AiO P470VAK",
+ "fetched": "2026-11-22T18:00+06:00",
+ "source": "https://www.creatus.com.bd/asus-expertcenter-p400-aio-p470vak-all-in-one-pc",
+ "store": "creatus"
+}

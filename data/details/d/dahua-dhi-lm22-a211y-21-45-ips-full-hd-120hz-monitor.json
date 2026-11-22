@@ -1,0 +1,46 @@
+{
+ "specs": {
+  "Display Features": {
+   "Color Depth": "6 bit + FRC",
+   "Color Range": "72% NTSC (typ.)",
+   "Display Size": "21.45 inch (Viewing size: 478.656 (H) × 260.28 (V) mm)",
+   "Panel Type": "IPS (LCD Technology with ELED backlight)",
+   "Resolution": "1920 (H) × 1080 (V) (Full HD)",
+   "Pixel pitch(MM)": "0.0831 mm × 0.241 mm",
+   "Viewing Angle": "178° (H) / 178° (V)",
+   "Aspect Ratio": "16:9",
+   "Brightness": "250 cd/m² (typ.)",
+   "Contrast Ratio": "1000:1",
+   "Refresh Rate": "100 Hz, overclocked to 120 Hz",
+   "Response Time": "OD 5 ms (MPRT 1 ms)"
+  },
+  "Main Features": {
+   "Input": "1 × VGA (1920 × 1080@75 Hz), 1 × HDMI 1.4 (1920 × 1080@120 Hz)"
+  },
+  "Display": {
+   "Display Features": "Screen-to-Body Ratio ≥85%, 102.7 PPI, Surface Treatment: Haze 25%, 3H, Flicker-free technology, 7 × 16 H operation, 30,000 hrs lifespan, 100 mm × 100 mm VESA wall mountable"
+  },
+  "External Features": {
+   "Dimensions": "491.4 mm × 290.8 mm × 45.2 mm (19.35\" × 11.45\" × 1.78\") (W × H × D), without wall-mount bracket",
+   "Weight": "Net Weight: 2.3 kg (5.07 lb); Gross Weight: 3.3 kg (7.28 lb)"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5°/20°"
+  },
+  "Power": {
+   "Power Consumption": "15.0 W (basic), 19.2 W (typ.), 20.0 W (max); Standby: <0.5 W (12 VDC, 2 A power adapter)"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Year Warranty"
+  },
+  "Image": {
+   "Model": "DHI-LM22-A211Y"
+  }
+ },
+ "key_features": [],
+ "model": "DHI-LM22-A211Y",
+ "warranty": "3 Year Warranty",
+ "fetched": "2026-11-22T18:00+06:00",
+ "source": "https://www.creatus.com.bd/dahua-dhi-lm22-a211y-monitor",
+ "store": "creatus"
+}

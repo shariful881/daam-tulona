@@ -1,0 +1,54 @@
+{
+ "specs": {
+  "Lamp Details": {
+   "Lamp Life": "20000h",
+   "Type": "LED"
+  },
+  "Projection Features": {
+   "Brightness": "450 ANSI Lumens",
+   "Contrast Ratio": "2000:1",
+   "Display Type": "LCD",
+   "Resolution": "1080p (1920 x 1080)",
+   "Video Formats": "1080p, 720p, AVC, MPEG-2, MPEG-4"
+  },
+  "Image Size": {
+   "Min. Image/Screen Size (Inch)": "40 Inch",
+   "Max. Image/Screen Size (Inch)": "120 Inch"
+  },
+  "Projection Distance": {
+   "Min. Projection Distance": "1.5 Meter",
+   "Max. Projection Distance": "3 Meter"
+  },
+  "External Features": {
+   "Dimensions": "110 x 140 x 150mm",
+   "Weight": "900gm"
+  },
+  "Audio Features": {
+   "Audio Formats": "ACC、FLAC、MP2、MP3、WAV、OGG..",
+   "Built-in Speaker": "3W x 2"
+  },
+  "Connectivity": {
+   "Interface": "USB 2.0",
+   "Power": "19V 3A"
+  },
+  "Physical Specification": {
+   "Color": "White"
+  },
+  "Warranty Information": {
+   "Warranty": "01 Year Service Warranty"
+  },
+  "Image": {
+   "Model": "Wanbo T2 Max"
+  }
+ },
+ "key_features": [
+  "Projection Distance: 1.5 to 3 Meters",
+  "Light Output (lumens): 450 ANSI Lumens",
+  "Display Resolution: 1080p (1920 x 1080)"
+ ],
+ "model": "Wanbo T2 Max",
+ "warranty": "01 Year Service Warranty",
+ "fetched": "2026-11-22T18:00+06:00",
+ "source": "https://www.creatus.com.bd/xiaomi-wanbo-t2-max-450-ansi-lumens-smart-android-portable-led-projector",
+ "store": "creatus"
+}

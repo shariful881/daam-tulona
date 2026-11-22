@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Feature": {
+   "Frequency": "5600MHz",
+   "Type": "DDR5"
+  },
+  "Key Features": {
+   "Capacity": "32GB",
+   "Latency": "Tested Latency 40-40-40-77"
+  },
+  "Physical Specification": {
+   "Heat Sink Color": "Heat Spreader Aluminum"
+  },
+  "Temperature": {
+   "Operating Voltage": "Tested Voltage 1.25"
+  },
+  "Physical dimension": {
+   "Pin": "288"
+  },
+  "Warranty Information": {
+   "Warranty": "Lifetime"
+  }
+ },
+ "key_features": [
+  "Memory Size: 32GB",
+  "Memory: DDR5 5600MHz",
+  "Number of Pins: 288 Pin",
+  "Tested Latency: 40-40-40-77, 1.25V"
+ ],
+ "warranty": "Lifetime",
+ "fetched": "2026-11-22T18:04+06:00",
+ "source": "https://www.pchouse.com.bd/corsair-dominator-platinum-rgb-32gb-ddr5-5600mhz-cl40-ram-white",
+ "store": "pchouse"
+}

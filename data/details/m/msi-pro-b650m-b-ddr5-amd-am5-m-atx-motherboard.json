@@ -1,0 +1,60 @@
+{
+ "specs": {
+  "Expansion Slots": {
+   "PCI": "1x PCI-E x16 slot\n1x PCI-E x1 slot\nPCI_E1 Gen PCIe 4.0 supports up to x16 (From CPU)\nPCI_E2 Gen PCIe 3.0 supports up to x1 (From Chipset)"
+  },
+  "Memory": {
+   "Type": "DDR5",
+   "Slots": "2",
+   "Supported Memory": "6800+(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800(JEDEC) MHz",
+   "Maximum Memory": "96GB"
+  },
+  "Graphics": {
+   "Graphics": "1x HDMI\nSupport HDMITM 2.1, maximum resolution of 4K 60Hz\n1x VGA\nSupport VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz"
+  },
+  "Connector & Ports": {
+   "HDMI": "1x HDMI",
+   "Display Port (s)": "1x DisplayPort",
+   "USB (s)": "2x USB 2.0 (Rear)\n4x USB 2.0 (Front)\n4x USB 3.2 Gen1 Type A (Rear)\n2x USB 3.2 Gen1 Type A (Front)",
+   "LAN Port (s)": "Realtek RTL8125BG 2.5G LAN",
+   "Supported Storage": "1x M.2\nM.2_1 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\n4x SATA 6G",
+   "RAID": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices",
+   "TPM (Trusted Platform Module )": "1x TPM pin header(Support TPM 2.0)",
+   "Audio": "Audio Connectors"
+  },
+  "Basic Information": {
+   "Supported CPU": "Supports AMD Ryzen 8000/ 7000 Series Desktop Processors\nSocket AM5",
+   "Chipset": "AMD B650",
+   "Form Factor": "mATX\n243.84mmx243.84mm",
+   "Audio": "Realtek ALC897 Codec\n7.1-Channel High Definition Audio"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years"
+  },
+  "Image": {
+   "Model": "PRO B650M-B"
+  },
+  "Product List": {
+   "Best MSI (Ryzen) Motherboard Price in BD": "Price",
+   "MSI B450M-A PRO MAX II DDR4  AM4 MTX Motherboard": "9,399৳\n9,800৳",
+   "MSI PRO B650M-A WIFI DDR5 AMD AM5 mATX Motherboard": "19,700৳\n21,500৳",
+   "MSI B450M-A PRO MAX AMD AM4 Motherboard": "8,699৳\n9,000৳",
+   "MSI PRO B650-S WIFI AMD AM5 ATX Gaming Motherboard": "20,000৳\n20,700৳",
+   "MSI PRO A620M-E DDR5 AMD AM5 mATX Motherboard": "10,000৳\n11,600৳",
+   "MSI B650M GAMING WIFI AM5 mATX Motherboard": "18,500৳\n19,300৳",
+   "MSI B450-A PRO MAX AMD GAMING MOTHERBOARD": "12,000৳\n12,500৳",
+   "MSI A520M-A PRO AM4 AMD ATX MOTHERBOARD": "7,300৳\n8,700৳"
+  }
+ },
+ "key_features": [
+  "Supported CPU: Ryzen 8000 / 7000 Series Processors for Socket AM5",
+  "Supported RAM: 2x DDR5, up to 6800+(OC) MHz",
+  "Graphics Output: 1x HDMI, 1x Display Port",
+  "Features: 2.5G LAN"
+ ],
+ "model": "PRO B650M-B",
+ "warranty": "3 Years",
+ "fetched": "2026-11-22T18:00+06:00",
+ "source": "https://www.creatus.com.bd/msi-pro-b650m-b-ddr5-amd-am5-m-atx-motherboard",
+ "store": "creatus"
+}
