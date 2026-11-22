@@ -1,5 +1,12 @@
 [
  {
+  "a": "asus-expertbook-p1-p1403cva-core-3-100u-14-fhd-laptop",
+  "b": "asus-expertbook-p1-p1403cva-core-3-100u-14-inch-fhd-laptop",
+  "score": 1.0,
+  "a_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14\" FHD Laptop",
+  "b_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14 Inch FHD Laptop"
+ },
+ {
   "a": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-am5-socket-processor-oem-tray-f",
   "b": "amd-ryzen-5-7600-3-8ghz-5-1ghz-6-core-38mb-cache-gaming-am5-socket-processor",
   "score": 1.0,
@@ -7,25 +14,25 @@
   "b_name": "AMD RYZEN 5 7600 3.8GHZ-5.1GHZ 6 CORE 38MB CACHE GAMING AM5 Socket PROCESSOR"
  },
  {
-  "a": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
+  "a": "ocpc-xt-ii-ddr4-3200mhz-8gb-desktop-ram",
+  "b": "ocpc-xt-ii-8gb-ddr4-3200mhz-desktop-ram-black",
   "score": 1.0,
-  "a_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
-  "b_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM"
+  "a_name": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM",
+  "b_name": "OCPC XT II 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
-  "a": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-black",
-  "b": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "b": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-black",
   "score": 1.0,
-  "a_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)",
-  "b_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM"
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM",
+  "b_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (BLACK)"
  },
  {
-  "a": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-white",
-  "b": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "a": "ocpc-x3-rgb-ddr4-3200mhz-8gb-desktop-ram",
+  "b": "ocpc-x3-rgb-8gb-ddr4-3200mhz-desktop-ram-white",
   "score": 1.0,
-  "a_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (WHITE)",
-  "b_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM"
+  "a_name": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM",
+  "b_name": "OCPC X3 RGB 8GB DDR4 3200MHZ DESKTOP RAM (WHITE)"
  },
  {
   "a": "team-t-force-delta-rgb-16gb-ddr5-6000mhz-cl38-desktop-ram",
@@ -42,18 +49,11 @@
   "b_name": "TEAM T-FORCE DELTA RGB 16GB DDR5 6000MHz CL38 Desktop RAM (White)"
  },
  {
-  "a": "netac-sa500-120gb-2-5-inch-sataiii-ssd",
-  "b": "netac-sa500-120gb-2-5-sataiii-ssd",
+  "a": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
+  "b": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
   "score": 1.0,
-  "a_name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac SA500 120GB 2.5\" SATAIII SSD"
- },
- {
-  "a": "netac-n535s-120gb-2-5-inch-sataiii-ssd",
-  "b": "netac-n535s-120gb-2-5-sataiii-ssd",
-  "score": 1.0,
-  "a_name": "Netac N535S 120GB 2.5-inch SATAIII SSD",
-  "b_name": "Netac N535S 120GB 2.5\" SATAIII SSD"
+  "a_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White",
+  "b_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White"
  },
  {
   "a": "netac-sa500-128gb-2-5-inch-sataiii-ssd",
@@ -63,11 +63,18 @@
   "b_name": "Netac SA500 128GB 2.5\" SATAIII SSD"
  },
  {
-  "a": "netac-n535s-240gb-2-5-inch-sataiii-ssd",
-  "b": "netac-n535s-240gb-2-5-sataiii-ssd",
+  "a": "netac-n535s-120gb-2-5-inch-sataiii-ssd",
+  "b": "netac-n535s-120gb-2-5-sataiii-ssd",
   "score": 1.0,
-  "a_name": "Netac N535S 240GB 2.5 Inch SATAIII SSD",
-  "b_name": "Netac N535S 240GB 2.5\" SATAIII SSD"
+  "a_name": "Netac N535S 120GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac N535S 120GB 2.5\" SATAIII SSD"
+ },
+ {
+  "a": "netac-sa500-120gb-2-5-inch-sataiii-ssd",
+  "b": "netac-sa500-120gb-2-5-sataiii-ssd",
+  "score": 1.0,
+  "a_name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
+  "b_name": "Netac SA500 120GB 2.5\" SATAIII SSD"
  },
  {
   "a": "netac-sa500-240gb-2-5-inch-sataiii-ssd",
@@ -77,81 +84,172 @@
   "b_name": "Netac SA500 240GB 2.5\" SATAIII SSD"
  },
  {
-  "a": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
-  "b": "oscoo-os002-256gb-2-5-sata-iii-ssd",
+  "a": "netac-n535s-240gb-2-5-inch-sataiii-ssd",
+  "b": "netac-n535s-240gb-2-5-sataiii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD",
-  "b_name": "OSCOO OS002 256GB 2.5'' SATA III SSD"
+  "a_name": "Netac N535S 240GB 2.5 Inch SATAIII SSD",
+  "b_name": "Netac N535S 240GB 2.5\" SATAIII SSD"
  },
  {
-  "a": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
-  "b": "oscoo-os001-256gb-2-5-sata-iii-ssd",
+  "a": "oscoo-os001-256gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os001-256gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD",
-  "b_name": "OSCOO OS001 256GB 2.5'' SATA III SSD"
+  "a_name": "OSCOO OS001 256GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS001 256GB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
-  "b": "miphi-mp100-256gb-2-5-sata-iii-ssd",
+  "a": "oscoo-os002-256gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-256gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD",
-  "b_name": "MiPhi MP100 256GB 2.5'' SATA III SSD"
+  "a_name": "OSCOO OS002 256GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 256GB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
-  "b": "oscoo-os002-512gb-2-5-sata-iii-ssd",
+  "a": "miphi-mp100-256gb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD",
-  "b_name": "OSCOO OS002 512GB 2.5'' SATA III SSD"
+  "a_name": "MiPhi MP100 256GB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
-  "b": "miphi-mp100-512gb-2-5-sata-iii-ssd",
+  "a": "oscoo-os002-512gb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-512gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD",
-  "b_name": "MiPhi MP100 512GB 2.5'' SATA III SSD"
+  "a_name": "OSCOO OS002 512GB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 512GB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
-  "b": "oscoo-os002-1tb-2-5-sata-iii-ssd",
+  "a": "miphi-mp100-512gb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD",
-  "b_name": "OSCOO OS002 1TB 2.5'' SATA III SSD"
+  "a_name": "MiPhi MP100 512GB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
-  "b": "miphi-mp100-1tb-2-5-sata-iii-ssd",
+  "a": "oscoo-os002-1tb-2-5-sata-iii-ssd",
+  "b": "oscoo-os002-1tb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD",
-  "b_name": "MiPhi MP100 1TB 2.5'' SATA III SSD"
+  "a_name": "OSCOO OS002 1TB 2.5'' SATA III SSD",
+  "b_name": "OSCOO OS002 1TB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "1stplayer-ts4-240-argb-liquid-cpu-cooler-black",
-  "b": "1stplayer-ts4-240-argb-liquid-cpu-cooler-white",
+  "a": "miphi-mp100-1tb-2-5-sata-iii-ssd",
+  "b": "miphi-mp100-1tb-2-5-inch-sata-iii-ssd",
   "score": 1.0,
-  "a_name": "1STPLAYER TS4 240 ARGB Liquid CPU Cooler (Black)",
-  "b_name": "1STPLAYER TS4 240 ARGB Liquid CPU Cooler (White)"
+  "a_name": "MiPhi MP100 1TB 2.5'' SATA III SSD",
+  "b_name": "MiPhi MP100 1TB 2.5 Inch SATA III SSD"
  },
  {
-  "a": "1stplayer-ts4-360-argb-liquid-cpu-cooler-black",
-  "b": "1stplayer-ts4-360-argb-liquid-cpu-cooler-white",
+  "a": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
+  "b": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-black",
   "score": 1.0,
-  "a_name": "1STPLAYER TS4 360 ARGB Liquid CPU Cooler (Black)",
-  "b_name": "1STPLAYER TS4 360 ARGB Liquid CPU Cooler (White)"
+  "a_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing",
+  "b_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (Black)"
  },
  {
-  "a": "arctic-p12-pro-a-rgb-120mm-reverse-casing-fan-3-pack",
-  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "a": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
+  "b": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-white",
   "score": 1.0,
-  "a_name": "Arctic P12 Pro A-RGB 120mm Reverse Casing Fan (3 Pack)",
-  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)"
+  "a_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing",
+  "b_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (White)"
  },
  {
-  "a": "arctic-p12-pro-a-rgb-reverse-120mm-casing-fan",
-  "b": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "a": "1stplayer-ts4-240-argb-liquid-cpu-cooler-white",
+  "b": "1stplayer-ts4-240-argb-liquid-cpu-cooler-black",
   "score": 1.0,
-  "a_name": "Arctic P12 Pro A-RGB Reverse 120mm Casing Fan",
-  "b_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)"
+  "a_name": "1STPLAYER TS4 240 ARGB Liquid CPU Cooler (White)",
+  "b_name": "1STPLAYER TS4 240 ARGB Liquid CPU Cooler (Black)"
+ },
+ {
+  "a": "1stplayer-ts4-360-argb-liquid-cpu-cooler-white",
+  "b": "1stplayer-ts4-360-argb-liquid-cpu-cooler-black",
+  "score": 1.0,
+  "a_name": "1STPLAYER TS4 360 ARGB Liquid CPU Cooler (White)",
+  "b_name": "1STPLAYER TS4 360 ARGB Liquid CPU Cooler (Black)"
+ },
+ {
+  "a": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "b": "arctic-p12-pro-a-rgb-120mm-reverse-casing-fan-3-pack",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)",
+  "b_name": "Arctic P12 Pro A-RGB 120mm Reverse Casing Fan (3 Pack)"
+ },
+ {
+  "a": "arctic-p12-pro-reverse-a-rgb-120mm-casing-fan-3-pack",
+  "b": "arctic-p12-pro-a-rgb-reverse-120mm-casing-fan",
+  "score": 1.0,
+  "a_name": "Arctic P12 Pro Reverse A-RGB 120mm Casing Fan (3 Pack)",
+  "b_name": "Arctic P12 Pro A-RGB Reverse 120mm Casing Fan"
+ },
+ {
+  "a": "cooler-master-vertical-graphics-card-holder-kit-v3-pcie-4-0",
+  "b": "cooler-master-kit-v3-vertical-graphics-card-holder",
+  "score": 1.0,
+  "a_name": "Cooler Master Vertical Graphics Card Holder Kit V3 (PCIe 4.0)",
+  "b_name": "Cooler Master Kit V3 Vertical Graphics Card Holder"
+ },
+ {
+  "a": "cooler-master-vertical-graphics-card-holder-kit-v3-pcie-4-0",
+  "b": "cooler-master-kit-v3-vertical-graphics-card-holder-white",
+  "score": 1.0,
+  "a_name": "Cooler Master Vertical Graphics Card Holder Kit V3 (PCIe 4.0)",
+  "b_name": "Cooler Master Kit V3 Vertical Graphics Card Holder (White)"
+ },
+ {
+  "a": "hp-spectre-x360-13-ap0046tu-13-3-convertible-touch-display",
+  "b": "hp-spectre-x360-13-ap0046tu-13-3-inch-convertible-touch-display",
+  "score": 1.0,
+  "a_name": "HP Spectre X360 13-AP0046TU 13.3\" Convertible Touch Display",
+  "b_name": "HP Spectre X360 13-AP0046TU 13.3 Inch Convertible Touch Display"
+ },
+ {
+  "a": "hp-spectre-x360-13-ap0046tu-13-3-convertible-touch-display",
+  "b": "hp-spectre-x360-13-ap0046tu-13-3-inch-convertible-touch-laptop-display",
+  "score": 1.0,
+  "a_name": "HP Spectre X360 13-AP0046TU 13.3\" Convertible Touch Display",
+  "b_name": "HP Spectre X360 13-AP0046TU 13.3 Inch Convertible Touch Laptop Display"
+ },
+ {
+  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
+  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-beige",
+  "score": 1.0,
+  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo",
+  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Beige)"
+ },
+ {
+  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
+  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-black",
+  "score": 1.0,
+  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo",
+  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Black)"
+ },
+ {
+  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-red-switch-saturn-stellar-edition",
+  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
+  "score": 1.0,
+  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Red Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
+  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
+ },
+ {
+  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-switch-saturn-stellar-editio",
+  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
+  "score": 1.0,
+  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
+  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
+ },
+ {
+  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
+  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-blue-switch",
+  "score": 1.0,
+  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
+  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Blue Switch)"
+ },
+ {
+  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
+  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-red-switch",
+  "score": 1.0,
+  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
+  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Red Switch)"
  },
  {
   "a": "t-wolf-t60-60-wired-rgb-mechanical-gaming-keyboard",
@@ -175,18 +273,60 @@
   "b_name": "Rapoo 9050S Multi-Mode Wireless Keyboard and Mouse Combo (White)"
  },
  {
-  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
-  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-blue-switch",
+  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
+  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-brown",
   "score": 1.0,
-  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
-  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Blue Switch)"
+  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
+  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Brown)"
  },
  {
-  "a": "pc-power-k82-rgb-wired-blue-switch-dark-blue-mechanical-gaming-keyboard",
-  "b": "pc-power-k82-rgb-wired-mechanical-keyboard-dark-blue-red-switch",
+  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
+  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-milk-tea",
   "score": 1.0,
-  "a_name": "Pc Power K82 RGB Wired (Blue Switch) Dark Blue Mechanical Gaming Keyboard",
-  "b_name": "PC Power K82 RGB Wired Mechanical Keyboard - Dark Blue (Red Switch)"
+  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
+  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Milk Tea)"
+ },
+ {
+  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
+  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-orange",
+  "score": 1.0,
+  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
+  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Orange)"
+ },
+ {
+  "a": "xo-kb12-dual-mode-wireless-keyboard",
+  "b": "xo-kb12-dual-mode-wireless-keyboard-green",
+  "score": 1.0,
+  "a_name": "XO KB12 Dual Mode Wireless Keyboard",
+  "b_name": "XO KB12 Dual Mode Wireless Keyboard (Green)"
+ },
+ {
+  "a": "xo-kb12-dual-mode-wireless-keyboard",
+  "b": "xo-kb12-dual-mode-wireless-keyboard-grey",
+  "score": 1.0,
+  "a_name": "XO KB12 Dual Mode Wireless Keyboard",
+  "b_name": "XO KB12 Dual Mode Wireless Keyboard (Grey)"
+ },
+ {
+  "a": "xo-kb12-dual-mode-wireless-keyboard",
+  "b": "xo-kb12-dual-mode-wireless-keyboard-pink",
+  "score": 1.0,
+  "a_name": "XO KB12 Dual Mode Wireless Keyboard",
+  "b_name": "XO KB12 Dual Mode Wireless Keyboard (Pink)"
+ },
+ {
+  "a": "xo-kb12-dual-mode-wireless-keyboard",
+  "b": "xo-kb12-dual-mode-wireless-keyboard-purple",
+  "score": 1.0,
+  "a_name": "XO KB12 Dual Mode Wireless Keyboard",
+  "b_name": "XO KB12 Dual Mode Wireless Keyboard (Purple)"
+ },
+ {
+  "a": "xo-kb12-dual-mode-wireless-keyboard",
+  "b": "xo-kb12-dual-mode-wireless-keyboard-yellow",
+  "score": 1.0,
+  "a_name": "XO KB12 Dual Mode Wireless Keyboard",
+  "b_name": "XO KB12 Dual Mode Wireless Keyboard (Yellow)"
  },
  {
   "a": "pc-power-obsidian-pgm-p7-bluetooth-mouse",
@@ -203,6 +343,34 @@
   "b_name": "PC Power OBSIDIAN PGM-P7 Bluetooth Mouse (White)"
  },
  {
+  "a": "a4tech-g3-200n-v-track-wireless-mouse",
+  "b": "a4tech-g3-200n-v-track-wireless-mouse-black-blue",
+  "score": 1.0,
+  "a_name": "A4TECH G3-200N V-TRACK Wireless Mouse",
+  "b_name": "A4TECH G3-200N V-TRACK Wireless Mouse (Black Blue)"
+ },
+ {
+  "a": "logitech-signature-m650-wireless-mouse",
+  "b": "logitech-m650-signature-wireless-mouse",
+  "score": 1.0,
+  "a_name": "Logitech Signature M650 Wireless Mouse",
+  "b_name": "Logitech M650 Signature wireless Mouse"
+ },
+ {
+  "a": "logitech-signature-m650-wireless-mouse",
+  "b": "logitech-m650-signature-wireless-mouse-pink",
+  "score": 1.0,
+  "a_name": "Logitech Signature M650 Wireless Mouse",
+  "b_name": "Logitech M650 Signature wireless Mouse (PINK)"
+ },
+ {
+  "a": "logitech-signature-m650-wireless-mouse",
+  "b": "logitech-signature-m650-wireless-mouse-off-white",
+  "score": 1.0,
+  "a_name": "Logitech Signature M650 Wireless Mouse",
+  "b_name": "Logitech Signature M650 Wireless Mouse (Off White)"
+ },
+ {
   "a": "logitech-g304-x-superlight-lightspeed-wireless-gaming-mouse",
   "b": "logitech-g304-x-superlight-lightspeed-wireless-gaming-mouse-black",
   "score": 1.0,
@@ -217,25 +385,445 @@
   "b_name": "Logitech G304 X SUPERLIGHT LIGHTSPEED Wireless Gaming Mouse (White)"
  },
  {
-  "a": "logitech-m650-signature-wireless-mouse",
-  "b": "logitech-signature-m650-wireless-mouse",
+  "a": "ajazz-aj039-v2-wired-gaming-mouse",
+  "b": "ajazz-aj039-v2-wired-gaming-mouse-black",
   "score": 1.0,
-  "a_name": "Logitech M650 Signature wireless Mouse",
-  "b_name": "Logitech Signature M650 Wireless Mouse"
+  "a_name": "AJAZZ AJ039 V2 Wired Gaming Mouse",
+  "b_name": "Ajazz AJ039 V2 Wired Gaming Mouse (Black)"
  },
  {
-  "a": "logitech-m650-signature-wireless-mouse-pink",
-  "b": "logitech-signature-m650-wireless-mouse",
+  "a": "ajazz-aj039-v2-wired-gaming-mouse",
+  "b": "ajazz-aj039-v2-wired-gaming-mouse-white",
   "score": 1.0,
-  "a_name": "Logitech M650 Signature wireless Mouse (PINK)",
-  "b_name": "Logitech Signature M650 Wireless Mouse"
+  "a_name": "AJAZZ AJ039 V2 Wired Gaming Mouse",
+  "b_name": "Ajazz AJ039 V2 Wired Gaming Mouse (White)"
  },
  {
-  "a": "logitech-signature-m650-wireless-mouse",
-  "b": "logitech-signature-m650-wireless-mouse-off-white",
+  "a": "ajazz-nj08-ultra-tri-mode-wireless-gaming-mouse",
+  "b": "ajazz-nj08-ultra-tri-mode-wireless-gaming-mouse-black",
   "score": 1.0,
-  "a_name": "Logitech Signature M650 Wireless Mouse",
-  "b_name": "Logitech Signature M650 Wireless Mouse (Off White)"
+  "a_name": "AJAZZ NJ08 Ultra Tri-Mode Wireless Gaming Mouse",
+  "b_name": "AJAZZ NJ08 Ultra Tri-Mode Wireless Gaming Mouse (Black)"
+ },
+ {
+  "a": "ajazz-nj08-ultra-tri-mode-wireless-gaming-mouse",
+  "b": "ajazz-nj08-ultra-tri-mode-wireless-gaming-mouse-white",
+  "score": 1.0,
+  "a_name": "AJAZZ NJ08 Ultra Tri-Mode Wireless Gaming Mouse",
+  "b_name": "AJAZZ NJ08 Ultra Tri-Mode Wireless Gaming Mouse (White)"
+ },
+ {
+  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
+  "b": "fantech-go-w193d-dual-mode-wireless-mouse-beige",
+  "score": 1.0,
+  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
+  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Beige)"
+ },
+ {
+  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
+  "b": "fantech-go-w193d-dual-mode-wireless-mouse-black",
+  "score": 1.0,
+  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
+  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Black)"
+ },
+ {
+  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
+  "b": "fantech-go-w193d-dual-mode-wireless-mouse-red",
+  "score": 1.0,
+  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
+  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Red)"
+ },
+ {
+  "a": "dareu-a950gm-tri-mode-wireless-gaming-mouse",
+  "b": "dareu-a950gm-tri-mode-wireless-gaming-mouse-black",
+  "score": 1.0,
+  "a_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse",
+  "b_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse (Black)"
+ },
+ {
+  "a": "dareu-a950gm-tri-mode-wireless-gaming-mouse",
+  "b": "dareu-a950gm-tri-mode-wireless-gaming-mouse-white",
+  "score": 1.0,
+  "a_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse",
+  "b_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse (White)"
+ },
+ {
+  "a": "steelseries-rival-3-wireless-gen-2-gaming-mouse",
+  "b": "steelseries-rival-3-wireless-gen-2-gaming-mouse-black",
+  "score": 1.0,
+  "a_name": "SteelSeries Rival 3 Wireless Gen 2 Gaming Mouse",
+  "b_name": "SteelSeries Rival 3 Wireless Gen 2 Gaming Mouse (Black)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-black",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Black)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-grey",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Grey)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-white",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (White)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-grey-black",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-black",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Grey-Black)",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Black)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-grey-black",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-grey",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Grey-Black)",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Grey)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-grey-black",
+  "b": "x-raypad-aqua-control-plus-xl-gaming-mouse-pad-white",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (Grey-Black)",
+  "b_name": "X-raypad Aqua Control Plus XL Gaming Mouse Pad (White)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-grey-black",
+  "b": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-black",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Grey-Black)",
+  "b_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Black)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-grey-black",
+  "b": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-blue",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Grey-Black)",
+  "b_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Blue)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad",
+  "b": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-black",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad",
+  "b_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Black)"
+ },
+ {
+  "a": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad",
+  "b": "x-raypad-aqua-control-plus-xxl-gaming-mouse-pad-blue",
+  "score": 1.0,
+  "a_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad",
+  "b_name": "X-raypad Aqua Control Plus XXL Gaming Mouse Pad (Blue)"
+ },
+ {
+  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-red",
+  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
+  "score": 1.0,
+  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Red)",
+  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
+ },
+ {
+  "a": "hyperx-cloud-ii-surround-sound-gaming-headset-gun-metal",
+  "b": "hyperx-cloud-ii-surround-sound-gaming-headset",
+  "score": 1.0,
+  "a_name": "HyperX Cloud II Surround Sound Gaming Headset (Gun Metal)",
+  "b_name": "Hyperx Cloud II Surround Sound Gaming Headset"
+ },
+ {
+  "a": "yanmai-gm-610-usb-gaming-microphone",
+  "b": "yanmai-gm-610-usb-gaming-microphone-beige",
+  "score": 1.0,
+  "a_name": "Yanmai GM-610 USB Gaming Microphone",
+  "b_name": "Yanmai GM-610 USB Gaming Microphone (Beige)"
+ },
+ {
+  "a": "yanmai-gm-610-usb-gaming-microphone",
+  "b": "yanmai-gm-610-usb-gaming-microphone-black",
+  "score": 1.0,
+  "a_name": "Yanmai GM-610 USB Gaming Microphone",
+  "b_name": "Yanmai GM-610 USB Gaming Microphone (Black)"
+ },
+ {
+  "a": "edifier-es60-portable-bluetooth-speaker",
+  "b": "edifier-es60-portable-bluetooth-speaker-white",
+  "score": 1.0,
+  "a_name": "Edifier ES60 Portable Bluetooth Speaker",
+  "b_name": "Edifier ES60 Portable Bluetooth Speaker (White)"
+ },
+ {
+  "a": "edifier-es60-portable-bluetooth-speaker",
+  "b": "edifier-es60-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Edifier ES60 Portable Bluetooth Speaker",
+  "b_name": "Edifier ES60 Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "microlab-twinkle-star-1-mini-portable-bluetooth-speaker",
+  "b": "microlab-twinkle-star-1-mini-bluetooth-portable-speaker-black",
+  "score": 1.0,
+  "a_name": "Microlab Twinkle Star 1 Mini Portable Bluetooth Speaker",
+  "b_name": "Microlab Twinkle Star 1 Mini Bluetooth Portable Speaker (Black)"
+ },
+ {
+  "a": "microlab-twinkle-star-1-mini-portable-bluetooth-speaker",
+  "b": "microlab-twinkle-star-1-mini-bluetooth-portable-speaker-green",
+  "score": 1.0,
+  "a_name": "Microlab Twinkle Star 1 Mini Portable Bluetooth Speaker",
+  "b_name": "Microlab Twinkle Star 1 Mini Bluetooth Portable Speaker (Green)"
+ },
+ {
+  "a": "fantech-nerabox-bs153-portable-bluetooth-speaker",
+  "b": "fantech-nerabox-bs153-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Fantech NeraBox BS153 Portable Bluetooth Speaker",
+  "b_name": "Fantech NeraBox BS153 Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "fantech-nerabox-bs153-portable-bluetooth-speaker",
+  "b": "fantech-nerabox-bs153-portable-bluetooth-speaker-grey",
+  "score": 1.0,
+  "a_name": "Fantech NeraBox BS153 Portable Bluetooth Speaker",
+  "b_name": "Fantech NeraBox BS153 Portable Bluetooth Speaker (Grey)"
+ },
+ {
+  "a": "hifuture-lino-s-portable-bluetooth-speaker",
+  "b": "hifuture-lino-s-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
+  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "hifuture-lino-s-portable-bluetooth-speaker",
+  "b": "hifuture-lino-s-portable-bluetooth-speaker-blue",
+  "score": 1.0,
+  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
+  "b_name": "HiFuture LINO S Portable Bluetooth Speaker (Blue)"
+ },
+ {
+  "a": "hifuture-lino-s-portable-bluetooth-speaker",
+  "b": "hifuture-lino-s-portable-bluetooth-speaker-green",
+  "score": 1.0,
+  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
+  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Green)"
+ },
+ {
+  "a": "hifuture-lino-s-portable-bluetooth-speaker",
+  "b": "hifuture-lino-s-portable-bluetooth-speaker-latte",
+  "score": 1.0,
+  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
+  "b_name": "HiFuture LINO S Portable Bluetooth Speaker (Latte)"
+ },
+ {
+  "a": "hifuture-lino-s-portable-bluetooth-speaker",
+  "b": "hifuture-lino-s-portable-bluetooth-speaker-purple",
+  "score": 1.0,
+  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
+  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Purple)"
+ },
+ {
+  "a": "hifuture-alpha-portable-bluetooth-speaker",
+  "b": "hifuture-alpha-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
+  "b_name": "HiFuture Alpha Portable Bluetooth Speaker(Black)"
+ },
+ {
+  "a": "hifuture-alpha-portable-bluetooth-speaker",
+  "b": "hifuture-alpha-portable-bluetooth-speaker-blue",
+  "score": 1.0,
+  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
+  "b_name": "HiFuture Alpha Portable Bluetooth Speaker(Blue)"
+ },
+ {
+  "a": "hifuture-alpha-portable-bluetooth-speaker",
+  "b": "hifuture-alpha-portable-bluetooth-speaker-red",
+  "score": 1.0,
+  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
+  "b_name": "HiFuture Alpha Portable Bluetooth Speaker (Red)"
+ },
+ {
+  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
+  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
+  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
+  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-golden-black",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
+  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Golden Black)"
+ },
+ {
+  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
+  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-green",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
+  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Green)"
+ },
+ {
+  "a": "harman-kardon-onyx-studio-8-bluetooth-speaker",
+  "b": "harman-kardon-onyx-studio-8-bluetooth-speaker-biege",
+  "score": 1.0,
+  "a_name": "Harman Kardon Onyx Studio 8 Bluetooth Speaker",
+  "b_name": "Harman Kardon Onyx Studio 8 Bluetooth Speaker (Biege)"
+ },
+ {
+  "a": "harman-kardon-onyx-studio-8-bluetooth-speaker",
+  "b": "harman-kardon-onyx-studio-8-bluetooth-speaker-blue",
+  "score": 1.0,
+  "a_name": "Harman Kardon Onyx Studio 8 Bluetooth Speaker",
+  "b_name": "Harman Kardon Onyx Studio 8 Bluetooth Speaker (Blue)"
+ },
+ {
+  "a": "monster-blaster-micro-portable-bluetooth-speaker",
+  "b": "monster-blaster-micro-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Monster Blaster Micro Portable Bluetooth Speaker",
+  "b_name": "Monster Blaster Micro Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "monster-blaster-micro-portable-bluetooth-speaker",
+  "b": "monster-blaster-micro-portable-bluetooth-speaker-green",
+  "score": 1.0,
+  "a_name": "Monster Blaster Micro Portable Bluetooth Speaker",
+  "b_name": "Monster Blaster Micro Portable Bluetooth Speaker (Green)"
+ },
+ {
+  "a": "monster-cube-1-portable-bluetooth-speaker",
+  "b": "monster-cube-1-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Monster Cube 1 Portable Bluetooth Speaker",
+  "b_name": "Monster Cube 1 Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "monster-cube-1-portable-bluetooth-speaker",
+  "b": "monster-cube-1-portable-bluetooth-speaker-grey",
+  "score": 1.0,
+  "a_name": "Monster Cube 1 Portable Bluetooth Speaker",
+  "b_name": "Monster Cube 1 Portable Bluetooth Speaker (Grey)"
+ },
+ {
+  "a": "monster-s150-plus-portable-bluetooth-speaker",
+  "b": "monster-s150-plus-portable-bluetooth-speaker-black",
+  "score": 1.0,
+  "a_name": "Monster S150 Plus Portable Bluetooth Speaker",
+  "b_name": "Monster S150 Plus Portable Bluetooth Speaker (Black)"
+ },
+ {
+  "a": "monster-s150-plus-portable-bluetooth-speaker",
+  "b": "monster-s150-plus-portable-bluetooth-speaker-blue",
+  "score": 1.0,
+  "a_name": "Monster S150 Plus Portable Bluetooth Speaker",
+  "b_name": "Monster S150 Plus Portable Bluetooth Speaker (Blue)"
+ },
+ {
+  "a": "colmi-p28-plus-smartwatch",
+  "b": "colmi-p28-plus-smartwatch-black",
+  "score": 1.0,
+  "a_name": "COLMI P28 Plus Smartwatch",
+  "b_name": "COLMI P28 Plus Smartwatch (Black)"
+ },
+ {
+  "a": "colmi-p28-plus-smartwatch",
+  "b": "colmi-p28-plus-smartwatch-gold",
+  "score": 1.0,
+  "a_name": "COLMI P28 Plus Smartwatch",
+  "b_name": "COLMI P28 Plus Smartwatch (Gold)"
+ },
+ {
+  "a": "colmi-p28-plus-smartwatch",
+  "b": "colmi-p28-plus-smartwatch-pink",
+  "score": 1.0,
+  "a_name": "COLMI P28 Plus Smartwatch",
+  "b_name": "COLMI P28 Plus Smartwatch (Pink)"
+ },
+ {
+  "a": "colmi-p28-plus-smartwatch",
+  "b": "colmi-p28-plus-smartwatch-silver",
+  "score": 1.0,
+  "a_name": "COLMI P28 Plus Smartwatch",
+  "b_name": "COLMI P28 Plus Smartwatch (silver)"
+ },
+ {
+  "a": "qcy-ailybuds-pro-ht10-anc-earbuds",
+  "b": "qcy-ailybuds-pro-ht10-anc-earbuds-black",
+  "score": 1.0,
+  "a_name": "QCY AilyBuds Pro HT10 ANC Earbuds",
+  "b_name": "QCY AilyBuds Pro HT10 ANC Earbuds (Black)"
+ },
+ {
+  "a": "qcy-ailybuds-pro-ht10-anc-earbuds",
+  "b": "qcy-ailybuds-pro-ht10-anc-earbuds-white",
+  "score": 1.0,
+  "a_name": "QCY AilyBuds Pro HT10 ANC Earbuds",
+  "b_name": "QCY AilyBuds Pro HT10 ANC Earbuds (White)"
+ },
+ {
+  "a": "baseus-storm-3-true-wireless-earbuds",
+  "b": "baseus-storm-3-true-wireless-earbuds-black",
+  "score": 1.0,
+  "a_name": "Baseus Storm 3 True Wireless Earbuds",
+  "b_name": "BASEUS STORM 3 TRUE WIRELESS EARBUDS (BLACK)"
+ },
+ {
+  "a": "joyroom-funpods-series-jr-fn2-true-wireless-earbuds",
+  "b": "joyroom-funpods-series-jr-fn2-true-wireless-earbuds-black",
+  "score": 1.0,
+  "a_name": "Joyroom Funpods Series JR-FN2 True Wireless Earbuds",
+  "b_name": "Joyroom Funpods Series JR-FN2 True Wireless Earbuds (Black)"
+ },
+ {
+  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
+  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-black",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
+  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (Black)"
+ },
+ {
+  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
+  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-blue",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
+  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (Blue)"
+ },
+ {
+  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
+  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-glossy-black",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
+  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds ( Glossy Black)"
+ },
+ {
+  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
+  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-white",
+  "score": 1.0,
+  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
+  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (White)"
+ },
+ {
+  "a": "xinji-stone-m3-true-wireless-earbuds",
+  "b": "xinji-stone-m3-true-wireless-earbuds-black-white",
+  "score": 1.0,
+  "a_name": "XINJI Stone M3 True Wireless Earbuds",
+  "b_name": "XINJI Stone M3 True Wireless Earbuds (Black/White)"
+ },
+ {
+  "a": "xinji-stone-m3-true-wireless-earbuds",
+  "b": "xinji-stone-m3-true-wireless-earbuds-green-grey",
+  "score": 1.0,
+  "a_name": "XINJI Stone M3 True Wireless Earbuds",
+  "b_name": "XINJI Stone M3 True Wireless Earbuds (Green/Grey)"
  },
  {
   "a": "microlab-wisepods-20-tws-bluetooth-earbuds",
@@ -264,13 +852,6 @@
   "score": 1.0,
   "a_name": "Microlab Wisepods 30 TWS Bluetooth Earbuds",
   "b_name": "Microlab Wisepods 30 TWS Bluetooth Earbuds (Cream)"
- },
- {
-  "a": "joyroom-funpods-series-jr-fn2-true-wireless-earbuds",
-  "b": "joyroom-funpods-series-jr-fn2-true-wireless-earbuds-black",
-  "score": 1.0,
-  "a_name": "Joyroom Funpods Series JR-FN2 True Wireless Earbuds",
-  "b_name": "Joyroom Funpods Series JR-FN2 True Wireless Earbuds (Black)"
  },
  {
   "a": "jbl-wave-flex-2-true-wireless-earbuds",
@@ -308,18 +889,193 @@
   "b_name": "JBL Tour Pro 3 True Wireless Noise Cancelling Earbuds (Latte)"
  },
  {
-  "a": "logitech-g333-in-ear-gaming-earphone-purple",
-  "b": "logitech-g333-in-ear-gaming-earphone",
+  "a": "xo-ep57-wired-3-5mm-earphone",
+  "b": "xo-ep57-wired-3-5mm-earphone-black",
   "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (Purple)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+  "a_name": "XO EP57 Wired 3.5mm Earphone",
+  "b_name": "XO EP57 Wired 3.5mm Earphone (Black)"
  },
  {
-  "a": "logitech-g333-in-ear-gaming-earphone-white",
-  "b": "logitech-g333-in-ear-gaming-earphone",
+  "a": "xo-ep57-wired-3-5mm-earphone",
+  "b": "xo-ep57-wired-3-5mm-earphone-red",
   "score": 1.0,
-  "a_name": "Logitech G333 In-Ear Gaming Earphone (White)",
-  "b_name": "Logitech G333 In-Ear Gaming Earphone"
+  "a_name": "XO EP57 Wired 3.5mm Earphone",
+  "b_name": "XO EP57 Wired 3.5mm Earphone (Red)"
+ },
+ {
+  "a": "xo-ep57-wired-3-5mm-earphone",
+  "b": "xo-ep57-wired-3-5mm-earphone-white",
+  "score": 1.0,
+  "a_name": "XO EP57 Wired 3.5mm Earphone",
+  "b_name": "XO EP57 Wired 3.5mm Earphone (White)"
+ },
+ {
+  "a": "xo-ep39-wired-3-5mm-earphone",
+  "b": "xo-ep39-wired-3-5mm-earphone-black",
+  "score": 1.0,
+  "a_name": "XO EP39 Wired 3.5mm Earphone",
+  "b_name": "XO EP39 Wired 3.5mm Earphone (Black)"
+ },
+ {
+  "a": "xo-ep39-wired-3-5mm-earphone",
+  "b": "xo-ep39-wired-3-5mm-earphone-white",
+  "score": 1.0,
+  "a_name": "XO EP39 Wired 3.5mm Earphone",
+  "b_name": "XO EP39 Wired 3.5mm Earphone (White)"
+ },
+ {
+  "a": "xo-ep37-wired-3-5mm-earphone",
+  "b": "xo-ep37-wired-3-5mm-earphone-black",
+  "score": 1.0,
+  "a_name": "XO EP37 Wired 3.5mm Earphone",
+  "b_name": "XO EP37 Wired 3.5mm Earphone (Black)"
+ },
+ {
+  "a": "xo-ep37-wired-3-5mm-earphone",
+  "b": "xo-ep37-wired-3-5mm-earphone-grey",
+  "score": 1.0,
+  "a_name": "XO EP37 Wired 3.5mm Earphone",
+  "b_name": "XO EP37 Wired 3.5mm Earphone (Grey)"
+ },
+ {
+  "a": "xo-ep37-wired-3-5mm-earphone",
+  "b": "xo-ep37-wired-3-5mm-earphone-white",
+  "score": 1.0,
+  "a_name": "XO EP37 Wired 3.5mm Earphone",
+  "b_name": "XO EP37 Wired 3.5mm Earphone (White)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-purple",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (Purple)"
+ },
+ {
+  "a": "logitech-g333-in-ear-gaming-earphone",
+  "b": "logitech-g333-in-ear-gaming-earphone-white",
+  "score": 1.0,
+  "a_name": "Logitech G333 In-Ear Gaming Earphone",
+  "b_name": "Logitech G333 In-Ear Gaming Earphone (White)"
+ },
+ {
+  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
+  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-bla",
+  "score": 1.0,
+  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
+  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (Black)"
+ },
+ {
+  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
+  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-blu",
+  "score": 1.0,
+  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
+  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (Blue)"
+ },
+ {
+  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
+  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-whi",
+  "score": 1.0,
+  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
+  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (White)"
+ },
+ {
+  "a": "baseus-magnetic-wireless-20w-fast-charging-10000mah-power-bank",
+  "b": "baseus-10000mah-20w-magnetic-wireless-fast-charging-power-bank",
+  "score": 1.0,
+  "a_name": "Baseus Magnetic Wireless 20W Fast charging 10000mAh Power Bank",
+  "b_name": "BASEUS 10000MAH 20W MAGNETIC WIRELESS FAST CHARGING POWER BANK"
+ },
+ {
+  "a": "baseus-magnetic-wireless-20w-fast-charging-10000mah-power-bank",
+  "b": "baseus-magnetic-20w-10000mah-wireless-fast-charging-power-bank",
+  "score": 1.0,
+  "a_name": "Baseus Magnetic Wireless 20W Fast charging 10000mAh Power Bank",
+  "b_name": "Baseus Magnetic 20W 10000mAh Wireless Fast Charging Power Bank"
+ },
+ {
+  "a": "baseus-bipow-pro-10000mah-20w-digital-display-fast-charge-power-bank",
+  "b": "baseus-bipow-pro-20w-10000mah-digital-display-fast-charge-power-bank-blue",
+  "score": 1.0,
+  "a_name": "Baseus Bipow Pro 10000mAh 20W Digital Display Fast Charge Power Bank",
+  "b_name": "Baseus Bipow Pro 20W 10000mAh Digital Display Fast Charge Power Bank (Blue)"
+ },
+ {
+  "a": "baseus-bipow-pro-10000mah-20w-digital-display-fast-charge-power-bank",
+  "b": "baseus-bipow-pro-20w-10000mah-digital-display-fast-charge-power-bank-purple",
+  "score": 1.0,
+  "a_name": "Baseus Bipow Pro 10000mAh 20W Digital Display Fast Charge Power Bank",
+  "b_name": "Baseus Bipow Pro 20W 10000mAh Digital Display Fast Charge Power Bank (Purple)"
+ },
+ {
+  "a": "dji-avata-2-fly-smart-combo-drone",
+  "b": "dji-avata-2-fly-smart-combo-drone-single-batteries",
+  "score": 1.0,
+  "a_name": "DJI Avata 2 Fly Smart Combo Drone",
+  "b_name": "DJI Avata 2 Fly Smart Combo Drone (Single Batteries)"
+ },
+ {
+  "a": "dji-avata-2-fly-smart-combo-drone",
+  "b": "dji-avata-2-fly-smart-combo-drone-three-batteries",
+  "score": 1.0,
+  "a_name": "DJI Avata 2 Fly Smart Combo Drone",
+  "b_name": "DJI Avata 2 Fly Smart Combo Drone (Three Batteries)"
+ },
+ {
+  "a": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad",
+  "b": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad-atomic-purple",
+  "score": 1.0,
+  "a_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad",
+  "b_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad (Atomic Purple)"
+ },
+ {
+  "a": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad",
+  "b": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad-polaris",
+  "score": 1.0,
+  "a_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad",
+  "b_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad (Polaris)"
+ },
+ {
+  "a": "8bitdo-ultimate-2c-tri-mode-wireless-controller",
+  "b": "8bitdo-ultimate-2c-wireless-tri-mode-gaming-controller-mint",
+  "score": 1.0,
+  "a_name": "8BitDo Ultimate 2C Tri Mode Wireless Controller",
+  "b_name": "8BitDo Ultimate 2C Wireless Tri-mode Gaming Controller (Mint)"
+ },
+ {
+  "a": "8bitdo-ultimate-2c-tri-mode-wireless-controller",
+  "b": "8bitdo-ultimate-2c-wireless-tri-mode-gaming-controller-peach",
+  "score": 1.0,
+  "a_name": "8BitDo Ultimate 2C Tri Mode Wireless Controller",
+  "b_name": "8BitDo Ultimate 2C Wireless Tri-mode Gaming Controller (Peach)"
+ },
+ {
+  "a": "8bitdo-ultimate-2c-wired-gaming-controller",
+  "b": "8bitdo-ultimate-2c-wired-gaming-controller-mint",
+  "score": 1.0,
+  "a_name": "8BitDo Ultimate 2C Wired Gaming Controller",
+  "b_name": "8BitDo Ultimate 2C Wired Gaming Controller (Mint)"
+ },
+ {
+  "a": "8bitdo-ultimate-2c-wired-gaming-controller",
+  "b": "8bitdo-ultimate-2c-wired-gaming-controller-purple",
+  "score": 1.0,
+  "a_name": "8BitDo Ultimate 2C Wired Gaming Controller",
+  "b_name": "8BitDo Ultimate 2C Wired Gaming Controller (Purple)"
+ },
+ {
+  "a": "thunderobot-g30s-te-tri-mode-gamepad",
+  "b": "thunderobot-g30s-te-he-edition-tri-mode-gamepad-black",
+  "score": 1.0,
+  "a_name": "Thunderobot G30S TE Tri-Mode Gamepad",
+  "b_name": "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (Black )"
+ },
+ {
+  "a": "thunderobot-g30s-te-tri-mode-gamepad",
+  "b": "thunderobot-g30s-te-he-edition-tri-mode-gamepad-white",
+  "score": 1.0,
+  "a_name": "Thunderobot G30S TE Tri-Mode Gamepad",
+  "b_name": "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (White)"
  },
  {
   "a": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller-golden-yellow",
@@ -334,27 +1090,6 @@
   "score": 1.0,
   "a_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller",
   "b_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller (Space Purple)"
- },
- {
-  "a": "delux-dc-r103-gaming-chair-black-red",
-  "b": "delux-dc-r103-gaming-chair",
-  "score": 1.0,
-  "a_name": "DELUX DC-R103 Gaming Chair (Black&Red)",
-  "b_name": "DELUX DC-R103 Gaming Chair"
- },
- {
-  "a": "delux-dc-r103-gaming-chair-black-blue",
-  "b": "delux-dc-r103-gaming-chair",
-  "score": 1.0,
-  "a_name": "DELUX DC-R103 Gaming Chair (Black&Blue)",
-  "b_name": "DELUX DC-R103 Gaming Chair"
- },
- {
-  "a": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-red",
-  "b": "meetion-mt-chr25-2d-armrest-massage-e-sport-gaming-chair-space-grey",
-  "score": 1.0,
-  "a_name": "MeeTion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair (Red)",
-  "b_name": "Meetion MT-CHR25 2D Armrest Massage E-Sport Gaming Chair (Space Grey)"
  },
  {
   "a": "corsair-t2-road-warrior-gaming-chair",
@@ -434,480 +1169,130 @@
   "b_name": "Fantech Alpha GC-182 Gaming Chair"
  },
  {
-  "a": "evolur-ld001-gaming-chair",
-  "b": "evolur-ld001-gaming-chair-orange",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "EVOLUR LD001 Gaming Chair",
-  "b_name": "EVOLUR LD001 Gaming Chair (Orange)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  "a_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (1 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-2-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-2-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (2 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (1 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-2-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (2 Pack)"
  },
  {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-2-pack",
+  "a": "tenda-nova-mx12-ax3000-dual-band-wifi-6-mesh-router-3-pack",
+  "b": "tenda-nova-mx12-ax3000-dual-band-mesh-wifi-6-router-3-pack",
   "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)"
- },
- {
-  "a": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-3-pack",
-  "b": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-3-pack",
-  "score": 1.0,
-  "a_name": "Tenda Nova MX3 AX1500 Dual Band Mesh WiFi 6 Router (3 Pack)",
-  "b_name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)"
- },
- {
-  "a": "power-pac-1200va-offline-ups",
-  "b": "power-pac-1200va-offline-ups-plastic-body",
-  "score": 1.0,
-  "a_name": "Power Pac 1200VA Offline UPS",
-  "b_name": "Power Pac 1200VA Offline UPS (Plastic Body)"
- },
- {
-  "a": "power-pac-1200va-offline-ups-metal-body",
-  "b": "power-pac-1200va-offline-ups-plastic-body",
-  "score": 1.0,
-  "a_name": "Power Pac 1200VA Offline UPS (Metal Body)",
-  "b_name": "Power Pac 1200VA Offline UPS (Plastic Body)"
- },
- {
-  "a": "teclast-t60plus-lte-mt6769-6gb-128gb-12-2k-display-android-tablet",
-  "b": "teclast-t60plus-lte-mt6769-6gb-128gb-12-inch-2k-display-android-tablet",
-  "score": 1.0,
-  "a_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12\" 2k Display Android Tablet",
-  "b_name": "Teclast T60Plus LTE MT6769 6GB 128GB 12 inch 2k Display Android Tablet"
- },
- {
-  "a": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
-  "b": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-black",
-  "score": 1.0,
-  "a_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing",
-  "b_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (Black)"
- },
- {
-  "a": "nzxt-h7-flow-2024-mid-tower-atx-airflow-casing",
-  "b": "nzxt-h7-flow-2024-edition-mid-tower-atx-airflow-gaming-casing-white",
-  "score": 1.0,
-  "a_name": "NZXT H7 Flow 2024 Mid-Tower ATX Airflow Casing",
-  "b_name": "NZXT H7 Flow 2024 Edition Mid-Tower ATX Airflow Gaming Casing (White)"
- },
- {
-  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case",
-  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
-  "score": 1.0,
-  "a_name": "MAXCOOL INFERNO MC5 MICRO ATX GAMING COMPUTER CASE",
-  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)"
- },
- {
-  "a": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-black",
-  "b": "maxcool-inferno-mc5-micro-atx-gaming-computer-case-white",
-  "score": 1.0,
-  "a_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case(Black)",
-  "b_name": "Maxcool Inferno MC5 Micro ATX Gaming Computer Case (White)"
- },
- {
-  "a": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan",
-  "b": "thermalright-tl-c12c-s-x3-120mm-3-pack-black-argb-casing-cooling-fan-3-year",
-  "score": 1.0,
-  "a_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan",
-  "b_name": "Thermalright TL-C12C-S X3 120mm (3 Pack) Black ARGB Casing Cooling Fan (3 Year)"
- },
- {
-  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-red-switch-saturn-stellar-edition",
-  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
-  "score": 1.0,
-  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Red Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
-  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
- },
- {
-  "a": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-switch-saturn-stellar-editio",
-  "b": "fantech-atom-pro63-mk912-tri-mode-rgb-hot-swap-blue-red-switch-mechanical-gaming",
-  "score": 1.0,
-  "a_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue Switch) Saturn Stellar Edition Mechanical Gaming Keyboard",
-  "b_name": "Fantech Atom Pro63 MK912 Tri Mode RGB Hot Swap (Blue/Red Switch) Mechanical Gaming Keyboard - Saturn Stellar Edition"
- },
- {
-  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
-  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-beige",
-  "score": 1.0,
-  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo",
-  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Beige)"
- },
- {
-  "a": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo",
-  "b": "fantech-go-pop-wk895-wireless-keyboard-mouse-combo-black",
-  "score": 1.0,
-  "a_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo",
-  "b_name": "Fantech Go Pop WK895 Wireless Keyboard & Mouse Combo (Black)"
- },
- {
-  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
-  "b": "fantech-go-w193d-dual-mode-wireless-mouse-beige",
-  "score": 1.0,
-  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
-  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Beige)"
- },
- {
-  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
-  "b": "fantech-go-w193d-dual-mode-wireless-mouse-black",
-  "score": 1.0,
-  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
-  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Black)"
- },
- {
-  "a": "fantech-go-w193d-dual-mode-wireless-mouse",
-  "b": "fantech-go-w193d-dual-mode-wireless-mouse-red",
-  "score": 1.0,
-  "a_name": "Fantech GO W193D Dual Mode Wireless Mouse",
-  "b_name": "Fantech GO W193D Dual Mode Wireless Mouse (Red)"
- },
- {
-  "a": "dareu-a950gm-tri-mode-wireless-gaming-mouse",
-  "b": "dareu-a950gm-tri-mode-wireless-gaming-mouse-black",
-  "score": 1.0,
-  "a_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse",
-  "b_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse (Black)"
- },
- {
-  "a": "dareu-a950gm-tri-mode-wireless-gaming-mouse",
-  "b": "dareu-a950gm-tri-mode-wireless-gaming-mouse-white",
-  "score": 1.0,
-  "a_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse",
-  "b_name": "Dareu A950GM Tri-mode Wireless Gaming Mouse (White)"
- },
- {
-  "a": "colmi-p28-plus-smartwatch",
-  "b": "colmi-p28-plus-smartwatch-black",
-  "score": 1.0,
-  "a_name": "COLMI P28 Plus Smartwatch",
-  "b_name": "COLMI P28 Plus Smartwatch (Black)"
- },
- {
-  "a": "colmi-p28-plus-smartwatch",
-  "b": "colmi-p28-plus-smartwatch-gold",
-  "score": 1.0,
-  "a_name": "COLMI P28 Plus Smartwatch",
-  "b_name": "COLMI P28 Plus Smartwatch (Gold)"
- },
- {
-  "a": "colmi-p28-plus-smartwatch",
-  "b": "colmi-p28-plus-smartwatch-pink",
-  "score": 1.0,
-  "a_name": "COLMI P28 Plus Smartwatch",
-  "b_name": "COLMI P28 Plus Smartwatch (Pink)"
- },
- {
-  "a": "colmi-p28-plus-smartwatch",
-  "b": "colmi-p28-plus-smartwatch-silver",
-  "score": 1.0,
-  "a_name": "COLMI P28 Plus Smartwatch",
-  "b_name": "COLMI P28 Plus Smartwatch (silver)"
- },
- {
-  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
-  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-black",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
-  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (Black)"
- },
- {
-  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
-  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-blue",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
-  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (Blue)"
- },
- {
-  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
-  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-glossy-black",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
-  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds ( Glossy Black)"
- },
- {
-  "a": "anker-soundcore-liberty-4-pro-anc-earbuds",
-  "b": "anker-soundcore-liberty-4-pro-anc-earbuds-white",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds",
-  "b_name": "Anker Soundcore Liberty 4 Pro ANC Earbuds (White)"
- },
- {
-  "a": "baseus-storm-3-true-wireless-earbuds",
-  "b": "baseus-storm-3-true-wireless-earbuds-black",
-  "score": 1.0,
-  "a_name": "Baseus Storm 3 True Wireless Earbuds",
-  "b_name": "BASEUS STORM 3 TRUE WIRELESS EARBUDS (BLACK)"
- },
- {
-  "a": "qcy-ailybuds-pro-ht10-anc-earbuds",
-  "b": "qcy-ailybuds-pro-ht10-anc-earbuds-black",
-  "score": 1.0,
-  "a_name": "QCY AilyBuds Pro HT10 ANC Earbuds",
-  "b_name": "QCY AilyBuds Pro HT10 ANC Earbuds (Black)"
- },
- {
-  "a": "qcy-ailybuds-pro-ht10-anc-earbuds",
-  "b": "qcy-ailybuds-pro-ht10-anc-earbuds-white",
-  "score": 1.0,
-  "a_name": "QCY AilyBuds Pro HT10 ANC Earbuds",
-  "b_name": "QCY AilyBuds Pro HT10 ANC Earbuds (White)"
- },
- {
-  "a": "hifuture-hi5-hi-res-audio-type-c-earphone",
-  "b": "hifuture-hi5-hi-res-audio-type-c-earphone-black",
-  "score": 1.0,
-  "a_name": "HiFuture HI5 Hi-Res Audio Type-C Earphone",
-  "b_name": "HiFuture HI5 Hi-Res Audio Type-C Earphone (Black)"
- },
- {
-  "a": "hifuture-hi5-hi-res-audio-type-c-earphone",
-  "b": "hifuture-hi5-hi-res-audio-type-c-earphone-gold",
-  "score": 1.0,
-  "a_name": "HiFuture HI5 Hi-Res Audio Type-C Earphone",
-  "b_name": "HiFuture HI5 Hi-Res Audio Type-C Earphone (Gold)"
- },
- {
-  "a": "baseus-10000mah-20w-magnetic-wireless-fast-charging-power-bank",
-  "b": "baseus-magnetic-wireless-20w-fast-charging-10000mah-power-bank",
-  "score": 1.0,
-  "a_name": "BASEUS 10000MAH 20W MAGNETIC WIRELESS FAST CHARGING POWER BANK",
-  "b_name": "Baseus Magnetic Wireless 20W Fast charging 10000mAh Power Bank"
- },
- {
-  "a": "baseus-bipow-pro-10000mah-20w-digital-display-fast-charge-power-bank",
-  "b": "baseus-bipow-pro-20w-10000mah-digital-display-fast-charge-power-bank-blue",
-  "score": 1.0,
-  "a_name": "Baseus Bipow Pro 10000mAh 20W Digital Display Fast Charge Power Bank",
-  "b_name": "Baseus Bipow Pro 20W 10000mAh Digital Display Fast Charge Power Bank (Blue)"
- },
- {
-  "a": "baseus-bipow-pro-10000mah-20w-digital-display-fast-charge-power-bank",
-  "b": "baseus-bipow-pro-20w-10000mah-digital-display-fast-charge-power-bank-purple",
-  "score": 1.0,
-  "a_name": "Baseus Bipow Pro 10000mAh 20W Digital Display Fast Charge Power Bank",
-  "b_name": "Baseus Bipow Pro 20W 10000mAh Digital Display Fast Charge Power Bank (Purple)"
- },
- {
-  "a": "baseus-magnetic-20w-10000mah-wireless-fast-charging-power-bank",
-  "b": "baseus-magnetic-wireless-20w-fast-charging-10000mah-power-bank",
-  "score": 1.0,
-  "a_name": "Baseus Magnetic 20W 10000mAh Wireless Fast Charging Power Bank",
-  "b_name": "Baseus Magnetic Wireless 20W Fast charging 10000mAh Power Bank"
- },
- {
-  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
-  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-bla",
-  "score": 1.0,
-  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
-  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (Black)"
- },
- {
-  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
-  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-blu",
-  "score": 1.0,
-  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
-  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (Blue)"
- },
- {
-  "a": "baseus-qpow-pro-10000mah-22-5w-digital-display-fast-charge-type-c-power-bank",
-  "b": "baseus-qpow-pro-22-5w-10000mah-type-c-digital-display-fast-charge-power-bank-whi",
-  "score": 1.0,
-  "a_name": "Baseus Qpow Pro 10000mAh 22.5W Digital Display Fast Charge Type-C Power Bank",
-  "b_name": "Baseus Qpow Pro 22.5W 10000mAh Type-C Digital Display Fast Charge Power Bank (White)"
- },
- {
-  "a": "dji-avata-2-fly-smart-combo-drone-single-batteries",
-  "b": "dji-avata-2-fly-smart-combo-drone",
-  "score": 1.0,
-  "a_name": "DJI Avata 2 Fly Smart Combo Drone (Single Batteries)",
-  "b_name": "DJI Avata 2 Fly Smart Combo Drone"
- },
- {
-  "a": "dji-avata-2-fly-smart-combo-drone-three-batteries",
-  "b": "dji-avata-2-fly-smart-combo-drone",
-  "score": 1.0,
-  "a_name": "DJI Avata 2 Fly Smart Combo Drone (Three Batteries)",
-  "b_name": "DJI Avata 2 Fly Smart Combo Drone"
- },
- {
-  "a": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad",
-  "b": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad-atomic-purple",
-  "score": 1.0,
-  "a_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad",
-  "b_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad (Atomic Purple)"
- },
- {
-  "a": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad",
-  "b": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad-polaris",
-  "score": 1.0,
-  "a_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad",
-  "b_name": "Fantech NOVA PRO WGP14V2 Multiplatform Wireless Gamepad (Polaris)"
- },
- {
-  "a": "thunderobot-g30s-te-he-edition-tri-mode-gamepad-black",
-  "b": "thunderobot-g30s-te-tri-mode-gamepad",
-  "score": 1.0,
-  "a_name": "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (Black )",
-  "b_name": "Thunderobot G30S TE Tri-Mode Gamepad"
- },
- {
-  "a": "thunderobot-g30s-te-he-edition-tri-mode-gamepad-white",
-  "b": "thunderobot-g30s-te-tri-mode-gamepad",
-  "score": 1.0,
-  "a_name": "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (White)",
-  "b_name": "Thunderobot G30S TE Tri-Mode Gamepad"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-black",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 Gaming Chair (Black)"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-black-pink",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 GAMING CHAIR (Black Pink)"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-blue",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 Gaming Chair (Blue)"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-green",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 Gaming Chair (Green)"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-red",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 Gaming Chair (Red)"
- },
- {
-  "a": "marvo-ch106-gaming-chair",
-  "b": "marvo-ch106-gaming-chair-yellow",
-  "score": 1.0,
-  "a_name": "MARVO CH106 Gaming Chair",
-  "b_name": "MARVO CH106 GAMING CHAIR (YELLOW)"
+  "a_name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)",
+  "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
   "a": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-1-pack",
@@ -917,60 +1302,46 @@
   "b_name": "CUDY M1200 AC1200 WHOLE HOME MESH WIFI ROUTER (2 PACK)"
  },
  {
-  "a": "mikrotik-rb450gx4-gigabit-ethernet-router",
-  "b": "mikrotik-rb450gx4-gigabit-ethernet-router-with-case",
+  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-without-case",
+  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
   "score": 1.0,
-  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router",
-  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (With Case)"
+  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (Without Case)",
+  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
  },
  {
-  "a": "mikrotik-rb450gx4-gigabit-ethernet-router",
-  "b": "mikrotik-rb450gx4-gigabit-ethernet-router-without-case",
+  "a": "mikrotik-rb450gx4-gigabit-ethernet-router-with-case",
+  "b": "mikrotik-rb450gx4-gigabit-ethernet-router",
   "score": 1.0,
-  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router",
-  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (Without Case)"
+  "a_name": "Mikrotik RB450GX4 Gigabit Ethernet Router (With Case)",
+  "b_name": "Mikrotik RB450GX4 Gigabit Ethernet Router"
  },
  {
-  "a": "epson-ecotank-l130-single-function-inktank-printer",
-  "b": "epson-ecotank-l130-single-function-inktank-printer-unofficial",
+  "a": "epson-ecotank-l130-single-function-inktank-printer-official",
+  "b": "epson-ecotank-l130-single-function-inktank-printer",
   "score": 1.0,
-  "a_name": "Epson EcoTank L130 Single Function InkTank Printer",
-  "b_name": "Epson EcoTank L130 Single Function InkTank Printer (Unofficial)"
+  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Official)",
+  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
  },
  {
-  "a": "epson-ecotank-l130-single-function-inktank-printer",
-  "b": "epson-ecotank-l130-single-function-inktank-printer-official",
+  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-unofficial",
+  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
   "score": 1.0,
-  "a_name": "Epson EcoTank L130 Single Function InkTank Printer",
-  "b_name": "Epson EcoTank L130 Single Function InkTank Printer (Official)"
+  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Unofficial)",
+  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
  },
  {
-  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
-  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-unofficial",
+  "a": "epson-ecotank-l130-single-function-inktank-printer-unofficial",
+  "b": "epson-ecotank-l130-single-function-inktank-printer",
   "score": 1.0,
-  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer",
-  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Unofficial)"
+  "a_name": "Epson EcoTank L130 Single Function InkTank Printer (Unofficial)",
+  "b_name": "Epson EcoTank L130 Single Function InkTank Printer"
  },
  {
-  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
-  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-official",
+  "a": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer-official",
+  "b": "epson-ecotank-l3250-a4-wi-fi-multifunction-inktank-printer",
   "score": 1.0,
-  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer",
-  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Official)"
- },
- {
-  "a": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier-25ppm-la",
-  "b": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier",
-  "score": 1.0,
-  "a_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier (25ppm, LAN, Wi-Fi, USB, DADF)",
-  "b_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier"
- },
- {
-  "a": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier-25ppm",
-  "b": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier",
-  "score": 1.0,
-  "a_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier (25ppm, LAN, Wi-Fi, USB)",
-  "b_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier"
+  "a_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer (Official)",
+  "b_name": "Epson EcoTank L3250 A4 Wi-Fi Multifunction InkTank Printer"
  },
  {
   "a": "toshiba-e-studio-2021ac-multifunctional-a3-color-photocopier",
@@ -980,423 +1351,52 @@
   "b_name": "Toshiba e-Studio 2021AC Multifunctional A3 Color Photocopier (20ppm, Auto Duplex, Lan, RADF, C Series)"
  },
  {
-  "a": "samsung-75u8500h-75-crystal-4k-uhd-led-smart-tv",
-  "b": "samsung-75u8500h-75-inch-crystal-4k-uhd-led-smart-tv",
+  "a": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier",
+  "b": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier-25ppm-la",
   "score": 1.0,
-  "a_name": "Samsung 75U8500H 75\" Crystal 4K UHD LED Smart TV",
-  "b_name": "Samsung 75U8500H 75 Inch Crystal 4K UHD LED Smart TV"
+  "a_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier",
+  "b_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier (25ppm, LAN, Wi-Fi, USB, DADF)"
  },
  {
-  "a": "samsung-75u8500h-75-inch-crystal-4k-uhd-led-smart-tv",
-  "b": "samsung-75u8500h-75-crystal-4k-uhd-led-smart-tv-unofficial",
+  "a": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier",
+  "b": "canon-imagerunner-2925i-a3-multifunctional-monochrome-laser-photocopier-25ppm",
   "score": 1.0,
-  "a_name": "Samsung 75U8500H 75 Inch Crystal 4K UHD LED Smart TV",
-  "b_name": "Samsung 75U8500H 75\" Crystal 4K UHD LED Smart TV (Unofficial)"
+  "a_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier",
+  "b_name": "Canon imageRUNNER 2925i A3 Multifunctional Monochrome Laser Photocopier (25ppm, LAN, Wi-Fi, USB)"
  },
  {
-  "a": "samsung-75qn85d-75-neo-qled-uhd-4k-smart-tv",
-  "b": "samsung-75qn85d-75-inch-neo-qled-uhd-4k-smart-tv",
+  "a": "lg-75tr3dk-bm-75-inch-4k-uhd-touch-interactive-flat-panel-display",
+  "b": "lg-75tr3dk-bm-75-inch-4k-uhd-touch-interactive-flat-panel-display-android-11",
   "score": 1.0,
-  "a_name": "Samsung 75QN85D 75\" Neo QLED UHD 4K Smart TV",
-  "b_name": "Samsung 75QN85D 75 Inch Neo QLED UHD 4K Smart TV"
+  "a_name": "LG 75TR3DK-BM 75 Inch 4K UHD Touch Interactive Flat Panel Display",
+  "b_name": "LG 75TR3DK-BM 75 Inch 4K UHD Touch Interactive Flat Panel Display (Android 11)"
  },
  {
-  "a": "sony-bravia-5-k-65xr50-65-4k-mini-led-smart-google-tv",
-  "b": "sony-bravia-5-k-65xr50-65-inch-4k-mini-led-smart-google-tv",
+  "a": "lg-86tr3dk-bm-86-inch-4k-uhd-touch-interactive-flat-panel-display",
+  "b": "lg-86tr3dk-bm-86-inch-4k-uhd-touch-interactive-flat-panel-display-android-11",
   "score": 1.0,
-  "a_name": "Sony Bravia 5 K-65XR50 65\" 4K Mini LED Smart Google TV",
-  "b_name": "Sony Bravia 5 K-65XR50 65 inch 4K Mini LED Smart Google TV"
+  "a_name": "LG 86TR3DK-BM 86 Inch 4K UHD Touch Interactive Flat Panel Display",
+  "b_name": "LG 86TR3DK-BM 86 Inch 4K UHD Touch Interactive Flat Panel Display (Android 11)"
  },
  {
-  "a": "sony-bravia-5-k-65xr50-65-4k-mini-led-smart-google-tv",
-  "b": "sony-bravia-5-k-65xr50-65-inch-4k-mini-led-smart-google-tv-unofficial",
+  "a": "power-pac-1200va-offline-ups-plastic-body",
+  "b": "power-pac-1200va-offline-ups",
   "score": 1.0,
-  "a_name": "Sony Bravia 5 K-65XR50 65\" 4K Mini LED Smart Google TV",
-  "b_name": "Sony Bravia 5 K-65XR50 65 Inch 4K Mini LED Smart Google TV (Unofficial)"
+  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
+  "b_name": "Power Pac 1200VA Offline UPS"
  },
  {
-  "a": "sony-bravia-5-k-85xr50-85-4k-mini-led-smart-google-tv",
-  "b": "sony-bravia-5-k-85xr50-85-inch-4k-mini-led-smart-google-tv-unofficial",
+  "a": "power-pac-1200va-offline-ups-plastic-body",
+  "b": "power-pac-1200va-offline-ups-metal-body",
   "score": 1.0,
-  "a_name": "Sony Bravia 5 K-85XR50 85\" 4K Mini LED Smart Google TV",
-  "b_name": "Sony Bravia 5 K-85XR50 85 Inch 4K Mini LED Smart Google TV (Unofficial)"
+  "a_name": "Power Pac 1200VA Offline UPS (Plastic Body)",
+  "b_name": "Power Pac 1200VA Offline UPS (Metal Body)"
  },
  {
-  "a": "sony-bravia-2-k-43s20m2-43-led-4k-smart-google-tv",
-  "b": "sony-bravia-2-k-43s20m2-4k-43-inch-led-smart-google-tv",
+  "a": "eset-internet-security-3-user-for-1-year",
+  "b": "eset-internet-security-1-user-3-year",
   "score": 1.0,
-  "a_name": "Sony Bravia 2 K-43S20M2 43\" LED 4K Smart Google TV",
-  "b_name": "Sony Bravia 2 K-43S20M2 4K 43 Inch LED Smart Google TV"
- },
- {
-  "a": "sony-bravia-2-k-50s20m2-50-led-4k-smart-google-tv",
-  "b": "sony-bravia-2-k-50s20m2-4k-50-inch-led-smart-google-tv",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-50S20M2 50\" LED 4K Smart Google TV",
-  "b_name": "Sony Bravia 2 K-50S20M2 4K 50 Inch LED Smart Google TV"
- },
- {
-  "a": "sony-bravia-2-k-50s20m2-50-led-4k-smart-google-tv",
-  "b": "sony-bravia-2-k-50s20m2-50-inch-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-50S20M2 50\" LED 4K Smart Google TV",
-  "b_name": "Sony Bravia 2 K-50S20M2 50 Inch LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-55s20m2-55-led-4k-smart-google-tv",
-  "b": "sony-bravia-2-k-55s20m2-4k-led-55-inch-smart-google-tv",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-55S20M2 55\" LED 4K Smart Google TV",
-  "b_name": "Sony Bravia 2 K-55S20M2 4K LED 55 Inch Smart Google TV"
- },
- {
-  "a": "sony-bravia-2-k-55s20m2-55-led-4k-smart-google-tv",
-  "b": "sony-bravia-2-k-55s20m2-55-inch-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-55S20M2 55\" LED 4K Smart Google TV",
-  "b_name": "Sony Bravia 2 K-55S20M2 55 Inch LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-5-k-75xr50-75-4k-mini-led-smart-google-tv",
-  "b": "sony-bravia-5-k-75xr50-75-inch-4k-mini-led-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 5 K-75XR50 75\" 4K Mini LED Smart Google TV",
-  "b_name": "Sony Bravia 5 K-75XR50 75 Inch 4K Mini LED Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-43s20m2-43-led-4k-smart-google-tv-unofficial",
-  "b": "sony-bravia-2-k-43s20m2-4k-43-inch-led-smart-google-tv",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-43S20M2 43\" LED 4K Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 2 K-43S20M2 4K 43 Inch LED Smart Google TV"
- },
- {
-  "a": "sony-bravia-2-k-50s20m2-4k-50-inch-led-smart-google-tv",
-  "b": "sony-bravia-2-k-50s20m2-50-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-50S20M2 4K 50 Inch LED Smart Google TV",
-  "b_name": "Sony Bravia 2 K-50S20M2 50\" LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-50s20m2-50-inch-led-4k-smart-google-tv-unofficial",
-  "b": "sony-bravia-2-k-50s20m2-50-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-50S20M2 50 Inch LED 4K Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 2 K-50S20M2 50\" LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-55s20m2-4k-led-55-inch-smart-google-tv",
-  "b": "sony-bravia-2-k-55s20m2-55-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-55S20M2 4K LED 55 Inch Smart Google TV",
-  "b_name": "Sony Bravia 2 K-55S20M2 55\" LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-55s20m2-55-inch-led-4k-smart-google-tv-unofficial",
-  "b": "sony-bravia-2-k-55s20m2-55-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-55S20M2 55 Inch LED 4K Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 2 K-55S20M2 55\" LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-2-k-65s20m2-4k-led-65-inch-smart-google-tv",
-  "b": "sony-bravia-2-k-65s20m2-65-led-4k-smart-google-tv",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-65S20M2 4K LED 65 Inch Smart Google TV",
-  "b_name": "Sony Bravia 2 K-65S20M2 65\" LED 4K Smart Google TV"
- },
- {
-  "a": "sony-bravia-2-k-65s20m2-4k-led-65-inch-smart-google-tv",
-  "b": "sony-bravia-2-k-65s20m2-65-led-4k-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 2 K-65S20M2 4K LED 65 Inch Smart Google TV",
-  "b_name": "Sony Bravia 2 K-65S20M2 65\" LED 4K Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-5-k-65xr50-65-4k-mini-led-smart-google-tv-unofficial",
-  "b": "sony-bravia-5-k-65xr50-65-inch-4k-mini-led-smart-google-tv",
-  "score": 1.0,
-  "a_name": "Sony Bravia 5 K-65XR50 65\" 4K Mini LED Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 5 K-65XR50 65 inch 4K Mini LED Smart Google TV"
- },
- {
-  "a": "sony-bravia-5-k-65xr50-65-4k-mini-led-smart-google-tv-unofficial",
-  "b": "sony-bravia-5-k-65xr50-65-inch-4k-mini-led-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 5 K-65XR50 65\" 4K Mini LED Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 5 K-65XR50 65 Inch 4K Mini LED Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-5-k-75xr50-75-4k-mini-led-smart-google-tv-unofficial",
-  "b": "sony-bravia-5-k-75xr50-75-inch-4k-mini-led-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 5 K-75XR50 75\" 4K Mini LED Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 5 K-75XR50 75 Inch 4K Mini LED Smart Google TV (Unofficial)"
- },
- {
-  "a": "sony-bravia-5-k-85xr50-85-4k-mini-led-smart-google-tv-unofficial",
-  "b": "sony-bravia-5-k-85xr50-85-inch-4k-mini-led-smart-google-tv-unofficial",
-  "score": 1.0,
-  "a_name": "Sony Bravia 5 K-85XR50 85\" 4K Mini LED Smart Google TV (Unofficial)",
-  "b_name": "Sony Bravia 5 K-85XR50 85 Inch 4K Mini LED Smart Google TV (Unofficial)"
- },
- {
-  "a": "asus-expertbook-p1-p1403cva-core-3-100u-14-inch-fhd-laptop",
-  "b": "asus-expertbook-p1-p1403cva-core-3-100u-14-fhd-laptop",
-  "score": 1.0,
-  "a_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14 Inch FHD Laptop",
-  "b_name": "ASUS ExpertBook P1 P1403CVA Core 3 100U 14\" FHD Laptop"
- },
- {
-  "a": "team-t-force-delta-rgb-32gb-6000mhz-ddr5-gaming-desktop-ram-white",
-  "b": "team-t-force-delta-rgb-32gb-ddr5-6000mhz-gaming-desktop-ram-white",
-  "score": 1.0,
-  "a_name": "TEAM T-FORCE DELTA RGB 32GB 6000MHz DDR5 Gaming Desktop RAM White",
-  "b_name": "TEAM T-FORCE DELTA RGB 32GB DDR5 6000MHz Gaming Desktop RAM White"
- },
- {
-  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
-  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-brown",
-  "score": 1.0,
-  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
-  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Brown)"
- },
- {
-  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
-  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-milk-tea",
-  "score": 1.0,
-  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
-  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Milk Tea)"
- },
- {
-  "a": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard",
-  "b": "mofii-geezer-g7-mixed-tri-mode-mechanical-gaming-keyboard-orange",
-  "score": 1.0,
-  "a_name": "Mofii Geezer G7 Mixed Tri Mode Mechanical Gaming Keyboard",
-  "b_name": "Mofii Geezer G7 Mixed Tri-Mode Mechanical Gaming Keyboard - (Orange)"
- },
- {
-  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
-  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-black",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
-  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Black)"
- },
- {
-  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
-  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-golden-black",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
-  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Golden Black)"
- },
- {
-  "a": "anker-soundcore-select-4-go-portable-bluetooth-speaker",
-  "b": "anker-soundcore-select-4-go-portable-bluetooth-speaker-green",
-  "score": 1.0,
-  "a_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker",
-  "b_name": "Anker Soundcore Select 4 Go Portable Bluetooth Speaker (Green)"
- },
- {
-  "a": "hifuture-lino-s-portable-bluetooth-speaker",
-  "b": "hifuture-lino-s-portable-bluetooth-speaker-black",
-  "score": 1.0,
-  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
-  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Black)"
- },
- {
-  "a": "hifuture-lino-s-portable-bluetooth-speaker",
-  "b": "hifuture-lino-s-portable-bluetooth-speaker-blue",
-  "score": 1.0,
-  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
-  "b_name": "HiFuture LINO S Portable Bluetooth Speaker (Blue)"
- },
- {
-  "a": "hifuture-lino-s-portable-bluetooth-speaker",
-  "b": "hifuture-lino-s-portable-bluetooth-speaker-green",
-  "score": 1.0,
-  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
-  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Green)"
- },
- {
-  "a": "hifuture-lino-s-portable-bluetooth-speaker",
-  "b": "hifuture-lino-s-portable-bluetooth-speaker-latte",
-  "score": 1.0,
-  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
-  "b_name": "HiFuture LINO S Portable Bluetooth Speaker (Latte)"
- },
- {
-  "a": "hifuture-lino-s-portable-bluetooth-speaker",
-  "b": "hifuture-lino-s-portable-bluetooth-speaker-purple",
-  "score": 1.0,
-  "a_name": "HiFuture LINO S Portable Bluetooth Speaker",
-  "b_name": "Hifuture LINO S Portable Bluetooth Speaker (Purple)"
- },
- {
-  "a": "hifuture-alpha-portable-bluetooth-speaker",
-  "b": "hifuture-alpha-portable-bluetooth-speaker-black",
-  "score": 1.0,
-  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
-  "b_name": "HiFuture Alpha Portable Bluetooth Speaker(Black)"
- },
- {
-  "a": "hifuture-alpha-portable-bluetooth-speaker",
-  "b": "hifuture-alpha-portable-bluetooth-speaker-blue",
-  "score": 1.0,
-  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
-  "b_name": "HiFuture Alpha Portable Bluetooth Speaker(Blue)"
- },
- {
-  "a": "hifuture-alpha-portable-bluetooth-speaker",
-  "b": "hifuture-alpha-portable-bluetooth-speaker-red",
-  "score": 1.0,
-  "a_name": "HiFuture Alpha Portable Bluetooth Speaker",
-  "b_name": "HiFuture Alpha Portable Bluetooth Speaker (Red)"
- },
- {
-  "a": "microlab-twinkle-star-1-mini-bluetooth-portable-speaker-black",
-  "b": "microlab-twinkle-star-1-mini-portable-bluetooth-speaker",
-  "score": 1.0,
-  "a_name": "Microlab Twinkle Star 1 Mini Bluetooth Portable Speaker (Black)",
-  "b_name": "Microlab Twinkle Star 1 Mini Portable Bluetooth Speaker"
- },
- {
-  "a": "microlab-twinkle-star-1-mini-bluetooth-portable-speaker-green",
-  "b": "microlab-twinkle-star-1-mini-portable-bluetooth-speaker",
-  "score": 1.0,
-  "a_name": "Microlab Twinkle Star 1 Mini Bluetooth Portable Speaker (Green)",
-  "b_name": "Microlab Twinkle Star 1 Mini Portable Bluetooth Speaker"
- },
- {
-  "a": "edifier-es60-portable-bluetooth-speaker",
-  "b": "edifier-es60-portable-bluetooth-speaker-white",
-  "score": 1.0,
-  "a_name": "Edifier ES60 Portable Bluetooth Speaker",
-  "b_name": "Edifier ES60 Portable Bluetooth Speaker (White)"
- },
- {
-  "a": "edifier-es60-portable-bluetooth-speaker",
-  "b": "edifier-es60-portable-bluetooth-speaker-black",
-  "score": 1.0,
-  "a_name": "Edifier ES60 Portable Bluetooth Speaker",
-  "b_name": "Edifier ES60 Portable Bluetooth Speaker (Black)"
- },
- {
-  "a": "8bitdo-ultimate-2c-tri-mode-wireless-controller",
-  "b": "8bitdo-ultimate-2c-wireless-tri-mode-gaming-controller-mint",
-  "score": 1.0,
-  "a_name": "8BitDo Ultimate 2C Tri Mode Wireless Controller",
-  "b_name": "8BitDo Ultimate 2C Wireless Tri-mode Gaming Controller (Mint)"
- },
- {
-  "a": "8bitdo-ultimate-2c-tri-mode-wireless-controller",
-  "b": "8bitdo-ultimate-2c-wireless-tri-mode-gaming-controller-peach",
-  "score": 1.0,
-  "a_name": "8BitDo Ultimate 2C Tri Mode Wireless Controller",
-  "b_name": "8BitDo Ultimate 2C Wireless Tri-mode Gaming Controller (Peach)"
- },
- {
-  "a": "8bitdo-ultimate-2c-wired-gaming-controller",
-  "b": "8bitdo-ultimate-2c-wired-gaming-controller-mint",
-  "score": 1.0,
-  "a_name": "8BitDo Ultimate 2C Wired Gaming Controller",
-  "b_name": "8BitDo Ultimate 2C Wired Gaming Controller (Mint)"
- },
- {
-  "a": "8bitdo-ultimate-2c-wired-gaming-controller",
-  "b": "8bitdo-ultimate-2c-wired-gaming-controller-purple",
-  "score": 1.0,
-  "a_name": "8BitDo Ultimate 2C Wired Gaming Controller",
-  "b_name": "8BitDo Ultimate 2C Wired Gaming Controller (Purple)"
- },
- {
-  "a": "hp-87a-black-original-laserjet-toner-regional",
-  "b": "hp-87a-black-original-laserjet-toner-cf287a",
-  "score": 1.0,
-  "a_name": "HP 87A Black Original LaserJet Toner (Regional)",
-  "b_name": "HP 87A Black Original LaserJet Toner (CF287A)"
- },
- {
-  "a": "eset-internet-security-1-user-3-year",
-  "b": "eset-internet-security-3-user-for-1-year",
-  "score": 1.0,
-  "a_name": "ESET Internet Security 1 User 3 Year",
-  "b_name": "ESET Internet Security 3 User for 1 Year"
- },
- {
-  "a": "eset-internet-security-3-user-1-year",
-  "b": "eset-3-user-1-year-internet-security",
-  "score": 1.0,
-  "a_name": "ESET Internet Security 3 User 1 Year",
-  "b_name": "ESET 3 User 1 Year Internet Security"
- },
- {
-  "a": "eset-internet-security-3-user-1-year",
-  "b": "eset-internet-security-3-user-for-1-year",
-  "score": 1.0,
-  "a_name": "ESET Internet Security 3 User 1 Year",
-  "b_name": "ESET Internet Security 3 User for 1 Year"
- },
- {
-  "a": "eset-3-user-1-year-internet-security",
-  "b": "eset-internet-security-3-user-for-1-year",
-  "score": 1.0,
-  "a_name": "ESET 3 User 1 Year Internet Security",
-  "b_name": "ESET Internet Security 3 User for 1 Year"
- },
- {
-  "a": "kaspersky-small-office-security-1-server-5-workstation",
-  "b": "kaspersky-small-office-security-1-server-5-workstation-1-year",
-  "score": 1.0,
-  "a_name": "Kaspersky Small Office Security 1 Server+ 5 Workstation",
-  "b_name": "KASPERSKY SMALL OFFICE SECURITY 1 SERVER + 5 WORKSTATION 1 YEAR"
- },
- {
-  "a": "kaspersky-small-office-security-1-server-5-workstation-activation-code",
-  "b": "kaspersky-small-office-security-1-server-5-workstation-1-year",
-  "score": 1.0,
-  "a_name": "Kaspersky Small Office Security 1 Server+ 5 Workstation (Activation Code)",
-  "b_name": "KASPERSKY SMALL OFFICE SECURITY 1 SERVER + 5 WORKSTATION 1 YEAR"
- },
- {
-  "a": "walton-wcf-2a0-gsre-xx-p-210l-direct-cool-inverter-freezer",
-  "b": "walton-wcf-2a0-gsre-xx-p-inverter-210l-direct-cool-freezer",
-  "score": 1.0,
-  "a_name": "Walton WCF-2A0-GSRE-XX-P 210L Direct Cool Inverter Freezer",
-  "b_name": "Walton WCF-2A0-GSRE-XX-P Inverter 210L Direct Cool Freezer"
- },
- {
-  "a": "walton-wcf-2a0-gsre-xx-p-210l-direct-cool-inverter-freezer",
-  "b": "walton-wcf-2a0-gsre-xx-p-inverter-210l-direct-cool-freezer-metallic-grey",
-  "score": 1.0,
-  "a_name": "Walton WCF-2A0-GSRE-XX-P 210L Direct Cool Inverter Freezer",
-  "b_name": "Walton WCF-2A0-GSRE-XX-P Inverter 210L Direct Cool Freezer (Metallic Grey)"
- },
- {
-  "a": "walton-wcg-2e5-gdel-dd-255l-direct-cool-inverter-freezer",
-  "b": "walton-wcg-2e5-gdel-dd-inverter-255l-direct-cool-freezer",
-  "score": 1.0,
-  "a_name": "Walton WCG-2E5-GDEL-DD 255L Direct Cool Inverter Freezer",
-  "b_name": "Walton WCG-2E5-GDEL-DD Inverter 255L Direct Cool Freezer"
- },
- {
-  "a": "steelseries-rival-3-wireless-gen-2-gaming-mouse",
-  "b": "steelseries-rival-3-wireless-gen-2-gaming-mouse-black",
-  "score": 1.0,
-  "a_name": "SteelSeries Rival 3 Wireless Gen 2 Gaming Mouse",
-  "b_name": "SteelSeries Rival 3 Wireless Gen 2 Gaming Mouse (Black)"
- },
- {
-  "a": "hyperx-cloud-ii-surround-sound-gaming-headset",
-  "b": "hyperx-cloud-ii-surround-sound-gaming-headset-gun-metal",
-  "score": 1.0,
-  "a_name": "Hyperx Cloud II Surround Sound Gaming Headset",
-  "b_name": "HyperX Cloud II Surround Sound Gaming Headset (Gun Metal)"
- },
- {
-  "a": "hyperx-cloud-ii-surround-sound-gaming-headset",
-  "b": "hyperx-cloud-ii-surround-sound-gaming-headset-red",
-  "score": 1.0,
-  "a_name": "Hyperx Cloud II Surround Sound Gaming Headset",
-  "b_name": "HyperX Cloud II Surround Sound Gaming Headset (Red)"
+  "a_name": "ESET Internet Security 3 User for 1 Year",
+  "b_name": "ESET Internet Security 1 User 3 Year"
  }
 ]
