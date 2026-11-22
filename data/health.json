@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "scraped_at": "2026-11-22T02:00+06:00",
+ "scraped_at": "2026-11-22T04:40+06:00",
  "stores": {
   "startech": {
    "enabled": true,
@@ -195,14 +195,14 @@
    "enabled": true,
    "items": 3092,
    "errors": [],
-   "seconds": 1109,
+   "seconds": 1111,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4036,
    "errors": [],
-   "seconds": 1234,
+   "seconds": 1239,
    "failed_cats": []
   },
   "smartbd": {
@@ -251,7 +251,7 @@
     "server: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/servers/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
     "os-office: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/software/microsoft/operating-system/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
    ],
-   "seconds": 1921,
+   "seconds": 1919,
    "failed_cats": [
     "tablet",
     "laptop",
@@ -314,14 +314,14 @@
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 701,
+   "seconds": 665,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
    "items": 28000,
    "errors": [],
-   "seconds": 8616,
+   "seconds": 7985,
    "failed_cats": []
   },
   "techland": {
@@ -466,7 +466,7 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 546,
+   "seconds": 545,
    "failed_cats": []
   },
   "applegadgets": {
@@ -482,34 +482,37 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3031,
+   "seconds": 3042,
    "failed_cats": [],
-   "matched": 6947,
+   "matched": 6945,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 3975,
+   "items": 4349,
    "errors": [],
-   "seconds": 1778,
+   "seconds": 2180,
    "failed_cats": [],
-   "matched": 2768,
-   "scraped": 3918
+   "matched": 2740,
+   "scraped": 4292
   },
   "pqs": {
    "enabled": true,
-   "items": 11501,
-   "errors": [],
-   "seconds": 1385,
+   "items": 10411,
+   "errors": [
+    "https://www.pqs.com.bd/networking: HTTPError: 521 Server Error: <none> for url: https://www.pqs.com.bd/networking?page=11",
+    "https://www.pqs.com.bd/office-equipment: HTTPError: 522 Server Error: <none> for url: https://www.pqs.com.bd/office-equipment"
+   ],
+   "seconds": 1287,
    "failed_cats": [],
-   "matched": 7368,
-   "scraped": 11419
+   "matched": 6583,
+   "scraped": 10330
   },
   "bme": {
    "enabled": true,
    "items": 9239,
    "errors": [],
-   "seconds": 2323,
+   "seconds": 2316,
    "failed_cats": [],
    "matched": 3984,
    "scraped": 9239
@@ -518,7 +521,7 @@
    "enabled": true,
    "items": 1178,
    "errors": [],
-   "seconds": 391,
+   "seconds": 389,
    "failed_cats": [],
    "matched": 777,
    "scraped": 1176
