@@ -190479,12 +190479,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Omnidirectional",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 3.5mm, USB Type-C & Lightning",
-   "Cable Length: Not Applicable",
-   "Color: Black"
+   "Ultra-Long Battery Life",
+   "One Step to Open the Noise Reduction Function",
+   "Dual-Channel Recording",
+   "User-Friendly Buckle Design"
   ],
   "key": "microphone|all boya boyalink design microphone one system wireless",
   "name": "BOYA BOYALINK All-in-One Design Wireless Microphone System",
@@ -190730,11 +190728,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Cardioid",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 3.5mm",
-   "Color: Black"
+   "Compatible with DSLR, Mirrorless, Video, Cameras, Smartphones & Tablets",
+   "Compact Directional condenser Micropone",
+   "3.5mm TRS & TRRS Plug Output Connector",
+   "Durable ABS Construction, AAA Battery"
   ],
   "key": "microphone|bm3011 boya by compact microphone shotgun",
   "name": "BOYA BY-BM3011 Compact Shotgun Microphone",
@@ -190792,12 +190789,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Cardioid",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 3 pin XLR",
-   "Cable Length: 1.96 ft.",
-   "Color: Black"
+   "Ideal for broadcast, TV shoots, documentaries etc.",
+   "Tailored for rich natural-sounding audio",
+   "Wide-spectrum frequency response",
+   "Powered via 12-48V phantom power"
   ],
   "key": "microphone|bm6040 boya by cardioid microphone shotgun",
   "name": "Boya BY-BM6040 Cardioid Shotgun Microphone",
@@ -192097,12 +192092,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Cardioid",
-   "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 3.5mm, USB",
-   "Cable Length: 6.6 Ft",
-   "Color: Black"
+   "Delivers Outstanding Sound, with Cardioid Polar Pattern",
+   "Compatible with Both Windows and Mac Computers",
+   "Plug and Play, No Need Battery",
+   "with Headphone/ Speaker Output Jack"
   ],
   "key": "microphone|boya by conference mc2 microphone usb",
   "name": "BOYA BY-MC2 USB Conference Microphone",
@@ -193446,11 +193439,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Cardioid",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Color: Black"
+   "Bodypack Transmitter, Omni Lavalier Mic",
+   "Handheld Cardioid Transmitter/Microphone",
+   "48 Selectable UHF Channels, Easy-to-Read LCD Displays",
+   "Powered by AA Batteries"
   ],
   "key": "microphone|boya by channel dual k4 microphone pro system uhf wireless wm8",
   "name": "BOYA BY-WM8 Pro-K4 UHF Dual-Channel Wireless Microphone System",
@@ -442979,12 +442971,10 @@
   "category": "conference",
   "created": "2026-11-10",
   "features": [
-   "Type: Omnidirectional",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Cable Length: No",
-   "Color: Black"
+   "Microphone: 8x omnidirectional MEMS",
+   "Voice Pickup Range: 5-meter pickup range",
+   "Battery: Built-In 1500mAh Li-Ion, Touch Mute",
+   "Connectivity: Bluetooth v2.1+EDR protocols"
   ],
   "key": "conference|gmd1208 grandstream microphone wireless",
   "name": "Grandstream GMD1208 Wireless Desktop Microphone",
@@ -642099,15 +642089,32 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/lenovo-ideacentre-aio-24irh9-13th-gen-intel-core-11764068575.webp"
  },
+ "lenovo-ideacentre-aio-24irh9-core-i5-13th-gen-16gb-ram-23-8-fhd-all-in-one": {
+  "brand": "Lenovo",
+  "category": "all-in-one-pc",
+  "created": "2026-11-23",
+  "features": [
+   "Processor: Intel Core i5-13420H (12MB Cache, up to 4.6GHz)",
+   "RAM: 16GB DDR5, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
+   "Display: 23.8\" FHD (1920x1080) IPS, 100Hz, 99% sRGB",
+   "Wireless EOS Keyboard, Wireless EOS Mouse"
+  ],
+  "key": "all-in-one-pc|13th 16gb 23.8 24irh9 aio all core fhd i5 ideacentre lenovo one",
+  "name": "Lenovo IdeaCentre AIO 24IRH9 Core i5 13th Gen 16GB RAM 23.8\" FHD All-in-One Desktop PC",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/lenovo/ideacentre-aio-24irh9/ideacentre-aio-24irh9-01-228x228.webp"
+ },
  "lenovo-ideacentre-aio-24irh9-core-i5-13th-gen-23-8-fhd-all-in-one-desktop-pc": {
   "brand": "Lenovo",
   "category": "all-in-one-pc",
   "created": "2026-11-10",
   "features": [
    "Processor: Intel Core i5-13420H (12MB Cache, up to 4.6GHz)",
-   "RAM: 16GB DDR5, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
-   "Display: 23.8\" FHD (1920x1080) IPS, 100Hz, 99% sRGB",
-   "Wireless EOS Keyboard, Wireless EOS Mouse"
+   "RAM: 8GB DDR5, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
+   "Display: 23.8\" FHD (1920x1080) IPS, 100Hz, 99% sRGB, 250nits",
+   "Wireless EOS Keyboard, Wireless EOS Mouse, Wi-Fi 6, BT5.2"
   ],
   "key": "all-in-one-pc|13th 23.8 24irh9 aio all core fhd i5 ideacentre lenovo one",
   "name": "Lenovo IdeaCentre AIO 24IRH9 Core i5 13th Gen 23.8\" FHD All-in-One Desktop PC",
@@ -898103,8 +898110,8 @@
   "features": [
    "Type: Cardioid",
    "Connection Type: Wired",
-   "Microphone: Yes",
-   "Plug Type: 3.5mm",
+   "Plug Type: 3.5mm, USB Type-C",
+   "Cable Length: 9.8 ft",
    "Color: Black"
   ],
   "key": "studio-equipment|cardioid condenser microphone nt quality rode studio usb versatile",
@@ -898938,11 +898945,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Omnidirectional",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: 3.5mm",
-   "Color: Black"
+   "Dual-Channel Receiver with Built-In Mic",
+   "Clip-On Transmitter/Mic with 3.5mm Jack",
+   "7-Hr Rechargeable Batteries",
+   "Easy Setup, Intelligent GainAssist"
   ],
   "key": "microphone|compact me microphone rode system wireless",
   "name": "Rode Wireless ME Compact Wireless Microphone System",
@@ -945357,10 +945363,10 @@
   "category": "studio-equipment",
   "created": "2026-11-11",
   "features": [
-   "Type: Supercardioid",
-   "Connection Type: Wired",
-   "Plug Type: 3.5mm, 3 pin XLR",
-   "Color: Black"
+   "For Indie Films, TV & Documentaries",
+   "Selectable 100 Hz Low-Cut Filter",
+   "Resists Structure-Borne Noise",
+   "Low-Noise Circuitry, Mild Presence Boost"
   ],
   "key": "studio-equipment|600 black microphone mke sennheiser shotgun supercardioid wired",
   "name": "Sennheiser MKE 600 Wired Black Supercardioid Shotgun Microphone",
@@ -991501,10 +991507,10 @@
   "category": "microphone",
   "created": "2026-11-10",
   "features": [
-   "Type: Microphone Pop Screen",
-   "Connection Type: No",
-   "Plug Type: No",
-   "Color: Black"
+   "Noise prevention net for recording",
+   "Physical Noise Filtering",
+   "350mm long heavy hose",
+   "Carbon steel material"
   ],
   "key": "microphone|1 microphone pop ps screen takstar",
   "name": "Takstar PS-1 Microphone Pop Screen",
@@ -1198457,10 +1198463,10 @@
   "category": "studio-equipment",
   "created": "2026-11-11",
   "features": [
-   "Channel: 16:0",
-   "Connectivity Mode: Wired",
-   "USB Port: No",
-   "Color: Black"
+   "Number of Channels: 16",
+   "Max. 10 Mic / 16 Line Inputs (8 mono + 4 stereo)",
+   "4 GROUP Buses + 1 Stereo Bus",
+   "24-bit/192kHz 2in/2out USB Audio functions"
   ],
   "key": "studio-equipment|16 channel console mgp16x mixing yamaha",
   "name": "Yamaha MGP16X 16 Channel Mixing Console",
@@ -1198472,10 +1198478,10 @@
   "category": "studio-equipment",
   "created": "2026-11-10",
   "features": [
-   "Channel: 24:0",
-   "Connectivity Mode: Wired",
-   "USB Port: Yes",
-   "Color: Black"
+   "Number of Channels: 24",
+   "6 AUX Sends + 2 FX Sends",
+   "24 Line Inputs (16 mono and 4 stereo)",
+   "2 Matrix out;  1 Mono out"
   ],
   "key": "studio-equipment|24 channel console mgp24x mixing premium yamaha",
   "name": "Yamaha MGP24X 24-channel Premium Mixing Console",
