@@ -7390,9 +7390,12 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Dazzling Red Ligh",
-   "Bloody Virtual 7.1 Surround Sound",
-   "Auto-Adjusting Headband"
+   "Type: Gaming",
+   "Connection Type: Wired",
+   "Microphone: Yes",
+   "Plug Type: 1xUSB-A",
+   "Cable Length: 5.9 ft.",
+   "Color: Black"
   ],
   "key": "headphone|7.1 a4tech bloody g530 headset sound surround virtual",
   "name": "A4TECH Bloody G530 Virtual 7.1 Surround Sound Gaming Headset",
@@ -18567,6 +18570,25 @@
   "specs": {},
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
  },
+ "acer-ek240y-p6bi-23-8-inch-fhd-ips-display-hdmi-vga-black-monitor-um-qe0ss-601": {
+  "brand": "Acer",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 23.8",
+   "Display Resolution: 1920x1080",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 144Hz",
+   "App Name: Not Applicable",
+   "Rotatable: No",
+   "HDMI Port: 1",
+   "Color: Black"
+  ],
+  "key": "monitor-all|23.8 acer black display ek240y fhd hdmi ips monitor p6bi um.qe0ss.601 vga",
+  "name": "Acer EK240Y P6bi 23.8 Inch FHD IPS Display HDMI, VGA Black Monitor #UM.QE0SS.601",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/acer-ek240y-p6bi-238-inch-fhd-ips-display-hdmi-11795410963.webp"
+ },
  "acer-ek251q-p6-24-5-144hz-fhd-ips-gaming-monitor": {
   "brand": "Acer",
   "category": "gaming-monitor",
@@ -18590,6 +18612,25 @@
   "name": "Acer EK251Q P6 24.5 Inch 144Hz FHD IPS Gaming Monitor",
   "specs": {},
   "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Acer/acer-ek251q-p6-24-5-inch-144hz-fhd-ips-gaming-monitor-250x250.jpg"
+ },
+ "acer-ek251q-p6bi-25-inch-24-5-inch-viewable-fhd-ips-144hz-hdmi-vga-black-monitor": {
+  "brand": "Acer",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 24.5",
+   "Display Resolution: 1920x1080",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 144Hz",
+   "App Name: Unmentioned",
+   "Rotatable: Unmentioned",
+   "HDMI Port: 1",
+   "Color: Black"
+  ],
+  "key": "monitor-all|144hz 25 acer black ek251q fhd hdmi ips monitor p6bi vga",
+  "name": "Acer EK251Q P6bi 25 Inch (24.5 Inch Viewable) FHD IPS 144Hz HDMI, VGA Black Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/acer-ek251q-p6bi-25-inch-245-inch-viewable-fhd-11795421282.webp"
  },
  "acer-emachines-ac1000-1000w-full-modular-80-plus-gold-certified-black-power-supp": {
   "brand": "Acer",
@@ -23708,6 +23749,20 @@
    "capacity": "8GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/adata-8gb-ddr3-1600mhz-ecc-registered-server-21720338539.webp"
+ },
+ "adata-8gb-ddr3l-1600mhz-laptop-ram": {
+  "brand": "Adata",
+  "category": "laptop-ram",
+  "created": "2026-11-24",
+  "key": "laptop-ram|1600 8gb adata ddr3",
+  "name": "ADATA 8GB DDR3L 1600MHz Laptop RAM",
+  "specs": {
+   "capacity": "8GB",
+   "form": "SO-DIMM",
+   "speed": "1600MHz",
+   "type": "DDR3L"
+  },
+  "store_image": "https://ik.imagekit.io/fourstarit/website/PC_Component/RAM_Laptop/Adata/adata-8gb-ddr3l-1600mhz-laptop-ram-11726660228_bW08j8mBo.webp"
  },
  "adata-8gb-ddr3l-1600mhz-laptop-ram-adds1600w8g11-s": {
   "brand": "ADATA",
@@ -34613,6 +34668,24 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/ahuja-acm-96ch-table-11720432814.webp"
  },
+ "ahuja-amx-912dp-9-channel-pa-mixer": {
+  "brand": "Ahuja",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 9:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: Yes",
+   "Remote Control: Unmentioned",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|9 912dp ahuja amx channel mixer pa",
+  "name": "Ahuja AMX 912DP 9 Channel PA Mixer",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ahuja-amx-912dp-9-channel-pa-11725784573.webp"
+ },
  "ahuja-asc-20t-15watts-pa-column-speaker": {
   "brand": "AHUJA",
   "category": "speaker",
@@ -42328,6 +42401,23 @@
   "name": "Amazfit Balance AMOLED Display Bluetooth Calling AI-Powered Fitness Smart Watch",
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/AMAZFIT/balance-02-500x500-228x228.png"
+ },
+ "amazfit-balance-amoled-display-sunset-grey-calling-smart-watch-with-gps": {
+  "brand": "Amazfit",
+  "category": "smart-watch",
+  "created": "2026-11-24",
+  "features": [
+   "Watch Size: 46mm",
+   "Screen/Display Size.: 1.50 Inch",
+   "Always On Display: Yes",
+   "Heart Rate: Yes",
+   "Band Color: Sunset Grey",
+   "Color: Sunset Grey"
+  ],
+  "key": "smart-watch|amazfit amoled balance calling display gps grey smart sunset watch",
+  "name": "Amazfit Balance Amoled Display Sunset Grey Calling Smart Watch with GPS",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/amazfit-balance-amoled-display-sunset-grey-11760332147.webp"
  },
  "amazfit-balance-bluetooth-calling-smartwatch": {
   "brand": "Amazfit",
@@ -65227,6 +65317,20 @@
   "name": "AnyDesk Ultimate License Project Based",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/anydesk-ultimate-license-project-11690115219.webp"
+ },
+ "aoaloo-4gb-ddr3-1600mhz-non-ecc-desktop-ram": {
+  "brand": "AOALOO",
+  "category": "desktop-ram",
+  "created": "2026-11-24",
+  "key": "desktop-ram|1600 4gb aoaloo ddr3 ecc non",
+  "name": "AOALOO 4GB DDR3 1600MHz Non-ECC Desktop RAM",
+  "specs": {
+   "capacity": "4GB",
+   "form": "DIMM",
+   "speed": "1600MHz",
+   "type": "DDR3"
+  },
+  "store_image": "https://ik.imagekit.io/fourstarit/website/PC_Component/RAM/AOALOO/H029c85441c2c47e98c3b62c6bee952f3n_0oiIc6O54.jpg"
  },
  "aoc-22b20jh2-22-100hz-1ms-ips-fhd-monitor": {
   "brand": "AOC",
@@ -88950,6 +89054,17 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/mac-mini/mac-mini-m4/mac-mini-m4-01-228x228.webp"
  },
+ "apple-mac-mini-m6-12-core-cpu-12-core-gpu-16gb-unified-memory-256gb-ssd": {
+  "brand": "Apple",
+  "category": "desktop-pc",
+  "created": "2026-11-24",
+  "key": "desktop-pc|12 16gb 256gb apple core gpu m6 mac mini unified",
+  "name": "Apple Mac mini M6 12-Core CPU 12-Core GPU 16GB Unified Memory 256GB SSD",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.creatus.com.bd/image/cache/wp/gj/products_2026/apple-mac-mini-m6-250x250.webp"
+ },
  "apple-mac-mini-m6-chip-12-core-gpu-16gb-ram-256gb-ssd-silver-mhqk4": {
   "brand": "Apple",
   "category": "desktop-pc",
@@ -90218,6 +90333,17 @@
   "created": "2026-11-23",
   "key": "laptop|13 256gb 8gb a18 apple macbook neo pro",
   "name": "Apple MacBook Neo 13-inch A18 Pro 8GB RAM 256GB SSD",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.creatus.com.bd/image/cache/wp/gj/products_2026/apple-macbook-neo-13-inch-silver-250x250.webp"
+ },
+ "apple-macbook-neo-13-inch-a18-pro-8gb-ram-512gb-ssd": {
+  "brand": "Apple",
+  "category": "laptop",
+  "created": "2026-11-24",
+  "key": "laptop|13 512gb 8gb a18 apple macbook neo pro",
+  "name": "Apple MacBook Neo 13-inch A18 Pro 8GB RAM 512GB SSD",
   "specs": {
    "capacity": "8GB"
   },
@@ -116293,14 +116419,10 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Chipset: AMD Radeon",
-   "Capacity (GB/TB): 16GB",
-   "Graphics Resolution Max.: 7680 x 4320",
-   "VGA Port: No",
-   "HDMI Port: 1",
-   "Display Port: 2",
-   "Multi Display Capability: Triple Display",
-   "Body Color: Black"
+   "Video Memory: 16GB GDDR6, PCI Express 5.0",
+   "Engine Clock: Max. 3330 MHz (OC), Max. 3310 MHz (Default)",
+   "Memory Speed: 20 Gbps, Stream Processors: 2048",
+   "Output Ports: 1x Native HDMI 2.1b, 2x Native DisplayPort 2.1a"
   ],
   "key": "graphics-card|16gb 9060 asus card gddr6 oc prime rx xt",
   "name": "ASUS Prime Radeon RX 9060 XT 16GB GDDR6 OC Edition Graphics Card",
@@ -132752,14 +132874,10 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Form Factor: Micro-ATX",
-   "Chipset: Intel B760",
-   "Sockets Supported: LGA1700",
-   "Supported CPU: 13th Gen Intel Core & 12th Gen Intel Core, Pentium Gold and Celeron Processors.",
-   "Generation: 12th/13th",
-   "Memory Slot: 4",
-   "Memory Max.: 128GB",
-   "Back-Connect Design: No"
+   "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+   "Supported Memory: 4 x DIMM, Max. 128GB, DDR4",
+   "Graphics Output: 1 x DisplayPort, 1 x HDMI",
+   "Features: 1 x Realtek 2.5Gb Ethernet, Wi-Fi 6"
   ],
   "key": "motherboard|asus b760m d4 motherboard plus tuf wifi",
   "name": "Asus TUF GAMING B760M-PLUS WIFI D4 Motherboard",
@@ -149026,13 +149144,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "Type: Optical Mouse",
-   "Connection Type: Wired",
-   "Interface: USB",
-   "Style & Size: Regular Big",
-   "Lighting: No",
-   "Click Sound: Yes",
-   "Color: Black"
+   "Number of keys: 3 keys",
+   "Resolution: 1200 dpi",
+   "Type: USB Wired",
+   "Cable Length: 1.5m"
   ],
   "key": "mouse|am104 aula black mouse wired",
   "name": "Aula AM104 Wired Black Mouse",
@@ -154968,6 +155083,44 @@
   "name": "AVISION AD130 Flatbed and Sheet Fed Color Document Scanner with ADF",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/avision-ad130-flatbed-and-sheet-fed-color-11674989216.webp"
+ },
+ "avision-ad136-flatbed-color-duplex-document-scanner-with-adf": {
+  "brand": "Avision",
+  "category": "scanner",
+  "created": "2026-11-24",
+  "features": [
+   "Scanning Speed (B & W): Flatbed: 4.5 sec, Simplex: 36 ppm,  Duplex: 72 ipm (200dpi, A4), Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (300dpi, A4)",
+   "Scanning Speed (Color): Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (200dpi, A4), Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (300dpi, A4)",
+   "Scan Size Max.: A4",
+   "ADF: Yes",
+   "Sheet Capacity (ADF): 75 sheets",
+   "Interface (Built-in): USB",
+   "Duty Cycle (Daily): 3000 Pages",
+   "Color: Black"
+  ],
+  "key": "scanner|ad136 adf avision color document duplex flatbed scanner",
+  "name": "Avision AD136 Flatbed Color Duplex Document Scanner with ADF",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/avision-ad136-flatbed-color-duplex-document-11795416510.webp"
+ },
+ "avision-ad136wn-flatbed-color-duplex-document-scanner-with-adf": {
+  "brand": "Avision",
+  "category": "scanner",
+  "created": "2026-11-24",
+  "features": [
+   "Scanning Speed (B & W): Flatbed: 4.5 sec, Simplex: 36 ppm,  Duplex: 72 ipm (200dpi, A4), Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (300dpi, A4)",
+   "Scanning Speed (Color): Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (200dpi, A4), Flatbed: 4.5 sec, Simplex: 36 ppm, Duplex: 72 ipm (300dpi, A4)",
+   "Scan Size Max.: A4",
+   "ADF: Yes",
+   "Sheet Capacity (ADF): 75 sheets",
+   "Interface (Built-in): USB. Lan. Wi-Fi",
+   "Duty Cycle (Daily): 3000 Pages",
+   "Color: Black"
+  ],
+  "key": "scanner|ad136wn adf avision color document duplex flatbed scanner",
+  "name": "Avision AD136WN Flatbed Color Duplex Document Scanner with ADF",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/avision-ad136wn-flatbed-color-duplex-document-11795416706.webp"
  },
  "avision-ad230u-flatbed-and-sheet-fed-color-duplex-document-scanner-with-adf": {
   "brand": "AVISION",
@@ -175516,6 +175669,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/gw2490p/gw2490p-01-228x228.webp"
  },
+ "benq-gw2490p-eye-care-23-8-inch-fhd-1920x1080-ips-120hz-hdmi-dp-professional": {
+  "brand": "BenQ",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 23.8",
+   "Display Resolution: 1920x1080",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 120Hz",
+   "App Name: Unmentioned",
+   "Rotatable: No",
+   "HDMI Port: 1",
+   "Color: Black"
+  ],
+  "key": "monitor-all|120hz 23.8 benq care dp eye fhd gw2490p hdmi ips monitor professional",
+  "name": "BenQ GW2490P Eye Care 23.8 Inch FHD (1920x1080) IPS 120Hz HDMI, DP Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/benq-gw2490p-eye-care-238-inch-fhd-1920x1080-11795437295.webp"
+ },
  "benq-gw2490t-23-8-100hz-fhd-ips-monitor": {
   "brand": "BenQ",
   "category": "gaming-monitor",
@@ -175810,6 +175982,25 @@
   "name": "BenQ GW2790P 27\" 120Hz FHD IPS Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/gw2790p/gw2790p-01-228x228.webp"
+ },
+ "benq-gw2790p-eye-care-27-inch-fhd-1920x1080-ips-120hz-hdmi-dp-professional": {
+  "brand": "BenQ",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 27",
+   "Display Resolution: 1920x1080",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 120Hz",
+   "App Name: Unmentioned",
+   "Rotatable: No",
+   "HDMI Port: 1",
+   "Color: Black"
+  ],
+  "key": "monitor-all|120hz 27 benq care dp eye fhd gw2790p hdmi ips monitor professional",
+  "name": "BenQ GW2790P Eye Care 27 Inch FHD (1920x1080) IPS 120Hz HDMI, DP Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/benq-gw2790p-eye-care-27-inch-fhd-1920x1080-ips-11795437097.webp"
  },
  "benq-gw2790q-27-inch-eye-care-ips-100-hz-qhd-monitor": {
   "brand": "BenQ",
@@ -197994,14 +198185,10 @@
   "category": "printer",
   "created": "2026-11-10",
   "features": [
-   "Functions: Print, Scan, Copy, Fax",
-   "Output Color: Color",
-   "Print Speed (Black): 16ipm (ESAT) (A4),  27ppm (Eco) (A4)",
-   "Print Speed (Color): 15.5ipm (ESAT) (A4),  23ppm (Eco) (A4)",
-   "Printer Resolution (Black): 1200 x 6000dpi",
-   "Printer Resolution (Color): 1200 x 6000dpi",
-   "Print Paper Size Max.: Legal",
-   "Interface (Built-in): USB, LAN, WiFi"
+   "Print Speed (B&W/ Color): A4 print speed up to 17/16.5 ipm",
+   "Resolution: Up to 6000 x 1200 dpi",
+   "Display: 1.8 Inch Colour LCD",
+   "Connectivity: USB, LAN, WiFi"
   ],
   "key": "printer|brother color ink mfc multifunction printer t930dw tank",
   "name": "Brother MFC-T930DW Multifunction Color Ink Tank Printer",
@@ -210683,6 +210870,24 @@
   "name": "Canon imageCLASS LBP236dw Single Function Mono Laser Printer",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/canon-imageclass-lbp236dw-single-function-mono-11705746808.webp"
+ },
+ "canon-imageclass-lbp243dw-ii-single-function-mono-laser-printer": {
+  "brand": "Canon",
+  "category": "laser-printer",
+  "created": "2026-11-24",
+  "features": [
+   "Functions: Print Only",
+   "Output Color: Black & White",
+   "Print Speed (Black): 36ppm(A4), 37ppm(LTR)",
+   "Printer Resolution (Black): 600 x 600 dpi",
+   "Print Paper Size Max.: Legal",
+   "Interface (Built-in): USB, LAN, WiFi",
+   "Body Color: White"
+  ],
+  "key": "laser-printer|canon function ii imageclass laser lbp243dw mono printer",
+  "name": "Canon imageCLASS LBP243dw II Single Function Mono Laser Printer",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/canon-imageclass-lbp243dw-ii-single-function-mono-11795410714.webp"
  },
  "canon-imageclass-lbp243dw-laser-printer": {
   "brand": "Canon",
@@ -239119,6 +239324,25 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/cooler-master-masterbox-nr200p-mini-tower-11658811221.webp"
  },
+ "cooler-master-masterbox-nr200p-mesh-mini-tower-mini-itx-black-desktop-case-mcb": {
+  "brand": "Cooler",
+  "category": "casing",
+  "created": "2026-11-24",
+  "features": [
+   "Case Type: Mini Tower",
+   "Supported Motherboard Type (Max.): Up to Mini-ITX",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 2",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|black case cooler itx kgnn master masterbox mcb mesh mini nr200p s00 tower",
+  "name": "Cooler Master MasterBox NR200P Mesh Mini Tower Mini ITX Black Desktop Case #MCB-NR200P-KGNN-S00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/cooler-master-masterbox-nr200p-mini-tower-mini-11642331672.webp"
+ },
  "cooler-master-masterbox-nr200p-mesh-mini-tower-mini-itx-caribbean-blue-desktop-c": {
   "brand": "Cooler",
   "category": "casing",
@@ -247606,6 +247830,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/h150/h150-01-228x228.jpg"
  },
+ "corsair-harpoon-rgb-black-wireless-gaming-mouse-ch-9311011-ap": {
+  "brand": "CORSAIR",
+  "category": "mouse",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Gaming Mouse",
+   "Connection Type: Wireless",
+   "Interface: USB Dongle",
+   "Style & Size: Regular Big",
+   "Lighting: RGB",
+   "Click Sound: Yes",
+   "Color: Black"
+  ],
+  "key": "mouse|9311011 ap black ch corsair harpoon mouse rgb wireless",
+  "name": "CORSAIR HARPOON RGB Black Wireless Gaming Mouse #CH-9311011-AP",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/corsair-harpoon-rgb-black-wireless-gaming-mouse-11601984576.webp"
+ },
  "corsair-harpoon-rgb-gaming-mouse": {
   "brand": "Corsair",
   "category": "mouse",
@@ -251574,6 +251816,24 @@
   "name": "Corsair M55 Ambidextrous Multi-Grip RGB Pro Gaming Mouse Black",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/mouse/corsair/m55/m55-228x228.jpg"
+ },
+ "corsair-m55-rgb-pro-black-wired-gaming-mouse-ch-9308011-ap": {
+  "brand": "CORSAIR",
+  "category": "mouse",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Wired Gaming Mouse",
+   "Connection Type: Wired",
+   "Interface: USB",
+   "Style & Size: Regular Big",
+   "Lighting: RGB",
+   "Click Sound: Yes",
+   "Color: Black"
+  ],
+  "key": "mouse|9308011 ap black ch corsair m55 mouse pro rgb wired",
+  "name": "CORSAIR M55 RGB PRO Black Wired Gaming Mouse #CH-9308011-AP",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/corsair-m55-rgb-pro-black-wired-gaming-mouse-11601792608.webp"
  },
  "corsair-m75-air-dual-mode-black-ultra-lightweight-gaming-mouse-ch-931d100-ap": {
   "brand": "CORSAIR",
@@ -280762,7 +281022,7 @@
    "Form-Factor: Bullet",
    "Mega Pixels (MP): 2.0",
    "Night Vision Mode: Color",
-   "Working Distance: 58.9 Meter",
+   "Working Distance: 59 Meter",
    "Color: White"
   ],
   "key": "ip-camera|a bullet camera dahua dh dual hfw1239tl1 il ip ipc light smart",
@@ -281033,7 +281293,7 @@
    "Form-Factor: Bullet",
    "Mega Pixels (MP): 4.0",
    "Night Vision Mode: Color",
-   "Working Distance: 70.3 Meter",
+   "Working Distance: 70 Meter",
    "Color: White"
   ],
   "key": "ip-camera|3.6mm bullet camera dahua dh fixed focal hfw2449tl ip ipc pro s wizsense",
@@ -281151,6 +281411,23 @@
   "name": "Dahua DH-IPC-HFW3441T-BT (3.6mm) (4MP) IR Fixed-focal WizSense Bullet IP Camera",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/dahua-dh-ipc-hfw3441t-bt-36mm-4mp-ir-21792307102.webp"
+ },
+ "dahua-dh-ipc-pts2649c-3e3z-4gb20-2-8mm-3-6mm-8-4mm-3-0mp-3-0mp-wizcolor-ip": {
+  "brand": "Dahua",
+  "category": "ip-camera",
+  "created": "2026-11-24",
+  "features": [
+   "Usage: Outdoor",
+   "Form-Factor: Bullet",
+   "Mega Pixels (MP): 3.0 & 3.0",
+   "Night Vision Mode: Color",
+   "Working Distance: 50 Meter",
+   "Color: Black & White"
+  ],
+  "key": "ip-camera|3e3z 4gb20 camera dahua dh ip ipc panel pts2649c solar wizcolor",
+  "name": "Dahua DH-IPC-PTS2649C-3E3Z-4GB20 (2.8mm+3.6mm+8.4mm) (3.0MP+3.0MP) WizColor IP Camera With Solar Panel",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dahua-dh-ipc-pts2649c-3e3z-4gb20-11795333560.webp"
  },
  "dahua-dh-ipc-pts2649c-3e3z-4gb20-2-8mm-3-6mm-8-4mm-3-0mp-3-0mp-wizcolor-wi-fi-ip": {
   "brand": "Dahua",
@@ -287174,7 +287451,7 @@
    "Form-Factor: Bullet",
    "Mega Pixels (MP): 6.0",
    "Night Vision Mode: Color",
-   "Working Distance: 63.6 Meter",
+   "Working Distance: 63 Meter",
    "Color: White"
   ],
   "key": "ip-camera|a bullet camera dahua dual hfw1639tc il ip ipc light smart",
@@ -287364,7 +287641,7 @@
    "Form-Factor: Bullet",
    "Mega Pixels (MP): 4.0",
    "Night Vision Mode: Color",
-   "Working Distance: 70.3 Meter",
+   "Working Distance: 70 Meter",
    "Color: White"
   ],
   "key": "ip-camera|3.6mm 4mp b bullet camera dahua hfw2449m ip ipc pro s wizcolor wizsense",
@@ -314780,6 +315057,26 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/dell-ec24250-2-in-1-aio-intel-core-i5-1334u-8gb-11788421705.webp"
  },
+ "dell-ec24250-2-in-1-aio-series-1-intel-core-3-100u-8gb-ram-512gb-ssd-23-8-inch": {
+  "brand": "Dell",
+  "category": "all-in-one-pc",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size: 23.8 Inch",
+   "Display Resolution (Pixels): 1920x1080",
+   "RAM: 8GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 512GB",
+   "Graphics Memory: Shared",
+   "Color: Black"
+  ],
+  "key": "all-in-one-pc|1 100u 2 23.8 3 512gb 8gb aio all black core dell display ec24250 fhd intel linux one",
+  "name": "Dell EC24250 2 in 1 AIO Series 1 Intel Core 3 100U 8GB RAM 512GB SSD 23.8 Inch FHD Display Linux Black All in One PC",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/dell-ec24250-2-in-1-aio-series-1-intel-core-3-11795423673.webp"
+ },
  "dell-ec24250-2-in-1-aio-series-1-intel-core-3-100u-8gb-ram-512gb-ssd-23-8-inch-f": {
   "brand": "Dell",
   "category": "all-in-one-pc",
@@ -336412,6 +336709,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/gimbal/dji/osmo-mobile-6/osmo-mobile-6-03-228x228.webp"
  },
+ "dji-osmo-mobile-7-robust-3-axis-smartphone-gimbal-stabilizer-magnetic-clamp": {
+  "brand": "DJI",
+  "category": "gimbal",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Smartphone Gimbal",
+   "Number of Axis: 3 Axis",
+   "Maximum Load: 0.30kg",
+   "Connectivity with Device: Wireless (Bluetooth / Others)",
+   "Built-in Selfie Stick: No",
+   "Built-in Tripod: Yes",
+   "Color: White"
+  ],
+  "key": "gimbal|3 7 axis dji gimbal mobile osmo robust smartphone stabilizer",
+  "name": "DJI Osmo Mobile 7 Robust 3-Axis Smartphone Gimbal Stabilizer (Magnetic Clamp, Power Cable, Pouch)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dji-osmo-mobile-7-robust-3-axis-smartphone-gimbal-11747121675.webp"
+ },
  "dji-osmo-mobile-7-smartphone-gimbal": {
   "brand": "DJI",
   "category": "gimbal",
@@ -336492,6 +336807,24 @@
   "name": "DJI Osmo Mobile 8 Gimbal (Standard Device Only)",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/dji-osmo-mobile-8-gimbal-standard-device-11779359397.webp"
+ },
+ "dji-osmo-mobile-8-standard-combo-handheld-3-axis-gray-smartphone-gimbal": {
+  "brand": "DJI",
+  "category": "gimbal",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Smartphone Gimbal",
+   "Number of Axis: 3 Axis",
+   "Maximum Load: 0.30kg",
+   "Connectivity with Device: Wireless (Bluetooth / Others)",
+   "Built-in Selfie Stick: Yes",
+   "Built-in Tripod: Yes",
+   "Color: Gray"
+  ],
+  "key": "gimbal|3 8 axis combo dji gimbal gray handheld mobile osmo smartphone standard",
+  "name": "DJI Osmo Mobile 8 Standard Combo Handheld 3-Axis Gray Smartphone Gimbal",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/dji-osmo-mobile-8-standard-combo-handheld-3-axis-11782973964.webp"
  },
  "dji-osmo-mobile-8p": {
   "brand": "DJI",
@@ -337365,13 +337698,10 @@
   "category": "gimbal",
   "created": "2026-11-11",
   "features": [
-   "Type: Camera Gimbal",
-   "Number of Axis: 3 Axis",
-   "Maximum Load: 3.00kg",
-   "Connectivity with Device: Wireless (Bluetooth / Others)",
-   "Built-in Selfie Stick: No",
-   "Built-in Tripod: No",
-   "Color: Black"
+   "Axis Lock: 2nd-Gen Automated Axis Locks",
+   "Display: 1.8″ OLED Full-Color Touchscreen",
+   "Stabilization: 4th-Gen RS Stabilization Algorithm",
+   "Weight Capacity: 3kg (6.6lbs) Payload Capacity"
   ],
   "key": "gimbal|4 dji gimbal rs stabilizer",
   "name": "DJI RS 4 Gimbal Stabilizer",
@@ -357679,6 +358009,25 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/epson-eb-l775u-7600-lumens-wuxga-3lcd-11788264987.webp"
  },
+ "epson-eb-l790u-7300-lumens-wuxga-3lcd-projector": {
+  "brand": "Epson",
+  "category": "projector",
+  "created": "2026-11-24",
+  "features": [
+   "Category: Standard Throw",
+   "Display Type.: 3LCD",
+   "Max. Supported Resolution: 3840 x 2160",
+   "Light Output (lumens): 7300 Lumens",
+   "Light Source (Watt): Unmentioned",
+   "Max. Projection Distance: 78.2 ft",
+   "Max. Image/Screen Size (Inch): 500 Inch",
+   "Color: White"
+  ],
+  "key": "projector|3lcd eb epson l790u projector wuxga",
+  "name": "Epson EB-L790U (7300 Lumens) WUXGA 3LCD Projector",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/epson-eb-l790u-7300-lumens-wuxga-3lcd-11795427666.webp"
+ },
  "epson-eb-l790u-wuxga-3lcd-laser-multimedia-projector": {
   "brand": "Epson",
   "category": "projector",
@@ -360058,6 +360407,25 @@
   "name": "Epson EcoTank Monochrome M1170 Wi-Fi Inkjet Printer",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/printer/epson/m1170/m1170-01-228x228.jpg"
+ },
+ "epson-ecotank-monochrome-m1170-wi-fi-single-function-ink-tank-printer": {
+  "brand": "Epson",
+  "category": "printer",
+  "created": "2026-11-24",
+  "features": [
+   "Functions: Print Only",
+   "Output Color: Black & White",
+   "Print Speed (Black): 20ipm(ISO) (A4), 39ppm(Draft) (A4)",
+   "Print Speed (Color): No",
+   "Printer Resolution (Black): 1200 x 2400 dpi",
+   "Printer Resolution (Color): No",
+   "Print Paper Size Max.: Legal",
+   "Interface (Built-in): USB, LAN, WiFi"
+  ],
+  "key": "printer|ecotank epson fi function ink m1170 monochrome printer tank wi",
+  "name": "Epson EcoTank Monochrome M1170 Wi-Fi Single Function Ink Tank Printer",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/epson-ecotank-monochrome-m1170-wi-fi-single-11741769343.webp"
  },
  "epson-ecotank-monochrome-m15180-a3-wi-fi-duplex-mfp-printer": {
   "brand": "Epson",
@@ -367119,7 +367487,7 @@
   "created": "2026-11-20",
   "features": [
    "Type: Smart Lock",
-   "Connectivity Mode: Wi-Fi, Bluetooth",
+   "Connectivity Mode: Wi-Fi & Bluetooth",
    "Color: Metallic Gray"
   ],
   "key": "door-lock|dl20fvs ezviz face fi handheld lock palm plus recognition smart vein wi",
@@ -367704,7 +368072,7 @@
   "features": [
    "Usage: Indoor",
    "Form-Factor: Dome",
-   "Mega Pixels (MP): 3.0MP",
+   "Mega Pixels (MP): 3.0",
    "Night Vision Mode: Color",
    "Working Distance: 10 Meter",
    "Color: White"
@@ -368467,7 +368835,7 @@
   "features": [
    "Usage: Indoor",
    "Form-Factor: Dome",
-   "Mega Pixels (MP): 3.0MP",
+   "Mega Pixels (MP): 3.0",
    "Night Vision Mode: Color",
    "Working Distance: Unmentioned",
    "Color: White"
@@ -391177,6 +391545,14 @@
   "brand": "Fifine",
   "category": "microphone",
   "created": "2026-11-11",
+  "features": [
+   "Channel: Not Applicable",
+   "Connectivity Mode: Wired",
+   "USB Port: Yes",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
   "key": "microphone|ampligame audio fifine mixer sc8",
   "name": "Fifine AmpliGame SC8 Audio Mixer",
   "specs": {},
@@ -437307,6 +437683,20 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/camera-flash/godox/95cm-umbrella-octagon-softbox/95cm-umbrella-octagon-softbox-01-228x228.webp"
  },
+ "godox-ad-s85s-parabolic-softbox-33-5-inch-85cm": {
+  "brand": "Godox",
+  "category": "camera-accessories",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Softbox",
+   "Maximum Capacity: Not Applicable",
+   "Color: Black"
+  ],
+  "key": "camera-accessories|ad godox parabolic s85s softbox",
+  "name": "Godox AD-S85S Parabolic Softbox (33.5 Inch/85cm)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/godox-ad-s85s-parabolic-softbox-335-11795412701.webp"
+ },
  "godox-ad-s85s-parabolic-softbox-for-ad400pro": {
   "brand": "Godox",
   "category": "camera-accessories",
@@ -478381,7 +478771,7 @@
   "created": "2026-11-11",
   "features": [
    "Screen/Display Size.: 2.01 Inch",
-   "Always On Display: Unmentioned",
+   "Always On Display: No",
    "Waterproof: Yes",
    "Heart Rate: Yes",
    "Band Color: Black",
@@ -486708,7 +487098,8 @@
    "Interface(s): USB 3.2",
    "Capacity (GB/TB): 256GB",
    "Access Time Read (MB/s): 1000MB/s",
-   "Access Time Write (MB/s): 1000MB/s"
+   "Access Time Write (MB/s): 1000MB/s",
+   "Color: Blackish Green"
   ],
   "key": "pen-drive|256gb 3.2 blackish c dual green hiksemi otg pen pro rapids type usb",
   "name": "Hiksemi Rapids Pro Dual 256GB USB 3.2 & Type-C OTG Blackish Green Pen Drive",
@@ -487271,6 +487662,28 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7272604004/hiksemi-ssd-wave-p-128g-cover.webp"
  },
+ "hiksemi-wave-p-series-1tb-m-2-2280-nvme-pcie-gen3x4-ssd-hs-ssd-wave-p-1024g": {
+  "brand": "Hiksemi",
+  "category": "ssd",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Internal SSD",
+   "Storage: 1TB",
+   "Form Factor (Inch): M.2 2280",
+   "Interface(s): NVMe PCIe Gen3 x4",
+   "Read Speed (Max.): 2450MB/s",
+   "Write Speed (Max.): 2000MB/s",
+   "Color: Black"
+  ],
+  "key": "ssd|1024g 1tb gen3x4 hiksemi hs m.2 p pcie wave",
+  "name": "Hiksemi Wave P Series 1TB M.2 2280 NVMe PCIe Gen3x4 SSD #HS-SSD-WAVE(P)-1024G",
+  "specs": {
+   "capacity": "1TB",
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/hiksemi-wave-p-series-1tb-m2-2280-nvme-pcie-11795416496.webp"
+ },
  "hiksemi-wave-p-series-256gb-m-2-2280-nvme-pcie-gen3x4-ssd": {
   "brand": "Hiksemi",
   "category": "ssd",
@@ -487468,6 +487881,28 @@
    "interface": "SATA"
   },
   "store_image": "https://www.ryans.com/storage/products/small/hiksemi-waves-series-512gb-25-inch-sataiii-ssd-11784449926.webp"
+ },
+ "hiksemi-wave-s-series-1tb-2-5-inch-sataiii-ssd-hs-ssd-wave-s-1024g": {
+  "brand": "Hiksemi",
+  "category": "ssd",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Internal SSD",
+   "Storage: 1TB",
+   "Form Factor (Inch): 2.5 Inch",
+   "Interface(s): SATA III 6 Gb/s",
+   "Read Speed (Max.): 550MB/s",
+   "Write Speed (Max.): 470MB/s",
+   "Color: Black"
+  ],
+  "key": "ssd|1024g 1tb 2.5 hiksemi hs sataiii wave",
+  "name": "Hiksemi WAVE(S) Series 1TB 2.5 Inch SATAIII SSD #HS-SSD-WAVE(S)-1024G",
+  "specs": {
+   "capacity": "1TB",
+   "form": "2.5\"",
+   "interface": "SATA"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/hiksemi-waves-series-1tb-25-inch-sataiii-ssd-11795417071.webp"
  },
  "hiksemi-wave-sata-iii-internal-ssd": {
   "brand": "Hiksemi",
@@ -496294,9 +496729,9 @@
   "features": [
    "Usage: Outdoor",
    "Form-Factor: Dome",
-   "Mega Pixels (MP): 4.0MP",
+   "Mega Pixels (MP): 4.0",
    "Night Vision Mode: Color",
-   "Working Distance: 63.9 Meter",
+   "Working Distance: 64 Meter",
    "Color: White"
   ],
   "key": "ip-camera|24 2cfsp4 4g 7 camera dome ds hikvision ip pt solar",
@@ -496311,9 +496746,9 @@
   "features": [
    "Usage: Outdoor",
    "Form-Factor: Dome",
-   "Mega Pixels (MP): 4.0MP",
+   "Mega Pixels (MP): 4.0",
    "Night Vision Mode: Black and White",
-   "Working Distance: 77.6 Meter",
+   "Working Distance: 77 Meter",
    "Color: White"
   ],
   "key": "ip-camera|24 2cfsp4 4g 7 camera dome ds hikvision ip pt solar",
@@ -520521,6 +520956,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/honor/choice-headphone-pro/choice-headphone-pro-001-228x228.webp"
  },
+ "honor-choice-t10": {
+  "brand": "HONOR",
+  "category": "smartphone",
+  "created": "2026-11-24",
+  "features": [
+   "Display: 6.75\" IPS LCD HD+, 90Hz, 450 nits",
+   "Processor: UNISOC T615 (Octa-core 12 nm)",
+   "Camera: 13 MP on Rear, 5MP on Selfie",
+   "Features: Fingerprint, 5000 mAh Battery"
+  ],
+  "key": "smartphone|choice honor t10",
+  "name": "HONOR CHOICE T10",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/mobile/honor/choice-t10/choice-t10-black-01-228x228.webp"
+ },
  "honor-choice-tnhchop-pencil-for-honor-pad-9-10-x9a": {
   "brand": "Honor",
   "category": "stylus-pen",
@@ -524333,6 +524783,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P5282506002/hotmai-speakers-ft-ht-2031-cover.webp"
  },
+ "howa-power-10-kva-automatic-voltage-regulator-sr-10kva": {
+  "brand": "Howa",
+  "category": "voltage-stabilizer",
+  "created": "2026-11-24",
+  "features": [
+   "Phase: Single-phase",
+   "Input: 100V~250V/150V~250V, 50Hz/60Hz",
+   "Output Voltage: 220V/110V±2.5%",
+   "Protection: Over/Low Voltage, Overload, Surge arrestor"
+  ],
+  "key": "voltage-stabilizer|10 automatic howa kva power regulator voltage",
+  "name": "Howa Power 10 kVA Automatic Voltage Regulator (SR-10KVA)",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/voltage-regulator/howa-power/sr-10kva/sr-10kva-01-228x228.webp"
+ },
  "hoya-52mm-lens-filter": {
   "brand": "HOYA",
   "category": "camera-accessories",
@@ -527911,6 +528376,50 @@
   "name": "HP 200 Emprs Red Black Wireless Mouse",
   "specs": {},
   "store_image": "https://smartbd.com/wp-content/uploads/2023/05/HP-200-Emprs-Red-Black-Wireless-Mouse.png"
+ },
+ "hp-200-g2a-14-amd-ryzen-3-30-8gb-ram-512gb-ssd-14-inch-wuxga-iron-gray-laptop": {
+  "brand": "HP",
+  "category": "laptop",
+  "created": "2026-11-24",
+  "key": "laptop|14 200 3 30 512gb 8gb amd g2a gray hp iron ryzen wuxga",
+  "name": "HP 200 G2a 14 AMD Ryzen 3 30 8GB RAM 512GB SSD 14 Inch WUXGA Iron Gray Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://smartbd.com/wp-content/uploads/2026/11/HP-200-G2a-14-Laptop.jpg"
+ },
+ "hp-200-g2a-14-amd-ryzen-5-40-8gb-ram-512gb-ssd-14-inch-wuxga-iron-gray-laptop": {
+  "brand": "HP",
+  "category": "laptop",
+  "created": "2026-11-24",
+  "key": "laptop|14 200 40 5 512gb 8gb amd g2a gray hp iron ryzen wuxga",
+  "name": "HP 200 G2a 14 AMD Ryzen 5 40 8GB RAM 512GB SSD 14 Inch WUXGA Iron Gray Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://smartbd.com/wp-content/uploads/2026/11/HP-200-G2a-14-Laptop.jpg"
+ },
+ "hp-200-g2a-16-amd-ryzen-3-30-8gb-ram-512gb-ssd-16-inch-wuxga-iron-gray-laptop": {
+  "brand": "HP",
+  "category": "laptop",
+  "created": "2026-11-24",
+  "key": "laptop|16 200 3 30 512gb 8gb amd g2a gray hp iron ryzen wuxga",
+  "name": "HP 200 G2a 16 AMD Ryzen 3 30 8GB RAM 512GB SSD 16 Inch WUXGA Iron Gray Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://smartbd.com/wp-content/uploads/2026/11/HP-200-G2a-14-Laptop.jpg"
+ },
+ "hp-200-g2a-16-amd-ryzen-5-40-8gb-ram-512gb-ssd-16-inch-wuxga-iron-gray-laptop": {
+  "brand": "HP",
+  "category": "laptop",
+  "created": "2026-11-24",
+  "key": "laptop|16 200 40 5 512gb 8gb amd g2a gray hp iron ryzen wuxga",
+  "name": "HP 200 G2a 16 AMD Ryzen 5 40 8GB RAM 512GB SSD 16 Inch WUXGA Iron Gray Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://smartbd.com/wp-content/uploads/2026/11/HP-200-G2a-14-Laptop.jpg"
  },
  "hp-2000mah-4-cell-laptop-battery": {
   "brand": "Hp",
@@ -532878,10 +533387,9 @@
   "category": "printer-supplies",
   "created": "2026-11-10",
   "features": [
-   "Item Category: Printer Toner",
-   "Printing Color: Black",
-   "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 8550 Pages"
+   "Color(s) of print cartridges: Black",
+   "Print technology: Laser",
+   "Page yield:9,000 pages"
   ],
   "key": "printer-supplies|87a black hp laserjet original toner",
   "name": "HP 87A Black Original LaserJet Toner (CF287A)",
@@ -551739,6 +552247,27 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/hpe-proliant-dl380-gen-11-2u-with-2x-intel-xeon-11761730132.webp"
  },
+ "hpe-proliant-dl380-gen-11-2u-with-2x-intel-xeon-silver-4514y-64gb-ram-rack": {
+  "brand": "HPE",
+  "category": "server-rack",
+  "created": "2026-11-24",
+  "features": [
+   "Processor Model: Intel Xeon Silver 4514Y",
+   "Processor Clock Speed: 2.00GHz - 3.40GHz",
+   "Total Cores: 32",
+   "RAM: 64GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 4 x 1.92TB",
+   "Installed SSD Type: SATA",
+   "Body Color: Black & Gray"
+  ],
+  "key": "server-rack|11 2u 2x 4514y 64gb dl380 hpe intel proliant rack server silver xeon",
+  "name": "HPE ProLiant DL380 Gen 11 2U with 2x Intel Xeon Silver 4514Y 64GB RAM Rack Server",
+  "specs": {
+   "capacity": "64GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/hpe-proliant-dl380-gen-11-2u-with-2x-intel-xeon-11795421523.webp"
+ },
  "hpe-proliant-dl380-gen-11-2u-with-2x-intel-xeon-silver-4514y-processor-rack-serv": {
   "brand": "HPE",
   "category": "server-rack",
@@ -561437,6 +561966,22 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/headphone/hyperx/cloud-iii/cloud-iii-01-228x228.webp"
  },
+ "hyperx-cloud-iii-wireless-black-red-gaming-headphone": {
+  "brand": "HyperX",
+  "category": "headphone",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Color: Black & Red"
+  ],
+  "key": "headphone|black cloud headphone hyperx iii red wireless",
+  "name": "HyperX Cloud III Wireless Black & Red Gaming Headphone",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/hyperx-cloud-iii-wireless-black-red-gaming-11795418973.webp"
+ },
  "hyperx-cloud-iii-wireless-gaming-headphone": {
   "brand": "HyperX",
   "category": "headphone",
@@ -565573,7 +566118,7 @@
   "features": [
    "Usage: Outdoor",
    "Form-Factor: Dome",
-   "Mega Pixels (MP): 3.0,3.0 & 5.0",
+   "Mega Pixels (MP): 3.0, 3.0 & 5.0",
    "Night Vision Mode: Color",
    "Working Distance: Unmentioned",
    "Color: White"
@@ -640390,6 +640935,26 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/lenovo-aio-a100-intel-core-i3-n305-8gb-ram-512gb-11764068193.webp"
  },
+ "lenovo-aio-a100-intel-core-n100-8gb-ddr5-ram-512gb-ssd-23-8-inch-fhd-display": {
+  "brand": "Lenovo",
+  "category": "all-in-one-pc",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size: 23.8 Inch",
+   "Display Resolution (Pixels): 1920x1080",
+   "RAM: 8GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 512GB",
+   "Graphics Memory: Shared",
+   "Color: Cloud Gray"
+  ],
+  "key": "all-in-one-pc|23.8 512gb 8gb a100 aio all cloud core ddr5 display fhd grey intel lenovo n100 one",
+  "name": "Lenovo AIO A100 Intel Core N100 8GB DDR5 RAM 512GB SSD 23.8 Inch FHD Display Cloud Grey All in One PC",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/lenovo-aio-a100-intel-core-n100-8gb-ddr5-ram-11795411925.webp"
+ },
  "lenovo-aio-a100-intel-core-n100-8gb-ram-512gb-ssd-23-8-inch-fhd-display-cloud": {
   "brand": "Lenovo",
   "category": "all-in-one-pc",
@@ -645877,10 +646442,14 @@
   "category": "laptop",
   "created": "2026-11-11",
   "features": [
-   "Intel Core 5-210H (12M, Max. 4.80 GHz)",
-   "16GB DDR5 RAM | 512GB SSD",
-   "14-inch WUXGA IPS Display",
-   "Wi-Fi 6, Type-C, Windows Hello"
+   "Processor Type.: Core 5",
+   "Generation: Core Series 2",
+   "RAM: 16GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: Intel Graphics",
+   "Display Size (Inch): 14",
+   "Color: Luna Gray"
   ],
   "key": "laptop|14 14irh10r 16gb 210h 3i 5 512gb core ideapad intel lenovo slim wuxga",
   "name": "Lenovo IdeaPad Slim 3i 14IRH10R Intel Core 5-210H 16GB RAM 512GB SSD 14-inch WUXGA Laptop",
@@ -645962,14 +646531,10 @@
   "category": "laptop",
   "created": "2026-11-10",
   "features": [
-   "Processor Type.: Core i5",
-   "Generation: 13th (Intel)",
-   "RAM: 16GB",
-   "Storage: 512GB SSD",
-   "Graphics Memory: Shared",
-   "Graphics Chipset: Intel UHD Graphics",
-   "Display Size (Inch): 15.3",
-   "Color: Luna Gray"
+   "Processor: Intel Core i5-13420H (12MB Cache, up to 4.6GHz)",
+   "Ram: 16GB DDR5-4800, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
+   "Display: 15.3\" WUXGA (1920x1200) IPS, 300 nits Anti-glare",
+   "Features: Privacy Shutter, Type-C, Wi-Fi 6, FreeDOS"
   ],
   "key": "laptop|13420h 13th 15.3 15irh10 16gb 3i 512gb core i5 ideapad lenovo slim wuxga",
   "name": "Lenovo IdeaPad Slim 3i 15IRH10 13th Gen Core i5-13420H 16GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
@@ -704855,6 +705420,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/meari-g1-4g-40mp-outdoor-wired-ptz-wi-fi-dome-11794644516.webp"
  },
+ "meari-g1-4mp-sim-supported-outdoor-ptz-camera": {
+  "brand": "Meari",
+  "category": "wifi-camera",
+  "created": "2026-11-24",
+  "features": [
+   "Resolution: 4 Megapixel (2560x1440) @ 20 fps",
+   "Supports up to 128 GB TF Card, Free 10 years Cloud Storage",
+   "IR Distance: Up to 30 Meters, Connection: 4G SIM supported",
+   "Two-Way Talk, Customizable Range Smart Detection, Color Night Vision"
+  ],
+  "key": "wifi-camera|4mp camera g1 meari outdoor ptz sim supported",
+  "name": "Meari G1 4MP Sim Supported Outdoor PTZ Camera",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/ip-camera/meari/g1-/g1-01-228x228.webp"
+ },
  "meari-g1-4mp-sim-supported-outdoor-ptz-wifi-camera": {
   "brand": "Meari",
   "category": "wifi-camera",
@@ -745115,6 +745695,25 @@
   "specs": {},
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
  },
+ "msi-mag-346cqdf-e20-34-inch-3k-uwqhd-200hz-400hz-rapid-va-curved-gaming-monitor": {
+  "brand": "MSI",
+  "category": "gaming-monitor",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 34",
+   "Display Resolution: 3440x1440",
+   "Panel Type: VA",
+   "Refresh Rate (Hz): 200Hz",
+   "App Name: Not Applicable",
+   "Rotatable: No",
+   "HDMI Port: 2",
+   "Color: Black"
+  ],
+  "key": "gaming-monitor|200hz 34 346cqdf 3k 400hz curved e20 mag monitor msi rapid uwqhd va",
+  "name": "MSI MAG 346CQDF E20 34 Inch 3K UWQHD 200Hz & 400Hz Rapid VA Curved Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/msi-mag-346cqdf-e20-34-inch-3k-uwqhd-200hz-11795411740.webp"
+ },
  "msi-mag-a1000gl-pcie5-1000w-80-plus-gold-full-modular-power-supply": {
   "brand": "MSI",
   "category": "power-supply",
@@ -753693,6 +754292,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/pro-b860-p-wifi/pro-b860-p-wifi-01-228x228.webp"
  },
+ "msi-pro-b860m-a-wi-fi-6e-ddr5-intel-core-ultra-lga1851-socket-motherboard": {
+  "brand": "MSI",
+  "category": "motherboard",
+  "created": "2026-11-24",
+  "features": [
+   "Form Factor: Micro-ATX",
+   "Chipset: Intel B860",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|a b860m ddr5 motherboard msi pro",
+  "name": "MSI PRO B860M-A (Wi-Fi 6E) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/msi-pro-b860m-a-wi-fi-6e-ddr5-intel-core-ultra-11795434624.webp"
+ },
  "msi-pro-b860m-a-wi-fi-7-ddr5-intel-motherboard": {
   "brand": "MSI",
   "category": "motherboard",
@@ -755305,9 +755923,9 @@
   "created": "2026-11-10",
   "features": [
    "Resolution: FHD (1920 x 1080)",
-   "Display: IPS, 144Hz, 1ms (MPRT) / 4ms (GtG)",
-   "Ports: 1x HDMI, 1x DisplayPort, 1x VGA, 1 x Headphone",
-   "Features: AMD FreeSync, Anti-glare, Built-in Speaker"
+   "Display: IPS, 75Hz, 1ms (MPRT) / 4ms (GtG)",
+   "Ports: 2x HDMI, 1x DisplayPort, 1 x Headphone",
+   "Features: EyeErgo, Anti-glare, Accessories Slot"
   ],
   "key": "gaming-monitor|144hz 27 business e7 fhd ips monitor mp273q msi pro",
   "name": "MSI PRO MP273Q E7 27\" 144Hz IPS FHD Business Monitor",
@@ -755597,6 +756215,24 @@
   "name": "MSI PRO MP275Q E14 27\" 144Hz IPS 2K WQHD Business Monitor",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/pro-mp275q-e14/pro-mp275q-e14-01-228x228.webp"
+ },
+ "msi-pro-mp275q-e14-27-inch-wqhd-hdmi-dp-professional-monitor": {
+  "brand": "MSI",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 27",
+   "Display Resolution: 2560x1440",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 144Hz",
+   "Rotatable: No",
+   "HDMI Port: 2",
+   "Color: Black"
+  ],
+  "key": "monitor-all|27 dp e14 hdmi monitor mp275q msi pro professional wqhd",
+  "name": "MSI PRO MP275Q E14 27 Inch WQHD HDMI DP Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/msi-pro-mp275q-e14-27-inch-wqhd-hdmi-dp-11774870021.webp"
  },
  "msi-pro-mp275q-e14-27-wqhd-144hz-ips-gaming-monitor": {
   "brand": "MSI",
@@ -760903,6 +761539,28 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P6442506010/neo-forza-ssd-nfp045pci56-cover.webp"
  },
+ "neo-forza-nfp055-512gb-m-2-2280-nvme-pcie-gen3x4-ssd-nfp055pci51-34h1200": {
+  "brand": "Neo",
+  "category": "ssd",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Internal SSD",
+   "Storage: 512GB",
+   "Form Factor (Inch): M.2 2280",
+   "Interface(s): NVMe PCIe Gen3x4",
+   "Read Speed (Max.): 2800MB/s",
+   "Write Speed (Max.): 1400MB/s",
+   "Color: Black"
+  ],
+  "key": "ssd|34h1200 512gb forza gen3x4 m.2 neo nfp055 nfp055pci51 pcie",
+  "name": "Neo Forza NFP055 512GB M.2 2280 NVMe PCIe Gen3x4 SSD #NFP055PCI51-34H1200",
+  "specs": {
+   "capacity": "512GB",
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/neo-forza-nfp055-512gb-m2-2280-nvme-pcie-gen3x4-11773307590.webp"
+ },
  "neo-forza-nfp055pci10-34h1200-1000gb-m-2-2280-nvme-pcie-gen3x4-ssd": {
   "brand": "Neo",
   "category": "ssd",
@@ -761066,10 +761724,13 @@
   "category": "ssd",
   "created": "2026-11-11",
   "features": [
-   "Model: NEO FORZA NFP495 500GB",
-   "Form/Interface: M.2 2280 NVMe PCIe 4.0",
-   "Speed: 7000 MB/s Read | 4600 MB/s Write",
-   "Warranty: 5 Years"
+   "Type: Internal SSD",
+   "Storage: 500GB",
+   "Form Factor (Inch): M.2 2280",
+   "Interface(s): NVMe PCIe Gen4 x4",
+   "Read Speed (Max.): 7000MB/s",
+   "Write Speed (Max.): 3600MB/s",
+   "Color: Black"
   ],
   "key": "ssd|44h5200 500gb forza gen4x4 m.2 neo nfp495pci50 pcie",
   "name": "NEO FORZA NFP495PCI50-44H5200 M.2 2280 PCIe GEN4X4 500GB NVMe SSD",
@@ -777539,7 +778200,7 @@
   "created": "2026-11-10",
   "features": [
    "Display: 2.4 inches TFT QVGA (240 x 320p)",
-   "Battery: Li-Ion 1,150 mAh removable",
+   "Battery: Li-Ion 1450 mAh removable",
    "Micro SD Support up to 32GB, 4G SIM Support",
    "Dual SIM, Flashlight, Wireless FM radio, Bluetooth 5.0"
   ],
@@ -790800,6 +791461,15 @@
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/000-tv/102/Y1G-02--228x228.jpg"
  },
+ "oneplus-be02t-type-c-bullets-earphone": {
+  "brand": "OnePlus",
+  "category": "earphone",
+  "created": "2026-11-24",
+  "key": "earphone|be02t bullets c earphone oneplus type",
+  "name": "OnePlus BE02T Type-C Bullets Earphone",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/OnePlus-BE02T-Type-C-Bullets-Earphone-9818.jpg"
+ },
  "oneplus-be02t-type-c-straight-bullets-earphone": {
   "brand": "OnePlus",
   "category": "earphone",
@@ -798352,10 +799022,12 @@
   "category": "cable",
   "created": "2026-11-10",
   "features": [
-   "Resolution Support: 4K at 30 Hz",
-   "Cable Length: 1 Meter",
-   "Transmission Rate: 10.2 Gbps",
-   "Audio Support: Supported"
+   "Type: Video",
+   "Port Side-1: HDMI 1.4 Male",
+   "Port Side-2: HDMI 1.4 Male",
+   "Length.: 1 Meter",
+   "Display Resolution (Pixels): 3840 x 2160",
+   "Color: Black"
   ],
   "key": "cable|1m 4k 8305 cable hdmi onten otn",
   "name": "Onten OTN-8305 1M 4K HDMI Cable",
@@ -803297,6 +803969,21 @@
   "name": "Onten OTN-UCA612 5-in-2 Type-C Hub",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/hub/onten/otn-uca612/otn-uca612-01-228x228.webp"
+ },
+ "onten-otn-uca612-type-c-usb-male-to-dual-usb-tri-type-c-female-gray-usb-hub-otn": {
+  "brand": "Onten",
+  "category": "hub-dock",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Data",
+   "Length.: 0.5 Meter",
+   "Interface(s): 1 x USB-C, 2 x USB-C (USB 3.2 GEN 2), 2 x USB 3.0 (USB 3.2 GEN 2)",
+   "Color: Gray"
+  ],
+  "key": "hub-dock|c dual female gray hub male onten otn to tri type uca612 usb",
+  "name": "Onten OTN-UCA612 Type-C & USB Male to Dual USB & Tri Type-C Female Gray USB HUB #OTN-UCA612",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/onten-otn-uca612-type-c-usb-male-to-dual-usb-11770985088.webp"
  },
  "onten-otn-uca612-usb-a-usb-c-male-to-dual-usb-a-triple-usb-c-female-teal-usb-hub": {
   "brand": "Onten",
@@ -829708,6 +830395,40 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/panasonic-mc-cl609-metal-grey-bagless-canister-11787990567.webp"
  },
+ "panasonic-mc-sbr40-cordless-stick-vacuum-cleaner": {
+  "brand": "Panasonic",
+  "category": "vacuum-cleaner",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Stick",
+   "Cleaner Mode: Dry Only",
+   "Dust Capacity: 0.7L",
+   "Filter Type: HEPA",
+   "Nozzle Type: Bristle Brush",
+   "Color: Gray"
+  ],
+  "key": "vacuum-cleaner|cleaner cordless mc panasonic sbr40 stick vacuum",
+  "name": "Panasonic MC-SBR40 Cordless Stick Vacuum Cleaner",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/panasonic-mc-sbr40-cordless-stick-vacuum-21795436225.webp"
+ },
+ "panasonic-mc-sbr70-cordless-stick-vacuum-cleaner": {
+  "brand": "Panasonic",
+  "category": "vacuum-cleaner",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Stick",
+   "Cleaner Mode: Dry Only",
+   "Dust Capacity: 0.7L",
+   "Filter Type: HEPA",
+   "Nozzle Type: Bristle Brush",
+   "Color: Black"
+  ],
+  "key": "vacuum-cleaner|cleaner cordless mc panasonic sbr70 stick vacuum",
+  "name": "Panasonic MC-SBR70 Cordless Stick Vacuum Cleaner",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/panasonic-mc-sbr70-cordless-stick-vacuum-21795437006.webp"
+ },
  "panasonic-mc-yl620-drum-vacuum-cleaner": {
   "brand": "Panasonic",
   "category": "vacuum-cleaner",
@@ -833397,10 +834118,10 @@
   "category": "printer-supplies",
   "created": "2026-11-10",
   "features": [
-   "Color: Black",
-   "Print Technology: Laser",
-   "Page Yield: Up to 3000 pages",
-   "Compatibility: P3010, P3300, M6700, M7100, M6800 & M7200 Series"
+   "Item Category: Printer Toner",
+   "Printing Color: Black",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): 3000 Pages"
   ],
   "key": "printer-supplies|411h black pantum tl toner",
   "name": "Pantum TL-411H Black Toner",
@@ -847675,6 +848396,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/bt3324-15/bt3324-15-01-228x228.webp"
  },
+ "philips-bt3325-30-3000-series-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Runtime: Up to 60 Minutes; Charging Time: 1.5 hours",
+   "Length Settings: 10 Integrated Length Settings",
+   "LED Battery Indicator,  Self-Sharpening Blades",
+   "Warranty: 01 Month Warranty"
+  ],
+  "key": "grooming|30 3000 bt3325 philips trimmer",
+  "name": "Philips BT3325/30 3000 Series Trimmer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/bt3325-30/bt3325-30-02-228x228.webp"
+ },
  "philips-bt3415-15-beard-trimmer": {
   "brand": "Philips",
   "category": "grooming",
@@ -848368,6 +849104,20 @@
   "name": "Philips Hairclipper Series 3000 HC3505/15 Corded Blue Trimmer",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-hairclipper-series-3000-hc350515-11773897113.webp"
+ },
+ "philips-hairclipper-series-3000-hc3688-cordless-navy-blue-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Usage Type: Cordless",
+   "Charging Plug Type: USB Type-C",
+   "Color: Navy Blue"
+  ],
+  "key": "grooming|3000 blue cordless hairclipper hc3688 navy philips trimmer",
+  "name": "Philips Hairclipper Series 3000 HC3688 Cordless Navy Blue Trimmer",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/philips-hairclipper-series-3000-hc3688-cordless-11795413216.webp"
  },
  "philips-hd-9200-91-pepl-4-1l-1400w-black-air-fryer": {
   "brand": "Philips",
@@ -849250,6 +850000,36 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg3911-15/mg3911-15-01-228x228.webp"
  },
+ "philips-mg3917-15-3000-series-8-in-1-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Charging Time: 8 Hour, Run Time: Up to 60 Min",
+   "Trimming Length: 0.5 mm to 7 mm",
+   "Ergonomic grip, Charging Indicator",
+   "Warranty: 1 Month Warranty"
+  ],
+  "key": "grooming|1 15 3000 8 mg3917 philips trimmer",
+  "name": "Philips MG3917/15 3000 Series 8 in 1 Trimmer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg3917-15/mg3917-15-02-228x228.webp"
+ },
+ "philips-mg3931-15-3000-series-10-in-1-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Charging Time: 8 Hour, Run Time: Up to 70 Min",
+   "Trimming Length: 0.5 mm to 16 mm",
+   "Ergonomic Grip, Charging Indicator",
+   "Warranty: 1 Month Warranty"
+  ],
+  "key": "grooming|1 10 15 3000 mg3931 philips trimmer",
+  "name": "Philips MG3931/15 3000 Series 10 in 1 Trimmer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg3917-15/mg3917-15-02-228x228.webp"
+ },
  "philips-mg5720-15-multigroom-5000-series-trimmer": {
   "brand": "Philips",
   "category": "grooming",
@@ -849310,6 +850090,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg5930-15/mg5930-15-01-228x228.webp"
  },
+ "philips-mg5932-15-5000-series-11-in-1-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Charging Time: 1 Hour, Run Time: Up to 120 Min",
+   "Trimming Range: 0.5 mm to 16 mm",
+   "100% Shower Proof, Battery Indicator",
+   "Warranty: 01 Month Warranty"
+  ],
+  "key": "grooming|1 11 15 5000 mg5932 philips trimmer",
+  "name": "Philips MG5932/15 5000 Series 11-in-1 Trimmer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg5932-15/mg5932-15-02-228x228.webp"
+ },
  "philips-mg7920-15-7000-series-13-in-1-trimmer": {
   "brand": "Philips",
   "category": "grooming",
@@ -849339,6 +850134,21 @@
   "name": "Philips MG7920/65 7000 Series 13-in-1 Trimmer",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg7920-65/mg792065-01-228x228.webp"
+ },
+ "philips-mg7922-15-7000-series-13-in-1-trimmer": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Charging Time: 60 Min, Run Time: Up to 120 Min",
+   "Trimming Range: 0.5 mm to 16 mm, Ergonomic Rubber grip",
+   "100% Shower Proof, Wet & Dry Use, Battery Indicator",
+   "Warranty: 1 Month Warranty"
+  ],
+  "key": "grooming|1 13 15 7000 mg7922 philips trimmer",
+  "name": "Philips MG7922/15 7000 Series 13-in-1 Trimmer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/philips/mg7922-15/mg7922-15-02-228x228.webp"
  },
  "philips-mg7940-15-7000-series-15-in-1-trimmer": {
   "brand": "Philips",
@@ -850633,6 +851443,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-1000-series-s1213-cordless-black-11795320208.webp"
  },
+ "philips-shaver-1000-series-s1771-cordless-black-forest-wet-dry-shaver": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Usage Type: Cordless",
+   "Run Times: 60 minutes",
+   "Charging Plug Type: Unmentioned",
+   "Color: Black Forest"
+  ],
+  "key": "grooming|1000 black cordless dry forest philips s1771 shaver wet",
+  "name": "Philips Shaver 1000 Series S1771 Cordless Black Forest Wet & Dry Shaver",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-1000-series-s1771-cordless-black-11795416266.webp"
+ },
  "philips-shaver-1000-series-s1886-cordless-deep-blue-wet-dry-shaver": {
   "brand": "Philips",
   "category": "grooming",
@@ -850681,6 +851506,20 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-2000-series-s2315-cordless-deep-11795330400.webp"
  },
+ "philips-shaver-2000-series-s2883-cordless-dark-blue-wet-dry-shaver": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Usage Type: Cordless",
+   "Charging Plug Type: USB Type-A",
+   "Color: Dark Blue"
+  ],
+  "key": "grooming|2000 blue cordless dark dry philips s2883 shaver wet",
+  "name": "Philips Shaver 2000 Series S2883 Cordless Dark Blue Wet & Dry Shaver",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-2000-series-s2883-cordless-dark-11795414058.webp"
+ },
  "philips-shaver-3000-series-s3144-cordless-deep-blue-wet-dry-electric-shaver": {
   "brand": "Philips",
   "category": "grooming",
@@ -850695,6 +851534,20 @@
   "name": "Philips Shaver 3000 Series S3144 Cordless Deep Blue Wet & Dry Electric Shaver",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-3000-series-s3144-cordless-deep-11792409023.webp"
+ },
+ "philips-shaver-3000-series-s3608-cordless-malibu-black-wet-dry-shaver": {
+  "brand": "Philips",
+  "category": "grooming",
+  "created": "2026-11-24",
+  "features": [
+   "Usage Type: Cordless",
+   "Charging Plug Type: Unmentioned",
+   "Color: Malibu & Black"
+  ],
+  "key": "grooming|3000 black cordless dry malibu philips s3608 shaver wet",
+  "name": "Philips Shaver 3000 Series S3608 Cordless Malibu & Black Wet & Dry Shaver",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/philips-shaver-3000-series-s3608-cordless-malibu-11795415319.webp"
  },
  "philips-shaver-3000x-series-x3021-cordless-deep-black-wet-dry-shaver": {
   "brand": "Philips",
@@ -861200,7 +862053,7 @@
    "Item Category: Printer Toner",
    "Printing Color: Black",
    "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 1200 Pages",
+   "Duty Cycle up to (Yield): 2000 Pages",
    "Chip Included: Yes"
   ],
   "key": "printer-supplies|6000 black chip power print tn toner",
@@ -861353,7 +862206,7 @@
    "Item Category: Printer Toner",
    "Printing Color: Black",
    "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 2000 Pages @5% Average Coverage",
+   "Duty Cycle up to (Yield): 2300 Pages",
    "Chip Included: Yes"
   ],
   "key": "printer-supplies|85 85a 85x black chip power print tn toner",
@@ -892362,6 +893215,20 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rcc201-mini-usb-21-a-white-car-21553414760.webp"
  },
+ "remax-rcc203-2-usb-2-4-a-white-car-charger": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Car Charger",
+   "Transmitted Power: 12W",
+   "Color: White"
+  ],
+  "key": "mobile-accessories|2 2.4 a car charger rcc203 remax usb white",
+  "name": "REMAX RCC203 2 USB 2.4 A White Car Charger",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rcc203-2-usb-24-a-white-car-11555393258.webp"
+ },
  "remax-rcc204-2-usb-gold-car-charger": {
   "brand": "REMAX",
   "category": "mobile-accessories",
@@ -892446,6 +893313,20 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rcc211-cutie-series-usb-24-a-black-car-11553420606.webp"
  },
+ "remax-rcc218-journey-series-usb-4-8-a-white-car-charger": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Car Charger",
+   "Transmitted Power: 24W",
+   "Color: White"
+  ],
+  "key": "mobile-accessories|4.8 a car charger journey rcc218 remax usb white",
+  "name": "REMAX RCC218 Journey Series USB 4.8 A White Car Charger",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rcc218-journey-series-usb-48-a-white-car-11553421393.webp"
+ },
  "remax-rcc303-dolphin-series-3-usb-3-4-a-gold-car-charger": {
   "brand": "REMAX",
   "category": "mobile-accessories",
@@ -892517,6 +893398,20 @@
   "name": "REMAX RP-U26 UK EVA Series Pink Charger / Charging Adapter",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rp-u26-uk-eva-series-pink-21553423032.webp"
+ },
+ "remax-rp-w3-flying-saucer-series-wireless-white-charger": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Wireless Charger",
+   "Transmitted Power: 5W",
+   "Color: White"
+  ],
+  "key": "mobile-accessories|charger flying remax rp saucer w3 white wireless",
+  "name": "REMAX RP-W3 Flying Saucer Series Wireless White Charger",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rp-w3-flying-saucer-series-wireless-white-11553424156.webp"
  },
  "remax-rp-w9-wireless-charger": {
   "brand": "Remax",
@@ -919177,6 +920072,26 @@
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2026/02/Samsung-Galaxy-S26-5G-Shopping-Now-on-Bangladesh-300x300.jpg"
  },
+ "samsung-galaxy-s26-exynos-12gb-ram-256gb-rom-black-smartphone": {
+  "brand": "Samsung",
+  "category": "smartphone",
+  "created": "2026-11-24",
+  "features": [
+   "Cellular Network: 5G",
+   "Screen/Display Type: Dynamic LTPO AMOLED 2X",
+   "CPU Series: Samsung Exynos",
+   "RAM: 12GB",
+   "ROM: 256GB",
+   "OS: Android 16, up to 7 major Android upgrades",
+   "Color: Black"
+  ],
+  "key": "smartphone|12gb 256gb black galaxy rom s26 samsung smartphone",
+  "name": "Samsung Galaxy S26+ (Exynos) 12GB RAM, 256GB ROM Black Smartphone",
+  "specs": {
+   "capacity": "12GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/samsung-galaxy-s26-exynos-12gb-ram-256gb-rom-81777958277.webp"
+ },
  "samsung-galaxy-s26-fe": {
   "brand": "Samsung",
   "category": "smartphone",
@@ -939122,13 +940037,10 @@
   "category": "ssd",
   "created": "2026-11-10",
   "features": [
-   "Type: Internal SSD",
-   "Storage: 512GB",
-   "Form Factor (Inch): M.2 2280",
-   "Interface(s): PCIe Gen4x4",
-   "Read Speed (Max.): 7200MB/s",
-   "Write Speed (Max.): 4300MB/s",
-   "Color: Black"
+   "Capacity: 512GB",
+   "Interface: PCIe Gen4 ×4 NVMe 1.4",
+   "Form Factor: M.2 2280-S2",
+   "Read: 7200MB/s, Write: 4300MB/s"
   ],
   "key": "ssd|512gb 530 barracuda gen4 m.2 pcie seagate",
   "name": "Seagate BarraCuda 530 512GB Gen4 M.2 2280 PCIe NVMe SSD",
@@ -966500,6 +967412,23 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/dslr-camera/sony/alpha-7c/alpha-7c-01-228x228.webp"
  },
+ "sony-alpha-7cr-full-frame-mirrorless-camera-ilce-7cr-b-no-warranty": {
+  "brand": "Sony",
+  "category": "dslr-mirrorless",
+  "created": "2026-11-24",
+  "features": [
+   "Mega Pixels (MP): 61.0",
+   "Sensor Type: BSI-CMOS",
+   "Shutter Speed: 30 sec (Minimum), 1/4000 sec (Maximum), 1/8000 sec (Maximum electronic)",
+   "Built-in Flash: No",
+   "HDMI Port: Yes",
+   "Body Color: Black"
+  ],
+  "key": "dslr-mirrorless|7cr alpha b camera frame full ilce mirrorless sony",
+  "name": "Sony Alpha 7CR Full-Frame Mirrorless Camera #ILCE-7CR/B (No Warranty)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-alpha-7cr-full-frame-mirrorless-camera-11795409375.webp"
+ },
  "sony-alpha-7r-iv-61mp-mirrorless-digital-camera-body-only": {
   "brand": "Sony",
   "category": "dslr-mirrorless",
@@ -967446,6 +968375,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-85xr30m2/bravia-3-ii-k-85xr30m2-000-01-228x228.webp"
  },
+ "sony-bravia-3-ii-k-100xr30m2-100-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 100",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|100 100xr30m2 3 4k bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-100XR30M2 100 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-100xr30m2-100-inch-4k-hdr-11795422731.webp"
+ },
  "sony-bravia-3-ii-k-43xr30m2-43-4k-uhd-google-tv": {
   "brand": "Sony",
   "category": "tv",
@@ -967460,6 +968404,21 @@
   "name": "Sony BRAVIA 3 II K-43XR30M2 43\" 4K UHD Google TV",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-85xr30m2/bravia-3-ii-k-85xr30m2-000-01-228x228.webp"
+ },
+ "sony-bravia-3-ii-k-43xr30m2-43-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 43",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|3 43 43xr30m2 4k bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-43XR30M2 43 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-43xr30m2-43-inch-4k-hdr-google-11795418476.webp"
  },
  "sony-bravia-3-ii-k-50xr30m2-50-4k-uhd-google-tv": {
   "brand": "Sony",
@@ -967506,6 +968465,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-85xr30m2/bravia-3-ii-k-85xr30m2-000-01-228x228.webp"
  },
+ "sony-bravia-3-ii-k-55xr30m2-55-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 55",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|3 4k 55 55xr30m2 bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-55XR30M2 55 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-55xr30m2-55-inch-4k-hdr-google-11795418935.webp"
+ },
  "sony-bravia-3-ii-k-65xr30m2-65-4k-uhd-google-tv": {
   "brand": "Sony",
   "category": "tv",
@@ -967520,6 +968494,21 @@
   "name": "Sony BRAVIA 3 II K-65XR30M2 65\" 4K UHD Google TV",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-85xr30m2/bravia-3-ii-k-85xr30m2-000-01-228x228.webp"
+ },
+ "sony-bravia-3-ii-k-65xr30m2-65-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 65",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|3 4k 65 65xr30m2 bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-65XR30M2 65 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-65xr30m2-65-inch-4k-hdr-google-11795422477.webp"
  },
  "sony-bravia-3-ii-k-75xr30m2-75-4k-led-smart-tv": {
   "brand": "Sony",
@@ -967551,6 +968540,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-75xr30m2/bravia-3-ii-k-75xr30m2-01-228x228.webp"
  },
+ "sony-bravia-3-ii-k-75xr30m2-75-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 75",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|3 4k 75 75xr30m2 bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-75XR30M2 75 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-75xr30m2-75-inch-4k-hdr-google-11795422582.webp"
+ },
  "sony-bravia-3-ii-k-85xr30m2-85-4k-uhd-google-tv": {
   "brand": "Sony",
   "category": "tv",
@@ -967565,6 +968569,21 @@
   "name": "Sony BRAVIA 3 II K-85XR30M2 85\" 4K UHD Google TV",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-3-ii-k-85xr30m2/bravia-3-ii-k-85xr30m2-000-01-228x228.webp"
+ },
+ "sony-bravia-3-ii-k-85xr30m2-85-inch-4k-hdr-google-tv-official": {
+  "brand": "Sony",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display Size (Inch): 85",
+   "Resolution: 4K",
+   "Display Technology: LED",
+   "Color: Black"
+  ],
+  "key": "tv|3 4k 85 85xr30m2 bravia google hdr ii k sony tv",
+  "name": "Sony BRAVIA 3 II K-85XR30M2 85 Inch 4K HDR Google TV (Official)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-bravia-3-ii-k-85xr30m2-85-inch-4k-hdr-google-11795422669.webp"
  },
  "sony-bravia-3-k-43s30-43-inch-4k-hdr-google-tv-official": {
   "brand": "Sony",
@@ -971445,10 +972464,11 @@
   "category": "voice-recorder",
   "created": "2026-11-10",
   "features": [
-   "Interface: Headphone Jack, Microphone, USB Port",
-   "File System: Move, Divide",
+   "Type: Portable Digital Recorder",
    "Memory: 4GB",
-   "Audio format: MP3"
+   "Interface(s): USB",
+   "USB Port: Yes",
+   "Color: Black"
   ],
   "key": "voice-recorder|4gb digital icd px240 recorder sony voice",
   "name": "Sony ICD-PX240 4GB Digital Voice Recorder",
@@ -972867,6 +973887,36 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/sony-playstation-dualsense-god-of-war-20th-11782823189.webp"
  },
+ "sony-playstation-dualsense-grand-theft-auto-vi-black-limited-edition-wireless": {
+  "brand": "Sony",
+  "category": "gamepad",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Game Pad",
+   "Connectivity Mode: Wireless",
+   "Compatibility: PS5",
+   "Color: Black"
+  ],
+  "key": "gamepad|auto black controller dualsense grand limited playstation sony theft vi wireless",
+  "name": "Sony PlayStation DualSense Grand Theft Auto VI Black Limited Edition Wireless Controller (for PS5)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-playstation-dualsense-grand-theft-auto-vi-11795435719.webp"
+ },
+ "sony-playstation-dualsense-grand-theft-auto-vi-white-limited-edition-wireless": {
+  "brand": "Sony",
+  "category": "gamepad",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Game Pad",
+   "Connectivity Mode: Wireless",
+   "Compatibility: PS5",
+   "Color: White"
+  ],
+  "key": "gamepad|auto controller dualsense grand limited playstation sony theft vi white wireless",
+  "name": "Sony PlayStation DualSense Grand Theft Auto VI White Limited Edition Wireless Controller (for PS5)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-playstation-dualsense-grand-theft-auto-vi-11795433741.webp"
+ },
  "sony-playstation-dualsense-gray-camouflage-wireless-controller-for-ps5-no-warran": {
   "brand": "Sony",
   "category": "gamepad",
@@ -973866,6 +974916,17 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/sony-ps5-slim-black-white-gaming-console-with-11715687137.webp"
  },
+ "sony-ps5-slim-digital-edition-825gb-ssd-black-white-gaming-console": {
+  "brand": "Sony",
+  "category": "gaming-console",
+  "created": "2026-11-24",
+  "key": "gaming-console|825gb black console digital ps5 slim sony white",
+  "name": "Sony PS5 Slim Digital Edition 825GB SSD Black & White Gaming Console",
+  "specs": {
+   "capacity": "825GB"
+  },
+  "store_image": "https://ik.imagekit.io/fourstarit/website/Gaming/Gaming_Console/PlayStation/sony-ps5-slim-digital-edition-black-white-11701259811_f3qEKBtWr.webp"
+ },
  "sony-ps5-slim-digital-edition-825gb-ssd-black-white-gaming-console-with-1x": {
   "brand": "Sony",
   "category": "gaming-console",
@@ -974408,6 +975469,19 @@
   "name": "Sony Shake-X70D High Power Home Audio Speaker System With DVD",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0102506232/sony-speakers-shake-x70d-cover.webp"
+ },
+ "sony-slr-camera-bag-d": {
+  "brand": "Sony",
+  "category": "camera-accessories",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Bag",
+   "Color: Black"
+  ],
+  "key": "camera-accessories|bag camera d slr sony",
+  "name": "Sony SLR Camera Bag D",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-slr-camera-bag-11795423466.webp"
  },
  "sony-sonnar-t-fe-55mm-f1-8-za-camera-lens-sel-55f18z-1-year": {
   "brand": "Sony",
@@ -976423,6 +977497,24 @@
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2022/09/Soundcore-Space-Q45-Wireless-Noise-Cancelling-Headphones-300x300.jpg"
  },
+ "soundcraft-efx12-12-channel-mixer": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 12:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: No",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|12 channel efx12 mixer soundcraft",
+  "name": "Soundcraft EFX12 12 Channel Mixer",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-efx12-12-channel-11777718502.webp"
+ },
  "soundcraft-efx8-8-channel-mixer": {
   "brand": "Soundcraft",
   "category": "studio-equipment",
@@ -976441,6 +977533,96 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/soundcraft-efx8-8-channel-11734956472.webp"
  },
+ "soundcraft-epm12-12-channel-mixing-console": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 12:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: No",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|12 channel console epm12 mixing soundcraft",
+  "name": "Soundcraft EPM12 12 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-epm12-12-channel-mixing-11777550897.webp"
+ },
+ "soundcraft-epm6-6-channel-mixing-console": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 6:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: No",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|6 channel console epm6 mixing soundcraft",
+  "name": "Soundcraft EPM6 6 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-epm6-6-channel-mixing-11777550399.webp"
+ },
+ "soundcraft-epm8-8-channel-mixing-console": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 8:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: No",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Navy Blue"
+  ],
+  "key": "studio-equipment|8 channel console epm8 mixing soundcraft",
+  "name": "Soundcraft EPM8 8 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-epm8-8-channel-mixing-11705758664.webp"
+ },
+ "soundcraft-notepad-12fx-12-channel-digital-mixing-console-with-usb-i-o-and": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 12:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: No",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Navy Blue"
+  ],
+  "key": "studio-equipment|12 12fx channel console digital effects i lexicon mixing notepad o soundcraft usb",
+  "name": "Soundcraft Notepad 12FX 12 Channel Digital Mixing Console with USB I/O And Lexicon Effects",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-notepad-12fx-12-channel-digital-mixing-11777548515.webp"
+ },
+ "soundcraft-notepad-8fx-8-channel-digital-mixing-console-with-usb-i-o-and-lexicon": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 8:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: Yes",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|8 8fx channel console digital effects i lexicon mixing notepad o soundcraft usb",
+  "name": "Soundcraft Notepad 8FX 8 Channel Digital Mixing Console with USB I/O And Lexicon Effects",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-notepad-8fx-8-channel-digital-mixing-11777466944.webp"
+ },
  "soundcraft-si-expression-3-32-channel-digital-audio-mixer": {
   "brand": "Soundcraft",
   "category": "studio-equipment",
@@ -976455,6 +977637,24 @@
   "name": "Soundcraft Si Expression 3 32 Channel Digital Audio Mixer",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/audio-interface/soundcraft/si-expression-3/si-expression-3-01-228x228.webp"
+ },
+ "soundcraft-ui16-16-channel-digital-mixing-console-with-wireless-control": {
+  "brand": "Soundcraft",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 16:0",
+   "Connectivity Mode: Wired & Wireless",
+   "Memory Card Slot: Unmentioned",
+   "USB Port: Yes",
+   "Remote Control: Yes",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|16 channel console control digital mixing soundcraft ui16 wireless",
+  "name": "Soundcraft Ui16 16 Channel Digital Mixing Console with Wireless Control",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/soundcraft-ui16-16-channel-digital-mixing-console-11777718212.webp"
  },
  "soundpeats-a6-hybrid-anc-wireless-headphone": {
   "brand": "SoundPEATS",
@@ -993431,6 +994631,21 @@
   "name": "TCL 65P8K-UK 65-Inch 4K UHD 144Hz QLED Google TV",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P5502510006/tcl-television-65p8k-uk-cover.webp"
+ },
+ "tcl-65t6d-65-4k-uhd-qled-smart-google-tv": {
+  "brand": "TCL",
+  "category": "tv",
+  "created": "2026-11-24",
+  "features": [
+   "Display: 65\" 4K UHD (3840 x 2160), DLED",
+   "Speaker: 2x 10W, 2Channel, DTS Virtual X, Dolby Atmos",
+   "Connectivity: Bluetooth V5.4, Wi-Fi 5, 3x HDMI2.1",
+   "Features: Dolby Vision, HDR 10+, Google TV"
+  ],
+  "key": "tv|4k 65 65t6d google qled smart tcl tv uhd",
+  "name": "TCL 65T6D 65\" 4K UHD QLED Smart Google TV",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/television/tcl/65t6d/65t6d-01-228x228.webp"
  },
  "tcl-65t6d-65-inch-60-hz-qled-smart-tv": {
   "brand": "TCL",
@@ -1025381,6 +1026596,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-litepower-350w-non-modular-black-11776758899.webp"
  },
+ "thermaltake-litepower-350w-sleeve-cable-power-supply": {
+  "brand": "THERMALTAKE",
+  "category": "power-supply",
+  "created": "2026-11-24",
+  "key": "power-supply|350w cable litepower power sleeve supply thermaltake",
+  "name": "THERMALTAKE LITEPOWER 350W SLEEVE CABLE POWER SUPPLY",
+  "specs": {},
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/power-supply/thermaltake/lite-power-350w/thermaltake-litepower-350w-sleeve-cable-power-supply-250x250.jpg"
+ },
  "thermaltake-litepower-350w-sleeve-cable-power-supply-with-3-years-warranty": {
   "brand": "THERMALTAKE",
   "category": "power-supply",
@@ -1030889,6 +1032113,44 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-j25-tg-rgb-edition-tempered-81581251303.webp"
  },
+ "thermaltake-versa-t25-tg-tempered-glass-mid-tower-black-desktop-case-ca-1r5": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-24",
+  "features": [
+   "Case Type: Mid Tower",
+   "Supported Motherboard Type (Max.): Up to ATX",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 1",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00 00m1wn 1r5 black ca case glass mid t25 tempered tg thermaltake tower versa",
+  "name": "Thermaltake Versa T25 TG Tempered Glass Mid Tower Black Desktop Case # CA-1R5-00M1WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-t25-tg-tempered-glass-mid-tower-11604580244.webp"
+ },
+ "thermaltake-versa-t35-tg-rgb-mid-tower-black-desktop-casing-ca-1r7-00m1wn-00": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-24",
+  "features": [
+   "Case Type: Mid Tower",
+   "Supported Motherboard Type (Max.): Up to ATX",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 1",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00 00m1wn 1r7 black ca casing mid rgb t35 tg thermaltake tower versa",
+  "name": "Thermaltake Versa T35 TG RGB Mid Tower Black Desktop Casing #CA-1R7-00M1WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-t35-tg-rgb-tempered-glass-mid-11604580848.webp"
+ },
  "thermaltake-versa-xm1-mid-tower-case": {
   "brand": "Thermaltake",
   "category": "casing",
@@ -1035123,6 +1036385,21 @@
   "name": "TMUX 60kVA Three Phase Automatic Voltage Regulator (TNS-60KVA)",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/voltage-regulator/tmux/tns-60kva/tns-60kva-01-228x228.webp"
+ },
+ "tmux-7-5-kva-automatic-voltage-regulator-svc-7500va": {
+  "brand": "TMUX",
+  "category": "voltage-stabilizer",
+  "created": "2026-11-24",
+  "features": [
+   "Phase: Single-phase, Efficiency: >= 96%",
+   "Input: 100V~250V/150V~250V, 50Hz/60Hz",
+   "Output Voltage: AC 220 ± 3 % (Adjustable)",
+   "Protection: Over/Low Voltage, Overload/Temperature, Short-circuit"
+  ],
+  "key": "voltage-stabilizer|7.5 automatic kva regulator tmux voltage",
+  "name": "TMUX 7.5 kVA Automatic Voltage Regulator (SVC-7500VA)",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/voltage-regulator/tmux/svc-7500va/svc-7500va-02-228x228.webp"
  },
  "toa-pc-2852-ceiling-mount-speaker": {
   "brand": "TOA",
@@ -1055586,6 +1056863,21 @@
   "name": "TP-Link TL-WR846N 300 Mbps Ethernet Single-Band Wi-Fi 4 Router",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/tp-link-tl-wr846n-300-mbps-ethernet-single-band-11781356874.webp"
+ },
+ "tp-link-tl-wr846n-300mbps-wireless-router": {
+  "brand": "Tp-Link",
+  "category": "router",
+  "created": "2026-11-24",
+  "features": [
+   "WiFi Speed: up to 300 Mbps 2.4 GHz",
+   "Protocols: Wi-Fi 4, IEEE 802.11n/b/g 2.4 GHz",
+   "Interface: 1 x LAN & 3 x WAN ports",
+   "Feature: Access Control, Range Extender, WISP modes"
+  ],
+  "key": "router|300mbps link router tl tp wireless wr846n",
+  "name": "Tp-Link TL-WR846N 300Mbps Wireless Router",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/tl-wr846n/tl-wr846n-01-228x228.webp"
  },
  "tp-link-tl-wr850n-300-mbps-ethernet-single-band-wi-fi-router": {
   "brand": "TP-Link",
@@ -1084074,6 +1085366,19 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1692604019/ugreen-converter-bt301-cover.webp"
  },
+ "ugreen-bt509-55546-3-5mm-bluetooth-6-0-black-audio-receiver": {
+  "brand": "Ugreen",
+  "category": "hub-dock",
+  "created": "2026-11-24",
+  "features": [
+   "Type: Bluetooth Adapter",
+   "Interface(s): 3.5mm Male"
+  ],
+  "key": "hub-dock|3.5mm 6.0 audio black bluetooth bt509 receiver ugreen",
+  "name": "Ugreen BT509 (55546) 3.5mm Bluetooth 6.0 Black Audio Receiver",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ugreen-bt509-55546-35mm-bluetooth-60-black-11789199594.webp"
+ },
  "ugreen-bt509-bluetooth-6-0-receiver-audio-adapter-55546": {
   "brand": "UGREEN",
   "category": "bluetooth-adapter",
@@ -1092238,11 +1093543,10 @@
   "category": "cable",
   "created": "2026-11-10",
   "features": [
-   "Type: Data",
-   "Port Side-1: USB Type-C Male",
-   "Port Side-2: USB Type-C Male",
-   "Length.: 1 Meter",
-   "Color: Black"
+   "Data Transfer Rate: Up to 480 Mbps, PD 3.1 Output: Up to 240W",
+   "Battery Protection, Overvoltage Protection",
+   "Cable Length: 1 Meter, Power Delivery Fast Charging",
+   "Aluminum Shell and Nylon Braided Cable"
   ],
   "key": "cable|1m 65907 c cable l532 to type ugreen",
   "name": "UGREEN L532 Type-C to Type-C 1m Cable #65907",
@@ -1104568,7 +1105872,7 @@
    "Form-Factor: Bullet",
    "Mega Pixels (MP): 2.0",
    "Night Vision Mode: Black and White",
-   "Working Distance: 62.1 Meter",
+   "Working Distance: 62 Meter",
    "Color: White"
   ],
   "key": "ip-camera|bullet camera cl fixed ip ipc2122lb ir mini p uniview",
@@ -1134851,6 +1136155,15 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-vg1457-14-inch-19-inch-viewable-dual-11792817819.webp"
  },
+ "viewsonic-vg1457-14-inch-wuxga-ips-dual-screen-portable-monitor": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "key": "monitor-all|14 dual ips monitor portable screen vg1457 viewsonic wuxga",
+  "name": "ViewSonic VG1457 14 Inch WUXGA IPS Dual Screen Portable Monitor",
+  "specs": {},
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Viewsonic/viewsonic-14-_500-x-500-Recovered-5-Recovered-1-250x250.jpg"
+ },
  "viewsonic-vg1457-14-ips-wuxga-dual-screen-portable-monitor": {
   "brand": "ViewSonic",
   "category": "portable-monitor",
@@ -1134880,6 +1136193,24 @@
   "name": "ViewSonic VG2441V 24\" FHD Type-C Monitor with Webcam",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/vg2441v/vg2441v-01-228x228.webp"
+ },
+ "viewsonic-vg2441v-24-inch-fhd-ips-usb-c-video-conferencing-monitor-with-webcam": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "key": "monitor-all|24 c conferencing fhd ips monitor usb vg2441v video viewsonic webcam",
+  "name": "ViewSonic VG2441V 24 Inch FHD IPS USB-C Video Conferencing Monitor with Webcam",
+  "specs": {},
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Viewsonic/viewsonic-24-_500-x-500-Recovered-5-Recovered-1-250x250.jpg"
+ },
+ "viewsonic-vg3820c-38-inch-wqhd-ips-curved-usb-c-business-monitor": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "key": "monitor-all|38 business c curved ips monitor usb vg3820c viewsonic wqhd",
+  "name": "ViewSonic VG3820C 38 Inch WQHD+ IPS Curved USB-C Business Monitor",
+  "specs": {},
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Viewsonic/viewsonic-38-_500-x-500-Recovered-5-Recovered-1-250x250.jpg"
  },
  "viewsonic-vg3820c-38-inch-wqhd-ips-display-hdmi-dp-usb-usb-c-headphone-curved": {
   "brand": "ViewSonic",
@@ -1136296,6 +1137627,15 @@
   "name": "ViewSonic VX24G31A 24 Inch (23.6 Inch Viewable) FHD IPS 280Hz Dual HDMI, DP & Headphone Gaming Monitor",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/viewsonic-vx24g31a-24-inch-236-inch-viewable-11794915749.webp"
+ },
+ "viewsonic-vx24g31a-24-inch-280hz-fhd-ips-gaming-monitor": {
+  "brand": "ViewSonic",
+  "category": "monitor-all",
+  "created": "2026-11-24",
+  "key": "monitor-all|24 280hz fhd ips monitor viewsonic vx24g31a",
+  "name": "ViewSonic VX24G31A 24-Inch 280Hz FHD IPS Gaming Monitor",
+  "specs": {},
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Viewsonic/viewsonic_500-x-500-Recovered-5-Recovered-250x250.jpg"
  },
  "viewsonic-vx2532-25-320hz-fhd-ips-gaming-monitor": {
   "brand": "ViewSonic",
@@ -1142397,12 +1143737,10 @@
   "category": "smartphone",
   "created": "2026-11-11",
   "features": [
-   "Cellular Network: 4G",
-   "CPU Series: Qualcomm Snapdragon",
-   "RAM: 6GB",
-   "ROM: 128GB",
-   "OS: Android 16",
-   "Color: Festive Red"
+   "Display: 6.75\" HD+ 120 Hz Display",
+   "Processor: Qualcomm Snapdragon 6s 4G Gen 2 (6 nm)",
+   "Camera: Dual 50+2 MP on Rear, 8MP Front",
+   "Features: 7200mAh Battery, 44W Fast Charging, IP68 & IP69"
   ],
   "key": "smartphone|128gb 6gb festive red rom smartphone vivo y31d",
   "name": "Vivo Y31d 6GB RAM 128GB ROM Festive Red Smartphone (Dual Physical Sim)",
@@ -1192003,7 +1193341,7 @@
    "Display: 1.83’’ Display, 240*284 Resolution",
    "Battery: Li-polymer 230mAh",
    "Heart rate monitoring, Blood Pressure",
-   "Sleep monitoring, IP67 Waterproof, 100+ Sports Mode"
+   "Sleep monitoring, IP67 Water Resistant"
   ],
   "key": "smart-watch|active pro s5 smart watch xtra",
   "name": "XTRA Active S5 Pro+ Smart Watch",
@@ -1194019,6 +1195357,15 @@
   "name": "XTREME K911C WIRELESS COMBO USB-BANGLA 64KEYS + FN KEYS BLACK KEYBOARD",
   "specs": {},
   "store_image": "https://smartbd.com/wp-content/uploads/2025/01/XTREME-K911C-WIRELESS-COMBO-USB-BANGLA-64KEYS-FN-KEYS-BLACK-KEYBOARD.jpg"
+ },
+ "xtreme-k918m-multimedia-usb-bangla-black-keyboard": {
+  "brand": "XTREME",
+  "category": "keyboard",
+  "created": "2026-11-24",
+  "key": "keyboard|bangla black k918m keyboard multimedia usb xtreme",
+  "name": "XTREME K918M MULTIMEDIA USB-BANGLA BLACK KEYBOARD",
+  "specs": {},
+  "store_image": "https://smartbd.com/wp-content/uploads/2026/11/XTREME-K918M.jpg"
  },
  "xtreme-kb220s-standard-usb-bangla-black-keyboard": {
   "brand": "XTREME",
@@ -1198306,6 +1199653,38 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/yamaha-ag06-6-channel-mixing-11757930161.webp"
  },
+ "yamaha-ct80-usb-8-channel-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 8:0",
+   "Connectivity Mode: Wired",
+   "USB Port: Yes",
+   "Voice Enabled: No",
+   "Touch Controls: No",
+   "Color: Black & Blue"
+  ],
+  "key": "studio-equipment|8 channel console ct80 mixing usb yamaha",
+  "name": "Yamaha CT80 USB 8 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-ct80-usb-8-channel-mixing-11715428581.webp"
+ },
+ "yamaha-ct80s-usb-8-channel-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 8:0",
+   "Connectivity Mode: Bluetooth & Wired",
+   "USB Port: Yes",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|8 channel console ct80s mixing usb yamaha",
+  "name": "Yamaha CT80S-USB 8 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-ct80s-usb-8-channel-mixing-11705582854.webp"
+ },
  "yamaha-hph-mt5-wired-black-studio-monitor-headphone": {
   "brand": "Yamaha",
   "category": "studio-equipment",
@@ -1198378,6 +1199757,36 @@
   "name": "Yamaha HS7 6.5\" Powered Studio Monitor Speaker",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/speaker/yamaha/hs7/hs7-01-228x228.webp"
+ },
+ "yamaha-mg06-6-channel-analog-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 6:0",
+   "Connectivity Mode: Wired",
+   "USB Port: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|6 analog channel console mg06 mixing yamaha",
+  "name": "Yamaha MG06 6 Channel Analog Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-mg06-6-channel-analog-mixing-11714803342.webp"
+ },
+ "yamaha-mg06x-6-channel-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 6:0",
+   "Connectivity Mode: Wired",
+   "USB Port: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|6 channel console mg06x mixing yamaha",
+  "name": "Yamaha MG06X 6 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-mg06x-6-channel-mixing-11704110748.webp"
  },
  "yamaha-mg10-analog-mixing-console": {
   "brand": "Yamaha",
@@ -1198454,6 +1199863,24 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/yamaha-mg12xu-12-channel-mixing-11704111710.webp"
  },
+ "yamaha-mg12xuk-12-channel-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 12:0",
+   "Connectivity Mode: Wired",
+   "Memory Card Slot: No",
+   "USB Port: Yes",
+   "Remote Control: No",
+   "FM Radio: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|12 channel console mg12xuk mixing yamaha",
+  "name": "Yamaha MG12XUK 12 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-mg12xuk-12-channel-mixing-11757930242.webp"
+ },
  "yamaha-mg16xu-16-channel-mixing-console": {
   "brand": "Yamaha",
   "category": "studio-equipment",
@@ -1198468,6 +1199895,21 @@
   "name": "Yamaha MG16XU 16 Channel Mixing Console",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/gadget/studio-equipment/yamaha/mg16xu/mg16xu-01-228x228.webp"
+ },
+ "yamaha-mg20xu-20-channel-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 20:0",
+   "Connectivity Mode: Wired",
+   "USB Port: Yes",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|20 channel console mg20xu mixing yamaha",
+  "name": "Yamaha MG20XU 20 Channel Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-mg20xu-20-channel-mixing-11704110830.webp"
  },
  "yamaha-mgp16x-16-channel-mixing-console": {
   "brand": "Yamaha",
@@ -1198498,6 +1199940,21 @@
   "name": "Yamaha MGP24X 24-channel Premium Mixing Console",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/gadget/studio-equipment/yamaha/mgp24x/mgp24x-01-228x228.webp"
+ },
+ "yamaha-mgp32x-32-channel-premium-mixing-console": {
+  "brand": "Yamaha",
+  "category": "studio-equipment",
+  "created": "2026-11-24",
+  "features": [
+   "Channel: 32:0",
+   "Connectivity Mode: Wired",
+   "USB Port: No",
+   "Color: Black"
+  ],
+  "key": "studio-equipment|32 channel console mgp32x mixing premium yamaha",
+  "name": "Yamaha MGP32X 32 Channel Premium Mixing Console",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/yamaha-mgp32x-32-channel-premium-mixing-11704111893.webp"
  },
  "yamaha-mx61-music-synthesizer-v2-keyboard": {
   "brand": "Yamaha",
