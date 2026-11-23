@@ -1,12 +1,12 @@
 {
  "date": "2026-11-23",
- "scraped_at": "2026-11-23T04:40+06:00",
+ "scraped_at": "2026-11-23T07:02+06:00",
  "stores": {
   "startech": {
    "enabled": true,
    "items": 32279,
    "errors": [],
-   "seconds": 1821,
+   "seconds": 1808,
    "failed_cats": []
   },
   "ultratech": {
@@ -20,14 +20,14 @@
    "enabled": true,
    "items": 3092,
    "errors": [],
-   "seconds": 1149,
+   "seconds": 1105,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4033,
    "errors": [],
-   "seconds": 1252,
+   "seconds": 1214,
    "failed_cats": []
   },
   "smartbd": {
@@ -76,7 +76,7 @@
     "server: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/servers/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
     "os-office: SSLError: HTTPSConnectionPool(host='smartbd.com', port=443): Max retries exceeded with url: /product-category/software/microsoft/operating-system/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
    ],
-   "seconds": 1916,
+   "seconds": 1914,
    "failed_cats": [
     "tablet",
     "laptop",
@@ -125,28 +125,28 @@
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 488,
+   "seconds": 487,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 18,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 697,
+   "seconds": 676,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 27843,
+   "items": 28060,
    "errors": [],
-   "seconds": 8176,
+   "seconds": 8265,
    "failed_cats": []
   },
   "techland": {
@@ -291,14 +291,14 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 520,
+   "seconds": 584,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 398,
    "errors": [],
-   "seconds": 137,
+   "seconds": 130,
    "failed_cats": []
   },
   "computervision": {
@@ -307,46 +307,43 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3053,
+   "seconds": 3178,
    "failed_cats": [],
    "matched": 6943,
    "scraped": 9736
   },
   "eerna": {
    "enabled": true,
-   "items": 4143,
+   "items": 4063,
    "errors": [],
-   "seconds": 1857,
+   "seconds": 1917,
    "failed_cats": [],
-   "matched": 2586,
-   "scraped": 4066
+   "matched": 2588,
+   "scraped": 4016
   },
   "pqs": {
    "enabled": true,
-   "items": 10268,
-   "errors": [
-    "https://www.pqs.com.bd/networking: HTTPError: 521 Server Error: <none> for url: https://www.pqs.com.bd/networking?page=8",
-    "https://www.pqs.com.bd/office-equipment: HTTPError: 522 Server Error: <none> for url: https://www.pqs.com.bd/office-equipment"
-   ],
-   "seconds": 1282,
+   "items": 11502,
+   "errors": [],
+   "seconds": 1390,
    "failed_cats": [],
-   "matched": 6516,
-   "scraped": 10190
+   "matched": 7383,
+   "scraped": 11423
   },
   "bme": {
    "enabled": true,
    "items": 9253,
    "errors": [],
-   "seconds": 2325,
+   "seconds": 2342,
    "failed_cats": [],
-   "matched": 3995,
+   "matched": 3991,
    "scraped": 9253
   },
   "selltech": {
    "enabled": true,
    "items": 1179,
    "errors": [],
-   "seconds": 410,
+   "seconds": 398,
    "failed_cats": [],
    "matched": 778,
    "scraped": 1177
