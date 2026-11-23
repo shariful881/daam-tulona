@@ -1,0 +1,47 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "128GB",
+   "Form Factor": "2.5\"",
+   "Flash Type": "3D NAND",
+   "Interface": "SATA III",
+   "Sequential R/W": "Write Speed: Up to 350 MB/s\nRead Speed: Up to 450 MB/s",
+   "MTBF": "1,000,000 hours"
+  },
+  "Physical Specification": {
+   "Dimension": "100 x 70 x 7 mm",
+   "Weight": "100g"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ +70°C",
+   "Storage Temperature": "-45°C ~ +85°C",
+   "Shock resistance": "1500G"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03 Years"
+  }
+ },
+ "key_features": [
+  "Capacity: 128GB SSD",
+  "Interface:  SATA III",
+  "NAND Flash: 3D NAND",
+  "Controller: SMI"
+ ],
+ "price": 3200,
+ "regular": 3409,
+ "status": "In Stock",
+ "code": "13055",
+ "brand": "Colorful",
+ "model": "COLORFUL SL300 128GB",
+ "warranty": "03 Years",
+ "name": "COLORFUL SL300 128GB 2.5'' SATA III SSD",
+ "breadcrumb": [
+  "Component",
+  "SSD",
+  "Colorful",
+  "COLORFUL SL300 128GB 2.5'' SATA III SSD"
+ ],
+ "fetched": "2026-11-23T19:40+06:00",
+ "source": "https://www.startech.com.bd/colorful-sl300-128gb-ssd",
+ "store": "startech"
+}
