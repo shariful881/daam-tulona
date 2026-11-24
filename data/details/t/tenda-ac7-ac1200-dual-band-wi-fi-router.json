@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "General Information": {
+   "Dimensions": "220mm*141.5mm*49mm(L*W*H)"
+  },
+  "Key Features": {
+   "Antenna": "5*5dBi external antennas",
+   "Data Rate": "5GHz: 867Mbps\n2.4GHz: 300Mbps",
+   "Interface": "WAN, LAN",
+   "Button": "1* Wi-Fi / Reset button",
+   "Network Standard": "IEEE 802.11ac/a/n @5GHz\nIEEE 802.11b/g/n @2.4GHz",
+   "Encryption": "WPA2-PSK\nWireless Security: Enable /Disable",
+   "Ports": "1*10/100Mbps WAN port\n3*10/100Mbps LAN ports"
+  },
+  "Power Mode": {
+   "Input": "100-240V—50/60Hz 0.4A",
+   "Output": "DC 9V1A"
+  },
+  "Main Features": {
+   "Frequency": "CE:\n2.4G: 2412-2472MHz(CH1-CH13)\n5G: 5150-5250MHz(CH36-CH64)\nFCC:\n2.4G: 2412-2462MHz(CH1-CH11)\n5G: 5150-5250MHz(CH36-CH64)\n5725-5825MHz(CH149-CH165)"
+  },
+  "Physical Specification": {
+   "Color": "Black"
+  },
+  "Warranty Information": {
+   "Warranty": "1 Year Warranty"
+  },
+  "Image": {
+   "Model": "AC7 AC1200"
+  }
+ },
+ "key_features": [
+  "Antenna Type: 5*5 dBi External Antennas",
+  "Data Rate: 867 Mbps (5 GHz) + 300 Mbps (2.4 GHz)",
+  "Ports: 3x 10/100Mbps LAN, 1x 10/100Mbps WAN ports +"
+ ],
+ "model": "AC7 AC1200",
+ "warranty": "1 Year Warranty",
+ "fetched": "2026-11-24T20:17+06:00",
+ "source": "https://www.creatus.com.bd/tenda-ac7-ac1200-dual-band-wifi-router",
+ "store": "creatus"
+}

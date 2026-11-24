@@ -1,0 +1,66 @@
+{
+ "specs": {
+  "Display Features": {
+   "Panel Type": "IPS",
+   "Display Size": "27.53-inch",
+   "Display Type": "LCD",
+   "Resolution": "FHD (1920 x 1080)",
+   "Pixels Per Inch (PPI)": "81 ppi",
+   "Pixel pitch(MM)": "0.3114 x 0.3114 mm",
+   "Display Surface": "Anti-glare",
+   "Aspect Ratio": "16:9",
+   "Viewing Angle": "178°",
+   "Brightness": "250 nits",
+   "Contrast Ratio": "1300:1\n8000000:1 (dynamic)",
+   "Refresh Rate": "100Hz",
+   "Color Support": "72% NTSC",
+   "Response Time": "5ms GtG (with overdrive)"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "Yes",
+   "Speaker Details": "2"
+  },
+  "Connectivity": {
+   "HDMI": "1 x HDMI 1.4",
+   "VGA": "1x VGA"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5 to +25°",
+   "Swivel": "±30°",
+   "Pivot": "±90°",
+   "Height Adjustment": "100 mm",
+   "Vesa Wall Mount": "100 x 100 mm",
+   "Security Locker": "Standard lock slot"
+  },
+  "Physical Specification": {
+   "Color": "Black",
+   "Weight": "6.5 kg (with stand); 4.1 kg (without stand)"
+  },
+  "Dimension": {
+   "Dimensions without stand (W x D x H)": "61.19 x 22.96 x 51.31 cm",
+   "Dimensions with stand (W x D x H)": "61.19 x 22.96 x 51.31 cm"
+  },
+  "Power": {
+   "Type": "Internal",
+   "Power Consumption": "31 W (maximum), 16 W (typical), 0.5 W (standby)",
+   "Voltage": "100 - 240 VAC 50/60 Hz"
+  },
+  "Warranty Information": {
+   "Warranty": "03 years warranty"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920 x 1080)",
+  "Display: IPS, 100Hz, 5ms (GtG)",
+  "Ports: 1x HDMI 1.4, 1x VGA",
+  "Features: Anti-glare, Low Blue Light, Flicker Free"
+ ],
+ "warranty": "03 years warranty",
+ "fetched": "2026-11-24T20:17+06:00",
+ "source": "https://www.pchouse.com.bd/hp-series-3-pro-327pe-27-inch-100hz-ips-fhd-monitor",
+ "store": "pchouse"
+}

@@ -1,0 +1,42 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "12GB",
+   "Resolution": "7680×4320",
+   "Memory Clock": "up to 2276MHz(Game)\nup to 2599MHz(Boost)",
+   "BUS Type": "PCIE 4.0",
+   "Memory Interface": "192-bit",
+   "Stream Processors": "3456",
+   "Others": "AMD Eyefinity Technology\nAMD Stream Technology\nAMD Smart Access Memory"
+  },
+  "Interface": {
+   "Display Port": "3 x DisplayPort 2.1 (only 2x simultaneous DP2.1 connections can be supported)",
+   "HDMI": "1 x HDMI 2.1"
+  },
+  "Power Specifications": {
+   "Connectors": "Two 8-pin PCI Express Power connectors",
+   "Recommended PSU": "750W"
+  },
+  "Programming Interfaces": {
+   "DirectX": "12",
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "322mm*134mm*50mm\n332mm*147mm*50mm(with bracket)",
+   "Others": "Slot: 2.5"
+  },
+  "Warranty": {
+   "Warranty": "2 year Warranty (For warranty Full Box Required)"
+  }
+ },
+ "key_features": [
+  "Boost Clock: Up to 2599MHz, Game Clock: Up to 2276MHz",
+  "Memory: 12GB/192-bit DDR6. 18 Gbps Effective",
+  "Stream Processors: 3456"
+ ],
+ "warranty": "2 year Warranty (For warranty Full Box Required)",
+ "fetched": "2026-11-24T20:19+06:00",
+ "source": "https://www.pchouse.com.bd/powercolor-hellhound-amd-radeon-rx-7700-xt-12gb-gddr6-graphics-card",
+ "store": "pchouse"
+}

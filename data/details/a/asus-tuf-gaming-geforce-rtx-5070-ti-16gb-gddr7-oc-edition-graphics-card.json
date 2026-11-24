@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR7",
+   "Size": "16GB",
+   "Resolution": "7680 x 4320",
+   "Core Clock": "OC mode: 2610MHz\nDefault mode: 2588MHz (Boost Clock)",
+   "Memory Clock": "28 Gbps",
+   "BUS Type": "PCI Express 5.0",
+   "Memory Interface": "256-bit",
+   "CUDA Cores": "8960",
+   "Others": "AURA SYNC: ARGB\nAI Performance: 1484 TOPs"
+  },
+  "Interface": {
+   "Display Port": "3 x Native DisplayPort 2.1b",
+   "HDMI": "2 x Native HDMI 2.1b",
+   "HDCP": "HDCP  2.3"
+  },
+  "Power Specifications": {
+   "Connectors": "1 x 16-pin",
+   "Recommended PSU": "850W"
+  },
+  "Display Option": {
+   "Multi Display": "4"
+  },
+  "Application Programming Interfaces": {
+   "OpenGL": "4.6"
+  },
+  "Physical Specifications": {
+   "Dimensions": "329 x 140 x 62.5 mm\n12.95 x 5.51 x 2.46 inch",
+   "Others": "3.125 Slot"
+  },
+  "Warranty": {
+   "Manufacturing Warranty": "03-years Warranty"
+  }
+ },
+ "key_features": [
+  "Engine Clock: 2588MHz (Boost Clock), 2610MHz (OC Mode)",
+  "Memory: 16GB GDDR7; Speed: 28 Gbps",
+  "CUDA Core: 8960: AI Performance: 1484 TOPs",
+  "Output: 2x HDMI 2.1b, 3x DisplayPort 2.1a"
+ ],
+ "price": 195500,
+ "regular": 205500,
+ "status": "In Stock",
+ "code": "43517",
+ "brand": "Asus",
+ "mpn": "TUF-RTX5070TI-O16G-GAMING",
+ "model": "TUF Gaming GeForce RTX 5070 16GB GDDR7 OC Edition",
+ "warranty": "03-years Warranty",
+ "name": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Graphics Card",
+ "breadcrumb": [
+  "Component",
+  "Graphics Card",
+  "ASUS",
+  "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Graphics Card"
+ ],
+ "fetched": "2026-11-24T20:17+06:00",
+ "source": "https://www.startech.com.bd/asus-tuf-gaming-geforce-rtx-5070-16gb-oc-edition-graphics-card",
+ "store": "startech"
+}

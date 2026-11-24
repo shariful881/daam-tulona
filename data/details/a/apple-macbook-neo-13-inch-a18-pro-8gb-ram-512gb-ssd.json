@@ -1,0 +1,68 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Apple A18 Pro",
+   "Processor Core": "6-core CPU (2 performance + 4 efficiency cores)",
+   "NPU": "16-core Neural Engine"
+  },
+  "Memory": {
+   "Ram": "8GB Unified Memory",
+   "Removable": "No"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Apple A18 Pro 5-core GPU with hardware-accelerated ray tracing"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Magic Keyboard",
+   "Keyboard Features": "78 (ANSI) or 79 (ISO) keys, 12 full-height function keys",
+   "TouchPad": "Multi-Touch trackpad"
+  },
+  "Camera & Audio": {
+   "Webcam": "1080p FaceTime HD Camera",
+   "Speaker": "Dual-speaker sound system",
+   "Microphone": "Dual-mic array with directional beamforming",
+   "Audio Features": "Spatial Audio with Dolby Atmos support, Voice Isolation and Wide Spectrum microphone modes"
+  },
+  "Ports & Slots": {
+   "Card Reader": "No",
+   "HDMI Port": "No",
+   "USB Type-C / Thunderbolt Port": "1x USB 3 (USB-C, up to 10Gb/s, DisplayPort), 1x USB 2 (USB-C, up to 480Mb/s)",
+   "Headphone & Microphone Port": "3.5 mm headphone jack"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6E (802.11ax)",
+   "Bluetooth": "Yes (version not specified)"
+  },
+  "Software": {
+   "Operating System": "macOS"
+  },
+  "Display": {
+   "Display Size": "13.0-inch",
+   "Display Type": "Liquid Retina, LED-backlit IPS",
+   "Display Resolution": "2408 x 1506 at 219 ppi",
+   "Display Features": "500 nits brightness, 1 billion colors, sRGB color",
+   "Touch Screen": "No"
+  },
+  "External Features": {
+   "Color(s)": "Silver, Blush, Citrus, Indigo",
+   "Dimensions": "29.75 cm (W) x 20.64 cm (D) x 1.27 cm (H)",
+   "Weight": "1.23 kg"
+  },
+  "Power": {
+   "Battery Type": "Built-in Lithium-ion",
+   "Battery Capacity": "36.5Wh",
+   "Adapter Type": "20W USB-C Power Adapter"
+  },
+  "Image": {
+   "Model": "MacBook Neo 13-inch A18 Pro"
+  }
+ },
+ "key_features": [],
+ "model": "MacBook Neo 13-inch A18 Pro",
+ "fetched": "2026-11-24T20:18+06:00",
+ "source": "https://www.creatus.com.bd/apple-macbook-neo-13-inch-a18-pro-8gb-ram-512gb-ssd",
+ "store": "creatus"
+}

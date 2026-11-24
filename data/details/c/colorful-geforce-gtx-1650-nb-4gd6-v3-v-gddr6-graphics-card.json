@@ -1,0 +1,52 @@
+{
+ "specs": {
+  "Video Memory Specifications": {
+   "Type": "GDDR6",
+   "Size": "4GB",
+   "Core Clock": "Base: 1410Mhz, Boost: 1590Mhz",
+   "Memory Clock": "12Gbps",
+   "BUS Type": "128bit",
+   "CUDA Cores": "896",
+   "Memory Bandwidth": "192GB/s"
+  },
+  "Ports Connector and Slots": {
+   "Display Port": "1x DP",
+   "HDMI": "1x HDMI",
+   "DVI Port": "1x DVI"
+  },
+  "Power Specifications": {
+   "Connectors": "6pin",
+   "Recommended PSU": "400W",
+   "Power Consumption": "75W"
+  },
+  "Application Programming Interfaces": {
+   "DirectX": "12 Ultimate",
+   "OpenGL": "4.6"
+  },
+  "Physical Specification": {
+   "Weight": "0.62KG(N.W)",
+   "Dimensions": "234 x 130 x 42mm",
+   "Others": "Slot Number: 2 slot"
+  },
+  "Warranty Information": {
+   "Warranty": "2 Years"
+  },
+  "Image": {
+   "Model": "GeForce GTX 1650 NB 4GD6 V3-V"
+  },
+  "Product List": {
+   "Best Colorful Graphics Card Price List In BD": "Price"
+  }
+ },
+ "key_features": [
+  "Memory: 4GB GDDR6",
+  "CUDA Cores: 896",
+  "Memory Clock: 12Gbps",
+  "Memory Interface: 128bit"
+ ],
+ "model": "GeForce GTX 1650 NB 4GD6 V3-V",
+ "warranty": "2 Years",
+ "fetched": "2026-11-24T20:17+06:00",
+ "source": "https://www.creatus.com.bd/colorful-geforce-gtx-1650-nb-4gd6-v3-v-graphics-card",
+ "store": "creatus"
+}

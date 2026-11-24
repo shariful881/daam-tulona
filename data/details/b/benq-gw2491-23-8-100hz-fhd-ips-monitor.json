@@ -1,0 +1,69 @@
+{
+ "specs": {
+  "Connector & Ports": {
+   "HDMI": "1x HDMI (v1.4)"
+  },
+  "Ports & Slots": {
+   "Display Port": "1x DisplayPort (v1.2)"
+  },
+  "General Information": {
+   "Color": "Black",
+   "Dimensions": "Dimensions (HxWxD) (mm)\n416x542x182\nDimensions (HxWxD) (inch)\n16.4x21.4x7.2\nDimensions (HxWxD) (w/o Base) (mm)\n318x542x48\nDimensions (HxWxD) (w/o Base) (inch)\n12.5x21.4x1.9",
+   "HDCP": "1.4"
+  },
+  "Display Features": {
+   "Display Size": "23.8 inch",
+   "Display Type": "LED backlight",
+   "Panel Type": "IPS",
+   "Resolution": "FHD (1920x1080)",
+   "Display Surface": "Anti-Glare",
+   "Viewing Angle": "178°/178°",
+   "Aspect Ratio": "16:9",
+   "Color Gamut": "99% sRGB"
+  },
+  "Power Consumption": {
+   "Power Consumption (normal)": "17 W",
+   "Power Consumption (max)": "22 W",
+   "Power Consumption (sleep mode)": "<0.5 W"
+  },
+  "Display": {
+   "Contrast Ratio": "1300:1"
+  },
+  "Main Specs": {
+   "Weight": "Net Weight (kg)\n3.06\nNet Weight (lb)\n6.75\nNet Weight (w/o Base) (kg)\n2.67\nNet Weight (w/o Base) (lb)\n5.88"
+  },
+  "Video Features": {
+   "Flicker Free": "Yes",
+   "Color Temperature Selection": "Bluish, Normal, Reddish, User Define"
+  },
+  "Audio Features": {
+   "Speaker (Built In)": "N/A"
+  },
+  "Connectivity": {
+   "Audio Jack": "Yes"
+  },
+  "Mechanical Design": {
+   "Tilt": "-5˚ - 20˚",
+   "Vesa Wall Mount": "100x100 mm"
+  },
+  "Power": {
+   "Voltage": "100 - 240V"
+  },
+  "Warranty Information": {
+   "Warranty": "3 Years Warranty"
+  },
+  "Image": {
+   "Model": "GW2491"
+  }
+ },
+ "key_features": [
+  "Resolution: FHD (1920x1080)",
+  "Display: 23.8\", IPS, 100Hz, 5ms (GTG)",
+  "Ports: 1x HDMI (v1.4), 1x DisplayPort (v1.2)"
+ ],
+ "model": "GW2491",
+ "warranty": "3 Years Warranty",
+ "fetched": "2026-11-24T20:17+06:00",
+ "source": "https://www.creatus.com.bd/benq-gw2491-23-8-inch-100hz-fhd-ips-monitor",
+ "store": "creatus"
+}
