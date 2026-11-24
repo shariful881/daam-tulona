@@ -1,0 +1,53 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ASUS ZenWiFi XD5",
+   "Model Name": "XD5 (W-3-PK)",
+   "Network Standard": "IEEE 802.11a\nIEEE 802.11b\nIEEE 802.11g\nWiFi 4 (802.11n)\nWiFi 5 (802.11ac)",
+   "Product Segment": "AX3000 ultimate AX performance : 2402 Mbps+ 574 Mbps",
+   "Antenna": "Internal dual-band antenna x 2",
+   "Transmit / Receive": "2.4GHz 2x2\n5GHz 2x2",
+   "Processor": "1.7 GHz quad-core processor",
+   "Memory": "128 MB Flash\n512 MB RAM",
+   "Boosts Speed": "MIMO technology",
+   "Operating Frequency": "2.4 GHz\n5 GHz",
+   "Operating Mode": "Wireless Router Mode\nAiMesh Node Mode\nAccess Point Mode",
+   "I/O Ports": "RJ45 for Gigabits BaseT for WAN/LAN x 1\nRJ45 for Gigabits BaseT for LAN x1",
+   "Buttons": "WPS Button, Reset Button",
+   "LED Indicator": "Power x 1",
+   "Package Content": "ZenWiFi XD5\nRJ45 Ethernet cable\nPower adapter\nQuick start guide\nWarranty Card",
+   "Product Weight (g)": "307 g",
+   "Product Dimensions": "90 x 90 x 85 mm",
+   "AiMesh": "AiMesh\n• Primary AiMesh Router\n• AiMesh Node",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\"\nTime Scheduling\nReward\nParental Control - Safe Browsing\nCustomized Internet Schedule",
+   "Router APP": "APP: ASUS Router APP",
+   "Guest Network": "Support Guest Network\n• Maximum Guest Network Rule : 2.4GHz x3, 5GHz x3\nGuest Network Connection Time Limit\nOpen system, WPA/WPA2/WPA3-Personal",
+   "Security": "AiProtection\nVPN\nWPA/WPA2/WPA3-Personal, WPA/WPA2-Enterprise, WPS support\nWPS\nLet's Encrypt",
+   "AiProtection": "AiProtection Classic\n• Router Security Assessment\n• Malicious Site Blocking\n• Infected Device Prevention and Blocking",
+   "VPN": "Instant Guard\nVPN Client L2TP\nVPN Client Open VPN\nVPN Client PPTP\nVPN Client WireGuard",
+   "Traffic Control": "• Bandwidth Limiter\n-- Maximum Bandwidth Limiter Rule : 32\nTraditional QoS\nTraffic Monitor\n• Real-time Traffic Monitor",
+   "WAN": "Internet connection Type : PPPoE, PPTP, L2TP, Automatic IP, Static IP\nInternet Connection Type\n• PPPoE\n• PPTP\n• L2TP",
+   "LAN": "DHCP Server\nIGMP Snooping\nIPTV\nManually Assign IP Address\n• Maximum Manually Assign IP Address Rule : 64",
+   "Wireless": "UTF-8 SSID\nWiFi MAC Address Filter\n• Maximum MAC Filters : 64\nWireless Scheduler\nAirtime Fairness",
+   "Administration": "Configuration Backup and Restore\nDiagnosis Tools\nFeedback System\nSystem Log\nNew Device Connect Notification"
+  },
+  "WiFi Data Rate": {
+   "802.11a": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "WiFi 4 (802.11n)": "up to 300 Mbps",
+   "WiFi 5 (802.11ac)": "up to 867 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 574 Mbps",
+   "WiFi 6 (802.11ax) (5GHz)": "up to 2402 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "12 V with max. 1.5 A current"
+  }
+ },
+ "key_features": [],
+ "model": "ASUS ZenWiFi XD5",
+ "fetched": "2026-11-25T01:32+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/whole-home-mesh-systems/asus-zenwifi/asus-zenwifi-xd5/techspec/",
+ "brand_site": "ASUS"
+}

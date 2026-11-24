@@ -1,0 +1,61 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "ZenScreen Touch MB16AMT",
+   "Audio": "Speaker : Yes(1Wx2)",
+   "I/O Ports": "USB-C x 1 (DP Alt Mode & USB 3.2)\nMicro HDMI x 1",
+   "Battery": "7800mAh",
+   "Mechanical Design": "Height Adjustment : No",
+   "Accessories (varies by region)": "ZenScreen pen\nWarranty Card\nUSB-C cable\nUSB Type-C to A adapter\nQuick start guide",
+   "Certificate": "TÜV Low Blue Light\nTÜV Flicker-free"
+  },
+  "Display": {
+   "Panel Size (inch)": "15.6",
+   "Aspect Ratio": "16:9",
+   "Display Viewing Area (H x V)": "344.16 x 193.59 mm",
+   "Display Surface": "Anti-Glare",
+   "Backlight Type": "LED",
+   "Panel Type": "IPS",
+   "Viewing Angle (CR≧10, H/V)": "178°/ 178°",
+   "Pixel Pitch": "0.179mm",
+   "Resolution": "1920x1080",
+   "Brightness (Typ.)": "250cd/㎡",
+   "Contrast Ratio (Typ.)": "700:1",
+   "Display Colors": "260K",
+   "Response Time": "5ms(GTG)",
+   "Refresh Rate (Max)": "60Hz",
+   "Touch": "Yes, Projective Capacitive 10-point Touch",
+   "Flicker-free": "Yes"
+  },
+  "Features": {
+   "SPLENDID Technology": "Yes",
+   "Color Temp. Selection": "Yes (3 modes)",
+   "HDCP": "Yes",
+   "DisplayWidget": "Yes",
+   "Low Blue Light": "Yes"
+  },
+  "Power Consumption": {
+   "Power Consumption": "<12W",
+   "Power Saving Mode": "0W",
+   "Power Off Mode": "0W (hard switch)",
+   "Voltage": "100-240V, 50/60Hz"
+  },
+  "Dimensions (Esti.)(vary by regions)": {
+   "Phys. Dimension (W x H x D)": "35.97 x 22.74 x 0.90 cm (14.16\" x 8.95\" x 0.35\")",
+   "Box Dimension (W x H x D)": "48.50 x 30.50 x 7.60 cm (19.09\" x 12.01\" x 2.99\")"
+  },
+  "Weight (Esti.)(vary by regions)": {
+   "Net Weight": "0.9 kg (1.98 lbs)",
+   "Gross Weight": "3.1 kg (6.83 lbs)"
+  },
+  "Operation Temperature / Humidity": {
+   "Operation Temperature": "5~35℃",
+   "Operation Humidity": "20-90% RH"
+  }
+ },
+ "key_features": [],
+ "model": "ZenScreen Touch MB16AMT",
+ "fetched": "2026-11-25T01:32+06:00",
+ "source": "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-touch-mb16amt/techspec/",
+ "brand_site": "ASUS"
+}

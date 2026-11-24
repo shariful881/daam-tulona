@@ -1,0 +1,43 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "RT-AX89X",
+   "Network Standard": "IPv6\nIPv4\nWiFi 6 (802.11ax)\nWiFi 5 (802.11ac)\nWiFi 4 (802.11n)",
+   "Antenna": "External antenna x 8",
+   "Transmit / Receive": "5GHz 8x8\n2.4GHz 4x4",
+   "Processor": "2.2GHz quad-core processor",
+   "Memory": "256 MB Flash, 1 GB RAM",
+   "Boosts Speed": "OFDMA (Orthogonal Frequency Division Multiple Access),\nBeamforming: standard-based and universal,\n1024-QAM high data rate,\n20/40/80/160 MHz bandwidth,",
+   "Operating Frequency": "2.4 GHz / 5 GHz",
+   "Operating Mode": "Accesspoint, AiMeshnode, Mediabridge, Repeater, Router",
+   "I/O Ports": "USB 3.1 Gen 1 x 2\nSFP+ x 1",
+   "Buttons": "WPS Button, Reset Button, Power Button, Wireless on/off Button, LED on/off Button",
+   "LED Indicator": "Power x 1\nWi-Fi x 3\nWAN x 1\nLAN x 1\n10GE x 1",
+   "Package Content": "RJ45 x1\nAdapter x1\nQSG x1\nWarranty Card x1\nRT-AX89X x1",
+   "Product Weight (g)": "1280 g",
+   "Product Dimensions": "343.64*343.64*80mm",
+   "AiMesh": "AiMesh, • Primary AiMesh Router, • AiMesh Node",
+   "Game": "Game Boost / Acceleration",
+   "Parental Control": "\"Allow you to block access to unwanted websites and apps.\", Customized Internet Schedule",
+   "Administration": "Configuration Backup and Restore, Diagnosis tools, Feedback System, System Log"
+  },
+  "WiFi Data Rate": {
+   "WiFi 6 (802.11ax) (5GHz)": "up to 4804 Mbps",
+   "WiFi 6 (802.11ax) (2.4GHz)": "up to 1148 Mbps",
+   "WiFi 5 (802.11ac)": "up to 1000 Mbps",
+   "WiFi 4 (802.11n)": "up to 600 Mbps",
+   "802.11g": "up to 54 Mbps",
+   "802.11b": "up to 11 Mbps",
+   "802.11a": "up to 54 Mbps"
+  },
+  "Power Supply": {
+   "AC Input": "110V~240V(50~60Hz)",
+   "DC Output": "19V 3.42A"
+  }
+ },
+ "key_features": [],
+ "model": "RT-AX89X",
+ "fetched": "2026-11-25T01:32+06:00",
+ "source": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax89x/techspec/",
+ "brand_site": "ASUS"
+}

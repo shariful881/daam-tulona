@@ -1,0 +1,31 @@
+{
+ "specs": {
+  "Specification": {
+   "Model": "DUAL-GTX1650-4G",
+   "Graphic Engine": "NVIDIA® GeForce GTX 1650",
+   "Bus Standard": "PCI Express 3.0",
+   "OpenGL": "OpenGL®4.6",
+   "Video Memory": "4GB GDDR5",
+   "CUDA Core": "896",
+   "Memory Speed": "8002 MHz",
+   "Memory Interface": "128-bit",
+   "Resolution": "Digital Max Resolution 7680 x 4320",
+   "Maximum Display Support": "3",
+   "NVlink/ Crossfire Support": "No",
+   "Software": "ASUS GPU Tweak II & Drivers: please download all software from the support site.",
+   "Dimensions": "8.03 \" x 4.53 \" x 1.46 \" Inch\n20.4 x 11.5 x3.7 Centimeter",
+   "Recommended PSU": "300W",
+   "Power Connectors": "No",
+   "Slot": "2 Slot"
+  },
+  "Engine Clock": {
+   "OC Mode - GPU Boost Clock": "1695 MHz , GPU Base Clock : 1515 MHz",
+   "Gaming Mode (Default) - GPU Boost Clock": "1665 MHz , GPU Base Clock : 1485 MHz"
+  }
+ },
+ "key_features": [],
+ "model": "DUAL-GTX1650-4G",
+ "fetched": "2026-11-25T01:31+06:00",
+ "source": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-gtx1650-4g/techspec/",
+ "brand_site": "ASUS"
+}
