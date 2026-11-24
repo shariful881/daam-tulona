@@ -1,125 +1,68 @@
 {
  "date": "2026-11-24",
- "scraped_at": "2026-11-24T02:00+06:00",
+ "scraped_at": "2026-11-24T04:40+06:00",
  "stores": {
   "startech": {
    "enabled": true,
    "items": 32282,
    "errors": [],
-   "seconds": 1805,
+   "seconds": 1804,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1436,
+   "seconds": 1433,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 3092,
    "errors": [],
-   "seconds": 1108,
+   "seconds": 1118,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4033,
-   "errors": [
-    "portable-hdd: স্টোর ব্লক করেছে (503 https://www.creatus.com.bd/portable-hard-disk?page=3); আজ এই স্টোরের বাকি ক্যাটাগরি বাদ"
-   ],
-   "seconds": 382,
-   "failed_cats": [
-    "portable-hdd",
-    "hdd",
-    "power-supply",
-    "casing",
-    "cpu-cooler",
-    "casing-fan",
-    "laptop-accessories",
-    "monitor-arm",
-    "gaming-monitor",
-    "monitor-all",
-    "keyboard",
-    "mouse",
-    "mouse-pad",
-    "headphone",
-    "webcam",
-    "microphone",
-    "speaker",
-    "bluetooth-speaker",
-    "soundbar",
-    "pen-drive",
-    "memory-card",
-    "card-reader",
-    "enclosure",
-    "capture-card",
-    "power-strip",
-    "thermal-paste",
-    "smart-watch",
-    "earbuds",
-    "earphone",
-    "power-bank",
-    "drone",
-    "gimbal",
-    "gamepad",
-    "gaming-chair",
-    "router",
-    "network-switch",
-    "lan-card",
-    "ip-camera",
-    "cc-camera",
-    "dvr-nvr",
-    "printer",
-    "scanner",
-    "photocopier",
-    "projector",
-    "telephone",
-    "calculator",
-    "ups",
-    "voltage-stabilizer",
-    "server",
-    "os-office",
-    "antivirus",
-    "tv",
-    "ac"
-   ],
-   "partial_fail": "আজ 1345টি, আগের রানে 4033টি — আগের দাম রাখা হয়েছে"
+   "errors": [],
+   "seconds": 1245,
+   "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1535,
    "errors": [],
-   "seconds": 645,
+   "seconds": 669,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 439,
    "errors": [],
-   "seconds": 487,
+   "seconds": 488,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 20,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 721,
+   "seconds": 683,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
    "items": 28090,
    "errors": [],
-   "seconds": 8488,
+   "seconds": 8758,
    "failed_cats": []
   },
   "techland": {
@@ -264,61 +207,64 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 509,
+   "seconds": 476,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 398,
    "errors": [],
-   "seconds": 134,
+   "seconds": 133,
    "failed_cats": []
   },
   "computervision": {
    "enabled": true,
-   "items": 10349,
+   "items": 10292,
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3072,
+   "seconds": 3056,
    "failed_cats": [],
-   "matched": 6947,
-   "scraped": 9735
+   "matched": 6919,
+   "scraped": 9678
   },
   "eerna": {
    "enabled": true,
-   "items": 4193,
+   "items": 4786,
    "errors": [],
-   "seconds": 1910,
+   "seconds": 2293,
    "failed_cats": [],
-   "matched": 2816,
-   "scraped": 4135
+   "matched": 3205,
+   "scraped": 4730
   },
   "pqs": {
    "enabled": true,
-   "items": 11504,
-   "errors": [],
-   "seconds": 1390,
+   "items": 10270,
+   "errors": [
+    "https://www.pqs.com.bd/networking: HTTPError: 521 Server Error: <none> for url: https://www.pqs.com.bd/networking?page=8",
+    "https://www.pqs.com.bd/office-equipment: HTTPError: 522 Server Error: <none> for url: https://www.pqs.com.bd/office-equipment"
+   ],
+   "seconds": 1278,
    "failed_cats": [],
-   "matched": 7398,
-   "scraped": 11426
+   "matched": 6533,
+   "scraped": 10193
   },
   "bme": {
    "enabled": true,
    "items": 9263,
    "errors": [],
-   "seconds": 2374,
+   "seconds": 2393,
    "failed_cats": [],
-   "matched": 4000,
+   "matched": 4004,
    "scraped": 9263
   },
   "selltech": {
    "enabled": true,
    "items": 1184,
    "errors": [],
-   "seconds": 406,
+   "seconds": 404,
    "failed_cats": [],
-   "matched": 783,
+   "matched": 784,
    "scraped": 1182
   }
  }
