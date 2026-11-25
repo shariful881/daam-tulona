@@ -6206,7 +6206,7 @@
    "USB Type: USB 2.0",
    "Sensor Resolution (MP): 2MP",
    "Frame Rate: 30FPS",
-   "Plug & Play Operation: Unmentioned",
+   "Plug & Play Operation: Yes",
    "Color: Black"
   ],
   "key": "webcam|910h a4 pk tech webcam",
@@ -16361,10 +16361,14 @@
   "category": "laptop",
   "created": "2026-11-11",
   "features": [
-   "Processor - AMD Ryzen 5 7430U",
-   "SSD - 512 GB NVMe",
-   "RAM - 8 GB DDR4 RAM",
-   "Display - 15.6 Inch FHD IPS"
+   "Processor Type.: Ryzen 7",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: AMD Radeon Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Pure Silver"
   ],
   "key": "laptop|15 15.6 42 5 512gb 7430u 8gb acer as15 aspire fhd ips ryzen",
   "name": "Acer Aspire 15 AS15-42 Ryzen 5 7430U 8GB RAM 512GB SSD 15.6 Inch FHD IPS Laptop (Pure Silver)",
@@ -18640,8 +18644,7 @@
    "Efficiency: Unmentioned",
    "Efficiency Rating: 80 Plus Gold",
    "Protection: OVP, UVP, SCP, OLP",
-   "Color: Black",
-   "Warranty Info: 10 Year"
+   "Color: Black"
   ],
   "key": "power-supply|1000w 80 ac1000 acer black certified emachines full gold modular plus power supply",
   "name": "Acer eMachines AC1000 1000W Full Modular 80 Plus Gold Certified Black Power Supply",
@@ -54267,6 +54270,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cable/anker/a82e2h11/a82e2h11-01-228x228.webp"
  },
+ "anker-25w-charger-adapter-with-type-c-cable": {
+  "brand": "Anker",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Interface: USB Type-C",
+   "Max. 25W Output Power",
+   "PowerIQ 3.0 Power Detection",
+   "5ft Type-C to Type-C Cable, MultiProtect System"
+  ],
+  "key": "mobile-accessories|25w adapter anker c cable charger type",
+  "name": "Anker 25W Charger Adapter with Type-C Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/adapter/anker/b2656k11/b2656k11-04-228x228.webp"
+ },
  "anker-25w-pps-iq-usb-c-black-charger-charging-adapter-a2656j11-us": {
   "brand": "Anker",
   "category": "mobile-accessories",
@@ -55658,6 +55676,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/maggo-10000mah/maggo-10000mah-01-228x228.webp"
  },
+ "anker-maggo-3-in-1-wireless-charging-station": {
+  "brand": "Anker",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Output: 15W Max",
+   "Input: 12V 3A / 15V 2.66A / 9V 3A",
+   "3-in-1  Qi2 Wireless Charger",
+   "StandBy Mode, Foldable Pad, Ultra Compact"
+  ],
+  "key": "mobile-accessories|1 3 anker charging maggo station wireless",
+  "name": "Anker MagGo 3-in-1 Wireless Charging Station",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/adapter/anker/b25m8h21/b25m8h21-01-228x228.webp"
+ },
  "anker-maggo-a1654-10000mah-27w-usb-c-qi2-15w-magnetic-smart-display-shell-white": {
   "brand": "Anker",
   "category": "mobile-accessories",
@@ -55757,6 +55790,21 @@
   "name": "Anker Nano 20W 5 In 1 Travel Adapter",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/charger/anker/nano-20w-5-in-1/nano-20w-5-in-1-02-228x228.webp"
+ },
+ "anker-nano-25000mah-165w-power-bank-with-built-in-cable": {
+  "brand": "Anker",
+  "category": "power-bank",
+  "created": "2026-11-26",
+  "features": [
+   "Battery Capacity: 25000mAh",
+   "Up to 165W Charging Output, Ultra-Fast Recharging",
+   "Interface: 1 × Type-C, 1 × USB-A, Built-In Two Type-C Cable",
+   "Real-Time Smart Display, Advanced Protection"
+  ],
+  "key": "power-bank|165w 25000mah anker bank built cable nano power",
+  "name": "Anker Nano 25000mAh 165W Power Bank With Built-In Cable",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/a1117h11/a1117h11-01-228x228.webp"
  },
  "anker-nano-35w-gan-usb-c-white-charger-with-built-in-usb-c-cable": {
   "brand": "Anker",
@@ -73567,6 +73615,19 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/apacer-as2280q4u-1tb-m2-2280-nvme-pcie-gen4-x4-11759224721.webp"
  },
+ "apacer-as2280q4u-1tb-m-2-2280-nvme-pcie-gen4-x4-ssd-with-heatsink": {
+  "brand": "Apacer",
+  "category": "ssd",
+  "created": "2026-11-26",
+  "key": "ssd|1tb apacer as2280q4u gen4 heatsink m.2 pcie x4",
+  "name": "Apacer AS2280Q4U 1TB M.2 2280 NVMe PCIe Gen4 x4 SSD with Heatsink",
+  "specs": {
+   "capacity": "1TB",
+   "form": "M.2",
+   "interface": "NVMe PCIe"
+  },
+  "store_image": "https://www.creatus.com.bd/image/cache/wp/gj/products_2026/apacer-as2280q4u-1-250x250.webp"
+ },
  "apacer-as2280q4u-512gb-m-2-2280-nvme-pcie-gen4-x4-internal-ssd-ap512gas2280q4u-1": {
   "brand": "Apacer",
   "category": "ssd",
@@ -81229,6 +81290,26 @@
    "capacity": "256GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/apple-ipad-2025-109-inch-liquid-retina-a16-11743237429.webp"
+ },
+ "apple-ipad-2025-10-9-inch-liquid-retina-display-a16-bionic-chip-128gb-blue": {
+  "brand": "Apple",
+  "category": "tablet",
+  "created": "2026-11-26",
+  "features": [
+   "Generation: Unmentioned",
+   "Processor: A16 Bionic Chip",
+   "Storage (MB/GB/TB): 128GB",
+   "Display Size (Inch): 10.9",
+   "Front Camera: 12MP",
+   "Back/Rear Camera: 12MP",
+   "Body Color: Blue"
+  ],
+  "key": "tablet|10.9 128gb a a16 apple bionic blue chip display ipad liquid md4a4xx retina tablet",
+  "name": "Apple iPad (2025) 10.9 Inch Liquid Retina Display A16 Bionic Chip 128GB Blue Tablet #MD4A4xx/A",
+  "specs": {
+   "capacity": "128GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/apple-ipad-2025-109-inch-liquid-retina-display-11743231957.webp"
  },
  "apple-ipad-2025-10-9-inch-liquid-retina-display-a16-bionic-chip-128gb-pink-table": {
   "brand": "Apple",
@@ -92485,6 +92566,24 @@
   "name": "Apple Magic Magnetic attachment Black Keyboard #MJQK3xx/A",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/apple-magic-magnetic-attachment-black-keyboard-11639981554.webp"
+ },
+ "apple-magic-magnetic-attachment-white-keyboard-mjql3xx-a": {
+  "brand": "Apple",
+  "category": "keyboard",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Magic Keyboard",
+   "Interface: Magnetic Attachment",
+   "Lighting: Yes",
+   "Mechanical (Key): No",
+   "Switch Type: Scissor Switch",
+   "Color: White",
+   "Combo Package: Numeric Keypad only"
+  ],
+  "key": "keyboard|a apple attachment keyboard magic magnetic mjql3xx white",
+  "name": "Apple Magic Magnetic attachment White Keyboard #MJQL3xx/A",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/apple-magic-magnetic-attachment-white-keyboard-11639983218.webp"
  },
  "apple-magic-mouse-2-black-mmmq3am-a": {
   "brand": "Apple",
@@ -106173,6 +106272,27 @@
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0122506839/asus-graphics-card-dual-geforce-rtx-4060-v2-oc-edition-cover.webp"
  },
+ "asus-dual-geforce-rtx-4060-white-oc-edition-8gb-gddr6-graphics-card-dual-rtx4060": {
+  "brand": "ASUS",
+  "category": "graphics-card",
+  "created": "2026-11-26",
+  "features": [
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 8GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: White"
+  ],
+  "key": "graphics-card|4060 8gb asus card dual gddr6 geforce o8g oc rtx rtx4060 white",
+  "name": "ASUS Dual GeForce RTX 4060 White OC Edition 8GB GDDR6 Graphics Card #DUAL-RTX4060-O8G-WHITE",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/asus-dual-geforce-rtx-4060-white-oc-edition-8gb-11707656415.webp"
+ },
  "asus-dual-geforce-rtx-4070-evo-oc-edition-12gb-gddr6x-graphics-card": {
   "brand": "Asus",
   "category": "graphics-card",
@@ -116999,6 +117119,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/prime-z790m-plus-csm/prime-z790m-plus-csm-01-228x228.webp"
  },
+ "asus-prime-z890-p-csm-wi-fi-7-ddr5-intel-core-ultra-motherboard-prime-z890-p": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel Z890",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 192GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|asus core csm ddr5 intel motherboard p prime ultra wifi z890",
+  "name": "ASUS PRIME Z890-P-CSM (Wi-Fi 7) DDR5 Intel Core Ultra Motherboard #PRIME Z890-P WIFI-CSM",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-prime-z890-p-csm-wi-fi-7-ddr5-intel-core-11730115592.webp"
+ },
  "asus-prime-z890m-plus-wifi-csm-lga-1851-matx-motherboard": {
   "brand": "ASUS",
   "category": "motherboard",
@@ -118829,6 +118968,25 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/asus-proart-x570-creator-wi-fi-6e-ddr4-amd-am4-11642317691.webp"
  },
+ "asus-proart-x870e-creator-wi-fi-7-ddr5-amd-motherboard-proart-x870e-creator-wifi": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: AMD X870E",
+   "Sockets Supported: AM5",
+   "Supported CPU: Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 192GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|amd asus creator ddr5 motherboard proart wifi x870e",
+  "name": "ASUS ProArt X870E-CREATOR (Wi-Fi 7) DDR5 AMD Motherboard #ProArt X870E-CREATOR WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-proart-x870e-creator-wi-fi-7-ddr5-amd-11727414852.webp"
+ },
  "asus-proart-x870e-creator-wifi-am5-ddr5-atx-motherboard": {
   "brand": "ASUS",
   "category": "motherboard",
@@ -119596,6 +119754,15 @@
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/ASUS/Asus-ROG-BP4701-1-228x228.jpg"
  },
+ "asus-rog-carnyx-c501-rgb-gaming-microphone": {
+  "brand": "Asus",
+  "category": "microphone",
+  "created": "2026-11-26",
+  "key": "microphone|asus c501 carnyx microphone rgb rog",
+  "name": "Asus ROG Carnyx C501 RGB Gaming Microphone",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/asus-rog-carnyx-c501-rgb-gaming-microphone-rgb-on-9659.png"
+ },
  "asus-rog-carnyx-c501-rgb-usb-gaming-microphone": {
   "brand": "Asus",
   "category": "microphone",
@@ -119884,10 +120051,14 @@
   "category": "motherboard",
   "created": "2026-11-11",
   "features": [
-   "Supported CPU: Ryzen 9000, 8000/ 7000 Series Processors for Socket AM5",
-   "Supported RAM: 4 x DDR5, up to 256GB, 9600+MT/s (OC)",
-   "Graphics Output: 1x HDMI, 2x USB4",
-   "Features: 1 x 10Gb LAN, 1x5Gb LAN, Wi-Fi 7, Bluetooth 5.4"
+   "Form Factor: ATX",
+   "Chipset: AMD X870E",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
   ],
   "key": "motherboard|am5 amd asus crosshair dark ddr5 hero motherboard rog socket x870e",
   "name": "Asus ROG CROSSHAIR X870E DARK HERO (Wi-Fi 7) DDR5 AMD AM5 Socket Gaming Motherboard",
@@ -119923,6 +120094,25 @@
   "name": "Asus ROG CROSSHAIR X870E EXTREME AMD AM5 E-ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-crosshair-x870e-extreme/rog-crosshair-x870e-extreme-01-228x228.webp"
+ },
+ "asus-rog-crosshair-x870e-extreme-wi-fi-7-ddr5-amd-am5-socket-gaming-motherboard": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: E-ATX",
+   "Chipset: AMD X870E",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|am5 amd asus crosshair ddr5 extreme motherboard rog socket x870e",
+  "name": "ASUS ROG CROSSHAIR X870E EXTREME (Wi-Fi 7) DDR5 AMD AM5 Socket Gaming Motherboard",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-crosshair-x870e-extreme-wi-fi-7-ddr5-11760507608.webp"
  },
  "asus-rog-crosshair-x870e-glacial-amd-am5-atx-motherboard": {
   "brand": "Asus",
@@ -120057,6 +120247,24 @@
   "name": "ASUS ROG CROSSHAIR X870E HERO (Wi-Fi 7) DDR5 AMD Gaming Motherboard",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/asus-rog-crosshair-x870e-hero-wi-fi-7-ddr5-amd-71776337282.webp"
+ },
+ "asus-rog-delta-ii-a701-tri-mode-wireless-black-gaming-headphone-with-rog": {
+  "brand": "ASUS",
+  "category": "headphone",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Gaming",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Plug Details: 3.5mm",
+   "Cable Length: 6.5 ft.",
+   "Color: Black"
+  ],
+  "key": "headphone|a701 asus black delta headphone ii mode rog speednova tri wireless",
+  "name": "ASUS ROG Delta II A701 Tri-Mode Wireless Black Gaming Headphone with ROG SpeedNova",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-delta-ii-a701-tri-mode-wireless-black-11759307515.webp"
  },
  "asus-rog-delta-ii-tri-mode-wireless-gaming-headphone": {
   "brand": "Asus",
@@ -123043,6 +123251,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-strix-b760-i-gaming-wifi/rog-strix-b760-i-gaming-wifi-01-228x228.webp"
  },
+ "asus-rog-strix-b850-a-gaming-wi-fi-7-ddr5-amd-motherboard-rog-strix-b850-a": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|a amd asus b850 ddr5 motherboard rog strix wifi",
+  "name": "ASUS ROG STRIX B850-A GAMING (Wi-Fi 7) DDR5 AMD Motherboard #ROG STRIX B850-A GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-b850-a-gaming-wi-fi-7-ddr5-amd-11739187560.webp"
+ },
  "asus-rog-strix-b850-a-gaming-wifi-amd-ryzen-am5-atx-gaming-motherboard": {
   "brand": "ASUS",
   "category": "motherboard",
@@ -123199,6 +123426,25 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-b850-i-gaming-w-wi-fi-7-ddr5-amd-11774608864.webp"
  },
+ "asus-rog-strix-b850-i-gaming-wi-fi-7-ddr5-amd-am5-socket-motherboard-rog-strix": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: Mini-ITX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 2",
+   "Memory Max.: 128GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|am5 amd asus b850 ddr5 i motherboard rog socket strix wifi",
+  "name": "ASUS ROG STRIX B850-I GAMING (Wi-Fi 7) DDR5 AMD AM5 Socket Motherboard #ROG STRIX B850-I GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-b850-i-gaming-wi-fi-7-ddr5-amd-11741842561.webp"
+ },
  "asus-rog-strix-b850-i-gaming-wifi-am5-mini-itx-motherboard": {
   "brand": "Asus",
   "category": "motherboard",
@@ -123259,6 +123505,25 @@
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/ASUS ROG Strix B850-I Gaming WiFi7/ASUS ROG Strix B850-I Gaming WiFi7 1-228x228.png"
  },
+ "asus-rog-strix-b860-a-gaming-wi-fi-7-ddr5-intel-core-ultra-lga1851-socket": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel B860",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|a asus b860 ddr5 motherboard rog strix wifi",
+  "name": "ASUS ROG STRIX B860-A GAMING (Wi-Fi 7) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard #ROG STRIX B860-A GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-b860-a-gaming-wi-fi-7-ddr5-11739188010.webp"
+ },
  "asus-rog-strix-b860-a-gaming-wifi-intel-lga1851-atx-gaming-motherboard": {
   "brand": "ASUS",
   "category": "motherboard",
@@ -123288,6 +123553,25 @@
   "name": "Asus ROG STRIX B860-A GAMING WIFI LGA 1851 ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-strix-b860-a-gaming-wifi/rog-strix-b860-a-gaming-wifi-01-228x228.webp"
+ },
+ "asus-rog-strix-b860-f-gaming-wi-fi-7-ddr5-intel-core-ultra-lga1851-socket": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel B860",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: Yes"
+  ],
+  "key": "motherboard|asus b860 ddr5 f motherboard rog strix wifi",
+  "name": "ASUS ROG STRIX B860-F GAMING (Wi-Fi 7) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard #ROG STRIX B860-F GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-b860-f-gaming-wi-fi-7-ddr5-11741862199.webp"
  },
  "asus-rog-strix-b860-f-gaming-wifi-intel-lga1851-atx-gaming-motherboard": {
   "brand": "ASUS",
@@ -127254,6 +127538,25 @@
   "name": "ASUS ROG STRIX Z890-A GAMING WIFI LGA 1851 DDR5 ATX Motherboard",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0122506903/asus-motherboard-rog-strix-z890-a-gaming-wifi-cover.webp"
+ },
+ "asus-rog-strix-z890-e-gaming-wi-fi-7-ddr5-intel-core-ultra-lga1851-socket": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel Z890",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors(Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|asus ddr5 e motherboard rog strix wifi z890",
+  "name": "ASUS ROG STRIX Z890-E GAMING (Wi-Fi 7) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard #ROG STRIX Z890-E GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-rog-strix-z890-e-gaming-wi-fi-7-ddr5-11741847582.webp"
  },
  "asus-rog-strix-z890-e-gaming-wifi-lga1851-atx-motherboard": {
   "brand": "ASUS",
@@ -132912,14 +133215,10 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Form Factor: Micro-ATX",
-   "Chipset: Intel B760",
-   "Sockets Supported: LGA1700",
-   "Supported CPU: 13th Gen Intel Core & 12th Gen Intel Core, Pentium Gold and Celeron Processors.",
-   "Generation: 12th/13th",
-   "Memory Slot: 4",
-   "Memory Max.: 128GB",
-   "Back-Connect Design: No"
+   "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+   "Supported Memory: 4 x DIMM, Max. 128GB, DDR4",
+   "Graphics Output: 1 x DisplayPort, 1 x HDMI",
+   "Features: 1 x Realtek 2.5Gb Ethernet, Wi-Fi 6"
   ],
   "key": "motherboard|asus b760m d4 motherboard plus tuf wifi",
   "name": "Asus TUF GAMING B760M-PLUS WIFI D4 Motherboard",
@@ -132974,6 +133273,25 @@
   "name": "Asus TUF GAMING B850-BTF WIFI W ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b850-btf-wifi-w/tuf-gaming-b850-btf-wifi-w-01-228x228.webp"
+ },
+ "asus-tuf-gaming-b850-e-wi-fi-6e-ddr5-amd-motherboard-tuf-gaming-b850-e-wifi": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|amd asus b850 ddr5 e motherboard tuf wifi",
+  "name": "ASUS TUF GAMING B850-E (Wi-Fi 6E) DDR5 AMD Motherboard #TUF GAMING B850-E WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-tuf-gaming-b850-e-wi-fi-6e-ddr5-amd-11751286030.webp"
  },
  "asus-tuf-gaming-b850-e-wifi-am5-atx-motherboard": {
   "brand": "Asus",
@@ -133051,6 +133369,25 @@
   "name": "Asus TUF GAMING B850-PLUS WIFI ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b850-plus-wifi/tuf-gaming-b850-plus-wifi-01-228x228.webp"
+ },
+ "asus-tuf-gaming-b850-pro-w-neo-wi-fi-7-ddr5-amd-am5-socket-white-motherboard-tuf": {
+  "brand": "Asus",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|am5 amd asus b850 ddr5 motherboard neo pro socket tuf w white wifi7",
+  "name": "Asus TUF GAMING B850-PRO W NEO (Wi-Fi 7) DDR5 AMD AM5 Socket White Motherboard #TUF GAMING B850-PRO WIFI7 W NEO",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-tuf-gaming-b850-pro-w-neo-wi-fi-7-ddr5-amd-11774608502.webp"
  },
  "asus-tuf-gaming-b850-pro-wifi7-w-neo-atx-motherboard": {
   "brand": "Asus",
@@ -133142,6 +133479,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b850m-plus-wifi7-w/tuf-gaming-b850m-plus-wifi7-w-01-228x228.webp"
  },
+ "asus-tuf-gaming-b860-plus-wi-fi-7-ddr5-intel-core-ultra-lga1851-socket": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel B860",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors(Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|asus b860 ddr5 motherboard plus tuf wifi",
+  "name": "ASUS TUF GAMING B860-PLUS (Wi-Fi 7) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard #TUF GAMING B860-PLUS WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-tuf-gaming-b860-plus-wi-fi-7-ddr5-intel-11741848671.webp"
+ },
  "asus-tuf-gaming-b860-plus-wifi-intel-lga1851-atx-gaming-motherboard": {
   "brand": "ASUS",
   "category": "motherboard",
@@ -133171,6 +133527,25 @@
   "name": "Asus TUF GAMING B860-PLUS WIFI LGA 1851 ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b860-plus-wifi/tuf-gaming-b860-plus-wifi-01-228x228.webp"
+ },
+ "asus-tuf-gaming-b860m-plus-wi-fi-7-ddr5-intel-core-ultra-lga1851-socket": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: Micro-ATX",
+   "Chipset: Intel B860",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|asus b860m ddr5 motherboard plus tuf wifi",
+  "name": "ASUS TUF GAMING B860M-PLUS (Wi-Fi 7) DDR5 (Intel Core Ultra LGA1851 Socket) Motherboard #TUF GAMING B860M-PLUS WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-tuf-gaming-b860m-plus-wi-fi-7-ddr5-intel-11741861943.webp"
  },
  "asus-tuf-gaming-b860m-plus-wifi-intel-lga1851-matx-gaming-motherboard": {
   "brand": "ASUS",
@@ -137267,6 +137642,25 @@
   "name": "ASUS TUF GAMING Z790-PLUS WIFI DDR5 Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-z790-plus-wifi-ddr5/tuf-gaming-z790-plus-wifi-ddr5-01-228x228.webp"
+ },
+ "asus-tuf-gaming-z890-plus-wi-fi-7-ddr5-intel-core-ultra-motherboard-tuf-gaming": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: Intel Z890",
+   "Sockets Supported: LGA1851",
+   "Supported CPU: Intel Core Ultra Processors (Series 2)",
+   "Generation: Ultra",
+   "Memory Slot: 4",
+   "Memory Max.: 192GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|asus core ddr5 intel motherboard plus tuf ultra wifi z890",
+  "name": "ASUS TUF GAMING Z890-PLUS (Wi-Fi 7) DDR5 Intel Core Ultra Motherboard #TUF GAMING Z890-PLUS WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-tuf-gaming-z890-plus-wi-fi-7-ddr5-intel-71776338370.webp"
  },
  "asus-tuf-gaming-z890-plus-wifi-intel-lga1851-ddr5-atx-gaming-motherboard": {
   "brand": "ASUS",
@@ -144999,6 +145393,25 @@
   "name": "Asus X870 AYW GAMING WIFI W AM5 ATX Motherboard",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/x870-ayw-gaming-wifi-w/x870-ayw-gaming-wifi-w-001-228x228.webp"
+ },
+ "asus-x870-max-gaming-wi-fi-7-white-ddr5-amd-motherboard-x870-max-gaming-wifi7-w": {
+  "brand": "ASUS",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: ATX",
+   "Chipset: AMD X870",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 4",
+   "Memory Max.: 256GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|amd asus ddr5 max motherboard w white wifi7 x870",
+  "name": "ASUS X870 MAX GAMING (Wi-Fi 7) White DDR5 AMD Motherboard #X870 MAX GAMING WIFI7 W",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/asus-x870-max-gaming-wi-fi-7-white-ddr5-amd-11751285218.webp"
  },
  "asus-x870-max-gaming-wifi7-am5-atx-motherboard": {
   "brand": "Asus",
@@ -169716,6 +170129,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2342506384/baseus-hubs-docks-ultrajoy-series-cover.webp"
  },
+ "baseus-ultrajoy-series-b00052801811-04-dual-type-c-male-to-hdmi-tri-usb-3-0-type": {
+  "brand": "Baseus",
+  "category": "hub-dock",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Converter",
+   "Length.: 0 Meter",
+   "Resolution: 3840 x 2160",
+   "Color: Gray"
+  ],
+  "key": "hub-dock|04 3.0 b00052801811 baseus c converter dual female grey hdmi male to tri type ultrajoy usb",
+  "name": "Baseus UltraJoy Series B00052801811-04 Dual Type-C Male to HDMI, Tri USB 3.0 & Type-C (PD) Female Grey Converter #B00052801811-04",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/baseus-ultrajoy-series-b00052801811-04-dual-11746681465.webp"
+ },
  "baseus-ultrajoy-series-dual-type-c-male-to-hdmi-tri-usb-3-0-type-c-female-grey-h": {
   "brand": "Baseus",
   "category": "hub-dock",
@@ -185204,6 +185632,15 @@
   "specs": {},
   "store_image": "https://ik.imagekit.io/fourstarit/website/Accessories/Speaker/Blisbond/blisbond-fa02-black-portable-bluetooth-21772678624_s1-1-Z12X.webp"
  },
+ "blisbond-fly-3-4k-action-camera": {
+  "brand": "Blisbond",
+  "category": "action-camera",
+  "created": "2026-11-26",
+  "key": "action-camera|3 4k action blisbond camera fly",
+  "name": "Blisbond Fly 3 4k Action Camera",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Blisbond-Fly-3-4k-Action-Camera-b-2717.jpg"
+ },
  "blisbond-fly3-48mp-4k-60fps-waterproof-action-camera": {
   "brand": "Blisbond",
   "category": "action-camera",
@@ -193048,6 +193485,15 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/microphone/boya/by-v3-combo/by-v3-combo-01-228x228.webp"
  },
+ "boya-by-v30-2-4-ghz-dual-channel-wireless-microphone": {
+  "brand": "Boya",
+  "category": "microphone",
+  "created": "2026-11-26",
+  "key": "microphone|2.4 boya by channel dual ghz microphone v30 wireless",
+  "name": "Boya BY-V30 2.4 GHz Dual-Channel Wireless Microphone",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/boya-by-v30-2.4-ghz-dual-channel-wireless-microphone-3725.png"
+ },
  "boya-by-v30-2-4-ghz-dual-channel-wireless-microphone-for-type-c-device": {
   "brand": "BOYA",
   "category": "microphone",
@@ -198342,10 +198788,14 @@
   "category": "printer",
   "created": "2026-11-10",
   "features": [
-   "Print Speed (B&W/ Color): A4 print speed up to 17/16.5 ipm",
-   "Resolution: Up to 6000 x 1200 dpi",
-   "Display: 1.8 Inch Colour LCD",
-   "Connectivity: USB, LAN, WiFi"
+   "Functions: Print, Scan, Copy, Fax",
+   "Output Color: Color",
+   "Print Speed (Black): 16ipm (ESAT) (A4),  27ppm (Eco) (A4)",
+   "Print Speed (Color): 15.5ipm (ESAT) (A4),  23ppm (Eco) (A4)",
+   "Printer Resolution (Black): 1200 x 6000dpi",
+   "Printer Resolution (Color): 1200 x 6000dpi",
+   "Print Paper Size Max.: Legal",
+   "Interface (Built-in): USB, LAN, WiFi"
   ],
   "key": "printer|brother color ink mfc multifunction printer t930dw tank",
   "name": "Brother MFC-T930DW Multifunction Color Ink Tank Printer",
@@ -206392,10 +206842,10 @@
   "category": "printer-supplies",
   "created": "2026-11-11",
   "features": [
-   "Item Category: Printer Toner",
-   "Printing Color: Black",
-   "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 3000 Pages"
+   "Supports MF465dw, MF462dw, LBP247dw, and LBP246dw",
+   "Page Yield - Up to 3,000 Pages",
+   "Printing Color- Black",
+   "Printing technology- Laser"
   ],
   "key": "printer-supplies|070 black canon toner",
   "name": "Canon 070 Black Toner",
@@ -206729,6 +207179,21 @@
   "name": "Canon 333 Toner (10000 pages)",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/toner/canon/333/333-228x228.jpg"
+ },
+ "canon-333h-17000-pages-toner": {
+  "brand": "Canon",
+  "category": "printer-supplies",
+  "created": "2026-11-26",
+  "features": [
+   "Item Category: Printer Toner",
+   "Printing Color: Black",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): 17000 Pages"
+  ],
+  "key": "printer-supplies|333h canon toner",
+  "name": "Canon 333H (17000 pages) Toner",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/canon-333h-17000-pages-11551078071.webp"
  },
  "canon-335-black-toner": {
   "brand": "Canon",
@@ -215881,6 +216346,21 @@
   "name": "Canon NPG-59 Toner For Canon Photocopier (Black)",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/toner/canon/npg-59/npg-59-228x228.jpg"
+ },
+ "canon-npg-67-black-drum-unit": {
+  "brand": "Canon",
+  "category": "printer-supplies",
+  "created": "2026-11-26",
+  "features": [
+   "Item Category: Drum Unit",
+   "Printing Color: Black",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): 69000 Pages"
+  ],
+  "key": "printer-supplies|67 black canon drum npg unit",
+  "name": "Canon NPG-67 Black Drum Unit",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/canon-npg-67-black-drum-11614666213.webp"
  },
  "canon-npg-67-black-toner": {
   "brand": "Canon",
@@ -336751,6 +337231,15 @@
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/camera/osmo-action-6-price-in-b-228x228.webp"
  },
+ "dji-osmo-action-6-standard-combo-camera": {
+  "brand": "DJI",
+  "category": "action-camera",
+  "created": "2026-11-26",
+  "key": "action-camera|6 action camera combo dji osmo standard",
+  "name": "DJI Osmo Action 6 Standard Combo Camera",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/DJI-Osmo-Action-6-Adventure-Combo-Camera-1119.png"
+ },
  "dji-osmo-action-60m-waterproof-case-no-warranty": {
   "brand": "DJI",
   "category": "camera-accessories",
@@ -337027,6 +337516,15 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/gimbal/dji/osmo-mobile-8p/osmo-mobile-8p-01-228x228.webp"
  },
+ "dji-osmo-mobile-8p-advanced-tracking-combo": {
+  "brand": "DJI",
+  "category": "gimbal",
+  "created": "2026-11-26",
+  "key": "gimbal|8p advanced combo dji mobile osmo tracking",
+  "name": "DJI Osmo Mobile 8P Advanced Tracking Combo",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/dji-osmo-mobile-8p-advanced-tracking-combo-front-2541.jpg"
+ },
  "dji-osmo-mobile-8p-advanced-tracking-combo-handheld-3-axis-gray-smartphone-gimba": {
   "brand": "DJI",
   "category": "gimbal",
@@ -337077,6 +337575,15 @@
   "name": "DJI Osmo Mobile 8P Creator Combo Handheld 3-Axis Gray Smartphone Gimbal",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/dji-osmo-mobile-8p-creator-combo-handheld-3-axis-11778923406.webp"
+ },
+ "dji-osmo-mobile-8p-creator-vlog-combo": {
+  "brand": "DJI",
+  "category": "gimbal",
+  "created": "2026-11-26",
+  "key": "gimbal|8p combo creator dji mobile osmo vlog",
+  "name": "DJI Osmo Mobile 8P Creator Vlog Combo",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/dji-osmo-mobile-8p-creator-vlog-combo-8005.jpg"
  },
  "dji-osmo-mobile-8p-standard-combo-handheld-3-axis-gray-smartphone-gimbal-magneti": {
   "brand": "DJI",
@@ -346384,8 +346891,8 @@
   "features": [
    "AC Output: 300W (Max.)",
    "AC Output Voltage: AC 220V (Modified Wave)",
-   "Battery Capacity: 12.8V 18Ah/ 230Wh LiFePO4",
-   "Charging by Solar and AC Electricity"
+   "Battery Capacity: 12.8V 16Ah/ 230Wh LiFePO4",
+   "Charging by 18V Solar and AC Charging"
   ],
   "key": "power-station|300w ecosonic l2 panel portable power sl82 solar station",
   "name": "EcoSONIC SL82-L2 300W Portable Power Station With Solar Panel",
@@ -355873,7 +356380,8 @@
   "features": [
    "Printing Color: Black",
    "Printing Technology: Ink",
-   "Duty Cycle up to (Yield): 6000 Pages"
+   "Page yield: 6000 pages",
+   "Supports: M1100, M1120, M1140, M2140, M3170 Ink Printers"
   ],
   "key": "printer-supplies|005 black bottle c13t03q100 epson ink",
   "name": "Epson 005 Black Ink Bottle #C13T03Q100",
@@ -378603,6 +379111,21 @@
   "name": "Fantech LEVIOSA AIR WMV11L Lightning Wireless Microphone",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/microphone/fantech/leviosa-air-wmv11l/leviosa-air-wmv11l-01-228x228.webp"
+ },
+ "fantech-leviosa-air-wmv11l-wireless-microphone-for-lightning-devices-single-mic": {
+  "brand": "Fantech",
+  "category": "microphone",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Omnidirectional",
+   "Connection Type: Wireless",
+   "Plug Type: Lightning",
+   "Color: Black"
+  ],
+  "key": "microphone|air devices fantech leviosa lightning microphone wireless wmv11l",
+  "name": "Fantech LEVIOSA AIR WMV11L Wireless Microphone for Lightning Devices (Single Mic)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/fantech-leviosa-air-wmv11l-wireless-microphone-11713521064.webp"
  },
  "fantech-leviosa-air-wmv21c-dual-mic-type-c-wireless-microphone": {
   "brand": "Fantech",
@@ -405926,6 +406449,42 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/gamdias/atlas-m5-cg/atlas-m5-cg-01-228x228.webp"
  },
+ "gamdias-atlas-m5-cg-mid-tower-black-tempered-glass-windows-atx-gaming-desktop": {
+  "brand": "Gamdias",
+  "category": "casing",
+  "created": "2026-11-26",
+  "features": [
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 3",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|atlas atx black case cg gamdias m5 mid tower",
+  "name": "Gamdias ATLAS M5 CG Mid Tower Black (Tempered Glass Windows) ATX Gaming Desktop Case",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-atlas-m5-cg-mid-tower-black-tempered-11795598590.webp"
+ },
+ "gamdias-atlas-m5-mid-tower-black-tempered-glass-windows-atx-gaming-desktop-case": {
+  "brand": "Gamdias",
+  "category": "casing",
+  "created": "2026-11-26",
+  "features": [
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 3",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|atlas atx black case gamdias m5 mid tower",
+  "name": "Gamdias ATLAS M5 Mid Tower Black (Tempered Glass Windows) ATX Gaming Desktop Case",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-atlas-m5-mid-tower-black-tempered-glass-11795600837.webp"
+ },
  "gamdias-atlas-p1-argb-atx-mid-tower-gaming-casing": {
   "brand": "Gamdias",
   "category": "casing",
@@ -406000,6 +406559,24 @@
   "name": "Gamdias ATLAS P6 CG ARGB ATX Mid Tower Gaming Casing",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/gamdias/atlas-p6-cg/atlas-p6-cg-01-228x228.webp"
+ },
+ "gamdias-atlas-p6-cg-mid-tower-black-tempered-glass-windows-atx-gaming-desktop": {
+  "brand": "Gamdias",
+  "category": "casing",
+  "created": "2026-11-26",
+  "features": [
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 4",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: Yes",
+   "Color: Black"
+  ],
+  "key": "casing|atlas atx black case cg gamdias mid p6 tower",
+  "name": "Gamdias ATLAS P6 CG Mid Tower Black (Tempered Glass Windows) ATX Gaming Desktop Case",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-atlas-p6-cg-mid-tower-black-tempered-11795597155.webp"
  },
  "gamdias-aura-gc1-elite-mesh-rgb-mid-tower-casing": {
   "brand": "Gamdias",
@@ -406367,6 +406944,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/gamdias/aura-gc15m-argb/aura-gc15m-argb-01-228x228.webp"
  },
+ "gamdias-aura-gc15m-argb-mini-tower-black-tempered-glass-windows-micro-atx-gaming": {
+  "brand": "Gamdias",
+  "category": "casing",
+  "created": "2026-11-26",
+  "features": [
+   "Case Type: Mini Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 3",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|argb atx aura black case gamdias gc15m micro mini tower",
+  "name": "Gamdias AURA GC15M ARGB Mini Tower Black (Tempered Glass Windows) Micro-ATX Gaming Desktop Case",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-aura-gc15m-argb-mini-tower-black-11795595600.webp"
+ },
  "gamdias-aura-gc2-elite-argb-mid-tower-case-white": {
   "brand": "Gamdias",
   "category": "casing",
@@ -406396,6 +406991,24 @@
   "name": "Gamdias AURA GC2 ELITE ARGB Mid-Tower Gaming Casing",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/casing/gamdias/aura-gc2-elite-argb/aura-gc2-elite-argb-01-228x228.webp"
+ },
+ "gamdias-aura-gc2-elite-mid-tower-black-tempered-glass-windows-atx-gaming-desktop": {
+  "brand": "Gamdias",
+  "category": "casing",
+  "created": "2026-11-26",
+  "features": [
+   "Case Type: Mid Tower",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 4",
+   "Lighting Fan: RGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|atx aura black case elite gamdias gc2 mid tower",
+  "name": "Gamdias AURA GC2 Elite Mid Tower Black (Tempered Glass Windows) ATX Gaming Desktop Case",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-aura-gc2-elite-mid-tower-black-tempered-11795596404.webp"
  },
  "gamdias-aura-gc2-elite-perforated-rgb-mid-tower-casing": {
   "brand": "Gamdias",
@@ -407787,6 +408400,23 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/chione-e4-360-v2-wh/chione-e4-360-v2-wh-01-228x228.webp"
  },
+ "gamdias-chione-e4-360-v2-wh-aio-argb-white-liquid-cpu-cooler-with-digital": {
+  "brand": "Gamdias",
+  "category": "liquid-cooler",
+  "created": "2026-11-26",
+  "features": [
+   "Cooler Type: Liquid CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 2200 RPM",
+   "LED Color: ARGB",
+   "Supported Socket: Intel: LGA 1851/ LGA 1700/ LGA 115X/ LGA 1200, AMD: AM5/ AM4",
+   "Body Color: White"
+  ],
+  "key": "liquid-cooler|360 aio argb chione cooler digital display e4 gamdias liquid v2 wh white",
+  "name": "Gamdias CHIONE E4-360 V2 WH AIO ARGB White Liquid CPU Cooler with Digital Display",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-chione-e4-360-v2-wh-aio-argb-white-liquid-11795599616.webp"
+ },
  "gamdias-chione-m2-240-lite-aio-rgb-black-liquid-cpu-cooler": {
   "brand": "GAMDIAS",
   "category": "liquid-cooler",
@@ -407915,6 +408545,23 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/chione-m5-360/chione-m5-360-01-228x228.webp"
  },
+ "gamdias-chione-m5-360-aio-argb-black-liquid-cpu-cooler-with-ips-lcd-display": {
+  "brand": "Gamdias",
+  "category": "liquid-cooler",
+  "created": "2026-11-26",
+  "features": [
+   "Cooler Type: Liquid CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 400 - 2200 RPM -/+10%",
+   "LED Color: ARGB",
+   "Supported Socket: Intel: LGA 1851 / LGA 1700, AMD: AM5 /AM4 / AM3",
+   "Body Color: Black"
+  ],
+  "key": "liquid-cooler|360 aio argb black chione cooler display gamdias ips lcd liquid m5",
+  "name": "Gamdias Chione M5-360 AIO ARGB Black Liquid CPU Cooler with IPS LCD Display",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-chione-m5-360-aio-argb-black-liquid-cpu-11795602290.webp"
+ },
  "gamdias-chione-p2-360r-rgb-black-liquid-cpu-cooler": {
   "brand": "GAMDIAS",
   "category": "liquid-cooler",
@@ -408010,6 +408657,23 @@
   "name": "Gamdias CHIONE P5-360 Pro 360mm Liquid CPU Cooler with Display",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/chione-p5-360-pro/chione-p5-360-pro-01-228x228.webp"
+ },
+ "gamdias-chione-p5-360-pro-aio-argb-black-liquid-cpu-cooler-with-ips-lcd-display": {
+  "brand": "Gamdias",
+  "category": "liquid-cooler",
+  "created": "2026-11-26",
+  "features": [
+   "Cooler Type: Liquid CPU Cooler",
+   "Fan Size (Height): 120mm",
+   "Fan Speed: 400 - 2200 RPM±10%",
+   "LED Color: ARGB",
+   "Supported Socket: Intel: LGA 1851 / LGA 1700, AMD: AM5 /AM4 / AM3",
+   "Body Color: Black"
+  ],
+  "key": "liquid-cooler|360 aio argb black chione cooler display gamdias ips lcd liquid p5 pro",
+  "name": "Gamdias Chione P5-360 Pro AIO ARGB Black Liquid CPU Cooler with IPS LCD Display",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-chione-p5-360-pro-aio-argb-black-liquid-21795601204.webp"
  },
  "gamdias-eros-e2-gaming-headphone": {
   "brand": "Gamdias",
@@ -409898,6 +410562,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/thor-p2-1050p/thor-p2-1050p-01-228x228.webp"
  },
+ "gamdias-thor-p2-1050p-1050w-pg5-full-modular-80-plus-platinum-certified-black": {
+  "brand": "Gamdias",
+  "category": "power-supply",
+  "created": "2026-11-26",
+  "features": [
+   "PSU Category: Full Modular",
+   "Type: ATX 3.1",
+   "Maximum Power: 1050 Watt",
+   "Efficiency: 90% Efficiency",
+   "Efficiency Rating: 80 Plus Platinum",
+   "Protection: OVP / UVP /  OPP / SCP / OCP / OTP",
+   "Color: Black"
+  ],
+  "key": "power-supply|1050p 1050w 80 black certified full gamdias modular p2 pg5 platinum plus power supply thor",
+  "name": "Gamdias THOR P2-1050P 1050W PG5 Full Modular 80 Plus Platinum Certified Black Power Supply",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-thor-p2-1050p-1050w-pg5-full-modular-80-11795587591.webp"
+ },
  "gamdias-thor-p2-1350p-1350w-80-platinum-fully-modular-power-supply": {
   "brand": "Gamdias",
   "category": "power-supply",
@@ -409912,6 +410594,24 @@
   "name": "Gamdias THOR P2-1350P 1350W 80+ Platinum Fully Modular Power Supply",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/thor-p2-1350p/thor-p2-1350p-01-228x228.webp"
+ },
+ "gamdias-thor-p2-1350p-1350w-pg5-full-modular-80-plus-platinum-certified-black": {
+  "brand": "Gamdias",
+  "category": "power-supply",
+  "created": "2026-11-26",
+  "features": [
+   "PSU Category: Full Modular",
+   "Type: ATX 3.1",
+   "Maximum Power: 1350 Watt",
+   "Efficiency: 90% Efficiency",
+   "Efficiency Rating: 80 Plus Platinum",
+   "Protection: OVP / UVP /  OPP / SCP / OCP / OTP",
+   "Color: Black"
+  ],
+  "key": "power-supply|1350p 1350w 80 black certified full gamdias modular p2 pg5 platinum plus power supply thor",
+  "name": "Gamdias THOR P2-1350P 1350W PG5 Full Modular 80 Plus Platinum Certified Black Power Supply",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-thor-p2-1350p-1350w-pg5-full-modular-80-11795588692.webp"
  },
  "gamdias-thor-p2-850p-850w-80-platinum-full-modular-power-supply": {
   "brand": "Gamdias",
@@ -409942,6 +410642,24 @@
   "name": "Gamdias THOR P2-850P 850W 80+ Platinum Fully Modular Power Supply",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/thor-p2-850p/thor-p2-850p-01-228x228.webp"
+ },
+ "gamdias-thor-p2-850p-850w-pg5-full-modular-80-plus-platinum-certified-black": {
+  "brand": "Gamdias",
+  "category": "power-supply",
+  "created": "2026-11-26",
+  "features": [
+   "PSU Category: Full Modular",
+   "Type: ATX 3.1",
+   "Maximum Power: 850 Watt",
+   "Efficiency: 90% Efficiency",
+   "Efficiency Rating: 80 Plus Platinum",
+   "Protection: OVP / UVP /  OPP / SCP / OCP / OTP",
+   "Color: Black"
+  ],
+  "key": "power-supply|80 850p 850w black certified full gamdias modular p2 pg5 platinum plus power supply thor",
+  "name": "Gamdias THOR P2-850P 850W PG5 Full Modular 80 Plus Platinum Certified Black Power Supply",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/gamdias-thor-p2-850p-850w-pg5-full-modular-80-11795584388.webp"
  },
  "gamdias-xc3-2g-3-in-1-performance-thermal-paste": {
   "brand": "GAMDIAS",
@@ -419217,10 +419935,10 @@
   "category": "motherboard",
   "created": "2026-11-11",
   "features": [
-   "Supports AMD Ryzen 3000–5000 Series CPUs",
-   "AMD B450 Chipset with 128GB DDR4 Support",
-   "Dual M.2 Slots & 4 SATA 6Gb/s Connectors",
-   "HDMI, DisplayPort & Gigabit LAN Connectivity"
+   "Supported CPU: Ryzen 5000/ 5000 G/ 4000 G/ 3000 G/ 3000 Processors for Socket AM4",
+   "Supported RAM: 4 x DDR4, up to 128GB, 2667MT/s",
+   "Graphics Output: 1 x DisplayPort, 2 x HDMI Port, Onboard 16GB",
+   "Features: 2 x M.2 Slot, Realtek GbE LAN"
   ],
   "key": "motherboard|am4 amd atx b450m d3hp gigabyte micro motherboard",
   "name": "Gigabyte B450M D3HP AM4 AMD Micro ATX Motherboard",
@@ -443686,7 +444404,7 @@
   "features": [
    "Type: IP Phone",
    "Number of phone Line: 3-line IP Phone",
-   "Caller ID: Unmentioned",
+   "Caller ID: Yes",
    "Conference Call: 5-way Audio Conference",
    "Wall Mount: Yes",
    "Color: Black"
@@ -482080,8 +482798,8 @@
    "Screen/Display Size.: Unmentioned",
    "Always On Display: Unmentioned",
    "Waterproof: Yes",
-   "Band Color: Black",
-   "Color: Black"
+   "Band Color: Black Grey",
+   "Color: Black & Grey"
   ],
   "key": "smart-watch|4g black g1 gps hifuture kidguard kids smart watch",
   "name": "Hifuture Kidguard G1 4G GPS Black Kids Smart Watch",
@@ -484884,6 +485602,22 @@
   "name": "Hifuture VORTEX GPS Bluetooth Calling Black Smart Watch",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/hifuture-vortex-gps-bluetooth-calling-black-smart-11790410315.webp"
+ },
+ "hifuture-vortex-gps-bluetooth-calling-latte-smart-watch": {
+  "brand": "Hifuture",
+  "category": "smart-watch",
+  "created": "2026-11-26",
+  "features": [
+   "Screen/Display Size.: 1.46 Inch",
+   "Always On Display: Unmentioned",
+   "Waterproof: Yes",
+   "Band Color: Latte",
+   "Color: Latte"
+  ],
+  "key": "smart-watch|bluetooth calling gps hifuture latte smart vortex watch",
+  "name": "Hifuture VORTEX GPS Bluetooth Calling Latte Smart Watch",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/hifuture-vortex-gps-bluetooth-calling-beige-smart-11790410412.webp"
  },
  "hifuture-vortex-smart-watch": {
   "brand": "HiFuture",
@@ -589610,6 +590344,15 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1572509023/jbl-bluetooth-speaker-partybox-stage-520-cover.webp"
  },
+ "jbl-partybox-stage-520-wireless-speaker": {
+  "brand": "JBL",
+  "category": "speaker",
+  "created": "2026-11-26",
+  "key": "speaker|520 jbl partybox speaker stage wireless",
+  "name": "JBL PartyBox Stage 520 Wireless Speaker",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/JBL-PartyBox-Stage-320-b-5781.jpg"
+ },
  "jbl-partybox-ultimate-1100w-bluetooth-party-speaker": {
   "brand": "JBL",
   "category": "speaker",
@@ -630140,8 +630883,8 @@
   "created": "2026-11-10",
   "features": [
    "Battery Type: Li-ion",
-   "Voltage: 7.6V",
-   "Capacity: 38Wh",
+   "Voltage: 11.52V",
+   "Capacity: 42Wh",
    "Battery Color: Black"
   ],
   "key": "laptop-accessories|asus b31n1707 battery",
@@ -645687,6 +646430,48 @@
    "capacity": "16GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-16gb-11789376324.webp"
+ },
+ "lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-8gb-ram-512gb-ssd-15-6-inch-fhd": {
+  "brand": "Lenovo",
+  "category": "laptop",
+  "created": "2026-11-26",
+  "features": [
+   "Processor Type.: Ryzen 5",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: AMD Radeon 610M Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Arctic Gray"
+  ],
+  "key": "laptop|15.6 15amn8 3 40 5 512gb 8gb amd arctic display fhd grey ideapad lenovo ryzen slim",
+  "name": "Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5 40 8GB RAM, 512GB SSD 15.6 Inch FHD Display Arctic Grey Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-8gb-11795594550.webp"
+ },
+ "lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-8gb-ram-512gb-ssd-15-6-inch-fhd-display": {
+  "brand": "Lenovo",
+  "category": "laptop",
+  "created": "2026-11-26",
+  "features": [
+   "Processor Type.: Ryzen 5",
+   "Generation: Ryzen",
+   "RAM: 8GB",
+   "Storage: 512GB SSD",
+   "Graphics Memory: Shared",
+   "Graphics Chipset: AMD Radeon 610M Graphics",
+   "Display Size (Inch): 15.6",
+   "Color: Abyss Blue"
+  ],
+  "key": "laptop|15.6 15amn8 3 40 5 512gb 8gb abyss amd blue display fhd ideapad lenovo ryzen slim",
+  "name": "Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5 40 8GB RAM, 512GB SSD 15.6 Inch FHD Display Abyss Blue Laptop",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-8gb-11795591363.webp"
  },
  "lenovo-ideapad-slim-3-15amn8-ryzen-3-30-15-6-fhd-laptop": {
   "brand": "Lenovo",
@@ -661615,6 +662400,15 @@
   },
   "store_image": "https://www.startech.com.bd/image/cache/catalog/pendrive/lexar/jumpdrive-dual-drive-d400/jumpdrive-dual-drive-d400-64gb-01-228x228.webp"
  },
+ "lexar-jumpdrive-dual-drive-d400-usb-3-2-type-c-pen-drive": {
+  "brand": "Lexar",
+  "category": "pen-drive",
+  "created": "2026-11-26",
+  "key": "pen-drive|3.2 c d400 dual jumpdrive lexar pen type usb",
+  "name": "Lexar JumpDrive Dual Drive D400 USB 3.2 Type-C Pen Drive",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Lexar-JumpDrive-Dual-Drive-D400-USB-3.2-Type-C-Pen-Drive-8124.png"
+ },
  "lexar-jumpdrive-dual-drive-d500-128gb-usb-3-2-gen-1-type-c-otg-black-pen-drive": {
   "brand": "Lexar",
   "category": "pen-drive",
@@ -662140,6 +662934,15 @@
    "capacity": "64GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/lexar-jumpdrive-m400-64gb-usb-30-black-pen-drive-11703739454.webp"
+ },
+ "lexar-jumpdrive-m400-usb-3-0-pen-drive": {
+  "brand": "Lexar",
+  "category": "pen-drive",
+  "created": "2026-11-26",
+  "key": "pen-drive|3.0 jumpdrive lexar m400 pen usb",
+  "name": "Lexar JumpDrive M400 USB 3.0 Pen Drive",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Lexar-JumpDrive-M400-USB-3.0-Pen-Drive-64gb-4606.png"
  },
  "lexar-jumpdrive-m45-128gb-usb-3-1-silver-pen-drive-ljdm45-128absl": {
   "brand": "Lexar",
@@ -675969,10 +676772,10 @@
   "category": "racing-wheel",
   "created": "2026-11-10",
   "features": [
-   "FOR PLAYSTATION 3/4 / PC",
-   "DUAL-MOTOR FORCE FEEDBACK",
-   "HELICAL GEARING ANTI-BACKLASH",
-   "EASY-ACCESS GAME CONTROLS"
+   "Wheel Rotation: 900 degrees lock-to-lock",
+   "Feedback: Dual-Motor Force Feedback",
+   "Pedals: Nonlinear Brake Pedal",
+   "Compatibility: Windows 7 or later, PlayStation 5, 4, 3 or later"
   ],
   "key": "racing-wheel|driving force g29 logitech playstation racing wheel",
   "name": "Logitech Driving Force G29 Racing Gaming Wheel for PlayStation and PC",
@@ -675999,10 +676802,10 @@
   "category": "gamepad",
   "created": "2026-11-10",
   "features": [
-   "Designed to Work with G923, G29 and G920 Racing Wheels",
-   "Six Speeds with Push-Down Reverse Gear",
-   "Steel and Leather Components for Comfort and Durability",
-   "Mounts Securely to a Racing Rig"
+   "Gear Layout: 6-speed with push-down reverse gear",
+   "Material: Steel and leather components",
+   "Mounting option for desks/tables, plus M6 bolt points for racing rigs",
+   "Compatibility: Logitech G923, G29 or G920 Driving Force Racing Wheel"
   ],
   "key": "gamepad|driving force logitech shifter",
   "name": "Logitech Driving Force Shifter",
@@ -676185,10 +676988,10 @@
   "category": "gamepad",
   "created": "2026-11-10",
   "features": [
-   "EXTENSIVE GAME SUPPORT",
-   "WORKS WITH ANDROID TV",
-   "FAMILIAR CONSOLE-LIKE LAYOUT",
-   "EXCLUSIVE 4-SWITCH D-PAD"
+   "Connection: Wired USB 2.0 with a 1.8m (6 ft) cable",
+   "Controls: 15 buttons (including 2 analog triggers)",
+   "Modes: Switchable between XInput and DirectInput",
+   "Compatibility: Windows 11,10, 8, 7, or Windows Vista, ChromeOS"
   ],
   "key": "gamepad|f310 gamepad logitech usb",
   "name": "Logitech F310 USB Gamepad",
@@ -676224,10 +677027,10 @@
   "category": "gamepad",
   "created": "2026-11-10",
   "features": [
-   "2.4 GHZ WIRELESS CONNECTION",
-   "DUAL VIBRATION",
-   "EXTENSIVE GAME SUPPORT",
-   "FAMILIAR CONSOLE-LIKE LAYOUT"
+   "Connectivity: 2.4 GHz Wireless Connection",
+   "Vibration: Dual-Motor Vibration Feedback",
+   "Modes: Switchable between XInput and DirectInput",
+   "Compatibility: Windows 11,10, 8, 7, or Windows Vista, ChromeOS"
   ],
   "key": "gamepad|f710 gamepad logitech wireless",
   "name": "Logitech F710 Wireless Gamepad",
@@ -677320,10 +678123,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "8 programmable buttons",
-   "Resolution: 240-4000 dpi",
-   "32-bit ARM processor",
-   "1 millisecond report"
+   "Sensor: Fusion Engine Hybrid Sensor",
+   "DPI Range: 240-4000 DPI with 4 On-The-Fly DPI Settings",
+   "Buttons: 8 Programmable Buttons",
+   "1 Ms Report Rate, >16 G Max Acceleration, 32-Bit ARM Processor"
   ],
   "key": "mouse|fast fps fury g402 hyperion logitech mouse ultra",
   "name": "Logitech G402 Hyperion Fury ULTRA-FAST FPS GAMING MOUSE",
@@ -678647,7 +679450,8 @@
   "features": [
    "Frequency: 20Hz - 20kHz",
    "Sensitivity: 100dB +/-3dB",
-   "Cable Length: 5.90 ft"
+   "Cable Length: 2.35 m",
+   "Noise-Canceling Microphone"
   ],
   "key": "headphone|h110 headset logitech stereo",
   "name": "Logitech H110 STEREO Headset (Two port)",
@@ -678735,9 +679539,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Frequency: 20Hz - 20kHz",
-   "Sensitivity: 122 dB +/-3 dB",
-   "Cable Length:1.8m"
+   "Plug: Dual 3.5mm Audio Jack",
+   "Microphone Type: Bidirectional",
+   "Control: In-line controls",
+   "1.8 m Cable, Stereo Sound"
   ],
   "key": "headphone|h150 headset logitech stereo",
   "name": "Logitech H150 STEREO Headset (Two port)",
@@ -678801,10 +679606,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "Full stereo sound for crisp and clear audio",
-   "Bi-directional microphone",
-   "In-line controls",
-   "3.5mm audio jack"
+   "Audio Plug:  Single 3.5mm Audio Jack",
+   "Microphone Type: Bi-directional",
+   "Control: In-line controls",
+   "Full stereo sound for crisp and clear audio"
   ],
   "key": "headphone|h151 headset logitech stereo",
   "name": "Logitech H151 Stereo Headset (One port)",
@@ -678825,9 +679630,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
+   "Interface: USB Type-A",
    "Frequency: 20Hz - 20kHz",
-   "Sensitivity: 115dB +/-3dB",
-   "Cable Length: 5.90 ft"
+   "Microphone Sensitivity: 115dB +/-3dB",
+   "Cable Length: 5.91 ft (1.8 m)"
   ],
   "key": "headphone|h340 headset logitech microphone stereo usb",
   "name": "Logitech H340 Stereo USB Headset with Microphone",
@@ -681111,9 +681917,10 @@
   "category": "keyboard",
   "created": "2026-11-10",
   "features": [
-   "Type : Wireless",
-   "Dimensions: 45.8 x 5.1 x 12.4 cm",
-   "Weight: 640 g"
+   "Connectivity: Wireless Connection",
+   "Keys: Deep-profile, Spill-resistant",
+   "Mouse Sensor: Optical Tracking",
+   "Keyboard Key Life: Up to 5 million keystrokes"
   ],
   "key": "keyboard|combo keyboard logitech mk220 wireless",
   "name": "Logitech MK220 Wireless Combo Keyboard",
@@ -681188,7 +681995,7 @@
   "features": [
    "Spill-resistant Design",
    "Special Keys: 15 function keys",
-   "Up to 5 million keystrokes",
+   "Keystrokes: Up to 5 million",
    "Sensor technology: Smooth Optical tracking"
   ],
   "key": "keyboard|combo keyboard logitech mk235 mouse wireless",
@@ -681478,9 +682285,10 @@
   "category": "keyboard",
   "created": "2026-11-10",
   "features": [
-   "Type :Wireless 33 feet",
-   "Dimensions: 50 x 15.6 x 4.4 cm",
-   "Weight: 726 g"
+   "Connectivity: Wireless Connection",
+   "Special Keys: 15 function keys",
+   "Mouse Sensor: Smooth Optical Tracking",
+   "Keyboard Key Life: Up to 5 million keystrokes"
   ],
   "key": "keyboard|combo keyboard logitech mk275 wireless",
   "name": "Logitech MK275 Wireless Combo Keyboard",
@@ -681600,9 +682408,10 @@
   "category": "keyboard",
   "created": "2026-11-10",
   "features": [
-   "Type :Wireless",
-   "Dimensions: 20 x 7.5 x 1.7 inches",
-   "Weight: 907 gm"
+   "Connectivity: 2.4 GHz Wireless",
+   "Mouse Sensor: Optical Tracking",
+   "Special Keys: Music Controls, On/Off Power Switch",
+   "Deep-profile Keys, Spill-resistant, Palm Rest"
   ],
   "key": "keyboard|combo keyboard logitech mk345 wireless",
   "name": "Logitech MK345 Wireless Combo Keyboard",
@@ -683082,10 +683891,10 @@
   "category": "presenter",
   "created": "2026-11-10",
   "features": [
-   "Built-in slideshow buttons",
-   "Operating distance: Approx 50 ft (15 m)",
-   "2.4 GHz wireless technology",
-   "Plug-and-play wireless receiver"
+   "Connectivity: 2.4 GHz wireless receiver",
+   "Range: Up to 15 meters (50 feet)",
+   "Controls: Slide forward/back, slideshow start/stop, black screen, and laser button.",
+   "Compatibility: Plug-and-play with Windows and macOS"
   ],
   "key": "presenter|logitech presenter r400 wireless",
   "name": "Logitech R400 Wireless Presenter",
@@ -683981,9 +684790,10 @@
   "category": "speaker",
   "created": "2026-11-10",
   "features": [
-   "THX CERTIFIED AUDIO",
-   "400 WATTS OF POWERFUL SOUND",
-   "CONTROLS AT YOUR FINGERTIPS"
+   "Total Watts (Peak): 400 W, (RMS): 200 W",
+   "Audio Channel: 2.1 Surround Sound",
+   "Input: 3.5 mm and RCA inputs",
+   "Controls: Power, Volume, and Bass"
   ],
   "key": "speaker|1 2 logitech sound speaker surround z623",
   "name": "Logitech Surround Sound Z623 2:1 Speaker",
@@ -684488,9 +685298,10 @@
   "category": "speaker",
   "created": "2026-11-10",
   "features": [
-   "AMAZING SURROUND SOUND",
-   "1000 WATTS OF POWERFUL SOUND",
-   "INTEGRATED CONTROLS"
+   "Total Watts (Peak): 1000 W, (RMS): 500 W",
+   "Audio Channel: 5.1 Surround Sound",
+   "Controls: Wired Control Console and Remote",
+   "THX Certified Dolby Digital 5.1 Decoding, DTS Decoding, 3d Stereo"
   ],
   "key": "speaker|5.1 logitech speaker z906",
   "name": "Logitech Z906 5.1 Speaker",
@@ -690949,6 +691760,15 @@
   "name": "Maono DGM20S Cardioid Condenser USB RGB Black Gaming Microphone with Boom Arm",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/maono-dgm20s-rgb-wired-black-condenser-gaming-11785577818.webp"
+ },
+ "maono-dgm20s-gamerwave-condenser-rgb-gaming-microphone": {
+  "brand": "Maono",
+  "category": "microphone",
+  "created": "2026-11-26",
+  "key": "microphone|condenser dgm20s gamerwave maono microphone rgb",
+  "name": "Maono DGM20S GamerWave Condenser RGB Gaming Microphone",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/maono-dgm20s-gamerwave-gaming-microphone-black-7480.png"
  },
  "maono-dgm20s-gamerwave-condenser-usb-gaming-rgb-microphone": {
   "brand": "MAONO",
@@ -738038,6 +738858,25 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b850m-gaming-plus-wifi/b850m-gaming-plus-wifi-01-228x228.webp"
  },
+ "msi-b850m-gaming-wi-fi-7-ddr5-amd-motherboard-b850m-gaming-wifi": {
+  "brand": "MSI",
+  "category": "motherboard",
+  "created": "2026-11-26",
+  "features": [
+   "Form Factor: Micro-ATX",
+   "Chipset: AMD B850",
+   "Sockets Supported: AM5",
+   "Supported CPU: AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors",
+   "Generation: Not Applicable",
+   "Memory Slot: 2",
+   "Memory Max.: 128GB",
+   "Back-Connect Design: No"
+  ],
+  "key": "motherboard|amd b850m ddr5 motherboard msi wifi",
+  "name": "MSI B850M GAMING (Wi-Fi 7) DDR5 AMD Motherboard #B850M GAMING WIFI",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/msi-b850m-gaming-wi-fi-7-ddr5-amd-motherboard-11763033770.webp"
+ },
  "msi-b850m-gaming-wifi6e-amd-gaming-motherboard": {
   "brand": "MSI",
   "category": "motherboard",
@@ -741586,6 +742425,27 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0402506328/msi-graphics-card-rtx-4070-super-12g-ventus-2x-oc-cover.webp"
  },
+ "msi-geforce-rtx-4070-super-12g-ventus-3x-oc-12gb-gddr6x-graphics-card": {
+  "brand": "MSI",
+  "category": "graphics-card",
+  "created": "2026-11-26",
+  "features": [
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 12GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: Black & Silver"
+  ],
+  "key": "graphics-card|12g 12gb 3x 4070 card gddr6x geforce msi oc rtx super ventus",
+  "name": "MSI GeForce RTX 4070 SUPER 12G VENTUS 3X OC 12GB GDDR6X Graphics Card",
+  "specs": {
+   "capacity": "12GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/msi-geforce-rtx-4070-super-12g-ventus-3x-oc-12gb-21707741023.webp"
+ },
  "msi-geforce-rtx-4070-ti-gaming-x-slim-12g-12gb-gddr6x-graphics-card": {
   "brand": "MSI",
   "category": "graphics-card",
@@ -742021,6 +742881,27 @@
    "capacity": "16GB"
   },
   "store_image": "https://www.ryans.com/storage/products/small/msi-geforce-rtx-4080-gaming-x-trio-16gb-gddr6x-11670657172.webp"
+ },
+ "msi-geforce-rtx-4080-super-16g-gaming-x-slim-16gb-gddr6x-graphics-card": {
+  "brand": "MSI",
+  "category": "graphics-card",
+  "created": "2026-11-26",
+  "features": [
+   "Chipset: NVIDIA GeForce",
+   "Capacity (GB/TB): 16GB",
+   "Graphics Resolution Max.: 7680 x 4320",
+   "VGA Port: No",
+   "HDMI Port: 2",
+   "Display Port: 2",
+   "Multi Display Capability: Quad Display",
+   "Body Color: Black & Grey"
+  ],
+  "key": "graphics-card|16g 16gb 4080 card gddr6x geforce msi rtx slim super x",
+  "name": "MSI GeForce RTX 4080 SUPER 16G GAMING X SLIM 16GB GDDR6X Graphics Card",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/msi-geforce-rtx-4080-super-16g-gaming-x-slim-16gb-11710398054.webp"
  },
  "msi-geforce-rtx-4080-super-16g-ventus-3x-oc-graphics-card": {
   "brand": "MSI",
@@ -749056,8 +749937,7 @@
    "Efficiency: 92% Efficiency",
    "Efficiency Rating: 80 Plus Platinum",
    "Protection: OCP / OVP / OPP / OTP / SCP / UVP",
-   "Color: Black",
-   "Warranty Info: 10 Year"
+   "Color: Black"
   ],
   "key": "power-supply|1300w ai1300p fully meg modular msi pcie5 pg5 power supply",
   "name": "MSI MEG Ai1300P PCIE5 1300W PG5 Fully-Modular Power Supply",
@@ -784935,6 +785815,26 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/ocpc-amd-radeon-rx-580-16gb-gddr5-graphics-card-11702373421.webp"
  },
+ "ocpc-amd-radeon-rx-580-se-white-8gb-gddr5-graphics-card-ocvarx580g8sewh": {
+  "brand": "OCPC",
+  "category": "graphics-card",
+  "created": "2026-11-26",
+  "features": [
+   "Chipset: AMD Radeon",
+   "Capacity (GB/TB): 8GB",
+   "VGA Port: No",
+   "HDMI Port: 1",
+   "Display Port: 3",
+   "Multi Display Capability: Quad Display",
+   "Body Color: White"
+  ],
+  "key": "graphics-card|580 8gb amd card gddr5 ocpc ocvarx580g8sewh rx se white",
+  "name": "OCPC AMD Radeon RX 580 SE White 8GB GDDR5 Graphics Card #OCVARX580G8SEWH",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/ocpc-amd-radeon-rx-580-se-white-8gb-gddr5-11708154780.webp"
+ },
  "ocpc-azz-100-black-m-2-ssd-enclosure": {
   "brand": "OCPC",
   "category": "ssd",
@@ -798668,6 +799568,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/onten-otn-5201-usb-male-to-vga-female-black-11770985888.webp"
  },
+ "onten-otn-5202-usb-male-to-hdmi-female-black-converter-otn-5202": {
+  "brand": "Onten",
+  "category": "hub-dock",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Video",
+   "Length.: 0.2 Meter",
+   "Resolution: 1920 x 1080",
+   "Color: Black"
+  ],
+  "key": "hub-dock|5202 black converter female hdmi male onten otn to usb",
+  "name": "Onten OTN-5202 USB Male to HDMI Female Black Converter #OTN-5202",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/onten-otn-5202-usb-male-to-hdmi-female-black-11765542476.webp"
+ },
  "onten-otn-5208-4-port-usb-hub": {
   "brand": "Onten",
   "category": "hub-dock",
@@ -810952,6 +811867,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/oraimo-intellifry-9l-1600w-black-dual-side-flip-11785042143.webp"
  },
+ "oraimo-lumasweep-5kpa-graphiti-black-powerful-intelligent-robust-robot-vacuum": {
+  "brand": "Oraimo",
+  "category": "vacuum-cleaner",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Robust Robot",
+   "Cleaner Mode: Dry Only",
+   "Dust Capacity: 520mL",
+   "Color: Graphiti Black"
+  ],
+  "key": "vacuum-cleaner|501a 5kpa black cleaner graphiti intelligent lumasweep oraimo orv powerful robot robust vacuum",
+  "name": "Oraimo LumaSweep 5kPa Graphiti Black Powerful Intelligent Robust Robot Vacuum Cleaner #ORV-501A",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/oraimo-lumasweep-5kpa-graphiti-black-powerful-11795597194.webp"
+ },
  "oraimo-lumasweep-orv-501a-robot-vacuum-cleaner": {
   "brand": "Oraimo",
   "category": "vacuum-cleaner",
@@ -819577,6 +820507,21 @@
   "name": "ORICO DAS Solution 2.5/3.5 inch HDD & SSD Dock #ORICO-9848U3-V1-UK-GY-BP",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/orico-das-solution-2535-inch-hdd-ssd-dock-11774262919.webp"
+ },
+ "orico-dd28c3-c-2-bay-external-hdd-docking-station": {
+  "brand": "Orico",
+  "category": "enclosure",
+  "created": "2026-11-26",
+  "features": [
+   "Interface: USB Type-C",
+   "Transmission Rate: 5Gbps",
+   "Support Capacity: 36TB",
+   "Form Factor: 3.5 & 2.5 Inch SATA HDD/SSD"
+  ],
+  "key": "enclosure|2 bay c dd28c3 docking external hdd orico station",
+  "name": "Orico DD28C3-C 2 Bay External HDD Docking Station",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/enclosure/orico/dd28c3-c-uk-bk-bp/dd28c3-c-uk-bk-bp-06-228x228.webp"
  },
  "orico-ddl35-c3-3-5-inch-drive-enclosure": {
   "brand": "ORICO",
@@ -834754,10 +835699,10 @@
   "category": "printer-supplies",
   "created": "2026-11-10",
   "features": [
-   "Item Category: Printer Toner",
-   "Printing Color: Black",
-   "Printing Technology: Laser",
-   "Duty Cycle up to (Yield): 3000 Pages"
+   "Color: Black",
+   "Print Technology: Laser",
+   "Page Yield: Up to 3000 pages",
+   "Compatibility: P3010, P3300, M6700, M7100, M6800 & M7200 Series"
   ],
   "key": "printer-supplies|411h black pantum tl toner",
   "name": "Pantum TL-411H Black Toner",
@@ -854056,7 +855001,7 @@
   "created": "2026-11-10",
   "features": [
    "Scanning Speed (B & W): 8 sec.",
-   "Scanning Speed (Color): 8 sec.",
+   "Scanning Speed (Color): 8 sec",
    "Scan Size Max.: A3",
    "ADF: No",
    "Sheet Capacity (ADF): No",
@@ -856811,14 +857756,10 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Chipset: NVIDIA GeForce",
-   "Capacity (GB/TB): 8GB",
-   "Graphics Resolution Max.: 7680 x 4320",
-   "VGA Port: No",
-   "HDMI Port: 1",
-   "Display Port: 3",
-   "Multi Display Capability: Quad Display",
-   "Body Color: Black"
+   "Video Memory: 8GB GDDR7, PCI Express 5.0 x8",
+   "Graphics Clock: 2280 MHz, Boost Clock: 2535 MHz",
+   "CUDA Cores: 3840, Memory Clock: 28 Gbps",
+   "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
   ],
   "key": "graphics-card|5060 8gb card dual fan gddr7 geforce oc pny rtx",
   "name": "PNY GeForce RTX 5060 8GB OC Dual Fan GDDR7 Graphics Card",
@@ -857065,14 +858006,10 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Chipset: NVIDIA GeForce",
-   "Capacity (GB/TB): 12GB",
-   "Graphics Resolution Max.: 7680 x 4320",
-   "VGA Port: No",
-   "HDMI Port: 1",
-   "Display Port: 3",
-   "Multi Display Capability: Quad Display",
-   "Body Color: Black"
+   "Video Memory: 12GB GDDR7, PCI-Express 5.0 x16",
+   "Core Clock: 2.16Ghz, Memory Interface: 192-bit",
+   "CUDA Cores: 6144, Memory Clock: 28 Gbps",
+   "Display Outputs: 3 x DisplayPort 2.1b, 1 x HDMI 2.1b"
   ],
   "key": "graphics-card|12gb 5070 argb card epic fan gddr7 geforce oc pny rgb rtx triple x",
   "name": "PNY GeForce RTX 5070 ARGB EPIC-X RGB OC Triple Fan 12GB GDDR7 Graphics Card",
@@ -868544,6 +869481,15 @@
   "specs": {},
   "store_image": "https://diamu.com.bd/wp-content/uploads/2026/04/QCY-H3-Pro-Headphone-300x300.jpg"
  },
+ "qcy-h3-wireless-noise-cancelling-headset": {
+  "brand": "QCY",
+  "category": "headphone",
+  "created": "2026-11-26",
+  "key": "headphone|cancelling h3 headset noise qcy wireless",
+  "name": "QCY H3 Wireless Noise Cancelling Headset",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/QCY-H3-Wireless-Noise-Cancelling-Headset-2090.png"
+ },
  "qcy-heroad-v200-h4gm-gaming-headphone": {
   "brand": "QCY",
   "category": "headphone",
@@ -877381,6 +878327,21 @@
   "specs": {},
   "store_image": "https://www.ultratech.com.bd/image/cache/catalog/Rapoo/rapoo-nk8000-usb-wired-keyboard-img-1-250x250.jpg"
  },
+ "rapoo-p500c-black-10400mah-power-bank": {
+  "brand": "Rapoo",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Capacity: 10400mAh",
+   "Interface: Micro USB, Dual USB",
+   "Indicators: Unmentioned",
+   "Color: Black"
+  ],
+  "key": "mobile-accessories|10400mah bank black p500c power rapoo",
+  "name": "Rapoo P500C Black 10400mAh Power Bank",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/rapoo-p500c-black-10400mah-power-11561190397.webp"
+ },
  "rapoo-ralemo-pre-5-multi-mode-bluetooth-blue-mechanical-keyboard": {
   "brand": "Rapoo",
   "category": "keyboard",
@@ -881821,6 +882782,25 @@
   "name": "Razer Level Up Bundle- Cynosa Lite, Viper Mini, Gigantus V2 Combo",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/keyboard/razer/cynosa-lite-viper-mini-gigantus-v2/cynosa-lite-viper-mini-gigantus-v2-228x228.jpg"
+ },
+ "razer-level-up-bundle-wired-black-gaming-keyboard-mouse-mouse-pad-combo-rz85": {
+  "brand": "Razer",
+  "category": "keyboard",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Gaming Keyboard, Mouse & Mouse Pad Combo",
+   "Interface: USB",
+   "Language: English",
+   "Lighting: Yes",
+   "Mechanical (Key): No",
+   "Switch Type: Membrane Switch",
+   "Color: Black",
+   "Combo Package: Keyboard, Mouse & Mouse Pad"
+  ],
+  "key": "keyboard|02741200 b3m1 black bundle combo keyboard level mouse pad razer rz85 up wired",
+  "name": "Razer Level Up Bundle Wired Black Gaming Keyboard, Mouse & Mouse Pad Combo #RZ85-02741200-B3M1",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/razer-level-up-bundle-wired-black-gaming-11632804702.webp"
  },
  "razer-leviathan-v2-x-pc-gaming-soundbar": {
   "brand": "RAZER",
@@ -893351,6 +894331,22 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-2-port-usb-black-charger-charging-adapter-11727671688.webp"
  },
+ "remax-2-port-usb-white-charger-charging-adapter-with-usb-male-to-lightning-1-meter": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Wall Charger",
+   "Transmitted Power: 12W",
+   "Fast Charging: Yes",
+   "Cable Included: Yes",
+   "Color: White"
+  ],
+  "key": "mobile-accessories|1 2 adapter cable charger charging data lightning male meter port remax rp to u215 usb white",
+  "name": "REMAX 2-Port USB White Charger / Charging Adapter with USB Male to Lightning 1 Meter White Charging & Data Cable #RP-U215",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-2-port-usb-white-charger-charging-adapter-11727672514.webp"
+ },
  "remax-20000mah-revolution-series-power-bank": {
   "brand": "REMAX",
   "category": "power-bank",
@@ -894012,6 +895008,20 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/remax-rcc211-cutie-series-usb-24-a-black-car-11553420606.webp"
  },
+ "remax-rcc211-cutie-series-usb-2-4-a-blue-car-charger": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Car Charger",
+   "Transmitted Power: 12W",
+   "Color: Blue"
+  ],
+  "key": "mobile-accessories|2.4 a blue car charger cutie rcc211 remax usb",
+  "name": "REMAX RCC211 Cutie Series USB 2.4 A Blue Car Charger",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rcc211-cutie-series-usb-24-a-blue-car-11557040203.webp"
+ },
  "remax-rcc218-journey-series-usb-4-8-a-white-car-charger": {
   "brand": "REMAX",
   "category": "mobile-accessories",
@@ -894095,6 +895105,24 @@
   "name": "REMAX RM-M1 Portable Bluetooth Speaker",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1462506003/remax-speakers-remax-rm-m1-cover.webp"
+ },
+ "remax-rp-u210-uk-2-1a-white-flinc-charger-charging-adapter": {
+  "brand": "REMAX",
+  "category": "mobile-accessories",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Wall Charger",
+   "Transmitted Power: 12W",
+   "Fast Charging: Yes",
+   "Cable Included: No",
+   "Indicators: No",
+   "Working/Bluetooth Range: No",
+   "Color: White"
+  ],
+  "key": "mobile-accessories|2.1a adapter charger charging flinc remax rp u210 uk white",
+  "name": "REMAX RP-U210 UK 2.1A White Flinc Charger / Charging Adapter",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/remax-rp-u210-uk-21a-white-flinc-21589120440.webp"
  },
  "remax-rp-u26-uk-eva-series-pink-charger-charging-adapter": {
   "brand": "REMAX",
@@ -903025,6 +904053,22 @@
   "name": "Rosenberger Cat-6A, 305 Meter, Purple Network Cable #CP11-171-13",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/rosenberger-cat-6a-305-meter-purpel-network-11693904313.webp"
+ },
+ "rosenberger-cat-6a-f-utp-305-meter-blue-network-cable-cp11-671-13-bl-lszh": {
+  "brand": "Rosenberger",
+  "category": "network-cable",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Network Cable",
+   "Length: 305 Meter",
+   "Jacket Material: PVC",
+   "Cable Shielding: F/UTP",
+   "Color: Blue"
+  ],
+  "key": "network-cable|13 305 671 6a bl blue cable cat cp11 f meter network rosenberger utp",
+  "name": "Rosenberger Cat-6A F/UTP, 305 Meter, Blue Network Cable #CP11-671-13-BL (LSZH)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/rosenberger-cat-6a-futp-305-meter-blue-network-11795608329.webp"
  },
  "rosenberger-cat-6a-f-utp-305-meter-purple-network-cable-cp11-671-13-lszh": {
   "brand": "Rosenberger",
@@ -950837,6 +951881,21 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0662506093/sharp-photocopier-mx-3561-a3-cover.webp"
  },
+ "sharp-mx-36ar-sa-color-drum-unit": {
+  "brand": "Sharp",
+  "category": "printer-supplies",
+  "created": "2026-11-26",
+  "features": [
+   "Item Category: Drum Unit",
+   "Printing Color: Color",
+   "Printing Technology: Inkjet",
+   "Duty Cycle up to (Yield): 150000 Pages"
+  ],
+  "key": "printer-supplies|36ar color drum mx sa sharp unit",
+  "name": "Sharp MX-36AR-SA Color Drum Unit",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sharp-mx-36ar-sa-color-drum-11676801415.webp"
+ },
  "sharp-mx-36av-ba-black-developer": {
   "brand": "Sharp",
   "category": "printer-supplies",
@@ -973718,6 +974777,23 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/sony-mdr-g300-white-wired-over-ear-gaming-41770725925.webp"
  },
+ "sony-mdr-zx110nc-black-wired-on-ear-headphone-6-month-warranty": {
+  "brand": "Sony",
+  "category": "headphone",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Regular",
+   "Connection Type: Wired",
+   "Microphone: No",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: 3.9 ft.",
+   "Color: Black"
+  ],
+  "key": "headphone|black ear headphone mdr on sony wired zx110nc",
+  "name": "Sony MDR-ZX110NC Black Wired On-Ear Headphone (6 Month Warranty)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-mdr-zx110nc-black-wired-on-ear-11650280232.webp"
+ },
  "sony-mhc-v11-portable-high-power-compact-audio-system": {
   "brand": "Sony",
   "category": "speaker",
@@ -977852,6 +978928,23 @@
   "name": "Sony WH-ULT900N Forest Gray ULT Wireless Noise Cancelling Over-Ear Headphone (1 Year Warranty)",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/sony-wh-ult900n-forest-gray-ult-wireless-noise-71783511172.webp"
+ },
+ "sony-wh-ult900n-off-white-ult-wireless-noise-cancelling-over-ear-headphone-1-year": {
+  "brand": "Sony",
+  "category": "headphone",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Regular",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: 1x3.5mm",
+   "Cable Length: 3.94 ft",
+   "Color: Off-White"
+  ],
+  "key": "headphone|cancelling ear headphone noise off over sony ult ult900n wh white wireless",
+  "name": "Sony WH-ULT900N Off-White ULT Wireless Noise Cancelling Over-Ear Headphone (1 Year Warranty)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/sony-wh-ult900n-off-white-ult-wireless-noise-61783510851.webp"
  },
  "sony-wh-ult900n-wireless-noise-cancelling-headphone": {
   "brand": "Sony",
@@ -1053666,9 +1054759,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "1610/100Mbps RJ45 Ports",
-   "Dimension:7.9*5.6*1.6 in.",
-   "MAC Address Table: 1K"
+   "Interface: 16-Port RJ45, Type: Desktop Switch",
+   "Network Standards: IEEE 802.3x",
+   "Data Transfer Rate: 10/100 Mbps",
+   "Transmission Method: Store and Forward"
   ],
   "key": "network-switch|10 100 16 body link plastic port sf1016d switch tp",
   "name": "TP-Link Switch SF1016D 16 Port 10/100 Plastic Body Switch",
@@ -1055559,9 +1056653,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "5 10/100Mbps RJ45 Ports",
-   "Dimension: 4.1 x 2.8 x 0.9 in",
-   "IEEE 802.3x flow control"
+   "Interface: 5-Port RJ45, Type: Desktop Switch",
+   "Network Standards: IEEE 802.3x",
+   "Data Transfer Rate: 10/100 Mbps",
+   "Transmission Method: Store and Forward"
   ],
   "key": "network-switch|10 100 5 link mbps port sf1005d switch tl tp",
   "name": "TP-Link TL-SF1005D 5-Port 10/100 Mbps Desktop Switch",
@@ -1055675,10 +1056770,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "8x 10/100Mbps Auto-Negotiation RJ45 Ports",
-   "Buffer Size: 768Kb",
-   "Transfer Method: Store and Forward",
-   "Functions: Green Technology, 802.3X Flow Control, Back Pressure"
+   "Interface: 8-Port RJ45, Type: Desktop Switch",
+   "Network Standards: IEEE 802.3,u,x, CSMA/CD",
+   "Data Transfer Rate: 10/100 Mbps, Capacity: 1.6Gbps",
+   "Transmission Method: Store and Forward"
   ],
   "key": "network-switch|10 100mbps 8port link sf1008d switch tl tp",
   "name": "TP-Link TL-SF1008D 8Port 10/100Mbps Desktop Switch",
@@ -1058089,6 +1059184,22 @@
   "name": "TP-Link UE330C-V1 Type-C Hub",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/hub/tp-link/ue330c-v1/ue330c-v1-02-228x228.webp"
+ },
+ "tp-link-ue330c-v1-type-c-male-to-tri-usb-lan-female-white-multi-interface-hub": {
+  "brand": "TP-Link",
+  "category": "hub-dock",
+  "created": "2026-11-26",
+  "features": [
+   "Type: Converter",
+   "Length.: 0 Meter",
+   "Interface(s): Type-C Male, Tri USB & Lan Female",
+   "Resolution: Not Applicable",
+   "Color: White"
+  ],
+  "key": "hub-dock|c female hub interface lan link male multi to tp tri type ue330c usb v1 white",
+  "name": "TP-Link UE330C-V1 Type-C Male to Tri USB & Lan Female White Multi-Interface HUB #UE330C-V1",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/tp-link-ue330c-v1-type-c-male-to-tri-usb-lan-11725783072.webp"
  },
  "tp-link-uh3020c-usb-type-c-hdmi-3-in-1-hub": {
   "brand": "TP-Link",
@@ -1089363,10 +1090474,10 @@
   "category": "converter",
   "created": "2026-11-10",
   "features": [
-   "Type: Audio",
-   "Length.: 0 Meter",
-   "Resolution: Not Applicable",
-   "Color: Gray"
+   "Material: Aluminum",
+   "Function: USB-C to 3.5mm jack adapter with DAC chipset",
+   "Design Highlights: 90 degree angle design",
+   "Dimension: 25 x 12 x 4 cm"
   ],
   "key": "converter|20194 3.5mm adapter c cm460 to type ugreen",
   "name": "UGREEN CM460 Type C to 3.5mm Adapter #20194",
@@ -1132927,6 +1134038,81 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/trimmer/vgr/v-399s/v-399s-00-01-228x228.webp"
  },
+ "vgr-v-450-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-26",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Features: Cool Shot, Ionic, Turbo Mode",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|450 dryer hair v vgr",
+  "name": "VGR V-450 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-450/v-450-01-228x228.webp"
+ },
+ "vgr-v-452-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-26",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Nano Ionic Technology, Turbo Function",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|452 dryer hair v vgr",
+  "name": "VGR V-452 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-452/v-452-01-228x228.webp"
+ },
+ "vgr-v-455-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-26",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Hanging Loop",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|455 dryer hair v vgr",
+  "name": "VGR V-455 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-455/v-455-01-228x228.webp"
+ },
+ "vgr-v-461-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-26",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Heat Resistance Body",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|461 dryer hair v vgr",
+  "name": "VGR V-461 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-461/v-461-01-228x228.webp"
+ },
+ "vgr-v-463-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-26",
+  "features": [
+   "Power Consumption: 1800-2200 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Heat Resistance Body",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|463 dryer hair v vgr",
+  "name": "VGR V-463 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-463/v-463-01-228x228.webp"
+ },
  "vgr-v-494-rotating-hot-air-brush": {
   "brand": "VGR",
   "category": "grooming",
@@ -1148859,6 +1150045,81 @@
   "name": "Walton Stanley 20 2000 Watt Induction Cooker",
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1952610004/walton-cooker-stanley-20-cover.webp"
+ },
+ "walton-sunbyte-wbl-12100-1-28kwh-lithium-solar-battery": {
+  "brand": "Walton",
+  "category": "battery",
+  "created": "2026-11-26",
+  "features": [
+   "Nominal Voltage: 12.8V, Nominal Capacity: 100Ah",
+   "Battery Type: LiFePO4 Lithium Battery",
+   "Cycle Life: 80% DOD Cycles at 25°C, 1C: >3000 times",
+   "Intelligent BMS, Built-in Fire Protection, Grade A Cells"
+  ],
+  "key": "battery|1.28kwh 12100 battery lithium solar sunbyte walton wbl",
+  "name": "Walton Sunbyte WBL 12100 1.28kWh Lithium Solar Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/sunbyte/wbl-12100/wbl-12100-01-228x228.webp"
+ },
+ "walton-sunbyte-wbl-12200-2-56kwh-lithium-solar-battery": {
+  "brand": "Walton",
+  "category": "battery",
+  "created": "2026-11-26",
+  "features": [
+   "Nominal Voltage: 12.8V, Nominal Capacity: 200Ah",
+   "Battery Type: LiFePO4 Lithium Battery",
+   "Cycle Life: 80% DOD Cycles at 25°C, 0.5C: >3000 times",
+   "Intelligent BMS, Built-in Fire Protection, Grade A Cells"
+  ],
+  "key": "battery|12200 2.56kwh battery lithium solar sunbyte walton wbl",
+  "name": "Walton Sunbyte WBL 12200 2.56kWh Lithium Solar Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/sunbyte/wbl-12200/wbl-12200-01-228x228.webp"
+ },
+ "walton-sunbyte-wbl-24100-2-56kwh-lithium-solar-battery": {
+  "brand": "Walton",
+  "category": "battery",
+  "created": "2026-11-26",
+  "features": [
+   "Nominal Voltage: 25.6V, Nominal Capacity: 100Ah",
+   "Battery Type: LiFePO4 Lithium Battery",
+   "Cycle Life: 80% DOD Cycles at 25°C, 1C: >3000 times",
+   "Intelligent BMS, Built-in Fire Protection, Grade A Cells"
+  ],
+  "key": "battery|2.56kwh 24100 battery lithium solar sunbyte walton wbl",
+  "name": "Walton Sunbyte WBL 24100 2.56kWh Lithium Solar Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/sunbyte/wbl-24100/wbl-24100-01-228x228.webp"
+ },
+ "walton-sunbyte-wbl-48100-5-12kwh-lithium-solar-battery": {
+  "brand": "Walton",
+  "category": "battery",
+  "created": "2026-11-26",
+  "features": [
+   "Nominal Voltage: 51.2V, Nominal Capacity: 100Ah",
+   "Battery Type: LiFePO4 Lithium Battery",
+   "Cycle Life: ≥8000 Cycles (25°C±2°C, 1C, 80% DOD)",
+   "Support 16 Units In Parallels, Low Voltage Safety Connection"
+  ],
+  "key": "battery|48100 5.12kwh battery lithium solar sunbyte walton wbl",
+  "name": "Walton Sunbyte WBL 48100 5.12kWh Lithium Solar Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/sunbyte/wbl-48100/wbl-48100-01-228x228.webp"
+ },
+ "walton-sunbyte-wbl-48314-16kwh-lithium-solar-battery": {
+  "brand": "Walton",
+  "category": "battery",
+  "created": "2026-11-26",
+  "features": [
+   "Nominal Voltage: 51.2V, Nominal Capacity: 314Ah",
+   "Battery Type: LiFePO4 Lithium Battery",
+   "Cycle Life: ≥8000 Cycles (25°C±2°C, 80% DOD)",
+   "Support 16 Units In Parallels, Low Voltage Safety Connection"
+  ],
+  "key": "battery|16kwh 48314 battery lithium solar sunbyte walton wbl",
+  "name": "Walton Sunbyte WBL 48314 16kWh Lithium Solar Battery",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-battery/sunbyte/wbl-48314/wbl-48314-01-228x228.webp"
  },
  "walton-super-saver-ir-56-inch-bldc-ceiling-fan": {
   "brand": "Walton",
@@ -1169232,6 +1170493,22 @@
   "name": "WiWU Travel 3 in 1 Type-C Male to HDMI, USB & Type-C Female Space Gray Converter #Wi-HB002 (4K)",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/wiwu-travel-3-in-1-type-c-male-to-hdmi-usb-11733748996.webp"
+ },
+ "wiwu-travel-type-c-male-to-hdmi-sd-tf-dual-usb-type-c-female-gray-converter-wi": {
+  "brand": "WiWU",
+  "category": "hub-dock",
+  "created": "2026-11-26",
+  "features": [
+   "Item Category: Converter",
+   "Type: Converter",
+   "Length.: 0.15 Meter",
+   "Resolution: 3840 x 2160",
+   "Color: Gray"
+  ],
+  "key": "hub-dock|c converter dual female gray hb007 hdmi male sd tf to travel type usb wi wiwu",
+  "name": "WiWU Travel Type-C Male to HDMI, SD, TF, Dual USB & Type-C Female Gray Converter #Wi-HB007",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/wiwu-travel-type-c-male-to-hdmi-sd-tf-dual-usb-11773647078.webp"
  },
  "wiwu-travel-wi-hb001-8-in-1-type-c-hub": {
   "brand": "WiWU",
@@ -1222428,14 +1223705,10 @@
   "category": "graphics-card",
   "created": "2026-11-10",
   "features": [
-   "Chipset: NVIDIA GeForce",
-   "Capacity (GB/TB): 6GB",
-   "Graphics Resolution Max.: 7680x4320",
-   "VGA Port: No",
-   "HDMI Port: 1",
-   "Display Port: 3",
-   "Multi Display Capability: Quad Display",
-   "Body Color: Black & Gray"
+   "2nd Gen Ray Tracing Cores & 3rd Gen Tensor Cores",
+   "Engine Clock Boost: 1477 MHz, Memory Clock: 14 Gbps",
+   "Cooling: Dual 70mm fans + Heatsink, PCI Express 4.0 8x",
+   "Display Output: 3 x DisplayPort 1.4a, 1 x HDMI Connector"
   ],
   "key": "graphics-card|3050 6gb card edge gddr6 geforce oc rtx twin zotac",
   "name": "Zotac GAMING GeForce RTX 3050 Twin Edge OC 6GB GDDR6 Graphics Card",

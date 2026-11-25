@@ -1,68 +1,68 @@
 {
- "date": "2026-11-25",
- "scraped_at": "2026-11-25T02:00+06:00",
+ "date": "2026-11-26",
+ "scraped_at": "2026-11-26T02:00+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32286,
+   "items": 32298,
    "errors": [],
-   "seconds": 1835,
+   "seconds": 1850,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1437,
+   "seconds": 1428,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
-   "items": 3092,
+   "items": 0,
    "errors": [],
-   "seconds": 1158,
+   "seconds": 325,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4033,
    "errors": [],
-   "seconds": 1274,
+   "seconds": 1286,
    "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1535,
    "errors": [],
-   "seconds": 662,
+   "seconds": 653,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 436,
    "errors": [],
-   "seconds": 499,
+   "seconds": 484,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 19,
+   "seconds": 20,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 716,
+   "seconds": 707,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 28098,
+   "items": 28103,
    "errors": [],
-   "seconds": 8607,
+   "seconds": 8714,
    "failed_cats": []
   },
   "techland": {
@@ -207,63 +207,62 @@
    "enabled": true,
    "items": 1887,
    "errors": [],
-   "seconds": 545,
+   "seconds": 553,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 398,
    "errors": [],
-   "seconds": 134,
+   "seconds": 140,
    "failed_cats": []
   },
   "computervision": {
    "enabled": true,
-   "items": 10089,
+   "items": 10349,
    "errors": [
-    "https://computervision.com.bd/component-1395: ConnectionError: HTTPSConnectionPool(host='computervision.com.bd', port=443): Max retries exceeded with url: /component-1395?page=48 (Caused by NewConnectionError(\"HTTPSConnection(host='computervision.com.bd', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3083,
+   "seconds": 3043,
    "failed_cats": [],
-   "matched": 6793,
-   "scraped": 9476
+   "matched": 6947,
+   "scraped": 9735
   },
   "eerna": {
    "enabled": true,
-   "items": 4268,
+   "items": 4049,
    "errors": [],
-   "seconds": 1787,
+   "seconds": 1808,
    "failed_cats": [],
-   "matched": 2802,
-   "scraped": 4239
+   "matched": 2586,
+   "scraped": 3988
   },
   "pqs": {
    "enabled": true,
-   "items": 11504,
+   "items": 11518,
    "errors": [],
-   "seconds": 1412,
+   "seconds": 1423,
    "failed_cats": [],
-   "matched": 7401,
-   "scraped": 11426
+   "matched": 7425,
+   "scraped": 11446
   },
   "bme": {
    "enabled": true,
-   "items": 9271,
+   "items": 9285,
    "errors": [],
-   "seconds": 2336,
+   "seconds": 2330,
    "failed_cats": [],
-   "matched": 4009,
-   "scraped": 9271
+   "matched": 4017,
+   "scraped": 9285
   },
   "selltech": {
    "enabled": true,
-   "items": 1184,
+   "items": 1190,
    "errors": [],
-   "seconds": 407,
+   "seconds": 426,
    "failed_cats": [],
-   "matched": 785,
-   "scraped": 1182
+   "matched": 790,
+   "scraped": 1188
   }
  }
 }

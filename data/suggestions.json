@@ -1009,17 +1009,17 @@
  },
  {
   "a": "dji-avata-2-fly-smart-combo-drone",
-  "b": "dji-avata-2-fly-smart-combo-drone-three-batteries",
-  "score": 1.0,
-  "a_name": "DJI Avata 2 Fly Smart Combo Drone",
-  "b_name": "DJI Avata 2 Fly Smart Combo Drone (Three Batteries)"
- },
- {
-  "a": "dji-avata-2-fly-smart-combo-drone",
   "b": "dji-avata-2-fly-smart-combo-drone-single-batteries",
   "score": 1.0,
   "a_name": "DJI Avata 2 Fly Smart Combo Drone",
   "b_name": "DJI Avata 2 Fly Smart Combo Drone (Single Batteries)"
+ },
+ {
+  "a": "dji-avata-2-fly-smart-combo-drone",
+  "b": "dji-avata-2-fly-smart-combo-drone-three-batteries",
+  "score": 1.0,
+  "a_name": "DJI Avata 2 Fly Smart Combo Drone",
+  "b_name": "DJI Avata 2 Fly Smart Combo Drone (Three Batteries)"
  },
  {
   "a": "fantech-nova-pro-wgp14v2-multiplatform-wireless-gamepad",
@@ -1078,11 +1078,11 @@
   "b_name": "Thunderobot G30S TE (HE Edition) Tri-Mode Gamepad (White)"
  },
  {
-  "a": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller-golden-yellow",
-  "b": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller",
+  "a": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller",
+  "b": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller-golden-yellow",
   "score": 1.0,
-  "a_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller (Golden Yellow)",
-  "b_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller"
+  "a_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller",
+  "b_name": "GameSir Nova Lite Multiplatform Tri-Mode Wireless Controller (Golden Yellow)"
  },
  {
   "a": "gamesir-nova-lite-multiplatform-tri-mode-wireless-controller",
@@ -1134,6 +1134,34 @@
   "b_name": "CORSAIR TC60 FABRIC GAMING CHAIR (WHITE)"
  },
  {
+  "a": "fantech-alpha-gc-182-gaming-chair",
+  "b": "fantech-gc-182-alpha-gaming-chair-sakura",
+  "score": 1.0,
+  "a_name": "Fantech Alpha GC-182 Gaming Chair",
+  "b_name": "Fantech GC-182 Alpha Gaming Chair (Sakura)"
+ },
+ {
+  "a": "fantech-alpha-gc-182-gaming-chair",
+  "b": "fantech-gc-182-alpha-gaming-chair-white",
+  "score": 1.0,
+  "a_name": "Fantech Alpha GC-182 Gaming Chair",
+  "b_name": "Fantech GC-182 Alpha Gaming Chair (white)"
+ },
+ {
+  "a": "fantech-alpha-gc-182-gaming-chair",
+  "b": "fantech-gc-182-alpha-gaming-chair",
+  "score": 1.0,
+  "a_name": "Fantech Alpha GC-182 Gaming Chair",
+  "b_name": "Fantech GC-182 Alpha Gaming Chair"
+ },
+ {
+  "a": "fantech-alpha-gc-182-gaming-chair",
+  "b": "fantech-gc-182-alpha-gaming-chair-blue",
+  "score": 1.0,
+  "a_name": "Fantech Alpha GC-182 Gaming Chair",
+  "b_name": "Fantech GC-182 Alpha Gaming Chair (Blue)"
+ },
+ {
   "a": "fantech-alpha-gc-181-ergonomic-gaming-chair",
   "b": "fantech-alpha-gc-181-ergonomic-gaming-chair-red",
   "score": 1.0,
@@ -1141,34 +1169,6 @@
   "b_name": "Fantech Alpha GC-181 Ergonomic Gaming Chair(Red)"
  },
  {
-  "a": "fantech-gc-182-alpha-gaming-chair",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-blue",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (Blue)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-sakura",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (Sakura)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
-  "a": "fantech-gc-182-alpha-gaming-chair-white",
-  "b": "fantech-alpha-gc-182-gaming-chair",
-  "score": 1.0,
-  "a_name": "Fantech GC-182 Alpha Gaming Chair (white)",
-  "b_name": "Fantech Alpha GC-182 Gaming Chair"
- },
- {
   "a": "tenda-nova-mx3-ax1500-dual-band-wifi-6-mesh-router-1-pack",
   "b": "tenda-nova-mx3-ax1500-dual-band-mesh-wifi-6-router-1-pack",
   "score": 1.0,
@@ -1295,11 +1295,11 @@
   "b_name": "Tenda Nova MX12 AX3000 Dual Band Mesh WiFi 6 Router (3 Pack)"
  },
  {
-  "a": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-1-pack",
-  "b": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-2-pack",
+  "a": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-2-pack",
+  "b": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-1-pack",
   "score": 1.0,
-  "a_name": "Cudy M1200 AC1200 Whole Home Mesh WiFi Router (1 Pack)",
-  "b_name": "CUDY M1200 AC1200 WHOLE HOME MESH WIFI ROUTER (2 PACK)"
+  "a_name": "CUDY M1200 AC1200 WHOLE HOME MESH WIFI ROUTER (2 PACK)",
+  "b_name": "Cudy M1200 AC1200 Whole Home Mesh WiFi Router (1 Pack)"
  },
  {
   "a": "mikrotik-rb450gx4-gigabit-ethernet-router-without-case",
