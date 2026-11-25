@@ -107,10 +107,22 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      # আপলোডের ঠিক পরপর GitHub অনেক সময় ফাইলটা দেখায় না ("No artifacts named github-pages") — একটু অপেক্ষা, ব্যর্থ হলে আবার চেষ্টা
+      - name: আপলোডের পর অপেক্ষা
+        run: sleep 30
       - id: deploy
+        continue-on-error: true
         uses: actions/deploy-pages@v4
         with:
           timeout: 1800000   # সাইট বড় হয়েছে (প্রায় ৩০ হাজার পাতা), প্রকাশে বেশি সময় লাগতে পারে
+      - name: প্রকাশ ব্যর্থ হলে অপেক্ষা
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 90
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
 
       - name: সার্চ ইঞ্জিনকে বদলানো পাতা জানানো (IndexNow)
         if: env.SCRAPE == '1'
