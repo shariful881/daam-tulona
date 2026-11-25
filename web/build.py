@@ -1128,7 +1128,7 @@ def main():
     SEO = {"title_product": "{name} দাম বাংলাদেশে | {price}", "title_product_oos": "{name} দাম বাংলাদেশে", "desc_product": "",
            "title_category": "{cat} দাম বাংলাদেশে {year} | {cat_en} Price in BD", "desc_category": "", "gone_days": 90,
            "force_index": [], "force_noindex": [], "ai_snippet": "full", "indexnow": False, "indexnow_key": "",
-           "index_min_stores": 2}
+           "index_min_stores": 1}
     _sf = ROOT / "config/seo.json"
     if _sf.exists():
         SEO.update({k: v for k, v in json.loads(_sf.read_text()).items() if not k.startswith("_")})
@@ -1162,9 +1162,9 @@ def main():
             state = "out"
         it.update(state=state, listed=(state in LISTED or pid in keep_listed) and pid not in force_noindex, last_live=last_live,
                   last_price=last_price or it["any_price"], out_days=days, pre=bool(sts & {"pre"}))
-    # Google-এ দেখানো (index + সাইটম্যাপ): তালিকায় আছে এবং কমপক্ষে index_min_stores দোকানে দাম আছে (আসল তুলনা)।
-    # কম দোকানের পাতা সাইটে, ক্যাটাগরি তালিকায়, সার্চে থাকে কিন্তু noindex; দ্বিতীয় দোকানের দাম এলেই নিজে থেকে খুলে যায়।
-    # Google-এর নির্দেশিকা: সাইটম্যাপে শুধু সেই পাতা যেগুলো সার্চে দেখাতে চান; প্রতিদিন বদলানো বড় সাইটে কম-মূল্যের পাতা বাদ।
+    # Google-এ দেখানো (index + সাইটম্যাপ): তালিকায় আছে এবং কমপক্ষে index_min_stores দোকানে দাম আছে।
+    # মালিকের সিদ্ধান্ত (২৫ নভেম্বর ২০২৬): ১টা দোকানের দাম থাকলেও index (মানুষ প্রোডাক্টের নাম লিখে খোঁজে; ২ দোকানের নিয়মে
+    # ক্লিক আনা পাতাগুলো Google থেকে বাদ পড়েছিল)। কোনো দোকানে দাম না থাকলে noindex থাকে।
     MIN_STORES = max(1, int(SEO.get("index_min_stores") or 2))
     for pid, it in items.items():
         it["indexed"] = it["listed"] and (it["store_count"] >= MIN_STORES or pid in force_index)
