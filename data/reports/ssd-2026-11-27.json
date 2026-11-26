@@ -1,0 +1,430 @@
+{
+ "id": "ssd-2026-11-27",
+ "kind": "week",
+ "cat": "ssd",
+ "cat_name": "এসএসডি",
+ "path": "bazar/ssd/2026-11-27",
+ "title": "এই সপ্তাহে এসএসডির দাম: ২৯টির কমেছে, ২০টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে এসএসডির দাম: ২৯টির কমেছে, ২০টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "date": "2026-11-27",
+ "start": "2026-11-20",
+ "span": "২১–২৭ নভেম্বর ২০২৬",
+ "desc": "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ৪৯টি এসএসডির দাম বদলেছে: ২৯টির কমেছে, ২০টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৭৯২টি এসএসডির গড় দাম প্রায় একই আছে।",
+ "key": [
+  "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ৪৯টি এসএসডির দাম বদলেছে: ২৯টির কমেছে, ২০টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৭৯২টি এসএসডির গড় দাম প্রায় একই আছে।",
+  "সবচেয়ে বেশি কমেছে Addlink S90 Lite 512GB M.2 2280 PCIe NVMe SSD: ৳১,৫০০ (১২%)।",
+  "সবচেয়ে বেশি বেড়েছে Lexar SL500 1TB Type-C 3.2 Gen 2x2 Portable SSD: ৳৩,০০০ (১৩%)।",
+  "সপ্তাহে ৮টি নতুন এসএসডি দোকানে এসেছে।"
+ ],
+ "idx": -0.003960126581695738,
+ "n_cmp": 792,
+ "tabs": [
+  {
+   "key": "ssd",
+   "name": "এসএসডি",
+   "dn": [
+    {
+     "id": "addlink-s90-lite-512gb-m-2-2280-pcie-nvme-ssd",
+     "name": "Addlink S90 Lite 512GB M.2 2280 PCIe NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ultratech",
+     "old": 12000,
+     "new": 10500,
+     "diff": -1500,
+     "pct": -12.5
+    },
+    {
+     "id": "transcend-ssd225s-2tb-2-5-inch-sataiii-ssd",
+     "name": "Transcend SSD225S 2TB 2.5 Inch SATAIII SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 35900,
+     "new": 34500,
+     "diff": -1400,
+     "pct": -3.8997214484679668
+    },
+    {
+     "id": "lexar-sl500-2tb-portable-ssd",
+     "name": "Lexar SL500 2TB Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 43500,
+     "new": 42300,
+     "diff": -1200,
+     "pct": -2.7586206896551726
+    },
+    {
+     "id": "adata-xpg-gammix-s60-512gb-pcie-gen4-x4-m-2-2280-ssd",
+     "name": "Adata XPG GAMMIX S60 512GB PCIe Gen4 x4 M.2 2280 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ultratech",
+     "old": 12500,
+     "new": 11500,
+     "diff": -1000,
+     "pct": -8.0
+    },
+    {
+     "id": "seagate-nytro-1361-1-92tb-2-5-inch-sataiii-internal-ssd-xa1920le10006",
+     "name": "Seagate Nytro 1361 1.92TB 2.5 Inch SATAIII Internal SSD #XA1920LE10006",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 46900,
+     "new": 45900,
+     "diff": -1000,
+     "pct": -2.1321961620469083
+    },
+    {
+     "id": "kingston-nv3-500gb-nvme-m-2-2280-pcie-gen4-internal-ssd",
+     "name": "Kingston NV3 500GB NVMe M.2 2280 PCIe Gen4 Internal SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 14500,
+     "new": 13600,
+     "diff": -900,
+     "pct": -6.206896551724138
+    },
+    {
+     "id": "miphi-mp100-512gb-2-5-inch-sata-iii-ssd",
+     "name": "MiPhi MP100 512GB 2.5 Inch SATA III SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 8800,
+     "new": 7900,
+     "diff": -900,
+     "pct": -10.227272727272728
+    },
+    {
+     "id": "miphi-mp100-256gb-2-5-inch-sata-iii-ssd",
+     "name": "MiPhi MP100 256GB 2.5 Inch SATA III SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 5800,
+     "new": 4999,
+     "diff": -801,
+     "pct": -13.810344827586206
+    },
+    {
+     "id": "western-digital-blue-sn5100-500gb-m-2-2280-pcie-4-0-x4-nvme-ssd-wds500g5b0e-00cp",
+     "name": "Western Digital Blue SN5100 500GB M.2 2280 PCIe 4.0 x4 NVMe SSD #WDS500G5B0E-00CPE0",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 14699,
+     "new": 13999,
+     "diff": -700,
+     "pct": -4.762228723042384
+    },
+    {
+     "id": "transcend-110s-512gb-m-2-pcie-ssd",
+     "name": "TRANSCEND 110S 512GB M.2 PCIE SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ryans",
+     "old": 13599,
+     "new": 12999,
+     "diff": -600,
+     "pct": -4.412089124200309
+    },
+    {
+     "id": "colorful-cn600-pro-512gb-m-2-nvme-ssd",
+     "name": "Colorful CN600 PRO 512GB M.2 NVMe SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ultratech",
+     "old": 10500,
+     "new": 9999,
+     "diff": -501,
+     "pct": -4.771428571428571
+    },
+    {
+     "id": "hiksemi-wave-p-series-512gb-m-2-2280-nvme-pcie-gen3x4-ssd",
+     "name": "Hiksemi Wave P Series 512GB M.2 2280 NVMe PCIe Gen3x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "ultratech",
+     "old": 10500,
+     "new": 9999,
+     "diff": -501,
+     "pct": -4.771428571428571
+    }
+   ],
+   "up": [
+    {
+     "id": "lexar-sl500-1tb-type-c-3-2-gen-2x2-portable-ssd",
+     "name": "Lexar SL500 1TB Type-C 3.2 Gen 2x2 Portable SSD",
+     "category": "portable-ssd",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "store": "pchouse",
+     "old": 23500,
+     "new": 26500,
+     "diff": 3000,
+     "pct": 12.76595744680851
+    },
+    {
+     "id": "apacer-as2280q4l-1tb-m-2-2280-internal-ssd-ap1tbas2280q4l-1",
+     "name": "Apacer AS2280Q4L 1TB M.2 2280 Internal SSD #AP1TBAS2280Q4L-1",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 22000,
+     "new": 24750,
+     "diff": 2750,
+     "pct": 12.5
+    },
+    {
+     "id": "apacer-as2280q4u-1tb-m-2-2280-nvme-pcie-gen4-x4-ssd-ap1tbas2280q4u-1",
+     "name": "Apacer AS2280Q4U 1TB M.2 2280 NVMe PCIe Gen4 x4 SSD #AP1TBAS2280Q4U-1",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 22000,
+     "new": 24750,
+     "diff": 2750,
+     "pct": 12.5
+    },
+    {
+     "id": "apacer-as2280p4-1tb-m-2-pcie-gen-3-x4-ssd",
+     "name": "Apacer AS2280P4 1TB M.2 PCIe Gen 3 x4 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 18000,
+     "new": 20650,
+     "diff": 2650,
+     "pct": 14.722222222222223
+    },
+    {
+     "id": "msi-spatium-m571-dlp-2tb-pcie-5-0-nvme-m-2-ssd",
+     "name": "MSI SPATIUM M571 DLP 2TB PCIe 5.0 NVMe M.2 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "startech",
+     "old": 62499,
+     "new": 65000,
+     "diff": 2501,
+     "pct": 4.001664026624426
+    },
+    {
+     "id": "gigabyte-g440e500g-500gb-m2-ssd",
+     "name": "Gigabyte G440E500G 500GB M2 SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "smartbd",
+     "old": 13000,
+     "new": 15500,
+     "diff": 2500,
+     "pct": 19.230769230769234
+    },
+    {
+     "id": "apacer-as350x-2-5-sataiii-2tb-ssd",
+     "name": "Apacer AS350X 2.5″ SATAIII 2TB SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 30000,
+     "new": 32450,
+     "diff": 2450,
+     "pct": 8.166666666666666
+    },
+    {
+     "id": "apacer-as350x-4tb-2-5-inch-sataiii-ssd-ap4tbas350xr-1",
+     "name": "Apacer AS350X 4TB 2.5 Inch SATAIII SSD #AP4TBAS350XR-1",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 63000,
+     "new": 64500,
+     "diff": 1500,
+     "pct": 2.380952380952381
+    },
+    {
+     "id": "team-gx2-2-5-sata-128gb-ssd",
+     "name": "TEAM GX2 2.5\" SATA 128GB SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "creatus",
+     "old": 2900,
+     "new": 3900,
+     "diff": 1000,
+     "pct": 34.48275862068966
+    },
+    {
+     "id": "apacer-as340-2-5-sataiii-120gb-ssd",
+     "name": "Apacer AS340 2.5″ SATAIII 120GB SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 3400,
+     "new": 4250,
+     "diff": 850,
+     "pct": 25.0
+    },
+    {
+     "id": "apacer-ast280-480gb-m-2-2280-sata-iii-ssd",
+     "name": "Apacer AST280 480GB M.2 2280 SATA III SSD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "pqs",
+     "old": 8500,
+     "new": 9250,
+     "diff": 750,
+     "pct": 8.823529411764707
+    },
+    {
+     "id": "gigabyte-sata-480gb-ssd-gp-gstfs31480gntd",
+     "name": "GIGABYTE SATA 480GB SSD # GP-GSTFS31480GNTD",
+     "category": "ssd",
+     "cat_name": "এসএসডি",
+     "store": "smartbd",
+     "old": 9500,
+     "new": 10000,
+     "diff": 500,
+     "pct": 5.263157894736842
+    }
+   ],
+   "n_dn": 29,
+   "n_up": 20,
+   "new": [
+    {
+     "id": "ocpc-mbl-401-1tb-m-2-2280-pcie-gen4-internal-ssd-with-heatsink-ssdmbl4011tb",
+     "name": "OCPC MBL-401 1TB M.2 2280 PCIe Gen4 Internal SSD with Heatsink #SSDMBL4011TB",
+     "cat_name": "এসএসডি",
+     "price": 24000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "hiksemi-wave-p-series-1tb-m-2-2280-nvme-pcie-gen3x4-ssd-hs-ssd-wave-p-1024g",
+     "name": "Hiksemi Wave P Series 1TB M.2 2280 NVMe PCIe Gen3x4 SSD #HS-SSD-WAVE(P)-1024G",
+     "cat_name": "এসএসডি",
+     "price": 21300,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "hiksemi-wave-s-series-1tb-2-5-inch-sataiii-ssd-hs-ssd-wave-s-1024g",
+     "name": "Hiksemi WAVE(S) Series 1TB 2.5 Inch SATAIII SSD #HS-SSD-WAVE(S)-1024G",
+     "cat_name": "এসএসডি",
+     "price": 17300,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "kingston-fury-renegade-500gb-pcie-4-0-nvme-m-2-internal-ssd",
+     "name": "Kingston FURY Renegade 500GB PCIe 4.0 NVMe M.2 Internal SSD",
+     "cat_name": "এসএসডি",
+     "price": 17000,
+     "store": "ultratech",
+     "n": 1
+    },
+    {
+     "id": "hiksemi-future-lite-series-512gb-m-2-2280-nvme-pcie-gen4x4-ssd-hs-ssd-future",
+     "name": "Hiksemi Future Lite Series 512GB M.2 2280 NVMe PCIe Gen4x4 SSD #HS-SSD-FUTURE-Lite-512G",
+     "cat_name": "এসএসডি",
+     "price": 14000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "ocpc-mbl-401-512gb-m-2-2280-pcie-gen4-internal-ssd-with-heatsink-ssdmbl401512gb",
+     "name": "OCPC MBL-401 512GB M.2 2280 PCIe Gen4 Internal SSD with Heatsink #SSDMBL401512GB",
+     "cat_name": "এসএসডি",
+     "price": 14000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "neo-forza-nfp055-512gb-m-2-2280-nvme-pcie-gen3x4-ssd-nfp055pci51-34h1200",
+     "name": "Neo Forza NFP055 512GB M.2 2280 NVMe PCIe Gen3x4 SSD #NFP055PCI51-34H1200",
+     "cat_name": "এসএসডি",
+     "price": 12700,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "hiksemi-wave-p-series-128gb-m-2-2280-nvme-pcie-gen3x4-ssd",
+     "name": "Hiksemi Wave P Series 128GB M.2 2280 NVMe PCIe Gen3x4 SSD",
+     "cat_name": "এসএসডি",
+     "price": 3800,
+     "store": "ryans",
+     "n": 1
+    }
+   ],
+   "n_new": 8,
+   "gaps": [
+    {
+     "id": "corsair-ex100u-4tb-usb-type-c-storage-portable-solid-state-drive",
+     "name": "Corsair EX100U 4TB USB Type-C Storage Portable Solid State Drive",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 96000,
+     "los": "pqs",
+     "hi": 112000,
+     "his": "ryans",
+     "diff": 16000,
+     "n": 3
+    },
+    {
+     "id": "transcend-esd360c-2tb-usb-3-2-gen-2-type-c-portable-ssd",
+     "name": "Transcend ESD360C 2TB USB 3.2 Gen 2 Type-C Portable SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 37000,
+     "los": "bme",
+     "hi": 45500,
+     "his": "startech",
+     "diff": 8500,
+     "n": 3
+    },
+    {
+     "id": "corsair-mp600-pro-lpx-2tb-m-2-2280-nvme-internal-ssd-f2000gbmp600plp",
+     "name": "CORSAIR MP600 PRO LPX 2TB M.2 2280 NVMe Internal SSD #F2000GBMP600PLP",
+     "cat_name": "এসএসডি",
+     "lo": 59500,
+     "los": "ryans",
+     "hi": 67000,
+     "his": "pqs",
+     "diff": 7500,
+     "n": 2
+    },
+    {
+     "id": "transcend-esd270c-2tb-usb-3-1-gen-2-type-c-external-ssd",
+     "name": "Transcend ESD270C 2TB USB 3.1 Gen 2 Type-C External SSD",
+     "cat_name": "পোর্টেবল এসএসডি",
+     "lo": 33800,
+     "los": "bme",
+     "hi": 40999,
+     "his": "ryans",
+     "diff": 7199,
+     "n": 4
+    },
+    {
+     "id": "msi-spatium-m580-pro-2tb-pcie-5-0-m-2-nvme-ssd-frozr",
+     "name": "MSI SPATIUM M580 PRO 2TB PCIe 5.0 M.2 NVMe SSD FROZR",
+     "cat_name": "এসএসডি",
+     "lo": 44900,
+     "los": "creatus",
+     "hi": 51500,
+     "his": "applegadgets",
+     "diff": 6600,
+     "n": 3
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে এসএসডি · ২১–২৭ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে এসএসডি · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৭৯২টি এসএসডির হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\">−০%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"29\">২৯</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"20\">২০</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">Addlink S90 Lite 512GB M.2 2280 PCIe NVMe S…</text><text x=\"70\" y=\"536\" class=\"sm\">এসএসডি · UltraTech · ৳১২,০০০ → ৳১০,৫০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳১,৫০০ (১২%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">Transcend SSD225S 2TB 2.5 Inch SATAIII SSD</text><text x=\"70\" y=\"624\" class=\"sm\">এসএসডি · Ryans · ৳৩৫,৯০০ → ৳৩৪,৫০০</text><rect x=\"70\" y=\"636\" width=\"523\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"607\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳১,৪০০ (৩.৯%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">Lexar SL500 2TB Portable SSD</text><text x=\"70\" y=\"712\" class=\"sm\">পোর্টেবল এসএসডি · PC House · ৳৪৩,৫০০ → ৳৪২,৩০০</text><rect x=\"70\" y=\"724\" width=\"448\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"532\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳১,২০০ (২.৮%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">Lexar SL500 1TB Type-C 3.2 Gen 2x2 Portable…</text><text x=\"70\" y=\"880\" class=\"sm\">পোর্টেবল এসএসডি · PC House · ৳২৩,৫০০ → ৳২৬,৫০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৩,০০০ (১৩%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">Apacer AS2280Q4L 1TB M.2 2280 Internal SSD…</text><text x=\"70\" y=\"968\" class=\"sm\">এসএসডি · PQS · ৳২২,০০০ → ৳২৪,৭৫০</text><rect x=\"70\" y=\"980\" width=\"513\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"597\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳২,৭৫০ (১২%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">Apacer AS2280Q4U 1TB M.2 2280 NVMe PCIe Gen…</text><text x=\"70\" y=\"1056\" class=\"sm\">এসএসডি · PQS · ৳২২,০০০ → ৳২৪,৭৫০</text><rect x=\"70\" y=\"1068\" width=\"513\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"597\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳২,৭৫০ (১২%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ৮টি এসএসডি</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: OCPC MBL-401 1TB M.2 2280 PCIe Gen4 Internal SSD…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">এসএসডি · সাপ্তাহিক রিপোর্ট · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে এসএসডির গড় দাম −০%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">২৯টির দাম কমেছে, ২০টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">−০%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">২৯</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">২০</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "এসএসডির দাম মোটামুটি স্থির। এখন কেনা আর কিছুদিন পরে কেনায় বড় পার্থক্য হওয়ার সম্ভাবনা কম।",
+  "একই মডেল দোকানভেদে আলাদা দামে বিক্রি হয়, তাই কেনার আগে প্রোডাক্ট পাতায় দাম মিলিয়ে নিন।"
+ ],
+ "label": "এসএসডি · সাপ্তাহিক",
+ "created": "2026-11-27"
+}

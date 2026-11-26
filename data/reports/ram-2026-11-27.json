@@ -1,0 +1,398 @@
+{
+ "id": "ram-2026-11-27",
+ "kind": "week",
+ "cat": "ram",
+ "cat_name": "র‍্যাম",
+ "path": "bazar/ram/2026-11-27",
+ "title": "এই সপ্তাহে র‍্যামের দাম: ২৩টির কমেছে, ৫২টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে র‍্যামের দাম: ২৩টির কমেছে, ৫২টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "date": "2026-11-27",
+ "start": "2026-11-20",
+ "span": "২১–২৭ নভেম্বর ২০২৬",
+ "desc": "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ৭৫টি র‍্যামের দাম বদলেছে: ২৩টির কমেছে, ৫২টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ৬০৫টি র‍্যামের গড় দাম ০.২% বেড়েছে।",
+ "key": [
+  "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ৭৫টি র‍্যামের দাম বদলেছে: ২৩টির কমেছে, ৫২টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ৬০৫টি র‍্যামের গড় দাম ০.২% বেড়েছে।",
+  "সবচেয়ে বেশি কমেছে APACER DDR4 16GB 3200MHZ NOX RGB AURA2 WHITE RAM: ৳৪,৭৫০ (২১%)।",
+  "সবচেয়ে বেশি বেড়েছে G.Skill Trident Z5 RGB 32GB DDR5 5600MHz CL30 Black Desktop…: ৳১৪,০০০ (২২%)।",
+  "সপ্তাহে ৪টি নতুন র‍্যাম দোকানে এসেছে।"
+ ],
+ "idx": 0.22683023989131548,
+ "n_cmp": 605,
+ "tabs": [
+  {
+   "key": "ram",
+   "name": "র‍্যাম",
+   "dn": [
+    {
+     "id": "apacer-ddr4-16gb-3200mhz-nox-rgb-aura2-white-ram",
+     "name": "APACER DDR4 16GB 3200MHZ NOX RGB AURA2 WHITE RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 22500,
+     "new": 17750,
+     "diff": -4750,
+     "pct": -21.11111111111111
+    },
+    {
+     "id": "apacer-16gb-ddr4l-3200mhz-laptop-ram-es-16g21-gsh-as16ggb32csybgh",
+     "name": "Apacer 16GB DDR4L 3200MHz Laptop RAM #ES.16G21.GSH / AS16GGB32CSYBGH",
+     "category": "laptop-ram",
+     "cat_name": "ল্যাপটপ র‍্যাম",
+     "store": "pqs",
+     "old": 21500,
+     "new": 16750,
+     "diff": -4750,
+     "pct": -22.093023255813954
+    },
+    {
+     "id": "apacer-nox-8gb-ddr4-3200mhz-rgb-aura2-dimm-desktop-ram",
+     "name": "APACER NOX 8GB DDR4 3200MHz RGB AURA2 DIMM Desktop Ram",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 13000,
+     "new": 8650,
+     "diff": -4350,
+     "pct": -33.46153846153846
+    },
+    {
+     "id": "apacer-nox-16gb-ddr4-3200mhz-rgb-desktop-ram-ah4u16g32c28ynbaa-1",
+     "name": "Apacer NOX 16GB DDR4 3200MHz RGB Desktop Ram #AH4U16G32C28YNBAA-1",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 21500,
+     "new": 17550,
+     "diff": -3950,
+     "pct": -18.372093023255815
+    },
+    {
+     "id": "team-elite-32gb-ddr5-5600mhz-black-desktop-ram-ted532g5600c4601",
+     "name": "Team ELITE 32GB DDR5 5600MHz Black Desktop RAM #TED532G5600C4601",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "ryans",
+     "old": 61000,
+     "new": 57500,
+     "diff": -3500,
+     "pct": -5.737704918032787
+    },
+    {
+     "id": "apacer-8gb-ddr4l-3200mhz-laptop-ram-es-08g21-gsh-as08ggb32csybgh",
+     "name": "Apacer 8GB DDR4L 3200MHz Laptop RAM #ES.08G21.GSH / AS08GGB32CSYBGH",
+     "category": "laptop-ram",
+     "cat_name": "ল্যাপটপ র‍্যাম",
+     "store": "pqs",
+     "old": 11000,
+     "new": 8050,
+     "diff": -2950,
+     "pct": -26.81818181818182
+    },
+    {
+     "id": "silicon-power-xpower-pulse-32gb-ddr5-6000mhz-cl30-desktop-ram",
+     "name": "Silicon Power XPOWER Pulse 32GB DDR5 6000MHz CL30 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 92000,
+     "new": 90500,
+     "diff": -1500,
+     "pct": -1.6304347826086956
+    },
+    {
+     "id": "aitc-master-16gb-ddr5-6000mhz-cl38-gaming-desktop-ram-with-heatsink",
+     "name": "AITC Master 16GB DDR5 6000MHz CL38 Gaming Desktop RAM With Heatsink",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "ultratech",
+     "old": 30500,
+     "new": 29500,
+     "diff": -1000,
+     "pct": -3.278688524590164
+    },
+    {
+     "id": "gigabyte-aorus-rgb-memory-ddr4-8gb-3733mhz-desktop-ram",
+     "name": "Gigabyte AORUS RGB Memory DDR4 8GB 3733MHz Desktop Ram",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 8500,
+     "new": 7800,
+     "diff": -700,
+     "pct": -8.235294117647058
+    },
+    {
+     "id": "lexar-thor-8gb-ddr4-3200mhz-udimm-desktop-ram",
+     "name": "Lexar THOR 8GB DDR4 3200Mhz UDIMM Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 7999,
+     "new": 7299,
+     "diff": -700,
+     "pct": -8.751093886735841
+    },
+    {
+     "id": "colorful-battle-ax-16gb-ddr5-6000mhz-cl40-desktop-ram",
+     "name": "Colorful Battle-AX 16GB DDR5 6000MHz CL40 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 31999,
+     "new": 31300,
+     "diff": -699,
+     "pct": -2.1844432638519953
+    },
+    {
+     "id": "corsair-vengeance-lpx-16gb-ddr4-dram-3200mhz-ram",
+     "name": "Corsair Vengeance LPX 16GB DDR4 DRAM 3200MHz RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 17500,
+     "new": 16999,
+     "diff": -501,
+     "pct": -2.8628571428571425
+    }
+   ],
+   "up": [
+    {
+     "id": "g-skill-trident-z5-rgb-32gb-ddr5-5600mhz-cl30-black-desktop-ram",
+     "name": "G.Skill Trident Z5 RGB 32GB DDR5 5600MHz CL30 Black Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 65000,
+     "new": 79000,
+     "diff": 14000,
+     "pct": 21.53846153846154
+    },
+    {
+     "id": "g-skill-trident-z5-neo-rgb-32gb-ddr5-6000mhz-cl36-desktop-ram",
+     "name": "G.Skill Trident Z5 Neo RGB 32GB DDR5 6000Mhz CL36 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 72000,
+     "new": 83000,
+     "diff": 11000,
+     "pct": 15.277777777777779
+    },
+    {
+     "id": "g-skill-aegis-5-16gb-ddr5-5600mhz-cl36-desktop-ram",
+     "name": "G-Skill Aegis 5 16GB DDR5 5600MHz CL36 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 32399,
+     "new": 38400,
+     "diff": 6001,
+     "pct": 18.52217661038921
+    },
+    {
+     "id": "g-skill-trident-z5-neo-rgb-16gb-ddr5-6000mhz-cl36-desktop-ram",
+     "name": "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz CL36 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 35000,
+     "new": 40700,
+     "diff": 5700,
+     "pct": 16.28571428571429
+    },
+    {
+     "id": "g-skill-trident-z5-neo-rgb-16gb-ddr5-6000mhz-desktop-ram",
+     "name": "G.Skill Trident Z5 Neo RGB 16GB DDR5 6000Mhz Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 35000,
+     "new": 40700,
+     "diff": 5700,
+     "pct": 16.28571428571429
+    },
+    {
+     "id": "g-skill-ripjaws-s5-16gb-ddr5-6000mhz-cl32-desktop-ram",
+     "name": "G-Skill Ripjaws S5 16GB DDR5 6000Mhz CL32 Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 33900,
+     "new": 39500,
+     "diff": 5600,
+     "pct": 16.519174041297934
+    },
+    {
+     "id": "apacer-panther-16gb-ddr5-6000mhz-gray-black-desktop-ram-ah5u16g60c6227baa-1",
+     "name": "Apacer Panther 16GB DDR5 6000MHz Gray & Black Desktop RAM #AH5U16G60C6227BAA-1",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 31000,
+     "new": 36500,
+     "diff": 5500,
+     "pct": 17.741935483870968
+    },
+    {
+     "id": "g-skill-flare-x5-16gb-ddr5-5600mhz-desktop-ram",
+     "name": "G-Skill Flare X5 16GB DDR5 5600MHz Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 33000,
+     "new": 38300,
+     "diff": 5300,
+     "pct": 16.060606060606062
+    },
+    {
+     "id": "g-skill-trident-z5-16gb-ddr5-5600mhz-cl36-desktop-ram-silver",
+     "name": "G.Skill Trident Z5 16GB DDR5 5600MHz CL36 Desktop RAM Silver",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 34000,
+     "new": 38500,
+     "diff": 4500,
+     "pct": 13.23529411764706
+    },
+    {
+     "id": "apacer-panther-rgb-16gb-ddr5-cl40-6000mhz-heatsink-desktop-ram-gray-black",
+     "name": "Apacer Panther RGB 16GB DDR5 CL40 6000Mhz Heatsink Desktop RAM - Gray & Black",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "pqs",
+     "old": 34000,
+     "new": 38500,
+     "diff": 4500,
+     "pct": 13.23529411764706
+    },
+    {
+     "id": "neo-forza-nmgd516f82-6000li10-16gb-6000mhz-ddr5-rgb-desktop-ram",
+     "name": "Neo Forza NMGD516F82-6000LI10 16GB 6000MHz DDR5 RGB Desktop Ram",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "computervision",
+     "old": 27500,
+     "new": 31800,
+     "diff": 4300,
+     "pct": 15.636363636363637
+    },
+    {
+     "id": "huadisk-8gb-ddr5-5600mhz-desktop-ram",
+     "name": "Huadisk 8GB DDR5 5600MHz Desktop RAM",
+     "category": "desktop-ram",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "store": "startech",
+     "old": 16000,
+     "new": 20000,
+     "diff": 4000,
+     "pct": 25.0
+    }
+   ],
+   "n_dn": 23,
+   "n_up": 52,
+   "new": [
+    {
+     "id": "team-delta-rgb-16gb-ddr5-7200mhz-cl34-gaming-desktop-ram",
+     "name": "TEAM Delta RGB 16GB DDR5 7200MHz CL34 Gaming Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 40999,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "g-skill-ripjaws-s5-16gb-ddr5-6000mhz-cl36-desktop-ram",
+     "name": "G-Skill Ripjaws S5 16GB DDR5 6000Mhz CL36 Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 39500,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "adata-8gb-ddr3l-1600mhz-laptop-ram",
+     "name": "ADATA 8GB DDR3L 1600MHz Laptop RAM",
+     "cat_name": "ল্যাপটপ র‍্যাম",
+     "price": 3000,
+     "store": "fourstar",
+     "n": 1
+    },
+    {
+     "id": "aoaloo-4gb-ddr3-1600mhz-non-ecc-desktop-ram",
+     "name": "AOALOO 4GB DDR3 1600MHz Non-ECC Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "price": 1500,
+     "store": "fourstar",
+     "n": 1
+    }
+   ],
+   "n_new": 4,
+   "gaps": [
+    {
+     "id": "samsung-32gb-ddr5-5600mhz-rdimm-ecc-server-ram",
+     "name": "Samsung 32GB DDR5 5600MHz RDIMM ECC Server RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 150000,
+     "los": "creatus",
+     "hi": 190000,
+     "his": "ryans",
+     "diff": 40000,
+     "n": 2
+    },
+    {
+     "id": "v-color-manta-xsky-rgb-32gb-ddr5-6000mhz-cl30-desktop-ram",
+     "name": "V-Color Manta XSky RGB 32GB DDR5 6000MHz CL30 Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 63000,
+     "los": "pqs",
+     "hi": 74900,
+     "his": "creatus",
+     "diff": 11900,
+     "n": 4
+    },
+    {
+     "id": "g-skill-trident-z5-rgb-32gb-ddr5-5600mhz-desktop-ram",
+     "name": "G.Skill Trident Z5 RGB 32GB DDR5 5600MHz Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 67500,
+     "los": "creatus",
+     "hi": 78000,
+     "his": "startech",
+     "diff": 10500,
+     "n": 3
+    },
+    {
+     "id": "g-skill-trident-z5-neo-rgb-32gb-ddr5-6000mhz-desktop-ram",
+     "name": "G.Skill Trident Z5 Neo RGB 32GB DDR5 6000Mhz Desktop RAM",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 59400,
+     "los": "creatus",
+     "hi": 68000,
+     "his": "pqs",
+     "diff": 8600,
+     "n": 3
+    },
+    {
+     "id": "apacer-panther-16gb-ddr5-6000mhz-gray-black-desktop-ram-ah5u16g60c6227baa-1",
+     "name": "Apacer Panther 16GB DDR5 6000MHz Gray & Black Desktop RAM #AH5U16G60C6227BAA-1",
+     "cat_name": "ডেস্কটপ র‍্যাম",
+     "lo": 33900,
+     "los": "ryans",
+     "hi": 42000,
+     "his": "smartbd",
+     "diff": 8100,
+     "n": 4
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে র‍্যাম · ২১–২৭ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে র‍্যাম · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">৬০৫টি র‍্যামের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\">+০.২%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"23\">২৩</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"52\">৫২</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">APACER DDR4 16GB 3200MHZ NOX RGB AURA2 WHIT…</text><text x=\"70\" y=\"536\" class=\"sm\">ডেস্কটপ র‍্যাম · PQS · ৳২২,৫০০ → ৳১৭,৭৫০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳৪,৭৫০ (২১%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">Apacer 16GB DDR4L 3200MHz Laptop RAM #ES.16…</text><text x=\"70\" y=\"624\" class=\"sm\">ল্যাপটপ র‍্যাম · PQS · ৳২১,৫০০ → ৳১৬,৭৫০</text><rect x=\"70\" y=\"636\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳৪,৭৫০ (২২%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">APACER NOX 8GB DDR4 3200MHz RGB AURA2 DIMM…</text><text x=\"70\" y=\"712\" class=\"sm\">ডেস্কটপ র‍্যাম · PQS · ৳১৩,০০০ → ৳৮,৬৫০</text><rect x=\"70\" y=\"724\" width=\"513\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"597\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳৪,৩৫০ (৩৩%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">G.Skill Trident Z5 RGB 32GB DDR5 5600MHz CL…</text><text x=\"70\" y=\"880\" class=\"sm\">ডেস্কটপ র‍্যাম · PQS · ৳৬৫,০০০ → ৳৭৯,০০০</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳১৪,০০০ (২২%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">G.Skill Trident Z5 Neo RGB 32GB DDR5 6000Mh…</text><text x=\"70\" y=\"968\" class=\"sm\">ডেস্কটপ র‍্যাম · Star Tech · ৳৭২,০০০ → ৳৮৩,০০০</text><rect x=\"70\" y=\"980\" width=\"440\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"524\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳১১,০০০ (১৫%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">G-Skill Aegis 5 16GB DDR5 5600MHz CL36 Desk…</text><text x=\"70\" y=\"1056\" class=\"sm\">ডেস্কটপ র‍্যাম · Star Tech · ৳৩২,৩৯৯ → ৳৩৮,৪০০</text><rect x=\"70\" y=\"1068\" width=\"240\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"324\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৬,০০১ (১৯%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ৪টি র‍্যাম</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: TEAM Delta RGB 16GB DDR5 7200MHz CL34 Gaming Desk…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">র‍্যাম · সাপ্তাহিক রিপোর্ট · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে র‍্যামের গড় দাম +০.২%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">২৩টির দাম কমেছে, ৫২টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০.২%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">২৩</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৫২</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "র‍্যামের দাম বাড়ার দিকে। জরুরি দরকার হলে দেরি না করে কম দামের দোকান থেকে কিনে নেওয়া ভালো।",
+  "জরুরি না হলে প্রোডাক্ট পাতায় \"দাম কমলে জানান\" চালু রেখে অপেক্ষা করতে পারেন।"
+ ],
+ "label": "র‍্যাম · সাপ্তাহিক",
+ "created": "2026-11-27"
+}

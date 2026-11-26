@@ -1,0 +1,430 @@
+{
+ "id": "monitor-2026-11-27",
+ "kind": "week",
+ "cat": "monitor",
+ "cat_name": "মনিটর",
+ "path": "bazar/monitor/2026-11-27",
+ "title": "এই সপ্তাহে মনিটরের দাম: ১৪০টির কমেছে, ১২১টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "h1": "এই সপ্তাহে মনিটরের দাম: ১৪০টির কমেছে, ১২১টির বেড়েছে (২১–২৭ নভেম্বর ২০২৬)",
+ "date": "2026-11-27",
+ "start": "2026-11-20",
+ "span": "২১–২৭ নভেম্বর ২০২৬",
+ "desc": "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ২৬১টি মনিটরের দাম বদলেছে: ১৪০টির কমেছে, ১২১টির বেড়েছে। দুই সপ্তাহেই স্টকে থাকা ১,১৩৭টি মনিটরের গড় দাম প্রায় একই আছে।",
+ "key": [
+  "২১–২৭ নভেম্বর ২০২৬ সপ্তাহে ২৬১টি মনিটরের দাম বদলেছে: ১৪০টির কমেছে, ১২১টির বেড়েছে।",
+  "দুই সপ্তাহেই স্টকে থাকা ১,১৩৭টি মনিটরের গড় দাম প্রায় একই আছে।",
+  "সবচেয়ে বেশি কমেছে ASUS ROG Swift OLED PG27AQWP-G Edition 20 27 Inch 2K QHD 54…: ৳১৫,৫০০ (৭.৯%)।",
+  "সবচেয়ে বেশি বেড়েছে ASUS ProArt Display PA32QCV 32\" 6K Professional Monitor: ৳৫,০০০ (২.৬%)।",
+  "সপ্তাহে ১৬টি নতুন মনিটর দোকানে এসেছে।"
+ ],
+ "idx": 0.028729585101740198,
+ "n_cmp": 1137,
+ "tabs": [
+  {
+   "key": "monitor",
+   "name": "মনিটর",
+   "dn": [
+    {
+     "id": "asus-rog-swift-oled-pg27aqwp-g-edition-20-27-inch-2k-qhd-540hz-tandem-oled-gamin",
+     "name": "ASUS ROG Swift OLED PG27AQWP-G Edition 20 27 Inch 2K QHD 540Hz Tandem OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 197000,
+     "new": 181500,
+     "diff": -15500,
+     "pct": -7.868020304568528
+    },
+    {
+     "id": "msi-mag-272qp-qd-oled-x24-27-inch-1440p-wqhd-240hz-qd-oled-gaming-monitor",
+     "name": "MSI MAG 272QP QD-OLED X24 27 Inch 1440p WQHD 240Hz QD-OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 82500,
+     "new": 70000,
+     "diff": -12500,
+     "pct": -15.151515151515152
+    },
+    {
+     "id": "msi-mag-272qp-qd-oled-x24-2k-wqhd-240hz-gaming-monitor",
+     "name": "MSI MAG 272QP QD-OLED X24 2K WQHD 240Hz Gaming Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 81499,
+     "new": 70000,
+     "diff": -11499,
+     "pct": -14.109375575160431
+    },
+    {
+     "id": "msi-modern-md272upsw-27-60hz-4k-uhd-smart-monitor",
+     "name": "MSI Modern MD272UPSW 27\" 60Hz 4K UHD Smart Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "pqs",
+     "old": 69000,
+     "new": 60800,
+     "diff": -8200,
+     "pct": -11.884057971014492
+    },
+    {
+     "id": "asus-proart-display-pa279cv-27-4k-uhd-ips-professional-monitor",
+     "name": "Asus ProArt Display PA279CV 27\" 4K UHD IPS Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "computervision",
+     "old": 71000,
+     "new": 63000,
+     "diff": -8000,
+     "pct": -11.267605633802818
+    },
+    {
+     "id": "asus-vt229h-21-5-inch-full-hd-ips-touch-monitor",
+     "name": "ASUS VT229H 21.5 inch Full HD IPS Touch Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "pqs",
+     "old": 47200,
+     "new": 39999,
+     "diff": -7201,
+     "pct": -15.25635593220339
+    },
+    {
+     "id": "asus-rog-swift-pg259qnr-24-5-360hz-fhd-esports-g-sync-gaming-monitor",
+     "name": "Asus ROG Swift PG259QNR 24.5\" 360Hz FHD eSports G-SYNC Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "computervision",
+     "old": 101000,
+     "new": 96049,
+     "diff": -4951,
+     "pct": -4.901980198019802
+    },
+    {
+     "id": "pc-power-pcg27q200dw-27-2k-qhd-200hz-gaming-monitor",
+     "name": "PC Power PCG27Q200DW 27\" 2K QHD 200Hz Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 24000,
+     "new": 19299,
+     "diff": -4701,
+     "pct": -19.5875
+    },
+    {
+     "id": "gigabyte-g27q20-27-2k-qhd-210hz-ips-gaming-monitor",
+     "name": "Gigabyte G27Q20 27\" 2K QHD 210Hz IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 36000,
+     "new": 32000,
+     "diff": -4000,
+     "pct": -11.11111111111111
+    },
+    {
+     "id": "samsung-odyssey-g9-ls49dg930sw-49-240hz-oled-curved-gaming-monitor",
+     "name": "Samsung ODYSSEY G9 LS49DG930SW 49\" 240Hz OLED Curved Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 185000,
+     "new": 181000,
+     "diff": -4000,
+     "pct": -2.1621621621621623
+    },
+    {
+     "id": "asus-rog-strix-oled-xg27uqdms-26-5-4k-uhd-240hz-qd-oled-gaming-monitor",
+     "name": "ASUS ROG Strix OLED XG27UQDMS 26.5” 4K UHD 240Hz QD-OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 175000,
+     "new": 171499,
+     "diff": -3501,
+     "pct": -2.0005714285714284
+    },
+    {
+     "id": "asus-rog-swift-oled-pg27aqwp-g-26-5-540hz-2k-qhd-dual-mode-oled-gaming-monitor",
+     "name": "ASUS ROG Swift OLED PG27AQWP-G 26.5\" 540Hz 2K QHD Dual-Mode OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 185000,
+     "new": 181499,
+     "diff": -3501,
+     "pct": -1.8924324324324324
+    }
+   ],
+   "up": [
+    {
+     "id": "asus-proart-display-pa32qcv-32-6k-professional-monitor",
+     "name": "ASUS ProArt Display PA32QCV 32\" 6K Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 191499,
+     "new": 196499,
+     "diff": 5000,
+     "pct": 2.6109796917999573
+    },
+    {
+     "id": "asus-proart-pa34vcnv-34-1440p-ultrawide-curved-professional-monitor",
+     "name": "ASUS ProArt PA34VCNV 34'' 1440P Ultrawide Curved Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "ryans",
+     "old": 102300,
+     "new": 106500,
+     "diff": 4200,
+     "pct": 4.105571847507331
+    },
+    {
+     "id": "asus-proart-display-pa279cdv-27-inch-professional-monitor",
+     "name": "ASUS ProArt Display PA279CDV 27-inch Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 127499,
+     "new": 131499,
+     "diff": 4000,
+     "pct": 3.137279508074573
+    },
+    {
+     "id": "asus-rog-swift-360hz-pg259qn-24-5-1ms-g-sync-fhd-gaming-monitor",
+     "name": "ASUS ROG Swift 360Hz PG259QN 24.5\" 1ms G-Sync FHD Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 89299,
+     "new": 93199,
+     "diff": 3900,
+     "pct": 4.367350138299421
+    },
+    {
+     "id": "asus-rog-swift-pg259qnr-25-inch-24-5-inch-viewable-fhd-dp-hdmi-usb-gaming-monito",
+     "name": "ASUS ROG Swift PG259QNR 25 Inch (24.5 Inch Viewable) FHD DP HDMI USB Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 97000,
+     "new": 100000,
+     "diff": 3000,
+     "pct": 3.0927835051546393
+    },
+    {
+     "id": "aoc-q25g4s-24-5-320hz-2k-qhd-fast-ips-gaming-monitor",
+     "name": "AOC Q25G4S 24.5\" 320Hz 2K QHD Fast IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 29999,
+     "new": 32900,
+     "diff": 2901,
+     "pct": 9.670322344078135
+    },
+    {
+     "id": "asus-rog-swift-oled-pg27aqwp-w-27-540hz-2k-qhd-dual-mode-gaming-monitor",
+     "name": "ASUS ROG Swift OLED PG27AQWP-W 27\" 540Hz 2K QHD Dual-Mode Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 166699,
+     "new": 169499,
+     "diff": 2800,
+     "pct": 1.679674143216216
+    },
+    {
+     "id": "asus-proart-display-pa27jcv-27-5k-professional-monitor",
+     "name": "ASUS ProArt Display PA27JCV 27\" 5K Professional Monitor",
+     "category": "monitor-all",
+     "cat_name": "মনিটর",
+     "store": "startech",
+     "old": 114999,
+     "new": 117499,
+     "diff": 2500,
+     "pct": 2.173931947234324
+    },
+    {
+     "id": "gigabyte-m27q2-qd-ice-27-200hz-qhd-ips-gaming-monitor",
+     "name": "GIGABYTE M27Q2 QD ICE 27\" 200Hz QHD IPS Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "ryans",
+     "old": 35000,
+     "new": 37500,
+     "diff": 2500,
+     "pct": 7.142857142857142
+    },
+    {
+     "id": "asus-rog-strix-xg27ucg-27-ips-4k-uhd-dual-mode-gaming-monitor",
+     "name": "Asus ROG Strix XG27UCG 27\" IPS 4K UHD Dual Mode Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "startech",
+     "old": 68699,
+     "new": 70999,
+     "diff": 2300,
+     "pct": 3.347938106813782
+    },
+    {
+     "id": "gigabyte-aorus-fo32u2p-31-5-4k-uhd-240hz-oled-gaming-monitor",
+     "name": "Gigabyte AORUS FO32U2P 31.5\" 4K UHD 240Hz OLED Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "pqs",
+     "old": 154950,
+     "new": 157000,
+     "diff": 2050,
+     "pct": 1.3230074217489511
+    },
+    {
+     "id": "gigabyte-mo34wqc2-34-wqhd-240hz-oled-curved-gaming-monitor",
+     "name": "Gigabyte MO34WQC2 34\" WQHD 240Hz OLED Curved Gaming Monitor",
+     "category": "gaming-monitor",
+     "cat_name": "গেমিং মনিটর",
+     "store": "pqs",
+     "old": 154950,
+     "new": 157000,
+     "diff": 2050,
+     "pct": 1.3230074217489511
+    }
+   ],
+   "n_dn": 140,
+   "n_up": 121,
+   "new": [
+    {
+     "id": "msi-pro-mp275q-e14-27-inch-wqhd-hdmi-dp-professional-monitor",
+     "name": "MSI PRO MP275Q E14 27 Inch WQHD HDMI DP Professional Monitor",
+     "cat_name": "মনিটর",
+     "price": 25000,
+     "store": "ryans",
+     "n": 2
+    },
+    {
+     "id": "benq-pd3205u-eye-care-32-inch-31-5-inch-viewable-4k-uhd-hdmi-dp-usb-c-gray",
+     "name": "BenQ PD3205U Eye Care 32 Inch (31.5 Inch Viewable) 4K UHD HDMI, DP, USB-C Gray Monitor",
+     "cat_name": "মনিটর",
+     "price": 87000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "titan-army-p2721v-ultra-27-4k-200hz-dual-mode-ips-gaming-monitor",
+     "name": "Titan Army P2721V ULTRA 27\" 4K 200Hz Dual Mode IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 60000,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "titan-army-p275mv-plus-27-4k-uhd-160hz-dual-mode-ips-gaming-monitor",
+     "name": "Titan Army P275MV PLUS 27\" 4K UHD 160Hz Dual Mode IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 57000,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "thunderobot-dq27f240e-se-27-240hz-2k-qhd-qd-oled-gaming-monitor",
+     "name": "ThundeRobot DQ27F240E-SE 27\" 240Hz 2K QHD QD-OLED Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 50000,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "koorui-34e6uc-34-inch-3k-uwqhd-3440x1440-va-180hz-curved-hdmi-dp-gaming-monitor",
+     "name": "KOORUI 34E6UC 34 Inch 3K UWQHD (3440x1440) VA 180Hz Curved HDMI, DP Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 46000,
+     "store": "ryans",
+     "n": 1
+    },
+    {
+     "id": "titan-army-p34ug-plus-34-2k-uwqhd-180hz-ultrawide-ips-gaming-monitor",
+     "name": "Titan Army P34UG PLUS 34\" 2K UWQHD 180Hz Ultrawide IPS Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 44000,
+     "store": "startech",
+     "n": 1
+    },
+    {
+     "id": "machenike-cf25f300m-24-5-320hz-fhd-qd-mini-led-gaming-monitor",
+     "name": "Machenike CF25F300M 24.5\" 320Hz FHD QD-Mini LED Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "price": 27000,
+     "store": "startech",
+     "n": 1
+    }
+   ],
+   "n_new": 16,
+   "gaps": [
+    {
+     "id": "gigabyte-mo34wqc2-34-wqhd-240hz-oled-curved-gaming-monitor",
+     "name": "Gigabyte MO34WQC2 34\" WQHD 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 129800,
+     "los": "startech",
+     "hi": 160000,
+     "his": "smartbd",
+     "diff": 30200,
+     "n": 7
+    },
+    {
+     "id": "viewsonic-xg272-2k-oled-27-qhd-240hz-type-c-gaming-monitor",
+     "name": "ViewSonic XG272-2K-OLED 27\" QHD 240Hz Type-C Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 81000,
+     "los": "startech",
+     "hi": 104500,
+     "his": "computervision",
+     "diff": 23500,
+     "n": 5
+    },
+    {
+     "id": "benq-ma320u-32-4k-uhd-ips-monitor-for-macbook",
+     "name": "BenQ MA320U 32\" 4K UHD IPS Monitor for MacBook",
+     "cat_name": "মনিটর",
+     "lo": 85500,
+     "los": "pqs",
+     "hi": 102000,
+     "his": "smartbd",
+     "diff": 16500,
+     "n": 6
+    },
+    {
+     "id": "lg-ultragear-34gs95qe-b-34-240hz-oled-curved-gaming-monitor",
+     "name": "LG UltraGear 34GS95QE-B 34\" 240Hz OLED Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 251999,
+     "los": "startech",
+     "hi": 267000,
+     "his": "pqs",
+     "diff": 15001,
+     "n": 8
+    },
+    {
+     "id": "aoc-agon-ag493qcx-49-dual-fhd-144hz-va-curved-gaming-monitor",
+     "name": "AOC AGON AG493QCX 49\" Dual FHD 144Hz VA Curved Gaming Monitor",
+     "cat_name": "গেমিং মনিটর",
+     "lo": 121400,
+     "los": "selltech",
+     "hi": 135000,
+     "his": "bme",
+     "diff": 13600,
+     "n": 5
+    }
+   ]
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1378\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"এই সপ্তাহে মনিটর · ২১–২৭ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1378\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">এই সপ্তাহে মনিটর · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">১,১৩৭টি মনিটরের হিসাব</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"220\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\">+০%</text><text x=\"220\" y=\"345\" text-anchor=\"middle\" class=\"lab\">গড় দাম</text><text x=\"220\" y=\"373\" text-anchor=\"middle\" class=\"sm\">আগের সপ্তাহের তুলনায়</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"390\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"540\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\" data-n=\"140\">১৪০</text><text x=\"540\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম কমেছে ▼</text><text x=\"540\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><g class=\"tile\" style=\"--d:0.37s\"><rect x=\"710\" y=\"200\" width=\"300\" height=\"190\" rx=\"22\" fill=\"#b4472f\" opacity=\".13\"/><text x=\"860\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#b4472f\" data-n=\"121\">১২১</text><text x=\"860\" y=\"345\" text-anchor=\"middle\" class=\"lab\">দাম বেড়েছে ▲</text><text x=\"860\" y=\"373\" text-anchor=\"middle\" class=\"sm\">প্রোডাক্ট</text></g><text x=\"70\" y=\"460\" class=\"sec\">সবচেয়ে বেশি কমেছে</text><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"510\" class=\"nm\">ASUS ROG Swift OLED PG27AQWP-G Edition 20 2…</text><text x=\"70\" y=\"536\" class=\"sm\">গেমিং মনিটর · Ryans · ৳১৯৭,০০০ → ৳১৮১,৫০০</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">−৳১৫,৫০০ (৭.৯%)</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"598\" class=\"nm\">MSI MAG 272QP QD-OLED X24 27 Inch 1440p WQH…</text><text x=\"70\" y=\"624\" class=\"sm\">গেমিং মনিটর · Ryans · ৳৮২,৫০০ → ৳৭০,০০০</text><rect x=\"70\" y=\"636\" width=\"452\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"536\" y=\"653\" class=\"val\" fill=\"#1d7a52\">−৳১২,৫০০ (১৫%)</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"686\" class=\"nm\">MSI MAG 272QP QD-OLED X24 2K WQHD 240Hz Gam…</text><text x=\"70\" y=\"712\" class=\"sm\">মনিটর · Star Tech · ৳৮১,৪৯৯ → ৳৭০,০০০</text><rect x=\"70\" y=\"724\" width=\"415\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"499\" y=\"741\" class=\"val\" fill=\"#1d7a52\">−৳১১,৪৯৯ (১৪%)</text></g><text x=\"70\" y=\"804\" class=\"sec\">সবচেয়ে বেশি বেড়েছে</text><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"854\" class=\"nm\">ASUS ProArt Display PA32QCV 32&quot; 6K Professi…</text><text x=\"70\" y=\"880\" class=\"sm\">মনিটর · Star Tech · ৳১৯১,৪৯৯ → ৳১৯৬,৪৯৯</text><rect x=\"70\" y=\"892\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"644\" y=\"909\" class=\"val\" fill=\"#b4472f\">+৳৫,০০০ (২.৬%)</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"942\" class=\"nm\">ASUS ProArt PA34VCNV 34&#x27;&#x27; 1440P Ultrawide C…</text><text x=\"70\" y=\"968\" class=\"sm\">মনিটর · Ryans · ৳১০২,৩০০ → ৳১০৬,৫০০</text><rect x=\"70\" y=\"980\" width=\"470\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"554\" y=\"997\" class=\"val\" fill=\"#b4472f\">+৳৪,২০০ (৪.১%)</text></g><g class=\"row\" style=\"--d:0.91s\"><text x=\"70\" y=\"1030\" class=\"nm\">ASUS ProArt Display PA279CDV 27-inch Profes…</text><text x=\"70\" y=\"1056\" class=\"sm\">মনিটর · Star Tech · ৳১২৭,৪৯৯ → ৳১৩১,৪৯৯</text><rect x=\"70\" y=\"1068\" width=\"448\" height=\"20\" rx=\"10\" fill=\"#b4472f\" class=\"bar\"/><text x=\"532\" y=\"1085\" class=\"val\" fill=\"#b4472f\">+৳৪,০০০ (৩.১%)</text></g><g class=\"tile\" style=\"--d:1.00s\"><rect x=\"70\" y=\"1138\" width=\"940\" height=\"110\" rx=\"22\" fill=\"#fbefdc\"/><text x=\"110\" y=\"1185\" class=\"trend\">নতুন এসেছে ১৬টি মনিটর</text><text x=\"110\" y=\"1220\" class=\"sm\">সবচেয়ে দামি নতুন মডেল: MSI PRO MP275Q E14 27 Inch WQHD HDMI DP Professio…</text></g><line x1=\"70\" y1=\"1298\" x2=\"1010\" y2=\"1298\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1341\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1341\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">মনিটর · সাপ্তাহিক রিপোর্ট · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"56\" font-weight=\"700\" fill=\"#fff\">এই সপ্তাহে মনিটরের গড় দাম +০%</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">১৪০টির দাম কমেছে, ১২১টির বেড়েছে</text><rect x=\"70\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"235\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">+০%</text><text x=\"235\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">গড় দাম</text><rect x=\"435\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"600\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১৪০</text><text x=\"600\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম কমেছে ▼</text><rect x=\"800\" y=\"300\" width=\"330\" height=\"200\" rx=\"22\" fill=\"#b4472f\"/><text x=\"965\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১২১</text><text x=\"965\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">দাম বেড়েছে ▲</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "মনিটরের দাম মোটামুটি স্থির। এখন কেনা আর কিছুদিন পরে কেনায় বড় পার্থক্য হওয়ার সম্ভাবনা কম।",
+  "একই মডেল দোকানভেদে আলাদা দামে বিক্রি হয়, তাই কেনার আগে প্রোডাক্ট পাতায় দাম মিলিয়ে নিন।"
+ ],
+ "label": "মনিটর · সাপ্তাহিক",
+ "created": "2026-11-27"
+}

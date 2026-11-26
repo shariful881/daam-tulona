@@ -1,0 +1,135 @@
+{
+ "id": "deal-2026-11-27",
+ "kind": "deals",
+ "path": "bazar/deal/2026-11-27",
+ "title": "সপ্তাহের সেরা ১০ ডিল: ঠিক দোকান বাছলে বাঁচবে সর্বোচ্চ ৳৩৩,৯০০ (২১–২৭ নভেম্বর ২০২৬)",
+ "h1": "সপ্তাহের সেরা ১০ ডিল: ঠিক দোকান বাছলে বাঁচবে সর্বোচ্চ ৳৩৩,৯০০ (২১–২৭ নভেম্বর ২০২৬)",
+ "date": "2026-11-27",
+ "span": "২১–২৭ নভেম্বর ২০২৬",
+ "desc": "এই সপ্তাহে একাধিক দোকানে পাওয়া যায় এমন প্রোডাক্টের মধ্যে ১০টি বাছাই করেছি, যেখানে দোকান বাছাইয়ে সবচেয়ে বেশি টাকা বাঁচে। সবচেয়ে বড় পার্থক্য HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop-এ: ৳৩৩,৯০০।",
+ "key": [
+  "এই সপ্তাহে একাধিক দোকানে পাওয়া যায় এমন প্রোডাক্টের মধ্যে ১০টি বাছাই করেছি, যেখানে দোকান বাছাইয়ে সবচেয়ে বেশি টাকা বাঁচে।",
+  "সবচেয়ে বড় পার্থক্য HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop-এ: ৳৩৩,৯০০।",
+  "এই ১০টিতে মোট পার্থক্য ৳১২৯,২০১।"
+ ],
+ "deals": [
+  {
+   "id": "hp-probook-440-g11-core-ultra-7-14-fhd-laptop",
+   "name": "HP ProBook 440 G11 Core Ultra 7 14\" FHD Laptop",
+   "cat_name": "ল্যাপটপ",
+   "lo": 114000,
+   "los": "bme",
+   "hi": 147900,
+   "his": "selltech",
+   "diff": 33900,
+   "n": 8
+  },
+  {
+   "id": "epson-workforce-ds-770ii-color-duplex-document-scanner",
+   "name": "EPSON WorkForce DS-770II Color Duplex Document Scanner",
+   "cat_name": "স্ক্যানার",
+   "lo": 60000,
+   "los": "ryans",
+   "hi": 75400,
+   "his": "eerna",
+   "diff": 15400,
+   "n": 8
+  },
+  {
+   "id": "lg-ultragear-34gs95qe-b-34-240hz-oled-curved-gaming-monitor",
+   "name": "LG UltraGear 34GS95QE-B 34\" 240Hz OLED Curved Gaming Monitor",
+   "cat_name": "গেমিং মনিটর",
+   "lo": 251999,
+   "los": "startech",
+   "hi": 267000,
+   "his": "pqs",
+   "diff": 15001,
+   "n": 8
+  },
+  {
+   "id": "epson-workforce-ds-60000-a3-flatbed-document-scanner-with-duplex-adf",
+   "name": "Epson WorkForce DS-60000 A3 Flatbed Document Scanner with Duplex ADF",
+   "cat_name": "স্ক্যানার",
+   "lo": 345000,
+   "los": "pqs",
+   "hi": 360000,
+   "his": "ryans",
+   "diff": 15000,
+   "n": 8
+  },
+  {
+   "id": "toshiba-e-studio-2523ad-duplex-multifunction-photocopier",
+   "name": "Toshiba e-Studio 2523AD Duplex Multifunction Photocopier",
+   "cat_name": "ফটোকপিয়ার",
+   "lo": 54800,
+   "los": "fourstar",
+   "hi": 66800,
+   "his": "creatus",
+   "diff": 12000,
+   "n": 9
+  },
+  {
+   "id": "intel-core-i7-14700-14th-gen-raptor-lake-processor",
+   "name": "Intel Core i7 14700 14th Gen Raptor Lake Processor",
+   "cat_name": "প্রসেসর",
+   "lo": 37000,
+   "los": "creatus",
+   "hi": 45600,
+   "his": "eerna",
+   "diff": 8600,
+   "n": 9
+  },
+  {
+   "id": "epson-ds-1630-flatbed-and-sheet-fed-color-legal-document-scanner-with-adf",
+   "name": "Epson DS-1630 Flatbed and Sheet Fed Color Legal Document Scanner with ADF",
+   "cat_name": "স্ক্যানার",
+   "lo": 27300,
+   "los": "fourstar",
+   "hi": 35000,
+   "his": "eerna",
+   "diff": 7700,
+   "n": 8
+  },
+  {
+   "id": "vivitek-dx330-4000-lumens-xga-dlp-projector",
+   "name": "Vivitek DX330 4000 Lumens XGA DLP Projector",
+   "cat_name": "প্রজেক্টর",
+   "lo": 42000,
+   "los": "pqs",
+   "hi": 49500,
+   "his": "bme",
+   "diff": 7500,
+   "n": 8
+  },
+  {
+   "id": "intel-12th-gen-core-i7-12700-alder-lake-processor",
+   "name": "Intel 12th Gen Core i7-12700 Alder Lake Processor",
+   "cat_name": "প্রসেসর",
+   "lo": 29600,
+   "los": "startech",
+   "hi": 37000,
+   "his": "ultratech",
+   "diff": 7400,
+   "n": 8
+  },
+  {
+   "id": "intel-core-i5-14600k-14th-gen-raptor-lake-processor",
+   "name": "Intel Core i5 14600K 14th Gen Raptor Lake Processor",
+   "cat_name": "প্রসেসর",
+   "lo": 25800,
+   "los": "startech",
+   "hi": 32500,
+   "his": "bme",
+   "diff": 6700,
+   "n": 8
+  }
+ ],
+ "svg": "<svg viewBox=\"0 0 1080 1158\" xmlns=\"http://www.w3.org/2000/svg\" class=\"ig\" role=\"img\" aria-label=\"সপ্তাহের সেরা ডিল · ২১–২৭ নভেম্বর ২০২৬\"><rect width=\"1080\" height=\"1158\" fill=\"#f7faf9\"/><rect width=\"1080\" height=\"150\" fill=\"#12302c\"/><text x=\"70\" y=\"78\" class=\"brand\">দামতুলনা</text><text x=\"70\" y=\"118\" class=\"hsub\">সপ্তাহের সেরা ডিল · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"98\" text-anchor=\"end\" class=\"hsub2\">একই প্রোডাক্ট, আলাদা দাম</text><g class=\"tile\" style=\"--d:0.19s\"><rect x=\"70\" y=\"200\" width=\"460\" height=\"190\" rx=\"22\" fill=\"#c97a12\" opacity=\".13\"/><text x=\"300\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#c97a12\" data-n=\"10\">১০</text><text x=\"300\" y=\"345\" text-anchor=\"middle\" class=\"lab\">বাছাই করা ডিল</text><text x=\"300\" y=\"373\" text-anchor=\"middle\" class=\"sm\">একাধিক দোকানে আছে</text></g><g class=\"tile\" style=\"--d:0.28s\"><rect x=\"550\" y=\"200\" width=\"460\" height=\"190\" rx=\"22\" fill=\"#1d7a52\" opacity=\".13\"/><text x=\"780\" y=\"300\" text-anchor=\"middle\" class=\"big\" fill=\"#1d7a52\">৳৩৩,৯০০</text><text x=\"780\" y=\"345\" text-anchor=\"middle\" class=\"lab\">সর্বোচ্চ সাশ্রয়</text><text x=\"780\" y=\"373\" text-anchor=\"middle\" class=\"sm\">একটি প্রোডাক্টে</text></g><text x=\"70\" y=\"460\" class=\"sec\">দোকান বাছাইয়ে কত বাঁচবে</text><g class=\"row\" style=\"--d:0.37s\"><text x=\"70\" y=\"510\" class=\"nm\">HP ProBook 440 G11 Core Ultra 7 14&quot; FHD Lap…</text><text x=\"70\" y=\"536\" class=\"sm\">ল্যাপটপ · সবচেয়ে কম ৳১১৪,০০০ BME-এ</text><rect x=\"70\" y=\"548\" width=\"560\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"644\" y=\"565\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳৩৩,৯০০</text></g><g class=\"row\" style=\"--d:0.46s\"><text x=\"70\" y=\"598\" class=\"nm\">EPSON WorkForce DS-770II Color Duplex Docum…</text><text x=\"70\" y=\"624\" class=\"sm\">স্ক্যানার · সবচেয়ে কম ৳৬০,০০০ Ryans-এ</text><rect x=\"70\" y=\"636\" width=\"254\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"338\" y=\"653\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳১৫,৪০০</text></g><g class=\"row\" style=\"--d:0.55s\"><text x=\"70\" y=\"686\" class=\"nm\">LG UltraGear 34GS95QE-B 34&quot; 240Hz OLED Curv…</text><text x=\"70\" y=\"712\" class=\"sm\">গেমিং মনিটর · সবচেয়ে কম ৳২৫১,৯৯৯ Star Tech-এ</text><rect x=\"70\" y=\"724\" width=\"248\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"332\" y=\"741\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳১৫,০০১</text></g><g class=\"row\" style=\"--d:0.64s\"><text x=\"70\" y=\"774\" class=\"nm\">Epson WorkForce DS-60000 A3 Flatbed Documen…</text><text x=\"70\" y=\"800\" class=\"sm\">স্ক্যানার · সবচেয়ে কম ৳৩৪৫,০০০ PQS-এ</text><rect x=\"70\" y=\"812\" width=\"248\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"332\" y=\"829\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳১৫,০০০</text></g><g class=\"row\" style=\"--d:0.73s\"><text x=\"70\" y=\"862\" class=\"nm\">Toshiba e-Studio 2523AD Duplex Multifunctio…</text><text x=\"70\" y=\"888\" class=\"sm\">ফটোকপিয়ার · সবচেয়ে কম ৳৫৪,৮০০ Four Star IT-এ</text><rect x=\"70\" y=\"900\" width=\"198\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"282\" y=\"917\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳১২,০০০</text></g><g class=\"row\" style=\"--d:0.82s\"><text x=\"70\" y=\"950\" class=\"nm\">Intel Core i7 14700 14th Gen Raptor Lake Pr…</text><text x=\"70\" y=\"976\" class=\"sm\">প্রসেসর · সবচেয়ে কম ৳৩৭,০০০ Creatus-এ</text><rect x=\"70\" y=\"988\" width=\"142\" height=\"20\" rx=\"10\" fill=\"#1d7a52\" class=\"bar\"/><text x=\"226\" y=\"1005\" class=\"val\" fill=\"#1d7a52\">বাঁচবে ৳৮,৬০০</text></g><line x1=\"70\" y1=\"1078\" x2=\"1010\" y2=\"1078\" stroke=\"#d6e0dd\" stroke-width=\"2\"/><text x=\"70\" y=\"1121\" class=\"foot\">উৎস: দামতুলনা বিশ্লেষণ · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"1010\" y=\"1121\" text-anchor=\"end\" class=\"foot b\">damtulona.com</text></svg>",
+ "card": "<svg viewBox=\"0 0 1200 630\" width=\"1200\" height=\"630\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Hind Siliguri\"><rect width=\"1200\" height=\"630\" fill=\"#12302c\"/><rect y=\"560\" width=\"1200\" height=\"70\" fill=\"#0c2421\"/><text x=\"70\" y=\"100\" font-size=\"32\" font-weight=\"600\" fill=\"#f3c98a\">সপ্তাহের সেরা ডিল · ২১–২৭ নভেম্বর ২০২৬</text><text x=\"70\" y=\"180\" font-size=\"46\" font-weight=\"700\" fill=\"#fff\">ঠিক দোকান বাছলে বাঁচবে ৳৩৩,৯০০ পর্যন্ত</text><text x=\"70\" y=\"245\" font-size=\"34\" font-weight=\"500\" fill=\"#cfe0dc\">একই প্রোডাক্ট, দোকানভেদে আলাদা দাম</text><rect x=\"70\" y=\"300\" width=\"512\" height=\"200\" rx=\"22\" fill=\"#c97a12\"/><text x=\"326\" y=\"410\" font-size=\"84\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">১০</text><text x=\"326\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">বাছাই করা ডিল</text><rect x=\"618\" y=\"300\" width=\"512\" height=\"200\" rx=\"22\" fill=\"#1d7a52\"/><text x=\"874\" y=\"410\" font-size=\"64\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">৳৩৩,৯০০</text><text x=\"874\" y=\"465\" font-size=\"30\" font-weight=\"600\" fill=\"#fff\" text-anchor=\"middle\" opacity=\".9\">সর্বোচ্চ সাশ্রয়</text><text x=\"70\" y=\"604\" font-size=\"26\" fill=\"#cfe0dc\">দামতুলনা বিশ্লেষণ</text><text x=\"1130\" y=\"604\" font-size=\"30\" font-weight=\"700\" fill=\"#f3c98a\" text-anchor=\"end\">damtulona.com</text></svg>",
+ "advice": [
+  "দাম প্রতিদিন বদলায়। কেনার আগে প্রোডাক্ট পাতায় আজকের দাম দেখে নিন।",
+  "দামের পাশাপাশি ওয়ারেন্টি আর দোকানের রিটার্ন নীতিও মিলিয়ে নিন (প্রোডাক্ট পাতায় দেওয়া আছে)।"
+ ],
+ "label": "সপ্তাহের ডিল",
+ "created": "2026-11-27"
+}
