@@ -1,0 +1,34 @@
+{
+ "specs": {
+  "Key Features": {
+   "Capacity": "1TB",
+   "Form Factor": "M.2 2280",
+   "Interface": "PCIe Gen4 x4 (NVMe 1.4)",
+   "Flash Type": "3D NAND",
+   "MTBF": ">1,600,000 hours",
+   "Sequential R/W": "Up to 7,400 MB/s (Read) / Up to 7,000 MB/s (Write) (1TB model rated up to 7,300 / 6,000 MB/s in official spec sheet)",
+   "TBW": "20Hz~80Hz / 1.52mm (Frequency/Displacement)\n80Hz~2000Hz / 20G (Frequency/Acceleration)",
+   "IOPs (4K Random Write)": "Up to 1,000,000 IOPS",
+   "Humidity": "5% ~ 95% RH (Non-condensing)",
+   "Voltage": "3.3V ± 5%"
+  },
+  "Temperature": {
+   "Operating Temperature": "0°C ~ +70°C",
+   "Storage Temperature": "-40°C ~ +85°C",
+   "Shock resistance": "1,500G / 0.5msec",
+   "Vibration Resistance": "20Hz~80Hz / 1.52mm (Frequency/Displacement)\n80Hz~2000Hz / 20G (Frequency/Acceleration)"
+  },
+  "Warranty Information": {
+   "Warranty": "5 Years (or TBW, whichever occurs first; Heatsink has no warranty)"
+  },
+  "Image": {
+   "Model": "AS2280Q4U"
+  }
+ },
+ "key_features": [],
+ "model": "AS2280Q4U",
+ "warranty": "5 Years (or TBW, whichever occurs first; Heatsink has no warranty)",
+ "fetched": "2026-11-26T19:10+06:00",
+ "source": "https://www.creatus.com.bd/apacer-as2280q4u-1tb-m2-2280-nvme-ssd-with-heatsink",
+ "store": "creatus"
+}
