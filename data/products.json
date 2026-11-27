@@ -24663,7 +24663,7 @@
   "features": [
    "Type: External HDD",
    "Storage: 5TB",
-   "Form Factor (Inch): 2.5 Inch",
+   "Form Factor (Inch): Unmentioned",
    "Interface(s): USB",
    "Data Transfer Rates: Unmentioned",
    "Color: Black"
@@ -25102,7 +25102,7 @@
    "Storage: 2TB",
    "Form Factor (Inch): Unmentioned",
    "Interface(s): USB 3.2",
-   "Data Transfer Rates: Unmentioned",
+   "Data Transfer Rates: 5Gbps",
    "Color: Black"
   ],
   "key": "portable-hdd|2tb 2tu31 3.2 adata ahv320 blue cbl external hdd hv320 usb",
@@ -59663,11 +59663,10 @@
   "category": "mobile-accessories",
   "created": "2026-11-11",
   "features": [
-   "Type: Wall Charger",
-   "Transmitted Power: 30W",
-   "Fast Charging: Yes",
-   "Cable Included: No",
-   "Color: Black"
+   "30W PD Output, Type-C Interface",
+   "Input: 100-240V~ 0.5A 50-60Hz",
+   "IQ Technology, Safe and Reliable",
+   "Compatible With iPhone/Samsung/Pixel and More"
   ],
   "key": "mobile-accessories|30w a2698j11 adapter anker black c charger charging iq pd usb zolo",
   "name": "Anker Zolo 30W PD+IQ USB-C Black Charger / Charging Adapter #A2698J11 (US)",
@@ -75891,6 +75890,20 @@
   },
   "store_image": "https://www.ryans.com/storage/products/small/apacer-panther-16gb-ddr5-6000mhz-grey-black-11754483137.webp"
  },
+ "apacer-panther-4gb-ddr4-2666-mhz-desktop-ram-with-heatsink": {
+  "brand": "Apacer",
+  "category": "desktop-ram",
+  "created": "2026-11-28",
+  "key": "desktop-ram|2666 4gb apacer ddr4 heatsink panther",
+  "name": "Apacer PANTHER 4GB DDR4 2666 MHz DESKTOP RAM WITH HEATSINK",
+  "specs": {
+   "capacity": "4GB",
+   "form": "DIMM",
+   "speed": "2666MHz",
+   "type": "DDR4"
+  },
+  "store_image": "https://ik.imagekit.io/fourstarit/website/PC_Component/RAM/Apacer/apacer-panther-golden-4gb-ddr4-2666mhz-gaming-11722759823_Rq0CFS0au.webp"
+ },
  "apacer-panther-8gb-ddr4-2666mhz-gaming-desktop-ram-ah4u08g26c08y7gaa-1": {
   "brand": "Apacer",
   "category": "desktop-ram",
@@ -89939,6 +89952,17 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P0042610005/apple-laptop-keyboard-a3241-cover.webp"
  },
+ "apple-macbook-air-15-inch-m5-16gb-unified-memory-1tb-ssd": {
+  "brand": "Apple",
+  "category": "laptop",
+  "created": "2026-11-28",
+  "key": "laptop|15 16gb 1tb air apple m5 macbook unified",
+  "name": "Apple MacBook Air 15-inch M5 16GB Unified Memory 1TB SSD",
+  "specs": {
+   "capacity": "16GB"
+  },
+  "store_image": "https://www.creatus.com.bd/image/cache/wp/gj/products_2026/apple-macbook-air-15-m5-2-250x250.webp"
+ },
  "apple-macbook-air-a1496-a1466-a1405-a1469-series-laptop-battery": {
   "brand": "Apple",
   "category": "laptop-accessories",
@@ -99006,10 +99030,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 50 Litres",
-   "Rated Power: 1.5 KW",
-   "Features: IPX3 Waterproof"
+   "Rated Power: 1500W",
+   "Installation Type: Horizontal",
+   "Safety: IPX3 Water Resistance and 100% Safety Thermostat"
   ],
   "key": "geyser-heater|50l ariston geyser horizontal pro1 r",
   "name": "Ariston PRO1 R Horizontal 50L Geyser",
@@ -99036,10 +99060,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertical",
    "Capacity: 50 Litres",
-   "Rated Power: 1.5 KW",
-   "Features: IPX3 Waterproof"
+   "Rated Power: 1500W",
+   "Installation Type: Vertical",
+   "Safety: IPX3 Water Protection"
   ],
   "key": "geyser-heater|50l ariston geyser pro1 r vertical",
   "name": "Ariston PRO1 R Vertical 50L Geyser",
@@ -112434,12 +112458,10 @@
   "category": "mouse-pad",
   "created": "2026-11-11",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 3 x 400 x 900mm",
-   "Color: Black & Red"
+   "Military Grade Protective Nano Coating",
+   "Water, Oil- and Dust-Repellent Surface",
+   "Anti-Fray, Flat-Stitched Edges",
+   "Textile-Weave Surface"
   ],
   "key": "mouse-pad|asus ii mouse nc08 pad rog scabbard",
   "name": "ASUS NC08 ROG SCABBARD II Gaming Mouse Pad",
@@ -112544,12 +112566,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wired",
-   "Mat Material: Rubber",
-   "LED Light: RGB",
-   "Dimensions: 370 x 320 x 7.9mm",
-   "Color: Black"
+   "Wireless Charging: Qi Wireless charging",
+   "Built-in USB 2.0 passthrough port",
+   "Lighting mode switch, AURA Sync",
+   "Stylish nonslip rubber base"
   ],
   "key": "mouse-pad|asus balteus charging mouse nh01 pad qi rgb rog wireless",
   "name": "ASUS NH01 ROG Balteus Qi Wireless-Charging RGB Gaming Mouse Pad",
@@ -121302,12 +121322,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Polyurethane",
-   "LED Light: No",
-   "Dimensions: 900 x 400 x 3mm",
-   "Color: Black"
+   "Synergistic Aim Lab Accuracy Training",
+   "Optimized Mousing Surface",
+   "Protective Nano Coating",
+   "Extra-soft Rubber Base"
   ],
   "key": "mouse-pad|ace asus hone mouse pad rog xxl",
   "name": "Asus ROG Hone Ace XXL Gaming Mouse Pad",
@@ -122922,12 +122940,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 360 x 260 x 3mm (Medium Size)",
-   "Color: Black & Red"
+   "Protective nano-coating fabric",
+   "Water, Oil- and Dust-Repellent Surface",
+   "Anti-Fray, Flat-Stitched Edges",
+   "Non-slip black rubber base"
   ],
   "key": "mouse-pad|asus ii medium mouse pad rog scabbard",
   "name": "Asus ROG Scabbard II Medium Gaming Mouse Pad",
@@ -122953,12 +122969,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 900 x 440 x 3mm",
-   "Color: Black & Silver"
+   "Massive dimensions for all your gaming gear",
+   "Optimized for smooth mouse gliding",
+   "Durable anti-fraying stitched frame",
+   "Non-slip rubber base"
   ],
   "key": "mouse-pad|asus blk ltd mouse pad rog sheath",
   "name": "Asus ROG Sheath BLK LTD Gaming Mouse Pad",
@@ -125881,10 +125895,12 @@
   "category": "monitor-all",
   "created": "2026-11-13",
   "features": [
-   "Display Size (Inch): 27",
+   "Display Size (Inch): 26.5",
    "Display Resolution: 2560x1440",
    "Panel Type: OLED",
    "Refresh Rate (Hz): 240Hz",
+   "App Name: Unmentioned",
+   "Rotatable: Yes",
    "HDMI Port: 2",
    "Color: Black"
   ],
@@ -133554,10 +133570,14 @@
   "category": "motherboard",
   "created": "2026-11-10",
   "features": [
-   "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
-   "Supported Memory: 4 x DIMM, Max. 128GB, DDR4",
-   "Graphics Output: 1 x DisplayPort, 1 x HDMI",
-   "Features: 1 x Realtek 2.5Gb Ethernet, Wi-Fi 6"
+   "Form Factor: Micro-ATX",
+   "Chipset: Intel B760",
+   "Sockets Supported: LGA1700",
+   "Supported CPU: 13th Gen Intel Core & 12th Gen Intel Core, Pentium Gold and Celeron Processors.",
+   "Generation: 12th/13th",
+   "Memory Slot: 4",
+   "Memory Max.: 128GB",
+   "Back-Connect Design: No"
   ],
   "key": "motherboard|asus b760m d4 motherboard plus tuf wifi",
   "name": "Asus TUF GAMING B760M-PLUS WIFI D4 Motherboard",
@@ -162051,6 +162071,21 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/baseus-adaman-metal-20000mah-tarnish-power-bank-11608708784.webp"
  },
+ "baseus-adaman-metal-ppimda-b0a-10000mah-tarnish-power-bank-ppimda-b0a-ppad000001": {
+  "brand": "Baseus",
+  "category": "mobile-accessories",
+  "created": "2026-11-28",
+  "features": [
+   "Capacity: 10000mAh",
+   "Interface: Micro USB, USB Type-C, Dual USB",
+   "Indicators: Unmentioned",
+   "Color: Tarnish"
+  ],
+  "key": "mobile-accessories|10000mah adaman b0a bank baseus metal power ppad000001 ppimda tarnish",
+  "name": "Baseus Adaman METAl PPIMDA-B0A 10000mAh Tarnish Power Bank #PPIMDA-B0A/PPAD000001",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/baseus-adaman-metal-10000mah-tarnish-power-bank-11608706603.webp"
+ },
  "baseus-adaman2-10000mah-30w-digital-display-fast-charging-power-bank": {
   "brand": "BASEUS",
   "category": "power-bank",
@@ -171340,6 +171375,13 @@
   "brand": "BDCOM",
   "category": "access-point",
   "created": "2026-11-11",
+  "features": [
+   "Data Transfer Rates: Unmentioned",
+   "Band: Single",
+   "Interface(s): 8 x Gigabit RJ45 LAN, 1 x Gigabit RJ45/SFP Combo WAN",
+   "Antenna (Type & Qty): Unmentioned",
+   "Color: Black"
+  ],
   "key": "access-point|20c bdcom big2000 gateway integrated multi service",
   "name": "BDCOM BIG2000-20C Multi-service Integrated Gateway",
   "specs": {},
@@ -175111,6 +175153,24 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/interactive-display/benq/board-pro-rp8605/board-pro-rp8605-01-228x228.webp"
  },
+ "benq-designvue-pd2706u-27-inch-4k-uhd-hdmi-dp-usb-usb-c-professional-monitor": {
+  "brand": "BenQ",
+  "category": "monitor-all",
+  "created": "2026-11-28",
+  "features": [
+   "Display Size (Inch): 27",
+   "Display Resolution: 3840x2160",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 60Hz",
+   "Rotatable: Yes",
+   "HDMI Port: 1",
+   "Color: Black"
+  ],
+  "key": "monitor-all|27 4k benq c designvue dp hdmi monitor pd2706u professional uhd usb",
+  "name": "BenQ DesignVue PD2706U 27 Inch 4K UHD HDMI, DP, USB, USB-C Professional Monitor",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/benq-designvue-pd2706u-27-inch-4k-uhd-hdmi-dp-11761729748.webp"
+ },
  "benq-designvue-pd2706ua-27-4k-type-c-designer-monitor": {
   "brand": "BenQ",
   "category": "monitor-all",
@@ -177907,6 +177967,24 @@
   "name": "BenQ MA270UP 27\" 4K UHD IPS Monitor for MacBook",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/ma270up/ma270up-01-228x228.webp"
+ },
+ "benq-ma270up-27-inch-4k-uhd-diplay-dual-hdmi-usb-usb-c-professional-monitor-for": {
+  "brand": "BenQ",
+  "category": "monitor-all",
+  "created": "2026-11-28",
+  "features": [
+   "Display Size (Inch): 27",
+   "Display Resolution: 3840x2160",
+   "Panel Type: IPS",
+   "Refresh Rate (Hz): 60Hz",
+   "Rotatable: Yes",
+   "HDMI Port: 2",
+   "Color: Silver"
+  ],
+  "key": "monitor-all|27 4k benq c diplay dual hdmi ma270up mac monitor professional uhd usb",
+  "name": "BenQ MA270UP 27 Inch 4K UHD Diplay Dual HDMI, USB, USB-C Professional Monitor for Mac",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/benq-ma270up-27-inch-4k-uhd-diplay-dual-hdmi-11767846501.webp"
  },
  "benq-ma320u-32-4k-uhd-ips-monitor-for-macbook": {
   "brand": "BenQ",
@@ -201501,6 +201579,22 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P7432605026/bwoo-headphone-headsets-bo-bw98-bk-cover.webp"
  },
+ "bwoo-bo-bw98-bk-enc-black-tws-bluetooth-earbuds": {
+  "brand": "BWOO",
+  "category": "earbuds",
+  "created": "2026-11-28",
+  "features": [
+   "Type: Earbuds",
+   "Connection Type: Wireless",
+   "Microphone: Yes",
+   "Plug Type: No",
+   "Color: Black"
+  ],
+  "key": "earbuds|bk black bluetooth bo bw98 bwoo earbuds enc tws",
+  "name": "BWOO BO-BW98-BK ENC Black TWS Bluetooth Earbuds",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/bwoo-bo-bw98-bk-enc-black-tws-bluetooth-11760531084.webp"
+ },
  "bwoo-bo-bz35-type-c-male-to-usb-female-grey-otg-converter": {
   "brand": "BWOO",
   "category": "converter",
@@ -207421,6 +207515,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/office-equipment/cartridge/302/toner/302-toner-black-228x228.jpg"
  },
+ "canon-302-black-drum-unit": {
+  "brand": "Canon",
+  "category": "printer-supplies",
+  "created": "2026-11-28",
+  "features": [
+   "Item Category: Drum Unit",
+   "Printing Color: Black",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): Unmentioned"
+  ],
+  "key": "printer-supplies|302 black canon drum unit",
+  "name": "Canon 302 Black Drum Unit",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/canon-302-black-drum-11780378430.webp"
+ },
  "canon-302-black-toner-cartridge": {
   "brand": "Canon",
   "category": "printer-supplies",
@@ -207449,6 +207558,21 @@
   "name": "Canon 302 Cyan Cartridge",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/office-equipment/cartridge/302/toner/302-cyan-228x228.jpg"
+ },
+ "canon-302-cyan-drum-unit": {
+  "brand": "Canon",
+  "category": "printer-supplies",
+  "created": "2026-11-28",
+  "features": [
+   "Item Category: Drum Unit",
+   "Printing Color: Cyan",
+   "Printing Technology: Laser",
+   "Duty Cycle up to (Yield): Unmentioned"
+  ],
+  "key": "printer-supplies|302 canon cyan drum unit",
+  "name": "Canon 302 Cyan Drum Unit",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/canon-302-cyan-drum-11780378991.webp"
  },
  "canon-302-cyan-toner-cartridge": {
   "brand": "Canon",
@@ -253681,12 +253805,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth",
-   "LED Light: No",
-   "Dimensions: 930mm x 300mm",
-   "Color: Black & Silver"
+   "Non-Slip Textured Rubber Base",
+   "Splash-Proof and Stain-Resistant Coating",
+   "Mat Size: Extended | 930mm x 300mm x 3mm",
+   "Mat Material: Micro-weave Cloth, Spill-proof"
   ],
   "key": "mouse-pad|corsair mm300 mouse pad pro proof splash",
   "name": "Corsair MM300 PRO Splash-Proof Gaming Mouse Pad",
@@ -276550,9 +276672,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "Interface: 16 10/100 Mbps LAN",
-   "Dimensions: 280 x 125.8 x 44 mm",
-   "MAC Add:  8K entries per device"
+   "Interface: 16-Port RJ45, Type: Desktop Switch",
+   "Interfaces: 16 x 100Base-TX Auto MDI/MDIX",
+   "Data Transfer Rate: 10/100 Mbps",
+   "Switching Capacity: 3.2 Gbps"
   ],
   "key": "network-switch|10 100m 1016a 16 d des link port switch unmanaged",
   "name": "D-Link DES-1016A-16-port 10/100M Unmanaged Switch",
@@ -276626,9 +276749,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "Interface: 24 10/100 Mbps LAN",
-   "Dimensions:11.0 x 5.0 x 1.7 inches",
-   "MAC Add:  8K entries per device"
+   "Interface: 24-Port RJ45, Type: Desktop Switch",
+   "Transmission Method: Store-and-forward",
+   "Data Transfer Rate: 10/100 Mbps",
+   "Switching Capacity: 4.8 Gbps"
   ],
   "key": "network-switch|10 100 1024c 24 d des link mount port rack switch unmanaged",
   "name": "D-Link DES-1024C 24 Port 10/100 Unmanaged Rack Mount Switch",
@@ -277020,9 +277144,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "16 10/100/1000 Mbps LAN",
-   "DIM: 282.2 x 178.0 x 44.5 mm",
-   "Frequency: 48 Gbps"
+   "Interface: 24-Port RJ45, Type: Desktop Switch",
+   "Interfaces: 24 x 1000Base-T Auto MDI/MDIX 120G CXP",
+   "Data Transfer Rate: 10/100/1000 Mbps",
+   "Switching Capacity: 48 Gbps"
   ],
   "key": "network-switch|10 100 1000base 1024c 24 d dgs link port switch unmanaged",
   "name": "D-Link DGS-1024C 24-Port 10/100/1000Base Unmanaged Switch",
@@ -318229,6 +318354,27 @@
   "specs": {},
   "store_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAB5JREFUaN7twQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgAB6msFXwAAAABJRU5ErkJggg=="
  },
+ "dell-inspiron-3030-intel-core-i3-14100-8gb-ram-512gb-ssd-black-tower-brand-pc": {
+  "brand": "Dell",
+  "category": "desktop-pc",
+  "created": "2026-11-28",
+  "features": [
+   "Form Factor: Tower",
+   "Processor Type: Core i3",
+   "Processor Max Turbo Frequency: 4.70GHz",
+   "RAM: 8GB",
+   "Hard Disk Drive (HDD): No",
+   "Solid-State Drive (SSD): 512GB",
+   "Graphics Memory: Shared",
+   "Body Color: Black"
+  ],
+  "key": "desktop-pc|14100 3030 512gb 8gb black brand core dell i3 inspiron intel tower",
+  "name": "Dell Inspiron 3030 Intel Core i3 14100 8GB RAM 512GB SSD Black Tower Brand PC",
+  "specs": {
+   "capacity": "8GB"
+  },
+  "store_image": "https://www.ryans.com/storage/products/small/dell-inspiron-3030-intel-core-i3-14100-8gb-ram-11754553967.webp"
+ },
  "dell-inspiron-3030-mt-core-i3-14th-gen-brand-pc": {
   "brand": "Dell",
   "category": "brand-pc",
@@ -339367,9 +339513,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "Speed: 10/100Mbps",
-   "Interface: Five 10/100 Mbps LAN",
-   "Dimensions: 87 x 47.85 x 21.7mm"
+   "Interface: 5-Port RJ45, Type: Desktop Switch",
+   "Interfaces: 5 x 100 Base-TX, Switching Capacity: 1 Gbps",
+   "Data Transfer Rate: 10/100 Mbps",
+   "Transmission Method: Store-and-forward"
   ],
   "key": "network-switch|10 1005c 100m 5 des dlink port switch unmanaged",
   "name": "Dlink DES-1005C 5 Port 10/100M Unmanaged Desktop Switch",
@@ -381072,12 +381219,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 350 x 250 x 4 MM",
-   "Color: Pink"
+   "Speed Type Surface",
+   "Anti- slip Rubber Base",
+   "Style: Rubber, Non-Slip",
+   "Build for Maximum Precision"
   ],
   "key": "mouse-pad|fantech mouse mp35 pad pink sakura sven",
   "name": "Fantech MP35 Sven Sakura Edition Pink Gaming Mouse Pad",
@@ -455839,10 +455984,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertical",
    "Capacity: 30 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Heating Element: Encology Heating Element",
+   "Safety: IPX4 Waterproof and Shockproof Protection"
   ],
   "key": "geyser-heater|30 c2ug es30v geyser haier heater litre vertical water",
   "name": "Haier 30 Litre Vertical Water Heater Geyser - ES30V-C2UG(BD)",
@@ -455854,10 +455999,10 @@
   "category": "geyser-heater",
   "created": "2026-11-20",
   "features": [
-   "Installation type: Vertical",
    "Capacity: 30 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Vertical",
+   "Safety: IPX4 Waterproof and Shockproof Protection"
   ],
   "key": "geyser-heater|30 es30v geyser haier heater litre tigris vertical water",
   "name": "Haier 30 Litre Vertical Water Heater Geyser - ES30V-Tigris",
@@ -455884,10 +456029,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 30 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Horizontal",
+   "Protection: IPX4 Waterproof and Shockproof"
   ],
   "key": "geyser-heater|30 ck3 es30h geyser haier heater litre water",
   "name": "Haier 30 Litre Water Heater Geyser - ES30H-CK3(BD)",
@@ -455899,10 +456044,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 35 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Horizontal",
+   "Safety: IPX4 Waterproof and Shockproof Protection"
   ],
   "key": "geyser-heater|35 es35h geyser haier heater litre tigris water",
   "name": "Haier 35 Litre Water Heater Geyser - ES35H-Tigris",
@@ -455959,10 +456104,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 40 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Horizontal",
+   "Protection: IPX4 Waterproof and Shockproof"
   ],
   "key": "geyser-heater|40 ck3 es40h geyser haier heater litre water",
   "name": "Haier 40 Litre Water Heater Geyser - ES40H-CK3(BD)",
@@ -456028,10 +456173,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 45 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Horizontal",
+   "Safety: IPX4 Waterproof and Shockproof Protection"
   ],
   "key": "geyser-heater|45 es45h geyser haier heater litre tigris water",
   "name": "Haier 45 Litre Water Heater Geyser - ES45H-Tigris",
@@ -456043,10 +456188,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 50 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Horizontal",
+   "Safety: IPX4 Waterproof and Shockproof Technology"
   ],
   "key": "geyser-heater|50 ck3 es50h geyser haier heater litre water",
   "name": "Haier 50 Litre Water Heater Geyser - ES50H-CK3(BD)",
@@ -456352,10 +456497,10 @@
   "category": "geyser-heater",
   "created": "2026-11-11",
   "features": [
-   "Installation type: Vertical",
    "Capacity: 30 Litres",
    "Rated Power: 2200W",
-   "Features: IPX4 Waterproof, Shockproof"
+   "Installation Type: Vertical",
+   "Safety: IPX4 Waterproof and Shockproof Protection"
   ],
   "key": "geyser-heater|30 es30v haier heater litre water zenglow",
   "name": "Haier ES30V-ZenGlow-30 Litre Water Heater (Vertical)",
@@ -461993,10 +462138,10 @@
   "category": "geyser-heater",
   "created": "2026-11-11",
   "features": [
-   "Capacity: 50 Liters, Installation Type: Vertical (Hang)",
+   "Capacity: 50 Liters, Installation Type: Horizontal",
    "Rated Power: 2000 W, 4-Star Energy Rating",
-   "Incoloy Glass-Coated Heating Element",
-   "IPX4 Water Resistance and Splash Proof"
+   "Heating Element: Incoloy 800 Glass-Coated Heating Element",
+   "- Safety: IPX4 Waterproof and High-Precision Thermostat Cut-Off"
   ],
   "key": "geyser-heater|50 dx geyser havells litre monza vertical",
   "name": "Havells Monza DX Vertical 50 Litre Geyser",
@@ -462008,10 +462153,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 35 Liters, Installation Type: Horizontal",
-   "Rated Power: 2000 W, 5-Star Energy Rating",
-   "Incoloy Glass-Coated Heating Element",
-   "IPX4 Water Resistance and Splash Proof"
+   "Capacity: 35 Litres, Installation Type: Vertical",
+   "Rated Power: 2000W, 5-Star Energy Rating",
+   "Heating Element: Incoloy Glass-Coated Heating Element",
+   "Safety: IPX4 Water Resistance and Thermal Cut-Off"
   ],
   "key": "geyser-heater|35 geyser havells litre monza nu",
   "name": "Havells Monza NU 35 Litre Geyser",
@@ -462023,10 +462168,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 50 Liters, Installation Type: Horizontal",
+   "Capacity: 50 Liters, Installation Type: Vertical",
    "Rated Power: 2000 W, 5-Star Energy Rating",
-   "Incoloy Glass-Coated Heating Element",
-   "IPX4 Water Resistance and Splash Proof"
+   "Heating Element: Incoloy Glass-Coated Heating Element",
+   "Safety: IPX4 Water Resistance and Splash Proof"
   ],
   "key": "geyser-heater|50 geyser havells litre monza nu",
   "name": "Havells Monza NU 50 Litre Geyser",
@@ -504599,13 +504744,10 @@
   "category": "hdd",
   "created": "2026-11-10",
   "features": [
-   "Type: Surveillance HDD",
-   "Storage: 8TB",
-   "Form Factor (Inch): 3.5 Inch",
-   "Interface(s): SATA 6Gb/s",
-   "RPM: 5400 RPM",
-   "Data Transfer Rates: Unmentioned",
-   "Color: Silver"
+   "Storage Capacity: 8TB, 5400RPM",
+   "Form-Factor: 3.5-inch, Interface: SATA 6.0Gb/s",
+   "Advanced Format 512e Sector Technology",
+   "Designed for 24x7 operation, 1M Hours MTTF"
   ],
   "key": "hdd|3.5 5400rpm 8tb ds80hkvs hdd hikvision sata surveillance vx1",
   "name": "Hikvision DS80HKVS-VX1 8TB 5400RPM 3.5\" SATA Surveillance HDD",
@@ -630280,6 +630422,21 @@
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-street-light/all-in-one/400w/la-400w-02-228x228.webp"
  },
+ "la-400w-60w-solar-street-light": {
+  "brand": "LA-400W",
+  "category": "solar",
+  "created": "2026-11-28",
+  "features": [
+   "700 Lumens Bright Light",
+   "6500K Cool White Light",
+   "IP65 Waterproof Protection",
+   "Solar Powered Technology"
+  ],
+  "key": "solar|400w 60w la light solar street",
+  "name": "LA-400W 60W Solar Street Light",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/solar-street-light/all-in-one/400w/la-400w-02-228x228.webp"
+ },
  "la-600w-60w-solar-street-light": {
   "brand": "LA-600W",
   "category": "solar",
@@ -648617,14 +648774,10 @@
   "category": "laptop",
   "created": "2026-11-10",
   "features": [
-   "Processor Type.: Core i5",
-   "Generation: 13th (Intel)",
-   "RAM: 16GB",
-   "Storage: 512GB SSD",
-   "Graphics Memory: Shared",
-   "Graphics Chipset: Intel UHD Graphics",
-   "Display Size (Inch): 15.3",
-   "Color: Luna Gray"
+   "Processor: Intel Core i5-13420H (12MB Cache, up to 4.6GHz)",
+   "Ram: 16GB DDR5-4800, Storage: 512GB M.2 PCIe 4.0x4 NVMe SSD",
+   "Display: 15.3\" WUXGA (1920x1200) IPS, 300 nits Anti-glare",
+   "Features: Privacy Shutter, Type-C, Wi-Fi 6, FreeDOS"
   ],
   "key": "laptop|13420h 13th 15.3 15irh10 16gb 3i 512gb core i5 ideapad lenovo slim wuxga",
   "name": "Lenovo IdeaPad Slim 3i 15IRH10 13th Gen Core i5-13420H 16GB RAM 512GB SSD 15.3-inch WUXGA Laptop",
@@ -655457,14 +655610,10 @@
   "category": "brand-pc",
   "created": "2026-11-10",
   "features": [
-   "Form Factor: Mini Tower",
-   "Processor Type: Core i5",
-   "Processor Max Turbo Frequency: 4.40GHz",
-   "RAM: 8GB",
-   "Hard Disk Drive (HDD): 1TB",
-   "Solid-State Drive (SSD): No",
-   "Graphics Memory: Shared",
-   "Body Color: Black"
+   "Processor: Intel Core i5-12400 (18MB Cache, Up to 4.4 GHz)",
+   "RAM: 8GB DDR4 3200MHz",
+   "Storage: 512GB M.2 2280 PCIe 4.0x4 NVMe SSD",
+   "Lenovo Original USB Keyboard & Mouse"
   ],
   "key": "brand-pc|12th 50s brand core i5 lenovo neo sff small thinkcentre tower",
   "name": "Lenovo ThinkCentre Neo 50s SFF Core i5 12th Gen Small Tower Brand PC",
@@ -663559,6 +663708,15 @@
    "capacity": "256GB"
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P2022508001/lexar-pen-drive-jumpdrive-fingerprint-f35-pro-cover.webp"
+ },
+ "lexar-jumpdrive-fingerprint-f35-pro-usb-3-2-gen-1-flash-drive": {
+  "brand": "Lexar",
+  "category": "pen-drive",
+  "created": "2026-11-28",
+  "key": "pen-drive|1 3.2 f35 fingerprint flash jumpdrive lexar pro usb",
+  "name": "Lexar JumpDrive Fingerprint F35 PRO USB 3.2 Gen 1 Flash Drive",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/Lexar-JumpDrive-Fingerprint-F35-PRO-USB-3.2-Gen-1-Flash-Drive-128gb-6238.png"
  },
  "lexar-jumpdrive-m35-128gb-usb-3-0-pen-drive": {
   "brand": "Lexar",
@@ -678102,10 +678260,10 @@
   "category": "headphone",
   "created": "2026-11-10",
   "features": [
-   "PRO-G Drivers",
-   "PRO-Tuned",
-   "Frequency response: 20 Hz-20 KHz",
-   "Blue Voice Mic Technology"
+   "Driver Diameter: PRO-G 50mm",
+   "Microphone Driver Size: 6 mm",
+   "Microphone Type: Electret Condenser",
+   "Aluminum Construction, Next-Gen Surround Sound"
   ],
   "key": "headphone|g headphone logitech pro usb x",
   "name": "Logitech G PRO X USB Gaming Headphone",
@@ -679045,10 +679203,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "HERO 25K SENSOR",
-   "LIGHTSYNC: RGB LIGHTING",
-   "Resolution: 100 - 25600 DPI",
-   "DUAL-INJECTED: RUBBER SIDE GRIPS"
+   "Sensor: Hero 25K",
+   "Lightsync RGB: 2 Zones",
+   "Resolution: 100 – 25,600 DPI",
+   "6 Fully Programmable Buttons"
   ],
   "key": "mouse|g403 hero lighting lightsync logitech mouse rgb usb",
   "name": "Logitech G403 Hero Lightsync RGB Lighting USB Gaming Mouse",
@@ -679385,7 +679543,7 @@
    "Resolution: 100 – 25,600 dpi",
    "Max. acceleration:  > 40 G",
    "Max. speed: > 400 IPS",
-   "Buttons: 50 million click"
+   "Buttons: 11 Programmable Buttons"
   ],
   "key": "mouse|g502 hero high logitech mouse performance rgb",
   "name": "Logitech G502 HERO High Performance RGB Gaming Mouse",
@@ -679531,10 +679689,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "25,600 dpi HERO 25K Optical Sensor",
-   "LIGHTFORCE Optical-Mechanical Switches",
-   "5 onboard memory profiles",
-   "13 Programmable Controls"
+   "Sensor: HERO 25K Optical Sensor",
+   "DPI: 25,600 DPI",
+   "Buttons: 13 Programmable Controls",
+   "5 onboard memory profiles, Optical-Mechanical Switches"
   ],
   "key": "mouse|black g502 hero light logitech mouse speed wireless x",
   "name": "Logitech G502 X Light Speed Wireless Hero Gaming Mouse Black",
@@ -679801,7 +679959,7 @@
   "created": "2026-11-10",
   "features": [
    "Switch Type: GX Blue Switch",
-   "LIGHTSYNC RGB Lighting",
+   "Lighting: LIGHTSYNC RGB",
    "Programmable Function Keys",
    "Connection Type: Wired with USB"
   ],
@@ -682256,10 +682414,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "24 months Battery Life",
-   "1 AA battery (pre-installed)",
-   "Sensor resolution: 1000 dpi",
-   "Wireless range: 10 meters"
+   "Connection Type: 2.4 GHz wireless",
+   "Number of buttons: 3",
+   "DPI (Min/Max): 1000 DPI",
+   "10-meter range, Optical Tracking"
   ],
   "key": "mouse|logitech m331 mouse plus silent usb wireless",
   "name": "Logitech M331 SILENT PLUS Wireless USB Mouse",
@@ -682494,10 +682652,10 @@
   "category": "mouse",
   "created": "2026-11-10",
   "features": [
-   "Effortless Multi-Computer Workflow",
-   "Hyper-Fast Scrolling",
-   "Durable, Sculpted Design",
-   "Easy-Switch Technology"
+   "Connection Type: 2.4 GHz and Bluetooth",
+   "DPI range: 1000±",
+   "Number of Buttons: 8",
+   "Easy-Switch Technology, Hyper-Fast Scrolling"
   ],
   "key": "mouse|bluetooth device logitech m720 mouse multi triathlon",
   "name": "Logitech M720 TRIATHLON Multi Device Bluetooth Mouse",
@@ -682736,9 +682894,9 @@
   "category": "keyboard",
   "created": "2026-11-10",
   "features": [
-   "Reliable wireless (up to 10 m)",
-   "Compact, space-saving layout",
-   "24-month keyboard battery life",
+   "Connectivity: Wireless (up to 10 m)",
+   "Keyboard Key Type: Membrane Switch",
+   "Mouse Sensor: Optical Tracking",
    "Smooth, responsive cursor control"
   ],
   "key": "keyboard|combo keyboard logitech mk215 mouse wireless",
@@ -683235,10 +683393,10 @@
   "category": "keyboard",
   "created": "2026-11-10",
   "features": [
-   "WiFi range (in meters): 10 m",
-   "SilentTouch Technology",
-   "Spill-resistant design",
-   "Smooth, responsive cursor control"
+   "Connectivity: 2.4GHz wireless (10 meters)",
+   "Keyboard Key Type: SilentTouch, Spill-resistant",
+   "Mouse Type: SilentTouch Technology",
+   "Compatibility: Windows 10, 11 or later, ChromeOS"
   ],
   "key": "keyboard|combo keyboard logitech mk295 mouse silent wireless",
   "name": "Logitech MK295 Silent Wireless Keyboard & Mouse Combo",
@@ -684768,7 +684926,7 @@
    "HD video and 10x zoom",
    "With Remote",
    "Enhanced pan/tilt",
-   "90Â° Field of View  With Remote"
+   "90° Field of View  With Remote"
   ],
   "key": "conference|2 camera conference logitech pro ptz remote video",
   "name": "Logitech PTZ Pro 2 Video Conference Camera With Remote (960-001184)",
@@ -684933,10 +685091,10 @@
   "category": "conference",
   "created": "2026-11-11",
   "features": [
-   "Captures 4K Video",
+   "Captures 4K Video, 30fps",
    "6 Beamforming Microphones & 3 Speakers",
-   "For Use in Small Conference Rooms",
-   "Standalone or Computer Connected"
+   "2 Displays Support, Up to 1080p Resolution",
+   "Noise Suppression, AEC and VAD Audio process"
   ],
   "key": "conference|4k all bar conferencing logitech mini one rally system video",
   "name": "LOGITECH RALLY BAR MINI ALL-IN-ONE 4K VIDEO CONFERENCING SYSTEM (960-001345 )",
@@ -685056,9 +685214,10 @@
   "category": "conference",
   "created": "2026-11-10",
   "features": [
-   "Low Profile Speaker Bracket",
-   "Inverter Camera Bracket",
-   "cable Retention Bracket"
+   "Camera Bracket: Flexible above, below, or ceiling mounting",
+   "Speaker Brackets: Sleek, low-profile speaker mounting",
+   "Hub Brackets: Ventilated wall or under-table mounting",
+   "Cable Brackets: Secure cable connections and prevent disconnections"
   ],
   "key": "conference|kit logitech mounting rally",
   "name": "Logitech Rally Mounting Kit",
@@ -685111,9 +685270,10 @@
   "category": "speaker",
   "created": "2026-11-10",
   "features": [
-   "Anti-vibration enclosure prevents camera shake",
-   "Front-of-room audio",
-   "Comfortable volume"
+   "3\" Audio Driver, 48 kHz Sample Rate",
+   "Crisp Audio for Large Rooms",
+   "Works with Rally Conferencing System",
+   "Anti-vibration enclosure prevents camera shake"
   ],
   "key": "speaker|logitech rally speaker system",
   "name": "Logitech Rally Speaker for Rally System (7.5W)",
@@ -685125,7 +685285,7 @@
   "category": "conference",
   "created": "2026-11-10",
   "features": [
-   "Right Sense technology automates a better user experience",
+   "Right Sense technology",
    "Modular audio",
    "Audio Coverage 10 Feet",
    "Sleek industrial design"
@@ -685718,10 +685878,10 @@
   "category": "conference",
   "created": "2026-11-10",
   "features": [
-   "TOUCH CONTROL FOR THE WORKPLACE",
-   "BUILT FOR BUSINESS",
-   "CLEAN INSTALLATION",
-   "SECURE CONNECTIONS"
+   "Display: 10.1” Touchscreen, 1280 × 800 resolution",
+   "Connectivity: USB-C, USB-A, HDMI, 3.5mm audio jack",
+   "Compatibility: Microsoft Teams, Zoom Rooms, Google Meet",
+   "Multiple mounting options, Anti-theft protection, 100mm VESA"
   ],
   "key": "conference|conference controlling logitech one tap touch video",
   "name": "Logitech Tap for one Touch Video Conference Controlling",
@@ -728196,10 +728356,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "60% Energy Save",
-   "Extra Large, Energy Save Copper Heating Element",
-   "Thicker Magnesium anode",
-   "Capacity: 30L"
+   "Capacity: 30 Litres",
+   "Rated power:1500W",
+   "Energy Saving: 60%",
+   "Heating Element: Copper"
   ],
   "key": "geyser-heater|30 geyser liter midea",
   "name": "Midea 30 Liter Geyser (D30-15A6)",
@@ -728211,10 +728371,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "60% Energy Save",
-   "Extra Large, Energy Save Copper Heating Element",
-   "Thicker Magnesium anode",
-   "Capacity: 40L"
+   "Capacity: 40 Litres",
+   "Rated Power: 2000W",
+   "Heating Element: Extra Large Copper Heating Element",
+   "Safety: Thermal Cut-Out and Anti-Dry Heating"
   ],
   "key": "geyser-heater|40 geyser liter midea",
   "name": "Midea 40 Liter Geyser (D40-20A6)",
@@ -728226,10 +728386,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "60% Energy Save",
-   "Extra Large, Energy Save Copper Heating Element",
-   "Thicker Magnesium anode",
-   "Capacity: 50L"
+   "Capacity: 50 Litres",
+   "Rated Power: 2000W",
+   "Heating Element: Copper",
+   "Safety: Overheat and Anti-Dry Heating"
   ],
   "key": "geyser-heater|50 geyser liter midea",
   "name": "Midea 50 Liter Geyser (D50-20A6)",
@@ -738638,12 +738798,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 320 x 220 x 3mm",
-   "Color: Gray"
+   "Silk Gaming Fabric surface",
+   "Extra soft and comfortable touch",
+   "Anti-slip natural rubber base",
+   "Dimensions: 320mm(L) x 220mm(W) x 3mm(H)"
   ],
   "key": "mouse-pad|agility gd22 gleam mouse msi pad",
   "name": "MSI Agility GD22 GLEAM EDITION Gaming Mouse Pad",
@@ -738687,12 +738845,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 900 x 400 x 3mm",
-   "Color: Gray"
+   "Splashproof and Stain-Resistant Surface",
+   "Extra soft and comfortable touch",
+   "Anti-slip natural rubber base",
+   "Dimensions: 900mm(L) x 400mm(W) x 3mm(H)"
   ],
   "key": "mouse-pad|agility gd72 gleam mouse msi pad",
   "name": "MSI Agility GD72 GLEAM EDITION Gaming Mouse Pad",
@@ -771132,9 +771288,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "Speed: Gigabit",
-   "Dimensions : 158 x 101 x 29 mm",
-   "MAC Table Size: 2K"
+   "Interface: 8-Port RJ45, Type: Desktop Switch",
+   "Network Standards: 802.3ab, 802.3u, 802.3i, 802.3az, 802.3x",
+   "Data Transfer Rate: 10/100/1000 Mbps",
+   "Switching Capacity: 16 Gbps, Memory: 1536 Kbits"
   ],
   "key": "network-switch|8 gigabit gs308 netgear port switch",
   "name": "Netgear GS308 8-Port Gigabit Desktop Switch",
@@ -780847,13 +781004,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB Type-C, 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|3701 argb atx bk black case mid northshell tower",
   "name": "NorthShell 3701-BK ARGB Mid Tower Black ATX Gaming Desktop Case",
@@ -780866,13 +781023,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB Type-C, 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|3701 argb atx case mid northshell tower wh white",
   "name": "NorthShell 3701-WH ARGB Mid Tower White ATX Gaming Desktop Case",
@@ -780885,13 +781042,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 1 x USB Type-C, 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|6528 atx black case micro mini northshell psu standard tower",
   "name": "NorthShell 6528 Mini Tower Black Micro-ATX Desktop Case with Standard PSU",
@@ -792589,6 +792746,15 @@
   "specs": {},
   "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/3954-47137.jpg"
  },
+ "olax-5g-lte-advanced-mobile-wifi-hotspot-e5783-plus": {
+  "brand": "Olax",
+  "category": "router",
+  "created": "2026-11-28",
+  "key": "router|5g advanced e5783 hotspot lte mobile olax plus wifi",
+  "name": "Olax 5G LTE-Advanced Mobile WiFi Hotspot E5783-Plus",
+  "specs": {},
+  "store_image": "https://adminapi.applegadgetsbd.com/storage/media/medium/a-4588.jpg"
+ },
  "olax-ax6-pro-4g-lte-wifi-router-with-sim-card-slot": {
   "brand": "OLAX",
   "category": "pocket-router",
@@ -792790,6 +792956,15 @@
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/11A/016/MF981VS-1-228x228.jpg"
  },
+ "olax-mf982-4g-lte-3000mah-pocket-router": {
+  "brand": "OLAX",
+  "category": "router",
+  "created": "2026-11-28",
+  "key": "router|3000mah 4g lte mf982 olax pocket router",
+  "name": "OLAX MF982 4G LTE 3000mah Pocket Router",
+  "specs": {},
+  "store_image": "https://diamu.com.bd/wp-content/uploads/2023/04/OLAX-MF982-4G-LTE-3000mah-Pocket-Router-300x300.jpg"
+ },
  "olax-mf982-4g-lte-pocket-router": {
   "brand": "OLAX",
   "category": "pocket-router",
@@ -792843,6 +793018,15 @@
   "name": "OLAX MT10 4G LTE Pocket Wifi Hotspot Modem With Sim Card Slot",
   "specs": {},
   "store_image": "https://www.pchouse.com.bd/image/cache/catalog/Olax/olax-mt10-4g-lte-pocket-wifi-hotspot-modem-with-sim-card-slot2-228x228.jpg"
+ },
+ "olax-mt10-mifi-4g-plus-hotspot-device-wi-fi-router": {
+  "brand": "OLAX",
+  "category": "router",
+  "created": "2026-11-28",
+  "key": "router|4g device fi hotspot mifi mt10 olax plus router wi",
+  "name": "OLAX MT10 MIFI 4G Plus Hotspot Device Wi-Fi Router",
+  "specs": {},
+  "store_image": "https://diamu.com.bd/wp-content/uploads/2024/05/OLAX-MT10-MIFI-4G-Lte-Hotspot-Device-Wi-Fi-Router-300x300.jpg"
  },
  "olax-mt20-portable-4g-wireless-pocket-router": {
   "brand": "OLAX",
@@ -815071,11 +815255,10 @@
   "category": "hub-dock",
   "created": "2026-11-11",
   "features": [
-   "Type: Data",
-   "Port Side-1: USB Male",
-   "Port Side-2: Micro USB Male",
-   "Length.: 1 Meter",
-   "Color: White"
+   "Interface: USB Type-A to Micro USB",
+   "Data Transfer Rate: 480 Mbps",
+   "Wide Compatibility",
+   "Cable Length: 1 Meter"
   ],
   "key": "hub-dock|1 114m cable charging male meter micro ocd oraimo robustline to usb white",
   "name": "Oraimo RobustLine USB Male to Micro USB Male, 1 Meter, White Charging Cable #OCD-114M",
@@ -823070,12 +823253,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Regular",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 300 x 250 x 4mm",
-   "Color: Black"
+   "Material: Rubber + Multispandex + Memory Foam",
+   "Easy to Clean; No Fading; Fine Cutting; Thermal-printing",
+   "Print: Monochrome Silk-screen",
+   "Dimension: 300 x 250 x 4mm"
   ],
   "key": "mouse-pad|mouse mpa3025 orico pad rubber",
   "name": "ORICO MPA3025 Rubber Mouse Pad",
@@ -828184,6 +828365,20 @@
    "type": "DDR5"
   },
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P6422509007/oscoo-desktop-ram-r500-cover.webp"
+ },
+ "oscoo-r500-rgb-16gb-ddr5-6000mhz-heatsink-desktop-ram": {
+  "brand": "OSCOO",
+  "category": "desktop-ram",
+  "created": "2026-11-28",
+  "key": "desktop-ram|16gb 6000 ddr5 heatsink oscoo r500 rgb",
+  "name": "OSCOO R500 RGB 16GB DDR5 6000MHz HeatSink Desktop RAM",
+  "specs": {
+   "capacity": "16GB",
+   "form": "DIMM",
+   "speed": "6000MHz",
+   "type": "DDR5"
+  },
+  "store_image": "https://www.ultratech.com.bd/image/cache/catalog/OSCOO/oscoo-r500-rgb-6000mhz-cl46-desktop-ram-250x250.jpg"
  },
  "oscoo-r500-rgb-32gb-ddr5-5200mhz-cl42-desktop-ram": {
   "brand": "OSCOO",
@@ -889039,12 +889234,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 909.32 x 299.72 x 2.794mm",
-   "Color: Black & Red"
+   "Size: 930 x 300 x 3mm (Extended)",
+   "Waterproof Surface, Anti-slip Rubber Base",
+   "Anti-Fray Stitched Frame",
+   "Anti-Slip Rubber Backing"
   ],
   "key": "mouse-pad|aquarius mouse p015 pad redragon",
   "name": "Redragon Aquarius P015 Mouse Pad",
@@ -889997,12 +890190,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 330 x 260 x 3mm",
-   "Color: Black & Red"
+   "Size: 330 x 260 x 3mm",
+   "Durable stitched edges",
+   "Ultra-smooth surface",
+   "Waterproof surface"
   ],
   "key": "mouse-pad|capricorn mouse p012 pad redragon",
   "name": "Redragon Capricorn P012 Gaming Mouse Pad",
@@ -894045,12 +894236,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth",
-   "LED Light: No",
-   "Dimensions: 210 x 250 x 3mm",
-   "Color: Black"
+   "Double Stitching",
+   "Ultra Smooth Surface",
+   "Waterproof",
+   "Combining Fabric and Silk Fibers"
   ],
   "key": "mouse-pad|flick mouse p029 pad redragon s",
   "name": "Redragon P029 Flick S Gaming Mouse Pad",
@@ -894062,12 +894251,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 400 x 900mm",
-   "Color: Black"
+   "Silk Processed Cloth Surface",
+   "Natural Processed Rubber",
+   "Waterproof and Easy to Clean",
+   "Use Super Fine and High-density Material"
   ],
   "key": "mouse-pad|flick mouse p032 pad redragon xl",
   "name": "Redragon P032 FLICK XL Mouse Pad",
@@ -894079,12 +894266,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: Wired",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: RGB",
-   "Dimensions: 800 x 300 x 4mm",
-   "Color: Black"
+   "Size: 800 x 300 x 3 mm",
+   "RGB Lighting Effects",
+   "Mmo Pixel-Perfect Accuracy",
+   "Easy to Clean, Waterproof"
   ],
   "key": "mouse-pad|mouse neptune p033 pad redragon rgb x",
   "name": "Redragon P033 NEPTUNE X RGB Gaming Mouse Pad",
@@ -894111,12 +894296,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 1219 x 610 x 3mm",
-   "Color: Black"
+   "Soft and abrasion-resistant rubber",
+   "Equipped with a tight seam",
+   "Extra Large (3XL) Mouse Mat",
+   "Multi-layer integrated process"
   ],
   "key": "mouse-pad|3xl flick mouse p040 pad redragon",
   "name": "Redragon P040 Flick 3XL Mouse Pad",
@@ -894999,12 +895182,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Cloth, Rubber",
-   "LED Light: No",
-   "Dimensions: 800 x 300 x 3mm",
-   "Color: Black"
+   "Size: 800 x 300 x 3 mm (Extended)",
+   "Silk cloth surface",
+   "Anti-slip rubber base",
+   "Reinforced seam edges"
   ],
   "key": "mouse-pad|mouse p003 pad redragon suzaku",
   "name": "Redragon Suzaku P003 Gaming Mouse Pad",
@@ -895110,12 +895291,10 @@
   "category": "mouse-pad",
   "created": "2026-11-10",
   "features": [
-   "Type: Gaming",
-   "Connection Type: No",
-   "Mat Material: Rubber",
-   "LED Light: No",
-   "Dimensions: 930 x 300 x 3mm",
-   "Color: Black & Gray"
+   "Size: 36.6 x 11.8 x 0.1 Inches (930 x 300 x 3mm) Extended",
+   "Waterproof, washable and easy to clean",
+   "MMO pixel-perfect accuracy",
+   "Zero Slip & Anti-curling"
   ],
   "key": "mouse-pad|mouse p018 pad redragon taurus",
   "name": "Redragon TAURUS P018 Gaming Mouse Pad",
@@ -897828,13 +898007,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black bullet casing mesh micro mini revenger rgb tower",
   "name": "Revenger BULLET Mesh RGB Mini Tower Black Micro-ATX Gaming Desktop Casing",
@@ -898053,13 +898232,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|200h atx black casing eco micro mini psu revenger standard tower",
   "name": "Revenger ECO 200H Mini Tower Black Micro-ATX Desktop Casing with Standard PSU",
@@ -898072,13 +898251,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing fire mesh micro mini revenger rgb tower",
   "name": "Revenger FIRE Mesh RGB Mini Tower Black Micro-ATX Gaming Desktop Casing",
@@ -898119,13 +898298,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|casing ghost mid revenger rgb tower",
   "name": "Revenger GHOST Mid Tower RGB Gaming Casing",
@@ -898224,13 +898403,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 3 x USB",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing cool ice micro mini revenger tower",
   "name": "Revenger Ice Cool Mini Tower Black Micro-ATX Gaming Desktop Casing",
@@ -898331,13 +898510,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|2 atx casing jetfire mid revenger rgb tower white",
   "name": "Revenger JETFIRE 2 RGB Mid Tower White ATX Gaming Desktop Casing",
@@ -898350,13 +898529,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|argb atx black case k1 mesh mid revenger tower",
   "name": "Revenger K1 ARGB Mesh Mid Tower Black (Tempered Glass Window) ATX Gaming Desktop Case",
@@ -898458,13 +898637,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing megatron mid revenger rgb tower",
   "name": "Revenger MEGATRON RGB Mid Tower Black ATX Gaming Desktop Casing",
@@ -898477,7 +898656,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
@@ -898496,13 +898674,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: Unmentioned",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|350w 6 atx black casing micro mini mx psu revenger tower",
   "name": "Revenger MX-6 Mini Tower Black Micro-ATX Desktop Casing with 350W PSU",
@@ -898591,13 +898769,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing mid naga revenger rgb tower",
   "name": "Revenger NAGA RGB Mid Tower Black ATX Gaming Desktop Casing",
@@ -898638,13 +898816,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x1, USB 2.0 x2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx case micro mid phantom revenger tower x",
   "name": "Revenger PHANTOM X Mid Tower Micro ATX Gaming Desktop case (Black)",
@@ -898672,13 +898850,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x1, USB 2.0 x2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|atx case micro mid phantom revenger tower white x",
   "name": "Revenger PHANTOM X Mid Tower White (Tempered Glass Window) Micro-ATX Gaming Desktop Case",
@@ -899253,13 +899431,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x  Front/Top USB port",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|3 argb atx black case fan mesh mid revenger tower woodpecker",
   "name": "Revenger WOODPECKER ARGB Mesh Mid Tower Black M-ATX Gaming Desktop Case with 3 ARGB Fan",
@@ -914528,13 +914706,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB1.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|255 9 atx black casing micro mini mtg safeway tower",
   "name": "Safeway MTG 255-9 Mini Tower Black Micro-ATX Desktop Casing",
@@ -914556,13 +914734,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB1.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|1r atx black c275 casing micro mini mtg safeway tower",
   "name": "Safeway MTG C275-1R Mini Tower Black Micro-ATX Desktop Casing",
@@ -914575,13 +914753,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB1.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing micro mini mtg n13 psu safeway standard tower",
   "name": "Safeway MTG N13 Mini Tower Black Micro-ATX Desktop Casing with Standard PSU",
@@ -914687,13 +914865,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x 1, USB 1.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 5",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing micro mid safeway seaview tower",
   "name": "Safeway Seaview Mid Tower Black Micro-ATX Gaming Desktop Casing",
@@ -914706,13 +914884,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x 1, USB 1.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 5",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|atx casing micro mid safeway seaview tower white",
   "name": "Safeway Seaview Mid Tower White Micro-ATX Gaming Desktop Casing",
@@ -942903,10 +943081,13 @@
   "category": "ssd",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 512GB",
-   "Interface: PCIe Gen4 ×4 NVMe 1.4",
-   "Form Factor: M.2 2280-S2",
-   "Read: 7200MB/s, Write: 4300MB/s"
+   "Type: Internal SSD",
+   "Storage: 512GB",
+   "Form Factor (Inch): M.2 2280",
+   "Interface(s): PCIe Gen4x4",
+   "Read Speed (Max.): 7200MB/s",
+   "Write Speed (Max.): 4300MB/s",
+   "Color: Black"
   ],
   "key": "ssd|512gb 530 barracuda gen4 m.2 pcie seagate",
   "name": "Seagate BarraCuda 530 512GB Gen4 M.2 2280 PCIe NVMe SSD",
@@ -949812,9 +949993,9 @@
   "created": "2026-11-10",
   "features": [
    "Capacity: 10 Gallon (45L)",
-   "Fully automatic",
-   "Silver-coated immersion heating element",
-   "For Highrise Building Above Six Storied"
+   "Rated Power: 1500W",
+   "Heating Element: Silver-Coated Immersion Element",
+   "Compatibility: Above 6-Dtorey Buildings"
   ],
   "key": "geyser-heater|10 gallon geyser shameem special tropica",
   "name": "Shameem Tropica 10 Gallon Special Geyser (45 Litre)",
@@ -949826,10 +950007,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 10 Gallon (45L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 1500W",
+   "Tank Material: Glass-Lined Inner Tank",
+   "Heating Element: Magnesium Anode Water Heater"
   ],
   "key": "geyser-heater|10 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 10 Gallon Standard Geyser (45 Litre)",
@@ -949841,10 +950022,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic, Wall Hanging",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 10 Gallon (45L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 1200W",
+   "Installation Type: Wall Hanging",
+   "Safety: Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|10 gallon geyser hanging shameem standard tropica wall",
   "name": "Shameem Tropica 10 Gallon Wall Hanging Standard Geyser (45 Litre)",
@@ -949871,10 +950052,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 100 Gallon (450L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 8000W",
+   "Tank Material: Glass-Lined Inner Tank with Magnesium Anode",
+   "Safety: 125 PSI Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|100 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 100 Gallon Standard Geyser (450 Litre)",
@@ -949917,9 +950098,9 @@
   "created": "2026-11-10",
   "features": [
    "Capacity: 15 Gallon (67.5L)",
-   "Fully automatic",
-   "Silver-coated immersion heating element",
-   "For Highrise Building Above Six Storied"
+   "Rated Power: 1500W",
+   "Heating Element: Silver-Coated Immersion Heating Element",
+   "Safety: Temperature and Pressure Relief Valve"
   ],
   "key": "geyser-heater|15 gallon geyser shameem special tropica",
   "name": "Shameem Tropica 15 Gallon Special Geyser (67.5 Litre)",
@@ -949931,10 +950112,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 15 Gallon (67.5L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 1500W",
+   "Tank Material: Glass-Lined Inner Tank",
+   "Safety: Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|15 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 15 Gallon Standard Geyser (67.5 Litre)",
@@ -949946,10 +950127,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic, Wall Hanging",
-   "Magnesium anode water heater,Glass-lined inner tank",
    "Capacity: 15 Gallon (67.5L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 1500W",
+   "Installation Type: Wall Hanging",
+   "Safety: 125 PSI Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|15 gallon geyser hanging shameem standard tropica wall",
   "name": "Shameem Tropica 15 Gallon Wall Hanging Standard Geyser (67.5 Litre)",
@@ -949976,10 +950157,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 150 Gallon (675L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 8000W",
+   "Heating Element: Italian-Made Copper Element",
+   "Safety: Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|150 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 150 Gallon Standard Geyser (675 Litre)",
@@ -950007,9 +950188,9 @@
   "created": "2026-11-10",
   "features": [
    "Capacity: 20 Gallon (90L)",
-   "Fully automatic",
-   "Silver-coated immersion heating element",
-   "For Highrise Building Above Six Storied"
+   "Rated Power: 2000W",
+   "Heating Element: Silver-Coated Immersion Heating",
+   "Operation: Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|20 gallon geyser shameem special tropica",
   "name": "Shameem Tropica 20 Gallon Special Geyser (90 Liter)",
@@ -950021,10 +950202,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
-   "Capacity: 20 Gallon (90 Liter)",
-   "Suitable For Maximum Six Storied Building"
+   "Capacity: 20 Gallon (90L)",
+   "Rated Power: 2000W",
+   "Operation: Fully Automatic",
+   "Safety: Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|20 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 20 Gallon Standard Geyser (90 Liter)",
@@ -950036,10 +950217,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic, Wall Hanging",
-   "Magnesium anode water heater, Glass-lined inner tank",
-   "Capacity: 20 Gallon (90 Liter)",
-   "Suitable For Maximum Six Storied Building"
+   "Capacity: 20 Gallon (90L)",
+   "Rated Power: 2000W",
+   "Installation Type: Wall Hanging",
+   "Safety: 125 PSI Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|20 gallon geyser hanging shameem standard tropica wall",
   "name": "Shameem Tropica 20 Gallon Wall Hanging Standard Geyser (90 Liter)",
@@ -950067,9 +950248,9 @@
   "created": "2026-11-10",
   "features": [
    "Capacity: 25 Gallon (112.5L)",
-   "Fully automatic",
-   "Silver-coated immersion heating element",
-   "For Highrise Building Above Six Storied"
+   "Rated Power: 2000W",
+   "Operation: Fully Automatic",
+   "Safety: Pressure Release Valve"
   ],
   "key": "geyser-heater|25 gallon geyser shameem special tropica",
   "name": "Shameem Tropica 25 Gallon Special Geyser (112.5 Liter)",
@@ -950081,10 +950262,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 25 Gallon (112.5L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 2000W",
+   "Operation: Fully Automatic",
+   "Safety: 125 PSI Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|25 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 25 Gallon Standard Geyser (112.5 Liter)",
@@ -950111,10 +950292,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 30 Gallon (135L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 2700W",
+   "Operation: Fully Automatic",
+   "Safety: 125 PSI Pressure Release Safety Valve"
   ],
   "key": "geyser-heater|30 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 30 Gallon Standard Geyser (135 Litre)",
@@ -950127,9 +950308,9 @@
   "created": "2026-11-10",
   "features": [
    "Capacity: 7 Gallon (30L)",
-   "Fully automatic",
-   "Silver-coated immersion heating element",
-   "For Highrise Building Above Six Storied"
+   "Rated Power: 1500W",
+   "Heating Element: Silver-Coated Immersion Element",
+   "Compatibility: Above 6 Storeys Building"
   ],
   "key": "geyser-heater|30 geyser litre shameem tropica",
   "name": "Shameem Tropica 30 Litre Geyser (7 Gallon Special)",
@@ -950141,10 +950322,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 7 Gallon (30L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 1500W",
+   "Tank Material: Glass-Lined Inner Tank",
+   "Heating Element: Magnesium Anode Water Heater"
   ],
   "key": "geyser-heater|30 geyser litre shameem tropica",
   "name": "Shameem Tropica 30 Litre Geyser (7 Gallon Standard)",
@@ -950171,10 +950352,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
-   "Capacity:  40 Gallon (180L)",
-   "Suitable For Maximum Six Storied Building"
+   "Capacity: 40 Gallon (180L)",
+   "Rated Power: 3500W",
+   "Tank Protection: Glass-Lined Inner with Magnesium Anode",
+   "Safety: 125 PSI Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|40 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 40 Gallon Standard Geyser (180 Litre)",
@@ -950201,10 +950382,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
    "Capacity: 50 Gallon (225L)",
-   "Suitable For Maximum Six Storied Building"
+   "Rated Power: 4000W",
+   "Tank Protection: Glass-Lined Inner Tank with Magnesium Anode",
+   "Safety: 125 PSI Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|50 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 50 Gallon Standard Geyser (225 Litre)",
@@ -950231,10 +950412,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
-   "Capacity: 60 Gallon ( 270L)",
-   "Suitable For Maximum Six Storied Building"
+   "Capacity: 60 Gallon (270L)",
+   "Rated Power: 5000W",
+   "Tank Protection: Glass-Lined Inner Tank with Magnesium Anode",
+   "Safety: 125 PSI Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|60 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 60 Gallon Standard Geyser (270 Litre)",
@@ -950291,10 +950472,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Fully automatic",
-   "Magnesium anode water heater, Glass-lined inner tank",
-   "Capacity:  80 Gallon (360L)",
-   "Suitable For Maximum Six Storied Building"
+   "Capacity: 80 Gallon (360L)",
+   "Rated Power: 6000W",
+   "Tank Protection: Glass-Lined Inner Tank with Magnesium Anode",
+   "Safety: 125 PSI Pressure Relief Safety Valve"
   ],
   "key": "geyser-heater|80 gallon geyser shameem standard tropica",
   "name": "Shameem Tropica 80 Gallon Standard Geyser (360 Litre)",
@@ -958121,13 +958302,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 Type-A x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|argb casing precision pro ps15 ps15b silverstone sst",
   "name": "SilverStone Precision PS15 PRO ARGB Desktop Casing #SST-PS15B-PRO",
@@ -960801,10 +960982,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 45 Liters Per Hour",
-   "Tank Water Capacity: 26 Liters",
+   "Capacity: 26 Litres Tank, 45 Litre Heat Per Hour",
    "Rated Power: 1500W",
-   "Heating Time: 10-12 Minutes"
+   "Type: Fully Automatic",
+   "Heating Time: 10–12 Minutes"
   ],
   "key": "geyser-heater|45l fgssblk45l heater singer srwh water",
   "name": "Singer SRWH-FGSSBLK45L 45L Water Heater",
@@ -960816,10 +960997,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 45 Liters Per Hour",
-   "Tank Water Capacity: 26 Liters",
+   "Capacity: 26 Litres, 45 Litre Heat Per Hour",
    "Rated Power: 1500W",
-   "Heating Time: 10-12 Minutes"
+   "Heating Time: 10-12 Minutes",
+   "Safety: Italian Thermostat with Automatic Heating Cut-Off"
   ],
   "key": "geyser-heater|45l fgssred45l heater singer srwh water",
   "name": "Singer SRWH-FGSSRED45L 45L Water Heater",
@@ -981627,7 +981808,6 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: No",
@@ -1006367,10 +1006547,13 @@
   "category": "desktop-ram",
   "created": "2026-11-10",
   "features": [
-   "Capacity: 8GB",
-   "Type: DDR5, Speed: 5600MHz",
-   "Operating Voltage: 1.2V",
-   "Latency: CL40"
+   "Capacity (GB/TB): 8GB",
+   "RAM Type: DDR5",
+   "Bus Speed(MHz): 5600MHz",
+   "Number of Pin: 288 Pin",
+   "CAS Latency: CL40-40-40-84",
+   "LED Lighting: RGB",
+   "Color: White"
   ],
   "key": "desktop-ram|5600 8gb ddr5 delta force rgb t team",
   "name": "Team T-FORCE DELTA RGB 8GB DDR5 5600MHz Desktop RAM",
@@ -1021229,10 +1021412,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertical",
    "Capacity: 50 Litres",
-   "Rated Power: 1600 / 800 W",
-   "Heating time: 1:37 / 3:15 h:min"
+   "Rated Power: 1600/800W",
+   "Installation Type: Vertical",
+   "Safety: Capillary Thermostat and Anode Protection"
   ],
   "key": "geyser-heater|50l anticalc heater tesy water",
   "name": "TESY Anticalc 50L Water Heater",
@@ -1021259,10 +1021442,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertically & Horizontally",
    "Capacity: 30 Litres",
-   "Rated Power: 1200/2200 W",
-   "Heating time: 1 hour 5 minutes"
+   "Rated Power: 1200/2200W",
+   "Installation Type: Vertical and Horizontal",
+   "Safety: Pressure Relief Valve and Anti-Freeze Protection"
   ],
   "key": "geyser-heater|30l bellislimo heater tesy water",
   "name": "TESY BelliSlimo 30L Water Heater",
@@ -1021289,10 +1021472,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertically & Horizontally",
    "Capacity: 50 Litres",
-   "Rated Power: 1200/2200 W",
-   "Heating time: 80 min"
+   "Rated Power: 1200/2200W",
+   "Installation Type: Vertical and Horizontal",
+   "Safety: Pressure Relief Valve and Anti-Freeze Protection"
   ],
   "key": "geyser-heater|50l bellislimo heater tesy water",
   "name": "TESY BelliSlimo 50L Water Heater",
@@ -1021319,10 +1021502,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertically & Horizontally",
    "Capacity: 80 Litres",
-   "Rated Power: 2400 W",
-   "Heating time: 130 min"
+   "Rated Power: 2400W",
+   "Installation Type: Vertical and Horizontal",
+   "Safety: Pressure Relief Valve and Anti-Freeze"
   ],
   "key": "geyser-heater|80l bellislimo heater tesy water",
   "name": "TESY BelliSlimo 80L Water Heater",
@@ -1021334,10 +1021517,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Vertically & Horizontally",
-   "Capacity: 40 Litres, WiFi Connectivity",
-   "Rated Power: 1200/2200 W",
-   "Heating time: 1:20 h:min"
+   "Capacity: 40 Litres",
+   "Rated Power: 1200/2200W",
+   "Connectivity: Wi-Fi with MyTESY App",
+   "Safety: Capillary Thermostat and Anode Protection"
   ],
   "key": "geyser-heater|40l bellislimo cloud heater tesy water wifi",
   "name": "TESY BelliSlimo Cloud 40L Water Heater With WiFi",
@@ -1021349,10 +1021532,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 100 Litres",
    "Rated Power: 2000W",
-   "Heating time: 2:36 h:min"
+   "Heating Time: 2 Hours 36 Minutes",
+   "Safety: Pressure Relief Valve and Anti-Freeze Protection"
   ],
   "key": "geyser-heater|100 bilight heater horizontal liter tesy water",
   "name": "TESY BiLight 100 Liter Horizontal Water Heater",
@@ -1021379,10 +1021562,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 30 Litres",
    "Rated Power: 1500W",
-   "Heating time: 1:18 h: min"
+   "Installation Type: Horizontal",
+   "Safety: Pressure Relief Valve and  Freeze protection"
   ],
   "key": "geyser-heater|30 bilight heater horizontal liter tesy water",
   "name": "TESY BiLight 30 Liter Horizontal Water Heater",
@@ -1021409,10 +1021592,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 50 Litres",
    "Rated Power: 2000W",
-   "Heating time: 1:44 h:min"
+   "Heating Element: Copper Heating",
+   "Safety: Pressure Relief Valve and Anti-Freeze"
   ],
   "key": "geyser-heater|50 bilight heater horizontal liter tesy water",
   "name": "TESY BiLight 50 Liter Horizontal Water Heater",
@@ -1021439,10 +1021622,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Horizontal",
    "Capacity: 80 Litres",
    "Rated Power: 2000W",
-   "Heating time: 2:08 h:min"
+   "Installation Type: Horizontal",
+   "Safety: Pressure Relief Valve"
   ],
   "key": "geyser-heater|80 bilight heater horizontal liter tesy water",
   "name": "TESY BiLight 80 Liter Horizontal Water Heater",
@@ -1021544,10 +1021727,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Above Sink",
    "Capacity: 10 Litres",
    "Rated Power: 1500W",
-   "Heating time: 0:20 h: min"
+   "Installation Type: Above Sink",
+   "Safety: Pressure Relief Valve and Hygiene Protection"
   ],
   "key": "geyser-heater|10l above compact heater sink tesy water",
   "name": "TESY Compact Above Sink 10L Water Heater",
@@ -1021559,10 +1021742,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Above Sink",
    "Capacity: 15 Litres",
    "Rated Power: 1500W",
-   "Heating time: 0:31 h: min"
+   "Installation Type: Above Sink",
+   "Safety: Pressure Relief Valve and Hygiene Protection"
   ],
   "key": "geyser-heater|15l above compact heater sink tesy water",
   "name": "TESY Compact Above Sink 15L Water Heater",
@@ -1021589,10 +1021772,10 @@
   "category": "geyser-heater",
   "created": "2026-11-10",
   "features": [
-   "Installation type: Under Sink",
    "Capacity: 10 Litres",
    "Rated Power: 1500W",
-   "Heating time: 0:20 h: min"
+   "Installation Type: Under Sink",
+   "Safety: Pressure Relief Valve and Hygiene Protection"
   ],
   "key": "geyser-heater|10l compact heater sink tesy under water",
   "name": "TESY Compact Under Sink 10L Water Heater",
@@ -1021619,10 +1021802,10 @@
   "category": "geyser-heater",
   "created": "2026-11-11",
   "features": [
-   "Installation type: Under Sink",
    "Capacity: 15 Litres",
    "Rated Power: 1500W",
-   "Heating time: 0:31 h: min"
+   "Installation Type: Under Sink",
+   "Safety: Pressure Relief Valve and Hygiene Protection"
   ],
   "key": "geyser-heater|15l compact heater low sink tesy under volume water",
   "name": "TESY Compact Under Sink 15L Water Heater Low-Volume",
@@ -1026703,13 +1026886,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 3.0, 1 x USB-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black case m10 mid thermalright tl tower",
   "name": "Thermalright TL-M10 Mid Tower Black (Tempered Glass Window) M-ATX Gaming Desktop Case",
@@ -1026722,13 +1026905,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 3.0, 1 x USB-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|atx case m10w mid thermalright tl tower white",
   "name": "Thermalright TL-M10W Mid Tower White (Tempered Glass Window) M-ATX Gaming Desktop Case",
@@ -1026741,13 +1026924,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB 3.0, 1 x USB-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|6.9 atx case display lcd m10w mid thermalright tl tower vision white",
   "name": "Thermalright TL-M10W Vision Mid Tower White (Tempered Glass Window) M-ATX Gaming Desktop Case With 6.9 Inch LCD Display",
@@ -1028278,13 +1028461,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Micro Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 1 x USB3.1 Gen 2 Type-C, 2 x USB3.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|00 00s1wn 1r4 ah black ca casing micro snow t200 thermaltake tower",
   "name": "Thermaltake AH T200 Snow Micro Tower Black Desktop Casing #CA-1R4-00S1WN-00",
@@ -1028297,13 +1028480,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Full Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 1 x Type-C, 2 x USB3.0, 1 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1q4 ah atx black ca case full t600 thermaltake tower",
   "name": "Thermaltake AH T600 Full Tower Black (Tempered Glass) ATX Desktop Case #CA-1Q4-00M1WN-00",
@@ -1028684,13 +1028867,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|argb black casing commander g32 mid tg thermaltake tower",
   "name": "Thermaltake Commander G32 TG ARGB Mid Tower Black Gaming Desktop Casing",
@@ -1028703,13 +1028886,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1p3 argb black ca casing commander g33 mid tg thermaltake tower",
   "name": "Thermaltake Commander G33 TG ARGB Mid Tower Black Gaming Desktop Casing #CA-1P3-00M1WN-00",
@@ -1028739,13 +1028922,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00t1wn 1g6 ca casing core g3 slim thermaltake",
   "name": "Thermaltake Core G3 Slim Gaming Desktop Casing #CA-1G6-00T1WN-00",
@@ -1029122,13 +1029305,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.2 Gen 2 Type-C, 2 x USB 3.0 Type-A",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00m1wn 02 1s2 300 air argb atx black ca casing divider mesh mid tg thermaltake tower",
   "name": "Thermaltake Divider 300 TG Air ARGB ATX Mesh Mid Tower Black Gaming Desktop Casing #CA-1S2-00M1WN-02",
@@ -1029383,13 +1029566,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1r9 black ca casing h350 mid rgb tg thermaltake tower",
   "name": "Thermaltake H350 TG RGB Mid Tower Black Desktop Casing #CA-1R9-00M1WN-00",
@@ -1029402,13 +1029585,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1p4 argb black ca casing h550 mid tg thermaltake tower",
   "name": "Thermaltake H550 TG ARGB Edition Mid Tower Black Desktop Casing #CA-1P4-00M1WN-00",
@@ -1029615,19 +1029798,38 @@
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-lb360-s-argb-sync-aio-snow-liquid-cpu-11779185525.webp"
  },
+ "thermaltake-level-20-mt-argb-mid-tower-black-desktop-casing-ca-1m7-00m1wn-00": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-28",
+  "features": [
+   "Case Type: Mid Tower",
+   "Front/Top USB port: 2 x USB3.0",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 4",
+   "Lighting Fan: ARGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00 00m1wn 1m7 20 argb black ca casing level mid mt thermaltake tower",
+  "name": "Thermaltake Level 20 MT ARGB Mid Tower Black Desktop Casing #CA-1M7-00M1WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-level-20-mt-argb-mid-towre-black-21557313002.webp"
+ },
  "thermaltake-level-20-rs-argb-mid-tower-black-tempered-glass-atx-desktop-case-ca": {
   "brand": "Thermaltake",
   "category": "casing",
   "created": "2026-11-20",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1p8 20 argb atx black ca case level mid rs thermaltake tower",
   "name": "Thermaltake Level 20 RS ARGB Mid Tower Black (Tempered Glass) ATX Desktop Case #CA-1P8-00M1WN-00",
@@ -1030585,13 +1030787,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 1",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Beige"
   ],
   "key": "casing|360 atx beige case glass mid retro tempered tg thermaltake tower",
   "name": "Thermaltake Retro 360 TG Tempered Glass Beige ATX Mid Tower Gaming Desktop Case",
@@ -1030796,13 +1030998,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Snow"
   ],
   "key": "casing|00 00m6wn 1x2 argb atx ca case mesh mid s200 snow tg thermaltake tower",
   "name": "Thermaltake S200 TG ARGB Mesh Mid Tower Snow ATX Gaming Desktop Case #CA-1X2-00M6WN-00",
@@ -1030830,13 +1031032,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1o3 black ca casing mid s500 tg thermaltake tower",
   "name": "Thermaltake S500 TG Mid Tower Black Desktop Casing #CA-1O3-00M1WN-00",
@@ -1035042,13 +1035244,13 @@
   "created": "2026-11-20",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1q5 argb atx black ca case mid tg thermaltake tower v250",
   "name": "Thermaltake V250 TG ARGB Mid Tower Black ATX Desktop Case #CA-1Q5-00M1WN-00",
@@ -1035061,18 +1035263,56 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 xUSB 2.0, 1 xUSB 3.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1c2 black ca casing h25 mid thermaltake tower versa",
   "name": "Thermaltake Versa H25 Mid Tower Black Desktop Casing #CA-1C2-00M1WN-00",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-ca-1c2-00m1wn-00-versa-h25-black-11545903225.webp"
+ },
+ "thermaltake-versa-h26-mid-tower-desktop-casing-ca-1j5-00m1wn-00": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-28",
+  "features": [
+   "Case Type: Mid Tower",
+   "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
+   "Optical Drive Bay: Yes",
+   "Cooling Fan (Built-In): 1",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00 00m1wn 1j5 ca casing h26 mid thermaltake tower versa",
+  "name": "Thermaltake Versa H26 Mid Tower Desktop Casing #CA-1J5-00M1WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-h26-tempared-glass-side-window-21552198701.webp"
+ },
+ "thermaltake-versa-j21-tg-mid-tower-black-desktop-casing-ca-1k1-00m1wn-00": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-28",
+  "features": [
+   "Case Type: Mid Tower",
+   "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 1",
+   "Lighting Fan: No",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00 00m1wn 1k1 black ca casing j21 mid tg thermaltake tower versa",
+  "name": "Thermaltake Versa J21 TG Mid Tower Black Desktop Casing #CA-1K1-00M1WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-j21-tg-tempered-glass-side-21552198232.webp"
  },
  "thermaltake-versa-j22-tg-mid-tower-black-desktop-casing-ca-1l5-00m1wn-00": {
   "brand": "Thermaltake",
@@ -1035080,13 +1035320,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1l5 black ca casing j22 mid tg thermaltake tower versa",
   "name": "Thermaltake Versa J22 TG Mid Tower Black Desktop Casing #CA-1L5-00M1WN-00",
@@ -1035099,13 +1035339,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00m1wn 01 1l5 black ca casing j22 mid rgb tg thermaltake tower versa",
   "name": "Thermaltake Versa J22 TG RGB Mid Tower Black Desktop Casing # CA-1L5-00M1WN-01",
@@ -1035118,13 +1035358,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1l6 black ca casing j23 mid tg thermaltake tower versa",
   "name": "Thermaltake Versa J23 TG Mid Tower Black Desktop Casing #CA-1L6-00M1WN-00",
@@ -1035137,18 +1035377,37 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00m1wn 01 1l6 black ca casing j23 mid rgb tg thermaltake tower versa",
   "name": "Thermaltake Versa J23 TG RGB Mid Tower Black Desktop Casing #CA-1L6-00M1WN-01",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-j23-tg-rgb-tempered-glass-side-21552196992.webp"
+ },
+ "thermaltake-versa-j24-tg-rgb-mesh-mid-tower-black-desktop-casing-ca-1l7-00m1wn": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-28",
+  "features": [
+   "Case Type: Mid Tower",
+   "Front/Top USB port: 2 x USB3.0",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 4",
+   "Lighting Fan: RGB",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: Black"
+  ],
+  "key": "casing|00m1wn 01 1l7 black ca casing j24 mesh mid rgb tg thermaltake tower versa",
+  "name": "Thermaltake Versa J24 TG RGB Mesh Mid Tower Black Desktop Casing #CA-1L7-00M1WN-01",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-versa-j24-tg-rgb-tempered-glass-side-21552197565.webp"
  },
  "thermaltake-versa-j25-tg-rgb-edition-mid-tower-black-desktop-casing-ca-1l8-00m1w": {
   "brand": "Thermaltake",
@@ -1035156,13 +1035415,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x USB3.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00m1wn 01 1l8 black ca casing j25 mid rgb tg thermaltake tower versa",
   "name": "Thermaltake Versa J25 TG RGB Edition Mid Tower Black Desktop Casing #CA-1L8-00M1WN-01",
@@ -1035243,13 +1035502,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Snow"
   ],
   "key": "casing|00 00m6wn 170 1z4 argb atx ca case mini snow tg thermaltake tower view",
   "name": "Thermaltake View 170 TG ARGB Mini Tower Snow M-ATX Gaming Desktop Case #CA-1Z4-00M6WN-00",
@@ -1035337,13 +1035596,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 2 x USB 3.0, 1 x USB 3.2 (Gen 2) Type-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|270 3 argb atx black casing e fan glass mid plus tempered thermaltake tower view ws",
   "name": "Thermaltake View 270 Plus WS ARGB Tempered Glass Black E-ATX Mid Tower 3-Fan Gaming Desktop Casing",
@@ -1035356,13 +1035615,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 2 x USB 3.0, 1 x USB 3.2 (Gen 2) Type-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Snow"
   ],
   "key": "casing|270 3 argb atx casing e fan glass mid plus snow tempered thermaltake tower view ws",
   "name": "Thermaltake View 270 Plus WS ARGB Tempered Glass Snow E-ATX Mid Tower 3-Fan Gaming Desktop Casing",
@@ -1035375,13 +1035634,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 11g 290 argb atx black ca case mid tg thermaltake tower view",
   "name": "Thermaltake View 290 TG ARGB Mid Tower Black ATX Gaming Desktop Case #CA-11G-00M1WN-00",
@@ -1035394,13 +1035653,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Snow"
   ],
   "key": "casing|00 00m6wn 11g 290 argb atx ca case mid snow tg thermaltake tower view",
   "name": "Thermaltake View 290 TG ARGB Mid Tower Snow ATX Gaming Desktop Case #CA-11G-00M6WN-00",
@@ -1035458,13 +1035717,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Future Dusk"
   ],
   "key": "casing|380 4 argb atx case dusk fans future glass mid tempered tg thermaltake tower view xl",
   "name": "Thermaltake View 380 XL TG ARGB Tempered Glass Future Dusk ATX Mid Tower Gaming Desktop Case with 4 ARGB Fans",
@@ -1035477,13 +1035736,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Black"
   ],
   "key": "casing|380 4 argb atx black case design fans mid thermaltake tower view wood ws xl",
   "name": "Thermaltake View 380 XL WS ARGB Wood Design Black ATX Mid Tower Gaming Desktop Case with 4 ARGB Fans",
@@ -1035496,13 +1035755,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Macha Green"
   ],
   "key": "casing|380 4 argb atx case design fans green matcha mid thermaltake tower view wood ws xl",
   "name": "Thermaltake View 380 XL WS ARGB Wood Design Matcha Green ATX Mid Tower Gaming Desktop Case with 4 ARGB Fans",
@@ -1035515,13 +1035774,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Snow"
   ],
   "key": "casing|380 4 argb atx case design fans mid snow thermaltake tower view wood ws xl",
   "name": "Thermaltake View 380 XL WS ARGB Wood Design Snow ATX Mid Tower Gaming Desktop Case with 4 ARGB Fans",
@@ -1035553,13 +1035812,13 @@
   "created": "2026-11-20",
   "features": [
    "Case Type: Full Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 1 x Type-C, 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00m1wn 1q6 51 argb atx black ca case full tg thermaltake tower view",
   "name": "Thermaltake View 51 TG ARGB Edition Full Tower Black (Tempered Glass) ATX Desktop Case #CA-1Q6-00M1WN-00",
@@ -1035572,18 +1035831,37 @@
   "created": "2026-11-20",
   "features": [
    "Case Type: Full Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 1 x Type-C, 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|00 00m6wn 1q6 51 argb atx ca casing full snow tg thermaltake tower view white",
   "name": "Thermaltake View 51 TG Snow ARGB Edition Full Tower White ATX Desktop Casing #CA-1Q6-00M6WN-00",
   "specs": {},
   "store_image": "https://www.ryans.com/storage/products/small/thermaltake-view-51-tg-snow-argb-edition-full-11601718987.webp"
+ },
+ "thermaltake-view-71-tg-4x-tempered-glass-full-tower-white-desktop-case-ca-1i7": {
+  "brand": "Thermaltake",
+  "category": "casing",
+  "created": "2026-11-28",
+  "features": [
+   "Case Type: Full Tower",
+   "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
+   "Optical Drive Bay: No",
+   "Cooling Fan (Built-In): 2",
+   "Lighting Fan: LED",
+   "Power Supply (Built-In): No",
+   "Back-Connect Supported: No",
+   "Color: White"
+  ],
+  "key": "casing|00 00f6wn 1i7 4x 71 ca case full glass tempered tg thermaltake tower view white",
+  "name": "Thermaltake View 71 TG 4x Tempered Glass Full Tower White Desktop Case # CA-1I7-00F6WN-00",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/thermaltake-view-71-tg-4x-tempered-glass-full-11557636138.webp"
  },
  "thermaltake-view-71-tg-4x-tempered-glass-side-window-blue-led-full-tower-black-d": {
   "brand": "Thermaltake",
@@ -1035591,13 +1035869,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Full Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: LED",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00f1wn 1i7 4x 71 black blue ca case full glass led side tempered tg thermaltake tower view window",
   "name": "Thermaltake View 71 TG 4x Tempered Glass Side Window, Blue LED Full Tower Black Desktop Case #CA-1I7-00F1WN-00",
@@ -1035610,13 +1035888,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Full Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 2 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 2",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00f1wn 01 1i7 4x 71 black ca case full glass rgb side tempered tg thermaltake tower view window",
   "name": "Thermaltake View 71 TG RGB 4x Tempered Glass Side Window Full Tower Black Desktop Case #CA-1I7-00F1WN-01",
@@ -1035629,13 +1035907,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Super Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 4 x USB3.0, 1 x USB Type-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|00 00f1wn 1i9 3x 91 black ca case glass rgb super tempered thermaltake tower view",
   "name": "Thermaltake View 91 Tempered Glass RGB Edition 3x Super Tower Black Gaming Desktop Case #CA-1I9-00F1WN-00",
@@ -1035648,13 +1035926,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 5",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Black"
   ],
   "key": "casing|330 argb atx black case cr glass mid tempered thermaltake tower vision",
   "name": "Thermaltake Vision 330 CR ARGB Tempered Glass Black ATX Mid Tower Gaming Desktop Case",
@@ -1035667,13 +1035945,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 5",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Snow"
   ],
   "key": "casing|330 argb atx case cr glass mid snow tempered thermaltake tower vision",
   "name": "Thermaltake Vision 330 CR ARGB Tempered Glass Snow ATX Mid Tower Gaming Desktop Case",
@@ -1058141,9 +1058419,10 @@
   "category": "network-switch",
   "created": "2026-11-10",
   "features": [
-   "8 10/100/1000Mbps RJ45 Ports",
-   "Dimension: 7.1 * 3.5 * 1.0 in",
-   "MAC Address Table: 4K"
+   "Interface: 8-Port RJ45, Type: Desktop Switch",
+   "Network Standards: IEEE 802.3i/802.3u/ 802.3ab/802.3x",
+   "Data Transfer Rate: 10/100/1000 Mbps",
+   "Switching Capacity: 16 Gbps, Jumbo Frame: 15 KB"
   ],
   "key": "network-switch|08 gigabit link port sg1008d switch tl tp",
   "name": "TP-Link TL-SG1008D 08 Port Gigabit Desktop Switch",
@@ -1094785,6 +1095064,23 @@
   "specs": {},
   "store_image": "https://www.techlandbd.com/cache/images/uploads/products/P1692511008/ugreen-cable-dp115-cover.webp"
  },
+ "ugreen-dp115-80395-displayport-male-to-hdmi-male-1-meter-black-cable-80395-8k": {
+  "brand": "UGREEN",
+  "category": "hub-dock",
+  "created": "2026-11-28",
+  "features": [
+   "Type: Video",
+   "Port Side-1: DisplayPort Male",
+   "Port Side-2: HDMI Male",
+   "Length.: 1 Meter",
+   "Display Resolution (Pixels): 7680 x 4320",
+   "Color: Black"
+  ],
+  "key": "hub-dock|1 80395 black cable displayport dp115 hdmi male meter to ugreen",
+  "name": "UGREEN DP115 (80395) DisplayPort Male to HDMI Male, 1 Meter, Black Cable # 80395 (8K)",
+  "specs": {},
+  "store_image": "https://www.ryans.com/storage/products/small/ugreen-dp115-80395-displayport-male-to-hdmi-11747729987.webp"
+ },
  "ugreen-dp118-1-meter-displayport-16k-cable-15383": {
   "brand": "Ugreen",
   "category": "cable",
@@ -1120032,13 +1120328,13 @@
   "created": "2026-11-23",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 1 x USB 3.0, 3 x USB 2.0",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx casing psu r853 top value vt",
   "name": "Value Top VT-R853 ATX Desktop Casing With PSU",
@@ -1120088,13 +1120384,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 1 x USB 3.0, 1 x USB 2.0",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: LED",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black case micro mid psu r858 standard top tower value vt",
   "name": "Value Top VT-R858 Mid Tower Black Micro-ATX Desktop Case with Standard PSU",
@@ -1120135,13 +1120431,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 2 x USB",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx casing micro psu r860 r860r standard top value vt",
   "name": "Value Top VT-R860/VT-R860R Micro ATX Casing with Standard PSU",
@@ -1120163,13 +1120459,13 @@
   "created": "2026-11-23",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
-   "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
+   "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: Yes",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: No",
    "Power Supply (Built-In): Yes",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx casing mid psu r861 standard top tower value vt",
   "name": "Value Top VT-R861 Mid Tower ATX Desktop Casing with Standard PSU",
@@ -1125735,11 +1126031,11 @@
   "category": "earbuds",
   "created": "2026-11-10",
   "features": [
-   "Type: Earbuds",
-   "Connection Type: Wireless",
-   "Microphone: Yes",
-   "Plug Type: No",
-   "Color: Black"
+   "Driver Size: 13mm",
+   "Codec: SBC/AAC",
+   "Playback: Up to 30 hours",
+   "Bluetooth version: Bluetooth 5.4",
+   "Battery Capacity: 30mAh(buds), 300mAh(case)"
   ],
   "key": "earbuds|e11 earbuds echo lite plus vention",
   "name": "Vention Echo Lite E11 Plus Earbuds",
@@ -1135474,6 +1135770,51 @@
   "name": "VGR V-463 Hair Dryer",
   "specs": {},
   "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-463/v-463-01-228x228.webp"
+ },
+ "vgr-v-465-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-28",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Hanging Loop",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|465 dryer hair v vgr",
+  "name": "VGR V-465 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-465/v-465-01-228x228.webp"
+ },
+ "vgr-v-466-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-28",
+  "features": [
+   "Power Consumption: 2000–2400 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Detachable Filter",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|466 dryer hair v vgr",
+  "name": "VGR V-466 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-466/v-466-03-228x228.webp"
+ },
+ "vgr-v-467-hair-dryer": {
+  "brand": "VGR",
+  "category": "grooming",
+  "created": "2026-11-28",
+  "features": [
+   "Power Consumption: 1900–2300 W",
+   "2 Speed & 3 Temperature Settings",
+   "Cool Shot Function, Detachable Filter",
+   "Overheat Protection, 2 Nozzle Attachments"
+  ],
+  "key": "grooming|467 dryer hair v vgr",
+  "name": "VGR V-467 Hair Dryer",
+  "specs": {},
+  "store_image": "https://www.startech.com.bd/image/cache/catalog/hair-dryer/vgr/v-467/v-467-01-228x228.webp"
  },
  "vgr-v-494-rotating-hot-air-brush": {
   "brand": "VGR",
@@ -1187505,13 +1187846,13 @@
   "created": "2026-11-10",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 5",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: Yes"
+   "Back-Connect Supported: Yes",
+   "Color: Black"
   ],
   "key": "casing|aqua casing ii matx mini nano tower xigmatek",
   "name": "Xigmatek Aqua M Nano II mATX Mini-Tower Gaming Casing",
@@ -1187542,13 +1187883,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to E-ATX",
    "Front/Top USB port: 2 x USB 3.0, 2 x USB 2.0, 1 x USB Type-C",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 7",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|aqua arctic argb atx case e en40689 mid tower ultra white xigmatek",
   "name": "Xigmatek AQUA Ultra Arctic ARGB Mid Tower White E-ATX Gaming Desktop Case #EN40689",
@@ -1187640,13 +1187981,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0 & 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 3",
    "Lighting Fan: LED",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Pink"
   ],
   "key": "casing|aquarius atx casing en46553 mid pink queen s tower xigmatek",
   "name": "Xigmatek Aquarius S Queen Mid Tower Pink (Tempered Glass) ATX Gaming Casing # EN46553",
@@ -1189111,13 +1189452,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB3.0, 2 x USB2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing en46331 master mid tower x xigmatek",
   "name": "Xigmatek Master X Mid Tower Black (Tempered Glass) ATX Gaming Casing # EN46331",
@@ -1189332,13 +1189673,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 2 x 0.3 USB, 1 x 0.2 USB",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: ARGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|arctic atx casing en49806 mid phantom tower white xigmatek",
   "name": "Xigmatek Phantom Arctic Mid Tower White (Tempered Glass) ATX Gaming Casing # EN49806",
@@ -1189351,13 +1189692,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mini Tower",
-   "Supported Motherboard Type (Max.): Up to Micro-ATX",
    "Front/Top USB port: USB 3.0 x 1, USB 2.0 x 2",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 4",
    "Lighting Fan: LED",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|atx black casing en43606 en46010 ii mini scorpio tower xigmatek",
   "name": "Xigmatek Scorpio II Mini Tower Black M-ATX Gaming Casing #EN43606/EN46010",
@@ -1197868,13 +1198209,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: Black"
   ],
   "key": "casing|7 atx black casing d777b display lcd mesh mid tower xtreme",
   "name": "Xtreme D777B Mesh Mid Tower ATX Black Gaming Desktop Casing With 7 Inch LCD Display",
@@ -1197911,13 +1198252,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
    "Front/Top USB port: 1 x USB 3.0, 2 x USB 2.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): No",
    "Lighting Fan: No",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|7 atx casing d777w display lcd mesh mid tower white xtreme",
   "name": "Xtreme D777W Mesh Mid Tower ATX White Gaming Desktop Casing With 7 Inch LCD Display",
@@ -1200342,13 +1200683,13 @@
   "created": "2026-11-11",
   "features": [
    "Case Type: Mid Tower",
-   "Supported Motherboard Type (Max.): Up to ATX",
-   "Front/Top USB port: 2 x USB 2.0 Type-A, 1 x USB 3.0 Type-A",
+   "Front/Top USB port: 2 x USB 2.0, 1 x USB 3.0",
    "Optical Drive Bay: No",
    "Cooling Fan (Built-In): 1",
    "Lighting Fan: RGB",
    "Power Supply (Built-In): No",
-   "Back-Connect Supported: No"
+   "Back-Connect Supported: No",
+   "Color: White"
   ],
   "key": "casing|casing m200wh mid rgb tower white xjogos xtreme",
   "name": "Xtreme XJOGOS M200WH RGB Mid Tower White Gaming Desktop Casing",

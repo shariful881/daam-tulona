@@ -1,68 +1,68 @@
 {
- "date": "2026-11-27",
- "scraped_at": "2026-11-27T02:00+06:00",
+ "date": "2026-11-28",
+ "scraped_at": "2026-11-28T02:00+06:00",
  "stores": {
   "startech": {
    "enabled": true,
-   "items": 32300,
+   "items": 32307,
    "errors": [],
-   "seconds": 1784,
+   "seconds": 1826,
    "failed_cats": []
   },
   "ultratech": {
    "enabled": true,
    "items": 1118,
    "errors": [],
-   "seconds": 1432,
+   "seconds": 1429,
    "failed_cats": []
   },
   "pchouse": {
    "enabled": true,
    "items": 0,
    "errors": [],
-   "seconds": 297,
+   "seconds": 294,
    "failed_cats": []
   },
   "creatus": {
    "enabled": true,
    "items": 4033,
    "errors": [],
-   "seconds": 1208,
+   "seconds": 1247,
    "failed_cats": []
   },
   "smartbd": {
    "enabled": true,
    "items": 1533,
    "errors": [],
-   "seconds": 644,
+   "seconds": 666,
    "failed_cats": []
   },
   "fourstar": {
    "enabled": true,
    "items": 436,
    "errors": [],
-   "seconds": 496,
+   "seconds": 488,
    "failed_cats": []
   },
   "walton": {
    "enabled": true,
    "items": 251,
    "errors": [],
-   "seconds": 18,
+   "seconds": 28,
    "failed_cats": []
   },
   "minister": {
    "enabled": true,
    "items": 118,
    "errors": [],
-   "seconds": 691,
+   "seconds": 690,
    "failed_cats": []
   },
   "ryans": {
    "enabled": true,
-   "items": 28037,
+   "items": 27449,
    "errors": [],
-   "seconds": 8439,
+   "seconds": 8499,
    "failed_cats": []
   },
   "techland": {
@@ -205,16 +205,16 @@
   },
   "diamu": {
    "enabled": true,
-   "items": 1887,
+   "items": 1889,
    "errors": [],
-   "seconds": 525,
+   "seconds": 532,
    "failed_cats": []
   },
   "applegadgets": {
    "enabled": true,
    "items": 398,
    "errors": [],
-   "seconds": 132,
+   "seconds": 140,
    "failed_cats": []
   },
   "computervision": {
@@ -223,42 +223,46 @@
    "errors": [
     "https://computervision.com.bd/tablets-mobiles: HTTPError: 404 Client Error: Not Found for url: https://computervision.com.bd/tablets-mobiles"
    ],
-   "seconds": 3050,
+   "seconds": 3078,
    "failed_cats": [],
-   "matched": 6949,
+   "matched": 6944,
    "scraped": 9735
   },
   "eerna": {
    "enabled": true,
-   "items": 4371,
+   "items": 4578,
    "errors": [],
-   "seconds": 2099,
+   "seconds": 2293,
    "failed_cats": [],
-   "matched": 3132,
-   "scraped": 4309
+   "matched": 3000,
+   "scraped": 4536
   },
   "pqs": {
    "enabled": true,
-   "items": 11519,
+   "items": 11526,
    "errors": [],
-   "seconds": 1395,
+   "seconds": 1400,
    "failed_cats": [],
-   "matched": 7424,
-   "scraped": 11447
+   "matched": 7437,
+   "scraped": 11456
   },
   "bme": {
    "enabled": true,
-   "items": 0,
+   "items": 9289,
    "errors": [],
-   "seconds": 56,
-   "failed_cats": []
+   "seconds": 2339,
+   "failed_cats": [],
+   "matched": 4019,
+   "scraped": 9289
   },
   "selltech": {
    "enabled": true,
-   "items": 0,
+   "items": 1197,
    "errors": [],
-   "seconds": 71,
-   "failed_cats": []
+   "seconds": 403,
+   "failed_cats": [],
+   "matched": 797,
+   "scraped": 1195
   }
  }
 }
