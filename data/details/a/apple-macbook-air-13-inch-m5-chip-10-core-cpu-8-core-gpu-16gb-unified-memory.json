@@ -1,0 +1,74 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Apple M5 chip",
+   "Processor Core": "10-core CPU (4 super cores and 6 efficiency cores)",
+   "NPU": "16-core Neural Engine"
+  },
+  "Memory": {
+   "Ram": "16GB unified memory (153GB/s memory bandwidth)",
+   "Removable": "No (Built-in battery / Onboard unified memory & SSD)"
+  },
+  "Storage": {
+   "Storage Capacity": "512GB SSD"
+  },
+  "Graphics": {
+   "Graphics Model": "Integrated Apple M5 8-core GPU (Hardware-accelerated ray tracing)"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Backlit Magic Keyboard (78 ANSI or 79 ISO keys with 12 full-height function keys)",
+   "Keyboard Features": "Backlit keys, Ambient light sensor, Touch ID",
+   "TouchPad": "Force Touch trackpad (pressure-sensing, Force clicks, accelerators, pressure-sensitive drawing, Multi-Touch gestures)"
+  },
+  "Camera & Audio": {
+   "Webcam": "12MP Center Stage camera with Desk View support and 1080p HD video recording",
+   "Speaker": "Four-speaker sound system",
+   "Microphone": "Three-mic array with directional beamforming, Voice Isolation, and Wide Spectrum modes",
+   "Audio Features": "Spatial Audio with Dolby Atmos on built-in speakers; Spatial Audio with dynamic head tracking for supported AirPods; high-impedance headphone support"
+  },
+  "Ports & Slots": {
+   "HDMI Port": "No (External display supported via Thunderbolt 4 / USB-C)",
+   "USB Type-C / Thunderbolt Port": "2x Thunderbolt 4 (USB-C) ports (Charging, DisplayPort, Thunderbolt 4 up to 40Gb/s, USB 4 up to 40Gb/s)",
+   "Headphone & Microphone Port": "1x 3.5mm headphone jack (with advanced support for high-impedance headphones)"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 7 (802.11be)",
+   "Bluetooth": "Bluetooth 6"
+  },
+  "Security": {
+   "Fingerprint Sensor": "Yes (Touch ID)"
+  },
+  "Software": {
+   "Operating System": "macOS with Apple Intelligence support"
+  },
+  "Display": {
+   "Display Size": "13.6-inch (diagonal)",
+   "Display Type": "LED-backlit Liquid Retina display with IPS technology",
+   "Display Resolution": "2560 x 1664 native resolution at 224 ppi",
+   "Display Features": "500 nits brightness, 1 billion colours, P3 wide colour, True Tone technology",
+   "Refresh Rate": "60Hz"
+  },
+  "External Features": {
+   "Color(s)": "Sky Blue, Silver, Starlight, Midnight",
+   "Dimensions": "1.13 x 30.41 x 21.5 cm (0.44 x 11.97 x 8.46 inches)",
+   "Weight": "1.23 kg – 1.24 kg (2.7 lb)"
+  },
+  "Power": {
+   "Battery Type": "Built-in lithium-polymer battery",
+   "Battery Capacity": "53.8Wh (Up to 18 hours video streaming / up to 15 hours wireless web)",
+   "Adapter Type": "40W Dynamic Power Adapter with 60W Max (USB-C to MagSafe 3 charging)"
+  },
+  "Warranty Information": {
+   "Warranty": "1-Year International Limited Warranty (Verify local warranty terms with seller)"
+  },
+  "Image": {
+   "Model": "MacBook Air 13-inch"
+  }
+ },
+ "key_features": [],
+ "model": "MacBook Air 13-inch",
+ "warranty": "1-Year International Limited Warranty (Verify local warranty terms with seller)",
+ "fetched": "2026-11-27T19:08+06:00",
+ "source": "https://www.creatus.com.bd/apple-macbook-air-13-inch-m5-16gb-512gb-ssd",
+ "store": "creatus"
+}

@@ -1,0 +1,90 @@
+{
+ "specs": {
+  "Processor": {
+   "Processor Model": "Intel Core 5 320 (Title mentions Core 7 350; spec sheet lists Core 5 320)",
+   "Processor Frequency": "Max Turbo up to 4.6GHz",
+   "Processor Core": "6 Cores (2P + 4LPE)",
+   "Processor Thread": "6 Threads",
+   "CPU Cache": "6MB Intel Smart Cache",
+   "NPU": "Up to 16 TOPS"
+  },
+  "Memory": {
+   "Bus Speed": "4800MHz (Supports up to 5600MHz)",
+   "Max RAM Capacity": "Up to 32GB DDR5-5600",
+   "Ram": "16GB",
+   "Ram Type": "DDR5",
+   "Total RAM Slot": "1x DDR5 SODIMM slot",
+   "Removable": "Yes (1x SODIMM slot)"
+  },
+  "Storage": {
+   "Storage Type": "M.2 2242 PCIe 4.0x4 NVMe SSD",
+   "Storage Capacity": "512GB",
+   "Storage Upgrade": "Up to 1TB M.2 2242 SSD (replacing existing drive)",
+   "Supported SSD Type": "M.2 2242 PCIe 4.0x4 NVMe",
+   "Extra M.2 Slot": "No (One M.2 2242 PCIe 4.0 x4 slot total)"
+  },
+  "Keyboard & TouchPad": {
+   "Keyboard Type": "Italian",
+   "Keyboard Features": "Non-backlit",
+   "TouchPad": "Buttonless Mylar surface multi-touch touchpad, supports Precision TouchPad (PTP), 75 x 120 mm"
+  },
+  "Camera & Audio": {
+   "Webcam": "HD 720p",
+   "Speaker": "Stereo speakers, 2W x2",
+   "Microphone": "Dual-microphone array",
+   "Audio Features": "High Definition (HD) Audio, optimized with Dolby Audio"
+  },
+  "Ports & Slots": {
+   "Display Port": "Via USB-C (DisplayPort 1.2)",
+   "Card Reader": "SD card reader",
+   "HDMI Port": "1x HDMI 1.4",
+   "USB 3 Port": "2x USB-A (USB 5Gbps)",
+   "USB Type-C / Thunderbolt Port": "1x USB-C (USB 5Gbps, with USB PD 45-65W and DisplayPort 1.2)",
+   "Headphone & Microphone Port": "1x Headphone/microphone combo jack (3.5mm)"
+  },
+  "Network & Connectivity": {
+   "WiFi": "Wi-Fi 6, 802.11ax 2x2",
+   "Bluetooth": "Bluetooth 5.3"
+  },
+  "Security": {
+   "Camera Privacy Shutter": "Yes",
+   "Security Chip": "Firmware TPM 2.0 Enabled"
+  },
+  "Software": {
+   "Operating System": "Windows 11 Home (Italian / English)"
+  },
+  "Chipset": {
+   "Chipset Model": "Intel SoC (System on Chip) platform"
+  },
+  "Display": {
+   "Display Size": "15.3-inch",
+   "Display Type": "IPS",
+   "Display Resolution": "WUXGA (1920x1200)",
+   "Display Features": "Anti-glare, 90.7% AAR (active area ratio)",
+   "Color Gamut": "45% NTSC",
+   "Refresh Rate": "60Hz",
+   "Brightness": "400 nits"
+  },
+  "Power": {
+   "Battery Capacity": "50Wh",
+   "Adapter Type": "Round tip power connector (No power adapter included in box)"
+  },
+  "Physical Specification": {
+   "Weight": "Starting at 1.59 kg (3.51 lbs)",
+   "Colors": "Luna Grey",
+   "Body Material": "PC-ABS (top), PC-ABS (bottom)"
+  },
+  "Warranty Information": {
+   "Warranty": "2-Year (1-Year battery) courier or carry-in service"
+  },
+  "Image": {
+   "Model": "IdeaPad Slim 3 15IWC11 83RR00G3LK"
+  }
+ },
+ "key_features": [],
+ "model": "IdeaPad Slim 3 15IWC11 83RR00G3LK",
+ "warranty": "2-Year (1-Year battery) courier or carry-in service",
+ "fetched": "2026-11-27T19:08+06:00",
+ "source": "https://www.creatus.com.bd/lenovo-ideapad-slim-3-15iwc11-83rr00g3lk-laptop",
+ "store": "creatus"
+}
