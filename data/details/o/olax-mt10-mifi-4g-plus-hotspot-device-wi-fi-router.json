@@ -1,0 +1,58 @@
+{
+ "specs": {
+  "Specifications": {
+   "CPU": "ZX297520V3E",
+   "Wi-Fi chipset": "SV8189",
+   "Memory": "ROM/RAM: 1Gb NAND Flash/512Mb RAM",
+   "USIM Slot": "1.8V/3.0V USIM 3FF",
+   "Interface": "MicroUSB interface",
+   "Operating": "-10℃ ~ 50℃",
+   "Standard": "IEEE 802.11b/g/n",
+   "Channel Bandwidth": "20MHz,40MHz",
+   "Frequency": "2.4G",
+   "TXRX": "1T1R",
+   "Peak Rate": "802.11b:11Mbps"
+  },
+  "MicroSD interface": {
+   "Power Button": "Hold on 3s to power on/off"
+  },
+  "Short press to wake up /Light the LED": {
+   "T CARD": "Upward compatible to 32 GB",
+   "Reset Button": "Tactile button. Long press over 10s to restore the factory settings",
+   "LCD Indicators": "color full LCD display :"
+  },
+  "operator name , signal status,": {
+   "Battery": "3000Mah lithium Battery",
+   "Dimensions": "97*58.5*18.9mm",
+   "Weight": "About 100g"
+  },
+  "Temperature": {
+   "Storage": "-20℃ ~ 60℃",
+   "Operating": "5% ~ 95%"
+  },
+  "Humidity": {
+   "Standby time": "300 hours(LTE connected and WIFI off)",
+   "Working time": "6~8 hours"
+  },
+  "802.11n:150Mbps": {
+   "Modulation": "DSSS/CCK,OFDM",
+   "Receive Sensitivity": "-82dBm in 802.11b"
+  },
+  "-62dBm in 802.11n": {
+   "MAX Output Power": "17dBm in 802.11b"
+  },
+  "15dBm in 802.11g 14dBm in 802.11n": {
+   "Antenna Type": "Internal Antenna",
+   "Antenna Gain": "2~3dBi",
+   "Active User": "Max 15"
+  }
+ },
+ "key_features": [
+  "Battery Capacity: 3000mAh, 6-8 hours working time",
+  "Voltage: 3.7V",
+  "SIM card slot: 1 SIM Card Support"
+ ],
+ "fetched": "2026-11-28T18:30+06:00",
+ "source": "https://diamu.com.bd/product/olax-mt10-mifi-4g-lte-wi-fi-router/",
+ "store": "diamu"
+}

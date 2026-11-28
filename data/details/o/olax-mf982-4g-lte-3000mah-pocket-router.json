@@ -1,0 +1,37 @@
+{
+ "specs": {
+  "Specifications": {
+   "LTE catalog": "CAT 4",
+   "CPU": "ZTE ZX297520V3",
+   "LCD/LED": "LCD/LED",
+   "Working temperature": "-10°C to 60°C",
+   "Storage temperature": "-30°C to 80°C",
+   "The operating system": "Win7, Windows XP, Vista, Mac OS",
+   "Shared": "Up to 10 users",
+   "size": "around 97*58.5*18.9mm",
+   "The weight of the": "around 80.2g"
+  },
+  "Frequency": {
+   "LTE": "1/2/3/4/5/6/7/8/9/12/13/",
+   "WDMA": "B1/2/5/8/",
+   "GSM": "B2/3/5/8/"
+  },
+  "Peak rate": {
+   "LTE DL": "150Mbps,UL: 50Mbps (Category 4)",
+   "WCDMA DL": "21Mbps,UL: 5.76Mbps"
+  },
+  "The adapter": {
+   "The input voltage": "100V~240V,50Hz~60Hz",
+   "The output voltage": "5V DC±10%",
+   "The output current": "1A"
+  }
+ },
+ "key_features": [
+  "LTE catalog: CAT 4",
+  "Wi-Fi: 300Mbps, up to 10 users supported",
+  "Lasting Power Supply: 14 hours Enduring time-based on high-quality 3000mAh lithium battery"
+ ],
+ "fetched": "2026-11-28T18:29+06:00",
+ "source": "https://diamu.com.bd/product/olax-mf982-4g-lte-3000mah-pocket-router/",
+ "store": "diamu"
+}
